@@ -4,12 +4,12 @@ title: Dokumente ein-/auschecken
 description: Dokumente ein-/auschecken
 keywords: Dokument
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice CRM
+language: de
 pilot: yes
 ---
 
@@ -42,7 +42,7 @@ Zeigen Sie mit dem Mauszeiger auf ein Symbol, um Informationen über den Benutze
 
 Wenn Sie versuchen, ein ausgechecktes Dokument zu öffnen, wird ein Dialogfeld mit Informationen über den Benutzer angezeigt, der das Dokument ausgecheckt hat. Sie können das Dokument nur im Lesemodus öffnen.
 
-### [Neu (ab Version 10.3.9 pilot)](#tab/lock-new)
+### [Neu (ab Version 10.3.10 pilot)](#tab/lock-new)
 
 Im Dialogfeld **Dokument** zeigt ein ausgechecktes Dokument ein Banner mit Informationen darüber, wer das Dokument bearbeitet.
 

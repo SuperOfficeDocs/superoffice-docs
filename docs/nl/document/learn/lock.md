@@ -4,12 +4,12 @@ title: Documenten aan/afmelden
 description: Documenten aan/afmelden
 keywords: document
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+language: nl
 pilot: yes
 ---
 
@@ -42,7 +42,7 @@ Houd de muisaanwijzer op een pictogram om informatie over de gebruiker weer te g
 
 Als u probeert een afgemeld document te openen, wordt er een dialoogvenster weergegeven met informatie over de persoon die het document heeft afgemeld. U kunt het document alleen in leesmodus openen.
 
-### [Nieuw (vanaf versie 10.3.9 pilot)](#tab/lock-new)
+### [Nieuw (vanaf versie 10.3.10 pilot)](#tab/lock-new)
 
 In het dialoogvenster **Document** toont een afgemeld document een banner die aangeeft wie het bewerkt.
 

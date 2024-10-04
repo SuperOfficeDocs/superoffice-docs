@@ -4,12 +4,12 @@ title: Nieuw document maken
 description: Maak een nieuw document rechtstreeks in SuperOffice CRM of upload bestaande documenten, om ervoor te zorgen dat u en uw collega's altijd toegang hebben tot de nieuwste documenten en versies. Deze handleiding laat u zien hoe u beide kunt doen.
 keywords: document
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+language: nl
 pilot: yes
 ---
 
@@ -106,7 +106,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 ![Document maken vanuit sjabloon (Klassiek) -screenshot][img3]
 
-### [Nieuw (vanaf versie 10.3.9 pilot)](#tab/dialog-new)
+### [Nieuw (vanaf versie 10.3.10 pilot)](#tab/dialog-new)
 
 ![Document maken vanuit sjabloon (Nieuw) -screenshot][img4]
 
@@ -150,7 +150,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 3. (optioneel) Markeer het document als voltooid:
 
      * Klassieke dialoog: Klik op het vinkje pictogram rechtsboven in de dialoog.
-     * Nieuw (vanaf versie 10.3.9 pilot): Selecteer het selectievakje in de voettekst.
+     * Nieuw (vanaf versie 10.3.10 pilot): Selecteer het selectievakje in de voettekst.
 
 4. [Typ de gewenste informatie in de verschillende velden.](#fields)
 

@@ -4,12 +4,12 @@ title: Create new document
 description: Create a new document directly in SuperOffice CRM or upload existing ones, to make sure you and your colleagues always have access to the latest documents and versions. This how-to guide will show you how to do both.
 keywords: document, SharePoint, create document, upload document, online text-editing
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 pilot: yes
 ---
 
@@ -107,7 +107,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 ![Create document from template (classic) -screenshot][img3]
 
-### [New (from version 10.3.9 pilot)](#tab/dialog-new)
+### [New (from version 10.3.10 pilot)](#tab/dialog-new)
 
 ![Create document from template (new) -screenshot][img4]
 
@@ -151,7 +151,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 3. (optional) Mark the document as completed:
 
     * Classic dialog: Click the checkmark icon at the top-right of the dialog.
-    * New (from version 10.3.9 pilot): Select the checkbox in the footer.
+    * New (from version 10.3.10 pilot): Select the checkbox in the footer.
 
 4. [Complete the fields with the required information](#fields).
 

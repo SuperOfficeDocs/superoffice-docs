@@ -22,6 +22,9 @@ Dialogboksen består av en hovedseksjon med generell informasjon om dokumentet, 
 * Koblinger
 * Mer
 
+> [!NOTE]
+> Beskrivelsene på denne siden gjelder den klassiske Dokumentdialogen. Hvis du bruker pilotversjonen av den nye Dokumentdialogen, se [seksjonen Felt][6] i veiledningen for forklaring av dialoger og felter.
+
 ## Hovedseksjon
 
 Hovedseksjonen inneholder følgende grunnleggende informasjon om dokumentet:

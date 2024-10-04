@@ -4,12 +4,12 @@ title: Skapa ett nytt dokument
 description: Skapa ett nytt dokument direkt i SuperOffice CRM eller ladda upp befintliga dokument så att du och dina kollegor alltid har tillgång till de senaste dokumenten och versionerna. Den här guiden visar hur du gör båda.
 keywords: dokument
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: sv
 audience: person
-audience_tooltip: SuperOffice CRM
+audience_tootip: SuperOffice CRM
+language: sv
 pilot: yes
 ---
 
@@ -106,7 +106,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 ![Skapa dokument från mall (klassisk) -screenshot][img3]
 
-### [Ny (från version 10.3.9 pilot)](#tab/dialog-new)
+### [Ny (från version 10.3.10 pilot)](#tab/dialog-new)
 
 ![Skapa dokument från mall (ny) -screenshot][img4]
 
@@ -147,10 +147,10 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 2. Dra och släpp dokument från Utforskaren till dialogrutan **Dokument**.
 
-3. (valfritt) Markera dokumentet som slutfört: 
+3. (valfritt) Markera dokumentet som slutfört:
 
-    * Klassisk dialog: Klicka på bockikonen uppe till höger i dialogrutan. 
-    * Ny (från version 10.3.9 pilot): Välj kryssrutan i sidfoten.
+    * Klassisk dialog: Klicka på bockikonen uppe till höger i dialogrutan.
+    * Ny (från version 10.3.10 pilot): Välj kryssrutan i sidfoten.
 
 4. [Ange den information som behövs i fälten](#fields).
 

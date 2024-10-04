@@ -4,12 +4,12 @@ title: Dokument
 description: Denne vejledning viser dig, hvordan du kan oprette og gemme dokumenter i SuperOffice CRM, og hvordan du kan sende og modtage dokumenter direkte i din CRM-løsning.
 keywords: dokument
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 pilot: yes
 ---
 

@@ -4,12 +4,12 @@ title: Opprett nytt dokument
 description: Opprett et nytt dokument direkte i SuperOffice CRM, eller last opp eksisterende, for å sikre at du og kollegene dine alltid har tilgang til de nyeste dokumentene og versjonene. Denne veiledningen viser deg hvordan du gjør begge deler.
 keywords: dokument
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
 pilot: yes
 ---
 
@@ -106,7 +106,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 ![Opprett dokument fra mal (klassisk) -screenshot][img3]
 
-### [Ny (fra version 10.3.9 pilot)](#tab/dialog-new)
+### [Ny (fra version 10.3.10 pilot)](#tab/dialog-new)
 
 ![Opprett dokument fra mal (ny) -screenshot][img4]
 
@@ -150,7 +150,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 3. (valgfritt) Marker dokumentet som fullført:
 
      * Klassisk dialog: Klikk på hakeikonet øverst til høyre i dialogboksen.
-     * Ny (fra versjon 10.3.9 pilot): Velg avmerkingsboksen i footeren.
+     * Ny (fra versjon 10.3.10 pilot): Velg avmerkingsboksen i footeren.
 
 4. [Fyll ut feltene med nødvendig informasjon](#fields).
 

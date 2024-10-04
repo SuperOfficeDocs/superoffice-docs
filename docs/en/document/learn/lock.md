@@ -4,12 +4,12 @@ title: Check in/out documents
 description: Check in/out documents
 keywords: document, check in, lock document, edit mode, read mode, ask to edit or read, revert to saved version
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: concept
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 pilot: yes
 ---
 
@@ -42,7 +42,7 @@ Hold the mouse pointer over an icon to show information about the user who check
 
 If you attempt to open a checked-out document, a dialog appears with information about who checked out the document. You can open the document in read mode only.
 
-### [New (from version 10.3.9 pilot)](#tab/lock-new)
+### [New (from version 10.3.10 pilot)](#tab/lock-new)
 
 In the **Document** dialog, a checked-out document displays a banner showing who is editing it.
 

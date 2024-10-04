@@ -4,12 +4,12 @@ title: Opret nyt dokument
 description: "Opret et nyt dokument direkte i SuperOffice CRM eller upload eksisterende, så du og dine kolleger altid har adgang til de nyeste dokumenter og versioner. Denne vejledning viser dig, hvordan du gør begge dele."
 keywords: dokument
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 pilot: yes
 ---
 
@@ -106,7 +106,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 ![Opret dokument fra skabelon (klassisk) -screenshot][img3]
 
-### [Ny (fra version 10.3.9 pilot)](#tab/dialog-new)
+### [Ny (fra version 10.3.10 pilot)](#tab/dialog-new)
 
 ![Opret dokument fra skabelon (ny) -screenshot][img4]
 
@@ -150,7 +150,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 3. (valgfrit) Marker dokumentet som udført:
 
     * Klassisk dialog: Klik på flueben-ikonet øverst til højre i dialogboksen.
-    * Ny (fra version 10.3.9 pilot): Vælg afkrydsningsfeltet i footeren.
+    * Ny (fra version 10.3.10 pilot): Vælg afkrydsningsfeltet i footeren.
 
 4. [Indtast de ønskede oplysninger i felterne][2].
 

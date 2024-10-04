@@ -4,12 +4,12 @@ title: Sjekke inn/ut dokumenter
 description: Sjekke inn/ut dokumenter
 keywords: dokument
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
 pilot: yes
 ---
 
@@ -42,7 +42,7 @@ Hold musepekeren over et ikon for å vise informasjon om hvem som sjekket ut dok
 
 Hvis du prøver å åpne et utsjekket dokument, vises en dialogboks med informasjon om hvem som sjekket ut dokumentet. Du kan bare åpne dokumentet i lesemodus.
 
-### [Ny (fra version 10.3.9 pilot)](#tab/lock-new)
+### [Ny (fra version 10.3.10 pilot)](#tab/lock-new)
 
 I dialogboksen **Dokument** viser et utsjekket dokument en banner som viser hvem som redigerer det.
 

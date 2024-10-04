@@ -22,6 +22,9 @@ Dialogboksen består af en hoveddel med generelle oplysninger om dokumentet samt
 * Links
 * Mere
 
+> [!NOTE]
+> Beskrivelserne på denne side vedrører den klassiske Dokumentdialog. Hvis du bruger pilotversionen af den nye Dokumentdialog, se [Feltafdelingen][6] i vejledningen for forklaring af dialoger og felter.
+
 ## Hovedafsnit
 
 Hoveddelen indeholder følgende grundlæggende oplysninger om dokumentet:

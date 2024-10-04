@@ -4,12 +4,12 @@ title: Indtjekning/udtjekning af dokumenter
 description: Indtjekning/udtjekning af dokumenter
 keywords: dokument, indtjek, udtjek, tilbage til gemt version, redigeringstilstand, læsetilstand, spørg før redigering eller læsning
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 pilot: yes
 ---
 
@@ -42,7 +42,7 @@ Hold musemarkøren over et ikon for at vise oplysninger om den bruger, der har t
 
 Hvis du prøver at åbne et udtjekket dokument, vises en dialogboks med oplysninger om, hvem der har tjekket dokumentet ud. Du kan kun åbne dokumentet i læsetilstand.
 
-### [Ny (fra version 10.3.9 pilot)](#tab/lock-new)
+### [Ny (fra version 10.3.10 pilot)](#tab/lock-new)
 
 I dialogboksen **Dokument** viser et udtjekket dokument en banner med information om, hvem der redigerer det.
 

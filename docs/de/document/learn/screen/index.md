@@ -22,6 +22,9 @@ Das Dialogfeld besteht aus einer Hauptkomponente mit allgemeinen Informationen �
 * Links
 * Mehr
 
+> [!NOTE]
+> Die Beschreibungen auf dieser Seite beziehen sich auf den klassischen Dokumentdialog. Wenn Sie die Pilotversion des neuen Dokument-Dialogs verwenden, sehen Sie im [Abschnitt Felder][6] in der Anleitung zur Erklärung von Dialogen und Feldern nach.
+
 ## Hauptkomponenten
 
 Die Hauptkomponente enthält die folgenden wichtigen Informationen über das Dokument:

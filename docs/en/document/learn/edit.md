@@ -4,12 +4,12 @@ title: Edit documents
 description: Editing documents; Deleting documents
 keywords: document, edit mode, read mode, completed, document properties, document content, SharePoint
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 pilot: yes
 ---
 
@@ -137,7 +137,7 @@ If you double-click a document and nothing happens, try to right-click it and se
 
 ## Related content
 
-* [Change Completed status of an activity][2]
+* [Change Completed status of an activity][4]
 
 <!-- Referenced links -->
 [1]: lock.md

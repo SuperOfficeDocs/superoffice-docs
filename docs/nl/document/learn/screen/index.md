@@ -22,6 +22,9 @@ Het dialoogvenster bestaat uit een hoofdonderdeel met algemene informatie over h
 * Koppelingen
 * Meer
 
+> [!NOTE]
+> De beschrijvingen op deze pagina hebben betrekking op het klassieke Documentdialoogvenster. Als u de pilotversie van het nieuwe Documentdialoogvenster gebruikt, raadpleeg de [sectie Velden][6] in de handleiding voor uitleg over dialoogvensters en velden.
+
 ## Hoofdonderdeel
 
 Het hoofdonderdeel bevat de volgende essentiële informatie over het document:

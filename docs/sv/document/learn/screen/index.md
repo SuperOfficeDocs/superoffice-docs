@@ -22,6 +22,9 @@ Dialogrutan består av en huvuddel med allmän information om dokumentet samt f�
 * Länkar
 * Mer
 
+> [!NOTE]
+> Beskrivningarna på den här sidan avser den klassiska Dokumentdialogen. Om du använder pilotversionen av den nya Dokumentdialogen, se [Fältsektionen][6] i instruktionen för förklaring av dialoger och fält.
+
 ## Huvuddel
 
 Huvuddelen innehåller följande grundläggande information om dokumentet:

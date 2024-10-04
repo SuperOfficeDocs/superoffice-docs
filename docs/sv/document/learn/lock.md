@@ -4,12 +4,12 @@ title: Checka in/ut dokument
 description: Checka in/ut dokument
 keywords: dokument
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice CRM
+language: sv
 pilot: yes
 ---
 
@@ -42,7 +42,7 @@ Håll muspekaren över en ikon för att visa information om användaren som har 
 
 Om du försöker öppna ett utcheckat dokument visas en dialogruta med information om vem som har checkat ut dokumentet. Du kan bara öppna dokumentet i läsläge.
 
-### [Ny (från version 10.3.9 pilot)](#tab/lock-new)
+### [Ny (från version 10.3.10 pilot)](#tab/lock-new)
 
 I dialogrutan **Dokument** visar ett utcheckat dokument en banner som visar vem som redigerar det.
 

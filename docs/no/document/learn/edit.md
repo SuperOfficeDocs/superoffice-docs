@@ -4,12 +4,12 @@ title: Redigere dokument
 description: Redigere dokument
 keywords: dokument
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
 pilot: yes
 ---
 
