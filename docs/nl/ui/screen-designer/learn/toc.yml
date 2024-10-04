@@ -15,7 +15,7 @@ items:
   href: working-with-archives.md
 - name: Knop of koppeling toevoegen
   href: add-button.md
-- name: Opmaak toewijzen aan groep/type
+- name: Opmaak toewijzen aan groep/type/sjabloon
   href: assign-layout.md
 - name: Veldeferentie
   href: reference.md

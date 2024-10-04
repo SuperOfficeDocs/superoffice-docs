@@ -115,24 +115,24 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 
 | Feld | Typ | Kommentar |
 |---|---|---|
-| Firma | Dropdown | |
-| Konkurrent | Dropdown | |
-| Kontakt | Dropdown | |
-| Gutschrift | Dropdown | |
+| Firma | Drop-down | |
+| Konkurrent | Drop-down | |
+| Kontakt | Drop-down | |
+| Gutschrift | Drop-down | |
 | Beschreibung | Textfeld | Anzahl der Zeilen auswählen. Hat kein Label |
 | Letzte Änderung | Datum | |
 | Links | Links | Keine Optionen |
 | Nummer | Text | |
-| Besitzer | Dropdown | |
+| Besitzer | Drop-down | |
 | Wahrscheinlichkeit | Text | Rechtsbündiger Prozentwert |
 | Gewinn | Nummer | Prozent und Betrag |
-| Projekt | Dropdown | |
+| Projekt | Drop-down | |
 | Registrierungsdatum | Datum | |
 | Verkaufsdatum | Datumsauswahl | |
-| Verkaufstyp | Dropdown | |
+| Verkaufstyp | Drop-down | |
 | Verkäufe | Text | |
-| Quelle | Dropdown | |
-| Phase | Dropdown | |
+| Quelle | Drop-down | |
+| Phase | Drop-down | |
 | Phase - Arbeitsablauf | Mehrzeiliger Text | Keine Optionen |
 | Gesamtkosten | Nummer | Rechtsbündiger Betrag |
 | Sichtbar für | Text | |
@@ -163,9 +163,9 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | Projekt | Text | |
 | Veröffentlicht | Kontrollkästchen | |
 | Registrierungsdatum | Datum | |
-| Verantwortlich | Dropdown | |
-| Status | Dropdown | |
-| Typ | Dropdown | |
+| Verantwortlich | Drop-down | |
+| Status | Drop-down | |
+| Typ | Drop-down | |
 | Webseite | Text | |
 | Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
 
@@ -185,10 +185,10 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 
 | Feld | Typ | Kommentar |
 |---|---|---|
-| Zugriffslevel | Dropdown | |
+| Zugriffslevel | Drop-down | |
 | Alarm-Timeout | Text | |
 | Autor | Text | |
-| Kategorie | Dropdown | |
+| Kategorie | Drop-down | |
 | Geschlossen am | Datum | |
 | Firma | Text | |
 | Kontakt | Text | |
@@ -206,10 +206,10 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | Anzahl der Nachrichten | Zeit | |
 | Anzahl der Antworten | Zeit | |
 | Herkunft | Text | |
-| Besitzer | Dropdown | |
+| Besitzer | Drop-down | |
 | Verschoben auf | Text | |
-| Priorität | Dropdown | |
-| Projekt | Dropdown | |
+| Priorität | Drop-down | |
+| Projekt | Drop-down | |
 | Gelesen | Text | |
 | Gelesen vom Besitzer | Datum | |
 | Externe Echtzeit | Zeit | |
@@ -218,12 +218,12 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 | Echtzeit zum Schließen | Zeit | |
 | Echtzeit zur Antwort | Zeit | |
 | Geantwortet am | Datum | |
-| [Anfragetyp][13] | Dropdown | |
-| Verkauf | Dropdown | |
+| [Anfragetyp][13] | Drop-down | |
+| Verkauf | Drop-down | |
 | Sentiment | Text | |
 | Sentiment Vertrauen | Text | |
-| Status | Dropdown | |
-| Tags | Dropdown | Keine Optionen |
+| Status | Drop-down | |
+| Tags | Drop-down | Keine Optionen |
 | Verbrachte Zeit | Zeit | |
 | Verbrachte Zeit extern | Zeit | |
 | Verbrachte Zeit in der Warteschlange | Zeit | |
@@ -246,19 +246,19 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 
 | Feld | Typ | Kommentar |
 |---|---|---|
-| Alarm | Dropdown | |
+| Alarm | Drop-down | |
 | [Verfügbarkeit prüfen][15] | Terminassistent | |
 | Abgeschlossen | Kontrollkästchen | |
 | Links | Mehrzeiliger Text | Anzahl der Zeilen auswählen. Hat kein Label |
-| Besitzer | Dropdown | |
-| Priorität | Dropdown | |
-| Projekt | Dropdown | |
-| Verkauf | Dropdown | |
+| Besitzer | Drop-down | |
+| Priorität | Drop-down | |
+| Projekt | Drop-down | |
+| Verkauf | Drop-down | |
 | [Vorgeschlagene Zeitfenster][15] | | Keine Optionen |
 | Titel | Text | Position gesperrt. |
-| Typ | Dropdown | Position gesperrt |
+| Typ | Drop-down | Position gesperrt |
 | Videolink | Text | Keine Optionen |
-| Sichtbar für | Dropdown | Keine Optionen |
+| Sichtbar für | Drop-down | Keine Optionen |
 | Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
 
 * Pflichtfelder können nicht verschoben oder entfernt werden. Dies gilt für: Titel, Typ, Zeit, Firma/Kontakt, Teilnehmer, Orte und Ressourcen.
@@ -280,15 +280,15 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 
 | Feld | Typ | Kommentar |
 |---|---|---|
-| Sprache | Dropdown | Platzierung gesperrt |
+| Sprache | Drop-down | Platzierung gesperrt |
 | Datum | Datumsauswahl | Platzierung gesperrt |
-| Sichtbar für | Dropdown | Keine Optionen |
+| Sichtbar für | Drop-down | Keine Optionen |
 | Bearbeitet von/Gesperrt von | Text | Platzierung gesperrt |
 | Betreff | Text | Der Titel/Überschrift |
-| [Dokumentvorlage][22] | Dropdown | Platzierung gesperrt |
-| Firma/Kontakt | Dropdown | Platzierung gesperrt |
-| Verkauf | Dropdown | |
-| Projekt | Dropdown | |
+| [Dokumentvorlage][22] | Drop-down | Platzierung gesperrt |
+| Firma/Kontakt | Drop-down | Platzierung gesperrt |
+| Verkauf | Drop-down | |
+| Projekt | Drop-down | |
 | Unsere Ref / Ihre Ref | Text | |
 | Tab-Leiste | | Platzierung gesperrt |
 | Dokument | | Platzierung gesperrt |

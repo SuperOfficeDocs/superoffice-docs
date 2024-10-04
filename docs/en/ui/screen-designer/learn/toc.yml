@@ -15,9 +15,9 @@ items:
   href: working-with-archives.md
 - name: Add link or button
   href: add-button.md
-- name: Assign layout to group or type
+- name: Assign layout to group/type/template
   href: assign-layout.md
-- name: Element reference
+- name: Field reference
   href: reference.md
 - name: Tutorial - place country before address
   href: tutorial-move-country.yml

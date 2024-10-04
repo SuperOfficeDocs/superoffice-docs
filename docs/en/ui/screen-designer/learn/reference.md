@@ -115,10 +115,10 @@ For details about the value of each field, see the [Person database table][3].
 
 | Field | Type | Comment |
 |---|---|---|
-| Company | Dropdown | |
-| Competitor | Dropdown | |
-| Contact | Dropdown | |
-| Credited | Dropdown | |
+| Company | Drop-down | |
+| Competitor | Drop-down | |
+| Contact | Drop-down | |
+| Credited | Drop-down | |
 | Description | Text box | Select number of rows. Has no label |
 | Last modified | Date | |
 | Links | Links | Has no options |
@@ -126,12 +126,12 @@ For details about the value of each field, see the [Person database table][3].
 | Owner | Drop-down | |
 | Probability | Text | Right-aligned percent |
 | Profit | Number | Percent and amount |
-| Project | Dropdown  | |
+| Project | Drop-down  | |
 | Registered date | Date | |
 | Sale date | Date picker | |
 | Sale type | Drop-down | |
 | Sales | Text | |
-| Source | Dropdown | |
+| Source | Drop-down | |
 | Stage | Drop-down | |
 | Stage - workflow | Multiline text | Has no options |
 | Total cost | Number | Right-aligned amount |
@@ -274,21 +274,21 @@ For details about the value of each field, see the [Appointment database table][
 * Links
 * More
 
-## Document (in pilot from version 10.3.8)
+## Document (in pilot from version 10.3.10)
 
 **Standard fields:**
 
 | Field | Type | Comment |
 |---|---|---|
-| Language | Dropdown | Placement locked |
+| Language | Drop-down | Placement locked |
 | Date | Date picker | Placement locked |
 | Visible for | Drop-down | Has no options |
 | Edited by/Locked by | Text | Placement locked |
 | Subject | Text | The title/heading |
-| [Document template][22] | Dropdown | Placement locked |
-| Company/Contact | Dropdown | Placement locked |
-| Sale | Dropdown | |
-| Project | Dropdown | |
+| [Document template][22] | Drop-down | Placement locked |
+| Company/Contact | Drop-down | Placement locked |
+| Sale | Drop-down | |
+| Project | Drop-down | |
 | Our ref / Your ref | Text | |
 | Tab-bar | | Placement locked |
 | Document | | Placement locked |

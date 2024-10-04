@@ -280,15 +280,15 @@ For detaljer om verdien av hvert felt, se [databasereferansen][7].
 
 | Felt | Type | Kommentar |
 |---|---|---|
-| Språk | Dropdown | Låst plassering |
+| Språk | Drop-down | Låst plassering |
 | Dato | Datovelger | Låst plassering |
-| Synlig for | Dropdown | Ingen alternativer |
+| Synlig for | Drop-down | Ingen alternativer |
 | Redigert av/Låst av | Tekst | Låst plassering |
 | Emne | Tekst | Tittel/overskrift |
-| [Dokumentmal][22] | Dropdown | Låst plassering |
-| Firma/Kontakt | Dropdown | Låst plassering |
-| Salg | Dropdown | |
-| Prosjekt | Dropdown | |
+| [Dokumentmal][22] | Drop-down | Låst plassering |
+| Firma/Kontakt | Drop-down | Låst plassering |
+| Salg | Drop-down | |
+| Prosjekt | Drop-down | |
 | Vår ref / Din ref | Tekst | |
 | Fanebar | | Låst plassering |
 | Dokument | | Låst plassering |

@@ -15,7 +15,7 @@ items:
   href: working-with-archives.md
 - name: Lägg till knapp eller länk
   href: add-button.md
-- name: Tilldela layout till grupp/typ
+- name: Tilldela layout till grupp/typ/mall
   href: assign-layout.md
 - name: Fältreferens
   href: reference.md

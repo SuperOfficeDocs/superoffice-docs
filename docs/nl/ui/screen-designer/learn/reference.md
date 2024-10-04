@@ -115,24 +115,24 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][3].
 
 | Veld | Type | Opmerking |
 |---|---|---|
-| Bedrijf | Dropdown | |
-| Concurrent | Dropdown | |
-| Contact | Dropdown | |
-| Gecrediteerd | Dropdown | |
+| Bedrijf | Drop-down | |
+| Concurrent | Drop-down | |
+| Contact | Drop-down | |
+| Gecrediteerd | Drop-down | |
 | Beschrijving | Tekstvak | Selecteer aantal rijen. Geen label |
 | Laatst gewijzigd | Datum | |
 | Links | Links | Geen opties |
 | Nummer | Tekst | |
-| Eigenaar | Dropdown | |
+| Eigenaar | Drop-down | |
 | Waarschijnlijkheid | Tekst | Rechts uitgelijnd percentage |
 | Winst | Nummer | Percentage en bedrag |
-| Project | Dropdown | |
+| Project | Drop-down | |
 | Registratiedatum | Datum | |
 | Verkoopdatum | Datumpicker | |
-| Verkooptype | Dropdown | |
+| Verkooptype | Drop-down | |
 | Verkoop | Tekst | |
-| Bron | Dropdown | |
-| Fase | Dropdown | |
+| Bron | Drop-down | |
+| Fase | Drop-down | |
 | Fase - workflow | Meerdere regels tekst | Geen opties |
 | Totale kosten | Nummer | Rechts uitgelijnd bedrag |
 | Zichtbaar voor | Tekst | |
@@ -163,9 +163,9 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][4].
 | Project | Tekst | |
 | Gepubliceerd | Vinkvakje | |
 | Registratiedatum | Datum | |
-| Verantwoordelijk | Dropdown | |
-| Status | Dropdown | |
-| Type | Dropdown | |
+| Verantwoordelijk | Drop-down | |
+| Status | Drop-down | |
+| Type | Drop-down | |
 | Website | Tekst | |
 | Aangepaste velden | | Zowel gebruikersgedefinieerde als extra |
 
@@ -185,10 +185,10 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][5].
 
 | Veld | Type | Opmerking |
 |---|---|---|
-| Toegangsniveau | Dropdown | |
+| Toegangsniveau | Drop-down | |
 | Waarschuwingstime-out | Tekst | |
 | Auteur | Tekst | |
-| Categorie | Dropdown | |
+| Categorie | Drop-down | |
 | Gesloten op | Datum | |
 | Bedrijf | Tekst | |
 | Contact | Tekst | |
@@ -206,10 +206,10 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][5].
 | Aantal berichten | Tijd | |
 | Aantal antwoorden | Tijd | |
 | Oorsprong | Tekst | |
-| Eigenaar | Dropdown | |
+| Eigenaar | Drop-down | |
 | Uitgesteld naar | Tekst | |
-| Prioriteit | Dropdown | |
-| Project | Dropdown | |
+| Prioriteit | Drop-down | |
+| Project | Drop-down | |
 | Gelezen | Tekst | |
 | Gelezen door eigenaar | Datum | |
 | Externe tijd | Tijd | |
@@ -218,12 +218,12 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][5].
 | Tijd tot afsluiting | Tijd | |
 | Tijd tot antwoord | Tijd | |
 | Geantwoord op | Datum | |
-| [Verzoektype][13] | Dropdown | |
-| Verkoop | Dropdown | |
+| [Verzoektype][13] | Drop-down | |
+| Verkoop | Drop-down | |
 | Sentiment | Tekst | |
 | Sentiment vertrouwen | Tekst | |
-| Status | Dropdown | |
-| Tags | Dropdown | Geen opties |
+| Status | Drop-down | |
+| Tags | Drop-down | Geen opties |
 | Bestede tijd | Tijd | |
 | Bestede tijd extern | Tijd | |
 | Bestede tijd in wachtrij | Tijd | |
@@ -246,19 +246,19 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][6].
 
 | Veld | Type | Opmerking |
 |---|---|---|
-| Alarm | Dropdown | |
+| Alarm | Drop-down | |
 | [Beschikbaarheid controleren][15] | Plannerassistent | |
 | Voltooid | Vinkvakje | |
 | Links | Meerdere regels tekst | Selecteer aantal rijen. Geen label |
-| Eigenaar | Dropdown | |
-| Prioriteit | Dropdown | |
-| Project | Dropdown | |
-| Verkoop | Dropdown | |
+| Eigenaar | Drop-down | |
+| Prioriteit | Drop-down | |
+| Project | Drop-down | |
+| Verkoop | Drop-down | |
 | [Voorgestelde tijdsloten][15] | | Geen opties |
 | Titel | Tekst | Plaatsing vergrendeld. |
-| Type | Dropdown | Plaatsing vergrendeld |
+| Type | Drop-down | Plaatsing vergrendeld |
 | Videolink | Tekst | Geen opties |
-| Zichtbaar voor | Dropdown | Geen opties |
+| Zichtbaar voor | Drop-down | Geen opties |
 | Aangepaste velden | | Zowel gebruikersgedefinieerde als extra |
 
 * Verplichte velden kunnen niet worden verplaatst of verwijderd. Dit geldt voor: titel, type, tijd, bedrijf/contact, deelnemers, locaties en bronnen.
@@ -280,15 +280,15 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][7].
 
 | Veld | Type | Opmerking |
 |---|---|---|
-| Taal | Dropdown | Vergrendelde plaatsing |
+| Taal | Drop-down | Vergrendelde plaatsing |
 | Datum | Datumkiezer | Vergrendelde plaatsing |
-| Zichtbaar voor | Dropdown | Geen opties |
+| Zichtbaar voor | Drop-down | Geen opties |
 | Bewerkt door/Geblokkeerd door | Tekst | Vergrendelde plaatsing |
 | Onderwerp | Tekst | Titel/kop |
-| [Documentsjabloon][22] | Dropdown | Vergrendelde plaatsing |
-| Bedrijf/Contactpersoon | Dropdown | Vergrendelde plaatsing |
-| Verkoop | Dropdown | |
-| Project | Dropdown | |
+| [Documentsjabloon][22] | Drop-down | Vergrendelde plaatsing |
+| Bedrijf/Contactpersoon | Drop-down | Vergrendelde plaatsing |
+| Verkoop | Drop-down | |
+| Project | Drop-down | |
 | Onze ref / Uw ref | Tekst | |
 | Tab-balk | | Vergrendelde plaatsing |
 | Document | | Vergrendelde plaatsing |
