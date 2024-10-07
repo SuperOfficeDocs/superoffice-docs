@@ -2,7 +2,7 @@
 uid: release-notes-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
-keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up
+keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps
 author: SuperOffice AS – Research and Development
 date: 10.08.2024
 version: 10.3
@@ -22,6 +22,7 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.10 (08.10.2024):
+  * [Marketing Flows - Automation with flows with multiple mailings and other steps (10.3.10)][41] in Marketing
   * [Mailing - Audit check on email mailing (10.3.10)][41] in Marketing
   * [Mailing - Validation of preheader text in email mailing (10.3.10)][41] in Marketing
   * [Selection - Task for print labels (10.3.10)][42] in Core CRM
@@ -85,7 +86,7 @@ Latest released versions:
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
-* [SuperOffice Marketing Premium][20] (released 01.10.2024)
+* [SuperOffice Marketing Premium][20] (general available from 01.10.2024 - released in 10.3.9)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
 * [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
