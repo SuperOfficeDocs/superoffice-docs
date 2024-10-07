@@ -22,14 +22,14 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.10 (08.10.2024):
-  * [Marketing Flows - Automation with flows with multiple mailings and other steps (10.3.10)][41] in Marketing
+  * [Selection - Task for print labels (10.3.10)][42] in Core CRM
   * [Mailing - Audit check on email mailing (10.3.10)][41] in Marketing
   * [Mailing - Validation of preheader text in email mailing (10.3.10)][41] in Marketing
-  * [Selection - Task for print labels (10.3.10)][42] in Core CRM
 
 * 10.3.9 (17.09.2024):
   * [Column calculations on section tabs and selections (10.3.9)][38] in Core CRM
   * [Columns/fields - Base currency and currency options (10.3.9)][38] in Core CRM
+  * [**Marketing Premium** - Automate with flows including multiple mailings and other steps (10.3.9, 01.10.2024)][43] in Marketing
 
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
@@ -86,7 +86,7 @@ Latest released versions:
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
-* [SuperOffice Marketing Premium][20] (general available from 01.10.2024 - released in 10.3.9)
+* [SuperOffice Marketing Premium][20] (released in 10.3.9 - 01.10.2024)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
 * [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
@@ -164,5 +164,6 @@ See all the [new or updated apps][5]
 [40]: https://appstore.superoffice.com/sp-softwarepartner-gmbh/datev-eigenorganisation-sync
 [41]: marketing/10.3.10-update.md
 [42]: core-crm/10.3.10-update.md
+[43]: marketing/10.3.9-update.md
 
 <!-- Referenced images -->
