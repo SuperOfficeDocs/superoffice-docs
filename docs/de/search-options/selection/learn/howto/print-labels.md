@@ -2,31 +2,50 @@
 uid: help-de-selection-print-labels
 title: Etikettenselektion drucken
 description: Etikettenselektion drucken
+keywords: Selektion, Etikett, drucken
 author: Bergfrid Dias
-date: 03.29.2023
-keywords: Selektion
+date: 10.08.2024
+version: 10.3.10
 topic: howto
 language: de
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Etiketten drucken
 
-Das Drucken von Etiketten kann beispielsweise dann nützlich sein, wenn Sie mehrere Briefe auf einmal an verschiedene Empfänger verschicken möchten und dafür Adressenetiketten benötigen, die dann auf die Umschläge geklebt werden.
+Das Drucken von Etiketten kann nützlich sein, wenn Sie Briefe an mehrere Empfänger senden und schnell Adressetiketten erstellen möchten, die auf alle Umschläge geklebt werden können.
+
+> [!NOTE]
+> Ab Version 10.3.10 verwendet das Etikettendrucksystem die Druckfunktion des Browsers anstelle der PDF-Druckoption.
+
+## Schritte
 
 1. [!include[Start](../includes/steps-start-task.md)]
 
-2. Wählen Sie die Registerkarte **Firma/Person** aus.
+1. Gehen Sie zur Registerkarte **Firma/Person**.
 
-3. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Etiketten drucken**.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Etiketten drucken**.
 
-4. Wählen Sie das gewünschte Etikettenformat im Dialogfeld **Etikett wählen** aus und klicken Sie auf **OK**.
+1. Wählen Sie Ihr bevorzugtes Etikettenformat aus. Alle Layouts sind konfigurierbar und für alle Benutzer im Unternehmen zugänglich, sodass Sie sie bei Bedarf anpassen können.
 
-    > [!NOTE]
-    > In diesem Dialogfeld können Sie sowohl [neue Etikettenlayouts erstellen][2] als auch vorhandene Layouts bearbeiten und löschen.
+    ![Selektion - Etikettenformat auswählen -screenshot][img1]
 
-5. Öffnen Sie die erstelle PDF-Datei und drucken Sie sie aus.
+1. Überprüfen Sie die erforderlichen Einstellungen und klicken Sie auf **OK**.
+
+    ![Selektion - Etiketteneinrichtung und erforderliche Einstellungen -screenshot][img2]
+
+1. Passen Sie die Druckeinstellungen des Browsers (z. B. Skalierung, Ränder, Ausrichtung und Papiergröße) an, um sicherzustellen, dass die Adressen korrekt innerhalb des Etikettenbereichs angezeigt werden, ohne zu überlappen.
+
+    ![Selektion - Druckeinstellungen im Browser -screenshot][img3]
+
+    > [!TIP]
+    > Wenn Sie die Browserdruckfunktion für andere Elemente verwenden, müssen Sie möglicherweise **die Etiketteneinstellungen jedes Mal neu ausrichten**, um eine korrekte Ausrichtung sicherzustellen.
+
+1. Klicken Sie auf **Drucken**.
 
 <!-- Referenced links -->
-[2]: ../../../../reports/learn/labels/index.md
-
 <!-- Referenced images -->
+[img1]: ../../../../../media/loc/en/search-options/choose-label-layout-dialog.png
+[img2]: ../../../../../media/loc/en/search-options/selection-task-print-labels-dialog.png
+[img3]: ../../../../../media/loc/en/search-options/selection-task-print-labels-print-settings.png

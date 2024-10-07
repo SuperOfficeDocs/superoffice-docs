@@ -3,30 +3,49 @@ uid: help-nl-selection-print-labels
 title: Selectie labels afdrukken
 description: Selectie labels afdrukken
 author: Bergfrid Dias
-date: 03.29.2023
-keywords: selectie
+keywords: selectie, etiket, afdrukken
+date: 10.08.2024
+version: 10.3.10
 topic: howto
 language: nl
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Etiketten afdrukken
 
-Het afdrukken van etiketten komt van pas wanneer u bijvoorbeeld brieven moet verzenden naar veel ontvangers in Ã©Ã©n keer en u adresetiketten wilt maken om op de enveloppen te plakken.
+Het afdrukken van etiketten kan handig zijn wanneer u brieven naar meerdere ontvangers moet sturen en snel adresetiketten wilt maken om op alle enveloppen te plakken.
+
+> [!NOTE]
+> Vanaf versie 10.3.10 gebruikt de etiketafdrukfunctie de afdrukfunctionaliteit van de browser in plaats van de PDF-afdrukoptie.
+
+## Stappen
 
 1. [!include[Start](../includes/steps-start-task.md)]
 
-2. Selecteer de tab **Bedrijf/Persoon**.
+1. Ga naar het tabblad **Bedrijf/Persoon**.
 
-3. Klik op de knop **Taak** en selecteer **Etiketten afdrukken**.
+1. Klik op de knop **Taak** en selecteer **Etiketten afdrukken**.
 
-4. Selecteer in het dialoogvenster **Label kiezen** de labelopmaak die u nodig hebt klik op **OK**.
+1. Kies uw gewenste etiketopmaken. Alle opmaken zijn configureerbaar en toegankelijk voor alle gebruikers in het bedrijf, zodat u ze naar behoefte kunt aanpassen.
 
-    > [!NOTE]
-    > In dit dialoogvenster kunt u ook [nieuwe etiketopmaken toevoegen][2] en bestaande etiketopmaken bewerken en verwijderen.
+    ![Selectie taak afdrukken - kies etiketopmaken -screenshot][img1]
 
-5. Open de gegenereerde PDF en druk deze af.
+1. Controleer de vereiste instellingen en klik op **OK**.
+
+    ![Selectie - Etiketten instellen en vereiste instellingen -screenshot][img2]
+
+1. Pas de afdrukinstellingen van uw browser aan (zoals schaal, marges, oriëntatie en papierformaat) om ervoor te zorgen dat de adressen correct binnen het etiketgebied passen zonder te overlappen.
+
+    ![Selectie - Afdrukinstellingen in de browser -screenshot][img3]
+
+    > [!TIP]
+    > Als u de afdrukfunctie van de browser voor andere items gebruikt, moet u mogelijk **de etiketinstellingen elke keer opnieuw afstemmen** om een correcte uitlijning te garanderen.
+
+1. Klik op **Afdrukken**.
 
 <!-- Referenced links -->
-[2]: ../../../../reports/learn/labels/index.md
-
 <!-- Referenced images -->
+[img1]: ../../../../../media/loc/en/search-options/choose-label-layout-dialog.png
+[img2]: ../../../../../media/loc/en/search-options/selection-task-print-labels-dialog.png
+[img3]: ../../../../../media/loc/en/search-options/selection-task-print-labels-print-settings.png
