@@ -29,7 +29,7 @@ Check out our **Product release** overview for more details in our [Community][2
 * 10.3.9 (17.09.2024):
   * [Column calculations on section tabs and selections (10.3.9)][38] in Core CRM
   * [Columns/fields - Base currency and currency options (10.3.9)][38] in Core CRM
-  * [**Marketing Premium** - Automate with flows including multiple mailings and other steps (10.3.9, 01.10.2024)][43] in Marketing
+  * [Marketing Premium - Automate with flows including multiple mailings and other steps (10.3.9, 01.10.2024)][43] in Marketing
 
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
