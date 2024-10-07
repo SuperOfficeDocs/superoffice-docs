@@ -2,9 +2,9 @@
 uid: release-notes-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
-keywords: web panel, system design, dashboard, request, SAINT, invitation
+keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps
 author: SuperOffice AS – Research and Development
-date: 09.17.2024
+date: 10.08.2024
 version: 10.3
 topic: reference
 ---
@@ -21,9 +21,15 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### SuperOffice CRM
 
+* 10.3.10 (08.10.2024):
+  * [Selection - Task for print labels (10.3.10)][42] in Core CRM
+  * [Mailing - Audit check on email mailing (10.3.10)][41] in Marketing
+  * [Mailing - Validation of preheader text in email mailing (10.3.10)][41] in Marketing
+
 * 10.3.9 (17.09.2024):
   * [Column calculations on section tabs and selections (10.3.9)][38] in Core CRM
   * [Columns/fields - Base currency and currency options (10.3.9)][38] in Core CRM
+  * [Marketing Premium - Automate with flows including multiple mailings and other steps (10.3.9, 01.10.2024)][43] in Marketing
 
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
@@ -62,7 +68,7 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### Mobile CRM
 
-* [Version 11.0.1][27] (20.08.2024)
+* [Version 11.0.2][27] (19.09.2024)
 
 ### Office integrations
 
@@ -80,7 +86,7 @@ Latest released versions:
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
-* [SuperOffice Marketing Premium][20] (available by invitation  only from 10.3.5 - 21.05.2024)
+* [SuperOffice Marketing Premium][20] (released in 10.3.9 - 01.10.2024)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
 * [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
@@ -90,24 +96,31 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 ### Other highlights
 
-* **SuperOffice App store** - [New or updated apps][5]
+#### SuperOffice App Store
 
-  * [DataBridge for SuperOffice (03.06.2024)][34]
-  * [Amesto Phone Integration (31.05.2024)][30]
-  * [Microsoft Dynamics 365 Business Central (29.05.2024)][31]
-  * [Wix (10.05.2024)][33]
-  * [PowerOffice Go (02.05.2024)][32]
-  * [SnelStart for SuperOffice (02.04.2024)][22]
-  * [Amesto PowerBI for SuperOffice (08.02.2024)][19]
-  * [Exact for SuperOffice (02.02.2024)][16]
-  * [Documendo Webforms (24.01.2024)][15]
-  * [ITX UC (05.11.2023)][17]
-  * [Documendo Quote (23.01.2024)][10]
-  * [Documendo Sign (22.01.2024)][11]
-  * [AccountView for SuperOffice (18.12.2023)][6]
-  * [Goava Enrich (11.12.2023)][8]
-  * [Business NXT quote (04.12.2023)][7]
-  * [Dealfront connect (18.09.2023)][9]
+See all the [new or updated apps][5]
+
+* [DATEV Rechnungswesen Sync (11.09.2024)][39]
+* [DATEV Eigenorganisation Sync (08.09.2024)][40]
+* [DataBridge for SuperOffice (03.06.2024)][34]
+* [Amesto Phone Integration (31.05.2024)][30]
+* [Microsoft Dynamics 365 Business Central (29.05.2024)][31]
+* [Wix (10.05.2024)][33]
+* [PowerOffice Go (02.05.2024)][32]
+* [SnelStart for SuperOffice (02.04.2024)][22]
+* [Amesto PowerBI for SuperOffice (08.02.2024)][19]
+* [Exact for SuperOffice (02.02.2024)][16]
+* [Documendo Webforms (24.01.2024)][15]
+* [ITX UC (05.11.2023)][17]
+* [Documendo Quote (23.01.2024)][10]
+* [Documendo Sign (22.01.2024)][11]
+* [AccountView for SuperOffice (18.12.2023)][6]
+* [Goava Enrich (11.12.2023)][8]
+* [Business NXT quote (04.12.2023)][7]
+* [Dealfront connect (18.09.2023)][9]
+
+> [!TIP]
+> You have an **Uninstall** button in the **App Store** under the **Installed Apps** tab, so you can send a request to remove unused apps to clean up your SuperOffice solution.
 
 <!-- Referenced links -->
 [1]: admin/10.3.1-update.md
@@ -147,5 +160,10 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [36]: service/10.3.8-update.md
 [37]: admin/10.3.8-update.md
 [38]: core-crm/10.3.9-update.md
+[39]: https://appstore.superoffice.com/sp-softwarepartner-gmbh/datev-rechnungswesen-sync
+[40]: https://appstore.superoffice.com/sp-softwarepartner-gmbh/datev-eigenorganisation-sync
+[41]: marketing/10.3.10-update.md
+[42]: core-crm/10.3.10-update.md
+[43]: marketing/10.3.9-update.md
 
 <!-- Referenced images -->
