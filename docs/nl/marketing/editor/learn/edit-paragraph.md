@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice Marketing
 ![pictogram][img1]
 
 > [!TIP]
-> Als u de algemene eigenschappen en layout voor het bericht wilt bewerken, selecteert u **Hoofdtekst** ![pictogram][img2] in het zijpaneel. Als u specifieke eigenschappen hebt gedefinieerd voor afzonderlijke secties, worden die niet overschreven door de algemene eigenschappen.
+> Als u de algemene eigenschappen en layout voor het bericht wilt bewerken, selecteert u **Hoofdtekst** in het zijpaneel. Als u specifieke eigenschappen hebt gedefinieerd voor afzonderlijke secties, worden die niet overschreven door de algemene eigenschappen.
 >
 > Gebruik de **Desktop** ![pictogram][img3] en **Mobiel** ![pictogram][img4] aan de bovenkant van het zijpaneel om eigenschappen voor versies het bericht te bewerken.
 
@@ -84,7 +84,6 @@ Klik op **Volgende** als u klaar bent met bewerken.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
 [img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png

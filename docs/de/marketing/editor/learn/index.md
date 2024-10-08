@@ -4,8 +4,8 @@ title: Drag-and-Drop-Editor
 description: Drag-and-Drop-Editor
 keywords: Marketing, Editor, Vorlagenvariabel, Merge Tag
 author: SuperOffice RnD
-date: 02.06.2024
-version: 10
+date: 10.08.2024
+version: 10.3.10
 topic: howto
 language: de
 audience: person
@@ -55,7 +55,13 @@ Sie können einen Bereich auswählen und die Schaltflächen verwenden, um sie zu
 
 Sie können das Erscheinungsbild und die Eigenschaften der Mitteilung (wie die Schriftart und -größe, Farben und Seitenränder) global (für die gesamte Vorlage) oder nach Bereich (wie oben beschrieben) definieren.
 
-Um die Mitteilung auf globaler Ebene zu bearbeiten, wählen Sie den **Textbereich** ![Symbol][img12] in der Seitenleiste aus.
+Um die Mitteilung auf globaler Ebene zu bearbeiten, wählen Sie den **Textbereich** in der Seitenleiste aus.
+
+Beim Erstellen Ihrer E-Mail ist es leicht, Details wie eine fehlende Preheader-Textzeile oder einen leeren Link zu übersehen. Der **Audit**-Bereich hebt diese Probleme hervor, sodass Sie sie direkt überprüfen und beheben können.
+
+Wenn Sie beispielsweise eine Warnung wegen fehlendem Preheader-Text sehen, gehen Sie zum **Textbereich** und suchen Sie den Abschnitt **E-Mail-Einstellungen**, um diese Information hinzuzufügen. Der Preheader-Text erscheint direkt nach der Betreffzeile im Posteingang des Empfängers und ist ein kleiner, aber wirkungsvoller Teil des ersten Eindrucks Ihrer E-Mail.
+
+![Marketing - Audit-Bereich zur Überprüfung der E-Mail-Einstellungen -screenshot][img12]
 
 ## Seitenleiste
 
@@ -67,9 +73,10 @@ Die Seitenleiste enthält die folgenden Hauptabschnitte:
 | ![Symbol][img22] | Blöcke | Dieser Bereich enthält gespeicherte Inhaltsblöcke wie Kopf- und Fußzeilen. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab.<br />Um einen Inhaltsblock zu speichern, klicken Sie auf eine Zeile und wählen **Block speichern** (![Symbol][img9]). |
 | ![Symbol][img23] | Textbereich | In diesem Bereich können Sie die globalen Eigenschaften und das Layout für die Nachricht bearbeiten.<br />Wenn Sie für einzelne Bereiche bestimmte Eigenschaften definiert haben, werden diese von den globalen Eigenschaften nicht ersetzt. |
 | ![Symbol][img24] | Bilder | In diesem Bereich finden Sie Millionen [in Kampagnen zu verwendende Bilder][6]. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab. |
+| ![icon][img25] | Audit | In diesem Bereich können Sie nach Problemen in Ihrem Design und Inhalt suchen. |
 
 > [!NOTE]
-> Wenn der Bereich **Bilder** ![Symbol][img26] nicht sichtbar ist, könnte diese Präferenz aufgrund der Datenschutzbestimmungen deaktiviert worden sein.
+> Wenn der Bereich **Bilder** nicht sichtbar ist, könnte diese Präferenz aufgrund der Datenschutzbestimmungen deaktiviert worden sein.
 
 Siehe auch [Inhalt hinzufügen][1].
 
@@ -162,11 +169,11 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 [img9]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
-[img12]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img23]: ../../../../media/icons/marketing-and-forms/side-panel-body.png
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
-[img26]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
+[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

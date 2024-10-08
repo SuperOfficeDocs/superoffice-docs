@@ -4,8 +4,8 @@ title: Dra og slipp editor
 description: Dra og slipp editor
 keywords: markedsføring, redigeringsprogram, malvariabel, flettefelt
 author: SuperOffice RnD
-date: 02.06.2024
-version: 10
+date: 10.08.2024
+version: 10.3.10
 topic: concept
 language: no
 audience: person
@@ -55,7 +55,13 @@ Du kan velge en seksjon og bruke knappene til å flytte ( ![icon][img6] ), dupli
 
 Utseendet og egenskapene til meldingen (for eksempel skrifttype og -størrelse, farger og marger) kan defineres på globalt nivå (hele meldingen) eller etter seksjon (som beskrevet ovenfor).
 
-Hvis du vil redigere meldingen på globalt nivå, velger du **Brødtekst** ![icon][img12] i sidepanelet.
+Hvis du vil redigere meldingen på globalt nivå, velger du **Brødtekst** i sidepanelet.
+
+Når du bygger e-posten din, er det lett å overse detaljer som en glemt preheader eller en tom lenke. **Audit**-fanen fremhever disse problemene, slik at du kan gjennomgå og rette dem direkte.
+
+For eksempel, hvis du ser en advarsel om manglende preheader-tekst, går du til **Brødtekst** og finner seksjonen **E-postinnstillinger** for å legge til denne detaljen. Preheader-teksten vises rett etter emnelinjen i mottakerens innboks og er en liten, men betydningsfull del av e-postens første inntrykk.
+
+![Marketing - Audit-fanen for å sjekke e-postinnstillinger -screenshot][img12]
 
 ## Sidepanel
 
@@ -67,9 +73,10 @@ Sidepanelet inneholder følgende hovedområder:
 | ![ikon][img22] | Blokker | Denne delen inneholder lagrede innholdsblokker, slik som topptekster og bunntekster. Dra og slipp innhold fra denne delen til meldingen.<br />Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** ![ikon][img9]. |
 | ![ikon][img23] | Brødtekst | I denne delen kan du redigere de globale egenskapene og oppsettet for meldingen.<br />Hvis du har angitt bestemte egenskaper for enkelte områder vil ikke disse bli overstyrt av globale egenskaper. |
 | ![ikon][img24] | Bilder | I denne delen finner du millioner av [bilder du kan bruke i utsendelsen din][6]. Dra og slipp innhold fra denne delen til meldingen. |
+| ![icon][img25] | Audit | I denne delen kan du se etter problemer i designet og innholdet ditt. |
 
 > [!NOTE]
-> **Hvis området Bilder** ![ikon][img26] ikke er synlig, kan denne innstillingen ha blitt deaktivert på grunn av organisatoriske personvernregler.
+> **Hvis området Bilder** ikke er synlig, kan denne innstillingen ha blitt deaktivert på grunn av organisatoriske personvernregler.
 
 Se også [Legg til innhold][1].
 
@@ -162,11 +169,11 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 [img9]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
-[img12]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img23]: ../../../../media/icons/marketing-and-forms/side-panel-body.png
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
-[img26]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
+[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

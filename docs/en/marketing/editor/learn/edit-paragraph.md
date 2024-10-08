@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice Marketing
 ![icon][img1]
 
 > [!TIP]
-> To edit global properties and layout for the message, select **Body** (![icon][img2]) in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.
+> To edit global properties and layout for the message, select **Body** in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.
 >
 > Select **Desktop** ![icon][img3] or **Mobile** ![icon][img4] at the top of the side-panel to edit properties for a specific layout.
 
@@ -84,7 +84,6 @@ Click **Next** if you are done editing.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
 [img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png

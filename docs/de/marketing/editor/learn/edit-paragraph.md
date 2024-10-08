@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice Marketing
 ![Symbol][img1]
 
 > [!TIP]
-> Um globale Eigenschaften und das Layout der Mitteilung zu bearbeiten, wählen Sie den **Textbereich** ![Symbol][img2] in der Seitenleiste aus. Wenn Sie für einzelne Bereiche bestimmte Eigenschaften definiert haben, werden diese von den globalen Eigenschaften nicht ersetzt.
+> Um globale Eigenschaften und das Layout der Mitteilung zu bearbeiten, wählen Sie den **Textbereich** in der Seitenleiste aus. Wenn Sie für einzelne Bereiche bestimmte Eigenschaften definiert haben, werden diese von den globalen Eigenschaften nicht ersetzt.
 >
 > Verwenden Sie **Desktop** und ![Symbol][img3] und **Mobil** ![Symbol][img4] oben in der Seitenleiste, um die Eigenschaften für die Desktop- und Mobil-Versionen der Mitteilung zu bearbeiten.
 
@@ -84,7 +84,6 @@ Klicken Sie auf **Weiter,** wenn Sie mit der Bearbeitung fertig sind.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
 [img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png
