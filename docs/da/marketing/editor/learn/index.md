@@ -4,8 +4,8 @@ title: Træk og slip-editor
 description: Træk og slip-editor
 keywords: marketing, editor, skabelonvariabler, fletfelter
 author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+date: 10.08.2024
+version: 10.3.10
 topic: concept
 language: da
 audience: person
@@ -55,7 +55,13 @@ Du kan markere et afsnit og bruge knapperne til at flytte ![ikon][img6], kopiere
 
 Meddelelsens udseende og egenskaber (f.eks. skrifttype og -størrelse, farver og margener) kan defineres på globalt plan (hele meddelelsen) eller efter afsnit (som beskrevet ovenfor).
 
-Hvis du vil redigere meddelelsen på globalt plan, skal du vælge **Brødtekst** ![ikon][img12] i sidepanelet.
+Hvis du vil redigere meddelelsen på globalt plan, skal du vælge **Brødtekst** i sidepanelet.
+
+Når du opretter din e-mail, er det nemt at overse detaljer som en glemt preheader eller et tomt link. **Audit**-fanen fremhæver disse problemer, så du kan gennemgå og løse dem direkte.
+
+For eksempel, hvis du ser en advarsel om manglende preheader-tekst, skal du gå til **Body**-fanen og finde sektionen **E-mailindstillinger** for at tilføje denne detalje. Preheader-teksten vises lige efter emnelinjen i modtagerens indbakke og udgør en lille, men betydningsfuld del af e-mailens første indtryk.
+
+![Marketing - Audit-fane til at kontrollere indstillinger for e-mail -screenshot][img12]
 
 ## Sidepanel
 
@@ -67,9 +73,10 @@ Sidepanelet indeholder følgende hovedafsnit:
 | ![ikon][img22] | Blokke | Dette afsnit indeholder gemte indholdsblokke, f.eks. overskrifter og sidefødder. Træk og slip indhold fra dette afsnit til meddelelsen.<br />Hvis du vil gemme en indholdsblok, skal du klikke på en række og vælge **Gem blok** ![ikon][img9]. |
 | ![ikon][img23] | Brødtekst | I dette afsnit kan du redigere globale egenskaber og layout for meddelelsen.<br />Hvis du har angivet bestemte egenskaber for enkelte afsnit, tilsidesættes disse ikke af globale egenskaber. |
 | ![ikon][img24] | Billeder | I dette afsnit kan du finde millioner af [billeder til brug i din udsendelse][6]. Træk og slip indhold fra dette afsnit til meddelelsen. |
+| ![icon][img25] | Audit | I dette afsnit kan du se efter problemer i dit design og indhold. |
 
 > [!NOTE]
-> Hvis sektionen **Billeder** ![ikon][img26] ikke er synlig, kan denne indstilling være blevet deaktiveret som følge af virksomhedens privatlivsregler.
+> Hvis sektionen **Billeder** ikke er synlig, kan denne indstilling være blevet deaktiveret som følge af virksomhedens privatlivsregler.
 
 Se også [Tilføj indhold][1].
 
@@ -162,11 +169,11 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 [img9]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
-[img12]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img23]: ../../../../media/icons/marketing-and-forms/side-panel-body.png
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
-[img26]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
+[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

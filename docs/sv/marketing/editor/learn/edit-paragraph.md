@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice Marketing
 ![ikon][img1]
 
 > [!TIP]
-> Om du vill redigera globala inställningar och layout för meddelandet väljer du **Brödtext** ![ikon][img2] i sidopanelen. Om du har angett specifika egenskaper för enskilda avsnitt kommer de inte att åsidosättas av globala egenskaper.
+> Om du vill redigera globala inställningar och layout för meddelandet väljer du **Brödtext** i sidopanelen. Om du har angett specifika egenskaper för enskilda avsnitt kommer de inte att åsidosättas av globala egenskaper.
 >
 > Använd **Skrivbordet** ![ikon][img3] och **Mobil** ![ikon][img4] överst i sidopanelen för att redigera egenskaper för ulika versioner av meddelandena.
 
@@ -84,7 +84,6 @@ Klicka på **Nästa** om du är klar med redigeringen.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
 [img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png

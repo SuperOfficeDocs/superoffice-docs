@@ -4,8 +4,8 @@ title: Drag and drop editor
 description: Drag and drop editor
 keywords: marketing, editor, template variable, merge tag
 author: SuperOffice RnD
-date: 02.05.2024
-version: 10
+date: 10.08.2024
+version: 10.3.10
 topic: concept
 language: en
 audience: person
@@ -55,7 +55,13 @@ You can select a section and use the buttons to move ( ![icon][img6] ), duplicat
 
 The appearance and properties of the message (such as font type and size, colors and margins) can be defined at global level (the whole message) or by section (as described above).
 
-To edit the message at a global level, select **Body** ![icon][img12] in the side-panel.
+To edit the message at a global level, select **Body** in the side-panel.
+
+As you build your email, it is easy to overlook details such as a forgotten preheader or an empty link. The **Audit** tab highlights these issues, allowing you to review and resolve them directly.
+
+For example, if you see a warning for missing preheader text, go to the **Body** tab and find the **Email Settings** section to add this detail. The preheader text appears right after the subject line in the recipient's inbox, making it a small but impactful part of your email's first impression.
+
+![Marketing - Audit tab to check settings for email mailing -screenshot][img12]
 
 ## Side-panel
 
@@ -67,9 +73,10 @@ The side-panel contains the following main sections:
 | ![icon][img22] | Blocks | This section contains saved content blocks such as headers and footers. Drag and drop content from this section to the message.<br />To save a content block, click a row and select **Save block** ![icon][img9]. |
 | ![icon][img23] | Body | In this section you can edit the global properties and layout for the message.<br />If you have defined specific properties for individual sections, these are not overridden by global properties. |
 | ![icon][img24] | Images | In this section you can find millions of [images to use in your mailing][6]. Drag and drop content from this section to the message. |
+| ![icon][img25] | Audit | In this section you can check for issues in your design and content. |
 
 > [!NOTE]
-> If the **Images** (![icon][img26]) section is not visible, this preference may have been disabled due to organizational privacy rules.
+> If the **Images** section is not visible, this preference may have been disabled due to organizational privacy rules.
 
 See also [Add content][1].
 
@@ -162,11 +169,11 @@ The user guide for the old editor is located in the [SuperOffice version 10.1 he
 [img9]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
-[img12]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img23]: ../../../../media/icons/marketing-and-forms/side-panel-body.png
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
-[img26]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
+[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

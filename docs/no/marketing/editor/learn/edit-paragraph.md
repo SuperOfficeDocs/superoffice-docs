@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice Marketing
 ![icon][img1]
 
 > [!TIP]
-> Hvis du vil redigere globale egenskaper og utseende for meldingen, velger du **Brødtekst** ![icon][img2] i sidepanelet. Hvis du har angitt bestemte egenskaper for enkelte områder vil ikke disse bli overstyrt av globale egenskaper.
+> Hvis du vil redigere globale egenskaper og utseende for meldingen, velger du **Brødtekst** i sidepanelet. Hvis du har angitt bestemte egenskaper for enkelte områder vil ikke disse bli overstyrt av globale egenskaper.
 >
 > Velg **Datamaskin** ![icon][img3] eller **Mobil** ![icon][img4] øverst på sidepanelet for å redigere egenskaper for en spesific layout.
 
@@ -84,7 +84,6 @@ Klikk på **Neste** hvis du er ferdig med å redigere.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
 [img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png

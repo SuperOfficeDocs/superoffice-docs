@@ -4,8 +4,8 @@ title: Editor slepen en neerzetten
 description: Editor slepen en neerzetten
 keywords: marketing, editor, sjabloonvariabele, variabelen
 author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+date: 10.08.2024
+version: 10.3.10
 topic: concept
 language: nl
 audience: person
@@ -55,7 +55,13 @@ U kunt een sectie selecteren en de knoppen gebruiken om deze te verplaatsen (![p
 
 De weergave en eigenschappen van het bericht (zoals lettertype en -grootte, kleuren en marges) kunnen worden gedefinieerd op algemeen niveau (het hele bericht) of per sectie (zoals hierboven beschreven).
 
-Als u het bericht op algemeen niveau wilt bewerken, selecteert u **Hoofdtekst** ![pictogram][img12] in het zijpaneel.
+Als u het bericht op algemeen niveau wilt bewerken, selecteert u **Hoofdtekst** in het zijpaneel.
+
+Bij het opstellen van uw e-mail is het gemakkelijk om details over het hoofd te zien, zoals een vergeten preheader of een lege link. Het **Audit**-sectie markeert deze problemen, zodat u ze direct kunt bekijken en oplossen.
+
+Als u bijvoorbeeld een waarschuwing ziet voor ontbrekende preheader-tekst, ga dan naar **Hoofdtekst** en zoek de sectie **E-mailinstellingen** om deze informatie toe te voegen. De preheader-tekst verschijnt direct na de onderwerpregel in de inbox van de ontvanger en vormt een klein maar krachtig onderdeel van de eerste indruk van uw e-mail.
+
+![Marketing - Audit-sectie voor controle van e-mailinstellingen -screenshot][img12]
 
 ## Zijpaneel
 
@@ -67,9 +73,10 @@ Het zijpaneel bevat de volgende hoofdsecties:
 | ![pictogram][img22] | Blokken | Deze sectie bevat opgeslagen inhoudsblokken zoals kop- en voetteksten. Inhoud van deze sectie naar het bericht slepen en neerzetten.<br />Als u een inhoudsblok wilt opslaan, klikt u op een rij en selecteert u **Blok opslaan** ![pictogram][img9]. |
 | ![pictogram][img23] | Hoofdtekst | In deze sectie kunt u de algemene eigenschappen en layout voor het bericht bewerken.<br />Als u specifieke eigenschappen hebt gedefinieerd voor afzonderlijke secties, worden die niet overschreven door de algemene eigenschappen. |
 | ![pictogram][img24] | Afbeeldingen | In deze sectie vindt u miljoenen [afbeeldingen om te gebruiken in uw mailing][6]. Inhoud van deze sectie naar het bericht slepen en neerzetten. |
+| ![icon][img25] | Audit | In deze sectie kunt u zoeken naar problemen in uw ontwerp en inhoud. |
 
 > [!NOTE]
-> Als de sectie **Afbeeldingen** ![pictogram][img26] niet zichtbaar is, kan deze voorkeur zijn uitgeschakeld vanwege organisatorische privacyregels.
+> Als de sectie **Afbeeldingen** niet zichtbaar is, kan deze voorkeur zijn uitgeschakeld vanwege organisatorische privacyregels.
 
 Zie ook [Inhoud toevoegen][1].
 
@@ -162,11 +169,11 @@ Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") 
 [img9]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
-[img12]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img23]: ../../../../media/icons/marketing-and-forms/side-panel-body.png
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
-[img26]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
+[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

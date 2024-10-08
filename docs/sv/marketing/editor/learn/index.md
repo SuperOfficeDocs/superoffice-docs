@@ -4,8 +4,8 @@ title: Dra och släpp-redigerare
 description: Dra och släpp-redigerare
 keywords: marknadsföring, redigerare, mallvariabel, kopplingsfält
 author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+date: 10.08.2024
+version: 10.3.10
 topic: howto
 language: sv
 audience: person
@@ -55,7 +55,13 @@ Du kan markera ett avsnitt och använda knapparna för att flytta ![ikon][img6],
 
 Utseendet och egenskaperna för meddelandet (t.ex. teckensnitt och -storlek, färger och marginaler) kan definieras på global nivå (hela meddelandet) eller per avsnitt (se beskrivning ovan).
 
-Om du vill redigera meddelandet på global nivå, väljer du **Brödtext** ![ikon][img12] i sidopanelen.
+Om du vill redigera meddelandet på global nivå, väljer du **Brödtext** i sidopanelen.
+
+När du bygger ditt e-postmeddelande är det lätt att förbise detaljer som en bortglömd preheader eller en tom länk. **Audit**-avsnittet markerar dessa problem, så att du kan granska och åtgärda dem direkt.
+
+Om du till exempel ser en varning för saknad preheader-text, gå till **Brödtext** och hitta avsnittet **E-postinställningar** för att lägga till denna detalj. Preheader-texten visas direkt efter ämnesraden i mottagarens inkorg och utgör en liten, men betydelsefull del av e-postens första intryck.
+
+![Marketing - Audit-avsnitt för att kontrollera inställningar för e-post -screenshot][img12]
 
 ## Sidopanel
 
@@ -67,9 +73,10 @@ Sidopanelen innehåller följande huvudavsnitt:
 | ![ikon][img22] | Block | Detta avsnitt innehåller sparade innehållsblock såsom sidhuvuden och sidfötter. Dra och släpp innehåll från det här avsnittet till meddelandet.<br />För att spara ett innehållsblock klickar du på en rad och väljer **Spara block** ![ikon][img9]. |
 | ![ikon][img23] | Brödtext | I det här avsnittet kan du redigera de globala egenskaperna och layouten för meddelandet.<br />Om du har angett specifika egenskaper för enskilda avsnitt kommer de inte att åsidosättas av globala egenskaper. |
 | ![ikon][img24] | Bilder | I det här avsnittet hittar du miljontals [bilder som du kan använda i ditt utskick][6]. Dra och släpp innehåll från det här avsnittet till meddelandet. |
+| ![icon][img25] | Audit | I det här avsnittet kan du se efter problem i din design och ditt innehåll. |
 
 > [!NOTE]
-> Om avsnittet **Bilder** ![ikon][img26] inte visas kan denna inställning ha inaktiverats på grund av organisatoriska integritetsregler.
+> Om avsnittet **Bilder** inte visas kan denna inställning ha inaktiverats på grund av organisatoriska integritetsregler.
 
 Se även [Lägg till innehåll][1].
 
@@ -162,11 +169,11 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 [img9]: ../../../../media/icons/marketing-and-forms/save-block.png
 [img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
 
-[img12]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img21]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
 [img22]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img23]: ../../../../media/icons/marketing-and-forms/side-panel-body.png
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
-[img26]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
+[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

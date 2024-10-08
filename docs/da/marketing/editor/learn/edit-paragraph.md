@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice Marketing
 ![ikon][img1]
 
 > [!TIP]
-> Hvis du vil redigere globale egenskaber og layout for meddelelsen, skal du vælge **Brødtekst** ![ikon][img2] i sidepanelet. Hvis du har angivet bestemte egenskaber for enkelte afsnit, tilsidesættes disse ikke af globale egenskaber.
+> Hvis du vil redigere globale egenskaber og layout for meddelelsen, skal du vælge **Brødtekst** i sidepanelet. Hvis du har angivet bestemte egenskaber for enkelte afsnit, tilsidesættes disse ikke af globale egenskaber.
 >
 > Brug **PC** ![ikon][img3] og **Mobil** ![ikon][img4] øverst i sidepanelet til at redigere egenskaber for ulige versioner af meddelelsen.
 
@@ -84,7 +84,6 @@ Klik på **Næste**, hvis du er færdig med at redigere.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
 [img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
 [img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png
