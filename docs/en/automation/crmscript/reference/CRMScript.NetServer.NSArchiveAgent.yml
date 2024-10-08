@@ -328,7 +328,13 @@ items:
       description: 
     - id: columns
       type: CRMScript.Global.String[]
+      description:
+    - id: sortOrder
+      type: CRMScript.NetServer.NSArchiveOrderByInfo[]
       description: 
+    - id: restriction
+      type: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+      description:
     - id: entities
       type: CRMScript.Global.String[]
       description: 
@@ -404,7 +410,13 @@ items:
       description: 
     - id: columns
       type: CRMScript.Global.String[]
+      description:
+    - id: sortOrder
+      type: CRMScript.NetServer.NSArchiveOrderByInfo[]
       description: 
+    - id: restriction
+      type: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+      description:  
     - id: entities
       type: CRMScript.Global.String[]
       description: 
@@ -487,7 +499,13 @@ items:
       description: 
     - id: columns
       type: CRMScript.Global.String[]
+      description:
+    - id: sortOrder
+      type: CRMScript.NetServer.NSArchiveOrderByInfo[]
       description: 
+    - id: restriction
+      type: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+      description:  
     - id: entities
       type: CRMScript.Global.String[]
       description: 
@@ -570,7 +588,13 @@ items:
       description: 
     - id: columns
       type: CRMScript.Global.String[]
-      description: 
+      description:
+    - id: sortOrder
+      type: CRMScript.NetServer.NSArchiveOrderByInfo[]
+      description:
+    - id: restriction
+      type: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+      description:  
     - id: entities
       type: CRMScript.Global.String[]
       description: 
@@ -659,7 +683,13 @@ items:
       description: 
     - id: providerName
       type: CRMScript.Global.String
-      description: 
+      description:
+    - id: sortOrder
+      type: CRMScript.NetServer.NSArchiveOrderByInfo[]
+      description:  
+    - id: restriction
+      type: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+      description:   
     - id: entities
       type: CRMScript.Global.String[]
       description: 
