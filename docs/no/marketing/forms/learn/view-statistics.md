@@ -4,12 +4,12 @@ title: Spore skjemainnsendinger og vise statistikk
 description: Spore skjemainnsendinger og vise statistikk
 keywords: skjema, innsending, skjemainnsending
 author: Bergfrid Dias
-date: 03.07.2024
+date: 10.09.2024
 version: 10
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Spore skjemainnsendinger og vise statistikk
@@ -30,7 +30,7 @@ For å vise statistikk om skjemaet, går til fanen **Skjemaer** og klikk på skj
 
     ![Skjemainnsendingsoversikt -screenshot][img3]
 
-* **Rapporter:** Diagram viser statistikk for skjemaet (hold musen over for å vise eksakte tall).
+* **Rapporter:** Diagram viser statistikk for skjemaet (hold musen over for å vise eksakte tall). Kun behandlede innsendinger er inkludert i statistikken.
 
     ![Skjemainnsendingsrapport -screenshot][img2]
 

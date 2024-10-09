@@ -4,12 +4,12 @@ title: Sporing af formularindsendelser og visning af statistik
 description: Sporing af formularindsendelser og visning af statistik
 keywords: formular, indsendelse, formularindsendelse
 author: Bergfrid Dias
-date: 03.12.2024
+date: 10.09.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Sporing af formularindsendelser og visning af statistik
@@ -30,7 +30,7 @@ For at se statistik om din formular skal du gå til fanen **Formularer** og klik
 
     ![Formularindsendelse - oversigt -screenshot][img3]
 
-* **Rapporter:** Diagrammer viser statistik om formularen (hold musen over for at se de præcise antal).
+* **Rapporter:** Diagrammer viser statistik om formularen (hold musen over for at se de præcise antal). Kun behandlede indsendelser er inkluderet i statistikken.
 
     ![Formularindsendelse - rapport -screenshot][img2]
 

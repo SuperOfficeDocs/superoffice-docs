@@ -4,12 +4,12 @@ title: Track form submissions and view statistics
 description: Track form submissions and view statistics
 keywords: form, submission, response
 author: Bergfrid Dias
-date: 03.04.2024
+date: 10.09.2024
 version: 10
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Track form submissions and view statistics
@@ -30,7 +30,7 @@ To view statistics about your form, go to the **Forms** tab and click the form i
 
     ![Form submission summary -screenshot][img3]
 
-* **Reports:** Charts show statistics for the form (mouse-over to view exact numbers).
+* **Reports:** Charts show statistics for the form (mouse-over to view exact numbers). Only processed submissions are included in the statistics.
 
     ![Form submission report -screenshot][img2]
 
