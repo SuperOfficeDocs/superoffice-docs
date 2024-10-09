@@ -4,13 +4,13 @@ title: SuperOffice AI Services - Copilot
 description: SuperOffice AI Services - Copilot
 author: Bergfrid Dias, Filip Norman
 keywords: AI, ChatGPT, OpenAI, Bing, Copilot
-date: 09.03.2024
-version: 10.3.8
+date: 10.09.2024
+version: 10.3.10
 pilot: yes
 topic: concept
 envir: cloud
 client: online
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 ---
 
@@ -91,6 +91,9 @@ Prompts are subject to change without prior notice during the pilot!
 ### Requests
 
 * **Summarize:** AI analyzes the request and request messages, extracts key information, and presents a brief, coherent summary.
+
+  * If a request contains 3 or more messages, you can select **Summarize** from the **Show all** dropdown menu in the **Messages** tab of the Request screen.
+  * If the request has more than 5 messages, a separate **Summarize** button will also appear next to the **Add comment** button.
 
 ### Selection
 
