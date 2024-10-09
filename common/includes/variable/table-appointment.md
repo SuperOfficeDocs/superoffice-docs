@@ -60,6 +60,7 @@
 | bupc | The number of times the follow-up has been updated. (Counter from version 6 onwards only) |
 | bupd | Update date for the follow-up, formatted as YYYYMMdd |
 | bupt | Update time for the follow-up, formatted as HHmmss |
+| burl | The video meeting link (JoinMeetingUrl) |
 | tf01-10 | User-defined field 1-10 of the decimal number type |
 | tl01-60 | User-defined field 1-60 of the whole number type |
 | ts01-49 | User-defined field 1-49 of the text type |
