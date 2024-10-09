@@ -4,12 +4,12 @@ title: Spåra formulärinlämningar och visa statistik
 description: Spåra formulärinlämningar och visa statistik
 keywords: Formulär
 author: Bergfrid Dias
-date: 03.15.2024
+date: 10.09.2024
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Spåra formulärinlämningar och visa statistik
@@ -30,7 +30,7 @@ Om du vill se statistik om ditt formulär kan du gå till fliken **Formulär** o
 
     ![Sammanfattning av formulärstatistik -screenshot][img3]
 
-* **Rapporter:** Dessa diagram visar statistik för formuläret. (Håll musen över om du vill se exakta siffror.)
+* **Rapporter:** Dessa diagram visar statistik för formuläret. (Håll musen över om du vill se exakta siffror.) Endast behandlade inlämningar ingår i statistiken.
 
     ![Formulärinlämningsrapport -screenshot][img2]
 

@@ -4,12 +4,12 @@ title: Formulierverzendingen traceren en statistieken weergeven
 description: Formulierverzendingen traceren en statistieken weergeven
 keywords: formulier, formulierverzending, formulier weergeven
 author: Bergfrid Dias
-date: 03.19.2024
+date: 10.09.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Formulierverzendingen traceren en statistieken weergeven
@@ -30,7 +30,7 @@ Als u de statistieken over uw formulier wilt weergeven, gaat u naar het tabblad 
 
     ![Formulierverzendingsstatistieken -screenshot][img3]
 
-* **Rapporten:** Grafieken geven de statistieken over het formulier weer (beweeg de muis erover om exacte aantallen weer te geven).
+* **Rapporten:** Grafieken geven de statistieken over het formulier weer (beweeg de muis erover om exacte aantallen weer te geven). Alleen verwerkte verzendingen zijn opgenomen in de statistieken.
 
     ![Formulierverzendingsrapporten -screenshot][img2]
 

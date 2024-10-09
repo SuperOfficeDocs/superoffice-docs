@@ -4,12 +4,12 @@ title: Formularübermittlungen überwachen und Statistiken anzeigen
 description: Formularübermittlungen überwachen und Statistiken anzeigen
 keywords: Formular, Formularübermittlung, Formularstatistik
 author: Bergfrid Dias
-date: 03.18.2024
+date: 10.09.2024
 version: 10
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Formularübermittlungen überwachen und Statistiken anzeigen
@@ -30,7 +30,7 @@ Um sich Statistiken zum Formular anzeigen zu lassen, gehen Sie zur Registerkarte
 
     ![Zusammenfassung der Formularübermittlung -screenshot][img3]
 
-* **Berichte:** Diese Diagramme zeigen Statistiken für das Formular (zur Anzeige der genauen Zahlen mit dem Mauszeiger über das Element fahren).
+* **Berichte:** Diese Diagramme zeigen Statistiken für das Formular (zur Anzeige der genauen Zahlen mit dem Mauszeiger über das Element fahren). Nur verarbeitete Übermittlungen sind in der Statistik enthalten.
 
     ![Berichte der Formularübermittlung -screenshot][img2]
 
