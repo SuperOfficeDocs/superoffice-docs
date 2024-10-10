@@ -1,12 +1,12 @@
 ---
-title: User guide
 uid: dp-app-user-guide
-description: How to manage links and instructions for installation standard apps in the SuperOffice Developer Portal.
+title: User guide
+description: How to manage links and instructions for installing standard apps in the SuperOffice Developer Portal.
+keywords: Developer Portal, app store, install, links, details tab
 author: Bergfrid Dias
-date: 11.15.2023
-keywords: Developer Portal, app store, install, links
+date: 10.16.2024
+version_devportal: 1.27
 topic: howto
-version_devportal: 1.16
 envir: cloud
 ---
 
@@ -21,7 +21,7 @@ While most of the App Store information aims to hook new customers, you also nee
 
 This information is shown on the **How to install** tab in the App Store.
 
-1. Go to the **How to install** section of the application's **App Store information**.
+1. Go to the **How to install** tab of the application's **App Store information**.
 
 2. Indicate which SuperOffice user plans are supported. If all user plans are supported, specify "All user plans".
 
@@ -29,15 +29,17 @@ This information is shown on the **How to install** tab in the App Store.
 
 4. Specify additional requirements: List all system requirements as bullet points. If there are none, specify "No additional system requirements".
 
-![The how-to-install section of App Store information -screenshot][img2]
+![The how-to-install tab of App Store information -screenshot][img2]
 
 ## Links
 
 Add at least one link related to the app. Other useful links can be added too, such as support and commercial product page.
 
-![App Store information, Links tab -screenshot][img1]
+![App Store information, Details tab -screenshot][img1]
 
 ### Text on the green button
+
+1. Go to the **Details** tab of the application's **App Store information**.
 
 1. Choose a label for the green button in the App Store:
     * Install
@@ -52,7 +54,7 @@ Add at least one link related to the app. Other useful links can be added too, s
 
 ### To add a link
 
-1. Go to the **Links** section of the application's **App Store information**.
+1. Go to the **Details** tab of the application's **App Store information**.
 2. Click **Add Links**.
 
     ![Add at least one link -screenshot][img3]
@@ -79,14 +81,15 @@ Add at least one link related to the app. Other useful links can be added too, s
 
 ## Categories, languages, markets
 
-To indicate the availability of your app and follow the [marketing requirements][3], select one or more categories, languages, markets. [!include[See settings](../includes/see-app-settings.md)]
+To indicate the availability of your app and follow the [marketing requirements][3], select one or more categories, languages, markets on the **Details** tab. For details about each field, see the [app settings reference section][4].
 
 <!-- Referenced links -->
 [1]: update-app-page.md#request-to-publish
 [2]: app-settings.md#links
 [3]: ../requirements/marketing.md#application-description
+[4]: app-settings.md
 
 <!-- Referenced images -->
-[img1]: media/links.png
+[img1]: media/details.png
 [img2]: media/how-to-install.png
 [img3]: media/add-first-link.png
