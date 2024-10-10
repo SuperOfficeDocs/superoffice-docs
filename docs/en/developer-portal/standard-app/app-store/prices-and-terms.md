@@ -1,18 +1,18 @@
 ---
-title: Prices and terms
 uid: dp-app-prices-and-terms
-description: How to set prices and terms for your app listing in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 11.15.2023
+title: Price and terms
+description: How to set price and terms for your app listing in the SuperOffice Developer Portal.
 keywords: Developer Portal, app store, price, term
+author: Bergfrid Dias
+date: 10.16.2024
+version_devportal: 1.27
 topic: howto
-version_devportal: 1.16
 envir: cloud
 ---
 
-# Prices and terms
+# Price and terms
 
-![App store information, prices and terms -screenshot][img1]
+![App store information, price and terms -screenshot][img1]
 
 > [!NOTE]
 > Remember to [request to publish][1] to make your changes visible in the App Store.
@@ -48,7 +48,7 @@ Describe your pricing.
 
 * Based on users:
 
-    ![App store information, prices and terms -screenshot][img2]
+    ![App store information, price and terms -screenshot][img2]
 
 ## Terms and conditions
 

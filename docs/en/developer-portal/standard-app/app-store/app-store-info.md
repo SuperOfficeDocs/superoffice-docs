@@ -1,14 +1,13 @@
 ---
-title: App Store information
 uid: dp-app-store-info
+title: App Store information
 description: Updating App Store information in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 09.08.2023
 keywords: Developer Portal, App Store
+author: Bergfrid Dias
+date: 10.16.2024
+version_devportal: 1.27
 topic: howto
-version_devportal: 1.11
 envir: cloud
-client:
 ---
 
 # App Store information
