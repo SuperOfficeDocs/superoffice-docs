@@ -58,7 +58,7 @@ OK
 | GroupId | int32 | Associate's group_idx |
 | BusinessId | int32 | BusinessIdx for the company that the user belongs to. |
 | CategoryId | int32 | CategoryIdx of the company that the user belongs to. |
-| ContactOwner | int32 | Owner (AssocaiteId) of the company that the user belongs to. |
+| ContactOwner | int32 | Owner (AssociateId) of the company that the user belongs to. |
 | RoleId | int32 | Id of the users role |
 | RoleName | string | Name of the users role |
 | RoleDescription | string | Descrtiption (e.g. tooltip) for the users role |
