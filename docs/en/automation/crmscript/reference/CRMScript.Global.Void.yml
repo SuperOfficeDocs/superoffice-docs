@@ -161,6 +161,7 @@ items:
   - CRMScript.Global.Void.getWarnings()
   - CRMScript.Global.Void.htmlConvToText(String)
   - CRMScript.Global.Void.idToLang(Integer)
+  - CRMScript.Global.Void.installPackage(String)
   - CRMScript.Global.Void.invoiceTypesExists()
   - CRMScript.Global.Void.isValidPhoneNumber(String,Bool)
   - CRMScript.Global.Void.langToId(String)
@@ -183,6 +184,7 @@ items:
   - CRMScript.Global.Void.rand(Integer,Integer)
   - CRMScript.Global.Void.reloadAndSendShipment(Integer)
   - CRMScript.Global.Void.removeHtmlElement(Integer)
+  - CRMScript.Global.Void.removePackage(String)
   - CRMScript.Global.Void.resetChat(Integer)
   - CRMScript.Global.Void.runProgram(String)
   - CRMScript.Global.Void.runProgram(String,String)
@@ -3348,6 +3350,29 @@ items:
       type: CRMScript.Global.String
       description: "Language code of the given language Id."
   example: 
+- uid: CRMScript.Global.Void.installPackage(String)
+  commentId: M:CRMScript.Global.Void.installPackage(String)
+  id: 'installPackage(String)'
+  so.intellisense: Void.installPackage
+  so.version: 10.3.11
+  langs:
+  - crmscript
+  name: 'installPackage(String)'
+  nameWithType: Void.installPackage(String)
+  fullName: CRMScript.Global.Void.installPackage(String)
+  type: Method
+  summary: "\nInstalls a package provided as xml.\n"
+  remarks: 
+  syntax: 
+    content: String installPackage(String xml)
+    parameters: 
+    - id: xml
+      type: CRMScript.Global.String
+      description: "XML of package to install"
+    return:
+      type: CRMScript.Global.String
+      description: "Empty if no error, otherwise an error message."
+  example:   
 - uid: CRMScript.Global.Void.invoiceTypesExists()
   commentId: M:CRMScript.Global.Void.invoiceTypesExists()
   id: 'invoiceTypesExists()'
@@ -3846,6 +3871,29 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
+- uid: CRMScript.Global.Void.removePackage(String)
+  commentId: M:CRMScript.Global.Void.removePackage(String)
+  id: 'removePackage(String)'
+  so.intellisense: Void.removePackage
+  so.version: 10.3.11
+  langs:
+  - crmscript
+  name: 'removePackage(String)'
+  nameWithType: Void.removePackage(String)
+  fullName: CRMScript.Global.Void.removePackage(String)
+  type: Method
+  summary: "\nRemoves the package with the given name.\n"
+  remarks: 
+  syntax: 
+    content: String removePackage(String name)
+    parameters: 
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of package to remove"
+    return:
+      type: CRMScript.Global.String
+      description: "Empty if no error, otherwise an error message."
+  example:   
 - uid: CRMScript.Global.Void.resetChat(Integer)
   commentId: M:CRMScript.Global.Void.resetChat(Integer)
   id: 'resetChat(Integer)'
