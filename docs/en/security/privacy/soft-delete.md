@@ -1,43 +1,250 @@
 ---
 title: Soft delete
 uid: soft_delete
-description: Soft delete – the Undo revolution
-author: Marek Vokáč
-date: 04.30.2018
+description: Soft delete
+author: Marek Vokáč, Eivind Fasting
+date: 09.25.2024
 keywords:
 topic: article
 ---
 
-# Soft delete – the Undo revolution
+# Soft delete
 
-SuperOffice has, up to now, always supported the firm-and-resolute model of data deletion: once you delete something, it is gone. If you have a database backup then you can get things back, but it takes time and makes the IT staff give you the Evil Eye, at least if it happens often.
+Soft delete means that instead of deleting a record physically from the database, it is marked as deleted instead. Rows that have NULL or our beginning-of-time value (which in SuperOffice is 1.1.1760) are considered active; rows that have a different date are considered deleted.
 
-Of course, insiders will know that the story is a little bit more nuanced. If you delete a person, the Windows client will delete a fair bit of directly-dependent stuff such as email, phone, and address. The Web client won’t. And in any case, references in appointment records and elsewhere will remain in the database. They don’t do much harm since our code is quite used to this; it will simply show no person name, even though there is a nonzero person ID on an appointment… but it’s all slightly messy and unsatisfactory.
+When a **contact** or **person** is deleted in SuperOffice it gets the **deletedDate** set, and when a **request** is deleted it sets the [status of the ticket to Deleted][5] and updates last_changed. This removes it from the UI and puts it in the [Recycle Bin][1]. What happens behind the scenes is that when the application code searches for a record in for example the person-table, this code will appendAND (deletedDate IS NULL OR deletedDate = 1.1.1760) to the query (for each table that has soft-delete). As a result, such rows disappear from the results and are never given back to the application – which in practice is the same as deleting them.
 
-GDPR provides us with the necessary motivation to do something about this. Two complementary functions are coming in 8.3: the **soft delete** and the **deep delete**. Both are important, and together they give us a much more consistent, user-friendly, and GDPR-compliant story.
+## GDPR
 
-**Soft delete** means that instead of deleting a record physically from the database, we just mark it as deleted. We do that by setting a new field, **deletedDate**, to the moment of deletion (in UTC). Rows that have NULL or our beginning-of-time value (which for reasons I won’t go into is 1.1.1760) are considered active; rows that have a different date are considered deleted.
+GDPR places limits on keeping irrelevant information, and soft-deleted records are no exception. Therefore, after a time – which will default to 14 days unless specifically set in [System preference][2] >> **Retain deleted data** – a periodic background process will *really* delete soft-deleted records that are older than the "retention time".
 
-The considering is done by very low-level code in NetServer and in the Windows codebase, which catches every query going into the database. Whenever application code searches for a record in the person table, this code will appendAND (deletedDate IS NULL OR deletedDate = 1.1.1760)to the query (for each table that has soft-delete). As a result, such rows disappear from the results and are never given back to the application – which in practice is the same as deleting them.
+Directly dependent records such as email or phone are deleted. Other tables have independent reasons to exist: a meeting still happened, even if no longer have a valid person reference, so there we just zero the appointment.person_id.
 
-But they are not gone from the database, and the new Recycle Bin in the Sales client will show them. There you can **Recover** them, which simply means that the deletedDate is reset… and voilá, the record is back.
+For those using the APIs at any level, the interception code will change it into an Update automatically. Search for something through the API, and the filtering conditions will be appended. For those who work directly with the database, it's recommended switching to an API approach for this reason.
 
-The soft delete only applies to the primary table, meaning **person** and **contact**. Any dependent records are left intact, and this is where we take advantage of being used to an "inconsistent" database; our code happily filters out such records because the primary is gone. Therefore, recovery is instant and full, everything comes back again in the user interface.
+>[!TIP]
+> If the incoming request includes select for deletedDate > 1.1.176, this will switch off the automatic filtering conditions for all tables in the query.
 
-Deleting a company will delete its persons. Restoring a company will restore all deleted persons on it; restoring a person will also restore its company if it has been deleted (but not all the other persons on the company).
+## Searching for soft-deleted records
 
-GDPR places limits on keeping irrelevant information, and soft-deleted person and company records are no exception. Therefore, after a time – which will default to 14 days – a periodic background process will *really* delete soft-deleted records that are older than the "retention time". And this time we’re going deep down into the database and cleaning up properly.
+In some scenarios it might be useful to search for information which has been soft-deleted. It exists 3 ArchiveProviders, for each of the 3 entitites, for this purpose:
 
-Directly dependent records such as email or phone are deleted. Other tables have independent reasons to exist: a meeting still happened, even if no longer have a valid person reference, so there we just zero the appointment.person_id. In all, about 65 tables are impacted by such a cleanup. Not by coincidence, the cleanup is the same one that happens during the upgrade to 8.2R05 in preparation for allowing person-without-company to be visible. That code is well tested and will clean up any loose ends.
+* [RecycleContact][18]
+* [RecyclePerson][19]
+* [RecycleTicket][20]
 
-Initially, we are rolling out this functionality for **person** and **contact**. Much of it is controlled by settings in the database model and can be extended to other tables, but the details of the deep delete of course reflect our business logic and have to be custom coded for each table. In the future, we may add soft-delete to our other main entities. Note that the "delete" function we already have in Lists is different – that is not really a delete, semantically it just means "value not available for setting".
+## Database Mirroring and Travel
 
-For partners who use our APIs at any level, nothing changes. You can ask NetServer to delete a record and the interception code will change that into an Update for you, transparently. Search for something, and the filtering conditions will be appended. For those (few?) who work directly with the database, well, now might be the time to consider switching to an API approach?
+[Database Mirroring][3] and [Travel][4] will both replicate the soft delete as the **update** it really is. Mirroring will also replicate the deep delete that happens later, but Travel will not. The reason is that the deep delete, being a real consistency cleanup, needs to work with whatever is actually in the database. Only the code local to the receiving database can know that, so we use the same strategy as when replicating a Move/Merge operation. The initial operation (update deletedDate) is replicated; and the consequence in the form of a deep delete are **recreated** on the receiving database, after the proper interval, using whatever data is present at the time.
 
-If you’d like to make a better Recycle Bin, adding a condition like deletedDate > 1.1.1760 to a select, will switch off the automatic filtering conditions for all tables in the query.
+## Hard delete
 
-Database Mirroring and Travel will both replicate the soft delete as the **update** it really is. Mirroring will also replicate the deep delete that happens later, but Travel will not. The reason is that the deep delete, being a real consistency cleanup, needs to work with whatever is actually in the database. Only the code local to the receiving database can know that, so we use the same strategy as when replicating a Move/Merge operation. The initial operation (update deletedDate) is replicated; and the consequences in the form of a deep delete are **recreated** on the receiving database, after the proper interval, using whatever data is present at the time.
+As explained above the soft-delete does not actually remove the records from the database. Physical deletion happens after the retention time, and is described as a **hard-delete**.
 
-To summarize: for the person and contact tables, a **delete** through any API becomes an update to a date field; and any **select** automatically gets conditions that make such rows disappear. A background process will periodically clean up soft-deleted records that are too old.
+## Relation Action
 
-For users, it means that delete operations can be undone. For DBAs, the deep delete means a more consistent database. And for lawyers, the threat of GDPR non-compliance becomes smaller. What could be better?
+The Relation Action describes the type of edit is being done, and what it entails.
+
+| Relation Action   | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| DeleteRecord      | Deletes the entire record from the table when the condition is met.          |
+| ZeroForeignKey    | Sets the foreign key to `0` instead of deleting the record.                  |
+| Ignore            | Takes no action on the record; it remains unaffected.                       |
+
+### Hard-delete of Contact
+
+When a hard-delete occurs there is a lot of information that gets edited based on the [Relation Action](#relation-action)
+
+#### DeleteRecord
+
+| Table                  | Field                       | Notes                                                   |
+|------------------------|-----------------------------|---------------------------------------------------------|
+| address                | owner_id (atype_idx = 1)    |                                                         |
+| address                | owner_id (atype_idx = 2)    |                                                         |
+| binaryobjectlink       | ownertable                  |                                                         |
+| company_domain         | company_id                  |                                                         |
+| contactinterest        | contact_id                  |                                                         |
+| email                  | contact_id                  |                                                         |
+| favourite              | table_id                    |                                                         |
+| foreignkey             | table_id                    |                                                         |
+| history                | table_id                    |                                                         |
+| mergemovelog           | tablenumber                 |                                                         |
+| phone                  | owner_id (ptype_idx = 1)    |                                                         |
+| phone                  | owner_id (ptype_idx = 3)    |                                                         |
+| relations              | destination_table           |                                                         |
+| relations              | source_table                |                                                         |
+| s_shipment_addr        | contact_id                  |                                                         |
+| statusvalue            | contact_id                  |                                                         |
+| text                   | owner_id (type = 1)         |                                                         |
+| text                   | owner_id (type = 10)        |                                                         |
+| url                    | contact_id                  |                                                         |
+
+#### ZeroForeignKey
+
+| Table                  | Field                       | Notes                                                   |
+|------------------------|-----------------------------|---------------------------------------------------------|
+| appointment            | contact_id                  |                                                         |
+| chat_session           | contact_id                  |                                                         |
+| contact                | mother_id                   |                                                         |
+| email_item             | contact_id                  |                                                         |
+| form_submission        | contact_id                  |                                                         |
+| invoice                | company_id                  |                                                         |
+| invoice_sum            | company_id                  |                                                         |
+| person                 | contact_id                  | contact -> person cascade is handled elsewhere          |
+| projectmember          | contact_id                  |                                                         |
+| sale                   | contact_id                  |                                                         |
+| salehist               | contact_id                  |                                                         |
+| salestakeholder        | contact_id                  | on person delete, but contact maps to just zero         |
+| selectionmember        | contact_id                  | extra pass later to delete c=0, p=0 records             |
+
+#### Ignore
+
+| Table                  | Field                       | Notes                                                   |
+|------------------------|-----------------------------|---------------------------------------------------------|
+| countervalue           | contact_id                  | will be regenerated away                                |
+| dataright              | tableid                     |                                                         |
+| freetextindex          | ownertable_id               |                                                         |
+| freetextindex          | table_id                    |                                                         |
+| importobject           | tableid                     |                                                         |
+| ownercontactlink       | contact_id                  | contact records are never deleted; deleting is a mistake |
+| relationtarget         | destination_table           |                                                         |
+| relationtarget         | source_table                |                                                         |
+| satellite              | contact_id                  | contact records are never deleted; deleting is a mistake |
+| sl_vendor              | contact_id                  | contact records are never deleted; deleting is a mistake |
+| traveltransactionlog   | tablenumber                 |                                                         |
+
+>[!NOTE]
+> CustomFields and ExtraTables also gets cleaned up.
+
+### Hard-delete of Person
+
+When a hard-delete occurs there is a lot of information that gets edited based on the [Relation Action](#relation-action).
+
+#### DeleteRecord
+
+| Table                  | Field                        | Notes                                     |
+|------------------------|------------------------------|-------------------------------------------|
+| address                | owner_id (atype_idx = 16387)  | person parent                             |
+| address                | owner_id (atype_idx = 1)      | contact parent                            |
+| address                | owner_id (atype_idx = 2)      | contact parent                            |
+| binaryobjectlink       | ownertable                    |                                           |
+| consentperson          | person_id                     |                                           |
+| credentials            | personid                      |                                           |
+| email                  | contact_id                    | contact parent                            |
+| email                  | person_id                     |                                           |
+| email_item             | person_id                     |                                           |
+| favourite              | table_id                      |                                           |
+| foreignkey             | table_id                      |                                           |
+| history                | table_id                      |                                           |
+| login_customer         | customer_id                   |                                           |
+| message_customers      | customer_id                   |                                           |
+| mergemovelog           | tablenumber                   |                                           |
+| personinterest         | person_id                     |                                           |
+| phone                  | owner_id (ptype_idx = 1)      | contact parent                            |
+| phone                  | owner_id (ptype_idx = 16385)  |                                           |
+| phone                  | owner_id (ptype_idx = 16387)  |                                           |
+| phone                  | owner_id (ptype_idx = 16388)  |                                           |
+| phone                  | owner_id (ptype_idx = 16389)  |                                           |
+| phone                  | owner_id (ptype_idx = 16390)  |                                           |
+| phone                  | owner_id (ptype_idx = 3)      | contact parent (no value '2' exists)      |
+| projectmember          | person_id                     |                                           |
+| salestakeholder        | person_id                     |                                           |
+| s_bounce_shipment      | customer_id                   |                                           |
+| s_link_customer        | customer_id                   |                                           |
+| s_list_customer        | customer_id                   |                                           |
+| s_sent_message         | customer_id                   |                                           |
+| s_shipment_addr        | customer_id                   |                                           |
+| selectionmember        | person_id                     |                                           |
+| shipmenttypereservation| person_id                     |                                           |
+| sms                    | customer_id                   |                                           |
+| statusvalue            | person_id                     |                                           |
+| temporarykey           | person_id                     |                                           |
+| text                   | owner_id (type = 2)           |                                           |
+| text                   | owner_id (type = 3)           |                                           |
+| ticket_customers       | customer_id                   |                                           |
+| url                    | contact_id                    | contact parent                            |
+| url                    | person_id                     |                                           |
+| user_candidate         | person_id                     |                                           |
+| relations              | destination_table             |                                           |
+| relations              | source_table                  |                                           |
+
+#### ZeroForeignKey
+
+| Table                  | Field                        | Notes                                     |
+|------------------------|------------------------------|-------------------------------------------|
+| appointment            | invitedpersonid               |                                           |
+| appointment            | person_id                     |                                           |
+| chat_session           | customer_id                   |                                           |
+| contact                | supportpersonid               |                                           |
+| ej_message             | customer_id                   |                                           |
+| form_submission        | person_id                     |                                           |
+| invoice                | customer_id                   |                                           |
+| invoice_sum            | customer_id                   |                                           |
+| kb_entry_comment       | customer_id                   |                                           |
+| sale                   | person_id                     |                                           |
+| salehist               | person_id                     |                                           |
+| ticket                 | cust_id                       |                                           |
+| ticket_log_action      | customer_id                   |                                           |
+
+#### Ignore
+
+| Table                  | Field                        | Notes                                     |
+|------------------------|------------------------------|-------------------------------------------|
+| associate              | person_id                     |                                           |
+| countervalue           | person_id                     |                                           |
+| dataright              | tableid                       |                                           |
+| freetextindex          | ownertable_id                 |                                           |
+| freetextindex          | table_id                      |                                           |
+| importobject           | tableid                       |                                           |
+| relationtarget         | destination_table             |                                           |
+| relationtarget         | source_table                  |                                           |
+| traveltransactionlog   | tablenumber                   |                                           |
+
+>[!NOTE]
+> CustomFields and ExtraTables also gets cleaned up.
+
+### Hard-delete Request
+
+The following tables are affected by a hard-delete of a request
+
+* [TICKET][6]
+* [EJ_MESSAGE][7]
+* [TICKET_LOG][8]
+* [TICKET_LOG_ACTION][9]
+* [TICKET_LOG_CHANGE][10]
+* [TICKET_CUSTOMERS][11]
+* [FAVOURITE][12]
+* [MESSAGE_HEADER][13]
+* [TICKET_ATTACHMENT][14]
+* [ATTACHMENT][15]
+* [INVOICE_ENTRY][16]
+* [MESSAGE_CUSTOMERS][17]
+
+## Summary
+
+For the person, contact and ticket tables, a delete through any API becomes an update to a date field; and any select automatically gets conditions that make such rows disappear. A background process will periodically clean up soft-deleted records that are too old.
+
+For users, it means that delete operations can be undone. For DBAs, the deep delete means a more consistent database.
+
+<!--Reference links-->
+[1]: ../../learn/basics/deleting-elements.md#restore
+[2]: ../../admin/preferences/learn/global-preferences/system.md
+[3]: ../../mirroring/overview.md
+[4]: ../../travel/index.md
+[5]: ../../database/tables/enums/ticketbasestatus.md
+[6]: ../../database/tables/ticket.md
+[7]: ../../database/tables/ej-message.md
+[8]: ../../database/tables/ticket-log.md
+[9]: ../../database/tables/ticket-log-action.md
+[10]: ../../database/tables/ticket-log-action.md
+[11]: ../../database/tables/ticket-customers.md
+[12]: ../../database/tables/favourite.md
+[13]: ../../database/tables/message-header.md
+[14]: ../../database/tables/ticket-attachment.md
+[15]: ../../database/tables/attachment.md
+[16]: ../../database/tables/invoice-entry.md
+[17]: ../../database/tables/message-customers.md
+[18]: ../../api/archive-providers/reference/recyclecontact.md
+[19]: ../../api/archive-providers/reference/recycleperson.md
+[20]: ../../api/archive-providers/reference/recycleticket.md
+[21]: .
