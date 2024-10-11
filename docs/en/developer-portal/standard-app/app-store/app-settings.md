@@ -70,7 +70,7 @@ The [steps to update all App Store information][3] are the same.
 | Key features | What does the app do? List the key features in bullet style. (max 10 features) | [Marketing requirements][7] |
 | What's new | Information to help boost visibility when you release a new version of your application. | |
 
-### Price and terms
+### Prices and terms
 
 | Setting | Description | Read more |
 |---|---|---|

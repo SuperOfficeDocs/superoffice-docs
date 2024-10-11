@@ -57,7 +57,7 @@ The information shown on your app-specific product pages in the App Store comes 
         > [!TIP]
         > Use an online counter to [count the number of characters or words][6].
 
-    * [Price and terms][7]
+    * [Prices and terms][7]
     * [How to install][8]
     * [SEO][1]
 
