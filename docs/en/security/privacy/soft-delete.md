@@ -41,130 +41,164 @@ In some scenarios it might be useful to search for information which has been so
 
 As explained above the soft-delete does not actually remove the records from the database. Physical deletion happens after the retention time, and is described as a **hard-delete**.
 
+## Relation Action
+
+The Relation Action describes the type of edit is being done, and what it entails.
+
+| Relation Action   | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| DeleteRecord      | Deletes the entire record from the table when the condition is met.          |
+| ZeroForeignKey    | Sets the foreign key to `0` instead of deleting the record.                  |
+| Ignore            | Takes no action on the record; it remains unaffected.                       |
+
 ### Hard-delete of Contact
 
 When a hard-delete occurs there is a lot of information that gets edited based on the [Relation Action](#relation-action)
 
-| Table                  | Field                       | Relation Action         | Notes                                                   |
-|------------------------|-----------------------------|-------------------------|---------------------------------------------------------|
-| address                | owner_id (atype_idx = 1)    | DeleteRecord            |                                                         |
-| address                | owner_id (atype_idx = 2)    | DeleteRecord            |                                                         |
-| appointment            | contact_id                  | ZeroForeignKey          |                                                         |
-| chat_session           | contact_id                  | ZeroForeignKey          |                                                         |
-| company_domain         | company_id                  | DeleteRecord            |                                                         |
-| contact                | mother_id                   | ZeroForeignKey          |                                                         |
-| contactinterest        | contact_id                  | DeleteRecord            |                                                         |
-| countervalue           | contact_id                  | Ignore                  | will be regenerated away                                |
-| email                  | contact_id                  | DeleteRecord            |                                                         |
-| email_item             | contact_id                  | ZeroForeignKey          |                                                         |
-| form_submission        | contact_id                  | ZeroForeignKey          |                                                         |
-| invoice                | company_id                  | ZeroForeignKey          |                                                         |
-| invoice_sum            | company_id                  | ZeroForeignKey          |                                                         |
-| ownercontactlink       | contact_id                  | Ignore                  | contact records are never deleted; deleting is a mistake |
-| person                 | contact_id                  | ZeroForeignKey          | contact -> person cascade is handled elsewhere          |
-| phone                  | owner_id (ptype_idx = 1)    | DeleteRecord            |                                                         |
-| phone                  | owner_id (ptype_idx = 3)    | DeleteRecord            |                                                         |
-| projectmember          | contact_id                  | ZeroForeignKey          |                                                         |
-| s_shipment_addr        | contact_id                  | DeleteRecord            |                                                         |
-| sale                   | contact_id                  | ZeroForeignKey          |                                                         |
-| salehist               | contact_id                  | ZeroForeignKey          |                                                         |
-| salestakeholder        | contact_id                  | ZeroForeignKey          | on person delete, but contact maps to just zero         |
-| satellite              | contact_id                  | Ignore                  | contact records are never deleted; deleting is a mistake |
-| selectionmember        | contact_id                  | ZeroForeignKey          | extra pass later to delete c=0, p=0 records             |
-| sl_vendor              | contact_id                  | Ignore                  | contact records are never deleted; deleting is a mistake |
-| statusvalue            | contact_id                  | DeleteRecord            |                                                         |
-| text                   | owner_id (type = 1)         | DeleteRecord            |                                                         |
-| text                   | owner_id (type = 10)        | DeleteRecord            |                                                         |
-| url                    | contact_id                  | DeleteRecord            |                                                         |
-| binaryobjectlink       | ownertable                  | DeleteRecord            |                                                         |
-| dataright              | tableid                     | Ignore                  |                                                         |
-| favourite              | table_id                    | DeleteRecord            |                                                         |
-| foreignkey             | table_id                    | DeleteRecord            |                                                         |
-| freetextindex          | ownertable_id               | Ignore                  |                                                         |
-| freetextindex          | table_id                    | Ignore                  |                                                         |
-| history                | table_id                    | DeleteRecord            |                                                         |
-| importobject           | tableid                     | Ignore                  |                                                         |
-| mergemovelog           | tablenumber                 | DeleteRecord            |                                                         |
-| relations              | destination_table           | DeleteRecord            |                                                         |
-| relations              | source_table                | DeleteRecord            |                                                         |
-| relationtarget         | destination_table           | Ignore                  |                                                         |
-| relationtarget         | source_table                | Ignore                  |                                                         |
-| traveltransactionlog   | tablenumber                 | Ignore                  |                                                         |
+#### DeleteRecord
+
+| Table                  | Field                       | Notes                                                   |
+|------------------------|-----------------------------|---------------------------------------------------------|
+| address                | owner_id (atype_idx = 1)    |                                                         |
+| address                | owner_id (atype_idx = 2)    |                                                         |
+| binaryobjectlink       | ownertable                  |                                                         |
+| company_domain         | company_id                  |                                                         |
+| contactinterest        | contact_id                  |                                                         |
+| email                  | contact_id                  |                                                         |
+| favourite              | table_id                    |                                                         |
+| foreignkey             | table_id                    |                                                         |
+| history                | table_id                    |                                                         |
+| mergemovelog           | tablenumber                 |                                                         |
+| phone                  | owner_id (ptype_idx = 1)    |                                                         |
+| phone                  | owner_id (ptype_idx = 3)    |                                                         |
+| relations              | destination_table           |                                                         |
+| relations              | source_table                |                                                         |
+| s_shipment_addr        | contact_id                  |                                                         |
+| statusvalue            | contact_id                  |                                                         |
+| text                   | owner_id (type = 1)         |                                                         |
+| text                   | owner_id (type = 10)        |                                                         |
+| url                    | contact_id                  |                                                         |
+
+#### ZeroForeignKey
+
+| Table                  | Field                       | Notes                                                   |
+|------------------------|-----------------------------|---------------------------------------------------------|
+| appointment            | contact_id                  |                                                         |
+| chat_session           | contact_id                  |                                                         |
+| contact                | mother_id                   |                                                         |
+| email_item             | contact_id                  |                                                         |
+| form_submission        | contact_id                  |                                                         |
+| invoice                | company_id                  |                                                         |
+| invoice_sum            | company_id                  |                                                         |
+| person                 | contact_id                  | contact -> person cascade is handled elsewhere          |
+| projectmember          | contact_id                  |                                                         |
+| sale                   | contact_id                  |                                                         |
+| salehist               | contact_id                  |                                                         |
+| salestakeholder        | contact_id                  | on person delete, but contact maps to just zero         |
+| selectionmember        | contact_id                  | extra pass later to delete c=0, p=0 records             |
+
+#### Ignore
+
+| Table                  | Field                       | Notes                                                   |
+|------------------------|-----------------------------|---------------------------------------------------------|
+| countervalue           | contact_id                  | will be regenerated away                                |
+| dataright              | tableid                     |                                                         |
+| freetextindex          | ownertable_id               |                                                         |
+| freetextindex          | table_id                    |                                                         |
+| importobject           | tableid                     |                                                         |
+| ownercontactlink       | contact_id                  | contact records are never deleted; deleting is a mistake |
+| relationtarget         | destination_table           |                                                         |
+| relationtarget         | source_table                |                                                         |
+| satellite              | contact_id                  | contact records are never deleted; deleting is a mistake |
+| sl_vendor              | contact_id                  | contact records are never deleted; deleting is a mistake |
+| traveltransactionlog   | tablenumber                 |                                                         |
 
 >[!NOTE]
 > CustomFields and ExtraTables also gets cleaned up.
 
 ### Hard-delete of Person
 
-When a hard-delete occurs there is a lot of information that gets edited based on the [Relation Action](#relation-action)
+When a hard-delete occurs there is a lot of information that gets edited based on the [Relation Action](#relation-action).
 
-| Table                  | Field                        | Relation Action   | Notes                                     |
-|------------------------|------------------------------|-------------------|-------------------------------------------|
-| address                | owner_id (atype_idx = 16387)  | DeleteRecord      | person parent                             |
-| address                | owner_id (atype_idx = 1)      | DeleteRecord      | contact parent                            |
-| address                | owner_id (atype_idx = 2)      | DeleteRecord      | contact parent                            |
-| appointment            | invitedpersonid               | ZeroForeignKey    |                                           |
-| appointment            | person_id                     | ZeroForeignKey    |                                           |
-| associate              | person_id                     | Ignore            |                                           |
-| chat_session           | customer_id                   | ZeroForeignKey    |                                           |
-| consentperson          | person_id                     | DeleteRecord      |                                           |
-| contact                | supportpersonid               | ZeroForeignKey    |                                           |
-| countervalue           | person_id                     | Ignore            |                                           |
-| credentials            | personid                      | DeleteRecord      |                                           |
-| ej_message             | customer_id                   | ZeroForeignKey    |                                           |
-| email                  | person_id                     | DeleteRecord      |                                           |
-| email                  | contact_id                    | DeleteRecord      | contact parent                            |
-| email_item             | person_id                     | DeleteRecord      |                                           |
-| form_submission        | person_id                     | ZeroForeignKey    |                                           |
-| invoice                | customer_id                   | ZeroForeignKey    |                                           |
-| invoice_sum            | customer_id                   | ZeroForeignKey    |                                           |
-| kb_entry_comment       | customer_id                   | ZeroForeignKey    |                                           |
-| login_customer         | customer_id                   | DeleteRecord      |                                           |
-| message_customers      | customer_id                   | DeleteRecord      |                                           |
-| personinterest         | person_id                     | DeleteRecord      |                                           |
-| phone                  | owner_id (ptype_idx = 1)      | DeleteRecord      | contact parent                            |
-| phone                  | owner_id (ptype_idx = 3)      | DeleteRecord      | contact parent (no value '2' exists)      |
-| phone                  | owner_id (ptype_idx = 16385)  | DeleteRecord      |                                           |
-| phone                  | owner_id (ptype_idx = 16387)  | DeleteRecord      |                                           |
-| phone                  | owner_id (ptype_idx = 16388)  | DeleteRecord      |                                           |
-| phone                  | owner_id (ptype_idx = 16389)  | DeleteRecord      |                                           |
-| phone                  | owner_id (ptype_idx = 16390)  | DeleteRecord      |                                           |
-| projectmember          | person_id                     | DeleteRecord      |                                           |
-| s_bounce_shipment      | customer_id                   | DeleteRecord      |                                           |
-| s_link_customer        | customer_id                   | DeleteRecord      |                                           |
-| s_list_customer        | customer_id                   | DeleteRecord      |                                           |
-| s_sent_message         | customer_id                   | DeleteRecord      |                                           |
-| s_shipment_addr        | customer_id                   | DeleteRecord      |                                           |
-| sale                   | person_id                     | ZeroForeignKey    |                                           |
-| salehist               | person_id                     | ZeroForeignKey    |                                           |
-| salestakeholder        | person_id                     | DeleteRecord      |                                           |
-| selectionmember        | person_id                     | DeleteRecord      |                                           |
-| shipmenttypereservation| person_id                     | DeleteRecord      |                                           |
-| sms                    | customer_id                   | DeleteRecord      |                                           |
-| statusvalue            | person_id                     | DeleteRecord      |                                           |
-| temporarykey           | person_id                     | DeleteRecord      |                                           |
-| text                   | owner_id (type = 2)           | DeleteRecord      |                                           |
-| text                   | owner_id (type = 3)           | DeleteRecord      |                                           |
-| ticket                 | cust_id                       | ZeroForeignKey    |                                           |
-| ticket_customers       | customer_id                   | DeleteRecord      |                                           |
-| ticket_log_action      | customer_id                   | ZeroForeignKey    |                                           |
-| url                    | person_id                     | DeleteRecord      |                                           |
-| url                    | contact_id                    | DeleteRecord      | contact parent                            |
-| user_candidate         | person_id                     | DeleteRecord      |                                           |
-| binaryobjectlink       | ownertable                    | DeleteRecord      |                                           |
-| dataright              | tableid                       | Ignore            |                                           |
-| favourite              | table_id                      | DeleteRecord      |                                           |
-| foreignkey             | table_id                      | DeleteRecord      |                                           |
-| freetextindex          | ownertable_id                 | Ignore            |                                           |
-| freetextindex          | table_id                      | Ignore            |                                           |
-| history                | table_id                      | DeleteRecord      |                                           |
-| importobject           | tableid                       | Ignore            |                                           |
-| mergemovelog           | tablenumber                   | DeleteRecord      |                                           |
-| relations              | destination_table             | DeleteRecord      |                                           |
-| relations              | source_table                  | DeleteRecord      |                                           |
-| relationtarget         | destination_table             | Ignore            |                                           |
-| relationtarget         | source_table                  | Ignore            |                                           |
-| traveltransactionlog   | tablenumber                   | Ignore            |                                           |
+#### DeleteRecord
+
+| Table                  | Field                        | Notes                                     |
+|------------------------|------------------------------|-------------------------------------------|
+| address                | owner_id (atype_idx = 16387)  | person parent                             |
+| address                | owner_id (atype_idx = 1)      | contact parent                            |
+| address                | owner_id (atype_idx = 2)      | contact parent                            |
+| binaryobjectlink       | ownertable                    |                                           |
+| consentperson          | person_id                     |                                           |
+| credentials            | personid                      |                                           |
+| email                  | contact_id                    | contact parent                            |
+| email                  | person_id                     |                                           |
+| email_item             | person_id                     |                                           |
+| favourite              | table_id                      |                                           |
+| foreignkey             | table_id                      |                                           |
+| history                | table_id                      |                                           |
+| login_customer         | customer_id                   |                                           |
+| message_customers      | customer_id                   |                                           |
+| mergemovelog           | tablenumber                   |                                           |
+| personinterest         | person_id                     |                                           |
+| phone                  | owner_id (ptype_idx = 1)      | contact parent                            |
+| phone                  | owner_id (ptype_idx = 16385)  |                                           |
+| phone                  | owner_id (ptype_idx = 16387)  |                                           |
+| phone                  | owner_id (ptype_idx = 16388)  |                                           |
+| phone                  | owner_id (ptype_idx = 16389)  |                                           |
+| phone                  | owner_id (ptype_idx = 16390)  |                                           |
+| phone                  | owner_id (ptype_idx = 3)      | contact parent (no value '2' exists)      |
+| projectmember          | person_id                     |                                           |
+| salestakeholder        | person_id                     |                                           |
+| s_bounce_shipment      | customer_id                   |                                           |
+| s_link_customer        | customer_id                   |                                           |
+| s_list_customer        | customer_id                   |                                           |
+| s_sent_message         | customer_id                   |                                           |
+| s_shipment_addr        | customer_id                   |                                           |
+| selectionmember        | person_id                     |                                           |
+| shipmenttypereservation| person_id                     |                                           |
+| sms                    | customer_id                   |                                           |
+| statusvalue            | person_id                     |                                           |
+| temporarykey           | person_id                     |                                           |
+| text                   | owner_id (type = 2)           |                                           |
+| text                   | owner_id (type = 3)           |                                           |
+| ticket_customers       | customer_id                   |                                           |
+| url                    | contact_id                    | contact parent                            |
+| url                    | person_id                     |                                           |
+| user_candidate         | person_id                     |                                           |
+| relations              | destination_table             |                                           |
+| relations              | source_table                  |                                           |
+
+#### ZeroForeignKey
+
+| Table                  | Field                        | Notes                                     |
+|------------------------|------------------------------|-------------------------------------------|
+| appointment            | invitedpersonid               |                                           |
+| appointment            | person_id                     |                                           |
+| chat_session           | customer_id                   |                                           |
+| contact                | supportpersonid               |                                           |
+| ej_message             | customer_id                   |                                           |
+| form_submission        | person_id                     |                                           |
+| invoice                | customer_id                   |                                           |
+| invoice_sum            | customer_id                   |                                           |
+| kb_entry_comment       | customer_id                   |                                           |
+| sale                   | person_id                     |                                           |
+| salehist               | person_id                     |                                           |
+| ticket                 | cust_id                       |                                           |
+| ticket_log_action      | customer_id                   |                                           |
+
+#### Ignore
+
+| Table                  | Field                        | Notes                                     |
+|------------------------|------------------------------|-------------------------------------------|
+| associate              | person_id                     |                                           |
+| countervalue           | person_id                     |                                           |
+| dataright              | tableid                       |                                           |
+| freetextindex          | ownertable_id                 |                                           |
+| freetextindex          | table_id                      |                                           |
+| importobject           | tableid                       |                                           |
+| relationtarget         | destination_table             |                                           |
+| relationtarget         | source_table                  |                                           |
+| traveltransactionlog   | tablenumber                   |                                           |
 
 >[!NOTE]
 > CustomFields and ExtraTables also gets cleaned up.
@@ -185,14 +219,6 @@ The following tables are affected by a hard-delete of a request
 * [ATTACHMENT][15]
 * [INVOICE_ENTRY][16]
 * [MESSAGE_CUSTOMERS][17]
-
-## Relation Action
-
-| Relation Action   | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| DeleteRecord      | Deletes the entire record from the table when the condition is met.          |
-| ZeroForeignKey    | Sets the foreign key to `0` instead of deleting the record.                  |
-| Ignore            | Takes no action on the record; it remains unaffected.                       |
 
 ## Summary
 
