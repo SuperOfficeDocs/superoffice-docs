@@ -1,12 +1,12 @@
 ---
-title: Images and videos
 uid: dp-app-images-and-videos
+title: Images and videos
 description: How to create good screenshots and videos; how to add images and videos to your app listing in the SuperOffice Developer Portal.
+keywords: Developer Portal, app store, image, video, icon, logo, screenshot, media tab
 author: Bergfrid Dias
-date: 10.24.2023
-keywords: Developer Portal, app store, image, video, icon, logo, screenshot
+date: 10.16.2024
+version_devportal: 1.27
 topic: howto
-version_devportal: 1.15
 envir: cloud
 ---
 
@@ -30,7 +30,7 @@ envir: cloud
 ## How to add or change app icon
 
 1. In the Developer Portal, go to your application page.
-2. Select **App Store information** from the left menu, then select **Images and videos**.
+2. Select **App Store information** from the left menu, then select the **Media** tab.
 3. Drag and drop a file into the **Home Page Icon** or the **Detail Page Icon** circle. Alternatively, click the circle to select an image from your computer.
 4. In the **Crop Image** dialog, reposition or zoom the selected area, then click **Save**.
 5. Enter alt text.
@@ -47,7 +47,7 @@ We encourage you to include beautiful and meaningful screenshots from the applic
 > If you want screenshots shown in a specific order, use the list item handle to reorder as desired.
 
 1. In the Developer Portal, go to your application page.
-2. Select **App Store information** from the left menu, then select **Images and videos**.
+2. Select **App Store information** from the left menu, then select the **Media** tab.
 3. Click **Add Images**.
 4. Drag and drop a file into the box or click to upload one from your computer.
 
@@ -147,7 +147,7 @@ Don't worry if you don't have a Mac available. Your screenshots will still look 
 ## Videos
 
 1. In the Developer Portal, go to your application page.
-2. Select **App Store information** from the left menu, then select **Images and videos**.
+2. Select **App Store information** from the left menu, then select the **Media** tab.
 3. Click the **Add Videos** button.
 4. Enter alt text in the Description field, and YouTube video ID.
 5. Repeat steps 3 and 4 to add more videos.

@@ -1,14 +1,13 @@
 ---
-title: Application settings
 uid: dp-app-settings
+title: Application settings
 description: Reference of application settings in the SuperOffice Developer Portal.
 keywords: apps, Developer Portal
 author: Bergfrid Dias
-date: 02.15.2024
-version_devportal: 1.10
+date: 10.16.2024
+version_devportal: 1.27
 topic: reference
 envir: cloud
-client:
 ---
 
 # Application settings
@@ -31,45 +30,12 @@ As a partner, you may change the technical contact and the list of error reporti
 
 The [steps to update all App Store information][3] are the same.
 
-### Description tab
+### <a id="links"></a>Details
 
 | Setting | Description | Read more |
 |---|---|---|
-| Header | A one-liner to introduce the App and make visitors curious. The bold text below your company name on the App Store entry. | [Marketing requirements][7] |
-| About this app| In more detail (max 200 words), explain what your application does and what the customers get when they use it. Include the key benefit statements and customer testimonials if you have any. | [Marketing requirements][7] |
-| Key features | What does the app do? List the key features in bullet style. (max 10 features) | [Marketing requirements][7] |
-| What's new | Information to help boost visibility when you release a new version of your application. | |
-
-### Search engine optimization tab
-
-| Setting | Description | Read more |
-|---|---|---|
-| Meta description | A meta description is a brief summary of a web page and should give the user an idea of the content. It is placed in the HTML tag and displayed in search engine results pages and can impact the click-through rate (CTR). | [Improve SEO][1] |
-| Meta keywords | Meta keywords range from single words to complex phrases and are used to inform website content in a more focused way than the description. | [Improve SEO][1] |
-
-### Prices and terms
-
-| Setting | Description | Read more |
-|---|---|---|
-| Is free | Marks the app as 100 percent free and hides the price field. | [Price info][6] |
-| Price | Lowest starting price in EUR (amount). | [Price info][6] |
-| Pricing information | Describe your pricing. Clarify whether the price is by site or user, with or without VAT. | [Price info][6] |
-| Terms and conditions | List rules related to using the application, such as availability and your liability. | [Price info][6] |
-
-### How to install
-
-| Setting | Description | Read more |
-|---|---|---|
-| SuperOffice CRM plan | Which SuperOffice user plans are supported. | [How to install tab][4] |
-| Getting started | The steps needed to install and use the application. | [How to install tab][4] |
-| Additional requirements | All system requirements. | [How to install tab][4] |
-
-### Links
-
-| Type | Description | Read more |
-|---|---|---|
-| Green button text | The label of the green button on your App Store entry. | [Links tab][5] |
-| Links | Any additional links. Each link has a type (see list below), URL, and text. | [Links tab][5] |
+| Green button text | The label of the green button on your App Store entry. | [Details tab][5] |
+| Links | Any additional links. Each link has a type (see list below), URL, and text. | [Details tab][5] |
 | Categories | Apps are divided into categories in the App Store to help visitors navigate. See list below. | [Marketing requirements][7] |
 | Languages | The languages the app is available in. Danish, Dutch, English, Finnish, French, German, Italian, Norwegian, Romansh, Swedish | [Marketing requirements][7] |
 | Markets | In which markets should the app be available? Benelux, Denmark, Finland, Germany, Norway,Sweden, Switzerland, United Kingdom | [Marketing requirements][7] |
@@ -95,34 +61,38 @@ The [steps to update all App Store information][3] are the same.
 * ERP
 * Quotations
 
-<!-- Coming soon?
-* Customer service
-  * Agent Productivity
-  * Field service
-  * Surveys
-  * Telephony
-* Marketing
-  * Campaign management
-  * Event management
-  * Marketing Automation
-  * Mass Emails
-  * Websites
-* IT & Administration
-  * Admin & Developer Tools
-  * Data Cleansing
-  * Integration
-  * IT Management
-* Human Resources
-* Finance
-  * Accounting
-  * Payment Processing
-  * Time & Expense
-* Collaboration
-  * Chat & Web Conferencing
-  * Chatter
-  * Document Management
-  * Project Management
-* Analytics -->
+### Description tab
+
+| Setting | Description | Read more |
+|---|---|---|
+| Header | A one-liner to introduce the App and make visitors curious. The bold text below your company name on the App Store entry. | [Marketing requirements][7] |
+| About this app| In more detail (max 200 words), explain what your application does and what the customers get when they use it. Include the key benefit statements and customer testimonials if you have any. | [Marketing requirements][7] |
+| Key features | What does the app do? List the key features in bullet style. (max 10 features) | [Marketing requirements][7] |
+| What's new | Information to help boost visibility when you release a new version of your application. | |
+
+### Prices and terms
+
+| Setting | Description | Read more |
+|---|---|---|
+| Is free | Marks the app as 100 percent free and hides the price field. | [Price info][6] |
+| Price | Lowest starting price in EUR (amount). | [Price info][6] |
+| Pricing information | Describe your pricing. Clarify whether the price is by site or user, with or without VAT. | [Price info][6] |
+| Terms and conditions | List rules related to using the application, such as availability and your liability. | [Price info][6] |
+
+### How to install
+
+| Setting | Description | Read more |
+|---|---|---|
+| SuperOffice CRM plan | Which SuperOffice user plans are supported. | [How to install tab][4] |
+| Getting started | The steps needed to install and use the application. | [How to install tab][4] |
+| Additional requirements | All system requirements. | [How to install tab][4] |
+
+### SEO tab
+
+| Setting | Description | Read more |
+|---|---|---|
+| Meta description | A meta description is a brief summary of a web page and should give the user an idea of the content. It is placed in the HTML tag and displayed in search engine results pages and can impact the click-through rate (CTR). | [Improve SEO][1] |
+| Meta keywords | Meta keywords range from single words to complex phrases and are used to inform website content in a more focused way than the description. | [Improve SEO][1] |
 
 ## See also
 
