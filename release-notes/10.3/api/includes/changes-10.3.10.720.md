@@ -1,9 +1,9 @@
 ---
-uid: version_10.3.10.718_changes
-date: 09.10.2024
+uid: version_10.3.10.720_changes
+date: 10/11/2024
 ---
 
-Changes from v10.3.9.718 and v10.3.10.718
+Changes from v10.3.9.718 and v10.3.10.720
 
 ## Web Services
 
@@ -123,6 +123,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.TemporaryKeyFieldsPayload`
 
+
 #### SuperOffice.CRM.Data.TemporaryKeyTableInfo is Modified
 
 * New items
@@ -130,7 +131,9 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Globalization.DocumentTags is Modified
 
+
 #### SuperOffice.CRM.Lists.SpecifiedMailingsListProvider is Modified
+
 
 #### SuperOffice.CRM.Rows.TemporaryKeyRecordData is Modified
 
@@ -189,6 +192,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `ExecuteTypedScalar<ReturnType>(SqlCommand, Boolean)`
 
+
 ### Assembly: SoLicense
 
 ## Continuous Database
@@ -208,3 +212,6 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `Payload`
+
+
+
