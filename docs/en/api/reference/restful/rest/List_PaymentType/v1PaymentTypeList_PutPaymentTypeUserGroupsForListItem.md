@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Weimann, Ledner and Dickens",
-    "ToolTip": "Quia aut earum.",
+    "Id": 407,
+    "Name": "Beahan Inc and Sons",
+    "ToolTip": "Ex vero et sunt voluptatum aliquid.",
     "Deleted": false,
-    "Rank": 494,
-    "Type": "aperiam",
-    "ColorBlock": 819,
-    "IconHint": "magnam",
+    "Rank": 234,
+    "Type": "minima",
+    "ColorBlock": 565,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2023-05-24T04:02:07.2909529+02:00",
+    "LastChanged": "2004-05-01T03:44:58.0312644+02:00",
     "ChildItems": [
       {
-        "Id": 927,
-        "Name": "Schaefer-O'Connell",
-        "ToolTip": "Delectus vero cupiditate.",
+        "Id": 260,
+        "Name": "Berge-Nikolaus",
+        "ToolTip": "Numquam debitis voluptas cum enim similique.",
         "Deleted": false,
-        "Rank": 353,
-        "Type": "deleniti",
-        "ColorBlock": 865,
-        "IconHint": "impedit",
+        "Rank": 163,
+        "Type": "sed",
+        "ColorBlock": 460,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2003-02-14T04:02:07.2909529+01:00",
+        "LastChanged": "2017-12-05T03:44:58.0312644+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "vero",
+        "ExtraInfo": "ut",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Nathan Schulist"
+        "FullName": "Katrine Walsh"
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "quis",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Randal Langworth"
+    "FullName": "Madaline Jacobson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "Heaney, Steuber and Smith",
-    "ToolTip": "Asperiores natus.",
-    "Deleted": false,
-    "Rank": 961,
-    "Type": "eos",
-    "ColorBlock": 782,
-    "IconHint": "ea",
+    "Id": 677,
+    "Name": "Kirlin-Bode",
+    "ToolTip": "Aspernatur quia temporibus commodi quis perspiciatis quo facere.",
+    "Deleted": true,
+    "Rank": 285,
+    "Type": "est",
+    "ColorBlock": 271,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2022-01-09T04:02:07.2909529+01:00",
+    "LastChanged": "2016-10-11T03:44:58.0312644+02:00",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Haley, Auer and Auer",
-        "ToolTip": "Aut non.",
+        "Id": 979,
+        "Name": "Becker-Metz",
+        "ToolTip": "Molestias at et veniam.",
         "Deleted": true,
-        "Rank": 69,
-        "Type": "maxime",
-        "ColorBlock": 964,
-        "IconHint": "accusamus",
-        "Selected": true,
-        "LastChanged": "1998-01-22T04:02:07.2909529+01:00",
+        "Rank": 968,
+        "Type": "ducimus",
+        "ColorBlock": 227,
+        "IconHint": "beatae",
+        "Selected": false,
+        "LastChanged": "2000-09-29T03:44:58.0312644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "perferendis",
-        "Hidden": true,
-        "FullName": "Whitney Goyette MD",
+        "ExtraInfo": "minima",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Elissa Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 182
+            "FieldLength": 47
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "alias",
+    "ExtraInfo": "est",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Marge Ebert",
+    "FullName": "Nestor Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 389
+        "FieldLength": 398
       }
     }
   }

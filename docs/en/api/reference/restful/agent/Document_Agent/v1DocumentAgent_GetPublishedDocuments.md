@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    820,
-    681
+    414,
+    418
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 64,
-    "Attention": "omnis",
-    "Header": "architecto",
-    "Name": "Senger-Ruecker",
-    "OurRef": "et",
-    "YourRef": "molestiae",
-    "Description": "Versatile zero defect productivity",
-    "DocumentTemplate": "veritatis",
+    "DocumentId": 372,
+    "Attention": "magnam",
+    "Header": "vero",
+    "Name": "Bahringer LLC",
+    "OurRef": "velit",
+    "YourRef": "et",
+    "Description": "Persistent impactful conglomeration",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 146,
-    "PersonFullName": "Johnnie Brekke",
-    "AssociateFullName": "Mrs. Tianna Windler",
-    "ContactId": 575,
-    "ContactName": "Bayer, Littel and Hane",
-    "ProjectId": 188,
-    "ProjectName": "Cummerata Inc and Sons",
-    "AssociateId": 763,
-    "Snum": 986,
-    "SaleId": 302,
-    "SaleName": "Hoppe, Buckridge and Ledner",
+    "PersonId": 618,
+    "PersonFullName": "Carol Carroll",
+    "AssociateFullName": "Miss Ladarius McGlynn",
+    "ContactId": 267,
+    "ContactName": "Hills, Runte and Hilll",
+    "ProjectId": 301,
+    "ProjectName": "Bauch LLC",
+    "AssociateId": 695,
+    "Snum": 338,
+    "SaleId": 570,
+    "SaleName": "Wisoky LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 274
       }
     }
   }

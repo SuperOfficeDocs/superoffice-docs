@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Koepp, Osinski and Hilll",
+  "UdListDefinitionName": "Beer-Greenfelder",
   "Items": [
     {
-      "Id": 192,
-      "Name": "Dibbert Inc and Sons",
-      "Tooltip": "quis",
-      "Deleted": true,
-      "UdListDefinitionId": 47,
-      "Rank": 270
+      "Id": 692,
+      "Name": "Lakin-D'Amore",
+      "Tooltip": "ut",
+      "Deleted": false,
+      "UdListDefinitionId": 695,
+      "Rank": 857
     },
     {
-      "Id": 192,
-      "Name": "Dibbert Inc and Sons",
-      "Tooltip": "quis",
-      "Deleted": true,
-      "UdListDefinitionId": 47,
-      "Rank": 270
+      "Id": 692,
+      "Name": "Lakin-D'Amore",
+      "Tooltip": "ut",
+      "Deleted": false,
+      "UdListDefinitionId": 695,
+      "Rank": 857
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Kshlerin LLC",
-    "Tooltip": "et",
+    "Id": 43,
+    "Name": "Orn, Crona and Sipes",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "UdListDefinitionId": 617,
-    "Rank": 536,
+    "UdListDefinitionId": 779,
+    "Rank": 440,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   }

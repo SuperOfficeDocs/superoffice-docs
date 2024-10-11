@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "eaque",
-  "SearchString": "minima"
+  "Type": "iusto",
+  "SearchString": "tenetur"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "doloremque",
-    "dolor"
+    "suscipit",
+    "sequi"
   ],
   "Users": [
     {
-      "Value": "et",
-      "DisplayValue": "voluptatibus",
+      "Value": "fugiat",
+      "DisplayValue": "quos",
       "Columns": [
-        "eum",
-        "id"
+        "ratione",
+        "at"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 355
+          "FieldType": "System.Int32",
+          "FieldLength": 540
         }
       }
     },
     {
-      "Value": "et",
-      "DisplayValue": "voluptatibus",
+      "Value": "fugiat",
+      "DisplayValue": "quos",
       "Columns": [
-        "eum",
-        "id"
+        "ratione",
+        "at"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 355
+          "FieldType": "System.Int32",
+          "FieldLength": 540
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 199
     }
   }
 }

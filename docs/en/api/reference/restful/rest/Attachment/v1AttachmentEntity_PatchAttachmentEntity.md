@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "corporis",
+    "path": "provident",
     "value": {}
   },
   {
     "op": "add",
-    "path": "corporis",
+    "path": "provident",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 676,
-  "Name": "Green, Fahey and Weimann",
-  "ContentType": "voluptas",
-  "AttSize": 55,
+  "AttachmentId": 596,
+  "Name": "Nader, Hamill and Osinski",
+  "ContentType": "aut",
+  "AttSize": 522,
   "InlineImage": false,
-  "ContentId": "enim",
-  "AuthKey": "doloremque",
+  "ContentId": "quis",
+  "AuthKey": "occaecati",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldLength": 652
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

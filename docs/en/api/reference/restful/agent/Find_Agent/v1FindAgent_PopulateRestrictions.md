@@ -87,28 +87,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Turner Group",
+  "ProviderName": "Cormier Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Ratke, D'Amore and Ebert",
-      "Operator": "repudiandae",
+      "Name": "Hammes-Fadel",
+      "Operator": "non",
       "Values": [
-        "aut",
-        "laborum"
+        "libero",
+        "sunt"
       ],
       "DisplayValues": [
-        "saepe",
-        "soluta"
+        "cumque",
+        "dolore"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 52,
+      "InterParenthesis": 907,
       "InterOperator": "And",
-      "UniqueHash": 710
+      "UniqueHash": 714
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pacocha LLC",
-    "Operator": "labore",
+    "Name": "Heidenreich-Green",
+    "Operator": "nihil",
     "Values": [
-      "rerum",
-      "laborum"
+      "qui",
+      "omnis"
     ],
     "DisplayValues": [
-      "saepe",
-      "praesentium"
+      "impedit",
+      "commodi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Doyle, Ziemann and Dietrich",
-        "Operator": "sunt",
+        "Name": "Ledner, Keebler and Swaniawski",
+        "Operator": "aut",
         "Values": [
-          "dicta",
-          "deleniti"
+          "et",
+          "et"
         ],
         "DisplayValues": [
-          "iste",
-          "aut"
+          "eaque",
+          "cum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 965,
+        "InterParenthesis": 427,
         "InterOperator": "And",
-        "UniqueHash": 649
+        "UniqueHash": 377
       }
     ],
-    "InterParenthesis": 964,
+    "InterParenthesis": 91,
     "InterOperator": "And",
-    "UniqueHash": 498
+    "UniqueHash": 709
   }
 ]
 ```

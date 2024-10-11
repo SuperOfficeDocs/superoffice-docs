@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Medhurst, Bosco and Batz",
-      "Operator": "sed",
+      "Name": "DuBuque LLC",
+      "Operator": "commodi",
       "Values": [
-        "quas",
-        "odit"
+        "sapiente",
+        "quasi"
       ],
       "DisplayValues": [
-        "animi",
-        "consequatur"
+        "pariatur",
+        "sunt"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 206,
+      "InterParenthesis": 122,
       "InterOperator": "And",
-      "UniqueHash": 283
+      "UniqueHash": 53
     }
   ],
   "Columns": [
-    "adipisci",
-    "ipsa"
+    "at",
+    "eligendi"
   ],
-  "ConnectionId": 527,
+  "ConnectionId": 828,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "quas",
-        "qui"
+        "nemo",
+        "excepturi"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "voluptatem",
+      "ExternalKey": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldType": "System.Int32",
+          "FieldLength": 407
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Barton Inc and Sons",
-      "DisplayName": "Kihn-Hills",
+      "Name": "Olson LLC",
+      "DisplayName": "Witting LLC",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 305
         }
       }
     },
     {
-      "Name": "Barton Inc and Sons",
-      "DisplayName": "Kihn-Hills",
+      "Name": "Olson LLC",
+      "DisplayName": "Witting LLC",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 305
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   }
 }

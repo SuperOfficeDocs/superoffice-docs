@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 6,
-  "Name": "Kessler LLC",
-  "Tooltip": "dolores",
+  "Id": 330,
+  "Name": "Waelchi Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 857,
-  "IsCustomList": true,
+  "Rank": 936,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldType": "System.String",
+      "FieldLength": 655
     }
   },
   "_Links": {

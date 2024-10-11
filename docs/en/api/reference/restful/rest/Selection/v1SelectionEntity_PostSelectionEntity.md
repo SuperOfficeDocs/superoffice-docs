@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated regional customer loyalty",
-  "Postit": "ut",
+  "Description": "Persistent grid-enabled initiative",
+  "Postit": "rerum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 486,
-  "IncludePerson": 452,
+  "GroupIdx": 442,
+  "IncludePerson": 390,
   "MemberCount": 99.99,
-  "Name": "Legros, West and Ritchie",
-  "PostitTextId": 214,
-  "CreatedDate": "2020-04-26T04:02:06.8222516+02:00",
-  "SelectionId": 893,
-  "SoundEx": "tenetur",
-  "Source": 511,
-  "TextId": 35,
-  "UpdatedDate": "2003-07-24T04:02:06.8222516+02:00",
-  "UpdatedCount": 403,
-  "Visibility": 765,
+  "Name": "O'Connell LLC",
+  "PostitTextId": 497,
+  "CreatedDate": "2018-08-09T03:44:57.5781309+02:00",
+  "SelectionId": 182,
+  "SoundEx": "est",
+  "Source": 975,
+  "TextId": 665,
+  "UpdatedDate": "2009-12-28T03:44:57.5781309+01:00",
+  "UpdatedCount": 755,
+  "Visibility": 318,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 22,
-  "TargetTableName": "Hackett-King",
+  "TargetTableNumber": 776,
+  "TargetTableName": "Larson-Powlowski",
   "Completed": false,
-  "LeftSelectionId": 739,
-  "RightSelectionId": 1002,
+  "LeftSelectionId": 561,
+  "RightSelectionId": 719,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hessel Inc and Sons",
-  "ShadowProviderName": "Fisher Group",
-  "ChartKey": "eos",
-  "LastLoaded": "2024-02-26T04:02:06.8222516+01:00",
-  "LastLoadedBy": 335,
+  "MainProviderName": "Kessler, Brown and Medhurst",
+  "ShadowProviderName": "Shanahan, Murazik and Eichmann",
+  "ChartKey": "corporis",
+  "LastLoaded": "2004-12-29T03:44:57.5781309+01:00",
+  "LastLoadedBy": 677,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-09-13T04:02:06.8222516+02:00",
-  "LastMembershipChangeBy": 104,
+  "LastMembershipChange": "2021-11-10T03:44:57.5781309+01:00",
+  "LastMembershipChangeBy": 566,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maiores",
-  "MemberTabHeading": "nostrum",
-  "MailingsProviderName": "Breitenberg LLC",
-  "DashboardTileDefinitionId": 386,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "nobis",
+  "MailingsProviderName": "Pacocha-Roob",
+  "DashboardTileDefinitionId": 295,
   "VisibleFor": [
     {
-      "VisibleId": 622,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "maxime"
+      "DisplayValue": "molestiae"
     },
     {
-      "VisibleId": 622,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "maxime"
+      "DisplayValue": "molestiae"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Self-enabling homogeneous interface",
-  "Postit": "quia",
+  "Description": "Switchable content-based synergy",
+  "Postit": "repellendus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 643,
-  "IncludePerson": 898,
+  "GroupIdx": 353,
+  "IncludePerson": 231,
   "MemberCount": 99.99,
-  "Name": "Ernser LLC",
-  "PostitTextId": 998,
-  "CreatedDate": "2009-07-04T04:02:06.8222516+02:00",
-  "SelectionId": 659,
-  "SoundEx": "nulla",
-  "Source": 537,
-  "TextId": 159,
-  "UpdatedDate": "2024-03-10T04:02:06.8222516+01:00",
-  "UpdatedCount": 745,
-  "Visibility": 116,
+  "Name": "Goldner-Funk",
+  "PostitTextId": 192,
+  "CreatedDate": "2023-01-04T03:44:57.5781309+01:00",
+  "SelectionId": 995,
+  "SoundEx": "sequi",
+  "Source": 593,
+  "TextId": 742,
+  "UpdatedDate": "2001-10-30T03:44:57.5781309+01:00",
+  "UpdatedCount": 673,
+  "Visibility": 440,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 434,
-  "TargetTableName": "Adams Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 880,
+  "TargetTableName": "Cummerata, Kulas and Rath",
   "Completed": false,
-  "LeftSelectionId": 693,
-  "RightSelectionId": 520,
+  "LeftSelectionId": 118,
+  "RightSelectionId": 791,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gottlieb Inc and Sons",
-  "ShadowProviderName": "Goyette, Schuster and Kassulke",
-  "ChartKey": "ab",
-  "LastLoaded": "1998-09-17T04:02:06.8222516+02:00",
-  "LastLoadedBy": 353,
+  "MainProviderName": "Crooks, Jaskolski and Zemlak",
+  "ShadowProviderName": "Roob, Krajcik and Dickens",
+  "ChartKey": "sunt",
+  "LastLoaded": "2008-02-26T03:44:57.5781309+01:00",
+  "LastLoadedBy": 217,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-05-11T04:02:06.8222516+02:00",
-  "LastMembershipChangeBy": 753,
+  "LastMembershipChange": "1998-01-13T03:44:57.5781309+01:00",
+  "LastMembershipChangeBy": 741,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "minima",
-  "MemberTabHeading": "ab",
-  "MailingsProviderName": "McCullough Inc and Sons",
-  "DashboardTileDefinitionId": 678,
+  "MainHeading": "illum",
+  "MemberTabHeading": "adipisci",
+  "MailingsProviderName": "Kshlerin-Metz",
+  "DashboardTileDefinitionId": 765,
   "VisibleFor": [
     {
-      "VisibleId": 286,
+      "VisibleId": 151,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldLength": 633
         }
       }
     },
     {
-      "VisibleId": 286,
+      "VisibleId": 151,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldLength": 633
         }
       }
     }
@@ -294,13 +294,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldType": "System.Int32",
+      "FieldLength": 566
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

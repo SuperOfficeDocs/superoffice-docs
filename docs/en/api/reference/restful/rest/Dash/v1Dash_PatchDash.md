@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "eum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "eum",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 212,
-  "UniqueId": "non",
-  "Name": "Tromp Inc and Sons",
-  "Description": "User-friendly hybrid moratorium",
-  "AssociateId": 870,
-  "Columns": 327,
+  "DashboardId": 148,
+  "UniqueId": "nihil",
+  "Name": "Schmeler LLC",
+  "Description": "Automated 6th generation moratorium",
+  "AssociateId": 105,
+  "Columns": 232,
   "Theme": null,
-  "VisibleForAll": 555,
+  "VisibleForAll": 550,
   "VisibleForAssociates": [
-    31,
-    564
+    817,
+    358
   ],
   "VisibleForGroups": [
-    575,
-    79
+    44,
+    148
   ],
-  "PinForAll": 352,
+  "PinForAll": 469,
   "PinForAssociates": [
-    89,
-    928
+    36,
+    231
   ],
   "PinForGroups": [
-    463,
-    633
+    564,
+    838
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

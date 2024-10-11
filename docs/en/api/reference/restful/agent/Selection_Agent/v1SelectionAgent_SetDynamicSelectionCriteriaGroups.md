@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 886,
+  "SelectionId": 306,
   "Criteria": [
     {
-      "Name": "Welch Inc and Sons",
-      "Description": "Monitored holistic paradigm",
-      "Rank": 736,
+      "Name": "Rice LLC",
+      "Description": "Virtual upward-trending system engine",
+      "Rank": 139,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Welch Inc and Sons",
-      "Description": "Monitored holistic paradigm",
-      "Rank": 736,
+      "Name": "Rice LLC",
+      "Description": "Virtual upward-trending system engine",
+      "Rank": 139,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lindgren-Dooley",
-    "Description": "Extended motivating open architecture",
-    "Rank": 440,
+    "Name": "Bode-Mosciski",
+    "Description": "Multi-layered reciprocal open architecture",
+    "Rank": 738,
     "Restrictions": [
       {
-        "Name": "Gibson, Pouros and Romaguera",
-        "Operator": "et",
+        "Name": "Heller LLC",
+        "Operator": "harum",
         "Values": [
-          "aperiam",
-          "iusto"
+          "quos",
+          "sunt"
         ],
         "DisplayValues": [
-          "voluptate",
-          "consequuntur"
+          "vitae",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 561,
+        "InterParenthesis": 214,
         "InterOperator": "And",
-        "UniqueHash": 541
+        "UniqueHash": 955
       }
     ]
   },
   {
-    "Name": "Lindgren-Dooley",
-    "Description": "Extended motivating open architecture",
-    "Rank": 440,
+    "Name": "Bode-Mosciski",
+    "Description": "Multi-layered reciprocal open architecture",
+    "Rank": 738,
     "Restrictions": [
       {
-        "Name": "Gibson, Pouros and Romaguera",
-        "Operator": "et",
+        "Name": "Heller LLC",
+        "Operator": "harum",
         "Values": [
-          "aperiam",
-          "iusto"
+          "quos",
+          "sunt"
         ],
         "DisplayValues": [
-          "voluptate",
-          "consequuntur"
+          "vitae",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 561,
+        "InterParenthesis": 214,
         "InterOperator": "And",
-        "UniqueHash": 541
+        "UniqueHash": 955
       }
     ]
   }

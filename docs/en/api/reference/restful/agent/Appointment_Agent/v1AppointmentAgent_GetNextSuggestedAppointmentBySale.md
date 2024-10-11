@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 888,
-  "CurrentAppointmentId": 669,
-  "SkipCompleteCheck": true
+  "SaleId": 642,
+  "CurrentAppointmentId": 290,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 826,
-  "Deleted": 533,
-  "DaysFuture": 556,
-  "Tooltip": "vel",
-  "Text": "consectetur",
-  "TaskId": 285,
-  "SuggestedAppointmentId": 553,
-  "SaleTypeStageLinkId": 866,
-  "RegisteredAssociateId": 125,
-  "Rank": 965,
-  "ProjectTypeStatusLinkId": 763,
-  "Name": "Murazik-Romaguera",
-  "Duration": 890,
+  "AutoSuggest": 478,
+  "Deleted": 461,
+  "DaysFuture": 37,
+  "Tooltip": "reiciendis",
+  "Text": "sint",
+  "TaskId": 28,
+  "SuggestedAppointmentId": 641,
+  "SaleTypeStageLinkId": 31,
+  "RegisteredAssociateId": 243,
+  "Rank": 148,
+  "ProjectTypeStatusLinkId": 504,
+  "Name": "Lesch-Pollich",
+  "Duration": 749,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 405
     }
   }
 }

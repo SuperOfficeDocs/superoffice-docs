@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Brakus-Johnston",
-  "ProviderName": "Runte, Bergstrom and Frami",
-  "Context": "odio",
-  "OwnerKeys": "et"
+  "GuiName": "Davis, Gulgowski and Weber",
+  "ProviderName": "Kassulke Inc and Sons",
+  "Context": "optio",
+  "OwnerKeys": "enim"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Gerlach, Kuhn and Wiegand",
-      "DisplayTooltip": "quidem",
-      "DisplayType": "praesentium",
+      "DisplayName": "Cole-Borer",
+      "DisplayTooltip": "aut",
+      "DisplayType": "rerum",
       "CanOrderBy": false,
-      "Name": "Schoen Group",
+      "Name": "Batz Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Runolfsdottir-Weber",
+      "RestrictionType": "voluptate",
+      "RestrictionListName": "Thompson, O'Connell and Dooley",
       "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "sit",
-      "IconHint": "et",
-      "HeadingIconHint": "quasi"
+      "ExtraInfo": "ut",
+      "Width": "sunt",
+      "IconHint": "similique",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 787,
-      "Name": "Hauck, Lakin and Zemlak",
-      "ToolTip": "Quasi expedita laudantium pariatur.",
+      "Id": 637,
+      "Name": "Okuneva LLC",
+      "ToolTip": "Assumenda accusantium ut ut.",
       "Deleted": false,
-      "Rank": 894,
-      "Type": "est",
-      "ColorBlock": 727,
+      "Rank": 779,
+      "Type": "ea",
+      "ColorBlock": 103,
       "IconHint": "nihil",
-      "Selected": false,
-      "LastChanged": "1998-10-14T04:02:01.2062801+02:00",
+      "Selected": true,
+      "LastChanged": "2015-03-23T03:44:52.0583904+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quaerat",
-      "StyleHint": "voluptatum",
-      "Hidden": false,
-      "FullName": "Ms. Abby Goldner V",
+      "ExtraInfo": "totam",
+      "StyleHint": "vero",
+      "Hidden": true,
+      "FullName": "Dan Keeling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 512
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Bergnaum-Lowe",
+      "Name": "Krajcik, Hermiston and Hermann",
       "Direction": "ASC"
     },
     {
-      "Name": "Bergnaum-Lowe",
+      "Name": "Krajcik, Hermiston and Hermann",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "qui",
+  "OwnerKeys": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 142
+      "FieldLength": 963
     }
   }
 }

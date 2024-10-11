@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Cole-Glover",
-    "ToolTip": "Maiores quidem tempora.",
+    "Id": 666,
+    "Name": "Marks Inc and Sons",
+    "ToolTip": "Facere ut quam aspernatur aperiam debitis.",
     "Deleted": false,
-    "Rank": 664,
-    "Type": "tenetur",
-    "ColorBlock": 396,
-    "IconHint": "iste",
+    "Rank": 414,
+    "Type": "qui",
+    "ColorBlock": 472,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2011-07-27T04:02:07.337823+02:00",
+    "LastChanged": "2016-02-05T03:44:58.0937233+01:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Feest Inc and Sons",
-        "ToolTip": "Tempore ad voluptatem est vel tenetur.",
+        "Id": 298,
+        "Name": "Pfannerstill-Ankunding",
+        "ToolTip": "Quibusdam sint autem commodi omnis voluptatem aperiam velit.",
         "Deleted": false,
-        "Rank": 825,
-        "Type": "tempore",
-        "ColorBlock": 861,
-        "IconHint": "vero",
-        "Selected": false,
-        "LastChanged": "2012-05-26T04:02:07.337823+02:00",
+        "Rank": 576,
+        "Type": "est",
+        "ColorBlock": 738,
+        "IconHint": "repellendus",
+        "Selected": true,
+        "LastChanged": "2005-02-13T03:44:58.0937233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "aperiam",
-        "Hidden": true,
-        "FullName": "Elmo Kunze",
+        "ExtraInfo": "ut",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Ms. Wava Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 198
+            "FieldType": "System.Int32",
+            "FieldLength": 500
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Mrs. Floyd Gregoria Jakubowski",
+    "ExtraInfo": "earum",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Thalia Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 58
       }
     }
   }

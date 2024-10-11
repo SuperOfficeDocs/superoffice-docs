@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 912,
-  "Name": "Metz Inc and Sons",
-  "Tooltip": "est",
-  "PassiveText": "fugit",
+  "ReldefId": 153,
+  "Name": "Will-Osinski",
+  "Tooltip": "magni",
+  "PassiveText": "omnis",
   "Deleted": false,
-  "Rank": 206,
+  "Rank": 12,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 792,
-  "Name": "Stracke, Wehner and Harris",
-  "Tooltip": "excepturi",
-  "PassiveText": "sed",
-  "Deleted": false,
-  "Rank": 309,
+  "ReldefId": 79,
+  "Name": "Rath-O'Hara",
+  "Tooltip": "ut",
+  "PassiveText": "atque",
+  "Deleted": true,
+  "Rank": 647,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 950
     }
   },
   "_Links": {

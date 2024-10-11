@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 164,
-  "ParentId": 955,
-  "Name": "Dicki, Goyette and Powlowski",
-  "Fullname": "numquam",
-  "CategoryMaster": 669,
+  "TicketCategoryId": 775,
+  "ParentId": 268,
+  "Name": "West-Jaskolski",
+  "Fullname": "repudiandae",
+  "CategoryMaster": 488,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Johnston-Willms",
+  "ExternalName": "Bins-Weissnat",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 286,
-  "ReplyTemplate": 214,
-  "NotificationEmail": "dawn@hessel.info",
+  "AssignmentLag": 625,
+  "ReplyTemplate": 598,
+  "NotificationEmail": "lacy.lindgren@gusikowskiwillms.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 479,
+  "EffectiveReplyTemplateId": 610,
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "magni"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "illum"
+    "CustomFields1": "beatae",
+    "CustomFields2": "excepturi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 885
     }
   }
 }

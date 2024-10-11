@@ -24,6 +24,8 @@ generated: true
 
 * [POST Agents/DocumentMigration/HasDocumentsToMigrate](v1DocumentMigrationAgent_HasDocumentsToMigrate.md)
 
+* [POST Agents/DocumentMigration/GetNumberOfConfidentialDocuments](v1DocumentMigrationAgent_GetNumberOfConfidentialDocuments.md)
+
 * [POST Agents/DocumentMigration/GetForTemplates](v1DocumentMigrationAgent_GetForTemplates.md)
 
 * [POST Agents/DocumentMigration/MigrateTemplateToNewDocPlugin](v1DocumentMigrationAgent_MigrateTemplateToNewDocPlugin.md)

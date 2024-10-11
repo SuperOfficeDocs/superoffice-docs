@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=vitae
-GET /api/v1/User?$top=142
-GET /api/v1/User?$skip=748
+GET /api/v1/User?$entities=et
+GET /api/v1/User?$top=6
+GET /api/v1/User?$skip=509
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=sed
+GET /api/v1/User?$context=ut
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "cumque",
+  "odata.nextLink": "quidem",
   "value": [
     {
-      "PrimaryKey": 8050,
-      "EntityName": "sale",
-      "saleId": 8050,
-      "contactId": 3019,
-      "name": "Christiansen-Spencer"
+      "PrimaryKey": 1136,
+      "EntityName": "person",
+      "personId": 1136,
+      "fullName": "Guy Klein"
     },
     {
-      "PrimaryKey": 8057,
-      "EntityName": "sale",
-      "saleId": 8057,
-      "contactId": 1991,
-      "name": "Von-Will"
+      "PrimaryKey": 6837,
+      "EntityName": "person",
+      "personId": 6837,
+      "fullName": "Destiney Reilly"
     }
   ]
 }

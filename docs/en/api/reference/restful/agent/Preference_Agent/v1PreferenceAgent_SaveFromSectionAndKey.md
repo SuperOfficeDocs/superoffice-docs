@@ -96,8 +96,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "qui",
-  "Key": "similique",
+  "Section": "magnam",
+  "Key": "iusto",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 111,
-  "Section": "perferendis",
-  "Key": "excepturi",
-  "Name": "Leannon-Reynolds",
+  "PrefDescId": 199,
+  "Section": "natus",
+  "Key": "quia",
+  "Name": "Wolf, Von and Prohaska",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide fresh-thinking array",
-  "IsBuiltin": true,
-  "TableName": "Reichel-Hartmann",
-  "UserDefinedListId": 901,
-  "Rank": 123,
-  "SubGroup": "aliquid",
-  "MinLevel": 736,
-  "MaxValue": 2,
-  "MinValue": 190,
-  "RequiredLicense": "ea",
+  "Description": "Networked homogeneous attitude",
+  "IsBuiltin": false,
+  "TableName": "Ryan, Champlin and Kautzer",
+  "UserDefinedListId": 62,
+  "Rank": 601,
+  "SubGroup": "magni",
+  "MinLevel": 820,
+  "MaxValue": 880,
+  "MinValue": 161,
+  "RequiredLicense": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldType": "System.String",
+      "FieldLength": 957
     }
   }
 }

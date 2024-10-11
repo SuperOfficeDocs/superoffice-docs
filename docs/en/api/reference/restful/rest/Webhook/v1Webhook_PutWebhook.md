@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 739,
-  "Name": "Murray, Fay and Orn",
+  "WebhookId": 843,
+  "Name": "Kihn-Maggio",
   "Events": [
-    "sed",
-    "qui"
+    "blanditiis",
+    "deleniti"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "numquam",
+  "Secret": "ut",
   "State": "Active",
-  "Type": "quibusdam",
+  "Type": "excepturi",
   "Headers": {
-    "Headers1": "totam",
-    "Headers2": "doloremque"
+    "Headers1": "voluptate",
+    "Headers2": "eveniet"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-04-14T04:02:07.0566019+02:00",
+  "Registered": "2022-01-16T03:44:57.7969186+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-11-18T04:02:07.0566019+01:00",
+  "Updated": "1998-05-12T03:44:57.7969186+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jayden@veumcrist.com"
+  "ErrorsEmail": "vada@altenwerth.name"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 582,
-  "Name": "Bechtelar, McDermott and Effertz",
+  "WebhookId": 286,
+  "Name": "Medhurst-Watsica",
   "Events": [
-    "omnis",
-    "tempore"
+    "eveniet",
+    "consequatur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "maxime",
+  "Secret": "dolorem",
   "State": "Active",
-  "Type": "corrupti",
+  "Type": "aut",
   "Headers": {
-    "Headers1": "laudantium",
-    "Headers2": "vero"
+    "Headers1": "asperiores",
+    "Headers2": "velit"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2018-02-27T04:02:07.0566019+01:00",
+  "Registered": "1997-11-07T03:44:57.7969186+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-01-20T04:02:07.0566019+01:00",
+  "Updated": "2022-11-05T03:44:57.7969186+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "lysanne@ondricka.co.uk",
+  "ErrorsEmail": "paul_hessel@hauck.co.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

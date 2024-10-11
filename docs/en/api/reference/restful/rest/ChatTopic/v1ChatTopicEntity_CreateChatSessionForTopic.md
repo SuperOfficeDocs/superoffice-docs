@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 85,
-  "TopicId": 872,
+  "ChatSessionId": 701,
+  "TopicId": 704,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aliquam",
-  "CustomerHost": "cupiditate",
-  "CustomerName": "Roob LLC",
-  "CustomerEmail": "keven.oconnell@gerhold.biz",
-  "CustomerPhone": "(433)423-5754 x4083",
+  "CustomerAlias": "odio",
+  "CustomerHost": "aliquid",
+  "CustomerName": "Brakus Group",
+  "CustomerEmail": "casimer_abbott@parker.biz",
+  "CustomerPhone": "758.064.5358",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kuhic LLC",
+  "CustomerCompanyName": "Gerlach, Sporer and Abshire",
   "Status": "Closed",
-  "FirstMessage": "molestiae",
-  "LastMessage": "architecto",
-  "WhenRequested": "2007-12-21T04:02:06.3686697+01:00",
-  "WhenStarted": "2020-01-31T04:02:06.3686697+01:00",
-  "WhenEnded": "2017-03-19T04:02:06.3686697+01:00",
-  "WhenIdle": "2024-08-04T04:02:06.3686697+02:00",
-  "WhenFetched": "2007-12-12T04:02:06.3686697+01:00",
-  "SessionKey": "occaecati",
-  "InitialQueuePos": 10,
-  "AlertLevel": 394,
-  "Rank": 736,
+  "FirstMessage": "qui",
+  "LastMessage": "et",
+  "WhenRequested": "1998-01-20T03:44:57.1090259+01:00",
+  "WhenStarted": "2002-08-10T03:44:57.1090259+02:00",
+  "WhenEnded": "2021-01-23T03:44:57.1090259+01:00",
+  "WhenIdle": "2022-08-18T03:44:57.1090259+02:00",
+  "WhenFetched": "1999-05-29T03:44:57.1090259+02:00",
+  "SessionKey": "esse",
+  "InitialQueuePos": 591,
+  "AlertLevel": 755,
+  "Rank": 230,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 832,
+  "ChatbotIsActive": false,
+  "Rating": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 587
     }
   }
 }

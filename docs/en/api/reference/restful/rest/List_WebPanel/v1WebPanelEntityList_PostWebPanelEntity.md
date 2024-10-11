@@ -107,32 +107,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 885,
-  "Name": "Hilpert Inc and Sons",
-  "Tooltip": "expedita",
+  "WebPanelId": 690,
+  "Name": "Hermann-Hegmann",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 679,
+  "Rank": 413,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Feeney, Kuphal and Predovic",
+  "WindowName": "Walsh Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "minus",
-  "Icon": 855,
+  "ProgId": "et",
+  "Icon": 910,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 959,
-  "Name": "Schimmel Group",
-  "Tooltip": "non",
+  "WebPanelId": 521,
+  "Name": "Renner LLC",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 357,
+  "Rank": 712,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Schroeder LLC",
+  "ShowInStatusBar": true,
+  "WindowName": "Keebler Group",
   "Url": "http://www.example.com/",
-  "ProgId": "modi",
-  "Icon": 431,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "reprehenderit",
+  "Icon": 337,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   }
 }

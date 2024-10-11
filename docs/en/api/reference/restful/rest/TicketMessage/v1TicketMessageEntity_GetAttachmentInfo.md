@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 107,
-    "Name": "Walsh, Hessel and Cole",
-    "ContentType": "cumque",
-    "AttSize": 33,
+    "AttachmentId": 263,
+    "Name": "Orn, Russel and Turcotte",
+    "ContentType": "quam",
+    "AttSize": 755,
     "InlineImage": false,
-    "ContentId": "sequi",
-    "AuthKey": "officia",
+    "ContentId": "consequatur",
+    "AuthKey": "aut",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldType": "System.Int32",
+        "FieldLength": 272
       }
     }
   }

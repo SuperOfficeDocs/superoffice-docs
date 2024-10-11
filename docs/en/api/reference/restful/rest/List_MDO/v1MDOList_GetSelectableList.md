@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=aspernatur
+GET /api/v1/MDOList/{listname}/selectable?additional=numquam
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Runolfsson LLC",
-    "ToolTip": "Et eaque.",
+    "Id": 775,
+    "Name": "Abbott, Runte and Senger",
+    "ToolTip": "Illum aut.",
     "Deleted": false,
-    "Rank": 920,
-    "Type": "fuga",
+    "Rank": 994,
+    "Type": "qui",
     "ColorBlock": 951,
-    "IconHint": "laboriosam",
-    "Selected": true,
-    "LastChanged": "2004-07-22T04:02:07.2597065+02:00",
+    "IconHint": "consequuntur",
+    "Selected": false,
+    "LastChanged": "2021-12-24T03:44:58.0156476+01:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Abernathy, Jast and Renner",
-        "ToolTip": "Maxime odio qui cumque officia ex asperiores dolorem.",
+        "Id": 556,
+        "Name": "Klein Inc and Sons",
+        "ToolTip": "Ratione autem enim sunt consequatur.",
         "Deleted": false,
-        "Rank": 807,
-        "Type": "qui",
-        "ColorBlock": 603,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2012-04-20T04:02:07.2597065+02:00",
+        "Rank": 673,
+        "Type": "ut",
+        "ColorBlock": 902,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2016-06-16T03:44:58.0156476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ratione",
+        "ExtraInfo": "numquam",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Keenan Kreiger",
+        "FullName": "Ms. Bette Carolyn Roberts V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 293
+            "FieldLength": 259
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "quam",
+    "ExtraInfo": "magni",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Kaylin Schneider",
+    "FullName": "Miss Melyna Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldType": "System.Int32",
+        "FieldLength": 178
       }
     }
   }

@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 992,
-  "Section": "veritatis",
-  "Key": "et",
-  "Name": "Wintheiser-Witting",
+  "PrefDescId": 430,
+  "Section": "ut",
+  "Key": "ut",
+  "Name": "Gerhold-Wisoky",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked upward-trending superstructure",
+  "Description": "Object-based impactful synergy",
   "IsBuiltin": false,
-  "TableName": "Walsh, Crooks and Senger",
-  "UserDefinedListId": 909,
-  "Rank": 860,
-  "SubGroup": "quis",
-  "MinLevel": 85,
-  "MaxValue": 908,
-  "MinValue": 406,
-  "RequiredLicense": "omnis"
+  "TableName": "Kohler-Schulist",
+  "UserDefinedListId": 662,
+  "Rank": 390,
+  "SubGroup": "quos",
+  "MinLevel": 746,
+  "MaxValue": 98,
+  "MinValue": 652,
+  "RequiredLicense": "ea"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 539,
-  "Section": "quibusdam",
-  "Key": "molestiae",
-  "Name": "Steuber Group",
+  "PrefDescId": 616,
+  "Section": "quod",
+  "Key": "error",
+  "Name": "Green, Wisozk and Brekke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Vision-oriented background standardization",
+  "Description": "Multi-layered transitional model",
   "IsBuiltin": false,
-  "TableName": "Becker, Champlin and Bergstrom",
-  "UserDefinedListId": 601,
-  "Rank": 15,
-  "SubGroup": "vitae",
-  "MinLevel": 259,
-  "MaxValue": 214,
-  "MinValue": 687,
-  "RequiredLicense": "voluptatibus",
+  "TableName": "Gaylord-Kuphal",
+  "UserDefinedListId": 378,
+  "Rank": 461,
+  "SubGroup": "nisi",
+  "MinLevel": 801,
+  "MaxValue": 253,
+  "MinValue": 437,
+  "RequiredLicense": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 909
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

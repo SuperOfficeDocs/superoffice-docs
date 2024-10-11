@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    462,
-    515
+    691,
+    976
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 602,
-    "UniqueId": "accusamus",
-    "Name": "Roberts, Trantow and Jaskolski",
-    "Description": "Robust client-server forecast",
-    "AssociateId": 795,
-    "Columns": 181,
+    "DashboardId": 878,
+    "UniqueId": "voluptas",
+    "Name": "Zulauf, Carter and Roberts",
+    "Description": "Down-sized dynamic concept",
+    "AssociateId": 311,
+    "Columns": 594,
     "Theme": null,
-    "VisibleForAll": 183,
+    "VisibleForAll": 801,
     "VisibleForAssociates": [
-      456,
-      956
+      988,
+      66
     ],
     "VisibleForGroups": [
-      467,
-      944
+      143,
+      685
     ],
-    "PinForAll": 750,
+    "PinForAll": 68,
     "PinForAssociates": [
-      975,
-      788
+      292,
+      119
     ],
     "PinForGroups": [
-      248,
-      720
+      911,
+      174
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

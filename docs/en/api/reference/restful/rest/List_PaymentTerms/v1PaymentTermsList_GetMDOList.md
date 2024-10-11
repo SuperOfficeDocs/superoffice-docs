@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=id
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=vero
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Schmeler-McClure",
-    "ToolTip": "Dolor qui voluptas vel.",
-    "Deleted": true,
-    "Rank": 446,
-    "Type": "et",
+    "Id": 55,
+    "Name": "Schaefer-Effertz",
+    "ToolTip": "Commodi cupiditate hic error ut illum corporis perferendis.",
+    "Deleted": false,
+    "Rank": 917,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Gleichner, Botsford and Willms",
-        "ToolTip": "Sit velit dolores aut nostrum omnis.",
-        "Deleted": false,
-        "Rank": 917,
-        "Type": "ipsam",
+        "Id": 905,
+        "Name": "Stanton, Stiedemann and Dibbert",
+        "ToolTip": "Sint ea quaerat.",
+        "Deleted": true,
+        "Rank": 1001,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "excepturi",
-        "ColorBlock": 129,
-        "ExtraInfo": "labore",
-        "StyleHint": "modi",
-        "FullName": "Mr. Jeffrey Hauck III",
+        "IconHint": "repellat",
+        "ColorBlock": 67,
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "eos",
+        "FullName": "Russ Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 112
+            "FieldLength": 834
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 949,
-    "ExtraInfo": "atque",
-    "StyleHint": "impedit",
-    "FullName": "Camylle Feest IV",
+    "IconHint": "reprehenderit",
+    "ColorBlock": 318,
+    "ExtraInfo": "rerum",
+    "StyleHint": "odio",
+    "FullName": "Prof. Efren Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 940
       }
     }
   }

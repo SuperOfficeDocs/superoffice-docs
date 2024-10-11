@@ -76,10 +76,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 1000,
-  "TableName": "Legros-Hackett",
+  "RoleId": 844,
+  "TableName": "Schaefer Inc and Sons",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "ipsum"
+  "DataRightValue": "ut"
 }
 ```
 

@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 805,
-  "ColumnId": 625,
-  "FieldDefault": "rem",
-  "FieldHeight": 67,
-  "FieldLabel": "et",
-  "FieldLeft": 334,
-  "FieldTop": 327,
+  "UDefFieldId": 358,
+  "ColumnId": 334,
+  "FieldDefault": "velit",
+  "FieldHeight": 98,
+  "FieldLabel": "dolores",
+  "FieldLeft": 623,
+  "FieldTop": 113,
   "FieldType": "Checkbox",
-  "FieldWidth": 845,
-  "FormatMask": "et",
-  "HideLabel": false,
+  "FieldWidth": 700,
+  "FormatMask": "reprehenderit",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 109,
-  "LabelLeft": 113,
-  "LabelTop": 855,
-  "LabelWidth": 96,
-  "LastVersionId": 793,
-  "ListTableId": 527,
-  "IsMandatory": true,
+  "LabelHeight": 355,
+  "LabelLeft": 491,
+  "LabelTop": 66,
+  "LabelWidth": 202,
+  "LastVersionId": 884,
+  "ListTableId": 341,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 92,
-  "ProgId": "doloribus",
-  "IsReadOnly": true,
-  "ShortLabel": "sunt",
-  "TabOrder": 616,
-  "TextLength": 377,
-  "Tooltip": "deleniti",
-  "UdefIdentity": 438,
-  "UDListDefinitionId": 781,
+  "Page1LineNo": 636,
+  "ProgId": "reprehenderit",
+  "IsReadOnly": false,
+  "ShortLabel": "reprehenderit",
+  "TabOrder": 542,
+  "TextLength": 540,
+  "Tooltip": "nemo",
+  "UdefIdentity": 130,
+  "UDListDefinitionId": 751,
   "Justification": "Center",
-  "Version": 613,
-  "TemplateVariableName": "Ruecker-Halvorson",
+  "Version": 965,
+  "TemplateVariableName": "Stracke, Sanford and White",
   "HasBeenPublished": true,
-  "MdoListName": "Reynolds, Schaden and Jones",
+  "MdoListName": "Lindgren, Kuphal and Brekke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   }
 }

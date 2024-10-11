@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Heaney LLC",
-  "Tooltip": "et",
+  "Id": 479,
+  "Name": "Boyer, Yundt and Botsford",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "UdListDefinitionId": 294,
-  "Rank": 687,
+  "UdListDefinitionId": 395,
+  "Rank": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

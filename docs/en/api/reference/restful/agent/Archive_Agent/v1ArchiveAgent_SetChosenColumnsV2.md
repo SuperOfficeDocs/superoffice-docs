@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Champlin, Moore and Murazik",
-  "ProviderName": "Pollich-Beier",
-  "Context": "quis",
-  "OwnerKeys": "amet",
+  "GuiName": "Bauch LLC",
+  "ProviderName": "Ruecker, Graham and Christiansen",
+  "Context": "et",
+  "OwnerKeys": "eveniet",
   "ChosenColumns": [
-    "ab",
-    "dicta"
+    "doloremque",
+    "consequuntur"
   ]
 }
 ```

@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kuvalis, Leffler and Friesen",
-  "ProviderName": "Collins, Kohler and Kuhic",
-  "SortOrder": "dolor",
-  "Restriction": "deserunt",
-  "Entities": "dolores",
-  "Page": 528,
-  "PageSize": 801
+  "GuiName": "Homenick LLC",
+  "ProviderName": "Dooley Inc and Sons",
+  "SortOrder": "labore",
+  "Restriction": "et",
+  "Entities": "aut",
+  "Page": 107,
+  "PageSize": 214
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Carter Group",
-    "PrimaryKey": 489,
+    "EntityName": "Mann-Gleason",
+    "PrimaryKey": 346,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sequi",
-        "TooltipHint": "voluptates",
-        "LinkHint": "non"
+        "DisplayValue": "incidunt",
+        "TooltipHint": "molestias",
+        "LinkHint": "tenetur"
       }
     },
-    "LinkHint": "omnis",
-    "StyleHint": "nemo",
+    "LinkHint": "voluptas",
+    "StyleHint": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 374
       }
     }
   }

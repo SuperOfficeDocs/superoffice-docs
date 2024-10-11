@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 153,
-  "AssociateId": 768,
-  "Caption": "enim",
+  "DashboardId": 129,
+  "AssociateId": 574,
+  "Caption": "dolor",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 209,
-      "Caption": "sint",
-      "Description": "Total 24 hour firmware",
-      "ChartName": "Wolff Inc and Sons",
-      "ChartId": "sunt",
-      "IsDefault": true,
-      "AssociateId": 671,
-      "GroupId": 241,
-      "SelectionId": 822,
-      "Config": "sed",
+      "DashboardTileId": 486,
+      "Caption": "aliquam",
+      "Description": "Monitored impactful data-warehouse",
+      "ChartName": "Bergnaum Group",
+      "ChartId": "voluptatem",
+      "IsDefault": false,
+      "AssociateId": 840,
+      "GroupId": 268,
+      "SelectionId": 600,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 33
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   },
   "_Links": {

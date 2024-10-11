@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 305
+  "EntityId": 179
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 639,
-    "ConnectionName": "Schneider, Kiehn and Ferry",
+    "ErpConnectionId": 618,
+    "ConnectionName": "Stracke, Harris and Bayer",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "aliquid",
-        "Rank": 967,
-        "DisplayName": "Goyette, Hessel and Graham",
-        "DisplayDescription": "Front-line systemic portal",
+        "FieldKey": "enim",
+        "Rank": 58,
+        "DisplayName": "Haley LLC",
+        "DisplayDescription": "Cloned bandwidth-monitored frame",
         "FieldType": "Checkbox",
-        "ListName": "Hand LLC",
-        "DefaultValue": "magnam",
-        "MaxLength": 91,
+        "ListName": "Batz, Rosenbaum and Turcotte",
+        "DefaultValue": "architecto",
+        "MaxLength": 304,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 686
+            "FieldType": "System.Int32",
+            "FieldLength": 459
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "similique",
-      "nihil"
+      "sunt",
+      "enim"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldLength": 691
       }
     }
   }

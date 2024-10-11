@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 410,
-    "ParentId": 845,
-    "Name": "Hermann-Lubowitz",
-    "Fullname": "distinctio",
-    "CategoryMaster": 700,
+    "TicketCategoryId": 378,
+    "ParentId": 748,
+    "Name": "Hodkiewicz, Bartell and Schumm",
+    "Fullname": "aut",
+    "CategoryMaster": 275,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Funk Inc and Sons",
+    "ExternalName": "Rippin-Rohan",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 375,
-    "ReplyTemplate": 53,
-    "NotificationEmail": "jermaine_kuhic@botsfordward.ca",
+    "AssignmentLag": 194,
+    "ReplyTemplate": 123,
+    "NotificationEmail": "dudley@weber.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 844,
+    "EffectiveReplyTemplateId": 625,
     "ExtraFields": {
-      "ExtraFields1": "voluptas",
-      "ExtraFields2": "qui"
+      "ExtraFields1": "sed",
+      "ExtraFields2": "harum"
     },
     "CustomFields": {
-      "CustomFields1": "maxime",
-      "CustomFields2": "nobis"
+      "CustomFields1": "accusantium",
+      "CustomFields2": "quo"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldType": "System.String",
+        "FieldLength": 340
       }
     }
   }

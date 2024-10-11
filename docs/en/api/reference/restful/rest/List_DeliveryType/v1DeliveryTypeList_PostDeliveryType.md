@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 80,
-  "Name": "Cummings, Gusikowski and Rath",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "UdListDefinitionId": 500,
-  "Rank": 516
+  "Id": 323,
+  "Name": "Thiel, Adams and Murphy",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "UdListDefinitionId": 718,
+  "Rank": 718
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Gerhold Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 74,
-  "Rank": 300,
+  "Id": 707,
+  "Name": "Marks LLC",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "UdListDefinitionId": 721,
+  "Rank": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 827
     }
   }
 }

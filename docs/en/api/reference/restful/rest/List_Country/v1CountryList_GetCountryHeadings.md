@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 84,
-    "Name": "Schulist LLC",
-    "Tooltip": "ab",
+    "HeadingId": 298,
+    "Name": "Kulas Group",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 61,
-    "UdListDefinitionId": 297,
+    "Rank": 138,
+    "UdListDefinitionId": 194,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 642
       }
     }
   }

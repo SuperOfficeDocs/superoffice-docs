@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Morar, Doyle and Morar",
-    "ToolTip": "Asperiores architecto ducimus.",
+    "Id": 54,
+    "Name": "Turcotte Group",
+    "ToolTip": "Vel odit nisi.",
     "Deleted": true,
-    "Rank": 151,
-    "Type": "numquam",
-    "ColorBlock": 576,
-    "IconHint": "libero",
-    "Selected": true,
-    "LastChanged": "2009-09-02T04:02:07.119095+02:00",
+    "Rank": 933,
+    "Type": "et",
+    "ColorBlock": 796,
+    "IconHint": "cum",
+    "Selected": false,
+    "LastChanged": "2020-07-30T03:44:57.9531133+02:00",
     "ChildItems": [
       {
-        "Id": 703,
-        "Name": "Bernier, Hickle and Bernhard",
-        "ToolTip": "Amet tenetur corrupti ratione quae odio.",
+        "Id": 873,
+        "Name": "Hartmann, Towne and Balistreri",
+        "ToolTip": "Exercitationem vero quia.",
         "Deleted": true,
-        "Rank": 549,
-        "Type": "facilis",
-        "ColorBlock": 408,
-        "IconHint": "laudantium",
+        "Rank": 891,
+        "Type": "tempore",
+        "ColorBlock": 55,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2010-06-28T04:02:07.119095+02:00",
+        "LastChanged": "2004-10-31T03:44:57.9531133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "rerum",
+        "ExtraInfo": "maxime",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Curt Schinner Jr.",
+        "FullName": "Keira Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldLength": 398
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Mr. Martina Kaylin Conn",
+    "ExtraInfo": "id",
+    "StyleHint": "itaque",
+    "Hidden": true,
+    "FullName": "Litzy Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

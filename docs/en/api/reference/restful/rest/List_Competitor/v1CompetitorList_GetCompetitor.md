@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "McKenzie-Okuneva",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "UdListDefinitionId": 283,
-  "Rank": 461,
+  "Id": 467,
+  "Name": "Schneider, Grady and Veum",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 961,
+  "Rank": 671,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 995
     }
   }
 }

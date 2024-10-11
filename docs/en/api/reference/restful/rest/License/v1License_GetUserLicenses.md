@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schmitt LLC",
-    "Description": "Persevering exuding hub",
+    "Name": "Hamill LLC",
+    "Description": "Team-oriented demand-driven core",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 671,
-        "Tooltip": "nihil",
-        "CanAssign": false,
-        "Free": 118,
-        "InUse": 630,
+        "Total": 248,
+        "Tooltip": "nostrum",
+        "CanAssign": true,
+        "Free": 279,
+        "InUse": 408,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 886,
-        "Name": "Halvorson LLC",
-        "Description": "Profound eco-centric migration",
-        "PrerequisiteModuleName": "Hand-Lang",
-        "SortOrder": 399,
-        "ExtraFlags": 180,
+        "ModuleLicenseId": 490,
+        "Name": "Gerhold-Nitzsche",
+        "Description": "Secured executive instruction set",
+        "PrerequisiteModuleName": "Schinner, Grady and Stroman",
+        "SortOrder": 22,
+        "ExtraFlags": 933,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 219
+            "FieldType": "System.Int32",
+            "FieldLength": 552
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 118,
-        "Tooltip": "error",
-        "CanAssign": false,
-        "Free": 890,
-        "InUse": 324,
+        "Unrestricted": true,
+        "Total": 398,
+        "Tooltip": "soluta",
+        "CanAssign": true,
+        "Free": 811,
+        "InUse": 709,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 559,
-        "Name": "Heller-Denesik",
-        "Description": "User-friendly optimizing monitoring",
-        "PrerequisiteModuleName": "White Group",
-        "SortOrder": 57,
-        "ExtraFlags": 30,
+        "Assigned": false,
+        "ModuleLicenseId": 886,
+        "Name": "Tromp, Kuphal and Mills",
+        "Description": "Customer-focused heuristic productivity",
+        "PrerequisiteModuleName": "Leffler Inc and Sons",
+        "SortOrder": 87,
+        "ExtraFlags": 154,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 531
+            "FieldType": "System.Int32",
+            "FieldLength": 160
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 527
       }
     }
   },
   {
-    "Name": "Schmitt LLC",
-    "Description": "Persevering exuding hub",
+    "Name": "Hamill LLC",
+    "Description": "Team-oriented demand-driven core",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 671,
-        "Tooltip": "nihil",
-        "CanAssign": false,
-        "Free": 118,
-        "InUse": 630,
+        "Total": 248,
+        "Tooltip": "nostrum",
+        "CanAssign": true,
+        "Free": 279,
+        "InUse": 408,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 886,
-        "Name": "Halvorson LLC",
-        "Description": "Profound eco-centric migration",
-        "PrerequisiteModuleName": "Hand-Lang",
-        "SortOrder": 399,
-        "ExtraFlags": 180,
+        "ModuleLicenseId": 490,
+        "Name": "Gerhold-Nitzsche",
+        "Description": "Secured executive instruction set",
+        "PrerequisiteModuleName": "Schinner, Grady and Stroman",
+        "SortOrder": 22,
+        "ExtraFlags": 933,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 219
+            "FieldType": "System.Int32",
+            "FieldLength": 552
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 118,
-        "Tooltip": "error",
-        "CanAssign": false,
-        "Free": 890,
-        "InUse": 324,
+        "Unrestricted": true,
+        "Total": 398,
+        "Tooltip": "soluta",
+        "CanAssign": true,
+        "Free": 811,
+        "InUse": 709,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 559,
-        "Name": "Heller-Denesik",
-        "Description": "User-friendly optimizing monitoring",
-        "PrerequisiteModuleName": "White Group",
-        "SortOrder": 57,
-        "ExtraFlags": 30,
+        "Assigned": false,
+        "ModuleLicenseId": 886,
+        "Name": "Tromp, Kuphal and Mills",
+        "Description": "Customer-focused heuristic productivity",
+        "PrerequisiteModuleName": "Leffler Inc and Sons",
+        "SortOrder": 87,
+        "ExtraFlags": 154,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 531
+            "FieldType": "System.Int32",
+            "FieldLength": 160
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 527
       }
     }
   }

@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 243
+  "UserGroupId": 216
 }
 ```
 

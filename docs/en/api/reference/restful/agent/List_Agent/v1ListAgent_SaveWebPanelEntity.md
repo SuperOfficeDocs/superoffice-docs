@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 883,
-  "Name": "Feest, Emard and McKenzie",
-  "Tooltip": "dicta",
+  "WebPanelId": 733,
+  "Name": "Brakus, Ondricka and Windler",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 581,
+  "Rank": 271,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Bashirian-McClure",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Pagac-Spinka",
   "Url": "http://www.example.com/",
-  "ProgId": "doloribus",
-  "Icon": 997,
+  "ProgId": "mollitia",
+  "Icon": 784,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 988,
-  "Name": "Lesch, Harber and Hagenes",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 747,
+  "WebPanelId": 177,
+  "Name": "Mayer-Goyette",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 810,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Ullrich, Fritsch and Bahringer",
+  "WindowName": "Tillman Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "quo",
-  "Icon": 151,
+  "ProgId": "molestias",
+  "Icon": 246,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 483
     }
   }
 }

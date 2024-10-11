@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 460,
-    "ColumnId": 529,
-    "FieldDefault": "neque",
-    "FieldHeight": 297,
-    "FieldLabel": "impedit",
-    "FieldLeft": 607,
-    "FieldTop": 845,
+    "UDefFieldId": 523,
+    "ColumnId": 56,
+    "FieldDefault": "veniam",
+    "FieldHeight": 65,
+    "FieldLabel": "sint",
+    "FieldLeft": 520,
+    "FieldTop": 174,
     "FieldType": "Checkbox",
-    "FieldWidth": 265,
-    "FormatMask": "autem",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 598,
-    "LabelLeft": 487,
-    "LabelTop": 688,
-    "LabelWidth": 757,
-    "LastVersionId": 248,
-    "ListTableId": 671,
+    "FieldWidth": 484,
+    "FormatMask": "omnis",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 716,
+    "LabelLeft": 388,
+    "LabelTop": 258,
+    "LabelWidth": 594,
+    "LastVersionId": 579,
+    "ListTableId": 795,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 583,
-    "ProgId": "eum",
+    "Page1LineNo": 718,
+    "ProgId": "inventore",
     "IsReadOnly": false,
-    "ShortLabel": "ab",
-    "TabOrder": 841,
-    "TextLength": 66,
-    "Tooltip": "praesentium",
-    "UdefIdentity": 858,
-    "UDListDefinitionId": 178,
+    "ShortLabel": "est",
+    "TabOrder": 932,
+    "TextLength": 423,
+    "Tooltip": "dolorem",
+    "UdefIdentity": 70,
+    "UDListDefinitionId": 91,
     "Justification": "Center",
-    "Version": 784,
-    "TemplateVariableName": "Bergstrom Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Stracke, Altenwerth and Blick",
+    "Version": 609,
+    "TemplateVariableName": "Abernathy, Rempel and Streich",
+    "HasBeenPublished": false,
+    "MdoListName": "Adams Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldLength": 747
       }
     }
   }

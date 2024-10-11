@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Little, Bins and Jaskolski",
-  "Tooltip": "velit",
+  "Id": 377,
+  "Name": "Armstrong, Beatty and Bayer",
+  "Tooltip": "laborum",
   "Deleted": true,
-  "UdListDefinitionId": 114,
-  "Rank": 424,
+  "UdListDefinitionId": 908,
+  "Rank": 106,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

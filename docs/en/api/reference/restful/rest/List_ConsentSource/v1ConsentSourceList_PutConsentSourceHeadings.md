@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 780,
-    "Name": "Price Inc and Sons",
-    "Tooltip": "in",
+    "HeadingId": 162,
+    "Name": "Runolfsson Group",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 158,
-    "UdListDefinitionId": 594
+    "Rank": 425,
+    "UdListDefinitionId": 183
   },
   {
-    "HeadingId": 780,
-    "Name": "Price Inc and Sons",
-    "Tooltip": "in",
+    "HeadingId": 162,
+    "Name": "Runolfsson Group",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 158,
-    "UdListDefinitionId": 594
+    "Rank": 425,
+    "UdListDefinitionId": 183
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 694,
-    "Name": "Reinger-Greenfelder",
-    "Tooltip": "est",
+    "HeadingId": 68,
+    "Name": "Mann-Corwin",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 542,
-    "UdListDefinitionId": 524,
+    "Rank": 366,
+    "UdListDefinitionId": 695,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 418
+        "FieldType": "System.Int32",
+        "FieldLength": 91
       }
     }
   }

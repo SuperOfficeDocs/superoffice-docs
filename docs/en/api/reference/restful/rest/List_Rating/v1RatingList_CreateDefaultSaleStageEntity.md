@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 136,
-  "Value": "velit",
-  "Tooltip": "qui",
-  "Probability": 914,
-  "Deleted": true,
-  "Rank": 756,
+  "SaleStageId": 498,
+  "Value": "reprehenderit",
+  "Tooltip": "nesciunt",
+  "Probability": 566,
+  "Deleted": false,
+  "Rank": 515,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 248
     }
   }
 }

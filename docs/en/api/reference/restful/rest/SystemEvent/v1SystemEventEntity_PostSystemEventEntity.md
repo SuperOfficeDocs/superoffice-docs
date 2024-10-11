@@ -94,19 +94,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 411,
+  "SystemEventId": 757,
   "Scope": "Database",
-  "Eta": "2010-08-25T04:02:06.837875+02:00",
-  "Eventkey": "reprehenderit",
-  "Eventmess": "repellat",
-  "ExtraInfo": 832,
-  "Owner": 305,
-  "UpdatedCount": 779,
-  "Registered": "2002-05-28T04:02:06.837875+02:00",
+  "Eta": "1998-01-18T03:44:57.5937539+01:00",
+  "Eventkey": "sed",
+  "Eventmess": "ipsa",
+  "ExtraInfo": 967,
+  "Owner": 310,
+  "UpdatedCount": 381,
+  "Registered": "2016-08-24T03:44:57.5937539+02:00",
   "ActivatedBy": null
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 465,
+  "SystemEventId": 654,
   "Scope": "Database",
-  "Eta": "2021-06-24T04:02:06.837875+02:00",
-  "Eventkey": "assumenda",
-  "Eventmess": "ut",
-  "ExtraInfo": 877,
-  "Owner": 447,
-  "UpdatedCount": 614,
-  "Registered": "2011-05-26T04:02:06.837875+02:00",
+  "Eta": "2009-01-24T03:44:57.5937539+01:00",
+  "Eventkey": "quia",
+  "Eventmess": "qui",
+  "ExtraInfo": 632,
+  "Owner": 71,
+  "UpdatedCount": 114,
+  "Registered": "2009-12-10T03:44:57.5937539+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldLength": 345
     }
   },
   "_Links": {

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "UdListDefinitionId": 342,
+  "Id": 946,
+  "UdListDefinitionId": 159,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Johnson, Huels and Hagenes",
-  "Tooltip": "culpa",
-  "Deleted": false,
-  "UdListDefinitionId": 711,
-  "Rank": 794,
+  "Id": 57,
+  "Name": "Christiansen-Reilly",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "UdListDefinitionId": 142,
+  "Rank": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldLength": 172
     }
   }
 }

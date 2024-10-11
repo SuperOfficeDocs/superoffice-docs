@@ -353,7 +353,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleContact?$select=postAddress/county,restrictionAddress/county,contactSupportPerson/personUdef/SuperOffice:9
+GET /api/v1/archive/SimpleContact?$select=restrictionPostalAddress/formattedMultiLineAddress,contactSupportPerson/personCountry,contactSupportPerson/supportAssociate,contactUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Langworth, Adams and Koelpin",
-    "ToolTip": "Rerum et consequatur autem voluptas ea.",
-    "Deleted": true,
-    "Rank": 105,
-    "Type": "recusandae",
-    "ColorBlock": 733,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "1999-12-02T04:02:07.119095+01:00",
+    "Id": 365,
+    "Name": "Erdman-Brakus",
+    "ToolTip": "Assumenda voluptatem ex veritatis laudantium.",
+    "Deleted": false,
+    "Rank": 254,
+    "Type": "molestiae",
+    "ColorBlock": 62,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2013-07-09T03:44:57.9531133+02:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Brakus Group",
-        "ToolTip": "Omnis nisi consequatur consequatur.",
-        "Deleted": false,
-        "Rank": 581,
-        "Type": "rerum",
-        "ColorBlock": 22,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "2016-06-03T04:02:07.119095+02:00",
+        "Id": 988,
+        "Name": "Hegmann Group",
+        "ToolTip": "Et ipsam ut aliquid voluptates.",
+        "Deleted": true,
+        "Rank": 662,
+        "Type": "ut",
+        "ColorBlock": 102,
+        "IconHint": "dolorum",
+        "Selected": true,
+        "LastChanged": "2017-03-30T03:44:57.9531133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Madyson Abernathy"
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Ford Kiehn"
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Rosario Gutkowski"
+    "ExtraInfo": "iusto",
+    "StyleHint": "reprehenderit",
+    "Hidden": false,
+    "FullName": "Prof. Newton Susan Ullrich V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Schinner-Haley",
-    "ToolTip": "Soluta aut cum quia cumque.",
+    "Id": 431,
+    "Name": "Powlowski, Reichel and Ritchie",
+    "ToolTip": "Vero cumque amet pariatur.",
     "Deleted": false,
-    "Rank": 736,
-    "Type": "excepturi",
-    "ColorBlock": 653,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2018-10-20T04:02:07.119095+02:00",
+    "Rank": 612,
+    "Type": "odit",
+    "ColorBlock": 571,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2008-01-31T03:44:57.9531133+01:00",
     "ChildItems": [
       {
-        "Id": 437,
-        "Name": "Schuppe Group",
-        "ToolTip": "Officiis et eos non dignissimos vitae sed animi.",
+        "Id": 599,
+        "Name": "Miller, Fisher and Wunsch",
+        "ToolTip": "Ut aut repudiandae animi nesciunt distinctio.",
         "Deleted": true,
-        "Rank": 273,
-        "Type": "mollitia",
-        "ColorBlock": 216,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2022-05-07T04:02:07.119095+02:00",
+        "Rank": 402,
+        "Type": "maiores",
+        "ColorBlock": 850,
+        "IconHint": "cupiditate",
+        "Selected": false,
+        "LastChanged": "2016-10-28T03:44:57.9531133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Aurelio Boehm",
+        "ExtraInfo": "ab",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Lowell Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldLength": 724
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "totam",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Miss Lesley Hagenes III",
+    "FullName": "Clarabelle Leuschke Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldType": "System.String",
+        "FieldLength": 8
       }
     }
   }

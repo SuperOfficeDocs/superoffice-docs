@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Purdy Group",
-  "AdditionalInfo": "ab",
-  "SearchValue": "non"
+  "Name": "Hintz, Orn and Johnson",
+  "AdditionalInfo": "eaque",
+  "SearchValue": "tenetur"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Hahn-Ruecker",
-    "ToolTip": "Repellendus voluptatum sint culpa eum aliquam modi maxime.",
+    "Id": 689,
+    "Name": "Murray LLC",
+    "ToolTip": "Ipsam eligendi non.",
     "Deleted": false,
-    "Rank": 526,
-    "Type": "amet",
+    "Rank": 76,
+    "Type": "accusamus",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Rice-Kohler",
-        "ToolTip": "Amet eos id facere.",
+        "Id": 973,
+        "Name": "Hudson-Spinka",
+        "ToolTip": "Itaque natus odit atque ut nihil sint.",
         "Deleted": false,
-        "Rank": 859,
-        "Type": "doloribus",
+        "Rank": 442,
+        "Type": "alias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nobis",
-        "ColorBlock": 978,
-        "ExtraInfo": "nostrum",
-        "StyleHint": "ipsa",
-        "FullName": "Kaci Reichert",
+        "IconHint": "cum",
+        "ColorBlock": 536,
+        "ExtraInfo": "odio",
+        "StyleHint": "ipsam",
+        "FullName": "Camryn Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 575
+            "FieldType": "System.Int32",
+            "FieldLength": 307
           }
         }
       }
     ],
-    "IconHint": "rem",
-    "ColorBlock": 81,
-    "ExtraInfo": "ipsam",
-    "StyleHint": "et",
-    "FullName": "Hermann Larson",
+    "IconHint": "veniam",
+    "ColorBlock": 299,
+    "ExtraInfo": "fuga",
+    "StyleHint": "est",
+    "FullName": "Rhett Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldLength": 292
       }
     }
   }

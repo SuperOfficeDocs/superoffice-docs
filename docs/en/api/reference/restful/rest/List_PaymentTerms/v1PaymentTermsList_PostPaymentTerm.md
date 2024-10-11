@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 785,
-  "Name": "Emmerich, Bogisich and Watsica",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "UdListDefinitionId": 324,
-  "Rank": 74
+  "Id": 297,
+  "Name": "Wilkinson, Mills and O'Conner",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 422,
+  "Rank": 809
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 706,
-  "Name": "Osinski-Walsh",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "UdListDefinitionId": 365,
-  "Rank": 814,
+  "Id": 850,
+  "Name": "Kuphal LLC",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "UdListDefinitionId": 843,
+  "Rank": 163,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 30
     }
   }
 }

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 857
+  "UserGroupId": 823
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 942,
-    "ColumnId": 606,
-    "FieldDefault": "eveniet",
-    "FieldHeight": 179,
-    "FieldLabel": "quibusdam",
-    "FieldLeft": 102,
-    "FieldTop": 937,
+    "UDefFieldId": 97,
+    "ColumnId": 775,
+    "FieldDefault": "eligendi",
+    "FieldHeight": 557,
+    "FieldLabel": "voluptas",
+    "FieldLeft": 577,
+    "FieldTop": 102,
     "FieldType": "Checkbox",
-    "FieldWidth": 833,
-    "FormatMask": "adipisci",
+    "FieldWidth": 567,
+    "FormatMask": "rerum",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 888,
-    "LabelLeft": 269,
-    "LabelTop": 688,
-    "LabelWidth": 262,
-    "LastVersionId": 191,
-    "ListTableId": 832,
+    "IsIndexed": false,
+    "LabelHeight": 86,
+    "LabelLeft": 394,
+    "LabelTop": 347,
+    "LabelWidth": 898,
+    "LastVersionId": 705,
+    "ListTableId": 135,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 404,
-    "ProgId": "officiis",
-    "IsReadOnly": false,
-    "ShortLabel": "accusantium",
-    "TabOrder": 623,
-    "TextLength": 906,
-    "Tooltip": "consequatur",
-    "UdefIdentity": 105,
-    "UDListDefinitionId": 365,
+    "Page1LineNo": 642,
+    "ProgId": "sed",
+    "IsReadOnly": true,
+    "ShortLabel": "tempore",
+    "TabOrder": 955,
+    "TextLength": 773,
+    "Tooltip": "iusto",
+    "UdefIdentity": 528,
+    "UDListDefinitionId": 98,
     "Justification": "Center",
-    "Version": 777,
-    "TemplateVariableName": "Wolff, Wiza and Mraz",
+    "Version": 447,
+    "TemplateVariableName": "Koepp, Jacobs and O'Conner",
     "HasBeenPublished": false,
-    "MdoListName": "Casper Inc and Sons",
+    "MdoListName": "Runolfsson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 801
       }
     }
   }

@@ -108,29 +108,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 395,
-  "ParentId": 598,
-  "Name": "Keebler, Nicolas and Kuhn",
-  "Fullname": "magni",
-  "CategoryMaster": 209,
+  "TicketCategoryId": 367,
+  "ParentId": 694,
+  "Name": "Orn-Turner",
+  "Fullname": "et",
+  "CategoryMaster": 414,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mohr-Cruickshank",
+  "ExternalName": "Cole-McGlynn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 298,
-  "ReplyTemplate": 237,
-  "NotificationEmail": "laverne_welch@hermanschmidt.info",
+  "AssignmentLag": 274,
+  "ReplyTemplate": 60,
+  "NotificationEmail": "tremayne@mcglynnortiz.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 324,
+  "EffectiveReplyTemplateId": 602,
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "tempora"
+    "CustomFields1": "quos",
+    "CustomFields2": "nobis"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 401,
-  "ParentId": 477,
-  "Name": "Zemlak Group",
-  "Fullname": "eum",
-  "CategoryMaster": 999,
+  "TicketCategoryId": 885,
+  "ParentId": 611,
+  "Name": "Ruecker Group",
+  "Fullname": "at",
+  "CategoryMaster": 921,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gorczany, Hyatt and Casper",
+  "ExternalName": "Lehner-Mitchell",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 525,
-  "ReplyTemplate": 564,
-  "NotificationEmail": "ryleigh@walter.biz",
+  "AssignmentLag": 719,
+  "ReplyTemplate": 129,
+  "NotificationEmail": "elyssa.hayes@townebecker.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 914,
+  "EffectiveReplyTemplateId": 580,
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "qui",
+    "CustomFields2": "vero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 628
     }
   }
 }

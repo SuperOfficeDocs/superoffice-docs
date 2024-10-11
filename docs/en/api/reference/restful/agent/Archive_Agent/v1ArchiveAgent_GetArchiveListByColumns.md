@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lubowitz LLC",
+  "ProviderName": "Keebler, Rolfson and Weber",
   "Columns": [
-    "non",
-    "est"
+    "culpa",
+    "delectus"
   ],
   "SortOrder": [
     {
-      "Name": "Bechtelar, Armstrong and Haag",
+      "Name": "Hills, Cronin and Barton",
       "Direction": "ASC"
     },
     {
-      "Name": "Bechtelar, Armstrong and Haag",
+      "Name": "Hills, Cronin and Barton",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Koelpin Group",
-      "Operator": "earum",
+      "Name": "Waelchi LLC",
+      "Operator": "et",
       "Values": [
-        "sit",
-        "nulla"
+        "ipsum",
+        "dolorem"
       ],
       "DisplayValues": [
-        "accusamus",
-        "a"
+        "a",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 386,
+      "InterParenthesis": 759,
       "InterOperator": "And",
-      "UniqueHash": 684
+      "UniqueHash": 86
     }
   ],
   "Entities": [
-    "repellendus",
-    "qui"
+    "asperiores",
+    "praesentium"
   ],
-  "Page": 316,
-  "PageSize": 14
+  "Page": 614,
+  "PageSize": 259
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Grady-Waelchi",
-    "PrimaryKey": 229,
+    "EntityName": "Carter, Littel and Hoppe",
+    "PrimaryKey": 670,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ut",
-        "TooltipHint": "voluptatem",
-        "LinkHint": "fuga"
+        "DisplayValue": "assumenda",
+        "TooltipHint": "molestiae",
+        "LinkHint": "voluptatem"
       }
     },
-    "LinkHint": "voluptas",
-    "StyleHint": "quasi",
+    "LinkHint": "quia",
+    "StyleHint": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 386
       }
     }
   }

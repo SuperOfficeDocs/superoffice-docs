@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Lemke, Braun and Erdman",
-    "ToolTip": "Libero beatae nobis voluptatibus eveniet.",
+    "Id": 432,
+    "Name": "McGlynn-Schroeder",
+    "ToolTip": "Ut modi eum labore assumenda fuga aut qui.",
     "Deleted": false,
-    "Rank": 55,
-    "Type": "ipsum",
-    "ColorBlock": 783,
-    "IconHint": "rem",
+    "Rank": 38,
+    "Type": "perferendis",
+    "ColorBlock": 418,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2013-11-25T04:02:07.3690701+01:00",
+    "LastChanged": "2006-01-29T03:44:58.1093468+01:00",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "Denesik LLC",
-        "ToolTip": "Minus voluptatem adipisci.",
+        "Id": 158,
+        "Name": "Von, Greenfelder and Ryan",
+        "ToolTip": "Odit reprehenderit quisquam velit qui.",
         "Deleted": false,
-        "Rank": 984,
-        "Type": "non",
-        "ColorBlock": 902,
-        "IconHint": "veniam",
+        "Rank": 67,
+        "Type": "molestiae",
+        "ColorBlock": 63,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2002-08-12T04:02:07.3690701+02:00",
+        "LastChanged": "2010-07-26T03:44:58.1093468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "inventore",
-        "Hidden": true,
-        "FullName": "Vicenta Gleichner",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "delectus",
+        "Hidden": false,
+        "FullName": "Kaleigh O'Kon IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 343
+            "FieldLength": 581
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Miss Doug Maggio Sr.",
+    "ExtraInfo": "rerum",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Prof. Brennon Conn MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldType": "System.String",
+        "FieldLength": 351
       }
     }
   }

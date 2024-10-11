@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 105,
-  "UniqueIdentifier": "repudiandae",
-  "Name": "Carroll-Ziemann",
-  "Description": "Compatible disintermediate info-mediaries",
-  "IncludeId": "suscipit",
-  "AccessKey": "eos",
-  "HierarchyId": 661,
-  "Source": "ut",
-  "SourceCode": "suscipit",
+  "EjscriptId": 312,
+  "UniqueIdentifier": "rerum",
+  "Name": "Lockman Inc and Sons",
+  "Description": "Compatible actuating instruction set",
+  "IncludeId": "officiis",
+  "AccessKey": "provident",
+  "HierarchyId": 944,
+  "Source": "praesentium",
+  "SourceCode": "repudiandae",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 417,
+  "HtmlOutput": 736,
   "Includes": [
-    482,
-    686
+    847,
+    293
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 202,
-      "LineNumberTo": 317,
-      "Delta": 749,
-      "IncludeId": "sequi",
+      "LineNumberFrom": 934,
+      "LineNumberTo": 550,
+      "Delta": 585,
+      "IncludeId": "iste",
       "IncludedFrom": [
-        "libero",
-        "quam"
+        "consequatur",
+        "cum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 49
+          "FieldLength": 40
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2009-11-05T04:02:01.5186345+01:00",
-  "RegisteredAssociateId": 218,
-  "Updated": "2021-09-30T04:02:01.5186345+02:00",
-  "UpdatedAssociateId": 534,
+  "Registered": "2002-12-01T03:44:52.3865159+01:00",
+  "RegisteredAssociateId": 485,
+  "Updated": "2017-11-01T03:44:52.3865159+01:00",
+  "UpdatedAssociateId": 434,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   }
 }

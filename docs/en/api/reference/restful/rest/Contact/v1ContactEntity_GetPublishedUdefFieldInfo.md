@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 351,
-  "ColumnId": 675,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 858,
-  "FieldLabel": "non",
-  "FieldLeft": 565,
-  "FieldTop": 670,
+  "UDefFieldId": 882,
+  "ColumnId": 403,
+  "FieldDefault": "ut",
+  "FieldHeight": 204,
+  "FieldLabel": "dolores",
+  "FieldLeft": 775,
+  "FieldTop": 674,
   "FieldType": "Checkbox",
-  "FieldWidth": 397,
-  "FormatMask": "excepturi",
-  "HideLabel": true,
+  "FieldWidth": 757,
+  "FormatMask": "sit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 670,
-  "LabelLeft": 32,
-  "LabelTop": 821,
-  "LabelWidth": 635,
-  "LastVersionId": 312,
-  "ListTableId": 678,
-  "IsMandatory": true,
+  "LabelHeight": 52,
+  "LabelLeft": 290,
+  "LabelTop": 975,
+  "LabelWidth": 741,
+  "LastVersionId": 393,
+  "ListTableId": 975,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 268,
-  "ProgId": "voluptas",
-  "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 945,
-  "TextLength": 188,
-  "Tooltip": "ut",
-  "UdefIdentity": 697,
-  "UDListDefinitionId": 762,
+  "Page1LineNo": 872,
+  "ProgId": "rerum",
+  "IsReadOnly": true,
+  "ShortLabel": "accusamus",
+  "TabOrder": 956,
+  "TextLength": 159,
+  "Tooltip": "quisquam",
+  "UdefIdentity": 290,
+  "UDListDefinitionId": 221,
   "Justification": "Center",
-  "Version": 431,
-  "TemplateVariableName": "Gibson, Wunsch and Nikolaus",
-  "HasBeenPublished": true,
-  "MdoListName": "Ziemann LLC",
+  "Version": 831,
+  "TemplateVariableName": "Beier, Pollich and Leffler",
+  "HasBeenPublished": false,
+  "MdoListName": "Lynch, Konopelski and Dickinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 407
     }
   }
 }

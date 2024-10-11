@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 349
+  "Count": 223
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "esse",
-    "PersonId": 930,
-    "Mrmrs": "possimus",
-    "Firstname": "Chase",
-    "Lastname": "Ledner",
-    "MiddleName": "Hodkiewicz, Boehm and Miller",
-    "Title": "repellendus",
-    "Description": "Balanced global forecast",
-    "Email": "owen@romaguera.info",
-    "FullName": "Ms. Obie Heaney PhD",
-    "DirectPhone": "(139)825-0764 x5411",
-    "FormalName": "Bergstrom Inc and Sons",
-    "CountryId": 427,
-    "ContactId": 525,
-    "ContactName": "Lebsack Group",
-    "Retired": 830,
-    "Rank": 997,
-    "ActiveInterests": 960,
+    "Position": "et",
+    "PersonId": 711,
+    "Mrmrs": "et",
+    "Firstname": "Lavada",
+    "Lastname": "Lubowitz",
+    "MiddleName": "Corkery-Ratke",
+    "Title": "magni",
+    "Description": "Managed radical definition",
+    "Email": "dejuan@kuhn.ca",
+    "FullName": "Jessy Lind",
+    "DirectPhone": "(899)019-5120 x2202",
+    "FormalName": "Crona-Hoeger",
+    "CountryId": 389,
+    "ContactId": 921,
+    "ContactName": "Bartoletti, Feil and Gutkowski",
+    "Retired": 157,
+    "Rank": 442,
+    "ActiveInterests": 484,
     "ContactDepartment": "",
-    "ContactCountryId": 778,
-    "ContactOrgNr": "761140",
-    "FaxPhone": "1-657-542-3555",
-    "MobilePhone": "839-160-9602 x967",
-    "ContactPhone": "(957)963-6021 x2734",
-    "AssociateName": "Flatley, McDermott and White",
-    "AssociateId": 814,
+    "ContactCountryId": 334,
+    "ContactOrgNr": "341105",
+    "FaxPhone": "742-157-9963",
+    "MobilePhone": "894.748.8382",
+    "ContactPhone": "(812)368-0971",
+    "AssociateName": "Lindgren-Borer",
+    "AssociateId": 124,
     "UsePersonAddress": false,
-    "ContactFax": "quia",
-    "Kanafname": "laboriosam",
-    "Kanalname": "consequuntur",
-    "Post1": "mollitia",
-    "Post2": "iste",
-    "Post3": "rerum",
-    "EmailName": "lily.huels@heaneyswift.name",
-    "ContactFullName": "Chadd Bianka Lesch V",
-    "ActiveErpLinks": 542,
-    "TicketPriorityId": 740,
-    "SupportLanguageId": 436,
-    "SupportAssociateId": 189,
+    "ContactFax": "deserunt",
+    "Kanafname": "velit",
+    "Kanalname": "perferendis",
+    "Post1": "illum",
+    "Post2": "porro",
+    "Post3": "tempora",
+    "EmailName": "porter_simonis@haleycormier.co.uk",
+    "ContactFullName": "Miss Ryleigh Turcotte",
+    "ActiveErpLinks": 475,
+    "TicketPriorityId": 61,
+    "SupportLanguageId": 891,
+    "SupportAssociateId": 740,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 440
       }
     }
   }

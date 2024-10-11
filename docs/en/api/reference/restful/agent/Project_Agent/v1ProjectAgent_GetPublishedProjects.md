@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    328,
-    539
+    563,
+    495
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 340,
-    "Name": "Walsh-Oberbrunner",
-    "Description": "Re-contextualized content-based artificial intelligence",
+    "ProjectId": 903,
+    "Name": "Reynolds LLC",
+    "Description": "Phased value-added throughput",
     "URL": "http://www.example.com/",
-    "Type": "quisquam",
-    "AssociateId": 990,
-    "AssociateFullName": "Miss Madisyn Kaylin Dibbert",
-    "TypeId": 146,
-    "Updated": "2022-07-11T04:02:02.1597135+02:00",
-    "StatusId": 275,
-    "Status": "in",
-    "TextId": 449,
-    "PublishTo": "2007-06-24T04:02:02.1597135+02:00",
-    "PublishFrom": "2000-07-29T04:02:02.1597135+02:00",
+    "Type": "quae",
+    "AssociateId": 521,
+    "AssociateFullName": "Bobby Ortiz",
+    "TypeId": 880,
+    "Updated": "2005-04-28T03:44:53.0270705+02:00",
+    "StatusId": 271,
+    "Status": "beatae",
+    "TextId": 972,
+    "PublishTo": "2007-04-28T03:44:53.0270705+02:00",
+    "PublishFrom": "2016-03-23T03:44:53.0270705+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "286172",
-    "ActiveErpLinks": 367,
+    "ProjectNumber": "284713",
+    "ActiveErpLinks": 176,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 146
       }
     }
   }

@@ -26,6 +26,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [CreateDefaultPersonImage](createdefaultpersonimage.md)
 * [CreateOrUpdateUserCandidate](createorupdateusercandidate.md)
 * [CreateTemporaryKey](createtemporarykey.md)
+* [CreateTemporaryKeyWithPayload](createtemporarykeywithpayload.md)
 * [DeleteConsentPerson](deleteconsentperson.md)
 * [DeleteExpired](deleteexpired.md)
 * [DeletePersonEntity](deletepersonentity.md)

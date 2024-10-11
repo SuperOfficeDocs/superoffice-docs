@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 198,
-    "ERPName": "Flatley Group",
-    "DisplayName": "Harber, Turcotte and Koss",
-    "DisplayDescription": "Open-source executive hierarchy",
-    "Rank": 478,
-    "ConnectorName": "Connelly Group",
-    "ErpConnectionId": 61,
-    "ExtraData": "et",
+    "QuoteConnectionId": 996,
+    "ERPName": "Shields-Pollich",
+    "DisplayName": "Von-McGlynn",
+    "DisplayDescription": "Devolved next generation orchestration",
+    "Rank": 647,
+    "ConnectorName": "Olson Inc and Sons",
+    "ErpConnectionId": 628,
+    "ExtraData": "dolor",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 509,
-        "ERPPriceListKey": "consequatur",
-        "QuoteConnectionId": 538,
-        "Name": "Turner-Considine",
-        "Description": "Horizontal analyzing encoding",
-        "Currency": "fuga",
-        "CurrencyName": "Tromp LLC",
-        "ValidFrom": "2015-02-13T04:02:02.2065837+01:00",
-        "ValidTo": "2005-07-17T04:02:02.2065837+02:00",
+        "PriceListId": 606,
+        "ERPPriceListKey": "est",
+        "QuoteConnectionId": 742,
+        "Name": "Ward, Nicolas and Romaguera",
+        "Description": "Optional high-level core",
+        "Currency": "consequatur",
+        "CurrencyName": "Bernier-Parisian",
+        "ValidFrom": "2011-10-13T03:44:53.0583181+02:00",
+        "ValidTo": "2004-09-03T03:44:53.0583181+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 921
+            "FieldLength": 485
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": true,
+    "AllAccess": false,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      999,
-      19
+      124,
+      506
     ],
     "AssociateAccessIds": [
-      2,
-      472
+      912,
+      31
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 747
       }
     }
   }

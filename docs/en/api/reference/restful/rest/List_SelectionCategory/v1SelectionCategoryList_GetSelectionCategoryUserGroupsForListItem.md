@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Zulauf Inc and Sons",
-    "ToolTip": "Nulla at tenetur enim neque nihil reprehenderit.",
-    "Deleted": false,
-    "Rank": 599,
-    "Type": "omnis",
-    "ColorBlock": 602,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "1997-11-18T04:02:07.4167631+01:00",
+    "Id": 744,
+    "Name": "Kunze LLC",
+    "ToolTip": "Dolorem accusamus at distinctio non.",
+    "Deleted": true,
+    "Rank": 241,
+    "Type": "recusandae",
+    "ColorBlock": 263,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "2008-09-01T03:44:58.1562167+02:00",
     "ChildItems": [
       {
-        "Id": 102,
-        "Name": "Hessel Group",
-        "ToolTip": "Aspernatur id recusandae quo doloribus.",
+        "Id": 280,
+        "Name": "Considine-Spinka",
+        "ToolTip": "Modi sint exercitationem.",
         "Deleted": false,
-        "Rank": 28,
-        "Type": "voluptatem",
-        "ColorBlock": 278,
-        "IconHint": "laudantium",
-        "Selected": false,
-        "LastChanged": "2009-12-04T04:02:07.4167631+01:00",
+        "Rank": 847,
+        "Type": "est",
+        "ColorBlock": 506,
+        "IconHint": "doloribus",
+        "Selected": true,
+        "LastChanged": "2002-11-23T03:44:58.1562167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Baby Rowe",
+        "ExtraInfo": "ullam",
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Cristian Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 56
+            "FieldType": "System.Int32",
+            "FieldLength": 72
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Ezequiel Schmeler",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Dariana Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldType": "System.String",
+        "FieldLength": 630
       }
     }
   }

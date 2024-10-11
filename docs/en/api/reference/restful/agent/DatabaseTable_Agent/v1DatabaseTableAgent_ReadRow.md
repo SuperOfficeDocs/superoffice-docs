@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rohan-Schuster",
-  "Id": 735
+  "TableName": "Stracke, Prohaska and Reichert",
+  "Id": 473
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "ea",
-    "Values2": "cupiditate"
+    "Values1": "vitae",
+    "Values2": "optio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 722
     }
   }
 }

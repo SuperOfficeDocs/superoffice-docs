@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Runolfsson Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 371,
-  "Rank": 830,
+  "Id": 990,
+  "Name": "Ullrich, Beatty and Dickinson",
+  "Tooltip": "voluptatum",
+  "Deleted": true,
+  "UdListDefinitionId": 878,
+  "Rank": 656,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldLength": 601
     }
   }
 }

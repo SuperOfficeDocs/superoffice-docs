@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "UdListDefinitionName": "Schowalter Group",
+  "Id": 573,
+  "UdListDefinitionName": "Denesik, Reinger and Sporer",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Stroman Inc and Sons",
-  "Tooltip": "vel",
+  "Id": 567,
+  "Name": "Feest, Wyman and Kirlin",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "UdListDefinitionId": 344,
-  "Rank": 592,
+  "UdListDefinitionId": 467,
+  "Rank": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   }
 }

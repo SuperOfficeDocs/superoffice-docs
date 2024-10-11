@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Fay Group",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 460,
-  "IsCustomList": false,
+  "Id": 490,
+  "Name": "Abshire LLC",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 717,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
-  "InUseByUserDefinedFields": false
+  "ListType": "autem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Beatty, Lueilwitz and Volkman",
-  "Tooltip": "cupiditate",
+  "Id": 325,
+  "Name": "Balistreri-Corwin",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 15,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 150,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "unde",
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldLength": 198
     }
   }
 }

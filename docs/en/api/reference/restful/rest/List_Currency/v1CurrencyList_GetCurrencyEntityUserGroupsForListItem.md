@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Hickle-Torp",
-    "ToolTip": "Sit facilis fugiat.",
+    "Id": 382,
+    "Name": "Reinger, Eichmann and Purdy",
+    "ToolTip": "Facere facilis et omnis.",
     "Deleted": false,
-    "Rank": 76,
-    "Type": "tenetur",
-    "ColorBlock": 199,
-    "IconHint": "labore",
-    "Selected": true,
-    "LastChanged": "2022-06-11T04:02:07.1347182+02:00",
+    "Rank": 905,
+    "Type": "sed",
+    "ColorBlock": 772,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2011-10-24T03:44:57.9687368+02:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Zulauf-Bartell",
-        "ToolTip": "Doloremque earum ipsa.",
+        "Id": 299,
+        "Name": "Towne-Adams",
+        "ToolTip": "Quae sit aliquid ex amet.",
         "Deleted": false,
-        "Rank": 731,
-        "Type": "consequatur",
-        "ColorBlock": 912,
-        "IconHint": "dolorum",
+        "Rank": 358,
+        "Type": "ratione",
+        "ColorBlock": 110,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2019-06-11T04:02:07.1347182+02:00",
+        "LastChanged": "2003-11-02T03:44:57.9687368+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Prof. Angie Dan Crist",
+        "ExtraInfo": "saepe",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Rahsaan Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 241
+            "FieldLength": 626
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "ad",
-    "Hidden": true,
-    "FullName": "Marjory Aufderhar Sr.",
+    "ExtraInfo": "illum",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Prof. Shawn Presley Schinner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   }

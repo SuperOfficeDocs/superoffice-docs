@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=sed
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Mohr, Ortiz and Lebsack",
-    "ToolTip": "Error tenetur ullam ipsa voluptatem quibusdam omnis sed.",
+    "Id": 239,
+    "Name": "Muller LLC",
+    "ToolTip": "Pariatur hic architecto dolorum accusantium.",
     "Deleted": false,
-    "Rank": 707,
-    "Type": "nostrum",
+    "Rank": 471,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 161,
-        "Name": "Hamill, McDermott and Hilll",
-        "ToolTip": "Consequuntur consequatur eius id omnis dolorem.",
+        "Id": 151,
+        "Name": "Larkin, Luettgen and Bernier",
+        "ToolTip": "Fugit et ipsam tenetur voluptatem voluptatem.",
         "Deleted": false,
-        "Rank": 847,
-        "Type": "aperiam",
+        "Rank": 988,
+        "Type": "quaerat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 839,
-        "ExtraInfo": "quo",
-        "StyleHint": "nihil",
-        "FullName": "Anya Schneider",
+        "IconHint": "neque",
+        "ColorBlock": 311,
+        "ExtraInfo": "quia",
+        "StyleHint": "voluptas",
+        "FullName": "Wilton Yazmin Rempel Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 160
+            "FieldLength": 504
           }
         }
       }
     ],
-    "IconHint": "fugit",
-    "ColorBlock": 493,
-    "ExtraInfo": "architecto",
-    "StyleHint": "voluptas",
-    "FullName": "Miss Madeline Estel Goldner DDS",
+    "IconHint": "amet",
+    "ColorBlock": 675,
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "tempore",
+    "FullName": "Mr. Jace Katelin Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

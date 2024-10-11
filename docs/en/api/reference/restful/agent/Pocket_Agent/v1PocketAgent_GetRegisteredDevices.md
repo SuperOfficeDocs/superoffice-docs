@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 68
+  "AssociateId": 565
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Blick-Beer",
-    "DeviceIdentifier": "repudiandae",
-    "PocketVersion": "voluptatibus",
-    "Language": "eos",
+    "DeviceName": "Barrows, Franecki and Schaefer",
+    "DeviceIdentifier": "minus",
+    "PocketVersion": "suscipit",
+    "Language": "aut",
     "PNSHandle": "et",
     "Platform": "Apple",
-    "OSVersion": "laudantium",
-    "TimeZoneId": 506
+    "OSVersion": "officiis",
+    "TimeZoneId": 68
   }
 ]
 ```

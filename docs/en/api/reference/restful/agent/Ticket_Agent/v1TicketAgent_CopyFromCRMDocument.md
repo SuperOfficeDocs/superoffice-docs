@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 478
+  "DocumentId": 139
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 264,
-  "Name": "Lakin Inc and Sons",
-  "ContentType": "eum",
-  "AttSize": 991,
-  "InlineImage": true,
-  "ContentId": "sit",
-  "AuthKey": "veniam",
+  "AttachmentId": 263,
+  "Name": "Fay-Pollich",
+  "ContentType": "id",
+  "AttSize": 148,
+  "InlineImage": false,
+  "ContentId": "sequi",
+  "AuthKey": "harum",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldType": "System.String",
+      "FieldLength": 85
     }
   }
 }

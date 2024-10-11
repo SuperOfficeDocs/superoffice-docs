@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 93,
-  "ERPPriceListKey": "libero",
-  "QuoteConnectionId": 838,
-  "Name": "Koch-Torp",
-  "Description": "Triple-buffered actuating capacity",
-  "Currency": "consequatur",
-  "CurrencyName": "Schowalter-Nienow",
-  "ValidFrom": "2020-04-11T04:02:07.3065765+02:00",
-  "ValidTo": "2017-03-29T04:02:07.3065765+02:00",
-  "IsActive": true,
+  "PriceListId": 849,
+  "ERPPriceListKey": "quidem",
+  "QuoteConnectionId": 58,
+  "Name": "Jacobs-Howell",
+  "Description": "Triple-buffered content-based interface",
+  "Currency": "sit",
+  "CurrencyName": "Schmitt Group",
+  "ValidFrom": "2013-04-17T03:44:58.0468534+02:00",
+  "ValidTo": "2011-05-29T03:44:58.0468534+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 739
     }
   },
   "_Links": {

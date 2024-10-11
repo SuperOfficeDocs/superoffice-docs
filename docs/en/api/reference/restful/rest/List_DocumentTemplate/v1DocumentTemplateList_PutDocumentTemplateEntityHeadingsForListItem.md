@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Rowe, Rau and Macejkovic",
-    "ToolTip": "Quisquam facilis delectus labore doloribus.",
-    "Deleted": true,
-    "Rank": 375,
-    "Type": "magnam",
-    "ColorBlock": 582,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2013-04-02T04:02:07.2440841+02:00",
+    "Id": 507,
+    "Name": "Maggio-Hahn",
+    "ToolTip": "Corporis libero quo voluptatem debitis sit rerum sit.",
+    "Deleted": false,
+    "Rank": 172,
+    "Type": "aut",
+    "ColorBlock": 562,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2001-07-31T03:44:58.0000211+02:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Reinger, Donnelly and Raynor",
-        "ToolTip": "Pariatur odio voluptas adipisci rerum saepe.",
-        "Deleted": false,
-        "Rank": 824,
-        "Type": "vitae",
-        "ColorBlock": 93,
-        "IconHint": "deserunt",
+        "Id": 867,
+        "Name": "Purdy, O'Reilly and Mills",
+        "ToolTip": "Fuga neque.",
+        "Deleted": true,
+        "Rank": 336,
+        "Type": "nemo",
+        "ColorBlock": 541,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2009-09-23T04:02:07.2440841+02:00",
+        "LastChanged": "2002-12-29T03:44:58.0000211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "id",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Jean Crist"
+        "FullName": "Mrs. Phyllis Sibyl Bednar"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Evert Reba Moen V"
+    "ExtraInfo": "fuga",
+    "StyleHint": "exercitationem",
+    "Hidden": false,
+    "FullName": "Brady Cassin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Name": "Kshlerin Group",
-    "ToolTip": "Mollitia sit ratione nobis aperiam earum necessitatibus laudantium.",
+    "Id": 456,
+    "Name": "Farrell, Mills and Nitzsche",
+    "ToolTip": "Deserunt est suscipit.",
     "Deleted": false,
-    "Rank": 97,
-    "Type": "minus",
-    "ColorBlock": 293,
-    "IconHint": "eum",
+    "Rank": 333,
+    "Type": "libero",
+    "ColorBlock": 304,
+    "IconHint": "odio",
     "Selected": true,
-    "LastChanged": "1999-06-21T04:02:07.2597065+02:00",
+    "LastChanged": "2005-09-07T03:44:58.0000211+02:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Mraz-Herman",
-        "ToolTip": "Quasi beatae dolor eos fugit.",
-        "Deleted": true,
-        "Rank": 41,
-        "Type": "libero",
-        "ColorBlock": 181,
-        "IconHint": "voluptatum",
+        "Id": 526,
+        "Name": "Altenwerth, Lebsack and Kuhic",
+        "ToolTip": "Omnis quo quibusdam et qui consequatur vel.",
+        "Deleted": false,
+        "Rank": 717,
+        "Type": "sed",
+        "ColorBlock": 465,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2024-07-07T04:02:07.2597065+02:00",
+        "LastChanged": "2022-10-06T03:44:58.0000211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "autem",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Constantin Paucek",
+        "FullName": "Raina Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 760
+            "FieldType": "System.Int32",
+            "FieldLength": 941
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Citlalli Nikolaus",
+    "ExtraInfo": "est",
+    "StyleHint": "laudantium",
+    "Hidden": false,
+    "FullName": "Wellington Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 25
       }
     }
   }

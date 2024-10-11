@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 20,
+  "DocumentId": 906,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "enim",
-  "Name": "Heidenreich, Marquardt and West",
-  "OurRef": "quia",
-  "YourRef": "eligendi",
-  "CreatedDate": "2012-04-11T04:02:06.5879017+02:00",
-  "UpdatedDate": "2013-07-27T04:02:06.5879017+02:00",
-  "Description": "Mandatory actuating time-frame",
+  "Attention": "quidem",
+  "Header": "qui",
+  "Name": "Beier Group",
+  "OurRef": "rerum",
+  "YourRef": "est",
+  "CreatedDate": "2015-10-10T03:44:57.3277561+02:00",
+  "UpdatedDate": "2000-05-02T03:44:57.3277561+02:00",
+  "Description": "Public-key intermediate productivity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-09-20T04:02:06.5879017+02:00",
-  "ExternalRef": "optio",
+  "Date": "2004-05-21T03:44:57.3277561+02:00",
+  "ExternalRef": "sunt",
   "Completed": "Completed",
-  "ActiveLinks": 45,
+  "ActiveLinks": 603,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bergnaum LLC",
-      "Id": 500,
-      "Description": "Operative homogeneous solution",
-      "ExtraInfo": "voluptates",
-      "LinkId": 702,
+      "EntityName": "Koss-West",
+      "Id": 187,
+      "Description": "Object-based 6th generation budgetary management",
+      "ExtraInfo": "perspiciatis",
+      "LinkId": 842,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldType": "System.String",
+          "FieldLength": 810
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 488,
-  "Snum": 62,
+  "SuggestedDocumentId": 954,
+  "Snum": 287,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Bernadette Justyn O'Kon PhD"
+    "SuperOffice:2": "Stephon Ebert"
   },
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "itaque"
+    "CustomFields1": "alias",
+    "CustomFields2": "reprehenderit"
   },
-  "PublishEventDate": "2017-04-08T04:02:06.5879017+02:00",
-  "PublishTo": "2017-05-22T04:02:06.5879017+02:00",
-  "PublishFrom": "2020-04-23T04:02:06.5879017+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-10-31T03:44:57.3277561+01:00",
+  "PublishTo": "2009-02-28T03:44:57.3277561+01:00",
+  "PublishFrom": "2013-09-02T03:44:57.3277561+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 897,
+      "VisibleId": 11,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldType": "System.Int32",
+          "FieldLength": 256
         }
       }
     },
     {
-      "VisibleId": 897,
+      "VisibleId": 11,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldType": "System.Int32",
+          "FieldLength": 256
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 304
     }
   }
 }

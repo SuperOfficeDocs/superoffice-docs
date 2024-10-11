@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 755,
-  "Name": "Parisian, Marquardt and Oberbrunner",
+  "ScreenChooserId": 999,
+  "Name": "Gorczany, Bruen and Toy",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "atque",
-  "Source": "corrupti",
-  "Registered": "2009-06-12T04:02:01.5186345+02:00",
-  "RegisteredAssociateId": 378,
-  "Updated": "2013-06-02T04:02:01.5186345+02:00",
-  "UpdatedAssociateId": 36,
+  "UniqueIdentifier": "ipsa",
+  "Source": "aspernatur",
+  "Registered": "2023-05-11T03:44:52.3708918+02:00",
+  "RegisteredAssociateId": 407,
+  "Updated": "1997-07-21T03:44:52.3708918+02:00",
+  "UpdatedAssociateId": 20,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 523
     }
   }
 }

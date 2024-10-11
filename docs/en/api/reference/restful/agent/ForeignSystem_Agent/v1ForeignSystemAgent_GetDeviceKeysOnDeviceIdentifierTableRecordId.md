@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Romaguera-Wyman",
-  "DeviceName": "Armstrong LLC",
-  "DeviceIdentifier": "corrupti",
-  "TableName": "Wisozk-Orn",
-  "RecordId": 309
+  "ApplicationName": "Connelly Inc and Sons",
+  "DeviceName": "Corkery LLC",
+  "DeviceIdentifier": "consequatur",
+  "TableName": "Luettgen-Simonis",
+  "RecordId": 616
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "eos",
-    "Value": "vero",
-    "RecordId": 144,
-    "CreatedDate": "2017-09-06T04:02:01.8003604+02:00",
-    "UpdatedDate": "2009-08-28T04:02:01.8003604+02:00",
-    "UpdatedBy": "tempora",
-    "CreatedBy": "eum",
-    "TableName": "Emmerich LLC",
+    "Key": "ex",
+    "Value": "fuga",
+    "RecordId": 701,
+    "CreatedDate": "2012-10-13T03:44:52.6521119+02:00",
+    "UpdatedDate": "2003-07-12T03:44:52.6521119+02:00",
+    "UpdatedBy": "ipsam",
+    "CreatedBy": "cumque",
+    "TableName": "Toy-Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 622
       }
     }
   }

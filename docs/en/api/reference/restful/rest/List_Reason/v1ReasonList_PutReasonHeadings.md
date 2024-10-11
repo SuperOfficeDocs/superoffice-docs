@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Rau, Rath and Muller",
-    "Tooltip": "dolorem",
+    "HeadingId": 614,
+    "Name": "Fay, Upton and Blick",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 83,
-    "UdListDefinitionId": 608
+    "Rank": 470,
+    "UdListDefinitionId": 235
   },
   {
-    "HeadingId": 53,
-    "Name": "Rau, Rath and Muller",
-    "Tooltip": "dolorem",
+    "HeadingId": 614,
+    "Name": "Fay, Upton and Blick",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 83,
-    "UdListDefinitionId": 608
+    "Rank": 470,
+    "UdListDefinitionId": 235
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 551,
-    "Name": "Klocko-Ondricka",
-    "Tooltip": "omnis",
+    "HeadingId": 161,
+    "Name": "Gusikowski Inc and Sons",
+    "Tooltip": "sit",
     "Deleted": true,
-    "Rank": 983,
-    "UdListDefinitionId": 327,
+    "Rank": 158,
+    "UdListDefinitionId": 895,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 560
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 523
+  "UdListDefinitionId": 68
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 425,
-  "Name": "Medhurst-Bahringer",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 83,
-  "UdListDefinitionId": 315,
+  "HeadingId": 792,
+  "Name": "Kunze LLC",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 175,
+  "UdListDefinitionId": 432,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 542
+      "FieldType": "System.Int32",
+      "FieldLength": 511
     }
   }
 }

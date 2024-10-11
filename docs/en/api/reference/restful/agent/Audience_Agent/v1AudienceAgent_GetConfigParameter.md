@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Walker-Crona",
-  "ParameterName": "Schamberger, Klein and Bernhard"
+  "LayoutName": "Bogan Group",
+  "ParameterName": "Schmitt, Sawayn and Shields"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 326,
-  "Name": "Schroeder Inc and Sons",
-  "Value": "sit",
-  "CreatedDate": "1999-10-18T04:02:01.221786+02:00",
-  "UpdatedDate": "2017-03-28T04:02:01.221786+02:00",
-  "CreatedBy": "laudantium",
-  "UpdatedBy": "perspiciatis",
+  "AudienceLayoutId": 609,
+  "Name": "Christiansen Inc and Sons",
+  "Value": "repellendus",
+  "CreatedDate": "2015-11-30T03:44:52.0740137+01:00",
+  "UpdatedDate": "2000-06-22T03:44:52.0740137+02:00",
+  "CreatedBy": "odio",
+  "UpdatedBy": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 385
     }
   }
 }

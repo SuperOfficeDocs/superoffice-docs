@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murray, Bahringer and Schultz",
-    "Description": "Universal zero administration attitude",
+    "Name": "Reinger-Sawayn",
+    "Description": "Fundamental 24 hour algorithm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 468,
-        "Tooltip": "sit",
+        "Unrestricted": true,
+        "Total": 347,
+        "Tooltip": "laboriosam",
         "CanAssign": false,
-        "Free": 533,
-        "InUse": 230,
+        "Free": 118,
+        "InUse": 245,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 598,
-        "Name": "Kirlin, Kuphal and O'Kon",
-        "Description": "Automated interactive structure",
-        "PrerequisiteModuleName": "Schaefer LLC",
-        "SortOrder": 683,
-        "ExtraFlags": 632,
+        "Assigned": true,
+        "ModuleLicenseId": 877,
+        "Name": "Grant-Schoen",
+        "Description": "Cloned foreground support",
+        "PrerequisiteModuleName": "Johnson LLC",
+        "SortOrder": 125,
+        "ExtraFlags": 12,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 541
+            "FieldType": "System.String",
+            "FieldLength": 889
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 773,
-        "Tooltip": "a",
+        "Unrestricted": true,
+        "Total": 14,
+        "Tooltip": "voluptatibus",
         "CanAssign": false,
-        "Free": 621,
-        "InUse": 175,
-        "IsHidden": false,
+        "Free": 752,
+        "InUse": 348,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 24,
-        "Name": "Fisher, Lemke and Dare",
-        "Description": "Customizable systemic help-desk",
-        "PrerequisiteModuleName": "Ritchie, Becker and Raynor",
-        "SortOrder": 68,
-        "ExtraFlags": 787,
+        "ModuleLicenseId": 434,
+        "Name": "Harvey, Abbott and Hudson",
+        "Description": "Organic contextually-based flexibility",
+        "PrerequisiteModuleName": "Carter-Connelly",
+        "SortOrder": 767,
+        "ExtraFlags": 648,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 809
+            "FieldType": "System.Int32",
+            "FieldLength": 615
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 240
       }
     }
   },
   {
-    "Name": "Murray, Bahringer and Schultz",
-    "Description": "Universal zero administration attitude",
+    "Name": "Reinger-Sawayn",
+    "Description": "Fundamental 24 hour algorithm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 468,
-        "Tooltip": "sit",
+        "Unrestricted": true,
+        "Total": 347,
+        "Tooltip": "laboriosam",
         "CanAssign": false,
-        "Free": 533,
-        "InUse": 230,
+        "Free": 118,
+        "InUse": 245,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 598,
-        "Name": "Kirlin, Kuphal and O'Kon",
-        "Description": "Automated interactive structure",
-        "PrerequisiteModuleName": "Schaefer LLC",
-        "SortOrder": 683,
-        "ExtraFlags": 632,
+        "Assigned": true,
+        "ModuleLicenseId": 877,
+        "Name": "Grant-Schoen",
+        "Description": "Cloned foreground support",
+        "PrerequisiteModuleName": "Johnson LLC",
+        "SortOrder": 125,
+        "ExtraFlags": 12,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 541
+            "FieldType": "System.String",
+            "FieldLength": 889
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 773,
-        "Tooltip": "a",
+        "Unrestricted": true,
+        "Total": 14,
+        "Tooltip": "voluptatibus",
         "CanAssign": false,
-        "Free": 621,
-        "InUse": 175,
-        "IsHidden": false,
+        "Free": 752,
+        "InUse": 348,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 24,
-        "Name": "Fisher, Lemke and Dare",
-        "Description": "Customizable systemic help-desk",
-        "PrerequisiteModuleName": "Ritchie, Becker and Raynor",
-        "SortOrder": 68,
-        "ExtraFlags": 787,
+        "ModuleLicenseId": 434,
+        "Name": "Harvey, Abbott and Hudson",
+        "Description": "Organic contextually-based flexibility",
+        "PrerequisiteModuleName": "Carter-Connelly",
+        "SortOrder": 767,
+        "ExtraFlags": 648,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 809
+            "FieldType": "System.Int32",
+            "FieldLength": 615
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 240
       }
     }
   }

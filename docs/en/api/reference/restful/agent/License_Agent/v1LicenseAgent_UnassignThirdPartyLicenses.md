@@ -92,11 +92,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 766,
-  "ModuleOwner": "repellendus",
+  "AssociateId": 646,
+  "ModuleOwner": "et",
   "ModuleLicenseNames": [
-    "Fisher Inc and Sons",
-    "Feest-Koepp"
+    "Swaniawski, Torphy and Schowalter",
+    "Wyman-Stracke"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 699,
-    "Tooltip": "voluptatibus",
+    "Total": 443,
+    "Tooltip": "ipsum",
     "CanAssign": false,
-    "Free": 423,
-    "InUse": 415,
-    "IsHidden": true,
+    "Free": 300,
+    "InUse": 360,
+    "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 662,
-    "Name": "Labadie-Rolfson",
-    "Description": "Switchable intangible capability",
-    "PrerequisiteModuleName": "Feest, Boyer and Friesen",
-    "SortOrder": 119,
-    "ExtraFlags": 998,
+    "ModuleLicenseId": 194,
+    "Name": "McKenzie-Franecki",
+    "Description": "Advanced context-sensitive paradigm",
+    "PrerequisiteModuleName": "Cummerata, Littel and Grant",
+    "SortOrder": 14,
+    "ExtraFlags": 938,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 702
       }
     }
   }

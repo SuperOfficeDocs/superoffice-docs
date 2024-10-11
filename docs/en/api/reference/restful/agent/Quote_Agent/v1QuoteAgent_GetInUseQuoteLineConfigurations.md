@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 716,
-    "FieldName": "Yost Group",
-    "Label": "enim",
-    "Tooltip": "veniam",
-    "Editable": false,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 434,
+    "QuoteLineConfigurationId": 778,
+    "FieldName": "Donnelly, Stark and Bechtelar",
+    "Label": "aspernatur",
+    "Tooltip": "adipisci",
+    "Editable": true,
+    "InUse": true,
+    "Mandatory": true,
+    "Rank": 491,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldType": "System.String",
+        "FieldLength": 744
       }
     }
   }

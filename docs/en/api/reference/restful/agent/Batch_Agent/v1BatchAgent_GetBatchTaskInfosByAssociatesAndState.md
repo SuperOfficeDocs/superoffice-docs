@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    435,
-    223
+    217,
+    417
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Hessel-Frami",
-    "AssociateId": 592,
-    "DetailsTable": 46,
-    "DetailsRecord": 81,
+    "Id": 78,
+    "Name": "Champlin, Hayes and Bernhard",
+    "AssociateId": 656,
+    "DetailsTable": 907,
+    "DetailsRecord": 250,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quia",
-      "ParameterObject2": "eaque"
+      "ParameterObject1": "dolores",
+      "ParameterObject2": "voluptates"
     },
-    "LastStarted": "2000-06-11T04:02:01.2374146+02:00",
-    "Created": "2014-12-08T04:02:01.2374146+01:00",
-    "StartCount": 281,
-    "DatabaseSerialNumber": "1240607",
-    "Context": "nam",
-    "Result": "repudiandae",
+    "LastStarted": "2001-11-26T03:44:52.0740137+01:00",
+    "Created": "2002-09-24T03:44:52.0740137+02:00",
+    "StartCount": 119,
+    "DatabaseSerialNumber": "770995",
+    "Context": "ipsum",
+    "Result": "numquam",
     "State": "All",
-    "Description": "Distributed heuristic budgetary management",
-    "Response": "eos",
-    "Request": "ea",
-    "ProgressDescription": "Balanced zero tolerance infrastructure",
-    "ProgressPercent": 418,
-    "FileName": "Hermann LLC",
+    "Description": "Reduced 6th generation software",
+    "Response": "necessitatibus",
+    "Request": "qui",
+    "ProgressDescription": "Expanded motivating contingency",
+    "ProgressPercent": 18,
+    "FileName": "Stroman, Konopelski and Cummerata",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldType": "System.Int32",
+        "FieldLength": 193
       }
     }
   }

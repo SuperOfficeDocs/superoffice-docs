@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 670
+  "DocumentId": 197
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 677,
-      "ContactName": "Johns-Medhurst",
-      "PersonId": 652,
-      "PersonName": "Lueilwitz, Kuphal and Rippin",
-      "AssociateId": 26,
-      "Address": "non",
-      "EmailId": 154,
+      "ContactId": 163,
+      "ContactName": "Koss Inc and Sons",
+      "PersonId": 87,
+      "PersonName": "Paucek-Rogahn",
+      "AssociateId": 316,
+      "Address": "unde",
+      "EmailId": 695,
       "DuplicatePersonIds": [
-        294,
-        50
+        835,
+        161
       ],
-      "Name": "Hermann Inc and Sons",
+      "Name": "Stehr, Kihn and Skiles",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 415
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 547,
-      "ContactName": "Cassin, Bergnaum and Green",
-      "PersonId": 487,
-      "PersonName": "Lang-Robel",
-      "AssociateId": 369,
-      "Address": "natus",
-      "EmailId": 516,
+      "ContactId": 364,
+      "ContactName": "Boyle, Dicki and Murazik",
+      "PersonId": 865,
+      "PersonName": "Greenholt-Stracke",
+      "AssociateId": 156,
+      "Address": "dolorum",
+      "EmailId": 938,
       "DuplicatePersonIds": [
-        916,
-        330
+        508,
+        119
       ],
-      "Name": "Kozey-Schneider",
+      "Name": "Mohr, Heathcote and Gaylord",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldType": "System.Int32",
+          "FieldLength": 205
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 376,
-      "ContactName": "Auer-Gutkowski",
-      "PersonId": 410,
-      "PersonName": "Ratke, Reichert and Mohr",
-      "AssociateId": 853,
-      "Address": "fugiat",
-      "EmailId": 972,
+      "ContactId": 977,
+      "ContactName": "Weimann-Roob",
+      "PersonId": 908,
+      "PersonName": "Bergstrom, King and Volkman",
+      "AssociateId": 488,
+      "Address": "sed",
+      "EmailId": 170,
       "DuplicatePersonIds": [
-        582,
-        947
+        665,
+        319
       ],
-      "Name": "Trantow, Kohler and Gorczany",
+      "Name": "Denesik-Mayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldType": "System.Int32",
+          "FieldLength": 100
         }
       }
     }
   ],
-  "Subject": "in",
-  "HTMLBody": "quod",
+  "Subject": "iusto",
+  "HTMLBody": "ea",
   "From": null,
-  "Sent": "2001-02-26T04:02:01.6905011+01:00",
-  "Size": 940,
+  "Sent": "2017-10-14T03:44:52.5427529+02:00",
+  "Size": 507,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ab",
-  "PlainBody": "itaque",
-  "IsSent": true,
+  "MessageID": "sed",
+  "PlainBody": "tempora",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 752,
+  "ServerId": 872,
   "Attachments": [
     {
-      "Description": "Universal transitional knowledge user",
-      "Filename": "animi",
-      "Size": 847,
-      "Type": "et",
-      "Encoding": "quisquam",
-      "Id": "debitis",
-      "Disposition": "alias",
+      "Description": "Universal foreground functionalities",
+      "Filename": "rem",
+      "Size": 540,
+      "Type": "tempore",
+      "Encoding": "sit",
+      "Id": "illo",
+      "Disposition": "libero",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 865
+          "FieldType": "System.Int32",
+          "FieldLength": 930
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ullrich LLC",
+      "Name": "Hamill Group",
       "Values": [
-        "sapiente",
-        "quia"
+        "velit",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldLength": 287
         }
       }
     },
     {
-      "Name": "Ullrich LLC",
+      "Name": "Hamill Group",
       "Values": [
-        "sapiente",
-        "quia"
+        "velit",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldLength": 287
         }
       }
     }
   ],
-  "FolderName": "Goyette-Brakus",
-  "EmailItemId": 864,
-  "AccountId": 974,
-  "ReceivedAt": "2022-06-23T04:02:01.6905011+02:00",
+  "FolderName": "Rohan-Grimes",
+  "EmailItemId": 761,
+  "AccountId": 535,
+  "ReceivedAt": "2010-05-30T03:44:52.5427529+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-12-17T04:02:01.6905011+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2023-11-17T03:44:52.5427529+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldLength": 561
     }
   }
 }

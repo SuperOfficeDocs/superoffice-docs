@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 628,
-  "Name": "Kuhlman, Morissette and Dach",
-  "Tooltip": "et",
+  "Id": 202,
+  "Name": "Bins Group",
+  "Tooltip": "odio",
   "Deleted": false,
-  "UdListDefinitionId": 575,
-  "Rank": 811,
+  "UdListDefinitionId": 217,
+  "Rank": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldType": "System.Int32",
+      "FieldLength": 872
     }
   }
 }

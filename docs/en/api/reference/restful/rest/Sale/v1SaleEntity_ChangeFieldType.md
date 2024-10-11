@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 995,
-  "ColumnId": 127,
-  "FieldDefault": "quia",
-  "FieldHeight": 792,
-  "FieldLabel": "consectetur",
-  "FieldLeft": 543,
-  "FieldTop": 161,
+  "UDefFieldId": 558,
+  "ColumnId": 417,
+  "FieldDefault": "odit",
+  "FieldHeight": 634,
+  "FieldLabel": "vitae",
+  "FieldLeft": 775,
+  "FieldTop": 893,
   "FieldType": "Checkbox",
-  "FieldWidth": 53,
-  "FormatMask": "odit",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 804,
-  "LabelLeft": 128,
-  "LabelTop": 357,
-  "LabelWidth": 776,
-  "LastVersionId": 532,
-  "ListTableId": 283,
+  "FieldWidth": 439,
+  "FormatMask": "nisi",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 990,
+  "LabelLeft": 396,
+  "LabelTop": 611,
+  "LabelWidth": 856,
+  "LastVersionId": 77,
+  "ListTableId": 552,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 582,
-  "ProgId": "culpa",
+  "Page1LineNo": 644,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "explicabo",
-  "TabOrder": 172,
-  "TextLength": 207,
-  "Tooltip": "rem",
-  "UdefIdentity": 201,
-  "UDListDefinitionId": 10,
+  "ShortLabel": "ad",
+  "TabOrder": 648,
+  "TextLength": 31,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 3,
+  "UDListDefinitionId": 712,
   "Justification": "Center",
-  "Version": 585,
-  "TemplateVariableName": "Gusikowski, Smitham and Stanton",
+  "Version": 100,
+  "TemplateVariableName": "Pacocha Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Hermann, Watsica and Hoeger",
+  "MdoListName": "Swift, Crist and Lynch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 604
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=992
+POST /api/v1/Agents/Person/GetPerson?personId=658
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "aut",
-  "PersonId": 680,
-  "Mrmrs": "vitae",
-  "Firstname": "Lenna",
-  "Lastname": "Hane",
-  "MiddleName": "Kirlin, Stark and Beatty",
-  "Title": "ut",
-  "Description": "Open-source bottom-line orchestration",
-  "Email": "enos_mclaughlin@metzankunding.com",
-  "FullName": "Seamus Stamm",
-  "DirectPhone": "1-462-883-0474 x52151",
-  "FormalName": "Sauer-Ernser",
-  "CountryId": 887,
-  "ContactId": 936,
-  "ContactName": "Bednar Group",
-  "Retired": 880,
-  "Rank": 433,
-  "ActiveInterests": 306,
+  "Position": "et",
+  "PersonId": 33,
+  "Mrmrs": "quia",
+  "Firstname": "Sincere",
+  "Lastname": "Tremblay",
+  "MiddleName": "Rath-Feest",
+  "Title": "sint",
+  "Description": "Enterprise-wide uniform intranet",
+  "Email": "damion@padberg.name",
+  "FullName": "Peyton Caroline Thiel II",
+  "DirectPhone": "546.602.7481",
+  "FormalName": "Windler, Kertzmann and Glover",
+  "CountryId": 435,
+  "ContactId": 124,
+  "ContactName": "Jerde-Hammes",
+  "Retired": 729,
+  "Rank": 768,
+  "ActiveInterests": 644,
   "ContactDepartment": "",
-  "ContactCountryId": 924,
-  "ContactOrgNr": "572625",
-  "FaxPhone": "239.176.4166",
-  "MobilePhone": "1-219-250-4498",
-  "ContactPhone": "495-888-2025",
-  "AssociateName": "Heidenreich, Wisozk and Luettgen",
-  "AssociateId": 226,
+  "ContactCountryId": 374,
+  "ContactOrgNr": "1582067",
+  "FaxPhone": "690-556-3982 x770",
+  "MobilePhone": "816-196-0404 x90588",
+  "ContactPhone": "731-738-7449 x6731",
+  "AssociateName": "Boyle-Buckridge",
+  "AssociateId": 98,
   "UsePersonAddress": false,
-  "ContactFax": "optio",
-  "Kanafname": "amet",
-  "Kanalname": "ipsa",
-  "Post1": "magnam",
-  "Post2": "quia",
-  "Post3": "corrupti",
-  "EmailName": "alexandrine@schultzromaguera.ca",
-  "ContactFullName": "Ms. Rico Bernier II",
-  "ActiveErpLinks": 308,
-  "TicketPriorityId": 739,
-  "SupportLanguageId": 845,
-  "SupportAssociateId": 912,
+  "ContactFax": "est",
+  "Kanafname": "deleniti",
+  "Kanalname": "corporis",
+  "Post1": "odio",
+  "Post2": "ut",
+  "Post3": "optio",
+  "EmailName": "donato@shields.co.uk",
+  "ContactFullName": "Mr. Germaine Mills",
+  "ActiveErpLinks": 40,
+  "TicketPriorityId": 991,
+  "SupportLanguageId": 33,
+  "SupportAssociateId": 679,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 426
     }
   }
 }

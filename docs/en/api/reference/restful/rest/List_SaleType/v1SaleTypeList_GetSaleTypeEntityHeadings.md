@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 9,
-    "Name": "Bednar, Gaylord and Wilderman",
-    "Tooltip": "veritatis",
-    "Deleted": true,
-    "Rank": 279,
-    "UdListDefinitionId": 337,
+    "HeadingId": 758,
+    "Name": "Fadel, Legros and Daugherty",
+    "Tooltip": "consectetur",
+    "Deleted": false,
+    "Rank": 114,
+    "UdListDefinitionId": 930,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldType": "System.String",
+        "FieldLength": 530
       }
     }
   }

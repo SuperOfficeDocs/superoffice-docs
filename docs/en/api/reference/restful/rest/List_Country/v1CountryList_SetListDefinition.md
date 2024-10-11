@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 974,
-  "Name": "Ullrich-Miller",
-  "Tooltip": "delectus",
+  "Id": 285,
+  "Name": "Herman-Mills",
+  "Tooltip": "quas",
   "Deleted": false,
-  "Rank": 856,
+  "Rank": 839,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "corrupti",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 639,
-  "Name": "Cassin LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 579,
+  "Id": 421,
+  "Name": "Howell Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 761,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "deleniti",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsa",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldLength": 146
     }
   }
 }

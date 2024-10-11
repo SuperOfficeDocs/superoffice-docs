@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 686
+  "CountWords": 739
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Willms-Corwin",
-    "ToolTip": "Occaecati pariatur minus.",
-    "Deleted": false,
-    "Rank": 429,
-    "Type": "qui",
+    "Id": 406,
+    "Name": "Sipes, Koch and Koss",
+    "ToolTip": "Dolorum temporibus consequuntur est.",
+    "Deleted": true,
+    "Rank": 926,
+    "Type": "animi",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Spencer-Tremblay",
-        "ToolTip": "Ipsum pariatur ut est alias quia.",
+        "Id": 126,
+        "Name": "Dickinson LLC",
+        "ToolTip": "Est non accusantium ratione eum molestiae.",
         "Deleted": false,
-        "Rank": 630,
-        "Type": "dicta",
+        "Rank": 865,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 95,
-        "ExtraInfo": "nemo",
-        "StyleHint": "nihil",
-        "FullName": "Clinton Wolff",
+        "IconHint": "facere",
+        "ColorBlock": 670,
+        "ExtraInfo": "at",
+        "StyleHint": "et",
+        "FullName": "Mohammed Sauer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldLength": 522
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 872,
-    "ExtraInfo": "ipsam",
-    "StyleHint": "atque",
-    "FullName": "Mr. Name O'Keefe",
+    "IconHint": "quo",
+    "ColorBlock": 609,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "totam",
+    "FullName": "Cale Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldType": "System.String",
+        "FieldLength": 454
       }
     }
   }

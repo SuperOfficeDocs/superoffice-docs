@@ -110,33 +110,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 741,
-  "Name": "Frami-Torp",
-  "Rank": 432,
-  "Tooltip": "ducimus",
-  "Icon": "numquam",
-  "DefaultTicketStatus": 100,
+  "TicketTypeId": 39,
+  "Name": "Bins-Ondricka",
+  "Rank": 669,
+  "Tooltip": "animi",
+  "Icon": "laudantium",
+  "DefaultTicketStatus": 551,
   "TicketStatuses": [
-    10,
-    981
+    175,
+    209
   ],
-  "DefaultTicketPriority": 423,
+  "DefaultTicketPriority": 205,
   "TicketPriorities": [
-    532,
-    961
+    919,
+    908
   ],
-  "ReplyTemplate": 829,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 552,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    282,
-    823
+    176,
+    244
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -148,40 +148,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 330,
-  "Name": "Dicki-Price",
-  "Rank": 995,
-  "Tooltip": "aliquam",
-  "Icon": "laborum",
-  "DefaultTicketStatus": 598,
+  "TicketTypeId": 95,
+  "Name": "Mohr Inc and Sons",
+  "Rank": 353,
+  "Tooltip": "autem",
+  "Icon": "nemo",
+  "DefaultTicketStatus": 892,
   "TicketStatuses": [
-    363,
-    743
+    555,
+    891
   ],
-  "DefaultTicketPriority": 520,
+  "DefaultTicketPriority": 577,
   "TicketPriorities": [
-    94,
-    947
+    835,
+    12
   ],
-  "ReplyTemplate": 651,
+  "ReplyTemplate": 238,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    256,
-    947
+    802,
+    596
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

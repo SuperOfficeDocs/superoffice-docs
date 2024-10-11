@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 103,
-  "Field": "natus",
-  "RecordId": 539,
+  "RefCountsId": 320,
+  "Field": "commodi",
+  "RecordId": 214,
   "SuggestedRecords": [
     {
-      "Id": 89,
-      "Name": "Abernathy-McCullough",
-      "ToolTip": "Laudantium totam eius qui sunt.",
+      "Id": 246,
+      "Name": "Langworth, Tillman and Von",
+      "ToolTip": "Fuga totam tempora.",
       "Deleted": false,
-      "Rank": 626,
-      "Type": "velit",
+      "Rank": 588,
+      "Type": "incidunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aliquid",
-      "ColorBlock": 762,
-      "ExtraInfo": "incidunt",
-      "StyleHint": "nisi",
-      "FullName": "Prof. Krystel Jerde",
+      "IconHint": "et",
+      "ColorBlock": 594,
+      "ExtraInfo": "inventore",
+      "StyleHint": "consequuntur",
+      "FullName": "Prof. Rylan Abbott",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 913
+          "FieldType": "System.Int32",
+          "FieldLength": 414
         }
       }
     }
   ],
-  "CurrentValue": 5,
-  "TravelPrefix": 897,
-  "SatPrefix": 584,
-  "Allocate": true,
-  "Unique": true,
+  "CurrentValue": 339,
+  "TravelPrefix": 304,
+  "SatPrefix": 12,
+  "Allocate": false,
+  "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 979
     }
   }
 }

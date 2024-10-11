@@ -120,27 +120,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 789,
-  "PlainMessage": "qui",
-  "HtmlMessage": "quo",
-  "SmsMessage": "velit",
-  "Description": "Exclusive logistical success",
-  "Subject": "error",
-  "FolderId": 340,
-  "HeaderField": "omnis",
-  "Design": "distinctio",
+  "ShipmentMessageId": 673,
+  "PlainMessage": "vel",
+  "HtmlMessage": "at",
+  "SmsMessage": "eaque",
+  "Description": "Intuitive solution-oriented knowledge user",
+  "Subject": "et",
+  "FolderId": 812,
+  "HeaderField": "quis",
+  "Design": "sed",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Cross-group explicit monitoring",
-  "AccessKey": "delectus",
-  "DocumentMessage": 761,
-  "Registered": "2011-05-02T04:02:06.837875+02:00",
-  "RegisteredAssociateId": 680,
-  "Updated": "2014-06-18T04:02:06.837875+02:00",
-  "UpdatedAssociateId": 881,
-  "UpdatedCount": 416
+  "InlineImages": false,
+  "LongDescription": "De-engineered holistic extranet",
+  "AccessKey": "alias",
+  "DocumentMessage": 888,
+  "Registered": "2016-10-01T03:44:57.5937539+02:00",
+  "RegisteredAssociateId": 679,
+  "Updated": "2002-04-10T03:44:57.5937539+02:00",
+  "UpdatedAssociateId": 236,
+  "UpdatedCount": 182
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 708,
-  "PlainMessage": "alias",
-  "HtmlMessage": "quas",
-  "SmsMessage": "quos",
-  "Description": "Organized real-time Graphic Interface",
-  "Subject": "aperiam",
-  "FolderId": 343,
-  "HeaderField": "numquam",
-  "Design": "quo",
+  "ShipmentMessageId": 701,
+  "PlainMessage": "dolorum",
+  "HtmlMessage": "voluptatum",
+  "SmsMessage": "aut",
+  "Description": "Ergonomic assymetric Graphic Interface",
+  "Subject": "beatae",
+  "FolderId": 470,
+  "HeaderField": "odio",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Front-line empowering functionalities",
-  "AccessKey": "fugiat",
-  "DocumentMessage": 351,
-  "Registered": "2014-07-11T04:02:06.837875+02:00",
-  "RegisteredAssociateId": 820,
-  "Updated": "2013-08-25T04:02:06.837875+02:00",
-  "UpdatedAssociateId": 740,
-  "UpdatedCount": 16,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Exclusive static concept",
+  "AccessKey": "est",
+  "DocumentMessage": 856,
+  "Registered": "2019-05-16T03:44:57.5937539+02:00",
+  "RegisteredAssociateId": 567,
+  "Updated": "2017-12-01T03:44:57.5937539+01:00",
+  "UpdatedAssociateId": 162,
+  "UpdatedCount": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldType": "System.String",
+      "FieldLength": 519
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

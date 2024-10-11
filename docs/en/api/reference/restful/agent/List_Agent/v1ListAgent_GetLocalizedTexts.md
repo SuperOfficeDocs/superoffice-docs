@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 581,
-    "ResourceId": 747,
-    "Text": "tenetur",
+    "LanguageId": 25,
+    "ResourceId": 950,
+    "Text": "enim",
     "Type": "Column",
-    "LocalizedTextId": 849,
+    "LocalizedTextId": 976,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 758
       }
     }
   }

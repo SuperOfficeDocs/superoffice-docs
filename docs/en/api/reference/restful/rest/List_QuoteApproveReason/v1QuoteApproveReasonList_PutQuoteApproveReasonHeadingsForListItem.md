@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Tremblay LLC",
-    "ToolTip": "Est nam occaecati aut quis non.",
-    "Deleted": false,
-    "Rank": 206,
-    "Type": "non",
-    "ColorBlock": 898,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2016-02-23T04:02:07.3534465+01:00",
+    "Id": 384,
+    "Name": "Blanda-Conroy",
+    "ToolTip": "Molestiae nulla quis sint vero nobis.",
+    "Deleted": true,
+    "Rank": 121,
+    "Type": "tempore",
+    "ColorBlock": 96,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2015-04-10T03:44:58.1093468+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Franecki Inc and Sons",
-        "ToolTip": "Deleniti sequi ab vitae.",
+        "Id": 164,
+        "Name": "Zemlak LLC",
+        "ToolTip": "Id numquam aliquid sed omnis consequatur perferendis.",
         "Deleted": false,
-        "Rank": 556,
-        "Type": "quasi",
-        "ColorBlock": 317,
-        "IconHint": "molestiae",
+        "Rank": 931,
+        "Type": "ut",
+        "ColorBlock": 945,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2015-12-03T04:02:07.3534465+01:00",
+        "LastChanged": "2000-09-24T03:44:58.1093468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "harum",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "dolorem",
         "Hidden": true,
-        "FullName": "Orville Homenick"
+        "FullName": "Helga Satterfield"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "voluptatibus",
-    "Hidden": true,
-    "FullName": "Jaquelin Quigley"
+    "ExtraInfo": "ipsa",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Isai Linnie Ruecker DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Wehner, Gutmann and Kris",
-    "ToolTip": "Asperiores omnis porro.",
-    "Deleted": false,
-    "Rank": 775,
-    "Type": "repudiandae",
-    "ColorBlock": 285,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2024-08-05T04:02:07.3534465+02:00",
+    "Id": 264,
+    "Name": "Nikolaus, Hoeger and Fadel",
+    "ToolTip": "Quia explicabo tempore.",
+    "Deleted": true,
+    "Rank": 583,
+    "Type": "consectetur",
+    "ColorBlock": 18,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2020-06-09T03:44:58.1093468+02:00",
     "ChildItems": [
       {
-        "Id": 174,
-        "Name": "Ritchie-Kovacek",
-        "ToolTip": "Ratione voluptatibus animi.",
+        "Id": 925,
+        "Name": "O'Kon-Kerluke",
+        "ToolTip": "Voluptates expedita et eum pariatur nesciunt.",
         "Deleted": false,
-        "Rank": 880,
-        "Type": "et",
-        "ColorBlock": 853,
-        "IconHint": "et",
+        "Rank": 133,
+        "Type": "ipsum",
+        "ColorBlock": 547,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2014-06-07T04:02:07.3534465+02:00",
+        "LastChanged": "2008-06-30T03:44:58.1093468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Prof. Vernice Cary Nikolaus",
+        "ExtraInfo": "natus",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Ms. Eino Rocio Bashirian MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 715
+            "FieldLength": 170
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "voluptate",
-    "Hidden": false,
-    "FullName": "Janiya Moen",
+    "ExtraInfo": "nam",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Delaney Lowe V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 262
       }
     }
   }

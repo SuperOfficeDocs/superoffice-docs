@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Collier, Stamm and Nolan",
-    "ToolTip": "Odio magnam ad.",
-    "Deleted": true,
-    "Rank": 684,
-    "Type": "quia",
-    "ColorBlock": 783,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2001-06-07T04:02:07.2909529+02:00",
+    "Id": 986,
+    "Name": "Lindgren-Greenfelder",
+    "ToolTip": "Omnis sit minus reprehenderit.",
+    "Deleted": false,
+    "Rank": 192,
+    "Type": "esse",
+    "ColorBlock": 302,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2004-06-21T03:44:58.0312644+02:00",
     "ChildItems": [
       {
-        "Id": 20,
-        "Name": "Reynolds Inc and Sons",
-        "ToolTip": "Incidunt inventore dolores praesentium.",
-        "Deleted": true,
-        "Rank": 612,
-        "Type": "quae",
-        "ColorBlock": 855,
-        "IconHint": "molestiae",
+        "Id": 241,
+        "Name": "Metz-Jerde",
+        "ToolTip": "At voluptas et dolore.",
+        "Deleted": false,
+        "Rank": 782,
+        "Type": "eos",
+        "ColorBlock": 702,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2017-09-07T04:02:07.2909529+02:00",
+        "LastChanged": "2012-06-02T03:44:58.0312644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "quia",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Jules Pfeffer",
+        "FullName": "Jayson Rath DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "quidem",
+    "ExtraInfo": "nobis",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Immanuel Luettgen",
+    "FullName": "Rita Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldLength": 747
       }
     }
   }

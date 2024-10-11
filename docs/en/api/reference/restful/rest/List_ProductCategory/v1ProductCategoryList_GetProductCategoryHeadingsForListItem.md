@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Reichert-Hayes",
-    "ToolTip": "Est ut architecto nulla iure reprehenderit debitis.",
+    "Id": 95,
+    "Name": "Lesch LLC",
+    "ToolTip": "Dolore culpa aut eum a velit et molestias.",
     "Deleted": false,
-    "Rank": 564,
-    "Type": "molestiae",
-    "ColorBlock": 15,
-    "IconHint": "beatae",
+    "Rank": 585,
+    "Type": "qui",
+    "ColorBlock": 14,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "1997-05-22T04:02:07.3221997+02:00",
+    "LastChanged": "2008-03-07T03:44:58.062516+01:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Lubowitz, Gusikowski and Wunsch",
-        "ToolTip": "Aperiam est.",
+        "Id": 643,
+        "Name": "Feest, Botsford and Conroy",
+        "ToolTip": "Nisi molestiae atque architecto voluptatem eum deserunt.",
         "Deleted": false,
-        "Rank": 513,
-        "Type": "porro",
-        "ColorBlock": 503,
-        "IconHint": "eligendi",
+        "Rank": 520,
+        "Type": "illum",
+        "ColorBlock": 243,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2000-11-09T04:02:07.3221997+01:00",
+        "LastChanged": "2023-12-06T03:44:58.062516+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "enim",
+        "ExtraInfo": "a",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Emilio Durgan",
+        "FullName": "Hester Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 961
+            "FieldType": "System.Int32",
+            "FieldLength": 900
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "iste",
-    "Hidden": true,
-    "FullName": "Bernard Sauer",
+    "ExtraInfo": "non",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Lindsey Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 843
       }
     }
   }

@@ -64,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <EMail:GetEmailAppointmentRecurrenceResponse>
    <EMail:Response xsi:type="EMail:RecurrenceInfo">
     <EMail:RecurrenceId xsi:type="xsd:int">0</EMail:RecurrenceId>
-    <EMail:StartDate xsi:type="xsd:dateTime">2024-09-13T02:00:24Z</EMail:StartDate>
-    <EMail:EndDate xsi:type="xsd:dateTime">2024-09-13T02:00:24Z</EMail:EndDate>
+    <EMail:StartDate xsi:type="xsd:dateTime">2024-10-09T01:43:15Z</EMail:StartDate>
+    <EMail:EndDate xsi:type="xsd:dateTime">2024-10-09T01:43:15Z</EMail:EndDate>
     <EMail:RecurrenceEndType xsi:type="EMail:RecurrenceEndType">Unknown</EMail:RecurrenceEndType>
     <EMail:Pattern xsi:type="EMail:RecurrencePattern">Unknown</EMail:Pattern>
     <EMail:DayPattern xsi:type="EMail:RecurrenceDayPattern">
@@ -92,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </EMail:YearPattern>
     <EMail:Dates xsi:type="EMail:ArrayOfRecurrenceDate">
      <EMail:RecurrenceDate xsi:type="EMail:RecurrenceDate">
-      <EMail:Date xsi:type="xsd:dateTime">2024-09-13T02:00:24Z</EMail:Date>
+      <EMail:Date xsi:type="xsd:dateTime">2024-10-09T01:43:15Z</EMail:Date>
       <EMail:IsConflict xsi:type="xsd:boolean">false</EMail:IsConflict>
       <EMail:Description xsi:type="xsd:string"></EMail:Description>
       <EMail:DescriptionStyleHint xsi:type="xsd:string"></EMail:DescriptionStyleHint>

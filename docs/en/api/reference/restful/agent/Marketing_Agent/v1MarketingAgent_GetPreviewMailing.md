@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 359
+  "ShipmentAddrId": 52
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2007-10-17T04:02:01.8941042+02:00",
+  "SendingTime": "2023-06-28T03:44:52.7614393+02:00",
   "Status": "Blocked",
-  "ShipmentId": 719,
-  "ShipmentDescription": "Enterprise-wide mission-critical Graphical User Interface",
-  "FromAddress": "impedit",
-  "Configuration": 89,
-  "ContactId": 19,
-  "ContactName": "Collins-Bradtke",
-  "PersonId": 668,
-  "PersonFullName": "Leilani Leuschke",
-  "ShipmentType": "dolores",
-  "MessageId": 100,
-  "MessageSubject": "doloribus",
-  "DocumentMessageId": 334,
-  "Opened": "2013-06-23T04:02:01.8941042+02:00",
-  "LinkClicks": 162,
+  "ShipmentId": 718,
+  "ShipmentDescription": "Ameliorated 5th generation initiative",
+  "FromAddress": "error",
+  "Configuration": 138,
+  "ContactId": 751,
+  "ContactName": "Baumbach, Ritchie and Langosh",
+  "PersonId": 319,
+  "PersonFullName": "Mr. Enoch Neva Cronin",
+  "ShipmentType": "quos",
+  "MessageId": 300,
+  "MessageSubject": "eveniet",
+  "DocumentMessageId": 740,
+  "Opened": "2000-11-06T03:44:52.7614393+01:00",
+  "LinkClicks": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 680
     }
   }
 }

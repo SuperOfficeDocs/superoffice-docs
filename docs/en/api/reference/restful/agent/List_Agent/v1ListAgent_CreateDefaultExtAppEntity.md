@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,14 +88,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 1002,
-  "Name": "Simonis, Klein and Hickle",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 787,
-  "Filename": "voluptate",
-  "Parameters": "ipsum",
-  "Workdir": "adipisci",
+  "ExtAppId": 604,
+  "Name": "Powlowski-Pacocha",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 106,
+  "Filename": "velit",
+  "Parameters": "rerum",
+  "Workdir": "quo",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
@@ -105,17 +105,17 @@ Content-Type: application/json; charset=utf-8
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 197,
-  "WaitToFinish": true,
+  "ShowInStatusBar": true,
+  "Icon": 148,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "provident",
+  "Path": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   }
 }

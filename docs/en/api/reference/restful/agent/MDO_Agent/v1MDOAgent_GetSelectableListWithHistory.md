@@ -95,12 +95,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schaefer Group",
+  "Name": "Senger Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "non",
+  "AdditionalInfo": "qui",
   "HistoryItems": [
-    23,
-    476
+    961,
+    130
   ],
   "OnlyHistory": true
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 955,
-    "Name": "Gleichner-Willms",
-    "ToolTip": "Debitis ut reprehenderit eius.",
-    "Deleted": false,
-    "Rank": 644,
-    "Type": "suscipit",
-    "ColorBlock": 886,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2003-08-25T04:02:01.909728+02:00",
+    "Id": 175,
+    "Name": "Kilback-Watsica",
+    "ToolTip": "Voluptatibus voluptatem.",
+    "Deleted": true,
+    "Rank": 158,
+    "Type": "quisquam",
+    "ColorBlock": 788,
+    "IconHint": "vitae",
+    "Selected": false,
+    "LastChanged": "2001-06-28T03:44:52.7614393+02:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Barrows-Larson",
-        "ToolTip": "Quis optio veniam.",
+        "Id": 902,
+        "Name": "Borer Inc and Sons",
+        "ToolTip": "Et voluptatum.",
         "Deleted": false,
-        "Rank": 392,
-        "Type": "nesciunt",
-        "ColorBlock": 295,
-        "IconHint": "dolore",
+        "Rank": 840,
+        "Type": "ipsum",
+        "ColorBlock": 950,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2020-06-15T04:02:01.909728+02:00",
+        "LastChanged": "1999-04-29T03:44:52.7614393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "vitae",
-        "Hidden": true,
-        "FullName": "Bryce Zieme",
+        "ExtraInfo": "animi",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Mrs. Bradley Merritt Kassulke Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldLength": 407
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Mr. Pietro Johns III",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Destin Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 826
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 764,
-    "Name": "Hyatt Group",
-    "Tooltip": "et",
-    "SaveInDb": 40,
-    "Filename": "fugiat",
-    "DefaultOref": "rem",
+    "DocumentTemplateId": 799,
+    "Name": "Cronin, Gerhold and Schaden",
+    "Tooltip": "laborum",
+    "SaveInDb": 26,
+    "Filename": "impedit",
+    "DefaultOref": "quisquam",
     "RecordType": "Appointment",
-    "Deleted": 871,
+    "Deleted": 445,
     "Direction": "Incoming",
-    "AutoeventId": 185,
+    "AutoeventId": 296,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldType": "System.Int32",
+        "FieldLength": 44
       }
     }
   }

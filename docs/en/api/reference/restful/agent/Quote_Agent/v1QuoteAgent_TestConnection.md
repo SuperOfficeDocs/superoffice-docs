@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Haag, Kunde and Greenholt",
+  "ConnectorName": "Stehr LLC",
   "ConnectionData": {
-    "ConnectionData1": "dolorum",
-    "ConnectionData2": "provident"
+    "ConnectionData1": "rem",
+    "ConnectionData2": "accusantium"
   }
 }
 ```
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "quis",
-  "TechExplanation": "delectus",
-  "ErrorCode": "exercitationem",
+  "IsOk": false,
+  "UserExplanation": "dolor",
+  "TechExplanation": "qui",
+  "ErrorCode": "velit",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 808
     }
   }
 }

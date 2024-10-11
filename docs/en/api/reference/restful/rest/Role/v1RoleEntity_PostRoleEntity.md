@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 974,
-  "Name": "Herzog Group",
-  "Tooltip": "fugiat",
+  "RoleId": 274,
+  "Name": "Smith Inc and Sons",
+  "Tooltip": "animi",
   "RoleType": "Anonymous",
-  "Deleted": 517,
-  "Rank": 325,
-  "Created": "2003-04-26T04:02:06.7441349+02:00",
-  "UseCategories": 580,
+  "Deleted": 929,
+  "Rank": 174,
+  "Created": "2003-08-03T03:44:57.4844273+02:00",
+  "UseCategories": 515,
   "CreatedBy": null,
-  "Updated": "2000-09-03T04:02:06.7441349+02:00",
+  "Updated": "2019-12-16T03:44:57.4844273+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 338,
-  "Name": "Dibbert Inc and Sons",
-  "Tooltip": "incidunt",
+  "RoleId": 132,
+  "Name": "Streich Inc and Sons",
+  "Tooltip": "fugit",
   "RoleType": "Anonymous",
-  "Deleted": 973,
-  "Rank": 687,
-  "Created": "2022-03-26T04:02:06.7441349+01:00",
-  "UseCategories": 330,
+  "Deleted": 295,
+  "Rank": 130,
+  "Created": "2018-10-09T03:44:57.4844273+02:00",
+  "UseCategories": 929,
   "CreatedBy": null,
-  "Updated": "2022-08-19T04:02:06.7441349+02:00",
+  "Updated": "2023-06-23T03:44:57.4844273+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 546
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

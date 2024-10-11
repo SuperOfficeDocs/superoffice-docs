@@ -86,10 +86,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Berge, Abernathy and Nolan",
+  "TableName": "Swaniawski, Heidenreich and Erdman",
   "Columns": [
-    "rerum",
-    "accusantium"
+    "omnis",
+    "quod"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "expedita",
-  "Inserts": 59,
-  "Updates": 119,
-  "Deletes": 874,
+  "Message": "molestiae",
+  "Inserts": 27,
+  "Updates": 177,
+  "Deletes": 434,
   "RowStatus": [
     {
-      "PrimaryKey": 941,
+      "PrimaryKey": 418,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "sapiente"
+        "nemo",
+        "ad"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 544
+          "FieldType": "System.String",
+          "FieldLength": 669
         }
       }
     },
     {
-      "PrimaryKey": 941,
+      "PrimaryKey": 418,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "sapiente"
+        "nemo",
+        "ad"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 544
+          "FieldType": "System.String",
+          "FieldLength": 669
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 76
     }
   }
 }

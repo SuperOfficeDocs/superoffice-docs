@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 337
+  "Id": 586
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "alias",
+  "RawValue": "labore",
   "Specification": null,
-  "DisplayValue": "eum",
-  "DisplayTooltip": "voluptates",
+  "DisplayValue": "ab",
+  "DisplayTooltip": "ut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 900,
-  "PrefDescId": 561,
-  "TableName": "Waters Inc and Sons",
-  "UserPreferenceId": 871,
+  "TargetId": 683,
+  "PrefDescId": 698,
+  "TableName": "Corwin, O'Hara and Metz",
+  "UserPreferenceId": 571,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

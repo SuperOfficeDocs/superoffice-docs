@@ -20,8 +20,8 @@ Activity archive provider for the Company card
 |"chat"|Chat session|
 |"document"|Documents|
 |"formSubmission"|Form submissions|
-|"mailing"|Mailings|
 |"appointment"|Follow-ups|
+|"mailing"|Mailings|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -730,6 +730,49 @@ Activity archive provider for the Company card
 |formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
 |formSubmissionStatus|listAny|Status: Status of the form submission record| x |
 |formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
+|participating|bool|Participating?: Am I among the participants in a meeting?|  |
+|appointmentId|int|DB ID: Displays the database ID of a row| x |
+|endDate|date|End date: Displays the deadline for a follow-up/sale| x |
+|priority|listAny|Priority: Displays the priority of the activity| x |
+|alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
+|booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
+|intention|listAny|Intention: Displays the intention of the follow-up type| x |
+|location|string|Location: Display the location where the follow-up will take place.| x |
+|recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
+|rawType|int|Type: Type field for appointment, not decoded or formatted| x |
+|rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
+|cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
+|visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
+|endTime| *None* |End time: End time of an activity|  |
+|suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
+|completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
+|isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
+|invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+|appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|appointmentPublish/publishedBy| *None* |Published by: Published by|  |
+|appointmentUdef/SuperOffice:1|string|followupshorttext| x |
+|appointmentUdef/SuperOffice:2|string|followuplongtext| x |
+|appointmentUdef/SuperOffice:3|int|followupnumber| x |
+|appointmentUdef/SuperOffice:4|date|followupdate| x |
+|appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
+|appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
+|appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
+|appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
+|appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -749,10 +792,6 @@ Activity archive provider for the Company card
 |mailingDeleted|bool|Deleted: Deleted|  |
 |recipientStatus|listAny|Recipient status: Status of mailing recipient|  |
 |mailingAddr/mailingAddrId|int|!!!Mailing addr Id: !!!Mailing addr Id Tooltip| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/contactId|int|Company - Company ID: Database ID of company| x |
 |mailingAddr/contact/name|stringorPK|Company - Company name| x |
 |mailingAddr/contact/department|string|Company - Department| x |
@@ -814,6 +853,10 @@ Activity archive provider for the Company card
 |mailingAddr/contact/streetAddress/county|string|Company - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |mailingAddr/contact/streetAddress/city|string|Company - Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/contact/streetAddress/zip|string|Company - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/streetAddress/state|string|Company - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
 |mailingAddr/contact/streetAddress/wgs84longitude|decimal|Company - Street address - Longitude: Longitude| x |
@@ -853,10 +896,6 @@ Activity archive provider for the Company card
 |mailingAddr/contact/contactAssociate/assocType|listAny|Company - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/contact/contactAssociate/ejUserId|int|Company - Service user ID: The database ID of a Service user|  |
 |mailingAddr/contact/contactAssociate/simultaneousEjUser|bool|Company - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/contactAssociate/ejDisplayName|string|Company - Nick name: User's nick name in Service| x |
 |mailingAddr/contact/contactAssociate/ejStatus|int|Company - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/contact/contactAssociate/credentialType| *None* |Company - Auth. type: What type of credentials to use when this user logs in| x |
@@ -918,6 +957,10 @@ Activity archive provider for the Company card
 |mailingAddr/contact/NumberOfNotCompletedTickets|int|Company - Number of non-completed requests|  |
 |mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod|int|Company - Number of non-completed requests in last 90 days|  |
 |mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
 |mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 |mailingAddr/contact/SaintStatus1|saintStatus|Company - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
@@ -957,10 +1000,6 @@ Activity archive provider for the Company card
 |mailingAddr/person/kanaFirstName|string|Contact - First name, kana: Contact's first name, in kana alphabet| x |
 |mailingAddr/person/kanaLastName|string|Contact - Last name, kana: Contact's last name, in kana alphabet| x |
 |mailingAddr/person/personUpdatedBy|associate|Contact - Updated by: The user who last updated the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personUpdatedByFullName|associate|Contact - Updated by - Full name: The user who last updated the data| x |
 |mailingAddr/person/personUpdatedDate|date|Contact - Updated: The date/time the data was last updated in UTC.| x |
 |mailingAddr/person/personRegisteredBy|associate|Contact - Registered by: The user who registered the data| x |
@@ -1022,6 +1061,10 @@ Activity archive provider for the Company card
 |mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
 |mailingAddr/person/restrictionAddress/line1|string|Contact - Search address - Address 1: First line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/restrictionAddress/line2|string|Contact - Search address - Address 2: Second line of the address| x |
 |mailingAddr/person/restrictionAddress/line3|string|Contact - Search address - Address 3: Third line of the address| x |
 |mailingAddr/person/restrictionAddress/county|string|Contact - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -1061,10 +1104,6 @@ Activity archive provider for the Company card
 |mailingAddr/person/personExtra/x\_person\_appointment\_relation|stringorPK|Contact - Extra appointment relation: Appointment relation on person| x |
 |mailingAddr/person/personExtra/x\_person\_contact\_relation|stringorPK|Contact - Extra company relation: Company relation on contact| x |
 |mailingAddr/person/personExtra/y\_rental/id|int|Contact - Rental - id: Displays the row's primary key (y\_rental)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental| x |
 |mailingAddr/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End| x |
 |mailingAddr/person/personExtra/y\_rental/x\_amount|int|Contact - Rental - Amount: Number to rent. Default = 1| x |
@@ -1126,6 +1165,10 @@ Activity archive provider for the Company card
 |mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
 |mailingAddr/person/correspondingAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |mailingAddr/person/correspondingAssociate/isActive|bool|Contact - Active: Is this user active, and should be able to log in?| x |
 |mailingAddr/person/correspondingAssociate/isActiveText|bool|Contact - Active status: Is this user active, and should be able to log in?| x |
@@ -1165,10 +1208,6 @@ Activity archive provider for the Company card
 |emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
 |emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |emailFlow/workflowAssociate/firstName|string|Owner - First name: Displays the contact's first name| x |
 |emailFlow/workflowAssociate/lastName|string|Owner - Last name: Displays the contact's last name| x |
@@ -1207,50 +1246,11 @@ Activity archive provider for the Company card
 |emailFlow/hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
 |emailFlow/hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
-|participating|bool|Participating?: Am I among the participants in a meeting?|  |
-|appointmentId|int|DB ID: Displays the database ID of a row| x |
-|endDate|date|End date: Displays the deadline for a follow-up/sale| x |
-|priority|listAny|Priority: Displays the priority of the activity| x |
-|alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
-|recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
-|booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
-|intention|listAny|Intention: Displays the intention of the follow-up type| x |
-|location|string|Location: Display the location where the follow-up will take place.| x |
-|recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
-|rawType|int|Type: Type field for appointment, not decoded or formatted| x |
-|rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
-|cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
-|visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
-|endTime| *None* |End time: End time of an activity|  |
-|suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
-|completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
-|isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
-|invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
-|joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
-|createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|appointmentPublish/publishedBy| *None* |Published by: Published by|  |
-|appointmentUdef/SuperOffice:1|string|followupshorttext| x |
-|appointmentUdef/SuperOffice:2|string|followuplongtext| x |
-|appointmentUdef/SuperOffice:3|int|followupnumber| x |
-|appointmentUdef/SuperOffice:4|date|followupdate| x |
-|appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
-|appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
-|appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
-|appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
-|appointment/description|positiveString|Text: Displays the text entered in the description field| x |
-|appointment/title|positiveString|Title| x |
-|appointment/titleHtml| *None* |!!Title Html| x |
-|appointment/agenda|positiveString|Agenda| x |
-|appointment/agendaHtml| *None* |!!Agenda Html| x |
-|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=queueLength,person/personAssociate/contactCategory,person/personAssociate/assocTooltip,person/correspondingAssociate/fullName,contact/streetAddress/line1
+GET /api/v1/archive/ContactActivity?$select=timeInQueue,person/restrictionAddress/line2,contact/contactNoMail,contact/streetAddress/formattedMultiLineAddress,contact/restrictionAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

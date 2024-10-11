@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 251
+  "ErpConnectionId": 474
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 412,
-  "ErpConnectorId": 99,
-  "DisplayName": "Okuneva-Lehner",
-  "DisplayDescription": "Automated bandwidth-monitored ability",
+  "ErpConnectionId": 230,
+  "ErpConnectorId": 824,
+  "DisplayName": "Conn-Hettinger",
+  "DisplayDescription": "Compatible fault-tolerant analyzer",
   "Active": false,
-  "ConnectionId": "quidem",
+  "ConnectionId": "magni",
   "MostRecentTimestamp": "ut",
   "ConfigFields": {
-    "ConfigFields1": "dignissimos",
-    "ConfigFields2": "quis"
+    "ConfigFields1": "sed",
+    "ConfigFields2": "tempora"
   },
   "Deleted": false,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    62,
-    48
+    65,
+    8
   ],
   "AssociateAccessIds": [
-    306,
-    569
+    630,
+    32
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 561
     }
   }
 }

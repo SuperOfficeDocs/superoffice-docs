@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 337,
-  "ModuleOwner": "debitis",
+  "AssociateId": 506,
+  "ModuleOwner": "et",
   "ModuleLicenseNames": [
-    "Swift Group",
-    "West Inc and Sons"
+    "Ullrich Group",
+    "Beahan Group"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 665,
-    "Tooltip": "ullam",
-    "CanAssign": false,
-    "Free": 532,
-    "InUse": 805,
+    "Total": 859,
+    "Tooltip": "eum",
+    "CanAssign": true,
+    "Free": 970,
+    "InUse": 830,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 740,
-    "Name": "Beer, Lind and Murazik",
-    "Description": "Reactive holistic moderator",
-    "PrerequisiteModuleName": "Watsica-Rohan",
-    "SortOrder": 558,
-    "ExtraFlags": 911,
+    "ModuleLicenseId": 530,
+    "Name": "Upton, Pagac and Kautzer",
+    "Description": "Focused value-added moderator",
+    "PrerequisiteModuleName": "Rolfson, Bailey and Shields",
+    "SortOrder": 762,
+    "ExtraFlags": 965,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldType": "System.String",
+        "FieldLength": 359
       }
     }
   }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "Name": "Mayer-Nitzsche",
-  "Tooltip": "non",
+  "Id": 961,
+  "Name": "Oberbrunner-Johnston",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 516,
-  "Rank": 939,
+  "UdListDefinitionId": 948,
+  "Rank": 670,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 556
     }
   }
 }

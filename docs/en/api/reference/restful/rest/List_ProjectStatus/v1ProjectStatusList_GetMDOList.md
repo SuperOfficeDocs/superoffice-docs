@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=dolores
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Dach-Prosacco",
-    "ToolTip": "Ducimus repellendus aut nihil in.",
-    "Deleted": false,
-    "Rank": 638,
-    "Type": "corporis",
+    "Id": 275,
+    "Name": "McGlynn-Ledner",
+    "ToolTip": "Id incidunt.",
+    "Deleted": true,
+    "Rank": 331,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Mann, Mraz and Bayer",
-        "ToolTip": "Sed et unde.",
-        "Deleted": false,
-        "Rank": 384,
-        "Type": "doloremque",
+        "Id": 153,
+        "Name": "Luettgen LLC",
+        "ToolTip": "In et.",
+        "Deleted": true,
+        "Rank": 524,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 521,
-        "ExtraInfo": "corrupti",
-        "StyleHint": "ut",
-        "FullName": "Laury Jenkins",
+        "IconHint": "maiores",
+        "ColorBlock": 555,
+        "ExtraInfo": "nihil",
+        "StyleHint": "reiciendis",
+        "FullName": "Ms. Adrien Art Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldLength": 750
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 584,
-    "ExtraInfo": "saepe",
-    "StyleHint": "rerum",
-    "FullName": "Hillard Fadel",
+    "IconHint": "amet",
+    "ColorBlock": 85,
+    "ExtraInfo": "corrupti",
+    "StyleHint": "optio",
+    "FullName": "Vivianne Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 548
       }
     }
   }

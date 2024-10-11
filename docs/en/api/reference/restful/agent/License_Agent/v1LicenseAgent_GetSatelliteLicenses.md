@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ritchie Group",
-    "Description": "Diverse well-modulated budgetary management",
+    "Name": "Dach, Paucek and Balistreri",
+    "Description": "Public-key static Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 364,
-        "Tooltip": "suscipit",
+        "Unrestricted": false,
+        "Total": 449,
+        "Tooltip": "blanditiis",
         "CanAssign": true,
-        "Free": 814,
-        "InUse": 170,
+        "Free": 823,
+        "InUse": 728,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 366,
-        "Name": "Waelchi, Hills and Hilll",
-        "Description": "Switchable disintermediate secured line",
-        "PrerequisiteModuleName": "Schulist LLC",
-        "SortOrder": 580,
-        "ExtraFlags": 514,
+        "ModuleLicenseId": 167,
+        "Name": "Flatley-Daugherty",
+        "Description": "Managed systematic architecture",
+        "PrerequisiteModuleName": "Schmidt, Lockman and Kohler",
+        "SortOrder": 980,
+        "ExtraFlags": 251,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 123
+            "FieldLength": 789
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 362,
-        "Tooltip": "praesentium",
-        "CanAssign": true,
-        "Free": 459,
-        "InUse": 588,
-        "IsHidden": false,
+        "Total": 994,
+        "Tooltip": "a",
+        "CanAssign": false,
+        "Free": 132,
+        "InUse": 758,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 795,
-        "Name": "Lynch Inc and Sons",
-        "Description": "Enhanced methodical challenge",
-        "PrerequisiteModuleName": "Hirthe-Schoen",
-        "SortOrder": 577,
-        "ExtraFlags": 430,
+        "ModuleLicenseId": 923,
+        "Name": "Daniel Inc and Sons",
+        "Description": "Inverse client-server internet solution",
+        "PrerequisiteModuleName": "Hirthe-Spinka",
+        "SortOrder": 499,
+        "ExtraFlags": 240,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 14
+            "FieldType": "System.Int32",
+            "FieldLength": 524
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldType": "System.String",
+        "FieldLength": 3
       }
     }
   },
   {
-    "Name": "Ritchie Group",
-    "Description": "Diverse well-modulated budgetary management",
+    "Name": "Dach, Paucek and Balistreri",
+    "Description": "Public-key static Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 364,
-        "Tooltip": "suscipit",
+        "Unrestricted": false,
+        "Total": 449,
+        "Tooltip": "blanditiis",
         "CanAssign": true,
-        "Free": 814,
-        "InUse": 170,
+        "Free": 823,
+        "InUse": 728,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 366,
-        "Name": "Waelchi, Hills and Hilll",
-        "Description": "Switchable disintermediate secured line",
-        "PrerequisiteModuleName": "Schulist LLC",
-        "SortOrder": 580,
-        "ExtraFlags": 514,
+        "ModuleLicenseId": 167,
+        "Name": "Flatley-Daugherty",
+        "Description": "Managed systematic architecture",
+        "PrerequisiteModuleName": "Schmidt, Lockman and Kohler",
+        "SortOrder": 980,
+        "ExtraFlags": 251,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 123
+            "FieldLength": 789
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 362,
-        "Tooltip": "praesentium",
-        "CanAssign": true,
-        "Free": 459,
-        "InUse": 588,
-        "IsHidden": false,
+        "Total": 994,
+        "Tooltip": "a",
+        "CanAssign": false,
+        "Free": 132,
+        "InUse": 758,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 795,
-        "Name": "Lynch Inc and Sons",
-        "Description": "Enhanced methodical challenge",
-        "PrerequisiteModuleName": "Hirthe-Schoen",
-        "SortOrder": 577,
-        "ExtraFlags": 430,
+        "ModuleLicenseId": 923,
+        "Name": "Daniel Inc and Sons",
+        "Description": "Inverse client-server internet solution",
+        "PrerequisiteModuleName": "Hirthe-Spinka",
+        "SortOrder": 499,
+        "ExtraFlags": 240,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 14
+            "FieldType": "System.Int32",
+            "FieldLength": 524
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldType": "System.String",
+        "FieldLength": 3
       }
     }
   }

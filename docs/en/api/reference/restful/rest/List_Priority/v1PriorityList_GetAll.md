@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Grady-Halvorson",
-    "Tooltip": "id",
+    "Id": 274,
+    "Name": "O'Kon LLC",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "UdListDefinitionId": 672,
-    "Rank": 287,
+    "UdListDefinitionId": 84,
+    "Rank": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldType": "System.Int32",
+        "FieldLength": 705
       }
     }
   }

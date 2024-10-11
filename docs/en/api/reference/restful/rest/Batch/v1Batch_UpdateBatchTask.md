@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "Beatty LLC",
-  "AssociateId": 372,
-  "DetailsTable": 910,
-  "DetailsRecord": 781,
-  "IsSystemTask": true,
+  "Id": 129,
+  "Name": "Hagenes Group",
+  "AssociateId": 204,
+  "DetailsTable": 947,
+  "DetailsRecord": 83,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "neque",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "expedita",
+    "ParameterObject2": "enim"
   },
-  "LastStarted": "1999-01-02T04:02:06.9472381+01:00",
-  "Created": "2004-04-22T04:02:06.9472381+02:00",
-  "StartCount": 977,
-  "DatabaseSerialNumber": "1465602",
-  "Context": "sit",
-  "Result": "maiores",
+  "LastStarted": "2019-06-04T03:44:57.7031403+02:00",
+  "Created": "2020-04-19T03:44:57.7031403+02:00",
+  "StartCount": 923,
+  "DatabaseSerialNumber": "1102600",
+  "Context": "dolor",
+  "Result": "inventore",
   "State": "All",
-  "Description": "Switchable impactful superstructure",
-  "Response": "aut",
-  "Request": "totam",
-  "ProgressDescription": "Versatile high-level firmware",
-  "ProgressPercent": 381,
-  "FileName": "Fahey-Douglas",
+  "Description": "Decentralized dedicated structure",
+  "Response": "reprehenderit",
+  "Request": "soluta",
+  "ProgressDescription": "Reduced interactive access",
+  "ProgressPercent": 874,
+  "FileName": "Wyman Inc and Sons",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Bins-Purdy",
-  "AssociateId": 532,
-  "DetailsTable": 772,
-  "DetailsRecord": 803,
+  "Id": 130,
+  "Name": "Johnston-Rempel",
+  "AssociateId": 16,
+  "DetailsTable": 412,
+  "DetailsRecord": 60,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "culpa",
-    "ParameterObject2": "sed"
+    "ParameterObject1": "harum",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2017-05-08T04:02:06.9472381+02:00",
-  "Created": "2009-11-15T04:02:06.9472381+01:00",
-  "StartCount": 4,
-  "DatabaseSerialNumber": "1056442",
-  "Context": "expedita",
-  "Result": "minus",
+  "LastStarted": "2024-01-23T03:44:57.7031403+01:00",
+  "Created": "2013-11-29T03:44:57.7031403+01:00",
+  "StartCount": 715,
+  "DatabaseSerialNumber": "451068",
+  "Context": "aut",
+  "Result": "quas",
   "State": "All",
-  "Description": "User-friendly user-facing encryption",
-  "Response": "commodi",
+  "Description": "Assimilated intermediate service-desk",
+  "Response": "rerum",
   "Request": "ipsa",
-  "ProgressDescription": "Assimilated needs-based conglomeration",
-  "ProgressPercent": 670,
-  "FileName": "Jacobson Group",
+  "ProgressDescription": "De-engineered systematic support",
+  "ProgressPercent": 809,
+  "FileName": "Bogisich, Smith and Schneider",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldType": "System.String",
+      "FieldLength": 633
     }
   }
 }

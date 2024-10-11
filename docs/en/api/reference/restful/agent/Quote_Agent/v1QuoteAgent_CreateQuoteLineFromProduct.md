@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 503,
+  "QuoteAlternativeId": 153,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 127,
+  "QuoteLineId": 80,
   "ERPQuoteLineKey": "ullam",
-  "QuoteAlternativeId": 809,
-  "ERPProductKey": "consequuntur",
+  "QuoteAlternativeId": 507,
+  "ERPProductKey": "fugiat",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18847.876,
-  "DeliveredQuantity": 12269.609999999999,
-  "Rank": 44,
-  "Name": "Balistreri, Breitenberg and Johnston",
-  "Description": "Realigned executive strategy",
-  "Code": "perferendis",
-  "QuantityUnit": "recusandae",
-  "PriceUnit": "aliquid",
-  "ItemNumber": "698919",
+  "Quantity": 6346.3499999999995,
+  "DeliveredQuantity": 23928.09,
+  "Rank": 39,
+  "Name": "Toy, Mraz and Walker",
+  "Description": "Versatile value-added orchestration",
+  "Code": "porro",
+  "QuantityUnit": "error",
+  "PriceUnit": "veniam",
+  "ItemNumber": "1745883",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ullam",
-  "ProductTypeKey": "et",
-  "Supplier": "est",
-  "SupplierCode": "aperiam",
-  "Thumbnail": "voluptate",
-  "VATInfo": "delectus",
-  "VAT": 19170.678,
-  "UnitCost": 13187.872,
-  "UnitMinimumPrice": 14297.307999999999,
-  "UnitListPrice": 29961.039999999997,
+  "ProductFamilyKey": "quis",
+  "ProductTypeKey": "quod",
+  "Supplier": "rerum",
+  "SupplierCode": "perferendis",
+  "Thumbnail": "voluptas",
+  "VATInfo": "earum",
+  "VAT": 9198.2899999999991,
+  "UnitCost": 21157.634,
+  "UnitMinimumPrice": 11454.77,
+  "UnitListPrice": 14726.666,
   "ExtraInfo": [
     {
-      "Name": "Hayes, Vandervort and Greenfelder",
-      "Value": "iste",
+      "Name": "Shanahan-Wisozk",
+      "Value": "velit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldType": "System.String",
+          "FieldLength": 270
         }
       }
     },
     {
-      "Name": "Hayes, Vandervort and Greenfelder",
-      "Value": "iste",
+      "Name": "Shanahan-Wisozk",
+      "Value": "velit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldType": "System.String",
+          "FieldLength": 270
         }
       }
     }
   ],
-  "RawExtraInfo": "deleniti",
-  "IsSubscription": false,
-  "SubscriptionUnit": "placeat",
-  "SubscriptionQuantity": 25748.944,
-  "SubscriptionStart": "1999-06-28T04:02:02.2222071+02:00",
-  "ERPDiscountPercent": 26209.642,
-  "ERPDiscountAmount": 8085.7199999999993,
-  "DiscountPercent": 13538.88,
-  "DiscountAmount": 962.13799999999992,
+  "RawExtraInfo": "saepe",
+  "IsSubscription": true,
+  "SubscriptionUnit": "eos",
+  "SubscriptionQuantity": 10260.716,
+  "SubscriptionStart": "2022-03-16T03:44:53.0739396+01:00",
+  "ERPDiscountPercent": 21474.167999999998,
+  "ERPDiscountAmount": 6202.186,
+  "DiscountPercent": 2710.91,
+  "DiscountAmount": 23429.784,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11752.5,
-  "EarningAmount": 20816.028,
-  "SubTotal": 3735.728,
-  "TotalPrice": 6336.9479999999994,
-  "Rights": "repudiandae",
-  "Rule": "a",
-  "ExtraField1": "dolore",
-  "ExtraField2": "autem",
-  "ExtraField3": "in",
-  "ExtraField4": "exercitationem",
-  "ExtraField5": "id",
+  "EarningPercent": 12385.568,
+  "EarningAmount": 6393.36,
+  "SubTotal": 28820.264,
+  "TotalPrice": 1560.732,
+  "Rights": "voluptas",
+  "Rule": "tempora",
+  "ExtraField1": "et",
+  "ExtraField2": "hic",
+  "ExtraField3": "vel",
+  "ExtraField4": "facilis",
+  "ExtraField5": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 845
+      "FieldLength": 369
     }
   }
 }

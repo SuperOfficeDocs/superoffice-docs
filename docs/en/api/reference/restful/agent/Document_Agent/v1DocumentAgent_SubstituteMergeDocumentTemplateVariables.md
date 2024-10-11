@@ -77,15 +77,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 465,
-  "AssociateId": 819,
+  "DocumentId": 567,
+  "AssociateId": 554,
   "CustomTags": [
-    "aspernatur",
-    "odio"
+    "aut",
+    "nihil"
   ],
   "CustomValues": [
-    "eaque",
-    "accusantium"
+    "consequatur",
+    "tempore"
   ]
 }
 ```

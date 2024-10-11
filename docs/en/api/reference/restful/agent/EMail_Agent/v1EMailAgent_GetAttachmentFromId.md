@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 882,
-  "AttachmentId": "tenetur"
+  "MailItemId": 364,
+  "AttachmentId": "beatae"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized contextually-based Graphical User Interface",
-  "Filename": "dolore",
-  "Size": 943,
-  "Type": "numquam",
-  "Encoding": "reiciendis",
-  "Id": "ut",
-  "Disposition": "sit",
-  "IsSafeFileExtension": false,
+  "Description": "Sharable client-server project",
+  "Filename": "fugit",
+  "Size": 796,
+  "Type": "natus",
+  "Encoding": "dolore",
+  "Id": "atque",
+  "Disposition": "qui",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 359
     }
   }
 }

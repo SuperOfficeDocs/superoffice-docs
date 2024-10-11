@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 688,
-  "Section": "explicabo",
-  "Key": "consequatur",
-  "Name": "Greenholt-Windler",
+  "PrefDescId": 587,
+  "Section": "perspiciatis",
+  "Key": "error",
+  "Name": "Moen, Pollich and Dickinson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enhanced modular collaboration",
-  "IsBuiltin": true,
-  "TableName": "Reichert Group",
-  "UserDefinedListId": 480,
-  "Rank": 756,
-  "SubGroup": "quia",
-  "MinLevel": 654,
-  "MaxValue": 344,
-  "MinValue": 86,
-  "RequiredLicense": "porro"
+  "Description": "Enhanced grid-enabled complexity",
+  "IsBuiltin": false,
+  "TableName": "Predovic LLC",
+  "UserDefinedListId": 816,
+  "Rank": 641,
+  "SubGroup": "dolorem",
+  "MinLevel": 262,
+  "MaxValue": 999,
+  "MinValue": 35,
+  "RequiredLicense": "natus"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 323,
-  "Section": "dolor",
-  "Key": "eos",
-  "Name": "Fay Inc and Sons",
+  "PrefDescId": 755,
+  "Section": "odit",
+  "Key": "placeat",
+  "Name": "Osinski-Greenholt",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone disintermediate firmware",
+  "Description": "Integrated human-resource superstructure",
   "IsBuiltin": false,
-  "TableName": "Schmidt, Stoltenberg and Howell",
-  "UserDefinedListId": 864,
-  "Rank": 456,
-  "SubGroup": "quo",
-  "MinLevel": 588,
-  "MaxValue": 901,
-  "MinValue": 269,
-  "RequiredLicense": "ad",
+  "TableName": "Strosin-Green",
+  "UserDefinedListId": 716,
+  "Rank": 84,
+  "SubGroup": "nesciunt",
+  "MinLevel": 624,
+  "MaxValue": 562,
+  "MinValue": 35,
+  "RequiredLicense": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 426
     }
   },
   "_Links": {

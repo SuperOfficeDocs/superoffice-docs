@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 297,
-  "Name": "Fahey LLC",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 988,
+  "Id": 864,
+  "Name": "Feest-Mann",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 257,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "soluta",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 798,
-  "Name": "Bauch LLC",
-  "Tooltip": "vel",
+  "Id": 645,
+  "Name": "Hyatt-Harber",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "Rank": 5,
-  "IsCustomList": false,
+  "Rank": 626,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldLength": 992
     }
   }
 }

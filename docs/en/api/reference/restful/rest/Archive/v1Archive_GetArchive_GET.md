@@ -140,16 +140,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=ut
-GET /api/v1/Archive/{archiveProviderName}?$top=66
-GET /api/v1/Archive/{archiveProviderName}?$skip=857
+GET /api/v1/Archive/{archiveProviderName}?$entities=blanditiis
+GET /api/v1/Archive/{archiveProviderName}?$top=955
+GET /api/v1/Archive/{archiveProviderName}?$skip=854
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=doloribus
+GET /api/v1/Archive/{archiveProviderName}?$context=ipsa
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=ut
+GET /api/v1/Archive/{archiveProviderName}?$metadata=ducimus
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -201,21 +201,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "minus",
   "value": [
     {
-      "PrimaryKey": 5062,
-      "EntityName": "sale",
-      "saleId": 5062,
-      "contactId": 8568,
-      "name": "Dare-D'Amore"
+      "PrimaryKey": 6346,
+      "EntityName": "person",
+      "personId": 6346,
+      "fullName": "Caleigh Casper"
     },
     {
-      "PrimaryKey": 2595,
-      "EntityName": "sale",
-      "saleId": 2595,
-      "contactId": 5718,
-      "name": "Kihn-Paucek"
+      "PrimaryKey": 6417,
+      "EntityName": "person",
+      "personId": 6417,
+      "fullName": "Cordie Hackett"
     }
   ]
 }

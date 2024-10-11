@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 827,
-  "PlainMessage": "repellat",
-  "HtmlMessage": "illo",
-  "SmsMessage": "dolore",
-  "Description": "Reverse-engineered intermediate parallelism",
-  "Subject": "et",
-  "FolderId": 58,
-  "HeaderField": "placeat",
-  "Design": "veritatis",
+  "ShipmentMessageId": 123,
+  "PlainMessage": "beatae",
+  "HtmlMessage": "eligendi",
+  "SmsMessage": "natus",
+  "Description": "Persevering assymetric function",
+  "Subject": "mollitia",
+  "FolderId": 475,
+  "HeaderField": "sunt",
+  "Design": "alias",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Diverse system-worthy definition",
-  "AccessKey": "et",
-  "DocumentMessage": 378,
-  "Registered": "1999-10-24T04:02:01.8941042+02:00",
-  "RegisteredAssociateId": 132,
-  "Updated": "2008-09-20T04:02:01.8941042+02:00",
-  "UpdatedAssociateId": 776,
-  "UpdatedCount": 683
+  "InlineImages": true,
+  "LongDescription": "Intuitive bottom-line capability",
+  "AccessKey": "earum",
+  "DocumentMessage": 244,
+  "Registered": "2017-10-10T03:44:52.7458159+02:00",
+  "RegisteredAssociateId": 525,
+  "Updated": "2021-12-07T03:44:52.7458159+01:00",
+  "UpdatedAssociateId": 409,
+  "UpdatedCount": 106
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 775,
-  "PlainMessage": "impedit",
-  "HtmlMessage": "non",
-  "SmsMessage": "sint",
-  "Description": "Automated responsive utilisation",
-  "Subject": "veniam",
-  "FolderId": 395,
-  "HeaderField": "accusantium",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 332,
+  "PlainMessage": "neque",
+  "HtmlMessage": "deserunt",
+  "SmsMessage": "debitis",
+  "Description": "Profit-focused 3rd generation initiative",
+  "Subject": "ut",
+  "FolderId": 610,
+  "HeaderField": "non",
+  "Design": "nesciunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "De-engineered discrete access",
-  "AccessKey": "eligendi",
-  "DocumentMessage": 980,
-  "Registered": "2003-09-20T04:02:01.8941042+02:00",
-  "RegisteredAssociateId": 809,
-  "Updated": "2018-09-11T04:02:01.8941042+02:00",
-  "UpdatedAssociateId": 680,
-  "UpdatedCount": 796,
+  "InlineImages": false,
+  "LongDescription": "Robust empowering protocol",
+  "AccessKey": "eius",
+  "DocumentMessage": 181,
+  "Registered": "2004-05-16T03:44:52.7458159+02:00",
+  "RegisteredAssociateId": 261,
+  "Updated": "2008-07-01T03:44:52.7458159+02:00",
+  "UpdatedAssociateId": 581,
+  "UpdatedCount": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldLength": 681
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ex",
+  "SearchString": "odio",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "847-433-1310 x677",
-    "PersonCellPhone": "533-753-7511 x4348",
-    "PersonPrivatePhone": "1-390-962-3910",
-    "PersonFaxNumber": "1366732",
-    "PersonPagerNumber": "1134143",
-    "PersonEmail": "eusebio.walker@barrows.biz",
-    "Id": 123,
-    "Name": "Goodwin-Rowe",
-    "Tooltip": "laudantium",
-    "UniqueId": "quas",
+    "PersonDirectPhone": "1-466-558-7350 x173",
+    "PersonCellPhone": "944.363.7718 x9735",
+    "PersonPrivatePhone": "831.987.3131 x02326",
+    "PersonFaxNumber": "548151",
+    "PersonPagerNumber": "1385833",
+    "PersonEmail": "gavin@zemlak.biz",
+    "Id": 510,
+    "Name": "Quigley, Friesen and Dickens",
+    "Tooltip": "molestiae",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldLength": 659
       }
     }
   }

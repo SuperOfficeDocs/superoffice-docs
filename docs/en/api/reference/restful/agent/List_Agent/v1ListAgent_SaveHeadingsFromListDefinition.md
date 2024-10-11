@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
+  "Id": 512,
   "Entities": [
     {
-      "HeadingId": 382,
-      "Name": "Macejkovic-Bailey",
-      "Tooltip": "qui",
-      "Deleted": true,
-      "Rank": 757,
-      "UdListDefinitionId": 930
+      "HeadingId": 911,
+      "Name": "McKenzie Inc and Sons",
+      "Tooltip": "non",
+      "Deleted": false,
+      "Rank": 161,
+      "UdListDefinitionId": 201
     },
     {
-      "HeadingId": 382,
-      "Name": "Macejkovic-Bailey",
-      "Tooltip": "qui",
-      "Deleted": true,
-      "Rank": 757,
-      "UdListDefinitionId": 930
+      "HeadingId": 911,
+      "Name": "McKenzie Inc and Sons",
+      "Tooltip": "non",
+      "Deleted": false,
+      "Rank": 161,
+      "UdListDefinitionId": 201
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 772,
-    "Name": "Borer, Hand and Funk",
-    "Tooltip": "repudiandae",
+    "HeadingId": 93,
+    "Name": "Fadel-Durgan",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 552,
-    "UdListDefinitionId": 384,
+    "Rank": 317,
+    "UdListDefinitionId": 90,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldLength": 502
       }
     }
   }

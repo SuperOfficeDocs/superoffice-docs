@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 570,
-  "ColumnId": 874,
-  "FieldDefault": "illo",
-  "FieldHeight": 335,
-  "FieldLabel": "ipsum",
-  "FieldLeft": 26,
-  "FieldTop": 805,
+  "UDefFieldId": 908,
+  "ColumnId": 332,
+  "FieldDefault": "temporibus",
+  "FieldHeight": 698,
+  "FieldLabel": "minus",
+  "FieldLeft": 195,
+  "FieldTop": 697,
   "FieldType": "Checkbox",
-  "FieldWidth": 500,
-  "FormatMask": "sed",
+  "FieldWidth": 306,
+  "FormatMask": "veritatis",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 980,
-  "LabelLeft": 866,
-  "LabelTop": 892,
-  "LabelWidth": 68,
-  "LastVersionId": 939,
-  "ListTableId": 241,
+  "IsIndexed": false,
+  "LabelHeight": 334,
+  "LabelLeft": 250,
+  "LabelTop": 893,
+  "LabelWidth": 384,
+  "LastVersionId": 401,
+  "ListTableId": 515,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 731,
-  "ProgId": "tempora",
-  "IsReadOnly": true,
-  "ShortLabel": "veritatis",
-  "TabOrder": 409,
-  "TextLength": 660,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 460,
-  "UDListDefinitionId": 166,
+  "Page1LineNo": 44,
+  "ProgId": "totam",
+  "IsReadOnly": false,
+  "ShortLabel": "nihil",
+  "TabOrder": 500,
+  "TextLength": 609,
+  "Tooltip": "dolorum",
+  "UdefIdentity": 899,
+  "UDListDefinitionId": 720,
   "Justification": "Center",
-  "Version": 689,
-  "TemplateVariableName": "Boyer, Baumbach and Hahn",
-  "HasBeenPublished": true,
-  "MdoListName": "Murray-Yost",
+  "Version": 765,
+  "TemplateVariableName": "Brown, Denesik and Lang",
+  "HasBeenPublished": false,
+  "MdoListName": "Romaguera, Zemlak and Murphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldLength": 816
     }
   }
 }

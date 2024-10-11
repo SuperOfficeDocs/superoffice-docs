@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 460,
+  "PersonId": 343,
   "IncludeProjectDocuments": true,
-  "StartTime": "2021-01-08T04:02:01.5811276+01:00",
-  "EndTime": "2022-07-06T04:02:01.5811276+02:00",
-  "Count": 855,
-  "DocumentTemplateId": 854
+  "StartTime": "2002-11-26T03:44:52.4333602+01:00",
+  "EndTime": "2018-07-16T03:44:52.4333602+02:00",
+  "Count": 715,
+  "DocumentTemplateId": 880
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 9,
-    "Attention": "non",
-    "Header": "aut",
-    "Name": "DuBuque, Schneider and Kshlerin",
-    "OurRef": "id",
-    "YourRef": "nulla",
-    "Description": "User-centric upward-trending utilisation",
-    "DocumentTemplate": "repudiandae",
-    "IsPublished": true,
-    "PersonId": 874,
-    "PersonFullName": "Magdalen Donnelly",
-    "AssociateFullName": "Emmalee Gibson",
-    "ContactId": 281,
-    "ContactName": "Grant Group",
-    "ProjectId": 936,
-    "ProjectName": "Sporer, Daniel and Schuster",
-    "AssociateId": 190,
-    "Snum": 116,
-    "SaleId": 983,
-    "SaleName": "Auer-Langosh",
+    "DocumentId": 979,
+    "Attention": "laboriosam",
+    "Header": "soluta",
+    "Name": "Langworth-Cremin",
+    "OurRef": "voluptatibus",
+    "YourRef": "ut",
+    "Description": "Optimized 24 hour software",
+    "DocumentTemplate": "blanditiis",
+    "IsPublished": false,
+    "PersonId": 956,
+    "PersonFullName": "Ivory Jakubowski",
+    "AssociateFullName": "Nikita Vandervort",
+    "ContactId": 1000,
+    "ContactName": "Farrell, Wiegand and Reichert",
+    "ProjectId": 313,
+    "ProjectName": "Steuber, Monahan and Armstrong",
+    "AssociateId": 36,
+    "Snum": 929,
+    "SaleId": 768,
+    "SaleName": "Lubowitz-Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldType": "System.Int32",
+        "FieldLength": 5
       }
     }
   }

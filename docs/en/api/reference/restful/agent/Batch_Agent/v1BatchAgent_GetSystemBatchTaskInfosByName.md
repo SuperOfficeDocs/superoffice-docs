@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Erdman, Heathcote and Rempel"
+  "TaskName": "Macejkovic Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Rolfson Inc and Sons",
-    "AssociateId": 962,
-    "DetailsTable": 860,
-    "DetailsRecord": 365,
+    "Id": 121,
+    "Name": "Fritsch Inc and Sons",
+    "AssociateId": 43,
+    "DetailsTable": 162,
+    "DetailsRecord": 173,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "rem",
-      "ParameterObject2": "laborum"
+      "ParameterObject1": "consequuntur",
+      "ParameterObject2": "porro"
     },
-    "LastStarted": "2024-04-20T04:02:01.2374146+02:00",
-    "Created": "2021-08-24T04:02:01.2374146+02:00",
-    "StartCount": 385,
-    "DatabaseSerialNumber": "478354",
-    "Context": "quia",
-    "Result": "harum",
+    "LastStarted": "2003-07-20T03:44:52.0896371+02:00",
+    "Created": "2004-02-15T03:44:52.0896371+01:00",
+    "StartCount": 482,
+    "DatabaseSerialNumber": "1734973",
+    "Context": "illum",
+    "Result": "voluptatem",
     "State": "All",
-    "Description": "Function-based upward-trending concept",
-    "Response": "quis",
-    "Request": "perferendis",
-    "ProgressDescription": "Operative reciprocal interface",
-    "ProgressPercent": 498,
-    "FileName": "Feest, Leffler and Frami",
+    "Description": "Streamlined uniform Graphical User Interface",
+    "Response": "aut",
+    "Request": "maxime",
+    "ProgressDescription": "Re-engineered composite budgetary management",
+    "ProgressPercent": 507,
+    "FileName": "Schaden Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldLength": 965
       }
     }
   }

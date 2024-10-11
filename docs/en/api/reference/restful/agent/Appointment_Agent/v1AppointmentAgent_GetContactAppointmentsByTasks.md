@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 552,
-  "StartTime": "2023-04-10T04:02:00.986941+02:00",
-  "EndTime": "2003-12-01T04:02:00.986941+01:00",
-  "Count": 71,
+  "ContactId": 359,
+  "StartTime": "2005-06-05T03:44:51.8396645+02:00",
+  "EndTime": "2012-05-21T03:44:51.8396645+02:00",
+  "Count": 204,
   "TaskIds": [
-    503,
-    497
+    202,
+    453
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 276,
-    "StartDate": "2004-11-05T04:02:00.986941+01:00",
-    "EndDate": "2004-08-24T04:02:00.986941+02:00",
+    "AppointmentId": 90,
+    "StartDate": "2004-10-01T03:44:51.8396645+02:00",
+    "EndDate": "2001-10-28T03:44:51.8396645+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quis",
-    "AssociateFullName": "Vilma Jacobi",
-    "ContactName": "Kuvalis, Stoltenberg and Huel",
-    "Description": "Sharable fault-tolerant system engine",
-    "PersonFullName": "Rahsaan Dare",
-    "PersonId": 621,
-    "ContactId": 474,
-    "ProjectId": 478,
-    "ProjectName": "Goldner, Hyatt and Mueller",
-    "IsPublished": false,
-    "AssociateId": 458,
-    "ColorIndex": 302,
-    "IsFree": false,
+    "Task": "neque",
+    "AssociateFullName": "Mr. Cora Schinner III",
+    "ContactName": "Ernser, Raynor and Parisian",
+    "Description": "Virtual didactic hub",
+    "PersonFullName": "Alison Ankunding",
+    "PersonId": 865,
+    "ContactId": 391,
+    "ProjectId": 974,
+    "ProjectName": "Hane Group",
+    "IsPublished": true,
+    "AssociateId": 808,
+    "ColorIndex": 613,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 829,
-    "PriorityName": "Sporer, Eichmann and Mann",
+    "PriorityId": 864,
+    "PriorityName": "Homenick, Zboncak and Schmeler",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2013-11-09T04:02:01.0025647+01:00",
+    "ActiveDate": "1998-03-15T03:44:51.8396645+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-06-23T04:02:01.0025647+02:00",
-    "RecurringEndDate": "2011-03-06T04:02:01.0025647+01:00",
-    "MotherId": 977,
-    "AssignedBy": 472,
-    "AssignedByFullName": "Ada Fahey",
+    "RecurringStartDate": "1998-03-07T03:44:51.8396645+01:00",
+    "RecurringEndDate": "2011-08-03T03:44:51.8396645+02:00",
+    "MotherId": 847,
+    "AssignedBy": 531,
+    "AssignedByFullName": "Mrs. April White",
     "RejectReason": "",
-    "Location": "quod",
-    "AlarmLeadTime": "odit",
-    "SaleId": 967,
-    "SaleName": "Hand Group",
-    "AssociateName": "Schmeler-Erdman",
-    "CreatedDate": "2008-11-17T04:02:01.0025647+01:00",
-    "CreatedBy": "neque",
-    "CreatedByFullName": "Mr. Lon Lance Wuckert Sr.",
-    "CreatedByAssociateId": 176,
+    "Location": "deserunt",
+    "AlarmLeadTime": "asperiores",
+    "SaleId": 420,
+    "SaleName": "Wolf, Lowe and Block",
+    "AssociateName": "Johns-Fadel",
+    "CreatedDate": "2013-02-20T03:44:51.8396645+01:00",
+    "CreatedBy": "cumque",
+    "CreatedByFullName": "Doug Reichert IV",
+    "CreatedByAssociateId": 30,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 554,
-    "Title": "nam",
-    "Agenda": "corporis",
-    "InternalNotes": "est",
+    "PreferredTZLocation": 137,
+    "Title": "quae",
+    "Agenda": "voluptatem",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldType": "System.String",
+        "FieldLength": 572
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Mueller Group",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 399,
-    "Rank": 827,
+    "Id": 830,
+    "Name": "Fadel-Walker",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "UdListDefinitionId": 857,
+    "Rank": 596,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldType": "System.String",
+        "FieldLength": 443
       }
     }
   }

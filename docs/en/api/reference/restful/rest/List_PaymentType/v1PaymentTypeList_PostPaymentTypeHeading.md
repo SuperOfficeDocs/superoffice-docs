@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 978,
-  "Name": "Luettgen Group",
-  "Tooltip": "natus",
+  "HeadingId": 244,
+  "Name": "Abernathy, Schuppe and Kirlin",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 460,
-  "UdListDefinitionId": 552
+  "Rank": 742,
+  "UdListDefinitionId": 823
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 37,
-  "Name": "Bashirian-Cummings",
-  "Tooltip": "rerum",
+  "HeadingId": 668,
+  "Name": "Kuhic, Christiansen and Bechtelar",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 885,
-  "UdListDefinitionId": 936,
+  "Rank": 238,
+  "UdListDefinitionId": 298,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 357
     }
   }
 }

@@ -28,6 +28,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [CreateDefaultPersonImage](CreateDefaultPersonImage.md)
 * [CreateOrUpdateUserCandidate](CreateOrUpdateUserCandidate.md)
 * [CreateTemporaryKey](CreateTemporaryKey.md)
+* [CreateTemporaryKeyWithPayload](CreateTemporaryKeyWithPayload.md)
 * [DeleteConsentPerson](DeleteConsentPerson.md)
 * [DeleteExpired](DeleteExpired.md)
 * [DeletePersonEntity](DeletePersonEntity.md)

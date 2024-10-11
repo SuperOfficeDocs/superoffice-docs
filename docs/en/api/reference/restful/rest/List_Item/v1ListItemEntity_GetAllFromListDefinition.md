@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Stroman Inc and Sons",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "UdListDefinitionId": 960,
-    "Rank": 289,
+    "Id": 449,
+    "Name": "Fay LLC",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 338,
+    "Rank": 157,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 12
+        "FieldLength": 590
       }
     }
   }

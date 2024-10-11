@@ -79,13 +79,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 382,
-  "Name": "Koss, Oberbrunner and Sauer",
-  "Tooltip": "dolore",
-  "Rank": 862,
-  "Rate": 15676.268,
-  "Units": 3390.988,
-  "Deleted": true
+  "CurrencyId": 347,
+  "Name": "Abbott Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 652,
+  "Rate": 9489.752,
+  "Units": 7223.87,
+  "Deleted": false
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 19,
-  "Name": "Wolff Group",
-  "Tooltip": "ullam",
-  "Rank": 721,
-  "Rate": 19308.574,
-  "Units": 18236.746,
-  "Deleted": false,
+  "CurrencyId": 898,
+  "Name": "Kovacek, Hane and Witting",
+  "Tooltip": "assumenda",
+  "Rank": 345,
+  "Rate": 28456.719999999998,
+  "Units": 25382.266,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldType": "System.String",
+      "FieldLength": 657
     }
   }
 }

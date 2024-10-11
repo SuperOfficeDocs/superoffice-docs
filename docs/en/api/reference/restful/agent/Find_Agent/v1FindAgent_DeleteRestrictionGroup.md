@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maiores",
-  "ProviderName": "Padberg-Ankunding",
-  "StorageKey": "repellat",
-  "Rank": 489,
-  "Context": "doloremque"
+  "StorageType": "dolor",
+  "ProviderName": "Hodkiewicz-Bechtelar",
+  "StorageKey": "eum",
+  "Rank": 202,
+  "Context": "harum"
 }
 ```
 

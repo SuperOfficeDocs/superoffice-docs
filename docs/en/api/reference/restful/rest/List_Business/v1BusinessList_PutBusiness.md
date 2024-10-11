@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 443,
-  "Name": "Romaguera-Johnson",
-  "Tooltip": "est",
+  "Id": 84,
+  "Name": "Lockman, Considine and Bogan",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 95,
-  "Rank": 643
+  "UdListDefinitionId": 802,
+  "Rank": 63
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Block Group",
-  "Tooltip": "fuga",
+  "Id": 334,
+  "Name": "Homenick LLC",
+  "Tooltip": "velit",
   "Deleted": false,
-  "UdListDefinitionId": 228,
-  "Rank": 18,
+  "UdListDefinitionId": 405,
+  "Rank": 382,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

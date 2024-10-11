@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Monahan-Johnson",
-    "ToolTip": "Perspiciatis et iste delectus quo.",
-    "Deleted": false,
-    "Rank": 543,
-    "Type": "eos",
-    "ColorBlock": 34,
-    "IconHint": "ut",
+    "Id": 79,
+    "Name": "Konopelski-Kling",
+    "ToolTip": "Quia nulla aut.",
+    "Deleted": true,
+    "Rank": 838,
+    "Type": "est",
+    "ColorBlock": 939,
+    "IconHint": "optio",
     "Selected": true,
-    "LastChanged": "2023-06-07T04:02:07.0878487+02:00",
+    "LastChanged": "2007-07-10T03:44:57.8437502+02:00",
     "ChildItems": [
       {
-        "Id": 435,
-        "Name": "Hand, Braun and Terry",
-        "ToolTip": "Quasi sit non dolores sit pariatur non.",
-        "Deleted": false,
-        "Rank": 652,
-        "Type": "quasi",
-        "ColorBlock": 335,
-        "IconHint": "saepe",
+        "Id": 494,
+        "Name": "Haag, Moen and Rolfson",
+        "ToolTip": "Reiciendis totam laudantium.",
+        "Deleted": true,
+        "Rank": 339,
+        "Type": "voluptatem",
+        "ColorBlock": 985,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "1998-07-17T04:02:07.0878487+02:00",
+        "LastChanged": "1997-10-02T03:44:57.8437502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "ullam",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Ms. Jennifer Helene Rice",
+        "FullName": "Marcel Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldType": "System.String",
+            "FieldLength": 774
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "est",
+    "ExtraInfo": "sunt",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Dr. Maximillian Dave Lueilwitz",
+    "FullName": "Margot Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 618
       }
     }
   }

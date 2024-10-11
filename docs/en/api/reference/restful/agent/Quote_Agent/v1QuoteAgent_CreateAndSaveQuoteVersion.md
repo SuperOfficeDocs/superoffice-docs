@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 307
+  "QuoteVersionId": 248
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 340,
-  "ERPQuoteVersionKey": "ut",
-  "QuoteId": 199,
-  "Description": "Business-focused executive orchestration",
-  "Number": "934936",
+  "QuoteVersionId": 101,
+  "ERPQuoteVersionKey": "aperiam",
+  "QuoteId": 583,
+  "Description": "Optional dynamic complexity",
+  "Number": "969761",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "aggregate B2B experiences",
-  "LikelyQuoteAlternativeId": 774,
-  "SentDate": "2016-03-11T04:02:02.1753367+01:00",
-  "FollowupId": 843,
-  "ExpirationDate": "2002-03-11T04:02:02.1753367+01:00",
-  "DeliveryCountryId": 315,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 561,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 482,
+  "SentDate": "2021-11-05T03:44:53.042699+01:00",
+  "FollowupId": 710,
+  "ExpirationDate": "2020-05-04T03:44:53.042699+02:00",
+  "DeliveryCountryId": 487,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 231,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "nihil",
-  "ERPPaymentTypeKey": "aut",
-  "ERPDeliveryTermsKey": "aut",
-  "ERPDeliveryTypeKey": "fugiat",
-  "Rank": 297,
-  "ApprovedBy": 709,
-  "ApprovedText": "unde",
-  "ApprovedRegisteredBy": 259,
-  "ApprovedRegisteredDate": "2012-11-12T04:02:02.1753367+01:00",
-  "ExtraField1": "asperiores",
-  "ExtraField2": "quis",
-  "ExtraField3": "omnis",
-  "ExtraField4": "ea",
-  "ExtraField5": "pariatur",
-  "LastRecalculated": "2013-02-14T04:02:02.1753367+01:00",
-  "Updated": "2006-05-21T04:02:02.1753367+02:00",
-  "UpdatedAssociateId": 739,
-  "Registered": "2009-05-25T04:02:02.1753367+02:00",
-  "RegisteredAssociateId": 218,
-  "RequestAssociateId": 214,
-  "RequestComment": "nam",
+  "ERPPaymentTermsKey": "et",
+  "ERPPaymentTypeKey": "necessitatibus",
+  "ERPDeliveryTermsKey": "sunt",
+  "ERPDeliveryTypeKey": "ratione",
+  "Rank": 537,
+  "ApprovedBy": 953,
+  "ApprovedText": "amet",
+  "ApprovedRegisteredBy": 452,
+  "ApprovedRegisteredDate": "2020-09-12T03:44:53.042699+02:00",
+  "ExtraField1": "non",
+  "ExtraField2": "cumque",
+  "ExtraField3": "nihil",
+  "ExtraField4": "dolor",
+  "ExtraField5": "qui",
+  "LastRecalculated": "2011-05-23T03:44:53.042699+02:00",
+  "Updated": "2017-11-07T03:44:53.042699+01:00",
+  "UpdatedAssociateId": 822,
+  "Registered": "2022-03-21T03:44:53.042699+01:00",
+  "RegisteredAssociateId": 84,
+  "RequestAssociateId": 294,
+  "RequestComment": "dicta",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 176,
-      "ERPQuoteAlternativeKey": "minima",
-      "QuoteVersionId": 849,
-      "Name": "Weissnat, Kiehn and Fritsch",
-      "Description": "Optimized web-enabled frame",
+      "QuoteAlternativeId": 567,
+      "ERPQuoteAlternativeKey": "quia",
+      "QuoteVersionId": 718,
+      "Name": "Gleichner LLC",
+      "Description": "Streamlined uniform project",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 16196.511999999999,
-      "ERPDiscountAmount": 16180.841999999999,
-      "DiscountPercent": 7305.3539999999994,
-      "DiscountAmount": 16318.738,
+      "ERPDiscountPercent": 11414.028,
+      "ERPDiscountAmount": 3199.814,
+      "DiscountPercent": 3268.7619999999997,
+      "DiscountAmount": 20822.296,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "tempore",
-      "VAT": 22176.183999999997,
-      "EarningPercent": 10686.94,
-      "EarningAmount": 8427.326,
-      "SubTotal": 30910.642,
-      "TotalPrice": 7778.588,
-      "ExtraField1": "aliquam",
-      "ExtraField2": "sit",
-      "ExtraField3": "et",
-      "ExtraField4": "non",
-      "ExtraField5": "tenetur",
+      "VATInfo": "error",
+      "VAT": 18703.712,
+      "EarningPercent": 10423.684,
+      "EarningAmount": 20674.998,
+      "SubTotal": 25391.667999999998,
+      "TotalPrice": 7891.4119999999994,
+      "ExtraField1": "consequatur",
+      "ExtraField2": "totam",
+      "ExtraField3": "odio",
+      "ExtraField4": "facere",
+      "ExtraField5": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldLength": 103
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 289
     }
   }
 }

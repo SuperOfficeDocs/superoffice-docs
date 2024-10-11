@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 800,
-    "Name": "Gerhold LLC",
-    "Description": "Synchronised intermediate archive",
+    "ProjectId": 126,
+    "Name": "Kub, Reichert and Schaden",
+    "Description": "Object-based optimizing secured line",
     "URL": "http://www.example.com/",
-    "Type": "voluptas",
-    "AssociateId": 368,
-    "AssociateFullName": "Clementina Armstrong",
-    "TypeId": 664,
-    "Updated": "1999-03-06T04:02:02.1597135+01:00",
-    "StatusId": 641,
-    "Status": "optio",
-    "TextId": 330,
-    "PublishTo": "2015-09-19T04:02:02.1597135+02:00",
-    "PublishFrom": "2013-03-20T04:02:02.1597135+01:00",
-    "IsPublished": false,
+    "Type": "animi",
+    "AssociateId": 453,
+    "AssociateFullName": "Aaliyah Kozey",
+    "TypeId": 577,
+    "Updated": "2022-11-18T03:44:53.0114471+01:00",
+    "StatusId": 130,
+    "Status": "cumque",
+    "TextId": 836,
+    "PublishTo": "2019-09-13T03:44:53.0114471+02:00",
+    "PublishFrom": "2020-12-26T03:44:53.0114471+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1565157",
-    "ActiveErpLinks": 101,
+    "ProjectNumber": "388308",
+    "ActiveErpLinks": 603,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 183
       }
     }
   }

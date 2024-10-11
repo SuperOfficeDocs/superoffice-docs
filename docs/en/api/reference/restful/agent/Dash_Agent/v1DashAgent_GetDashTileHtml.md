@@ -79,8 +79,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 977,
-  "LanguageCode": "facere"
+  "DashboardTileDefinitionId": 533,
+  "LanguageCode": "exercitationem"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "nihil",
-  "Html": "fuga",
+  "LanguageCode": "laboriosam",
+  "Html": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 791
     }
   }
 }

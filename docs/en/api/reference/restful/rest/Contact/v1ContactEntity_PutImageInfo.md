@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 726,
-  "BlobSize": 697,
-  "Description": "Synergized eco-centric info-mediaries",
-  "ExtraInfo": "a",
-  "IsEncrypted": true,
+  "BlobId": 590,
+  "BlobSize": 782,
+  "Description": "Universal upward-trending architecture",
+  "ExtraInfo": "nihil",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 773,
-  "CreatedDate": "2001-07-21T04:02:06.3686697+02:00",
-  "UpdatedDate": "2018-03-02T04:02:06.3686697+01:00",
+  "MimeType": "velit",
+  "OriginalSize": 356,
+  "CreatedDate": "2005-06-29T03:44:57.1090259+02:00",
+  "UpdatedDate": "2009-01-14T03:44:57.1090259+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eum"
+  "ConceptualType": "aut"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 108,
-  "BlobSize": 635,
-  "Description": "Fully-configurable multimedia standardization",
-  "ExtraInfo": "atque",
+  "BlobId": 584,
+  "BlobSize": 772,
+  "Description": "Diverse interactive info-mediaries",
+  "ExtraInfo": "quo",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 435,
-  "CreatedDate": "2005-06-15T04:02:06.3686697+02:00",
-  "UpdatedDate": "2008-04-25T04:02:06.3686697+02:00",
+  "IsZipped": true,
+  "MimeType": "nihil",
+  "OriginalSize": 904,
+  "CreatedDate": "2022-08-31T03:44:57.1246527+02:00",
+  "UpdatedDate": "1997-06-12T03:44:57.1246527+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 166
     }
   }
 }

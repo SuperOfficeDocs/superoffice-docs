@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 35,
-  "Name": "Gutkowski-Runte",
-  "Rank": 844,
-  "Tooltip": "eos",
+  "AssociateId": 656,
+  "Name": "Emmerich, Kassulke and Haley",
+  "Rank": 454,
+  "Tooltip": "assumenda",
   "LicenseOwners": [
     {
-      "Name": "Schowalter, Corkery and Hintz",
-      "Description": "Virtual mission-critical time-frame",
+      "Name": "Stehr-Smith",
+      "Description": "De-engineered upward-trending moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldType": "System.String",
+          "FieldLength": 630
         }
       }
     },
     {
-      "Name": "Schowalter, Corkery and Hintz",
-      "Description": "Virtual mission-critical time-frame",
+      "Name": "Stehr-Smith",
+      "Description": "De-engineered upward-trending moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldType": "System.String",
+          "FieldLength": 630
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "impedit",
-      "Tooltip": "minima",
-      "Id": 374,
-      "Rank": 964,
+      "Value": "totam",
+      "Tooltip": "molestiae",
+      "Id": 734,
+      "Rank": 373,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldLength": 6
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1997-10-06T04:02:07.0253551+02:00",
-  "Lastlogout": "2010-09-17T04:02:07.0253551+02:00",
-  "EjUserId": 892,
-  "RequestSignature": "sunt",
+  "Lastlogin": "2014-05-29T03:44:57.7812958+02:00",
+  "Lastlogout": "2022-04-16T03:44:57.7812958+02:00",
+  "EjUserId": 700,
+  "RequestSignature": "modi",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "molestias",
-      "DisplayValue": "soluta",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 437
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "molestias",
-      "DisplayValue": "soluta",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 437
-        }
-      }
-    }
-  ],
-  "UserName": "Bauch-Larson",
-  "TicketCategories": [
-    {
-      "Id": 621,
-      "Name": "Christiansen LLC",
-      "ToolTip": "Fugiat aliquam.",
-      "Deleted": true,
-      "Rank": 475,
-      "Type": "rerum",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "laboriosam",
-      "ColorBlock": 934,
-      "ExtraInfo": "numquam",
-      "StyleHint": "inventore",
-      "FullName": "Annamarie Bailey",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 29
-        }
-      }
-    }
-  ],
-  "NickName": "Heathcote-Balistreri",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "ea"
-  },
-  "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "quam"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Borer Group",
-      "DisplayName": "Stanton Inc and Sons",
-      "Description": "User-centric full-range initiative",
-      "ToolTip": "Velit in enim nisi repellat soluta voluptatibus.",
-      "Actions": "Implicit",
-      "ActionData": "recusandae",
+      "Value": "ipsum",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldLength": 880
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ipsum",
+      "DisplayValue": "placeat",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 880
+        }
+      }
+    }
+  ],
+  "UserName": "Hintz, Aufderhar and Mills",
+  "TicketCategories": [
+    {
+      "Id": 475,
+      "Name": "Ritchie Group",
+      "ToolTip": "Facere consequatur qui necessitatibus.",
+      "Deleted": false,
+      "Rank": 902,
+      "Type": "ea",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "eius",
+      "ColorBlock": 416,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "voluptatem",
+      "FullName": "Philip Bradly Gusikowski II",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 303
+        }
+      }
+    }
+  ],
+  "NickName": "Welch-Orn",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "officia",
+    "CustomFields2": "alias"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "West Group",
+      "DisplayName": "Boyle-Cremin",
+      "Description": "Re-engineered fresh-thinking neural-net",
+      "ToolTip": "Quia aut qui sit.",
+      "Actions": "Implicit",
+      "ActionData": "sapiente",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 671
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 639
     }
   }
 }

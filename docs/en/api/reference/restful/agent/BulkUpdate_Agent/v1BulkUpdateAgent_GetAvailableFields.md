@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "asperiores",
-    "ValueType": "veniam",
-    "Mandatory": false,
-    "EncodedDisplayName": "Frami Group",
-    "EncodedDisplayDescription": "Up-sized context-sensitive open system",
-    "IconHint": "sed",
+    "IsActive": false,
+    "Key": "unde",
+    "ValueType": "tenetur",
+    "Mandatory": true,
+    "EncodedDisplayName": "Larkin LLC",
+    "EncodedDisplayDescription": "Self-enabling analyzing definition",
+    "IconHint": "non",
     "ControlInfos": [
       {
-        "Type": "numquam",
-        "Label": "quo",
-        "Dimension": 160,
-        "ListProviderName": "Hegmann, Aufderhar and Swift",
-        "ListProviderExtraInfo": "sequi",
-        "ListProviderPrimaryKeyName": "Marvin-Rice",
-        "ListLeadText": "rerum",
+        "Type": "mollitia",
+        "Label": "vitae",
+        "Dimension": 547,
+        "ListProviderName": "Wyman, Willms and Gleichner",
+        "ListProviderExtraInfo": "repudiandae",
+        "ListProviderPrimaryKeyName": "Schmitt-Kulas",
+        "ListLeadText": "quis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 28
           }
         }
       }
     ],
-    "EncodedDataCaption": "quo",
-    "EncodedDataCaptionDescription": "Cloned impactful Graphic Interface",
-    "CurrentOperationType": "quia",
+    "EncodedDataCaption": "praesentium",
+    "EncodedDataCaptionDescription": "Re-contextualized real-time flexibility",
+    "CurrentOperationType": "itaque",
     "Values": [
-      "ab",
-      "dicta"
+      "aut",
+      "in"
     ],
     "DisplayValues": [
-      "soluta",
-      "voluptatibus"
+      "fugit",
+      "nihil"
     ],
     "OperationInfos": [
       {
-        "Key": "consectetur",
-        "EncodedDisplayName": "Ward, Morar and O'Hara",
+        "Key": "sed",
+        "EncodedDisplayName": "Rogahn, Dietrich and Cummerata",
         "EncodedLeadTexts": [
-          "quas",
-          "quaerat"
+          "ad",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 264
+            "FieldType": "System.String",
+            "FieldLength": 735
           }
         }
       },
       {
-        "Key": "consectetur",
-        "EncodedDisplayName": "Ward, Morar and O'Hara",
+        "Key": "sed",
+        "EncodedDisplayName": "Rogahn, Dietrich and Cummerata",
         "EncodedLeadTexts": [
-          "quas",
-          "quaerat"
+          "ad",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 264
+            "FieldType": "System.String",
+            "FieldLength": 735
           }
         }
       }

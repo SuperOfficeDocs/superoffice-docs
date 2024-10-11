@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 02 Oct 2016 04:02:06 G10T
+Last-Modified: Fri, 18 May 2018 03:44:57 G5T
 
 {
-  "ForeignAppId": 599,
-  "Name": "Bergstrom Inc and Sons",
-  "CreatedDate": "2004-03-26T04:02:06.6035245+01:00",
-  "UpdatedDate": "2016-10-02T04:02:06.6035245+02:00",
+  "ForeignAppId": 33,
+  "Name": "Homenick Inc and Sons",
+  "CreatedDate": "2013-06-22T03:44:57.3433794+02:00",
+  "UpdatedDate": "2018-05-18T03:44:57.3433794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 498,
-      "Name": "Luettgen, Wunsch and Upton",
-      "CreatedDate": "2006-04-03T04:02:06.6035245+02:00",
-      "UpdatedDate": "2010-11-12T04:02:06.6035245+01:00",
-      "AssociateFullName": "Devan Sherwood Bode II",
-      "CreatedBy": "eum",
-      "UpdatedBy": "odio",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 379,
+      "ForeignDeviceId": 47,
+      "Name": "Funk LLC",
+      "CreatedDate": "1999-06-04T03:44:57.3433794+02:00",
+      "UpdatedDate": "1998-09-16T03:44:57.3433794+02:00",
+      "AssociateFullName": "Roscoe Wehner",
+      "CreatedBy": "adipisci",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "ab",
+      "ForeignAppId": 60,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 83
         }
       }
     }
@@ -105,8 +105,8 @@ Last-Modified: Sun, 02 Oct 2016 04:02:06 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 406
     }
   }
 }

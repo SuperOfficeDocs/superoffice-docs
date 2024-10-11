@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 577,
-  "Name": "Dach LLC",
-  "Description": "Intuitive 4th generation standardization"
+  "SourceId": 485,
+  "Name": "Walter-Lindgren",
+  "Description": "Balanced exuding access"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 200,
+  "ReportId": 715,
   "ReportCategory": "All",
-  "Description": "User-friendly incremental concept",
+  "Description": "Polarised bandwidth-monitored middleware",
   "ReportLayout": "CalendarMonth",
-  "Name": "Will-Hartmann",
-  "AssociateId": 960,
-  "TemplateId": 399,
+  "Name": "Leuschke Inc and Sons",
+  "AssociateId": 844,
+  "TemplateId": 903,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   }
 }

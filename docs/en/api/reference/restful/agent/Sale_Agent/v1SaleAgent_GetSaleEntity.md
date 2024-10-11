@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=240
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=476
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repellendus",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-02-23T04:02:02.2690772+01:00",
-  "Amount": 25231.834,
-  "SaleId": 398,
-  "Earning": 1598.34,
-  "EarningPercent": 18894.886,
-  "Heading": "reiciendis",
-  "Number": "1546347",
-  "Probability": 91,
-  "CreatedDate": "1998-09-07T04:02:02.2690772+02:00",
-  "UpdatedDate": "2010-01-07T04:02:02.2690772+01:00",
+  "Saledate": "2013-09-10T03:44:53.1212215+02:00",
+  "Amount": 30941.982,
+  "SaleId": 116,
+  "Earning": 28964.428,
+  "EarningPercent": 16766.899999999998,
+  "Heading": "veritatis",
+  "Number": "806074",
+  "Probability": 46,
+  "CreatedDate": "2023-06-05T03:44:53.1212215+02:00",
+  "UpdatedDate": "2018-01-28T03:44:53.1212215+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 957,
+  "ActiveLinks": 890,
   "Links": [
     {
-      "EntityName": "O'Keefe Inc and Sons",
-      "Id": 798,
-      "Description": "Balanced logistical core",
-      "ExtraInfo": "nostrum",
-      "LinkId": 951,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 957
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2012-08-31T04:02:02.2690772+02:00",
-  "Postit": "non",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2022-12-28T04:02:02.2690772+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Simonis-Lemke",
-      "Comment": "quia",
-      "StakeholderRoleId": 760,
-      "CountryId": 409,
-      "PersonId": 715,
-      "EmailDescription": "esperanza@luettgenpagac.uk",
-      "EmailId": 762,
-      "EmailAddress": "vladimir@bashirianmoore.uk",
-      "PhoneId": 790,
-      "ContactName": "Senger, Koepp and Schamberger",
-      "ContactId": 329,
-      "SaleId": 323,
-      "Mrmrs": "quas",
-      "Firstname": "Karley",
-      "MiddleName": "Ernser LLC",
-      "Lastname": "Bartell",
-      "SaleStakeholderId": 157,
-      "Rank": 79,
-      "Phone": "577-325-4674 x62311",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 287
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 587,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Rossie Murazik PhD",
-    "SuperOffice:2": "Antonio Ondricka"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "quaerat"
-  },
-  "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "sit"
-  },
-  "PublishEventDate": "1998-02-13T04:02:02.2690772+01:00",
-  "PublishTo": "2015-09-06T04:02:02.2690772+02:00",
-  "PublishFrom": "2009-07-18T04:02:02.2690772+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 201,
-      "Visibility": "All",
-      "DisplayValue": "velit",
+      "EntityName": "Greenfelder Group",
+      "Id": 295,
+      "Description": "Sharable 24/7 benchmark",
+      "ExtraInfo": "ullam",
+      "LinkId": 748,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 638
+          "FieldLength": 223
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2015-03-19T03:44:53.1212215+01:00",
+  "Postit": "qui",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "1999-10-05T03:44:53.1212215+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Daugherty Inc and Sons",
+      "Comment": "odio",
+      "StakeholderRoleId": 666,
+      "CountryId": 975,
+      "PersonId": 363,
+      "EmailDescription": "theodore@powlowski.uk",
+      "EmailId": 535,
+      "EmailAddress": "cullen@cummings.biz",
+      "PhoneId": 747,
+      "ContactName": "Lueilwitz Group",
+      "ContactId": 331,
+      "SaleId": 241,
+      "Mrmrs": "rem",
+      "Firstname": "Monte",
+      "MiddleName": "Buckridge, Rippin and Keeling",
+      "Lastname": "Yost",
+      "SaleStakeholderId": 995,
+      "Rank": 348,
+      "Phone": "306.140.6418",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 380
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 634,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Dr. Tiana Lang",
+    "SuperOffice:2": "Loraine Wiegand"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "porro",
+    "ExtraFields2": "mollitia"
+  },
+  "CustomFields": {
+    "CustomFields1": "ullam",
+    "CustomFields2": "sapiente"
+  },
+  "PublishEventDate": "2017-10-11T03:44:53.1212215+02:00",
+  "PublishTo": "2011-04-29T03:44:53.1212215+02:00",
+  "PublishFrom": "2018-12-27T03:44:53.1212215+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 862,
+      "Visibility": "All",
+      "DisplayValue": "ab",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 335
         }
       }
     },
     {
-      "VisibleId": 201,
+      "VisibleId": 862,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 638
+          "FieldType": "System.Int32",
+          "FieldLength": 335
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldLength": 870
     }
   }
 }

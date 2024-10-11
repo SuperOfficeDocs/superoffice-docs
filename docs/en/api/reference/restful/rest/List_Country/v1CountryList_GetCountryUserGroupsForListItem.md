@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Durgan LLC",
-    "ToolTip": "Id sit sequi velit voluptas.",
+    "Id": 986,
+    "Name": "Stroman-Padberg",
+    "ToolTip": "Commodi est quis dignissimos eum nisi quia quidem.",
     "Deleted": false,
-    "Rank": 560,
-    "Type": "ut",
-    "ColorBlock": 369,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2018-04-12T04:02:07.119095+02:00",
+    "Rank": 619,
+    "Type": "suscipit",
+    "ColorBlock": 201,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "1998-11-15T03:44:57.9531133+01:00",
     "ChildItems": [
       {
-        "Id": 2,
-        "Name": "Hoppe, Hansen and West",
-        "ToolTip": "Aperiam natus sunt.",
+        "Id": 789,
+        "Name": "Marks, Dibbert and Kerluke",
+        "ToolTip": "Tempore numquam repellendus.",
         "Deleted": false,
-        "Rank": 558,
-        "Type": "eum",
-        "ColorBlock": 231,
-        "IconHint": "earum",
-        "Selected": false,
-        "LastChanged": "1999-08-14T04:02:07.119095+02:00",
+        "Rank": 474,
+        "Type": "fugit",
+        "ColorBlock": 85,
+        "IconHint": "facilis",
+        "Selected": true,
+        "LastChanged": "2013-11-06T03:44:57.9531133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Jimmy Rath",
+        "ExtraInfo": "sit",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Franz Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 457
+            "FieldLength": 509
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Cody Wuckert",
+    "ExtraInfo": "tempore",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Miss Jordi Flavie Macejkovic Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldType": "System.Int32",
+        "FieldLength": 296
       }
     }
   }

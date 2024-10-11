@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eum",
+  "SaleText": "natus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-09-24T04:02:06.806628+02:00",
-  "Amount": 24811.878,
-  "SaleId": 789,
-  "Earning": 23639.762,
-  "EarningPercent": 476.368,
-  "Heading": "totam",
-  "Number": "1116685",
-  "Probability": 581,
-  "CreatedDate": "2022-12-29T04:02:06.806628+01:00",
-  "UpdatedDate": "2000-10-27T04:02:06.806628+02:00",
+  "Saledate": "2019-09-03T03:44:57.5469246+02:00",
+  "Amount": 19361.852,
+  "SaleId": 645,
+  "Earning": 16118.162,
+  "EarningPercent": 1855.328,
+  "Heading": "possimus",
+  "Number": "1397120",
+  "Probability": 659,
+  "CreatedDate": "2006-10-12T03:44:57.5469246+02:00",
+  "UpdatedDate": "2017-10-29T03:44:57.5469246+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 736,
+  "ActiveLinks": 134,
   "Links": [
     {
-      "EntityName": "Waters, Tromp and Marquardt",
-      "Id": 15,
-      "Description": "User-friendly heuristic focus group",
+      "EntityName": "Williamson, Schaefer and Tremblay",
+      "Id": 335,
+      "Description": "Programmable hybrid data-warehouse",
       "ExtraInfo": "est",
-      "LinkId": 808,
+      "LinkId": 312,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 912
+          "FieldLength": 657
         }
       }
     }
   ],
-  "NextDueDate": "2022-03-30T04:02:06.806628+02:00",
-  "Postit": "quia",
+  "NextDueDate": "2024-02-19T03:44:57.5469246+01:00",
+  "Postit": "voluptatibus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1997-05-23T04:02:06.806628+02:00",
+  "ReopenDate": "2010-07-20T03:44:57.5469246+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jewess, Pagac and O'Keefe",
-      "Comment": "modi",
-      "StakeholderRoleId": 137,
-      "CountryId": 199,
-      "PersonId": 583,
-      "EmailDescription": "vernice@mcdermott.uk",
-      "EmailId": 675,
-      "EmailAddress": "myrna.jaskolski@yundt.info",
-      "PhoneId": 777,
-      "ContactName": "Donnelly LLC",
-      "ContactId": 719,
-      "SaleId": 431,
-      "Mrmrs": "autem",
-      "Firstname": "Gennaro",
-      "MiddleName": "Connelly, Kovacek and Emard",
-      "Lastname": "Rosenbaum",
-      "SaleStakeholderId": 767,
-      "Rank": 649,
-      "Phone": "751.535.2662",
+      "StakeholderRoleName": "Jacobson LLC",
+      "Comment": "ad",
+      "StakeholderRoleId": 479,
+      "CountryId": 468,
+      "PersonId": 361,
+      "EmailDescription": "karine.stark@dubuque.info",
+      "EmailId": 229,
+      "EmailAddress": "jana_homenick@watsicaaltenwerth.info",
+      "PhoneId": 426,
+      "ContactName": "Sipes LLC",
+      "ContactId": 900,
+      "SaleId": 375,
+      "Mrmrs": "est",
+      "Firstname": "Lorna",
+      "MiddleName": "Anderson-Gibson",
+      "Lastname": "Schroeder",
+      "SaleStakeholderId": 690,
+      "Rank": 434,
+      "Phone": "725-517-6679",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 666
         }
       }
     }
   ],
-  "ActiveErpLinks": 255,
+  "ActiveErpLinks": 376,
   "UserDefinedFields": {
-    "SuperOffice:1": "76720169",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1323581721",
+    "SuperOffice:2": "Laisha Rippin"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "ut",
+    "CustomFields2": "nam"
   },
-  "PublishEventDate": "2007-05-16T04:02:06.806628+02:00",
-  "PublishTo": "2000-11-06T04:02:06.806628+01:00",
-  "PublishFrom": "2009-04-03T04:02:06.806628+02:00",
+  "PublishEventDate": "2004-01-28T03:44:57.5469246+01:00",
+  "PublishTo": "2002-04-22T03:44:57.5469246+02:00",
+  "PublishFrom": "2005-03-26T03:44:57.5469246+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 372,
+      "VisibleId": 401,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 245
+          "FieldLength": 528
         }
       }
     },
     {
-      "VisibleId": 372,
+      "VisibleId": 401,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 245
+          "FieldLength": 528
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldLength": 871
     }
   },
   "_Links": {

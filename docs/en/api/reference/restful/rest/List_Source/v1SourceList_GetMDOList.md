@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=sint
+GET /api/v1/List/Source/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "McKenzie-Trantow",
-    "ToolTip": "Quidem numquam qui ratione blanditiis ad.",
+    "Id": 121,
+    "Name": "Kessler Group",
+    "ToolTip": "Repudiandae ducimus numquam ipsa ex possimus harum aut.",
     "Deleted": false,
-    "Rank": 110,
-    "Type": "ut",
+    "Rank": 261,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Gulgowski, Abshire and Schowalter",
-        "ToolTip": "Necessitatibus ab nostrum officia.",
+        "Id": 208,
+        "Name": "Quitzon-Walker",
+        "ToolTip": "Qui explicabo ut officia.",
         "Deleted": false,
-        "Rank": 403,
-        "Type": "et",
+        "Rank": 870,
+        "Type": "impedit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vero",
-        "ColorBlock": 459,
-        "ExtraInfo": "quidem",
-        "StyleHint": "quia",
-        "FullName": "Aurore Goyette",
+        "IconHint": "eius",
+        "ColorBlock": 319,
+        "ExtraInfo": "minus",
+        "StyleHint": "non",
+        "FullName": "Prof. Maureen Queenie Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 778
+            "FieldLength": 826
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 697,
-    "ExtraInfo": "a",
-    "StyleHint": "magni",
-    "FullName": "Toy Marvin",
+    "IconHint": "recusandae",
+    "ColorBlock": 7,
+    "ExtraInfo": "ducimus",
+    "StyleHint": "qui",
+    "FullName": "Dr. Ethyl Georgiana Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 49
       }
     }
   }

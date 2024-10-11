@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 863,
-  "LanguageCode": "est"
+  "DocumentTemplateId": 253,
+  "LanguageCode": "sed"
 }
 ```
 

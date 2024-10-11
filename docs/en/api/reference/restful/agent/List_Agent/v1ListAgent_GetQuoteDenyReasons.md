@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Value": "eum",
-    "Tooltip": "sed",
+    "Id": 348,
+    "Value": "dignissimos",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 585
       }
     }
   },
   {
-    "Id": 947,
-    "Value": "eum",
-    "Tooltip": "sed",
+    "Id": 348,
+    "Value": "dignissimos",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 585
       }
     }
   }

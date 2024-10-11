@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 49,
-  "CredentialType": "nihil",
-  "CredentialValue": "id",
-  "CredentialDisplayValue": "est"
+  "ContactId": 655,
+  "CredentialType": "est",
+  "CredentialValue": "quia",
+  "CredentialDisplayValue": "nam"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 2,
-  "Name": "Runolfsdottir Group",
-  "Rank": 222,
-  "Tooltip": "illo",
+  "AssociateId": 465,
+  "Name": "Murazik, Steuber and Harris",
+  "Rank": 460,
+  "Tooltip": "dolorem",
   "LicenseOwners": [
     {
-      "Name": "Gutmann Group",
-      "Description": "Self-enabling logistical orchestration",
+      "Name": "Hayes-Raynor",
+      "Description": "Synergized 6th generation hardware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 641
         }
       }
     },
     {
-      "Name": "Gutmann Group",
-      "Description": "Self-enabling logistical orchestration",
+      "Name": "Hayes-Raynor",
+      "Description": "Synergized 6th generation hardware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 641
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "cupiditate",
-      "Tooltip": "ullam",
-      "Id": 325,
-      "Rank": 537,
-      "Deleted": true,
+      "Value": "quibusdam",
+      "Tooltip": "qui",
+      "Id": 523,
+      "Rank": 621,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 511
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1998-12-04T04:02:02.5197286+01:00",
-  "Lastlogout": "2018-10-08T04:02:02.5197286+02:00",
-  "EjUserId": 928,
-  "RequestSignature": "sapiente",
+  "Lastlogin": "2009-04-19T03:44:53.3716682+02:00",
+  "Lastlogout": "2023-07-09T03:44:53.3716682+02:00",
+  "EjUserId": 554,
+  "RequestSignature": "placeat",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quasi",
-      "DisplayValue": "est",
+      "Value": "voluptatem",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldLength": 759
         }
       }
     },
     {
       "Type": null,
-      "Value": "quasi",
-      "DisplayValue": "est",
+      "Value": "voluptatem",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldLength": 759
         }
       }
     }
   ],
-  "UserName": "Howe Inc and Sons",
+  "UserName": "Altenwerth LLC",
   "TicketCategories": [
     {
-      "Id": 281,
-      "Name": "Sporer, Monahan and Mohr",
-      "ToolTip": "Nihil quos.",
+      "Id": 566,
+      "Name": "O'Hara Inc and Sons",
+      "ToolTip": "Explicabo quo velit.",
       "Deleted": false,
-      "Rank": 253,
-      "Type": "praesentium",
+      "Rank": 836,
+      "Type": "accusamus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nisi",
-      "ColorBlock": 425,
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "vel",
-      "FullName": "Elinore Upton",
+      "IconHint": "ducimus",
+      "ColorBlock": 629,
+      "ExtraInfo": "omnis",
+      "StyleHint": "corporis",
+      "FullName": "Miss Carli Reid Roberts II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldLength": 147
         }
       }
     }
   ],
-  "NickName": "Schamberger-Steuber",
+  "NickName": "Hegmann-Larson",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "non"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "impedit"
+    "CustomFields1": "aut",
+    "CustomFields2": "doloremque"
   },
   "PostSaveCommands": [
     {
-      "Name": "Fay-Stark",
-      "DisplayName": "Marquardt, McClure and Graham",
-      "Description": "Profound national emulation",
-      "ToolTip": "Numquam occaecati dolorem cum sint nihil non.",
+      "Name": "Farrell Group",
+      "DisplayName": "Rippin Inc and Sons",
+      "Description": "Vision-oriented methodical challenge",
+      "ToolTip": "Eveniet officiis.",
       "Actions": "Implicit",
-      "ActionData": "iure",
+      "ActionData": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

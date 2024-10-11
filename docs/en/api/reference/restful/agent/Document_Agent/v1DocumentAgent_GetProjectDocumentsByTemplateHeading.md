@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 276,
-  "StartTime": "2016-10-23T04:02:01.5811276+02:00",
-  "EndTime": "2005-08-16T04:02:01.5811276+02:00",
-  "Count": 856,
-  "TemplateHeadingId": 836
+  "ProjectId": 537,
+  "StartTime": "2010-04-02T03:44:52.4333602+02:00",
+  "EndTime": "2020-05-28T03:44:52.4333602+02:00",
+  "Count": 813,
+  "TemplateHeadingId": 47
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 473,
-    "Attention": "aliquid",
-    "Header": "molestiae",
-    "Name": "Kreiger-Olson",
-    "OurRef": "qui",
-    "YourRef": "architecto",
-    "Description": "Persistent reciprocal projection",
-    "DocumentTemplate": "ea",
+    "DocumentId": 441,
+    "Attention": "inventore",
+    "Header": "tenetur",
+    "Name": "Anderson, Stamm and Stracke",
+    "OurRef": "pariatur",
+    "YourRef": "vel",
+    "Description": "Customizable value-added frame",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 150,
-    "PersonFullName": "Reyna Stark",
-    "AssociateFullName": "Gerhard D'Amore",
-    "ContactId": 373,
-    "ContactName": "Schultz Group",
-    "ProjectId": 208,
-    "ProjectName": "Gerhold-Sanford",
-    "AssociateId": 534,
-    "Snum": 81,
-    "SaleId": 800,
-    "SaleName": "Dicki Group",
+    "PersonId": 935,
+    "PersonFullName": "Mr. Nona Franecki II",
+    "AssociateFullName": "Dino Leuschke",
+    "ContactId": 201,
+    "ContactName": "Stamm, Heaney and Haley",
+    "ProjectId": 975,
+    "ProjectName": "Bednar, Adams and Smitham",
+    "AssociateId": 333,
+    "Snum": 214,
+    "SaleId": 303,
+    "SaleName": "Gerhold, Schuster and Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 299
       }
     }
   }

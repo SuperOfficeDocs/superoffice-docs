@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "impedit",
+    "path": "laudantium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "impedit",
+    "path": "laudantium",
     "value": {}
   }
 ]
@@ -150,40 +150,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 763,
-  "Name": "Collins-Gibson",
-  "Rank": 395,
-  "Tooltip": "quia",
-  "Icon": "necessitatibus",
-  "DefaultTicketStatus": 986,
+  "TicketTypeId": 175,
+  "Name": "Mraz LLC",
+  "Rank": 936,
+  "Tooltip": "animi",
+  "Icon": "rerum",
+  "DefaultTicketStatus": 987,
   "TicketStatuses": [
-    424,
-    302
+    121,
+    960
   ],
-  "DefaultTicketPriority": 865,
+  "DefaultTicketPriority": 447,
   "TicketPriorities": [
-    920,
-    399
+    522,
+    773
   ],
-  "ReplyTemplate": 984,
+  "ReplyTemplate": 428,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    210,
-    762
+    422,
+    940
   ],
   "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldLength": 868
     }
   },
   "_Links": {

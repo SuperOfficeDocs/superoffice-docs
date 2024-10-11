@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 781
+  "ProjectId": 821
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized human-resource utilisation",
-  "Postit": "tempora",
+  "Description": "Versatile local support",
+  "Postit": "quam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 386,
-  "IncludePerson": 749,
+  "GroupIdx": 458,
+  "IncludePerson": 925,
   "MemberCount": 99.99,
-  "Name": "Kilback-Schuppe",
-  "PostitTextId": 32,
-  "CreatedDate": "2007-04-12T04:02:02.31613+02:00",
-  "SelectionId": 191,
-  "SoundEx": "iste",
-  "Source": 214,
-  "TextId": 546,
-  "UpdatedDate": "1998-07-03T04:02:02.31613+02:00",
-  "UpdatedCount": 62,
-  "Visibility": 305,
+  "Name": "Waelchi-Ullrich",
+  "PostitTextId": 774,
+  "CreatedDate": "2023-11-13T03:44:53.1726478+01:00",
+  "SelectionId": 371,
+  "SoundEx": "eius",
+  "Source": 341,
+  "TextId": 522,
+  "UpdatedDate": "2019-06-23T03:44:53.1726478+02:00",
+  "UpdatedCount": 91,
+  "Visibility": 370,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 649,
-  "TargetTableName": "Wilderman-Fritsch",
-  "Completed": false,
-  "LeftSelectionId": 821,
-  "RightSelectionId": 345,
+  "CompanyUnique": false,
+  "TargetTableNumber": 702,
+  "TargetTableName": "Tremblay-Orn",
+  "Completed": true,
+  "LeftSelectionId": 195,
+  "RightSelectionId": 641,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Simonis-Kub",
-  "ShadowProviderName": "Huels-Jewess",
-  "ChartKey": "beatae",
-  "LastLoaded": "2009-02-14T04:02:02.31613+01:00",
-  "LastLoadedBy": 708,
+  "MainProviderName": "Feil-Wehner",
+  "ShadowProviderName": "Funk-Konopelski",
+  "ChartKey": "harum",
+  "LastLoaded": "2009-04-18T03:44:53.1726478+02:00",
+  "LastLoadedBy": 21,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-10-15T04:02:02.31613+02:00",
-  "LastMembershipChangeBy": 997,
+  "LastMembershipChange": "2013-05-08T03:44:53.1726478+02:00",
+  "LastMembershipChangeBy": 336,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "mollitia",
-  "MemberTabHeading": "ducimus",
-  "MailingsProviderName": "Beatty-Pfeffer",
-  "DashboardTileDefinitionId": 143,
+  "MainHeading": "dolore",
+  "MemberTabHeading": "quasi",
+  "MailingsProviderName": "Sauer-Deckow",
+  "DashboardTileDefinitionId": 977,
   "VisibleFor": [
     {
-      "VisibleId": 492,
+      "VisibleId": 312,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 348
         }
       }
     },
     {
-      "VisibleId": 492,
+      "VisibleId": 312,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 348
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldLength": 230
     }
   }
 }

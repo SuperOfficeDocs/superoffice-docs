@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 990,
-  "Name": "Wintheiser, Lockman and Parker",
-  "Description": "Enterprise-wide motivating moratorium",
-  "DeltaJson": "tempore",
+  "ConfigurableScreenDeltaId": 511,
+  "Name": "Rolfson-Weissnat",
+  "Description": "Grass-roots even-keeled strategy",
+  "DeltaJson": "placeat",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quisquam",
-  "UpdatedDate": "2022-05-13T04:02:01.4092709+02:00",
-  "CreatedDate": "2010-05-04T04:02:01.4092709+02:00",
+  "RecipeId": "enim",
+  "UpdatedDate": "2022-05-14T03:44:52.2771517+02:00",
+  "CreatedDate": "2017-11-11T03:44:52.2771517+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    714,
-    267
+    88,
+    922
   ],
   "AppliesToKey": "voluptas",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 658
     }
   }
 }

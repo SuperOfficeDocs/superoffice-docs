@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 905
+  "TicketMessageEntityId": 666
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 860,
-    "Name": "Collier, Medhurst and Corwin",
-    "ContentType": "ab",
-    "AttSize": 572,
+    "AttachmentId": 308,
+    "Name": "Kutch Inc and Sons",
+    "ContentType": "praesentium",
+    "AttSize": 747,
     "InlineImage": false,
-    "ContentId": "dicta",
-    "AuthKey": "beatae",
+    "ContentId": "totam",
+    "AuthKey": "ut",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=quia
+GET /api/v1/List/DeliveryType/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 939,
-    "Name": "Weimann, Hackett and Beer",
-    "ToolTip": "Sed recusandae.",
-    "Deleted": false,
-    "Rank": 82,
-    "Type": "quia",
+    "Id": 96,
+    "Name": "Wolff-Macejkovic",
+    "ToolTip": "Labore a sit sed necessitatibus est.",
+    "Deleted": true,
+    "Rank": 786,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Morar Inc and Sons",
-        "ToolTip": "Non maiores cupiditate ut.",
-        "Deleted": false,
-        "Rank": 975,
-        "Type": "at",
+        "Id": 466,
+        "Name": "Osinski-Batz",
+        "ToolTip": "Necessitatibus sit.",
+        "Deleted": true,
+        "Rank": 521,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 24,
-        "ExtraInfo": "nihil",
-        "StyleHint": "inventore",
-        "FullName": "Danyka Patrick Blick I",
+        "IconHint": "eveniet",
+        "ColorBlock": 240,
+        "ExtraInfo": "quasi",
+        "StyleHint": "dolore",
+        "FullName": "Lorenza Toy DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 946
+            "FieldType": "System.Int32",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 49,
-    "ExtraInfo": "aut",
-    "StyleHint": "quod",
-    "FullName": "Ms. Elenora Bailey IV",
+    "IconHint": "quia",
+    "ColorBlock": 417,
+    "ExtraInfo": "sequi",
+    "StyleHint": "quibusdam",
+    "FullName": "Carmine Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldLength": 379
       }
     }
   }

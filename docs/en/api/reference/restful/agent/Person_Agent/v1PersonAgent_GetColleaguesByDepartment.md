@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 522
+  "DepartmentId": 880
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ea",
-    "PersonId": 46,
-    "Mrmrs": "iusto",
-    "Firstname": "Delphine",
-    "Lastname": "Runte",
-    "MiddleName": "Daniel-Douglas",
-    "Title": "ea",
-    "Description": "Triple-buffered zero tolerance data-warehouse",
-    "Email": "pinkie@olson.name",
-    "FullName": "Mrs. Oswaldo Schimmel I",
-    "DirectPhone": "417-011-7146",
-    "FormalName": "Altenwerth Group",
-    "CountryId": 77,
-    "ContactId": 700,
-    "ContactName": "Conroy, Reynolds and Cronin",
-    "Retired": 205,
-    "Rank": 72,
-    "ActiveInterests": 361,
+    "Position": "molestiae",
+    "PersonId": 904,
+    "Mrmrs": "impedit",
+    "Firstname": "Audrey",
+    "Lastname": "Beer",
+    "MiddleName": "O'Reilly LLC",
+    "Title": "consequuntur",
+    "Description": "Reduced modular pricing structure",
+    "Email": "ernie_bosco@champlin.co.uk",
+    "FullName": "Ellie Hammes",
+    "DirectPhone": "(618)284-0313",
+    "FormalName": "Welch, Rodriguez and Hane",
+    "CountryId": 790,
+    "ContactId": 957,
+    "ContactName": "Mraz, Heller and Kihn",
+    "Retired": 842,
+    "Rank": 378,
+    "ActiveInterests": 597,
     "ContactDepartment": "",
-    "ContactCountryId": 225,
-    "ContactOrgNr": "1121122",
-    "FaxPhone": "1-012-798-8832 x0525",
-    "MobilePhone": "(577)270-3590",
-    "ContactPhone": "928.767.2838",
-    "AssociateName": "Powlowski LLC",
-    "AssociateId": 130,
+    "ContactCountryId": 608,
+    "ContactOrgNr": "978962",
+    "FaxPhone": "1-107-866-0080",
+    "MobilePhone": "(030)607-6794 x709",
+    "ContactPhone": "861.049.4821 x84610",
+    "AssociateName": "Hintz, Ortiz and Schulist",
+    "AssociateId": 193,
     "UsePersonAddress": false,
-    "ContactFax": "porro",
-    "Kanafname": "sed",
-    "Kanalname": "earum",
-    "Post1": "sunt",
-    "Post2": "porro",
-    "Post3": "dignissimos",
-    "EmailName": "ferne@koeppschmitt.co.uk",
-    "ContactFullName": "Zula Heaney",
-    "ActiveErpLinks": 665,
-    "TicketPriorityId": 453,
-    "SupportLanguageId": 199,
-    "SupportAssociateId": 581,
+    "ContactFax": "fuga",
+    "Kanafname": "minima",
+    "Kanalname": "qui",
+    "Post1": "ut",
+    "Post2": "dolores",
+    "Post3": "corrupti",
+    "EmailName": "santino@klockoeffertz.ca",
+    "ContactFullName": "Mr. Roosevelt Anderson Jr.",
+    "ActiveErpLinks": 423,
+    "TicketPriorityId": 339,
+    "SupportLanguageId": 154,
+    "SupportAssociateId": 930,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 432
+        "FieldType": "System.Int32",
+        "FieldLength": 448
       }
     }
   }

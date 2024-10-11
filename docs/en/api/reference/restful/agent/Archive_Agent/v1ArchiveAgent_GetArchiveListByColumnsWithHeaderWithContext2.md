@@ -167,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rutherford Group",
-  "Columns": "voluptatem",
-  "SortOrder": "ad",
+  "ProviderName": "Gleichner, Renner and Hyatt",
+  "Columns": "velit",
+  "SortOrder": "tenetur",
   "Restriction": "eos",
-  "Entities": "voluptas",
-  "Page": 51,
-  "PageSize": 882,
-  "Options": "nihil",
-  "Context": "labore"
+  "Entities": "saepe",
+  "Page": 498,
+  "PageSize": 743,
+  "Options": "a",
+  "Context": "distinctio"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 940,
+  "RowCount": 902,
   "Rows": [
     {
-      "EntityName": "Donnelly, Halvorson and Wuckert",
-      "PrimaryKey": 546,
+      "EntityName": "Mosciski-Sauer",
+      "PrimaryKey": 135,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "placeat",
-          "TooltipHint": "repellat",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "saepe",
+          "TooltipHint": "at",
+          "LinkHint": "delectus"
         }
       },
-      "LinkHint": "rem",
-      "StyleHint": "blanditiis",
+      "LinkHint": "sunt",
+      "StyleHint": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 606
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

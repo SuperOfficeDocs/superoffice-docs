@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Leffler, Kunze and Schimmel",
-    "ToolTip": "Vel maxime voluptatibus voluptatem.",
+    "Id": 67,
+    "Name": "Koch Group",
+    "ToolTip": "Accusantium omnis.",
     "Deleted": false,
-    "Rank": 861,
-    "Type": "quis",
-    "ColorBlock": 882,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2021-05-17T04:02:07.4167631+02:00",
+    "Rank": 708,
+    "Type": "praesentium",
+    "ColorBlock": 279,
+    "IconHint": "expedita",
+    "Selected": false,
+    "LastChanged": "2020-12-08T03:44:58.1562167+01:00",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Reinger LLC",
-        "ToolTip": "Mollitia pariatur pariatur velit est totam dolorum.",
-        "Deleted": false,
-        "Rank": 772,
-        "Type": "itaque",
-        "ColorBlock": 936,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2015-11-13T04:02:07.4167631+01:00",
+        "Id": 980,
+        "Name": "Toy-Konopelski",
+        "ToolTip": "Dolores alias quo.",
+        "Deleted": true,
+        "Rank": 340,
+        "Type": "atque",
+        "ColorBlock": 643,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2000-05-20T03:44:58.1562167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Jesse Kaya Thompson DDS"
+        "ExtraInfo": "quia",
+        "StyleHint": "voluptatibus",
+        "Hidden": true,
+        "FullName": "Susanna Freeda Gutkowski I"
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Dr. Brent Jonathan Dickens"
+    "ExtraInfo": "itaque",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Mr. Alessandra Odell Wintheiser"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Watsica Inc and Sons",
-    "ToolTip": "Quo quia omnis iure ducimus odit distinctio voluptatibus.",
+    "Id": 461,
+    "Name": "Kreiger-Nikolaus",
+    "ToolTip": "At fugit.",
     "Deleted": false,
-    "Rank": 242,
-    "Type": "dolor",
-    "ColorBlock": 18,
-    "IconHint": "exercitationem",
-    "Selected": true,
-    "LastChanged": "2006-02-25T04:02:07.4167631+01:00",
+    "Rank": 263,
+    "Type": "officiis",
+    "ColorBlock": 463,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2014-02-21T03:44:58.1562167+01:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Kertzmann Inc and Sons",
-        "ToolTip": "Iure et eum aut porro.",
-        "Deleted": false,
-        "Rank": 602,
-        "Type": "aliquid",
-        "ColorBlock": 219,
-        "IconHint": "at",
-        "Selected": false,
-        "LastChanged": "2024-05-10T04:02:07.4167631+02:00",
+        "Id": 579,
+        "Name": "Kozey Group",
+        "ToolTip": "Alias maxime nesciunt labore.",
+        "Deleted": true,
+        "Rank": 728,
+        "Type": "quod",
+        "ColorBlock": 266,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2009-02-26T03:44:58.1562167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Dr. Rosalee Alf O'Keefe",
+        "ExtraInfo": "unde",
+        "StyleHint": "recusandae",
+        "Hidden": false,
+        "FullName": "Zora Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldLength": 991
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Madelyn Bogan",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "nulla",
+    "Hidden": false,
+    "FullName": "Ms. Frankie Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 90
       }
     }
   }

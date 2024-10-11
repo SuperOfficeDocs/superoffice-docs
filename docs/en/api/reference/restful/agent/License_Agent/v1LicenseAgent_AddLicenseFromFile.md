@@ -80,7 +80,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "quidem"
+  "FileContent": "et"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
-  "CanBeActivated": false,
+  "Reason": "leverage plug-and-play deliverables",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 730,
-      "NumberOfLicensesFree": 32,
-      "NumberOfLicensesAdded": 773,
-      "NumberOfLicensesNewTotal": 611,
-      "NumberOfLicensesNewFree": 120,
-      "NumberOfLicensesTotal": 46
+      "NumberOfLicensesInUse": 944,
+      "NumberOfLicensesFree": 445,
+      "NumberOfLicensesAdded": 117,
+      "NumberOfLicensesNewTotal": 986,
+      "NumberOfLicensesNewFree": 861,
+      "NumberOfLicensesTotal": 842
     }
   ],
-  "AccumulatedNextCheckDate": "2017-09-15T04:02:01.8003604+02:00"
+  "AccumulatedNextCheckDate": "2001-01-23T03:44:52.6677336+01:00"
 }
 ```

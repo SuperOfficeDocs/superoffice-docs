@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 915,
-  "Name": "Franecki, Kulas and Wiegand",
-  "Tooltip": "ea",
+  "RoleId": 191,
+  "Name": "Koelpin-Goldner",
+  "Tooltip": "modi",
   "RoleType": "Anonymous",
-  "Deleted": 332,
-  "Rank": 127,
-  "Created": "2016-08-17T04:02:02.5197286+02:00",
-  "UseCategories": 882,
+  "Deleted": 115,
+  "Rank": 4,
+  "Created": "2001-10-23T03:44:53.3716682+02:00",
+  "UseCategories": 971,
   "CreatedBy": null,
-  "Updated": "2014-02-12T04:02:02.5197286+01:00",
+  "Updated": "2007-01-20T03:44:53.3716682+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

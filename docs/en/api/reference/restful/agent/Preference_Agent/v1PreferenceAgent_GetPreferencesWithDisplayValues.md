@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "est",
-      "Key": "molestiae"
+      "Section": "itaque",
+      "Key": "pariatur"
     },
     {
-      "Section": "est",
-      "Key": "molestiae"
+      "Section": "itaque",
+      "Key": "pariatur"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "vel",
+    "RawValue": "voluptas",
     "Specification": null,
-    "DisplayValue": "fugit",
-    "DisplayTooltip": "earum",
+    "DisplayValue": "ipsam",
+    "DisplayTooltip": "voluptatem",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 834,
-    "PrefDescId": 985,
-    "TableName": "Funk Inc and Sons",
-    "UserPreferenceId": 765,
+    "TargetId": 590,
+    "PrefDescId": 573,
+    "TableName": "O'Conner, Wolff and Ullrich",
+    "UserPreferenceId": 152,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldLength": 195
       }
     }
   }

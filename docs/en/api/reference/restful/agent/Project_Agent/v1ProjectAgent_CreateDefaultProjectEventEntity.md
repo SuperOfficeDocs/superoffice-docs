@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "possimus",
-  "SignOffText": "vel",
-  "SignOnConfirmationText": "ut",
-  "SignOnText": "aut",
-  "EventDate": "2013-02-03T04:02:02.1440899+01:00",
+  "SignOffConfirmationText": "dolor",
+  "SignOffText": "qui",
+  "SignOnConfirmationText": "quia",
+  "SignOnText": "repellendus",
+  "EventDate": "2022-02-09T03:44:52.9177081+01:00",
   "Enabled": false,
-  "CreatedDate": "2014-05-30T04:02:02.1440899+02:00",
+  "CreatedDate": "2006-04-18T03:44:52.9177081+02:00",
   "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 110,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 79,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 369,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 862,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2012-11-28T04:02:02.1440899+01:00",
+  "UpdatedDate": "2016-09-22T03:44:52.9177081+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 4,
-  "Id": 675,
-  "PublishFrom": "2023-08-05T04:02:02.1440899+02:00",
+  "ProjectId": 652,
+  "Id": 530,
+  "PublishFrom": "2005-04-19T03:44:52.9177081+02:00",
   "PublishType": "External",
-  "PublishTo": "2016-02-12T04:02:02.1440899+01:00",
+  "PublishTo": "2001-10-09T03:44:52.9177081+02:00",
   "VisibleForCategories": [
     {
-      "Id": 647,
-      "Name": "Quitzon LLC",
-      "ToolTip": "Nihil quae exercitationem deserunt.",
-      "Deleted": false,
-      "Rank": 71,
-      "Type": "laborum",
+      "Id": 945,
+      "Name": "Homenick-Lemke",
+      "ToolTip": "Eligendi omnis unde et suscipit ex sunt occaecati.",
+      "Deleted": true,
+      "Rank": 886,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "adipisci",
-      "ColorBlock": 140,
-      "ExtraInfo": "fugiat",
-      "StyleHint": "omnis",
-      "FullName": "Americo Shea Swift Sr.",
+      "IconHint": "voluptatem",
+      "ColorBlock": 420,
+      "ExtraInfo": "deserunt",
+      "StyleHint": "suscipit",
+      "FullName": "Virginia Williamson MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldType": "System.String",
+          "FieldLength": 934
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 964,
-      "Name": "Kirlin Group",
-      "ToolTip": "Aliquam qui quaerat laboriosam.",
+      "Id": 293,
+      "Name": "Windler LLC",
+      "ToolTip": "Sequi ab.",
       "Deleted": false,
-      "Rank": 867,
-      "Type": "corporis",
+      "Rank": 376,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "soluta",
-      "ColorBlock": 784,
-      "ExtraInfo": "non",
-      "StyleHint": "doloribus",
-      "FullName": "Prof. Natasha Bartoletti",
+      "IconHint": "animi",
+      "ColorBlock": 147,
+      "ExtraInfo": "ut",
+      "StyleHint": "natus",
+      "FullName": "Celia Hartmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 983
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 823,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   }
 }

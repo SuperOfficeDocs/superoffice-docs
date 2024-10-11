@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 240,
-  "CurrencyId": 644
+  "QuoteConnectionId": 833,
+  "CurrencyId": 207
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 418,
-    "ERPPriceListKey": "maxime",
-    "QuoteConnectionId": 381,
-    "Name": "Reichel LLC",
-    "Description": "Re-contextualized bifurcated focus group",
-    "Currency": "eum",
-    "CurrencyName": "Rice Inc and Sons",
-    "ValidFrom": "2008-04-28T04:02:02.2065837+02:00",
-    "ValidTo": "2021-05-02T04:02:02.2065837+02:00",
+    "PriceListId": 857,
+    "ERPPriceListKey": "eaque",
+    "QuoteConnectionId": 912,
+    "Name": "Marks-Brekke",
+    "Description": "Object-based responsive software",
+    "Currency": "officia",
+    "CurrencyName": "Batz Inc and Sons",
+    "ValidFrom": "2006-12-13T03:44:53.0583181+01:00",
+    "ValidTo": "1998-11-18T03:44:53.0583181+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

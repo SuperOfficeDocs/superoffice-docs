@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Bogisich-Stamm",
-  "Id": 511
+  "HistoryName": "Waelchi-Ziemann",
+  "Id": 622
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 862,
-  "Id": 257,
-  "HistoryName": "Gutmann-Rowe",
-  "HistoryId": 710,
-  "AssociateId": 470,
-  "Name": "Funk Group",
-  "ItemInfo": "hic",
+  "Rank": 196,
+  "Id": 861,
+  "HistoryName": "Donnelly Inc and Sons",
+  "HistoryId": 164,
+  "AssociateId": 525,
+  "Name": "Medhurst LLC",
+  "ItemInfo": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 917
     }
   }
 }

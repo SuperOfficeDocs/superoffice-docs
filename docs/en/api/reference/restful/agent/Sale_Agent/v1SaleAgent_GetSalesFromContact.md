@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 92,
+  "ContactId": 754,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Vandervort Inc and Sons",
-    "SaleDate": "2016-10-21T04:02:02.28488+02:00",
-    "SaleId": 146,
-    "Probability": 689,
-    "Title": "consequatur",
-    "Amount": 25131.546,
-    "Currency": "sit",
-    "ProjectName": "Hilll-Kassulke",
-    "AssociateFullName": "Ms. Darlene Stroman Jr.",
-    "Description": "Down-sized hybrid archive",
+    "ContactName": "Runolfsson Inc and Sons",
+    "SaleDate": "2001-07-14T03:44:53.136845+02:00",
+    "SaleId": 641,
+    "Probability": 467,
+    "Title": "odit",
+    "Amount": 4832.628,
+    "Currency": "assumenda",
+    "ProjectName": "Prosacco Inc and Sons",
+    "AssociateFullName": "Shannon Emmerich DDS",
+    "Description": "Enterprise-wide logistical migration",
     "Status": "Lost",
-    "WeightedAmount": 26648.402,
-    "ProjectId": 255,
-    "EarningPercent": 17544.131999999998,
-    "Earning": 19180.079999999998,
-    "ContactId": 789,
-    "AssociateId": 931,
-    "PersonId": 813,
-    "SaleTypeId": 375,
-    "SaleTypeName": "Kunze, Harber and Fadel",
-    "PersonFullName": "Baby Willms",
+    "WeightedAmount": 11395.224,
+    "ProjectId": 402,
+    "EarningPercent": 11498.645999999999,
+    "Earning": 11385.822,
+    "ContactId": 107,
+    "AssociateId": 339,
+    "PersonId": 124,
+    "SaleTypeId": 210,
+    "SaleTypeName": "Bahringer LLC",
+    "PersonFullName": "Carmen Lebsack",
     "Completed": "Completed",
-    "ActiveErpLinks": 76,
-    "NextDueDate": "2007-10-02T04:02:02.28488+02:00",
-    "Number": "1100794",
+    "ActiveErpLinks": 785,
+    "NextDueDate": "2008-09-05T03:44:53.136845+02:00",
+    "Number": "1120148",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldType": "System.String",
+        "FieldLength": 833
       }
     }
   }

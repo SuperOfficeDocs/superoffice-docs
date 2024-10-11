@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=dolores
+GET /api/v1/List/ProductType/MDOItems?query=repellat
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Zboncak-Strosin",
-    "ToolTip": "Asperiores qui fugit consequatur.",
-    "Deleted": true,
-    "Rank": 255,
-    "Type": "reiciendis",
+    "Id": 105,
+    "Name": "Botsford LLC",
+    "ToolTip": "Ipsum aut cumque itaque.",
+    "Deleted": false,
+    "Rank": 694,
+    "Type": "ullam",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Kerluke-Daugherty",
-        "ToolTip": "Velit sed rerum cum quod sit odit aspernatur.",
-        "Deleted": true,
-        "Rank": 480,
-        "Type": "minima",
+        "Id": 616,
+        "Name": "Schmidt-Homenick",
+        "ToolTip": "Iste qui rem.",
+        "Deleted": false,
+        "Rank": 916,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 507,
-        "ExtraInfo": "nobis",
-        "StyleHint": "ducimus",
-        "FullName": "Laila Doyle II",
+        "IconHint": "esse",
+        "ColorBlock": 884,
+        "ExtraInfo": "quidem",
+        "StyleHint": "nihil",
+        "FullName": "Jace Kyle Smith Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldLength": 706
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 311,
-    "ExtraInfo": "saepe",
-    "StyleHint": "suscipit",
-    "FullName": "Arno Collier",
+    "IconHint": "quod",
+    "ColorBlock": 459,
+    "ExtraInfo": "possimus",
+    "StyleHint": "molestiae",
+    "FullName": "Andre Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldType": "System.String",
+        "FieldLength": 903
       }
     }
   }

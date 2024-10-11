@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 116,
-    "Tooltip": "iure",
+    "Total": 920,
+    "Tooltip": "optio",
     "CanAssign": false,
-    "Free": 125,
-    "InUse": 953,
+    "Free": 766,
+    "InUse": 72,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 668,
-    "Name": "Weber-Runolfsdottir",
-    "Description": "Streamlined holistic encoding",
-    "PrerequisiteModuleName": "Orn-Kemmer",
-    "SortOrder": 507,
-    "ExtraFlags": 963,
+    "Assigned": true,
+    "ModuleLicenseId": 442,
+    "Name": "Flatley, Dickinson and Boyle",
+    "Description": "Stand-alone dynamic access",
+    "PrerequisiteModuleName": "Fadel-Price",
+    "SortOrder": 265,
+    "ExtraFlags": 872,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 771
       }
     }
   }

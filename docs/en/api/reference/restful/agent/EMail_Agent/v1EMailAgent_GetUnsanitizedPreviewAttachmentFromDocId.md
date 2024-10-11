@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 480,
-  "AttachmentId": "fugit"
+  "DocId": 348,
+  "AttachmentId": "ipsam"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable client-driven customer loyalty",
-  "Filename": "sint",
-  "Size": 631,
-  "Type": "quia",
-  "Encoding": "ipsam",
-  "Id": "perspiciatis",
-  "Disposition": "ut",
+  "Description": "Expanded bifurcated encryption",
+  "Filename": "quod",
+  "Size": 90,
+  "Type": "sint",
+  "Encoding": "non",
+  "Id": "accusantium",
+  "Disposition": "quidem",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 511
     }
   }
 }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Metz, Kassulke and Bode"
+  "Name": "Braun, VonRueden and Herman"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Schinner, Connelly and Haag",
-    "ToolTip": "Aut nobis eveniet voluptatum vero id.",
+    "Id": 283,
+    "Name": "Walker-Strosin",
+    "ToolTip": "Fugit accusantium.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "ut",
-    "ColorBlock": 711,
-    "IconHint": "ab",
+    "Rank": 768,
+    "Type": "dolores",
+    "ColorBlock": 50,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2003-05-28T04:02:01.909728+02:00",
+    "LastChanged": "2015-01-08T03:44:52.7614393+01:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Fisher, Bartoletti and Sawayn",
-        "ToolTip": "Harum libero in exercitationem.",
+        "Id": 146,
+        "Name": "Willms-Hilpert",
+        "ToolTip": "Velit consequatur possimus quas.",
         "Deleted": true,
-        "Rank": 555,
-        "Type": "ullam",
-        "ColorBlock": 797,
-        "IconHint": "dolor",
+        "Rank": 219,
+        "Type": "iure",
+        "ColorBlock": 513,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "1998-09-05T04:02:01.909728+02:00",
+        "LastChanged": "2000-07-04T03:44:52.7614393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Miss Pearl Fermin Morar Sr.",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Dr. Bria Johns Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldType": "System.String",
+            "FieldLength": 337
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Joy Stanton",
+    "ExtraInfo": "odio",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Ms. Don Rogahn III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 520
       }
     }
   }

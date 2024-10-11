@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Rempel-Jerde",
-  "Tooltip": "quam",
-  "Deleted": true,
-  "UdListDefinitionId": 619,
-  "Rank": 762,
+  "Id": 241,
+  "Name": "McLaughlin-Conroy",
+  "Tooltip": "suscipit",
+  "Deleted": false,
+  "UdListDefinitionId": 296,
+  "Rank": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

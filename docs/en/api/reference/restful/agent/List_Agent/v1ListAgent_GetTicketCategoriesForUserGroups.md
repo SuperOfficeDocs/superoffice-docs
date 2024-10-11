@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    129,
-    473
+    822,
+    774
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Fadel LLC",
-    "ToolTip": "Sit magni fugiat.",
-    "Deleted": false,
-    "Rank": 178,
-    "Type": "rem",
+    "Id": 605,
+    "Name": "Moen-Kemmer",
+    "ToolTip": "Quis praesentium.",
+    "Deleted": true,
+    "Rank": 898,
+    "Type": "tenetur",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Hettinger-Johnston",
-        "ToolTip": "Ipsam ut commodi.",
-        "Deleted": false,
-        "Rank": 663,
-        "Type": "aperiam",
+        "Id": 783,
+        "Name": "Breitenberg, Hettinger and Ernser",
+        "ToolTip": "Magni natus tempore.",
+        "Deleted": true,
+        "Rank": 273,
+        "Type": "ab",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cumque",
-        "ColorBlock": 70,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "corporis",
-        "FullName": "Birdie Goodwin IV",
+        "IconHint": "necessitatibus",
+        "ColorBlock": 594,
+        "ExtraInfo": "facilis",
+        "StyleHint": "molestiae",
+        "FullName": "Ms. Logan Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 783
+            "FieldLength": 779
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 405,
-    "ExtraInfo": "molestias",
-    "StyleHint": "hic",
-    "FullName": "Trenton Morissette",
+    "IconHint": "qui",
+    "ColorBlock": 759,
+    "ExtraInfo": "optio",
+    "StyleHint": "nesciunt",
+    "FullName": "Andre Cole MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 5
       }
     }
   }

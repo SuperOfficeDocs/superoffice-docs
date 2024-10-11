@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "minima"
+  "FileContent": "nulla"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 590,
-      "NumberOfLicensesFree": 631,
-      "NumberOfLicensesAdded": 776,
-      "NumberOfLicensesNewTotal": 552,
-      "NumberOfLicensesNewFree": 595,
-      "NumberOfLicensesTotal": 954
+      "NumberOfLicensesInUse": 387,
+      "NumberOfLicensesFree": 987,
+      "NumberOfLicensesAdded": 491,
+      "NumberOfLicensesNewTotal": 320,
+      "NumberOfLicensesNewFree": 688,
+      "NumberOfLicensesTotal": 541
     }
   ],
-  "AccumulatedNextCheckDate": "2000-08-26T04:02:01.8003604+02:00"
+  "AccumulatedNextCheckDate": "2009-06-23T03:44:52.6677336+02:00"
 }
 ```

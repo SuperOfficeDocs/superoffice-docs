@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 378,
+  "DocumentId": 416,
   "AllowedReturnTypes": [
-    "pariatur",
-    "officiis"
+    "quo",
+    "atque"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Monahan-Vandervort",
-    "DisplayName": "Kessler LLC",
-    "DisplayTooltip": "omnis",
-    "IconHint": "sit",
+    "Name": "Predovic, Weissnat and Gislason",
+    "DisplayName": "Metz, Weimann and Hickle",
+    "DisplayTooltip": "et",
+    "IconHint": "dolorum",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Monahan-Vandervort",
-    "DisplayName": "Kessler LLC",
-    "DisplayTooltip": "omnis",
-    "IconHint": "sit",
+    "Name": "Predovic, Weissnat and Gislason",
+    "DisplayName": "Metz, Weimann and Hickle",
+    "DisplayTooltip": "et",
+    "IconHint": "dolorum",
     "ReturnType": "CustomGui"
   }
 ]

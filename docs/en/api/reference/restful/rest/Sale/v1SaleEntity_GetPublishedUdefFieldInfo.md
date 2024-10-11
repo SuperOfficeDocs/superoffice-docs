@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 677,
-  "ColumnId": 57,
-  "FieldDefault": "quidem",
-  "FieldHeight": 395,
-  "FieldLabel": "quis",
-  "FieldLeft": 204,
-  "FieldTop": 941,
+  "UDefFieldId": 862,
+  "ColumnId": 70,
+  "FieldDefault": "ea",
+  "FieldHeight": 442,
+  "FieldLabel": "eligendi",
+  "FieldLeft": 935,
+  "FieldTop": 583,
   "FieldType": "Checkbox",
-  "FieldWidth": 938,
-  "FormatMask": "nulla",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 35,
-  "LabelLeft": 247,
-  "LabelTop": 715,
-  "LabelWidth": 201,
-  "LastVersionId": 137,
-  "ListTableId": 866,
-  "IsMandatory": true,
+  "FieldWidth": 635,
+  "FormatMask": "placeat",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 904,
+  "LabelLeft": 951,
+  "LabelTop": 335,
+  "LabelWidth": 964,
+  "LastVersionId": 331,
+  "ListTableId": 362,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 757,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 826,
+  "ProgId": "explicabo",
   "IsReadOnly": false,
-  "ShortLabel": "non",
-  "TabOrder": 873,
-  "TextLength": 272,
-  "Tooltip": "tenetur",
-  "UdefIdentity": 288,
-  "UDListDefinitionId": 535,
+  "ShortLabel": "est",
+  "TabOrder": 381,
+  "TextLength": 517,
+  "Tooltip": "eos",
+  "UdefIdentity": 687,
+  "UDListDefinitionId": 101,
   "Justification": "Center",
-  "Version": 566,
-  "TemplateVariableName": "Haley, Becker and Gusikowski",
-  "HasBeenPublished": true,
-  "MdoListName": "Grady LLC",
+  "Version": 393,
+  "TemplateVariableName": "Orn, Lind and Stamm",
+  "HasBeenPublished": false,
+  "MdoListName": "Kemmer, Ernser and Barton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   }
 }

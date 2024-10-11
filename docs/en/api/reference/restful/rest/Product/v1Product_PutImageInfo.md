@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 153,
-  "BlobSize": 440,
-  "Description": "Multi-tiered context-sensitive alliance",
-  "ExtraInfo": "cumque",
-  "IsEncrypted": false,
+  "BlobId": 418,
+  "BlobSize": 843,
+  "Description": "Profound optimal matrices",
+  "ExtraInfo": "nemo",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "mollitia",
-  "OriginalSize": 954,
-  "CreatedDate": "2001-09-01T04:02:06.9784855+02:00",
-  "UpdatedDate": "1998-03-17T04:02:06.9784855+01:00",
+  "MimeType": "pariatur",
+  "OriginalSize": 43,
+  "CreatedDate": "2011-05-31T03:44:57.7344277+02:00",
+  "UpdatedDate": "2000-02-02T03:44:57.7344277+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur"
+  "ConceptualType": "beatae"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 782,
-  "BlobSize": 159,
-  "Description": "Balanced systemic installation",
-  "ExtraInfo": "et",
+  "BlobId": 463,
+  "BlobSize": 219,
+  "Description": "Fully-configurable incremental leverage",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "aut",
-  "OriginalSize": 154,
-  "CreatedDate": "2014-04-24T04:02:06.9784855+02:00",
-  "UpdatedDate": "2012-07-01T04:02:06.9784855+02:00",
+  "IsZipped": true,
+  "MimeType": "vel",
+  "OriginalSize": 449,
+  "CreatedDate": "2019-08-13T03:44:57.7344277+02:00",
+  "UpdatedDate": "2006-01-18T03:44:57.7344277+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 912
     }
   }
 }

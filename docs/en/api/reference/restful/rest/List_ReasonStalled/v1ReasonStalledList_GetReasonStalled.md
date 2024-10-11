@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 514,
-  "Name": "D'Amore, Medhurst and Lueilwitz",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 21,
-  "Rank": 618,
+  "Id": 358,
+  "Name": "Hermiston LLC",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "UdListDefinitionId": 452,
+  "Rank": 992,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

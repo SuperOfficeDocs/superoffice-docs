@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 244,
+  "AssociateId": 534,
   "Type": "AnonymousAssociate",
-  "PersonId": 232,
-  "UserName": "Cormier Group"
+  "PersonId": 109,
+  "UserName": "Upton, Rodriguez and Sawayn"
 }
 ```
 

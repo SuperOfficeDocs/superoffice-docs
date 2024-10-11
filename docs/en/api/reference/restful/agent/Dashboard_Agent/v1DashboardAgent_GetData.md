@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 389,
-  "Restrictions": "nisi"
+  "DashboardTileId": 567,
+  "Restrictions": "et"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Ziemann LLC",
-        "DisplayTooltip": "nulla",
-        "DisplayType": "reiciendis",
+        "DisplayName": "Padberg, Klein and Kuphal",
+        "DisplayTooltip": "voluptatibus",
+        "DisplayType": "beatae",
         "CanOrderBy": false,
-        "Name": "Reichel Group",
+        "Name": "Keebler, Stanton and Heaney",
         "CanRestrictBy": true,
-        "RestrictionType": "ab",
-        "RestrictionListName": "Rippin Group",
+        "RestrictionType": "autem",
+        "RestrictionListName": "Ryan-Farrell",
         "IsVisible": false,
-        "ExtraInfo": "et",
-        "Width": "reprehenderit",
-        "IconHint": "suscipit",
-        "HeadingIconHint": "repudiandae"
+        "ExtraInfo": "unde",
+        "Width": "assumenda",
+        "IconHint": "veritatis",
+        "HeadingIconHint": "qui"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Ziemann LLC",
-        "DisplayTooltip": "nulla",
-        "DisplayType": "reiciendis",
+        "DisplayName": "Padberg, Klein and Kuphal",
+        "DisplayTooltip": "voluptatibus",
+        "DisplayType": "beatae",
         "CanOrderBy": false,
-        "Name": "Reichel Group",
+        "Name": "Keebler, Stanton and Heaney",
         "CanRestrictBy": true,
-        "RestrictionType": "ab",
-        "RestrictionListName": "Rippin Group",
+        "RestrictionType": "autem",
+        "RestrictionListName": "Ryan-Farrell",
         "IsVisible": false,
-        "ExtraInfo": "et",
-        "Width": "reprehenderit",
-        "IconHint": "suscipit",
-        "HeadingIconHint": "repudiandae"
+        "ExtraInfo": "unde",
+        "Width": "assumenda",
+        "IconHint": "veritatis",
+        "HeadingIconHint": "qui"
       }
     ],
     "Result": null

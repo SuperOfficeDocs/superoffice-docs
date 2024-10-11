@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 579,
-  "Name": "Hegmann, Schowalter and Murray",
+  "WebhookId": 565,
+  "Name": "Stehr, Hammes and Hodkiewicz",
   "Events": [
-    "sed",
-    "recusandae"
+    "quae",
+    "deleniti"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sapiente",
+  "Secret": "ipsum",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "distinctio",
   "Headers": {
-    "Headers1": "modi",
-    "Headers2": "molestiae"
+    "Headers1": "eos",
+    "Headers2": "labore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-07-30T04:02:02.5822222+02:00",
+  "Registered": "2023-02-13T03:44:53.4498657+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-04-10T04:02:02.5822222+02:00",
+  "Updated": "2017-09-28T03:44:53.4498657+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "lucy.monahan@kuvalis.uk"
+  "ErrorsEmail": "lloyd@hyatt.name"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 43,
-  "Name": "Lindgren Group",
+  "WebhookId": 598,
+  "Name": "Goyette Group",
   "Events": [
-    "modi",
-    "totam"
+    "laboriosam",
+    "inventore"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "veniam",
+  "Secret": "dolor",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "harum",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "ipsam"
+    "Headers1": "neque",
+    "Headers2": "provident"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2009-08-27T04:02:02.5978454+02:00",
+  "Registered": "2013-02-03T03:44:53.4498657+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-07-12T04:02:02.5978454+02:00",
+  "Updated": "2008-03-04T03:44:53.4498657+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "caesar.skiles@stark.name"
+  "ErrorsEmail": "reynold@johnsonhahn.us"
 }
 ```

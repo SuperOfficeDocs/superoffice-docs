@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/EMail/DeleteEmails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    295,
-    980
+    436,
+    827
   ],
-  "MoveToFolder": "sit"
+  "MoveToFolder": "quidem"
 }
 ```
 

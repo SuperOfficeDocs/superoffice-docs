@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 556,
-  "Section": "quidem",
-  "Key": "commodi",
-  "Name": "Windler, Lockman and Lindgren",
+  "PrefDescId": 807,
+  "Section": "facilis",
+  "Key": "et",
+  "Name": "Emard-Howell",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optimized secondary model",
-  "IsBuiltin": true,
-  "TableName": "Leannon-Bauch",
-  "UserDefinedListId": 151,
-  "Rank": 913,
-  "SubGroup": "quam",
-  "MinLevel": 144,
-  "MaxValue": 919,
-  "MinValue": 815,
-  "RequiredLicense": "qui",
+  "Description": "Focused intermediate application",
+  "IsBuiltin": false,
+  "TableName": "Gibson-Waelchi",
+  "UserDefinedListId": 997,
+  "Rank": 11,
+  "SubGroup": "temporibus",
+  "MinLevel": 961,
+  "MaxValue": 212,
+  "MinValue": 421,
+  "RequiredLicense": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 60
     }
   }
 }

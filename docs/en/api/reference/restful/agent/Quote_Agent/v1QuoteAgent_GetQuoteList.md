@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "eius"
+  "QuoteListType": "illo"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "non",
-    "DisplayValue": "suscipit",
-    "DisplayDescription": "Visionary impactful parallelism",
+    "ERPQuoteListItemKey": "voluptates",
+    "DisplayValue": "recusandae",
+    "DisplayDescription": "Mandatory encompassing encryption",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldType": "System.String",
+        "FieldLength": 193
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "non",
-    "DisplayValue": "suscipit",
-    "DisplayDescription": "Visionary impactful parallelism",
+    "ERPQuoteListItemKey": "voluptates",
+    "DisplayValue": "recusandae",
+    "DisplayDescription": "Mandatory encompassing encryption",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldType": "System.String",
+        "FieldLength": 193
       }
     }
   }

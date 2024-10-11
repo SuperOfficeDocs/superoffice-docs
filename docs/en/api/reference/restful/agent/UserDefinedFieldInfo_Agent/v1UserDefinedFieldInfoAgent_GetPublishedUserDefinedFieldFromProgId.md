@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "accusamus",
+  "ProgId": "et",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 731,
-  "ColumnId": 970,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 513,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 302,
-  "FieldTop": 202,
+  "UDefFieldId": 985,
+  "ColumnId": 580,
+  "FieldDefault": "labore",
+  "FieldHeight": 885,
+  "FieldLabel": "dignissimos",
+  "FieldLeft": 693,
+  "FieldTop": 644,
   "FieldType": "Checkbox",
-  "FieldWidth": 490,
-  "FormatMask": "dolorem",
-  "HideLabel": true,
+  "FieldWidth": 131,
+  "FormatMask": "dicta",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 892,
-  "LabelLeft": 225,
-  "LabelTop": 778,
-  "LabelWidth": 273,
-  "LastVersionId": 322,
-  "ListTableId": 541,
+  "LabelHeight": 578,
+  "LabelLeft": 899,
+  "LabelTop": 368,
+  "LabelWidth": 843,
+  "LastVersionId": 509,
+  "ListTableId": 651,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 815,
-  "ProgId": "id",
+  "Page1LineNo": 286,
+  "ProgId": "sunt",
   "IsReadOnly": false,
-  "ShortLabel": "expedita",
-  "TabOrder": 622,
-  "TextLength": 656,
-  "Tooltip": "sint",
-  "UdefIdentity": 277,
-  "UDListDefinitionId": 190,
+  "ShortLabel": "eveniet",
+  "TabOrder": 54,
+  "TextLength": 495,
+  "Tooltip": "harum",
+  "UdefIdentity": 659,
+  "UDListDefinitionId": 180,
   "Justification": "Center",
-  "Version": 455,
-  "TemplateVariableName": "Lynch Group",
+  "Version": 693,
+  "TemplateVariableName": "Wisozk LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Smith Group",
+  "MdoListName": "Stamm LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldLength": 198
     }
   }
 }

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 33,
-  "ContactId": 638,
-  "ProjectId": 418,
-  "ContactName": "Leannon, Fisher and Goldner",
+  "ProjectmemberId": 50,
+  "ContactId": 627,
+  "ProjectId": 378,
+  "ContactName": "Koch, Maggio and Becker",
   "ContactDepartment": "",
-  "ProjectName": "Hudson LLC",
-  "EmailId": 776,
-  "EmailAddress": "theron_quitzon@denesik.biz",
-  "CountryId": 124,
-  "Firstname": "Dexter",
-  "MiddleName": "Cummings-Kuhn",
-  "Lastname": "Auer",
-  "PersonId": 854,
-  "Mrmrs": "quis",
-  "ProjectMemberTypeName": "Huels, Bayer and Howe",
-  "Phone": "166.574.2338 x62004",
-  "PhoneId": 922,
-  "ProjectMemberTypeId": 943,
-  "EmailAddressName": "estevan.baumbach@upton.biz",
-  "Comment": "id",
-  "FullName": "Reggie McLaughlin",
+  "ProjectName": "Rath Inc and Sons",
+  "EmailId": 14,
+  "EmailAddress": "bridget_conroy@langworth.ca",
+  "CountryId": 94,
+  "Firstname": "Antonina",
+  "MiddleName": "Wuckert-Upton",
+  "Lastname": "Stokes",
+  "PersonId": 657,
+  "Mrmrs": "veritatis",
+  "ProjectMemberTypeName": "Fahey, Orn and Funk",
+  "Phone": "1-306-974-2939",
+  "PhoneId": 45,
+  "ProjectMemberTypeId": 641,
+  "EmailAddressName": "dax_stamm@koelpinthiel.biz",
+  "Comment": "autem",
+  "FullName": "Emily Cormier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

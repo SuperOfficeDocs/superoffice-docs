@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 570,
-  "Name": "Strosin, Treutel and Christiansen",
-  "Description": "Fully-configurable holistic access",
+  "ProjectId": 47,
+  "Name": "Steuber-Renner",
+  "Description": "Multi-channelled mission-critical website",
   "URL": "http://www.example.com/",
-  "Type": "totam",
-  "AssociateId": 96,
-  "AssociateFullName": "Sarina Gutkowski",
-  "TypeId": 533,
-  "Updated": "2007-01-23T04:02:06.7285135+01:00",
-  "StatusId": 304,
-  "Status": "doloribus",
-  "TextId": 411,
-  "PublishTo": "2008-03-27T04:02:06.7285135+01:00",
-  "PublishFrom": "2010-04-15T04:02:06.7285135+02:00",
-  "IsPublished": false,
+  "Type": "qui",
+  "AssociateId": 164,
+  "AssociateFullName": "George Grant",
+  "TypeId": 698,
+  "Updated": "2018-06-22T03:44:57.4844273+02:00",
+  "StatusId": 945,
+  "Status": "quam",
+  "TextId": 118,
+  "PublishTo": "2005-11-11T03:44:57.4844273+01:00",
+  "PublishFrom": "1998-03-25T03:44:57.4844273+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1104044",
-  "ActiveErpLinks": 98,
+  "ProjectNumber": "764387",
+  "ActiveErpLinks": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 358
     }
   }
 }

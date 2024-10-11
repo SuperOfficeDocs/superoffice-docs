@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 888,
-  "Name": "Wilkinson-Hartmann",
-  "Tooltip": "rerum",
-  "Rank": 505,
-  "Rate": 24175.676,
-  "Units": 7505.9299999999994,
+  "CurrencyId": 947,
+  "Name": "Sauer, Powlowski and Daniel",
+  "Tooltip": "ut",
+  "Rank": 117,
+  "Rate": 429.358,
+  "Units": 26867.782,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

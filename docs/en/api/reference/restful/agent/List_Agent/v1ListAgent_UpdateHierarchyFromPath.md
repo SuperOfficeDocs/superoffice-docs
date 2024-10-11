@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "qui",
+  "Path": "doloremque",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 313,
+  "HierarchyId": 951,
   "Domain": "Dashboards",
-  "Name": "Koepp, Abbott and Hansen",
-  "Fullname": "quidem",
-  "ParentId": 97,
+  "Name": "Hackett-Heaney",
+  "Fullname": "omnis",
+  "ParentId": 486,
   "Children": [
     {
-      "HierarchyId": 992,
+      "HierarchyId": 354,
       "Domain": "Dashboards",
-      "Name": "Mann, Hegmann and Treutel",
-      "Fullname": "velit",
-      "ParentId": 586,
+      "Name": "Fay, Conroy and Hermann",
+      "Fullname": "non",
+      "ParentId": 259,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-09-19T04:02:01.8628574+02:00",
-      "RegisteredAssociateId": 514,
-      "Updated": "2002-10-10T04:02:01.8628574+02:00",
-      "UpdatedAssociateId": 404,
+      "Registered": "2001-05-16T03:44:52.7302252+02:00",
+      "RegisteredAssociateId": 957,
+      "Updated": "2019-05-09T03:44:52.7302252+02:00",
+      "UpdatedAssociateId": 108,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 791
         }
       }
     }
   ],
-  "Registered": "2014-09-02T04:02:01.8628574+02:00",
-  "RegisteredAssociateId": 44,
-  "Updated": "2019-07-14T04:02:01.8628574+02:00",
-  "UpdatedAssociateId": 833,
+  "Registered": "2002-08-06T03:44:52.7302252+02:00",
+  "RegisteredAssociateId": 7,
+  "Updated": "2005-08-13T03:44:52.7302252+02:00",
+  "UpdatedAssociateId": 487,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 255
     }
   }
 }

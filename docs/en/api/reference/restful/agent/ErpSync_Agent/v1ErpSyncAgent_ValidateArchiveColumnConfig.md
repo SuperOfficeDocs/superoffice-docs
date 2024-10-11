@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/ErpSync/ValidateArchiveColumnConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "asperiores",
-  "ErpConnectionId": 14
+  "ListOwner": "maxime",
+  "ErpConnectionId": 275
 }
 ```
 

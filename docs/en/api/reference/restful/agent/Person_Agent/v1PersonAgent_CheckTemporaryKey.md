@@ -67,6 +67,7 @@ OK
 | TargetId | int32 | The primary key of the entity this temporary key is for, dependent of dmain |
 | PersonId | int32 | The person id this key is related to. May be null. |
 | IsExpired | bool | Whether the key is expired or not. |
+| Payload | string | The payload for this key. May be null or empty. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "occaecati"
+  "TemporaryKey": "quae"
 }
 ```
 
@@ -92,15 +93,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 215,
-  "PersonId": 966,
+  "TargetId": 895,
+  "PersonId": 162,
   "IsExpired": true,
+  "Payload": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 751
     }
   }
 }

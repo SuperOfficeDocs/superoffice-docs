@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Hermann Inc and Sons",
-    "ToolTip": "Provident debitis adipisci ullam.",
+    "Id": 287,
+    "Name": "Swift LLC",
+    "ToolTip": "Laboriosam consequatur.",
     "Deleted": false,
-    "Rank": 464,
-    "Type": "nemo",
-    "ColorBlock": 929,
-    "IconHint": "ut",
+    "Rank": 772,
+    "Type": "quia",
+    "ColorBlock": 992,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "1997-05-26T04:02:07.1034721+02:00",
+    "LastChanged": "2004-08-17T03:44:57.8437502+02:00",
     "ChildItems": [
       {
-        "Id": 441,
-        "Name": "Nitzsche Group",
-        "ToolTip": "Assumenda assumenda eaque corporis numquam eius.",
-        "Deleted": false,
-        "Rank": 502,
+        "Id": 383,
+        "Name": "Kiehn LLC",
+        "ToolTip": "Expedita aperiam quis qui impedit.",
+        "Deleted": true,
+        "Rank": 756,
         "Type": "voluptatem",
-        "ColorBlock": 824,
-        "IconHint": "amet",
+        "ColorBlock": 531,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2002-10-10T04:02:07.1034721+02:00",
+        "LastChanged": "2008-07-08T03:44:57.8437502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Jeanne Pagac",
+        "ExtraInfo": "laborum",
+        "StyleHint": "porro",
+        "Hidden": false,
+        "FullName": "Prof. Presley Yoshiko Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 58
+            "FieldType": "System.Int32",
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "totam",
+    "ExtraInfo": "enim",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mr. Alfredo Johnathan Schmeler MD",
+    "FullName": "Marion Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldType": "System.String",
+        "FieldLength": 539
       }
     }
   }

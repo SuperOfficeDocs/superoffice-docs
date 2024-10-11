@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    247,
-    770
+    496,
+    739
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 93,
-    "ColumnId": 205,
-    "FieldDefault": "unde",
-    "FieldHeight": 115,
-    "FieldLabel": "non",
-    "FieldLeft": 152,
-    "FieldTop": 270,
+    "UDefFieldId": 37,
+    "ColumnId": 312,
+    "FieldDefault": "quis",
+    "FieldHeight": 492,
+    "FieldLabel": "quia",
+    "FieldLeft": 43,
+    "FieldTop": 956,
     "FieldType": "Checkbox",
-    "FieldWidth": 308,
-    "FormatMask": "molestiae",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 985,
-    "LabelLeft": 859,
-    "LabelTop": 214,
-    "LabelWidth": 799,
-    "LastVersionId": 707,
-    "ListTableId": 371,
+    "FieldWidth": 381,
+    "FormatMask": "quia",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 9,
+    "LabelLeft": 239,
+    "LabelTop": 84,
+    "LabelWidth": 363,
+    "LastVersionId": 705,
+    "ListTableId": 528,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 264,
-    "ProgId": "sed",
+    "Page1LineNo": 390,
+    "ProgId": "illo",
     "IsReadOnly": true,
-    "ShortLabel": "adipisci",
-    "TabOrder": 238,
-    "TextLength": 730,
-    "Tooltip": "maiores",
-    "UdefIdentity": 932,
-    "UDListDefinitionId": 366,
+    "ShortLabel": "exercitationem",
+    "TabOrder": 450,
+    "TextLength": 705,
+    "Tooltip": "molestias",
+    "UdefIdentity": 93,
+    "UDListDefinitionId": 384,
     "Justification": "Center",
-    "Version": 242,
-    "TemplateVariableName": "Mills-Harber",
-    "HasBeenPublished": true,
-    "MdoListName": "Dibbert-Farrell",
+    "Version": 63,
+    "TemplateVariableName": "Bayer, Walter and Braun",
+    "HasBeenPublished": false,
+    "MdoListName": "Cummerata-Mitchell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 249
       }
     }
   }

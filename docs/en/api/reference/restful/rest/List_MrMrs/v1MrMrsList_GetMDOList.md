@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=ut
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=impedit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Russel LLC",
-    "ToolTip": "Qui vel sed accusamus natus culpa.",
-    "Deleted": false,
-    "Rank": 679,
-    "Type": "aut",
+    "Id": 308,
+    "Name": "Zulauf LLC",
+    "ToolTip": "Porro minus sunt architecto mollitia.",
+    "Deleted": true,
+    "Rank": 838,
+    "Type": "maiores",
     "ChildItems": [
       {
-        "Id": 349,
-        "Name": "Stokes LLC",
-        "ToolTip": "Aut harum rerum.",
-        "Deleted": false,
-        "Rank": 736,
-        "Type": "facere",
+        "Id": 94,
+        "Name": "Davis, Roberts and Heaney",
+        "ToolTip": "Veniam totam sunt asperiores suscipit quisquam blanditiis.",
+        "Deleted": true,
+        "Rank": 950,
+        "Type": "commodi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloribus",
-        "ColorBlock": 584,
-        "ExtraInfo": "sit",
-        "StyleHint": "voluptatibus",
-        "FullName": "Clovis Dach",
+        "IconHint": "labore",
+        "ColorBlock": 696,
+        "ExtraInfo": "qui",
+        "StyleHint": "ad",
+        "FullName": "Lavinia Heidenreich Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 272
+            "FieldType": "System.String",
+            "FieldLength": 362
           }
         }
       }
     ],
-    "IconHint": "itaque",
-    "ColorBlock": 799,
-    "ExtraInfo": "aut",
-    "StyleHint": "unde",
-    "FullName": "Maryam Gislason",
+    "IconHint": "tempora",
+    "ColorBlock": 146,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "necessitatibus",
+    "FullName": "Prof. Rosalyn Shana Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 390
+        "FieldLength": 73
       }
     }
   }

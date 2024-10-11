@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 991
+  "ProjectId": 74
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "aut",
-  "SignOffText": "quia",
-  "SignOnConfirmationText": "facilis",
-  "SignOnText": "qui",
-  "EventDate": "2009-11-27T04:02:02.1597135+01:00",
-  "Enabled": true,
-  "CreatedDate": "2018-11-04T04:02:02.1597135+01:00",
-  "SignOff": true,
+  "SignOffConfirmationText": "et",
+  "SignOffText": "labore",
+  "SignOnConfirmationText": "blanditiis",
+  "SignOnText": "nobis",
+  "EventDate": "2019-08-02T03:44:53.0114471+02:00",
+  "Enabled": false,
+  "CreatedDate": "1998-06-15T03:44:53.0114471+02:00",
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 902,
+  "SignOffTaskId": 154,
   "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 275,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "1998-02-13T04:02:02.1597135+01:00",
+  "SignOnTaskId": 739,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2016-05-28T03:44:53.0114471+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 122,
-  "Id": 818,
-  "PublishFrom": "1997-09-12T04:02:02.1597135+02:00",
+  "ProjectId": 8,
+  "Id": 53,
+  "PublishFrom": "2017-02-12T03:44:53.0114471+01:00",
   "PublishType": "External",
-  "PublishTo": "2022-12-30T04:02:02.1597135+01:00",
+  "PublishTo": "2000-06-28T03:44:53.0114471+02:00",
   "VisibleForCategories": [
     {
-      "Id": 258,
-      "Name": "Kiehn Inc and Sons",
-      "ToolTip": "Nulla distinctio voluptas ipsam aut.",
+      "Id": 685,
+      "Name": "Oberbrunner, Lehner and Rutherford",
+      "ToolTip": "Magnam consequatur rem minima distinctio.",
       "Deleted": true,
-      "Rank": 274,
-      "Type": "repellat",
+      "Rank": 628,
+      "Type": "officiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "reiciendis",
-      "ColorBlock": 491,
-      "ExtraInfo": "beatae",
-      "StyleHint": "dolorum",
-      "FullName": "Prof. Cassandra Haag",
+      "IconHint": "fuga",
+      "ColorBlock": 770,
+      "ExtraInfo": "molestiae",
+      "StyleHint": "amet",
+      "FullName": "Bianka Anabelle Runolfsdottir DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldType": "System.String",
+          "FieldLength": 920
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 787,
-      "Name": "Koelpin-Nolan",
-      "ToolTip": "Exercitationem harum nostrum iure ab sint placeat qui.",
-      "Deleted": true,
-      "Rank": 183,
-      "Type": "aut",
+      "Id": 745,
+      "Name": "Treutel, Ullrich and Upton",
+      "ToolTip": "Culpa ea nobis et dolorem assumenda at cum.",
+      "Deleted": false,
+      "Rank": 157,
+      "Type": "sit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "similique",
-      "ColorBlock": 897,
-      "ExtraInfo": "sed",
-      "StyleHint": "itaque",
-      "FullName": "Leslie Ledner",
+      "IconHint": "minima",
+      "ColorBlock": 238,
+      "ExtraInfo": "consequuntur",
+      "StyleHint": "fugit",
+      "FullName": "Geovany Reilly III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldLength": 626
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 105,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 595,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 408
     }
   }
 }

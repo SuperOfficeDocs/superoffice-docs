@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 21 Nov 2002 04:02:06 G11T
+Last-Modified: Thu, 21 Mar 2019 03:44:57 G3T
 
 {
-  "BlobId": 295,
-  "BlobSize": 253,
-  "Description": "Reactive 24/7 software",
-  "ExtraInfo": "eos",
+  "BlobId": 452,
+  "BlobSize": 530,
+  "Description": "Extended tertiary info-mediaries",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 251,
-  "CreatedDate": "1999-11-12T04:02:06.7441349+01:00",
-  "UpdatedDate": "2002-11-21T04:02:06.7441349+01:00",
+  "IsZipped": true,
+  "MimeType": "ea",
+  "OriginalSize": 247,
+  "CreatedDate": "2019-05-14T03:44:57.4844273+02:00",
+  "UpdatedDate": "2019-03-21T03:44:57.4844273+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptates",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 381
     }
   }
 }

@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jerde Group"
+  "ApplicationName": "Zboncak LLC"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 475,
-  "Name": "Lubowitz LLC",
-  "CreatedDate": "2017-01-12T04:02:01.7888547+01:00",
-  "UpdatedDate": "2000-04-25T04:02:01.7888547+02:00",
+  "ForeignAppId": 653,
+  "Name": "Prohaska LLC",
+  "CreatedDate": "2012-04-15T03:44:52.6521119+02:00",
+  "UpdatedDate": "2018-09-25T03:44:52.6521119+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 198,
-      "Name": "Gorczany-Windler",
-      "CreatedDate": "2008-09-10T04:02:01.7888547+02:00",
-      "UpdatedDate": "2015-10-12T04:02:01.7888547+02:00",
-      "AssociateFullName": "King Smith I",
-      "CreatedBy": "cum",
-      "UpdatedBy": "odio",
-      "DeviceIdentifier": "fugiat",
-      "ForeignAppId": 903,
+      "ForeignDeviceId": 710,
+      "Name": "Walker Inc and Sons",
+      "CreatedDate": "2003-01-04T03:44:52.6521119+01:00",
+      "UpdatedDate": "2020-04-25T03:44:52.6521119+02:00",
+      "AssociateFullName": "Opal Warren Hand V",
+      "CreatedBy": "ut",
+      "UpdatedBy": "dolor",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 182,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldLength": 826
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldLength": 192
     }
   }
 }

@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 725,
-    "Name": "Lockman, Gusikowski and Skiles",
-    "Description": "Proactive dynamic encoding",
-    "DeltaJson": "velit",
+    "ConfigurableScreenDeltaId": 417,
+    "Name": "Nolan Inc and Sons",
+    "Description": "User-centric user-facing customer loyalty",
+    "DeltaJson": "in",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "iste",
-    "UpdatedDate": "1998-08-24T04:02:01.4092709+02:00",
-    "CreatedDate": "2024-04-07T04:02:01.4092709+02:00",
+    "RecipeId": "facilis",
+    "UpdatedDate": "2001-01-13T03:44:52.2771517+01:00",
+    "CreatedDate": "2024-06-21T03:44:52.2771517+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      31,
-      741
+      63,
+      284
     ],
-    "AppliesToKey": "reiciendis",
+    "AppliesToKey": "laudantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldType": "System.String",
+        "FieldLength": 575
       }
     }
   }

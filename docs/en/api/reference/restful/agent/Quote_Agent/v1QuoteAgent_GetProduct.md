@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 569,
-  "ERPProductKey": "modi"
+  "QuoteConnectionId": 445,
+  "ERPProductKey": "explicabo"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 875,
-  "ERPProductKey": "explicabo",
-  "ERPPriceListKey": "quis",
-  "Name": "Moore Group",
-  "Description": "Open-source high-level superstructure",
-  "Code": "maxime",
-  "PriceUnit": "et",
-  "QuantityUnit": "voluptatibus",
+  "ProductId": 661,
+  "ERPProductKey": "praesentium",
+  "ERPPriceListKey": "est",
+  "Name": "Gaylord, Cummerata and Champlin",
+  "Description": "Business-focused asynchronous implementation",
+  "Code": "dolor",
+  "PriceUnit": "non",
+  "QuantityUnit": "numquam",
   "IsSubscription": true,
-  "SubscriptionUnit": "neque",
-  "DefaultSubscriptionQuantity": 28575.811999999998,
-  "ItemNumber": "1263118",
+  "SubscriptionUnit": "ipsum",
+  "DefaultSubscriptionQuantity": 28986.365999999998,
+  "ItemNumber": "1186954",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "ut",
-  "VAT": 206.844,
-  "VATInfo": "harum",
-  "UnitCost": 29553.62,
-  "UnitMinimumPrice": 16773.167999999998,
-  "UnitListPrice": 28362.7,
+  "ProductFamilyKey": "sunt",
+  "ProductTypeKey": "optio",
+  "VAT": 18672.372,
+  "VATInfo": "sunt",
+  "UnitCost": 5393.614,
+  "UnitMinimumPrice": 12655.091999999999,
+  "UnitListPrice": 13335.17,
   "InAssortment": true,
-  "Supplier": "tempore",
-  "SupplierCode": "sit",
-  "Rights": "est",
-  "Rule": "architecto",
+  "Supplier": "sint",
+  "SupplierCode": "minus",
+  "Rights": "eaque",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Kshlerin Group",
-      "Value": "dolor",
+      "Name": "Hackett-Davis",
+      "Value": "placeat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldLength": 196
         }
       }
     },
     {
-      "Name": "Kshlerin Group",
-      "Value": "dolor",
+      "Name": "Hackett-Davis",
+      "Value": "placeat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldLength": 196
         }
       }
     }
   ],
-  "RawExtraInfo": "at",
-  "ExtraField1": "facere",
-  "ExtraField2": "blanditiis",
-  "ExtraField3": "ipsam",
-  "ExtraField4": "nisi",
-  "ExtraField5": "qui",
-  "InStock": 376.08,
+  "RawExtraInfo": "vel",
+  "ExtraField1": "mollitia",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "enim",
+  "ExtraField4": "hic",
+  "ExtraField5": "nobis",
+  "InStock": 18562.682,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

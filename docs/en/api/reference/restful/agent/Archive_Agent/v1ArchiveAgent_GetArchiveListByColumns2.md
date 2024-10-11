@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McLaughlin-Hermann",
-  "Columns": "voluptatem",
-  "SortOrder": "animi",
-  "Restrictions": "laudantium",
-  "Entities": "eum",
-  "Page": 773,
-  "PageSize": 418
+  "ProviderName": "Luettgen, Mosciski and Mosciski",
+  "Columns": "ut",
+  "SortOrder": "dicta",
+  "Restrictions": "totam",
+  "Entities": "iure",
+  "Page": 731,
+  "PageSize": 189
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Will, Grady and Leannon",
-    "PrimaryKey": 130,
+    "EntityName": "Harber LLC",
+    "PrimaryKey": 657,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "consequatur",
-        "TooltipHint": "nihil",
-        "LinkHint": "omnis"
+        "DisplayValue": "et",
+        "TooltipHint": "neque",
+        "LinkHint": "enim"
       }
     },
-    "LinkHint": "hic",
-    "StyleHint": "alias",
+    "LinkHint": "distinctio",
+    "StyleHint": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 862
+        "FieldLength": 671
       }
     }
   }

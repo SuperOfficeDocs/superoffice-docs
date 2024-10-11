@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "omnis",
+  "SaleText": "non",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-03-25T04:02:02.2534538+01:00",
-  "Amount": 1598.34,
-  "SaleId": 429,
-  "Earning": 112.824,
-  "EarningPercent": 21330.004,
-  "Heading": "doloribus",
-  "Number": "897765",
-  "Probability": 445,
-  "CreatedDate": "1999-10-26T04:02:02.2534538+02:00",
-  "UpdatedDate": "2006-12-10T04:02:02.2534538+01:00",
+  "Saledate": "2009-05-06T03:44:53.1055953+02:00",
+  "Amount": 4622.65,
+  "SaleId": 976,
+  "Earning": 18440.456,
+  "EarningPercent": 18468.662,
+  "Heading": "sit",
+  "Number": "621852",
+  "Probability": 904,
+  "CreatedDate": "2014-02-28T03:44:53.1055953+01:00",
+  "UpdatedDate": "2021-12-31T03:44:53.1055953+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 963,
+  "ActiveLinks": 2,
   "Links": [
     {
-      "EntityName": "McGlynn Inc and Sons",
-      "Id": 634,
-      "Description": "Sharable content-based neural-net",
-      "ExtraInfo": "molestias",
-      "LinkId": 574,
+      "EntityName": "Brown, Jakubowski and Morissette",
+      "Id": 35,
+      "Description": "Synchronised regional interface",
+      "ExtraInfo": "et",
+      "LinkId": 926,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 329
         }
       }
     }
   ],
-  "NextDueDate": "2002-08-22T04:02:02.2534538+02:00",
-  "Postit": "cum",
+  "NextDueDate": "2015-01-15T03:44:53.1055953+01:00",
+  "Postit": "numquam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-01-18T04:02:02.2534538+01:00",
+  "ReopenDate": "2012-08-08T03:44:53.1055953+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kling, Wilkinson and Stamm",
-      "Comment": "dolor",
-      "StakeholderRoleId": 770,
-      "CountryId": 335,
-      "PersonId": 210,
-      "EmailDescription": "aimee.ziemann@botsfordstreich.co.uk",
-      "EmailId": 614,
-      "EmailAddress": "alessandro@yostlockman.com",
-      "PhoneId": 181,
-      "ContactName": "Lubowitz-Barrows",
-      "ContactId": 578,
-      "SaleId": 23,
-      "Mrmrs": "hic",
-      "Firstname": "Arianna",
-      "MiddleName": "Cormier-Swaniawski",
-      "Lastname": "Rowe",
-      "SaleStakeholderId": 1000,
-      "Rank": 486,
-      "Phone": "713-460-2850 x4000",
+      "StakeholderRoleName": "Hartmann Inc and Sons",
+      "Comment": "qui",
+      "StakeholderRoleId": 183,
+      "CountryId": 486,
+      "PersonId": 538,
+      "EmailDescription": "annie_herman@leannon.co.uk",
+      "EmailId": 914,
+      "EmailAddress": "elmo@weimannfisher.info",
+      "PhoneId": 338,
+      "ContactName": "Shanahan LLC",
+      "ContactId": 1001,
+      "SaleId": 216,
+      "Mrmrs": "facilis",
+      "Firstname": "Breanne",
+      "MiddleName": "Terry-Little",
+      "Lastname": "Hartmann",
+      "SaleStakeholderId": 543,
+      "Rank": 838,
+      "Phone": "(005)378-5290 x75450",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 922
         }
       }
     }
   ],
-  "ActiveErpLinks": 916,
+  "ActiveErpLinks": 748,
   "UserDefinedFields": {
-    "SuperOffice:1": "1174949196",
-    "SuperOffice:2": "Ahmad Pollich"
+    "SuperOffice:1": "Glen Wunsch",
+    "SuperOffice:2": "Araceli Mann"
   },
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "molestias",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "adipisci"
   },
-  "PublishEventDate": "2013-05-04T04:02:02.2534538+02:00",
-  "PublishTo": "1997-09-15T04:02:02.2534538+02:00",
-  "PublishFrom": "2020-10-13T04:02:02.2534538+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-09-14T03:44:53.1055953+02:00",
+  "PublishTo": "2007-02-27T03:44:53.1055953+01:00",
+  "PublishFrom": "2002-08-04T03:44:53.1055953+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 644,
+      "VisibleId": 163,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 855
         }
       }
     },
     {
-      "VisibleId": 644,
+      "VisibleId": 163,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 855
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 195
     }
   }
 }

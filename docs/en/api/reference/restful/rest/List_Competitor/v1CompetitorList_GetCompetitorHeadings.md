@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 271,
-    "Name": "Swaniawski LLC",
-    "Tooltip": "placeat",
+    "HeadingId": 33,
+    "Name": "Beer-Gutkowski",
+    "Tooltip": "earum",
     "Deleted": false,
-    "Rank": 732,
-    "UdListDefinitionId": 39,
+    "Rank": 101,
+    "UdListDefinitionId": 563,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 165
       }
     }
   }

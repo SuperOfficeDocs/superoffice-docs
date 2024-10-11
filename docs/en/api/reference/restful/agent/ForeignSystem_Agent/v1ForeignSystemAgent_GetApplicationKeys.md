@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Streich-Denesik"
+  "ApplicationName": "Sawayn-Blanda"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "totam",
-    "Value": "quos",
-    "RecordId": 28,
-    "CreatedDate": "2008-10-22T04:02:01.8003604+02:00",
-    "UpdatedDate": "2007-07-13T04:02:01.8003604+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "similique",
-    "TableName": "McDermott-Hyatt",
+    "Key": "ducimus",
+    "Value": "voluptas",
+    "RecordId": 763,
+    "CreatedDate": "2002-10-14T03:44:52.6521119+02:00",
+    "UpdatedDate": "2001-07-08T03:44:52.6521119+02:00",
+    "UpdatedBy": "explicabo",
+    "CreatedBy": "delectus",
+    "TableName": "Denesik Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 275
       }
     }
   }

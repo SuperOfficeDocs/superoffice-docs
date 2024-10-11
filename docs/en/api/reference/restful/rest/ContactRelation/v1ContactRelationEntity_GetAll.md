@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=dolor
-GET /api/v1/Relation?$top=859
-GET /api/v1/Relation?$skip=44
+GET /api/v1/Relation?$entities=nam
+GET /api/v1/Relation?$top=97
+GET /api/v1/Relation?$skip=357
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=at
+GET /api/v1/Relation?$context=veniam
 GET /api/v1/Relation?$format=JSON
-GET /api/v1/Relation?$jsonSafe=False
+GET /api/v1/Relation?$jsonSafe=True
 GET /api/v1/Relation?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "quasi",
   "value": [
     {
-      "PrimaryKey": 4960,
-      "EntityName": "sale",
-      "saleId": 4960,
-      "contactId": 7638,
-      "name": "Mante-O'Reilly"
+      "PrimaryKey": 2523,
+      "EntityName": "person",
+      "personId": 2523,
+      "fullName": "Ms. Jose Timothy Jacobson MD"
     },
     {
-      "PrimaryKey": 5637,
-      "EntityName": "sale",
-      "saleId": 5637,
-      "contactId": 9041,
-      "name": "Bashirian-Purdy"
+      "PrimaryKey": 9846,
+      "EntityName": "person",
+      "personId": 9846,
+      "fullName": "Mrs. Danyka Rogahn PhD"
     }
   ]
 }

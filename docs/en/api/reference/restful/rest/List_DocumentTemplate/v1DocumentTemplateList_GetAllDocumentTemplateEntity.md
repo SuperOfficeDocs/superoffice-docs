@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 806,
-    "Name": "Haag-Hilll",
-    "Tooltip": "molestiae",
-    "SaveInDb": 633,
-    "Filename": "minus",
-    "DefaultOref": "blanditiis",
+    "DocumentTemplateId": 296,
+    "Name": "Rempel-Hyatt",
+    "Tooltip": "et",
+    "SaveInDb": 1001,
+    "Filename": "fugiat",
+    "DefaultOref": "ut",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 311,
-    "IntentId": 707,
-    "IsDefaultPublished": true,
-    "Rank": 740,
-    "LoadTemplateFromPlugin": 820,
-    "MimeType": "possimus",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 566,
+    "AutoeventId": 103,
+    "IntentId": 39,
+    "IsDefaultPublished": false,
+    "Rank": 585,
+    "LoadTemplateFromPlugin": 985,
+    "MimeType": "nisi",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 216,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "karson_okon@bergstrom.ca",
+    "EmailSubject": "jamey@nicolas.us",
     "IncludeSignature": false,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "pierre@nitzsche.us",
+    "SenderEmailAddress": "billy@windlerweissnat.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 684
       }
     }
   }

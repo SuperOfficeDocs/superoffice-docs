@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Veum-Hane",
-  "ModuleName": "Mraz-Streich",
-  "ModuleDescription": "Distributed 3rd generation access",
-  "ModuleTooltip": "qui",
-  "ModuleVersion": "tempore",
+  "OwnerName": "Aufderhar Group",
+  "ModuleName": "Predovic, Reilly and Kuvalis",
+  "ModuleDescription": "Enterprise-wide mobile complexity",
+  "ModuleTooltip": "veniam",
+  "ModuleVersion": "non",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 714,
-  "ExtraFlags": 798,
-  "ExtraInfo": "eum",
-  "SortOrder": 79,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Sporer-Rice",
-  "Signature": "magnam"
+  "NumberOfLicenses": 535,
+  "ExtraFlags": 402,
+  "ExtraInfo": "qui",
+  "SortOrder": 523,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Johnston-Morissette",
+  "Signature": "a"
 }
 ```

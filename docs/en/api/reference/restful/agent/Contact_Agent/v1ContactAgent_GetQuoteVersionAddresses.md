@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 326
+  "QuoteVersionId": 499
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 16400.221999999998,
-    "Wgs84Longitude": 7505.9299999999994,
+    "Wgs84Latitude": 14739.202,
+    "Wgs84Longitude": 8652.974,
     "LocalizedAddress": [
       [
         {
-          "Name": "Herzog, Gibson and Sporer",
-          "Value": "in",
-          "Tooltip": "aperiam",
-          "Label": "illo",
-          "ValueLength": 156,
-          "AddressType": "vel",
+          "Name": "Keeling-Goyette",
+          "Value": "recusandae",
+          "Tooltip": "ipsum",
+          "Label": "ipsa",
+          "ValueLength": 689,
+          "AddressType": "molestiae",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 685
+              "FieldType": "System.Int32",
+              "FieldLength": 817
             }
           }
         }
       ],
       [
         {
-          "Name": "Zemlak Group",
-          "Value": "consequatur",
-          "Tooltip": "officia",
-          "Label": "provident",
-          "ValueLength": 371,
-          "AddressType": "perferendis",
+          "Name": "Lubowitz, Cormier and Hayes",
+          "Value": "ex",
+          "Tooltip": "quis",
+          "Label": "natus",
+          "ValueLength": 208,
+          "AddressType": "ea",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 479
+              "FieldLength": 182
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "dolores",
+    "Formatted": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 447
       }
     }
   }

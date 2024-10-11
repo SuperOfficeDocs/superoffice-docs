@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 418,
-  "PersonName": "Glover LLC",
+  "ContactId": 725,
+  "PersonName": "Jacobs, Gislason and Abernathy",
   "PhoneNumbers": [
-    "693168",
-    "1135533"
+    "758175",
+    "1414668"
   ],
   "Emails": [
-    "ed_gaylord@abshire.name",
-    "asha_monahan@wehner.ca"
+    "lenny@connmertz.co.uk",
+    "eve@lesch.info"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldLength": 416
     }
   }
 }

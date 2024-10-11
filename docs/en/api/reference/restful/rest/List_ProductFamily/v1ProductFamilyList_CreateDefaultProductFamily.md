@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Name": "Durgan-Kris",
-  "Tooltip": "esse",
+  "Id": 983,
+  "Name": "Ratke Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 84,
-  "Rank": 481,
+  "UdListDefinitionId": 727,
+  "Rank": 627,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldType": "System.String",
+      "FieldLength": 367
     }
   }
 }

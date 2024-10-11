@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Watsica LLC",
-    "ToolTip": "Fugit quis enim rem minima ut.",
+    "Id": 467,
+    "Name": "Huels, Harris and Kuhn",
+    "ToolTip": "Soluta earum natus commodi placeat hic velit libero.",
     "Deleted": true,
-    "Rank": 18,
-    "Type": "excepturi",
-    "ColorBlock": 42,
-    "IconHint": "aut",
+    "Rank": 827,
+    "Type": "cumque",
+    "ColorBlock": 282,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2022-04-18T04:02:07.4167631+02:00",
+    "LastChanged": "2006-09-30T03:44:58.1562167+02:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Smitham Group",
-        "ToolTip": "Laborum a tempore dolorem similique.",
-        "Deleted": true,
-        "Rank": 900,
-        "Type": "quia",
-        "ColorBlock": 902,
-        "IconHint": "est",
+        "Id": 597,
+        "Name": "Smith LLC",
+        "ToolTip": "Tenetur provident et dicta asperiores necessitatibus.",
+        "Deleted": false,
+        "Rank": 937,
+        "Type": "a",
+        "ColorBlock": 978,
+        "IconHint": "iste",
         "Selected": true,
-        "LastChanged": "2000-04-18T04:02:07.4167631+02:00",
+        "LastChanged": "2004-06-25T03:44:58.1562167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Amelia Hayley Larson IV"
+        "ExtraInfo": "atque",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Mrs. Hollis Rosalia Keeling Jr."
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "iure",
+    "ExtraInfo": "et",
+    "StyleHint": "delectus",
     "Hidden": true,
-    "FullName": "Susie Gutkowski"
+    "FullName": "Mireille Schiller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Zboncak LLC",
-    "ToolTip": "Dignissimos quam autem eos omnis.",
+    "Id": 42,
+    "Name": "Kulas Inc and Sons",
+    "ToolTip": "Dicta non necessitatibus quibusdam.",
     "Deleted": false,
-    "Rank": 703,
-    "Type": "sunt",
-    "ColorBlock": 234,
-    "IconHint": "neque",
+    "Rank": 108,
+    "Type": "suscipit",
+    "ColorBlock": 395,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2019-01-06T04:02:07.4167631+01:00",
+    "LastChanged": "1999-07-28T03:44:58.1562167+02:00",
     "ChildItems": [
       {
-        "Id": 470,
-        "Name": "Bednar, Pfannerstill and Olson",
-        "ToolTip": "Numquam porro expedita asperiores dolor id.",
+        "Id": 135,
+        "Name": "Yost, O'Conner and Lakin",
+        "ToolTip": "Molestias praesentium deserunt.",
         "Deleted": false,
-        "Rank": 476,
-        "Type": "officia",
-        "ColorBlock": 712,
-        "IconHint": "inventore",
-        "Selected": false,
-        "LastChanged": "2000-10-28T04:02:07.4167631+02:00",
+        "Rank": 865,
+        "Type": "doloremque",
+        "ColorBlock": 298,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2003-01-15T03:44:58.1562167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Zelda Sarah Williamson Jr.",
+        "ExtraInfo": "sint",
+        "StyleHint": "voluptates",
+        "Hidden": true,
+        "FullName": "Ms. Bernie Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 685
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Houston Abshire V",
+    "ExtraInfo": "omnis",
+    "StyleHint": "consectetur",
+    "Hidden": false,
+    "FullName": "Candace Ardith Hintz V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 290
       }
     }
   }

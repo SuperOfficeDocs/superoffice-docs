@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 29,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Autem et explicabo aut quas et.",
-    "Deleted": true,
-    "Rank": 916,
-    "Type": "non",
-    "ColorBlock": 903,
-    "IconHint": "est",
+    "Id": 77,
+    "Name": "Schoen, Koelpin and Nitzsche",
+    "ToolTip": "Deserunt doloribus ipsam est tempora id.",
+    "Deleted": false,
+    "Rank": 647,
+    "Type": "autem",
+    "ColorBlock": 55,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "2006-12-09T04:02:07.119095+01:00",
+    "LastChanged": "2016-10-03T03:44:57.9531133+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Pfeffer, Robel and Daugherty",
-        "ToolTip": "Doloribus optio a.",
+        "Id": 732,
+        "Name": "Nienow, Paucek and Reichel",
+        "ToolTip": "Atque consequuntur praesentium.",
         "Deleted": false,
-        "Rank": 950,
-        "Type": "ut",
-        "ColorBlock": 453,
-        "IconHint": "corrupti",
+        "Rank": 10,
+        "Type": "tempora",
+        "ColorBlock": 825,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2005-06-09T04:02:07.119095+02:00",
+        "LastChanged": "2002-05-05T03:44:57.9531133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "illum",
-        "Hidden": false,
-        "FullName": "Arjun Isaias Mraz MD",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "nam",
+        "Hidden": true,
+        "FullName": "Oran Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 489
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "voluptatum",
-    "Hidden": true,
-    "FullName": "Jefferey Weimann",
+    "ExtraInfo": "quidem",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Ulises Bartoletti DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldType": "System.String",
+        "FieldLength": 339
       }
     }
   }

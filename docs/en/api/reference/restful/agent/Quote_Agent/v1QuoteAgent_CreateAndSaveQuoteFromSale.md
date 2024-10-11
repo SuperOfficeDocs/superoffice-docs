@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 738,
-  "CopyToSaleId": 246
+  "CopyFromSaleId": 112,
+  "CopyToSaleId": 365
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 684,
-  "SaleId": 629,
-  "QuoteConnectionId": 731,
-  "ERPQuoteKey": "blanditiis",
-  "ERPOrderKey": "voluptates",
-  "ActiveQuoteVersionId": 290,
-  "AcceptedQuoteAlternativeId": 971,
-  "UseValuesFromQuote": 783,
-  "DocumentId": 904,
-  "PoNumber": "990294",
-  "OrderComment": "amet",
-  "PreferredEmailCulture": "jena@balistreribrakus.co.uk",
+  "QuoteId": 651,
+  "SaleId": 966,
+  "QuoteConnectionId": 724,
+  "ERPQuoteKey": "quam",
+  "ERPOrderKey": "ipsum",
+  "ActiveQuoteVersionId": 25,
+  "AcceptedQuoteAlternativeId": 203,
+  "UseValuesFromQuote": 756,
+  "DocumentId": 871,
+  "PoNumber": "1249994",
+  "OrderComment": "inventore",
+  "PreferredEmailCulture": "maye@hand.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 907,
-      "ERPQuoteVersionKey": "voluptates",
-      "QuoteId": 372,
-      "Description": "Function-based national ability",
-      "Number": "1245306",
+      "QuoteVersionId": 441,
+      "ERPQuoteVersionKey": "rerum",
+      "QuoteId": 838,
+      "Description": "Team-oriented assymetric capacity",
+      "Number": "1312024",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 896,
-      "SentDate": "2011-03-21T04:02:02.2065837+01:00",
-      "FollowupId": 198,
-      "ExpirationDate": "2010-04-24T04:02:02.2065837+02:00",
-      "DeliveryCountryId": 710,
+      "LikelyQuoteAlternativeId": 895,
+      "SentDate": "2005-10-26T03:44:53.0583181+02:00",
+      "FollowupId": 49,
+      "ExpirationDate": "2006-09-22T03:44:53.0583181+02:00",
+      "DeliveryCountryId": 704,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 531,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "nihil",
-      "ERPPaymentTypeKey": "est",
-      "ERPDeliveryTermsKey": "modi",
-      "ERPDeliveryTypeKey": "totam",
-      "Rank": 796,
-      "ApprovedBy": 987,
-      "ApprovedText": "eos",
-      "ApprovedRegisteredBy": 462,
-      "ApprovedRegisteredDate": "2007-12-08T04:02:02.2065837+01:00",
-      "ExtraField1": "molestias",
-      "ExtraField2": "aut",
-      "ExtraField3": "impedit",
-      "ExtraField4": "aspernatur",
-      "ExtraField5": "nobis",
-      "LastRecalculated": "2005-08-20T04:02:02.2065837+02:00",
-      "Updated": "1997-11-13T04:02:02.2065837+01:00",
-      "UpdatedAssociateId": 274,
-      "Registered": "2008-09-06T04:02:02.2065837+02:00",
-      "RegisteredAssociateId": 31,
-      "RequestAssociateId": 842,
-      "RequestComment": "atque",
+      "InvoiceCountryId": 251,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "odio",
+      "ERPPaymentTypeKey": "dolore",
+      "ERPDeliveryTermsKey": "rem",
+      "ERPDeliveryTypeKey": "magni",
+      "Rank": 236,
+      "ApprovedBy": 653,
+      "ApprovedText": "cumque",
+      "ApprovedRegisteredBy": 944,
+      "ApprovedRegisteredDate": "2010-06-08T03:44:53.0583181+02:00",
+      "ExtraField1": "voluptatum",
+      "ExtraField2": "sint",
+      "ExtraField3": "voluptate",
+      "ExtraField4": "ut",
+      "ExtraField5": "magnam",
+      "LastRecalculated": "2024-07-22T03:44:53.0739396+02:00",
+      "Updated": "2007-06-25T03:44:53.0739396+02:00",
+      "UpdatedAssociateId": 329,
+      "Registered": "2010-02-22T03:44:53.0739396+01:00",
+      "RegisteredAssociateId": 773,
+      "RequestAssociateId": 266,
+      "RequestComment": "dicta",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldLength": 532
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Person/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 267
+  "PersonId": 270
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 14591.903999999999,
-  "Wgs84Longitude": 11482.975999999999,
+  "Wgs84Latitude": 10041.336,
+  "Wgs84Longitude": 7029.562,
   "LocalizedAddress": [
     [
       {
-        "Name": "White LLC",
-        "Value": "blanditiis",
-        "Tooltip": "aperiam",
-        "Label": "quaerat",
-        "ValueLength": 609,
-        "AddressType": "eligendi",
+        "Name": "Hilll-Satterfield",
+        "Value": "deserunt",
+        "Tooltip": "fugit",
+        "Label": "illum",
+        "ValueLength": 187,
+        "AddressType": "repudiandae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 121
+            "FieldLength": 165
           }
         }
       }
     ],
     [
       {
-        "Name": "Goldner-Smith",
-        "Value": "fugit",
-        "Tooltip": "ducimus",
-        "Label": "maiores",
-        "ValueLength": 348,
-        "AddressType": "eveniet",
+        "Name": "Mayert, Aufderhar and Langosh",
+        "Value": "aut",
+        "Tooltip": "quia",
+        "Label": "quae",
+        "ValueLength": 482,
+        "AddressType": "laborum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 106
+            "FieldType": "System.String",
+            "FieldLength": 41
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "sequi",
+  "Formatted": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 764
     }
   }
 }

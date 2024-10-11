@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Wisoky Inc and Sons",
-  "EntityId": 997,
-  "TargetLanguage": "sapiente"
+  "EntityName": "Tremblay, Schmitt and Littel",
+  "EntityId": 226,
+  "TargetLanguage": "accusantium"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"officiis"
+"corrupti"
 ```

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Farrell, Ledner and Veum",
-    "ToolTip": "Ducimus iusto et libero sit.",
-    "Deleted": false,
-    "Rank": 346,
-    "Type": "eos",
-    "ColorBlock": 160,
-    "IconHint": "quia",
+    "Id": 540,
+    "Name": "Mueller, Jenkins and Upton",
+    "ToolTip": "Ut itaque iusto quaerat dolores autem facilis quidem.",
+    "Deleted": true,
+    "Rank": 597,
+    "Type": "deserunt",
+    "ColorBlock": 646,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2001-09-30T04:02:07.2909529+02:00",
+    "LastChanged": "2017-11-19T03:44:58.0468534+01:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Rice, Aufderhar and Lueilwitz",
-        "ToolTip": "Modi quo omnis nobis officia earum esse impedit.",
+        "Id": 640,
+        "Name": "Price Inc and Sons",
+        "ToolTip": "Iste consequatur molestias nesciunt incidunt aspernatur autem.",
         "Deleted": false,
-        "Rank": 540,
-        "Type": "nemo",
-        "ColorBlock": 45,
-        "IconHint": "porro",
-        "Selected": true,
-        "LastChanged": "2005-12-16T04:02:07.2909529+01:00",
+        "Rank": 471,
+        "Type": "tempore",
+        "ColorBlock": 94,
+        "IconHint": "deserunt",
+        "Selected": false,
+        "LastChanged": "2003-09-11T03:44:58.0468534+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "illo",
+        "ExtraInfo": "omnis",
+        "StyleHint": "iusto",
         "Hidden": true,
-        "FullName": "Mr. Milan June Conn",
+        "FullName": "Lloyd Metz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 715
+            "FieldType": "System.String",
+            "FieldLength": 536
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Terence Reilly",
+    "FullName": "Dr. Ward Reed Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldLength": 901
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "soluta"
+  "Domain": "quibusdam"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "McKenzie-Flatley",
-    "SoPrimaryKey": 531,
-    "EntryName": "DuBuque-Metz",
-    "EntryIdentifier": "autem",
-    "RuleDisplayName": "Wilderman Group",
+    "RuleName": "Goldner, Mueller and Keebler",
+    "SoPrimaryKey": 646,
+    "EntryName": "Koepp, Hilll and Rodriguez",
+    "EntryIdentifier": "qui",
+    "RuleDisplayName": "Olson-Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldType": "System.String",
+        "FieldLength": 448
       }
     }
   }

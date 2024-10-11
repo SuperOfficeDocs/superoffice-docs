@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=incidunt
+GET /api/v1/List/Business/MDOItems?query=accusamus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Wilderman-Keebler",
-    "ToolTip": "Occaecati ducimus.",
-    "Deleted": false,
-    "Rank": 192,
-    "Type": "possimus",
+    "Id": 297,
+    "Name": "Anderson Group",
+    "ToolTip": "Voluptas tempora minus illum praesentium.",
+    "Deleted": true,
+    "Rank": 94,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Bednar, Dickens and Dooley",
-        "ToolTip": "Doloremque consequatur harum qui sit dolore.",
+        "Id": 624,
+        "Name": "Bauch Group",
+        "ToolTip": "Voluptatem quia quibusdam nisi sit ad quia.",
         "Deleted": false,
-        "Rank": 394,
-        "Type": "ut",
+        "Rank": 311,
+        "Type": "officia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 884,
-        "ExtraInfo": "est",
-        "StyleHint": "ab",
-        "FullName": "Velva Schimmel Jr.",
+        "IconHint": "voluptatem",
+        "ColorBlock": 188,
+        "ExtraInfo": "praesentium",
+        "StyleHint": "qui",
+        "FullName": "Westley Waters",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 185
+            "FieldType": "System.String",
+            "FieldLength": 691
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 598,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "doloribus",
-    "FullName": "Michaela O'Conner",
+    "IconHint": "voluptate",
+    "ColorBlock": 29,
+    "ExtraInfo": "et",
+    "StyleHint": "officiis",
+    "FullName": "Savanah Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldLength": 890
       }
     }
   }

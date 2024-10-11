@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 768,
-    "Name": "Howe, O'Connell and Mayer",
-    "Tooltip": "hic",
-    "Deleted": false,
-    "Rank": 645,
-    "UdListDefinitionId": 769
+    "HeadingId": 50,
+    "Name": "Dibbert, Klocko and Moore",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "Rank": 105,
+    "UdListDefinitionId": 377
   },
   {
-    "HeadingId": 768,
-    "Name": "Howe, O'Connell and Mayer",
-    "Tooltip": "hic",
-    "Deleted": false,
-    "Rank": 645,
-    "UdListDefinitionId": 769
+    "HeadingId": 50,
+    "Name": "Dibbert, Klocko and Moore",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "Rank": 105,
+    "UdListDefinitionId": 377
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 486,
-    "Name": "Emmerich-Hettinger",
-    "Tooltip": "temporibus",
+    "HeadingId": 788,
+    "Name": "Lesch-Fadel",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "Rank": 710,
-    "UdListDefinitionId": 759,
+    "Rank": 56,
+    "UdListDefinitionId": 768,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldType": "System.Int32",
+        "FieldLength": 953
       }
     }
   }

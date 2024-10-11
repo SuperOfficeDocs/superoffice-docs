@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 718
+  "PersonId": 517
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "voluptatem",
-    "StrippedValue": "quod",
-    "Description": "User-centric 24 hour analyzer",
+    "Value": "qui",
+    "StrippedValue": "sit",
+    "Description": "Synergized impactful encoding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 509
       }
     }
   },
   {
-    "Value": "voluptatem",
-    "StrippedValue": "quod",
-    "Description": "User-centric 24 hour analyzer",
+    "Value": "qui",
+    "StrippedValue": "sit",
+    "Description": "Synergized impactful encoding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 509
       }
     }
   }

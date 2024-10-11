@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
-  "Name": "Kub-Hills",
-  "Tooltip": "aut",
+  "Id": 802,
+  "Name": "Lynch-Bauch",
+  "Tooltip": "placeat",
   "Deleted": false,
-  "UdListDefinitionId": 783,
-  "Rank": 756,
+  "UdListDefinitionId": 426,
+  "Rank": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldLength": 175
     }
   }
 }

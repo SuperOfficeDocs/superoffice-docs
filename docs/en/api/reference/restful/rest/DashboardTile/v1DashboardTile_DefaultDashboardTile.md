@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 240,
-  "Caption": "voluptas",
-  "Description": "Right-sized tertiary open architecture",
-  "ChartName": "Kerluke LLC",
-  "ChartId": "perspiciatis",
+  "DashboardTileId": 755,
+  "Caption": "sed",
+  "Description": "Universal zero tolerance website",
+  "ChartName": "Dickens-Stanton",
+  "ChartId": "accusantium",
   "IsDefault": false,
-  "AssociateId": 3,
-  "GroupId": 305,
-  "SelectionId": 88,
-  "Config": "vel",
+  "AssociateId": 361,
+  "GroupId": 335,
+  "SelectionId": 760,
+  "Config": "tempore",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kohler Inc and Sons",
-      "Description": "Programmable maximized local area network",
+      "Name": "Gusikowski Group",
+      "Description": "Customizable leading edge workforce",
       "Type": "Boolean",
-      "ListName": "Gibson-Langosh",
+      "ListName": "Stehr LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ea",
+      "Value": "in",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 263
+          "FieldLength": 932
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 236,
+      "VisibleId": 959,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldLength": 161
         }
       }
     },
     {
-      "VisibleId": 236,
+      "VisibleId": 959,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldLength": 161
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldLength": 431
     }
   }
 }

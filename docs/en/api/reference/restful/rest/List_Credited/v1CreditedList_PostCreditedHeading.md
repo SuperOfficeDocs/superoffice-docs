@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 594,
-  "Name": "Yundt LLC",
-  "Tooltip": "sapiente",
+  "HeadingId": 321,
+  "Name": "McLaughlin LLC",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "Rank": 150,
-  "UdListDefinitionId": 859
+  "Rank": 949,
+  "UdListDefinitionId": 544
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 574,
-  "Name": "Fadel-King",
-  "Tooltip": "nemo",
+  "HeadingId": 205,
+  "Name": "Stokes-Ledner",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 975,
-  "UdListDefinitionId": 799,
+  "Rank": 990,
+  "UdListDefinitionId": 168,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 93
     }
   }
 }

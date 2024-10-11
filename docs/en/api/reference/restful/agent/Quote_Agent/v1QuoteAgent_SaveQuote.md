@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 876,
-  "SaleId": 256,
-  "QuoteConnectionId": 988,
-  "ERPQuoteKey": "eos",
-  "ERPOrderKey": "consequatur",
-  "ActiveQuoteVersionId": 824,
-  "AcceptedQuoteAlternativeId": 326,
-  "UseValuesFromQuote": 940,
-  "DocumentId": 81,
-  "PoNumber": "492720",
-  "OrderComment": "sit",
-  "PreferredEmailCulture": "jaleel_nikolaus@simonis.biz",
+  "QuoteId": 403,
+  "SaleId": 869,
+  "QuoteConnectionId": 714,
+  "ERPQuoteKey": "praesentium",
+  "ERPOrderKey": "quis",
+  "ActiveQuoteVersionId": 208,
+  "AcceptedQuoteAlternativeId": 131,
+  "UseValuesFromQuote": 953,
+  "DocumentId": 121,
+  "PoNumber": "162461",
+  "OrderComment": "velit",
+  "PreferredEmailCulture": "rollin.zieme@mitchell.ca",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   }
 }

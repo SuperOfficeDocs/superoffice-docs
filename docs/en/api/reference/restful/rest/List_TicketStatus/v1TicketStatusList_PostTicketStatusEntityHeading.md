@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 824,
-  "Name": "Murazik-Jacobi",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 540,
-  "UdListDefinitionId": 670
+  "HeadingId": 720,
+  "Name": "Rowe Inc and Sons",
+  "Tooltip": "voluptatum",
+  "Deleted": true,
+  "Rank": 482,
+  "UdListDefinitionId": 508
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 604,
-  "Name": "Labadie LLC",
-  "Tooltip": "illum",
+  "HeadingId": 369,
+  "Name": "O'Keefe LLC",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 685,
-  "UdListDefinitionId": 8,
+  "Rank": 408,
+  "UdListDefinitionId": 717,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   }
 }

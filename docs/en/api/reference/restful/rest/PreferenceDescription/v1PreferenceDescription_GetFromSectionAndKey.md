@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 412,
-  "Section": "et",
-  "Key": "quibusdam",
-  "Name": "Heidenreich Inc and Sons",
+  "PrefDescId": 892,
+  "Section": "sunt",
+  "Key": "eligendi",
+  "Name": "Kuhn Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Implemented logistical attitude",
+  "Description": "Customer-focused even-keeled approach",
   "IsBuiltin": false,
-  "TableName": "Johnson, McKenzie and Romaguera",
-  "UserDefinedListId": 836,
-  "Rank": 453,
-  "SubGroup": "ipsam",
-  "MinLevel": 925,
-  "MaxValue": 88,
-  "MinValue": 847,
-  "RequiredLicense": "fuga",
+  "TableName": "Wiegand, Zieme and Bahringer",
+  "UserDefinedListId": 474,
+  "Rank": 21,
+  "SubGroup": "officiis",
+  "MinLevel": 636,
+  "MaxValue": 458,
+  "MinValue": 99,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 111
     }
   }
 }

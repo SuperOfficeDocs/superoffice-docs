@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2005-05-19T04:02:01.4405177+02:00",
+  "ActivityStartTime": "2021-03-03T03:44:52.3083975+01:00",
   "ContactCategories": [
-    627,
-    876
+    352,
+    943
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 435,
-    "Department": "envisioneer holistic platforms",
-    "OrgNr": "1085426",
-    "Name": "Ruecker-Steuber",
+    "ContactId": 947,
+    "Department": "exploit cross-media e-business",
+    "OrgNr": "366896",
+    "Name": "Hintz, Feeney and Price",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Imani Fay V",
+    "AssociateFullName": "Elta Daniel",
     "Action": "ActivityCompleted",
-    "ActionTime": "2021-09-26T04:02:01.4405177+02:00",
+    "ActionTime": "2023-01-18T03:44:52.3083975+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Schowalter-Jacobs",
-    "ActionId": 511,
-    "PersonId": 351,
-    "ActivityPersonId": 295,
-    "AssociateId": 852,
+    "ActivityPersonName": "Armstrong-Lehner",
+    "ActionId": 54,
+    "PersonId": 280,
+    "ActivityPersonId": 519,
+    "AssociateId": 923,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   }

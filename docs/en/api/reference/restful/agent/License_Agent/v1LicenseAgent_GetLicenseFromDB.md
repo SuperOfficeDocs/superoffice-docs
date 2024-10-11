@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Bogan Group"
+  "OwnerName": "Jacobson Group"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 212,
-      "NumberOfLicensesFree": 334,
-      "NumberOfLicensesAdded": 286,
-      "NumberOfLicensesNewTotal": 631,
-      "NumberOfLicensesNewFree": 319,
-      "NumberOfLicensesTotal": 537
+      "NumberOfLicensesInUse": 86,
+      "NumberOfLicensesFree": 937,
+      "NumberOfLicensesAdded": 672,
+      "NumberOfLicensesNewTotal": 935,
+      "NumberOfLicensesNewFree": 446,
+      "NumberOfLicensesTotal": 489
     }
   ],
-  "AccumulatedNextCheckDate": "2006-02-13T04:02:01.8003604+01:00"
+  "AccumulatedNextCheckDate": "2007-09-29T03:44:52.6677336+02:00"
 }
 ```

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 142,
-    "Name": "Lynch Inc and Sons",
-    "Tooltip": "cum",
+    "HeadingId": 3,
+    "Name": "Simonis Group",
+    "Tooltip": "adipisci",
     "Deleted": true,
-    "Rank": 577,
-    "UdListDefinitionId": 203
+    "Rank": 664,
+    "UdListDefinitionId": 984
   },
   {
-    "HeadingId": 142,
-    "Name": "Lynch Inc and Sons",
-    "Tooltip": "cum",
+    "HeadingId": 3,
+    "Name": "Simonis Group",
+    "Tooltip": "adipisci",
     "Deleted": true,
-    "Rank": 577,
-    "UdListDefinitionId": 203
+    "Rank": 664,
+    "UdListDefinitionId": 984
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 759,
-    "Name": "Abernathy, Hartmann and Ondricka",
-    "Tooltip": "vero",
+    "HeadingId": 382,
+    "Name": "Considine, Turner and Dicki",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "Rank": 291,
-    "UdListDefinitionId": 625,
+    "Rank": 797,
+    "UdListDefinitionId": 134,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 423
       }
     }
   }

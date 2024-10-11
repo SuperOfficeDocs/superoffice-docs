@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Quote/SendQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 252,
-  "ExpiryDate": "2014-04-08T04:02:02.1753367+02:00",
-  "FollowupDate": "2004-01-28T04:02:02.1753367+01:00",
-  "FollowupText": "est",
-  "Culture": "blanditiis"
+  "QuoteVersionId": 969,
+  "ExpiryDate": "1997-09-07T03:44:53.042699+02:00",
+  "FollowupDate": "2015-08-07T03:44:53.042699+02:00",
+  "FollowupText": "suscipit",
+  "Culture": "ipsa"
 }
 ```
 
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "occaecati",
-  "TechExplanation": "recusandae",
-  "ErrorCode": "at",
+  "UserExplanation": "qui",
+  "TechExplanation": "illum",
+  "ErrorCode": "ut",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -115,8 +115,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "et"
+  "ChatId": "laudantium"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2016-03-27T04:02:00.9713176+02:00",
-    "UserPrompt": "nesciunt",
-    "UserDisplayText": "quaerat",
-    "BotResponse": "labore",
+    "Timestamp": "2020-03-20T03:44:51.808417+01:00",
+    "UserPrompt": "sunt",
+    "UserDisplayText": "quis",
+    "BotResponse": "soluta",
     "BotActions": {
-      "BotActions1": "optio",
-      "BotActions2": "ab"
+      "BotActions1": "autem",
+      "BotActions2": "nulla"
     },
     "Attachments": [
-      "voluptas",
-      "nesciunt"
+      "nesciunt",
+      "aliquam"
     ]
   },
   {
-    "Timestamp": "2016-03-27T04:02:00.9713176+02:00",
-    "UserPrompt": "nesciunt",
-    "UserDisplayText": "quaerat",
-    "BotResponse": "labore",
+    "Timestamp": "2020-03-20T03:44:51.808417+01:00",
+    "UserPrompt": "sunt",
+    "UserDisplayText": "quis",
+    "BotResponse": "soluta",
     "BotActions": {
-      "BotActions1": "optio",
-      "BotActions2": "ab"
+      "BotActions1": "autem",
+      "BotActions2": "nulla"
     },
     "Attachments": [
-      "voluptas",
-      "nesciunt"
+      "nesciunt",
+      "aliquam"
     ]
   }
 ]

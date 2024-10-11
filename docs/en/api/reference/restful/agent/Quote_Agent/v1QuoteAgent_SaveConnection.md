@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 325,
-  "ERPName": "Pollich-Grimes",
-  "DisplayName": "Schultz, Romaguera and Gibson",
-  "DisplayDescription": "Synchronised logistical hub",
-  "Rank": 646,
-  "ConnectorName": "Altenwerth Inc and Sons",
-  "ErpConnectionId": 82,
-  "ExtraData": "omnis",
+  "QuoteConnectionId": 511,
+  "ERPName": "Wehner-Bergstrom",
+  "DisplayName": "Cormier, Friesen and Adams",
+  "DisplayDescription": "Synergized context-sensitive support",
+  "Rank": 140,
+  "ConnectorName": "Barrows, Champlin and Hodkiewicz",
+  "ErpConnectionId": 435,
+  "ExtraData": "alias",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 647,
-      "ERPPriceListKey": "maxime",
-      "QuoteConnectionId": 50,
-      "Name": "Hilpert, VonRueden and Wiegand",
-      "Description": "Adaptive fresh-thinking product",
-      "Currency": "culpa",
-      "CurrencyName": "Macejkovic Group",
-      "ValidFrom": "2015-11-14T04:02:02.2065837+01:00",
-      "ValidTo": "2017-05-12T04:02:02.2065837+02:00",
-      "IsActive": true,
+      "PriceListId": 926,
+      "ERPPriceListKey": "et",
+      "QuoteConnectionId": 697,
+      "Name": "Keeling Inc and Sons",
+      "Description": "Face to face didactic knowledge user",
+      "Currency": "fugit",
+      "CurrencyName": "Mertz Group",
+      "ValidFrom": "1999-09-19T03:44:53.0583181+02:00",
+      "ValidTo": "2000-10-07T03:44:53.0583181+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 149
+          "FieldType": "System.Int32",
+          "FieldLength": 128
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    816,
-    306
+    293,
+    63
   ],
   "AssociateAccessIds": [
-    380,
-    486
+    526,
+    645
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 674
     }
   }
 }

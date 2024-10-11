@@ -99,35 +99,35 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 551,
-  "Name": "Heathcote, Cruickshank and Bechtelar",
-  "Rank": 271,
-  "Tooltip": "quo",
-  "Icon": "esse",
-  "DefaultTicketStatus": 88,
+  "TicketTypeId": 273,
+  "Name": "Flatley, Rath and Mann",
+  "Rank": 31,
+  "Tooltip": "consequuntur",
+  "Icon": "qui",
+  "DefaultTicketStatus": 731,
   "TicketStatuses": [
-    694,
-    133
+    135,
+    342
   ],
-  "DefaultTicketPriority": 312,
+  "DefaultTicketPriority": 540,
   "TicketPriorities": [
-    132,
-    708
+    460,
+    715
   ],
-  "ReplyTemplate": 176,
+  "ReplyTemplate": 888,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    709,
-    832
+    55,
+    783
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true
@@ -141,31 +141,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 735,
-  "Name": "Schneider-Monahan",
-  "Rank": 442,
-  "Tooltip": "deserunt",
-  "Icon": "sit",
-  "DefaultTicketStatus": 196,
+  "TicketTypeId": 282,
+  "Name": "Larkin, Dare and Christiansen",
+  "Rank": 252,
+  "Tooltip": "nemo",
+  "Icon": "repellendus",
+  "DefaultTicketStatus": 64,
   "TicketStatuses": [
-    922,
-    336
+    615,
+    237
   ],
-  "DefaultTicketPriority": 57,
+  "DefaultTicketPriority": 673,
   "TicketPriorities": [
-    15,
-    228
+    1002,
+    542
   ],
-  "ReplyTemplate": 439,
+  "ReplyTemplate": 874,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    454,
-    312
+    968,
+    222
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -173,8 +173,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

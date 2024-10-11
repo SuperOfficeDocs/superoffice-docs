@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "molestiae",
-  "SearchString": "rerum"
+  "Type": "excepturi",
+  "SearchString": "libero"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mante-Fay",
-    "DisplayName": "Williamson-Koelpin",
+    "Name": "Ebert-Braun",
+    "DisplayName": "Conroy, Emard and Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldLength": 651
       }
     }
   },
   {
-    "Name": "Mante-Fay",
-    "DisplayName": "Williamson-Koelpin",
+    "Name": "Ebert-Braun",
+    "DisplayName": "Conroy, Emard and Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldLength": 651
       }
     }
   }

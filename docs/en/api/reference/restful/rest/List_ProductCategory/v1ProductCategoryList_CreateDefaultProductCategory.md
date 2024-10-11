@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 765,
-  "Name": "Gerlach Inc and Sons",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "UdListDefinitionId": 280,
-  "Rank": 535,
+  "Id": 264,
+  "Name": "Bode, Beatty and Howell",
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "UdListDefinitionId": 764,
+  "Rank": 819,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldLength": 2
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 110,
-    "ColumnId": 220,
-    "FieldDefault": "ut",
-    "FieldHeight": 73,
-    "FieldLabel": "repudiandae",
-    "FieldLeft": 797,
-    "FieldTop": 242,
+    "UDefFieldId": 198,
+    "ColumnId": 445,
+    "FieldDefault": "blanditiis",
+    "FieldHeight": 677,
+    "FieldLabel": "commodi",
+    "FieldLeft": 907,
+    "FieldTop": 421,
     "FieldType": "Checkbox",
-    "FieldWidth": 618,
-    "FormatMask": "in",
-    "HideLabel": true,
+    "FieldWidth": 1002,
+    "FormatMask": "necessitatibus",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 538,
-    "LabelLeft": 471,
-    "LabelTop": 856,
-    "LabelWidth": 905,
-    "LastVersionId": 341,
-    "ListTableId": 380,
-    "IsMandatory": true,
+    "LabelHeight": 628,
+    "LabelLeft": 959,
+    "LabelTop": 95,
+    "LabelWidth": 523,
+    "LastVersionId": 150,
+    "ListTableId": 4,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 873,
-    "ProgId": "aliquam",
-    "IsReadOnly": false,
-    "ShortLabel": "sapiente",
-    "TabOrder": 916,
-    "TextLength": 302,
-    "Tooltip": "sunt",
-    "UdefIdentity": 959,
-    "UDListDefinitionId": 1000,
+    "Page1LineNo": 698,
+    "ProgId": "animi",
+    "IsReadOnly": true,
+    "ShortLabel": "veritatis",
+    "TabOrder": 772,
+    "TextLength": 687,
+    "Tooltip": "aperiam",
+    "UdefIdentity": 263,
+    "UDListDefinitionId": 518,
     "Justification": "Center",
-    "Version": 127,
-    "TemplateVariableName": "Buckridge-Bauch",
-    "HasBeenPublished": true,
-    "MdoListName": "McDermott, Emard and Rowe",
+    "Version": 809,
+    "TemplateVariableName": "Little, Gleichner and Cruickshank",
+    "HasBeenPublished": false,
+    "MdoListName": "Bogisich LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldLength": 339
       }
     }
   }

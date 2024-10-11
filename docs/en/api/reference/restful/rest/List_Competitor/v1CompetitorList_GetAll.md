@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Berge, Tillman and Grimes",
-    "Tooltip": "vel",
+    "Id": 888,
+    "Name": "Pacocha Inc and Sons",
+    "Tooltip": "incidunt",
     "Deleted": false,
-    "UdListDefinitionId": 688,
-    "Rank": 138,
+    "UdListDefinitionId": 17,
+    "Rank": 146,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 468
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

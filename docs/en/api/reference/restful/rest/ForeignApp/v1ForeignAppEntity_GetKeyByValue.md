@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=molestiae
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=enim
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Jul 2011 04:02:06 G7T
+Last-Modified: Wed, 11 Feb 1998 03:44:57 G2T
 
 {
-  "Key": "cumque",
-  "Value": "hic",
-  "RecordId": 942,
-  "CreatedDate": "1999-07-06T04:02:06.6191478+02:00",
-  "UpdatedDate": "2011-07-13T04:02:06.6191478+02:00",
-  "UpdatedBy": "veritatis",
-  "CreatedBy": "aut",
-  "TableName": "Beahan-Rath",
+  "Key": "eos",
+  "Value": "et",
+  "RecordId": 815,
+  "CreatedDate": "2007-06-16T03:44:57.359003+02:00",
+  "UpdatedDate": "1998-02-11T03:44:57.359003+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "a",
+  "TableName": "Bode Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 458
     }
   }
 }

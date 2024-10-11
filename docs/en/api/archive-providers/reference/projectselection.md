@@ -800,7 +800,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelection?$select=projectEvent/hasSignOn,projectUdef/SuperOffice:10,sale/saleType,appointment/associate/contactName,projectMember/supportAssociateFullName
+GET /api/v1/archive/ProjectSelection?$select=status,projectPublish/publishedTo,sale/userGroup,document/updatedDate,projectMember/contactExtra/x_contact_shorttext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 501
+  "PersonId": 637
 }
 ```
 

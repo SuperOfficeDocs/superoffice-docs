@@ -755,7 +755,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/quote/sale/text,alternative/version/quote/sale/person/phone/formattedNumber,alternative/version/quote/sale/person/personExtra/x_person_date,alternative/version/quote/sale/person/correspondingAssociate/lastName,alternative/version/quote/sale/project/projectUdef/SuperOffice:1
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/reason,alternative/version/quote/sale/createdByWorkflow,alternative/version/quote/sale/person/personPager/description,alternative/version/quote/sale/person/email/emailDescription,alternative/version/quote/sale/person/restrictionAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

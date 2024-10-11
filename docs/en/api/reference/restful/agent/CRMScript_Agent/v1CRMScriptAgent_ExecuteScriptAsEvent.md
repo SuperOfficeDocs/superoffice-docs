@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 123,
+  "CRMScriptId": 846,
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "hic",
-    "InputValues2": "quibusdam"
+    "InputValues1": "neque",
+    "InputValues2": "aut"
   },
   "BlockExecution": false,
-  "NavigateTo": "similique",
-  "Message": "mollitia",
-  "ShowDialog": "doloremque",
+  "NavigateTo": "quas",
+  "Message": "laborum",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "qui",
-    "OutputValues2": "dolorum"
+    "OutputValues1": "sapiente",
+    "OutputValues2": "ut"
   },
   "StateValues": {
-    "StateValues1": "provident",
-    "StateValues2": "consequatur"
+    "StateValues1": "eaque",
+    "StateValues2": "aliquam"
   },
-  "Exception": "amet",
+  "Exception": "placeat",
   "ParserValues": {
-    "ParserValues1": "recusandae",
-    "ParserValues2": "cum"
+    "ParserValues1": "ipsum",
+    "ParserValues2": "nesciunt"
   },
   "CgiVariables": {
-    "CgiVariables1": "magni",
-    "CgiVariables2": "dolorum"
+    "CgiVariables1": "voluptas",
+    "CgiVariables2": "tempore"
   },
-  "CgiContent": "deserunt",
+  "CgiContent": "minima",
   "Headers": {
-    "Headers1": "eaque",
-    "Headers2": "et"
+    "Headers1": "necessitatibus",
+    "Headers2": "ipsa"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 712
     }
   }
 }

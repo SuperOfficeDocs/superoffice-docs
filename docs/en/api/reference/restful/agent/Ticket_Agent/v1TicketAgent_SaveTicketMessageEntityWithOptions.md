@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    870,
-    58
+    48,
+    142
   ],
   "UpdateRepliedAt": true
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 256,
+  "EjMessageId": 177,
   "Ticket": null,
-  "CreatedAt": "2018-10-23T04:02:02.5041008+02:00",
+  "CreatedAt": "2001-04-08T03:44:53.3560431+02:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "nobis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "explicabo",
-  "TimeSpent": 323,
-  "Body": "temporibus",
-  "HtmlBody": "porro",
-  "EmailHeader": "maryam.kuhn@pourosabbott.us",
-  "DebugInfo": "provident",
-  "MailSorter": "tempora",
+  "MessageId": "enim",
+  "TimeSpent": 409,
+  "Body": "delectus",
+  "HtmlBody": "aut",
+  "EmailHeader": "rene_corkery@bauchbernhard.name",
+  "DebugInfo": "nulla",
+  "MailSorter": "illum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "facilis",
+  "SearchTitle": "consectetur",
   "MessageHeaders": [
     {
-      "Id": 441,
-      "Name": "Torp Inc and Sons",
-      "Value": "ut",
+      "Id": 49,
+      "Name": "Gottlieb-Gibson",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 14
         }
       }
     }
   ],
   "Important": true,
-  "Language": "est",
-  "Sentiment": 371,
-  "SentimentConfidence": 42,
+  "Language": "beatae",
+  "Sentiment": 32,
+  "SentimentConfidence": 692,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 148,
-      "Name": "Marvin Group",
-      "ContentType": "sint",
-      "AttSize": 205,
+      "AttachmentId": 305,
+      "Name": "Langworth Group",
+      "ContentType": "magni",
+      "AttSize": 135,
       "InlineImage": false,
-      "ContentId": "sit",
-      "AuthKey": "aperiam",
+      "ContentId": "qui",
+      "AuthKey": "hic",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 49
+          "FieldType": "System.Int32",
+          "FieldLength": 147
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "deleniti"
+    "CustomFields1": "ad",
+    "CustomFields2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 976
     }
   }
 }

@@ -80,7 +80,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Tillman-Marquardt"
+  "OwnerName": "Swift, Braun and Howe"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 859,
-      "NumberOfLicensesFree": 661,
-      "NumberOfLicensesAdded": 801,
-      "NumberOfLicensesNewTotal": 115,
-      "NumberOfLicensesNewFree": 525,
-      "NumberOfLicensesTotal": 241
+      "NumberOfLicensesInUse": 769,
+      "NumberOfLicensesFree": 870,
+      "NumberOfLicensesAdded": 285,
+      "NumberOfLicensesNewTotal": 788,
+      "NumberOfLicensesNewFree": 765,
+      "NumberOfLicensesTotal": 142
     }
   ],
-  "AccumulatedNextCheckDate": "2014-12-07T04:02:01.8003604+01:00"
+  "AccumulatedNextCheckDate": "2020-02-29T03:44:52.6521119+01:00"
 }
 ```

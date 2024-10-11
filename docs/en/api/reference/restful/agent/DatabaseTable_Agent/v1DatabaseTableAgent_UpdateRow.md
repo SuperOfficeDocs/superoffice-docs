@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Blanda, McDermott and Dickinson",
-  "Id": 911,
+  "TableName": "Terry-Lueilwitz",
+  "Id": 981,
   "Values": {
-    "Values1": "sed",
-    "Values2": "ipsum"
+    "Values1": "unde",
+    "Values2": "saepe"
   }
 }
 ```

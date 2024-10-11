@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    732,
-    753
+    283,
+    572
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 807,
-    "StartDate": "2005-05-23T04:02:01.0025647+02:00",
-    "EndDate": "2022-05-20T04:02:01.0025647+02:00",
+    "AppointmentId": 590,
+    "StartDate": "2022-01-08T03:44:51.8396645+01:00",
+    "EndDate": "2015-10-19T03:44:51.8396645+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquam",
-    "AssociateFullName": "Loy Fisher Sr.",
-    "ContactName": "Nikolaus-Kihn",
-    "Description": "Horizontal web-enabled conglomeration",
-    "PersonFullName": "Sally Gusikowski",
-    "PersonId": 621,
-    "ContactId": 798,
-    "ProjectId": 516,
-    "ProjectName": "Labadie Group",
+    "Task": "soluta",
+    "AssociateFullName": "Gideon Schmeler",
+    "ContactName": "Ledner-Stoltenberg",
+    "Description": "Self-enabling multimedia customer loyalty",
+    "PersonFullName": "Mrs. Skylar Ankunding",
+    "PersonId": 410,
+    "ContactId": 826,
+    "ProjectId": 374,
+    "ProjectName": "Walter LLC",
     "IsPublished": false,
-    "AssociateId": 727,
-    "ColorIndex": 288,
+    "AssociateId": 650,
+    "ColorIndex": 237,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 667,
-    "PriorityName": "Hartmann LLC",
+    "PriorityId": 459,
+    "PriorityName": "Wolff-Oberbrunner",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2004-06-25T04:02:01.0025647+02:00",
+    "ActiveDate": "2002-03-20T03:44:51.8552876+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-04-27T04:02:01.0025647+02:00",
-    "RecurringEndDate": "2014-08-15T04:02:01.0025647+02:00",
-    "MotherId": 464,
-    "AssignedBy": 493,
-    "AssignedByFullName": "Prof. Florencio Adams",
+    "RecurringStartDate": "2004-07-21T03:44:51.8552876+02:00",
+    "RecurringEndDate": "2021-10-13T03:44:51.8552876+02:00",
+    "MotherId": 62,
+    "AssignedBy": 555,
+    "AssignedByFullName": "Hellen Pacocha",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "nisi",
-    "SaleId": 888,
-    "SaleName": "Terry, Kulas and D'Amore",
-    "AssociateName": "Kub-Tillman",
-    "CreatedDate": "1998-08-30T04:02:01.0025647+02:00",
-    "CreatedBy": "natus",
-    "CreatedByFullName": "Jeramy Schowalter",
-    "CreatedByAssociateId": 653,
+    "Location": "alias",
+    "AlarmLeadTime": "natus",
+    "SaleId": 558,
+    "SaleName": "Hirthe, O'Kon and Langosh",
+    "AssociateName": "Ferry Group",
+    "CreatedDate": "2017-07-14T03:44:51.8552876+02:00",
+    "CreatedBy": "vel",
+    "CreatedByFullName": "Alivia West",
+    "CreatedByAssociateId": 586,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 583,
-    "Title": "corrupti",
-    "Agenda": "fuga",
-    "InternalNotes": "voluptatem",
+    "PreferredTZLocation": 478,
+    "Title": "quis",
+    "Agenda": "cupiditate",
+    "InternalNotes": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldType": "System.String",
+        "FieldLength": 635
       }
     }
   }

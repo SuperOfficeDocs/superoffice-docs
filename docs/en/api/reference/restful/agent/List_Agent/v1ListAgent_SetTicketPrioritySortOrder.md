@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/SetTicketPrioritySortOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 340,
-  "SortOrder": 619
+  "TicketPriorityId": 66,
+  "SortOrder": 626
 }
 ```
 

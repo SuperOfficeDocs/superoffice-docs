@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et"
+  "ProgId": "eius"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 38,
-  "Name": "Farrell LLC",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 405,
+  "WebPanelId": 75,
+  "Name": "Littel-Weber",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 994,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Hagenes-Williamson",
+  "ShowInStatusBar": false,
+  "WindowName": "Schroeder Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "modi",
-  "Icon": 593,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "sunt",
+  "Icon": 829,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldType": "System.String",
+      "FieldLength": 181
     }
   }
 }

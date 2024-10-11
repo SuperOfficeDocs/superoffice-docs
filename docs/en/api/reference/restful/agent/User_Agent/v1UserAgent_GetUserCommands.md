@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Daugherty, Blick and Monahan",
-    "DisplayName": "Nienow-Mosciski",
-    "Description": "Digitized high-level capability",
-    "ToolTip": "Doloribus iste exercitationem est optio eaque.",
+    "Name": "Zulauf, Greenholt and Runolfsson",
+    "DisplayName": "Harris LLC",
+    "Description": "Re-contextualized fresh-thinking data-warehouse",
+    "ToolTip": "Harum et distinctio magni et sit.",
     "Actions": "Implicit",
-    "ActionData": "esse",
+    "ActionData": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 562
       }
     }
   }

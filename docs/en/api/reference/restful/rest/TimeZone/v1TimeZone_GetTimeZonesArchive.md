@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=qui
-GET /api/v1/TimeZone?$top=17
-GET /api/v1/TimeZone?$skip=777
+GET /api/v1/TimeZone?$entities=unde
+GET /api/v1/TimeZone?$top=492
+GET /api/v1/TimeZone?$skip=674
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=est
+GET /api/v1/TimeZone?$context=laudantium
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -96,21 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "inventore",
+  "odata.nextLink": "sapiente",
   "value": [
     {
-      "PrimaryKey": 7401,
-      "EntityName": "sale",
-      "saleId": 7401,
-      "contactId": 1388,
-      "name": "Zboncak-Kshlerin"
+      "PrimaryKey": 5600,
+      "EntityName": "person",
+      "personId": 5600,
+      "fullName": "Miss Nina Considine IV"
     },
     {
-      "PrimaryKey": 836,
-      "EntityName": "sale",
-      "saleId": 836,
-      "contactId": 9719,
-      "name": "Fay, Leannon and Franecki"
+      "PrimaryKey": 5395,
+      "EntityName": "person",
+      "personId": 5395,
+      "fullName": "Savannah Farrell"
     }
   ]
 }

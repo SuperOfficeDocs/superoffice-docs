@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Tromp Group",
+  "UdListDefinitionName": "Schroeder, Runolfsson and Keeling",
   "IncludeDeleted": true
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Monahan, Cruickshank and Satterfield",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "UdListDefinitionId": 698,
-    "Rank": 138,
+    "Id": 14,
+    "Name": "Torp-Thompson",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "UdListDefinitionId": 515,
+    "Rank": 710,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 266
       }
     }
   }

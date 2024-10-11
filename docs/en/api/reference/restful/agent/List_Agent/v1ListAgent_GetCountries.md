@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 287,
-    "Name": "Walker, Lind and Swaniawski",
-    "CurrencyId": 896,
-    "EnglishName": "Boyer Inc and Sons",
+    "CountryId": 251,
+    "Name": "Wolff-Reichert",
+    "CurrencyId": 3,
+    "EnglishName": "Ritchie-Lang",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Inverse global pricing structure",
-    "OrgNrText": "955972",
-    "InterAreaPrefix": "dolorum",
-    "DialInPrefix": "fugit",
-    "ZipPrefix": "sunt",
-    "DomainName": "Adams, Yundt and Green",
-    "AddressLayoutId": 939,
-    "DomesticAddressLayoutId": 67,
-    "ForeignAddressLayoutId": 636,
-    "Rank": 955,
-    "Tooltip": "possimus",
-    "Deleted": false,
+    "ImageDescription": "Intuitive incremental array",
+    "OrgNrText": "1229094",
+    "InterAreaPrefix": "eos",
+    "DialInPrefix": "ad",
+    "ZipPrefix": "iure",
+    "DomainName": "Ryan-Gulgowski",
+    "AddressLayoutId": 345,
+    "DomesticAddressLayoutId": 837,
+    "ForeignAddressLayoutId": 458,
+    "Rank": 733,
+    "Tooltip": "velit",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 654
       }
     }
   }

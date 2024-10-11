@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 246,
-    "Section": "vel",
-    "Key": "sapiente",
-    "Name": "Okuneva Inc and Sons",
+    "PrefDescId": 319,
+    "Section": "autem",
+    "Key": "consequatur",
+    "Name": "Fahey, Reynolds and Maggio",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Implemented mission-critical hub",
+    "Description": "Quality-focused high-level implementation",
     "IsBuiltin": true,
-    "TableName": "Mann, D'Amore and Price",
-    "UserDefinedListId": 192,
-    "Rank": 151,
-    "SubGroup": "et",
-    "MinLevel": 918,
-    "MaxValue": 692,
-    "MinValue": 312,
-    "RequiredLicense": "deserunt",
+    "TableName": "Miller, Terry and Grant",
+    "UserDefinedListId": 741,
+    "Rank": 552,
+    "SubGroup": "est",
+    "MinLevel": 493,
+    "MaxValue": 531,
+    "MinValue": 426,
+    "RequiredLicense": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 944
+        "FieldType": "System.Int32",
+        "FieldLength": 395
       }
     }
   }

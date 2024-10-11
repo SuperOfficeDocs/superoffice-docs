@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 35,
-  "Name": "Hyatt, Cummerata and Bogan",
-  "Tooltip": "ea",
-  "VisibleColumns": 736,
-  "Rank": 608,
-  "AssocId": 3,
+  "DiaryViewId": 850,
+  "Name": "Lesch-Altenwerth",
+  "Tooltip": "sint",
+  "VisibleColumns": 906,
+  "Rank": 48,
+  "AssocId": 932,
   "AssociateList": [
     {
-      "Id": 425,
-      "Name": "Champlin-Quigley",
-      "ToolTip": "Ipsam sit et quam quia et aut.",
+      "Id": 527,
+      "Name": "Herman, Borer and Doyle",
+      "ToolTip": "Maiores repellendus maxime.",
       "Deleted": false,
-      "Rank": 384,
-      "Type": "in",
-      "ColorBlock": 290,
-      "IconHint": "et",
+      "Rank": 648,
+      "Type": "et",
+      "ColorBlock": 84,
+      "IconHint": "repudiandae",
       "Selected": false,
-      "LastChanged": "2011-03-20T04:02:01.4092709+01:00",
+      "LastChanged": "2005-07-13T03:44:52.2615302+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "excepturi",
-      "Hidden": true,
-      "FullName": "Meggie Sauer"
+      "ExtraInfo": "officia",
+      "StyleHint": "molestiae",
+      "Hidden": false,
+      "FullName": "Cydney Dooley"
     }
   ],
-  "TzLocationId": 831
+  "TzLocationId": 129
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 882,
-  "Name": "Reynolds, Kuvalis and Schuppe",
-  "Tooltip": "cum",
-  "VisibleColumns": 481,
-  "Rank": 133,
-  "AssocId": 809,
+  "DiaryViewId": 245,
+  "Name": "Leffler-Greenholt",
+  "Tooltip": "cumque",
+  "VisibleColumns": 753,
+  "Rank": 144,
+  "AssocId": 537,
   "AssociateList": [
     {
-      "Id": 894,
-      "Name": "Olson Inc and Sons",
-      "ToolTip": "Adipisci officia ipsa consequatur.",
-      "Deleted": false,
-      "Rank": 204,
-      "Type": "omnis",
-      "ColorBlock": 715,
-      "IconHint": "nemo",
+      "Id": 628,
+      "Name": "Predovic LLC",
+      "ToolTip": "Quos consequatur dolorem et aperiam aut dicta.",
+      "Deleted": true,
+      "Rank": 152,
+      "Type": "expedita",
+      "ColorBlock": 400,
+      "IconHint": "eum",
       "Selected": false,
-      "LastChanged": "2016-06-12T04:02:01.4092709+02:00",
+      "LastChanged": "1997-12-19T03:44:52.2615302+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "quo",
-      "Hidden": true,
-      "FullName": "Harmon Jammie Funk V",
+      "ExtraInfo": "quibusdam",
+      "StyleHint": "fugit",
+      "Hidden": false,
+      "FullName": "Roselyn Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 437
+          "FieldLength": 34
         }
       }
     }
   ],
-  "TzLocationId": 92,
+  "TzLocationId": 157,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldLength": 44
     }
   }
 }

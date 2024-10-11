@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "nesciunt",
-    "Tooltip": "quam",
-    "Id": 95,
-    "Rank": 71,
-    "Deleted": true,
+    "Value": "officiis",
+    "Tooltip": "placeat",
+    "Id": 49,
+    "Rank": 451,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 983
       }
     }
   }

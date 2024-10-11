@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 940,
-  "Name": "Goodwin-Tromp",
-  "Tooltip": "unde",
+  "Id": 372,
+  "Name": "Tromp-Stamm",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 490,
-  "Rank": 921
+  "UdListDefinitionId": 463,
+  "Rank": 477
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "Muller Inc and Sons",
-  "Tooltip": "commodi",
+  "Id": 877,
+  "Name": "Ruecker LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 367,
-  "Rank": 540,
+  "UdListDefinitionId": 908,
+  "Rank": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

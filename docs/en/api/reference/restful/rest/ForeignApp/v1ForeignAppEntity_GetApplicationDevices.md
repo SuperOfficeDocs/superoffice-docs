@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 26 Dec 2005 04:02:06 G12T
+Last-Modified: Wed, 09 Oct 2019 03:44:57 G10T
 
 [
   {
-    "ForeignDeviceId": 256,
-    "Name": "Lockman-Hilpert",
-    "CreatedDate": "2018-05-21T04:02:06.6191478+02:00",
-    "UpdatedDate": "2005-12-26T04:02:06.6191478+01:00",
-    "AssociateFullName": "Enos Simonis",
-    "CreatedBy": "aut",
-    "UpdatedBy": "cumque",
-    "DeviceIdentifier": "accusantium",
-    "ForeignAppId": 964,
+    "ForeignDeviceId": 501,
+    "Name": "Windler, Fritsch and Wyman",
+    "CreatedDate": "1999-07-04T03:44:57.359003+02:00",
+    "UpdatedDate": "2019-10-09T03:44:57.359003+02:00",
+    "AssociateFullName": "Talia Harvey",
+    "CreatedBy": "animi",
+    "UpdatedBy": "saepe",
+    "DeviceIdentifier": "laudantium",
+    "ForeignAppId": 72,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldLength": 179
       }
     }
   }

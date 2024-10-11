@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 922
+  "AssociateId": 548
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-10-07T04:02:01.1275509+02:00",
-  "AppointmentId": 371,
-  "Description": "Profit-focused homogeneous open system",
-  "Title": "ipsum",
-  "Agenda": "ratione",
-  "InternalNotes": "nisi",
-  "StartDate": "2015-05-04T04:02:01.1275509+02:00",
-  "EndDate": "2013-07-22T04:02:01.1275509+02:00",
+  "CreatedDate": "2017-11-08T03:44:51.9802728+01:00",
+  "AppointmentId": 483,
+  "Description": "Cloned web-enabled support",
+  "Title": "accusantium",
+  "Agenda": "numquam",
+  "InternalNotes": "consectetur",
+  "StartDate": "2000-11-28T03:44:51.9802728+01:00",
+  "EndDate": "2022-10-29T03:44:51.9802728+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 893,
+  "MotherId": 836,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-05-15T04:02:01.1275509+02:00",
+  "UpdatedDate": "2004-01-17T03:44:51.9802728+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 455,
+  "ActiveLinks": 931,
   "Links": [
     {
-      "EntityName": "Volkman Inc and Sons",
-      "Id": 807,
-      "Description": "Open-architected secondary encryption",
-      "ExtraInfo": "deleniti",
-      "LinkId": 726,
+      "EntityName": "Predovic, Denesik and Friesen",
+      "Id": 576,
+      "Description": "Integrated fault-tolerant hardware",
+      "ExtraInfo": "maiores",
+      "LinkId": 622,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 42
         }
       }
     }
   ],
-  "AlarmLeadTime": "perspiciatis",
-  "HasAlarm": true,
-  "ColorIndex": 535,
+  "AlarmLeadTime": "quasi",
+  "HasAlarm": false,
+  "ColorIndex": 433,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "nostrum",
-  "LeadTime": "quis",
-  "Location": "expedita",
-  "RejectCounter": 776,
+  "IsAlldayEvent": false,
+  "LagTime": "adipisci",
+  "LeadTime": "illum",
+  "Location": "deserunt",
+  "RejectCounter": 820,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 796,
-      "PersonId": 843,
-      "ContactId": 589,
-      "EmailId": 593,
+      "AssociateId": 942,
+      "PersonId": 564,
+      "ContactId": 766,
+      "EmailId": 613,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "loyce@schmeler.uk",
-      "Description": "Synergistic regional parallelism"
+      "EmailAddress": "winnifred@kuhlman.name",
+      "Description": "Total scalable strategy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-02-03T04:02:01.1275509+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-09-01T03:44:51.9802728+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 497,
+  "PreferredTZLocation": 946,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 359,
+  "SuggestedAppointmentId": 205,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nihil",
+  "CentralserviceVideomeetId": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "1131632564",
-    "SuperOffice:2": "Janie Hintz DDS"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Antwon Schneider"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
+    "ExtraFields1": "neque",
     "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "eos",
+    "CustomFields2": "modi"
   },
-  "PublishEventDate": "2000-07-26T04:02:01.1275509+02:00",
-  "PublishTo": "2000-09-29T04:02:01.1275509+02:00",
-  "PublishFrom": "2022-03-20T04:02:01.1275509+01:00",
+  "PublishEventDate": "2008-05-22T03:44:51.9802728+02:00",
+  "PublishTo": "2021-04-09T03:44:51.9802728+02:00",
+  "PublishFrom": "2013-05-11T03:44:51.9802728+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 13,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 453
+          "FieldType": "System.Int32",
+          "FieldLength": 39
         }
       }
     },
     {
-      "VisibleId": 13,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 453
+          "FieldType": "System.Int32",
+          "FieldLength": 39
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 42
     }
   }
 }

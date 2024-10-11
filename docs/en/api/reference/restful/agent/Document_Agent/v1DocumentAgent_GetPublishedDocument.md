@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 996
+  "DocumentId": 421
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 643,
-  "Attention": "vitae",
-  "Header": "earum",
-  "Name": "Reynolds-Larkin",
-  "OurRef": "incidunt",
-  "YourRef": "similique",
-  "Description": "Fundamental 4th generation conglomeration",
-  "DocumentTemplate": "minus",
+  "DocumentId": 591,
+  "Attention": "quia",
+  "Header": "quae",
+  "Name": "Predovic-Turcotte",
+  "OurRef": "dolores",
+  "YourRef": "id",
+  "Description": "Adaptive content-based database",
+  "DocumentTemplate": "maiores",
   "IsPublished": false,
-  "PersonId": 277,
-  "PersonFullName": "Matilda Hammes I",
-  "AssociateFullName": "Mr. Waldo Ortiz",
-  "ContactId": 271,
-  "ContactName": "Brakus-Murray",
-  "ProjectId": 267,
-  "ProjectName": "Kulas Group",
-  "AssociateId": 118,
-  "Snum": 501,
-  "SaleId": 87,
-  "SaleName": "Hahn-Herzog",
+  "PersonId": 187,
+  "PersonFullName": "Guiseppe Hauck",
+  "AssociateFullName": "Tess Batz",
+  "ContactId": 975,
+  "ContactName": "Kiehn, Bogan and Wyman",
+  "ProjectId": 513,
+  "ProjectName": "Maggio LLC",
+  "AssociateId": 965,
+  "Snum": 887,
+  "SaleId": 782,
+  "SaleName": "Schuster-Kilback",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 774
     }
   }
 }

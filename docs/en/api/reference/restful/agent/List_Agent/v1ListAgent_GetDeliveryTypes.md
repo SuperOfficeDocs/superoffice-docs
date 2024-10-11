@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Value": "labore",
-    "Tooltip": "magni",
+    "Id": 110,
+    "Value": "aut",
+    "Tooltip": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   },
   {
-    "Id": 184,
-    "Value": "labore",
-    "Tooltip": "magni",
+    "Id": 110,
+    "Value": "aut",
+    "Tooltip": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   }

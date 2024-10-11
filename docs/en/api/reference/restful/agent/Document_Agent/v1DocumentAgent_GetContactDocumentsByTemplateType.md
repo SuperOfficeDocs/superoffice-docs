@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 591,
-  "StartTime": "2022-12-12T04:02:01.5655043+01:00",
-  "EndTime": "2007-03-04T04:02:01.5655043+01:00",
-  "Count": 895,
-  "DocumentTemplateId": 492
+  "ContactId": 601,
+  "StartTime": "2002-06-05T03:44:52.4333602+02:00",
+  "EndTime": "2016-06-07T03:44:52.4333602+02:00",
+  "Count": 436,
+  "DocumentTemplateId": 899
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 976,
-    "Attention": "praesentium",
-    "Header": "dicta",
-    "Name": "Littel Group",
-    "OurRef": "a",
-    "YourRef": "qui",
-    "Description": "Cross-group dynamic superstructure",
-    "DocumentTemplate": "suscipit",
+    "DocumentId": 783,
+    "Attention": "rerum",
+    "Header": "perspiciatis",
+    "Name": "Ward LLC",
+    "OurRef": "fugiat",
+    "YourRef": "perspiciatis",
+    "Description": "Cross-group coherent support",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 289,
-    "PersonFullName": "Miss Savannah Oberbrunner",
-    "AssociateFullName": "Miss Jaylon Larson PhD",
-    "ContactId": 63,
-    "ContactName": "Corwin LLC",
-    "ProjectId": 415,
-    "ProjectName": "Schmidt LLC",
-    "AssociateId": 858,
-    "Snum": 969,
-    "SaleId": 982,
-    "SaleName": "Berge-Bode",
+    "PersonId": 196,
+    "PersonFullName": "Reece Corkery",
+    "AssociateFullName": "Howell O'Keefe",
+    "ContactId": 675,
+    "ContactName": "Toy-Schuppe",
+    "ProjectId": 591,
+    "ProjectName": "Mitchell LLC",
+    "AssociateId": 86,
+    "Snum": 817,
+    "SaleId": 7,
+    "SaleName": "Corkery, Balistreri and Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldType": "System.String",
+        "FieldLength": 387
       }
     }
   }

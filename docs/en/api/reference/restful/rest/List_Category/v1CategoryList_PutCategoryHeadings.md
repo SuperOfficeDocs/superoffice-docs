@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 714,
-    "Name": "Sauer-McKenzie",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 217,
-    "UdListDefinitionId": 9
+    "HeadingId": 949,
+    "Name": "McLaughlin-Bode",
+    "Tooltip": "nam",
+    "Deleted": true,
+    "Rank": 37,
+    "UdListDefinitionId": 804
   },
   {
-    "HeadingId": 714,
-    "Name": "Sauer-McKenzie",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 217,
-    "UdListDefinitionId": 9
+    "HeadingId": 949,
+    "Name": "McLaughlin-Bode",
+    "Tooltip": "nam",
+    "Deleted": true,
+    "Rank": 37,
+    "UdListDefinitionId": 804
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 717,
-    "Name": "Sanford-Mann",
-    "Tooltip": "quibusdam",
-    "Deleted": false,
-    "Rank": 355,
-    "UdListDefinitionId": 488,
+    "HeadingId": 161,
+    "Name": "Satterfield Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 622,
+    "UdListDefinitionId": 158,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 947
       }
     }
   }

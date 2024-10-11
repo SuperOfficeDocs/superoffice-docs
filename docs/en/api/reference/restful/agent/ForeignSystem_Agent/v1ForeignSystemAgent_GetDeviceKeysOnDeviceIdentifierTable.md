@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hintz-Pacocha",
-  "DeviceName": "Steuber LLC",
-  "DeviceIdentifier": "molestias",
-  "TableName": "Botsford LLC"
+  "ApplicationName": "Stark-Becker",
+  "DeviceName": "Flatley Group",
+  "DeviceIdentifier": "omnis",
+  "TableName": "Russel LLC"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "doloremque",
-    "Value": "incidunt",
-    "RecordId": 623,
-    "CreatedDate": "2014-02-04T04:02:01.8003604+01:00",
-    "UpdatedDate": "2008-12-21T04:02:01.8003604+01:00",
-    "UpdatedBy": "aliquid",
+    "Key": "sint",
+    "Value": "facilis",
+    "RecordId": 139,
+    "CreatedDate": "2001-01-13T03:44:52.6521119+01:00",
+    "UpdatedDate": "2009-05-11T03:44:52.6521119+02:00",
+    "UpdatedBy": "voluptatum",
     "CreatedBy": "quo",
-    "TableName": "Hoeger, Grimes and Christiansen",
+    "TableName": "Strosin-Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 678
       }
     }
   }

@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 448,
-  "ColumnId": 136,
-  "FieldDefault": "deserunt",
-  "FieldHeight": 133,
-  "FieldLabel": "eum",
-  "FieldLeft": 340,
-  "FieldTop": 375,
+  "UDefFieldId": 999,
+  "ColumnId": 390,
+  "FieldDefault": "enim",
+  "FieldHeight": 360,
+  "FieldLabel": "ut",
+  "FieldLeft": 394,
+  "FieldTop": 425,
   "FieldType": "Checkbox",
-  "FieldWidth": 333,
-  "FormatMask": "sit",
+  "FieldWidth": 506,
+  "FormatMask": "enim",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 80,
-  "LabelLeft": 495,
-  "LabelTop": 296,
-  "LabelWidth": 764,
-  "LastVersionId": 222,
-  "ListTableId": 451,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 674,
+  "LabelLeft": 701,
+  "LabelTop": 293,
+  "LabelWidth": 22,
+  "LastVersionId": 746,
+  "ListTableId": 734,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 449,
-  "ProgId": "quibusdam",
-  "IsReadOnly": false,
-  "ShortLabel": "libero",
-  "TabOrder": 449,
-  "TextLength": 250,
-  "Tooltip": "qui",
-  "UdefIdentity": 418,
-  "UDListDefinitionId": 564,
+  "Page1LineNo": 315,
+  "ProgId": "debitis",
+  "IsReadOnly": true,
+  "ShortLabel": "maiores",
+  "TabOrder": 605,
+  "TextLength": 426,
+  "Tooltip": "doloribus",
+  "UdefIdentity": 663,
+  "UDListDefinitionId": 776,
   "Justification": "Center",
-  "Version": 790,
-  "TemplateVariableName": "Gerlach, Greenholt and Cummings",
+  "Version": 952,
+  "TemplateVariableName": "Leffler, Batz and Fay",
   "HasBeenPublished": false,
-  "MdoListName": "Waelchi Inc and Sons",
+  "MdoListName": "Beatty LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 676
     }
   }
 }

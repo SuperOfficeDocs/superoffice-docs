@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 934,
-  "ConnectionId": 275,
-  "FirstAlternativeName": "Russel-Schaden"
+  "SaleId": 22,
+  "ConnectionId": 310,
+  "FirstAlternativeName": "Gleichner Inc and Sons"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 811,
-  "SaleId": 22,
-  "QuoteConnectionId": 402,
-  "ERPQuoteKey": "voluptatum",
-  "ERPOrderKey": "vel",
-  "ActiveQuoteVersionId": 307,
-  "AcceptedQuoteAlternativeId": 76,
-  "UseValuesFromQuote": 220,
-  "DocumentId": 645,
-  "PoNumber": "682685",
-  "OrderComment": "incidunt",
-  "PreferredEmailCulture": "alysson@mertz.us",
+  "QuoteId": 501,
+  "SaleId": 885,
+  "QuoteConnectionId": 996,
+  "ERPQuoteKey": "deleniti",
+  "ERPOrderKey": "quo",
+  "ActiveQuoteVersionId": 937,
+  "AcceptedQuoteAlternativeId": 636,
+  "UseValuesFromQuote": 846,
+  "DocumentId": 700,
+  "PoNumber": "991840",
+  "OrderComment": "ipsam",
+  "PreferredEmailCulture": "stanley_kub@kesslerboehm.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 835,
-      "ERPQuoteVersionKey": "dolorem",
-      "QuoteId": 768,
-      "Description": "Centralized responsive model",
-      "Number": "824800",
+      "QuoteVersionId": 704,
+      "ERPQuoteVersionKey": "ut",
+      "QuoteId": 214,
+      "Description": "User-centric zero administration forecast",
+      "Number": "110924",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 28,
-      "SentDate": "2021-07-01T04:02:02.2065837+02:00",
-      "FollowupId": 628,
-      "ExpirationDate": "2004-11-25T04:02:02.2065837+01:00",
-      "DeliveryCountryId": 748,
+      "LikelyQuoteAlternativeId": 877,
+      "SentDate": "2007-02-19T03:44:53.0583181+01:00",
+      "FollowupId": 889,
+      "ExpirationDate": "2022-12-26T03:44:53.0583181+01:00",
+      "DeliveryCountryId": 271,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 948,
+      "InvoiceCountryId": 475,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "eaque",
-      "ERPPaymentTypeKey": "et",
-      "ERPDeliveryTermsKey": "veniam",
-      "ERPDeliveryTypeKey": "labore",
-      "Rank": 523,
-      "ApprovedBy": 133,
-      "ApprovedText": "modi",
-      "ApprovedRegisteredBy": 908,
-      "ApprovedRegisteredDate": "2008-05-08T04:02:02.2065837+02:00",
-      "ExtraField1": "iste",
-      "ExtraField2": "ab",
-      "ExtraField3": "doloribus",
-      "ExtraField4": "nulla",
-      "ExtraField5": "expedita",
-      "LastRecalculated": "2003-02-10T04:02:02.2065837+01:00",
-      "Updated": "2013-02-09T04:02:02.2065837+01:00",
-      "UpdatedAssociateId": 142,
-      "Registered": "2005-10-12T04:02:02.2065837+02:00",
-      "RegisteredAssociateId": 537,
-      "RequestAssociateId": 825,
-      "RequestComment": "dicta",
+      "ERPPaymentTermsKey": "occaecati",
+      "ERPPaymentTypeKey": "odit",
+      "ERPDeliveryTermsKey": "cum",
+      "ERPDeliveryTypeKey": "dolorem",
+      "Rank": 331,
+      "ApprovedBy": 57,
+      "ApprovedText": "impedit",
+      "ApprovedRegisteredBy": 78,
+      "ApprovedRegisteredDate": "2003-07-23T03:44:53.0583181+02:00",
+      "ExtraField1": "earum",
+      "ExtraField2": "ut",
+      "ExtraField3": "sed",
+      "ExtraField4": "sint",
+      "ExtraField5": "est",
+      "LastRecalculated": "2016-05-02T03:44:53.0583181+02:00",
+      "Updated": "2003-05-03T03:44:53.0583181+02:00",
+      "UpdatedAssociateId": 122,
+      "Registered": "2012-10-13T03:44:53.0583181+02:00",
+      "RegisteredAssociateId": 561,
+      "RequestAssociateId": 408,
+      "RequestComment": "ratione",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 247
+          "FieldType": "System.Int32",
+          "FieldLength": 594
         }
       }
     }
@@ -174,8 +174,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldType": "System.String",
+      "FieldLength": 530
     }
   }
 }

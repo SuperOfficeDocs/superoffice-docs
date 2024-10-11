@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 403
+  "PersonId": 230
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 298,
-    "Comment": "esse",
-    "Registered": "2021-08-29T04:02:01.9878446+02:00",
-    "RegisteredAssociateId": 369,
-    "Updated": "2009-11-14T04:02:01.9878446+01:00",
-    "UpdatedAssociateId": 638,
-    "LegalBaseId": 214,
-    "LegalBaseKey": "non",
-    "LegalBaseName": "Donnelly, Kuhic and Stark",
-    "ConsentPurposeId": 2,
-    "ConsentPurposeKey": "tenetur",
-    "ConsentPurposeName": "Daniel, Cartwright and Heaney",
-    "ConsentSourceId": 271,
-    "ConsentSourceKey": "ducimus",
-    "ConsentSourceName": "Windler-Fahey",
+    "ConsentPersonId": 186,
+    "Comment": "maiores",
+    "Registered": "2010-04-10T03:44:52.8551792+02:00",
+    "RegisteredAssociateId": 843,
+    "Updated": "2001-03-21T03:44:52.8551792+01:00",
+    "UpdatedAssociateId": 982,
+    "LegalBaseId": 548,
+    "LegalBaseKey": "voluptas",
+    "LegalBaseName": "Dickens, Schinner and Gerlach",
+    "ConsentPurposeId": 384,
+    "ConsentPurposeKey": "perspiciatis",
+    "ConsentPurposeName": "Langworth Inc and Sons",
+    "ConsentSourceId": 466,
+    "ConsentSourceKey": "temporibus",
+    "ConsentSourceName": "Hagenes-Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 548
       }
     }
   }

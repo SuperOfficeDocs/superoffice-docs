@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 474,
-  "Name": "Kohler, Berge and Pacocha",
-  "Tooltip": "vitae",
-  "SaveInDb": 81,
-  "Filename": "voluptatum",
-  "DefaultOref": "eveniet",
+  "DocumentTemplateId": 749,
+  "Name": "Ondricka-Goodwin",
+  "Tooltip": "quaerat",
+  "SaveInDb": 581,
+  "Filename": "rerum",
+  "DefaultOref": "accusantium",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 751,
-  "IntentId": 92,
+  "AutoeventId": 110,
+  "IntentId": 574,
   "IsDefaultPublished": true,
-  "Rank": 473,
-  "LoadTemplateFromPlugin": 685,
-  "MimeType": "nihil",
+  "Rank": 420,
+  "LoadTemplateFromPlugin": 752,
+  "MimeType": "culpa",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 413,
+  "DocumentTypeKey": 259,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "freida@barrows.us",
-  "IncludeSignature": false,
+  "EmailSubject": "adelbert@klockowilderman.biz",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "marilie@lehner.us",
+  "SenderEmailAddress": "don.sawayn@nicolas.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 1000,
-  "Name": "Corwin-Cassin",
-  "Tooltip": "molestias",
-  "SaveInDb": 520,
-  "Filename": "error",
-  "DefaultOref": "rerum",
+  "DocumentTemplateId": 46,
+  "Name": "Bins Inc and Sons",
+  "Tooltip": "eligendi",
+  "SaveInDb": 745,
+  "Filename": "temporibus",
+  "DefaultOref": "ad",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 833,
-  "IntentId": 710,
-  "IsDefaultPublished": false,
-  "Rank": 334,
-  "LoadTemplateFromPlugin": 556,
-  "MimeType": "consequatur",
+  "AutoeventId": 543,
+  "IntentId": 122,
+  "IsDefaultPublished": true,
+  "Rank": 337,
+  "LoadTemplateFromPlugin": 751,
+  "MimeType": "quaerat",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 935,
+  "DocumentTypeKey": 574,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kallie.rice@andersonwelch.name",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "jett_grady@senger.ca",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "reva.schroeder@prosacco.info",
+  "SenderEmailAddress": "alexandria.hyatt@brown.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 284
     }
   }
 }

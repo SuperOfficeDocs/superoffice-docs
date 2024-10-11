@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=sed
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=unde
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Rau Group",
-    "ToolTip": "Quo delectus iste consequatur eius amet nobis.",
+    "Id": 964,
+    "Name": "Schimmel-Huel",
+    "ToolTip": "Ea tempora aut.",
     "Deleted": false,
-    "Rank": 976,
-    "Type": "in",
+    "Rank": 487,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Abernathy Inc and Sons",
-        "ToolTip": "Aut aliquam aut id fuga.",
-        "Deleted": true,
-        "Rank": 989,
-        "Type": "sint",
+        "Id": 368,
+        "Name": "Schmidt, Nienow and Quigley",
+        "ToolTip": "Inventore soluta mollitia fuga dolores qui.",
+        "Deleted": false,
+        "Rank": 586,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 456,
-        "ExtraInfo": "et",
-        "StyleHint": "exercitationem",
-        "FullName": "Verna Gulgowski",
+        "IconHint": "aliquid",
+        "ColorBlock": 639,
+        "ExtraInfo": "non",
+        "StyleHint": "ipsam",
+        "FullName": "Buford Morar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 840
+            "FieldLength": 292
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 781,
+    "IconHint": "saepe",
+    "ColorBlock": 651,
     "ExtraInfo": "et",
-    "StyleHint": "est",
-    "FullName": "Dr. Casimer Olson",
+    "StyleHint": "nobis",
+    "FullName": "Rolando Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldType": "System.Int32",
+        "FieldLength": 128
       }
     }
   }

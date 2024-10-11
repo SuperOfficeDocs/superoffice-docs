@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=788
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=901
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,52 +96,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 754,
-  "UniqueIdentifier": "qui",
-  "Name": "Beatty LLC",
-  "Description": "Function-based exuding hierarchy",
-  "IncludeId": "in",
-  "AccessKey": "dolor",
-  "HierarchyId": 644,
-  "Source": "maxime",
-  "SourceCode": "nam",
+  "EjscriptId": 662,
+  "UniqueIdentifier": "doloremque",
+  "Name": "Predovic, Stiedemann and Kshlerin",
+  "Description": "Business-focused static definition",
+  "IncludeId": "nesciunt",
+  "AccessKey": "commodi",
+  "HierarchyId": 937,
+  "Source": "voluptas",
+  "SourceCode": "voluptatem",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 365,
+  "HtmlOutput": 390,
   "Includes": [
-    802,
-    440
+    516,
+    153
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 526,
-      "LineNumberTo": 789,
-      "Delta": 608,
-      "IncludeId": "nostrum",
+      "LineNumberFrom": 84,
+      "LineNumberTo": 145,
+      "Delta": 593,
+      "IncludeId": "maxime",
       "IncludedFrom": [
-        "ut",
-        "quaerat"
+        "quae",
+        "iure"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 877
+          "FieldLength": 54
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2015-12-06T04:02:01.5186345+01:00",
-  "RegisteredAssociateId": 719,
-  "Updated": "2004-01-22T04:02:01.5186345+01:00",
-  "UpdatedAssociateId": 706,
+  "Registered": "1998-10-05T03:44:52.3708918+02:00",
+  "RegisteredAssociateId": 969,
+  "Updated": "2008-12-02T03:44:52.3708918+01:00",
+  "UpdatedAssociateId": 700,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 610
     }
   }
 }

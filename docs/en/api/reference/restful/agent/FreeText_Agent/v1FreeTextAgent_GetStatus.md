@@ -84,16 +84,16 @@ Content-Type: application/json; charset=utf-8
   "FreeTextEnabled": false,
   "SingleWordOperator": "Contains",
   "MultiWordOperator": "Contains",
-  "CountWords": 729,
-  "Occurrences": 843,
-  "LastGenerated": "2001-11-03T04:02:01.8003604+01:00",
-  "AutoEnableTravelAreas": false,
+  "CountWords": 646,
+  "Occurrences": 756,
+  "LastGenerated": "2009-09-24T03:44:52.6521119+02:00",
+  "AutoEnableTravelAreas": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 606
     }
   }
 }

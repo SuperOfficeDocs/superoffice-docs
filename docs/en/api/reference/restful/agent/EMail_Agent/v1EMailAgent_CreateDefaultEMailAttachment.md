@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-source didactic definition",
-  "Filename": "nemo",
-  "Size": 825,
-  "Type": "excepturi",
-  "Encoding": "fugiat",
-  "Id": "quo",
-  "Disposition": "aperiam",
-  "IsSafeFileExtension": true,
+  "Description": "Function-based fault-tolerant flexibility",
+  "Filename": "inventore",
+  "Size": 618,
+  "Type": "fugit",
+  "Encoding": "aut",
+  "Id": "qui",
+  "Disposition": "voluptas",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldLength": 101
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 600,
-    "Name": "Bednar, Hand and Welch",
-    "Description": "Intuitive optimal open architecture",
-    "DeltaJson": "odit",
+    "ConfigurableScreenDeltaId": 697,
+    "Name": "Koch-Reichel",
+    "Description": "Optional methodical implementation",
+    "DeltaJson": "sit",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "aliquam",
-    "UpdatedDate": "2014-08-16T04:02:01.4092709+02:00",
-    "CreatedDate": "2015-01-12T04:02:01.4092709+01:00",
+    "RecipeId": "vel",
+    "UpdatedDate": "2019-04-23T03:44:52.2771517+02:00",
+    "CreatedDate": "2003-01-18T03:44:52.2771517+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      379,
-      321
+      823,
+      80
     ],
-    "AppliesToKey": "quae",
+    "AppliesToKey": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 916
       }
     }
   }

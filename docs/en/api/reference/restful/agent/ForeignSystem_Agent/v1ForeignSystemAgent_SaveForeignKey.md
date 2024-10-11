@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Gibson-Ernser",
-  "DeviceName": "Morissette-Thompson",
-  "DeviceIdentifier": "assumenda"
+  "ApplicationName": "Gutmann, Wyman and Denesik",
+  "DeviceName": "Ankunding-Oberbrunner",
+  "DeviceIdentifier": "optio"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "deserunt",
-  "Value": "iusto",
-  "RecordId": 272,
-  "CreatedDate": "1999-01-12T04:02:01.8003604+01:00",
-  "UpdatedDate": "1997-05-09T04:02:01.8003604+02:00",
-  "UpdatedBy": "rerum",
+  "Key": "praesentium",
+  "Value": "eveniet",
+  "RecordId": 542,
+  "CreatedDate": "2002-10-24T03:44:52.6521119+02:00",
+  "UpdatedDate": "2002-10-03T03:44:52.6521119+02:00",
+  "UpdatedBy": "id",
   "CreatedBy": "est",
-  "TableName": "Windler Group",
+  "TableName": "Zboncak, Gutkowski and Fay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldLength": 60
     }
   }
 }

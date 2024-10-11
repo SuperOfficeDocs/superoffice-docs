@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Hirthe LLC",
-    "Tooltip": "modi",
+    "Id": 528,
+    "Name": "Wehner-Pagac",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 834,
+    "Rank": 567,
     "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "ut",
-    "InUseByUserDefinedFields": true,
+    "UseGroupsAndHeadings": true,
+    "ListType": "sint",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 894
       }
     }
   }

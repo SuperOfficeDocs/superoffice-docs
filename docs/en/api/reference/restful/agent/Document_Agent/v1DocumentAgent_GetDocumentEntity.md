@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=278
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=900
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 541,
+  "DocumentId": 126,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quae",
-  "Header": "repudiandae",
-  "Name": "Harber Group",
-  "OurRef": "amet",
-  "YourRef": "enim",
-  "CreatedDate": "2017-11-02T04:02:01.6123809+01:00",
-  "UpdatedDate": "2010-06-13T04:02:01.6123809+02:00",
-  "Description": "Proactive reciprocal Graphic Interface",
+  "Attention": "ea",
+  "Header": "voluptatum",
+  "Name": "Mosciski, Tromp and Kovacek",
+  "OurRef": "delectus",
+  "YourRef": "et",
+  "CreatedDate": "2020-03-29T03:44:52.4646325+02:00",
+  "UpdatedDate": "2014-03-23T03:44:52.4646325+01:00",
+  "Description": "Devolved leading edge neural-net",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-09-15T04:02:01.6123809+02:00",
-  "ExternalRef": "aliquid",
+  "Date": "2021-05-04T03:44:52.4646325+02:00",
+  "ExternalRef": "necessitatibus",
   "Completed": "Completed",
-  "ActiveLinks": 101,
+  "ActiveLinks": 410,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Moore LLC",
-      "Id": 695,
-      "Description": "Configurable radical installation",
-      "ExtraInfo": "libero",
-      "LinkId": 385,
+      "EntityName": "Stehr-Torphy",
+      "Id": 650,
+      "Description": "Stand-alone zero defect capacity",
+      "ExtraInfo": "doloribus",
+      "LinkId": 977,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 804
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 622,
-  "Snum": 48,
+  "SuggestedDocumentId": 369,
+  "Snum": 120,
   "UserDefinedFields": {
-    "SuperOffice:1": "1768755682",
-    "SuperOffice:2": "Prudence Goyette"
+    "SuperOffice:1": "Lynn Kutch",
+    "SuperOffice:2": "Evalyn Labadie"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "quis"
+    "CustomFields1": "vitae",
+    "CustomFields2": "magnam"
   },
-  "PublishEventDate": "2016-04-06T04:02:01.6123809+02:00",
-  "PublishTo": "2015-07-18T04:02:01.6123809+02:00",
-  "PublishFrom": "2004-10-01T04:02:01.6123809+02:00",
+  "PublishEventDate": "2020-12-05T03:44:52.4646325+01:00",
+  "PublishTo": "2022-09-23T03:44:52.4646325+02:00",
+  "PublishFrom": "2018-09-22T03:44:52.4646325+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 505,
+      "VisibleId": 967,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 179
         }
       }
     },
     {
-      "VisibleId": 505,
+      "VisibleId": 967,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 179
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldLength": 970
     }
   }
 }

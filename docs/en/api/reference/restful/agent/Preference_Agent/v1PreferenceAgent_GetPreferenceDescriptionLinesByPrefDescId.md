@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 269
+  "PrefDescId": 813
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 630,
-    "PrefDescId": 88,
-    "PrefValue": "et",
-    "PrefShowValue": "distinctio",
-    "Description": "Re-engineered didactic success",
-    "IsBuiltin": true,
+    "PrefDescLineId": 94,
+    "PrefDescId": 882,
+    "PrefValue": "architecto",
+    "PrefShowValue": "voluptatum",
+    "Description": "Reactive fresh-thinking budgetary management",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 69
       }
     }
   }

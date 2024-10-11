@@ -71,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gusikowski, Prosacco and Huel",
+  "Name": "Zulauf, Jewess and Orn",
   "Values": [
-    "veritatis",
-    "repudiandae"
+    "sed",
+    "sequi"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 299
     }
   }
 }

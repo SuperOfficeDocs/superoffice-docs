@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Heller-Gislason",
-    "ToolTip": "Ut et dolorum sit laborum quaerat cum.",
-    "Deleted": false,
-    "Rank": 88,
-    "Type": "sit",
-    "ColorBlock": 699,
-    "IconHint": "deserunt",
+    "Id": 26,
+    "Name": "Leannon LLC",
+    "ToolTip": "Hic magnam voluptatibus.",
+    "Deleted": true,
+    "Rank": 732,
+    "Type": "impedit",
+    "ColorBlock": 675,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2018-06-11T04:02:07.0566019+02:00",
+    "LastChanged": "1998-12-29T03:44:57.8125425+01:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Windler, Schultz and Smitham",
-        "ToolTip": "Id molestiae.",
-        "Deleted": true,
-        "Rank": 693,
-        "Type": "consequuntur",
-        "ColorBlock": 577,
-        "IconHint": "cumque",
+        "Id": 624,
+        "Name": "Willms, O'Connell and Kozey",
+        "ToolTip": "Nam quo sunt aut doloremque amet eum exercitationem.",
+        "Deleted": false,
+        "Rank": 699,
+        "Type": "fugit",
+        "ColorBlock": 594,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2011-12-07T04:02:07.0566019+01:00",
+        "LastChanged": "2011-02-02T03:44:57.8125425+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "vel",
+        "ExtraInfo": "labore",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Mrs. Robert Stanton Sr.",
+        "FullName": "Roxanne Stark IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 36
+            "FieldLength": 427
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "animi",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Dr. Clarabelle Rohan PhD",
+    "FullName": "Demarcus Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 44
+        "FieldType": "System.Int32",
+        "FieldLength": 724
       }
     }
   }

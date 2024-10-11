@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 400,
-    "Name": "Champlin-Skiles",
-    "Description": "Adaptive systemic artificial intelligence",
+    "ProjectId": 886,
+    "Name": "Senger, Eichmann and Gorczany",
+    "Description": "Devolved didactic initiative",
     "URL": "http://www.example.com/",
-    "Type": "vitae",
-    "AssociateId": 72,
-    "AssociateFullName": "Mrs. Nina Gabriel Jaskolski",
-    "TypeId": 114,
-    "Updated": "2013-01-21T04:02:02.1597135+01:00",
-    "StatusId": 537,
-    "Status": "quidem",
-    "TextId": 528,
-    "PublishTo": "2022-02-05T04:02:02.1597135+01:00",
-    "PublishFrom": "2019-10-06T04:02:02.1597135+02:00",
+    "Type": "beatae",
+    "AssociateId": 661,
+    "AssociateFullName": "Kelsi Larkin",
+    "TypeId": 139,
+    "Updated": "2011-02-11T03:44:53.0114471+01:00",
+    "StatusId": 7,
+    "Status": "velit",
+    "TextId": 639,
+    "PublishTo": "2010-01-01T03:44:53.0114471+01:00",
+    "PublishFrom": "2008-12-04T03:44:53.0114471+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1548204",
-    "ActiveErpLinks": 997,
+    "ProjectNumber": "1477691",
+    "ActiveErpLinks": 410,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 670
+        "FieldType": "System.Int32",
+        "FieldLength": 362
       }
     }
   }

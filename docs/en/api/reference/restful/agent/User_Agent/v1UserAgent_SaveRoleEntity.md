@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 366,
-  "Name": "Gaylord Group",
-  "Tooltip": "itaque",
+  "RoleId": 102,
+  "Name": "Mohr-Carroll",
+  "Tooltip": "impedit",
   "RoleType": "Anonymous",
-  "Deleted": 691,
-  "Rank": 859,
-  "Created": "2012-09-03T04:02:02.5197286+02:00",
-  "UseCategories": 232,
+  "Deleted": 644,
+  "Rank": 25,
+  "Created": "2002-02-20T03:44:53.3716682+01:00",
+  "UseCategories": 611,
   "CreatedBy": null,
-  "Updated": "2002-06-18T04:02:02.5197286+02:00",
+  "Updated": "2009-12-09T03:44:53.3716682+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 639,
-  "Name": "Lueilwitz Group",
-  "Tooltip": "saepe",
+  "RoleId": 751,
+  "Name": "Weimann-Rogahn",
+  "Tooltip": "dolor",
   "RoleType": "Anonymous",
-  "Deleted": 596,
-  "Rank": 791,
-  "Created": "2007-08-05T04:02:02.5197286+02:00",
-  "UseCategories": 264,
+  "Deleted": 249,
+  "Rank": 265,
+  "Created": "2000-10-01T03:44:53.3716682+02:00",
+  "UseCategories": 938,
   "CreatedBy": null,
-  "Updated": "2021-02-03T04:02:02.5197286+01:00",
+  "Updated": "2014-03-06T03:44:53.3874154+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   }
 }

@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "pariatur",
-  "AssociateId": 973,
+  "Associate": "et",
+  "AssociateId": 720,
   "IsPerson": false,
-  "PersonId": 890,
-  "CountryId": 3,
-  "HomeCountryId": 659,
-  "ContactId": 769,
-  "GroupId": 968,
-  "BusinessId": 941,
-  "CategoryId": 596,
+  "PersonId": 658,
+  "CountryId": 545,
+  "HomeCountryId": 258,
+  "ContactId": 524,
+  "GroupId": 731,
+  "BusinessId": 664,
+  "CategoryId": 486,
   "ContactOwner": 710,
-  "RoleId": 965,
-  "RoleName": "Parisian, Labadie and Sanford",
-  "RoleDescription": "Vision-oriented human-resource system engine",
+  "RoleId": 347,
+  "RoleName": "Kiehn-Kirlin",
+  "RoleDescription": "Profound motivating forecast",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 532,
-      "OwnerName": "Gulgowski-Langworth",
-      "OwnerDescription": "Sharable responsive support",
-      "ModuleId": 822,
-      "Name": "Simonis, Windler and Wuckert",
-      "Description": "Synergized analyzing core",
-      "Version": "placeat",
+      "OwnerId": 459,
+      "OwnerName": "Hayes-Kessler",
+      "OwnerDescription": "Switchable real-time middleware",
+      "ModuleId": 782,
+      "Name": "Berge-Braun",
+      "Description": "Integrated global conglomeration",
+      "Version": "aliquam",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 164,
-      "ExtraInfo": "et",
-      "SortOrder": 121,
-      "LicenseNumber": 424,
-      "IsHidden": false,
+      "ExtraFlags": 508,
+      "ExtraInfo": "itaque",
+      "SortOrder": 498,
+      "LicenseNumber": 632,
+      "IsHidden": true,
       "IsUnrestricted": false,
-      "ExpiryDate": "2021-07-13T04:02:07.0409789+02:00",
+      "ExpiryDate": "2003-07-01T03:44:57.7969186+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 95
         }
       }
     }
   ],
-  "FullName": "Nico Garrick Rodriguez IV",
-  "EMailAddress": "sit",
+  "FullName": "Danny Kuvalis II",
+  "EMailAddress": "alias",
   "FunctionRights": [
-    "est",
-    "adipisci"
+    "fugit",
+    "inventore"
   ],
-  "EjUserId": 265,
-  "EjAccessLevel": 377,
+  "EjUserId": 52,
+  "EjAccessLevel": 335,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "quisquam",
-      "SearchName": "Keebler, Marks and Dickens",
-      "DisplayName": "Beier, Rice and Buckridge",
-      "CredentialId": 96
+      "Type": "velit",
+      "SearchName": "Graham LLC",
+      "DisplayName": "Padberg-Waelchi",
+      "CredentialId": 452
     },
     {
-      "Type": "quisquam",
-      "SearchName": "Keebler, Marks and Dickens",
-      "DisplayName": "Beier, Rice and Buckridge",
-      "CredentialId": 96
+      "Type": "velit",
+      "SearchName": "Graham LLC",
+      "DisplayName": "Padberg-Waelchi",
+      "CredentialId": 452
     }
   ],
   "SecondaryGroups": [
-    264,
-    723
+    282,
+    603
   ],
-  "DatabaseContextIdentifier": "in",
-  "UserName": "Mante Inc and Sons"
+  "DatabaseContextIdentifier": "aut",
+  "UserName": "Schroeder, Kuphal and Moen"
 }
 ```

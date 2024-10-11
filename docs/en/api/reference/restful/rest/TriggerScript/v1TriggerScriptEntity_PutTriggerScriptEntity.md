@@ -103,16 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 380,
-  "Name": "Hermann-Satterfield",
+  "ScreenChooserId": 806,
+  "Name": "Dooley, Cruickshank and Cummerata",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "reiciendis",
-  "Source": "similique",
-  "Registered": "2009-02-24T04:02:06.9316148+01:00",
-  "RegisteredAssociateId": 294,
-  "Updated": "2012-11-12T04:02:06.9316148+01:00",
-  "UpdatedAssociateId": 656
+  "UniqueIdentifier": "delectus",
+  "Source": "commodi",
+  "Registered": "2013-02-17T03:44:57.687517+01:00",
+  "RegisteredAssociateId": 174,
+  "Updated": "2013-12-01T03:44:57.687517+01:00",
+  "UpdatedAssociateId": 422
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 830,
-  "Name": "Fay Group",
+  "ScreenChooserId": 697,
+  "Name": "Brakus-Toy",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "corrupti",
-  "Source": "dolores",
-  "Registered": "2001-09-16T04:02:06.9316148+02:00",
-  "RegisteredAssociateId": 983,
-  "Updated": "2010-07-17T04:02:06.9316148+02:00",
-  "UpdatedAssociateId": 664,
+  "Enabled": false,
+  "UniqueIdentifier": "dolor",
+  "Source": "quia",
+  "Registered": "1998-04-10T03:44:57.687517+02:00",
+  "RegisteredAssociateId": 356,
+  "Updated": "2008-06-25T03:44:57.687517+02:00",
+  "UpdatedAssociateId": 923,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   },
   "_Links": {

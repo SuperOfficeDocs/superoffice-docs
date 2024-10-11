@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 447,
-  "AttachmentId": "laudantium"
+  "MessageServerId": 763,
+  "AttachmentId": "exercitationem"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Operative fresh-thinking Graphic Interface",
-  "Filename": "eius",
-  "Size": 152,
-  "Type": "accusamus",
-  "Encoding": "rerum",
-  "Id": "dolorem",
-  "Disposition": "maiores",
+  "Description": "Triple-buffered empowering definition",
+  "Filename": "nam",
+  "Size": 526,
+  "Type": "ut",
+  "Encoding": "esse",
+  "Id": "non",
+  "Disposition": "eos",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 879
     }
   }
 }

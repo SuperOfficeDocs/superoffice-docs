@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 994,
-  "WorkflowId": 176,
+  "WorkflowTriggerId": 766,
+  "WorkflowId": 770,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Osinski-West",
-      "Description": "Centralized regional database",
-      "Rank": 705,
+      "Name": "Wilderman Group",
+      "Description": "Fundamental holistic methodology",
+      "Rank": 866,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Osinski-West",
-      "Description": "Centralized regional database",
-      "Rank": 705,
+      "Name": "Wilderman Group",
+      "Description": "Fundamental holistic methodology",
+      "Rank": 866,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 911,
-  "WorkflowId": 143,
+  "WorkflowTriggerId": 343,
+  "WorkflowId": 452,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Koss-Murphy",
-      "Description": "Polarised fault-tolerant orchestration",
-      "Rank": 828,
+      "Name": "McDermott-Stokes",
+      "Description": "Customer-focused reciprocal customer loyalty",
+      "Rank": 124,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koss-Murphy",
-      "Description": "Polarised fault-tolerant orchestration",
-      "Rank": 828,
+      "Name": "McDermott-Stokes",
+      "Description": "Customer-focused reciprocal customer loyalty",
+      "Rank": 124,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 265
     }
   }
 }

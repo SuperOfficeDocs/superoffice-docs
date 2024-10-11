@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Value": "quo",
-    "Tooltip": "enim",
+    "Id": 560,
+    "Value": "rerum",
+    "Tooltip": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 515
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   },
   {
-    "Id": 116,
-    "Value": "quo",
-    "Tooltip": "enim",
+    "Id": 560,
+    "Value": "rerum",
+    "Tooltip": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 515
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   }

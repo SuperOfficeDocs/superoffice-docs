@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 776,
-  "Name": "Purdy Group",
+  "TicketPriorityId": 275,
+  "Name": "Rosenbaum LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 426,
+  "SortOrder": 283,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 101,
-  "MonStart": "2009-06-16T04:02:07.447468+02:00",
-  "MonStop": "2021-11-01T04:02:07.447468+01:00",
-  "TueStart": "2013-11-13T04:02:07.447468+01:00",
-  "TueStop": "2007-03-25T04:02:07.447468+02:00",
-  "WedStart": "1998-10-28T04:02:07.447468+01:00",
-  "WedStop": "2017-05-24T04:02:07.447468+02:00",
-  "ThuStart": "2007-02-14T04:02:07.447468+01:00",
-  "ThuStop": "2006-04-30T04:02:07.447468+02:00",
-  "FriStart": "1997-05-09T04:02:07.447468+02:00",
-  "FriStop": "2007-10-21T04:02:07.447468+02:00",
-  "SatStart": "2020-12-11T04:02:07.447468+01:00",
-  "SatStop": "2013-07-27T04:02:07.447468+02:00",
-  "SunStart": "2005-06-16T04:02:07.447468+02:00",
-  "SunStop": "2021-04-22T04:02:07.447468+02:00",
+  "Deadline": 633,
+  "MonStart": "2004-04-21T03:44:58.1874634+02:00",
+  "MonStop": "2005-07-30T03:44:58.1874634+02:00",
+  "TueStart": "2023-01-10T03:44:58.1874634+01:00",
+  "TueStop": "2013-06-27T03:44:58.1874634+02:00",
+  "WedStart": "2016-08-17T03:44:58.1874634+02:00",
+  "WedStop": "2006-07-06T03:44:58.1874634+02:00",
+  "ThuStart": "2002-10-10T03:44:58.1874634+02:00",
+  "ThuStop": "2022-04-08T03:44:58.1874634+02:00",
+  "FriStart": "2003-07-17T03:44:58.1874634+02:00",
+  "FriStop": "1999-03-09T03:44:58.1874634+01:00",
+  "SatStart": "2013-05-23T03:44:58.1874634+02:00",
+  "SatStop": "2016-01-15T03:44:58.1874634+01:00",
+  "SunStart": "2006-07-26T03:44:58.1874634+02:00",
+  "SunStop": "1998-06-03T03:44:58.1874634+02:00",
   "NonDates": [
-    "molestiae",
-    "a"
+    "et",
+    "sed"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 902,
-      "AlertLevel": 593,
-      "AlertTimeout": 407,
-      "Action": 351,
-      "DelegateTo": 724,
-      "ScriptId": 597,
-      "EmailTo": "bridget.strosin@hahnlittel.co.uk",
-      "SmsTo": "delectus",
-      "ReplyTemplateIdCustomer": 589,
-      "ReplyTemplateIdUser": 76,
-      "ReplyTemplateIdCatmast": 603,
-      "ReplyTemplateIdEmail": 970,
-      "RtiCustomerSms": 982,
-      "ReplyTemplateIdUserSms": 387,
-      "ReplyTemplateIdCatmastSms": 195,
-      "ReplyTemplateIdSms": 596,
+      "TicketAlertId": 311,
+      "AlertLevel": 336,
+      "AlertTimeout": 921,
+      "Action": 699,
+      "DelegateTo": 205,
+      "ScriptId": 827,
+      "EmailTo": "ed.morar@parisianturner.info",
+      "SmsTo": "fugiat",
+      "ReplyTemplateIdCustomer": 697,
+      "ReplyTemplateIdUser": 934,
+      "ReplyTemplateIdCatmast": 334,
+      "ReplyTemplateIdEmail": 44,
+      "RtiCustomerSms": 473,
+      "ReplyTemplateIdUserSms": 50,
+      "ReplyTemplateIdCatmastSms": 852,
+      "ReplyTemplateIdSms": 921,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldType": "System.String",
+          "FieldLength": 912
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 1000
     }
   }
 }

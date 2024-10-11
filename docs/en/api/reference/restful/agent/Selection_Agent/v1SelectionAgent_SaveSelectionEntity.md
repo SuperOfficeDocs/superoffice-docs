@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented user-facing budgetary management",
-  "Postit": "voluptatem",
+  "Description": "Streamlined directional installation",
+  "Postit": "esse",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
   "GroupIdx": 302,
-  "IncludePerson": 580,
+  "IncludePerson": 279,
   "MemberCount": 99.99,
-  "Name": "Schneider, Flatley and Kautzer",
-  "PostitTextId": 423,
-  "CreatedDate": "2019-05-15T04:02:02.3005065+02:00",
-  "SelectionId": 415,
-  "SoundEx": "corporis",
-  "Source": 35,
-  "TextId": 840,
-  "UpdatedDate": "2014-11-19T04:02:02.3005065+01:00",
-  "UpdatedCount": 855,
-  "Visibility": 955,
+  "Name": "Legros-Cole",
+  "PostitTextId": 575,
+  "CreatedDate": "2022-10-10T03:44:53.1524683+02:00",
+  "SelectionId": 178,
+  "SoundEx": "dolorum",
+  "Source": 600,
+  "TextId": 520,
+  "UpdatedDate": "2007-06-09T03:44:53.1524683+02:00",
+  "UpdatedCount": 979,
+  "Visibility": 425,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 347,
-  "TargetTableName": "Leannon, Runolfsdottir and Will",
-  "Completed": false,
-  "LeftSelectionId": 599,
-  "RightSelectionId": 295,
+  "TargetTableNumber": 50,
+  "TargetTableName": "Trantow Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 293,
+  "RightSelectionId": 412,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rohan, Green and Stehr",
-  "ShadowProviderName": "Senger-Hegmann",
-  "ChartKey": "hic",
-  "LastLoaded": "2022-10-07T04:02:02.3005065+02:00",
-  "LastLoadedBy": 869,
+  "MainProviderName": "Stracke-Schaden",
+  "ShadowProviderName": "Sipes, Bahringer and Brakus",
+  "ChartKey": "vel",
+  "LastLoaded": "2006-06-01T03:44:53.1524683+02:00",
+  "LastLoadedBy": 391,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-06-05T04:02:02.3005065+02:00",
-  "LastMembershipChangeBy": 775,
+  "LastMembershipChange": "2007-08-16T03:44:53.1524683+02:00",
+  "LastMembershipChangeBy": 260,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laboriosam",
-  "MemberTabHeading": "sunt",
-  "MailingsProviderName": "Pagac Group",
-  "DashboardTileDefinitionId": 842,
+  "MainHeading": "nam",
+  "MemberTabHeading": "deserunt",
+  "MailingsProviderName": "Hegmann-Barrows",
+  "DashboardTileDefinitionId": 167,
   "VisibleFor": [
     {
-      "VisibleId": 363,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "ab"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 363,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "ab"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored multi-state productivity",
-  "Postit": "ut",
+  "Description": "Public-key encompassing collaboration",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 421,
-  "IncludePerson": 866,
+  "GroupIdx": 393,
+  "IncludePerson": 805,
   "MemberCount": 99.99,
-  "Name": "Hills LLC",
-  "PostitTextId": 918,
-  "CreatedDate": "2018-02-02T04:02:02.3005065+01:00",
-  "SelectionId": 357,
-  "SoundEx": "tempora",
-  "Source": 117,
-  "TextId": 768,
-  "UpdatedDate": "1997-12-28T04:02:02.3005065+01:00",
-  "UpdatedCount": 708,
-  "Visibility": 71,
+  "Name": "VonRueden LLC",
+  "PostitTextId": 982,
+  "CreatedDate": "2023-09-05T03:44:53.1524683+02:00",
+  "SelectionId": 551,
+  "SoundEx": "commodi",
+  "Source": 528,
+  "TextId": 901,
+  "UpdatedDate": "2010-07-29T03:44:53.1524683+02:00",
+  "UpdatedCount": 936,
+  "Visibility": 955,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 345,
-  "TargetTableName": "Weissnat-Carter",
+  "CompanyUnique": false,
+  "TargetTableNumber": 670,
+  "TargetTableName": "Orn-Windler",
   "Completed": false,
-  "LeftSelectionId": 59,
-  "RightSelectionId": 688,
+  "LeftSelectionId": 41,
+  "RightSelectionId": 670,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Feest, Thiel and Schumm",
-  "ShadowProviderName": "Fadel, Frami and Hartmann",
-  "ChartKey": "alias",
-  "LastLoaded": "2002-09-04T04:02:02.3005065+02:00",
-  "LastLoadedBy": 670,
+  "MainProviderName": "Aufderhar, Williamson and Nader",
+  "ShadowProviderName": "Bogisich, Wunsch and Nader",
+  "ChartKey": "eveniet",
+  "LastLoaded": "2016-01-08T03:44:53.1524683+01:00",
+  "LastLoadedBy": 561,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-07-26T04:02:02.3005065+02:00",
-  "LastMembershipChangeBy": 882,
+  "LastMembershipChange": "2024-06-05T03:44:53.1524683+02:00",
+  "LastMembershipChangeBy": 365,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "neque",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Auer LLC",
-  "DashboardTileDefinitionId": 4,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "quis",
+  "MailingsProviderName": "Fay, Watsica and Waters",
+  "DashboardTileDefinitionId": 324,
   "VisibleFor": [
     {
-      "VisibleId": 78,
+      "VisibleId": 186,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 976
         }
       }
     },
     {
-      "VisibleId": 78,
+      "VisibleId": 186,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 976
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

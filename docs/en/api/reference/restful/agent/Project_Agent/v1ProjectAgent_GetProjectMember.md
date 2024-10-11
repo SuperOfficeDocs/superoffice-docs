@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=169
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=944
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 177,
-  "ContactId": 835,
-  "ProjectId": 594,
-  "ContactName": "Jones, Schneider and Lueilwitz",
+  "ProjectmemberId": 226,
+  "ContactId": 359,
+  "ProjectId": 435,
+  "ContactName": "Labadie, Crist and Konopelski",
   "ContactDepartment": "",
-  "ProjectName": "Little, Schamberger and McDermott",
-  "EmailId": 385,
-  "EmailAddress": "bernard_kohler@blickkautzer.uk",
-  "CountryId": 249,
-  "Firstname": "Oren",
-  "MiddleName": "Schultz, Prohaska and Jacobi",
-  "Lastname": "Conroy",
-  "PersonId": 192,
-  "Mrmrs": "enim",
-  "ProjectMemberTypeName": "Parisian-Kuvalis",
-  "Phone": "514-001-2656",
-  "PhoneId": 97,
-  "ProjectMemberTypeId": 129,
-  "EmailAddressName": "giovanni@feil.ca",
-  "Comment": "totam",
-  "FullName": "Daryl Wunsch",
+  "ProjectName": "Boyer Inc and Sons",
+  "EmailId": 572,
+  "EmailAddress": "cloyd@mitchell.name",
+  "CountryId": 417,
+  "Firstname": "Cyril",
+  "MiddleName": "Jerde, Denesik and Bahringer",
+  "Lastname": "Boehm",
+  "PersonId": 323,
+  "Mrmrs": "et",
+  "ProjectMemberTypeName": "Hackett LLC",
+  "Phone": "516.868.3044 x63685",
+  "PhoneId": 839,
+  "ProjectMemberTypeId": 169,
+  "EmailAddressName": "wendell@bednar.info",
+  "Comment": "placeat",
+  "FullName": "Mrs. Jerome Langosh PhD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   }
 }

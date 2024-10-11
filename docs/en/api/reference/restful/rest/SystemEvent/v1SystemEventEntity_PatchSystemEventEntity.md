@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsa",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsa",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 641,
+  "SystemEventId": 41,
   "Scope": "Database",
-  "Eta": "2020-12-23T04:02:06.8534981+01:00",
-  "Eventkey": "est",
-  "Eventmess": "rerum",
-  "ExtraInfo": 300,
-  "Owner": 303,
-  "UpdatedCount": 748,
-  "Registered": "2011-03-07T04:02:06.8534981+01:00",
+  "Eta": "2021-01-09T03:44:57.5937539+01:00",
+  "Eventkey": "praesentium",
+  "Eventmess": "aut",
+  "ExtraInfo": 738,
+  "Owner": 537,
+  "UpdatedCount": 12,
+  "Registered": "2003-09-21T03:44:57.5937539+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 358
     }
   },
   "_Links": {

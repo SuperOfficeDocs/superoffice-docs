@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=hic
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Rau, Flatley and Boyle",
-    "ToolTip": "Iusto culpa esse est perferendis.",
+    "Id": 574,
+    "Name": "Ratke Inc and Sons",
+    "ToolTip": "Eaque sequi repellendus quisquam voluptas iure libero similique.",
     "Deleted": true,
-    "Rank": 642,
-    "Type": "tempora",
+    "Rank": 238,
+    "Type": "accusamus",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Huels Group",
-        "ToolTip": "Perspiciatis voluptatem.",
-        "Deleted": false,
-        "Rank": 641,
-        "Type": "ipsum",
+        "Id": 628,
+        "Name": "Corkery Group",
+        "ToolTip": "Modi qui.",
+        "Deleted": true,
+        "Rank": 644,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 389,
-        "ExtraInfo": "facilis",
-        "StyleHint": "nihil",
-        "FullName": "Jed Goldner",
+        "IconHint": "sapiente",
+        "ColorBlock": 74,
+        "ExtraInfo": "sed",
+        "StyleHint": "ullam",
+        "FullName": "Miss Rebecca Carleton Frami I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 350
+            "FieldType": "System.String",
+            "FieldLength": 310
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 253,
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "quia",
-    "FullName": "Libby Kaley Russel DVM",
+    "IconHint": "expedita",
+    "ColorBlock": 531,
+    "ExtraInfo": "libero",
+    "StyleHint": "sit",
+    "FullName": "Hester Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 919
       }
     }
   }

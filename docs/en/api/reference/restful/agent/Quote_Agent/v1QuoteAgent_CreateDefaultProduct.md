@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 278,
-  "ERPProductKey": "temporibus",
-  "ERPPriceListKey": "quae",
-  "Name": "Braun-Hagenes",
-  "Description": "Function-based full-range encryption",
-  "Code": "eum",
-  "PriceUnit": "asperiores",
-  "QuantityUnit": "nulla",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sit",
-  "DefaultSubscriptionQuantity": 1002.88,
-  "ItemNumber": "1327228",
+  "ProductId": 240,
+  "ERPProductKey": "quisquam",
+  "ERPPriceListKey": "alias",
+  "Name": "Eichmann, Will and Kautzer",
+  "Description": "Business-focused intermediate help-desk",
+  "Code": "ducimus",
+  "PriceUnit": "esse",
+  "QuantityUnit": "fugiat",
+  "IsSubscription": true,
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 29675.845999999998,
+  "ItemNumber": "1659272",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ex",
-  "ProductTypeKey": "voluptas",
-  "VAT": 6383.958,
+  "ProductFamilyKey": "amet",
+  "ProductTypeKey": "non",
+  "VAT": 25441.811999999998,
   "VATInfo": "in",
-  "UnitCost": 18293.158,
-  "UnitMinimumPrice": 25021.856,
-  "UnitListPrice": 3842.2839999999997,
-  "InAssortment": true,
-  "Supplier": "omnis",
-  "SupplierCode": "aut",
-  "Rights": "vitae",
-  "Rule": "incidunt",
+  "UnitCost": 11094.359999999999,
+  "UnitMinimumPrice": 21167.036,
+  "UnitListPrice": 21684.146,
+  "InAssortment": false,
+  "Supplier": "qui",
+  "SupplierCode": "dolor",
+  "Rights": "et",
+  "Rule": "quis",
   "ExtraInfo": [
     {
-      "Name": "Hackett-Kris",
-      "Value": "quaerat",
+      "Name": "Altenwerth-Effertz",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     },
     {
-      "Name": "Hackett-Kris",
-      "Value": "quaerat",
+      "Name": "Altenwerth-Effertz",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
+  "RawExtraInfo": "aut",
   "ExtraField1": "repudiandae",
-  "ExtraField2": "enim",
-  "ExtraField3": "distinctio",
-  "ExtraField4": "sed",
-  "ExtraField5": "culpa",
-  "InStock": 10266.984,
+  "ExtraField2": "cum",
+  "ExtraField3": "omnis",
+  "ExtraField4": "officia",
+  "ExtraField5": "ullam",
+  "InStock": 5807.302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 881
     }
   }
 }

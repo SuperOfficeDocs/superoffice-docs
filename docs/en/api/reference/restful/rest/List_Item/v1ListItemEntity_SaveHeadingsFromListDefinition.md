@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 139,
-    "Name": "Purdy-Hamill",
-    "Tooltip": "exercitationem",
+    "HeadingId": 381,
+    "Name": "Feest-Mosciski",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 587,
-    "UdListDefinitionId": 525
+    "Rank": 955,
+    "UdListDefinitionId": 824
   },
   {
-    "HeadingId": 139,
-    "Name": "Purdy-Hamill",
-    "Tooltip": "exercitationem",
+    "HeadingId": 381,
+    "Name": "Feest-Mosciski",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 587,
-    "UdListDefinitionId": 525
+    "Rank": 955,
+    "UdListDefinitionId": 824
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 90,
-    "Name": "Padberg, Mitchell and Reichert",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "Rank": 684,
-    "UdListDefinitionId": 270,
+    "HeadingId": 72,
+    "Name": "Hickle Inc and Sons",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 347,
+    "UdListDefinitionId": 190,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 572
       }
     }
   }

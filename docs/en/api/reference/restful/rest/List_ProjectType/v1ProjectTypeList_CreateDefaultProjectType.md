@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Senger-Schulist",
-  "Tooltip": "repudiandae",
+  "Id": 909,
+  "Name": "Connelly Group",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "UdListDefinitionId": 135,
-  "Rank": 790,
+  "UdListDefinitionId": 554,
+  "Rank": 75,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 267
     }
   }
 }

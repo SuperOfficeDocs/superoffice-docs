@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Bogan Group",
-    "ToolTip": "Minima est iste laudantium delectus.",
+    "Id": 394,
+    "Name": "Botsford, Kris and Grant",
+    "ToolTip": "Et blanditiis in.",
     "Deleted": true,
-    "Rank": 940,
-    "Type": "repellat",
-    "ColorBlock": 845,
-    "IconHint": "animi",
+    "Rank": 334,
+    "Type": "in",
+    "ColorBlock": 64,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2000-05-07T04:02:07.2440841+02:00",
+    "LastChanged": "2017-03-04T03:44:58.0000211+01:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Nikolaus Inc and Sons",
-        "ToolTip": "Debitis recusandae harum quas voluptates est sit.",
-        "Deleted": true,
-        "Rank": 903,
-        "Type": "beatae",
-        "ColorBlock": 841,
-        "IconHint": "vero",
+        "Id": 952,
+        "Name": "Terry LLC",
+        "ToolTip": "Aliquam asperiores ut sit.",
+        "Deleted": false,
+        "Rank": 606,
+        "Type": "in",
+        "ColorBlock": 907,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2006-05-23T04:02:07.2440841+02:00",
+        "LastChanged": "2008-06-04T03:44:58.0000211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "sequi",
-        "Hidden": true,
-        "FullName": "Daisha Sauer",
+        "ExtraInfo": "vel",
+        "StyleHint": "consectetur",
+        "Hidden": false,
+        "FullName": "Moriah Vicky Sporer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 486
+            "FieldType": "System.String",
+            "FieldLength": 96
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Miss Mark Nikolaus",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Miss Kane Keaton Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldLength": 49
       }
     }
   }

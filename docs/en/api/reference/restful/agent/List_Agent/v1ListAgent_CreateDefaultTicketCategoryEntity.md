@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 116,
-  "ParentId": 227,
-  "Name": "Waelchi Group",
+  "TicketCategoryId": 901,
+  "ParentId": 494,
+  "Name": "Wuckert-Beer",
   "Fullname": "possimus",
-  "CategoryMaster": 835,
+  "CategoryMaster": 437,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Terry-Spinka",
+  "ExternalName": "Mann LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 749,
-  "ReplyTemplate": 902,
-  "NotificationEmail": "adolfo_hammes@larkin.us",
+  "AssignmentLag": 428,
+  "ReplyTemplate": 352,
+  "NotificationEmail": "efrain.hirthe@gibson.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 892,
+  "EffectiveReplyTemplateId": 133,
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "sit"
+    "CustomFields1": "quae",
+    "CustomFields2": "saepe"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 729
     }
   }
 }

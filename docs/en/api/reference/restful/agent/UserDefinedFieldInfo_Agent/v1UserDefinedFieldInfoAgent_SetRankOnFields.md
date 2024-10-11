@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SetRankOnFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
   "RankedFieldsIds": [
-    413,
-    748
+    445,
+    720
   ]
 }
 ```

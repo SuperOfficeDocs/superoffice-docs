@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Name": "Hilpert-Romaguera",
-    "ToolTip": "Ipsam nobis eos.",
-    "Deleted": false,
-    "Rank": 530,
-    "Type": "minus",
-    "ColorBlock": 105,
-    "IconHint": "accusamus",
-    "Selected": false,
-    "LastChanged": "2014-09-12T04:02:07.3847052+02:00",
+    "Id": 195,
+    "Name": "Reynolds-Schneider",
+    "ToolTip": "Et quaerat occaecati maxime.",
+    "Deleted": true,
+    "Rank": 655,
+    "Type": "aut",
+    "ColorBlock": 745,
+    "IconHint": "enim",
+    "Selected": true,
+    "LastChanged": "2015-02-09T03:44:58.1249703+01:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Robel-Skiles",
-        "ToolTip": "Fugit illo fugit quis voluptatem odio laborum.",
-        "Deleted": true,
-        "Rank": 248,
-        "Type": "rerum",
-        "ColorBlock": 680,
-        "IconHint": "eveniet",
+        "Id": 413,
+        "Name": "Friesen, Fadel and Barrows",
+        "ToolTip": "Ad omnis voluptates quis sapiente.",
+        "Deleted": false,
+        "Rank": 73,
+        "Type": "ipsa",
+        "ColorBlock": 620,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "1997-12-29T04:02:07.3847052+01:00",
+        "LastChanged": "2023-04-12T03:44:58.1249703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "architecto",
+        "StyleHint": "inventore",
         "Hidden": false,
-        "FullName": "Valerie Bernhard"
+        "FullName": "Colton Walker"
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Gardner Gaylord"
+    "ExtraInfo": "quo",
+    "StyleHint": "iusto",
+    "Hidden": false,
+    "FullName": "Louisa Weimann"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Swaniawski, Stamm and Boehm",
-    "ToolTip": "Nulla nobis illo omnis eum eaque quia tempora.",
+    "Id": 532,
+    "Name": "Schmitt-Bernhard",
+    "ToolTip": "Voluptatem tempore cupiditate laboriosam eaque et eos.",
     "Deleted": false,
-    "Rank": 716,
-    "Type": "qui",
-    "ColorBlock": 621,
-    "IconHint": "iusto",
-    "Selected": false,
-    "LastChanged": "2018-12-27T04:02:07.3847052+01:00",
+    "Rank": 281,
+    "Type": "omnis",
+    "ColorBlock": 196,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2007-10-07T03:44:58.1249703+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Hickle, Blick and Schulist",
-        "ToolTip": "Quia quis.",
-        "Deleted": false,
-        "Rank": 976,
-        "Type": "ipsa",
-        "ColorBlock": 306,
-        "IconHint": "atque",
+        "Id": 716,
+        "Name": "Kulas, Denesik and Ziemann",
+        "ToolTip": "Inventore ut assumenda nam est sit et explicabo.",
+        "Deleted": true,
+        "Rank": 329,
+        "Type": "itaque",
+        "ColorBlock": 30,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2023-07-20T04:02:07.3847052+02:00",
+        "LastChanged": "2014-12-16T03:44:58.1249703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "sed",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Eliza Zemlak",
+        "FullName": "Dr. Dedric Dee Ernser DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 757
+            "FieldLength": 362
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Janick Kuphal",
+    "ExtraInfo": "enim",
+    "StyleHint": "quae",
+    "Hidden": true,
+    "FullName": "Dr. Roel Kennedi Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 904
       }
     }
   }

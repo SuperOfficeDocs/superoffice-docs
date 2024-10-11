@@ -25,7 +25,7 @@ Gets all the QuoteDenyReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Schroeder, Stark and Eichmann",
-    "Tooltip": "eos",
+    "Id": 184,
+    "Name": "Stanton-Lesch",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "UdListDefinitionId": 709,
-    "Rank": 104,
+    "UdListDefinitionId": 974,
+    "Rank": 113,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   }

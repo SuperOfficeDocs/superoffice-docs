@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 259,
+  "EjMessageId": 92,
   "Ticket": null,
-  "CreatedAt": "1997-05-30T04:02:06.9159914+02:00",
+  "CreatedAt": "2013-02-06T03:44:57.6718901+01:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "deleniti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ullam",
-  "TimeSpent": 603,
-  "Body": "eum",
-  "HtmlBody": "repellat",
-  "EmailHeader": "jayson@champlin.name",
-  "DebugInfo": "saepe",
-  "MailSorter": "commodi",
+  "MessageId": "autem",
+  "TimeSpent": 177,
+  "Body": "incidunt",
+  "HtmlBody": "odit",
+  "EmailHeader": "layne@lebsack.uk",
+  "DebugInfo": "architecto",
+  "MailSorter": "quo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "repudiandae",
+  "SearchTitle": "similique",
   "MessageHeaders": [
     {
-      "Id": 767,
-      "Name": "West LLC",
-      "Value": "expedita",
+      "Id": 996,
+      "Name": "Bosco, Dooley and Effertz",
+      "Value": "quos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,50 +136,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 265
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "dolorem",
-  "Sentiment": 265,
-  "SentimentConfidence": 698,
+  "Important": true,
+  "Language": "corrupti",
+  "Sentiment": 4,
+  "SentimentConfidence": 372,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 303,
-      "Name": "Zieme-Rau",
-      "ContentType": "enim",
-      "AttSize": 620,
-      "InlineImage": false,
-      "ContentId": "molestiae",
-      "AuthKey": "a",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 67,
+      "Name": "Koelpin, Mosciski and Runolfsson",
+      "ContentType": "qui",
+      "AttSize": 871,
+      "InlineImage": true,
+      "ContentId": "est",
+      "AuthKey": "quia",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldLength": 169
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "est"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "qui"
+    "CustomFields1": "quos",
+    "CustomFields2": "quos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 880
     }
   }
 }

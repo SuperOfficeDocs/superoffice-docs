@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "soluta"
+  "Section": "quidem"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 899,
-    "Section": "blanditiis",
-    "Key": "aut",
-    "Name": "Tillman LLC",
+    "PrefDescId": 523,
+    "Section": "et",
+    "Key": "cumque",
+    "Name": "Denesik, Bradtke and Stanton",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reverse-engineered well-modulated model",
-    "IsBuiltin": false,
-    "TableName": "Hettinger, Dach and Cummings",
-    "UserDefinedListId": 747,
-    "Rank": 189,
-    "SubGroup": "rerum",
-    "MinLevel": 488,
-    "MaxValue": 492,
-    "MinValue": 176,
-    "RequiredLicense": "nobis",
+    "Description": "Ameliorated full-range conglomeration",
+    "IsBuiltin": true,
+    "TableName": "Schimmel LLC",
+    "UserDefinedListId": 263,
+    "Rank": 169,
+    "SubGroup": "quisquam",
+    "MinLevel": 454,
+    "MaxValue": 153,
+    "MinValue": 379,
+    "RequiredLicense": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldType": "System.String",
+        "FieldLength": 984
       }
     }
   }

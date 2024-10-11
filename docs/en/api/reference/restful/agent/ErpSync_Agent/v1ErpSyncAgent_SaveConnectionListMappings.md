@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Koch Group",
+      "ErpListName": "Kling-Torphy",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Brown Inc and Sons",
-      "ErpFieldId": 248,
+      "ErpActorTypeName": "Lehner Group",
+      "ErpFieldId": 33,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 466
+          "FieldType": "System.String",
+          "FieldLength": 182
         }
       }
     }
   ],
-  "ErpConnectionId": 375,
-  "ErpConnectionName": "Jacobi-Kunde",
+  "ErpConnectionId": 451,
+  "ErpConnectionName": "Marvin, Kuvalis and Lockman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 866
+      "FieldLength": 931
     }
   }
 }

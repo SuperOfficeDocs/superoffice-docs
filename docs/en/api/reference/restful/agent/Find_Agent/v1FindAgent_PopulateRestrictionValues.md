@@ -82,31 +82,31 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Daniel-Stracke",
-      "Operator": "odio",
+      "Name": "Franecki-Halvorson",
+      "Operator": "quo",
       "Values": [
-        "architecto",
-        "sint"
+        "fuga",
+        "ea"
       ],
       "DisplayValues": [
-        "beatae",
-        "aliquam"
+        "quae",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 437,
+      "InterParenthesis": 319,
       "InterOperator": "And",
-      "UniqueHash": 637
+      "UniqueHash": 180
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schumm-Schneider",
-    "Operator": "et",
+    "Name": "Lubowitz, Gulgowski and Reinger",
+    "Operator": "eligendi",
     "Values": [
-      "delectus",
-      "vel"
+      "et",
+      "saepe"
     ],
     "DisplayValues": [
-      "eligendi",
-      "voluptatem"
+      "nesciunt",
+      "ullam"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Dooley, Boyle and Hickle",
-        "Operator": "enim",
+        "Name": "Koepp, Gerhold and Pfannerstill",
+        "Operator": "assumenda",
         "Values": [
-          "nihil",
-          "consequatur"
+          "laborum",
+          "in"
         ],
         "DisplayValues": [
-          "mollitia",
-          "vel"
+          "numquam",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 426,
+        "InterParenthesis": 45,
         "InterOperator": "And",
-        "UniqueHash": 601
+        "UniqueHash": 460
       }
     ],
-    "InterParenthesis": 550,
+    "InterParenthesis": 162,
     "InterOperator": "And",
-    "UniqueHash": 235
+    "UniqueHash": 684
   }
 ]
 ```

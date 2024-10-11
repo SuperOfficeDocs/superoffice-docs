@@ -73,9 +73,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "deleniti",
-    "Type": "eveniet",
-    "Description": "Cross-platform 5th generation orchestration",
+    "DisplayType": "totam",
+    "Type": "consectetur",
+    "Description": "Triple-buffered regional utilisation",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -84,7 +84,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldLength": 981
       }
     }
   }

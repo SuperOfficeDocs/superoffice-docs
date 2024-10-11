@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 10,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2014-02-11T04:02:01.5811276+01:00",
-  "EndTime": "2008-05-09T04:02:01.5811276+02:00",
-  "Count": 490
+  "PersonId": 840,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2020-09-23T03:44:52.4333602+02:00",
+  "EndTime": "2021-12-10T03:44:52.4333602+01:00",
+  "Count": 510
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 956,
-    "Attention": "ratione",
-    "Header": "atque",
-    "Name": "Littel Group",
-    "OurRef": "minima",
-    "YourRef": "et",
-    "Description": "Object-based global extranet",
-    "DocumentTemplate": "ducimus",
-    "IsPublished": false,
-    "PersonId": 2,
-    "PersonFullName": "Dr. Dimitri Langosh PhD",
-    "AssociateFullName": "Tremayne Mya Wisoky PhD",
-    "ContactId": 247,
-    "ContactName": "Predovic, Purdy and Eichmann",
-    "ProjectId": 800,
-    "ProjectName": "Maggio Inc and Sons",
-    "AssociateId": 703,
-    "Snum": 768,
-    "SaleId": 366,
-    "SaleName": "Armstrong Group",
+    "DocumentId": 593,
+    "Attention": "quo",
+    "Header": "in",
+    "Name": "West Inc and Sons",
+    "OurRef": "ab",
+    "YourRef": "pariatur",
+    "Description": "Expanded transitional internet solution",
+    "DocumentTemplate": "sequi",
+    "IsPublished": true,
+    "PersonId": 566,
+    "PersonFullName": "Ms. Raina Corwin DVM",
+    "AssociateFullName": "Camren Keeling",
+    "ContactId": 735,
+    "ContactName": "Cormier-Kiehn",
+    "ProjectId": 185,
+    "ProjectName": "Brakus Inc and Sons",
+    "AssociateId": 118,
+    "Snum": 495,
+    "SaleId": 628,
+    "SaleName": "Torphy, Waters and Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 986
+        "FieldType": "System.Int32",
+        "FieldLength": 569
       }
     }
   }

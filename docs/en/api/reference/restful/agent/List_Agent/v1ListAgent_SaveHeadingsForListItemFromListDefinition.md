@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 564,
-  "ListItemId": 993,
+  "UdListDefinitionId": 528,
+  "ListItemId": 886,
   "Headings": [
     {
-      "Id": 33,
-      "Name": "Jacobi-Altenwerth",
-      "ToolTip": "Vel repellat in.",
+      "Id": 236,
+      "Name": "O'Hara-Bayer",
+      "ToolTip": "Velit vel perferendis temporibus.",
       "Deleted": false,
-      "Rank": 521,
-      "Type": "est",
-      "ColorBlock": 323,
-      "IconHint": "sit",
-      "Selected": false,
-      "LastChanged": "2009-09-24T04:02:01.847234+02:00",
+      "Rank": 530,
+      "Type": "quam",
+      "ColorBlock": 416,
+      "IconHint": "illo",
+      "Selected": true,
+      "LastChanged": "2014-04-27T03:44:52.6989885+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempore",
-      "StyleHint": "voluptatum",
+      "ExtraInfo": "aut",
+      "StyleHint": "quos",
       "Hidden": false,
-      "FullName": "Juvenal Sporer"
+      "FullName": "Alexis Nicolas"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Hackett Inc and Sons",
-    "ToolTip": "Sunt beatae ut minus aut dolorum est alias.",
+    "Id": 838,
+    "Name": "Bogisich-Wuckert",
+    "ToolTip": "Similique veniam.",
     "Deleted": false,
-    "Rank": 499,
-    "Type": "dolorem",
-    "ColorBlock": 213,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2003-05-31T04:02:01.847234+02:00",
+    "Rank": 396,
+    "Type": "dolor",
+    "ColorBlock": 379,
+    "IconHint": "ipsum",
+    "Selected": true,
+    "LastChanged": "2024-09-30T03:44:52.6989885+02:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "Collins LLC",
-        "ToolTip": "Ratione architecto.",
-        "Deleted": false,
-        "Rank": 139,
-        "Type": "cupiditate",
-        "ColorBlock": 132,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "2017-01-02T04:02:01.847234+01:00",
+        "Id": 886,
+        "Name": "Adams-Jacobson",
+        "ToolTip": "Perferendis pariatur et aut autem.",
+        "Deleted": true,
+        "Rank": 738,
+        "Type": "rerum",
+        "ColorBlock": 711,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2006-10-27T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "est",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Mr. Jaylen Augusta Klocko DVM",
+        "FullName": "Russel Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 687
+            "FieldType": "System.Int32",
+            "FieldLength": 326
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Mr. Jan Fritsch",
+    "ExtraInfo": "sed",
+    "StyleHint": "ducimus",
+    "Hidden": true,
+    "FullName": "Jeramy Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 452
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

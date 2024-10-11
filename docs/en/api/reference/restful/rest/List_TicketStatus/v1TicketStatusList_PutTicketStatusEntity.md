@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 164,
-  "Name": "O'Reilly Inc and Sons",
+  "TicketStatusId": 704,
+  "Name": "Hackett, Rice and Funk",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": true
+  "IsDefault": false,
+  "UsedInQueue": false
 }
 ```
 
@@ -103,8 +103,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 454,
-  "Name": "Bergstrom Group",
+  "TicketStatusId": 15,
+  "Name": "Berge-Mueller",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldType": "System.String",
+      "FieldLength": 434
     }
   }
 }

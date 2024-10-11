@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 802,
-  "MinDate": "2007-07-04T04:02:01.6748777+02:00",
-  "MaxDate": "2020-11-21T04:02:01.6748777+01:00",
+  "DocumentPluginId": 146,
+  "MinDate": "1997-09-26T03:44:52.527125+02:00",
+  "MaxDate": "2017-07-04T03:44:52.527125+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 43,
-  "NumDocumentsAlreadyMigrated": 859,
+  "NumDocumentsOmitted": 697,
+  "NumDocumentsAlreadyMigrated": 194,
   "Documents": [
     {
-      "DocumentId": 765,
-      "ContactId": 928,
-      "PersonId": 301,
-      "SaleId": 464,
-      "ProjectId": 710,
-      "DocTmplId": 832,
-      "AssociateId": 379,
-      "UserGroupId": 374,
-      "VisibleForId": 311
+      "DocumentId": 581,
+      "ContactId": 138,
+      "PersonId": 877,
+      "SaleId": 43,
+      "ProjectId": 780,
+      "DocTmplId": 221,
+      "AssociateId": 790,
+      "UserGroupId": 266,
+      "VisibleForId": 590
     }
   ],
   "Associates": [
     {
-      "AssociateId": 464,
-      "EmailAddress": "zack@hills.ca"
+      "AssociateId": 741,
+      "EmailAddress": "yvonne@fadel.uk"
     },
     {
-      "AssociateId": 464,
-      "EmailAddress": "zack@hills.ca"
+      "AssociateId": 741,
+      "EmailAddress": "yvonne@fadel.uk"
     }
   ]
 }

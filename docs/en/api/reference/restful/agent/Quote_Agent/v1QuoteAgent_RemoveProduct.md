@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Quote/RemoveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 382
+  "ProductId": 347
 }
 ```
 

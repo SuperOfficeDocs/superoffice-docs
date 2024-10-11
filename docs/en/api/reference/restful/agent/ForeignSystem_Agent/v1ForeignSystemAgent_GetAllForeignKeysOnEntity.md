@@ -75,8 +75,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "nihil",
-  "EntityId": 227
+  "EntityType": "veniam",
+  "EntityId": 505
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "illo",
-  "2": "rerum"
+  "1": "expedita",
+  "2": "sit"
 }
 ```

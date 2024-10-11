@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 862,
-    "Name": "Ullrich, Hodkiewicz and Ryan",
-    "CurrencyId": 255,
-    "EnglishName": "Parisian Group",
+    "CountryId": 567,
+    "Name": "Boyer LLC",
+    "CurrencyId": 357,
+    "EnglishName": "Osinski Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Streamlined 24/7 budgetary management",
-    "OrgNrText": "1502561",
+    "ImageDescription": "Multi-layered national access",
+    "OrgNrText": "1103674",
     "InterAreaPrefix": "maiores",
-    "DialInPrefix": "voluptatem",
-    "ZipPrefix": "omnis",
-    "DomainName": "Boehm Group",
-    "AddressLayoutId": 55,
-    "DomesticAddressLayoutId": 960,
-    "ForeignAddressLayoutId": 768,
-    "Rank": 196,
-    "Tooltip": "omnis",
+    "DialInPrefix": "aut",
+    "ZipPrefix": "veniam",
+    "DomainName": "Heathcote, Zboncak and Gutkowski",
+    "AddressLayoutId": 737,
+    "DomesticAddressLayoutId": 556,
+    "ForeignAddressLayoutId": 406,
+    "Rank": 715,
+    "Tooltip": "labore",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 252
       }
     }
   }

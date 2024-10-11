@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 227,
-  "CurrencyId": 804
+  "QuoteConnectionId": 118,
+  "CurrencyId": 903
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 50,
-    "ERPPriceListKey": "maxime",
-    "QuoteConnectionId": 352,
-    "Name": "Kerluke, Schoen and Christiansen",
-    "Description": "Upgradable cohesive info-mediaries",
+    "PriceListId": 974,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 602,
+    "Name": "Stracke Group",
+    "Description": "Sharable web-enabled capacity",
     "Currency": "et",
-    "CurrencyName": "Mann Group",
-    "ValidFrom": "2004-08-16T04:02:02.2065837+02:00",
-    "ValidTo": "2023-06-16T04:02:02.2065837+02:00",
-    "IsActive": false,
+    "CurrencyName": "Wolf Group",
+    "ValidFrom": "2019-10-31T03:44:53.0583181+01:00",
+    "ValidTo": "2001-01-02T03:44:53.0583181+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 142
       }
     }
   }

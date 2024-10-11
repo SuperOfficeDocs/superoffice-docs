@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 559,
-  "TableName": "Boyle-Champlin",
+  "RoleId": 397,
+  "TableName": "Hartmann, Lockman and Conn",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"reprehenderit"
+"commodi"
 ```

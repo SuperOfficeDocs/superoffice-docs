@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=nemo
+GET /api/v1/List/ProductCategory/MDOItems?query=dolor
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Beatty-Becker",
-    "ToolTip": "Cumque sit rerum.",
+    "Id": 403,
+    "Name": "Bernhard-Hackett",
+    "ToolTip": "Eos ullam nisi aut.",
     "Deleted": false,
-    "Rank": 215,
-    "Type": "accusamus",
+    "Rank": 307,
+    "Type": "optio",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Schmitt-Towne",
-        "ToolTip": "Sunt tempore nesciunt.",
+        "Id": 646,
+        "Name": "Parisian-Bogan",
+        "ToolTip": "Excepturi eligendi non.",
         "Deleted": true,
-        "Rank": 766,
-        "Type": "omnis",
+        "Rank": 738,
+        "Type": "impedit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nesciunt",
-        "ColorBlock": 434,
-        "ExtraInfo": "corrupti",
-        "StyleHint": "ipsam",
-        "FullName": "Aida Ankunding",
+        "IconHint": "id",
+        "ColorBlock": 640,
+        "ExtraInfo": "similique",
+        "StyleHint": "quia",
+        "FullName": "Prof. Lacy Bo Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 39
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 332,
-    "ExtraInfo": "tenetur",
-    "StyleHint": "qui",
-    "FullName": "Dr. Thalia Grimes",
+    "IconHint": "odio",
+    "ColorBlock": 930,
+    "ExtraInfo": "aut",
+    "StyleHint": "alias",
+    "FullName": "Anais Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 901
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

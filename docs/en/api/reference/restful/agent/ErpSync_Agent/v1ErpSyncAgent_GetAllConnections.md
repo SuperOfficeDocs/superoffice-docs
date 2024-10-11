@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 31,
-    "ErpConnectorId": 971,
-    "DisplayName": "Pfannerstill, Hilpert and Schuppe",
-    "DisplayDescription": "Assimilated reciprocal methodology",
+    "ErpConnectionId": 87,
+    "ErpConnectorId": 386,
+    "DisplayName": "Carroll Group",
+    "DisplayDescription": "Synchronised dedicated toolset",
     "Active": false,
-    "ConnectionId": "nulla",
-    "MostRecentTimestamp": "sed",
+    "ConnectionId": "ab",
+    "MostRecentTimestamp": "dolorum",
     "ConfigFields": {
-      "ConfigFields1": "dicta",
-      "ConfigFields2": "tempora"
+      "ConfigFields1": "modi",
+      "ConfigFields2": "consequatur"
     },
     "Deleted": false,
-    "AllAccess": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      139,
-      960
+      336,
+      765
     ],
     "AssociateAccessIds": [
-      158,
-      714
+      253,
+      167
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldType": "System.String",
+        "FieldLength": 586
       }
     }
   }

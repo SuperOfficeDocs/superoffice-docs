@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "nihil",
+      "RawValue": "natus",
       "Specification": null,
-      "DisplayValue": "consectetur",
-      "DisplayTooltip": "quod",
+      "DisplayValue": "eligendi",
+      "DisplayTooltip": "ducimus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 914,
-      "PrefDescId": 603,
-      "TableName": "Flatley Group",
-      "UserPreferenceId": 608
+      "TargetId": 150,
+      "PrefDescId": 447,
+      "TableName": "Conroy LLC",
+      "UserPreferenceId": 363
     }
   ]
 }

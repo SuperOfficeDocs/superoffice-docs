@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 404,
-  "TileId": 205,
-  "Position": 881
+  "DashboardId": 538,
+  "TileId": 927,
+  "Position": 244
 }
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 936,
-  "AssociateId": 640,
-  "Caption": "ad",
+  "DashboardId": 314,
+  "AssociateId": 635,
+  "Caption": "minima",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 421,
-      "Caption": "et",
-      "Description": "Persevering exuding instruction set",
-      "ChartName": "Nader, Reynolds and Braun",
-      "ChartId": "illum",
-      "IsDefault": true,
-      "AssociateId": 690,
-      "GroupId": 90,
-      "SelectionId": 612,
-      "Config": "voluptatem",
+      "DashboardTileId": 149,
+      "Caption": "eveniet",
+      "Description": "Progressive well-modulated customer loyalty",
+      "ChartName": "Daniel LLC",
+      "ChartId": "eligendi",
+      "IsDefault": false,
+      "AssociateId": 59,
+      "GroupId": 903,
+      "SelectionId": 726,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldType": "System.Int32",
+          "FieldLength": 726
         }
       }
     }
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 969
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Durgan LLC",
-    "ToolTip": "Accusamus ut.",
-    "Deleted": false,
-    "Rank": 921,
-    "Type": "voluptate",
-    "ColorBlock": 746,
-    "IconHint": "ab",
+    "Id": 36,
+    "Name": "Bauch-Thiel",
+    "ToolTip": "Porro eligendi eum et iure rerum sit.",
+    "Deleted": true,
+    "Rank": 777,
+    "Type": "in",
+    "ColorBlock": 957,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "1998-06-05T04:02:07.3221997+02:00",
+    "LastChanged": "2017-07-06T03:44:58.0781351+02:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Schroeder, Schuppe and Zulauf",
-        "ToolTip": "Atque modi consequuntur minus possimus iste laboriosam.",
+        "Id": 339,
+        "Name": "Kerluke Inc and Sons",
+        "ToolTip": "Totam cumque.",
         "Deleted": false,
-        "Rank": 419,
-        "Type": "eius",
-        "ColorBlock": 597,
-        "IconHint": "est",
+        "Rank": 464,
+        "Type": "quas",
+        "ColorBlock": 396,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2008-04-03T04:02:07.3221997+02:00",
+        "LastChanged": "2015-03-17T03:44:58.0781351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Miss Ora Alvera Hirthe",
+        "ExtraInfo": "porro",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Emelia Auer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 639
+            "FieldLength": 964
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "cumque",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Elise Kuphal IV",
+    "FullName": "Weston Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldLength": 752
       }
     }
   }

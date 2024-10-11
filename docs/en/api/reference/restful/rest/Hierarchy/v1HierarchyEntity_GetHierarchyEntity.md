@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 53,
+  "HierarchyId": 329,
   "Domain": "Dashboards",
-  "Name": "Doyle, Schaefer and Hagenes",
-  "Fullname": "et",
-  "ParentId": 519,
+  "Name": "Lebsack Group",
+  "Fullname": "fuga",
+  "ParentId": 101,
   "Children": [
     {
-      "HierarchyId": 378,
+      "HierarchyId": 158,
       "Domain": "Dashboards",
-      "Name": "Kling-Will",
-      "Fullname": "vel",
-      "ParentId": 550,
+      "Name": "Abbott-Parisian",
+      "Fullname": "sapiente",
+      "ParentId": 356,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-04-09T04:02:06.6191478+02:00",
-      "RegisteredAssociateId": 268,
-      "Updated": "2004-04-13T04:02:06.6191478+02:00",
-      "UpdatedAssociateId": 908,
+      "Registered": "2021-11-21T03:44:57.359003+01:00",
+      "RegisteredAssociateId": 469,
+      "Updated": "2007-05-29T03:44:57.359003+02:00",
+      "UpdatedAssociateId": 934,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 791
+          "FieldType": "System.Int32",
+          "FieldLength": 244
         }
       }
     }
   ],
-  "Registered": "1999-11-14T04:02:06.6191478+01:00",
-  "RegisteredAssociateId": 394,
-  "Updated": "2018-03-20T04:02:06.6191478+01:00",
-  "UpdatedAssociateId": 804,
+  "Registered": "2004-07-22T03:44:57.359003+02:00",
+  "RegisteredAssociateId": 860,
+  "Updated": "2021-03-19T03:44:57.359003+01:00",
+  "UpdatedAssociateId": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldType": "System.String",
+      "FieldLength": 767
     }
   },
   "_Links": {

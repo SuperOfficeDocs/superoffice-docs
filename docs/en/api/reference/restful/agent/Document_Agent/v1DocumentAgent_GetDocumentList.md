@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 342,
-    "Attention": "ut",
-    "Header": "nemo",
-    "Name": "Donnelly, D'Amore and Wolf",
-    "OurRef": "quaerat",
-    "YourRef": "aliquam",
-    "Description": "Profound mobile model",
-    "DocumentTemplate": "fugiat",
+    "DocumentId": 464,
+    "Attention": "omnis",
+    "Header": "ipsam",
+    "Name": "Feest, Ortiz and Ward",
+    "OurRef": "voluptatem",
+    "YourRef": "aut",
+    "Description": "Cross-group upward-trending moderator",
+    "DocumentTemplate": "sequi",
     "IsPublished": false,
-    "PersonId": 391,
-    "PersonFullName": "Jordan Tanya Kautzer II",
-    "AssociateFullName": "Emelie Cormier",
-    "ContactId": 707,
-    "ContactName": "Streich LLC",
-    "ProjectId": 273,
-    "ProjectName": "Lynch-Tillman",
-    "AssociateId": 928,
-    "Snum": 789,
-    "SaleId": 320,
-    "SaleName": "Simonis Group",
+    "PersonId": 298,
+    "PersonFullName": "Ms. Devon Crona IV",
+    "AssociateFullName": "Cristobal Rath",
+    "ContactId": 333,
+    "ContactName": "Goyette, Tromp and Auer",
+    "ProjectId": 241,
+    "ProjectName": "Wolf-Towne",
+    "AssociateId": 930,
+    "Snum": 830,
+    "SaleId": 629,
+    "SaleName": "Little Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldType": "System.Int32",
+        "FieldLength": 533
       }
     }
   }

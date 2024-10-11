@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 285,
+  "EjMessageId": 189,
   "Ticket": null,
-  "CreatedAt": "1997-05-28T04:02:02.4885951+02:00",
+  "CreatedAt": "2001-12-15T03:44:53.3560431+01:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "harum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eum",
-  "TimeSpent": 732,
-  "Body": "itaque",
-  "HtmlBody": "numquam",
-  "EmailHeader": "arthur@wiegand.info",
-  "DebugInfo": "incidunt",
-  "MailSorter": "assumenda",
+  "MessageId": "rem",
+  "TimeSpent": 565,
+  "Body": "rem",
+  "HtmlBody": "fuga",
+  "EmailHeader": "jerald.yost@leuschke.uk",
+  "DebugInfo": "numquam",
+  "MailSorter": "in",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aliquid",
+  "SearchTitle": "ut",
   "MessageHeaders": [
     {
-      "Id": 88,
-      "Name": "Shields-Breitenberg",
-      "Value": "est",
+      "Id": 499,
+      "Name": "Barrows, Champlin and Grant",
+      "Value": "eveniet",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 998
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "sed",
-  "Sentiment": 425,
-  "SentimentConfidence": 761,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 525,
+  "SentimentConfidence": 613,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 67,
-      "Name": "Hermiston, Mosciski and Schamberger",
-      "ContentType": "enim",
-      "AttSize": 481,
+      "AttachmentId": 981,
+      "Name": "Tillman, Kertzmann and Bechtelar",
+      "ContentType": "sed",
+      "AttSize": 752,
       "InlineImage": false,
-      "ContentId": "eligendi",
-      "AuthKey": "pariatur",
-      "IsSafeFileExtension": true,
+      "ContentId": "neque",
+      "AuthKey": "explicabo",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 58
+          "FieldLength": 642
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "veniam"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "et"
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "aperiam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 832
     }
   }
 }

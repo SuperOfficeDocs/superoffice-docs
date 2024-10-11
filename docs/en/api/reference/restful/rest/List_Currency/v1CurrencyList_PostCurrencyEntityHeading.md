@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 924,
-  "Name": "Harber, Trantow and Mraz",
-  "Tooltip": "et",
+  "HeadingId": 386,
+  "Name": "Nader-Okuneva",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "Rank": 652,
-  "UdListDefinitionId": 993
+  "Rank": 998,
+  "UdListDefinitionId": 892
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 626,
-  "Name": "Osinski-Weissnat",
-  "Tooltip": "architecto",
+  "HeadingId": 644,
+  "Name": "Kulas Inc and Sons",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 425,
-  "UdListDefinitionId": 990,
+  "Rank": 86,
+  "UdListDefinitionId": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldType": "System.Int32",
+      "FieldLength": 381
     }
   }
 }

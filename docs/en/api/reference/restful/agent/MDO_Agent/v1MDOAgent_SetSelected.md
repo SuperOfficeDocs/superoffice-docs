@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Satterfield Inc and Sons",
-  "AdditionalInfo": "consectetur",
+  "Name": "Haley, Ryan and O'Keefe",
+  "AdditionalInfo": "est",
   "SelectableMDOList": [
     {
-      "Id": 283,
-      "Name": "Price Inc and Sons",
-      "ToolTip": "Reprehenderit animi nobis id rerum numquam delectus totam.",
+      "Id": 983,
+      "Name": "Mertz-O'Hara",
+      "ToolTip": "Asperiores laudantium.",
       "Deleted": false,
-      "Rank": 261,
-      "Type": "voluptatem",
-      "ColorBlock": 380,
-      "IconHint": "quia",
+      "Rank": 61,
+      "Type": "asperiores",
+      "ColorBlock": 371,
+      "IconHint": "facilis",
       "Selected": false,
-      "LastChanged": "2005-06-01T04:02:01.909728+02:00",
+      "LastChanged": "2000-10-28T03:44:52.7614393+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "aspernatur",
+      "ExtraInfo": "assumenda",
+      "StyleHint": "fugit",
       "Hidden": false,
-      "FullName": "Miss Rafael Crist"
+      "FullName": "Dr. Theron Kautzer"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Cormier-Barton",
-    "ToolTip": "At ut explicabo quos mollitia a et pariatur.",
+    "Id": 478,
+    "Name": "Mueller Inc and Sons",
+    "ToolTip": "Id cupiditate.",
     "Deleted": false,
-    "Rank": 456,
-    "Type": "accusamus",
-    "ColorBlock": 317,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2008-12-22T04:02:01.909728+01:00",
+    "Rank": 311,
+    "Type": "dicta",
+    "ColorBlock": 23,
+    "IconHint": "cumque",
+    "Selected": true,
+    "LastChanged": "1999-08-28T03:44:52.7614393+02:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Wolff-Cormier",
-        "ToolTip": "Culpa consequatur possimus accusantium.",
-        "Deleted": true,
-        "Rank": 517,
-        "Type": "ea",
-        "ColorBlock": 844,
-        "IconHint": "architecto",
+        "Id": 45,
+        "Name": "Langosh, Gutkowski and Rolfson",
+        "ToolTip": "Deleniti et iusto veritatis rerum veniam.",
+        "Deleted": false,
+        "Rank": 602,
+        "Type": "qui",
+        "ColorBlock": 203,
+        "IconHint": "illo",
         "Selected": true,
-        "LastChanged": "2015-05-01T04:02:01.909728+02:00",
+        "LastChanged": "2001-09-26T03:44:52.7614393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "totam",
-        "Hidden": true,
-        "FullName": "Reva Altenwerth",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Leland Cameron Walker I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 448
+            "FieldLength": 850
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Keaton Walter",
+    "ExtraInfo": "ut",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Anais Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldType": "System.String",
+        "FieldLength": 874
       }
     }
   }

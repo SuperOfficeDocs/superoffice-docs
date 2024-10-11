@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    437,
-    207
+    287,
+    531
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 640,
-    "Name": "Bogan, Hyatt and Mayer",
-    "AssociateId": 399,
-    "DetailsTable": 274,
-    "DetailsRecord": 752,
+    "Id": 502,
+    "Name": "Nader, McClure and Jakubowski",
+    "AssociateId": 390,
+    "DetailsTable": 894,
+    "DetailsRecord": 57,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "commodi",
-      "ParameterObject2": "repudiandae"
+      "ParameterObject1": "nihil",
+      "ParameterObject2": "itaque"
     },
-    "LastStarted": "2005-04-03T04:02:01.221786+02:00",
-    "Created": "2016-04-14T04:02:01.221786+02:00",
-    "StartCount": 513,
-    "DatabaseSerialNumber": "984820",
-    "Context": "quos",
-    "Result": "ut",
+    "LastStarted": "1998-02-11T03:44:52.0740137+01:00",
+    "Created": "2010-05-13T03:44:52.0740137+02:00",
+    "StartCount": 557,
+    "DatabaseSerialNumber": "1973878",
+    "Context": "unde",
+    "Result": "quia",
     "State": "All",
-    "Description": "Persevering impactful support",
-    "Response": "aut",
-    "Request": "harum",
-    "ProgressDescription": "Sharable incremental productivity",
-    "ProgressPercent": 586,
-    "FileName": "Cummings-Dach",
+    "Description": "Monitored zero defect instruction set",
+    "Response": "distinctio",
+    "Request": "eos",
+    "ProgressDescription": "Innovative systemic workforce",
+    "ProgressPercent": 682,
+    "FileName": "Rau LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 371
       }
     }
   }

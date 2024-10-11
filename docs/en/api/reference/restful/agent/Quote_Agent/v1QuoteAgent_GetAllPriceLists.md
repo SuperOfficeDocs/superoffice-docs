@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 114,
-  "Currency": "autem"
+  "QuoteConnectionId": 946,
+  "Currency": "enim"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 191,
-    "ERPPriceListKey": "quo",
-    "QuoteConnectionId": 639,
-    "Name": "Morissette, Walsh and Heaney",
-    "Description": "Inverse 24 hour emulation",
-    "Currency": "sit",
-    "CurrencyName": "Schmeler LLC",
-    "ValidFrom": "2021-09-07T04:02:02.2065837+02:00",
-    "ValidTo": "2021-11-20T04:02:02.2065837+01:00",
+    "PriceListId": 353,
+    "ERPPriceListKey": "veniam",
+    "QuoteConnectionId": 524,
+    "Name": "Ritchie, Koss and Kuvalis",
+    "Description": "Digitized radical analyzer",
+    "Currency": "voluptatem",
+    "CurrencyName": "Harber LLC",
+    "ValidFrom": "2024-04-10T03:44:53.0583181+02:00",
+    "ValidTo": "2015-02-22T03:44:53.0583181+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 193
+        "FieldType": "System.Int32",
+        "FieldLength": 574
       }
     }
   }

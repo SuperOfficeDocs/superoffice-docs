@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Koepp, Strosin and Kulas",
-    "ToolTip": "Ipsum dolores cum quia facere ex vel.",
-    "Deleted": true,
-    "Rank": 904,
-    "Type": "dolores",
-    "ColorBlock": 378,
-    "IconHint": "excepturi",
+    "Id": 834,
+    "Name": "Runte, Swift and Koss",
+    "ToolTip": "Atque est.",
+    "Deleted": false,
+    "Rank": 721,
+    "Type": "pariatur",
+    "ColorBlock": 430,
+    "IconHint": "facilis",
     "Selected": true,
-    "LastChanged": "2014-06-13T04:02:07.4167631+02:00",
+    "LastChanged": "2015-02-09T03:44:58.17184+01:00",
     "ChildItems": [
       {
-        "Id": 698,
-        "Name": "Johnston, Auer and Hartmann",
-        "ToolTip": "Possimus necessitatibus optio quis autem.",
-        "Deleted": false,
-        "Rank": 849,
-        "Type": "quae",
-        "ColorBlock": 49,
-        "IconHint": "dolore",
+        "Id": 710,
+        "Name": "Jast, Kohler and Quigley",
+        "ToolTip": "Rerum atque qui perferendis saepe a.",
+        "Deleted": true,
+        "Rank": 921,
+        "Type": "possimus",
+        "ColorBlock": 901,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2017-07-26T04:02:07.4167631+02:00",
+        "LastChanged": "2006-08-27T03:44:58.17184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Kasey Tillman",
+        "ExtraInfo": "quasi",
+        "StyleHint": "eveniet",
+        "Hidden": true,
+        "FullName": "Assunta Friesen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 561
+            "FieldLength": 605
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Dora Haley",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "laborum",
+    "Hidden": true,
+    "FullName": "Anna Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldType": "System.String",
+        "FieldLength": 956
       }
     }
   }

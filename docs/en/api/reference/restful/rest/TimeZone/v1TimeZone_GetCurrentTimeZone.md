@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 509,
-  "Name": "Schmeler-Mraz",
-  "TZLocationCode": "molestias",
-  "TZLocationCities": "saepe",
-  "IsoNumber": 105,
+  "TZLocationID": 430,
+  "Name": "Dare, McDermott and Pacocha",
+  "TZLocationCode": "voluptatem",
+  "TZLocationCities": "ea",
+  "IsoNumber": 735,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 957,
-      "StartMonth": 123,
-      "EndDay": 562,
-      "EndMonth": 650,
-      "TZOffset": 962,
-      "StartRulePattern": "et",
-      "EndRulePattern": "nostrum"
+      "StartDay": 861,
+      "StartMonth": 721,
+      "EndDay": 842,
+      "EndMonth": 583,
+      "TZOffset": 11,
+      "StartRulePattern": "illum",
+      "EndRulePattern": "consequuntur"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 228,
-      "StartMonth": 553,
-      "EndDay": 924,
-      "EndMonth": 679,
-      "TZOffset": 227,
-      "StartRulePattern": "voluptatem",
-      "EndRulePattern": "et"
+      "StartDay": 451,
+      "StartMonth": 10,
+      "EndDay": 860,
+      "EndMonth": 522,
+      "TZOffset": 1001,
+      "StartRulePattern": "autem",
+      "EndRulePattern": "molestiae"
     }
   }
 }

@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 354,
-  "MessageId": "voluptas",
-  "Subject": "et",
+  "ServerId": 915,
+  "MessageId": "aperiam",
+  "Subject": "vel",
   "From": null,
   "To": [
     {
-      "ContactId": 313,
-      "ContactName": "Connelly, Kshlerin and Cronin",
-      "PersonId": 833,
-      "PersonName": "Schimmel, Wehner and Fritsch",
-      "AssociateId": 201,
-      "Address": "placeat",
-      "EmailId": 588,
+      "ContactId": 718,
+      "ContactName": "Durgan Group",
+      "PersonId": 572,
+      "PersonName": "Lakin Inc and Sons",
+      "AssociateId": 751,
+      "Address": "occaecati",
+      "EmailId": 398,
       "DuplicatePersonIds": [
-        721,
-        353
+        728,
+        469
       ],
-      "Name": "Gaylord, McGlynn and Strosin",
+      "Name": "Christiansen Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 625
         }
       }
     }
   ],
-  "Sent": "2007-09-29T04:02:01.706124+02:00",
+  "Sent": "2009-02-13T03:44:52.5583726+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 852,
+  "Size": 761,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 885
     }
   }
 }

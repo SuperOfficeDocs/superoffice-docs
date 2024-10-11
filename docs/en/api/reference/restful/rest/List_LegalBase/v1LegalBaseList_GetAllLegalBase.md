@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 428,
-    "Name": "Kautzer Group",
-    "Tooltip": "ut",
-    "Rank": 475,
-    "Key": "quia",
+    "LegalBaseId": 893,
+    "Name": "Carter-Thiel",
+    "Tooltip": "veritatis",
+    "Rank": 522,
+    "Key": "distinctio",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 408
+        "FieldLength": 793
       }
     }
   }

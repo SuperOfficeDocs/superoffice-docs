@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Mueller, Leannon and Botsford",
-    "ToolTip": "Non odio omnis qui tempora sint.",
-    "Deleted": true,
-    "Rank": 861,
-    "Type": "esse",
-    "ColorBlock": 563,
-    "IconHint": "pariatur",
+    "Id": 734,
+    "Name": "Rohan Inc and Sons",
+    "ToolTip": "Quia voluptas voluptatem quam.",
+    "Deleted": false,
+    "Rank": 949,
+    "Type": "harum",
+    "ColorBlock": 178,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "1999-05-18T04:02:07.3221997+02:00",
+    "LastChanged": "2004-07-28T03:44:58.062516+02:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Kuhn, Schiller and Rau",
-        "ToolTip": "Praesentium debitis atque et ut est et.",
+        "Id": 207,
+        "Name": "Von LLC",
+        "ToolTip": "Commodi atque provident suscipit voluptates est velit id.",
         "Deleted": false,
-        "Rank": 597,
-        "Type": "at",
-        "ColorBlock": 150,
-        "IconHint": "eos",
+        "Rank": 36,
+        "Type": "nulla",
+        "ColorBlock": 798,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2013-06-24T04:02:07.3221997+02:00",
+        "LastChanged": "1997-09-10T03:44:58.062516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "provident",
+        "ExtraInfo": "sit",
+        "StyleHint": "necessitatibus",
         "Hidden": true,
-        "FullName": "Dannie Erdman",
+        "FullName": "Kole Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 299
+            "FieldLength": 454
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "tempora",
+    "ExtraInfo": "et",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Miss Elza Jonatan Ankunding V",
+    "FullName": "Prof. Vicky Margarita Turcotte I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldLength": 864
       }
     }
   }

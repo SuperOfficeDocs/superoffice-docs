@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 866,
-  "ColumnId": 480,
-  "FieldDefault": "ab",
-  "FieldHeight": 549,
-  "FieldLabel": "enim",
-  "FieldLeft": 557,
-  "FieldTop": 356,
+  "UDefFieldId": 333,
+  "ColumnId": 525,
+  "FieldDefault": "est",
+  "FieldHeight": 784,
+  "FieldLabel": "a",
+  "FieldLeft": 109,
+  "FieldTop": 363,
   "FieldType": "Checkbox",
-  "FieldWidth": 536,
-  "FormatMask": "repellendus",
-  "HideLabel": false,
+  "FieldWidth": 125,
+  "FormatMask": "non",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 717,
-  "LabelLeft": 891,
-  "LabelTop": 164,
-  "LabelWidth": 983,
-  "LastVersionId": 25,
-  "ListTableId": 621,
+  "LabelHeight": 665,
+  "LabelLeft": 816,
+  "LabelTop": 214,
+  "LabelWidth": 352,
+  "LastVersionId": 696,
+  "ListTableId": 927,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 46,
-  "ProgId": "molestiae",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 308,
-  "TextLength": 470,
-  "Tooltip": "in",
-  "UdefIdentity": 240,
-  "UDListDefinitionId": 415,
+  "Page1LineNo": 455,
+  "ProgId": "laboriosam",
+  "IsReadOnly": false,
+  "ShortLabel": "porro",
+  "TabOrder": 310,
+  "TextLength": 61,
+  "Tooltip": "natus",
+  "UdefIdentity": 263,
+  "UDListDefinitionId": 931,
   "Justification": "Center",
-  "Version": 515,
-  "TemplateVariableName": "Weber-Pollich",
-  "HasBeenPublished": true,
-  "MdoListName": "Crona-Connelly",
+  "Version": 790,
+  "TemplateVariableName": "Donnelly Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Rempel LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 71
     }
   }
 }

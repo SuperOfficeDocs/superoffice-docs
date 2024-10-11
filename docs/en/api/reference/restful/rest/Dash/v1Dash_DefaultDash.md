@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 988,
-  "UniqueId": "optio",
-  "Name": "Balistreri, Gleason and Stroman",
-  "Description": "Expanded value-added benchmark",
-  "AssociateId": 830,
-  "Columns": 78,
+  "DashboardId": 645,
+  "UniqueId": "aliquid",
+  "Name": "Nolan, Casper and Stroman",
+  "Description": "Distributed fresh-thinking ability",
+  "AssociateId": 314,
+  "Columns": 296,
   "Theme": null,
-  "VisibleForAll": 101,
+  "VisibleForAll": 213,
   "VisibleForAssociates": [
-    539,
-    933
+    680,
+    590
   ],
   "VisibleForGroups": [
-    246,
-    567
+    68,
+    524
   ],
-  "PinForAll": 456,
+  "PinForAll": 375,
   "PinForAssociates": [
-    993,
-    850
+    703,
+    340
   ],
   "PinForGroups": [
-    623,
-    744
+    648,
+    271
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldType": "System.String",
+      "FieldLength": 735
     }
   }
 }

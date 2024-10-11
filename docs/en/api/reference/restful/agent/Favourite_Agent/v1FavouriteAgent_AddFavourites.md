@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schuppe, Monahan and Ullrich",
+  "TableName": "Keebler LLC",
   "RecordIds": [
-    804,
-    833
+    945,
+    842
   ],
-  "AssociateId": 182,
-  "ExtraInfo": "dignissimos"
+  "AssociateId": 838,
+  "ExtraInfo": "quia"
 }
 ```
 

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 652
+  "PersonId": 42
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 449,
-    "Name": "Haley, Lakin and Barrows",
-    "Value": "expedita",
-    "CreatedDate": "2005-06-25T04:02:01.221786+02:00",
-    "UpdatedDate": "2009-12-09T04:02:01.221786+01:00",
-    "CreatedBy": "non",
-    "UpdatedBy": "harum",
+    "AudienceLayoutId": 123,
+    "Name": "Graham Group",
+    "Value": "sint",
+    "CreatedDate": "2011-08-03T03:44:52.0740137+02:00",
+    "UpdatedDate": "2021-10-23T03:44:52.0740137+02:00",
+    "CreatedBy": "nobis",
+    "UpdatedBy": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 430
       }
     }
   }

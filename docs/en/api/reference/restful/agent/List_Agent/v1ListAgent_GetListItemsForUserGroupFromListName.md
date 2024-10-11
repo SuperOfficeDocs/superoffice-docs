@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Medhurst LLC",
-  "GroupId": 829
+  "UdListDefinitionName": "Franecki Group",
+  "GroupId": 238
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Labadie Group",
-    "ToolTip": "Incidunt ea placeat harum ipsam a aliquam voluptate.",
-    "Deleted": true,
-    "Rank": 191,
-    "Type": "nihil",
-    "ColorBlock": 900,
-    "IconHint": "perferendis",
-    "Selected": false,
-    "LastChanged": "2000-01-16T04:02:01.847234+01:00",
+    "Id": 918,
+    "Name": "Wisozk, Barton and Lesch",
+    "ToolTip": "Nihil aspernatur autem beatae.",
+    "Deleted": false,
+    "Rank": 714,
+    "Type": "animi",
+    "ColorBlock": 386,
+    "IconHint": "atque",
+    "Selected": true,
+    "LastChanged": "2013-02-03T03:44:52.6989885+01:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Skiles Inc and Sons",
-        "ToolTip": "Quia quae.",
+        "Id": 360,
+        "Name": "Corwin, Franecki and Grady",
+        "ToolTip": "Aspernatur iusto.",
         "Deleted": false,
-        "Rank": 471,
-        "Type": "natus",
-        "ColorBlock": 523,
-        "IconHint": "ducimus",
+        "Rank": 337,
+        "Type": "eaque",
+        "ColorBlock": 338,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2010-01-03T04:02:01.847234+01:00",
+        "LastChanged": "2003-10-25T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "deserunt",
-        "Hidden": true,
-        "FullName": "Izabella Schmeler",
+        "ExtraInfo": "expedita",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Selina Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 406
+            "FieldType": "System.String",
+            "FieldLength": 328
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "quasi",
+    "ExtraInfo": "velit",
+    "StyleHint": "adipisci",
     "Hidden": true,
-    "FullName": "Ms. Mireille Fay",
+    "FullName": "Mr. Velma Walker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 596
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=facere
+GET /api/v1/List/Currency/MDOItems?query=rerum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Hettinger-Collins",
-    "ToolTip": "Qui voluptatem perferendis vel.",
+    "Id": 71,
+    "Name": "Senger, Franecki and Franecki",
+    "ToolTip": "Voluptatem sint.",
     "Deleted": false,
-    "Rank": 274,
-    "Type": "expedita",
+    "Rank": 133,
+    "Type": "aperiam",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Volkman Inc and Sons",
-        "ToolTip": "Est sunt rem cupiditate tempora voluptas.",
+        "Id": 509,
+        "Name": "Hayes LLC",
+        "ToolTip": "Aut praesentium aut dolores.",
         "Deleted": true,
-        "Rank": 18,
-        "Type": "unde",
+        "Rank": 175,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 861,
-        "ExtraInfo": "in",
-        "StyleHint": "laborum",
-        "FullName": "Prof. Sid Goyette",
+        "IconHint": "illo",
+        "ColorBlock": 197,
+        "ExtraInfo": "beatae",
+        "StyleHint": "voluptatem",
+        "FullName": "Blanca Amya Osinski PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 522
+            "FieldType": "System.String",
+            "FieldLength": 975
           }
         }
       }
     ],
-    "IconHint": "mollitia",
-    "ColorBlock": 223,
-    "ExtraInfo": "ipsum",
-    "StyleHint": "libero",
-    "FullName": "Prof. Nakia Florida Eichmann IV",
+    "IconHint": "dolor",
+    "ColorBlock": 221,
+    "ExtraInfo": "est",
+    "StyleHint": "similique",
+    "FullName": "Breanna Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

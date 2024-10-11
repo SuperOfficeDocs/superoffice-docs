@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Tremblay LLC",
-    "ToolTip": "Eum consequatur nam qui.",
+    "Id": 551,
+    "Name": "Langosh-Walter",
+    "ToolTip": "Repudiandae voluptates.",
     "Deleted": false,
-    "Rank": 750,
-    "Type": "rerum",
-    "ColorBlock": 170,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2014-10-13T04:02:07.1347182+02:00",
+    "Rank": 676,
+    "Type": "at",
+    "ColorBlock": 191,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2022-03-02T03:44:57.9687368+01:00",
     "ChildItems": [
       {
-        "Id": 134,
-        "Name": "Gusikowski-Stokes",
-        "ToolTip": "Labore consequatur.",
+        "Id": 280,
+        "Name": "Hackett, Lesch and Jewess",
+        "ToolTip": "Qui ipsa optio repellat harum.",
         "Deleted": false,
-        "Rank": 285,
-        "Type": "minus",
-        "ColorBlock": 20,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2011-05-19T04:02:07.1347182+02:00",
+        "Rank": 944,
+        "Type": "quibusdam",
+        "ColorBlock": 97,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2019-06-15T03:44:57.9687368+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "et",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Malvina Bradtke Sr.",
+        "FullName": "Eleanore Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 559
+            "FieldLength": 668
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "aperiam",
     "Hidden": true,
-    "FullName": "Miss Wilber Hintz",
+    "FullName": "Darrion Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldType": "System.Int32",
+        "FieldLength": 37
       }
     }
   }

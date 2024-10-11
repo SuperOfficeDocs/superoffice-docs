@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 7
+  "ShipmentId": 624
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2015-03-17T04:02:01.8941042+01:00",
+  "StartDate": "1997-10-11T03:44:52.7614393+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 538,
-  "ShipmentDescription": "Customizable reciprocal flexibility",
+  "ShipmentId": 429,
+  "ShipmentDescription": "Organized 24/7 support",
   "FromAddress": "sit",
-  "Configuration": 613,
-  "PersonId": 508,
-  "PersonFullName": "Noemie Hilll",
-  "ShipmentType": "dolores",
-  "MessageId": 198,
-  "MessageSubject": "laudantium",
-  "DocumentMessageId": 791,
-  "NumSent": 769,
-  "NumOpened": 300,
-  "NumBounced": 563,
-  "NumClicks": 396,
+  "Configuration": 108,
+  "PersonId": 211,
+  "PersonFullName": "Arnold Selmer Bechtelar Jr.",
+  "ShipmentType": "cumque",
+  "MessageId": 404,
+  "MessageSubject": "modi",
+  "DocumentMessageId": 561,
+  "NumSent": 875,
+  "NumOpened": 759,
+  "NumBounced": 654,
+  "NumClicks": 715,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldType": "System.String",
+      "FieldLength": 503
     }
   }
 }

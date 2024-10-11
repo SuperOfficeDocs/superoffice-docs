@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 259,
-  "Name": "Koch LLC",
-  "Tooltip": "excepturi",
+  "Id": 203,
+  "Name": "Dickinson-Kris",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 669,
-  "Rank": 124,
+  "UdListDefinitionId": 692,
+  "Rank": 609,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 181
     }
   }
 }

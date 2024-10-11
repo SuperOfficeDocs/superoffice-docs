@@ -85,12 +85,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nemo",
-  "ProviderName": "Koepp LLC",
-  "StorageKey": "adipisci",
+  "StorageType": "eaque",
+  "ProviderName": "Ziemann, O'Conner and Dare",
+  "StorageKey": "debitis",
   "StaticColumns": [
-    "corrupti",
-    "accusantium"
+    "ipsa",
+    "officia"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Nitzsche-Leannon",
-      "Operator": "qui",
+      "Name": "Goyette LLC",
+      "Operator": "voluptas",
       "Values": [
-        "ad",
-        "modi"
+        "rem",
+        "sequi"
       ],
       "DisplayValues": [
-        "eum",
-        "odio"
+        "officiis",
+        "dicta"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 335,
+      "InterParenthesis": 627,
       "InterOperator": "And",
-      "UniqueHash": 594
+      "UniqueHash": 753
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Watsica, Hand and Wehner",
-      "DisplayTooltip": "voluptatum",
-      "DisplayType": "eos",
+      "DisplayName": "Okuneva, Windler and Stamm",
+      "DisplayTooltip": "aliquam",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Friesen Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "ad",
-      "RestrictionListName": "Ledner-Legros",
-      "IsVisible": false,
-      "ExtraInfo": "doloremque",
-      "Width": "sit",
-      "IconHint": "qui",
-      "HeadingIconHint": "consequatur"
+      "Name": "Heaney Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "natus",
+      "RestrictionListName": "Mohr-Volkman",
+      "IsVisible": true,
+      "ExtraInfo": "libero",
+      "Width": "et",
+      "IconHint": "iure",
+      "HeadingIconHint": "labore"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Treutel-Mann",
-      "PrimaryKey": 253,
+      "EntityName": "Kuvalis, Fisher and Rau",
+      "PrimaryKey": 56,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ex",
-          "TooltipHint": "et",
-          "LinkHint": "voluptates"
+          "DisplayValue": "et",
+          "TooltipHint": "aut",
+          "LinkHint": "sequi"
         }
       },
-      "LinkHint": "dolore",
-      "StyleHint": "sapiente",
+      "LinkHint": "nisi",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldLength": 647
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Connelly Inc and Sons",
-      "Description": "Focused directional circuit",
-      "Rank": 256,
+      "Name": "Bosco, Dooley and Hessel",
+      "Description": "Stand-alone 4th generation project",
+      "Rank": 672,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Connelly Inc and Sons",
-      "Description": "Focused directional circuit",
-      "Rank": 256,
+      "Name": "Bosco, Dooley and Hessel",
+      "Description": "Stand-alone 4th generation project",
+      "Rank": 672,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 462
     }
   }
 }

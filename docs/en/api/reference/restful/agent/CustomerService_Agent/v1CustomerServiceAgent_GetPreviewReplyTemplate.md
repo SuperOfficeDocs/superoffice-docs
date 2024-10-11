@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 575
+  "ReplyTemplateId": 206
 }
 ```
 
@@ -93,10 +93,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoeger-Spencer",
-  "Description": "Innovative transitional moratorium",
-  "OwnedByFullName": "Dr. Manuel Legros",
-  "Updated": "2004-03-14T04:02:01.5342579+01:00",
+  "Name": "Graham Group",
+  "Description": "Digitized context-sensitive toolset",
+  "OwnedByFullName": "Tracey Aiden Hegmann DDS",
+  "Updated": "2013-08-13T03:44:52.4021422+02:00",
   "Body": "est",
   "IsHtml": false,
   "TableRight": null,
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 655
     }
   }
 }

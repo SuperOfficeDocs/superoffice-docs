@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 384,
-    "Name": "Goodwin, Witting and Langworth",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 947,
-    "UdListDefinitionId": 958
+    "HeadingId": 775,
+    "Name": "Dickens, Torphy and Willms",
+    "Tooltip": "provident",
+    "Deleted": false,
+    "Rank": 926,
+    "UdListDefinitionId": 652
   },
   {
-    "HeadingId": 384,
-    "Name": "Goodwin, Witting and Langworth",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 947,
-    "UdListDefinitionId": 958
+    "HeadingId": 775,
+    "Name": "Dickens, Torphy and Willms",
+    "Tooltip": "provident",
+    "Deleted": false,
+    "Rank": 926,
+    "UdListDefinitionId": 652
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 802,
-    "Name": "McKenzie LLC",
-    "Tooltip": "ducimus",
+    "HeadingId": 274,
+    "Name": "Funk, Rosenbaum and Eichmann",
+    "Tooltip": "dolorum",
     "Deleted": true,
-    "Rank": 656,
-    "UdListDefinitionId": 957,
+    "Rank": 471,
+    "UdListDefinitionId": 118,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldType": "System.String",
+        "FieldLength": 81
       }
     }
   }

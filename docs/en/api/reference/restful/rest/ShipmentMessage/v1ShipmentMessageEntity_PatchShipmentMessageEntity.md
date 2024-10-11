@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "et",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 515,
-  "PlainMessage": "molestiae",
-  "HtmlMessage": "quis",
-  "SmsMessage": "exercitationem",
-  "Description": "Configurable motivating flexibility",
-  "Subject": "placeat",
-  "FolderId": 415,
-  "HeaderField": "dolores",
-  "Design": "natus",
+  "ShipmentMessageId": 501,
+  "PlainMessage": "ipsum",
+  "HtmlMessage": "eos",
+  "SmsMessage": "quam",
+  "Description": "Proactive tertiary data-warehouse",
+  "Subject": "fugit",
+  "FolderId": 993,
+  "HeaderField": "ut",
+  "Design": "sint",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Re-engineered systemic portal",
-  "AccessKey": "quidem",
-  "DocumentMessage": 475,
-  "Registered": "2015-08-07T04:02:06.837875+02:00",
-  "RegisteredAssociateId": 35,
-  "Updated": "2024-06-02T04:02:06.837875+02:00",
-  "UpdatedAssociateId": 265,
-  "UpdatedCount": 649,
+  "LongDescription": "Devolved actuating projection",
+  "AccessKey": "maiores",
+  "DocumentMessage": 245,
+  "Registered": "1999-04-08T03:44:57.5937539+02:00",
+  "RegisteredAssociateId": 687,
+  "Updated": "2002-02-23T03:44:57.5937539+01:00",
+  "UpdatedAssociateId": 798,
+  "UpdatedCount": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldType": "System.Int32",
+      "FieldLength": 400
     }
   },
   "_Links": {

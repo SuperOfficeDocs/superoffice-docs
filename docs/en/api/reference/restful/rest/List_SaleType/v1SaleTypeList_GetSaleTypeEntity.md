@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 858,
-  "Name": "Cummerata, Bradtke and Fadel",
-  "Tooltip": "omnis",
-  "Rank": 336,
+  "SaleTypeId": 826,
+  "Name": "Wiegand-Huels",
+  "Tooltip": "qui",
+  "Rank": 593,
   "DurationUnit": "Century",
-  "SaleDuration": 54,
-  "SaleTypeCatId": 860,
+  "SaleDuration": 25,
+  "SaleTypeCatId": 872,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 173,
-  "QuoteLinesTemplate": 494,
-  "ConfirmationLinesTemplate": 351,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 200,
+  "QuoteLinesTemplate": 209,
+  "ConfirmationLinesTemplate": 439,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 571,
-  "MinEarningPercent": 445,
-  "GroupQuoteLinesBy": 338,
-  "SortGroupLinesBy": 728,
+  "MaxDiscountPercent": 544,
+  "MinEarningPercent": 560,
+  "GroupQuoteLinesBy": 597,
+  "SortGroupLinesBy": 257,
   "Stages": [
     {
-      "Id": 913,
-      "Name": "Kertzmann, Luettgen and Jerde",
-      "ToolTip": "Similique quaerat cumque.",
+      "Id": 398,
+      "Name": "Gerhold, Reynolds and Kilback",
+      "ToolTip": "Non eos.",
       "Deleted": false,
-      "Rank": 496,
-      "Type": "eos",
-      "ColorBlock": 14,
-      "IconHint": "non",
-      "Selected": false,
-      "LastChanged": "2008-03-04T04:02:07.4003498+01:00",
+      "Rank": 574,
+      "Type": "odit",
+      "ColorBlock": 798,
+      "IconHint": "iusto",
+      "Selected": true,
+      "LastChanged": "2006-12-07T03:44:58.1562167+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestiae",
-      "StyleHint": "est",
-      "Hidden": false,
-      "FullName": "Mrs. Reed Jenkins Sr.",
+      "ExtraInfo": "quo",
+      "StyleHint": "repellat",
+      "Hidden": true,
+      "FullName": "Juston Grant",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 870
+          "FieldLength": 826
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 81
     }
   }
 }

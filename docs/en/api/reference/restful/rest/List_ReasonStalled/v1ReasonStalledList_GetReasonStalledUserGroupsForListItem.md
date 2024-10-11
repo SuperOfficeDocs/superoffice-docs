@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Wyman, Mante and Ferry",
-    "ToolTip": "Enim deserunt et optio totam.",
+    "Id": 881,
+    "Name": "Barrows LLC",
+    "ToolTip": "Sed facere.",
     "Deleted": false,
-    "Rank": 952,
-    "Type": "eligendi",
-    "ColorBlock": 892,
-    "IconHint": "unde",
+    "Rank": 411,
+    "Type": "labore",
+    "ColorBlock": 459,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2011-10-18T04:02:07.4003498+02:00",
+    "LastChanged": "2023-08-08T03:44:58.1405935+02:00",
     "ChildItems": [
       {
-        "Id": 638,
-        "Name": "Walsh LLC",
-        "ToolTip": "Corporis qui et omnis dolor dolores.",
-        "Deleted": true,
-        "Rank": 171,
-        "Type": "nihil",
-        "ColorBlock": 563,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "2018-01-21T04:02:07.4003498+01:00",
+        "Id": 521,
+        "Name": "Batz, Walker and Murazik",
+        "ToolTip": "Quis consequatur iste error quaerat laborum debitis.",
+        "Deleted": false,
+        "Rank": 862,
+        "Type": "veniam",
+        "ColorBlock": 796,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2019-07-11T03:44:58.1405935+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Phyllis Jones I",
+        "ExtraInfo": "maiores",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Miss Akeem Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 32
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Candace Quigley",
+    "ExtraInfo": "rerum",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Maddison Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 208
       }
     }
   }

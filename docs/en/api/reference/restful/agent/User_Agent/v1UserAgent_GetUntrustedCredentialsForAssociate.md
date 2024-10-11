@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 187,
-  "Type": "aut"
+  "AssociateId": 830,
+  "Type": "sed"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2009-10-04T04:02:02.5509753+02:00",
-    "ValidTo": "2018-10-14T04:02:02.5509753+02:00",
-    "Comment": "aut",
-    "SecretValue": "minima",
-    "PublicValue": "suscipit",
+    "ValidFrom": "2010-10-05T03:44:53.418654+02:00",
+    "ValidTo": "2001-01-23T03:44:53.418654+01:00",
+    "Comment": "numquam",
+    "SecretValue": "autem",
+    "PublicValue": "et",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 657
       }
     }
   }

@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 680,
-  "Name": "Larkin-Jaskolski",
-  "CreatedDate": "2023-04-02T04:02:06.6191478+02:00",
-  "UpdatedDate": "2005-06-18T04:02:06.6191478+02:00",
+  "ForeignAppId": 19,
+  "Name": "Mante Inc and Sons",
+  "CreatedDate": "2018-11-22T03:44:57.359003+01:00",
+  "UpdatedDate": "2009-12-04T03:44:57.359003+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 526,
-      "Name": "Hand, Bruen and Friesen",
-      "CreatedDate": "2021-04-06T04:02:06.6191478+02:00",
-      "UpdatedDate": "2003-06-15T04:02:06.6191478+02:00",
-      "AssociateFullName": "Dane Maida Haag DDS",
-      "CreatedBy": "ipsum",
-      "UpdatedBy": "autem",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 791
+      "ForeignDeviceId": 830,
+      "Name": "Mraz Group",
+      "CreatedDate": "2002-10-09T03:44:57.359003+02:00",
+      "UpdatedDate": "2016-03-19T03:44:57.359003+01:00",
+      "AssociateFullName": "Stuart Skiles",
+      "CreatedBy": "facere",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "rem",
+      "ForeignAppId": 247
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 482,
-  "Name": "Lind-Hansen",
-  "CreatedDate": "2006-05-25T04:02:06.6191478+02:00",
-  "UpdatedDate": "2013-03-18T04:02:06.6191478+01:00",
+  "ForeignAppId": 392,
+  "Name": "Bruen, Christiansen and Skiles",
+  "CreatedDate": "1998-03-30T03:44:57.359003+02:00",
+  "UpdatedDate": "2014-11-18T03:44:57.359003+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 882,
-      "Name": "Jerde, Leffler and Aufderhar",
-      "CreatedDate": "2000-07-30T04:02:06.6191478+02:00",
-      "UpdatedDate": "2019-09-21T04:02:06.6191478+02:00",
-      "AssociateFullName": "Sigrid Hane",
-      "CreatedBy": "est",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "ex",
-      "ForeignAppId": 950,
+      "ForeignDeviceId": 765,
+      "Name": "Bernhard, Fisher and Murazik",
+      "CreatedDate": "2013-11-05T03:44:57.359003+01:00",
+      "UpdatedDate": "2023-01-06T03:44:57.359003+01:00",
+      "AssociateFullName": "Prof. Kay Rath",
+      "CreatedBy": "ea",
+      "UpdatedBy": "praesentium",
+      "DeviceIdentifier": "hic",
+      "ForeignAppId": 45,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     }
@@ -156,13 +156,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

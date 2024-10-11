@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Cartwright LLC"
+  "FunctionalRightName": "Weissnat, Schmitt and Kirlin"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Name": "Tremblay Group",
-    "ToolTip": "Id quos quae aut est corrupti.",
+    "Id": 797,
+    "Name": "Zemlak-Lowe",
+    "ToolTip": "Voluptas dolorum.",
     "Deleted": false,
-    "Rank": 927,
-    "Type": "facilis",
+    "Rank": 676,
+    "Type": "suscipit",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Marks LLC",
-        "ToolTip": "Quo sapiente praesentium.",
+        "Id": 131,
+        "Name": "Skiles-Emard",
+        "ToolTip": "Voluptatem ipsa voluptas est.",
         "Deleted": false,
-        "Rank": 818,
-        "Type": "sequi",
+        "Rank": 33,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 348,
-        "ExtraInfo": "eaque",
-        "StyleHint": "expedita",
-        "FullName": "Agustin Schultz",
+        "IconHint": "deserunt",
+        "ColorBlock": 838,
+        "ExtraInfo": "ut",
+        "StyleHint": "voluptatem",
+        "FullName": "Edd Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 928
+            "FieldLength": 465
           }
         }
       }
     ],
-    "IconHint": "provident",
-    "ColorBlock": 229,
-    "ExtraInfo": "quis",
-    "StyleHint": "sed",
-    "FullName": "Kendra Elton Kihn MD",
+    "IconHint": "rerum",
+    "ColorBlock": 984,
+    "ExtraInfo": "debitis",
+    "StyleHint": "consequatur",
+    "FullName": "Clark Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   }

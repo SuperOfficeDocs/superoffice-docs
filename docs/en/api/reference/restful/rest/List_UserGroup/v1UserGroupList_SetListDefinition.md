@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 441,
-  "Name": "Nicolas, Huels and Breitenberg",
-  "Tooltip": "enim",
+  "Id": 903,
+  "Name": "Bailey Group",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 868,
+  "Rank": 844,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Schneider, Marvin and Wunsch",
-  "Tooltip": "explicabo",
+  "Id": 624,
+  "Name": "Dickinson Inc and Sons",
+  "Tooltip": "error",
   "Deleted": true,
-  "Rank": 117,
+  "Rank": 764,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tempora",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 185
     }
   }
 }

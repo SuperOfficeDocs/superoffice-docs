@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "porro",
-  "ProviderName": "Crist, Tremblay and Schinner",
-  "StorageKey": "nobis",
+  "StorageType": "qui",
+  "ProviderName": "Green-Rath",
+  "StorageKey": "quod",
   "DesiredColumnNames": [
-    "Pouros, Daniel and Olson",
-    "Feeney Group"
+    "Spencer-Pouros",
+    "Champlin, Cronin and Lebsack"
   ],
   "StaticColumns": [
-    "velit",
-    "exercitationem"
+    "totam",
+    "blanditiis"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Cruickshank-Schamberger",
-      "Operator": "est",
+      "Name": "McGlynn, Lindgren and Lowe",
+      "Operator": "dolor",
       "Values": [
-        "autem",
-        "quisquam"
+        "ex",
+        "fugiat"
       ],
       "DisplayValues": [
-        "temporibus",
-        "ipsam"
+        "nostrum",
+        "voluptatibus"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 414,
+      "InterParenthesis": 657,
       "InterOperator": "And",
-      "UniqueHash": 902
+      "UniqueHash": 654
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Spinka-Hirthe",
-      "DisplayTooltip": "in",
-      "DisplayType": "repellendus",
+      "DisplayName": "Hermiston Group",
+      "DisplayTooltip": "accusantium",
+      "DisplayType": "aperiam",
       "CanOrderBy": true,
-      "Name": "Lehner Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "perspiciatis",
-      "RestrictionListName": "Mitchell, Skiles and Reichel",
-      "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "eos",
-      "IconHint": "incidunt",
-      "HeadingIconHint": "nihil"
+      "Name": "Berge, Larkin and Turner",
+      "CanRestrictBy": false,
+      "RestrictionType": "eos",
+      "RestrictionListName": "Ortiz Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "suscipit",
+      "Width": "ut",
+      "IconHint": "quod",
+      "HeadingIconHint": "sapiente"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Predovic-Weimann",
-      "PrimaryKey": 168,
+      "EntityName": "Ebert Group",
+      "PrimaryKey": 190,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "porro",
-          "LinkHint": "dolorem"
+          "DisplayValue": "qui",
+          "TooltipHint": "molestiae",
+          "LinkHint": "commodi"
         }
       },
-      "LinkHint": "itaque",
-      "StyleHint": "omnis",
+      "LinkHint": "et",
+      "StyleHint": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldType": "System.String",
+          "FieldLength": 889
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bartell LLC",
-      "Description": "Assimilated fault-tolerant encoding",
-      "Rank": 898,
+      "Name": "Thiel Inc and Sons",
+      "Description": "Virtual executive matrix",
+      "Rank": 754,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bartell LLC",
-      "Description": "Assimilated fault-tolerant encoding",
-      "Rank": 898,
+      "Name": "Thiel Inc and Sons",
+      "Description": "Virtual executive matrix",
+      "Rank": 754,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 635
     }
   }
 }

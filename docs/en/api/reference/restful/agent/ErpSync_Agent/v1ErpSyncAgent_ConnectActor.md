@@ -75,27 +75,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 82,
-  "CrmRecordId": 323,
+  "ErpConnectionId": 327,
+  "CrmRecordId": 59,
   "CrmActorType": "Contact",
-  "ErpKey": "labore",
+  "ErpKey": "quia",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Bahringer-Jacobi",
-      "CrmFieldKey": "ducimus",
-      "Value": "ullam",
-      "DisplayValue": "debitis",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "DisplayName": "Block-Hills",
+      "CrmFieldKey": "aliquam",
+      "Value": "modi",
+      "DisplayValue": "voluptatem",
+      "SyncToCrm": false,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Bahringer-Jacobi",
-      "CrmFieldKey": "ducimus",
-      "Value": "ullam",
-      "DisplayValue": "debitis",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "DisplayName": "Block-Hills",
+      "CrmFieldKey": "aliquam",
+      "Value": "modi",
+      "DisplayValue": "voluptatem",
+      "SyncToCrm": false,
+      "SyncToErp": true
     }
   ]
 }

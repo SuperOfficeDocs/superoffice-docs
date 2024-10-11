@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Kulas Inc and Sons",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "Rank": 349,
+  "Id": 583,
+  "Name": "Kub-Swift",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "Rank": 592,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": false
+  "ListType": "voluptates",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 496,
-  "Name": "Swaniawski-Crooks",
-  "Tooltip": "quibusdam",
+  "Id": 320,
+  "Name": "Roberts-Hilll",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 612,
+  "Rank": 649,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 15
+      "FieldLength": 814
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 36,
-    "Name": "Kihn Group",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "Rank": 687,
-    "UdListDefinitionId": 800,
+    "HeadingId": 940,
+    "Name": "Bauch Group",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "Rank": 73,
+    "UdListDefinitionId": 686,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

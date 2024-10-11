@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 304,
-  "Name": "Stark Inc and Sons",
-  "CreatedDate": "2014-03-01T04:02:06.6035245+01:00",
-  "UpdatedDate": "2017-08-20T04:02:06.6035245+02:00",
+  "ForeignAppId": 454,
+  "Name": "Prosacco Inc and Sons",
+  "CreatedDate": "2001-12-04T03:44:57.3433794+01:00",
+  "UpdatedDate": "2009-02-24T03:44:57.3433794+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 249,
-      "Name": "Sanford Group",
-      "CreatedDate": "2010-09-24T04:02:06.6035245+02:00",
-      "UpdatedDate": "2006-05-04T04:02:06.6035245+02:00",
-      "AssociateFullName": "Karl Tillman",
-      "CreatedBy": "ut",
-      "UpdatedBy": "eius",
-      "DeviceIdentifier": "eligendi",
-      "ForeignAppId": 293,
+      "ForeignDeviceId": 447,
+      "Name": "Russel Inc and Sons",
+      "CreatedDate": "2011-08-16T03:44:57.3433794+02:00",
+      "UpdatedDate": "1999-09-08T03:44:57.3433794+02:00",
+      "AssociateFullName": "Dr. Nicolas Alexzander Cummerata",
+      "CreatedBy": "recusandae",
+      "UpdatedBy": "non",
+      "DeviceIdentifier": "laborum",
+      "ForeignAppId": 420,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldLength": 274
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

@@ -481,7 +481,7 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=person/email/emailProtocol,contact/postAddress/addressId,contact/postAddress/state,contact/NumberOfActivities
+GET /api/v1/archive/ChatSession?$select=associate/isLocation,person/hasInfoText,person/hasCompany,person/email/emailId,contact/restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

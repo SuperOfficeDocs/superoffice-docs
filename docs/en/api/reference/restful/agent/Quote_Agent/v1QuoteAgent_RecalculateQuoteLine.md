@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "sit",
-    "possimus"
+    "aut",
+    "eos"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 103,
-  "ERPQuoteLineKey": "provident",
-  "QuoteAlternativeId": 599,
-  "ERPProductKey": "nobis",
+  "QuoteLineId": 310,
+  "ERPQuoteLineKey": "tenetur",
+  "QuoteAlternativeId": 863,
+  "ERPProductKey": "ut",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13730.054,
-  "DeliveredQuantity": 23461.124,
-  "Rank": 39,
-  "Name": "Daniel, Frami and Hilpert",
-  "Description": "Extended cohesive adapter",
-  "Code": "rerum",
-  "QuantityUnit": "libero",
-  "PriceUnit": "nulla",
-  "ItemNumber": "717499",
+  "Quantity": 29998.647999999997,
+  "DeliveredQuantity": 6622.142,
+  "Rank": 868,
+  "Name": "Predovic Inc and Sons",
+  "Description": "Grass-roots upward-trending leverage",
+  "Code": "suscipit",
+  "QuantityUnit": "aspernatur",
+  "PriceUnit": "in",
+  "ItemNumber": "1080089",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "maxime",
-  "ProductTypeKey": "dolore",
-  "Supplier": "quia",
-  "SupplierCode": "doloribus",
-  "Thumbnail": "sunt",
-  "VATInfo": "est",
-  "VAT": 25789.685999999998,
-  "UnitCost": 16387.685999999998,
-  "UnitMinimumPrice": 3669.9139999999998,
-  "UnitListPrice": 17794.852,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "odio",
+  "Supplier": "nisi",
+  "SupplierCode": "cum",
+  "Thumbnail": "qui",
+  "VATInfo": "a",
+  "VAT": 29243.354,
+  "UnitCost": 18468.662,
+  "UnitMinimumPrice": 21837.712,
+  "UnitListPrice": 6694.224,
   "ExtraInfo": [
     {
-      "Name": "Thiel-Stroman",
-      "Value": "illum",
+      "Name": "Pacocha, Hegmann and Schinner",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 166
         }
       }
     },
     {
-      "Name": "Thiel-Stroman",
-      "Value": "illum",
+      "Name": "Pacocha, Hegmann and Schinner",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 166
         }
       }
     }
   ],
-  "RawExtraInfo": "excepturi",
+  "RawExtraInfo": "nihil",
   "IsSubscription": false,
-  "SubscriptionUnit": "enim",
-  "SubscriptionQuantity": 9781.214,
-  "SubscriptionStart": "2008-09-04T04:02:02.1753367+02:00",
-  "ERPDiscountPercent": 9890.904,
-  "ERPDiscountAmount": 17810.522,
-  "DiscountPercent": 636.202,
-  "DiscountAmount": 16152.635999999999,
+  "SubscriptionUnit": "iste",
+  "SubscriptionQuantity": 21480.435999999998,
+  "SubscriptionStart": "2004-03-08T03:44:53.0270705+01:00",
+  "ERPDiscountPercent": 29678.98,
+  "ERPDiscountAmount": 23545.742,
+  "DiscountPercent": 238.184,
+  "DiscountAmount": 10962.732,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 7161.19,
-  "EarningAmount": 23558.278,
-  "SubTotal": 24457.736,
-  "TotalPrice": 1708.03,
-  "Rights": "rerum",
-  "Rule": "earum",
-  "ExtraField1": "id",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "cumque",
-  "ExtraField4": "officia",
-  "ExtraField5": "ut",
+  "EarningPercent": 6691.09,
+  "EarningAmount": 27096.564,
+  "SubTotal": 14272.235999999999,
+  "TotalPrice": 7559.208,
+  "Rights": "et",
+  "Rule": "quis",
+  "ExtraField1": "recusandae",
+  "ExtraField2": "adipisci",
+  "ExtraField3": "recusandae",
+  "ExtraField4": "facere",
+  "ExtraField5": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 790
     }
   }
 }

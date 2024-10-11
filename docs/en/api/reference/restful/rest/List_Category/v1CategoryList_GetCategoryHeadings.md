@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 189,
-    "Name": "Lakin Inc and Sons",
-    "Tooltip": "maxime",
+    "HeadingId": 803,
+    "Name": "Berge LLC",
+    "Tooltip": "doloremque",
     "Deleted": false,
-    "Rank": 439,
-    "UdListDefinitionId": 409,
+    "Rank": 378,
+    "UdListDefinitionId": 758,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 660
       }
     }
   }

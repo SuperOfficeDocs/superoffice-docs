@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 772
+  "QuickReplyId": 771
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corkery-Langosh",
-  "UpdatedByFullName": "Harrison Alex Green Sr.",
-  "Updated": "2007-12-14T04:02:01.5342579+01:00",
-  "HtmlBody": "optio",
+  "Name": "Stiedemann-Watsica",
+  "UpdatedByFullName": "Ms. Franco Xzavier Heller MD",
+  "Updated": "2012-09-04T03:44:52.4021422+02:00",
+  "HtmlBody": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldLength": 792
     }
   }
 }

@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Flatley-Effertz",
-  "Restrictions": "sit"
+  "ProviderName": "Kohler Group",
+  "Restrictions": "omnis"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Abbott-Hudson",
-    "DisplayTooltip": "vero",
-    "DisplayType": "molestias",
-    "CanOrderBy": true,
-    "Name": "Waelchi, Hane and Trantow",
+    "DisplayName": "Wilkinson-Mertz",
+    "DisplayTooltip": "similique",
+    "DisplayType": "unde",
+    "CanOrderBy": false,
+    "Name": "Heller Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "totam",
-    "RestrictionListName": "Heller, Eichmann and Rohan",
-    "IsVisible": false,
-    "ExtraInfo": "aut",
-    "Width": "quidem",
-    "IconHint": "aut",
-    "HeadingIconHint": "dolorum"
+    "RestrictionType": "explicabo",
+    "RestrictionListName": "Kunze-Abernathy",
+    "IsVisible": true,
+    "ExtraInfo": "impedit",
+    "Width": "quo",
+    "IconHint": "est",
+    "HeadingIconHint": "est"
   }
 ]
 ```

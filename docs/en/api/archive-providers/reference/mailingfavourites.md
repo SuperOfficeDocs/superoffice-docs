@@ -653,7 +653,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=updatedBy,mailingAddr/person/personHasInterests,mailingAddr/person/ticketPriority,mailingAddr/person/email/emailId,mailingAddr/person/correspondingAssociate/contactFullName
+GET /api/v1/archive/mailingfavourites?$select=mailingAddr/contact/contactDeleted,mailingAddr/contact/contactExtra/x_contact_time,mailingAddr/person/restrictionAddress/formattedAddress,mailingAddr/person/personExtra/x_person_request_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

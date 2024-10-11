@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Schmeler LLC",
-  "Tooltip": "voluptatem",
+  "Id": 727,
+  "Name": "Gorczany, Walter and Koelpin",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "UdListDefinitionId": 718,
-  "Rank": 24,
+  "UdListDefinitionId": 210,
+  "Rank": 774,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 317
     }
   }
 }

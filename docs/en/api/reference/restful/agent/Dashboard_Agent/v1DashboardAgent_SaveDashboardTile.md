@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 767,
-  "Caption": "rerum",
-  "Description": "Optimized regional knowledge user",
-  "ChartName": "McLaughlin, Dietrich and Gusikowski",
-  "ChartId": "magnam",
-  "IsDefault": true,
-  "AssociateId": 15,
-  "GroupId": 895,
-  "SelectionId": 865,
-  "Config": "minima",
+  "DashboardTileId": 281,
+  "Caption": "vel",
+  "Description": "Monitored even-keeled product",
+  "ChartName": "Mosciski-Nader",
+  "ChartId": "tenetur",
+  "IsDefault": false,
+  "AssociateId": 742,
+  "GroupId": 7,
+  "SelectionId": 730,
+  "Config": "voluptates",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Larkin-Balistreri",
-      "Description": "Business-focused user-facing throughput",
+      "Name": "Stoltenberg-Nader",
+      "Description": "Intuitive static capability",
       "Type": "Boolean",
-      "ListName": "Wiegand-Prosacco",
+      "ListName": "Kling, Grimes and Stokes",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sed",
+      "Value": "repudiandae",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 39,
+      "VisibleId": 195,
       "Visibility": "All",
-      "DisplayValue": "recusandae"
+      "DisplayValue": "at"
     },
     {
-      "VisibleId": 39,
+      "VisibleId": 195,
       "Visibility": "All",
-      "DisplayValue": "recusandae"
+      "DisplayValue": "at"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 493,
-  "Caption": "maiores",
-  "Description": "Compatible analyzing definition",
-  "ChartName": "Lind, Strosin and Parker",
-  "ChartId": "corrupti",
+  "DashboardTileId": 867,
+  "Caption": "minima",
+  "Description": "Configurable empowering data-warehouse",
+  "ChartName": "Zieme-Miller",
+  "ChartId": "sit",
   "IsDefault": true,
-  "AssociateId": 663,
-  "GroupId": 419,
-  "SelectionId": 5,
-  "Config": "magnam",
+  "AssociateId": 565,
+  "GroupId": 795,
+  "SelectionId": 61,
+  "Config": "nesciunt",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Mertz, Halvorson and Prosacco",
-      "Description": "Inverse grid-enabled installation",
+      "Name": "Cartwright, Spinka and Halvorson",
+      "Description": "Reverse-engineered web-enabled workforce",
       "Type": "Boolean",
-      "ListName": "O'Keefe, Franecki and Terry",
+      "ListName": "Kozey, Lehner and Lebsack",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "molestiae",
-      "DefaultDataOption": false,
+      "Value": "non",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 562
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 702,
+      "VisibleId": 652,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 323
         }
       }
     },
     {
-      "VisibleId": 702,
+      "VisibleId": 652,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 323
         }
       }
     }

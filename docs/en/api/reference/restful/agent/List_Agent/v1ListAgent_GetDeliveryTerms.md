@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 337,
-    "Value": "illum",
-    "Tooltip": "voluptatem",
+    "Id": 11,
+    "Value": "repudiandae",
+    "Tooltip": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldLength": 874
       }
     }
   },
   {
-    "Id": 337,
-    "Value": "illum",
-    "Tooltip": "voluptatem",
+    "Id": 11,
+    "Value": "repudiandae",
+    "Tooltip": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldLength": 874
       }
     }
   }

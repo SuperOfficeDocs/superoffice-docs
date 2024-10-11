@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 786,
-  "Name": "Feeney, Gutmann and Bahringer",
-  "Description": "Right-sized impactful access",
-  "WelcomeMessage": "sunt",
+  "ChatTopicId": 57,
+  "Name": "Kub Inc and Sons",
+  "Description": "Horizontal assymetric toolset",
+  "WelcomeMessage": "totam",
   "Language": null,
-  "LastAccept": "2009-11-10T04:02:06.3530464+01:00",
-  "SecondsPrAccept": 760,
-  "AlertRecipient": "et",
+  "LastAccept": "2006-08-23T03:44:57.0940238+02:00",
+  "SecondsPrAccept": 754,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "dolorem",
+  "BadgeHeader": "reiciendis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "occaecati",
-  "WarnNewChatMinutes": 332,
-  "WarnManagerNewChatMinutes": 438,
+  "CustomQueueText": "eos",
+  "WarnNewChatMinutes": 586,
+  "WarnManagerNewChatMinutes": 120,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 265,
-  "WarnManagerChatMessageMinutes": 732,
+  "WarnChatMessageMinutes": 126,
+  "WarnManagerChatMessageMinutes": 359,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 709,
-  "OfflineFormQueueLength": 763,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "OfflineFormTimeLimit": 618,
+  "OfflineFormQueueLength": 530,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   },
   "_Links": {

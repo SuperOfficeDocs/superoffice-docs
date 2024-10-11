@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 848
+  "ProductId": 976
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 31,
-  "ERPProductKey": "accusantium",
-  "ERPPriceListKey": "iusto",
-  "Name": "Huel LLC",
-  "Description": "Progressive homogeneous moratorium",
-  "Code": "perferendis",
-  "PriceUnit": "ipsum",
-  "QuantityUnit": "repellat",
-  "IsSubscription": false,
-  "SubscriptionUnit": "odio",
-  "DefaultSubscriptionQuantity": 9226.496,
-  "ItemNumber": "936773",
+  "ProductId": 204,
+  "ERPProductKey": "consectetur",
+  "ERPPriceListKey": "ratione",
+  "Name": "Goyette-Gutmann",
+  "Description": "Inverse motivating array",
+  "Code": "voluptas",
+  "PriceUnit": "non",
+  "QuantityUnit": "eum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "non",
+  "DefaultSubscriptionQuantity": 7129.8499999999995,
+  "ItemNumber": "995510",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eaque",
-  "ProductTypeKey": "laboriosam",
-  "VAT": 17415.638,
-  "VATInfo": "numquam",
-  "UnitCost": 14739.202,
-  "UnitMinimumPrice": 23599.02,
-  "UnitListPrice": 18484.332,
-  "InAssortment": true,
-  "Supplier": "sequi",
+  "ProductFamilyKey": "nostrum",
+  "ProductTypeKey": "est",
+  "VAT": 17550.399999999998,
+  "VATInfo": "dolor",
+  "UnitCost": 10784.094,
+  "UnitMinimumPrice": 11928.003999999999,
+  "UnitListPrice": 24501.612,
+  "InAssortment": false,
+  "Supplier": "non",
   "SupplierCode": "est",
-  "Rights": "laudantium",
-  "Rule": "dignissimos",
+  "Rights": "earum",
+  "Rule": "voluptatem",
   "ExtraInfo": [
     {
-      "Name": "Robel-Tillman",
-      "Value": "earum",
+      "Name": "Ziemann Inc and Sons",
+      "Value": "accusantium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldLength": 69
         }
       }
     },
     {
-      "Name": "Robel-Tillman",
-      "Value": "earum",
+      "Name": "Ziemann Inc and Sons",
+      "Value": "accusantium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldLength": 69
         }
       }
     }
   ],
-  "RawExtraInfo": "iure",
-  "ExtraField1": "quisquam",
-  "ExtraField2": "reiciendis",
-  "ExtraField3": "voluptate",
-  "ExtraField4": "dolores",
-  "ExtraField5": "consequuntur",
-  "InStock": 21850.248,
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "aut",
+  "ExtraField2": "et",
+  "ExtraField3": "autem",
+  "ExtraField4": "mollitia",
+  "ExtraField5": "et",
+  "InStock": 15566.578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldLength": 690
     }
   }
 }

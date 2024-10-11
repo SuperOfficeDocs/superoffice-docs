@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 854,
+  "TargetYear": 237,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 817,
-  "Year": 26,
+  "TargetGroupId": 938,
+  "Year": 869,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 268,
+      "TargetAssignmentInfoId": 201,
       "Values": [
-        727,
-        636
+        127,
+        487
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 194,
-      "DimensionListItemDisplayName": "Murazik, Bailey and Toy",
+      "DimensionListItem": 68,
+      "DimensionListItemDisplayName": "Roberts-Eichmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 464
+          "FieldLength": 456
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

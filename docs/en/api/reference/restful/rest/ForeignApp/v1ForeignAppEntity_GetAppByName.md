@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 13 Feb 2017 04:02:06 G2T
+Last-Modified: Mon, 26 Sep 2005 03:44:57 G9T
 
 {
-  "ForeignAppId": 846,
-  "Name": "Bartoletti, Gaylord and Keebler",
-  "CreatedDate": "2003-04-12T04:02:06.6191478+02:00",
-  "UpdatedDate": "2017-02-13T04:02:06.6191478+01:00",
+  "ForeignAppId": 400,
+  "Name": "Walter Inc and Sons",
+  "CreatedDate": "2010-12-07T03:44:57.359003+01:00",
+  "UpdatedDate": "2005-09-26T03:44:57.359003+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 730,
-      "Name": "Haag Group",
-      "CreatedDate": "2022-09-02T04:02:06.6191478+02:00",
-      "UpdatedDate": "2021-04-21T04:02:06.6191478+02:00",
-      "AssociateFullName": "Dr. Ole Olin Steuber",
-      "CreatedBy": "pariatur",
-      "UpdatedBy": "dolor",
-      "DeviceIdentifier": "officiis",
-      "ForeignAppId": 680,
+      "ForeignDeviceId": 639,
+      "Name": "Hettinger, Schmidt and Hand",
+      "CreatedDate": "2010-12-13T03:44:57.359003+01:00",
+      "UpdatedDate": "1999-03-24T03:44:57.359003+01:00",
+      "AssociateFullName": "Bradford Kling V",
+      "CreatedBy": "sunt",
+      "UpdatedBy": "ipsam",
+      "DeviceIdentifier": "explicabo",
+      "ForeignAppId": 504,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 943
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Mon, 13 Feb 2017 04:02:06 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 387
+      "FieldType": "System.Int32",
+      "FieldLength": 400
     }
   }
 }

@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    744,
-    465
+    259,
+    371
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 192,
-    "MessageId": "a",
-    "Subject": "repellat",
+    "ServerId": 709,
+    "MessageId": "dolorem",
+    "Subject": "officiis",
     "From": null,
     "To": [
       {
-        "ContactId": 923,
-        "ContactName": "Reichert-Orn",
-        "PersonId": 879,
-        "PersonName": "Prohaska-Homenick",
-        "AssociateId": 9,
-        "Address": "minima",
-        "EmailId": 979,
+        "ContactId": 784,
+        "ContactName": "Wisozk LLC",
+        "PersonId": 851,
+        "PersonName": "Wunsch Group",
+        "AssociateId": 910,
+        "Address": "in",
+        "EmailId": 4,
         "DuplicatePersonIds": [
-          572,
-          389
+          863,
+          683
         ],
-        "Name": "Hand, Heidenreich and Cronin",
+        "Name": "Wiza Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 174
           }
         }
       }
     ],
-    "Sent": "2018-12-22T04:02:01.7373708+01:00",
+    "Sent": "2000-02-11T03:44:52.5896202+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 45,
+    "Size": 572,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 436
+        "FieldLength": 244
       }
     }
   }

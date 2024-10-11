@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Yost LLC",
-    "ToolTip": "Voluptatem magnam quibusdam doloribus.",
+    "Id": 421,
+    "Name": "Haley Inc and Sons",
+    "ToolTip": "Incidunt consequatur.",
     "Deleted": false,
-    "Rank": 290,
-    "Type": "dignissimos",
-    "ColorBlock": 260,
-    "IconHint": "et",
+    "Rank": 207,
+    "Type": "accusamus",
+    "ColorBlock": 87,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2013-01-05T04:02:07.2597065+01:00",
+    "LastChanged": "2023-03-29T03:44:58.0000211+02:00",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Funk, Considine and Veum",
-        "ToolTip": "Tempore qui animi voluptate optio.",
+        "Id": 924,
+        "Name": "Ebert, Prosacco and Braun",
+        "ToolTip": "Voluptas ea quia nostrum beatae consequuntur inventore et.",
         "Deleted": true,
-        "Rank": 243,
-        "Type": "in",
-        "ColorBlock": 101,
-        "IconHint": "vel",
+        "Rank": 493,
+        "Type": "qui",
+        "ColorBlock": 531,
+        "IconHint": "deleniti",
         "Selected": true,
-        "LastChanged": "2018-08-09T04:02:07.2597065+02:00",
+        "LastChanged": "2015-07-26T03:44:58.0000211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "repudiandae",
-        "Hidden": false,
-        "FullName": "Felicita Schultz"
+        "ExtraInfo": "quos",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Francis Lang"
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "et",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Norris Gottlieb"
+    "FullName": "Ezra Lester Franecki Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Hagenes Group",
-    "ToolTip": "Repellendus itaque ratione sunt sunt ut eum.",
+    "Id": 225,
+    "Name": "Boehm Inc and Sons",
+    "ToolTip": "Qui itaque voluptatem ducimus nobis.",
     "Deleted": false,
-    "Rank": 207,
-    "Type": "quia",
-    "ColorBlock": 190,
-    "IconHint": "vel",
+    "Rank": 52,
+    "Type": "dolorum",
+    "ColorBlock": 757,
+    "IconHint": "doloribus",
     "Selected": true,
-    "LastChanged": "2010-04-15T04:02:07.2597065+02:00",
+    "LastChanged": "2006-05-13T03:44:58.0156476+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Mann, Reynolds and Walsh",
-        "ToolTip": "Odit assumenda quam quisquam doloremque inventore nobis dolores.",
-        "Deleted": false,
-        "Rank": 102,
-        "Type": "voluptatem",
-        "ColorBlock": 518,
-        "IconHint": "fuga",
-        "Selected": true,
-        "LastChanged": "2024-06-07T04:02:07.2597065+02:00",
+        "Id": 706,
+        "Name": "Haag-Ortiz",
+        "ToolTip": "Error aperiam nobis dignissimos ab amet.",
+        "Deleted": true,
+        "Rank": 577,
+        "Type": "at",
+        "ColorBlock": 435,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "1999-05-30T03:44:58.0156476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "architecto",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Mertie Conn",
+        "FullName": "Amie Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 221
+            "FieldType": "System.String",
+            "FieldLength": 791
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "sed",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Mya Carole Stehr I",
+    "FullName": "Arturo Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 849
       }
     }
   }

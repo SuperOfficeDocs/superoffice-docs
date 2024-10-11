@@ -101,29 +101,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 790,
-  "ParentId": 268,
-  "Name": "Schmeler-Kerluke",
-  "Fullname": "alias",
-  "CategoryMaster": 551,
+  "TicketCategoryId": 663,
+  "ParentId": 713,
+  "Name": "Stehr-Johns",
+  "Fullname": "iusto",
+  "CategoryMaster": 991,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Turner Inc and Sons",
+  "ExternalName": "Maggio Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 567,
-  "ReplyTemplate": 179,
-  "NotificationEmail": "hailee_hyatt@goodwin.ca",
+  "AssignmentLag": 233,
+  "ReplyTemplate": 218,
+  "NotificationEmail": "doyle_schumm@marquardt.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 525,
+  "EffectiveReplyTemplateId": 828,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "eos"
+    "CustomFields1": "ut",
+    "CustomFields2": "ratione"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 905,
-  "ParentId": 162,
-  "Name": "Ankunding Group",
-  "Fullname": "non",
-  "CategoryMaster": 603,
+  "TicketCategoryId": 298,
+  "ParentId": 200,
+  "Name": "Rutherford Group",
+  "Fullname": "facere",
+  "CategoryMaster": 864,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Walsh, Casper and Kulas",
+  "ExternalName": "Morissette LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 390,
-  "ReplyTemplate": 510,
-  "NotificationEmail": "alden.nader@homenick.biz",
+  "AssignmentLag": 992,
+  "ReplyTemplate": 601,
+  "NotificationEmail": "isadore.stroman@kulas.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 263,
+  "EffectiveReplyTemplateId": 80,
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "error"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "doloremque"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "rerum",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldType": "System.String",
+      "FieldLength": 452
     }
   }
 }

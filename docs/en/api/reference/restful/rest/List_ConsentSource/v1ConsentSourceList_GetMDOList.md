@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=temporibus
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
+GET /api/v1/List/ConsentSource/MDOItems?query=corporis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 163,
-    "Name": "Shanahan Group",
-    "ToolTip": "Illo ut sit.",
+    "Id": 131,
+    "Name": "Dibbert, Heller and Kuvalis",
+    "ToolTip": "Cum nobis enim qui quo velit maxime ex.",
     "Deleted": false,
-    "Rank": 525,
-    "Type": "praesentium",
+    "Rank": 536,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Langosh Inc and Sons",
-        "ToolTip": "Velit ab enim asperiores quidem sunt harum.",
-        "Deleted": true,
-        "Rank": 287,
-        "Type": "non",
+        "Id": 827,
+        "Name": "Cremin-Schmitt",
+        "ToolTip": "Doloremque dolore aut adipisci.",
+        "Deleted": false,
+        "Rank": 973,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 76,
-        "ExtraInfo": "maxime",
-        "StyleHint": "culpa",
-        "FullName": "Phyllis Koelpin",
+        "IconHint": "odit",
+        "ColorBlock": 810,
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "similique",
+        "FullName": "Dillan Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 911
+            "FieldType": "System.String",
+            "FieldLength": 247
           }
         }
       }
     ],
-    "IconHint": "molestias",
-    "ColorBlock": 347,
-    "ExtraInfo": "vel",
-    "StyleHint": "et",
-    "FullName": "Katrina Kuphal",
+    "IconHint": "rerum",
+    "ColorBlock": 573,
+    "ExtraInfo": "in",
+    "StyleHint": "expedita",
+    "FullName": "Mr. Krista Dahlia Wuckert II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldType": "System.String",
+        "FieldLength": 862
       }
     }
   }

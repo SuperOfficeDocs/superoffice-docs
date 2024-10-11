@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=06/15/2022 04:02:08
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/26/2002 04:02:08
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=824
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=01/27/2002 03:44:59
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/16/2006 03:44:59
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=802
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 908,
-  "ERPPriceListKey": "adipisci",
-  "QuoteConnectionId": 832,
-  "Name": "Kiehn Inc and Sons",
-  "Description": "Function-based exuding help-desk",
-  "Currency": "nesciunt",
-  "CurrencyName": "Ondricka, Padberg and Rolfson",
-  "ValidFrom": "2011-10-12T04:02:07.3065765+02:00",
-  "ValidTo": "1997-08-10T04:02:07.3065765+02:00",
+  "PriceListId": 963,
+  "ERPPriceListKey": "est",
+  "QuoteConnectionId": 389,
+  "Name": "Dickens Group",
+  "Description": "Team-oriented modular alliance",
+  "Currency": "et",
+  "CurrencyName": "Lynch Inc and Sons",
+  "ValidFrom": "2000-09-17T03:44:58.0468534+02:00",
+  "ValidTo": "2013-11-04T03:44:58.0468534+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldLength": 212
     }
   }
 }

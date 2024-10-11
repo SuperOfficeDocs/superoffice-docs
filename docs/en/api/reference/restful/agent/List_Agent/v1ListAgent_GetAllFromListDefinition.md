@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 685,
+  "UdListDefinitionId": 580,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Goldner Group",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "UdListDefinitionId": 986,
-    "Rank": 235,
+    "Id": 9,
+    "Name": "Pollich LLC",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 722,
+    "Rank": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldLength": 394
       }
     }
   }

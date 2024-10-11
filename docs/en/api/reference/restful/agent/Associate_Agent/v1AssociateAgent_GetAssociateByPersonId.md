@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 984
+  "PersonId": 429
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 1001,
-  "Name": "Schuster Inc and Sons",
-  "PersonId": 243,
-  "Rank": 127,
-  "Tooltip": "rerum",
+  "AssociateId": 586,
+  "Name": "Orn-Johnston",
+  "PersonId": 881,
+  "Rank": 796,
+  "Tooltip": "adipisci",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 41,
-  "FullName": "Dayton Rau",
-  "FormalName": "Hodkiewicz-Schultz",
-  "Deleted": true,
-  "EjUserId": 935,
-  "UserName": "Paucek Group",
+  "GroupIdx": 664,
+  "FullName": "Delfina Pagac",
+  "FormalName": "Krajcik, Gleason and Kunde",
+  "Deleted": false,
+  "EjUserId": 366,
+  "UserName": "Donnelly Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 400
     }
   }
 }

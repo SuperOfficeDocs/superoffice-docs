@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "O'Conner Inc and Sons",
+  "TaskName": "Effertz Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Medhurst Inc and Sons",
-    "AssociateId": 359,
-    "DetailsTable": 258,
-    "DetailsRecord": 171,
+    "Id": 221,
+    "Name": "Rolfson LLC",
+    "AssociateId": 198,
+    "DetailsTable": 768,
+    "DetailsRecord": 833,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "assumenda",
-      "ParameterObject2": "hic"
+      "ParameterObject1": "repudiandae",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2008-03-26T04:02:01.2374146+01:00",
-    "Created": "1999-07-13T04:02:01.2374146+02:00",
-    "StartCount": 107,
-    "DatabaseSerialNumber": "1104618",
-    "Context": "sit",
-    "Result": "dolor",
+    "LastStarted": "2023-10-22T03:44:52.0740137+02:00",
+    "Created": "2005-02-15T03:44:52.0740137+01:00",
+    "StartCount": 777,
+    "DatabaseSerialNumber": "588672",
+    "Context": "iusto",
+    "Result": "similique",
     "State": "All",
-    "Description": "Managed upward-trending adapter",
-    "Response": "autem",
-    "Request": "et",
-    "ProgressDescription": "Fundamental needs-based moratorium",
-    "ProgressPercent": 269,
-    "FileName": "Roob LLC",
+    "Description": "Visionary executive orchestration",
+    "Response": "distinctio",
+    "Request": "dolores",
+    "ProgressDescription": "Operative multimedia strategy",
+    "ProgressPercent": 764,
+    "FileName": "Fahey-Zieme",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

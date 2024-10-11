@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 631,
-  "AppointmentId": 737,
-  "ProjectId": 133,
-  "SaleId": 723,
+  "DocumentId": 276,
+  "AppointmentId": 684,
+  "ProjectId": 769,
+  "SaleId": 844,
   "Archived": false,
-  "ArchivedAt": "2019-05-15T04:02:01.706124+02:00",
-  "ArchivedBy": 178,
-  "ArchivedDisplayName": "Marquardt Group",
+  "ArchivedAt": "2002-11-09T03:44:52.5583726+01:00",
+  "ArchivedBy": 949,
+  "ArchivedDisplayName": "Gutmann, Tremblay and Heller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldType": "System.Int32",
+      "FieldLength": 33
     }
   }
 }

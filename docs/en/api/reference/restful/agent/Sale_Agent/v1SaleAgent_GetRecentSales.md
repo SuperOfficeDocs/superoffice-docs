@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 331,
-  "Count": 92
+  "AmountLimit": 420,
+  "Count": 228
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Runolfsdottir-Hagenes",
-    "SaleDate": "2022-05-24T04:02:02.28488+02:00",
-    "SaleId": 139,
-    "Probability": 643,
-    "Title": "voluptas",
-    "Amount": 11191.514,
-    "Currency": "enim",
-    "ProjectName": "Jewess Inc and Sons",
-    "AssociateFullName": "Romaine Carter",
-    "Description": "Centralized static success",
+    "ContactName": "Rutherford-Dibbert",
+    "SaleDate": "2019-03-08T03:44:53.136845+01:00",
+    "SaleId": 377,
+    "Probability": 566,
+    "Title": "dolorum",
+    "Amount": 3785.872,
+    "Currency": "aut",
+    "ProjectName": "Mitchell LLC",
+    "AssociateFullName": "Micah Stroman",
+    "Description": "Decentralized zero defect implementation",
     "Status": "Lost",
-    "WeightedAmount": 18923.092,
-    "ProjectId": 646,
-    "EarningPercent": 1711.164,
-    "Earning": 6847.79,
-    "ContactId": 529,
-    "AssociateId": 274,
-    "PersonId": 843,
-    "SaleTypeId": 412,
-    "SaleTypeName": "Weimann Inc and Sons",
-    "PersonFullName": "Allene Anderson",
+    "WeightedAmount": 5650.602,
+    "ProjectId": 441,
+    "EarningPercent": 3043.114,
+    "Earning": 14967.984,
+    "ContactId": 512,
+    "AssociateId": 176,
+    "PersonId": 355,
+    "SaleTypeId": 286,
+    "SaleTypeName": "Turner, Bins and Gibson",
+    "PersonFullName": "Kaylah Mueller DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 937,
-    "NextDueDate": "2000-03-30T04:02:02.28488+02:00",
-    "Number": "365531",
+    "ActiveErpLinks": 42,
+    "NextDueDate": "2000-03-22T03:44:53.136845+01:00",
+    "Number": "1114308",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldType": "System.Int32",
+        "FieldLength": 82
       }
     }
   }

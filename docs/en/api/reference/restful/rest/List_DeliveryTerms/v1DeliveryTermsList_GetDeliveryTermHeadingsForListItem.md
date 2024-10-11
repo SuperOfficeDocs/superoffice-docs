@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Wilkinson Inc and Sons",
-    "ToolTip": "Sunt minus.",
-    "Deleted": false,
-    "Rank": 784,
-    "Type": "aliquid",
-    "ColorBlock": 993,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2018-02-13T04:02:07.2284604+01:00",
+    "Id": 621,
+    "Name": "Harvey LLC",
+    "ToolTip": "Ut nisi harum molestias.",
+    "Deleted": true,
+    "Rank": 414,
+    "Type": "eum",
+    "ColorBlock": 849,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2016-10-02T03:44:57.9843605+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Homenick LLC",
-        "ToolTip": "Enim consectetur itaque illum quisquam saepe.",
-        "Deleted": true,
-        "Rank": 856,
-        "Type": "fuga",
-        "ColorBlock": 337,
-        "IconHint": "quasi",
+        "Id": 864,
+        "Name": "Wolf, Wisoky and Lang",
+        "ToolTip": "Aliquam sit commodi rerum quidem et ab.",
+        "Deleted": false,
+        "Rank": 250,
+        "Type": "ea",
+        "ColorBlock": 770,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2007-02-01T04:02:07.2284604+01:00",
+        "LastChanged": "2012-12-05T03:44:57.9843605+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Kianna Cassin",
+        "ExtraInfo": "impedit",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Mrs. Carroll Renner MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldLength": 225
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "doloremque",
-    "Hidden": false,
-    "FullName": "Ernestine Krajcik II",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Miss Carlos Tromp Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 824
+        "FieldLength": 92
       }
     }
   }

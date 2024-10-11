@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 870
+  "ProjectId": 877
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 441,
-  "BlobSize": 544,
-  "Description": "Integrated empowering matrices",
-  "ExtraInfo": "et",
+  "BlobId": 544,
+  "BlobSize": 872,
+  "Description": "Profound dedicated workforce",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "hic",
-  "OriginalSize": 220,
-  "CreatedDate": "2005-12-08T04:02:01.2374146+01:00",
-  "UpdatedDate": "2003-06-13T04:02:01.2374146+02:00",
+  "MimeType": "laboriosam",
+  "OriginalSize": 41,
+  "CreatedDate": "2011-04-07T03:44:52.0896371+02:00",
+  "UpdatedDate": "2010-02-05T03:44:52.0896371+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "praesentium",
+  "ConceptualType": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

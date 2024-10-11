@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 76,
-    "ColumnId": 431,
-    "FieldDefault": "omnis",
-    "FieldHeight": 698,
-    "FieldLabel": "quam",
-    "FieldLeft": 453,
-    "FieldTop": 431,
+    "UDefFieldId": 456,
+    "ColumnId": 352,
+    "FieldDefault": "est",
+    "FieldHeight": 871,
+    "FieldLabel": "harum",
+    "FieldLeft": 32,
+    "FieldTop": 827,
     "FieldType": "Checkbox",
-    "FieldWidth": 162,
-    "FormatMask": "rerum",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 830,
-    "LabelLeft": 125,
-    "LabelTop": 12,
-    "LabelWidth": 990,
-    "LastVersionId": 996,
-    "ListTableId": 566,
+    "FieldWidth": 959,
+    "FormatMask": "exercitationem",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 185,
+    "LabelLeft": 730,
+    "LabelTop": 374,
+    "LabelWidth": 454,
+    "LastVersionId": 514,
+    "ListTableId": 14,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 847,
-    "ProgId": "dolorum",
+    "Page1LineNo": 879,
+    "ProgId": "autem",
     "IsReadOnly": false,
-    "ShortLabel": "corrupti",
-    "TabOrder": 986,
-    "TextLength": 971,
-    "Tooltip": "ut",
-    "UdefIdentity": 18,
-    "UDListDefinitionId": 602,
+    "ShortLabel": "maiores",
+    "TabOrder": 684,
+    "TextLength": 232,
+    "Tooltip": "fugit",
+    "UdefIdentity": 305,
+    "UDListDefinitionId": 710,
     "Justification": "Center",
-    "Version": 626,
-    "TemplateVariableName": "Pollich, Stiedemann and Brakus",
+    "Version": 137,
+    "TemplateVariableName": "Pouros Group",
     "HasBeenPublished": false,
-    "MdoListName": "Runolfsdottir Inc and Sons",
+    "MdoListName": "Jerde-Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 776
       }
     }
   }

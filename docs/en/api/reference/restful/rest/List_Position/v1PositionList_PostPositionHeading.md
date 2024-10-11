@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 131,
-  "Name": "Mohr-O'Keefe",
-  "Tooltip": "ratione",
+  "HeadingId": 84,
+  "Name": "O'Conner Group",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 389,
-  "UdListDefinitionId": 978
+  "Rank": 100,
+  "UdListDefinitionId": 708
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 365,
-  "Name": "Davis, Barton and West",
-  "Tooltip": "accusantium",
+  "HeadingId": 942,
+  "Name": "Little LLC",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 376,
-  "UdListDefinitionId": 795,
+  "Rank": 351,
+  "UdListDefinitionId": 151,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 138
     }
   }
 }

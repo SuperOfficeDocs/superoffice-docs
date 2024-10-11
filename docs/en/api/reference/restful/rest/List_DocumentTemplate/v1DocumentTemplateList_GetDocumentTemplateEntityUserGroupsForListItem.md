@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Eichmann, Rodriguez and Yost",
-    "ToolTip": "Perspiciatis minima sint est omnis qui.",
-    "Deleted": true,
-    "Rank": 598,
-    "Type": "nulla",
-    "ColorBlock": 650,
-    "IconHint": "distinctio",
-    "Selected": true,
-    "LastChanged": "2004-10-05T04:02:07.2440841+02:00",
+    "Id": 252,
+    "Name": "Armstrong Inc and Sons",
+    "ToolTip": "Minima necessitatibus officia molestiae laboriosam natus suscipit.",
+    "Deleted": false,
+    "Rank": 560,
+    "Type": "autem",
+    "ColorBlock": 577,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "1999-11-05T03:44:58.0000211+01:00",
     "ChildItems": [
       {
-        "Id": 739,
-        "Name": "Connelly, Connelly and Carroll",
-        "ToolTip": "Doloremque nisi impedit cupiditate nulla dolore.",
-        "Deleted": false,
-        "Rank": 982,
-        "Type": "qui",
-        "ColorBlock": 662,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "2006-09-02T04:02:07.2440841+02:00",
+        "Id": 254,
+        "Name": "Luettgen, Huels and Luettgen",
+        "ToolTip": "Enim provident ea neque et dolore quaerat natus.",
+        "Deleted": true,
+        "Rank": 157,
+        "Type": "et",
+        "ColorBlock": 412,
+        "IconHint": "animi",
+        "Selected": false,
+        "LastChanged": "2020-12-07T03:44:58.0000211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "unde",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Glenna Lind",
+        "FullName": "Mrs. Rickey Piper Weissnat Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 686
+            "FieldType": "System.Int32",
+            "FieldLength": 405
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "hic",
+    "StyleHint": "nostrum",
     "Hidden": true,
-    "FullName": "Mr. Dorcas Schmidt II",
+    "FullName": "Roberta Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 133
       }
     }
   }

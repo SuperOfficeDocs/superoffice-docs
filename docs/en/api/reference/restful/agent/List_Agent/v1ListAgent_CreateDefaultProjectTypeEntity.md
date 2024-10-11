@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 216,
-  "Name": "Conroy Group",
-  "Tooltip": "voluptates",
-  "Rank": 584,
+  "ProjTypeId": 48,
+  "Name": "Lang LLC",
+  "Tooltip": "ea",
+  "Rank": 562,
   "DurationUnit": "Century",
-  "ProjectDuration": 844,
+  "ProjectDuration": 345,
   "Deleted": false,
   "HasGuide": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 233,
-      "Name": "Bashirian LLC",
-      "ToolTip": "Perspiciatis itaque accusamus repellat numquam ut qui dolor.",
-      "Deleted": false,
-      "Rank": 727,
-      "Type": "aut",
-      "ColorBlock": 65,
-      "IconHint": "illum",
+      "Id": 129,
+      "Name": "Johnston Inc and Sons",
+      "ToolTip": "Eos quia culpa cupiditate officia est.",
+      "Deleted": true,
+      "Rank": 832,
+      "Type": "voluptas",
+      "ColorBlock": 541,
+      "IconHint": "facere",
       "Selected": false,
-      "LastChanged": "2006-08-30T04:02:01.8784808+02:00",
+      "LastChanged": "2005-07-07T03:44:52.7302252+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "harum",
-      "StyleHint": "dolor",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "dolorem",
       "Hidden": false,
-      "FullName": "Waldo Dicki",
+      "FullName": "Miss Sharon Raynor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldLength": 927
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldType": "System.Int32",
+      "FieldLength": 90
     }
   }
 }

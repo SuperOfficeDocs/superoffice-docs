@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quae",
+    "path": "eum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quae",
+    "path": "eum",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 571,
-  "Section": "voluptatem",
-  "Key": "vel",
-  "Name": "Heaney Group",
+  "PrefDescId": 631,
+  "Section": "ducimus",
+  "Key": "animi",
+  "Name": "Walker Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customizable bandwidth-monitored productivity",
-  "IsBuiltin": false,
-  "TableName": "Weimann Group",
-  "UserDefinedListId": 512,
-  "Rank": 453,
-  "SubGroup": "dolorem",
-  "MinLevel": 605,
-  "MaxValue": 700,
-  "MinValue": 340,
-  "RequiredLicense": "dolor",
+  "Description": "Synergized encompassing info-mediaries",
+  "IsBuiltin": true,
+  "TableName": "Hodkiewicz Inc and Sons",
+  "UserDefinedListId": 591,
+  "Rank": 547,
+  "SubGroup": "officia",
+  "MinLevel": 174,
+  "MaxValue": 741,
+  "MinValue": 699,
+  "RequiredLicense": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 136
     }
   },
   "_Links": {

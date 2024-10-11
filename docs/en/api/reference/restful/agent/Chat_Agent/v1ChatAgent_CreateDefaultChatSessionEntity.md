@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 622,
-  "TopicId": 136,
+  "ChatSessionId": 909,
+  "TopicId": 39,
   "User": null,
   "Person": null,
-  "CustomerAlias": "laboriosam",
-  "CustomerHost": "nulla",
-  "CustomerName": "Olson LLC",
-  "CustomerEmail": "rylee@considine.ca",
-  "CustomerPhone": "(012)615-7113",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Leuschke-Klocko",
+  "CustomerAlias": "modi",
+  "CustomerHost": "qui",
+  "CustomerName": "Parker LLC",
+  "CustomerEmail": "angeline.beatty@pfannerstill.com",
+  "CustomerPhone": "980-030-0295 x4401",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Fritsch, Weber and Jerde",
   "Status": "Closed",
-  "FirstMessage": "omnis",
-  "LastMessage": "fuga",
-  "WhenRequested": "2020-02-14T04:02:01.2530377+01:00",
-  "WhenStarted": "2000-12-26T04:02:01.2530377+01:00",
-  "WhenEnded": "2023-03-22T04:02:01.2530377+01:00",
-  "WhenIdle": "2013-05-06T04:02:01.2530377+02:00",
-  "WhenFetched": "2010-01-20T04:02:01.2530377+01:00",
-  "SessionKey": "soluta",
-  "InitialQueuePos": 210,
-  "AlertLevel": 62,
-  "Rank": 117,
+  "FirstMessage": "dolores",
+  "LastMessage": "hic",
+  "WhenRequested": "2002-09-28T03:44:52.1052607+02:00",
+  "WhenStarted": "2015-11-12T03:44:52.1052607+01:00",
+  "WhenEnded": "2004-08-27T03:44:52.1052607+02:00",
+  "WhenIdle": "2012-06-15T03:44:52.1052607+02:00",
+  "WhenFetched": "2000-03-31T03:44:52.1052607+02:00",
+  "SessionKey": "magni",
+  "InitialQueuePos": 874,
+  "AlertLevel": 525,
+  "Rank": 608,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 111,
+  "Rating": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 719
     }
   }
 }

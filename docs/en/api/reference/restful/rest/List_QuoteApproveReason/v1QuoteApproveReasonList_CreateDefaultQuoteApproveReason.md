@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 719,
-  "Name": "Walker Group",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "UdListDefinitionId": 648,
-  "Rank": 636,
+  "Id": 987,
+  "Name": "Kautzer Group",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "UdListDefinitionId": 961,
+  "Rank": 721,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 556
     }
   }
 }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kirlin-Cronin",
-  "DeviceName": "Borer, Bartoletti and Friesen",
-  "DeviceIdentifier": "natus"
+  "ApplicationName": "Pouros-McCullough",
+  "DeviceName": "O'Connell-Fay",
+  "DeviceIdentifier": "nihil"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 109,
-  "Name": "Lockman-Pfeffer",
-  "CreatedDate": "1997-07-03T04:02:01.7888547+02:00",
-  "UpdatedDate": "2013-02-10T04:02:01.7888547+01:00",
-  "AssociateFullName": "Jarvis Jakubowski",
-  "CreatedBy": "maiores",
-  "UpdatedBy": "non",
-  "DeviceIdentifier": "ullam",
-  "ForeignAppId": 106,
+  "ForeignDeviceId": 371,
+  "Name": "Pfannerstill, Kozey and Cole",
+  "CreatedDate": "2000-02-18T03:44:52.6521119+01:00",
+  "UpdatedDate": "2012-07-19T03:44:52.6521119+02:00",
+  "AssociateFullName": "Dr. Shanna Etha Hauck PhD",
+  "CreatedBy": "mollitia",
+  "UpdatedBy": "quis",
+  "DeviceIdentifier": "error",
+  "ForeignAppId": 810,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldType": "System.Int32",
+      "FieldLength": 807
     }
   }
 }

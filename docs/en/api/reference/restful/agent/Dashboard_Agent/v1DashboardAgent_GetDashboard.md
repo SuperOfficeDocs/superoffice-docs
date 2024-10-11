@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=985
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=72
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 245,
-  "AssociateId": 71,
-  "Caption": "sint",
+  "DashboardId": 114,
+  "AssociateId": 565,
+  "Caption": "in",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 490,
-      "Caption": "deleniti",
-      "Description": "Balanced intangible contingency",
-      "ChartName": "Senger-Bernier",
-      "ChartId": "nihil",
+      "DashboardTileId": 104,
+      "Caption": "error",
+      "Description": "Decentralized well-modulated knowledge user",
+      "ChartName": "Stehr LLC",
+      "ChartId": "ducimus",
       "IsDefault": false,
-      "AssociateId": 451,
-      "GroupId": 435,
-      "SelectionId": 198,
-      "Config": "earum",
+      "AssociateId": 319,
+      "GroupId": 981,
+      "SelectionId": 618,
+      "Config": "tempora",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 887
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 927
     }
   }
 }

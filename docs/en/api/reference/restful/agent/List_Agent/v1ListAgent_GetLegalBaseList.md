@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 826,
-    "Name": "Olson Inc and Sons",
-    "Tooltip": "ut",
-    "Rank": 124,
-    "Key": "quis",
-    "Deleted": false,
+    "LegalBaseId": 188,
+    "Name": "Hackett-Runte",
+    "Tooltip": "et",
+    "Rank": 570,
+    "Key": "cumque",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldType": "System.Int32",
+        "FieldLength": 185
       }
     }
   }

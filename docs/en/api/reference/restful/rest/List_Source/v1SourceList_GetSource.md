@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Murazik, Goldner and Ullrich",
-  "Tooltip": "eos",
+  "Id": 520,
+  "Name": "Monahan-White",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "UdListDefinitionId": 751,
-  "Rank": 912,
+  "UdListDefinitionId": 11,
+  "Rank": 454,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 111
+      "FieldLength": 672
     }
   }
 }

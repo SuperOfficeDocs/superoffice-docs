@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Bauch-Walter"
+  "LayoutName": "Rogahn Group"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 763,
-    "Name": "Schmitt, Wisozk and Gorczany",
-    "Value": "laborum",
-    "CreatedDate": "2013-06-18T04:02:01.221786+02:00",
-    "UpdatedDate": "2010-07-14T04:02:01.221786+02:00",
-    "CreatedBy": "quia",
-    "UpdatedBy": "et",
+    "AudienceLayoutId": 744,
+    "Name": "Ledner Group",
+    "Value": "aut",
+    "CreatedDate": "2003-04-30T03:44:52.0740137+02:00",
+    "UpdatedDate": "2012-04-30T03:44:52.0740137+02:00",
+    "CreatedBy": "saepe",
+    "UpdatedBy": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldLength": 472
       }
     }
   }

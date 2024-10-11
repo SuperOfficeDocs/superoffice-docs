@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Bailey-Streich",
-    "ToolTip": "Corporis enim porro est est.",
+    "Id": 867,
+    "Name": "Weissnat, Parker and Satterfield",
+    "ToolTip": "Ea ut vel fuga consequatur quae.",
     "Deleted": false,
-    "Rank": 345,
-    "Type": "quidem",
-    "ColorBlock": 363,
-    "IconHint": "numquam",
+    "Rank": 779,
+    "Type": "perferendis",
+    "ColorBlock": 796,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2002-10-31T04:02:07.2284604+01:00",
+    "LastChanged": "2004-10-10T03:44:57.9843605+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "O'Keefe, Sporer and Walsh",
-        "ToolTip": "Voluptas ut cupiditate impedit voluptatibus quibusdam voluptas eveniet.",
+        "Id": 429,
+        "Name": "Heaney, Braun and Orn",
+        "ToolTip": "Quaerat ullam sit ut minima.",
         "Deleted": false,
-        "Rank": 424,
-        "Type": "voluptatibus",
-        "ColorBlock": 91,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2002-12-09T04:02:07.2284604+01:00",
+        "Rank": 339,
+        "Type": "soluta",
+        "ColorBlock": 784,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2019-09-06T03:44:57.9843605+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "unde",
+        "ExtraInfo": "dolor",
+        "StyleHint": "voluptatum",
         "Hidden": true,
-        "FullName": "Claude Heidenreich"
+        "FullName": "Jaydon Yundt"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "ut",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Mariane Predovic"
+    "FullName": "Scot Batz IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Hoppe, VonRueden and Barrows",
-    "ToolTip": "Ipsum ut minus iste rerum eos.",
-    "Deleted": true,
-    "Rank": 48,
-    "Type": "ut",
-    "ColorBlock": 230,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2022-10-13T04:02:07.2284604+02:00",
+    "Id": 556,
+    "Name": "Upton Inc and Sons",
+    "ToolTip": "Omnis tenetur neque dignissimos.",
+    "Deleted": false,
+    "Rank": 646,
+    "Type": "dolore",
+    "ColorBlock": 205,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2016-05-23T03:44:57.9843605+02:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Orn-Murazik",
-        "ToolTip": "Et et possimus quis.",
+        "Id": 334,
+        "Name": "Schinner-Berge",
+        "ToolTip": "Dolorum blanditiis numquam.",
         "Deleted": false,
-        "Rank": 444,
-        "Type": "ea",
-        "ColorBlock": 517,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2011-03-19T04:02:07.2284604+01:00",
+        "Rank": 991,
+        "Type": "vel",
+        "ColorBlock": 15,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2019-05-10T03:44:57.9843605+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "ex",
+        "ExtraInfo": "rem",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Freddy Klocko DVM",
+        "FullName": "Naomi Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldType": "System.Int32",
+            "FieldLength": 868
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "ab",
+    "ExtraInfo": "in",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Ms. Roscoe Roberta Olson",
+    "FullName": "Austyn Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldLength": 907
       }
     }
   }

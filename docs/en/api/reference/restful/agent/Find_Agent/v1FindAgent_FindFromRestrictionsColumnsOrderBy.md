@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Gerhold, Hartmann and Dickinson",
-      "Operator": "ut",
+      "Name": "Zboncak LLC",
+      "Operator": "rem",
       "Values": [
-        "rerum",
-        "eum"
+        "at",
+        "ab"
       ],
       "DisplayValues": [
-        "reiciendis",
-        "soluta"
+        "eaque",
+        "perferendis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 972,
+      "InterParenthesis": 647,
       "InterOperator": "And",
-      "UniqueHash": 647
+      "UniqueHash": 100
     }
   ],
-  "ProviderName": "Sauer-Keeling",
+  "ProviderName": "Cartwright LLC",
   "DesiredColumns": [
     "qui",
-    "delectus"
+    "est"
   ],
   "OrderBy": [
     {
-      "Name": "Hermann-Welch",
+      "Name": "Parisian LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Hermann-Welch",
+      "Name": "Parisian LLC",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 879,
-  "PageNumber": 548
+  "PageSize": 680,
+  "PageNumber": 849
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Miller LLC",
-      "DisplayTooltip": "est",
-      "DisplayType": "eum",
+      "DisplayName": "Weissnat-Gleason",
+      "DisplayTooltip": "odio",
+      "DisplayType": "itaque",
       "CanOrderBy": false,
-      "Name": "Metz Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "sunt",
-      "RestrictionListName": "Reinger Group",
+      "Name": "Bergnaum-Shields",
+      "CanRestrictBy": true,
+      "RestrictionType": "ad",
+      "RestrictionListName": "Luettgen-Moore",
       "IsVisible": false,
-      "ExtraInfo": "at",
-      "Width": "molestias",
-      "IconHint": "saepe",
-      "HeadingIconHint": "harum"
+      "ExtraInfo": "molestiae",
+      "Width": "alias",
+      "IconHint": "et",
+      "HeadingIconHint": "eum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Moore, Christiansen and Kihn",
-      "PrimaryKey": 692,
+      "EntityName": "Dooley-Heidenreich",
+      "PrimaryKey": 328,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eum",
-          "TooltipHint": "odio",
-          "LinkHint": "sint"
+          "DisplayValue": "dignissimos",
+          "TooltipHint": "nobis",
+          "LinkHint": "repudiandae"
         }
       },
-      "LinkHint": "laborum",
-      "StyleHint": "temporibus",
+      "LinkHint": "excepturi",
+      "StyleHint": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 829
         }
       }
     }
   ],
-  "RowCount": 288,
+  "RowCount": 620,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   }
 }

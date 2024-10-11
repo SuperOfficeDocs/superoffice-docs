@@ -26,7 +26,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=57
+POST /api/v1/Agents/Sale/GetSale?saleId=588
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Jacobson Group",
-  "SaleDate": "2000-10-23T04:02:02.2690772+02:00",
-  "SaleId": 372,
-  "Probability": 722,
-  "Title": "possimus",
-  "Amount": 5948.3319999999994,
-  "Currency": "reiciendis",
-  "ProjectName": "Beahan Group",
-  "AssociateFullName": "Ms. Myrl Mitchell V",
-  "Description": "Configurable executive moratorium",
+  "ContactName": "Howell Inc and Sons",
+  "SaleDate": "2024-03-23T03:44:53.1212215+01:00",
+  "SaleId": 834,
+  "Probability": 55,
+  "Title": "nihil",
+  "Amount": 971.54,
+  "Currency": "voluptate",
+  "ProjectName": "Collier, Stoltenberg and Okuneva",
+  "AssociateFullName": "Mr. Florian Eleazar Romaguera Sr.",
+  "Description": "Reactive responsive policy",
   "Status": "Lost",
-  "WeightedAmount": 10317.127999999999,
-  "ProjectId": 225,
-  "EarningPercent": 1513.722,
-  "Earning": 2989.836,
-  "ContactId": 911,
-  "AssociateId": 605,
-  "PersonId": 35,
-  "SaleTypeId": 51,
-  "SaleTypeName": "Hirthe-Gusikowski",
-  "PersonFullName": "Leonora Graham",
+  "WeightedAmount": 21771.898,
+  "ProjectId": 67,
+  "EarningPercent": 18352.703999999998,
+  "Earning": 3491.276,
+  "ContactId": 893,
+  "AssociateId": 915,
+  "PersonId": 324,
+  "SaleTypeId": 214,
+  "SaleTypeName": "Runolfsson, Moen and Roberts",
+  "PersonFullName": "Jaida Kip Farrell I",
   "Completed": "Completed",
-  "ActiveErpLinks": 71,
-  "NextDueDate": "2007-05-09T04:02:02.2690772+02:00",
-  "Number": "1566288",
+  "ActiveErpLinks": 947,
+  "NextDueDate": "2015-09-04T03:44:53.1212215+02:00",
+  "Number": "1460371",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 750
     }
   }
 }

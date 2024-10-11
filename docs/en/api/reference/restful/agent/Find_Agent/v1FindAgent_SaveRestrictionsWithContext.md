@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tempore",
-  "ProviderName": "Hermann Inc and Sons",
-  "StorageKey": "excepturi",
+  "StorageType": "dignissimos",
+  "ProviderName": "Ondricka, Hilll and Kautzer",
+  "StorageKey": "illum",
   "Restrictions": [
     {
-      "Name": "Little-Casper",
-      "Operator": "at",
+      "Name": "Oberbrunner Group",
+      "Operator": "molestiae",
       "Values": [
-        "eos",
-        "est"
+        "praesentium",
+        "maiores"
       ],
       "DisplayValues": [
-        "recusandae",
-        "repellendus"
+        "quae",
+        "sunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 320,
+      "InterParenthesis": 918,
       "InterOperator": "And",
-      "UniqueHash": 53
+      "UniqueHash": 846
     }
   ],
-  "Context": "rem"
+  "Context": "et"
 }
 ```
 

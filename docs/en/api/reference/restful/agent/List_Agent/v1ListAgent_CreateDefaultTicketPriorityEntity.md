@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 396,
-  "Name": "Gutkowski, Bradtke and Runte",
+  "TicketPriorityId": 353,
+  "Name": "Hermann Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 391,
+  "SortOrder": 960,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 415,
-  "MonStart": "2000-10-06T04:02:01.8784808+02:00",
-  "MonStop": "2016-02-06T04:02:01.8784808+01:00",
-  "TueStart": "2017-06-05T04:02:01.8784808+02:00",
-  "TueStop": "2020-11-26T04:02:01.8784808+01:00",
-  "WedStart": "2003-04-16T04:02:01.8784808+02:00",
-  "WedStop": "2018-07-20T04:02:01.8784808+02:00",
-  "ThuStart": "2008-08-15T04:02:01.8784808+02:00",
-  "ThuStop": "2008-06-29T04:02:01.8784808+02:00",
-  "FriStart": "2020-02-04T04:02:01.8784808+01:00",
-  "FriStop": "2020-10-02T04:02:01.8784808+02:00",
-  "SatStart": "2009-04-27T04:02:01.8784808+02:00",
-  "SatStop": "2023-12-31T04:02:01.8784808+01:00",
-  "SunStart": "2018-07-27T04:02:01.8784808+02:00",
-  "SunStop": "2011-10-17T04:02:01.8784808+02:00",
+  "Deadline": 891,
+  "MonStart": "2021-02-16T03:44:52.7458159+01:00",
+  "MonStop": "2003-11-05T03:44:52.7458159+01:00",
+  "TueStart": "2018-02-07T03:44:52.7458159+01:00",
+  "TueStop": "1998-04-18T03:44:52.7458159+02:00",
+  "WedStart": "2017-02-18T03:44:52.7458159+01:00",
+  "WedStop": "2000-12-17T03:44:52.7458159+01:00",
+  "ThuStart": "2018-06-28T03:44:52.7458159+02:00",
+  "ThuStop": "2004-10-30T03:44:52.7458159+02:00",
+  "FriStart": "2008-12-18T03:44:52.7458159+01:00",
+  "FriStop": "2021-09-14T03:44:52.7458159+02:00",
+  "SatStart": "2023-11-01T03:44:52.7458159+01:00",
+  "SatStop": "2003-09-20T03:44:52.7458159+02:00",
+  "SunStart": "1998-02-27T03:44:52.7458159+01:00",
+  "SunStop": "2015-07-22T03:44:52.7458159+02:00",
   "NonDates": [
-    "eos",
-    "officia"
+    "et",
+    "reprehenderit"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 202,
-      "AlertLevel": 633,
-      "AlertTimeout": 790,
-      "Action": 618,
-      "DelegateTo": 986,
-      "ScriptId": 315,
-      "EmailTo": "nathanial_streich@fritschflatley.name",
-      "SmsTo": "possimus",
-      "ReplyTemplateIdCustomer": 922,
-      "ReplyTemplateIdUser": 176,
-      "ReplyTemplateIdCatmast": 380,
-      "ReplyTemplateIdEmail": 513,
-      "RtiCustomerSms": 615,
-      "ReplyTemplateIdUserSms": 56,
-      "ReplyTemplateIdCatmastSms": 760,
-      "ReplyTemplateIdSms": 210,
+      "TicketAlertId": 395,
+      "AlertLevel": 557,
+      "AlertTimeout": 23,
+      "Action": 454,
+      "DelegateTo": 249,
+      "ScriptId": 614,
+      "EmailTo": "constantin@boyle.uk",
+      "SmsTo": "sit",
+      "ReplyTemplateIdCustomer": 52,
+      "ReplyTemplateIdUser": 303,
+      "ReplyTemplateIdCatmast": 666,
+      "ReplyTemplateIdEmail": 817,
+      "RtiCustomerSms": 88,
+      "ReplyTemplateIdUserSms": 28,
+      "ReplyTemplateIdCatmastSms": 333,
+      "ReplyTemplateIdSms": 977,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 75
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

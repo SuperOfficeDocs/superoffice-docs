@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Jones-Keebler"
+  "ApplicationName": "Satterfield-Cassin"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 533,
-  "Name": "Bednar-Gutmann",
-  "CreatedDate": "2017-04-09T04:02:01.8003604+02:00",
-  "UpdatedDate": "2013-04-19T04:02:01.8003604+02:00",
-  "AssociateFullName": "Melany Molly Flatley PhD",
-  "CreatedBy": "cum",
-  "UpdatedBy": "rerum",
-  "DeviceIdentifier": "repellendus",
-  "ForeignAppId": 57,
+  "ForeignDeviceId": 273,
+  "Name": "Kohler-Zboncak",
+  "CreatedDate": "2006-08-13T03:44:52.6521119+02:00",
+  "UpdatedDate": "2015-05-30T03:44:52.6521119+02:00",
+  "AssociateFullName": "Danika Krajcik",
+  "CreatedBy": "qui",
+  "UpdatedBy": "sit",
+  "DeviceIdentifier": "corporis",
+  "ForeignAppId": 363,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 608
+      "FieldType": "System.Int32",
+      "FieldLength": 422
     }
   }
 }

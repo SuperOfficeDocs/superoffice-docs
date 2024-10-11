@@ -84,16 +84,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 987,
-  "VersionId": "eum",
+  "DocumentId": 973,
+  "VersionId": "voluptas",
   "AllowedReturnTypes": [
-    "architecto",
-    "labore"
+    "inventore",
+    "quia"
   ],
-  "Command": "fugit",
+  "Command": "harum",
   "AdditionalData": [
-    "possimus",
-    "et"
+    "repudiandae",
+    "quia"
   ]
 }
 ```
@@ -105,11 +105,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "rerum",
-  "VersionId": "ea",
+  "ExternalReference": "laudantium",
+  "VersionId": "tempora",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "ducimus",
-  "AdditionalInfo": "veniam"
+  "Value": "nulla",
+  "AdditionalInfo": "dolorum"
 }
 ```

@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hudson Inc and Sons",
-    "DisplayName": "Kemmer Group",
-    "Description": "Polarised intangible protocol",
-    "ShortLabel": "mollitia",
+    "FieldName": "Gibson, Jenkins and Gorczany",
+    "DisplayName": "Reinger Group",
+    "Description": "Synchronised national solution",
+    "ShortLabel": "consequuntur",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 726,
-    "TemplateVariableName": "Bergnaum, Wiza and Walker"
+    "IsDisplayField": true,
+    "Rank": 862,
+    "TemplateVariableName": "Nienow Inc and Sons"
   }
 ]
 ```

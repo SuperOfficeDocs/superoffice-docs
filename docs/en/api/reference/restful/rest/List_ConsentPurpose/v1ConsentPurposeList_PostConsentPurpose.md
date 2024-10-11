@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 579,
-  "Name": "Hoeger Inc and Sons",
-  "ConsentText": "unde",
-  "FormText": "et",
-  "Key": "repellat",
-  "Tooltip": "neque",
-  "Active": 805,
-  "UpdatedDate": "2000-12-26T04:02:07.1034721+01:00",
+  "ConsentPurposeId": 633,
+  "Name": "Adams-Stiedemann",
+  "ConsentText": "dolores",
+  "FormText": "dolores",
+  "Key": "et",
+  "Tooltip": "deleniti",
+  "Active": 840,
+  "UpdatedDate": "2019-09-26T03:44:57.9374899+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 228,
-  "PrivacyStatementDesc": "praesentium",
+  "Deleted": false,
+  "Rank": 100,
+  "PrivacyStatementDesc": "dolorem",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 961,
-  "Name": "Hoppe Inc and Sons",
-  "ConsentText": "eligendi",
-  "FormText": "dicta",
-  "Key": "aspernatur",
-  "Tooltip": "tempora",
-  "Active": 208,
-  "UpdatedDate": "1999-03-17T04:02:07.1034721+01:00",
+  "ConsentPurposeId": 183,
+  "Name": "Weimann, Torphy and Hudson",
+  "ConsentText": "dolores",
+  "FormText": "atque",
+  "Key": "eum",
+  "Tooltip": "itaque",
+  "Active": 724,
+  "UpdatedDate": "2009-03-24T03:44:57.9374899+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 455,
-  "PrivacyStatementDesc": "a",
+  "Rank": 250,
+  "PrivacyStatementDesc": "id",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

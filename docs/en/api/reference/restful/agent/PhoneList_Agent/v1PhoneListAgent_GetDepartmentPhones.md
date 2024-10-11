@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 850
+  "DepartmentId": 862
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-761-990-9351 x641",
-    "PersonCellPhone": "613.832.0883 x72271",
-    "PersonPrivatePhone": "(946)799-4877",
-    "PersonFaxNumber": "247703",
-    "PersonPagerNumber": "1542919",
-    "PersonEmail": "tyra@stammgutmann.co.uk",
-    "Id": 978,
-    "Name": "Gleason, Bogisich and Sauer",
-    "Tooltip": "modi",
-    "UniqueId": "consequatur",
+    "PersonDirectPhone": "(836)731-3073",
+    "PersonCellPhone": "497-668-3484",
+    "PersonPrivatePhone": "1-039-863-9572 x55507",
+    "PersonFaxNumber": "926737",
+    "PersonPagerNumber": "440806",
+    "PersonEmail": "elisa_hegmann@murray.com",
+    "Id": 195,
+    "Name": "Swaniawski, Halvorson and Witting",
+    "Tooltip": "soluta",
+    "UniqueId": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldType": "System.String",
+        "FieldLength": 573
       }
     }
   }

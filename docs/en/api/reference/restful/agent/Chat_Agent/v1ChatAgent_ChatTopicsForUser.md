@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 217,
-    "Name": "Boyle, Ledner and Lynch",
-    "Description": "Up-sized regional paradigm",
-    "WelcomeMessage": "et",
+    "ChatTopicId": 15,
+    "Name": "Welch LLC",
+    "Description": "Inverse content-based projection",
+    "WelcomeMessage": "commodi",
     "Language": null,
-    "LastAccept": "2003-09-02T04:02:01.3936477+02:00",
-    "SecondsPrAccept": 134,
-    "AlertRecipient": "ut",
+    "LastAccept": "2004-06-21T03:44:52.2459049+02:00",
+    "SecondsPrAccept": 504,
+    "AlertRecipient": "veniam",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "autem",
+    "CollectConsent": true,
+    "BadgeHeader": "eos",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "non",
-    "WarnNewChatMinutes": 159,
-    "WarnManagerNewChatMinutes": 69,
+    "CustomQueueText": "est",
+    "WarnNewChatMinutes": 169,
+    "WarnManagerNewChatMinutes": 242,
     "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 744,
-    "WarnManagerChatMessageMinutes": 312,
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 761,
+    "WarnManagerChatMessageMinutes": 490,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 173,
-    "OfflineFormQueueLength": 310,
+    "OfflineFormTimeLimit": 285,
+    "OfflineFormQueueLength": 528,
     "WidgetEnableRating": true,
-    "WidgetRatingText": "similique",
+    "WidgetRatingText": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 746
+        "FieldType": "System.Int32",
+        "FieldLength": 193
       }
     }
   }

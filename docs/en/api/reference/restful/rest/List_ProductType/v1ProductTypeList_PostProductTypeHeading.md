@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 868,
-  "Name": "Oberbrunner LLC",
-  "Tooltip": "esse",
+  "HeadingId": 998,
+  "Name": "Hane Group",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 885,
-  "UdListDefinitionId": 547
+  "Rank": 836,
+  "UdListDefinitionId": 171
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 573,
-  "Name": "Huels Group",
-  "Tooltip": "aut",
+  "HeadingId": 753,
+  "Name": "Bergnaum-Gutmann",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 312,
-  "UdListDefinitionId": 129,
+  "Rank": 548,
+  "UdListDefinitionId": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

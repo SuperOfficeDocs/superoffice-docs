@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "commodi",
-  "ProviderName": "Kunde LLC",
-  "PageSize": 321,
-  "PageNumber": 1002
+  "Restrictions": "labore",
+  "ProviderName": "Wuckert Inc and Sons",
+  "PageSize": 494,
+  "PageNumber": 660
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Maggio-Reynolds",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "dignissimos",
+      "DisplayName": "Runolfsson-Weber",
+      "DisplayTooltip": "debitis",
+      "DisplayType": "dolore",
       "CanOrderBy": false,
-      "Name": "Mueller, Mertz and Kuvalis",
-      "CanRestrictBy": false,
-      "RestrictionType": "animi",
-      "RestrictionListName": "Rosenbaum LLC",
+      "Name": "Champlin, Heidenreich and Doyle",
+      "CanRestrictBy": true,
+      "RestrictionType": "minus",
+      "RestrictionListName": "Kertzmann Group",
       "IsVisible": false,
-      "ExtraInfo": "facilis",
-      "Width": "nostrum",
-      "IconHint": "officia",
-      "HeadingIconHint": "ea"
+      "ExtraInfo": "unde",
+      "Width": "qui",
+      "IconHint": "quaerat",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Weimann-Terry",
-      "PrimaryKey": 593,
+      "EntityName": "Schumm, Boehm and Bayer",
+      "PrimaryKey": 925,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "qui",
-          "LinkHint": "ut"
+          "DisplayValue": "animi",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "quia"
         }
       },
-      "LinkHint": "vel",
-      "StyleHint": "et",
+      "LinkHint": "vero",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 344
         }
       }
     }
   ],
-  "RowCount": 573,
+  "RowCount": 823,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 231
     }
   }
 }

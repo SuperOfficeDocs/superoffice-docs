@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Olson-Yundt",
-  "DeviceName": "Leuschke LLC",
-  "DeviceIdentifier": "quibusdam",
-  "KeyName": "Kuhic LLC",
-  "KeyValue": "cupiditate",
-  "TableName": "Collier-Skiles"
+  "ApplicationName": "Keeling-Bergstrom",
+  "DeviceName": "Friesen-Ondricka",
+  "DeviceIdentifier": "blanditiis",
+  "KeyName": "Bode, Ebert and Gottlieb",
+  "KeyValue": "dolorum",
+  "TableName": "Spencer LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "deserunt",
-  "RecordId": 293,
-  "CreatedDate": "2001-11-16T04:02:01.8003604+01:00",
-  "UpdatedDate": "1997-06-02T04:02:01.8003604+02:00",
-  "UpdatedBy": "unde",
-  "CreatedBy": "atque",
-  "TableName": "Ankunding-Spinka",
+  "Key": "sit",
+  "Value": "aliquam",
+  "RecordId": 972,
+  "CreatedDate": "2000-07-06T03:44:52.6521119+02:00",
+  "UpdatedDate": "2000-02-01T03:44:52.6521119+01:00",
+  "UpdatedBy": "sit",
+  "CreatedBy": "accusantium",
+  "TableName": "Corwin Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 186
+      "FieldLength": 600
     }
   }
 }

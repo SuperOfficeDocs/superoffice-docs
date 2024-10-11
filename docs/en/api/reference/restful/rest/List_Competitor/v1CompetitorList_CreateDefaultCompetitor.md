@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 259,
-  "Name": "Schulist-Carter",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "UdListDefinitionId": 307,
-  "Rank": 537,
+  "Id": 507,
+  "Name": "Hudson-Hirthe",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 894,
+  "Rank": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 824
     }
   }
 }

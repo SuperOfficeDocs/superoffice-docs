@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 907,
-  "Name": "Torphy Inc and Sons",
-  "Tooltip": "distinctio",
-  "Rank": 452,
-  "Rate": 22395.564,
-  "Units": 14958.582,
+  "CurrencyId": 1001,
+  "Name": "Kuhlman-Wisoky",
+  "Tooltip": "maiores",
+  "Rank": 642,
+  "Rate": 27739.034,
+  "Units": 13140.862,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 864
     }
   }
 }

@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 85,
-  "StartTime": "1998-11-07T04:02:00.986941+01:00",
-  "EndTime": "2023-11-21T04:02:00.986941+01:00",
-  "Count": 608,
+  "ProjectId": 872,
+  "StartTime": "2008-03-01T03:44:51.8396645+01:00",
+  "EndTime": "2011-09-16T03:44:51.8396645+02:00",
+  "Count": 512,
   "TaskIds": [
-    525,
-    727
+    174,
+    810
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 392,
-    "StartDate": "2002-02-06T04:02:00.986941+01:00",
-    "EndDate": "2005-06-20T04:02:00.986941+02:00",
+    "AppointmentId": 552,
+    "StartDate": "1998-08-19T03:44:51.8396645+02:00",
+    "EndDate": "2008-06-07T03:44:51.8396645+02:00",
     "Type": "BookingForChecklist",
-    "Task": "praesentium",
-    "AssociateFullName": "Therese Schaefer",
-    "ContactName": "Quitzon Group",
-    "Description": "Compatible 3rd generation process improvement",
-    "PersonFullName": "Johanna Metz",
-    "PersonId": 874,
-    "ContactId": 923,
-    "ProjectId": 539,
-    "ProjectName": "Konopelski-Volkman",
+    "Task": "illum",
+    "AssociateFullName": "Neal Kreiger",
+    "ContactName": "Yundt Group",
+    "Description": "Customer-focused context-sensitive firmware",
+    "PersonFullName": "Arlie Cassin",
+    "PersonId": 818,
+    "ContactId": 591,
+    "ProjectId": 623,
+    "ProjectName": "Satterfield, Strosin and Reinger",
     "IsPublished": false,
-    "AssociateId": 836,
-    "ColorIndex": 165,
-    "IsFree": true,
+    "AssociateId": 982,
+    "ColorIndex": 333,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 553,
-    "PriorityName": "Buckridge Group",
+    "PriorityId": 737,
+    "PriorityName": "Baumbach-Ratke",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2001-11-24T04:02:00.986941+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2002-05-05T03:44:51.8396645+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-10-10T04:02:00.986941+02:00",
-    "RecurringEndDate": "2016-01-23T04:02:00.986941+01:00",
-    "MotherId": 616,
-    "AssignedBy": 965,
-    "AssignedByFullName": "Dr. Kasandra Muller II",
+    "RecurringStartDate": "2013-08-21T03:44:51.8396645+02:00",
+    "RecurringEndDate": "2011-11-02T03:44:51.8396645+01:00",
+    "MotherId": 882,
+    "AssignedBy": 133,
+    "AssignedByFullName": "Penelope Vandervort",
     "RejectReason": "",
-    "Location": "officiis",
-    "AlarmLeadTime": "autem",
-    "SaleId": 681,
-    "SaleName": "Hane-Jones",
-    "AssociateName": "Greenfelder-Gaylord",
-    "CreatedDate": "2007-09-01T04:02:00.986941+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Gerald Kub",
-    "CreatedByAssociateId": 712,
+    "Location": "quo",
+    "AlarmLeadTime": "alias",
+    "SaleId": 784,
+    "SaleName": "Kris, Legros and Funk",
+    "AssociateName": "Dickens, Lynch and Weissnat",
+    "CreatedDate": "2011-03-19T03:44:51.8396645+01:00",
+    "CreatedBy": "repellendus",
+    "CreatedByFullName": "Miss Norris Jude Goodwin DVM",
+    "CreatedByAssociateId": 436,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 338,
-    "Title": "iusto",
-    "Agenda": "aperiam",
-    "InternalNotes": "fugit",
+    "PreferredTZLocation": 769,
+    "Title": "aut",
+    "Agenda": "atque",
+    "InternalNotes": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldType": "System.String",
+        "FieldLength": 430
       }
     }
   }

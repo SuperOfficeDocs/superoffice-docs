@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 398
+  "SaleId": 675
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 834,
-  "SaleId": 488,
-  "QuoteConnectionId": 820,
-  "ERPQuoteKey": "quis",
-  "ERPOrderKey": "sunt",
-  "ActiveQuoteVersionId": 390,
-  "AcceptedQuoteAlternativeId": 905,
-  "UseValuesFromQuote": 3,
-  "DocumentId": 109,
-  "PoNumber": "1258020",
-  "OrderComment": "culpa",
-  "PreferredEmailCulture": "elyse_effertz@dach.us",
+  "QuoteId": 517,
+  "SaleId": 354,
+  "QuoteConnectionId": 517,
+  "ERPQuoteKey": "repellat",
+  "ERPOrderKey": "in",
+  "ActiveQuoteVersionId": 232,
+  "AcceptedQuoteAlternativeId": 810,
+  "UseValuesFromQuote": 243,
+  "DocumentId": 53,
+  "PoNumber": "659949",
+  "OrderComment": "omnis",
+  "PreferredEmailCulture": "ken_rohan@hilpert.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 752,
-      "ERPQuoteVersionKey": "accusantium",
-      "QuoteId": 609,
-      "Description": "Ameliorated leading edge array",
-      "Number": "428210",
+      "QuoteVersionId": 511,
+      "ERPQuoteVersionKey": "aut",
+      "QuoteId": 546,
+      "Description": "Team-oriented zero tolerance toolset",
+      "Number": "1853020",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 255,
-      "SentDate": "2003-04-03T04:02:02.2065837+02:00",
-      "FollowupId": 984,
-      "ExpirationDate": "2023-08-05T04:02:02.2065837+02:00",
-      "DeliveryCountryId": 458,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 724,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "omnis",
-      "ERPPaymentTypeKey": "quia",
-      "ERPDeliveryTermsKey": "similique",
-      "ERPDeliveryTypeKey": "aut",
-      "Rank": 244,
-      "ApprovedBy": 397,
-      "ApprovedText": "officia",
-      "ApprovedRegisteredBy": 228,
-      "ApprovedRegisteredDate": "2000-12-11T04:02:02.2065837+01:00",
-      "ExtraField1": "rerum",
-      "ExtraField2": "delectus",
-      "ExtraField3": "tenetur",
-      "ExtraField4": "ut",
-      "ExtraField5": "corrupti",
-      "LastRecalculated": "2012-09-10T04:02:02.2065837+02:00",
-      "Updated": "2019-04-21T04:02:02.2065837+02:00",
-      "UpdatedAssociateId": 411,
-      "Registered": "2020-12-19T04:02:02.2065837+01:00",
-      "RegisteredAssociateId": 460,
-      "RequestAssociateId": 441,
-      "RequestComment": "mollitia",
+      "LikelyQuoteAlternativeId": 584,
+      "SentDate": "2021-09-25T03:44:53.0583181+02:00",
+      "FollowupId": 416,
+      "ExpirationDate": "2016-04-09T03:44:53.0583181+02:00",
+      "DeliveryCountryId": 933,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 206,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "praesentium",
+      "ERPPaymentTypeKey": "reprehenderit",
+      "ERPDeliveryTermsKey": "sed",
+      "ERPDeliveryTypeKey": "qui",
+      "Rank": 34,
+      "ApprovedBy": 171,
+      "ApprovedText": "et",
+      "ApprovedRegisteredBy": 318,
+      "ApprovedRegisteredDate": "2020-01-02T03:44:53.0583181+01:00",
+      "ExtraField1": "ab",
+      "ExtraField2": "non",
+      "ExtraField3": "aperiam",
+      "ExtraField4": "id",
+      "ExtraField5": "vel",
+      "LastRecalculated": "2017-05-11T03:44:53.0583181+02:00",
+      "Updated": "2001-06-29T03:44:53.0583181+02:00",
+      "UpdatedAssociateId": 667,
+      "Registered": "2007-04-06T03:44:53.0583181+02:00",
+      "RegisteredAssociateId": 489,
+      "RequestAssociateId": 325,
+      "RequestComment": "dignissimos",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldLength": 640
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 626
     }
   }
 }

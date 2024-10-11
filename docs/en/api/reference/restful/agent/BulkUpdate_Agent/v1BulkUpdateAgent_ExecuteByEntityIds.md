@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -80,27 +80,27 @@ Content-Type: application/json; charset=utf-8
       "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "aut",
-      "ValueType": "ratione",
+      "IsActive": false,
+      "Key": "dicta",
+      "ValueType": "omnis",
       "Mandatory": false,
-      "EncodedDisplayName": "O'Hara-Swift",
-      "EncodedDisplayDescription": "Innovative disintermediate matrices",
-      "IconHint": "pariatur",
+      "EncodedDisplayName": "Hilpert, Funk and Rath",
+      "EncodedDisplayDescription": "Profit-focused cohesive secured line",
+      "IconHint": "soluta",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "sapiente",
-      "EncodedDataCaptionDescription": "Reverse-engineered scalable product",
-      "CurrentOperationType": "autem",
+      "EncodedDataCaption": "veniam",
+      "EncodedDataCaptionDescription": "Mandatory foreground service-desk",
+      "CurrentOperationType": "quae",
       "Values": [
-        "distinctio",
-        "et"
+        "ut",
+        "aperiam"
       ],
       "DisplayValues": [
-        "id",
-        "perspiciatis"
+        "quis",
+        "cum"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Fritsch LLC",
-  "Context": "sapiente",
-  "Ids": "natus"
+  "TableName": "Stracke-Hilll",
+  "Context": "illum",
+  "Ids": "eveniet"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-294
+451
 ```

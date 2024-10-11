@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=456
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=883
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 298,
-  "Name": "Hackett Group",
-  "Tooltip": "aperiam",
-  "Rank": 88,
+  "SaleTypeId": 675,
+  "Name": "Nolan-Treutel",
+  "Tooltip": "tempore",
+  "Rank": 202,
   "DurationUnit": "Century",
-  "SaleDuration": 524,
-  "SaleTypeCatId": 572,
-  "Deleted": false,
+  "SaleDuration": 522,
+  "SaleTypeCatId": 659,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 918,
-  "QuoteLinesTemplate": 935,
-  "ConfirmationLinesTemplate": 516,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 116,
+  "QuoteLinesTemplate": 662,
+  "ConfirmationLinesTemplate": 964,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 988,
-  "MinEarningPercent": 687,
-  "GroupQuoteLinesBy": 106,
-  "SortGroupLinesBy": 843,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 573,
+  "MinEarningPercent": 908,
+  "GroupQuoteLinesBy": 157,
+  "SortGroupLinesBy": 121,
   "Stages": [
     {
-      "Id": 200,
-      "Name": "Gerlach Inc and Sons",
-      "ToolTip": "Vel molestiae impedit facilis distinctio vitae a.",
+      "Id": 894,
+      "Name": "Deckow-Mayer",
+      "ToolTip": "Quas ratione laudantium impedit corporis asperiores.",
       "Deleted": false,
-      "Rank": 815,
-      "Type": "dolores",
-      "ColorBlock": 907,
-      "IconHint": "veritatis",
+      "Rank": 280,
+      "Type": "dolor",
+      "ColorBlock": 234,
+      "IconHint": "nemo",
       "Selected": false,
-      "LastChanged": "2008-10-18T04:02:01.8316108+02:00",
+      "LastChanged": "2011-10-15T03:44:52.6833552+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "minima",
-      "Hidden": true,
-      "FullName": "Lynn O'Hara I",
+      "ExtraInfo": "sed",
+      "StyleHint": "eius",
+      "Hidden": false,
+      "FullName": "Keira Schmitt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldType": "System.Int32",
+          "FieldLength": 371
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 67,
-  "Name": "Howell LLC",
-  "Tooltip": "et",
-  "Rank": 863,
+  "SuggestedAppointmentId": 126,
+  "Name": "Kulas LLC",
+  "Tooltip": "fugit",
+  "Rank": 389,
   "Deleted": false,
-  "DaysFuture": 669,
-  "Duration": "voluptatem",
-  "AutoSuggest": false,
+  "DaysFuture": 549,
+  "Duration": "consequatur",
+  "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "accusantium",
+  "Text": "voluptas",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldLength": 906
     }
   }
 }

@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quis",
-  "ProviderName": "Grimes, Dietrich and Maggio",
-  "StorageKey": "commodi",
-  "Restrictions": "maxime",
-  "StaticColumns": "minima"
+  "StorageType": "consequatur",
+  "ProviderName": "Block-Dickinson",
+  "StorageKey": "doloremque",
+  "Restrictions": "quae",
+  "StaticColumns": "ut"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Sawayn-Wilkinson",
-      "Operator": "magni",
+      "Name": "Romaguera, Bradtke and Jacobson",
+      "Operator": "voluptas",
       "Values": [
-        "blanditiis",
-        "ut"
+        "aut",
+        "quia"
       ],
       "DisplayValues": [
-        "praesentium",
-        "ut"
+        "quos",
+        "eaque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 948,
+      "InterParenthesis": 99,
       "InterOperator": "And",
-      "UniqueHash": 688
+      "UniqueHash": 525
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Spinka, Buckridge and Schoen",
-      "DisplayTooltip": "quisquam",
-      "DisplayType": "officia",
+      "DisplayName": "Kling, Wilderman and Hilpert",
+      "DisplayTooltip": "tempore",
+      "DisplayType": "magni",
       "CanOrderBy": false,
-      "Name": "Gerhold-Dare",
+      "Name": "Langworth Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "quibusdam",
-      "RestrictionListName": "Mante, Weissnat and Stehr",
+      "RestrictionType": "non",
+      "RestrictionListName": "Farrell-Grady",
       "IsVisible": false,
-      "ExtraInfo": "molestiae",
-      "Width": "aliquid",
-      "IconHint": "ab",
-      "HeadingIconHint": "vel"
+      "ExtraInfo": "consequatur",
+      "Width": "vel",
+      "IconHint": "non",
+      "HeadingIconHint": "perspiciatis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Heaney LLC",
-      "PrimaryKey": 857,
+      "EntityName": "Jones LLC",
+      "PrimaryKey": 698,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sit",
-          "TooltipHint": "et",
-          "LinkHint": "deleniti"
+          "DisplayValue": "sed",
+          "TooltipHint": "autem",
+          "LinkHint": "a"
         }
       },
-      "LinkHint": "nisi",
-      "StyleHint": "veritatis",
+      "LinkHint": "dolor",
+      "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 247
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Smitham Group",
-      "Description": "Pre-emptive assymetric core",
-      "Rank": 11,
+      "Name": "Crist, Wilderman and Cronin",
+      "Description": "Triple-buffered hybrid moratorium",
+      "Rank": 592,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Smitham Group",
-      "Description": "Pre-emptive assymetric core",
-      "Rank": 11,
+      "Name": "Crist, Wilderman and Cronin",
+      "Description": "Triple-buffered hybrid moratorium",
+      "Rank": 592,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 55
     }
   }
 }

@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Hyatt Inc and Sons",
-      "Description": "Networked optimal function",
-      "Rank": 592,
+      "Name": "Johnson Group",
+      "Description": "Networked zero administration monitoring",
+      "Rank": 681,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hyatt Inc and Sons",
-      "Description": "Networked optimal function",
-      "Rank": 592,
+      "Name": "Johnson Group",
+      "Description": "Networked zero administration monitoring",
+      "Rank": 681,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 702
     }
   }
 }

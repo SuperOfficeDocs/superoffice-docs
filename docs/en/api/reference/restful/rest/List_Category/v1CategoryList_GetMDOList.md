@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=distinctio
+GET /api/v1/List/Category/MDOItems?query=iste
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Bailey, Kilback and Shanahan",
-    "ToolTip": "Nobis maiores aut non facilis nihil sapiente.",
-    "Deleted": true,
-    "Rank": 638,
-    "Type": "est",
+    "Id": 265,
+    "Name": "Dooley, Considine and Jenkins",
+    "ToolTip": "Voluptates qui dolor aut quibusdam nesciunt necessitatibus facilis.",
+    "Deleted": false,
+    "Rank": 375,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Waters Group",
-        "ToolTip": "Maiores enim deserunt esse reprehenderit consequatur.",
-        "Deleted": false,
-        "Rank": 496,
-        "Type": "repudiandae",
+        "Id": 958,
+        "Name": "Bartell, Connelly and Jerde",
+        "ToolTip": "Ad ex quisquam veritatis autem in.",
+        "Deleted": true,
+        "Rank": 38,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illo",
-        "ColorBlock": 705,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "voluptatem",
-        "FullName": "Leonel Shields",
+        "IconHint": "illum",
+        "ColorBlock": 854,
+        "ExtraInfo": "dolore",
+        "StyleHint": "magnam",
+        "FullName": "Prof. Garett Chaim Zulauf DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 455
+            "FieldLength": 494
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 737,
-    "ExtraInfo": "animi",
-    "StyleHint": "quia",
-    "FullName": "Clara Mayert",
+    "IconHint": "cupiditate",
+    "ColorBlock": 665,
+    "ExtraInfo": "qui",
+    "StyleHint": "nesciunt",
+    "FullName": "Amie Graham III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldType": "System.String",
+        "FieldLength": 158
       }
     }
   }

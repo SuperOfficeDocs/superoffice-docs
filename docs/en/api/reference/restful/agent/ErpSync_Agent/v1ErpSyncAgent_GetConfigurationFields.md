@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 49
+  "ErpConnectorId": 823
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "numquam",
-    "Rank": 669,
-    "DisplayName": "Hermiston Inc and Sons",
-    "DisplayDescription": "Persistent neutral application",
+    "FieldKey": "ut",
+    "Rank": 51,
+    "DisplayName": "Schoen-Pouros",
+    "DisplayDescription": "Object-based executive protocol",
     "FieldType": "Checkbox",
-    "ListName": "Beier, Treutel and Reynolds",
-    "DefaultValue": "modi",
-    "MaxLength": 881,
+    "ListName": "Bechtelar-Satterfield",
+    "DefaultValue": "quam",
+    "MaxLength": 9,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 960
+        "FieldLength": 540
       }
     }
   }

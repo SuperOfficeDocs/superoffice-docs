@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 670,
-  "Name": "Toy LLC",
-  "CreatedDate": "2016-07-12T04:02:06.6191478+02:00",
-  "UpdatedDate": "2017-10-13T04:02:06.6191478+02:00",
+  "ForeignAppId": 615,
+  "Name": "Weber-Gibson",
+  "CreatedDate": "2013-08-02T03:44:57.359003+02:00",
+  "UpdatedDate": "2011-08-02T03:44:57.359003+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 838,
-      "Name": "Kutch, Beahan and O'Kon",
-      "CreatedDate": "2009-02-05T04:02:06.6191478+01:00",
-      "UpdatedDate": "2008-12-21T04:02:06.6191478+01:00",
-      "AssociateFullName": "Buddy Randi Jacobs DDS",
+      "ForeignDeviceId": 507,
+      "Name": "Monahan Group",
+      "CreatedDate": "2015-02-18T03:44:57.359003+01:00",
+      "UpdatedDate": "2011-11-29T03:44:57.359003+01:00",
+      "AssociateFullName": "Genoveva Batz",
       "CreatedBy": "aut",
-      "UpdatedBy": "unde",
-      "DeviceIdentifier": "suscipit",
-      "ForeignAppId": 585,
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "at",
+      "ForeignAppId": 830,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 54
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldLength": 550
     }
   },
   "_Links": {

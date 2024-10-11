@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 908,
-      "FieldName": "Ryan Inc and Sons",
-      "Label": "veritatis",
-      "Tooltip": "sapiente",
-      "Editable": true,
-      "InUse": true,
-      "Mandatory": true,
-      "Rank": 523,
+      "QuoteLineConfigurationId": 94,
+      "FieldName": "Torphy LLC",
+      "Label": "temporibus",
+      "Tooltip": "facere",
+      "Editable": false,
+      "InUse": false,
+      "Mandatory": false,
+      "Rank": 312,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 294,
-    "FieldName": "Bergstrom Group",
-    "Label": "voluptatem",
-    "Tooltip": "eaque",
+    "QuoteLineConfigurationId": 706,
+    "FieldName": "Schmeler LLC",
+    "Label": "itaque",
+    "Tooltip": "est",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 795,
-    "RestrictEdit": false,
+    "Rank": 935,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 583
+        "FieldType": "System.Int32",
+        "FieldLength": 225
       }
     }
   }

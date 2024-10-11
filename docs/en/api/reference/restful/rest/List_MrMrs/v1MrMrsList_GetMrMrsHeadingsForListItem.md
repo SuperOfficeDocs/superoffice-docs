@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Robel-Langosh",
-    "ToolTip": "Est optio.",
+    "Id": 341,
+    "Name": "Schultz, Harris and Rogahn",
+    "ToolTip": "Est nesciunt sit delectus sunt.",
     "Deleted": false,
-    "Rank": 336,
-    "Type": "sed",
-    "ColorBlock": 592,
-    "IconHint": "similique",
+    "Rank": 194,
+    "Type": "aut",
+    "ColorBlock": 802,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "1999-06-18T04:02:07.2753298+02:00",
+    "LastChanged": "2018-12-12T03:44:58.0156476+01:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Fritsch, Leuschke and Jacobs",
-        "ToolTip": "Ratione unde error.",
+        "Id": 867,
+        "Name": "Shields, Flatley and Stehr",
+        "ToolTip": "A et et recusandae.",
         "Deleted": false,
-        "Rank": 922,
-        "Type": "vel",
-        "ColorBlock": 460,
-        "IconHint": "nobis",
+        "Rank": 535,
+        "Type": "nostrum",
+        "ColorBlock": 757,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2020-07-14T04:02:07.2753298+02:00",
+        "LastChanged": "2021-03-24T03:44:58.0156476+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "totam",
+        "ExtraInfo": "non",
+        "StyleHint": "itaque",
         "Hidden": true,
-        "FullName": "Alden Baumbach",
+        "FullName": "Mrs. Sadye Hazle Ebert DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 469
+            "FieldLength": 8
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ratione",
-    "Hidden": true,
-    "FullName": "Prof. Alysson Stanton",
+    "ExtraInfo": "et",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Dr. Eldora Domenick Deckow PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 213
       }
     }
   }

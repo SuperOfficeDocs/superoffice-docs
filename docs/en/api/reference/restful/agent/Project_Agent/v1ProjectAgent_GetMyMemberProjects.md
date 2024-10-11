@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 368,
-    "Name": "Ankunding, Kirlin and Hahn",
-    "Description": "Public-key 4th generation protocol",
+    "ProjectId": 952,
+    "Name": "VonRueden-Reichel",
+    "Description": "Distributed object-oriented artificial intelligence",
     "URL": "http://www.example.com/",
-    "Type": "eaque",
-    "AssociateId": 936,
-    "AssociateFullName": "Gaetano Runolfsdottir",
-    "TypeId": 173,
-    "Updated": "2006-09-13T04:02:02.1597135+02:00",
-    "StatusId": 581,
-    "Status": "soluta",
-    "TextId": 728,
-    "PublishTo": "2014-06-25T04:02:02.1597135+02:00",
-    "PublishFrom": "2008-04-12T04:02:02.1597135+02:00",
+    "Type": "vel",
+    "AssociateId": 54,
+    "AssociateFullName": "Jeramie Connelly",
+    "TypeId": 777,
+    "Updated": "2016-01-04T03:44:53.0114471+01:00",
+    "StatusId": 99,
+    "Status": "et",
+    "TextId": 824,
+    "PublishTo": "2004-07-28T03:44:53.0114471+02:00",
+    "PublishFrom": "2020-12-20T03:44:53.0114471+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1489266",
-    "ActiveErpLinks": 484,
+    "ProjectNumber": "1490948",
+    "ActiveErpLinks": 183,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 183
       }
     }
   }

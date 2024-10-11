@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 386
+  "QuoteId": 643
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 235,
-    "ERPQuoteVersionKey": "placeat",
-    "QuoteId": 81,
-    "Description": "De-engineered client-driven model",
-    "Number": "899708",
+    "QuoteVersionId": 679,
+    "ERPQuoteVersionKey": "amet",
+    "QuoteId": 743,
+    "Description": "Horizontal human-resource policy",
+    "Number": "638794",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "scale sexy experiences",
-    "LikelyQuoteAlternativeId": 608,
-    "SentDate": "2020-11-29T04:02:02.1753367+01:00",
-    "FollowupId": 334,
-    "ExpirationDate": "2009-10-17T04:02:02.1753367+02:00",
-    "DeliveryCountryId": 969,
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 621,
+    "SentDate": "2003-08-03T03:44:53.042699+02:00",
+    "FollowupId": 672,
+    "ExpirationDate": "2005-09-07T03:44:53.042699+02:00",
+    "DeliveryCountryId": 302,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 44,
+    "InvoiceCountryId": 829,
     "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "ut",
-    "ERPPaymentTypeKey": "et",
-    "ERPDeliveryTermsKey": "veniam",
-    "ERPDeliveryTypeKey": "qui",
-    "Rank": 652,
-    "ApprovedBy": 227,
-    "ApprovedText": "velit",
-    "ApprovedRegisteredBy": 661,
-    "ApprovedRegisteredDate": "2002-07-04T04:02:02.1753367+02:00",
-    "ExtraField1": "accusantium",
-    "ExtraField2": "veniam",
-    "ExtraField3": "itaque",
-    "ExtraField4": "illo",
-    "ExtraField5": "quia",
-    "LastRecalculated": "1998-10-29T04:02:02.1753367+01:00",
-    "Updated": "2000-02-19T04:02:02.1753367+01:00",
-    "UpdatedAssociateId": 839,
-    "Registered": "2021-12-09T04:02:02.1753367+01:00",
-    "RegisteredAssociateId": 300,
-    "RequestAssociateId": 288,
-    "RequestComment": "voluptatum",
+    "ERPPaymentTermsKey": "aut",
+    "ERPPaymentTypeKey": "voluptatem",
+    "ERPDeliveryTermsKey": "nihil",
+    "ERPDeliveryTypeKey": "et",
+    "Rank": 641,
+    "ApprovedBy": 435,
+    "ApprovedText": "ut",
+    "ApprovedRegisteredBy": 80,
+    "ApprovedRegisteredDate": "2010-03-09T03:44:53.042699+01:00",
+    "ExtraField1": "est",
+    "ExtraField2": "tempora",
+    "ExtraField3": "provident",
+    "ExtraField4": "eos",
+    "ExtraField5": "et",
+    "LastRecalculated": "2013-04-29T03:44:53.042699+02:00",
+    "Updated": "2007-11-28T03:44:53.042699+01:00",
+    "UpdatedAssociateId": 919,
+    "Registered": "2005-12-17T03:44:53.042699+01:00",
+    "RegisteredAssociateId": 440,
+    "RequestAssociateId": 857,
+    "RequestComment": "unde",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 407,
-        "ERPQuoteAlternativeKey": "consequuntur",
-        "QuoteVersionId": 631,
-        "Name": "Boyle Inc and Sons",
-        "Description": "Distributed transitional synergy",
+        "QuoteAlternativeId": 999,
+        "ERPQuoteAlternativeKey": "id",
+        "QuoteVersionId": 458,
+        "Name": "Kozey, Kassulke and Deckow",
+        "Description": "Configurable bi-directional support",
         "Status": "Error",
-        "Reason": "recontextualize strategic channels",
-        "ERPDiscountPercent": 26892.854,
-        "ERPDiscountAmount": 27823.652,
-        "DiscountPercent": 26883.451999999997,
-        "DiscountAmount": 25730.14,
+        "Reason": "",
+        "ERPDiscountPercent": 11680.418,
+        "ERPDiscountAmount": 26632.732,
+        "DiscountPercent": 4045.9939999999997,
+        "DiscountAmount": 9188.887999999999,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "aut",
-        "VAT": 4895.308,
-        "EarningPercent": 855.582,
-        "EarningAmount": 20678.131999999998,
-        "SubTotal": 435.626,
-        "TotalPrice": 7355.498,
-        "ExtraField1": "id",
-        "ExtraField2": "quaerat",
-        "ExtraField3": "laborum",
-        "ExtraField4": "facere",
-        "ExtraField5": "placeat",
+        "VATInfo": "sed",
+        "VAT": 19418.264,
+        "EarningPercent": 31236.577999999998,
+        "EarningAmount": 13046.841999999999,
+        "SubTotal": 9417.67,
+        "TotalPrice": 24579.962,
+        "ExtraField1": "sint",
+        "ExtraField2": "voluptates",
+        "ExtraField3": "sit",
+        "ExtraField4": "dolor",
+        "ExtraField5": "blanditiis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 546
+            "FieldType": "System.Int32",
+            "FieldLength": 477
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 444
       }
     }
   }

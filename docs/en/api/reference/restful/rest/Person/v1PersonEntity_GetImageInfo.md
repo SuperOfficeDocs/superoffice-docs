@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 05 Oct 2016 04:02:06 G10T
+Last-Modified: Thu, 26 Nov 2009 03:44:57 G11T
 
 {
-  "BlobId": 529,
-  "BlobSize": 827,
-  "Description": "Switchable exuding benchmark",
-  "ExtraInfo": "aliquam",
+  "BlobId": 542,
+  "BlobSize": 766,
+  "Description": "Object-based neutral paradigm",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 946,
-  "CreatedDate": "2018-02-15T04:02:06.6972649+01:00",
-  "UpdatedDate": "2016-10-05T04:02:06.6972649+02:00",
+  "IsZipped": true,
+  "MimeType": "repellendus",
+  "OriginalSize": 784,
+  "CreatedDate": "2017-08-05T03:44:57.4416391+02:00",
+  "UpdatedDate": "2009-11-26T03:44:57.4416391+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "libero",
+  "ConceptualType": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 656
+      "FieldLength": 366
     }
   }
 }

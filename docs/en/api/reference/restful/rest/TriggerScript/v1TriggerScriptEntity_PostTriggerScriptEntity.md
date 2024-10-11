@@ -101,16 +101,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 315,
-  "Name": "Wilkinson, King and Hagenes",
+  "ScreenChooserId": 607,
+  "Name": "Kreiger-Rau",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "pariatur",
-  "Registered": "2016-12-11T04:02:06.9316148+01:00",
-  "RegisteredAssociateId": 824,
-  "Updated": "2002-11-07T04:02:06.9316148+01:00",
-  "UpdatedAssociateId": 62
+  "UniqueIdentifier": "debitis",
+  "Source": "assumenda",
+  "Registered": "2022-11-29T03:44:57.687517+01:00",
+  "RegisteredAssociateId": 303,
+  "Updated": "2009-03-11T03:44:57.687517+01:00",
+  "UpdatedAssociateId": 22
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 676,
-  "Name": "Pfeffer, Braun and Dickinson",
+  "ScreenChooserId": 183,
+  "Name": "Fahey, Wilderman and Stanton",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "debitis",
-  "Source": "quae",
-  "Registered": "1997-12-23T04:02:06.9316148+01:00",
-  "RegisteredAssociateId": 371,
-  "Updated": "2004-12-24T04:02:06.9316148+01:00",
-  "UpdatedAssociateId": 683,
+  "UniqueIdentifier": "itaque",
+  "Source": "et",
+  "Registered": "2007-06-21T03:44:57.687517+02:00",
+  "RegisteredAssociateId": 649,
+  "Updated": "1999-11-19T03:44:57.687517+01:00",
+  "UpdatedAssociateId": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 43
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

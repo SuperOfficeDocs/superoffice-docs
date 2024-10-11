@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kertzmann LLC",
-  "DeviceName": "Schaefer LLC",
-  "DeviceIdentifier": "quo"
+  "ApplicationName": "Hessel-Schamberger",
+  "DeviceName": "Morissette, Ernser and Glover",
+  "DeviceIdentifier": "qui"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 219,
-  "Name": "Kling, Kohler and Harber",
-  "CreatedDate": "1998-07-04T04:02:01.7888547+02:00",
-  "UpdatedDate": "1999-07-09T04:02:01.7888547+02:00",
-  "AssociateFullName": "Yessenia Jaskolski",
-  "CreatedBy": "sint",
-  "UpdatedBy": "ratione",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 398,
+  "ForeignDeviceId": 819,
+  "Name": "Bahringer-McKenzie",
+  "CreatedDate": "2023-08-11T03:44:52.6521119+02:00",
+  "UpdatedDate": "2002-09-30T03:44:52.6521119+02:00",
+  "AssociateFullName": "Ms. Ernesto Wuckert Sr.",
+  "CreatedBy": "et",
+  "UpdatedBy": "debitis",
+  "DeviceIdentifier": "est",
+  "ForeignAppId": 469,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldLength": 361
     }
   }
 }

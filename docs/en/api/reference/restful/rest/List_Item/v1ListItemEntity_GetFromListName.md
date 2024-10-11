@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "Tromp-Powlowski",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "UdListDefinitionId": 905,
-  "Rank": 836,
+  "Id": 58,
+  "Name": "Hermiston Group",
+  "Tooltip": "id",
+  "Deleted": true,
+  "UdListDefinitionId": 43,
+  "Rank": 202,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 302
     }
   }
 }

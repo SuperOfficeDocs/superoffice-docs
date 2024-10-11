@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 529,
-  "Name": "Erdman-Anderson",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 146,
+  "Id": 217,
+  "Name": "McKenzie, Lynch and Will",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "Rank": 239,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
+  "ListType": "iure",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Crist LLC",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 715,
+  "Id": 17,
+  "Name": "Yost-Daugherty",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 208,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
+  "ListType": "aliquid",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 812
     }
   }
 }

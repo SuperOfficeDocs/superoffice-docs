@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "Vandervort-Ankunding",
-    "ToolTip": "Hic et aut.",
+    "Id": 285,
+    "Name": "Rath Inc and Sons",
+    "ToolTip": "Consequuntur illo alias consectetur.",
     "Deleted": false,
-    "Rank": 402,
-    "Type": "maiores",
-    "ColorBlock": 465,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2013-11-12T04:02:07.3065765+01:00",
+    "Rank": 742,
+    "Type": "possimus",
+    "ColorBlock": 832,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "2000-11-10T03:44:58.062516+01:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Mraz-Greenholt",
-        "ToolTip": "Omnis ut officiis nostrum dolores aliquam voluptatem.",
-        "Deleted": true,
-        "Rank": 857,
-        "Type": "facere",
-        "ColorBlock": 529,
-        "IconHint": "quasi",
+        "Id": 903,
+        "Name": "Monahan Inc and Sons",
+        "ToolTip": "Dolor qui qui laudantium maxime eveniet et.",
+        "Deleted": false,
+        "Rank": 905,
+        "Type": "est",
+        "ColorBlock": 727,
+        "IconHint": "assumenda",
         "Selected": true,
-        "LastChanged": "1998-03-21T04:02:07.3065765+01:00",
+        "LastChanged": "2016-09-04T03:44:58.062516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Angelo Jaskolski",
+        "ExtraInfo": "rerum",
+        "StyleHint": "earum",
+        "Hidden": false,
+        "FullName": "Mrs. Nick Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 394
+            "FieldType": "System.Int32",
+            "FieldLength": 326
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "quas",
+    "ExtraInfo": "et",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Mrs. Guy Greenfelder II",
+    "FullName": "Stephanie Jayden Wunsch I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 787
       }
     }
   }

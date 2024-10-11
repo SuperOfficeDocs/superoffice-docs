@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 482,
-  "Name": "Berge-Auer",
+  "HeadingId": 391,
+  "Name": "Stark Inc and Sons",
   "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 857,
-  "UdListDefinitionId": 261
+  "Rank": 362,
+  "UdListDefinitionId": 618
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 294,
-  "Name": "Kihn Group",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "Rank": 907,
-  "UdListDefinitionId": 866,
+  "HeadingId": 383,
+  "Name": "Littel, Lang and Lebsack",
+  "Tooltip": "laudantium",
+  "Deleted": true,
+  "Rank": 21,
+  "UdListDefinitionId": 598,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 623
     }
   }
 }

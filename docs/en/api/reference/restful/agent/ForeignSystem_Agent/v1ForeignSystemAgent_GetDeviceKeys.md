@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Huels-Osinski",
-  "DeviceName": "Rolfson-Walker"
+  "ApplicationName": "Block, Haley and Rogahn",
+  "DeviceName": "Harber, Kozey and Price"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "at",
-    "Value": "ea",
-    "RecordId": 383,
-    "CreatedDate": "2021-12-28T04:02:01.8003604+01:00",
-    "UpdatedDate": "2014-07-31T04:02:01.8003604+02:00",
-    "UpdatedBy": "architecto",
-    "CreatedBy": "impedit",
-    "TableName": "Hamill LLC",
+    "Key": "eos",
+    "Value": "ut",
+    "RecordId": 179,
+    "CreatedDate": "2018-08-10T03:44:52.6521119+02:00",
+    "UpdatedDate": "2023-09-09T03:44:52.6521119+02:00",
+    "UpdatedBy": "minima",
+    "CreatedBy": "non",
+    "TableName": "Kohler, Veum and Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

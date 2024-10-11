@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
-  "Name": "Kub-Borer",
-  "Tooltip": "maxime",
+  "Id": 333,
+  "Name": "Bednar Inc and Sons",
+  "Tooltip": "nam",
   "Deleted": false,
-  "UdListDefinitionId": 221,
-  "Rank": 217
+  "UdListDefinitionId": 218,
+  "Rank": 754
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Christiansen Group",
-  "Tooltip": "eligendi",
+  "Id": 294,
+  "Name": "Anderson Inc and Sons",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "UdListDefinitionId": 799,
-  "Rank": 553,
+  "UdListDefinitionId": 682,
+  "Rank": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 741
     }
   }
 }

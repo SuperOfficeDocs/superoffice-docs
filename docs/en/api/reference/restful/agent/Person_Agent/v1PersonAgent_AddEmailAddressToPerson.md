@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 665,
-  "EmailAddress": "montana_ryan@rutherford.ca",
-  "SetAsPrimaryEmail": false
+  "PersonId": 235,
+  "EmailAddress": "fausto.pacocha@torpbarton.ca",
+  "SetAsPrimaryEmail": true
 }
 ```
 

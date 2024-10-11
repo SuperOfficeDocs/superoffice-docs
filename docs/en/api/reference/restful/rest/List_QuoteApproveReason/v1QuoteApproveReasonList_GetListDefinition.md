@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "Streich-Simonis",
-  "Tooltip": "consequatur",
+  "Id": 964,
+  "Name": "Smitham-Armstrong",
+  "Tooltip": "quas",
   "Deleted": true,
-  "Rank": 359,
+  "Rank": 297,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "ListType": "iste",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 764
     }
   },
   "_Links": {

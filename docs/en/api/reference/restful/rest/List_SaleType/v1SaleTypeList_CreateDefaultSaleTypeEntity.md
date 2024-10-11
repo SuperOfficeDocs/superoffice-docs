@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 368,
-  "Name": "Sauer, Douglas and Bechtelar",
-  "Tooltip": "illo",
-  "Rank": 968,
+  "SaleTypeId": 677,
+  "Name": "Steuber, Nicolas and Bradtke",
+  "Tooltip": "voluptatum",
+  "Rank": 859,
   "DurationUnit": "Century",
-  "SaleDuration": 458,
-  "SaleTypeCatId": 744,
-  "Deleted": false,
+  "SaleDuration": 215,
+  "SaleTypeCatId": 231,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 237,
-  "QuoteLinesTemplate": 956,
-  "ConfirmationLinesTemplate": 757,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 246,
+  "QuoteLinesTemplate": 558,
+  "ConfirmationLinesTemplate": 47,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 428,
-  "MinEarningPercent": 677,
-  "GroupQuoteLinesBy": 963,
-  "SortGroupLinesBy": 301,
+  "MaxDiscountPercent": 257,
+  "MinEarningPercent": 360,
+  "GroupQuoteLinesBy": 870,
+  "SortGroupLinesBy": 845,
   "Stages": [
     {
-      "Id": 626,
-      "Name": "Kessler Group",
-      "ToolTip": "Vel autem culpa consequatur.",
+      "Id": 383,
+      "Name": "Stark-Williamson",
+      "ToolTip": "Sed minima porro maiores ullam et dolor.",
       "Deleted": false,
-      "Rank": 487,
-      "Type": "voluptatem",
-      "ColorBlock": 914,
-      "IconHint": "reiciendis",
+      "Rank": 558,
+      "Type": "ab",
+      "ColorBlock": 754,
+      "IconHint": "ab",
       "Selected": false,
-      "LastChanged": "2008-05-06T04:02:07.4003498+02:00",
+      "LastChanged": "2020-08-07T03:44:58.1562167+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "ea",
-      "Hidden": false,
-      "FullName": "Rocio Mills",
+      "ExtraInfo": "ad",
+      "StyleHint": "provident",
+      "Hidden": true,
+      "FullName": "Mireille Gerhold",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 922
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 676
     }
   }
 }

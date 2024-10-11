@@ -88,10 +88,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 549,
+  "TargetYear": 571,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 906
+  "Id": 494
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 978,
+  "TargetAssignmentInfoId": 762,
   "Values": [
-    639,
-    361
+    740,
+    257
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 985,
-  "DimensionListItemDisplayName": "Herman Group",
+  "DimensionListItem": 579,
+  "DimensionListItemDisplayName": "Breitenberg, Christiansen and Wehner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldType": "System.Int32",
+      "FieldLength": 468
     }
   }
 }

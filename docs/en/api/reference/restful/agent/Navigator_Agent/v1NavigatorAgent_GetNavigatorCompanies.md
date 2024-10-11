@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weber-Farrell"
+  "Name": "Beer-Rolfson"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Value": "voluptatibus",
-    "Tooltip": "mollitia",
+    "Id": 905,
+    "Value": "ut",
+    "Tooltip": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 729
       }
     }
   },
   {
-    "Id": 772,
-    "Value": "voluptatibus",
-    "Tooltip": "mollitia",
+    "Id": 905,
+    "Value": "ut",
+    "Tooltip": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 729
       }
     }
   }

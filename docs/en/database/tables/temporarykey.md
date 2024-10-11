@@ -27,6 +27,7 @@ Temporary keys for lightweight authentications such as changing ones subscriptio
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|payload|Optional field that may contain arbitrary data used when the key is verified, dependent on the domain|String(4000)|&#x25CF;|
 
 
 ![TemporaryKey table relationship diagram](./media/TemporaryKey.png)

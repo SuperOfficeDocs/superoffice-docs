@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rem",
-  "Value": "voluptas",
-  "RecordId": 861,
-  "CreatedDate": "2004-10-20T04:02:06.6191478+02:00",
-  "UpdatedDate": "2006-06-06T04:02:06.6191478+02:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "deserunt",
-  "TableName": "Walsh LLC"
+  "Key": "voluptates",
+  "Value": "minima",
+  "RecordId": 849,
+  "CreatedDate": "2016-06-26T03:44:57.359003+02:00",
+  "UpdatedDate": "2020-12-23T03:44:57.359003+01:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "et",
+  "TableName": "Vandervort-Crist"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ea",
-  "Value": "ratione",
-  "RecordId": 422,
-  "CreatedDate": "2006-03-11T04:02:06.6191478+01:00",
-  "UpdatedDate": "2005-01-28T04:02:06.6191478+01:00",
+  "Key": "reiciendis",
+  "Value": "exercitationem",
+  "RecordId": 729,
+  "CreatedDate": "2017-07-06T03:44:57.359003+02:00",
+  "UpdatedDate": "2016-12-07T03:44:57.359003+01:00",
   "UpdatedBy": "id",
-  "CreatedBy": "aut",
-  "TableName": "Mayer, Schinner and Barton",
+  "CreatedBy": "accusantium",
+  "TableName": "Feeney-Herzog",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   }
 }

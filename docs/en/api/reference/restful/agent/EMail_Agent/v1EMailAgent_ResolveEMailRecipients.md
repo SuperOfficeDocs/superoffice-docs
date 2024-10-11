@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "don.lind@ziemanndonnelly.ca"
+  "EmailAddress": "marisol@kreiger.us"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 794,
-    "ContactName": "Larkin-Heller",
-    "PersonId": 324,
-    "PersonName": "Boyle Inc and Sons",
-    "AssociateId": 229,
-    "Address": "corporis",
-    "EmailId": 259,
+    "ContactId": 400,
+    "ContactName": "Kihn, Ledner and Bartell",
+    "PersonId": 8,
+    "PersonName": "Stroman Inc and Sons",
+    "AssociateId": 103,
+    "Address": "pariatur",
+    "EmailId": 804,
     "DuplicatePersonIds": [
-      137,
-      662
+      587,
+      245
     ],
-    "Name": "Bartoletti Group",
+    "Name": "Hegmann, Abernathy and Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 459
       }
     }
   }

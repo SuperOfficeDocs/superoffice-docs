@@ -72,19 +72,19 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "quam",
+      "RawValue": "voluptate",
       "Specification": null,
-      "DisplayValue": "quia",
-      "DisplayTooltip": "minus",
+      "DisplayValue": "qui",
+      "DisplayTooltip": "temporibus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 762,
-      "PrefDescId": 537,
-      "TableName": "Denesik LLC",
-      "UserPreferenceId": 795
+      "TargetId": 75,
+      "PrefDescId": 321,
+      "TableName": "Schultz, Halvorson and Kihn",
+      "UserPreferenceId": 426
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

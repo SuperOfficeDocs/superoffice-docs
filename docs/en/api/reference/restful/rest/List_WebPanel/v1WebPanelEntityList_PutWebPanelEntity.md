@@ -112,30 +112,30 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 548,
-  "Name": "Ward-Lueilwitz",
-  "Tooltip": "aperiam",
+  "WebPanelId": 195,
+  "Name": "Rath, Beer and Quigley",
+  "Tooltip": "labore",
   "Deleted": false,
-  "Rank": 379,
+  "Rank": 621,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Muller, Friesen and Casper",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Koelpin, Gislason and Feeney",
   "Url": "http://www.example.com/",
-  "ProgId": "eum",
-  "Icon": 133,
+  "ProgId": "sit",
+  "Icon": 316,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 637,
-  "Name": "Hintz, Carter and Kuhic",
-  "Tooltip": "et",
+  "WebPanelId": 864,
+  "Name": "Kuvalis-Strosin",
+  "Tooltip": "vitae",
   "Deleted": true,
-  "Rank": 409,
+  "Rank": 190,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Cummerata, Howell and Ritchie",
+  "WindowName": "Smitham, Muller and Feil",
   "Url": "http://www.example.com/",
-  "ProgId": "totam",
-  "Icon": 393,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "neque",
+  "Icon": 535,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 227
     }
   }
 }

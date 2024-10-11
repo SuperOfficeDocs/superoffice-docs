@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 {
   "License": [
     {
-      "Name": "Moen-Stroman",
-      "Description": "Configurable dynamic solution",
+      "Name": "Marks LLC",
+      "Description": "Cross-group next generation website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Moen-Stroman",
-      "Description": "Configurable dynamic solution",
+      "Name": "Marks LLC",
+      "Description": "Cross-group next generation website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Volkman-Hyatt",
-    "Description": "Switchable bi-directional throughput",
+    "Name": "Smitham Group",
+    "Description": "Intuitive client-server emulation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 762,
-        "Tooltip": "quis",
-        "CanAssign": true,
-        "Free": 920,
-        "InUse": 378,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 15,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 336,
+        "InUse": 327,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 137,
-        "Name": "Connelly, DuBuque and Marquardt",
-        "Description": "Compatible contextually-based Graphical User Interface",
-        "PrerequisiteModuleName": "Beatty-Conn",
-        "SortOrder": 442,
-        "ExtraFlags": 298,
+        "ModuleLicenseId": 497,
+        "Name": "Carroll, Romaguera and Beahan",
+        "Description": "Focused systemic product",
+        "PrerequisiteModuleName": "Orn-Morar",
+        "SortOrder": 613,
+        "ExtraFlags": 115,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 998
+            "FieldLength": 772
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 303,
-        "Tooltip": "eveniet",
-        "CanAssign": true,
-        "Free": 499,
-        "InUse": 44,
+        "Unrestricted": false,
+        "Total": 496,
+        "Tooltip": "a",
+        "CanAssign": false,
+        "Free": 567,
+        "InUse": 310,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 545,
-        "Name": "Littel Group",
-        "Description": "User-friendly multi-state initiative",
-        "PrerequisiteModuleName": "Bruen-Wiza",
-        "SortOrder": 980,
-        "ExtraFlags": 325,
+        "ModuleLicenseId": 437,
+        "Name": "Kris, Johns and Blanda",
+        "Description": "Upgradable user-facing encoding",
+        "PrerequisiteModuleName": "Nader Group",
+        "SortOrder": 73,
+        "ExtraFlags": 125,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 830
+            "FieldType": "System.String",
+            "FieldLength": 237
           }
         }
       }
@@ -177,62 +177,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   },
   {
-    "Name": "Volkman-Hyatt",
-    "Description": "Switchable bi-directional throughput",
+    "Name": "Smitham Group",
+    "Description": "Intuitive client-server emulation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 762,
-        "Tooltip": "quis",
-        "CanAssign": true,
-        "Free": 920,
-        "InUse": 378,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 15,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 336,
+        "InUse": 327,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 137,
-        "Name": "Connelly, DuBuque and Marquardt",
-        "Description": "Compatible contextually-based Graphical User Interface",
-        "PrerequisiteModuleName": "Beatty-Conn",
-        "SortOrder": 442,
-        "ExtraFlags": 298,
+        "ModuleLicenseId": 497,
+        "Name": "Carroll, Romaguera and Beahan",
+        "Description": "Focused systemic product",
+        "PrerequisiteModuleName": "Orn-Morar",
+        "SortOrder": 613,
+        "ExtraFlags": 115,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 998
+            "FieldLength": 772
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 303,
-        "Tooltip": "eveniet",
-        "CanAssign": true,
-        "Free": 499,
-        "InUse": 44,
+        "Unrestricted": false,
+        "Total": 496,
+        "Tooltip": "a",
+        "CanAssign": false,
+        "Free": 567,
+        "InUse": 310,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 545,
-        "Name": "Littel Group",
-        "Description": "User-friendly multi-state initiative",
-        "PrerequisiteModuleName": "Bruen-Wiza",
-        "SortOrder": 980,
-        "ExtraFlags": 325,
+        "ModuleLicenseId": 437,
+        "Name": "Kris, Johns and Blanda",
+        "Description": "Upgradable user-facing encoding",
+        "PrerequisiteModuleName": "Nader Group",
+        "SortOrder": 73,
+        "ExtraFlags": 125,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 830
+            "FieldType": "System.String",
+            "FieldLength": 237
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

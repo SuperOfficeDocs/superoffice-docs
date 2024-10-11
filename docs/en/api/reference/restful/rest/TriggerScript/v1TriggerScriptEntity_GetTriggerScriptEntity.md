@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 93,
-  "Name": "Prohaska, Rowe and Toy",
+  "ScreenChooserId": 413,
+  "Name": "Mohr-Gleason",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "voluptatum",
-  "Source": "sint",
-  "Registered": "2013-01-27T04:02:06.9316148+01:00",
-  "RegisteredAssociateId": 666,
-  "Updated": "2003-05-10T04:02:06.9316148+02:00",
-  "UpdatedAssociateId": 587,
+  "UniqueIdentifier": "quia",
+  "Source": "nihil",
+  "Registered": "2020-09-17T03:44:57.687517+02:00",
+  "RegisteredAssociateId": 751,
+  "Updated": "2011-01-18T03:44:57.687517+01:00",
+  "UpdatedAssociateId": 773,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 203
+      "FieldLength": 578
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 258,
-  "Name": "Huel-Halvorson",
-  "CreatedDate": "2019-11-13T04:02:06.6035245+01:00",
-  "UpdatedDate": "2015-02-22T04:02:06.6035245+01:00",
+  "ForeignAppId": 406,
+  "Name": "Koelpin, Pouros and Flatley",
+  "CreatedDate": "2005-04-11T03:44:57.3433794+02:00",
+  "UpdatedDate": "2013-04-18T03:44:57.3433794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 977,
-      "Name": "Kemmer, Nolan and Herzog",
-      "CreatedDate": "2000-01-28T04:02:06.6035245+01:00",
-      "UpdatedDate": "2016-10-10T04:02:06.6035245+02:00",
-      "AssociateFullName": "Mrs. Rebeca Kreiger",
-      "CreatedBy": "non",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "expedita",
-      "ForeignAppId": 329
+      "ForeignDeviceId": 235,
+      "Name": "Raynor LLC",
+      "CreatedDate": "2022-04-04T03:44:57.3433794+02:00",
+      "UpdatedDate": "2016-01-16T03:44:57.3433794+01:00",
+      "AssociateFullName": "Prof. Chaz Conroy IV",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 5
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 324,
-  "Name": "Ernser Group",
-  "CreatedDate": "2021-02-01T04:02:06.6191478+01:00",
-  "UpdatedDate": "1999-06-11T04:02:06.6191478+02:00",
+  "ForeignAppId": 667,
+  "Name": "Larson LLC",
+  "CreatedDate": "2001-04-01T03:44:57.3433794+02:00",
+  "UpdatedDate": "2022-04-21T03:44:57.3433794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 686,
-      "Name": "Conn, Nienow and Ledner",
-      "CreatedDate": "2018-04-19T04:02:06.6191478+02:00",
-      "UpdatedDate": "2001-05-31T04:02:06.6191478+02:00",
-      "AssociateFullName": "Prof. Bart Larkin Sr.",
-      "CreatedBy": "voluptate",
-      "UpdatedBy": "incidunt",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 292,
+      "ForeignDeviceId": 710,
+      "Name": "Zemlak, Reinger and Lehner",
+      "CreatedDate": "2007-04-26T03:44:57.3433794+02:00",
+      "UpdatedDate": "2011-05-07T03:44:57.3433794+02:00",
+      "AssociateFullName": "Laurine Max Rosenbaum Jr.",
+      "CreatedBy": "quia",
+      "UpdatedBy": "maiores",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 926,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 12
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 404
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

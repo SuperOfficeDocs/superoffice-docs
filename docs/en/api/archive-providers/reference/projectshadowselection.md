@@ -800,7 +800,7 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelection?$select=type,appointment/associate/ejUserId,projectMember/postAddress/zip
+GET /api/v1/archive/ProjectShadowSelection?$select=appointment/personId,document/associate/ejDisplayName,projectMember/kanaLastName,projectMember/personUpdatedBy,projectMember/ticketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=accusamus
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=odit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Weissnat LLC",
-    "ToolTip": "Et voluptas consectetur placeat consectetur.",
-    "Deleted": false,
-    "Rank": 203,
-    "Type": "at",
+    "Id": 363,
+    "Name": "Dicki, Gaylord and Cassin",
+    "ToolTip": "Qui quis error quam recusandae reprehenderit et.",
+    "Deleted": true,
+    "Rank": 764,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 22,
-        "Name": "Eichmann-Thiel",
-        "ToolTip": "Et quia.",
-        "Deleted": false,
-        "Rank": 530,
-        "Type": "velit",
+        "Id": 272,
+        "Name": "Bartoletti, Williamson and Macejkovic",
+        "ToolTip": "Aut consequatur alias voluptatibus et non.",
+        "Deleted": true,
+        "Rank": 560,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 421,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "dolores",
-        "FullName": "Stella Jast",
+        "IconHint": "facilis",
+        "ColorBlock": 681,
+        "ExtraInfo": "ut",
+        "StyleHint": "sed",
+        "FullName": "Zelma Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 706
+            "FieldType": "System.String",
+            "FieldLength": 42
           }
         }
       }
     ],
-    "IconHint": "aperiam",
-    "ColorBlock": 387,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "odit",
-    "FullName": "Donavon Reynolds",
+    "IconHint": "ut",
+    "ColorBlock": 263,
+    "ExtraInfo": "mollitia",
+    "StyleHint": "est",
+    "FullName": "Christelle Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldLength": 964
       }
     }
   }

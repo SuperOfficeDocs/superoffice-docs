@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Feest Inc and Sons",
-  "Tooltip": "error",
-  "Deleted": false,
-  "Rank": 492,
+  "Id": 898,
+  "Name": "Ortiz-Dare",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "Rank": 680,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "ListType": "enim",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 456,
-  "Name": "O'Reilly-Ratke",
-  "Tooltip": "alias",
+  "Id": 130,
+  "Name": "Windler Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 258,
-  "IsCustomList": false,
+  "Rank": 952,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
+  "ListType": "neque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

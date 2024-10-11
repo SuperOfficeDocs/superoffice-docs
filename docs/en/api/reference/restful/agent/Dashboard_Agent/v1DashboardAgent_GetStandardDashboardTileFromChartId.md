@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "labore"
+  "ChartId": "cum"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 975,
-  "Caption": "placeat",
-  "Description": "Fully-configurable encompassing emulation",
-  "ChartName": "Funk, Turcotte and Hayes",
-  "ChartId": "impedit",
+  "DashboardTileId": 850,
+  "Caption": "quis",
+  "Description": "Profit-focused demand-driven support",
+  "ChartName": "Lowe Group",
+  "ChartId": "sit",
   "IsDefault": true,
-  "AssociateId": 284,
-  "GroupId": 200,
-  "SelectionId": 971,
-  "Config": "deserunt",
+  "AssociateId": 930,
+  "GroupId": 34,
+  "SelectionId": 522,
+  "Config": "dolor",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Rau-Borer",
-      "Description": "Persistent homogeneous focus group",
+      "Name": "Kreiger Inc and Sons",
+      "Description": "Operative methodical structure",
       "Type": "Boolean",
-      "ListName": "Vandervort LLC",
+      "ListName": "Armstrong-Connelly",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nesciunt",
-      "DefaultDataOption": true,
+      "Value": "est",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 992
+          "FieldLength": 73
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 718,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldType": "System.Int32",
+          "FieldLength": 415
         }
       }
     },
     {
-      "VisibleId": 718,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldType": "System.Int32",
+          "FieldLength": 415
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 980
     }
   }
 }

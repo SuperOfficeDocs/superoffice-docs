@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 771,
-  "ListItemId": 598,
+  "UdListDefinitionId": 977,
+  "ListItemId": 78,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Walter, Schmeler and Ondricka",
-    "ToolTip": "Nihil dolorem.",
-    "Deleted": true,
-    "Rank": 255,
-    "Type": "animi",
-    "ColorBlock": 369,
-    "IconHint": "labore",
+    "Id": 554,
+    "Name": "Welch, Ledner and Boehm",
+    "ToolTip": "Iste deleniti quia.",
+    "Deleted": false,
+    "Rank": 938,
+    "Type": "soluta",
+    "ColorBlock": 428,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2023-09-15T04:02:01.847234+02:00",
+    "LastChanged": "2008-09-08T03:44:52.6989885+02:00",
     "ChildItems": [
       {
-        "Id": 314,
-        "Name": "Zieme-Murazik",
-        "ToolTip": "Sit modi.",
+        "Id": 949,
+        "Name": "Carter, Ullrich and Willms",
+        "ToolTip": "Repudiandae qui.",
         "Deleted": false,
-        "Rank": 243,
-        "Type": "voluptate",
-        "ColorBlock": 304,
-        "IconHint": "sit",
+        "Rank": 885,
+        "Type": "consequatur",
+        "ColorBlock": 823,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2015-09-01T04:02:01.847234+02:00",
+        "LastChanged": "2006-07-04T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Dexter Gaylord",
+        "FullName": "Dr. Emmy Kelsi Oberbrunner Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 205
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Delta Carroll",
+    "ExtraInfo": "quam",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Marlin Jerde Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

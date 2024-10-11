@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 12,
-    "Name": "Trantow, Waelchi and Wunsch",
-    "Tooltip": "ex",
+    "HeadingId": 208,
+    "Name": "Klocko, Nikolaus and O'Reilly",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 546,
-    "UdListDefinitionId": 71,
+    "Rank": 122,
+    "UdListDefinitionId": 661,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldType": "System.Int32",
+        "FieldLength": 107
       }
     }
   }

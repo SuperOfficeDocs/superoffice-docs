@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 943,
-  "PersonId": 198,
-  "AppointmentId": 400,
-  "DocumentId": 766,
-  "SaleId": 494,
-  "SelectionId": 257,
-  "ProjectId": 117,
+  "ContactId": 602,
+  "PersonId": 932,
+  "AppointmentId": 129,
+  "DocumentId": 8,
+  "SaleId": 149,
+  "SelectionId": 442,
+  "ProjectId": 437,
   "CustomTags": {
-    "CustomTags1": "qui",
-    "CustomTags2": "dicta"
+    "CustomTags1": "molestiae",
+    "CustomTags2": "nulla"
   },
-  "UiCulture": "illo"
+  "UiCulture": "sit"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 150,
+  "DocumentId": 855,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "non",
-  "Name": "Funk LLC",
-  "OurRef": "quod",
-  "YourRef": "asperiores",
-  "CreatedDate": "2003-08-18T04:02:01.6280068+02:00",
-  "UpdatedDate": "2003-05-13T04:02:01.6280068+02:00",
-  "Description": "Reactive value-added database",
+  "Attention": "consequatur",
+  "Header": "quisquam",
+  "Name": "Herman LLC",
+  "OurRef": "aut",
+  "YourRef": "ab",
+  "CreatedDate": "2020-08-31T03:44:52.4958766+02:00",
+  "UpdatedDate": "2002-03-03T03:44:52.4958766+01:00",
+  "Description": "Grass-roots eco-centric synergy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-08-29T04:02:01.6436305+02:00",
-  "ExternalRef": "quis",
+  "Date": "2023-12-29T03:44:52.4958766+01:00",
+  "ExternalRef": "in",
   "Completed": "Completed",
-  "ActiveLinks": 759,
+  "ActiveLinks": 998,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Romaguera-Shields",
-      "Id": 441,
-      "Description": "Progressive intermediate collaboration",
-      "ExtraInfo": "labore",
-      "LinkId": 391,
+      "EntityName": "Gislason Inc and Sons",
+      "Id": 660,
+      "Description": "Cloned 4th generation throughput",
+      "ExtraInfo": "dolorem",
+      "LinkId": 864,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 261
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 318,
-  "Snum": 495,
+  "SuggestedDocumentId": 824,
+  "Snum": 200,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Dovie Hans Konopelski",
-    "SuperOffice:2": "2019814808"
+    "SuperOffice:1": "Toy Emile Crona III",
+    "SuperOffice:2": "Dr. Hilda Jarrell Kling"
   },
   "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "quod"
+    "ExtraFields1": "ex",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2008-04-28T04:02:01.6436305+02:00",
-  "PublishTo": "2002-10-26T04:02:01.6436305+02:00",
-  "PublishFrom": "2017-04-16T04:02:01.6436305+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-11-17T03:44:52.4958766+01:00",
+  "PublishTo": "2005-09-25T03:44:52.4958766+02:00",
+  "PublishFrom": "2022-01-09T03:44:52.4958766+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 829,
+      "VisibleId": 490,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 824
         }
       }
     },
     {
-      "VisibleId": 829,
+      "VisibleId": 490,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 824
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 229
     }
   }
 }

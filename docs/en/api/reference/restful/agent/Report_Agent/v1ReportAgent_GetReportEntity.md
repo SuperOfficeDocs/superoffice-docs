@@ -26,7 +26,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=211
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=378
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Report/GetReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 77,
+  "ReportId": 437,
   "ReportCategory": "All",
-  "Description": "Intuitive regional software",
+  "Description": "Organic background projection",
   "ReportLayout": "CalendarMonth",
-  "Name": "Huels Group",
-  "AssociateId": 564,
-  "TemplateId": 220,
-  "Published": true,
+  "Name": "Robel-Marquardt",
+  "AssociateId": 151,
+  "TemplateId": 758,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldLength": 518
     }
   }
 }

@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Jenkins Group",
-      "EntityOrParentId": 97,
+      "EntityName": "Bernier LLC",
+      "EntityOrParentId": 490,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Jenkins Group",
-      "EntityOrParentId": 97,
+      "EntityName": "Bernier LLC",
+      "EntityOrParentId": 490,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 733,
-    "Id": 269,
-    "HistoryName": "Schimmel-Weissnat",
-    "HistoryId": 412,
-    "AssociateId": 242,
-    "Name": "Stanton LLC",
-    "ItemInfo": "est",
+    "Rank": 251,
+    "Id": 594,
+    "HistoryName": "Lemke-Schoen",
+    "HistoryId": 607,
+    "AssociateId": 734,
+    "Name": "Kuphal-Stokes",
+    "ItemInfo": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 205
       }
     }
   }

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 918,
-    "Name": "Littel, Collins and Lindgren",
-    "Tooltip": "omnis",
-    "Rank": 253,
-    "Key": "voluptatibus",
+    "LegalBaseId": 419,
+    "Name": "Bins-Ziemann",
+    "Tooltip": "eligendi",
+    "Rank": 133,
+    "Key": "modi",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 730
+        "FieldType": "System.Int32",
+        "FieldLength": 914
       }
     }
   }

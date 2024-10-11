@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 758,
-  "Name": "Schumm Group",
-  "Tooltip": "ut",
+  "Id": 516,
+  "Name": "Abshire-Buckridge",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "UdListDefinitionId": 705,
-  "Rank": 985,
+  "UdListDefinitionId": 327,
+  "Rank": 228,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldType": "System.Int32",
+      "FieldLength": 578
     }
   }
 }

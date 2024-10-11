@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 726,
-    "Name": "Wyman Group",
-    "Tooltip": "eaque",
+    "HeadingId": 619,
+    "Name": "Kling-Corkery",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 382,
-    "UdListDefinitionId": 885
+    "Rank": 923,
+    "UdListDefinitionId": 622
   },
   {
-    "HeadingId": 726,
-    "Name": "Wyman Group",
-    "Tooltip": "eaque",
+    "HeadingId": 619,
+    "Name": "Kling-Corkery",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 382,
-    "UdListDefinitionId": 885
+    "Rank": 923,
+    "UdListDefinitionId": 622
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 919,
-    "Name": "Hoeger, Boyle and Boehm",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 236,
-    "UdListDefinitionId": 113,
+    "HeadingId": 728,
+    "Name": "Metz Group",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "Rank": 295,
+    "UdListDefinitionId": 924,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   }

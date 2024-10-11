@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 419,
-  "UniqueIdentifier": "amet",
-  "Name": "King-McClure",
-  "Description": "Proactive zero tolerance interface",
-  "IncludeId": "consequatur",
-  "AccessKey": "deserunt",
-  "HierarchyId": 12,
-  "Source": "illum",
-  "SourceCode": "voluptatem",
+  "EjscriptId": 282,
+  "UniqueIdentifier": "et",
+  "Name": "Herzog-Gusikowski",
+  "Description": "Realigned well-modulated workforce",
+  "IncludeId": "exercitationem",
+  "AccessKey": "qui",
+  "HierarchyId": 64,
+  "Source": "sed",
+  "SourceCode": "omnis",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 717,
+  "HtmlOutput": 157,
   "Includes": [
-    321,
-    876
+    185,
+    534
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 455,
-      "LineNumberTo": 242,
-      "Delta": 171,
-      "IncludeId": "doloremque",
+      "LineNumberFrom": 437,
+      "LineNumberTo": 331,
+      "Delta": 237,
+      "IncludeId": "odio",
       "IncludedFrom": [
-        "voluptatem",
-        "quia"
+        "minus",
+        "eveniet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldType": "System.String",
+          "FieldLength": 678
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2014-03-26T04:02:01.5186345+01:00",
-  "RegisteredAssociateId": 780,
-  "Updated": "2012-03-16T04:02:01.5186345+01:00",
-  "UpdatedAssociateId": 731,
+  "Registered": "2002-09-14T03:44:52.3708918+02:00",
+  "RegisteredAssociateId": 753,
+  "Updated": "2004-09-19T03:44:52.3708918+02:00",
+  "UpdatedAssociateId": 641,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldType": "System.Int32",
+      "FieldLength": 269
     }
   }
 }

@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Green-Hartmann",
+  "TableName": "Walsh-Christiansen",
   "Columns": [
-    "voluptatem",
-    "et"
+    "vel",
+    "atque"
   ],
   "Keys": [
-    "nemo",
-    "possimus"
+    "sequi",
+    "ea"
   ],
   "Data": [
     [
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "voluptatem",
-  "Inserts": 502,
-  "Updates": 254,
-  "Deletes": 524,
+  "Message": "quia",
+  "Inserts": 976,
+  "Updates": 926,
+  "Deletes": 76,
   "RowStatus": [
     {
-      "PrimaryKey": 910,
+      "PrimaryKey": 510,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "autem",
-        "non"
+        "dolor",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 906
         }
       }
     },
     {
-      "PrimaryKey": 910,
+      "PrimaryKey": 510,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "autem",
-        "non"
+        "dolor",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 906
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   }
 }

@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Roberts-Schulist",
-    "ToolTip": "Vitae est.",
-    "Deleted": false,
-    "Rank": 889,
-    "Type": "consequatur",
-    "ColorBlock": 638,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2016-07-05T04:02:07.0878487+02:00",
+    "Id": 344,
+    "Name": "Hand-Emmerich",
+    "ToolTip": "Est itaque at quo quis commodi ut.",
+    "Deleted": true,
+    "Rank": 766,
+    "Type": "sint",
+    "ColorBlock": 938,
+    "IconHint": "temporibus",
+    "Selected": false,
+    "LastChanged": "2024-07-04T03:44:57.8437502+02:00",
     "ChildItems": [
       {
-        "Id": 145,
-        "Name": "Wiegand-Ledner",
-        "ToolTip": "Cum omnis ratione explicabo quo quae voluptas.",
+        "Id": 38,
+        "Name": "Purdy, Kris and O'Hara",
+        "ToolTip": "Commodi blanditiis rerum.",
         "Deleted": true,
-        "Rank": 36,
-        "Type": "mollitia",
-        "ColorBlock": 762,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2021-09-26T04:02:07.0878487+02:00",
+        "Rank": 566,
+        "Type": "accusantium",
+        "ColorBlock": 106,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2011-06-29T03:44:57.8437502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "exercitationem",
-        "Hidden": false,
-        "FullName": "Kobe Durgan",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "repellendus",
+        "Hidden": true,
+        "FullName": "Alyson Teresa Simonis I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 773
+            "FieldType": "System.Int32",
+            "FieldLength": 587
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "eos",
+    "ExtraInfo": "omnis",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Mrs. Greta Kuphal",
+    "FullName": "Mrs. Kody Nolan III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldLength": 462
       }
     }
   }

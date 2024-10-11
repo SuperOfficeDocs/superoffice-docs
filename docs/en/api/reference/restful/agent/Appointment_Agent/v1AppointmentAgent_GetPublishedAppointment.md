@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 555
+  "AppointmentId": 698
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 963,
-  "StartDate": "2023-02-24T04:02:01.0025647+01:00",
-  "EndDate": "2019-07-26T04:02:01.0025647+02:00",
+  "AppointmentId": 847,
+  "StartDate": "2010-09-19T03:44:51.8396645+02:00",
+  "EndDate": "2022-04-13T03:44:51.8396645+02:00",
   "Type": "BookingForChecklist",
-  "Task": "dolor",
-  "AssociateFullName": "Jody Wiza",
-  "ContactName": "Kovacek-Daniel",
-  "Description": "Upgradable scalable local area network",
-  "PersonFullName": "Suzanne Upton",
-  "PersonId": 298,
-  "ContactId": 374,
-  "ProjectId": 986,
-  "ProjectName": "Aufderhar LLC",
+  "Task": "qui",
+  "AssociateFullName": "Lowell Ziemann",
+  "ContactName": "Casper Inc and Sons",
+  "Description": "User-centric attitude-oriented success",
+  "PersonFullName": "Mrs. Hildegard Rhianna Wisoky IV",
+  "PersonId": 179,
+  "ContactId": 607,
+  "ProjectId": 495,
+  "ProjectName": "Dicki Inc and Sons",
   "IsPublished": false,
-  "AssociateId": 889,
-  "ColorIndex": 645,
+  "AssociateId": 707,
+  "ColorIndex": 221,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 380,
-  "PriorityName": "Ebert-Braun",
+  "PriorityId": 510,
+  "PriorityName": "Hilll-Jakubowski",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2024-04-10T04:02:01.0025647+02:00",
+  "ActiveDate": "2001-11-12T03:44:51.8396645+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2021-12-06T04:02:01.0025647+01:00",
-  "RecurringEndDate": "2001-05-16T04:02:01.0025647+02:00",
-  "MotherId": 678,
-  "AssignedBy": 902,
-  "AssignedByFullName": "Dr. Carissa Cathrine Satterfield Jr.",
+  "RecurringStartDate": "2007-07-11T03:44:51.8396645+02:00",
+  "RecurringEndDate": "2014-12-02T03:44:51.8396645+01:00",
+  "MotherId": 468,
+  "AssignedBy": 910,
+  "AssignedByFullName": "Mr. Annabelle Carli Swaniawski PhD",
   "RejectReason": "",
-  "Location": "tempore",
-  "AlarmLeadTime": "et",
-  "SaleId": 513,
-  "SaleName": "Hilpert, Kuhn and McDermott",
-  "AssociateName": "Erdman, Beatty and Homenick",
-  "CreatedDate": "2020-02-27T04:02:01.0025647+01:00",
-  "CreatedBy": "et",
-  "CreatedByFullName": "Jasmin Durgan",
-  "CreatedByAssociateId": 416,
+  "Location": "et",
+  "AlarmLeadTime": "exercitationem",
+  "SaleId": 65,
+  "SaleName": "Feest Inc and Sons",
+  "AssociateName": "Bradtke, Gerhold and Dicki",
+  "CreatedDate": "2013-08-17T03:44:51.8396645+02:00",
+  "CreatedBy": "sunt",
+  "CreatedByFullName": "Mr. Lawson Boyer",
+  "CreatedByAssociateId": 555,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 562,
-  "Title": "unde",
-  "Agenda": "maiores",
-  "InternalNotes": "officia",
+  "PreferredTZLocation": 483,
+  "Title": "saepe",
+  "Agenda": "id",
+  "InternalNotes": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 133
     }
   }
 }

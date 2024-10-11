@@ -25,7 +25,7 @@ Gets all the ProjectStatus items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items?includeDeleted=True
+GET /api/v1/List/ProjectStatus/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Murray LLC",
-    "Tooltip": "sapiente",
-    "Deleted": true,
-    "UdListDefinitionId": 561,
-    "Rank": 988,
+    "Id": 306,
+    "Name": "O'Connell, Pacocha and Shanahan",
+    "Tooltip": "id",
+    "Deleted": false,
+    "UdListDefinitionId": 485,
+    "Rank": 752,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 583
       }
     }
   }

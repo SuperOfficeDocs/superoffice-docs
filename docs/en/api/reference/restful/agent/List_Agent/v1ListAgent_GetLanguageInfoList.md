@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 457,
-    "LCID": 192,
-    "EnglishName": "Stanton, Dickens and Spinka",
-    "NativeName": "Gerlach, Langosh and Schmidt",
-    "ThreeLetterISOLanguageName": "Bosco, Friesen and Hills",
-    "TwoLetterISOLanguageName": "Kulas, Rippin and Bogisich",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 615,
+    "LCID": 466,
+    "EnglishName": "Nolan-Cremin",
+    "NativeName": "Roob-Wintheiser",
+    "ThreeLetterISOLanguageName": "Marks, Dicki and Graham",
+    "TwoLetterISOLanguageName": "Hegmann, Hand and Daniel",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 117
+        "FieldType": "System.Int32",
+        "FieldLength": 228
       }
     }
   }

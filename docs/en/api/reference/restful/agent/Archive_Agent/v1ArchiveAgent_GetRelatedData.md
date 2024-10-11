@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "alias",
-  "RecordId": 620,
+  "Table": "ipsa",
+  "RecordId": 899,
   "Fields": [
-    "eos",
-    "voluptatibus"
+    "enim",
+    "architecto"
   ]
 }
 ```
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "voluptatum",
+    "Field": "dolore",
     "FieldValue": null
   },
   {
-    "Field": "voluptatum",
+    "Field": "dolore",
     "FieldValue": null
   }
 ]

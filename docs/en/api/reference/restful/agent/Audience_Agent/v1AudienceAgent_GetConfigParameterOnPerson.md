@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Eichmann Group",
-  "PersonId": 954
+  "ParameterName": "Kessler, Hills and Jakubowski",
+  "PersonId": 901
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 1000,
-  "Name": "Berge-Collins",
-  "Value": "odio",
-  "CreatedDate": "2000-05-22T04:02:01.221786+02:00",
-  "UpdatedDate": "2004-10-21T04:02:01.221786+02:00",
-  "CreatedBy": "aut",
-  "UpdatedBy": "harum",
+  "AudienceLayoutId": 436,
+  "Name": "Grimes, O'Connell and Wiza",
+  "Value": "beatae",
+  "CreatedDate": "2018-09-05T03:44:52.0740137+02:00",
+  "UpdatedDate": "1998-07-20T03:44:52.0740137+02:00",
+  "CreatedBy": "voluptate",
+  "UpdatedBy": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 312
     }
   }
 }

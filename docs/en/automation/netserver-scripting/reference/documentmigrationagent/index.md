@@ -18,6 +18,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDocumentMigrat
 * [GetForDateRange](getfordaterange.md)
 * [GetForSelection](getforselection.md)
 * [GetForTemplates](getfortemplates.md)
+* [GetNumberOfConfidentialDocuments](getnumberofconfidentialdocuments.md)
 * [HasDocumentsToMigrate](hasdocumentstomigrate.md)
 * [MigrateDocumentToNewDocPlugin](migratedocumenttonewdocplugin.md)
 * [MigrateTemplateToNewDocPlugin](migratetemplatetonewdocplugin.md)

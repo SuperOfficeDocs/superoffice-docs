@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 170,
-    "Name": "Nolan-Jones",
+    "TicketStatusId": 163,
+    "Name": "Hagenes, Collier and O'Hara",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": false,
-    "UsedInQueue": true,
+    "NoEmailReopen": false,
+    "IsDefault": true,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 306
       }
     }
   }

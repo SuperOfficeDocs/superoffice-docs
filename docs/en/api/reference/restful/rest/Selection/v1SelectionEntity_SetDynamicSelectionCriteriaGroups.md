@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ullrich Inc and Sons",
-    "Description": "Reactive encompassing open architecture",
-    "Rank": 282,
+    "Name": "Goyette, Denesik and Hills",
+    "Description": "Proactive assymetric open system",
+    "Rank": 627,
     "Restrictions": [
       {
-        "Name": "Reichert-Deckow",
-        "Operator": "in",
+        "Name": "Windler-Hilpert",
+        "Operator": "sed",
         "Values": [
-          "ut",
-          "ex"
+          "voluptas",
+          "debitis"
         ],
         "DisplayValues": [
-          "omnis",
-          "in"
+          "illum",
+          "adipisci"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 723,
+        "InterParenthesis": 771,
         "InterOperator": "And",
-        "UniqueHash": 277
+        "UniqueHash": 827
       }
     ]
   },
   {
-    "Name": "Ullrich Inc and Sons",
-    "Description": "Reactive encompassing open architecture",
-    "Rank": 282,
+    "Name": "Goyette, Denesik and Hills",
+    "Description": "Proactive assymetric open system",
+    "Rank": 627,
     "Restrictions": [
       {
-        "Name": "Reichert-Deckow",
-        "Operator": "in",
+        "Name": "Windler-Hilpert",
+        "Operator": "sed",
         "Values": [
-          "ut",
-          "ex"
+          "voluptas",
+          "debitis"
         ],
         "DisplayValues": [
-          "omnis",
-          "in"
+          "illum",
+          "adipisci"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 723,
+        "InterParenthesis": 771,
         "InterOperator": "And",
-        "UniqueHash": 277
+        "UniqueHash": 827
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Watsica Inc and Sons",
-    "Description": "Visionary optimizing installation",
-    "Rank": 146,
+    "Name": "Walsh, Lakin and Howe",
+    "Description": "Function-based hybrid collaboration",
+    "Rank": 104,
     "Restrictions": [
       {
-        "Name": "Becker-Sawayn",
-        "Operator": "quae",
+        "Name": "Jones-Gerhold",
+        "Operator": "adipisci",
         "Values": [
-          "nihil",
-          "iusto"
+          "dolorum",
+          "alias"
         ],
         "DisplayValues": [
-          "odio",
-          "recusandae"
+          "delectus",
+          "ex"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 907,
+        "InterParenthesis": 925,
         "InterOperator": "And",
-        "UniqueHash": 527
+        "UniqueHash": 650
       }
     ]
   },
   {
-    "Name": "Watsica Inc and Sons",
-    "Description": "Visionary optimizing installation",
-    "Rank": 146,
+    "Name": "Walsh, Lakin and Howe",
+    "Description": "Function-based hybrid collaboration",
+    "Rank": 104,
     "Restrictions": [
       {
-        "Name": "Becker-Sawayn",
-        "Operator": "quae",
+        "Name": "Jones-Gerhold",
+        "Operator": "adipisci",
         "Values": [
-          "nihil",
-          "iusto"
+          "dolorum",
+          "alias"
         ],
         "DisplayValues": [
-          "odio",
-          "recusandae"
+          "delectus",
+          "ex"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 907,
+        "InterParenthesis": 925,
         "InterOperator": "And",
-        "UniqueHash": 527
+        "UniqueHash": 650
       }
     ]
   }

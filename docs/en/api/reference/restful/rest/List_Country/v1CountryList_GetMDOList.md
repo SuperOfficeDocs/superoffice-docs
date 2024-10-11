@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=neque
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Lockman Group",
-    "ToolTip": "Quas aut et aut.",
+    "Id": 298,
+    "Name": "Moore-Ledner",
+    "ToolTip": "Sed commodi quis sunt aut quibusdam dolores laboriosam.",
     "Deleted": true,
-    "Rank": 982,
-    "Type": "fugit",
+    "Rank": 125,
+    "Type": "minima",
     "ChildItems": [
       {
-        "Id": 830,
-        "Name": "Vandervort Group",
-        "ToolTip": "Sint ipsam nobis voluptas tenetur et.",
+        "Id": 585,
+        "Name": "Weissnat LLC",
+        "ToolTip": "Dolorem maiores illo qui voluptatem omnis nihil numquam.",
         "Deleted": false,
-        "Rank": 699,
-        "Type": "ullam",
+        "Rank": 151,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deleniti",
-        "ColorBlock": 41,
-        "ExtraInfo": "quo",
-        "StyleHint": "sequi",
-        "FullName": "Dr. Curtis Daisha Mayer",
+        "IconHint": "voluptatem",
+        "ColorBlock": 21,
+        "ExtraInfo": "id",
+        "StyleHint": "in",
+        "FullName": "Miss Tate Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 586
+            "FieldType": "System.Int32",
+            "FieldLength": 703
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 593,
-    "ExtraInfo": "amet",
-    "StyleHint": "enim",
-    "FullName": "Antone Stamm",
+    "IconHint": "deserunt",
+    "ColorBlock": 900,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "similique",
+    "FullName": "Miss Gaston Rippin DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 721
       }
     }
   }

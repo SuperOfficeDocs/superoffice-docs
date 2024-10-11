@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 355,
-  "Name": "Crooks-Casper",
-  "Tooltip": "commodi",
+  "Id": 152,
+  "Name": "Champlin, Abernathy and Schiller",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 978,
-  "Rank": 753,
+  "UdListDefinitionId": 797,
+  "Rank": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldType": "System.String",
+      "FieldLength": 593
     }
   }
 }

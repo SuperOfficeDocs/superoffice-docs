@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Rodriguez-Dickinson",
-      "DisplayName": "Bashirian-Schultz",
-      "DisplayTooltip": "rerum",
-      "IsActive": false
+      "Name": "Hodkiewicz-Fadel",
+      "DisplayName": "Daugherty Inc and Sons",
+      "DisplayTooltip": "veritatis",
+      "IsActive": true
     },
     {
-      "Name": "Rodriguez-Dickinson",
-      "DisplayName": "Bashirian-Schultz",
-      "DisplayTooltip": "rerum",
-      "IsActive": false
+      "Name": "Hodkiewicz-Fadel",
+      "DisplayName": "Daugherty Inc and Sons",
+      "DisplayTooltip": "veritatis",
+      "IsActive": true
     }
   ]
 }

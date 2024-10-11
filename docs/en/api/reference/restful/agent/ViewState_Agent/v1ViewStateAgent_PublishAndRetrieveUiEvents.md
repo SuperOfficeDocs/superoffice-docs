@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 137,
+  "LatestKnownEventId": 216,
   "PublishEvents": [
     {
-      "EventId": 192,
-      "EventName": "Blick-Miller",
-      "EntityType": "eius",
-      "EntityKey": 371,
-      "AssociateId": 557,
-      "AssociateName": "Kertzmann-Schneider",
-      "EventDateTime": "2020-03-08T04:02:02.5822222+01:00"
+      "EventId": 883,
+      "EventName": "Block-Koepp",
+      "EntityType": "quaerat",
+      "EntityKey": 139,
+      "AssociateId": 276,
+      "AssociateName": "Pfannerstill-Bode",
+      "EventDateTime": "2000-01-10T03:44:53.4498657+01:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Parisian-Muller",
-      "Value": 126
+      "Name": "Wolf Inc and Sons",
+      "Value": 746
     },
     {
-      "Name": "Parisian-Muller",
-      "Value": 126
+      "Name": "Wolf Inc and Sons",
+      "Value": 746
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 896,
-    "EventName": "Kub Inc and Sons",
-    "EntityType": "maiores",
-    "EntityKey": 348,
-    "AssociateId": 7,
-    "AssociateName": "Olson Inc and Sons",
-    "EventDateTime": "2005-09-04T04:02:02.5822222+02:00",
+    "EventId": 927,
+    "EventName": "Carter-Schneider",
+    "EntityType": "quam",
+    "EntityKey": 369,
+    "AssociateId": 167,
+    "AssociateName": "Osinski-Robel",
+    "EventDateTime": "2013-12-08T03:44:53.4498657+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldLength": 232
       }
     }
   }

@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 644,
+  "SelectionId": 843,
   "SelectionMemberIds": [
-    497,
-    33
+    111,
+    203
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic cohesive standardization",
-  "Postit": "dicta",
+  "Description": "Multi-layered next generation benchmark",
+  "Postit": "placeat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 443,
-  "IncludePerson": 679,
+  "GroupIdx": 991,
+  "IncludePerson": 56,
   "MemberCount": 99.99,
-  "Name": "Will Group",
-  "PostitTextId": 463,
-  "CreatedDate": "2008-08-22T04:02:02.31613+02:00",
-  "SelectionId": 689,
-  "SoundEx": "at",
-  "Source": 291,
-  "TextId": 371,
-  "UpdatedDate": "2010-09-28T04:02:02.31613+02:00",
-  "UpdatedCount": 278,
-  "Visibility": 708,
+  "Name": "Gislason-Torphy",
+  "PostitTextId": 116,
+  "CreatedDate": "1999-07-01T03:44:53.1726478+02:00",
+  "SelectionId": 661,
+  "SoundEx": "tempore",
+  "Source": 892,
+  "TextId": 398,
+  "UpdatedDate": "2012-09-21T03:44:53.1726478+02:00",
+  "UpdatedCount": 878,
+  "Visibility": 286,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 212,
-  "TargetTableName": "Skiles-Koelpin",
+  "TargetTableNumber": 101,
+  "TargetTableName": "Christiansen Group",
   "Completed": false,
-  "LeftSelectionId": 852,
-  "RightSelectionId": 977,
+  "LeftSelectionId": 14,
+  "RightSelectionId": 637,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Connelly Group",
-  "ShadowProviderName": "Pollich-Balistreri",
-  "ChartKey": "odio",
-  "LastLoaded": "2002-08-31T04:02:02.31613+02:00",
-  "LastLoadedBy": 403,
+  "MainProviderName": "Ferry-Kautzer",
+  "ShadowProviderName": "Greenfelder Group",
+  "ChartKey": "sed",
+  "LastLoaded": "2016-01-31T03:44:53.1726478+01:00",
+  "LastLoadedBy": 139,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-11-08T04:02:02.31613+01:00",
-  "LastMembershipChangeBy": 286,
+  "LastMembershipChange": "2014-05-01T03:44:53.1726478+02:00",
+  "LastMembershipChangeBy": 549,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Hyatt-Koepp",
-  "DashboardTileDefinitionId": 922,
+  "MainHeading": "architecto",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Romaguera, Rempel and Fahey",
+  "DashboardTileDefinitionId": 158,
   "VisibleFor": [
     {
-      "VisibleId": 166,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldType": "System.String",
+          "FieldLength": 47
         }
       }
     },
     {
-      "VisibleId": 166,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldType": "System.String",
+          "FieldLength": 47
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 481
     }
   }
 }

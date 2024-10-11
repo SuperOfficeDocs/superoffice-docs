@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "cum",
-  "PrefKey": "a",
+  "PrefSection": "ab",
+  "PrefKey": "laborum",
   "PrefLevel": "Database",
-  "OwnerId": 78
+  "OwnerId": 16
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequatur",
+  "RawValue": "qui",
   "Specification": null,
-  "DisplayValue": "quaerat",
-  "DisplayTooltip": "provident",
+  "DisplayValue": "facilis",
+  "DisplayTooltip": "amet",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 876,
-  "PrefDescId": 113,
-  "TableName": "Stiedemann-Abbott",
-  "UserPreferenceId": 530,
+  "TargetId": 675,
+  "PrefDescId": 169,
+  "TableName": "Schumm-Kris",
+  "UserPreferenceId": 337,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldType": "System.String",
+      "FieldLength": 773
     }
   }
 }

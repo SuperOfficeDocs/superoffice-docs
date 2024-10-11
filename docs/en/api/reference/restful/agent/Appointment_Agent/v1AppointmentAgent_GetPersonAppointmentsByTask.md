@@ -132,16 +132,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 499,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2022-04-05T04:02:00.9713176+02:00",
-  "EndTime": "2001-11-09T04:02:00.9713176+01:00",
-  "Count": 489,
-  "TaskId": 661
+  "PersonId": 400,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2006-11-10T03:44:51.8240408+01:00",
+  "EndTime": "2001-01-08T03:44:51.8240408+01:00",
+  "Count": 276,
+  "TaskId": 335
 }
 ```
 
@@ -153,65 +153,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 635,
-    "StartDate": "2022-04-01T04:02:00.986941+02:00",
-    "EndDate": "2003-04-10T04:02:00.986941+02:00",
+    "AppointmentId": 342,
+    "StartDate": "2016-11-12T03:44:51.8240408+01:00",
+    "EndDate": "2018-08-18T03:44:51.8240408+02:00",
     "Type": "BookingForChecklist",
-    "Task": "natus",
-    "AssociateFullName": "Jo Alaina Gaylord DVM",
-    "ContactName": "Rath Group",
-    "Description": "Customer-focused intangible emulation",
-    "PersonFullName": "Isom Strosin",
-    "PersonId": 142,
-    "ContactId": 565,
-    "ProjectId": 323,
-    "ProjectName": "Abernathy, Schiller and Hintz",
-    "IsPublished": true,
-    "AssociateId": 367,
-    "ColorIndex": 21,
+    "Task": "necessitatibus",
+    "AssociateFullName": "Jackeline Durgan",
+    "ContactName": "Klocko-Cassin",
+    "Description": "Persistent actuating groupware",
+    "PersonFullName": "Fleta Donald Ernser III",
+    "PersonId": 220,
+    "ContactId": 697,
+    "ProjectId": 778,
+    "ProjectName": "Koss-Douglas",
+    "IsPublished": false,
+    "AssociateId": 746,
+    "ColorIndex": 650,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 432,
-    "PriorityName": "Dooley LLC",
+    "PriorityId": 340,
+    "PriorityName": "Auer-Leannon",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2004-01-18T04:02:00.986941+01:00",
+    "ActiveDate": "2001-02-12T03:44:51.8240408+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-11-03T04:02:00.986941+01:00",
-    "RecurringEndDate": "2012-09-12T04:02:00.986941+02:00",
-    "MotherId": 917,
-    "AssignedBy": 173,
-    "AssignedByFullName": "Nannie Brakus",
+    "RecurringStartDate": "2014-07-10T03:44:51.8240408+02:00",
+    "RecurringEndDate": "2002-11-05T03:44:51.8240408+01:00",
+    "MotherId": 138,
+    "AssignedBy": 47,
+    "AssignedByFullName": "Dulce Gerlach",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "non",
-    "SaleId": 523,
-    "SaleName": "Zboncak-Braun",
-    "AssociateName": "Purdy, Hane and Koch",
-    "CreatedDate": "2013-06-25T04:02:00.986941+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Garrick King Bauch IV",
-    "CreatedByAssociateId": 700,
+    "Location": "aut",
+    "AlarmLeadTime": "fuga",
+    "SaleId": 345,
+    "SaleName": "Mills LLC",
+    "AssociateName": "Conroy-Considine",
+    "CreatedDate": "2021-02-25T03:44:51.8240408+01:00",
+    "CreatedBy": "culpa",
+    "CreatedByFullName": "Benedict Osinski",
+    "CreatedByAssociateId": 102,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 979,
-    "Title": "aut",
-    "Agenda": "quia",
-    "InternalNotes": "quaerat",
+    "PreferredTZLocation": 171,
+    "Title": "sit",
+    "Agenda": "velit",
+    "InternalNotes": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 550
       }
     }
   }

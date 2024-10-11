@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 814,
-  "Username": "facere"
+  "ChatTopicId": 570,
+  "Username": "et"
 }
 ```
 

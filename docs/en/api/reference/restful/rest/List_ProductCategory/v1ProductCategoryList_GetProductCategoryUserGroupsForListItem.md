@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Abbott, Balistreri and Shanahan",
-    "ToolTip": "Optio quas libero fugiat eos dolorem quis.",
+    "Id": 122,
+    "Name": "Schuster LLC",
+    "ToolTip": "Neque quidem maiores quia corrupti.",
     "Deleted": false,
-    "Rank": 659,
-    "Type": "debitis",
-    "ColorBlock": 91,
-    "IconHint": "fuga",
-    "Selected": true,
-    "LastChanged": "2006-06-15T04:02:07.3065765+02:00",
+    "Rank": 951,
+    "Type": "autem",
+    "ColorBlock": 662,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "2022-06-10T03:44:58.062516+02:00",
     "ChildItems": [
       {
-        "Id": 533,
-        "Name": "Bauch, Hane and Littel",
-        "ToolTip": "Dolorem nesciunt voluptates.",
-        "Deleted": true,
-        "Rank": 412,
-        "Type": "quis",
-        "ColorBlock": 860,
-        "IconHint": "id",
+        "Id": 872,
+        "Name": "Mayert-Hamill",
+        "ToolTip": "Suscipit unde voluptas explicabo.",
+        "Deleted": false,
+        "Rank": 639,
+        "Type": "rerum",
+        "ColorBlock": 923,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2005-12-19T04:02:07.3065765+01:00",
+        "LastChanged": "2003-05-27T03:44:58.062516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "inventore",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Luigi Kassulke",
+        "FullName": "Miss Fletcher Maryam Hudson I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 206
+            "FieldType": "System.Int32",
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "velit",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Taya Morar",
+    "FullName": "Orval Jaden Hahn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 868
       }
     }
   }

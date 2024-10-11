@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 728
+  "UserGroupId": 821
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 588,
-    "ColumnId": 284,
-    "FieldDefault": "sint",
-    "FieldHeight": 945,
-    "FieldLabel": "eum",
-    "FieldLeft": 12,
-    "FieldTop": 744,
+    "UDefFieldId": 172,
+    "ColumnId": 277,
+    "FieldDefault": "quae",
+    "FieldHeight": 280,
+    "FieldLabel": "molestiae",
+    "FieldLeft": 996,
+    "FieldTop": 939,
     "FieldType": "Checkbox",
-    "FieldWidth": 131,
-    "FormatMask": "explicabo",
-    "HideLabel": false,
+    "FieldWidth": 53,
+    "FormatMask": "natus",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 85,
-    "LabelLeft": 111,
-    "LabelTop": 568,
-    "LabelWidth": 512,
-    "LastVersionId": 516,
-    "ListTableId": 492,
-    "IsMandatory": true,
+    "LabelHeight": 93,
+    "LabelLeft": 773,
+    "LabelTop": 550,
+    "LabelWidth": 464,
+    "LastVersionId": 519,
+    "ListTableId": 810,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 181,
-    "ProgId": "rerum",
+    "Page1LineNo": 231,
+    "ProgId": "fugit",
     "IsReadOnly": false,
-    "ShortLabel": "veniam",
-    "TabOrder": 206,
-    "TextLength": 573,
-    "Tooltip": "enim",
-    "UdefIdentity": 223,
-    "UDListDefinitionId": 637,
+    "ShortLabel": "aspernatur",
+    "TabOrder": 706,
+    "TextLength": 482,
+    "Tooltip": "suscipit",
+    "UdefIdentity": 354,
+    "UDListDefinitionId": 587,
     "Justification": "Center",
-    "Version": 533,
-    "TemplateVariableName": "Nader LLC",
+    "Version": 945,
+    "TemplateVariableName": "Raynor-Crona",
     "HasBeenPublished": false,
-    "MdoListName": "Miller, Simonis and Oberbrunner",
+    "MdoListName": "Adams, Smith and Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 11
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=136
+POST /api/v1/Agents/Contact/GetContact?contactId=192
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 94,
-  "Name": "Prosacco-Kling",
-  "OrgNr": "1267317",
+  "ContactId": 84,
+  "Name": "Wolff Group",
+  "OrgNr": "1826872",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "molestiae",
-  "DirectPhone": "(861)339-4919 x2684",
-  "AssociateId": 644,
-  "CountryId": 279,
-  "EmailAddress": "vivian.konopelski@pouros.us",
-  "Kananame": "et",
-  "EmailAddressName": "grace@christiansen.com",
+  "City": "quidem",
+  "DirectPhone": "(468)230-3128",
+  "AssociateId": 439,
+  "CountryId": 142,
+  "EmailAddress": "marisol_murazik@yundt.ca",
+  "Kananame": "ipsam",
+  "EmailAddressName": "devyn.romaguera@hahnboehm.biz",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Prof. Olen Suzanne Pagac",
+  "AssociateFullName": "Zachary Towne",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "dolor",
-  "FullName": "Prof. Kaelyn Nelson Wisozk Sr.",
+  "FormattedAddress": "ullam",
+  "FullName": "Peyton Metz",
   "IsOwnerContact": true,
-  "ActiveErpLinks": 937,
-  "Number1": "1245919",
-  "Number2": "652723",
+  "ActiveErpLinks": 801,
+  "Number1": "461356",
+  "Number2": "1476791",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 950
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Tremblay Inc and Sons",
-    "ToolTip": "Dignissimos odio reiciendis est officia.",
+    "Id": 109,
+    "Name": "Abshire, Thompson and Macejkovic",
+    "ToolTip": "Dignissimos velit eaque non eaque tempore architecto nihil.",
     "Deleted": false,
-    "Rank": 898,
-    "Type": "neque",
-    "ColorBlock": 318,
-    "IconHint": "minima",
+    "Rank": 627,
+    "Type": "aspernatur",
+    "ColorBlock": 735,
+    "IconHint": "perspiciatis",
     "Selected": true,
-    "LastChanged": "2013-08-25T04:02:07.3690701+02:00",
+    "LastChanged": "2020-11-18T03:44:58.1249703+01:00",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Cassin-Lakin",
-        "ToolTip": "Dolor laudantium necessitatibus delectus architecto vel repellat est.",
+        "Id": 757,
+        "Name": "Lockman-Gusikowski",
+        "ToolTip": "Fuga dolorem possimus.",
         "Deleted": false,
-        "Rank": 226,
-        "Type": "eius",
-        "ColorBlock": 993,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2013-01-12T04:02:07.3690701+01:00",
+        "Rank": 764,
+        "Type": "temporibus",
+        "ColorBlock": 51,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2004-03-09T03:44:58.1249703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "amet",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Mr. Briana Rippin PhD",
+        "FullName": "Aidan Yundt IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 64
+            "FieldLength": 485
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "fugit",
+    "ExtraInfo": "quia",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Jamarcus Weimann",
+    "FullName": "Prof. Gerry Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 792
       }
     }
   }

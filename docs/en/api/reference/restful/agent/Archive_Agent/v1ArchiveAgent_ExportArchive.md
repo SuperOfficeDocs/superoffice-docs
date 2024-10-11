@@ -87,55 +87,55 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Blick-Wiza",
-  "Context": "quibusdam",
+  "ProviderName": "Blanda LLC",
+  "Context": "ab",
   "DesiredEntities": [
-    "voluptas",
-    "quia"
+    "doloribus",
+    "magnam"
   ],
   "Columns": [
-    "aut",
-    "distinctio"
+    "libero",
+    "ut"
   ],
   "SortOrder": [
     {
-      "Name": "Sipes Inc and Sons",
+      "Name": "Harber-McGlynn",
       "Direction": "ASC"
     },
     {
-      "Name": "Sipes Inc and Sons",
+      "Name": "Harber-McGlynn",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Anderson, Monahan and McClure",
-      "Operator": "sed",
+      "Name": "Brown Inc and Sons",
+      "Operator": "deserunt",
       "Values": [
-        "labore",
-        "qui"
+        "accusantium",
+        "delectus"
       ],
       "DisplayValues": [
-        "vero",
-        "incidunt"
+        "amet",
+        "earum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 780,
+      "InterParenthesis": 424,
       "InterOperator": "And",
-      "UniqueHash": 192
+      "UniqueHash": 837
     }
   ],
-  "ExportType": "voluptas",
+  "ExportType": "eveniet",
   "SelectedRowIds": [
-    "quia",
-    "aspernatur"
+    "architecto",
+    "aliquam"
   ],
-  "EstimatedRowCount": 726
+  "EstimatedRowCount": 495
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 463,
-  "FileName": "Dooley, Kulas and O'Hara",
-  "Message": "ut",
+  "BatchTaskId": 894,
+  "FileName": "Bogisich-Glover",
+  "Message": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldType": "System.Int32",
+      "FieldLength": 31
     }
   }
 }

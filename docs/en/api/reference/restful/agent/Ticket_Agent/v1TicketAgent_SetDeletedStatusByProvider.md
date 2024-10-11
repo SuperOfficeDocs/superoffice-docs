@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hansen LLC",
+  "ProviderName": "Fay-Bahringer",
   "Restrictions": [
     {
-      "Name": "Dooley LLC",
-      "Operator": "minus",
+      "Name": "Beahan LLC",
+      "Operator": "ab",
       "Values": [
-        "vero",
-        "error"
+        "tempora",
+        "et"
       ],
       "DisplayValues": [
-        "aut",
-        "consectetur"
+        "voluptas",
+        "culpa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 995,
+      "InterParenthesis": 735,
       "InterOperator": "And",
-      "UniqueHash": 481
+      "UniqueHash": 653
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  294,
-  189
+  967,
+  767
 ]
 ```

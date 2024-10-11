@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 739,
+  "RecordId": 747,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "West-Hoppe",
-    "CrmFieldKey": "hic",
-    "Value": "non",
-    "DisplayValue": "aperiam",
+    "DisplayName": "Schamberger Inc and Sons",
+    "CrmFieldKey": "dolorem",
+    "Value": "numquam",
+    "DisplayValue": "molestiae",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldType": "System.String",
+        "FieldLength": 10
       }
     }
   }

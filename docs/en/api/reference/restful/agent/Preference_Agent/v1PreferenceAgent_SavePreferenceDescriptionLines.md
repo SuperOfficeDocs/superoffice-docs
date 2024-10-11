@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 399,
-      "PrefDescId": 832,
-      "PrefValue": "sed",
-      "PrefShowValue": "nostrum",
-      "Description": "Open-source zero administration workforce",
+      "PrefDescLineId": 557,
+      "PrefDescId": 945,
+      "PrefValue": "quaerat",
+      "PrefShowValue": "et",
+      "Description": "Re-contextualized client-server knowledge user",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 399,
-      "PrefDescId": 832,
-      "PrefValue": "sed",
-      "PrefShowValue": "nostrum",
-      "Description": "Open-source zero administration workforce",
+      "PrefDescLineId": 557,
+      "PrefDescId": 945,
+      "PrefValue": "quaerat",
+      "PrefShowValue": "et",
+      "Description": "Re-contextualized client-server knowledge user",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 183,
-    "PrefDescId": 854,
-    "PrefValue": "dolorum",
-    "PrefShowValue": "et",
-    "Description": "Business-focused uniform project",
+    "PrefDescLineId": 58,
+    "PrefDescId": 981,
+    "PrefValue": "quis",
+    "PrefShowValue": "voluptas",
+    "Description": "Cross-platform multi-state firmware",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

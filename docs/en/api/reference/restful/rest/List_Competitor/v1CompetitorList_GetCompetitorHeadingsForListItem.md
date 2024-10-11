@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Glover-Boyle",
-    "ToolTip": "Maiores voluptas magnam cupiditate deleniti aut.",
-    "Deleted": false,
-    "Rank": 655,
-    "Type": "aliquid",
-    "ColorBlock": 808,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2008-08-09T04:02:07.1034721+02:00",
+    "Id": 17,
+    "Name": "Breitenberg, Nitzsche and Berge",
+    "ToolTip": "Quaerat blanditiis architecto enim error at.",
+    "Deleted": true,
+    "Rank": 343,
+    "Type": "molestiae",
+    "ColorBlock": 632,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2023-03-07T03:44:57.8437502+01:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Kihn LLC",
-        "ToolTip": "Omnis facere voluptas vel necessitatibus.",
-        "Deleted": true,
-        "Rank": 972,
-        "Type": "non",
-        "ColorBlock": 225,
-        "IconHint": "doloribus",
-        "Selected": true,
-        "LastChanged": "2017-09-14T04:02:07.1034721+02:00",
+        "Id": 425,
+        "Name": "Auer LLC",
+        "ToolTip": "Doloremque quo repellendus qui aut fugiat quas.",
+        "Deleted": false,
+        "Rank": 120,
+        "Type": "reiciendis",
+        "ColorBlock": 230,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2020-08-07T03:44:57.8437502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "hic",
+        "StyleHint": "modi",
         "Hidden": true,
-        "FullName": "Mr. Mavis Madalyn Heaney MD",
+        "FullName": "Miss Humberto Dusty Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 666
+            "FieldType": "System.Int32",
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Ms. Laurence Smitham",
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Aniyah Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldType": "System.String",
+        "FieldLength": 891
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "minima",
-  "ProviderName": "Wiegand Group",
-  "StorageKey": "delectus",
+  "StorageType": "maiores",
+  "ProviderName": "Hauck Inc and Sons",
+  "StorageKey": "quia",
   "RestrictionGroup": null,
-  "Context": "praesentium"
+  "Context": "illum"
 }
 ```
 

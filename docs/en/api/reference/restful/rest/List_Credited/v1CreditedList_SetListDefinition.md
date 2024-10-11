@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 339,
-  "Name": "Heller LLC",
-  "Tooltip": "sit",
+  "Id": 564,
+  "Name": "Blanda, Yost and Kirlin",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 602,
+  "Rank": 331,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "unde",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "similique",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Turcotte-Bednar",
-  "Tooltip": "cum",
+  "Id": 504,
+  "Name": "Hermann-O'Reilly",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 469,
-  "IsCustomList": true,
+  "Rank": 604,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 606
     }
   }
 }

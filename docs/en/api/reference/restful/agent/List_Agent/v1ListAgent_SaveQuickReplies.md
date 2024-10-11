@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 651,
-      "Name": "Halvorson Group",
-      "HtmlBody": "cumque"
+      "QuickReplyId": 452,
+      "Name": "Ortiz, Stroman and Walker",
+      "HtmlBody": "eum"
     },
     {
-      "QuickReplyId": 651,
-      "Name": "Halvorson Group",
-      "HtmlBody": "cumque"
+      "QuickReplyId": 452,
+      "Name": "Ortiz, Stroman and Walker",
+      "HtmlBody": "eum"
     }
   ]
 }

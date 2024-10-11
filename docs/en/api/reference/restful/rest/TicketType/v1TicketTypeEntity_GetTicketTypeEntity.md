@@ -101,40 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 197,
-  "Name": "Berge, Ziemann and Windler",
-  "Rank": 657,
-  "Tooltip": "rem",
-  "Icon": "omnis",
-  "DefaultTicketStatus": 550,
+  "TicketTypeId": 834,
+  "Name": "Gaylord Inc and Sons",
+  "Rank": 809,
+  "Tooltip": "ipsa",
+  "Icon": "temporibus",
+  "DefaultTicketStatus": 24,
   "TicketStatuses": [
-    831,
-    586
+    957,
+    434
   ],
-  "DefaultTicketPriority": 119,
+  "DefaultTicketPriority": 825,
   "TicketPriorities": [
-    900,
-    385
+    107,
+    75
   ],
-  "ReplyTemplate": 818,
+  "ReplyTemplate": 409,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    230,
-    521
+    597,
+    135
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 576
     }
   },
   "_Links": {

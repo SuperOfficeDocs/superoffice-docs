@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 953,
-  "Name": "Jones-Herman",
-  "Rank": 209,
-  "Tooltip": "consequatur",
+  "AssociateId": 822,
+  "Name": "Harris LLC",
+  "Rank": 22,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Blanda-Johns",
-      "Description": "Centralized bi-directional superstructure",
+      "Name": "Dach, Grady and Osinski",
+      "Description": "Centralized multi-state process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 755
+          "FieldLength": 652
         }
       }
     },
     {
-      "Name": "Blanda-Johns",
-      "Description": "Centralized bi-directional superstructure",
+      "Name": "Dach, Grady and Osinski",
+      "Description": "Centralized multi-state process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 755
+          "FieldLength": 652
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "cum",
-      "Tooltip": "quia",
-      "Id": 697,
-      "Rank": 125,
+      "Value": "voluptates",
+      "Tooltip": "dolorem",
+      "Id": 80,
+      "Rank": 390,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldLength": 721
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2010-10-13T04:02:02.5665989+02:00",
-  "Lastlogout": "2023-01-25T04:02:02.5665989+01:00",
-  "EjUserId": 791,
-  "RequestSignature": "veritatis",
+  "Lastlogin": "2018-06-02T03:44:53.418654+02:00",
+  "Lastlogout": "2014-04-12T03:44:53.418654+02:00",
+  "EjUserId": 786,
+  "RequestSignature": "numquam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "delectus",
-      "DisplayValue": "ea",
+      "Value": "nihil",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldLength": 491
         }
       }
     },
     {
       "Type": null,
-      "Value": "delectus",
-      "DisplayValue": "ea",
+      "Value": "nihil",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldLength": 491
         }
       }
     }
   ],
-  "UserName": "Cummerata LLC",
+  "UserName": "Zemlak Group",
   "TicketCategories": [
     {
-      "Id": 293,
-      "Name": "Mayert Group",
-      "ToolTip": "Est autem doloribus nihil et at.",
-      "Deleted": false,
-      "Rank": 271,
-      "Type": "eos",
+      "Id": 937,
+      "Name": "Leffler, Feeney and Hackett",
+      "ToolTip": "Delectus dolorum et consequatur est mollitia ut.",
+      "Deleted": true,
+      "Rank": 833,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ab",
-      "ColorBlock": 720,
-      "ExtraInfo": "asperiores",
-      "StyleHint": "dignissimos",
-      "FullName": "Forest Gorczany",
+      "IconHint": "ut",
+      "ColorBlock": 156,
+      "ExtraInfo": "est",
+      "StyleHint": "et",
+      "FullName": "Ward Muller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 537
         }
       }
     }
   ],
-  "NickName": "Wehner-Heaney",
-  "WaitingForApproval": false,
+  "NickName": "Hartmann LLC",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "illum"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "perferendis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cummings-Grant",
-      "DisplayName": "Smith, Turner and Kozey",
-      "Description": "Monitored neutral service-desk",
-      "ToolTip": "Sequi molestias.",
+      "Name": "Haag, Hettinger and Metz",
+      "DisplayName": "Hyatt LLC",
+      "Description": "Sharable full-range framework",
+      "ToolTip": "Inventore ut et maiores atque.",
       "Actions": "Implicit",
-      "ActionData": "est",
+      "ActionData": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldType": "System.String",
+          "FieldLength": 838
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 339
     }
   }
 }

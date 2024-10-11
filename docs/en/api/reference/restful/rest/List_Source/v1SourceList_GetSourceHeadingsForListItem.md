@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Abshire-Feeney",
-    "ToolTip": "Dolorum suscipit assumenda.",
-    "Deleted": false,
-    "Rank": 392,
-    "Type": "nam",
-    "ColorBlock": 273,
-    "IconHint": "dolores",
+    "Id": 212,
+    "Name": "Schoen-Treutel",
+    "ToolTip": "Est ut numquam reiciendis id voluptate aut in.",
+    "Deleted": true,
+    "Rank": 572,
+    "Type": "est",
+    "ColorBlock": 700,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2006-07-30T04:02:07.4318023+02:00",
+    "LastChanged": "1998-04-24T03:44:58.17184+02:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Gislason-Homenick",
-        "ToolTip": "Optio fugiat quaerat illo rerum soluta eveniet.",
-        "Deleted": false,
-        "Rank": 661,
+        "Id": 57,
+        "Name": "Hodkiewicz-Wiza",
+        "ToolTip": "Sint est.",
+        "Deleted": true,
+        "Rank": 373,
         "Type": "et",
-        "ColorBlock": 290,
-        "IconHint": "maiores",
-        "Selected": false,
-        "LastChanged": "2001-04-03T04:02:07.4318023+02:00",
+        "ColorBlock": 344,
+        "IconHint": "voluptatum",
+        "Selected": true,
+        "LastChanged": "2005-06-08T03:44:58.17184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Kylee Baumbach",
+        "ExtraInfo": "iusto",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Madelyn Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 597
+            "FieldType": "System.String",
+            "FieldLength": 102
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "rem",
-    "Hidden": true,
-    "FullName": "Miss Zakary Tyrell Rice",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Omari Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

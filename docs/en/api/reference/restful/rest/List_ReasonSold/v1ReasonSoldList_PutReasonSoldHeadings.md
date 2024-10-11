@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 41,
-    "Name": "Pollich Group",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "Rank": 160,
-    "UdListDefinitionId": 186
+    "HeadingId": 444,
+    "Name": "Ondricka, Pacocha and Bins",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 406,
+    "UdListDefinitionId": 685
   },
   {
-    "HeadingId": 41,
-    "Name": "Pollich Group",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "Rank": 160,
-    "UdListDefinitionId": 186
+    "HeadingId": 444,
+    "Name": "Ondricka, Pacocha and Bins",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 406,
+    "UdListDefinitionId": 685
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 952,
-    "Name": "Marvin-Rempel",
-    "Tooltip": "voluptatum",
+    "HeadingId": 56,
+    "Name": "Beatty, Jaskolski and O'Hara",
+    "Tooltip": "natus",
     "Deleted": false,
-    "Rank": 32,
-    "UdListDefinitionId": 518,
+    "Rank": 662,
+    "UdListDefinitionId": 325,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 181
       }
     }
   }

@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 08 Nov 2020 04:02:06 G11T
+Last-Modified: Mon, 27 Apr 2015 03:44:57 G4T
 
 {
-  "SourceContactId": 950,
-  "SourcePersonId": 384,
-  "DestinationContactId": 725,
-  "DestinationPersonId": 806,
-  "RelationId": 360,
-  "Comment": "nemo",
-  "RelationDefinitionId": 575,
-  "Reversed": 312,
-  "UpdatedDate": "2020-11-08T04:02:06.4472912+01:00",
-  "CreatedDate": "2006-09-27T04:02:06.4472912+02:00",
+  "SourceContactId": 997,
+  "SourcePersonId": 149,
+  "DestinationContactId": 681,
+  "DestinationPersonId": 781,
+  "RelationId": 758,
+  "Comment": "et",
+  "RelationDefinitionId": 360,
+  "Reversed": 76,
+  "UpdatedDate": "2015-04-27T03:44:57.2028009+02:00",
+  "CreatedDate": "2012-12-29T03:44:57.2028009+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Corwin-Flatley",
-  "SourcePersonName": "Johnston, Davis and Conroy",
-  "DestinationContactName": "Turner-Kohler",
-  "DestinationPersonName": "Ullrich Group",
-  "ActiveText": "illo",
-  "PassiveText": "nemo",
+  "SourceContactName": "Batz Inc and Sons",
+  "SourcePersonName": "Beahan-Mante",
+  "DestinationContactName": "Rempel-Wisoky",
+  "DestinationPersonName": "Littel, Howell and Gutmann",
+  "ActiveText": "molestiae",
+  "PassiveText": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldLength": 346
     }
   },
   "_Links": {

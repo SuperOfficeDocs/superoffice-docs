@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Rogahn, Huels and Schowalter",
-  "PrimaryKey": 475,
+  "EventName": "Schaden-Jacobs",
+  "PrimaryKey": 888,
   "Data": {
     "fieldName": {}
   }

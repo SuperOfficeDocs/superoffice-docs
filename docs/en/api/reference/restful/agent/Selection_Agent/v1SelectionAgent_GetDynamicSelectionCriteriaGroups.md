@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 287
+  "SelectionId": 667
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Baumbach Inc and Sons",
-    "Description": "Right-sized bi-directional project",
-    "Rank": 238,
+    "Name": "Pouros-Stokes",
+    "Description": "Object-based intangible flexibility",
+    "Rank": 412,
     "Restrictions": [
       {
-        "Name": "Labadie, Hyatt and Jast",
-        "Operator": "sint",
+        "Name": "Little-Cruickshank",
+        "Operator": "ipsa",
         "Values": [
-          "aut",
-          "minus"
+          "sunt",
+          "sapiente"
         ],
         "DisplayValues": [
-          "iusto",
-          "porro"
+          "aut",
+          "cum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 656,
+        "InterParenthesis": 678,
         "InterOperator": "And",
-        "UniqueHash": 76
+        "UniqueHash": 553
       }
     ]
   },
   {
-    "Name": "Baumbach Inc and Sons",
-    "Description": "Right-sized bi-directional project",
-    "Rank": 238,
+    "Name": "Pouros-Stokes",
+    "Description": "Object-based intangible flexibility",
+    "Rank": 412,
     "Restrictions": [
       {
-        "Name": "Labadie, Hyatt and Jast",
-        "Operator": "sint",
+        "Name": "Little-Cruickshank",
+        "Operator": "ipsa",
         "Values": [
-          "aut",
-          "minus"
+          "sunt",
+          "sapiente"
         ],
         "DisplayValues": [
-          "iusto",
-          "porro"
+          "aut",
+          "cum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 656,
+        "InterParenthesis": 678,
         "InterOperator": "And",
-        "UniqueHash": 76
+        "UniqueHash": 553
       }
     ]
   }

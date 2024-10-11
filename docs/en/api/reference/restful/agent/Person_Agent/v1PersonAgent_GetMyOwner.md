@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "sapiente",
-  "PersonId": 769,
-  "Mrmrs": "eius",
-  "Firstname": "Jennie",
-  "Lastname": "Bernhard",
-  "MiddleName": "Boehm-Jerde",
-  "Title": "ipsa",
-  "Description": "Intuitive fresh-thinking implementation",
-  "Email": "karen@lind.co.uk",
-  "FullName": "Prof. Stella Schaden",
-  "DirectPhone": "364.538.6660 x66510",
-  "FormalName": "Eichmann-Hickle",
-  "CountryId": 192,
-  "ContactId": 85,
-  "ContactName": "Price, Kshlerin and Jaskolski",
-  "Retired": 946,
-  "Rank": 575,
-  "ActiveInterests": 597,
+  "Position": "error",
+  "PersonId": 642,
+  "Mrmrs": "vero",
+  "Firstname": "Gerald",
+  "Lastname": "Abernathy",
+  "MiddleName": "Connelly Group",
+  "Title": "eligendi",
+  "Description": "Front-line homogeneous model",
+  "Email": "woodrow.ohara@maggio.ca",
+  "FullName": "Krystina Walsh",
+  "DirectPhone": "902.821.3645",
+  "FormalName": "Lynch, Wiegand and D'Amore",
+  "CountryId": 811,
+  "ContactId": 504,
+  "ContactName": "Pollich-Mohr",
+  "Retired": 49,
+  "Rank": 258,
+  "ActiveInterests": 985,
   "ContactDepartment": "",
-  "ContactCountryId": 383,
-  "ContactOrgNr": "1379702",
-  "FaxPhone": "703-495-1428",
-  "MobilePhone": "1-786-495-9525 x41121",
-  "ContactPhone": "1-434-181-0827 x77281",
-  "AssociateName": "Halvorson, Douglas and Kihn",
-  "AssociateId": 490,
-  "UsePersonAddress": true,
-  "ContactFax": "nulla",
-  "Kanafname": "in",
-  "Kanalname": "labore",
-  "Post1": "voluptas",
-  "Post2": "enim",
-  "Post3": "non",
-  "EmailName": "tyreek@wilkinson.info",
-  "ContactFullName": "Arlene Wyman",
-  "ActiveErpLinks": 490,
-  "TicketPriorityId": 390,
-  "SupportLanguageId": 597,
-  "SupportAssociateId": 89,
+  "ContactCountryId": 581,
+  "ContactOrgNr": "735667",
+  "FaxPhone": "675-489-3318 x644",
+  "MobilePhone": "1-580-778-0766 x61843",
+  "ContactPhone": "551-296-5666",
+  "AssociateName": "Romaguera Inc and Sons",
+  "AssociateId": 53,
+  "UsePersonAddress": false,
+  "ContactFax": "sint",
+  "Kanafname": "qui",
+  "Kanalname": "beatae",
+  "Post1": "error",
+  "Post2": "distinctio",
+  "Post3": "soluta",
+  "EmailName": "raleigh.simonis@larkinschultz.info",
+  "ContactFullName": "Leonor Jerde",
+  "ActiveErpLinks": 553,
+  "TicketPriorityId": 812,
+  "SupportLanguageId": 973,
+  "SupportAssociateId": 606,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldType": "System.Int32",
+      "FieldLength": 955
     }
   }
 }

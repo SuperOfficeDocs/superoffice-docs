@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 767,
-  "BlobSize": 928,
-  "Description": "Sharable analyzing migration",
-  "ExtraInfo": "quibusdam",
+  "BlobId": 467,
+  "BlobSize": 360,
+  "Description": "Quality-focused neutral knowledge base",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 906,
-  "CreatedDate": "2003-07-04T04:02:01.2374146+02:00",
-  "UpdatedDate": "2002-11-21T04:02:01.2374146+01:00",
+  "IsZipped": true,
+  "MimeType": "quidem",
+  "OriginalSize": 726,
+  "CreatedDate": "2005-05-13T03:44:52.0896371+02:00",
+  "UpdatedDate": "2022-08-22T03:44:52.0896371+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quas",
+  "ConceptualType": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 610
     }
   }
 }

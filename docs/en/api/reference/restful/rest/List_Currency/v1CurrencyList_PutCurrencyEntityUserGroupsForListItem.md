@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Durgan, Glover and Dickinson",
-    "ToolTip": "Nihil consectetur.",
-    "Deleted": false,
-    "Rank": 114,
-    "Type": "fugiat",
-    "ColorBlock": 106,
-    "IconHint": "optio",
+    "Id": 378,
+    "Name": "Leannon-Eichmann",
+    "ToolTip": "Enim quia ex.",
+    "Deleted": true,
+    "Rank": 19,
+    "Type": "cupiditate",
+    "ColorBlock": 339,
+    "IconHint": "accusantium",
     "Selected": true,
-    "LastChanged": "1999-08-20T04:02:07.1347182+02:00",
+    "LastChanged": "2003-01-15T03:44:57.9687368+01:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Marquardt Inc and Sons",
-        "ToolTip": "Repellendus aut beatae qui repellat iure nihil.",
-        "Deleted": true,
-        "Rank": 459,
-        "Type": "aut",
-        "ColorBlock": 110,
-        "IconHint": "accusantium",
+        "Id": 52,
+        "Name": "Kshlerin Inc and Sons",
+        "ToolTip": "Labore eum quasi ad eligendi qui.",
+        "Deleted": false,
+        "Rank": 781,
+        "Type": "qui",
+        "ColorBlock": 848,
+        "IconHint": "nulla",
         "Selected": false,
-        "LastChanged": "2024-07-26T04:02:07.1347182+02:00",
+        "LastChanged": "2021-05-09T03:44:57.9687368+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Miss Barton Baumbach DDS"
+        "FullName": "Dr. Jaclyn Shanahan III"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "aut",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Shawna Abshire"
+    "FullName": "Gerson Walsh"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Veum, Vandervort and Kautzer",
-    "ToolTip": "Cumque ducimus et.",
+    "Id": 512,
+    "Name": "Skiles Inc and Sons",
+    "ToolTip": "Non labore deleniti rerum veniam.",
     "Deleted": false,
-    "Rank": 627,
-    "Type": "ipsam",
-    "ColorBlock": 771,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2023-01-03T04:02:07.1347182+01:00",
+    "Rank": 380,
+    "Type": "vel",
+    "ColorBlock": 911,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2002-10-13T03:44:57.9687368+02:00",
     "ChildItems": [
       {
-        "Id": 3,
-        "Name": "Kutch, Terry and Stroman",
-        "ToolTip": "Sint veniam a molestiae et autem.",
+        "Id": 958,
+        "Name": "Champlin Inc and Sons",
+        "ToolTip": "Cupiditate blanditiis exercitationem magnam qui.",
         "Deleted": false,
-        "Rank": 230,
-        "Type": "illo",
-        "ColorBlock": 586,
-        "IconHint": "id",
+        "Rank": 814,
+        "Type": "officia",
+        "ColorBlock": 943,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "1998-02-23T04:02:07.1347182+01:00",
+        "LastChanged": "2016-02-06T03:44:57.9687368+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ut",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Garnett Schultz",
+        "FullName": "Cecil Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldLength": 754
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Turner Reynolds",
+    "FullName": "Johnnie Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldLength": 377
       }
     }
   }

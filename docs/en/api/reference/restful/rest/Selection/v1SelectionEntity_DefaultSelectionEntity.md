@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 25 May 2019 04:02:06 G5T
+Last-Modified: Sun, 23 Oct 2011 03:44:57 G10T
 
 {
-  "Description": "Implemented bi-directional policy",
-  "Postit": "doloribus",
+  "Description": "Universal methodical model",
+  "Postit": "sit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 259,
-  "IncludePerson": 903,
+  "GroupIdx": 407,
+  "IncludePerson": 300,
   "MemberCount": 99.99,
-  "Name": "Hartmann, Koelpin and Cartwright",
-  "PostitTextId": 870,
-  "CreatedDate": "2015-02-21T04:02:06.8222516+01:00",
-  "SelectionId": 55,
-  "SoundEx": "sapiente",
-  "Source": 816,
-  "TextId": 402,
-  "UpdatedDate": "2019-05-25T04:02:06.8222516+02:00",
-  "UpdatedCount": 278,
-  "Visibility": 159,
+  "Name": "Rau-Kiehn",
+  "PostitTextId": 585,
+  "CreatedDate": "2009-11-20T03:44:57.5625173+01:00",
+  "SelectionId": 843,
+  "SoundEx": "quasi",
+  "Source": 515,
+  "TextId": 533,
+  "UpdatedDate": "2011-10-23T03:44:57.5625173+02:00",
+  "UpdatedCount": 27,
+  "Visibility": 963,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 499,
-  "TargetTableName": "Welch Inc and Sons",
+  "TargetTableNumber": 318,
+  "TargetTableName": "Torphy, Goyette and Breitenberg",
   "Completed": false,
-  "LeftSelectionId": 464,
-  "RightSelectionId": 812,
+  "LeftSelectionId": 273,
+  "RightSelectionId": 878,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Greenfelder, Gislason and Wintheiser",
-  "ShadowProviderName": "Okuneva, Sipes and Schaden",
-  "ChartKey": "qui",
-  "LastLoaded": "2004-02-23T04:02:06.8222516+01:00",
-  "LastLoadedBy": 986,
+  "MainProviderName": "Blick Group",
+  "ShadowProviderName": "Kerluke, Jones and Volkman",
+  "ChartKey": "est",
+  "LastLoaded": "1999-06-02T03:44:57.5625173+02:00",
+  "LastLoadedBy": 924,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-06-05T04:02:06.8222516+02:00",
-  "LastMembershipChangeBy": 847,
+  "LastMembershipChange": "2001-09-05T03:44:57.5625173+02:00",
+  "LastMembershipChangeBy": 175,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nostrum",
-  "MemberTabHeading": "vel",
-  "MailingsProviderName": "Rice LLC",
-  "DashboardTileDefinitionId": 255,
+  "MainHeading": "occaecati",
+  "MemberTabHeading": "dolorem",
+  "MailingsProviderName": "Windler-Barrows",
+  "DashboardTileDefinitionId": 459,
   "VisibleFor": [
     {
-      "VisibleId": 545,
+      "VisibleId": 603,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 492
+          "FieldLength": 227
         }
       }
     },
     {
-      "VisibleId": 545,
+      "VisibleId": 603,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 492
+          "FieldLength": 227
         }
       }
     }
@@ -180,8 +180,8 @@ Last-Modified: Sat, 25 May 2019 04:02:06 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 407
     }
   }
 }

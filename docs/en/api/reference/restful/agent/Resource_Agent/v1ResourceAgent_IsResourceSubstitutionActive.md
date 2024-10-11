@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Reichert LLC",
-    "Huel, Block and Gulgowski"
+    "Weimann, Will and Quigley",
+    "Glover LLC"
   ],
-  "Culture": "esse"
+  "Culture": "eos"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Emard Group",
-    "ResourceValue": "quae",
+    "ResourceName": "Wisoky, Kemmer and Sauer",
+    "ResourceValue": "soluta",
     "Culture": "veniam",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldType": "System.Int32",
+        "FieldLength": 437
       }
     }
   },
   {
-    "ResourceName": "Emard Group",
-    "ResourceValue": "quae",
+    "ResourceName": "Wisoky, Kemmer and Sauer",
+    "ResourceValue": "soluta",
     "Culture": "veniam",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldType": "System.Int32",
+        "FieldLength": 437
       }
     }
   }

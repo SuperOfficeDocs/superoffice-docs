@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 828,
-  "Name": "Daniel LLC",
-  "Tooltip": "ut",
-  "SaveInDb": 258,
-  "Filename": "nisi",
-  "DefaultOref": "dolorum",
+  "DocumentTemplateId": 119,
+  "Name": "Schmeler Inc and Sons",
+  "Tooltip": "autem",
+  "SaveInDb": 361,
+  "Filename": "facere",
+  "DefaultOref": "officia",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 159,
-  "IntentId": 777,
+  "AutoeventId": 229,
+  "IntentId": 935,
   "IsDefaultPublished": false,
-  "Rank": 218,
-  "LoadTemplateFromPlugin": 443,
-  "MimeType": "voluptatem",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 89,
+  "Rank": 918,
+  "LoadTemplateFromPlugin": 91,
+  "MimeType": "voluptas",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 572,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cheyanne@schmitt.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "luis_kris@braunohara.co.uk",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "louvenia@croninheidenreich.uk",
+  "SenderEmailAddress": "lindsey_deckow@olsonwiegand.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 194
     }
   }
 }

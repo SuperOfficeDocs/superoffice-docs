@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Kerluke LLC",
-    "ToolTip": "Qui officiis omnis sunt.",
-    "Deleted": true,
-    "Rank": 502,
-    "Type": "suscipit",
-    "ColorBlock": 690,
-    "IconHint": "velit",
+    "Id": 592,
+    "Name": "Powlowski Group",
+    "ToolTip": "Voluptatum ipsa totam veniam accusamus repellendus quia quibusdam.",
+    "Deleted": false,
+    "Rank": 911,
+    "Type": "quod",
+    "ColorBlock": 469,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2004-06-24T04:02:07.3534465+02:00",
+    "LastChanged": "1999-01-08T03:44:58.1093468+01:00",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Hayes-Spinka",
-        "ToolTip": "Est odio voluptates illum ut temporibus.",
-        "Deleted": true,
-        "Rank": 966,
-        "Type": "ipsum",
-        "ColorBlock": 975,
-        "IconHint": "magnam",
+        "Id": 210,
+        "Name": "Bradtke Group",
+        "ToolTip": "Laboriosam et odit deleniti alias voluptas.",
+        "Deleted": false,
+        "Rank": 787,
+        "Type": "ut",
+        "ColorBlock": 413,
+        "IconHint": "alias",
         "Selected": true,
-        "LastChanged": "2016-09-20T04:02:07.3534465+02:00",
+        "LastChanged": "2005-06-12T03:44:58.1093468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Chyna Mueller Sr.",
+        "ExtraInfo": "error",
+        "StyleHint": "soluta",
+        "Hidden": true,
+        "FullName": "Otho Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldType": "System.String",
+            "FieldLength": 873
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "natus",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Prof. Mikel Maida Torphy IV",
+    "FullName": "Dasia Bednar V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 700
+        "FieldLength": 723
       }
     }
   }

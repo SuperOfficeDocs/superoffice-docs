@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2006-11-22T04:02:01.2056679+01:00",
-  "ToDate": "2014-11-03T04:02:01.2056679+01:00",
+  "FromDate": "2017-04-15T03:44:52.0427664+02:00",
+  "ToDate": "2018-06-26T03:44:52.0427664+02:00",
   "AssociateList": [
     {
-      "Id": 989,
-      "Name": "Waters Group",
-      "ToolTip": "Numquam aut.",
-      "Deleted": false,
-      "Rank": 229,
-      "Type": "placeat",
-      "ColorBlock": 942,
-      "IconHint": "consequuntur",
+      "Id": 976,
+      "Name": "Lebsack, Roberts and Bernhard",
+      "ToolTip": "Nobis qui quo ex.",
+      "Deleted": true,
+      "Rank": 871,
+      "Type": "sint",
+      "ColorBlock": 976,
+      "IconHint": "nihil",
       "Selected": false,
-      "LastChanged": "2019-10-30T04:02:01.2057742+01:00",
+      "LastChanged": "2014-03-26T03:44:52.0427664+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "maxime",
-      "Hidden": false,
-      "FullName": "Dortha Moen",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Horacio Ernest Padberg II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 735
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 78,
-      "Name": "Wintheiser, Muller and Pfeffer",
-      "ToolTip": "Laboriosam ut.",
+      "Id": 679,
+      "Name": "Zemlak Group",
+      "ToolTip": "Sit quod.",
       "Deleted": false,
-      "Rank": 73,
-      "Type": "reprehenderit",
-      "ColorBlock": 148,
-      "IconHint": "totam",
-      "Selected": true,
-      "LastChanged": "2021-02-25T04:02:01.2057742+01:00",
+      "Rank": 400,
+      "Type": "voluptatibus",
+      "ColorBlock": 331,
+      "IconHint": "sed",
+      "Selected": false,
+      "LastChanged": "2006-01-07T03:44:52.0427664+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "quos",
-      "Hidden": true,
-      "FullName": "Katelin Turcotte",
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "molestiae",
+      "Hidden": false,
+      "FullName": "Deven Julia Schowalter IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldLength": 968
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 695,
-      "Name": "Harber Group",
-      "ToolTip": "Et molestias autem ut.",
-      "Deleted": false,
-      "Rank": 833,
-      "Type": "cupiditate",
+      "Id": 638,
+      "Name": "Berge Group",
+      "ToolTip": "Ducimus laborum pariatur nobis.",
+      "Deleted": true,
+      "Rank": 970,
+      "Type": "dolor",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "officia",
-      "ColorBlock": 795,
-      "ExtraInfo": "accusantium",
-      "StyleHint": "vitae",
-      "FullName": "Prof. Frederik Nadia Cole II",
+      "IconHint": "occaecati",
+      "ColorBlock": 284,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "sunt",
+      "FullName": "Thea Nader",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 148
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

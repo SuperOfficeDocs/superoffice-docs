@@ -1022,7 +1022,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/personfavourites?$select=getAllRows,personContact/postAddress/line3,personContact/contactExtra/x_contact_time,request/realTimeSpentExternally,projectMembers/updatedByFullName
+GET /api/v1/archive/personfavourites?$select=personRegisteredBy,personAddress/wgs84longitude,personSourceRelation/useAsMailingAddress,correspondingAssociate/isLocation,personContact/contactSupportPerson/consentSourceEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

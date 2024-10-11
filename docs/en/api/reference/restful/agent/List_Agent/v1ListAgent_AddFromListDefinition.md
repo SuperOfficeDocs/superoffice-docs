@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 689,
+  "UdListDefinitionId": 295,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 951,
-  "Name": "Jacobi, Mante and Sauer",
-  "Tooltip": "dolorem",
+  "Id": 377,
+  "Name": "Langosh Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 502,
-  "Rank": 878,
+  "UdListDefinitionId": 165,
+  "Rank": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 530
     }
   }
 }

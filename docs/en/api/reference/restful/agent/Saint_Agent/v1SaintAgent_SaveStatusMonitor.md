@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 644,
-  "Rank": 59,
-  "DefaultTask": 530,
-  "DefaultTaskText": "quia",
-  "IsVisual": false,
-  "LastGenerated": "2015-03-09T04:02:02.2378308+01:00",
-  "Description": "Right-sized radical function",
-  "Name": "Reinger-Wyman",
-  "StatusMonitorId": 857,
-  "PictureId": 771,
-  "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 651,
-  "NumNeedUpdate": 564,
-  "GenerationStart": "2004-10-12T04:02:02.2378308+02:00"
+  "OwnerTable": 886,
+  "Rank": 820,
+  "DefaultTask": 1000,
+  "DefaultTaskText": "dignissimos",
+  "IsVisual": true,
+  "LastGenerated": "2011-03-13T03:44:53.0900933+01:00",
+  "Description": "Face to face full-range extranet",
+  "Name": "Bartell-Weber",
+  "StatusMonitorId": 152,
+  "PictureId": 595,
+  "NeedsUpdate": false,
+  "Deleted": false,
+  "NumMatches": 121,
+  "NumNeedUpdate": 674,
+  "GenerationStart": "2004-06-11T03:44:53.0900933+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 517,
-  "Rank": 888,
-  "DefaultTask": 725,
-  "DefaultTaskText": "sapiente",
-  "IsVisual": false,
-  "LastGenerated": "2008-12-12T04:02:02.2378308+01:00",
-  "Description": "Multi-layered cohesive definition",
-  "Name": "Boyle-Turcotte",
-  "StatusMonitorId": 763,
-  "PictureId": 919,
+  "OwnerTable": 101,
+  "Rank": 156,
+  "DefaultTask": 594,
+  "DefaultTaskText": "totam",
+  "IsVisual": true,
+  "LastGenerated": "2023-03-04T03:44:53.0900933+01:00",
+  "Description": "Profound full-range customer loyalty",
+  "Name": "Fadel, Berge and Conn",
+  "StatusMonitorId": 660,
+  "PictureId": 846,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 895,
-  "NumNeedUpdate": 372,
-  "GenerationStart": "2006-01-18T04:02:02.2378308+01:00",
+  "Deleted": false,
+  "NumMatches": 32,
+  "NumNeedUpdate": 721,
+  "GenerationStart": "2008-12-03T03:44:53.0900933+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 662
     }
   }
 }

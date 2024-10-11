@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Morissette Group",
-  "Tooltip": "eaque",
-  "Deleted": true,
-  "UdListDefinitionId": 791,
-  "Rank": 293,
+  "Id": 641,
+  "Name": "Bartoletti LLC",
+  "Tooltip": "id",
+  "Deleted": false,
+  "UdListDefinitionId": 553,
+  "Rank": 211,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 124
     }
   }
 }

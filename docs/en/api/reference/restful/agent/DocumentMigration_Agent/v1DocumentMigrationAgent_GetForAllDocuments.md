@@ -84,8 +84,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 70,
-  "IncludeEmails": true
+  "DocumentPluginId": 592,
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 604,
-  "NumDocumentsAlreadyMigrated": 452,
+  "NumDocumentsOmitted": 233,
+  "NumDocumentsAlreadyMigrated": 324,
   "Documents": [
     {
-      "DocumentId": 672,
-      "ContactId": 656,
-      "PersonId": 265,
-      "SaleId": 976,
-      "ProjectId": 821,
-      "DocTmplId": 707,
-      "AssociateId": 570,
-      "UserGroupId": 521,
-      "VisibleForId": 85
+      "DocumentId": 114,
+      "ContactId": 214,
+      "PersonId": 917,
+      "SaleId": 54,
+      "ProjectId": 615,
+      "DocTmplId": 451,
+      "AssociateId": 176,
+      "UserGroupId": 367,
+      "VisibleForId": 15
     }
   ],
   "Associates": [
     {
-      "AssociateId": 870,
-      "EmailAddress": "leora@kling.name"
+      "AssociateId": 659,
+      "EmailAddress": "alison.cartwright@rempelmurazik.us"
     },
     {
-      "AssociateId": 870,
-      "EmailAddress": "leora@kling.name"
+      "AssociateId": 659,
+      "EmailAddress": "alison.cartwright@rempelmurazik.us"
     }
   ]
 }

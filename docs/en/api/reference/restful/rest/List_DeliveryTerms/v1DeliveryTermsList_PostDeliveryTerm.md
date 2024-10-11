@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 919,
-  "Name": "O'Keefe, Larkin and Shanahan",
-  "Tooltip": "et",
+  "Id": 766,
+  "Name": "O'Conner Group",
+  "Tooltip": "labore",
   "Deleted": false,
-  "UdListDefinitionId": 625,
-  "Rank": 108
+  "UdListDefinitionId": 806,
+  "Rank": 935
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 368,
-  "Name": "McKenzie, Stoltenberg and Dooley",
-  "Tooltip": "voluptatem",
+  "Id": 829,
+  "Name": "Stoltenberg Inc and Sons",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "UdListDefinitionId": 715,
-  "Rank": 581,
+  "UdListDefinitionId": 381,
+  "Rank": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

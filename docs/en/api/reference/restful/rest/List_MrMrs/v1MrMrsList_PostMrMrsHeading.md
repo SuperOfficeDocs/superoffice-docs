@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 212,
-  "Name": "Beatty-Kirlin",
-  "Tooltip": "et",
+  "HeadingId": 625,
+  "Name": "Hermiston, Towne and Bergnaum",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 462,
-  "UdListDefinitionId": 648
+  "Rank": 381,
+  "UdListDefinitionId": 440
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 425,
-  "Name": "Bernier LLC",
-  "Tooltip": "nisi",
+  "HeadingId": 621,
+  "Name": "Hammes Group",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 867,
-  "UdListDefinitionId": 882,
+  "Rank": 650,
+  "UdListDefinitionId": 485,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 972
     }
   }
 }

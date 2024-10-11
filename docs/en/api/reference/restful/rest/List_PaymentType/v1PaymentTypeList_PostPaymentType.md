@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 263,
-  "Name": "Pfannerstill-Beer",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "UdListDefinitionId": 866,
-  "Rank": 277
+  "Id": 834,
+  "Name": "Carter, Kassulke and Schumm",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "UdListDefinitionId": 834,
+  "Rank": 829
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 19,
-  "Name": "Corkery Group",
-  "Tooltip": "velit",
+  "Id": 671,
+  "Name": "Ebert, Leannon and Ullrich",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "UdListDefinitionId": 786,
-  "Rank": 379,
+  "UdListDefinitionId": 614,
+  "Rank": 427,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldType": "System.Int32",
+      "FieldLength": 470
     }
   }
 }

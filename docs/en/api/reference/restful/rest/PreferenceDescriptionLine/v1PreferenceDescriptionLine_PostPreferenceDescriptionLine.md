@@ -90,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 487,
-  "PrefDescId": 967,
-  "PrefValue": "magni",
-  "PrefShowValue": "vel",
-  "Description": "Progressive high-level policy",
-  "IsBuiltin": false
+  "PrefDescLineId": 732,
+  "PrefDescId": 783,
+  "PrefValue": "dolores",
+  "PrefShowValue": "est",
+  "Description": "Open-architected modular forecast",
+  "IsBuiltin": true
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 291,
-  "PrefDescId": 180,
-  "PrefValue": "laboriosam",
-  "PrefShowValue": "autem",
-  "Description": "Stand-alone tertiary groupware",
-  "IsBuiltin": true,
+  "PrefDescLineId": 384,
+  "PrefDescId": 318,
+  "PrefValue": "tempora",
+  "PrefShowValue": "perspiciatis",
+  "Description": "Synergistic dedicated conglomeration",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

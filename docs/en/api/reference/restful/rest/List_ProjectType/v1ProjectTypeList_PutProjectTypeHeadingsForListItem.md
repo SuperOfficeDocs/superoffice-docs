@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Aufderhar, Goldner and D'Amore",
-    "ToolTip": "Nihil omnis sapiente iure dolorem laboriosam.",
-    "Deleted": true,
-    "Rank": 482,
-    "Type": "nisi",
-    "ColorBlock": 195,
-    "IconHint": "provident",
+    "Id": 438,
+    "Name": "Conn Group",
+    "ToolTip": "Molestiae veritatis ut rerum.",
+    "Deleted": false,
+    "Rank": 307,
+    "Type": "aut",
+    "ColorBlock": 456,
+    "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "2012-03-25T04:02:07.3534465+02:00",
+    "LastChanged": "1998-08-22T03:44:58.0937233+02:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Hahn Inc and Sons",
-        "ToolTip": "Architecto autem.",
+        "Id": 216,
+        "Name": "Heaney, Dickinson and Runte",
+        "ToolTip": "Cupiditate quos distinctio sint rerum porro.",
         "Deleted": true,
-        "Rank": 610,
-        "Type": "qui",
-        "ColorBlock": 642,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2000-11-24T04:02:07.3534465+01:00",
+        "Rank": 612,
+        "Type": "quaerat",
+        "ColorBlock": 616,
+        "IconHint": "facilis",
+        "Selected": false,
+        "LastChanged": "2019-12-30T03:44:58.0937233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "possimus",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Marcel Sienna Heidenreich Jr."
+        "FullName": "Prof. Osbaldo Faustino Feil DVM"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Prof. Kenyatta Gerhold MD"
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "deserunt",
+    "Hidden": true,
+    "FullName": "Eve Reinger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "Kreiger, Bailey and Macejkovic",
-    "ToolTip": "Autem cum id optio rerum qui.",
-    "Deleted": true,
-    "Rank": 639,
-    "Type": "facere",
-    "ColorBlock": 771,
-    "IconHint": "adipisci",
-    "Selected": false,
-    "LastChanged": "2024-07-11T04:02:07.3534465+02:00",
+    "Id": 765,
+    "Name": "Goldner LLC",
+    "ToolTip": "Natus eos natus occaecati voluptas voluptatum.",
+    "Deleted": false,
+    "Rank": 885,
+    "Type": "rem",
+    "ColorBlock": 819,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2013-10-26T03:44:58.0937233+02:00",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Oberbrunner Inc and Sons",
-        "ToolTip": "Velit nesciunt consequatur.",
-        "Deleted": false,
-        "Rank": 415,
-        "Type": "deleniti",
-        "ColorBlock": 206,
-        "IconHint": "repellendus",
-        "Selected": false,
-        "LastChanged": "2007-03-02T04:02:07.3534465+01:00",
+        "Id": 790,
+        "Name": "Wiza, Frami and Cruickshank",
+        "ToolTip": "Porro voluptates ex tenetur laborum corrupti sunt.",
+        "Deleted": true,
+        "Rank": 575,
+        "Type": "consequatur",
+        "ColorBlock": 875,
+        "IconHint": "fugiat",
+        "Selected": true,
+        "LastChanged": "2002-06-04T03:44:58.0937233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "in",
+        "ExtraInfo": "alias",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Mr. Sonia Ara Ullrich",
+        "FullName": "Sonya Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldType": "System.String",
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "aut",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Flo Quitzon",
+    "FullName": "Ms. Israel Jakubowski MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 542
+        "FieldType": "System.Int32",
+        "FieldLength": 101
       }
     }
   }

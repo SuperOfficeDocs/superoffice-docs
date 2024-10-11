@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 454
+  "ProjectId": 870
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 921,
-    "Attention": "rerum",
-    "Header": "et",
-    "Name": "Nienow Group",
-    "OurRef": "nihil",
-    "YourRef": "beatae",
-    "Description": "Configurable contextually-based project",
-    "DocumentTemplate": "voluptas",
+    "DocumentId": 291,
+    "Attention": "qui",
+    "Header": "corporis",
+    "Name": "McLaughlin-Lynch",
+    "OurRef": "dolore",
+    "YourRef": "molestiae",
+    "Description": "Multi-lateral grid-enabled neural-net",
+    "DocumentTemplate": "dolore",
     "IsPublished": true,
-    "PersonId": 80,
-    "PersonFullName": "Clifford Koelpin II",
-    "AssociateFullName": "Cassandra O'Hara",
-    "ContactId": 190,
-    "ContactName": "Satterfield, Jacobson and Pfeffer",
-    "ProjectId": 215,
-    "ProjectName": "Crist-Kutch",
-    "AssociateId": 665,
-    "Snum": 962,
-    "SaleId": 258,
-    "SaleName": "Mosciski-Turner",
+    "PersonId": 514,
+    "PersonFullName": "Ms. Delmer Turner",
+    "AssociateFullName": "Carlie Eduardo Padberg III",
+    "ContactId": 382,
+    "ContactName": "Brekke Group",
+    "ProjectId": 734,
+    "ProjectName": "Gislason Inc and Sons",
+    "AssociateId": 175,
+    "Snum": 247,
+    "SaleId": 554,
+    "SaleName": "McKenzie Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldLength": 415
       }
     }
   }

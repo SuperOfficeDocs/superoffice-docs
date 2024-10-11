@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 10,
-  "DocumentId": 606,
+  "SelectionId": 273,
+  "DocumentId": 198,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "tempore",
+  "CustomAttention": "dicta",
   "AlwaysUseCustomAttention": false,
-  "SaveDocument": false,
-  "CustomMailBody": "ut",
+  "SaveDocument": true,
+  "CustomMailBody": "illum",
   "TaskEntity": null,
-  "AddCompanyInterest": 995,
-  "AddPersonInterest": 724,
-  "RemoveCompanyInterest": 7,
-  "RemovePersonInterest": 352,
-  "IncludeNoMailingsRecipient": true,
+  "AddCompanyInterest": 941,
+  "AddPersonInterest": 145,
+  "RemoveCompanyInterest": 660,
+  "RemovePersonInterest": 321,
+  "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 88,
+  "ProjectId": 237,
   "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": true,
-  "CustomMailSubject": "dicta",
-  "ExtraInfo": "at",
-  "Synchronous": true,
-  "IsTemporarySelection": true,
+  "CustomMailSubject": "assumenda",
+  "ExtraInfo": "odio",
+  "Synchronous": false,
+  "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 508
     }
   }
 }

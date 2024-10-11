@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 64,
-  "Name": "Feil LLC",
+  "ScreenChooserId": 856,
+  "Name": "Renner, Runolfsdottir and Dicki",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "aperiam",
-  "Source": "perferendis",
-  "Registered": "1998-06-21T04:02:06.9316148+02:00",
-  "RegisteredAssociateId": 742,
-  "Updated": "2013-09-22T04:02:06.9316148+02:00",
-  "UpdatedAssociateId": 923
+  "Enabled": true,
+  "UniqueIdentifier": "accusamus",
+  "Source": "in",
+  "Registered": "2024-04-26T03:44:57.687517+02:00",
+  "RegisteredAssociateId": 336,
+  "Updated": "2016-10-08T03:44:57.687517+02:00",
+  "UpdatedAssociateId": 606
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 11,
-  "Name": "Gusikowski, Gleason and Koepp",
+  "ScreenChooserId": 994,
+  "Name": "Hintz, Hermiston and Padberg",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "occaecati",
-  "Source": "voluptate",
-  "Registered": "2019-07-22T04:02:06.9316148+02:00",
-  "RegisteredAssociateId": 990,
-  "Updated": "2006-12-26T04:02:06.9316148+01:00",
-  "UpdatedAssociateId": 769,
+  "Enabled": true,
+  "UniqueIdentifier": "at",
+  "Source": "consequatur",
+  "Registered": "2014-10-11T03:44:57.687517+02:00",
+  "RegisteredAssociateId": 355,
+  "Updated": "2009-09-26T03:44:57.687517+02:00",
+  "UpdatedAssociateId": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 273
     }
   }
 }

@@ -87,14 +87,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "esse",
-  "Value": "sed",
-  "RecordId": 77,
-  "CreatedDate": "2021-09-20T04:02:06.6191478+02:00",
-  "UpdatedDate": "2005-03-19T04:02:06.6191478+01:00",
-  "UpdatedBy": "incidunt",
-  "CreatedBy": "expedita",
-  "TableName": "Lesch Inc and Sons"
+  "Key": "modi",
+  "Value": "magnam",
+  "RecordId": 835,
+  "CreatedDate": "2003-10-23T03:44:57.359003+02:00",
+  "UpdatedDate": "2019-11-27T03:44:57.359003+01:00",
+  "UpdatedBy": "deleniti",
+  "CreatedBy": "voluptas",
+  "TableName": "Cremin LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "esse",
-  "Value": "enim",
-  "RecordId": 546,
-  "CreatedDate": "2019-02-09T04:02:06.6191478+01:00",
-  "UpdatedDate": "2014-08-08T04:02:06.6191478+02:00",
-  "UpdatedBy": "cum",
-  "CreatedBy": "et",
-  "TableName": "Hauck Group",
+  "Key": "aliquam",
+  "Value": "natus",
+  "RecordId": 240,
+  "CreatedDate": "2012-04-26T03:44:57.359003+02:00",
+  "UpdatedDate": "2011-09-13T03:44:57.359003+02:00",
+  "UpdatedBy": "libero",
+  "CreatedBy": "consequatur",
+  "TableName": "Bednar-Bogisich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 358
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 783,
-    "Name": "Romaguera LLC",
-    "Tooltip": "et",
+    "HeadingId": 785,
+    "Name": "Kulas-Lakin",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 207,
-    "UdListDefinitionId": 640,
+    "Rank": 284,
+    "UdListDefinitionId": 359,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 900
       }
     }
   }

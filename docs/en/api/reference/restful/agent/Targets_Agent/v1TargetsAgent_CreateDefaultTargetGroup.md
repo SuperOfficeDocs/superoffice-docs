@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 587,
-  "Year": 4,
+  "TargetGroupId": 912,
+  "Year": 7,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 941,
+      "TargetAssignmentInfoId": 468,
       "Values": [
-        156,
-        891
+        443,
+        776
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 117,
-      "DimensionListItemDisplayName": "Konopelski-Nikolaus",
+      "DimensionListItem": 175,
+      "DimensionListItemDisplayName": "Harvey-Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldType": "System.String",
+          "FieldLength": 250
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldType": "System.String",
+      "FieldLength": 597
     }
   }
 }

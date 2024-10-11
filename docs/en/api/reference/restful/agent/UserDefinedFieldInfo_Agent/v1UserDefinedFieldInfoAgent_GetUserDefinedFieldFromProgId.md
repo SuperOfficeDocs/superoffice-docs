@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "deleniti",
+  "ProgId": "velit",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 43,
-  "ColumnId": 600,
-  "FieldDefault": "ut",
-  "FieldHeight": 123,
-  "FieldLabel": "saepe",
-  "FieldLeft": 864,
-  "FieldTop": 21,
+  "UDefFieldId": 223,
+  "ColumnId": 305,
+  "FieldDefault": "quis",
+  "FieldHeight": 541,
+  "FieldLabel": "fuga",
+  "FieldLeft": 201,
+  "FieldTop": 224,
   "FieldType": "Checkbox",
-  "FieldWidth": 81,
-  "FormatMask": "modi",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 538,
-  "LabelLeft": 615,
-  "LabelTop": 993,
-  "LabelWidth": 342,
-  "LastVersionId": 432,
-  "ListTableId": 480,
+  "FieldWidth": 174,
+  "FormatMask": "blanditiis",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 201,
+  "LabelLeft": 478,
+  "LabelTop": 865,
+  "LabelWidth": 276,
+  "LastVersionId": 975,
+  "ListTableId": 448,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 278,
-  "ProgId": "voluptas",
+  "Page1LineNo": 129,
+  "ProgId": "at",
   "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 406,
-  "TextLength": 123,
-  "Tooltip": "esse",
-  "UdefIdentity": 791,
-  "UDListDefinitionId": 9,
+  "ShortLabel": "sit",
+  "TabOrder": 394,
+  "TextLength": 417,
+  "Tooltip": "iste",
+  "UdefIdentity": 538,
+  "UDListDefinitionId": 93,
   "Justification": "Center",
-  "Version": 37,
-  "TemplateVariableName": "Conn-Sawayn",
+  "Version": 612,
+  "TemplateVariableName": "Gleason Group",
   "HasBeenPublished": true,
-  "MdoListName": "Kuhlman-Blick",
+  "MdoListName": "Hamill Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldType": "System.Int32",
+      "FieldLength": 941
     }
   }
 }

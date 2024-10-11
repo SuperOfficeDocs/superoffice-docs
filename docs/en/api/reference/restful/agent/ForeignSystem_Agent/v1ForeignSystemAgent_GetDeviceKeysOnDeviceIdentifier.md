@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuvalis-Blanda",
-  "DeviceName": "Reichert-Koss",
-  "DeviceIdentifier": "corporis"
+  "ApplicationName": "Spinka LLC",
+  "DeviceName": "Rosenbaum Inc and Sons",
+  "DeviceIdentifier": "soluta"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "repudiandae",
-    "Value": "itaque",
-    "RecordId": 241,
-    "CreatedDate": "1998-03-01T04:02:01.8003604+01:00",
-    "UpdatedDate": "2006-08-30T04:02:01.8003604+02:00",
-    "UpdatedBy": "quidem",
-    "CreatedBy": "eos",
-    "TableName": "Powlowski Group",
+    "Key": "dolores",
+    "Value": "dignissimos",
+    "RecordId": 908,
+    "CreatedDate": "2023-04-10T03:44:52.6521119+02:00",
+    "UpdatedDate": "2009-07-10T03:44:52.6521119+02:00",
+    "UpdatedBy": "id",
+    "CreatedBy": "modi",
+    "TableName": "Morar LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldType": "System.String",
+        "FieldLength": 6
       }
     }
   }

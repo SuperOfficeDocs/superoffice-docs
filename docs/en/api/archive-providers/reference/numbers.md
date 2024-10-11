@@ -1,7 +1,7 @@
 ---
 uid: Numbers
 title: Numbers
-description: Archive provider for the list of userpreferences
+description: Archive provider for the list of numbers, for the number allocation system. Not be confused with table sequence numbers.
 keywords: Numbers archive provider
 so.generated: true
 so.topic: reference
@@ -12,7 +12,7 @@ so.envir: onsite, online
 
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.NumbersProviderBase">SuperOffice.CRM.ArchiveLists.NumbersProviderBase</see> inside NetServer's SODatabase assembly.
 
-Archive provider for the list of userpreferences
+Archive provider for the list of numbers, for the number allocation system. Not be confused with table sequence numbers.
 
 ## Supported Entities
 | Name | Description |
@@ -76,7 +76,7 @@ Archive provider for the list of userpreferences
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=updated_associate/portraitThumbnail,nextnum,updated_associate/title
+GET /api/v1/archive/Numbers?$select=updated_associate/ejDisplayName,nextnum,updated_associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

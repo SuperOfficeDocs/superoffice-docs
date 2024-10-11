@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 878,
-  "Value": "voluptas",
+  "TaskListItemId": 716,
+  "Value": "esse",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "tempore",
+  "Tooltip": "non",
   "Deleted": false,
-  "IntentId": 559,
-  "Rank": 296,
-  "IsDefaultAlldayEvent": false,
+  "IntentId": 750,
+  "Rank": 14,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

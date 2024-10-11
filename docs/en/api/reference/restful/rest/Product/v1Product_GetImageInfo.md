@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 09 Apr 2023 04:02:06 G4T
+Last-Modified: Wed, 05 Jul 2023 03:44:57 G7T
 
 {
-  "BlobId": 816,
-  "BlobSize": 47,
-  "Description": "Managed 4th generation approach",
-  "ExtraInfo": "reiciendis",
-  "IsEncrypted": true,
+  "BlobId": 211,
+  "BlobSize": 654,
+  "Description": "De-engineered clear-thinking leverage",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ad",
-  "OriginalSize": 631,
-  "CreatedDate": "2004-04-20T04:02:06.9784855+02:00",
-  "UpdatedDate": "2023-04-09T04:02:06.9784855+02:00",
+  "MimeType": "consequatur",
+  "OriginalSize": 439,
+  "CreatedDate": "1997-09-02T03:44:57.7344277+02:00",
+  "UpdatedDate": "2023-07-05T03:44:57.7344277+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cupiditate",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 854
     }
   }
 }

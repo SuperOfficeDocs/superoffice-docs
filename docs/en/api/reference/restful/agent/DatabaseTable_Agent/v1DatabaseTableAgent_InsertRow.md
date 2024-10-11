@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wintheiser-Cummerata",
+  "TableName": "Howell, Ferry and Parisian",
   "Values": {
-    "Values1": "sit",
-    "Values2": "nesciunt"
+    "Values1": "consequatur",
+    "Values2": "delectus"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-6
+632
 ```

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 596,
-    "Name": "Turner, Haley and Bins",
-    "Tooltip": "nulla",
-    "Deleted": true,
-    "UdListDefinitionId": 989,
-    "Rank": 840,
+    "Id": 571,
+    "Name": "Luettgen Inc and Sons",
+    "Tooltip": "a",
+    "Deleted": false,
+    "UdListDefinitionId": 467,
+    "Rank": 79,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 343
       }
     }
   }

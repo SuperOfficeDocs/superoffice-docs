@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 533
+  "QuoteId": 1000
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 767,
-  "SaleId": 243,
-  "QuoteConnectionId": 524,
-  "ERPQuoteKey": "qui",
-  "ERPOrderKey": "nesciunt",
-  "ActiveQuoteVersionId": 260,
-  "AcceptedQuoteAlternativeId": 748,
-  "UseValuesFromQuote": 978,
-  "DocumentId": 212,
-  "PoNumber": "1235500",
-  "OrderComment": "aliquid",
-  "PreferredEmailCulture": "darrion.effertz@lebsack.ca",
+  "QuoteId": 752,
+  "SaleId": 302,
+  "QuoteConnectionId": 33,
+  "ERPQuoteKey": "nam",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 560,
+  "AcceptedQuoteAlternativeId": 255,
+  "UseValuesFromQuote": 987,
+  "DocumentId": 976,
+  "PoNumber": "1426216",
+  "OrderComment": "qui",
+  "PreferredEmailCulture": "rosalia@gottlieb.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 227
     }
   }
 }

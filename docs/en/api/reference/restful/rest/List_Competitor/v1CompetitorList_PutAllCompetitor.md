@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Schowalter, Thompson and Kemmer",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 437,
-    "Rank": 493
+    "Id": 828,
+    "Name": "Gottlieb-Stokes",
+    "Tooltip": "accusantium",
+    "Deleted": true,
+    "UdListDefinitionId": 406,
+    "Rank": 884
   },
   {
-    "Id": 451,
-    "Name": "Schowalter, Thompson and Kemmer",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 437,
-    "Rank": 493
+    "Id": 828,
+    "Name": "Gottlieb-Stokes",
+    "Tooltip": "accusantium",
+    "Deleted": true,
+    "UdListDefinitionId": 406,
+    "Rank": 884
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Name": "Marvin Group",
-    "Tooltip": "animi",
-    "Deleted": true,
-    "UdListDefinitionId": 941,
-    "Rank": 265,
+    "Id": 416,
+    "Name": "Schoen-Schulist",
+    "Tooltip": "unde",
+    "Deleted": false,
+    "UdListDefinitionId": 913,
+    "Rank": 473,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldType": "System.String",
+        "FieldLength": 964
       }
     }
   }

@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 259,
-    "Name": "Haag, Treutel and Farrell",
-    "Tooltip": "provident",
-    "Rank": 876,
+    "SaleTypeId": 307,
+    "Name": "Leannon LLC",
+    "Tooltip": "minima",
+    "Rank": 515,
     "DurationUnit": "Century",
-    "SaleDuration": 121,
-    "SaleTypeCatId": 548,
+    "SaleDuration": 211,
+    "SaleTypeCatId": 440,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 990,
-    "QuoteLinesTemplate": 585,
-    "ConfirmationLinesTemplate": 166,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 672,
-    "MinEarningPercent": 725,
-    "GroupQuoteLinesBy": 550,
-    "SortGroupLinesBy": 55,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 20,
+    "QuoteLinesTemplate": 647,
+    "ConfirmationLinesTemplate": 639,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 312,
+    "MinEarningPercent": 130,
+    "GroupQuoteLinesBy": 829,
+    "SortGroupLinesBy": 145,
     "Stages": [
       {
-        "Id": 917,
-        "Name": "Wilderman-Leuschke",
-        "ToolTip": "Provident enim modi in provident non omnis.",
-        "Deleted": true,
-        "Rank": 15,
-        "Type": "quis",
-        "ColorBlock": 562,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2016-04-09T04:02:07.4003498+02:00",
+        "Id": 624,
+        "Name": "Terry, Torp and Pfeffer",
+        "ToolTip": "Aperiam sed.",
+        "Deleted": false,
+        "Rank": 376,
+        "Type": "natus",
+        "ColorBlock": 119,
+        "IconHint": "quas",
+        "Selected": true,
+        "LastChanged": "2013-08-20T03:44:58.1562167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Charlene Emily Gaylord III",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Elliot Metz PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldLength": 564
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldType": "System.String",
+        "FieldLength": 96
       }
     }
   }

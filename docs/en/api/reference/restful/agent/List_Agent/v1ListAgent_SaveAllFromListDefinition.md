@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 255,
+  "UdListDefinitionId": 744,
   "Items": [
     {
-      "Id": 142,
-      "Name": "Pfannerstill, Baumbach and Heaney",
-      "Tooltip": "sed",
+      "Id": 705,
+      "Name": "Jaskolski LLC",
+      "Tooltip": "natus",
       "Deleted": false,
-      "UdListDefinitionId": 68,
-      "Rank": 791
+      "UdListDefinitionId": 677,
+      "Rank": 635
     },
     {
-      "Id": 142,
-      "Name": "Pfannerstill, Baumbach and Heaney",
-      "Tooltip": "sed",
+      "Id": 705,
+      "Name": "Jaskolski LLC",
+      "Tooltip": "natus",
       "Deleted": false,
-      "UdListDefinitionId": 68,
-      "Rank": 791
+      "UdListDefinitionId": 677,
+      "Rank": 635
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Huel Group",
-    "Tooltip": "tempora",
+    "Id": 570,
+    "Name": "Bashirian-Okuneva",
+    "Tooltip": "dolorem",
     "Deleted": true,
-    "UdListDefinitionId": 595,
-    "Rank": 760,
+    "UdListDefinitionId": 636,
+    "Rank": 328,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 791
       }
     }
   }

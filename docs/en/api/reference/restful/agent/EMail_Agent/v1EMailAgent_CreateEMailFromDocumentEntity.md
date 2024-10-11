@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 609,
-      "ContactName": "Sporer Inc and Sons",
-      "PersonId": 95,
-      "PersonName": "Cummings, Bruen and Romaguera",
-      "AssociateId": 698,
-      "Address": "dignissimos",
-      "EmailId": 378,
+      "ContactId": 40,
+      "ContactName": "Langosh Group",
+      "PersonId": 981,
+      "PersonName": "Morar LLC",
+      "AssociateId": 526,
+      "Address": "ipsa",
+      "EmailId": 589,
       "DuplicatePersonIds": [
-        853,
-        348
+        397,
+        465
       ],
-      "Name": "Hirthe Inc and Sons",
+      "Name": "Breitenberg Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldType": "System.Int32",
+          "FieldLength": 108
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 568,
-      "ContactName": "Dicki, Marvin and Kuvalis",
-      "PersonId": 314,
-      "PersonName": "Cruickshank, Smitham and Wisozk",
-      "AssociateId": 158,
-      "Address": "molestiae",
-      "EmailId": 11,
+      "ContactId": 508,
+      "ContactName": "Kautzer-Weimann",
+      "PersonId": 782,
+      "PersonName": "Schumm-Ryan",
+      "AssociateId": 87,
+      "Address": "explicabo",
+      "EmailId": 404,
       "DuplicatePersonIds": [
-        657,
-        255
+        909,
+        513
       ],
-      "Name": "Kilback, Legros and Volkman",
+      "Name": "Kuvalis-O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 681
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 875,
-      "ContactName": "Murray, Reilly and Mohr",
-      "PersonId": 620,
-      "PersonName": "Braun, Langosh and Lehner",
-      "AssociateId": 632,
-      "Address": "dolore",
-      "EmailId": 183,
+      "ContactId": 516,
+      "ContactName": "Nolan Group",
+      "PersonId": 757,
+      "PersonName": "Luettgen Inc and Sons",
+      "AssociateId": 823,
+      "Address": "dolor",
+      "EmailId": 984,
       "DuplicatePersonIds": [
-        809,
-        101
+        934,
+        695
       ],
-      "Name": "Quigley Inc and Sons",
+      "Name": "Johnston, Schimmel and Lebsack",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldLength": 685
         }
       }
     }
   ],
-  "Subject": "neque",
-  "HTMLBody": "voluptas",
+  "Subject": "sunt",
+  "HTMLBody": "magnam",
   "From": null,
-  "Sent": "2014-02-17T04:02:01.7373708+01:00",
-  "Size": 832,
+  "Sent": "2008-09-08T03:44:52.6052418+02:00",
+  "Size": 958,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolor",
-  "PlainBody": "fuga",
+  "MessageID": "veritatis",
+  "PlainBody": "voluptate",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 667,
+  "ServerId": 355,
   "Attachments": [
     {
-      "Description": "Innovative 24 hour Graphic Interface",
-      "Filename": "eos",
-      "Size": 433,
-      "Type": "quis",
-      "Encoding": "commodi",
-      "Id": "non",
-      "Disposition": "quas",
-      "IsSafeFileExtension": false,
+      "Description": "Seamless heuristic internet solution",
+      "Filename": "cupiditate",
+      "Size": 671,
+      "Type": "et",
+      "Encoding": "accusantium",
+      "Id": "vel",
+      "Disposition": "qui",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 569
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Erdman-Lubowitz",
+      "Name": "Friesen, Heathcote and Wiza",
       "Values": [
-        "non",
-        "iste"
+        "cupiditate",
+        "ratione"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     },
     {
-      "Name": "Erdman-Lubowitz",
+      "Name": "Friesen, Heathcote and Wiza",
       "Values": [
-        "non",
-        "iste"
+        "cupiditate",
+        "ratione"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     }
   ],
-  "FolderName": "Quitzon, Boyle and Parisian",
-  "EmailItemId": 410,
-  "AccountId": 886,
-  "ReceivedAt": "1998-10-20T04:02:01.7373708+02:00",
+  "FolderName": "Romaguera Inc and Sons",
+  "EmailItemId": 174,
+  "AccountId": 411,
+  "ReceivedAt": "2022-08-01T03:44:52.6052418+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-10-08T04:02:01.7373708+02:00",
+  "RepliedAt": "2014-09-09T03:44:52.6052418+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

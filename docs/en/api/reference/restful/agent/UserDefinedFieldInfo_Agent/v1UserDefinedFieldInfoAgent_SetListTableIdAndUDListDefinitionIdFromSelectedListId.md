@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 458
+  "SelectedListId": 121
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 31,
-  "ColumnId": 723,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 37,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 859,
-  "FieldTop": 221,
+  "UDefFieldId": 736,
+  "ColumnId": 683,
+  "FieldDefault": "laboriosam",
+  "FieldHeight": 688,
+  "FieldLabel": "exercitationem",
+  "FieldLeft": 854,
+  "FieldTop": 524,
   "FieldType": "Checkbox",
-  "FieldWidth": 251,
-  "FormatMask": "modi",
+  "FieldWidth": 164,
+  "FormatMask": "maxime",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 193,
-  "LabelLeft": 636,
-  "LabelTop": 557,
-  "LabelWidth": 359,
-  "LastVersionId": 647,
-  "ListTableId": 536,
-  "IsMandatory": false,
+  "LabelHeight": 250,
+  "LabelLeft": 610,
+  "LabelTop": 841,
+  "LabelWidth": 729,
+  "LastVersionId": 582,
+  "ListTableId": 128,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 43,
-  "ProgId": "quod",
+  "Page1LineNo": 177,
+  "ProgId": "dolorem",
   "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 685,
-  "TextLength": 641,
-  "Tooltip": "sint",
-  "UdefIdentity": 585,
-  "UDListDefinitionId": 669,
+  "ShortLabel": "recusandae",
+  "TabOrder": 146,
+  "TextLength": 876,
+  "Tooltip": "nemo",
+  "UdefIdentity": 1000,
+  "UDListDefinitionId": 49,
   "Justification": "Center",
-  "Version": 154,
-  "TemplateVariableName": "Feeney, Thiel and Bernhard",
+  "Version": 547,
+  "TemplateVariableName": "Kreiger-Lang",
   "HasBeenPublished": true,
-  "MdoListName": "Frami, Prohaska and Barton",
+  "MdoListName": "Ankunding-Towne",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   }
 }

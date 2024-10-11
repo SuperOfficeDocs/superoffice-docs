@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Haley Inc and Sons",
-  "StorageKey": "consectetur",
+  "StorageType": "velit",
+  "ProviderName": "Feeney LLC",
+  "StorageKey": "nisi",
   "Restrictions": [
     {
-      "Name": "Durgan-Corkery",
-      "Operator": "mollitia",
+      "Name": "Kuhlman Inc and Sons",
+      "Operator": "eius",
       "Values": [
-        "nulla",
-        "unde"
+        "atque",
+        "exercitationem"
       ],
       "DisplayValues": [
-        "voluptas",
-        "earum"
+        "qui",
+        "fugit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 731,
+      "InterParenthesis": 303,
       "InterOperator": "And",
-      "UniqueHash": 819
+      "UniqueHash": 692
     }
   ]
 }

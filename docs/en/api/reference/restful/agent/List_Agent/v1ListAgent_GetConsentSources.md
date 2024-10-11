@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 177,
-    "Name": "Goodwin-Hudson",
-    "Tooltip": "officia",
-    "Rank": 32,
-    "Key": "non",
-    "MailTemplateId": 766,
+    "ConsentSourceId": 216,
+    "Name": "Pacocha Group",
+    "Tooltip": "natus",
+    "Rank": 260,
+    "Key": "quasi",
+    "MailTemplateId": 721,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 985
+        "FieldLength": 898
       }
     }
   }

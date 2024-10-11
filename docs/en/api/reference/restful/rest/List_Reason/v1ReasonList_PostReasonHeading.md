@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 583,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "nulla",
+  "HeadingId": 961,
+  "Name": "Kertzmann LLC",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "Rank": 111,
-  "UdListDefinitionId": 79
+  "Rank": 581,
+  "UdListDefinitionId": 49
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 22,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "nam",
+  "HeadingId": 809,
+  "Name": "Hayes, Ruecker and Wisozk",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 678,
-  "UdListDefinitionId": 914,
+  "Rank": 994,
+  "UdListDefinitionId": 19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 74
     }
   }
 }

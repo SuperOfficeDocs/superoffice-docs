@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bauch Group",
+  "Name": "Schuppe-Nicolas",
   "Entities": [
     {
-      "HeadingId": 345,
-      "Name": "Fadel, Ferry and Muller",
-      "Tooltip": "voluptas",
-      "Deleted": false,
-      "Rank": 154,
-      "UdListDefinitionId": 424
+      "HeadingId": 188,
+      "Name": "Cole-Ziemann",
+      "Tooltip": "non",
+      "Deleted": true,
+      "Rank": 190,
+      "UdListDefinitionId": 188
     },
     {
-      "HeadingId": 345,
-      "Name": "Fadel, Ferry and Muller",
-      "Tooltip": "voluptas",
-      "Deleted": false,
-      "Rank": 154,
-      "UdListDefinitionId": 424
+      "HeadingId": 188,
+      "Name": "Cole-Ziemann",
+      "Tooltip": "non",
+      "Deleted": true,
+      "Rank": 190,
+      "UdListDefinitionId": 188
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 737,
-    "Name": "Bergstrom Inc and Sons",
-    "Tooltip": "ab",
+    "HeadingId": 801,
+    "Name": "Rolfson LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 341,
-    "UdListDefinitionId": 826,
+    "Rank": 546,
+    "UdListDefinitionId": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 741
+        "FieldType": "System.String",
+        "FieldLength": 446
       }
     }
   }

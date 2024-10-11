@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "tenetur",
-      "ValueType": "omnis",
-      "Mandatory": false,
-      "EncodedDisplayName": "Prosacco, Bradtke and Lakin",
-      "EncodedDisplayDescription": "Cross-platform tertiary application",
-      "IconHint": "consequuntur",
+      "Key": "consequatur",
+      "ValueType": "voluptate",
+      "Mandatory": true,
+      "EncodedDisplayName": "Quitzon-Harvey",
+      "EncodedDisplayDescription": "Innovative encompassing hardware",
+      "IconHint": "sit",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "ut",
-      "EncodedDataCaptionDescription": "Organized context-sensitive hub",
-      "CurrentOperationType": "mollitia",
+      "EncodedDataCaption": "omnis",
+      "EncodedDataCaptionDescription": "Seamless next generation orchestration",
+      "CurrentOperationType": "et",
       "Values": [
-        "eum",
-        "saepe"
+        "illum",
+        "qui"
       ],
       "DisplayValues": [
-        "hic",
+        "voluptatem",
         "et"
       ],
       "OperationInfos": [
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Christiansen-Quigley",
-  "Context": "porro",
-  "SelectionId": 703,
-  "IsShadow": false
+  "TableName": "Macejkovic-Lebsack",
+  "Context": "reiciendis",
+  "SelectionId": 282,
+  "IsShadow": true
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-445
+782
 ```

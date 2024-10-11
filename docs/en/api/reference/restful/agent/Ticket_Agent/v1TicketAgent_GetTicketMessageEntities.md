@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 555,
+  "TicketId": 365,
   "MessageIds": [
-    885,
-    66
+    40,
+    498
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 402,
+    "EjMessageId": 129,
     "Ticket": null,
-    "CreatedAt": "2008-12-31T04:02:02.4723634+01:00",
+    "CreatedAt": "2004-08-25T03:44:53.3247981+02:00",
     "CreatedBy": null,
-    "Author": "non",
+    "Author": "quod",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "modi",
-    "TimeSpent": 562,
-    "Body": "inventore",
-    "HtmlBody": "repellendus",
-    "EmailHeader": "preston@schaden.co.uk",
-    "DebugInfo": "labore",
-    "MailSorter": "facere",
+    "MessageId": "autem",
+    "TimeSpent": 637,
+    "Body": "reprehenderit",
+    "HtmlBody": "et",
+    "EmailHeader": "helmer_wiza@pollich.name",
+    "DebugInfo": "libero",
+    "MailSorter": "ut",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "eos",
+    "SearchTitle": "quia",
     "MessageHeaders": [
       {
-        "Id": 35,
-        "Name": "Rodriguez LLC",
-        "Value": "ducimus",
+        "Id": 511,
+        "Name": "Durgan, Hand and Kunde",
+        "Value": "illo",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 964
+            "FieldType": "System.String",
+            "FieldLength": 126
           }
         }
       }
     ],
     "Important": false,
-    "Language": "in",
-    "Sentiment": 99,
-    "SentimentConfidence": 370,
+    "Language": "animi",
+    "Sentiment": 374,
+    "SentimentConfidence": 598,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 537,
-        "Name": "Wilderman, Satterfield and Schowalter",
-        "ContentType": "reiciendis",
-        "AttSize": 789,
-        "InlineImage": false,
-        "ContentId": "quod",
-        "AuthKey": "aliquam",
+        "AttachmentId": 1001,
+        "Name": "Witting, Kovacek and Streich",
+        "ContentType": "eius",
+        "AttSize": 620,
+        "InlineImage": true,
+        "ContentId": "atque",
+        "AuthKey": "id",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 484
+            "FieldType": "System.Int32",
+            "FieldLength": 614
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "recusandae",
-      "ExtraFields2": "voluptatem"
+      "ExtraFields1": "vitae",
+      "ExtraFields2": "unde"
     },
     "CustomFields": {
-      "CustomFields1": "molestias",
-      "CustomFields2": "est"
+      "CustomFields1": "quia",
+      "CustomFields2": "corporis"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldLength": 64
       }
     }
   }

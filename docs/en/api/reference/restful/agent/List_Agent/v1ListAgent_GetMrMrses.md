@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Value": "et",
-    "Tooltip": "neque",
+    "Id": 691,
+    "Value": "sapiente",
+    "Tooltip": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldType": "System.String",
+        "FieldLength": 129
       }
     }
   },
   {
-    "Id": 285,
-    "Value": "et",
-    "Tooltip": "neque",
+    "Id": 691,
+    "Value": "sapiente",
+    "Tooltip": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldType": "System.String",
+        "FieldLength": 129
       }
     }
   }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 525,
-    "ColumnId": 559,
-    "FieldDefault": "voluptas",
-    "FieldHeight": 665,
-    "FieldLabel": "nulla",
-    "FieldLeft": 729,
-    "FieldTop": 584,
+    "UDefFieldId": 630,
+    "ColumnId": 55,
+    "FieldDefault": "id",
+    "FieldHeight": 830,
+    "FieldLabel": "reiciendis",
+    "FieldLeft": 303,
+    "FieldTop": 764,
     "FieldType": "Checkbox",
-    "FieldWidth": 249,
-    "FormatMask": "pariatur",
-    "HideLabel": false,
+    "FieldWidth": 283,
+    "FormatMask": "deserunt",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 811,
-    "LabelLeft": 54,
-    "LabelTop": 755,
-    "LabelWidth": 669,
-    "LastVersionId": 314,
-    "ListTableId": 711,
-    "IsMandatory": false,
+    "LabelHeight": 448,
+    "LabelLeft": 221,
+    "LabelTop": 660,
+    "LabelWidth": 446,
+    "LastVersionId": 783,
+    "ListTableId": 466,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 378,
-    "ProgId": "adipisci",
-    "IsReadOnly": true,
-    "ShortLabel": "adipisci",
-    "TabOrder": 906,
-    "TextLength": 546,
-    "Tooltip": "cumque",
-    "UdefIdentity": 916,
-    "UDListDefinitionId": 26,
+    "Page1LineNo": 582,
+    "ProgId": "exercitationem",
+    "IsReadOnly": false,
+    "ShortLabel": "facere",
+    "TabOrder": 487,
+    "TextLength": 373,
+    "Tooltip": "id",
+    "UdefIdentity": 984,
+    "UDListDefinitionId": 123,
     "Justification": "Center",
-    "Version": 319,
-    "TemplateVariableName": "Ebert, Torp and Becker",
+    "Version": 599,
+    "TemplateVariableName": "Stoltenberg LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Dickens, Balistreri and Schaden",
+    "MdoListName": "Schuster Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 572
+        "FieldType": "System.Int32",
+        "FieldLength": 504
       }
     }
   }

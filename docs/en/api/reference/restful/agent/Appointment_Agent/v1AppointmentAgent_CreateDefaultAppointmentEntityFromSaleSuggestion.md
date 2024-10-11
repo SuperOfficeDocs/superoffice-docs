@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 83,
-  "SaleId": 598,
+  "SuggestedAppointmentId": 519,
+  "SaleId": 877,
   "CreateNow": true,
-  "OwnerId": 779
+  "OwnerId": 888
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-09-08T04:02:01.1431741+02:00",
-  "AppointmentId": 85,
-  "Description": "Public-key web-enabled knowledge base",
-  "Title": "magnam",
-  "Agenda": "odit",
-  "InternalNotes": "culpa",
-  "StartDate": "2001-02-03T04:02:01.1431741+01:00",
-  "EndDate": "2021-10-21T04:02:01.1431741+02:00",
+  "CreatedDate": "2007-11-10T03:44:51.9802728+01:00",
+  "AppointmentId": 700,
+  "Description": "Re-engineered asynchronous system engine",
+  "Title": "porro",
+  "Agenda": "optio",
+  "InternalNotes": "aliquam",
+  "StartDate": "2001-09-03T03:44:51.9802728+02:00",
+  "EndDate": "2009-08-04T03:44:51.9802728+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 680,
+  "MotherId": 109,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-10-18T04:02:01.1431741+02:00",
+  "UpdatedDate": "2007-10-04T03:44:51.9958963+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 294,
+  "ActiveLinks": 830,
   "Links": [
     {
-      "EntityName": "Mohr-Ziemann",
-      "Id": 69,
-      "Description": "Phased neutral hub",
-      "ExtraInfo": "fuga",
-      "LinkId": 93,
+      "EntityName": "Parker, Lynch and Bednar",
+      "Id": 597,
+      "Description": "Re-contextualized upward-trending hub",
+      "ExtraInfo": "consequuntur",
+      "LinkId": 221,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 424
+          "FieldType": "System.Int32",
+          "FieldLength": 499
         }
       }
     }
   ],
-  "AlarmLeadTime": "blanditiis",
-  "HasAlarm": true,
-  "ColorIndex": 765,
+  "AlarmLeadTime": "saepe",
+  "HasAlarm": false,
+  "ColorIndex": 293,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "ipsum",
-  "LeadTime": "nam",
-  "Location": "quam",
-  "RejectCounter": 199,
+  "IsAlldayEvent": true,
+  "LagTime": "molestias",
+  "LeadTime": "quo",
+  "Location": "consequatur",
+  "RejectCounter": 951,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 113,
-      "PersonId": 911,
-      "ContactId": 850,
-      "EmailId": 832,
+      "AssociateId": 935,
+      "PersonId": 195,
+      "ContactId": 408,
+      "EmailId": 437,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "abdiel_rowe@ondricka.ca",
-      "Description": "Customer-focused eco-centric access"
+      "EmailAddress": "cassandra@watsicaratke.name",
+      "Description": "Optional logistical capability"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-11-19T04:02:01.1431741+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2006-03-11T03:44:51.9958963+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 856,
+  "PreferredTZLocation": 797,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 667,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 376,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "velit",
+  "CentralserviceVideomeetId": "dolorum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Cindy Noel Zemlak",
-    "SuperOffice:2": "Mrs. Alison Hills"
+    "SuperOffice:1": "1502737931",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "et"
+    "CustomFields1": "est",
+    "CustomFields2": "nemo"
   },
-  "PublishEventDate": "2024-06-26T04:02:01.1431741+02:00",
-  "PublishTo": "2011-03-20T04:02:01.1431741+01:00",
-  "PublishFrom": "2011-03-10T04:02:01.1431741+01:00",
+  "PublishEventDate": "2008-12-07T03:44:51.9958963+01:00",
+  "PublishTo": "2021-05-20T03:44:51.9958963+02:00",
+  "PublishFrom": "2017-10-23T03:44:51.9958963+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 480,
+      "VisibleId": 316,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 73
+          "FieldType": "System.Int32",
+          "FieldLength": 297
         }
       }
     },
     {
-      "VisibleId": 480,
+      "VisibleId": 316,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 73
+          "FieldType": "System.Int32",
+          "FieldLength": 297
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 408
     }
   }
 }

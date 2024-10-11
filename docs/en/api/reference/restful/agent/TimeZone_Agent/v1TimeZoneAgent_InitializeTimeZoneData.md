@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 872,
-    "Name": "Harris Group",
-    "TZLocationCode": "et",
-    "TZLocationCities": "maiores",
-    "IsoNumber": 993,
+    "TZLocationID": 869,
+    "Name": "Morissette-Thompson",
+    "TZLocationCode": "quo",
+    "TZLocationCities": "illum",
+    "IsoNumber": 47,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 208,
-        "StartMonth": 766,
-        "EndDay": 397,
-        "EndMonth": 68,
-        "TZOffset": 71,
-        "StartRulePattern": "esse",
-        "EndRulePattern": "molestiae"
+        "StartDay": 628,
+        "StartMonth": 732,
+        "EndDay": 505,
+        "EndMonth": 673,
+        "TZOffset": 646,
+        "StartRulePattern": "neque",
+        "EndRulePattern": "suscipit"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 905,
-        "StartMonth": 164,
-        "EndDay": 504,
-        "EndMonth": 728,
-        "TZOffset": 709,
-        "StartRulePattern": "rem",
-        "EndRulePattern": "voluptatem"
+        "StartDay": 856,
+        "StartMonth": 123,
+        "EndDay": 264,
+        "EndMonth": 712,
+        "TZOffset": 244,
+        "StartRulePattern": "eum",
+        "EndRulePattern": "quia"
       }
     }
   }

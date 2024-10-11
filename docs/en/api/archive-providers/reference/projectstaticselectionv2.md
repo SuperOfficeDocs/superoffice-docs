@@ -790,7 +790,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectStaticSelectionV2?$select=number,projectUdef/SuperOffice:5,appointment/recordType,appointment/alarm,document/associate/personEmail
+GET /api/v1/archive/ProjectStaticSelectionV2?$select=getAllRows,projectUdef/SuperOffice:10,projectMember/position,projectMember/searchPhone/formattedNumber,projectMember/contactAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Beatty Inc and Sons",
-  "Tooltip": "suscipit",
+  "Id": 440,
+  "Name": "Prohaska Group",
+  "Tooltip": "autem",
   "Deleted": false,
-  "UdListDefinitionId": 399,
-  "Rank": 591
+  "UdListDefinitionId": 538,
+  "Rank": 795
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 693,
-  "Name": "Kohler, Gleason and Okuneva",
-  "Tooltip": "ea",
+  "Id": 350,
+  "Name": "Orn-Ullrich",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 616,
-  "Rank": 454,
+  "UdListDefinitionId": 917,
+  "Rank": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Hoeger-D'Amore",
-  "StorageKey": "tenetur",
-  "Context": "ullam"
+  "StorageType": "nulla",
+  "ProviderName": "Hyatt LLC",
+  "StorageKey": "hic",
+  "Context": "blanditiis"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Brown-Skiles",
-  "Description": "Optional zero tolerance internet solution",
-  "Rank": 940,
+  "Name": "Klein-Labadie",
+  "Description": "Profound interactive knowledge user",
+  "Rank": 725,
   "Restrictions": [
     {
-      "Name": "Baumbach-Ebert",
-      "Operator": "maiores",
+      "Name": "Padberg-Murray",
+      "Operator": "ab",
       "Values": [
-        "totam",
-        "molestiae"
+        "animi",
+        "omnis"
       ],
       "DisplayValues": [
-        "ad",
-        "eveniet"
+        "dolorum",
+        "laudantium"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 200,
+      "InterParenthesis": 960,
       "InterOperator": "And",
-      "UniqueHash": 119
+      "UniqueHash": 573
     }
   ]
 }

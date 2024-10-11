@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Kessler Inc and Sons",
-  "Tooltip": "sit",
+  "Id": 967,
+  "Name": "Bauch, Cummings and Bergstrom",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 649,
+  "Rank": 450,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Bayer-Rowe",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 783,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 877,
+  "Name": "Kertzmann LLC",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 203,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maxime",
-  "InUseByUserDefinedFields": true,
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 689
     }
   }
 }

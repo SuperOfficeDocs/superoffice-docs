@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Hahn Inc and Sons",
-  "Tooltip": "consequatur",
+  "Id": 545,
+  "Name": "Koelpin LLC",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 74,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "at",
-  "InUseByUserDefinedFields": true
+  "Rank": 648,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Murazik, Carroll and Prohaska",
-  "Tooltip": "saepe",
-  "Deleted": true,
-  "Rank": 909,
-  "IsCustomList": false,
+  "Id": 847,
+  "Name": "Kris Group",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 523,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "alias",
+  "ListType": "dolorum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 473
     }
   }
 }

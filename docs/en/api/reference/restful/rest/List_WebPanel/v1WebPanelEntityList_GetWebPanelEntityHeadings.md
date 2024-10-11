@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 19,
-    "Name": "Powlowski, Parisian and Purdy",
-    "Tooltip": "magnam",
-    "Deleted": true,
-    "Rank": 690,
-    "UdListDefinitionId": 103,
+    "HeadingId": 510,
+    "Name": "Ferry, Carter and Hudson",
+    "Tooltip": "veritatis",
+    "Deleted": false,
+    "Rank": 897,
+    "UdListDefinitionId": 259,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldType": "System.Int32",
+        "FieldLength": 257
       }
     }
   }

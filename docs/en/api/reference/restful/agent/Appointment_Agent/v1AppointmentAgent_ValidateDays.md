@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "sunt",
-    "et"
+    "ab",
+    "eveniet"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2004-11-12T04:02:01.096304+01:00",
-    "IsConflict": false,
-    "Description": "Expanded executive help-desk",
-    "DescriptionStyleHint": "Stand-alone 24/7 throughput",
-    "Tooltip": "veniam"
+    "Date": "2000-12-25T03:44:51.9490264+01:00",
+    "IsConflict": true,
+    "Description": "Multi-tiered zero defect framework",
+    "DescriptionStyleHint": "Function-based modular portal",
+    "Tooltip": "voluptate"
   },
   {
-    "Date": "2004-11-12T04:02:01.096304+01:00",
-    "IsConflict": false,
-    "Description": "Expanded executive help-desk",
-    "DescriptionStyleHint": "Stand-alone 24/7 throughput",
-    "Tooltip": "veniam"
+    "Date": "2000-12-25T03:44:51.9490264+01:00",
+    "IsConflict": true,
+    "Description": "Multi-tiered zero defect framework",
+    "DescriptionStyleHint": "Function-based modular portal",
+    "Tooltip": "voluptate"
   }
 ]
 ```

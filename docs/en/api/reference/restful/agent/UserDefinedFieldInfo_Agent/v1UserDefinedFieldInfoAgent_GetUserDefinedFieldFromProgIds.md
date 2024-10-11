@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "hic",
-    "vitae"
+    "voluptates",
+    "omnis"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 570,
-    "ColumnId": 532,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 138,
-    "FieldLabel": "provident",
-    "FieldLeft": 859,
-    "FieldTop": 120,
+    "UDefFieldId": 111,
+    "ColumnId": 526,
+    "FieldDefault": "odit",
+    "FieldHeight": 127,
+    "FieldLabel": "odio",
+    "FieldLeft": 74,
+    "FieldTop": 828,
     "FieldType": "Checkbox",
-    "FieldWidth": 639,
-    "FormatMask": "explicabo",
+    "FieldWidth": 466,
+    "FormatMask": "ad",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 355,
-    "LabelLeft": 146,
-    "LabelTop": 415,
-    "LabelWidth": 523,
-    "LastVersionId": 782,
-    "ListTableId": 561,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 164,
+    "LabelLeft": 987,
+    "LabelTop": 477,
+    "LabelWidth": 191,
+    "LastVersionId": 905,
+    "ListTableId": 681,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 711,
-    "ProgId": "et",
+    "Page1LineNo": 488,
+    "ProgId": "cum",
     "IsReadOnly": false,
-    "ShortLabel": "blanditiis",
-    "TabOrder": 501,
-    "TextLength": 871,
-    "Tooltip": "inventore",
-    "UdefIdentity": 118,
-    "UDListDefinitionId": 104,
+    "ShortLabel": "est",
+    "TabOrder": 149,
+    "TextLength": 30,
+    "Tooltip": "nulla",
+    "UdefIdentity": 850,
+    "UDListDefinitionId": 746,
     "Justification": "Center",
-    "Version": 124,
-    "TemplateVariableName": "Hoppe-Bashirian",
-    "HasBeenPublished": false,
-    "MdoListName": "Orn-Ondricka",
+    "Version": 880,
+    "TemplateVariableName": "Moore Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Moen-Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldLength": 689
       }
     }
   }

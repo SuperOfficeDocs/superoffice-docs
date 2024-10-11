@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Kub, Schimmel and Hyatt",
-    "Tooltip": "quibusdam",
-    "Deleted": true,
-    "UdListDefinitionId": 891,
-    "Rank": 951,
+    "Id": 465,
+    "Name": "Hyatt, Kiehn and Reynolds",
+    "Tooltip": "id",
+    "Deleted": false,
+    "UdListDefinitionId": 617,
+    "Rank": 465,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldType": "System.String",
+        "FieldLength": 528
       }
     }
   }

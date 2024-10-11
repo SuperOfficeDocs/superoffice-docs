@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 540,
-  "Name": "Brekke-Koss",
-  "CreatedDate": "2004-09-14T04:02:06.6035245+02:00",
-  "UpdatedDate": "2022-11-11T04:02:06.6035245+01:00",
+  "ForeignAppId": 700,
+  "Name": "McLaughlin, Schoen and Abshire",
+  "CreatedDate": "2020-04-22T03:44:57.3433794+02:00",
+  "UpdatedDate": "2015-05-19T03:44:57.3433794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 487,
-      "Name": "Medhurst-Predovic",
-      "CreatedDate": "2003-12-12T04:02:06.6035245+01:00",
-      "UpdatedDate": "2011-03-09T04:02:06.6035245+01:00",
-      "AssociateFullName": "Miss Ulises Luettgen",
-      "CreatedBy": "rerum",
-      "UpdatedBy": "modi",
-      "DeviceIdentifier": "maxime",
-      "ForeignAppId": 236,
+      "ForeignDeviceId": 190,
+      "Name": "Hand Group",
+      "CreatedDate": "2003-07-19T03:44:57.3433794+02:00",
+      "UpdatedDate": "2012-12-20T03:44:57.3433794+01:00",
+      "AssociateFullName": "Earline Lehner",
+      "CreatedBy": "autem",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "facere",
+      "ForeignAppId": 333,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 547
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldLength": 737
     }
   }
 }

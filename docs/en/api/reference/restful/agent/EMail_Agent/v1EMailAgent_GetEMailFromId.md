@@ -104,15 +104,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 939,
-  "LookupAddresses": false,
+  "MessageServerId": 590,
+  "LookupAddresses": true,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -125,156 +125,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 161,
-      "ContactName": "Conn Inc and Sons",
-      "PersonId": 56,
-      "PersonName": "Barrows-Keebler",
-      "AssociateId": 892,
-      "Address": "et",
-      "EmailId": 423,
+      "ContactId": 226,
+      "ContactName": "Macejkovic Inc and Sons",
+      "PersonId": 790,
+      "PersonName": "Gerlach Group",
+      "AssociateId": 15,
+      "Address": "dolorem",
+      "EmailId": 25,
       "DuplicatePersonIds": [
-        445,
-        49
+        708,
+        210
       ],
-      "Name": "Bernier-Nienow",
+      "Name": "Hansen Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldType": "System.Int32",
+          "FieldLength": 944
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 201,
-      "ContactName": "Weissnat LLC",
-      "PersonId": 891,
-      "PersonName": "Gerhold, Schultz and Boyle",
-      "AssociateId": 291,
-      "Address": "quo",
-      "EmailId": 843,
+      "ContactId": 98,
+      "ContactName": "Corkery, Crona and Gulgowski",
+      "PersonId": 856,
+      "PersonName": "Kerluke Inc and Sons",
+      "AssociateId": 476,
+      "Address": "natus",
+      "EmailId": 682,
       "DuplicatePersonIds": [
-        858,
-        342
+        949,
+        183
       ],
-      "Name": "Kertzmann, Schaefer and Boehm",
+      "Name": "Labadie, Murazik and Mueller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldType": "System.String",
+          "FieldLength": 266
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 216,
-      "ContactName": "Hilpert-Langworth",
-      "PersonId": 633,
-      "PersonName": "Boehm, Lind and Botsford",
-      "AssociateId": 449,
-      "Address": "dolor",
-      "EmailId": 843,
+      "ContactId": 504,
+      "ContactName": "Jenkins-Hyatt",
+      "PersonId": 394,
+      "PersonName": "Hessel Group",
+      "AssociateId": 87,
+      "Address": "ex",
+      "EmailId": 539,
       "DuplicatePersonIds": [
-        534,
-        295
+        697,
+        47
       ],
-      "Name": "Reynolds Group",
+      "Name": "Weimann Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 201
         }
       }
     }
   ],
-  "Subject": "aspernatur",
-  "HTMLBody": "ut",
+  "Subject": "rem",
+  "HTMLBody": "id",
   "From": null,
-  "Sent": "2008-01-11T04:02:01.7217471+01:00",
-  "Size": 812,
+  "Sent": "2020-04-19T03:44:52.5739974+02:00",
+  "Size": 185,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptate",
-  "PlainBody": "vitae",
+  "MessageID": "nihil",
+  "PlainBody": "eveniet",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 453,
+  "ServerId": 890,
   "Attachments": [
     {
-      "Description": "Team-oriented context-sensitive neural-net",
-      "Filename": "odio",
-      "Size": 546,
-      "Type": "voluptas",
-      "Encoding": "officiis",
-      "Id": "et",
-      "Disposition": "voluptatum",
-      "IsSafeFileExtension": false,
+      "Description": "Enterprise-wide 6th generation middleware",
+      "Filename": "exercitationem",
+      "Size": 596,
+      "Type": "dolorem",
+      "Encoding": "explicabo",
+      "Id": "tempore",
+      "Disposition": "tempora",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 669
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Daniel Group",
+      "Name": "Stoltenberg-Blick",
       "Values": [
-        "enim",
-        "quo"
+        "dolorem",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldType": "System.Int32",
+          "FieldLength": 742
         }
       }
     },
     {
-      "Name": "Daniel Group",
+      "Name": "Stoltenberg-Blick",
       "Values": [
-        "enim",
-        "quo"
+        "dolorem",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldType": "System.Int32",
+          "FieldLength": 742
         }
       }
     }
   ],
-  "FolderName": "Gerhold-Parker",
-  "EmailItemId": 830,
-  "AccountId": 811,
-  "ReceivedAt": "2012-09-06T04:02:01.7217471+02:00",
+  "FolderName": "Funk Group",
+  "EmailItemId": 882,
+  "AccountId": 441,
+  "ReceivedAt": "2003-10-10T03:44:52.5896202+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1997-12-20T04:02:01.7217471+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2006-12-23T03:44:52.5896202+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   }
 }

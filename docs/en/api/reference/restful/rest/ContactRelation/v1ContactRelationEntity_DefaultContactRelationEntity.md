@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 30 Aug 2017 04:02:06 G8T
+Last-Modified: Sun, 01 Sep 2013 03:44:57 G9T
 
 {
-  "SourceContactId": 492,
-  "SourcePersonId": 961,
-  "DestinationContactId": 847,
-  "DestinationPersonId": 723,
-  "RelationId": 972,
-  "Comment": "consequatur",
-  "RelationDefinitionId": 62,
-  "Reversed": 187,
-  "UpdatedDate": "2017-08-30T04:02:06.4316632+02:00",
-  "CreatedDate": "2004-01-31T04:02:06.4316632+01:00",
+  "SourceContactId": 343,
+  "SourcePersonId": 528,
+  "DestinationContactId": 384,
+  "DestinationPersonId": 140,
+  "RelationId": 902,
+  "Comment": "quia",
+  "RelationDefinitionId": 699,
+  "Reversed": 381,
+  "UpdatedDate": "2013-09-01T03:44:57.1871459+02:00",
+  "CreatedDate": "2002-01-09T03:44:57.1871459+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kohler-Ernser",
-  "SourcePersonName": "Lemke-Connelly",
-  "DestinationContactName": "Hoppe-Kertzmann",
-  "DestinationPersonName": "Hagenes-Mann",
-  "ActiveText": "sit",
-  "PassiveText": "provident",
+  "SourceContactName": "Wolf LLC",
+  "SourcePersonName": "Boyle LLC",
+  "DestinationContactName": "Grady, Towne and Stracke",
+  "DestinationPersonName": "Crooks-Dare",
+  "ActiveText": "praesentium",
+  "PassiveText": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 452
     }
   }
 }

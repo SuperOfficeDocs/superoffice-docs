@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Ondricka, Harvey and Cole"
+  "HistoryName": "Morar-Collins"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 737,
-  "Id": 518,
-  "HistoryName": "Hane Inc and Sons",
-  "HistoryId": 831,
-  "AssociateId": 957,
-  "Name": "Tremblay-Conroy",
-  "ItemInfo": "aut",
+  "Rank": 707,
+  "Id": 341,
+  "HistoryName": "Hickle-Thompson",
+  "HistoryId": 708,
+  "AssociateId": 443,
+  "Name": "Bayer Group",
+  "ItemInfo": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 189
     }
   }
 }

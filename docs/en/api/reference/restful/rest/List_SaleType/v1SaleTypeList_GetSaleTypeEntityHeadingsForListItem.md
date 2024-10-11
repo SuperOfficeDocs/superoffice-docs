@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Schmidt-Bauch",
-    "ToolTip": "In sed a voluptas quaerat.",
+    "Id": 844,
+    "Name": "Brown-Dicki",
+    "ToolTip": "Exercitationem alias ab est perferendis.",
     "Deleted": false,
-    "Rank": 608,
-    "Type": "dolores",
-    "ColorBlock": 88,
-    "IconHint": "eius",
-    "Selected": true,
-    "LastChanged": "2006-04-01T04:02:07.4167631+02:00",
+    "Rank": 77,
+    "Type": "error",
+    "ColorBlock": 703,
+    "IconHint": "nulla",
+    "Selected": false,
+    "LastChanged": "2014-04-26T03:44:58.1562167+02:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Ferry, O'Connell and Hilpert",
-        "ToolTip": "Eos voluptates quo harum tenetur maxime.",
+        "Id": 156,
+        "Name": "Altenwerth-Raynor",
+        "ToolTip": "Dolorem quidem et animi numquam.",
         "Deleted": false,
-        "Rank": 42,
-        "Type": "nihil",
-        "ColorBlock": 393,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "2023-11-07T04:02:07.4167631+01:00",
+        "Rank": 246,
+        "Type": "aut",
+        "ColorBlock": 717,
+        "IconHint": "facilis",
+        "Selected": false,
+        "LastChanged": "1997-08-06T03:44:58.1562167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "eius",
+        "ExtraInfo": "odio",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Vada Breitenberg",
+        "FullName": "Vivien Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 926
+            "FieldType": "System.Int32",
+            "FieldLength": 538
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Johnathan Walter",
+    "ExtraInfo": "in",
+    "StyleHint": "natus",
+    "Hidden": false,
+    "FullName": "Ms. Beau Richie Christiansen PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldLength": 717
       }
     }
   }

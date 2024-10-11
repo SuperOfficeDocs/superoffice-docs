@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 546,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2015-11-03T04:02:01.5811276+01:00",
-  "EndTime": "2011-07-15T04:02:01.5811276+02:00",
-  "Count": 165,
+  "PersonId": 784,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2006-12-21T03:44:52.4333602+01:00",
+  "EndTime": "2009-06-30T03:44:52.4333602+02:00",
+  "Count": 338,
   "DocumentTemplateIds": [
-    210,
-    609
+    987,
+    539
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 74,
-    "Attention": "amet",
-    "Header": "consequuntur",
-    "Name": "Feest Group",
-    "OurRef": "quidem",
-    "YourRef": "iure",
-    "Description": "Networked multi-tasking local area network",
-    "DocumentTemplate": "possimus",
+    "DocumentId": 658,
+    "Attention": "voluptatum",
+    "Header": "quae",
+    "Name": "Rolfson, Abbott and Jacobi",
+    "OurRef": "nulla",
+    "YourRef": "ea",
+    "Description": "Synergistic bi-directional analyzer",
+    "DocumentTemplate": "atque",
     "IsPublished": false,
-    "PersonId": 220,
-    "PersonFullName": "Tom Fay",
-    "AssociateFullName": "Raphaelle Barrows",
-    "ContactId": 104,
-    "ContactName": "Schmidt, Legros and Haag",
-    "ProjectId": 73,
-    "ProjectName": "Prosacco, Kreiger and Bruen",
-    "AssociateId": 663,
-    "Snum": 378,
-    "SaleId": 250,
-    "SaleName": "Stehr-Lang",
+    "PersonId": 759,
+    "PersonFullName": "Ms. Idell Khalid Gulgowski",
+    "AssociateFullName": "Johnson Beier",
+    "ContactId": 456,
+    "ContactName": "Quigley, O'Connell and Wuckert",
+    "ProjectId": 730,
+    "ProjectName": "Volkman Group",
+    "AssociateId": 340,
+    "Snum": 770,
+    "SaleId": 348,
+    "SaleName": "Mosciski Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldType": "System.String",
+        "FieldLength": 306
       }
     }
   }

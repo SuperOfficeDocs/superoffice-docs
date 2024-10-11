@@ -111,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 59,
-  "Name": "Hamill-Russel",
-  "Tooltip": "sed",
-  "Rank": 894,
+  "SaleTypeId": 429,
+  "Name": "O'Kon-Swift",
+  "Tooltip": "aspernatur",
+  "Rank": 165,
   "DurationUnit": "Century",
-  "SaleDuration": 460,
-  "SaleTypeCatId": 290,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 965,
+  "SaleTypeCatId": 757,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 55,
-  "QuoteLinesTemplate": 448,
-  "ConfirmationLinesTemplate": 387,
+  "DefaultQuoteValidity": 43,
+  "QuoteLinesTemplate": 122,
+  "ConfirmationLinesTemplate": 297,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 477,
-  "MinEarningPercent": 948,
-  "GroupQuoteLinesBy": 351,
-  "SortGroupLinesBy": 434,
+  "MaxDiscountPercent": 951,
+  "MinEarningPercent": 349,
+  "GroupQuoteLinesBy": 981,
+  "SortGroupLinesBy": 157,
   "Stages": [
     {
-      "Id": 140,
-      "Name": "Kemmer, Murazik and Stoltenberg",
-      "ToolTip": "Temporibus fugit aut.",
+      "Id": 833,
+      "Name": "Shanahan, West and Lubowitz",
+      "ToolTip": "Porro iure rerum et fugit veniam.",
       "Deleted": false,
-      "Rank": 225,
-      "Type": "cum",
-      "ColorBlock": 477,
-      "IconHint": "illo",
-      "Selected": false,
-      "LastChanged": "2019-04-24T04:02:07.4003498+02:00",
+      "Rank": 346,
+      "Type": "neque",
+      "ColorBlock": 453,
+      "IconHint": "aut",
+      "Selected": true,
+      "LastChanged": "2011-06-26T03:44:58.1562167+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "necessitatibus",
+      "ExtraInfo": "sit",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Mrs. Llewellyn Rhianna Krajcik"
+      "FullName": "Jayson Greenholt"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 295,
-  "Name": "Fahey, Kessler and Metz",
-  "Tooltip": "excepturi",
-  "Rank": 284,
+  "SaleTypeId": 9,
+  "Name": "Hintz, Herzog and Streich",
+  "Tooltip": "illum",
+  "Rank": 849,
   "DurationUnit": "Century",
-  "SaleDuration": 61,
-  "SaleTypeCatId": 361,
+  "SaleDuration": 113,
+  "SaleTypeCatId": 597,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 916,
-  "QuoteLinesTemplate": 190,
-  "ConfirmationLinesTemplate": 759,
-  "MaxDiscountPercentSet": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 50,
+  "QuoteLinesTemplate": 331,
+  "ConfirmationLinesTemplate": 965,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 731,
-  "MinEarningPercent": 368,
-  "GroupQuoteLinesBy": 599,
-  "SortGroupLinesBy": 850,
+  "MaxDiscountPercent": 316,
+  "MinEarningPercent": 276,
+  "GroupQuoteLinesBy": 240,
+  "SortGroupLinesBy": 921,
   "Stages": [
     {
-      "Id": 791,
-      "Name": "Lebsack, Deckow and Wolf",
-      "ToolTip": "Fugit autem explicabo reiciendis et id illo fugiat.",
+      "Id": 221,
+      "Name": "Littel, Heller and Fadel",
+      "ToolTip": "Et neque rem iste sequi tempora cupiditate iusto.",
       "Deleted": false,
-      "Rank": 160,
-      "Type": "voluptate",
-      "ColorBlock": 713,
-      "IconHint": "ut",
-      "Selected": true,
-      "LastChanged": "2005-06-08T04:02:07.4003498+02:00",
+      "Rank": 942,
+      "Type": "vitae",
+      "ColorBlock": 530,
+      "IconHint": "provident",
+      "Selected": false,
+      "LastChanged": "2002-02-12T03:44:58.1562167+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "totam",
+      "ExtraInfo": "eaque",
+      "StyleHint": "ad",
       "Hidden": false,
-      "FullName": "Aniya Gerhold",
+      "FullName": "Karina West",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldType": "System.Int32",
+          "FieldLength": 917
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldLength": 718
     }
   }
 }

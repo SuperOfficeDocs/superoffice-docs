@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "eaque",
+  "Provider": "eum",
   "Restrictions": [
     {
-      "Name": "Oberbrunner, Murray and Romaguera",
-      "Operator": "repellat",
+      "Name": "Stamm-Collins",
+      "Operator": "maiores",
       "Values": [
-        "quo",
-        "molestiae"
+        "dignissimos",
+        "soluta"
       ],
       "DisplayValues": [
-        "incidunt",
-        "alias"
+        "eos",
+        "eum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 334,
+      "InterParenthesis": 893,
       "InterOperator": "And",
-      "UniqueHash": 329
+      "UniqueHash": 825
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  795,
-  329
+  480,
+  260
 ]
 ```

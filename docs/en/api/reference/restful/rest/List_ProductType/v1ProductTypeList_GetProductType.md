@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Nader LLC",
-  "Tooltip": "consequuntur",
-  "Deleted": true,
-  "UdListDefinitionId": 182,
-  "Rank": 626,
+  "Id": 16,
+  "Name": "Adams Group",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "UdListDefinitionId": 643,
+  "Rank": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 106
     }
   }
 }

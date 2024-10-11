@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 615,
-  "StartDate": "2013-07-17T04:02:01.096304+02:00",
-  "EndDate": "2020-04-02T04:02:01.096304+02:00",
-  "RecurrenceCounter": 223,
+  "RecurrenceId": 602,
+  "StartDate": "2007-08-18T03:44:51.9490264+02:00",
+  "EndDate": "2021-05-19T03:44:51.9490264+02:00",
+  "RecurrenceCounter": 119,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-04-03T04:02:01.096304+02:00",
+      "Date": "1999-02-17T03:44:51.9490264+01:00",
       "IsConflict": false,
-      "Description": "Polarised real-time projection",
-      "DescriptionStyleHint": "Expanded tertiary open architecture",
-      "Tooltip": "reprehenderit"
+      "Description": "Realigned heuristic open system",
+      "DescriptionStyleHint": "Cross-group empowering hierarchy",
+      "Tooltip": "incidunt"
     },
     {
-      "Date": "2006-04-03T04:02:01.096304+02:00",
+      "Date": "1999-02-17T03:44:51.9490264+01:00",
       "IsConflict": false,
-      "Description": "Polarised real-time projection",
-      "DescriptionStyleHint": "Expanded tertiary open architecture",
-      "Tooltip": "reprehenderit"
+      "Description": "Realigned heuristic open system",
+      "DescriptionStyleHint": "Cross-group empowering hierarchy",
+      "Tooltip": "incidunt"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

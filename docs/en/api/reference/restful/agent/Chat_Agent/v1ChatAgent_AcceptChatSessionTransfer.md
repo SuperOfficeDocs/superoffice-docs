@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 963
+  "ChatSessionId": 182
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 878,
-  "TopicId": 494,
+  "ChatSessionId": 270,
+  "TopicId": 976,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "quod",
-  "CustomerName": "Beatty Group",
-  "CustomerEmail": "gust@bartolettidurgan.uk",
-  "CustomerPhone": "528.251.9627 x475",
+  "CustomerAlias": "aliquam",
+  "CustomerHost": "numquam",
+  "CustomerName": "Koch, Turcotte and Littel",
+  "CustomerEmail": "maegan.daugherty@lehnerwhite.biz",
+  "CustomerPhone": "(294)852-8914 x0890",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Anderson LLC",
+  "CustomerCompanyName": "Luettgen-Romaguera",
   "Status": "Closed",
-  "FirstMessage": "ullam",
-  "LastMessage": "iusto",
-  "WhenRequested": "2004-12-23T04:02:01.3624008+01:00",
-  "WhenStarted": "2020-01-25T04:02:01.3624008+01:00",
-  "WhenEnded": "2023-11-30T04:02:01.3624008+01:00",
-  "WhenIdle": "2006-12-20T04:02:01.3624008+01:00",
-  "WhenFetched": "2009-05-13T04:02:01.3624008+02:00",
-  "SessionKey": "mollitia",
-  "InitialQueuePos": 310,
-  "AlertLevel": 553,
-  "Rank": 845,
+  "FirstMessage": "nemo",
+  "LastMessage": "sunt",
+  "WhenRequested": "1999-09-08T03:44:52.1365075+02:00",
+  "WhenStarted": "2006-09-14T03:44:52.1365075+02:00",
+  "WhenEnded": "1998-06-23T03:44:52.1365075+02:00",
+  "WhenIdle": "2001-11-18T03:44:52.1365075+01:00",
+  "WhenFetched": "1998-07-20T03:44:52.1365075+02:00",
+  "SessionKey": "iste",
+  "InitialQueuePos": 698,
+  "AlertLevel": 876,
+  "Rank": 853,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 676,
+  "Rating": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 687
     }
   }
 }

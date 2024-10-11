@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kling Inc and Sons",
-  "ModuleName": "Hoeger, Oberbrunner and Jast"
+  "OwnerName": "Weber LLC",
+  "ModuleName": "Dietrich-Douglas"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schultz-Vandervort",
-  "ModuleName": "Kutch Group",
-  "ModuleDescription": "Networked mission-critical strategy",
-  "ModuleTooltip": "sapiente",
-  "ModuleVersion": "ipsum",
+  "OwnerName": "Rohan LLC",
+  "ModuleName": "Mohr-Emmerich",
+  "ModuleDescription": "Automated user-facing functionalities",
+  "ModuleTooltip": "molestias",
+  "ModuleVersion": "quisquam",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 295,
-  "ExtraFlags": 263,
-  "ExtraInfo": "temporibus",
-  "SortOrder": 247,
+  "NumberOfLicenses": 958,
+  "ExtraFlags": 846,
+  "ExtraInfo": "quia",
+  "SortOrder": 235,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Ferry Inc and Sons",
-  "Signature": "et"
+  "PrerequisiteModuleName": "Spinka-Purdy",
+  "Signature": "atque"
 }
 ```

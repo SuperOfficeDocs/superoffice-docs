@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 724,
+  "DocumentTemplateId": 954,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ipsum",
-  "PluginId": 308
+  "LanguageCode": "repellendus",
+  "PluginId": 901
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schowalter, Nader and Will",
-  "Description": "User-friendly bi-directional policy",
-  "ExternalReference": "nisi",
-  "MimeType": "qui",
-  "PluginId": 685
+  "Name": "Hane, Bergnaum and Bernhard",
+  "Description": "Synergistic assymetric task-force",
+  "ExternalReference": "amet",
+  "MimeType": "commodi",
+  "PluginId": 664
 }
 ```

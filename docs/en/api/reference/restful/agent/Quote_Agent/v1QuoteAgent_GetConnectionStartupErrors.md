@@ -81,10 +81,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "IsOk": true,
-    "UserExplanation": "incidunt",
-    "TechExplanation": "quae",
-    "ErrorCode": "excepturi",
+    "IsOk": false,
+    "UserExplanation": "saepe",
+    "TechExplanation": "sint",
+    "ErrorCode": "quia",
     "Changes": null,
     "Status": "Error",
     "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldLength": 84
       }
     }
   }

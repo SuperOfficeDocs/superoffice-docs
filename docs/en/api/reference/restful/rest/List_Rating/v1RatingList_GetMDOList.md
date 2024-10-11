@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=architecto
+GET /api/v1/List/Rating/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Name": "Greenholt, Schinner and Robel",
-    "ToolTip": "Omnis sit velit omnis ut nihil corrupti et.",
+    "Id": 395,
+    "Name": "Robel LLC",
+    "ToolTip": "Numquam qui dolore.",
     "Deleted": true,
-    "Rank": 802,
-    "Type": "odio",
+    "Rank": 435,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Hoppe-Kohler",
-        "ToolTip": "Illo quidem molestias corrupti ea repudiandae.",
-        "Deleted": false,
-        "Rank": 708,
-        "Type": "soluta",
+        "Id": 358,
+        "Name": "Berge-Heaney",
+        "ToolTip": "Earum repellat similique numquam reprehenderit tempore.",
+        "Deleted": true,
+        "Rank": 760,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quas",
-        "ColorBlock": 407,
-        "ExtraInfo": "alias",
-        "StyleHint": "beatae",
-        "FullName": "Ellie Monte Parker I",
+        "IconHint": "accusamus",
+        "ColorBlock": 851,
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "sunt",
+        "FullName": "Dr. Velma Reinger II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 670
+            "FieldType": "System.Int32",
+            "FieldLength": 972
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 837,
-    "ExtraInfo": "quis",
-    "StyleHint": "pariatur",
-    "FullName": "Neha Kristina Schaden Sr.",
+    "IconHint": "et",
+    "ColorBlock": 4,
+    "ExtraInfo": "delectus",
+    "StyleHint": "voluptatibus",
+    "FullName": "Jorge Casandra Renner DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 898
       }
     }
   }

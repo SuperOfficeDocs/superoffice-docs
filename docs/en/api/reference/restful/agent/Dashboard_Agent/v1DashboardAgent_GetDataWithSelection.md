@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 116,
-  "SelectionId": 103,
-  "Restrictions": "dolorem"
+  "DashboardTileId": 764,
+  "SelectionId": 117,
+  "Restrictions": "vero"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "O'Kon, Rippin and O'Keefe",
-        "DisplayTooltip": "quae",
-        "DisplayType": "dolorum",
-        "CanOrderBy": false,
-        "Name": "Mitchell, Pouros and Muller",
+        "DisplayName": "Heller LLC",
+        "DisplayTooltip": "in",
+        "DisplayType": "necessitatibus",
+        "CanOrderBy": true,
+        "Name": "Lueilwitz LLC",
         "CanRestrictBy": false,
-        "RestrictionType": "illum",
-        "RestrictionListName": "Schowalter Inc and Sons",
-        "IsVisible": false,
-        "ExtraInfo": "consequatur",
-        "Width": "est",
-        "IconHint": "corporis",
-        "HeadingIconHint": "aut"
+        "RestrictionType": "sit",
+        "RestrictionListName": "O'Keefe, Bashirian and Bradtke",
+        "IsVisible": true,
+        "ExtraInfo": "voluptatem",
+        "Width": "corporis",
+        "IconHint": "nihil",
+        "HeadingIconHint": "ipsam"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "O'Kon, Rippin and O'Keefe",
-        "DisplayTooltip": "quae",
-        "DisplayType": "dolorum",
-        "CanOrderBy": false,
-        "Name": "Mitchell, Pouros and Muller",
+        "DisplayName": "Heller LLC",
+        "DisplayTooltip": "in",
+        "DisplayType": "necessitatibus",
+        "CanOrderBy": true,
+        "Name": "Lueilwitz LLC",
         "CanRestrictBy": false,
-        "RestrictionType": "illum",
-        "RestrictionListName": "Schowalter Inc and Sons",
-        "IsVisible": false,
-        "ExtraInfo": "consequatur",
-        "Width": "est",
-        "IconHint": "corporis",
-        "HeadingIconHint": "aut"
+        "RestrictionType": "sit",
+        "RestrictionListName": "O'Keefe, Bashirian and Bradtke",
+        "IsVisible": true,
+        "ExtraInfo": "voluptatem",
+        "Width": "corporis",
+        "IconHint": "nihil",
+        "HeadingIconHint": "ipsam"
       }
     ],
     "Result": null

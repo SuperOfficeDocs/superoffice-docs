@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 370,
-  "Name": "Wehner LLC",
-  "Tooltip": "et",
+  "Id": 231,
+  "Name": "Stiedemann-Runolfsdottir",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 577,
-  "Rank": 186,
+  "UdListDefinitionId": 867,
+  "Rank": 710,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 508
     }
   }
 }

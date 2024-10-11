@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Gottlieb, Pouros and Morissette",
+  "UdListDefinitionName": "Gerhold-Hauck",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 182,
-  "Name": "Cartwright-Sanford",
-  "Tooltip": "hic",
+  "Id": 12,
+  "Name": "Greenfelder LLC",
+  "Tooltip": "officia",
   "Deleted": false,
-  "UdListDefinitionId": 18,
-  "Rank": 743,
+  "UdListDefinitionId": 765,
+  "Rank": 168,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldLength": 954
     }
   }
 }

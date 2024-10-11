@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 960,
-    "Name": "Kling, Lindgren and Wisozk",
-    "Tooltip": "saepe",
+    "Id": 389,
+    "Name": "Bruen LLC",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "UdListDefinitionId": 407,
-    "Rank": 960
+    "UdListDefinitionId": 895,
+    "Rank": 990
   },
   {
-    "Id": 960,
-    "Name": "Kling, Lindgren and Wisozk",
-    "Tooltip": "saepe",
+    "Id": 389,
+    "Name": "Bruen LLC",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "UdListDefinitionId": 407,
-    "Rank": 960
+    "UdListDefinitionId": 895,
+    "Rank": 990
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Beier Group",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 1001,
-    "Rank": 562,
+    "Id": 340,
+    "Name": "Watsica-Braun",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "UdListDefinitionId": 29,
+    "Rank": 73,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 280
       }
     }
   }

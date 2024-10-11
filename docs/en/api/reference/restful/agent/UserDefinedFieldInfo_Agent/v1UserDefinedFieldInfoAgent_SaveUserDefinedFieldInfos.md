@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 199,
-      "ColumnId": 5,
-      "FieldDefault": "magnam",
-      "FieldHeight": 63,
-      "FieldLabel": "et",
-      "FieldLeft": 974,
-      "FieldTop": 436,
+      "UDefFieldId": 185,
+      "ColumnId": 396,
+      "FieldDefault": "ratione",
+      "FieldHeight": 606,
+      "FieldLabel": "dolores",
+      "FieldLeft": 214,
+      "FieldTop": 997,
       "FieldType": "Checkbox",
-      "FieldWidth": 76,
-      "FormatMask": "officia",
+      "FieldWidth": 906,
+      "FormatMask": "deserunt",
       "HideLabel": true,
       "IsIndexed": false,
-      "LabelHeight": 804,
-      "LabelLeft": 412,
-      "LabelTop": 373,
-      "LabelWidth": 289,
-      "LastVersionId": 29,
-      "ListTableId": 381,
+      "LabelHeight": 230,
+      "LabelLeft": 627,
+      "LabelTop": 273,
+      "LabelWidth": 69,
+      "LastVersionId": 880,
+      "ListTableId": 899,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 431,
-      "ProgId": "cum",
+      "Page1LineNo": 54,
+      "ProgId": "et",
       "IsReadOnly": false,
-      "ShortLabel": "nesciunt",
-      "TabOrder": 504,
-      "TextLength": 994,
-      "Tooltip": "perferendis",
-      "UdefIdentity": 371,
-      "UDListDefinitionId": 172,
+      "ShortLabel": "sint",
+      "TabOrder": 580,
+      "TextLength": 942,
+      "Tooltip": "veritatis",
+      "UdefIdentity": 563,
+      "UDListDefinitionId": 352,
       "Justification": "Center",
-      "Version": 390,
-      "TemplateVariableName": "Keeling Group",
+      "Version": 31,
+      "TemplateVariableName": "Rippin-Stamm",
       "HasBeenPublished": false,
-      "MdoListName": "Skiles-Quigley"
+      "MdoListName": "Deckow LLC"
     }
   ]
 }

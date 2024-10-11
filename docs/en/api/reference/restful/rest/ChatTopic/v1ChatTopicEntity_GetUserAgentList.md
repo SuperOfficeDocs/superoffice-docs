@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Cormier Group",
-    "ToolTip": "Deserunt voluptates explicabo non.",
+    "Id": 52,
+    "Name": "Crooks Group",
+    "ToolTip": "In sapiente asperiores.",
     "Deleted": false,
-    "Rank": 667,
-    "Type": "optio",
+    "Rank": 81,
+    "Type": "aspernatur",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Hintz-Torp",
-        "ToolTip": "Omnis sapiente enim in dolorum.",
+        "Id": 479,
+        "Name": "Schmeler, Oberbrunner and Braun",
+        "ToolTip": "Accusantium aut officia vitae unde delectus qui aperiam.",
         "Deleted": false,
-        "Rank": 598,
-        "Type": "provident",
+        "Rank": 952,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 399,
-        "ExtraInfo": "qui",
-        "StyleHint": "commodi",
-        "FullName": "Mr. Mariana Fadel I",
+        "IconHint": "nisi",
+        "ColorBlock": 674,
+        "ExtraInfo": "omnis",
+        "StyleHint": "molestiae",
+        "FullName": "Mrs. Katheryn Destinee Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 246
+            "FieldLength": 248
           }
         }
       }
     ],
-    "IconHint": "occaecati",
-    "ColorBlock": 438,
-    "ExtraInfo": "id",
-    "StyleHint": "voluptas",
-    "FullName": "Mr. Bailey Gutmann DVM",
+    "IconHint": "tempora",
+    "ColorBlock": 219,
+    "ExtraInfo": "ad",
+    "StyleHint": "excepturi",
+    "FullName": "Prof. Shania Arvel Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldLength": 776
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Hamill, Gleason and Gleason",
-    "ToolTip": "Ad delectus iure aut sunt qui soluta.",
+    "Id": 676,
+    "Name": "Rau Inc and Sons",
+    "ToolTip": "Explicabo aut adipisci incidunt voluptas.",
     "Deleted": true,
-    "Rank": 298,
-    "Type": "numquam",
-    "ColorBlock": 963,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "2014-01-01T04:02:07.3065765+01:00",
+    "Rank": 139,
+    "Type": "minima",
+    "ColorBlock": 907,
+    "IconHint": "voluptates",
+    "Selected": false,
+    "LastChanged": "2018-12-28T03:44:58.0468534+01:00",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Connelly, Bailey and Schaefer",
-        "ToolTip": "Blanditiis et in voluptas qui est et.",
-        "Deleted": false,
-        "Rank": 735,
-        "Type": "nam",
-        "ColorBlock": 957,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2008-02-29T04:02:07.3065765+01:00",
+        "Id": 580,
+        "Name": "Cummings, Jakubowski and Hagenes",
+        "ToolTip": "Autem earum dicta.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "et",
+        "ColorBlock": 542,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "2019-01-28T03:44:58.0468534+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Quincy Pollich PhD",
+        "ExtraInfo": "dolore",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Eveline Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 573
+            "FieldLength": 555
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quas",
+    "ExtraInfo": "tempore",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Taya Huel",
+    "FullName": "Ozella Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldType": "System.String",
+        "FieldLength": 550
       }
     }
   }

@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 566,
+  "Id": 48,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 482,
+  "EjMessageId": 66,
   "Ticket": null,
-  "CreatedAt": "2006-10-30T04:02:02.5041008+01:00",
+  "CreatedAt": "2018-09-26T03:44:53.3560431+02:00",
   "CreatedBy": null,
-  "Author": "eos",
+  "Author": "recusandae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quam",
-  "TimeSpent": 892,
-  "Body": "quas",
-  "HtmlBody": "ipsum",
-  "EmailHeader": "lavon.braun@baumbachspinka.us",
-  "DebugInfo": "vero",
-  "MailSorter": "doloremque",
+  "MessageId": "dicta",
+  "TimeSpent": 561,
+  "Body": "rerum",
+  "HtmlBody": "veniam",
+  "EmailHeader": "fredy@schiller.us",
+  "DebugInfo": "in",
+  "MailSorter": "consectetur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "recusandae",
+  "SearchTitle": "tempore",
   "MessageHeaders": [
     {
-      "Id": 915,
-      "Name": "Runolfsson, Berge and Zieme",
-      "Value": "corporis",
+      "Id": 352,
+      "Name": "Ruecker-Emmerich",
+      "Value": "reprehenderit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 123
+          "FieldType": "System.Int32",
+          "FieldLength": 929
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "qui",
-  "Sentiment": 769,
-  "SentimentConfidence": 37,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 470,
+  "SentimentConfidence": 379,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 769,
-      "Name": "Stokes, Harris and Hessel",
-      "ContentType": "autem",
-      "AttSize": 468,
+      "AttachmentId": 482,
+      "Name": "Armstrong, Stehr and Walsh",
+      "ContentType": "occaecati",
+      "AttSize": 81,
       "InlineImage": false,
-      "ContentId": "autem",
-      "AuthKey": "voluptas",
-      "IsSafeFileExtension": true,
+      "ContentId": "magni",
+      "AuthKey": "consequatur",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 757
+          "FieldLength": 686
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nulla",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "amet"
+    "CustomFields1": "soluta",
+    "CustomFields2": "distinctio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 338
     }
   }
 }

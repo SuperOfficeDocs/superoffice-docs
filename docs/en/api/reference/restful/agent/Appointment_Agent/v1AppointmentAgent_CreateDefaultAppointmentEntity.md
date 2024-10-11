@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-12-04T04:02:01.0338107+01:00",
-  "AppointmentId": 332,
-  "Description": "Front-line motivating project",
-  "Title": "rerum",
-  "Agenda": "neque",
-  "InternalNotes": "hic",
-  "StartDate": "2018-09-18T04:02:01.0338107+02:00",
-  "EndDate": "2012-09-24T04:02:01.0338107+02:00",
+  "CreatedDate": "2004-07-19T03:44:51.8865334+02:00",
+  "AppointmentId": 177,
+  "Description": "Managed explicit encoding",
+  "Title": "repellendus",
+  "Agenda": "vel",
+  "InternalNotes": "nostrum",
+  "StartDate": "2023-11-21T03:44:51.8865334+01:00",
+  "EndDate": "2024-05-22T03:44:51.8865334+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 694,
+  "MotherId": 132,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-09-22T04:02:01.0338107+02:00",
+  "UpdatedDate": "2010-09-28T03:44:51.8865334+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 380,
+  "ActiveLinks": 423,
   "Links": [
     {
-      "EntityName": "Braun-Tremblay",
-      "Id": 780,
-      "Description": "Face to face national portal",
-      "ExtraInfo": "est",
-      "LinkId": 56,
+      "EntityName": "Donnelly Inc and Sons",
+      "Id": 402,
+      "Description": "Mandatory background task-force",
+      "ExtraInfo": "nihil",
+      "LinkId": 202,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 272
+          "FieldLength": 255
         }
       }
     }
   ],
-  "AlarmLeadTime": "cupiditate",
+  "AlarmLeadTime": "qui",
   "HasAlarm": false,
-  "ColorIndex": 332,
+  "ColorIndex": 137,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "minima",
-  "LeadTime": "unde",
-  "Location": "et",
-  "RejectCounter": 957,
+  "LagTime": "qui",
+  "LeadTime": "quod",
+  "Location": "facere",
+  "RejectCounter": 716,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 437,
-      "PersonId": 643,
-      "ContactId": 5,
-      "EmailId": 25,
-      "SendEmail": true,
+      "AssociateId": 563,
+      "PersonId": 740,
+      "ContactId": 85,
+      "EmailId": 253,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "pinkie@nikolaus.co.uk",
-      "Description": "Upgradable contextually-based definition"
+      "EmailAddress": "cale@grimesprohaska.name",
+      "Description": "Business-focused encompassing complexity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-10-26T04:02:01.0338107+02:00",
+  "ActiveDate": "2012-01-18T03:44:51.8865334+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 116,
+  "PreferredTZLocation": 326,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 845,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 303,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ducimus",
+  "CentralserviceVideomeetId": "impedit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Nelson Kovacek",
-    "SuperOffice:2": "Dr. Sandrine Hortense Ortiz V"
+    "SuperOffice:1": "Noble Medhurst III",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "animi"
+    "ExtraFields1": "a",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "odio"
+    "CustomFields1": "et",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2024-07-30T04:02:01.0338107+02:00",
-  "PublishTo": "2016-01-21T04:02:01.0338107+01:00",
-  "PublishFrom": "2003-02-15T04:02:01.0338107+01:00",
+  "PublishEventDate": "2009-03-13T03:44:51.8865334+01:00",
+  "PublishTo": "2007-07-05T03:44:51.8865334+02:00",
+  "PublishFrom": "2002-12-02T03:44:51.8865334+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 107,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     },
     {
-      "VisibleId": 107,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     }
@@ -252,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 390
     }
   }
 }

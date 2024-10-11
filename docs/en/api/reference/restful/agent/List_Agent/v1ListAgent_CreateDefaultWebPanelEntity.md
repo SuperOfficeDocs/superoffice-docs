@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 585,
-  "Name": "Weber, Reichert and Mraz",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 523,
+  "WebPanelId": 825,
+  "Name": "Kohler, Anderson and Beatty",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 47,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Effertz Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Jast, Grimes and Pouros",
   "Url": "http://www.example.com/",
-  "ProgId": "vel",
-  "Icon": 449,
+  "ProgId": "aut",
+  "Icon": 694,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

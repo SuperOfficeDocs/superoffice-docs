@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=640
+PUT /api/v1/Project/{id}/ImageInfo?projectId=254
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 139,
-  "BlobSize": 630,
-  "Description": "Enterprise-wide reciprocal flexibility",
-  "ExtraInfo": "est",
+  "BlobId": 525,
+  "BlobSize": 186,
+  "Description": "Digitized human-resource leverage",
+  "ExtraInfo": "voluptate",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 207,
-  "CreatedDate": "2015-05-26T04:02:06.7441349+02:00",
-  "UpdatedDate": "2003-06-08T04:02:06.7441349+02:00",
+  "IsZipped": false,
+  "MimeType": "odit",
+  "OriginalSize": 596,
+  "CreatedDate": "2017-06-13T03:44:57.4844273+02:00",
+  "UpdatedDate": "2004-01-24T03:44:57.4844273+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iure"
+  "ConceptualType": "dignissimos"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 17,
-  "BlobSize": 627,
-  "Description": "Team-oriented eco-centric functionalities",
-  "ExtraInfo": "dignissimos",
+  "BlobId": 806,
+  "BlobSize": 876,
+  "Description": "Secured maximized support",
+  "ExtraInfo": "voluptate",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quis",
-  "OriginalSize": 956,
-  "CreatedDate": "2008-06-16T04:02:06.7441349+02:00",
-  "UpdatedDate": "2020-07-02T04:02:06.7441349+02:00",
+  "MimeType": "ab",
+  "OriginalSize": 826,
+  "CreatedDate": "2010-08-15T03:44:57.4844273+02:00",
+  "UpdatedDate": "2023-08-11T03:44:57.4844273+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ducimus",
+  "ConceptualType": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldType": "System.Int32",
+      "FieldLength": 388
     }
   }
 }

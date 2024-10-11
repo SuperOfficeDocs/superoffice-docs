@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 950
+  "KbEntryId": 865
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "distinctio",
-  "RegisteredByFullName": "Mr. Gracie Makayla Feeney IV",
-  "Updated": "2017-05-17T04:02:01.5342579+02:00",
-  "Question": "iusto",
-  "Answer": "est",
+  "Title": "est",
+  "RegisteredByFullName": "Aliyah Miller",
+  "Updated": "2013-06-26T03:44:52.3865159+02:00",
+  "Question": "pariatur",
+  "Answer": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

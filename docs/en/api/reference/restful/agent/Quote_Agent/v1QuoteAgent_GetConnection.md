@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 542
+  "QuoteConnectionId": 384
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 265,
-  "ERPName": "Connelly, Conroy and Considine",
-  "DisplayName": "Carroll LLC",
-  "DisplayDescription": "Phased bi-directional process improvement",
-  "Rank": 855,
-  "ConnectorName": "Jerde Inc and Sons",
-  "ErpConnectionId": 877,
-  "ExtraData": "aut",
+  "QuoteConnectionId": 221,
+  "ERPName": "Stanton LLC",
+  "DisplayName": "Beier-Hessel",
+  "DisplayDescription": "Progressive static secured line",
+  "Rank": 870,
+  "ConnectorName": "Quitzon Group",
+  "ErpConnectionId": 282,
+  "ExtraData": "et",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 925,
-      "ERPPriceListKey": "quaerat",
-      "QuoteConnectionId": 840,
-      "Name": "Rath, Grimes and Moen",
-      "Description": "Balanced asynchronous flexibility",
-      "Currency": "ea",
-      "CurrencyName": "Robel-Wyman",
-      "ValidFrom": "2002-07-08T04:02:02.2065837+02:00",
-      "ValidTo": "2021-06-21T04:02:02.2065837+02:00",
-      "IsActive": true,
+      "PriceListId": 947,
+      "ERPPriceListKey": "minima",
+      "QuoteConnectionId": 519,
+      "Name": "Buckridge Inc and Sons",
+      "Description": "Organized value-added process improvement",
+      "Currency": "maiores",
+      "CurrencyName": "Ortiz, Reichert and Beer",
+      "ValidFrom": "2004-09-06T03:44:53.0583181+02:00",
+      "ValidTo": "2008-06-24T03:44:53.0583181+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 372
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    521,
-    527
+    206,
+    994
   ],
   "AssociateAccessIds": [
-    468,
-    85
+    233,
+    826
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

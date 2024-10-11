@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 795,
+  "TargetDimensionId": 478,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "laborum",
-  "DimensionListName": "Lakin, Medhurst and Senger",
-  "DimensionListId": 381,
-  "DimensionListLabel": "sint",
+  "DimensionListField": "nisi",
+  "DimensionListName": "Schmitt-Lesch",
+  "DimensionListId": 576,
+  "DimensionListLabel": "vitae",
   "SelectedDimensions": [
-    220,
-    209
+    751,
+    326
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 66
     }
   }
 }

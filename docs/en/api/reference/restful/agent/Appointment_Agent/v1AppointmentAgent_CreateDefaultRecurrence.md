@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 274,
-  "StartDate": "2014-05-06T04:02:01.096304+02:00",
-  "EndDate": "2009-11-15T04:02:01.096304+01:00",
-  "RecurrenceCounter": 649,
+  "RecurrenceId": 573,
+  "StartDate": "2023-10-01T03:44:51.9490264+02:00",
+  "EndDate": "2001-08-30T03:44:51.9490264+02:00",
+  "RecurrenceCounter": 926,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2008-01-28T04:02:01.096304+01:00",
+      "Date": "2000-05-05T03:44:51.9490264+02:00",
       "IsConflict": false,
-      "Description": "Horizontal bifurcated middleware",
-      "DescriptionStyleHint": "Vision-oriented clear-thinking policy",
-      "Tooltip": "vel"
+      "Description": "Right-sized asynchronous budgetary management",
+      "DescriptionStyleHint": "Open-architected multi-state system engine",
+      "Tooltip": "nisi"
     },
     {
-      "Date": "2008-01-28T04:02:01.096304+01:00",
+      "Date": "2000-05-05T03:44:51.9490264+02:00",
       "IsConflict": false,
-      "Description": "Horizontal bifurcated middleware",
-      "DescriptionStyleHint": "Vision-oriented clear-thinking policy",
-      "Tooltip": "vel"
+      "Description": "Right-sized asynchronous budgetary management",
+      "DescriptionStyleHint": "Open-architected multi-state system engine",
+      "Tooltip": "nisi"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

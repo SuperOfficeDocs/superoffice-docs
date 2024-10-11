@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 356,
-  "Name": "Rogahn-Kilback",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 855,
-  "Rank": 985
+  "Id": 925,
+  "Name": "Hintz, Hettinger and Crona",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 981,
+  "Rank": 894
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 291,
-  "Name": "Waelchi Inc and Sons",
-  "Tooltip": "facere",
+  "Id": 621,
+  "Name": "Mosciski-Kohler",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 643,
-  "Rank": 123,
+  "UdListDefinitionId": 984,
+  "Rank": 451,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 828
     }
   }
 }

@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 215,
+  "TicketId": 473,
   "MessageActionType": "Forward",
-  "TicketMessageId": 853,
-  "TicketTypeId": 45,
-  "ExcludeSignature": true
+  "TicketMessageId": 738,
+  "TicketTypeId": 590,
+  "ExcludeSignature": false
 }
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "tempore",
+  "Body": "voluptatum",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 787,
-      "Name": "Leannon Inc and Sons",
-      "ContentType": "maxime",
-      "AttSize": 505,
-      "InlineImage": true,
-      "ContentId": "perspiciatis",
-      "AuthKey": "fuga",
+      "AttachmentId": 274,
+      "Name": "White, Braun and Pagac",
+      "ContentType": "est",
+      "AttSize": 338,
+      "InlineImage": false,
+      "ContentId": "velit",
+      "AuthKey": "accusamus",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldLength": 524
         }
       }
     }

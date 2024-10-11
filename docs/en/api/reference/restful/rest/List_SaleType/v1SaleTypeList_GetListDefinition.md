@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 163,
-  "Name": "Zboncak, Lind and Runolfsdottir",
-  "Tooltip": "et",
+  "Id": 132,
+  "Name": "Sporer Group",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 76,
+  "Rank": 578,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
-  "InUseByUserDefinedFields": true,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldType": "System.Int32",
+      "FieldLength": 988
     }
   },
   "_Links": {

@@ -1204,7 +1204,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelection?$select=contactFax/formattedNumber,sale/source,sale/amountInBaseCurrency,appointment/recordType,appointment/appointment/titleHtml
+GET /api/v1/archive/ContactSelection?$select=LastDoBySale,sale/associate/personId,document/documentPublish/publishedFrom,personSourceRelation/title,personTargetRelation/retired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

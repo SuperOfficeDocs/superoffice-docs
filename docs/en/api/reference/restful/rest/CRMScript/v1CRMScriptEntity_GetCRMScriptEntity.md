@@ -93,7 +93,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,52 +103,52 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 933,
-  "UniqueIdentifier": "laboriosam",
-  "Name": "Labadie Inc and Sons",
-  "Description": "Enhanced zero defect workforce",
-  "IncludeId": "provident",
-  "AccessKey": "ut",
-  "HierarchyId": 817,
-  "Source": "dolor",
-  "SourceCode": "vero",
+  "EjscriptId": 681,
+  "UniqueIdentifier": "architecto",
+  "Name": "Durgan-Sporer",
+  "Description": "Fully-configurable holistic utilisation",
+  "IncludeId": "animi",
+  "AccessKey": "pariatur",
+  "HierarchyId": 640,
+  "Source": "ut",
+  "SourceCode": "nihil",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 850,
+  "HtmlOutput": 982,
   "Includes": [
-    557,
-    669
+    215,
+    799
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 357,
-      "LineNumberTo": 445,
-      "Delta": 797,
-      "IncludeId": "quae",
+      "LineNumberFrom": 968,
+      "LineNumberTo": 136,
+      "Delta": 780,
+      "IncludeId": "aut",
       "IncludedFrom": [
-        "delectus",
-        "quam"
+        "dolore",
+        "cum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldType": "System.Int32",
+          "FieldLength": 358
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2024-05-10T04:02:06.4472912+02:00",
-  "RegisteredAssociateId": 329,
-  "Updated": "2009-02-07T04:02:06.4472912+01:00",
-  "UpdatedAssociateId": 867,
+  "Registered": "2019-04-01T03:44:57.2028009+02:00",
+  "RegisteredAssociateId": 943,
+  "Updated": "1997-11-25T03:44:57.2028009+01:00",
+  "UpdatedAssociateId": 146,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 436
     }
   },
   "_Links": {

@@ -85,35 +85,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 44,
-  "Name": "Stoltenberg, Mante and Kuphal",
-  "Tooltip": "aspernatur",
-  "Rank": 887,
+  "ProjTypeId": 977,
+  "Name": "Farrell-Senger",
+  "Tooltip": "accusantium",
+  "Rank": 426,
   "DurationUnit": "Century",
-  "ProjectDuration": 21,
+  "ProjectDuration": 254,
   "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 288,
-      "Name": "Bednar-Schamberger",
-      "ToolTip": "Itaque magnam reiciendis qui quo voluptas aspernatur ducimus.",
-      "Deleted": true,
-      "Rank": 892,
-      "Type": "sed",
-      "ColorBlock": 710,
-      "IconHint": "quibusdam",
+      "Id": 663,
+      "Name": "Fisher Inc and Sons",
+      "ToolTip": "Est id dolor vitae qui molestiae voluptatem.",
+      "Deleted": false,
+      "Rank": 351,
+      "Type": "excepturi",
+      "ColorBlock": 352,
+      "IconHint": "rerum",
       "Selected": false,
-      "LastChanged": "2000-08-26T04:02:01.8784808+02:00",
+      "LastChanged": "2002-04-24T03:44:52.7302252+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "beatae",
-      "StyleHint": "quas",
+      "ExtraInfo": "similique",
+      "StyleHint": "temporibus",
       "Hidden": false,
-      "FullName": "Kaylah Goyette"
+      "FullName": "Mrs. Samanta Derrick Ernser V"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 37,
-  "Name": "Zieme LLC",
-  "Tooltip": "eligendi",
-  "Rank": 344,
+  "ProjTypeId": 79,
+  "Name": "Langworth, D'Amore and Dicki",
+  "Tooltip": "nihil",
+  "Rank": 941,
   "DurationUnit": "Century",
-  "ProjectDuration": 818,
+  "ProjectDuration": 953,
   "Deleted": true,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 910,
-      "Name": "Runte Inc and Sons",
-      "ToolTip": "Eum in sed saepe.",
+      "Id": 623,
+      "Name": "Klocko, Deckow and Dickens",
+      "ToolTip": "Aspernatur excepturi.",
       "Deleted": false,
-      "Rank": 113,
-      "Type": "quis",
-      "ColorBlock": 939,
-      "IconHint": "consequuntur",
-      "Selected": false,
-      "LastChanged": "2013-01-27T04:02:01.8784808+01:00",
+      "Rank": 734,
+      "Type": "libero",
+      "ColorBlock": 756,
+      "IconHint": "culpa",
+      "Selected": true,
+      "LastChanged": "2005-06-30T03:44:52.7302252+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "nobis",
-      "Hidden": true,
-      "FullName": "Miss Hershel Aliya Schiller",
+      "ExtraInfo": "magni",
+      "StyleHint": "omnis",
+      "Hidden": false,
+      "FullName": "Mrs. Ward Amari Nolan V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 459
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldType": "System.Int32",
+      "FieldLength": 50
     }
   }
 }

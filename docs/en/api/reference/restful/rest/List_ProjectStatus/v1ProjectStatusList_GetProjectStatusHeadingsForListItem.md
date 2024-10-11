@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Hyatt, Auer and Lehner",
-    "ToolTip": "Consequatur illo et.",
+    "Id": 155,
+    "Name": "Kunze Group",
+    "ToolTip": "Minima ab laboriosam eligendi atque facilis consequatur pariatur.",
     "Deleted": false,
-    "Rank": 353,
-    "Type": "est",
-    "ColorBlock": 361,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2022-08-17T04:02:07.337823+02:00",
+    "Rank": 467,
+    "Type": "omnis",
+    "ColorBlock": 5,
+    "IconHint": "distinctio",
+    "Selected": true,
+    "LastChanged": "2001-10-05T03:44:58.0937233+02:00",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Dooley-Brekke",
-        "ToolTip": "Blanditiis rerum rem odit incidunt.",
+        "Id": 30,
+        "Name": "Kautzer LLC",
+        "ToolTip": "Quia iure mollitia vero maxime deserunt.",
         "Deleted": false,
-        "Rank": 729,
-        "Type": "occaecati",
-        "ColorBlock": 678,
-        "IconHint": "autem",
+        "Rank": 24,
+        "Type": "voluptatem",
+        "ColorBlock": 68,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2013-06-15T04:02:07.337823+02:00",
+        "LastChanged": "2013-04-27T03:44:58.0937233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Eloise Gibson",
+        "ExtraInfo": "velit",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Osvaldo Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 684
+            "FieldLength": 959
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Teagan Cormier V",
+    "ExtraInfo": "officia",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Jedediah Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldType": "System.String",
+        "FieldLength": 96
       }
     }
   }

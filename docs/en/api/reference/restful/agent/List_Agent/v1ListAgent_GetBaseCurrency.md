@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 957,
-  "Name": "Rath LLC",
-  "Tooltip": "sit",
-  "Rank": 425,
-  "Rate": 23407.845999999998,
-  "Units": 19255.296,
+  "CurrencyId": 292,
+  "Name": "Funk-Marvin",
+  "Tooltip": "doloribus",
+  "Rank": 395,
+  "Rate": 28397.174,
+  "Units": 5287.058,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 197
     }
   }
 }

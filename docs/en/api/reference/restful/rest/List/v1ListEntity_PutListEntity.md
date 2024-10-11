@@ -97,19 +97,19 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Rodriguez Inc and Sons",
-  "Tooltip": "eveniet",
+  "Id": 50,
+  "Name": "Hamill LLC",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 497,
+  "Rank": 850,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 267,
-  "Name": "Legros LLC",
-  "Tooltip": "laudantium",
+  "Id": 278,
+  "Name": "Stanton-Rempel",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 447,
+  "Rank": 779,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eaque",
+  "ListType": "libero",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 33
     }
   },
   "_Links": {

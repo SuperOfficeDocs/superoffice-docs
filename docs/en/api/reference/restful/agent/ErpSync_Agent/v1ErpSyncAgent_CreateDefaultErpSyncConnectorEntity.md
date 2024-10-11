@@ -73,16 +73,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 819,
-  "DisplayName": "Schmidt LLC",
+  "ErpConnectorId": 230,
+  "DisplayName": "Baumbach Group",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldType": "System.Int32",
+      "FieldLength": 415
     }
   }
 }

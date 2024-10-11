@@ -107,7 +107,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 754
+  "DocumentId": 321
 }
 ```
 
@@ -120,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 221,
-      "ContactName": "Ernser Group",
-      "PersonId": 31,
-      "PersonName": "Monahan Inc and Sons",
-      "AssociateId": 493,
-      "Address": "et",
-      "EmailId": 827,
+      "ContactId": 631,
+      "ContactName": "Hackett Inc and Sons",
+      "PersonId": 184,
+      "PersonName": "Douglas Inc and Sons",
+      "AssociateId": 558,
+      "Address": "minima",
+      "EmailId": 933,
       "DuplicatePersonIds": [
-        738,
-        895
+        764,
+        201
       ],
-      "Name": "Schmeler, Abbott and Fay",
+      "Name": "Price Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 48
+          "FieldLength": 317
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 326,
-      "ContactName": "Wilkinson Group",
-      "PersonId": 881,
-      "PersonName": "Mann LLC",
-      "AssociateId": 506,
-      "Address": "iste",
-      "EmailId": 677,
+      "ContactId": 909,
+      "ContactName": "Wisozk Group",
+      "PersonId": 952,
+      "PersonName": "Moore Inc and Sons",
+      "AssociateId": 18,
+      "Address": "alias",
+      "EmailId": 794,
       "DuplicatePersonIds": [
-        414,
-        986
+        867,
+        747
       ],
-      "Name": "Grimes, Kuvalis and Fritsch",
+      "Name": "Beatty Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 627
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 575,
-      "ContactName": "Bernhard, Hirthe and Muller",
-      "PersonId": 79,
-      "PersonName": "Lubowitz-Swaniawski",
-      "AssociateId": 555,
-      "Address": "fugiat",
-      "EmailId": 654,
+      "ContactId": 425,
+      "ContactName": "Langosh-Morar",
+      "PersonId": 692,
+      "PersonName": "Spinka Inc and Sons",
+      "AssociateId": 456,
+      "Address": "quo",
+      "EmailId": 264,
       "DuplicatePersonIds": [
-        56,
-        311
+        47,
+        567
       ],
-      "Name": "Yundt Inc and Sons",
+      "Name": "Schuppe-Murray",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 656
+          "FieldLength": 159
         }
       }
     }
   ],
-  "Subject": "quis",
-  "HTMLBody": "error",
+  "Subject": "expedita",
+  "HTMLBody": "voluptatem",
   "From": null,
-  "Sent": "2013-09-27T04:02:01.7217471+02:00",
-  "Size": 412,
+  "Sent": "2002-01-01T03:44:52.5896202+01:00",
+  "Size": 942,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "excepturi",
-  "PlainBody": "vero",
-  "IsSent": true,
+  "MessageID": "sed",
+  "PlainBody": "et",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 978,
+  "ServerId": 998,
   "Attachments": [
     {
-      "Description": "Future-proofed tangible customer loyalty",
-      "Filename": "nesciunt",
-      "Size": 12,
-      "Type": "ipsum",
-      "Encoding": "eius",
-      "Id": "aliquid",
-      "Disposition": "eum",
-      "IsSafeFileExtension": false,
+      "Description": "Fully-configurable holistic portal",
+      "Filename": "quia",
+      "Size": 838,
+      "Type": "pariatur",
+      "Encoding": "unde",
+      "Id": "consequatur",
+      "Disposition": "ut",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 515
+          "FieldLength": 995
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Reilly-Gusikowski",
+      "Name": "Erdman Group",
       "Values": [
-        "voluptatem",
-        "natus"
+        "pariatur",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldLength": 139
         }
       }
     },
     {
-      "Name": "Reilly-Gusikowski",
+      "Name": "Erdman Group",
       "Values": [
-        "voluptatem",
-        "natus"
+        "pariatur",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldLength": 139
         }
       }
     }
   ],
-  "FolderName": "Schoen-Bergnaum",
-  "EmailItemId": 128,
-  "AccountId": 903,
-  "ReceivedAt": "2004-08-30T04:02:01.7217471+02:00",
+  "FolderName": "Lakin-Adams",
+  "EmailItemId": 560,
+  "AccountId": 721,
+  "ReceivedAt": "2001-12-29T03:44:52.5896202+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-04-14T04:02:01.7217471+02:00",
+  "RepliedAt": "2020-07-01T03:44:52.5896202+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 333
     }
   }
 }

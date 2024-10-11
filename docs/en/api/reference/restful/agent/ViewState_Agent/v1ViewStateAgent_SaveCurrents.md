@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 441,
-      "Id": 460,
-      "HistoryName": "Kovacek Group",
-      "HistoryId": 88,
-      "AssociateId": 684,
-      "Name": "Crooks-Russel",
-      "ItemInfo": "laborum"
+      "Rank": 188,
+      "Id": 215,
+      "HistoryName": "Schultz, Fay and Schimmel",
+      "HistoryId": 821,
+      "AssociateId": 811,
+      "Name": "Emmerich-Steuber",
+      "ItemInfo": "sed"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 763,
-    "Id": 384,
-    "HistoryName": "Armstrong Group",
-    "HistoryId": 887,
-    "AssociateId": 864,
-    "Name": "Goldner LLC",
-    "ItemInfo": "sunt",
+    "Rank": 240,
+    "Id": 356,
+    "HistoryName": "Johnson-Mayer",
+    "HistoryId": 392,
+    "AssociateId": 253,
+    "Name": "Gorczany Inc and Sons",
+    "ItemInfo": "dignissimos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 618
       }
     }
   }

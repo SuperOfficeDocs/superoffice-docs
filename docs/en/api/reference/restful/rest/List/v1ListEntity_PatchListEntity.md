@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "similique",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "similique",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 383,
-  "Name": "Konopelski-Mraz",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 870,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "assumenda",
+  "Id": 950,
+  "Name": "Goyette-Breitenberg",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "Rank": 782,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   },
   "_Links": {

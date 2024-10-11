@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 775,
-  "NewName": "Reichert LLC",
-  "ValidFrom": "2018-06-26T04:02:02.1909603+02:00",
-  "ValidTo": "2013-10-22T04:02:02.1909603+02:00",
-  "NewCurrencyId": 640,
-  "ConvertCurrency": false
+  "OriginalPriceListId": 440,
+  "NewName": "Altenwerth LLC",
+  "ValidFrom": "2008-10-14T03:44:53.042699+02:00",
+  "ValidTo": "2017-02-24T03:44:53.042699+01:00",
+  "NewCurrencyId": 972,
+  "ConvertCurrency": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 315,
-  "ERPPriceListKey": "consequatur",
-  "QuoteConnectionId": 959,
-  "Name": "Homenick-Schaefer",
-  "Description": "Versatile optimizing hierarchy",
-  "Currency": "numquam",
-  "CurrencyName": "Koss Inc and Sons",
-  "ValidFrom": "2016-08-26T04:02:02.1909603+02:00",
-  "ValidTo": "2013-12-03T04:02:02.1909603+01:00",
+  "PriceListId": 98,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 880,
+  "Name": "Franecki-Rosenbaum",
+  "Description": "Organic tertiary interface",
+  "Currency": "natus",
+  "CurrencyName": "Abbott-Runolfsdottir",
+  "ValidFrom": "1999-08-23T03:44:53.042699+02:00",
+  "ValidTo": "2015-10-17T03:44:53.042699+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 308
     }
   }
 }

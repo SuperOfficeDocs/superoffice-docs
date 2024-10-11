@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    712,
-    555
+    861,
+    901
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 600,
-    "Name": "Steuber-Bartoletti",
-    "TargetTable": "aut",
-    "Registered": "2006-12-22T04:02:02.3317533+01:00",
-    "ProviderName": "Pfannerstill-Hills"
+    "SelectionId": 160,
+    "Name": "Casper-Nicolas",
+    "TargetTable": "facere",
+    "Registered": "2010-02-27T03:44:53.1997759+01:00",
+    "ProviderName": "Rau, Batz and Volkman"
   },
   {
-    "SelectionId": 600,
-    "Name": "Steuber-Bartoletti",
-    "TargetTable": "aut",
-    "Registered": "2006-12-22T04:02:02.3317533+01:00",
-    "ProviderName": "Pfannerstill-Hills"
+    "SelectionId": 160,
+    "Name": "Casper-Nicolas",
+    "TargetTable": "facere",
+    "Registered": "2010-02-27T03:44:53.1997759+01:00",
+    "ProviderName": "Rau, Batz and Volkman"
   }
 ]
 ```

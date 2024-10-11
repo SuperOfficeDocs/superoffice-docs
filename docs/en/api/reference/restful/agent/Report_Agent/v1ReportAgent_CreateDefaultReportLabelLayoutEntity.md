@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 579,
-  "Name": "Stanton Inc and Sons",
-  "Description": "Persevering 6th generation hardware",
+  "ReportLabelLayoutId": 513,
+  "Name": "Rath Inc and Sons",
+  "Description": "Face to face needs-based collaboration",
   "Orientation": "Landscape",
-  "PaperWidth": 582,
-  "PaperHeight": 470,
-  "LeftMargin": 851,
-  "RightMargin": 342,
-  "TopMargin": 605,
-  "BottomMargin": 255,
-  "CountColumns": 250,
-  "CountRows": 859,
+  "PaperWidth": 677,
+  "PaperHeight": 999,
+  "LeftMargin": 614,
+  "RightMargin": 154,
+  "TopMargin": 190,
+  "BottomMargin": 702,
+  "CountColumns": 914,
+  "CountRows": 601,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

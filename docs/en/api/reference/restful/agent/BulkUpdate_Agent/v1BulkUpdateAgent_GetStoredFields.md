@@ -92,8 +92,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact",
-  "Context": "voluptas"
+  "Tablename": "project",
+  "Context": "odio"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "nisi",
-    "ValueType": "ex",
+    "Key": "explicabo",
+    "ValueType": "expedita",
     "Mandatory": true,
-    "EncodedDisplayName": "Walker Inc and Sons",
-    "EncodedDisplayDescription": "Decentralized uniform Graphical User Interface",
-    "IconHint": "consequatur",
+    "EncodedDisplayName": "Kub LLC",
+    "EncodedDisplayDescription": "Future-proofed dynamic archive",
+    "IconHint": "cumque",
     "ControlInfos": [
       {
-        "Type": "deserunt",
-        "Label": "omnis",
-        "Dimension": 15,
-        "ListProviderName": "Collier-Schowalter",
-        "ListProviderExtraInfo": "a",
-        "ListProviderPrimaryKeyName": "Stiedemann-Collier",
-        "ListLeadText": "consequatur",
+        "Type": "nam",
+        "Label": "et",
+        "Dimension": 450,
+        "ListProviderName": "Lubowitz, Ryan and Cole",
+        "ListProviderExtraInfo": "error",
+        "ListProviderPrimaryKeyName": "Jones Group",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 937
+            "FieldLength": 802
           }
         }
       }
     ],
-    "EncodedDataCaption": "cum",
-    "EncodedDataCaptionDescription": "Progressive hybrid hub",
-    "CurrentOperationType": "ipsam",
+    "EncodedDataCaption": "perferendis",
+    "EncodedDataCaptionDescription": "Visionary actuating intranet",
+    "CurrentOperationType": "et",
     "Values": [
-      "consequatur",
-      "voluptas"
+      "quia",
+      "voluptatem"
     ],
     "DisplayValues": [
-      "non",
-      "non"
+      "maxime",
+      "laboriosam"
     ],
     "OperationInfos": [
       {
-        "Key": "rerum",
-        "EncodedDisplayName": "Bechtelar LLC",
+        "Key": "praesentium",
+        "EncodedDisplayName": "Walker-Ledner",
         "EncodedLeadTexts": [
-          "autem",
-          "ut"
+          "accusantium",
+          "autem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 103
+            "FieldType": "System.String",
+            "FieldLength": 711
           }
         }
       },
       {
-        "Key": "rerum",
-        "EncodedDisplayName": "Bechtelar LLC",
+        "Key": "praesentium",
+        "EncodedDisplayName": "Walker-Ledner",
         "EncodedLeadTexts": [
-          "autem",
-          "ut"
+          "accusantium",
+          "autem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 103
+            "FieldType": "System.String",
+            "FieldLength": 711
           }
         }
       }

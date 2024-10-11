@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=quae
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=quo
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Feest, Rolfson and Hyatt",
-    "ToolTip": "Distinctio architecto non porro dolor.",
+    "Id": 843,
+    "Name": "Barrows LLC",
+    "ToolTip": "Enim blanditiis repellat qui esse qui dolorum.",
     "Deleted": false,
-    "Rank": 872,
-    "Type": "minus",
+    "Rank": 148,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Deckow-Bradtke",
-        "ToolTip": "Repudiandae repellat repudiandae.",
-        "Deleted": false,
-        "Rank": 780,
-        "Type": "ullam",
+        "Id": 569,
+        "Name": "Steuber LLC",
+        "ToolTip": "Id libero ut laudantium quia nihil.",
+        "Deleted": true,
+        "Rank": 112,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iure",
-        "ColorBlock": 833,
-        "ExtraInfo": "sint",
-        "StyleHint": "eos",
-        "FullName": "Miss Sammy Predovic DVM",
+        "IconHint": "deleniti",
+        "ColorBlock": 624,
+        "ExtraInfo": "veniam",
+        "StyleHint": "quia",
+        "FullName": "Cole Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 847
+            "FieldType": "System.String",
+            "FieldLength": 598
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 958,
-    "ExtraInfo": "enim",
-    "StyleHint": "doloribus",
-    "FullName": "Dr. Lydia Nicolas V",
+    "IconHint": "et",
+    "ColorBlock": 1001,
+    "ExtraInfo": "culpa",
+    "StyleHint": "aut",
+    "FullName": "Hilton Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldType": "System.Int32",
+        "FieldLength": 324
       }
     }
   }

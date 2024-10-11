@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 934,
-  "Name": "Schaefer, Buckridge and Hoeger",
-  "Tooltip": "aut",
+  "Id": 687,
+  "Name": "Kessler Inc and Sons",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 450,
-  "Rank": 671,
+  "UdListDefinitionId": 211,
+  "Rank": 366,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldType": "System.Int32",
+      "FieldLength": 335
     }
   }
 }

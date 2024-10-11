@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 408,
-  "Name": "Feeney-Hamill",
-  "Tooltip": "suscipit",
+  "HeadingId": 830,
+  "Name": "O'Kon, Halvorson and Willms",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 546,
-  "UdListDefinitionId": 57
+  "Rank": 425,
+  "UdListDefinitionId": 194
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 324,
-  "Name": "Effertz Group",
-  "Tooltip": "numquam",
+  "HeadingId": 450,
+  "Name": "Rohan-Bergnaum",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 889,
-  "UdListDefinitionId": 261,
+  "Rank": 786,
+  "UdListDefinitionId": 57,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   }
 }

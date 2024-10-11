@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 637,
-  "Name": "Batz-Stoltenberg",
-  "Tooltip": "et",
-  "VisibleColumns": 103,
-  "Rank": 281,
-  "AssocId": 374,
+  "DiaryViewId": 137,
+  "Name": "Leuschke-Nolan",
+  "Tooltip": "recusandae",
+  "VisibleColumns": 281,
+  "Rank": 795,
+  "AssocId": 352,
   "AssociateList": [
     {
-      "Id": 484,
-      "Name": "Terry-McCullough",
-      "ToolTip": "Officiis ut sunt consequatur.",
+      "Id": 932,
+      "Name": "Keebler, Mayert and Murazik",
+      "ToolTip": "Placeat sed repellat quisquam reiciendis perspiciatis fugit.",
       "Deleted": false,
-      "Rank": 603,
-      "Type": "enim",
-      "ColorBlock": 548,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2011-09-06T04:02:01.4092709+02:00",
+      "Rank": 555,
+      "Type": "excepturi",
+      "ColorBlock": 69,
+      "IconHint": "labore",
+      "Selected": true,
+      "LastChanged": "2000-09-29T03:44:52.2615302+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "odit",
-      "Hidden": true,
-      "FullName": "Miss Zachery Abernathy",
+      "ExtraInfo": "nostrum",
+      "StyleHint": "quae",
+      "Hidden": false,
+      "FullName": "Prof. Baylee Marge McCullough I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldType": "System.String",
+          "FieldLength": 138
         }
       }
     }
   ],
-  "TzLocationId": 611,
+  "TzLocationId": 405,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldType": "System.Int32",
+      "FieldLength": 507
     }
   }
 }

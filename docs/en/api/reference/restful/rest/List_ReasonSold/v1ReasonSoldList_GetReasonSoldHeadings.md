@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 385,
-    "Name": "Heathcote, Strosin and Sanford",
-    "Tooltip": "consequatur",
+    "HeadingId": 874,
+    "Name": "Wunsch, Brown and Tremblay",
+    "Tooltip": "illo",
     "Deleted": false,
-    "Rank": 355,
-    "UdListDefinitionId": 319,
+    "Rank": 107,
+    "UdListDefinitionId": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 957
       }
     }
   }

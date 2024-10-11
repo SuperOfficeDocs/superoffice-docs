@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "Goyette-Ruecker",
-  "AssociateId": 909,
-  "DetailsTable": 715,
-  "DetailsRecord": 30,
-  "IsSystemTask": true,
+  "Id": 478,
+  "Name": "Kertzmann-Klocko",
+  "AssociateId": 196,
+  "DetailsTable": 365,
+  "DetailsRecord": 472,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "fugiat",
-    "ParameterObject2": "voluptatem"
+    "ParameterObject1": "fuga",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2014-08-06T04:02:01.2374146+02:00",
-  "Created": "2015-07-29T04:02:01.2374146+02:00",
-  "StartCount": 755,
-  "DatabaseSerialNumber": "1568113",
-  "Context": "voluptates",
-  "Result": "nostrum",
+  "LastStarted": "2020-05-16T03:44:52.0740137+02:00",
+  "Created": "2005-07-22T03:44:52.0740137+02:00",
+  "StartCount": 134,
+  "DatabaseSerialNumber": "904244",
+  "Context": "quos",
+  "Result": "doloribus",
   "State": "All",
-  "Description": "Polarised client-server interface",
-  "Response": "omnis",
-  "Request": "ex",
-  "ProgressDescription": "Advanced value-added emulation",
-  "ProgressPercent": 736,
-  "FileName": "Dicki, D'Amore and Howell",
+  "Description": "Horizontal bottom-line pricing structure",
+  "Response": "velit",
+  "Request": "nobis",
+  "ProgressDescription": "Programmable leading edge capability",
+  "ProgressPercent": 609,
+  "FileName": "McLaughlin-Dare",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 483
     }
   }
 }

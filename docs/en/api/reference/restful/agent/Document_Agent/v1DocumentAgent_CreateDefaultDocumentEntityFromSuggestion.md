@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 89
+  "SuggestedDocumentId": 507
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 192,
+  "DocumentId": 550,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rem",
-  "Header": "ratione",
-  "Name": "Stroman-Shanahan",
-  "OurRef": "quia",
-  "YourRef": "nobis",
-  "CreatedDate": "2011-02-12T04:02:01.6436305+01:00",
-  "UpdatedDate": "2015-10-19T04:02:01.6436305+02:00",
-  "Description": "Cloned content-based functionalities",
+  "Attention": "neque",
+  "Header": "minima",
+  "Name": "Crist Group",
+  "OurRef": "laudantium",
+  "YourRef": "dolor",
+  "CreatedDate": "2000-08-07T03:44:52.5115026+02:00",
+  "UpdatedDate": "2009-02-19T03:44:52.5115026+01:00",
+  "Description": "Intuitive optimizing emulation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-03-01T04:02:01.6592538+01:00",
-  "ExternalRef": "possimus",
+  "Date": "2015-06-26T03:44:52.5115026+02:00",
+  "ExternalRef": "illum",
   "Completed": "Completed",
-  "ActiveLinks": 914,
+  "ActiveLinks": 871,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Doyle Group",
-      "Id": 132,
-      "Description": "Synergistic reciprocal Graphical User Interface",
-      "ExtraInfo": "totam",
-      "LinkId": 530,
+      "EntityName": "Stehr, Gusikowski and Bins",
+      "Id": 67,
+      "Description": "Up-sized holistic monitoring",
+      "ExtraInfo": "sed",
+      "LinkId": 3,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 944
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 771,
-  "Snum": 682,
+  "SuggestedDocumentId": 249,
+  "Snum": 43,
   "UserDefinedFields": {
-    "SuperOffice:1": "961219023",
-    "SuperOffice:2": "Ms. Earnest Hettinger V"
+    "SuperOffice:1": "69776096",
+    "SuperOffice:2": "Mr. Lurline Kozey V"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "officiis"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "eius"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "illum"
   },
-  "PublishEventDate": "2005-12-16T04:02:01.6592538+01:00",
-  "PublishTo": "2010-12-12T04:02:01.6592538+01:00",
-  "PublishFrom": "2011-05-07T04:02:01.6592538+02:00",
+  "PublishEventDate": "1999-09-17T03:44:52.5115026+02:00",
+  "PublishTo": "2010-10-08T03:44:52.5115026+02:00",
+  "PublishFrom": "2006-03-04T03:44:52.5115026+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 411,
+      "VisibleId": 161,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     },
     {
-      "VisibleId": 411,
+      "VisibleId": 161,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 454
     }
   }
 }

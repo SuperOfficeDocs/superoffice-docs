@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 132
+  "PersonId": 91
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 292,
-    "Name": "Spinka, Robel and Hermiston",
-    "Description": "User-friendly composite algorithm",
+    "ProjectId": 284,
+    "Name": "Romaguera, Littel and Goldner",
+    "Description": "Digitized 24 hour migration",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 390,
-    "AssociateFullName": "Nick Benny Funk I",
-    "TypeId": 831,
-    "Updated": "2017-01-15T04:02:02.1597135+01:00",
-    "StatusId": 521,
-    "Status": "qui",
-    "TextId": 710,
-    "PublishTo": "2019-04-07T04:02:02.1597135+02:00",
-    "PublishFrom": "2001-07-24T04:02:02.1597135+02:00",
-    "IsPublished": false,
+    "Type": "ut",
+    "AssociateId": 765,
+    "AssociateFullName": "Antonetta Nolan",
+    "TypeId": 679,
+    "Updated": "2019-07-24T03:44:53.0114471+02:00",
+    "StatusId": 280,
+    "Status": "esse",
+    "TextId": 121,
+    "PublishTo": "2004-04-02T03:44:53.0114471+02:00",
+    "PublishFrom": "2019-06-07T03:44:53.0114471+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1443559",
-    "ActiveErpLinks": 177,
+    "ProjectNumber": "1398174",
+    "ActiveErpLinks": 796,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldLength": 116
       }
     }
   }

@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 951,
-  "Caption": "omnis",
-  "Description": "User-centric static contingency",
-  "ChartName": "Deckow Inc and Sons",
-  "ChartId": "deserunt",
-  "IsDefault": true,
-  "AssociateId": 569,
-  "GroupId": 526,
-  "SelectionId": 74,
-  "Config": "sapiente",
+  "DashboardTileId": 395,
+  "Caption": "voluptatem",
+  "Description": "Enhanced local system engine",
+  "ChartName": "Weissnat Group",
+  "ChartId": "qui",
+  "IsDefault": false,
+  "AssociateId": 182,
+  "GroupId": 974,
+  "SelectionId": 752,
+  "Config": "mollitia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Klein, Smith and Becker",
-      "Description": "Pre-emptive exuding focus group",
+      "Name": "Casper, Hayes and Swaniawski",
+      "Description": "Right-sized system-worthy functionalities",
       "Type": "Boolean",
-      "ListName": "Kshlerin Inc and Sons",
+      "ListName": "Runolfsdottir, Stracke and Gleichner",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "expedita",
-      "DefaultDataOption": false,
+      "Value": "sit",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldLength": 58
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 704,
+      "VisibleId": 546,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 707
         }
       }
     },
     {
-      "VisibleId": 704,
+      "VisibleId": 546,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 707
         }
       }
     }
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   },
   "_Links": {

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 840,
-    "Name": "Durgan Inc and Sons",
+    "TicketPriorityId": 427,
+    "Name": "Hane, Walter and Quitzon",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 60,
+    "SortOrder": 925,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 160,
-    "MonStart": "2023-01-05T04:02:01.8159876+01:00",
-    "MonStop": "2006-07-25T04:02:01.8159876+02:00",
-    "TueStart": "1998-10-02T04:02:01.8159876+02:00",
-    "TueStop": "2022-04-13T04:02:01.8159876+02:00",
-    "WedStart": "2008-07-31T04:02:01.8159876+02:00",
-    "WedStop": "2017-12-11T04:02:01.8159876+01:00",
-    "ThuStart": "2020-06-11T04:02:01.8159876+02:00",
-    "ThuStop": "2019-09-16T04:02:01.8159876+02:00",
-    "FriStart": "1998-09-25T04:02:01.8159876+02:00",
-    "FriStop": "2001-12-27T04:02:01.8159876+01:00",
-    "SatStart": "2021-08-02T04:02:01.8159876+02:00",
-    "SatStop": "2019-12-04T04:02:01.8159876+01:00",
-    "SunStart": "2014-08-23T04:02:01.8159876+02:00",
-    "SunStop": "2022-06-04T04:02:01.8159876+02:00",
+    "Deadline": 469,
+    "MonStart": "2021-10-06T03:44:52.6677336+02:00",
+    "MonStop": "2017-11-16T03:44:52.6677336+01:00",
+    "TueStart": "2001-07-04T03:44:52.6677336+02:00",
+    "TueStop": "2003-12-30T03:44:52.6677336+01:00",
+    "WedStart": "2018-02-15T03:44:52.6677336+01:00",
+    "WedStop": "2018-06-10T03:44:52.6677336+02:00",
+    "ThuStart": "2015-07-24T03:44:52.6677336+02:00",
+    "ThuStop": "2007-06-22T03:44:52.6677336+02:00",
+    "FriStart": "2007-12-19T03:44:52.6677336+01:00",
+    "FriStop": "2007-11-22T03:44:52.6677336+01:00",
+    "SatStart": "2005-10-27T03:44:52.6677336+02:00",
+    "SatStop": "2006-01-05T03:44:52.6677336+01:00",
+    "SunStart": "2010-02-12T03:44:52.6677336+01:00",
+    "SunStop": "2001-09-05T03:44:52.6677336+02:00",
     "NonDates": [
-      "beatae",
-      "et"
+      "eum",
+      "odio"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 832,
-        "AlertLevel": 291,
-        "AlertTimeout": 315,
-        "Action": 303,
-        "DelegateTo": 880,
-        "ScriptId": 890,
-        "EmailTo": "damion.dickinson@ratke.name",
-        "SmsTo": "doloribus",
-        "ReplyTemplateIdCustomer": 883,
-        "ReplyTemplateIdUser": 418,
-        "ReplyTemplateIdCatmast": 621,
-        "ReplyTemplateIdEmail": 393,
-        "RtiCustomerSms": 588,
-        "ReplyTemplateIdUserSms": 85,
-        "ReplyTemplateIdCatmastSms": 643,
-        "ReplyTemplateIdSms": 282,
+        "TicketAlertId": 935,
+        "AlertLevel": 876,
+        "AlertTimeout": 98,
+        "Action": 81,
+        "DelegateTo": 563,
+        "ScriptId": 148,
+        "EmailTo": "carey@ritchieconroy.ca",
+        "SmsTo": "qui",
+        "ReplyTemplateIdCustomer": 172,
+        "ReplyTemplateIdUser": 496,
+        "ReplyTemplateIdCatmast": 660,
+        "ReplyTemplateIdEmail": 275,
+        "RtiCustomerSms": 971,
+        "ReplyTemplateIdUserSms": 698,
+        "ReplyTemplateIdCatmastSms": 722,
+        "ReplyTemplateIdSms": 61,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 455
+            "FieldType": "System.Int32",
+            "FieldLength": 827
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldType": "System.String",
+        "FieldLength": 695
       }
     }
   }

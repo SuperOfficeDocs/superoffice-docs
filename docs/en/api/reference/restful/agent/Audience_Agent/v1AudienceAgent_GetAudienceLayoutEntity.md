@@ -26,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=250
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=293
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 699,
-  "InstanceLayout": "vero",
-  "InstanceName": "Braun Group",
-  "CreatedDate": "2009-11-28T04:02:01.221786+01:00",
-  "UpdatedDate": "2002-11-18T04:02:01.221786+01:00",
+  "AudienceLayoutId": 530,
+  "InstanceLayout": "numquam",
+  "InstanceName": "Hickle, Kutch and Cummings",
+  "CreatedDate": "2000-10-01T03:44:52.0740137+02:00",
+  "UpdatedDate": "2018-02-07T03:44:52.0740137+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldLength": 532
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=alias
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=assumenda
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Jakubowski-Rosenbaum",
-    "ToolTip": "Aut consequatur inventore laborum molestiae.",
-    "Deleted": false,
-    "Rank": 122,
-    "Type": "voluptatum",
+    "Id": 751,
+    "Name": "Purdy, Tremblay and Walter",
+    "ToolTip": "Est iste corporis in.",
+    "Deleted": true,
+    "Rank": 766,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Jerde, Mraz and Hansen",
-        "ToolTip": "Eos consequatur maxime ad optio reiciendis voluptates.",
+        "Id": 594,
+        "Name": "Wyman-VonRueden",
+        "ToolTip": "Cumque consequuntur atque nulla est quia consequuntur.",
         "Deleted": false,
-        "Rank": 685,
-        "Type": "quia",
+        "Rank": 272,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
+        "IconHint": "provident",
         "ColorBlock": 792,
-        "ExtraInfo": "sint",
+        "ExtraInfo": "pariatur",
         "StyleHint": "inventore",
-        "FullName": "Abby Effertz",
+        "FullName": "Kaya Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 486
+            "FieldLength": 284
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 827,
-    "ExtraInfo": "earum",
-    "StyleHint": "id",
-    "FullName": "Piper Mosciski",
+    "IconHint": "rerum",
+    "ColorBlock": 126,
+    "ExtraInfo": "aut",
+    "StyleHint": "doloribus",
+    "FullName": "Mr. Cordell Hayes II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 977
+        "FieldLength": 265
       }
     }
   }

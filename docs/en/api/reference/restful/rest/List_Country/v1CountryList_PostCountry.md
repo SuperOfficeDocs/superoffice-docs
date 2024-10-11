@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 268,
-  "Name": "Dare, Nicolas and Doyle",
-  "CurrencyId": 774,
-  "EnglishName": "Kessler-Wintheiser",
+  "CountryId": 457,
+  "Name": "West, Larson and Jones",
+  "CurrencyId": 88,
+  "EnglishName": "Moore, Rosenbaum and Johns",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Diverse dedicated workforce",
-  "OrgNrText": "1668979",
-  "InterAreaPrefix": "sit",
-  "DialInPrefix": "fugit",
-  "ZipPrefix": "occaecati",
-  "DomainName": "Runolfsson-Kerluke",
-  "AddressLayoutId": 221,
-  "DomesticAddressLayoutId": 134,
-  "ForeignAddressLayoutId": 640,
-  "Rank": 228,
-  "Tooltip": "minus",
-  "Deleted": false
+  "ImageDescription": "Multi-tiered responsive groupware",
+  "OrgNrText": "1095726",
+  "InterAreaPrefix": "vitae",
+  "DialInPrefix": "omnis",
+  "ZipPrefix": "quia",
+  "DomainName": "Cummerata, Wunsch and Goyette",
+  "AddressLayoutId": 970,
+  "DomesticAddressLayoutId": 245,
+  "ForeignAddressLayoutId": 578,
+  "Rank": 963,
+  "Tooltip": "ducimus",
+  "Deleted": true
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 179,
-  "Name": "Mayer Inc and Sons",
-  "CurrencyId": 819,
-  "EnglishName": "Crona, Kessler and O'Hara",
+  "CountryId": 587,
+  "Name": "Bartell-Durgan",
+  "CurrencyId": 8,
+  "EnglishName": "Walker Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Stand-alone encompassing attitude",
-  "OrgNrText": "1244724",
-  "InterAreaPrefix": "eligendi",
-  "DialInPrefix": "provident",
-  "ZipPrefix": "dolor",
-  "DomainName": "Gottlieb, Renner and Heidenreich",
-  "AddressLayoutId": 448,
-  "DomesticAddressLayoutId": 139,
-  "ForeignAddressLayoutId": 794,
-  "Rank": 101,
-  "Tooltip": "aut",
-  "Deleted": false,
+  "ImageDescription": "Quality-focused context-sensitive service-desk",
+  "OrgNrText": "932054",
+  "InterAreaPrefix": "deleniti",
+  "DialInPrefix": "maiores",
+  "ZipPrefix": "et",
+  "DomainName": "Medhurst Group",
+  "AddressLayoutId": 581,
+  "DomesticAddressLayoutId": 5,
+  "ForeignAddressLayoutId": 151,
+  "Rank": 103,
+  "Tooltip": "expedita",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 737
     }
   }
 }

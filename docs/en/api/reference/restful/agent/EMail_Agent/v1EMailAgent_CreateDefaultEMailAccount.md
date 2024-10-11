@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 578,
-  "EMailAddress": "voluptatem",
-  "AssociateId": 321,
+  "EMailAccountId": 961,
+  "EMailAddress": "quisquam",
+  "AssociateId": 310,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 378,
-  "ErrorCount": 182,
+  "AccountStatus": 400,
+  "ErrorCount": 151,
   "ErrorReason": "",
-  "InboxFolder": "qui",
-  "SentFolder": "sint",
+  "InboxFolder": "eos",
+  "SentFolder": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldType": "System.Int32",
+      "FieldLength": 111
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 804,
-  "WorkflowStepId": 714,
-  "WorkflowId": 322,
-  "Rank": 929,
+  "WorkflowWaitForActionId": 798,
+  "WorkflowStepId": 664,
+  "WorkflowId": 885,
+  "Rank": 545,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Waters Inc and Sons",
-      "Description": "Profit-focused disintermediate emulation",
-      "Rank": 173,
+      "Name": "Runolfsson LLC",
+      "Description": "Virtual reciprocal moderator",
+      "Rank": 443,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Waters Inc and Sons",
-      "Description": "Profit-focused disintermediate emulation",
-      "Rank": 173,
+      "Name": "Runolfsson LLC",
+      "Description": "Virtual reciprocal moderator",
+      "Rank": 443,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 668
     }
   }
 }

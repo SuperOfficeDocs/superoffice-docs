@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 732,
-  "Name": "McCullough Inc and Sons",
-  "Rank": 829,
-  "Tooltip": "dolore",
+  "AssociateId": 366,
+  "Name": "Jakubowski, Streich and Kovacek",
+  "Rank": 443,
+  "Tooltip": "eum",
   "LicenseOwners": [
     {
-      "Name": "Hoppe Group",
-      "Description": "Right-sized bi-directional project",
+      "Name": "Ondricka Inc and Sons",
+      "Description": "Re-engineered 24/7 capability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,14 +111,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     },
     {
-      "Name": "Hoppe Group",
-      "Description": "Right-sized bi-directional project",
+      "Name": "Ondricka Inc and Sons",
+      "Description": "Re-engineered 24/7 capability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "pariatur",
-      "Tooltip": "et",
-      "Id": 41,
-      "Rank": 486,
-      "Deleted": false,
+      "Value": "labore",
+      "Tooltip": "necessitatibus",
+      "Id": 887,
+      "Rank": 68,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 381
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2021-06-21T04:02:07.0409789+02:00",
-  "Lastlogout": "2012-05-08T04:02:07.0409789+02:00",
-  "EjUserId": 829,
-  "RequestSignature": "deleniti",
+  "Deleted": true,
+  "Lastlogin": "2006-12-06T03:44:57.7969186+01:00",
+  "Lastlogout": "2002-07-12T03:44:57.7969186+02:00",
+  "EjUserId": 703,
+  "RequestSignature": "sint",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolor",
-      "DisplayValue": "magnam",
+      "Value": "ut",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 86
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolor",
-      "DisplayValue": "magnam",
+      "Value": "ut",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 86
         }
       }
     }
   ],
-  "UserName": "Kunde, Erdman and Tromp",
+  "UserName": "Blick-Barrows",
   "TicketCategories": [
     {
-      "Id": 574,
-      "Name": "Schumm Inc and Sons",
-      "ToolTip": "Sunt tempora aspernatur a soluta et atque dolorem.",
-      "Deleted": true,
-      "Rank": 996,
-      "Type": "architecto",
+      "Id": 219,
+      "Name": "Bruen LLC",
+      "ToolTip": "Repudiandae quia adipisci.",
+      "Deleted": false,
+      "Rank": 878,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 310,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "at",
-      "FullName": "Gloria Hickle",
+      "IconHint": "quia",
+      "ColorBlock": 903,
+      "ExtraInfo": "adipisci",
+      "StyleHint": "in",
+      "FullName": "Adah Walsh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldType": "System.String",
+          "FieldLength": 751
         }
       }
     }
   ],
-  "NickName": "Kub-Grant",
-  "WaitingForApproval": true,
+  "NickName": "Hettinger-Hammes",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "et"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "qui",
+    "CustomFields2": "tenetur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Goyette, McKenzie and Cruickshank",
-      "DisplayName": "Jerde-Ward",
-      "Description": "Fully-configurable next generation methodology",
-      "ToolTip": "Consequuntur nihil.",
+      "Name": "Schowalter, Brakus and Nitzsche",
+      "DisplayName": "Carroll-Mosciski",
+      "Description": "Grass-roots heuristic model",
+      "ToolTip": "Incidunt eaque.",
       "Actions": "Implicit",
-      "ActionData": "illum",
+      "ActionData": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldType": "System.String",
+          "FieldLength": 458
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 234
     }
   }
 }

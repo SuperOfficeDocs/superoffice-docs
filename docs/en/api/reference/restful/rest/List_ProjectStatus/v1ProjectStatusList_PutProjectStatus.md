@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
-  "Name": "Rolfson LLC",
-  "Tooltip": "reiciendis",
+  "Id": 211,
+  "Name": "Hansen-Mitchell",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "UdListDefinitionId": 449,
-  "Rank": 84
+  "UdListDefinitionId": 741,
+  "Rank": 23
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 972,
-  "Name": "Considine-Weimann",
-  "Tooltip": "provident",
+  "Id": 922,
+  "Name": "Nolan LLC",
+  "Tooltip": "illo",
   "Deleted": false,
-  "UdListDefinitionId": 782,
-  "Rank": 299,
+  "UdListDefinitionId": 837,
+  "Rank": 139,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   }
 }

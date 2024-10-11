@@ -77,12 +77,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "Stark, Moen and Kuhic",
-  "Tooltip": "molestiae",
+  "Id": 594,
+  "Name": "Veum, Sauer and Nitzsche",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 792,
-  "Rank": 510
+  "UdListDefinitionId": 56,
+  "Rank": 498
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 144,
-  "Name": "Krajcik-Kihn",
-  "Tooltip": "dignissimos",
+  "Id": 973,
+  "Name": "Krajcik-Schoen",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 178,
-  "Rank": 617,
+  "UdListDefinitionId": 922,
+  "Rank": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 464
     }
   }
 }

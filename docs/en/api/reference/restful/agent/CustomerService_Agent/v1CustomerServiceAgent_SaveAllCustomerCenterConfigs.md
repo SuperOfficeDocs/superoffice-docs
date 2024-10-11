@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 904,
+      "CustConfigId": 456,
       "Type": "Options",
-      "Config": "dolores",
-      "CustLangId": 85,
-      "Registered": "2019-08-09T04:02:01.5342579+02:00",
-      "RegisteredAssociateId": 83,
-      "Updated": "2020-08-06T04:02:01.5342579+02:00",
-      "UpdatedAssociateId": 258
+      "Config": "debitis",
+      "CustLangId": 5,
+      "Registered": "2016-03-13T03:44:52.3865159+01:00",
+      "RegisteredAssociateId": 705,
+      "Updated": "1999-05-09T03:44:52.3865159+02:00",
+      "UpdatedAssociateId": 703
     }
   ]
 }

@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 843
+  "SelectionId": 301
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nicolas, Bednar and Cremin",
-    "Operator": "neque",
+    "Name": "Marks Group",
+    "Operator": "tempore",
     "Values": [
-      "pariatur",
-      "maxime"
+      "nisi",
+      "vero"
     ],
     "DisplayValues": [
-      "aut",
-      "sed"
+      "asperiores",
+      "enim"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Hilll LLC",
-        "Operator": "nemo",
+        "Name": "O'Connell LLC",
+        "Operator": "et",
         "Values": [
-          "et",
-          "ad"
+          "illo",
+          "molestias"
         ],
         "DisplayValues": [
-          "accusantium",
-          "ex"
+          "vitae",
+          "soluta"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 541,
+        "InterParenthesis": 996,
         "InterOperator": "And",
-        "UniqueHash": 719
+        "UniqueHash": 792
       }
     ],
-    "InterParenthesis": 965,
+    "InterParenthesis": 614,
     "InterOperator": "And",
-    "UniqueHash": 586
+    "UniqueHash": 249
   }
 ]
 ```

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 43,
-    "ColumnId": 972,
-    "FieldDefault": "possimus",
-    "FieldHeight": 683,
-    "FieldLabel": "deleniti",
-    "FieldLeft": 742,
-    "FieldTop": 241,
+    "UDefFieldId": 628,
+    "ColumnId": 478,
+    "FieldDefault": "deserunt",
+    "FieldHeight": 629,
+    "FieldLabel": "quia",
+    "FieldLeft": 879,
+    "FieldTop": 537,
     "FieldType": "Checkbox",
-    "FieldWidth": 9,
-    "FormatMask": "adipisci",
+    "FieldWidth": 643,
+    "FormatMask": "cum",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 102,
-    "LabelLeft": 977,
-    "LabelTop": 455,
-    "LabelWidth": 855,
-    "LastVersionId": 682,
-    "ListTableId": 734,
-    "IsMandatory": false,
+    "LabelHeight": 714,
+    "LabelLeft": 997,
+    "LabelTop": 691,
+    "LabelWidth": 184,
+    "LastVersionId": 238,
+    "ListTableId": 221,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 737,
-    "ProgId": "molestiae",
-    "IsReadOnly": true,
-    "ShortLabel": "modi",
-    "TabOrder": 923,
-    "TextLength": 409,
-    "Tooltip": "sequi",
-    "UdefIdentity": 333,
-    "UDListDefinitionId": 927,
+    "Page1LineNo": 701,
+    "ProgId": "inventore",
+    "IsReadOnly": false,
+    "ShortLabel": "non",
+    "TabOrder": 860,
+    "TextLength": 140,
+    "Tooltip": "possimus",
+    "UdefIdentity": 365,
+    "UDListDefinitionId": 651,
     "Justification": "Center",
-    "Version": 633,
-    "TemplateVariableName": "Pacocha, Hamill and Stokes",
+    "Version": 799,
+    "TemplateVariableName": "Bruen-Labadie",
     "HasBeenPublished": false,
-    "MdoListName": "Tillman, Yundt and Gerhold",
+    "MdoListName": "Runte-Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 346
       }
     }
   }

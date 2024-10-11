@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Schoen-Abbott",
-    "ToolTip": "Est sunt voluptas porro aliquid quod.",
+    "Id": 610,
+    "Name": "Kemmer LLC",
+    "ToolTip": "Qui vero corporis.",
     "Deleted": false,
-    "Rank": 334,
-    "Type": "esse",
-    "ColorBlock": 981,
-    "IconHint": "in",
+    "Rank": 511,
+    "Type": "est",
+    "ColorBlock": 991,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2006-08-21T04:02:07.3690701+02:00",
+    "LastChanged": "2023-10-29T03:44:58.1249703+01:00",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Koss-Botsford",
-        "ToolTip": "Soluta consectetur debitis asperiores quas enim.",
+        "Id": 715,
+        "Name": "Collier-Leuschke",
+        "ToolTip": "Distinctio illo sed et corrupti consequuntur est doloremque.",
         "Deleted": false,
-        "Rank": 572,
-        "Type": "aperiam",
-        "ColorBlock": 421,
-        "IconHint": "ratione",
+        "Rank": 869,
+        "Type": "harum",
+        "ColorBlock": 925,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2009-07-18T04:02:07.3690701+02:00",
+        "LastChanged": "2021-09-04T03:44:58.1249703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Irwin Rempel"
+        "ExtraInfo": "et",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Prof. Virginie Abshire"
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "nobis",
-    "Hidden": true,
-    "FullName": "Deangelo Zulauf"
+    "ExtraInfo": "nihil",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Kelsie Erdman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Harvey-Larson",
-    "ToolTip": "Dolor dolorum blanditiis porro dignissimos sunt in sit.",
+    "Id": 888,
+    "Name": "Trantow Group",
+    "ToolTip": "Sint qui perferendis et.",
     "Deleted": false,
-    "Rank": 6,
-    "Type": "velit",
-    "ColorBlock": 950,
-    "IconHint": "officiis",
+    "Rank": 649,
+    "Type": "qui",
+    "ColorBlock": 808,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2016-10-12T04:02:07.3690701+02:00",
+    "LastChanged": "2004-12-30T03:44:58.1249703+01:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "Johnson, Stiedemann and Block",
-        "ToolTip": "Vero rerum tempore voluptas molestias.",
-        "Deleted": true,
-        "Rank": 813,
-        "Type": "id",
-        "ColorBlock": 710,
-        "IconHint": "expedita",
+        "Id": 402,
+        "Name": "Cruickshank LLC",
+        "ToolTip": "Ratione aut similique laboriosam sint.",
+        "Deleted": false,
+        "Rank": 887,
+        "Type": "sit",
+        "ColorBlock": 46,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2022-01-21T04:02:07.3690701+01:00",
+        "LastChanged": "2002-02-27T03:44:58.1249703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "iure",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Imogene Huel",
+        "FullName": "Ericka Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 182
+            "FieldType": "System.Int32",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "omnis",
+    "ExtraInfo": "quis",
+    "StyleHint": "enim",
     "Hidden": true,
-    "FullName": "Vesta Sauer V",
+    "FullName": "Ms. Garth Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 207
       }
     }
   }

@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "molestias",
-  "Interval": "iure",
+  "StatusMessage": "voluptatum",
+  "Interval": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

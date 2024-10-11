@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 37,
-    "Name": "Ziemann LLC",
-    "ToolTip": "Molestiae voluptates harum accusantium nobis sit qui esse.",
-    "Deleted": false,
-    "Rank": 410,
-    "Type": "et",
-    "ColorBlock": 639,
-    "IconHint": "fuga",
+    "Id": 663,
+    "Name": "Quitzon LLC",
+    "ToolTip": "Aut id.",
+    "Deleted": true,
+    "Rank": 532,
+    "Type": "rerum",
+    "ColorBlock": 988,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2017-07-27T04:02:07.1034721+02:00",
+    "LastChanged": "2022-11-23T03:44:57.9374899+01:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Stiedemann Group",
-        "ToolTip": "Deserunt minus adipisci temporibus.",
+        "Id": 572,
+        "Name": "Strosin Inc and Sons",
+        "ToolTip": "Sint deserunt excepturi tempore.",
         "Deleted": false,
-        "Rank": 859,
-        "Type": "accusantium",
-        "ColorBlock": 81,
-        "IconHint": "non",
+        "Rank": 278,
+        "Type": "eaque",
+        "ColorBlock": 432,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-07-24T04:02:07.1034721+02:00",
+        "LastChanged": "2016-01-13T03:44:57.9374899+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "est",
+        "ExtraInfo": "inventore",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Clement Stiedemann",
+        "FullName": "Iliana Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 777
+            "FieldType": "System.Int32",
+            "FieldLength": 787
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "eos",
+    "ExtraInfo": "quia",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Ms. Rose Xavier Flatley",
+    "FullName": "Abbigail Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 362
       }
     }
   }

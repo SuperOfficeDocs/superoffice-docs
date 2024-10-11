@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=et
-GET /api/v1/Sale?$top=523
-GET /api/v1/Sale?$skip=732
+GET /api/v1/Sale?$entities=accusamus
+GET /api/v1/Sale?$top=606
+GET /api/v1/Sale?$skip=191
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=minima
+GET /api/v1/Sale?$context=harum
 GET /api/v1/Sale?$format=JSON
-GET /api/v1/Sale?$jsonSafe=False
+GET /api/v1/Sale?$jsonSafe=True
 GET /api/v1/Sale?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "maxime",
+  "odata.nextLink": "distinctio",
   "value": [
     {
-      "PrimaryKey": 2252,
-      "EntityName": "sale",
-      "saleId": 2252,
-      "contactId": 1410,
-      "name": "Haag-McDermott"
+      "PrimaryKey": 6891,
+      "EntityName": "person",
+      "personId": 6891,
+      "fullName": "Chelsea Collins"
     },
     {
-      "PrimaryKey": 3689,
-      "EntityName": "sale",
-      "saleId": 3689,
-      "contactId": 4603,
-      "name": "Dach-Price"
+      "PrimaryKey": 8964,
+      "EntityName": "person",
+      "personId": 8964,
+      "fullName": "Lulu Ritchie"
     }
   ]
 }

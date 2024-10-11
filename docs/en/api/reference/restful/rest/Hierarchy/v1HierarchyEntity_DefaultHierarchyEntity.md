@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 449,
+  "HierarchyId": 681,
   "Domain": "Dashboards",
-  "Name": "Maggio LLC",
-  "Fullname": "odit",
-  "ParentId": 765,
+  "Name": "Christiansen-Borer",
+  "Fullname": "beatae",
+  "ParentId": 910,
   "Children": [
     {
-      "HierarchyId": 818,
+      "HierarchyId": 560,
       "Domain": "Dashboards",
-      "Name": "Jones, Von and Oberbrunner",
-      "Fullname": "sit",
-      "ParentId": 61,
+      "Name": "Murazik, Hintz and Stehr",
+      "Fullname": "ea",
+      "ParentId": 854,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-05-14T04:02:06.6191478+02:00",
-      "RegisteredAssociateId": 813,
-      "Updated": "2023-08-20T04:02:06.6191478+02:00",
-      "UpdatedAssociateId": 761,
+      "Registered": "2021-03-13T03:44:57.359003+01:00",
+      "RegisteredAssociateId": 780,
+      "Updated": "2005-03-02T03:44:57.359003+01:00",
+      "UpdatedAssociateId": 530,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldType": "System.Int32",
+          "FieldLength": 652
         }
       }
     }
   ],
-  "Registered": "2013-11-09T04:02:06.6191478+01:00",
-  "RegisteredAssociateId": 320,
-  "Updated": "2014-05-09T04:02:06.6191478+02:00",
-  "UpdatedAssociateId": 756,
+  "Registered": "2009-11-25T03:44:57.359003+01:00",
+  "RegisteredAssociateId": 142,
+  "Updated": "1999-02-01T03:44:57.359003+01:00",
+  "UpdatedAssociateId": 366,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

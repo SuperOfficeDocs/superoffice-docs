@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Konopelski Group",
-    "ToolTip": "Quasi molestias cumque et.",
+    "Id": 711,
+    "Name": "O'Conner LLC",
+    "ToolTip": "Impedit molestiae iusto accusantium sequi consequatur omnis.",
     "Deleted": false,
-    "Rank": 231,
-    "Type": "cupiditate",
-    "ColorBlock": 974,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2021-05-13T04:02:07.3534465+02:00",
+    "Rank": 481,
+    "Type": "magni",
+    "ColorBlock": 252,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2004-05-09T03:44:58.1093468+02:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Jakubowski LLC",
-        "ToolTip": "Aut amet.",
+        "Id": 98,
+        "Name": "Hodkiewicz Group",
+        "ToolTip": "Magni maiores ut consectetur necessitatibus.",
         "Deleted": false,
-        "Rank": 726,
-        "Type": "voluptate",
-        "ColorBlock": 951,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2004-07-03T04:02:07.3534465+02:00",
+        "Rank": 919,
+        "Type": "quia",
+        "ColorBlock": 429,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2024-02-07T03:44:58.1093468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "alias",
-        "Hidden": false,
-        "FullName": "Mr. Courtney Alison Graham Jr.",
+        "ExtraInfo": "itaque",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Dr. Delaney Violette Shields Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 868
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Angus O'Hara",
+    "ExtraInfo": "porro",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Selmer Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 556
+        "FieldType": "System.Int32",
+        "FieldLength": 299
       }
     }
   }

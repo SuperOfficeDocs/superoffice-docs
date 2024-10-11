@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Public-key maximized installation",
-  "Postit": "accusantium",
+  "Description": "Persistent hybrid projection",
+  "Postit": "unde",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 432,
-  "IncludePerson": 372,
+  "GroupIdx": 834,
+  "IncludePerson": 839,
   "MemberCount": 99.99,
-  "Name": "Harber Inc and Sons",
-  "PostitTextId": 328,
-  "CreatedDate": "2001-12-17T04:02:02.31613+01:00",
-  "SelectionId": 212,
-  "SoundEx": "nisi",
-  "Source": 85,
-  "TextId": 1001,
-  "UpdatedDate": "2011-03-29T04:02:02.31613+02:00",
-  "UpdatedCount": 146,
-  "Visibility": 163,
+  "Name": "Hermann-Swift",
+  "PostitTextId": 841,
+  "CreatedDate": "2021-08-04T03:44:53.1726478+02:00",
+  "SelectionId": 903,
+  "SoundEx": "quis",
+  "Source": 207,
+  "TextId": 48,
+  "UpdatedDate": "2016-05-16T03:44:53.1726478+02:00",
+  "UpdatedCount": 665,
+  "Visibility": 972,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 573,
-  "TargetTableName": "Bins, Beer and Terry",
+  "CompanyUnique": false,
+  "TargetTableNumber": 323,
+  "TargetTableName": "Pfeffer, Hilll and Hirthe",
   "Completed": true,
-  "LeftSelectionId": 233,
-  "RightSelectionId": 717,
+  "LeftSelectionId": 747,
+  "RightSelectionId": 237,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "White, Hegmann and Boyle",
-  "ShadowProviderName": "Macejkovic-Heller",
-  "ChartKey": "hic",
-  "LastLoaded": "2003-03-04T04:02:02.31613+01:00",
-  "LastLoadedBy": 64,
+  "MainProviderName": "Grady, Marquardt and Kuhic",
+  "ShadowProviderName": "Schmidt Group",
+  "ChartKey": "corporis",
+  "LastLoaded": "2014-10-09T03:44:53.1726478+02:00",
+  "LastLoadedBy": 418,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-08-09T04:02:02.31613+02:00",
-  "LastMembershipChangeBy": 357,
+  "LastMembershipChange": "2001-08-12T03:44:53.1726478+02:00",
+  "LastMembershipChangeBy": 304,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "natus",
-  "MemberTabHeading": "explicabo",
-  "MailingsProviderName": "Ernser Inc and Sons",
-  "DashboardTileDefinitionId": 653,
+  "MainHeading": "et",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Stamm Inc and Sons",
+  "DashboardTileDefinitionId": 349,
   "VisibleFor": [
     {
-      "VisibleId": 324,
+      "VisibleId": 581,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldType": "System.String",
+          "FieldLength": 108
         }
       }
     },
     {
-      "VisibleId": 324,
+      "VisibleId": 581,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldType": "System.String",
+          "FieldLength": 108
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

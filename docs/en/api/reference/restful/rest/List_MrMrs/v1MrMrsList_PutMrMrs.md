@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 131,
-  "Name": "Zulauf-Feil",
-  "Tooltip": "facilis",
+  "Id": 948,
+  "Name": "Konopelski Inc and Sons",
+  "Tooltip": "quos",
   "Deleted": false,
-  "UdListDefinitionId": 843,
-  "Rank": 295
+  "UdListDefinitionId": 215,
+  "Rank": 687
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 842,
-  "Name": "Wilderman, Dietrich and Moen",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 341,
-  "Rank": 972,
+  "Id": 776,
+  "Name": "Toy Group",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "UdListDefinitionId": 672,
+  "Rank": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 798
     }
   }
 }

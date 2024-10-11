@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Muller Group",
-    "Tooltip": "modi",
+    "Id": 740,
+    "Name": "Upton LLC",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 344,
-    "Rank": 21
+    "UdListDefinitionId": 654,
+    "Rank": 349
   },
   {
-    "Id": 739,
-    "Name": "Muller Group",
-    "Tooltip": "modi",
+    "Id": 740,
+    "Name": "Upton LLC",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 344,
-    "Rank": 21
+    "UdListDefinitionId": 654,
+    "Rank": 349
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Klein, Labadie and Adams",
-    "Tooltip": "cupiditate",
-    "Deleted": false,
-    "UdListDefinitionId": 845,
-    "Rank": 520,
+    "Id": 239,
+    "Name": "Miller Group",
+    "Tooltip": "minima",
+    "Deleted": true,
+    "UdListDefinitionId": 565,
+    "Rank": 163,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 775
+        "FieldType": "System.Int32",
+        "FieldLength": 374
       }
     }
   }

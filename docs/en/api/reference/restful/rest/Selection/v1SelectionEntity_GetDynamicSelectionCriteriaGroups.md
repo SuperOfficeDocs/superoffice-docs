@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schamberger, Turner and Kutch",
-    "Description": "Re-engineered stable synergy",
-    "Rank": 556,
+    "Name": "Zulauf-Sipes",
+    "Description": "Configurable composite knowledge user",
+    "Rank": 970,
     "Restrictions": [
       {
-        "Name": "Weissnat Group",
-        "Operator": "rerum",
+        "Name": "Casper-Cruickshank",
+        "Operator": "quo",
         "Values": [
-          "dignissimos",
-          "eius"
+          "corporis",
+          "fugiat"
         ],
         "DisplayValues": [
-          "inventore",
-          "deleniti"
+          "est",
+          "sint"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 229,
+        "InterParenthesis": 672,
         "InterOperator": "And",
-        "UniqueHash": 783
+        "UniqueHash": 499
       }
     ]
   },
   {
-    "Name": "Schamberger, Turner and Kutch",
-    "Description": "Re-engineered stable synergy",
-    "Rank": 556,
+    "Name": "Zulauf-Sipes",
+    "Description": "Configurable composite knowledge user",
+    "Rank": 970,
     "Restrictions": [
       {
-        "Name": "Weissnat Group",
-        "Operator": "rerum",
+        "Name": "Casper-Cruickshank",
+        "Operator": "quo",
         "Values": [
-          "dignissimos",
-          "eius"
+          "corporis",
+          "fugiat"
         ],
         "DisplayValues": [
-          "inventore",
-          "deleniti"
+          "est",
+          "sint"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 229,
+        "InterParenthesis": 672,
         "InterOperator": "And",
-        "UniqueHash": 783
+        "UniqueHash": 499
       }
     ]
   }

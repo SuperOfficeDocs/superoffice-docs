@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Gleason, Kiehn and Bednar",
-  "StorageKey": "eos"
+  "StorageType": "dolorum",
+  "ProviderName": "Wintheiser-Smitham",
+  "StorageKey": "voluptate"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Smitham, Wiza and DuBuque",
+    "Name": "Torp, Mraz and Ritchie",
     "Direction": "ASC"
   },
   {
-    "Name": "Smitham, Wiza and DuBuque",
+    "Name": "Torp, Mraz and Ritchie",
     "Direction": "ASC"
   }
 ]

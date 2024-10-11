@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "expedita",
-  "PrefKey": "doloribus",
+  "PrefSection": "nisi",
+  "PrefKey": "vitae",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quae",
+  "RawValue": "itaque",
   "Specification": null,
-  "DisplayValue": "sunt",
-  "DisplayTooltip": "quod",
+  "DisplayValue": "cupiditate",
+  "DisplayTooltip": "repellat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 335,
-  "PrefDescId": 8,
-  "TableName": "Ullrich Group",
-  "UserPreferenceId": 121,
+  "TargetId": 785,
+  "PrefDescId": 926,
+  "TableName": "Schmitt Group",
+  "UserPreferenceId": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

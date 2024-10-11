@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 234
+  "PersonId": 151
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 804,
-  "BlobSize": 79,
-  "Description": "Cross-group context-sensitive matrices",
-  "ExtraInfo": "ut",
+  "BlobId": 36,
+  "BlobSize": 238,
+  "Description": "Future-proofed asynchronous conglomeration",
+  "ExtraInfo": "dolor",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ex",
-  "OriginalSize": 1002,
-  "CreatedDate": "2016-04-27T04:02:01.2374146+02:00",
-  "UpdatedDate": "2011-11-06T04:02:01.2374146+01:00",
+  "IsZipped": false,
+  "MimeType": "rerum",
+  "OriginalSize": 397,
+  "CreatedDate": "2012-07-29T03:44:52.0896371+02:00",
+  "UpdatedDate": "2014-03-20T03:44:52.0896371+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quam",
+  "ConceptualType": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 469
     }
   }
 }

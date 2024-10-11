@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 13,
-  "Name": "Jacobi Group",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "UdListDefinitionId": 833,
-  "Rank": 202,
+  "Id": 38,
+  "Name": "Connelly LLC",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "UdListDefinitionId": 308,
+  "Rank": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldType": "System.String",
+      "FieldLength": 64
     }
   }
 }

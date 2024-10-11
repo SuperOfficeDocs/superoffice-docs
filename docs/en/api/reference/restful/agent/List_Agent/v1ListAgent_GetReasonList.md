@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Value": "sed",
-    "Tooltip": "pariatur",
+    "Id": 643,
+    "Value": "dolores",
+    "Tooltip": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 784
+        "FieldLength": 233
       }
     }
   },
   {
-    "Id": 148,
-    "Value": "sed",
-    "Tooltip": "pariatur",
+    "Id": 643,
+    "Value": "dolores",
+    "Tooltip": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 784
+        "FieldLength": 233
       }
     }
   }

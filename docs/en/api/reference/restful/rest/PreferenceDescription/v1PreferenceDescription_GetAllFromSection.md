@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 908,
-    "Section": "quam",
-    "Key": "ut",
-    "Name": "Sawayn Inc and Sons",
+    "PrefDescId": 663,
+    "Section": "sit",
+    "Key": "iste",
+    "Name": "Borer-Braun",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Open-source human-resource database",
+    "Description": "Grass-roots scalable standardization",
     "IsBuiltin": false,
-    "TableName": "Beatty LLC",
-    "UserDefinedListId": 753,
-    "Rank": 730,
-    "SubGroup": "earum",
-    "MinLevel": 36,
-    "MaxValue": 692,
-    "MinValue": 291,
-    "RequiredLicense": "possimus",
+    "TableName": "Hills, Romaguera and Harvey",
+    "UserDefinedListId": 201,
+    "Rank": 878,
+    "SubGroup": "non",
+    "MinLevel": 546,
+    "MaxValue": 183,
+    "MinValue": 41,
+    "RequiredLicense": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldType": "System.String",
+        "FieldLength": 748
       }
     }
   }

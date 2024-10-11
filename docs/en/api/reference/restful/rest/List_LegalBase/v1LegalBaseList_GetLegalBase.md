@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 307,
-  "Name": "Goodwin-Mayert",
-  "Tooltip": "accusamus",
-  "Rank": 442,
-  "Key": "dolorem",
+  "LegalBaseId": 146,
+  "Name": "Schroeder, Osinski and Kunde",
+  "Tooltip": "aspernatur",
+  "Rank": 53,
+  "Key": "cumque",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 149
     }
   }
 }

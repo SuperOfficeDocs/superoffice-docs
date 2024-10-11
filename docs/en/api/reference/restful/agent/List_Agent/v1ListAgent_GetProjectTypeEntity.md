@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=486
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=153
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 185,
-  "Name": "Kihn, Ward and Romaguera",
-  "Tooltip": "nulla",
-  "Rank": 636,
+  "ProjTypeId": 187,
+  "Name": "Krajcik Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 655,
   "DurationUnit": "Century",
-  "ProjectDuration": 217,
+  "ProjectDuration": 782,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 8,
-      "Name": "Gislason-Mante",
-      "ToolTip": "Quaerat in dolores.",
-      "Deleted": false,
-      "Rank": 342,
-      "Type": "quis",
-      "ColorBlock": 826,
-      "IconHint": "cupiditate",
+      "Id": 991,
+      "Name": "Beier-Roob",
+      "ToolTip": "Placeat voluptatibus et sint.",
+      "Deleted": true,
+      "Rank": 32,
+      "Type": "ut",
+      "ColorBlock": 571,
+      "IconHint": "eligendi",
       "Selected": false,
-      "LastChanged": "2013-10-03T04:02:01.8159876+02:00",
+      "LastChanged": "2012-03-18T03:44:52.6833552+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "dolores",
+      "ExtraInfo": "rem",
+      "StyleHint": "labore",
       "Hidden": true,
-      "FullName": "Mr. Ciara Ratke",
+      "FullName": "Mrs. Quentin Ortiz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldLength": 199
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

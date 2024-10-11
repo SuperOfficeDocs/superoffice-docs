@@ -94,21 +94,21 @@ OK
 PUT /api/v1/List/Task/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 445,
-  "Value": "eligendi",
+  "TaskListItemId": 974,
+  "Value": "dolorum",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "IntentId": 320,
-  "Rank": 440,
+  "Tooltip": "illo",
+  "Deleted": true,
+  "IntentId": 697,
+  "Rank": 687,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -121,14 +121,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 247,
-  "Value": "fugit",
+  "TaskListItemId": 327,
+  "Value": "nesciunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "alias",
+  "Tooltip": "eius",
   "Deleted": false,
-  "IntentId": 209,
-  "Rank": 677,
+  "IntentId": 673,
+  "Rank": 698,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": true,
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 152
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

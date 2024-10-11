@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 271,
-  "Name": "Frami LLC",
-  "CurrencyId": 824,
-  "EnglishName": "Mohr Inc and Sons",
+  "CountryId": 225,
+  "Name": "Ullrich, Sipes and Hahn",
+  "CurrencyId": 792,
+  "EnglishName": "Bauch-Kris",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "De-engineered eco-centric access",
-  "OrgNrText": "1274483",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "est",
-  "ZipPrefix": "voluptas",
-  "DomainName": "O'Connell, Renner and Bechtelar",
-  "AddressLayoutId": 15,
-  "DomesticAddressLayoutId": 669,
-  "ForeignAddressLayoutId": 171,
-  "Rank": 536,
-  "Tooltip": "similique",
+  "ImageDescription": "Proactive system-worthy productivity",
+  "OrgNrText": "1035501",
+  "InterAreaPrefix": "quos",
+  "DialInPrefix": "amet",
+  "ZipPrefix": "voluptatem",
+  "DomainName": "Hermiston-Blanda",
+  "AddressLayoutId": 749,
+  "DomesticAddressLayoutId": 90,
+  "ForeignAddressLayoutId": 381,
+  "Rank": 198,
+  "Tooltip": "et",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 860,
-  "Name": "Klocko, Davis and Pacocha",
-  "CurrencyId": 494,
-  "EnglishName": "Kuhlman Group",
+  "CountryId": 122,
+  "Name": "Lebsack, Hoppe and Gulgowski",
+  "CurrencyId": 987,
+  "EnglishName": "Emard-Weber",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Mandatory didactic approach",
-  "OrgNrText": "1267134",
-  "InterAreaPrefix": "velit",
-  "DialInPrefix": "sed",
-  "ZipPrefix": "ipsa",
-  "DomainName": "Bergstrom Group",
-  "AddressLayoutId": 553,
-  "DomesticAddressLayoutId": 804,
-  "ForeignAddressLayoutId": 425,
-  "Rank": 990,
-  "Tooltip": "ea",
-  "Deleted": true,
+  "ImageDescription": "Enhanced logistical concept",
+  "OrgNrText": "278859",
+  "InterAreaPrefix": "vel",
+  "DialInPrefix": "commodi",
+  "ZipPrefix": "eligendi",
+  "DomainName": "Roob-Nolan",
+  "AddressLayoutId": 259,
+  "DomesticAddressLayoutId": 448,
+  "ForeignAddressLayoutId": 379,
+  "Rank": 213,
+  "Tooltip": "ut",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 153
+      "FieldType": "System.Int32",
+      "FieldLength": 476
     }
   }
 }

@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "laborum",
-    "Tooltip": "eos",
-    "Id": 634,
-    "Rank": 234,
-    "Deleted": false,
+    "Value": "quisquam",
+    "Tooltip": "voluptas",
+    "Id": 637,
+    "Rank": 831,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldLength": 304
       }
     }
   }

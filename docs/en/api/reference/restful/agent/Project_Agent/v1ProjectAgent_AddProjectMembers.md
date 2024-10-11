@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 191,
+  "ProjectEntityId": 743,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 367,
-      "ContactId": 445,
-      "ProjectId": 135,
-      "ContactName": "Raynor-Yost",
+      "ProjectmemberId": 257,
+      "ContactId": 184,
+      "ProjectId": 426,
+      "ContactName": "Beer-Kirlin",
       "ContactDepartment": "",
-      "ProjectName": "Sanford-Dach",
-      "EmailId": 323,
-      "EmailAddress": "caleb.reichert@lockmanleannon.us",
-      "CountryId": 459,
-      "Firstname": "Dan",
-      "MiddleName": "Schultz Group",
-      "Lastname": "Feeney",
-      "PersonId": 747,
-      "Mrmrs": "iste",
-      "ProjectMemberTypeName": "Gerhold, Yundt and Wiegand",
-      "Phone": "1-060-571-9871",
-      "PhoneId": 192,
-      "ProjectMemberTypeId": 363,
-      "EmailAddressName": "maximillian_grant@heathcotecarter.com",
-      "Comment": "aliquam",
-      "FullName": "Jolie Zboncak"
+      "ProjectName": "Ziemann Inc and Sons",
+      "EmailId": 151,
+      "EmailAddress": "federico.johnston@bernhardrau.biz",
+      "CountryId": 857,
+      "Firstname": "Max",
+      "MiddleName": "Smith Group",
+      "Lastname": "Leffler",
+      "PersonId": 885,
+      "Mrmrs": "corporis",
+      "ProjectMemberTypeName": "Hilpert-Kiehn",
+      "Phone": "122.469.7022 x19185",
+      "PhoneId": 870,
+      "ProjectMemberTypeId": 914,
+      "EmailAddressName": "izaiah.ernser@dickihermann.ca",
+      "Comment": "eum",
+      "FullName": "Saul Eichmann"
     }
   ]
 }

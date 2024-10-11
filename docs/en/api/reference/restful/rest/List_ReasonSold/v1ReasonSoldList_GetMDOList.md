@@ -26,8 +26,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=True
-GET /api/v1/List/ReasonSold/MDOItems?query=aspernatur
+GET /api/v1/List/ReasonSold/MDOItems?flat=False
+GET /api/v1/List/ReasonSold/MDOItems?query=maiores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Brown-Hodkiewicz",
-    "ToolTip": "Quibusdam et.",
+    "Id": 466,
+    "Name": "VonRueden Group",
+    "ToolTip": "Id sed vero sint consectetur laborum modi enim.",
     "Deleted": true,
-    "Rank": 136,
-    "Type": "omnis",
+    "Rank": 87,
+    "Type": "enim",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Goyette, Hintz and Kuhic",
-        "ToolTip": "Voluptatem reiciendis suscipit ab iure error.",
+        "Id": 334,
+        "Name": "Pfeffer Inc and Sons",
+        "ToolTip": "Est nisi illum in eos et.",
         "Deleted": false,
-        "Rank": 541,
-        "Type": "eos",
+        "Rank": 968,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 725,
-        "ExtraInfo": "et",
-        "StyleHint": "molestiae",
-        "FullName": "Fredy Cartwright",
+        "IconHint": "dolorum",
+        "ColorBlock": 112,
+        "ExtraInfo": "ea",
+        "StyleHint": "vel",
+        "FullName": "Mr. Lavada Reichel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 413
+            "FieldLength": 537
           }
         }
       }
     ],
-    "IconHint": "voluptate",
-    "ColorBlock": 397,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "et",
-    "FullName": "Mrs. Adalberto Chaz Barton V",
+    "IconHint": "eos",
+    "ColorBlock": 666,
+    "ExtraInfo": "pariatur",
+    "StyleHint": "nam",
+    "FullName": "Prof. Angela Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   }

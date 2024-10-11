@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 734,
-  "Year": 1000,
-  "TargetDimensionId": 348
+  "UserGroupId": 306,
+  "Year": 91,
+  "TargetDimensionId": 290
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 452,
+    "TargetAssignmentInfoId": 902,
     "Values": [
-      83,
-      638
+      798,
+      306
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 2,
-    "DimensionListItemDisplayName": "Hermiston Group",
+    "DimensionListItem": 324,
+    "DimensionListItemDisplayName": "Murazik, Doyle and Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 434
+        "FieldType": "System.Int32",
+        "FieldLength": 121
       }
     }
   }

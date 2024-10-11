@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 343,
-  "Name": "Paucek Inc and Sons",
-  "OrgNr": "1510151",
+  "ContactId": 157,
+  "Name": "Hills-Herman",
+  "OrgNr": "942606",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "rerum",
-  "DirectPhone": "321.827.7731",
-  "AssociateId": 58,
-  "CountryId": 519,
-  "EmailAddress": "audra@kilbackframi.ca",
-  "Kananame": "voluptas",
-  "EmailAddressName": "jack@walshhartmann.us",
+  "City": "repellat",
+  "DirectPhone": "1-200-171-2130 x2682",
+  "AssociateId": 106,
+  "CountryId": 703,
+  "EmailAddress": "everardo_raynor@zboncak.biz",
+  "Kananame": "ex",
+  "EmailAddressName": "christina.okeefe@brakus.ca",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Mateo Reichert",
+  "AssociateFullName": "Jamir Kohler MD",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "ut",
-  "FullName": "Kay Kuhic",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 768,
-  "Number1": "589455",
-  "Number2": "247144",
+  "FormattedAddress": "fuga",
+  "FullName": "Dr. Dayna Greenholt",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 362,
+  "Number1": "370247",
+  "Number2": "1512270",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 510
     }
   }
 }

@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Berge, Collier and Hessel",
-  "OldPassword": "assumenda",
-  "NewPassword": "omnis"
+  "AssociateName": "Muller, Morissette and Kris",
+  "OldPassword": "est",
+  "NewPassword": "eius"
 }
 ```
 

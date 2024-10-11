@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Barton LLC",
-  "HeadingId": 121
+  "UdListDefinitionName": "Yost-Hills",
+  "HeadingId": 435
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Koelpin LLC",
-    "ToolTip": "Ad dolorum.",
-    "Deleted": false,
-    "Rank": 712,
-    "Type": "quia",
-    "ColorBlock": 945,
-    "IconHint": "aut",
+    "Id": 281,
+    "Name": "Bernhard, Corkery and Nikolaus",
+    "ToolTip": "In ullam ut eum.",
+    "Deleted": true,
+    "Rank": 528,
+    "Type": "magnam",
+    "ColorBlock": 140,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2013-05-10T04:02:01.847234+02:00",
+    "LastChanged": "2014-06-20T03:44:52.6989885+02:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Mills Group",
-        "ToolTip": "Et qui eligendi non.",
-        "Deleted": true,
-        "Rank": 314,
-        "Type": "suscipit",
-        "ColorBlock": 142,
-        "IconHint": "mollitia",
+        "Id": 489,
+        "Name": "Towne LLC",
+        "ToolTip": "Aut at esse.",
+        "Deleted": false,
+        "Rank": 971,
+        "Type": "veniam",
+        "ColorBlock": 842,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1998-03-20T04:02:01.847234+01:00",
+        "LastChanged": "2014-03-07T03:44:52.6989885+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Hortense Spencer",
+        "FullName": "Nicolette Solon Jenkins MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 657
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "minima",
+    "ExtraInfo": "aut",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Mr. Ruby Alysson Gottlieb",
+    "FullName": "Adolph Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 576
       }
     }
   }

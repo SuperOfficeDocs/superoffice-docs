@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "omnis",
-  "Children": false
+  "Path": "sequi",
+  "Children": true
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 586,
+  "HierarchyId": 961,
   "Domain": "Dashboards",
-  "Name": "Emard-Dooley",
-  "Fullname": "officia",
-  "ParentId": 881,
+  "Name": "Howe, Luettgen and Kihn",
+  "Fullname": "doloremque",
+  "ParentId": 429,
   "Children": [
     {
-      "HierarchyId": 870,
+      "HierarchyId": 485,
       "Domain": "Dashboards",
-      "Name": "Wilderman-Wiza",
-      "Fullname": "ut",
-      "ParentId": 245,
+      "Name": "Pfeffer, Bahringer and Flatley",
+      "Fullname": "mollitia",
+      "ParentId": 251,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-02-01T04:02:01.8628574+01:00",
-      "RegisteredAssociateId": 594,
-      "Updated": "2004-02-16T04:02:01.8628574+01:00",
-      "UpdatedAssociateId": 683,
+      "Registered": "2017-04-01T03:44:52.7302252+02:00",
+      "RegisteredAssociateId": 923,
+      "Updated": "1998-03-14T03:44:52.7302252+01:00",
+      "UpdatedAssociateId": 557,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 404
+          "FieldLength": 618
         }
       }
     }
   ],
-  "Registered": "2018-01-23T04:02:01.8628574+01:00",
-  "RegisteredAssociateId": 856,
-  "Updated": "2019-12-28T04:02:01.8628574+01:00",
-  "UpdatedAssociateId": 735,
+  "Registered": "2000-07-21T03:44:52.7302252+02:00",
+  "RegisteredAssociateId": 978,
+  "Updated": "2008-12-23T03:44:52.7302252+01:00",
+  "UpdatedAssociateId": 637,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldType": "System.Int32",
+      "FieldLength": 429
     }
   }
 }

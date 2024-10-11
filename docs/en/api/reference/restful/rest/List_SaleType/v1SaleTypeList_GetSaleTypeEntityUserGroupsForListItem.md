@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "O'Kon Group",
-    "ToolTip": "Necessitatibus corporis consequatur id velit voluptatem.",
+    "Id": 190,
+    "Name": "Kling, Pfannerstill and Quigley",
+    "ToolTip": "Vitae fuga eaque ut aut aperiam.",
     "Deleted": false,
-    "Rank": 473,
-    "Type": "soluta",
-    "ColorBlock": 853,
-    "IconHint": "similique",
+    "Rank": 491,
+    "Type": "vitae",
+    "ColorBlock": 885,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "1999-02-15T04:02:07.4003498+01:00",
+    "LastChanged": "2020-12-31T03:44:58.1562167+01:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Schmitt-Kilback",
-        "ToolTip": "Est molestiae sequi.",
-        "Deleted": true,
-        "Rank": 50,
-        "Type": "fugit",
-        "ColorBlock": 351,
-        "IconHint": "distinctio",
-        "Selected": false,
-        "LastChanged": "2020-07-23T04:02:07.4003498+02:00",
+        "Id": 718,
+        "Name": "Spencer Inc and Sons",
+        "ToolTip": "Non perspiciatis magnam delectus.",
+        "Deleted": false,
+        "Rank": 727,
+        "Type": "recusandae",
+        "ColorBlock": 583,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2021-03-25T03:44:58.1562167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Mr. Antonio Cartwright",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Darius Torp PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 80
+            "FieldType": "System.Int32",
+            "FieldLength": 710
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Eloisa Swaniawski",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Lexie Daniel DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   }

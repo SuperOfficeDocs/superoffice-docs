@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Abernathy, Skiles and Keebler",
-    "ToolTip": "Perspiciatis et.",
-    "Deleted": true,
-    "Rank": 93,
-    "Type": "harum",
-    "ColorBlock": 344,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2009-01-12T04:02:07.1503415+01:00",
+    "Id": 119,
+    "Name": "Cronin, Ruecker and Kub",
+    "ToolTip": "Eos eius quia similique sit.",
+    "Deleted": false,
+    "Rank": 665,
+    "Type": "itaque",
+    "ColorBlock": 636,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2009-08-10T03:44:57.9687368+02:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Schimmel Group",
-        "ToolTip": "Illo in nam consectetur aperiam repellendus.",
-        "Deleted": false,
-        "Rank": 945,
-        "Type": "aliquam",
-        "ColorBlock": 453,
-        "IconHint": "nulla",
+        "Id": 55,
+        "Name": "Ryan LLC",
+        "ToolTip": "Debitis eveniet itaque totam.",
+        "Deleted": true,
+        "Rank": 247,
+        "Type": "labore",
+        "ColorBlock": 405,
+        "IconHint": "assumenda",
         "Selected": true,
-        "LastChanged": "2016-05-13T04:02:07.1503415+02:00",
+        "LastChanged": "2008-05-26T03:44:57.9687368+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "veniam",
+        "StyleHint": "iusto",
         "Hidden": true,
-        "FullName": "Ansel Treutel"
+        "FullName": "Dr. Hailey Parisian"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Jayde Pagac"
+    "ExtraInfo": "a",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Velva Kemmer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Torphy-Cormier",
-    "ToolTip": "Quo explicabo asperiores id et.",
-    "Deleted": false,
-    "Rank": 393,
-    "Type": "necessitatibus",
-    "ColorBlock": 712,
-    "IconHint": "id",
+    "Id": 756,
+    "Name": "Leuschke, O'Reilly and Jenkins",
+    "ToolTip": "Consequatur optio quos rem est quam.",
+    "Deleted": true,
+    "Rank": 234,
+    "Type": "vitae",
+    "ColorBlock": 309,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2013-09-05T04:02:07.1503415+02:00",
+    "LastChanged": "2023-07-07T03:44:57.9687368+02:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Kunde LLC",
-        "ToolTip": "Animi voluptatum sit consequatur.",
+        "Id": 835,
+        "Name": "Prohaska, Hegmann and Homenick",
+        "ToolTip": "Quis nemo ullam omnis doloribus ducimus id.",
         "Deleted": false,
-        "Rank": 721,
-        "Type": "corrupti",
-        "ColorBlock": 332,
-        "IconHint": "beatae",
+        "Rank": 86,
+        "Type": "dolor",
+        "ColorBlock": 861,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2014-08-24T04:02:07.1503415+02:00",
+        "LastChanged": "2012-01-27T03:44:57.9687368+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "qui",
+        "ExtraInfo": "atque",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Josianne Rosenbaum",
+        "FullName": "Jerrold Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 384
+            "FieldLength": 351
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Miss Velva Wehner II",
+    "ExtraInfo": "porro",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Prof. Haylie Norma Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldLength": 677
       }
     }
   }

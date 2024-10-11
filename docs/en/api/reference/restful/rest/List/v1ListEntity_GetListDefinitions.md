@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Goyette, Volkman and Ullrich",
-    "Tooltip": "vel",
+    "Id": 776,
+    "Name": "Feeney Group",
+    "Tooltip": "eligendi",
     "Deleted": true,
-    "Rank": 965,
+    "Rank": 206,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "ut",
-    "InUseByUserDefinedFields": true,
+    "ListType": "illum",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldType": "System.String",
+        "FieldLength": 307
       }
     }
   }

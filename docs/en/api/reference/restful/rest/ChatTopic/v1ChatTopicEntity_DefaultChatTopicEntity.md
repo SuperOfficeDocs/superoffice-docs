@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 303,
-  "Name": "Barton LLC",
-  "Description": "Switchable local adapter",
-  "WelcomeMessage": "nisi",
+  "ChatTopicId": 490,
+  "Name": "Corkery Group",
+  "Description": "Profit-focused high-level utilisation",
+  "WelcomeMessage": "saepe",
   "Language": null,
-  "LastAccept": "2002-06-07T04:02:06.3530464+02:00",
-  "SecondsPrAccept": 857,
-  "AlertRecipient": "ullam",
+  "LastAccept": "2001-11-03T03:44:57.0940238+01:00",
+  "SecondsPrAccept": 299,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "autem",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ut",
-  "WarnNewChatMinutes": 641,
-  "WarnManagerNewChatMinutes": 793,
-  "TicketEnabled": true,
+  "CollectConsent": false,
+  "BadgeHeader": "rerum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "animi",
+  "WarnNewChatMinutes": 774,
+  "WarnManagerNewChatMinutes": 542,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 350,
-  "WarnManagerChatMessageMinutes": 11,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 971,
-  "OfflineFormQueueLength": 152,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 559,
+  "WarnManagerChatMessageMinutes": 970,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 318,
+  "OfflineFormQueueLength": 277,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quos",
+  "WidgetRatingText": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldLength": 160
     }
   }
 }

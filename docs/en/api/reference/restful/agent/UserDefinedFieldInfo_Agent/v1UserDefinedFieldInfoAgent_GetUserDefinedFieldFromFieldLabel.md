@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "qui",
+  "FieldLabel": "natus",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 146,
-  "ColumnId": 724,
-  "FieldDefault": "repellat",
-  "FieldHeight": 432,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 608,
-  "FieldTop": 111,
+  "UDefFieldId": 508,
+  "ColumnId": 199,
+  "FieldDefault": "qui",
+  "FieldHeight": 339,
+  "FieldLabel": "minima",
+  "FieldLeft": 715,
+  "FieldTop": 735,
   "FieldType": "Checkbox",
-  "FieldWidth": 425,
-  "FormatMask": "sed",
+  "FieldWidth": 309,
+  "FormatMask": "explicabo",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 515,
-  "LabelLeft": 956,
-  "LabelTop": 639,
-  "LabelWidth": 263,
-  "LastVersionId": 62,
-  "ListTableId": 184,
+  "LabelHeight": 554,
+  "LabelLeft": 547,
+  "LabelTop": 522,
+  "LabelWidth": 415,
+  "LastVersionId": 540,
+  "ListTableId": 272,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 682,
-  "ProgId": "perferendis",
+  "Page1LineNo": 40,
+  "ProgId": "doloribus",
   "IsReadOnly": false,
-  "ShortLabel": "quis",
-  "TabOrder": 532,
-  "TextLength": 743,
-  "Tooltip": "est",
-  "UdefIdentity": 263,
-  "UDListDefinitionId": 61,
+  "ShortLabel": "voluptates",
+  "TabOrder": 220,
+  "TextLength": 546,
+  "Tooltip": "atque",
+  "UdefIdentity": 502,
+  "UDListDefinitionId": 577,
   "Justification": "Center",
-  "Version": 771,
-  "TemplateVariableName": "Satterfield, Marks and McDermott",
-  "HasBeenPublished": false,
-  "MdoListName": "Murazik-Simonis",
+  "Version": 510,
+  "TemplateVariableName": "Greenfelder, Schiller and Auer",
+  "HasBeenPublished": true,
+  "MdoListName": "Huel, Gerhold and Jacobson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 291
     }
   }
 }

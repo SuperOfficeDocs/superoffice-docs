@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Doyle LLC",
-  "DeviceName": "Quitzon, Roob and Connelly",
-  "DeviceIdentifier": "enim",
-  "KeyName": "Sporer Inc and Sons",
-  "TableName": "Kautzer LLC",
-  "RecordId": 323
+  "ApplicationName": "Haag Inc and Sons",
+  "DeviceName": "Kovacek-Jacobi",
+  "DeviceIdentifier": "inventore",
+  "KeyName": "Bins, Gibson and Lynch",
+  "TableName": "Waters Group",
+  "RecordId": 848
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptas",
-  "Value": "qui",
-  "RecordId": 594,
-  "CreatedDate": "2014-09-11T04:02:01.8003604+02:00",
-  "UpdatedDate": "2011-11-07T04:02:01.8003604+01:00",
-  "UpdatedBy": "nemo",
-  "CreatedBy": "placeat",
-  "TableName": "Funk LLC",
+  "Key": "dolorem",
+  "Value": "deserunt",
+  "RecordId": 900,
+  "CreatedDate": "2014-09-15T03:44:52.6521119+02:00",
+  "UpdatedDate": "2004-08-22T03:44:52.6521119+02:00",
+  "UpdatedBy": "recusandae",
+  "CreatedBy": "beatae",
+  "TableName": "Kris-Beatty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=948
-POST /api/v1/Document/{documentId}/Content?personId=761
-POST /api/v1/Document/{documentId}/Content?appointmentId=299
-POST /api/v1/Document/{documentId}/Content?saleId=894
-POST /api/v1/Document/{documentId}/Content?selectionId=403
-POST /api/v1/Document/{documentId}/Content?projectId=988
-POST /api/v1/Document/{documentId}/Content?uiCulture=alias
+POST /api/v1/Document/{documentId}/Content?contactId=595
+POST /api/v1/Document/{documentId}/Content?personId=271
+POST /api/v1/Document/{documentId}/Content?appointmentId=387
+POST /api/v1/Document/{documentId}/Content?saleId=97
+POST /api/v1/Document/{documentId}/Content?selectionId=667
+POST /api/v1/Document/{documentId}/Content?projectId=759
+POST /api/v1/Document/{documentId}/Content?uiCulture=odit
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 849,
+  "DocumentId": 662,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sed",
-  "Header": "quibusdam",
-  "Name": "Lowe, Denesik and Okuneva",
-  "OurRef": "nesciunt",
-  "YourRef": "facere",
-  "CreatedDate": "2012-06-07T04:02:06.5879017+02:00",
-  "UpdatedDate": "2013-05-14T04:02:06.5879017+02:00",
-  "Description": "Universal hybrid superstructure",
+  "Attention": "tempore",
+  "Header": "quis",
+  "Name": "Dach, Kuphal and Effertz",
+  "OurRef": "veritatis",
+  "YourRef": "beatae",
+  "CreatedDate": "1999-07-01T03:44:57.3277561+02:00",
+  "UpdatedDate": "2017-04-20T03:44:57.3277561+02:00",
+  "Description": "Configurable discrete moratorium",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-05-31T04:02:06.6035245+02:00",
-  "ExternalRef": "consequatur",
+  "Date": "2020-08-18T03:44:57.3277561+02:00",
+  "ExternalRef": "excepturi",
   "Completed": "Completed",
-  "ActiveLinks": 654,
+  "ActiveLinks": 162,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rice, Armstrong and Christiansen",
-      "Id": 647,
-      "Description": "Networked value-added initiative",
-      "ExtraInfo": "repellat",
-      "LinkId": 9,
+      "EntityName": "D'Amore-Harber",
+      "Id": 485,
+      "Description": "De-engineered static middleware",
+      "ExtraInfo": "sunt",
+      "LinkId": 733,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 722
+          "FieldType": "System.Int32",
+          "FieldLength": 526
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 133,
-  "Snum": 442,
+  "SuggestedDocumentId": 319,
+  "Snum": 216,
   "UserDefinedFields": {
-    "SuperOffice:1": "1888052134",
-    "SuperOffice:2": "Gene Champlin"
+    "SuperOffice:1": "Mr. Lenore Katlynn Hermiston",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "assumenda",
-    "CustomFields2": "omnis"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "neque"
   },
-  "PublishEventDate": "1998-03-12T04:02:06.6035245+01:00",
-  "PublishTo": "2000-09-29T04:02:06.6035245+02:00",
-  "PublishFrom": "2012-12-30T04:02:06.6035245+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-08-28T03:44:57.3277561+02:00",
+  "PublishTo": "2001-07-21T03:44:57.3277561+02:00",
+  "PublishFrom": "2017-11-07T03:44:57.3277561+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 880,
+      "VisibleId": 528,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldLength": 965
         }
       }
     },
     {
-      "VisibleId": 880,
+      "VisibleId": 528,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldLength": 965
         }
       }
     }
@@ -221,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

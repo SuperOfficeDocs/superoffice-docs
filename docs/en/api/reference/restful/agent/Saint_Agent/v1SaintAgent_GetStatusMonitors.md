@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Type": "dolorem"
+  "Id": 616,
+  "Type": "et"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 24,
-    "Rank": 212,
-    "DefaultTask": 743,
-    "DefaultTaskText": "quia",
+    "OwnerTable": 476,
+    "Rank": 109,
+    "DefaultTask": 389,
+    "DefaultTaskText": "corporis",
     "IsVisual": false,
-    "LastGenerated": "2017-01-21T04:02:02.2378308+01:00",
-    "Description": "Re-engineered methodical hierarchy",
-    "Name": "Pollich-Kessler",
-    "StatusMonitorId": 156,
-    "PictureId": 325,
-    "NeedsUpdate": true,
-    "Deleted": true,
-    "NumMatches": 802,
-    "NumNeedUpdate": 548,
-    "GenerationStart": "2023-05-06T04:02:02.2378308+02:00",
+    "LastGenerated": "2011-04-13T03:44:53.0900933+02:00",
+    "Description": "Down-sized national forecast",
+    "Name": "Langosh, Morissette and Medhurst",
+    "StatusMonitorId": 712,
+    "PictureId": 358,
+    "NeedsUpdate": false,
+    "Deleted": false,
+    "NumMatches": 11,
+    "NumNeedUpdate": 779,
+    "GenerationStart": "2023-02-27T03:44:53.0900933+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 252
       }
     }
   }

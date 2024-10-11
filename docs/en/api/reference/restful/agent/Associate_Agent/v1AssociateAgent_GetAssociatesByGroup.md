@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 882,
-  "Type": 701
+  "GroupId": 546,
+  "Type": 756
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 354,
-    "Name": "Bradtke-Schowalter",
-    "PersonId": 954,
-    "Rank": 319,
+    "AssociateId": 161,
+    "Name": "Morar-Weimann",
+    "PersonId": 316,
+    "Rank": 445,
     "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 389,
-    "FullName": "Cory Abernathy I",
-    "FormalName": "Greenholt-Mohr",
-    "Deleted": false,
-    "EjUserId": 784,
-    "UserName": "Kulas Group",
+    "GroupIdx": 781,
+    "FullName": "German Hessel",
+    "FormalName": "Bradtke, Hammes and Lubowitz",
+    "Deleted": true,
+    "EjUserId": 187,
+    "UserName": "Franecki Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldLength": 517
       }
     }
   }

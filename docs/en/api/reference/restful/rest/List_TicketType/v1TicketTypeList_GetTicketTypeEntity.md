@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,31 +90,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 631,
-  "Name": "Windler Group",
-  "Rank": 329,
-  "Tooltip": "voluptatem",
-  "Icon": "itaque",
-  "DefaultTicketStatus": 749,
+  "TicketTypeId": 355,
+  "Name": "Kautzer Group",
+  "Rank": 200,
+  "Tooltip": "repellendus",
+  "Icon": "saepe",
+  "DefaultTicketStatus": 193,
   "TicketStatuses": [
-    330,
-    229
+    12,
+    655
   ],
-  "DefaultTicketPriority": 356,
+  "DefaultTicketPriority": 140,
   "TicketPriorities": [
-    224,
-    370
+    369,
+    376
   ],
-  "ReplyTemplate": 184,
+  "ReplyTemplate": 218,
   "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    638,
-    273
+    750,
+    577
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 811
     }
   }
 }

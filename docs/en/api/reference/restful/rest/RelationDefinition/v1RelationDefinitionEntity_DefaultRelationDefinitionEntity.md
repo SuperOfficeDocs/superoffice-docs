@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 448,
-  "Name": "Wiegand, Cummerata and Lind",
-  "Tooltip": "suscipit",
-  "PassiveText": "facere",
+  "ReldefId": 498,
+  "Name": "Kulas-Reichel",
+  "Tooltip": "dolores",
+  "PassiveText": "ea",
   "Deleted": false,
-  "Rank": 225,
+  "Rank": 353,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldType": "System.Int32",
+      "FieldLength": 136
     }
   }
 }

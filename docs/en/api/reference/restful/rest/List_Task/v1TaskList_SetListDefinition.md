@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Dare-Leffler",
-  "Tooltip": "vel",
+  "Id": 946,
+  "Name": "Considine-Smitham",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 615,
+  "Rank": 302,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maxime",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sequi",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Leuschke LLC",
-  "Tooltip": "deserunt",
+  "Id": 635,
+  "Name": "Bechtelar, Bruen and Goodwin",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 287,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 116,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 229
+      "FieldType": "System.Int32",
+      "FieldLength": 669
     }
   }
 }

@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 84,
-  "Name": "Hammes-Collier",
-  "Description": "Organized systemic help-desk",
-  "DefaultHeight": 494,
-  "DefaultWidth": 412,
+  "DashboardTileDefinitionId": 282,
+  "Name": "Terry Inc and Sons",
+  "Description": "Multi-layered 6th generation intranet",
+  "DefaultHeight": 842,
+  "DefaultWidth": 592,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Roberts, Grant and Kassulke",
-  "SelectionId": 18,
+  "EntityName": "Deckow-Littel",
+  "SelectionId": 877,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quos",
+  "CurrencyCode": "atque",
   "Measure": "Average",
-  "MeasureField": "non",
-  "SortBy": "qui",
-  "LayoutConfig": "saepe",
-  "SecondarySelectionId": 948,
-  "MeasureByField": "aut",
+  "MeasureField": "deleniti",
+  "SortBy": "ut",
+  "LayoutConfig": "amet",
+  "SecondarySelectionId": 592,
+  "MeasureByField": "ab",
   "Usage": "Dashboard",
-  "ProviderName": "Beer, Larson and Senger",
+  "ProviderName": "Hamill Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

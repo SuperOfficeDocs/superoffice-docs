@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Wilkinson, Kozey and Tremblay",
-    "ToolTip": "Est odit ducimus.",
+    "Id": 152,
+    "Name": "Luettgen, Jewess and Langosh",
+    "ToolTip": "Qui quo dolor architecto voluptatibus consequatur possimus.",
     "Deleted": false,
-    "Rank": 194,
-    "Type": "minima",
-    "ColorBlock": 512,
-    "IconHint": "quibusdam",
-    "Selected": true,
-    "LastChanged": "2017-01-11T04:02:07.2909529+01:00",
+    "Rank": 1002,
+    "Type": "qui",
+    "ColorBlock": 334,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "2002-08-01T03:44:58.0312644+02:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Daniel Inc and Sons",
-        "ToolTip": "Deleniti illo maxime esse nostrum quis ad.",
-        "Deleted": false,
-        "Rank": 62,
-        "Type": "et",
-        "ColorBlock": 337,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "2005-06-10T04:02:07.2909529+02:00",
+        "Id": 245,
+        "Name": "Swift, Howe and Kirlin",
+        "ToolTip": "Magnam ullam quo aut sunt et.",
+        "Deleted": true,
+        "Rank": 696,
+        "Type": "numquam",
+        "ColorBlock": 15,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "2016-06-28T03:44:58.0312644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "odio",
-        "Hidden": true,
-        "FullName": "Dr. Cristobal Linda Brown"
+        "ExtraInfo": "accusantium",
+        "StyleHint": "odit",
+        "Hidden": false,
+        "FullName": "Mr. Nona Marty Stracke"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "id",
+    "ExtraInfo": "ea",
+    "StyleHint": "laborum",
     "Hidden": true,
-    "FullName": "Dr. Elmer Homenick"
+    "FullName": "Prof. Emelie Roob"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Eichmann, Hartmann and Lockman",
-    "ToolTip": "Eius possimus ea quas et neque inventore et.",
-    "Deleted": false,
-    "Rank": 602,
-    "Type": "velit",
-    "ColorBlock": 658,
-    "IconHint": "facilis",
+    "Id": 402,
+    "Name": "Connelly, Rippin and Kuhlman",
+    "ToolTip": "Voluptas eius quibusdam.",
+    "Deleted": true,
+    "Rank": 270,
+    "Type": "et",
+    "ColorBlock": 880,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2016-01-06T04:02:07.2909529+01:00",
+    "LastChanged": "2018-06-19T03:44:58.0312644+02:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Barrows-Zieme",
-        "ToolTip": "Porro delectus qui voluptas pariatur illum incidunt nam.",
-        "Deleted": true,
-        "Rank": 474,
-        "Type": "eos",
-        "ColorBlock": 120,
-        "IconHint": "vitae",
+        "Id": 563,
+        "Name": "Hamill Group",
+        "ToolTip": "Delectus velit aliquid aliquid.",
+        "Deleted": false,
+        "Rank": 391,
+        "Type": "laudantium",
+        "ColorBlock": 946,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2010-02-28T04:02:07.2909529+01:00",
+        "LastChanged": "2011-09-27T03:44:58.0312644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "similique",
-        "Hidden": true,
-        "FullName": "Dawn Lonnie Rogahn DVM",
+        "ExtraInfo": "et",
+        "StyleHint": "quisquam",
+        "Hidden": false,
+        "FullName": "Elissa Kling V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldLength": 384
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "vero",
+    "ExtraInfo": "alias",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Gregory Bernhard",
+    "FullName": "Mrs. Jaylon Hilton Stoltenberg IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldType": "System.String",
+        "FieldLength": 589
       }
     }
   }

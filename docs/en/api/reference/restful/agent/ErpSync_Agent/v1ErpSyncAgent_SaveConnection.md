@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 947,
-  "ErpConnectorId": 327,
-  "DisplayName": "Zieme, Paucek and Nitzsche",
-  "DisplayDescription": "Assimilated transitional portal",
+  "ErpConnectionId": 79,
+  "ErpConnectorId": 430,
+  "DisplayName": "Swaniawski-Kihn",
+  "DisplayDescription": "Automated multi-tasking function",
   "Active": false,
-  "ConnectionId": "voluptas",
-  "MostRecentTimestamp": "voluptate",
+  "ConnectionId": "inventore",
+  "MostRecentTimestamp": "qui",
   "ConfigFields": {
-    "ConfigFields1": "excepturi",
-    "ConfigFields2": "laudantium"
+    "ConfigFields1": "natus",
+    "ConfigFields2": "debitis"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    907,
-    832
+    313,
+    623
   ],
   "AssociateAccessIds": [
-    664,
-    840
+    655,
+    999
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

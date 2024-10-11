@@ -658,7 +658,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/contactAssociate/userName,project/projectAssociate/contactDepartment,mailingAddr/contact/saintDirection
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/contactAssociate/mrMrs,mailingAddr/contact/contactAssociate/personEmail,project/endDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

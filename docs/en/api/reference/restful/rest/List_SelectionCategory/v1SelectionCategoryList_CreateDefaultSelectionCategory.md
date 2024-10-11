@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 383,
-  "Name": "Stoltenberg-Trantow",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "UdListDefinitionId": 508,
-  "Rank": 150,
+  "Id": 255,
+  "Name": "Klein LLC",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 713,
+  "Rank": 246,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldLength": 462
     }
   }
 }

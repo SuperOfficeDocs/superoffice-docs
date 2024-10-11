@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 258,
-  "Name": "Wisozk, Ankunding and Kiehn",
-  "Tooltip": "id",
+  "HeadingId": 535,
+  "Name": "Crooks Inc and Sons",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 909,
-  "UdListDefinitionId": 214
+  "Rank": 263,
+  "UdListDefinitionId": 315
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 347,
-  "Name": "O'Conner-Dibbert",
-  "Tooltip": "sequi",
-  "Deleted": true,
-  "Rank": 572,
-  "UdListDefinitionId": 885,
+  "HeadingId": 410,
+  "Name": "Parisian Group",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "Rank": 291,
+  "UdListDefinitionId": 456,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 807
     }
   }
 }

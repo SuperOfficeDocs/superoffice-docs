@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 357,
-  "StartTime": "2017-07-14T04:02:01.5811276+02:00",
-  "EndTime": "2008-02-01T04:02:01.5811276+01:00",
-  "Count": 748,
-  "DocumentTemplateId": 859
+  "PersonId": 174,
+  "StartTime": "2002-11-22T03:44:52.4333602+01:00",
+  "EndTime": "2008-06-25T03:44:52.4333602+02:00",
+  "Count": 511,
+  "DocumentTemplateId": 713
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 905,
-    "Attention": "minus",
-    "Header": "quis",
-    "Name": "Yundt-Langworth",
-    "OurRef": "qui",
-    "YourRef": "officiis",
-    "Description": "Realigned reciprocal product",
-    "DocumentTemplate": "molestias",
+    "DocumentId": 180,
+    "Attention": "rem",
+    "Header": "fugit",
+    "Name": "Keebler, Prohaska and Wiza",
+    "OurRef": "velit",
+    "YourRef": "cupiditate",
+    "Description": "Diverse even-keeled encoding",
+    "DocumentTemplate": "ut",
     "IsPublished": false,
-    "PersonId": 503,
-    "PersonFullName": "Elta Gleason",
-    "AssociateFullName": "Prof. Alda Hane Sr.",
-    "ContactId": 424,
-    "ContactName": "Jacobi, Kulas and Hoeger",
-    "ProjectId": 267,
-    "ProjectName": "Zemlak Inc and Sons",
-    "AssociateId": 434,
-    "Snum": 704,
-    "SaleId": 573,
-    "SaleName": "Nader-Jerde",
+    "PersonId": 101,
+    "PersonFullName": "Petra Feil",
+    "AssociateFullName": "Alene Lueilwitz",
+    "ContactId": 970,
+    "ContactName": "Quitzon, Schuster and Quigley",
+    "ProjectId": 948,
+    "ProjectName": "Kerluke, Waelchi and Grady",
+    "AssociateId": 293,
+    "Snum": 855,
+    "SaleId": 800,
+    "SaleName": "Bashirian, Gottlieb and Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 634
       }
     }
   }

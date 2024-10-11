@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 808,
-  "ERPProductKey": "quis",
-  "ERPPriceListKey": "maxime",
-  "Name": "Koelpin-Vandervort",
-  "Description": "User-centric multi-tasking hierarchy",
-  "Code": "velit",
-  "PriceUnit": "ipsa",
-  "QuantityUnit": "assumenda",
-  "IsSubscription": true,
-  "SubscriptionUnit": "tenetur",
-  "DefaultSubscriptionQuantity": 20186.094,
-  "ItemNumber": "1122904",
+  "ProductId": 751,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "quae",
+  "Name": "Tremblay, Reilly and Corkery",
+  "Description": "Business-focused logistical benchmark",
+  "Code": "et",
+  "PriceUnit": "in",
+  "QuantityUnit": "voluptatem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "fugit",
+  "DefaultSubscriptionQuantity": 24451.468,
+  "ItemNumber": "1125968",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "minus",
-  "ProductTypeKey": "cumque",
-  "VAT": 8699.984,
-  "VATInfo": "similique",
-  "UnitCost": 19161.275999999998,
-  "UnitMinimumPrice": 9991.192,
-  "UnitListPrice": 25629.852,
+  "ProductFamilyKey": "esse",
+  "ProductTypeKey": "aperiam",
+  "VAT": 13075.047999999999,
+  "VATInfo": "eos",
+  "UnitCost": 14560.564,
+  "UnitMinimumPrice": 14096.732,
+  "UnitListPrice": 29628.836,
   "InAssortment": true,
-  "Supplier": "voluptatem",
-  "SupplierCode": "voluptatem",
-  "Rights": "sunt",
-  "Rule": "vitae",
+  "Supplier": "optio",
+  "SupplierCode": "aut",
+  "Rights": "ea",
+  "Rule": "voluptas",
   "ExtraInfo": [
     {
-      "Name": "Zieme, Mitchell and Oberbrunner",
-      "Value": "autem",
+      "Name": "Dibbert, Feest and Lockman",
+      "Value": "officiis",
       "Type": "Image"
     },
     {
-      "Name": "Zieme, Mitchell and Oberbrunner",
-      "Value": "autem",
+      "Name": "Dibbert, Feest and Lockman",
+      "Value": "officiis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "repudiandae",
-  "ExtraField1": "aut",
-  "ExtraField2": "non",
-  "ExtraField3": "deleniti",
-  "ExtraField4": "id",
-  "ExtraField5": "placeat",
-  "InStock": 12749.112
+  "RawExtraInfo": "maiores",
+  "ExtraField1": "illum",
+  "ExtraField2": "inventore",
+  "ExtraField3": "nisi",
+  "ExtraField4": "quia",
+  "ExtraField5": "ut",
+  "InStock": 30305.78
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 575,
-  "ERPProductKey": "iusto",
-  "ERPPriceListKey": "beatae",
-  "Name": "Mohr-Kuhic",
-  "Description": "Cross-platform 24/7 adapter",
-  "Code": "et",
-  "PriceUnit": "odit",
-  "QuantityUnit": "dolorum",
+  "ProductId": 464,
+  "ERPProductKey": "est",
+  "ERPPriceListKey": "facere",
+  "Name": "Aufderhar-Effertz",
+  "Description": "Configurable stable strategy",
+  "Code": "ut",
+  "PriceUnit": "numquam",
+  "QuantityUnit": "in",
   "IsSubscription": false,
-  "SubscriptionUnit": "quis",
-  "DefaultSubscriptionQuantity": 2347.366,
-  "ItemNumber": "907635",
+  "SubscriptionUnit": "aliquid",
+  "DefaultSubscriptionQuantity": 10367.271999999999,
+  "ItemNumber": "1279456",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "itaque",
-  "ProductTypeKey": "aut",
-  "VAT": 9054.126,
-  "VATInfo": "est",
-  "UnitCost": 16591.396,
-  "UnitMinimumPrice": 8091.9879999999994,
-  "UnitListPrice": 899.458,
-  "InAssortment": false,
-  "Supplier": "voluptatem",
-  "SupplierCode": "libero",
-  "Rights": "aut",
-  "Rule": "molestiae",
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "aperiam",
+  "VAT": 4246.57,
+  "VATInfo": "rerum",
+  "UnitCost": 351.008,
+  "UnitMinimumPrice": 27221.924,
+  "UnitListPrice": 27124.77,
+  "InAssortment": true,
+  "Supplier": "est",
+  "SupplierCode": "fugit",
+  "Rights": "omnis",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Jones, Olson and Jakubowski",
-      "Value": "vel",
+      "Name": "Christiansen-Wunsch",
+      "Value": "dignissimos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 228
         }
       }
     },
     {
-      "Name": "Jones, Olson and Jakubowski",
-      "Value": "vel",
+      "Name": "Christiansen-Wunsch",
+      "Value": "dignissimos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 228
         }
       }
     }
   ],
-  "RawExtraInfo": "atque",
-  "ExtraField1": "quia",
-  "ExtraField2": "porro",
-  "ExtraField3": "totam",
-  "ExtraField4": "maiores",
-  "ExtraField5": "sit",
-  "InStock": 16466.036,
+  "RawExtraInfo": "laudantium",
+  "ExtraField1": "velit",
+  "ExtraField2": "in",
+  "ExtraField3": "aperiam",
+  "ExtraField4": "eligendi",
+  "ExtraField5": "aut",
+  "InStock": 19484.077999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   }
 }

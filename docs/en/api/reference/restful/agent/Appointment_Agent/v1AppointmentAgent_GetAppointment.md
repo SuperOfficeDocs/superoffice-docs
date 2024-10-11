@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=396
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=577
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 711,
-  "StartDate": "2009-04-12T04:02:01.0494338+02:00",
-  "EndDate": "2014-11-25T04:02:01.0494338+01:00",
+  "AppointmentId": 371,
+  "StartDate": "1997-08-05T03:44:51.9021567+02:00",
+  "EndDate": "1999-05-16T03:44:51.9021567+02:00",
   "Type": "BookingForChecklist",
-  "Task": "iusto",
-  "AssociateFullName": "Dr. Arnoldo Isabel Langworth Sr.",
-  "ContactName": "Deckow, Feest and Little",
-  "Description": "Integrated static capacity",
-  "PersonFullName": "Seamus Myrtle McLaughlin PhD",
-  "PersonId": 900,
-  "ContactId": 876,
-  "ProjectId": 717,
-  "ProjectName": "Langworth, Langosh and Wintheiser",
-  "IsPublished": false,
-  "AssociateId": 880,
-  "ColorIndex": 394,
-  "IsFree": true,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "Task": "debitis",
+  "AssociateFullName": "Edmund Labadie",
+  "ContactName": "Kozey-Renner",
+  "Description": "Down-sized responsive workforce",
+  "PersonFullName": "Dr. Karolann Gavin Crist III",
+  "PersonId": 860,
+  "ContactId": 464,
+  "ProjectId": 528,
+  "ProjectName": "Kuhn-Grimes",
+  "IsPublished": true,
+  "AssociateId": 988,
+  "ColorIndex": 159,
+  "IsFree": false,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 53,
-  "PriorityName": "Haag, Kshlerin and Fisher",
+  "PriorityId": 24,
+  "PriorityName": "Hackett Group",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2004-02-19T04:02:01.0494338+01:00",
+  "IsBooking": true,
+  "ActiveDate": "2005-08-27T03:44:51.9021567+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-10-23T04:02:01.0494338+02:00",
-  "RecurringEndDate": "2009-07-11T04:02:01.0494338+02:00",
-  "MotherId": 867,
-  "AssignedBy": 687,
-  "AssignedByFullName": "Leslie Ritchie",
+  "RecurringStartDate": "2019-07-02T03:44:51.9021567+02:00",
+  "RecurringEndDate": "2012-09-04T03:44:51.9021567+02:00",
+  "MotherId": 896,
+  "AssignedBy": 460,
+  "AssignedByFullName": "Amos Mayer",
   "RejectReason": "",
-  "Location": "alias",
-  "AlarmLeadTime": "dolor",
-  "SaleId": 974,
-  "SaleName": "Bergstrom Inc and Sons",
-  "AssociateName": "Larkin-Torp",
-  "CreatedDate": "2006-12-13T04:02:01.0494338+01:00",
-  "CreatedBy": "assumenda",
-  "CreatedByFullName": "Miss Austin Schuster",
-  "CreatedByAssociateId": 327,
+  "Location": "omnis",
+  "AlarmLeadTime": "a",
+  "SaleId": 291,
+  "SaleName": "Macejkovic-Langworth",
+  "AssociateName": "Flatley Group",
+  "CreatedDate": "2021-12-14T03:44:51.9021567+01:00",
+  "CreatedBy": "dignissimos",
+  "CreatedByFullName": "Niko Runte",
+  "CreatedByAssociateId": 704,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 131,
-  "Title": "nesciunt",
-  "Agenda": "possimus",
-  "InternalNotes": "molestiae",
+  "PreferredTZLocation": 134,
+  "Title": "ipsam",
+  "Agenda": "nam",
+  "InternalNotes": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   }
 }

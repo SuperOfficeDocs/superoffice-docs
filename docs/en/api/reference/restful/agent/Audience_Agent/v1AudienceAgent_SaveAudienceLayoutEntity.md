@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 933,
-  "InstanceLayout": "ipsum",
-  "InstanceName": "Cole, Gaylord and Renner",
-  "CreatedDate": "2023-11-10T04:02:01.221786+01:00",
-  "UpdatedDate": "1999-05-27T04:02:01.221786+02:00",
+  "AudienceLayoutId": 566,
+  "InstanceLayout": "ea",
+  "InstanceName": "Bartell Group",
+  "CreatedDate": "2007-04-20T03:44:52.0740137+02:00",
+  "UpdatedDate": "2020-09-30T03:44:52.0740137+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 227,
-  "InstanceLayout": "perspiciatis",
-  "InstanceName": "Schneider LLC",
-  "CreatedDate": "2014-03-09T04:02:01.221786+01:00",
-  "UpdatedDate": "2012-08-13T04:02:01.221786+02:00",
+  "AudienceLayoutId": 230,
+  "InstanceLayout": "porro",
+  "InstanceName": "Davis LLC",
+  "CreatedDate": "2019-06-22T03:44:52.0740137+02:00",
+  "UpdatedDate": "2002-12-28T03:44:52.0740137+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 151
     }
   }
 }

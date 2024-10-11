@@ -88,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 9
+  "AttachmentId": 367
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nikolaus Group",
-  "MimeType": "odio",
-  "Size": 821,
+  "Name": "Crist Inc and Sons",
+  "MimeType": "ipsam",
+  "Size": 995,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "lizeth_heaney@langoshkoepp.name",
-  "EmailFrom": "albert@johnsdoyle.name",
-  "EmailTo": "jaquelin.grady@townecole.co.uk",
-  "EmailCc": "hattie@jakubowski.co.uk",
-  "EmailDate": "2002-04-25T04:02:02.4885951+02:00",
+  "EmailSubject": "jess_barrows@bogisichullrich.biz",
+  "EmailFrom": "river_moen@rippin.uk",
+  "EmailTo": "gideon_schowalter@mills.co.uk",
+  "EmailCc": "amalia@jakubowski.name",
+  "EmailDate": "2002-06-06T03:44:53.340429+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 12,
-      "Name": "Orn-Balistreri",
-      "ContentType": "possimus",
-      "AttSize": 146,
-      "InlineImage": false,
-      "ContentId": "voluptas",
-      "AuthKey": "dolorum",
+      "AttachmentId": 54,
+      "Name": "Simonis-Block",
+      "ContentType": "commodi",
+      "AttSize": 505,
+      "InlineImage": true,
+      "ContentId": "beatae",
+      "AuthKey": "occaecati",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldType": "System.String",
+          "FieldLength": 404
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 270
     }
   }
 }

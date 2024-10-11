@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 36,
-  "ColumnId": 259,
-  "FieldDefault": "vel",
-  "FieldHeight": 368,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 992,
-  "FieldTop": 116,
+  "UDefFieldId": 908,
+  "ColumnId": 333,
+  "FieldDefault": "repellat",
+  "FieldHeight": 29,
+  "FieldLabel": "magni",
+  "FieldLeft": 374,
+  "FieldTop": 918,
   "FieldType": "Checkbox",
-  "FieldWidth": 197,
-  "FormatMask": "aut",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 114,
-  "LabelLeft": 634,
-  "LabelTop": 79,
-  "LabelWidth": 893,
-  "LastVersionId": 458,
-  "ListTableId": 282,
-  "IsMandatory": false,
+  "FieldWidth": 755,
+  "FormatMask": "officiis",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 285,
+  "LabelLeft": 901,
+  "LabelTop": 626,
+  "LabelWidth": 934,
+  "LastVersionId": 892,
+  "ListTableId": 397,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 83,
-  "ProgId": "nam",
+  "Page1LineNo": 913,
+  "ProgId": "voluptatem",
   "IsReadOnly": true,
   "ShortLabel": "omnis",
-  "TabOrder": 164,
-  "TextLength": 892,
-  "Tooltip": "qui",
-  "UdefIdentity": 700,
-  "UDListDefinitionId": 944,
+  "TabOrder": 36,
+  "TextLength": 531,
+  "Tooltip": "fuga",
+  "UdefIdentity": 528,
+  "UDListDefinitionId": 502,
   "Justification": "Center",
-  "Version": 984,
-  "TemplateVariableName": "Kuhic, Kreiger and Ziemann",
-  "HasBeenPublished": false,
-  "MdoListName": "Miller, Rutherford and Jacobson",
+  "Version": 160,
+  "TemplateVariableName": "Lueilwitz, Grimes and Doyle",
+  "HasBeenPublished": true,
+  "MdoListName": "Bayer, Hilll and Crist",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 307
+      "FieldType": "System.Int32",
+      "FieldLength": 701
     }
   }
 }

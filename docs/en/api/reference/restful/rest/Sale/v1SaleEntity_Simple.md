@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Strosin Inc and Sons",
-  "SaleDate": "2009-05-02T04:02:06.8222516+02:00",
-  "SaleId": 464,
-  "Probability": 1000,
-  "Title": "assumenda",
-  "Amount": 10517.704,
-  "Currency": "aut",
-  "ProjectName": "Kilback LLC",
-  "AssociateFullName": "Cristobal Howe",
-  "Description": "Synchronised human-resource Graphic Interface",
+  "ContactName": "Kilback-Adams",
+  "SaleDate": "2018-05-22T03:44:57.5625173+02:00",
+  "SaleId": 874,
+  "Probability": 803,
+  "Title": "doloribus",
+  "Amount": 448.162,
+  "Currency": "voluptate",
+  "ProjectName": "Franecki, Durgan and Nienow",
+  "AssociateFullName": "Austen Schowalter",
+  "Description": "Self-enabling zero tolerance protocol",
   "Status": "Lost",
-  "WeightedAmount": 30609.778,
-  "ProjectId": 666,
-  "EarningPercent": 5108.42,
-  "Earning": 11188.38,
-  "ContactId": 919,
-  "AssociateId": 267,
-  "PersonId": 714,
-  "SaleTypeId": 119,
-  "SaleTypeName": "Feeney, McGlynn and Marks",
-  "PersonFullName": "Miss Conor Purdy",
+  "WeightedAmount": 16064.884,
+  "ProjectId": 974,
+  "EarningPercent": 827.376,
+  "Earning": 15826.699999999999,
+  "ContactId": 352,
+  "AssociateId": 784,
+  "PersonId": 297,
+  "SaleTypeId": 263,
+  "SaleTypeName": "Hessel Group",
+  "PersonFullName": "Miss Minerva Prohaska Jr.",
   "Completed": "Completed",
-  "ActiveErpLinks": 51,
-  "NextDueDate": "2009-12-26T04:02:06.8222516+01:00",
-  "Number": "857827",
+  "ActiveErpLinks": 267,
+  "NextDueDate": "2015-02-26T03:44:57.5625173+01:00",
+  "Number": "1753094",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

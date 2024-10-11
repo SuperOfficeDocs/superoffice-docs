@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
-  "OnlyPresent": false
+  "Flat": false,
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Zieme LLC",
-    "ToolTip": "Iste sed pariatur quis exercitationem.",
+    "Id": 229,
+    "Name": "Harris, Thompson and Hartmann",
+    "ToolTip": "Non vitae minus cupiditate pariatur eveniet.",
     "Deleted": false,
-    "Rank": 267,
-    "Type": "inventore",
+    "Rank": 944,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Conn-Pollich",
-        "ToolTip": "Ratione ex neque provident non consequatur tempora inventore.",
-        "Deleted": true,
-        "Rank": 872,
-        "Type": "odio",
+        "Id": 120,
+        "Name": "Bednar-Halvorson",
+        "ToolTip": "Sint eum dolorem quia ut sit eius.",
+        "Deleted": false,
+        "Rank": 552,
+        "Type": "nulla",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 836,
-        "ExtraInfo": "sed",
-        "StyleHint": "beatae",
-        "FullName": "Dimitri Jalyn Shanahan Jr.",
+        "IconHint": "debitis",
+        "ColorBlock": 895,
+        "ExtraInfo": "vitae",
+        "StyleHint": "rem",
+        "FullName": "Alia Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 929
+            "FieldType": "System.String",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 98,
-    "ExtraInfo": "vitae",
-    "StyleHint": "aspernatur",
-    "FullName": "Fay Quitzon",
+    "IconHint": "perferendis",
+    "ColorBlock": 506,
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "quae",
+    "FullName": "Dawson Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 893
       }
     }
   }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 871,
-  "Name": "Feest, Connelly and Jakubowski",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 970,
+  "Id": 468,
+  "Name": "Mohr Inc and Sons",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 563,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "dignissimos",
+  "Id": 824,
+  "Name": "Mills-Moen",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 395,
+  "Rank": 48,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
-  "InUseByUserDefinedFields": false,
+  "ListType": "perferendis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 822
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

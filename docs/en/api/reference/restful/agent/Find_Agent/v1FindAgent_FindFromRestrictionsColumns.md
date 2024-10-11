@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Schroeder, Thiel and Little",
-      "Operator": "labore",
+      "Name": "Toy Group",
+      "Operator": "nulla",
       "Values": [
-        "non",
-        "pariatur"
+        "enim",
+        "corporis"
       ],
       "DisplayValues": [
-        "vitae",
-        "ea"
+        "dicta",
+        "blanditiis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 436,
+      "InterParenthesis": 249,
       "InterOperator": "And",
-      "UniqueHash": 327
+      "UniqueHash": 954
     }
   ],
-  "ProviderName": "Goodwin-Streich",
+  "ProviderName": "Wisozk Group",
   "DesiredColumns": [
-    "consequuntur",
-    "expedita"
+    "vitae",
+    "molestiae"
   ],
-  "PageSize": 81,
-  "PageNumber": 819
+  "PageSize": 499,
+  "PageNumber": 726
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kihn, Leannon and Bogisich",
-      "DisplayTooltip": "qui",
-      "DisplayType": "laborum",
-      "CanOrderBy": false,
-      "Name": "Morissette Inc and Sons",
+      "DisplayName": "Erdman Inc and Sons",
+      "DisplayTooltip": "numquam",
+      "DisplayType": "delectus",
+      "CanOrderBy": true,
+      "Name": "Terry, Fahey and Skiles",
       "CanRestrictBy": false,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Fahey LLC",
+      "RestrictionType": "beatae",
+      "RestrictionListName": "Emard-Doyle",
       "IsVisible": false,
-      "ExtraInfo": "architecto",
-      "Width": "tempore",
-      "IconHint": "enim",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "quia",
+      "Width": "inventore",
+      "IconHint": "omnis",
+      "HeadingIconHint": "alias"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Shields-Trantow",
-      "PrimaryKey": 564,
+      "EntityName": "Fadel-Bradtke",
+      "PrimaryKey": 452,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "illum",
-          "TooltipHint": "iste",
-          "LinkHint": "minima"
+          "DisplayValue": "deserunt",
+          "TooltipHint": "suscipit",
+          "LinkHint": "quam"
         }
       },
-      "LinkHint": "cumque",
-      "StyleHint": "id",
+      "LinkHint": "dicta",
+      "StyleHint": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 463
         }
       }
     }
   ],
-  "RowCount": 336,
+  "RowCount": 321,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   }
 }

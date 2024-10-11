@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "aut",
-    "at"
+    "aliquid",
+    "accusamus"
   ]
 }
 ```
@@ -105,11 +105,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reichert, Gulgowski and Zemlak",
-    "Delimiter": "ducimus",
-    "Flags": "numquam",
-    "TotalItems": 319,
-    "UnreadItems": 681,
+    "Name": "Steuber LLC",
+    "Delimiter": "eum",
+    "Flags": "ut",
+    "TotalItems": 829,
+    "UnreadItems": 956,
     "Subscribed": false,
     "EmailFolderId": 240,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 790
       }
     }
   }

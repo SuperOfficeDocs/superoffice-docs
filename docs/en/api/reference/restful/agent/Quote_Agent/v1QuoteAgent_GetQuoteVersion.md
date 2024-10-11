@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 480
+  "QuoteVersionId": 173
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 456,
-  "ERPQuoteVersionKey": "nemo",
-  "QuoteId": 407,
-  "Description": "Synchronised actuating website",
-  "Number": "1107160",
+  "QuoteVersionId": 979,
+  "ERPQuoteVersionKey": "deserunt",
+  "QuoteId": 555,
+  "Description": "Persevering high-level product",
+  "Number": "1781376",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 965,
-  "SentDate": "2008-03-22T04:02:02.1753367+01:00",
-  "FollowupId": 392,
-  "ExpirationDate": "2007-11-12T04:02:02.1753367+01:00",
-  "DeliveryCountryId": 603,
+  "LikelyQuoteAlternativeId": 401,
+  "SentDate": "2024-05-23T03:44:53.042699+02:00",
+  "FollowupId": 305,
+  "ExpirationDate": "2007-10-10T03:44:53.042699+02:00",
+  "DeliveryCountryId": 357,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 997,
+  "InvoiceCountryId": 208,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "omnis",
-  "ERPPaymentTypeKey": "nobis",
-  "ERPDeliveryTermsKey": "rerum",
-  "ERPDeliveryTypeKey": "non",
-  "Rank": 443,
-  "ApprovedBy": 663,
-  "ApprovedText": "quo",
-  "ApprovedRegisteredBy": 732,
-  "ApprovedRegisteredDate": "2005-06-15T04:02:02.1753367+02:00",
-  "ExtraField1": "perferendis",
-  "ExtraField2": "voluptatum",
-  "ExtraField3": "amet",
-  "ExtraField4": "distinctio",
-  "ExtraField5": "est",
-  "LastRecalculated": "2007-12-06T04:02:02.1753367+01:00",
-  "Updated": "2004-09-19T04:02:02.1753367+02:00",
-  "UpdatedAssociateId": 412,
-  "Registered": "1998-08-03T04:02:02.1753367+02:00",
-  "RegisteredAssociateId": 106,
-  "RequestAssociateId": 949,
-  "RequestComment": "deleniti",
+  "ERPPaymentTermsKey": "est",
+  "ERPPaymentTypeKey": "dignissimos",
+  "ERPDeliveryTermsKey": "expedita",
+  "ERPDeliveryTypeKey": "at",
+  "Rank": 442,
+  "ApprovedBy": 870,
+  "ApprovedText": "facilis",
+  "ApprovedRegisteredBy": 668,
+  "ApprovedRegisteredDate": "1998-10-03T03:44:53.042699+02:00",
+  "ExtraField1": "corporis",
+  "ExtraField2": "fugiat",
+  "ExtraField3": "suscipit",
+  "ExtraField4": "deserunt",
+  "ExtraField5": "deserunt",
+  "LastRecalculated": "2008-09-09T03:44:53.042699+02:00",
+  "Updated": "2013-03-14T03:44:53.042699+01:00",
+  "UpdatedAssociateId": 38,
+  "Registered": "2010-05-26T03:44:53.042699+02:00",
+  "RegisteredAssociateId": 410,
+  "RequestAssociateId": 824,
+  "RequestComment": "impedit",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 647,
-      "ERPQuoteAlternativeKey": "in",
-      "QuoteVersionId": 143,
-      "Name": "Kautzer LLC",
-      "Description": "Ameliorated radical firmware",
+      "QuoteAlternativeId": 389,
+      "ERPQuoteAlternativeKey": "omnis",
+      "QuoteVersionId": 988,
+      "Name": "Marks-Sauer",
+      "Description": "Assimilated neutral alliance",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 21135.696,
-      "ERPDiscountAmount": 7001.356,
-      "DiscountPercent": 17904.541999999998,
-      "DiscountAmount": 27854.992,
+      "ERPDiscountPercent": 10586.652,
+      "ERPDiscountAmount": 1961.884,
+      "DiscountPercent": 19913.435999999998,
+      "DiscountAmount": 27585.468,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "in",
-      "VAT": 29710.32,
-      "EarningPercent": 20129.682,
-      "EarningAmount": 18058.108,
-      "SubTotal": 24824.414,
-      "TotalPrice": 27695.158,
-      "ExtraField1": "et",
-      "ExtraField2": "id",
-      "ExtraField3": "eum",
-      "ExtraField4": "architecto",
-      "ExtraField5": "molestiae",
+      "VATInfo": "maxime",
+      "VAT": 15488.228,
+      "EarningPercent": 29522.28,
+      "EarningAmount": 15488.228,
+      "SubTotal": 23392.176,
+      "TotalPrice": 2905.218,
+      "ExtraField1": "ullam",
+      "ExtraField2": "enim",
+      "ExtraField3": "odit",
+      "ExtraField4": "ad",
+      "ExtraField5": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 176
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldLength": 279
     }
   }
 }

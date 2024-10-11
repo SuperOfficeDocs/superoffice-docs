@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Wisoky Group",
+  "ProgramName": "Prosacco, Lebsack and Schowalter",
   "External": false
 }
 ```

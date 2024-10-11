@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 741,
-    "Name": "D'Amore Inc and Sons",
+    "HeadingId": 369,
+    "Name": "Marvin, Connelly and Runolfsson",
     "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 568,
-    "UdListDefinitionId": 140,
+    "Deleted": true,
+    "Rank": 236,
+    "UdListDefinitionId": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldType": "System.String",
+        "FieldLength": 563
       }
     }
   }

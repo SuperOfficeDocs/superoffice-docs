@@ -101,12 +101,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "IncludeAttachments": false
+  "Id": 343,
+  "IncludeAttachments": true
 }
 ```
 
@@ -119,156 +119,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 40,
-      "ContactName": "Jerde-Padberg",
-      "PersonId": 625,
-      "PersonName": "Watsica-Moen",
-      "AssociateId": 926,
-      "Address": "illo",
-      "EmailId": 114,
+      "ContactId": 309,
+      "ContactName": "Grant-Rohan",
+      "PersonId": 197,
+      "PersonName": "Metz Group",
+      "AssociateId": 146,
+      "Address": "et",
+      "EmailId": 596,
       "DuplicatePersonIds": [
-        360,
-        416
+        641,
+        783
       ],
-      "Name": "Towne LLC",
+      "Name": "Wilderman Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 965
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 648,
-      "ContactName": "Schinner Group",
-      "PersonId": 819,
-      "PersonName": "Ward Group",
-      "AssociateId": 548,
-      "Address": "et",
-      "EmailId": 378,
+      "ContactId": 190,
+      "ContactName": "Rosenbaum-Barton",
+      "PersonId": 138,
+      "PersonName": "Braun, Terry and Kuphal",
+      "AssociateId": 655,
+      "Address": "pariatur",
+      "EmailId": 103,
       "DuplicatePersonIds": [
-        496,
-        709
+        450,
+        365
       ],
-      "Name": "Hintz Group",
+      "Name": "Gerhold Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 137
+          "FieldType": "System.Int32",
+          "FieldLength": 941
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 98,
-      "ContactName": "Haag Group",
-      "PersonId": 655,
-      "PersonName": "Corkery-Ullrich",
-      "AssociateId": 60,
-      "Address": "nemo",
-      "EmailId": 841,
+      "ContactId": 659,
+      "ContactName": "Huel-Schneider",
+      "PersonId": 563,
+      "PersonName": "Kub Inc and Sons",
+      "AssociateId": 119,
+      "Address": "error",
+      "EmailId": 956,
       "DuplicatePersonIds": [
-        554,
-        531
+        234,
+        432
       ],
-      "Name": "Barrows LLC",
+      "Name": "Satterfield, Jewess and Connelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 809
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "placeat",
+  "Subject": "iusto",
+  "HTMLBody": "repellendus",
   "From": null,
-  "Sent": "1997-05-06T04:02:01.7373708+02:00",
-  "Size": 615,
+  "Sent": "2021-03-12T03:44:52.6052418+01:00",
+  "Size": 532,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "culpa",
-  "PlainBody": "nihil",
+  "MessageID": "iure",
+  "PlainBody": "autem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 308,
+  "ServerId": 541,
   "Attachments": [
     {
-      "Description": "Reduced stable productivity",
-      "Filename": "eum",
-      "Size": 532,
-      "Type": "dolores",
-      "Encoding": "repudiandae",
-      "Id": "pariatur",
-      "Disposition": "totam",
-      "IsSafeFileExtension": false,
+      "Description": "Enterprise-wide 24/7 synergy",
+      "Filename": "et",
+      "Size": 359,
+      "Type": "molestiae",
+      "Encoding": "quo",
+      "Id": "illum",
+      "Disposition": "aut",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldLength": 58
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Simonis-Harvey",
+      "Name": "Boehm-Gottlieb",
       "Values": [
-        "rerum",
-        "consequatur"
+        "atque",
+        "accusamus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 504
         }
       }
     },
     {
-      "Name": "Simonis-Harvey",
+      "Name": "Boehm-Gottlieb",
       "Values": [
-        "rerum",
-        "consequatur"
+        "atque",
+        "accusamus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 504
         }
       }
     }
   ],
-  "FolderName": "Marks-Gulgowski",
-  "EmailItemId": 29,
-  "AccountId": 483,
-  "ReceivedAt": "2014-02-26T04:02:01.7373708+01:00",
+  "FolderName": "Gutkowski LLC",
+  "EmailItemId": 95,
+  "AccountId": 678,
+  "ReceivedAt": "2010-02-21T03:44:52.6052418+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-07-12T04:02:01.7373708+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2009-11-26T03:44:52.6052418+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

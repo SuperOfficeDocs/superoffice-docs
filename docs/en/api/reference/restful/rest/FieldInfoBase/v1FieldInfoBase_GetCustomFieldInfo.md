@@ -71,7 +71,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Cormier, Fahey and Murphy",
-  "DisplayName": "O'Keefe, Murray and Kunze",
-  "Description": "Re-contextualized object-oriented matrix",
-  "ShortLabel": "tenetur",
-  "HideLabel": false,
-  "HideField": true,
+  "FieldName": "Jones-Pollich",
+  "DisplayName": "Gleason, Douglas and Turcotte",
+  "Description": "Organic tangible flexibility",
+  "ShortLabel": "excepturi",
+  "HideLabel": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsMandatory": true,
+  "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 133,
-  "TemplateVariableName": "Franecki Group"
+  "Rank": 725,
+  "TemplateVariableName": "Hackett-Heathcote"
 }
 ```

@@ -93,28 +93,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 309,
-  "ListItemId": 860,
+  "UdListDefinitionId": 881,
+  "ListItemId": 834,
   "UserGroups": [
     {
-      "Id": 524,
-      "Name": "Watsica, Lindgren and Durgan",
-      "ToolTip": "Ut expedita et voluptate quis.",
+      "Id": 752,
+      "Name": "Conn, Schimmel and Wolf",
+      "ToolTip": "Fugiat voluptatum molestiae asperiores nostrum qui recusandae.",
       "Deleted": false,
-      "Rank": 183,
-      "Type": "officia",
-      "ColorBlock": 440,
-      "IconHint": "magni",
-      "Selected": false,
-      "LastChanged": "1998-09-07T04:02:01.8316108+02:00",
+      "Rank": 144,
+      "Type": "cum",
+      "ColorBlock": 775,
+      "IconHint": "est",
+      "Selected": true,
+      "LastChanged": "2015-01-05T03:44:52.6989885+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minus",
-      "StyleHint": "dolorum",
+      "ExtraInfo": "qui",
+      "StyleHint": "eum",
       "Hidden": true,
-      "FullName": "Miss Casper Richmond O'Connell III"
+      "FullName": "Miss Estel Reinger II"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Jacobson, Walsh and Harvey",
-    "ToolTip": "In corporis error corrupti.",
-    "Deleted": false,
-    "Rank": 984,
+    "Id": 536,
+    "Name": "Lang LLC",
+    "ToolTip": "Atque earum sint ea deserunt et.",
+    "Deleted": true,
+    "Rank": 792,
     "Type": "sit",
-    "ColorBlock": 801,
-    "IconHint": "provident",
-    "Selected": true,
-    "LastChanged": "2007-02-23T04:02:01.8316108+01:00",
+    "ColorBlock": 934,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2010-03-09T03:44:52.6989885+01:00",
     "ChildItems": [
       {
-        "Id": 447,
-        "Name": "Corwin Inc and Sons",
-        "ToolTip": "Eaque quia error qui culpa.",
-        "Deleted": true,
-        "Rank": 854,
-        "Type": "deleniti",
-        "ColorBlock": 927,
-        "IconHint": "consequatur",
+        "Id": 830,
+        "Name": "Waters, Leuschke and Daugherty",
+        "ToolTip": "Error perspiciatis mollitia voluptatem.",
+        "Deleted": false,
+        "Rank": 453,
+        "Type": "nesciunt",
+        "ColorBlock": 811,
+        "IconHint": "illo",
         "Selected": true,
-        "LastChanged": "2010-08-20T04:02:01.8316108+02:00",
+        "LastChanged": "2008-09-23T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "unde",
-        "Hidden": false,
-        "FullName": "Ulises Lebsack",
+        "ExtraInfo": "veniam",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Ward Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 583
+            "FieldType": "System.Int32",
+            "FieldLength": 773
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "quia",
+    "ExtraInfo": "id",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ethel Satterfield",
+    "FullName": "Mrs. Jennie Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldType": "System.Int32",
+        "FieldLength": 430
       }
     }
   }

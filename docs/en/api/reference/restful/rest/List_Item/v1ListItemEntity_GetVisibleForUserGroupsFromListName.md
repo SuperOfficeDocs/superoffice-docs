@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Name": "McCullough-Stamm",
-    "ToolTip": "Minus qui assumenda voluptas.",
-    "Deleted": true,
-    "Rank": 406,
-    "Type": "consequatur",
-    "ColorBlock": 146,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2013-03-11T04:02:07.0566019+01:00",
+    "Id": 625,
+    "Name": "Huels, Greenfelder and Emmerich",
+    "ToolTip": "Facere distinctio perspiciatis officiis.",
+    "Deleted": false,
+    "Rank": 521,
+    "Type": "et",
+    "ColorBlock": 797,
+    "IconHint": "quaerat",
+    "Selected": true,
+    "LastChanged": "2002-04-27T03:44:57.8125425+02:00",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Hudson-Bartoletti",
-        "ToolTip": "Voluptatem esse eos eligendi.",
+        "Id": 228,
+        "Name": "Yost, Schowalter and Paucek",
+        "ToolTip": "A assumenda voluptas molestias iusto voluptas et.",
         "Deleted": false,
-        "Rank": 447,
-        "Type": "assumenda",
-        "ColorBlock": 12,
-        "IconHint": "maiores",
-        "Selected": false,
-        "LastChanged": "2001-02-21T04:02:07.0566019+01:00",
+        "Rank": 145,
+        "Type": "eaque",
+        "ColorBlock": 518,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2011-05-09T03:44:57.8125425+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "similique",
+        "ExtraInfo": "amet",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Chet Adah Conn II",
+        "FullName": "Robb Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 672
+            "FieldType": "System.Int32",
+            "FieldLength": 313
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Constance Reichert",
+    "ExtraInfo": "eos",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Elinor Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

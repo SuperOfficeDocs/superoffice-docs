@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=aut
-GET /api/v1/Ticket?$top=344
-GET /api/v1/Ticket?$skip=518
+GET /api/v1/Ticket?$entities=voluptatem
+GET /api/v1/Ticket?$top=878
+GET /api/v1/Ticket?$skip=706
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=ullam
+GET /api/v1/Ticket?$context=beatae
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=False
+GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "autem",
+  "odata.nextLink": "corrupti",
   "value": [
     {
-      "PrimaryKey": 8099,
-      "EntityName": "sale",
-      "saleId": 8099,
-      "contactId": 4374,
-      "name": "Rodriguez-Cruickshank"
+      "PrimaryKey": 2688,
+      "EntityName": "person",
+      "personId": 2688,
+      "fullName": "Weldon Kirlin"
     },
     {
-      "PrimaryKey": 4801,
-      "EntityName": "sale",
-      "saleId": 4801,
-      "contactId": 9115,
-      "name": "Schroeder-Witting"
+      "PrimaryKey": 16,
+      "EntityName": "person",
+      "personId": 16,
+      "fullName": "Adrien Jerde"
     }
   ]
 }

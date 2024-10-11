@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Lesch, Gutmann and Lebsack",
-    "Tooltip": "inventore",
+    "Id": 447,
+    "Name": "Nicolas, Okuneva and Lesch",
+    "Tooltip": "sed",
     "Deleted": true,
-    "UdListDefinitionId": 470,
-    "Rank": 257
+    "UdListDefinitionId": 552,
+    "Rank": 115
   },
   {
-    "Id": 373,
-    "Name": "Lesch, Gutmann and Lebsack",
-    "Tooltip": "inventore",
+    "Id": 447,
+    "Name": "Nicolas, Okuneva and Lesch",
+    "Tooltip": "sed",
     "Deleted": true,
-    "UdListDefinitionId": 470,
-    "Rank": 257
+    "UdListDefinitionId": 552,
+    "Rank": 115
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 447,
-    "Name": "Mraz, Will and Walker",
-    "Tooltip": "id",
+    "Id": 590,
+    "Name": "Monahan, Mayer and Erdman",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 760,
-    "Rank": 181,
+    "UdListDefinitionId": 467,
+    "Rank": 261,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 573
       }
     }
   }

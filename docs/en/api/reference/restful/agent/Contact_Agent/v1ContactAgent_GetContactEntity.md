@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=654
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=322
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 218,
-  "Name": "Keeling-Kessler",
+  "ContactId": 380,
+  "Name": "Murray Group",
   "Department": "",
-  "OrgNr": "1600742",
-  "Number1": "818781",
-  "Number2": "1294820",
-  "UpdatedDate": "2022-07-09T04:02:01.4561411+02:00",
-  "CreatedDate": "2022-04-12T04:02:01.4561411+02:00",
+  "OrgNr": "998178",
+  "Number1": "414008",
+  "Number2": "1076834",
+  "UpdatedDate": "1999-09-02T03:44:52.3083975+02:00",
+  "CreatedDate": "2020-01-28T03:44:52.3083975+01:00",
   "Emails": [
     {
-      "Value": "perferendis",
-      "StrippedValue": "ut",
-      "Description": "Multi-layered 24 hour open architecture",
+      "Value": "consequatur",
+      "StrippedValue": "ea",
+      "Description": "Proactive systematic throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     },
     {
-      "Value": "perferendis",
-      "StrippedValue": "ut",
-      "Description": "Multi-layered 24 hour open architecture",
+      "Value": "consequatur",
+      "StrippedValue": "ea",
+      "Description": "Proactive systematic throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 835,
-      "Name": "Mertz, Senger and Bailey",
-      "ToolTip": "Culpa numquam ratione consequuntur cumque inventore.",
+      "Id": 377,
+      "Name": "Ortiz-Prosacco",
+      "ToolTip": "Delectus non.",
       "Deleted": false,
-      "Rank": 563,
-      "Type": "et",
-      "ColorBlock": 948,
-      "IconHint": "repellendus",
+      "Rank": 741,
+      "Type": "est",
+      "ColorBlock": 783,
+      "IconHint": "repellat",
       "Selected": false,
-      "LastChanged": "2018-11-28T04:02:01.4561411+01:00",
+      "LastChanged": "2006-08-23T03:44:52.3083975+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "reiciendis",
+      "ExtraInfo": "maxime",
+      "StyleHint": "nulla",
       "Hidden": false,
-      "FullName": "Kurt Skiles",
+      "FullName": "Mr. Jerome Flatley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 194
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "aut",
-      "StrippedValue": "placeat",
-      "Description": "Balanced hybrid flexibility",
+      "Value": "reiciendis",
+      "StrippedValue": "repellat",
+      "Description": "Team-oriented tangible core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 305
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "placeat",
-      "Description": "Balanced hybrid flexibility",
+      "Value": "reiciendis",
+      "StrippedValue": "repellat",
+      "Description": "Team-oriented tangible core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 305
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "repellendus",
-      "StrippedValue": "provident",
-      "Description": "Decentralized optimizing Graphical User Interface",
+      "Value": "quos",
+      "StrippedValue": "animi",
+      "Description": "Digitized clear-thinking support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldType": "System.Int32",
+          "FieldLength": 799
         }
       }
     },
     {
-      "Value": "repellendus",
-      "StrippedValue": "provident",
-      "Description": "Decentralized optimizing Graphical User Interface",
+      "Value": "quos",
+      "StrippedValue": "animi",
+      "Description": "Digitized clear-thinking support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldType": "System.Int32",
+          "FieldLength": 799
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "error",
-      "StrippedValue": "qui",
-      "Description": "Focused systemic utilisation",
+      "Value": "debitis",
+      "StrippedValue": "amet",
+      "Description": "Multi-layered uniform attitude",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 257
         }
       }
     },
     {
-      "Value": "error",
-      "StrippedValue": "qui",
-      "Description": "Focused systemic utilisation",
+      "Value": "debitis",
+      "StrippedValue": "amet",
+      "Description": "Multi-layered uniform attitude",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 257
         }
       }
     }
   ],
-  "Description": "Integrated radical orchestration",
+  "Description": "Stand-alone bottom-line archive",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "totam",
-      "PersonId": 777,
-      "Mrmrs": "et",
-      "Firstname": "Stephanie",
-      "Lastname": "Simonis",
-      "MiddleName": "Thiel-Parker",
-      "Title": "labore",
-      "Description": "Grass-roots tertiary protocol",
-      "Email": "terrence@gerhold.name",
-      "FullName": "Theresia Kunze",
-      "DirectPhone": "1-240-062-0459",
-      "FormalName": "Gutkowski, Rohan and Schuster",
-      "CountryId": 638,
-      "ContactId": 649,
-      "ContactName": "Lubowitz Inc and Sons",
-      "Retired": 655,
-      "Rank": 828,
-      "ActiveInterests": 486,
+      "Position": "omnis",
+      "PersonId": 525,
+      "Mrmrs": "sint",
+      "Firstname": "Earlene",
+      "Lastname": "Predovic",
+      "MiddleName": "Crist, Williamson and Senger",
+      "Title": "nemo",
+      "Description": "Horizontal disintermediate focus group",
+      "Email": "ezra_reinger@koepp.co.uk",
+      "FullName": "Megane Schmeler",
+      "DirectPhone": "129.720.3965 x0843",
+      "FormalName": "Connelly-Gutmann",
+      "CountryId": 305,
+      "ContactId": 775,
+      "ContactName": "Schinner, Cremin and Beahan",
+      "Retired": 165,
+      "Rank": 130,
+      "ActiveInterests": 975,
       "ContactDepartment": "",
-      "ContactCountryId": 676,
-      "ContactOrgNr": "655287",
-      "FaxPhone": "(350)214-1815 x2836",
-      "MobilePhone": "071-271-1893 x77325",
-      "ContactPhone": "(875)170-2746",
-      "AssociateName": "Quigley-Gulgowski",
-      "AssociateId": 48,
-      "UsePersonAddress": false,
-      "ContactFax": "qui",
-      "Kanafname": "aperiam",
-      "Kanalname": "et",
-      "Post1": "voluptatibus",
-      "Post2": "omnis",
-      "Post3": "facilis",
-      "EmailName": "crystel_schimmel@botsfordmaggio.biz",
-      "ContactFullName": "Mrs. Jude Eula Lindgren",
-      "ActiveErpLinks": 260,
-      "TicketPriorityId": 117,
-      "SupportLanguageId": 402,
-      "SupportAssociateId": 79,
+      "ContactCountryId": 672,
+      "ContactOrgNr": "327631",
+      "FaxPhone": "744-166-4088 x00267",
+      "MobilePhone": "(005)145-0081",
+      "ContactPhone": "(288)414-1969",
+      "AssociateName": "Jacobi LLC",
+      "AssociateId": 261,
+      "UsePersonAddress": true,
+      "ContactFax": "impedit",
+      "Kanafname": "atque",
+      "Kanalname": "debitis",
+      "Post1": "voluptas",
+      "Post2": "sed",
+      "Post3": "harum",
+      "EmailName": "dakota_kiehn@legros.uk",
+      "ContactFullName": "Tyra Goyette",
+      "ActiveErpLinks": 373,
+      "TicketPriorityId": 515,
+      "SupportLanguageId": 847,
+      "SupportAssociateId": 129,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldType": "System.String",
+          "FieldLength": 618
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "et",
+  "Kananame": "qui",
   "Xstop": false,
-  "ActiveInterests": 158,
-  "GroupId": 253,
-  "ActiveStatusMonitorId": 376,
+  "ActiveInterests": 495,
+  "GroupId": 396,
+  "ActiveStatusMonitorId": 998,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 592,
-  "DbiAgentId": 410,
-  "DbiLastSyncronized": "2019-03-19T04:02:01.4561411+01:00",
-  "DbiKey": "voluptatem",
-  "DbiLastModified": "2019-04-22T04:02:01.4561411+02:00",
+  "Deleted": 139,
+  "DbiAgentId": 980,
+  "DbiLastSyncronized": "2001-04-14T03:44:52.3083975+02:00",
+  "DbiKey": "fugiat",
+  "DbiLastModified": "2018-12-18T03:44:52.3083975+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 743,
-  "ActiveErpLinks": 519,
+  "Source": 858,
+  "ActiveErpLinks": 726,
   "BounceEmails": [
-    "rhett@turner.name",
-    "delbert@braunkreiger.name"
+    "ara@heathcote.name",
+    "carlos_schmidt@veum.uk"
   ],
   "Domains": [
-    "incidunt",
-    "maxime"
+    "repudiandae",
+    "ipsam"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Dr. Lonzo Homenick Jr.",
+    "SuperOffice:2": "Durward Okey Willms DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "quod"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "quo"
+    "CustomFields1": "qui",
+    "CustomFields2": "suscipit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldLength": 863
     }
   }
 }

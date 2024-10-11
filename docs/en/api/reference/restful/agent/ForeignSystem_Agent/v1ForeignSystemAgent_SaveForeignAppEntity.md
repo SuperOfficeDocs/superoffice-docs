@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 305,
-  "Name": "Mueller-Hyatt",
-  "CreatedDate": "2006-04-25T04:02:01.7888547+02:00",
-  "UpdatedDate": "2005-01-13T04:02:01.7888547+01:00",
+  "ForeignAppId": 754,
+  "Name": "Adams Group",
+  "CreatedDate": "2015-04-30T03:44:52.6364852+02:00",
+  "UpdatedDate": "2013-07-25T03:44:52.6364852+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 498,
-      "Name": "Pfeffer-Harvey",
-      "CreatedDate": "2010-07-30T04:02:01.7888547+02:00",
-      "UpdatedDate": "2011-02-07T04:02:01.7888547+01:00",
-      "AssociateFullName": "Ms. Mollie Caterina Ritchie",
-      "CreatedBy": "sed",
-      "UpdatedBy": "sed",
-      "DeviceIdentifier": "maxime",
-      "ForeignAppId": 989
+      "ForeignDeviceId": 827,
+      "Name": "Wunsch-Collier",
+      "CreatedDate": "2016-10-20T03:44:52.6364852+02:00",
+      "UpdatedDate": "1999-02-05T03:44:52.6364852+01:00",
+      "AssociateFullName": "Eda Gus Lemke MD",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "amet",
+      "ForeignAppId": 819
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 860,
-  "Name": "Fadel, Franecki and Romaguera",
-  "CreatedDate": "1998-10-27T04:02:01.7888547+01:00",
-  "UpdatedDate": "2006-12-12T04:02:01.7888547+01:00",
+  "ForeignAppId": 555,
+  "Name": "Conroy LLC",
+  "CreatedDate": "2001-02-13T03:44:52.6364852+01:00",
+  "UpdatedDate": "2006-05-03T03:44:52.6364852+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 629,
-      "Name": "Klein, Pollich and Hammes",
-      "CreatedDate": "2005-02-21T04:02:01.7888547+01:00",
-      "UpdatedDate": "2008-04-19T04:02:01.7888547+02:00",
-      "AssociateFullName": "Dave Bartoletti",
-      "CreatedBy": "maiores",
-      "UpdatedBy": "rem",
-      "DeviceIdentifier": "magnam",
-      "ForeignAppId": 774,
+      "ForeignDeviceId": 194,
+      "Name": "Grady, Nikolaus and O'Hara",
+      "CreatedDate": "2014-05-26T03:44:52.6364852+02:00",
+      "UpdatedDate": "1999-01-07T03:44:52.6364852+01:00",
+      "AssociateFullName": "Ms. Madison Becker PhD",
+      "CreatedBy": "minus",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "facilis",
+      "ForeignAppId": 192,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 590
+          "FieldType": "System.String",
+          "FieldLength": 210
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldType": "System.String",
+      "FieldLength": 55
     }
   }
 }

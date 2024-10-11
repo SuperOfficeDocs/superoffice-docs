@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Mills Inc and Sons",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "UdListDefinitionId": 543,
-  "Rank": 567,
+  "Id": 522,
+  "Name": "Kuhlman, Bosco and Nicolas",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "UdListDefinitionId": 936,
+  "Rank": 208,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 274
     }
   }
 }

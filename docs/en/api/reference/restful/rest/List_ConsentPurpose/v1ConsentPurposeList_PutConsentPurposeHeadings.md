@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 207,
-    "Name": "Heaney Group",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 901,
-    "UdListDefinitionId": 50
+    "HeadingId": 479,
+    "Name": "Stroman LLC",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 513,
+    "UdListDefinitionId": 195
   },
   {
-    "HeadingId": 207,
-    "Name": "Heaney Group",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 901,
-    "UdListDefinitionId": 50
+    "HeadingId": 479,
+    "Name": "Stroman LLC",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 513,
+    "UdListDefinitionId": 195
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 457,
-    "Name": "Berge Inc and Sons",
-    "Tooltip": "alias",
+    "HeadingId": 943,
+    "Name": "Conroy Group",
+    "Tooltip": "ipsam",
     "Deleted": false,
-    "Rank": 848,
-    "UdListDefinitionId": 794,
+    "Rank": 687,
+    "UdListDefinitionId": 214,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 636
       }
     }
   }

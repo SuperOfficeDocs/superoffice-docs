@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Maggio-Rempel",
-    "Tooltip": "totam",
+    "Id": 851,
+    "Name": "Murray-Bernhard",
+    "Tooltip": "quos",
     "Deleted": false,
-    "UdListDefinitionId": 679,
-    "Rank": 666
+    "UdListDefinitionId": 492,
+    "Rank": 394
   },
   {
-    "Id": 642,
-    "Name": "Maggio-Rempel",
-    "Tooltip": "totam",
+    "Id": 851,
+    "Name": "Murray-Bernhard",
+    "Tooltip": "quos",
     "Deleted": false,
-    "UdListDefinitionId": 679,
-    "Rank": 666
+    "UdListDefinitionId": 492,
+    "Rank": 394
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Pfeffer-Skiles",
-    "Tooltip": "occaecati",
-    "Deleted": true,
-    "UdListDefinitionId": 784,
-    "Rank": 521,
+    "Id": 534,
+    "Name": "Pacocha-Bayer",
+    "Tooltip": "voluptates",
+    "Deleted": false,
+    "UdListDefinitionId": 234,
+    "Rank": 308,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldType": "System.Int32",
+        "FieldLength": 937
       }
     }
   }

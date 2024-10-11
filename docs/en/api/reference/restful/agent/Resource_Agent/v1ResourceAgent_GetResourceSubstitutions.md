@@ -83,10 +83,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Maggio-Funk",
-    "Hermiston Inc and Sons"
+    "Friesen, Berge and Carroll",
+    "Gerlach, Hickle and Rolfson"
   ],
-  "Culture": "odio",
+  "Culture": "id",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Dicki-Halvorson",
-    "ResourceValue": "quibusdam",
-    "Culture": "voluptas",
-    "IsActive": false,
+    "ResourceName": "King, Runolfsson and Adams",
+    "ResourceValue": "ut",
+    "Culture": "ratione",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldLength": 76
       }
     }
   },
   {
-    "ResourceName": "Dicki-Halvorson",
-    "ResourceValue": "quibusdam",
-    "Culture": "voluptas",
-    "IsActive": false,
+    "ResourceName": "King, Runolfsson and Adams",
+    "ResourceValue": "ut",
+    "Culture": "ratione",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldLength": 76
       }
     }
   }

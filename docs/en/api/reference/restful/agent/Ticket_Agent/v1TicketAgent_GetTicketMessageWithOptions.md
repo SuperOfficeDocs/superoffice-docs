@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 651,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 943,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 882,
+  "EjMessageId": 462,
   "Ticket": null,
-  "CreatedAt": "2004-09-18T04:02:02.3629998+02:00",
+  "CreatedAt": "2002-03-19T03:44:53.2310227+01:00",
   "CreatedBy": null,
-  "Author": "neque",
+  "Author": "culpa",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quos",
-  "TimeSpent": 494,
-  "Body": "alias",
-  "HtmlBody": "nesciunt",
-  "EmailHeader": "mariah.murphy@luettgenemard.name",
-  "DebugInfo": "aliquam",
-  "MailSorter": "alias",
+  "MessageId": "mollitia",
+  "TimeSpent": 330,
+  "Body": "aspernatur",
+  "HtmlBody": "repellendus",
+  "EmailHeader": "verdie.reichert@hickle.com",
+  "DebugInfo": "blanditiis",
+  "MailSorter": "nihil",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quia",
+  "SearchTitle": "illum",
   "MessageHeaders": [
     {
-      "Id": 868,
-      "Name": "Murray, Lind and Collier",
-      "Value": "rem",
+      "Id": 548,
+      "Name": "Stracke, Hartmann and Lubowitz",
+      "Value": "veritatis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldType": "System.String",
+          "FieldLength": 608
         }
       }
     }
   ],
   "Important": false,
-  "Language": "ea",
-  "Sentiment": 332,
-  "SentimentConfidence": 770,
+  "Language": "hic",
+  "Sentiment": 567,
+  "SentimentConfidence": 764,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 954,
-      "Name": "Smith LLC",
-      "ContentType": "eos",
-      "AttSize": 557,
+      "AttachmentId": 43,
+      "Name": "McClure-Towne",
+      "ContentType": "et",
+      "AttSize": 507,
       "InlineImage": true,
-      "ContentId": "quas",
-      "AuthKey": "inventore",
-      "IsSafeFileExtension": false,
+      "ContentId": "ex",
+      "AuthKey": "et",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 587
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "et"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "quaerat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldLength": 71
     }
   }
 }

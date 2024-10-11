@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 496,
+  "TargetAssignmentInfoId": 687,
   "Values": [
-    177,
-    227
+    821,
+    296
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 970,
-  "DimensionListItemDisplayName": "Ledner, Von and O'Conner",
+  "DimensionListItem": 942,
+  "DimensionListItemDisplayName": "Raynor-Donnelly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 95
     }
   }
 }

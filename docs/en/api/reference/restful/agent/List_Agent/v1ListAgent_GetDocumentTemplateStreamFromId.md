@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 880,
-  "LanguageCode": "rerum"
+  "DocumentTemplateId": 966,
+  "LanguageCode": "ullam"
 }
 ```
 

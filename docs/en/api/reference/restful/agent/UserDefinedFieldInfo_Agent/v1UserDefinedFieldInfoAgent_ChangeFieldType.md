@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": false
+  "IsIndexed": true
 }
 ```
 
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 753,
-  "ColumnId": 220,
-  "FieldDefault": "optio",
-  "FieldHeight": 858,
-  "FieldLabel": "ducimus",
-  "FieldLeft": 384,
-  "FieldTop": 23,
+  "UDefFieldId": 70,
+  "ColumnId": 494,
+  "FieldDefault": "totam",
+  "FieldHeight": 313,
+  "FieldLabel": "maiores",
+  "FieldLeft": 474,
+  "FieldTop": 68,
   "FieldType": "Checkbox",
-  "FieldWidth": 812,
-  "FormatMask": "illo",
+  "FieldWidth": 255,
+  "FormatMask": "delectus",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 542,
-  "LabelLeft": 98,
-  "LabelTop": 798,
-  "LabelWidth": 983,
-  "LastVersionId": 461,
-  "ListTableId": 67,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 980,
+  "LabelLeft": 653,
+  "LabelTop": 682,
+  "LabelWidth": 345,
+  "LastVersionId": 312,
+  "ListTableId": 431,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 969,
-  "ProgId": "nemo",
+  "Page1LineNo": 921,
+  "ProgId": "aliquam",
   "IsReadOnly": false,
-  "ShortLabel": "occaecati",
-  "TabOrder": 698,
-  "TextLength": 629,
-  "Tooltip": "eum",
-  "UdefIdentity": 2,
-  "UDListDefinitionId": 133,
+  "ShortLabel": "qui",
+  "TabOrder": 733,
+  "TextLength": 660,
+  "Tooltip": "non",
+  "UdefIdentity": 627,
+  "UDListDefinitionId": 610,
   "Justification": "Center",
-  "Version": 986,
-  "TemplateVariableName": "Heidenreich Inc and Sons",
+  "Version": 136,
+  "TemplateVariableName": "Farrell Group",
   "HasBeenPublished": false,
-  "MdoListName": "Gorczany, Trantow and Mraz",
+  "MdoListName": "Will-Zboncak",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldLength": 711
     }
   }
 }

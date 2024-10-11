@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 344,
-    "Name": "Rutherford, Schneider and Gerlach",
-    "Tooltip": "ipsa",
+    "HeadingId": 502,
+    "Name": "Denesik Inc and Sons",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 156,
-    "UdListDefinitionId": 475,
+    "Rank": 259,
+    "UdListDefinitionId": 807,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldType": "System.String",
+        "FieldLength": 132
       }
     }
   }

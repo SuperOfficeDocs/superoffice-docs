@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Feeney, Rippin and Bogan",
+  "TableName": "Morar, Kohler and Kshlerin",
   "IncludeStandard": false
 }
 ```
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Heller Group",
-    "DisplayName": "Shields-Lakin",
-    "Description": "Proactive context-sensitive system engine",
-    "ShortLabel": "et",
+    "FieldName": "Greenholt Group",
+    "DisplayName": "Boehm LLC",
+    "Description": "Up-sized intermediate utilisation",
+    "ShortLabel": "modi",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 860,
-    "TemplateVariableName": "Johns-Pfannerstill"
+    "Rank": 893,
+    "TemplateVariableName": "Eichmann-Ullrich"
   }
 ]
 ```

@@ -113,52 +113,52 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 791,
+  "EjscriptId": 648,
   "UniqueIdentifier": "est",
-  "Name": "Ratke Inc and Sons",
-  "Description": "Open-architected web-enabled productivity",
-  "IncludeId": "odit",
-  "AccessKey": "necessitatibus",
-  "HierarchyId": 414,
-  "Source": "maiores",
-  "SourceCode": "voluptas",
+  "Name": "Cummings, Prohaska and Price",
+  "Description": "Innovative attitude-oriented leverage",
+  "IncludeId": "sint",
+  "AccessKey": "aut",
+  "HierarchyId": 978,
+  "Source": "laboriosam",
+  "SourceCode": "et",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 495,
+  "HtmlOutput": 70,
   "Includes": [
-    88,
-    579
+    94,
+    422
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 971,
-      "LineNumberTo": 938,
-      "Delta": 892,
-      "IncludeId": "perspiciatis",
+      "LineNumberFrom": 991,
+      "LineNumberTo": 79,
+      "Delta": 889,
+      "IncludeId": "rerum",
       "IncludedFrom": [
-        "qui",
-        "et"
+        "ea",
+        "sequi"
       ]
     },
     {
-      "LineNumberFrom": 971,
-      "LineNumberTo": 938,
-      "Delta": 892,
-      "IncludeId": "perspiciatis",
+      "LineNumberFrom": 991,
+      "LineNumberTo": 79,
+      "Delta": 889,
+      "IncludeId": "rerum",
       "IncludedFrom": [
-        "qui",
-        "et"
+        "ea",
+        "sequi"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2011-01-28T04:02:06.4472912+01:00",
-  "RegisteredAssociateId": 581,
-  "Updated": "2017-01-15T04:02:06.4472912+01:00",
-  "UpdatedAssociateId": 831
+  "Registered": "2021-05-25T03:44:57.2028009+02:00",
+  "RegisteredAssociateId": 146,
+  "Updated": "2013-05-08T03:44:57.2028009+02:00",
+  "UpdatedAssociateId": 75
 }
 ```
 
@@ -169,52 +169,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 333,
-  "UniqueIdentifier": "quia",
-  "Name": "Renner LLC",
-  "Description": "Configurable 4th generation conglomeration",
-  "IncludeId": "nemo",
-  "AccessKey": "voluptate",
-  "HierarchyId": 74,
-  "Source": "autem",
-  "SourceCode": "quia",
+  "EjscriptId": 923,
+  "UniqueIdentifier": "animi",
+  "Name": "Cremin LLC",
+  "Description": "Adaptive analyzing conglomeration",
+  "IncludeId": "aut",
+  "AccessKey": "in",
+  "HierarchyId": 864,
+  "Source": "et",
+  "SourceCode": "itaque",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 23,
+  "HtmlOutput": 462,
   "Includes": [
-    225,
-    755
+    925,
+    308
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 223,
-      "LineNumberTo": 959,
-      "Delta": 498,
-      "IncludeId": "sit",
+      "LineNumberFrom": 140,
+      "LineNumberTo": 811,
+      "Delta": 655,
+      "IncludeId": "et",
       "IncludedFrom": [
-        "ut",
-        "doloremque"
+        "molestias",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldType": "System.Int32",
+          "FieldLength": 633
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "1998-06-21T04:02:06.4472912+02:00",
-  "RegisteredAssociateId": 496,
-  "Updated": "1999-05-12T04:02:06.4472912+02:00",
-  "UpdatedAssociateId": 613,
+  "Registered": "2005-02-21T03:44:57.2028009+01:00",
+  "RegisteredAssociateId": 742,
+  "Updated": "2022-06-25T03:44:57.2028009+02:00",
+  "UpdatedAssociateId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldLength": 584
     }
   },
   "_Links": {

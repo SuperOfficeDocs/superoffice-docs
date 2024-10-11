@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Vandervort Group",
-    "ToolTip": "Ducimus minima hic iusto architecto error rerum nisi.",
-    "Deleted": false,
-    "Rank": 329,
-    "Type": "iste",
-    "ColorBlock": 411,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "1999-02-14T04:02:07.3534465+01:00",
+    "Id": 207,
+    "Name": "Buckridge Group",
+    "ToolTip": "Et a totam officia nihil at est.",
+    "Deleted": true,
+    "Rank": 689,
+    "Type": "explicabo",
+    "ColorBlock": 61,
+    "IconHint": "laboriosam",
+    "Selected": true,
+    "LastChanged": "2023-03-24T03:44:58.0937233+01:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Leannon-Ziemann",
-        "ToolTip": "Enim natus ut aliquam.",
-        "Deleted": false,
-        "Rank": 449,
-        "Type": "quae",
-        "ColorBlock": 65,
-        "IconHint": "consequatur",
+        "Id": 638,
+        "Name": "Koepp, O'Connell and Mills",
+        "ToolTip": "Quas sed aliquid.",
+        "Deleted": true,
+        "Rank": 700,
+        "Type": "explicabo",
+        "ColorBlock": 906,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "1998-03-26T04:02:07.3534465+01:00",
+        "LastChanged": "2018-07-04T03:44:58.0937233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "omnis",
+        "ExtraInfo": "nihil",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Haleigh Schumm",
+        "FullName": "Richie Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 645
+            "FieldType": "System.Int32",
+            "FieldLength": 321
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Miss Ettie Ryan",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Enoch Wilber Kirlin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 790
+        "FieldType": "System.Int32",
+        "FieldLength": 174
       }
     }
   }

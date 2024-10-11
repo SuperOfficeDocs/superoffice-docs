@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Greenfelder, Morar and Jacobs",
-  "Comment": "quos",
-  "StakeholderRoleId": 549,
-  "CountryId": 545,
-  "PersonId": 290,
-  "EmailDescription": "mitchel@schuster.ca",
-  "EmailId": 130,
-  "EmailAddress": "kamryn@lang.us",
-  "PhoneId": 134,
-  "ContactName": "Lesch-Bruen",
-  "ContactId": 68,
-  "SaleId": 968,
-  "Mrmrs": "exercitationem",
-  "Firstname": "Maureen",
-  "MiddleName": "Gibson, Sauer and Zulauf",
-  "Lastname": "Cruickshank",
-  "SaleStakeholderId": 725,
-  "Rank": 135,
-  "Phone": "1-257-138-1246 x7936",
+  "StakeholderRoleName": "Reilly, Rowe and Reinger",
+  "Comment": "quia",
+  "StakeholderRoleId": 74,
+  "CountryId": 630,
+  "PersonId": 51,
+  "EmailDescription": "emilie@blanda.ca",
+  "EmailId": 707,
+  "EmailAddress": "wava@adamsvon.com",
+  "PhoneId": 272,
+  "ContactName": "Braun, Stark and Wyman",
+  "ContactId": 115,
+  "SaleId": 534,
+  "Mrmrs": "harum",
+  "Firstname": "Art",
+  "MiddleName": "Greenfelder LLC",
+  "Lastname": "Feest",
+  "SaleStakeholderId": 320,
+  "Rank": 815,
+  "Phone": "1-103-910-4224",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 216
     }
   }
 }

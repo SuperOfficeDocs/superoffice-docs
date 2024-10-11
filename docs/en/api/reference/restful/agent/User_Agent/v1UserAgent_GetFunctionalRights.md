@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 997
+  "RoleId": 411
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Stamm-Windler",
-    "ToolTip": "Modi excepturi exercitationem sed sunt quis nemo.",
+    "Id": 886,
+    "Name": "Wilderman-Heathcote",
+    "ToolTip": "Non unde quidem.",
     "Deleted": false,
-    "Rank": 298,
-    "Type": "eum",
-    "ColorBlock": 855,
-    "IconHint": "praesentium",
+    "Rank": 203,
+    "Type": "architecto",
+    "ColorBlock": 83,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2013-06-15T04:02:02.5353524+02:00",
+    "LastChanged": "2013-01-06T03:44:53.4029931+01:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Mante, Skiles and Lakin",
-        "ToolTip": "Ullam ut laudantium beatae adipisci.",
-        "Deleted": true,
-        "Rank": 275,
-        "Type": "ut",
-        "ColorBlock": 308,
-        "IconHint": "blanditiis",
+        "Id": 515,
+        "Name": "Runolfsdottir, Shanahan and Crooks",
+        "ToolTip": "Quisquam inventore non enim rerum sapiente.",
+        "Deleted": false,
+        "Rank": 969,
+        "Type": "aperiam",
+        "ColorBlock": 684,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2006-10-19T04:02:02.5353524+02:00",
+        "LastChanged": "2006-08-12T03:44:53.4029931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "illo",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Derrick Hoppe",
+        "FullName": "Gail Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 96
+            "FieldType": "System.Int32",
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "neque",
-    "Hidden": true,
-    "FullName": "Davion Rice",
+    "ExtraInfo": "dolores",
+    "StyleHint": "optio",
+    "Hidden": false,
+    "FullName": "Ebba Klein V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldLength": 32
       }
     }
   }

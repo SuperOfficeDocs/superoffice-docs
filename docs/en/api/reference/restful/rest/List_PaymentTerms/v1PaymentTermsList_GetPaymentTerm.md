@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 33,
-  "Name": "Strosin LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 126,
-  "Rank": 475,
+  "Id": 312,
+  "Name": "Kessler LLC",
+  "Tooltip": "veniam",
+  "Deleted": false,
+  "UdListDefinitionId": 877,
+  "Rank": 318,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldLength": 800
     }
   }
 }

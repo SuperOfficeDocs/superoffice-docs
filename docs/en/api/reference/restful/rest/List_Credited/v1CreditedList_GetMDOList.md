@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=sint
+GET /api/v1/List/Credited/MDOItems?query=eos
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Jaskolski Inc and Sons",
-    "ToolTip": "Qui consequuntur.",
+    "Id": 100,
+    "Name": "Tromp, Mills and Schaefer",
+    "ToolTip": "Voluptas quisquam necessitatibus neque officiis et.",
     "Deleted": false,
-    "Rank": 497,
-    "Type": "adipisci",
+    "Rank": 633,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 389,
-        "Name": "Strosin, McGlynn and Kling",
-        "ToolTip": "Ab est nihil.",
-        "Deleted": false,
-        "Rank": 623,
-        "Type": "a",
+        "Id": 420,
+        "Name": "Bernhard-McDermott",
+        "ToolTip": "Sit distinctio fuga explicabo tempore porro.",
+        "Deleted": true,
+        "Rank": 946,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 813,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "maiores",
-        "FullName": "Howard McKenzie",
+        "IconHint": "iste",
+        "ColorBlock": 38,
+        "ExtraInfo": "ab",
+        "StyleHint": "dolor",
+        "FullName": "Hillary Raegan Quigley Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 754
+            "FieldLength": 769
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 2,
-    "ExtraInfo": "ut",
-    "StyleHint": "ipsum",
-    "FullName": "Tressa Cassidy Walter III",
+    "IconHint": "repellendus",
+    "ColorBlock": 325,
+    "ExtraInfo": "eum",
+    "StyleHint": "blanditiis",
+    "FullName": "Jameson Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   }

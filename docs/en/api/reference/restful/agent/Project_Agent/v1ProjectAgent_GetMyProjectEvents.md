@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Jason Willa Ernser Jr.",
-    "Description": "Centralized contextually-based parallelism",
-    "ProjectId": 958,
-    "EventName": "Huel-Barrows",
-    "AssociateId": 179,
+    "AssociateFullName": "Katelyn Greenfelder",
+    "Description": "Visionary stable interface",
+    "ProjectId": 267,
+    "EventName": "Haag Inc and Sons",
+    "AssociateId": 999,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "omnis",
-    "SignOffText": "quo",
-    "SignOnConfirmationText": "minus",
-    "SignOnText": "qui",
-    "EventDate": "2000-09-18T04:02:02.1597135+02:00",
-    "Enabled": false,
+    "SignOffConfirmationText": "veniam",
+    "SignOffText": "qui",
+    "SignOnConfirmationText": "molestias",
+    "SignOnText": "officia",
+    "EventDate": "2000-05-02T03:44:53.0114471+02:00",
+    "Enabled": true,
     "SignOff": true,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
     "SignOn": false,
-    "SignOffTaskId": 33,
-    "SignOnTaskId": 277,
+    "SignOffTaskId": 676,
+    "SignOnTaskId": 713,
     "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 678,
-    "SignOffPersonId": 430,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 924,
+    "SignOffPersonId": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 387
       }
     }
   }

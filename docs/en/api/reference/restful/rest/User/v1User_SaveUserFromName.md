@@ -117,18 +117,18 @@ OK
 PUT /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 768,
-  "Name": "Leannon, Greenfelder and Rodriguez",
-  "Rank": 924,
-  "Tooltip": "sed",
+  "AssociateId": 948,
+  "Name": "Nienow, Goldner and Gerlach",
+  "Rank": 302,
+  "Tooltip": "in",
   "LicenseOwners": [
     {
-      "Name": "Murphy Group",
-      "Description": "Networked bottom-line Graphical User Interface",
+      "Name": "Cummerata-Stroman",
+      "Description": "Profit-focused encompassing help-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Murphy Group",
-      "Description": "Networked bottom-line Graphical User Interface",
+      "Name": "Cummerata-Stroman",
+      "Description": "Profit-focused encompassing help-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,87 +155,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quia",
-      "Tooltip": "aperiam",
-      "Id": 391,
-      "Rank": 19,
+      "Value": "et",
+      "Tooltip": "ut",
+      "Id": 972,
+      "Rank": 427,
       "Deleted": false
     },
     {
-      "Value": "quia",
-      "Tooltip": "aperiam",
-      "Id": 391,
-      "Rank": 19,
+      "Value": "et",
+      "Tooltip": "ut",
+      "Id": 972,
+      "Rank": 427,
       "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2024-05-17T04:02:07.0253551+02:00",
-  "Lastlogout": "2014-09-19T04:02:07.0253551+02:00",
-  "EjUserId": 943,
-  "RequestSignature": "sit",
+  "Lastlogin": "1999-02-03T03:44:57.7812958+01:00",
+  "Lastlogout": "2014-07-06T03:44:57.7812958+02:00",
+  "EjUserId": 86,
+  "RequestSignature": "quam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "mollitia",
-      "DisplayValue": "eius"
+      "Value": "vel",
+      "DisplayValue": "consequatur"
     },
     {
       "Type": null,
-      "Value": "mollitia",
-      "DisplayValue": "eius"
+      "Value": "vel",
+      "DisplayValue": "consequatur"
     }
   ],
-  "UserName": "Gorczany-Moore",
+  "UserName": "Lemke, Ratke and Leannon",
   "TicketCategories": [
     {
-      "Id": 502,
-      "Name": "Stanton-Abbott",
-      "ToolTip": "Sapiente sit.",
+      "Id": 161,
+      "Name": "Rice LLC",
+      "ToolTip": "Velit et laborum quibusdam dolorum vel voluptatum.",
       "Deleted": true,
-      "Rank": 242,
-      "Type": "qui",
+      "Rank": 217,
+      "Type": "distinctio",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "est",
-      "ColorBlock": 805,
-      "ExtraInfo": "qui",
-      "StyleHint": "maiores",
-      "FullName": "Koby White"
+      "ColorBlock": 175,
+      "ExtraInfo": "est",
+      "StyleHint": "corrupti",
+      "FullName": "Mariano Mante DVM"
     }
   ],
-  "NickName": "Runolfsson, Reichert and Smitham",
-  "WaitingForApproval": false,
+  "NickName": "Schuster, Stokes and McCullough",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "error",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "et"
+    "CustomFields1": "neque",
+    "CustomFields2": "rerum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Mann-Huels",
-      "DisplayName": "Dicki LLC",
-      "Description": "Devolved dedicated customer loyalty",
-      "ToolTip": "Cumque quis sapiente inventore modi consequatur.",
+      "Name": "Kling-Harber",
+      "DisplayName": "Pfeffer-Schmitt",
+      "Description": "Diverse zero defect knowledge user",
+      "ToolTip": "Facere id.",
       "Actions": "Implicit",
-      "ActionData": "eius"
+      "ActionData": "rem"
     },
     {
-      "Name": "Mann-Huels",
-      "DisplayName": "Dicki LLC",
-      "Description": "Devolved dedicated customer loyalty",
-      "ToolTip": "Cumque quis sapiente inventore modi consequatur.",
+      "Name": "Kling-Harber",
+      "DisplayName": "Pfeffer-Schmitt",
+      "Description": "Diverse zero defect knowledge user",
+      "ToolTip": "Facere id.",
       "Actions": "Implicit",
-      "ActionData": "eius"
+      "ActionData": "rem"
     }
   ]
 }
@@ -248,14 +248,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 894,
-  "Name": "Reynolds-Cassin",
-  "Rank": 65,
-  "Tooltip": "quia",
+  "AssociateId": 709,
+  "Name": "Marquardt LLC",
+  "Rank": 315,
+  "Tooltip": "assumenda",
   "LicenseOwners": [
     {
-      "Name": "Hilll-Franecki",
-      "Description": "Streamlined client-driven collaboration",
+      "Name": "Barrows LLC",
+      "Description": "Cross-group grid-enabled concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -268,14 +268,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 67
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     },
     {
-      "Name": "Hilll-Franecki",
-      "Description": "Streamlined client-driven collaboration",
+      "Name": "Barrows LLC",
+      "Description": "Cross-group grid-enabled concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -288,8 +288,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 67
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     }
@@ -298,110 +298,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "vel",
-      "Tooltip": "incidunt",
-      "Id": 588,
-      "Rank": 775,
-      "Deleted": false,
+      "Value": "id",
+      "Tooltip": "sapiente",
+      "Id": 67,
+      "Rank": 344,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 988
+          "FieldType": "System.String",
+          "FieldLength": 39
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2021-12-16T04:02:07.0253551+01:00",
-  "Lastlogout": "2005-11-10T04:02:07.0253551+01:00",
-  "EjUserId": 351,
-  "RequestSignature": "voluptatem",
+  "Lastlogin": "2017-09-19T03:44:57.7812958+02:00",
+  "Lastlogout": "2021-07-10T03:44:57.7812958+02:00",
+  "EjUserId": 979,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "commodi",
-      "DisplayValue": "quia",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "commodi",
-      "DisplayValue": "quia",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
-        }
-      }
-    }
-  ],
-  "UserName": "Kub-Stiedemann",
-  "TicketCategories": [
-    {
-      "Id": 90,
-      "Name": "Stoltenberg Group",
-      "ToolTip": "Enim et omnis ut ut.",
-      "Deleted": false,
-      "Rank": 348,
-      "Type": "a",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "eum",
-      "ColorBlock": 922,
-      "ExtraInfo": "non",
-      "StyleHint": "voluptatem",
-      "FullName": "Rogers Anderson",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 937
-        }
-      }
-    }
-  ],
-  "NickName": "Kunde-Beatty",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "non"
-  },
-  "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "tempora"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kris-O'Hara",
-      "DisplayName": "Yundt-Rath",
-      "Description": "Down-sized grid-enabled framework",
-      "ToolTip": "Quos praesentium impedit sunt aliquam asperiores corporis.",
-      "Actions": "Implicit",
-      "ActionData": "eos",
+      "Value": "nostrum",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 950
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "nostrum",
+      "DisplayValue": "praesentium",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 950
+        }
+      }
+    }
+  ],
+  "UserName": "Deckow, Goldner and Cummerata",
+  "TicketCategories": [
+    {
+      "Id": 372,
+      "Name": "Kerluke LLC",
+      "ToolTip": "Amet aut repellat quisquam.",
+      "Deleted": false,
+      "Rank": 466,
+      "Type": "itaque",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "sed",
+      "ColorBlock": 823,
+      "ExtraInfo": "ut",
+      "StyleHint": "iure",
+      "FullName": "Alayna Nienow",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 882
+        }
+      }
+    }
+  ],
+  "NickName": "O'Keefe Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "eum"
+  },
+  "CustomFields": {
+    "CustomFields1": "sapiente",
+    "CustomFields2": "dolore"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kling-Ullrich",
+      "DisplayName": "Gottlieb-Pacocha",
+      "Description": "Compatible solution-oriented conglomeration",
+      "ToolTip": "Et quos tempora ad.",
+      "Actions": "Implicit",
+      "ActionData": "porro",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 826
         }
       }
     }
@@ -410,8 +410,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

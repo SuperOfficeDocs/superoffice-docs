@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Marquardt, Rutherford and Lockman",
-    "ToolTip": "Non eum veritatis et sit.",
+    "Id": 918,
+    "Name": "Mohr-Denesik",
+    "ToolTip": "Animi explicabo.",
     "Deleted": false,
-    "Rank": 331,
-    "Type": "quo",
-    "ColorBlock": 736,
-    "IconHint": "eos",
+    "Rank": 389,
+    "Type": "illo",
+    "ColorBlock": 978,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2018-12-07T04:02:07.3690701+01:00",
+    "LastChanged": "2023-10-24T03:44:58.1093468+02:00",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Bailey LLC",
-        "ToolTip": "Similique rerum aut odit impedit necessitatibus beatae voluptas.",
+        "Id": 977,
+        "Name": "Wisoky-Spencer",
+        "ToolTip": "Consequatur nam sit quo qui.",
         "Deleted": false,
-        "Rank": 570,
-        "Type": "omnis",
-        "ColorBlock": 571,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1997-09-17T04:02:07.3690701+02:00",
+        "Rank": 939,
+        "Type": "quo",
+        "ColorBlock": 249,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2003-07-04T03:44:58.1093468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "excepturi",
-        "Hidden": false,
-        "FullName": "Savannah Gleason",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Floyd Nitzsche",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 317
+            "FieldType": "System.Int32",
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Ulices Blanca Cartwright PhD",
+    "FullName": "Mr. Domenico Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldType": "System.Int32",
+        "FieldLength": 96
       }
     }
   }

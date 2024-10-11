@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=harum
-GET /api/v1/Project?$top=896
-GET /api/v1/Project?$skip=585
+GET /api/v1/Project?$entities=minima
+GET /api/v1/Project?$top=233
+GET /api/v1/Project?$skip=232
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=modi
+GET /api/v1/Project?$context=quasi
 GET /api/v1/Project?$format=JSON
 GET /api/v1/Project?$jsonSafe=False
 GET /api/v1/Project?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "nihil",
   "value": [
     {
-      "PrimaryKey": 2904,
-      "EntityName": "sale",
-      "saleId": 2904,
-      "contactId": 1508,
-      "name": "Parker, Wyman and Lang"
+      "PrimaryKey": 2545,
+      "EntityName": "person",
+      "personId": 2545,
+      "fullName": "Dr. Beryl Donny Hackett III"
     },
     {
-      "PrimaryKey": 5114,
-      "EntityName": "sale",
-      "saleId": 5114,
-      "contactId": 8244,
-      "name": "Bailey Inc and Sons"
+      "PrimaryKey": 9095,
+      "EntityName": "person",
+      "personId": 9095,
+      "fullName": "Mr. Elnora Keanu Hermiston DVM"
     }
   ]
 }

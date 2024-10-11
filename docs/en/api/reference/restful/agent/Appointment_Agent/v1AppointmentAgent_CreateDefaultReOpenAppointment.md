@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 980
+  "SaleId": 180
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-09-26T04:02:01.1431741+02:00",
-  "AppointmentId": 638,
-  "Description": "Up-sized responsive conglomeration",
-  "Title": "eum",
-  "Agenda": "vitae",
-  "InternalNotes": "corporis",
-  "StartDate": "2024-08-03T04:02:01.1431741+02:00",
-  "EndDate": "2023-07-25T04:02:01.1431741+02:00",
+  "CreatedDate": "2005-07-08T03:44:51.9958963+02:00",
+  "AppointmentId": 618,
+  "Description": "Multi-channelled mission-critical middleware",
+  "Title": "reprehenderit",
+  "Agenda": "ut",
+  "InternalNotes": "et",
+  "StartDate": "2014-11-16T03:44:51.9958963+01:00",
+  "EndDate": "2008-10-04T03:44:51.9958963+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 579,
+  "MotherId": 733,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-09-16T04:02:01.1587977+02:00",
+  "UpdatedDate": "2005-09-04T03:44:51.9958963+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 113,
+  "ActiveLinks": 668,
   "Links": [
     {
-      "EntityName": "Harber, Friesen and Keeling",
-      "Id": 652,
-      "Description": "Optional tertiary open architecture",
-      "ExtraInfo": "commodi",
-      "LinkId": 725,
+      "EntityName": "Schulist Inc and Sons",
+      "Id": 21,
+      "Description": "Re-engineered multimedia policy",
+      "ExtraInfo": "est",
+      "LinkId": 716,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     }
   ],
-  "AlarmLeadTime": "quia",
+  "AlarmLeadTime": "est",
   "HasAlarm": false,
-  "ColorIndex": 648,
-  "IsFree": true,
+  "ColorIndex": 952,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "corrupti",
-  "LeadTime": "quod",
-  "Location": "incidunt",
-  "RejectCounter": 142,
-  "RejectReason": "evolve synergistic partnerships",
+  "LagTime": "ea",
+  "LeadTime": "ullam",
+  "Location": "voluptatem",
+  "RejectCounter": 779,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 453,
-      "PersonId": 774,
-      "ContactId": 213,
-      "EmailId": 167,
+      "AssociateId": 697,
+      "PersonId": 127,
+      "ContactId": 414,
+      "EmailId": 376,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "brenda_cole@willmsconroy.name",
-      "Description": "Synergized multimedia functionalities"
+      "EmailAddress": "burley@lindgrenpacocha.info",
+      "Description": "De-engineered client-server superstructure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-05-18T04:02:01.1587977+02:00",
+  "ActiveDate": "2022-08-12T03:44:51.9958963+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 508,
+  "PreferredTZLocation": 298,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 422,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 286,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laborum",
+  "CentralserviceVideomeetId": "esse",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dr. Carlos Oberbrunner Jr."
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1038192147"
   },
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "est",
+    "ExtraFields2": "nam"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "ut"
+    "CustomFields1": "sunt",
+    "CustomFields2": "impedit"
   },
-  "PublishEventDate": "2002-08-24T04:02:01.1587977+02:00",
-  "PublishTo": "1998-08-14T04:02:01.1587977+02:00",
-  "PublishFrom": "2000-09-23T04:02:01.1587977+02:00",
+  "PublishEventDate": "2015-12-17T03:44:51.9958963+01:00",
+  "PublishTo": "2002-09-22T03:44:51.9958963+02:00",
+  "PublishFrom": "2022-08-13T03:44:51.9958963+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 752,
+      "VisibleId": 722,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     },
     {
-      "VisibleId": 752,
+      "VisibleId": 722,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   }
 }

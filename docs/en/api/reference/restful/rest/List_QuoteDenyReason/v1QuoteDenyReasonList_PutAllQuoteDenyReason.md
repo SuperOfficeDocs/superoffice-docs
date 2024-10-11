@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Baumbach, Pollich and Klein",
-    "Tooltip": "in",
+    "Id": 663,
+    "Name": "Abbott, Cummings and Daniel",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "UdListDefinitionId": 900,
-    "Rank": 132
+    "UdListDefinitionId": 26,
+    "Rank": 410
   },
   {
-    "Id": 130,
-    "Name": "Baumbach, Pollich and Klein",
-    "Tooltip": "in",
+    "Id": 663,
+    "Name": "Abbott, Cummings and Daniel",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "UdListDefinitionId": 900,
-    "Rank": 132
+    "UdListDefinitionId": 26,
+    "Rank": 410
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Crist, McLaughlin and Heaney",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 479,
-    "Rank": 992,
+    "Id": 879,
+    "Name": "Schmeler Group",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 212,
+    "Rank": 75,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldType": "System.String",
+        "FieldLength": 604
       }
     }
   }

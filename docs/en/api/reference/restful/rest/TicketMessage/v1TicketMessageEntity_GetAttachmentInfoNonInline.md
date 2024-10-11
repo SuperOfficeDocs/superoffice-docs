@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 803,
-    "Name": "Huel-Trantow",
-    "ContentType": "officia",
-    "AttSize": 838,
+    "AttachmentId": 584,
+    "Name": "Crona, Windler and Lemke",
+    "ContentType": "expedita",
+    "AttSize": 479,
     "InlineImage": false,
-    "ContentId": "est",
-    "AuthKey": "aut",
-    "IsSafeFileExtension": true,
+    "ContentId": "earum",
+    "AuthKey": "eaque",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 863
       }
     }
   }

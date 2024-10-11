@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 273
+  "QuoteLineId": 747
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 934,
-  "ERPQuoteLineKey": "dicta",
-  "QuoteAlternativeId": 269,
-  "ERPProductKey": "veniam",
+  "QuoteLineId": 700,
+  "ERPQuoteLineKey": "quis",
+  "QuoteAlternativeId": 740,
+  "ERPProductKey": "magni",
   "Status": "Error",
-  "Reason": "disintermediate B2B technologies",
-  "Quantity": 11279.266,
-  "DeliveredQuantity": 24896.496,
-  "Rank": 624,
-  "Name": "Maggio-Hermann",
-  "Description": "Fully-configurable discrete toolset",
-  "Code": "optio",
-  "QuantityUnit": "blanditiis",
-  "PriceUnit": "voluptatibus",
-  "ItemNumber": "1236617",
+  "Reason": "",
+  "Quantity": 17750.976,
+  "DeliveredQuantity": 28632.224,
+  "Rank": 527,
+  "Name": "Stokes Group",
+  "Description": "Synergized reciprocal info-mediaries",
+  "Code": "maiores",
+  "QuantityUnit": "accusantium",
+  "PriceUnit": "quod",
+  "ItemNumber": "1489573",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "numquam",
-  "ProductTypeKey": "vero",
-  "Supplier": "saepe",
-  "SupplierCode": "praesentium",
-  "Thumbnail": "voluptatem",
-  "VATInfo": "cumque",
-  "VAT": 219.38,
-  "UnitCost": 16967.476,
-  "UnitMinimumPrice": 12341.692,
-  "UnitListPrice": 8233.018,
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "quo",
+  "Supplier": "et",
+  "SupplierCode": "eos",
+  "Thumbnail": "aperiam",
+  "VATInfo": "qui",
+  "VAT": 17647.554,
+  "UnitCost": 7342.9619999999995,
+  "UnitMinimumPrice": 26109.354,
+  "UnitListPrice": 25679.996,
   "ExtraInfo": [
     {
-      "Name": "Swaniawski-Kiehn",
-      "Value": "nam",
+      "Name": "Bergnaum, Corwin and Rippin",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 516
+          "FieldLength": 437
         }
       }
     },
     {
-      "Name": "Swaniawski-Kiehn",
-      "Value": "nam",
+      "Name": "Bergnaum, Corwin and Rippin",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 516
+          "FieldLength": 437
         }
       }
     }
   ],
-  "RawExtraInfo": "harum",
+  "RawExtraInfo": "autem",
   "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "SubscriptionQuantity": 28406.575999999997,
-  "SubscriptionStart": "2010-10-03T04:02:02.2222071+02:00",
-  "ERPDiscountPercent": 9210.826,
-  "ERPDiscountAmount": 19380.656,
-  "DiscountPercent": 2613.756,
-  "DiscountAmount": 1404.032,
+  "SubscriptionUnit": "illo",
+  "SubscriptionQuantity": 5334.068,
+  "SubscriptionStart": "2014-03-28T03:44:53.0739396+01:00",
+  "ERPDiscountPercent": 4895.308,
+  "ERPDiscountAmount": 29070.984,
+  "DiscountPercent": 8712.52,
+  "DiscountAmount": 16481.706,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 25770.881999999998,
-  "EarningAmount": 2118.584,
-  "SubTotal": 23573.948,
-  "TotalPrice": 21621.466,
-  "Rights": "sequi",
-  "Rule": "maxime",
-  "ExtraField1": "occaecati",
-  "ExtraField2": "esse",
-  "ExtraField3": "sunt",
-  "ExtraField4": "qui",
-  "ExtraField5": "voluptatibus",
+  "EarningPercent": 2801.796,
+  "EarningAmount": 3989.582,
+  "SubTotal": 8916.23,
+  "TotalPrice": 10577.25,
+  "Rights": "aut",
+  "Rule": "recusandae",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "culpa",
+  "ExtraField3": "doloremque",
+  "ExtraField4": "commodi",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldLength": 587
     }
   }
 }

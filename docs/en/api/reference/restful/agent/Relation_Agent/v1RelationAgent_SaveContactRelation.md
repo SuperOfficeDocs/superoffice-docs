@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 838,
-  "SourcePersonId": 606,
-  "DestinationContactId": 698,
-  "DestinationPersonId": 735,
-  "RelationId": 977,
-  "Comment": "explicabo",
-  "RelationDefinitionId": 14,
-  "Reversed": 871,
-  "UpdatedDate": "2006-11-11T04:02:02.2222071+01:00",
-  "CreatedDate": "2020-03-03T04:02:02.2222071+01:00",
+  "SourceContactId": 364,
+  "SourcePersonId": 984,
+  "DestinationContactId": 496,
+  "DestinationPersonId": 33,
+  "RelationId": 442,
+  "Comment": "impedit",
+  "RelationDefinitionId": 61,
+  "Reversed": 267,
+  "UpdatedDate": "2003-12-26T03:44:53.0739396+01:00",
+  "CreatedDate": "2002-01-14T03:44:53.0739396+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wunsch, Bernier and Macejkovic",
-  "SourcePersonName": "Rowe LLC",
-  "DestinationContactName": "Maggio-Waters",
-  "DestinationPersonName": "Champlin, Little and Effertz",
-  "ActiveText": "praesentium",
-  "PassiveText": "expedita",
+  "SourceContactName": "Braun, Bauch and Mraz",
+  "SourcePersonName": "Aufderhar, Simonis and Cole",
+  "DestinationContactName": "Mertz-Marvin",
+  "DestinationPersonName": "Wilderman-Stokes",
+  "ActiveText": "in",
+  "PassiveText": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldLength": 463
     }
   }
 }

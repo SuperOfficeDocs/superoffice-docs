@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 890,
-    "Name": "Lynch-Dach",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 532,
+    "HeadingId": 655,
+    "Name": "Hirthe LLC",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "Rank": 613,
+    "UdListDefinitionId": 145,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldLength": 156
       }
     }
   }

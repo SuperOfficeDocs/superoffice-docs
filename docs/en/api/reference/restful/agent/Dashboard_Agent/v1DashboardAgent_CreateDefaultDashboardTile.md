@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 166,
-  "Caption": "tempore",
-  "Description": "Visionary intangible infrastructure",
-  "ChartName": "Stamm LLC",
-  "ChartId": "velit",
+  "DashboardTileId": 449,
+  "Caption": "necessitatibus",
+  "Description": "Advanced tangible core",
+  "ChartName": "Smith, Bins and McGlynn",
+  "ChartId": "porro",
   "IsDefault": true,
-  "AssociateId": 360,
-  "GroupId": 112,
-  "SelectionId": 76,
-  "Config": "eum",
+  "AssociateId": 651,
+  "GroupId": 115,
+  "SelectionId": 404,
+  "Config": "beatae",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Greenholt, Schuster and Gerlach",
-      "Description": "Synchronised human-resource task-force",
+      "Name": "O'Keefe, Bednar and Cartwright",
+      "Description": "Multi-channelled client-server firmware",
       "Type": "Boolean",
-      "ListName": "Bailey-Donnelly",
+      "ListName": "Wilderman, Kirlin and Donnelly",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "est",
-      "DefaultDataOption": true,
+      "Value": "itaque",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldType": "System.String",
+          "FieldLength": 442
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 771,
+      "VisibleId": 163,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 28
         }
       }
     },
     {
-      "VisibleId": 771,
+      "VisibleId": 163,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 28
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 324
     }
   }
 }

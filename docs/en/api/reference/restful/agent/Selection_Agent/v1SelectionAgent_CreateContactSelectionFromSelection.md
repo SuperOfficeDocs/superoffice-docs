@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 81,
-  "Name": "Beatty, Rippin and Ullrich",
+  "SelectionId": 787,
+  "Name": "Kuphal, Feest and Beer",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive composite frame",
-  "Postit": "fugit",
+  "Description": "Object-based assymetric workforce",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 145,
-  "IncludePerson": 272,
+  "GroupIdx": 979,
+  "IncludePerson": 706,
   "MemberCount": 99.99,
-  "Name": "Daniel LLC",
-  "PostitTextId": 266,
-  "CreatedDate": "2017-10-02T04:02:02.31613+02:00",
-  "SelectionId": 268,
-  "SoundEx": "esse",
-  "Source": 988,
-  "TextId": 298,
-  "UpdatedDate": "2015-03-27T04:02:02.31613+01:00",
-  "UpdatedCount": 740,
-  "Visibility": 594,
+  "Name": "Mann-Rempel",
+  "PostitTextId": 207,
+  "CreatedDate": "2021-09-07T03:44:53.1705699+02:00",
+  "SelectionId": 844,
+  "SoundEx": "officiis",
+  "Source": 28,
+  "TextId": 36,
+  "UpdatedDate": "2021-10-29T03:44:53.1705699+02:00",
+  "UpdatedCount": 882,
+  "Visibility": 116,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 861,
-  "TargetTableName": "Bins, Keeling and Baumbach",
+  "TargetTableNumber": 141,
+  "TargetTableName": "Rippin Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 498,
-  "RightSelectionId": 102,
+  "LeftSelectionId": 167,
+  "RightSelectionId": 621,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nicolas, Fahey and Luettgen",
-  "ShadowProviderName": "Rath-Bernier",
-  "ChartKey": "aut",
-  "LastLoaded": "2014-07-25T04:02:02.31613+02:00",
-  "LastLoadedBy": 422,
+  "MainProviderName": "Hauck, McCullough and Gusikowski",
+  "ShadowProviderName": "Ernser, Fahey and Harris",
+  "ChartKey": "beatae",
+  "LastLoaded": "2013-01-02T03:44:53.1705699+01:00",
+  "LastLoadedBy": 364,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-04-12T04:02:02.31613+02:00",
-  "LastMembershipChangeBy": 713,
+  "LastMembershipChange": "2009-10-03T03:44:53.1705699+02:00",
+  "LastMembershipChangeBy": 716,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "modi",
-  "MailingsProviderName": "Murazik, Lueilwitz and Bergnaum",
-  "DashboardTileDefinitionId": 821,
+  "MainHeading": "eligendi",
+  "MemberTabHeading": "eum",
+  "MailingsProviderName": "Walsh-Kuphal",
+  "DashboardTileDefinitionId": 411,
   "VisibleFor": [
     {
-      "VisibleId": 288,
+      "VisibleId": 4,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 926
+          "FieldType": "System.Int32",
+          "FieldLength": 442
         }
       }
     },
     {
-      "VisibleId": 288,
+      "VisibleId": 4,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 926
+          "FieldType": "System.Int32",
+          "FieldLength": 442
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldType": "System.Int32",
+      "FieldLength": 486
     }
   }
 }

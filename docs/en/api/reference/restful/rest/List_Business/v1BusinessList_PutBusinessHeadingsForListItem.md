@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Jakubowski LLC",
-    "ToolTip": "Non laborum itaque at nihil quidem voluptatem.",
+    "Id": 926,
+    "Name": "Johns, Bode and Huel",
+    "ToolTip": "Culpa voluptatum sit consequatur.",
     "Deleted": false,
-    "Rank": 790,
-    "Type": "sint",
-    "ColorBlock": 615,
-    "IconHint": "quidem",
+    "Rank": 700,
+    "Type": "laboriosam",
+    "ColorBlock": 259,
+    "IconHint": "non",
     "Selected": true,
-    "LastChanged": "2022-06-28T04:02:07.0878487+02:00",
+    "LastChanged": "1998-06-26T03:44:57.8281269+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Oberbrunner, Keebler and Bailey",
-        "ToolTip": "Sed quae molestias inventore qui deleniti quasi numquam.",
-        "Deleted": false,
-        "Rank": 793,
-        "Type": "assumenda",
-        "ColorBlock": 764,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2003-12-06T04:02:07.0878487+01:00",
+        "Id": 369,
+        "Name": "Zemlak-Zboncak",
+        "ToolTip": "Veritatis illum aspernatur quis sint amet ea.",
+        "Deleted": true,
+        "Rank": 335,
+        "Type": "voluptatibus",
+        "ColorBlock": 924,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2019-09-09T03:44:57.8281269+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "temporibus",
-        "Hidden": true,
-        "FullName": "Dr. Terry Auer III"
+        "ExtraInfo": "accusamus",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mrs. Savion Frederik Farrell"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "omnis",
+    "ExtraInfo": "id",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Mrs. Zachary Beer V"
+    "FullName": "Adela Hoeger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Bechtelar, Sipes and Lang",
-    "ToolTip": "Ex sequi aliquam error explicabo qui inventore aliquid.",
-    "Deleted": false,
-    "Rank": 994,
-    "Type": "molestias",
-    "ColorBlock": 665,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2015-03-17T04:02:07.0878487+01:00",
+    "Id": 873,
+    "Name": "Gibson-Grant",
+    "ToolTip": "Delectus repudiandae voluptatem delectus.",
+    "Deleted": true,
+    "Rank": 834,
+    "Type": "et",
+    "ColorBlock": 381,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "2011-04-30T03:44:57.8281269+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Klein-Gerhold",
-        "ToolTip": "Nesciunt tenetur ea eos nihil ratione.",
+        "Id": 666,
+        "Name": "Abbott, Turcotte and Powlowski",
+        "ToolTip": "Alias voluptas nemo hic a et maxime.",
         "Deleted": true,
-        "Rank": 15,
-        "Type": "sunt",
-        "ColorBlock": 609,
-        "IconHint": "laboriosam",
+        "Rank": 974,
+        "Type": "inventore",
+        "ColorBlock": 45,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2024-03-30T04:02:07.0878487+01:00",
+        "LastChanged": "2006-12-28T03:44:57.8281269+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "corporis",
-        "Hidden": false,
-        "FullName": "Monserrate Abel Baumbach Jr.",
+        "ExtraInfo": "ea",
+        "StyleHint": "aspernatur",
+        "Hidden": true,
+        "FullName": "Joshua Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 181
+            "FieldType": "System.String",
+            "FieldLength": 712
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Carroll Breitenberg",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Leonardo Morar MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 346
       }
     }
   }

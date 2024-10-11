@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 26,
-    "Tooltip": "et",
+    "Unrestricted": false,
+    "Total": 386,
+    "Tooltip": "recusandae",
     "CanAssign": false,
-    "Free": 817,
-    "InUse": 449,
+    "Free": 811,
+    "InUse": 168,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 341,
-    "Name": "Watsica LLC",
-    "Description": "Re-contextualized dynamic function",
-    "PrerequisiteModuleName": "Brekke-Hyatt",
-    "SortOrder": 334,
-    "ExtraFlags": 532,
+    "ModuleLicenseId": 611,
+    "Name": "Cassin Group",
+    "Description": "Multi-channelled stable model",
+    "PrerequisiteModuleName": "Stanton, Dibbert and Gutkowski",
+    "SortOrder": 565,
+    "ExtraFlags": 154,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 621
+        "FieldType": "System.Int32",
+        "FieldLength": 927
       }
     }
   }

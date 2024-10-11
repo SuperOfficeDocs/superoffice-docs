@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Huels Group",
-  "Tooltip": "molestiae",
+  "Id": 729,
+  "Name": "Cummerata Group",
+  "Tooltip": "repellendus",
   "Deleted": true,
-  "UdListDefinitionId": 283,
-  "Rank": 986
+  "UdListDefinitionId": 680,
+  "Rank": 314
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 795,
-  "Name": "Kuhlman Inc and Sons",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "UdListDefinitionId": 205,
-  "Rank": 689,
+  "Id": 902,
+  "Name": "Conn, Koepp and Jacobi",
+  "Tooltip": "nulla",
+  "Deleted": false,
+  "UdListDefinitionId": 292,
+  "Rank": 738,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Connell Inc and Sons",
-  "Columns": "eligendi",
-  "SortOrder": "necessitatibus",
+  "ProviderName": "Cole-Swaniawski",
+  "Columns": "qui",
+  "SortOrder": "rerum",
   "Restriction": "est",
-  "Entities": "consequatur",
-  "Page": 405,
-  "PageSize": 96,
-  "Options": "rem"
+  "Entities": "occaecati",
+  "Page": 203,
+  "PageSize": 800,
+  "Options": "necessitatibus"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 57,
+  "RowCount": 28,
   "Rows": [
     {
-      "EntityName": "Kunze, Jacobi and Runolfsson",
-      "PrimaryKey": 768,
+      "EntityName": "Green Group",
+      "PrimaryKey": 386,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "recusandae",
-          "TooltipHint": "dignissimos",
-          "LinkHint": "ea"
+          "DisplayValue": "repellendus",
+          "TooltipHint": "ut",
+          "LinkHint": "eos"
         }
       },
-      "LinkHint": "error",
-      "StyleHint": "ex",
+      "LinkHint": "eligendi",
+      "StyleHint": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 58
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldLength": 43
     }
   }
 }

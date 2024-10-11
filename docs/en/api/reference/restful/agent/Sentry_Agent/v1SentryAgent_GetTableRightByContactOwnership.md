@@ -77,8 +77,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mayer-Stamm",
-  "ContactId": 908
+  "TableName": "Moen Group",
+  "ContactId": 84
 }
 ```
 

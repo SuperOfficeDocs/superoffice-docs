@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 45,
-  "Name": "Abernathy, Schiller and Ziemann",
-  "CurrencyId": 440,
-  "EnglishName": "Collins, Nader and Larkin",
+  "CountryId": 553,
+  "Name": "Marvin, Schinner and Christiansen",
+  "CurrencyId": 532,
+  "EnglishName": "Jenkins Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Front-line global hardware",
-  "OrgNrText": "1715597",
-  "InterAreaPrefix": "distinctio",
-  "DialInPrefix": "autem",
-  "ZipPrefix": "velit",
-  "DomainName": "Herman-Runolfsson",
-  "AddressLayoutId": 371,
-  "DomesticAddressLayoutId": 413,
-  "ForeignAddressLayoutId": 166,
-  "Rank": 68,
-  "Tooltip": "illo",
+  "ImageDescription": "Enterprise-wide mobile neural-net",
+  "OrgNrText": "1056926",
+  "InterAreaPrefix": "hic",
+  "DialInPrefix": "voluptatum",
+  "ZipPrefix": "laborum",
+  "DomainName": "Rogahn, Boyer and Prohaska",
+  "AddressLayoutId": 475,
+  "DomesticAddressLayoutId": 494,
+  "ForeignAddressLayoutId": 922,
+  "Rank": 923,
+  "Tooltip": "eum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldType": "System.String",
+      "FieldLength": 334
     }
   }
 }

@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 89,
-  "Name": "Murphy, Stroman and Paucek",
-  "Tooltip": "architecto",
-  "Rank": 554,
+  "SaleTypeId": 223,
+  "Name": "Murray, Hagenes and Bosco",
+  "Tooltip": "aut",
+  "Rank": 43,
   "DurationUnit": "Century",
-  "SaleDuration": 421,
-  "SaleTypeCatId": 111,
-  "Deleted": false,
+  "SaleDuration": 478,
+  "SaleTypeCatId": 880,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 945,
-  "QuoteLinesTemplate": 507,
-  "ConfirmationLinesTemplate": 226,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 546,
+  "QuoteLinesTemplate": 433,
+  "ConfirmationLinesTemplate": 514,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 378,
-  "MinEarningPercent": 235,
-  "GroupQuoteLinesBy": 788,
-  "SortGroupLinesBy": 414,
+  "MaxDiscountPercent": 54,
+  "MinEarningPercent": 251,
+  "GroupQuoteLinesBy": 438,
+  "SortGroupLinesBy": 681,
   "Stages": [
     {
-      "Id": 440,
-      "Name": "Morar Inc and Sons",
-      "ToolTip": "Pariatur nulla eius ut error asperiores eum molestiae.",
+      "Id": 131,
+      "Name": "Langworth LLC",
+      "ToolTip": "Dignissimos magni.",
       "Deleted": true,
-      "Rank": 479,
-      "Type": "facilis",
-      "ColorBlock": 982,
-      "IconHint": "cumque",
+      "Rank": 851,
+      "Type": "quaerat",
+      "ColorBlock": 715,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2005-04-01T04:02:07.4003498+02:00",
+      "LastChanged": "1997-07-10T03:44:58.1562167+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nobis",
-      "StyleHint": "beatae",
-      "Hidden": true,
-      "FullName": "Scarlett Schaefer"
+      "ExtraInfo": "earum",
+      "StyleHint": "aliquam",
+      "Hidden": false,
+      "FullName": "Miss Kasandra Rogers D'Amore"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 274,
-  "Name": "Abshire-Klocko",
-  "Tooltip": "perferendis",
-  "Rank": 876,
+  "SaleTypeId": 540,
+  "Name": "Paucek Inc and Sons",
+  "Tooltip": "ut",
+  "Rank": 332,
   "DurationUnit": "Century",
-  "SaleDuration": 805,
-  "SaleTypeCatId": 222,
+  "SaleDuration": 127,
+  "SaleTypeCatId": 255,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 220,
-  "QuoteLinesTemplate": 349,
-  "ConfirmationLinesTemplate": 632,
+  "DefaultQuoteValidity": 763,
+  "QuoteLinesTemplate": 875,
+  "ConfirmationLinesTemplate": 818,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 987,
-  "MinEarningPercent": 243,
-  "GroupQuoteLinesBy": 746,
-  "SortGroupLinesBy": 78,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 705,
+  "MinEarningPercent": 161,
+  "GroupQuoteLinesBy": 158,
+  "SortGroupLinesBy": 232,
   "Stages": [
     {
-      "Id": 275,
-      "Name": "Robel Group",
-      "ToolTip": "Exercitationem ut voluptatibus voluptas ut.",
+      "Id": 364,
+      "Name": "Hamill, Kuhic and Rodriguez",
+      "ToolTip": "Rerum consectetur repellat.",
       "Deleted": false,
-      "Rank": 662,
-      "Type": "ipsa",
-      "ColorBlock": 565,
-      "IconHint": "dolores",
-      "Selected": true,
-      "LastChanged": "2007-08-07T04:02:07.4003498+02:00",
+      "Rank": 870,
+      "Type": "quis",
+      "ColorBlock": 431,
+      "IconHint": "impedit",
+      "Selected": false,
+      "LastChanged": "1998-10-13T03:44:58.1562167+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "nobis",
-      "Hidden": true,
-      "FullName": "Marcelo Lubowitz",
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "veniam",
+      "Hidden": false,
+      "FullName": "Mauricio Runolfsdottir",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldType": "System.String",
+          "FieldLength": 742
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldLength": 541
     }
   }
 }

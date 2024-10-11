@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 608,
-  "Name": "Upton LLC",
-  "Tooltip": "enim",
-  "Rank": 441,
-  "Key": "est",
-  "MailTemplateId": 51,
+  "ConsentSourceId": 478,
+  "Name": "Carroll Inc and Sons",
+  "Tooltip": "itaque",
+  "Rank": 87,
+  "Key": "dicta",
+  "MailTemplateId": 841,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldType": "System.String",
+      "FieldLength": 707
     }
   }
 }

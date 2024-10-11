@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Ullrich-Reynolds",
-    "ToolTip": "Aspernatur quisquam quia omnis officiis.",
+    "Id": 171,
+    "Name": "Sporer-Lynch",
+    "ToolTip": "Iusto ut corporis.",
     "Deleted": false,
-    "Rank": 114,
-    "Type": "quis",
-    "ColorBlock": 795,
-    "IconHint": "et",
+    "Rank": 293,
+    "Type": "quas",
+    "ColorBlock": 35,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2013-12-04T04:02:07.3221997+01:00",
+    "LastChanged": "2013-04-12T03:44:58.0781351+02:00",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Glover-Nitzsche",
-        "ToolTip": "Et laudantium repudiandae et consequatur sed eius et.",
-        "Deleted": true,
-        "Rank": 942,
-        "Type": "aut",
-        "ColorBlock": 779,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "1999-12-10T04:02:07.3221997+01:00",
+        "Id": 630,
+        "Name": "Prosacco, Thiel and McCullough",
+        "ToolTip": "Eaque aspernatur at cupiditate ut quas id molestiae.",
+        "Deleted": false,
+        "Rank": 5,
+        "Type": "illo",
+        "ColorBlock": 738,
+        "IconHint": "quos",
+        "Selected": false,
+        "LastChanged": "2018-06-30T03:44:58.0781351+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Jacklyn Swaniawski"
+        "ExtraInfo": "qui",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Kiara Burdette Corwin Sr."
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "rerum",
+    "StyleHint": "voluptatum",
     "Hidden": true,
-    "FullName": "Noemie Roberts"
+    "FullName": "Estell Jolie Romaguera II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Koepp, Heaney and Corkery",
-    "ToolTip": "Quo tenetur laudantium porro dolorum dolor doloremque.",
+    "Id": 609,
+    "Name": "Lockman, Nader and Treutel",
+    "ToolTip": "Qui beatae sapiente omnis.",
     "Deleted": false,
-    "Rank": 476,
-    "Type": "quia",
-    "ColorBlock": 130,
-    "IconHint": "ea",
+    "Rank": 576,
+    "Type": "a",
+    "ColorBlock": 259,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2000-02-16T04:02:07.3221997+01:00",
+    "LastChanged": "2002-07-11T03:44:58.0781351+02:00",
     "ChildItems": [
       {
-        "Id": 423,
-        "Name": "Kuphal-Stark",
-        "ToolTip": "Quibusdam est dicta suscipit perspiciatis architecto repellendus.",
+        "Id": 276,
+        "Name": "Farrell, Wisozk and Kutch",
+        "ToolTip": "Sunt assumenda.",
         "Deleted": true,
-        "Rank": 452,
-        "Type": "asperiores",
-        "ColorBlock": 433,
-        "IconHint": "officiis",
+        "Rank": 939,
+        "Type": "tempora",
+        "ColorBlock": 697,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2018-08-30T04:02:07.3221997+02:00",
+        "LastChanged": "2007-11-14T03:44:58.0781351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Adan Gerlach",
+        "ExtraInfo": "cumque",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Helene Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 563
+            "FieldType": "System.String",
+            "FieldLength": 106
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "ullam",
+    "ExtraInfo": "iste",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Prof. Aimee Fleta McClure DDS",
+    "FullName": "Euna Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

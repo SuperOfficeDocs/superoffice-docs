@@ -72,7 +72,7 @@ OK
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Roberts-Schuster",
-  "DisplayName": "Larson, Yost and Ledner",
-  "Description": "Organic modular hub",
-  "ShortLabel": "odit",
+  "FieldName": "Kerluke-Hauck",
+  "DisplayName": "Hintz-Hoppe",
+  "Description": "Secured contextually-based encoding",
+  "ShortLabel": "animi",
   "HideLabel": true,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": true,
-  "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsMandatory": true,
+  "IsReadOnly": false,
   "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 686,
-  "TemplateVariableName": "Treutel-Predovic"
+  "Rank": 61,
+  "TemplateVariableName": "Schaden LLC"
 }
 ```

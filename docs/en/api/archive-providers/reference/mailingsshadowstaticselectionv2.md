@@ -658,7 +658,7 @@ Shadow contact provider for the static Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingAddr/contact/business,mailingAddr/person/rank,mailingAddr/person/portraitThumbnail,mailingAddr/person/personAddress/state,mailingAddr/person/correspondingAssociate/role
+GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingAddr/contact/registeredByFullName,mailingAddr/contact/contactAssociate/isLocation,mailingAddr/person/email/emailHasBounced,mailingAddr/person/personExtra/x_person_shorttext_list,mailingAddr/person/hasEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

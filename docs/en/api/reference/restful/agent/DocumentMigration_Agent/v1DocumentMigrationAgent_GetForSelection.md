@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 113,
-  "SelectionId": 314,
+  "DocumentPluginId": 993,
+  "SelectionId": 132,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 179,
-  "NumDocumentsAlreadyMigrated": 351,
+  "NumDocumentsOmitted": 624,
+  "NumDocumentsAlreadyMigrated": 259,
   "Documents": [
     {
-      "DocumentId": 135,
-      "ContactId": 600,
-      "PersonId": 92,
-      "SaleId": 698,
-      "ProjectId": 710,
-      "DocTmplId": 557,
-      "AssociateId": 382,
-      "UserGroupId": 711,
-      "VisibleForId": 960
+      "DocumentId": 82,
+      "ContactId": 277,
+      "PersonId": 881,
+      "SaleId": 182,
+      "ProjectId": 446,
+      "DocTmplId": 793,
+      "AssociateId": 347,
+      "UserGroupId": 994,
+      "VisibleForId": 533
     }
   ],
   "Associates": [
     {
-      "AssociateId": 362,
-      "EmailAddress": "elvis.huel@prohaska.uk"
+      "AssociateId": 419,
+      "EmailAddress": "imelda_kihn@vonruedenmclaughlin.com"
     },
     {
-      "AssociateId": 362,
-      "EmailAddress": "elvis.huel@prohaska.uk"
+      "AssociateId": 419,
+      "EmailAddress": "imelda_kihn@vonruedenmclaughlin.com"
     }
   ]
 }

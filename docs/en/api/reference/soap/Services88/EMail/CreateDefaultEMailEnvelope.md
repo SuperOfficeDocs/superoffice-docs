@@ -93,7 +93,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <EMail:Name xsi:type="xsd:string"></EMail:Name>
      </EMail:EMailAddress>
     </EMail:To>
-    <EMail:Sent xsi:type="xsd:dateTime">2024-09-13T02:00:29Z</EMail:Sent>
+    <EMail:Sent xsi:type="xsd:dateTime">2024-10-09T01:43:19Z</EMail:Sent>
     <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
     <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
     <EMail:Size xsi:type="xsd:int">0</EMail:Size>
@@ -103,7 +103,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
      <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
      <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-     <EMail:ArchivedAt xsi:type="xsd:dateTime">2024-09-13T02:00:29Z</EMail:ArchivedAt>
+     <EMail:ArchivedAt xsi:type="xsd:dateTime">2024-10-09T01:43:19Z</EMail:ArchivedAt>
      <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
      <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
     </EMail:EMailSOInfo>

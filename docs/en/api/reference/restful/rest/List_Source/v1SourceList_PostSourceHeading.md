@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 350,
-  "Name": "Heller LLC",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 485,
-  "UdListDefinitionId": 437
+  "HeadingId": 15,
+  "Name": "Wiza-Kling",
+  "Tooltip": "culpa",
+  "Deleted": true,
+  "Rank": 61,
+  "UdListDefinitionId": 606
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 407,
-  "Name": "Satterfield-Toy",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 856,
-  "UdListDefinitionId": 624,
+  "HeadingId": 626,
+  "Name": "Schuster, Gibson and Pouros",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 342,
+  "UdListDefinitionId": 206,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

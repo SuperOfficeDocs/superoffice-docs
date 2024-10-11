@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lynch LLC"
+  "Name": "Emmerich-Wyman"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "McDermott-Hansen",
-    "SoPrimaryKey": 74,
-    "EntryName": "Hirthe-Schuppe",
-    "EntryIdentifier": "delectus",
-    "RuleDisplayName": "Moore, Abshire and Walter",
+    "RuleName": "Bauch, O'Kon and Waters",
+    "SoPrimaryKey": 428,
+    "EntryName": "Kemmer Inc and Sons",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Trantow, Beer and Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 117
       }
     }
   }

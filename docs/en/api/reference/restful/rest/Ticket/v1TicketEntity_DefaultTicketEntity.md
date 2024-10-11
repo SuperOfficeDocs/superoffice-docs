@@ -114,7 +114,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 37,
-  "Title": "sunt",
-  "CreatedAt": "2001-06-23T04:02:06.8534981+02:00",
-  "LastChanged": "2005-03-18T04:02:06.8534981+01:00",
-  "ReadByOwner": "2019-09-16T04:02:06.8534981+02:00",
-  "ReadByCustomer": "2016-12-22T04:02:06.8534981+01:00",
-  "FirstReadByOwner": "2015-01-17T04:02:06.8534981+01:00",
-  "FirstReadByUser": "2001-05-12T04:02:06.8534981+02:00",
-  "Activate": "2003-11-16T04:02:06.8534981+01:00",
-  "ClosedAt": "2015-04-03T04:02:06.8534981+02:00",
-  "RepliedAt": "2013-02-14T04:02:06.8534981+01:00",
-  "AlertTimeout": "2003-07-15T04:02:06.8534981+02:00",
-  "Deadline": "2005-09-01T04:02:06.8534981+02:00",
+  "TicketId": 548,
+  "Title": "et",
+  "CreatedAt": "2023-12-28T03:44:57.5937539+01:00",
+  "LastChanged": "2020-10-19T03:44:57.5937539+02:00",
+  "ReadByOwner": "2005-08-02T03:44:57.5937539+02:00",
+  "ReadByCustomer": "2017-05-07T03:44:57.5937539+02:00",
+  "FirstReadByOwner": "1999-06-06T03:44:57.5937539+02:00",
+  "FirstReadByUser": "2023-09-17T03:44:57.5937539+02:00",
+  "Activate": "2004-08-19T03:44:57.5937539+02:00",
+  "ClosedAt": "2006-06-04T03:44:57.5937539+02:00",
+  "RepliedAt": "2018-04-03T03:44:57.5937539+02:00",
+  "AlertTimeout": "2017-10-28T03:44:57.5937539+02:00",
+  "Deadline": "2008-07-15T03:44:57.5937539+02:00",
   "CreatedBy": null,
-  "Author": "aliquam",
+  "Author": "at",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,162 +149,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "eaque",
-      "PersonId": 259,
-      "Mrmrs": "accusamus",
-      "Firstname": "Raoul",
-      "Lastname": "Fadel",
-      "MiddleName": "Friesen-Mohr",
-      "Title": "dolorem",
-      "Description": "Open-architected radical project",
-      "Email": "ervin.johnston@fadelschaden.co.uk",
-      "FullName": "Mrs. Chadrick Moises Stehr V",
-      "DirectPhone": "244.114.2345 x0012",
-      "FormalName": "Sipes LLC",
-      "CountryId": 303,
-      "ContactId": 875,
-      "ContactName": "Bednar LLC",
-      "Retired": 69,
-      "Rank": 597,
-      "ActiveInterests": 253,
+      "Position": "non",
+      "PersonId": 234,
+      "Mrmrs": "quis",
+      "Firstname": "Barton",
+      "Lastname": "Larson",
+      "MiddleName": "Adams, Rohan and Koepp",
+      "Title": "corrupti",
+      "Description": "Multi-channelled 6th generation functionalities",
+      "Email": "kristoffer@olson.info",
+      "FullName": "Hank Dare",
+      "DirectPhone": "(946)663-4391",
+      "FormalName": "Doyle-Paucek",
+      "CountryId": 721,
+      "ContactId": 594,
+      "ContactName": "Schroeder LLC",
+      "Retired": 554,
+      "Rank": 639,
+      "ActiveInterests": 139,
       "ContactDepartment": "",
-      "ContactCountryId": 778,
-      "ContactOrgNr": "1147299",
-      "FaxPhone": "789.793.4526 x969",
-      "MobilePhone": "939.794.3672",
-      "ContactPhone": "1-165-025-3748 x5015",
-      "AssociateName": "Bauch, Waters and Jewess",
-      "AssociateId": 280,
+      "ContactCountryId": 934,
+      "ContactOrgNr": "1266206",
+      "FaxPhone": "1-368-733-6332",
+      "MobilePhone": "1-270-582-1440 x529",
+      "ContactPhone": "(087)772-3974 x30777",
+      "AssociateName": "Howell, Mohr and Cassin",
+      "AssociateId": 435,
       "UsePersonAddress": false,
-      "ContactFax": "vel",
-      "Kanafname": "nobis",
-      "Kanalname": "est",
-      "Post1": "sint",
-      "Post2": "nihil",
-      "Post3": "ut",
-      "EmailName": "elenor_will@crooks.us",
-      "ContactFullName": "Nikolas Rau",
-      "ActiveErpLinks": 644,
-      "TicketPriorityId": 639,
-      "SupportLanguageId": 889,
-      "SupportAssociateId": 207,
+      "ContactFax": "facere",
+      "Kanafname": "corrupti",
+      "Kanalname": "labore",
+      "Post1": "nihil",
+      "Post2": "ab",
+      "Post3": "maxime",
+      "EmailName": "violette@marvin.co.uk",
+      "ContactFullName": "Ross Luettgen",
+      "ActiveErpLinks": 926,
+      "TicketPriorityId": 938,
+      "SupportLanguageId": 586,
+      "SupportAssociateId": 884,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldType": "System.String",
+          "FieldLength": 470
         }
       }
     }
   ],
-  "AlertLevel": 988,
-  "ConnectId": 428,
+  "AlertLevel": 278,
+  "ConnectId": 49,
   "ReadStatus": "Green",
-  "TimeToReply": 535,
-  "RealTimeToReply": 446,
-  "TimeToClose": 74,
-  "RealTimeToClose": 518,
-  "TimeSpentInternally": 1000,
-  "TimeSpentExternally": 118,
-  "TimeSpentQueue": 898,
-  "RealTimeSpentInternally": 452,
-  "RealTimeSpentExternally": 970,
-  "RealTimeSpentQueue": 655,
-  "TimeSpent": 663,
+  "TimeToReply": 112,
+  "RealTimeToReply": 399,
+  "TimeToClose": 571,
+  "RealTimeToClose": 992,
+  "TimeSpentInternally": 411,
+  "TimeSpentExternally": 520,
+  "TimeSpentQueue": 419,
+  "RealTimeSpentInternally": 438,
+  "RealTimeSpentExternally": 672,
+  "RealTimeSpentQueue": 116,
+  "TimeSpent": 924,
   "HasAttachment": false,
-  "NumReplies": 330,
-  "NumMessages": 642,
-  "FromAddress": "natus",
+  "NumReplies": 918,
+  "NumMessages": 220,
+  "FromAddress": "a",
   "Messages": [
     {
-      "TicketMessageId": 493,
-      "CreatedAt": "2017-06-13T04:02:06.8534981+02:00",
+      "TicketMessageId": 398,
+      "CreatedAt": "2019-06-27T03:44:57.6093769+02:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "voluptas",
-      "PersonId": 483,
-      "PersonFullName": "Dr. Jarvis June Welch PhD",
-      "ContactId": 261,
-      "ContactName": "Upton, Cronin and Lehner",
-      "ContactDepartment": "",
-      "NumAttachments": 548,
-      "EmailHeader": "zelma@johnston.name",
+      "Author": "ea",
+      "PersonId": 336,
+      "PersonFullName": "Dallas Olson",
+      "ContactId": 531,
+      "ContactName": "Lakin-Okuneva",
+      "ContactDepartment": "benchmark synergistic users",
+      "NumAttachments": 855,
+      "EmailHeader": "tre@dubuque.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "vel",
-      "Sentiment": 596,
-      "SentimentConfidence": 25,
-      "CreatedBy": 337,
-      "ChangedAt": "2001-05-17T04:02:06.8534981+02:00",
+      "Language": "laboriosam",
+      "Sentiment": 532,
+      "SentimentConfidence": 597,
+      "CreatedBy": 548,
+      "ChangedAt": "1998-10-26T03:44:57.6093769+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldType": "System.String",
+          "FieldLength": 799
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 1000,
-      "Name": "Lebsack LLC",
-      "ToolTip": "Aliquam aut.",
+      "Id": 610,
+      "Name": "Doyle-Zulauf",
+      "ToolTip": "Sunt nisi voluptatem nulla autem non necessitatibus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 295
+          "FieldType": "System.Int32",
+          "FieldLength": 445
         }
       }
     },
     {
-      "Id": 1000,
-      "Name": "Lebsack LLC",
-      "ToolTip": "Aliquam aut.",
+      "Id": 610,
+      "Name": "Doyle-Zulauf",
+      "ToolTip": "Sunt nisi voluptatem nulla autem non necessitatibus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 295
+          "FieldType": "System.Int32",
+          "FieldLength": 445
         }
       }
     }
   ],
-  "Language": "porro",
-  "Sentiment": 901,
-  "SentimentConfidence": 261,
-  "SuggestedCategoryId": 598,
+  "Language": "reprehenderit",
+  "Sentiment": 734,
+  "SentimentConfidence": 240,
+  "SuggestedCategoryId": 597,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 495,
-  "IconHint": "ut",
+  "OrigHumanCategoryId": 269,
+  "IconHint": "beatae",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 701,
+  "ActiveStatusMonitorId": 560,
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "architecto"
+    "CustomFields1": "fugit",
+    "CustomFields2": "cupiditate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 185
     }
   }
 }

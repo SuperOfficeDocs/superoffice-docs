@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 866,
-    "Attention": "harum",
-    "Header": "omnis",
-    "Name": "Mayer Inc and Sons",
-    "OurRef": "laborum",
-    "YourRef": "nemo",
-    "Description": "Synergistic mission-critical flexibility",
-    "DocumentTemplate": "tempore",
-    "IsPublished": true,
-    "PersonId": 707,
-    "PersonFullName": "Letitia Hilll DDS",
-    "AssociateFullName": "Miss Stacy Hackett Jr.",
-    "ContactId": 744,
-    "ContactName": "Gerlach Group",
-    "ProjectId": 688,
-    "ProjectName": "Murazik Group",
-    "AssociateId": 875,
-    "Snum": 263,
-    "SaleId": 822,
-    "SaleName": "Moore Inc and Sons",
+    "DocumentId": 605,
+    "Attention": "fuga",
+    "Header": "sunt",
+    "Name": "Murray-Stamm",
+    "OurRef": "eaque",
+    "YourRef": "est",
+    "Description": "Customizable discrete instruction set",
+    "DocumentTemplate": "expedita",
+    "IsPublished": false,
+    "PersonId": 709,
+    "PersonFullName": "Dr. Edd Bethel Walsh",
+    "AssociateFullName": "Rosalinda Murazik",
+    "ContactId": 146,
+    "ContactName": "Yost-Murphy",
+    "ProjectId": 499,
+    "ProjectName": "Smitham Group",
+    "AssociateId": 938,
+    "Snum": 622,
+    "SaleId": 322,
+    "SaleName": "Schumm, Mitchell and Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 614
       }
     }
   }

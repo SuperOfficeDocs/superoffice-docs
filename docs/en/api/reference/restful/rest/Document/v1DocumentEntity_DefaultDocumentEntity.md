@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 03 Aug 2017 04:02:06 G8T
+Last-Modified: Thu, 26 Nov 1998 03:44:57 G11T
 
 {
-  "DocumentId": 74,
+  "DocumentId": 368,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "fugit",
-  "Header": "inventore",
-  "Name": "Lockman-Prosacco",
-  "OurRef": "in",
-  "YourRef": "cupiditate",
-  "CreatedDate": "2018-10-01T04:02:06.5410667+02:00",
-  "UpdatedDate": "2017-08-03T04:02:06.5410667+02:00",
-  "Description": "Team-oriented transitional application",
+  "Attention": "vero",
+  "Header": "quia",
+  "Name": "Rippin, Schmeler and Heathcote",
+  "OurRef": "fugit",
+  "YourRef": "voluptatum",
+  "CreatedDate": "2016-09-24T03:44:57.2028009+02:00",
+  "UpdatedDate": "1998-11-26T03:44:57.2028009+01:00",
+  "Description": "Fully-configurable logistical function",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-11-22T04:02:06.5566546+01:00",
-  "ExternalRef": "quisquam",
+  "Date": "1998-03-13T03:44:57.2184263+01:00",
+  "ExternalRef": "animi",
   "Completed": "Completed",
-  "ActiveLinks": 656,
+  "ActiveLinks": 153,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Prohaska Group",
-      "Id": 929,
-      "Description": "Synergized 4th generation conglomeration",
-      "ExtraInfo": "sit",
-      "LinkId": 4,
+      "EntityName": "Hoeger, Schiller and Conroy",
+      "Id": 775,
+      "Description": "Advanced dynamic portal",
+      "ExtraInfo": "vitae",
+      "LinkId": 554,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 878
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 671,
-  "Snum": 97,
+  "SuggestedDocumentId": 759,
+  "Snum": 200,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Bailey Schmitt",
-    "SuperOffice:2": "577309074"
+    "SuperOffice:1": "2028080008",
+    "SuperOffice:2": "Prof. Samir Nina Toy"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "cum"
+    "CustomFields1": "enim",
+    "CustomFields2": "labore"
   },
-  "PublishEventDate": "2014-10-20T04:02:06.5566546+02:00",
-  "PublishTo": "2008-06-28T04:02:06.5566546+02:00",
-  "PublishFrom": "2019-05-06T04:02:06.5566546+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-03-09T03:44:57.2184263+01:00",
+  "PublishTo": "2023-09-27T03:44:57.2184263+02:00",
+  "PublishFrom": "2022-07-31T03:44:57.2184263+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 351,
+      "VisibleId": 267,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldType": "System.Int32",
+          "FieldLength": 960
         }
       }
     },
     {
-      "VisibleId": 351,
+      "VisibleId": 267,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldType": "System.Int32",
+          "FieldLength": 960
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Thu, 03 Aug 2017 04:02:06 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldLength": 595
     }
   }
 }

@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 194,
-  "ERPProductKey": "aperiam",
-  "ERPPriceListKey": "eum",
-  "Name": "O'Conner-Bailey",
-  "Description": "Multi-channelled system-worthy open architecture",
-  "Code": "qui",
-  "PriceUnit": "dolores",
-  "QuantityUnit": "temporibus",
+  "ProductId": 509,
+  "ERPProductKey": "assumenda",
+  "ERPPriceListKey": "omnis",
+  "Name": "Quigley-Larson",
+  "Description": "Balanced solution-oriented alliance",
+  "Code": "nobis",
+  "PriceUnit": "et",
+  "QuantityUnit": "a",
   "IsSubscription": false,
-  "SubscriptionUnit": "assumenda",
-  "DefaultSubscriptionQuantity": 18816.536,
-  "ItemNumber": "1014591",
+  "SubscriptionUnit": "eum",
+  "DefaultSubscriptionQuantity": 4697.866,
+  "ItemNumber": "1014419",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "tempora",
-  "VAT": 17453.246,
-  "VATInfo": "alias",
-  "UnitCost": 6807.048,
-  "UnitMinimumPrice": 24241.489999999998,
-  "UnitListPrice": 7850.67,
-  "InAssortment": true,
-  "Supplier": "ratione",
-  "SupplierCode": "fuga",
-  "Rights": "nam",
-  "Rule": "hic",
+  "ProductFamilyKey": "quibusdam",
+  "ProductTypeKey": "et",
+  "VAT": 1704.896,
+  "VATInfo": "impedit",
+  "UnitCost": 3879.892,
+  "UnitMinimumPrice": 6167.7119999999995,
+  "UnitListPrice": 1034.22,
+  "InAssortment": false,
+  "Supplier": "expedita",
+  "SupplierCode": "labore",
+  "Rights": "dolores",
+  "Rule": "minima",
   "ExtraInfo": [
     {
-      "Name": "Ward-Sawayn",
-      "Value": "pariatur",
+      "Name": "Kris-Green",
+      "Value": "iusto",
       "Type": "Image"
     },
     {
-      "Name": "Ward-Sawayn",
-      "Value": "pariatur",
+      "Name": "Kris-Green",
+      "Value": "iusto",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "voluptatum",
-  "ExtraField1": "eum",
-  "ExtraField2": "nihil",
-  "ExtraField3": "sit",
-  "ExtraField4": "magnam",
-  "ExtraField5": "qui",
-  "InStock": 25538.966
+  "RawExtraInfo": "adipisci",
+  "ExtraField1": "debitis",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "est",
+  "ExtraField4": "saepe",
+  "ExtraField5": "consequuntur",
+  "InStock": 19496.613999999998
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 866,
-  "ERPProductKey": "id",
-  "ERPPriceListKey": "modi",
-  "Name": "Purdy-Kub",
-  "Description": "Horizontal reciprocal attitude",
-  "Code": "in",
-  "PriceUnit": "architecto",
-  "QuantityUnit": "corporis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 8358.378,
-  "ItemNumber": "1065305",
+  "ProductId": 22,
+  "ERPProductKey": "nulla",
+  "ERPPriceListKey": "tempore",
+  "Name": "Dibbert Group",
+  "Description": "Multi-tiered interactive capability",
+  "Code": "voluptatem",
+  "PriceUnit": "mollitia",
+  "QuantityUnit": "sit",
+  "IsSubscription": false,
+  "SubscriptionUnit": "eligendi",
+  "DefaultSubscriptionQuantity": 7101.6439999999993,
+  "ItemNumber": "636685",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veniam",
-  "ProductTypeKey": "hic",
-  "VAT": 21345.674,
-  "VATInfo": "nostrum",
-  "UnitCost": 319.668,
-  "UnitMinimumPrice": 13733.188,
-  "UnitListPrice": 3701.254,
+  "ProductFamilyKey": "ex",
+  "ProductTypeKey": "consectetur",
+  "VAT": 22276.471999999998,
+  "VATInfo": "voluptas",
+  "UnitCost": 1344.4859999999999,
+  "UnitMinimumPrice": 6405.896,
+  "UnitListPrice": 17465.782,
   "InAssortment": true,
-  "Supplier": "minima",
-  "SupplierCode": "repudiandae",
-  "Rights": "provident",
-  "Rule": "minus",
+  "Supplier": "aliquid",
+  "SupplierCode": "qui",
+  "Rights": "voluptatem",
+  "Rule": "non",
   "ExtraInfo": [
     {
-      "Name": "Jacobi, Bins and Conn",
-      "Value": "sit",
+      "Name": "Volkman-Konopelski",
+      "Value": "mollitia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 584
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     },
     {
-      "Name": "Jacobi, Bins and Conn",
-      "Value": "sit",
+      "Name": "Volkman-Konopelski",
+      "Value": "mollitia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 584
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     }
   ],
-  "RawExtraInfo": "pariatur",
-  "ExtraField1": "expedita",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "excepturi",
-  "ExtraField4": "fugit",
-  "ExtraField5": "eligendi",
-  "InStock": 3516.348,
+  "RawExtraInfo": "ducimus",
+  "ExtraField1": "ut",
+  "ExtraField2": "ea",
+  "ExtraField3": "accusantium",
+  "ExtraField4": "enim",
+  "ExtraField5": "id",
+  "InStock": 27961.548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

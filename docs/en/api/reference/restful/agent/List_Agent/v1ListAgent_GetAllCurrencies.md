@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 421,
-    "Name": "Jerde, White and Howell",
-    "Tooltip": "tempore",
-    "Rank": 860,
-    "Rate": 10028.8,
-    "Units": 2692.1059999999998,
+    "CurrencyId": 425,
+    "Name": "Mante-Jones",
+    "Tooltip": "deleniti",
+    "Rank": 678,
+    "Rate": 12441.98,
+    "Units": 17569.203999999998,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 677
       }
     }
   }

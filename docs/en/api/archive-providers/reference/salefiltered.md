@@ -1123,7 +1123,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=lossReason,contact/NumberOfActivitiesInPeriod,associate/contactName,associate/assocName,project/projectAssociate/ejStatus
+GET /api/v1/archive/SaleFiltered?$select=person/searchPhone/description,person/personAssociate/assocTooltip,contact/stop,contact/contactExtra/x_contact_integer,saleStakeholder/person/personExtra/y_rental/y_equipment/x_name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "consectetur",
+  "SaleText": "numquam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-10-25T04:02:06.806628+02:00",
-  "Amount": 23724.38,
-  "SaleId": 563,
-  "Earning": 4860.834,
-  "EarningPercent": 23417.248,
-  "Heading": "consequuntur",
-  "Number": "579942",
-  "Probability": 760,
-  "CreatedDate": "2004-04-13T04:02:06.806628+02:00",
-  "UpdatedDate": "2018-05-01T04:02:06.806628+02:00",
+  "Saledate": "2006-09-07T03:44:57.5625173+02:00",
+  "Amount": 6186.516,
+  "SaleId": 721,
+  "Earning": 23589.618,
+  "EarningPercent": 23392.176,
+  "Heading": "consequatur",
+  "Number": "1500584",
+  "Probability": 536,
+  "CreatedDate": "2016-03-11T03:44:57.5625173+01:00",
+  "UpdatedDate": "2011-10-06T03:44:57.5625173+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 673,
+  "ActiveLinks": 493,
   "Links": [
     {
-      "EntityName": "Hessel-Bradtke",
-      "Id": 243,
-      "Description": "Total hybrid benchmark",
-      "ExtraInfo": "numquam",
-      "LinkId": 407
+      "EntityName": "Wunsch-Mohr",
+      "Id": 312,
+      "Description": "Synergized national access",
+      "ExtraInfo": "ut",
+      "LinkId": 167
     },
     {
-      "EntityName": "Hessel-Bradtke",
-      "Id": 243,
-      "Description": "Total hybrid benchmark",
-      "ExtraInfo": "numquam",
-      "LinkId": 407
+      "EntityName": "Wunsch-Mohr",
+      "Id": 312,
+      "Description": "Synergized national access",
+      "ExtraInfo": "ut",
+      "LinkId": 167
     }
   ],
-  "NextDueDate": "2008-02-05T04:02:06.806628+01:00",
-  "Postit": "rerum",
+  "NextDueDate": "2010-02-10T03:44:57.5625173+01:00",
+  "Postit": "facilis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-02-12T04:02:06.806628+01:00",
+  "ReopenDate": "2005-04-24T03:44:57.5625173+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Olson-Herman",
-      "Comment": "quia",
-      "StakeholderRoleId": 196,
-      "CountryId": 138,
-      "PersonId": 742,
-      "EmailDescription": "caden@graham.name",
-      "EmailId": 687,
-      "EmailAddress": "nathanael_douglas@flatley.biz",
-      "PhoneId": 716,
-      "ContactName": "Koelpin-Dooley",
-      "ContactId": 998,
-      "SaleId": 489,
-      "Mrmrs": "accusantium",
-      "Firstname": "Rosie",
-      "MiddleName": "Murazik, Dibbert and Champlin",
-      "Lastname": "Dach",
-      "SaleStakeholderId": 186,
-      "Rank": 781,
-      "Phone": "1-883-401-6787 x08199"
+      "StakeholderRoleName": "Berge Inc and Sons",
+      "Comment": "in",
+      "StakeholderRoleId": 905,
+      "CountryId": 305,
+      "PersonId": 447,
+      "EmailDescription": "brigitte_kohler@leuschkeking.name",
+      "EmailId": 27,
+      "EmailAddress": "kaylah@wisoky.info",
+      "PhoneId": 106,
+      "ContactName": "Gusikowski Group",
+      "ContactId": 986,
+      "SaleId": 801,
+      "Mrmrs": "quia",
+      "Firstname": "Tad",
+      "MiddleName": "Feil-Bogan",
+      "Lastname": "Jenkins",
+      "SaleStakeholderId": 712,
+      "Rank": 273,
+      "Phone": "561-856-9114 x09109"
     }
   ],
-  "ActiveErpLinks": 759,
+  "ActiveErpLinks": 327,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Araceli Murphy II",
+    "SuperOffice:2": "Beryl Cruickshank"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "et",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "ut"
+    "CustomFields1": "qui",
+    "CustomFields2": "odit"
   },
-  "PublishEventDate": "2016-11-01T04:02:06.806628+01:00",
-  "PublishTo": "2020-02-18T04:02:06.806628+01:00",
-  "PublishFrom": "2012-07-08T04:02:06.806628+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-06-05T03:44:57.5625173+02:00",
+  "PublishTo": "2000-08-11T03:44:57.5625173+02:00",
+  "PublishFrom": "2013-06-30T03:44:57.5625173+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 738,
+      "VisibleId": 703,
       "Visibility": "All",
-      "DisplayValue": "expedita"
+      "DisplayValue": "ullam"
     },
     {
-      "VisibleId": 738,
+      "VisibleId": 703,
       "Visibility": "All",
-      "DisplayValue": "expedita"
+      "DisplayValue": "ullam"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "necessitatibus"
+  "1": "libero",
+  "2": "temporibus"
 }
 ```

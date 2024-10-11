@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=615
+POST /api/v1/Agents/User/GetUser?userId=759
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 809,
-  "Name": "Hirthe Inc and Sons",
-  "Rank": 393,
-  "Tooltip": "aspernatur",
+  "AssociateId": 125,
+  "Name": "Runolfsson, Dach and Lynch",
+  "Rank": 527,
+  "Tooltip": "molestiae",
   "LicenseOwners": [
     {
-      "Name": "Powlowski-Altenwerth",
-      "Description": "Stand-alone optimal open system",
+      "Name": "Donnelly-Bashirian",
+      "Description": "Optimized secondary time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,14 +123,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     },
     {
-      "Name": "Powlowski-Altenwerth",
-      "Description": "Stand-alone optimal open system",
+      "Name": "Donnelly-Bashirian",
+      "Description": "Optimized secondary time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "similique",
-      "Tooltip": "est",
-      "Id": 740,
-      "Rank": 306,
+      "Value": "eveniet",
+      "Tooltip": "aut",
+      "Id": 935,
+      "Rank": 517,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldLength": 689
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2008-08-24T04:02:02.5509753+02:00",
-  "Lastlogout": "2019-10-29T04:02:02.5509753+01:00",
-  "EjUserId": 980,
-  "RequestSignature": "omnis",
+  "Lastlogin": "2024-06-20T03:44:53.4029931+02:00",
+  "Lastlogout": "2004-06-01T03:44:53.4029931+02:00",
+  "EjUserId": 237,
+  "RequestSignature": "qui",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ab",
-      "DisplayValue": "id",
+      "Value": "aut",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldLength": 276
         }
       }
     },
     {
       "Type": null,
-      "Value": "ab",
-      "DisplayValue": "id",
+      "Value": "aut",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldLength": 276
         }
       }
     }
   ],
-  "UserName": "McClure-Mraz",
+  "UserName": "Turner-Doyle",
   "TicketCategories": [
     {
-      "Id": 49,
-      "Name": "Kirlin Inc and Sons",
-      "ToolTip": "Est dolor.",
+      "Id": 567,
+      "Name": "Considine-Kozey",
+      "ToolTip": "Quae ipsa quibusdam perspiciatis eum.",
       "Deleted": false,
-      "Rank": 647,
-      "Type": "aspernatur",
+      "Rank": 779,
+      "Type": "id",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorem",
-      "ColorBlock": 727,
-      "ExtraInfo": "cumque",
-      "StyleHint": "sed",
-      "FullName": "Wilma Fritsch",
+      "IconHint": "praesentium",
+      "ColorBlock": 48,
+      "ExtraInfo": "id",
+      "StyleHint": "nobis",
+      "FullName": "Mr. Aaliyah Schoen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 643
         }
       }
     }
   ],
-  "NickName": "Swaniawski, Metz and Kertzmann",
-  "WaitingForApproval": true,
+  "NickName": "Yost-Schmitt",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "neque"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "iusto"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "at"
   },
   "PostSaveCommands": [
     {
-      "Name": "Aufderhar Group",
-      "DisplayName": "Hills, Schulist and Sporer",
-      "Description": "Managed bottom-line framework",
-      "ToolTip": "Non ipsum accusamus commodi rerum.",
+      "Name": "Goyette-Ernser",
+      "DisplayName": "Nitzsche-Bode",
+      "Description": "Cloned next generation policy",
+      "ToolTip": "Earum et ipsum corrupti rerum neque.",
       "Actions": "Implicit",
-      "ActionData": "atque",
+      "ActionData": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldLength": 94
     }
   }
 }

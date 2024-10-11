@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 707,
-  "RejectReason": ""
+  "EmailItemId": 448,
+  "RejectReason": "target rich paradigms"
 }
 ```
 

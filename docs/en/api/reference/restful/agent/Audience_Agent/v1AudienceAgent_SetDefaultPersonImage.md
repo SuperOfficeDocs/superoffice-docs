@@ -71,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Leannon-Ankunding",
+  "LayoutName": "Parisian Group",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

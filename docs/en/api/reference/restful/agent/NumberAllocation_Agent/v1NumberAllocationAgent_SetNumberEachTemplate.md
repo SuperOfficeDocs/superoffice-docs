@@ -68,7 +68,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SetValue": true
+  "SetValue": false
 }
 ```
 

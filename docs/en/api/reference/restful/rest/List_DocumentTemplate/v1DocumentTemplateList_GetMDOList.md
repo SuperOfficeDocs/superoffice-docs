@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=odio
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=sed
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 580,
-    "Name": "Gleichner, Altenwerth and Howe",
-    "ToolTip": "Possimus occaecati aut deleniti omnis est.",
-    "Deleted": false,
-    "Rank": 767,
-    "Type": "sint",
+    "Id": 123,
+    "Name": "Pacocha-Trantow",
+    "ToolTip": "Numquam dolorum.",
+    "Deleted": true,
+    "Rank": 345,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 651,
-        "Name": "Parisian Inc and Sons",
-        "ToolTip": "Incidunt eos eos eveniet accusamus nihil est ullam.",
+        "Id": 741,
+        "Name": "Ward-Streich",
+        "ToolTip": "Quia omnis quod.",
         "Deleted": false,
-        "Rank": 986,
-        "Type": "sunt",
+        "Rank": 434,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "suscipit",
-        "ColorBlock": 561,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "explicabo",
-        "FullName": "Chadrick Raynor",
+        "IconHint": "nostrum",
+        "ColorBlock": 614,
+        "ExtraInfo": "provident",
+        "StyleHint": "ipsam",
+        "FullName": "Dr. Aiden Diego Wuckert MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldType": "System.String",
+            "FieldLength": 95
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 246,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "facere",
-    "FullName": "Walker Lesch",
+    "IconHint": "eligendi",
+    "ColorBlock": 301,
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
+    "FullName": "Reyna Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 498
       }
     }
   }

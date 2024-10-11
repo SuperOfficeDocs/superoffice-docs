@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 18 Oct 2011 04:02:06 G10T
+Last-Modified: Wed, 24 May 2023 03:44:57 G5T
 
 {
-  "Key": "dignissimos",
-  "Value": "molestias",
-  "RecordId": 571,
-  "CreatedDate": "2017-04-24T04:02:06.6191478+02:00",
-  "UpdatedDate": "2011-10-18T04:02:06.6191478+02:00",
-  "UpdatedBy": "necessitatibus",
-  "CreatedBy": "voluptatum",
-  "TableName": "O'Reilly, Bosco and Haag",
+  "Key": "perspiciatis",
+  "Value": "tenetur",
+  "RecordId": 272,
+  "CreatedDate": "2015-07-24T03:44:57.359003+02:00",
+  "UpdatedDate": "2023-05-24T03:44:57.359003+02:00",
+  "UpdatedBy": "debitis",
+  "CreatedBy": "totam",
+  "TableName": "Cronin, Greenholt and Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   }
 }

@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mraz, Prohaska and DuBuque",
-    "StepNumber": 474,
+    "Name": "Turcotte Inc and Sons",
+    "StepNumber": 240,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 760
+        "FieldLength": 101
       }
     }
   },
   {
-    "Name": "Mraz, Prohaska and DuBuque",
-    "StepNumber": 474,
+    "Name": "Turcotte Inc and Sons",
+    "StepNumber": 240,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 760
+        "FieldLength": 101
       }
     }
   }

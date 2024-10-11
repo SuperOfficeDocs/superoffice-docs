@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 986,
-    "Name": "Robel-Walsh",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "Rank": 349,
-    "UdListDefinitionId": 715,
+    "HeadingId": 501,
+    "Name": "Gleason, Kreiger and Orn",
+    "Tooltip": "placeat",
+    "Deleted": false,
+    "Rank": 339,
+    "UdListDefinitionId": 233,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 296
       }
     }
   }

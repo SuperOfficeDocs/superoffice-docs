@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "voluptas",
-  "PluginId": 157
+  "LanguageCode": "harum",
+  "PluginId": 558
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 75,
-  "Name": "Kutch, Considine and Adams",
-  "Tooltip": "deleniti",
-  "SaveInDb": 399,
-  "Filename": "quae",
-  "DefaultOref": "sequi",
+  "DocumentTemplateId": 237,
+  "Name": "Kiehn Inc and Sons",
+  "Tooltip": "at",
+  "SaveInDb": 432,
+  "Filename": "soluta",
+  "DefaultOref": "dolores",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 905,
-  "IntentId": 671,
-  "IsDefaultPublished": false,
-  "Rank": 654,
-  "LoadTemplateFromPlugin": 385,
-  "MimeType": "recusandae",
+  "AutoeventId": 775,
+  "IntentId": 153,
+  "IsDefaultPublished": true,
+  "Rank": 1002,
+  "LoadTemplateFromPlugin": 688,
+  "MimeType": "earum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 61,
+  "DocumentTypeKey": 97,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "bailey@lang.ca",
+  "EmailSubject": "berry@mclaughlin.name",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lacy.adams@schroeder.ca",
+  "SenderEmailAddress": "cody@cole.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 21
     }
   }
 }

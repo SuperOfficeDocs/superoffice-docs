@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "architecto",
-  "Name": "Armstrong Group",
-  "Description": "Upgradable reciprocal implementation",
-  "IncludeId": "consequatur",
-  "Source": "sit",
-  "Registered": "2006-02-15T04:02:06.9941086+01:00",
-  "RegisteredBy": "quaerat",
-  "Updated": "2021-09-18T04:02:06.9941086+02:00",
-  "UpdatedBy": "dicta",
-  "Path": "tenetur",
+  "UniqueIdentifier": "sit",
+  "Name": "Herman, Cremin and Okuneva",
+  "Description": "Down-sized human-resource success",
+  "IncludeId": "ratione",
+  "Source": "vero",
+  "Registered": "2004-12-05T03:44:57.7500442+01:00",
+  "RegisteredBy": "qui",
+  "Updated": "1998-07-28T03:44:57.7500442+02:00",
+  "UpdatedBy": "est",
+  "Path": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldLength": 879
     }
   }
 }

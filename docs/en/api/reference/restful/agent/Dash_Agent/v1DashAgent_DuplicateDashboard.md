@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 719,
-  "Name": "Fisher, Marquardt and Koch"
+  "DashboardId": 949,
+  "Name": "Bogisich, Johnson and Dickinson"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 680,
-  "UniqueId": "enim",
-  "Name": "Schiller Group",
-  "Description": "Enhanced asynchronous groupware",
-  "AssociateId": 233,
-  "Columns": 742,
+  "DashboardId": 996,
+  "UniqueId": "debitis",
+  "Name": "Weber-Goodwin",
+  "Description": "Optimized tertiary focus group",
+  "AssociateId": 863,
+  "Columns": 671,
   "Theme": null,
-  "VisibleForAll": 689,
+  "VisibleForAll": 947,
   "VisibleForAssociates": [
-    571,
-    521
+    165,
+    366
   ],
   "VisibleForGroups": [
-    319,
-    384
+    469,
+    964
   ],
-  "PinForAll": 298,
+  "PinForAll": 82,
   "PinForAssociates": [
-    370,
-    666
+    626,
+    271
   ],
   "PinForGroups": [
-    640,
-    400
+    574,
+    781
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldType": "System.String",
+      "FieldLength": 994
     }
   }
 }

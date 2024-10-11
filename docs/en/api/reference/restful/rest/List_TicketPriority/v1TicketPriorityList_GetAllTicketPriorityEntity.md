@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 622,
-    "Name": "Senger, Price and Hintz",
+    "TicketPriorityId": 831,
+    "Name": "Osinski, DuBuque and Cremin",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 965,
+    "SortOrder": 160,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 959,
-    "MonStart": "2001-01-15T04:02:07.447468+01:00",
-    "MonStop": "2016-01-07T04:02:07.447468+01:00",
-    "TueStart": "2022-01-05T04:02:07.447468+01:00",
-    "TueStop": "2013-04-06T04:02:07.447468+02:00",
-    "WedStart": "2019-01-01T04:02:07.447468+01:00",
-    "WedStop": "2002-05-06T04:02:07.447468+02:00",
-    "ThuStart": "2002-01-16T04:02:07.447468+01:00",
-    "ThuStop": "2017-04-18T04:02:07.447468+02:00",
-    "FriStart": "2012-10-07T04:02:07.447468+02:00",
-    "FriStop": "2023-05-04T04:02:07.447468+02:00",
-    "SatStart": "2023-03-31T04:02:07.447468+02:00",
-    "SatStop": "2010-02-21T04:02:07.447468+01:00",
-    "SunStart": "2024-03-10T04:02:07.447468+01:00",
-    "SunStop": "2000-01-31T04:02:07.447468+01:00",
+    "Deadline": 100,
+    "MonStart": "2018-01-17T03:44:58.1874634+01:00",
+    "MonStop": "2009-07-15T03:44:58.1874634+02:00",
+    "TueStart": "2017-04-20T03:44:58.1874634+02:00",
+    "TueStop": "2019-07-23T03:44:58.1874634+02:00",
+    "WedStart": "2005-11-06T03:44:58.1874634+01:00",
+    "WedStop": "2023-10-24T03:44:58.1874634+02:00",
+    "ThuStart": "2018-12-03T03:44:58.1874634+01:00",
+    "ThuStop": "2015-06-03T03:44:58.1874634+02:00",
+    "FriStart": "2023-10-06T03:44:58.1874634+02:00",
+    "FriStop": "2000-09-09T03:44:58.1874634+02:00",
+    "SatStart": "2016-04-03T03:44:58.1874634+02:00",
+    "SatStop": "2023-05-16T03:44:58.1874634+02:00",
+    "SunStart": "2024-08-04T03:44:58.1874634+02:00",
+    "SunStop": "2000-05-15T03:44:58.1874634+02:00",
     "NonDates": [
-      "quas",
-      "sint"
+      "tempore",
+      "excepturi"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 789,
-        "AlertLevel": 703,
-        "AlertTimeout": 783,
-        "Action": 529,
-        "DelegateTo": 983,
-        "ScriptId": 770,
-        "EmailTo": "buck_roberts@greenholt.co.uk",
-        "SmsTo": "molestias",
-        "ReplyTemplateIdCustomer": 509,
-        "ReplyTemplateIdUser": 778,
-        "ReplyTemplateIdCatmast": 21,
-        "ReplyTemplateIdEmail": 687,
-        "RtiCustomerSms": 112,
-        "ReplyTemplateIdUserSms": 207,
-        "ReplyTemplateIdCatmastSms": 628,
-        "ReplyTemplateIdSms": 934,
+        "TicketAlertId": 38,
+        "AlertLevel": 399,
+        "AlertTimeout": 759,
+        "Action": 516,
+        "DelegateTo": 106,
+        "ScriptId": 847,
+        "EmailTo": "alf@kohler.uk",
+        "SmsTo": "quo",
+        "ReplyTemplateIdCustomer": 321,
+        "ReplyTemplateIdUser": 886,
+        "ReplyTemplateIdCatmast": 448,
+        "ReplyTemplateIdEmail": 434,
+        "RtiCustomerSms": 865,
+        "ReplyTemplateIdUserSms": 34,
+        "ReplyTemplateIdCatmastSms": 525,
+        "ReplyTemplateIdSms": 344,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 309
+            "FieldType": "System.Int32",
+            "FieldLength": 921
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldType": "System.String",
+        "FieldLength": 859
       }
     }
   }

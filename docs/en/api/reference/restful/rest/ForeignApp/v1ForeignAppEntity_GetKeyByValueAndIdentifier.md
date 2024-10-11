@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sequi
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=qui
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 07 Jun 2017 04:02:06 G6T
+Last-Modified: Sun, 16 Jul 2023 03:44:57 G7T
 
 {
-  "Key": "nostrum",
-  "Value": "voluptas",
-  "RecordId": 95,
-  "CreatedDate": "2001-11-13T04:02:06.6191478+01:00",
-  "UpdatedDate": "2017-06-07T04:02:06.6191478+02:00",
-  "UpdatedBy": "laudantium",
-  "CreatedBy": "ullam",
-  "TableName": "Kling-Keeling",
+  "Key": "quis",
+  "Value": "exercitationem",
+  "RecordId": 633,
+  "CreatedDate": "2009-05-18T03:44:57.359003+02:00",
+  "UpdatedDate": "2023-07-16T03:44:57.359003+02:00",
+  "UpdatedBy": "maiores",
+  "CreatedBy": "voluptas",
+  "TableName": "Hane Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

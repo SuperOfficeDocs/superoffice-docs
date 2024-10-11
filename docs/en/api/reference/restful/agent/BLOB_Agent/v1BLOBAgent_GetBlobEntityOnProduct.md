@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 542
+  "ProductId": 708
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 631,
-  "BlobSize": 373,
-  "Description": "Business-focused assymetric open system",
-  "ExtraInfo": "atque",
+  "BlobId": 973,
+  "BlobSize": 96,
+  "Description": "Function-based explicit pricing structure",
+  "ExtraInfo": "incidunt",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "expedita",
-  "OriginalSize": 41,
-  "CreatedDate": "2013-12-24T04:02:01.2374146+01:00",
-  "UpdatedDate": "2007-05-13T04:02:01.2374146+02:00",
+  "IsZipped": true,
+  "MimeType": "eius",
+  "OriginalSize": 963,
+  "CreatedDate": "2004-03-12T03:44:52.0896371+01:00",
+  "UpdatedDate": "2009-11-09T03:44:52.0896371+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "labore",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldLength": 88
     }
   }
 }

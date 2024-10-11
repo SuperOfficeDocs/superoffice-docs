@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 625,
-    "Name": "Streich Group",
-    "ContentType": "saepe",
-    "AttSize": 507,
-    "InlineImage": false,
-    "ContentId": "perferendis",
-    "AuthKey": "et",
+    "AttachmentId": 443,
+    "Name": "Lemke-Moen",
+    "ContentType": "quam",
+    "AttSize": 152,
+    "InlineImage": true,
+    "ContentId": "voluptatum",
+    "AuthKey": "consequatur",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldType": "System.String",
+        "FieldLength": 479
       }
     }
   }

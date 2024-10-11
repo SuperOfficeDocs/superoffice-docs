@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "adipisci",
-    "PersonId": 901,
-    "Mrmrs": "eligendi",
-    "Firstname": "Clementine",
-    "Lastname": "Bauch",
-    "MiddleName": "Boyer, Douglas and Bednar",
-    "Title": "earum",
-    "Description": "Front-line foreground synergy",
-    "Email": "burdette@welch.us",
-    "FullName": "Vernie Hammes",
-    "DirectPhone": "(214)241-0489",
-    "FormalName": "Hills Group",
-    "CountryId": 186,
-    "ContactId": 452,
-    "ContactName": "Kling Group",
-    "Retired": 560,
-    "Rank": 753,
-    "ActiveInterests": 688,
+    "Position": "ipsa",
+    "PersonId": 834,
+    "Mrmrs": "ut",
+    "Firstname": "Ryder",
+    "Lastname": "Christiansen",
+    "MiddleName": "Bruen-Yundt",
+    "Title": "consequatur",
+    "Description": "Universal context-sensitive strategy",
+    "Email": "velda@jast.info",
+    "FullName": "Frida Kiehn",
+    "DirectPhone": "1-418-625-7513",
+    "FormalName": "Haag-Hamill",
+    "CountryId": 956,
+    "ContactId": 252,
+    "ContactName": "Bernier, Collins and Brakus",
+    "Retired": 863,
+    "Rank": 225,
+    "ActiveInterests": 829,
     "ContactDepartment": "",
-    "ContactCountryId": 839,
-    "ContactOrgNr": "787958",
-    "FaxPhone": "789-749-7048 x46903",
-    "MobilePhone": "1-213-645-7300 x764",
-    "ContactPhone": "216-728-0522",
-    "AssociateName": "Ebert-Kulas",
-    "AssociateId": 172,
+    "ContactCountryId": 697,
+    "ContactOrgNr": "862559",
+    "FaxPhone": "(531)065-7062",
+    "MobilePhone": "608-728-3598 x102",
+    "ContactPhone": "810.243.1599",
+    "AssociateName": "Kulas Group",
+    "AssociateId": 565,
     "UsePersonAddress": false,
-    "ContactFax": "architecto",
-    "Kanafname": "velit",
-    "Kanalname": "eius",
-    "Post1": "debitis",
-    "Post2": "sed",
-    "Post3": "voluptatem",
-    "EmailName": "nash_veum@kilbackkessler.uk",
-    "ContactFullName": "Rodolfo Funk",
-    "ActiveErpLinks": 554,
-    "TicketPriorityId": 422,
-    "SupportLanguageId": 31,
-    "SupportAssociateId": 697,
+    "ContactFax": "dignissimos",
+    "Kanafname": "qui",
+    "Kanalname": "dolorem",
+    "Post1": "esse",
+    "Post2": "sunt",
+    "Post3": "tenetur",
+    "EmailName": "gunnar_hilpert@gleason.biz",
+    "ContactFullName": "Prof. Junius Schiller II",
+    "ActiveErpLinks": 991,
+    "TicketPriorityId": 842,
+    "SupportLanguageId": 891,
+    "SupportAssociateId": 383,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldLength": 475
       }
     }
   }

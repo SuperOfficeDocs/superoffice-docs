@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Corkery Inc and Sons",
-    "ToolTip": "Sit accusantium voluptatibus est nesciunt.",
-    "Deleted": false,
-    "Rank": 567,
-    "Type": "voluptas",
-    "ColorBlock": 354,
-    "IconHint": "autem",
+    "Id": 122,
+    "Name": "Champlin Group",
+    "ToolTip": "Qui reprehenderit ad non possimus mollitia iure.",
+    "Deleted": true,
+    "Rank": 169,
+    "Type": "a",
+    "ColorBlock": 30,
+    "IconHint": "praesentium",
     "Selected": true,
-    "LastChanged": "2002-02-11T04:02:07.0722253+01:00",
+    "LastChanged": "2002-04-18T03:44:57.8281269+02:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Harber-Reilly",
-        "ToolTip": "Dolores excepturi voluptatem aut excepturi vel ipsa.",
+        "Id": 218,
+        "Name": "Greenholt Group",
+        "ToolTip": "Aut eum suscipit consequatur aspernatur quas ratione.",
         "Deleted": false,
-        "Rank": 991,
-        "Type": "sit",
-        "ColorBlock": 810,
-        "IconHint": "delectus",
-        "Selected": true,
-        "LastChanged": "2001-12-01T04:02:07.0722253+01:00",
+        "Rank": 18,
+        "Type": "odio",
+        "ColorBlock": 114,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2010-01-04T03:44:57.8281269+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
+        "ExtraInfo": "et",
         "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Miss Edythe Lillian Prohaska"
+        "FullName": "Sherman Orn II"
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "unde",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Jeanne Runolfsdottir"
+    "FullName": "Davonte Mayert Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Borer LLC",
-    "ToolTip": "Dicta aliquid earum omnis temporibus molestiae dolorem officiis.",
+    "Id": 163,
+    "Name": "Roberts-Altenwerth",
+    "ToolTip": "Ab sapiente rem minus.",
     "Deleted": true,
-    "Rank": 572,
-    "Type": "harum",
-    "ColorBlock": 289,
-    "IconHint": "labore",
-    "Selected": false,
-    "LastChanged": "2008-10-09T04:02:07.0878487+02:00",
+    "Rank": 242,
+    "Type": "porro",
+    "ColorBlock": 91,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2024-04-09T03:44:57.8281269+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Denesik Group",
-        "ToolTip": "Rerum officia.",
+        "Id": 815,
+        "Name": "Olson-Gleichner",
+        "ToolTip": "Cum at.",
         "Deleted": false,
-        "Rank": 140,
-        "Type": "non",
-        "ColorBlock": 117,
-        "IconHint": "incidunt",
+        "Rank": 32,
+        "Type": "maxime",
+        "ColorBlock": 642,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2018-03-03T04:02:07.0878487+01:00",
+        "LastChanged": "2007-01-05T03:44:57.8281269+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "non",
+        "ExtraInfo": "ut",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Miss Buford Oleta Ernser IV",
+        "FullName": "Prof. Baylee Gretchen Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 288
+            "FieldType": "System.String",
+            "FieldLength": 276
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Otha Gleason",
+    "ExtraInfo": "nulla",
+    "StyleHint": "eius",
+    "Hidden": true,
+    "FullName": "Margarita Myah Wilkinson I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldType": "System.String",
+        "FieldLength": 809
       }
     }
   }

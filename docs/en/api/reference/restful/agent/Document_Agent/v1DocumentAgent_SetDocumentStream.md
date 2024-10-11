@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": true
+  "OverwriteExistingData": false
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 351,
+  "DocumentId": 169,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsam",
-  "Header": "eligendi",
-  "Name": "Marvin LLC",
-  "OurRef": "excepturi",
-  "YourRef": "debitis",
-  "CreatedDate": "2005-05-10T04:02:01.6123809+02:00",
-  "UpdatedDate": "2020-02-20T04:02:01.6123809+01:00",
-  "Description": "Integrated reciprocal analyzer",
+  "Attention": "qui",
+  "Header": "ducimus",
+  "Name": "Bergnaum, Roob and Shanahan",
+  "OurRef": "veritatis",
+  "YourRef": "aut",
+  "CreatedDate": "2017-08-15T03:44:52.480256+02:00",
+  "UpdatedDate": "2003-07-21T03:44:52.480256+02:00",
+  "Description": "Vision-oriented grid-enabled data-warehouse",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-10-10T04:02:01.6123809+02:00",
-  "ExternalRef": "sit",
+  "Date": "2021-03-20T03:44:52.480256+01:00",
+  "ExternalRef": "pariatur",
   "Completed": "Completed",
-  "ActiveLinks": 632,
+  "ActiveLinks": 526,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Becker-Wuckert",
-      "Id": 825,
-      "Description": "Integrated homogeneous middleware",
-      "ExtraInfo": "sit",
-      "LinkId": 110,
+      "EntityName": "Gutmann-King",
+      "Id": 854,
+      "Description": "Operative fresh-thinking help-desk",
+      "ExtraInfo": "autem",
+      "LinkId": 654,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 662
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 425,
-  "Snum": 227,
+  "SuggestedDocumentId": 135,
+  "Snum": 91,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Johann Wisoky I",
+    "SuperOffice:1": "Mr. Eloy Cole IV",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "quos"
+    "CustomFields1": "molestias",
+    "CustomFields2": "doloremque"
   },
-  "PublishEventDate": "2009-12-19T04:02:01.6123809+01:00",
-  "PublishTo": "2012-02-13T04:02:01.6123809+01:00",
-  "PublishFrom": "2011-09-08T04:02:01.6123809+02:00",
+  "PublishEventDate": "2014-01-15T03:44:52.480256+01:00",
+  "PublishTo": "2001-01-31T03:44:52.480256+01:00",
+  "PublishFrom": "2010-09-20T03:44:52.480256+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 340,
+      "VisibleId": 349,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     },
     {
-      "VisibleId": 340,
+      "VisibleId": 349,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldType": "System.String",
+      "FieldLength": 362
     }
   }
 }

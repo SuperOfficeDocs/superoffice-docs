@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 801,
-  "ERPProductKey": "ratione",
-  "ERPPriceListKey": "voluptas",
-  "Name": "Kozey, Smitham and Kub",
-  "Description": "Enhanced scalable array",
-  "Code": "dolores",
-  "PriceUnit": "consectetur",
-  "QuantityUnit": "asperiores",
-  "IsSubscription": true,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 21492.971999999998,
-  "ItemNumber": "1523312",
+  "ProductId": 696,
+  "ERPProductKey": "aut",
+  "ERPPriceListKey": "est",
+  "Name": "Jones Group",
+  "Description": "Customizable high-level policy",
+  "Code": "velit",
+  "PriceUnit": "tenetur",
+  "QuantityUnit": "facere",
+  "IsSubscription": false,
+  "SubscriptionUnit": "magnam",
+  "DefaultSubscriptionQuantity": 23812.131999999998,
+  "ItemNumber": "659219",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "omnis",
-  "ProductTypeKey": "ut",
-  "VAT": 14701.594,
-  "VATInfo": "ullam",
-  "UnitCost": 31089.28,
-  "UnitMinimumPrice": 25955.788,
-  "UnitListPrice": 16948.672,
-  "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "saepe",
-  "Rights": "aliquam",
-  "Rule": "harum",
+  "ProductFamilyKey": "non",
+  "ProductTypeKey": "qui",
+  "VAT": 13833.475999999999,
+  "VATInfo": "eligendi",
+  "UnitCost": 19863.291999999998,
+  "UnitMinimumPrice": 16810.775999999998,
+  "UnitListPrice": 28140.185999999998,
+  "InAssortment": true,
+  "Supplier": "rem",
+  "SupplierCode": "voluptas",
+  "Rights": "hic",
+  "Rule": "nam",
   "ExtraInfo": [
     {
-      "Name": "Mante-Bahringer",
-      "Value": "facilis",
+      "Name": "Kunze-McCullough",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldType": "System.String",
+          "FieldLength": 811
         }
       }
     },
     {
-      "Name": "Mante-Bahringer",
-      "Value": "facilis",
+      "Name": "Kunze-McCullough",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldType": "System.String",
+          "FieldLength": 811
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "unde",
-  "ExtraField2": "adipisci",
-  "ExtraField3": "debitis",
-  "ExtraField4": "rerum",
-  "ExtraField5": "maxime",
-  "InStock": 4613.248,
+  "RawExtraInfo": "omnis",
+  "ExtraField1": "vitae",
+  "ExtraField2": "et",
+  "ExtraField3": "quam",
+  "ExtraField4": "at",
+  "ExtraField5": "delectus",
+  "InStock": 22605.541999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 929
     }
   }
 }

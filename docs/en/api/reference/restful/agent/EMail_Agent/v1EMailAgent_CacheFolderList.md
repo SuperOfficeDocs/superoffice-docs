@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,11 +84,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Parker, Abernathy and Murphy",
-    "Delimiter": "natus",
-    "Flags": "accusantium",
-    "TotalItems": 12,
-    "UnreadItems": 758,
+    "Name": "Pollich Group",
+    "Delimiter": "aut",
+    "Flags": "assumenda",
+    "TotalItems": 936,
+    "UnreadItems": 854,
     "Subscribed": false,
     "EmailFolderId": 188,
     "TableRight": null,
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 208
       }
     }
   }

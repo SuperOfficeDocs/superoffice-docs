@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 19 May 2007 04:02:06 G5T
+Last-Modified: Mon, 21 Jul 1997 03:44:57 G7T
 
 {
-  "ForeignAppId": 802,
-  "Name": "Wintheiser Group",
-  "CreatedDate": "2016-05-09T04:02:06.6191478+02:00",
-  "UpdatedDate": "2007-05-19T04:02:06.6191478+02:00",
+  "ForeignAppId": 829,
+  "Name": "Harvey Inc and Sons",
+  "CreatedDate": "2018-08-30T03:44:57.359003+02:00",
+  "UpdatedDate": "1997-07-21T03:44:57.359003+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 464,
-      "Name": "Ernser-Boyer",
-      "CreatedDate": "2013-06-09T04:02:06.6191478+02:00",
-      "UpdatedDate": "2014-11-03T04:02:06.6191478+01:00",
-      "AssociateFullName": "Stuart Gretchen Cummerata Sr.",
-      "CreatedBy": "culpa",
-      "UpdatedBy": "eius",
-      "DeviceIdentifier": "repellat",
-      "ForeignAppId": 498,
+      "ForeignDeviceId": 989,
+      "Name": "Koch, Kilback and Padberg",
+      "CreatedDate": "2000-02-27T03:44:57.359003+01:00",
+      "UpdatedDate": "2006-10-29T03:44:57.359003+01:00",
+      "AssociateFullName": "Christina Kerluke",
+      "CreatedBy": "ab",
+      "UpdatedBy": "ipsa",
+      "DeviceIdentifier": "dolorem",
+      "ForeignAppId": 5,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldLength": 492
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Sat, 19 May 2007 04:02:06 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 935
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   },
   "_Links": {

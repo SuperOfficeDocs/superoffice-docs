@@ -91,7 +91,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=firstName,associateDbId
+GET /api/v1/archive/InternalUsers?$select=firstName,firstName,associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

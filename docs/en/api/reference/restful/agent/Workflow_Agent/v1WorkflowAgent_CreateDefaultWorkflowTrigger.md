@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 986,
-  "WorkflowId": 610,
+  "WorkflowTriggerId": 388,
+  "WorkflowId": 280,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Tillman, Streich and Langosh",
-      "Description": "Cross-platform radical approach",
-      "Rank": 807,
+      "Name": "Miller-Kulas",
+      "Description": "Future-proofed radical toolset",
+      "Rank": 525,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Tillman, Streich and Langosh",
-      "Description": "Cross-platform radical approach",
-      "Rank": 807,
+      "Name": "Miller-Kulas",
+      "Description": "Future-proofed radical toolset",
+      "Rank": 525,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 840
     }
   }
 }

@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "rerum",
-  "GroupName": "Mitchell, Hamill and Stehr"
+  "Type": "autem",
+  "GroupName": "Kihn-Borer"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "aliquid",
-    "perferendis"
+    "laudantium",
+    "omnis"
   ],
   "Users": [
     {
-      "Value": "aperiam",
-      "DisplayValue": "et",
+      "Value": "ab",
+      "DisplayValue": "dolor",
       "Columns": [
-        "necessitatibus",
-        "placeat"
+        "voluptate",
+        "iure"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldLength": 700
         }
       }
     },
     {
-      "Value": "aperiam",
-      "DisplayValue": "et",
+      "Value": "ab",
+      "DisplayValue": "dolor",
       "Columns": [
-        "necessitatibus",
-        "placeat"
+        "voluptate",
+        "iure"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldLength": 700
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 722
     }
   }
 }

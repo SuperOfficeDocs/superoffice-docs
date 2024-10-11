@@ -93,18 +93,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 344,
-  "Name": "Murazik-Sauer",
-  "ContentType": "eum",
-  "AttSize": 609,
-  "InlineImage": false,
-  "ContentId": "deserunt",
-  "AuthKey": "placeat",
-  "IsSafeFileExtension": true
+  "AttachmentId": 594,
+  "Name": "Tremblay, Jacobs and Rohan",
+  "ContentType": "aut",
+  "AttSize": 649,
+  "InlineImage": true,
+  "ContentId": "dicta",
+  "AuthKey": "corporis",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 822,
-  "Name": "Jacobs-Yost",
-  "ContentType": "voluptas",
-  "AttSize": 973,
+  "AttachmentId": 341,
+  "Name": "Jerde-Kozey",
+  "ContentType": "ipsum",
+  "AttSize": 530,
   "InlineImage": false,
-  "ContentId": "ea",
-  "AuthKey": "tempora",
+  "ContentId": "et",
+  "AuthKey": "minus",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 569
     }
   },
   "_Links": {

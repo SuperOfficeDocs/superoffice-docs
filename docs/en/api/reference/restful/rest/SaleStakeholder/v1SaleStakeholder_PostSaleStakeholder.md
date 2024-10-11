@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Lind-Goodwin",
-  "Comment": "amet",
-  "StakeholderRoleId": 750,
-  "CountryId": 426,
-  "PersonId": 50,
-  "EmailDescription": "cierra_hirthe@lubowitzfadel.com",
-  "EmailId": 476,
-  "EmailAddress": "evert@senger.com",
-  "PhoneId": 925,
-  "ContactName": "Larson-Gleason",
-  "ContactId": 553,
-  "SaleId": 659,
-  "Mrmrs": "quia",
-  "Firstname": "Eve",
-  "MiddleName": "Bahringer LLC",
-  "Lastname": "Kovacek",
-  "SaleStakeholderId": 998,
-  "Rank": 145,
-  "Phone": "025-860-6556 x2189"
+  "StakeholderRoleName": "Thompson LLC",
+  "Comment": "earum",
+  "StakeholderRoleId": 619,
+  "CountryId": 615,
+  "PersonId": 798,
+  "EmailDescription": "maybelle@schowaltereffertz.name",
+  "EmailId": 490,
+  "EmailAddress": "kiara.cummings@jacobskoch.uk",
+  "PhoneId": 738,
+  "ContactName": "Paucek, Mante and Renner",
+  "ContactId": 33,
+  "SaleId": 375,
+  "Mrmrs": "hic",
+  "Firstname": "Anya",
+  "MiddleName": "Abshire LLC",
+  "Lastname": "Kihn",
+  "SaleStakeholderId": 120,
+  "Rank": 248,
+  "Phone": "116.288.6794 x258"
 }
 ```
 
@@ -145,36 +145,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Towne-Batz",
-  "Comment": "quod",
-  "StakeholderRoleId": 191,
-  "CountryId": 259,
-  "PersonId": 660,
-  "EmailDescription": "humberto@skiles.ca",
-  "EmailId": 277,
-  "EmailAddress": "georgiana_cronin@leuschkehahn.name",
-  "PhoneId": 489,
-  "ContactName": "Marks, Anderson and Tillman",
-  "ContactId": 35,
-  "SaleId": 702,
-  "Mrmrs": "et",
-  "Firstname": "Nickolas",
-  "MiddleName": "Prohaska Inc and Sons",
-  "Lastname": "Quigley",
-  "SaleStakeholderId": 390,
-  "Rank": 710,
-  "Phone": "453-024-5186 x03726",
+  "StakeholderRoleName": "DuBuque, Pfeffer and Lesch",
+  "Comment": "et",
+  "StakeholderRoleId": 376,
+  "CountryId": 155,
+  "PersonId": 213,
+  "EmailDescription": "audrey@bins.co.uk",
+  "EmailId": 611,
+  "EmailAddress": "pietro.murray@labadielindgren.com",
+  "PhoneId": 801,
+  "ContactName": "Gottlieb, Ryan and Eichmann",
+  "ContactId": 272,
+  "SaleId": 7,
+  "Mrmrs": "natus",
+  "Firstname": "Vicenta",
+  "MiddleName": "Keeling Inc and Sons",
+  "Lastname": "Fadel",
+  "SaleStakeholderId": 109,
+  "Rank": 35,
+  "Phone": "203.963.2995",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

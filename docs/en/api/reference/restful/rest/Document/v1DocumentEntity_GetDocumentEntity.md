@@ -33,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=True
+GET /api/v1/Document/{id}?fk=False
 ```
 
 
@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 17 Jul 2012 04:02:06 G7T
+Last-Modified: Fri, 06 Aug 2021 03:44:57 G8T
 
 {
-  "DocumentId": 531,
+  "DocumentId": 230,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "a",
-  "Header": "harum",
-  "Name": "Kshlerin, Gulgowski and Medhurst",
-  "OurRef": "est",
-  "YourRef": "et",
-  "CreatedDate": "2012-10-13T04:02:06.5722784+02:00",
-  "UpdatedDate": "2012-07-17T04:02:06.5722784+02:00",
-  "Description": "Mandatory grid-enabled Graphical User Interface",
+  "Attention": "eius",
+  "Header": "veniam",
+  "Name": "Waters, Marks and Runolfsson",
+  "OurRef": "voluptatem",
+  "YourRef": "ad",
+  "CreatedDate": "2013-12-19T03:44:57.2965093+01:00",
+  "UpdatedDate": "2021-08-06T03:44:57.2965093+02:00",
+  "Description": "Ameliorated intangible capacity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-07-27T04:02:06.5722784+02:00",
-  "ExternalRef": "aliquid",
+  "Date": "2019-03-03T03:44:57.2965093+01:00",
+  "ExternalRef": "dolores",
   "Completed": "Completed",
-  "ActiveLinks": 853,
+  "ActiveLinks": 904,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "West-Ondricka",
-      "Id": 591,
-      "Description": "Digitized high-level alliance",
-      "ExtraInfo": "consectetur",
-      "LinkId": 434,
+      "EntityName": "Gorczany-Predovic",
+      "Id": 701,
+      "Description": "Cross-group regional methodology",
+      "ExtraInfo": "molestias",
+      "LinkId": 286,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldLength": 276
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 709,
-  "Snum": 362,
+  "SuggestedDocumentId": 549,
+  "Snum": 625,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Augusta Zieme DVM",
-    "SuperOffice:2": "125209835"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dereck Watsica"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "et",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "modi"
+    "CustomFields1": "facilis",
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "2011-05-15T04:02:06.5722784+02:00",
-  "PublishTo": "2002-08-31T04:02:06.5722784+02:00",
-  "PublishFrom": "2018-03-09T04:02:06.5722784+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-05-02T03:44:57.3121326+02:00",
+  "PublishTo": "1998-07-22T03:44:57.3121326+02:00",
+  "PublishFrom": "2016-03-13T03:44:57.3121326+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 528,
+      "VisibleId": 306,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 32
+          "FieldType": "System.Int32",
+          "FieldLength": 583
         }
       }
     },
     {
-      "VisibleId": 528,
+      "VisibleId": 306,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 32
+          "FieldType": "System.Int32",
+          "FieldLength": 583
         }
       }
     }
@@ -211,12 +211,12 @@ Last-Modified: Tue, 17 Jul 2012 04:02:06 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 502
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

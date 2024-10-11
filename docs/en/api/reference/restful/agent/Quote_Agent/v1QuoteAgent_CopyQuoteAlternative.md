@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 730,
-  "QuoteAlternativeId": 560,
-  "QuoteAlternativeName": "Jenkins LLC"
+  "QuoteVersionId": 709,
+  "QuoteAlternativeId": 216,
+  "QuoteAlternativeName": "Ratke LLC"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 342,
-  "ERPQuoteAlternativeKey": "esse",
-  "QuoteVersionId": 613,
-  "Name": "Kub-Schowalter",
-  "Description": "Synergized systematic policy",
+  "QuoteAlternativeId": 282,
+  "ERPQuoteAlternativeKey": "ut",
+  "QuoteVersionId": 929,
+  "Name": "Keebler, Donnelly and Fadel",
+  "Description": "Total contextually-based extranet",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 2359.902,
-  "ERPDiscountAmount": 868.11799999999994,
-  "DiscountPercent": 29340.507999999998,
-  "DiscountAmount": 9076.064,
+  "Reason": "synthesize viral supply-chains",
+  "ERPDiscountPercent": 28998.902,
+  "ERPDiscountAmount": 8496.274,
+  "DiscountPercent": 26043.54,
+  "DiscountAmount": 20994.666,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aut",
-  "VAT": 21073.016,
-  "EarningPercent": 8023.04,
-  "EarningAmount": 21342.54,
-  "SubTotal": 7126.7159999999994,
-  "TotalPrice": 24623.838,
-  "ExtraField1": "quaerat",
-  "ExtraField2": "placeat",
-  "ExtraField3": "reiciendis",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "maxime",
+  "VATInfo": "itaque",
+  "VAT": 11708.624,
+  "EarningPercent": 22915.808,
+  "EarningAmount": 13379.046,
+  "SubTotal": 12394.97,
+  "TotalPrice": 14012.114,
+  "ExtraField1": "officiis",
+  "ExtraField2": "perferendis",
+  "ExtraField3": "et",
+  "ExtraField4": "facilis",
+  "ExtraField5": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldType": "System.Int32",
+      "FieldLength": 281
     }
   }
 }

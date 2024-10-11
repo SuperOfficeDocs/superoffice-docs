@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/ErpSync/SyncAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "esse",
-  "TechExplanation": "quidem",
-  "ErrorCode": "minus",
+  "UserExplanation": "et",
+  "TechExplanation": "quas",
+  "ErrorCode": "et",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   }
 }

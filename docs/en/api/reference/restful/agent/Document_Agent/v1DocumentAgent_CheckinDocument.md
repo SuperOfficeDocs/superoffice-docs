@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 391,
+  "DocumentId": 989,
   "AllowedReturnTypes": [
-    "at",
-    "doloribus"
-  ],
-  "VersionDescription": "Object-based actuating approach",
-  "VersionExtraFields": [
-    "necessitatibus",
+    "provident",
     "rerum"
+  ],
+  "VersionDescription": "Future-proofed upward-trending neural-net",
+  "VersionExtraFields": [
+    "enim",
+    "cum"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "cupiditate",
-  "VersionId": "animi",
-  "Success": true,
+  "ExternalReference": "placeat",
+  "VersionId": "quod",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "aliquid",
-  "AdditionalInfo": "illum"
+  "Value": "quasi",
+  "AdditionalInfo": "ipsum"
 }
 ```

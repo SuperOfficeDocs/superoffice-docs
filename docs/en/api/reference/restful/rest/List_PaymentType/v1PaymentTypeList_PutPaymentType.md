@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "Labadie, Dach and Hermiston",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 185,
-  "Rank": 578
+  "Id": 59,
+  "Name": "Williamson LLC",
+  "Tooltip": "quisquam",
+  "Deleted": false,
+  "UdListDefinitionId": 381,
+  "Rank": 562
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Hyatt-Maggio",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "UdListDefinitionId": 196,
-  "Rank": 629,
+  "Id": 806,
+  "Name": "Sawayn LLC",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 469,
+  "Rank": 861,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 989
     }
   }
 }

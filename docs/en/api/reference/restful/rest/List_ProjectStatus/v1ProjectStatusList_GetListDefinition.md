@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Monahan Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 131,
+  "Id": 943,
+  "Name": "Stehr, Sawayn and Bergstrom",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "Rank": 828,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "numquam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "nam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 946
     }
   },
   "_Links": {

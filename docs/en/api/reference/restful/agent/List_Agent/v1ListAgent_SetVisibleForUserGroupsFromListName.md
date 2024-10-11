@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Leannon, Kunze and Beier",
-  "ListItemId": 993,
+  "UdListDefinitionName": "Goyette Inc and Sons",
+  "ListItemId": 688,
   "UserGroups": [
     {
-      "Id": 144,
-      "Name": "Hilll Group",
-      "ToolTip": "Et molestiae mollitia.",
+      "Id": 265,
+      "Name": "Gibson, Sanford and Flatley",
+      "ToolTip": "Repellat quam in.",
       "Deleted": false,
-      "Rank": 900,
-      "Type": "et",
-      "ColorBlock": 652,
-      "IconHint": "et",
+      "Rank": 196,
+      "Type": "natus",
+      "ColorBlock": 552,
+      "IconHint": "voluptas",
       "Selected": true,
-      "LastChanged": "2011-05-30T04:02:01.8316108+02:00",
+      "LastChanged": "2015-07-28T03:44:52.6989885+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "omnis",
-      "Hidden": true,
-      "FullName": "Prof. Johathan Fernando Graham DDS"
+      "ExtraInfo": "ullam",
+      "StyleHint": "quia",
+      "Hidden": false,
+      "FullName": "Immanuel Conn"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Jerde-Hauck",
-    "ToolTip": "Ipsum consequuntur eum.",
+    "Id": 817,
+    "Name": "Lubowitz, Schumm and Harvey",
+    "ToolTip": "Velit quas.",
     "Deleted": false,
-    "Rank": 100,
-    "Type": "quia",
-    "ColorBlock": 158,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2004-10-27T04:02:01.847234+02:00",
+    "Rank": 201,
+    "Type": "id",
+    "ColorBlock": 972,
+    "IconHint": "at",
+    "Selected": false,
+    "LastChanged": "2018-07-21T03:44:52.6989885+02:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Reichert, Wolff and Funk",
-        "ToolTip": "Totam rem iusto temporibus vero est blanditiis.",
+        "Id": 686,
+        "Name": "Franecki-Haag",
+        "ToolTip": "Occaecati aut alias eos necessitatibus qui et.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "accusantium",
-        "ColorBlock": 571,
-        "IconHint": "ducimus",
-        "Selected": true,
-        "LastChanged": "2012-01-10T04:02:01.847234+01:00",
+        "Rank": 536,
+        "Type": "soluta",
+        "ColorBlock": 710,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2013-08-18T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "veniam",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Prof. Jodie Boehm",
+        "FullName": "Jonatan VonRueden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 737
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "officia",
+    "ExtraInfo": "et",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Cielo Wolff",
+    "FullName": "Kody Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 828
       }
     }
   }

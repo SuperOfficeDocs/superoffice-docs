@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Roberts Group",
-  "AssociateId": 406
+  "TableName": "Streich-Bode",
+  "AssociateId": 503
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Wunsch, Zieme and Ernser",
-    "RecordId": 492,
-    "AssociateId": 688,
-    "ExtraInfo": "nulla",
-    "Rank": 455,
+    "TableName": "Lowe LLC",
+    "RecordId": 658,
+    "AssociateId": 51,
+    "ExtraInfo": "quasi",
+    "Rank": 241,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 966
+        "FieldLength": 364
       }
     }
   }

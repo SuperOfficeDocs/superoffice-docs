@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Green Group",
-  "Tooltip": "id",
+  "Id": 955,
+  "Name": "Raynor Group",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 108,
+  "Rank": 926,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "expedita",
+  "ListType": "veniam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 267,
-  "Name": "Wilkinson-Mertz",
-  "Tooltip": "maiores",
+  "Id": 645,
+  "Name": "Jaskolski Group",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 613,
+  "Rank": 693,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 838
     }
   }
 }

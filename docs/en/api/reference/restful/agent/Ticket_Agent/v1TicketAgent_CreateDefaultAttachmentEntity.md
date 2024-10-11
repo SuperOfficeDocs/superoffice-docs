@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 684,
-  "Name": "Maggio, Jacobs and Schimmel",
-  "ContentType": "commodi",
-  "AttSize": 808,
-  "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "labore",
+  "AttachmentId": 819,
+  "Name": "Rippin, Lowe and Lakin",
+  "ContentType": "eos",
+  "AttSize": 582,
+  "InlineImage": false,
+  "ContentId": "fugiat",
+  "AuthKey": "qui",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

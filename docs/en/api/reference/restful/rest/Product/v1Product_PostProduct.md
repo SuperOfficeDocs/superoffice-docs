@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 723,
-  "ERPProductKey": "voluptate",
-  "ERPPriceListKey": "aut",
-  "Name": "Hammes, Tromp and Stehr",
-  "Description": "Mandatory systematic core",
-  "Code": "iste",
-  "PriceUnit": "est",
-  "QuantityUnit": "a",
-  "IsSubscription": true,
-  "SubscriptionUnit": "dolorum",
-  "DefaultSubscriptionQuantity": 17675.76,
-  "ItemNumber": "297851",
+  "ProductId": 761,
+  "ERPProductKey": "quo",
+  "ERPPriceListKey": "omnis",
+  "Name": "Cummings LLC",
+  "Description": "Advanced static intranet",
+  "Code": "adipisci",
+  "PriceUnit": "officia",
+  "QuantityUnit": "accusantium",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quibusdam",
+  "DefaultSubscriptionQuantity": 7925.8859999999995,
+  "ItemNumber": "1337445",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "exercitationem",
-  "ProductTypeKey": "iure",
-  "VAT": 10630.528,
-  "VATInfo": "illum",
-  "UnitCost": 18763.257999999998,
-  "UnitMinimumPrice": 25698.8,
-  "UnitListPrice": 11921.735999999999,
+  "ProductFamilyKey": "sapiente",
+  "ProductTypeKey": "minus",
+  "VAT": 570.388,
+  "VATInfo": "amet",
+  "UnitCost": 18556.414,
+  "UnitMinimumPrice": 2936.558,
+  "UnitListPrice": 28334.494,
   "InAssortment": true,
-  "Supplier": "consequuntur",
-  "SupplierCode": "architecto",
-  "Rights": "sed",
-  "Rule": "corrupti",
+  "Supplier": "est",
+  "SupplierCode": "ut",
+  "Rights": "in",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Koch-Schroeder",
-      "Value": "quae",
+      "Name": "O'Connell, Wilderman and Heathcote",
+      "Value": "ipsam",
       "Type": "Image"
     },
     {
-      "Name": "Koch-Schroeder",
-      "Value": "quae",
+      "Name": "O'Connell, Wilderman and Heathcote",
+      "Value": "ipsam",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "dolor",
-  "ExtraField1": "quod",
-  "ExtraField2": "vel",
-  "ExtraField3": "qui",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "deserunt",
-  "InStock": 31173.897999999997
+  "RawExtraInfo": "dicta",
+  "ExtraField1": "et",
+  "ExtraField2": "iste",
+  "ExtraField3": "cum",
+  "ExtraField4": "et",
+  "ExtraField5": "est",
+  "InStock": 17290.278
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 85,
-  "ERPProductKey": "quidem",
-  "ERPPriceListKey": "sit",
-  "Name": "Dickens-Yost",
-  "Description": "Phased impactful access",
-  "Code": "quaerat",
-  "PriceUnit": "at",
-  "QuantityUnit": "consequatur",
-  "IsSubscription": false,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 26670.34,
-  "ItemNumber": "963045",
+  "ProductId": 452,
+  "ERPProductKey": "laudantium",
+  "ERPPriceListKey": "vel",
+  "Name": "Davis LLC",
+  "Description": "Face to face user-facing implementation",
+  "Code": "quia",
+  "PriceUnit": "deleniti",
+  "QuantityUnit": "voluptates",
+  "IsSubscription": true,
+  "SubscriptionUnit": "nostrum",
+  "DefaultSubscriptionQuantity": 26313.064,
+  "ItemNumber": "1840830",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "qui",
-  "VAT": 26604.525999999998,
-  "VATInfo": "et",
-  "UnitCost": 16437.829999999998,
-  "UnitMinimumPrice": 21615.198,
-  "UnitListPrice": 30907.507999999998,
-  "InAssortment": false,
-  "Supplier": "debitis",
-  "SupplierCode": "eos",
-  "Rights": "delectus",
-  "Rule": "et",
+  "ProductFamilyKey": "repudiandae",
+  "ProductTypeKey": "ut",
+  "VAT": 23345.165999999997,
+  "VATInfo": "est",
+  "UnitCost": 8132.73,
+  "UnitMinimumPrice": 21856.516,
+  "UnitListPrice": 26350.672,
+  "InAssortment": true,
+  "Supplier": "quaerat",
+  "SupplierCode": "qui",
+  "Rights": "et",
+  "Rule": "iste",
   "ExtraInfo": [
     {
-      "Name": "Stiedemann Group",
-      "Value": "dolores",
+      "Name": "Hettinger Inc and Sons",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 116
         }
       }
     },
     {
-      "Name": "Stiedemann Group",
-      "Value": "dolores",
+      "Name": "Hettinger Inc and Sons",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 116
         }
       }
     }
   ],
-  "RawExtraInfo": "error",
-  "ExtraField1": "hic",
-  "ExtraField2": "perspiciatis",
-  "ExtraField3": "voluptatum",
-  "ExtraField4": "sit",
-  "ExtraField5": "necessitatibus",
-  "InStock": 27563.53,
+  "RawExtraInfo": "blanditiis",
+  "ExtraField1": "quidem",
+  "ExtraField2": "sapiente",
+  "ExtraField3": "iste",
+  "ExtraField4": "tempora",
+  "ExtraField5": "ratione",
+  "InStock": 1168.982,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldLength": 678
     }
   }
 }

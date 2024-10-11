@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Cassin Inc and Sons",
-    "Tooltip": "alias",
-    "Deleted": true,
-    "UdListDefinitionId": 706,
-    "Rank": 865,
+    "Id": 197,
+    "Name": "Zemlak Inc and Sons",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "UdListDefinitionId": 788,
+    "Rank": 214,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldLength": 717
       }
     }
   }

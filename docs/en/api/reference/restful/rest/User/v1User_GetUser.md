@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 53,
-  "Name": "Rowe Inc and Sons",
-  "Rank": 552,
-  "Tooltip": "magni",
+  "AssociateId": 645,
+  "Name": "Kirlin Inc and Sons",
+  "Rank": 891,
+  "Tooltip": "repellat",
   "LicenseOwners": [
     {
-      "Name": "Farrell-Mayert",
-      "Description": "Customer-focused homogeneous website",
+      "Name": "Emard Group",
+      "Description": "Exclusive directional benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldLength": 211
         }
       }
     },
     {
-      "Name": "Farrell-Mayert",
-      "Description": "Customer-focused homogeneous website",
+      "Name": "Emard Group",
+      "Description": "Exclusive directional benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldLength": 211
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "doloribus",
-      "Tooltip": "iusto",
-      "Id": 1000,
-      "Rank": 662,
-      "Deleted": false,
+      "Value": "magnam",
+      "Tooltip": "rerum",
+      "Id": 713,
+      "Rank": 118,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 524
+          "FieldType": "System.String",
+          "FieldLength": 120
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2003-07-19T04:02:07.009732+02:00",
-  "Lastlogout": "2021-01-10T04:02:07.009732+01:00",
-  "EjUserId": 100,
-  "RequestSignature": "sed",
+  "Deleted": false,
+  "Lastlogin": "2024-01-09T03:44:57.7656717+01:00",
+  "Lastlogout": "2003-08-01T03:44:57.7656717+02:00",
+  "EjUserId": 698,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "repudiandae",
-      "DisplayValue": "voluptatem",
+      "Value": "sunt",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 33
+          "FieldType": "System.Int32",
+          "FieldLength": 156
         }
       }
     },
     {
       "Type": null,
-      "Value": "repudiandae",
-      "DisplayValue": "voluptatem",
+      "Value": "sunt",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 33
+          "FieldType": "System.Int32",
+          "FieldLength": 156
         }
       }
     }
   ],
-  "UserName": "Hermann Inc and Sons",
+  "UserName": "Gusikowski, Halvorson and McLaughlin",
   "TicketCategories": [
     {
-      "Id": 758,
-      "Name": "Torphy, King and Marks",
-      "ToolTip": "Nihil et ut quae.",
+      "Id": 238,
+      "Name": "O'Kon Group",
+      "ToolTip": "Velit tempora cupiditate.",
       "Deleted": false,
-      "Rank": 699,
-      "Type": "et",
+      "Rank": 14,
+      "Type": "ratione",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iure",
-      "ColorBlock": 779,
-      "ExtraInfo": "et",
-      "StyleHint": "dolor",
-      "FullName": "Elian Larkin",
+      "IconHint": "velit",
+      "ColorBlock": 402,
+      "ExtraInfo": "maxime",
+      "StyleHint": "assumenda",
+      "FullName": "Britney Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 718
+          "FieldType": "System.Int32",
+          "FieldLength": 785
         }
       }
     }
   ],
-  "NickName": "Reilly Inc and Sons",
+  "NickName": "Prosacco Group",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "dolores"
   },
   "PostSaveCommands": [
     {
-      "Name": "Steuber-Graham",
-      "DisplayName": "Nitzsche-Wolf",
-      "Description": "Operative zero administration process improvement",
-      "ToolTip": "Cupiditate nihil dolorem quam.",
+      "Name": "Bode LLC",
+      "DisplayName": "Toy, Halvorson and Stiedemann",
+      "Description": "Team-oriented interactive encoding",
+      "ToolTip": "Quidem est iste et.",
       "Actions": "Implicit",
-      "ActionData": "velit",
+      "ActionData": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 888
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     }
@@ -275,12 +275,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldLength": 728
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

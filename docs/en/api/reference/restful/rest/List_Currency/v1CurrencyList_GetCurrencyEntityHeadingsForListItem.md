@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Conroy LLC",
-    "ToolTip": "Voluptatem omnis deserunt nobis natus.",
+    "Id": 742,
+    "Name": "Boyer Group",
+    "ToolTip": "Atque repellat aut qui sed sit hic.",
     "Deleted": true,
-    "Rank": 411,
-    "Type": "consequatur",
-    "ColorBlock": 464,
-    "IconHint": "aliquid",
+    "Rank": 323,
+    "Type": "omnis",
+    "ColorBlock": 603,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2011-12-04T04:02:07.1503415+01:00",
+    "LastChanged": "2021-05-30T03:44:57.9687368+02:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Veum Inc and Sons",
-        "ToolTip": "Optio enim nam quis quaerat.",
+        "Id": 381,
+        "Name": "Reilly-Franecki",
+        "ToolTip": "Sunt nulla officia aut doloremque.",
         "Deleted": false,
-        "Rank": 457,
-        "Type": "ab",
-        "ColorBlock": 763,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2008-01-15T04:02:07.1503415+01:00",
+        "Rank": 499,
+        "Type": "est",
+        "ColorBlock": 919,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2007-05-12T03:44:57.9687368+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "eos",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Miss Golden Gorczany Jr.",
+        "FullName": "Reilly Beer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 755
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "nisi",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Lourdes Hand",
+    "FullName": "Mallory Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldType": "System.Int32",
+        "FieldLength": 287
       }
     }
   }

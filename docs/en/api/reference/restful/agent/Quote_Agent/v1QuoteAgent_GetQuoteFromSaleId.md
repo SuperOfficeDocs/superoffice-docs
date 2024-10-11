@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 145
+  "SaleId": 202
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 414,
-  "SaleId": 132,
-  "QuoteConnectionId": 682,
-  "ERPQuoteKey": "voluptatem",
-  "ERPOrderKey": "ut",
-  "ActiveQuoteVersionId": 303,
-  "AcceptedQuoteAlternativeId": 980,
-  "UseValuesFromQuote": 93,
-  "DocumentId": 675,
-  "PoNumber": "942703",
-  "OrderComment": "impedit",
-  "PreferredEmailCulture": "tamara@hirthe.co.uk",
+  "QuoteId": 47,
+  "SaleId": 380,
+  "QuoteConnectionId": 446,
+  "ERPQuoteKey": "quam",
+  "ERPOrderKey": "maiores",
+  "ActiveQuoteVersionId": 369,
+  "AcceptedQuoteAlternativeId": 615,
+  "UseValuesFromQuote": 417,
+  "DocumentId": 344,
+  "PoNumber": "600202",
+  "OrderComment": "nisi",
+  "PreferredEmailCulture": "nannie@emard.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 563
     }
   }
 }

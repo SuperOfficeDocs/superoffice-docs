@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schneider, Muller and Doyle",
-  "DeviceName": "Lesch-Wiza",
-  "KeyName": "Abbott, McDermott and Ziemann",
-  "TableName": "Murray, Renner and Kirlin",
-  "RecordId": 765
+  "ApplicationName": "Abshire, Friesen and Stroman",
+  "DeviceName": "Stanton, Langosh and Rath",
+  "KeyName": "Reynolds-Pouros",
+  "TableName": "Botsford Inc and Sons",
+  "RecordId": 356
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "labore",
-  "Value": "aut",
-  "RecordId": 740,
-  "CreatedDate": "2002-06-14T04:02:01.7888547+02:00",
-  "UpdatedDate": "2000-02-28T04:02:01.7888547+01:00",
-  "UpdatedBy": "numquam",
-  "CreatedBy": "quaerat",
-  "TableName": "Davis-Hoppe",
+  "Key": "nisi",
+  "Value": "dolore",
+  "RecordId": 22,
+  "CreatedDate": "2018-11-09T03:44:52.6521119+01:00",
+  "UpdatedDate": "2020-03-23T03:44:52.6521119+01:00",
+  "UpdatedBy": "consequatur",
+  "CreatedBy": "voluptatem",
+  "TableName": "Haley-Walsh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

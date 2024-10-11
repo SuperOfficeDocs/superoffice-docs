@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 880,
-  "Name": "Steuber, Rau and Lebsack",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 590,
-  "UdListDefinitionId": 419
+  "HeadingId": 849,
+  "Name": "Anderson-Blick",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 400,
+  "UdListDefinitionId": 78
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 191,
-  "Name": "Effertz LLC",
-  "Tooltip": "cum",
+  "HeadingId": 532,
+  "Name": "Schimmel, Sanford and White",
+  "Tooltip": "libero",
   "Deleted": false,
-  "Rank": 444,
-  "UdListDefinitionId": 154,
+  "Rank": 63,
+  "UdListDefinitionId": 807,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 603
     }
   }
 }

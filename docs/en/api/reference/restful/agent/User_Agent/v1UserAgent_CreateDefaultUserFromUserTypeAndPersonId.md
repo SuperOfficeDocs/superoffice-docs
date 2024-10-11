@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 929
+  "PersonId": 721
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 111,
-  "Name": "Beer, Lang and Beier",
-  "Rank": 990,
-  "Tooltip": "vel",
+  "AssociateId": 336,
+  "Name": "Cummerata LLC",
+  "Rank": 582,
+  "Tooltip": "voluptatum",
   "LicenseOwners": [
     {
-      "Name": "Ziemann Group",
-      "Description": "Extended optimizing installation",
+      "Name": "Fritsch-Hansen",
+      "Description": "Adaptive high-level Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     },
     {
-      "Name": "Ziemann Group",
-      "Description": "Extended optimizing installation",
+      "Name": "Fritsch-Hansen",
+      "Description": "Adaptive high-level Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quam",
-      "Tooltip": "occaecati",
-      "Id": 354,
-      "Rank": 591,
+      "Value": "architecto",
+      "Tooltip": "consequuntur",
+      "Id": 648,
+      "Rank": 150,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldType": "System.String",
+          "FieldLength": 724
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2009-11-17T04:02:02.5665989+01:00",
-  "Lastlogout": "2017-04-11T04:02:02.5665989+02:00",
-  "EjUserId": 772,
-  "RequestSignature": "sed",
+  "Deleted": true,
+  "Lastlogin": "2011-12-12T03:44:53.418654+01:00",
+  "Lastlogout": "2011-03-28T03:44:53.418654+02:00",
+  "EjUserId": 57,
+  "RequestSignature": "reprehenderit",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quo",
-      "DisplayValue": "enim",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 796
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "quo",
-      "DisplayValue": "enim",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 796
-        }
-      }
-    }
-  ],
-  "UserName": "Schneider Group",
-  "TicketCategories": [
-    {
-      "Id": 965,
-      "Name": "Hansen, D'Amore and Cummings",
-      "ToolTip": "Voluptates nesciunt sapiente.",
-      "Deleted": false,
-      "Rank": 546,
-      "Type": "qui",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "beatae",
-      "ColorBlock": 536,
-      "ExtraInfo": "quibusdam",
-      "StyleHint": "iste",
-      "FullName": "Jennings Elbert Frami V",
+      "Value": "rerum",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 897
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "rerum",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 897
         }
       }
     }
   ],
-  "NickName": "Padberg-Homenick",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "velit"
-  },
-  "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "molestiae"
-  },
-  "PostSaveCommands": [
+  "UserName": "Considine, Dickens and Prohaska",
+  "TicketCategories": [
     {
-      "Name": "Marquardt-Kulas",
-      "DisplayName": "Stoltenberg-Veum",
-      "Description": "Seamless executive local area network",
-      "ToolTip": "Commodi voluptas aut perspiciatis ut at accusantium molestias.",
-      "Actions": "Implicit",
-      "ActionData": "repellendus",
+      "Id": 347,
+      "Name": "Conn-Dietrich",
+      "ToolTip": "Dolores voluptas quaerat deleniti quia qui nobis odio.",
+      "Deleted": true,
+      "Rank": 596,
+      "Type": "et",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "repellendus",
+      "ColorBlock": 798,
+      "ExtraInfo": "dicta",
+      "StyleHint": "rerum",
+      "FullName": "Jesse Weissnat Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 206
+          "FieldLength": 782
+        }
+      }
+    }
+  ],
+  "NickName": "Fisher LLC",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "ut",
+    "ExtraFields2": "eum"
+  },
+  "CustomFields": {
+    "CustomFields1": "maxime",
+    "CustomFields2": "officia"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Lemke, Bogisich and Harvey",
+      "DisplayName": "Auer-Hessel",
+      "Description": "Triple-buffered logistical knowledge user",
+      "ToolTip": "Nostrum saepe.",
+      "Actions": "Implicit",
+      "ActionData": "commodi",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 494
     }
   }
 }

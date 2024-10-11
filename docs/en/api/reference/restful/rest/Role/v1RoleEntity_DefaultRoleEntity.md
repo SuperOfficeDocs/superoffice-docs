@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 249,
-  "Name": "Satterfield-Dooley",
-  "Tooltip": "eveniet",
+  "RoleId": 810,
+  "Name": "Schimmel, Kirlin and Morissette",
+  "Tooltip": "ipsam",
   "RoleType": "Anonymous",
-  "Deleted": 734,
-  "Rank": 187,
-  "Created": "2012-01-20T04:02:06.7441349+01:00",
-  "UseCategories": 92,
+  "Deleted": 978,
+  "Rank": 511,
+  "Created": "2005-04-12T03:44:57.4844273+02:00",
+  "UseCategories": 146,
   "CreatedBy": null,
-  "Updated": "2020-12-09T04:02:06.7441349+01:00",
+  "Updated": "2018-11-04T03:44:57.4844273+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 956
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 613,
-  "PrefDescId": 488,
-  "PrefValue": "labore",
-  "PrefShowValue": "ab",
-  "Description": "Decentralized tertiary architecture",
-  "IsBuiltin": false
+  "PrefDescLineId": 53,
+  "PrefDescId": 308,
+  "PrefValue": "est",
+  "PrefShowValue": "cupiditate",
+  "Description": "Expanded client-driven capability",
+  "IsBuiltin": true
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 945,
-  "PrefDescId": 243,
-  "PrefValue": "beatae",
-  "PrefShowValue": "omnis",
-  "Description": "Quality-focused multi-tasking methodology",
-  "IsBuiltin": false,
+  "PrefDescLineId": 957,
+  "PrefDescId": 745,
+  "PrefValue": "sapiente",
+  "PrefShowValue": "accusantium",
+  "Description": "Managed logistical parallelism",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldType": "System.String",
+      "FieldLength": 791
     }
   }
 }

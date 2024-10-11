@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 454,
-  "Name": "Bergnaum LLC",
-  "Tooltip": "quam",
+  "Id": 497,
+  "Name": "Simonis-Bergnaum",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 449,
+  "Rank": 127,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "unde",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Larkin, Heathcote and Leffler",
-  "Tooltip": "similique",
+  "Id": 241,
+  "Name": "Bechtelar Group",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 692,
+  "Rank": 836,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
+  "ListType": "dolorum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 745
     }
   }
 }

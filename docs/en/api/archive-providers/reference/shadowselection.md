@@ -37,7 +37,7 @@ Only the two ID columns are available. The row type is fixed (contact or person)
 ## Sample
 
 ```http!
-GET /api/v1/archive/ShadowSelection?$select=selectionId
+GET /api/v1/archive/ShadowSelection?$select=
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

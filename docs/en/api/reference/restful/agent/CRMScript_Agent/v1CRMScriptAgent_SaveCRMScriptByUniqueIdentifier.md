@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "facere",
+  "UniqueIdentifier": "explicabo",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dicta",
-  "Name": "Gutkowski-Stokes",
-  "Description": "Operative full-range attitude",
-  "IncludeId": "qui",
-  "Source": "ratione",
-  "Registered": "2017-03-04T04:02:01.5186345+01:00",
-  "RegisteredBy": "ducimus",
-  "Updated": "2019-10-20T04:02:01.5186345+02:00",
-  "UpdatedBy": "repellat",
-  "Path": "sed",
+  "UniqueIdentifier": "ut",
+  "Name": "Hilll-Champlin",
+  "Description": "Grass-roots hybrid data-warehouse",
+  "IncludeId": "officia",
+  "Source": "expedita",
+  "Registered": "2019-09-26T03:44:52.3708918+02:00",
+  "RegisteredBy": "exercitationem",
+  "Updated": "2014-10-07T03:44:52.3708918+02:00",
+  "UpdatedBy": "beatae",
+  "Path": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 151
+      "FieldType": "System.Int32",
+      "FieldLength": 369
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=235
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=732
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 252,
-  "ColumnId": 984,
-  "FieldDefault": "harum",
-  "FieldHeight": 449,
-  "FieldLabel": "earum",
-  "FieldLeft": 220,
-  "FieldTop": 724,
+  "UDefFieldId": 238,
+  "ColumnId": 760,
+  "FieldDefault": "facilis",
+  "FieldHeight": 889,
+  "FieldLabel": "nam",
+  "FieldLeft": 576,
+  "FieldTop": 777,
   "FieldType": "Checkbox",
-  "FieldWidth": 487,
-  "FormatMask": "aut",
-  "HideLabel": true,
+  "FieldWidth": 519,
+  "FormatMask": "pariatur",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 154,
-  "LabelLeft": 465,
-  "LabelTop": 957,
-  "LabelWidth": 184,
-  "LastVersionId": 654,
-  "ListTableId": 590,
+  "LabelHeight": 830,
+  "LabelLeft": 170,
+  "LabelTop": 854,
+  "LabelWidth": 790,
+  "LastVersionId": 639,
+  "ListTableId": 888,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 277,
-  "ProgId": "voluptatem",
-  "IsReadOnly": true,
-  "ShortLabel": "dolorem",
-  "TabOrder": 919,
-  "TextLength": 572,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 487,
-  "UDListDefinitionId": 412,
+  "Page1LineNo": 73,
+  "ProgId": "necessitatibus",
+  "IsReadOnly": false,
+  "ShortLabel": "expedita",
+  "TabOrder": 492,
+  "TextLength": 840,
+  "Tooltip": "nemo",
+  "UdefIdentity": 993,
+  "UDListDefinitionId": 227,
   "Justification": "Center",
-  "Version": 817,
-  "TemplateVariableName": "Hagenes LLC",
+  "Version": 760,
+  "TemplateVariableName": "Kihn Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Marvin-Weissnat",
+  "MdoListName": "Schamberger, Swaniawski and Ratke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 770
     }
   }
 }

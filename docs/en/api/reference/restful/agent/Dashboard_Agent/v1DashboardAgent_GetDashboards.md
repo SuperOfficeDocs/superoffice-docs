@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 838
+  "AssociateId": 786
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 601,
-    "AssociateId": 123,
-    "Caption": "rem",
+    "DashboardId": 244,
+    "AssociateId": 218,
+    "Caption": "ab",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 258,
-        "Caption": "maiores",
-        "Description": "Centralized scalable parallelism",
-        "ChartName": "Murray-O'Hara",
-        "ChartId": "et",
+        "DashboardTileId": 301,
+        "Caption": "consequatur",
+        "Description": "Assimilated static alliance",
+        "ChartName": "Howe-Prohaska",
+        "ChartId": "assumenda",
         "IsDefault": true,
-        "AssociateId": 515,
-        "GroupId": 151,
-        "SelectionId": 293,
-        "Config": "et",
+        "AssociateId": 267,
+        "GroupId": 839,
+        "SelectionId": 114,
+        "Config": "praesentium",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 99
+            "FieldLength": 54
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldLength": 311
       }
     }
   }

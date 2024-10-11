@@ -93,11 +93,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 421,
-  "PrefDescId": 287,
-  "PrefValue": "nostrum",
-  "PrefShowValue": "quia",
-  "Description": "Triple-buffered high-level hierarchy",
+  "PrefDescLineId": 700,
+  "PrefDescId": 594,
+  "PrefValue": "tempore",
+  "PrefShowValue": "ea",
+  "Description": "Multi-lateral well-modulated algorithm",
   "IsBuiltin": false
 }
 ```
@@ -109,23 +109,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 356,
-  "PrefDescId": 664,
-  "PrefValue": "eum",
-  "PrefShowValue": "facere",
-  "Description": "Polarised bandwidth-monitored portal",
+  "PrefDescLineId": 851,
+  "PrefDescId": 27,
+  "PrefValue": "consectetur",
+  "PrefShowValue": "assumenda",
+  "Description": "Profound didactic interface",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 485
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

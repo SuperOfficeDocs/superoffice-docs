@@ -26,7 +26,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=387
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=801
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 390,
-  "Name": "Koepp-Nicolas",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 321,
+  "WebPanelId": 778,
+  "Name": "Nader-Keebler",
+  "Tooltip": "nemo",
+  "Deleted": true,
+  "Rank": 966,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Mosciski, Altenwerth and Mohr",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Hills Group",
   "Url": "http://www.example.com/",
-  "ProgId": "distinctio",
-  "Icon": 61,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "quo",
+  "Icon": 813,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

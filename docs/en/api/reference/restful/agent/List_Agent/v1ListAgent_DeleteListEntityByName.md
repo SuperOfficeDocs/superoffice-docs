@@ -68,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mills Group"
+  "Name": "Sporer-Hoppe"
 }
 ```
 

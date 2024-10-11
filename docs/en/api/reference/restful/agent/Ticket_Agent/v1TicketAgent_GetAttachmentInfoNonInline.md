@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 770
+  "TicketMessageEntityId": 996
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 733,
-    "Name": "Prosacco, Dickens and Nienow",
-    "ContentType": "quibusdam",
-    "AttSize": 50,
+    "AttachmentId": 853,
+    "Name": "West Group",
+    "ContentType": "eos",
+    "AttSize": 685,
     "InlineImage": true,
-    "ContentId": "et",
-    "AuthKey": "voluptatem",
+    "ContentId": "qui",
+    "AuthKey": "debitis",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 271
+        "FieldType": "System.Int32",
+        "FieldLength": 879
       }
     }
   }

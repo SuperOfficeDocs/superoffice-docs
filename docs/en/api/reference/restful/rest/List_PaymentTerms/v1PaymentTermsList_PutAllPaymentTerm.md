@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Stroman Inc and Sons",
-    "Tooltip": "doloribus",
+    "Id": 745,
+    "Name": "Boehm Group",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 637,
-    "Rank": 670
+    "UdListDefinitionId": 566,
+    "Rank": 238
   },
   {
-    "Id": 657,
-    "Name": "Stroman Inc and Sons",
-    "Tooltip": "doloribus",
+    "Id": 745,
+    "Name": "Boehm Group",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 637,
-    "Rank": 670
+    "UdListDefinitionId": 566,
+    "Rank": 238
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Wehner, Willms and Schinner",
-    "Tooltip": "quaerat",
+    "Id": 665,
+    "Name": "Bahringer-Borer",
+    "Tooltip": "id",
     "Deleted": false,
-    "UdListDefinitionId": 896,
-    "Rank": 161,
+    "UdListDefinitionId": 628,
+    "Rank": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldType": "System.Int32",
+        "FieldLength": 258
       }
     }
   }

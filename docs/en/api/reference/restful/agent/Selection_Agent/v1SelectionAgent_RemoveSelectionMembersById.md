@@ -71,10 +71,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 381,
+  "SelectionId": 821,
   "Ids": [
-    761,
-    107
+    927,
+    100
   ]
 }
 ```

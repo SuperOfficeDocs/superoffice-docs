@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Value": "maxime",
-    "Tooltip": "vitae",
+    "Id": 996,
+    "Value": "nemo",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   },
   {
-    "Id": 575,
-    "Value": "maxime",
-    "Tooltip": "vitae",
+    "Id": 996,
+    "Value": "nemo",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Pfannerstill, Klein and Zieme",
-  "Tooltip": "deserunt",
+  "Id": 662,
+  "Name": "Lind-Hoeger",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 168,
-  "IsCustomList": true,
+  "Rank": 416,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "cum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 946,
-  "Name": "Anderson, O'Conner and Gorczany",
-  "Tooltip": "qui",
+  "Id": 764,
+  "Name": "Fahey Group",
+  "Tooltip": "eos",
   "Deleted": true,
-  "Rank": 565,
-  "IsCustomList": true,
+  "Rank": 386,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

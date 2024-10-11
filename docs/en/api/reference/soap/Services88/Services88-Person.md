@@ -1230,10 +1230,29 @@ title: Services88.PersonAgent WSDL
           <xs:enumeration value="LoginCustomerCenter" />
           <xs:enumeration value="PublicFaq" />
           <xs:enumeration value="ChangePasswordCustomerCenter" />
+          <xs:enumeration value="RegisterCustomerCenterEmailVerification" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="TemporaryKeyDomain" nillable="true" type="tns:TemporaryKeyDomain" />
       <xs:element name="CreateTemporaryKeyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateTemporaryKeyWithPayload">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Domain" type="tns:TemporaryKeyDomain" />
+            <xs:element minOccurs="0" name="TargetId" type="xs:int" />
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+            <xs:element minOccurs="0" name="Expires" type="xs:dateTime" />
+            <xs:element minOccurs="0" name="Payload" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateTemporaryKeyWithPayloadResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
@@ -1262,6 +1281,7 @@ title: Services88.PersonAgent WSDL
               <xs:element minOccurs="0" name="TargetId" type="xs:int" />
               <xs:element minOccurs="0" name="PersonId" type="xs:int" />
               <xs:element minOccurs="0" name="IsExpired" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Payload" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -2435,6 +2455,23 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateTemporaryKeyWithPayloadRequest">
+    <wsdl:part name="parameters" element="tns:CreateTemporaryKeyWithPayload" />
+  </wsdl:message>
+  <wsdl:message name="CreateTemporaryKeyWithPayloadRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateTemporaryKeyWithPayloadResponse">
+    <wsdl:part name="parameters" element="tns:CreateTemporaryKeyWithPayloadResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateTemporaryKeyWithPayloadResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CheckTemporaryKeyRequest">
     <wsdl:part name="parameters" element="tns:CheckTemporaryKey" />
   </wsdl:message>
@@ -3009,6 +3046,10 @@ title: Services88.PersonAgent WSDL
     <wsdl:operation name="CreateTemporaryKey">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateTemporaryKey" name="CreateTemporaryKeyRequest" message="tns:CreateTemporaryKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateTemporaryKeyResponse" name="CreateTemporaryKeyResponse" message="tns:CreateTemporaryKeyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateTemporaryKeyWithPayload">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateTemporaryKeyWithPayload" name="CreateTemporaryKeyWithPayloadRequest" message="tns:CreateTemporaryKeyWithPayloadRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateTemporaryKeyWithPayloadResponse" name="CreateTemporaryKeyWithPayloadResponse" message="tns:CreateTemporaryKeyWithPayloadResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckTemporaryKey">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CheckTemporaryKey" name="CheckTemporaryKeyRequest" message="tns:CheckTemporaryKeyRequest" />
@@ -3642,6 +3683,22 @@ title: Services88.PersonAgent WSDL
         <soap:header message="tns:CreateTemporaryKeyResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CreateTemporaryKeyResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CreateTemporaryKeyResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTemporaryKeyWithPayload">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateTemporaryKeyWithPayload" style="document" />
+      <wsdl:input name="CreateTemporaryKeyWithPayloadRequest">
+        <soap:header message="tns:CreateTemporaryKeyWithPayloadRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateTemporaryKeyWithPayloadRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateTemporaryKeyWithPayloadRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateTemporaryKeyWithPayloadResponse">
+        <soap:header message="tns:CreateTemporaryKeyWithPayloadResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateTemporaryKeyWithPayloadResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateTemporaryKeyWithPayloadResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateTemporaryKeyWithPayloadResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

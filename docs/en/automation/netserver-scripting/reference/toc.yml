@@ -1174,6 +1174,8 @@ items:
     href: documentmigrationagent/getforselection.md
   - name: GetForTemplates
     href: documentmigrationagent/getfortemplates.md
+  - name: GetNumberOfConfidentialDocuments
+    href: documentmigrationagent/getnumberofconfidentialdocuments.md
   - name: HasDocumentsToMigrate
     href: documentmigrationagent/hasdocumentstomigrate.md
   - name: MigrateDocumentToNewDocPlugin
@@ -2464,6 +2466,8 @@ items:
     href: personagent/createorupdateusercandidate.md
   - name: CreateTemporaryKey
     href: personagent/createtemporarykey.md
+  - name: CreateTemporaryKeyWithPayload
+    href: personagent/createtemporarykeywithpayload.md
   - name: DeleteConsentPerson
     href: personagent/deleteconsentperson.md
   - name: DeleteExpired

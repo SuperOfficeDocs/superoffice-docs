@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Gerlach LLC",
-    "ToolTip": "Quas libero sit nam quaerat temporibus praesentium laudantium.",
+    "Id": 393,
+    "Name": "Marks-Harris",
+    "ToolTip": "Enim deserunt.",
     "Deleted": false,
-    "Rank": 431,
-    "Type": "dolorem",
-    "ColorBlock": 978,
-    "IconHint": "ex",
+    "Rank": 489,
+    "Type": "autem",
+    "ColorBlock": 630,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2022-11-03T04:02:07.2440841+01:00",
+    "LastChanged": "2005-10-02T03:44:57.9843605+02:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Koch-Tromp",
-        "ToolTip": "Qui repudiandae corrupti itaque maxime iste labore.",
+        "Id": 88,
+        "Name": "McClure LLC",
+        "ToolTip": "Quis aut sapiente et illum exercitationem perferendis expedita.",
         "Deleted": false,
-        "Rank": 859,
-        "Type": "consequuntur",
-        "ColorBlock": 873,
-        "IconHint": "quaerat",
+        "Rank": 266,
+        "Type": "et",
+        "ColorBlock": 581,
+        "IconHint": "a",
         "Selected": true,
-        "LastChanged": "2003-10-09T04:02:07.2440841+02:00",
+        "LastChanged": "2022-10-12T03:44:57.9843605+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Tina Kertzmann"
+        "ExtraInfo": "harum",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Miss Samara Trystan Bailey"
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "qui",
+    "ExtraInfo": "iusto",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Brittany Murphy"
+    "FullName": "Mr. Oswald Aurelia Kuhn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Kautzer Inc and Sons",
-    "ToolTip": "Enim repellendus asperiores sit.",
-    "Deleted": true,
-    "Rank": 451,
-    "Type": "sed",
-    "ColorBlock": 325,
-    "IconHint": "eos",
+    "Id": 421,
+    "Name": "Pouros, Cartwright and Buckridge",
+    "ToolTip": "Omnis animi.",
+    "Deleted": false,
+    "Rank": 166,
+    "Type": "debitis",
+    "ColorBlock": 665,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2009-05-14T04:02:07.2440841+02:00",
+    "LastChanged": "2006-12-08T03:44:57.9843605+01:00",
     "ChildItems": [
       {
-        "Id": 322,
-        "Name": "Lueilwitz, Parisian and Kautzer",
-        "ToolTip": "Dignissimos eaque eligendi.",
+        "Id": 918,
+        "Name": "Braun, Raynor and Doyle",
+        "ToolTip": "Alias in aut voluptas.",
         "Deleted": true,
-        "Rank": 725,
-        "Type": "et",
-        "ColorBlock": 23,
-        "IconHint": "id",
+        "Rank": 360,
+        "Type": "unde",
+        "ColorBlock": 581,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2005-03-31T04:02:07.2440841+02:00",
+        "LastChanged": "2024-01-03T03:44:57.9843605+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Lula Koelpin III",
+        "ExtraInfo": "placeat",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Dr. Wilhelmine Makenzie Dooley IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldType": "System.String",
+            "FieldLength": 25
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Miss Margarita Hyatt IV",
+    "ExtraInfo": "omnis",
+    "StyleHint": "fugiat",
+    "Hidden": false,
+    "FullName": "Leonard Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldType": "System.String",
+        "FieldLength": 167
       }
     }
   }

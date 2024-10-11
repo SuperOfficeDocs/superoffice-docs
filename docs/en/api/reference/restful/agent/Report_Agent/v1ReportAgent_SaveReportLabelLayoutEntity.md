@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 999,
-  "Name": "Gleichner, Kuhlman and Beahan",
-  "Description": "Organized tertiary structure",
+  "ReportLabelLayoutId": 661,
+  "Name": "Mayer Inc and Sons",
+  "Description": "Reduced background array",
   "Orientation": "Landscape",
-  "PaperWidth": 12,
-  "PaperHeight": 933,
-  "LeftMargin": 471,
-  "RightMargin": 102,
-  "TopMargin": 511,
-  "BottomMargin": 198,
-  "CountColumns": 686,
-  "CountRows": 511
+  "PaperWidth": 243,
+  "PaperHeight": 725,
+  "LeftMargin": 468,
+  "RightMargin": 721,
+  "TopMargin": 740,
+  "BottomMargin": 823,
+  "CountColumns": 627,
+  "CountRows": 84
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 7,
-  "Name": "Mueller-Padberg",
-  "Description": "Cross-group disintermediate analyzer",
+  "ReportLabelLayoutId": 465,
+  "Name": "Parisian Group",
+  "Description": "Customizable local open architecture",
   "Orientation": "Landscape",
-  "PaperWidth": 907,
-  "PaperHeight": 220,
-  "LeftMargin": 1000,
-  "RightMargin": 217,
-  "TopMargin": 414,
-  "BottomMargin": 859,
-  "CountColumns": 699,
-  "CountRows": 813,
+  "PaperWidth": 151,
+  "PaperHeight": 938,
+  "LeftMargin": 674,
+  "RightMargin": 612,
+  "TopMargin": 910,
+  "BottomMargin": 43,
+  "CountColumns": 770,
+  "CountRows": 552,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldType": "System.String",
+      "FieldLength": 648
     }
   }
 }

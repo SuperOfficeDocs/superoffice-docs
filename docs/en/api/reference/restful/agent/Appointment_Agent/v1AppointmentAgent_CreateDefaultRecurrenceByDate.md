@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-03-24T04:02:01.1275509+01:00"
+  "StartDate": "1999-04-07T03:44:51.9646496+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 14,
-  "StartDate": "2005-03-07T04:02:01.1275509+01:00",
-  "EndDate": "2014-07-20T04:02:01.1275509+02:00",
-  "RecurrenceCounter": 370,
+  "RecurrenceId": 478,
+  "StartDate": "2021-01-08T03:44:51.9646496+01:00",
+  "EndDate": "2017-12-02T03:44:51.9646496+01:00",
+  "RecurrenceCounter": 172,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2023-07-27T04:02:01.1275509+02:00",
-      "IsConflict": false,
-      "Description": "Front-line real-time framework",
-      "DescriptionStyleHint": "Multi-lateral motivating process improvement",
-      "Tooltip": "tenetur"
+      "Date": "2009-12-01T03:44:51.9646496+01:00",
+      "IsConflict": true,
+      "Description": "Right-sized optimizing data-warehouse",
+      "DescriptionStyleHint": "Centralized even-keeled hub",
+      "Tooltip": "non"
     },
     {
-      "Date": "2023-07-27T04:02:01.1275509+02:00",
-      "IsConflict": false,
-      "Description": "Front-line real-time framework",
-      "DescriptionStyleHint": "Multi-lateral motivating process improvement",
-      "Tooltip": "tenetur"
+      "Date": "2009-12-01T03:44:51.9646496+01:00",
+      "IsConflict": true,
+      "Description": "Right-sized optimizing data-warehouse",
+      "DescriptionStyleHint": "Centralized even-keeled hub",
+      "Tooltip": "non"
     }
   ],
   "IsRecurrence": false

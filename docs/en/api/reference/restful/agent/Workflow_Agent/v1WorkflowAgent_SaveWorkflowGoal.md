@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 826,
-  "WorkflowId": 464,
+  "WorkflowGoalId": 782,
+  "WorkflowId": 830,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Lueilwitz-Kihn",
-      "Description": "Programmable radical focus group",
-      "Rank": 101,
+      "Name": "Will, Kemmer and Cronin",
+      "Description": "Managed real-time moratorium",
+      "Rank": 720,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lueilwitz-Kihn",
-      "Description": "Programmable radical focus group",
-      "Rank": 101,
+      "Name": "Will, Kemmer and Cronin",
+      "Description": "Managed real-time moratorium",
+      "Rank": 720,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 614,
-  "WorkflowId": 366,
+  "WorkflowGoalId": 976,
+  "WorkflowId": 585,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Farrell LLC",
-      "Description": "Diverse 4th generation attitude",
-      "Rank": 14,
+      "Name": "Senger Inc and Sons",
+      "Description": "Integrated radical software",
+      "Rank": 387,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Farrell LLC",
-      "Description": "Diverse 4th generation attitude",
-      "Rank": 14,
+      "Name": "Senger Inc and Sons",
+      "Description": "Integrated radical software",
+      "Rank": 387,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 96
     }
   }
 }

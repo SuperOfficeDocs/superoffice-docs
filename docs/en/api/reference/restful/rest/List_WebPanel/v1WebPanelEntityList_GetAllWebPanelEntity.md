@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 40,
-    "Name": "Roberts-Nicolas",
-    "Tooltip": "nihil",
+    "WebPanelId": 884,
+    "Name": "Zulauf, Casper and Heathcote",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 797,
+    "Rank": 232,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": false,
+    "OnCentral": true,
+    "OnSatellite": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Wiegand, Nader and Swift",
+    "WindowName": "Pollich Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "aspernatur",
-    "Icon": 392,
+    "ProgId": "mollitia",
+    "Icon": 457,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 605
       }
     }
   }

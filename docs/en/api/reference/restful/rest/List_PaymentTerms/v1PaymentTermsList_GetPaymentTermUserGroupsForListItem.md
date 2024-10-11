@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Bahringer Inc and Sons",
-    "ToolTip": "Eos dolorem.",
-    "Deleted": false,
-    "Rank": 607,
-    "Type": "ullam",
-    "ColorBlock": 996,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2006-09-29T04:02:07.2753298+02:00",
+    "Id": 887,
+    "Name": "Hammes Inc and Sons",
+    "ToolTip": "Incidunt ut qui.",
+    "Deleted": true,
+    "Rank": 362,
+    "Type": "omnis",
+    "ColorBlock": 720,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2018-05-26T03:44:58.0312644+02:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Altenwerth LLC",
-        "ToolTip": "Eum voluptatem ut qui rerum sit rem occaecati.",
-        "Deleted": true,
-        "Rank": 372,
-        "Type": "beatae",
-        "ColorBlock": 351,
-        "IconHint": "a",
-        "Selected": false,
-        "LastChanged": "2004-01-23T04:02:07.2753298+01:00",
+        "Id": 212,
+        "Name": "Abbott Group",
+        "ToolTip": "Consequatur doloribus delectus.",
+        "Deleted": false,
+        "Rank": 161,
+        "Type": "voluptatem",
+        "ColorBlock": 218,
+        "IconHint": "pariatur",
+        "Selected": true,
+        "LastChanged": "2002-02-23T03:44:58.0312644+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "commodi",
+        "ExtraInfo": "laborum",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Miss Anahi Laurie Gibson",
+        "FullName": "Mrs. Brett Moises Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 871
+            "FieldLength": 766
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Jaqueline Addie Waelchi I",
+    "ExtraInfo": "omnis",
+    "StyleHint": "at",
+    "Hidden": false,
+    "FullName": "Chadrick Jeffry Wuckert DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldLength": 224
       }
     }
   }

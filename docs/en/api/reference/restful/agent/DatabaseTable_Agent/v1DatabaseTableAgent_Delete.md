@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Borer Inc and Sons",
+  "TableName": "Schroeder Inc and Sons",
   "IDs": [
-    529,
-    135
+    792,
+    688
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "aut",
-  "Inserts": 415,
-  "Updates": 508,
-  "Deletes": 459,
+  "Message": "necessitatibus",
+  "Inserts": 252,
+  "Updates": 237,
+  "Deletes": 738,
   "RowStatus": [
     {
-      "PrimaryKey": 707,
+      "PrimaryKey": 861,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolorem",
-        "praesentium"
+        "cumque",
+        "tempore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldType": "System.String",
+          "FieldLength": 169
         }
       }
     },
     {
-      "PrimaryKey": 707,
+      "PrimaryKey": 861,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolorem",
-        "praesentium"
+        "cumque",
+        "tempore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldType": "System.String",
+          "FieldLength": 169
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldType": "System.Int32",
+      "FieldLength": 644
     }
   }
 }

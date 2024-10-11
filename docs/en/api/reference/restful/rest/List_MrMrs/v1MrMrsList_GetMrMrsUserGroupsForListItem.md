@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Name": "Ondricka LLC",
-    "ToolTip": "Debitis ut consequuntur dolore.",
+    "Id": 545,
+    "Name": "Hudson-Reichel",
+    "ToolTip": "Temporibus id repudiandae molestiae voluptates.",
     "Deleted": false,
-    "Rank": 152,
-    "Type": "voluptate",
-    "ColorBlock": 278,
-    "IconHint": "distinctio",
-    "Selected": true,
-    "LastChanged": "2011-09-21T04:02:07.2753298+02:00",
+    "Rank": 837,
+    "Type": "odit",
+    "ColorBlock": 80,
+    "IconHint": "quisquam",
+    "Selected": false,
+    "LastChanged": "2011-10-20T03:44:58.0156476+02:00",
     "ChildItems": [
       {
-        "Id": 818,
-        "Name": "Konopelski Inc and Sons",
-        "ToolTip": "Perspiciatis est explicabo ducimus reiciendis.",
-        "Deleted": false,
-        "Rank": 999,
-        "Type": "in",
-        "ColorBlock": 216,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "2010-10-24T04:02:07.2753298+02:00",
+        "Id": 36,
+        "Name": "Wunsch, Russel and Prohaska",
+        "ToolTip": "Dolore voluptatem omnis saepe dolorem.",
+        "Deleted": true,
+        "Rank": 350,
+        "Type": "praesentium",
+        "ColorBlock": 495,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "1998-02-09T03:44:58.0156476+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "aut",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Dr. Juvenal Stroman DVM",
+        "StyleHint": "maiores",
+        "Hidden": false,
+        "FullName": "Tessie Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 946
+            "FieldLength": 245
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "facilis",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Germaine Mueller I",
+    "FullName": "Diamond Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldType": "System.Int32",
+        "FieldLength": 301
       }
     }
   }

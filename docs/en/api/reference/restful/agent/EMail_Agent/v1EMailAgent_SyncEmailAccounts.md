@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 779,
-      "AssociateName": "Steuber-Corkery",
-      "AssociateId": 935
+      "AccountId": 810,
+      "AssociateName": "Quitzon-Collins",
+      "AssociateId": 739
     },
     {
-      "AccountId": 779,
-      "AssociateName": "Steuber-Corkery",
-      "AssociateId": 935
+      "AccountId": 810,
+      "AssociateName": "Quitzon-Collins",
+      "AssociateId": 739
     }
   ]
 }

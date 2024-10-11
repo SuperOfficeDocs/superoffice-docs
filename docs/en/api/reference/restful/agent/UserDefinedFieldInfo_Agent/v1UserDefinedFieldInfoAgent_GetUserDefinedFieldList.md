@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 910,
-    "ColumnId": 464,
-    "FieldDefault": "odit",
-    "FieldHeight": 394,
-    "FieldLabel": "harum",
-    "FieldLeft": 299,
-    "FieldTop": 87,
+    "UDefFieldId": 912,
+    "ColumnId": 433,
+    "FieldDefault": "vel",
+    "FieldHeight": 494,
+    "FieldLabel": "nihil",
+    "FieldLeft": 323,
+    "FieldTop": 402,
     "FieldType": "Checkbox",
-    "FieldWidth": 310,
-    "FormatMask": "porro",
+    "FieldWidth": 79,
+    "FormatMask": "fugiat",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 86,
-    "LabelLeft": 822,
-    "LabelTop": 456,
-    "LabelWidth": 531,
-    "LastVersionId": 924,
-    "ListTableId": 162,
+    "LabelHeight": 251,
+    "LabelLeft": 511,
+    "LabelTop": 185,
+    "LabelWidth": 667,
+    "LastVersionId": 537,
+    "ListTableId": 164,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 799,
-    "ProgId": "iste",
+    "Page1LineNo": 952,
+    "ProgId": "beatae",
     "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 256,
-    "TextLength": 396,
-    "Tooltip": "est",
-    "UdefIdentity": 715,
-    "UDListDefinitionId": 236,
+    "ShortLabel": "voluptas",
+    "TabOrder": 187,
+    "TextLength": 473,
+    "Tooltip": "corporis",
+    "UdefIdentity": 11,
+    "UDListDefinitionId": 693,
     "Justification": "Center",
-    "Version": 366,
-    "TemplateVariableName": "Larson-Stanton",
+    "Version": 163,
+    "TemplateVariableName": "Krajcik LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Stoltenberg, Balistreri and Rodriguez",
+    "MdoListName": "Reinger Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 602
       }
     }
   }

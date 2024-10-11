@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Name": "Corwin Inc and Sons",
-    "ToolTip": "Explicabo eum quia.",
-    "Deleted": false,
-    "Rank": 329,
-    "Type": "veritatis",
-    "ColorBlock": 868,
-    "IconHint": "omnis",
+    "Id": 548,
+    "Name": "Smith-Hermann",
+    "ToolTip": "Eligendi omnis tempora molestias.",
+    "Deleted": true,
+    "Rank": 254,
+    "Type": "aut",
+    "ColorBlock": 556,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2000-02-17T04:02:07.0722253+01:00",
+    "LastChanged": "2021-09-11T03:44:57.8125425+02:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Miller, Nicolas and McGlynn",
-        "ToolTip": "Repudiandae magni aliquid animi.",
+        "Id": 272,
+        "Name": "Schuster LLC",
+        "ToolTip": "Molestias maxime similique ducimus labore.",
         "Deleted": false,
-        "Rank": 56,
-        "Type": "error",
-        "ColorBlock": 773,
-        "IconHint": "voluptatem",
+        "Rank": 856,
+        "Type": "sint",
+        "ColorBlock": 105,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2020-04-20T04:02:07.0722253+02:00",
+        "LastChanged": "2011-08-10T03:44:57.8125425+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Zachariah Pacocha"
+        "ExtraInfo": "quo",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Virginie Charlene Reichel DDS"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "rem",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Alva Huels"
+    "FullName": "Jocelyn Clay Jast Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Larkin, Braun and Collier",
-    "ToolTip": "Est dolor corrupti rem dolorem assumenda repellat aut.",
-    "Deleted": true,
-    "Rank": 726,
-    "Type": "autem",
-    "ColorBlock": 392,
-    "IconHint": "et",
+    "Id": 349,
+    "Name": "Gislason LLC",
+    "ToolTip": "Aut consequatur non quod quaerat in et neque.",
+    "Deleted": false,
+    "Rank": 403,
+    "Type": "nobis",
+    "ColorBlock": 899,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2024-01-02T04:02:07.0722253+01:00",
+    "LastChanged": "2018-02-15T03:44:57.8125425+01:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Treutel, Beahan and Wehner",
-        "ToolTip": "Id perspiciatis cupiditate.",
+        "Id": 987,
+        "Name": "Bruen-Bauch",
+        "ToolTip": "Qui voluptatem illum.",
         "Deleted": false,
-        "Rank": 940,
-        "Type": "vel",
-        "ColorBlock": 381,
-        "IconHint": "eos",
+        "Rank": 947,
+        "Type": "aut",
+        "ColorBlock": 13,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2004-09-21T04:02:07.0722253+02:00",
+        "LastChanged": "2001-10-24T03:44:57.8125425+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "repellat",
+        "ExtraInfo": "est",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prof. Reymundo Gina O'Hara",
+        "FullName": "Miss Thaddeus Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 928
+            "FieldLength": 661
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "ut",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Deonte Stoltenberg",
+    "FullName": "Dr. Oswald Derick Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 580
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 743,
-  "Name": "Sanford-Russel",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "Rank": 295,
-  "UdListDefinitionId": 886
+  "HeadingId": 519,
+  "Name": "Reynolds Group",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 985,
+  "UdListDefinitionId": 597
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 434,
-  "Name": "Ward, McCullough and Raynor",
-  "Tooltip": "molestiae",
+  "HeadingId": 799,
+  "Name": "Kohler, Trantow and Upton",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 65,
-  "UdListDefinitionId": 266,
+  "Rank": 581,
+  "UdListDefinitionId": 874,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldType": "System.String",
+      "FieldLength": 413
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 148,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 464,
-  "Name": "Stehr, Mills and Beer",
-  "Description": "Re-engineered intangible knowledge user",
-  "Currency": "dicta",
-  "CurrencyName": "Kuphal-Senger",
-  "ValidFrom": "2012-10-23T04:02:07.2909529+02:00",
-  "ValidTo": "2017-06-19T04:02:07.2909529+02:00",
+  "PriceListId": 194,
+  "ERPPriceListKey": "quae",
+  "QuoteConnectionId": 807,
+  "Name": "Rutherford, Lynch and Maggio",
+  "Description": "Adaptive upward-trending capacity",
+  "Currency": "est",
+  "CurrencyName": "Okuneva Inc and Sons",
+  "ValidFrom": "2013-05-03T03:44:58.0468534+02:00",
+  "ValidTo": "2012-05-29T03:44:58.0468534+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 413
     }
   }
 }

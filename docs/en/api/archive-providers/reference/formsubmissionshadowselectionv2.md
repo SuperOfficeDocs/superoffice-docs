@@ -479,7 +479,7 @@ Shadow contact provider for the FormSubmission provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=person/personAssociate/portraitThumbnail,person/correspondingAssociate/ejUserId,contact/contactNoMail,contact/contactAssociate/portraitThumbnail
+GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=person/personNoMail,person/personAssociate/personEmail,person/restrictionAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

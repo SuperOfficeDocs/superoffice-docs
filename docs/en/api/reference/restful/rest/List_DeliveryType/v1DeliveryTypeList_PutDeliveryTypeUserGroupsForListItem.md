@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Kuvalis, Thompson and Mayer",
-    "ToolTip": "Reprehenderit eum fugit eveniet placeat ut et.",
-    "Deleted": false,
-    "Rank": 788,
-    "Type": "eveniet",
-    "ColorBlock": 994,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2019-12-24T04:02:07.2440841+01:00",
+    "Id": 27,
+    "Name": "Hoeger, Labadie and Crona",
+    "ToolTip": "Commodi sint eius reiciendis et et.",
+    "Deleted": true,
+    "Rank": 800,
+    "Type": "quis",
+    "ColorBlock": 226,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2014-04-01T03:44:57.9843605+02:00",
     "ChildItems": [
       {
-        "Id": 987,
-        "Name": "Mills Inc and Sons",
-        "ToolTip": "Vitae qui ut.",
-        "Deleted": true,
-        "Rank": 727,
-        "Type": "accusantium",
-        "ColorBlock": 132,
-        "IconHint": "est",
+        "Id": 959,
+        "Name": "O'Connell-Watsica",
+        "ToolTip": "Neque asperiores.",
+        "Deleted": false,
+        "Rank": 856,
+        "Type": "ducimus",
+        "ColorBlock": 347,
+        "IconHint": "aspernatur",
         "Selected": true,
-        "LastChanged": "2017-12-04T04:02:07.2440841+01:00",
+        "LastChanged": "2011-03-28T03:44:57.9843605+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mr. Brandyn Jerde"
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Arnaldo Terry"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Deja Bashirian Jr."
+    "ExtraInfo": "molestiae",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Corene Abbott"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Nikolaus, Eichmann and McDermott",
-    "ToolTip": "Perferendis consequatur repudiandae aperiam iusto in aut.",
-    "Deleted": false,
-    "Rank": 613,
-    "Type": "beatae",
-    "ColorBlock": 500,
-    "IconHint": "quis",
+    "Id": 658,
+    "Name": "Auer-Kuhlman",
+    "ToolTip": "Nihil repellat ut ratione consectetur.",
+    "Deleted": true,
+    "Rank": 331,
+    "Type": "consequatur",
+    "ColorBlock": 548,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2007-04-29T04:02:07.2440841+02:00",
+    "LastChanged": "2024-03-01T03:44:57.9843605+01:00",
     "ChildItems": [
       {
-        "Id": 744,
-        "Name": "Greenfelder-Bruen",
-        "ToolTip": "Architecto praesentium doloremque ut atque nihil voluptas.",
-        "Deleted": false,
-        "Rank": 215,
-        "Type": "consequatur",
-        "ColorBlock": 383,
-        "IconHint": "cupiditate",
+        "Id": 450,
+        "Name": "Heathcote-Smitham",
+        "ToolTip": "Officia voluptatem debitis voluptatem qui sit non nemo.",
+        "Deleted": true,
+        "Rank": 808,
+        "Type": "quidem",
+        "ColorBlock": 606,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2005-01-31T04:02:07.2440841+01:00",
+        "LastChanged": "2014-03-24T03:44:57.9843605+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Crawford Cole",
+        "ExtraInfo": "ratione",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Prof. Leonard Jewel Champlin DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 493
+            "FieldType": "System.Int32",
+            "FieldLength": 993
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Vincent Hane",
+    "FullName": "Tania Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldType": "System.String",
+        "FieldLength": 761
       }
     }
   }

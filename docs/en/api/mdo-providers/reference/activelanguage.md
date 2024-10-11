@@ -56,7 +56,7 @@ foreach (var item in listProvider.RootItems) {
 |1046|Português (Brasil)|||
 |1035|Suomi |||
 |1053|Svenska |||
-|1066|Tiếng Việt |||
+|1066|Tiếng Việt |||
 |1049|Русский |||
 |1058|Українська |||
 |1042|한국어|||

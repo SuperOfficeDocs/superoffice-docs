@@ -87,13 +87,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 929,
-  "Name": "Smitham Inc and Sons",
-  "Tooltip": "quisquam",
-  "Rank": 482,
-  "DoctmplId": 251,
-  "Header": "similique",
-  "OurRef": "ad",
+  "SuggestedDocumentId": 627,
+  "Name": "Kihn-Jones",
+  "Tooltip": "laboriosam",
+  "Rank": 346,
+  "DoctmplId": 439,
+  "Header": "omnis",
+  "OurRef": "cumque",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 811,
-  "Name": "Champlin-Stark",
-  "Tooltip": "necessitatibus",
-  "Rank": 1000,
-  "DoctmplId": 659,
-  "Header": "illum",
-  "OurRef": "aut",
-  "Deleted": true,
+  "SuggestedDocumentId": 712,
+  "Name": "Gleichner-Stokes",
+  "Tooltip": "corporis",
+  "Rank": 492,
+  "DoctmplId": 167,
+  "Header": "hic",
+  "OurRef": "quis",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 619
     }
   }
 }

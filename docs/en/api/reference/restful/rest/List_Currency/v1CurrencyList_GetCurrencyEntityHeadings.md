@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 899,
-    "Name": "Bednar, White and Johnson",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 612,
-    "UdListDefinitionId": 754,
+    "HeadingId": 132,
+    "Name": "DuBuque-Lowe",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 866,
+    "UdListDefinitionId": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldLength": 766
       }
     }
   }

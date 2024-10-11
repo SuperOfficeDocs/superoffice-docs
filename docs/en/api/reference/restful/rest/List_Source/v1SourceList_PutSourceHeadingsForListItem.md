@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 585,
-    "Name": "Ullrich, Reichel and Predovic",
-    "ToolTip": "Illum illum illo officiis autem distinctio.",
-    "Deleted": true,
-    "Rank": 879,
-    "Type": "animi",
-    "ColorBlock": 77,
-    "IconHint": "accusamus",
+    "Id": 195,
+    "Name": "Effertz, Flatley and Labadie",
+    "ToolTip": "Sapiente et pariatur.",
+    "Deleted": false,
+    "Rank": 222,
+    "Type": "aut",
+    "ColorBlock": 229,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "2002-06-27T04:02:07.4318023+02:00",
+    "LastChanged": "2018-03-29T03:44:58.17184+02:00",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Terry, Von and Nolan",
-        "ToolTip": "Harum praesentium aliquid.",
-        "Deleted": false,
-        "Rank": 167,
-        "Type": "saepe",
-        "ColorBlock": 267,
-        "IconHint": "modi",
+        "Id": 184,
+        "Name": "Fahey-Mosciski",
+        "ToolTip": "Non ducimus quam iste nihil.",
+        "Deleted": true,
+        "Rank": 4,
+        "Type": "commodi",
+        "ColorBlock": 586,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2023-10-12T04:02:07.4318023+02:00",
+        "LastChanged": "2000-12-16T03:44:58.17184+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "nulla",
         "Hidden": true,
-        "FullName": "Jada Susan Greenholt Sr."
+        "FullName": "Dr. Cooper Lexie Towne II"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "ut",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Prof. Grace Larkin"
+    "FullName": "Emilie Howell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Lemke, Farrell and Reilly",
-    "ToolTip": "Et delectus nesciunt quasi beatae eos dolor.",
+    "Id": 670,
+    "Name": "Fritsch Group",
+    "ToolTip": "Minus quia.",
     "Deleted": false,
-    "Rank": 598,
-    "Type": "commodi",
-    "ColorBlock": 125,
-    "IconHint": "dolorum",
+    "Rank": 149,
+    "Type": "nihil",
+    "ColorBlock": 866,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2003-01-02T04:02:07.4318023+01:00",
+    "LastChanged": "1998-09-22T03:44:58.17184+02:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "Stamm-Hessel",
-        "ToolTip": "Molestiae qui suscipit vero molestias et.",
-        "Deleted": false,
-        "Rank": 390,
-        "Type": "libero",
-        "ColorBlock": 669,
-        "IconHint": "quae",
+        "Id": 683,
+        "Name": "Kuhn, Bechtelar and Cronin",
+        "ToolTip": "Cumque molestias quaerat mollitia.",
+        "Deleted": true,
+        "Rank": 138,
+        "Type": "soluta",
+        "ColorBlock": 813,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2002-09-12T04:02:07.4318023+02:00",
+        "LastChanged": "2023-12-15T03:44:58.17184+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "mollitia",
-        "Hidden": false,
-        "FullName": "Alyce Ward IV",
+        "ExtraInfo": "ut",
+        "StyleHint": "possimus",
+        "Hidden": true,
+        "FullName": "Myriam Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 555
+            "FieldType": "System.Int32",
+            "FieldLength": 874
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "ipsam",
-    "Hidden": true,
-    "FullName": "Prof. Zelda Lydia Mann MD",
+    "ExtraInfo": "et",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Cruz Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 359
       }
     }
   }

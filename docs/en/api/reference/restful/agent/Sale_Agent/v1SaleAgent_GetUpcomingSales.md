@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 398,
-  "Count": 160
+  "WeightedAmountLimit": 886,
+  "Count": 35
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bartoletti-Gulgowski",
-    "SaleDate": "1998-09-30T04:02:02.28488+02:00",
-    "SaleId": 375,
-    "Probability": 137,
-    "Title": "quod",
-    "Amount": 19440.202,
-    "Currency": "velit",
-    "ProjectName": "Hodkiewicz Inc and Sons",
-    "AssociateFullName": "Emmitt Gerhard Haley II",
-    "Description": "Reduced actuating interface",
+    "ContactName": "Boehm Inc and Sons",
+    "SaleDate": "2021-05-18T03:44:53.136845+02:00",
+    "SaleId": 443,
+    "Probability": 965,
+    "Title": "officiis",
+    "Amount": 29324.838,
+    "Currency": "quo",
+    "ProjectName": "Hirthe-Greenfelder",
+    "AssociateFullName": "Casandra Tromp",
+    "Description": "Progressive analyzing projection",
     "Status": "Lost",
-    "WeightedAmount": 24018.976,
-    "ProjectId": 964,
-    "EarningPercent": 28011.692,
-    "Earning": 25360.327999999998,
-    "ContactId": 81,
-    "AssociateId": 268,
-    "PersonId": 520,
-    "SaleTypeId": 893,
-    "SaleTypeName": "Treutel-Johns",
-    "PersonFullName": "Mr. Kaela Cali Hills",
+    "WeightedAmount": 27015.079999999998,
+    "ProjectId": 995,
+    "EarningPercent": 21978.742,
+    "Earning": 3253.092,
+    "ContactId": 128,
+    "AssociateId": 14,
+    "PersonId": 236,
+    "SaleTypeId": 798,
+    "SaleTypeName": "Haag-Dare",
+    "PersonFullName": "Ms. Jacey Jazmin Braun Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 497,
-    "NextDueDate": "2017-05-12T04:02:02.28488+02:00",
-    "Number": "199430",
+    "ActiveErpLinks": 603,
+    "NextDueDate": "2001-09-08T03:44:53.136845+02:00",
+    "Number": "984534",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldType": "System.String",
+        "FieldLength": 179
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 386,
-  "Name": "Pouros LLC",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "Rank": 864,
-  "UdListDefinitionId": 98
+  "HeadingId": 857,
+  "Name": "Konopelski Group",
+  "Tooltip": "harum",
+  "Deleted": false,
+  "Rank": 729,
+  "UdListDefinitionId": 629
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 284,
-  "Name": "Collins, Langworth and Ferry",
-  "Tooltip": "rerum",
+  "HeadingId": 150,
+  "Name": "Shields-Little",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 361,
-  "UdListDefinitionId": 43,
+  "Rank": 271,
+  "UdListDefinitionId": 443,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 392
     }
   }
 }

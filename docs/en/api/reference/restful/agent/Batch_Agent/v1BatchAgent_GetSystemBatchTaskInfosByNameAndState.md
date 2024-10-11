@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Sanford Group",
+  "TaskName": "Johns LLC",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Gerlach-Gibson",
-    "AssociateId": 607,
-    "DetailsTable": 359,
-    "DetailsRecord": 796,
-    "IsSystemTask": false,
+    "Id": 355,
+    "Name": "Lubowitz, Casper and Spinka",
+    "AssociateId": 349,
+    "DetailsTable": 992,
+    "DetailsRecord": 361,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "rerum",
-      "ParameterObject2": "in"
+      "ParameterObject1": "tenetur",
+      "ParameterObject2": "fugiat"
     },
-    "LastStarted": "2020-11-01T04:02:01.2374146+01:00",
-    "Created": "2021-03-13T04:02:01.2374146+01:00",
-    "StartCount": 4,
-    "DatabaseSerialNumber": "969114",
-    "Context": "eum",
-    "Result": "libero",
+    "LastStarted": "2002-04-01T03:44:52.0896371+02:00",
+    "Created": "2010-05-25T03:44:52.0896371+02:00",
+    "StartCount": 441,
+    "DatabaseSerialNumber": "1073110",
+    "Context": "excepturi",
+    "Result": "voluptatum",
     "State": "All",
-    "Description": "Exclusive bottom-line intranet",
-    "Response": "molestiae",
-    "Request": "quod",
-    "ProgressDescription": "Operative national hub",
-    "ProgressPercent": 741,
-    "FileName": "O'Hara LLC",
+    "Description": "Triple-buffered full-range emulation",
+    "Response": "deserunt",
+    "Request": "pariatur",
+    "ProgressDescription": "Enhanced logistical secured line",
+    "ProgressPercent": 475,
+    "FileName": "Eichmann-Conroy",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldType": "System.String",
+        "FieldLength": 49
       }
     }
   }

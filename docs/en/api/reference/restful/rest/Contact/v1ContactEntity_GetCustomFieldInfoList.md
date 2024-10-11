@@ -68,7 +68,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Ferry-Bergstrom",
-    "DisplayName": "Erdman-Bins",
-    "Description": "Advanced needs-based framework",
-    "ShortLabel": "eum",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
+    "FieldName": "Hyatt Group",
+    "DisplayName": "Nienow Inc and Sons",
+    "Description": "Seamless static synergy",
+    "ShortLabel": "et",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 18,
-    "TemplateVariableName": "Sanford-Luettgen"
+    "IsDisplayField": true,
+    "Rank": 947,
+    "TemplateVariableName": "Batz Inc and Sons"
   }
 ]
 ```

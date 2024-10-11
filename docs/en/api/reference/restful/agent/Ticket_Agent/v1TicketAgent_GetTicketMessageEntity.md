@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=240
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=765
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 455,
+  "EjMessageId": 902,
   "Ticket": null,
-  "CreatedAt": "2005-03-24T04:02:02.4885951+01:00",
+  "CreatedAt": "2011-07-05T03:44:53.340429+02:00",
   "CreatedBy": null,
-  "Author": "laboriosam",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nobis",
-  "TimeSpent": 987,
-  "Body": "perspiciatis",
-  "HtmlBody": "illo",
-  "EmailHeader": "moshe_kovacek@treutellangworth.com",
-  "DebugInfo": "est",
-  "MailSorter": "quaerat",
+  "MessageId": "ut",
+  "TimeSpent": 300,
+  "Body": "voluptatum",
+  "HtmlBody": "dicta",
+  "EmailHeader": "marietta@beer.info",
+  "DebugInfo": "deserunt",
+  "MailSorter": "enim",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "adipisci",
+  "SearchTitle": "vel",
   "MessageHeaders": [
     {
-      "Id": 223,
-      "Name": "Keebler-Hahn",
-      "Value": "dolorem",
+      "Id": 508,
+      "Name": "Block-Armstrong",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,50 +131,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 3
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "aliquam",
-  "Sentiment": 755,
-  "SentimentConfidence": 425,
+  "Important": false,
+  "Language": "molestias",
+  "Sentiment": 415,
+  "SentimentConfidence": 121,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 819,
-      "Name": "Price Group",
-      "ContentType": "ratione",
-      "AttSize": 78,
+      "AttachmentId": 120,
+      "Name": "Bogan-Wolf",
+      "ContentType": "rem",
+      "AttSize": 253,
       "InlineImage": false,
-      "ContentId": "sit",
-      "AuthKey": "pariatur",
+      "ContentId": "reiciendis",
+      "AuthKey": "sit",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldType": "System.String",
+          "FieldLength": 648
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "eum"
+    "CustomFields1": "et",
+    "CustomFields2": "maxime"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 61
     }
   }
 }

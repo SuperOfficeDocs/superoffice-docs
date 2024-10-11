@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 303,
-      "ContactName": "Nader-Runolfsson",
-      "PersonId": 403,
-      "PersonName": "Labadie Group",
-      "AssociateId": 994,
-      "Address": "voluptas",
-      "EmailId": 321,
+      "ContactId": 10,
+      "ContactName": "Walsh Group",
+      "PersonId": 181,
+      "PersonName": "Stamm, Howe and Wolf",
+      "AssociateId": 516,
+      "Address": "odit",
+      "EmailId": 772,
       "DuplicatePersonIds": [
-        5,
-        404
+        720,
+        292
       ],
-      "Name": "Kohler LLC",
+      "Name": "Turner, Jakubowski and Satterfield",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 381
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 709,
-      "ContactName": "Tillman-Kuhn",
-      "PersonId": 467,
-      "PersonName": "Maggio, Cronin and Murray",
-      "AssociateId": 237,
-      "Address": "enim",
-      "EmailId": 284,
+      "ContactId": 513,
+      "ContactName": "Hauck-O'Conner",
+      "PersonId": 578,
+      "PersonName": "Trantow, Schultz and Feil",
+      "AssociateId": 163,
+      "Address": "perferendis",
+      "EmailId": 464,
       "DuplicatePersonIds": [
-        929,
-        669
+        867,
+        463
       ],
-      "Name": "Becker LLC",
+      "Name": "Schmeler, Turner and Kilback",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 349
+          "FieldLength": 804
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 838,
-      "ContactName": "Pollich-Schowalter",
-      "PersonId": 21,
-      "PersonName": "Batz, DuBuque and Barton",
-      "AssociateId": 951,
-      "Address": "tempore",
-      "EmailId": 901,
+      "ContactId": 650,
+      "ContactName": "Grant Inc and Sons",
+      "PersonId": 591,
+      "PersonName": "Bernhard Group",
+      "AssociateId": 853,
+      "Address": "modi",
+      "EmailId": 298,
       "DuplicatePersonIds": [
-        727,
-        684
+        836,
+        128
       ],
-      "Name": "McClure LLC",
+      "Name": "Murray Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 361
+          "FieldType": "System.Int32",
+          "FieldLength": 57
         }
       }
     }
   ],
-  "Subject": "iste",
-  "HTMLBody": "alias",
+  "Subject": "omnis",
+  "HTMLBody": "mollitia",
   "From": null,
-  "Sent": "2014-03-08T04:02:01.6748777+01:00",
-  "Size": 344,
+  "Sent": "2005-11-01T03:44:52.5427529+01:00",
+  "Size": 498,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolor",
-  "PlainBody": "deserunt",
+  "MessageID": "aliquid",
+  "PlainBody": "iusto",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 740,
+  "ServerId": 999,
   "Attachments": [
     {
-      "Description": "Adaptive fresh-thinking open system",
-      "Filename": "maiores",
-      "Size": 37,
-      "Type": "ut",
-      "Encoding": "aliquam",
-      "Id": "qui",
-      "Disposition": "illum",
+      "Description": "Progressive uniform orchestration",
+      "Filename": "tempora",
+      "Size": 130,
+      "Type": "laudantium",
+      "Encoding": "neque",
+      "Id": "voluptate",
+      "Disposition": "placeat",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 826
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Collins, Morissette and Kuvalis",
+      "Name": "Grady Inc and Sons",
       "Values": [
-        "dignissimos",
-        "commodi"
+        "labore",
+        "modi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 933
+          "FieldType": "System.Int32",
+          "FieldLength": 672
         }
       }
     },
     {
-      "Name": "Collins, Morissette and Kuvalis",
+      "Name": "Grady Inc and Sons",
       "Values": [
-        "dignissimos",
-        "commodi"
+        "labore",
+        "modi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 933
+          "FieldType": "System.Int32",
+          "FieldLength": 672
         }
       }
     }
   ],
-  "FolderName": "Reichel Group",
-  "EmailItemId": 176,
-  "AccountId": 169,
-  "ReceivedAt": "2000-09-07T04:02:01.6748777+02:00",
+  "FolderName": "Murazik-Beatty",
+  "EmailItemId": 75,
+  "AccountId": 255,
+  "ReceivedAt": "2021-07-04T03:44:52.5427529+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-07-31T04:02:01.6748777+02:00",
+  "RepliedAt": "2013-07-27T03:44:52.5427529+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 873
     }
   }
 }

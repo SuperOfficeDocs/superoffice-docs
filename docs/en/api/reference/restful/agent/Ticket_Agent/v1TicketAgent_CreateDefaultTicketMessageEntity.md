@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 248,
+  "EjMessageId": 430,
   "Ticket": null,
-  "CreatedAt": "2013-09-23T04:02:02.3942465+02:00",
+  "CreatedAt": "2016-09-27T03:44:53.2466467+02:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "assumenda",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "blanditiis",
-  "TimeSpent": 981,
-  "Body": "dolorem",
-  "HtmlBody": "ut",
-  "EmailHeader": "kirk_weissnat@kris.name",
-  "DebugInfo": "nisi",
-  "MailSorter": "eius",
+  "MessageId": "quia",
+  "TimeSpent": 229,
+  "Body": "ea",
+  "HtmlBody": "vel",
+  "EmailHeader": "josefina@casperoreilly.biz",
+  "DebugInfo": "eos",
+  "MailSorter": "eum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "adipisci",
+  "SearchTitle": "quis",
   "MessageHeaders": [
     {
-      "Id": 880,
-      "Name": "Beier LLC",
-      "Value": "iste",
+      "Id": 803,
+      "Name": "Johns-Blick",
+      "Value": "minus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldLength": 133
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "in",
-  "Sentiment": 489,
-  "SentimentConfidence": 659,
+  "Important": true,
+  "Language": "quo",
+  "Sentiment": 893,
+  "SentimentConfidence": 822,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 982,
-      "Name": "Aufderhar, Beer and Maggio",
-      "ContentType": "occaecati",
-      "AttSize": 508,
-      "InlineImage": true,
-      "ContentId": "excepturi",
-      "AuthKey": "a",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 730,
+      "Name": "Blick-Witting",
+      "ContentType": "rerum",
+      "AttSize": 331,
+      "InlineImage": false,
+      "ContentId": "consequatur",
+      "AuthKey": "et",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 285
+          "FieldType": "System.Int32",
+          "FieldLength": 604
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "neque"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "vitae"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 808
     }
   }
 }

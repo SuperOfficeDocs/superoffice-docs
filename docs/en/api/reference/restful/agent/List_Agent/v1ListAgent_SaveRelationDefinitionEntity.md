@@ -77,16 +77,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 903,
-  "Name": "Bauch LLC",
-  "Tooltip": "non",
-  "PassiveText": "unde",
+  "ReldefId": 61,
+  "Name": "Block, Daniel and Mayert",
+  "Tooltip": "eveniet",
+  "PassiveText": "fuga",
   "Deleted": false,
-  "Rank": 442,
+  "Rank": 249,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,12 +99,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 92,
-  "Name": "Quigley, Lockman and Jenkins",
-  "Tooltip": "possimus",
-  "PassiveText": "commodi",
-  "Deleted": true,
-  "Rank": 383,
+  "ReldefId": 245,
+  "Name": "Metz Group",
+  "Tooltip": "quae",
+  "PassiveText": "corporis",
+  "Deleted": false,
+  "Rank": 114,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldLength": 931
     }
   }
 }

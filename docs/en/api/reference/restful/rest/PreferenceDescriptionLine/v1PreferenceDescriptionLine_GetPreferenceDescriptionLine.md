@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 332,
-  "PrefDescId": 14,
-  "PrefValue": "et",
-  "PrefShowValue": "quod",
-  "Description": "Universal optimal collaboration",
-  "IsBuiltin": true,
+  "PrefDescLineId": 435,
+  "PrefDescId": 371,
+  "PrefValue": "quo",
+  "PrefShowValue": "aut",
+  "Description": "Synchronised multi-tasking data-warehouse",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 384
     }
   },
   "_Links": {

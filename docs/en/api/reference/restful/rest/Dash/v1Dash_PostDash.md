@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 874,
-  "UniqueId": "ratione",
-  "Name": "White Inc and Sons",
-  "Description": "Open-source discrete algorithm",
-  "AssociateId": 666,
-  "Columns": 789,
+  "DashboardId": 529,
+  "UniqueId": "non",
+  "Name": "Witting, Cronin and Reynolds",
+  "Description": "Innovative dynamic analyzer",
+  "AssociateId": 812,
+  "Columns": 424,
   "Theme": null,
-  "VisibleForAll": 898,
+  "VisibleForAll": 227,
   "VisibleForAssociates": [
-    206,
-    968
+    659,
+    44
   ],
   "VisibleForGroups": [
-    576,
-    615
+    453,
+    744
   ],
-  "PinForAll": 585,
+  "PinForAll": 514,
   "PinForAssociates": [
-    61,
-    364
+    459,
+    508
   ],
   "PinForGroups": [
-    623,
-    635
+    914,
+    692
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 708,
-  "UniqueId": "sunt",
-  "Name": "Sporer-Hyatt",
-  "Description": "Innovative directional firmware",
-  "AssociateId": 378,
-  "Columns": 910,
+  "DashboardId": 929,
+  "UniqueId": "blanditiis",
+  "Name": "Wuckert LLC",
+  "Description": "Organic directional neural-net",
+  "AssociateId": 450,
+  "Columns": 636,
   "Theme": null,
-  "VisibleForAll": 884,
+  "VisibleForAll": 50,
   "VisibleForAssociates": [
-    472,
-    19
+    923,
+    348
   ],
   "VisibleForGroups": [
-    986,
-    357
+    412,
+    483
   ],
-  "PinForAll": 279,
+  "PinForAll": 379,
   "PinForAssociates": [
-    606,
-    213
+    729,
+    718
   ],
   "PinForGroups": [
-    316,
-    759
+    401,
+    467
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Value": "ipsam",
+    "Id": 995,
+    "Value": "iure",
     "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldLength": 927
       }
     }
   },
   {
-    "Id": 123,
-    "Value": "ipsam",
+    "Id": 995,
+    "Value": "iure",
     "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldLength": 927
       }
     }
   }

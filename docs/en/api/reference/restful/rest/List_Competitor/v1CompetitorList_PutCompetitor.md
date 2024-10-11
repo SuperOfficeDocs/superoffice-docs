@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Graham Group",
-  "Tooltip": "qui",
+  "Id": 986,
+  "Name": "Gaylord, Douglas and Morar",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 578,
-  "Rank": 523
+  "UdListDefinitionId": 69,
+  "Rank": 108
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 870,
-  "Name": "Maggio-Hickle",
-  "Tooltip": "officiis",
+  "Id": 110,
+  "Name": "Eichmann-Fadel",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "UdListDefinitionId": 758,
-  "Rank": 87,
+  "UdListDefinitionId": 810,
+  "Rank": 983,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

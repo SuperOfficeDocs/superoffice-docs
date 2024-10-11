@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=454
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=310
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 828,
-  "Name": "Howe LLC",
-  "Description": "Synchronised regional system engine",
-  "DefaultHeight": 774,
-  "DefaultWidth": 8,
+  "DashboardTileDefinitionId": 514,
+  "Name": "Blanda-Sporer",
+  "Description": "Right-sized encompassing algorithm",
+  "DefaultHeight": 90,
+  "DefaultWidth": 531,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dibbert Inc and Sons",
-  "SelectionId": 256,
+  "EntityName": "Stokes-Nicolas",
+  "SelectionId": 253,
   "CurrencyMode": "Base",
-  "CurrencyCode": "non",
+  "CurrencyCode": "voluptatum",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "voluptas",
-  "LayoutConfig": "vel",
-  "SecondarySelectionId": 137,
-  "MeasureByField": "temporibus",
+  "MeasureField": "ipsam",
+  "SortBy": "aliquam",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 903,
+  "MeasureByField": "qui",
   "Usage": "Dashboard",
-  "ProviderName": "O'Conner, Medhurst and Auer",
+  "ProviderName": "Murazik, Reinger and Hammes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 978
     }
   }
 }

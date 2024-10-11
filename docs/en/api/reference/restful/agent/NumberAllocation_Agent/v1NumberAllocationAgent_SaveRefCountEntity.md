@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 441,
-  "Field": "aut",
-  "RecordId": 467,
+  "RefCountsId": 610,
+  "Field": "est",
+  "RecordId": 459,
   "SuggestedRecords": [
     {
-      "Id": 297,
-      "Name": "McGlynn-Pfeffer",
-      "ToolTip": "Illo omnis itaque quisquam quia possimus.",
+      "Id": 831,
+      "Name": "Franecki-Flatley",
+      "ToolTip": "Omnis quod sint natus iure expedita dolor.",
       "Deleted": true,
-      "Rank": 497,
-      "Type": "culpa",
+      "Rank": 152,
+      "Type": "cum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 223,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "culpa",
-      "FullName": "Ms. Carmel Paige Stamm"
+      "IconHint": "architecto",
+      "ColorBlock": 619,
+      "ExtraInfo": "a",
+      "StyleHint": "natus",
+      "FullName": "Ms. Willow Grady I"
     }
   ],
-  "CurrentValue": 296,
-  "TravelPrefix": 186,
-  "SatPrefix": 348,
+  "CurrentValue": 151,
+  "TravelPrefix": 31,
+  "SatPrefix": 77,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": true,
-  "AllowBlank": true
+  "AllowBlank": false
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 79,
-  "Field": "similique",
-  "RecordId": 50,
+  "RefCountsId": 465,
+  "Field": "explicabo",
+  "RecordId": 652,
   "SuggestedRecords": [
     {
-      "Id": 745,
-      "Name": "Kulas, Denesik and Dicki",
-      "ToolTip": "Omnis nam aut tenetur et.",
+      "Id": 736,
+      "Name": "Grady-Leffler",
+      "ToolTip": "Enim velit beatae et sed nihil ipsam.",
       "Deleted": false,
-      "Rank": 721,
-      "Type": "quo",
+      "Rank": 620,
+      "Type": "minima",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "optio",
-      "ColorBlock": 812,
-      "ExtraInfo": "esse",
-      "StyleHint": "est",
-      "FullName": "Jakayla Mitchell",
+      "IconHint": "quisquam",
+      "ColorBlock": 593,
+      "ExtraInfo": "sed",
+      "StyleHint": "maxime",
+      "FullName": "Keagan Lazaro Fisher MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldType": "System.String",
+          "FieldLength": 704
         }
       }
     }
   ],
-  "CurrentValue": 532,
-  "TravelPrefix": 933,
-  "SatPrefix": 983,
+  "CurrentValue": 827,
+  "TravelPrefix": 61,
+  "SatPrefix": 689,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    123,
-    47
+    647,
+    60
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 318,
-    "MessageId": "laudantium",
-    "Subject": "suscipit",
+    "ServerId": 781,
+    "MessageId": "modi",
+    "Subject": "alias",
     "From": null,
     "To": [
       {
-        "ContactId": 435,
-        "ContactName": "Dicki Group",
-        "PersonId": 323,
-        "PersonName": "Lakin Group",
-        "AssociateId": 557,
-        "Address": "animi",
-        "EmailId": 916,
+        "ContactId": 307,
+        "ContactName": "Legros-Anderson",
+        "PersonId": 167,
+        "PersonName": "Borer LLC",
+        "AssociateId": 7,
+        "Address": "temporibus",
+        "EmailId": 359,
         "DuplicatePersonIds": [
-          355,
-          762
+          116,
+          457
         ],
-        "Name": "Rogahn, Corkery and White",
+        "Name": "Lehner Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 442
+            "FieldType": "System.String",
+            "FieldLength": 527
           }
         }
       }
     ],
-    "Sent": "2020-10-26T04:02:01.6748777+01:00",
+    "Sent": "2006-02-05T03:44:52.5427529+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 437,
+    "Size": 771,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldLength": 998
       }
     }
   }

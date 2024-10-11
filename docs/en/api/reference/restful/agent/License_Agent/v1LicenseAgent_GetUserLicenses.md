@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 385
+  "AssociateId": 999
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bosco, Heaney and Wilkinson",
-    "Description": "Intuitive human-resource neural-net",
+    "Name": "Leuschke Group",
+    "Description": "Cross-platform multimedia support",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 714,
-        "Tooltip": "qui",
+        "Total": 873,
+        "Tooltip": "recusandae",
         "CanAssign": false,
-        "Free": 203,
-        "InUse": 208,
+        "Free": 657,
+        "InUse": 534,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 708,
-        "Name": "Hayes-Stanton",
-        "Description": "Realigned holistic paradigm",
-        "PrerequisiteModuleName": "Dooley, Kohler and Huels",
-        "SortOrder": 865,
-        "ExtraFlags": 775,
+        "ModuleLicenseId": 942,
+        "Name": "Zulauf Inc and Sons",
+        "Description": "Right-sized bi-directional initiative",
+        "PrerequisiteModuleName": "Ankunding LLC",
+        "SortOrder": 351,
+        "ExtraFlags": 254,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 474
+            "FieldType": "System.String",
+            "FieldLength": 107
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 718,
-        "Tooltip": "magni",
+        "Total": 920,
+        "Tooltip": "illum",
         "CanAssign": false,
-        "Free": 517,
-        "InUse": 273,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 187,
-        "Name": "Tremblay-Sawayn",
-        "Description": "Innovative full-range hardware",
-        "PrerequisiteModuleName": "Renner, Luettgen and Rolfson",
-        "SortOrder": 768,
-        "ExtraFlags": 572,
+        "Free": 234,
+        "InUse": 332,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 960,
+        "Name": "Hartmann, Wiza and Schmidt",
+        "Description": "Versatile real-time task-force",
+        "PrerequisiteModuleName": "Lakin-Renner",
+        "SortOrder": 37,
+        "ExtraFlags": 996,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 304
+            "FieldLength": 264
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 123
       }
     }
   },
   {
-    "Name": "Bosco, Heaney and Wilkinson",
-    "Description": "Intuitive human-resource neural-net",
+    "Name": "Leuschke Group",
+    "Description": "Cross-platform multimedia support",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 714,
-        "Tooltip": "qui",
+        "Total": 873,
+        "Tooltip": "recusandae",
         "CanAssign": false,
-        "Free": 203,
-        "InUse": 208,
+        "Free": 657,
+        "InUse": 534,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 708,
-        "Name": "Hayes-Stanton",
-        "Description": "Realigned holistic paradigm",
-        "PrerequisiteModuleName": "Dooley, Kohler and Huels",
-        "SortOrder": 865,
-        "ExtraFlags": 775,
+        "ModuleLicenseId": 942,
+        "Name": "Zulauf Inc and Sons",
+        "Description": "Right-sized bi-directional initiative",
+        "PrerequisiteModuleName": "Ankunding LLC",
+        "SortOrder": 351,
+        "ExtraFlags": 254,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 474
+            "FieldType": "System.String",
+            "FieldLength": 107
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 718,
-        "Tooltip": "magni",
+        "Total": 920,
+        "Tooltip": "illum",
         "CanAssign": false,
-        "Free": 517,
-        "InUse": 273,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 187,
-        "Name": "Tremblay-Sawayn",
-        "Description": "Innovative full-range hardware",
-        "PrerequisiteModuleName": "Renner, Luettgen and Rolfson",
-        "SortOrder": 768,
-        "ExtraFlags": 572,
+        "Free": 234,
+        "InUse": 332,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 960,
+        "Name": "Hartmann, Wiza and Schmidt",
+        "Description": "Versatile real-time task-force",
+        "PrerequisiteModuleName": "Lakin-Renner",
+        "SortOrder": 37,
+        "ExtraFlags": 996,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 304
+            "FieldLength": 264
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 123
       }
     }
   }

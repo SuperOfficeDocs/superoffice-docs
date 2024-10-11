@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 873,
-  "NumDocumentsAlreadyMigrated": 382,
+  "NumDocumentsOmitted": 862,
+  "NumDocumentsAlreadyMigrated": 801,
   "Documents": [
     {
-      "DocumentId": 817,
-      "ContactId": 203,
-      "PersonId": 776,
-      "SaleId": 862,
-      "ProjectId": 357,
-      "DocTmplId": 243,
-      "AssociateId": 346,
-      "UserGroupId": 617,
-      "VisibleForId": 460
+      "DocumentId": 891,
+      "ContactId": 368,
+      "PersonId": 90,
+      "SaleId": 20,
+      "ProjectId": 397,
+      "DocTmplId": 472,
+      "AssociateId": 531,
+      "UserGroupId": 643,
+      "VisibleForId": 360
     }
   ],
   "Associates": [
     {
-      "AssociateId": 382,
-      "EmailAddress": "monte@haagmedhurst.co.uk"
+      "AssociateId": 41,
+      "EmailAddress": "cierra@hyatt.info"
     },
     {
-      "AssociateId": 382,
-      "EmailAddress": "monte@haagmedhurst.co.uk"
+      "AssociateId": 41,
+      "EmailAddress": "cierra@hyatt.info"
     }
   ]
 }

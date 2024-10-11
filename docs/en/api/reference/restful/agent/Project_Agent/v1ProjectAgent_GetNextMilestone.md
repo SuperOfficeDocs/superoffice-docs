@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 245
+  "ProjectId": 88
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 739,
-  "StartDate": "2015-08-25T04:02:02.1597135+02:00",
-  "EndDate": "2011-09-13T04:02:02.1597135+02:00",
+  "AppointmentId": 23,
+  "StartDate": "2010-04-23T03:44:53.0114471+02:00",
+  "EndDate": "1998-06-29T03:44:53.0114471+02:00",
   "Type": "BookingForChecklist",
-  "Task": "facilis",
-  "AssociateFullName": "Ms. Carlotta Spencer I",
-  "ContactName": "Stark-Gislason",
-  "Description": "Multi-channelled next generation focus group",
-  "PersonFullName": "Rosamond Wiza",
-  "PersonId": 453,
-  "ContactId": 385,
-  "ProjectId": 256,
-  "ProjectName": "Doyle Group",
-  "IsPublished": true,
-  "AssociateId": 428,
-  "ColorIndex": 19,
-  "IsFree": true,
+  "Task": "eum",
+  "AssociateFullName": "Tristian Mante",
+  "ContactName": "Hintz-Emmerich",
+  "Description": "Streamlined interactive approach",
+  "PersonFullName": "Maggie White I",
+  "PersonId": 569,
+  "ContactId": 180,
+  "ProjectId": 475,
+  "ProjectName": "Predovic Group",
+  "IsPublished": false,
+  "AssociateId": 542,
+  "ColorIndex": 145,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 914,
-  "PriorityName": "Hackett Group",
+  "PriorityId": 220,
+  "PriorityName": "Yundt, Walter and Brakus",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsBookingMain": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2023-08-14T04:02:02.1597135+02:00",
+  "ActiveDate": "2022-02-13T03:44:53.0114471+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2021-09-01T04:02:02.1597135+02:00",
-  "RecurringEndDate": "2024-04-21T04:02:02.1597135+02:00",
-  "MotherId": 939,
-  "AssignedBy": 693,
-  "AssignedByFullName": "Prof. Ransom Haag",
+  "RecurringStartDate": "2016-01-21T03:44:53.0114471+01:00",
+  "RecurringEndDate": "2003-10-24T03:44:53.0114471+02:00",
+  "MotherId": 145,
+  "AssignedBy": 640,
+  "AssignedByFullName": "Dr. Osvaldo Roob Sr.",
   "RejectReason": "",
-  "Location": "vel",
-  "AlarmLeadTime": "beatae",
-  "SaleId": 231,
-  "SaleName": "Aufderhar LLC",
-  "AssociateName": "Hansen, Little and Hamill",
-  "CreatedDate": "2012-11-07T04:02:02.1597135+01:00",
-  "CreatedBy": "voluptate",
-  "CreatedByFullName": "Candace Runte",
-  "CreatedByAssociateId": 218,
+  "Location": "nesciunt",
+  "AlarmLeadTime": "aut",
+  "SaleId": 524,
+  "SaleName": "Bartoletti, Stracke and Wintheiser",
+  "AssociateName": "Monahan, Bechtelar and Ernser",
+  "CreatedDate": "1998-10-03T03:44:53.0114471+02:00",
+  "CreatedBy": "deserunt",
+  "CreatedByFullName": "Hilbert Estrella Hodkiewicz I",
+  "CreatedByAssociateId": 698,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 818,
-  "Title": "ducimus",
-  "Agenda": "vitae",
-  "InternalNotes": "neque",
+  "PreferredTZLocation": 905,
+  "Title": "qui",
+  "Agenda": "iure",
+  "InternalNotes": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldLength": 242
     }
   }
 }

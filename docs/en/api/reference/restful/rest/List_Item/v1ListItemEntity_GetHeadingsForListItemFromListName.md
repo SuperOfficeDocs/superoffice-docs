@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Kreiger-Swift",
-    "ToolTip": "Ex libero sequi labore voluptatem eaque est molestiae.",
+    "Id": 968,
+    "Name": "Wisoky LLC",
+    "ToolTip": "Minus et officiis repellat.",
     "Deleted": false,
-    "Rank": 964,
-    "Type": "tempora",
-    "ColorBlock": 652,
-    "IconHint": "ipsam",
+    "Rank": 226,
+    "Type": "labore",
+    "ColorBlock": 723,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2011-10-13T04:02:07.0722253+02:00",
+    "LastChanged": "2022-10-25T03:44:57.8125425+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Aufderhar Inc and Sons",
-        "ToolTip": "Dolor at inventore rerum provident assumenda libero dolores.",
-        "Deleted": true,
-        "Rank": 938,
-        "Type": "velit",
-        "ColorBlock": 921,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "2001-03-20T04:02:07.0722253+01:00",
+        "Id": 968,
+        "Name": "Balistreri, Crona and Fahey",
+        "ToolTip": "Veritatis velit excepturi ducimus esse.",
+        "Deleted": false,
+        "Rank": 578,
+        "Type": "sed",
+        "ColorBlock": 199,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2023-10-05T03:44:57.8125425+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "doloribus",
-        "Hidden": false,
-        "FullName": "Elroy Crooks",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "at",
+        "Hidden": true,
+        "FullName": "Ricky Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 468
+            "FieldType": "System.Int32",
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Doris O'Reilly",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Elton Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldType": "System.Int32",
+        "FieldLength": 901
       }
     }
   }

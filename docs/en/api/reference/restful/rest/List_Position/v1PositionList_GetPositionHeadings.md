@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 618,
-    "Name": "Wehner LLC",
-    "Tooltip": "quam",
+    "HeadingId": 143,
+    "Name": "Ruecker LLC",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 25,
-    "UdListDefinitionId": 703,
+    "Rank": 296,
+    "UdListDefinitionId": 754,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 175
       }
     }
   }

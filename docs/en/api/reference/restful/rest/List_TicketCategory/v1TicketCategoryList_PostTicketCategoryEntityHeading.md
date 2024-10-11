@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 17,
-  "Name": "Feest-Langworth",
-  "Tooltip": "nemo",
-  "Deleted": false,
-  "Rank": 751,
-  "UdListDefinitionId": 868
+  "HeadingId": 11,
+  "Name": "Kuhlman, Hirthe and Howe",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 361,
+  "UdListDefinitionId": 952
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 274,
-  "Name": "Powlowski Inc and Sons",
-  "Tooltip": "eos",
+  "HeadingId": 901,
+  "Name": "Hackett-Kling",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 484,
-  "UdListDefinitionId": 881,
+  "Rank": 883,
+  "UdListDefinitionId": 729,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

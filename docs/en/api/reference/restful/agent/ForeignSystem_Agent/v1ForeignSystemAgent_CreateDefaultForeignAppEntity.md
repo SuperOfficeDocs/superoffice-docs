@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 390,
-  "Name": "Klocko Inc and Sons",
-  "CreatedDate": "1999-03-14T04:02:01.7888547+01:00",
-  "UpdatedDate": "1998-02-08T04:02:01.7888547+01:00",
+  "ForeignAppId": 110,
+  "Name": "O'Keefe, Schaefer and Beahan",
+  "CreatedDate": "2013-11-16T03:44:52.6364852+01:00",
+  "UpdatedDate": "1999-04-05T03:44:52.6364852+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 767,
-      "Name": "Kuhlman-Bahringer",
-      "CreatedDate": "2003-10-06T04:02:01.7888547+02:00",
-      "UpdatedDate": "2000-09-04T04:02:01.7888547+02:00",
-      "AssociateFullName": "Dallas Oda Rodriguez Sr.",
-      "CreatedBy": "maiores",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "harum",
-      "ForeignAppId": 876,
+      "ForeignDeviceId": 645,
+      "Name": "Williamson Group",
+      "CreatedDate": "1998-02-10T03:44:52.6364852+01:00",
+      "UpdatedDate": "2020-06-18T03:44:52.6364852+02:00",
+      "AssociateFullName": "Alvina Wolff MD",
+      "CreatedBy": "eos",
+      "UpdatedBy": "vel",
+      "DeviceIdentifier": "doloremque",
+      "ForeignAppId": 699,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldType": "System.String",
+          "FieldLength": 543
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldLength": 892
     }
   }
 }

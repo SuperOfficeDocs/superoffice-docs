@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 381,
+  "ErpConnectionId": 244,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "minima",
-    "Rank": 185,
-    "DisplayName": "Huels Inc and Sons",
-    "DisplayDescription": "Integrated 6th generation structure",
+    "FieldKey": "voluptas",
+    "Rank": 252,
+    "DisplayName": "Schmeler Inc and Sons",
+    "DisplayDescription": "Programmable didactic productivity",
     "FieldType": "Checkbox",
-    "ListName": "Haag, Herzog and Schimmel",
-    "DefaultValue": "quis",
-    "MaxLength": 818,
+    "ListName": "Becker-Russel",
+    "DefaultValue": "eaque",
+    "MaxLength": 261,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

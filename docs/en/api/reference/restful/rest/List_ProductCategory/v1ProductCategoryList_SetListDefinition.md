@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 557,
-  "Name": "Okuneva, Hettinger and Blanda",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 764,
+  "Id": 384,
+  "Name": "Keebler Inc and Sons",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 651,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perferendis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
-  "Name": "Jast Group",
-  "Tooltip": "et",
+  "Id": 67,
+  "Name": "Hagenes Group",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 150,
-  "IsCustomList": true,
+  "Rank": 248,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "minus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "placeat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldType": "System.String",
+      "FieldLength": 486
     }
   }
 }

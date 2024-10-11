@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptates"
+  "UniqueIdentifier": "quis"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "inventore",
-  "Name": "Aufderhar-McGlynn",
-  "Description": "Business-focused well-modulated secured line",
-  "IncludeId": "voluptates",
-  "Source": "beatae",
-  "Registered": "2008-05-26T04:02:01.5186345+02:00",
-  "RegisteredBy": "amet",
-  "Updated": "2001-12-14T04:02:01.5186345+01:00",
-  "UpdatedBy": "voluptates",
-  "Path": "quod",
+  "UniqueIdentifier": "accusantium",
+  "Name": "Turner, West and Schuppe",
+  "Description": "Re-contextualized encompassing forecast",
+  "IncludeId": "eos",
+  "Source": "doloremque",
+  "Registered": "2002-12-15T03:44:52.3708918+01:00",
+  "RegisteredBy": "sint",
+  "Updated": "2013-04-14T03:44:52.3708918+02:00",
+  "UpdatedBy": "ipsam",
+  "Path": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 15
     }
   }
 }

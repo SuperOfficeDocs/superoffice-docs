@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 983,
-  "Name": "Christiansen-Predovic",
-  "Description": "Focused contextually-based capacity",
-  "WelcomeMessage": "voluptatem",
+  "ChatTopicId": 42,
+  "Name": "Luettgen-Toy",
+  "Description": "Face to face even-keeled approach",
+  "WelcomeMessage": "enim",
   "Language": null,
-  "LastAccept": "2009-10-18T04:02:06.3530464+02:00",
-  "SecondsPrAccept": 595,
-  "AlertRecipient": "eos",
+  "LastAccept": "2020-07-01T03:44:57.0940238+02:00",
+  "SecondsPrAccept": 59,
+  "AlertRecipient": "alias",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "eaque",
+  "CollectConsent": false,
+  "BadgeHeader": "non",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "vel",
-  "WarnNewChatMinutes": 162,
-  "WarnManagerNewChatMinutes": 524,
+  "CustomQueueText": "sequi",
+  "WarnNewChatMinutes": 936,
+  "WarnManagerNewChatMinutes": 174,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 553,
-  "WarnManagerChatMessageMinutes": 830,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 773,
+  "WarnManagerChatMessageMinutes": 109,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 718,
-  "OfflineFormQueueLength": 224,
+  "OfflineFormTimeLimit": 18,
+  "OfflineFormQueueLength": 318,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "natus"
+  "WidgetRatingText": "officiis"
 }
 ```
 
@@ -181,21 +181,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 39,
-  "Name": "Homenick Group",
-  "Description": "Optimized heuristic project",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 899,
+  "Name": "Ankunding Inc and Sons",
+  "Description": "De-engineered mobile extranet",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "2011-05-20T04:02:06.3530464+02:00",
-  "SecondsPrAccept": 1001,
-  "AlertRecipient": "tenetur",
+  "LastAccept": "2010-03-11T03:44:57.0940238+01:00",
+  "SecondsPrAccept": 116,
+  "AlertRecipient": "qui",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "ullam",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 649,
-  "WarnManagerNewChatMinutes": 515,
+  "CollectConsent": false,
+  "BadgeHeader": "odit",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "eos",
+  "WarnNewChatMinutes": 889,
+  "WarnManagerNewChatMinutes": 55,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -204,20 +204,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 895,
-  "WarnManagerChatMessageMinutes": 63,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 15,
+  "WarnManagerChatMessageMinutes": 850,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 258,
-  "OfflineFormQueueLength": 870,
+  "OfflineFormTimeLimit": 527,
+  "OfflineFormQueueLength": 755,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "WidgetRatingText": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 67
     }
   },
   "_Links": {

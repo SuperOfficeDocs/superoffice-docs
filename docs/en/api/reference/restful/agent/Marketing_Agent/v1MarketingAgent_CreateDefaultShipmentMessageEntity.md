@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 908,
-  "PlainMessage": "at",
-  "HtmlMessage": "ea",
-  "SmsMessage": "et",
-  "Description": "Centralized content-based collaboration",
-  "Subject": "est",
-  "FolderId": 266,
-  "HeaderField": "a",
-  "Design": "non",
+  "ShipmentMessageId": 250,
+  "PlainMessage": "et",
+  "HtmlMessage": "eius",
+  "SmsMessage": "labore",
+  "Description": "Secured solution-oriented initiative",
+  "Subject": "consequatur",
+  "FolderId": 721,
+  "HeaderField": "ex",
+  "Design": "ea",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Cross-platform logistical paradigm",
-  "AccessKey": "qui",
-  "DocumentMessage": 666,
-  "Registered": "2003-01-09T04:02:01.8941042+01:00",
-  "RegisteredAssociateId": 916,
-  "Updated": "2017-09-27T04:02:01.8941042+02:00",
-  "UpdatedAssociateId": 615,
-  "UpdatedCount": 556,
+  "LongDescription": "Focused solution-oriented time-frame",
+  "AccessKey": "fugit",
+  "DocumentMessage": 985,
+  "Registered": "1997-11-28T03:44:52.7458159+01:00",
+  "RegisteredAssociateId": 61,
+  "Updated": "2021-12-02T03:44:52.7458159+01:00",
+  "UpdatedAssociateId": 13,
+  "UpdatedCount": 501,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 651
     }
   }
 }

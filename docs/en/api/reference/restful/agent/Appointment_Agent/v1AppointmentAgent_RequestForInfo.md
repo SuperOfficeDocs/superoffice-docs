@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 105,
-  "Channel": "atque",
-  "Regarding": "cum",
-  "ContactName": "Dickens-Dietrich",
-  "PersonFirstname": "Asha",
-  "PersonLastname": "Bode",
-  "EmailAddress": "carleton@robelhodkiewicz.co.uk",
-  "PhoneNumber": "1285431"
+  "AssociateIdForNewContact": 108,
+  "Channel": "ea",
+  "Regarding": "ipsa",
+  "ContactName": "Zieme, Oberbrunner and Hammes",
+  "PersonFirstname": "Santiago",
+  "PersonLastname": "Homenick",
+  "EmailAddress": "estella@feil.us",
+  "PhoneNumber": "1618781"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 752,
-      "Name": "Dare-Miller",
-      "OrgNr": "391618",
+      "ContactId": 742,
+      "Name": "Bashirian Group",
+      "OrgNr": "1142062",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "et",
-      "DirectPhone": "705.175.1721",
-      "AssociateId": 729,
-      "CountryId": 195,
-      "EmailAddress": "chelsea_schneider@lesch.info",
-      "Kananame": "voluptatibus",
-      "EmailAddressName": "rosa@hauck.info",
+      "City": "molestiae",
+      "DirectPhone": "367-554-5137 x13467",
+      "AssociateId": 795,
+      "CountryId": 181,
+      "EmailAddress": "marlen@nolansteuber.name",
+      "Kananame": "sit",
+      "EmailAddressName": "frederic_weber@goodwin.com",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Miss Nico Leora Wisozk",
+      "AssociateFullName": "Gussie Farrell",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "perspiciatis",
-      "FullName": "Prof. Earnestine Brent Treutel",
+      "FormattedAddress": "natus",
+      "FullName": "Isaac McClure",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 817,
-      "Number1": "1331754",
-      "Number2": "1691455",
+      "ActiveErpLinks": 544,
+      "Number1": "1036365",
+      "Number2": "83796",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 444
+          "FieldType": "System.Int32",
+          "FieldLength": 581
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 594
     }
   }
 }

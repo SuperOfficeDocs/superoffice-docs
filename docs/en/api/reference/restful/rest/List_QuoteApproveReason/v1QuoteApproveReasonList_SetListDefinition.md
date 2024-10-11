@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Luettgen, Hodkiewicz and Shanahan",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 756,
+  "Id": 259,
+  "Name": "Schinner, Blanda and Huel",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 180,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Name": "Lesch Inc and Sons",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "Rank": 980,
+  "Id": 345,
+  "Name": "Shanahan LLC",
+  "Tooltip": "quod",
+  "Deleted": false,
+  "Rank": 436,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 363
     }
   }
 }

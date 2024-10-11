@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 423,
-  "EMailAddress": "impedit",
-  "AssociateId": 44,
+  "EMailAccountId": 525,
+  "EMailAddress": "enim",
+  "AssociateId": 511,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 271,
-  "ErrorCount": 865,
-  "ErrorReason": "mesh out-of-the-box partnerships",
-  "InboxFolder": "sint",
-  "SentFolder": "inventore",
+  "AccountStatus": 44,
+  "ErrorCount": 488,
+  "ErrorReason": "",
+  "InboxFolder": "laudantium",
+  "SentFolder": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 629
     }
   }
 }

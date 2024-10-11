@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 228,
+  "PersonId": 557,
   "OnlyOpenSales": true
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bergnaum, Thiel and Feil",
-    "SaleDate": "2008-02-07T04:02:02.28488+01:00",
-    "SaleId": 583,
-    "Probability": 693,
-    "Title": "ab",
-    "Amount": 282.06,
-    "Currency": "voluptates",
-    "ProjectName": "Boehm-Grant",
-    "AssociateFullName": "Kale D'Amore",
-    "Description": "Realigned 5th generation customer loyalty",
+    "ContactName": "Veum Inc and Sons",
+    "SaleDate": "2010-10-24T03:44:53.136845+02:00",
+    "SaleId": 595,
+    "Probability": 601,
+    "Title": "et",
+    "Amount": 19656.448,
+    "Currency": "laboriosam",
+    "ProjectName": "Batz, Heathcote and Heaney",
+    "AssociateFullName": "Owen Tremblay",
+    "Description": "Persevering zero tolerance circuit",
     "Status": "Lost",
-    "WeightedAmount": 29434.528,
-    "ProjectId": 424,
-    "EarningPercent": 7408.776,
-    "Earning": 6418.432,
-    "ContactId": 299,
-    "AssociateId": 992,
-    "PersonId": 441,
-    "SaleTypeId": 394,
-    "SaleTypeName": "Moen Inc and Sons",
-    "PersonFullName": "Kavon Krista Kozey PhD",
+    "WeightedAmount": 2259.614,
+    "ProjectId": 184,
+    "EarningPercent": 16077.42,
+    "Earning": 12000.086,
+    "ContactId": 217,
+    "AssociateId": 637,
+    "PersonId": 831,
+    "SaleTypeId": 540,
+    "SaleTypeName": "Bernhard-Huels",
+    "PersonFullName": "Mr. Patrick Elwyn Fadel PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 98,
-    "NextDueDate": "2019-02-17T04:02:02.28488+01:00",
-    "Number": "970290",
+    "ActiveErpLinks": 588,
+    "NextDueDate": "2024-03-24T03:44:53.136845+01:00",
+    "Number": "1415644",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldLength": 186
       }
     }
   }

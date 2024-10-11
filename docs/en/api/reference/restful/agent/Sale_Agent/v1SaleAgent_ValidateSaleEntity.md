@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Sale/ValidateSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "eos"
+  "1": "vel",
+  "2": "ut"
 }
 ```

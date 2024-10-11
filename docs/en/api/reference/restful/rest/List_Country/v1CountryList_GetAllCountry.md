@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 975,
-    "Name": "Botsford-Braun",
-    "CurrencyId": 246,
-    "EnglishName": "Luettgen LLC",
+    "CountryId": 523,
+    "Name": "Mertz-Kub",
+    "CurrencyId": 962,
+    "EnglishName": "Gleason-Jakubowski",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Function-based transitional hardware",
-    "OrgNrText": "1171674",
-    "InterAreaPrefix": "quidem",
-    "DialInPrefix": "vero",
-    "ZipPrefix": "laborum",
-    "DomainName": "Klein, Boyer and Lesch",
-    "AddressLayoutId": 210,
-    "DomesticAddressLayoutId": 872,
-    "ForeignAddressLayoutId": 311,
-    "Rank": 321,
-    "Tooltip": "consequatur",
+    "ImageDescription": "Phased eco-centric toolset",
+    "OrgNrText": "721142",
+    "InterAreaPrefix": "ut",
+    "DialInPrefix": "dolorum",
+    "ZipPrefix": "voluptas",
+    "DomainName": "Skiles, Kshlerin and Homenick",
+    "AddressLayoutId": 759,
+    "DomesticAddressLayoutId": 676,
+    "ForeignAddressLayoutId": 924,
+    "Rank": 697,
+    "Tooltip": "velit",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldType": "System.String",
+        "FieldLength": 532
       }
     }
   }

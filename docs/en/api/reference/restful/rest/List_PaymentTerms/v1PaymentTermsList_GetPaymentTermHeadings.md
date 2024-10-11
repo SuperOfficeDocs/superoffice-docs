@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 578,
-    "Name": "Baumbach Group",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "Rank": 983,
-    "UdListDefinitionId": 300,
+    "HeadingId": 186,
+    "Name": "Kuhic, Ernser and Hyatt",
+    "Tooltip": "molestias",
+    "Deleted": true,
+    "Rank": 3,
+    "UdListDefinitionId": 144,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldLength": 562
       }
     }
   }

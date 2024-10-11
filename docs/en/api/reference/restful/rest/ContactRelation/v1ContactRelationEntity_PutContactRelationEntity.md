@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 538,
-  "SourcePersonId": 898,
-  "DestinationContactId": 899,
-  "DestinationPersonId": 385,
-  "RelationId": 762,
-  "Comment": "esse",
-  "RelationDefinitionId": 19,
-  "Reversed": 358,
-  "UpdatedDate": "1997-09-12T04:02:06.4472912+02:00",
-  "CreatedDate": "2000-03-08T04:02:06.4472912+01:00",
+  "SourceContactId": 629,
+  "SourcePersonId": 652,
+  "DestinationContactId": 528,
+  "DestinationPersonId": 515,
+  "RelationId": 567,
+  "Comment": "aliquam",
+  "RelationDefinitionId": 55,
+  "Reversed": 891,
+  "UpdatedDate": "2008-10-12T03:44:57.2028009+02:00",
+  "CreatedDate": "2022-09-14T03:44:57.2028009+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hamill Group",
-  "SourcePersonName": "Strosin, Zulauf and Quigley",
-  "DestinationContactName": "Wuckert LLC",
-  "DestinationPersonName": "Blick-Connelly",
-  "ActiveText": "quia",
-  "PassiveText": "quo"
+  "SourceContactName": "Yost, Adams and Mante",
+  "SourcePersonName": "Dooley Group",
+  "DestinationContactName": "Eichmann, Anderson and Schinner",
+  "DestinationPersonName": "Swaniawski, Maggio and Lakin",
+  "ActiveText": "vel",
+  "PassiveText": "minus"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 885,
-  "SourcePersonId": 214,
-  "DestinationContactId": 257,
-  "DestinationPersonId": 893,
-  "RelationId": 653,
-  "Comment": "tempore",
-  "RelationDefinitionId": 440,
-  "Reversed": 238,
-  "UpdatedDate": "1997-10-28T04:02:06.4472912+01:00",
-  "CreatedDate": "2005-10-18T04:02:06.4472912+02:00",
+  "SourceContactId": 325,
+  "SourcePersonId": 990,
+  "DestinationContactId": 351,
+  "DestinationPersonId": 706,
+  "RelationId": 429,
+  "Comment": "impedit",
+  "RelationDefinitionId": 851,
+  "Reversed": 994,
+  "UpdatedDate": "2002-07-05T03:44:57.2028009+02:00",
+  "CreatedDate": "2006-01-27T03:44:57.2028009+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Cremin LLC",
-  "SourcePersonName": "Goodwin Inc and Sons",
-  "DestinationContactName": "Zboncak Inc and Sons",
-  "DestinationPersonName": "Rolfson, Mueller and Kunze",
-  "ActiveText": "laborum",
-  "PassiveText": "eum",
+  "SourceContactName": "Kuvalis-Ondricka",
+  "SourcePersonName": "Dietrich Group",
+  "DestinationContactName": "Corwin-Champlin",
+  "DestinationPersonName": "Gaylord LLC",
+  "ActiveText": "iure",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldType": "System.String",
+      "FieldLength": 284
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

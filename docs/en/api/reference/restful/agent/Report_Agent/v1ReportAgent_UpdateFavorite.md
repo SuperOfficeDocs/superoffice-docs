@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 443,
+  "ReportId": 130,
   "ReportCategory": "All",
-  "Description": "Open-source systematic database",
+  "Description": "Organized empowering infrastructure",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hettinger, Lesch and Hills",
-  "AssociateId": 130,
-  "TemplateId": 203,
+  "Name": "Medhurst, Gusikowski and Jast",
+  "AssociateId": 497,
+  "TemplateId": 785,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 14
     }
   }
 }

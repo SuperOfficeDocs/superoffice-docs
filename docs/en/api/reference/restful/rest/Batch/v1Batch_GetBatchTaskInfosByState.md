@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "O'Conner, Greenholt and Tillman",
-    "AssociateId": 14,
-    "DetailsTable": 330,
-    "DetailsRecord": 746,
+    "Id": 204,
+    "Name": "Rogahn-Blick",
+    "AssociateId": 251,
+    "DetailsTable": 144,
+    "DetailsRecord": 921,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quae",
-      "ParameterObject2": "asperiores"
+      "ParameterObject1": "corrupti",
+      "ParameterObject2": "repellendus"
     },
-    "LastStarted": "2008-12-25T04:02:06.9472381+01:00",
-    "Created": "2021-08-17T04:02:06.9472381+02:00",
-    "StartCount": 931,
-    "DatabaseSerialNumber": "1506286",
-    "Context": "aut",
-    "Result": "illum",
+    "LastStarted": "2005-07-19T03:44:57.7031403+02:00",
+    "Created": "2013-04-23T03:44:57.7031403+02:00",
+    "StartCount": 433,
+    "DatabaseSerialNumber": "849504",
+    "Context": "consequatur",
+    "Result": "ullam",
     "State": "All",
-    "Description": "Self-enabling composite hub",
-    "Response": "quia",
-    "Request": "vero",
-    "ProgressDescription": "Programmable 6th generation portal",
-    "ProgressPercent": 817,
-    "FileName": "Predovic LLC",
+    "Description": "Open-architected fresh-thinking website",
+    "Response": "temporibus",
+    "Request": "quo",
+    "ProgressDescription": "Fundamental leading edge capacity",
+    "ProgressPercent": 970,
+    "FileName": "Sporer-Kilback",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 78
       }
     }
   }

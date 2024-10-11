@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 467,
-  "ERPQuoteAlternativeKey": "adipisci",
-  "QuoteVersionId": 702,
-  "Name": "Rath-Shanahan",
-  "Description": "Front-line hybrid process improvement",
+  "QuoteAlternativeId": 141,
+  "ERPQuoteAlternativeKey": "non",
+  "QuoteVersionId": 605,
+  "Name": "Ondricka-Kuhic",
+  "Description": "Managed background adapter",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 20518.298,
-  "ERPDiscountAmount": 14773.676,
-  "DiscountPercent": 81.484,
-  "DiscountAmount": 2021.4299999999998,
+  "ERPDiscountPercent": 3337.71,
+  "ERPDiscountAmount": 16713.622,
+  "DiscountPercent": 10702.609999999999,
+  "DiscountAmount": 21000.934,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sunt",
-  "VAT": 22151.112,
-  "EarningPercent": 23072.507999999998,
-  "EarningAmount": 13187.872,
-  "SubTotal": 2842.538,
-  "TotalPrice": 13341.438,
-  "ExtraField1": "voluptatibus",
-  "ExtraField2": "non",
-  "ExtraField3": "et",
-  "ExtraField4": "accusantium",
-  "ExtraField5": "voluptates",
+  "VATInfo": "repellendus",
+  "VAT": 12545.402,
+  "EarningPercent": 13927.496,
+  "EarningAmount": 21098.088,
+  "SubTotal": 31045.404,
+  "TotalPrice": 23727.514,
+  "ExtraField1": "sunt",
+  "ExtraField2": "recusandae",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "perferendis",
+  "ExtraField5": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 403
     }
   }
 }

@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 435,
-  "ERPPriceListKey": "fugit",
-  "QuoteConnectionId": 502,
-  "Name": "Rowe-Adams",
-  "Description": "Profound even-keeled service-desk",
-  "Currency": "ullam",
-  "CurrencyName": "Jerde Inc and Sons",
-  "ValidFrom": "2021-09-06T04:02:07.3065765+02:00",
-  "ValidTo": "2000-08-27T04:02:07.3065765+02:00",
+  "PriceListId": 312,
+  "ERPPriceListKey": "quam",
+  "QuoteConnectionId": 991,
+  "Name": "Spinka, McClure and Pfeffer",
+  "Description": "Reactive client-server superstructure",
+  "Currency": "et",
+  "CurrencyName": "Medhurst-Turcotte",
+  "ValidFrom": "2009-09-25T03:44:58.0468534+02:00",
+  "ValidTo": "2013-04-14T03:44:58.0468534+02:00",
   "IsActive": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 588,
-  "ERPPriceListKey": "minima",
-  "QuoteConnectionId": 783,
-  "Name": "Goyette-Kuphal",
-  "Description": "Adaptive attitude-oriented workforce",
-  "Currency": "est",
-  "CurrencyName": "Hilll-Berge",
-  "ValidFrom": "2016-09-05T04:02:07.3065765+02:00",
-  "ValidTo": "2007-07-10T04:02:07.3065765+02:00",
-  "IsActive": true,
+  "PriceListId": 136,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 447,
+  "Name": "Heller-Steuber",
+  "Description": "Customer-focused stable budgetary management",
+  "Currency": "omnis",
+  "CurrencyName": "Schiller Group",
+  "ValidFrom": "2002-01-29T03:44:58.0468534+01:00",
+  "ValidTo": "2023-12-05T03:44:58.0468534+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldType": "System.String",
+      "FieldLength": 713
     }
   },
   "_Links": {

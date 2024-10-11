@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "McLaughlin-O'Reilly",
-    "ToolTip": "Minus commodi molestias sunt ut alias et.",
-    "Deleted": true,
-    "Rank": 820,
-    "Type": "dolor",
-    "ColorBlock": 770,
-    "IconHint": "neque",
-    "Selected": false,
-    "LastChanged": "2003-03-10T04:02:07.3065765+01:00",
+    "Id": 528,
+    "Name": "Schmidt-Kautzer",
+    "ToolTip": "Blanditiis dolor.",
+    "Deleted": false,
+    "Rank": 34,
+    "Type": "repellat",
+    "ColorBlock": 339,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2004-12-14T03:44:58.062516+01:00",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Waelchi-Kirlin",
-        "ToolTip": "Saepe asperiores.",
+        "Id": 333,
+        "Name": "Gleason-Torp",
+        "ToolTip": "Doloremque molestiae quo voluptatum occaecati enim expedita.",
         "Deleted": false,
-        "Rank": 343,
-        "Type": "sunt",
-        "ColorBlock": 565,
-        "IconHint": "vel",
+        "Rank": 396,
+        "Type": "consequatur",
+        "ColorBlock": 211,
+        "IconHint": "eius",
         "Selected": true,
-        "LastChanged": "2021-12-04T04:02:07.3065765+01:00",
+        "LastChanged": "2017-07-23T03:44:58.062516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Ms. Emily Anderson DDS"
+        "ExtraInfo": "ipsam",
+        "StyleHint": "voluptatibus",
+        "Hidden": true,
+        "FullName": "Anthony Stanton"
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "maiores",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Lindsey Jade Kshlerin Jr."
+    "FullName": "Cara Nitzsche"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Bergnaum Inc and Sons",
-    "ToolTip": "Aliquid sint cumque facilis voluptate.",
+    "Id": 975,
+    "Name": "Schneider Inc and Sons",
+    "ToolTip": "Similique est dolores.",
     "Deleted": false,
-    "Rank": 533,
-    "Type": "voluptas",
-    "ColorBlock": 287,
-    "IconHint": "mollitia",
+    "Rank": 199,
+    "Type": "quia",
+    "ColorBlock": 957,
+    "IconHint": "cupiditate",
     "Selected": true,
-    "LastChanged": "1998-12-12T04:02:07.3065765+01:00",
+    "LastChanged": "2019-09-02T03:44:58.062516+02:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Franecki Inc and Sons",
-        "ToolTip": "Eveniet nisi omnis rerum.",
+        "Id": 437,
+        "Name": "Mills-Schoen",
+        "ToolTip": "Voluptatem impedit rem neque.",
         "Deleted": true,
-        "Rank": 893,
-        "Type": "sed",
-        "ColorBlock": 52,
-        "IconHint": "omnis",
+        "Rank": 312,
+        "Type": "consequuntur",
+        "ColorBlock": 175,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2014-06-04T04:02:07.3065765+02:00",
+        "LastChanged": "2018-11-11T03:44:58.062516+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Liana Dalton Hudson IV",
+        "ExtraInfo": "error",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Dr. Bert Donnelly III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 346
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Logan Roberts",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Ms. Kennith Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldLength": 195
       }
     }
   }

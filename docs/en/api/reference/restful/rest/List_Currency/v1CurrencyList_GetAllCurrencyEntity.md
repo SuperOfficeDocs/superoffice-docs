@@ -27,7 +27,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=False
+GET /api/v1/List/Currency/Items?includeDeleted=True
 ```
 
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 868,
-    "Name": "Kerluke, Schmitt and Metz",
-    "Tooltip": "saepe",
-    "Rank": 993,
-    "Rate": 24081.656,
-    "Units": 15654.33,
+    "CurrencyId": 849,
+    "Name": "Murray-Blanda",
+    "Tooltip": "tempore",
+    "Rank": 44,
+    "Rate": 27945.878,
+    "Units": 10332.797999999999,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 732
       }
     }
   }

@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bode-Blanda",
-  "Columns": "pariatur",
-  "SortOrder": "velit",
-  "Restriction": "ut",
-  "Entities": "aspernatur",
-  "Page": 164,
-  "PageSize": 484,
-  "Context": "odio"
+  "ProviderName": "Mohr, Frami and Halvorson",
+  "Columns": "voluptatem",
+  "SortOrder": "sint",
+  "Restriction": "nihil",
+  "Entities": "nam",
+  "Page": 878,
+  "PageSize": 602,
+  "Context": "aspernatur"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gislason-Funk",
-    "PrimaryKey": 47,
+    "EntityName": "Abernathy Group",
+    "PrimaryKey": 618,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "enim",
-        "TooltipHint": "repellendus",
-        "LinkHint": "eos"
+        "DisplayValue": "fuga",
+        "TooltipHint": "alias",
+        "LinkHint": "sint"
       }
     },
-    "LinkHint": "qui",
-    "StyleHint": "reiciendis",
+    "LinkHint": "pariatur",
+    "StyleHint": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldType": "System.String",
+        "FieldLength": 889
       }
     }
   }

@@ -28,7 +28,7 @@ Gets a Role object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRole?roleId=424
+POST /api/v1/Agents/User/GetRole?roleId=924
 POST /api/v1/Agents/User/GetRole?$select=name,department,category/id
 ```
 
@@ -81,15 +81,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 9,
-  "Value": "consequatur",
-  "Tooltip": "inventore",
+  "Id": 492,
+  "Value": "est",
+  "Tooltip": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 887,
+  "HierarchyId": 467,
   "Domain": "Dashboards",
-  "Name": "Weissnat Inc and Sons",
-  "Fullname": "velit",
-  "ParentId": 279,
+  "Name": "Schroeder Group",
+  "Fullname": "laborum",
+  "ParentId": 300,
   "Children": [
     {
-      "HierarchyId": 527,
+      "HierarchyId": 567,
       "Domain": "Dashboards",
-      "Name": "Goyette, Abernathy and Rodriguez",
-      "Fullname": "voluptas",
-      "ParentId": 202,
+      "Name": "Schulist, Heller and Pouros",
+      "Fullname": "ut",
+      "ParentId": 774,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-09-01T04:02:06.6191478+02:00",
-      "RegisteredAssociateId": 527,
-      "Updated": "1999-06-04T04:02:06.6191478+02:00",
-      "UpdatedAssociateId": 778,
+      "Registered": "1997-11-13T03:44:57.359003+01:00",
+      "RegisteredAssociateId": 234,
+      "Updated": "2000-08-14T03:44:57.359003+02:00",
+      "UpdatedAssociateId": 831,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 983
+          "FieldType": "System.Int32",
+          "FieldLength": 759
         }
       }
     }
   ],
-  "Registered": "2010-08-06T04:02:06.6191478+02:00",
-  "RegisteredAssociateId": 755,
-  "Updated": "1998-06-30T04:02:06.6191478+02:00",
-  "UpdatedAssociateId": 263,
+  "Registered": "2001-02-07T03:44:57.359003+01:00",
+  "RegisteredAssociateId": 138,
+  "Updated": "2006-03-16T03:44:57.359003+01:00",
+  "UpdatedAssociateId": 357,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldType": "System.String",
+      "FieldLength": 495
     }
   }
 }

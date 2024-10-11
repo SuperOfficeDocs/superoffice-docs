@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Marvin-Abbott"
+  "TargetTableName": "Wyman, Von and D'Amore"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable client-driven complexity",
-  "Postit": "culpa",
+  "Description": "Organized maximized customer loyalty",
+  "Postit": "tempora",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 312,
-  "IncludePerson": 185,
+  "GroupIdx": 306,
+  "IncludePerson": 890,
   "MemberCount": 99.99,
-  "Name": "Beahan-Wolff",
-  "PostitTextId": 950,
-  "CreatedDate": "2000-02-04T04:02:02.3005065+01:00",
-  "SelectionId": 471,
-  "SoundEx": "hic",
-  "Source": 403,
-  "TextId": 751,
-  "UpdatedDate": "2019-04-23T04:02:02.3005065+02:00",
-  "UpdatedCount": 436,
-  "Visibility": 29,
+  "Name": "Harber, Bergstrom and Batz",
+  "PostitTextId": 987,
+  "CreatedDate": "2001-02-26T03:44:53.1524683+01:00",
+  "SelectionId": 703,
+  "SoundEx": "optio",
+  "Source": 226,
+  "TextId": 956,
+  "UpdatedDate": "1998-09-07T03:44:53.1524683+02:00",
+  "UpdatedCount": 46,
+  "Visibility": 801,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 273,
-  "TargetTableName": "Mann Inc and Sons",
+  "CompanyUnique": true,
+  "TargetTableNumber": 365,
+  "TargetTableName": "Lehner Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 218,
-  "RightSelectionId": 183,
+  "LeftSelectionId": 797,
+  "RightSelectionId": 222,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Christiansen, Sawayn and Larkin",
-  "ShadowProviderName": "Morar, Romaguera and O'Conner",
-  "ChartKey": "voluptates",
-  "LastLoaded": "2015-12-15T04:02:02.3005065+01:00",
-  "LastLoadedBy": 527,
+  "MainProviderName": "Brekke-Johnson",
+  "ShadowProviderName": "Beier, Bergnaum and Cremin",
+  "ChartKey": "doloribus",
+  "LastLoaded": "2021-10-02T03:44:53.1524683+02:00",
+  "LastLoadedBy": 59,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-05-20T04:02:02.3005065+02:00",
-  "LastMembershipChangeBy": 778,
+  "LastMembershipChange": "2024-08-02T03:44:53.1524683+02:00",
+  "LastMembershipChangeBy": 315,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "labore",
-  "MemberTabHeading": "itaque",
-  "MailingsProviderName": "Baumbach, Murphy and Purdy",
-  "DashboardTileDefinitionId": 882,
+  "MainHeading": "quis",
+  "MemberTabHeading": "ipsum",
+  "MailingsProviderName": "Hettinger LLC",
+  "DashboardTileDefinitionId": 734,
   "VisibleFor": [
     {
-      "VisibleId": 651,
+      "VisibleId": 596,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldLength": 288
         }
       }
     },
     {
-      "VisibleId": 651,
+      "VisibleId": 596,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldLength": 288
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 344
     }
   }
 }

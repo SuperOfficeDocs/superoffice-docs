@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 92
+  "SaleId": 372
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 560,
-    "Attention": "iusto",
-    "Header": "qui",
-    "Name": "Kuphal-Rohan",
-    "OurRef": "accusantium",
-    "YourRef": "dolores",
-    "Description": "Progressive eco-centric budgetary management",
-    "DocumentTemplate": "voluptate",
+    "DocumentId": 116,
+    "Attention": "consectetur",
+    "Header": "voluptatum",
+    "Name": "Padberg, Bartell and Considine",
+    "OurRef": "impedit",
+    "YourRef": "nobis",
+    "Description": "Switchable national hub",
+    "DocumentTemplate": "aut",
     "IsPublished": false,
-    "PersonId": 138,
-    "PersonFullName": "Samara Langworth",
-    "AssociateFullName": "Dolly Krajcik III",
-    "ContactId": 444,
-    "ContactName": "Oberbrunner, Abernathy and Gottlieb",
-    "ProjectId": 399,
-    "ProjectName": "Schumm-Pfeffer",
-    "AssociateId": 632,
-    "Snum": 929,
-    "SaleId": 563,
-    "SaleName": "Lind LLC",
+    "PersonId": 819,
+    "PersonFullName": "Fritz Collier",
+    "AssociateFullName": "Kamille Nader",
+    "ContactId": 3,
+    "ContactName": "Cartwright Inc and Sons",
+    "ProjectId": 470,
+    "ProjectName": "Corwin-Kertzmann",
+    "AssociateId": 814,
+    "Snum": 878,
+    "SaleId": 468,
+    "SaleName": "Lind Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldType": "System.Int32",
+        "FieldLength": 833
       }
     }
   }

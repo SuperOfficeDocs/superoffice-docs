@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 694,
-  "Name": "Aufderhar, O'Keefe and Sporer",
+  "WebhookId": 266,
+  "Name": "White, Hermann and Ledner",
   "Events": [
-    "illum",
-    "id"
+    "et",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "laudantium",
+  "Secret": "laborum",
   "State": "Active",
-  "Type": "est",
+  "Type": "cum",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "inventore"
+    "Headers1": "dolores",
+    "Headers2": "vero"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2009-09-01T04:02:07.0409789+02:00",
+  "Registered": "2005-01-22T03:44:57.7969186+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1997-08-13T04:02:07.0409789+02:00",
+  "Updated": "1997-06-11T03:44:57.7969186+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jeramy@goldner.uk"
+  "ErrorsEmail": "ward@huelsshields.ca"
 }
 ```
 
@@ -139,28 +139,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 626,
-  "Name": "Koelpin, Pfeffer and Berge",
+  "WebhookId": 466,
+  "Name": "Gleason LLC",
   "Events": [
-    "et",
-    "provident"
+    "voluptas",
+    "ad"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "qui",
+  "Secret": "quasi",
   "State": "Active",
-  "Type": "id",
+  "Type": "tenetur",
   "Headers": {
-    "Headers1": "eaque",
-    "Headers2": "iusto"
+    "Headers1": "commodi",
+    "Headers2": "omnis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-04-18T04:02:07.0566019+02:00",
+  "Registered": "1998-06-08T03:44:57.7969186+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-10-29T04:02:07.0566019+01:00",
+  "Updated": "2013-01-26T03:44:57.7969186+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "hilda_boyle@auer.us",
+  "ErrorsEmail": "francesco@jacobs.com",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

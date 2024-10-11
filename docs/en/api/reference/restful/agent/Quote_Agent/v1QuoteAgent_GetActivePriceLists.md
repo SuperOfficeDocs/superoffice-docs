@@ -89,8 +89,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 713,
-  "Currency": "quia"
+  "QuoteConnectionId": 83,
+  "Currency": "laboriosam"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 156,
-    "ERPPriceListKey": "doloremque",
-    "QuoteConnectionId": 380,
-    "Name": "Batz LLC",
-    "Description": "Managed heuristic utilisation",
-    "Currency": "earum",
-    "CurrencyName": "Schmitt LLC",
-    "ValidFrom": "2017-03-10T04:02:02.2065837+01:00",
-    "ValidTo": "2019-01-17T04:02:02.2065837+01:00",
+    "PriceListId": 45,
+    "ERPPriceListKey": "cupiditate",
+    "QuoteConnectionId": 990,
+    "Name": "Herzog-Witting",
+    "Description": "Progressive national access",
+    "Currency": "molestiae",
+    "CurrencyName": "Klocko, Roberts and Barrows",
+    "ValidFrom": "2010-04-20T03:44:53.0583181+02:00",
+    "ValidTo": "2007-11-13T03:44:53.0583181+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 418
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Kohler-Deckow",
-    "Tooltip": "fuga",
-    "Deleted": false,
-    "UdListDefinitionId": 269,
-    "Rank": 331
+    "Id": 957,
+    "Name": "Schuppe LLC",
+    "Tooltip": "dolorum",
+    "Deleted": true,
+    "UdListDefinitionId": 687,
+    "Rank": 214
   },
   {
-    "Id": 673,
-    "Name": "Kohler-Deckow",
-    "Tooltip": "fuga",
-    "Deleted": false,
-    "UdListDefinitionId": 269,
-    "Rank": 331
+    "Id": 957,
+    "Name": "Schuppe LLC",
+    "Tooltip": "dolorum",
+    "Deleted": true,
+    "UdListDefinitionId": 687,
+    "Rank": 214
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Hills, Mosciski and Spinka",
-    "Tooltip": "quia",
+    "Id": 433,
+    "Name": "Walsh-Conroy",
+    "Tooltip": "quis",
     "Deleted": true,
-    "UdListDefinitionId": 468,
-    "Rank": 265,
+    "UdListDefinitionId": 737,
+    "Rank": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 940
       }
     }
   }

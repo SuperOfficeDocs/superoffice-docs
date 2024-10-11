@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590,
-  "Name": "Hilpert-Marquardt",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "Rank": 497,
+  "Id": 113,
+  "Name": "Corwin-Jacobi",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 506,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "earum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 806
+      "FieldLength": 456
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

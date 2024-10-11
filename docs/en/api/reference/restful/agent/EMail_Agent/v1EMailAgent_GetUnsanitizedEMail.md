@@ -104,12 +104,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "IncludeAttachments": true
+  "Id": 661,
+  "IncludeAttachments": false
 }
 ```
 
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 141,
-      "ContactName": "Rippin-Strosin",
-      "PersonId": 888,
-      "PersonName": "Aufderhar, Kris and Oberbrunner",
-      "AssociateId": 555,
-      "Address": "dolore",
-      "EmailId": 164,
+      "ContactId": 527,
+      "ContactName": "Pouros Inc and Sons",
+      "PersonId": 386,
+      "PersonName": "Eichmann-Mante",
+      "AssociateId": 239,
+      "Address": "odio",
+      "EmailId": 809,
       "DuplicatePersonIds": [
-        31,
-        374
+        257,
+        780
       ],
-      "Name": "Bartoletti LLC",
+      "Name": "Beier-Reinger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 207
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 709,
-      "ContactName": "Kshlerin, Wolf and Predovic",
-      "PersonId": 857,
-      "PersonName": "Hilpert Inc and Sons",
-      "AssociateId": 635,
-      "Address": "quod",
-      "EmailId": 17,
+      "ContactId": 481,
+      "ContactName": "Crist Group",
+      "PersonId": 973,
+      "PersonName": "Medhurst-Stokes",
+      "AssociateId": 619,
+      "Address": "qui",
+      "EmailId": 747,
       "DuplicatePersonIds": [
-        233,
-        446
+        130,
+        113
       ],
-      "Name": "Friesen, Dach and Bergstrom",
+      "Name": "Sauer, Predovic and Luettgen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 775
+          "FieldType": "System.Int32",
+          "FieldLength": 832
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 947,
-      "ContactName": "McDermott, Stark and McGlynn",
-      "PersonId": 689,
-      "PersonName": "Bogisich-Lesch",
-      "AssociateId": 168,
-      "Address": "sint",
-      "EmailId": 252,
+      "ContactId": 528,
+      "ContactName": "Quigley LLC",
+      "PersonId": 750,
+      "PersonName": "Daniel-Sipes",
+      "AssociateId": 473,
+      "Address": "et",
+      "EmailId": 650,
       "DuplicatePersonIds": [
-        543,
-        31
+        890,
+        580
       ],
-      "Name": "Hessel-Hansen",
+      "Name": "Smith LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 405
         }
       }
     }
   ],
-  "Subject": "natus",
-  "HTMLBody": "sunt",
+  "Subject": "ut",
+  "HTMLBody": "eos",
   "From": null,
-  "Sent": "2022-07-09T04:02:01.7373708+02:00",
-  "Size": 197,
+  "Sent": "2017-01-29T03:44:52.6052418+01:00",
+  "Size": 706,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "veniam",
-  "PlainBody": "cum",
+  "MessageID": "sapiente",
+  "PlainBody": "alias",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 53,
+  "ServerId": 963,
   "Attachments": [
     {
-      "Description": "Centralized analyzing attitude",
-      "Filename": "architecto",
-      "Size": 997,
-      "Type": "ea",
-      "Encoding": "officiis",
-      "Id": "velit",
-      "Disposition": "impedit",
-      "IsSafeFileExtension": true,
+      "Description": "Phased system-worthy hub",
+      "Filename": "eveniet",
+      "Size": 394,
+      "Type": "explicabo",
+      "Encoding": "debitis",
+      "Id": "sed",
+      "Disposition": "dolorem",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 370
+          "FieldLength": 610
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Sipes-Kiehn",
+      "Name": "Smitham-Hackett",
       "Values": [
-        "iusto",
-        "aut"
+        "autem",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 347
         }
       }
     },
     {
-      "Name": "Sipes-Kiehn",
+      "Name": "Smitham-Hackett",
       "Values": [
-        "iusto",
-        "aut"
+        "autem",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 347
         }
       }
     }
   ],
-  "FolderName": "Kuhic, Harris and Bailey",
-  "EmailItemId": 364,
-  "AccountId": 979,
-  "ReceivedAt": "2011-08-28T04:02:01.7373708+02:00",
+  "FolderName": "Buckridge Inc and Sons",
+  "EmailItemId": 846,
+  "AccountId": 19,
+  "ReceivedAt": "2020-02-18T03:44:52.6052418+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-06-05T04:02:01.7373708+02:00",
+  "RepliedAt": "1997-12-04T03:44:52.6052418+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 631
     }
   }
 }

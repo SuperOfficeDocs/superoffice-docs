@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 868
+  "QuoteLineConfigurationId": 857
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 299,
-  "FieldName": "Auer-Crona",
-  "Label": "ipsa",
-  "Tooltip": "ipsam",
+  "QuoteLineConfigurationId": 221,
+  "FieldName": "Boyle, Moen and Koepp",
+  "Label": "ut",
+  "Tooltip": "quae",
   "Editable": false,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 466,
+  "Mandatory": false,
+  "Rank": 269,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 984
     }
   }
 }

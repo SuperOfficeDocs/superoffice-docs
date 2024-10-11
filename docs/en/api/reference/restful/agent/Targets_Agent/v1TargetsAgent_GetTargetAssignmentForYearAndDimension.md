@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 431,
+  "TargetYear": 985,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 192,
-  "DimensionId": 72
+  "Id": 505,
+  "DimensionId": 349
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 451,
+  "TargetAssignmentInfoId": 768,
   "Values": [
-    815,
-    790
+    909,
+    753
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 903,
-  "DimensionListItemDisplayName": "Dach, Robel and Runolfsson",
+  "DimensionListItem": 690,
+  "DimensionListItemDisplayName": "McKenzie, DuBuque and Thompson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldType": "System.String",
+      "FieldLength": 840
     }
   }
 }

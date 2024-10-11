@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Spinka, Lebsack and Braun",
-  "Tooltip": "nihil",
+  "Id": 768,
+  "Name": "Kirlin LLC",
+  "Tooltip": "autem",
   "Deleted": true,
-  "UdListDefinitionId": 961,
-  "Rank": 76,
+  "UdListDefinitionId": 141,
+  "Rank": 461,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 971
     }
   }
 }

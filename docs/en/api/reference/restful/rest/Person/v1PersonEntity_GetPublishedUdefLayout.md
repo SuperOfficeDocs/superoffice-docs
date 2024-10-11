@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 622,
-    "ColumnId": 596,
-    "FieldDefault": "ullam",
-    "FieldHeight": 929,
-    "FieldLabel": "dolor",
-    "FieldLeft": 730,
-    "FieldTop": 594,
+    "UDefFieldId": 882,
+    "ColumnId": 607,
+    "FieldDefault": "dolores",
+    "FieldHeight": 867,
+    "FieldLabel": "beatae",
+    "FieldLeft": 229,
+    "FieldTop": 682,
     "FieldType": "Checkbox",
-    "FieldWidth": 536,
-    "FormatMask": "veniam",
+    "FieldWidth": 3,
+    "FormatMask": "earum",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 148,
-    "LabelLeft": 795,
-    "LabelTop": 440,
-    "LabelWidth": 631,
-    "LastVersionId": 772,
-    "ListTableId": 915,
+    "LabelHeight": 211,
+    "LabelLeft": 65,
+    "LabelTop": 143,
+    "LabelWidth": 587,
+    "LastVersionId": 114,
+    "ListTableId": 345,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 981,
-    "ProgId": "dolor",
-    "IsReadOnly": true,
-    "ShortLabel": "veniam",
-    "TabOrder": 367,
-    "TextLength": 542,
-    "Tooltip": "dolor",
-    "UdefIdentity": 608,
-    "UDListDefinitionId": 840,
+    "Page1LineNo": 207,
+    "ProgId": "ipsum",
+    "IsReadOnly": false,
+    "ShortLabel": "ipsum",
+    "TabOrder": 439,
+    "TextLength": 29,
+    "Tooltip": "vero",
+    "UdefIdentity": 925,
+    "UDListDefinitionId": 182,
     "Justification": "Center",
-    "Version": 898,
-    "TemplateVariableName": "Cremin, Morissette and Pacocha",
+    "Version": 309,
+    "TemplateVariableName": "Waelchi, Cronin and Hegmann",
     "HasBeenPublished": false,
-    "MdoListName": "Anderson, Prosacco and King",
+    "MdoListName": "Rath-Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldLength": 943
       }
     }
   }

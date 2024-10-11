@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 504,
-    "Name": "Haag-Kertzmann",
-    "Tooltip": "occaecati",
-    "Deleted": true,
-    "Rank": 651,
-    "UdListDefinitionId": 622
+    "HeadingId": 101,
+    "Name": "Corwin, Braun and White",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 832,
+    "UdListDefinitionId": 660
   },
   {
-    "HeadingId": 504,
-    "Name": "Haag-Kertzmann",
-    "Tooltip": "occaecati",
-    "Deleted": true,
-    "Rank": 651,
-    "UdListDefinitionId": 622
+    "HeadingId": 101,
+    "Name": "Corwin, Braun and White",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 832,
+    "UdListDefinitionId": 660
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 465,
-    "Name": "Schuster LLC",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 760,
-    "UdListDefinitionId": 522,
+    "HeadingId": 124,
+    "Name": "Leuschke-Price",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 144,
+    "UdListDefinitionId": 865,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 694
       }
     }
   }

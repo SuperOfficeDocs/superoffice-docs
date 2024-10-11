@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "magni",
-  "ProviderName": "Kessler, Gerhold and Kilback",
-  "StorageKey": "minima",
-  "ExtraRestrictions": "natus",
-  "OrderBy": "nostrum",
-  "DesiredColumns": "ad",
-  "PageSize": 223,
-  "PageNumber": 528
+  "StorageType": "quibusdam",
+  "ProviderName": "Nikolaus, Kunze and Adams",
+  "StorageKey": "quos",
+  "ExtraRestrictions": "possimus",
+  "OrderBy": "error",
+  "DesiredColumns": "facilis",
+  "PageSize": 547,
+  "PageNumber": 609
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Yost, Boyle and Watsica",
-      "DisplayTooltip": "quidem",
-      "DisplayType": "recusandae",
+      "DisplayName": "Jewess, Parisian and Gerlach",
+      "DisplayTooltip": "et",
+      "DisplayType": "dolorem",
       "CanOrderBy": false,
-      "Name": "Larson LLC",
+      "Name": "Kunze Group",
       "CanRestrictBy": false,
-      "RestrictionType": "sint",
-      "RestrictionListName": "Herman, Schinner and Braun",
+      "RestrictionType": "qui",
+      "RestrictionListName": "Bins, Aufderhar and Lehner",
       "IsVisible": true,
-      "ExtraInfo": "voluptas",
-      "Width": "magni",
-      "IconHint": "officia",
-      "HeadingIconHint": "corrupti"
+      "ExtraInfo": "velit",
+      "Width": "nobis",
+      "IconHint": "facilis",
+      "HeadingIconHint": "quis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Lubowitz, Kshlerin and Dickens",
-      "PrimaryKey": 966,
+      "EntityName": "Ortiz-Cormier",
+      "PrimaryKey": 406,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "corporis",
-          "LinkHint": "nihil"
+          "DisplayValue": "aliquam",
+          "TooltipHint": "quas",
+          "LinkHint": "saepe"
         }
       },
-      "LinkHint": "dignissimos",
-      "StyleHint": "et",
+      "LinkHint": "optio",
+      "StyleHint": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldLength": 464
         }
       }
     }
   ],
-  "RowCount": 23,
+  "RowCount": 40,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 561
     }
   }
 }

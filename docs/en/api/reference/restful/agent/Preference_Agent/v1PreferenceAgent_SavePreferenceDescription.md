@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 183,
-  "Section": "laborum",
-  "Key": "quam",
-  "Name": "Hilpert LLC",
+  "PrefDescId": 966,
+  "Section": "esse",
+  "Key": "temporibus",
+  "Name": "Bashirian, Adams and Klocko",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Compatible client-driven installation",
+  "Description": "Reactive incremental hierarchy",
   "IsBuiltin": true,
-  "TableName": "Koss-Bode",
-  "UserDefinedListId": 345,
-  "Rank": 944,
-  "SubGroup": "odio",
-  "MinLevel": 451,
-  "MaxValue": 766,
-  "MinValue": 839,
-  "RequiredLicense": "est"
+  "TableName": "Graham-Bechtelar",
+  "UserDefinedListId": 179,
+  "Rank": 118,
+  "SubGroup": "in",
+  "MinLevel": 393,
+  "MaxValue": 546,
+  "MinValue": 443,
+  "RequiredLicense": "libero"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 172,
-  "Section": "qui",
-  "Key": "id",
-  "Name": "Langworth-Jacobi",
+  "PrefDescId": 395,
+  "Section": "eaque",
+  "Key": "accusantium",
+  "Name": "Abernathy Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optimized cohesive middleware",
+  "Description": "Centralized discrete groupware",
   "IsBuiltin": false,
-  "TableName": "Torphy, Harris and Ondricka",
-  "UserDefinedListId": 630,
-  "Rank": 145,
-  "SubGroup": "velit",
-  "MinLevel": 241,
-  "MaxValue": 651,
-  "MinValue": 501,
-  "RequiredLicense": "omnis",
+  "TableName": "Stark Inc and Sons",
+  "UserDefinedListId": 812,
+  "Rank": 868,
+  "SubGroup": "aut",
+  "MinLevel": 661,
+  "MaxValue": 523,
+  "MinValue": 169,
+  "RequiredLicense": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 357
     }
   }
 }

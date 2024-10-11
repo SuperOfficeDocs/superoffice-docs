@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=in
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
+GET /api/v1/List/ConsentPurpose/MDOItems?query=veniam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 604,
-    "Name": "Boyer, Ward and Treutel",
-    "ToolTip": "Voluptatum quo inventore inventore quia adipisci.",
-    "Deleted": true,
-    "Rank": 468,
-    "Type": "aut",
+    "Id": 484,
+    "Name": "Shanahan-Robel",
+    "ToolTip": "Nostrum nisi et enim et earum.",
+    "Deleted": false,
+    "Rank": 63,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 540,
-        "Name": "Kutch-Morar",
-        "ToolTip": "Ea et qui.",
-        "Deleted": true,
-        "Rank": 742,
-        "Type": "recusandae",
+        "Id": 834,
+        "Name": "Gislason, Pfeffer and Abbott",
+        "ToolTip": "Recusandae excepturi et sit adipisci praesentium mollitia.",
+        "Deleted": false,
+        "Rank": 748,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 722,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "tempora",
-        "FullName": "Kiana Block",
+        "IconHint": "vel",
+        "ColorBlock": 100,
+        "ExtraInfo": "quas",
+        "StyleHint": "qui",
+        "FullName": "Jaquelin Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 860
+            "FieldLength": 835
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 733,
-    "ExtraInfo": "porro",
-    "StyleHint": "maiores",
-    "FullName": "Estelle Schuppe I",
+    "IconHint": "voluptatum",
+    "ColorBlock": 141,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "fugit",
+    "FullName": "Deja Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 996
+        "FieldLength": 811
       }
     }
   }

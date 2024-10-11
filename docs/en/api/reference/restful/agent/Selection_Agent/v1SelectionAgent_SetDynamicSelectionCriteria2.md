@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 414,
-  "Filter": "culpa"
+  "SelectionId": 755,
+  "Filter": "deleniti"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lehner Group",
-    "Operator": "est",
+    "Name": "Littel-Okuneva",
+    "Operator": "tempore",
     "Values": [
-      "mollitia",
-      "iure"
+      "ab",
+      "ullam"
     ],
     "DisplayValues": [
-      "sapiente",
-      "repellendus"
+      "aut",
+      "qui"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "White-Bayer",
+        "Name": "Russel-Kutch",
         "Operator": "ut",
         "Values": [
-          "commodi",
-          "quod"
+          "omnis",
+          "aperiam"
         ],
         "DisplayValues": [
-          "est",
-          "temporibus"
+          "culpa",
+          "harum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 695,
+        "InterParenthesis": 446,
         "InterOperator": "And",
-        "UniqueHash": 362
+        "UniqueHash": 484
       }
     ],
-    "InterParenthesis": 671,
+    "InterParenthesis": 440,
     "InterOperator": "And",
-    "UniqueHash": 598
+    "UniqueHash": 309
   }
 ]
 ```

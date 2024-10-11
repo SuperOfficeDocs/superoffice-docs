@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ruecker, Swift and Lang",
+  "ProviderName": "Flatley, Gerhold and Ernser",
   "Restrictions": [
     {
-      "Name": "Hyatt Inc and Sons",
-      "Operator": "voluptatem",
+      "Name": "Russel Group",
+      "Operator": "deleniti",
       "Values": [
-        "quasi",
-        "cupiditate"
+        "animi",
+        "tenetur"
       ],
       "DisplayValues": [
-        "quas",
-        "impedit"
+        "sint",
+        "molestiae"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 539,
+      "InterParenthesis": 680,
       "InterOperator": "And",
-      "UniqueHash": 120
+      "UniqueHash": 382
     }
   ],
-  "AssociateId": 821,
-  "ExtraInfo": "assumenda"
+  "AssociateId": 415,
+  "ExtraInfo": "voluptates"
 }
 ```
 

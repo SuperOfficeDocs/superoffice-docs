@@ -109,47 +109,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 491,
-  "Name": "Hessel, Gutmann and Ward",
-  "Tooltip": "quasi",
-  "Rank": 784,
+  "SaleTypeId": 330,
+  "Name": "Smith-Kautzer",
+  "Tooltip": "nobis",
+  "Rank": 843,
   "DurationUnit": "Century",
-  "SaleDuration": 401,
-  "SaleTypeCatId": 276,
-  "Deleted": false,
+  "SaleDuration": 365,
+  "SaleTypeCatId": 961,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 24,
-  "QuoteLinesTemplate": 842,
-  "ConfirmationLinesTemplate": 901,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 212,
-  "MinEarningPercent": 445,
-  "GroupQuoteLinesBy": 80,
-  "SortGroupLinesBy": 255,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 854,
+  "QuoteLinesTemplate": 185,
+  "ConfirmationLinesTemplate": 889,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 175,
+  "MinEarningPercent": 715,
+  "GroupQuoteLinesBy": 48,
+  "SortGroupLinesBy": 206,
   "Stages": [
     {
-      "Id": 769,
-      "Name": "Cremin, Mertz and Hodkiewicz",
-      "ToolTip": "Sed dolor nisi nihil neque rerum eos.",
-      "Deleted": true,
-      "Rank": 864,
-      "Type": "ipsum",
-      "ColorBlock": 270,
-      "IconHint": "quas",
-      "Selected": false,
-      "LastChanged": "2021-08-19T04:02:01.8784808+02:00",
+      "Id": 459,
+      "Name": "Runolfsson-Sporer",
+      "ToolTip": "Et qui numquam praesentium suscipit.",
+      "Deleted": false,
+      "Rank": 238,
+      "Type": "quam",
+      "ColorBlock": 676,
+      "IconHint": "dolorem",
+      "Selected": true,
+      "LastChanged": "2022-09-28T03:44:52.7458159+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "eos",
-      "Hidden": false,
-      "FullName": "Prof. Kale Maybell Ritchie"
+      "ExtraInfo": "maiores",
+      "StyleHint": "illo",
+      "Hidden": true,
+      "FullName": "Daniella Beier"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 905,
-  "Name": "Kuphal LLC",
-  "Tooltip": "sunt",
-  "Rank": 417,
+  "SaleTypeId": 724,
+  "Name": "Huel-Mayert",
+  "Tooltip": "eveniet",
+  "Rank": 162,
   "DurationUnit": "Century",
-  "SaleDuration": 220,
-  "SaleTypeCatId": 887,
+  "SaleDuration": 810,
+  "SaleTypeCatId": 100,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 345,
-  "QuoteLinesTemplate": 910,
-  "ConfirmationLinesTemplate": 600,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 187,
+  "QuoteLinesTemplate": 461,
+  "ConfirmationLinesTemplate": 126,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 887,
-  "MinEarningPercent": 29,
-  "GroupQuoteLinesBy": 870,
-  "SortGroupLinesBy": 20,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 19,
+  "MinEarningPercent": 475,
+  "GroupQuoteLinesBy": 272,
+  "SortGroupLinesBy": 925,
   "Stages": [
     {
-      "Id": 1002,
-      "Name": "Blanda, Nolan and O'Reilly",
-      "ToolTip": "Vel exercitationem quo illo laborum amet voluptatem placeat.",
+      "Id": 888,
+      "Name": "Christiansen, Larkin and Reynolds",
+      "ToolTip": "Repellendus veniam autem consequatur quia possimus commodi.",
       "Deleted": false,
-      "Rank": 727,
-      "Type": "omnis",
-      "ColorBlock": 952,
-      "IconHint": "cumque",
+      "Rank": 820,
+      "Type": "rerum",
+      "ColorBlock": 49,
+      "IconHint": "voluptatum",
       "Selected": false,
-      "LastChanged": "2001-01-20T04:02:01.8784808+01:00",
+      "LastChanged": "2007-08-05T03:44:52.7458159+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "molestiae",
-      "Hidden": true,
-      "FullName": "Nils Windler",
+      "ExtraInfo": "ex",
+      "StyleHint": "cum",
+      "Hidden": false,
+      "FullName": "Dena Treutel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldLength": 693
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldType": "System.Int32",
+      "FieldLength": 680
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 733,
-    "Name": "Reynolds Inc and Sons",
-    "Tooltip": "voluptatem",
+    "HeadingId": 489,
+    "Name": "Russel LLC",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 53,
-    "UdListDefinitionId": 874
+    "Rank": 561,
+    "UdListDefinitionId": 757
   },
   {
-    "HeadingId": 733,
-    "Name": "Reynolds Inc and Sons",
-    "Tooltip": "voluptatem",
+    "HeadingId": 489,
+    "Name": "Russel LLC",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 53,
-    "UdListDefinitionId": 874
+    "Rank": 561,
+    "UdListDefinitionId": 757
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 638,
-    "Name": "Ernser-Wehner",
-    "Tooltip": "nam",
-    "Deleted": false,
-    "Rank": 141,
-    "UdListDefinitionId": 296,
+    "HeadingId": 670,
+    "Name": "Schulist LLC",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "Rank": 399,
+    "UdListDefinitionId": 920,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 55
       }
     }
   }

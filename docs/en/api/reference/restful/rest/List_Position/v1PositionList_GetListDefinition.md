@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "Name": "Bradtke, Prosacco and Conroy",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 734,
-  "IsCustomList": true,
+  "Id": 693,
+  "Name": "Tillman-Rolfson",
+  "Tooltip": "animi",
+  "Deleted": false,
+  "Rank": 764,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldType": "System.String",
+      "FieldLength": 197
     }
   },
   "_Links": {

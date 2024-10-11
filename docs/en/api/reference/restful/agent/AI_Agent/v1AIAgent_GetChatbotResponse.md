@@ -87,37 +87,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "rerum",
-  "IsoLangCode": "quidem",
-  "UserPrompt": "illum",
-  "DisplayValue": "qui",
+  "ChatId": "reiciendis",
+  "IsoLangCode": "eum",
+  "UserPrompt": "ab",
+  "DisplayValue": "facilis",
   "PreviousTurns": [
     {
-      "Timestamp": "2015-12-09T04:02:00.9556944+01:00",
-      "UserPrompt": "reprehenderit",
-      "UserDisplayText": "accusantium",
-      "BotResponse": "repellendus",
+      "Timestamp": "2012-09-22T03:44:51.808417+02:00",
+      "UserPrompt": "et",
+      "UserDisplayText": "et",
+      "BotResponse": "enim",
       "BotActions": {
-        "BotActions1": "rerum",
-        "BotActions2": "temporibus"
+        "BotActions1": "ut",
+        "BotActions2": "tempore"
       },
       "Attachments": [
-        "possimus",
-        "necessitatibus"
+        "dolores",
+        "incidunt"
       ]
     },
     {
-      "Timestamp": "2015-12-09T04:02:00.9556944+01:00",
-      "UserPrompt": "reprehenderit",
-      "UserDisplayText": "accusantium",
-      "BotResponse": "repellendus",
+      "Timestamp": "2012-09-22T03:44:51.808417+02:00",
+      "UserPrompt": "et",
+      "UserDisplayText": "et",
+      "BotResponse": "enim",
       "BotActions": {
-        "BotActions1": "rerum",
-        "BotActions2": "temporibus"
+        "BotActions1": "ut",
+        "BotActions2": "tempore"
       },
       "Attachments": [
-        "possimus",
-        "necessitatibus"
+        "dolores",
+        "incidunt"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2015-05-22T04:02:00.9556944+02:00",
-  "UserPrompt": "beatae",
-  "UserDisplayText": "rerum",
-  "BotResponse": "at",
+  "Timestamp": "2010-06-16T03:44:51.808417+02:00",
+  "UserPrompt": "ut",
+  "UserDisplayText": "officiis",
+  "BotResponse": "numquam",
   "BotActions": {
-    "BotActions1": "temporibus",
-    "BotActions2": "sequi"
+    "BotActions1": "nulla",
+    "BotActions2": "quia"
   },
   "Attachments": [
-    "ex",
-    "delectus"
+    "hic",
+    "optio"
   ]
 }
 ```

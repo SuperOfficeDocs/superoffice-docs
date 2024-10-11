@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromSelectionId": 128,
-  "ToSelectionId": 792
+  "FromSelectionId": 29,
+  "ToSelectionId": 292
 }
 ```
 

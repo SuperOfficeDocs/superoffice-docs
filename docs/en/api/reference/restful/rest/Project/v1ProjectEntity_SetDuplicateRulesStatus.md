@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nitzsche Group",
-    "DisplayName": "Bradtke Group",
+    "Name": "Fadel-Rempel",
+    "DisplayName": "Balistreri LLC",
     "DisplayTooltip": "in",
-    "IsActive": false
+    "IsActive": true
   },
   {
-    "Name": "Nitzsche Group",
-    "DisplayName": "Bradtke Group",
+    "Name": "Fadel-Rempel",
+    "DisplayName": "Balistreri LLC",
     "DisplayTooltip": "in",
-    "IsActive": false
+    "IsActive": true
   }
 ]
 ```

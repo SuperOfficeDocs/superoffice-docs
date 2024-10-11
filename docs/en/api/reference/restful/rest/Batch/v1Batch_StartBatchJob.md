@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1002,
-  "Name": "Stiedemann, Hickle and Heaney",
-  "AssociateId": 735,
-  "DetailsTable": 119,
-  "DetailsRecord": 129,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 256,
+  "Name": "Braun LLC",
+  "AssociateId": 473,
+  "DetailsTable": 250,
+  "DetailsRecord": 316,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "voluptatem"
+    "ParameterObject1": "similique",
+    "ParameterObject2": "iusto"
   },
-  "LastStarted": "2002-11-30T04:02:06.9472381+01:00",
-  "Created": "2010-04-06T04:02:06.9472381+02:00",
-  "StartCount": 772,
-  "DatabaseSerialNumber": "336750",
-  "Context": "delectus",
-  "Result": "est",
+  "LastStarted": "1997-11-03T03:44:57.687517+01:00",
+  "Created": "2011-05-25T03:44:57.687517+02:00",
+  "StartCount": 730,
+  "DatabaseSerialNumber": "1102093",
+  "Context": "voluptatibus",
+  "Result": "eligendi",
   "State": "All",
-  "Description": "Ergonomic system-worthy challenge",
-  "Response": "ipsum",
-  "Request": "amet",
-  "ProgressDescription": "Organic cohesive process improvement",
-  "ProgressPercent": 773,
-  "FileName": "Murphy Inc and Sons",
+  "Description": "Organized incremental knowledge user",
+  "Response": "ea",
+  "Request": "nihil",
+  "ProgressDescription": "Managed didactic extranet",
+  "ProgressPercent": 982,
+  "FileName": "Larkin, Hermann and Smitham",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-176
+956
 ```

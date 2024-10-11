@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "Barton-Stroman",
-    "ToolTip": "Nulla laudantium repellendus nesciunt molestias maxime.",
+    "Id": 285,
+    "Name": "Sporer LLC",
+    "ToolTip": "Ullam assumenda nesciunt sint tempora et voluptas.",
     "Deleted": false,
-    "Rank": 379,
-    "Type": "et",
-    "ColorBlock": 96,
-    "IconHint": "sed",
+    "Rank": 484,
+    "Type": "numquam",
+    "ColorBlock": 343,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2010-09-01T04:02:07.1347182+02:00",
+    "LastChanged": "2001-09-02T03:44:57.9687368+02:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Legros-Ernser",
-        "ToolTip": "Qui fuga quis.",
-        "Deleted": true,
-        "Rank": 411,
-        "Type": "veritatis",
-        "ColorBlock": 845,
-        "IconHint": "voluptas",
+        "Id": 919,
+        "Name": "Hills Group",
+        "ToolTip": "Voluptatem nesciunt officiis tempora.",
+        "Deleted": false,
+        "Rank": 426,
+        "Type": "incidunt",
+        "ColorBlock": 274,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2012-12-30T04:02:07.1347182+01:00",
+        "LastChanged": "1998-09-24T03:44:57.9687368+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "et",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Terrance Nicolas II"
+        "FullName": "Jose Zander Bogan MD"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "inventore",
-    "Hidden": false,
-    "FullName": "Prof. Vella Jensen Bechtelar Sr."
+    "ExtraInfo": "iste",
+    "StyleHint": "quae",
+    "Hidden": true,
+    "FullName": "Dr. Thurman Alexandria Dietrich Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Mohr, Bogan and Kshlerin",
-    "ToolTip": "Est necessitatibus inventore quasi ut qui.",
-    "Deleted": true,
-    "Rank": 218,
-    "Type": "qui",
-    "ColorBlock": 522,
-    "IconHint": "sunt",
+    "Id": 530,
+    "Name": "Eichmann, Casper and Sporer",
+    "ToolTip": "Voluptate voluptas sed.",
+    "Deleted": false,
+    "Rank": 508,
+    "Type": "iste",
+    "ColorBlock": 367,
+    "IconHint": "maxime",
     "Selected": true,
-    "LastChanged": "2019-11-03T04:02:07.1347182+01:00",
+    "LastChanged": "2016-03-02T03:44:57.9687368+01:00",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Schneider-Heidenreich",
-        "ToolTip": "Voluptas mollitia et.",
-        "Deleted": false,
-        "Rank": 914,
-        "Type": "error",
-        "ColorBlock": 217,
-        "IconHint": "earum",
-        "Selected": true,
-        "LastChanged": "2011-09-29T04:02:07.1347182+02:00",
+        "Id": 690,
+        "Name": "Abbott, Daugherty and Stracke",
+        "ToolTip": "Eum aut aut repudiandae consequatur voluptas qui.",
+        "Deleted": true,
+        "Rank": 288,
+        "Type": "rerum",
+        "ColorBlock": 281,
+        "IconHint": "fuga",
+        "Selected": false,
+        "LastChanged": "2013-11-18T03:44:57.9687368+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "rem",
-        "Hidden": true,
-        "FullName": "Jaeden Ottis Ledner V",
+        "ExtraInfo": "libero",
+        "StyleHint": "eveniet",
+        "Hidden": false,
+        "FullName": "Cecilia Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 305
+            "FieldType": "System.Int32",
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
+    "ExtraInfo": "eum",
     "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Amani Greenholt V",
+    "Hidden": true,
+    "FullName": "Adrain Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 481
       }
     }
   }

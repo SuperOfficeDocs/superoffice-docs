@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 418,
+  "EjMessageId": 230,
   "Ticket": null,
-  "CreatedAt": "2000-08-13T04:02:06.9003681+02:00",
+  "CreatedAt": "1999-09-11T03:44:57.656888+02:00",
   "CreatedBy": null,
-  "Author": "blanditiis",
+  "Author": "unde",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quam",
-  "TimeSpent": 253,
-  "Body": "non",
-  "HtmlBody": "animi",
-  "EmailHeader": "murl.jones@schuppe.name",
-  "DebugInfo": "et",
-  "MailSorter": "sunt",
+  "MessageId": "repellendus",
+  "TimeSpent": 922,
+  "Body": "dolor",
+  "HtmlBody": "aut",
+  "EmailHeader": "lindsay@halvorson.co.uk",
+  "DebugInfo": "consequuntur",
+  "MailSorter": "molestiae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nesciunt",
+  "SearchTitle": "earum",
   "MessageHeaders": [
     {
-      "Id": 49,
-      "Name": "Tillman Group",
-      "Value": "ipsum",
+      "Id": 579,
+      "Name": "Bernier, Grimes and Hermann",
+      "Value": "aspernatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldLength": 680
         }
       }
     }
   ],
   "Important": false,
-  "Language": "optio",
-  "Sentiment": 448,
-  "SentimentConfidence": 622,
+  "Language": "qui",
+  "Sentiment": 364,
+  "SentimentConfidence": 229,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 83,
-      "Name": "Wintheiser-Gerlach",
-      "ContentType": "ad",
-      "AttSize": 974,
+      "AttachmentId": 294,
+      "Name": "Marquardt-Wiza",
+      "ContentType": "perferendis",
+      "AttSize": 752,
       "InlineImage": true,
-      "ContentId": "recusandae",
-      "AuthKey": "voluptas",
+      "ContentId": "sit",
+      "AuthKey": "quibusdam",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldLength": 352
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "eius"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 515
     }
   }
 }

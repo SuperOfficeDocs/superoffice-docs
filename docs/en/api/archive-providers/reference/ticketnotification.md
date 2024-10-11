@@ -53,7 +53,7 @@ Retrieves pending request notifications for current user
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketNotification?$select=ownerAssociateId,expires
+GET /api/v1/archive/TicketNotification?$select=user2Fullname,ownerAssociateId,expires
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

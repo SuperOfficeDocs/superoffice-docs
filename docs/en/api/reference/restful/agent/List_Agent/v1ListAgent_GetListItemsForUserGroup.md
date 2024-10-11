@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 551,
-  "GroupId": 931
+  "UdListDefinitionId": 488,
+  "GroupId": 633
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Reynolds LLC",
-    "ToolTip": "Aut incidunt eligendi animi voluptatem reiciendis.",
+    "Id": 173,
+    "Name": "Vandervort-Smitham",
+    "ToolTip": "Sunt qui ut vel et.",
     "Deleted": false,
-    "Rank": 671,
-    "Type": "consequuntur",
-    "ColorBlock": 190,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2002-10-26T04:02:01.847234+02:00",
+    "Rank": 103,
+    "Type": "est",
+    "ColorBlock": 331,
+    "IconHint": "corrupti",
+    "Selected": false,
+    "LastChanged": "2015-02-17T03:44:52.6989885+01:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Gislason Group",
-        "ToolTip": "Ipsum unde quasi et eos.",
-        "Deleted": false,
-        "Rank": 329,
-        "Type": "molestiae",
-        "ColorBlock": 956,
-        "IconHint": "accusantium",
-        "Selected": true,
-        "LastChanged": "2016-02-23T04:02:01.847234+01:00",
+        "Id": 453,
+        "Name": "Lind-Lindgren",
+        "ToolTip": "Voluptatum numquam magni delectus dolores.",
+        "Deleted": true,
+        "Rank": 495,
+        "Type": "ratione",
+        "ColorBlock": 338,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2017-05-20T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "est",
+        "ExtraInfo": "iste",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Dr. Vernon Lois Schowalter",
+        "FullName": "Dr. Rubye Roberto Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 113
+            "FieldType": "System.String",
+            "FieldLength": 221
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "velit",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Theresa Zemlak",
+    "FullName": "Ms. Lafayette Schroeder IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 945
       }
     }
   }

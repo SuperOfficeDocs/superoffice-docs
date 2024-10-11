@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Schmeler-Spinka",
-  "Comment": "quia",
-  "StakeholderRoleId": 66,
-  "CountryId": 547,
-  "PersonId": 718,
-  "EmailDescription": "lavon.brekke@huelemard.ca",
-  "EmailId": 861,
-  "EmailAddress": "morgan_friesen@greenfelder.uk",
-  "PhoneId": 52,
-  "ContactName": "Orn Group",
-  "ContactId": 378,
-  "SaleId": 764,
-  "Mrmrs": "possimus",
-  "Firstname": "Elody",
-  "MiddleName": "Abbott LLC",
-  "Lastname": "Kautzer",
-  "SaleStakeholderId": 713,
-  "Rank": 380,
-  "Phone": "774-176-7410 x981"
+  "StakeholderRoleName": "Rath, Herman and Rippin",
+  "Comment": "vel",
+  "StakeholderRoleId": 792,
+  "CountryId": 125,
+  "PersonId": 666,
+  "EmailDescription": "russell@lueilwitz.biz",
+  "EmailId": 875,
+  "EmailAddress": "eduardo@smith.name",
+  "PhoneId": 28,
+  "ContactName": "Balistreri, Hessel and Hand",
+  "ContactId": 650,
+  "SaleId": 469,
+  "Mrmrs": "ut",
+  "Firstname": "Joey",
+  "MiddleName": "Schmitt Inc and Sons",
+  "Lastname": "Murray",
+  "SaleStakeholderId": 897,
+  "Rank": 262,
+  "Phone": "685.667.1851 x5284"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Harvey LLC",
-  "Comment": "voluptas",
-  "StakeholderRoleId": 658,
-  "CountryId": 781,
-  "PersonId": 344,
-  "EmailDescription": "maya.hilll@hane.uk",
-  "EmailId": 722,
-  "EmailAddress": "eulah@dachstark.us",
-  "PhoneId": 48,
-  "ContactName": "Bruen Group",
-  "ContactId": 896,
-  "SaleId": 370,
-  "Mrmrs": "minima",
-  "Firstname": "Chester",
-  "MiddleName": "Kris Group",
-  "Lastname": "Mohr",
-  "SaleStakeholderId": 921,
-  "Rank": 996,
-  "Phone": "733.764.4650 x443",
+  "StakeholderRoleName": "Hoppe LLC",
+  "Comment": "voluptatem",
+  "StakeholderRoleId": 726,
+  "CountryId": 732,
+  "PersonId": 231,
+  "EmailDescription": "elva@rohan.us",
+  "EmailId": 4,
+  "EmailAddress": "alda_mitchell@framioconnell.co.uk",
+  "PhoneId": 106,
+  "ContactName": "Grady, Hermiston and Lind",
+  "ContactId": 389,
+  "SaleId": 943,
+  "Mrmrs": "fugiat",
+  "Firstname": "Erik",
+  "MiddleName": "Hilll-Metz",
+  "Lastname": "Davis",
+  "SaleStakeholderId": 784,
+  "Rank": 590,
+  "Phone": "185-625-9233",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 398
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

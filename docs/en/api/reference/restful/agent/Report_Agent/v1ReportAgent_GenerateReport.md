@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 844,
-  "LabelLayoutId": 530,
-  "Filename": "similique",
-  "Language": "cupiditate",
-  "FileType": "et",
+  "ReportId": 876,
+  "LabelLayoutId": 1001,
+  "Filename": "non",
+  "Language": "architecto",
+  "FileType": "sint",
   "Restrictions": [
     {
-      "Name": "Maggio-Dooley",
-      "Operator": "consectetur",
+      "Name": "Jaskolski, Rodriguez and Fay",
+      "Operator": "quisquam",
       "Values": [
-        "inventore",
-        "quia"
+        "tenetur",
+        "sit"
       ],
       "DisplayValues": [
-        "voluptatum",
-        "consequuntur"
+        "nobis",
+        "harum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 652,
+      "InterParenthesis": 22,
       "InterOperator": "And",
-      "UniqueHash": 95
+      "UniqueHash": 678
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"blanditiis"
+"hic"
 ```

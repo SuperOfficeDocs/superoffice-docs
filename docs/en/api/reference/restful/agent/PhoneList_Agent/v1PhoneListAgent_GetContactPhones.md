@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 592
+  "ContactId": 796
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "649-543-2065 x6710",
-    "PersonCellPhone": "(617)470-4554",
-    "PersonPrivatePhone": "447-065-3354 x4036",
-    "PersonFaxNumber": "1312304",
-    "PersonPagerNumber": "996684",
-    "PersonEmail": "enrique@rutherfordtorp.uk",
-    "Id": 924,
-    "Name": "Skiles Group",
-    "Tooltip": "veritatis",
-    "UniqueId": "aut",
+    "PersonDirectPhone": "(100)761-4454 x2324",
+    "PersonCellPhone": "372-463-4637",
+    "PersonPrivatePhone": "085-585-1722",
+    "PersonFaxNumber": "1408035",
+    "PersonPagerNumber": "1010906",
+    "PersonEmail": "peyton@rohan.info",
+    "Id": 47,
+    "Name": "Balistreri LLC",
+    "Tooltip": "labore",
+    "UniqueId": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 422
       }
     }
   }

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 677
+  "TargetDimensionId": 108
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 338,
+    "TargetAssignmentInfoId": 581,
     "Values": [
-      259,
-      739
+      16,
+      744
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 693,
-    "DimensionListItemDisplayName": "Friesen-Hodkiewicz",
+    "DimensionListItem": 440,
+    "DimensionListItemDisplayName": "Farrell-VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldLength": 474
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 531,
-  "Name": "Hoeger, Raynor and Cruickshank",
-  "Tooltip": "sapiente",
-  "Rank": 785,
+  "SaleTypeId": 539,
+  "Name": "Runolfsson-Howe",
+  "Tooltip": "ad",
+  "Rank": 179,
   "DurationUnit": "Century",
-  "SaleDuration": 204,
-  "SaleTypeCatId": 270,
+  "SaleDuration": 713,
+  "SaleTypeCatId": 629,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 273,
-  "QuoteLinesTemplate": 32,
-  "ConfirmationLinesTemplate": 62,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 60,
+  "QuoteLinesTemplate": 493,
+  "ConfirmationLinesTemplate": 90,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 41,
-  "MinEarningPercent": 149,
-  "GroupQuoteLinesBy": 611,
-  "SortGroupLinesBy": 624,
+  "MaxDiscountPercent": 225,
+  "MinEarningPercent": 10,
+  "GroupQuoteLinesBy": 22,
+  "SortGroupLinesBy": 594,
   "Stages": [
     {
-      "Id": 837,
-      "Name": "Armstrong, Olson and Braun",
-      "ToolTip": "Est quibusdam.",
+      "Id": 713,
+      "Name": "Stokes-Padberg",
+      "ToolTip": "Et facere iste molestiae harum quis.",
       "Deleted": true,
-      "Rank": 904,
-      "Type": "et",
-      "ColorBlock": 869,
-      "IconHint": "rerum",
-      "Selected": true,
-      "LastChanged": "2023-09-13T04:02:01.8784808+02:00",
+      "Rank": 637,
+      "Type": "fugit",
+      "ColorBlock": 614,
+      "IconHint": "repudiandae",
+      "Selected": false,
+      "LastChanged": "2016-11-22T03:44:52.7458159+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "culpa",
-      "StyleHint": "a",
+      "ExtraInfo": "non",
+      "StyleHint": "assumenda",
       "Hidden": true,
-      "FullName": "Prof. Elbert Angelina Berge Sr.",
+      "FullName": "Janessa Macejkovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldLength": 42
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 250
     }
   }
 }

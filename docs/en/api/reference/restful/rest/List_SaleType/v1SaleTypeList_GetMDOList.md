@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=voluptas
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=fuga
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 338,
-    "Name": "Reinger-Davis",
-    "ToolTip": "Veritatis in repudiandae.",
-    "Deleted": true,
-    "Rank": 339,
-    "Type": "et",
+    "Id": 933,
+    "Name": "Hansen, Swift and Turner",
+    "ToolTip": "Consequatur nihil ipsam sint.",
+    "Deleted": false,
+    "Rank": 446,
+    "Type": "fugiat",
     "ChildItems": [
       {
-        "Id": 495,
-        "Name": "Turcotte, Osinski and Vandervort",
-        "ToolTip": "Asperiores laborum earum hic voluptatem non.",
-        "Deleted": false,
-        "Rank": 291,
-        "Type": "reiciendis",
+        "Id": 90,
+        "Name": "Ledner-McCullough",
+        "ToolTip": "Dicta et temporibus.",
+        "Deleted": true,
+        "Rank": 536,
+        "Type": "at",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 376,
-        "ExtraInfo": "placeat",
-        "StyleHint": "in",
-        "FullName": "Mr. Libby O'Conner",
+        "IconHint": "nesciunt",
+        "ColorBlock": 644,
+        "ExtraInfo": "dolores",
+        "StyleHint": "rem",
+        "FullName": "Luella Alena O'Kon III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 626
+            "FieldLength": 298
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 760,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "est",
-    "FullName": "Miss Hollis Bradtke",
+    "IconHint": "in",
+    "ColorBlock": 616,
+    "ExtraInfo": "aliquam",
+    "StyleHint": "rem",
+    "FullName": "Prof. Carissa Edmund Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 211
       }
     }
   }

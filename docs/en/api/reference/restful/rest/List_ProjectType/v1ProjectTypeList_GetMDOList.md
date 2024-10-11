@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=aut
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=consequatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Schmeler, Windler and Gutkowski",
-    "ToolTip": "Qui dolor debitis perspiciatis.",
-    "Deleted": false,
-    "Rank": 885,
-    "Type": "debitis",
+    "Id": 212,
+    "Name": "Von LLC",
+    "ToolTip": "Totam animi quae sed excepturi omnis rem veritatis.",
+    "Deleted": true,
+    "Rank": 301,
+    "Type": "impedit",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Lehner, McDermott and Pacocha",
-        "ToolTip": "Expedita inventore voluptatem.",
+        "Id": 443,
+        "Name": "Greenholt LLC",
+        "ToolTip": "Quam consectetur.",
         "Deleted": true,
-        "Rank": 127,
-        "Type": "voluptatem",
+        "Rank": 647,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 836,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "debitis",
-        "FullName": "Tania Schmidt",
+        "IconHint": "neque",
+        "ColorBlock": 127,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "maxime",
+        "FullName": "Haylee Terry V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 344
+            "FieldType": "System.Int32",
+            "FieldLength": 856
           }
         }
       }
     ],
-    "IconHint": "vitae",
-    "ColorBlock": 961,
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "repellendus",
-    "FullName": "Lexus Stehr",
+    "IconHint": "cupiditate",
+    "ColorBlock": 692,
+    "ExtraInfo": "laborum",
+    "StyleHint": "quis",
+    "FullName": "Javon Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 893
       }
     }
   }

@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 92,
-  "InstanceLayout": "ex",
-  "InstanceName": "Beier Inc and Sons",
-  "CreatedDate": "2004-02-10T04:02:01.221786+01:00",
-  "UpdatedDate": "2022-07-17T04:02:01.221786+02:00",
+  "AudienceLayoutId": 809,
+  "InstanceLayout": "non",
+  "InstanceName": "Johns Group",
+  "CreatedDate": "1999-05-05T03:44:52.0740137+02:00",
+  "UpdatedDate": "2016-03-28T03:44:52.0740137+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 254
     }
   }
 }

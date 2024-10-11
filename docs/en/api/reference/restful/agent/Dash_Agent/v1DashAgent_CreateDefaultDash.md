@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 173,
-  "UniqueId": "asperiores",
-  "Name": "Zemlak Group",
-  "Description": "Persevering reciprocal capability",
-  "AssociateId": 747,
-  "Columns": 877,
+  "DashboardId": 979,
+  "UniqueId": "necessitatibus",
+  "Name": "Dibbert, Mayer and Rolfson",
+  "Description": "Open-source bandwidth-monitored encoding",
+  "AssociateId": 325,
+  "Columns": 422,
   "Theme": null,
-  "VisibleForAll": 620,
+  "VisibleForAll": 227,
   "VisibleForAssociates": [
-    766,
-    265
+    836,
+    233
   ],
   "VisibleForGroups": [
-    539,
-    875
+    789,
+    153
   ],
-  "PinForAll": 480,
+  "PinForAll": 639,
   "PinForAssociates": [
-    314,
-    370
+    455,
+    41
   ],
   "PinForGroups": [
-    393,
-    374
+    368,
+    91
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

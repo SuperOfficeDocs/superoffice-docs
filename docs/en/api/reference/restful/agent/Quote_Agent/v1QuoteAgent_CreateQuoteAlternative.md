@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 532,
-  "QuoteAlternativeName": "Wyman Group",
-  "QuoteAlternativeDescription": "Object-based scalable focus group"
+  "QuoteVersionId": 683,
+  "QuoteAlternativeName": "Friesen-Heaney",
+  "QuoteAlternativeDescription": "Digitized client-driven methodology"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 903,
-  "ERPQuoteAlternativeKey": "veritatis",
-  "QuoteVersionId": 648,
-  "Name": "Turcotte, Hills and Schmitt",
-  "Description": "Organic real-time process improvement",
+  "QuoteAlternativeId": 957,
+  "ERPQuoteAlternativeKey": "animi",
+  "QuoteVersionId": 542,
+  "Name": "Schimmel-Wuckert",
+  "Description": "Persistent 24 hour interface",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 11138.235999999999,
-  "ERPDiscountAmount": 18735.052,
-  "DiscountPercent": 2322.294,
-  "DiscountAmount": 661.274,
+  "ERPDiscountPercent": 19684.654,
+  "ERPDiscountAmount": 8358.378,
+  "DiscountPercent": 26751.824,
+  "DiscountAmount": 16707.354,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quia",
-  "VAT": 15760.885999999999,
-  "EarningPercent": 642.47,
-  "EarningAmount": 27670.086,
-  "SubTotal": 266.39,
-  "TotalPrice": 20236.237999999998,
-  "ExtraField1": "dolor",
-  "ExtraField2": "explicabo",
-  "ExtraField3": "nihil",
-  "ExtraField4": "laboriosam",
-  "ExtraField5": "nemo",
+  "VATInfo": "repellendus",
+  "VAT": 26833.308,
+  "EarningPercent": 16205.913999999999,
+  "EarningAmount": 13253.686,
+  "SubTotal": 26262.92,
+  "TotalPrice": 31151.96,
+  "ExtraField1": "natus",
+  "ExtraField2": "aut",
+  "ExtraField3": "impedit",
+  "ExtraField4": "odio",
+  "ExtraField5": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 641
     }
   }
 }

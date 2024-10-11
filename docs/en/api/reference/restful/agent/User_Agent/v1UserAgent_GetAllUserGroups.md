@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/User/GetAllUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "similique",
-    "Tooltip": "qui",
-    "Id": 971,
-    "Rank": 112,
-    "Deleted": false,
+    "Value": "et",
+    "Tooltip": "id",
+    "Id": 918,
+    "Rank": 759,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldLength": 854
       }
     }
   }

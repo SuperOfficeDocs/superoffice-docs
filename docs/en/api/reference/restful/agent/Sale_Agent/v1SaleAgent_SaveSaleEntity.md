@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nihil",
+  "SaleText": "reiciendis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-03-24T04:02:02.2534538+01:00",
-  "Amount": 1977.5539999999999,
-  "SaleId": 235,
-  "Earning": 21192.108,
-  "EarningPercent": 2585.5499999999997,
-  "Heading": "minus",
-  "Number": "1180495",
-  "Probability": 778,
-  "CreatedDate": "2015-04-24T04:02:02.2534538+02:00",
-  "UpdatedDate": "2018-06-22T04:02:02.2534538+02:00",
+  "Saledate": "2022-07-13T03:44:53.1055953+02:00",
+  "Amount": 23768.255999999998,
+  "SaleId": 823,
+  "Earning": 25629.852,
+  "EarningPercent": 2770.456,
+  "Heading": "sunt",
+  "Number": "1166860",
+  "Probability": 465,
+  "CreatedDate": "2023-05-25T03:44:53.1055953+02:00",
+  "UpdatedDate": "2012-07-21T03:44:53.1055953+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 422,
+  "ActiveLinks": 82,
   "Links": [
     {
-      "EntityName": "Nikolaus-Leuschke",
-      "Id": 856,
-      "Description": "Reduced foreground groupware",
-      "ExtraInfo": "deserunt",
-      "LinkId": 314
+      "EntityName": "Schmeler, Abshire and Kuhn",
+      "Id": 661,
+      "Description": "Robust mobile concept",
+      "ExtraInfo": "iste",
+      "LinkId": 982
     },
     {
-      "EntityName": "Nikolaus-Leuschke",
-      "Id": 856,
-      "Description": "Reduced foreground groupware",
-      "ExtraInfo": "deserunt",
-      "LinkId": 314
+      "EntityName": "Schmeler, Abshire and Kuhn",
+      "Id": 661,
+      "Description": "Robust mobile concept",
+      "ExtraInfo": "iste",
+      "LinkId": 982
     }
   ],
-  "NextDueDate": "2019-11-26T04:02:02.2534538+01:00",
-  "Postit": "quia",
+  "NextDueDate": "1998-12-31T03:44:53.1055953+01:00",
+  "Postit": "sunt",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-01-01T04:02:02.2534538+01:00",
+  "ReopenDate": "2007-10-01T03:44:53.1055953+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wiza-Gutkowski",
-      "Comment": "alias",
-      "StakeholderRoleId": 92,
-      "CountryId": 207,
-      "PersonId": 277,
-      "EmailDescription": "gavin.deckow@purdy.com",
-      "EmailId": 12,
-      "EmailAddress": "lazaro@luettgen.com",
-      "PhoneId": 135,
-      "ContactName": "Gerhold Inc and Sons",
-      "ContactId": 738,
-      "SaleId": 811,
-      "Mrmrs": "dolores",
-      "Firstname": "Jed",
-      "MiddleName": "Pouros, Homenick and Runte",
-      "Lastname": "Aufderhar",
-      "SaleStakeholderId": 94,
-      "Rank": 269,
-      "Phone": "330-232-4984"
+      "StakeholderRoleName": "Nitzsche Group",
+      "Comment": "excepturi",
+      "StakeholderRoleId": 262,
+      "CountryId": 392,
+      "PersonId": 528,
+      "EmailDescription": "stephon_oberbrunner@beierbartoletti.co.uk",
+      "EmailId": 979,
+      "EmailAddress": "madeline@kunzekub.name",
+      "PhoneId": 791,
+      "ContactName": "Botsford LLC",
+      "ContactId": 488,
+      "SaleId": 354,
+      "Mrmrs": "vero",
+      "Firstname": "Christ",
+      "MiddleName": "Flatley, Turner and Olson",
+      "Lastname": "Ledner",
+      "SaleStakeholderId": 36,
+      "Rank": 591,
+      "Phone": "181.360.5587"
     }
   ],
-  "ActiveErpLinks": 824,
+  "ActiveErpLinks": 809,
   "UserDefinedFields": {
-    "SuperOffice:1": "1405327644",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Milton Ruecker",
+    "SuperOffice:2": "Ms. Mercedes Virgie Considine"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "cum"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "1998-06-22T04:02:02.2534538+02:00",
-  "PublishTo": "2019-04-30T04:02:02.2534538+02:00",
-  "PublishFrom": "2008-01-13T04:02:02.2534538+01:00",
+  "PublishEventDate": "2008-03-12T03:44:53.1055953+01:00",
+  "PublishTo": "2013-04-27T03:44:53.1055953+02:00",
+  "PublishFrom": "2011-11-28T03:44:53.1055953+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 986,
+      "VisibleId": 107,
       "Visibility": "All",
-      "DisplayValue": "sit"
+      "DisplayValue": "ipsum"
     },
     {
-      "VisibleId": 986,
+      "VisibleId": 107,
       "Visibility": "All",
-      "DisplayValue": "sit"
+      "DisplayValue": "ipsum"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "in",
+  "SaleText": "sed",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-08-14T04:02:02.2534538+02:00",
-  "Amount": 29964.174,
-  "SaleId": 19,
-  "Earning": 27510.252,
-  "EarningPercent": 21796.969999999998,
-  "Heading": "quas",
-  "Number": "1880236",
-  "Probability": 530,
-  "CreatedDate": "2003-04-21T04:02:02.2534538+02:00",
-  "UpdatedDate": "2011-08-25T04:02:02.2534538+02:00",
+  "Saledate": "1998-04-06T03:44:53.1212215+02:00",
+  "Amount": 14610.707999999999,
+  "SaleId": 985,
+  "Earning": 18221.076,
+  "EarningPercent": 14388.194,
+  "Heading": "ea",
+  "Number": "1076209",
+  "Probability": 763,
+  "CreatedDate": "1999-10-28T03:44:53.1212215+02:00",
+  "UpdatedDate": "1997-09-08T03:44:53.1212215+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 908,
+  "ActiveLinks": 518,
   "Links": [
     {
-      "EntityName": "Wiza-Murray",
-      "Id": 474,
-      "Description": "Optimized optimizing core",
-      "ExtraInfo": "iste",
-      "LinkId": 62,
+      "EntityName": "Botsford-Bruen",
+      "Id": 224,
+      "Description": "Extended heuristic focus group",
+      "ExtraInfo": "incidunt",
+      "LinkId": 409,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldLength": 281
         }
       }
     }
   ],
-  "NextDueDate": "1999-12-28T04:02:02.2534538+01:00",
-  "Postit": "exercitationem",
+  "NextDueDate": "2024-03-02T03:44:53.1212215+01:00",
+  "Postit": "soluta",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2016-01-25T04:02:02.2534538+01:00",
+  "ReopenDate": "2007-01-10T03:44:53.1212215+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Fisher-DuBuque",
-      "Comment": "dolorem",
-      "StakeholderRoleId": 829,
-      "CountryId": 346,
-      "PersonId": 744,
-      "EmailDescription": "addison.zboncak@conn.name",
-      "EmailId": 94,
-      "EmailAddress": "odessa@schimmelgusikowski.ca",
-      "PhoneId": 13,
-      "ContactName": "Bartell-Yundt",
-      "ContactId": 637,
-      "SaleId": 171,
-      "Mrmrs": "ut",
-      "Firstname": "Shanny",
-      "MiddleName": "Veum, Baumbach and Schamberger",
-      "Lastname": "Jones",
-      "SaleStakeholderId": 704,
-      "Rank": 584,
-      "Phone": "954-103-6486 x908",
+      "StakeholderRoleName": "Lemke-Lockman",
+      "Comment": "illo",
+      "StakeholderRoleId": 569,
+      "CountryId": 190,
+      "PersonId": 646,
+      "EmailDescription": "oran@bruenvandervort.uk",
+      "EmailId": 273,
+      "EmailAddress": "ernest_johnston@kirlin.uk",
+      "PhoneId": 984,
+      "ContactName": "Stroman-Lockman",
+      "ContactId": 580,
+      "SaleId": 614,
+      "Mrmrs": "quia",
+      "Firstname": "D'angelo",
+      "MiddleName": "Rath-Osinski",
+      "Lastname": "Von",
+      "SaleStakeholderId": 483,
+      "Rank": 737,
+      "Phone": "(344)143-7473 x42982",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 829
         }
       }
     }
   ],
-  "ActiveErpLinks": 75,
+  "ActiveErpLinks": 824,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1699965845"
+    "SuperOffice:1": "Demond Kris",
+    "SuperOffice:2": "497098960"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "pariatur"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "eaque"
+    "CustomFields1": "ut",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2019-09-08T04:02:02.2534538+02:00",
-  "PublishTo": "1998-10-30T04:02:02.2534538+01:00",
-  "PublishFrom": "2003-07-19T04:02:02.2534538+02:00",
+  "PublishEventDate": "2001-02-11T03:44:53.1212215+01:00",
+  "PublishTo": "2002-04-24T03:44:53.1212215+02:00",
+  "PublishFrom": "2003-02-06T03:44:53.1212215+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 17,
+      "VisibleId": 840,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     },
     {
-      "VisibleId": 17,
+      "VisibleId": 840,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     }
@@ -394,8 +394,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

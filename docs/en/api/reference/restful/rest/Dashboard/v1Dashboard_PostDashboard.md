@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 545,
-  "AssociateId": 402,
-  "Caption": "quidem",
+  "DashboardId": 727,
+  "AssociateId": 658,
+  "Caption": "qui",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 789,
-      "Caption": "deleniti",
-      "Description": "Digitized 3rd generation moderator",
-      "ChartName": "Leuschke Inc and Sons",
-      "ChartId": "quam",
+      "DashboardTileId": 37,
+      "Caption": "officiis",
+      "Description": "Re-engineered static hub",
+      "ChartName": "Connelly, Beatty and Gleichner",
+      "ChartId": "sed",
       "IsDefault": false,
-      "AssociateId": 471,
-      "GroupId": 783,
-      "SelectionId": 877,
-      "Config": "autem",
+      "AssociateId": 362,
+      "GroupId": 278,
+      "SelectionId": 444,
+      "Config": "ipsa",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 416,
-  "AssociateId": 59,
-  "Caption": "laboriosam",
+  "DashboardId": 638,
+  "AssociateId": 36,
+  "Caption": "labore",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 814,
-      "Caption": "voluptas",
-      "Description": "Reduced modular attitude",
-      "ChartName": "Streich Inc and Sons",
-      "ChartId": "repellat",
-      "IsDefault": true,
-      "AssociateId": 740,
-      "GroupId": 236,
-      "SelectionId": 505,
-      "Config": "omnis",
+      "DashboardTileId": 584,
+      "Caption": "in",
+      "Description": "Triple-buffered needs-based help-desk",
+      "ChartName": "Predovic, Feeney and Quigley",
+      "ChartId": "vero",
+      "IsDefault": false,
+      "AssociateId": 666,
+      "GroupId": 29,
+      "SelectionId": 416,
+      "Config": "eos",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 957
         }
       }
     }
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 534
+      "FieldType": "System.Int32",
+      "FieldLength": 126
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

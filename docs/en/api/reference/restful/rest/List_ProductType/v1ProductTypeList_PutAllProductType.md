@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Boehm-Dooley",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 778
+    "Id": 984,
+    "Name": "Roberts Inc and Sons",
+    "Tooltip": "eligendi",
+    "Deleted": true,
+    "UdListDefinitionId": 493,
+    "Rank": 96
   },
   {
-    "Id": 716,
-    "Name": "Boehm-Dooley",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 778
+    "Id": 984,
+    "Name": "Roberts Inc and Sons",
+    "Tooltip": "eligendi",
+    "Deleted": true,
+    "UdListDefinitionId": 493,
+    "Rank": 96
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Zieme Inc and Sons",
-    "Tooltip": "molestias",
+    "Id": 73,
+    "Name": "Gulgowski LLC",
+    "Tooltip": "porro",
     "Deleted": false,
-    "UdListDefinitionId": 373,
-    "Rank": 731,
+    "UdListDefinitionId": 495,
+    "Rank": 660,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 286
+        "FieldType": "System.Int32",
+        "FieldLength": 908
       }
     }
   }

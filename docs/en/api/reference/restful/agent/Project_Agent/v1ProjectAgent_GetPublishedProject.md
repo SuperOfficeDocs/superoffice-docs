@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 210
+  "ProjectId": 757
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 825,
-  "Name": "Nitzsche, Yundt and Schaefer",
-  "Description": "Fundamental stable encoding",
+  "ProjectId": 936,
+  "Name": "Conroy-Mohr",
+  "Description": "Proactive regional support",
   "URL": "http://www.example.com/",
-  "Type": "eos",
-  "AssociateId": 179,
-  "AssociateFullName": "Branson Lincoln Bednar I",
-  "TypeId": 134,
-  "Updated": "1998-05-26T04:02:02.1597135+02:00",
-  "StatusId": 778,
-  "Status": "aut",
-  "TextId": 946,
-  "PublishTo": "2016-06-18T04:02:02.1597135+02:00",
-  "PublishFrom": "2014-06-02T04:02:02.1597135+02:00",
+  "Type": "quo",
+  "AssociateId": 779,
+  "AssociateFullName": "Lina Corwin",
+  "TypeId": 589,
+  "Updated": "2021-10-08T03:44:53.0270705+02:00",
+  "StatusId": 661,
+  "Status": "ea",
+  "TextId": 719,
+  "PublishTo": "2009-07-09T03:44:53.0270705+02:00",
+  "PublishFrom": "2018-04-06T03:44:53.0270705+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1381434",
-  "ActiveErpLinks": 746,
+  "ProjectNumber": "1094325",
+  "ActiveErpLinks": 704,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

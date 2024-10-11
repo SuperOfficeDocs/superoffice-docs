@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "rerum",
-  "ProgramName": "Kiehn, Mraz and Kautzer",
-  "Action": "autem",
-  "ExtraParameters": "nemo"
+  "Language": "dolorem",
+  "ProgramName": "Senger Inc and Sons",
+  "Action": "est",
+  "ExtraParameters": "mollitia"
 }
 ```
 

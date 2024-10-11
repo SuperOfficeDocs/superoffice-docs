@@ -67,6 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Person:TargetId xsi:type="xsd:int">0</Person:TargetId>
     <Person:PersonId xsi:type="xsd:int">0</Person:PersonId>
     <Person:IsExpired xsi:type="xsd:boolean">false</Person:IsExpired>
+    <Person:Payload xsi:type="xsd:string"></Person:Payload>
    </Person:Response>
   </Person:CheckTemporaryKeyResponse>
  </SOAP-ENV:Body>

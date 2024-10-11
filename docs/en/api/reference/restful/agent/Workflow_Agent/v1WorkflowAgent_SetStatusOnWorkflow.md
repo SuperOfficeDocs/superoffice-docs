@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Workflow/SetStatusOnWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 849,
+  "EmailFlowId": 569,
   "Status": "None"
 }
 ```

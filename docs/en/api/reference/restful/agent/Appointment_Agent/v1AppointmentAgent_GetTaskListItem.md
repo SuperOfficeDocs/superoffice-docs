@@ -26,7 +26,7 @@ Gets a TaskListItem object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=820
+POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=183
 POST /api/v1/Agents/Appointment/GetTaskListItem?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 82,
-  "Value": "debitis",
+  "TaskListItemId": 103,
+  "Value": "qui",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "dicta",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "IntentId": 815,
-  "Rank": 800,
+  "IntentId": 454,
+  "Rank": 15,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": true,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 473
     }
   }
 }

@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Glover Group",
+  "Name": "Bins, Hilpert and Jerde",
   "AssociateIds": [
-    919,
-    470
+    474,
+    612
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Kozey Inc and Sons",
-    "AssociateId": 255,
-    "DetailsTable": 846,
-    "DetailsRecord": 489,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 656,
+    "Name": "Jakubowski-Grimes",
+    "AssociateId": 32,
+    "DetailsTable": 124,
+    "DetailsRecord": 919,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "est",
-      "ParameterObject2": "illo"
+      "ParameterObject1": "facere",
+      "ParameterObject2": "voluptatem"
     },
-    "LastStarted": "2019-11-10T04:02:01.2374146+01:00",
-    "Created": "2014-08-18T04:02:01.2374146+02:00",
-    "StartCount": 917,
-    "DatabaseSerialNumber": "1521303",
-    "Context": "harum",
-    "Result": "dignissimos",
+    "LastStarted": "2014-01-22T03:44:52.0740137+01:00",
+    "Created": "2012-07-07T03:44:52.0740137+02:00",
+    "StartCount": 739,
+    "DatabaseSerialNumber": "863587",
+    "Context": "quibusdam",
+    "Result": "porro",
     "State": "All",
-    "Description": "Multi-channelled clear-thinking projection",
-    "Response": "nemo",
+    "Description": "Future-proofed web-enabled local area network",
+    "Response": "voluptas",
     "Request": "et",
-    "ProgressDescription": "Streamlined content-based initiative",
-    "ProgressPercent": 551,
-    "FileName": "Hodkiewicz, Franecki and Welch",
+    "ProgressDescription": "Total 3rd generation architecture",
+    "ProgressPercent": 909,
+    "FileName": "Eichmann, Koss and Kuphal",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

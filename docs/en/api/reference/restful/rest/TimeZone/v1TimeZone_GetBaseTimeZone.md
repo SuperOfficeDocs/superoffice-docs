@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 976,
-  "Name": "Reynolds Inc and Sons",
-  "TZLocationCode": "et",
-  "TZLocationCities": "dolores",
-  "IsoNumber": 454,
+  "TZLocationID": 577,
+  "Name": "Gutkowski, Cruickshank and Streich",
+  "TZLocationCode": "omnis",
+  "TZLocationCities": "repudiandae",
+  "IsoNumber": 9,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 417,
-      "StartMonth": 441,
-      "EndDay": 544,
-      "EndMonth": 32,
-      "TZOffset": 655,
-      "StartRulePattern": "eum",
-      "EndRulePattern": "vitae"
+      "StartDay": 916,
+      "StartMonth": 265,
+      "EndDay": 982,
+      "EndMonth": 294,
+      "TZOffset": 985,
+      "StartRulePattern": "deleniti",
+      "EndRulePattern": "soluta"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 54,
-      "StartMonth": 6,
-      "EndDay": 742,
-      "EndMonth": 528,
-      "TZOffset": 9,
-      "StartRulePattern": "necessitatibus",
-      "EndRulePattern": "quo"
+      "StartDay": 173,
+      "StartMonth": 946,
+      "EndDay": 769,
+      "EndMonth": 879,
+      "TZOffset": 217,
+      "StartRulePattern": "magnam",
+      "EndRulePattern": "ipsum"
     }
   }
 }

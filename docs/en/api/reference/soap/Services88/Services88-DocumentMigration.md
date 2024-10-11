@@ -226,6 +226,18 @@ title: Services88.DocumentMigrationAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetNumberOfConfidentialDocuments">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNumberOfConfidentialDocumentsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetForTemplates">
         <xs:complexType>
           <xs:sequence>
@@ -424,6 +436,23 @@ title: Services88.DocumentMigrationAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetNumberOfConfidentialDocumentsRequest">
+    <wsdl:part name="parameters" element="tns:GetNumberOfConfidentialDocuments" />
+  </wsdl:message>
+  <wsdl:message name="GetNumberOfConfidentialDocumentsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetNumberOfConfidentialDocumentsResponse">
+    <wsdl:part name="parameters" element="tns:GetNumberOfConfidentialDocumentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNumberOfConfidentialDocumentsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetForTemplatesRequest">
     <wsdl:part name="parameters" element="tns:GetForTemplates" />
   </wsdl:message>
@@ -486,6 +515,10 @@ title: Services88.DocumentMigrationAgent WSDL
     <wsdl:operation name="HasDocumentsToMigrate">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/HasDocumentsToMigrate" name="HasDocumentsToMigrateRequest" message="tns:HasDocumentsToMigrateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/HasDocumentsToMigrateResponse" name="HasDocumentsToMigrateResponse" message="tns:HasDocumentsToMigrateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNumberOfConfidentialDocuments">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetNumberOfConfidentialDocuments" name="GetNumberOfConfidentialDocumentsRequest" message="tns:GetNumberOfConfidentialDocumentsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetNumberOfConfidentialDocumentsResponse" name="GetNumberOfConfidentialDocumentsResponse" message="tns:GetNumberOfConfidentialDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetForTemplates">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetForTemplates" name="GetForTemplatesRequest" message="tns:GetForTemplatesRequest" />
@@ -607,6 +640,22 @@ title: Services88.DocumentMigrationAgent WSDL
         <soap:header message="tns:HasDocumentsToMigrateResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:HasDocumentsToMigrateResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:HasDocumentsToMigrateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNumberOfConfidentialDocuments">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/DocumentMigration/GetNumberOfConfidentialDocuments" style="document" />
+      <wsdl:input name="GetNumberOfConfidentialDocumentsRequest">
+        <soap:header message="tns:GetNumberOfConfidentialDocumentsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetNumberOfConfidentialDocumentsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetNumberOfConfidentialDocumentsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetNumberOfConfidentialDocumentsResponse">
+        <soap:header message="tns:GetNumberOfConfidentialDocumentsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetNumberOfConfidentialDocumentsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetNumberOfConfidentialDocumentsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetNumberOfConfidentialDocumentsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

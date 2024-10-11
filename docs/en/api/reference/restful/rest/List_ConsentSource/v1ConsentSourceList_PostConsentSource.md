@@ -81,12 +81,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 356,
-  "Name": "Daniel Group",
-  "Tooltip": "totam",
-  "Rank": 835,
-  "Key": "consequuntur",
-  "MailTemplateId": 975,
+  "ConsentSourceId": 668,
+  "Name": "Toy, Kub and Pfeffer",
+  "Tooltip": "aut",
+  "Rank": 460,
+  "Key": "sint",
+  "MailTemplateId": 929,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 374,
-  "Name": "Weimann-Hessel",
-  "Tooltip": "labore",
-  "Rank": 727,
-  "Key": "rerum",
-  "MailTemplateId": 534,
+  "ConsentSourceId": 649,
+  "Name": "Crooks-Medhurst",
+  "Tooltip": "accusamus",
+  "Rank": 533,
+  "Key": "consequatur",
+  "MailTemplateId": 504,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 854,
-    "Name": "Renner-Hauck",
-    "Tooltip": "alias",
-    "Deleted": true,
-    "UdListDefinitionId": 712,
-    "Rank": 608,
+    "Id": 451,
+    "Name": "Greenholt Group",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "UdListDefinitionId": 552,
+    "Rank": 268,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 772
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

@@ -77,7 +77,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 456,
+  "EjscriptId": 895,
   "UniqueIdentifier": "dolorem",
-  "Name": "Jacobi, O'Reilly and Hackett",
-  "Description": "Open-source interactive frame",
-  "IncludeId": "inventore",
-  "AccessKey": "omnis",
-  "HierarchyId": 857,
-  "Source": "voluptatem",
-  "SourceCode": "excepturi",
+  "Name": "McCullough-Huel",
+  "Description": "Horizontal didactic customer loyalty",
+  "IncludeId": "aliquid",
+  "AccessKey": "sed",
+  "HierarchyId": 398,
+  "Source": "temporibus",
+  "SourceCode": "et",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 364,
+  "HtmlOutput": 673,
   "Includes": [
-    906,
-    897
+    877,
+    537
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 930,
-      "LineNumberTo": 604,
-      "Delta": 850,
-      "IncludeId": "quas",
+      "LineNumberFrom": 705,
+      "LineNumberTo": 269,
+      "Delta": 676,
+      "IncludeId": "perferendis",
       "IncludedFrom": [
-        "dolores",
-        "magnam"
+        "excepturi",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 697
+          "FieldLength": 422
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2015-10-02T04:02:06.4472912+02:00",
-  "RegisteredAssociateId": 833,
-  "Updated": "2007-11-22T04:02:06.4472912+01:00",
-  "UpdatedAssociateId": 725,
+  "Registered": "2002-06-23T03:44:57.2028009+02:00",
+  "RegisteredAssociateId": 918,
+  "Updated": "2019-10-23T03:44:57.2028009+02:00",
+  "UpdatedAssociateId": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

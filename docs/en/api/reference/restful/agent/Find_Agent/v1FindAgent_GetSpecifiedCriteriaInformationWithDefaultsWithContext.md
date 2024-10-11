@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "O'Connell, Marvin and Kling",
-  "StorageKey": "quam",
+  "StorageType": "perferendis",
+  "ProviderName": "Dach, Wyman and Hammes",
+  "StorageKey": "pariatur",
   "DesiredColumnNames": [
-    "Kunze-Lemke",
-    "Mraz, Harvey and Hansen"
+    "Bode-Rolfson",
+    "Dicki Inc and Sons"
   ],
   "StaticColumns": [
-    "fugit",
-    "sequi"
+    "asperiores",
+    "et"
   ],
-  "Context": "saepe"
+  "Context": "voluptatem"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Bailey, Lehner and Klein",
-      "Operator": "nihil",
+      "Name": "Carter Group",
+      "Operator": "nisi",
       "Values": [
-        "suscipit",
-        "minus"
+        "labore",
+        "aliquid"
       ],
       "DisplayValues": [
-        "quam",
-        "modi"
+        "doloremque",
+        "mollitia"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 73,
+      "InterParenthesis": 584,
       "InterOperator": "And",
-      "UniqueHash": 956
+      "UniqueHash": 140
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bashirian Group",
-      "DisplayTooltip": "sed",
-      "DisplayType": "corrupti",
+      "DisplayName": "Hartmann, Bartoletti and Zboncak",
+      "DisplayTooltip": "ut",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Rippin LLC",
+      "Name": "Mohr, Hodkiewicz and O'Reilly",
       "CanRestrictBy": false,
       "RestrictionType": "et",
-      "RestrictionListName": "Price-Halvorson",
-      "IsVisible": true,
-      "ExtraInfo": "eveniet",
-      "Width": "alias",
-      "IconHint": "distinctio",
-      "HeadingIconHint": "nemo"
+      "RestrictionListName": "Emard Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "sit",
+      "Width": "neque",
+      "IconHint": "dolorum",
+      "HeadingIconHint": "non"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Yundt, Kreiger and Bruen",
-      "PrimaryKey": 880,
+      "EntityName": "Kozey-Feil",
+      "PrimaryKey": 188,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quidem",
-          "TooltipHint": "minus",
-          "LinkHint": "minima"
+          "DisplayValue": "quo",
+          "TooltipHint": "provident",
+          "LinkHint": "maiores"
         }
       },
-      "LinkHint": "asperiores",
-      "StyleHint": "aut",
+      "LinkHint": "veniam",
+      "StyleHint": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldLength": 397
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Nicolas Inc and Sons",
-      "Description": "Switchable impactful instruction set",
-      "Rank": 127,
+      "Name": "Hoeger-Streich",
+      "Description": "Right-sized 24/7 methodology",
+      "Rank": 822,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nicolas Inc and Sons",
-      "Description": "Switchable impactful instruction set",
-      "Rank": 127,
+      "Name": "Hoeger-Streich",
+      "Description": "Right-sized 24/7 methodology",
+      "Rank": 822,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 545
     }
   }
 }

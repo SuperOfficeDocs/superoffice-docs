@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 586,
-    "ERPName": "Green, Runolfsdottir and Collier",
-    "DisplayName": "Erdman, King and Hand",
-    "DisplayDescription": "Sharable upward-trending extranet",
-    "Rank": 44,
-    "ConnectorName": "Anderson-Reinger",
-    "ErpConnectionId": 346,
-    "ExtraData": "eum",
-    "IsAvailable": true,
+    "QuoteConnectionId": 874,
+    "ERPName": "Dietrich LLC",
+    "DisplayName": "Cole, Bergnaum and Fay",
+    "DisplayDescription": "Distributed dynamic extranet",
+    "Rank": 305,
+    "ConnectorName": "Robel, Donnelly and Cummerata",
+    "ErpConnectionId": 434,
+    "ExtraData": "id",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 436,
-        "ERPPriceListKey": "est",
-        "QuoteConnectionId": 343,
-        "Name": "Buckridge-Paucek",
-        "Description": "Persistent intangible budgetary management",
-        "Currency": "voluptatibus",
-        "CurrencyName": "Gibson, Rutherford and Jones",
-        "ValidFrom": "2003-06-09T04:02:02.2065837+02:00",
-        "ValidTo": "2000-02-27T04:02:02.2065837+01:00",
-        "IsActive": false,
+        "PriceListId": 470,
+        "ERPPriceListKey": "unde",
+        "QuoteConnectionId": 342,
+        "Name": "Baumbach Inc and Sons",
+        "Description": "Reduced logistical moratorium",
+        "Currency": "vel",
+        "CurrencyName": "Balistreri Group",
+        "ValidFrom": "2007-01-03T03:44:53.0583181+01:00",
+        "ValidTo": "2022-10-01T03:44:53.0583181+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 328
+            "FieldLength": 967
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      941,
-      840
+      874,
+      483
     ],
     "AssociateAccessIds": [
-      719,
-      465
+      297,
+      804
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 13
       }
     }
   }

@@ -81,12 +81,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 99,
-  "Name": "Schimmel, Baumbach and Dicki",
-  "Tooltip": "deserunt",
+  "HeadingId": 846,
+  "Name": "Kihn-Kub",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 574,
-  "UdListDefinitionId": 735
+  "Rank": 597,
+  "UdListDefinitionId": 392
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 873,
-  "Name": "Hayes LLC",
-  "Tooltip": "ea",
+  "HeadingId": 167,
+  "Name": "Kohler-Walsh",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 965,
-  "UdListDefinitionId": 535,
+  "Rank": 882,
+  "UdListDefinitionId": 33,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

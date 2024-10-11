@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Powlowski-Veum",
-    "Operator": "aliquid",
+    "Name": "Roob, McKenzie and Reilly",
+    "Operator": "illum",
     "Values": [
-      "fuga",
-      "placeat"
+      "molestias",
+      "laboriosam"
     ],
     "DisplayValues": [
-      "fugiat",
-      "omnis"
+      "illum",
+      "enim"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ebert, Sipes and Kuvalis",
-        "Operator": "ut",
+        "Name": "Bogisich LLC",
+        "Operator": "sit",
         "Values": [
-          "ea",
-          "error"
+          "qui",
+          "animi"
         ],
         "DisplayValues": [
-          "est",
-          "sed"
+          "sunt",
+          "molestias"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 790,
+        "InterParenthesis": 484,
         "InterOperator": "And",
-        "UniqueHash": 198
+        "UniqueHash": 814
       }
     ],
-    "InterParenthesis": 179,
+    "InterParenthesis": 931,
     "InterOperator": "And",
-    "UniqueHash": 395
+    "UniqueHash": 584
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Larkin Inc and Sons",
-    "Operator": "numquam",
+    "Name": "Bruen LLC",
+    "Operator": "atque",
     "Values": [
-      "officia",
-      "quis"
+      "excepturi",
+      "velit"
     ],
     "DisplayValues": [
-      "rem",
-      "et"
+      "accusantium",
+      "sequi"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Rippin Inc and Sons",
-        "Operator": "quaerat",
+        "Name": "Erdman, Emmerich and Kuvalis",
+        "Operator": "qui",
         "Values": [
-          "dicta",
-          "eius"
+          "dolore",
+          "nisi"
         ],
         "DisplayValues": [
-          "asperiores",
-          "temporibus"
+          "aut",
+          "quod"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 38,
+        "InterParenthesis": 878,
         "InterOperator": "And",
-        "UniqueHash": 123
+        "UniqueHash": 555
       }
     ],
-    "InterParenthesis": 366,
+    "InterParenthesis": 660,
     "InterOperator": "And",
-    "UniqueHash": 420
+    "UniqueHash": 823
   }
 ]
 ```

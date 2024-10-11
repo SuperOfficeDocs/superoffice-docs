@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 874
+  "QuoteAlternativeId": 712
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 289,
-    "ERPQuoteLineKey": "tempore",
-    "QuoteAlternativeId": 110,
-    "ERPProductKey": "ipsam",
+    "QuoteLineId": 185,
+    "ERPQuoteLineKey": "aut",
+    "QuoteAlternativeId": 901,
+    "ERPProductKey": "animi",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 29826.278,
-    "DeliveredQuantity": 17713.368,
-    "Rank": 104,
-    "Name": "Rau-Kohler",
-    "Description": "Open-architected neutral moderator",
-    "Code": "porro",
-    "QuantityUnit": "modi",
-    "PriceUnit": "quam",
-    "ItemNumber": "675106",
+    "Quantity": 47.01,
+    "DeliveredQuantity": 24934.104,
+    "Rank": 803,
+    "Name": "Hills Inc and Sons",
+    "Description": "Compatible mission-critical knowledge base",
+    "Code": "ut",
+    "QuantityUnit": "officiis",
+    "PriceUnit": "quae",
+    "ItemNumber": "1220348",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "placeat",
-    "ProductTypeKey": "sed",
-    "Supplier": "quaerat",
-    "SupplierCode": "corporis",
-    "Thumbnail": "sint",
-    "VATInfo": "et",
-    "VAT": 24504.746,
-    "UnitCost": 18249.282,
-    "UnitMinimumPrice": 15052.601999999999,
-    "UnitListPrice": 1128.24,
+    "ProductFamilyKey": "voluptatum",
+    "ProductTypeKey": "ea",
+    "Supplier": "nihil",
+    "SupplierCode": "nesciunt",
+    "Thumbnail": "quo",
+    "VATInfo": "cumque",
+    "VAT": 10404.88,
+    "UnitCost": 29340.507999999998,
+    "UnitMinimumPrice": 14381.926,
+    "UnitListPrice": 21367.612,
     "ExtraInfo": [
       {
-        "Name": "Hayes-Parker",
-        "Value": "vel",
+        "Name": "Pacocha Inc and Sons",
+        "Value": "vitae",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldLength": 376
           }
         }
       },
       {
-        "Name": "Hayes-Parker",
-        "Value": "vel",
+        "Name": "Pacocha Inc and Sons",
+        "Value": "vitae",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldLength": 376
           }
         }
       }
     ],
-    "RawExtraInfo": "illo",
+    "RawExtraInfo": "nisi",
     "IsSubscription": true,
-    "SubscriptionUnit": "optio",
-    "SubscriptionQuantity": 13598.426,
-    "SubscriptionStart": "2017-06-13T04:02:02.2222071+02:00",
-    "ERPDiscountPercent": 6418.432,
-    "ERPDiscountAmount": 2209.47,
-    "DiscountPercent": 29130.53,
-    "DiscountAmount": 17127.309999999998,
+    "SubscriptionUnit": "magnam",
+    "SubscriptionQuantity": 12918.348,
+    "SubscriptionStart": "2001-08-29T03:44:53.0739396+02:00",
+    "ERPDiscountPercent": 28271.814,
+    "ERPDiscountAmount": 23940.626,
+    "DiscountPercent": 29732.257999999998,
+    "DiscountAmount": 6199.052,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 13554.55,
-    "EarningAmount": 6697.358,
-    "SubTotal": 22721.5,
-    "TotalPrice": 15140.354,
-    "Rights": "quia",
-    "Rule": "ut",
-    "ExtraField1": "excepturi",
-    "ExtraField2": "incidunt",
-    "ExtraField3": "enim",
-    "ExtraField4": "quo",
-    "ExtraField5": "sapiente",
+    "EarningPercent": 28253.01,
+    "EarningAmount": 14193.886,
+    "SubTotal": 3102.66,
+    "TotalPrice": 13169.068,
+    "Rights": "reiciendis",
+    "Rule": "et",
+    "ExtraField1": "quaerat",
+    "ExtraField2": "aperiam",
+    "ExtraField3": "aut",
+    "ExtraField4": "ut",
+    "ExtraField5": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 755
+        "FieldType": "System.Int32",
+        "FieldLength": 214
       }
     }
   }

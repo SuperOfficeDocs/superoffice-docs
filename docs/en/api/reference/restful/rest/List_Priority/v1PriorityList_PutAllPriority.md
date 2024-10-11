@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Kilback-Homenick",
-    "Tooltip": "asperiores",
+    "Id": 711,
+    "Name": "Howe Inc and Sons",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "UdListDefinitionId": 569,
-    "Rank": 72
+    "UdListDefinitionId": 380,
+    "Rank": 107
   },
   {
-    "Id": 442,
-    "Name": "Kilback-Homenick",
-    "Tooltip": "asperiores",
+    "Id": 711,
+    "Name": "Howe Inc and Sons",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "UdListDefinitionId": 569,
-    "Rank": 72
+    "UdListDefinitionId": 380,
+    "Rank": 107
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "O'Reilly, Gerlach and Dickinson",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 977,
-    "Rank": 564,
+    "Id": 906,
+    "Name": "Carter LLC",
+    "Tooltip": "maiores",
+    "Deleted": false,
+    "UdListDefinitionId": 435,
+    "Rank": 443,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

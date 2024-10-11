@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolores",
-  "ProviderName": "Powlowski, Williamson and Langworth",
-  "StorageKey": "explicabo",
-  "Restrictions": "fugiat"
+  "StorageType": "sunt",
+  "ProviderName": "Tremblay, Ankunding and Wunsch",
+  "StorageKey": "sunt",
+  "Restrictions": "quam"
 }
 ```
 

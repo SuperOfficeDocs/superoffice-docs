@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,7 +79,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Reason": "",
+    "Reason": "deploy leading-edge solutions",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 635,
-        "NumberOfLicensesFree": 42,
-        "NumberOfLicensesAdded": 299,
-        "NumberOfLicensesNewTotal": 754,
-        "NumberOfLicensesNewFree": 638,
-        "NumberOfLicensesTotal": 461
+        "NumberOfLicensesInUse": 662,
+        "NumberOfLicensesFree": 158,
+        "NumberOfLicensesAdded": 47,
+        "NumberOfLicensesNewTotal": 753,
+        "NumberOfLicensesNewFree": 682,
+        "NumberOfLicensesTotal": 22
       }
     ],
-    "AccumulatedNextCheckDate": "2002-05-01T04:02:01.8003604+02:00"
+    "AccumulatedNextCheckDate": "2023-09-30T03:44:52.6521119+02:00"
   },
   {
-    "Reason": "",
+    "Reason": "deploy leading-edge solutions",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 635,
-        "NumberOfLicensesFree": 42,
-        "NumberOfLicensesAdded": 299,
-        "NumberOfLicensesNewTotal": 754,
-        "NumberOfLicensesNewFree": 638,
-        "NumberOfLicensesTotal": 461
+        "NumberOfLicensesInUse": 662,
+        "NumberOfLicensesFree": 158,
+        "NumberOfLicensesAdded": 47,
+        "NumberOfLicensesNewTotal": 753,
+        "NumberOfLicensesNewFree": 682,
+        "NumberOfLicensesTotal": 22
       }
     ],
-    "AccumulatedNextCheckDate": "2002-05-01T04:02:01.8003604+02:00"
+    "AccumulatedNextCheckDate": "2023-09-30T03:44:52.6521119+02:00"
   }
 ]
 ```

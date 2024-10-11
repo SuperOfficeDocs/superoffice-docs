@@ -97,36 +97,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 960,
+  "HierarchyId": 334,
   "Domain": "Dashboards",
-  "Name": "Turner Inc and Sons",
-  "Fullname": "fuga",
-  "ParentId": 728,
+  "Name": "Keebler LLC",
+  "Fullname": "veniam",
+  "ParentId": 120,
   "Children": [
     {
-      "HierarchyId": 151,
+      "HierarchyId": 764,
       "Domain": "Dashboards",
-      "Name": "Morissette-Conroy",
-      "Fullname": "non",
-      "ParentId": 342,
+      "Name": "Bruen Inc and Sons",
+      "Fullname": "quia",
+      "ParentId": 361,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-01-23T04:02:06.6191478+01:00",
-      "RegisteredAssociateId": 152,
-      "Updated": "2024-08-14T04:02:06.6191478+02:00",
-      "UpdatedAssociateId": 248
+      "Registered": "2017-07-03T03:44:57.359003+02:00",
+      "RegisteredAssociateId": 294,
+      "Updated": "2013-05-12T03:44:57.359003+02:00",
+      "UpdatedAssociateId": 451
     }
   ],
-  "Registered": "2011-02-18T04:02:06.6191478+01:00",
-  "RegisteredAssociateId": 63,
-  "Updated": "2006-11-28T04:02:06.6191478+01:00",
-  "UpdatedAssociateId": 587
+  "Registered": "2001-06-05T03:44:57.359003+02:00",
+  "RegisteredAssociateId": 747,
+  "Updated": "2010-08-31T03:44:57.359003+02:00",
+  "UpdatedAssociateId": 756
 }
 ```
 
@@ -137,51 +137,51 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 716,
+  "HierarchyId": 483,
   "Domain": "Dashboards",
-  "Name": "Buckridge Group",
-  "Fullname": "nihil",
-  "ParentId": 999,
+  "Name": "Von-Hickle",
+  "Fullname": "iure",
+  "ParentId": 486,
   "Children": [
     {
-      "HierarchyId": 573,
+      "HierarchyId": 727,
       "Domain": "Dashboards",
-      "Name": "Blick, Dare and Blanda",
-      "Fullname": "a",
-      "ParentId": 619,
+      "Name": "Kunde, Ebert and Collier",
+      "Fullname": "maxime",
+      "ParentId": 984,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-07-11T04:02:06.6191478+02:00",
-      "RegisteredAssociateId": 731,
-      "Updated": "2007-05-03T04:02:06.6191478+02:00",
-      "UpdatedAssociateId": 156,
+      "Registered": "1998-03-17T03:44:57.359003+01:00",
+      "RegisteredAssociateId": 470,
+      "Updated": "2016-08-21T03:44:57.359003+02:00",
+      "UpdatedAssociateId": 743,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 404
         }
       }
     }
   ],
-  "Registered": "2012-08-19T04:02:06.6191478+02:00",
-  "RegisteredAssociateId": 480,
-  "Updated": "1999-02-28T04:02:06.6191478+01:00",
-  "UpdatedAssociateId": 159,
+  "Registered": "2008-09-04T03:44:57.359003+02:00",
+  "RegisteredAssociateId": 566,
+  "Updated": "2001-03-28T03:44:57.359003+02:00",
+  "UpdatedAssociateId": 396,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 981
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

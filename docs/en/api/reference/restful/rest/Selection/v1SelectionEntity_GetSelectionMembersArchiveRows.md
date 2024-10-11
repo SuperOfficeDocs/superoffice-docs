@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,21 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "minima",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 3435,
-      "EntityName": "sale",
-      "saleId": 3435,
-      "contactId": 1212,
-      "name": "Heaney-Considine"
+      "PrimaryKey": 6821,
+      "EntityName": "person",
+      "personId": 6821,
+      "fullName": "Novella Brown"
     },
     {
-      "PrimaryKey": 995,
-      "EntityName": "sale",
-      "saleId": 995,
-      "contactId": 4401,
-      "name": "Kerluke, Metz and Crooks"
+      "PrimaryKey": 8561,
+      "EntityName": "person",
+      "personId": 8561,
+      "fullName": "Hollie Harber"
     }
   ]
 }

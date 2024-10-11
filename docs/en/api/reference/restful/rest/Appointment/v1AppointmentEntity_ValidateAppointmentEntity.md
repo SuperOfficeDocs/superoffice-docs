@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-10-20T04:02:06.2593068+02:00",
-  "AppointmentId": 934,
-  "Description": "Advanced dedicated challenge",
-  "Title": "nemo",
-  "Agenda": "velit",
-  "InternalNotes": "similique",
-  "StartDate": "2023-09-23T04:02:06.2593068+02:00",
-  "EndDate": "2002-12-25T04:02:06.2593068+01:00",
+  "CreatedDate": "2012-05-01T03:44:56.9996788+02:00",
+  "AppointmentId": 340,
+  "Description": "Exclusive holistic interface",
+  "Title": "officiis",
+  "Agenda": "et",
+  "InternalNotes": "autem",
+  "StartDate": "2001-09-17T03:44:56.9996788+02:00",
+  "EndDate": "1997-11-09T03:44:56.9996788+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 753,
+  "MotherId": 806,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-05-21T04:02:06.2593068+02:00",
+  "UpdatedDate": "2017-10-05T03:44:56.9996788+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 313,
+  "ActiveLinks": 615,
   "Links": [
     {
-      "EntityName": "Reinger-Kling",
-      "Id": 149,
-      "Description": "Synergized dynamic website",
-      "ExtraInfo": "aut",
-      "LinkId": 941
+      "EntityName": "Wuckert Inc and Sons",
+      "Id": 792,
+      "Description": "Organic reciprocal protocol",
+      "ExtraInfo": "hic",
+      "LinkId": 777
     },
     {
-      "EntityName": "Reinger-Kling",
-      "Id": 149,
-      "Description": "Synergized dynamic website",
-      "ExtraInfo": "aut",
-      "LinkId": 941
+      "EntityName": "Wuckert Inc and Sons",
+      "Id": 792,
+      "Description": "Organic reciprocal protocol",
+      "ExtraInfo": "hic",
+      "LinkId": 777
     }
   ],
-  "AlarmLeadTime": "debitis",
+  "AlarmLeadTime": "facilis",
   "HasAlarm": false,
-  "ColorIndex": 447,
-  "IsFree": false,
+  "ColorIndex": 331,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "dolor",
-  "LeadTime": "repellendus",
-  "Location": "et",
-  "RejectCounter": 303,
+  "LagTime": "dolores",
+  "LeadTime": "doloribus",
+  "Location": "rerum",
+  "RejectCounter": 947,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 33,
-      "PersonId": 241,
-      "ContactId": 330,
-      "EmailId": 885,
+      "AssociateId": 642,
+      "PersonId": 118,
+      "ContactId": 409,
+      "EmailId": 499,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "anastasia@romaguera.co.uk",
-      "Description": "User-friendly maximized strategy"
+      "EmailAddress": "katrine@ullrich.info",
+      "Description": "Synchronised grid-enabled firmware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-12-31T04:02:06.2593068+01:00",
+  "ActiveDate": "2017-01-29T03:44:56.9996788+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 375,
+  "PreferredTZLocation": 757,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 561,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 54,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "id",
+  "CentralserviceVideomeetId": "placeat",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Erin Yundt",
+    "SuperOffice:2": "Arielle Aufderhar"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "eos"
+    "CustomFields1": "officiis",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2013-04-29T04:02:06.2593068+02:00",
-  "PublishTo": "2020-07-07T04:02:06.2593068+02:00",
-  "PublishFrom": "2017-11-07T04:02:06.2593068+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2014-03-11T03:44:56.9996788+01:00",
+  "PublishTo": "2017-04-05T03:44:56.9996788+02:00",
+  "PublishFrom": "2008-07-22T03:44:56.9996788+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 615,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "tempora"
+      "DisplayValue": "hic"
     },
     {
-      "VisibleId": 615,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "tempora"
+      "DisplayValue": "hic"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolores",
-  "2": "nam"
+  "1": "quibusdam",
+  "2": "deserunt"
 }
 ```

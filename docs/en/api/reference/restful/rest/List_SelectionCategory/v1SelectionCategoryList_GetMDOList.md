@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=distinctio
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=aperiam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Powlowski, Casper and Wilkinson",
-    "ToolTip": "Aperiam distinctio placeat veniam velit.",
+    "Id": 236,
+    "Name": "Borer-Wilderman",
+    "ToolTip": "Possimus quaerat ut rerum.",
     "Deleted": false,
-    "Rank": 403,
-    "Type": "voluptatem",
+    "Rank": 408,
+    "Type": "tenetur",
     "ChildItems": [
       {
-        "Id": 997,
-        "Name": "Dickinson-Hansen",
-        "ToolTip": "Ut neque illum autem error qui quod.",
+        "Id": 347,
+        "Name": "Hyatt, Schultz and Ziemann",
+        "ToolTip": "Ullam aliquid.",
         "Deleted": true,
-        "Rank": 895,
-        "Type": "odit",
+        "Rank": 922,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minus",
-        "ColorBlock": 120,
-        "ExtraInfo": "neque",
-        "StyleHint": "doloremque",
-        "FullName": "Ms. Hudson Langosh II",
+        "IconHint": "dolor",
+        "ColorBlock": 934,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "provident",
+        "FullName": "Sasha Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldLength": 198
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 767,
-    "ExtraInfo": "sit",
-    "StyleHint": "culpa",
-    "FullName": "Mrs. Brooke Will",
+    "IconHint": "est",
+    "ColorBlock": 365,
+    "ExtraInfo": "iure",
+    "StyleHint": "ut",
+    "FullName": "Kavon Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 180
       }
     }
   }

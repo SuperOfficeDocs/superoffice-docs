@@ -107,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 535
+  "ChatTopicId": 555
 }
 ```
 
@@ -118,43 +118,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 650,
-  "TopicId": 706,
+  "ChatSessionId": 333,
+  "TopicId": 695,
   "User": null,
   "Person": null,
-  "CustomerAlias": "adipisci",
-  "CustomerHost": "a",
-  "CustomerName": "Romaguera Inc and Sons",
-  "CustomerEmail": "alfredo.rempel@gusikowski.ca",
-  "CustomerPhone": "(997)987-7533 x77407",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Dare LLC",
+  "CustomerAlias": "nihil",
+  "CustomerHost": "aut",
+  "CustomerName": "Dickinson Group",
+  "CustomerEmail": "ansel_anderson@robel.biz",
+  "CustomerPhone": "659-942-1581 x6004",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Cummings, Kuvalis and Barrows",
   "Status": "Closed",
-  "FirstMessage": "dolores",
-  "LastMessage": "sunt",
-  "WhenRequested": "2016-12-15T04:02:01.4092709+01:00",
-  "WhenStarted": "2011-06-29T04:02:01.4092709+02:00",
-  "WhenEnded": "2003-02-22T04:02:01.4092709+01:00",
-  "WhenIdle": "2024-07-04T04:02:01.4092709+02:00",
-  "WhenFetched": "2009-11-18T04:02:01.4092709+01:00",
-  "SessionKey": "quae",
-  "InitialQueuePos": 372,
-  "AlertLevel": 546,
-  "Rank": 722,
+  "FirstMessage": "corrupti",
+  "LastMessage": "fugit",
+  "WhenRequested": "1998-01-13T03:44:52.2615302+01:00",
+  "WhenStarted": "2007-11-01T03:44:52.2615302+01:00",
+  "WhenEnded": "1998-02-07T03:44:52.2615302+01:00",
+  "WhenIdle": "2000-08-02T03:44:52.2615302+02:00",
+  "WhenFetched": "1999-10-11T03:44:52.2615302+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 816,
+  "AlertLevel": 552,
+  "Rank": 908,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 135,
+  "ChatbotIsActive": true,
+  "Rating": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 632
     }
   }
 }

@@ -69,14 +69,14 @@ OK
 POST /api/v1/Agents/Person/TryAddPersonsToEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 13,
+  "EmailFlowId": 811,
   "PersonIds": [
-    200,
-    704
+    967,
+    729
   ]
 }
 ```

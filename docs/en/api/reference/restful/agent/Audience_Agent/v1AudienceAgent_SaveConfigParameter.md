@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Stehr Inc and Sons",
+  "LayoutName": "Zulauf, Cruickshank and Kuhn",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 67,
-  "Name": "Mills-Carroll",
-  "Value": "exercitationem",
-  "CreatedDate": "2010-02-03T04:02:01.221786+01:00",
-  "UpdatedDate": "2008-10-27T04:02:01.221786+01:00",
-  "CreatedBy": "recusandae",
-  "UpdatedBy": "qui",
+  "AudienceLayoutId": 638,
+  "Name": "Schmeler-Koepp",
+  "Value": "rerum",
+  "CreatedDate": "1998-08-10T03:44:52.0740137+02:00",
+  "UpdatedDate": "2002-12-31T03:44:52.0740137+01:00",
+  "CreatedBy": "possimus",
+  "UpdatedBy": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 706
     }
   }
 }

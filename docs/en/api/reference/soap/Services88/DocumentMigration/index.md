@@ -20,6 +20,7 @@ Download [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigr
 * [GetForDateRange](GetForDateRange.md)
 * [GetForSelection](GetForSelection.md)
 * [GetForTemplates](GetForTemplates.md)
+* [GetNumberOfConfidentialDocuments](GetNumberOfConfidentialDocuments.md)
 * [HasDocumentsToMigrate](HasDocumentsToMigrate.md)
 * [MigrateDocumentToNewDocPlugin](MigrateDocumentToNewDocPlugin.md)
 * [MigrateTemplateToNewDocPlugin](MigrateTemplateToNewDocPlugin.md)

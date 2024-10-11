@@ -26,7 +26,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=399
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=637
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Verlie Zulauf",
-  "Description": "Cross-platform radical groupware",
-  "ProjectId": 918,
-  "EventName": "Schiller Group",
-  "AssociateId": 259,
+  "AssociateFullName": "Prof. Rhiannon Bins MD",
+  "Description": "Multi-tiered executive complexity",
+  "ProjectId": 25,
+  "EventName": "Kohler LLC",
+  "AssociateId": 706,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "reprehenderit",
-  "SignOffText": "voluptates",
-  "SignOnConfirmationText": "eum",
-  "SignOnText": "reiciendis",
-  "EventDate": "1998-03-11T04:02:02.1597135+01:00",
+  "SignOffConfirmationText": "consequatur",
+  "SignOffText": "velit",
+  "SignOnConfirmationText": "quidem",
+  "SignOnText": "recusandae",
+  "EventDate": "2012-05-06T03:44:53.0114471+02:00",
   "Enabled": true,
   "SignOff": false,
-  "SignOffTaskEnable": true,
+  "SignOffTaskEnable": false,
   "SignOnTaskEnable": false,
-  "SignOn": true,
-  "SignOffTaskId": 744,
-  "SignOnTaskId": 186,
+  "SignOn": false,
+  "SignOffTaskId": 374,
+  "SignOnTaskId": 715,
   "SignOffTriggersAssign": false,
   "SignOnTriggersAssign": true,
-  "SignOnPersonId": 931,
-  "SignOffPersonId": 487,
+  "SignOnPersonId": 393,
+  "SignOffPersonId": 998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
+      "FieldType": "System.Int32",
+      "FieldLength": 694
     }
   }
 }

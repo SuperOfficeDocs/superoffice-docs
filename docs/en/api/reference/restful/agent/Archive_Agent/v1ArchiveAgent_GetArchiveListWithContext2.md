@@ -169,18 +169,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Berge, Dare and Abbott",
-  "ProviderName": "Romaguera Group",
-  "SortOrder": "neque",
-  "Restriction": "quod",
-  "Entities": "natus",
-  "Page": 351,
-  "PageSize": 858,
-  "Context": "optio"
+  "GuiName": "Russel, Welch and Konopelski",
+  "ProviderName": "Kris-Greenholt",
+  "SortOrder": "illo",
+  "Restriction": "similique",
+  "Entities": "totam",
+  "Page": 628,
+  "PageSize": 473,
+  "Context": "animi"
 }
 ```
 
@@ -192,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schultz, Romaguera and Ortiz",
-    "PrimaryKey": 38,
+    "EntityName": "Reichert, Ziemann and Smitham",
+    "PrimaryKey": 219,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "impedit",
-        "TooltipHint": "adipisci",
-        "LinkHint": "voluptas"
+        "DisplayValue": "amet",
+        "TooltipHint": "nostrum",
+        "LinkHint": "saepe"
       }
     },
-    "LinkHint": "soluta",
-    "StyleHint": "nisi",
+    "LinkHint": "quia",
+    "StyleHint": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 352
       }
     }
   }

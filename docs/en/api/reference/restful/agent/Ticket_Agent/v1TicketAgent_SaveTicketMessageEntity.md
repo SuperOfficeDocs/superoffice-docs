@@ -117,63 +117,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 265,
+  "EjMessageId": 148,
   "Ticket": null,
-  "CreatedAt": "2015-01-08T04:02:02.3942465+01:00",
+  "CreatedAt": "2015-12-03T03:44:53.2466467+01:00",
   "CreatedBy": null,
-  "Author": "odio",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
   "MessageId": "ut",
-  "TimeSpent": 874,
-  "Body": "animi",
-  "HtmlBody": "inventore",
-  "EmailHeader": "berenice@balistreri.us",
-  "DebugInfo": "quae",
-  "MailSorter": "qui",
+  "TimeSpent": 81,
+  "Body": "et",
+  "HtmlBody": "voluptate",
+  "EmailHeader": "giles_osinski@medhurst.name",
+  "DebugInfo": "incidunt",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nesciunt",
+  "SearchTitle": "suscipit",
   "MessageHeaders": [
     {
-      "Id": 136,
-      "Name": "Kuvalis Inc and Sons",
-      "Value": "eligendi",
+      "Id": 880,
+      "Name": "Shields, Schultz and West",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 136,
-      "Name": "Kuvalis Inc and Sons",
-      "Value": "eligendi",
+      "Id": 880,
+      "Name": "Shields, Schultz and West",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "rem",
-  "Sentiment": 768,
-  "SentimentConfidence": 531,
+  "Language": "accusantium",
+  "Sentiment": 580,
+  "SentimentConfidence": 501,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 539,
-      "Name": "Willms Group",
-      "ContentType": "non",
-      "AttSize": 852,
+      "AttachmentId": 423,
+      "Name": "Nicolas, Bergstrom and Harber",
+      "ContentType": "sit",
+      "AttSize": 454,
       "InlineImage": false,
-      "ContentId": "voluptatem",
-      "AuthKey": "et",
+      "ContentId": "in",
+      "AuthKey": "minima",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "vel",
+    "CustomFields2": "dolores"
   }
 }
 ```
@@ -185,79 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 22,
+  "EjMessageId": 134,
   "Ticket": null,
-  "CreatedAt": "2013-07-19T04:02:02.3942465+02:00",
+  "CreatedAt": "2019-04-27T03:44:53.2623023+02:00",
   "CreatedBy": null,
-  "Author": "quibusdam",
+  "Author": "magnam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "a",
-  "TimeSpent": 419,
-  "Body": "numquam",
-  "HtmlBody": "possimus",
-  "EmailHeader": "lilliana.hane@heaneygrant.co.uk",
-  "DebugInfo": "optio",
-  "MailSorter": "sed",
+  "MessageId": "voluptates",
+  "TimeSpent": 531,
+  "Body": "aut",
+  "HtmlBody": "perspiciatis",
+  "EmailHeader": "chadrick_hansen@green.info",
+  "DebugInfo": "sunt",
+  "MailSorter": "voluptatem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "tempore",
   "MessageHeaders": [
     {
-      "Id": 584,
-      "Name": "Wuckert-Herzog",
-      "Value": "maxime",
+      "Id": 445,
+      "Name": "Leffler, Legros and Krajcik",
+      "Value": "dolorem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldType": "System.String",
+          "FieldLength": 773
         }
       }
     }
   ],
   "Important": false,
-  "Language": "excepturi",
-  "Sentiment": 436,
-  "SentimentConfidence": 177,
+  "Language": "quia",
+  "Sentiment": 425,
+  "SentimentConfidence": 194,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 379,
-      "Name": "Harber Inc and Sons",
-      "ContentType": "iste",
-      "AttSize": 446,
+      "AttachmentId": 905,
+      "Name": "Zieme LLC",
+      "ContentType": "et",
+      "AttSize": 157,
       "InlineImage": false,
-      "ContentId": "dolores",
-      "AuthKey": "a",
-      "IsSafeFileExtension": false,
+      "ContentId": "fuga",
+      "AuthKey": "quaerat",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 607
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "autem"
+    "CustomFields1": "omnis",
+    "CustomFields2": "ducimus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 619
     }
   }
 }

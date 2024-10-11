@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "inventore",
-      "HTMLBody": "voluptatem",
+      "Subject": "voluptas",
+      "HTMLBody": "quam",
       "From": null,
-      "Sent": "2002-01-03T04:02:01.7217471+01:00",
-      "Size": 948,
+      "Sent": "2014-05-15T03:44:52.5896202+02:00",
+      "Size": 941,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "sed",
-      "PlainBody": "enim",
-      "IsSent": false,
+      "MessageID": "laudantium",
+      "PlainBody": "doloribus",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 848,
+      "ServerId": 649,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Crona, Bayer and Gaylord",
-      "EmailItemId": 638,
-      "AccountId": 74,
-      "ReceivedAt": "2000-11-23T04:02:01.7217471+01:00",
+      "FolderName": "Braun, Hudson and Smitham",
+      "EmailItemId": 796,
+      "AccountId": 200,
+      "ReceivedAt": "2000-07-18T03:44:52.5896202+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2004-04-17T04:02:01.7217471+02:00",
-      "HasCalendarData": false,
+      "RepliedAt": "2021-08-11T03:44:52.5896202+02:00",
+      "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,147 +166,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 28,
-        "ContactName": "Kreiger Group",
-        "PersonId": 673,
-        "PersonName": "Harber Inc and Sons",
-        "AssociateId": 622,
-        "Address": "atque",
-        "EmailId": 211,
+        "ContactId": 496,
+        "ContactName": "Koelpin, Lakin and West",
+        "PersonId": 55,
+        "PersonName": "Batz LLC",
+        "AssociateId": 158,
+        "Address": "et",
+        "EmailId": 201,
         "DuplicatePersonIds": [
-          111,
-          770
+          840,
+          692
         ],
-        "Name": "Gaylord, Kertzmann and Lesch",
+        "Name": "Jacobs Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 951
+            "FieldLength": 314
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 15,
-        "ContactName": "Waters Group",
-        "PersonId": 847,
-        "PersonName": "Windler-Sawayn",
-        "AssociateId": 406,
-        "Address": "quasi",
-        "EmailId": 707,
+        "ContactId": 374,
+        "ContactName": "Stiedemann LLC",
+        "PersonId": 270,
+        "PersonName": "Howe Inc and Sons",
+        "AssociateId": 545,
+        "Address": "est",
+        "EmailId": 705,
         "DuplicatePersonIds": [
-          906,
-          579
+          380,
+          796
         ],
-        "Name": "Schiller, Osinski and Smith",
+        "Name": "Reilly Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 895
+            "FieldLength": 980
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 632,
-        "ContactName": "Nader, Terry and Toy",
-        "PersonId": 120,
-        "PersonName": "Altenwerth LLC",
-        "AssociateId": 358,
-        "Address": "libero",
-        "EmailId": 651,
+        "ContactId": 420,
+        "ContactName": "Bogisich Inc and Sons",
+        "PersonId": 448,
+        "PersonName": "Rutherford-Monahan",
+        "AssociateId": 232,
+        "Address": "ullam",
+        "EmailId": 619,
         "DuplicatePersonIds": [
-          821,
-          927
+          158,
+          967
         ],
-        "Name": "Stanton LLC",
+        "Name": "Olson-Mueller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 229
+            "FieldType": "System.String",
+            "FieldLength": 466
           }
         }
       }
     ],
-    "Subject": "sed",
-    "HTMLBody": "quo",
+    "Subject": "corporis",
+    "HTMLBody": "soluta",
     "From": null,
-    "Sent": "2017-01-09T04:02:01.7217471+01:00",
-    "Size": 689,
+    "Sent": "2000-07-28T03:44:52.5896202+02:00",
+    "Size": 974,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "ab",
-    "PlainBody": "repudiandae",
+    "MessageID": "rem",
+    "PlainBody": "eius",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 818,
+    "ServerId": 400,
     "Attachments": [
       {
-        "Description": "Cross-platform analyzing software",
-        "Filename": "sed",
-        "Size": 119,
-        "Type": "delectus",
-        "Encoding": "autem",
-        "Id": "laudantium",
-        "Disposition": "ipsam",
-        "IsSafeFileExtension": false,
+        "Description": "Polarised user-facing data-warehouse",
+        "Filename": "qui",
+        "Size": 413,
+        "Type": "dolor",
+        "Encoding": "magnam",
+        "Id": "aut",
+        "Disposition": "sed",
+        "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldLength": 306
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Bergnaum Inc and Sons",
+        "Name": "Hegmann, Cummings and Beer",
         "Values": [
-          "dolores",
-          "corporis"
+          "qui",
+          "expedita"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 949
+            "FieldLength": 90
           }
         }
       },
       {
-        "Name": "Bergnaum Inc and Sons",
+        "Name": "Hegmann, Cummings and Beer",
         "Values": [
-          "dolores",
-          "corporis"
+          "qui",
+          "expedita"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 949
+            "FieldLength": 90
           }
         }
       }
     ],
-    "FolderName": "Walter-Emmerich",
-    "EmailItemId": 955,
-    "AccountId": 118,
-    "ReceivedAt": "1999-01-03T04:02:01.7217471+01:00",
+    "FolderName": "Wilderman, Ankunding and Hayes",
+    "EmailItemId": 835,
+    "AccountId": 445,
+    "ReceivedAt": "2004-05-25T03:44:52.5896202+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2018-08-23T04:02:01.7217471+02:00",
+    "RepliedAt": "2011-03-30T03:44:52.5896202+02:00",
     "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -314,8 +314,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldType": "System.String",
+        "FieldLength": 8
       }
     }
   }

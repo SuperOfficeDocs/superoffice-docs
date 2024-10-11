@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 248
+  "ErpSyncConnectionId": 754
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Wyman, Corwin and McKenzie",
-  "DisplayDescription": "Business-focused client-server solution",
+  "DisplayName": "Russel-Lemke",
+  "DisplayDescription": "Fully-configurable modular info-mediaries",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2003-07-26T04:02:01.7529942+02:00",
+  "LastSync": "2010-11-30T03:44:52.620866+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "aperiam",
-      "Mappings": "est",
+      "Defaults": "sit",
+      "Mappings": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 254
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "aperiam",
-      "Mappings": "est",
+      "Defaults": "sit",
+      "Mappings": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 254
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldLength": 825
     }
   }
 }

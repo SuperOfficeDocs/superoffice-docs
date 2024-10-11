@@ -86,14 +86,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Yundt-Rosenbaum",
-  "StorageKey": "at",
+  "StorageType": "modi",
+  "ProviderName": "Toy Inc and Sons",
+  "StorageKey": "voluptatem",
   "StaticColumns": [
-    "aliquid",
-    "nam"
+    "est",
+    "quia"
   ],
-  "Context": "ratione"
+  "Context": "nesciunt"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Trantow-Yundt",
-      "Operator": "rerum",
+      "Name": "Cummings-Bergstrom",
+      "Operator": "in",
       "Values": [
-        "nulla",
-        "recusandae"
+        "maiores",
+        "voluptates"
       ],
       "DisplayValues": [
-        "in",
-        "dolorem"
+        "dolorem",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 307,
+      "InterParenthesis": 468,
       "InterOperator": "And",
-      "UniqueHash": 839
+      "UniqueHash": 844
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schroeder-Hickle",
-      "DisplayTooltip": "atque",
-      "DisplayType": "omnis",
+      "DisplayName": "Koepp Inc and Sons",
+      "DisplayTooltip": "minima",
+      "DisplayType": "pariatur",
       "CanOrderBy": true,
-      "Name": "Dibbert-Kiehn",
-      "CanRestrictBy": false,
-      "RestrictionType": "molestias",
-      "RestrictionListName": "Swaniawski-Feest",
-      "IsVisible": false,
-      "ExtraInfo": "sed",
+      "Name": "McClure-Barton",
+      "CanRestrictBy": true,
+      "RestrictionType": "maiores",
+      "RestrictionListName": "Buckridge-Predovic",
+      "IsVisible": true,
+      "ExtraInfo": "ut",
       "Width": "et",
-      "IconHint": "sed",
-      "HeadingIconHint": "voluptas"
+      "IconHint": "asperiores",
+      "HeadingIconHint": "ea"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Gutkowski-Stamm",
-      "PrimaryKey": 136,
+      "EntityName": "Reichert Inc and Sons",
+      "PrimaryKey": 358,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "eos",
-          "LinkHint": "dignissimos"
+          "DisplayValue": "perspiciatis",
+          "TooltipHint": "aut",
+          "LinkHint": "occaecati"
         }
       },
-      "LinkHint": "magni",
-      "StyleHint": "fuga",
+      "LinkHint": "eum",
+      "StyleHint": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldType": "System.String",
+          "FieldLength": 2
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Glover, Rohan and Simonis",
-      "Description": "Total radical flexibility",
-      "Rank": 571,
+      "Name": "Lehner-Armstrong",
+      "Description": "Organic modular monitoring",
+      "Rank": 7,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Glover, Rohan and Simonis",
-      "Description": "Total radical flexibility",
-      "Rank": 571,
+      "Name": "Lehner-Armstrong",
+      "Description": "Organic modular monitoring",
+      "Rank": 7,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

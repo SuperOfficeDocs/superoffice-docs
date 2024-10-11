@@ -82,12 +82,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Wisozk LLC",
-  "Tooltip": "necessitatibus",
+  "Id": 724,
+  "Name": "Runolfsson, Rutherford and Abernathy",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "UdListDefinitionId": 930,
-  "Rank": 948
+  "UdListDefinitionId": 55,
+  "Rank": 951
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Goldner-Denesik",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "UdListDefinitionId": 241,
-  "Rank": 36,
+  "Id": 166,
+  "Name": "Connelly, Pouros and Lindgren",
+  "Tooltip": "quaerat",
+  "Deleted": true,
+  "UdListDefinitionId": 527,
+  "Rank": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldType": "System.Int32",
+      "FieldLength": 704
     }
   }
 }

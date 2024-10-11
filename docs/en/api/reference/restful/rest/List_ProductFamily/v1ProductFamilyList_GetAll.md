@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Leannon, Hayes and Schuster",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "UdListDefinitionId": 691,
-    "Rank": 119,
+    "Id": 502,
+    "Name": "Bode LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 85,
+    "Rank": 83,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 292
       }
     }
   }

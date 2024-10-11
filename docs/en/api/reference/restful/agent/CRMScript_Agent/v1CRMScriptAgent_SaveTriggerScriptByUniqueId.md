@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "est",
+  "TriggerScriptUniqueId": "eos",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 132,
-  "Name": "West Inc and Sons",
+  "ScreenChooserId": 9,
+  "Name": "Dibbert, Tremblay and Hegmann",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "vitae",
-  "Source": "ut",
-  "Registered": "2020-07-13T04:02:01.5342579+02:00",
-  "RegisteredAssociateId": 587,
-  "Updated": "2016-09-22T04:02:01.5342579+02:00",
-  "UpdatedAssociateId": 380,
+  "UniqueIdentifier": "facilis",
+  "Source": "magnam",
+  "Registered": "2024-02-06T03:44:52.3865159+01:00",
+  "RegisteredAssociateId": 55,
+  "Updated": "2010-03-06T03:44:52.3865159+01:00",
+  "UpdatedAssociateId": 961,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 496
     }
   }
 }

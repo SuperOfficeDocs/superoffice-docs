@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 312,
-  "Name": "Klocko Inc and Sons",
-  "Tooltip": "perspiciatis",
-  "SaveInDb": 975,
-  "Filename": "qui",
-  "DefaultOref": "fugiat",
+  "DocumentTemplateId": 619,
+  "Name": "Champlin Group",
+  "Tooltip": "expedita",
+  "SaveInDb": 448,
+  "Filename": "voluptates",
+  "DefaultOref": "eum",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 115,
-  "IntentId": 987,
+  "AutoeventId": 568,
+  "IntentId": 481,
   "IsDefaultPublished": false,
-  "Rank": 42,
-  "LoadTemplateFromPlugin": 330,
-  "MimeType": "quas",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 421,
+  "Rank": 238,
+  "LoadTemplateFromPlugin": 437,
+  "MimeType": "sint",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 261,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "pattie@moen.com",
+  "EmailSubject": "gus.quigley@kassulkejacobi.ca",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "issac@huelbecker.uk",
+  "SenderEmailAddress": "harrison.kutch@parisian.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 803
     }
   }
 }

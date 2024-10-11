@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Oberbrunner Group",
-    "Tooltip": "esse",
-    "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 702
+    "HeadingId": 328,
+    "Name": "Schinner-Moore",
+    "Tooltip": "quam",
+    "Deleted": true,
+    "Rank": 356,
+    "UdListDefinitionId": 877
   },
   {
-    "HeadingId": 855,
-    "Name": "Oberbrunner Group",
-    "Tooltip": "esse",
-    "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 702
+    "HeadingId": 328,
+    "Name": "Schinner-Moore",
+    "Tooltip": "quam",
+    "Deleted": true,
+    "Rank": 356,
+    "UdListDefinitionId": 877
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Cole, Hahn and Considine",
-    "Tooltip": "corporis",
-    "Deleted": true,
-    "Rank": 781,
-    "UdListDefinitionId": 487,
+    "HeadingId": 632,
+    "Name": "Sporer, Stark and O'Keefe",
+    "Tooltip": "facere",
+    "Deleted": false,
+    "Rank": 270,
+    "UdListDefinitionId": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 492
       }
     }
   }

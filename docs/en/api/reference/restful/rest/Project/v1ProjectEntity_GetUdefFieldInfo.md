@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 590,
-  "ColumnId": 547,
-  "FieldDefault": "cum",
-  "FieldHeight": 534,
-  "FieldLabel": "sunt",
-  "FieldLeft": 960,
-  "FieldTop": 53,
+  "UDefFieldId": 14,
+  "ColumnId": 651,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 701,
+  "FieldLabel": "voluptatum",
+  "FieldLeft": 416,
+  "FieldTop": 626,
   "FieldType": "Checkbox",
-  "FieldWidth": 212,
-  "FormatMask": "quo",
+  "FieldWidth": 997,
+  "FormatMask": "repellat",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 880,
-  "LabelLeft": 685,
-  "LabelTop": 768,
-  "LabelWidth": 849,
-  "LastVersionId": 338,
-  "ListTableId": 168,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 824,
+  "LabelLeft": 994,
+  "LabelTop": 271,
+  "LabelWidth": 675,
+  "LastVersionId": 642,
+  "ListTableId": 678,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 565,
-  "ProgId": "odit",
-  "IsReadOnly": false,
-  "ShortLabel": "eveniet",
-  "TabOrder": 895,
-  "TextLength": 892,
-  "Tooltip": "recusandae",
-  "UdefIdentity": 22,
-  "UDListDefinitionId": 925,
+  "Page1LineNo": 908,
+  "ProgId": "temporibus",
+  "IsReadOnly": true,
+  "ShortLabel": "tenetur",
+  "TabOrder": 917,
+  "TextLength": 787,
+  "Tooltip": "inventore",
+  "UdefIdentity": 708,
+  "UDListDefinitionId": 764,
   "Justification": "Center",
-  "Version": 83,
-  "TemplateVariableName": "Douglas-Schaefer",
-  "HasBeenPublished": false,
-  "MdoListName": "Wiza, Howell and Baumbach",
+  "Version": 203,
+  "TemplateVariableName": "Rogahn, Little and Murray",
+  "HasBeenPublished": true,
+  "MdoListName": "Goodwin-Toy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

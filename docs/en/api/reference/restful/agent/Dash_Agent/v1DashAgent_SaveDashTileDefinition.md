@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 928,
-  "Name": "Paucek Group",
-  "Description": "Reduced 6th generation ability",
-  "DefaultHeight": 631,
-  "DefaultWidth": 426,
+  "DashboardTileDefinitionId": 905,
+  "Name": "Mann-Will",
+  "Description": "Mandatory full-range workforce",
+  "DefaultHeight": 85,
+  "DefaultWidth": 117,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Waters, Spinka and Runte",
-  "SelectionId": 143,
+  "EntityName": "Grant, Borer and Dach",
+  "SelectionId": 147,
   "CurrencyMode": "Base",
-  "CurrencyCode": "iusto",
+  "CurrencyCode": "magni",
   "Measure": "Average",
-  "MeasureField": "magnam",
-  "SortBy": "ipsum",
-  "LayoutConfig": "exercitationem",
-  "SecondarySelectionId": 996,
-  "MeasureByField": "iste",
+  "MeasureField": "labore",
+  "SortBy": "dolorum",
+  "LayoutConfig": "provident",
+  "SecondarySelectionId": 19,
+  "MeasureByField": "sit",
   "Usage": "Dashboard",
-  "ProviderName": "Hudson, Jacobi and Hahn"
+  "ProviderName": "Hansen, Stehr and Paucek"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 947,
-  "Name": "Daniel Group",
-  "Description": "Inverse incremental capacity",
-  "DefaultHeight": 370,
-  "DefaultWidth": 185,
+  "DashboardTileDefinitionId": 461,
+  "Name": "Olson-Pouros",
+  "Description": "Multi-layered holistic monitoring",
+  "DefaultHeight": 569,
+  "DefaultWidth": 272,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Roob, Denesik and Botsford",
-  "SelectionId": 584,
+  "EntityName": "Pouros Group",
+  "SelectionId": 124,
   "CurrencyMode": "Base",
-  "CurrencyCode": "vel",
+  "CurrencyCode": "inventore",
   "Measure": "Average",
-  "MeasureField": "rerum",
-  "SortBy": "quia",
-  "LayoutConfig": "in",
-  "SecondarySelectionId": 397,
-  "MeasureByField": "vel",
+  "MeasureField": "sit",
+  "SortBy": "dolor",
+  "LayoutConfig": "est",
+  "SecondarySelectionId": 701,
+  "MeasureByField": "unde",
   "Usage": "Dashboard",
-  "ProviderName": "Abshire-Smitham",
+  "ProviderName": "Wunsch-Rodriguez",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 29
     }
   }
 }

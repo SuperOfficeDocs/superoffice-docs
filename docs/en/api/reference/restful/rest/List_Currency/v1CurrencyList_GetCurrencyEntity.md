@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 618,
-  "Name": "Roberts-Corkery",
-  "Tooltip": "aut",
-  "Rank": 314,
-  "Rate": 15961.462,
-  "Units": 6725.5639999999994,
-  "Deleted": false,
+  "CurrencyId": 679,
+  "Name": "Bosco LLC",
+  "Tooltip": "excepturi",
+  "Rank": 458,
+  "Rate": 18735.052,
+  "Units": 17450.112,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldType": "System.String",
+      "FieldLength": 920
     }
   }
 }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 649,
-  "ModuleOwner": "aut"
+  "AssociateId": 439,
+  "ModuleOwner": "omnis"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 711,
-    "Tooltip": "unde",
+    "Total": 677,
+    "Tooltip": "molestiae",
     "CanAssign": false,
-    "Free": 237,
-    "InUse": 316,
-    "IsHidden": true,
+    "Free": 482,
+    "InUse": 307,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 85,
-    "Name": "Kessler, Barrows and Baumbach",
-    "Description": "Centralized static monitoring",
-    "PrerequisiteModuleName": "O'Connell-Dickens",
-    "SortOrder": 236,
-    "ExtraFlags": 845,
+    "ModuleLicenseId": 942,
+    "Name": "Schmitt-Berge",
+    "Description": "Organic maximized functionalities",
+    "PrerequisiteModuleName": "Aufderhar-Kunde",
+    "SortOrder": 674,
+    "ExtraFlags": 362,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldLength": 739
       }
     }
   }

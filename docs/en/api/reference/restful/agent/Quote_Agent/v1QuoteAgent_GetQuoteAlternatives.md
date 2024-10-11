@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 875
+  "QuoteVersionId": 78
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 193,
-    "ERPQuoteAlternativeKey": "et",
-    "QuoteVersionId": 800,
-    "Name": "Schaefer-DuBuque",
-    "Description": "Cross-group analyzing data-warehouse",
+    "QuoteAlternativeId": 358,
+    "ERPQuoteAlternativeKey": "dicta",
+    "QuoteVersionId": 386,
+    "Name": "Moore-Hirthe",
+    "Description": "Function-based incremental open system",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 2977.2999999999997,
-    "ERPDiscountAmount": 14758.006,
-    "DiscountPercent": 11298.07,
-    "DiscountAmount": 4563.104,
+    "ERPDiscountPercent": 6546.9259999999995,
+    "ERPDiscountAmount": 3973.912,
+    "DiscountPercent": 15970.864,
+    "DiscountAmount": 15992.802,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "vel",
-    "VAT": 12470.186,
-    "EarningPercent": 27190.584,
-    "EarningAmount": 890.05599999999993,
-    "SubTotal": 5167.9659999999994,
-    "TotalPrice": 8988.312,
-    "ExtraField1": "ea",
-    "ExtraField2": "qui",
-    "ExtraField3": "impedit",
-    "ExtraField4": "qui",
-    "ExtraField5": "et",
+    "VATInfo": "nostrum",
+    "VAT": 16378.284,
+    "EarningPercent": 11326.276,
+    "EarningAmount": 2551.076,
+    "SubTotal": 7960.36,
+    "TotalPrice": 727.088,
+    "ExtraField1": "ab",
+    "ExtraField2": "vitae",
+    "ExtraField3": "dolore",
+    "ExtraField4": "illum",
+    "ExtraField5": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldLength": 176
       }
     }
   }

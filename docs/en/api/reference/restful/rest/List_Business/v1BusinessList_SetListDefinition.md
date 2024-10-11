@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 248,
-  "Name": "Kautzer, Ward and Nicolas",
-  "Tooltip": "velit",
+  "Id": 581,
+  "Name": "Feeney, Veum and Hodkiewicz",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "Rank": 487,
-  "IsCustomList": false,
+  "Rank": 762,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "eaque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Bergnaum Group",
-  "Tooltip": "tempore",
+  "Id": 227,
+  "Name": "Schneider-Thompson",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 988,
+  "Rank": 504,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "excepturi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 92
     }
   }
 }

@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 571,
-  "PlainMessage": "qui",
-  "HtmlMessage": "iste",
-  "SmsMessage": "inventore",
-  "Description": "Decentralized mission-critical collaboration",
-  "Subject": "eligendi",
-  "FolderId": 901,
-  "HeaderField": "illo",
-  "Design": "aspernatur",
+  "ShipmentMessageId": 743,
+  "PlainMessage": "optio",
+  "HtmlMessage": "rerum",
+  "SmsMessage": "veniam",
+  "Description": "Cross-group national knowledge base",
+  "Subject": "consequuntur",
+  "FolderId": 481,
+  "HeaderField": "quae",
+  "Design": "ex",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Seamless scalable methodology",
-  "AccessKey": "sit",
-  "DocumentMessage": 761,
-  "Registered": "2017-12-21T04:02:06.837875+01:00",
-  "RegisteredAssociateId": 59,
-  "Updated": "2021-10-26T04:02:06.837875+02:00",
-  "UpdatedAssociateId": 295,
-  "UpdatedCount": 489,
+  "InlineImages": false,
+  "LongDescription": "Focused maximized superstructure",
+  "AccessKey": "voluptatem",
+  "DocumentMessage": 18,
+  "Registered": "2007-07-17T03:44:57.5937539+02:00",
+  "RegisteredAssociateId": 213,
+  "Updated": "1998-02-01T03:44:57.5937539+01:00",
+  "UpdatedAssociateId": 438,
+  "UpdatedCount": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 308
     }
   }
 }

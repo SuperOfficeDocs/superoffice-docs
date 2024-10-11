@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Nolan, Legros and O'Conner",
-    "Tooltip": "molestias",
+    "Id": 975,
+    "Name": "Ferry-Bernhard",
+    "Tooltip": "quam",
     "Deleted": true,
-    "UdListDefinitionId": 732,
-    "Rank": 551
+    "UdListDefinitionId": 65,
+    "Rank": 970
   },
   {
-    "Id": 546,
-    "Name": "Nolan, Legros and O'Conner",
-    "Tooltip": "molestias",
+    "Id": 975,
+    "Name": "Ferry-Bernhard",
+    "Tooltip": "quam",
     "Deleted": true,
-    "UdListDefinitionId": 732,
-    "Rank": 551
+    "UdListDefinitionId": 65,
+    "Rank": 970
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Krajcik, Mante and Mitchell",
-    "Tooltip": "culpa",
-    "Deleted": true,
-    "UdListDefinitionId": 77,
-    "Rank": 577,
+    "Id": 225,
+    "Name": "Hamill-Waelchi",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "UdListDefinitionId": 22,
+    "Rank": 143,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldType": "System.String",
+        "FieldLength": 802
       }
     }
   }

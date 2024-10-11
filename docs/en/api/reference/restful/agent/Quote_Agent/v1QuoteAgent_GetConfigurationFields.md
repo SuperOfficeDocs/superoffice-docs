@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 906,
-  "ConnectorName": "Emard-Kozey"
+  "ConnectionId": 522,
+  "ConnectorName": "Gleason-Nitzsche"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "dolorum",
-    "Rank": 787,
-    "DisplayName": "Lesch LLC",
-    "DisplayDescription": "Realigned non-volatile data-warehouse",
+    "FieldKey": "voluptate",
+    "Rank": 170,
+    "DisplayName": "Wehner Group",
+    "DisplayDescription": "Function-based logistical moderator",
     "FieldType": "Checkbox",
-    "ListName": "Bechtelar-Jast",
-    "DefaultValue": "recusandae",
-    "MaxLength": 1000,
+    "ListName": "Kuhlman-Macejkovic",
+    "DefaultValue": "est",
+    "MaxLength": 753,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 343
       }
     }
   }

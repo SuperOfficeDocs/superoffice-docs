@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 82,
-  "Name": "McLaughlin, Wiegand and Lemke",
-  "PersonId": 294,
-  "Rank": 514,
-  "Tooltip": "ut",
+  "AssociateId": 628,
+  "Name": "Cremin-Bahringer",
+  "PersonId": 907,
+  "Rank": 681,
+  "Tooltip": "sed",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 999,
-  "FullName": "Aurore Pouros",
-  "FormalName": "Koch-Dietrich",
-  "Deleted": true,
-  "EjUserId": 718,
-  "UserName": "Bergstrom, Schultz and Bradtke",
+  "GroupIdx": 420,
+  "FullName": "Ms. Mariam Prudence Cummings DDS",
+  "FormalName": "Goodwin LLC",
+  "Deleted": false,
+  "EjUserId": 561,
+  "UserName": "Murazik, Koch and Hilpert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 729
     }
   }
 }

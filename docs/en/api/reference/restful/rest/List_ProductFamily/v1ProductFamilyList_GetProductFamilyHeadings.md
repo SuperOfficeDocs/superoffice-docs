@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 479,
-    "Name": "Bahringer-Collins",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 561,
-    "UdListDefinitionId": 231,
+    "HeadingId": 450,
+    "Name": "Greenholt LLC",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "Rank": 690,
+    "UdListDefinitionId": 88,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 944
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hegmann Inc and Sons",
-  "ProviderName": "Lakin-Nitzsche"
+  "GuiName": "Kiehn, Rogahn and Parisian",
+  "ProviderName": "Runte, Dickens and Walsh"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Steuber, Nitzsche and Okuneva",
-      "DisplayTooltip": "tempore",
-      "DisplayType": "consequatur",
+      "DisplayName": "Pfeffer-Hickle",
+      "DisplayTooltip": "quaerat",
+      "DisplayType": "sint",
       "CanOrderBy": false,
-      "Name": "Little, Leannon and Schuster",
+      "Name": "Wyman Group",
       "CanRestrictBy": true,
-      "RestrictionType": "eveniet",
-      "RestrictionListName": "Bosco, Conroy and Weissnat",
+      "RestrictionType": "qui",
+      "RestrictionListName": "Zemlak LLC",
       "IsVisible": false,
-      "ExtraInfo": "delectus",
-      "Width": "doloremque",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "eveniet"
+      "ExtraInfo": "incidunt",
+      "Width": "dolorem",
+      "IconHint": "qui",
+      "HeadingIconHint": "commodi"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 461,
-      "Name": "Steuber, Zemlak and Simonis",
-      "ToolTip": "Accusamus tempore ut.",
+      "Id": 80,
+      "Name": "Quitzon-Fadel",
+      "ToolTip": "Modi quia nobis earum sed.",
       "Deleted": false,
-      "Rank": 195,
-      "Type": "et",
-      "ColorBlock": 776,
-      "IconHint": "aut",
-      "Selected": true,
-      "LastChanged": "1997-08-01T04:02:01.2062801+02:00",
+      "Rank": 89,
+      "Type": "ullam",
+      "ColorBlock": 727,
+      "IconHint": "animi",
+      "Selected": false,
+      "LastChanged": "2012-08-05T03:44:52.0427664+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "vitae",
-      "Hidden": true,
-      "FullName": "Melissa Konopelski",
+      "ExtraInfo": "quos",
+      "StyleHint": "expedita",
+      "Hidden": false,
+      "FullName": "Liana Koelpin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldType": "System.Int32",
+          "FieldLength": 619
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Harber-Welch",
+      "Name": "Shields, Kessler and Bahringer",
       "Direction": "ASC"
     },
     {
-      "Name": "Harber-Welch",
+      "Name": "Shields, Kessler and Bahringer",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sunt",
+  "OwnerKeys": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 571
     }
   }
 }

@@ -93,10 +93,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 339,
-  "AttachmentId": "sequi",
+  "MailItemId": 992,
+  "AttachmentId": "voluptatibus",
   "AttachmentType": "qui",
-  "AttachmentFilename": "laboriosam"
+  "AttachmentFilename": "sit"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized asynchronous complexity",
-  "Filename": "iure",
-  "Size": 449,
-  "Type": "molestias",
-  "Encoding": "deleniti",
-  "Id": "iste",
-  "Disposition": "voluptate",
+  "Description": "Synergistic well-modulated budgetary management",
+  "Filename": "doloremque",
+  "Size": 647,
+  "Type": "saepe",
+  "Encoding": "et",
+  "Id": "ad",
+  "Disposition": "dolore",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

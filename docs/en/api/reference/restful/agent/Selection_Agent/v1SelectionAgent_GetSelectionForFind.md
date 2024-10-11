@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Tillman, Lakin and Klocko",
-  "TypicalSearchId": 391
+  "EntityName": "Dare, Kuphal and Sporer",
+  "TypicalSearchId": 773
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Boyle, Senger and Wintheiser",
-  "SelectionId": 38,
-  "CanSaveAsSelection": false,
-  "MainHeading": "occaecati",
-  "FilterScreenHeading": "itaque",
-  "SelectionEntityHeading": "hic",
+  "ProviderName": "Luettgen-Brekke",
+  "SelectionId": 310,
+  "CanSaveAsSelection": true,
+  "MainHeading": "in",
+  "FilterScreenHeading": "non",
+  "SelectionEntityHeading": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 676
     }
   }
 }

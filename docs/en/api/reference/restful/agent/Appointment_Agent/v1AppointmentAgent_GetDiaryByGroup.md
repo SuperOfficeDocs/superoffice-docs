@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 413,
-  "GroupType": 415,
-  "StartTime": "2023-03-28T04:02:01.0025647+02:00",
-  "EndTime": "1999-05-10T04:02:01.0025647+02:00",
-  "Count": 397
+  "GroupId": 504,
+  "GroupType": 4,
+  "StartTime": "2001-11-30T03:44:51.8552876+01:00",
+  "EndTime": "2006-04-11T03:44:51.8552876+02:00",
+  "Count": 79
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 198,
-    "StartDate": "2021-11-27T04:02:01.0025647+01:00",
-    "EndDate": "2015-01-13T04:02:01.0025647+01:00",
+    "AppointmentId": 330,
+    "StartDate": "2018-12-06T03:44:51.8552876+01:00",
+    "EndDate": "2000-08-31T03:44:51.8552876+02:00",
     "Type": "BookingForChecklist",
-    "Task": "praesentium",
-    "AssociateFullName": "Miss Angel Swift DDS",
-    "ContactName": "Orn Inc and Sons",
-    "Description": "Versatile reciprocal array",
-    "PersonFullName": "Mrs. Tiffany Kris",
-    "PersonId": 800,
-    "ContactId": 583,
-    "ProjectId": 391,
-    "ProjectName": "Hoppe-Reynolds",
-    "IsPublished": false,
-    "AssociateId": 607,
-    "ColorIndex": 36,
-    "IsFree": true,
+    "Task": "ut",
+    "AssociateFullName": "Mrs. Cierra Blick PhD",
+    "ContactName": "Blick-Abshire",
+    "Description": "Business-focused fresh-thinking software",
+    "PersonFullName": "Mrs. Harry Richmond Rath III",
+    "PersonId": 814,
+    "ContactId": 550,
+    "ProjectId": 319,
+    "ProjectName": "Hickle LLC",
+    "IsPublished": true,
+    "AssociateId": 786,
+    "ColorIndex": 118,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 941,
-    "PriorityName": "Kling Group",
+    "PriorityId": 530,
+    "PriorityName": "Kunde Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2000-09-30T04:02:01.0025647+02:00",
+    "ActiveDate": "2023-04-14T03:44:51.8552876+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-11-28T04:02:01.0025647+01:00",
-    "RecurringEndDate": "2005-04-26T04:02:01.0025647+02:00",
-    "MotherId": 110,
-    "AssignedBy": 230,
-    "AssignedByFullName": "Elyse Moen",
+    "RecurringStartDate": "2007-05-06T03:44:51.8552876+02:00",
+    "RecurringEndDate": "1999-12-17T03:44:51.8552876+01:00",
+    "MotherId": 173,
+    "AssignedBy": 733,
+    "AssignedByFullName": "Prof. Keven Flatley",
     "RejectReason": "",
-    "Location": "rerum",
-    "AlarmLeadTime": "ut",
-    "SaleId": 262,
-    "SaleName": "Wuckert Group",
-    "AssociateName": "Hahn-Okuneva",
-    "CreatedDate": "2017-05-19T04:02:01.0025647+02:00",
-    "CreatedBy": "eum",
-    "CreatedByFullName": "Yasmine Marks Sr.",
-    "CreatedByAssociateId": 302,
+    "Location": "qui",
+    "AlarmLeadTime": "beatae",
+    "SaleId": 218,
+    "SaleName": "Trantow, Hettinger and Herman",
+    "AssociateName": "Schumm Group",
+    "CreatedDate": "2009-03-25T03:44:51.8552876+01:00",
+    "CreatedBy": "ex",
+    "CreatedByFullName": "Shaina Toy",
+    "CreatedByAssociateId": 808,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 8,
-    "Title": "et",
-    "Agenda": "autem",
-    "InternalNotes": "quibusdam",
+    "PreferredTZLocation": 819,
+    "Title": "ut",
+    "Agenda": "fugit",
+    "InternalNotes": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 129
       }
     }
   }

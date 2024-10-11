@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "Green Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 507,
-  "Rank": 614
+  "Id": 449,
+  "Name": "Crooks, Flatley and Frami",
+  "Tooltip": "libero",
+  "Deleted": false,
+  "UdListDefinitionId": 275,
+  "Rank": 430
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Hudson-Bechtelar",
-  "Tooltip": "at",
-  "Deleted": false,
-  "UdListDefinitionId": 804,
-  "Rank": 817,
+  "Id": 63,
+  "Name": "Ullrich-Schaefer",
+  "Tooltip": "possimus",
+  "Deleted": true,
+  "UdListDefinitionId": 933,
+  "Rank": 836,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 6
     }
   }
 }

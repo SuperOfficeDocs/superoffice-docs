@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Johnston Inc and Sons",
-  "Context": "quasi"
+  "TableName": "Swaniawski, Bauch and Steuber",
+  "Context": "necessitatibus"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "quis",
-    "ValueType": "eum",
+    "DefaultShowInSelector": true,
+    "IsActive": false,
+    "Key": "eveniet",
+    "ValueType": "doloremque",
     "Mandatory": false,
-    "EncodedDisplayName": "Auer-Frami",
-    "EncodedDisplayDescription": "Public-key regional help-desk",
-    "IconHint": "pariatur",
+    "EncodedDisplayName": "Hammes Group",
+    "EncodedDisplayDescription": "Stand-alone tertiary interface",
+    "IconHint": "sint",
     "ControlInfos": [
       {
-        "Type": "aliquam",
-        "Label": "perferendis",
-        "Dimension": 403,
-        "ListProviderName": "Larson, Predovic and Bergnaum",
-        "ListProviderExtraInfo": "aut",
-        "ListProviderPrimaryKeyName": "Mohr-Hackett",
-        "ListLeadText": "explicabo",
+        "Type": "velit",
+        "Label": "nesciunt",
+        "Dimension": 878,
+        "ListProviderName": "Moore LLC",
+        "ListProviderExtraInfo": "nisi",
+        "ListProviderPrimaryKeyName": "Kilback, Keeling and Klein",
+        "ListLeadText": "totam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldType": "System.String",
+            "FieldLength": 244
           }
         }
       }
     ],
-    "EncodedDataCaption": "consequuntur",
-    "EncodedDataCaptionDescription": "Persevering motivating definition",
-    "CurrentOperationType": "culpa",
+    "EncodedDataCaption": "facere",
+    "EncodedDataCaptionDescription": "Horizontal explicit function",
+    "CurrentOperationType": "iusto",
     "Values": [
-      "ratione",
-      "voluptatum"
+      "et",
+      "optio"
     ],
     "DisplayValues": [
-      "cumque",
-      "eius"
+      "sit",
+      "eum"
     ],
     "OperationInfos": [
       {
-        "Key": "in",
-        "EncodedDisplayName": "Bahringer-Dibbert",
+        "Key": "animi",
+        "EncodedDisplayName": "Rempel Inc and Sons",
         "EncodedLeadTexts": [
-          "hic",
-          "dolorum"
+          "voluptas",
+          "non"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 271
+            "FieldLength": 70
           }
         }
       },
       {
-        "Key": "in",
-        "EncodedDisplayName": "Bahringer-Dibbert",
+        "Key": "animi",
+        "EncodedDisplayName": "Rempel Inc and Sons",
         "EncodedLeadTexts": [
-          "hic",
-          "dolorum"
+          "voluptas",
+          "non"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 271
+            "FieldLength": 70
           }
         }
       }

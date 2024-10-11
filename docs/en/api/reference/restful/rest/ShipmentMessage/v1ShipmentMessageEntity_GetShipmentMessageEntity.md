@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 965,
-  "PlainMessage": "quos",
-  "HtmlMessage": "facere",
-  "SmsMessage": "doloribus",
-  "Description": "Inverse fresh-thinking complexity",
-  "Subject": "ut",
-  "FolderId": 343,
-  "HeaderField": "dolorem",
-  "Design": "perferendis",
+  "ShipmentMessageId": 435,
+  "PlainMessage": "sint",
+  "HtmlMessage": "iusto",
+  "SmsMessage": "maiores",
+  "Description": "Profit-focused secondary portal",
+  "Subject": "odio",
+  "FolderId": 943,
+  "HeaderField": "est",
+  "Design": "tempore",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Horizontal scalable matrices",
-  "AccessKey": "dolorum",
-  "DocumentMessage": 18,
-  "Registered": "2000-03-28T04:02:06.837875+02:00",
-  "RegisteredAssociateId": 545,
-  "Updated": "2002-09-01T04:02:06.837875+02:00",
-  "UpdatedAssociateId": 453,
-  "UpdatedCount": 61,
+  "LongDescription": "Configurable disintermediate task-force",
+  "AccessKey": "rem",
+  "DocumentMessage": 855,
+  "Registered": "2004-01-27T03:44:57.5937539+01:00",
+  "RegisteredAssociateId": 573,
+  "Updated": "2003-03-30T03:44:57.5937539+02:00",
+  "UpdatedAssociateId": 581,
+  "UpdatedCount": 231,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 27
+      "FieldLength": 654
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

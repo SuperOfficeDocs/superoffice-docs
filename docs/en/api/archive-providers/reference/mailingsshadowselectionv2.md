@@ -658,7 +658,7 @@ Shadow contact provider for the Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingAddr/contact/contactUdef/SuperOffice:3,mailingAddr/person/personNumber,mailingAddr/person/rank,mailingAddr/person/personDirectPhone/formattedNumber,emailFlow/workflowAssociate/assocTooltip
+GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingAddr/contact/postAddress/addressId,emailFlow/workflowAssociate/otherGroups,mailingAddr/contact/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

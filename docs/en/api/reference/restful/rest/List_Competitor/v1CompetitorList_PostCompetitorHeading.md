@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 890,
-  "Name": "Barton LLC",
-  "Tooltip": "commodi",
+  "HeadingId": 35,
+  "Name": "Labadie LLC",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 684,
-  "UdListDefinitionId": 83
+  "Rank": 800,
+  "UdListDefinitionId": 478
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 825,
-  "Name": "Hoeger-Mohr",
-  "Tooltip": "molestiae",
+  "HeadingId": 12,
+  "Name": "Keeling-Jast",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 13,
-  "UdListDefinitionId": 262,
+  "Rank": 255,
+  "UdListDefinitionId": 418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 1001
     }
   }
 }

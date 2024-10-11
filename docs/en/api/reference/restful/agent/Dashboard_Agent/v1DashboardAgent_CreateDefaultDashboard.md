@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 28,
-  "AssociateId": 86,
-  "Caption": "quo",
+  "DashboardId": 880,
+  "AssociateId": 892,
+  "Caption": "nam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 209,
-      "Caption": "voluptas",
-      "Description": "Fully-configurable zero tolerance array",
-      "ChartName": "Fadel Inc and Sons",
-      "ChartId": "repellendus",
-      "IsDefault": true,
-      "AssociateId": 641,
-      "GroupId": 15,
-      "SelectionId": 477,
-      "Config": "quod",
+      "DashboardTileId": 764,
+      "Caption": "asperiores",
+      "Description": "Organic asynchronous initiative",
+      "ChartName": "Moen Inc and Sons",
+      "ChartId": "amet",
+      "IsDefault": false,
+      "AssociateId": 126,
+      "GroupId": 856,
+      "SelectionId": 973,
+      "Config": "sed",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   }
 }

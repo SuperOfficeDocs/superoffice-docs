@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentProperties
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 153,
+  "DocumentId": 250,
   "RequestedProperties": [
-    "et",
-    "ut"
+    "rerum",
+    "quae"
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "fuga",
-  "2": "non"
+  "1": "aut",
+  "2": "beatae"
 }
 ```

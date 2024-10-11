@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=338
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=413
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 258,
-  "FormKey": "velit",
-  "Name": "Stark-Kub",
-  "Description": "Future-proofed incremental software",
-  "Config": "nihil",
-  "FolderId": 620,
-  "ScriptId": 309,
-  "ResponseShipmentId": 794,
-  "Active": true,
-  "Expires": "2002-07-26T04:02:01.8941042+02:00",
-  "MaxSubmits": 113,
+  "FormId": 370,
+  "FormKey": "quis",
+  "Name": "Tremblay, DuBuque and Beer",
+  "Description": "Compatible fault-tolerant parallelism",
+  "Config": "laudantium",
+  "FolderId": 627,
+  "ScriptId": 881,
+  "ResponseShipmentId": 51,
+  "Active": false,
+  "Expires": "2012-08-26T03:44:52.7458159+02:00",
+  "MaxSubmits": 320,
   "Type": "Normal",
-  "Recipe": "amet",
-  "GroupId": 131,
+  "Recipe": "quia",
+  "GroupId": 529,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2024-05-08T04:02:01.8941042+02:00",
-  "RegisteredAssociateId": 514,
-  "Updated": "2003-06-19T04:02:01.8941042+02:00",
-  "UpdatedAssociateId": 993,
-  "UpdatedCount": 631,
+  "Registered": "2004-07-20T03:44:52.7458159+02:00",
+  "RegisteredAssociateId": 105,
+  "Updated": "2003-12-04T03:44:52.7458159+01:00",
+  "UpdatedAssociateId": 824,
+  "UpdatedCount": 161,
   "EmailFlows": [
-    732,
-    598
+    495,
+    715
   ],
-  "FolderName": "Reichel, Kulas and Pagac",
+  "FolderName": "Feil, Waelchi and Daugherty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldType": "System.String",
+      "FieldLength": 118
     }
   }
 }

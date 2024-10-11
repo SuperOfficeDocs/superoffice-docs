@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 421,
+  "RowCount": 509,
   "Rows": [
     {
-      "EntityName": "Witting LLC",
-      "PrimaryKey": 824,
+      "EntityName": "Haley, Moen and VonRueden",
+      "PrimaryKey": 959,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "pariatur",
-          "TooltipHint": "hic",
-          "LinkHint": "cumque"
+          "DisplayValue": "sint",
+          "TooltipHint": "distinctio",
+          "LinkHint": "quas"
         }
       },
-      "LinkHint": "odio",
-      "StyleHint": "quis",
+      "LinkHint": "rerum",
+      "StyleHint": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 680
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldLength": 280
     }
   }
 }

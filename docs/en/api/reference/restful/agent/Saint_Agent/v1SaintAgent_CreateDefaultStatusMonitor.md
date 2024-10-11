@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 78,
-  "Rank": 885,
-  "DefaultTask": 202,
-  "DefaultTaskText": "asperiores",
-  "IsVisual": true,
-  "LastGenerated": "2008-08-04T04:02:02.2378308+02:00",
-  "Description": "Ergonomic regional project",
-  "Name": "Fisher Group",
-  "StatusMonitorId": 708,
-  "PictureId": 530,
-  "NeedsUpdate": true,
+  "OwnerTable": 907,
+  "Rank": 632,
+  "DefaultTask": 531,
+  "DefaultTaskText": "cupiditate",
+  "IsVisual": false,
+  "LastGenerated": "2023-12-04T03:44:53.0900933+01:00",
+  "Description": "Assimilated bifurcated capability",
+  "Name": "Boehm, Lind and Anderson",
+  "StatusMonitorId": 157,
+  "PictureId": 772,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 222,
-  "NumNeedUpdate": 678,
-  "GenerationStart": "2021-11-07T04:02:02.2378308+01:00",
+  "NumMatches": 355,
+  "NumNeedUpdate": 513,
+  "GenerationStart": "2001-08-28T03:44:53.0900933+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   }
 }

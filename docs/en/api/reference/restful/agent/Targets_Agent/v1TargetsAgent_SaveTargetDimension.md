@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 927,
+  "TargetDimensionId": 387,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "minus",
-  "DimensionListName": "Marvin Inc and Sons",
-  "DimensionListId": 295,
-  "DimensionListLabel": "quasi",
+  "DimensionListField": "porro",
+  "DimensionListName": "Johnson-Cronin",
+  "DimensionListId": 223,
+  "DimensionListLabel": "maiores",
   "SelectedDimensions": [
-    804,
-    213
+    908,
+    975
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 811,
+  "TargetDimensionId": 596,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "inventore",
-  "DimensionListName": "Ernser, Schmidt and Streich",
-  "DimensionListId": 36,
-  "DimensionListLabel": "nemo",
+  "DimensionListField": "libero",
+  "DimensionListName": "Armstrong, McDermott and Leannon",
+  "DimensionListId": 23,
+  "DimensionListLabel": "debitis",
   "SelectedDimensions": [
-    644,
-    12
+    984,
+    879
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 630
     }
   }
 }

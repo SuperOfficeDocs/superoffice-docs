@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 306,
-  "Name": "Hettinger LLC",
-  "Tooltip": "laudantium",
+  "RoleId": 116,
+  "Name": "Beatty-McDermott",
+  "Tooltip": "eaque",
   "RoleType": "Anonymous",
-  "Deleted": 336,
-  "Rank": 610,
-  "Created": "2007-09-19T04:02:06.7441349+02:00",
-  "UseCategories": 261,
+  "Deleted": 805,
+  "Rank": 483,
+  "Created": "2019-09-30T03:44:57.5000465+02:00",
+  "UseCategories": 971,
   "CreatedBy": null,
-  "Updated": "2020-05-24T04:02:06.7441349+02:00",
+  "Updated": "2024-03-21T03:44:57.5000465+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 655
     }
   },
   "_Links": {

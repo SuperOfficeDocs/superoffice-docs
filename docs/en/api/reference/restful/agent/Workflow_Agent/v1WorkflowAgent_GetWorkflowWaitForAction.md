@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=106
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=699
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 846,
-  "WorkflowStepId": 721,
-  "WorkflowId": 471,
-  "Rank": 39,
+  "WorkflowWaitForActionId": 115,
+  "WorkflowStepId": 109,
+  "WorkflowId": 410,
+  "Rank": 12,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Dare Group",
-      "Description": "Multi-lateral bottom-line structure",
-      "Rank": 526,
+      "Name": "Cartwright LLC",
+      "Description": "Optional client-server attitude",
+      "Rank": 240,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dare Group",
-      "Description": "Multi-lateral bottom-line structure",
-      "Rank": 526,
+      "Name": "Cartwright LLC",
+      "Description": "Optional client-server attitude",
+      "Rank": 240,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 718
     }
   }
 }

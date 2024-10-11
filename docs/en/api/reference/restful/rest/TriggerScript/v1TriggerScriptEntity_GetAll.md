@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TriggerScript?$select=name,department,category/id
 GET /api/v1/TriggerScript?$filter=name begins 'S'
 GET /api/v1/TriggerScript?$orderBy=name asc
-GET /api/v1/TriggerScript?$entities=illo
-GET /api/v1/TriggerScript?$top=646
-GET /api/v1/TriggerScript?$skip=6
+GET /api/v1/TriggerScript?$entities=est
+GET /api/v1/TriggerScript?$top=938
+GET /api/v1/TriggerScript?$skip=910
 GET /api/v1/TriggerScript?$mode=Full
 GET /api/v1/TriggerScript?$options=GrandTotal=true
-GET /api/v1/TriggerScript?$context=illo
+GET /api/v1/TriggerScript?$context=labore
 GET /api/v1/TriggerScript?$format=JSON
 GET /api/v1/TriggerScript?$jsonSafe=True
 GET /api/v1/TriggerScript?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "neque",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 386,
-      "EntityName": "sale",
-      "saleId": 386,
-      "contactId": 7538,
-      "name": "Bergnaum Group"
+      "PrimaryKey": 8201,
+      "EntityName": "person",
+      "personId": 8201,
+      "fullName": "Prince Bechtelar DDS"
     },
     {
-      "PrimaryKey": 3650,
-      "EntityName": "sale",
-      "saleId": 3650,
-      "contactId": 6988,
-      "name": "Kassulke-Weimann"
+      "PrimaryKey": 6996,
+      "EntityName": "person",
+      "personId": 6996,
+      "fullName": "Dina Mayert Sr."
     }
   ]
 }

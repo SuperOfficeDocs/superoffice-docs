@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 772,
-    "Section": "voluptatem",
-    "Key": "qui",
-    "Name": "Huel-Leuschke",
+    "PrefDescId": 627,
+    "Section": "quidem",
+    "Key": "enim",
+    "Name": "Hickle LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Pre-emptive full-range synergy",
+    "Description": "Total cohesive interface",
     "IsBuiltin": false,
-    "TableName": "Hackett LLC",
-    "UserDefinedListId": 199,
-    "Rank": 244,
-    "SubGroup": "nihil",
-    "MinLevel": 492,
-    "MaxValue": 846,
-    "MinValue": 483,
-    "RequiredLicense": "sunt",
+    "TableName": "Barrows Inc and Sons",
+    "UserDefinedListId": 899,
+    "Rank": 327,
+    "SubGroup": "pariatur",
+    "MinLevel": 925,
+    "MaxValue": 465,
+    "MinValue": 557,
+    "RequiredLicense": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldType": "System.String",
+        "FieldLength": 368
       }
     }
   }

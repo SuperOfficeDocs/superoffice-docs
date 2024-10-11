@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Lebsack-Bogan",
-    "ToolTip": "Aut quod commodi ad est libero dolor et.",
+    "Id": 384,
+    "Name": "Schiller-Bergstrom",
+    "ToolTip": "Accusantium consequatur.",
     "Deleted": true,
-    "Rank": 583,
-    "Type": "odio",
-    "ColorBlock": 184,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2015-11-07T04:02:07.119095+01:00",
+    "Rank": 860,
+    "Type": "molestias",
+    "ColorBlock": 225,
+    "IconHint": "recusandae",
+    "Selected": false,
+    "LastChanged": "2001-09-21T03:44:57.9374899+02:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Waters-Satterfield",
-        "ToolTip": "Similique suscipit vitae autem molestiae qui similique.",
-        "Deleted": false,
-        "Rank": 541,
-        "Type": "debitis",
-        "ColorBlock": 743,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2016-08-03T04:02:07.119095+02:00",
+        "Id": 92,
+        "Name": "Parisian, Breitenberg and Jewess",
+        "ToolTip": "Enim sint pariatur.",
+        "Deleted": true,
+        "Rank": 942,
+        "Type": "nemo",
+        "ColorBlock": 958,
+        "IconHint": "deleniti",
+        "Selected": true,
+        "LastChanged": "2006-09-08T03:44:57.9374899+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Polly Batz"
+        "ExtraInfo": "sunt",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Ms. Floyd Maria Ruecker V"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Ronaldo Cronin"
+    "FullName": "Jack Grady Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Wolff, Skiles and Crooks",
-    "ToolTip": "Sit commodi error magnam sunt.",
-    "Deleted": true,
-    "Rank": 680,
-    "Type": "similique",
-    "ColorBlock": 889,
-    "IconHint": "ex",
+    "Id": 903,
+    "Name": "Bradtke Group",
+    "ToolTip": "Corrupti est et placeat aliquam repellendus dolor.",
+    "Deleted": false,
+    "Rank": 415,
+    "Type": "omnis",
+    "ColorBlock": 906,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2008-08-24T04:02:07.119095+02:00",
+    "LastChanged": "2018-07-09T03:44:57.9374899+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Labadie Group",
-        "ToolTip": "Repellendus dolorem.",
+        "Id": 337,
+        "Name": "Lynch-Keeling",
+        "ToolTip": "Optio mollitia ut voluptas atque eligendi eum eveniet.",
         "Deleted": false,
-        "Rank": 335,
-        "Type": "voluptatem",
-        "ColorBlock": 275,
-        "IconHint": "totam",
+        "Rank": 565,
+        "Type": "et",
+        "ColorBlock": 627,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2009-02-06T04:02:07.119095+01:00",
+        "LastChanged": "2007-09-09T03:44:57.9374899+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Mrs. Jayson Emmerich I",
+        "ExtraInfo": "in",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Darion Carson Schowalter Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 181
+            "FieldLength": 722
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "nulla",
-    "Hidden": true,
-    "FullName": "Gregoria Heller",
+    "ExtraInfo": "quod",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Garfield Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldType": "System.Int32",
+        "FieldLength": 845
       }
     }
   }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 792,
-  "ColumnId": 735,
-  "FieldDefault": "id",
-  "FieldHeight": 113,
-  "FieldLabel": "hic",
+  "UDefFieldId": 762,
+  "ColumnId": 322,
+  "FieldDefault": "quia",
+  "FieldHeight": 539,
+  "FieldLabel": "praesentium",
   "FieldLeft": 190,
-  "FieldTop": 450,
+  "FieldTop": 253,
   "FieldType": "Checkbox",
-  "FieldWidth": 158,
-  "FormatMask": "nostrum",
+  "FieldWidth": 505,
+  "FormatMask": "quae",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 325,
-  "LabelLeft": 837,
-  "LabelTop": 173,
-  "LabelWidth": 308,
-  "LastVersionId": 504,
-  "ListTableId": 368,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 651,
+  "LabelLeft": 160,
+  "LabelTop": 145,
+  "LabelWidth": 794,
+  "LastVersionId": 989,
+  "ListTableId": 517,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 707,
-  "ProgId": "voluptatum",
-  "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 583,
-  "TextLength": 346,
-  "Tooltip": "at",
-  "UdefIdentity": 655,
-  "UDListDefinitionId": 414,
+  "Page1LineNo": 679,
+  "ProgId": "consequatur",
+  "IsReadOnly": true,
+  "ShortLabel": "et",
+  "TabOrder": 393,
+  "TextLength": 360,
+  "Tooltip": "qui",
+  "UdefIdentity": 34,
+  "UDListDefinitionId": 898,
   "Justification": "Center",
-  "Version": 920,
-  "TemplateVariableName": "Herman-Davis",
+  "Version": 945,
+  "TemplateVariableName": "Lemke-Marquardt",
   "HasBeenPublished": false,
-  "MdoListName": "McClure-Bogisich",
+  "MdoListName": "Roberts-Klocko",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

@@ -1309,7 +1309,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionCombinedV2?$select=contact/saintTicketStatus,associate/mrMrs,appointment/appointment/titleHtml,project/projectAssociate/isActive,project/projectAssociate/locationAddress
+GET /api/v1/archive/SaleShadowSelectionCombinedV2?$select=heading,contact/postAddress/formattedAddress,contact/restrictionAddress/line2,appointment/icon,appointment/appointment/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

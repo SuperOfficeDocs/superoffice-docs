@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized motivating hub",
-  "Postit": "earum",
+  "Description": "Persistent needs-based paradigm",
+  "Postit": "ipsam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 631,
-  "IncludePerson": 762,
+  "GroupIdx": 71,
+  "IncludePerson": 63,
   "MemberCount": 99.99,
-  "Name": "Casper LLC",
-  "PostitTextId": 184,
-  "CreatedDate": "2009-02-13T04:02:06.837875+01:00",
-  "SelectionId": 277,
-  "SoundEx": "aut",
-  "Source": 641,
-  "TextId": 755,
-  "UpdatedDate": "2021-06-16T04:02:06.837875+02:00",
-  "UpdatedCount": 209,
-  "Visibility": 307,
+  "Name": "Smitham-Kris",
+  "PostitTextId": 359,
+  "CreatedDate": "2007-03-14T03:44:57.5781309+01:00",
+  "SelectionId": 393,
+  "SoundEx": "dolore",
+  "Source": 183,
+  "TextId": 429,
+  "UpdatedDate": "2015-08-02T03:44:57.5781309+02:00",
+  "UpdatedCount": 104,
+  "Visibility": 20,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 787,
-  "TargetTableName": "Rippin, Kub and Hauck",
+  "CompanyUnique": false,
+  "TargetTableNumber": 223,
+  "TargetTableName": "Kassulke LLC",
   "Completed": false,
-  "LeftSelectionId": 149,
-  "RightSelectionId": 687,
+  "LeftSelectionId": 347,
+  "RightSelectionId": 450,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kohler-Kuhic",
-  "ShadowProviderName": "Ullrich LLC",
-  "ChartKey": "incidunt",
-  "LastLoaded": "2019-12-01T04:02:06.837875+01:00",
-  "LastLoadedBy": 240,
+  "MainProviderName": "Kunde, Morar and McDermott",
+  "ShadowProviderName": "Crooks-DuBuque",
+  "ChartKey": "amet",
+  "LastLoaded": "2005-01-24T03:44:57.5781309+01:00",
+  "LastLoadedBy": 880,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-01-06T04:02:06.837875+01:00",
-  "LastMembershipChangeBy": 292,
+  "LastMembershipChange": "2020-06-05T03:44:57.5781309+02:00",
+  "LastMembershipChangeBy": 943,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "commodi",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Balistreri Inc and Sons",
-  "DashboardTileDefinitionId": 579,
+  "MainHeading": "quam",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Osinski-Smitham",
+  "DashboardTileDefinitionId": 555,
   "VisibleFor": [
     {
-      "VisibleId": 474,
+      "VisibleId": 681,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldType": "System.String",
+          "FieldLength": 5
         }
       }
     },
     {
-      "VisibleId": 474,
+      "VisibleId": 681,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldType": "System.String",
+          "FieldLength": 5
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 982
     }
   },
   "_Links": {

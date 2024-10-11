@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 651,
-  "UserInput": "vero",
-  "PriceListKey": "ex"
+  "QuoteAlternativeId": 193,
+  "UserInput": "quam",
+  "PriceListKey": "fugit"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 83,
-    "ERPProductKey": "eveniet",
-    "ERPPriceListKey": "sequi",
-    "Name": "Hayes-Schiller",
-    "Description": "Multi-channelled actuating synergy",
-    "Code": "sint",
-    "PriceUnit": "et",
-    "QuantityUnit": "dignissimos",
-    "IsSubscription": true,
-    "SubscriptionUnit": "aut",
-    "DefaultSubscriptionQuantity": 6456.04,
-    "ItemNumber": "1185242",
+    "ProductId": 130,
+    "ERPProductKey": "distinctio",
+    "ERPPriceListKey": "asperiores",
+    "Name": "Purdy-Ruecker",
+    "Description": "Compatible maximized adapter",
+    "Code": "ullam",
+    "PriceUnit": "excepturi",
+    "QuantityUnit": "nobis",
+    "IsSubscription": false,
+    "SubscriptionUnit": "possimus",
+    "DefaultSubscriptionQuantity": 2206.336,
+    "ItemNumber": "1180883",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "similique",
-    "ProductTypeKey": "ut",
-    "VAT": 30124.007999999998,
-    "VATInfo": "similique",
-    "UnitCost": 20555.906,
-    "UnitMinimumPrice": 1598.34,
-    "UnitListPrice": 19195.75,
-    "InAssortment": true,
-    "Supplier": "dicta",
-    "SupplierCode": "inventore",
-    "Rights": "ut",
-    "Rule": "architecto",
+    "ProductFamilyKey": "possimus",
+    "ProductTypeKey": "earum",
+    "VAT": 5258.852,
+    "VATInfo": "quibusdam",
+    "UnitCost": 31148.825999999997,
+    "UnitMinimumPrice": 2679.5699999999997,
+    "UnitListPrice": 2579.2819999999997,
+    "InAssortment": false,
+    "Supplier": "autem",
+    "SupplierCode": "maxime",
+    "Rights": "reprehenderit",
+    "Rule": "molestias",
     "ExtraInfo": [
       {
-        "Name": "Abshire-Gislason",
-        "Value": "doloribus",
+        "Name": "Stamm Inc and Sons",
+        "Value": "exercitationem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 536
+            "FieldLength": 81
           }
         }
       },
       {
-        "Name": "Abshire-Gislason",
-        "Value": "doloribus",
+        "Name": "Stamm Inc and Sons",
+        "Value": "exercitationem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 536
+            "FieldLength": 81
           }
         }
       }
     ],
-    "RawExtraInfo": "voluptatibus",
-    "ExtraField1": "tempore",
-    "ExtraField2": "quod",
-    "ExtraField3": "sed",
-    "ExtraField4": "aut",
-    "ExtraField5": "aut",
-    "InStock": 8574.624,
+    "RawExtraInfo": "consequuntur",
+    "ExtraField1": "possimus",
+    "ExtraField2": "dolorem",
+    "ExtraField3": "sit",
+    "ExtraField4": "ut",
+    "ExtraField5": "distinctio",
+    "InStock": 1369.558,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 589
+        "FieldLength": 680
       }
     }
   }

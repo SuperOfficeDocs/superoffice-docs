@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=est
+GET /api/v1/List/LegalBase/MDOItems?query=aperiam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Beahan-Stark",
-    "ToolTip": "Aliquid voluptas ut consequatur necessitatibus.",
-    "Deleted": true,
-    "Rank": 244,
-    "Type": "consequatur",
+    "Id": 202,
+    "Name": "Hagenes Group",
+    "ToolTip": "Suscipit molestiae maiores vitae dolor aspernatur sequi.",
+    "Deleted": false,
+    "Rank": 837,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 379,
-        "Name": "O'Keefe Inc and Sons",
-        "ToolTip": "Ducimus quisquam corrupti est reprehenderit.",
+        "Id": 834,
+        "Name": "Jacobi, Hammes and Boyle",
+        "ToolTip": "Ab quae accusantium sit illo dicta repudiandae fuga.",
         "Deleted": false,
-        "Rank": 22,
-        "Type": "reprehenderit",
+        "Rank": 319,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "impedit",
-        "ColorBlock": 761,
-        "ExtraInfo": "vel",
-        "StyleHint": "nihil",
-        "FullName": "Zula Tromp",
+        "IconHint": "ex",
+        "ColorBlock": 153,
+        "ExtraInfo": "et",
+        "StyleHint": "quas",
+        "FullName": "Mrs. Grayce Wolf MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 765
+            "FieldLength": 183
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 443,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "sint",
-    "FullName": "Sherwood Marquardt",
+    "IconHint": "provident",
+    "ColorBlock": 344,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "rerum",
+    "FullName": "Dr. Trace Simonis IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 675
+        "FieldType": "System.Int32",
+        "FieldLength": 609
       }
     }
   }

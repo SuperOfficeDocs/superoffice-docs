@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 19,
+  "ErpConnectionId": 868,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 117,
-  "IsActive": true,
+  "ErpConnectionId": 971,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 919,
-      "CrmFieldKey": "quibusdam",
-      "CrmDisplayName": "Jacobi, Toy and Shanahan",
-      "CrmDisplayTooltip": "non",
-      "ErpFieldKey": "illum",
+      "ErpFieldId": 289,
+      "CrmFieldKey": "ipsam",
+      "CrmDisplayName": "Effertz, Ruecker and Cormier",
+      "CrmDisplayTooltip": "sapiente",
+      "ErpFieldKey": "dolorum",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Zulauf Inc and Sons",
-      "ErpDisplayTooltip": "natus",
+      "ErpDisplayName": "Beahan, Batz and Treutel",
+      "ErpDisplayTooltip": "earum",
       "SyncToCrm": false,
-      "SyncToErp": false,
+      "SyncToErp": true,
       "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": true,
+      "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "adipisci",
+      "ListReference": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldType": "System.String",
+          "FieldLength": 465
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 101
     }
   }
 }

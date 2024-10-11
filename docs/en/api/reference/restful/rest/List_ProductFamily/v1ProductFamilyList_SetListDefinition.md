@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "Name": "Christiansen Inc and Sons",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 582,
-  "IsCustomList": true,
+  "Id": 544,
+  "Name": "Barrows Inc and Sons",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 727,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
+  "ListType": "delectus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 449,
-  "Name": "Johnston-Lakin",
-  "Tooltip": "soluta",
+  "Id": 725,
+  "Name": "Boyer-Wolff",
+  "Tooltip": "quam",
   "Deleted": false,
-  "Rank": 285,
+  "Rank": 160,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quisquam",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   }
 }

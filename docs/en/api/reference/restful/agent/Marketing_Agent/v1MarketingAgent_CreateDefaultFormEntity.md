@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 109,
-  "FormKey": "tempora",
-  "Name": "Berge, Howe and Terry",
-  "Description": "Optimized coherent standardization",
-  "Config": "saepe",
-  "FolderId": 1000,
-  "ScriptId": 553,
-  "ResponseShipmentId": 121,
+  "FormId": 647,
+  "FormKey": "ut",
+  "Name": "Gorczany-Greenfelder",
+  "Description": "Diverse didactic installation",
+  "Config": "quam",
+  "FolderId": 324,
+  "ScriptId": 348,
+  "ResponseShipmentId": 14,
   "Active": false,
-  "Expires": "2001-10-15T04:02:01.8941042+02:00",
-  "MaxSubmits": 977,
+  "Expires": "2017-07-05T03:44:52.7458159+02:00",
+  "MaxSubmits": 128,
   "Type": "Normal",
-  "Recipe": "quo",
-  "GroupId": 777,
-  "NewTicket": true,
+  "Recipe": "pariatur",
+  "GroupId": 633,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1998-09-14T04:02:01.8941042+02:00",
-  "RegisteredAssociateId": 457,
-  "Updated": "2003-06-08T04:02:01.8941042+02:00",
-  "UpdatedAssociateId": 437,
-  "UpdatedCount": 163,
+  "Registered": "2019-01-23T03:44:52.7458159+01:00",
+  "RegisteredAssociateId": 470,
+  "Updated": "2001-08-21T03:44:52.7458159+02:00",
+  "UpdatedAssociateId": 22,
+  "UpdatedCount": 131,
   "EmailFlows": [
-    357,
-    356
+    389,
+    86
   ],
-  "FolderName": "Stracke, Corkery and Stanton",
+  "FolderName": "Pagac LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldType": "System.Int32",
+      "FieldLength": 439
     }
   }
 }

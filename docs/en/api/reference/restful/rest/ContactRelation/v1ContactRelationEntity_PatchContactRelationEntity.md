@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "a",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "a",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 844,
-  "SourcePersonId": 952,
-  "DestinationContactId": 906,
-  "DestinationPersonId": 886,
-  "RelationId": 463,
-  "Comment": "dignissimos",
-  "RelationDefinitionId": 212,
-  "Reversed": 300,
-  "UpdatedDate": "2006-03-13T04:02:06.4472912+01:00",
-  "CreatedDate": "2017-11-15T04:02:06.4472912+01:00",
+  "SourceContactId": 910,
+  "SourcePersonId": 884,
+  "DestinationContactId": 536,
+  "DestinationPersonId": 813,
+  "RelationId": 295,
+  "Comment": "vel",
+  "RelationDefinitionId": 246,
+  "Reversed": 704,
+  "UpdatedDate": "2001-12-13T03:44:57.2028009+01:00",
+  "CreatedDate": "2023-06-19T03:44:57.2028009+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jakubowski LLC",
-  "SourcePersonName": "Schmitt, Lind and Yost",
-  "DestinationContactName": "Marvin, Rodriguez and Beahan",
-  "DestinationPersonName": "Herman Inc and Sons",
-  "ActiveText": "qui",
-  "PassiveText": "soluta",
+  "SourceContactName": "Denesik, Lesch and Braun",
+  "SourcePersonName": "Ebert LLC",
+  "DestinationContactName": "Gislason Inc and Sons",
+  "DestinationPersonName": "O'Keefe Group",
+  "ActiveText": "asperiores",
+  "PassiveText": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldType": "System.Int32",
+      "FieldLength": 805
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

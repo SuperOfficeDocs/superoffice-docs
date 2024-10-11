@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 942,
-    "Name": "Moen, Jast and Tillman",
-    "Tooltip": "ut",
-    "Rank": 878,
+    "SaleTypeId": 694,
+    "Name": "Crist LLC",
+    "Tooltip": "ratione",
+    "Rank": 851,
     "DurationUnit": "Century",
-    "SaleDuration": 630,
-    "SaleTypeCatId": 253,
+    "SaleDuration": 133,
+    "SaleTypeCatId": 614,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 564,
-    "QuoteLinesTemplate": 731,
-    "ConfirmationLinesTemplate": 387,
+    "IsAutoAdvance": false,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 398,
+    "QuoteLinesTemplate": 979,
+    "ConfirmationLinesTemplate": 849,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 752,
-    "MinEarningPercent": 688,
-    "GroupQuoteLinesBy": 77,
-    "SortGroupLinesBy": 422,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 947,
+    "MinEarningPercent": 488,
+    "GroupQuoteLinesBy": 70,
+    "SortGroupLinesBy": 784,
     "Stages": [
       {
-        "Id": 191,
-        "Name": "Reinger-Ziemann",
-        "ToolTip": "Culpa delectus eveniet molestias ducimus sed magni earum.",
+        "Id": 395,
+        "Name": "Swaniawski LLC",
+        "ToolTip": "Ut accusamus tempore officiis illum voluptas accusantium.",
         "Deleted": false,
-        "Rank": 247,
-        "Type": "sit",
-        "ColorBlock": 110,
-        "IconHint": "laudantium",
+        "Rank": 355,
+        "Type": "qui",
+        "ColorBlock": 890,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2006-03-23T04:02:01.8316108+01:00",
+        "LastChanged": "2015-02-18T03:44:52.6833552+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "expedita",
+        "ExtraInfo": "fugit",
+        "StyleHint": "accusantium",
         "Hidden": true,
-        "FullName": "Iva Yundt",
+        "FullName": "Rosa Rohan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldType": "System.String",
+            "FieldLength": 489
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 984
       }
     }
   }

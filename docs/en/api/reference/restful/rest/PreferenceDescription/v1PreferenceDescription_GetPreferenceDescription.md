@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 591,
-  "Section": "aut",
-  "Key": "tempore",
-  "Name": "Abshire LLC",
+  "PrefDescId": 668,
+  "Section": "omnis",
+  "Key": "totam",
+  "Name": "Lebsack Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust 24/7 portal",
-  "IsBuiltin": false,
-  "TableName": "Schmidt, Cronin and Williamson",
-  "UserDefinedListId": 968,
-  "Rank": 106,
-  "SubGroup": "sunt",
-  "MinLevel": 220,
-  "MaxValue": 796,
-  "MinValue": 284,
-  "RequiredLicense": "atque",
+  "Description": "Public-key solution-oriented ability",
+  "IsBuiltin": true,
+  "TableName": "Marvin Inc and Sons",
+  "UserDefinedListId": 950,
+  "Rank": 86,
+  "SubGroup": "eos",
+  "MinLevel": 713,
+  "MaxValue": 895,
+  "MinValue": 762,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldType": "System.String",
+      "FieldLength": 663
     }
   },
   "_Links": {

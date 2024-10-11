@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "dolor",
-      "HTMLBody": "unde",
+      "Subject": "error",
+      "HTMLBody": "enim",
       "From": null,
-      "Sent": "1999-05-12T04:02:01.6748777+02:00",
-      "Size": 52,
+      "Sent": "2023-12-05T03:44:52.527125+01:00",
+      "Size": 847,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "amet",
-      "PlainBody": "voluptas",
-      "IsSent": false,
+      "MessageID": "rem",
+      "PlainBody": "rem",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 727,
+      "ServerId": 803,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Bogan LLC",
-      "EmailItemId": 856,
-      "AccountId": 147,
-      "ReceivedAt": "2002-01-11T04:02:01.6748777+01:00",
+      "FolderName": "Jewess Group",
+      "EmailItemId": 152,
+      "AccountId": 734,
+      "ReceivedAt": "2004-12-12T03:44:52.527125+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2011-05-02T04:02:01.6748777+02:00",
+      "RepliedAt": "2005-09-23T03:44:52.527125+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -162,147 +162,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 615,
-        "ContactName": "Bahringer, Bartoletti and Boyle",
-        "PersonId": 811,
-        "PersonName": "Hartmann, Grant and Reichert",
-        "AssociateId": 72,
-        "Address": "facere",
-        "EmailId": 702,
+        "ContactId": 15,
+        "ContactName": "Heller LLC",
+        "PersonId": 665,
+        "PersonName": "Satterfield-Cremin",
+        "AssociateId": 318,
+        "Address": "veritatis",
+        "EmailId": 633,
         "DuplicatePersonIds": [
-          221,
-          500
+          309,
+          923
         ],
-        "Name": "Prosacco LLC",
+        "Name": "Klein, Glover and Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 272
+            "FieldType": "System.String",
+            "FieldLength": 35
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 435,
-        "ContactName": "Hayes LLC",
-        "PersonId": 87,
-        "PersonName": "Hermiston-Rau",
-        "AssociateId": 401,
-        "Address": "unde",
-        "EmailId": 392,
+        "ContactId": 383,
+        "ContactName": "Kihn-Kihn",
+        "PersonId": 112,
+        "PersonName": "Satterfield Inc and Sons",
+        "AssociateId": 388,
+        "Address": "porro",
+        "EmailId": 649,
         "DuplicatePersonIds": [
-          277,
-          414
+          249,
+          508
         ],
-        "Name": "Hand-Heidenreich",
+        "Name": "Dickens LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 266
+            "FieldLength": 924
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 638,
-        "ContactName": "Lebsack-Schinner",
-        "PersonId": 660,
-        "PersonName": "Hahn Group",
-        "AssociateId": 214,
-        "Address": "eum",
-        "EmailId": 559,
+        "ContactId": 762,
+        "ContactName": "Corkery LLC",
+        "PersonId": 863,
+        "PersonName": "Leannon, Gusikowski and Bergnaum",
+        "AssociateId": 440,
+        "Address": "rerum",
+        "EmailId": 937,
         "DuplicatePersonIds": [
-          184,
-          752
+          201,
+          217
         ],
-        "Name": "Reilly LLC",
+        "Name": "Jacobson-Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 358
+            "FieldType": "System.Int32",
+            "FieldLength": 322
           }
         }
       }
     ],
-    "Subject": "facere",
-    "HTMLBody": "ea",
+    "Subject": "magni",
+    "HTMLBody": "laboriosam",
     "From": null,
-    "Sent": "2003-07-04T04:02:01.6748777+02:00",
-    "Size": 11,
+    "Sent": "2000-11-06T03:44:52.527125+01:00",
+    "Size": 948,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "doloribus",
-    "PlainBody": "aut",
-    "IsSent": true,
+    "MessageID": "et",
+    "PlainBody": "quo",
+    "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 212,
+    "ServerId": 591,
     "Attachments": [
       {
-        "Description": "Seamless eco-centric focus group",
-        "Filename": "natus",
-        "Size": 127,
-        "Type": "ut",
-        "Encoding": "alias",
-        "Id": "occaecati",
-        "Disposition": "nisi",
-        "IsSafeFileExtension": false,
+        "Description": "Vision-oriented methodical concept",
+        "Filename": "quo",
+        "Size": 315,
+        "Type": "ea",
+        "Encoding": "ea",
+        "Id": "provident",
+        "Disposition": "delectus",
+        "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 969
+            "FieldType": "System.Int32",
+            "FieldLength": 925
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Wiza Inc and Sons",
+        "Name": "Haag, Cummings and Harber",
         "Values": [
-          "suscipit",
-          "fugiat"
+          "voluptatum",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldType": "System.String",
+            "FieldLength": 572
           }
         }
       },
       {
-        "Name": "Wiza Inc and Sons",
+        "Name": "Haag, Cummings and Harber",
         "Values": [
-          "suscipit",
-          "fugiat"
+          "voluptatum",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldType": "System.String",
+            "FieldLength": 572
           }
         }
       }
     ],
-    "FolderName": "Legros LLC",
-    "EmailItemId": 40,
-    "AccountId": 188,
-    "ReceivedAt": "2018-12-11T04:02:01.6748777+01:00",
+    "FolderName": "Durgan-Rosenbaum",
+    "EmailItemId": 971,
+    "AccountId": 410,
+    "ReceivedAt": "2005-02-23T03:44:52.527125+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2010-07-14T04:02:01.6748777+02:00",
+    "RepliedAt": "2019-05-30T03:44:52.527125+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -310,8 +310,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldType": "System.String",
+        "FieldLength": 118
       }
     }
   }

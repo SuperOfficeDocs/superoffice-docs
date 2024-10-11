@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Hoppe LLC",
-    "ToolTip": "Soluta natus sequi voluptas pariatur.",
+    "Id": 114,
+    "Name": "Keebler, Conn and Franecki",
+    "ToolTip": "Optio a ex neque nihil non.",
     "Deleted": false,
-    "Rank": 908,
-    "Type": "quidem",
-    "ColorBlock": 213,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2016-01-04T04:02:07.3847052+01:00",
+    "Rank": 397,
+    "Type": "beatae",
+    "ColorBlock": 673,
+    "IconHint": "blanditiis",
+    "Selected": false,
+    "LastChanged": "2005-11-09T03:44:58.1405935+01:00",
     "ChildItems": [
       {
-        "Id": 809,
-        "Name": "Emmerich LLC",
-        "ToolTip": "Sunt vero voluptatem possimus.",
-        "Deleted": false,
-        "Rank": 687,
-        "Type": "est",
-        "ColorBlock": 795,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "2019-10-23T04:02:07.3847052+02:00",
+        "Id": 315,
+        "Name": "Williamson-Collins",
+        "ToolTip": "Magnam sint at.",
+        "Deleted": true,
+        "Rank": 720,
+        "Type": "dolore",
+        "ColorBlock": 723,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2006-10-06T03:44:58.1405935+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "in",
+        "ExtraInfo": "eos",
+        "StyleHint": "pariatur",
         "Hidden": true,
-        "FullName": "Travon Schmitt",
+        "FullName": "Mellie Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 971
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "id",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Katlyn Gleason",
+    "FullName": "Mrs. Ewell Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldType": "System.String",
+        "FieldLength": 431
       }
     }
   }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Value": "necessitatibus",
-    "Tooltip": "veniam",
+    "Id": 906,
+    "Value": "incidunt",
+    "Tooltip": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldLength": 617
       }
     }
   },
   {
-    "Id": 919,
-    "Value": "necessitatibus",
-    "Tooltip": "veniam",
+    "Id": 906,
+    "Value": "incidunt",
+    "Tooltip": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldLength": 617
       }
     }
   }

@@ -1390,7 +1390,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=rowKind,contactAssociate/otherGroups,contactInterestIds,NumberOfNotCompletedTicketsInPeriod,sourceRelation/contactNoMail
+GET /api/v1/archive/ContactPersonSelectionV2?$select=hasInterests,searchPhone/formattedNumber,contactAssociate/contactId,sale/amountInBaseCurrency,sale/associate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

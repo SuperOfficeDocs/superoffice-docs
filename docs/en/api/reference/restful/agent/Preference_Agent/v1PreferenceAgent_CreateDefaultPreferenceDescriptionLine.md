@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 838,
-  "PrefDescId": 928,
-  "PrefValue": "sed",
-  "PrefShowValue": "eum",
-  "Description": "Mandatory homogeneous parallelism",
+  "PrefDescLineId": 793,
+  "PrefDescId": 86,
+  "PrefValue": "dolor",
+  "PrefShowValue": "animi",
+  "Description": "Up-sized responsive local area network",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

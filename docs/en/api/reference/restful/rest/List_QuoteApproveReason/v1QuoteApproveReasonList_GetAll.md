@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "Marks-Nolan",
-    "Tooltip": "saepe",
+    "Id": 376,
+    "Name": "Thompson LLC",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 891,
-    "Rank": 163,
+    "UdListDefinitionId": 418,
+    "Rank": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 989
+        "FieldLength": 761
       }
     }
   }

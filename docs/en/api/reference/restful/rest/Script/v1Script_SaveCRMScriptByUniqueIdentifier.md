@@ -91,16 +91,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "rerum",
-  "Name": "Sauer-Jewess",
-  "Description": "Right-sized client-server model",
-  "IncludeId": "officia",
-  "Source": "in",
-  "Registered": "2003-12-02T04:02:06.9941086+01:00",
-  "RegisteredBy": "explicabo",
-  "Updated": "2011-05-01T04:02:06.9941086+02:00",
-  "UpdatedBy": "sunt",
-  "Path": "quidem"
+  "UniqueIdentifier": "aut",
+  "Name": "Kovacek Group",
+  "Description": "Reverse-engineered systemic initiative",
+  "IncludeId": "dolor",
+  "Source": "deleniti",
+  "Registered": "2002-10-20T03:44:57.7500442+02:00",
+  "RegisteredBy": "fuga",
+  "Updated": "2016-11-13T03:44:57.7500442+01:00",
+  "UpdatedBy": "quo",
+  "Path": "ut"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quibusdam",
-  "Name": "Hoppe, Gislason and Koss",
-  "Description": "Optimized motivating policy",
-  "IncludeId": "qui",
-  "Source": "possimus",
-  "Registered": "2016-02-11T04:02:06.9941086+01:00",
-  "RegisteredBy": "sequi",
-  "Updated": "2020-09-30T04:02:06.9941086+02:00",
-  "UpdatedBy": "voluptatibus",
-  "Path": "quisquam",
+  "UniqueIdentifier": "praesentium",
+  "Name": "Prohaska, Schamberger and Kovacek",
+  "Description": "Synergistic bandwidth-monitored success",
+  "IncludeId": "fugit",
+  "Source": "quo",
+  "Registered": "2009-01-22T03:44:57.7500442+01:00",
+  "RegisteredBy": "accusamus",
+  "Updated": "2017-06-08T03:44:57.7500442+02:00",
+  "UpdatedBy": "dicta",
+  "Path": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 583
     }
   }
 }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 481,
-  "Select": "quaerat"
+  "SelectionId": 961,
+  "Select": "excepturi"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Nolan-Stiedemann",
-    "PrimaryKey": 904,
+    "EntityName": "Lind Inc and Sons",
+    "PrimaryKey": 134,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sed",
-        "TooltipHint": "repellendus",
-        "LinkHint": "alias"
+        "DisplayValue": "qui",
+        "TooltipHint": "repellat",
+        "LinkHint": "nisi"
       }
     },
-    "LinkHint": "tempora",
-    "StyleHint": "repellendus",
+    "LinkHint": "provident",
+    "StyleHint": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldType": "System.Int32",
+        "FieldLength": 441
       }
     }
   }

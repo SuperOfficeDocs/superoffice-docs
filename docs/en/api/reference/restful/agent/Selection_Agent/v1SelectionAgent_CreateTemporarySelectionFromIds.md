@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    417,
-    341
+    143,
+    449
   ],
-  "TargetTableNumber": 22
+  "TargetTableNumber": 369
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized secondary ability",
-  "Postit": "rerum",
+  "Description": "Polarised context-sensitive knowledge user",
+  "Postit": "aspernatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 863,
-  "IncludePerson": 632,
+  "GroupIdx": 424,
+  "IncludePerson": 796,
   "MemberCount": 99.99,
-  "Name": "Hahn Inc and Sons",
-  "PostitTextId": 889,
-  "CreatedDate": "2008-05-25T04:02:02.3317533+02:00",
-  "SelectionId": 305,
-  "SoundEx": "repellendus",
-  "Source": 962,
-  "TextId": 715,
-  "UpdatedDate": "2018-01-15T04:02:02.3317533+01:00",
-  "UpdatedCount": 925,
-  "Visibility": 489,
+  "Name": "Cormier-Rowe",
+  "PostitTextId": 675,
+  "CreatedDate": "2005-04-30T03:44:53.1841498+02:00",
+  "SelectionId": 138,
+  "SoundEx": "qui",
+  "Source": 195,
+  "TextId": 779,
+  "UpdatedDate": "2019-05-05T03:44:53.1841498+02:00",
+  "UpdatedCount": 479,
+  "Visibility": 815,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 345,
-  "TargetTableName": "McKenzie-Beatty",
-  "Completed": true,
-  "LeftSelectionId": 277,
-  "RightSelectionId": 91,
+  "CompanyUnique": true,
+  "TargetTableNumber": 39,
+  "TargetTableName": "Klein-Haley",
+  "Completed": false,
+  "LeftSelectionId": 648,
+  "RightSelectionId": 592,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McDermott LLC",
-  "ShadowProviderName": "Rohan, Schaefer and Williamson",
-  "ChartKey": "distinctio",
-  "LastLoaded": "2013-03-11T04:02:02.3317533+01:00",
-  "LastLoadedBy": 55,
+  "MainProviderName": "Schroeder LLC",
+  "ShadowProviderName": "Mills, Feeney and Nicolas",
+  "ChartKey": "quo",
+  "LastLoaded": "2021-11-21T03:44:53.1841498+01:00",
+  "LastLoadedBy": 394,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-03-15T04:02:02.3317533+01:00",
-  "LastMembershipChangeBy": 647,
+  "LastMembershipChange": "2008-09-05T03:44:53.1841498+02:00",
+  "LastMembershipChangeBy": 555,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "porro",
-  "MemberTabHeading": "repudiandae",
-  "MailingsProviderName": "Wyman-Gutmann",
-  "DashboardTileDefinitionId": 325,
+  "MainHeading": "id",
+  "MemberTabHeading": "nihil",
+  "MailingsProviderName": "Gleichner LLC",
+  "DashboardTileDefinitionId": 673,
   "VisibleFor": [
     {
-      "VisibleId": 213,
+      "VisibleId": 31,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 240
+          "FieldType": "System.Int32",
+          "FieldLength": 521
         }
       }
     },
     {
-      "VisibleId": 213,
+      "VisibleId": 31,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 240
+          "FieldType": "System.Int32",
+          "FieldLength": 521
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

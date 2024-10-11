@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 887,
-    "Name": "Padberg-Mertz",
+    "HeadingId": 705,
+    "Name": "Gaylord-Rogahn",
     "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 539,
-    "UdListDefinitionId": 510
+    "Rank": 837,
+    "UdListDefinitionId": 637
   },
   {
-    "HeadingId": 887,
-    "Name": "Padberg-Mertz",
+    "HeadingId": 705,
+    "Name": "Gaylord-Rogahn",
     "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 539,
-    "UdListDefinitionId": 510
+    "Rank": 837,
+    "UdListDefinitionId": 637
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 70,
-    "Name": "Feil, Ledner and Klein",
-    "Tooltip": "asperiores",
+    "HeadingId": 163,
+    "Name": "Rowe Inc and Sons",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "Rank": 419,
-    "UdListDefinitionId": 811,
+    "Rank": 596,
+    "UdListDefinitionId": 588,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 322
       }
     }
   }

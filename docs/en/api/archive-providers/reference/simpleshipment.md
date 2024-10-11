@@ -653,7 +653,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/restrictionAddress/line1,mailingAddr/contact/contactExtra/x_contact_date,mailingAddr/person/personUpdatedDate,emailFlow/workflowAssociate/title
+GET /api/v1/archive/simpleshipment?$select=mailingAddr/person/personUpdatedDate,mailingAddr/person/personExtra/y_car/id,mailingAddr/person/personAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

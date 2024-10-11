@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hammes, Lowe and Luettgen",
+  "ProviderName": "Schmidt, Dooley and VonRueden",
   "Restrictions": [
     {
-      "Name": "Trantow, Franecki and Franecki",
-      "Operator": "soluta",
+      "Name": "Frami-Gerhold",
+      "Operator": "nisi",
       "Values": [
-        "nihil",
-        "at"
+        "qui",
+        "sapiente"
       ],
       "DisplayValues": [
-        "omnis",
-        "ipsam"
+        "est",
+        "dolorem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 58,
+      "InterParenthesis": 942,
       "InterOperator": "And",
-      "UniqueHash": 462
+      "UniqueHash": 935
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hyatt-Strosin",
-    "DisplayTooltip": "quibusdam",
-    "DisplayType": "ullam",
+    "DisplayName": "Hagenes-McCullough",
+    "DisplayTooltip": "ducimus",
+    "DisplayType": "placeat",
     "CanOrderBy": false,
-    "Name": "Bogisich Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "ut",
-    "RestrictionListName": "Ferry-Gleason",
-    "IsVisible": false,
-    "ExtraInfo": "ab",
-    "Width": "maiores",
-    "IconHint": "possimus",
-    "HeadingIconHint": "qui"
+    "Name": "Spencer, Blick and Lehner",
+    "CanRestrictBy": true,
+    "RestrictionType": "qui",
+    "RestrictionListName": "Tremblay Group",
+    "IsVisible": true,
+    "ExtraInfo": "dolorem",
+    "Width": "dicta",
+    "IconHint": "cupiditate",
+    "HeadingIconHint": "incidunt"
   }
 ]
 ```

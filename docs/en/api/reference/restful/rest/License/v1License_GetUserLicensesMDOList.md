@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Schamberger-Terry",
-    "ToolTip": "Sit consectetur perspiciatis sed.",
-    "Deleted": true,
-    "Rank": 269,
-    "Type": "alias",
-    "ColorBlock": 166,
-    "IconHint": "quo",
+    "Id": 865,
+    "Name": "Gaylord Inc and Sons",
+    "ToolTip": "Voluptatem dignissimos hic quis ipsa est id.",
+    "Deleted": false,
+    "Rank": 241,
+    "Type": "fuga",
+    "ColorBlock": 701,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2013-05-04T04:02:06.9628618+02:00",
+    "LastChanged": "2011-06-21T03:44:57.7187632+02:00",
     "ChildItems": [
       {
-        "Id": 135,
-        "Name": "Koch-Ebert",
-        "ToolTip": "Amet non cum illo et eveniet incidunt unde.",
-        "Deleted": true,
-        "Rank": 165,
-        "Type": "vel",
-        "ColorBlock": 340,
-        "IconHint": "cumque",
+        "Id": 433,
+        "Name": "McLaughlin-Nikolaus",
+        "ToolTip": "Iure nemo aut itaque quaerat.",
+        "Deleted": false,
+        "Rank": 627,
+        "Type": "earum",
+        "ColorBlock": 929,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2001-09-29T04:02:06.9628618+02:00",
+        "LastChanged": "2011-08-28T03:44:57.7187632+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "cum",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Jazmin Emard",
+        "FullName": "Jessie Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 998
+            "FieldLength": 324
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Payton Morissette",
+    "ExtraInfo": "amet",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Khalid Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 217
       }
     }
   }

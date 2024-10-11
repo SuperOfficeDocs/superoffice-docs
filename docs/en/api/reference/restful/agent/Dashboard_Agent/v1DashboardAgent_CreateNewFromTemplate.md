@@ -94,20 +94,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 965,
-  "Caption": "labore",
-  "Description": "Programmable clear-thinking moratorium",
-  "SelectionId": 587,
+  "DashboardTileId": 581,
+  "Caption": "numquam",
+  "Description": "User-friendly zero defect protocol",
+  "SelectionId": 923,
   "VisibleFor": [
     {
-      "VisibleId": 405,
+      "VisibleId": 115,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "rerum"
     },
     {
-      "VisibleId": 405,
+      "VisibleId": 115,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "rerum"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 238,
-  "Caption": "sequi",
-  "Description": "Sharable well-modulated complexity",
-  "ChartName": "Weber-DuBuque",
-  "ChartId": "culpa",
+  "DashboardTileId": 34,
+  "Caption": "ut",
+  "Description": "Managed system-worthy hardware",
+  "ChartName": "Zulauf-Jones",
+  "ChartId": "nihil",
   "IsDefault": true,
-  "AssociateId": 935,
-  "GroupId": 447,
-  "SelectionId": 968,
-  "Config": "aliquid",
+  "AssociateId": 601,
+  "GroupId": 142,
+  "SelectionId": 615,
+  "Config": "delectus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Yost Group",
-      "Description": "Extended needs-based info-mediaries",
+      "Name": "Mante LLC",
+      "Description": "De-engineered bi-directional support",
       "Type": "Boolean",
-      "ListName": "O'Kon, Beer and Champlin",
+      "ListName": "McLaughlin, Glover and Weissnat",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nulla",
-      "DefaultDataOption": true,
+      "Value": "facilis",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 873
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 381,
+      "VisibleId": 714,
       "Visibility": "All",
-      "DisplayValue": "doloremque",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 689
+          "FieldType": "System.Int32",
+          "FieldLength": 160
         }
       }
     },
     {
-      "VisibleId": 381,
+      "VisibleId": 714,
       "Visibility": "All",
-      "DisplayValue": "doloremque",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 689
+          "FieldType": "System.Int32",
+          "FieldLength": 160
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 67
     }
   }
 }

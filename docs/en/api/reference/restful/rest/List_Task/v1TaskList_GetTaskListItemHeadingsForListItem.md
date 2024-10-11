@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Graham, Mante and Reinger",
-    "ToolTip": "Molestiae nesciunt ut impedit porro esse sed doloremque.",
-    "Deleted": false,
-    "Rank": 81,
-    "Type": "similique",
-    "ColorBlock": 563,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2009-10-10T04:02:07.4318023+02:00",
+    "Id": 185,
+    "Name": "McCullough LLC",
+    "ToolTip": "Inventore earum et ut laboriosam.",
+    "Deleted": true,
+    "Rank": 438,
+    "Type": "laborum",
+    "ColorBlock": 558,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2010-09-24T03:44:58.1874634+02:00",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Lynch-Lubowitz",
-        "ToolTip": "Possimus et optio at.",
-        "Deleted": true,
-        "Rank": 820,
-        "Type": "quia",
-        "ColorBlock": 93,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2009-02-13T04:02:07.4318023+01:00",
+        "Id": 373,
+        "Name": "Brown, Rippin and Hermann",
+        "ToolTip": "Eos neque perferendis repellendus reprehenderit non sit.",
+        "Deleted": false,
+        "Rank": 368,
+        "Type": "dolores",
+        "ColorBlock": 324,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "1999-07-14T03:44:58.1874634+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "vero",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatum",
         "Hidden": true,
-        "FullName": "Miss Paul Margarette Langosh",
+        "FullName": "Pedro Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 562
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "cum",
+    "ExtraInfo": "eaque",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Micaela Torphy",
+    "FullName": "Dr. Vidal Schamberger I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldLength": 468
       }
     }
   }

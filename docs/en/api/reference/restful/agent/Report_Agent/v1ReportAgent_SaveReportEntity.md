@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 634,
+  "ReportId": 137,
   "ReportCategory": "All",
-  "Description": "Streamlined 4th generation policy",
+  "Description": "Enterprise-wide tangible website",
   "ReportLayout": "CalendarMonth",
-  "Name": "Weissnat-Kihn",
-  "AssociateId": 917,
-  "TemplateId": 66,
+  "Name": "Casper-Corkery",
+  "AssociateId": 795,
+  "TemplateId": 767,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 259,
+  "ReportId": 506,
   "ReportCategory": "All",
-  "Description": "Down-sized bifurcated productivity",
+  "Description": "Profit-focused 24/7 monitoring",
   "ReportLayout": "CalendarMonth",
-  "Name": "Reynolds, Dooley and Mayer",
-  "AssociateId": 727,
-  "TemplateId": 49,
-  "Published": false,
+  "Name": "Torphy-Marvin",
+  "AssociateId": 100,
+  "TemplateId": 491,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   }
 }

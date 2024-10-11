@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Wiegand Inc and Sons",
-    "ToolTip": "Quos aut minima voluptas ea in nostrum.",
+    "Id": 293,
+    "Name": "Gislason-Reichert",
+    "ToolTip": "Qui deserunt.",
     "Deleted": false,
-    "Rank": 918,
-    "Type": "id",
-    "ColorBlock": 502,
-    "IconHint": "saepe",
+    "Rank": 273,
+    "Type": "dicta",
+    "ColorBlock": 111,
+    "IconHint": "excepturi",
     "Selected": false,
-    "LastChanged": "2023-02-14T04:02:07.2909529+01:00",
+    "LastChanged": "2002-10-31T03:44:58.0468534+01:00",
     "ChildItems": [
       {
-        "Id": 98,
-        "Name": "Hilpert Group",
-        "ToolTip": "Quaerat omnis tempore enim eius recusandae iusto.",
-        "Deleted": true,
-        "Rank": 157,
-        "Type": "tempore",
-        "ColorBlock": 266,
-        "IconHint": "voluptatibus",
+        "Id": 529,
+        "Name": "Kertzmann Group",
+        "ToolTip": "Sed fugit sequi et molestiae.",
+        "Deleted": false,
+        "Rank": 317,
+        "Type": "fuga",
+        "ColorBlock": 246,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2012-10-08T04:02:07.2909529+02:00",
+        "LastChanged": "2003-10-15T03:44:58.0468534+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mrs. Ezekiel Stehr"
+        "ExtraInfo": "sequi",
+        "StyleHint": "illo",
+        "Hidden": true,
+        "FullName": "Miss Maia Cecelia Klocko I"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "nulla",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "pariatur",
     "Hidden": false,
-    "FullName": "Daphnee Stoltenberg"
+    "FullName": "Mr. Sabryna Reina Kunze II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Rowe-Pfannerstill",
-    "ToolTip": "Ea voluptatem perspiciatis est et asperiores iure ut.",
+    "Id": 500,
+    "Name": "Romaguera LLC",
+    "ToolTip": "Et dolorem sed soluta est.",
     "Deleted": false,
-    "Rank": 694,
-    "Type": "voluptatem",
-    "ColorBlock": 732,
-    "IconHint": "sit",
+    "Rank": 137,
+    "Type": "nam",
+    "ColorBlock": 182,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2012-04-15T04:02:07.2909529+02:00",
+    "LastChanged": "2019-02-12T03:44:58.0468534+01:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Bednar Inc and Sons",
-        "ToolTip": "Saepe rerum magnam.",
+        "Id": 935,
+        "Name": "Hane, Lubowitz and Lind",
+        "ToolTip": "Occaecati sint ad ipsum est et maiores qui.",
         "Deleted": false,
-        "Rank": 334,
-        "Type": "debitis",
-        "ColorBlock": 788,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2018-10-24T04:02:07.2909529+02:00",
+        "Rank": 586,
+        "Type": "tenetur",
+        "ColorBlock": 32,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2021-12-13T03:44:58.0468534+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "quidem",
-        "Hidden": false,
-        "FullName": "Dr. Anya Christiansen IV",
+        "ExtraInfo": "unde",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Emmett Purdy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 482
+            "FieldType": "System.Int32",
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "delectus",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Tillman Mayert",
+    "FullName": "Landen Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldType": "System.Int32",
+        "FieldLength": 46
       }
     }
   }

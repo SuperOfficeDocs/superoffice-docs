@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "nihil",
-  "Key": "iure"
+  "Section": "eum",
+  "Key": "cumque"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 259,
-  "Section": "deleniti",
-  "Key": "rerum",
-  "Name": "Bergnaum, Murazik and Homenick",
+  "PrefDescId": 372,
+  "Section": "atque",
+  "Key": "aspernatur",
+  "Name": "Hodkiewicz Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customizable web-enabled concept",
+  "Description": "Managed even-keeled strategy",
   "IsBuiltin": true,
-  "TableName": "Kulas-Harvey",
-  "UserDefinedListId": 980,
-  "Rank": 491,
-  "SubGroup": "consequatur",
-  "MinLevel": 511,
-  "MaxValue": 551,
-  "MinValue": 401,
-  "RequiredLicense": "asperiores",
+  "TableName": "Maggio-Blanda",
+  "UserDefinedListId": 195,
+  "Rank": 519,
+  "SubGroup": "sed",
+  "MinLevel": 528,
+  "MaxValue": 461,
+  "MinValue": 288,
+  "RequiredLicense": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 977
     }
   }
 }

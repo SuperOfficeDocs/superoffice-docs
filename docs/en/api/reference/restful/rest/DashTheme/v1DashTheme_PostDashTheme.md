@@ -90,12 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 762,
-  "Name": "Schinner Inc and Sons",
-  "Config": "harum",
-  "Rank": 66,
-  "Client": "deserunt",
-  "Style": "numquam"
+  "DashboardThemeId": 100,
+  "Name": "Daniel, Stehr and Gottlieb",
+  "Config": "quis",
+  "Rank": 348,
+  "Client": "autem",
+  "Style": "ut"
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 283,
-  "Name": "West-Botsford",
-  "Config": "voluptatibus",
-  "Rank": 31,
-  "Client": "ab",
-  "Style": "rerum",
+  "DashboardThemeId": 582,
+  "Name": "Zboncak-Sawayn",
+  "Config": "dolorum",
+  "Rank": 522,
+  "Client": "doloremque",
+  "Style": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldType": "System.Int32",
+      "FieldLength": 917
     }
   },
   "_Links": {

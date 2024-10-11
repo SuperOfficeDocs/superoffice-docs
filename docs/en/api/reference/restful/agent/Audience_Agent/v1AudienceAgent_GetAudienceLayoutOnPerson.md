@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 207
+  "PersonId": 461
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 119,
-  "InstanceLayout": "totam",
-  "InstanceName": "Boyer-Spencer",
-  "CreatedDate": "2017-08-26T04:02:01.221786+02:00",
-  "UpdatedDate": "1999-12-27T04:02:01.221786+01:00",
+  "AudienceLayoutId": 791,
+  "InstanceLayout": "aut",
+  "InstanceName": "Balistreri Inc and Sons",
+  "CreatedDate": "2011-05-13T03:44:52.0740137+02:00",
+  "UpdatedDate": "2013-09-10T03:44:52.0740137+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 68
     }
   }
 }

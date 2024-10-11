@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 374,
-  "ERPProductKey": "error",
-  "ERPPriceListKey": "fugit",
-  "Name": "Boehm Inc and Sons",
-  "Description": "Inverse motivating budgetary management",
-  "Code": "perspiciatis",
-  "PriceUnit": "animi",
-  "QuantityUnit": "modi",
+  "ProductId": 430,
+  "ERPProductKey": "ut",
+  "ERPPriceListKey": "laborum",
+  "Name": "Huel Inc and Sons",
+  "Description": "Decentralized dedicated task-force",
+  "Code": "sed",
+  "PriceUnit": "rerum",
+  "QuantityUnit": "deleniti",
   "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 24984.248,
-  "ItemNumber": "675690",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 21715.486,
+  "ItemNumber": "1041309",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "esse",
-  "ProductTypeKey": "et",
-  "VAT": 10868.712,
-  "VATInfo": "possimus",
-  "UnitCost": 4967.3899999999994,
-  "UnitMinimumPrice": 26845.843999999997,
-  "UnitListPrice": 28437.915999999997,
-  "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "et",
-  "Rights": "quam",
-  "Rule": "eum",
+  "ProductFamilyKey": "excepturi",
+  "ProductTypeKey": "earum",
+  "VAT": 2363.036,
+  "VATInfo": "vel",
+  "UnitCost": 16080.554,
+  "UnitMinimumPrice": 6813.316,
+  "UnitListPrice": 30161.615999999998,
+  "InAssortment": true,
+  "Supplier": "perferendis",
+  "SupplierCode": "velit",
+  "Rights": "ipsa",
+  "Rule": "deserunt",
   "ExtraInfo": [
     {
-      "Name": "Schowalter-Swaniawski",
-      "Value": "occaecati",
+      "Name": "Borer, Johns and Mayer",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 690
         }
       }
     },
     {
-      "Name": "Schowalter-Swaniawski",
-      "Value": "occaecati",
+      "Name": "Borer, Johns and Mayer",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 690
         }
       }
     }
   ],
-  "RawExtraInfo": "nisi",
-  "ExtraField1": "doloremque",
-  "ExtraField2": "eius",
-  "ExtraField3": "et",
-  "ExtraField4": "pariatur",
-  "ExtraField5": "consequatur",
-  "InStock": 19415.13,
+  "RawExtraInfo": "nulla",
+  "ExtraField1": "dignissimos",
+  "ExtraField2": "sit",
+  "ExtraField3": "accusamus",
+  "ExtraField4": "similique",
+  "ExtraField5": "velit",
+  "InStock": 17641.286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldType": "System.String",
+      "FieldLength": 556
     }
   }
 }

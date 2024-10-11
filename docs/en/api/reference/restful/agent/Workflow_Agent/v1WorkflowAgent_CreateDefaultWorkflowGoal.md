@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 166,
-  "WorkflowId": 53,
+  "WorkflowGoalId": 311,
+  "WorkflowId": 278,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Witting Inc and Sons",
-      "Description": "Automated context-sensitive instruction set",
-      "Rank": 235,
+      "Name": "Bosco Group",
+      "Description": "Managed 24/7 implementation",
+      "Rank": 38,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Witting Inc and Sons",
-      "Description": "Automated context-sensitive instruction set",
-      "Rank": 235,
+      "Name": "Bosco Group",
+      "Description": "Managed 24/7 implementation",
+      "Rank": 38,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 180
     }
   }
 }

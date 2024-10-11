@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "ullam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "ullam",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 425,
-  "TopicId": 330,
+  "ChatSessionId": 319,
+  "TopicId": 22,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sapiente",
-  "CustomerHost": "omnis",
-  "CustomerName": "Konopelski LLC",
-  "CustomerEmail": "annalise@rice.name",
-  "CustomerPhone": "1-025-103-4596",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Reilly, Kilback and Johnson",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "accusantium",
+  "CustomerName": "Kovacek-Glover",
+  "CustomerEmail": "kassandra_hettinger@prohaska.info",
+  "CustomerPhone": "(494)639-8831",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Prohaska Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "culpa",
-  "LastMessage": "praesentium",
-  "WhenRequested": "2003-10-04T04:02:06.3061763+02:00",
-  "WhenStarted": "2002-08-09T04:02:06.3061763+02:00",
-  "WhenEnded": "2023-07-26T04:02:06.3061763+02:00",
-  "WhenIdle": "2010-05-14T04:02:06.3061763+02:00",
-  "WhenFetched": "2010-04-12T04:02:06.3061763+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 383,
-  "AlertLevel": 332,
-  "Rank": 16,
+  "FirstMessage": "incidunt",
+  "LastMessage": "sunt",
+  "WhenRequested": "2010-11-24T03:44:57.0465162+01:00",
+  "WhenStarted": "2009-05-22T03:44:57.0465162+02:00",
+  "WhenEnded": "2014-04-02T03:44:57.0465162+02:00",
+  "WhenIdle": "2015-01-14T03:44:57.0465162+01:00",
+  "WhenFetched": "2013-03-10T03:44:57.0465162+01:00",
+  "SessionKey": "autem",
+  "InitialQueuePos": 464,
+  "AlertLevel": 236,
+  "Rank": 709,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 541,
+  "ChatbotIsActive": false,
+  "Rating": 395,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 606
     }
   },
   "_Links": {

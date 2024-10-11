@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Stracke Group",
-    "ToolTip": "Reiciendis numquam neque.",
+    "Id": 388,
+    "Name": "Kessler-Hamill",
+    "ToolTip": "Eos voluptas dolorem numquam ullam assumenda corrupti.",
     "Deleted": true,
-    "Rank": 398,
-    "Type": "fugiat",
-    "ColorBlock": 666,
-    "IconHint": "aspernatur",
+    "Rank": 693,
+    "Type": "nemo",
+    "ColorBlock": 680,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2014-09-12T04:02:07.2597065+02:00",
+    "LastChanged": "2012-01-31T03:44:58.0156476+01:00",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Douglas LLC",
-        "ToolTip": "Porro in saepe.",
+        "Id": 748,
+        "Name": "Veum Inc and Sons",
+        "ToolTip": "Quod deserunt quae voluptas incidunt.",
         "Deleted": false,
-        "Rank": 98,
-        "Type": "vel",
-        "ColorBlock": 912,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2023-06-10T04:02:07.2597065+02:00",
+        "Rank": 126,
+        "Type": "beatae",
+        "ColorBlock": 938,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2021-10-06T03:44:58.0156476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "in",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Jermaine Jones",
+        "FullName": "Prof. Angel Bergstrom Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 487
+            "FieldLength": 168
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "sint",
+    "ExtraInfo": "velit",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Miss Emerson Arjun Dietrich",
+    "FullName": "Dejuan Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 544
       }
     }
   }

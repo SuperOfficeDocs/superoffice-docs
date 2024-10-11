@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 429,
-  "Name": "Orn, Beer and Batz",
-  "Rank": 357,
-  "Tooltip": "ut",
-  "Deleted": false,
+  "ResourceId": 583,
+  "Name": "Spencer-Bergstrom",
+  "Rank": 121,
+  "Tooltip": "id",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "enim",
+  "LocationAddress": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldType": "System.String",
+      "FieldLength": 876
     }
   }
 }

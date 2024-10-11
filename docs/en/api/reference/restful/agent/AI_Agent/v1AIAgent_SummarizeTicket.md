@@ -74,9 +74,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 31,
-  "NumSentences": 281,
-  "IsoLangCode": "suscipit"
+  "TicketId": 198,
+  "NumSentences": 404,
+  "IsoLangCode": "rem"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quo"
+"cum"
 ```

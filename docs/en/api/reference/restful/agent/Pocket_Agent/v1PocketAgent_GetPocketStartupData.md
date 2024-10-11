@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "molestias",
-    "doloribus"
+    "mollitia",
+    "voluptatum"
   ],
-  "CurrentClientTime": "2012-02-18T04:02:02.1128434+01:00"
+  "CurrentClientTime": "2006-05-17T03:44:52.8864257+02:00"
 }
 ```
 
@@ -102,23 +102,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "nulla",
-    "ut"
+    "iste",
+    "officiis"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 870,
-  "NotificationsCount": 723,
+  "OverdueSalesCount": 721,
+  "NotificationsCount": 725,
   "SystemWebPanels": [
     {
-      "WebPanelId": 243,
-      "Name": "West-Cormier",
-      "Tooltip": "laborum",
-      "Deleted": false,
-      "Rank": 660,
+      "WebPanelId": 622,
+      "Name": "Waters, Spinka and Ondricka",
+      "Tooltip": "asperiores",
+      "Deleted": true,
+      "Rank": 578,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
+      "OnCentral": true,
       "OnSatellite": true,
       "OnTravel": false,
       "OnSalesMarketingWeb": false,
@@ -127,18 +127,18 @@ Content-Type: application/json; charset=utf-8
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Greenfelder-Batz",
+      "WindowName": "Toy-Goyette",
       "Url": "http://www.example.com/",
-      "ProgId": "quos",
-      "Icon": 680,
+      "ProgId": "qui",
+      "Icon": 404,
       "AlwaysReloadOnShow": false,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 722
+          "FieldType": "System.Int32",
+          "FieldLength": 33
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "nihil",
+      "RawValue": "quae",
       "Specification": null,
-      "DisplayValue": "laborum",
-      "DisplayTooltip": "et",
+      "DisplayValue": "deleniti",
+      "DisplayTooltip": "incidunt",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 367,
-      "PrefDescId": 144,
-      "TableName": "Roberts, Beer and Beatty",
-      "UserPreferenceId": 307,
+      "TargetId": 981,
+      "PrefDescId": 968,
+      "TableName": "Welch Inc and Sons",
+      "UserPreferenceId": 186,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 312
         }
       }
     }
   ],
   "IsPushNotificationEnabled": true,
-  "CustomData": "architecto",
+  "CustomData": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldLength": 868
     }
   }
 }

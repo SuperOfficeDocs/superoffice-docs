@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 668,
-  "Name": "Ritchie-Feest",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 878,
-  "Filename": "vel",
-  "Parameters": "ut",
-  "Workdir": "natus",
+  "ExtAppId": 719,
+  "Name": "Ward-Parisian",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 640,
+  "Filename": "dicta",
+  "Parameters": "omnis",
+  "Workdir": "possimus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 567,
+  "Icon": 24,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "rerum"
+  "Path": "inventore"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 859,
-  "Name": "Haag LLC",
-  "Tooltip": "nemo",
+  "ExtAppId": 532,
+  "Name": "Ernser Inc and Sons",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 405,
-  "Filename": "minima",
-  "Parameters": "omnis",
-  "Workdir": "recusandae",
+  "Rank": 629,
+  "Filename": "temporibus",
+  "Parameters": "rerum",
+  "Workdir": "culpa",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 869,
+  "Icon": 868,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "aut",
+  "Path": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldType": "System.String",
+      "FieldLength": 162
     }
   }
 }

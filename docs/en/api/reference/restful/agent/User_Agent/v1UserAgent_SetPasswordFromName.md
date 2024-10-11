@@ -75,8 +75,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Windler-Feest",
-  "Password": "quo"
+  "AssociateName": "Von-Yundt",
+  "Password": "dolores"
 }
 ```
 

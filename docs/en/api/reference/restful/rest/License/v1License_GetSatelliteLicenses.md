@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collier-Wintheiser",
-    "Description": "Stand-alone explicit implementation",
+    "Name": "Grady, Hirthe and Hudson",
+    "Description": "Optional zero defect utilisation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 6,
-        "Tooltip": "nisi",
+        "Total": 283,
+        "Tooltip": "reprehenderit",
         "CanAssign": false,
-        "Free": 257,
-        "InUse": 887,
-        "IsHidden": false,
+        "Free": 422,
+        "InUse": 635,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 786,
-        "Name": "Rohan, Kertzmann and Blick",
-        "Description": "Front-line multi-tasking policy",
-        "PrerequisiteModuleName": "Schmidt Inc and Sons",
-        "SortOrder": 342,
-        "ExtraFlags": 873,
+        "ModuleLicenseId": 932,
+        "Name": "Beahan, Willms and Nikolaus",
+        "Description": "Face to face bifurcated structure",
+        "PrerequisiteModuleName": "Durgan-Corwin",
+        "SortOrder": 87,
+        "ExtraFlags": 181,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldType": "System.Int32",
+            "FieldLength": 473
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 527,
-        "Tooltip": "iusto",
-        "CanAssign": false,
-        "Free": 656,
-        "InUse": 400,
+        "Unrestricted": false,
+        "Total": 14,
+        "Tooltip": "tenetur",
+        "CanAssign": true,
+        "Free": 319,
+        "InUse": 844,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 644,
-        "Name": "Hammes-Fahey",
-        "Description": "Fully-configurable intangible neural-net",
-        "PrerequisiteModuleName": "Pfannerstill, Jacobs and Abbott",
-        "SortOrder": 20,
-        "ExtraFlags": 746,
+        "Assigned": false,
+        "ModuleLicenseId": 182,
+        "Name": "Boehm, Kemmer and West",
+        "Description": "Front-line full-range instruction set",
+        "PrerequisiteModuleName": "Schaden-Nienow",
+        "SortOrder": 401,
+        "ExtraFlags": 69,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 673
+            "FieldType": "System.String",
+            "FieldLength": 417
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldLength": 125
       }
     }
   },
   {
-    "Name": "Collier-Wintheiser",
-    "Description": "Stand-alone explicit implementation",
+    "Name": "Grady, Hirthe and Hudson",
+    "Description": "Optional zero defect utilisation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 6,
-        "Tooltip": "nisi",
+        "Total": 283,
+        "Tooltip": "reprehenderit",
         "CanAssign": false,
-        "Free": 257,
-        "InUse": 887,
-        "IsHidden": false,
+        "Free": 422,
+        "InUse": 635,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 786,
-        "Name": "Rohan, Kertzmann and Blick",
-        "Description": "Front-line multi-tasking policy",
-        "PrerequisiteModuleName": "Schmidt Inc and Sons",
-        "SortOrder": 342,
-        "ExtraFlags": 873,
+        "ModuleLicenseId": 932,
+        "Name": "Beahan, Willms and Nikolaus",
+        "Description": "Face to face bifurcated structure",
+        "PrerequisiteModuleName": "Durgan-Corwin",
+        "SortOrder": 87,
+        "ExtraFlags": 181,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldType": "System.Int32",
+            "FieldLength": 473
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 527,
-        "Tooltip": "iusto",
-        "CanAssign": false,
-        "Free": 656,
-        "InUse": 400,
+        "Unrestricted": false,
+        "Total": 14,
+        "Tooltip": "tenetur",
+        "CanAssign": true,
+        "Free": 319,
+        "InUse": 844,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 644,
-        "Name": "Hammes-Fahey",
-        "Description": "Fully-configurable intangible neural-net",
-        "PrerequisiteModuleName": "Pfannerstill, Jacobs and Abbott",
-        "SortOrder": 20,
-        "ExtraFlags": 746,
+        "Assigned": false,
+        "ModuleLicenseId": 182,
+        "Name": "Boehm, Kemmer and West",
+        "Description": "Front-line full-range instruction set",
+        "PrerequisiteModuleName": "Schaden-Nienow",
+        "SortOrder": 401,
+        "ExtraFlags": 69,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 673
+            "FieldType": "System.String",
+            "FieldLength": 417
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldLength": 125
       }
     }
   }

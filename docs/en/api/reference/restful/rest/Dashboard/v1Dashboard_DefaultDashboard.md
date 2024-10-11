@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 442,
-  "AssociateId": 765,
-  "Caption": "sed",
+  "DashboardId": 124,
+  "AssociateId": 896,
+  "Caption": "ipsam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 499,
-      "Caption": "hic",
-      "Description": "Enhanced logistical policy",
-      "ChartName": "Cronin-Collier",
-      "ChartId": "et",
-      "IsDefault": true,
-      "AssociateId": 50,
-      "GroupId": 3,
-      "SelectionId": 929,
-      "Config": "quo",
+      "DashboardTileId": 708,
+      "Caption": "libero",
+      "Description": "Reduced tangible protocol",
+      "ChartName": "Murray, Ebert and Kuvalis",
+      "ChartId": "tenetur",
+      "IsDefault": false,
+      "AssociateId": 482,
+      "GroupId": 676,
+      "SelectionId": 952,
+      "Config": "officiis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 104
+          "FieldLength": 200
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 161
+      "FieldLength": 698
     }
   }
 }

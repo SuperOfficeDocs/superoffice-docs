@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schultz Inc and Sons",
-  "RecordId": 630,
-  "AssociateId": 184
+  "TableName": "Flatley, Dach and Considine",
+  "RecordId": 469,
+  "AssociateId": 613
 }
 ```
 

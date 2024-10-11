@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 181,
-  "UniqueId": "et",
-  "Name": "Lindgren, Mueller and Schulist",
-  "Description": "Pre-emptive maximized support",
-  "AssociateId": 682,
-  "Columns": 284,
+  "DashboardId": 769,
+  "UniqueId": "explicabo",
+  "Name": "Emard-Considine",
+  "Description": "Ergonomic grid-enabled focus group",
+  "AssociateId": 521,
+  "Columns": 28,
   "Theme": null,
-  "VisibleForAll": 161,
+  "VisibleForAll": 989,
   "VisibleForAssociates": [
-    876,
-    809
+    136,
+    843
   ],
   "VisibleForGroups": [
-    904,
-    167
+    506,
+    565
   ],
-  "PinForAll": 272,
+  "PinForAll": 285,
   "PinForAssociates": [
-    77,
-    852
+    567,
+    946
   ],
   "PinForGroups": [
-    214,
-    249
+    348,
+    842
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 493,
-  "UniqueId": "eveniet",
-  "Name": "Turcotte Inc and Sons",
-  "Description": "Fully-configurable regional moratorium",
-  "AssociateId": 545,
-  "Columns": 4,
+  "DashboardId": 681,
+  "UniqueId": "sit",
+  "Name": "Purdy-Collier",
+  "Description": "Horizontal multimedia neural-net",
+  "AssociateId": 304,
+  "Columns": 742,
   "Theme": null,
-  "VisibleForAll": 68,
+  "VisibleForAll": 354,
   "VisibleForAssociates": [
-    672,
-    39
+    304,
+    303
   ],
   "VisibleForGroups": [
-    926,
-    20
+    703,
+    322
   ],
-  "PinForAll": 85,
+  "PinForAll": 398,
   "PinForAssociates": [
-    367,
-    990
+    718,
+    849
   ],
   "PinForGroups": [
-    684,
-    523
+    797,
+    901
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldLength": 669
     }
   },
   "_Links": {

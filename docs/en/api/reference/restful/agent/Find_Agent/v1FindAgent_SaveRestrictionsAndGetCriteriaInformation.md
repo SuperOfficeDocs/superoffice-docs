@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsam",
-  "ProviderName": "Ebert-Walker",
-  "StorageKey": "est",
+  "StorageType": "et",
+  "ProviderName": "Thompson, Greenfelder and Eichmann",
+  "StorageKey": "voluptatum",
   "Restrictions": [
     {
-      "Name": "Parker, Heidenreich and Homenick",
-      "Operator": "blanditiis",
+      "Name": "Schiller Group",
+      "Operator": "sed",
       "Values": [
-        "recusandae",
-        "qui"
+        "voluptas",
+        "ut"
       ],
       "DisplayValues": [
-        "voluptatibus",
-        "harum"
+        "blanditiis",
+        "esse"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 17,
+      "InterParenthesis": 687,
       "InterOperator": "And",
-      "UniqueHash": 540
+      "UniqueHash": 666
     }
   ],
   "StaticColumns": [
-    "enim",
-    "sed"
+    "neque",
+    "ab"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lubowitz-Watsica",
-      "Operator": "temporibus",
+      "Name": "Schiller-Goodwin",
+      "Operator": "dolor",
       "Values": [
-        "et",
-        "est"
+        "enim",
+        "libero"
       ],
       "DisplayValues": [
-        "eligendi",
-        "quis"
+        "ullam",
+        "veritatis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 137,
+      "InterParenthesis": 566,
       "InterOperator": "And",
-      "UniqueHash": 395
+      "UniqueHash": 676
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Goldner, Grant and Herman",
-      "DisplayTooltip": "necessitatibus",
-      "DisplayType": "non",
-      "CanOrderBy": true,
-      "Name": "O'Kon, Kohler and Abernathy",
-      "CanRestrictBy": true,
-      "RestrictionType": "omnis",
-      "RestrictionListName": "Kutch LLC",
-      "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "non",
-      "IconHint": "sunt",
-      "HeadingIconHint": "quis"
+      "DisplayName": "Fahey LLC",
+      "DisplayTooltip": "aut",
+      "DisplayType": "pariatur",
+      "CanOrderBy": false,
+      "Name": "Anderson Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "aut",
+      "RestrictionListName": "Dickinson-Kreiger",
+      "IsVisible": false,
+      "ExtraInfo": "et",
+      "Width": "ipsa",
+      "IconHint": "odit",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Langosh Group",
-      "PrimaryKey": 180,
+      "EntityName": "Stokes-Dach",
+      "PrimaryKey": 306,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minima",
-          "TooltipHint": "maiores",
-          "LinkHint": "enim"
+          "DisplayValue": "dignissimos",
+          "TooltipHint": "ratione",
+          "LinkHint": "magni"
         }
       },
-      "LinkHint": "ea",
-      "StyleHint": "vitae",
+      "LinkHint": "vitae",
+      "StyleHint": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldType": "System.Int32",
+          "FieldLength": 384
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schaden LLC",
-      "Description": "Ameliorated impactful groupware",
-      "Rank": 221,
+      "Name": "Rippin Inc and Sons",
+      "Description": "User-centric contextually-based array",
+      "Rank": 649,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schaden LLC",
-      "Description": "Ameliorated impactful groupware",
-      "Rank": 221,
+      "Name": "Rippin Inc and Sons",
+      "Description": "User-centric contextually-based array",
+      "Rank": 649,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

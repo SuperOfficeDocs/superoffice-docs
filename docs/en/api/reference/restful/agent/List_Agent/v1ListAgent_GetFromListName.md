@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 529,
-  "UdListDefinitionName": "Dickinson-Welch"
+  "Id": 175,
+  "UdListDefinitionName": "Boehm, Lubowitz and Casper"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 715,
-  "Name": "Beer-Dickens",
+  "Id": 264,
+  "Name": "Monahan Group",
   "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 623,
-  "Rank": 979,
+  "UdListDefinitionId": 946,
+  "Rank": 496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 163
     }
   }
 }

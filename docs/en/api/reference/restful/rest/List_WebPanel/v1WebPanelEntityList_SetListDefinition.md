@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 433,
-  "Name": "Wilkinson-Jast",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 943,
+  "Id": 941,
+  "Name": "Welch-Bahringer",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "Rank": 295,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "repellat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 720,
-  "Name": "Murphy LLC",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "Rank": 419,
+  "Id": 299,
+  "Name": "Hegmann, Vandervort and Lang",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 105,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugit",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

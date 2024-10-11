@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 10,
-    "FieldName": "Sipes, Botsford and McKenzie",
-    "Label": "voluptatem",
-    "Tooltip": "placeat",
+    "QuoteLineConfigurationId": 36,
+    "FieldName": "Buckridge, Fahey and Kuvalis",
+    "Label": "eum",
+    "Tooltip": "commodi",
     "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 354,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 343,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 900
+        "FieldType": "System.Int32",
+        "FieldLength": 537
       }
     }
   }

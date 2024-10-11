@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 560,
-  "Name": "Runolfsdottir Group",
-  "Description": "Multi-channelled upward-trending leverage",
-  "DeltaJson": "itaque",
+  "ConfigurableScreenDeltaId": 936,
+  "Name": "Ernser, Schmitt and Jenkins",
+  "Description": "Public-key mobile pricing structure",
+  "DeltaJson": "ea",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quidem",
-  "UpdatedDate": "2012-01-31T04:02:01.4092709+01:00",
-  "CreatedDate": "2018-06-08T04:02:01.4092709+02:00",
+  "RecipeId": "illo",
+  "UpdatedDate": "2020-12-31T03:44:52.2615302+01:00",
+  "CreatedDate": "2008-03-09T03:44:52.2615302+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    706,
-    595
+    385,
+    700
   ],
-  "AppliesToKey": "veniam",
+  "AppliesToKey": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 311
     }
   }
 }

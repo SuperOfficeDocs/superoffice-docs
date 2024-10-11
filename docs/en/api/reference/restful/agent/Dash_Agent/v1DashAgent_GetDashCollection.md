@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 719,
-      "UniqueId": "quas",
-      "Name": "Gottlieb, Bartoletti and McCullough",
-      "Description": "Versatile motivating focus group",
-      "AssociateId": 546,
-      "Columns": 746,
+      "DashboardId": 943,
+      "UniqueId": "eum",
+      "Name": "Lowe, Wilderman and Strosin",
+      "Description": "Phased composite artificial intelligence",
+      "AssociateId": 644,
+      "Columns": 132,
       "Theme": null,
-      "VisibleForAll": 723,
+      "VisibleForAll": 353,
       "VisibleForAssociates": [
-        593,
-        100
+        280,
+        425
       ],
       "VisibleForGroups": [
-        668,
-        790
+        217,
+        588
       ],
-      "PinForAll": 762,
+      "PinForAll": 346,
       "PinForAssociates": [
-        160,
-        297
+        796,
+        935
       ],
       "PinForGroups": [
-        726,
-        220
+        784,
+        892
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 466
+          "FieldLength": 561
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 149,
-      "UniqueId": "cupiditate",
-      "Name": "Stroman LLC",
-      "Description": "Reactive local policy",
-      "AssociateId": 36,
-      "Columns": 887,
+      "DashboardId": 844,
+      "UniqueId": "neque",
+      "Name": "Paucek-Jacobs",
+      "Description": "Streamlined disintermediate initiative",
+      "AssociateId": 542,
+      "Columns": 42,
       "Theme": null,
-      "VisibleForAll": 811,
+      "VisibleForAll": 609,
       "VisibleForAssociates": [
-        400,
-        598
+        855,
+        637
       ],
       "VisibleForGroups": [
-        863,
-        748
+        239,
+        651
       ],
-      "PinForAll": 982,
+      "PinForAll": 680,
       "PinForAssociates": [
-        468,
-        518
+        728,
+        392
       ],
       "PinForGroups": [
-        712,
-        239
+        72,
+        265
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldType": "System.String",
+          "FieldLength": 518
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 50,
-      "UniqueId": "iste",
-      "Name": "Pfannerstill-Bogan",
-      "Description": "Versatile object-oriented info-mediaries",
-      "AssociateId": 71,
-      "Columns": 570,
+      "DashboardId": 259,
+      "UniqueId": "facilis",
+      "Name": "Blick-Dach",
+      "Description": "Function-based tertiary encryption",
+      "AssociateId": 130,
+      "Columns": 603,
       "Theme": null,
-      "VisibleForAll": 576,
+      "VisibleForAll": 535,
       "VisibleForAssociates": [
-        117,
-        496
+        547,
+        60
       ],
       "VisibleForGroups": [
-        976,
-        167
+        155,
+        472
       ],
-      "PinForAll": 608,
+      "PinForAll": 905,
       "PinForAssociates": [
-        730,
-        973
+        571,
+        589
       ],
       "PinForGroups": [
-        374,
-        467
+        174,
+        300
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 185
     }
   }
 }

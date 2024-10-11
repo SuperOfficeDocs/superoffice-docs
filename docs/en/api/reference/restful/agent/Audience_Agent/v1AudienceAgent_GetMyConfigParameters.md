@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 56,
-    "Name": "Heaney LLC",
-    "Value": "et",
-    "CreatedDate": "1997-11-02T04:02:01.221786+01:00",
-    "UpdatedDate": "1997-09-29T04:02:01.221786+02:00",
-    "CreatedBy": "itaque",
-    "UpdatedBy": "hic",
+    "AudienceLayoutId": 836,
+    "Name": "Torp LLC",
+    "Value": "commodi",
+    "CreatedDate": "2008-11-03T03:44:52.0740137+01:00",
+    "UpdatedDate": "2011-05-23T03:44:52.0740137+02:00",
+    "CreatedBy": "corporis",
+    "UpdatedBy": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 618
+        "FieldType": "System.Int32",
+        "FieldLength": 344
       }
     }
   }

@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Beatty Inc and Sons",
+  "ProviderName": "Greenholt-Legros",
   "Restrictions": [
     {
-      "Name": "Rempel, O'Keefe and Will",
-      "Operator": "occaecati",
+      "Name": "Willms, O'Kon and Carroll",
+      "Operator": "nihil",
       "Values": [
-        "quos",
-        "voluptatum"
+        "dolor",
+        "et"
       ],
       "DisplayValues": [
-        "et",
-        "earum"
+        "consequatur",
+        "velit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 322,
+      "InterParenthesis": 957,
       "InterOperator": "And",
-      "UniqueHash": 154
+      "UniqueHash": 580
     }
   ],
-  "AssociateId": 108
+  "AssociateId": 476
 }
 ```
 

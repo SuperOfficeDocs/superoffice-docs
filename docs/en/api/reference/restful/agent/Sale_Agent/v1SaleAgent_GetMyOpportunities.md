@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 198
+  "Count": 764
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Johnston, Huel and Schaden",
-    "SaleDate": "2002-03-24T04:02:02.28488+01:00",
-    "SaleId": 503,
-    "Probability": 283,
-    "Title": "velit",
-    "Amount": 9555.5659999999989,
-    "Currency": "aut",
-    "ProjectName": "Effertz Group",
-    "AssociateFullName": "Kathryn Hodkiewicz",
-    "Description": "Object-based methodical infrastructure",
+    "ContactName": "Hauck Group",
+    "SaleDate": "2023-06-25T03:44:53.136845+02:00",
+    "SaleId": 246,
+    "Probability": 644,
+    "Title": "magni",
+    "Amount": 7759.784,
+    "Currency": "sit",
+    "ProjectName": "Swift, Walsh and Schneider",
+    "AssociateFullName": "Hans Botsford",
+    "Description": "Cross-platform neutral process improvement",
     "Status": "Lost",
-    "WeightedAmount": 27077.76,
-    "ProjectId": 609,
-    "EarningPercent": 20656.194,
-    "Earning": 14776.81,
-    "ContactId": 220,
-    "AssociateId": 714,
-    "PersonId": 811,
-    "SaleTypeId": 600,
-    "SaleTypeName": "Bahringer Group",
-    "PersonFullName": "Elenora Hills",
+    "WeightedAmount": 13664.24,
+    "ProjectId": 647,
+    "EarningPercent": 11056.752,
+    "Earning": 5055.142,
+    "ContactId": 846,
+    "AssociateId": 630,
+    "PersonId": 268,
+    "SaleTypeId": 287,
+    "SaleTypeName": "Volkman-Morissette",
+    "PersonFullName": "Lavada Johnson PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 690,
-    "NextDueDate": "2010-09-19T04:02:02.28488+02:00",
-    "Number": "1323225",
+    "ActiveErpLinks": 920,
+    "NextDueDate": "2014-10-24T03:44:53.136845+02:00",
+    "Number": "1332773",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldLength": 72
       }
     }
   }

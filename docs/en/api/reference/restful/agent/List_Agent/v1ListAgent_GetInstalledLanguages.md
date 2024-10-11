@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 915,
-    "LCID": 170,
-    "EnglishName": "Mohr Group",
-    "NativeName": "Greenfelder, White and Reichel",
-    "ThreeLetterISOLanguageName": "Gutkowski, Bruen and Konopelski",
-    "TwoLetterISOLanguageName": "Willms LLC",
+    "LanguageInfoId": 390,
+    "LCID": 207,
+    "EnglishName": "Jast-Wyman",
+    "NativeName": "Funk LLC",
+    "ThreeLetterISOLanguageName": "Runte-Lebsack",
+    "TwoLetterISOLanguageName": "Johns-Romaguera",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldType": "System.Int32",
+        "FieldLength": 793
       }
     }
   }

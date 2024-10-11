@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    649,
-    793
+    611,
+    834
   ],
-  "StartTime": "2017-11-18T04:02:01.0025647+01:00",
-  "EndTime": "2009-08-06T04:02:01.0025647+02:00"
+  "StartTime": "2020-02-19T03:44:51.8552876+01:00",
+  "EndTime": "2010-07-10T03:44:51.8552876+02:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 253,
-    "StartDate": "2001-08-20T04:02:01.0025647+02:00",
-    "EndDate": "2008-09-27T04:02:01.0025647+02:00",
+    "AppointmentId": 667,
+    "StartDate": "2003-10-23T03:44:51.8552876+02:00",
+    "EndDate": "2022-10-01T03:44:51.8552876+02:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Mrs. Sabryna Favian King DVM",
-    "ContactName": "Schaefer-Schmitt",
-    "Description": "Reverse-engineered solution-oriented help-desk",
-    "PersonFullName": "Sister Waters III",
-    "PersonId": 395,
-    "ContactId": 455,
-    "ProjectId": 389,
-    "ProjectName": "Collins LLC",
+    "Task": "reprehenderit",
+    "AssociateFullName": "Gabriel Hoppe",
+    "ContactName": "Leuschke, Murray and McDermott",
+    "Description": "Compatible 5th generation open system",
+    "PersonFullName": "Norene Kemmer",
+    "PersonId": 968,
+    "ContactId": 742,
+    "ProjectId": 364,
+    "ProjectName": "Bosco, Streich and Hermann",
     "IsPublished": true,
-    "AssociateId": 30,
-    "ColorIndex": 468,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 956,
+    "ColorIndex": 29,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 441,
-    "PriorityName": "Heathcote Group",
+    "PriorityId": 240,
+    "PriorityName": "Rutherford-Kuhic",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2019-12-05T04:02:01.0025647+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2020-05-28T03:44:51.8552876+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-08-01T04:02:01.0025647+02:00",
-    "RecurringEndDate": "1998-04-24T04:02:01.0025647+02:00",
-    "MotherId": 873,
-    "AssignedBy": 536,
-    "AssignedByFullName": "Dr. Piper Toy",
+    "RecurringStartDate": "2018-11-15T03:44:51.8552876+01:00",
+    "RecurringEndDate": "2013-04-14T03:44:51.8552876+02:00",
+    "MotherId": 242,
+    "AssignedBy": 438,
+    "AssignedByFullName": "Dr. Cleta Barrows MD",
     "RejectReason": "",
-    "Location": "laborum",
-    "AlarmLeadTime": "suscipit",
-    "SaleId": 741,
-    "SaleName": "Schowalter, Johnson and Bosco",
-    "AssociateName": "Torp Inc and Sons",
-    "CreatedDate": "2023-12-08T04:02:01.0025647+01:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Jayce Rodriguez",
-    "CreatedByAssociateId": 960,
+    "Location": "molestiae",
+    "AlarmLeadTime": "ut",
+    "SaleId": 495,
+    "SaleName": "Hyatt-Denesik",
+    "AssociateName": "Turcotte Inc and Sons",
+    "CreatedDate": "2018-10-31T03:44:51.8552876+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Jonathan Glennie Kohler III",
+    "CreatedByAssociateId": 695,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 761,
-    "Title": "assumenda",
-    "Agenda": "natus",
-    "InternalNotes": "amet",
+    "PreferredTZLocation": 558,
+    "Title": "aliquam",
+    "Agenda": "et",
+    "InternalNotes": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 11
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

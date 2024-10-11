@@ -25,7 +25,7 @@ Deletes the PreferenceDescription
 | PreferenceDescriptionId | int32 | **Required** The id of the PreferenceDescription to be deleted. |
 
 ```http
-POST /api/v1/Agents/Preference/DeletePreferenceDescription?PreferenceDescriptionId=379
+POST /api/v1/Agents/Preference/DeletePreferenceDescription?PreferenceDescriptionId=973
 ```
 
 

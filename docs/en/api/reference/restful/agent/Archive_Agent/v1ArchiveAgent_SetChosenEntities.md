@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Leffler, Zieme and Hermiston",
-  "ProviderName": "Lehner-McGlynn",
+  "GuiName": "Beer Group",
+  "ProviderName": "Lubowitz, Toy and Schmidt",
   "Entities": [
-    "a",
-    "voluptatem"
+    "corporis",
+    "recusandae"
   ]
 }
 ```

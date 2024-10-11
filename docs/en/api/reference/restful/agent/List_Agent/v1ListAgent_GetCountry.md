@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=592
+POST /api/v1/Agents/List/GetCountry?countryId=686
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 886,
-  "Name": "Konopelski-Hoppe",
-  "CurrencyId": 865,
-  "EnglishName": "Johnson Inc and Sons",
+  "CountryId": 624,
+  "Name": "Erdman-Crona",
+  "CurrencyId": 451,
+  "EnglishName": "Hegmann Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Up-sized analyzing alliance",
-  "OrgNrText": "1135733",
-  "InterAreaPrefix": "rerum",
-  "DialInPrefix": "optio",
-  "ZipPrefix": "inventore",
-  "DomainName": "Gulgowski-Turner",
-  "AddressLayoutId": 31,
-  "DomesticAddressLayoutId": 874,
-  "ForeignAddressLayoutId": 273,
-  "Rank": 972,
-  "Tooltip": "nam",
+  "ImageDescription": "Versatile 5th generation secured line",
+  "OrgNrText": "1061669",
+  "InterAreaPrefix": "molestiae",
+  "DialInPrefix": "magnam",
+  "ZipPrefix": "quo",
+  "DomainName": "Kunze Group",
+  "AddressLayoutId": 185,
+  "DomesticAddressLayoutId": 969,
+  "ForeignAddressLayoutId": 484,
+  "Rank": 971,
+  "Tooltip": "est",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 835
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=eius
-GET /api/v1/BatchTask?$top=763
-GET /api/v1/BatchTask?$skip=482
+GET /api/v1/BatchTask?$entities=suscipit
+GET /api/v1/BatchTask?$top=210
+GET /api/v1/BatchTask?$skip=709
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=nihil
+GET /api/v1/BatchTask?$context=sapiente
 GET /api/v1/BatchTask?$format=JSON
-GET /api/v1/BatchTask?$jsonSafe=False
+GET /api/v1/BatchTask?$jsonSafe=True
 GET /api/v1/BatchTask?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "beatae",
+  "odata.nextLink": "excepturi",
   "value": [
     {
-      "PrimaryKey": 2984,
-      "EntityName": "sale",
-      "saleId": 2984,
-      "contactId": 1031,
-      "name": "Ullrich-Kirlin"
+      "PrimaryKey": 4539,
+      "EntityName": "person",
+      "personId": 4539,
+      "fullName": "Jermain Madonna Gaylord MD"
     },
     {
-      "PrimaryKey": 8565,
-      "EntityName": "sale",
-      "saleId": 8565,
-      "contactId": 4237,
-      "name": "Hoeger Inc and Sons"
+      "PrimaryKey": 4211,
+      "EntityName": "person",
+      "personId": 4211,
+      "fullName": "Chelsie Fay"
     }
   ]
 }

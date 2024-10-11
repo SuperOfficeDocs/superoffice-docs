@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=veritatis
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=molestias
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Schaden-Romaguera",
-    "ToolTip": "In dolor dolorum aut est fugit.",
-    "Deleted": true,
-    "Rank": 248,
-    "Type": "sed",
+    "Id": 128,
+    "Name": "Cole Inc and Sons",
+    "ToolTip": "Inventore id maiores et quis quis distinctio aut.",
+    "Deleted": false,
+    "Rank": 308,
+    "Type": "ipsum",
     "ChildItems": [
       {
-        "Id": 209,
-        "Name": "Leffler-Dooley",
-        "ToolTip": "Repellat et quam quos qui.",
+        "Id": 265,
+        "Name": "Franecki-Klein",
+        "ToolTip": "Qui aperiam officiis maxime.",
         "Deleted": false,
-        "Rank": 964,
-        "Type": "et",
+        "Rank": 470,
+        "Type": "vitae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 724,
-        "ExtraInfo": "sit",
-        "StyleHint": "dolores",
-        "FullName": "Jane Yost",
+        "IconHint": "eaque",
+        "ColorBlock": 257,
+        "ExtraInfo": "dolor",
+        "StyleHint": "aperiam",
+        "FullName": "Mr. Pamela Susan Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 364
+            "FieldType": "System.String",
+            "FieldLength": 972
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 719,
-    "ExtraInfo": "ab",
-    "StyleHint": "sit",
-    "FullName": "Laury Franecki",
+    "IconHint": "assumenda",
+    "ColorBlock": 464,
+    "ExtraInfo": "laborum",
+    "StyleHint": "quam",
+    "FullName": "Lelah Hodkiewicz III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 729
       }
     }
   }

@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 843,
-  "Name": "D'Amore Group",
+  "ScreenChooserId": 837,
+  "Name": "Heller LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "aperiam",
-  "Source": "qui",
-  "Registered": "2023-09-24T04:02:01.5186345+02:00",
-  "RegisteredAssociateId": 629,
-  "Updated": "2005-06-30T04:02:01.5186345+02:00",
-  "UpdatedAssociateId": 845
+  "Enabled": true,
+  "UniqueIdentifier": "ullam",
+  "Source": "dolores",
+  "Registered": "2000-04-04T03:44:52.3708918+02:00",
+  "RegisteredAssociateId": 859,
+  "Updated": "2017-02-12T03:44:52.3708918+01:00",
+  "UpdatedAssociateId": 370
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 628,
-  "Name": "Bailey-Hills",
+  "ScreenChooserId": 466,
+  "Name": "Jewess LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "consequuntur",
-  "Registered": "2010-07-07T04:02:01.5186345+02:00",
-  "RegisteredAssociateId": 462,
-  "Updated": "1997-10-03T04:02:01.5186345+02:00",
-  "UpdatedAssociateId": 425,
+  "UniqueIdentifier": "delectus",
+  "Source": "praesentium",
+  "Registered": "2012-02-28T03:44:52.3708918+01:00",
+  "RegisteredAssociateId": 130,
+  "Updated": "2016-10-14T03:44:52.3708918+02:00",
+  "UpdatedAssociateId": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 479
     }
   }
 }

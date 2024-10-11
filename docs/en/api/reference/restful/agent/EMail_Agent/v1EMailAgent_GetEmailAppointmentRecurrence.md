@@ -88,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 139
+  "MailItemId": 585
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 861,
-  "StartDate": "2021-10-09T04:02:01.6905011+02:00",
-  "EndDate": "2016-06-05T04:02:01.6905011+02:00",
-  "RecurrenceCounter": 234,
+  "RecurrenceId": 115,
+  "StartDate": "1998-04-15T03:44:52.5583726+02:00",
+  "EndDate": "2022-10-25T03:44:52.5583726+02:00",
+  "RecurrenceCounter": 288,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2021-08-02T04:02:01.6905011+02:00",
+      "Date": "2010-03-30T03:44:52.5583726+02:00",
       "IsConflict": true,
-      "Description": "Intuitive background open architecture",
-      "DescriptionStyleHint": "Optimized motivating conglomeration",
-      "Tooltip": "mollitia"
+      "Description": "Public-key multi-state hub",
+      "DescriptionStyleHint": "Reverse-engineered grid-enabled success",
+      "Tooltip": "porro"
     },
     {
-      "Date": "2021-08-02T04:02:01.6905011+02:00",
+      "Date": "2010-03-30T03:44:52.5583726+02:00",
       "IsConflict": true,
-      "Description": "Intuitive background open architecture",
-      "DescriptionStyleHint": "Optimized motivating conglomeration",
-      "Tooltip": "mollitia"
+      "Description": "Public-key multi-state hub",
+      "DescriptionStyleHint": "Reverse-engineered grid-enabled success",
+      "Tooltip": "porro"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

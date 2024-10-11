@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 507,
-  "Created": "2016-07-12T04:02:02.2222071+02:00",
+  "SatelliteId": 513,
+  "Created": "2008-11-09T03:44:53.0739396+01:00",
   "CreatedBy": null,
-  "Updated": "1998-10-11T04:02:02.2222071+02:00",
+  "Updated": "2004-05-09T03:44:53.0739396+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Koss-Schowalter",
-      "Description": "Triple-buffered transitional Graphic Interface",
+      "Name": "Jacobson LLC",
+      "Description": "Monitored multi-tasking functionalities",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Koss-Schowalter",
-      "Description": "Triple-buffered transitional Graphic Interface",
+      "Name": "Jacobson LLC",
+      "Description": "Monitored multi-tasking functionalities",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 811,
-  "Created": "1999-01-20T04:02:02.2222071+01:00",
+  "SatelliteId": 39,
+  "Created": "1997-08-12T03:44:53.0900933+02:00",
   "CreatedBy": null,
-  "Updated": "2019-07-13T04:02:02.2222071+02:00",
+  "Updated": "2017-04-15T03:44:53.0900933+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Huels Group",
-      "Description": "Mandatory transitional budgetary management",
+      "Name": "Nader Inc and Sons",
+      "Description": "Digitized client-driven synergy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 554
+          "FieldType": "System.Int32",
+          "FieldLength": 500
         }
       }
     },
     {
-      "Name": "Huels Group",
-      "Description": "Mandatory transitional budgetary management",
+      "Name": "Nader Inc and Sons",
+      "Description": "Digitized client-driven synergy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 554
+          "FieldType": "System.Int32",
+          "FieldLength": 500
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldLength": 581
     }
   }
 }

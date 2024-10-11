@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turcotte Group"
+  "Name": "Kuphal, Wehner and Lebsack"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Sipes-Ledner",
-    "ToolTip": "Impedit doloremque at sed eaque est.",
+    "Id": 123,
+    "Name": "Larson, Renner and Buckridge",
+    "ToolTip": "Sapiente qui animi dolores enim.",
     "Deleted": false,
-    "Rank": 323,
-    "Type": "neque",
+    "Rank": 620,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Bergstrom, Bartell and McClure",
-        "ToolTip": "Rerum est error ea qui.",
-        "Deleted": true,
-        "Rank": 846,
-        "Type": "facere",
+        "Id": 861,
+        "Name": "Lind Group",
+        "ToolTip": "Qui quasi nobis ut.",
+        "Deleted": false,
+        "Rank": 224,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 381,
-        "ExtraInfo": "ut",
-        "StyleHint": "est",
-        "FullName": "Esther Torp",
+        "IconHint": "ex",
+        "ColorBlock": 436,
+        "ExtraInfo": "omnis",
+        "StyleHint": "ipsam",
+        "FullName": "Dr. Maximillia Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 977
+            "FieldLength": 835
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 188,
-    "ExtraInfo": "harum",
-    "StyleHint": "ratione",
-    "FullName": "Sunny McKenzie",
+    "IconHint": "fuga",
+    "ColorBlock": 445,
+    "ExtraInfo": "rerum",
+    "StyleHint": "molestiae",
+    "FullName": "Ms. Maudie Yazmin Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 80
       }
     }
   }

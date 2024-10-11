@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 153,
-    "Name": "Abernathy Group",
-    "Tooltip": "mollitia",
+    "WebPanelId": 310,
+    "Name": "Tremblay-Ziemann",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 596,
+    "Rank": 760,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Mills, Hayes and Flatley",
+    "ShowInStatusBar": false,
+    "WindowName": "Lang Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "maiores",
-    "Icon": 790,
+    "ProgId": "quia",
+    "Icon": 538,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldLength": 550
       }
     }
   }

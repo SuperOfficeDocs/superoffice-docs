@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 17 Jun 2005 04:02:06 G6T
+Last-Modified: Tue, 23 Aug 2022 03:44:57 G8T
 
 {
-  "Key": "sint",
-  "Value": "at",
-  "RecordId": 685,
-  "CreatedDate": "2017-12-11T04:02:06.6191478+01:00",
-  "UpdatedDate": "2005-06-17T04:02:06.6191478+02:00",
-  "UpdatedBy": "laudantium",
-  "CreatedBy": "velit",
-  "TableName": "Fritsch, Wiegand and Green",
+  "Key": "consequuntur",
+  "Value": "dolor",
+  "RecordId": 389,
+  "CreatedDate": "1999-04-08T03:44:57.359003+02:00",
+  "UpdatedDate": "2022-08-23T03:44:57.359003+02:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "dolorem",
+  "TableName": "Towne LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 962
     }
   }
 }

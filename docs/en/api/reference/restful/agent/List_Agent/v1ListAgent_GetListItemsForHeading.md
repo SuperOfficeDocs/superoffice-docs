@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 255,
-  "HeadingId": 86
+  "UdListDefinitionId": 370,
+  "HeadingId": 130
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Schaefer-Conroy",
-    "ToolTip": "Dolores voluptatum similique error dolorem molestiae.",
-    "Deleted": true,
-    "Rank": 501,
-    "Type": "illo",
-    "ColorBlock": 728,
-    "IconHint": "quis",
+    "Id": 402,
+    "Name": "Bayer Inc and Sons",
+    "ToolTip": "Est est.",
+    "Deleted": false,
+    "Rank": 852,
+    "Type": "est",
+    "ColorBlock": 866,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2023-03-03T04:02:01.847234+01:00",
+    "LastChanged": "2001-10-05T03:44:52.6989885+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Schmidt-Bernier",
-        "ToolTip": "Ipsa dolor atque aut.",
-        "Deleted": false,
-        "Rank": 572,
-        "Type": "tempora",
-        "ColorBlock": 507,
-        "IconHint": "animi",
-        "Selected": false,
-        "LastChanged": "2022-07-06T04:02:01.847234+02:00",
+        "Id": 335,
+        "Name": "Nicolas-Reichert",
+        "ToolTip": "Modi nostrum.",
+        "Deleted": true,
+        "Rank": 182,
+        "Type": "quibusdam",
+        "ColorBlock": 251,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "1997-08-13T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Ms. Aiyana Rohan",
+        "ExtraInfo": "est",
+        "StyleHint": "odio",
+        "Hidden": false,
+        "FullName": "Kraig Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 115
+            "FieldType": "System.Int32",
+            "FieldLength": 858
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Ms. Troy Casper Hauck I",
+    "ExtraInfo": "vitae",
+    "StyleHint": "laboriosam",
+    "Hidden": true,
+    "FullName": "Vallie Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 467
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

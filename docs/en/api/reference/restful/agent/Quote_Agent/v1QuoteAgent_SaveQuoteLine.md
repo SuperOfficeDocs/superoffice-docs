@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 987,
-  "ERPQuoteLineKey": "nihil",
-  "QuoteAlternativeId": 334,
-  "ERPProductKey": "nesciunt",
+  "QuoteLineId": 903,
+  "ERPQuoteLineKey": "itaque",
+  "QuoteAlternativeId": 149,
+  "ERPProductKey": "est",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 9878.368,
-  "DeliveredQuantity": 27463.242,
-  "Rank": 889,
-  "Name": "Zboncak Inc and Sons",
-  "Description": "Realigned composite open system",
-  "Code": "nesciunt",
-  "QuantityUnit": "aut",
-  "PriceUnit": "ea",
-  "ItemNumber": "1143428",
+  "Quantity": 23971.966,
+  "DeliveredQuantity": 27695.158,
+  "Rank": 509,
+  "Name": "Dietrich, Gibson and Leffler",
+  "Description": "Up-sized dedicated moderator",
+  "Code": "est",
+  "QuantityUnit": "tempore",
+  "PriceUnit": "quod",
+  "ItemNumber": "792572",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "aliquam",
-  "Supplier": "earum",
-  "SupplierCode": "in",
-  "Thumbnail": "a",
-  "VATInfo": "temporibus",
-  "VAT": 17387.432,
-  "UnitCost": 13673.642,
-  "UnitMinimumPrice": 16205.913999999999,
-  "UnitListPrice": 24128.665999999997,
+  "ProductFamilyKey": "modi",
+  "ProductTypeKey": "et",
+  "Supplier": "voluptas",
+  "SupplierCode": "cum",
+  "Thumbnail": "sapiente",
+  "VATInfo": "autem",
+  "VAT": 6609.606,
+  "UnitCost": 316.534,
+  "UnitMinimumPrice": 10752.753999999999,
+  "UnitListPrice": 6760.038,
   "ExtraInfo": [
     {
-      "Name": "Hettinger Inc and Sons",
-      "Value": "veritatis",
+      "Name": "Altenwerth Inc and Sons",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 660
         }
       }
     },
     {
-      "Name": "Hettinger Inc and Sons",
-      "Value": "veritatis",
+      "Name": "Altenwerth Inc and Sons",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 660
         }
       }
     }
   ],
-  "RawExtraInfo": "soluta",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quos",
-  "SubscriptionQuantity": 23721.246,
-  "SubscriptionStart": "2000-09-26T04:02:02.2222071+02:00",
-  "ERPDiscountPercent": 6474.844,
-  "ERPDiscountAmount": 27641.879999999997,
-  "DiscountPercent": 19549.892,
-  "DiscountAmount": 19860.158,
+  "RawExtraInfo": "aspernatur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "veritatis",
+  "SubscriptionQuantity": 9994.326,
+  "SubscriptionStart": "2002-08-29T03:44:53.0739396+02:00",
+  "ERPDiscountPercent": 1360.156,
+  "ERPDiscountAmount": 17036.424,
+  "DiscountPercent": 12420.042,
+  "DiscountAmount": 10520.838,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20477.556,
-  "EarningAmount": 26523.041999999998,
-  "SubTotal": 24692.786,
-  "TotalPrice": 11714.892,
-  "Rights": "necessitatibus",
-  "Rule": "repellendus",
-  "ExtraField1": "culpa",
-  "ExtraField2": "consequuntur",
-  "ExtraField3": "asperiores",
-  "ExtraField4": "nulla",
-  "ExtraField5": "quia",
+  "EarningPercent": 13165.934,
+  "EarningAmount": 20850.502,
+  "SubTotal": 3419.194,
+  "TotalPrice": 5885.652,
+  "Rights": "est",
+  "Rule": "autem",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "vero",
+  "ExtraField3": "quibusdam",
+  "ExtraField4": "eum",
+  "ExtraField5": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 517
     }
   }
 }

@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 145,
-    "ParentId": 908,
-    "Name": "Rogahn-Reinger",
-    "Fullname": "in",
-    "CategoryMaster": 890,
+    "TicketCategoryId": 795,
+    "ParentId": 219,
+    "Name": "Pfannerstill, Howell and Marvin",
+    "Fullname": "labore",
+    "CategoryMaster": 237,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "O'Conner, Lowe and Dicki",
+    "ExternalName": "Gislason-Labadie",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 177,
-    "ReplyTemplate": 159,
-    "NotificationEmail": "lorenz@russel.name",
+    "AssignmentLag": 666,
+    "ReplyTemplate": 102,
+    "NotificationEmail": "chelsea_smith@howell.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 232,
+    "EffectiveReplyTemplateId": 670,
     "ExtraFields": {
-      "ExtraFields1": "dolores",
-      "ExtraFields2": "dolore"
+      "ExtraFields1": "qui",
+      "ExtraFields2": "nihil"
     },
     "CustomFields": {
-      "CustomFields1": "accusamus",
-      "CustomFields2": "atque"
+      "CustomFields1": "id",
+      "CustomFields2": "culpa"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 849
+        "FieldLength": 478
       }
     }
   }

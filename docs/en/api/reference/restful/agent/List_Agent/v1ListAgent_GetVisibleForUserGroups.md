@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 650,
-  "ListItemId": 973
+  "UdListDefinitionId": 151,
+  "ListItemId": 414
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Thiel-Orn",
-    "ToolTip": "Aperiam quidem id consequuntur illo.",
+    "Id": 734,
+    "Name": "Yundt-Herman",
+    "ToolTip": "Corrupti inventore consequatur.",
     "Deleted": false,
-    "Rank": 128,
-    "Type": "voluptatibus",
-    "ColorBlock": 551,
-    "IconHint": "vel",
+    "Rank": 87,
+    "Type": "cupiditate",
+    "ColorBlock": 175,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2002-09-28T04:02:01.8316108+02:00",
+    "LastChanged": "2020-04-01T03:44:52.6989885+02:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Gutkowski-Ferry",
-        "ToolTip": "Ut sit et alias.",
-        "Deleted": false,
-        "Rank": 42,
-        "Type": "atque",
-        "ColorBlock": 90,
-        "IconHint": "nihil",
+        "Id": 625,
+        "Name": "Jenkins LLC",
+        "ToolTip": "Et consectetur et consequatur itaque voluptas.",
+        "Deleted": true,
+        "Rank": 32,
+        "Type": "enim",
+        "ColorBlock": 704,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2011-04-05T04:02:01.8316108+02:00",
+        "LastChanged": "2007-04-13T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Miss Mervin Ally Wintheiser Jr.",
+        "ExtraInfo": "culpa",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Ms. Sibyl Kelton Larkin Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldType": "System.String",
+            "FieldLength": 8
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "perspiciatis",
-    "Hidden": true,
-    "FullName": "Mrs. Salvatore Spencer",
+    "ExtraInfo": "a",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Rodger Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldType": "System.String",
+        "FieldLength": 191
       }
     }
   }

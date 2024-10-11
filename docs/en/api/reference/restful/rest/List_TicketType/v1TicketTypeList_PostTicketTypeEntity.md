@@ -101,35 +101,35 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 76,
-  "Name": "Casper, Gerhold and Rosenbaum",
-  "Rank": 178,
-  "Tooltip": "illo",
-  "Icon": "non",
-  "DefaultTicketStatus": 683,
+  "TicketTypeId": 154,
+  "Name": "Gorczany-Lowe",
+  "Rank": 212,
+  "Tooltip": "praesentium",
+  "Icon": "et",
+  "DefaultTicketStatus": 345,
   "TicketStatuses": [
-    3,
-    165
+    318,
+    808
   ],
-  "DefaultTicketPriority": 463,
+  "DefaultTicketPriority": 889,
   "TicketPriorities": [
-    852,
-    716
+    445,
+    751
   ],
-  "ReplyTemplate": 106,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 216,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    811,
-    947
+    767,
+    196
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
@@ -143,40 +143,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 441,
-  "Name": "Howell Group",
-  "Rank": 908,
-  "Tooltip": "assumenda",
-  "Icon": "quia",
-  "DefaultTicketStatus": 35,
+  "TicketTypeId": 219,
+  "Name": "Moore LLC",
+  "Rank": 607,
+  "Tooltip": "cupiditate",
+  "Icon": "dolor",
+  "DefaultTicketStatus": 985,
   "TicketStatuses": [
-    64,
-    354
+    683,
+    413
   ],
-  "DefaultTicketPriority": 263,
+  "DefaultTicketPriority": 75,
   "TicketPriorities": [
-    451,
-    389
+    360,
+    918
   ],
-  "ReplyTemplate": 319,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": true,
+  "ReplyTemplate": 601,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    842,
-    99
+    340,
+    323
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldLength": 381
     }
   }
 }

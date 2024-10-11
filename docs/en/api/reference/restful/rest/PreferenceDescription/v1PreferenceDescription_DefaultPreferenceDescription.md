@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 570,
-  "Section": "quia",
-  "Key": "dolorem",
-  "Name": "Mante-Pfeffer",
+  "PrefDescId": 315,
+  "Section": "vel",
+  "Key": "excepturi",
+  "Name": "Harber-Runolfsson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total object-oriented superstructure",
+  "Description": "Multi-layered needs-based neural-net",
   "IsBuiltin": false,
-  "TableName": "Lindgren-Daugherty",
-  "UserDefinedListId": 959,
-  "Rank": 353,
-  "SubGroup": "ducimus",
-  "MinLevel": 356,
-  "MaxValue": 788,
-  "MinValue": 489,
-  "RequiredLicense": "at",
+  "TableName": "Denesik, Feest and Stanton",
+  "UserDefinedListId": 944,
+  "Rank": 221,
+  "SubGroup": "odit",
+  "MinLevel": 660,
+  "MaxValue": 784,
+  "MinValue": 900,
+  "RequiredLicense": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 519
     }
   }
 }

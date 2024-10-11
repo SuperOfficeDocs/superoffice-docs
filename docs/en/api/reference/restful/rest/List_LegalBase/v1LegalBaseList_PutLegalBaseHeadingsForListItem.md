@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Luettgen-Bashirian",
-    "ToolTip": "Nam aut id est.",
-    "Deleted": false,
-    "Rank": 376,
-    "Type": "molestiae",
-    "ColorBlock": 201,
-    "IconHint": "tempore",
+    "Id": 954,
+    "Name": "Cole, Towne and Braun",
+    "ToolTip": "Omnis porro accusamus doloremque placeat molestiae maiores.",
+    "Deleted": true,
+    "Rank": 308,
+    "Type": "minus",
+    "ColorBlock": 910,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2018-08-01T04:02:07.2597065+02:00",
+    "LastChanged": "2000-04-01T03:44:58.0156476+02:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Franecki, Ferry and Rath",
-        "ToolTip": "Tenetur voluptatem.",
+        "Id": 724,
+        "Name": "Champlin Group",
+        "ToolTip": "Sint esse et.",
         "Deleted": false,
-        "Rank": 638,
-        "Type": "aut",
-        "ColorBlock": 404,
-        "IconHint": "sapiente",
+        "Rank": 968,
+        "Type": "eum",
+        "ColorBlock": 475,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2007-02-20T04:02:07.2597065+01:00",
+        "LastChanged": "2024-01-20T03:44:58.0156476+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Miss Barrett Reilly I"
+        "FullName": "Jade Larson"
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "optio",
+    "ExtraInfo": "quidem",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Clifford Smitham"
+    "FullName": "Nash McLaughlin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Name": "Volkman, Mann and Brown",
-    "ToolTip": "Consectetur ea exercitationem culpa vero sapiente.",
+    "Id": 758,
+    "Name": "Monahan Inc and Sons",
+    "ToolTip": "Deserunt et dolor accusantium eveniet tenetur alias delectus.",
     "Deleted": false,
-    "Rank": 45,
-    "Type": "fuga",
-    "ColorBlock": 929,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2003-05-26T04:02:07.2597065+02:00",
+    "Rank": 341,
+    "Type": "in",
+    "ColorBlock": 672,
+    "IconHint": "iusto",
+    "Selected": false,
+    "LastChanged": "2023-06-01T03:44:58.0156476+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Lowe Group",
-        "ToolTip": "Dolorem qui molestiae itaque doloribus aliquid quam omnis.",
-        "Deleted": true,
-        "Rank": 678,
-        "Type": "enim",
-        "ColorBlock": 430,
-        "IconHint": "ut",
+        "Id": 610,
+        "Name": "Gutkowski, Thompson and Kilback",
+        "ToolTip": "Voluptatum occaecati dolores atque eaque cumque optio.",
+        "Deleted": false,
+        "Rank": 961,
+        "Type": "exercitationem",
+        "ColorBlock": 365,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2014-09-26T04:02:07.2597065+02:00",
+        "LastChanged": "2004-10-12T03:44:58.0156476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Earnest Stokes",
+        "ExtraInfo": "natus",
+        "StyleHint": "aspernatur",
+        "Hidden": true,
+        "FullName": "Kailee Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 253
+            "FieldType": "System.Int32",
+            "FieldLength": 158
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "tempore",
-    "Hidden": true,
-    "FullName": "Prof. Haylie Jammie Stroman DDS",
+    "ExtraInfo": "quia",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Gene Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

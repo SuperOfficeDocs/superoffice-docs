@@ -107,16 +107,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 622,
-  "Name": "Little, Kozey and Dicki",
-  "Tooltip": "consequatur",
+  "RoleId": 445,
+  "Name": "Sanford, Hilpert and Mueller",
+  "Tooltip": "odit",
   "RoleType": "Anonymous",
-  "Deleted": 20,
-  "Rank": 917,
-  "Created": "2004-02-10T04:02:06.7441349+01:00",
-  "UseCategories": 593,
+  "Deleted": 454,
+  "Rank": 606,
+  "Created": "2004-12-19T03:44:57.5000465+01:00",
+  "UseCategories": 635,
   "CreatedBy": null,
-  "Updated": "2017-09-28T04:02:06.7441349+02:00",
+  "Updated": "2017-02-16T03:44:57.5000465+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 327,
-  "Name": "Botsford LLC",
-  "Tooltip": "maxime",
+  "RoleId": 295,
+  "Name": "Schulist, Armstrong and Vandervort",
+  "Tooltip": "quam",
   "RoleType": "Anonymous",
-  "Deleted": 710,
-  "Rank": 627,
-  "Created": "2024-07-05T04:02:06.7441349+02:00",
-  "UseCategories": 510,
+  "Deleted": 171,
+  "Rank": 692,
+  "Created": "2018-05-01T03:44:57.5000465+02:00",
+  "UseCategories": 247,
   "CreatedBy": null,
-  "Updated": "2013-04-02T04:02:06.7441349+02:00",
+  "Updated": "2010-02-22T03:44:57.5000465+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 774
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

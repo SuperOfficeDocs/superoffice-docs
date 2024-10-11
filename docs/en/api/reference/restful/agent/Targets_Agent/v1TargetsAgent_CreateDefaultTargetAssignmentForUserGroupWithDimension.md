@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 35,
-  "TargetDimensionId": 356
+  "UserGroupId": 787,
+  "TargetDimensionId": 142
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 587,
+    "TargetAssignmentInfoId": 325,
     "Values": [
-      293,
-      852
+      633,
+      815
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 489,
-    "DimensionListItemDisplayName": "Trantow-Zulauf",
+    "DimensionListItem": 711,
+    "DimensionListItemDisplayName": "Hilpert, Dare and Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 153
       }
     }
   }

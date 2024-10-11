@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=voluptatem
-GET /api/v1/MDOList/{listname}?query=voluptates
+GET /api/v1/MDOList/{listname}?additional=adipisci
+GET /api/v1/MDOList/{listname}?query=possimus
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Keeling-Collier",
-    "ToolTip": "Ex quisquam possimus numquam voluptatem.",
-    "Deleted": true,
-    "Rank": 709,
-    "Type": "dicta",
+    "Id": 799,
+    "Name": "Rosenbaum, Mosciski and Funk",
+    "ToolTip": "Voluptas omnis.",
+    "Deleted": false,
+    "Rank": 924,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "Kutch Inc and Sons",
-        "ToolTip": "Ut et.",
+        "Id": 748,
+        "Name": "Gibson LLC",
+        "ToolTip": "Voluptas excepturi voluptatem perspiciatis ducimus alias.",
         "Deleted": false,
-        "Rank": 76,
-        "Type": "qui",
+        "Rank": 428,
+        "Type": "cupiditate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 145,
-        "ExtraInfo": "sit",
-        "StyleHint": "quia",
-        "FullName": "Nathen Robel",
+        "IconHint": "consectetur",
+        "ColorBlock": 526,
+        "ExtraInfo": "quia",
+        "StyleHint": "eveniet",
+        "FullName": "Dolores Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 384
+            "FieldType": "System.Int32",
+            "FieldLength": 786
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 110,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "consequuntur",
-    "FullName": "Miss Raina Lang",
+    "IconHint": "corrupti",
+    "ColorBlock": 933,
+    "ExtraInfo": "enim",
+    "StyleHint": "architecto",
+    "FullName": "Miss Mathias Lesch MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   }

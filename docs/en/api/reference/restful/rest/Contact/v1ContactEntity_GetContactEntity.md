@@ -119,7 +119,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,160 +127,160 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 29 Oct 2015 04:02:06 G10T
+Last-Modified: Fri, 14 Aug 2009 03:44:57 G8T
 
 {
-  "ContactId": 15,
-  "Name": "Schmidt LLC",
+  "ContactId": 711,
+  "Name": "Fritsch LLC",
   "Department": "",
-  "OrgNr": "1263778",
-  "Number1": "267413",
-  "Number2": "269922",
-  "UpdatedDate": "2015-10-29T04:02:06.3999163+01:00",
-  "CreatedDate": "2022-03-31T04:02:06.3999163+02:00",
+  "OrgNr": "1017884",
+  "Number1": "1061285",
+  "Number2": "7112",
+  "UpdatedDate": "2009-08-14T03:44:57.1402759+02:00",
+  "CreatedDate": "2006-01-16T03:44:57.1402759+01:00",
   "Emails": [
     {
-      "Value": "et",
-      "StrippedValue": "doloribus",
-      "Description": "Devolved 24/7 benchmark",
+      "Value": "fugit",
+      "StrippedValue": "aut",
+      "Description": "Function-based bifurcated utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 525
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "doloribus",
-      "Description": "Devolved 24/7 benchmark",
+      "Value": "fugit",
+      "StrippedValue": "aut",
+      "Description": "Function-based bifurcated utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 525
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 646,
-      "Name": "Bins, Russel and Davis",
-      "ToolTip": "Nemo reiciendis natus asperiores.",
-      "Deleted": true,
-      "Rank": 625,
-      "Type": "velit",
-      "ColorBlock": 278,
-      "IconHint": "qui",
+      "Id": 688,
+      "Name": "Cartwright-Gorczany",
+      "ToolTip": "Repellendus ut.",
+      "Deleted": false,
+      "Rank": 942,
+      "Type": "officia",
+      "ColorBlock": 634,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2007-08-05T04:02:06.3999163+02:00",
+      "LastChanged": "2011-08-14T03:44:57.1402759+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "reiciendis",
+      "ExtraInfo": "in",
+      "StyleHint": "minus",
       "Hidden": true,
-      "FullName": "Prof. Eloisa Langworth I",
+      "FullName": "Miss Carol Dejon Stroman Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 442
+          "FieldLength": 600
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "hic",
-      "StrippedValue": "aut",
-      "Description": "Integrated multimedia Graphical User Interface",
+      "Value": "vitae",
+      "StrippedValue": "sint",
+      "Description": "Extended coherent instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 448
         }
       }
     },
     {
-      "Value": "hic",
-      "StrippedValue": "aut",
-      "Description": "Integrated multimedia Graphical User Interface",
+      "Value": "vitae",
+      "StrippedValue": "sint",
+      "Description": "Extended coherent instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 448
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "veniam",
-      "StrippedValue": "a",
-      "Description": "Enterprise-wide zero tolerance conglomeration",
+      "Value": "maxime",
+      "StrippedValue": "iure",
+      "Description": "Optional reciprocal middleware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     },
     {
-      "Value": "veniam",
-      "StrippedValue": "a",
-      "Description": "Enterprise-wide zero tolerance conglomeration",
+      "Value": "maxime",
+      "StrippedValue": "iure",
+      "Description": "Optional reciprocal middleware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "veniam",
-      "StrippedValue": "tempore",
-      "Description": "Extended interactive knowledge base",
+      "Value": "voluptas",
+      "StrippedValue": "quod",
+      "Description": "Persistent empowering success",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 343
         }
       }
     },
     {
-      "Value": "veniam",
-      "StrippedValue": "tempore",
-      "Description": "Extended interactive knowledge base",
+      "Value": "voluptas",
+      "StrippedValue": "quod",
+      "Description": "Persistent empowering success",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 343
         }
       }
     }
   ],
-  "Description": "Streamlined high-level frame",
+  "Description": "Decentralized explicit focus group",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,105 +289,105 @@ Last-Modified: Thu, 29 Oct 2015 04:02:06 G10T
   "Country": null,
   "Persons": [
     {
-      "Position": "ea",
-      "PersonId": 365,
-      "Mrmrs": "sit",
-      "Firstname": "Elza",
-      "Lastname": "Bernier",
-      "MiddleName": "West Inc and Sons",
-      "Title": "vel",
-      "Description": "Profound upward-trending forecast",
-      "Email": "marlen@bednarratke.info",
-      "FullName": "Penelope Langosh",
-      "DirectPhone": "1-921-120-4632",
-      "FormalName": "Dare, D'Amore and Torp",
-      "CountryId": 643,
-      "ContactId": 544,
-      "ContactName": "Cummerata, Smith and Vandervort",
-      "Retired": 901,
-      "Rank": 166,
-      "ActiveInterests": 224,
+      "Position": "deleniti",
+      "PersonId": 17,
+      "Mrmrs": "odit",
+      "Firstname": "Oliver",
+      "Lastname": "Lehner",
+      "MiddleName": "Reichel, Halvorson and O'Connell",
+      "Title": "nam",
+      "Description": "Multi-lateral scalable matrix",
+      "Email": "ewell.ziemann@blickdamore.biz",
+      "FullName": "Kaya Flatley",
+      "DirectPhone": "(381)366-2083 x53520",
+      "FormalName": "Zboncak-Hammes",
+      "CountryId": 178,
+      "ContactId": 513,
+      "ContactName": "Metz Group",
+      "Retired": 186,
+      "Rank": 3,
+      "ActiveInterests": 212,
       "ContactDepartment": "",
-      "ContactCountryId": 317,
-      "ContactOrgNr": "1697163",
-      "FaxPhone": "398-041-6249",
-      "MobilePhone": "423-768-0470",
-      "ContactPhone": "161.520.6726 x8134",
-      "AssociateName": "Mante, Kunze and Breitenberg",
-      "AssociateId": 361,
+      "ContactCountryId": 749,
+      "ContactOrgNr": "773888",
+      "FaxPhone": "(125)123-5462",
+      "MobilePhone": "1-007-194-7994 x499",
+      "ContactPhone": "1-340-020-5300 x668",
+      "AssociateName": "Beer, Wolff and Huel",
+      "AssociateId": 870,
       "UsePersonAddress": true,
-      "ContactFax": "illum",
-      "Kanafname": "temporibus",
-      "Kanalname": "vel",
-      "Post1": "deserunt",
-      "Post2": "non",
-      "Post3": "ullam",
-      "EmailName": "lavada_pagac@schultzlittle.us",
-      "ContactFullName": "Hassie Feest",
-      "ActiveErpLinks": 57,
-      "TicketPriorityId": 472,
-      "SupportLanguageId": 266,
-      "SupportAssociateId": 230,
+      "ContactFax": "velit",
+      "Kanafname": "asperiores",
+      "Kanalname": "laborum",
+      "Post1": "excepturi",
+      "Post2": "facere",
+      "Post3": "voluptatum",
+      "EmailName": "ona.lind@wolfmante.ca",
+      "ContactFullName": "Ernesto Will",
+      "ActiveErpLinks": 633,
+      "TicketPriorityId": 238,
+      "SupportLanguageId": 353,
+      "SupportAssociateId": 890,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 986
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "voluptatem",
+  "NoMailing": true,
+  "Kananame": "consequatur",
   "Xstop": false,
-  "ActiveInterests": 35,
-  "GroupId": 587,
-  "ActiveStatusMonitorId": 623,
+  "ActiveInterests": 921,
+  "GroupId": 255,
+  "ActiveStatusMonitorId": 559,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 743,
-  "DbiAgentId": 55,
-  "DbiLastSyncronized": "2020-03-10T04:02:06.3999163+01:00",
-  "DbiKey": "ut",
-  "DbiLastModified": "2008-05-07T04:02:06.3999163+02:00",
+  "Deleted": 421,
+  "DbiAgentId": 922,
+  "DbiLastSyncronized": "2001-02-14T03:44:57.1402759+01:00",
+  "DbiKey": "beatae",
+  "DbiLastModified": "2005-05-20T03:44:57.1402759+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 907,
-  "ActiveErpLinks": 310,
+  "Source": 167,
+  "ActiveErpLinks": 586,
   "BounceEmails": [
-    "francesco_oreilly@schoen.uk",
-    "sallie@erdman.com"
+    "alfreda@gutkowski.biz",
+    "augustine@jenkinsmurray.us"
   ],
   "Domains": [
-    "aspernatur",
-    "dolore"
+    "voluptatibus",
+    "odit"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1436214696",
+    "SuperOffice:2": "Zita Mertz"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "modi",
+    "CustomFields2": "excepturi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

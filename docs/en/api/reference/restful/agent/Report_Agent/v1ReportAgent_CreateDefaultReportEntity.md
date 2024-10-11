@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 803,
+  "ReportId": 916,
   "ReportCategory": "All",
-  "Description": "Switchable national process improvement",
+  "Description": "User-centric 24/7 model",
   "ReportLayout": "CalendarMonth",
-  "Name": "Waters-Trantow",
-  "AssociateId": 822,
-  "TemplateId": 443,
+  "Name": "Skiles Group",
+  "AssociateId": 247,
+  "TemplateId": 528,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 458
     }
   }
 }

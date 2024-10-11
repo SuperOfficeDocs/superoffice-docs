@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "excepturi",
-  "ProviderName": "Waelchi-Renner",
-  "StorageKey": "natus"
+  "StorageType": "qui",
+  "ProviderName": "Luettgen Group",
+  "StorageKey": "suscipit"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Jacobi Group",
-    "DisplayTooltip": "et",
-    "DisplayType": "eveniet",
-    "CanOrderBy": true,
-    "Name": "Blick-Tromp",
-    "CanRestrictBy": false,
-    "RestrictionType": "voluptatum",
-    "RestrictionListName": "Hyatt-Ward",
+    "DisplayName": "Hahn Inc and Sons",
+    "DisplayTooltip": "nobis",
+    "DisplayType": "sed",
+    "CanOrderBy": false,
+    "Name": "Tillman-Bartoletti",
+    "CanRestrictBy": true,
+    "RestrictionType": "nam",
+    "RestrictionListName": "Schumm, Ferry and Hammes",
     "IsVisible": false,
-    "ExtraInfo": "eum",
-    "Width": "excepturi",
-    "IconHint": "et",
-    "HeadingIconHint": "odit"
+    "ExtraInfo": "eos",
+    "Width": "quo",
+    "IconHint": "animi",
+    "HeadingIconHint": "placeat"
   }
 ]
 ```

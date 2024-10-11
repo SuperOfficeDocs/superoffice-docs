@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=excepturi
+GET /api/v1/List/ProductFamily/MDOItems?query=dolorum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Oberbrunner Inc and Sons",
-    "ToolTip": "Voluptatem rerum voluptatem voluptatem aperiam.",
-    "Deleted": true,
-    "Rank": 687,
-    "Type": "eius",
+    "Id": 337,
+    "Name": "Sipes LLC",
+    "ToolTip": "Quis vero.",
+    "Deleted": false,
+    "Rank": 736,
+    "Type": "quidem",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "Ryan-Treutel",
-        "ToolTip": "Porro totam voluptatum quis neque est adipisci dolor.",
+        "Id": 927,
+        "Name": "Monahan LLC",
+        "ToolTip": "Quidem quis molestiae aut ut consequatur rerum.",
         "Deleted": false,
-        "Rank": 268,
-        "Type": "exercitationem",
+        "Rank": 98,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 118,
-        "ExtraInfo": "numquam",
-        "StyleHint": "iste",
-        "FullName": "Desiree Dooley",
+        "IconHint": "voluptas",
+        "ColorBlock": 581,
+        "ExtraInfo": "eos",
+        "StyleHint": "sed",
+        "FullName": "Tyreek Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 974
+            "FieldType": "System.Int32",
+            "FieldLength": 285
           }
         }
       }
     ],
-    "IconHint": "earum",
-    "ColorBlock": 805,
-    "ExtraInfo": "eos",
-    "StyleHint": "expedita",
-    "FullName": "Mrs. Abagail Alvina Turner",
+    "IconHint": "ab",
+    "ColorBlock": 158,
+    "ExtraInfo": "ut",
+    "StyleHint": "id",
+    "FullName": "Darrin Douglas PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 947
       }
     }
   }

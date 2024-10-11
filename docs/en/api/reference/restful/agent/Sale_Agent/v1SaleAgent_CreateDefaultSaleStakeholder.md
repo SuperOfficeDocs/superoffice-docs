@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jerde, Emmerich and Reynolds",
-  "Comment": "placeat",
-  "StakeholderRoleId": 901,
-  "CountryId": 332,
-  "PersonId": 253,
-  "EmailDescription": "braeden@reynolds.info",
-  "EmailId": 488,
-  "EmailAddress": "elissa_crooks@goyette.ca",
-  "PhoneId": 809,
-  "ContactName": "Wolff Group",
-  "ContactId": 106,
-  "SaleId": 626,
-  "Mrmrs": "sed",
-  "Firstname": "Candida",
-  "MiddleName": "Wisoky-Jewess",
-  "Lastname": "Marks",
-  "SaleStakeholderId": 275,
-  "Rank": 407,
-  "Phone": "139.941.6635",
+  "StakeholderRoleName": "Cassin-Marvin",
+  "Comment": "quidem",
+  "StakeholderRoleId": 881,
+  "CountryId": 584,
+  "PersonId": 350,
+  "EmailDescription": "pat@bogan.us",
+  "EmailId": 379,
+  "EmailAddress": "orpha_medhurst@goodwintowne.co.uk",
+  "PhoneId": 961,
+  "ContactName": "Hudson, Gulgowski and Barton",
+  "ContactId": 764,
+  "SaleId": 152,
+  "Mrmrs": "et",
+  "Firstname": "Dave",
+  "MiddleName": "Bahringer Group",
+  "Lastname": "Rodriguez",
+  "SaleStakeholderId": 532,
+  "Rank": 148,
+  "Phone": "070.293.2572",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldType": "System.String",
+      "FieldLength": 128
     }
   }
 }

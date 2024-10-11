@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 115,
-  "Name": "Kreiger Group",
-  "Description": "Enterprise-wide upward-trending circuit",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 287,
+  "Name": "Daugherty, Lueilwitz and Kunde",
+  "Description": "Quality-focused foreground open architecture",
+  "WelcomeMessage": "ut",
   "Language": null,
-  "LastAccept": "2023-05-01T04:02:01.3467779+02:00",
-  "SecondsPrAccept": 963,
-  "AlertRecipient": "ut",
+  "LastAccept": "2006-10-07T03:44:52.1208843+02:00",
+  "SecondsPrAccept": 539,
+  "AlertRecipient": "blanditiis",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "occaecati",
+  "CollectConsent": true,
+  "BadgeHeader": "maiores",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "error",
-  "WarnNewChatMinutes": 905,
-  "WarnManagerNewChatMinutes": 294,
+  "CustomQueueText": "perspiciatis",
+  "WarnNewChatMinutes": 833,
+  "WarnManagerNewChatMinutes": 631,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 178,
-  "WarnManagerChatMessageMinutes": 502,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 803,
-  "OfflineFormQueueLength": 81,
+  "WarnChatMessageMinutes": 76,
+  "WarnManagerChatMessageMinutes": 286,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 404,
+  "OfflineFormQueueLength": 769,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sit"
+  "WidgetRatingText": "non"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 473,
-  "Name": "Hirthe-Wolff",
-  "Description": "Realigned well-modulated instruction set",
-  "WelcomeMessage": "enim",
+  "ChatTopicId": 288,
+  "Name": "Rogahn-Boyer",
+  "Description": "Right-sized systematic forecast",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2021-09-18T04:02:01.3467779+02:00",
-  "SecondsPrAccept": 102,
-  "AlertRecipient": "nulla",
+  "LastAccept": "2003-05-17T03:44:52.1208843+02:00",
+  "SecondsPrAccept": 657,
+  "AlertRecipient": "quas",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "dolores",
+  "BadgeHeader": "labore",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sed",
-  "WarnNewChatMinutes": 353,
-  "WarnManagerNewChatMinutes": 239,
-  "TicketEnabled": true,
+  "CustomQueueText": "omnis",
+  "WarnNewChatMinutes": 485,
+  "WarnManagerNewChatMinutes": 34,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 860,
-  "WarnManagerChatMessageMinutes": 233,
+  "WarnChatMessageMinutes": 388,
+  "WarnManagerChatMessageMinutes": 397,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 674,
-  "OfflineFormQueueLength": 928,
+  "OfflineFormTimeLimit": 849,
+  "OfflineFormQueueLength": 910,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sit",
+  "WidgetRatingText": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 727
     }
   }
 }

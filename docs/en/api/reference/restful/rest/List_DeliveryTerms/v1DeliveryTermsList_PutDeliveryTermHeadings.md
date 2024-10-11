@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 495,
-    "Name": "Hammes Inc and Sons",
-    "Tooltip": "eos",
+    "HeadingId": 816,
+    "Name": "Bauch Inc and Sons",
+    "Tooltip": "officia",
     "Deleted": false,
-    "Rank": 25,
-    "UdListDefinitionId": 550
+    "Rank": 170,
+    "UdListDefinitionId": 44
   },
   {
-    "HeadingId": 495,
-    "Name": "Hammes Inc and Sons",
-    "Tooltip": "eos",
+    "HeadingId": 816,
+    "Name": "Bauch Inc and Sons",
+    "Tooltip": "officia",
     "Deleted": false,
-    "Rank": 25,
-    "UdListDefinitionId": 550
+    "Rank": 170,
+    "UdListDefinitionId": 44
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 666,
-    "Name": "Adams, Hansen and Gleason",
-    "Tooltip": "repellendus",
+    "HeadingId": 164,
+    "Name": "Pollich-Kutch",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 298,
-    "UdListDefinitionId": 532,
+    "Rank": 767,
+    "UdListDefinitionId": 682,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldLength": 71
       }
     }
   }

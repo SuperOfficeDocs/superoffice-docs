@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 369,
-  "IsActive": true,
+  "ErpConnectionId": 645,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 982,
-      "CrmFieldKey": "illum",
-      "CrmDisplayName": "Hermiston-McKenzie",
-      "CrmDisplayTooltip": "aliquam",
-      "ErpFieldKey": "mollitia",
+      "ErpFieldId": 108,
+      "CrmFieldKey": "cumque",
+      "CrmDisplayName": "Jenkins-Medhurst",
+      "CrmDisplayTooltip": "enim",
+      "ErpFieldKey": "at",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Sawayn, Larson and Swaniawski",
-      "ErpDisplayTooltip": "numquam",
+      "ErpDisplayName": "Hackett-Weissnat",
+      "ErpDisplayTooltip": "accusantium",
       "SyncToCrm": false,
-      "SyncToErp": true,
+      "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
+      "AlreadyMapped": true,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "adipisci",
+      "ListReference": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 959
+          "FieldType": "System.String",
+          "FieldLength": 19
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 30
     }
   }
 }

@@ -71,9 +71,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 502,
-  "Period2": 417,
-  "Period3": 181
+  "Period1": 491,
+  "Period2": 391,
+  "Period3": 688
 }
 ```
 
@@ -84,15 +84,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 628,
-  "Period2": 337,
-  "Period3": 412,
+  "Period1": 871,
+  "Period2": 154,
+  "Period3": 668,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 969
     }
   }
 }

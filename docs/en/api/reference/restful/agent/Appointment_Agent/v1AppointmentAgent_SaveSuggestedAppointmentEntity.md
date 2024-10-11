@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 66,
-  "Name": "Erdman Inc and Sons",
-  "Tooltip": "quis",
-  "Rank": 283,
+  "SuggestedAppointmentId": 36,
+  "Name": "Batz-Bogisich",
+  "Tooltip": "cum",
+  "Rank": 532,
   "Deleted": false,
-  "DaysFuture": 499,
-  "Duration": "veniam",
+  "DaysFuture": 349,
+  "Duration": "est",
   "AutoSuggest": false,
-  "IsMilestone": true,
-  "AssignToMember": true,
-  "Text": "ut",
+  "IsMilestone": false,
+  "AssignToMember": false,
+  "Text": "est",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 398,
-  "Name": "Lindgren-Auer",
-  "Tooltip": "quia",
-  "Rank": 26,
+  "SuggestedAppointmentId": 840,
+  "Name": "McGlynn-Altenwerth",
+  "Tooltip": "cumque",
+  "Rank": 743,
   "Deleted": false,
-  "DaysFuture": 961,
-  "Duration": "saepe",
-  "AutoSuggest": false,
-  "IsMilestone": false,
+  "DaysFuture": 48,
+  "Duration": "consectetur",
+  "AutoSuggest": true,
+  "IsMilestone": true,
   "AssignToMember": true,
-  "Text": "consequuntur",
+  "Text": "libero",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   }
 }

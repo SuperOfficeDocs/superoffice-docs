@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=993
+GET /api/v1/Contact/{contactId}/Summary?limit=31
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 176,
-      "TicketStatus": 520,
-      "Title": "omnis",
-      "Registered": "2017-11-10T04:02:06.4316632+01:00",
-      "IconHint": "molestiae"
+      "TicketId": 164,
+      "TicketStatus": 893,
+      "Title": "vero",
+      "Registered": "2003-01-23T03:44:57.1715229+01:00",
+      "IconHint": "consequatur"
     },
     {
-      "TicketId": 176,
-      "TicketStatus": 520,
-      "Title": "omnis",
-      "Registered": "2017-11-10T04:02:06.4316632+01:00",
-      "IconHint": "molestiae"
+      "TicketId": 164,
+      "TicketStatus": 893,
+      "Title": "vero",
+      "Registered": "2003-01-23T03:44:57.1715229+01:00",
+      "IconHint": "consequatur"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 641,
-      "DocumentId": 560,
-      "Date": "2002-11-08T04:02:06.4316632+01:00",
-      "Description": "Progressive asynchronous installation",
+      "AppointmentId": 32,
+      "DocumentId": 31,
+      "Date": "2002-11-13T03:44:57.1715229+01:00",
+      "Description": "Switchable explicit collaboration",
       "Completed": "Completed",
-      "Registered": "1997-08-20T04:02:06.4316632+02:00"
+      "Registered": "2016-04-16T03:44:57.1715229+02:00"
     },
     {
-      "AppointmentId": 641,
-      "DocumentId": 560,
-      "Date": "2002-11-08T04:02:06.4316632+01:00",
-      "Description": "Progressive asynchronous installation",
+      "AppointmentId": 32,
+      "DocumentId": 31,
+      "Date": "2002-11-13T03:44:57.1715229+01:00",
+      "Description": "Switchable explicit collaboration",
       "Completed": "Completed",
-      "Registered": "1997-08-20T04:02:06.4316632+02:00"
+      "Registered": "2016-04-16T03:44:57.1715229+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 69,
-      "DocumentId": 464,
-      "Date": "1998-12-02T04:02:06.4316632+01:00",
-      "Description": "Reactive attitude-oriented installation",
+      "AppointmentId": 195,
+      "DocumentId": 867,
+      "Date": "2012-10-16T03:44:57.1715229+02:00",
+      "Description": "Optional impactful emulation",
       "Completed": "Completed",
-      "Registered": "2002-06-30T04:02:06.4316632+02:00"
+      "Registered": "2007-02-25T03:44:57.1715229+01:00"
     },
     {
-      "AppointmentId": 69,
-      "DocumentId": 464,
-      "Date": "1998-12-02T04:02:06.4316632+01:00",
-      "Description": "Reactive attitude-oriented installation",
+      "AppointmentId": 195,
+      "DocumentId": 867,
+      "Date": "2012-10-16T03:44:57.1715229+02:00",
+      "Description": "Optional impactful emulation",
       "Completed": "Completed",
-      "Registered": "2002-06-30T04:02:06.4316632+02:00"
+      "Registered": "2007-02-25T03:44:57.1715229+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 584,
-      "SaleDate": "2015-06-07T04:02:06.4316632+02:00",
-      "Probability": 984,
-      "Heading": "sit",
-      "Amount": 10476.962,
-      "Currency": "cumque",
-      "AmountInBaseCurrency": 22715.232,
+      "SaleId": 877,
+      "SaleDate": "2000-09-21T03:44:57.1715229+02:00",
+      "Probability": 493,
+      "Heading": "eum",
+      "Amount": 30343.388,
+      "Currency": "ut",
+      "AmountInBaseCurrency": 10342.199999999999,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2019-05-05T04:02:06.4316632+02:00"
+      "Registered": "2020-04-11T03:44:57.1715229+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 433,
-      "Name": "Bailey LLC",
-      "CompanyName": "Hahn Group",
-      "FirstMessage": "et",
-      "LastMessage": "voluptatum",
-      "WhenRequested": "2003-06-10T04:02:06.4316632+02:00",
-      "WhenEnded": "2005-08-18T04:02:06.4316632+02:00"
+      "ChatSessionId": 280,
+      "Name": "Wolff-Ruecker",
+      "CompanyName": "Goodwin, Kerluke and Dare",
+      "FirstMessage": "sequi",
+      "LastMessage": "recusandae",
+      "WhenRequested": "2020-03-04T03:44:57.1715229+01:00",
+      "WhenEnded": "2010-11-15T03:44:57.1715229+01:00"
     }
   ]
 }

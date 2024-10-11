@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 823,
-  "Select": "totam"
+  "SelectionId": 466,
+  "Select": "et"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Heidenreich Inc and Sons",
-    "PrimaryKey": 142,
+    "EntityName": "Stark, Macejkovic and Jaskolski",
+    "PrimaryKey": 448,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "expedita",
-        "LinkHint": "ipsa"
+        "DisplayValue": "eum",
+        "TooltipHint": "quo",
+        "LinkHint": "commodi"
       }
     },
-    "LinkHint": "quisquam",
-    "StyleHint": "eveniet",
+    "LinkHint": "beatae",
+    "StyleHint": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 179
       }
     }
   }

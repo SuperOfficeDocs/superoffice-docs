@@ -68,7 +68,7 @@ OK
 DELETE /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "illum",
-  "VersionId": "optio",
+  "ExternalReference": "veniam",
+  "VersionId": "qui",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "veritatis",
-  "AdditionalInfo": "reiciendis"
+  "Value": "commodi",
+  "AdditionalInfo": "velit"
 }
 ```

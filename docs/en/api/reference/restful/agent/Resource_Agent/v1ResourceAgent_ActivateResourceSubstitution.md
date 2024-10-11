@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Stracke, Sanford and Hagenes",
-  "Culture": "laboriosam",
-  "IsActive": true
+  "ResourceName": "Ortiz, Schulist and Corwin",
+  "Culture": "consectetur",
+  "IsActive": false
 }
 ```
 

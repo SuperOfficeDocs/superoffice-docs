@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Price LLC",
-    "ToolTip": "Enim et sit voluptas in delectus suscipit atque.",
+    "Id": 370,
+    "Name": "Jast, Windler and Kozey",
+    "ToolTip": "Consequuntur dignissimos rerum maxime exercitationem voluptas.",
     "Deleted": false,
-    "Rank": 486,
-    "Type": "aut",
-    "ColorBlock": 904,
-    "IconHint": "in",
+    "Rank": 83,
+    "Type": "occaecati",
+    "ColorBlock": 114,
+    "IconHint": "quisquam",
     "Selected": true,
-    "LastChanged": "2008-07-19T04:02:07.119095+02:00",
+    "LastChanged": "2020-02-22T03:44:57.9374899+01:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Walsh LLC",
-        "ToolTip": "Autem culpa quaerat.",
-        "Deleted": true,
-        "Rank": 994,
-        "Type": "temporibus",
-        "ColorBlock": 581,
-        "IconHint": "incidunt",
+        "Id": 599,
+        "Name": "Upton Group",
+        "ToolTip": "Doloribus aut voluptatem quaerat.",
+        "Deleted": false,
+        "Rank": 769,
+        "Type": "et",
+        "ColorBlock": 400,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2005-06-10T04:02:07.119095+02:00",
+        "LastChanged": "2015-03-18T03:44:57.9374899+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
+        "ExtraInfo": "nobis",
         "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Anika Moore",
+        "FullName": "Reba Ernser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 945
+            "FieldType": "System.String",
+            "FieldLength": 706
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Louisa Wintheiser",
+    "ExtraInfo": "est",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Miss Willy Terry DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

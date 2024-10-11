@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Hessel-Wiza",
-  "Tooltip": "nisi",
+  "Id": 951,
+  "Name": "Kuhn Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 508,
-  "Rank": 828,
+  "UdListDefinitionId": 958,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 988
     }
   }
 }

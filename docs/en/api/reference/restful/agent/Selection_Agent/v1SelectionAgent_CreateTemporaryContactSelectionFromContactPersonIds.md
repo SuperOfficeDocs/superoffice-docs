@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 272,
-      "ContactId": 503
+      "PersonId": 903,
+      "ContactId": 857
     },
     {
-      "PersonId": 272,
-      "ContactId": 503
+      "PersonId": 903,
+      "ContactId": 857
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved well-modulated structure",
-  "Postit": "sequi",
+  "Description": "Compatible real-time focus group",
+  "Postit": "voluptates",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 464,
-  "IncludePerson": 747,
+  "GroupIdx": 106,
+  "IncludePerson": 670,
   "MemberCount": 99.99,
-  "Name": "Fay, Jacobs and Shanahan",
-  "PostitTextId": 740,
-  "CreatedDate": "2002-08-26T04:02:02.31613+02:00",
-  "SelectionId": 205,
-  "SoundEx": "nisi",
-  "Source": 305,
-  "TextId": 53,
-  "UpdatedDate": "2000-08-18T04:02:02.31613+02:00",
-  "UpdatedCount": 921,
-  "Visibility": 688,
+  "Name": "Swaniawski Inc and Sons",
+  "PostitTextId": 319,
+  "CreatedDate": "2023-02-18T03:44:53.1726478+01:00",
+  "SelectionId": 735,
+  "SoundEx": "adipisci",
+  "Source": 752,
+  "TextId": 439,
+  "UpdatedDate": "2024-03-23T03:44:53.1726478+01:00",
+  "UpdatedCount": 281,
+  "Visibility": 703,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 951,
-  "TargetTableName": "Abernathy, Altenwerth and Goldner",
+  "CompanyUnique": false,
+  "TargetTableNumber": 479,
+  "TargetTableName": "Franecki, Hilpert and Kunze",
   "Completed": false,
-  "LeftSelectionId": 622,
-  "RightSelectionId": 290,
+  "LeftSelectionId": 681,
+  "RightSelectionId": 372,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Thiel-Franecki",
-  "ShadowProviderName": "Kozey-O'Hara",
-  "ChartKey": "qui",
-  "LastLoaded": "2015-12-13T04:02:02.31613+01:00",
-  "LastLoadedBy": 559,
+  "MainProviderName": "Gaylord, Homenick and Doyle",
+  "ShadowProviderName": "Lindgren LLC",
+  "ChartKey": "et",
+  "LastLoaded": "2017-10-24T03:44:53.1726478+02:00",
+  "LastLoadedBy": 497,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-04-29T04:02:02.31613+02:00",
-  "LastMembershipChangeBy": 236,
+  "LastMembershipChange": "2019-02-19T03:44:53.1726478+01:00",
+  "LastMembershipChangeBy": 922,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ratione",
-  "MemberTabHeading": "nesciunt",
-  "MailingsProviderName": "Waters Inc and Sons",
-  "DashboardTileDefinitionId": 231,
+  "MainHeading": "aut",
+  "MemberTabHeading": "eligendi",
+  "MailingsProviderName": "Hudson, Hauck and Torp",
+  "DashboardTileDefinitionId": 843,
   "VisibleFor": [
     {
-      "VisibleId": 701,
+      "VisibleId": 479,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldType": "System.String",
+          "FieldLength": 861
         }
       }
     },
     {
-      "VisibleId": 701,
+      "VisibleId": 479,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldType": "System.String",
+          "FieldLength": 861
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldType": "System.String",
+      "FieldLength": 653
     }
   }
 }

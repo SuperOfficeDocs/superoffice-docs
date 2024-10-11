@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 845,
-  "Name": "King, Schinner and Purdy",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "Rank": 806,
-  "UdListDefinitionId": 974
+  "HeadingId": 879,
+  "Name": "Tillman, Feest and Beer",
+  "Tooltip": "vero",
+  "Deleted": false,
+  "Rank": 700,
+  "UdListDefinitionId": 11
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 57,
-  "Name": "Emard LLC",
-  "Tooltip": "qui",
+  "HeadingId": 225,
+  "Name": "Feil, Feest and Boehm",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "Rank": 128,
-  "UdListDefinitionId": 130,
+  "Rank": 426,
+  "UdListDefinitionId": 320,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 942
     }
   }
 }

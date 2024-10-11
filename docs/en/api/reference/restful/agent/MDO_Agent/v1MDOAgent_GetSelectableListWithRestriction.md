@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reilly Group",
-  "AdditionalInfo": "tempore",
-  "SearchValue": "necessitatibus"
+  "Name": "Johnston, Kertzmann and Kessler",
+  "AdditionalInfo": "quae",
+  "SearchValue": "quisquam"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Deckow-Bashirian",
-    "ToolTip": "Dolores autem nostrum corporis et.",
+    "Id": 901,
+    "Name": "Quitzon-Jacobs",
+    "ToolTip": "Laboriosam ut eum iste quam et.",
     "Deleted": false,
-    "Rank": 405,
-    "Type": "eius",
-    "ColorBlock": 34,
-    "IconHint": "fugit",
-    "Selected": true,
-    "LastChanged": "2015-09-20T04:02:01.909728+02:00",
+    "Rank": 194,
+    "Type": "eveniet",
+    "ColorBlock": 293,
+    "IconHint": "doloremque",
+    "Selected": false,
+    "LastChanged": "1998-10-19T03:44:52.7614393+02:00",
     "ChildItems": [
       {
-        "Id": 860,
-        "Name": "Huels-Blanda",
-        "ToolTip": "Vel velit eveniet consequatur quidem quia nostrum architecto.",
+        "Id": 251,
+        "Name": "Gerhold-Wiegand",
+        "ToolTip": "Reprehenderit a est ipsum et earum.",
         "Deleted": false,
-        "Rank": 380,
-        "Type": "doloribus",
-        "ColorBlock": 215,
-        "IconHint": "sunt",
+        "Rank": 21,
+        "Type": "iure",
+        "ColorBlock": 83,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2023-08-24T04:02:01.909728+02:00",
+        "LastChanged": "2002-01-28T03:44:52.7614393+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "magni",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Kellen Bednar",
+        "FullName": "Mollie Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 308
+            "FieldLength": 484
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "odio",
-    "Hidden": true,
-    "FullName": "Max Cronin",
+    "ExtraInfo": "quia",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Ms. Derick Eula Pfeffer Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 718
+        "FieldLength": 503
       }
     }
   }

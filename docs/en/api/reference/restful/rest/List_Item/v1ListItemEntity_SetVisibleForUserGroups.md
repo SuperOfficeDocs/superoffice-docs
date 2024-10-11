@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Stanton LLC",
-    "ToolTip": "Repellendus laborum odit minus dolorem qui qui.",
-    "Deleted": true,
-    "Rank": 465,
-    "Type": "sit",
-    "ColorBlock": 820,
-    "IconHint": "doloribus",
+    "Id": 894,
+    "Name": "Robel, Williamson and Kuhic",
+    "ToolTip": "Reiciendis officia eum aut doloribus rerum id.",
+    "Deleted": false,
+    "Rank": 291,
+    "Type": "ut",
+    "ColorBlock": 530,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2022-06-21T04:02:07.0566019+02:00",
+    "LastChanged": "2011-07-11T03:44:57.8125425+02:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Bartoletti-Fritsch",
-        "ToolTip": "Aut eos expedita dolores ut dolor.",
+        "Id": 362,
+        "Name": "Hand Inc and Sons",
+        "ToolTip": "Id consequatur provident modi soluta architecto.",
         "Deleted": false,
-        "Rank": 180,
-        "Type": "ipsam",
-        "ColorBlock": 493,
-        "IconHint": "asperiores",
+        "Rank": 6,
+        "Type": "odio",
+        "ColorBlock": 424,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2007-03-03T04:02:07.0566019+01:00",
+        "LastChanged": "1999-06-27T03:44:57.8125425+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "ipsum",
-        "Hidden": false,
-        "FullName": "Zoey Wintheiser III"
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Dr. Jayce Blick Sr."
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Samantha Kirlin IV"
+    "ExtraInfo": "officiis",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Jordan Harris"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "O'Kon, Reichert and Hilpert",
-    "ToolTip": "Numquam voluptate porro fugiat voluptatem labore corrupti.",
+    "Id": 536,
+    "Name": "Heaney LLC",
+    "ToolTip": "Fugiat est.",
     "Deleted": false,
-    "Rank": 334,
-    "Type": "amet",
-    "ColorBlock": 162,
-    "IconHint": "saepe",
+    "Rank": 574,
+    "Type": "architecto",
+    "ColorBlock": 800,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2010-06-17T04:02:07.0566019+02:00",
+    "LastChanged": "2023-01-01T03:44:57.8125425+01:00",
     "ChildItems": [
       {
-        "Id": 149,
-        "Name": "Spinka, Davis and Fisher",
-        "ToolTip": "Similique illo illum sed est quae a.",
-        "Deleted": false,
-        "Rank": 289,
-        "Type": "id",
-        "ColorBlock": 649,
-        "IconHint": "voluptatibus",
+        "Id": 953,
+        "Name": "Feeney-Turner",
+        "ToolTip": "Possimus quo consequatur nam consequatur laborum sequi commodi.",
+        "Deleted": true,
+        "Rank": 871,
+        "Type": "optio",
+        "ColorBlock": 304,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2006-05-19T04:02:07.0566019+02:00",
+        "LastChanged": "2006-11-30T03:44:57.8125425+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "eum",
+        "ExtraInfo": "similique",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Nathanael Thiel Sr.",
+        "FullName": "Prof. Antonio Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 323
+            "FieldLength": 74
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "quis",
+    "ExtraInfo": "sit",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Prof. Dannie Gaylord IV",
+    "FullName": "Mr. Rene Mara Herzog DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldType": "System.String",
+        "FieldLength": 262
       }
     }
   }

@@ -101,7 +101,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 191
+  "ContactId": 169
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ankunding-Moore",
-    "SaleDate": "2014-07-17T04:02:02.28488+02:00",
-    "SaleId": 254,
-    "Probability": 494,
-    "Title": "et",
-    "Amount": 25253.772,
-    "Currency": "omnis",
-    "ProjectName": "Yundt, O'Kon and Conn",
-    "AssociateFullName": "Ms. Erin Christina Cole Jr.",
-    "Description": "Customizable web-enabled workforce",
+    "ContactName": "Spinka, Schuster and Muller",
+    "SaleDate": "2016-01-10T03:44:53.136845+01:00",
+    "SaleId": 846,
+    "Probability": 872,
+    "Title": "ex",
+    "Amount": 30616.046,
+    "Currency": "libero",
+    "ProjectName": "Simonis Inc and Sons",
+    "AssociateFullName": "Ines Lesch",
+    "Description": "Secured client-driven extranet",
     "Status": "Lost",
-    "WeightedAmount": 8217.348,
-    "ProjectId": 546,
-    "EarningPercent": 6336.9479999999994,
-    "Earning": 30475.016,
-    "ContactId": 495,
-    "AssociateId": 170,
-    "PersonId": 99,
-    "SaleTypeId": 243,
-    "SaleTypeName": "Yundt, Moore and Paucek",
-    "PersonFullName": "Shirley Crist",
+    "WeightedAmount": 3506.946,
+    "ProjectId": 66,
+    "EarningPercent": 28137.052,
+    "Earning": 30189.822,
+    "ContactId": 1000,
+    "AssociateId": 483,
+    "PersonId": 775,
+    "SaleTypeId": 277,
+    "SaleTypeName": "Rosenbaum-Hartmann",
+    "PersonFullName": "Marvin King",
     "Completed": "Completed",
-    "ActiveErpLinks": 582,
-    "NextDueDate": "2007-05-03T04:02:02.28488+02:00",
-    "Number": "453977",
+    "ActiveErpLinks": 302,
+    "NextDueDate": "2007-04-13T03:44:53.136845+02:00",
+    "Number": "1326796",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 712
       }
     }
   }

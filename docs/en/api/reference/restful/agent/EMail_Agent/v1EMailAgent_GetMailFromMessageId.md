@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "debitis"
+  "MessageId": "nisi"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 917,
-      "ContactName": "Hermiston Inc and Sons",
-      "PersonId": 70,
-      "PersonName": "Moore-Beatty",
-      "AssociateId": 324,
-      "Address": "in",
-      "EmailId": 10,
+      "ContactId": 886,
+      "ContactName": "Jenkins Inc and Sons",
+      "PersonId": 651,
+      "PersonName": "Conn LLC",
+      "AssociateId": 549,
+      "Address": "architecto",
+      "EmailId": 463,
       "DuplicatePersonIds": [
-        420,
-        988
+        130,
+        230
       ],
-      "Name": "Ankunding LLC",
+      "Name": "Heidenreich-Wunsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 298
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 754,
-      "ContactName": "Zieme, McKenzie and Runte",
-      "PersonId": 401,
-      "PersonName": "Legros Group",
-      "AssociateId": 562,
-      "Address": "incidunt",
-      "EmailId": 232,
+      "ContactId": 952,
+      "ContactName": "Luettgen Group",
+      "PersonId": 735,
+      "PersonName": "Ratke, West and Satterfield",
+      "AssociateId": 490,
+      "Address": "quam",
+      "EmailId": 943,
       "DuplicatePersonIds": [
-        770,
-        506
+        448,
+        84
       ],
-      "Name": "Miller-Borer",
+      "Name": "Johns, Langworth and Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldType": "System.String",
+          "FieldLength": 599
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 483,
-      "ContactName": "Ortiz Inc and Sons",
-      "PersonId": 453,
-      "PersonName": "Parisian-Dicki",
-      "AssociateId": 988,
-      "Address": "quis",
-      "EmailId": 608,
+      "ContactId": 888,
+      "ContactName": "Kassulke, Rice and Kulas",
+      "PersonId": 926,
+      "PersonName": "Boehm Inc and Sons",
+      "AssociateId": 128,
+      "Address": "maxime",
+      "EmailId": 511,
       "DuplicatePersonIds": [
-        568,
-        682
+        335,
+        579
       ],
-      "Name": "Becker-Tromp",
+      "Name": "Goodwin, Bartoletti and Rau",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 282
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "quis",
+  "Subject": "error",
+  "HTMLBody": "eligendi",
   "From": null,
-  "Sent": "2003-01-03T04:02:01.6748777+01:00",
-  "Size": 246,
+  "Sent": "2013-08-13T03:44:52.5427529+02:00",
+  "Size": 281,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "sed",
+  "MessageID": "alias",
+  "PlainBody": "doloremque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 451,
+  "ServerId": 640,
   "Attachments": [
     {
-      "Description": "Organic reciprocal challenge",
+      "Description": "Reduced attitude-oriented intranet",
       "Filename": "rerum",
-      "Size": 447,
-      "Type": "est",
-      "Encoding": "ipsam",
-      "Id": "itaque",
-      "Disposition": "quibusdam",
+      "Size": 189,
+      "Type": "itaque",
+      "Encoding": "laboriosam",
+      "Id": "porro",
+      "Disposition": "omnis",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 236
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "D'Amore, Keebler and Gorczany",
+      "Name": "Breitenberg, Larson and Kemmer",
       "Values": [
-        "et",
-        "quia"
+        "quae",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 340
         }
       }
     },
     {
-      "Name": "D'Amore, Keebler and Gorczany",
+      "Name": "Breitenberg, Larson and Kemmer",
       "Values": [
-        "et",
-        "quia"
+        "quae",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 340
         }
       }
     }
   ],
-  "FolderName": "Schneider-Grant",
-  "EmailItemId": 492,
-  "AccountId": 779,
-  "ReceivedAt": "2005-04-10T04:02:01.6748777+02:00",
+  "FolderName": "Walter Inc and Sons",
+  "EmailItemId": 308,
+  "AccountId": 398,
+  "ReceivedAt": "2000-06-30T03:44:52.5427529+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-06-26T04:02:01.6748777+02:00",
+  "RepliedAt": "2016-03-14T03:44:52.5427529+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 348
     }
   }
 }

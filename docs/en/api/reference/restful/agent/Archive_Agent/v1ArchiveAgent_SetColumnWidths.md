@@ -69,10 +69,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Zemlak Group",
+  "GuiName": "Brown, Kirlin and Monahan",
   "ColumnWidths": [
-    "modi",
-    "perspiciatis"
+    "recusandae",
+    "fugit"
   ]
 }
 ```

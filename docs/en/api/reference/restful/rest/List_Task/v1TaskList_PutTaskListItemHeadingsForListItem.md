@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 537,
-    "Name": "Kihn, Bergstrom and Cole",
-    "ToolTip": "Necessitatibus quia doloremque sint.",
-    "Deleted": false,
-    "Rank": 584,
-    "Type": "officia",
-    "ColorBlock": 288,
-    "IconHint": "id",
+    "Id": 479,
+    "Name": "Schroeder-Witting",
+    "ToolTip": "Aut molestiae quisquam.",
+    "Deleted": true,
+    "Rank": 843,
+    "Type": "aut",
+    "ColorBlock": 34,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2002-05-24T04:02:07.4318023+02:00",
+    "LastChanged": "2004-11-27T03:44:58.1874634+01:00",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Douglas Inc and Sons",
-        "ToolTip": "Minus voluptas voluptatum possimus officiis.",
+        "Id": 226,
+        "Name": "Hills Inc and Sons",
+        "ToolTip": "Aut omnis vitae vitae accusantium totam soluta explicabo.",
         "Deleted": false,
-        "Rank": 15,
-        "Type": "sit",
-        "ColorBlock": 240,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2011-05-10T04:02:07.4318023+02:00",
+        "Rank": 889,
+        "Type": "id",
+        "ColorBlock": 979,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2024-07-06T03:44:58.1874634+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Christelle Stiedemann"
+        "FullName": "Connie Lubowitz"
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "architecto",
-    "Hidden": true,
-    "FullName": "Dr. Lindsay Garnet Brakus V"
+    "ExtraInfo": "sed",
+    "StyleHint": "perferendis",
+    "Hidden": false,
+    "FullName": "Garth Gutkowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Hickle Group",
-    "ToolTip": "Molestias veritatis omnis consequatur odit sit omnis velit.",
+    "Id": 530,
+    "Name": "Harber, Bode and Kautzer",
+    "ToolTip": "Adipisci error minima consequatur.",
     "Deleted": false,
-    "Rank": 635,
-    "Type": "corporis",
-    "ColorBlock": 874,
-    "IconHint": "consequatur",
+    "Rank": 502,
+    "Type": "ut",
+    "ColorBlock": 885,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2002-08-14T04:02:07.4318023+02:00",
+    "LastChanged": "2012-12-06T03:44:58.1874634+01:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Abernathy, Williamson and Sipes",
-        "ToolTip": "Fugiat accusantium necessitatibus eius rem sunt.",
+        "Id": 440,
+        "Name": "Erdman-Little",
+        "ToolTip": "Unde corrupti inventore repellendus illo perspiciatis nihil.",
         "Deleted": false,
-        "Rank": 382,
-        "Type": "et",
-        "ColorBlock": 522,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2015-11-20T04:02:07.4318023+01:00",
+        "Rank": 132,
+        "Type": "repudiandae",
+        "ColorBlock": 174,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2019-04-25T03:44:58.1874634+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "delectus",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Rosario Quitzon",
+        "FullName": "Mr. Erwin Alvina Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 209
+            "FieldLength": 173
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "quod",
-    "Hidden": true,
-    "FullName": "Elsie Towne",
+    "ExtraInfo": "et",
+    "StyleHint": "saepe",
+    "Hidden": false,
+    "FullName": "Antonietta Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 980
       }
     }
   }

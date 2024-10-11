@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "accusamus",
+  "RawValue": "quos",
   "Specification": null,
-  "DisplayValue": "repudiandae",
-  "DisplayTooltip": "eius",
+  "DisplayValue": "architecto",
+  "DisplayTooltip": "qui",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 774,
-  "PrefDescId": 707,
-  "TableName": "Macejkovic Inc and Sons",
-  "UserPreferenceId": 979
+  "TargetId": 855,
+  "PrefDescId": 480,
+  "TableName": "Steuber LLC",
+  "UserPreferenceId": 173
 }
 ```
 

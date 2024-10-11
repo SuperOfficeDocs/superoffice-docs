@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 706,
-  "Name": "Ziemann-Raynor",
-  "Description": "Balanced stable frame",
-  "DefaultHeight": 906,
-  "DefaultWidth": 53,
+  "DashboardTileDefinitionId": 192,
+  "Name": "Wiza-Hoeger",
+  "Description": "Object-based 3rd generation installation",
+  "DefaultHeight": 333,
+  "DefaultWidth": 463,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Jones Group",
-  "SelectionId": 584,
+  "EntityName": "Zemlak Inc and Sons",
+  "SelectionId": 612,
   "CurrencyMode": "Base",
-  "CurrencyCode": "architecto",
+  "CurrencyCode": "esse",
   "Measure": "Average",
-  "MeasureField": "quae",
-  "SortBy": "quidem",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 224,
-  "MeasureByField": "eaque",
+  "MeasureField": "minima",
+  "SortBy": "amet",
+  "LayoutConfig": "doloremque",
+  "SecondarySelectionId": 262,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Hickle, Beer and Balistreri",
+  "ProviderName": "Grady Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 613
     }
   }
 }

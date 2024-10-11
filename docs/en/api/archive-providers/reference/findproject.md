@@ -793,7 +793,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=sale/userGroup,sale/associate/isActiveText,projectMember/personId,projectMember/legalBaseEmarketing,projectMember/contactUdef/SuperOffice:11
+GET /api/v1/archive/FindProject?$select=registeredDate,endDate,LastCompletedActivity,appointment/date,projectMember/restrictionAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 676
+  "TicketEntityId": 855
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 295,
-    "Name": "Nitzsche-Halvorson",
-    "ContentType": "aut",
-    "AttSize": 775,
-    "InlineImage": true,
-    "ContentId": "atque",
-    "AuthKey": "nobis",
+    "AttachmentId": 396,
+    "Name": "Lueilwitz Inc and Sons",
+    "ContentType": "suscipit",
+    "AttSize": 141,
+    "InlineImage": false,
+    "ContentId": "odit",
+    "AuthKey": "provident",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 925
       }
     }
   }

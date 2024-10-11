@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 434,
+    "TargetDimensionId": 735,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "voluptatem",
-    "DimensionListName": "Miller, Carroll and Parker",
-    "DimensionListId": 466,
-    "DimensionListLabel": "voluptatem",
+    "DimensionListField": "quia",
+    "DimensionListName": "Buckridge-Rutherford",
+    "DimensionListId": 59,
+    "DimensionListLabel": "consequatur",
     "SelectedDimensions": [
-      823,
-      859
+      522,
+      819
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldLength": 999
       }
     }
   }

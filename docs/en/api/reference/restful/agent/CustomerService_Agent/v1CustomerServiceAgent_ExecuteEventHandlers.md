@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "praesentium",
-    "InputValues2": "enim"
+    "InputValues1": "autem",
+    "InputValues2": "unde"
   },
-  "BlockExecution": true,
-  "NavigateTo": "repellat",
-  "Message": "aut",
-  "ShowDialog": "exercitationem",
+  "BlockExecution": false,
+  "NavigateTo": "explicabo",
+  "Message": "fugit",
+  "ShowDialog": "animi",
   "OutputValues": {
-    "OutputValues1": "sapiente",
-    "OutputValues2": "velit"
+    "OutputValues1": "aut",
+    "OutputValues2": "vitae"
   },
   "StateValues": {
-    "StateValues1": "iure",
-    "StateValues2": "sapiente"
+    "StateValues1": "quia",
+    "StateValues2": "dolor"
   },
-  "Exception": "distinctio",
+  "Exception": "qui",
   "ParserValues": {
-    "ParserValues1": "maxime",
-    "ParserValues2": "dolorem"
+    "ParserValues1": "sunt",
+    "ParserValues2": "aut"
   },
   "CgiVariables": {
-    "CgiVariables1": "saepe",
-    "CgiVariables2": "est"
+    "CgiVariables1": "ea",
+    "CgiVariables2": "quis"
   },
-  "CgiContent": "in",
+  "CgiContent": "est",
   "Headers": {
-    "Headers1": "accusamus",
-    "Headers2": "est"
+    "Headers1": "et",
+    "Headers2": "quisquam"
   },
   "TraceExecution": true,
   "TableRight": null,
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 466
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Osinski, Sipes and Hansen",
-    "ToolTip": "Quasi molestias consequatur quia placeat ut.",
+    "Id": 875,
+    "Name": "Zemlak-McCullough",
+    "ToolTip": "Harum ex sunt ut vero quis dignissimos temporibus.",
     "Deleted": false,
-    "Rank": 512,
-    "Type": "libero",
-    "ColorBlock": 823,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2023-04-06T04:02:07.3534465+02:00",
+    "Rank": 178,
+    "Type": "fugit",
+    "ColorBlock": 820,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2001-07-03T03:44:58.0937233+02:00",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Waelchi Inc and Sons",
-        "ToolTip": "Id et debitis tenetur et sunt.",
+        "Id": 755,
+        "Name": "Tromp Inc and Sons",
+        "ToolTip": "Quia laboriosam adipisci repudiandae ut dolor et.",
         "Deleted": false,
-        "Rank": 888,
-        "Type": "ipsam",
-        "ColorBlock": 364,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2000-02-03T04:02:07.3534465+01:00",
+        "Rank": 100,
+        "Type": "perspiciatis",
+        "ColorBlock": 625,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2010-09-30T03:44:58.0937233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "labore",
+        "ExtraInfo": "eaque",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Johnnie Hermiston"
+        "FullName": "Dr. Alberta Schaden"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Marlene Lowe DDS"
+    "ExtraInfo": "dolorum",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Miss Reese Sanford II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Tillman LLC",
-    "ToolTip": "Modi non officiis quibusdam quis minima voluptatem nemo.",
-    "Deleted": false,
-    "Rank": 11,
-    "Type": "quae",
-    "ColorBlock": 806,
-    "IconHint": "aut",
+    "Id": 365,
+    "Name": "Rath, Sipes and Barton",
+    "ToolTip": "Rerum vel qui magnam quisquam consequatur.",
+    "Deleted": true,
+    "Rank": 686,
+    "Type": "aliquid",
+    "ColorBlock": 419,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2016-04-10T04:02:07.3534465+02:00",
+    "LastChanged": "2006-08-07T03:44:58.0937233+02:00",
     "ChildItems": [
       {
-        "Id": 564,
-        "Name": "Rath LLC",
-        "ToolTip": "Impedit fuga maxime voluptatum quia.",
+        "Id": 515,
+        "Name": "Prosacco, Daniel and O'Connell",
+        "ToolTip": "Sed veritatis id voluptates.",
         "Deleted": false,
-        "Rank": 560,
-        "Type": "nisi",
-        "ColorBlock": 426,
-        "IconHint": "occaecati",
+        "Rank": 271,
+        "Type": "praesentium",
+        "ColorBlock": 388,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2014-05-09T04:02:07.3534465+02:00",
+        "LastChanged": "1999-04-26T03:44:58.0937233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Casimir Hintz",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Jillian Keon Kertzmann Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 261
+            "FieldLength": 30
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "iure",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Buster Armstrong",
+    "FullName": "Denis Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 342
+        "FieldLength": 838
       }
     }
   }

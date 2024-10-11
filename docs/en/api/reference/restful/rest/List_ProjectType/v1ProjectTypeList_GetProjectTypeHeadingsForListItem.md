@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Hoeger LLC",
-    "ToolTip": "Veniam sint iusto corrupti veniam.",
+    "Id": 256,
+    "Name": "Heathcote, Kuhn and Jacobs",
+    "ToolTip": "Nam iure tenetur velit.",
     "Deleted": true,
-    "Rank": 828,
-    "Type": "et",
-    "ColorBlock": 526,
-    "IconHint": "facere",
+    "Rank": 317,
+    "Type": "quibusdam",
+    "ColorBlock": 258,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2014-08-24T04:02:07.3534465+02:00",
+    "LastChanged": "2018-03-03T03:44:58.0937233+01:00",
     "ChildItems": [
       {
-        "Id": 704,
-        "Name": "White, Rutherford and Shanahan",
-        "ToolTip": "Ut sapiente sed non velit iure ab in.",
-        "Deleted": false,
-        "Rank": 100,
-        "Type": "fugit",
-        "ColorBlock": 211,
-        "IconHint": "omnis",
+        "Id": 878,
+        "Name": "Walter, Zulauf and Braun",
+        "ToolTip": "Quia aut.",
+        "Deleted": true,
+        "Rank": 35,
+        "Type": "cupiditate",
+        "ColorBlock": 133,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2018-01-09T04:02:07.3534465+01:00",
+        "LastChanged": "2009-10-12T03:44:58.0937233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "aliquam",
-        "Hidden": true,
-        "FullName": "Keshaun Sawayn",
+        "ExtraInfo": "quis",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Juliana Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldType": "System.String",
+            "FieldLength": 333
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "totam",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Josephine Issac Franecki Sr.",
+    "FullName": "Allie Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 94
+        "FieldType": "System.Int32",
+        "FieldLength": 521
       }
     }
   }

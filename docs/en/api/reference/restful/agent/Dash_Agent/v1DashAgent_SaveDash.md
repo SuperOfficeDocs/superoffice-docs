@@ -91,30 +91,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 914,
-  "UniqueId": "repudiandae",
-  "Name": "Hickle Group",
-  "Description": "Synergized encompassing task-force",
-  "AssociateId": 412,
-  "Columns": 284,
+  "DashboardId": 276,
+  "UniqueId": "et",
+  "Name": "Kunde, Schumm and Champlin",
+  "Description": "Fully-configurable eco-centric attitude",
+  "AssociateId": 384,
+  "Columns": 113,
   "Theme": null,
-  "VisibleForAll": 403,
+  "VisibleForAll": 875,
   "VisibleForAssociates": [
-    637,
-    391
+    264,
+    911
   ],
   "VisibleForGroups": [
-    230,
-    374
+    320,
+    767
   ],
-  "PinForAll": 283,
+  "PinForAll": 885,
   "PinForAssociates": [
-    268,
-    904
+    414,
+    852
   ],
   "PinForGroups": [
-    1000,
-    555
+    73,
+    706
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 15,
-  "UniqueId": "facilis",
-  "Name": "Wilderman-Gerlach",
-  "Description": "Optional methodical neural-net",
-  "AssociateId": 577,
-  "Columns": 680,
+  "DashboardId": 130,
+  "UniqueId": "aut",
+  "Name": "Nienow, Cassin and Jenkins",
+  "Description": "Horizontal fault-tolerant secured line",
+  "AssociateId": 808,
+  "Columns": 924,
   "Theme": null,
-  "VisibleForAll": 647,
+  "VisibleForAll": 281,
   "VisibleForAssociates": [
-    87,
-    577
+    549,
+    112
   ],
   "VisibleForGroups": [
-    133,
-    604
+    545,
+    568
   ],
-  "PinForAll": 815,
+  "PinForAll": 518,
   "PinForAssociates": [
-    625,
-    82
+    510,
+    377
   ],
   "PinForGroups": [
-    734,
-    68
+    892,
+    937
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 227
     }
   }
 }

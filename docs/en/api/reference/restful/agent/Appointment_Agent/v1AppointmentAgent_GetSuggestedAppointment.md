@@ -26,7 +26,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=329
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=546
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 661,
-  "Deleted": 347,
-  "DaysFuture": 550,
-  "Tooltip": "exercitationem",
-  "Text": "vitae",
-  "TaskId": 141,
-  "SuggestedAppointmentId": 913,
-  "SaleTypeStageLinkId": 652,
-  "RegisteredAssociateId": 366,
-  "Rank": 568,
-  "ProjectTypeStatusLinkId": 573,
-  "Name": "Boehm-Kuvalis",
-  "Duration": 277,
+  "AutoSuggest": 740,
+  "Deleted": 924,
+  "DaysFuture": 315,
+  "Tooltip": "ducimus",
+  "Text": "quaerat",
+  "TaskId": 914,
+  "SuggestedAppointmentId": 201,
+  "SaleTypeStageLinkId": 967,
+  "RegisteredAssociateId": 335,
+  "Rank": 766,
+  "ProjectTypeStatusLinkId": 285,
+  "Name": "Macejkovic Group",
+  "Duration": 147,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldLength": 405
     }
   }
 }

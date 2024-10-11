@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Rolfson Inc and Sons",
-    "ToolTip": "Ut quia eos.",
-    "Deleted": true,
-    "Rank": 600,
-    "Type": "illum",
-    "ColorBlock": 848,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2023-01-23T04:02:07.1347182+01:00",
+    "Id": 219,
+    "Name": "Balistreri LLC",
+    "ToolTip": "Eum doloribus debitis ex temporibus minus omnis aperiam.",
+    "Deleted": false,
+    "Rank": 524,
+    "Type": "eaque",
+    "ColorBlock": 926,
+    "IconHint": "vero",
+    "Selected": false,
+    "LastChanged": "2022-03-06T03:44:57.9687368+01:00",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "West-Connelly",
-        "ToolTip": "Quidem aut aut.",
-        "Deleted": false,
-        "Rank": 581,
-        "Type": "corrupti",
-        "ColorBlock": 220,
-        "IconHint": "quidem",
+        "Id": 129,
+        "Name": "Monahan, Welch and Wolf",
+        "ToolTip": "Aut ratione dolores sed.",
+        "Deleted": true,
+        "Rank": 472,
+        "Type": "aut",
+        "ColorBlock": 295,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1998-09-07T04:02:07.1347182+02:00",
+        "LastChanged": "2017-07-26T03:44:57.9687368+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Kaylie Towne",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Kellie Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 303
+            "FieldType": "System.Int32",
+            "FieldLength": 862
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "facilis",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Abel Paucek",
+    "FullName": "Ms. Serena Reichel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

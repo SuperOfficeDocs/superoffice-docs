@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Howe-Larkin",
-      "Operator": "est",
+      "Name": "Brakus Group",
+      "Operator": "aut",
       "Values": [
-        "nemo",
-        "quis"
+        "consectetur",
+        "fugiat"
       ],
       "DisplayValues": [
-        "cum",
-        "nihil"
+        "quos",
+        "quidem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 881,
+      "InterParenthesis": 5,
       "InterOperator": "And",
-      "UniqueHash": 939
+      "UniqueHash": 353
     }
   ],
-  "ProviderName": "Morar LLC",
-  "PageSize": 916,
-  "PageNumber": 396
+  "ProviderName": "Hodkiewicz LLC",
+  "PageSize": 255,
+  "PageNumber": 828
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "O'Kon, Kuhn and Mertz",
-      "DisplayTooltip": "voluptatibus",
-      "DisplayType": "corporis",
+      "DisplayName": "Kunde, O'Kon and Kovacek",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "expedita",
       "CanOrderBy": false,
-      "Name": "Shields Inc and Sons",
+      "Name": "Rempel-Dietrich",
       "CanRestrictBy": true,
-      "RestrictionType": "officiis",
-      "RestrictionListName": "Bradtke LLC",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Hilpert Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "maiores",
-      "Width": "occaecati",
-      "IconHint": "voluptatum",
-      "HeadingIconHint": "doloremque"
+      "ExtraInfo": "eum",
+      "Width": "iste",
+      "IconHint": "est",
+      "HeadingIconHint": "molestiae"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Roob, Halvorson and Wilderman",
-      "PrimaryKey": 989,
+      "EntityName": "Schaden, Runte and Anderson",
+      "PrimaryKey": 215,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "porro",
-          "TooltipHint": "qui",
-          "LinkHint": "sed"
+          "DisplayValue": "ut",
+          "TooltipHint": "reprehenderit",
+          "LinkHint": "in"
         }
       },
-      "LinkHint": "occaecati",
-      "StyleHint": "voluptatibus",
+      "LinkHint": "et",
+      "StyleHint": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 160
         }
       }
     }
   ],
-  "RowCount": 931,
+  "RowCount": 75,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 558
     }
   }
 }

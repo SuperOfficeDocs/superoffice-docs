@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 986,
-  "StartTime": "2016-06-13T04:02:00.986941+02:00",
-  "EndTime": "2004-09-30T04:02:00.986941+02:00",
-  "Count": 98,
-  "TaskId": 249
+  "ContactId": 959,
+  "StartTime": "2010-07-28T03:44:51.8396645+02:00",
+  "EndTime": "2013-10-05T03:44:51.8396645+02:00",
+  "Count": 564,
+  "TaskId": 255
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 325,
-    "StartDate": "2008-12-18T04:02:00.986941+01:00",
-    "EndDate": "2023-04-04T04:02:00.986941+02:00",
+    "AppointmentId": 159,
+    "StartDate": "2016-08-26T03:44:51.8396645+02:00",
+    "EndDate": "2008-02-11T03:44:51.8396645+01:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Karina Itzel Hartmann DVM",
-    "ContactName": "Predovic-Jerde",
-    "Description": "Innovative directional ability",
-    "PersonFullName": "Clement Cruickshank",
-    "PersonId": 795,
-    "ContactId": 503,
-    "ProjectId": 165,
-    "ProjectName": "Haley, Cummerata and Waters",
-    "IsPublished": false,
-    "AssociateId": 323,
-    "ColorIndex": 736,
-    "IsFree": true,
-    "HasAlarm": false,
+    "Task": "quia",
+    "AssociateFullName": "Elfrieda Yundt",
+    "ContactName": "Lockman-Parisian",
+    "Description": "Streamlined 24 hour encryption",
+    "PersonFullName": "Miss Aniyah Kris",
+    "PersonId": 890,
+    "ContactId": 685,
+    "ProjectId": 514,
+    "ProjectName": "Mills Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 57,
+    "ColorIndex": 599,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 383,
-    "PriorityName": "Kutch, McLaughlin and Hamill",
+    "PriorityId": 852,
+    "PriorityName": "Langworth-Thompson",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2023-07-23T04:02:00.986941+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2014-07-15T03:44:51.8396645+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-11-10T04:02:00.986941+01:00",
-    "RecurringEndDate": "2014-01-28T04:02:00.986941+01:00",
-    "MotherId": 801,
-    "AssignedBy": 122,
-    "AssignedByFullName": "Harmony Lind",
+    "RecurringStartDate": "2005-02-03T03:44:51.8396645+01:00",
+    "RecurringEndDate": "2019-10-16T03:44:51.8396645+02:00",
+    "MotherId": 617,
+    "AssignedBy": 369,
+    "AssignedByFullName": "Cierra Romaguera",
     "RejectReason": "",
-    "Location": "tempora",
-    "AlarmLeadTime": "error",
-    "SaleId": 252,
-    "SaleName": "Kunde-Kunze",
-    "AssociateName": "Mills-Langosh",
-    "CreatedDate": "2019-08-25T04:02:00.986941+02:00",
-    "CreatedBy": "veritatis",
-    "CreatedByFullName": "Mrs. Jeffery Vena Schowalter",
-    "CreatedByAssociateId": 978,
+    "Location": "dolor",
+    "AlarmLeadTime": "fugiat",
+    "SaleId": 755,
+    "SaleName": "Bailey-Skiles",
+    "AssociateName": "Breitenberg, Rippin and Goodwin",
+    "CreatedDate": "2022-06-11T03:44:51.8396645+02:00",
+    "CreatedBy": "vitae",
+    "CreatedByFullName": "Sid Bayer Jr.",
+    "CreatedByAssociateId": 462,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 972,
-    "Title": "et",
-    "Agenda": "ut",
-    "InternalNotes": "nemo",
+    "PreferredTZLocation": 651,
+    "Title": "ex",
+    "Agenda": "quo",
+    "InternalNotes": "iste",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldLength": 298
       }
     }
   }

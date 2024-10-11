@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 236
+  "DocumentId": 565
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "dolorem",
-    "DocumentId": 335,
-    "VersionId": "qui",
-    "CheckedInDate": "2010-12-08T04:02:01.6436305+01:00",
-    "CheckedInByName": "Labadie-Huel",
-    "CheckedInByAssociateId": 517,
-    "Description": "Cross-platform reciprocal protocol",
-    "DisplayText": "id",
+    "ExternalReference": "et",
+    "DocumentId": 452,
+    "VersionId": "fugiat",
+    "CheckedInDate": "1997-08-03T03:44:52.5115026+02:00",
+    "CheckedInByName": "Leffler LLC",
+    "CheckedInByAssociateId": 113,
+    "Description": "Visionary high-level service-desk",
+    "DisplayText": "impedit",
     "ExtraFields": [
-      "ut",
-      "minus"
+      "veniam",
+      "occaecati"
     ]
   }
 ]

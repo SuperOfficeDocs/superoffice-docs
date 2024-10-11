@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 517,
-  "PersonId": 663,
-  "AppointmentId": 941,
-  "DocumentId": 422,
-  "SaleId": 215,
-  "SelectionId": 468,
-  "ProjectId": 294,
+  "ContactId": 903,
+  "PersonId": 752,
+  "AppointmentId": 786,
+  "DocumentId": 173,
+  "SaleId": 584,
+  "SelectionId": 340,
+  "ProjectId": 827,
   "CustomTags": [
-    "aut",
-    "quam"
+    "ea",
+    "libero"
   ],
   "CustomValues": [
-    "quisquam",
-    "odio"
+    "explicabo",
+    "voluptates"
   ],
-  "UiCulture": "earum"
+  "UiCulture": "soluta"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 856,
+  "DocumentId": 891,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolorum",
-  "Header": "fugit",
-  "Name": "Maggio, O'Conner and Gutkowski",
-  "OurRef": "laudantium",
-  "YourRef": "tempora",
-  "CreatedDate": "2001-07-02T04:02:01.6280068+02:00",
-  "UpdatedDate": "2024-03-08T04:02:01.6280068+01:00",
-  "Description": "Synergized didactic leverage",
+  "Attention": "et",
+  "Header": "nemo",
+  "Name": "Sawayn, Rohan and Senger",
+  "OurRef": "dolorem",
+  "YourRef": "adipisci",
+  "CreatedDate": "2018-04-23T03:44:52.480256+02:00",
+  "UpdatedDate": "1999-04-08T03:44:52.480256+02:00",
+  "Description": "Reactive grid-enabled alliance",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-12-24T04:02:01.6280068+01:00",
-  "ExternalRef": "ullam",
+  "Date": "2009-04-27T03:44:52.4958766+02:00",
+  "ExternalRef": "tenetur",
   "Completed": "Completed",
-  "ActiveLinks": 516,
+  "ActiveLinks": 321,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Steuber, Wisoky and Ebert",
-      "Id": 974,
-      "Description": "Fully-configurable 24/7 product",
-      "ExtraInfo": "et",
-      "LinkId": 59,
+      "EntityName": "Morar-Berge",
+      "Id": 302,
+      "Description": "Advanced empowering core",
+      "ExtraInfo": "consequatur",
+      "LinkId": 6,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldType": "System.String",
+          "FieldLength": 393
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 964,
-  "Snum": 898,
+  "SuggestedDocumentId": 436,
+  "Snum": 929,
   "UserDefinedFields": {
-    "SuperOffice:1": "Germaine Macejkovic",
-    "SuperOffice:2": "Prof. Nya Tyrese Reinger MD"
+    "SuperOffice:1": "Ms. Jacklyn Carter Sr.",
+    "SuperOffice:2": "Jodie Jones"
   },
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "maxime"
+    "CustomFields1": "sit",
+    "CustomFields2": "ab"
   },
-  "PublishEventDate": "2003-11-24T04:02:01.6280068+01:00",
-  "PublishTo": "1997-09-07T04:02:01.6280068+02:00",
-  "PublishFrom": "2013-05-15T04:02:01.6280068+02:00",
+  "PublishEventDate": "2022-09-14T03:44:52.4958766+02:00",
+  "PublishTo": "2012-04-22T03:44:52.4958766+02:00",
+  "PublishFrom": "2015-06-16T03:44:52.4958766+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 377,
+      "VisibleId": 898,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldLength": 428
         }
       }
     },
     {
-      "VisibleId": 377,
+      "VisibleId": 898,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldLength": 428
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   }
 }

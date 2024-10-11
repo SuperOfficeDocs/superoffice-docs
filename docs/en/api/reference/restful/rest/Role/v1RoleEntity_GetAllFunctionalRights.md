@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Jewess, Bruen and Senger",
-    "ToolTip": "Ea architecto aspernatur quia necessitatibus laboriosam.",
+    "Id": 386,
+    "Name": "Jast-Hills",
+    "ToolTip": "In vero est reiciendis sit.",
     "Deleted": false,
-    "Rank": 557,
-    "Type": "rerum",
-    "ColorBlock": 198,
-    "IconHint": "asperiores",
-    "Selected": true,
-    "LastChanged": "2020-02-23T04:02:06.7441349+01:00",
+    "Rank": 561,
+    "Type": "sint",
+    "ColorBlock": 146,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2002-10-07T03:44:57.5000465+02:00",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Beer, Rodriguez and White",
-        "ToolTip": "Magnam iusto excepturi consequatur labore enim dolorum perspiciatis.",
-        "Deleted": false,
-        "Rank": 360,
-        "Type": "voluptatem",
-        "ColorBlock": 683,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2019-10-14T04:02:06.7441349+02:00",
+        "Id": 157,
+        "Name": "Weber, Mitchell and Tremblay",
+        "ToolTip": "Et et amet.",
+        "Deleted": true,
+        "Rank": 289,
+        "Type": "ex",
+        "ColorBlock": 74,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2001-09-10T03:44:57.5000465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "odio",
+        "ExtraInfo": "dolore",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Mrs. Quentin Alexie Dooley",
+        "FullName": "Osborne Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 654
+            "FieldType": "System.Int32",
+            "FieldLength": 56
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "enim",
+    "ExtraInfo": "ut",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Dino Bechtelar",
+    "FullName": "Dr. Isabelle Kavon Fay PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 108
       }
     }
   }

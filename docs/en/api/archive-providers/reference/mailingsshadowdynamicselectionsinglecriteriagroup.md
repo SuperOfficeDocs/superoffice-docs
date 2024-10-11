@@ -653,7 +653,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/streetAddress/line1,mailingAddr/contact/restrictionAddress/county,mailingAddr/person/personUpdatedByFullName,mailingAddr/person/supportAssociate,emailFlow/workflowAssociate/assocType
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/email/emailBounceCount,mailingAddr/contact/contactExtra/x_contact_dropdown,mailingAddr/person/restrictionAddress/zip,emailFlow/mediumThumbnail,emailFlow/workflowAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

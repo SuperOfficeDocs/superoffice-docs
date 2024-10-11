@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 212,
-  "Name": "Huels LLC",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 254,
+  "Id": 28,
+  "Name": "Kassulke-Cassin",
+  "Tooltip": "culpa",
+  "Deleted": true,
+  "Rank": 213,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
+  "UseGroupsAndHeadings": true,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 230,
-  "Name": "Zboncak-Ritchie",
-  "Tooltip": "iste",
+  "Id": 378,
+  "Name": "Emard-Stamm",
+  "Tooltip": "vel",
   "Deleted": true,
-  "Rank": 353,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 953,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sapiente",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 937
+      "FieldType": "System.Int32",
+      "FieldLength": 51
     }
   }
 }

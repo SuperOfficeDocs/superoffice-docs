@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 155,
-  "ParentId": 544,
-  "Name": "Green, Hilpert and Heathcote",
-  "Fullname": "recusandae",
-  "CategoryMaster": 26,
+  "TicketCategoryId": 285,
+  "ParentId": 203,
+  "Name": "Friesen-Krajcik",
+  "Fullname": "possimus",
+  "CategoryMaster": 159,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Legros-Rath",
+  "ExternalName": "Rogahn, Torp and Bayer",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 419,
-  "ReplyTemplate": 965,
-  "NotificationEmail": "marques@kundecormier.us",
+  "AssignmentLag": 613,
+  "ReplyTemplate": 354,
+  "NotificationEmail": "theodora@prosacco.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 910,
+  "EffectiveReplyTemplateId": 854,
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "est"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "sit"
+    "CustomFields1": "labore",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 945
     }
   }
 }

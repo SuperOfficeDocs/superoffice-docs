@@ -25,7 +25,7 @@ Gets all the Position items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Position/Items?includeDeleted=True
+GET /api/v1/List/Position/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Stoltenberg Inc and Sons",
-    "Tooltip": "consequuntur",
+    "Id": 408,
+    "Name": "Dach-Cummerata",
+    "Tooltip": "magni",
     "Deleted": false,
-    "UdListDefinitionId": 329,
-    "Rank": 277,
+    "UdListDefinitionId": 252,
+    "Rank": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 957
       }
     }
   }

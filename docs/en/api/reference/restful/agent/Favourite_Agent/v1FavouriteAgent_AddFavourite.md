@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Breitenberg, Nicolas and Ebert",
-  "RecordId": 501,
-  "AssociateId": 470,
-  "ExtraInfo": "nihil"
+  "TableName": "Hand, Koelpin and Windler",
+  "RecordId": 79,
+  "AssociateId": 801,
+  "ExtraInfo": "veritatis"
 }
 ```
 

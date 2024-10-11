@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Name": "Spencer Group",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "UdListDefinitionId": 679,
-  "Rank": 262
+  "Id": 217,
+  "Name": "Blanda-Bruen",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 518,
+  "Rank": 408
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 918,
-  "Name": "Hoeger, Swift and Shanahan",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "UdListDefinitionId": 375,
-  "Rank": 401,
+  "Id": 72,
+  "Name": "Carroll, Mante and Morissette",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "UdListDefinitionId": 419,
+  "Rank": 852,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 981
     }
   }
 }

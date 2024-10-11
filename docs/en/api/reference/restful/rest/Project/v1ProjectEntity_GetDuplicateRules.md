@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogisich-Walter",
-    "DisplayName": "Kuhn, Howell and Quitzon",
-    "DisplayTooltip": "distinctio",
-    "IsActive": true,
+    "Name": "Ritchie-Barton",
+    "DisplayName": "Dibbert Inc and Sons",
+    "DisplayTooltip": "delectus",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 548
       }
     }
   },
   {
-    "Name": "Bogisich-Walter",
-    "DisplayName": "Kuhn, Howell and Quitzon",
-    "DisplayTooltip": "distinctio",
-    "IsActive": true,
+    "Name": "Ritchie-Barton",
+    "DisplayName": "Dibbert Inc and Sons",
+    "DisplayTooltip": "delectus",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 548
       }
     }
   }

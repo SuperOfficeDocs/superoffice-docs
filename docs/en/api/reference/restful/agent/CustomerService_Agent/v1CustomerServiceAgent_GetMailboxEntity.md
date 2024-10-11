@@ -26,7 +26,7 @@ Gets a MailboxEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=984
+POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=464
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,category/id
 ```
 
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 996,
+  "MailInFilterId": 862,
   "ServerType": "Facebook",
-  "Address": "atque",
-  "Username": "cum",
-  "Password": "voluptatem",
-  "Server": "explicabo",
-  "Port": 246,
+  "Address": "ab",
+  "Username": "earum",
+  "Password": "voluptates",
+  "Server": "hic",
+  "Port": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 407
     }
   }
 }

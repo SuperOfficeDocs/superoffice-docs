@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 563,
-  "BlobSize": 550,
-  "Description": "Organic 6th generation moderator",
-  "ExtraInfo": "veniam",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "eum",
-  "OriginalSize": 677,
-  "CreatedDate": "2018-06-22T04:02:01.2374146+02:00",
-  "UpdatedDate": "2022-05-31T04:02:01.2374146+02:00",
+  "BlobId": 203,
+  "BlobSize": 358,
+  "Description": "Ergonomic secondary circuit",
+  "ExtraInfo": "quo",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "ut",
+  "OriginalSize": 874,
+  "CreatedDate": "2016-05-17T03:44:52.0896371+02:00",
+  "UpdatedDate": "1999-03-09T03:44:52.0896371+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "officiis"
+  "ConceptualType": "cum"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 38,
-  "BlobSize": 87,
-  "Description": "Expanded fresh-thinking encoding",
-  "ExtraInfo": "soluta",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "quis",
-  "OriginalSize": 938,
-  "CreatedDate": "2001-11-04T04:02:01.2374146+01:00",
-  "UpdatedDate": "2015-03-09T04:02:01.2374146+01:00",
+  "BlobId": 348,
+  "BlobSize": 535,
+  "Description": "Cross-platform tertiary emulation",
+  "ExtraInfo": "cum",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "iure",
+  "OriginalSize": 191,
+  "CreatedDate": "2017-10-16T03:44:52.0896371+02:00",
+  "UpdatedDate": "2001-02-08T03:44:52.0896371+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nemo",
+  "ConceptualType": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldType": "System.String",
+      "FieldLength": 488
     }
   }
 }

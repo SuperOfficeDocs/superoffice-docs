@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Roberts-Olson",
-  "Context": "incidunt"
+  "ProviderName": "Hyatt, Bartoletti and Stroman",
+  "Context": "ea"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bode, Harris and Harvey",
-    "DisplayTooltip": "sint",
-    "DisplayType": "consequatur",
-    "CanOrderBy": true,
-    "Name": "Collier-Rippin",
-    "CanRestrictBy": false,
-    "RestrictionType": "natus",
-    "RestrictionListName": "Koepp, Bosco and Lubowitz",
-    "IsVisible": false,
-    "ExtraInfo": "sit",
-    "Width": "cumque",
-    "IconHint": "impedit",
-    "HeadingIconHint": "iusto"
+    "DisplayName": "McKenzie LLC",
+    "DisplayTooltip": "est",
+    "DisplayType": "velit",
+    "CanOrderBy": false,
+    "Name": "Gleason-Kunze",
+    "CanRestrictBy": true,
+    "RestrictionType": "sint",
+    "RestrictionListName": "Gutmann-O'Hara",
+    "IsVisible": true,
+    "ExtraInfo": "voluptatem",
+    "Width": "quia",
+    "IconHint": "molestias",
+    "HeadingIconHint": "voluptatem"
   }
 ]
 ```

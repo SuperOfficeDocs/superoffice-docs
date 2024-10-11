@@ -3293,7 +3293,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=reopenDate,person/birthDay,person/personExtra/x_person_float,person/personExtra/x_person_time,person/personAssociate/contactCategory
+GET /api/v1/archive/Favourites?$select=person/birthdate,project/projectAssociate/ejDisplayName,project/projectAssociate/isActive,saleStakeholder/person/correspondingAssociate/locationAddress,saleStakeholder/contact/saintAmountClass
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

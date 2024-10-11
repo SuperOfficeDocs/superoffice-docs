@@ -1309,7 +1309,7 @@ Shadow contact provider for the static sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelection?$select=originalStage,amountWeightedInBaseCurrency,person/personDirectPhone/description,person/subscription,contact/number
+GET /api/v1/archive/SaleShadowStaticSelection?$select=soldReason,person/personExtra/x_person_user_relation,contact/postAddress/formattedAddress,appointment/appointmentPublish/publishedBy,project/name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

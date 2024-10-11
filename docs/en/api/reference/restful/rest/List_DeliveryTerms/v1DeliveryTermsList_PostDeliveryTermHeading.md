@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 291,
-  "Name": "Willms, Schumm and Schmeler",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 96,
-  "UdListDefinitionId": 632
+  "HeadingId": 179,
+  "Name": "Langworth-Pouros",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 959,
+  "UdListDefinitionId": 53
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 506,
-  "Name": "Howe-Lubowitz",
-  "Tooltip": "explicabo",
+  "HeadingId": 901,
+  "Name": "Lubowitz-Davis",
+  "Tooltip": "possimus",
   "Deleted": true,
-  "Rank": 923,
-  "UdListDefinitionId": 597,
+  "Rank": 89,
+  "UdListDefinitionId": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 528
     }
   }
 }

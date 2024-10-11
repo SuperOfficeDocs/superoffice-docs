@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Bartoletti-Rutherford",
-      "DisplayName": "Pagac, Von and Fahey",
-      "DisplayTooltip": "quia",
-      "IsActive": false
+      "Name": "Dooley Inc and Sons",
+      "DisplayName": "Pfeffer, Altenwerth and Feil",
+      "DisplayTooltip": "id",
+      "IsActive": true
     },
     {
-      "Name": "Bartoletti-Rutherford",
-      "DisplayName": "Pagac, Von and Fahey",
-      "DisplayTooltip": "quia",
-      "IsActive": false
+      "Name": "Dooley Inc and Sons",
+      "DisplayName": "Pfeffer, Altenwerth and Feil",
+      "DisplayTooltip": "id",
+      "IsActive": true
     }
   ]
 }

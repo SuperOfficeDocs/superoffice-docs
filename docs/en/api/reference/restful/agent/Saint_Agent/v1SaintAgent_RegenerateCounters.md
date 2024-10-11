@@ -98,7 +98,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 353,
-  "Name": "Terry, Fisher and Emard",
-  "AssociateId": 274,
-  "DetailsTable": 36,
-  "DetailsRecord": 215,
-  "IsSystemTask": false,
+  "Id": 900,
+  "Name": "Stokes-VonRueden",
+  "AssociateId": 591,
+  "DetailsTable": 530,
+  "DetailsRecord": 273,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "odio",
-    "ParameterObject2": "omnis"
+    "ParameterObject1": "hic",
+    "ParameterObject2": "nobis"
   },
-  "LastStarted": "2013-08-09T04:02:02.2378308+02:00",
-  "Created": "2017-04-03T04:02:02.2378308+02:00",
-  "StartCount": 522,
-  "DatabaseSerialNumber": "1203623",
-  "Context": "doloribus",
-  "Result": "temporibus",
+  "LastStarted": "2011-06-27T03:44:53.0900933+02:00",
+  "Created": "2018-06-26T03:44:53.0900933+02:00",
+  "StartCount": 410,
+  "DatabaseSerialNumber": "470394",
+  "Context": "laborum",
+  "Result": "sed",
   "State": "All",
-  "Description": "User-centric mobile protocol",
-  "Response": "inventore",
-  "Request": "itaque",
-  "ProgressDescription": "Centralized systematic Graphical User Interface",
-  "ProgressPercent": 5,
-  "FileName": "Waelchi-Kemmer",
+  "Description": "Fundamental systematic database",
+  "Response": "veritatis",
+  "Request": "velit",
+  "ProgressDescription": "Cross-group intermediate website",
+  "ProgressPercent": 459,
+  "FileName": "Breitenberg Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 428
     }
   }
 }

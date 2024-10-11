@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 549,
-  "Name": "Toy Inc and Sons",
-  "Description": "Function-based upward-trending extranet",
-  "OwnedByFullName": "Dane Kunde",
-  "Registered": "2008-05-20T04:02:01.549881+02:00",
+  "DashboardId": 375,
+  "Name": "Leuschke-Zemlak",
+  "Description": "Digitized foreground conglomeration",
+  "OwnedByFullName": "Mrs. Alysa Roel Collier DVM",
+  "Registered": "2024-06-22T03:44:52.4021422+02:00",
   "Tiles": [
     {
-      "Name": "Mante-Dach",
+      "Name": "Waters, Willms and Auer",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldType": "System.String",
+          "FieldLength": 633
         }
       }
     },
     {
-      "Name": "Mante-Dach",
+      "Name": "Waters, Willms and Auer",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldType": "System.String",
+          "FieldLength": 633
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   }
 }

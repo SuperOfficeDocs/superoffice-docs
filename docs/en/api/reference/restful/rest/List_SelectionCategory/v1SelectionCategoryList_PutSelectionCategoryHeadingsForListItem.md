@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Boyer Group",
-    "ToolTip": "Numquam sunt sunt et non.",
+    "Id": 40,
+    "Name": "Hintz-Toy",
+    "ToolTip": "Voluptatem consequuntur officiis et temporibus iste.",
     "Deleted": false,
-    "Rank": 934,
-    "Type": "quo",
-    "ColorBlock": 428,
-    "IconHint": "praesentium",
-    "Selected": true,
-    "LastChanged": "1999-05-21T04:02:07.4167631+02:00",
+    "Rank": 554,
+    "Type": "expedita",
+    "ColorBlock": 882,
+    "IconHint": "fugiat",
+    "Selected": false,
+    "LastChanged": "2013-11-16T03:44:58.17184+01:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Nolan, Dickens and Morar",
-        "ToolTip": "Saepe quis fugit voluptatum unde error.",
-        "Deleted": true,
-        "Rank": 726,
-        "Type": "laborum",
-        "ColorBlock": 888,
-        "IconHint": "consequatur",
+        "Id": 348,
+        "Name": "Toy-Okuneva",
+        "ToolTip": "In officia nisi ullam vitae qui sed quae.",
+        "Deleted": false,
+        "Rank": 233,
+        "Type": "aut",
+        "ColorBlock": 275,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1998-08-29T04:02:07.4167631+02:00",
+        "LastChanged": "2016-09-13T03:44:58.17184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "sit",
+        "ExtraInfo": "unde",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Ms. Charley Susanna McDermott Jr."
+        "FullName": "Dr. Elijah Wiza DVM"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "animi",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Mandy Thompson"
+    "FullName": "Esteban Kyleigh McLaughlin DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Botsford-Gibson",
-    "ToolTip": "Voluptatem fugit aut temporibus saepe error aut non.",
+    "Id": 694,
+    "Name": "Hoeger Inc and Sons",
+    "ToolTip": "Incidunt iste aperiam id est itaque veritatis.",
     "Deleted": false,
-    "Rank": 949,
-    "Type": "optio",
-    "ColorBlock": 384,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "1997-12-06T04:02:07.4167631+01:00",
+    "Rank": 450,
+    "Type": "quasi",
+    "ColorBlock": 345,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2013-07-27T03:44:58.17184+02:00",
     "ChildItems": [
       {
-        "Id": 512,
-        "Name": "Herzog LLC",
-        "ToolTip": "Dolores consequuntur iure esse deserunt maiores aperiam ullam.",
-        "Deleted": true,
-        "Rank": 336,
-        "Type": "nostrum",
-        "ColorBlock": 468,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2018-12-22T04:02:07.4167631+01:00",
+        "Id": 491,
+        "Name": "Jones Inc and Sons",
+        "ToolTip": "Totam quisquam sit aut adipisci sequi cum.",
+        "Deleted": false,
+        "Rank": 231,
+        "Type": "eaque",
+        "ColorBlock": 459,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2011-05-23T03:44:58.17184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "omnis",
+        "ExtraInfo": "quis",
+        "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Thelma Reilly",
+        "FullName": "Faye Oberbrunner III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldType": "System.String",
+            "FieldLength": 254
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Beulah Ward",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Rocio Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldLength": 326
       }
     }
   }

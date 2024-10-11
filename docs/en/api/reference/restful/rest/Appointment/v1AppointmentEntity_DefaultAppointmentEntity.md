@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 19 Feb 2014 04:02:06 G2T
+Last-Modified: Wed, 17 Mar 2004 03:44:56 G3T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-03-26T04:02:06.1987274+01:00",
-  "AppointmentId": 749,
-  "Description": "Cross-group content-based middleware",
-  "Title": "ut",
-  "Agenda": "qui",
-  "InternalNotes": "sapiente",
-  "StartDate": "2013-05-01T04:02:06.1987274+02:00",
-  "EndDate": "2020-08-18T04:02:06.1987274+02:00",
+  "CreatedDate": "2021-04-14T03:44:56.9371895+02:00",
+  "AppointmentId": 467,
+  "Description": "Reverse-engineered national open system",
+  "Title": "non",
+  "Agenda": "provident",
+  "InternalNotes": "accusamus",
+  "StartDate": "2019-06-16T03:44:56.9371895+02:00",
+  "EndDate": "2007-09-06T03:44:56.9371895+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 113,
+  "MotherId": 27,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-02-19T04:02:06.2003784+01:00",
+  "UpdatedDate": "2004-03-17T03:44:56.9528161+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 763,
+  "ActiveLinks": 396,
   "Links": [
     {
-      "EntityName": "Quitzon-Douglas",
-      "Id": 811,
-      "Description": "Persevering 4th generation portal",
-      "ExtraInfo": "labore",
-      "LinkId": 185,
+      "EntityName": "Hermann LLC",
+      "Id": 980,
+      "Description": "Cross-group responsive concept",
+      "ExtraInfo": "architecto",
+      "LinkId": 877,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldLength": 805
         }
       }
     }
   ],
-  "AlarmLeadTime": "aperiam",
-  "HasAlarm": true,
-  "ColorIndex": 247,
+  "AlarmLeadTime": "molestiae",
+  "HasAlarm": false,
+  "ColorIndex": 349,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "architecto",
-  "LeadTime": "et",
-  "Location": "praesentium",
-  "RejectCounter": 110,
-  "RejectReason": "facilitate e-business functionalities",
+  "IsAlldayEvent": true,
+  "LagTime": "maxime",
+  "LeadTime": "aut",
+  "Location": "nesciunt",
+  "RejectCounter": 419,
+  "RejectReason": "drive visionary synergies",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 391,
-      "PersonId": 741,
-      "ContactId": 676,
-      "EmailId": 66,
+      "AssociateId": 652,
+      "PersonId": 229,
+      "ContactId": 206,
+      "EmailId": 896,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "oscar.gibson@gusikowski.com",
-      "Description": "Sharable human-resource matrices"
+      "EmailAddress": "sincere@kuphal.co.uk",
+      "Description": "Self-enabling methodical productivity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-09-29T04:02:06.2009224+02:00",
+  "ActiveDate": "2001-07-14T03:44:56.9528161+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 201,
+  "PreferredTZLocation": 573,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 192,
+  "SuggestedAppointmentId": 768,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "praesentium",
+  "CentralserviceVideomeetId": "laudantium",
   "UserDefinedFields": {
-    "SuperOffice:1": "1207042905",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Prof. Iva Mariah Grady",
+    "SuperOffice:2": "1720082772"
   },
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "est"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "et",
+    "CustomFields2": "nesciunt"
   },
-  "PublishEventDate": "2010-02-04T04:02:06.201427+01:00",
-  "PublishTo": "2022-09-04T04:02:06.201427+02:00",
-  "PublishFrom": "2005-07-24T04:02:06.201427+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1997-08-02T03:44:56.9528161+02:00",
+  "PublishTo": "2020-05-23T03:44:56.9528161+02:00",
+  "PublishFrom": "2000-03-28T03:44:56.9528161+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 867,
+      "VisibleId": 162,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 277
+          "FieldLength": 635
         }
       }
     },
     {
-      "VisibleId": 867,
+      "VisibleId": 162,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 277
+          "FieldLength": 635
         }
       }
     }
@@ -253,7 +253,7 @@ Last-Modified: Wed, 19 Feb 2014 04:02:06 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 412
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Fadel Inc and Sons",
-    "ToolTip": "Sit vero nihil.",
+    "Id": 514,
+    "Name": "Deckow, Dare and Muller",
+    "ToolTip": "Id exercitationem qui dolorem.",
     "Deleted": false,
-    "Rank": 351,
-    "Type": "voluptatem",
-    "ColorBlock": 767,
-    "IconHint": "fugiat",
-    "Selected": true,
-    "LastChanged": "2010-12-19T04:02:07.2284604+01:00",
+    "Rank": 418,
+    "Type": "excepturi",
+    "ColorBlock": 71,
+    "IconHint": "neque",
+    "Selected": false,
+    "LastChanged": "2000-07-06T03:44:57.9843605+02:00",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Ullrich-Hoeger",
-        "ToolTip": "Rem maxime est distinctio dolorem.",
+        "Id": 910,
+        "Name": "Gerhold-Dooley",
+        "ToolTip": "Est veniam quod consequatur neque quia velit.",
         "Deleted": true,
-        "Rank": 508,
-        "Type": "et",
-        "ColorBlock": 703,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2005-11-24T04:02:07.2284604+01:00",
+        "Rank": 357,
+        "Type": "eos",
+        "ColorBlock": 115,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2015-11-23T03:44:57.9843605+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "vitae",
+        "ExtraInfo": "ut",
+        "StyleHint": "perspiciatis",
         "Hidden": false,
-        "FullName": "Antonetta Rogahn"
+        "FullName": "Nicholas Zulauf"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Elna Stehr"
+    "FullName": "Elton Wiza"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Nader, Witting and Hauck",
-    "ToolTip": "Ullam eum officia animi.",
+    "Id": 935,
+    "Name": "Lowe-Corwin",
+    "ToolTip": "Sequi facere corporis.",
     "Deleted": false,
-    "Rank": 886,
-    "Type": "voluptatum",
-    "ColorBlock": 390,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2002-11-20T04:02:07.2284604+01:00",
+    "Rank": 273,
+    "Type": "rerum",
+    "ColorBlock": 575,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2000-10-12T03:44:57.9843605+02:00",
     "ChildItems": [
       {
-        "Id": 375,
-        "Name": "Kohler Group",
-        "ToolTip": "Ab qui harum voluptates minus assumenda omnis et.",
+        "Id": 716,
+        "Name": "Sauer-Lemke",
+        "ToolTip": "Est vero et facilis ut.",
         "Deleted": true,
-        "Rank": 770,
-        "Type": "qui",
-        "ColorBlock": 584,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "2020-03-22T04:02:07.2284604+01:00",
+        "Rank": 403,
+        "Type": "ipsam",
+        "ColorBlock": 745,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2005-03-18T03:44:57.9843605+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Bennett Haag",
+        "ExtraInfo": "saepe",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Brenna Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 175
+            "FieldType": "System.Int32",
+            "FieldLength": 870
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "nulla",
+    "ExtraInfo": "id",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Morgan Goyette",
+    "FullName": "Desmond Sawayn II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 41
       }
     }
   }

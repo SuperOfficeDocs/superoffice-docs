@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Pouros Inc and Sons",
-    "SaleDate": "2003-05-20T04:02:02.28488+02:00",
-    "SaleId": 219,
-    "Probability": 432,
-    "Title": "vitae",
-    "Amount": 21254.788,
-    "Currency": "non",
-    "ProjectName": "Zieme LLC",
-    "AssociateFullName": "Celestine Bradtke",
-    "Description": "Re-engineered executive installation",
+    "ContactName": "Blanda Group",
+    "SaleDate": "2005-07-20T03:44:53.136845+02:00",
+    "SaleId": 83,
+    "Probability": 391,
+    "Title": "quis",
+    "Amount": 3485.008,
+    "Currency": "doloremque",
+    "ProjectName": "Huel, Halvorson and Powlowski",
+    "AssociateFullName": "Elza Senger IV",
+    "Description": "Mandatory assymetric knowledge user",
     "Status": "Lost",
-    "WeightedAmount": 1310.012,
-    "ProjectId": 604,
-    "EarningPercent": 7631.29,
-    "Earning": 28955.025999999998,
-    "ContactId": 810,
-    "AssociateId": 20,
-    "PersonId": 678,
-    "SaleTypeId": 805,
-    "SaleTypeName": "Reynolds LLC",
-    "PersonFullName": "Hugh Schuster",
+    "WeightedAmount": 20555.906,
+    "ProjectId": 618,
+    "EarningPercent": 13592.158,
+    "Earning": 3845.4179999999997,
+    "ContactId": 353,
+    "AssociateId": 151,
+    "PersonId": 632,
+    "SaleTypeId": 639,
+    "SaleTypeName": "White-O'Reilly",
+    "PersonFullName": "Katelin Murazik",
     "Completed": "Completed",
-    "ActiveErpLinks": 293,
-    "NextDueDate": "2022-04-03T04:02:02.28488+02:00",
-    "Number": "829615",
+    "ActiveErpLinks": 654,
+    "NextDueDate": "2013-01-03T03:44:53.136845+01:00",
+    "Number": "618518",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldLength": 543
       }
     }
   }

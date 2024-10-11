@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "molestias",
-    "odit"
+    "sapiente",
+    "non"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 307,
-    "ResourceId": 505,
-    "Text": "officiis",
+    "LanguageId": 756,
+    "ResourceId": 642,
+    "Text": "optio",
     "Type": "Column",
-    "LocalizedTextId": 583,
+    "LocalizedTextId": 169,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldLength": 597
       }
     }
   }

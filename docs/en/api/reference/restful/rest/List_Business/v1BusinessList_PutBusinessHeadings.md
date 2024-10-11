@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 93,
-    "Name": "Gutmann, Daniel and Upton",
-    "Tooltip": "nulla",
+    "HeadingId": 148,
+    "Name": "Brakus Inc and Sons",
+    "Tooltip": "voluptate",
     "Deleted": false,
-    "Rank": 740,
-    "UdListDefinitionId": 458
+    "Rank": 672,
+    "UdListDefinitionId": 243
   },
   {
-    "HeadingId": 93,
-    "Name": "Gutmann, Daniel and Upton",
-    "Tooltip": "nulla",
+    "HeadingId": 148,
+    "Name": "Brakus Inc and Sons",
+    "Tooltip": "voluptate",
     "Deleted": false,
-    "Rank": 740,
-    "UdListDefinitionId": 458
+    "Rank": 672,
+    "UdListDefinitionId": 243
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 96,
-    "Name": "Dibbert-Green",
-    "Tooltip": "ad",
+    "HeadingId": 752,
+    "Name": "Rath-Ryan",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 181,
-    "UdListDefinitionId": 462,
+    "Rank": 508,
+    "UdListDefinitionId": 764,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 217
       }
     }
   }

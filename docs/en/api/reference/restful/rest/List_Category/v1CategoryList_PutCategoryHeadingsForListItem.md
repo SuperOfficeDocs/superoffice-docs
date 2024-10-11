@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Gutkowski Group",
-    "ToolTip": "Perferendis id quo consequatur optio.",
+    "Id": 102,
+    "Name": "Bednar Group",
+    "ToolTip": "Aut deleniti aut voluptatem.",
     "Deleted": false,
-    "Rank": 515,
-    "Type": "facilis",
-    "ColorBlock": 68,
-    "IconHint": "nesciunt",
-    "Selected": true,
-    "LastChanged": "2014-02-15T04:02:07.0878487+01:00",
+    "Rank": 394,
+    "Type": "aut",
+    "ColorBlock": 369,
+    "IconHint": "deserunt",
+    "Selected": false,
+    "LastChanged": "2001-07-18T03:44:57.8437502+02:00",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Legros Inc and Sons",
-        "ToolTip": "Maxime sequi quidem laudantium corrupti.",
-        "Deleted": false,
-        "Rank": 274,
-        "Type": "commodi",
-        "ColorBlock": 995,
-        "IconHint": "enim",
+        "Id": 658,
+        "Name": "Koepp-Bernier",
+        "ToolTip": "Est minima dignissimos ex quod odio consectetur.",
+        "Deleted": true,
+        "Rank": 141,
+        "Type": "porro",
+        "ColorBlock": 771,
+        "IconHint": "excepturi",
         "Selected": true,
-        "LastChanged": "2003-11-10T04:02:07.0878487+01:00",
+        "LastChanged": "2019-01-29T03:44:57.8437502+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "quod",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mr. Noemie Buck Rohan"
+        "FullName": "Kim Stamm"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "dolores",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Prof. Wade Walter"
+    "FullName": "Katherine Bernhard"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 877,
-    "Name": "Shields, Gerhold and Franecki",
-    "ToolTip": "Ab dolor ad praesentium.",
+    "Id": 45,
+    "Name": "Langworth, Bayer and Hills",
+    "ToolTip": "Ut expedita minus tempore sint quis commodi et.",
     "Deleted": true,
-    "Rank": 89,
-    "Type": "sed",
-    "ColorBlock": 37,
-    "IconHint": "dolor",
+    "Rank": 816,
+    "Type": "ut",
+    "ColorBlock": 434,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2024-05-12T04:02:07.0878487+02:00",
+    "LastChanged": "2002-08-06T03:44:57.8437502+02:00",
     "ChildItems": [
       {
-        "Id": 864,
-        "Name": "Hammes-Walker",
-        "ToolTip": "Quis sequi explicabo itaque porro nulla.",
+        "Id": 284,
+        "Name": "Schinner-Corwin",
+        "ToolTip": "Aut similique eaque iusto aperiam rerum aut voluptatem.",
         "Deleted": false,
-        "Rank": 494,
-        "Type": "beatae",
-        "ColorBlock": 712,
-        "IconHint": "ab",
+        "Rank": 980,
+        "Type": "omnis",
+        "ColorBlock": 174,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2003-04-13T04:02:07.0878487+02:00",
+        "LastChanged": "1998-12-31T03:44:57.8437502+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "sit",
+        "ExtraInfo": "quasi",
+        "StyleHint": "id",
         "Hidden": true,
-        "FullName": "Polly Pfeffer",
+        "FullName": "Titus Cole",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldLength": 142
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "natus",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "tenetur",
     "Hidden": true,
-    "FullName": "Xzavier Senger",
+    "FullName": "Margaretta Shields",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

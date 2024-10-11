@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "deleniti",
-  "SoProtocol": "saepe",
-  "CurrentId": 20
+  "IsoLangCode": "ratione",
+  "SoProtocol": "est",
+  "CurrentId": 641
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2012-04-17T04:02:00.9556944+02:00",
-  "UserPrompt": "non",
-  "UserDisplayText": "rem",
-  "BotResponse": "adipisci",
+  "Timestamp": "2003-03-05T03:44:51.808417+01:00",
+  "UserPrompt": "nisi",
+  "UserDisplayText": "eos",
+  "BotResponse": "ipsa",
   "BotActions": {
-    "BotActions1": "consequatur",
-    "BotActions2": "aperiam"
+    "BotActions1": "repellat",
+    "BotActions2": "et"
   },
   "Attachments": [
-    "odio",
-    "consequatur"
+    "dignissimos",
+    "autem"
   ]
 }
 ```

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 577,
-  "Name": "Towne-Hamill",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "UdListDefinitionId": 768,
-  "Rank": 76
+  "Id": 291,
+  "Name": "Daugherty Inc and Sons",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "UdListDefinitionId": 931,
+  "Rank": 995
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Buckridge-Reichel",
-  "Tooltip": "porro",
+  "Id": 241,
+  "Name": "Feeney, Mosciski and Lueilwitz",
+  "Tooltip": "atque",
   "Deleted": false,
-  "UdListDefinitionId": 110,
-  "Rank": 736,
+  "UdListDefinitionId": 558,
+  "Rank": 864,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

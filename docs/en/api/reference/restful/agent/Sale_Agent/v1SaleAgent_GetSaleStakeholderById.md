@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    273,
-    202
+    452,
+    210
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Funk, Thiel and Brakus",
-    "Comment": "rem",
-    "StakeholderRoleId": 731,
-    "CountryId": 822,
-    "PersonId": 243,
-    "EmailDescription": "leon@schaefer.us",
-    "EmailId": 512,
-    "EmailAddress": "drew@wiegand.name",
-    "PhoneId": 222,
-    "ContactName": "White LLC",
-    "ContactId": 65,
-    "SaleId": 44,
-    "Mrmrs": "aut",
-    "Firstname": "Ettie",
-    "MiddleName": "Baumbach-Metz",
-    "Lastname": "Kreiger",
-    "SaleStakeholderId": 465,
-    "Rank": 891,
-    "Phone": "205-990-0069 x79775",
+    "StakeholderRoleName": "Mante, Lebsack and Jenkins",
+    "Comment": "voluptatem",
+    "StakeholderRoleId": 38,
+    "CountryId": 735,
+    "PersonId": 570,
+    "EmailDescription": "shanna@keebler.info",
+    "EmailId": 235,
+    "EmailAddress": "mckenzie_kemmer@mayer.biz",
+    "PhoneId": 610,
+    "ContactName": "Cassin Group",
+    "ContactId": 110,
+    "SaleId": 224,
+    "Mrmrs": "voluptas",
+    "Firstname": "Vinnie",
+    "MiddleName": "Schuppe-Wehner",
+    "Lastname": "Lesch",
+    "SaleStakeholderId": 955,
+    "Rank": 503,
+    "Phone": "734-648-4334 x132",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldLength": 356
       }
     }
   }

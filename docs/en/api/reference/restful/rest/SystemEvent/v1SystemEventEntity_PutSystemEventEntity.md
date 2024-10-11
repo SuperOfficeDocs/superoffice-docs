@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 89,
+  "SystemEventId": 916,
   "Scope": "Database",
-  "Eta": "2008-03-28T04:02:06.837875+01:00",
-  "Eventkey": "sint",
-  "Eventmess": "incidunt",
-  "ExtraInfo": 659,
-  "Owner": 35,
-  "UpdatedCount": 286,
-  "Registered": "2018-12-01T04:02:06.837875+01:00",
+  "Eta": "2001-06-13T03:44:57.5937539+02:00",
+  "Eventkey": "libero",
+  "Eventmess": "dolore",
+  "ExtraInfo": 835,
+  "Owner": 863,
+  "UpdatedCount": 715,
+  "Registered": "2016-05-26T03:44:57.5937539+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 851,
+  "SystemEventId": 58,
   "Scope": "Database",
-  "Eta": "2023-09-11T04:02:06.837875+02:00",
-  "Eventkey": "officiis",
-  "Eventmess": "ad",
-  "ExtraInfo": 726,
-  "Owner": 905,
-  "UpdatedCount": 906,
-  "Registered": "2007-09-26T04:02:06.837875+02:00",
+  "Eta": "2017-03-18T03:44:57.5937539+01:00",
+  "Eventkey": "ex",
+  "Eventmess": "earum",
+  "ExtraInfo": 724,
+  "Owner": 734,
+  "UpdatedCount": 333,
+  "Registered": "2014-10-28T03:44:57.5937539+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

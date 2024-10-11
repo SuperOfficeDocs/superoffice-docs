@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 703,
-  "Name": "Spinka Inc and Sons",
-  "Tooltip": "accusantium",
-  "PassiveText": "aut",
-  "Deleted": false,
-  "Rank": 890,
+  "ReldefId": 47,
+  "Name": "Bailey, Runolfsdottir and Sipes",
+  "Tooltip": "autem",
+  "PassiveText": "ullam",
+  "Deleted": true,
+  "Rank": 882,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 29
     }
   },
   "_Links": {

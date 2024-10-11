@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 626,
-  "Name": "Greenholt Inc and Sons",
-  "Tooltip": "quasi",
+  "Id": 279,
+  "Name": "Williamson Inc and Sons",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 87,
-  "IsCustomList": true,
+  "Rank": 86,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "a",
+  "ListType": "porro",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Ortiz, Greenfelder and McLaughlin",
-  "Tooltip": "quos",
+  "Id": 395,
+  "Name": "Morar, Ruecker and Rolfson",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 272,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 619,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
   "ListType": "quo",
   "InUseByUserDefinedFields": true,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 753
     }
   }
 }

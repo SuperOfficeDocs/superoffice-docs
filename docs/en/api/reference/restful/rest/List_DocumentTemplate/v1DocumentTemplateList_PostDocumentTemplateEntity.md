@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 447,
-  "Name": "McDermott, Wiza and O'Hara",
-  "Tooltip": "et",
-  "SaveInDb": 542,
-  "Filename": "dolorem",
-  "DefaultOref": "beatae",
+  "DocumentTemplateId": 931,
+  "Name": "Homenick LLC",
+  "Tooltip": "eligendi",
+  "SaveInDb": 382,
+  "Filename": "eligendi",
+  "DefaultOref": "consequatur",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 833,
-  "IntentId": 975,
+  "AutoeventId": 1002,
+  "IntentId": 70,
   "IsDefaultPublished": true,
-  "Rank": 388,
-  "LoadTemplateFromPlugin": 630,
-  "MimeType": "ut",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 58,
+  "Rank": 304,
+  "LoadTemplateFromPlugin": 969,
+  "MimeType": "excepturi",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 370,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "andreanne@kirlin.ca",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "jaime_crooks@green.com",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cleo@kuhlman.info",
+  "SenderEmailAddress": "sherman@barrows.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 207,
-  "Name": "Considine LLC",
-  "Tooltip": "totam",
-  "SaveInDb": 210,
-  "Filename": "fuga",
-  "DefaultOref": "animi",
+  "DocumentTemplateId": 882,
+  "Name": "Grant Inc and Sons",
+  "Tooltip": "voluptatem",
+  "SaveInDb": 134,
+  "Filename": "labore",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 244,
-  "IntentId": 428,
+  "AutoeventId": 403,
+  "IntentId": 364,
   "IsDefaultPublished": false,
-  "Rank": 400,
-  "LoadTemplateFromPlugin": 183,
-  "MimeType": "est",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 336,
+  "Rank": 735,
+  "LoadTemplateFromPlugin": 919,
+  "MimeType": "omnis",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 175,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mack.koepp@collins.biz",
+  "EmailSubject": "judson.connelly@bosco.com",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "danny@mcclure.info",
+  "SenderEmailAddress": "sebastian.barton@sipes.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 860
     }
   }
 }

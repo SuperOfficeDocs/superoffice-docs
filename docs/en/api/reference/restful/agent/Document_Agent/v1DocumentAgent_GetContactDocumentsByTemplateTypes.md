@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 431,
-  "StartTime": "2013-09-14T04:02:01.5655043+02:00",
-  "EndTime": "2021-02-21T04:02:01.5655043+01:00",
-  "Count": 104,
+  "ContactId": 902,
+  "StartTime": "2022-03-11T03:44:52.4333602+01:00",
+  "EndTime": "2023-05-31T03:44:52.4333602+02:00",
+  "Count": 986,
   "DocumentTemplateIds": [
-    512,
-    477
+    204,
+    780
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 781,
-    "Attention": "nobis",
-    "Header": "mollitia",
-    "Name": "Kihn-Donnelly",
-    "OurRef": "qui",
-    "YourRef": "inventore",
-    "Description": "Customer-focused systematic capability",
-    "DocumentTemplate": "consequuntur",
+    "DocumentId": 865,
+    "Attention": "quis",
+    "Header": "ut",
+    "Name": "Sipes LLC",
+    "OurRef": "laudantium",
+    "YourRef": "praesentium",
+    "Description": "Exclusive composite standardization",
+    "DocumentTemplate": "voluptas",
     "IsPublished": false,
-    "PersonId": 668,
-    "PersonFullName": "Elizabeth Boyer",
-    "AssociateFullName": "Reilly Goyette",
-    "ContactId": 499,
-    "ContactName": "Jakubowski-Ritchie",
-    "ProjectId": 460,
-    "ProjectName": "Hessel-Torphy",
-    "AssociateId": 141,
-    "Snum": 608,
-    "SaleId": 566,
-    "SaleName": "Cummings, Shanahan and Kuhlman",
+    "PersonId": 671,
+    "PersonFullName": "Priscilla Hartmann",
+    "AssociateFullName": "Amos Halvorson",
+    "ContactId": 415,
+    "ContactName": "Kunde, Ryan and Barton",
+    "ProjectId": 48,
+    "ProjectName": "Bosco LLC",
+    "AssociateId": 93,
+    "Snum": 383,
+    "SaleId": 417,
+    "SaleName": "Mayert Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 791
       }
     }
   }

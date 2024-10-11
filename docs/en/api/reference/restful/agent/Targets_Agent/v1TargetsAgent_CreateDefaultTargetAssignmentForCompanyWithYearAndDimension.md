@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 998,
-  "TargetDimensionId": 11
+  "Year": 821,
+  "TargetDimensionId": 368
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 634,
+    "TargetAssignmentInfoId": 37,
     "Values": [
-      144,
-      425
+      697,
+      541
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 735,
-    "DimensionListItemDisplayName": "Rogahn Group",
+    "DimensionListItem": 277,
+    "DimensionListItemDisplayName": "Bahringer LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 502
       }
     }
   }

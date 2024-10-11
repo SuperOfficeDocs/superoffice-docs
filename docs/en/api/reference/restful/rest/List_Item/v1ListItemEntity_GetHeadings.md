@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Hane, Adams and Quigley",
-    "ToolTip": "Quis qui amet voluptas tempore.",
+    "Id": 229,
+    "Name": "Runolfsson, Terry and Tillman",
+    "ToolTip": "Accusamus vel omnis atque.",
     "Deleted": false,
-    "Rank": 110,
-    "Type": "laborum",
-    "ColorBlock": 973,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2007-03-21T04:02:07.0566019+01:00",
+    "Rank": 867,
+    "Type": "asperiores",
+    "ColorBlock": 485,
+    "IconHint": "asperiores",
+    "Selected": false,
+    "LastChanged": "2003-02-26T03:44:57.8125425+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Reichel, Cassin and Maggio",
-        "ToolTip": "Aut qui.",
-        "Deleted": true,
-        "Rank": 336,
-        "Type": "rerum",
-        "ColorBlock": 437,
-        "IconHint": "assumenda",
+        "Id": 653,
+        "Name": "Padberg LLC",
+        "ToolTip": "Laudantium quia neque nemo adipisci.",
+        "Deleted": false,
+        "Rank": 48,
+        "Type": "natus",
+        "ColorBlock": 92,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2015-07-15T04:02:07.0566019+02:00",
+        "LastChanged": "2012-03-12T03:44:57.8125425+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "incidunt",
         "Hidden": true,
-        "FullName": "Prof. Marty Trever White",
+        "FullName": "Bartholome D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 489
+            "FieldType": "System.String",
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "explicabo",
     "Hidden": true,
-    "FullName": "Gage Swaniawski",
+    "FullName": "Eleanore Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 855
       }
     }
   }

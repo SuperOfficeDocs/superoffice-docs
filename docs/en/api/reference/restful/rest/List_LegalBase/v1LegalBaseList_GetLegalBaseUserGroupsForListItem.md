@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Veum, Stoltenberg and Hegmann",
-    "ToolTip": "Voluptas atque.",
+    "Id": 692,
+    "Name": "Price-Smith",
+    "ToolTip": "Assumenda et.",
     "Deleted": false,
-    "Rank": 165,
-    "Type": "inventore",
-    "ColorBlock": 212,
-    "IconHint": "neque",
-    "Selected": false,
-    "LastChanged": "2002-02-03T04:02:07.2597065+01:00",
+    "Rank": 301,
+    "Type": "facere",
+    "ColorBlock": 875,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2015-08-08T03:44:58.0000211+02:00",
     "ChildItems": [
       {
-        "Id": 183,
-        "Name": "Cremin-Smitham",
-        "ToolTip": "Alias explicabo et minus labore nihil et illum.",
-        "Deleted": true,
-        "Rank": 840,
+        "Id": 731,
+        "Name": "Gutmann, Legros and Kuvalis",
+        "ToolTip": "In incidunt rerum itaque facere.",
+        "Deleted": false,
+        "Rank": 317,
         "Type": "qui",
-        "ColorBlock": 4,
-        "IconHint": "unde",
-        "Selected": true,
-        "LastChanged": "2003-12-16T04:02:07.2597065+01:00",
+        "ColorBlock": 701,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2023-04-17T03:44:58.0000211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "soluta",
-        "Hidden": false,
-        "FullName": "Mrs. Mae Kilback MD",
+        "ExtraInfo": "expedita",
+        "StyleHint": "distinctio",
+        "Hidden": true,
+        "FullName": "Grady Jamarcus Keeling PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 396
+            "FieldLength": 806
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Aaliyah Godfrey Kuhlman III",
+    "ExtraInfo": "non",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Triston Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldLength": 999
       }
     }
   }

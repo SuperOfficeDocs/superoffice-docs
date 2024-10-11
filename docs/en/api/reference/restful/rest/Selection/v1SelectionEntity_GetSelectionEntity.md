@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 14 Dec 2022 04:02:06 G12T
+Last-Modified: Fri, 28 Nov 2014 03:44:57 G11T
 
 {
-  "Description": "Up-sized 24 hour frame",
-  "Postit": "adipisci",
+  "Description": "De-engineered radical framework",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 724,
-  "IncludePerson": 250,
+  "GroupIdx": 553,
+  "IncludePerson": 734,
   "MemberCount": 99.99,
-  "Name": "Hansen, Hudson and Lind",
-  "PostitTextId": 679,
-  "CreatedDate": "2014-08-19T04:02:06.8222516+02:00",
-  "SelectionId": 95,
-  "SoundEx": "libero",
-  "Source": 68,
-  "TextId": 696,
-  "UpdatedDate": "2022-12-14T04:02:06.8222516+01:00",
-  "UpdatedCount": 920,
-  "Visibility": 175,
+  "Name": "Tromp-Simonis",
+  "PostitTextId": 370,
+  "CreatedDate": "2021-12-25T03:44:57.5781309+01:00",
+  "SelectionId": 772,
+  "SoundEx": "eveniet",
+  "Source": 257,
+  "TextId": 832,
+  "UpdatedDate": "2014-11-28T03:44:57.5781309+01:00",
+  "UpdatedCount": 100,
+  "Visibility": 686,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 693,
-  "TargetTableName": "Kerluke Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 274,
+  "TargetTableName": "Daugherty LLC",
   "Completed": false,
-  "LeftSelectionId": 967,
-  "RightSelectionId": 855,
+  "LeftSelectionId": 1002,
+  "RightSelectionId": 453,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Steuber, Renner and Rutherford",
-  "ShadowProviderName": "Crooks, Crooks and Medhurst",
-  "ChartKey": "libero",
-  "LastLoaded": "2009-02-01T04:02:06.8222516+01:00",
-  "LastLoadedBy": 352,
+  "MainProviderName": "Miller Group",
+  "ShadowProviderName": "Miller LLC",
+  "ChartKey": "ducimus",
+  "LastLoaded": "2021-06-16T03:44:57.5781309+02:00",
+  "LastLoadedBy": 743,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-12-19T04:02:06.8222516+01:00",
-  "LastMembershipChangeBy": 30,
+  "LastMembershipChange": "2004-02-22T03:44:57.5781309+01:00",
+  "LastMembershipChangeBy": 295,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Rice, Heidenreich and Smith",
-  "DashboardTileDefinitionId": 310,
+  "MainHeading": "quidem",
+  "MemberTabHeading": "dignissimos",
+  "MailingsProviderName": "O'Hara Inc and Sons",
+  "DashboardTileDefinitionId": 473,
   "VisibleFor": [
     {
-      "VisibleId": 341,
+      "VisibleId": 903,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldLength": 918
         }
       }
     },
     {
-      "VisibleId": 341,
+      "VisibleId": 903,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldLength": 918
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Wed, 14 Dec 2022 04:02:06 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 77
     }
   },
   "_Links": {

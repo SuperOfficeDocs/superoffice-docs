@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Schulist Group",
+  "HistoryName": "Jerde-Effertz",
   "History": [
     {
-      "Rank": 976,
-      "Id": 800,
-      "HistoryName": "Becker LLC",
-      "HistoryId": 123,
-      "AssociateId": 476,
-      "Name": "Schmitt Inc and Sons",
-      "ItemInfo": "cupiditate"
+      "Rank": 108,
+      "Id": 803,
+      "HistoryName": "Ratke-Morissette",
+      "HistoryId": 953,
+      "AssociateId": 586,
+      "Name": "Labadie, Stamm and Von",
+      "ItemInfo": "natus"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 337,
-    "Id": 40,
-    "HistoryName": "Pfannerstill-Abshire",
-    "HistoryId": 944,
-    "AssociateId": 726,
-    "Name": "Yost, Parker and Funk",
-    "ItemInfo": "suscipit",
+    "Rank": 898,
+    "Id": 287,
+    "HistoryName": "Conroy-Harris",
+    "HistoryId": 759,
+    "AssociateId": 973,
+    "Name": "Wolf LLC",
+    "ItemInfo": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 69
       }
     }
   }

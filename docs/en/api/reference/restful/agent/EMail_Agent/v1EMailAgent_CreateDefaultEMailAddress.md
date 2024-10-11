@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 819,
-  "ContactName": "Kutch, Greenholt and Hirthe",
-  "PersonId": 461,
-  "PersonName": "Lindgren, Kuhic and Senger",
-  "AssociateId": 558,
-  "Address": "perferendis",
-  "EmailId": 733,
+  "ContactId": 23,
+  "ContactName": "Strosin-Kuphal",
+  "PersonId": 287,
+  "PersonName": "Turcotte-Harris",
+  "AssociateId": 55,
+  "Address": "earum",
+  "EmailId": 607,
   "DuplicatePersonIds": [
-    266,
-    7
+    680,
+    349
   ],
-  "Name": "Osinski-Hahn",
+  "Name": "Oberbrunner LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

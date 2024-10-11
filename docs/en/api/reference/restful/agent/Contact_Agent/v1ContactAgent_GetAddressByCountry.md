@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 232,
-  "CountryId": 65
+  "ContactId": 277,
+  "CountryId": 215
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 19195.75,
-  "Wgs84Longitude": 12181.858,
+  "Wgs84Latitude": 19518.552,
+  "Wgs84Longitude": 24357.448,
   "LocalizedAddress": [
     [
       {
-        "Name": "Denesik-Armstrong",
-        "Value": "maxime",
-        "Tooltip": "aut",
-        "Label": "repellat",
-        "ValueLength": 792,
-        "AddressType": "in",
+        "Name": "Anderson-Walsh",
+        "Value": "ab",
+        "Tooltip": "aperiam",
+        "Label": "nostrum",
+        "ValueLength": 956,
+        "AddressType": "dolor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldLength": 567
           }
         }
       }
     ],
     [
       {
-        "Name": "Turcotte Group",
-        "Value": "consequatur",
-        "Tooltip": "tempore",
-        "Label": "aut",
-        "ValueLength": 813,
-        "AddressType": "sed",
+        "Name": "Stiedemann, O'Hara and Berge",
+        "Value": "harum",
+        "Tooltip": "voluptatibus",
+        "Label": "eius",
+        "ValueLength": 315,
+        "AddressType": "repudiandae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 65
+            "FieldType": "System.Int32",
+            "FieldLength": 836
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "molestiae",
+  "Formatted": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 345
     }
   }
 }

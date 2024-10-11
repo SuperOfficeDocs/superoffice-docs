@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 275,
+  "PersonId": 421,
   "IncludeProjectDocuments": false,
-  "StartTime": "2022-04-06T04:02:01.5655043+02:00",
-  "EndTime": "2017-08-06T04:02:01.5655043+02:00",
-  "Count": 942
+  "StartTime": "2015-10-01T03:44:52.4333602+02:00",
+  "EndTime": "2023-10-23T03:44:52.4333602+02:00",
+  "Count": 111
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 612,
-    "Attention": "earum",
-    "Header": "expedita",
-    "Name": "Kris, Upton and Orn",
-    "OurRef": "sint",
-    "YourRef": "assumenda",
-    "Description": "Seamless holistic success",
-    "DocumentTemplate": "dolor",
-    "IsPublished": false,
-    "PersonId": 449,
-    "PersonFullName": "Prof. Elisa Baumbach PhD",
-    "AssociateFullName": "Prof. Wellington Gibson IV",
-    "ContactId": 122,
-    "ContactName": "Veum Group",
-    "ProjectId": 43,
-    "ProjectName": "Schaden Group",
-    "AssociateId": 903,
-    "Snum": 909,
-    "SaleId": 708,
-    "SaleName": "Stamm Inc and Sons",
+    "DocumentId": 233,
+    "Attention": "ut",
+    "Header": "ut",
+    "Name": "Stark, Greenholt and Franecki",
+    "OurRef": "et",
+    "YourRef": "aliquid",
+    "Description": "Multi-lateral actuating policy",
+    "DocumentTemplate": "nobis",
+    "IsPublished": true,
+    "PersonId": 43,
+    "PersonFullName": "Bill Dibbert",
+    "AssociateFullName": "Mrs. Candice Elizabeth Prosacco",
+    "ContactId": 495,
+    "ContactName": "Parker LLC",
+    "ProjectId": 37,
+    "ProjectName": "Padberg-Mueller",
+    "AssociateId": 789,
+    "Snum": 83,
+    "SaleId": 705,
+    "SaleName": "Abernathy, Kerluke and Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldType": "System.String",
+        "FieldLength": 22
       }
     }
   }

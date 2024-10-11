@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 946,
-    "Name": "Watsica Group",
-    "MaxDataAge": 101,
-    "NumberOfUsers": 344,
-    "NumberOfLogins": 41,
+    "AreaId": 124,
+    "Name": "Murphy Inc and Sons",
+    "MaxDataAge": 93,
+    "NumberOfUsers": 191,
+    "NumberOfLogins": 961,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldType": "System.Int32",
+        "FieldLength": 369
       }
     }
   }

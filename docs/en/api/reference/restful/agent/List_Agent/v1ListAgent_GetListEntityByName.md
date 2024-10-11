@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pfeffer-Fritsch"
+  "Name": "Baumbach-Waters"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Raynor Group",
-  "Tooltip": "est",
+  "Id": 731,
+  "Name": "Streich, O'Hara and Bogisich",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 916,
+  "Rank": 107,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "mollitia",
+  "ListType": "ut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldLength": 813
     }
   }
 }

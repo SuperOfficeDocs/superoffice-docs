@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 251,
-    "Name": "Romaguera-Ritchie",
-    "Tooltip": "voluptatum",
-    "Deleted": false,
-    "Rank": 354,
-    "UdListDefinitionId": 19,
+    "HeadingId": 993,
+    "Name": "Jacobs, Heaney and Connelly",
+    "Tooltip": "error",
+    "Deleted": true,
+    "Rank": 368,
+    "UdListDefinitionId": 630,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldType": "System.String",
+        "FieldLength": 415
       }
     }
   }

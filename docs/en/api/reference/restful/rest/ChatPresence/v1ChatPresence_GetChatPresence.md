@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 973,
-    "DisplayName": "Bayer LLC",
-    "OngoingChats": 232,
-    "Present": false,
+    "UserId": 639,
+    "DisplayName": "Fisher, Rowe and Auer",
+    "OngoingChats": 629,
+    "Present": true,
     "ChatTopics": [
-      696,
-      75
+      813,
+      104
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldLength": 267
       }
     }
   }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Grimes, Zieme and Hansen",
-    "DisplayName": "Hagenes Group",
-    "Description": "Focused discrete frame",
-    "ShortLabel": "id",
+    "FieldName": "O'Hara, Nolan and Beahan",
+    "DisplayName": "Bogisich LLC",
+    "Description": "Future-proofed human-resource benchmark",
+    "ShortLabel": "rem",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 220,
-    "TemplateVariableName": "Rippin-Zboncak"
+    "Rank": 831,
+    "TemplateVariableName": "Larkin-Orn"
   }
 ]
 ```

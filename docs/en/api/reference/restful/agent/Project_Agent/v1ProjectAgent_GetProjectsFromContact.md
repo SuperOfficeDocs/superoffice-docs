@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 779
+  "ContactId": 799
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 2,
-    "Name": "Tremblay, Kozey and Glover",
-    "Description": "Public-key analyzing software",
+    "ProjectId": 344,
+    "Name": "Schroeder-Hickle",
+    "Description": "Secured maximized capability",
     "URL": "http://www.example.com/",
-    "Type": "veniam",
-    "AssociateId": 115,
-    "AssociateFullName": "Kaitlyn Runolfsdottir",
-    "TypeId": 438,
-    "Updated": "2005-04-20T04:02:02.1597135+02:00",
-    "StatusId": 192,
-    "Status": "sapiente",
-    "TextId": 141,
-    "PublishTo": "2009-05-24T04:02:02.1597135+02:00",
-    "PublishFrom": "2022-12-25T04:02:02.1597135+01:00",
+    "Type": "praesentium",
+    "AssociateId": 961,
+    "AssociateFullName": "Mrs. German Wolf IV",
+    "TypeId": 286,
+    "Updated": "2003-11-15T03:44:53.0114471+01:00",
+    "StatusId": 774,
+    "Status": "aliquid",
+    "TextId": 826,
+    "PublishTo": "2001-01-30T03:44:53.0114471+01:00",
+    "PublishFrom": "2010-05-25T03:44:53.0114471+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "286469",
-    "ActiveErpLinks": 168,
+    "ProjectNumber": "758268",
+    "ActiveErpLinks": 709,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 774
       }
     }
   }

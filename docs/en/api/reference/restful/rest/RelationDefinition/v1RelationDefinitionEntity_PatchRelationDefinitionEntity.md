@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facilis",
+    "path": "magnam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facilis",
+    "path": "magnam",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 389,
-  "Name": "Reichel Inc and Sons",
-  "Tooltip": "veniam",
-  "PassiveText": "id",
-  "Deleted": true,
-  "Rank": 859,
+  "ReldefId": 706,
+  "Name": "Kunze Group",
+  "Tooltip": "ea",
+  "PassiveText": "aperiam",
+  "Deleted": false,
+  "Rank": 413,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 523
     }
   },
   "_Links": {

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Emmerich-Kozey",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "UdListDefinitionId": 106,
-  "Rank": 537,
+  "Id": 703,
+  "Name": "Purdy Inc and Sons",
+  "Tooltip": "labore",
+  "Deleted": false,
+  "UdListDefinitionId": 937,
+  "Rank": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 36
+      "FieldType": "System.Int32",
+      "FieldLength": 356
     }
   }
 }

@@ -1124,7 +1124,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=createdByWorkflow,contact/updatedByFullName,contact/contactAssociate/assocType,project/projectAssociate/fullName,project/projectAssociate/associateDbId
+GET /api/v1/archive/Sale?$select=time,person/correspondingAssociate/personEmail,saleStakeholder/person/personUdef/SuperOffice:8,saleStakeholder/contact/restrictionAddress/line1,saleStakeholder/contact/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

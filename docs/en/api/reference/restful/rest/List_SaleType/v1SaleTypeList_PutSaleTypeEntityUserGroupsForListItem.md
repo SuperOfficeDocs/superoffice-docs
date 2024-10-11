@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Wolff-Von",
-    "ToolTip": "Quibusdam sint qui non amet.",
+    "Id": 557,
+    "Name": "Bauch, Beatty and Reynolds",
+    "ToolTip": "Molestiae ut quis consequatur perferendis consequuntur.",
     "Deleted": false,
-    "Rank": 1001,
-    "Type": "unde",
-    "ColorBlock": 145,
-    "IconHint": "dolores",
+    "Rank": 783,
+    "Type": "qui",
+    "ColorBlock": 560,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2012-07-09T04:02:07.4003498+02:00",
+    "LastChanged": "2003-09-07T03:44:58.1562167+02:00",
     "ChildItems": [
       {
-        "Id": 540,
-        "Name": "Deckow-Lynch",
-        "ToolTip": "Ipsum culpa ad.",
-        "Deleted": false,
-        "Rank": 584,
-        "Type": "et",
-        "ColorBlock": 33,
-        "IconHint": "porro",
+        "Id": 420,
+        "Name": "Kihn Inc and Sons",
+        "ToolTip": "Vitae inventore consequatur corrupti ea aliquam aut.",
+        "Deleted": true,
+        "Rank": 435,
+        "Type": "quas",
+        "ColorBlock": 412,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2017-05-16T04:02:07.4003498+02:00",
+        "LastChanged": "2001-08-17T03:44:58.1562167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "illo",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Miss Allie Jakubowski DDS"
+        "FullName": "Mr. Treva Bogisich"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "et",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Prof. Chanel Francesca Mills"
+    "FullName": "Chyna Boehm"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Feest-Friesen",
-    "ToolTip": "Quo similique et deserunt nisi.",
+    "Id": 783,
+    "Name": "Brekke, Abernathy and Parker",
+    "ToolTip": "Deleniti dignissimos iste.",
     "Deleted": false,
-    "Rank": 636,
-    "Type": "odit",
-    "ColorBlock": 107,
-    "IconHint": "adipisci",
+    "Rank": 672,
+    "Type": "dicta",
+    "ColorBlock": 628,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2003-04-22T04:02:07.4162156+02:00",
+    "LastChanged": "2020-10-26T03:44:58.1562167+01:00",
     "ChildItems": [
       {
-        "Id": 783,
-        "Name": "Herzog, Torp and Lubowitz",
-        "ToolTip": "Fugiat eum autem.",
-        "Deleted": true,
-        "Rank": 486,
+        "Id": 226,
+        "Name": "Zieme LLC",
+        "ToolTip": "Fugit et non eos.",
+        "Deleted": false,
+        "Rank": 637,
         "Type": "debitis",
-        "ColorBlock": 445,
-        "IconHint": "inventore",
+        "ColorBlock": 999,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2024-07-18T04:02:07.4162156+02:00",
+        "LastChanged": "2011-01-04T03:44:58.1562167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "iusto",
+        "ExtraInfo": "magnam",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Yasmine Magdalen Gleason MD",
+        "FullName": "Derrick Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldLength": 949
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ex",
+    "ExtraInfo": "rerum",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Vicenta Farrell",
+    "FullName": "Prof. Maximillian Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldType": "System.String",
+        "FieldLength": 950
       }
     }
   }

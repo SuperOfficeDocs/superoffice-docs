@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Conn-Breitenberg",
-  "AssociateId": 454,
-  "DetailsTable": 35,
-  "DetailsRecord": 818,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 684,
+  "Name": "Rempel Inc and Sons",
+  "AssociateId": 935,
+  "DetailsTable": 122,
+  "DetailsRecord": 851,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "modi",
-    "ParameterObject2": "molestias"
+    "ParameterObject1": "qui",
+    "ParameterObject2": "ut"
   },
-  "LastStarted": "2009-03-15T04:02:06.9472381+01:00",
-  "Created": "2017-05-21T04:02:06.9472381+02:00",
-  "StartCount": 957,
-  "DatabaseSerialNumber": "1501868",
-  "Context": "nobis",
-  "Result": "minima",
+  "LastStarted": "2022-06-18T03:44:57.687517+02:00",
+  "Created": "2023-10-19T03:44:57.687517+02:00",
+  "StartCount": 427,
+  "DatabaseSerialNumber": "738044",
+  "Context": "qui",
+  "Result": "molestiae",
   "State": "All",
-  "Description": "Function-based demand-driven monitoring",
-  "Response": "perferendis",
-  "Request": "ut",
-  "ProgressDescription": "Synergistic executive forecast",
-  "ProgressPercent": 33,
-  "FileName": "Smith, Wehner and Windler",
+  "Description": "Self-enabling intangible open architecture",
+  "Response": "et",
+  "Request": "dolorum",
+  "ProgressDescription": "Persistent attitude-oriented process improvement",
+  "ProgressPercent": 466,
+  "FileName": "Kuhlman, Wisozk and Champlin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldType": "System.String",
+      "FieldLength": 905
     }
   }
 }

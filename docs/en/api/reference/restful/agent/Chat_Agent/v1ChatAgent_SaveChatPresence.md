@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 39,
-      "DisplayName": "Skiles, Kub and Brakus",
-      "OngoingChats": 129,
-      "Present": false,
+      "UserId": 208,
+      "DisplayName": "Fisher Inc and Sons",
+      "OngoingChats": 45,
+      "Present": true,
       "ChatTopics": [
-        934,
-        805
+        617,
+        91
       ]
     },
     {
-      "UserId": 39,
-      "DisplayName": "Skiles, Kub and Brakus",
-      "OngoingChats": 129,
-      "Present": false,
+      "UserId": 208,
+      "DisplayName": "Fisher Inc and Sons",
+      "OngoingChats": 45,
+      "Present": true,
       "ChatTopics": [
-        934,
-        805
+        617,
+        91
       ]
     }
   ]

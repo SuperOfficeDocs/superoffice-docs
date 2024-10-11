@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 162,
-  "Name": "Cormier, Orn and Murray",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "UdListDefinitionId": 517,
-  "Rank": 623,
+  "Id": 80,
+  "Name": "Cummerata-O'Connell",
+  "Tooltip": "explicabo",
+  "Deleted": true,
+  "UdListDefinitionId": 754,
+  "Rank": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 594
     }
   }
 }

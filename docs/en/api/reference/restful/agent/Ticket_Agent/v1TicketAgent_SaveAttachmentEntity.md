@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 938,
-  "Name": "Renner LLC",
-  "ContentType": "ut",
-  "AttSize": 974,
-  "InlineImage": true,
-  "ContentId": "perferendis",
-  "AuthKey": "et",
+  "AttachmentId": 977,
+  "Name": "Dickinson Group",
+  "ContentType": "dolores",
+  "AttSize": 9,
+  "InlineImage": false,
+  "ContentId": "sequi",
+  "AuthKey": "rerum",
   "IsSafeFileExtension": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 845,
-  "Name": "Prosacco-Rodriguez",
-  "ContentType": "nobis",
-  "AttSize": 393,
+  "AttachmentId": 41,
+  "Name": "Ritchie-Sipes",
+  "ContentType": "inventore",
+  "AttSize": 169,
   "InlineImage": false,
-  "ContentId": "nihil",
-  "AuthKey": "tempora",
+  "ContentId": "animi",
+  "AuthKey": "sint",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 912
     }
   }
 }

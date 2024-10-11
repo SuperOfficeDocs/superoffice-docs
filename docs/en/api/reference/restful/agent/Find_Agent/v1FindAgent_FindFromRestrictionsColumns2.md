@@ -168,11 +168,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "quaerat",
-  "ProviderName": "Goyette, Dickinson and Schuster",
-  "DesiredColumns": "quod",
-  "PageSize": 88,
-  "PageNumber": 860
+  "Restrictions": "consectetur",
+  "ProviderName": "Murphy Inc and Sons",
+  "DesiredColumns": "dolores",
+  "PageSize": 134,
+  "PageNumber": 830
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Konopelski LLC",
-      "DisplayTooltip": "cupiditate",
-      "DisplayType": "at",
+      "DisplayName": "Heidenreich Inc and Sons",
+      "DisplayTooltip": "maxime",
+      "DisplayType": "a",
       "CanOrderBy": false,
-      "Name": "Koelpin LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "vel",
-      "RestrictionListName": "Hettinger, Considine and Lockman",
-      "IsVisible": true,
-      "ExtraInfo": "eaque",
-      "Width": "et",
-      "IconHint": "omnis",
-      "HeadingIconHint": "laboriosam"
+      "Name": "Hermiston, O'Hara and Paucek",
+      "CanRestrictBy": false,
+      "RestrictionType": "ex",
+      "RestrictionListName": "Tromp, Gerhold and Aufderhar",
+      "IsVisible": false,
+      "ExtraInfo": "incidunt",
+      "Width": "temporibus",
+      "IconHint": "ut",
+      "HeadingIconHint": "reiciendis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Turcotte Group",
-      "PrimaryKey": 747,
+      "EntityName": "Smitham, Ratke and Feil",
+      "PrimaryKey": 810,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sit",
-          "TooltipHint": "temporibus",
-          "LinkHint": "voluptate"
+          "DisplayValue": "libero",
+          "TooltipHint": "consequuntur",
+          "LinkHint": "consequuntur"
         }
       },
-      "LinkHint": "magni",
-      "StyleHint": "corrupti",
+      "LinkHint": "facere",
+      "StyleHint": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 571
         }
       }
     }
   ],
-  "RowCount": 851,
+  "RowCount": 509,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

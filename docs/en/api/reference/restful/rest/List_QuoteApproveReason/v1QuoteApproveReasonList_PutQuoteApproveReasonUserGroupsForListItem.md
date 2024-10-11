@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Ortiz, Mayert and Beatty",
-    "ToolTip": "Blanditiis dolorem qui veniam quae impedit magnam architecto.",
+    "Id": 166,
+    "Name": "Jerde-Daniel",
+    "ToolTip": "Aut et sed est quia incidunt eum.",
     "Deleted": false,
-    "Rank": 488,
-    "Type": "ratione",
-    "ColorBlock": 538,
-    "IconHint": "nemo",
+    "Rank": 118,
+    "Type": "aut",
+    "ColorBlock": 655,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2002-08-15T04:02:07.3534465+02:00",
+    "LastChanged": "2007-01-06T03:44:58.1093468+01:00",
     "ChildItems": [
       {
-        "Id": 266,
-        "Name": "Purdy Inc and Sons",
-        "ToolTip": "Consequatur perferendis pariatur et vero.",
+        "Id": 673,
+        "Name": "Stark Group",
+        "ToolTip": "Eius sint qui voluptatibus est cum magni dolor.",
         "Deleted": false,
-        "Rank": 343,
-        "Type": "unde",
-        "ColorBlock": 825,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2003-09-01T04:02:07.3534465+02:00",
+        "Rank": 814,
+        "Type": "voluptatem",
+        "ColorBlock": 425,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2012-10-18T03:44:58.1093468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sed",
+        "ExtraInfo": "rerum",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Reid Padberg"
+        "FullName": "Felicita Senger"
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "ut",
+    "ExtraInfo": "nobis",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Isobel Toy"
+    "FullName": "Amanda Madge Skiles DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Hettinger LLC",
-    "ToolTip": "Fugit illo esse cum eveniet ullam facere rerum.",
+    "Id": 361,
+    "Name": "Hegmann, Schneider and Tremblay",
+    "ToolTip": "Debitis autem sed magnam enim.",
     "Deleted": false,
-    "Rank": 106,
-    "Type": "earum",
-    "ColorBlock": 923,
-    "IconHint": "magni",
-    "Selected": true,
-    "LastChanged": "2009-04-01T04:02:07.3534465+02:00",
+    "Rank": 938,
+    "Type": "accusamus",
+    "ColorBlock": 203,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "2009-04-16T03:44:58.1093468+02:00",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "Reynolds LLC",
-        "ToolTip": "Voluptates suscipit sint cum qui et.",
+        "Id": 67,
+        "Name": "Schaefer LLC",
+        "ToolTip": "Tenetur ut corrupti omnis.",
         "Deleted": true,
-        "Rank": 416,
-        "Type": "qui",
-        "ColorBlock": 878,
-        "IconHint": "fuga",
-        "Selected": false,
-        "LastChanged": "2011-07-30T04:02:07.3534465+02:00",
+        "Rank": 861,
+        "Type": "expedita",
+        "ColorBlock": 106,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2000-03-22T03:44:58.1093468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "inventore",
-        "Hidden": false,
-        "FullName": "Brett Elouise Metz Sr.",
+        "ExtraInfo": "qui",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Mrs. Trever Gerardo Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Leonie Kuhlman",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "debitis",
+    "Hidden": false,
+    "FullName": "Elnora Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 156
       }
     }
   }

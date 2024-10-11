@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Diagnostics/GetSystemMessages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 787
+  "AssociateId": 642
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MessageId": 623,
-    "AssociateId": 262,
-    "OnlineappId": 311,
-    "SystemMessageId": "quas",
-    "MarkdownMessage": "earum",
-    "Expire": "2004-01-27T04:02:01.5655043+01:00",
+    "MessageId": 778,
+    "AssociateId": 593,
+    "OnlineappId": 818,
+    "SystemMessageId": "et",
+    "MarkdownMessage": "similique",
+    "Expire": "2006-11-30T03:44:52.417768+01:00",
     "Type": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 843
       }
     }
   }

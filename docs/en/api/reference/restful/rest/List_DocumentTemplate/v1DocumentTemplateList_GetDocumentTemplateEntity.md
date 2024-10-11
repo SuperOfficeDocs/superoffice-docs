@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 13,
-  "Name": "Grady LLC",
-  "Tooltip": "sint",
-  "SaveInDb": 475,
-  "Filename": "quidem",
-  "DefaultOref": "recusandae",
+  "DocumentTemplateId": 387,
+  "Name": "Conroy, Smitham and Raynor",
+  "Tooltip": "itaque",
+  "SaveInDb": 937,
+  "Filename": "ad",
+  "DefaultOref": "impedit",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 149,
-  "IntentId": 297,
-  "IsDefaultPublished": false,
-  "Rank": 671,
-  "LoadTemplateFromPlugin": 964,
-  "MimeType": "voluptate",
+  "AutoeventId": 771,
+  "IntentId": 892,
+  "IsDefaultPublished": true,
+  "Rank": 304,
+  "LoadTemplateFromPlugin": 404,
+  "MimeType": "facere",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 459,
+  "DocumentTypeKey": 911,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "maeve@trompglover.biz",
+  "EmailSubject": "emmanuelle@hamill.co.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "nicholas@sporer.ca",
+  "SenderEmailAddress": "sam_swift@lynch.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 761
     }
   }
 }

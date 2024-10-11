@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 877,
-      "ContactName": "Oberbrunner LLC",
-      "PersonId": 774,
-      "PersonName": "Connelly-Bergnaum",
-      "AssociateId": 294,
-      "Address": "dicta",
-      "EmailId": 313,
+      "ContactId": 848,
+      "ContactName": "Thompson-Wolff",
+      "PersonId": 322,
+      "PersonName": "Cartwright-Dibbert",
+      "AssociateId": 882,
+      "Address": "asperiores",
+      "EmailId": 773,
       "DuplicatePersonIds": [
-        236,
-        970
+        901,
+        442
       ],
-      "Name": "Kling, Ruecker and Schmitt",
+      "Name": "Hoeger LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 794
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 46,
-      "ContactName": "Skiles, Schaden and Toy",
-      "PersonId": 237,
-      "PersonName": "Klocko LLC",
-      "AssociateId": 947,
-      "Address": "aut",
-      "EmailId": 226,
+      "ContactId": 581,
+      "ContactName": "Shanahan-Hermann",
+      "PersonId": 568,
+      "PersonName": "Dare LLC",
+      "AssociateId": 60,
+      "Address": "impedit",
+      "EmailId": 346,
       "DuplicatePersonIds": [
-        57,
-        980
+        672,
+        318
       ],
-      "Name": "Abernathy Group",
+      "Name": "McCullough-O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldType": "System.String",
+          "FieldLength": 957
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 456,
-      "ContactName": "Hilll-Willms",
-      "PersonId": 75,
-      "PersonName": "Daniel-Rohan",
-      "AssociateId": 51,
-      "Address": "voluptatem",
-      "EmailId": 712,
+      "ContactId": 348,
+      "ContactName": "Lueilwitz, Gorczany and Cremin",
+      "PersonId": 541,
+      "PersonName": "Hyatt, Hills and Lockman",
+      "AssociateId": 374,
+      "Address": "sit",
+      "EmailId": 233,
       "DuplicatePersonIds": [
-        38,
-        369
+        447,
+        518
       ],
-      "Name": "Watsica, Watsica and Bradtke",
+      "Name": "Franecki Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldLength": 603
         }
       }
     }
   ],
-  "Subject": "cupiditate",
-  "HTMLBody": "eos",
+  "Subject": "sed",
+  "HTMLBody": "sit",
   "From": null,
-  "Sent": "2024-08-21T04:02:01.7217471+02:00",
-  "Size": 67,
+  "Sent": "1998-02-15T03:44:52.5896202+01:00",
+  "Size": 985,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "delectus",
+  "MessageID": "beatae",
+  "PlainBody": "magni",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 329,
+  "ServerId": 335,
   "Attachments": [
     {
-      "Description": "Assimilated disintermediate knowledge user",
-      "Filename": "et",
-      "Size": 93,
-      "Type": "qui",
-      "Encoding": "vero",
-      "Id": "sed",
-      "Disposition": "et",
+      "Description": "Organic client-driven groupware",
+      "Filename": "commodi",
+      "Size": 649,
+      "Type": "pariatur",
+      "Encoding": "nihil",
+      "Id": "impedit",
+      "Disposition": "quae",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldType": "System.Int32",
+          "FieldLength": 662
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Farrell, Herman and Mante",
+      "Name": "Mitchell Inc and Sons",
       "Values": [
-        "sapiente",
-        "consequatur"
+        "nesciunt",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldLength": 772
         }
       }
     },
     {
-      "Name": "Farrell, Herman and Mante",
+      "Name": "Mitchell Inc and Sons",
       "Values": [
-        "sapiente",
-        "consequatur"
+        "nesciunt",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldLength": 772
         }
       }
     }
   ],
-  "FolderName": "Hansen Inc and Sons",
-  "EmailItemId": 710,
-  "AccountId": 997,
-  "ReceivedAt": "2013-08-11T04:02:01.7217471+02:00",
+  "FolderName": "Rice LLC",
+  "EmailItemId": 314,
+  "AccountId": 39,
+  "ReceivedAt": "2023-11-25T03:44:52.5896202+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-11-05T04:02:01.7217471+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2000-03-04T03:44:52.5896202+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 838
     }
   }
 }

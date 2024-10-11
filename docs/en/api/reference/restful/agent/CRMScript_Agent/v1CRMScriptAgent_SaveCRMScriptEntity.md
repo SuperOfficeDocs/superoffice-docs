@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 324,
-  "UniqueIdentifier": "libero",
-  "Name": "O'Conner, Dicki and Franecki",
-  "Description": "Assimilated composite moderator",
-  "IncludeId": "ad",
-  "AccessKey": "consequatur",
-  "HierarchyId": 977,
-  "Source": "dignissimos",
-  "SourceCode": "molestiae",
+  "EjscriptId": 177,
+  "UniqueIdentifier": "nulla",
+  "Name": "Stanton-Kuhic",
+  "Description": "Future-proofed content-based firmware",
+  "IncludeId": "sed",
+  "AccessKey": "dolorem",
+  "HierarchyId": 415,
+  "Source": "maxime",
+  "SourceCode": "iste",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 230,
+  "HtmlOutput": 366,
   "Includes": [
-    467,
-    196
+    828,
+    567
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 900,
-      "LineNumberTo": 397,
-      "Delta": 214,
-      "IncludeId": "dolorem",
+      "LineNumberFrom": 910,
+      "LineNumberTo": 36,
+      "Delta": 776,
+      "IncludeId": "odit",
       "IncludedFrom": [
-        "doloremque",
-        "consectetur"
+        "officia",
+        "fuga"
       ]
     },
     {
-      "LineNumberFrom": 900,
-      "LineNumberTo": 397,
-      "Delta": 214,
-      "IncludeId": "dolorem",
+      "LineNumberFrom": 910,
+      "LineNumberTo": 36,
+      "Delta": 776,
+      "IncludeId": "odit",
       "IncludedFrom": [
-        "doloremque",
-        "consectetur"
+        "officia",
+        "fuga"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2015-09-05T04:02:01.5186345+02:00",
-  "RegisteredAssociateId": 796,
-  "Updated": "2018-02-09T04:02:01.5186345+01:00",
-  "UpdatedAssociateId": 933
+  "Registered": "2013-07-11T03:44:52.3708918+02:00",
+  "RegisteredAssociateId": 813,
+  "Updated": "2015-11-07T03:44:52.3708918+01:00",
+  "UpdatedAssociateId": 505
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 305,
-  "UniqueIdentifier": "ullam",
-  "Name": "Wintheiser, Gerhold and Champlin",
-  "Description": "Persistent foreground model",
-  "IncludeId": "cumque",
-  "AccessKey": "sequi",
-  "HierarchyId": 49,
-  "Source": "repellat",
-  "SourceCode": "consequatur",
+  "EjscriptId": 686,
+  "UniqueIdentifier": "quibusdam",
+  "Name": "Batz Group",
+  "Description": "Multi-channelled modular installation",
+  "IncludeId": "ex",
+  "AccessKey": "nihil",
+  "HierarchyId": 806,
+  "Source": "repudiandae",
+  "SourceCode": "dolore",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 412,
+  "HtmlOutput": 552,
   "Includes": [
-    679,
-    636
+    397,
+    332
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 958,
-      "LineNumberTo": 244,
-      "Delta": 961,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 346,
+      "LineNumberTo": 198,
+      "Delta": 925,
+      "IncludeId": "molestiae",
       "IncludedFrom": [
-        "qui",
-        "natus"
+        "incidunt",
+        "minus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldLength": 831
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2002-05-26T04:02:01.5186345+02:00",
-  "RegisteredAssociateId": 688,
-  "Updated": "2021-07-15T04:02:01.5186345+02:00",
-  "UpdatedAssociateId": 414,
+  "Registered": "2019-11-13T03:44:52.3708918+01:00",
+  "RegisteredAssociateId": 527,
+  "Updated": "2001-06-12T03:44:52.3708918+02:00",
+  "UpdatedAssociateId": 772,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 264
     }
   }
 }

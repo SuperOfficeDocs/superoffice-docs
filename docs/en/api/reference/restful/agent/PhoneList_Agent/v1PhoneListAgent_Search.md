@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "nostrum"
+  "SearchString": "molestiae"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "753-767-0716 x48354",
-    "PersonCellPhone": "1-500-250-6921 x8850",
-    "PersonPrivatePhone": "184.913.7017",
-    "PersonFaxNumber": "1083508",
-    "PersonPagerNumber": "1553720",
-    "PersonEmail": "dock.torp@feest.com",
-    "Id": 500,
-    "Name": "Miller Inc and Sons",
-    "Tooltip": "expedita",
-    "UniqueId": "fuga",
+    "PersonDirectPhone": "857-924-3181",
+    "PersonCellPhone": "670-971-8526 x763",
+    "PersonPrivatePhone": "1-390-872-2739",
+    "PersonFaxNumber": "873149",
+    "PersonPagerNumber": "353104",
+    "PersonEmail": "estelle.rosenbaum@stiedemann.ca",
+    "Id": 758,
+    "Name": "Bayer-Morar",
+    "Tooltip": "sed",
+    "UniqueId": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldLength": 72
       }
     }
   }

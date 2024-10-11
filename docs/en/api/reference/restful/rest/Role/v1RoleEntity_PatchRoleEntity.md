@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "porro",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "porro",
+    "path": "et",
     "value": {}
   }
 ]
@@ -146,29 +146,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 486,
-  "Name": "O'Conner-Jakubowski",
-  "Tooltip": "tempora",
+  "RoleId": 809,
+  "Name": "Batz-Shields",
+  "Tooltip": "repellendus",
   "RoleType": "Anonymous",
-  "Deleted": 444,
-  "Rank": 997,
-  "Created": "2017-04-14T04:02:06.7441349+02:00",
-  "UseCategories": 564,
+  "Deleted": 433,
+  "Rank": 465,
+  "Created": "2000-03-13T03:44:57.5000465+01:00",
+  "UseCategories": 311,
   "CreatedBy": null,
-  "Updated": "2001-11-01T04:02:06.7441349+01:00",
+  "Updated": "2000-12-12T03:44:57.5000465+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldType": "System.Int32",
+      "FieldLength": 302
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

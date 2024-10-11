@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hand-Schmidt",
+  "Name": "Grant Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Vandervort-Hoppe",
-    "AssociateId": 813,
-    "DetailsTable": 157,
-    "DetailsRecord": 884,
+    "Id": 2,
+    "Name": "Hilpert LLC",
+    "AssociateId": 657,
+    "DetailsTable": 222,
+    "DetailsRecord": 601,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "et"
+      "ParameterObject1": "nam",
+      "ParameterObject2": "omnis"
     },
-    "LastStarted": "1999-01-25T04:02:01.2374146+01:00",
-    "Created": "2021-05-26T04:02:01.2374146+02:00",
-    "StartCount": 486,
-    "DatabaseSerialNumber": "1153569",
-    "Context": "voluptatem",
-    "Result": "aperiam",
+    "LastStarted": "2007-01-25T03:44:52.0740137+01:00",
+    "Created": "2000-11-16T03:44:52.0740137+01:00",
+    "StartCount": 868,
+    "DatabaseSerialNumber": "881471",
+    "Context": "culpa",
+    "Result": "explicabo",
     "State": "All",
-    "Description": "Operative tangible model",
-    "Response": "adipisci",
-    "Request": "beatae",
-    "ProgressDescription": "Distributed secondary collaboration",
-    "ProgressPercent": 13,
-    "FileName": "Brown, Fahey and Larkin",
+    "Description": "Public-key 24/7 database",
+    "Response": "tenetur",
+    "Request": "ut",
+    "ProgressDescription": "Operative explicit focus group",
+    "ProgressPercent": 671,
+    "FileName": "Connelly, Kutch and Walker",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 223
+        "FieldLength": 987
       }
     }
   }

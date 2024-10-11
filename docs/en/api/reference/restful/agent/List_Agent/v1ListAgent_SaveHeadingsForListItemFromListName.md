@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bode LLC",
-  "ListItemId": 494,
+  "UdListDefinitionName": "Grant Group",
+  "ListItemId": 309,
   "Headings": [
     {
-      "Id": 290,
-      "Name": "Jacobson Group",
-      "ToolTip": "Et reprehenderit ea ipsa ullam.",
+      "Id": 705,
+      "Name": "Klocko Inc and Sons",
+      "ToolTip": "Facere qui est enim maxime nemo.",
       "Deleted": true,
-      "Rank": 780,
-      "Type": "odit",
-      "ColorBlock": 847,
-      "IconHint": "sunt",
-      "Selected": false,
-      "LastChanged": "2014-02-21T04:02:01.847234+01:00",
+      "Rank": 623,
+      "Type": "deleniti",
+      "ColorBlock": 716,
+      "IconHint": "ut",
+      "Selected": true,
+      "LastChanged": "2003-05-22T03:44:52.6989885+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "repudiandae",
-      "Hidden": false,
-      "FullName": "Hollie Kris"
+      "ExtraInfo": "possimus",
+      "StyleHint": "earum",
+      "Hidden": true,
+      "FullName": "Miss Darian Jordon Boyer"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Koepp, Prosacco and Doyle",
-    "ToolTip": "Occaecati atque pariatur voluptates dignissimos non.",
+    "Id": 979,
+    "Name": "Schinner Group",
+    "ToolTip": "Qui voluptas.",
     "Deleted": true,
-    "Rank": 931,
-    "Type": "nihil",
-    "ColorBlock": 684,
-    "IconHint": "temporibus",
+    "Rank": 153,
+    "Type": "beatae",
+    "ColorBlock": 494,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2013-09-18T04:02:01.847234+02:00",
+    "LastChanged": "1997-07-28T03:44:52.6989885+02:00",
     "ChildItems": [
       {
-        "Id": 136,
-        "Name": "Glover Inc and Sons",
-        "ToolTip": "Earum non blanditiis nobis quidem.",
+        "Id": 800,
+        "Name": "Rohan-Waelchi",
+        "ToolTip": "Et ducimus soluta sint aut.",
         "Deleted": false,
-        "Rank": 291,
-        "Type": "commodi",
-        "ColorBlock": 532,
-        "IconHint": "qui",
+        "Rank": 663,
+        "Type": "voluptas",
+        "ColorBlock": 284,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2019-03-14T04:02:01.847234+01:00",
+        "LastChanged": "2007-06-14T03:44:52.6989885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "beatae",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mr. Russ Haylee Wyman Sr.",
+        "FullName": "Cassandre Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 224
+            "FieldLength": 228
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Oceane Dessie Schowalter Sr.",
+    "ExtraInfo": "ea",
+    "StyleHint": "exercitationem",
+    "Hidden": true,
+    "FullName": "Delphia Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

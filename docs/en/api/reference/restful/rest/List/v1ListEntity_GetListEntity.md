@@ -92,22 +92,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 949,
-  "Name": "Armstrong-Daniel",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 530,
+  "Id": 217,
+  "Name": "Berge-Abernathy",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 116,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
+  "ListType": "alias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldLength": 460
     }
   },
   "_Links": {

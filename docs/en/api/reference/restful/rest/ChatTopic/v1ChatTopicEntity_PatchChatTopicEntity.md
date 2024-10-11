@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "laboriosam",
+    "path": "dolorem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laboriosam",
+    "path": "dolorem",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 919,
-  "Name": "Gulgowski Inc and Sons",
-  "Description": "Reverse-engineered optimizing hierarchy",
-  "WelcomeMessage": "est",
+  "ChatTopicId": 556,
+  "Name": "Schiller, Hackett and Pfeffer",
+  "Description": "Enterprise-wide human-resource website",
+  "WelcomeMessage": "odit",
   "Language": null,
-  "LastAccept": "2009-03-23T04:02:06.3530464+01:00",
-  "SecondsPrAccept": 861,
-  "AlertRecipient": "occaecati",
+  "LastAccept": "2022-07-17T03:44:57.0940238+02:00",
+  "SecondsPrAccept": 219,
+  "AlertRecipient": "corrupti",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "qui",
+  "CollectConsent": true,
+  "BadgeHeader": "aperiam",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "dolores",
-  "WarnNewChatMinutes": 581,
-  "WarnManagerNewChatMinutes": 322,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 618,
+  "WarnManagerNewChatMinutes": 430,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 311,
-  "WarnManagerChatMessageMinutes": 16,
+  "WarnChatMessageMinutes": 120,
+  "WarnManagerChatMessageMinutes": 788,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 678,
-  "OfflineFormQueueLength": 629,
+  "OfflineFormTimeLimit": 269,
+  "OfflineFormQueueLength": 103,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sed",
+  "WidgetRatingText": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   },
   "_Links": {

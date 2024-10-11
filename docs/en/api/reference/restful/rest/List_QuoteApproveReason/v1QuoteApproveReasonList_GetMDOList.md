@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=qui
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=quam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Gorczany, Gutkowski and Hills",
-    "ToolTip": "Et molestiae consequatur pariatur aliquam ea iure doloribus.",
-    "Deleted": false,
-    "Rank": 72,
-    "Type": "voluptatem",
+    "Id": 261,
+    "Name": "Sporer, Ledner and Dach",
+    "ToolTip": "Ut dolores.",
+    "Deleted": true,
+    "Rank": 352,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Gusikowski Group",
-        "ToolTip": "Dolore dolor eum modi incidunt a voluptas aspernatur.",
+        "Id": 175,
+        "Name": "Rempel LLC",
+        "ToolTip": "Inventore porro.",
         "Deleted": true,
-        "Rank": 878,
-        "Type": "qui",
+        "Rank": 194,
+        "Type": "fugit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quasi",
-        "ColorBlock": 634,
-        "ExtraInfo": "ut",
-        "StyleHint": "non",
-        "FullName": "Ms. Jarret Towne III",
+        "IconHint": "autem",
+        "ColorBlock": 718,
+        "ExtraInfo": "distinctio",
+        "StyleHint": "ut",
+        "FullName": "Adelbert McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldType": "System.String",
+            "FieldLength": 462
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 854,
-    "ExtraInfo": "sed",
-    "StyleHint": "nemo",
-    "FullName": "Ciara Nienow",
+    "IconHint": "omnis",
+    "ColorBlock": 362,
+    "ExtraInfo": "aut",
+    "StyleHint": "minus",
+    "FullName": "Elisabeth Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 344
       }
     }
   }

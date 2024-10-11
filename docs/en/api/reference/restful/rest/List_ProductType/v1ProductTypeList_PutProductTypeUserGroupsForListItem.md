@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Hettinger-Medhurst",
-    "ToolTip": "Quasi autem et hic.",
+    "Id": 10,
+    "Name": "Bernhard Inc and Sons",
+    "ToolTip": "Eius beatae non perferendis quia tempore nihil perspiciatis.",
     "Deleted": false,
-    "Rank": 406,
-    "Type": "reiciendis",
-    "ColorBlock": 694,
-    "IconHint": "et",
+    "Rank": 98,
+    "Type": "distinctio",
+    "ColorBlock": 69,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2012-02-13T04:02:07.337823+01:00",
+    "LastChanged": "2001-07-01T03:44:58.0781351+02:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Strosin-Kirlin",
-        "ToolTip": "Nesciunt similique odio.",
+        "Id": 131,
+        "Name": "Mann LLC",
+        "ToolTip": "Ut voluptatem.",
         "Deleted": false,
-        "Rank": 1002,
-        "Type": "inventore",
-        "ColorBlock": 645,
-        "IconHint": "ea",
+        "Rank": 578,
+        "Type": "architecto",
+        "ColorBlock": 485,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2011-04-20T04:02:07.337823+02:00",
+        "LastChanged": "2010-12-13T03:44:58.0781351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Marge Brakus"
+        "ExtraInfo": "id",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Dr. Daniella Jules Jast MD"
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "omnis",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Mr. Jimmy Daryl Steuber"
+    "FullName": "Danielle Hermiston"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Schaden LLC",
-    "ToolTip": "Non aut.",
-    "Deleted": false,
-    "Rank": 205,
-    "Type": "aut",
-    "ColorBlock": 508,
-    "IconHint": "officia",
-    "Selected": true,
-    "LastChanged": "2010-06-20T04:02:07.337823+02:00",
+    "Id": 3,
+    "Name": "Murray-O'Connell",
+    "ToolTip": "Iusto iusto.",
+    "Deleted": true,
+    "Rank": 824,
+    "Type": "aliquid",
+    "ColorBlock": 767,
+    "IconHint": "hic",
+    "Selected": false,
+    "LastChanged": "2020-06-29T03:44:58.0781351+02:00",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Casper LLC",
-        "ToolTip": "Facilis corporis architecto alias sed voluptate et.",
-        "Deleted": true,
-        "Rank": 349,
-        "Type": "sapiente",
-        "ColorBlock": 50,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2019-06-14T04:02:07.337823+02:00",
+        "Id": 30,
+        "Name": "Stoltenberg-Zulauf",
+        "ToolTip": "Voluptatem aut est impedit vitae est tempore.",
+        "Deleted": false,
+        "Rank": 532,
+        "Type": "soluta",
+        "ColorBlock": 891,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2023-11-11T03:44:58.0781351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "beatae",
+        "ExtraInfo": "sunt",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Jose Octavia Nolan PhD",
+        "FullName": "Citlalli Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldType": "System.String",
+            "FieldLength": 431
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "impedit",
+    "ExtraInfo": "et",
+    "StyleHint": "expedita",
     "Hidden": true,
-    "FullName": "Eileen Bud Dibbert DVM",
+    "FullName": "Miss Sonia Brian Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

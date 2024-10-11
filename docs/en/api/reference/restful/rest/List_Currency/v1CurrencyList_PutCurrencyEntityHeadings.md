@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 248,
-    "Name": "Maggio Group",
-    "Tooltip": "libero",
+    "HeadingId": 48,
+    "Name": "Abshire, Roob and Runolfsdottir",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 887,
-    "UdListDefinitionId": 61
+    "Rank": 242,
+    "UdListDefinitionId": 368
   },
   {
-    "HeadingId": 248,
-    "Name": "Maggio Group",
-    "Tooltip": "libero",
+    "HeadingId": 48,
+    "Name": "Abshire, Roob and Runolfsdottir",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 887,
-    "UdListDefinitionId": 61
+    "Rank": 242,
+    "UdListDefinitionId": 368
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 525,
-    "Name": "Fay, Runte and Osinski",
-    "Tooltip": "ea",
+    "HeadingId": 557,
+    "Name": "Swift-Dibbert",
+    "Tooltip": "atque",
     "Deleted": false,
-    "Rank": 877,
-    "UdListDefinitionId": 394,
+    "Rank": 910,
+    "UdListDefinitionId": 263,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldType": "System.String",
+        "FieldLength": 814
       }
     }
   }

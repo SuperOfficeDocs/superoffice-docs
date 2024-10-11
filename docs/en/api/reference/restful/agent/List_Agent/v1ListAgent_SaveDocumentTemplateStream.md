@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 675,
+  "DocumentTemplateId": 745,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "non",
-  "PluginId": 86
+  "LanguageCode": "minus",
+  "PluginId": 558
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Keefe-Beatty",
-  "Description": "Reactive dynamic alliance",
-  "ExternalReference": "nesciunt",
-  "MimeType": "dolorum",
-  "PluginId": 230
+  "Name": "Grimes, Gulgowski and Witting",
+  "Description": "Optional attitude-oriented hierarchy",
+  "ExternalReference": "dicta",
+  "MimeType": "qui",
+  "PluginId": 457
 }
 ```

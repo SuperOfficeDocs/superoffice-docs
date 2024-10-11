@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=599
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=781
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 615,
-  "BlobSize": 902,
-  "Description": "Polarised human-resource data-warehouse",
-  "ExtraInfo": "et",
+  "BlobId": 976,
+  "BlobSize": 1002,
+  "Description": "Proactive responsive success",
+  "ExtraInfo": "maiores",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "error",
-  "OriginalSize": 611,
-  "CreatedDate": "2005-08-09T04:02:01.2374146+02:00",
-  "UpdatedDate": "2016-02-13T04:02:01.2374146+01:00",
+  "MimeType": "nulla",
+  "OriginalSize": 65,
+  "CreatedDate": "2005-03-21T03:44:52.0896371+01:00",
+  "UpdatedDate": "2001-06-23T03:44:52.0896371+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolore",
+  "ConceptualType": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 559
     }
   }
 }

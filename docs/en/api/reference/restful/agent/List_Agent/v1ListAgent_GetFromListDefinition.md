@@ -83,8 +83,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 415,
-  "UdListDefinitionId": 259
+  "Id": 403,
+  "UdListDefinitionId": 860
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 825,
-  "Name": "Bartoletti Inc and Sons",
-  "Tooltip": "eum",
+  "Id": 702,
+  "Name": "Ankunding-Grady",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "UdListDefinitionId": 989,
-  "Rank": 23,
+  "UdListDefinitionId": 670,
+  "Rank": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 759
     }
   }
 }

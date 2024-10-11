@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2023-01-11T04:02:02.28488+01:00",
-  "ToDate": "2009-09-04T04:02:02.28488+02:00",
-  "AmountLimit": 43,
+  "FromDate": "2010-07-22T03:44:53.136845+02:00",
+  "ToDate": "2001-02-20T03:44:53.136845+01:00",
+  "AmountLimit": 572,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Berge-Pacocha",
-    "SaleDate": "2007-03-15T04:02:02.28488+01:00",
-    "SaleId": 31,
-    "Probability": 127,
-    "Title": "non",
-    "Amount": 18841.608,
-    "Currency": "nesciunt",
-    "ProjectName": "Bailey Inc and Sons",
-    "AssociateFullName": "Rodolfo Armstrong",
-    "Description": "User-centric 24/7 toolset",
+    "ContactName": "Runolfsson Group",
+    "SaleDate": "2021-08-26T03:44:53.136845+02:00",
+    "SaleId": 854,
+    "Probability": 319,
+    "Title": "tenetur",
+    "Amount": 16544.386,
+    "Currency": "dolorem",
+    "ProjectName": "Goldner-Lind",
+    "AssociateFullName": "Mrs. Jared Abbey Ernser III",
+    "Description": "Cross-platform cohesive open system",
     "Status": "Lost",
-    "WeightedAmount": 1244.1979999999999,
-    "ProjectId": 747,
-    "EarningPercent": 4161.952,
-    "Earning": 25805.356,
-    "ContactId": 715,
-    "AssociateId": 826,
-    "PersonId": 892,
-    "SaleTypeId": 966,
-    "SaleTypeName": "Cormier-Veum",
-    "PersonFullName": "Dr. Macy Kautzer",
+    "WeightedAmount": 30904.374,
+    "ProjectId": 452,
+    "EarningPercent": 9022.786,
+    "Earning": 3967.644,
+    "ContactId": 77,
+    "AssociateId": 276,
+    "PersonId": 673,
+    "SaleTypeId": 943,
+    "SaleTypeName": "Fisher LLC",
+    "PersonFullName": "Gardner Krajcik V",
     "Completed": "Completed",
-    "ActiveErpLinks": 1002,
-    "NextDueDate": "2008-05-22T04:02:02.28488+02:00",
-    "Number": "1007662",
+    "ActiveErpLinks": 447,
+    "NextDueDate": "2003-05-04T03:44:53.136845+02:00",
+    "Number": "920435",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 206
       }
     }
   }

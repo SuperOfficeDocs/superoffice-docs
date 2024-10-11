@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Lowe, Roob and Lakin",
-  "Tooltip": "praesentium",
+  "Id": 457,
+  "Name": "O'Kon, Hammes and Lindgren",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 425,
-  "IsCustomList": false,
+  "Rank": 991,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
-  "InUseByUserDefinedFields": false,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldLength": 498
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

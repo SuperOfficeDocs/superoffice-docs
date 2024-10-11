@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Rowe-Marquardt",
-    "ToolTip": "Ut veritatis consequatur quo quasi.",
+    "Id": 700,
+    "Name": "Toy-Upton",
+    "ToolTip": "Eius deleniti asperiores.",
     "Deleted": false,
-    "Rank": 701,
-    "Type": "ut",
-    "ColorBlock": 475,
-    "IconHint": "itaque",
+    "Rank": 551,
+    "Type": "minima",
+    "ColorBlock": 840,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2005-03-30T04:02:07.3221997+02:00",
+    "LastChanged": "2009-01-24T03:44:58.062516+01:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Beatty Inc and Sons",
-        "ToolTip": "Velit odit non enim.",
+        "Id": 303,
+        "Name": "Lindgren, Reinger and Bayer",
+        "ToolTip": "Officia nemo nihil.",
         "Deleted": false,
-        "Rank": 802,
-        "Type": "quis",
-        "ColorBlock": 477,
-        "IconHint": "ullam",
+        "Rank": 735,
+        "Type": "et",
+        "ColorBlock": 113,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2022-12-08T04:02:07.3221997+01:00",
+        "LastChanged": "2010-11-08T03:44:58.062516+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "ut",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Amanda Bednar"
+        "FullName": "Christa Bogisich"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "sit",
+    "ExtraInfo": "provident",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Vella Witting"
+    "FullName": "Pat Glover"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Schmeler-Jacobi",
-    "ToolTip": "Autem voluptatem necessitatibus nihil nihil.",
+    "Id": 961,
+    "Name": "Will-Fisher",
+    "ToolTip": "Nemo et provident voluptatibus iusto accusamus beatae.",
     "Deleted": true,
-    "Rank": 31,
+    "Rank": 342,
     "Type": "officia",
-    "ColorBlock": 979,
-    "IconHint": "expedita",
-    "Selected": true,
-    "LastChanged": "2007-12-12T04:02:07.3221997+01:00",
+    "ColorBlock": 393,
+    "IconHint": "cumque",
+    "Selected": false,
+    "LastChanged": "2021-02-20T03:44:58.062516+01:00",
     "ChildItems": [
       {
-        "Id": 745,
-        "Name": "Gusikowski-Hilpert",
-        "ToolTip": "Enim dicta dolores fuga a aliquam.",
+        "Id": 100,
+        "Name": "Glover, Reilly and Reichel",
+        "ToolTip": "Atque ex vero ex.",
         "Deleted": false,
-        "Rank": 776,
-        "Type": "facilis",
-        "ColorBlock": 845,
-        "IconHint": "officia",
+        "Rank": 847,
+        "Type": "voluptatem",
+        "ColorBlock": 653,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2020-11-07T04:02:07.3221997+01:00",
+        "LastChanged": "2016-08-22T03:44:58.062516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Mrs. Emmett Edison Rohan PhD",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Ozella Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 503
+            "FieldType": "System.Int32",
+            "FieldLength": 760
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Amara Abbott",
+    "ExtraInfo": "nobis",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Dexter Gudrun Bosco DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 807
+        "FieldType": "System.Int32",
+        "FieldLength": 846
       }
     }
   }

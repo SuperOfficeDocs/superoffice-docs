@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 695,
-  "ERPPriceListKey": "maiores",
-  "QuoteConnectionId": 993,
-  "Name": "Boyle-Friesen",
-  "Description": "Devolved zero administration challenge",
-  "Currency": "id",
-  "CurrencyName": "Schulist, Kohler and Morar",
-  "ValidFrom": "2008-08-22T04:02:02.1909603+02:00",
-  "ValidTo": "1997-12-12T04:02:02.1909603+01:00",
+  "PriceListId": 922,
+  "ERPPriceListKey": "aperiam",
+  "QuoteConnectionId": 170,
+  "Name": "Lueilwitz, Beatty and Carroll",
+  "Description": "User-friendly value-added strategy",
+  "Currency": "sint",
+  "CurrencyName": "Pfannerstill LLC",
+  "ValidFrom": "2010-08-09T03:44:53.042699+02:00",
+  "ValidTo": "2014-02-17T03:44:53.042699+01:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 304,
-  "ERPPriceListKey": "saepe",
-  "QuoteConnectionId": 434,
-  "Name": "Armstrong, Pacocha and Jewess",
-  "Description": "Visionary tangible instruction set",
-  "Currency": "tempore",
-  "CurrencyName": "Paucek, Bauch and Waters",
-  "ValidFrom": "2009-12-05T04:02:02.1909603+01:00",
-  "ValidTo": "2016-02-10T04:02:02.1909603+01:00",
-  "IsActive": true,
+  "PriceListId": 870,
+  "ERPPriceListKey": "sapiente",
+  "QuoteConnectionId": 493,
+  "Name": "Mosciski-Luettgen",
+  "Description": "Decentralized national service-desk",
+  "Currency": "fugit",
+  "CurrencyName": "Quigley, Mann and Lueilwitz",
+  "ValidFrom": "2009-11-24T03:44:53.042699+01:00",
+  "ValidTo": "2012-08-19T03:44:53.042699+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 125
     }
   }
 }

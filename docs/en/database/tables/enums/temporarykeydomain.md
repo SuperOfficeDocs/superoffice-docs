@@ -21,6 +21,7 @@ The domain this is a key for
 |LoginCustomerCenter|4|Customer center login key|
 |PublicFaq|5|Customer center public faq key|
 |ChangePasswordCustomerCenter|6|Customer center change password key|
+|RegisterCustomerCenterEmailVerification|7|Customer center register email verification|
 
 ## Usage
 

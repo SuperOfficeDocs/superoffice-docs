@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "dicta",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "dicta",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 344,
-  "ERPPriceListKey": "ipsa",
-  "QuoteConnectionId": 512,
-  "Name": "Brakus, Dicki and Schmidt",
-  "Description": "Quality-focused grid-enabled methodology",
-  "Currency": "est",
-  "CurrencyName": "Deckow, Upton and Ebert",
-  "ValidFrom": "1997-12-03T04:02:07.3065765+01:00",
-  "ValidTo": "2024-02-26T04:02:07.3065765+01:00",
-  "IsActive": true,
+  "PriceListId": 916,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 439,
+  "Name": "Heller-Simonis",
+  "Description": "Visionary systematic policy",
+  "Currency": "repellendus",
+  "CurrencyName": "Stamm-Schinner",
+  "ValidFrom": "2007-07-23T03:44:58.0468534+02:00",
+  "ValidTo": "2008-08-05T03:44:58.0468534+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 853
     }
   },
   "_Links": {

@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -127,63 +127,63 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 383,
+  "EjMessageId": 180,
   "Ticket": null,
-  "CreatedAt": "2020-12-28T04:02:06.9159914+01:00",
+  "CreatedAt": "2006-02-10T03:44:57.656888+01:00",
   "CreatedBy": null,
-  "Author": "voluptas",
+  "Author": "quo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "veritatis",
-  "TimeSpent": 873,
-  "Body": "qui",
-  "HtmlBody": "non",
-  "EmailHeader": "carlee.bailey@balistreri.com",
-  "DebugInfo": "consectetur",
-  "MailSorter": "modi",
+  "MessageId": "et",
+  "TimeSpent": 633,
+  "Body": "laborum",
+  "HtmlBody": "dicta",
+  "EmailHeader": "jermey_funk@medhurst.info",
+  "DebugInfo": "atque",
+  "MailSorter": "saepe",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "excepturi",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 945,
-      "Name": "Wintheiser, Hoeger and Schuppe",
-      "Value": "voluptate",
+      "Id": 715,
+      "Name": "Rath-Harvey",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 945,
-      "Name": "Wintheiser, Hoeger and Schuppe",
-      "Value": "voluptate",
+      "Id": 715,
+      "Name": "Rath-Harvey",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "molestiae",
-  "Sentiment": 843,
-  "SentimentConfidence": 78,
+  "Language": "ducimus",
+  "Sentiment": 195,
+  "SentimentConfidence": 954,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 88,
-      "Name": "Tillman Inc and Sons",
-      "ContentType": "dolorem",
-      "AttSize": 715,
+      "AttachmentId": 824,
+      "Name": "Bogisich-Langworth",
+      "ContentType": "eius",
+      "AttSize": 211,
       "InlineImage": false,
-      "ContentId": "quo",
-      "AuthKey": "culpa",
-      "IsSafeFileExtension": false
+      "ContentId": "odit",
+      "AuthKey": "quia",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "veniam",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "est"
+    "CustomFields1": "dolores",
+    "CustomFields2": "expedita"
   }
 }
 ```
@@ -195,79 +195,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 147,
+  "EjMessageId": 70,
   "Ticket": null,
-  "CreatedAt": "2023-08-02T04:02:06.9159914+02:00",
+  "CreatedAt": "2021-04-08T03:44:57.6718901+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 404,
-  "Body": "officiis",
-  "HtmlBody": "sunt",
-  "EmailHeader": "emile.kassulke@jacobs.name",
-  "DebugInfo": "ut",
-  "MailSorter": "dolorum",
+  "MessageId": "molestias",
+  "TimeSpent": 882,
+  "Body": "tempora",
+  "HtmlBody": "omnis",
+  "EmailHeader": "matt@howe.biz",
+  "DebugInfo": "minima",
+  "MailSorter": "repellat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reprehenderit",
+  "SearchTitle": "fuga",
   "MessageHeaders": [
     {
-      "Id": 730,
-      "Name": "Armstrong Group",
-      "Value": "quas",
+      "Id": 684,
+      "Name": "Kessler LLC",
+      "Value": "perspiciatis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "quae",
-  "Sentiment": 807,
-  "SentimentConfidence": 386,
+  "Important": true,
+  "Language": "enim",
+  "Sentiment": 97,
+  "SentimentConfidence": 858,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 546,
-      "Name": "Fadel-Sauer",
-      "ContentType": "cupiditate",
-      "AttSize": 85,
-      "InlineImage": false,
-      "ContentId": "sint",
-      "AuthKey": "est",
+      "AttachmentId": 764,
+      "Name": "Rempel-Kshlerin",
+      "ContentType": "aut",
+      "AttSize": 92,
+      "InlineImage": true,
+      "ContentId": "ducimus",
+      "AuthKey": "animi",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 375
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "dolore",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

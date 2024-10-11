@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 710,
-    "Name": "Heaney, Shields and Bahringer",
-    "ToolTip": "Fugit perspiciatis et beatae illum qui id.",
+    "Id": 362,
+    "Name": "Hauck-Walter",
+    "ToolTip": "Odit ipsa ad reiciendis assumenda magni.",
     "Deleted": false,
-    "Rank": 723,
-    "Type": "harum",
-    "ColorBlock": 527,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2019-06-05T04:02:07.0878487+02:00",
+    "Rank": 449,
+    "Type": "dolores",
+    "ColorBlock": 464,
+    "IconHint": "doloremque",
+    "Selected": false,
+    "LastChanged": "2008-12-28T03:44:57.8281269+01:00",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Bogan, Runte and Hills",
-        "ToolTip": "Id sed.",
-        "Deleted": true,
-        "Rank": 57,
-        "Type": "incidunt",
-        "ColorBlock": 467,
-        "IconHint": "commodi",
-        "Selected": true,
-        "LastChanged": "2009-12-26T04:02:07.0878487+01:00",
+        "Id": 846,
+        "Name": "Conn LLC",
+        "ToolTip": "Expedita voluptatem.",
+        "Deleted": false,
+        "Rank": 961,
+        "Type": "harum",
+        "ColorBlock": 282,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2015-03-28T03:44:57.8281269+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Ms. Maxwell Ferry",
+        "ExtraInfo": "eos",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Prof. Myrtle Rowena Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 923
+            "FieldLength": 353
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Mrs. Jewell Willie Dibbert",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Gavin Zboncak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 802
+        "FieldType": "System.Int32",
+        "FieldLength": 47
       }
     }
   }

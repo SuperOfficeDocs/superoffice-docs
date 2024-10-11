@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "McDermott Group",
-  "Id": 103
+  "HistoryName": "Beier Group",
+  "Id": 250
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 307,
-  "Id": 201,
-  "HistoryName": "Gleason LLC",
-  "HistoryId": 777,
-  "AssociateId": 114,
-  "Name": "Hayes Inc and Sons",
-  "ItemInfo": "aperiam",
+  "Rank": 309,
+  "Id": 831,
+  "HistoryName": "Carroll, Gottlieb and Murray",
+  "HistoryId": 24,
+  "AssociateId": 200,
+  "Name": "Deckow Inc and Sons",
+  "ItemInfo": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldType": "System.Int32",
+      "FieldLength": 117
     }
   }
 }

@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 161,
-  "Name": "Huel, Labadie and Rau",
-  "Tooltip": "eum",
+  "Id": 408,
+  "Name": "Romaguera Inc and Sons",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "UdListDefinitionId": 118,
-  "Rank": 45
+  "UdListDefinitionId": 216,
+  "Rank": 542
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 888,
-  "Name": "Corkery, Gislason and Stanton",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 793,
-  "Rank": 538,
+  "Id": 527,
+  "Name": "Pollich, O'Conner and McDermott",
+  "Tooltip": "tempora",
+  "Deleted": false,
+  "UdListDefinitionId": 928,
+  "Rank": 133,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   }
 }

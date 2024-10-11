@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "Kuhn-Becker",
-    "ToolTip": "Quia vero.",
-    "Deleted": true,
-    "Rank": 20,
-    "Type": "est",
-    "ColorBlock": 395,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2009-12-27T04:02:07.337823+01:00",
+    "Id": 451,
+    "Name": "Kuvalis Inc and Sons",
+    "ToolTip": "Et ex modi voluptate qui omnis sit et.",
+    "Deleted": false,
+    "Rank": 476,
+    "Type": "accusamus",
+    "ColorBlock": 845,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2021-01-10T03:44:58.0781351+01:00",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "Krajcik, Schmitt and Macejkovic",
-        "ToolTip": "Tempora quo consequuntur distinctio quam.",
+        "Id": 308,
+        "Name": "McLaughlin-Friesen",
+        "ToolTip": "Quos voluptatem.",
         "Deleted": false,
-        "Rank": 473,
-        "Type": "similique",
-        "ColorBlock": 364,
-        "IconHint": "laborum",
+        "Rank": 990,
+        "Type": "doloremque",
+        "ColorBlock": 86,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2013-11-17T04:02:07.337823+01:00",
+        "LastChanged": "2012-11-01T03:44:58.0781351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Adolphus Carter",
+        "ExtraInfo": "eum",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Anissa Janick Fahey II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 599
+            "FieldType": "System.Int32",
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "veniam",
+    "ExtraInfo": "saepe",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Stacey Watsica",
+    "FullName": "Alf Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldLength": 99
       }
     }
   }

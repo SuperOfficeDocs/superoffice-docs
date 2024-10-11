@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kemmer-Gottlieb",
-  "ContactGroupId": 24,
-  "ContactAssociateId": 978
+  "TableName": "Leannon-Hettinger",
+  "ContactGroupId": 388,
+  "ContactAssociateId": 851
 }
 ```
 
@@ -92,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": ""
+  "Reason": "orchestrate scalable web-readiness"
 }
 ```

@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nostrum",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nostrum",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -146,31 +146,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 454,
-  "Name": "Cummerata Group",
+  "WebhookId": 431,
+  "Name": "Haley, Metz and Ankunding",
   "Events": [
-    "neque",
-    "mollitia"
+    "nostrum",
+    "tempore"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "cumque",
+  "Secret": "tempora",
   "State": "Active",
-  "Type": "harum",
+  "Type": "aperiam",
   "Headers": {
-    "Headers1": "corrupti",
-    "Headers2": "qui"
+    "Headers1": "ullam",
+    "Headers2": "modi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-03-29T04:02:07.0566019+02:00",
+  "Registered": "2010-01-06T03:44:57.8125425+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-02-23T04:02:07.0566019+01:00",
+  "Updated": "2000-04-22T03:44:57.8125425+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jerrod_emmerich@schulistleffler.us",
+  "ErrorsEmail": "jammie@oberbrunner.com",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

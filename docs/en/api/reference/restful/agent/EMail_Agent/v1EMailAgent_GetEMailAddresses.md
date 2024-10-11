@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    514,
-    635
+    829,
+    898
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 168,
-    "ContactName": "Schuppe Group",
-    "PersonId": 732,
-    "PersonName": "Jakubowski LLC",
-    "AssociateId": 30,
-    "Address": "provident",
-    "EmailId": 675,
+    "ContactId": 331,
+    "ContactName": "Thiel Group",
+    "PersonId": 165,
+    "PersonName": "Grimes-Ernser",
+    "AssociateId": 178,
+    "Address": "eum",
+    "EmailId": 568,
     "DuplicatePersonIds": [
-      599,
-      376
+      625,
+      153
     ],
-    "Name": "Walsh, Beatty and Carter",
+    "Name": "Kertzmann LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 426
       }
     }
   }

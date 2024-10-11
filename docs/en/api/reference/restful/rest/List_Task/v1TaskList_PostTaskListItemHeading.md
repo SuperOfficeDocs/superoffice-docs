@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 946,
-  "Name": "Beier-Hansen",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 355,
-  "UdListDefinitionId": 130
+  "HeadingId": 344,
+  "Name": "Cartwright LLC",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 37,
+  "UdListDefinitionId": 54
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 437,
-  "Name": "Huels LLC",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 299,
-  "UdListDefinitionId": 190,
+  "HeadingId": 749,
+  "Name": "Flatley, Eichmann and Ankunding",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "Rank": 143,
+  "UdListDefinitionId": 75,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Lockman LLC",
-    "ToolTip": "Aspernatur nobis odio facere provident fugit soluta reiciendis.",
-    "Deleted": true,
-    "Rank": 468,
-    "Type": "dicta",
-    "ColorBlock": 728,
-    "IconHint": "quia",
+    "Id": 969,
+    "Name": "Olson, Stehr and Murray",
+    "ToolTip": "Qui tempora est animi.",
+    "Deleted": false,
+    "Rank": 914,
+    "Type": "maiores",
+    "ColorBlock": 516,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2019-02-08T04:02:07.1034721+01:00",
+    "LastChanged": "2023-07-04T03:44:57.8437502+02:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Hodkiewicz LLC",
-        "ToolTip": "Alias quod rem.",
+        "Id": 726,
+        "Name": "Haley-Glover",
+        "ToolTip": "Quisquam rerum blanditiis consequuntur omnis.",
         "Deleted": false,
-        "Rank": 966,
-        "Type": "odit",
-        "ColorBlock": 498,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2009-09-22T04:02:07.1034721+02:00",
+        "Rank": 219,
+        "Type": "eum",
+        "ColorBlock": 454,
+        "IconHint": "libero",
+        "Selected": true,
+        "LastChanged": "2013-04-30T03:44:57.8437502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "nam",
+        "ExtraInfo": "repellat",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Prof. Edna Harvey"
+        "FullName": "Ms. Berniece Tyreek Wilderman MD"
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "ut",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Salvador Ruecker"
+    "FullName": "Theodora Fred Balistreri II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "Breitenberg-Sipes",
-    "ToolTip": "Ipsa aut quo nulla modi.",
-    "Deleted": true,
-    "Rank": 418,
-    "Type": "deserunt",
-    "ColorBlock": 343,
-    "IconHint": "error",
+    "Id": 872,
+    "Name": "Davis LLC",
+    "ToolTip": "Inventore eius cumque.",
+    "Deleted": false,
+    "Rank": 440,
+    "Type": "quis",
+    "ColorBlock": 304,
+    "IconHint": "sed",
     "Selected": true,
-    "LastChanged": "2011-01-12T04:02:07.1034721+01:00",
+    "LastChanged": "2020-01-18T03:44:57.8437502+01:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Ferry Group",
-        "ToolTip": "Est quasi magni atque facere minus.",
-        "Deleted": false,
-        "Rank": 510,
-        "Type": "ab",
-        "ColorBlock": 595,
-        "IconHint": "commodi",
+        "Id": 345,
+        "Name": "Conroy Inc and Sons",
+        "ToolTip": "Possimus quia quaerat deleniti sit quo.",
+        "Deleted": true,
+        "Rank": 667,
+        "Type": "esse",
+        "ColorBlock": 325,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "1999-02-18T04:02:07.1034721+01:00",
+        "LastChanged": "1998-06-23T03:44:57.8437502+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Mikayla Mitchell",
+        "FullName": "Mariam O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 847
+            "FieldLength": 616
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
+    "ExtraInfo": "numquam",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Remington Moore MD",
+    "FullName": "Mrs. Freda Adams DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 491
       }
     }
   }

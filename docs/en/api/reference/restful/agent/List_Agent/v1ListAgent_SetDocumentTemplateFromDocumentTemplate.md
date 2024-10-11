@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 996,
+  "SourceDocumentTemplateId": 430,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 205,
-  "Name": "Langworth, Bergstrom and Renner",
-  "Tooltip": "et",
-  "SaveInDb": 629,
-  "Filename": "et",
-  "DefaultOref": "reprehenderit",
+  "DocumentTemplateId": 149,
+  "Name": "Murray-Waters",
+  "Tooltip": "tenetur",
+  "SaveInDb": 867,
+  "Filename": "in",
+  "DefaultOref": "accusamus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 944,
-  "IntentId": 243,
-  "IsDefaultPublished": false,
-  "Rank": 290,
-  "LoadTemplateFromPlugin": 4,
-  "MimeType": "facere",
+  "AutoeventId": 22,
+  "IntentId": 458,
+  "IsDefaultPublished": true,
+  "Rank": 891,
+  "LoadTemplateFromPlugin": 830,
+  "MimeType": "omnis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 723,
+  "DocumentTypeKey": 206,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sophie@ryan.name",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "kimberly.buckridge@kunde.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "beryl_turcotte@rice.biz",
+  "SenderEmailAddress": "arch@zulauf.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldLength": 243
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Wisoky, Feest and Thiel",
-    "ToolTip": "Sequi maiores.",
+    "Id": 851,
+    "Name": "Hodkiewicz-Dach",
+    "ToolTip": "Ducimus et velit quae ex.",
     "Deleted": false,
-    "Rank": 83,
-    "Type": "explicabo",
-    "ColorBlock": 64,
-    "IconHint": "temporibus",
+    "Rank": 552,
+    "Type": "impedit",
+    "ColorBlock": 46,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2024-02-07T04:02:07.3690701+01:00",
+    "LastChanged": "2017-06-16T03:44:58.1249703+02:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Nienow Inc and Sons",
-        "ToolTip": "Voluptas et dicta.",
+        "Id": 731,
+        "Name": "Erdman-Bode",
+        "ToolTip": "Velit sed voluptas esse.",
         "Deleted": false,
-        "Rank": 239,
-        "Type": "quo",
-        "ColorBlock": 445,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2016-09-04T04:02:07.3690701+02:00",
+        "Rank": 530,
+        "Type": "laborum",
+        "ColorBlock": 516,
+        "IconHint": "ipsa",
+        "Selected": true,
+        "LastChanged": "2005-06-11T03:44:58.1249703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "quis",
+        "ExtraInfo": "nam",
+        "StyleHint": "mollitia",
         "Hidden": true,
-        "FullName": "Jordane Swaniawski"
+        "FullName": "Verona Vandervort"
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Chad Keeling"
+    "ExtraInfo": "sunt",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Mrs. Jayme Percy Berge"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Murphy Inc and Sons",
-    "ToolTip": "Repellendus cumque possimus id eos culpa quo.",
-    "Deleted": false,
-    "Rank": 837,
-    "Type": "odit",
-    "ColorBlock": 372,
-    "IconHint": "modi",
-    "Selected": true,
-    "LastChanged": "2003-08-21T04:02:07.3690701+02:00",
+    "Id": 435,
+    "Name": "Reinger, Walsh and Purdy",
+    "ToolTip": "Molestiae cum.",
+    "Deleted": true,
+    "Rank": 128,
+    "Type": "eveniet",
+    "ColorBlock": 39,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "2018-07-05T03:44:58.1249703+02:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Dickens Inc and Sons",
-        "ToolTip": "Modi in dolorem laudantium sapiente dolores ut.",
+        "Id": 901,
+        "Name": "Larson-Bruen",
+        "ToolTip": "Explicabo alias accusantium.",
         "Deleted": false,
-        "Rank": 453,
-        "Type": "aut",
-        "ColorBlock": 269,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2000-07-23T04:02:07.3690701+02:00",
+        "Rank": 484,
+        "Type": "itaque",
+        "ColorBlock": 612,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2019-10-09T03:44:58.1249703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "est",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Mr. Roberto Kasandra Lindgren",
+        "FullName": "Madie Kilback I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 872
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "et",
+    "ExtraInfo": "ut",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Jonathan Emard",
+    "FullName": "Arvilla Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 658
       }
     }
   }

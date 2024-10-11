@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "ab",
-  "ProviderName": "Boehm, Bechtelar and Metz",
-  "DesiredColumns": "voluptates",
-  "OrderBy": "quas",
-  "PageSize": 246,
-  "PageNumber": 877
+  "Restrictions": "excepturi",
+  "ProviderName": "Botsford Inc and Sons",
+  "DesiredColumns": "iusto",
+  "OrderBy": "ad",
+  "PageSize": 960,
+  "PageNumber": 432
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Harvey, Reynolds and Schoen",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "aperiam",
+      "DisplayName": "Stehr, Rempel and Hansen",
+      "DisplayTooltip": "provident",
+      "DisplayType": "dignissimos",
       "CanOrderBy": false,
-      "Name": "Bayer-Boehm",
-      "CanRestrictBy": false,
-      "RestrictionType": "in",
-      "RestrictionListName": "Willms, Sawayn and Connelly",
-      "IsVisible": true,
-      "ExtraInfo": "vel",
-      "Width": "sapiente",
-      "IconHint": "corrupti",
-      "HeadingIconHint": "doloribus"
+      "Name": "Funk, Graham and Waters",
+      "CanRestrictBy": true,
+      "RestrictionType": "aut",
+      "RestrictionListName": "Volkman-Bartell",
+      "IsVisible": false,
+      "ExtraInfo": "fugiat",
+      "Width": "minus",
+      "IconHint": "sunt",
+      "HeadingIconHint": "est"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Stanton-Kohler",
-      "PrimaryKey": 951,
+      "EntityName": "Rempel, Bauch and Halvorson",
+      "PrimaryKey": 507,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "rerum",
-          "TooltipHint": "voluptas",
-          "LinkHint": "non"
+          "DisplayValue": "explicabo",
+          "TooltipHint": "ut",
+          "LinkHint": "aliquid"
         }
       },
-      "LinkHint": "adipisci",
-      "StyleHint": "expedita",
+      "LinkHint": "quibusdam",
+      "StyleHint": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 959
+          "FieldType": "System.String",
+          "FieldLength": 24
         }
       }
     }
   ],
-  "RowCount": 117,
+  "RowCount": 911,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

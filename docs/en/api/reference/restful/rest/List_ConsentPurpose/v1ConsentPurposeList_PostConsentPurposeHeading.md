@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 972,
-  "Name": "Parker-Volkman",
-  "Tooltip": "ad",
+  "HeadingId": 75,
+  "Name": "Howell LLC",
+  "Tooltip": "magni",
   "Deleted": false,
-  "Rank": 901,
-  "UdListDefinitionId": 337
+  "Rank": 413,
+  "UdListDefinitionId": 797
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 62,
-  "Name": "Johnston Group",
-  "Tooltip": "repellendus",
+  "HeadingId": 718,
+  "Name": "Veum Inc and Sons",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 626,
-  "UdListDefinitionId": 59,
+  "Rank": 308,
+  "UdListDefinitionId": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 995
     }
   }
 }

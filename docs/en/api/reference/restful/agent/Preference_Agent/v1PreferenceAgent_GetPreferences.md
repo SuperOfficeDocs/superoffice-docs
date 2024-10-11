@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quidem",
-      "Key": "facilis"
+      "Section": "voluptatem",
+      "Key": "dolores"
     },
     {
-      "Section": "quidem",
-      "Key": "facilis"
+      "Section": "voluptatem",
+      "Key": "dolores"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ut",
+    "RawValue": "maxime",
     "Specification": null,
-    "DisplayValue": "voluptas",
-    "DisplayTooltip": "sit",
+    "DisplayValue": "atque",
+    "DisplayTooltip": "perferendis",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 376,
-    "PrefDescId": 552,
-    "TableName": "Torphy, Crooks and Mills",
-    "UserPreferenceId": 612,
+    "TargetId": 99,
+    "PrefDescId": 880,
+    "TableName": "Ledner Group",
+    "UserPreferenceId": 99,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldLength": 185
       }
     }
   }

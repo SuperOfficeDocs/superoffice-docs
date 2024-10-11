@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 342,
-    "Name": "Homenick-Shields",
-    "Tooltip": "adipisci",
+    "HeadingId": 272,
+    "Name": "Marquardt, Kassulke and Stark",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 55,
-    "UdListDefinitionId": 291,
+    "Rank": 356,
+    "UdListDefinitionId": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 147
       }
     }
   }

@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 259,
-  "UniqueId": "quis",
-  "Name": "Hills-Gusikowski",
-  "Description": "Multi-tiered clear-thinking hub",
-  "AssociateId": 31,
-  "Columns": 230,
+  "DashboardId": 663,
+  "UniqueId": "nobis",
+  "Name": "Berge-Harvey",
+  "Description": "Ameliorated 24/7 emulation",
+  "AssociateId": 351,
+  "Columns": 242,
   "Theme": null,
-  "VisibleForAll": 276,
+  "VisibleForAll": 196,
   "VisibleForAssociates": [
-    14,
-    758
+    401,
+    824
   ],
   "VisibleForGroups": [
-    850,
-    390
+    783,
+    990
   ],
-  "PinForAll": 817,
+  "PinForAll": 754,
   "PinForAssociates": [
-    32,
-    101
+    651,
+    55
   ],
   "PinForGroups": [
-    372,
-    352
+    316,
+    693
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   },
   "_Links": {

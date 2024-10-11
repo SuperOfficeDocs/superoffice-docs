@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wyman-Okuneva"
+  "ApplicationName": "Reichel, Hagenes and Dibbert"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 439,
-    "Name": "Runte Inc and Sons",
-    "CreatedDate": "2019-08-29T04:02:01.7888547+02:00",
-    "UpdatedDate": "1999-01-14T04:02:01.7888547+01:00",
-    "AssociateFullName": "Bobby Mertz",
-    "CreatedBy": "nesciunt",
-    "UpdatedBy": "reiciendis",
-    "DeviceIdentifier": "natus",
-    "ForeignAppId": 339,
+    "ForeignDeviceId": 871,
+    "Name": "Beer-Jacobi",
+    "CreatedDate": "2003-08-21T03:44:52.6521119+02:00",
+    "UpdatedDate": "2020-11-22T03:44:52.6521119+01:00",
+    "AssociateFullName": "Prof. Liliane Price IV",
+    "CreatedBy": "dolorum",
+    "UpdatedBy": "sunt",
+    "DeviceIdentifier": "voluptatibus",
+    "ForeignAppId": 514,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldLength": 421
       }
     }
   }

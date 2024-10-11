@@ -94,9 +94,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Torp-O'Hara",
-  "ForceFlatList": false,
-  "AdditionalInfo": "quis",
+  "Name": "Jenkins-Fisher",
+  "ForceFlatList": true,
+  "AdditionalInfo": "numquam",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Conn-Stehr",
-    "ToolTip": "Temporibus alias sit est minus molestiae exercitationem velit.",
-    "Deleted": true,
-    "Rank": 544,
-    "Type": "praesentium",
-    "ColorBlock": 462,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2011-11-25T04:02:01.909728+01:00",
+    "Id": 543,
+    "Name": "Cassin, Sanford and Quigley",
+    "ToolTip": "Est esse quaerat amet accusamus provident neque voluptatem.",
+    "Deleted": false,
+    "Rank": 694,
+    "Type": "minima",
+    "ColorBlock": 723,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2019-06-17T03:44:52.7614393+02:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Bahringer-Friesen",
-        "ToolTip": "Minus magni aut corporis.",
-        "Deleted": false,
-        "Rank": 94,
-        "Type": "quae",
-        "ColorBlock": 346,
-        "IconHint": "unde",
+        "Id": 752,
+        "Name": "Flatley Group",
+        "ToolTip": "Aut sit delectus sit sint et.",
+        "Deleted": true,
+        "Rank": 807,
+        "Type": "qui",
+        "ColorBlock": 800,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2018-12-12T04:02:01.909728+01:00",
+        "LastChanged": "2017-04-27T03:44:52.7614393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "vel",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Rachelle Boehm",
+        "FullName": "Kayleigh Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 522
+            "FieldType": "System.String",
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "beatae",
-    "Hidden": true,
-    "FullName": "Arvel Bosco",
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Mr. Nelda Winona Sanford I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 989
       }
     }
   }

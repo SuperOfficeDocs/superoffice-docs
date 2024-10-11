@@ -13379,6 +13379,8 @@
       href: Services88/DocumentMigration/GetForSelection.md
     - name: GetForTemplates
       href: Services88/DocumentMigration/GetForTemplates.md
+    - name: GetNumberOfConfidentialDocuments
+      href: Services88/DocumentMigration/GetNumberOfConfidentialDocuments.md
     - name: HasDocumentsToMigrate
       href: Services88/DocumentMigration/HasDocumentsToMigrate.md
     - name: MigrateDocumentToNewDocPlugin
@@ -14701,6 +14703,8 @@
       href: Services88/Person/CreateOrUpdateUserCandidate.md
     - name: CreateTemporaryKey
       href: Services88/Person/CreateTemporaryKey.md
+    - name: CreateTemporaryKeyWithPayload
+      href: Services88/Person/CreateTemporaryKeyWithPayload.md
     - name: DeleteConsentPerson
       href: Services88/Person/DeleteConsentPerson.md
     - name: DeleteExpired

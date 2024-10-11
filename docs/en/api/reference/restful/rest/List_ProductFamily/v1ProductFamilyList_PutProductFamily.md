@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Walter Inc and Sons",
-  "Tooltip": "non",
+  "Id": 882,
+  "Name": "Wiza, Klein and Hansen",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "UdListDefinitionId": 711,
-  "Rank": 924
+  "UdListDefinitionId": 80,
+  "Rank": 261
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 804,
-  "Name": "Johnston Group",
-  "Tooltip": "minus",
+  "Id": 344,
+  "Name": "Watsica, Donnelly and Schmidt",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 16,
-  "Rank": 315,
+  "UdListDefinitionId": 838,
+  "Rank": 107,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 692
     }
   }
 }

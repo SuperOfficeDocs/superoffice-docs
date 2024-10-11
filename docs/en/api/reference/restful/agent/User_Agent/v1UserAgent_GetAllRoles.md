@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Cummings, Donnelly and DuBuque",
-    "ToolTip": "Soluta harum error eum.",
-    "Deleted": false,
-    "Rank": 844,
-    "Type": "impedit",
-    "ColorBlock": 296,
-    "IconHint": "dolor",
+    "Id": 653,
+    "Name": "Powlowski-Lueilwitz",
+    "ToolTip": "Aspernatur dolores rerum consequatur cumque quidem ut.",
+    "Deleted": true,
+    "Rank": 227,
+    "Type": "ratione",
+    "ColorBlock": 107,
+    "IconHint": "eius",
     "Selected": true,
-    "LastChanged": "2008-07-21T04:02:02.5353524+02:00",
+    "LastChanged": "2010-01-09T03:44:53.3879523+01:00",
     "ChildItems": [
       {
-        "Id": 720,
-        "Name": "Rodriguez Group",
-        "ToolTip": "Ullam et exercitationem et natus doloremque quae velit.",
-        "Deleted": false,
-        "Rank": 788,
-        "Type": "odio",
-        "ColorBlock": 700,
-        "IconHint": "voluptas",
+        "Id": 747,
+        "Name": "Lockman Inc and Sons",
+        "ToolTip": "Unde iure consequatur perferendis debitis ab fugit.",
+        "Deleted": true,
+        "Rank": 87,
+        "Type": "ipsum",
+        "ColorBlock": 397,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2000-05-27T04:02:02.5353524+02:00",
+        "LastChanged": "2002-01-23T03:44:53.3879523+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "architecto",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Dariana Prohaska",
+        "FullName": "Jessy Casper II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 337
+            "FieldType": "System.Int32",
+            "FieldLength": 720
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Jordane Rodriguez",
+    "ExtraInfo": "harum",
+    "StyleHint": "necessitatibus",
+    "Hidden": false,
+    "FullName": "Holly Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

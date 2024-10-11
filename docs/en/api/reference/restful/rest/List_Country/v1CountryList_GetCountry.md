@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 688,
-  "Name": "Douglas, Braun and Cruickshank",
-  "CurrencyId": 590,
-  "EnglishName": "Olson, Stamm and Thiel",
+  "CountryId": 764,
+  "Name": "Renner, Stokes and Will",
+  "CurrencyId": 150,
+  "EnglishName": "Hessel, Runolfsdottir and Bayer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Phased homogeneous database",
-  "OrgNrText": "1757008",
-  "InterAreaPrefix": "maiores",
-  "DialInPrefix": "et",
-  "ZipPrefix": "aut",
-  "DomainName": "Lindgren, Leuschke and Windler",
-  "AddressLayoutId": 697,
-  "DomesticAddressLayoutId": 452,
-  "ForeignAddressLayoutId": 937,
-  "Rank": 33,
-  "Tooltip": "voluptas",
-  "Deleted": true,
+  "ImageDescription": "Upgradable solution-oriented matrix",
+  "OrgNrText": "267631",
+  "InterAreaPrefix": "doloremque",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "iusto",
+  "DomainName": "Wilderman, McKenzie and Abbott",
+  "AddressLayoutId": 323,
+  "DomesticAddressLayoutId": 695,
+  "ForeignAddressLayoutId": 659,
+  "Rank": 845,
+  "Tooltip": "non",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

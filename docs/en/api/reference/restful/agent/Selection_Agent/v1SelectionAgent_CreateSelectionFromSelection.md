@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 485,
-  "Name": "Gleichner, Hodkiewicz and Baumbach",
+  "SelectionId": 813,
+  "Name": "Stehr, O'Keefe and Senger",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-lateral encompassing groupware",
-  "Postit": "sed",
+  "Description": "Virtual non-volatile artificial intelligence",
+  "Postit": "eligendi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 76,
-  "IncludePerson": 980,
+  "GroupIdx": 132,
+  "IncludePerson": 205,
   "MemberCount": 99.99,
-  "Name": "Schuppe, Jenkins and Bayer",
-  "PostitTextId": 489,
-  "CreatedDate": "2006-12-28T04:02:02.3317533+01:00",
-  "SelectionId": 901,
-  "SoundEx": "corporis",
-  "Source": 511,
-  "TextId": 433,
-  "UpdatedDate": "2014-05-08T04:02:02.3317533+02:00",
-  "UpdatedCount": 454,
-  "Visibility": 678,
+  "Name": "Dibbert, King and Dooley",
+  "PostitTextId": 928,
+  "CreatedDate": "2008-04-02T03:44:53.1841498+02:00",
+  "SelectionId": 858,
+  "SoundEx": "impedit",
+  "Source": 913,
+  "TextId": 763,
+  "UpdatedDate": "2016-06-27T03:44:53.1841498+02:00",
+  "UpdatedCount": 269,
+  "Visibility": 902,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 971,
-  "TargetTableName": "Muller-Howell",
+  "TargetTableNumber": 221,
+  "TargetTableName": "Daugherty LLC",
   "Completed": false,
-  "LeftSelectionId": 788,
-  "RightSelectionId": 636,
+  "LeftSelectionId": 963,
+  "RightSelectionId": 306,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Champlin, Schmidt and D'Amore",
-  "ShadowProviderName": "Homenick Inc and Sons",
-  "ChartKey": "sit",
-  "LastLoaded": "1997-06-18T04:02:02.3317533+02:00",
-  "LastLoadedBy": 861,
+  "MainProviderName": "Johns Group",
+  "ShadowProviderName": "Emard Inc and Sons",
+  "ChartKey": "enim",
+  "LastLoaded": "2000-04-04T03:44:53.1841498+02:00",
+  "LastLoadedBy": 118,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-04-23T04:02:02.3317533+02:00",
-  "LastMembershipChangeBy": 846,
+  "LastMembershipChange": "2015-12-05T03:44:53.1841498+01:00",
+  "LastMembershipChangeBy": 742,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatibus",
-  "MemberTabHeading": "debitis",
-  "MailingsProviderName": "Walsh LLC",
-  "DashboardTileDefinitionId": 614,
+  "MainHeading": "quia",
+  "MemberTabHeading": "nesciunt",
+  "MailingsProviderName": "McKenzie-Stroman",
+  "DashboardTileDefinitionId": 826,
   "VisibleFor": [
     {
-      "VisibleId": 627,
+      "VisibleId": 765,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldType": "System.Int32",
+          "FieldLength": 206
         }
       }
     },
     {
-      "VisibleId": 627,
+      "VisibleId": 765,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldType": "System.Int32",
+          "FieldLength": 206
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 738
     }
   }
 }

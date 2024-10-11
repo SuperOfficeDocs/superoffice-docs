@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Brakus Inc and Sons",
-  "HeadingId": 611,
+  "UdListDefinitionName": "McKenzie Group",
+  "HeadingId": 870,
   "ListItemIds": [
-    187,
-    875
+    676,
+    679
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

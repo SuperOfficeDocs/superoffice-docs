@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 20,
-  "EmailBodyTemplateId": 475,
+  "QuoteVersionId": 71,
+  "EmailBodyTemplateId": 511,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 498,
-  "IncludeAttachments": false,
-  "RawMailSubject": "et"
+  "QuotedProductsTemplateId": 537,
+  "IncludeAttachments": true,
+  "RawMailSubject": "at"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 615,
-  "QuotedProductsId": 151,
+  "QuoteDocumentId": 575,
+  "QuotedProductsId": 542,
   "QuoteAttachmentIds": [
-    870,
-    892
+    562,
+    75
   ],
-  "MailBody": "minima",
-  "MailSubject": "architecto",
-  "ToEmail": "colt.wehner@gaylord.name",
-  "ToFullName": "Mr. Kaya Emelia Morissette",
-  "ErrorMessage": "voluptas",
+  "MailBody": "accusantium",
+  "MailSubject": "error",
+  "ToEmail": "vern.labadie@mcglynnschaefer.co.uk",
+  "ToFullName": "Bart Shanahan",
+  "ErrorMessage": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

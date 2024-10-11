@@ -91,8 +91,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 49,
-  "AttachmentId": "reiciendis"
+  "DocId": 206,
+  "AttachmentId": "numquam"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated leading edge extranet",
-  "Filename": "ea",
-  "Size": 75,
-  "Type": "esse",
-  "Encoding": "autem",
-  "Id": "quia",
-  "Disposition": "blanditiis",
+  "Description": "De-engineered multi-state hub",
+  "Filename": "qui",
+  "Size": 836,
+  "Type": "et",
+  "Encoding": "dolor",
+  "Id": "id",
+  "Disposition": "culpa",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

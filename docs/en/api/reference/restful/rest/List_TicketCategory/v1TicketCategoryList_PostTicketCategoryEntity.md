@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 590,
-  "ParentId": 472,
-  "Name": "Johns, Trantow and Wisozk",
-  "Fullname": "nesciunt",
-  "CategoryMaster": 445,
+  "TicketCategoryId": 209,
+  "ParentId": 308,
+  "Name": "Botsford, Hickle and Jast",
+  "Fullname": "aut",
+  "CategoryMaster": 718,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jacobi Inc and Sons",
+  "ExternalName": "Sporer Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 644,
-  "ReplyTemplate": 246,
-  "NotificationEmail": "prince@beatty.info",
+  "AssignmentLag": 886,
+  "ReplyTemplate": 1000,
+  "NotificationEmail": "ashlynn@eichmann.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 81,
+  "EffectiveReplyTemplateId": 612,
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "est",
+    "CustomFields2": "eum"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 629,
-  "ParentId": 203,
-  "Name": "Reilly LLC",
-  "Fullname": "deleniti",
-  "CategoryMaster": 147,
+  "TicketCategoryId": 91,
+  "ParentId": 635,
+  "Name": "Rowe, Mills and Johnston",
+  "Fullname": "nihil",
+  "CategoryMaster": 780,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Armstrong, Mante and Gorczany",
+  "ExternalName": "Hermann, O'Keefe and Roob",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 457,
-  "ReplyTemplate": 869,
-  "NotificationEmail": "arno@hodkiewiczkihn.ca",
+  "AssignmentLag": 634,
+  "ReplyTemplate": 875,
+  "NotificationEmail": "emmalee@mosciskigleichner.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 525,
+  "EffectiveReplyTemplateId": 470,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "et"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "facilis"
+    "CustomFields1": "tempora",
+    "CustomFields2": "dolor"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 144
     }
   }
 }

@@ -105,33 +105,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Boyle Inc and Sons",
-  "ProviderName": "Bartell LLC",
+  "GuiName": "Eichmann-Grady",
+  "ProviderName": "Feest-Cummerata",
   "SortOrder": [
     {
-      "Name": "Dietrich-Orn",
+      "Name": "Friesen-Bode",
       "Direction": "ASC"
     },
     {
-      "Name": "Dietrich-Orn",
+      "Name": "Friesen-Bode",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Funk Group",
-      "Operator": "tempore",
+      "Name": "Thompson, Wilderman and Klein",
+      "Operator": "et",
       "Values": [
-        "aut",
-        "atque"
+        "nesciunt",
+        "id"
       ],
       "DisplayValues": [
-        "accusantium",
-        "sunt"
+        "non",
+        "id"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 245,
+      "InterParenthesis": 730,
       "InterOperator": "And",
-      "UniqueHash": 577
+      "UniqueHash": 14
     }
   ],
   "Entities": [
-    "cum",
-    "ut"
+    "vel",
+    "sed"
   ],
-  "Page": 851,
-  "PageSize": 944,
-  "Context": "est"
+  "Page": 300,
+  "PageSize": 763,
+  "Context": "voluptatum"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kuphal-Gutmann",
-    "PrimaryKey": 673,
+    "EntityName": "Friesen Inc and Sons",
+    "PrimaryKey": 622,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "atque",
-        "TooltipHint": "deserunt",
-        "LinkHint": "velit"
+        "DisplayValue": "animi",
+        "TooltipHint": "impedit",
+        "LinkHint": "provident"
       }
     },
-    "LinkHint": "sed",
-    "StyleHint": "dolorem",
+    "LinkHint": "deserunt",
+    "StyleHint": "voluptatum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldType": "System.String",
+        "FieldLength": 873
       }
     }
   }

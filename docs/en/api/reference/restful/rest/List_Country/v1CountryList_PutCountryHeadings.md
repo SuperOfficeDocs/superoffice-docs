@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 563,
-    "Name": "Hoppe-Labadie",
-    "Tooltip": "consequatur",
+    "HeadingId": 986,
+    "Name": "Russel Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 635,
-    "UdListDefinitionId": 505
+    "Rank": 587,
+    "UdListDefinitionId": 344
   },
   {
-    "HeadingId": 563,
-    "Name": "Hoppe-Labadie",
-    "Tooltip": "consequatur",
+    "HeadingId": 986,
+    "Name": "Russel Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 635,
-    "UdListDefinitionId": 505
+    "Rank": 587,
+    "UdListDefinitionId": 344
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 344,
-    "Name": "Dietrich Group",
-    "Tooltip": "vel",
+    "HeadingId": 214,
+    "Name": "McGlynn Group",
+    "Tooltip": "porro",
     "Deleted": true,
-    "Rank": 690,
-    "UdListDefinitionId": 139,
+    "Rank": 896,
+    "UdListDefinitionId": 245,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 200
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 875,
-    "Name": "Cassin-Kessler",
-    "ToolTip": "Veniam id earum ipsa voluptatem voluptates voluptatum impedit.",
-    "Deleted": false,
-    "Rank": 153,
-    "Type": "dolor",
-    "ColorBlock": 787,
-    "IconHint": "velit",
+    "Id": 291,
+    "Name": "Pouros, Klocko and McDermott",
+    "ToolTip": "In incidunt quaerat dicta veritatis nam voluptatem unde.",
+    "Deleted": true,
+    "Rank": 356,
+    "Type": "tenetur",
+    "ColorBlock": 65,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "1998-07-23T04:02:06.7597584+02:00",
+    "LastChanged": "2008-07-27T03:44:57.5000465+02:00",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Metz Group",
-        "ToolTip": "Suscipit non praesentium est sed itaque excepturi.",
-        "Deleted": true,
-        "Rank": 609,
-        "Type": "velit",
-        "ColorBlock": 5,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2020-12-15T04:02:06.7597584+01:00",
+        "Id": 769,
+        "Name": "Abernathy-Stoltenberg",
+        "ToolTip": "Qui sunt doloribus provident vero nemo et.",
+        "Deleted": false,
+        "Rank": 298,
+        "Type": "quis",
+        "ColorBlock": 336,
+        "IconHint": "necessitatibus",
+        "Selected": false,
+        "LastChanged": "2011-06-21T03:44:57.5000465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "cum",
+        "ExtraInfo": "atque",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Theresa Renee Howe DVM",
+        "FullName": "Colleen Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 866
+            "FieldLength": 303
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "natus",
-    "Hidden": false,
-    "FullName": "Dr. Giovanni Kshlerin DVM",
+    "ExtraInfo": "tempora",
+    "StyleHint": "blanditiis",
+    "Hidden": true,
+    "FullName": "Mrs. Jillian Dino Johns DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 239
+        "FieldType": "System.Int32",
+        "FieldLength": 29
       }
     }
   }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Rutherford, Kovacek and Berge",
-  "Tooltip": "mollitia",
+  "Id": 394,
+  "Name": "Paucek Inc and Sons",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "UdListDefinitionId": 893,
-  "Rank": 691
+  "UdListDefinitionId": 63,
+  "Rank": 855
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 926,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "velit",
+  "Id": 108,
+  "Name": "Huels, Brakus and Kling",
+  "Tooltip": "corrupti",
   "Deleted": true,
-  "UdListDefinitionId": 607,
-  "Rank": 190,
+  "UdListDefinitionId": 226,
+  "Rank": 935,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 956
     }
   }
 }

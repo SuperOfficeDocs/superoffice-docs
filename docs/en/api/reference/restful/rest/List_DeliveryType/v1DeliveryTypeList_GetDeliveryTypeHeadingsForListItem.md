@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Gislason LLC",
-    "ToolTip": "Voluptatem maiores aut minus.",
-    "Deleted": true,
-    "Rank": 2,
-    "Type": "expedita",
-    "ColorBlock": 466,
-    "IconHint": "esse",
+    "Id": 665,
+    "Name": "Gerhold, Thompson and Heaney",
+    "ToolTip": "Cum earum nesciunt suscipit.",
+    "Deleted": false,
+    "Rank": 992,
+    "Type": "molestiae",
+    "ColorBlock": 526,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2009-05-26T04:02:07.2440841+02:00",
+    "LastChanged": "2014-11-27T03:44:57.9843605+01:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Hegmann, Johnson and Labadie",
-        "ToolTip": "Sint vel est quod similique quaerat.",
-        "Deleted": false,
-        "Rank": 719,
-        "Type": "quisquam",
-        "ColorBlock": 259,
-        "IconHint": "rem",
-        "Selected": false,
-        "LastChanged": "1998-11-07T04:02:07.2440841+01:00",
+        "Id": 22,
+        "Name": "Abbott LLC",
+        "ToolTip": "Aperiam sed laborum in tenetur nulla explicabo nam.",
+        "Deleted": true,
+        "Rank": 220,
+        "Type": "voluptatem",
+        "ColorBlock": 633,
+        "IconHint": "aperiam",
+        "Selected": true,
+        "LastChanged": "1998-08-21T03:44:57.9843605+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "est",
+        "ExtraInfo": "harum",
+        "StyleHint": "nisi",
         "Hidden": true,
-        "FullName": "Dorian Wilkinson",
+        "FullName": "Jonathon Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 906
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "eaque",
+    "ExtraInfo": "harum",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Ms. Bettie West IV",
+    "FullName": "Vernon Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 811
       }
     }
   }

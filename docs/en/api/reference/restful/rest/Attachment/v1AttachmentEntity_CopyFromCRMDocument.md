@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 784,
-  "Name": "Feeney-Bode",
-  "ContentType": "veniam",
-  "AttSize": 970,
+  "AttachmentId": 322,
+  "Name": "Collins Inc and Sons",
+  "ContentType": "consequatur",
+  "AttSize": 210,
   "InlineImage": false,
-  "ContentId": "omnis",
-  "AuthKey": "eveniet",
+  "ContentId": "facilis",
+  "AuthKey": "sint",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

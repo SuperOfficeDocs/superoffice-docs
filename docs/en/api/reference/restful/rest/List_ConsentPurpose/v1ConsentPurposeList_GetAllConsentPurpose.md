@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 290,
-    "Name": "Hahn, Hills and Gleason",
-    "ConsentText": "mollitia",
-    "FormText": "minima",
-    "Key": "ex",
-    "Tooltip": "commodi",
-    "Active": 709,
-    "UpdatedDate": "2000-01-19T04:02:07.1034721+01:00",
+    "ConsentPurposeId": 596,
+    "Name": "Hoeger Group",
+    "ConsentText": "optio",
+    "FormText": "exercitationem",
+    "Key": "beatae",
+    "Tooltip": "dolor",
+    "Active": 553,
+    "UpdatedDate": "2002-10-08T03:44:57.9374899+02:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 461,
-    "PrivacyStatementDesc": "quaerat",
+    "Deleted": false,
+    "Rank": 627,
+    "PrivacyStatementDesc": "corrupti",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 647
       }
     }
   }

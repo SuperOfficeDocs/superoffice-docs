@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 526,
-    "Tooltip": "quia",
+    "Total": 962,
+    "Tooltip": "quis",
     "CanAssign": false,
-    "Free": 82,
-    "InUse": 996,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 632,
-    "Name": "Kirlin Inc and Sons",
-    "Description": "Diverse scalable data-warehouse",
-    "PrerequisiteModuleName": "Zboncak LLC",
-    "SortOrder": 202,
-    "ExtraFlags": 745,
+    "Free": 885,
+    "InUse": 786,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 197,
+    "Name": "Kemmer-Rosenbaum",
+    "Description": "Object-based homogeneous framework",
+    "PrerequisiteModuleName": "Emard, Quigley and Bahringer",
+    "SortOrder": 596,
+    "ExtraFlags": 398,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 734
       }
     }
   }

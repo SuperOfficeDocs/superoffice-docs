@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 247,
-    "Name": "Auer LLC",
-    "OrgNr": "1295540",
+    "ContactId": 15,
+    "Name": "Hegmann-Legros",
+    "OrgNr": "1555211",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "eum",
-    "DirectPhone": "1-639-085-4526 x293",
-    "AssociateId": 610,
-    "CountryId": 922,
-    "EmailAddress": "helmer@robel.ca",
-    "Kananame": "qui",
-    "EmailAddressName": "giuseppe_quitzon@metzmayer.name",
+    "City": "repellat",
+    "DirectPhone": "920.271.9652 x5824",
+    "AssociateId": 487,
+    "CountryId": 317,
+    "EmailAddress": "kyleigh_leffler@senger.name",
+    "Kananame": "ullam",
+    "EmailAddressName": "keeley.howe@erdman.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Kayleigh Huel",
+    "AssociateFullName": "Frida O'Reilly",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "vitae",
-    "FullName": "Mrs. Bryana Schneider",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 37,
-    "Number1": "544228",
-    "Number2": "830033",
+    "FormattedAddress": "fuga",
+    "FullName": "Prof. Daniela Krystel Conroy III",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 404,
+    "Number1": "1066591",
+    "Number2": "1354597",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 947
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

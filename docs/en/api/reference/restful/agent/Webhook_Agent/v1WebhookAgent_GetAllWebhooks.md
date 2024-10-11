@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Reichel Group",
-  "EventFilter": "adipisci",
+  "NameFilter": "Reichert, Dare and Wilderman",
+  "EventFilter": "dignissimos",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 420,
-    "Name": "Hackett-Keebler",
+    "WebhookId": 113,
+    "Name": "Toy, Wisozk and Johns",
     "Events": [
-      "amet",
-      "dicta"
+      "ex",
+      "sit"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "quam",
+    "Secret": "eaque",
     "State": "Active",
-    "Type": "aut",
+    "Type": "quis",
     "Headers": {
-      "Headers1": "fuga",
-      "Headers2": "accusantium"
+      "Headers1": "nisi",
+      "Headers2": "est"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2003-12-28T04:02:02.5978454+01:00",
+    "Registered": "2017-07-14T03:44:53.4498657+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2000-12-11T04:02:02.5978454+01:00",
+    "Updated": "2001-10-12T03:44:53.4498657+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "herta.metz@donnellyauer.info"
+    "ErrorsEmail": "alivia@barton.us"
   }
 ]
 ```

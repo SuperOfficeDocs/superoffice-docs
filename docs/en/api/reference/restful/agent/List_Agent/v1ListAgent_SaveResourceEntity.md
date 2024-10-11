@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 439,
-  "Name": "Hoeger Inc and Sons",
-  "Rank": 739,
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
+  "ResourceId": 421,
+  "Name": "Glover, Kovacek and Hammes",
+  "Rank": 268,
+  "Tooltip": "provident",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "architecto"
+  "LocationAddress": "eligendi"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 640,
-  "Name": "Kuhlman-Waelchi",
-  "Rank": 896,
-  "Tooltip": "ex",
-  "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "sed",
+  "ResourceId": 347,
+  "Name": "Fritsch Group",
+  "Rank": 891,
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "IsLocation": false,
+  "LocationAddress": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

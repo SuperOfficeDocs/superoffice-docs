@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Schultz Inc and Sons",
-    "ToolTip": "Aperiam molestias.",
-    "Deleted": true,
-    "Rank": 909,
-    "Type": "nam",
-    "ColorBlock": 858,
-    "IconHint": "ut",
+    "Id": 924,
+    "Name": "Feest, Marvin and O'Keefe",
+    "ToolTip": "Illum ducimus.",
+    "Deleted": false,
+    "Rank": 290,
+    "Type": "illo",
+    "ColorBlock": 157,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2014-04-25T04:02:07.2909529+02:00",
+    "LastChanged": "2010-03-07T03:44:58.0468534+01:00",
     "ChildItems": [
       {
-        "Id": 576,
-        "Name": "Hegmann-Runolfsdottir",
-        "ToolTip": "Vero cupiditate sed consequuntur.",
-        "Deleted": false,
-        "Rank": 303,
-        "Type": "rerum",
-        "ColorBlock": 438,
-        "IconHint": "molestias",
-        "Selected": true,
-        "LastChanged": "2018-12-22T04:02:07.2909529+01:00",
+        "Id": 862,
+        "Name": "Dach Group",
+        "ToolTip": "Aliquam et corrupti qui nesciunt.",
+        "Deleted": true,
+        "Rank": 774,
+        "Type": "quis",
+        "ColorBlock": 452,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2014-03-04T03:44:58.0468534+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Miss Kitty Breana Cormier"
+        "ExtraInfo": "qui",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Jake Bergstrom IV"
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "fuga",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Mrs. Sarai Krystel Champlin"
+    "FullName": "Tiffany Davis DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Sanford, Beatty and Nienow",
-    "ToolTip": "Repellat et molestiae neque accusamus in.",
+    "Id": 237,
+    "Name": "Koepp, O'Hara and Prosacco",
+    "ToolTip": "Ut sequi corporis.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "dolor",
-    "ColorBlock": 840,
-    "IconHint": "voluptatibus",
+    "Rank": 492,
+    "Type": "recusandae",
+    "ColorBlock": 934,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2021-10-30T04:02:07.2909529+02:00",
+    "LastChanged": "2014-02-04T03:44:58.0468534+01:00",
     "ChildItems": [
       {
-        "Id": 705,
-        "Name": "Weimann Inc and Sons",
-        "ToolTip": "Quidem voluptatem natus quo minima quia.",
+        "Id": 481,
+        "Name": "Batz, Dach and Lind",
+        "ToolTip": "Aut et consectetur quae tempore consequatur quasi in.",
         "Deleted": false,
-        "Rank": 649,
-        "Type": "sapiente",
-        "ColorBlock": 922,
-        "IconHint": "sed",
+        "Rank": 906,
+        "Type": "nemo",
+        "ColorBlock": 592,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2014-03-22T04:02:07.2909529+01:00",
+        "LastChanged": "2012-12-22T03:44:58.0468534+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "culpa",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Georgianna Reinger",
+        "FullName": "Paxton Ziemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 498
+            "FieldType": "System.Int32",
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "quia",
+    "StyleHint": "autem",
     "Hidden": true,
-    "FullName": "Mr. Yazmin Justina Dickinson",
+    "FullName": "Carolyn Cory Conn I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 292
       }
     }
   }

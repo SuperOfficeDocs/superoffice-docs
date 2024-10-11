@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 2,
-    "Name": "Schimmel, Mann and West",
-    "Tooltip": "dolorem",
+    "HeadingId": 345,
+    "Name": "Davis, Langosh and Runte",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 963,
-    "UdListDefinitionId": 874
+    "Rank": 576,
+    "UdListDefinitionId": 659
   },
   {
-    "HeadingId": 2,
-    "Name": "Schimmel, Mann and West",
-    "Tooltip": "dolorem",
+    "HeadingId": 345,
+    "Name": "Davis, Langosh and Runte",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 963,
-    "UdListDefinitionId": 874
+    "Rank": 576,
+    "UdListDefinitionId": 659
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 683,
-    "Name": "Ortiz-Hudson",
-    "Tooltip": "non",
-    "Deleted": false,
-    "Rank": 207,
-    "UdListDefinitionId": 630,
+    "HeadingId": 638,
+    "Name": "Corwin-Dare",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "Rank": 909,
+    "UdListDefinitionId": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 711
       }
     }
   }

@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 789,
-  "ERPProductKey": "voluptates"
+  "QuoteAlternativeId": 602,
+  "ERPProductKey": "vel"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 158,
-  "ERPQuoteLineKey": "nisi",
-  "QuoteAlternativeId": 264,
-  "ERPProductKey": "accusamus",
+  "QuoteLineId": 341,
+  "ERPQuoteLineKey": "laboriosam",
+  "QuoteAlternativeId": 790,
+  "ERPProductKey": "id",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 22263.935999999998,
-  "DeliveredQuantity": 15720.144,
-  "Rank": 716,
-  "Name": "Wunsch-Christiansen",
-  "Description": "Synchronised intangible complexity",
-  "Code": "in",
-  "QuantityUnit": "ab",
-  "PriceUnit": "repellendus",
-  "ItemNumber": "966465",
+  "Quantity": 25595.378,
+  "DeliveredQuantity": 27999.156,
+  "Rank": 247,
+  "Name": "Ledner-Metz",
+  "Description": "Focused multimedia software",
+  "Code": "autem",
+  "QuantityUnit": "aperiam",
+  "PriceUnit": "ea",
+  "ItemNumber": "219725",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quibusdam",
-  "ProductTypeKey": "ullam",
-  "Supplier": "odit",
-  "SupplierCode": "assumenda",
-  "Thumbnail": "odio",
-  "VATInfo": "voluptatem",
-  "VAT": 14331.782,
-  "UnitCost": 27742.167999999998,
-  "UnitMinimumPrice": 9784.348,
-  "UnitListPrice": 25711.336,
+  "ProductFamilyKey": "veritatis",
+  "ProductTypeKey": "et",
+  "Supplier": "dolor",
+  "SupplierCode": "soluta",
+  "Thumbnail": "unde",
+  "VATInfo": "laboriosam",
+  "VAT": 15096.478,
+  "UnitCost": 24109.862,
+  "UnitMinimumPrice": 22533.46,
+  "UnitListPrice": 17095.97,
   "ExtraInfo": [
     {
-      "Name": "Little, Hagenes and Hirthe",
-      "Value": "labore",
+      "Name": "Nolan, Harber and Kuvalis",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldType": "System.String",
+          "FieldLength": 799
         }
       }
     },
     {
-      "Name": "Little, Hagenes and Hirthe",
-      "Value": "labore",
+      "Name": "Nolan, Harber and Kuvalis",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldType": "System.String",
+          "FieldLength": 799
         }
       }
     }
   ],
-  "RawExtraInfo": "aperiam",
+  "RawExtraInfo": "repellendus",
   "IsSubscription": false,
-  "SubscriptionUnit": "accusantium",
-  "SubscriptionQuantity": 13610.962,
-  "SubscriptionStart": "2024-07-29T04:02:02.2222071+02:00",
-  "ERPDiscountPercent": 22141.71,
-  "ERPDiscountAmount": 20888.11,
-  "DiscountPercent": 16271.728,
-  "DiscountAmount": 30659.922,
+  "SubscriptionUnit": "est",
+  "SubscriptionQuantity": 7076.572,
+  "SubscriptionStart": "2003-09-23T03:44:53.0739396+02:00",
+  "ERPDiscountPercent": 26704.814,
+  "ERPDiscountAmount": 29359.311999999998,
+  "DiscountPercent": 30826.023999999998,
+  "DiscountAmount": 2356.768,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 8834.746,
-  "EarningAmount": 15870.576,
-  "SubTotal": 18164.664,
-  "TotalPrice": 16171.439999999999,
-  "Rights": "ut",
-  "Rule": "dolorem",
-  "ExtraField1": "unde",
-  "ExtraField2": "quam",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "quis",
-  "ExtraField5": "voluptate",
+  "EarningPercent": 454.43,
+  "EarningAmount": 3149.67,
+  "SubTotal": 10426.818,
+  "TotalPrice": 8809.6739999999991,
+  "Rights": "culpa",
+  "Rule": "ipsam",
+  "ExtraField1": "est",
+  "ExtraField2": "possimus",
+  "ExtraField3": "et",
+  "ExtraField4": "fugiat",
+  "ExtraField5": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   }
 }

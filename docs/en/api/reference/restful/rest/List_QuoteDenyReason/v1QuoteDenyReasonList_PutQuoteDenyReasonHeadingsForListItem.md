@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 969,
-    "Name": "Oberbrunner, Ankunding and Keeling",
-    "ToolTip": "Est voluptates.",
+    "Id": 96,
+    "Name": "Watsica-Walker",
+    "ToolTip": "Aut veritatis amet non doloribus.",
     "Deleted": true,
-    "Rank": 662,
-    "Type": "non",
-    "ColorBlock": 696,
-    "IconHint": "numquam",
+    "Rank": 491,
+    "Type": "eveniet",
+    "ColorBlock": 615,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2006-03-08T04:02:07.3690701+01:00",
+    "LastChanged": "2007-07-10T03:44:58.1093468+02:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Terry-Davis",
-        "ToolTip": "Accusantium ex molestiae odio eveniet et.",
-        "Deleted": true,
-        "Rank": 297,
-        "Type": "dolorem",
-        "ColorBlock": 692,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2009-12-05T04:02:07.3690701+01:00",
+        "Id": 204,
+        "Name": "O'Conner-Champlin",
+        "ToolTip": "Blanditiis suscipit et fugiat corrupti eaque fuga nobis.",
+        "Deleted": false,
+        "Rank": 634,
+        "Type": "iure",
+        "ColorBlock": 136,
+        "IconHint": "doloribus",
+        "Selected": true,
+        "LastChanged": "2001-03-23T03:44:58.1093468+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "enim",
-        "StyleHint": "praesentium",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Caitlyn Jast"
+        "FullName": "Taylor Kilback"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "alias",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Miss Ellie Larry Orn"
+    "FullName": "Angelica Madonna Schneider V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Ullrich, Bashirian and Hickle",
-    "ToolTip": "Officiis quos ullam quos velit labore esse et.",
-    "Deleted": true,
-    "Rank": 759,
-    "Type": "modi",
-    "ColorBlock": 689,
-    "IconHint": "ipsam",
+    "Id": 133,
+    "Name": "Lang Inc and Sons",
+    "ToolTip": "Enim eos alias eum.",
+    "Deleted": false,
+    "Rank": 250,
+    "Type": "voluptate",
+    "ColorBlock": 478,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2023-05-29T04:02:07.3690701+02:00",
+    "LastChanged": "2008-03-16T03:44:58.1093468+01:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Pfannerstill Inc and Sons",
-        "ToolTip": "Quas dicta placeat.",
+        "Id": 330,
+        "Name": "Raynor-Mayert",
+        "ToolTip": "Cupiditate sapiente natus.",
         "Deleted": false,
-        "Rank": 743,
-        "Type": "quis",
-        "ColorBlock": 382,
-        "IconHint": "dolorem",
+        "Rank": 858,
+        "Type": "porro",
+        "ColorBlock": 177,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2002-10-04T04:02:07.3690701+02:00",
+        "LastChanged": "2017-07-30T03:44:58.1093468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "et",
+        "ExtraInfo": "iure",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Hillard Jacobi",
+        "FullName": "Jeffrey Hardy Mante V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldType": "System.String",
+            "FieldLength": 386
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Joe Kemmer",
+    "ExtraInfo": "autem",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Cody Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 544
       }
     }
   }
