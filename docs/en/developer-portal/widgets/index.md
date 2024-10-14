@@ -26,6 +26,7 @@ Each widget represents distinctive features.
 |---|---|
 | Application Failures | Monitors problems with API calls. |
 | Messaging Center | Provides quick information on communication related to requests. |
+| New Customers | Provides quick information on new customers signed up to use your standard applications. |
 | Onboarding | Aids users getting started. |
 
 ## Go to dashboard
