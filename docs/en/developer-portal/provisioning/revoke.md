@@ -17,9 +17,11 @@ Revoking access to an application is a manual procedure. It will sever the conne
 The revocation must be done by the customer's tenant administrator.
 
 1. Sign in to the [App Store][1].
-2. Locate the application you want to revoke access to.
-3. Click **Report a problem** and tell us that you no longer want this application to have access to your tenant.
-4. If provided, use the application's **Uninstall** to remove the configuration (such as user-defined fields and web panels).
+2. Go to **Installed apps** and locate the application you want to revoke access to.
+3. Click **Uninstall** to start the process to remove the apps access to your SuperOffice CRM. Only a tenant user with administrator rights will see this button. 
+4. If provided by the partner, use the application's **Uninstall** to remove the configuration (such as user-defined fields and web panels).
+
+
 
 <!-- Referenced links -->
 [1]: http://online.superoffice.com/appstore
