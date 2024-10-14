@@ -47,5 +47,4 @@ items:
   - name: API options - SAINT
     href: saint/howto/toc.yml
   - name: API options - quote
-    href: ../quote/howto/toc.yml
-    topicHref: ../quote/howto/index.md
+    topicHref: ../automation/crmscript/howto/quote/index.md
