@@ -26,7 +26,5 @@ items:
       items:
       - name: Stakeholders
         href: howto/sql/stakeholders.md
-  - name: API options - SAINT
-    href: saint/howto/toc.yml
   - name: API options - quote
     topicHref: ../automation/crmscript/howto/quote/index.md

@@ -413,6 +413,11 @@ items:
       href: rows/delete-row.md
     - name: Delete a row through an entity
       href: rows/delete-row-from-entity.md
+    - name: SAINT
+      href: rows/howto/saint/index.md
+      items:
+      - name: Search SAINT (ContactRow.CustomSearch)
+        href: rows/howto/saint/search-saint-contactrow-customsearch.md
 - name: Objectified SQL
   href: osql/index.md
   items:
@@ -455,6 +460,13 @@ items:
     items:
     - name: Set udef
       href: sql/howto/custom-objects/set-udef.md
+  - name: SAINT
+    href: sql/howto/saint/index.md
+    items:
+    - name: Get contact by saint value
+      href: sql/howto/saint/get-contact-by-saint-value.md
+    - name: Search SAINT values
+      href: sql/howto/saint/search-saint-values.md
 - name: Bulk Operation
   href: bulk-operations/index.md
   items:
