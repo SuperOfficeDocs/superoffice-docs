@@ -196,6 +196,25 @@ items:
       href: howto/quote/place-order.md
     - name: Samples
       href: howto/quote/samples.md
+  - name: Sale
+    href: howto/sale/index.md
+    items:
+      - name: Create
+        href: howto/sale/create.md
+      - name: Get
+        href: howto/sale/get.md
+      - name: Update
+        href: howto/sale/update.md
+      - name: Stakeholders
+        href: howto/sale/stakeholders.md
+      - name: Guides
+        href: howto/sale/guides.md
+      - name: Currency
+        href: howto/sale/currency.md
+      - name: Lost or sold
+        href: howto/sale/lost-or-sold.md
+      - name: Samples
+        href: howto/sale/samples.md
 - name: Tutorials
   href: tutorials/index.md
   items:
