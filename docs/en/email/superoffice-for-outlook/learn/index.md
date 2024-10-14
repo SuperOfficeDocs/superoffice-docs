@@ -4,7 +4,7 @@ title: SuperOffice for Outlook
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 keywords: email, SuperOffice for Outlook, Outlook
 author: Bergfrid Dias
-date: 09.20.2024
+date: 10.14.2024
 version_sofo: 2024.8.12
 topic: concept
 language: en
@@ -30,16 +30,18 @@ You will have key information at your fingertips, right when you need it. Plus, 
 
 ![Action tab showing save to email and create activity options in SuperOffice -screenshot][img1]
 
-## Key Features
+## Key features
 
 The SuperOffice for Outlook add-in lets you:
 
 * Save contacts and companies
 * Archive emails
-* Create appointments and tasks
-* Create sales, activities, and requests
-* Add messages to request​
 * Save attachments to SuperOffice CRM
+* Create appointments
+* Create tasks
+* Create sales
+* Create requests
+* Add messages to request​
 * Add CRM data to calendar events
 
 Everything you need is integrated into your inbox, making your workflow smoother and more efficient.
