@@ -86,6 +86,21 @@ After installing the add-in, you can pin it for quick access while reading email
 
 ![SuperOffice for Outlook, pin add-in -screenshot][img2]
 
+## Remove add-in
+
+1. In Outlook, go to **Manage my Add-ins**.
+
+1. Locate the add-in in the list.
+
+1. Click the three dots and select **Remove**.
+
+    ![SuperOffice for Outlook, remove add-in -screenshot][img4]
+
+1. Click **Remove** to confirm.
+
+> [!NOTE]
+> If you cannot see the **Remove** option, the SuperOffice for Outlook add-in is likely required and managed by your administrator.
+
 ## Related content
 
 * [Deploy SuperOffice for Outlook centrally for all users][5] (for IT admins)
@@ -101,3 +116,4 @@ After installing the add-in, you can pin it for quick access while reading email
 [img1]: ../../../../media/loc/en/email/outlook-icon-bar.png
 [img2]: ../../../../media/loc/en/email/outlook-pin.png
 [img3]: ../../../../media/loc/en/email/outlook-apps-page.png
+[img4]: ../../../../media/loc/en/email/outlook-remove-app.png
