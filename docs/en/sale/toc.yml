@@ -11,20 +11,10 @@ items:
   - name: API options - sale
     items:
     - name: CRMScript
-      topicHref: ../automation/crmscript/howto/quote/index.md
+      topicHref: ../automation/crmscript/howto/sale/index.md
     - name: Web services
-      href: howto/services/index.md
-      items:
-      - name: Link sale to appointment
-        href: howto/services/link-sale-to-appointment.md
-    - name: Entities (data layer)
-      href: howto/entity/index.md
-      items:
-      - name: Link sale to appointment
-        href: howto/entity/link-sale-to-appointment.md
-    - name: Raw SQL
-      items:
-      - name: Stakeholders
-        href: howto/sql/stakeholders.md
+      topicHref: ../api/web-services/howto/sale/index.md
   - name: API options - quote
-    topicHref: ../automation/crmscript/howto/quote/index.md
+    items:
+    - name: CRMScript
+      topicHref: ../automation/crmscript/howto/quote/index.md

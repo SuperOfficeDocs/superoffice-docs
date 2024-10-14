@@ -1,10 +1,11 @@
 ---
-title: Activity links sub-object on models
 uid: activity_links
+title: Activity links sub-object on models
 description: Activity links sub-object on models
-author:
-date:
 keywords: appointment,document,sale
+author: AnthonyYates
+date: 11.05.2016
+version: 8.5
 topic: concept
 ---
 
@@ -68,7 +69,7 @@ To summarize in diagram form:
 [4]: ../../database/tables/relationtarget.md
 
 <!-- Referenced images -->
-[img1]: ../../sale/howto/entity/media/sale-apt-link.png
+[img1]: ../../../media/loc/en/sale/sale-apt-link.png
 [img2]: media/links-appointment-record.png
 [img3]: media/links-relations.png
 [img4]: media/links-reldeflist.png

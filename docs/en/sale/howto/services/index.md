@@ -1,16 +1,6 @@
 ---
-title: Sale - web service
-uid: sale-howto-ws
-description: Working with sales in SuperOffice web services.
+uid: sale-howto-ws-redirect
 author: Bergfrid Skaara Dias
-date: 11.05.2021
-keywords: sale, API, web services
-topic: concept
+date: 10.15.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/sale/index.html
 ---
-
-# Sale - web services
-
-* [Link sale to follow-up][1]
-
-<!-- Referenced links -->
-[1]: link-sale-to-appointment.md

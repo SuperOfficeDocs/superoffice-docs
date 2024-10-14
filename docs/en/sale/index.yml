@@ -217,9 +217,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Link sale to appointment (web services)
-          url: howto/services/index.md
-
+        - text: Link sale to follow-up (web services)
+          url: ../api/web-services/howto/sale/index.md
 
   - title: Database tables
     linkLists:
