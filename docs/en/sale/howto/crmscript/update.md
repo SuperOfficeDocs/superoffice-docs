@@ -1,32 +1,6 @@
 ---
-uid: crmscript-sale-update
-title: Update a sale
-description: How to update a sale with CRMScript in SuperOffice.
-author: Bergfrid Dias
-date: 06.09.2023
-keywords: sale, SaleAgent
-topic: howto
+uid: crmscript-sale-update-redirect
+author: Bergfrid Skaara Dias
+date: 10.15.2024
+redirect_url: https://docs.superoffice.com/en/automation/crmscript/howto/sale/update.html
 ---
-
-# Update a sale
-
-```crmscript
-NSSaleAgent saleAgent;
-NSSaleEntity sale = saleAgent.GetSaleEntity(4);
-
-NSListAgent listAgent;
-sale.SetCompetitor(listAgent.GetCompetitor(1));
-
-sale = saleAgent.SaveSaleEntity(sale);
-```
-
-## Delete a sale
-
-It might be necessary to delete a sale if it is no longer appropriate to store it in the database.
-
-```crmscript
-NSSaleAgent saleAgent;
-Void DeleteSaleEntity(123);
-```
-
-<!-- Referenced links -->

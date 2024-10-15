@@ -337,6 +337,11 @@ items:
         href: web-services/howto/flows/rest-create-flow-step.md
       - name: Save email flow
         href: web-services/howto/flows/rest-save-flow.md
+    - name: Sale
+      href: web-services/howto/sale/index.md
+      items:
+      - name: Link sale to appointment
+        href: web-services/howto/sale/link-sale-to-appointment.md
 - name: Entities
   href: entities/index.md
   items:
@@ -385,7 +390,11 @@ items:
         href: entities/howto/custom-objects/udefhelper-class.md
       - name: Udef on contact
         href: entities/howto/custom-objects/udef-on-contact.md
-
+    - name: Sale
+      href: entities/howto/sale/index.md
+      items:
+      - name: Link sale to appointment
+        href: entities/howto/sale/link-sale-to-appointment.md
 - name: Rows
   href: rows/index.md
   items:
@@ -413,6 +422,11 @@ items:
       href: rows/delete-row.md
     - name: Delete a row through an entity
       href: rows/delete-row-from-entity.md
+    - name: SAINT
+      href: rows/howto/saint/index.md
+      items:
+      - name: Search SAINT (ContactRow.CustomSearch)
+        href: rows/howto/saint/search-saint-contactrow-customsearch.md
 - name: Objectified SQL
   href: osql/index.md
   items:
@@ -455,6 +469,17 @@ items:
     items:
     - name: Set udef
       href: sql/howto/custom-objects/set-udef.md
+  - name: SAINT
+    href: sql/howto/saint/index.md
+    items:
+    - name: Get contact by saint value
+      href: sql/howto/saint/get-contact-by-saint-value.md
+    - name: Search SAINT values
+      href: sql/howto/saint/search-saint-values.md
+  - name: Sale
+    items:
+    - name: Stakeholders
+      href: sql/howto/sale/stakeholders.md
 - name: Bulk Operation
   href: bulk-operations/index.md
   items:

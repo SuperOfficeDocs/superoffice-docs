@@ -9,43 +9,12 @@ items:
   - name: Sales intelligence (SAINT)
     href: saint/index.md
   - name: API options - sale
-    href: howto/index.md
     items:
     - name: CRMScript
-      href: howto/crmscript/index.md
-      items:
-      - name: Create
-        href: howto/crmscript/create.md
-      - name: Get
-        href: howto/crmscript/get.md
-      - name: Update
-        href: howto/crmscript/update.md
-      - name: Stakeholders
-        href: howto/crmscript/stakeholders.md
-      - name: Guides
-        href: howto/crmscript/guides.md
-      - name: Currency
-        href: howto/crmscript/currency.md
-      - name: Lost or sold
-        href: howto/crmscript/lost-or-sold.md
-      - name: Samples
-        href: howto/crmscript/samples.md
+      topicHref: ../automation/crmscript/howto/sale/index.md
     - name: Web services
-      href: howto/services/index.md
-      items:
-      - name: Link sale to appointment
-        href: howto/services/link-sale-to-appointment.md
-    - name: Entities (data layer)
-      href: howto/entity/index.md
-      items:
-      - name: Link sale to appointment
-        href: howto/entity/link-sale-to-appointment.md
-    - name: Raw SQL
-      items:
-      - name: Stakeholders
-        href: howto/sql/stakeholders.md
-  - name: API options - SAINT
-    href: saint/howto/toc.yml
+      topicHref: ../api/web-services/howto/sale/index.md
   - name: API options - quote
-    href: ../quote/howto/toc.yml
-    topicHref: ../quote/howto/index.md
+    items:
+    - name: CRMScript
+      topicHref: ../automation/crmscript/howto/quote/index.md

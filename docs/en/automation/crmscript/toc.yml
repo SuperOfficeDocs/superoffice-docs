@@ -173,6 +173,48 @@ items:
     items:
     - name: Forms
       href: howto/marketing/forms.md
+  - name: Quote
+    href: howto/quote/index.md
+    items:
+    - name: Create quote
+      href: howto/quote/create.md
+    - name: Add alternatives
+      href: howto/quote/add-alternative.md
+    - name: Add quote lines
+      href: howto/quote/add-quote-line.md
+    - name: Get quote info
+      href: howto/quote/get.md
+    - name: Update quote
+      href: howto/quote/update.md
+    - name: Products
+      href: howto/quote/products.md
+    - name: Price lists
+      href: howto/quote/price-list.md
+    - name: Quote document
+      href: howto/quote/quote-document.md
+    - name: Place order
+      href: howto/quote/place-order.md
+    - name: Samples
+      href: howto/quote/samples.md
+  - name: Sale
+    href: howto/sale/index.md
+    items:
+      - name: Create
+        href: howto/sale/create.md
+      - name: Get
+        href: howto/sale/get.md
+      - name: Update
+        href: howto/sale/update.md
+      - name: Stakeholders
+        href: howto/sale/stakeholders.md
+      - name: Guides
+        href: howto/sale/guides.md
+      - name: Currency
+        href: howto/sale/currency.md
+      - name: Lost or sold
+        href: howto/sale/lost-or-sold.md
+      - name: Samples
+        href: howto/sale/samples.md
 - name: Tutorials
   href: tutorials/index.md
   items:

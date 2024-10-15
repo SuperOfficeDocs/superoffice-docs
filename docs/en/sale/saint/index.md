@@ -21,7 +21,7 @@ SAINT counters are stored in the [countervalue][3] table and updated automatical
 
 SAINT **values** are simple binary values (on or off) that determine the look and feel of the company and project cards. These values are stored in the [statusvalue][1] table.
 
-[!include[ALT](includes/note-req-saint.md)]
+[!include[ALT](../../../../common/includes/note-req-saint.md)]
 
 <!-- Referenced links -->
 [1]: ../../database/tables/statusvalue.md

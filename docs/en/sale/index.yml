@@ -182,28 +182,28 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: howto/crmscript/index.md
+          url: ../automation/crmscript/howto/sale/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Create sale
-          url: howto/crmscript/create.md
+          url: ../automation/crmscript/howto/sale/create.md
         - text: Get
-          url: howto/crmscript/get.md
+          url: ../automation/crmscript/howto/sale/get.md
         - text: Update
-          url: howto/crmscript/update.md
+          url: ../automation/crmscript/howto/sale/update.md
         - text: Stakeholders
-          url: howto/crmscript/stakeholders.md
+          url: ../automation/crmscript/howto/sale/stakeholders.md
         - text: Guides
-          url: howto/crmscript/guides.md
+          url: ../automation/crmscript/howto/sale/guides.md
         - text: Currency
-          url: howto/crmscript/currency.md
+          url: ../automation/crmscript/howto/sale/currency.md
         - text: Lost or sold
-          url: howto/crmscript/lost-or-sold.md
+          url: ../automation/crmscript/howto/sale/lost-or-sold.md
         - text: Samples
-          url: howto/crmscript/samples.md
+          url: ../automation/crmscript/howto/sale/samples.md
         - text: Create quote
-          url: ../quote/howto/crmscript/index.md
+          url: ../automation/crmscript/howto/quote/create.md
 
   - title: API
     linkLists:
@@ -217,9 +217,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Link sale to appointment (web services)
-          url: howto/services/index.md
-
+        - text: Link sale to follow-up (web services)
+          url: ../api/web-services/howto/sale/index.md
 
   - title: Database tables
     linkLists:
