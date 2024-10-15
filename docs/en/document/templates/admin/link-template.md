@@ -125,7 +125,7 @@ Here you can add translated versions of the document template.
 <!-- Referenced links -->
 [1]: update-template.md
 [2]: ../learn/quote-templates.md
-[4]: ../../../sale/saint/learn/index.md
+[4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-down.png
