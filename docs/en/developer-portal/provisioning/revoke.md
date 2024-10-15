@@ -3,7 +3,8 @@ title: Revoke app
 uid: revoke-app
 description: How to revoke access given to a standard application.
 author: Bergfrid Dias
-date: 12.20.2023
+date: 09.25.2024
+version_devportal: 1.26
 keywords: App Store, revoke, consent
 topic: howto
 envir: cloud
