@@ -1619,7 +1619,7 @@ items:
   type: Method
   summary: "\nThis function will wrap the String in lines of wanted length\n"
   syntax:
-    content: String wrap(Integer length, Bool ignoreQuote)
+    content: Void wrap(Integer length, Bool ignoreQuote)
     parameters:
     - id: length
       type: CRMScript.Global.Integer
@@ -1628,7 +1628,7 @@ items:
       type: CRMScript.Global.Bool
       description: "True if you do not want quoted lines to be wrapped, else false."
     return:
-      type: CRMScript.Global.String
+      type: CRMScript.Global.Void
 references:
 - uid: CRMScript.Global.String
   commentId: T:CRMScript.Global.String
