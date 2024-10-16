@@ -15,33 +15,32 @@ topic: concept
 
 ## Why use SoProtocol
 
-* No Scripting is needed, although scripts can return to invoke an soprotocol URL.
+* No Scripting is needed, although scripts can [invoke an soprotocol URL][4].
 * Works with the integrated web browser (webpages can control the CRM client user interface).
 * Works with both web and Windows (legacy) clients.
 * Security, it's primarily for navigation and cannot write data into the database.
 
-SOProtocol URLs have two parts:
+## How is an SoProtocol URL defined
 
-* [where targets][2] - which page to display and what tabs to select
-* what targets - what data to display in the page, such as a specific contact or project by ID
+SOProtocol URLs have multiple parts, and can be either opened directly in the browser:
+`https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?{{WHERE}}?{{WHAT}}`
 
-`default.aspx?where.where...?what=id&what=id&...`
+Or can be [invoker through a script][4]:
+`soprotocol:{{WHERE}}?{{WHAT}}`
+
+The {{WHERE}} tells SuperOffice which page to display, and what tabs to select.
+The {{WHAT}} tells SuperOffice what data to display on the page, such as a specific contact or project by id.
+
+Example:
+`https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id`
 
 or
 
-`soprotocol:where.where...?what=id&what=id&...`
+`soprotocol:target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id`
 
-This can also be represented as:
+## Practical examples
 
-`default.aspx?target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id&[entity]_id=id`
-
-or
-
-`soprotocol:target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id&[entity]_id=id`
-
-<!-- what here: is a History Item. -->
-
-For example, on the company page, showing the main tab above and the contacts grid below, with the company details on the right, where the contact_id equals 2, use the following SoProtocol URL:
+On the company page, showing the main tab above and the contacts grid below, with the company details on the right, where the contact_id equals 2, use the following SoProtocol URL:
 
 `soprotocol:contact.main.personarchive.minicontact?contact_id=2`
 
@@ -68,28 +67,6 @@ In the same config file, if we use duplicate soprotocol values for views, it wil
 
 See the [SoProtocol targets reference][2] for a list of soprotocol targets.
 
-## Query strings (what)
-
-The **query string** is what comes behind the question mark (?) in the URL. Separate the whats with an ampersand `&`.
-
-You can use the primary keys to specify what to open:
-
-* contact_id
-* person_id
-* appointment_id
-* sale_id
-* project_id
-* selection_id
-* document_id
-
-For example, to go to sale 42:
-
-`soprotocol:sale?sale_id=42`
-
-To go to a specific company card, set the active archive:
-
-`soprotocol:contact.main.activityarchive?contact_id=2`
-
 ## SoProtocol and SuperState
 
 SoProtocol drives the [SuperState][1], meaning when you set an [entity]_id equal to a value, the current representation of that entity is set by the id. The SuperState is defined by the SoProtocol URL together with the values of SuperState history. If no SoProtocol is given, the last valid SuperState history will be used.
@@ -110,6 +87,7 @@ To get the SOProtocol link that reflects the current state of the application, u
 [1]: ../web-app/pagebuilder/superstate/index.md
 [2]: navigation-points.md
 [3]: custom-object.md
+[4]: ./in-crmscript.md
 
 <!-- Referenced images -->
 [img1]: media/project-udef.png
