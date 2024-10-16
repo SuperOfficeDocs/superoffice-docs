@@ -108,4 +108,4 @@ Learn more about [tickets][3].
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.User.setValue(String,String,String)>
-[3]: ../../../request/howto/crmscript/create.md
+[3]: ../../../automation/crmscript/howto/request/create.md

@@ -9,33 +9,5 @@ items:
     items:
     - name: Default templates
       href: reply-templates/system-templates.md
-  - name: API options
-    href: howto/index.md
-    items:
-    - name: CRMScript
-      href: howto/crmscript/index.md
-      items:
-      - name: Create ticket
-        href: howto/crmscript/create.md
-      - name: Add or update message
-        href: howto/crmscript/add-message.md
-      - name: Get ticket info
-        href: howto/crmscript/get-ticket-info.md
-      - name: Get message info
-        href: howto/crmscript/get-message-info.md
-      - name: Accept
-        href: howto/crmscript/accept.md
-      - name: Reply
-        href: howto/crmscript/reply.md
-      - name: Delegate
-        href: howto/crmscript/delegate.md
-      - name: Escalate
-        href: howto/crmscript/escalate.md
-      - name: Split and merge
-        href: howto/crmscript/split-merge.md
-      - name: Request logs
-        href: howto/crmscript/request-logs.md
-      - name: Samples
-        href: howto/crmscript/samples.md
-      - name: Work with reply templates
-        href: reply-templates/howto/crmscript/index.md
+  - name: CRMScript options
+    topicHref: ../automation/crmscript/howto/request/index.md
