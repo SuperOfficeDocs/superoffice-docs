@@ -314,8 +314,8 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 [3]: ../../../../company/howto/services/add-catlist-item-rest.md
 [4]: ../../howto/document/rest-add-document-template.md
 [5]: ../../howto/document/rest-generate-document.md
-[6]: ../../../../contact/howto/services/get-person-image-rest.md
-[7]: ../../../../contact/howto/services/update-person-image-rest.md
+[6]: ../../howto/contact/get-person-image-rest.md
+[7]: ../../howto/contact/update-person-image-rest.md
 [8]: ../../../../automation/webhook/register.md
 [9]: ../../../../../assets/downloads/api/Swagger-v1-REST.zip
 [10]: ../../../security/sentry/services/index.md

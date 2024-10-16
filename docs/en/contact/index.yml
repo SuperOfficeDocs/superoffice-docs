@@ -169,23 +169,23 @@ conceptualContent:
       - text: Raw SQL
         itemType: list
         typeDesc: how-to-guide
-        url: howto/sql/index.md
+        url: ../api/sql/howto/contact/index.md
       - text: OSQL
         itemType: list
         typeDesc: how-to-guide
-        url: howto/osql/index.md
+        url: ../api/osql/howto/contact/index.md
       - text: Row
         itemType: list
         typeDesc: how-to-guide
-        url: howto/row/index.md
+        url: ../api/rows/howto/contact/index.md
       - text: Entity
         itemType: list
         typeDesc: how-to-guide
-        url: howto/entity/index.md
+        url: ../api/entities/howto/contact/index.md
       - text: Web services, REST
         itemType: list
         typeDesc: how-to-guide
-        url: howto/services/index.md
+        url: ../api/web-services/howto/contact/index.md
 
     # Card
     - title: Database options
