@@ -24,10 +24,7 @@ The **View statuses** dialog is displayed when you click a status image for a co
 | Description | A description of the status, defined in Settings and maintenance. |
 | Other statuses | A link to any other statuses relating to the current company, contact or project. This field is displayed only if there are several statuses for the record in question. |
 | Create follow-up | Used to [create a new follow-up][3] for the company, contact, or project. The type of follow-up created by default is defined in Settings and maintenance. |
-| Add to selection | When clicked, the **Add to selection** dialog opens and you can add the current company or contact to a static selection of your choice. |
-
-> [!NOTE]
-> **Add to selection** can be used only for static selections. [How to use statuses in dynamic selections][1].
+| Add to selection | When clicked, the **Add to selection** dialog opens and you can add the current company or contact to a static selection of your choice. This option can be used only for static selections. [How to use statuses in dynamic selections][1].|
 
 ## Related topics
 
