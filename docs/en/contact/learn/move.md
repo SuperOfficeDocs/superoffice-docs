@@ -30,7 +30,6 @@ You can move a contact - including their activities and memberships - from one c
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-<!-- markdownlint-disable-next-line MD046 -->
     [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Click **Move**. The contact is moved to (or disconnected from) the specified company.

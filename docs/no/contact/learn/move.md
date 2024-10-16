@@ -30,7 +30,6 @@ Du kan flytte en person – inkludert vedkommendes aktiviteter og medlemskap –
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-<!-- markdownlint-disable-next-line MD046 -->
     [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Klikk på **Flytt**. Personen flyttes til (eller kobles fra) det angitte firmaet.

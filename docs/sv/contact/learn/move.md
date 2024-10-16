@@ -30,7 +30,6 @@ Du kan flytta en kontakt, inklusive personens aktiviteter och tillhörigheter, f
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-<!-- markdownlint-disable-next-line MD046 -->
     [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Klicka på **Flytta**. Kontakten flyttas till (eller kopplas bort från) det angivna företaget.

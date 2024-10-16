@@ -30,7 +30,6 @@ Sie können eine Person - einschließlich ihrer Aktivitäten und Mitgliedschafte
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-<!-- markdownlint-disable-next-line MD046 -->
     [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Klicken Sie auf **Verschieben**. Die Person wird zur ausgewählten Firma verschoben bzw. von ihr getrennt.

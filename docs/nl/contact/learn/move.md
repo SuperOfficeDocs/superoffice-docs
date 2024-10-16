@@ -30,7 +30,6 @@ U kunt een persoon - inclusief diens activiteiten en lidmaatschappen - van het e
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-<!-- markdownlint-disable-next-line MD046 -->
     [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Klik op **Verplaatsen**. De persoon wordt verplaatst naar het opgegeven bedrijf (of de verbinding ermee word verbroken).
