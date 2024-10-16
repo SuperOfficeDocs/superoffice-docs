@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Activity counters (SAINT)
+# Activity monitors (SAINT)
 
 Being proactive means to control an expected situation before it arises. With SuperOffice Sales Intelligence (SAINT) you get the opportunity to follow up on your customers at the right time and take control over any scenario. SAINT is designed to monitor your database and help you be proactive and anticipate events that may affect your business.
 
@@ -116,6 +116,7 @@ SAINT **values** are simple binary values (on or off) that determine the look an
 
 ## What would you like to do now?
 
+* [Set up activity monitors][5]
 * [Use status monitors in a dynamic selection][2]
 
 <!-- Referenced links -->
@@ -123,6 +124,7 @@ SAINT **values** are simple binary values (on or off) that determine the look an
 [2]: ../../search-options/selection/learn/dynamic-selections.md#saint
 [3]: ../../database/tables/countervalue.md
 [4]: ../../database/tables/statusvalue.md
+[5]: ../admin/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/saint-selection.png
