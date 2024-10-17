@@ -80,11 +80,11 @@ It is important to keep in mind that there's not a 1:1 mapping of labels and tha
 [2]: blob-pictures.md
 [3]: ../globalization-and-localization/address/index.md
 [4]: howto/crmscript/index.md
-[5]: howto/services/index.md
-[6]: howto/entity/index.md
-[7]: howto/row/index.md
-[8]: howto/osql/index.md
-[9]: howto/sql/index.md
+[5]: ../api/web-services/howto/contact/index.md
+[6]: ../api/entities/howto/contact/index.md
+[7]: ../api/rows/howto/contact/index.md
+[8]: ../api/osql/howto/contact/index.md
+[9]: ../api/sql/howto/contact/index.md
 [10]: ../company/index.yml
 [11]: ../document/index.yml
 [12]: ../diary/index.yml

@@ -1,20 +1,6 @@
 ---
-title: Person - row
-uid: api_person_row
-description: Working with contacts (person) in API with rows
+uid: api-person-row-redirect
 author: Bergfrid Skaara Dias
-date: 02.16.2022
-keywords: person, contact, row, API
-topic: howto
+date: 10.18.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/rows/howto/contact/index.html
 ---
-
-# Contact - row
-
-* [Get persons from contact][1]
-* [Update person][2]
-* [Collections][3]
-
-<!-- Referenced links -->
-[1]: get-persons-from-contact-rows.md
-[2]: update-person-rows.md
-[3]: collection.md

@@ -278,6 +278,23 @@ items:
   - name: Howto
     topicHref: web-services/howto/index.md
     items:
+    - name: Contact (person)
+      href: web-services/howto/contact/index.md
+      items:
+      - name: Get persons (ContactAgent)
+        href: web-services/howto/contact/get-persons-contactagent.md
+      - name: Get persons (PersonAgent)
+        href: web-services/howto/contact/get-persons-personagent.md
+      - name: Update person
+        href: web-services/howto/contact/update-person-services.md
+      - name: Get person image (REST)
+        href: web-services/howto/contact/get-person-image-rest.md
+      - name: Update person image (REST)
+        href: web-services/howto/contact/update-person-image-rest.md
+      - name: Display person image (ImageUtility)
+        href: web-services/howto/contact/display-person-image-ws.md
+      - name: Display image from BLOB table
+        href: web-services/howto/contact/display-image-from-blob-table-services.md
     - name: Custom objects
       href: web-services/howto/custom-objects/index.md
       items:
@@ -375,6 +392,17 @@ items:
       href: entities/delete-entity.md
     - name: Delete an entity through an entity
       href: entities/delete-entity-from-entity.md
+    - name: Contact (person)
+      href: entities/howto/contact/index.md
+      items:
+      - name: Get persons from contact
+        href: entities/howto/contact/get-persons-from-contact-entities.md
+      - name: Update person entity
+        href: entities/howto/contact/update-person-entity.md
+      - name: Display image from BLOB table
+        href: entities/howto/contact/display-image-from-blob-table-entity.md
+      - name: Get associate list
+        href: entities/howto/contact/get-associate-list.md
     - name: Custom fields
       href: entities/howto/custom-objects/index.md
       items:
@@ -422,6 +450,15 @@ items:
       href: rows/delete-row.md
     - name: Delete a row through an entity
       href: rows/delete-row-from-entity.md
+    - name: Contact (person)
+      href: rows/howto/contact/index.md
+      items:
+      - name: Get persons from contact
+        href: rows/howto/contact/get-persons-from-contact-rows.md
+      - name: Update person
+        href: rows/howto/contact/update-person-rows.md
+      - name: Collections
+        href: rows/howto/contact/collection.md
     - name: SAINT
       href: rows/howto/saint/index.md
       items:
@@ -462,8 +499,26 @@ items:
       href: osql/upper.md
     - name: SoundEx
       href: osql/soundx.md
+  - name: How to...
+    items:
+    - name: Contact (person)
+      href: osql/howto/contact/index.md
+      items:
+      - name: Get persons from contact (sodatareader)
+        href: osql/howto/contact/get-persons-from-contact-sodatareader.md
+      - name: Update person
+        href: osql/howto/contact/update-person-osql.md
 - name: Raw SQL queries
   items:
+  - name: Contact (person)
+    href: sql/howto/contact/index.md
+    items:
+    - name: Get persons from contact
+      href: sql/howto/contact/get-persons-from-contact-sql.md
+    - name: Update person
+      href: sql/howto/contact/update-person-sql.md
+    - name: Add person picture BLOBs
+      href: sql/howto/contact/add-person-picture-blobs-sql.md
   - name: Custom fields
     topicHref: sql/howto/custom-objects/index.md
     items:
