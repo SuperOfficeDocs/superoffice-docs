@@ -196,6 +196,33 @@ items:
       href: howto/quote/place-order.md
     - name: Samples
       href: howto/quote/samples.md
+  - name: Request
+    href: howto/request/index.md
+    items:
+    - name: Create ticket
+      href: howto/request/create.md
+    - name: Add or update message
+      href: howto/request/add-message.md
+    - name: Get ticket info
+      href: howto/request/get-ticket-info.md
+    - name: Get message info
+      href: howto/request/get-message-info.md
+    - name: Accept
+      href: howto/request/accept.md
+    - name: Reply
+      href: howto/request/reply.md
+    - name: Delegate
+      href: howto/request/delegate.md
+    - name: Escalate
+      href: howto/request/escalate.md
+    - name: Split and merge
+      href: howto/request/split-merge.md
+    - name: Request logs
+      href: howto/request/request-logs.md
+    - name: Samples
+      href: howto/request/samples.md
+    - name: Work with reply templates
+      href: howto/request/reply-templates.md
   - name: Sale
     href: howto/sale/index.md
     items:

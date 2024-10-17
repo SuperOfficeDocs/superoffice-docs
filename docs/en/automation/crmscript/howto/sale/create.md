@@ -87,5 +87,5 @@ sale = saleAgent.SaveSaleEntity(sale);
 ```
 
 <!-- Referenced links -->
-[1]: ../../../../request/howto/crmscript/create.md
+[1]: ../request/create.md
 [2]: ../../../../diary/howto/crmscript/index.md
