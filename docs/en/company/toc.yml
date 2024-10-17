@@ -8,18 +8,13 @@ items:
     href: interests.md
   - name: Category list
     href: category-list.md
+  - name: User guide
+    topicHref: learn/index.md
   - name: API options
     href: howto/index.md
     items:
     - name: CRMScript
-      href: howto/crmscript/index.md
-      items:
-      - name: Create and update company
-        href: howto/crmscript/create-company.md
-      - name: Get company info
-        href: howto/crmscript/get-company.md
-      - name: Get activities
-        href: howto/crmscript/get-activities.md
+      topicHref: ../automation/crmscript/howto/company/index.md
     - name: Web services
       href: howto/services/index.md
       items:

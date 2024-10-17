@@ -8,6 +8,8 @@ items:
     href: ../quote/index.md
   - name: Sales intelligence (SAINT)
     href: saint/index.md
+  - name: User guide
+    topicHref: learn/index.md
   - name: API options - sale
     items:
     - name: CRMScript

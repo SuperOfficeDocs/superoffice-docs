@@ -226,4 +226,4 @@ For a complete list of fields, see the [database reference][3].
 [1]: templates.md
 [2]: ../sale/guides.md
 [3]: ../../../../database/tables/document.md
-[4]: ../../../../contact/howto/crmscript/index.md
+[4]: ../contact/index.md

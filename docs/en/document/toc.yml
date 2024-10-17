@@ -63,6 +63,8 @@ items:
       href: ribbons/enable-debug.md
     - name: Troubleshooting
       href: ribbons/troubleshooting.md
+  - name: User guide
+    topicHref: learn/index.md
   - name: Template variable reference
     topicHref: templates/variables/index.md
   - name: Merge field reference

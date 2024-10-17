@@ -1,31 +1,6 @@
 ---
-uid: crmscript-get-personinterests
-title: List interests for a person
-description: How to list interests for a person with CRMScript.
+uid: crmscript-get-personinterests-redirect
 author: Bergfrid Skaara Dias
-date: 15.02.2021
-keywords: interest, customer, person, contact
-topic: howto
+date: 10.18.2024
+redirect_url: https://docs.superoffice.com/en/automation/crmscript/howto/contact/get-interests.html
 ---
-
-# List interests for a person
-
-```crmscript!
-Void viewPersonInterests(Integer personId) {
-  NSPersonAgent personAgent;
-  NSPersonEntity p = personAgent.GetPersonEntity(personId);
-
-  NSSelectableMDOListItem[] interests = p.GetInterests();
-
-  for (Integer i = 0; i < interests.length(); i++) {
-    printLine(interests[i].GetName());
-  }
-}
-
-viewPersonInterests(5);
-```
-
-> [!TIP]
-> To print only the selected interests, add a condition: `if (interests[i].GetSelected())`.
-
-<!-- Referenced links -->

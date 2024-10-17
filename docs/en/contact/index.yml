@@ -165,7 +165,7 @@ conceptualContent:
       - text: CRMScript
         itemType: list
         typeDesc: how-to-guide
-        url: howto/crmscript/index.md
+        url: ../automation/crmscript/howto/contact/index.md
       - text: Raw SQL
         itemType: list
         typeDesc: how-to-guide

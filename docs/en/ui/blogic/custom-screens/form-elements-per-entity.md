@@ -252,7 +252,7 @@ noHardDelete = true
 [8]: ../reference/select-customers.md
 [9]: ../reference/select-user.md
 [10]: ../reference/category-membership.md
-[11]: ../../../contact/howto/crmscript/index.md
+[11]: ../../../automation/crmscript/howto/contact/index.md
 [12]: ../reference/select-appointment.md
 [13]: ../reference/select-date.md
 [14]: ../reference/select-datetime.md

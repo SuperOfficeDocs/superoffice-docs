@@ -8,23 +8,11 @@ items:
     href: associate.md
   - name: Person picture and BLOBs
     href: blob-pictures.md
+  - name: User guide
+    topicHref: learn/index.md
   - name: API options
-    href: howto/index.md
     items:
     - name: CRMScript
-      href: howto/crmscript/index.md
-      items:
-      - name: Create and update customers
-        href: howto/crmscript/create-customer.md
-      - name: Get customer info
-        href: howto/crmscript/get-customer.md
-      - name: Look up customers
-        href: howto/crmscript/find-customer.md
-      - name: Get interests
-        href: howto/crmscript/get-interests.md
-      - name: Create user
-        href: howto/crmscript/create-user.md
-      - name: Get user
-        href: howto/crmscript/get-user.md
+      topicHref: ../automation/crmscript/howto/contact/index.md
     - name: Web-services
       topicHref: ../api/web-services/howto/contact/index.md
