@@ -1,21 +1,7 @@
 ---
-uid: help-sv-using-status-monitors-in-dynamic-selections
-title: Använda statusövervakning i dynamiska urval
-description: Använda statusövervakning i dynamiska urval
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: företag
-topic: help
+uid: help-sv-using-status-monitors-in-dynamic-selections-redirect
+author: Bergfrid Dias
+date: 10.18.2024
 language: sv
+redirect_url: https://docs.superoffice.com/sv/search-options/selection/learn/dynamic-selections.html#saint
 ---
-
-# Använda statusövervakning i dynamiska urval
-
-Om du har köpt en licens till SAINT kan du använda statuslägen som har definierats i Inställningar och underhåll som kriterier när du skapar dynamiska urval. Då får du enkelt en översikt över vilka företag, kontakter eller projekt som uppfyller statuskriterierna. SAINT-kriterierna finns under **Räknare (SAINT)** i [listan över kriterier][1] i fönstret **Sök**.
-
-[!include[Requirement](includes/req-saint.md)]
-
-<!-- Referenced links -->
-[1]: ../../../search-options/learn/search-criteria.md
-
-<!-- Referenced images -->

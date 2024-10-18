@@ -2,10 +2,13 @@
 uid: help-sv-selections-dynamic
 title: Dynamiska urval
 description: Dynamiska urval
+keywords: urval, dynamiskt
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: selection, dynamiskt
+date: 10.18.2024
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -47,14 +50,18 @@ Om ni tänker uppgradera en av produkterna ni säljer från version 2 till 3 kan
 
 Du kan skapa ett urval som innehåller alla öppna ärenden som inte har uppdaterat på över en vecka. Du kan därefter följa upp de ärendehandläggare som ansvarar för dessa ärenden.
 
+## <a id="saint"></a>Använda statusövervakning i dynamiska urval
+
+Med **SAINT** aktiverat (kräver Sales-Premium eller Service-Premium) kan du använda [statuslägen][4] som kriterier för att skapa dynamiska urval. Detta ger dig en översikt över företag, kontakter eller projekt som uppfyller specifika statuskriterier. SAINT-kriterierna finns under **Räknare (SAINT)** i [kriterielistan][3] i fönstret **Sök**.
+
 ## Vad vill du göra nu?
 
 * [Skapa dynamiska urval][2]
-* [Använda statusövervakning i dynamiska urval][3]
 
 <!-- Referenced links -->
 [1]: static-selections.md
 [2]: create/tutorial.yml
-[3]: ../../../sale/saint/learn/using-status-monitors-in-dynamic-selections.md
+[3]: ../../learn/search-criteria.md
+[4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
