@@ -8,7 +8,6 @@ keywords: salg, beløp
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-
 language: no
 ---
 
@@ -16,7 +15,8 @@ language: no
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-[!include[Requirement](../../../sale/saint/learn/includes/note-saint-req-2.md)]
+> [!NOTE]
+> Listen **Salg - Beløpsklasse** er en del av funksjonen statusovervåking (SAINT) og krever en **Sales Premium** eller **Service Premium** brukerplan.
 
 Beløpsklasse for salg kan brukes til å kategorisere salg i ulike klasser, for eksempel små, mellomstore, store og svært store salg. Du angir beløpsintervallet for de ulike beløpsklassene i valutaen firmaet ditt bruker (og flere valutaer, hvis du ønsker). Beløpsklasse kan for eksempel brukes til å søke etter store tapte salg innenfor en periode.
 

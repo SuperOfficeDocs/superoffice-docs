@@ -104,7 +104,7 @@ Du finner papirkurven i menyen Personlige preferanser. Du kan se alle personene 
 <!-- Referenced links -->
 [1]: ../../../learn/find-screen.md
 [2]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/saint-proactive-customer-follow-up/
-[3]: ../../../../sale/saint/learn/using-status-monitors-in-dynamic-selections.md
+[3]: ../dynamic-selections.md#saint
 [4]: ../../../../learn/basics/deleting-elements.md#restore
 [5]: bulk-update.md
 

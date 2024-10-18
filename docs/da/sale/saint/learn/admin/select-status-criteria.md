@@ -1,51 +1,7 @@
 ---
-uid: help-da-select-status-criteria
-title: Vælg statuskriterier
-description: Vælg statuskriterier
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: salg, SAINT
-topic: howto
-audience: settings
-audience_tooltip: Settings and maintenance
+uid: help-da-select-status-criteria-redirect
+author: Bergfrid Dias
+date: 10.18.2024
 language: da
+redirect_url: https://docs.superoffice.com/da/saint/admin/select-status-criteria.html
 ---
-
-# Angivelse af statuskriterier
-
-[!include[Requirement](../includes/note-saint-req.md)]
-
-En status er kun aktiv for firmaer, personer eller projekter, der opfylder alle de kriterier, der er angivet for statussen. Du skal angive et eller flere kriterier for hver status, du opretter.
-
-Brug lidt tid på at konfigurere de korrekte statuskriterier, da du skal sikre, at disse kriterier nøjagtigt filtrerer den gruppe af firmaer der (personer eller projekter), du vil overvåge.
-
-## Trin
-
-1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
-
-1. Vælg den ønskede status på statuslisten til venstre i skærmbilledet.
-
-1. Klik på **Tilføj** på listen nederst til højre (under fanen **Beskrivelse** og fanen **Opret opfølgning**). En ny linje føjes til listen.
-
-1. Klik på ![ikonet][img1] pileknap ved siden af det tomme felt, og [vælg det ønskede søgekriterium][1].
-
-1. Gentag trin 4 og 5 for hvert kriterium, du vil tilføje.
-
-    > [!NOTE]
-    > Du kan kun tilføje én forekomst af hver kriterietype for hver status. Du kan for eksempel ikke tilføje kriteriet **Postnr.** to gange.
-
-1. Kontrollér, at du har valgt de kriterier, du vil bruge til denne status.
-
-1. Klik på ![ikonet][img2] **Genopretter valgt statusovervågning** for at opdatere status med de kriterier, du tilføjede. Når status er genoprettet, vises der ikke noget rødt kryds ved statusnavnet.
-
-## Hvad vil du foretage dig nu?
-
-* [Administration af statusovervågning][2]
-
-<!-- Referenced links -->
-[1]: ../../../../search-options/learn/search-criteria.md
-[2]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-right.png

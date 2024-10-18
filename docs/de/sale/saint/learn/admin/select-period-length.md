@@ -1,47 +1,7 @@
 ---
-uid: help-de-select-period-length
-title: Zeitraum auswählen
-description: Zeitraum auswählen
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: Verkauf, SAINT, Zähler
-topic: howto
-audience: settings
-audience_tooltip: Settings and maintenance
+uid: help-de-select-period-length-redirect
+author: Bergfrid Dias
+date: 10.18.2024
 language: de
+redirect_url: https://docs.superoffice.com/de/saint/admin/select-period-length.html
 ---
-
-# Zeitraum festlegen
-
-[!include[Requirement](../includes/note-saint-req.md)]
-
-Sie können den Zeitraum (Dauer in Tagen) für die folgenden Zähler festlegen:
-
-* Anzahl erledigter/nicht erledigter Aktivitäten innerhalb von
-* Anzahl abgeschlossener/nicht abgeschlossener Verkäufe innerhalb von
-* Anzahl erledigter/nicht erledigter Anfragen während des Zeitraums (wenn Ihre Firma irgendwelche SuperOffice Service-Lizenzen hat)
-
-[!include[Define counter](../../../learn/includes/def-counter.md)]
-
-Sie können bis zu drei unterschiedliche Zeiträume festlegen, so dass Sie zwischen kürzeren bzw. längeren Zeiträumen für die verschiedenen SAINT-Kriterien wählen können. Zum Beispiel: Wenn Sie den **Zeitraum 1** auf 30 Tage und den **Zeitraum 2** auf 90 Tage festlegen, können Sie zum Beispiel zwischen den SAINT-Kriterien "Anzahl von Verkäufen in den letzten 30 Tagen" UND "Anzahl von Verkäufen in den letzten 90 Tagen" auswählen.
-
-## Schritte
-
-1. Öffnen Sie die Ansicht **SAINT**.
-
-2. Wählen Sie die Registerkarte **Zähler** aus.
-
-3. Unter **Zählereinstellungen für ...** legen Sie die Zeiträume für Firmen, Personen und Projekte fest. Das Datum **Von** wird neben jedem Zeitraum angezeigt.
-
-    ![Zählereinstellungen auf der Registerkarte Zähler bearbeiten -screenshot][img1]
-
-    Die Änderungen werden automatisch gespeichert.
-
-> [!NOTE]
-> Wenn Sie den Zeitraum zum Beispiel auf 30 Tage festgelegt haben, dauert der Zeitraum vom letzten Erneuern der Zähler immer 30 Tage. Sie sollten daher die [Zähler häufig erneuern][2] (möglichst jede Nacht), damit die Zähler so aktuell wie möglich sind.
-
-<!-- Referenced links -->
-[2]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/sale/admin-saint-counters.png

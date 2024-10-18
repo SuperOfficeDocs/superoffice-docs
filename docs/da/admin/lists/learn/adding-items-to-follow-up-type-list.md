@@ -40,7 +40,7 @@ language: da
 7. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[2]: ../../../sale/saint/learn/index.md
+[2]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-down.png

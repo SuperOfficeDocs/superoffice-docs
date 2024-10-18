@@ -37,7 +37,7 @@ När du har lagt till dina produkter, antingen manuellt eller genom import, kan 
 
 ## Vilken typ av bilder kan jag använda?
 
-[!include[File type and size](../../../../sale/learn/includes/image-type-and-size.md)]
+[!include[File type and size](../../../../learn/includes/image-type-and-size.md)]
 
 ## Relaterat
 

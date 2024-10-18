@@ -136,7 +136,7 @@ När du öppnar fönstret **Sök** innehåller den standardsökkriterier eller d
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
-[3]: ../../sale/saint/learn/index.md
+[3]: ../../saint/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png

@@ -2,10 +2,13 @@
 uid: help-en-selections-dynamic
 title: Dynamic selections
 description: Dynamic selections
+keywords: selection, dynamic, SAINT, activity monitor, status monitor
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: selection, dynamic
+date: 10.18.2024
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -47,14 +50,18 @@ If you are going to upgrade one of your products from, say, version 2 to version
 
 You can create a selection containing all open request that have not been updated for over a week. You can then follow up on the request handlers responsible for these requests.
 
+## <a id="saint"></a>Use activity monitors in a dynamic selection
+
+With **SAINT** enabled (requires Sales-Premium or Service-Premium), you can use [activity monitors][4] as criteria for creating dynamic selections. This allows you to get an overview of companies, contacts, or projects that meet specific status criteria. SAINT criteria are located under **Counters (SAINT)** in the [list of criteria][3] on the **Find** screen.
+
 ## What would you like to do now?
 
 * [Create a dynamic selection][2]
-* [Use status monitors in a dynamic selection][3]
 
 <!-- Referenced links -->
 [1]: static-selections.md
 [2]: create/tutorial.yml
-[3]: ../../../sale/saint/learn/using-status-monitors-in-dynamic-selections.md
+[3]: ../../learn/search-criteria.md
+[4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

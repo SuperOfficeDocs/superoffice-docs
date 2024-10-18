@@ -2,10 +2,13 @@
 uid: help-no-selections-dynamic
 title: Dynamiske utvalg
 description: Dynamiske utvalg
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: utvalg, dynamisk
+author: SuperOffice RnD
+date: 10.18.2024
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -47,14 +50,18 @@ Hvis dere skal oppgradere et produkt dere selger fra versjon 2 til 3, kan du opp
 
 Du kan opprette et utvalg som inneholder alle åpne saker som ikke er oppdatert på over en uke. Deretter kan du følge opp saksbehandlerne som er ansvarlige for disse sakene.
 
+## <a id="saint"></a>Bruk statusovervåking i dynamiske utvalg
+
+Med **SAINT** aktivert (krever Sales-Premium eller Service-Premium) kan du bruke [statuser][4] som kriterier for å opprette dynamiske utvalg. Dette gir deg en oversikt over firmaer, personer eller prosjekter som oppfyller spesifikke statuskriterier. SAINT-kriteriene finnes under **Tellere (SAINT)** i [kriterielisten][3] på **Finn**-skjermen.
+
 ## Hva vil du gjøre nå?
 
 * [Opprett et dynamisk utvalg][2]
-* [Bruke statusovervåking i dynamiske utvalg][3]
 
 <!-- Referenced links -->
 [1]: static-selections.md
 [2]: create/tutorial.yml
-[3]: ../../../sale/saint/learn/using-status-monitors-in-dynamic-selections.md
+[3]: ../../learn/search-criteria.md
+[4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

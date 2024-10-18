@@ -1,0 +1,5 @@
+items:
+- name: Oversikt - statusovervåking
+  href: index.md
+- name: Dialogboks for status
+  href: status-dialog.md

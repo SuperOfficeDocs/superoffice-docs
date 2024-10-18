@@ -7,7 +7,7 @@ items:
   - name: Quote management
     href: ../quote/index.md
   - name: Sales intelligence (SAINT)
-    href: saint/index.md
+    topicHref: saint/learn/index.md
   - name: User guide
     topicHref: learn/index.md
   - name: API options - sale

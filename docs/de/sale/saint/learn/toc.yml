@@ -1,7 +1,0 @@
-items:
-- name: Überblick - Statuskontrollen
-  href: index.md
-- name: Dialogfeld Status
-  href: status-dialog.md
-- name: SAINT in dynamischen Selektionen
-  href: using-status-monitors-in-dynamic-selections.md

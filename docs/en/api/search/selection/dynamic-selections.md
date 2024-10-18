@@ -85,7 +85,7 @@ The search criteria tables are also used when defining extra fields in the **Fin
 
 <!-- Referenced links -->
 [1]: ../../../database/tables/contact.md
-[2]: ../../../sale/saint/index.md
+[2]: ../../../saint/learn/index.md
 [3]: ../../../database/tables/searchcriteria.md
 [4]: ../../../database/tables/searchcriteriagroup.md
 [5]: ../../../database/tables/searchcriterion.md

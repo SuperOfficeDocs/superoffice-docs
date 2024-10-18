@@ -2,10 +2,13 @@
 uid: help-nl-selections-dynamic
 title: Dynamische selecties
 description: Dynamische selecties
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selectie, dynamisch
+author: SuperOffice RnD
+date: 10.18.2024
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -47,14 +50,18 @@ Als u een van uw producten gaat upgraden van bijvoorbeeld versie 2 naar versie 3
 
 U kunt een selectie maken met alle openstaande verzoeken die al meer dan een week niet zijn bijgewerkt. U kunt vervolgens de verzoekbehandelaars opvolgen die verantwoordelijk zijn voor deze verzoeken.
 
+## <a id="saint"></a>Statuscontroles gebruiken in een dynamische selectie
+
+Met **SAINT** ingeschakeld (vereist Sales-Premium of Service-Premium) kun je [statussen][4] gebruiken als criteria voor het maken van dynamische selecties. Dit geeft je een overzicht van bedrijven, personen of projecten die voldoen aan specifieke statuscriteria. De SAINT-criteria vind je onder **Tellers (SAINT)** in de [criterialijst][3] op het scherm **Zoeken**.
+
 ## Wat wilt u nu doen?
 
 * [Dynamische selectie maken][2]
-* [Statuscontroles gebruiken in een dynamische selectie][3]
 
 <!-- Referenced links -->
 [1]: static-selections.md
 [2]: create/tutorial.yml
-[3]: ../../../sale/saint/learn/using-status-monitors-in-dynamic-selections.md
+[3]: ../../learn/search-criteria.md
+[4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

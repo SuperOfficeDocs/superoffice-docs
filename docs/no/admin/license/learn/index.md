@@ -72,7 +72,7 @@ Les mer om lisenser i [tidligere versjoner av SuperOffice][7].
 
 <!-- Referenced links -->
 [1]: activate.md
-[2]: ../../../sale/saint/learn/index.md
+[2]: ../../../saint/learn/index.md
 [3]: ../../learn/system-events.md
 [4]: screen/index.md
 [5]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17

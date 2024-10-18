@@ -90,7 +90,7 @@ Her kan du legge til oversatte versjoner av dokumentmalen.
 [2]: ../../../document/templates/learn/template-variables.md
 [3]: sale-type.md
 [4]: privacy-source-add.md
-[5]: ../../../sale/saint/learn/index.md
+[5]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/az.png

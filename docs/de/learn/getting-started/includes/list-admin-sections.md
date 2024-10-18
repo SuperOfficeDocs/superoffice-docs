@@ -30,7 +30,7 @@
 [26]: ../../../admin/user-management/learn/index.md
 [27]: ../../../admin/user-management/learn/role/index.md
 [28]: ../../../security/privacy/learn/index.md
-[29]: ../../../sale/saint/learn/index.md
+[29]: ../../../saint/learn/index.md
 [30]: ../../../ai/learn/index.md
 [31]: ../../../admin/lists/learn/index.md
 [32]: ../../../quote/learn/admin/index.md

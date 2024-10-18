@@ -37,7 +37,7 @@ Nadat u uw producten hebt toegevoegd, handmatig of door te importeren, kunt u af
 
 ## Welk type afbeeldingen kan ik gebruiken?
 
-[!include[File type and size](../../../../sale/learn/includes/image-type-and-size.md)]
+[!include[File type and size](../../../../learn/includes/image-type-and-size.md)]
 
 ## Aanverwant
 

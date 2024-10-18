@@ -37,7 +37,7 @@ Nachdem Sie Ihre Produkte entweder manuell oder durch Import hinzugefügt haben,
 
 ## Welche Art von Bildern kann ich verwenden?
 
-[!include[File type and size](../../../../sale/learn/includes/image-type-and-size.md)]
+[!include[File type and size](../../../../learn/includes/image-type-and-size.md)]
 
 ## Verwandt
 

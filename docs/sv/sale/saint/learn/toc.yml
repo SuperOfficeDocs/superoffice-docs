@@ -1,7 +1,0 @@
-items:
-- name: Översikt - Statusövervakning
-  href: index.md
-- name: Statusdialogruta
-  href: status-dialog.md
-- name: SAINT i dynamiska urval
-  href: using-status-monitors-in-dynamic-selections.md

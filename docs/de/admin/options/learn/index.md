@@ -34,6 +34,6 @@ In der Ansicht **Optionen** können Sie Einstellungen für das gesamte System fe
 [4]: labels/index.md
 [5]: reports.md
 [6]: custlang/index.md
-[7]: ../../../sale/saint/learn/index.md
+[7]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
