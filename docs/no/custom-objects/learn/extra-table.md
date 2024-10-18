@@ -117,7 +117,7 @@ Prefikser sikrer at det du oppretter ikke skaper konflikt med fremtidige SuperOf
 [3]: ../admin/create-extra-field.md
 [4]: ../admin/add-udef.md
 [5]: ../../../en/automation/trigger/create-trigger-script.md
-[6]: <xref:href="CRMScript.Event.Trigger.SalesLoadCustomObject">
+[6]: ../../../en/automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesLoadCustomObject
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/automation/custom-object-dashboard.png
