@@ -15,7 +15,8 @@ language: da
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-[!include[Requirement](../../../sale/saint/learn/includes/note-saint-req-2.md)]
+> [!NOTE]
+> Listen **Salg - Beløbsklasse** er den del af funktionen Statusovervågning (SAINT), som kræver en **Sales Premium** eller **Service Premium** brugerplan.
 
 En beløbsklasse for et salg kan bruges til at kategorisere salg i forskellige klasser, f.eks. lille, mellemstort, stort og meget stort. Du angiver beløbsområdet for de forskellige beløbsklasser i den valuta, din organisation anvender (og yderligere valutaer, hvis det er nødvendigt). Beløbsklasser kan bruges til at søge efter betragtelige mistede salg i en periode.
 

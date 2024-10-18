@@ -37,7 +37,7 @@ Når du har tilføjet dine produkter, enten manuelt eller ved import, kan du til
 
 ## Hvilken slags billeder kan jeg bruge?
 
-[!include[File type and size](../../../../sale/learn/includes/image-type-and-size.md)]
+[!include[File type and size](../../../../learn/includes/image-type-and-size.md)]
 
 ## Tilknyttet
 

@@ -3,5 +3,3 @@ items:
   href: index.md
 - name: Dialogboksen Status
   href: status-dialog.md
-- name: SAINT i dynamiske udvalg
-  href: using-status-monitors-in-dynamic-selections.md
