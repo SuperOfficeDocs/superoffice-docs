@@ -11,7 +11,7 @@ items:
     href: restore-status.md
   - name: Standaardtype vervolgactiviteit voor status
     href: select-default-follow-up-type-for-status.md
-  - name: afbeelding voor status
+  - name: Afbeelding voor status
     href: select-image-for-status.md
   - name: Periodeduur
     href: select-period-length.md
