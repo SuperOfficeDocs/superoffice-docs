@@ -139,6 +139,30 @@ items:
       href: searchengine/se-insert-update-delete.md
     - name: Using the SearchEngine class (blog post)
       href: searchengine/using-the-searchengine-class-blog-post.md
+  - name: Company
+    href: howto/company/index.md
+    items:
+    - name: Create and update company
+      href: howto/company/create-company.md
+    - name: Get company info
+      href: howto/company/get-company.md
+    - name: Get activities
+      href: howto/company/get-activities.md
+  - name: Contact (customer, person, user)
+    href: howto/contact/index.md
+    items:
+    - name: Create and update customers
+      href: howto/contact/create-customer.md
+    - name: Get customer info
+      href: howto/contact/get-customer.md
+    - name: Look up customers
+      href: howto/contact/find-customer.md
+    - name: Get interests
+      href: howto/contact/get-interests.md
+    - name: Create user
+      href: howto/contact/create-user.md
+    - name: Get user
+      href: howto/contact/get-user.md
   - name: Custom objects
     topicHref: howto/custom-objects/udef.md
     items:

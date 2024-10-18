@@ -53,7 +53,7 @@ It is this relationship that drives the first to fields in the follow-up, sale, 
 [1]: interests.md
 [2]: ../database/tables/contact.md
 [3]: ../globalization-and-localization/address/index.md
-[4]: howto/crmscript/index.md
+[4]: ../automation/crmscript/howto/company/index.md
 [5]: howto/services/index.md
 [6]: howto/entity/index.md
 [7]: howto/row/index.md

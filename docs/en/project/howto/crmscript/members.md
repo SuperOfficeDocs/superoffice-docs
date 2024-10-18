@@ -152,5 +152,5 @@ agent.DeleteProjectMembers(8,memberIds);
 For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
-[1]: ../../../contact/howto/crmscript/index.md
+[1]: ../../../automation/crmscript/howto/contact/index.md
 [2]: ../../../database/tables/projectmember.md

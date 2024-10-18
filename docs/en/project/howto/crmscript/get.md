@@ -81,5 +81,5 @@ NSProject[] projectList = agent.GetProjectsFromPerson(personId);
 <!-- Referenced links -->
 [1]: ../../../automation/crmscript/searchengine/index.md
 [2]: ../../../contact/associate.md
-[4]: ../../../company/howto/crmscript/index.md
+[4]: ../../../automation/crmscript/howto/company/index.md
 [5]: members.md
