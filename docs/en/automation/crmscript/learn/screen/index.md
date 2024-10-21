@@ -23,10 +23,10 @@ This screen has following options:
 
 | Option | Description |
 |---|---|
- New script | Used to [create a new script][2]. |
- New macro | Used to [create a new macro][3]. |
- New folder | Used to [create a new folder][4]. |
- Search | Used to search for macros and scripts in the selected folder and sub-folders. |
+| New script | Used to [create a new script][2]. |
+| New macro | Used to [create a new macro][3]. |
+| New folder | Used to [create a new folder][4]. |
+| Search | Used to search for macros and scripts in the selected folder and sub-folders. |
 
 ## Script screen
 

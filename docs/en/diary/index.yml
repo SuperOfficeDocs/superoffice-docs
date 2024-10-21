@@ -144,7 +144,7 @@ conceptualContent:
       - text: CRMScript
         itemType: list
         typeDesc: how-to-guide
-        url: howto/crmscript/index.md
+        url: ../automation/crmscript/howto/diary/index.md
       - text: Raw SQL
         itemType: list
         typeDesc: how-to-guide
@@ -257,19 +257,6 @@ additionalContent:
           url: ../ui/soprotocol/create-appointment.md
         - text: SoProtocol - open appointment dialog
           url: ../ui/soprotocol/open-appointment-dialog.md
-      # Card
-      - title: Recently added features
-        links:
-        - text: Join meeting with right-click (9.2 R08)
-          url: ../../../release-notes/9.2/standard-crm/9.2-R08-update.md
-        - text: Today or This week button (9.2 R05)
-          url: ../../../release-notes/9.2/standard-crm/9.2-R05-update.md
-        - text: Video meeting straight from the appointment (9.2 R04)
-          url: ../../../release-notes/9.2/standard-crm/9.2-R04-update.md
-        - text: Diary shows person name if no company is linked (9.2 R03)
-          url: ../../../release-notes/9.2/standard-crm/9.2-R03-update.md
-        - text: Edit of external meeting invitations (9.2 R02)
-          url: ../../../release-notes/9.2/standard-crm/9.2-R02-update.md
       # Card
       - title: Related content
         links:
