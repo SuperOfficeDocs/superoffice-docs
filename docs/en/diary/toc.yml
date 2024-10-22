@@ -9,38 +9,7 @@ items:
     href: howto/index.md
     items:
     - name: CRMScript
-      href: howto/crmscript/index.md
-      items:
-        - name: Get appointments
-          href: howto/crmscript/get-appointment.md
-        - name: Create appointment
-          href: howto/crmscript/create-appointment.md
-        - name: Update and delete appointments
-          href: howto/crmscript/update-appointment.md
-        - name: Register incoming phone call
-          href: howto/crmscript/register-incoming-call.md
-        - name: Plan outgoing phone call
-          href: howto/crmscript/plan-outgoing-call.md
-        - name: Working with todo lists
-          href: howto/crmscript/task.md
-        - name: View recurrence info
-          href: howto/crmscript/get-recurrence-info.md
-        - name: Get follow-ups in a series
-          href: howto/crmscript/get-appointments-in-series.md
-        - name: Create repeating follow-ups
-          href: howto/crmscript/create-recurring-appointment.md
-        - name: Update repeating follow-ups
-          href: howto/crmscript/update-recurrence.md
-        - name: Stop repeating follow-ups
-          href: howto/crmscript/stop-recurrence.md
-        - name: Create invitation
-          href: howto/crmscript/create-invitation.md
-        - name: Book a resource
-          href: howto/crmscript/book-resource.md
-        - name: Track responses
-          href: howto/crmscript/track-responses.md
-        - name: Accept invitation
-          href: howto/crmscript/accept-invitation.md
+      topicHref: ../automation/crmscript/howto/diary/index.md
     - name: Web services
       href: howto/services/index.md
       items:

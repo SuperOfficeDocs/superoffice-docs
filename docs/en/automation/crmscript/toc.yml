@@ -174,6 +174,39 @@ items:
       href: howto/custom-objects/sort-extra-field-values.md
     - name: Extra tables
       href: howto/custom-objects/extra-table.md
+  - name: Diary and follow-ups
+    href: howto/diary/index.md
+    items:
+    - name: Get appointments
+      href: howto/diary/get-appointment.md
+    - name: Create appointment
+      href: howto/diary/create-appointment.md
+    - name: Update and delete appointments
+      href: howto/diary/update-appointment.md
+    - name: Register incoming phone call
+      href: howto/diary/register-incoming-call.md
+    - name: Plan outgoing phone call
+      href: howto/diary/plan-outgoing-call.md
+    - name: Working with todo lists
+      href: howto/diary/task.md
+    - name: View recurrence info
+      href: howto/diary/get-recurrence-info.md
+    - name: Get follow-ups in a series
+      href: howto/diary/get-appointments-in-series.md
+    - name: Create repeating follow-ups
+      href: howto/diary/create-recurring-appointment.md
+    - name: Update repeating follow-ups
+      href: howto/diary/update-recurrence.md
+    - name: Stop repeating follow-ups
+      href: howto/diary/stop-recurrence.md
+    - name: Create invitation
+      href: howto/diary/create-invitation.md
+    - name: Book a resource
+      href: howto/diary/book-resource.md
+    - name: Track responses
+      href: howto/diary/track-responses.md
+    - name: Accept invitation
+      href: howto/diary/accept-invitation.md
   - name: Documents
     topicHref: howto/document/index.md
     items:

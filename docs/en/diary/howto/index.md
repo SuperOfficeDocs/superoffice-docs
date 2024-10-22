@@ -273,14 +273,14 @@ The enum values correspond to what you see in the **Pattern** dialog.
 [5]: row/create-apt-rows.md
 [6]: osql/create-apt-osql.md
 [7]: sql/create-apt-sql.md
-[8]: crmscript/index.md
+[8]: ../../automation/crmscript/howto/diary/index.md
 [9]: services/index.md
 [10]: entity/index.md
 [11]: row/index.md
 [12]: osql/index.md
 [13]: sql/index.md
 [14]: services/create-apt-services.md
-[15]: crmscript/create-appointment.md
+[15]: ../../automation/crmscript/howto/diary/create-appointment.md
 [21]: sql/create-invitation-sql.md
 [22]: sql/accept-invitation-sql.md
 [23]: entity/create-invitation-entity.md
@@ -288,8 +288,8 @@ The enum values correspond to what you see in the **Pattern** dialog.
 [25]: services/create-invitation-services.md
 [26]: services/get-invitations-services.md
 [27]: services/accept-invitation-services.md
-[28]: crmscript/create-invitation.md
-[29]: crmscript/accept-invitation.md
+[28]: ../../automation/crmscript/howto/diary/create-invitation.md
+[29]: ../../automation/crmscript/howto/diary/accept-invitation.md
 [30]: ../../database/tables/appointment.md
 [31]: ../../company/index.yml
 [32]: ../../contact/index.yml
@@ -305,6 +305,6 @@ The enum values correspond to what you see in the **Pattern** dialog.
 [45]: ../../database/tables/enums/recurrencepattern.md
 [42]: entity/create-recurring-appointment-entity.md
 [44]: services/create-recurring-appointment-services.md
-[46]: crmscript/create-recurring-appointment.md
+[46]: ../../automation/crmscript/howto/diary/create-recurring-appointment.md
 
 <!-- Referenced images -->
