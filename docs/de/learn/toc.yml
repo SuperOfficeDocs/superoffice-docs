@@ -70,8 +70,8 @@ items:
       href: ../request/learn/external-document.md
 
   - name: SAINT (Sales Intelligence)
-    href: ../sale/saint/learn/toc.yml
-    topicHref: ../sale/saint/learn/index.md
+    href: ../saint/learn/toc.yml
+    topicHref: ../saint/learn/index.md
 
   - name: Anpassung
     href: customization.yml
@@ -203,8 +203,8 @@ items:
       topicHref: ../ui/blogic/learn/index.md
 
     - name: SAINT (Sales Intelligence)
-      href: ../sale/saint/learn/admin/toc.yml
-      topicHref: ../sale/saint/learn/admin/index.md
+      href: ../saint/admin/toc.yml
+      topicHref: ../saint/admin/index.md
 
     - name: Vor Ort
       topicHref: ../automation/crmscript/learn/screen/data-exchange.md

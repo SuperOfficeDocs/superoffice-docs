@@ -135,7 +135,7 @@ When you open the **Find** screen, it contains default search criteria or the se
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
-[3]: ../../sale/saint/learn/index.md
+[3]: ../../saint/learn/index.md
 [4]: ../selection/learn/index.md
 
 <!-- Referenced images -->

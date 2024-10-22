@@ -2,10 +2,13 @@
 uid: help-de-selections-dynamic
 title: Dynamische Selektionen
 description: Dynamische Selektionen
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Selektion, dynamisch
+author: SuperOffice RnD
+date: 10.18.2024
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -47,14 +50,18 @@ Wenn Sie ein oder mehrere Ihrer Produkte von beispielsweise Version 2 auf Versio
 
 Sie können eine Selektion erstellen, die alle offenen Anfragen enthält, die seit über einer Woche nicht aktualisiert wurden. Anschließend können Sie bei den diese Anfragen zuständigen Bearbeitern nachfragen.
 
+## <a id="saint"></a>Statuskontrollen in einer dynamischen Selektion verwenden
+
+Mit aktiviertem **SAINT** (erfordert Sales-Premium oder Service-Premium) können Sie [Statusangaben][4] als Kriterien für die Erstellung dynamischer Selektion verwenden. Dies ermöglicht Ihnen einen Überblick über Firmen, Personen oder Projekte, die bestimmten Statuskriterien entsprechen. Die SAINT-Kriterien finden Sie unter **Zähler (SAINT)** in der [Kriterienliste][3] in der Ansicht **Suchen**.
+
 ## Was möchten Sie jetzt tun?
 
 * [Erstellen einer dynamischen Selektion][2]
-* [Statuskontrollen in einer dynamischen Selektion verwenden][3]
 
 <!-- Referenced links -->
 [1]: static-selections.md
 [2]: create/tutorial.yml
-[3]: ../../../sale/saint/learn/using-status-monitors-in-dynamic-selections.md
+[3]: ../../learn/search-criteria.md
+[4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

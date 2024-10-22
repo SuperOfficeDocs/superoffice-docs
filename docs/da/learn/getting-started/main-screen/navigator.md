@@ -109,7 +109,7 @@ Hvis du holder musemarkøren over en post på en af listerne, vises et værktøj
 [46]: ../../../admin/user-management/learn/index.md
 [47]: ../../../admin/user-management/learn/role/index.md
 [48]: ../../../security/privacy/learn/index.md
-[49]: ../../../sale/saint/learn/index.md
+[49]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/learn/navigator-preview-sales.png

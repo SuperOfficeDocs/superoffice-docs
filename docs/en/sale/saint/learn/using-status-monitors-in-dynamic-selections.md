@@ -1,21 +1,7 @@
 ---
-uid: help-en-using-status-monitors-in-dynamic-selections
-title: Using status monitors in dynamic selections
-description: Using status monitors in dynamic selections
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: company
-topic: help
+uid: help-en-using-status-monitors-in-dynamic-selections-redirect
+author: Bergfrid Dias
+date: 10.18.2024
 language: en
+redirect_url: https://docs.superoffice.com/en/search-options/selection/learn/dynamic-selections.html#saint
 ---
-
-# Use status monitors in a dynamic selection
-
-If you have purchased a licence for SAINT, you can use statuses defined in Settings and maintenance as criteria for creating dynamic selections. In this way, you can get an overview of companies, contacts or projects which match the status criteria you are interested in. The SAINT criteria can be found under **Counters (SAINT)** in the [list of criteria][1] in the **Find** screen.
-
-[!include[Requirement](includes/req-saint.md)]
-
-<!-- Referenced links -->
-[1]: ../../../search-options/learn/search-criteria.md
-
-<!-- Referenced images -->

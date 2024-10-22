@@ -37,7 +37,7 @@ After you have added your products, either manually or by import, you can add im
 
 ## What sort of images can I use?
 
-[!include[File type and size](../../../../sale/learn/includes/image-type-and-size.md)]
+[!include[File type and size](../../../../learn/includes/image-type-and-size.md)]
 
 ## Related
 

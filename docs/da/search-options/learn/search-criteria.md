@@ -117,7 +117,7 @@ Kriterielisterne indeholder et sæt standardkriterier, som du kan redigere eller
 
 Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier eller de søgekriterier, du angav, sidst du brugte dialogboksen. Hvis du vil bruge andre søgekriterier end dem, der vises, har du følgende muligheder:
 
- Opgave | Trin |
+| Opgave | Trin |
 |---|---|
 | Flytte søgekriterier (en linje) | Klik og træk ![ikon][img2]. |
 | Ændre et søgekriterium | Klik på det og vælg et andet på den liste, der vises. |
@@ -138,7 +138,7 @@ Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier el
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: in-navigator.md
-[3]: ../../sale/saint/learn/index.md
+[3]: ../../saint/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png
