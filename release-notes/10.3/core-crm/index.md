@@ -13,6 +13,8 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM
 
+* [Document - Clean and intuitive (10.3.11)][11]
+* [Selection - Task for print content from selection (10.3.11)][11]
 * [Selection - Task for print labels (10.3.10)][10]
 * [Column calculations on section tabs and selections (10.3.9)][9]
 * [Columns/fields - Base currency and currency options (10.3.9)][9]
@@ -28,3 +30,4 @@ audience_tooltip: SuperOffice CRM
 [6]: 10.3.6-update.md
 [9]: 10.3.9-update.md
 [10]: 10.3.10-update.md
+[11]: 10.3.11-update.md
