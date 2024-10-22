@@ -22,8 +22,8 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.11 (29.10.2024):
-  * [Document - Clean and intuitive (10.3.11)][44]
-  * [Selection - Task for print content from selection (10.3.11)][44]
+  * [Document dialog - Clean and intuitive (10.3.11)][44]
+  * [Selection - Task for Print selection (10.3.11)][44]
 
 * 10.3.10 (08.10.2024):
   * [Selection - Task for print labels (10.3.10)][42] in Core CRM
