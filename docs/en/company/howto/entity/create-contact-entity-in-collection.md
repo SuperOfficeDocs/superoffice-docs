@@ -1,27 +1,6 @@
 ---
-title: Create a Contact entity through an entity collection
-uid: create_contact_entity_in_collection
-description: How to create a Contact entity through an ContactCollection entity collection.
-author: {github-id}
-date: 05.11.2016
-keywords: contact, company, entity, API, collection, ContactCollection
-topic: howto
-# envir:
-# client:
+uid: create-contact-entity-in-collection-redirect
+author: Bergfrid Skaara Dias
+date: 10.23.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/entities/howto/company/create-contact-entity-in-collection.html
 ---
-
-# Create a Contact entity through an entity collection
-
-The `SuperOffice.CRM.Entities` namespace exposes entity collections such as `ContactCollection` and `PersonCollection`. It is therefore possible to create a `Contact` entity and assign it to the collection and thereby saving the collection the `Contact` entity will be saved.
-
-## Code
-
-[!code-csharp[CS](includes/create-contact-entity-in-collection.cs)]
-
-## Walk-through
-
-In the above code, a `Contact` entity has been created, and then it has been assigned to the instantiated `ContactCollection`.
-
-Then the collection has been saved like this:
-
-[!code-csharp[CS](includes/create-contact-entity-in-collection.cs?range=35-36)]

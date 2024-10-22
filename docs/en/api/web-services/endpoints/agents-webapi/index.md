@@ -103,8 +103,8 @@ Happens when the request succeeds but the data is invalid. For example, a requir
 
 <!-- Referenced links -->
 [1]: ../rest-webapi/index.md
-[2]: ../../../../company/howto/services/create-contact-webapi-agents.md
-[3]: ../../../../company/howto/services/add-catlist-item-webapi-agents.md
+[2]: ../../howto/company/create-contact-webapi-agents.md
+[3]: ../../howto/company/add-catlist-item-webapi-agents.md
 [4]: ../../howto/document/rest-add-document-template.md
 [5]: ../../howto/document/rest-generate-document.md
 [6]: ../../../../../assets/downloads/api/Swagger-v1-Agents.zip

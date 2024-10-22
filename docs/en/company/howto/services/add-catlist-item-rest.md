@@ -1,26 +1,6 @@
 ---
-title: Add a category list item using REST
-uid: add_catlist_item_rest
-description: Add a category list item
-author: {github-id}
-keywords: category,contact,rest
-topic: howto
-date:
-# envir:
-# client:
+uid: add-catlist-item-rest-redirect
+author: Bergfrid Skaara Dias
+date: 10.23.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/company/add-catlist-item-rest.html
 ---
-
-# Add a category list item using REST
-
-```javascript
-var item = {}
-item.Name = "Created by unit test";
-item.Tooltip = "Unit Tests FTW";
-item = Post("api/v1/List/Category/items", item)
-```
-
-The list item will be added - we can get the whole list here:
-
-```javascript
-item = Get("api/v1/List/Category/items", item)
-```

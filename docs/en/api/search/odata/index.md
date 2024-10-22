@@ -132,7 +132,7 @@ You can fetch [metadata - information about archives][13] to do "reflection" on 
 [9]: numbers.md
 [10]: strings.md
 [11]: unary.md
-[12]: ../../../company/howto/services/get-all-contacts-rest.md
+[12]: ../../web-services/howto/company/get-all-contacts-rest.md
 [13]: metadata.md
 [14]: dynamic-provider.md
 [15]: ../../archive-providers/reference/findsale.md

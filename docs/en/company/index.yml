@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 02.21.2022
+  so.date: 10.23.2024
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -161,23 +161,23 @@ conceptualContent:
       - text: Raw SQL
         itemType: list
         typeDesc: how-to-guide
-        url: howto/sql/index.md
+        url: ../api/sql/howto/company/index.md
       - text: OSQL
         itemType: list
         typeDesc: how-to-guide
-        url: howto/osql/index.md
+        url: ../api/osql/howto/company/index.md
       - text: Row
         itemType: list
         typeDesc: how-to-guide
-        url: howto/row/index.md
+        url: ../api/rows/howto/company/index.md
       - text: Entity
         itemType: list
         typeDesc: how-to-guide
-        url: howto/entity/index.md
+        url: ../api/entities/howto/company/index.md
       - text: Web services, REST
         itemType: list
         typeDesc: how-to-guide
-        url: howto/services/index.md
+        url: ../api/web-services/howto/company/index.md
 
     # Card
     - title: Database options

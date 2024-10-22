@@ -1,31 +1,6 @@
 ---
-title: Add a category list item
-uid: add_catlist_item_listagent
-description: Add a category list item using WebAPI agents
-author: Bergfrid Dias
-date: 11.18.2021
-keywords: category, contact, WebAPI, agents
-topic: howto
-# envir:
-# client:
+uid: add-catlist-item-listagent-redirect
+author: Bergfrid Skaara Dias
+date: 10.23.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/company/add-catlist-item-webapi-agents.html
 ---
-
-# Add a category list item
-
-```javascript
-var item = {}
-item.Id = 0;
-item.Name = "Created by unit test";
-item.Tooltip = "Unit Tests FTW";
-item.UdListDefinitionId = -64 // Category list ID
-item = Post("api/v1/Agents/List/SaveListItemEntity", item)
-```
-
-The list item will be added - we can get the whole list here:
-
-```javascript
-req = { UdListDefinitionName: "category", IncludeDeleted: true }
-items = Post("api/v1/Agents/List/GetAllFromListName", req)
-```
-
-[!include[Pseudocode](../../../api/includes/note-javascripty.md)]

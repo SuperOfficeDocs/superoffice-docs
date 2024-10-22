@@ -1,26 +1,6 @@
 ---
-title: Create a new company
-uid: create_company_webapi_agents
-description: How to create a new Company using webapi contact agent.
-author: Bergfrid Dias
-date: 11.18.2021
-keywords: contact, company, services, API, WebAPI, agents, CreateDefaultContactEntity, JavaScript
-topic: howto
-# envir:
-# client:
+uid: create-company-webapi-agents-redirect
+author: Bergfrid Skaara Dias
+date: 10.23.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/company/create-contact-webapi-agents.html
 ---
-
-# Create a new company
-
-Get a blank company, modify it, and post it back to create a new company.
-
-```javascript
-company = Post("api/v1/Agents/Contact/CreateDefaultContactEntity")
-company.Name = "New company"
-company.Category.Id = 2
-company.Business.Id = 3
-company.NoMailing = true
-company = Post("api/v1/Agents/Contact/SaveContactEntity", company)
-```
-
-[!include[Pseudocode](../../../api/includes/note-javascripty.md)]

@@ -1,26 +1,6 @@
 ---
-title: Contact - entity
-uid: api_contact_entity
-description: Working with companies (contact) in API with entities.
+uid: api-contact-entity-redirect
 author: Bergfrid Skaara Dias
-date: 02.22.2022
-keywords: contact, company, entity, API
-topic: concept
+date: 10.23.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/entities/howto/company/index.html
 ---
-
-# Contact - entity
-
-* [Create contact][1]
-* [Create contact (in entity)][2]
-* [Create contact (in collection)][3]
-* [Get contact][4]
-* [Get interests for contact][5]
-* [Set interest on/off][6]
-
-<!-- Referenced links -->
-[1]: create-contact-entity.md
-[2]: create-contact-entity-in-entity.md
-[3]: create-contact-entity-in-collection.md
-[4]: get-contact-via-entities-layer.md
-[5]: get-interests-for-contact-entity.md
-[6]: set-interest-on-off-entity.md

@@ -1,17 +1,6 @@
 ---
-title: Get a CategoryList using the MDO Agent
-uid: get_category_list_mdoagent
-description: Get a CategoryList through the MDO Agent
-author: {github-id}
-date: 
-keywords: category, MDO agent
-topic: howto
-# envir:
-# client:
+uid: get-category-list-mdoagent-redirect
+author: Bergfrid Skaara Dias
+date: 10.23.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/company/get-catlist-mdoagent.html
 ---
-
-# Get a CategoryList using the MDO Agent
-
-[!code-csharp[CS](includes/get-catlist-mdoagent.cs)]
-
-The example above shows how we can use the `GetSimpleList` method available through the `MDOAgent` to retrieve the category list.

@@ -1,24 +1,6 @@
 ---
-title: Contact - raw SQL
-uid: api_contact_sql
-description: Working with companies (contact) in API with raw SQL.
+uid: api-contact-sql-redirect
 author: Bergfrid Skaara Dias
-date: 11.04.2021
-keywords: contact, company, SQL, API
-topic: howto
+date: 10.23.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/sql/howto/company/index.html
 ---
-
-# Contact - raw SQL
-
-[!include[Don't change company table](../../../includes/warn-company-table.md)]
-
-* [Create contact][1]
-* [Get contact details][2]
-* [Get interests][3]
-* [Get category list][4]
-
-<!-- Referenced links -->
-[1]: create-contact-sql.md
-[2]: get-contact-details-sql.md
-[3]: get-interests-sql.md
-[4]: get-catlist-sql.md
