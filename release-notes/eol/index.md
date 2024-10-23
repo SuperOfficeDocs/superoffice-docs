@@ -4,7 +4,7 @@ title: End-of-life notifications
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
 author: Bergfrid Dias
-date: 03.12.2023
+date: 10.23.2024
 language: en
 topic: reference
 version: 10.3
@@ -26,7 +26,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 |---|---|---|---|
 | [Microsoft 365 Document Integration (Sharepoint v1.0)][14] | Approaching end-of-life | 01.09.2024 | Switch to [Super ID][24] and [SharePoint Documents][25]. |
 | [Pagebuilder][12] | No longer supported | The last supported version is 10.2.9 | Switch to [Screen Designer][22]. |
-| Reporter Studio and reports | Approaching end-of-life | 07.01.2025 | Switch to dashboards and selections. |
+| Reporter Studio and reports | Approaching end-of-life | 12.01.2024 | Switch to dashboards and selections. |
 
 ## Upcoming end-of-life notices
 
