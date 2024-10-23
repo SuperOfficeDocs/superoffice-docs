@@ -151,20 +151,20 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: howto/crmscript/index.md
+          url: ../automation/crmscript/howto/project/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Create
-          url: howto/crmscript/create.md
+          url: ../automation/crmscript/howto/project/create.md
         - text: Get selected
-          url: howto/crmscript/get.md
+          url: ../automation/crmscript/howto/project/get.md
         - text: Update
-          url: howto/crmscript/update.md
+          url: ../automation/crmscript/howto/project/update.md
         - text: Project members
-          url: howto/crmscript/members.md
+          url: ../automation/crmscript/howto/project/members.md
         - text: Project guides
-          url: howto/crmscript/guides.md
+          url: ../automation/crmscript/howto/project/guides.md
 
   - title: API
     linkLists:

@@ -86,7 +86,7 @@ conceptualContent:
       - text: Using CRMScript
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/reply-templates/howto/crmscript/index.md
+        url: ../automation/crmscript/howto/request/reply-templates.md
       - text: CRMScript template engine
         itemType: explore
         typeDesc: concept

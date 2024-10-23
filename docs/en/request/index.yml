@@ -135,24 +135,24 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: howto/crmscript/index.md
+          url: ../automation/crmscript/howto/request/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Create ticket
-          url: howto/crmscript/create.md
+          url: ../automation/crmscript/howto/request/create.md
         - text: Add or update message
-          url: howto/crmscript/add-message.md
+          url: ../automation/crmscript/howto/request/add-message.md
         - text: Accept
-          url: howto/crmscript/accept.md
+          url: ../automation/crmscript/howto/request/accept.md
         - text: Reply
-          url: howto/crmscript/reply.md
+          url: ../automation/crmscript/howto/request/reply.md
         - text: Delegate
-          url: howto/crmscript/delegate.md
+          url: ../automation/crmscript/howto/request/delegate.md
         - text: Escalate
-          url: howto/crmscript/escalate.md
+          url: ../automation/crmscript/howto/request/escalate.md
         - text: Split and merge
-          url: howto/crmscript/split-merge.md
+          url: ../automation/crmscript/howto/request/split-merge.md
 
   - title: API
     linkLists:

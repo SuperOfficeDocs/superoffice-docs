@@ -79,7 +79,7 @@ It is important to keep in mind that there's not a 1:1 mapping of labels and tha
 [1]: ../database/getting-started/main-tables.md
 [2]: blob-pictures.md
 [3]: ../globalization-and-localization/address/index.md
-[4]: howto/crmscript/index.md
+[4]: ../automation/crmscript/howto/contact/index.md
 [5]: ../api/web-services/howto/contact/index.md
 [6]: ../api/entities/howto/contact/index.md
 [7]: ../api/rows/howto/contact/index.md

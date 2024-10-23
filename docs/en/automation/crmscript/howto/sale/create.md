@@ -88,4 +88,4 @@ sale = saleAgent.SaveSaleEntity(sale);
 
 <!-- Referenced links -->
 [1]: ../request/create.md
-[2]: ../../../../diary/howto/crmscript/index.md
+[2]: ../diary/index.md

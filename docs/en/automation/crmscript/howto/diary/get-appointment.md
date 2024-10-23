@@ -37,6 +37,7 @@ for(Integer i = 0; i < appointmentList.length(); i++) {
 > [!TIP]
 > You can also use the [archive agent][2] to fetch appointments.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## NSAppointment[] GetPersonDiary(Integer personId, DateTime startTime, DateTime endTime, Integer count)
 
 Fetches a limited number of appointments within a time range for the given person. `GetPersonDiary()` will ignore appointments not shown in the user's diary.
@@ -57,6 +58,7 @@ for(Integer i = 0; i < appointmentList.length(); i++) {
 > [!TIP]
 > Set `count` to -1 to not restrict the collection of appointments retrieved.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## NSAppointment[] GetPersonAppointments(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count)
 
 Same as `GetPersonDiary()`, but will also include all appointments in projects that the user is a member of if set to **true**.

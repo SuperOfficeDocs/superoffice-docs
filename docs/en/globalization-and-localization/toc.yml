@@ -20,12 +20,7 @@ items:
     href: address/howto/index.md
     items:
     - name: CRMScript
-      href: address/howto/crmscript/index.md
-      items:
-      - name: Get NSLocalizedAddress
-        href: address/howto/crmscript/get-address.md
-      - name: Set NSLocalizedAddress
-        href: address/howto/crmscript/set-address.md
+      topicHref: ../automation/crmscript/howto/address/index.md
     - name: Web services
       href: address/howto/services/index.md
       items:

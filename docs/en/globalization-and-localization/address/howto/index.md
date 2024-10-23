@@ -22,8 +22,8 @@ topic: howto
 * [Quote connector address provider][7]
 
 <!-- Referenced links -->
-[1]: crmscript/get-address.md
-[2]: crmscript/set-address.md
+[1]: ../../../automation/crmscript/howto/address/get-address.md
+[2]: ../../../automation/crmscript/howto/address/set-address.md
 [3]: services/get-localized-address.md
 [4]: services/set-localized-address.md
 [5]: ../../../api/security/sentry/sql/set-override-sql.md

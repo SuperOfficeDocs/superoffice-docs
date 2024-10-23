@@ -138,8 +138,8 @@ When working with sales, data will often intersect with the following entities:
 [4]: ../project/index.yml
 [5]: ../database/tables/saletypestagelink.md
 [6]: learn/index.md
-[7]: howto/crmscript/index.md
-[8]: howto/sql/stakeholders.md
+[7]: ../automation/crmscript/howto/sale/index.md
+[8]: ../api/sql/howto/sale/stakeholders.md
 
 <!-- Referenced images -->
 [img1]: media/stakeholders.png
