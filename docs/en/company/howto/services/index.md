@@ -1,28 +1,6 @@
 ---
-title: Contact - services
-uid: api_contact_services
-description: Working with companies (contact) in API with services.
+uid: api-contact-services-redirect
 author: Bergfrid Skaara Dias
-date: 02.22.2022
-keywords: contact, company, services, API
-topic: howto
+date: 10.23.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/company/index.html
 ---
-
-# Contact - services
-
-* [Create contact][1]
-* [Create contact (REST)][2]
-* [Create contact WebApi agents][3]
-* [Get contact][4]
-* [Get all contacts (REST)][5]
-* [List interests for contact][6]
-* [Set interest on/off][7]
-
-<!-- Referenced links -->
-[1]: create-contact-services.md
-[2]: create-contact-rest.md
-[3]: create-contact-webapi-agents.md
-[4]: get-contact-via-services-layer.md
-[5]: get-all-contacts-rest.md
-[6]: get-interests-for-contact-services.md
-[7]: set-interest-on-off-services.md

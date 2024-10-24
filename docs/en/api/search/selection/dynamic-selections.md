@@ -44,6 +44,7 @@ SELECT * FROM searchcriteriagroup WHERE searchcriteria_id = 24
 | SearchCriteriaGroup_id | SearchCriteria_id | name | textId | direction | rank | registered | registered_associate_id |
 |---|---|---|---|---|---|---|---|
 | 20 | 24 | Group: 0 | 0 | 1 | 0 | 01.12.2020 17:33:01 | 13 |
+
 The group contains one or more search criterion records: each criterion corresponds to a field.
 
 ```SQL

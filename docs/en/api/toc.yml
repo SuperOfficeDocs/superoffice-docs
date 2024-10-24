@@ -275,9 +275,36 @@ items:
     href: web-services/so-timezone.md
   - name: How to set up REST onsite
     href: ../onsite/install/netserver/setup-rest.md
-  - name: Howto
+  - name: How to...
     topicHref: web-services/howto/index.md
     items:
+    - name: Company
+      href: web-services/howto/company/index.md
+      items:
+      - name: Create contact
+        href: web-services/howto/company/create-contact-services.md
+      - name: Create contact (REST)
+        href: web-services/howto/company/create-contact-rest.md
+      - name: Create contact (Agents WebApi)
+        href: web-services/howto/company/create-contact-webapi-agents.md
+      - name: Get contact
+        href: web-services/howto/company/get-contact-via-services-layer.md
+      - name: Get all contacts (REST)
+        href: web-services/howto/company/get-all-contacts-rest.md
+      - name: Get interests
+        href: web-services/howto/company/get-interests-for-contact-services.md
+      - name: Set interest on/off
+        href: web-services/howto/company/set-interest-on-off-services.md
+      - name: Add a category list item (REST)
+        href: web-services/howto/company/add-catlist-item-rest.md
+      - name: Add a category list item (Agents WebAPI)
+        href: web-services/howto/company/add-catlist-item-webapi-agents.md
+      - name: Get category list (ListAgent)
+        href: web-services/howto/company/get-catlist-listagent.md
+      - name: Get category list (MDOAgent)
+        href: web-services/howto/company/get-catlist-mdoagent.md
+      - name: Set category (MDOAgent)
+        href: web-services/howto/company/get-set-category-mdoagent.md
     - name: Contact (person)
       href: web-services/howto/contact/index.md
       items:
@@ -392,6 +419,25 @@ items:
       href: entities/delete-entity.md
     - name: Delete an entity through an entity
       href: entities/delete-entity-from-entity.md
+    - name: Company
+      href: entities/howto/company/index.md
+      items:
+      - name: Create contact
+        href: entities/howto/company/create-contact-entity.md
+      - name: Create contact (in entity)
+        href: entities/howto/company/create-contact-entity-in-entity.md
+      - name: Create contact (in collection)
+        href: entities/howto/company/create-contact-entity-in-collection.md
+      - name: Get contact
+        href: entities/howto/company/get-contact-via-entities-layer.md
+      - name: Get interests
+        href: entities/howto/company/get-interests-for-contact-entity.md
+      - name: Set interest on/off
+        href: entities/howto/company/set-interest-on-off-entity.md
+      - name: Get category list (typed provider)
+        href: entities/howto/company/get-catlist-typed-provider.md
+      - name: Get category list (generic provider)
+        href: entities/howto/company/get-catlist-generic-provider.md
     - name: Contact (person)
       href: entities/howto/contact/index.md
       items:
@@ -450,6 +496,17 @@ items:
       href: rows/delete-row.md
     - name: Delete a row through an entity
       href: rows/delete-row-from-entity.md
+    - name: Company
+      href: rows/howto/company/index.md
+      items:
+      - name: Create contact (Row)
+        href: rows/howto/company/create-contact-row.md
+      - name: Create contact (Rows)
+        href: rows/howto/company/create-contact-rows.md
+      - name: Add new contact interest
+        href: rows/howto/company/add-new-contact-interest.md
+      - name: Get category list
+        href: rows/howto/company/get-catlist-categoryrows.md
     - name: Contact (person)
       href: rows/howto/contact/index.md
       items:
@@ -501,6 +558,13 @@ items:
       href: osql/soundx.md
   - name: How to...
     items:
+    - name: Company
+      href: osql/howto/company/index.md
+      items:
+      - name: Create contact
+        href: osql/howto/company/create-contact-osql.md
+      - name: Get category list
+        href: osql/howto/company/get-catlist-sodatareader.md
     - name: Contact (person)
       href: osql/howto/contact/index.md
       items:
@@ -510,6 +574,17 @@ items:
         href: osql/howto/contact/update-person-osql.md
 - name: Raw SQL queries
   items:
+  - name: Company
+    href: sql/howto/company/index.md
+    items:
+    - name: Create contact
+      href: sql/howto/company/create-contact-sql.md
+    - name: Get contact details
+      href: sql/howto/company/get-contact-details-sql.md
+    - name: Get interests
+      href: sql/howto/company/get-interests-sql.md
+    - name: Get category list
+      href: sql/howto/company/get-catlist-sql.md
   - name: Contact (person)
     href: sql/howto/contact/index.md
     items:
