@@ -139,6 +139,13 @@ items:
       href: searchengine/se-insert-update-delete.md
     - name: Using the SearchEngine class (blog post)
       href: searchengine/using-the-searchengine-class-blog-post.md
+  - name: Addresses
+    href: howto/address/index.md
+    items:
+    - name: Get NSLocalizedAddress
+      href: howto/address/get-address.md
+    - name: Set NSLocalizedAddress
+      href: howto/address/set-address.md
   - name: Company
     href: howto/company/index.md
     items:
@@ -230,6 +237,21 @@ items:
     items:
     - name: Forms
       href: howto/marketing/forms.md
+  - name: Projects
+    href: howto/project/index.md
+    items:
+    - name: Create
+      href: howto/project/create.md
+    - name: Get selected projects
+      href: howto/project/get.md
+    - name: Update
+      href: howto/project/update.md
+    - name: Project members
+      href: howto/project/members.md
+    - name: Project guide
+      href: howto/project/guides.md
+    - name: Samples
+      href: howto/project/samples.md
   - name: Quote
     href: howto/quote/index.md
     items:

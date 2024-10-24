@@ -11,6 +11,7 @@ topic: howto
 
 # Update appointment
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## NSAppointment UpdateAppointment(Integer p0, DateTime p1, DateTime p2, Integer p3, Integer p4, Integer associateId)
 
 Change the description, for example, to add an agenda:

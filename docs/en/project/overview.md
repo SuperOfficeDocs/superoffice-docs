@@ -82,7 +82,7 @@ When working with projects, data will often intersect with the following entitie
 <!-- Referenced links -->
 [1]: learn/index.md
 [2]: howto/sql/index.md
-[3]: howto/crmscript/index.md
+[3]: ../automation/crmscript/howto/project/index.md
 [4]: ../database/tables/projecttypestatuslink.md
 [5]: ../database/tables/projectmember.md
 [12]: ../document/index.yml

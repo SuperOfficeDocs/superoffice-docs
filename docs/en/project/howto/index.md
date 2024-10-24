@@ -35,14 +35,14 @@ topic: howto
 * [Description][7]
 
 <!-- Referenced links -->
-[1]: crmscript/index.md
-[2]: crmscript/create.md
-[3]: crmscript/members.md
-[4]: crmscript/guides.md
+[1]: ../../automation/crmscript/howto/project/index.md
+[2]: ../../automation/crmscript/howto/project/create.md
+[3]: ../../automation/crmscript/howto/project/members.md
+[4]: ../../automation/crmscript/howto/project/guides.md
+[8]: ../../automation/crmscript/howto/project/update.md
 [5]: sql/create.md
 [6]: sql/project-guide.md
 [7]: sql/text-table.md
-[8]: crmscript/update.md
 [16]: ../../api/reference/restful/rest/project/index.md
 [17]: ../../api/reference/soap/services88/project/index.md
 

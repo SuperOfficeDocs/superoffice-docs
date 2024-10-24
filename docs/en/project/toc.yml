@@ -8,20 +8,7 @@ items:
     href: howto/index.md
     items:
     - name: CRMScript
-      href: howto/crmscript/index.md
-      items:
-      - name: Create
-        href: howto/crmscript/create.md
-      - name: Get selected projects
-        href: howto/crmscript/get.md
-      - name: Update
-        href: howto/crmscript/update.md
-      - name: Project members
-        href: howto/crmscript/members.md
-      - name: Project guide
-        href: howto/crmscript/guides.md
-      - name: Samples
-        href: howto/crmscript/samples.md
+      topicHref: ../automation/crmscript/howto/project/index.md
     - name: Raw SQL
       href: howto/sql/index.md
       items:
