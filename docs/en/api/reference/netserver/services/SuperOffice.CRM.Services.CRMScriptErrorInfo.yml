@@ -6,9 +6,10 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.CRMScriptErrorInfo.#ctor
-  - SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
-  - SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.CharacterPosition
   - SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.IncludeId
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.LineNumber
   - SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString
   - SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString(System.String)
   langs:
@@ -166,16 +167,49 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
-- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
-  commentId: P:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
-  id: ErrorLine
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.IncludeId
+  commentId: P:SuperOffice.CRM.Services.CRMScriptErrorInfo.IncludeId
+  id: IncludeId
   parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
   langs:
   - csharp
   - vb
-  name: ErrorLine
-  nameWithType: CRMScriptErrorInfo.ErrorLine
-  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+  name: IncludeId
+  nameWithType: CRMScriptErrorInfo.IncludeId
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.IncludeId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The includeId of the source where the error occured
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string IncludeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IncludeId As String
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.IncludeId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.LineNumber
+  commentId: P:SuperOffice.CRM.Services.CRMScriptErrorInfo.LineNumber
+  id: LineNumber
+  parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: LineNumber
+  nameWithType: CRMScriptErrorInfo.LineNumber
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.LineNumber
   type: Property
   assemblies:
   - SuperOffice.Services
@@ -186,29 +220,29 @@ items:
     content: >-
       [DataMember]
 
-      public virtual int ErrorLine { get; set; }
+      public virtual int LineNumber { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: >-
       <DataMember>
 
-      Public Overridable Property ErrorLine As Integer
-  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine*
+      Public Overridable Property LineNumber As Integer
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.LineNumber*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
-- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
-  commentId: P:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
-  id: ErrorCharacterPosition
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.CharacterPosition
+  commentId: P:SuperOffice.CRM.Services.CRMScriptErrorInfo.CharacterPosition
+  id: CharacterPosition
   parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
   langs:
   - csharp
   - vb
-  name: ErrorCharacterPosition
-  nameWithType: CRMScriptErrorInfo.ErrorCharacterPosition
-  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
+  name: CharacterPosition
+  nameWithType: CRMScriptErrorInfo.CharacterPosition
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.CharacterPosition
   type: Property
   assemblies:
   - SuperOffice.Services
@@ -219,15 +253,15 @@ items:
     content: >-
       [DataMember]
 
-      public virtual int ErrorCharacterPosition { get; set; }
+      public virtual int CharacterPosition { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: >-
       <DataMember>
 
-      Public Overridable Property ErrorCharacterPosition As Integer
-  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition*
+      Public Overridable Property CharacterPosition As Integer
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.CharacterPosition*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
@@ -338,13 +372,20 @@ references:
   name: ErrorMessage
   nameWithType: CRMScriptErrorInfo.ErrorMessage
   fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage
-- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.IncludeId*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.IncludeId
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptErrorInfo.html#SuperOffice_CRM_Services_CRMScriptErrorInfo_ErrorLine
-  name: ErrorLine
-  nameWithType: CRMScriptErrorInfo.ErrorLine
-  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+  href: SuperOffice.CRM.Services.CRMScriptErrorInfo.html#SuperOffice_CRM_Services_CRMScriptErrorInfo_IncludeId
+  name: IncludeId
+  nameWithType: CRMScriptErrorInfo.IncludeId
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.IncludeId
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.LineNumber*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.LineNumber
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptErrorInfo.html#SuperOffice_CRM_Services_CRMScriptErrorInfo_LineNumber
+  name: LineNumber
+  nameWithType: CRMScriptErrorInfo.LineNumber
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.LineNumber
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -356,10 +397,10 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.CharacterPosition*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.CharacterPosition
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptErrorInfo.html#SuperOffice_CRM_Services_CRMScriptErrorInfo_ErrorCharacterPosition
-  name: ErrorCharacterPosition
-  nameWithType: CRMScriptErrorInfo.ErrorCharacterPosition
-  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
+  href: SuperOffice.CRM.Services.CRMScriptErrorInfo.html#SuperOffice_CRM_Services_CRMScriptErrorInfo_CharacterPosition
+  name: CharacterPosition
+  nameWithType: CRMScriptErrorInfo.CharacterPosition
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.CharacterPosition

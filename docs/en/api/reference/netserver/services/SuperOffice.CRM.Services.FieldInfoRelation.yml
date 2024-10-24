@@ -61,6 +61,7 @@ items:
   - SuperOffice.CRM.Services.FieldInfoBase.IsMandatory
   - SuperOffice.CRM.Services.FieldInfoBase.IsReadOnly
   - SuperOffice.CRM.Services.FieldInfoBase.IsExternal
+  - SuperOffice.CRM.Services.FieldInfoBase.IsDisplayField
   - SuperOffice.CRM.Services.FieldInfoBase.Rank
   - SuperOffice.CRM.Services.FieldInfoBase.TemplateVariableName
   - System.Object.Equals(System.Object)
@@ -483,6 +484,14 @@ references:
   name: IsExternal
   nameWithType: FieldInfoBase.IsExternal
   fullName: SuperOffice.CRM.Services.FieldInfoBase.IsExternal
+- uid: SuperOffice.CRM.Services.FieldInfoBase.IsDisplayField
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsDisplayField
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  href: SuperOffice.CRM.Services.FieldInfoBase.html#SuperOffice_CRM_Services_FieldInfoBase_IsDisplayField
+  name: IsDisplayField
+  nameWithType: FieldInfoBase.IsDisplayField
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.IsDisplayField
 - uid: SuperOffice.CRM.Services.FieldInfoBase.Rank
   commentId: P:SuperOffice.CRM.Services.FieldInfoBase.Rank
   parent: SuperOffice.CRM.Services.FieldInfoBase

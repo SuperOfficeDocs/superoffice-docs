@@ -22,8 +22,10 @@ items:
   - SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity(System.Int32)
   - SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
   - SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  - SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
   - SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
   - SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  - SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
   - SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
   - SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
   - SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript(System.Int32)
@@ -385,6 +387,35 @@ items:
   nameWithType.vb: CRMScriptAgent.GetCRMScriptEntity(Integer)
   fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity(Integer)
   name.vb: GetCRMScriptEntity(Integer)
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+  id: SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCRMScriptEntityWithoutCompile(CRMScriptEntity)
+  nameWithType: CRMScriptAgent.SaveCRMScriptEntityWithoutCompile(CRMScriptEntity)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Save the script directly without compiling TypeScript
+  example: []
+  syntax:
+    content: public CRMScriptEntity SaveCRMScriptEntityWithoutCompile(CRMScriptEntity crmScriptEntity)
+    parameters:
+    - id: crmScriptEntity
+      type: SuperOffice.CRM.Services.CRMScriptEntity
+      description: The entity to save. Source and SourceCode should both be specified
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptEntity
+      description: The saved entity
+    content.vb: Public Function SaveCRMScriptEntityWithoutCompile(crmScriptEntity As CRMScriptEntity) As CRMScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityWithoutCompile*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
   commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
   id: ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
@@ -726,6 +757,41 @@ items:
   nameWithType.vb: CRMScriptAgent.ValidateScriptByString(String)
   fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByString(String)
   name.vb: ValidateScriptByString(String)
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
+  id: ResolveIncludes(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ResolveIncludes(string, bool)
+  nameWithType: CRMScriptAgent.ResolveIncludes(string, bool)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes(string, bool)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Will resolve all includes for a TypeScript and return an array of the IDs
+  example: []
+  syntax:
+    content: public int[] ResolveIncludes(string script, bool ignoreErrors)
+    parameters:
+    - id: script
+      type: System.String
+      description: The script to resolve includes for
+    - id: ignoreErrors
+      type: System.Boolean
+      description: If true, then missing includes will be ignored
+    return:
+      type: System.Int32[]
+      description: The ids of all the included scripts
+    content.vb: Public Function ResolveIncludes(script As String, ignoreErrors As Boolean) As Integer()
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
+  nameWithType.vb: CRMScriptAgent.ResolveIncludes(String, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes(String, Boolean)
+  name.vb: ResolveIncludes(String, Boolean)
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity(System.Int32)
   id: GetTriggerScriptEntity(System.Int32)
@@ -1797,6 +1863,43 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityWithoutCompile*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityWithoutCompile
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_SaveCRMScriptEntityWithoutCompile_SuperOffice_CRM_Services_CRMScriptEntity_
+  name: SaveCRMScriptEntityWithoutCompile
+  nameWithType: CRMScriptAgent.SaveCRMScriptEntityWithoutCompile
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityWithoutCompile
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_SaveCRMScriptEntityWithoutCompile_SuperOffice_CRM_Services_CRMScriptEntity_
+  name: SaveCRMScriptEntityWithoutCompile(CRMScriptEntity)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(CRMScriptEntity)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+    name: SaveCRMScriptEntityWithoutCompile
+    isExternal: true
+    href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_SaveCRMScriptEntityWithoutCompile_SuperOffice_CRM_Services_CRMScriptEntity_
+  - name: (
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.CRMScriptEntity.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
+    name: SaveCRMScriptEntityWithoutCompile
+    isExternal: true
+    href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_SaveCRMScriptEntityWithoutCompile_SuperOffice_CRM_Services_CRMScriptEntity_
+  - name: (
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.CRMScriptEntity.html
+  - name: )
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript
   isExternal: true
@@ -2301,6 +2404,92 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_ResolveIncludes_System_String_System_Boolean_
+  name: ResolveIncludes
+  nameWithType: CRMScriptAgent.ResolveIncludes
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludes
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ResolveIncludes_System_String_System_Boolean_
+  name: ResolveIncludes(string, bool)
+  nameWithType: ICRMScriptAgent.ResolveIncludes(string, bool)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(string, bool)
+  nameWithType.vb: ICRMScriptAgent.ResolveIncludes(String, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(String, Boolean)
+  name.vb: ResolveIncludes(String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
+    name: ResolveIncludes
+    isExternal: true
+    href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ResolveIncludes_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
+    name: ResolveIncludes
+    isExternal: true
+    href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ResolveIncludes_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity

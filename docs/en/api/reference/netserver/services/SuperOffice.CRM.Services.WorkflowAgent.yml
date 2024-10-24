@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.WorkflowAgent.#ctor
   - SuperOffice.CRM.Services.WorkflowAgent.AddAfterWorkflowStep(System.Int32,SuperOffice.CRM.Services.WorkflowStepBase)
   - SuperOffice.CRM.Services.WorkflowAgent.ConnectEmailFlowContent(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow(System.Int32,System.String)
   - SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlowContent(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlow
   - SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEvent
@@ -36,7 +37,9 @@ items:
   - SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTrigger(SuperOffice.CRM.Services.WorkflowTrigger)
   - SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForAction(SuperOffice.CRM.Services.WorkflowWaitForAction)
   - SuperOffice.CRM.Services.WorkflowAgent.SendEvent(SuperOffice.CRM.Services.WorkflowEvent)
+  - SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
   - SuperOffice.CRM.Services.WorkflowAgent.TryAddPersonsToEmailFlow(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions(System.Int32)
   langs:
   - csharp
   - vb
@@ -560,7 +563,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Try to add a participant to the EmailFlow
+  summary: Try to add a participant to the EmailFlow. Same function available in PersonAgent
   example: []
   syntax:
     content: public bool[] TryAddPersonsToEmailFlow(int emailFlowId, int[] personIds)
@@ -715,6 +718,108 @@ items:
   nameWithType.vb: WorkflowAgent.CopyEmailFlowContent(Integer, Integer)
   fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlowContent(Integer, Integer)
   name.vb: CopyEmailFlowContent(Integer, Integer)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions(System.Int32)
+  id: UpdateFormSubmissions(System.Int32)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateFormSubmissions(int)
+  nameWithType: WorkflowAgent.UpdateFormSubmissions(int)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Attempt to update stored field values for up to the given number of form submissions
+  example: []
+  syntax:
+    content: public int UpdateFormSubmissions(int maxCount)
+    parameters:
+    - id: maxCount
+      type: System.Int32
+      description: The maximum number of form submissions to attempt to save as form field values.
+    return:
+      type: System.Int32
+      description: Number of form submissions converted
+    content.vb: Public Function UpdateFormSubmissions(maxCount As Integer) As Integer
+  overload: SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(System.Int32)
+  nameWithType.vb: WorkflowAgent.UpdateFormSubmissions(Integer)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions(Integer)
+  name.vb: UpdateFormSubmissions(Integer)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
+  id: SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: SetStatusOnWorkflow(int, WorkflowDefinitionStatus)
+  nameWithType: WorkflowAgent.SetStatusOnWorkflow(int, WorkflowDefinitionStatus)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow(int, SuperOffice.Data.WorkflowDefinitionStatus)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Set status on workflow, Run or pause flow
+  example: []
+  syntax:
+    content: public WorkflowDefinitionStatus SetStatusOnWorkflow(int emailFlowId, WorkflowDefinitionStatus status)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: The id of the email flow to run or pause
+    - id: status
+      type: SuperOffice.Data.WorkflowDefinitionStatus
+      description: The new status
+    return:
+      type: SuperOffice.Data.WorkflowDefinitionStatus
+      description: The new status
+    content.vb: Public Function SetStatusOnWorkflow(emailFlowId As Integer, status As WorkflowDefinitionStatus) As WorkflowDefinitionStatus
+  overload: SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
+  nameWithType.vb: WorkflowAgent.SetStatusOnWorkflow(Integer, WorkflowDefinitionStatus)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow(Integer, SuperOffice.Data.WorkflowDefinitionStatus)
+  name.vb: SetStatusOnWorkflow(Integer, WorkflowDefinitionStatus)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow(System.Int32,System.String)
+  id: CopyEmailFlow(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CopyEmailFlow(int, string)
+  nameWithType: WorkflowAgent.CopyEmailFlow(int, string)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow(int, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Copy an email flow.
+  example: []
+  syntax:
+    content: public int CopyEmailFlow(int emailFlowId, string newName)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: The EmailFlow to copy.
+    - id: newName
+      type: System.String
+      description: The name of the new email flow
+    return:
+      type: System.Int32
+      description: Newly created email flow id for this content
+    content.vb: Public Function CopyEmailFlow(emailFlowId As Integer, newName As String) As Integer
+  overload: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(System.Int32,System.String)
+  nameWithType.vb: WorkflowAgent.CopyEmailFlow(Integer, String)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow(Integer, String)
+  name.vb: CopyEmailFlow(Integer, String)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.Run
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.Run
   id: Run
@@ -2413,6 +2518,153 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_UpdateFormSubmissions_System_Int32_
+  name: UpdateFormSubmissions
+  nameWithType: WorkflowAgent.UpdateFormSubmissions
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.UpdateFormSubmissions
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(System.Int32)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_UpdateFormSubmissions_System_Int32_
+  name: UpdateFormSubmissions(int)
+  nameWithType: IWorkflowAgent.UpdateFormSubmissions(int)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(int)
+  nameWithType.vb: IWorkflowAgent.UpdateFormSubmissions(Integer)
+  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(Integer)
+  name.vb: UpdateFormSubmissions(Integer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(System.Int32)
+    name: UpdateFormSubmissions
+    isExternal: true
+    href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_UpdateFormSubmissions_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(System.Int32)
+    name: UpdateFormSubmissions
+    isExternal: true
+    href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_UpdateFormSubmissions_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_SetStatusOnWorkflow_System_Int32_SuperOffice_Data_WorkflowDefinitionStatus_
+  name: SetStatusOnWorkflow
+  nameWithType: WorkflowAgent.SetStatusOnWorkflow
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.SetStatusOnWorkflow
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SetStatusOnWorkflow_System_Int32_SuperOffice_Data_WorkflowDefinitionStatus_
+  name: SetStatusOnWorkflow(int, WorkflowDefinitionStatus)
+  nameWithType: IWorkflowAgent.SetStatusOnWorkflow(int, WorkflowDefinitionStatus)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(int, SuperOffice.Data.WorkflowDefinitionStatus)
+  nameWithType.vb: IWorkflowAgent.SetStatusOnWorkflow(Integer, WorkflowDefinitionStatus)
+  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(Integer, SuperOffice.Data.WorkflowDefinitionStatus)
+  name.vb: SetStatusOnWorkflow(Integer, WorkflowDefinitionStatus)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
+    name: SetStatusOnWorkflow
+    isExternal: true
+    href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SetStatusOnWorkflow_System_Int32_SuperOffice_Data_WorkflowDefinitionStatus_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.WorkflowDefinitionStatus
+    name: WorkflowDefinitionStatus
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
+    name: SetStatusOnWorkflow
+    isExternal: true
+    href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SetStatusOnWorkflow_System_Int32_SuperOffice_Data_WorkflowDefinitionStatus_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.WorkflowDefinitionStatus
+    name: WorkflowDefinitionStatus
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.WorkflowDefinitionStatus
+  isExternal: true
+  name: WorkflowDefinitionStatus
+  nameWithType: WorkflowDefinitionStatus
+  fullName: SuperOffice.Data.WorkflowDefinitionStatus
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CopyEmailFlow_System_Int32_System_String_
+  name: CopyEmailFlow
+  nameWithType: WorkflowAgent.CopyEmailFlow
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlow
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CopyEmailFlow_System_Int32_System_String_
+  name: CopyEmailFlow(int, string)
+  nameWithType: IWorkflowAgent.CopyEmailFlow(int, string)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(int, string)
+  nameWithType.vb: IWorkflowAgent.CopyEmailFlow(Integer, String)
+  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(Integer, String)
+  name.vb: CopyEmailFlow(Integer, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(System.Int32,System.String)
+    name: CopyEmailFlow
+    isExternal: true
+    href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CopyEmailFlow_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(System.Int32,System.String)
+    name: CopyEmailFlow
+    isExternal: true
+    href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CopyEmailFlow_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
 - uid: SuperOffice.CRM.Services.WorkflowAgent.Run*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.Run

@@ -8,18 +8,25 @@ items:
   - SuperOffice.CRM.Services.TicketTypeEntity.#ctor
   - SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketPriority
   - SuperOffice.CRM.Services.TicketTypeEntity.DefaultTicketStatus
+  - SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
+  - SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
+  - SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
   - SuperOffice.CRM.Services.TicketTypeEntity.Icon
   - SuperOffice.CRM.Services.TicketTypeEntity.IsDefault
   - SuperOffice.CRM.Services.TicketTypeEntity.IsExternalVisible
   - SuperOffice.CRM.Services.TicketTypeEntity.Name
   - SuperOffice.CRM.Services.TicketTypeEntity.Rank
+  - SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
+  - SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
   - SuperOffice.CRM.Services.TicketTypeEntity.ReplyTemplate
+  - SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
   - SuperOffice.CRM.Services.TicketTypeEntity.TicketPriorities
   - SuperOffice.CRM.Services.TicketTypeEntity.TicketStatuses
   - SuperOffice.CRM.Services.TicketTypeEntity.TicketTypeId
   - SuperOffice.CRM.Services.TicketTypeEntity.ToString
   - SuperOffice.CRM.Services.TicketTypeEntity.ToString(System.String)
   - SuperOffice.CRM.Services.TicketTypeEntity.Tooltip
+  - SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
   langs:
   - csharp
   - vb
@@ -552,6 +559,237 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
+  commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
+  id: ShowInNew
+  parent: SuperOffice.CRM.Services.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInNew
+  nameWithType: TicketTypeEntity.ShowInNew
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Enables this request type to be accessible in +New in top bar
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool ShowInNew { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ShowInNew As Boolean
+  overload: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
+  commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
+  id: ExcludeSignature
+  parent: SuperOffice.CRM.Services.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ExcludeSignature
+  nameWithType: TicketTypeEntity.ExcludeSignature
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Do not insert user signature automatically
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool ExcludeSignature { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExcludeSignature As Boolean
+  overload: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
+  commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
+  id: ExcludeEmailRecipients
+  parent: SuperOffice.CRM.Services.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ExcludeEmailRecipients
+  nameWithType: TicketTypeEntity.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Create request without initially having to send outbound e-mail
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool ExcludeEmailRecipients { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExcludeEmailRecipients As Boolean
+  overload: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
+  commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
+  id: ExternalAsDefault
+  parent: SuperOffice.CRM.Services.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ExternalAsDefault
+  nameWithType: TicketTypeEntity.ExternalAsDefault
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Ability to set external access level for this request type
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool ExternalAsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExternalAsDefault As Boolean
+  overload: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
+  commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
+  id: VisibleForGroups
+  parent: SuperOffice.CRM.Services.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: VisibleForGroups
+  nameWithType: TicketTypeEntity.VisibleForGroups
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Array of references to the visible for groups
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int[] VisibleForGroups { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property VisibleForGroups As Integer()
+  overload: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
+  commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
+  id: ReplyForwardNoSignature
+  parent: SuperOffice.CRM.Services.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeEntity.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Do not insert user signature when replying or forwarding the message
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool ReplyForwardNoSignature { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ReplyForwardNoSignature As Boolean
+  overload: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
+  commentId: P:SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
+  id: ReplyExternalAsDefault
+  parent: SuperOffice.CRM.Services.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeEntity.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Set external access level when replying the message
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool ReplyExternalAsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ReplyExternalAsDefault As Boolean
+  overload: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.ListAgent
   commentId: T:SuperOffice.CRM.Services.ListAgent
@@ -791,3 +1029,52 @@ references:
   name: IsDefault
   nameWithType: TicketTypeEntity.IsDefault
   fullName: SuperOffice.CRM.Services.TicketTypeEntity.IsDefault
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew*
+  commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ShowInNew
+  name: ShowInNew
+  nameWithType: TicketTypeEntity.ShowInNew
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ShowInNew
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature*
+  commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ExcludeSignature
+  name: ExcludeSignature
+  nameWithType: TicketTypeEntity.ExcludeSignature
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeSignature
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients*
+  commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ExcludeEmailRecipients
+  name: ExcludeEmailRecipients
+  nameWithType: TicketTypeEntity.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExcludeEmailRecipients
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault*
+  commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ExternalAsDefault
+  name: ExternalAsDefault
+  nameWithType: TicketTypeEntity.ExternalAsDefault
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ExternalAsDefault
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups*
+  commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_VisibleForGroups
+  name: VisibleForGroups
+  nameWithType: TicketTypeEntity.VisibleForGroups
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.VisibleForGroups
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature*
+  commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ReplyForwardNoSignature
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeEntity.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyForwardNoSignature
+- uid: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault*
+  commentId: Overload:SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketTypeEntity.html#SuperOffice_CRM_Services_TicketTypeEntity_ReplyExternalAsDefault
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeEntity.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity.ReplyExternalAsDefault

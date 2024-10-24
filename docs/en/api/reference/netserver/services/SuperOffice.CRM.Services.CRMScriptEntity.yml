@@ -6,19 +6,26 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.CRMScriptEntity.#ctor
+  - SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
   - SuperOffice.CRM.Services.CRMScriptEntity.Description
   - SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId
   - SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
+  - SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
   - SuperOffice.CRM.Services.CRMScriptEntity.IncludeId
+  - SuperOffice.CRM.Services.CRMScriptEntity.Includes
   - SuperOffice.CRM.Services.CRMScriptEntity.Name
   - SuperOffice.CRM.Services.CRMScriptEntity.Registered
   - SuperOffice.CRM.Services.CRMScriptEntity.RegisteredAssociateId
+  - SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
   - SuperOffice.CRM.Services.CRMScriptEntity.Source
+  - SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
+  - SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
   - SuperOffice.CRM.Services.CRMScriptEntity.ToString
   - SuperOffice.CRM.Services.CRMScriptEntity.ToString(System.String)
   - SuperOffice.CRM.Services.CRMScriptEntity.UniqueIdentifier
   - SuperOffice.CRM.Services.CRMScriptEntity.Updated
   - SuperOffice.CRM.Services.CRMScriptEntity.UpdatedAssociateId
+  - SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
   langs:
   - csharp
   - vb
@@ -331,6 +338,39 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
+  commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
+  id: AccessKey
+  parent: SuperOffice.CRM.Services.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: AccessKey
+  nameWithType: CRMScriptEntity.AccessKey
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Access key used to run this script on the customer pages
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string AccessKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AccessKey As String
+  overload: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
   commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
   id: HierarchyId
@@ -393,6 +433,204 @@ items:
 
       Public Overridable Property Source As String
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Source*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
+  commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
+  id: SourceCode
+  parent: SuperOffice.CRM.Services.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: SourceCode
+  nameWithType: CRMScriptEntity.SourceCode
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Contains the source code of the script
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string SourceCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SourceCode As String
+  overload: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
+  commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
+  id: ScriptType
+  parent: SuperOffice.CRM.Services.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: ScriptType
+  nameWithType: CRMScriptEntity.ScriptType
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The type/language of this script
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual ScriptType ScriptType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ScriptType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ScriptType As ScriptType
+  overload: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
+  commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
+  id: HtmlOutput
+  parent: SuperOffice.CRM.Services.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: HtmlOutput
+  nameWithType: CRMScriptEntity.HtmlOutput
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if this script will return HTML output
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual short HtmlOutput { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HtmlOutput As Short
+  overload: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.Includes
+  commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.Includes
+  id: Includes
+  parent: SuperOffice.CRM.Services.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Includes
+  nameWithType: CRMScriptEntity.Includes
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.Includes
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The unique ids of all depencies of this script (all resolved includes)
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int[] Includes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Includes As Integer()
+  overload: SuperOffice.CRM.Services.CRMScriptEntity.Includes*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
+  commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
+  id: SourceMaps
+  parent: SuperOffice.CRM.Services.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: SourceMaps
+  nameWithType: CRMScriptEntity.SourceMaps
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The source maps for this script
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual CRMScriptSourceMap[] SourceMaps { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptSourceMap[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SourceMaps As CRMScriptSourceMap()
+  overload: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
+  commentId: P:SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
+  id: ValidationResult
+  parent: SuperOffice.CRM.Services.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: ValidationResult
+  nameWithType: CRMScriptEntity.ValidationResult
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The result of a validation of a TypeScript when saving
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual CRMScriptResult ValidationResult { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptResult
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ValidationResult As CRMScriptResult
+  overload: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
@@ -794,6 +1032,13 @@ references:
   name: IncludeId
   nameWithType: CRMScriptEntity.IncludeId
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.IncludeId
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_AccessKey
+  name: AccessKey
+  nameWithType: CRMScriptEntity.AccessKey
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.AccessKey
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.HierarchyId
   isExternal: true
@@ -808,6 +1053,119 @@ references:
   name: Source
   nameWithType: CRMScriptEntity.Source
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Source
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_SourceCode
+  name: SourceCode
+  nameWithType: CRMScriptEntity.SourceCode
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.SourceCode
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_ScriptType
+  name: ScriptType
+  nameWithType: CRMScriptEntity.ScriptType
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.ScriptType
+- uid: SuperOffice.Data.ScriptType
+  commentId: '!:SuperOffice.Data.ScriptType'
+  isExternal: true
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: SuperOffice.Data.ScriptType
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_HtmlOutput
+  name: HtmlOutput
+  nameWithType: CRMScriptEntity.HtmlOutput
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.HtmlOutput
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.Includes*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.Includes
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_Includes
+  name: Includes
+  nameWithType: CRMScriptEntity.Includes
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.Includes
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_SourceMaps
+  name: SourceMaps
+  nameWithType: CRMScriptEntity.SourceMaps
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.SourceMaps
+- uid: SuperOffice.CRM.Services.CRMScriptSourceMap[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html
+  name: CRMScriptSourceMap[]
+  nameWithType: CRMScriptSourceMap[]
+  fullName: SuperOffice.CRM.Services.CRMScriptSourceMap[]
+  nameWithType.vb: CRMScriptSourceMap()
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptSourceMap()
+  name.vb: CRMScriptSourceMap()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.CRMScriptSourceMap
+    name: CRMScriptSourceMap
+    isExternal: true
+    href: SuperOffice.CRM.Services.CRMScriptSourceMap.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.CRMScriptSourceMap
+    name: CRMScriptSourceMap
+    isExternal: true
+    href: SuperOffice.CRM.Services.CRMScriptSourceMap.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html#SuperOffice_CRM_Services_CRMScriptEntity_ValidationResult
+  name: ValidationResult
+  nameWithType: CRMScriptEntity.ValidationResult
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity.ValidationResult
+- uid: SuperOffice.CRM.Services.CRMScriptResult
+  commentId: T:SuperOffice.CRM.Services.CRMScriptResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptResult.html
+  name: CRMScriptResult
+  nameWithType: CRMScriptResult
+  fullName: SuperOffice.CRM.Services.CRMScriptResult
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.Registered*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.Registered
   isExternal: true

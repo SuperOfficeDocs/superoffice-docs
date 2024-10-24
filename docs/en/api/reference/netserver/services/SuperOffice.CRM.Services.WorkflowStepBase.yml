@@ -204,7 +204,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The flow this step belongs to
+  summary: The workflow to connect to
   example: []
   syntax:
     content: >-

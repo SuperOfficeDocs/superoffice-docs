@@ -265,7 +265,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The flow this instance belongs to
+  summary: Workflow id
   example: []
   syntax:
     content: >-
@@ -331,7 +331,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The rank of this option
+  summary: Step order
   example: []
   syntax:
     content: >-

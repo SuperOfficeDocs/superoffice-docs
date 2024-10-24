@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.AIAgent.#ctor
   - SuperOffice.CRM.Services.AIAgent.ClearChatbotTurns(System.String)
+  - SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
   - SuperOffice.CRM.Services.AIAgent.DetectLanguage(System.String)
   - SuperOffice.CRM.Services.AIAgent.DetectSentiment(System.String)
   - SuperOffice.CRM.Services.AIAgent.ExpandText(System.String,System.Int32,System.String)
@@ -189,6 +190,41 @@ items:
   nameWithType.vb: AIAgent.RephraseText(String, AiTextStyle, String)
   fullName.vb: SuperOffice.CRM.Services.AIAgent.RephraseText(String, SuperOffice.Data.AiTextStyle, String)
   name.vb: RephraseText(String, AiTextStyle, String)
+- uid: SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+  id: CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTextForAppointment(AppointmentEntity, string)
+  nameWithType: AIAgent.CreateTextForAppointment(AppointmentEntity, string)
+  fullName: SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Generate agenda text for an appointment based on appointment's company category, title, person, etc.
+  example: []
+  syntax:
+    content: public string CreateTextForAppointment(AppointmentEntity appointment, string isoLangCode)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Services.AppointmentEntity
+      description: The appointment object to generate text for.
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in. Blank = do not specify language.
+    return:
+      type: System.String
+      description: Agenda text in markdown format
+    content.vb: Public Function CreateTextForAppointment(appointment As AppointmentEntity, isoLangCode As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+  nameWithType.vb: AIAgent.CreateTextForAppointment(AppointmentEntity, String)
+  fullName.vb: SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity, String)
+  name.vb: CreateTextForAppointment(AppointmentEntity, String)
 - uid: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
   commentId: M:SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
   id: GetTrainingStatus
@@ -1470,6 +1506,66 @@ references:
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.Data.AiTextStyle
+- uid: SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment
+  isExternal: true
+  href: SuperOffice.CRM.Services.AIAgent.html#SuperOffice_CRM_Services_AIAgent_CreateTextForAppointment_SuperOffice_CRM_Services_AppointmentEntity_System_String_
+  name: CreateTextForAppointment
+  nameWithType: AIAgent.CreateTextForAppointment
+  fullName: SuperOffice.CRM.Services.AIAgent.CreateTextForAppointment
+- uid: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_CreateTextForAppointment_SuperOffice_CRM_Services_AppointmentEntity_System_String_
+  name: CreateTextForAppointment(AppointmentEntity, string)
+  nameWithType: IAIAgent.CreateTextForAppointment(AppointmentEntity, string)
+  fullName: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity, string)
+  nameWithType.vb: IAIAgent.CreateTextForAppointment(AppointmentEntity, String)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity, String)
+  name.vb: CreateTextForAppointment(AppointmentEntity, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+    name: CreateTextForAppointment
+    isExternal: true
+    href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_CreateTextForAppointment_SuperOffice_CRM_Services_AppointmentEntity_System_String_
+  - name: (
+  - uid: SuperOffice.CRM.Services.AppointmentEntity
+    name: AppointmentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.AppointmentEntity.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.CreateTextForAppointment(SuperOffice.CRM.Services.AppointmentEntity,System.String)
+    name: CreateTextForAppointment
+    isExternal: true
+    href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_CreateTextForAppointment_SuperOffice_CRM_Services_AppointmentEntity_System_String_
+  - name: (
+  - uid: SuperOffice.CRM.Services.AppointmentEntity
+    name: AppointmentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.AppointmentEntity.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Services.AppointmentEntity
+  commentId: T:SuperOffice.CRM.Services.AppointmentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentEntity.html
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.CRM.Services.AppointmentEntity
 - uid: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus*
   commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
   isExternal: true

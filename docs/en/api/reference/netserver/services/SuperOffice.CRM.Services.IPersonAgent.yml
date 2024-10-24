@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImage
   - SuperOffice.CRM.Services.IPersonAgent.CreateOrUpdateUserCandidate(System.Int32,System.String,System.Boolean)
   - SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
+  - SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
   - SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson(System.Int32)
   - SuperOffice.CRM.Services.IPersonAgent.DeleteExpired
   - SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity(System.Int32)
@@ -61,6 +62,7 @@ items:
   - SuperOffice.CRM.Services.IPersonAgent.SetConsent(System.Int32,System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.IPersonAgent.SetPersonImage(System.Int32,System.Drawing.Image)
   - SuperOffice.CRM.Services.IPersonAgent.SetPersonRank(System.Int32,System.Int16)
+  - SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow(System.Int32,System.Int32[])
   - SuperOffice.CRM.Services.IPersonAgent.Undelete(System.Int32)
   - SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity(SuperOffice.CRM.Services.PersonEntity)
   langs:
@@ -355,6 +357,39 @@ items:
   nameWithType.vb: IPersonAgent.GetPerson(Integer)
   fullName.vb: SuperOffice.CRM.Services.IPersonAgent.GetPerson(Integer)
   name.vb: GetPerson(Integer)
+- uid: SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow(System.Int32,System.Int32[])
+  id: TryAddPersonsToEmailFlow(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: TryAddPersonsToEmailFlow(int, int[])
+  nameWithType: IPersonAgent.TryAddPersonsToEmailFlow(int, int[])
+  fullName: SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow(int, int[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Try to add a participant to the EmailFlow, Same function available in WorkflowAgent
+  example: []
+  syntax:
+    content: bool[] TryAddPersonsToEmailFlow(int emailFlowId, int[] personIds)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: Primary key of EmailFlow
+    - id: personIds
+      type: System.Int32[]
+      description: Array of Person Ids
+    return:
+      type: System.Boolean[]
+      description: True if the corresponding participant was successfully added, false if it could not be added because of filter criteria or other reason
+    content.vb: Function TryAddPersonsToEmailFlow(emailFlowId As Integer, personIds As Integer()) As Boolean()
+  overload: SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow*
+  nameWithType.vb: IPersonAgent.TryAddPersonsToEmailFlow(Integer, Integer())
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow(Integer, Integer())
+  name.vb: TryAddPersonsToEmailFlow(Integer, Integer())
 - uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity(System.Int32)
   id: GetPersonEntity(System.Int32)
@@ -1119,6 +1154,48 @@ items:
   nameWithType.vb: IPersonAgent.CreateTemporaryKey(TemporaryKeyDomain, Integer, Integer, Date)
   fullName.vb: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain, Integer, Integer, Date)
   name.vb: CreateTemporaryKey(TemporaryKeyDomain, Integer, Integer, Date)
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  id: CreateTemporaryKeyWithPayload(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryKeyWithPayload(TemporaryKeyDomain, int, int, DateTime, string)
+  nameWithType: IPersonAgent.CreateTemporaryKeyWithPayload(TemporaryKeyDomain, int, int, DateTime, string)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload(SuperOffice.Data.TemporaryKeyDomain, int, int, System.DateTime, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Create a temporary key in the database from the given parameters and return the key string. Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.
+  example: []
+  syntax:
+    content: string CreateTemporaryKeyWithPayload(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires, string payload)
+    parameters:
+    - id: domain
+      type: SuperOffice.Data.TemporaryKeyDomain
+      description: The domain this key is for
+    - id: targetId
+      type: System.Int32
+      description: The primary key of the entity this is for. Depends on domain.
+    - id: personId
+      type: System.Int32
+      description: The person this key is for. May be null.
+    - id: expires
+      type: System.DateTime
+      description: When the key will expire (servers local time)
+    - id: payload
+      type: System.String
+      description: The payload for the temporary key
+    return:
+      type: System.String
+      description: The key as base64, ready to be used e.g. in a URL
+    content.vb: Function CreateTemporaryKeyWithPayload(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As Date, payload As String) As String
+  overload: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload*
+  nameWithType.vb: IPersonAgent.CreateTemporaryKeyWithPayload(TemporaryKeyDomain, Integer, Integer, Date, String)
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload(SuperOffice.Data.TemporaryKeyDomain, Integer, Integer, Date, String)
+  name.vb: CreateTemporaryKeyWithPayload(TemporaryKeyDomain, Integer, Integer, Date, String)
 - uid: SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey(System.String)
   commentId: M:SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey(System.String)
   id: CheckTemporaryKey(System.String)
@@ -2080,6 +2157,59 @@ references:
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Services.Person
+- uid: SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPersonAgent.html#SuperOffice_CRM_Services_IPersonAgent_TryAddPersonsToEmailFlow_System_Int32_System_Int32___
+  name: TryAddPersonsToEmailFlow
+  nameWithType: IPersonAgent.TryAddPersonsToEmailFlow
+  fullName: SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlow
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Boolean[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool[]
+  nameWithType: bool[]
+  fullName: bool[]
+  nameWithType.vb: Boolean()
+  fullName.vb: Boolean()
+  name.vb: Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity*
   commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity
   isExternal: true
@@ -2399,6 +2529,13 @@ references:
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.Data.TemporaryKeyDomain
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPersonAgent.html#SuperOffice_CRM_Services_IPersonAgent_CreateTemporaryKeyWithPayload_SuperOffice_Data_TemporaryKeyDomain_System_Int32_System_Int32_System_DateTime_System_String_
+  name: CreateTemporaryKeyWithPayload
+  nameWithType: IPersonAgent.CreateTemporaryKeyWithPayload
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload
 - uid: SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey*
   commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey
   isExternal: true
@@ -2490,29 +2627,6 @@ references:
   name: GetPersonImages
   nameWithType: IPersonAgent.GetPersonImages
   fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonImages
-- uid: System.Int32[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
-  spec.csharp:
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.PersonImage[]
   isExternal: true
   href: SuperOffice.CRM.Services.PersonImage.html

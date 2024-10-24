@@ -17,10 +17,15 @@ items:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
   langs:
   - csharp
@@ -389,6 +394,158 @@ items:
     content: void ResyncUsers()
     content.vb: Sub ResyncUsers()
   overload: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
+  id: SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: SendSystemMessage(string, int, string, DateTime, SystemMessageType)
+  nameWithType: IDiagnosticsAgent.SendSystemMessage(string, int, string, DateTime, SystemMessageType)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(string, int, string, System.DateTime, SuperOffice.Data.SystemMessageType)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Adds a system message for a specific associate.
+  example: []
+  syntax:
+    content: void SendSystemMessage(string systemMessageId, int associateId, string markdownMessage, DateTime expire, SystemMessageType type)
+    parameters:
+    - id: systemMessageId
+      type: System.String
+      description: The message string id
+    - id: associateId
+      type: System.Int32
+      description: The associateId of the message target.
+    - id: markdownMessage
+      type: System.String
+      description: Markdown message to be displayed to the user
+    - id: expire
+      type: System.DateTime
+      description: When the message will no longer be available
+    - id: type
+      type: SuperOffice.Data.SystemMessageType
+      description: 'Type of message, example: info, warning, error'
+    content.vb: Sub SendSystemMessage(systemMessageId As String, associateId As Integer, markdownMessage As String, expire As Date, type As SystemMessageType)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage*
+  nameWithType.vb: IDiagnosticsAgent.SendSystemMessage(String, Integer, String, Date, SystemMessageType)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(String, Integer, String, Date, SuperOffice.Data.SystemMessageType)
+  name.vb: SendSystemMessage(String, Integer, String, Date, SystemMessageType)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
+  id: RemoveSystemMessage(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSystemMessage(int, string)
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessage(int, string)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(int, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Removes a system message for current associate
+  example: []
+  syntax:
+    content: void RemoveSystemMessage(int onlineappId, string systemMessageId)
+    parameters:
+    - id: onlineappId
+      type: System.Int32
+      description: Id of the online app that owns this message
+    - id: systemMessageId
+      type: System.String
+      description: Message identifier, used for message  removal
+    content.vb: Sub RemoveSystemMessage(onlineappId As Integer, systemMessageId As String)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage*
+  nameWithType.vb: IDiagnosticsAgent.RemoveSystemMessage(Integer, String)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(Integer, String)
+  name.vb: RemoveSystemMessage(Integer, String)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
+  id: RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSystemMessageForAssociate(int, string, int)
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociate(int, string, int)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(int, string, int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Removes a system message for specific associate.
+  example: []
+  syntax:
+    content: void RemoveSystemMessageForAssociate(int onlineappId, string systemMessageId, int associateId)
+    parameters:
+    - id: onlineappId
+      type: System.Int32
+      description: Id of the online app that owns this message
+    - id: systemMessageId
+      type: System.String
+      description: Message identifier, used for message update or removal
+    - id: associateId
+      type: System.Int32
+      description: The associateId of the message target.
+    content.vb: Sub RemoveSystemMessageForAssociate(onlineappId As Integer, systemMessageId As String, associateId As Integer)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate*
+  nameWithType.vb: IDiagnosticsAgent.RemoveSystemMessageForAssociate(Integer, String, Integer)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(Integer, String, Integer)
+  name.vb: RemoveSystemMessageForAssociate(Integer, String, Integer)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
+  id: GetSystemMessages(System.Int32)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSystemMessages(int)
+  nameWithType: IDiagnosticsAgent.GetSystemMessages(int)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Retrieves a list of system messages for a specific associate.
+  example: []
+  syntax:
+    content: SystemMessage[] GetSystemMessages(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associateId of the message target.
+    return:
+      type: SuperOffice.CRM.Services.SystemMessage[]
+      description: List of SystemMessages for desired associate
+    content.vb: Function GetSystemMessages(associateId As Integer) As SystemMessage()
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages*
+  nameWithType.vb: IDiagnosticsAgent.GetSystemMessages(Integer)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(Integer)
+  name.vb: GetSystemMessages(Integer)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
+  id: RemoveExpiredSystemMessages
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveExpiredSystemMessages()
+  nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessages()
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes expired system messages.
+  example: []
+  syntax:
+    content: void RemoveExpiredSystemMessages()
+    content.vb: Sub RemoveExpiredSystemMessages()
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages*
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
   id: PerformTasksAfterUpgrade
@@ -715,6 +872,91 @@ references:
   name: ResyncUsers
   nameWithType: IDiagnosticsAgent.ResyncUsers
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_SendSystemMessage_System_String_System_Int32_System_String_System_DateTime_SuperOffice_Data_SystemMessageType_
+  name: SendSystemMessage
+  nameWithType: IDiagnosticsAgent.SendSystemMessage
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.Data.SystemMessageType
+  isExternal: true
+  name: SystemMessageType
+  nameWithType: SystemMessageType
+  fullName: SuperOffice.Data.SystemMessageType
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveSystemMessage_System_Int32_System_String_
+  name: RemoveSystemMessage
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessage
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveSystemMessageForAssociate_System_Int32_System_String_System_Int32_
+  name: RemoveSystemMessageForAssociate
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociate
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetSystemMessages_System_Int32_
+  name: GetSystemMessages
+  nameWithType: IDiagnosticsAgent.GetSystemMessages
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages
+- uid: SuperOffice.CRM.Services.SystemMessage[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.SystemMessage.html
+  name: SystemMessage[]
+  nameWithType: SystemMessage[]
+  fullName: SuperOffice.CRM.Services.SystemMessage[]
+  nameWithType.vb: SystemMessage()
+  fullName.vb: SuperOffice.CRM.Services.SystemMessage()
+  name.vb: SystemMessage()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SystemMessage
+    name: SystemMessage
+    isExternal: true
+    href: SuperOffice.CRM.Services.SystemMessage.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SystemMessage
+    name: SystemMessage
+    isExternal: true
+    href: SuperOffice.CRM.Services.SystemMessage.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveExpiredSystemMessages
+  name: RemoveExpiredSystemMessages
+  nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessages
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
   isExternal: true
@@ -759,28 +1001,6 @@ references:
   name: WebAppUsageExistsInPeriod
   nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod
   isExternal: true

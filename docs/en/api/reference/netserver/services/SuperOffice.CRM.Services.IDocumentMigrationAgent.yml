@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
   - SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocuments
   - SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
   - SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
@@ -310,6 +311,34 @@ items:
       description: True if there are documents available to migrate.
     content.vb: Function HasDocumentsToMigrate() As Boolean
   overload: SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate*
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocuments
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocuments
+  id: GetNumberOfConfidentialDocuments
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNumberOfConfidentialDocuments()
+  nameWithType: IDocumentMigrationAgent.GetNumberOfConfidentialDocuments()
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocuments()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Gets the total number of documents that is not visible to everyone
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
+  syntax:
+    content: int GetNumberOfConfidentialDocuments()
+    return:
+      type: System.Int32
+      description: Number of confidential documents.
+    content.vb: Function GetNumberOfConfidentialDocuments() As Integer
+  overload: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocuments*
 - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
   id: GetForTemplates(System.Int32,System.Boolean)
@@ -526,6 +555,13 @@ references:
   name: HasDocumentsToMigrate
   nameWithType: IDocumentMigrationAgent.HasDocumentsToMigrate
   fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocuments*
+  commentId: Overload:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocuments
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDocumentMigrationAgent.html#SuperOffice_CRM_Services_IDocumentMigrationAgent_GetNumberOfConfidentialDocuments
+  name: GetNumberOfConfidentialDocuments
+  nameWithType: IDocumentMigrationAgent.GetNumberOfConfidentialDocuments
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocuments
 - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates*
   commentId: Overload:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates
   isExternal: true

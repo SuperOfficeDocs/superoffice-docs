@@ -10,13 +10,21 @@ items:
   - SuperOffice.CRM.Services.AppointmentInfo.AppointmentId
   - SuperOffice.CRM.Services.AppointmentInfo.AssociateId
   - SuperOffice.CRM.Services.AppointmentInfo.ColorIndex
+  - SuperOffice.CRM.Services.AppointmentInfo.ContactName
   - SuperOffice.CRM.Services.AppointmentInfo.EndDate
+  - SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
   - SuperOffice.CRM.Services.AppointmentInfo.IsAllDay
+  - SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
   - SuperOffice.CRM.Services.AppointmentInfo.IsBusy
+  - SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
   - SuperOffice.CRM.Services.AppointmentInfo.IsRecurring
+  - SuperOffice.CRM.Services.AppointmentInfo.IsTentative
   - SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
   - SuperOffice.CRM.Services.AppointmentInfo.MotherId
+  - SuperOffice.CRM.Services.AppointmentInfo.ProjectName
+  - SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
   - SuperOffice.CRM.Services.AppointmentInfo.StartDate
+  - SuperOffice.CRM.Services.AppointmentInfo.TaskName
   - SuperOffice.CRM.Services.AppointmentInfo.Title
   - SuperOffice.CRM.Services.AppointmentInfo.ToString
   - SuperOffice.CRM.Services.AppointmentInfo.ToString(System.String)
@@ -340,6 +348,105 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.TaskName
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.TaskName
+  id: TaskName
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: TaskName
+  nameWithType: AppointmentInfo.TaskName
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.TaskName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The name of the appointment task type
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string TaskName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TaskName As String
+  overload: SuperOffice.CRM.Services.AppointmentInfo.TaskName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.ContactName
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: AppointmentInfo.ContactName
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.ContactName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The name of the appointment contact.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.AppointmentInfo.ContactName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.ProjectName
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.ProjectName
+  id: ProjectName
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: AppointmentInfo.ProjectName
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.ProjectName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The name of the appointment project
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ProjectName As String
+  overload: SuperOffice.CRM.Services.AppointmentInfo.ProjectName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.AppointmentInfo.Title
   commentId: P:SuperOffice.CRM.Services.AppointmentInfo.Title
   id: Title
@@ -538,6 +645,171 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
+  id: HasAlarm
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: HasAlarm
+  nameWithType: AppointmentInfo.HasAlarm
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if the appointment has alarm
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool HasAlarm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HasAlarm As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
+  id: IsCompleted
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsCompleted
+  nameWithType: AppointmentInfo.IsCompleted
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if the appointment is completed
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsCompleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsCompleted As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.IsTentative
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsTentative
+  id: IsTentative
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsTentative
+  nameWithType: AppointmentInfo.IsTentative
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.IsTentative
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if the appointment is tentative
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsTentative { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsTentative As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentInfo.IsTentative*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
+  id: IsBookingMain
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsBookingMain
+  nameWithType: AppointmentInfo.IsBookingMain
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if the appointment is a main booking
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsBookingMain { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsBookingMain As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
+  id: RecurrenceInfo
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceInfo
+  nameWithType: AppointmentInfo.RecurrenceInfo
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The recurrence info if the appointment is recurring
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual RecurrenceInfo RecurrenceInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.RecurrenceInfo
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RecurrenceInfo As RecurrenceInfo
+  overload: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
@@ -706,6 +978,27 @@ references:
   name: ColorIndex
   nameWithType: ColorIndex
   fullName: SuperOffice.Data.ColorIndex
+- uid: SuperOffice.CRM.Services.AppointmentInfo.TaskName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.TaskName
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_TaskName
+  name: TaskName
+  nameWithType: AppointmentInfo.TaskName
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.TaskName
+- uid: SuperOffice.CRM.Services.AppointmentInfo.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.ContactName
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_ContactName
+  name: ContactName
+  nameWithType: AppointmentInfo.ContactName
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.ContactName
+- uid: SuperOffice.CRM.Services.AppointmentInfo.ProjectName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.ProjectName
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_ProjectName
+  name: ProjectName
+  nameWithType: AppointmentInfo.ProjectName
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.ProjectName
 - uid: SuperOffice.CRM.Services.AppointmentInfo.Title*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.Title
   isExternal: true
@@ -759,3 +1052,43 @@ references:
   name: IsVideoMeeting
   nameWithType: AppointmentInfo.IsVideoMeeting
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
+- uid: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_HasAlarm
+  name: HasAlarm
+  nameWithType: AppointmentInfo.HasAlarm
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
+- uid: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsCompleted
+  name: IsCompleted
+  nameWithType: AppointmentInfo.IsCompleted
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
+- uid: SuperOffice.CRM.Services.AppointmentInfo.IsTentative*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsTentative
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsTentative
+  name: IsTentative
+  nameWithType: AppointmentInfo.IsTentative
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.IsTentative
+- uid: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_IsBookingMain
+  name: IsBookingMain
+  nameWithType: AppointmentInfo.IsBookingMain
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
+- uid: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_RecurrenceInfo
+  name: RecurrenceInfo
+  nameWithType: AppointmentInfo.RecurrenceInfo
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
+- uid: SuperOffice.CRM.Services.RecurrenceInfo
+  isExternal: true
+  name: RecurrenceInfo
+  nameWithType: RecurrenceInfo
+  fullName: SuperOffice.CRM.Services.RecurrenceInfo

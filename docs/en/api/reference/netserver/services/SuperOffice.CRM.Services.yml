@@ -30,6 +30,7 @@ items:
   - SuperOffice.CRM.Services.Associate
   - SuperOffice.CRM.Services.AssociateAgent
   - SuperOffice.CRM.Services.AttachmentEntity
+  - SuperOffice.CRM.Services.AttachmentPreview
   - SuperOffice.CRM.Services.AttachmentValidationResult
   - SuperOffice.CRM.Services.AudienceAgent
   - SuperOffice.CRM.Services.AudienceConfigParameter
@@ -46,6 +47,7 @@ items:
   - SuperOffice.CRM.Services.CRMScriptErrorInfo
   - SuperOffice.CRM.Services.CRMScriptResult
   - SuperOffice.CRM.Services.CRMScriptRunResult
+  - SuperOffice.CRM.Services.CRMScriptSourceMap
   - SuperOffice.CRM.Services.CRMScriptTraceRun
   - SuperOffice.CRM.Services.Cache
   - SuperOffice.CRM.Services.CallerID
@@ -86,6 +88,7 @@ items:
   - SuperOffice.CRM.Services.ContactSummary
   - SuperOffice.CRM.Services.ControlInfo
   - SuperOffice.CRM.Services.Country
+  - SuperOffice.CRM.Services.CreateSystemMessageList
   - SuperOffice.CRM.Services.Credential
   - SuperOffice.CRM.Services.CredentialType
   - SuperOffice.CRM.Services.CredentialUser
@@ -473,6 +476,7 @@ items:
   - SuperOffice.CRM.Services.Summarizer
   - SuperOffice.CRM.Services.SyncUserAccount
   - SuperOffice.CRM.Services.SystemEventEntity
+  - SuperOffice.CRM.Services.SystemMessage
   - SuperOffice.CRM.Services.SystemTemplateSettings
   - SuperOffice.CRM.Services.TabOrder
   - SuperOffice.CRM.Services.TableRecord
@@ -1646,6 +1650,14 @@ references:
   name: AttachmentEntity
   nameWithType: AttachmentEntity
   fullName: SuperOffice.CRM.Services.AttachmentEntity
+- uid: SuperOffice.CRM.Services.AttachmentPreview
+  commentId: T:SuperOffice.CRM.Services.AttachmentPreview
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.AttachmentPreview.html
+  name: AttachmentPreview
+  nameWithType: AttachmentPreview
+  fullName: SuperOffice.CRM.Services.AttachmentPreview
 - uid: SuperOffice.CRM.Services.AttachmentValidationResult
   commentId: T:SuperOffice.CRM.Services.AttachmentValidationResult
   isExternal: true
@@ -1984,6 +1996,13 @@ references:
   name: Country
   nameWithType: Country
   fullName: SuperOffice.CRM.Services.Country
+- uid: SuperOffice.CRM.Services.CreateSystemMessageList
+  commentId: T:SuperOffice.CRM.Services.CreateSystemMessageList
+  isExternal: true
+  href: SuperOffice.CRM.Services.CreateSystemMessageList.html
+  name: CreateSystemMessageList
+  nameWithType: CreateSystemMessageList
+  fullName: SuperOffice.CRM.Services.CreateSystemMessageList
 - uid: SuperOffice.CRM.Services.Credential
   commentId: T:SuperOffice.CRM.Services.Credential
   parent: SuperOffice.CRM.Services
@@ -2077,6 +2096,13 @@ references:
   name: CRMScriptRunResult
   nameWithType: CRMScriptRunResult
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult
+- uid: SuperOffice.CRM.Services.CRMScriptSourceMap
+  commentId: T:SuperOffice.CRM.Services.CRMScriptSourceMap
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html
+  name: CRMScriptSourceMap
+  nameWithType: CRMScriptSourceMap
+  fullName: SuperOffice.CRM.Services.CRMScriptSourceMap
 - uid: SuperOffice.CRM.Services.CRMScriptTraceRun
   commentId: T:SuperOffice.CRM.Services.CRMScriptTraceRun
   parent: SuperOffice.CRM.Services
@@ -4249,6 +4275,13 @@ references:
   name: SystemEventEntity
   nameWithType: SystemEventEntity
   fullName: SuperOffice.CRM.Services.SystemEventEntity
+- uid: SuperOffice.CRM.Services.SystemMessage
+  commentId: T:SuperOffice.CRM.Services.SystemMessage
+  isExternal: true
+  href: SuperOffice.CRM.Services.SystemMessage.html
+  name: SystemMessage
+  nameWithType: SystemMessage
+  fullName: SuperOffice.CRM.Services.SystemMessage
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings
   commentId: T:SuperOffice.CRM.Services.SystemTemplateSettings
   parent: SuperOffice.CRM.Services

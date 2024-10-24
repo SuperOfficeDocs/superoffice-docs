@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Services.TicketAgent.CopyFromCRMDocument(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.CopyToTempFile(System.String,System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.CreateDefaultAttachmentEntity
+  - SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketEntity
   - SuperOffice.CRM.Services.TicketAgent.CreateDefaultTicketMessageEntity
   - SuperOffice.CRM.Services.TicketAgent.DeleteMessageHeaders(System.Int32[])
@@ -22,12 +23,15 @@ items:
   - SuperOffice.CRM.Services.TicketAgent.GetAttachmentEntity(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetAttachmentInfo(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetAttachmentInfoNonInline(System.Int32)
+  - SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetAttachmentStream(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContent(System.Int32,SuperOffice.Data.MessageActionType,System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentFull(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.TicketAgent.GetForRmUi(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetNextInQueue
   - SuperOffice.CRM.Services.TicketAgent.GetPreviewAttachmentStream(System.Int32)
+  - SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetTicket(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetTicketAttachments(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetTicketEntity(System.Int32)
@@ -46,6 +50,7 @@ items:
   - SuperOffice.CRM.Services.TicketAgent.RemoveMessageAttachments(System.Int32,System.Int32[])
   - SuperOffice.CRM.Services.TicketAgent.ResolveTicketId(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.SanitizeMailContent(System.String)
+  - SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
   - SuperOffice.CRM.Services.TicketAgent.SanitizeMailContents(System.String[])
   - SuperOffice.CRM.Services.TicketAgent.SaveAttachmentEntity(SuperOffice.CRM.Services.AttachmentEntity)
   - SuperOffice.CRM.Services.TicketAgent.SaveTicketEntity(SuperOffice.CRM.Services.TicketEntity)
@@ -1319,6 +1324,38 @@ items:
   nameWithType.vb: TicketAgent.GetTicketMessageEntities(Integer, Integer())
   fullName.vb: SuperOffice.CRM.Services.TicketAgent.GetTicketMessageEntities(Integer, Integer())
   name.vb: GetTicketMessageEntities(Integer, Integer())
+- uid: SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType(System.Int32)
+  id: CreateDefaultForTicketType(System.Int32)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultForTicketType(int)
+  nameWithType: TicketAgent.CreateDefaultForTicketType(int)
+  fullName: SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Create default ticket entity for particular TicketType
+  example: []
+  syntax:
+    content: public TicketEntity CreateDefaultForTicketType(int ticketTypeId)
+    parameters:
+    - id: ticketTypeId
+      type: System.Int32
+      description: ID of ticket type
+    return:
+      type: SuperOffice.CRM.Services.TicketEntity
+      description: Default ticket entity
+    content.vb: Public Function CreateDefaultForTicketType(ticketTypeId As Integer) As TicketEntity
+  overload: SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.CreateDefaultForTicketType(System.Int32)
+  nameWithType.vb: TicketAgent.CreateDefaultForTicketType(Integer)
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType(Integer)
+  name.vb: CreateDefaultForTicketType(Integer)
 - uid: SuperOffice.CRM.Services.TicketAgent.GetTicketMessage(System.Int32)
   commentId: M:SuperOffice.CRM.Services.TicketAgent.GetTicketMessage(System.Int32)
   id: GetTicketMessage(System.Int32)
@@ -1444,6 +1481,41 @@ items:
   nameWithType.vb: TicketAgent.SanitizeMailContent(String)
   fullName.vb: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContent(String)
   name.vb: SanitizeMailContent(String)
+- uid: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
+  id: SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SanitizeMailContentWithOptions(string, HtmlSanitizerOptions)
+  nameWithType: TicketAgent.SanitizeMailContentWithOptions(string, HtmlSanitizerOptions)
+  fullName: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions(string, SuperOffice.Data.HtmlSanitizerOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Remove harmful HTML tags and attributes from an email, using specified options
+  example: []
+  syntax:
+    content: public string SanitizeMailContentWithOptions(string content, HtmlSanitizerOptions options)
+    parameters:
+    - id: content
+      type: System.String
+      description: The email content to sanitize
+    - id: options
+      type: SuperOffice.Data.HtmlSanitizerOptions
+      description: The options for the sanitizer engine
+    return:
+      type: System.String
+      description: The sanitized email content
+    content.vb: Public Function SanitizeMailContentWithOptions(content As String, options As HtmlSanitizerOptions) As String
+  overload: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
+  nameWithType.vb: TicketAgent.SanitizeMailContentWithOptions(String, HtmlSanitizerOptions)
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions(String, SuperOffice.Data.HtmlSanitizerOptions)
+  name.vb: SanitizeMailContentWithOptions(String, HtmlSanitizerOptions)
 - uid: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContents(System.String[])
   commentId: M:SuperOffice.CRM.Services.TicketAgent.SanitizeMailContents(System.String[])
   id: SanitizeMailContents(System.String[])
@@ -1636,6 +1708,38 @@ items:
   nameWithType.vb: TicketAgent.RemoveMessageAttachments(Integer, Integer())
   fullName.vb: SuperOffice.CRM.Services.TicketAgent.RemoveMessageAttachments(Integer, Integer())
   name.vb: RemoveMessageAttachments(Integer, Integer())
+- uid: SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview(System.Int32)
+  id: GetAttachmentPreview(System.Int32)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentPreview(int)
+  nameWithType: TicketAgent.GetAttachmentPreview(int)
+  fullName: SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Retrieve an attachment from ticket message. The returned data is intended to be used for a preview. The returned data is sanitized.
+  example: []
+  syntax:
+    content: public AttachmentPreview GetAttachmentPreview(int attachmentId)
+    parameters:
+    - id: attachmentId
+      type: System.Int32
+      description: The id of the attachment to retrieve
+    return:
+      type: SuperOffice.CRM.Services.AttachmentPreview
+      description: Sanitized preview version of the attachment and additional metadata, if available
+    content.vb: Public Function GetAttachmentPreview(attachmentId As Integer) As AttachmentPreview
+  overload: SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.GetAttachmentPreview(System.Int32)
+  nameWithType.vb: TicketAgent.GetAttachmentPreview(Integer)
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview(Integer)
+  name.vb: GetAttachmentPreview(Integer)
 - uid: SuperOffice.CRM.Services.TicketAgent.GetPreviewAttachmentStream(System.Int32)
   commentId: M:SuperOffice.CRM.Services.TicketAgent.GetPreviewAttachmentStream(System.Int32)
   id: GetPreviewAttachmentStream(System.Int32)
@@ -1650,7 +1754,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Retrieve an attachment from ticket message. The returned data is intended to be used for a preview. The returned data is sanitized.
+  summary: Deprecated, see GetPreviewAttachment instead. Retrieve an attachment from ticket message. The returned data is intended to be used for a preview. The returned data is sanitized.
   example: []
   syntax:
     content: public DocumentPreview GetPreviewAttachmentStream(int attachmentId)
@@ -1668,6 +1772,41 @@ items:
   nameWithType.vb: TicketAgent.GetPreviewAttachmentStream(Integer)
   fullName.vb: SuperOffice.CRM.Services.TicketAgent.GetPreviewAttachmentStream(Integer)
   name.vb: GetPreviewAttachmentStream(Integer)
+- uid: SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
+  id: GetRfcAttachmentStream(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRfcAttachmentStream(int, int)
+  nameWithType: TicketAgent.GetRfcAttachmentStream(int, int)
+  fullName: SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream(int, int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Get the content of an attachment which is part of RFC822 email attachment
+  example: []
+  syntax:
+    content: public Stream GetRfcAttachmentStream(int attachmentId, int position)
+    parameters:
+    - id: attachmentId
+      type: System.Int32
+      description: The id of the root attachment
+    - id: position
+      type: System.Int32
+      description: The position (index) of the attachment within the root attachment. Numbering starts from 0
+    return:
+      type: System.IO.Stream
+      description: RFC822 attachment content as a Stream
+    content.vb: Public Function GetRfcAttachmentStream(attachmentId As Integer, position As Integer) As Stream
+  overload: SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
+  nameWithType.vb: TicketAgent.GetRfcAttachmentStream(Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream(Integer, Integer)
+  name.vb: GetRfcAttachmentStream(Integer, Integer)
 - uid: SuperOffice.CRM.Services.TicketAgent.SendTicketMessage(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.TicketAgent.SendTicketMessage(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String)
   id: SendTicketMessage(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String)
@@ -1975,6 +2114,50 @@ items:
   nameWithType.vb: TicketAgent.GetDefaultMessageContentFull(Integer, MessageActionType, Integer, Integer)
   fullName.vb: SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentFull(Integer, SuperOffice.Data.MessageActionType, Integer, Integer)
   name.vb: GetDefaultMessageContentFull(Integer, MessageActionType, Integer, Integer)
+- uid: SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+  id: GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultMessageContentWithOptions(int, MessageActionType, int, int, bool)
+  nameWithType: TicketAgent.GetDefaultMessageContentWithOptions(int, MessageActionType, int, int, bool)
+  fullName: SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions(int, SuperOffice.Data.MessageActionType, int, int, bool)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: 'Generate a default message content with option to exclude signature: attachments and body as sanitized HTML'
+  example: []
+  syntax:
+    content: public TicketMessageContent GetDefaultMessageContentWithOptions(int ticketId, MessageActionType messageActionType, int ticketMessageId, int ticketTypeId, bool excludeSignature)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket
+    - id: messageActionType
+      type: SuperOffice.Data.MessageActionType
+      description: 'Message action type: None/Reply/ReplyAll/Forward'
+    - id: ticketMessageId
+      type: System.Int32
+      description: The id of the message to quote in the returned content. 0 to skip/ignore
+    - id: ticketTypeId
+      type: System.Int32
+      description: The id of the ticket type to look for reply template. 0 to use current ticket type
+    - id: excludeSignature
+      type: System.Boolean
+      description: Flag to exclude a signature when generating the return content
+    return:
+      type: SuperOffice.CRM.Services.TicketMessageContent
+      description: Generated default message content
+    content.vb: Public Function GetDefaultMessageContentWithOptions(ticketId As Integer, messageActionType As MessageActionType, ticketMessageId As Integer, ticketTypeId As Integer, excludeSignature As Boolean) As TicketMessageContent
+  overload: SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+  nameWithType.vb: TicketAgent.GetDefaultMessageContentWithOptions(Integer, MessageActionType, Integer, Integer, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions(Integer, SuperOffice.Data.MessageActionType, Integer, Integer, Boolean)
+  name.vb: GetDefaultMessageContentWithOptions(Integer, MessageActionType, Integer, Integer, Boolean)
 - uid: SuperOffice.CRM.Services.TicketAgent.GetTicketMessageWithEmbeddedData(System.Int32,SuperOffice.Data.ImageEmbedType)
   commentId: M:SuperOffice.CRM.Services.TicketAgent.GetTicketMessageWithEmbeddedData(System.Int32,SuperOffice.Data.ImageEmbedType)
   id: GetTicketMessageWithEmbeddedData(System.Int32,SuperOffice.Data.ImageEmbedType)
@@ -4591,6 +4774,46 @@ references:
     href: SuperOffice.CRM.Services.TicketMessageEntity.html
   - name: (
   - name: )
+- uid: SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent_CreateDefaultForTicketType_System_Int32_
+  name: CreateDefaultForTicketType
+  nameWithType: TicketAgent.CreateDefaultForTicketType
+  fullName: SuperOffice.CRM.Services.TicketAgent.CreateDefaultForTicketType
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultForTicketType(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultForTicketType(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_CreateDefaultForTicketType_System_Int32_
+  name: CreateDefaultForTicketType(int)
+  nameWithType: ITicketAgent.CreateDefaultForTicketType(int)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultForTicketType(int)
+  nameWithType.vb: ITicketAgent.CreateDefaultForTicketType(Integer)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultForTicketType(Integer)
+  name.vb: CreateDefaultForTicketType(Integer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultForTicketType(System.Int32)
+    name: CreateDefaultForTicketType
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_CreateDefaultForTicketType_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultForTicketType(System.Int32)
+    name: CreateDefaultForTicketType
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_CreateDefaultForTicketType_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.Services.TicketAgent.GetTicketMessage*
   commentId: Overload:SuperOffice.CRM.Services.TicketAgent.GetTicketMessage
   isExternal: true
@@ -4759,6 +4982,61 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent_SanitizeMailContentWithOptions_System_String_SuperOffice_Data_HtmlSanitizerOptions_
+  name: SanitizeMailContentWithOptions
+  nameWithType: TicketAgent.SanitizeMailContentWithOptions
+  fullName: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContentWithOptions
+- uid: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SanitizeMailContentWithOptions_System_String_SuperOffice_Data_HtmlSanitizerOptions_
+  name: SanitizeMailContentWithOptions(string, HtmlSanitizerOptions)
+  nameWithType: ITicketAgent.SanitizeMailContentWithOptions(string, HtmlSanitizerOptions)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContentWithOptions(string, SuperOffice.Data.HtmlSanitizerOptions)
+  nameWithType.vb: ITicketAgent.SanitizeMailContentWithOptions(String, HtmlSanitizerOptions)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContentWithOptions(String, SuperOffice.Data.HtmlSanitizerOptions)
+  name.vb: SanitizeMailContentWithOptions(String, HtmlSanitizerOptions)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
+    name: SanitizeMailContentWithOptions
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SanitizeMailContentWithOptions_System_String_SuperOffice_Data_HtmlSanitizerOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.HtmlSanitizerOptions
+    name: HtmlSanitizerOptions
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContentWithOptions(System.String,SuperOffice.Data.HtmlSanitizerOptions)
+    name: SanitizeMailContentWithOptions
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SanitizeMailContentWithOptions_System_String_SuperOffice_Data_HtmlSanitizerOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.HtmlSanitizerOptions
+    name: HtmlSanitizerOptions
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.HtmlSanitizerOptions
+  isExternal: true
+  name: HtmlSanitizerOptions
+  nameWithType: HtmlSanitizerOptions
+  fullName: SuperOffice.Data.HtmlSanitizerOptions
 - uid: SuperOffice.CRM.Services.TicketAgent.SanitizeMailContents*
   commentId: Overload:SuperOffice.CRM.Services.TicketAgent.SanitizeMailContents
   isExternal: true
@@ -5035,6 +5313,54 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent_GetAttachmentPreview_System_Int32_
+  name: GetAttachmentPreview
+  nameWithType: TicketAgent.GetAttachmentPreview
+  fullName: SuperOffice.CRM.Services.TicketAgent.GetAttachmentPreview
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentPreview(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentPreview(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetAttachmentPreview_System_Int32_
+  name: GetAttachmentPreview(int)
+  nameWithType: ITicketAgent.GetAttachmentPreview(int)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentPreview(int)
+  nameWithType.vb: ITicketAgent.GetAttachmentPreview(Integer)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentPreview(Integer)
+  name.vb: GetAttachmentPreview(Integer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentPreview(System.Int32)
+    name: GetAttachmentPreview
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetAttachmentPreview_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentPreview(System.Int32)
+    name: GetAttachmentPreview
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetAttachmentPreview_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.AttachmentPreview
+  commentId: T:SuperOffice.CRM.Services.AttachmentPreview
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.AttachmentPreview.html
+  name: AttachmentPreview
+  nameWithType: AttachmentPreview
+  fullName: SuperOffice.CRM.Services.AttachmentPreview
 - uid: SuperOffice.CRM.Services.TicketAgent.GetPreviewAttachmentStream*
   commentId: Overload:SuperOffice.CRM.Services.TicketAgent.GetPreviewAttachmentStream
   isExternal: true
@@ -5083,6 +5409,58 @@ references:
   name: DocumentPreview
   nameWithType: DocumentPreview
   fullName: SuperOffice.CRM.Services.DocumentPreview
+- uid: SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent_GetRfcAttachmentStream_System_Int32_System_Int32_
+  name: GetRfcAttachmentStream
+  nameWithType: TicketAgent.GetRfcAttachmentStream
+  fullName: SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetRfcAttachmentStream_System_Int32_System_Int32_
+  name: GetRfcAttachmentStream(int, int)
+  nameWithType: ITicketAgent.GetRfcAttachmentStream(int, int)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetRfcAttachmentStream(int, int)
+  nameWithType.vb: ITicketAgent.GetRfcAttachmentStream(Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetRfcAttachmentStream(Integer, Integer)
+  name.vb: GetRfcAttachmentStream(Integer, Integer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
+    name: GetRfcAttachmentStream
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetRfcAttachmentStream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
+    name: GetRfcAttachmentStream
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetRfcAttachmentStream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.Services.TicketAgent.SendTicketMessage*
   commentId: Overload:SuperOffice.CRM.Services.TicketAgent.SendTicketMessage
   isExternal: true
@@ -5693,6 +6071,92 @@ references:
   name: TicketMessageContent
   nameWithType: TicketMessageContent
   fullName: SuperOffice.CRM.Services.TicketMessageContent
+- uid: SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketAgent.html#SuperOffice_CRM_Services_TicketAgent_GetDefaultMessageContentWithOptions_System_Int32_SuperOffice_Data_MessageActionType_System_Int32_System_Int32_System_Boolean_
+  name: GetDefaultMessageContentWithOptions
+  nameWithType: TicketAgent.GetDefaultMessageContentWithOptions
+  fullName: SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetDefaultMessageContentWithOptions_System_Int32_SuperOffice_Data_MessageActionType_System_Int32_System_Int32_System_Boolean_
+  name: GetDefaultMessageContentWithOptions(int, MessageActionType, int, int, bool)
+  nameWithType: ITicketAgent.GetDefaultMessageContentWithOptions(int, MessageActionType, int, int, bool)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentWithOptions(int, SuperOffice.Data.MessageActionType, int, int, bool)
+  nameWithType.vb: ITicketAgent.GetDefaultMessageContentWithOptions(Integer, MessageActionType, Integer, Integer, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentWithOptions(Integer, SuperOffice.Data.MessageActionType, Integer, Integer, Boolean)
+  name.vb: GetDefaultMessageContentWithOptions(Integer, MessageActionType, Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+    name: GetDefaultMessageContentWithOptions
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetDefaultMessageContentWithOptions_System_Int32_SuperOffice_Data_MessageActionType_System_Int32_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.MessageActionType
+    name: MessageActionType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
+    name: GetDefaultMessageContentWithOptions
+    isExternal: true
+    href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_GetDefaultMessageContentWithOptions_System_Int32_SuperOffice_Data_MessageActionType_System_Int32_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.MessageActionType
+    name: MessageActionType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.CRM.Services.TicketAgent.GetTicketMessageWithEmbeddedData*
   commentId: Overload:SuperOffice.CRM.Services.TicketAgent.GetTicketMessageWithEmbeddedData
   isExternal: true

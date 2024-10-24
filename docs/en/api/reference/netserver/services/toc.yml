@@ -55,6 +55,8 @@ items:
     name: AssociateAgent
   - uid: SuperOffice.CRM.Services.AttachmentEntity
     name: AttachmentEntity
+  - uid: SuperOffice.CRM.Services.AttachmentPreview
+    name: AttachmentPreview
   - uid: SuperOffice.CRM.Services.AttachmentValidationResult
     name: AttachmentValidationResult
   - uid: SuperOffice.CRM.Services.AudienceAgent
@@ -87,6 +89,8 @@ items:
     name: CRMScriptResult
   - uid: SuperOffice.CRM.Services.CRMScriptRunResult
     name: CRMScriptRunResult
+  - uid: SuperOffice.CRM.Services.CRMScriptSourceMap
+    name: CRMScriptSourceMap
   - uid: SuperOffice.CRM.Services.CRMScriptTraceRun
     name: CRMScriptTraceRun
   - uid: SuperOffice.CRM.Services.Cache
@@ -167,6 +171,8 @@ items:
     name: ControlInfo
   - uid: SuperOffice.CRM.Services.Country
     name: Country
+  - uid: SuperOffice.CRM.Services.CreateSystemMessageList
+    name: CreateSystemMessageList
   - uid: SuperOffice.CRM.Services.Credential
     name: Credential
   - uid: SuperOffice.CRM.Services.CredentialType
@@ -941,6 +947,8 @@ items:
     name: SyncUserAccount
   - uid: SuperOffice.CRM.Services.SystemEventEntity
     name: SystemEventEntity
+  - uid: SuperOffice.CRM.Services.SystemMessage
+    name: SystemMessage
   - uid: SuperOffice.CRM.Services.SystemTemplateSettings
     name: SystemTemplateSettings
   - uid: SuperOffice.CRM.Services.TabOrder

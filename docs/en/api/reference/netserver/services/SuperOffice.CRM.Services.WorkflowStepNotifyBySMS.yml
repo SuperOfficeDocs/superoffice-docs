@@ -6,6 +6,10 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.#ctor
+  - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.From
+  - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.SpecificPhoneNumbers
+  - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.Text
+  - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.To
   - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.ToString
   - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.ToString(System.String)
   langs:
@@ -144,6 +148,138 @@ items:
   nameWithType.vb: WorkflowStepNotifyBySMS.ToString(String)
   fullName.vb: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.ToString(String)
   name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.To
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.To
+  id: To
+  parent: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: WorkflowStepNotifyBySMS.To
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.To
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Recipient notified by SMS
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual WorkflowNotifySMSType To { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowNotifySMSType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property [To] As WorkflowNotifySMSType
+  overload: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.To*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.SpecificPhoneNumbers
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.SpecificPhoneNumbers
+  id: SpecificPhoneNumbers
+  parent: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+  langs:
+  - csharp
+  - vb
+  name: SpecificPhoneNumbers
+  nameWithType: WorkflowStepNotifyBySMS.SpecificPhoneNumbers
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.SpecificPhoneNumbers
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Recipient phone numbers notified by SMS
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string[] SpecificPhoneNumbers { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SpecificPhoneNumbers As String()
+  overload: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.SpecificPhoneNumbers*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.From
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.From
+  id: From
+  parent: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: WorkflowStepNotifyBySMS.From
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.From
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: SMS sender
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property From As String
+  overload: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.From*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.Text
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.Text
+  id: Text
+  parent: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: WorkflowStepNotifyBySMS.Text
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.Text
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Notification SMS text
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Text As String
+  overload: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.Text*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.WorkflowAgent
   commentId: T:SuperOffice.CRM.Services.WorkflowAgent
@@ -533,3 +669,60 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.To*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.To
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.html#SuperOffice_CRM_Services_WorkflowStepNotifyBySMS_To
+  name: To
+  nameWithType: WorkflowStepNotifyBySMS.To
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.To
+- uid: SuperOffice.Data.WorkflowNotifySMSType
+  commentId: '!:SuperOffice.Data.WorkflowNotifySMSType'
+  isExternal: true
+  name: WorkflowNotifySMSType
+  nameWithType: WorkflowNotifySMSType
+  fullName: SuperOffice.Data.WorkflowNotifySMSType
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.SpecificPhoneNumbers*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.SpecificPhoneNumbers
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.html#SuperOffice_CRM_Services_WorkflowStepNotifyBySMS_SpecificPhoneNumbers
+  name: SpecificPhoneNumbers
+  nameWithType: WorkflowStepNotifyBySMS.SpecificPhoneNumbers
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.SpecificPhoneNumbers
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.From*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.From
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.html#SuperOffice_CRM_Services_WorkflowStepNotifyBySMS_From
+  name: From
+  nameWithType: WorkflowStepNotifyBySMS.From
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.From
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.Text*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.Text
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.html#SuperOffice_CRM_Services_WorkflowStepNotifyBySMS_Text
+  name: Text
+  nameWithType: WorkflowStepNotifyBySMS.Text
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS.Text
