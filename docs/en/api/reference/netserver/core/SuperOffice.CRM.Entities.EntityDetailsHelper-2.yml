@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.#ctor(`0)
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.Add(`1)
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.Children
+  - SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit(`1)
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.FindChildInItems(`1@)
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.GetFacadingItems
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.IsDirty
@@ -17,6 +18,7 @@ items:
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnChildIdUpdate(`0,`1,System.Boolean)
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnChildPreIdUpdate(`0,`1,System.Boolean)
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperAdded
+  - SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperRemoved
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnIdUpdate
   - SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnParentIdUpdate(`0)
@@ -170,6 +172,29 @@ items:
   overload: SuperOffice.CRM.Entities.EntityDetailsHelper`2.Remove*
   nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).Remove(TChild)
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).Remove(TChild)
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit(`1)
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit(`1)
+  id: Edit(`1)
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper`2
+  langs:
+  - csharp
+  - vb
+  name: Edit(TChild)
+  nameWithType: EntityDetailsHelper<TParent, TChild>.Edit(TChild)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.Edit(TChild)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: protected void Edit(TChild child)
+    parameters:
+    - id: child
+      type: '{TChild}'
+    content.vb: Protected Sub Edit(child As TChild)
+  overload: SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit*
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).Edit(TChild)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).Edit(TChild)
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.SetChildren(`1[])
   commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.SetChildren(`1[])
   id: SetChildren(`1[])
@@ -718,6 +743,29 @@ items:
     content.vb: Public Event OnEntityDetailsHelperRemoved As EntityDetailsHelperModified(Of TParent, TChild)
   nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperRemoved
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperRemoved
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
+  commentId: E:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
+  id: OnEntityDetailsHelperEdited
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper`2
+  langs:
+  - csharp
+  - vb
+  name: OnEntityDetailsHelperEdited
+  nameWithType: EntityDetailsHelper<TParent, TChild>.OnEntityDetailsHelperEdited
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnEntityDetailsHelperEdited
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: ''
+  example: []
+  syntax:
+    content: public event EntityDetailsHelperModified<TParent, TChild> OnEntityDetailsHelperEdited
+    return:
+      type: SuperOffice.CRM.Entities.EntityDetailsHelperModified{{TParent},{TChild}}
+    content.vb: Public Event OnEntityDetailsHelperEdited As EntityDetailsHelperModified(Of TParent, TChild)
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperEdited
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperEdited
 references:
 - uid: SuperOffice.Data.INestedPersist
   commentId: T:SuperOffice.Data.INestedPersist
@@ -1615,6 +1663,15 @@ references:
   fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.Remove
   nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).Remove
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).Remove
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_Edit__1_
+  name: Edit
+  nameWithType: EntityDetailsHelper<TParent, TChild>.Edit
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.Edit
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).Edit
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).Edit
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.SetChildren*
   commentId: Overload:SuperOffice.CRM.Entities.EntityDetailsHelper`2.SetChildren
   isExternal: true

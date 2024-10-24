@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRows.GetFromIdxContactId(System.Int32)
   - SuperOffice.CRM.Rows.SaleRows.GetFromIdxContactIdSaledate(System.Int32,System.DateTime)
   - SuperOffice.CRM.Rows.SaleRows.GetFromIdxContactIdSaledateAssociateId(System.Int32,System.DateTime,System.Int32)
+  - SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId(System.Int32)
   - SuperOffice.CRM.Rows.SaleRows.GetFromIdxDone(SuperOffice.Data.SaleDone)
   - SuperOffice.CRM.Rows.SaleRows.GetFromIdxHeading(System.String)
   - SuperOffice.CRM.Rows.SaleRows.GetFromIdxNumber1(System.String)
@@ -993,6 +994,44 @@ items:
   nameWithType.vb: SaleRows.GetFromIdxProjectIdSaledateAssociateId(Integer, Date, Integer)
   fullName.vb: SuperOffice.CRM.Rows.SaleRows.GetFromIdxProjectIdSaledateAssociateId(Integer, Date, Integer)
   name.vb: GetFromIdxProjectIdSaledateAssociateId(Integer, Date, Integer)
+- uid: SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId(System.Int32)
+  id: GetFromIdxCreatedByWorkflowId(System.Int32)
+  parent: SuperOffice.CRM.Rows.SaleRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxCreatedByWorkflowId(int)
+  nameWithType: SaleRows.GetFromIdxCreatedByWorkflowId(int)
+  fullName: SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the SaleRow object, by querying the database table via the index 'IDXSaleCreated_by_workflow_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Sale table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.SaleRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static SaleRows GetFromIdxCreatedByWorkflowId(int createdByWorkflowId)
+    parameters:
+    - id: createdByWorkflowId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.SaleRows
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxCreatedByWorkflowId(createdByWorkflowId As Integer) As SaleRows
+  overload: SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId*
+  nameWithType.vb: SaleRows.GetFromIdxCreatedByWorkflowId(Integer)
+  fullName.vb: SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId(Integer)
+  name.vb: GetFromIdxCreatedByWorkflowId(Integer)
 - uid: SuperOffice.CRM.Rows.SaleRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.SaleTableInfo)
   commentId: M:SuperOffice.CRM.Rows.SaleRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.SaleTableInfo)
   id: GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.SaleTableInfo)
@@ -3601,6 +3640,13 @@ references:
   name: GetFromIdxProjectIdSaledateAssociateId
   nameWithType: SaleRows.GetFromIdxProjectIdSaledateAssociateId
   fullName: SuperOffice.CRM.Rows.SaleRows.GetFromIdxProjectIdSaledateAssociateId
+- uid: SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRows.html#SuperOffice_CRM_Rows_SaleRows_GetFromIdxCreatedByWorkflowId_System_Int32_
+  name: GetFromIdxCreatedByWorkflowId
+  nameWithType: SaleRows.GetFromIdxCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.SaleRows.GetFromIdxCreatedByWorkflowId
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true

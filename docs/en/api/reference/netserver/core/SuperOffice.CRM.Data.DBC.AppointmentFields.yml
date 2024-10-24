@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AppointmentFields.CentralserviceVideomeetId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.ColorIndex
   - SuperOffice.CRM.Data.DBC.AppointmentFields.ContactId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.CreatedByWorkflowId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.DoBy
   - SuperOffice.CRM.Data.DBC.AppointmentFields.DocumentId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.Done
@@ -1198,6 +1199,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const ModifiedAppointmentFields As String = "modified_appointment_fields"
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.CreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: DBC.AppointmentFields.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.CreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Appointment.CreatedByWorkflowId: The workflow this follow-up was created by'
+  example: []
+  syntax:
+    content: public const string CreatedByWorkflowId = "created_by_workflow_id"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedByWorkflowId As String = "created_by_workflow_id"
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
   id: CautionWarning

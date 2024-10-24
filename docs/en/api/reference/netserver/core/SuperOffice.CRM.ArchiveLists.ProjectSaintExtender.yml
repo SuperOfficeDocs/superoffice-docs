@@ -5,7 +5,7 @@ items:
   id: ProjectSaintExtender
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SetSaintCounterJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.Data.CounterValueTableInfo,SuperOffice.Data.SQL.Restriction)
   - SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SetSaintStatusJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.Data.StatusValueTableInfo,SuperOffice.Data.SQL.Restriction)
   langs:
@@ -221,29 +221,30 @@ items:
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-  - SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-- uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor
-  id: '#ctor'
+- uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
   langs:
   - csharp
   - vb
-  name: ProjectSaintExtender()
-  nameWithType: ProjectSaintExtender.ProjectSaintExtender()
-  fullName: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.ProjectSaintExtender()
+  name: ProjectSaintExtender(string)
+  nameWithType: ProjectSaintExtender.ProjectSaintExtender(string)
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.ProjectSaintExtender(string)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public ProjectSaintExtender()
-    content.vb: Public Sub New()
+    content: public ProjectSaintExtender(string iconHint = "Project")
+    parameters:
+    - id: iconHint
+      type: System.String
+    content.vb: Public Sub New(iconHint As String = "Project")
   overload: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor*
-  nameWithType.vb: ProjectSaintExtender.New()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.New()
-  name.vb: New()
+  nameWithType.vb: ProjectSaintExtender.New(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.New(String)
+  name.vb: New(String)
 - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SetSaintCounterJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.Data.CounterValueTableInfo,SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SetSaintCounterJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.Data.CounterValueTableInfo,SuperOffice.Data.SQL.Restriction)
   id: SetSaintCounterJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.Data.CounterValueTableInfo,SuperOffice.Data.SQL.Restriction)
@@ -5283,112 +5284,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
   - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ProjectSaintExtender>(ProjectSaintExtender, ProjectSaintExtender)
-  nameWithType: ObjectExtensions.AssignByReflection<ProjectSaintExtender>(ProjectSaintExtender, ProjectSaintExtender)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ProjectSaintExtender>(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender, SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProjectSaintExtender)(ProjectSaintExtender, ProjectSaintExtender)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender, SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-  name.vb: AssignByReflection(Of ProjectSaintExtender)(ProjectSaintExtender, ProjectSaintExtender)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender,SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender,SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ProjectSaintExtender>(ProjectSaintExtender)
-  nameWithType: ObjectExtensions.GraphCopy<ProjectSaintExtender>(ProjectSaintExtender)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ProjectSaintExtender>(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProjectSaintExtender)(ProjectSaintExtender)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-  name.vb: GraphCopy(Of ProjectSaintExtender)(ProjectSaintExtender)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ProjectSaintExtender)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender
-    name: ProjectSaintExtender
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -5674,88 +5569,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -5793,43 +5606,27 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.#ctor
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html#SuperOffice_CRM_ArchiveLists_ProjectSaintExtender__ctor
+  href: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.html#SuperOffice_CRM_ArchiveLists_ProjectSaintExtender__ctor_System_String_
   name: ProjectSaintExtender
   nameWithType: ProjectSaintExtender.ProjectSaintExtender
   fullName: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.ProjectSaintExtender
   nameWithType.vb: ProjectSaintExtender.New
   fullName.vb: SuperOffice.CRM.ArchiveLists.ProjectSaintExtender.New
   name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.SetSaintCounterJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.Data.CounterValueTableInfo,SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase.SetSaintCounterJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.Data.CounterValueTableInfo,SuperOffice.Data.SQL.Restriction)
   parent: SuperOffice.CRM.ArchiveLists.SaintRestrictionExtenderBase

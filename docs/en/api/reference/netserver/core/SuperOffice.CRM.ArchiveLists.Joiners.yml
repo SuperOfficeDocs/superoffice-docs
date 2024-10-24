@@ -12,9 +12,9 @@ items:
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTitleTextExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender
+  - SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.EjCategoryExtraFieldExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.EjUserExtraFieldExtender
-  - SuperOffice.CRM.ArchiveLists.Joiners.ExtraTableExtraFieldExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.PersonSourceContactRelationExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.PersonSourcePersonRelationExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetContactRelationExtender
@@ -94,6 +94,13 @@ references:
   name: ContactExtraFieldExtender
   nameWithType: ContactExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender
+- uid: SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender.html
+  name: CustomObjectExtraFieldExtender
+  nameWithType: CustomObjectExtraFieldExtender
+  fullName: SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.EjCategoryExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.EjCategoryExtraFieldExtender
   isExternal: true
@@ -108,13 +115,6 @@ references:
   name: EjUserExtraFieldExtender
   nameWithType: EjUserExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.EjUserExtraFieldExtender
-- uid: SuperOffice.CRM.ArchiveLists.Joiners.ExtraTableExtraFieldExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.ExtraTableExtraFieldExtender
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.ExtraTableExtraFieldExtender.html
-  name: ExtraTableExtraFieldExtender
-  nameWithType: ExtraTableExtraFieldExtender
-  fullName: SuperOffice.CRM.ArchiveLists.Joiners.ExtraTableExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.PersonSourceContactRelationExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.PersonSourceContactRelationExtender
   isExternal: true

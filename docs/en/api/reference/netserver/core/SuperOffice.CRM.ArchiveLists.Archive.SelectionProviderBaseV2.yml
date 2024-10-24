@@ -39,6 +39,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.AppointmentSelectionProviderBaseV2
   - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderBaseV2
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionProviderBaseV2
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionProviderBaseV2
   - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderBaseV2
   - SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderBaseV2

@@ -184,13 +184,17 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
+  summary: Gets template languages for a given document template filename
+  example: []
   syntax:
     content: public static string[] GetSupportedLanguagesForDocTmplate(string tmplName)
     parameters:
     - id: tmplName
       type: System.String
+      description: Template filename
     return:
       type: System.String[]
+      description: 'SuperOffice language codes: ["US", "SW", "GE"] or empty array if no language-specific variant exists'
     content.vb: Public Shared Function GetSupportedLanguagesForDocTmplate(tmplName As String) As String()
   overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate*
   nameWithType.vb: ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(String)

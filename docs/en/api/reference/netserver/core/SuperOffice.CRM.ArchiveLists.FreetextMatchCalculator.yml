@@ -5,7 +5,7 @@ items:
   id: FreetextMatchCalculator
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches})
+  - SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches},System.Boolean)
   - SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}})
   - SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.TableNumberToLocalizedName(System.Int32)
   langs:
@@ -36,16 +36,16 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches})
-  commentId: M:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches})
-  id: CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches})
+- uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches},System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches},System.Boolean)
+  id: CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches},System.Boolean)
   parent: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator
   langs:
   - csharp
   - vb
-  name: CalculateMatches(string[], string[], int?, int?, bool, List<PartialMatches>)
-  nameWithType: FreetextMatchCalculator.CalculateMatches(string[], string[], int?, int?, bool, List<PartialMatches>)
-  fullName: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(string[], string[], int?, int?, bool, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.PartialMatches>)
+  name: CalculateMatches(string[], string[], int?, int?, bool, List<PartialMatches>, bool)
+  nameWithType: FreetextMatchCalculator.CalculateMatches(string[], string[], int?, int?, bool, List<PartialMatches>, bool)
+  fullName: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(string[], string[], int?, int?, bool, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.PartialMatches>, bool)
   type: Method
   assemblies:
   - SoDataBase
@@ -79,7 +79,7 @@ items:
     and Partial results (some words found in entity) as the negative table number.
   example: []
   syntax:
-    content: public static Dictionary<int, List<int>> CalculateMatches(string[] wordList, string[] owners, int? searchOp = null, int? hitLim = null, bool soundex = false, List<PartialMatches> partialMatches = null)
+    content: public static Dictionary<int, List<int>> CalculateMatches(string[] wordList, string[] owners, int? searchOp = null, int? hitLim = null, bool soundex = false, List<PartialMatches> partialMatches = null, bool strictSearch = false)
     parameters:
     - id: wordList
       type: System.String[]
@@ -98,16 +98,20 @@ items:
       description: Should we do SOUNDEX words instead of normal words?
     - id: partialMatches
       type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches}
+      description: External storage for partial results
+    - id: strictSearch
+      type: System.Boolean
+      description: If true, then search main table only, not text or udefs
     return:
       type: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}}
       description: >-
         Dictionary indexed by owner entity table number; value is a dictionary of ids (with no subvalues, the dictionary
                     class is used to ensure a unique id list)
-    content.vb: Public Shared Function CalculateMatches(wordList As String(), owners As String(), searchOp As Integer? = Nothing, hitLim As Integer? = Nothing, soundex As Boolean = False, partialMatches As List(Of PartialMatches) = Nothing) As Dictionary(Of Integer, List(Of Integer))
+    content.vb: Public Shared Function CalculateMatches(wordList As String(), owners As String(), searchOp As Integer? = Nothing, hitLim As Integer? = Nothing, soundex As Boolean = False, partialMatches As List(Of PartialMatches) = Nothing, strictSearch As Boolean = False) As Dictionary(Of Integer, List(Of Integer))
   overload: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches*
-  nameWithType.vb: FreetextMatchCalculator.CalculateMatches(String(), String(), Integer?, Integer?, Boolean, List(Of PartialMatches))
-  fullName.vb: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(String(), String(), Integer?, Integer?, Boolean, System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.PartialMatches))
-  name.vb: CalculateMatches(String(), String(), Integer?, Integer?, Boolean, List(Of PartialMatches))
+  nameWithType.vb: FreetextMatchCalculator.CalculateMatches(String(), String(), Integer?, Integer?, Boolean, List(Of PartialMatches), Boolean)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(String(), String(), Integer?, Integer?, Boolean, System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.PartialMatches), Boolean)
+  name.vb: CalculateMatches(String(), String(), Integer?, Integer?, Boolean, List(Of PartialMatches), Boolean)
 - uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}})
   commentId: M:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}})
   id: GroupMatches(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}})
@@ -446,7 +450,7 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.html#SuperOffice_CRM_ArchiveLists_FreetextMatchCalculator_CalculateMatches_System_String___System_String___System_Nullable_System_Int32__System_Nullable_System_Int32__System_Boolean_System_Collections_Generic_List_SuperOffice_CRM_ArchiveLists_PartialMatches__
+  href: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.html#SuperOffice_CRM_ArchiveLists_FreetextMatchCalculator_CalculateMatches_System_String___System_String___System_Nullable_System_Int32__System_Nullable_System_Int32__System_Boolean_System_Collections_Generic_List_SuperOffice_CRM_ArchiveLists_PartialMatches__System_Boolean_
   name: CalculateMatches
   nameWithType: FreetextMatchCalculator.CalculateMatches
   fullName: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches

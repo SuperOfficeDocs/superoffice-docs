@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.LspApiClient
+  commentId: N:SuperOffice.CRM.LspApiClient
+  id: SuperOffice.CRM.LspApiClient
+  children:
+  - SuperOffice.CRM.LspApiClient.ILspApi
+  - SuperOffice.CRM.LspApiClient.OnsiteLspClient
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.LspApiClient
+  nameWithType: SuperOffice.CRM.LspApiClient
+  fullName: SuperOffice.CRM.LspApiClient
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.LspApiClient.ILspApi
+  commentId: T:SuperOffice.CRM.LspApiClient.ILspApi
+  parent: SuperOffice.CRM.LspApiClient
+  isExternal: true
+  href: SuperOffice.CRM.LspApiClient.ILspApi.html
+  name: ILspApi
+  nameWithType: ILspApi
+  fullName: SuperOffice.CRM.LspApiClient.ILspApi
+- uid: SuperOffice.CRM.LspApiClient.OnsiteLspClient
+  commentId: T:SuperOffice.CRM.LspApiClient.OnsiteLspClient
+  isExternal: true
+  href: SuperOffice.CRM.LspApiClient.OnsiteLspClient.html
+  name: OnsiteLspClient
+  nameWithType: OnsiteLspClient
+  fullName: SuperOffice.CRM.LspApiClient.OnsiteLspClient
+- uid: SuperOffice.CRM.LspApiClient
+  commentId: N:SuperOffice.CRM.LspApiClient
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.LspApiClient
+  nameWithType: SuperOffice.CRM.LspApiClient
+  fullName: SuperOffice.CRM.LspApiClient
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.LspApiClient
+    name: LspApiClient
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.LspApiClient
+    name: LspApiClient
+    isExternal: true
+    href: SuperOffice.CRM.LspApiClient.html

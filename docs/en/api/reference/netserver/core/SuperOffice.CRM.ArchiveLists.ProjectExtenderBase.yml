@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor
-  - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor(System.Boolean)
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.ColProjectId
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.CompletedTooltipHint(System.String,System.Int32)
@@ -719,30 +719,32 @@ items:
   nameWithType.vb: ProjectExtenderBase.New(Boolean)
   fullName.vb: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.New(Boolean)
   name.vb: New(Boolean)
-- uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)'
+- uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features,System.String)'
   parent: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase
   langs:
   - csharp
   - vb
-  name: ProjectExtenderBase(Features)
-  nameWithType: ProjectExtenderBase.ProjectExtenderBase(ProjectExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.ProjectExtenderBase(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)
+  name: ProjectExtenderBase(Features, string)
+  nameWithType: ProjectExtenderBase.ProjectExtenderBase(ProjectExtenderBase.Features, string)
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.ProjectExtenderBase(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features, string)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected ProjectExtenderBase(ProjectExtenderBase.Features features)
+    content: protected ProjectExtenderBase(ProjectExtenderBase.Features features, string iconHint = "Project")
     parameters:
     - id: features
       type: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features
-    content.vb: Protected Sub New(features As ProjectExtenderBase.Features)
+    - id: iconHint
+      type: System.String
+    content.vb: Protected Sub New(features As ProjectExtenderBase.Features, iconHint As String = "Project")
   overload: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor*
-  nameWithType.vb: ProjectExtenderBase.New(ProjectExtenderBase.Features)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.New(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)
-  name.vb: New(Features)
+  nameWithType.vb: ProjectExtenderBase.New(ProjectExtenderBase.Features, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.New(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features, String)
+  name.vb: New(Features, String)
 - uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.InnerModifyQuery
   id: InnerModifyQuery

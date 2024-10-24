@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Globalization.CountryCache
   - SuperOffice.CRM.Globalization.CultureDataFormatter
   - SuperOffice.CRM.Globalization.CurrentPersonVariables
+  - SuperOffice.CRM.Globalization.DocumentTags
   - SuperOffice.CRM.Globalization.DummyField
   - SuperOffice.CRM.Globalization.EmailFormatter
   - SuperOffice.CRM.Globalization.FadTags
@@ -43,6 +44,8 @@ items:
   - SuperOffice.CRM.Globalization.PhoneFormatter
   - SuperOffice.CRM.Globalization.ProjectTags
   - SuperOffice.CRM.Globalization.QuoteAddressData
+  - SuperOffice.CRM.Globalization.SaleTags
+  - SuperOffice.CRM.Globalization.SelectionTags
   - SuperOffice.CRM.Globalization.SystemTags
   - SuperOffice.CRM.Globalization.TemplateVariableIds
   - SuperOffice.CRM.Globalization.TemplateVariables
@@ -337,6 +340,13 @@ references:
   name: CurrentPersonVariables
   nameWithType: CurrentPersonVariables
   fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables
+- uid: SuperOffice.CRM.Globalization.DocumentTags
+  commentId: T:SuperOffice.CRM.Globalization.DocumentTags
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.DocumentTags.html
+  name: DocumentTags
+  nameWithType: DocumentTags
+  fullName: SuperOffice.CRM.Globalization.DocumentTags
 - uid: SuperOffice.CRM.Globalization.FadTemplateVariables
   commentId: T:SuperOffice.CRM.Globalization.FadTemplateVariables
   isExternal: true
@@ -401,6 +411,20 @@ references:
   name: IQuoteVersionInfoPopulator
   nameWithType: IQuoteVersionInfoPopulator
   fullName: SuperOffice.CRM.Globalization.IQuoteVersionInfoPopulator
+- uid: SuperOffice.CRM.Globalization.SaleTags
+  commentId: T:SuperOffice.CRM.Globalization.SaleTags
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.SaleTags.html
+  name: SaleTags
+  nameWithType: SaleTags
+  fullName: SuperOffice.CRM.Globalization.SaleTags
+- uid: SuperOffice.CRM.Globalization.SelectionTags
+  commentId: T:SuperOffice.CRM.Globalization.SelectionTags
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.SelectionTags.html
+  name: SelectionTags
+  nameWithType: SelectionTags
+  fullName: SuperOffice.CRM.Globalization.SelectionTags
 - uid: SuperOffice.CRM.Globalization.SystemTags
   commentId: T:SuperOffice.CRM.Globalization.SystemTags
   isExternal: true

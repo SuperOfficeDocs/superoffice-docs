@@ -10,6 +10,7 @@ items:
   - SuperOffice.Util.ThreadedQueueProcessor`1.AwaitDisposedWorked
   - SuperOffice.Util.ThreadedQueueProcessor`1.AwaitEmptyQueue
   - SuperOffice.Util.ThreadedQueueProcessor`1.ItemsQueued
+  - SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength
   - SuperOffice.Util.ThreadedQueueProcessor`1.ThreadsCreated
   - SuperOffice.Util.ThreadedQueueProcessor`1.ToString
   langs:
@@ -222,6 +223,31 @@ items:
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.ItemsQueued*
   nameWithType.vb: ThreadedQueueProcessor(Of T).ItemsQueued
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).ItemsQueued
+- uid: SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength
+  commentId: P:SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength
+  id: QueueLength
+  parent: SuperOffice.Util.ThreadedQueueProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: QueueLength
+  nameWithType: ThreadedQueueProcessor<T>.QueueLength
+  fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.QueueLength
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: Number of items in queue. For diagnostics and testing.
+  example: []
+  syntax:
+    content: public int QueueLength { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property QueueLength As Integer
+  overload: SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength*
+  nameWithType.vb: ThreadedQueueProcessor(Of T).QueueLength
+  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).QueueLength
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -910,3 +936,12 @@ references:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ItemsQueued
   nameWithType.vb: ThreadedQueueProcessor(Of T).ItemsQueued
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).ItemsQueued
+- uid: SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength*
+  commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength
+  isExternal: true
+  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1_QueueLength
+  name: QueueLength
+  nameWithType: ThreadedQueueProcessor<T>.QueueLength
+  fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.QueueLength
+  nameWithType.vb: ThreadedQueueProcessor(Of T).QueueLength
+  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).QueueLength

@@ -48,7 +48,6 @@ items:
   - SuperOffice.Data.SoDatabase.IsSatellite
   - SuperOffice.Data.SoDatabase.IsUnicode
   - SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
-  - SuperOffice.Data.SoDatabase.LogOutInProgress
   - SuperOffice.Data.SoDatabase.LoginRights
   - SuperOffice.Data.SoDatabase.OwnerContactId
   - SuperOffice.Data.SoDatabase.RemoteTravel
@@ -346,27 +345,6 @@ items:
     content: public void LoadSettingsFromUserPreference()
     content.vb: Public Sub LoadSettingsFromUserPreference()
   overload: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference*
-- uid: SuperOffice.Data.SoDatabase.LogOutInProgress
-  commentId: P:SuperOffice.Data.SoDatabase.LogOutInProgress
-  id: LogOutInProgress
-  parent: SuperOffice.Data.SoDatabase
-  langs:
-  - csharp
-  - vb
-  name: LogOutInProgress
-  nameWithType: SoDatabase.LogOutInProgress
-  fullName: SuperOffice.Data.SoDatabase.LogOutInProgress
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: public bool LogOutInProgress { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property LogOutInProgress As Boolean
-  overload: SuperOffice.Data.SoDatabase.LogOutInProgress*
 - uid: SuperOffice.Data.SoDatabase.DatabaseCountryId
   commentId: P:SuperOffice.Data.SoDatabase.DatabaseCountryId
   id: DatabaseCountryId
@@ -2475,24 +2453,6 @@ references:
   name: LoadSettingsFromUserPreference
   nameWithType: SoDatabase.LoadSettingsFromUserPreference
   fullName: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
-- uid: SuperOffice.Data.SoDatabase.LogOutInProgress*
-  commentId: Overload:SuperOffice.Data.SoDatabase.LogOutInProgress
-  isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_LogOutInProgress
-  name: LogOutInProgress
-  nameWithType: SoDatabase.LogOutInProgress
-  fullName: SuperOffice.Data.SoDatabase.LogOutInProgress
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: SuperOffice.Data.SoDatabase.DatabaseCountryId*
   commentId: Overload:SuperOffice.Data.SoDatabase.DatabaseCountryId
   isExternal: true
@@ -2549,6 +2509,17 @@ references:
   name: IsUnicode
   nameWithType: SoDatabase.IsUnicode
   fullName: SuperOffice.Data.SoDatabase.IsUnicode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Data.SoDatabase.CompanyName*
   commentId: Overload:SuperOffice.Data.SoDatabase.CompanyName
   isExternal: true

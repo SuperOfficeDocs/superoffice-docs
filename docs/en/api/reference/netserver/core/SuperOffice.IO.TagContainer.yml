@@ -11,6 +11,7 @@ items:
   - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
   - SuperOffice.IO.TagContainer.GetData
+  - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.GetValue(System.String)
   - SuperOffice.IO.TagContainer.Id
   - SuperOffice.IO.TagContainer.Init
@@ -39,10 +40,13 @@ items:
   derivedClasses:
   - SuperOffice.CRM.Globalization.AppointmentVariables
   - SuperOffice.CRM.Globalization.ContactTags
+  - SuperOffice.CRM.Globalization.DocumentTags
   - SuperOffice.CRM.Globalization.FadTags
   - SuperOffice.CRM.Globalization.FadTemplateVariables
   - SuperOffice.CRM.Globalization.PersonVariables
   - SuperOffice.CRM.Globalization.ProjectTags
+  - SuperOffice.CRM.Globalization.SaleTags
+  - SuperOffice.CRM.Globalization.SelectionTags
   - SuperOffice.CRM.Globalization.SystemTags
   - SuperOffice.CRM.Globalization.TemplateVariables
   inheritedMembers:
@@ -71,7 +75,7 @@ items:
   - SoCore
   namespace: SuperOffice.IO
   summary: >-
-    State about the object has been initiated.  
+    State about the object has been initiated.
 
     Data (e.g. <xref href="SuperOffice.IO.TagContainer.AddData(System.Object%5b%5d)" data-throw-if-not-resolved="false"></xref>) can only be added before initiation.
 
@@ -214,6 +218,29 @@ items:
   nameWithType.vb: TagContainer.GetValue(String)
   fullName.vb: SuperOffice.IO.TagContainer.GetValue(String)
   name.vb: GetValue(String)
+- uid: SuperOffice.IO.TagContainer.GetTags
+  commentId: M:SuperOffice.IO.TagContainer.GetTags
+  id: GetTags
+  parent: SuperOffice.IO.TagContainer
+  langs:
+  - csharp
+  - vb
+  name: GetTags()
+  nameWithType: TagContainer.GetTags()
+  fullName: SuperOffice.IO.TagContainer.GetTags()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: Get list of tags in the current TagContainer.
+  example: []
+  syntax:
+    content: public string[] GetTags()
+    return:
+      type: System.String[]
+      description: ''
+    content.vb: Public Function GetTags() As String()
+  overload: SuperOffice.IO.TagContainer.GetTags*
 - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   id: SetValue(System.String,System.String)
@@ -316,7 +343,7 @@ items:
   - SoCore
   namespace: SuperOffice.IO
   summary: >-
-    Is this a valid tag in the given context.  If there are no current sale, 
+    Is this a valid tag in the given context.  If there are no current sale,
 
     there are no valid tags for sale.
   example: []
@@ -349,7 +376,7 @@ items:
   - SoCore
   namespace: SuperOffice.IO
   summary: >-
-    Set the object in an initaited state.  This means that no data can be added 
+    Set the object in an initaited state.  This means that no data can be added
 
     (e.g. <xref href="SuperOffice.IO.TagContainer.AddData(System.Object%5b%5d)" data-throw-if-not-resolved="false"></xref>) beyound this point.
   example: []
@@ -1110,6 +1137,36 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.IO.TagContainer.GetTags*
+  commentId: Overload:SuperOffice.IO.TagContainer.GetTags
+  isExternal: true
+  href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_GetTags
+  name: GetTags
+  nameWithType: TagContainer.GetTags
+  fullName: SuperOffice.IO.TagContainer.GetTags
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.IO.TagContainer.SetValue*
   commentId: Overload:SuperOffice.IO.TagContainer.SetValue
   isExternal: true

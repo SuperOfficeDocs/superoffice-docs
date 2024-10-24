@@ -6,7 +6,9 @@ items:
   parent: SoCore.Shared.CRM.Services
   children:
   - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
   - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
   - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
   - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
   - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
@@ -111,6 +113,35 @@ items:
   nameWithType.vb: TimeZoneHintAttribute.New(TimeZoneInterpretation)
   fullName.vb: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.New(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
   name.vb: New(TimeZoneInterpretation)
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
+  commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
+  id: '#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)'
+  parent: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneHintAttribute(TimeZoneInterpretation, TimeZoneDiaryAdjustment)
+  nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute(TimeZoneInterpretation, TimeZoneDiaryAdjustment)
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute(SoCore.Shared.CRM.Services.TimeZoneInterpretation, SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  summary: Standard constructor, used in most cases
+  example: []
+  syntax:
+    content: public TimeZoneHintAttribute(TimeZoneInterpretation hint, TimeZoneDiaryAdjustment diary)
+    parameters:
+    - id: hint
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+      description: ''
+    - id: diary
+      type: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
+    content.vb: Public Sub New(hint As TimeZoneInterpretation, diary As TimeZoneDiaryAdjustment)
+  overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor*
+  nameWithType.vb: TimeZoneHintAttribute.New(TimeZoneInterpretation, TimeZoneDiaryAdjustment)
+  fullName.vb: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.New(SoCore.Shared.CRM.Services.TimeZoneInterpretation, SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
+  name.vb: New(TimeZoneInterpretation, TimeZoneDiaryAdjustment)
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)
   commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)
   id: '#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)'
@@ -182,6 +213,27 @@ items:
       type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
     content.vb: Public ReadOnly Property Hint As TimeZoneInterpretation
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint*
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
+  commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
+  id: DiaryAdjust
+  parent: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  langs:
+  - csharp
+  - vb
+  name: DiaryAdjust
+  nameWithType: TimeZoneHintAttribute.DiaryAdjust
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  syntax:
+    content: public TimeZoneDiaryAdjustment DiaryAdjust { get; }
+    parameters: []
+    return:
+      type: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
+    content.vb: Public ReadOnly Property DiaryAdjust As TimeZoneDiaryAdjustment
+  overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust*
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
   commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
   id: OutgoingDatePart
@@ -2298,6 +2350,14 @@ references:
   name: TimeZoneInterpretation
   nameWithType: TimeZoneInterpretation
   fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+- uid: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
+  commentId: T:SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
+  parent: SoCore.Shared.CRM.Services
+  isExternal: true
+  href: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment.html
+  name: TimeZoneDiaryAdjustment
+  nameWithType: TimeZoneDiaryAdjustment
+  fullName: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2358,6 +2418,13 @@ references:
   name: Hint
   nameWithType: TimeZoneHintAttribute.Hint
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust*
+  commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
+  isExternal: true
+  href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html#SoCore_Shared_CRM_Services_TimeZoneHintAttribute_DiaryAdjust
+  name: DiaryAdjust
+  nameWithType: TimeZoneHintAttribute.DiaryAdjust
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart*
   commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
   isExternal: true

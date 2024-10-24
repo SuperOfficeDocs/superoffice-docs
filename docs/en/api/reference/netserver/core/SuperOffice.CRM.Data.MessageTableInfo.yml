@@ -5,24 +5,24 @@ items:
   id: MessageTableInfo
   parent: SuperOffice.CRM.Data
   children:
+  - SuperOffice.CRM.Data.MessageTableInfo.AssociateId
+  - SuperOffice.CRM.Data.MessageTableInfo.AssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.MessageTableInfo.Definition
-  - SuperOffice.CRM.Data.MessageTableInfo.Description
-  - SuperOffice.CRM.Data.MessageTableInfo.DetailsRecord
-  - SuperOffice.CRM.Data.MessageTableInfo.DetailsTable
   - SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.MessageTableInfo.Expire
+  - SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId(System.Int32)
+  - SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId(System.Int32,System.String)
+  - SuperOffice.CRM.Data.MessageTableInfo.MarkdownMessage
   - SuperOffice.CRM.Data.MessageTableInfo.MessageId
-  - SuperOffice.CRM.Data.MessageTableInfo.MessageType
-  - SuperOffice.CRM.Data.MessageTableInfo.MotherId
-  - SuperOffice.CRM.Data.MessageTableInfo.MotherId_InnerJoin_Message
+  - SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
+  - SuperOffice.CRM.Data.MessageTableInfo.OnlineappId_InnerJoin_OnlineApp
   - SuperOffice.CRM.Data.MessageTableInfo.Registered
   - SuperOffice.CRM.Data.MessageTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.MessageTableInfo.RegisteredAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.MessageTableInfo.RuntimeDefinition
-  - SuperOffice.CRM.Data.MessageTableInfo.SourceHandler
-  - SuperOffice.CRM.Data.MessageTableInfo.SourceHandler_InnerJoin_MessageHandler
-  - SuperOffice.CRM.Data.MessageTableInfo.TargetHandler
-  - SuperOffice.CRM.Data.MessageTableInfo.TargetHandler_InnerJoin_MessageHandler
+  - SuperOffice.CRM.Data.MessageTableInfo.SystemMessageId
+  - SuperOffice.CRM.Data.MessageTableInfo.Type
   - SuperOffice.CRM.Data.MessageTableInfo.Updated
   - SuperOffice.CRM.Data.MessageTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.MessageTableInfo.UpdatedAssociateId_InnerJoin_Associate
@@ -114,6 +114,70 @@ items:
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "Message"
+- uid: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId(System.Int32)
+  id: IdxAssociateId(System.Int32)
+  parent: SuperOffice.CRM.Data.MessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxAssociateId(int)
+  nameWithType: MessageTableInfo.IdxAssociateId(int)
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Shortcut method for looking up using the database index AssociateId, which spans the following fields:
+
+    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">AssociateId</td><td class="description">The associate that is the target of this message</td></tr></tbody></table>
+  example: []
+  syntax:
+    content: public Restriction IdxAssociateId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxAssociateId(associateId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId*
+  nameWithType.vb: MessageTableInfo.IdxAssociateId(Integer)
+  fullName.vb: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId(Integer)
+  name.vb: IdxAssociateId(Integer)
+- uid: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId(System.Int32,System.String)
+  id: IdxAssociateIdSystemMessageId(System.Int32,System.String)
+  parent: SuperOffice.CRM.Data.MessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxAssociateIdSystemMessageId(int, string)
+  nameWithType: MessageTableInfo.IdxAssociateIdSystemMessageId(int, string)
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId(int, string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Shortcut method for looking up using the database index AssociateIdSystemMessageId, which spans the following fields:
+
+    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">AssociateId</td><td class="description">The associate that is the target of this message</td></tr><tr><td class="term">SystemMessageId</td><td class="description">Message identifier, used for message update or removal</td></tr></tbody></table>
+  example: []
+  syntax:
+    content: public Restriction IdxAssociateIdSystemMessageId(int associateId, string systemMessageId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: systemMessageId
+      type: System.String
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxAssociateIdSystemMessageId(associateId As Integer, systemMessageId As String) As Restriction
+  overload: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId*
+  nameWithType.vb: MessageTableInfo.IdxAssociateIdSystemMessageId(Integer, String)
+  fullName.vb: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId(Integer, String)
+  name.vb: IdxAssociateIdSystemMessageId(Integer, String)
 - uid: SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -227,188 +291,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property MessageId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.MessageTableInfo.MessageId*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.SourceHandler
-  id: SourceHandler
-  parent: SuperOffice.CRM.Data.MessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: SourceHandler
-  nameWithType: MessageTableInfo.SourceHandler
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'sourceHandler' in table 'Message': Dictionary type FK, target: MessageHandler, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Originating message handler
-  example: []
-  syntax:
-    content: public Int32FieldInfo SourceHandler { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property SourceHandler As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.TargetHandler
-  id: TargetHandler
-  parent: SuperOffice.CRM.Data.MessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: TargetHandler
-  nameWithType: MessageTableInfo.TargetHandler
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'targetHandler' in table 'Message': Dictionary type FK, target: MessageHandler, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Target message handler
-  example: []
-  syntax:
-    content: public Int32FieldInfo TargetHandler { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property TargetHandler As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.MotherId
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.MotherId
-  id: MotherId
-  parent: SuperOffice.CRM.Data.MessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: MotherId
-  nameWithType: MessageTableInfo.MotherId
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.MotherId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'motherId' in table 'Message': Dictionary type FK, target: Message, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    ID of message that this message is correlated to; 0 if this is the first message of a conversation
-  example: []
-  syntax:
-    content: public Int32FieldInfo MotherId { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property MotherId As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.MessageTableInfo.MotherId*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.MessageType
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.MessageType
-  id: MessageType
-  parent: SuperOffice.CRM.Data.MessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: MessageType
-  nameWithType: MessageTableInfo.MessageType
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.MessageType
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'messageType' in table 'Message': Dictionary type UInt, .NET type: <xref href="System.UInt32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Application-specific message type
-  example: []
-  syntax:
-    content: public FieldInfo MessageType { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.FieldInfo
-    content.vb: Public ReadOnly Property MessageType As FieldInfo
-  overload: SuperOffice.CRM.Data.MessageTableInfo.MessageType*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.DetailsTable
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.DetailsTable
-  id: DetailsTable
-  parent: SuperOffice.CRM.Data.MessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: DetailsTable
-  nameWithType: MessageTableInfo.DetailsTable
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.DetailsTable
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'detailsTable' in table 'Message': Dictionary type TableNumber, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Table containing message body (BatchTask, or some thing else)
-  example: []
-  syntax:
-    content: public UInt16FieldInfo DetailsTable { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.UInt16FieldInfo
-    content.vb: Public ReadOnly Property DetailsTable As UInt16FieldInfo
-  overload: SuperOffice.CRM.Data.MessageTableInfo.DetailsTable*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.DetailsRecord
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.DetailsRecord
-  id: DetailsRecord
-  parent: SuperOffice.CRM.Data.MessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: DetailsRecord
-  nameWithType: MessageTableInfo.DetailsRecord
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.DetailsRecord
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'detailsRecord' in table 'Message': Dictionary type RecordId, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Record containing message body
-  example: []
-  syntax:
-    content: public Int32FieldInfo DetailsRecord { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property DetailsRecord As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.MessageTableInfo.DetailsRecord*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.Description
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.Description
-  id: Description
-  parent: SuperOffice.CRM.Data.MessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: Description
-  nameWithType: MessageTableInfo.Description
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.Description
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'description' in table 'Message': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Message description, to aid in debugging and monitoring
-  example: []
-  syntax:
-    content: public StringFieldInfo Description { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.StringFieldInfo
-    content.vb: Public ReadOnly Property Description As StringFieldInfo
-  overload: SuperOffice.CRM.Data.MessageTableInfo.Description*
 - uid: SuperOffice.CRM.Data.MessageTableInfo.Registered
   commentId: P:SuperOffice.CRM.Data.MessageTableInfo.Registered
   id: Registered
@@ -539,75 +421,162 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.MessageTableInfo.UpdatedCount*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler_InnerJoin_MessageHandler
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.SourceHandler_InnerJoin_MessageHandler
-  id: SourceHandler_InnerJoin_MessageHandler
+- uid: SuperOffice.CRM.Data.MessageTableInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.AssociateId
+  id: AssociateId
   parent: SuperOffice.CRM.Data.MessageTableInfo
   langs:
   - csharp
   - vb
-  name: SourceHandler_InnerJoin_MessageHandler
-  nameWithType: MessageTableInfo.SourceHandler_InnerJoin_MessageHandler
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler_InnerJoin_MessageHandler
+  name: AssociateId
+  nameWithType: MessageTableInfo.AssociateId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.AssociateId
   type: Property
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key SourceHandler in this table, to its target table <xref href="SuperOffice.CRM.Data.MessageHandlerTableInfo" data-throw-if-not-resolved="false"></xref>.
+  summary: >-
+    Field 'associateId' in table 'Message': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The associate that is the target of this message
   example: []
   syntax:
-    content: public TargetedInnerJoin<MessageHandlerTableInfo> SourceHandler_InnerJoin_MessageHandler { get; }
+    content: public Int32FieldInfo AssociateId { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.MessageHandlerTableInfo}
-    content.vb: Public ReadOnly Property SourceHandler_InnerJoin_MessageHandler As TargetedInnerJoin(Of MessageHandlerTableInfo)
-  overload: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler_InnerJoin_MessageHandler*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler_InnerJoin_MessageHandler
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.TargetHandler_InnerJoin_MessageHandler
-  id: TargetHandler_InnerJoin_MessageHandler
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.MessageTableInfo.AssociateId*
+- uid: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
+  id: OnlineappId
   parent: SuperOffice.CRM.Data.MessageTableInfo
   langs:
   - csharp
   - vb
-  name: TargetHandler_InnerJoin_MessageHandler
-  nameWithType: MessageTableInfo.TargetHandler_InnerJoin_MessageHandler
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler_InnerJoin_MessageHandler
+  name: OnlineappId
+  nameWithType: MessageTableInfo.OnlineappId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
   type: Property
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key TargetHandler in this table, to its target table <xref href="SuperOffice.CRM.Data.MessageHandlerTableInfo" data-throw-if-not-resolved="false"></xref>.
+  summary: >-
+    Field 'onlineapp_id' in table 'Message': Dictionary type FK, target: OnlineApp, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The online app that owns this message
   example: []
   syntax:
-    content: public TargetedInnerJoin<MessageHandlerTableInfo> TargetHandler_InnerJoin_MessageHandler { get; }
+    content: public Int32FieldInfo OnlineappId { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.MessageHandlerTableInfo}
-    content.vb: Public ReadOnly Property TargetHandler_InnerJoin_MessageHandler As TargetedInnerJoin(Of MessageHandlerTableInfo)
-  overload: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler_InnerJoin_MessageHandler*
-- uid: SuperOffice.CRM.Data.MessageTableInfo.MotherId_InnerJoin_Message
-  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.MotherId_InnerJoin_Message
-  id: MotherId_InnerJoin_Message
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property OnlineappId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId*
+- uid: SuperOffice.CRM.Data.MessageTableInfo.SystemMessageId
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.SystemMessageId
+  id: SystemMessageId
   parent: SuperOffice.CRM.Data.MessageTableInfo
   langs:
   - csharp
   - vb
-  name: MotherId_InnerJoin_Message
-  nameWithType: MessageTableInfo.MotherId_InnerJoin_Message
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.MotherId_InnerJoin_Message
+  name: SystemMessageId
+  nameWithType: MessageTableInfo.SystemMessageId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.SystemMessageId
   type: Property
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key MotherId in this table, to its target table <xref href="SuperOffice.CRM.Data.MessageTableInfo" data-throw-if-not-resolved="false"></xref>.
+  summary: >-
+    Field 'systemMessageId' in table 'Message': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Message identifier, used for message update or removal
   example: []
   syntax:
-    content: public TargetedInnerJoin<MessageTableInfo> MotherId_InnerJoin_Message { get; }
+    content: public StringFieldInfo SystemMessageId { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.MessageTableInfo}
-    content.vb: Public ReadOnly Property MotherId_InnerJoin_Message As TargetedInnerJoin(Of MessageTableInfo)
-  overload: SuperOffice.CRM.Data.MessageTableInfo.MotherId_InnerJoin_Message*
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SystemMessageId As StringFieldInfo
+  overload: SuperOffice.CRM.Data.MessageTableInfo.SystemMessageId*
+- uid: SuperOffice.CRM.Data.MessageTableInfo.MarkdownMessage
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.MarkdownMessage
+  id: MarkdownMessage
+  parent: SuperOffice.CRM.Data.MessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MarkdownMessage
+  nameWithType: MessageTableInfo.MarkdownMessage
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.MarkdownMessage
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'markdownMessage' in table 'Message': Dictionary type String[4001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Markdown message to be displayed to user
+  example: []
+  syntax:
+    content: public StringFieldInfo MarkdownMessage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property MarkdownMessage As StringFieldInfo
+  overload: SuperOffice.CRM.Data.MessageTableInfo.MarkdownMessage*
+- uid: SuperOffice.CRM.Data.MessageTableInfo.Expire
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.Expire
+  id: Expire
+  parent: SuperOffice.CRM.Data.MessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Expire
+  nameWithType: MessageTableInfo.Expire
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.Expire
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'expire' in table 'Message': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The date and time the message expires
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Expire { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Expire As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.MessageTableInfo.Expire*
+- uid: SuperOffice.CRM.Data.MessageTableInfo.Type
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.MessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageTableInfo.Type
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.Type
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'type' in table 'Message': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.SystemMessageType" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Type of message, example: info, warning, error
+  example: []
+  syntax:
+    content: public SystemMessageTypeFieldInfo Type { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
+    content.vb: Public ReadOnly Property Type As SystemMessageTypeFieldInfo
+  overload: SuperOffice.CRM.Data.MessageTableInfo.Type*
 - uid: SuperOffice.CRM.Data.MessageTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.MessageTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -654,6 +623,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.MessageTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.MessageTableInfo.AssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.AssociateId_InnerJoin_Associate
+  id: AssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.MessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId_InnerJoin_Associate
+  nameWithType: MessageTableInfo.AssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.AssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key AssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> AssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property AssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.MessageTableInfo.AssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId_InnerJoin_OnlineApp
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.OnlineappId_InnerJoin_OnlineApp
+  id: OnlineappId_InnerJoin_OnlineApp
+  parent: SuperOffice.CRM.Data.MessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OnlineappId_InnerJoin_OnlineApp
+  nameWithType: MessageTableInfo.OnlineappId_InnerJoin_OnlineApp
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId_InnerJoin_OnlineApp
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key OnlineappId in this table, to its target table <xref href="SuperOffice.CRM.Data.OnlineAppTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<OnlineAppTableInfo> OnlineappId_InnerJoin_OnlineApp { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.OnlineAppTableInfo}
+    content.vb: Public ReadOnly Property OnlineappId_InnerJoin_OnlineApp As TargetedInnerJoin(Of OnlineAppTableInfo)
+  overload: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId_InnerJoin_OnlineApp*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -1471,13 +1486,13 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_DictionaryTableNumber
-  name: DictionaryTableNumber
-  nameWithType: MessageTableInfo.DictionaryTableNumber
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_IdxAssociateId_System_Int32_
+  name: IdxAssociateId
+  nameWithType: MessageTableInfo.IdxAssociateId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1489,6 +1504,28 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Restriction.html
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId
+  isExternal: true
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_IdxAssociateIdSystemMessageId_System_Int32_System_String_
+  name: IdxAssociateIdSystemMessageId
+  nameWithType: MessageTableInfo.IdxAssociateIdSystemMessageId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.IdxAssociateIdSystemMessageId
+- uid: SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_DictionaryTableNumber
+  name: DictionaryTableNumber
+  nameWithType: MessageTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.DictionaryTableNumber
 - uid: SuperOffice.CRM.Data.MessageTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.RuntimeDefinition
   isExternal: true
@@ -1571,101 +1608,6 @@ references:
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
-- uid: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.SourceHandler
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_SourceHandler
-  name: SourceHandler
-  nameWithType: MessageTableInfo.SourceHandler
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler
-- uid: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.TargetHandler
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_TargetHandler
-  name: TargetHandler
-  nameWithType: MessageTableInfo.TargetHandler
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler
-- uid: SuperOffice.CRM.Data.MessageTableInfo.MotherId*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.MotherId
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_MotherId
-  name: MotherId
-  nameWithType: MessageTableInfo.MotherId
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.MotherId
-- uid: System.UInt32
-  commentId: T:System.UInt32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
-- uid: SuperOffice.CRM.Data.MessageTableInfo.MessageType*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.MessageType
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_MessageType
-  name: MessageType
-  nameWithType: MessageTableInfo.MessageType
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.MessageType
-- uid: SuperOffice.Data.SQL.FieldInfo
-  commentId: T:SuperOffice.Data.SQL.FieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
-  name: FieldInfo
-  nameWithType: FieldInfo
-  fullName: SuperOffice.Data.SQL.FieldInfo
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
-- uid: SuperOffice.CRM.Data.MessageTableInfo.DetailsTable*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.DetailsTable
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_DetailsTable
-  name: DetailsTable
-  nameWithType: MessageTableInfo.DetailsTable
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.DetailsTable
-- uid: SuperOffice.Data.SQL.UInt16FieldInfo
-  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
-  name: UInt16FieldInfo
-  nameWithType: UInt16FieldInfo
-  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
-- uid: SuperOffice.CRM.Data.MessageTableInfo.DetailsRecord*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.DetailsRecord
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_DetailsRecord
-  name: DetailsRecord
-  nameWithType: MessageTableInfo.DetailsRecord
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.DetailsRecord
-- uid: SuperOffice.CRM.Data.MessageTableInfo.Description*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.Description
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_Description
-  name: Description
-  nameWithType: MessageTableInfo.Description
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.Description
-- uid: SuperOffice.Data.SQL.StringFieldInfo
-  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.StringFieldInfo.html
-  name: StringFieldInfo
-  nameWithType: StringFieldInfo
-  fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: System.DateTime
   commentId: T:System.DateTime
   parent: System
@@ -1713,6 +1655,17 @@ references:
   name: UpdatedAssociateId
   nameWithType: MessageTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.MessageTableInfo.UpdatedAssociateId
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Data.MessageTableInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.UpdatedCount
   isExternal: true
@@ -1720,141 +1673,107 @@ references:
   name: UpdatedCount
   nameWithType: MessageTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.MessageTableInfo.UpdatedCount
-- uid: SuperOffice.CRM.Data.MessageHandlerTableInfo
-  commentId: T:SuperOffice.CRM.Data.MessageHandlerTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageHandlerTableInfo.html
-  name: MessageHandlerTableInfo
-  nameWithType: MessageHandlerTableInfo
-  fullName: SuperOffice.CRM.Data.MessageHandlerTableInfo
-- uid: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler_InnerJoin_MessageHandler*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.SourceHandler_InnerJoin_MessageHandler
-  isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_SourceHandler_InnerJoin_MessageHandler
-  name: SourceHandler_InnerJoin_MessageHandler
-  nameWithType: MessageTableInfo.SourceHandler_InnerJoin_MessageHandler
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.SourceHandler_InnerJoin_MessageHandler
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.MessageHandlerTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.MessageHandlerTableInfo}
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
-  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  name: TargetedInnerJoin<MessageHandlerTableInfo>
-  nameWithType: TargetedInnerJoin<MessageHandlerTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.MessageHandlerTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of MessageHandlerTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.MessageHandlerTableInfo)
-  name.vb: TargetedInnerJoin(Of MessageHandlerTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: <
-  - uid: SuperOffice.CRM.Data.MessageHandlerTableInfo
-    name: MessageHandlerTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.MessageHandlerTableInfo.html
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.MessageHandlerTableInfo
-    name: MessageHandlerTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.MessageHandlerTableInfo.html
-  - name: )
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  name: TargetedInnerJoin<TargetTableInfo>
-  nameWithType: TargetedInnerJoin<TargetTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
-  name.vb: TargetedInnerJoin(Of TargetTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: <
-  - name: TargetTableInfo
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TargetTableInfo
-  - name: )
-- uid: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler_InnerJoin_MessageHandler*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.TargetHandler_InnerJoin_MessageHandler
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.MessageTableInfo.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.AssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_TargetHandler_InnerJoin_MessageHandler
-  name: TargetHandler_InnerJoin_MessageHandler
-  nameWithType: MessageTableInfo.TargetHandler_InnerJoin_MessageHandler
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.TargetHandler_InnerJoin_MessageHandler
-- uid: SuperOffice.CRM.Data.MessageTableInfo
-  commentId: T:SuperOffice.CRM.Data.MessageTableInfo
-  parent: SuperOffice.CRM.Data
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_AssociateId
+  name: AssociateId
+  nameWithType: MessageTableInfo.AssociateId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.AssociateId
+- uid: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
   isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html
-  name: MessageTableInfo
-  nameWithType: MessageTableInfo
-  fullName: SuperOffice.CRM.Data.MessageTableInfo
-- uid: SuperOffice.CRM.Data.MessageTableInfo.MotherId_InnerJoin_Message*
-  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.MotherId_InnerJoin_Message
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_OnlineappId
+  name: OnlineappId
+  nameWithType: MessageTableInfo.OnlineappId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
+- uid: SuperOffice.CRM.Data.MessageTableInfo.SystemMessageId*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.SystemMessageId
   isExternal: true
-  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_MotherId_InnerJoin_Message
-  name: MotherId_InnerJoin_Message
-  nameWithType: MessageTableInfo.MotherId_InnerJoin_Message
-  fullName: SuperOffice.CRM.Data.MessageTableInfo.MotherId_InnerJoin_Message
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.MessageTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.MessageTableInfo}
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_SystemMessageId
+  name: SystemMessageId
+  nameWithType: MessageTableInfo.SystemMessageId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.SystemMessageId
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
-  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  name: TargetedInnerJoin<MessageTableInfo>
-  nameWithType: TargetedInnerJoin<MessageTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.MessageTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of MessageTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.MessageTableInfo)
-  name.vb: TargetedInnerJoin(Of MessageTableInfo)
+  isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.MessageTableInfo.MarkdownMessage*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.MarkdownMessage
+  isExternal: true
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_MarkdownMessage
+  name: MarkdownMessage
+  nameWithType: MessageTableInfo.MarkdownMessage
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.MarkdownMessage
+- uid: SuperOffice.CRM.Data.MessageTableInfo.Expire*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.Expire
+  isExternal: true
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_Expire
+  name: Expire
+  nameWithType: MessageTableInfo.Expire
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.Expire
+- uid: SuperOffice.Data.SystemMessageType
+  commentId: T:SuperOffice.Data.SystemMessageType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.SystemMessageType.html
+  name: SystemMessageType
+  nameWithType: SystemMessageType
+  fullName: SuperOffice.Data.SystemMessageType
+- uid: SuperOffice.CRM.Data.MessageTableInfo.Type*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.Type
+  isExternal: true
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_Type
+  name: Type
+  nameWithType: MessageTableInfo.Type
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.Type
+- uid: SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.SystemMessageTypeFieldInfo.html
+  name: SystemMessageTypeFieldInfo
+  nameWithType: SystemMessageTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
   spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: <
-  - uid: SuperOffice.CRM.Data.MessageTableInfo
-    name: MessageTableInfo
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
     isExternal: true
-    href: SuperOffice.CRM.Data.MessageTableInfo.html
-  - name: '>'
+    href: SuperOffice.Data.html
   spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
+  - uid: SuperOffice
+    name: SuperOffice
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.MessageTableInfo
-    name: MessageTableInfo
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
     isExternal: true
-    href: SuperOffice.CRM.Data.MessageTableInfo.html
-  - name: )
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data
@@ -1905,6 +1824,34 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )
 - uid: SuperOffice.CRM.Data.MessageTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.UpdatedAssociateId_InnerJoin_Associate
   isExternal: true
@@ -1912,3 +1859,60 @@ references:
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: MessageTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.MessageTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.MessageTableInfo.AssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.AssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_AssociateId_InnerJoin_Associate
+  name: AssociateId_InnerJoin_Associate
+  nameWithType: MessageTableInfo.AssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.AssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.OnlineAppTableInfo
+  commentId: T:SuperOffice.CRM.Data.OnlineAppTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.OnlineAppTableInfo.html
+  name: OnlineAppTableInfo
+  nameWithType: OnlineAppTableInfo
+  fullName: SuperOffice.CRM.Data.OnlineAppTableInfo
+- uid: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId_InnerJoin_OnlineApp*
+  commentId: Overload:SuperOffice.CRM.Data.MessageTableInfo.OnlineappId_InnerJoin_OnlineApp
+  isExternal: true
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_OnlineappId_InnerJoin_OnlineApp
+  name: OnlineappId_InnerJoin_OnlineApp
+  nameWithType: MessageTableInfo.OnlineappId_InnerJoin_OnlineApp
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId_InnerJoin_OnlineApp
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.OnlineAppTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.OnlineAppTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<OnlineAppTableInfo>
+  nameWithType: TargetedInnerJoin<OnlineAppTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.OnlineAppTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of OnlineAppTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.OnlineAppTableInfo)
+  name.vb: TargetedInnerJoin(Of OnlineAppTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.OnlineAppTableInfo
+    name: OnlineAppTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.OnlineAppTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.OnlineAppTableInfo
+    name: OnlineAppTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.OnlineAppTableInfo.html
+  - name: )

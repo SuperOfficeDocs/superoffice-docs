@@ -13,7 +13,6 @@ items:
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.Updated
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.UpdatedCount
-  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.WorkflowId
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.WorkflowStepId
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.WorkflowStepOptionId
   langs:
@@ -83,27 +82,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const WorkflowStepId As String = "workflow_step_id"
-- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.WorkflowId
-  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.WorkflowId
-  id: WorkflowId
-  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId
-  nameWithType: DBC.WorkflowStepOptionFields.WorkflowId
-  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.WorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'WorkflowStepOption.WorkflowId: The flow this instance belongs to'
-  example: []
-  syntax:
-    content: public const string WorkflowId = "workflow_id"
-    return:
-      type: System.String
-    content.vb: Public Const WorkflowId As String = "workflow_id"
 - uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields.Name
   id: Name

@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks(SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Entities.ActivityLinksHelper)
   - SuperOffice.CRM.Entities.RecurrenceManager.ApplyUdefValues(SuperOffice.CRM.Entities.EntityUdefHelper,SuperOffice.CRM.Entities.EntityUdefHelper)
   - SuperOffice.CRM.Entities.RecurrenceManager.BreakRecurrence
+  - SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday(System.DayOfWeek)
   - SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone(System.DateTime,System.Int32)
   - SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger(SuperOffice.Data.Weekday)
   - SuperOffice.CRM.Entities.RecurrenceManager.CreateAppointmentForDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
@@ -38,6 +39,7 @@ items:
   - SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAdded(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
+  - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnSaved(System.Boolean,System.Boolean)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
@@ -919,6 +921,35 @@ items:
       type: SuperOffice.CRM.Rows.RelationsRow
     content.vb: Public Sub OnLinksRemoved(app As Appointment, linksHelper As ActivityLinksHelper, parent As AppointmentRow, item As RelationsRow)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved*
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
+  id: OnLinksEdited(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: OnLinksEdited(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow)
+  nameWithType: RecurrenceManager.OnLinksEdited(Appointment, ActivityLinksHelper, AppointmentRow, RelationsRow)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Entities.ActivityLinksHelper, SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.RelationsRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public RelationsRow OnLinksEdited(Appointment app, ActivityLinksHelper linksHelper, AppointmentRow parent, RelationsRow item)
+    parameters:
+    - id: app
+      type: SuperOffice.CRM.Entities.Appointment
+    - id: linksHelper
+      type: SuperOffice.CRM.Entities.ActivityLinksHelper
+    - id: parent
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    - id: item
+      type: SuperOffice.CRM.Rows.RelationsRow
+    return:
+      type: SuperOffice.CRM.Rows.RelationsRow
+    content.vb: Public Function OnLinksEdited(app As Appointment, linksHelper As ActivityLinksHelper, parent As AppointmentRow, item As RelationsRow) As RelationsRow
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited*
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
   id: UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
@@ -1160,6 +1191,35 @@ items:
         If the input does not match any known Weekday, it returns 0.
     content.vb: Public Shared Function ConvertWeekdayToInteger(weekday As Weekday) As Integer
   overload: SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger*
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday(System.DayOfWeek)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday(System.DayOfWeek)
+  id: ConvertDayOfWeekToWeekday(System.DayOfWeek)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: ConvertDayOfWeekToWeekday(DayOfWeek)
+  nameWithType: RecurrenceManager.ConvertDayOfWeekToWeekday(DayOfWeek)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday(System.DayOfWeek)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: Converts the given integer to the corresponding Weekday enum (bit flag).
+  example: []
+  syntax:
+    content: public static Weekday ConvertDayOfWeekToWeekday(DayOfWeek day)
+    parameters:
+    - id: day
+      type: System.DayOfWeek
+    return:
+      type: SuperOffice.Data.Weekday
+      description: >-
+        Returns an integer from 1-7 representing Monday-Sunday respectively. 
+
+        If the input does not match any known Weekday, it returns 0.
+    content.vb: Public Shared Function ConvertDayOfWeekToWeekday(day As DayOfWeek) As Weekday
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday*
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   commentId: P:SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   id: RecurrenceInfo
@@ -2613,6 +2673,13 @@ references:
   name: OnLinksRemoved
   nameWithType: RecurrenceManager.OnLinksRemoved
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksRemoved
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnLinksEdited_SuperOffice_CRM_Entities_Appointment_SuperOffice_CRM_Entities_ActivityLinksHelper_SuperOffice_CRM_Rows_AppointmentRow_SuperOffice_CRM_Rows_RelationsRow_
+  name: OnLinksEdited
+  nameWithType: RecurrenceManager.OnLinksEdited
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnLinksEdited
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate
   isExternal: true
@@ -2666,6 +2733,13 @@ references:
   name: ConvertWeekdayToInteger
   nameWithType: RecurrenceManager.ConvertWeekdayToInteger
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertWeekdayToInteger
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_ConvertDayOfWeekToWeekday_System_DayOfWeek_
+  name: ConvertDayOfWeekToWeekday
+  nameWithType: RecurrenceManager.ConvertDayOfWeekToWeekday
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.ConvertDayOfWeekToWeekday
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   isExternal: true

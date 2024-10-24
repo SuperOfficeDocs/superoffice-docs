@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow.ContactId
   - SuperOffice.CRM.Rows.PersonRow.CountryId
   - SuperOffice.CRM.Rows.PersonRow.CreateNew
+  - SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
   - SuperOffice.CRM.Rows.PersonRow.DayOfBirth
   - SuperOffice.CRM.Rows.PersonRow.DbiAgentId
   - SuperOffice.CRM.Rows.PersonRow.DbiKey
@@ -43,6 +44,8 @@ items:
   - SuperOffice.CRM.Rows.PersonRow.Kanalname
   - SuperOffice.CRM.Rows.PersonRow.Lastname
   - SuperOffice.CRM.Rows.PersonRow.MiddleName
+  - SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+  - SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
   - SuperOffice.CRM.Rows.PersonRow.MonthOfBirth
   - SuperOffice.CRM.Rows.PersonRow.Mrmrs
   - SuperOffice.CRM.Rows.PersonRow.Nomailing
@@ -54,6 +57,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow.OnCategoryIdxChange
   - SuperOffice.CRM.Rows.PersonRow.OnContactIdChange
   - SuperOffice.CRM.Rows.PersonRow.OnCountryIdChange
+  - SuperOffice.CRM.Rows.PersonRow.OnCreatedByFormIdChange
   - SuperOffice.CRM.Rows.PersonRow.OnDayOfBirthChange
   - SuperOffice.CRM.Rows.PersonRow.OnDbiAgentIdChange
   - SuperOffice.CRM.Rows.PersonRow.OnDbiKeyChange
@@ -70,6 +74,8 @@ items:
   - SuperOffice.CRM.Rows.PersonRow.OnLastnameChange
   - SuperOffice.CRM.Rows.PersonRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.PersonRow.OnMiddleNameChange
+  - SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowIdChange
+  - SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowWhenChange
   - SuperOffice.CRM.Rows.PersonRow.OnMonthOfBirthChange
   - SuperOffice.CRM.Rows.PersonRow.OnMrmrsChange
   - SuperOffice.CRM.Rows.PersonRow.OnNomailingChange
@@ -147,6 +153,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._currentCategoryIdx
   - SuperOffice.CRM.Rows.PersonRow._currentContactId
   - SuperOffice.CRM.Rows.PersonRow._currentCountryId
+  - SuperOffice.CRM.Rows.PersonRow._currentCreatedByFormId
   - SuperOffice.CRM.Rows.PersonRow._currentDayOfBirth
   - SuperOffice.CRM.Rows.PersonRow._currentDbiAgentId
   - SuperOffice.CRM.Rows.PersonRow._currentDbiKey
@@ -162,6 +169,8 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._currentKanalname
   - SuperOffice.CRM.Rows.PersonRow._currentLastname
   - SuperOffice.CRM.Rows.PersonRow._currentMiddleName
+  - SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowId
+  - SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowWhen
   - SuperOffice.CRM.Rows.PersonRow._currentMonthOfBirth
   - SuperOffice.CRM.Rows.PersonRow._currentMrmrs
   - SuperOffice.CRM.Rows.PersonRow._currentNomailing
@@ -201,6 +210,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._onCategoryIdxChange
   - SuperOffice.CRM.Rows.PersonRow._onContactIdChange
   - SuperOffice.CRM.Rows.PersonRow._onCountryIdChange
+  - SuperOffice.CRM.Rows.PersonRow._onCreatedByFormIdChange
   - SuperOffice.CRM.Rows.PersonRow._onDayOfBirthChange
   - SuperOffice.CRM.Rows.PersonRow._onDbiAgentIdChange
   - SuperOffice.CRM.Rows.PersonRow._onDbiKeyChange
@@ -216,6 +226,8 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._onKanalnameChange
   - SuperOffice.CRM.Rows.PersonRow._onLastnameChange
   - SuperOffice.CRM.Rows.PersonRow._onMiddleNameChange
+  - SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowIdChange
+  - SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowWhenChange
   - SuperOffice.CRM.Rows.PersonRow._onMonthOfBirthChange
   - SuperOffice.CRM.Rows.PersonRow._onMrmrsChange
   - SuperOffice.CRM.Rows.PersonRow._onNomailingChange
@@ -254,6 +266,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._persistedCategoryIdx
   - SuperOffice.CRM.Rows.PersonRow._persistedContactId
   - SuperOffice.CRM.Rows.PersonRow._persistedCountryId
+  - SuperOffice.CRM.Rows.PersonRow._persistedCreatedByFormId
   - SuperOffice.CRM.Rows.PersonRow._persistedDayOfBirth
   - SuperOffice.CRM.Rows.PersonRow._persistedDbiAgentId
   - SuperOffice.CRM.Rows.PersonRow._persistedDbiKey
@@ -269,6 +282,8 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._persistedKanalname
   - SuperOffice.CRM.Rows.PersonRow._persistedLastname
   - SuperOffice.CRM.Rows.PersonRow._persistedMiddleName
+  - SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowId
+  - SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowWhen
   - SuperOffice.CRM.Rows.PersonRow._persistedMonthOfBirth
   - SuperOffice.CRM.Rows.PersonRow._persistedMrmrs
   - SuperOffice.CRM.Rows.PersonRow._persistedNomailing
@@ -448,6 +463,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.PersonRow._persistedPersonId
   commentId: F:SuperOffice.CRM.Rows.PersonRow._persistedPersonId
   id: _persistedPersonId
@@ -1582,6 +1598,69 @@ items:
     return:
       type: System.DateTime
     content.vb: Protected _persistedDeletedDate As Date
+- uid: SuperOffice.CRM.Rows.PersonRow._persistedCreatedByFormId
+  commentId: F:SuperOffice.CRM.Rows.PersonRow._persistedCreatedByFormId
+  id: _persistedCreatedByFormId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedCreatedByFormId
+  nameWithType: PersonRow._persistedCreatedByFormId
+  fullName: SuperOffice.CRM.Rows.PersonRow._persistedCreatedByFormId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.PersonRow.CreatedByFormId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedCreatedByFormId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedCreatedByFormId As Integer
+- uid: SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowId
+  id: _persistedModifiedByWorkflowId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedModifiedByWorkflowId
+  nameWithType: PersonRow._persistedModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedModifiedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedModifiedByWorkflowId As Integer
+- uid: SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowWhen
+  commentId: F:SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowWhen
+  id: _persistedModifiedByWorkflowWhen
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedModifiedByWorkflowWhen
+  nameWithType: PersonRow._persistedModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _persistedModifiedByWorkflowWhen
+    return:
+      type: System.DateTime
+    content.vb: Protected _persistedModifiedByWorkflowWhen As Date
 - uid: SuperOffice.CRM.Rows.PersonRow._currentPersonId
   commentId: F:SuperOffice.CRM.Rows.PersonRow._currentPersonId
   id: _currentPersonId
@@ -2716,6 +2795,69 @@ items:
     return:
       type: System.DateTime
     content.vb: Protected _currentDeletedDate As Date
+- uid: SuperOffice.CRM.Rows.PersonRow._currentCreatedByFormId
+  commentId: F:SuperOffice.CRM.Rows.PersonRow._currentCreatedByFormId
+  id: _currentCreatedByFormId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _currentCreatedByFormId
+  nameWithType: PersonRow._currentCreatedByFormId
+  fullName: SuperOffice.CRM.Rows.PersonRow._currentCreatedByFormId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.PersonRow.CreatedByFormId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentCreatedByFormId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentCreatedByFormId As Integer
+- uid: SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowId
+  id: _currentModifiedByWorkflowId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _currentModifiedByWorkflowId
+  nameWithType: PersonRow._currentModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentModifiedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentModifiedByWorkflowId As Integer
+- uid: SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowWhen
+  commentId: F:SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowWhen
+  id: _currentModifiedByWorkflowWhen
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _currentModifiedByWorkflowWhen
+  nameWithType: PersonRow._currentModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _currentModifiedByWorkflowWhen
+    return:
+      type: System.DateTime
+    content.vb: Protected _currentModifiedByWorkflowWhen As Date
 - uid: SuperOffice.CRM.Rows.PersonRow.GetExtraFieldsHelper
   commentId: M:SuperOffice.CRM.Rows.PersonRow.GetExtraFieldsHelper
   id: GetExtraFieldsHelper
@@ -5294,6 +5436,99 @@ items:
       type: System.DateTime
     content.vb: Public Overridable Property DeletedDate As Date
   overload: SuperOffice.CRM.Rows.PersonRow.DeletedDate*
+- uid: SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
+  commentId: P:SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
+  id: CreatedByFormId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: CreatedByFormId
+  nameWithType: PersonRow.CreatedByFormId
+  fullName: SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The form this person was created by'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int CreatedByFormId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CreatedByFormId As Integer
+  overload: SuperOffice.CRM.Rows.PersonRow.CreatedByFormId*
+- uid: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+  commentId: P:SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+  id: ModifiedByWorkflowId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowId
+  nameWithType: PersonRow.ModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The workflow this person last was modified by'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int ModifiedByWorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ModifiedByWorkflowId As Integer
+  overload: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId*
+- uid: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
+  commentId: P:SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
+  id: ModifiedByWorkflowWhen
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowWhen
+  nameWithType: PersonRow.ModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: DateTime. When the workflow modified this person in UTC'
+  remarks: >-
+    Original type in dictionary:  UtcDateTime.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual DateTime ModifiedByWorkflowWhen { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ModifiedByWorkflowWhen As Date
+  overload: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen*
 - uid: SuperOffice.CRM.Rows.PersonRow._onContactIdChange
   commentId: E:SuperOffice.CRM.Rows.PersonRow._onContactIdChange
   id: _onContactIdChange
@@ -6407,6 +6642,69 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
     content.vb: Protected Event _onDeletedDateChange As OnFieldChange(Of Date)
+- uid: SuperOffice.CRM.Rows.PersonRow._onCreatedByFormIdChange
+  commentId: E:SuperOffice.CRM.Rows.PersonRow._onCreatedByFormIdChange
+  id: _onCreatedByFormIdChange
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _onCreatedByFormIdChange
+  nameWithType: PersonRow._onCreatedByFormIdChange
+  fullName: SuperOffice.CRM.Rows.PersonRow._onCreatedByFormIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.PersonRow.CreatedByFormId" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onCreatedByFormIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onCreatedByFormIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowIdChange
+  commentId: E:SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowIdChange
+  id: _onModifiedByWorkflowIdChange
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _onModifiedByWorkflowIdChange
+  nameWithType: PersonRow._onModifiedByWorkflowIdChange
+  fullName: SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onModifiedByWorkflowIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onModifiedByWorkflowIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowWhenChange
+  commentId: E:SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowWhenChange
+  id: _onModifiedByWorkflowWhenChange
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _onModifiedByWorkflowWhenChange
+  nameWithType: PersonRow._onModifiedByWorkflowWhenChange
+  fullName: SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowWhenChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen" data-throw-if-not-resolved="false"></xref>; field is of .NET type DateTime.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<DateTime> _onModifiedByWorkflowWhenChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Event _onModifiedByWorkflowWhenChange As OnFieldChange(Of Date)
 - uid: SuperOffice.CRM.Rows.PersonRow.OnContactIdChange
   commentId: E:SuperOffice.CRM.Rows.PersonRow.OnContactIdChange
   id: OnContactIdChange
@@ -7520,6 +7818,69 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
     content.vb: Public Event OnDeletedDateChange As OnFieldChange(Of Date)
+- uid: SuperOffice.CRM.Rows.PersonRow.OnCreatedByFormIdChange
+  commentId: E:SuperOffice.CRM.Rows.PersonRow.OnCreatedByFormIdChange
+  id: OnCreatedByFormIdChange
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: OnCreatedByFormIdChange
+  nameWithType: PersonRow.OnCreatedByFormIdChange
+  fullName: SuperOffice.CRM.Rows.PersonRow.OnCreatedByFormIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when CreatedByFormId is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnCreatedByFormIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnCreatedByFormIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowIdChange
+  commentId: E:SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowIdChange
+  id: OnModifiedByWorkflowIdChange
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: OnModifiedByWorkflowIdChange
+  nameWithType: PersonRow.OnModifiedByWorkflowIdChange
+  fullName: SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when ModifiedByWorkflowId is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnModifiedByWorkflowIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnModifiedByWorkflowIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowWhenChange
+  commentId: E:SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowWhenChange
+  id: OnModifiedByWorkflowWhenChange
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: OnModifiedByWorkflowWhenChange
+  nameWithType: PersonRow.OnModifiedByWorkflowWhenChange
+  fullName: SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowWhenChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when ModifiedByWorkflowWhen is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<DateTime> OnModifiedByWorkflowWhenChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Event OnModifiedByWorkflowWhenChange As OnFieldChange(Of Date)
 references:
 - uid: SuperOffice.CRM.Rows.PersonRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.PersonRow.CreateNew
@@ -9662,6 +10023,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -10167,6 +10581,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
@@ -10663,6 +11129,27 @@ references:
   name: DeletedDate
   nameWithType: PersonRow.DeletedDate
   fullName: SuperOffice.CRM.Rows.PersonRow.DeletedDate
+- uid: SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
+  commentId: P:SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html#SuperOffice_CRM_Rows_PersonRow_CreatedByFormId
+  name: CreatedByFormId
+  nameWithType: PersonRow.CreatedByFormId
+  fullName: SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
+- uid: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+  commentId: P:SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html#SuperOffice_CRM_Rows_PersonRow_ModifiedByWorkflowId
+  name: ModifiedByWorkflowId
+  nameWithType: PersonRow.ModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+- uid: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
+  commentId: P:SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html#SuperOffice_CRM_Rows_PersonRow_ModifiedByWorkflowWhen
+  name: ModifiedByWorkflowWhen
+  nameWithType: PersonRow.ModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
 - uid: SuperOffice.CRM.Rows.PersonRow.GetExtraFieldsHelper*
   commentId: Overload:SuperOffice.CRM.Rows.PersonRow.GetExtraFieldsHelper
   isExternal: true
@@ -11839,6 +12326,27 @@ references:
   name: DeletedDate
   nameWithType: PersonRow.DeletedDate
   fullName: SuperOffice.CRM.Rows.PersonRow.DeletedDate
+- uid: SuperOffice.CRM.Rows.PersonRow.CreatedByFormId*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html#SuperOffice_CRM_Rows_PersonRow_CreatedByFormId
+  name: CreatedByFormId
+  nameWithType: PersonRow.CreatedByFormId
+  fullName: SuperOffice.CRM.Rows.PersonRow.CreatedByFormId
+- uid: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html#SuperOffice_CRM_Rows_PersonRow_ModifiedByWorkflowId
+  name: ModifiedByWorkflowId
+  nameWithType: PersonRow.ModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
+- uid: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html#SuperOffice_CRM_Rows_PersonRow_ModifiedByWorkflowWhen
+  name: ModifiedByWorkflowWhen
+  nameWithType: PersonRow.ModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

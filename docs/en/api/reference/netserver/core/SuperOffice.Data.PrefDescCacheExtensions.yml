@@ -6,8 +6,15 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.PrefDescCacheExtensions.InSection(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
+  - SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  - SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  - SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  - SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
   - SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  - SuperOffice.Data.PrefDescCacheExtensions.OrderByKey(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
   - SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  - SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  - SuperOffice.Data.PrefDescCacheExtensions.Search(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
   langs:
   - csharp
   - vb
@@ -87,6 +94,191 @@ items:
   nameWithType.vb: PrefDescCacheExtensions.OnlyUserLevel(IEnumerable(Of PrefDescRecordData))
   fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData))
   name.vb: OnlyUserLevel(IEnumerable(Of PrefDescRecordData))
+- uid: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  id: IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsUserLevel(PrefDescRecordData)
+  nameWithType: PrefDescCacheExtensions.IsUserLevel(PrefDescRecordData)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static bool IsUserLevel(this PrefDescRecordData description)
+    parameters:
+    - id: description
+      type: SuperOffice.CRM.Rows.PrefDescRecordData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUserLevel(description As PrefDescRecordData) As Boolean
+  overload: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel*
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  id: OnlySectionHeaders(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: OnlySectionHeaders(IEnumerable<PrefDescRecordData>)
+  nameWithType: PrefDescCacheExtensions.OnlySectionHeaders(IEnumerable<PrefDescRecordData>)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static IEnumerable<PrefDescRecordData> OnlySectionHeaders(this IEnumerable<PrefDescRecordData> descriptions)
+    parameters:
+    - id: descriptions
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    content.vb: Public Shared Function OnlySectionHeaders(descriptions As IEnumerable(Of PrefDescRecordData)) As IEnumerable(Of PrefDescRecordData)
+  overload: SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders*
+  nameWithType.vb: PrefDescCacheExtensions.OnlySectionHeaders(IEnumerable(Of PrefDescRecordData))
+  fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData))
+  name.vb: OnlySectionHeaders(IEnumerable(Of PrefDescRecordData))
+- uid: SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  id: NoSectionHeaders(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: NoSectionHeaders(IEnumerable<PrefDescRecordData>)
+  nameWithType: PrefDescCacheExtensions.NoSectionHeaders(IEnumerable<PrefDescRecordData>)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static IEnumerable<PrefDescRecordData> NoSectionHeaders(this IEnumerable<PrefDescRecordData> descriptions)
+    parameters:
+    - id: descriptions
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    content.vb: Public Shared Function NoSectionHeaders(descriptions As IEnumerable(Of PrefDescRecordData)) As IEnumerable(Of PrefDescRecordData)
+  overload: SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders*
+  nameWithType.vb: PrefDescCacheExtensions.NoSectionHeaders(IEnumerable(Of PrefDescRecordData))
+  fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData))
+  name.vb: NoSectionHeaders(IEnumerable(Of PrefDescRecordData))
+- uid: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  id: IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsSectionHeader(PrefDescRecordData)
+  nameWithType: PrefDescCacheExtensions.IsSectionHeader(PrefDescRecordData)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static bool IsSectionHeader(this PrefDescRecordData description)
+    parameters:
+    - id: description
+      type: SuperOffice.CRM.Rows.PrefDescRecordData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSectionHeader(description As PrefDescRecordData) As Boolean
+  overload: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader*
+- uid: SuperOffice.Data.PrefDescCacheExtensions.Search(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.Search(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
+  id: Search(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: Search(IEnumerable<PrefDescRecordData>, string)
+  nameWithType: PrefDescCacheExtensions.Search(IEnumerable<PrefDescRecordData>, string)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.Search(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>, string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static IEnumerable<PrefDescRecordData> Search(this IEnumerable<PrefDescRecordData> descriptions, string text)
+    parameters:
+    - id: descriptions
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    - id: text
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    content.vb: Public Shared Function Search(descriptions As IEnumerable(Of PrefDescRecordData), text As String) As IEnumerable(Of PrefDescRecordData)
+  overload: SuperOffice.Data.PrefDescCacheExtensions.Search*
+  nameWithType.vb: PrefDescCacheExtensions.Search(IEnumerable(Of PrefDescRecordData), String)
+  fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.Search(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData), String)
+  name.vb: Search(IEnumerable(Of PrefDescRecordData), String)
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OrderByKey(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.OrderByKey(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  id: OrderByKey(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: OrderByKey(IEnumerable<PrefDescRecordData>)
+  nameWithType: PrefDescCacheExtensions.OrderByKey(IEnumerable<PrefDescRecordData>)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OrderByKey(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static IOrderedEnumerable<PrefDescRecordData> OrderByKey(this IEnumerable<PrefDescRecordData> descriptions)
+    parameters:
+    - id: descriptions
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    return:
+      type: System.Linq.IOrderedEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    content.vb: Public Shared Function OrderByKey(descriptions As IEnumerable(Of PrefDescRecordData)) As IOrderedEnumerable(Of PrefDescRecordData)
+  overload: SuperOffice.Data.PrefDescCacheExtensions.OrderByKey*
+  nameWithType.vb: PrefDescCacheExtensions.OrderByKey(IEnumerable(Of PrefDescRecordData))
+  fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.OrderByKey(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData))
+  name.vb: OrderByKey(IEnumerable(Of PrefDescRecordData))
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  id: OrderBySectionThenKey(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: OrderBySectionThenKey(IEnumerable<PrefDescRecordData>)
+  nameWithType: PrefDescCacheExtensions.OrderBySectionThenKey(IEnumerable<PrefDescRecordData>)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static IOrderedEnumerable<PrefDescRecordData> OrderBySectionThenKey(this IEnumerable<PrefDescRecordData> descriptions)
+    parameters:
+    - id: descriptions
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    return:
+      type: System.Linq.IOrderedEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    content.vb: Public Shared Function OrderBySectionThenKey(descriptions As IEnumerable(Of PrefDescRecordData)) As IOrderedEnumerable(Of PrefDescRecordData)
+  overload: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey*
+  nameWithType.vb: PrefDescCacheExtensions.OrderBySectionThenKey(IEnumerable(Of PrefDescRecordData))
+  fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData))
+  name.vb: OrderBySectionThenKey(IEnumerable(Of PrefDescRecordData))
 - uid: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
   commentId: M:SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
   id: OrderBySectionThenId(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
@@ -504,13 +696,104 @@ references:
   name: OnlyUserLevel
   nameWithType: PrefDescCacheExtensions.OnlyUserLevel
   fullName: SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel
-- uid: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId*
-  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId
+- uid: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel
   isExternal: true
-  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_OrderBySectionThenId_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_PrefDescRecordData__
-  name: OrderBySectionThenId
-  nameWithType: PrefDescCacheExtensions.OrderBySectionThenId
-  fullName: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsUserLevel_SuperOffice_CRM_Rows_PrefDescRecordData_
+  name: IsUserLevel
+  nameWithType: PrefDescCacheExtensions.IsUserLevel
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel
+- uid: SuperOffice.CRM.Rows.PrefDescRecordData
+  commentId: T:SuperOffice.CRM.Rows.PrefDescRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  name: PrefDescRecordData
+  nameWithType: PrefDescRecordData
+  fullName: SuperOffice.CRM.Rows.PrefDescRecordData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_OnlySectionHeaders_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_PrefDescRecordData__
+  name: OnlySectionHeaders
+  nameWithType: PrefDescCacheExtensions.OnlySectionHeaders
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OnlySectionHeaders
+- uid: SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_NoSectionHeaders_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_PrefDescRecordData__
+  name: NoSectionHeaders
+  nameWithType: PrefDescCacheExtensions.NoSectionHeaders
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.NoSectionHeaders
+- uid: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsSectionHeader_SuperOffice_CRM_Rows_PrefDescRecordData_
+  name: IsSectionHeader
+  nameWithType: PrefDescCacheExtensions.IsSectionHeader
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader
+- uid: SuperOffice.Data.PrefDescCacheExtensions.Search*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.Search
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_Search_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_PrefDescRecordData__System_String_
+  name: Search
+  nameWithType: PrefDescCacheExtensions.Search
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.Search
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OrderByKey*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.OrderByKey
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_OrderByKey_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_PrefDescRecordData__
+  name: OrderByKey
+  nameWithType: PrefDescCacheExtensions.OrderByKey
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OrderByKey
 - uid: System.Linq.IOrderedEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
   commentId: T:System.Linq.IOrderedEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
   parent: System.Linq
@@ -601,3 +884,17 @@ references:
     name: Linq
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.linq
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_OrderBySectionThenKey_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_PrefDescRecordData__
+  name: OrderBySectionThenKey
+  nameWithType: PrefDescCacheExtensions.OrderBySectionThenKey
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenKey
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_OrderBySectionThenId_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_PrefDescRecordData__
+  name: OrderBySectionThenId
+  nameWithType: PrefDescCacheExtensions.OrderBySectionThenId
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId

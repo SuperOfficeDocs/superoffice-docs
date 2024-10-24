@@ -18,6 +18,8 @@ items:
   - SuperOffice.CRM.Data.EjscriptTableInfo.HierarchyId_InnerJoin_Hierarchy
   - SuperOffice.CRM.Data.EjscriptTableInfo.HtmlOutput
   - SuperOffice.CRM.Data.EjscriptTableInfo.IncludeId
+  - SuperOffice.CRM.Data.EjscriptTableInfo.Includes
+  - SuperOffice.CRM.Data.EjscriptTableInfo.LastCompiled
   - SuperOffice.CRM.Data.EjscriptTableInfo.LastExecAnonHttp
   - SuperOffice.CRM.Data.EjscriptTableInfo.LastExecHttp
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
@@ -29,6 +31,7 @@ items:
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_MsFilter_Ejscript
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_SLink_ScriptId
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScheduledTask_ScriptId
+  - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenDefinitionAction_Ejscript
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketAlert_ScriptId
@@ -37,6 +40,8 @@ items:
   - SuperOffice.CRM.Data.EjscriptTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.EjscriptTableInfo.RegisteredAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.EjscriptTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.EjscriptTableInfo.SourceCode
+  - SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps
   - SuperOffice.CRM.Data.EjscriptTableInfo.Type
   - SuperOffice.CRM.Data.EjscriptTableInfo.UniqueIdentifier
   - SuperOffice.CRM.Data.EjscriptTableInfo.Updated
@@ -685,6 +690,110 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property LastExecAnonHttp As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.EjscriptTableInfo.LastExecAnonHttp*
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.SourceCode
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.SourceCode
+  id: SourceCode
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceCode
+  nameWithType: EjscriptTableInfo.SourceCode
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.SourceCode
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'source_code' in table 'ejscript': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Contains the source code of the script
+  example: []
+  syntax:
+    content: public StringFieldInfo SourceCode { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SourceCode As StringFieldInfo
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.SourceCode*
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.Includes
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.Includes
+  id: Includes
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Includes
+  nameWithType: EjscriptTableInfo.Includes
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.Includes
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'includes' in table 'ejscript': Dictionary type String[4001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Contains a comma separated list of ids of all nested includes used by this script
+  example: []
+  syntax:
+    content: public StringFieldInfo Includes { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Includes As StringFieldInfo
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.Includes*
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LastCompiled
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LastCompiled
+  id: LastCompiled
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastCompiled
+  nameWithType: EjscriptTableInfo.LastCompiled
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LastCompiled
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'last_compiled' in table 'ejscript': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    When this script was last compiled (UTC).
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo LastCompiled { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastCompiled As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.LastCompiled*
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps
+  id: SourceMaps
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceMaps
+  nameWithType: EjscriptTableInfo.SourceMaps
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'source_maps' in table 'ejscript': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Source maps in JSON format
+  example: []
+  syntax:
+    content: public StringFieldInfo SourceMaps { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SourceMaps As StringFieldInfo
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps*
 - uid: SuperOffice.CRM.Data.EjscriptTableInfo.HierarchyId_InnerJoin_Hierarchy
   commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.HierarchyId_InnerJoin_Hierarchy
   id: HierarchyId_InnerJoin_Hierarchy
@@ -961,6 +1070,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_ScreenDefinitionAction_Ejscript As TargetedLeftOuterJoin(Of ScreenDefinitionActionTableInfo)
   overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenDefinitionAction_Ejscript*
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId
+  id: LeftOuterJoin_ScreenChooser_EjscriptId
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ScreenChooser_EjscriptId
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key EjscriptId on this table, to ScreenChooser.<xref href="SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<ScreenChooserTableInfo> LeftOuterJoin_ScreenChooser_EjscriptId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenChooserTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ScreenChooser_EjscriptId As TargetedLeftOuterJoin(Of ScreenChooserTableInfo)
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId*
 - uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScheduledTask_ScriptId
   commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScheduledTask_ScriptId
   id: LeftOuterJoin_ScheduledTask_ScriptId
@@ -2178,6 +2310,34 @@ references:
   name: LastExecAnonHttp
   nameWithType: EjscriptTableInfo.LastExecAnonHttp
   fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LastExecAnonHttp
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.SourceCode*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.SourceCode
+  isExternal: true
+  href: SuperOffice.CRM.Data.EjscriptTableInfo.html#SuperOffice_CRM_Data_EjscriptTableInfo_SourceCode
+  name: SourceCode
+  nameWithType: EjscriptTableInfo.SourceCode
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.SourceCode
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.Includes*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.Includes
+  isExternal: true
+  href: SuperOffice.CRM.Data.EjscriptTableInfo.html#SuperOffice_CRM_Data_EjscriptTableInfo_Includes
+  name: Includes
+  nameWithType: EjscriptTableInfo.Includes
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.Includes
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LastCompiled*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LastCompiled
+  isExternal: true
+  href: SuperOffice.CRM.Data.EjscriptTableInfo.html#SuperOffice_CRM_Data_EjscriptTableInfo_LastCompiled
+  name: LastCompiled
+  nameWithType: EjscriptTableInfo.LastCompiled
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LastCompiled
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps
+  isExternal: true
+  href: SuperOffice.CRM.Data.EjscriptTableInfo.html#SuperOffice_CRM_Data_EjscriptTableInfo_SourceMaps
+  name: SourceMaps
+  nameWithType: EjscriptTableInfo.SourceMaps
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps
 - uid: SuperOffice.CRM.Data.HierarchyTableInfo
   commentId: T:SuperOffice.CRM.Data.HierarchyTableInfo
   parent: SuperOffice.CRM.Data
@@ -2677,6 +2837,55 @@ references:
     name: ScreenDefinitionActionTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
+  commentId: P:SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ScreenChooserTableInfo.html#SuperOffice_CRM_Data_ScreenChooserTableInfo_EjscriptId
+  name: EjscriptId
+  nameWithType: ScreenChooserTableInfo.EjscriptId
+  fullName: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId
+  isExternal: true
+  href: SuperOffice.CRM.Data.EjscriptTableInfo.html#SuperOffice_CRM_Data_EjscriptTableInfo_LeftOuterJoin_ScreenChooser_EjscriptId
+  name: LeftOuterJoin_ScreenChooser_EjscriptId
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenChooser_EjscriptId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenChooserTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenChooserTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<ScreenChooserTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ScreenChooserTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ScreenChooserTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ScreenChooserTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ScreenChooserTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ScreenChooserTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.ScreenChooserTableInfo
+    name: ScreenChooserTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ScreenChooserTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ScreenChooserTableInfo
+    name: ScreenChooserTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ScreenChooserTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.ScheduledTaskTableInfo.ScriptId
   commentId: P:SuperOffice.CRM.Data.ScheduledTaskTableInfo.ScriptId

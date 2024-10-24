@@ -47,6 +47,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.RecordTypeProvider
   - SuperOffice.CRM.ArchiveLists.SaintActivityTypeProvider
   - SuperOffice.CRM.ArchiveLists.SaintTicketStatusProvider
+  - SuperOffice.CRM.Lists.ActiveLanguageProvider
   - SuperOffice.CRM.Lists.ActivityStatusProvider
   - SuperOffice.CRM.Lists.AllPreferenceKeysProvider
   - SuperOffice.CRM.Lists.AppointmentCategoryListProvider
@@ -66,6 +67,8 @@ items:
   - SuperOffice.CRM.Lists.ContactFavouriteListProvider
   - SuperOffice.CRM.Lists.CreateDocumentTemplatePluginsProvider
   - SuperOffice.CRM.Lists.CredentialGroupProvider
+  - SuperOffice.CRM.Lists.CustomObjectListProvider
+  - SuperOffice.CRM.Lists.CustomObjectRelationProvider
   - SuperOffice.CRM.Lists.DashboardEntityList
   - SuperOffice.CRM.Lists.DashboardTileEntityTypeProvider
   - SuperOffice.CRM.Lists.DashboardTileListProvider
@@ -76,6 +79,7 @@ items:
   - SuperOffice.CRM.Lists.DocumentCompletedProvider
   - SuperOffice.CRM.Lists.DocumentFavouriteListProvider
   - SuperOffice.CRM.Lists.DocumentGroupProvider
+  - SuperOffice.CRM.Lists.DocumentHandlerProvider
   - SuperOffice.CRM.Lists.DocumentTypesListProvider
   - SuperOffice.CRM.Lists.EjUserProvider
   - SuperOffice.CRM.Lists.EmailFromTypeProvider
@@ -110,6 +114,7 @@ items:
   - SuperOffice.CRM.Lists.InvitationTemplateLanguageProvider
   - SuperOffice.CRM.Lists.Iso6391LanguageProvider
   - SuperOffice.CRM.Lists.LanguageProvider
+  - SuperOffice.CRM.Lists.MailClientProvider
   - SuperOffice.CRM.Lists.MailingFavouriteListProvider
   - SuperOffice.CRM.Lists.MailingStatusProvider
   - SuperOffice.CRM.Lists.MailingTypeProvider
@@ -137,6 +142,11 @@ items:
   - SuperOffice.CRM.Lists.QuoteLineStatus
   - SuperOffice.CRM.Lists.QuoteVersionProvider
   - SuperOffice.CRM.Lists.QuoteVersionStateListProvider
+  - SuperOffice.CRM.Lists.RatingDiceProvider
+  - SuperOffice.CRM.Lists.RatingNpsProvider
+  - SuperOffice.CRM.Lists.RatingSmileysProvider
+  - SuperOffice.CRM.Lists.RatingStarsProvider
+  - SuperOffice.CRM.Lists.RatingThumbsProvider
   - SuperOffice.CRM.Lists.RecurrenceEveryMonthProvider
   - SuperOffice.CRM.Lists.RecurrenceWeekCycleProvider
   - SuperOffice.CRM.Lists.ReplyTemplateProvider
@@ -163,6 +173,7 @@ items:
   - SuperOffice.CRM.Lists.TargetMeasurementUnitProvider
   - SuperOffice.CRM.Lists.TargetTypeProvider
   - SuperOffice.CRM.Lists.TargetYearProvider
+  - SuperOffice.CRM.Lists.TemplateVariablesProvider
   - SuperOffice.CRM.Lists.TicketFavouriteListProvider
   - SuperOffice.CRM.Lists.TicketOriginProvider
   - SuperOffice.CRM.Lists.TicketPriorityEscalateEventsProvider

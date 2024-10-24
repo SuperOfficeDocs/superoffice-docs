@@ -6,16 +6,15 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.MessageRecordData.#ctor
-  - SuperOffice.CRM.Rows.MessageRecordData.Description
-  - SuperOffice.CRM.Rows.MessageRecordData.DetailsRecord
-  - SuperOffice.CRM.Rows.MessageRecordData.DetailsTable
+  - SuperOffice.CRM.Rows.MessageRecordData.AssociateId
+  - SuperOffice.CRM.Rows.MessageRecordData.Expire
+  - SuperOffice.CRM.Rows.MessageRecordData.MarkdownMessage
   - SuperOffice.CRM.Rows.MessageRecordData.MessageId
-  - SuperOffice.CRM.Rows.MessageRecordData.MessageType
-  - SuperOffice.CRM.Rows.MessageRecordData.MotherId
+  - SuperOffice.CRM.Rows.MessageRecordData.OnlineappId
   - SuperOffice.CRM.Rows.MessageRecordData.Registered
   - SuperOffice.CRM.Rows.MessageRecordData.RegisteredAssociateId
-  - SuperOffice.CRM.Rows.MessageRecordData.SourceHandler
-  - SuperOffice.CRM.Rows.MessageRecordData.TargetHandler
+  - SuperOffice.CRM.Rows.MessageRecordData.SystemMessageId
+  - SuperOffice.CRM.Rows.MessageRecordData.Type
   - SuperOffice.CRM.Rows.MessageRecordData.Updated
   - SuperOffice.CRM.Rows.MessageRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.MessageRecordData.UpdatedCount
@@ -82,153 +81,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public MessageId As Integer
-- uid: SuperOffice.CRM.Rows.MessageRecordData.SourceHandler
-  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.SourceHandler
-  id: SourceHandler
-  parent: SuperOffice.CRM.Rows.MessageRecordData
-  langs:
-  - csharp
-  - vb
-  name: SourceHandler
-  nameWithType: MessageRecordData.SourceHandler
-  fullName: SuperOffice.CRM.Rows.MessageRecordData.SourceHandler
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Originating message handler
-  example: []
-  syntax:
-    content: public int SourceHandler
-    return:
-      type: System.Int32
-    content.vb: Public SourceHandler As Integer
-- uid: SuperOffice.CRM.Rows.MessageRecordData.TargetHandler
-  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.TargetHandler
-  id: TargetHandler
-  parent: SuperOffice.CRM.Rows.MessageRecordData
-  langs:
-  - csharp
-  - vb
-  name: TargetHandler
-  nameWithType: MessageRecordData.TargetHandler
-  fullName: SuperOffice.CRM.Rows.MessageRecordData.TargetHandler
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Target message handler
-  example: []
-  syntax:
-    content: public int TargetHandler
-    return:
-      type: System.Int32
-    content.vb: Public TargetHandler As Integer
-- uid: SuperOffice.CRM.Rows.MessageRecordData.MotherId
-  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.MotherId
-  id: MotherId
-  parent: SuperOffice.CRM.Rows.MessageRecordData
-  langs:
-  - csharp
-  - vb
-  name: MotherId
-  nameWithType: MessageRecordData.MotherId
-  fullName: SuperOffice.CRM.Rows.MessageRecordData.MotherId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: ID of message that this message is correlated to; 0 if this is the first message of a conversation
-  example: []
-  syntax:
-    content: public int MotherId
-    return:
-      type: System.Int32
-    content.vb: Public MotherId As Integer
-- uid: SuperOffice.CRM.Rows.MessageRecordData.MessageType
-  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.MessageType
-  id: MessageType
-  parent: SuperOffice.CRM.Rows.MessageRecordData
-  langs:
-  - csharp
-  - vb
-  name: MessageType
-  nameWithType: MessageRecordData.MessageType
-  fullName: SuperOffice.CRM.Rows.MessageRecordData.MessageType
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Application-specific message type
-  example: []
-  syntax:
-    content: public uint MessageType
-    return:
-      type: System.UInt32
-    content.vb: Public MessageType As UInteger
-- uid: SuperOffice.CRM.Rows.MessageRecordData.DetailsTable
-  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.DetailsTable
-  id: DetailsTable
-  parent: SuperOffice.CRM.Rows.MessageRecordData
-  langs:
-  - csharp
-  - vb
-  name: DetailsTable
-  nameWithType: MessageRecordData.DetailsTable
-  fullName: SuperOffice.CRM.Rows.MessageRecordData.DetailsTable
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Table containing message body (BatchTask, or some thing else)
-  example: []
-  syntax:
-    content: public short DetailsTable
-    return:
-      type: System.Int16
-    content.vb: Public DetailsTable As Short
-- uid: SuperOffice.CRM.Rows.MessageRecordData.DetailsRecord
-  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.DetailsRecord
-  id: DetailsRecord
-  parent: SuperOffice.CRM.Rows.MessageRecordData
-  langs:
-  - csharp
-  - vb
-  name: DetailsRecord
-  nameWithType: MessageRecordData.DetailsRecord
-  fullName: SuperOffice.CRM.Rows.MessageRecordData.DetailsRecord
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Record containing message body
-  example: []
-  syntax:
-    content: public int DetailsRecord
-    return:
-      type: System.Int32
-    content.vb: Public DetailsRecord As Integer
-- uid: SuperOffice.CRM.Rows.MessageRecordData.Description
-  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.Description
-  id: Description
-  parent: SuperOffice.CRM.Rows.MessageRecordData
-  langs:
-  - csharp
-  - vb
-  name: Description
-  nameWithType: MessageRecordData.Description
-  fullName: SuperOffice.CRM.Rows.MessageRecordData.Description
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Message description, to aid in debugging and monitoring
-  example: []
-  syntax:
-    content: public string Description
-    return:
-      type: System.String
-    content.vb: Public Description As String
 - uid: SuperOffice.CRM.Rows.MessageRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.MessageRecordData.Registered
   id: Registered
@@ -334,6 +186,132 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.MessageRecordData.AssociateId
+  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Rows.MessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: MessageRecordData.AssociateId
+  fullName: SuperOffice.CRM.Rows.MessageRecordData.AssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The associate that is the target of this message
+  example: []
+  syntax:
+    content: public int AssociateId
+    return:
+      type: System.Int32
+    content.vb: Public AssociateId As Integer
+- uid: SuperOffice.CRM.Rows.MessageRecordData.OnlineappId
+  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.OnlineappId
+  id: OnlineappId
+  parent: SuperOffice.CRM.Rows.MessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: OnlineappId
+  nameWithType: MessageRecordData.OnlineappId
+  fullName: SuperOffice.CRM.Rows.MessageRecordData.OnlineappId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The online app that owns this message
+  example: []
+  syntax:
+    content: public int OnlineappId
+    return:
+      type: System.Int32
+    content.vb: Public OnlineappId As Integer
+- uid: SuperOffice.CRM.Rows.MessageRecordData.SystemMessageId
+  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.SystemMessageId
+  id: SystemMessageId
+  parent: SuperOffice.CRM.Rows.MessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: SystemMessageId
+  nameWithType: MessageRecordData.SystemMessageId
+  fullName: SuperOffice.CRM.Rows.MessageRecordData.SystemMessageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Message identifier, used for message update or removal
+  example: []
+  syntax:
+    content: public string SystemMessageId
+    return:
+      type: System.String
+    content.vb: Public SystemMessageId As String
+- uid: SuperOffice.CRM.Rows.MessageRecordData.MarkdownMessage
+  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.MarkdownMessage
+  id: MarkdownMessage
+  parent: SuperOffice.CRM.Rows.MessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: MarkdownMessage
+  nameWithType: MessageRecordData.MarkdownMessage
+  fullName: SuperOffice.CRM.Rows.MessageRecordData.MarkdownMessage
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Markdown message to be displayed to user
+  example: []
+  syntax:
+    content: public string MarkdownMessage
+    return:
+      type: System.String
+    content.vb: Public MarkdownMessage As String
+- uid: SuperOffice.CRM.Rows.MessageRecordData.Expire
+  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.Expire
+  id: Expire
+  parent: SuperOffice.CRM.Rows.MessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Expire
+  nameWithType: MessageRecordData.Expire
+  fullName: SuperOffice.CRM.Rows.MessageRecordData.Expire
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The date and time the message expires in UTC.
+  example: []
+  syntax:
+    content: public DateTime Expire
+    return:
+      type: System.DateTime
+    content.vb: Public Expire As Date
+- uid: SuperOffice.CRM.Rows.MessageRecordData.Type
+  commentId: F:SuperOffice.CRM.Rows.MessageRecordData.Type
+  id: Type
+  parent: SuperOffice.CRM.Rows.MessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageRecordData.Type
+  fullName: SuperOffice.CRM.Rows.MessageRecordData.Type
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: 'Type of message, example: info, warning, error'
+  example: []
+  syntax:
+    content: public SystemMessageType Type
+    return:
+      type: SuperOffice.Data.SystemMessageType
+    content.vb: Public Type As SystemMessageType
 - uid: SuperOffice.CRM.Rows.MessageRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.MessageRecordData.#ctor
   id: '#ctor'
@@ -1214,17 +1192,17 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: System.UInt32
-  commentId: T:System.UInt32
+- uid: System.DateTime
+  commentId: T:System.DateTime
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
@@ -1247,17 +1225,41 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
+- uid: SuperOffice.Data.SystemMessageType
+  commentId: T:SuperOffice.Data.SystemMessageType
+  parent: SuperOffice.Data
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
+  href: SuperOffice.Data.SystemMessageType.html
+  name: SystemMessageType
+  nameWithType: SystemMessageType
+  fullName: SuperOffice.Data.SystemMessageType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Rows.MessageRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.MessageRecordData.#ctor
   isExternal: true

@@ -92,6 +92,7 @@ items:
   - SuperOffice.CRM.Entities.Appointment.UpdatedCount
   - SuperOffice.CRM.Entities.Appointment.UserGroup
   - SuperOffice.CRM.Entities.Appointment.Validate
+  - SuperOffice.CRM.Entities.Appointment.VerifyToDoDates(SuperOffice.Data.TaskType)
   - SuperOffice.CRM.Entities.Appointment.VisibleForHelper
   - SuperOffice.CRM.Entities.Appointment._agenda
   - SuperOffice.CRM.Entities.Appointment._appointmentText
@@ -799,6 +800,30 @@ items:
     content.vb: Public Overrides Function Validate() As Dictionary(Of String, String)
   overridden: SuperOffice.CRM.Entities.EntityBase.Validate
   overload: SuperOffice.CRM.Entities.Appointment.Validate*
+- uid: SuperOffice.CRM.Entities.Appointment.VerifyToDoDates(SuperOffice.Data.TaskType)
+  commentId: M:SuperOffice.CRM.Entities.Appointment.VerifyToDoDates(SuperOffice.Data.TaskType)
+  id: VerifyToDoDates(SuperOffice.Data.TaskType)
+  parent: SuperOffice.CRM.Entities.Appointment
+  langs:
+  - csharp
+  - vb
+  name: VerifyToDoDates(TaskType)
+  nameWithType: Appointment.VerifyToDoDates(TaskType)
+  fullName: SuperOffice.CRM.Entities.Appointment.VerifyToDoDates(SuperOffice.Data.TaskType)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: Verifies the ToDo dates for the appointment are set to expected values (00:00)
+  example: []
+  syntax:
+    content: public void VerifyToDoDates(TaskType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.TaskType
+      description: ''
+    content.vb: Public Sub VerifyToDoDates(type As TaskType)
+  overload: SuperOffice.CRM.Entities.Appointment.VerifyToDoDates*
 - uid: SuperOffice.CRM.Entities.Appointment.#ctor(SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase)
   commentId: M:SuperOffice.CRM.Entities.Appointment.#ctor(SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase)
   id: '#ctor(SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase)'
@@ -6462,6 +6487,13 @@ references:
   - name: " "
   - name: TValue
   - name: )
+- uid: SuperOffice.CRM.Entities.Appointment.VerifyToDoDates*
+  commentId: Overload:SuperOffice.CRM.Entities.Appointment.VerifyToDoDates
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Appointment.html#SuperOffice_CRM_Entities_Appointment_VerifyToDoDates_SuperOffice_Data_TaskType_
+  name: VerifyToDoDates
+  nameWithType: Appointment.VerifyToDoDates
+  fullName: SuperOffice.CRM.Entities.Appointment.VerifyToDoDates
 - uid: SuperOffice.CRM.Entities.Appointment.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.Appointment.#ctor
   isExternal: true

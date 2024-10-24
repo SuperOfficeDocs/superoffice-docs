@@ -14,7 +14,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32,System.Int32)
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(System.Int32)
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
   - SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
   - SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
@@ -106,29 +106,35 @@ items:
   nameWithType.vb: TicketHelper.GetIconHint(String, TicketBaseStatus, Date)
   fullName.vb: SuperOffice.CRM.Ticket.TicketHelper.GetIconHint(String, SuperOffice.Data.TicketBaseStatus, Date)
   name.vb: GetIconHint(String, TicketBaseStatus, Date)
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
-  id: GetTicketSecurityLevelBasedOnPreferences
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(System.Int32)
+  id: GetTicketSecurityLevel(System.Int32)
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: GetTicketSecurityLevelBasedOnPreferences()
-  nameWithType: TicketHelper.GetTicketSecurityLevelBasedOnPreferences()
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences()
+  name: GetTicketSecurityLevel(int)
+  nameWithType: TicketHelper.GetTicketSecurityLevel(int)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(int)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
-  summary: Gets <xref href="SuperOffice.Data.TicketSecurityLevel" data-throw-if-not-resolved="false"></xref> based on preferences
+  summary: Gets <xref href="SuperOffice.Data.TicketSecurityLevel" data-throw-if-not-resolved="false"></xref> depending on TicketTypeId. If the ticketTypeId == 0 default ticket type is used
   example: []
   syntax:
-    content: public static TicketSecurityLevel GetTicketSecurityLevelBasedOnPreferences()
+    content: public static TicketSecurityLevel GetTicketSecurityLevel(int ticketTypeId = 0)
+    parameters:
+    - id: ticketTypeId
+      type: System.Int32
     return:
       type: SuperOffice.Data.TicketSecurityLevel
       description: Resolved <xref href="SuperOffice.Data.TicketSecurityLevel" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Shared Function GetTicketSecurityLevelBasedOnPreferences() As TicketSecurityLevel
-  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences*
+    content.vb: Public Shared Function GetTicketSecurityLevel(ticketTypeId As Integer = 0) As TicketSecurityLevel
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel*
+  nameWithType.vb: TicketHelper.GetTicketSecurityLevel(Integer)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel(Integer)
+  name.vb: GetTicketSecurityLevel(Integer)
 - uid: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
   commentId: M:SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
   id: ResolveTicketId(System.Int32)
@@ -889,13 +895,13 @@ references:
   name: TicketSecurityLevel
   nameWithType: TicketSecurityLevel
   fullName: SuperOffice.Data.TicketSecurityLevel
-- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketHelper.html#SuperOffice_CRM_Ticket_TicketHelper_GetTicketSecurityLevelBasedOnPreferences
-  name: GetTicketSecurityLevelBasedOnPreferences
-  nameWithType: TicketHelper.GetTicketSecurityLevelBasedOnPreferences
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+  href: SuperOffice.CRM.Ticket.TicketHelper.html#SuperOffice_CRM_Ticket_TicketHelper_GetTicketSecurityLevel_System_Int32_
+  name: GetTicketSecurityLevel
+  nameWithType: TicketHelper.GetTicketSecurityLevel
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevel
 - uid: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId
   isExternal: true

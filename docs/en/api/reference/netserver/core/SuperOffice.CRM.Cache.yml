@@ -65,6 +65,7 @@ items:
   - SuperOffice.CRM.Cache.MDOListTableTaskMenuCache
   - SuperOffice.CRM.Cache.MDOListTableUDListCache
   - SuperOffice.CRM.Cache.MDOPreferenceCache
+  - SuperOffice.CRM.Cache.OnlineAppCache
   - SuperOffice.CRM.Cache.PriceListCache
   - SuperOffice.CRM.Cache.ProbCache
   - SuperOffice.CRM.Cache.ProjectStatusCache
@@ -614,6 +615,14 @@ references:
   name: MDOPreferenceCache
   nameWithType: MDOPreferenceCache
   fullName: SuperOffice.CRM.Cache.MDOPreferenceCache
+- uid: SuperOffice.CRM.Cache.OnlineAppCache
+  commentId: T:SuperOffice.CRM.Cache.OnlineAppCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  href: SuperOffice.CRM.Cache.OnlineAppCache.html
+  name: OnlineAppCache
+  nameWithType: OnlineAppCache
+  fullName: SuperOffice.CRM.Cache.OnlineAppCache
 - uid: SuperOffice.CRM.Cache.PriceListCache
   commentId: T:SuperOffice.CRM.Cache.PriceListCache
   parent: SuperOffice.CRM.Cache

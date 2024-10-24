@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   - SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.ContactNameAdditionalInfo
+  - SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.FillList
   - SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
   - SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.GetGroupingAllowedForList
   - SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
@@ -91,7 +92,6 @@ items:
   - SuperOffice.CRM.Lists.MDOProviderBase._tableName
   - SuperOffice.CRM.Lists.MDOProviderBase._tableListInfo
   - SuperOffice.CRM.Lists.MDOProviderBase._listInfo
-  - SuperOffice.CRM.Lists.MDOProviderBase.FillList
   - SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
   - SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
@@ -374,6 +374,30 @@ items:
     content.vb: Protected Overrides Sub GenerateCommonQuery(query As ListTableRows.CustomSearch, li As ListInfo)
   overridden: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
   overload: SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.GenerateCommonQuery*
+- uid: SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.FillList
+  commentId: M:SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.FillList
+  id: FillList
+  parent: SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider
+  langs:
+  - csharp
+  - vb
+  name: FillList()
+  nameWithType: VisibleForAssociateMDOProvider.FillList()
+  fullName: SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.FillList()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: >-
+    Fill the list with items
+
+    Filtering out duplicate person id's if the additional info specifies that we should include an email join
+  example: []
+  syntax:
+    content: protected override void FillList()
+    content.vb: Protected Overrides Sub FillList()
+  overridden: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+  overload: SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.FillList*
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
@@ -1222,28 +1246,6 @@ references:
   name: _listInfo
   nameWithType: MDOProviderBase._listInfo
   fullName: SuperOffice.CRM.Lists.MDOProviderBase._listInfo
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.FillList
-  parent: SuperOffice.CRM.Lists.MDOProviderBase
-  isExternal: true
-  href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_FillList
-  name: FillList()
-  nameWithType: MDOProviderBase.FillList()
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillList()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
-    name: FillList
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_FillList
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
-    name: FillList
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_FillList
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
@@ -2659,3 +2661,32 @@ references:
     name: Dictionary
     isExternal: true
     href: SuperOffice.Data.Dictionary.html
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.FillList
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_FillList
+  name: FillList()
+  nameWithType: MDOProviderBase.FillList()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+    name: FillList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_FillList
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+    name: FillList
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_FillList
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.FillList*
+  commentId: Overload:SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.FillList
+  isExternal: true
+  href: SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.html#SuperOffice_CRM_Lists_VisibleForAssociateMDOProvider_FillList
+  name: FillList
+  nameWithType: VisibleForAssociateMDOProvider.FillList
+  fullName: SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider.FillList

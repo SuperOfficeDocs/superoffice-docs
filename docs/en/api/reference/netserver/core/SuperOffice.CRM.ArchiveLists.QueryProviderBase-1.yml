@@ -81,7 +81,7 @@ items:
   - System.Object
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
   derivedClasses:
-  - SuperOffice.CRM.ArchiveLists.ExtraTableProvider
+  - SuperOffice.CRM.ArchiveLists.CustomObjectProviderBase
   - SuperOffice.CRM.ArchiveLists.ListItemsProvider
   - SuperOffice.CRM.ArchiveLists.ParticipantsSubProviderBase
   - SuperOffice.CRM.ArchiveLists.ProjectMemberAssociateProvider

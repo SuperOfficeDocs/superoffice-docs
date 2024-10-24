@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRecordData.AssociateId
   - SuperOffice.CRM.Rows.SaleRecordData.ComptrId
   - SuperOffice.CRM.Rows.SaleRecordData.ContactId
+  - SuperOffice.CRM.Rows.SaleRecordData.CreatedByWorkflowId
   - SuperOffice.CRM.Rows.SaleRecordData.CreditedId
   - SuperOffice.CRM.Rows.SaleRecordData.CurrencyId
   - SuperOffice.CRM.Rows.SaleRecordData.Done
@@ -972,6 +973,27 @@ items:
     return:
       type: System.Int32
     content.vb: Public ActiveErpLinks As Integer
+- uid: SuperOffice.CRM.Rows.SaleRecordData.CreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.SaleRecordData.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.SaleRecordData
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: SaleRecordData.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.SaleRecordData.CreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The workflow this sale was created by
+  example: []
+  syntax:
+    content: public int CreatedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Public CreatedByWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.SaleRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SaleRecordData.#ctor
   id: '#ctor'

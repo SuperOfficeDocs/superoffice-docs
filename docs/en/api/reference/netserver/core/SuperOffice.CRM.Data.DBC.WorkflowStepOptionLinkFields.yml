@@ -5,6 +5,7 @@ items:
   id: DBC.WorkflowStepOptionLinkFields
   parent: SuperOffice.CRM.Data
   children:
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Rank
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Registered
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Updated
@@ -206,6 +207,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.WorkflowStepOptionLinkFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Rank
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'WorkflowStepOptionLink.Rank: Step order'
+  example: []
+  syntax:
+    content: public const string Rank = "Rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "Rank"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

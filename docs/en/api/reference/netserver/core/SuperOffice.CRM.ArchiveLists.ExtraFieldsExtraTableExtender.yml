@@ -5,8 +5,8 @@ items:
   id: ExtraFieldsExtraTableExtender
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo)
-  - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.SetJoin
   - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.ShowField(SuperOffice.Data.Dictionary.SoField)
   langs:
@@ -36,6 +36,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.AnalyzeTable
@@ -167,63 +168,63 @@ items:
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo,System.Boolean)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo,System.Boolean)
-  id: '#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo,System.Boolean)'
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo,System.Boolean)
+  id: '#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo,System.Boolean)'
   parent: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender
   langs:
   - csharp
   - vb
   name: ExtraFieldsExtraTableExtender(SoField, string, RecursionInfo, bool)
-  nameWithType: ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender(SoField, string, ExtraFieldExtenderBase.RecursionInfo, bool)
-  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender(SuperOffice.Data.Dictionary.SoField, string, SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo, bool)
+  nameWithType: ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender(SoField, string, RecursionInfo, bool)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender(SuperOffice.Data.Dictionary.SoField, string, SuperOffice.CRM.ArchiveLists.RecursionInfo, bool)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public ExtraFieldsExtraTableExtender(SoField parentFK, string iconHint, ExtraFieldExtenderBase.RecursionInfo recursionInfo, bool showAllColumns)
+    content: public ExtraFieldsExtraTableExtender(SoField parentFK, string iconHint, RecursionInfo recursionInfo, bool showAllColumns)
     parameters:
     - id: parentFK
       type: SuperOffice.Data.Dictionary.SoField
     - id: iconHint
       type: System.String
     - id: recursionInfo
-      type: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
+      type: SuperOffice.CRM.ArchiveLists.RecursionInfo
     - id: showAllColumns
       type: System.Boolean
-    content.vb: Public Sub New(parentFK As SoField, iconHint As String, recursionInfo As ExtraFieldExtenderBase.RecursionInfo, showAllColumns As Boolean)
+    content.vb: Public Sub New(parentFK As SoField, iconHint As String, recursionInfo As RecursionInfo, showAllColumns As Boolean)
   overload: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor*
-  nameWithType.vb: ExtraFieldsExtraTableExtender.New(SoField, String, ExtraFieldExtenderBase.RecursionInfo, Boolean)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.New(SuperOffice.Data.Dictionary.SoField, String, SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo, Boolean)
+  nameWithType.vb: ExtraFieldsExtraTableExtender.New(SoField, String, RecursionInfo, Boolean)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.New(SuperOffice.Data.Dictionary.SoField, String, SuperOffice.CRM.ArchiveLists.RecursionInfo, Boolean)
   name.vb: New(SoField, String, RecursionInfo, Boolean)
-- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo)
-  id: '#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo)'
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
+  id: '#ctor(SuperOffice.Data.Dictionary.SoField,System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)'
   parent: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender
   langs:
   - csharp
   - vb
   name: ExtraFieldsExtraTableExtender(SoField, string, RecursionInfo)
-  nameWithType: ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender(SoField, string, ExtraFieldExtenderBase.RecursionInfo)
-  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender(SuperOffice.Data.Dictionary.SoField, string, SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo)
+  nameWithType: ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender(SoField, string, RecursionInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender(SuperOffice.Data.Dictionary.SoField, string, SuperOffice.CRM.ArchiveLists.RecursionInfo)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public ExtraFieldsExtraTableExtender(SoField relationFK, string iconHint, ExtraFieldExtenderBase.RecursionInfo recursionInfo)
+    content: public ExtraFieldsExtraTableExtender(SoField relationFK, string iconHint, RecursionInfo recursionInfo)
     parameters:
     - id: relationFK
       type: SuperOffice.Data.Dictionary.SoField
     - id: iconHint
       type: System.String
     - id: recursionInfo
-      type: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-    content.vb: Public Sub New(relationFK As SoField, iconHint As String, recursionInfo As ExtraFieldExtenderBase.RecursionInfo)
+      type: SuperOffice.CRM.ArchiveLists.RecursionInfo
+    content.vb: Public Sub New(relationFK As SoField, iconHint As String, recursionInfo As RecursionInfo)
   overload: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor*
-  nameWithType.vb: ExtraFieldsExtraTableExtender.New(SoField, String, ExtraFieldExtenderBase.RecursionInfo)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.New(SuperOffice.Data.Dictionary.SoField, String, SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo)
+  nameWithType.vb: ExtraFieldsExtraTableExtender.New(SoField, String, RecursionInfo)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.New(SuperOffice.Data.Dictionary.SoField, String, SuperOffice.CRM.ArchiveLists.RecursionInfo)
   name.vb: New(SoField, String, RecursionInfo)
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.SetJoin
@@ -456,6 +457,14 @@ references:
   name: _soTable
   nameWithType: ExtraFieldExtenderBase._soTable
   fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
+  parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ExtraFieldExtenderBase__recursionInfo
+  name: _recursionInfo
+  nameWithType: ExtraFieldExtenderBase._recursionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
@@ -5005,7 +5014,7 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.#ctor
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.html#SuperOffice_CRM_ArchiveLists_ExtraFieldsExtraTableExtender__ctor_SuperOffice_Data_Dictionary_SoField_System_String_SuperOffice_CRM_ArchiveLists_ExtraFieldExtenderBase_RecursionInfo_System_Boolean_
+  href: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.html#SuperOffice_CRM_ArchiveLists_ExtraFieldsExtraTableExtender__ctor_SuperOffice_Data_Dictionary_SoField_System_String_SuperOffice_CRM_ArchiveLists_RecursionInfo_System_Boolean_
   name: ExtraFieldsExtraTableExtender
   nameWithType: ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender
   fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender.ExtraFieldsExtraTableExtender
@@ -5031,34 +5040,14 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-  commentId: T:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
+- uid: SuperOffice.CRM.ArchiveLists.RecursionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.RecursionInfo
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html
-  name: ExtraFieldExtenderBase.RecursionInfo
-  nameWithType: ExtraFieldExtenderBase.RecursionInfo
-  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
-    name: ExtraFieldExtenderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-    name: RecursionInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo.html
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
-    name: ExtraFieldExtenderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-    name: RecursionInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo.html
+  href: SuperOffice.CRM.ArchiveLists.RecursionInfo.html
+  name: RecursionInfo
+  nameWithType: RecursionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.RecursionInfo
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

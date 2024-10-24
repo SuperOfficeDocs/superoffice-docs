@@ -8,6 +8,9 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeRecordData.#ctor
   - SuperOffice.CRM.Rows.TicketTypeRecordData.DefaultPriority
   - SuperOffice.CRM.Rows.TicketTypeRecordData.DefaultStatus
+  - SuperOffice.CRM.Rows.TicketTypeRecordData.ExcludeEmailRecipients
+  - SuperOffice.CRM.Rows.TicketTypeRecordData.ExcludeSignature
+  - SuperOffice.CRM.Rows.TicketTypeRecordData.ExternalAsDefault
   - SuperOffice.CRM.Rows.TicketTypeRecordData.Icon
   - SuperOffice.CRM.Rows.TicketTypeRecordData.IsDefault
   - SuperOffice.CRM.Rows.TicketTypeRecordData.IsExternal
@@ -15,12 +18,16 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeRecordData.Rank
   - SuperOffice.CRM.Rows.TicketTypeRecordData.Registered
   - SuperOffice.CRM.Rows.TicketTypeRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyExternalAsDefault
+  - SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyForwardNoSignature
   - SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyTemplate
+  - SuperOffice.CRM.Rows.TicketTypeRecordData.ShowInNew
   - SuperOffice.CRM.Rows.TicketTypeRecordData.TicketTypeId
   - SuperOffice.CRM.Rows.TicketTypeRecordData.Tooltip
   - SuperOffice.CRM.Rows.TicketTypeRecordData.Updated
   - SuperOffice.CRM.Rows.TicketTypeRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.TicketTypeRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.TicketTypeRecordData.VisibleForGroups
   langs:
   - csharp
   - vb
@@ -378,6 +385,153 @@ items:
     return:
       type: System.Int16
     content.vb: Public IsDefault As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRecordData.ShowInNew
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRecordData.ShowInNew
+  id: ShowInNew
+  parent: SuperOffice.CRM.Rows.TicketTypeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ShowInNew
+  nameWithType: TicketTypeRecordData.ShowInNew
+  fullName: SuperOffice.CRM.Rows.TicketTypeRecordData.ShowInNew
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Enables this request type to be accessible in +New in top bar
+  example: []
+  syntax:
+    content: public short ShowInNew
+    return:
+      type: System.Int16
+    content.vb: Public ShowInNew As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRecordData.ExcludeSignature
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRecordData.ExcludeSignature
+  id: ExcludeSignature
+  parent: SuperOffice.CRM.Rows.TicketTypeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExcludeSignature
+  nameWithType: TicketTypeRecordData.ExcludeSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRecordData.ExcludeSignature
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Do not insert user signature automatically
+  example: []
+  syntax:
+    content: public short ExcludeSignature
+    return:
+      type: System.Int16
+    content.vb: Public ExcludeSignature As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRecordData.ExcludeEmailRecipients
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRecordData.ExcludeEmailRecipients
+  id: ExcludeEmailRecipients
+  parent: SuperOffice.CRM.Rows.TicketTypeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExcludeEmailRecipients
+  nameWithType: TicketTypeRecordData.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Rows.TicketTypeRecordData.ExcludeEmailRecipients
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Create request without initially having to send outbound e-mail
+  example: []
+  syntax:
+    content: public short ExcludeEmailRecipients
+    return:
+      type: System.Int16
+    content.vb: Public ExcludeEmailRecipients As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRecordData.ExternalAsDefault
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRecordData.ExternalAsDefault
+  id: ExternalAsDefault
+  parent: SuperOffice.CRM.Rows.TicketTypeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExternalAsDefault
+  nameWithType: TicketTypeRecordData.ExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRecordData.ExternalAsDefault
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Ability to set external access level for this request type
+  example: []
+  syntax:
+    content: public short ExternalAsDefault
+    return:
+      type: System.Int16
+    content.vb: Public ExternalAsDefault As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRecordData.VisibleForGroups
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRecordData.VisibleForGroups
+  id: VisibleForGroups
+  parent: SuperOffice.CRM.Rows.TicketTypeRecordData
+  langs:
+  - csharp
+  - vb
+  name: VisibleForGroups
+  nameWithType: TicketTypeRecordData.VisibleForGroups
+  fullName: SuperOffice.CRM.Rows.TicketTypeRecordData.VisibleForGroups
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Array of references to the visible for groups
+  example: []
+  syntax:
+    content: public int[] VisibleForGroups
+    return:
+      type: System.Int32[]
+    content.vb: Public VisibleForGroups As Integer()
+- uid: SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyForwardNoSignature
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyForwardNoSignature
+  id: ReplyForwardNoSignature
+  parent: SuperOffice.CRM.Rows.TicketTypeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeRecordData.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyForwardNoSignature
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Do not insert user signature when replying or forwarding the message
+  example: []
+  syntax:
+    content: public short ReplyForwardNoSignature
+    return:
+      type: System.Int16
+    content.vb: Public ReplyForwardNoSignature As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyExternalAsDefault
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyExternalAsDefault
+  id: ReplyExternalAsDefault
+  parent: SuperOffice.CRM.Rows.TicketTypeRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeRecordData.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRecordData.ReplyExternalAsDefault
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Set external access level when replying the message
+  example: []
+  syntax:
+    content: public short ReplyExternalAsDefault
+    return:
+      type: System.Int16
+    content.vb: Public ReplyExternalAsDefault As Short
 - uid: SuperOffice.CRM.Rows.TicketTypeRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.TicketTypeRecordData.#ctor
   id: '#ctor'
@@ -1291,6 +1445,29 @@ references:
   nameWithType.vb: Date
   fullName.vb: Date
   name.vb: Date
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.TicketTypeRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRecordData.#ctor
   isExternal: true

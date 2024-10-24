@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxDefaultPriority(System.Int32)
   - SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxDefaultStatus(System.Int32)
   - SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxReplyTemplate(System.Int32)
+  - SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups(System.Int32[])
   - SuperOffice.CRM.Rows.TicketTypeRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TicketTypeTableInfo)
   - SuperOffice.CRM.Rows.TicketTypeRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.TicketTypeRows.Remove(SuperOffice.CRM.Rows.TicketTypeRow)
@@ -396,6 +397,44 @@ items:
   nameWithType.vb: TicketTypeRows.GetFromIdxReplyTemplate(Integer)
   fullName.vb: SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxReplyTemplate(Integer)
   name.vb: GetFromIdxReplyTemplate(Integer)
+- uid: SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups(System.Int32[])
+  commentId: M:SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups(System.Int32[])
+  id: GetFromIdxVisibleForGroups(System.Int32[])
+  parent: SuperOffice.CRM.Rows.TicketTypeRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxVisibleForGroups(int[])
+  nameWithType: TicketTypeRows.GetFromIdxVisibleForGroups(int[])
+  fullName: SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups(int[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the TicketTypeRow object, by querying the database table via the index 'IDXTicket_typeVisible_for_groups'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the TicketType table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.TicketTypeRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static TicketTypeRows GetFromIdxVisibleForGroups(int[] visibleForGroups)
+    parameters:
+    - id: visibleForGroups
+      type: System.Int32[]
+    return:
+      type: SuperOffice.CRM.Rows.TicketTypeRows
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxVisibleForGroups(visibleForGroups As Integer()) As TicketTypeRows
+  overload: SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups*
+  nameWithType.vb: TicketTypeRows.GetFromIdxVisibleForGroups(Integer())
+  fullName.vb: SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups(Integer())
+  name.vb: GetFromIdxVisibleForGroups(Integer())
 - uid: SuperOffice.CRM.Rows.TicketTypeRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TicketTypeTableInfo)
   commentId: M:SuperOffice.CRM.Rows.TicketTypeRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TicketTypeTableInfo)
   id: GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TicketTypeTableInfo)
@@ -2850,6 +2889,36 @@ references:
   name: GetFromIdxReplyTemplate
   nameWithType: TicketTypeRows.GetFromIdxReplyTemplate
   fullName: SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxReplyTemplate
+- uid: SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRows.html#SuperOffice_CRM_Rows_TicketTypeRows_GetFromIdxVisibleForGroups_System_Int32___
+  name: GetFromIdxVisibleForGroups
+  nameWithType: TicketTypeRows.GetFromIdxVisibleForGroups
+  fullName: SuperOffice.CRM.Rows.TicketTypeRows.GetFromIdxVisibleForGroups
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true

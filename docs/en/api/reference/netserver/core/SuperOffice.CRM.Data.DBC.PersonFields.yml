@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Data.DBC.PersonFields.CategoryIdx
   - SuperOffice.CRM.Data.DBC.PersonFields.ContactId
   - SuperOffice.CRM.Data.DBC.PersonFields.CountryId
+  - SuperOffice.CRM.Data.DBC.PersonFields.CreatedByFormId
   - SuperOffice.CRM.Data.DBC.PersonFields.DayOfBirth
   - SuperOffice.CRM.Data.DBC.PersonFields.DbiAgentId
   - SuperOffice.CRM.Data.DBC.PersonFields.DbiKey
@@ -28,6 +29,8 @@ items:
   - SuperOffice.CRM.Data.DBC.PersonFields.Kanalname
   - SuperOffice.CRM.Data.DBC.PersonFields.Lastname
   - SuperOffice.CRM.Data.DBC.PersonFields.MiddleName
+  - SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowId
+  - SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowWhen
   - SuperOffice.CRM.Data.DBC.PersonFields.MonthOfBirth
   - SuperOffice.CRM.Data.DBC.PersonFields.Mrmrs
   - SuperOffice.CRM.Data.DBC.PersonFields.Nomailing
@@ -1218,6 +1221,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const DeletedDate As String = "DeletedDate"
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.CreatedByFormId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.CreatedByFormId
+  id: CreatedByFormId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedByFormId
+  nameWithType: DBC.PersonFields.CreatedByFormId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.CreatedByFormId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Person.CreatedByFormId: The form this person was created by'
+  example: []
+  syntax:
+    content: public const string CreatedByFormId = "created_by_form_id"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedByFormId As String = "created_by_form_id"
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowId
+  id: ModifiedByWorkflowId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowId
+  nameWithType: DBC.PersonFields.ModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Person.ModifiedByWorkflowId: The workflow this person last was modified by'
+  example: []
+  syntax:
+    content: public const string ModifiedByWorkflowId = "modified_by_workflow_id"
+    return:
+      type: System.String
+    content.vb: Public Const ModifiedByWorkflowId As String = "modified_by_workflow_id"
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowWhen
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowWhen
+  id: ModifiedByWorkflowWhen
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowWhen
+  nameWithType: DBC.PersonFields.ModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Person.ModifiedByWorkflowWhen: When the workflow modified this person'
+  example: []
+  syntax:
+    content: public const string ModifiedByWorkflowWhen = "modified_by_workflow_when"
+    return:
+      type: System.String
+    content.vb: Public Const ModifiedByWorkflowWhen As String = "modified_by_workflow_when"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

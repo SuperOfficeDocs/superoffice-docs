@@ -86,6 +86,10 @@ items:
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{K}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{V}})
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{K}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{V}},System.Collections.Generic.IEqualityComparer{{K}})
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.Permute``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TKey}})
+  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TKey}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TKey}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TElement}})
+  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TKey}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TElement}},System.Collections.Generic.IEqualityComparer{{TKey}})
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEqualityComparer{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}})
@@ -3038,6 +3042,798 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  name: ToDictionaryPermissive<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>(System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey)(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey)(System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey))
+  name.vb: ToDictionaryPermissive(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey)(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TKey}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>(System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey)(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey)(System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey)(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TKey}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TElement}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  name: ToDictionaryPermissive<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey, TElement>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TElement>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey, TElement>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TElement>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey, TElement>(System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TElement>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey, TElement)(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TElement))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey, TElement)(System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TElement))
+  name.vb: ToDictionaryPermissive(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey, TElement)(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TElement))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``1},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``1},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TKey}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{TElement}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey, TElement>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TElement>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey, TElement>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, TElement>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey, TElement>(System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TKey>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, TElement>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey, TElement)(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TElement), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey, TElement)(System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), TElement), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey, TElement)(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TKey), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), TElement), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``1},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: <
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``1},System.Func{SuperOffice.Util.MatrixItem{`0,`1,`2},``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    isExternal: true
+    href: SuperOffice.Util.MatrixItem-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKeyColumn
+  - name: ','
+  - name: " "
+  - name: TKeyRow
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   parent: SuperOffice.Util.CollectionOps
@@ -4367,6 +5163,430 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  name: ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  name: ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TElement))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TElement), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
   - name: )
 - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})

@@ -10,6 +10,8 @@ items:
   - SuperOffice.CRM.Data.ScreenChooserTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.ScreenChooserTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.ScreenChooserTableInfo.Ejscript
+  - SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
+  - SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript
   - SuperOffice.CRM.Data.ScreenChooserTableInfo.Enabled
   - SuperOffice.CRM.Data.ScreenChooserTableInfo.LeftOuterJoin_ExtraTables_ScreenChooserAll
   - SuperOffice.CRM.Data.ScreenChooserTableInfo.LeftOuterJoin_ExtraTables_ScreenChooserEdit
@@ -512,6 +514,32 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ScreenChooserTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
+  commentId: P:SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
+  id: EjscriptId
+  parent: SuperOffice.CRM.Data.ScreenChooserTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EjscriptId
+  nameWithType: ScreenChooserTableInfo.EjscriptId
+  fullName: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'ejscript_id' in table 'screen_chooser': Dictionary type FK, target: Ejscript, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The ejscript row containing the TypeScript for this trigger
+  example: []
+  syntax:
+    content: public Int32FieldInfo EjscriptId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property EjscriptId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId*
 - uid: SuperOffice.CRM.Data.ScreenChooserTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.ScreenChooserTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -558,6 +586,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.ScreenChooserTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript
+  commentId: P:SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript
+  id: EjscriptId_InnerJoin_Ejscript
+  parent: SuperOffice.CRM.Data.ScreenChooserTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EjscriptId_InnerJoin_Ejscript
+  nameWithType: ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript
+  fullName: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key EjscriptId in this table, to its target table <xref href="SuperOffice.CRM.Data.EjscriptTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<EjscriptTableInfo> EjscriptId_InnerJoin_Ejscript { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjscriptTableInfo}
+    content.vb: Public ReadOnly Property EjscriptId_InnerJoin_Ejscript As TargetedInnerJoin(Of EjscriptTableInfo)
+  overload: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript*
 - uid: SuperOffice.CRM.Data.ScreenChooserTableInfo.LeftOuterJoin_ExtraTables_ScreenChooserEntry
   commentId: P:SuperOffice.CRM.Data.ScreenChooserTableInfo.LeftOuterJoin_ExtraTables_ScreenChooserEntry
   id: LeftOuterJoin_ExtraTables_ScreenChooserEntry
@@ -1667,6 +1718,13 @@ references:
   name: UpdatedCount
   nameWithType: ScreenChooserTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.ScreenChooserTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ScreenChooserTableInfo.html#SuperOffice_CRM_Data_ScreenChooserTableInfo_EjscriptId
+  name: EjscriptId
+  nameWithType: ScreenChooserTableInfo.EjscriptId
+  fullName: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data
@@ -1752,6 +1810,56 @@ references:
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: ScreenChooserTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.ScreenChooserTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo
+  commentId: T:SuperOffice.CRM.Data.EjscriptTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.EjscriptTableInfo.html
+  name: EjscriptTableInfo
+  nameWithType: EjscriptTableInfo
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo
+- uid: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript
+  isExternal: true
+  href: SuperOffice.CRM.Data.ScreenChooserTableInfo.html#SuperOffice_CRM_Data_ScreenChooserTableInfo_EjscriptId_InnerJoin_Ejscript
+  name: EjscriptId_InnerJoin_Ejscript
+  nameWithType: ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript
+  fullName: SuperOffice.CRM.Data.ScreenChooserTableInfo.EjscriptId_InnerJoin_Ejscript
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjscriptTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjscriptTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<EjscriptTableInfo>
+  nameWithType: TargetedInnerJoin<EjscriptTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.EjscriptTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of EjscriptTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.EjscriptTableInfo)
+  name.vb: TargetedInnerJoin(Of EjscriptTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.EjscriptTableInfo
+    name: EjscriptTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.EjscriptTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.EjscriptTableInfo
+    name: EjscriptTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.EjscriptTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.ScreenChooserEntry
   commentId: P:SuperOffice.CRM.Data.ExtraTablesTableInfo.ScreenChooserEntry
   isExternal: true

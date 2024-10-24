@@ -7,7 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Lists.TaskProvider.#ctor
   - SuperOffice.CRM.Lists.TaskProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.TaskProvider.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.TaskProvider.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.TaskProvider.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.TaskProvider.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.TaskProvider.GetPreferredSortOrder
   - SuperOffice.CRM.Lists.TaskProvider.HistoryInfo
@@ -69,8 +71,6 @@ items:
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
   - SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
-  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
-  - SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
@@ -260,6 +260,62 @@ items:
     content.vb: Protected Overrides Function GetItemType(row As ListTableRow) As String
   overridden: SuperOffice.CRM.Lists.MDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
   overload: SuperOffice.CRM.Lists.TaskProvider.GetItemType*
+- uid: SuperOffice.CRM.Lists.TaskProvider.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.TaskProvider.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  id: GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.TaskProvider
+  langs:
+  - csharp
+  - vb
+  name: GetItemIconHint(ListTableRow)
+  nameWithType: TaskProvider.GetItemIconHint(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.TaskProvider.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: Get a value for the field IconHint in ISoList for an item element
+  example: []
+  syntax:
+    content: protected override string GetItemIconHint(ListTableRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Lists.ListTableRow
+      description: The actual row for which the item is created
+    return:
+      type: System.String
+      description: An icon hint text
+    content.vb: Protected Overrides Function GetItemIconHint(row As ListTableRow) As String
+  overridden: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  overload: SuperOffice.CRM.Lists.TaskProvider.GetItemIconHint*
+- uid: SuperOffice.CRM.Lists.TaskProvider.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.TaskProvider.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  id: GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.TaskProvider
+  langs:
+  - csharp
+  - vb
+  name: GetHeadingIconHint(ListTableRow)
+  nameWithType: TaskProvider.GetHeadingIconHint(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.TaskProvider.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: Get a value for the field IconHint in ISoList for a heading element
+  example: []
+  syntax:
+    content: protected override string GetHeadingIconHint(ListTableRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Lists.ListTableRow
+      description: The actual row for which the item is created
+    return:
+      type: System.String
+      description: An icon hint text
+    content.vb: Protected Overrides Function GetHeadingIconHint(row As ListTableRow) As String
+  overridden: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  overload: SuperOffice.CRM.Lists.TaskProvider.GetHeadingIconHint*
 - uid: SuperOffice.CRM.Lists.TaskProvider.#ctor
   commentId: M:SuperOffice.CRM.Lists.TaskProvider.#ctor
   id: '#ctor'
@@ -813,66 +869,6 @@ references:
     name: GetHeadingType
     isExternal: true
     href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetHeadingType_SuperOffice_CRM_Lists_ListTableRow_
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ListTableRow
-    name: ListTableRow
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListTableRow.html
-  - name: )
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
-  parent: SuperOffice.CRM.Lists.MDOProviderBase
-  isExternal: true
-  href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
-  name: GetItemIconHint(ListTableRow)
-  nameWithType: MDOProviderBase.GetItemIconHint(ListTableRow)
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
-    name: GetItemIconHint
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ListTableRow
-    name: ListTableRow
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListTableRow.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
-    name: GetItemIconHint
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ListTableRow
-    name: ListTableRow
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListTableRow.html
-  - name: )
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
-  parent: SuperOffice.CRM.Lists.MDOProviderBase
-  isExternal: true
-  href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
-  name: GetHeadingIconHint(ListTableRow)
-  nameWithType: MDOProviderBase.GetHeadingIconHint(ListTableRow)
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
-    name: GetHeadingIconHint
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ListTableRow
-    name: ListTableRow
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListTableRow.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
-    name: GetHeadingIconHint
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow
@@ -2503,6 +2499,80 @@ references:
   name: GetItemType
   nameWithType: TaskProvider.GetItemType
   fullName: SuperOffice.CRM.Lists.TaskProvider.GetItemType
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
+  name: GetItemIconHint(ListTableRow)
+  nameWithType: MDOProviderBase.GetItemIconHint(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemIconHint
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
+  - name: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ListTableRow.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemIconHint
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
+  - name: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ListTableRow.html
+  - name: )
+- uid: SuperOffice.CRM.Lists.TaskProvider.GetItemIconHint*
+  commentId: Overload:SuperOffice.CRM.Lists.TaskProvider.GetItemIconHint
+  isExternal: true
+  href: SuperOffice.CRM.Lists.TaskProvider.html#SuperOffice_CRM_Lists_TaskProvider_GetItemIconHint_SuperOffice_CRM_Lists_ListTableRow_
+  name: GetItemIconHint
+  nameWithType: TaskProvider.GetItemIconHint
+  fullName: SuperOffice.CRM.Lists.TaskProvider.GetItemIconHint
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
+  name: GetHeadingIconHint(ListTableRow)
+  nameWithType: MDOProviderBase.GetHeadingIconHint(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetHeadingIconHint
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
+  - name: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ListTableRow.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetHeadingIconHint
+    isExternal: true
+    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
+  - name: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ListTableRow.html
+  - name: )
+- uid: SuperOffice.CRM.Lists.TaskProvider.GetHeadingIconHint*
+  commentId: Overload:SuperOffice.CRM.Lists.TaskProvider.GetHeadingIconHint
+  isExternal: true
+  href: SuperOffice.CRM.Lists.TaskProvider.html#SuperOffice_CRM_Lists_TaskProvider_GetHeadingIconHint_SuperOffice_CRM_Lists_ListTableRow_
+  name: GetHeadingIconHint
+  nameWithType: TaskProvider.GetHeadingIconHint
+  fullName: SuperOffice.CRM.Lists.TaskProvider.GetHeadingIconHint
 - uid: SuperOffice.CRM.Lists.TaskProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.TaskProvider.#ctor
   isExternal: true

@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.SaintRegenerator.#ctor(SuperOffice.CRM.Entities.ProgressCallback)
+  - SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
   - SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
   langs:
   - csharp
@@ -57,6 +58,24 @@ items:
   nameWithType.vb: SaintRegenerator.New(ProgressCallback)
   fullName.vb: SuperOffice.CRM.Entities.SaintRegenerator.New(SuperOffice.CRM.Entities.ProgressCallback)
   name.vb: New(ProgressCallback)
+- uid: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
+  commentId: M:SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
+  id: EnsureUdefs
+  parent: SuperOffice.CRM.Entities.SaintRegenerator
+  langs:
+  - csharp
+  - vb
+  name: EnsureUdefs()
+  nameWithType: SaintRegenerator.EnsureUdefs()
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static void EnsureUdefs()
+    content.vb: Public Shared Sub EnsureUdefs()
+  overload: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs*
 - uid: SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
   commentId: M:SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
   id: Regenerate
@@ -608,6 +627,13 @@ references:
   name: ProgressCallback
   nameWithType: ProgressCallback
   fullName: SuperOffice.CRM.Entities.ProgressCallback
+- uid: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs*
+  commentId: Overload:SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
+  isExternal: true
+  href: SuperOffice.CRM.Entities.SaintRegenerator.html#SuperOffice_CRM_Entities_SaintRegenerator_EnsureUdefs
+  name: EnsureUdefs
+  nameWithType: SaintRegenerator.EnsureUdefs
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator.EnsureUdefs
 - uid: SuperOffice.CRM.Entities.SaintRegenerator.Regenerate*
   commentId: Overload:SuperOffice.CRM.Entities.SaintRegenerator.Regenerate
   isExternal: true

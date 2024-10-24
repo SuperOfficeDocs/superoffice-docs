@@ -6,8 +6,10 @@ items:
   parent: SuperOffice.CRM.Cache
   children:
   - SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.GetAllExtraTables
   - SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent
   - SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(System.Int32)
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(System.String)
   - SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.Int32)
   - SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.String,System.String)
   - SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraTablesDefinition(System.Int32)
@@ -171,6 +173,26 @@ items:
   nameWithType.vb: ExtraFieldsCache.GetExtraTablesDefinition(String)
   fullName.vb: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraTablesDefinition(String)
   name.vb: GetExtraTablesDefinition(String)
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetAllExtraTables
+  commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.GetAllExtraTables
+  id: GetAllExtraTables
+  parent: SuperOffice.CRM.Cache.ExtraFieldsCache
+  langs:
+  - csharp
+  - vb
+  name: GetAllExtraTables()
+  nameWithType: ExtraFieldsCache.GetAllExtraTables()
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetAllExtraTables()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public IEnumerable<ExtraTablesRecordData> GetAllExtraTables()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ExtraTablesRecordData}
+    content.vb: Public Function GetAllExtraTables() As IEnumerable(Of ExtraTablesRecordData)
+  overload: SuperOffice.CRM.Cache.ExtraFieldsCache.GetAllExtraTables*
 - uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(System.Int32)
   commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(System.Int32)
   id: GetDisplayField(System.Int32)
@@ -186,17 +208,43 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
   syntax:
-    content: public ExtraFieldsRecordData GetDisplayField(int tableId)
+    content: public FieldInfo GetDisplayField(int tableId)
     parameters:
     - id: tableId
       type: System.Int32
     return:
-      type: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    content.vb: Public Function GetDisplayField(tableId As Integer) As ExtraFieldsRecordData
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public Function GetDisplayField(tableId As Integer) As FieldInfo
   overload: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField*
   nameWithType.vb: ExtraFieldsCache.GetDisplayField(Integer)
   fullName.vb: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(Integer)
   name.vb: GetDisplayField(Integer)
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(System.String)
+  commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(System.String)
+  id: GetDisplayField(System.String)
+  parent: SuperOffice.CRM.Cache.ExtraFieldsCache
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayField(string)
+  nameWithType: ExtraFieldsCache.GetDisplayField(string)
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public FieldInfo GetDisplayField(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public Function GetDisplayField(tableName As String) As FieldInfo
+  overload: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField*
+  nameWithType.vb: ExtraFieldsCache.GetDisplayField(String)
+  fullName.vb: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField(String)
+  name.vb: GetDisplayField(String)
 - uid: SuperOffice.CRM.Cache.ExtraFieldsCache.OnLoad
   commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.OnLoad
   id: OnLoad
@@ -1134,6 +1182,113 @@ references:
   name: ExtraTablesRecordData
   nameWithType: ExtraTablesRecordData
   fullName: SuperOffice.CRM.Rows.ExtraTablesRecordData
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetAllExtraTables*
+  commentId: Overload:SuperOffice.CRM.Cache.ExtraFieldsCache.GetAllExtraTables
+  isExternal: true
+  href: SuperOffice.CRM.Cache.ExtraFieldsCache.html#SuperOffice_CRM_Cache_ExtraFieldsCache_GetAllExtraTables
+  name: GetAllExtraTables
+  nameWithType: ExtraFieldsCache.GetAllExtraTables
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetAllExtraTables
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ExtraTablesRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ExtraTablesRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ExtraTablesRecordData>
+  nameWithType: IEnumerable<ExtraTablesRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ExtraTablesRecordData>
+  nameWithType.vb: IEnumerable(Of ExtraTablesRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ExtraTablesRecordData)
+  name.vb: IEnumerable(Of ExtraTablesRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.ExtraTablesRecordData
+    name: ExtraTablesRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExtraTablesRecordData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.ExtraTablesRecordData
+    name: ExtraTablesRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExtraTablesRecordData.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField*
   commentId: Overload:SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField
   isExternal: true
@@ -1141,6 +1296,51 @@ references:
   name: GetDisplayField
   nameWithType: ExtraFieldsCache.GetDisplayField
   fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetDisplayField
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   parent: SuperOffice.Data.Cache.CacheBaseV2
@@ -1235,71 +1435,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields*
   commentId: Overload:SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields
   isExternal: true

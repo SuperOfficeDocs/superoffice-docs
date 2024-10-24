@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Data.DBC.EmailFlowFields.GaCampaign
   - SuperOffice.CRM.Data.DBC.EmailFlowFields.GaSource
   - SuperOffice.CRM.Data.DBC.EmailFlowFields.HierarchyId
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.MainMessageId
   - SuperOffice.CRM.Data.DBC.EmailFlowFields.OverrideConsentSubscription
   - SuperOffice.CRM.Data.DBC.EmailFlowFields.Registered
   - SuperOffice.CRM.Data.DBC.EmailFlowFields.RegisteredAssociateId
@@ -89,7 +90,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlow.WorkflowId: The flow this instance belongs to'
+  summary: 'EmailFlow.WorkflowId: The workflow this emailflow belongs to'
   example: []
   syntax:
     content: public const string WorkflowId = "workflow_id"
@@ -558,6 +559,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const ReplyToName As String = "reply_to_name"
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.MainMessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.MainMessageId
+  id: MainMessageId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: MainMessageId
+  nameWithType: DBC.EmailFlowFields.MainMessageId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.MainMessageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'EmailFlow.MainMessageId: The main email message, used for thumbnail creation'
+  example: []
+  syntax:
+    content: public const string MainMessageId = "main_message_id"
+    return:
+      type: System.String
+    content.vb: Public Const MainMessageId As String = "main_message_id"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

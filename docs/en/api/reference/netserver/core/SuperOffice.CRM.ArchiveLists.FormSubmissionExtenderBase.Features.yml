@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.All
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Associate
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Contact
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.FormFields
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.None
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Person
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Shallow
@@ -112,6 +113,24 @@ items:
     content: Contact = 4
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.FormFields
+  commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.FormFields
+  id: FormFields
+  parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: FormFields
+  nameWithType: FormSubmissionExtenderBase.Features.FormFields
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.FormFields
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: FormFields = 8
+    return:
+      type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.All
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.All
   id: All
@@ -127,10 +146,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: All = Associate | Person | Contact
+    content: All = Associate | Person | Contact | FormFields
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: All = Associate Or Person Or Contact
+    content.vb: All = Associate Or Person Or Contact Or FormFields
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Shallow
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features.Shallow
   id: Shallow
@@ -146,7 +165,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Shallow = 0
+    content: Shallow = 8
     return:
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
 references:

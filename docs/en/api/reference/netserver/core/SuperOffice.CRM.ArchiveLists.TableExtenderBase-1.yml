@@ -65,6 +65,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FavouriteExtenderBase
   - SuperOffice.CRM.ArchiveLists.ForeignKeyExtenderBase
   - SuperOffice.CRM.ArchiveLists.FormExtenderBase
+  - SuperOffice.CRM.ArchiveLists.FormFieldsExtender
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
   - SuperOffice.CRM.ArchiveLists.HasConsentExtender
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase

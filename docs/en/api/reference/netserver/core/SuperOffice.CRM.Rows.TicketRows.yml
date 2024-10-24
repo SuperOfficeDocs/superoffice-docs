@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRows.GetFromIdxConnectId(System.Int32)
   - SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedAt(System.DateTime)
   - SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedBy(System.Int32)
+  - SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId(System.Int32)
   - SuperOffice.CRM.Rows.TicketRows.GetFromIdxCustId(System.Int32)
   - SuperOffice.CRM.Rows.TicketRows.GetFromIdxDbiAgentId(System.Int32)
   - SuperOffice.CRM.Rows.TicketRows.GetFromIdxDbiKey(System.String)
@@ -1015,6 +1016,44 @@ items:
   nameWithType.vb: TicketRows.GetFromIdxTags(Integer())
   fullName.vb: SuperOffice.CRM.Rows.TicketRows.GetFromIdxTags(Integer())
   name.vb: GetFromIdxTags(Integer())
+- uid: SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId(System.Int32)
+  id: GetFromIdxCreatedByWorkflowId(System.Int32)
+  parent: SuperOffice.CRM.Rows.TicketRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxCreatedByWorkflowId(int)
+  nameWithType: TicketRows.GetFromIdxCreatedByWorkflowId(int)
+  fullName: SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the TicketRow object, by querying the database table via the index 'IDXTicketCreated_by_workflow_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Ticket table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.TicketRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static TicketRows GetFromIdxCreatedByWorkflowId(int createdByWorkflowId)
+    parameters:
+    - id: createdByWorkflowId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.TicketRows
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxCreatedByWorkflowId(createdByWorkflowId As Integer) As TicketRows
+  overload: SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId*
+  nameWithType.vb: TicketRows.GetFromIdxCreatedByWorkflowId(Integer)
+  fullName.vb: SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId(Integer)
+  name.vb: GetFromIdxCreatedByWorkflowId(Integer)
 - uid: SuperOffice.CRM.Rows.TicketRows.GetFromIdxTicketType(System.Int32)
   commentId: M:SuperOffice.CRM.Rows.TicketRows.GetFromIdxTicketType(System.Int32)
   id: GetFromIdxTicketType(System.Int32)
@@ -3680,6 +3719,13 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
   - name: )
+- uid: SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRows.html#SuperOffice_CRM_Rows_TicketRows_GetFromIdxCreatedByWorkflowId_System_Int32_
+  name: GetFromIdxCreatedByWorkflowId
+  nameWithType: TicketRows.GetFromIdxCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.TicketRows.GetFromIdxCreatedByWorkflowId
 - uid: SuperOffice.CRM.Rows.TicketRows.GetFromIdxTicketType*
   commentId: Overload:SuperOffice.CRM.Rows.TicketRows.GetFromIdxTicketType
   isExternal: true

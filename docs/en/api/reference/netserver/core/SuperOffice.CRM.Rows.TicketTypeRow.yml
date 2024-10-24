@@ -9,6 +9,9 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeRow.CreateNew
   - SuperOffice.CRM.Rows.TicketTypeRow.DefaultPriority
   - SuperOffice.CRM.Rows.TicketTypeRow.DefaultStatus
+  - SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+  - SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+  - SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
   - SuperOffice.CRM.Rows.TicketTypeRow.GetFromCustomSearch(SuperOffice.CRM.Rows.TicketTypeRow.CustomSearch)
   - SuperOffice.CRM.Rows.TicketTypeRow.GetFromIdxName(System.String)
   - SuperOffice.CRM.Rows.TicketTypeRow.GetFromIdxTicketTypeId(System.Int32)
@@ -32,11 +35,14 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeRow.Rank
   - SuperOffice.CRM.Rows.TicketTypeRow.Registered
   - SuperOffice.CRM.Rows.TicketTypeRow.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault
+  - SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
   - SuperOffice.CRM.Rows.TicketTypeRow.ReplyTemplate
   - SuperOffice.CRM.Rows.TicketTypeRow.Reset
   - SuperOffice.CRM.Rows.TicketTypeRow.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   - SuperOffice.CRM.Rows.TicketTypeRow.SetPrimaryKey(System.Int32)
   - SuperOffice.CRM.Rows.TicketTypeRow.SetRowAsNew
+  - SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
   - SuperOffice.CRM.Rows.TicketTypeRow.TableInfo
   - SuperOffice.CRM.Rows.TicketTypeRow.TicketTypeId
   - SuperOffice.CRM.Rows.TicketTypeRow.TicketTypeTableInfo
@@ -46,8 +52,12 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeRow.UpdatedAssociateId
   - SuperOffice.CRM.Rows.TicketTypeRow.UpdatedCount
   - SuperOffice.CRM.Rows.TicketTypeRow.Validate(SuperOffice.CRM.Rows.RowValidator)
+  - SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
   - SuperOffice.CRM.Rows.TicketTypeRow._currentDefaultPriority
   - SuperOffice.CRM.Rows.TicketTypeRow._currentDefaultStatus
+  - SuperOffice.CRM.Rows.TicketTypeRow._currentExcludeEmailRecipients
+  - SuperOffice.CRM.Rows.TicketTypeRow._currentExcludeSignature
+  - SuperOffice.CRM.Rows.TicketTypeRow._currentExternalAsDefault
   - SuperOffice.CRM.Rows.TicketTypeRow._currentIcon
   - SuperOffice.CRM.Rows.TicketTypeRow._currentIsDefault
   - SuperOffice.CRM.Rows.TicketTypeRow._currentIsExternal
@@ -55,14 +65,21 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeRow._currentRank
   - SuperOffice.CRM.Rows.TicketTypeRow._currentRegistered
   - SuperOffice.CRM.Rows.TicketTypeRow._currentRegisteredAssociateId
+  - SuperOffice.CRM.Rows.TicketTypeRow._currentReplyExternalAsDefault
+  - SuperOffice.CRM.Rows.TicketTypeRow._currentReplyForwardNoSignature
   - SuperOffice.CRM.Rows.TicketTypeRow._currentReplyTemplate
+  - SuperOffice.CRM.Rows.TicketTypeRow._currentShowInNew
   - SuperOffice.CRM.Rows.TicketTypeRow._currentTicketTypeId
   - SuperOffice.CRM.Rows.TicketTypeRow._currentTooltip
   - SuperOffice.CRM.Rows.TicketTypeRow._currentUpdated
   - SuperOffice.CRM.Rows.TicketTypeRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.TicketTypeRow._currentUpdatedCount
+  - SuperOffice.CRM.Rows.TicketTypeRow._currentVisibleForGroups
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedDefaultPriority
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedDefaultStatus
+  - SuperOffice.CRM.Rows.TicketTypeRow._persistedExcludeEmailRecipients
+  - SuperOffice.CRM.Rows.TicketTypeRow._persistedExcludeSignature
+  - SuperOffice.CRM.Rows.TicketTypeRow._persistedExternalAsDefault
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedIcon
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedIsDefault
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedIsExternal
@@ -70,12 +87,16 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedRank
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedRegistered
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedRegisteredAssociateId
+  - SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyExternalAsDefault
+  - SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyForwardNoSignature
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyTemplate
+  - SuperOffice.CRM.Rows.TicketTypeRow._persistedShowInNew
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedTicketTypeId
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedTooltip
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedUpdated
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.TicketTypeRow._persistedUpdatedCount
+  - SuperOffice.CRM.Rows.TicketTypeRow._persistedVisibleForGroups
   langs:
   - csharp
   - vb
@@ -220,6 +241,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.TicketTypeRow._persistedTicketTypeId
   commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._persistedTicketTypeId
   id: _persistedTicketTypeId
@@ -535,6 +557,153 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _persistedIsDefault As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._persistedShowInNew
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._persistedShowInNew
+  id: _persistedShowInNew
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedShowInNew
+  nameWithType: TicketTypeRow._persistedShowInNew
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._persistedShowInNew
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedShowInNew
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedShowInNew As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._persistedExcludeSignature
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._persistedExcludeSignature
+  id: _persistedExcludeSignature
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedExcludeSignature
+  nameWithType: TicketTypeRow._persistedExcludeSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._persistedExcludeSignature
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedExcludeSignature
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedExcludeSignature As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._persistedExcludeEmailRecipients
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._persistedExcludeEmailRecipients
+  id: _persistedExcludeEmailRecipients
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedExcludeEmailRecipients
+  nameWithType: TicketTypeRow._persistedExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._persistedExcludeEmailRecipients
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedExcludeEmailRecipients
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedExcludeEmailRecipients As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._persistedExternalAsDefault
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._persistedExternalAsDefault
+  id: _persistedExternalAsDefault
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedExternalAsDefault
+  nameWithType: TicketTypeRow._persistedExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._persistedExternalAsDefault
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedExternalAsDefault
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedExternalAsDefault As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._persistedVisibleForGroups
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._persistedVisibleForGroups
+  id: _persistedVisibleForGroups
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedVisibleForGroups
+  nameWithType: TicketTypeRow._persistedVisibleForGroups
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._persistedVisibleForGroups
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int[] _persistedVisibleForGroups
+    return:
+      type: System.Int32[]
+    content.vb: Protected _persistedVisibleForGroups As Integer()
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyForwardNoSignature
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyForwardNoSignature
+  id: _persistedReplyForwardNoSignature
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedReplyForwardNoSignature
+  nameWithType: TicketTypeRow._persistedReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyForwardNoSignature
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedReplyForwardNoSignature
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedReplyForwardNoSignature As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyExternalAsDefault
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyExternalAsDefault
+  id: _persistedReplyExternalAsDefault
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedReplyExternalAsDefault
+  nameWithType: TicketTypeRow._persistedReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._persistedReplyExternalAsDefault
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedReplyExternalAsDefault
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedReplyExternalAsDefault As Short
 - uid: SuperOffice.CRM.Rows.TicketTypeRow._currentTicketTypeId
   commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._currentTicketTypeId
   id: _currentTicketTypeId
@@ -850,6 +1019,153 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentIsDefault As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._currentShowInNew
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._currentShowInNew
+  id: _currentShowInNew
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _currentShowInNew
+  nameWithType: TicketTypeRow._currentShowInNew
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._currentShowInNew
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentShowInNew
+    return:
+      type: System.Int16
+    content.vb: Protected _currentShowInNew As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._currentExcludeSignature
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._currentExcludeSignature
+  id: _currentExcludeSignature
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _currentExcludeSignature
+  nameWithType: TicketTypeRow._currentExcludeSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._currentExcludeSignature
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentExcludeSignature
+    return:
+      type: System.Int16
+    content.vb: Protected _currentExcludeSignature As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._currentExcludeEmailRecipients
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._currentExcludeEmailRecipients
+  id: _currentExcludeEmailRecipients
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _currentExcludeEmailRecipients
+  nameWithType: TicketTypeRow._currentExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._currentExcludeEmailRecipients
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentExcludeEmailRecipients
+    return:
+      type: System.Int16
+    content.vb: Protected _currentExcludeEmailRecipients As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._currentExternalAsDefault
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._currentExternalAsDefault
+  id: _currentExternalAsDefault
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _currentExternalAsDefault
+  nameWithType: TicketTypeRow._currentExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._currentExternalAsDefault
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentExternalAsDefault
+    return:
+      type: System.Int16
+    content.vb: Protected _currentExternalAsDefault As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._currentVisibleForGroups
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._currentVisibleForGroups
+  id: _currentVisibleForGroups
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _currentVisibleForGroups
+  nameWithType: TicketTypeRow._currentVisibleForGroups
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._currentVisibleForGroups
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int[] _currentVisibleForGroups
+    return:
+      type: System.Int32[]
+    content.vb: Protected _currentVisibleForGroups As Integer()
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._currentReplyForwardNoSignature
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._currentReplyForwardNoSignature
+  id: _currentReplyForwardNoSignature
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _currentReplyForwardNoSignature
+  nameWithType: TicketTypeRow._currentReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._currentReplyForwardNoSignature
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentReplyForwardNoSignature
+    return:
+      type: System.Int16
+    content.vb: Protected _currentReplyForwardNoSignature As Short
+- uid: SuperOffice.CRM.Rows.TicketTypeRow._currentReplyExternalAsDefault
+  commentId: F:SuperOffice.CRM.Rows.TicketTypeRow._currentReplyExternalAsDefault
+  id: _currentReplyExternalAsDefault
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: _currentReplyExternalAsDefault
+  nameWithType: TicketTypeRow._currentReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow._currentReplyExternalAsDefault
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentReplyExternalAsDefault
+    return:
+      type: System.Int16
+    content.vb: Protected _currentReplyExternalAsDefault As Short
 - uid: SuperOffice.CRM.Rows.TicketTypeRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TicketTypeRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2054,6 +2370,223 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property IsDefault As Short
   overload: SuperOffice.CRM.Rows.TicketTypeRow.IsDefault*
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
+  id: ShowInNew
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: ShowInNew
+  nameWithType: TicketTypeRow.ShowInNew
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Enables this request type to be accessible in +New in top bar'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short ShowInNew { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ShowInNew As Short
+  overload: SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew*
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+  id: ExcludeSignature
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: ExcludeSignature
+  nameWithType: TicketTypeRow.ExcludeSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Do not insert user signature automatically'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short ExcludeSignature { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ExcludeSignature As Short
+  overload: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature*
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+  id: ExcludeEmailRecipients
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: ExcludeEmailRecipients
+  nameWithType: TicketTypeRow.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Create request without initially having to send outbound e-mail'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short ExcludeEmailRecipients { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ExcludeEmailRecipients As Short
+  overload: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients*
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
+  id: ExternalAsDefault
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: ExternalAsDefault
+  nameWithType: TicketTypeRow.ExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Ability to set external access level for this request type'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short ExternalAsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ExternalAsDefault As Short
+  overload: SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault*
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
+  id: VisibleForGroups
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: VisibleForGroups
+  nameWithType: TicketTypeRow.VisibleForGroups
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: Int32[]. Array of references to the visible for groups'
+  remarks: >-
+    Original type in dictionary:  FKArray.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int[] VisibleForGroups { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property VisibleForGroups As Integer()
+  overload: SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups*
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
+  id: ReplyForwardNoSignature
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeRow.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Do not insert user signature when replying or forwarding the message'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short ReplyForwardNoSignature { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ReplyForwardNoSignature As Short
+  overload: SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature*
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault
+  id: ReplyExternalAsDefault
+  parent: SuperOffice.CRM.Rows.TicketTypeRow
+  langs:
+  - csharp
+  - vb
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeRow.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Set external access level when replying the message'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short ReplyExternalAsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ReplyExternalAsDefault As Short
+  overload: SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault*
 references:
 - uid: SuperOffice.CRM.Rows.TicketTypeRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.TicketTypeRow.CreateNew
@@ -4086,6 +4619,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -4484,6 +5070,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -4670,6 +5308,78 @@ references:
   name: IsDefault
   nameWithType: TicketTypeRow.IsDefault
   fullName: SuperOffice.CRM.Rows.TicketTypeRow.IsDefault
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ShowInNew
+  name: ShowInNew
+  nameWithType: TicketTypeRow.ShowInNew
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ExcludeSignature
+  name: ExcludeSignature
+  nameWithType: TicketTypeRow.ExcludeSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ExcludeEmailRecipients
+  name: ExcludeEmailRecipients
+  nameWithType: TicketTypeRow.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ExternalAsDefault
+  name: ExternalAsDefault
+  nameWithType: TicketTypeRow.ExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_VisibleForGroups
+  name: VisibleForGroups
+  nameWithType: TicketTypeRow.VisibleForGroups
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ReplyForwardNoSignature
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeRow.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault
+  commentId: P:SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ReplyExternalAsDefault
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeRow.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5529,3 +6239,52 @@ references:
   name: IsDefault
   nameWithType: TicketTypeRow.IsDefault
   fullName: SuperOffice.CRM.Rows.TicketTypeRow.IsDefault
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ShowInNew
+  name: ShowInNew
+  nameWithType: TicketTypeRow.ShowInNew
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ShowInNew
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ExcludeSignature
+  name: ExcludeSignature
+  nameWithType: TicketTypeRow.ExcludeSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeSignature
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ExcludeEmailRecipients
+  name: ExcludeEmailRecipients
+  nameWithType: TicketTypeRow.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExcludeEmailRecipients
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ExternalAsDefault
+  name: ExternalAsDefault
+  nameWithType: TicketTypeRow.ExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ExternalAsDefault
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_VisibleForGroups
+  name: VisibleForGroups
+  nameWithType: TicketTypeRow.VisibleForGroups
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.VisibleForGroups
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ReplyForwardNoSignature
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeRow.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ReplyForwardNoSignature
+- uid: SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketTypeRow.html#SuperOffice_CRM_Rows_TicketTypeRow_ReplyExternalAsDefault
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeRow.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Rows.TicketTypeRow.ReplyExternalAsDefault

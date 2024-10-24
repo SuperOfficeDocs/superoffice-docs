@@ -22,7 +22,7 @@ items:
   - SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin(System.String)
   - SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo)
   - SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.Services.StringDictionary)
-  - SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(System.Object)
+  - SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(SuperOffice.CRM.Services.StringDictionary)
   - SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.Data.BatchTaskState)
   - SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
   langs:
@@ -570,37 +570,34 @@ items:
       description: ''
     content.vb: Protected Shared Function PopulateBatchTaskInfoFromRow(row As BatchTaskRow) As BatchTaskInfo
   overload: SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow*
-- uid: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(System.Object)
-  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(System.Object)
-  id: SerializeParameterObjectToBinaryObjectRow(System.Object)
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(SuperOffice.CRM.Services.StringDictionary)
+  id: SerializeParameterObjectToBinaryObjectRow(SuperOffice.CRM.Services.StringDictionary)
   parent: SuperOffice.CRM.BatchProcessing.BatchData
   langs:
   - csharp
   - vb
-  name: SerializeParameterObjectToBinaryObjectRow(object)
-  nameWithType: BatchData.SerializeParameterObjectToBinaryObjectRow(object)
-  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(object)
+  name: SerializeParameterObjectToBinaryObjectRow(StringDictionary)
+  nameWithType: BatchData.SerializeParameterObjectToBinaryObjectRow(StringDictionary)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(SuperOffice.CRM.Services.StringDictionary)
   type: Method
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Serialize an object to a row in <xref href="SuperOffice.CRM.Rows.BinaryObjectRow" data-throw-if-not-resolved="false"></xref>
+  summary: Serialize a StringDictionary to a row in <xref href="SuperOffice.CRM.Rows.BinaryObjectRow" data-throw-if-not-resolved="false"></xref>
   remarks: The object must be serializable.
   example: []
   syntax:
-    content: protected static BinaryObjectRow SerializeParameterObjectToBinaryObjectRow(object obj)
+    content: protected static BinaryObjectRow SerializeParameterObjectToBinaryObjectRow(StringDictionary stringDictionary)
     parameters:
-    - id: obj
-      type: System.Object
-      description: Object to serialize
+    - id: stringDictionary
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: StringDictionary to serialize
     return:
       type: SuperOffice.CRM.Rows.BinaryObjectRow
       description: A <xref href="SuperOffice.CRM.Rows.BinaryObjectRow" data-throw-if-not-resolved="false"></xref>
-    content.vb: Protected Shared Function SerializeParameterObjectToBinaryObjectRow(obj As Object) As BinaryObjectRow
+    content.vb: Protected Shared Function SerializeParameterObjectToBinaryObjectRow(stringDictionary As StringDictionary) As BinaryObjectRow
   overload: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow*
-  nameWithType.vb: BatchData.SerializeParameterObjectToBinaryObjectRow(Object)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(Object)
-  name.vb: SerializeParameterObjectToBinaryObjectRow(Object)
 - uid: SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject(System.Int32)
   commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject(System.Int32)
   id: DeserializeFromBinaryObjectRowToParameterObject(System.Int32)
@@ -618,15 +615,15 @@ items:
   summary: Deserialize an entry in <xref href="SuperOffice.CRM.Rows.BinaryObjectRow" data-throw-if-not-resolved="false"></xref> to a object.
   example: []
   syntax:
-    content: protected static object DeserializeFromBinaryObjectRowToParameterObject(int id)
+    content: protected static StringDictionary DeserializeFromBinaryObjectRowToParameterObject(int id)
     parameters:
     - id: id
       type: System.Int32
       description: Id of the row to deserialize
     return:
-      type: System.Object
+      type: SuperOffice.CRM.Services.StringDictionary
       description: The deserialized object.
-    content.vb: Protected Shared Function DeserializeFromBinaryObjectRowToParameterObject(id As Integer) As Object
+    content.vb: Protected Shared Function DeserializeFromBinaryObjectRowToParameterObject(id As Integer) As StringDictionary
   overload: SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject*
   nameWithType.vb: BatchData.DeserializeFromBinaryObjectRowToParameterObject(Integer)
   fullName.vb: SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject(Integer)
@@ -1694,7 +1691,7 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchData.html#SuperOffice_CRM_BatchProcessing_BatchData_SerializeParameterObjectToBinaryObjectRow_System_Object_
+  href: SuperOffice.CRM.BatchProcessing.BatchData.html#SuperOffice_CRM_BatchProcessing_BatchData_SerializeParameterObjectToBinaryObjectRow_SuperOffice_CRM_Services_StringDictionary_
   name: SerializeParameterObjectToBinaryObjectRow
   nameWithType: BatchData.SerializeParameterObjectToBinaryObjectRow
   fullName: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow

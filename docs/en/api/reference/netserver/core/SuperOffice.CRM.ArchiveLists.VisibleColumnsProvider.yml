@@ -38,6 +38,7 @@ items:
   - SuperOffice.CRM.Lists.ISoListProvider
   - SuperOffice.CRM.Lists.ISoList
   inheritedMembers:
+  - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.HeadingIdStart
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase._providerName
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase._context
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase._providerEntity
@@ -301,6 +302,14 @@ references:
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
+- uid: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.HeadingIdStart
+  commentId: F:SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.HeadingIdStart
+  parent: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.html#SuperOffice_CRM_Lists_ArchiveColumnsProviderBase_HeadingIdStart
+  name: HeadingIdStart
+  nameWithType: ArchiveColumnsProviderBase.HeadingIdStart
+  fullName: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.HeadingIdStart
 - uid: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase._providerName
   commentId: F:SuperOffice.CRM.Lists.ArchiveColumnsProviderBase._providerName
   parent: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase

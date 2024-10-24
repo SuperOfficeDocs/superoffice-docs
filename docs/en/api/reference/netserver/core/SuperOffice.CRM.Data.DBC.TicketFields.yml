@@ -16,6 +16,7 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketFields.ContactId
   - SuperOffice.CRM.Data.DBC.TicketFields.CreatedAt
   - SuperOffice.CRM.Data.DBC.TicketFields.CreatedBy
+  - SuperOffice.CRM.Data.DBC.TicketFields.CreatedByWorkflowId
   - SuperOffice.CRM.Data.DBC.TicketFields.CustId
   - SuperOffice.CRM.Data.DBC.TicketFields.DbiAgentId
   - SuperOffice.CRM.Data.DBC.TicketFields.DbiKey
@@ -1290,6 +1291,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const FormSubmissionId As String = "form_submission_id"
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.CreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: DBC.TicketFields.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.CreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Ticket.CreatedByWorkflowId: The workflow this request/ticket was created by'
+  example: []
+  syntax:
+    content: public const string CreatedByWorkflowId = "created_by_workflow_id"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedByWorkflowId As String = "created_by_workflow_id"
 - uid: SuperOffice.CRM.Data.DBC.TicketFields.SuggestedCategoryId
   commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.SuggestedCategoryId
   id: SuggestedCategoryId

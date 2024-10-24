@@ -823,7 +823,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: Perform the execute reader on the command fetching the first 500 items.
+  summary: Perform the execute reader on the command fetching all items.
   example: []
   syntax:
     content: protected SoDataReader ExecuteReader(SoCommand cmd)

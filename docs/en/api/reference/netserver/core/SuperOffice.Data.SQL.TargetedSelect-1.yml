@@ -5,6 +5,7 @@ items:
   id: TargetedSelect`1
   parent: SuperOffice.Data.SQL
   children:
+  - SuperOffice.Data.SQL.TargetedSelect`1.Count
   - SuperOffice.Data.SQL.TargetedSelect`1.ExecuteScalar``1(System.Func{`0,SuperOffice.Data.SQL.FieldInfo})
   - SuperOffice.Data.SQL.TargetedSelect`1.ExplicitConnection
   - SuperOffice.Data.SQL.TargetedSelect`1.Records
@@ -85,6 +86,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
   - SuperOffice.Data.SQL.TargetedSelect`1.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.TargetedSelect`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: TargetedSelect(Of MainTableInfo)
@@ -116,6 +118,28 @@ items:
   nameWithType.vb: TargetedSelect(Of MainTableInfo).SetIgnoreSentry(Boolean)
   fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo).SetIgnoreSentry(Boolean)
   name.vb: SetIgnoreSentry(Boolean)
+- uid: SuperOffice.Data.SQL.TargetedSelect`1.Count
+  commentId: M:SuperOffice.Data.SQL.TargetedSelect`1.Count
+  id: Count
+  parent: SuperOffice.Data.SQL.TargetedSelect`1
+  langs:
+  - csharp
+  - vb
+  name: Count()
+  nameWithType: TargetedSelect<MainTableInfo>.Count()
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>.Count()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public int Count()
+    return:
+      type: System.Int32
+    content.vb: Public Function Count() As Integer
+  overload: SuperOffice.Data.SQL.TargetedSelect`1.Count*
+  nameWithType.vb: TargetedSelect(Of MainTableInfo).Count()
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo).Count()
 - uid: SuperOffice.Data.SQL.TargetedSelect`1.Records(System.Func{`0,SuperOffice.Data.SQL.Argument[]})
   commentId: M:SuperOffice.Data.SQL.TargetedSelect`1.Records(System.Func{`0,SuperOffice.Data.SQL.Argument[]})
   id: Records(System.Func{`0,SuperOffice.Data.SQL.Argument[]})
@@ -1512,6 +1536,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data.SQL.TargetedSelect`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1778,6 +1855,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1986,6 +2115,26 @@ references:
   - name: " "
   - name: MainTableInfo
   - name: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1.Count*
+  commentId: Overload:SuperOffice.Data.SQL.TargetedSelect`1.Count
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html#SuperOffice_Data_SQL_TargetedSelect_1_Count
+  name: Count
+  nameWithType: TargetedSelect<MainTableInfo>.Count
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>.Count
+  nameWithType.vb: TargetedSelect(Of MainTableInfo).Count
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo).Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Data.SQL.TargetedSelect`1.Records*
   commentId: Overload:SuperOffice.Data.SQL.TargetedSelect`1.Records
   isExternal: true

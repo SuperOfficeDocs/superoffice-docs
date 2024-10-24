@@ -42,6 +42,7 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Entities.LinksHelper.AddSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  - SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.LinksHelper.GetLinks
   - SuperOffice.CRM.Entities.LinksHelper.CopyTo(SuperOffice.CRM.Entities.LinksHelper)
   - SuperOffice.CRM.Entities.LinksHelper.LoadChildItems(SuperOffice.CRM.Rows.TableRowBase)
@@ -50,6 +51,7 @@ items:
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.IsDirty
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperAdded
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperRemoved
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperEdited
   - SuperOffice.Data.NestedPersistFacade.IsDirty
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.Data.NestedPersist.Save
@@ -568,6 +570,36 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Rows.RelationsRow.html
   - name: )
+- uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  parent: SuperOffice.CRM.Entities.LinksHelper
+  isExternal: true
+  href: SuperOffice.CRM.Entities.LinksHelper.html#SuperOffice_CRM_Entities_LinksHelper_EditSimilarLink_SuperOffice_CRM_Rows_RelationsRow_
+  name: EditSimilarLink(RelationsRow)
+  nameWithType: LinksHelper.EditSimilarLink(RelationsRow)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+    name: EditSimilarLink
+    isExternal: true
+    href: SuperOffice.CRM.Entities.LinksHelper.html#SuperOffice_CRM_Entities_LinksHelper_EditSimilarLink_SuperOffice_CRM_Rows_RelationsRow_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RelationsRow.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+    name: EditSimilarLink
+    isExternal: true
+    href: SuperOffice.CRM.Entities.LinksHelper.html#SuperOffice_CRM_Entities_LinksHelper_EditSimilarLink_SuperOffice_CRM_Rows_RelationsRow_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RelationsRow.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.LinksHelper.GetLinks
   commentId: M:SuperOffice.CRM.Entities.LinksHelper.GetLinks
   parent: SuperOffice.CRM.Entities.LinksHelper
@@ -720,6 +752,16 @@ references:
   fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnEntityDetailsHelperRemoved
   nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnEntityDetailsHelperRemoved
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnEntityDetailsHelperRemoved
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperEdited
+  commentId: E:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperEdited
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
+  href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_OnEntityDetailsHelperEdited
+  name: OnEntityDetailsHelperEdited
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnEntityDetailsHelperEdited
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnEntityDetailsHelperEdited
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnEntityDetailsHelperEdited
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnEntityDetailsHelperEdited
 - uid: SuperOffice.Data.NestedPersistFacade.IsDirty
   commentId: P:SuperOffice.Data.NestedPersistFacade.IsDirty
   parent: SuperOffice.Data.NestedPersistFacade
@@ -1233,6 +1275,15 @@ references:
   fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnEntityDetailsHelperRemoved
   nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperRemoved
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperRemoved
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
+  commentId: E:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_OnEntityDetailsHelperEdited
+  name: OnEntityDetailsHelperEdited
+  nameWithType: EntityDetailsHelper<TParent, TChild>.OnEntityDetailsHelperEdited
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnEntityDetailsHelperEdited
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperEdited
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperEdited
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true

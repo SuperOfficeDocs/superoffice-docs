@@ -19,6 +19,8 @@ items:
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.FullnameField_InnerJoin_ExtraTables
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.HierarchyId
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.HierarchyId_InnerJoin_Hierarchy
+  - SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+  - SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.LeftOuterJoin_ExtraFields_ExtraTable
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.LeftOuterJoin_ExtraFields_TargetExtraTable
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.LeftOuterJoin_ExtraMenus_ExtraTable
@@ -653,6 +655,32 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Description As StringFieldInfo
   overload: SuperOffice.CRM.Data.ExtraTablesTableInfo.Description*
+- uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+  commentId: P:SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+  id: IconId
+  parent: SuperOffice.CRM.Data.ExtraTablesTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IconId
+  nameWithType: ExtraTablesTableInfo.IconId
+  fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'icon_id' in table 'extra_tables': Dictionary type FK, target: BinaryObject, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The id of the binary object entry
+  example: []
+  syntax:
+    content: public Int32FieldInfo IconId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property IconId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId*
 - uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.HierarchyId_InnerJoin_Hierarchy
   commentId: P:SuperOffice.CRM.Data.ExtraTablesTableInfo.HierarchyId_InnerJoin_Hierarchy
   id: HierarchyId_InnerJoin_Hierarchy
@@ -814,6 +842,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ScreenChooserTableInfo}
     content.vb: Public ReadOnly Property ScreenChooserEdit_InnerJoin_ScreenChooser As TargetedInnerJoin(Of ScreenChooserTableInfo)
   overload: SuperOffice.CRM.Data.ExtraTablesTableInfo.ScreenChooserEdit_InnerJoin_ScreenChooser*
+- uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject
+  commentId: P:SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject
+  id: IconId_InnerJoin_BinaryObject
+  parent: SuperOffice.CRM.Data.ExtraTablesTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IconId_InnerJoin_BinaryObject
+  nameWithType: ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject
+  fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key IconId in this table, to its target table <xref href="SuperOffice.CRM.Data.BinaryObjectTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<BinaryObjectTableInfo> IconId_InnerJoin_BinaryObject { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+    content.vb: Public ReadOnly Property IconId_InnerJoin_BinaryObject As TargetedInnerJoin(Of BinaryObjectTableInfo)
+  overload: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject*
 - uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.LeftOuterJoin_ExtraFields_ExtraTable
   commentId: P:SuperOffice.CRM.Data.ExtraTablesTableInfo.LeftOuterJoin_ExtraFields_ExtraTable
   id: LeftOuterJoin_ExtraFields_ExtraTable
@@ -1962,6 +2013,13 @@ references:
   name: Description
   nameWithType: ExtraTablesTableInfo.Description
   fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.Description
+- uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId*
+  commentId: Overload:SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExtraTablesTableInfo.html#SuperOffice_CRM_Data_ExtraTablesTableInfo_IconId
+  name: IconId
+  nameWithType: ExtraTablesTableInfo.IconId
+  fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
 - uid: SuperOffice.CRM.Data.HierarchyTableInfo
   commentId: T:SuperOffice.CRM.Data.HierarchyTableInfo
   parent: SuperOffice.CRM.Data
@@ -2211,6 +2269,56 @@ references:
   name: ScreenChooserEdit_InnerJoin_ScreenChooser
   nameWithType: ExtraTablesTableInfo.ScreenChooserEdit_InnerJoin_ScreenChooser
   fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.ScreenChooserEdit_InnerJoin_ScreenChooser
+- uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
+  commentId: T:SuperOffice.CRM.Data.BinaryObjectTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+  name: BinaryObjectTableInfo
+  nameWithType: BinaryObjectTableInfo
+  fullName: SuperOffice.CRM.Data.BinaryObjectTableInfo
+- uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject*
+  commentId: Overload:SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExtraTablesTableInfo.html#SuperOffice_CRM_Data_ExtraTablesTableInfo_IconId_InnerJoin_BinaryObject
+  name: IconId_InnerJoin_BinaryObject
+  nameWithType: ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject
+  fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId_InnerJoin_BinaryObject
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.BinaryObjectTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<BinaryObjectTableInfo>
+  nameWithType: TargetedInnerJoin<BinaryObjectTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.BinaryObjectTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of BinaryObjectTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.BinaryObjectTableInfo)
+  name.vb: TargetedInnerJoin(Of BinaryObjectTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
+    name: BinaryObjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
+    name: BinaryObjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.ExtraFieldsTableInfo.ExtraTable
   commentId: P:SuperOffice.CRM.Data.ExtraFieldsTableInfo.ExtraTable
   isExternal: true

@@ -12,6 +12,9 @@ items:
   - SuperOffice.CRM.Data.TicketTypeTableInfo.Definition
   - SuperOffice.CRM.Data.TicketTypeTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.TicketTypeTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeEmailRecipients
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeSignature
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.ExternalAsDefault
   - SuperOffice.CRM.Data.TicketTypeTableInfo.Icon
   - SuperOffice.CRM.Data.TicketTypeTableInfo.IsDefault
   - SuperOffice.CRM.Data.TicketTypeTableInfo.IsExternal
@@ -25,15 +28,19 @@ items:
   - SuperOffice.CRM.Data.TicketTypeTableInfo.Registered
   - SuperOffice.CRM.Data.TicketTypeTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.TicketTypeTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyExternalAsDefault
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyForwardNoSignature
   - SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyTemplate
   - SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyTemplate_InnerJoin_ReplyTemplate
   - SuperOffice.CRM.Data.TicketTypeTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.ShowInNew
   - SuperOffice.CRM.Data.TicketTypeTableInfo.TicketTypeId
   - SuperOffice.CRM.Data.TicketTypeTableInfo.Tooltip
   - SuperOffice.CRM.Data.TicketTypeTableInfo.Updated
   - SuperOffice.CRM.Data.TicketTypeTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.TicketTypeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.TicketTypeTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.TicketTypeTableInfo.VisibleForGroups
   langs:
   - csharp
   - vb
@@ -598,6 +605,188 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property IsDefault As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.TicketTypeTableInfo.IsDefault*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ShowInNew
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.ShowInNew
+  id: ShowInNew
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ShowInNew
+  nameWithType: TicketTypeTableInfo.ShowInNew
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ShowInNew
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'show_in_new' in table 'ticket_type': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Enables this request type to be accessible in +New in top bar
+  example: []
+  syntax:
+    content: public UInt16FieldInfo ShowInNew { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ShowInNew As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.ShowInNew*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeSignature
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeSignature
+  id: ExcludeSignature
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ExcludeSignature
+  nameWithType: TicketTypeTableInfo.ExcludeSignature
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeSignature
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'exclude_signature' in table 'ticket_type': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Do not insert user signature automatically
+  example: []
+  syntax:
+    content: public UInt16FieldInfo ExcludeSignature { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ExcludeSignature As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeSignature*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeEmailRecipients
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeEmailRecipients
+  id: ExcludeEmailRecipients
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ExcludeEmailRecipients
+  nameWithType: TicketTypeTableInfo.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeEmailRecipients
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'exclude_email_recipients' in table 'ticket_type': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Create request without initially having to send outbound e-mail
+  example: []
+  syntax:
+    content: public UInt16FieldInfo ExcludeEmailRecipients { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ExcludeEmailRecipients As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeEmailRecipients*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ExternalAsDefault
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.ExternalAsDefault
+  id: ExternalAsDefault
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternalAsDefault
+  nameWithType: TicketTypeTableInfo.ExternalAsDefault
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ExternalAsDefault
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'external_as_default' in table 'ticket_type': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Ability to set external access level for this request type
+  example: []
+  syntax:
+    content: public UInt16FieldInfo ExternalAsDefault { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ExternalAsDefault As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.ExternalAsDefault*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.VisibleForGroups
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.VisibleForGroups
+  id: VisibleForGroups
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: VisibleForGroups
+  nameWithType: TicketTypeTableInfo.VisibleForGroups
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.VisibleForGroups
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'visible_for_groups' in table 'ticket_type': Dictionary type FKArray, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Array of references to the visible for groups
+  example: []
+  syntax:
+    content: public Int32ArrayFieldInfo VisibleForGroups { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32ArrayFieldInfo
+    content.vb: Public ReadOnly Property VisibleForGroups As Int32ArrayFieldInfo
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.VisibleForGroups*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyForwardNoSignature
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyForwardNoSignature
+  id: ReplyForwardNoSignature
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeTableInfo.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyForwardNoSignature
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'reply_forward_no_signature' in table 'ticket_type': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Do not insert user signature when replying or forwarding the message
+  example: []
+  syntax:
+    content: public UInt16FieldInfo ReplyForwardNoSignature { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ReplyForwardNoSignature As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyForwardNoSignature*
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyExternalAsDefault
+  commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyExternalAsDefault
+  id: ReplyExternalAsDefault
+  parent: SuperOffice.CRM.Data.TicketTypeTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeTableInfo.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyExternalAsDefault
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'reply_external_as_default' in table 'ticket_type': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Set external access level when replying the message
+  example: []
+  syntax:
+    content: public UInt16FieldInfo ReplyExternalAsDefault { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ReplyExternalAsDefault As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyExternalAsDefault*
 - uid: SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultStatus_InnerJoin_TicketStatus
   commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultStatus_InnerJoin_TicketStatus
   id: DefaultStatus_InnerJoin_TicketStatus
@@ -1889,6 +2078,63 @@ references:
   name: IsDefault
   nameWithType: TicketTypeTableInfo.IsDefault
   fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.IsDefault
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ShowInNew*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.ShowInNew
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_ShowInNew
+  name: ShowInNew
+  nameWithType: TicketTypeTableInfo.ShowInNew
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ShowInNew
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeSignature*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeSignature
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_ExcludeSignature
+  name: ExcludeSignature
+  nameWithType: TicketTypeTableInfo.ExcludeSignature
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeSignature
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeEmailRecipients*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeEmailRecipients
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_ExcludeEmailRecipients
+  name: ExcludeEmailRecipients
+  nameWithType: TicketTypeTableInfo.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ExcludeEmailRecipients
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ExternalAsDefault*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.ExternalAsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_ExternalAsDefault
+  name: ExternalAsDefault
+  nameWithType: TicketTypeTableInfo.ExternalAsDefault
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ExternalAsDefault
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.VisibleForGroups*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.VisibleForGroups
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_VisibleForGroups
+  name: VisibleForGroups
+  nameWithType: TicketTypeTableInfo.VisibleForGroups
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.VisibleForGroups
+- uid: SuperOffice.Data.SQL.Int32ArrayFieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32ArrayFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Int32ArrayFieldInfo.html
+  name: Int32ArrayFieldInfo
+  nameWithType: Int32ArrayFieldInfo
+  fullName: SuperOffice.Data.SQL.Int32ArrayFieldInfo
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyForwardNoSignature*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyForwardNoSignature
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_ReplyForwardNoSignature
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeTableInfo.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyForwardNoSignature
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyExternalAsDefault*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyExternalAsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Data.TicketTypeTableInfo.html#SuperOffice_CRM_Data_TicketTypeTableInfo_ReplyExternalAsDefault
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeTableInfo.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo.ReplyExternalAsDefault
 - uid: SuperOffice.CRM.Data.TicketStatusTableInfo
   commentId: T:SuperOffice.CRM.Data.TicketStatusTableInfo
   parent: SuperOffice.CRM.Data

@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsAssignmentColumnName
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsFreeColumnName
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsRecurringColumnName
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.RecurrencePatternColumnName
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.StartDateColumnName
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colEndDateTime
@@ -22,6 +23,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsFree
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsRecurring
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSeen
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSystemUserAssignment
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colLocation
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colRecurrencePattern
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colRejectReason
@@ -348,6 +350,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const IsFreeColumnName As String = "isFree"
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
+  id: IsSystemUserAssignmentColumnName
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: IsSystemUserAssignmentColumnName
+  nameWithType: AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string IsSystemUserAssignmentColumnName = "isSystemUserAssignment"
+    return:
+      type: System.String
+    content.vb: Public Const IsSystemUserAssignmentColumnName As String = "isSystemUserAssignment"
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colStartDateTime
   commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colStartDateTime
   id: _colStartDateTime
@@ -576,6 +597,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colIsFree As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSystemUserAssignment
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSystemUserAssignment
+  id: _colIsSystemUserAssignment
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colIsSystemUserAssignment
+  nameWithType: AppointmentNotificationExtenderBase._colIsSystemUserAssignment
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSystemUserAssignment
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colIsSystemUserAssignment
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colIsSystemUserAssignment As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.#ctor
   id: '#ctor'

@@ -13,11 +13,15 @@ items:
   - SuperOffice.CRM.Data.DBC.EjscriptFields.HierarchyId
   - SuperOffice.CRM.Data.DBC.EjscriptFields.HtmlOutput
   - SuperOffice.CRM.Data.DBC.EjscriptFields.IncludeId
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.Includes
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.LastCompiled
   - SuperOffice.CRM.Data.DBC.EjscriptFields.LastExecAnonHttp
   - SuperOffice.CRM.Data.DBC.EjscriptFields.LastExecHttp
   - SuperOffice.CRM.Data.DBC.EjscriptFields.LongDescription
   - SuperOffice.CRM.Data.DBC.EjscriptFields.Registered
   - SuperOffice.CRM.Data.DBC.EjscriptFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.SourceCode
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.SourceMaps
   - SuperOffice.CRM.Data.DBC.EjscriptFields.Type
   - SuperOffice.CRM.Data.DBC.EjscriptFields.UniqueIdentifier
   - SuperOffice.CRM.Data.DBC.EjscriptFields.Updated
@@ -426,6 +430,90 @@ items:
     return:
       type: System.String
     content.vb: Public Const LastExecAnonHttp As String = "last_exec_anon_http"
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.SourceCode
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.SourceCode
+  id: SourceCode
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: SourceCode
+  nameWithType: DBC.EjscriptFields.SourceCode
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.SourceCode
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Ejscript.SourceCode: Contains the source code of the script'
+  example: []
+  syntax:
+    content: public const string SourceCode = "source_code"
+    return:
+      type: System.String
+    content.vb: Public Const SourceCode As String = "source_code"
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.Includes
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.Includes
+  id: Includes
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: Includes
+  nameWithType: DBC.EjscriptFields.Includes
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.Includes
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Ejscript.Includes: Contains a comma separated list of ids of all nested includes used by this script'
+  example: []
+  syntax:
+    content: public const string Includes = "includes"
+    return:
+      type: System.String
+    content.vb: Public Const Includes As String = "includes"
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.LastCompiled
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.LastCompiled
+  id: LastCompiled
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: LastCompiled
+  nameWithType: DBC.EjscriptFields.LastCompiled
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.LastCompiled
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Ejscript.LastCompiled: When this script was last compiled (UTC).'
+  example: []
+  syntax:
+    content: public const string LastCompiled = "last_compiled"
+    return:
+      type: System.String
+    content.vb: Public Const LastCompiled As String = "last_compiled"
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.SourceMaps
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.SourceMaps
+  id: SourceMaps
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: SourceMaps
+  nameWithType: DBC.EjscriptFields.SourceMaps
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.SourceMaps
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Ejscript.SourceMaps: Source maps in JSON format'
+  example: []
+  syntax:
+    content: public const string SourceMaps = "source_maps"
+    return:
+      type: System.String
+    content.vb: Public Const SourceMaps As String = "source_maps"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

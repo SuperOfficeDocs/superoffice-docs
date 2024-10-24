@@ -5,7 +5,10 @@ items:
   id: Constants.ExtraFieldAttrib
   parent: SuperOffice.CRM.ArchiveLists
   children:
+  - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Dynamic
+  - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideDisplay
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideRestriction
+  - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Icon
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Precision
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Rank
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.RootEntity
@@ -135,6 +138,25 @@ items:
     return:
       type: System.String
     content.vb: Public Shared ReadOnly HideRestriction As String
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideDisplay
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideDisplay
+  id: HideDisplay
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
+  langs:
+  - csharp
+  - vb
+  name: HideDisplay
+  nameWithType: Constants.ExtraFieldAttrib.HideDisplay
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideDisplay
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static readonly string HideDisplay
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly HideDisplay As String
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Rank
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Rank
   id: Rank
@@ -173,6 +195,44 @@ items:
     return:
       type: System.String
     content.vb: Public Shared ReadOnly RootEntity As String
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Icon
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Icon
+  id: Icon
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: Constants.ExtraFieldAttrib.Icon
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Icon
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static readonly string Icon
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Icon As String
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Dynamic
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Dynamic
+  id: Dynamic
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
+  langs:
+  - csharp
+  - vb
+  name: Dynamic
+  nameWithType: Constants.ExtraFieldAttrib.Dynamic
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Dynamic
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static readonly string Dynamic
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Dynamic As String
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists

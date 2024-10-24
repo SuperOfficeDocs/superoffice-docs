@@ -36,7 +36,6 @@ items:
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow.UpdatedAssociateId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow.UpdatedCount
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow.Validate(SuperOffice.CRM.Rows.RowValidator)
-  - SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowStepId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowWaitForActionId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowWaitForActionTableInfo
@@ -47,7 +46,6 @@ items:
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentUpdated
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentUpdatedCount
-  - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentWorkflowId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentWorkflowStepId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentWorkflowWaitForActionId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedActionType
@@ -57,7 +55,6 @@ items:
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedUpdated
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedUpdatedCount
-  - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedWorkflowId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedWorkflowStepId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedWorkflowWaitForActionId
   langs:
@@ -204,6 +201,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedWorkflowWaitForActionId
   commentId: F:SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedWorkflowWaitForActionId
   id: _persistedWorkflowWaitForActionId
@@ -246,27 +244,6 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedWorkflowStepId As Integer
-- uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedWorkflowId
-  commentId: F:SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedWorkflowId
-  id: _persistedWorkflowId
-  parent: SuperOffice.CRM.Rows.WorkflowWaitForActionRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedWorkflowId
-  nameWithType: WorkflowWaitForActionRow._persistedWorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedWorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _persistedWorkflowId
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedActionType
   commentId: F:SuperOffice.CRM.Rows.WorkflowWaitForActionRow._persistedActionType
   id: _persistedActionType
@@ -456,27 +433,6 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentWorkflowStepId As Integer
-- uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentWorkflowId
-  commentId: F:SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentWorkflowId
-  id: _currentWorkflowId
-  parent: SuperOffice.CRM.Rows.WorkflowWaitForActionRow
-  langs:
-  - csharp
-  - vb
-  name: _currentWorkflowId
-  nameWithType: WorkflowWaitForActionRow._currentWorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentWorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _currentWorkflowId
-    return:
-      type: System.Int32
-    content.vb: Protected _currentWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentActionType
   commentId: F:SuperOffice.CRM.Rows.WorkflowWaitForActionRow._currentActionType
   id: _currentActionType
@@ -1387,41 +1343,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowStepId As Integer
   overload: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowStepId*
-  exceptions:
-  - type: SuperOffice.Exceptions.SoSentryException
-    commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if the set method is accessed without having the Write access right to the field
-- uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
-  commentId: P:SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
-  id: WorkflowId
-  parent: SuperOffice.CRM.Rows.WorkflowWaitForActionRow
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId
-  nameWithType: WorkflowWaitForActionRow.WorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. The flow this instance belongs to'
-  remarks: >-
-    Original type in dictionary:  FK.
-
-    <p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (0)</p>
-
-    <p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-  example: []
-  syntax:
-    content: public virtual int WorkflowId { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property WorkflowId As Integer
-  overload: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId*
   exceptions:
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
@@ -3703,6 +3624,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -4101,6 +4075,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -4163,13 +4189,6 @@ references:
   name: WorkflowStepId
   nameWithType: WorkflowWaitForActionRow.WorkflowStepId
   fullName: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowStepId
-- uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
-  commentId: P:SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.html#SuperOffice_CRM_Rows_WorkflowWaitForActionRow_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowWaitForActionRow.WorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
 - uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.ActionType
   commentId: P:SuperOffice.CRM.Rows.WorkflowWaitForActionRow.ActionType
   isExternal: true
@@ -5028,13 +5047,6 @@ references:
   name: WorkflowStepId
   nameWithType: WorkflowWaitForActionRow.WorkflowStepId
   fullName: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowStepId
-- uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId*
-  commentId: Overload:SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.html#SuperOffice_CRM_Rows_WorkflowWaitForActionRow_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowWaitForActionRow.WorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.WorkflowId
 - uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRow.ActionType*
   commentId: Overload:SuperOffice.CRM.Rows.WorkflowWaitForActionRow.ActionType
   isExternal: true

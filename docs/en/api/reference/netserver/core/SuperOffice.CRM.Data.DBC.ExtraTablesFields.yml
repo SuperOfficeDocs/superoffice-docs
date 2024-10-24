@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.Flags
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.FullnameField
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.HierarchyId
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.IconId
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.Name
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.NewEntryHeader
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ParentField
@@ -404,6 +405,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.IconId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.IconId
+  id: IconId
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: IconId
+  nameWithType: DBC.ExtraTablesFields.IconId
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.IconId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'ExtraTables.IconId: The id of the binary object entry'
+  example: []
+  syntax:
+    content: public const string IconId = "icon_id"
+    return:
+      type: System.String
+    content.vb: Public Const IconId As String = "icon_id"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.Rows.SLinkRecordData.Hits
   - SuperOffice.CRM.Rows.SLinkRecordData.LastReset
   - SuperOffice.CRM.Rows.SLinkRecordData.LinkValue
+  - SuperOffice.CRM.Rows.SLinkRecordData.LocalLink
   - SuperOffice.CRM.Rows.SLinkRecordData.RedirectIsUrl
   - SuperOffice.CRM.Rows.SLinkRecordData.Registered
   - SuperOffice.CRM.Rows.SLinkRecordData.RegisteredAssociateId
@@ -928,6 +929,27 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.SLinkRecordData.LocalLink
+  commentId: F:SuperOffice.CRM.Rows.SLinkRecordData.LocalLink
+  id: LocalLink
+  parent: SuperOffice.CRM.Rows.SLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: LocalLink
+  nameWithType: SLinkRecordData.LocalLink
+  fullName: SuperOffice.CRM.Rows.SLinkRecordData.LocalLink
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: If this references a shipment message, then this is a local link belonging to that message
+  example: []
+  syntax:
+    content: public int LocalLink
+    return:
+      type: System.Int32
+    content.vb: Public LocalLink As Integer
 - uid: SuperOffice.CRM.Rows.SLinkRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SLinkRecordData.#ctor
   id: '#ctor'

@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor(System.String)
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.GetFirstProvider
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.GetRows(System.String)
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -103,6 +105,56 @@ items:
   nameWithType.vb: MultiQueryProviderBaseWithRestrictionGroups.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.New()
   name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups
+  langs:
+  - csharp
+  - vb
+  name: MultiQueryProviderBaseWithRestrictionGroups(string)
+  nameWithType: MultiQueryProviderBaseWithRestrictionGroups.MultiQueryProviderBaseWithRestrictionGroups(string)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.MultiQueryProviderBaseWithRestrictionGroups(string)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public MultiQueryProviderBaseWithRestrictionGroups(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+    content.vb: Public Sub New(tableName As String)
+  overload: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor*
+  nameWithType.vb: MultiQueryProviderBaseWithRestrictionGroups.New(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.New(String)
+  name.vb: New(String)
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups
+  langs:
+  - csharp
+  - vb
+  name: MultiQueryProviderBaseWithRestrictionGroups(string, string)
+  nameWithType: MultiQueryProviderBaseWithRestrictionGroups.MultiQueryProviderBaseWithRestrictionGroups(string, string)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.MultiQueryProviderBaseWithRestrictionGroups(string, string)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public MultiQueryProviderBaseWithRestrictionGroups(string tableName, string context)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(tableName As String, context As String)
+  overload: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.#ctor*
+  nameWithType.vb: MultiQueryProviderBaseWithRestrictionGroups.New(String, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.New(String, String)
+  name.vb: New(String, String)
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.SetDesiredColumns(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.SetDesiredColumns(System.String[])
   id: SetDesiredColumns(System.String[])
@@ -1518,6 +1570,17 @@ references:
   nameWithType.vb: MultiQueryProviderBaseWithRestrictionGroups.New
   fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.New
   name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredColumns(System.String[])
   parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
@@ -1818,17 +1881,6 @@ references:
   name: GetRows
   nameWithType: MultiQueryProviderBaseWithRestrictionGroups.GetRows
   fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.GetRows
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
   commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
   parent: System.Collections.Generic

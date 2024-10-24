@@ -6,7 +6,8 @@ items:
   parent: SuperOffice.CRM.ArchiveLists.Archive
   children:
   - SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor
-  - SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.IsInPersonMode
   - SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.PostProcessQuery
@@ -267,30 +268,56 @@ items:
   nameWithType.vb: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.New()
   name.vb: New()
-- uid: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)'
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup
   langs:
   - csharp
   - vb
-  name: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(Features)
-  nameWithType: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(PersonExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  name: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(string)
+  nameWithType: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(string)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(string)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists.Archive
   syntax:
-    content: public SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(PersonExtenderBase.Features features)
+    content: public SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(string context)
+    parameters:
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(context As String)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor*
+  nameWithType.vb: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.New(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.New(String)
+  name.vb: New(String)
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup
+  langs:
+  - csharp
+  - vb
+  name: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(Features, string)
+  nameWithType: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(PersonExtenderBase.Features, string)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features, string)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public SubPersonContactSelectionDynamicProviderSingleCriteriaGroup(PersonExtenderBase.Features features, string context = "")
     parameters:
     - id: features
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    content.vb: Public Sub New(features As PersonExtenderBase.Features)
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(features As PersonExtenderBase.Features, context As String = "")
   overload: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.#ctor*
-  nameWithType.vb: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.New(PersonExtenderBase.Features)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.New(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-  name.vb: New(Features)
+  nameWithType.vb: SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.New(PersonExtenderBase.Features, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.New(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features, String)
+  name.vb: New(Features, String)
 - uid: SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.PostProcessQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SubPersonContactSelectionDynamicProviderSingleCriteriaGroup.PostProcessQuery
   id: PostProcessQuery

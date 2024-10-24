@@ -1,0 +1,1200 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.SelectionTags
+  commentId: T:SuperOffice.CRM.Globalization.SelectionTags
+  id: SelectionTags
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.SelectionTags.#ctor(System.Int32)
+  - SuperOffice.CRM.Globalization.SelectionTags.Id
+  - SuperOffice.CRM.Globalization.SelectionTags.Name
+  - SuperOffice.CRM.Globalization.SelectionTags.SelectedMembers
+  - SuperOffice.CRM.Globalization.SelectionTags.Selection
+  - SuperOffice.CRM.Globalization.SelectionTags._selection
+  langs:
+  - csharp
+  - vb
+  name: SelectionTags
+  nameWithType: SelectionTags
+  fullName: SuperOffice.CRM.Globalization.SelectionTags
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: Container for tag variables for selection information, based on data from a <xref href="SuperOffice.CRM.ISelectionInfo" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    Note to implementers: Please <b>DO NOT</b> make this class dependent on the database in any
+
+    way - the design is explicitly constructed to allow multiple implementations of the data-carrying
+
+    Info interface object, including database-free ones.
+  example: []
+  syntax:
+    content: 'public class SelectionTags : TagContainer'
+    content.vb: Public Class SelectionTags Inherits TagContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.IO.TagContainer
+  inheritedMembers:
+  - SuperOffice.IO.TagContainer._bInitiated
+  - SuperOffice.IO.TagContainer.AddData(System.Object[])
+  - SuperOffice.IO.TagContainer.GetData
+  - SuperOffice.IO.TagContainer.ClearData
+  - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetTags
+  - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  - SuperOffice.IO.TagContainer.Init
+  - SuperOffice.IO.TagContainer.CurrentUiCulture
+  - SuperOffice.IO.TagContainer.Data
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.SelectionTags.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.SelectionTags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Globalization.SelectionTags._selection
+  commentId: F:SuperOffice.CRM.Globalization.SelectionTags._selection
+  id: _selection
+  parent: SuperOffice.CRM.Globalization.SelectionTags
+  langs:
+  - csharp
+  - vb
+  name: _selection
+  nameWithType: SelectionTags._selection
+  fullName: SuperOffice.CRM.Globalization.SelectionTags._selection
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected ISelectionInfo _selection
+    return:
+      type: SuperOffice.CRM.ISelectionInfo
+    content.vb: Protected _selection As ISelectionInfo
+- uid: SuperOffice.CRM.Globalization.SelectionTags.#ctor(System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.SelectionTags.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.CRM.Globalization.SelectionTags
+  langs:
+  - csharp
+  - vb
+  name: SelectionTags(int)
+  nameWithType: SelectionTags.SelectionTags(int)
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.SelectionTags(int)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public SelectionTags(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Sub New(selectionId As Integer)
+  overload: SuperOffice.CRM.Globalization.SelectionTags.#ctor*
+  nameWithType.vb: SelectionTags.New(Integer)
+  fullName.vb: SuperOffice.CRM.Globalization.SelectionTags.New(Integer)
+  name.vb: New(Integer)
+- uid: SuperOffice.CRM.Globalization.SelectionTags.Id
+  commentId: P:SuperOffice.CRM.Globalization.SelectionTags.Id
+  id: Id
+  parent: SuperOffice.CRM.Globalization.SelectionTags
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SelectionTags.Id
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.Id
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: Unique selection id
+  example: []
+  syntax:
+    content: >-
+      [TemplateTag("slid")]
+
+      public override int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <TemplateTag("slid")>
+
+      Public Overrides ReadOnly Property Id As Integer
+  overridden: SuperOffice.IO.TagContainer.Id
+  overload: SuperOffice.CRM.Globalization.SelectionTags.Id*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: slid
+- uid: SuperOffice.CRM.Globalization.SelectionTags.Name
+  commentId: P:SuperOffice.CRM.Globalization.SelectionTags.Name
+  id: Name
+  parent: SuperOffice.CRM.Globalization.SelectionTags
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SelectionTags.Name
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.Name
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: Name of selection
+  example: []
+  syntax:
+    content: >-
+      [TemplateTag("snam")]
+
+      public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("snam")>
+
+      Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Globalization.SelectionTags.Name*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: snam
+- uid: SuperOffice.CRM.Globalization.SelectionTags.SelectedMembers
+  commentId: P:SuperOffice.CRM.Globalization.SelectionTags.SelectedMembers
+  id: SelectedMembers
+  parent: SuperOffice.CRM.Globalization.SelectionTags
+  langs:
+  - csharp
+  - vb
+  name: SelectedMembers
+  nameWithType: SelectionTags.SelectedMembers
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.SelectedMembers
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: Highlighted list from selection. (space separated list consisting of comma separated contacts and persons from selection.)
+  example: []
+  syntax:
+    content: >-
+      [TemplateTag("mbrs")]
+
+      public string SelectedMembers { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("mbrs")>
+
+      Public ReadOnly Property SelectedMembers As String
+  overload: SuperOffice.CRM.Globalization.SelectionTags.SelectedMembers*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: mbrs
+- uid: SuperOffice.CRM.Globalization.SelectionTags.Selection
+  commentId: P:SuperOffice.CRM.Globalization.SelectionTags.Selection
+  id: Selection
+  parent: SuperOffice.CRM.Globalization.SelectionTags
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: SelectionTags.Selection
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.Selection
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: >-
+    Encapsulation of the <xref href="SuperOffice.CRM.Globalization.SelectionTags._selection" data-throw-if-not-resolved="false"></xref> member variable.  
+
+    Accessing this property will make sure that the this variable is set.
+  example: []
+  syntax:
+    content: protected ISelectionInfo Selection { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ISelectionInfo
+    content.vb: Protected ReadOnly Property Selection As ISelectionInfo
+  overload: SuperOffice.CRM.Globalization.SelectionTags.Selection*
+references:
+- uid: SuperOffice.CRM.ISelectionInfo
+  commentId: T:SuperOffice.CRM.ISelectionInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.ISelectionInfo.html
+  name: ISelectionInfo
+  nameWithType: ISelectionInfo
+  fullName: SuperOffice.CRM.ISelectionInfo
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.IO.TagContainer
+  commentId: T:SuperOffice.IO.TagContainer
+  parent: SuperOffice.IO
+  isExternal: true
+  href: SuperOffice.IO.TagContainer.html
+  name: TagContainer
+  nameWithType: TagContainer
+  fullName: SuperOffice.IO.TagContainer
+- uid: SuperOffice.IO.TagContainer._bInitiated
+  commentId: F:SuperOffice.IO.TagContainer._bInitiated
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: _bInitiated
+  nameWithType: TagContainer._bInitiated
+  fullName: SuperOffice.IO.TagContainer._bInitiated
+- uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+  commentId: M:SuperOffice.IO.TagContainer.AddData(System.Object[])
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_AddData_System_Object___
+  name: AddData(params object[])
+  nameWithType: TagContainer.AddData(params object[])
+  fullName: SuperOffice.IO.TagContainer.AddData(params object[])
+  nameWithType.vb: TagContainer.AddData(ParamArray Object())
+  fullName.vb: SuperOffice.IO.TagContainer.AddData(ParamArray Object())
+  name.vb: AddData(ParamArray Object())
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+    name: AddData
+    isExternal: true
+    href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_AddData_System_Object___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+    name: AddData
+    isExternal: true
+    href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_AddData_System_Object___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.IO.TagContainer.GetData
+  commentId: M:SuperOffice.IO.TagContainer.GetData
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetData()
+  nameWithType: TagContainer.GetData()
+  fullName: SuperOffice.IO.TagContainer.GetData()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetData
+    name: GetData
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetData
+    name: GetData
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.IO.TagContainer.ClearData
+  commentId: M:SuperOffice.IO.TagContainer.ClearData
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: ClearData()
+  nameWithType: TagContainer.ClearData()
+  fullName: SuperOffice.IO.TagContainer.ClearData()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.ClearData
+    name: ClearData
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.ClearData
+    name: ClearData
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_GetValue_System_String_
+  name: GetValue(string)
+  nameWithType: TagContainer.GetValue(string)
+  fullName: SuperOffice.IO.TagContainer.GetValue(string)
+  nameWithType.vb: TagContainer.GetValue(String)
+  fullName.vb: SuperOffice.IO.TagContainer.GetValue(String)
+  name.vb: GetValue(String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+    name: GetValue
+    isExternal: true
+    href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_GetValue_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+    name: GetValue
+    isExternal: true
+    href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_GetValue_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.IO.TagContainer.GetTags
+  commentId: M:SuperOffice.IO.TagContainer.GetTags
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetTags()
+  nameWithType: TagContainer.GetTags()
+  fullName: SuperOffice.IO.TagContainer.GetTags()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetValue(string, string)
+  nameWithType: TagContainer.SetValue(string, string)
+  fullName: SuperOffice.IO.TagContainer.SetValue(string, string)
+  nameWithType.vb: TagContainer.SetValue(String, String)
+  fullName.vb: SuperOffice.IO.TagContainer.SetValue(String, String)
+  name.vb: SetValue(String, String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+    name: SetValue
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+    name: SetValue
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RemoveCustomValue(string)
+  nameWithType: TagContainer.RemoveCustomValue(string)
+  fullName: SuperOffice.IO.TagContainer.RemoveCustomValue(string)
+  nameWithType.vb: TagContainer.RemoveCustomValue(String)
+  fullName.vb: SuperOffice.IO.TagContainer.RemoveCustomValue(String)
+  name.vb: RemoveCustomValue(String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+    name: RemoveCustomValue
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+    name: RemoveCustomValue
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: IsTagLegal(string)
+  nameWithType: TagContainer.IsTagLegal(string)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegal(string)
+  nameWithType.vb: TagContainer.IsTagLegal(String)
+  fullName.vb: SuperOffice.IO.TagContainer.IsTagLegal(String)
+  name.vb: IsTagLegal(String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+    name: IsTagLegal
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+    name: IsTagLegal
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: IsTagInContext(string)
+  nameWithType: TagContainer.IsTagInContext(string)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContext(string)
+  nameWithType.vb: TagContainer.IsTagInContext(String)
+  fullName.vb: SuperOffice.IO.TagContainer.IsTagInContext(String)
+  name.vb: IsTagInContext(String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+    name: IsTagInContext
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+    name: IsTagInContext
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.IO.TagContainer.Init
+  commentId: M:SuperOffice.IO.TagContainer.Init
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Init()
+  nameWithType: TagContainer.Init()
+  fullName: SuperOffice.IO.TagContainer.Init()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.Init
+    name: Init
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.Init
+    name: Init
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.IO.TagContainer.CurrentUiCulture
+  commentId: P:SuperOffice.IO.TagContainer.CurrentUiCulture
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: CurrentUiCulture
+  nameWithType: TagContainer.CurrentUiCulture
+  fullName: SuperOffice.IO.TagContainer.CurrentUiCulture
+- uid: SuperOffice.IO.TagContainer.Data
+  commentId: P:SuperOffice.IO.TagContainer.Data
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Data
+  nameWithType: TagContainer.Data
+  fullName: SuperOffice.IO.TagContainer.Data
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Globalization.SelectionTags.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<SelectionTags, To>(SelectionTags)
+  nameWithType: EnumUtil.MapEnums<SelectionTags, To>(SelectionTags)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.SelectionTags, To>(SuperOffice.CRM.Globalization.SelectionTags)
+  nameWithType.vb: EnumUtil.MapEnums(Of SelectionTags, To)(SelectionTags)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.SelectionTags, To)(SuperOffice.CRM.Globalization.SelectionTags)
+  name.vb: MapEnums(Of SelectionTags, To)(SelectionTags)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.SelectionTags)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Globalization.SelectionTags
+    name: SelectionTags
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.SelectionTags.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Globalization.SelectionTags
+    name: SelectionTags
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.SelectionTags.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.SelectionTags)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Globalization.SelectionTags
+    name: SelectionTags
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.SelectionTags.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Globalization.SelectionTags
+    name: SelectionTags
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.SelectionTags.html
+  - name: )
+- uid: SuperOffice.CRM.Globalization.SelectionTags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<SelectionTags, To>(SelectionTags)
+  nameWithType: Converters.MapEnums<SelectionTags, To>(SelectionTags)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.SelectionTags, To>(SuperOffice.CRM.Globalization.SelectionTags)
+  nameWithType.vb: Converters.MapEnums(Of SelectionTags, To)(SelectionTags)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.SelectionTags, To)(SuperOffice.CRM.Globalization.SelectionTags)
+  name.vb: MapEnums(Of SelectionTags, To)(SelectionTags)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.SelectionTags)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Globalization.SelectionTags
+    name: SelectionTags
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.SelectionTags.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Globalization.SelectionTags
+    name: SelectionTags
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.SelectionTags.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.SelectionTags)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Globalization.SelectionTags
+    name: SelectionTags
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.SelectionTags.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Globalization.SelectionTags
+    name: SelectionTags
+    isExternal: true
+    href: SuperOffice.CRM.Globalization.SelectionTags.html
+  - name: )
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.IO
+    name: IO
+    isExternal: true
+    href: SuperOffice.IO.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.IO
+    name: IO
+    isExternal: true
+    href: SuperOffice.IO.html
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Globalization.SelectionTags.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.SelectionTags.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.SelectionTags.html#SuperOffice_CRM_Globalization_SelectionTags__ctor_System_Int32_
+  name: SelectionTags
+  nameWithType: SelectionTags.SelectionTags
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.SelectionTags
+  nameWithType.vb: SelectionTags.New
+  fullName.vb: SuperOffice.CRM.Globalization.SelectionTags.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.IO.TagContainer.Id
+  commentId: P:SuperOffice.IO.TagContainer.Id
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Id
+  nameWithType: TagContainer.Id
+  fullName: SuperOffice.IO.TagContainer.Id
+- uid: SuperOffice.CRM.Globalization.SelectionTags.Id*
+  commentId: Overload:SuperOffice.CRM.Globalization.SelectionTags.Id
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.SelectionTags.html#SuperOffice_CRM_Globalization_SelectionTags_Id
+  name: Id
+  nameWithType: SelectionTags.Id
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.Id
+- uid: SuperOffice.CRM.Globalization.SelectionTags.Name*
+  commentId: Overload:SuperOffice.CRM.Globalization.SelectionTags.Name
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.SelectionTags.html#SuperOffice_CRM_Globalization_SelectionTags_Name
+  name: Name
+  nameWithType: SelectionTags.Name
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Globalization.SelectionTags.SelectedMembers*
+  commentId: Overload:SuperOffice.CRM.Globalization.SelectionTags.SelectedMembers
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.SelectionTags.html#SuperOffice_CRM_Globalization_SelectionTags_SelectedMembers
+  name: SelectedMembers
+  nameWithType: SelectionTags.SelectedMembers
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.SelectedMembers
+- uid: SuperOffice.CRM.Globalization.SelectionTags._selection
+  commentId: F:SuperOffice.CRM.Globalization.SelectionTags._selection
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.SelectionTags.html#SuperOffice_CRM_Globalization_SelectionTags__selection
+  name: _selection
+  nameWithType: SelectionTags._selection
+  fullName: SuperOffice.CRM.Globalization.SelectionTags._selection
+- uid: SuperOffice.CRM.Globalization.SelectionTags.Selection*
+  commentId: Overload:SuperOffice.CRM.Globalization.SelectionTags.Selection
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.SelectionTags.html#SuperOffice_CRM_Globalization_SelectionTags_Selection
+  name: Selection
+  nameWithType: SelectionTags.Selection
+  fullName: SuperOffice.CRM.Globalization.SelectionTags.Selection

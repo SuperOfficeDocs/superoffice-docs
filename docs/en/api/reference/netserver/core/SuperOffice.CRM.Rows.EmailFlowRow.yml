@@ -27,6 +27,7 @@ items:
   - SuperOffice.CRM.Rows.EmailFlowRow.IsNew
   - SuperOffice.CRM.Rows.EmailFlowRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.EmailFlowRow.Item(System.String)
+  - SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId
   - SuperOffice.CRM.Rows.EmailFlowRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.EmailFlowRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.EmailFlowRow.OnSaved(System.Boolean)
@@ -61,6 +62,7 @@ items:
   - SuperOffice.CRM.Rows.EmailFlowRow._currentGaCampaign
   - SuperOffice.CRM.Rows.EmailFlowRow._currentGaSource
   - SuperOffice.CRM.Rows.EmailFlowRow._currentHierarchyId
+  - SuperOffice.CRM.Rows.EmailFlowRow._currentMainMessageId
   - SuperOffice.CRM.Rows.EmailFlowRow._currentOverrideConsentSubscription
   - SuperOffice.CRM.Rows.EmailFlowRow._currentRegistered
   - SuperOffice.CRM.Rows.EmailFlowRow._currentRegisteredAssociateId
@@ -85,6 +87,7 @@ items:
   - SuperOffice.CRM.Rows.EmailFlowRow._persistedGaCampaign
   - SuperOffice.CRM.Rows.EmailFlowRow._persistedGaSource
   - SuperOffice.CRM.Rows.EmailFlowRow._persistedHierarchyId
+  - SuperOffice.CRM.Rows.EmailFlowRow._persistedMainMessageId
   - SuperOffice.CRM.Rows.EmailFlowRow._persistedOverrideConsentSubscription
   - SuperOffice.CRM.Rows.EmailFlowRow._persistedRegistered
   - SuperOffice.CRM.Rows.EmailFlowRow._persistedRegisteredAssociateId
@@ -246,6 +249,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.EmailFlowRow._persistedEmailFlowId
   commentId: F:SuperOffice.CRM.Rows.EmailFlowRow._persistedEmailFlowId
   id: _persistedEmailFlowId
@@ -750,6 +754,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedReplyToName As String
+- uid: SuperOffice.CRM.Rows.EmailFlowRow._persistedMainMessageId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRow._persistedMainMessageId
+  id: _persistedMainMessageId
+  parent: SuperOffice.CRM.Rows.EmailFlowRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedMainMessageId
+  nameWithType: EmailFlowRow._persistedMainMessageId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRow._persistedMainMessageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedMainMessageId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedMainMessageId As Integer
 - uid: SuperOffice.CRM.Rows.EmailFlowRow._currentEmailFlowId
   commentId: F:SuperOffice.CRM.Rows.EmailFlowRow._currentEmailFlowId
   id: _currentEmailFlowId
@@ -1254,6 +1279,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentReplyToName As String
+- uid: SuperOffice.CRM.Rows.EmailFlowRow._currentMainMessageId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRow._currentMainMessageId
+  id: _currentMainMessageId
+  parent: SuperOffice.CRM.Rows.EmailFlowRow
+  langs:
+  - csharp
+  - vb
+  name: _currentMainMessageId
+  nameWithType: EmailFlowRow._currentMainMessageId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRow._currentMainMessageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentMainMessageId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentMainMessageId As Integer
 - uid: SuperOffice.CRM.Rows.EmailFlowRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.EmailFlowRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2000,7 +2046,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. The flow this instance belongs to'
+  summary: '.NET type: int. The workflow this emailflow belongs to'
   remarks: >-
     Original type in dictionary:  FK.
 
@@ -2731,6 +2777,37 @@ items:
       type: System.String
     content.vb: Public Overridable Property ReplyToName As String
   overload: SuperOffice.CRM.Rows.EmailFlowRow.ReplyToName*
+- uid: SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId
+  commentId: P:SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId
+  id: MainMessageId
+  parent: SuperOffice.CRM.Rows.EmailFlowRow
+  langs:
+  - csharp
+  - vb
+  name: MainMessageId
+  nameWithType: EmailFlowRow.MainMessageId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The main email message, used for thumbnail creation'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int MainMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MainMessageId As Integer
+  overload: SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId*
 references:
 - uid: SuperOffice.CRM.Rows.EmailFlowRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.EmailFlowRow.CreateNew
@@ -4763,6 +4840,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -5161,6 +5291,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -5434,6 +5616,13 @@ references:
   name: ReplyToName
   nameWithType: EmailFlowRow.ReplyToName
   fullName: SuperOffice.CRM.Rows.EmailFlowRow.ReplyToName
+- uid: SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId
+  commentId: P:SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailFlowRow.html#SuperOffice_CRM_Rows_EmailFlowRow_MainMessageId
+  name: MainMessageId
+  nameWithType: EmailFlowRow.MainMessageId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6356,3 +6545,10 @@ references:
   name: ReplyToName
   nameWithType: EmailFlowRow.ReplyToName
   fullName: SuperOffice.CRM.Rows.EmailFlowRow.ReplyToName
+- uid: SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailFlowRow.html#SuperOffice_CRM_Rows_EmailFlowRow_MainMessageId
+  name: MainMessageId
+  nameWithType: EmailFlowRow.MainMessageId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRow.MainMessageId

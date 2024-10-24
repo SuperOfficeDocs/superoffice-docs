@@ -27,7 +27,6 @@ items:
   - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.DateTime)
   - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.Int32)
   - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String)
-  - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32)
   - SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
   langs:
   - csharp
@@ -684,7 +683,10 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Set a preference on the Individual (associate) level
+  summary: >-
+    Set a preference on the maximum supported level for the given preference. If the maximum level is "Individual" - .an associate level preference will be created.
+
+    If the maxiumum level is "Group", a group level preference for the current associate will be created.
   example: []
   syntax:
     content: public static void SetPreference(string section, string key, string value)
@@ -697,48 +699,12 @@ items:
       description: Preference key
     - id: value
       type: System.String
-      description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
+      description: New value, will overwrite the old or create a new record if no preference existed for the maximum supported level
     content.vb: Public Shared Sub SetPreference(section As String, key As String, value As String)
   overload: SuperOffice.Data.SoPreference.SetPreference*
   nameWithType.vb: SoPreference.SetPreference(String, String, String)
   fullName.vb: SuperOffice.Data.SoPreference.SetPreference(String, String, String)
   name.vb: SetPreference(String, String, String)
-- uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32)
-  commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32)
-  id: SetPreference(System.String,System.String,System.String,System.Int32)
-  parent: SuperOffice.Data.SoPreference
-  langs:
-  - csharp
-  - vb
-  name: SetPreference(string, string, string, int)
-  nameWithType: SoPreference.SetPreference(string, string, string, int)
-  fullName: SuperOffice.Data.SoPreference.SetPreference(string, string, string, int)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: Set a preference on the individual (associate) level for a specified associate
-  example: []
-  syntax:
-    content: public static void SetPreference(string section, string key, string value, int associateId)
-    parameters:
-    - id: section
-      type: System.String
-      description: Preference section
-    - id: key
-      type: System.String
-      description: Preference key
-    - id: value
-      type: System.String
-      description: New value, will overwrite the old or create a new record if no associate-level preference existed for the associate
-    - id: associateId
-      type: System.Int32
-      description: Identity of associate to set preference for
-    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As String, associateId As Integer)
-  overload: SuperOffice.Data.SoPreference.SetPreference*
-  nameWithType.vb: SoPreference.SetPreference(String, String, String, Integer)
-  fullName.vb: SuperOffice.Data.SoPreference.SetPreference(String, String, String, Integer)
-  name.vb: SetPreference(String, String, String, Integer)
 - uid: SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.Data.SoPreference.SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)
   id: SetPreference(System.String,System.String,System.String,System.Int32,SuperOffice.Data.PreferenceLevel,System.Boolean,System.Boolean)

@@ -31,6 +31,7 @@ items:
   - SuperOffice.CRM.Rows.SLinkRow.Item(System.String)
   - SuperOffice.CRM.Rows.SLinkRow.LastReset
   - SuperOffice.CRM.Rows.SLinkRow.LinkValue
+  - SuperOffice.CRM.Rows.SLinkRow.LocalLink
   - SuperOffice.CRM.Rows.SLinkRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.SLinkRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.SLinkRow.OnSaved(System.Boolean)
@@ -82,6 +83,7 @@ items:
   - SuperOffice.CRM.Rows.SLinkRow._currentHits
   - SuperOffice.CRM.Rows.SLinkRow._currentLastReset
   - SuperOffice.CRM.Rows.SLinkRow._currentLinkValue
+  - SuperOffice.CRM.Rows.SLinkRow._currentLocalLink
   - SuperOffice.CRM.Rows.SLinkRow._currentRedirectIsUrl
   - SuperOffice.CRM.Rows.SLinkRow._currentRegistered
   - SuperOffice.CRM.Rows.SLinkRow._currentRegisteredAssociateId
@@ -122,6 +124,7 @@ items:
   - SuperOffice.CRM.Rows.SLinkRow._persistedHits
   - SuperOffice.CRM.Rows.SLinkRow._persistedLastReset
   - SuperOffice.CRM.Rows.SLinkRow._persistedLinkValue
+  - SuperOffice.CRM.Rows.SLinkRow._persistedLocalLink
   - SuperOffice.CRM.Rows.SLinkRow._persistedRedirectIsUrl
   - SuperOffice.CRM.Rows.SLinkRow._persistedRegistered
   - SuperOffice.CRM.Rows.SLinkRow._persistedRegisteredAssociateId
@@ -294,6 +297,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.SLinkRow._persistedSLinkId
   commentId: F:SuperOffice.CRM.Rows.SLinkRow._persistedSLinkId
   id: _persistedSLinkId
@@ -1134,6 +1138,27 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _persistedUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.SLinkRow._persistedLocalLink
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._persistedLocalLink
+  id: _persistedLocalLink
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLocalLink
+  nameWithType: SLinkRow._persistedLocalLink
+  fullName: SuperOffice.CRM.Rows.SLinkRow._persistedLocalLink
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.LocalLink" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedLocalLink
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedLocalLink As Integer
 - uid: SuperOffice.CRM.Rows.SLinkRow._currentSLinkId
   commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentSLinkId
   id: _currentSLinkId
@@ -1974,6 +1999,27 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.SLinkRow._currentLocalLink
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentLocalLink
+  id: _currentLocalLink
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLocalLink
+  nameWithType: SLinkRow._currentLocalLink
+  fullName: SuperOffice.CRM.Rows.SLinkRow._currentLocalLink
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.LocalLink" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentLocalLink
+    return:
+      type: System.Int32
+    content.vb: Protected _currentLocalLink As Integer
 - uid: SuperOffice.CRM.Rows.SLinkRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.SLinkRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2722,7 +2768,7 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: '.NET type: string. The real URL of this link (www.vg.no etc)'
   remarks: >-
-    Original type in dictionary:  String[256].
+    Original type in dictionary:  String[4001].
 
     <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
 
@@ -3915,6 +3961,37 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.CRM.Rows.SLinkRow.UpdatedCount*
+- uid: SuperOffice.CRM.Rows.SLinkRow.LocalLink
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.LocalLink
+  id: LocalLink
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: LocalLink
+  nameWithType: SLinkRow.LocalLink
+  fullName: SuperOffice.CRM.Rows.SLinkRow.LocalLink
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. If this references a shipment message, then this is a local link belonging to that message'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int LocalLink { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LocalLink As Integer
+  overload: SuperOffice.CRM.Rows.SLinkRow.LocalLink*
 references:
 - uid: SuperOffice.CRM.Rows.SLinkRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.SLinkRow.CreateNew
@@ -5947,6 +6024,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -6345,6 +6475,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -6722,6 +6904,13 @@ references:
   name: UpdatedCount
   nameWithType: SLinkRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.SLinkRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.SLinkRow.LocalLink
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.LocalLink
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_LocalLink
+  name: LocalLink
+  nameWithType: SLinkRow.LocalLink
+  fullName: SuperOffice.CRM.Rows.SLinkRow.LocalLink
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7749,3 +7938,10 @@ references:
   name: UpdatedCount
   nameWithType: SLinkRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.SLinkRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.SLinkRow.LocalLink*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkRow.LocalLink
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_LocalLink
+  name: LocalLink
+  nameWithType: SLinkRow.LocalLink
+  fullName: SuperOffice.CRM.Rows.SLinkRow.LocalLink

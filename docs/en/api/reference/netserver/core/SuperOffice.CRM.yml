@@ -49,6 +49,7 @@ items:
   - SuperOffice.CRM.IPersonInfo
   - SuperOffice.CRM.IPersonInfo2
   - SuperOffice.CRM.IPersonInfo3
+  - SuperOffice.CRM.IPersonInfo4
   - SuperOffice.CRM.IProductRegisterCache
   - SuperOffice.CRM.IProjectInfo
   - SuperOffice.CRM.IProjectInfo2
@@ -66,6 +67,7 @@ items:
   - SuperOffice.CRM.ListItemInfo
   - SuperOffice.CRM.ListsHelper
   - SuperOffice.CRM.ListsHelper.ItemRow
+  - SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
   - SuperOffice.CRM.ModuleLicenceProvider
   - SuperOffice.CRM.NetServices
   - SuperOffice.CRM.NextDateBase
@@ -206,6 +208,7 @@ items:
 references:
 - uid: SuperOffice.CRM.ApplicationIcon
   commentId: T:SuperOffice.CRM.ApplicationIcon
+  parent: SuperOffice.CRM
   isExternal: true
   href: SuperOffice.CRM.ApplicationIcon.html
   name: ApplicationIcon
@@ -2092,6 +2095,33 @@ references:
     name: ItemRow
     isExternal: true
     href: SuperOffice.CRM.ListsHelper.ItemRow.html
+- uid: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
+  commentId: T:SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
+  isExternal: true
+  href: SuperOffice.CRM.ListsHelper.html
+  name: ListsHelper.SoListItemDistinctIdComparer
+  nameWithType: ListsHelper.SoListItemDistinctIdComparer
+  fullName: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
+  spec.csharp:
+  - uid: SuperOffice.CRM.ListsHelper
+    name: ListsHelper
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
+    name: SoListItemDistinctIdComparer
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ListsHelper
+    name: ListsHelper
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer
+    name: SoListItemDistinctIdComparer
+    isExternal: true
+    href: SuperOffice.CRM.ListsHelper.SoListItemDistinctIdComparer.html
 - uid: SuperOffice.CRM.NetServices
   commentId: T:SuperOffice.CRM.NetServices
   isExternal: true
@@ -2468,6 +2498,14 @@ references:
   name: IPersonInfo3
   nameWithType: IPersonInfo3
   fullName: SuperOffice.CRM.IPersonInfo3
+- uid: SuperOffice.CRM.IPersonInfo4
+  commentId: T:SuperOffice.CRM.IPersonInfo4
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.IPersonInfo4.html
+  name: IPersonInfo4
+  nameWithType: IPersonInfo4
+  fullName: SuperOffice.CRM.IPersonInfo4
 - uid: SuperOffice.CRM.IProjectInfo
   commentId: T:SuperOffice.CRM.IProjectInfo
   parent: SuperOffice.CRM

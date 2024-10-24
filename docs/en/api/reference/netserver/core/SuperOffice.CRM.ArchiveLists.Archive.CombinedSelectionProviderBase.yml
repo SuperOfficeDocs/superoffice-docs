@@ -63,6 +63,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionCombinedProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionCombinedProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionCombinedProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionCombinedProvider
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionCombinedProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentShadowSelectionCombinedProvider

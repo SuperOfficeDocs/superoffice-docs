@@ -10,6 +10,7 @@ items:
   - SuperOffice.Diagnostics.SoLogger.BeginScope``1(System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
   - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
+  - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
   - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String,System.Double)
   - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String[])
   - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.ValueTuple{System.String,System.Double}[])
@@ -253,6 +254,36 @@ items:
   nameWithType.vb: SoLogger.Count(String, Dictionary(Of String, Double))
   fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, System.Collections.Generic.Dictionary(Of String, Double))
   name.vb: Count(String, Dictionary(Of String, Double))
+- uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
+  commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
+  id: Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: Count(string, NameValueCollection, params (string, double)[])
+  nameWithType: SoLogger.Count(string, NameValueCollection, params (string, double)[])
+  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, System.Collections.Specialized.NameValueCollection, params (string, double)[])
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: Count a multiple values
+  example: []
+  syntax:
+    content: public static void Count(string eventName, NameValueCollection env, params (string, double)[] pairs)
+    parameters:
+    - id: eventName
+      type: System.String
+    - id: env
+      type: System.Collections.Specialized.NameValueCollection
+    - id: pairs
+      type: System.ValueTuple{System.String,System.Double}[]
+    content.vb: Public Shared Sub Count(eventName As String, env As NameValueCollection, ParamArray pairs As (String, Double)())
+  overload: SuperOffice.Diagnostics.SoLogger.Count*
+  nameWithType.vb: SoLogger.Count(String, NameValueCollection, ParamArray (String, Double)())
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, System.Collections.Specialized.NameValueCollection, ParamArray (String, Double)())
+  name.vb: Count(String, NameValueCollection, ParamArray (String, Double)())
 - uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
   commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
   id: Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})

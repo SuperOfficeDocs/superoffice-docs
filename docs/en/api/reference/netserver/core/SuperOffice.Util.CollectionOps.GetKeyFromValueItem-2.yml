@@ -25,7 +25,10 @@ items:
     key from the given item
   example: []
   syntax:
-    content: public delegate KeyType CollectionOps.GetKeyFromValueItem<KeyType, ValueType>(ValueType item)
+    content: >-
+      [Obsolete("This delegate is obsolete and will be removed in a future version.", false)]
+
+      public delegate KeyType CollectionOps.GetKeyFromValueItem<KeyType, ValueType>(ValueType item)
     parameters:
     - id: item
       type: '{ValueType}'
@@ -38,10 +41,21 @@ items:
     return:
       type: '{KeyType}'
       description: Item of type KeyType
-    content.vb: Public Delegate Function CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)(item As ValueType) As KeyType
+    content.vb: >-
+      <Obsolete("This delegate is obsolete and will be removed in a future version.", False)>
+
+      Public Delegate Function CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)(item As ValueType) As KeyType
   extensionMethods:
   - SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.EnumUtil.MapEnums``2
   - SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This delegate is obsolete and will be removed in a future version.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
   fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
   name.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)

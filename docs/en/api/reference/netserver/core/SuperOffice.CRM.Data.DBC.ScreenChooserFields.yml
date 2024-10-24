@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Data.DBC.ScreenChooserFields.Description
   - SuperOffice.CRM.Data.DBC.ScreenChooserFields.Ejscript
+  - SuperOffice.CRM.Data.DBC.ScreenChooserFields.EjscriptId
   - SuperOffice.CRM.Data.DBC.ScreenChooserFields.Enabled
   - SuperOffice.CRM.Data.DBC.ScreenChooserFields.Registered
   - SuperOffice.CRM.Data.DBC.ScreenChooserFields.RegisteredAssociateId
@@ -294,6 +295,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+- uid: SuperOffice.CRM.Data.DBC.ScreenChooserFields.EjscriptId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenChooserFields.EjscriptId
+  id: EjscriptId
+  parent: SuperOffice.CRM.Data.DBC.ScreenChooserFields
+  langs:
+  - csharp
+  - vb
+  name: EjscriptId
+  nameWithType: DBC.ScreenChooserFields.EjscriptId
+  fullName: SuperOffice.CRM.Data.DBC.ScreenChooserFields.EjscriptId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'ScreenChooser.EjscriptId: The ejscript row containing the TypeScript for this trigger'
+  example: []
+  syntax:
+    content: public const string EjscriptId = "ejscript_id"
+    return:
+      type: System.String
+    content.vb: Public Const EjscriptId As String = "ejscript_id"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

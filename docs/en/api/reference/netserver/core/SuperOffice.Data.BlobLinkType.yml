@@ -13,6 +13,7 @@ items:
   - SuperOffice.Data.BlobLinkType.DashboardHtmlTileData
   - SuperOffice.Data.BlobLinkType.DashboardTile
   - SuperOffice.Data.BlobLinkType.EventImage
+  - SuperOffice.Data.BlobLinkType.ExtraTableIcon
   - SuperOffice.Data.BlobLinkType.FormsBackgroundImage
   - SuperOffice.Data.BlobLinkType.PersonImage
   - SuperOffice.Data.BlobLinkType.ProductImage
@@ -615,6 +616,37 @@ items:
       <EnumMember>
 
       DashboardHtmlTileData = 18
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.BlobLinkType.ExtraTableIcon
+  commentId: F:SuperOffice.Data.BlobLinkType.ExtraTableIcon
+  id: ExtraTableIcon
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ExtraTableIcon
+  nameWithType: BlobLinkType.ExtraTableIcon
+  fullName: SuperOffice.Data.BlobLinkType.ExtraTableIcon
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '19: Extra table icon'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ExtraTableIcon = 19
+    return:
+      type: SuperOffice.Data.BlobLinkType
+    content.vb: >-
+      <EnumMember>
+
+      ExtraTableIcon = 19
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

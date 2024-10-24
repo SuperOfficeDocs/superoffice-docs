@@ -117,6 +117,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ChatSessionChatTopicExtender
   - SuperOffice.CRM.ArchiveLists.ChatSessionContactExtender
   - SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
+  - SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
   - SuperOffice.CRM.ArchiveLists.ChatSessionPersonExtender
   - SuperOffice.CRM.ArchiveLists.ChatSessionProvider
   - SuperOffice.CRM.ArchiveLists.ChatTopicExtenderBase
@@ -191,6 +192,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.CriteriaInfo
   - SuperOffice.CRM.ArchiveLists.CriteriaProvider
   - SuperOffice.CRM.ArchiveLists.CrmScriptsProvider
+  - SuperOffice.CRM.ArchiveLists.CustomObjectProvider
+  - SuperOffice.CRM.ArchiveLists.CustomObjectProviderBase
   - SuperOffice.CRM.ArchiveLists.DashboardColumnsProvider
   - SuperOffice.CRM.ArchiveLists.DiaryActivityArchiveProvider
   - SuperOffice.CRM.ArchiveLists.DiaryAppointmentProvider
@@ -296,9 +299,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExternalPersonsProvider
   - SuperOffice.CRM.ArchiveLists.ExternalUsersProvider
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
-  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
   - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender
-  - SuperOffice.CRM.ArchiveLists.ExtraTableProvider
   - SuperOffice.CRM.ArchiveLists.FavouriteAppointmentExtender
   - SuperOffice.CRM.ArchiveLists.FavouriteContactExtender
   - SuperOffice.CRM.ArchiveLists.FavouriteDocumentExtender
@@ -338,6 +339,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.ForeignKeysProvider
   - SuperOffice.CRM.ArchiveLists.FormEmailFlowExtender
   - SuperOffice.CRM.ArchiveLists.FormExtenderBase
+  - SuperOffice.CRM.ArchiveLists.FormFieldsExtender
+  - SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
   - SuperOffice.CRM.ArchiveLists.FormSubmissionAssociateExtender
   - SuperOffice.CRM.ArchiveLists.FormSubmissionContactExtender
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
@@ -517,6 +520,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonAnyPhoneExtender
   - SuperOffice.CRM.ArchiveLists.PersonAppointmentExtender
   - SuperOffice.CRM.ArchiveLists.PersonAssociateExtender
+  - SuperOffice.CRM.ArchiveLists.PersonChatSessionExtender
   - SuperOffice.CRM.ArchiveLists.PersonContactExtender
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
   - SuperOffice.CRM.ArchiveLists.PersonContactPostalAddressExtender
@@ -543,6 +547,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonRelation
   - SuperOffice.CRM.ArchiveLists.PersonRequestExtender
   - SuperOffice.CRM.ArchiveLists.PersonSaintExtender
+  - SuperOffice.CRM.ArchiveLists.PersonSaleExtender
   - SuperOffice.CRM.ArchiveLists.PersonShipmentLinkClickExtender
   - SuperOffice.CRM.ArchiveLists.PersonStaticSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.PersonUdefExtender
@@ -621,6 +626,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.QuoteVersionQuoteAlternativeExtender
   - SuperOffice.CRM.ArchiveLists.QuoteVersionQuoteExtender
   - SuperOffice.CRM.ArchiveLists.RecordTypeProvider
+  - SuperOffice.CRM.ArchiveLists.RecursionInfo
   - SuperOffice.CRM.ArchiveLists.RecycleContactExtender
   - SuperOffice.CRM.ArchiveLists.RecycleContactsProvider
   - SuperOffice.CRM.ArchiveLists.RecyclePersonExtender
@@ -1708,13 +1714,21 @@ references:
   name: EventHandlersProvider
   nameWithType: EventHandlersProvider
   fullName: SuperOffice.CRM.ArchiveLists.EventHandlersProvider
-- uid: SuperOffice.CRM.ArchiveLists.ExtraTableProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.ExtraTableProvider
+- uid: SuperOffice.CRM.ArchiveLists.CustomObjectProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.CustomObjectProvider
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtraTableProvider.html
-  name: ExtraTableProvider
-  nameWithType: ExtraTableProvider
-  fullName: SuperOffice.CRM.ArchiveLists.ExtraTableProvider
+  href: SuperOffice.CRM.ArchiveLists.CustomObjectProvider.html
+  name: CustomObjectProvider
+  nameWithType: CustomObjectProvider
+  fullName: SuperOffice.CRM.ArchiveLists.CustomObjectProvider
+- uid: SuperOffice.CRM.ArchiveLists.CustomObjectProviderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.CustomObjectProviderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.CustomObjectProviderBase.html
+  name: CustomObjectProviderBase
+  nameWithType: CustomObjectProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.CustomObjectProviderBase
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.DotSyntaxProvider
   isExternal: true
@@ -5505,6 +5519,34 @@ references:
   name: ChatSessionExtenderBase
   nameWithType: ChatSessionExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+  commentId: T:SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.html
+  name: ChatSessionExtenderBase.Features
+  nameWithType: ChatSessionExtenderBase.Features
+  fullName: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
+    name: ChatSessionExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
+    name: ChatSessionExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features.html
 - uid: SuperOffice.CRM.ArchiveLists.ChatTopicExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.ChatTopicExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -5868,34 +5910,14 @@ references:
   name: ExtraFieldExtenderBase
   nameWithType: ExtraFieldExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
-- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-  commentId: T:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
+- uid: SuperOffice.CRM.ArchiveLists.RecursionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.RecursionInfo
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html
-  name: ExtraFieldExtenderBase.RecursionInfo
-  nameWithType: ExtraFieldExtenderBase.RecursionInfo
-  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
-    name: ExtraFieldExtenderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-    name: RecursionInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo.html
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
-    name: ExtraFieldExtenderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo
-    name: RecursionInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.RecursionInfo.html
+  href: SuperOffice.CRM.ArchiveLists.RecursionInfo.html
+  name: RecursionInfo
+  nameWithType: RecursionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.RecursionInfo
 - uid: SuperOffice.CRM.ArchiveLists.ForeignKeyExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.ForeignKeyExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -5912,6 +5934,40 @@ references:
   name: FormExtenderBase
   nameWithType: FormExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.FormExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.FormFieldsExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.html
+  name: FormFieldsExtender
+  nameWithType: FormFieldsExtender
+  fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender
+- uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+  commentId: T:SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.html
+  name: FormFieldsExtender.FormField
+  nameWithType: FormFieldsExtender.FormField
+  fullName: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender
+    name: FormFieldsExtender
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender
+    name: FormFieldsExtender
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField
+    name: FormField
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormFieldsExtender.FormField.html
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -7966,6 +8022,13 @@ references:
   name: PersonAssociateExtender
   nameWithType: PersonAssociateExtender
   fullName: SuperOffice.CRM.ArchiveLists.PersonAssociateExtender
+- uid: SuperOffice.CRM.ArchiveLists.PersonChatSessionExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.PersonChatSessionExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonChatSessionExtender.html
+  name: PersonChatSessionExtender
+  nameWithType: PersonChatSessionExtender
+  fullName: SuperOffice.CRM.ArchiveLists.PersonChatSessionExtender
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.PersonContactExtender
   isExternal: true
@@ -8087,6 +8150,13 @@ references:
   name: PersonRequestExtender
   nameWithType: PersonRequestExtender
   fullName: SuperOffice.CRM.ArchiveLists.PersonRequestExtender
+- uid: SuperOffice.CRM.ArchiveLists.PersonSaleExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.PersonSaleExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonSaleExtender.html
+  name: PersonSaleExtender
+  nameWithType: PersonSaleExtender
+  fullName: SuperOffice.CRM.ArchiveLists.PersonSaleExtender
 - uid: SuperOffice.CRM.ArchiveLists.PersonShipmentLinkClickExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.PersonShipmentLinkClickExtender
   isExternal: true

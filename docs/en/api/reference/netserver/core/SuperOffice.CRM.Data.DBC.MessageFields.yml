@@ -5,16 +5,15 @@ items:
   id: DBC.MessageFields
   parent: SuperOffice.CRM.Data
   children:
-  - SuperOffice.CRM.Data.DBC.MessageFields.Description
-  - SuperOffice.CRM.Data.DBC.MessageFields.DetailsRecord
-  - SuperOffice.CRM.Data.DBC.MessageFields.DetailsTable
+  - SuperOffice.CRM.Data.DBC.MessageFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.MessageFields.Expire
+  - SuperOffice.CRM.Data.DBC.MessageFields.MarkdownMessage
   - SuperOffice.CRM.Data.DBC.MessageFields.MessageId
-  - SuperOffice.CRM.Data.DBC.MessageFields.MessageType
-  - SuperOffice.CRM.Data.DBC.MessageFields.MotherId
+  - SuperOffice.CRM.Data.DBC.MessageFields.OnlineappId
   - SuperOffice.CRM.Data.DBC.MessageFields.Registered
   - SuperOffice.CRM.Data.DBC.MessageFields.RegisteredAssociateId
-  - SuperOffice.CRM.Data.DBC.MessageFields.SourceHandler
-  - SuperOffice.CRM.Data.DBC.MessageFields.TargetHandler
+  - SuperOffice.CRM.Data.DBC.MessageFields.SystemMessageId
+  - SuperOffice.CRM.Data.DBC.MessageFields.Type
   - SuperOffice.CRM.Data.DBC.MessageFields.Updated
   - SuperOffice.CRM.Data.DBC.MessageFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.MessageFields.UpdatedCount
@@ -64,153 +63,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const MessageId As String = "Message_id"
-- uid: SuperOffice.CRM.Data.DBC.MessageFields.SourceHandler
-  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.SourceHandler
-  id: SourceHandler
-  parent: SuperOffice.CRM.Data.DBC.MessageFields
-  langs:
-  - csharp
-  - vb
-  name: SourceHandler
-  nameWithType: DBC.MessageFields.SourceHandler
-  fullName: SuperOffice.CRM.Data.DBC.MessageFields.SourceHandler
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'Message.SourceHandler: Originating message handler'
-  example: []
-  syntax:
-    content: public const string SourceHandler = "sourceHandler"
-    return:
-      type: System.String
-    content.vb: Public Const SourceHandler As String = "sourceHandler"
-- uid: SuperOffice.CRM.Data.DBC.MessageFields.TargetHandler
-  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.TargetHandler
-  id: TargetHandler
-  parent: SuperOffice.CRM.Data.DBC.MessageFields
-  langs:
-  - csharp
-  - vb
-  name: TargetHandler
-  nameWithType: DBC.MessageFields.TargetHandler
-  fullName: SuperOffice.CRM.Data.DBC.MessageFields.TargetHandler
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'Message.TargetHandler: Target message handler'
-  example: []
-  syntax:
-    content: public const string TargetHandler = "targetHandler"
-    return:
-      type: System.String
-    content.vb: Public Const TargetHandler As String = "targetHandler"
-- uid: SuperOffice.CRM.Data.DBC.MessageFields.MotherId
-  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.MotherId
-  id: MotherId
-  parent: SuperOffice.CRM.Data.DBC.MessageFields
-  langs:
-  - csharp
-  - vb
-  name: MotherId
-  nameWithType: DBC.MessageFields.MotherId
-  fullName: SuperOffice.CRM.Data.DBC.MessageFields.MotherId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'Message.MotherId: ID of message that this message is correlated to; 0 if this is the first message of a conversation'
-  example: []
-  syntax:
-    content: public const string MotherId = "motherId"
-    return:
-      type: System.String
-    content.vb: Public Const MotherId As String = "motherId"
-- uid: SuperOffice.CRM.Data.DBC.MessageFields.MessageType
-  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.MessageType
-  id: MessageType
-  parent: SuperOffice.CRM.Data.DBC.MessageFields
-  langs:
-  - csharp
-  - vb
-  name: MessageType
-  nameWithType: DBC.MessageFields.MessageType
-  fullName: SuperOffice.CRM.Data.DBC.MessageFields.MessageType
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'Message.MessageType: Application-specific message type'
-  example: []
-  syntax:
-    content: public const string MessageType = "messageType"
-    return:
-      type: System.String
-    content.vb: Public Const MessageType As String = "messageType"
-- uid: SuperOffice.CRM.Data.DBC.MessageFields.DetailsTable
-  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.DetailsTable
-  id: DetailsTable
-  parent: SuperOffice.CRM.Data.DBC.MessageFields
-  langs:
-  - csharp
-  - vb
-  name: DetailsTable
-  nameWithType: DBC.MessageFields.DetailsTable
-  fullName: SuperOffice.CRM.Data.DBC.MessageFields.DetailsTable
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'Message.DetailsTable: Table containing message body (BatchTask, or some thing else)'
-  example: []
-  syntax:
-    content: public const string DetailsTable = "detailsTable"
-    return:
-      type: System.String
-    content.vb: Public Const DetailsTable As String = "detailsTable"
-- uid: SuperOffice.CRM.Data.DBC.MessageFields.DetailsRecord
-  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.DetailsRecord
-  id: DetailsRecord
-  parent: SuperOffice.CRM.Data.DBC.MessageFields
-  langs:
-  - csharp
-  - vb
-  name: DetailsRecord
-  nameWithType: DBC.MessageFields.DetailsRecord
-  fullName: SuperOffice.CRM.Data.DBC.MessageFields.DetailsRecord
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'Message.DetailsRecord: Record containing message body'
-  example: []
-  syntax:
-    content: public const string DetailsRecord = "detailsRecord"
-    return:
-      type: System.String
-    content.vb: Public Const DetailsRecord As String = "detailsRecord"
-- uid: SuperOffice.CRM.Data.DBC.MessageFields.Description
-  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.Description
-  id: Description
-  parent: SuperOffice.CRM.Data.DBC.MessageFields
-  langs:
-  - csharp
-  - vb
-  name: Description
-  nameWithType: DBC.MessageFields.Description
-  fullName: SuperOffice.CRM.Data.DBC.MessageFields.Description
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'Message.Description: Message description, to aid in debugging and monitoring'
-  example: []
-  syntax:
-    content: public const string Description = "description"
-    return:
-      type: System.String
-    content.vb: Public Const Description As String = "description"
 - uid: SuperOffice.CRM.Data.DBC.MessageFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.Registered
   id: Registered
@@ -316,6 +168,132 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+- uid: SuperOffice.CRM.Data.DBC.MessageFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.MessageFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.MessageFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.MessageFields.AssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Message.AssociateId: The associate that is the target of this message'
+  example: []
+  syntax:
+    content: public const string AssociateId = "associateId"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associateId"
+- uid: SuperOffice.CRM.Data.DBC.MessageFields.OnlineappId
+  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.OnlineappId
+  id: OnlineappId
+  parent: SuperOffice.CRM.Data.DBC.MessageFields
+  langs:
+  - csharp
+  - vb
+  name: OnlineappId
+  nameWithType: DBC.MessageFields.OnlineappId
+  fullName: SuperOffice.CRM.Data.DBC.MessageFields.OnlineappId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Message.OnlineappId: The online app that owns this message'
+  example: []
+  syntax:
+    content: public const string OnlineappId = "onlineapp_id"
+    return:
+      type: System.String
+    content.vb: Public Const OnlineappId As String = "onlineapp_id"
+- uid: SuperOffice.CRM.Data.DBC.MessageFields.SystemMessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.SystemMessageId
+  id: SystemMessageId
+  parent: SuperOffice.CRM.Data.DBC.MessageFields
+  langs:
+  - csharp
+  - vb
+  name: SystemMessageId
+  nameWithType: DBC.MessageFields.SystemMessageId
+  fullName: SuperOffice.CRM.Data.DBC.MessageFields.SystemMessageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Message.SystemMessageId: Message identifier, used for message update or removal'
+  example: []
+  syntax:
+    content: public const string SystemMessageId = "systemMessageId"
+    return:
+      type: System.String
+    content.vb: Public Const SystemMessageId As String = "systemMessageId"
+- uid: SuperOffice.CRM.Data.DBC.MessageFields.MarkdownMessage
+  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.MarkdownMessage
+  id: MarkdownMessage
+  parent: SuperOffice.CRM.Data.DBC.MessageFields
+  langs:
+  - csharp
+  - vb
+  name: MarkdownMessage
+  nameWithType: DBC.MessageFields.MarkdownMessage
+  fullName: SuperOffice.CRM.Data.DBC.MessageFields.MarkdownMessage
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Message.MarkdownMessage: Markdown message to be displayed to user'
+  example: []
+  syntax:
+    content: public const string MarkdownMessage = "markdownMessage"
+    return:
+      type: System.String
+    content.vb: Public Const MarkdownMessage As String = "markdownMessage"
+- uid: SuperOffice.CRM.Data.DBC.MessageFields.Expire
+  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.Expire
+  id: Expire
+  parent: SuperOffice.CRM.Data.DBC.MessageFields
+  langs:
+  - csharp
+  - vb
+  name: Expire
+  nameWithType: DBC.MessageFields.Expire
+  fullName: SuperOffice.CRM.Data.DBC.MessageFields.Expire
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Message.Expire: The date and time the message expires'
+  example: []
+  syntax:
+    content: public const string Expire = "expire"
+    return:
+      type: System.String
+    content.vb: Public Const Expire As String = "expire"
+- uid: SuperOffice.CRM.Data.DBC.MessageFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.MessageFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.MessageFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.MessageFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.MessageFields.Type
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Message.Type: Type of message, example: info, warning, error'
+  example: []
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

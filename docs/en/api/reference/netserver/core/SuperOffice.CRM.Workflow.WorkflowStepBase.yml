@@ -8,8 +8,7 @@ items:
   - SuperOffice.CRM.Workflow.WorkflowStepBase.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
   - SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
-  - SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
-  - SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Row
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Save
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
@@ -33,7 +32,10 @@ items:
   - SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp
   - SuperOffice.CRM.Workflow.WorkflowStepCreateRequest
   - SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+  - SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+  - SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
   - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+  - SuperOffice.CRM.Workflow.WorkflowStepRunScript
   - SuperOffice.CRM.Workflow.WorkflowStepSendEmail
   - SuperOffice.CRM.Workflow.WorkflowStepSendSMS
   - SuperOffice.CRM.Workflow.WorkflowStepSplit
@@ -97,54 +99,32 @@ items:
     content: public virtual void Save()
     content.vb: Public Overridable Sub Save()
   overload: SuperOffice.CRM.Workflow.WorkflowStepBase.Save*
-- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
-  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
-  id: NextStepId
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
+  id: NextStepId(System.Int32)
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   langs:
   - csharp
   - vb
-  name: NextStepId()
-  nameWithType: WorkflowStepBase.NextStepId()
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId()
+  name: NextStepId(int)
+  nameWithType: WorkflowStepBase.NextStepId(int)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(int)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Workflow
   syntax:
-    content: public virtual int NextStepId()
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Function NextStepId() As Integer
-  overload: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId*
-- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
-  id: NextStepId(System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
-  langs:
-  - csharp
-  - vb
-  name: NextStepId(int, int)
-  nameWithType: WorkflowStepBase.NextStepId(int, int)
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(int, int)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Workflow
-  syntax:
-    content: protected static int NextStepId(int workflowId, int stepId)
+    content: public virtual int NextStepId(int defaultStepId)
     parameters:
-    - id: workflowId
-      type: System.Int32
-    - id: stepId
+    - id: defaultStepId
       type: System.Int32
     return:
       type: System.Int32
-    content.vb: Protected Shared Function NextStepId(workflowId As Integer, stepId As Integer) As Integer
+    content.vb: Public Overridable Function NextStepId(defaultStepId As Integer) As Integer
   overload: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId*
-  nameWithType.vb: WorkflowStepBase.NextStepId(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(Integer, Integer)
-  name.vb: NextStepId(Integer, Integer)
+  nameWithType.vb: WorkflowStepBase.NextStepId(Integer)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(Integer)
+  name.vb: NextStepId(Integer)
 - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
   id: Execute
@@ -814,7 +794,7 @@ references:
 - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
   name: NextStepId
   nameWithType: WorkflowStepBase.NextStepId
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId

@@ -17,8 +17,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static class NSWinListProviderHelper
-    content.vb: Public Module NSWinListProviderHelper
+    content: >-
+      [Obsolete("Will be removed because it's not in use, use SoListProviderFactory.Create(...) instead")]
+
+      public static class NSWinListProviderHelper
+    content.vb: >-
+      <Obsolete("Will be removed because it's not in use, use SoListProviderFactory.Create(...) instead")>
+
+      Public Module NSWinListProviderHelper
   inheritance:
   - System.Object
   inheritedMembers:
@@ -29,6 +35,12 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Will be removed because it's not in use, use SoListProviderFactory.Create(...) instead
 - uid: SuperOffice.Util.NSWinListProviderHelper._CreateSearcher(System.String,System.String,System.String)
   commentId: M:SuperOffice.Util.NSWinListProviderHelper._CreateSearcher(System.String,System.String,System.String)
   id: _CreateSearcher(System.String,System.String,System.String)

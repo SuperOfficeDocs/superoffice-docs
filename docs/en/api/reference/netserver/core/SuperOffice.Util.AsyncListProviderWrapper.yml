@@ -24,8 +24,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public class AsyncListProviderWrapper
-    content.vb: Public Class AsyncListProviderWrapper
+    content: >-
+      [Obsolete("Will be removed because it's not in use, use SoListProviderFactory.Create(...) instead")]
+
+      public class AsyncListProviderWrapper
+    content.vb: >-
+      <Obsolete("Will be removed because it's not in use, use SoListProviderFactory.Create(...) instead")>
+
+      Public Class AsyncListProviderWrapper
   inheritance:
   - System.Object
   inheritedMembers:
@@ -39,6 +45,12 @@ items:
   extensionMethods:
   - SuperOffice.Util.AsyncListProviderWrapper.EnumUtil.MapEnums``2
   - SuperOffice.Util.AsyncListProviderWrapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Will be removed because it's not in use, use SoListProviderFactory.Create(...) instead
 - uid: SuperOffice.Util.AsyncListProviderWrapper.ListProviderName
   commentId: F:SuperOffice.Util.AsyncListProviderWrapper.ListProviderName
   id: ListProviderName

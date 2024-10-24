@@ -97,6 +97,10 @@ items:
   - System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{{T},{K}},System.Func{{T},{V}})
   - System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{{T},{K}},System.Func{{T},{V}},System.Collections.Generic.IEqualityComparer{{K}})
   - System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.Permute``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{{T},{TKey}})
+  - System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{{T},{TKey}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  - System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{{T},{TKey}},System.Func{{T},{TElement}})
+  - System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{{T},{TKey}},System.Func{{T},{TElement}},System.Collections.Generic.IEqualityComparer{{TKey}})
   - System.Collections.Generic.IEnumerable{`0}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   - System.Collections.Generic.IEnumerable{`0}.System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1
   - System.Collections.Generic.IEnumerable{`0}.System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEqualityComparer{{T}})
@@ -2053,6 +2057,434 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{{T},{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  name: ToDictionaryPermissive<T, TKey>(IEnumerable<T>, Func<T, TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<T, TKey>(IEnumerable<T>, Func<T, TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<T, TKey>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of T, TKey)(IEnumerable(Of T), Func(Of T, TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of T, TKey)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey))
+  name.vb: ToDictionaryPermissive(Of T, TKey)(IEnumerable(Of T), Func(Of T, TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{`0},System.Func{`0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{`0},System.Func{`0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{{T},{TKey}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<T, TKey>(IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<T, TKey>(IEnumerable<T>, Func<T, TKey>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<T, TKey>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of T, TKey)(IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of T, TKey)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of T, TKey)(IEnumerable(Of T), Func(Of T, TKey), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{`0},System.Func{`0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{`0},System.Func{`0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{{T},{TKey}},System.Func{{T},{TElement}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  name: ToDictionaryPermissive<T, TKey, TElement>(IEnumerable<T>, Func<T, TKey>, Func<T, TElement>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<T, TKey, TElement>(IEnumerable<T>, Func<T, TKey>, Func<T, TElement>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<T, TKey, TElement>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>, System.Func<T, TElement>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of T, TKey, TElement)(IEnumerable(Of T), Func(Of T, TKey), Func(Of T, TElement))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of T, TKey, TElement)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey), System.Func(Of T, TElement))
+  name.vb: ToDictionaryPermissive(Of T, TKey, TElement)(IEnumerable(Of T), Func(Of T, TKey), Func(Of T, TElement))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{`0},System.Func{`0,``1},System.Func{`0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{`0},System.Func{`0,``1},System.Func{`0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{`0}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{{T},{TKey}},System.Func{{T},{TElement}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<T, TKey, TElement>(IEnumerable<T>, Func<T, TKey>, Func<T, TElement>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<T, TKey, TElement>(IEnumerable<T>, Func<T, TKey>, Func<T, TElement>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<T, TKey, TElement>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>, System.Func<T, TElement>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of T, TKey, TElement)(IEnumerable(Of T), Func(Of T, TKey), Func(Of T, TElement), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of T, TKey, TElement)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey), System.Func(Of T, TElement), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of T, TKey, TElement)(IEnumerable(Of T), Func(Of T, TKey), Func(Of T, TElement), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{`0},System.Func{`0,``1},System.Func{`0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{`0},System.Func{`0,``1},System.Func{`0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
 - uid: System.Collections.Generic.IEnumerable{`0}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   parent: SuperOffice.Util.CollectionOps
@@ -3471,6 +3903,430 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  name: ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  name: ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TElement))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TElement), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
   - name: )
 - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})

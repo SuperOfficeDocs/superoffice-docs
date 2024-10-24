@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRecordData.CategoryIdx
   - SuperOffice.CRM.Rows.PersonRecordData.ContactId
   - SuperOffice.CRM.Rows.PersonRecordData.CountryId
+  - SuperOffice.CRM.Rows.PersonRecordData.CreatedByFormId
   - SuperOffice.CRM.Rows.PersonRecordData.DayOfBirth
   - SuperOffice.CRM.Rows.PersonRecordData.DbiAgentId
   - SuperOffice.CRM.Rows.PersonRecordData.DbiKey
@@ -29,6 +30,8 @@ items:
   - SuperOffice.CRM.Rows.PersonRecordData.Kanalname
   - SuperOffice.CRM.Rows.PersonRecordData.Lastname
   - SuperOffice.CRM.Rows.PersonRecordData.MiddleName
+  - SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowId
+  - SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowWhen
   - SuperOffice.CRM.Rows.PersonRecordData.MonthOfBirth
   - SuperOffice.CRM.Rows.PersonRecordData.Mrmrs
   - SuperOffice.CRM.Rows.PersonRecordData.Nomailing
@@ -1236,6 +1239,69 @@ items:
     return:
       type: System.DateTime
     content.vb: Public DeletedDate As Date
+- uid: SuperOffice.CRM.Rows.PersonRecordData.CreatedByFormId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.CreatedByFormId
+  id: CreatedByFormId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: CreatedByFormId
+  nameWithType: PersonRecordData.CreatedByFormId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.CreatedByFormId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The form this person was created by
+  example: []
+  syntax:
+    content: public int CreatedByFormId
+    return:
+      type: System.Int32
+    content.vb: Public CreatedByFormId As Integer
+- uid: SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowId
+  id: ModifiedByWorkflowId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowId
+  nameWithType: PersonRecordData.ModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The workflow this person last was modified by
+  example: []
+  syntax:
+    content: public int ModifiedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Public ModifiedByWorkflowId As Integer
+- uid: SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowWhen
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowWhen
+  id: ModifiedByWorkflowWhen
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowWhen
+  nameWithType: PersonRecordData.ModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: When the workflow modified this person in UTC.
+  example: []
+  syntax:
+    content: public DateTime ModifiedByWorkflowWhen
+    return:
+      type: System.DateTime
+    content.vb: Public ModifiedByWorkflowWhen As Date
 - uid: SuperOffice.CRM.Rows.PersonRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.PersonRecordData.#ctor
   id: '#ctor'

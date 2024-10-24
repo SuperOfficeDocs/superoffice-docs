@@ -37,6 +37,7 @@ items:
   - SuperOffice.Util.ITextEncodingDetector
   - SuperOffice.Util.ImageUtilities
   - SuperOffice.Util.ImportDefaults
+  - SuperOffice.Util.JsonPairSerializer`2
   - SuperOffice.Util.KeyedMatrix`3
   - SuperOffice.Util.MailHelper
   - SuperOffice.Util.MailIdConverter
@@ -51,6 +52,7 @@ items:
   - SuperOffice.Util.NotUtf8EncodingDetector
   - SuperOffice.Util.NsWinHelper
   - SuperOffice.Util.ObjectExtensions
+  - SuperOffice.Util.OnlineConfigWaiter
   - SuperOffice.Util.OperationTracker
   - SuperOffice.Util.ParameterBuilder
   - SuperOffice.Util.PreferenceLicenseRequired
@@ -82,6 +84,7 @@ items:
   - SuperOffice.Util.TwoWayDictionary`2
   - SuperOffice.Util.TypeHelper
   - SuperOffice.Util.UrlHelper
+  - SuperOffice.Util.UsedPrefKeysUtils
   - SuperOffice.Util.VideoMeetingHelper
   - SuperOffice.Util.VideoMeetingHelper.SoAppointment
   - SuperOffice.Util.VisitorPatternHelper`1
@@ -410,6 +413,40 @@ references:
   name: SJArray
   nameWithType: SJArray
   fullName: SuperOffice.Util.SJArray
+- uid: SuperOffice.Util.JsonPairSerializer`2
+  commentId: T:SuperOffice.Util.JsonPairSerializer`2
+  isExternal: true
+  href: SuperOffice.Util.JsonPairSerializer-2.html
+  name: JsonPairSerializer<T1, T2>
+  nameWithType: JsonPairSerializer<T1, T2>
+  fullName: SuperOffice.Util.JsonPairSerializer<T1, T2>
+  nameWithType.vb: JsonPairSerializer(Of T1, T2)
+  fullName.vb: SuperOffice.Util.JsonPairSerializer(Of T1, T2)
+  name.vb: JsonPairSerializer(Of T1, T2)
+  spec.csharp:
+  - uid: SuperOffice.Util.JsonPairSerializer`2
+    name: JsonPairSerializer
+    isExternal: true
+    href: SuperOffice.Util.JsonPairSerializer-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.JsonPairSerializer`2
+    name: JsonPairSerializer
+    isExternal: true
+    href: SuperOffice.Util.JsonPairSerializer-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
 - uid: SuperOffice.Util.KeyedMatrix`3
   commentId: T:SuperOffice.Util.KeyedMatrix`3
   parent: SuperOffice.Util
@@ -548,6 +585,13 @@ references:
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.OnlineConfigWaiter
+  commentId: T:SuperOffice.Util.OnlineConfigWaiter
+  isExternal: true
+  href: SuperOffice.Util.OnlineConfigWaiter.html
+  name: OnlineConfigWaiter
+  nameWithType: OnlineConfigWaiter
+  fullName: SuperOffice.Util.OnlineConfigWaiter
 - uid: SuperOffice.Util.OperationTracker
   commentId: T:SuperOffice.Util.OperationTracker
   isExternal: true
@@ -1217,6 +1261,13 @@ references:
   name: TimeZoneUtility
   nameWithType: TimeZoneUtility
   fullName: SuperOffice.Util.TimeZoneUtility
+- uid: SuperOffice.Util.UsedPrefKeysUtils
+  commentId: T:SuperOffice.Util.UsedPrefKeysUtils
+  isExternal: true
+  href: SuperOffice.Util.UsedPrefKeysUtils.html
+  name: UsedPrefKeysUtils
+  nameWithType: UsedPrefKeysUtils
+  fullName: SuperOffice.Util.UsedPrefKeysUtils
 - uid: SuperOffice.Util.VideoMeetingHelper
   commentId: T:SuperOffice.Util.VideoMeetingHelper
   isExternal: true

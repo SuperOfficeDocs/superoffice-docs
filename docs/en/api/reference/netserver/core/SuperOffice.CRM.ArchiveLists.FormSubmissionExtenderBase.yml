@@ -6,11 +6,12 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.#ctor
-  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.ColumnFormSubmissionFormId
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.ColumnFormSubmissionId
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.ColumnFormSubmissionName
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colAssociateId
@@ -612,30 +613,32 @@ items:
   nameWithType.vb: FormSubmissionExtenderBase.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.New()
   name.vb: New()
-- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)'
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features,System.String)'
   parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
   langs:
   - csharp
   - vb
-  name: FormSubmissionExtenderBase(Features)
-  nameWithType: FormSubmissionExtenderBase.FormSubmissionExtenderBase(FormSubmissionExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.FormSubmissionExtenderBase(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
+  name: FormSubmissionExtenderBase(Features, string)
+  nameWithType: FormSubmissionExtenderBase.FormSubmissionExtenderBase(FormSubmissionExtenderBase.Features, string)
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.FormSubmissionExtenderBase(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, string)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected FormSubmissionExtenderBase(FormSubmissionExtenderBase.Features features)
+    content: protected FormSubmissionExtenderBase(FormSubmissionExtenderBase.Features features, string context)
     parameters:
     - id: features
       type: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features
-    content.vb: Protected Sub New(features As FormSubmissionExtenderBase.Features)
+    - id: context
+      type: System.String
+    content.vb: Protected Sub New(features As FormSubmissionExtenderBase.Features, context As String)
   overload: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.#ctor*
-  nameWithType.vb: FormSubmissionExtenderBase.New(FormSubmissionExtenderBase.Features)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.New(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features)
-  name.vb: New(Features)
+  nameWithType.vb: FormSubmissionExtenderBase.New(FormSubmissionExtenderBase.Features, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.New(SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.Features, String)
+  name.vb: New(Features, String)
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerModifyQuery
   id: InnerModifyQuery
@@ -657,6 +660,26 @@ items:
     content.vb: Protected Overrides Sub InnerModifyQuery()
   overridden: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}.InnerModifyQuery
   overload: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerModifyQuery*
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+  commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+  id: GetFormTable
+  parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: GetFormTable()
+  nameWithType: FormSubmissionExtenderBase.GetFormTable()
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public FormTableInfo GetFormTable()
+    return:
+      type: SuperOffice.CRM.Data.FormTableInfo
+    content.vb: Public Function GetFormTable() As FormTableInfo
+  overload: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable*
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
   commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
   id: GetAssociateIdField
@@ -5489,6 +5512,58 @@ references:
     href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_InnerModifyQuery
   - name: (
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html#SuperOffice_CRM_ArchiveLists_FormSubmissionExtenderBase_GetFormTable
+  name: GetFormTable
+  nameWithType: FormSubmissionExtenderBase.GetFormTable
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+- uid: SuperOffice.CRM.Data.FormTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormTableInfo.html
+  name: FormTableInfo
+  nameWithType: FormTableInfo
+  fullName: SuperOffice.CRM.Data.FormTableInfo
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
   isExternal: true

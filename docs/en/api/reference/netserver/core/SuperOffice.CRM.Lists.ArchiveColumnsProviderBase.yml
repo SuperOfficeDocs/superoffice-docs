@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.AcceptColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.BuildItem(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.BuildList(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.HeadingIdStart
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.InternalNamePrefix
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.NamePrefix
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase._context
@@ -90,6 +91,25 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.HeadingIdStart
+  commentId: F:SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.HeadingIdStart
+  id: HeadingIdStart
+  parent: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase
+  langs:
+  - csharp
+  - vb
+  name: HeadingIdStart
+  nameWithType: ArchiveColumnsProviderBase.HeadingIdStart
+  fullName: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.HeadingIdStart
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public const int HeadingIdStart = 20000
+    return:
+      type: System.Int32
+    content.vb: Public Const HeadingIdStart As Integer = 20000
 - uid: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase._providerName
   commentId: F:SuperOffice.CRM.Lists.ArchiveColumnsProviderBase._providerName
   id: _providerName
@@ -1258,6 +1278,17 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1396,17 +1427,6 @@ references:
   name: BuildItem
   nameWithType: ArchiveColumnsProviderBase.BuildItem
   fullName: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.BuildItem
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.NamePrefix*
   commentId: Overload:SuperOffice.CRM.Lists.ArchiveColumnsProviderBase.NamePrefix
   isExternal: true

@@ -8,6 +8,7 @@ items:
   - SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   - SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  - SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   - SuperOffice.Data.QueryExectionExtensions.GetFieldPropertyRead(SuperOffice.Data.QueryExecutionHelper,SuperOffice.Data.SQL.FieldInfo)
   langs:
   - csharp
@@ -99,6 +100,37 @@ items:
   nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand)
   fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand)
   name.vb: ExecuteScalar(Of T)(SqlCommand)
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  id: ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExtensionMethod: true
+  parent: SuperOffice.Data.QueryExectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static T ExecuteScalar<T>(this SqlCommand command, bool ignoreSentry)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+    - id: ignoreSentry
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ExecuteScalar(Of T)(command As SqlCommand, ignoreSentry As Boolean) As T
+  overload: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar*
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   id: ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)

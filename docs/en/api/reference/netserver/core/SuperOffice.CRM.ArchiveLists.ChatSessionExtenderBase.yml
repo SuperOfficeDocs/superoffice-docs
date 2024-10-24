@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.#ctor
+  - SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features)
   - SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.AgentUnassignedId
   - SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.ColumnChatSessionId
@@ -61,6 +62,7 @@ items:
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.ChatConversationSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.ChatSessionChatSessionExtender
+  - SuperOffice.CRM.ArchiveLists.PersonChatSessionExtender
   - SuperOffice.CRM.ArchiveLists.SimpleChatSessionExtender
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
@@ -696,6 +698,30 @@ items:
   nameWithType.vb: ChatSessionExtenderBase.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.New()
   name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features)'
+  parent: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionExtenderBase(Features)
+  nameWithType: ChatSessionExtenderBase.ChatSessionExtenderBase(ChatSessionExtenderBase.Features)
+  fullName: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.ChatSessionExtenderBase(SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ChatSessionExtenderBase(ChatSessionExtenderBase.Features features)
+    parameters:
+    - id: features
+      type: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+    content.vb: Protected Sub New(features As ChatSessionExtenderBase.Features)
+  overload: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.#ctor*
+  nameWithType.vb: ChatSessionExtenderBase.New(ChatSessionExtenderBase.Features)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.New(SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features)
+  name.vb: New(Features)
 - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.InnerModifyQuery
   id: InnerModifyQuery
@@ -5519,6 +5545,34 @@ references:
   nameWithType.vb: ChatSessionExtenderBase.New
   fullName.vb: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.New
   name.vb: New
+- uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+  commentId: T:SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.html
+  name: ChatSessionExtenderBase.Features
+  nameWithType: ChatSessionExtenderBase.Features
+  fullName: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
+    name: ChatSessionExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
+    name: ChatSessionExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase.Features.html
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ChatSessionTableInfo}.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ChatSessionTableInfo}.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ChatSessionTableInfo}

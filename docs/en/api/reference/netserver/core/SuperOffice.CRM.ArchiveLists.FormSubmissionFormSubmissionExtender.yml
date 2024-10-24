@@ -65,6 +65,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRegisteredDate
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRecordTypeText
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerModifyQuery
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}._ourTable
@@ -629,6 +630,28 @@ references:
     name: InnerModifyQuery
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html#SuperOffice_CRM_ArchiveLists_FormSubmissionExtenderBase_InnerModifyQuery
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+  commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+  parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html#SuperOffice_CRM_ArchiveLists_FormSubmissionExtenderBase_GetFormTable
+  name: GetFormTable()
+  nameWithType: FormSubmissionExtenderBase.GetFormTable()
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+    name: GetFormTable
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html#SuperOffice_CRM_ArchiveLists_FormSubmissionExtenderBase_GetFormTable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+    name: GetFormTable
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html#SuperOffice_CRM_ArchiveLists_FormSubmissionExtenderBase_GetFormTable
   - name: (
   - name: )
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField

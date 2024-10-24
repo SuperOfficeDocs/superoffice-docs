@@ -160,6 +160,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetForeignAppTableInfo
   - SuperOffice.Data.TablesInfo.GetForeignDeviceTableInfo
   - SuperOffice.Data.TablesInfo.GetForeignKeyTableInfo
+  - SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo
   - SuperOffice.Data.TablesInfo.GetFormKeysTableInfo
   - SuperOffice.Data.TablesInfo.GetFormSubmissionTableInfo
   - SuperOffice.Data.TablesInfo.GetFormTableInfo
@@ -534,6 +535,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetWordRelationsTableInfo
   - SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo
   - SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo
+  - SuperOffice.Data.TablesInfo.GetWorkflowRootStepLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo
   - SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo
@@ -13759,6 +13761,56 @@ items:
       type: SuperOffice.CRM.Data.WorkflowWaitForActionTableInfo
     content.vb: Public Shared Function GetWorkflowWaitForActionTableInfo() As WorkflowWaitForActionTableInfo
   overload: SuperOffice.Data.TablesInfo.GetWorkflowWaitForActionTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowRootStepLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowRootStepLinkTableInfo
+  id: GetWorkflowRootStepLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowRootStepLinkTableInfo()
+  nameWithType: TablesInfo.GetWorkflowRootStepLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowRootStepLinkTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of WorkflowRootStepLinkTableInfo:
+
+    Link root steps to the workflow
+  example: []
+  syntax:
+    content: public static WorkflowRootStepLinkTableInfo GetWorkflowRootStepLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+    content.vb: Public Shared Function GetWorkflowRootStepLinkTableInfo() As WorkflowRootStepLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWorkflowRootStepLinkTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo
+  id: GetFormFieldValueTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetFormFieldValueTableInfo()
+  nameWithType: TablesInfo.GetFormFieldValueTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of FormFieldValueTableInfo:
+
+    Form field values saved in a searchable format
+  example: []
+  syntax:
+    content: public static FormFieldValueTableInfo GetFormFieldValueTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.FormFieldValueTableInfo
+    content.vb: Public Shared Function GetFormFieldValueTableInfo() As FormFieldValueTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetAssociateHistoryTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetAssociateHistoryTableInfo
   id: GetAssociateHistoryTableInfo
@@ -22304,6 +22356,36 @@ references:
   name: WorkflowWaitForActionTableInfo
   nameWithType: WorkflowWaitForActionTableInfo
   fullName: SuperOffice.CRM.Data.WorkflowWaitForActionTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowRootStepLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowRootStepLinkTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetWorkflowRootStepLinkTableInfo
+  name: GetWorkflowRootStepLinkTableInfo
+  nameWithType: TablesInfo.GetWorkflowRootStepLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowRootStepLinkTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
+  name: WorkflowRootStepLinkTableInfo
+  nameWithType: WorkflowRootStepLinkTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetFormFieldValueTableInfo
+  name: GetFormFieldValueTableInfo
+  nameWithType: TablesInfo.GetFormFieldValueTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo
+- uid: SuperOffice.CRM.Data.FormFieldValueTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormFieldValueTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldValueTableInfo.html
+  name: FormFieldValueTableInfo
+  nameWithType: FormFieldValueTableInfo
+  fullName: SuperOffice.CRM.Data.FormFieldValueTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetAssociateHistoryTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetAssociateHistoryTableInfo
   isExternal: true

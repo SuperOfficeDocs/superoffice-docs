@@ -5,9 +5,11 @@ items:
   id: ShipmentLinkType
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.ShipmentLinkType.Consent
   - SuperOffice.Data.ShipmentLinkType.Image
   - SuperOffice.Data.ShipmentLinkType.Link
   - SuperOffice.Data.ShipmentLinkType.Unknown
+  - SuperOffice.Data.ShipmentLinkType.Unsubscribe
   langs:
   - csharp
   - vb
@@ -102,6 +104,47 @@ items:
   example: []
   syntax:
     content: Image = 2
+    return:
+      type: SuperOffice.Data.ShipmentLinkType
+- uid: SuperOffice.Data.ShipmentLinkType.Unsubscribe
+  commentId: F:SuperOffice.Data.ShipmentLinkType.Unsubscribe
+  id: Unsubscribe
+  parent: SuperOffice.Data.ShipmentLinkType
+  langs:
+  - csharp
+  - vb
+  name: Unsubscribe
+  nameWithType: ShipmentLinkType.Unsubscribe
+  fullName: SuperOffice.Data.ShipmentLinkType.Unsubscribe
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '3: Clicked and executed an unsubscribe link in the shipment'
+  example: []
+  syntax:
+    content: Unsubscribe = Link | Image
+    return:
+      type: SuperOffice.Data.ShipmentLinkType
+    content.vb: Unsubscribe = Link Or Image
+- uid: SuperOffice.Data.ShipmentLinkType.Consent
+  commentId: F:SuperOffice.Data.ShipmentLinkType.Consent
+  id: Consent
+  parent: SuperOffice.Data.ShipmentLinkType
+  langs:
+  - csharp
+  - vb
+  name: Consent
+  nameWithType: ShipmentLinkType.Consent
+  fullName: SuperOffice.Data.ShipmentLinkType.Consent
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '4: Clicked and executed a manage consent link in the shipment'
+  example: []
+  syntax:
+    content: Consent = 4
     return:
       type: SuperOffice.Data.ShipmentLinkType
 references:

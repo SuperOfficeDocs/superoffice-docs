@@ -62,6 +62,9 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colHasGuide
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDescription
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colActiveErpLinks
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
@@ -668,6 +671,30 @@ references:
   name: _colActiveErpLinks
   nameWithType: SaleExtenderBase._colActiveErpLinks
   fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colActiveErpLinks
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html#SuperOffice_CRM_ArchiveLists_SaleExtenderBase__colCreatedByWorkflow
+  name: _colCreatedByWorkflow
+  nameWithType: SaleExtenderBase._colCreatedByWorkflow
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html#SuperOffice_CRM_ArchiveLists_SaleExtenderBase__colAmountInBaseCurrency
+  name: _colAmountInBaseCurrency
+  nameWithType: SaleExtenderBase._colAmountInBaseCurrency
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html#SuperOffice_CRM_ArchiveLists_SaleExtenderBase__colWeightedAmountInBaseCurrency
+  name: _colWeightedAmountInBaseCurrency
+  nameWithType: SaleExtenderBase._colWeightedAmountInBaseCurrency
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase

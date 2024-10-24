@@ -5,9 +5,11 @@ items:
   id: CurrentPersonVariables
   parent: SuperOffice.CRM.Globalization
   children:
-  - SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
+  - SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(SuperOffice.CRM.IPersonInfo4)
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(System.Int32,System.Int32)
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.AttentionSalutation
+  - SuperOffice.CRM.Globalization.CurrentPersonVariables.Business
+  - SuperOffice.CRM.Globalization.CurrentPersonVariables.Category
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.ChatAddress
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.ChatAddressId
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.ChatAddressProtocol
@@ -227,6 +229,7 @@ items:
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
   - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
@@ -270,30 +273,30 @@ items:
   nameWithType.vb: CurrentPersonVariables.New(Integer, Integer)
   fullName.vb: SuperOffice.CRM.Globalization.CurrentPersonVariables.New(Integer, Integer)
   name.vb: New(Integer, Integer)
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
-  commentId: M:SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
-  id: '#ctor(SuperOffice.CRM.IPersonInfo2)'
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(SuperOffice.CRM.IPersonInfo4)
+  commentId: M:SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor(SuperOffice.CRM.IPersonInfo4)
+  id: '#ctor(SuperOffice.CRM.IPersonInfo4)'
   parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
   langs:
   - csharp
   - vb
-  name: CurrentPersonVariables(IPersonInfo2)
-  nameWithType: CurrentPersonVariables.CurrentPersonVariables(IPersonInfo2)
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentPersonVariables(SuperOffice.CRM.IPersonInfo2)
+  name: CurrentPersonVariables(IPersonInfo4)
+  nameWithType: CurrentPersonVariables.CurrentPersonVariables(IPersonInfo4)
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentPersonVariables(SuperOffice.CRM.IPersonInfo4)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: public CurrentPersonVariables(IPersonInfo2 personInfo)
+    content: public CurrentPersonVariables(IPersonInfo4 personInfo)
     parameters:
     - id: personInfo
-      type: SuperOffice.CRM.IPersonInfo2
-    content.vb: Public Sub New(personInfo As IPersonInfo2)
+      type: SuperOffice.CRM.IPersonInfo4
+    content.vb: Public Sub New(personInfo As IPersonInfo4)
   overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor*
-  nameWithType.vb: CurrentPersonVariables.New(IPersonInfo2)
-  fullName.vb: SuperOffice.CRM.Globalization.CurrentPersonVariables.New(SuperOffice.CRM.IPersonInfo2)
-  name.vb: New(IPersonInfo2)
+  nameWithType.vb: CurrentPersonVariables.New(IPersonInfo4)
+  fullName.vb: SuperOffice.CRM.Globalization.CurrentPersonVariables.New(SuperOffice.CRM.IPersonInfo4)
+  name.vb: New(IPersonInfo4)
 - uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
   commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
   id: Id
@@ -2188,6 +2191,76 @@ items:
     arguments:
     - type: System.String
       value: apli
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Category
+  commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.Category
+  id: Category
+  parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: CurrentPersonVariables.Category
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.Category
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: Person Category
+  example: []
+  syntax:
+    content: >-
+      [TemplateTag("acat")]
+
+      public string Category { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("acat")>
+
+      Public ReadOnly Property Category As String
+  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.Category*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: acat
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Business
+  commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.Business
+  id: Business
+  parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
+  langs:
+  - csharp
+  - vb
+  name: Business
+  nameWithType: CurrentPersonVariables.Business
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.Business
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: Person Business
+  example: []
+  syntax:
+    content: >-
+      [TemplateTag("abus")]
+
+      public string Business { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("abus")>
+
+      Public ReadOnly Property Business As String
+  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.Business*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: abus
 - uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.ServicePriority
   commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.ServicePriority
   id: ServicePriority
@@ -7226,6 +7299,25 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: SuperOffice.IO.TagContainer.GetTags
+  commentId: M:SuperOffice.IO.TagContainer.GetTags
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetTags()
+  nameWithType: TagContainer.GetTags()
+  fullName: SuperOffice.IO.TagContainer.GetTags()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
+  - name: )
 - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   parent: SuperOffice.IO.TagContainer
@@ -7907,14 +7999,14 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.CRM.IPersonInfo2
-  commentId: T:SuperOffice.CRM.IPersonInfo2
+- uid: SuperOffice.CRM.IPersonInfo4
+  commentId: T:SuperOffice.CRM.IPersonInfo4
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.IPersonInfo2.html
-  name: IPersonInfo2
-  nameWithType: IPersonInfo2
-  fullName: SuperOffice.CRM.IPersonInfo2
+  href: SuperOffice.CRM.IPersonInfo4.html
+  name: IPersonInfo4
+  nameWithType: IPersonInfo4
+  fullName: SuperOffice.CRM.IPersonInfo4
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
@@ -8338,6 +8430,20 @@ references:
   name: PreferredLanguageId
   nameWithType: CurrentPersonVariables.PreferredLanguageId
   fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.PreferredLanguageId
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Category*
+  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.Category
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CurrentPersonVariables.html#SuperOffice_CRM_Globalization_CurrentPersonVariables_Category
+  name: Category
+  nameWithType: CurrentPersonVariables.Category
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.Category
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Business*
+  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.Business
+  isExternal: true
+  href: SuperOffice.CRM.Globalization.CurrentPersonVariables.html#SuperOffice_CRM_Globalization_CurrentPersonVariables_Business
+  name: Business
+  nameWithType: CurrentPersonVariables.Business
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.Business
 - uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.ServicePriority*
   commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.ServicePriority
   isExternal: true

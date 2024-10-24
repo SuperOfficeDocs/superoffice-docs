@@ -5,6 +5,7 @@ items:
   id: ContactPersonSelectionDynamicProviderSingleCriteriaGroup
   parent: SuperOffice.CRM.ArchiveLists.Archive
   children:
+  - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.IsInPersonMode
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.PreGetRows
@@ -221,6 +222,27 @@ items:
   overload: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.IsInPersonMode*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveCombinedContactPersonProvider.IsInPersonMode
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode
+  id: ForcePersonMode
+  parent: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup
+  langs:
+  - csharp
+  - vb
+  name: ForcePersonMode
+  nameWithType: ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public bool ForcePersonMode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ForcePersonMode As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode*
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Archive
   commentId: N:SuperOffice.CRM.ArchiveLists.Archive
@@ -2024,3 +2046,10 @@ references:
   name: IsInPersonMode
   nameWithType: IArchiveCombinedContactPersonProvider.IsInPersonMode
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveCombinedContactPersonProvider.IsInPersonMode
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.html#SuperOffice_CRM_ArchiveLists_Archive_ContactPersonSelectionDynamicProviderSingleCriteriaGroup_ForcePersonMode
+  name: ForcePersonMode
+  nameWithType: ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup.ForcePersonMode

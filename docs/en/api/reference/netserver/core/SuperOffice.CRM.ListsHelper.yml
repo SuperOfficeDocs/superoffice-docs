@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM
   children:
   - SuperOffice.CRM.ListsHelper.ContactWithoutPersonsRootItemType
+  - SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   - SuperOffice.CRM.ListsHelper.FindCreateListItem(System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement}}@,System.String)
   - SuperOffice.CRM.ListsHelper.GetHeadingCustomSearch(System.Int32)
   - SuperOffice.CRM.ListsHelper.GetLinkTableName(System.String)
@@ -702,6 +703,32 @@ items:
   nameWithType.vb: ListsHelper.SetListItemsForHeading(Integer, String, Integer(), Boolean)
   fullName.vb: SuperOffice.CRM.ListsHelper.SetListItemsForHeading(Integer, String, Integer(), Boolean)
   name.vb: SetListItemsForHeading(Integer, String, Integer(), Boolean)
+- uid: SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  id: FilterDuplicateId(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: FilterDuplicateId(List<ISoListItem>)
+  nameWithType: ListsHelper.FilterDuplicateId(List<ISoListItem>)
+  fullName: SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static List<ISoListItem> FilterDuplicateId(List<ISoListItem> list)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+    content.vb: Public Shared Function FilterDuplicateId(list As List(Of ISoListItem)) As List(Of ISoListItem)
+  overload: SuperOffice.CRM.ListsHelper.FilterDuplicateId*
+  nameWithType.vb: ListsHelper.FilterDuplicateId(List(Of ISoListItem))
+  fullName.vb: SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: FilterDuplicateId(List(Of ISoListItem))
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
@@ -1547,3 +1574,45 @@ references:
   name: SetListItemsForHeading
   nameWithType: ListsHelper.SetListItemsForHeading
   fullName: SuperOffice.CRM.ListsHelper.SetListItemsForHeading
+- uid: SuperOffice.CRM.ListsHelper.FilterDuplicateId*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.FilterDuplicateId
+  isExternal: true
+  href: SuperOffice.CRM.ListsHelper.html#SuperOffice_CRM_ListsHelper_FilterDuplicateId_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
+  name: FilterDuplicateId
+  nameWithType: ListsHelper.FilterDuplicateId
+  fullName: SuperOffice.CRM.ListsHelper.FilterDuplicateId
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ISoListItem>
+  nameWithType: List<ISoListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: List(Of ISoListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: List(Of ISoListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ISoListItem.html
+  - name: )

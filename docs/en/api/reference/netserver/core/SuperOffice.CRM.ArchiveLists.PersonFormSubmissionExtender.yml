@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.SetJoin
   langs:
   - csharp
@@ -36,6 +37,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.ColumnFormSubmissionId
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.ColumnFormSubmissionFormId
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.ColumnFormSubmissionName
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}.TableToExtend
@@ -109,6 +111,30 @@ items:
   nameWithType.vb: PersonFormSubmissionExtender.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.New()
   name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender
+  langs:
+  - csharp
+  - vb
+  name: PersonFormSubmissionExtender(string)
+  nameWithType: PersonFormSubmissionExtender.PersonFormSubmissionExtender(string)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.PersonFormSubmissionExtender(string)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public PersonFormSubmissionExtender(string context)
+    parameters:
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(context As String)
+  overload: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.#ctor*
+  nameWithType.vb: PersonFormSubmissionExtender.New(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.New(String)
+  name.vb: New(String)
 - uid: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.SetJoin
   id: SetJoin
@@ -331,6 +357,28 @@ references:
   name: ColumnFormSubmissionName
   nameWithType: FormSubmissionExtenderBase.ColumnFormSubmissionName
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.ColumnFormSubmissionName
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+  commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+  parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html#SuperOffice_CRM_ArchiveLists_FormSubmissionExtenderBase_GetFormTable
+  name: GetFormTable()
+  nameWithType: FormSubmissionExtenderBase.GetFormTable()
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+    name: GetFormTable
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html#SuperOffice_CRM_ArchiveLists_FormSubmissionExtenderBase_GetFormTable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetFormTable
+    name: GetFormTable
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.html#SuperOffice_CRM_ArchiveLists_FormSubmissionExtenderBase_GetFormTable
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
   commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
   parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
@@ -2131,6 +2179,17 @@ references:
   nameWithType.vb: PersonFormSubmissionExtender.New
   fullName.vb: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender.New
   name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}.SetJoin
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}

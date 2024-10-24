@@ -51,6 +51,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionProviderBaseV2
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderSingleCriteriaGroup
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionStaticProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionCombinedProvider
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionCombinedProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionDynamicProvider
@@ -445,6 +451,49 @@ references:
   name: ContactPersonSelectionStaticProviderV2
   nameWithType: ContactPersonSelectionStaticProviderV2
   fullName: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderV2
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderV2.html
+  name: CustomObjectSelectionDynamicProviderV2
+  nameWithType: CustomObjectSelectionDynamicProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderSingleCriteriaGroup
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderSingleCriteriaGroup
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderSingleCriteriaGroup.html
+  name: CustomObjectSelectionDynamicProviderSingleCriteriaGroup
+  nameWithType: CustomObjectSelectionDynamicProviderSingleCriteriaGroup
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderSingleCriteriaGroup
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionCombinedProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionCombinedProviderV2
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionCombinedProviderV2.html
+  name: CustomObjectSelectionCombinedProviderV2
+  nameWithType: CustomObjectSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionCombinedProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderV2
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderV2.html
+  name: CustomObjectSelectionProviderV2
+  nameWithType: CustomObjectSelectionProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.html
+  name: CustomObjectSelectionProviderBaseV2
+  nameWithType: CustomObjectSelectionProviderBaseV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionStaticProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionStaticProviderV2
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionStaticProviderV2.html
+  name: CustomObjectSelectionStaticProviderV2
+  nameWithType: CustomObjectSelectionStaticProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionStaticProviderV2
 - uid: SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionDynamicProviderV2
   commentId: T:SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionDynamicProviderV2
   isExternal: true

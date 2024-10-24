@@ -44,6 +44,7 @@ items:
   - SuperOffice.Security.Principal.AssociateResolver.GetInfoAboutUser
   - SuperOffice.Security.Principal.AssociateResolver.IsPasswordValid(System.Int32,System.String,System.String)
   - SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String)
+  - SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -319,6 +320,63 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
+  parent: SuperOffice.Security.Principal.AssociateResolver
+  isExternal: true
+  href: SuperOffice.Security.Principal.AssociateResolver.html#SuperOffice_Security_Principal_AssociateResolver_SecretFromPassword_System_Int32_System_String_System_String_
+  name: SecretFromPassword(int, string, string)
+  nameWithType: AssociateResolver.SecretFromPassword(int, string, string)
+  fullName: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(int, string, string)
+  nameWithType.vb: AssociateResolver.SecretFromPassword(Integer, String, String)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(Integer, String, String)
+  name.vb: SecretFromPassword(Integer, String, String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
+    name: SecretFromPassword
+    isExternal: true
+    href: SuperOffice.Security.Principal.AssociateResolver.html#SuperOffice_Security_Principal_AssociateResolver_SecretFromPassword_System_Int32_System_String_System_String_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
+    name: SecretFromPassword
+    isExternal: true
+    href: SuperOffice.Security.Principal.AssociateResolver.html#SuperOffice_Security_Principal_AssociateResolver_SecretFromPassword_System_Int32_System_String_System_String_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: System.String

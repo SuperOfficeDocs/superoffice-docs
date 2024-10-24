@@ -27,8 +27,7 @@ items:
   - System.Object
   - SuperOffice.CRM.Workflow.WorkflowStepBase
   inheritedMembers:
-  - SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
-  - SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Row
   - SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
@@ -212,68 +211,34 @@ references:
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase
-- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
-  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId
-  name: NextStepId()
-  nameWithType: WorkflowStepBase.NextStepId()
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId()
+  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
+  name: NextStepId(int)
+  nameWithType: WorkflowStepBase.NextStepId(int)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(int)
+  nameWithType.vb: WorkflowStepBase.NextStepId(Integer)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(Integer)
+  name.vb: NextStepId(Integer)
   spec.csharp:
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
     name: NextStepId
     isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId
+    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
   - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
-    name: NextStepId
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_System_Int32_
-  name: NextStepId(int, int)
-  nameWithType: WorkflowStepBase.NextStepId(int, int)
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(int, int)
-  nameWithType.vb: WorkflowStepBase.NextStepId(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(Integer, Integer)
-  name.vb: NextStepId(Integer, Integer)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
-    name: NextStepId
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_System_Int32_
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
   - uid: System.Int32
     name: int
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
     name: NextStepId
     isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_System_Int32_
+    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
   - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
   - uid: System.Int32
     name: Integer
     isExternal: true

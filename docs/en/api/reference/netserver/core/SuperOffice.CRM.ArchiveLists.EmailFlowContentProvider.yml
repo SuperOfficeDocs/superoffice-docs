@@ -6,10 +6,15 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.#ctor
+  - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColContentType
   - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColDescription
+  - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColIcon
   - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColId
+  - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColRegisteredBy
+  - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColRegisteredDate
   - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColShortDescription
   - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColThumbnail
+  - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ProviderName
   langs:
   - csharp
@@ -45,7 +50,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
   inheritedMembers:
-  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PreGetRows
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
@@ -192,6 +196,82 @@ items:
     return:
       type: System.String
     content.vb: Public Const ColId As String = "contentId"
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColIcon
+  commentId: F:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColIcon
+  id: ColIcon
+  parent: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
+  langs:
+  - csharp
+  - vb
+  name: ColIcon
+  nameWithType: EmailFlowContentProvider.ColIcon
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColIcon
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColIcon = "contentIcon"
+    return:
+      type: System.String
+    content.vb: Public Const ColIcon As String = "contentIcon"
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColContentType
+  commentId: F:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColContentType
+  id: ColContentType
+  parent: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
+  langs:
+  - csharp
+  - vb
+  name: ColContentType
+  nameWithType: EmailFlowContentProvider.ColContentType
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColContentType
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColContentType = "contentType"
+    return:
+      type: System.String
+    content.vb: Public Const ColContentType As String = "contentType"
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColRegisteredBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColRegisteredBy
+  id: ColRegisteredBy
+  parent: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
+  langs:
+  - csharp
+  - vb
+  name: ColRegisteredBy
+  nameWithType: EmailFlowContentProvider.ColRegisteredBy
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColRegisteredBy
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColRegisteredBy = "registeredBy"
+    return:
+      type: System.String
+    content.vb: Public Const ColRegisteredBy As String = "registeredBy"
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColRegisteredDate
+  commentId: F:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColRegisteredDate
+  id: ColRegisteredDate
+  parent: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
+  langs:
+  - csharp
+  - vb
+  name: ColRegisteredDate
+  nameWithType: EmailFlowContentProvider.ColRegisteredDate
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.ColRegisteredDate
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColRegisteredDate = "registeredDate"
+    return:
+      type: System.String
+    content.vb: Public Const ColRegisteredDate As String = "registeredDate"
 - uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.#ctor
   id: '#ctor'
@@ -213,6 +293,36 @@ items:
   nameWithType.vb: EmailFlowContentProvider.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.New()
   name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
+  langs:
+  - csharp
+  - vb
+  name: InnerPopulateRow(ArchiveRow)
+  nameWithType: EmailFlowContentProvider.InnerPopulateRow(ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: >-
+    This virtual method is called after a row has been selected as being the 'next' to be
+
+    returned by this multi query provider, and provides an opportunity to modify it before
+
+    it is returned to the client.
+  example: []
+  syntax:
+    content: protected override void InnerPopulateRow(ArchiveRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+      description: Row being processed, may be modified (with due care)
+    content.vb: Protected Overrides Sub InnerPopulateRow(row As ArchiveRow)
+  overridden: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.InnerPopulateRow*
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
@@ -310,34 +420,6 @@ references:
   name: IArchiveProviderHasEntities
   nameWithType: IArchiveProviderHasEntities
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
-- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_InnerPopulateRow_SuperOffice_CRM_ArchiveLists_ArchiveRow_
-  name: InnerPopulateRow(ArchiveRow)
-  nameWithType: MultiQueryProviderBase.InnerPopulateRow(ArchiveRow)
-  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRow
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_InnerPopulateRow_SuperOffice_CRM_ArchiveLists_ArchiveRow_
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRow
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_InnerPopulateRow_SuperOffice_CRM_ArchiveLists_ArchiveRow_
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    isExternal: true
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AcceptRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
@@ -1779,3 +1861,46 @@ references:
   nameWithType.vb: EmailFlowContentProvider.New
   fullName.vb: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.New
   name.vb: New
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_InnerPopulateRow_SuperOffice_CRM_ArchiveLists_ArchiveRow_
+  name: InnerPopulateRow(ArchiveRow)
+  nameWithType: MultiQueryProviderBase.InnerPopulateRow(ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRow
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_InnerPopulateRow_SuperOffice_CRM_ArchiveLists_ArchiveRow_
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRow
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_InnerPopulateRow_SuperOffice_CRM_ArchiveLists_ArchiveRow_
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.InnerPopulateRow*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.InnerPopulateRow
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.html#SuperOffice_CRM_ArchiveLists_EmailFlowContentProvider_InnerPopulateRow_SuperOffice_CRM_ArchiveLists_ArchiveRow_
+  name: InnerPopulateRow
+  nameWithType: EmailFlowContentProvider.InnerPopulateRow
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider.InnerPopulateRow
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRow.html
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow

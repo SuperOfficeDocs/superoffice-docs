@@ -5,7 +5,7 @@ items:
   id: PersonVariables
   parent: SuperOffice.CRM.Globalization
   children:
-  - SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
+  - SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo4)
   - SuperOffice.CRM.Globalization.PersonVariables.#ctor(System.Int32)
   - SuperOffice.CRM.Globalization.PersonVariables.#ctor(System.Int32,System.Int32)
   - SuperOffice.CRM.Globalization.PersonVariables.Contact
@@ -44,6 +44,7 @@ items:
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
   - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
@@ -76,13 +77,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Variable holding <xref href="SuperOffice.CRM.IPersonInfo2" data-throw-if-not-resolved="false"></xref>, use the <xref href="SuperOffice.CRM.Globalization.PersonVariables.Person" data-throw-if-not-resolved="false"></xref> property to access this variable.
+  summary: Variable holding <xref href="SuperOffice.CRM.IPersonInfo4" data-throw-if-not-resolved="false"></xref>, use the <xref href="SuperOffice.CRM.Globalization.PersonVariables.Person" data-throw-if-not-resolved="false"></xref> property to access this variable.
   example: []
   syntax:
-    content: protected IPersonInfo2 _person
+    content: protected IPersonInfo4 _person
     return:
-      type: SuperOffice.CRM.IPersonInfo2
-    content.vb: Protected _person As IPersonInfo2
+      type: SuperOffice.CRM.IPersonInfo4
+    content.vb: Protected _person As IPersonInfo4
 - uid: SuperOffice.CRM.Globalization.PersonVariables._contact
   commentId: F:SuperOffice.CRM.Globalization.PersonVariables._contact
   id: _contact
@@ -154,30 +155,30 @@ items:
   nameWithType.vb: PersonVariables.New(Integer, Integer)
   fullName.vb: SuperOffice.CRM.Globalization.PersonVariables.New(Integer, Integer)
   name.vb: New(Integer, Integer)
-- uid: SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
-  commentId: M:SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
-  id: '#ctor(SuperOffice.CRM.IPersonInfo2)'
+- uid: SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo4)
+  commentId: M:SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo4)
+  id: '#ctor(SuperOffice.CRM.IPersonInfo4)'
   parent: SuperOffice.CRM.Globalization.PersonVariables
   langs:
   - csharp
   - vb
-  name: PersonVariables(IPersonInfo2)
-  nameWithType: PersonVariables.PersonVariables(IPersonInfo2)
-  fullName: SuperOffice.CRM.Globalization.PersonVariables.PersonVariables(SuperOffice.CRM.IPersonInfo2)
+  name: PersonVariables(IPersonInfo4)
+  nameWithType: PersonVariables.PersonVariables(IPersonInfo4)
+  fullName: SuperOffice.CRM.Globalization.PersonVariables.PersonVariables(SuperOffice.CRM.IPersonInfo4)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: public PersonVariables(IPersonInfo2 personInfo)
+    content: public PersonVariables(IPersonInfo4 personInfo)
     parameters:
     - id: personInfo
-      type: SuperOffice.CRM.IPersonInfo2
-    content.vb: Public Sub New(personInfo As IPersonInfo2)
+      type: SuperOffice.CRM.IPersonInfo4
+    content.vb: Public Sub New(personInfo As IPersonInfo4)
   overload: SuperOffice.CRM.Globalization.PersonVariables.#ctor*
-  nameWithType.vb: PersonVariables.New(IPersonInfo2)
-  fullName.vb: SuperOffice.CRM.Globalization.PersonVariables.New(SuperOffice.CRM.IPersonInfo2)
-  name.vb: New(IPersonInfo2)
+  nameWithType.vb: PersonVariables.New(IPersonInfo4)
+  fullName.vb: SuperOffice.CRM.Globalization.PersonVariables.New(SuperOffice.CRM.IPersonInfo4)
+  name.vb: New(IPersonInfo4)
 - uid: SuperOffice.CRM.Globalization.PersonVariables.Contact
   commentId: P:SuperOffice.CRM.Globalization.PersonVariables.Contact
   id: Contact
@@ -387,6 +388,25 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.IO.TagContainer.GetTags
+  commentId: M:SuperOffice.IO.TagContainer.GetTags
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetTags()
+  nameWithType: TagContainer.GetTags()
+  fullName: SuperOffice.IO.TagContainer.GetTags()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
   - name: )
 - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
@@ -1082,6 +1102,14 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.IPersonInfo4
+  commentId: T:SuperOffice.CRM.IPersonInfo4
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.IPersonInfo4.html
+  name: IPersonInfo4
+  nameWithType: IPersonInfo4
+  fullName: SuperOffice.CRM.IPersonInfo4
 - uid: SuperOffice.CRM.Globalization.PersonVariables.Person
   commentId: P:SuperOffice.CRM.Globalization.PersonVariables.Person
   isExternal: true

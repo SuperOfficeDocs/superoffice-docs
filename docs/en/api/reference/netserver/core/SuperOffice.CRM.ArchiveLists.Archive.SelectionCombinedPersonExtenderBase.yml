@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.#ctor
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.SetJoin
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.TableToExtend
@@ -98,9 +99,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colHasCompany
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colIsProjectMember
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colIsStakeholder
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colUpdatedByWorkflow
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colWhenUpdatedByWorkflow
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCreatedByForm
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colPhone
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.StandardFullName
-  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropRetiredPersons
@@ -277,6 +281,32 @@ items:
   nameWithType.vb: SelectionCombinedPersonExtenderBase.New(PersonExtenderBase.Features)
   fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.New(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
   name.vb: New(Features)
+- uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: SelectionCombinedPersonExtenderBase(Features, string)
+  nameWithType: SelectionCombinedPersonExtenderBase.SelectionCombinedPersonExtenderBase(PersonExtenderBase.Features, string)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.SelectionCombinedPersonExtenderBase(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features, string)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public SelectionCombinedPersonExtenderBase(PersonExtenderBase.Features features, string context)
+    parameters:
+    - id: features
+      type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(features As PersonExtenderBase.Features, context As String)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.#ctor*
+  nameWithType.vb: SelectionCombinedPersonExtenderBase.New(PersonExtenderBase.Features, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.New(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features, String)
+  name.vb: New(Features, String)
 - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.SelectionCombinedPersonExtenderBase.SetJoin
   id: SetJoin
@@ -1106,6 +1136,30 @@ references:
   name: _colIsStakeholder
   nameWithType: PersonExtenderBase._colIsStakeholder
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colIsStakeholder
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colUpdatedByWorkflow
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colUpdatedByWorkflow
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase__colUpdatedByWorkflow
+  name: _colUpdatedByWorkflow
+  nameWithType: PersonExtenderBase._colUpdatedByWorkflow
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colUpdatedByWorkflow
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colWhenUpdatedByWorkflow
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colWhenUpdatedByWorkflow
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase__colWhenUpdatedByWorkflow
+  name: _colWhenUpdatedByWorkflow
+  nameWithType: PersonExtenderBase._colWhenUpdatedByWorkflow
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colWhenUpdatedByWorkflow
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCreatedByForm
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCreatedByForm
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase__colCreatedByForm
+  name: _colCreatedByForm
+  nameWithType: PersonExtenderBase._colCreatedByForm
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCreatedByForm
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colPhone
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colPhone
   parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
@@ -1136,35 +1190,62 @@ references:
     href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_StandardFullName
   - name: (
   - name: )
-- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String,System.String)
   parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Initialize_SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Features_
-  name: Initialize(Features)
-  nameWithType: PersonExtenderBase.Initialize(PersonExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Initialize_SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Features_System_String_System_String_
+  name: Initialize(Features, string, string)
+  nameWithType: PersonExtenderBase.Initialize(PersonExtenderBase.Features, string, string)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features, string, string)
+  nameWithType.vb: PersonExtenderBase.Initialize(PersonExtenderBase.Features, String, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features, String, String)
+  name.vb: Initialize(Features, String, String)
   spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String,System.String)
     name: Initialize
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Initialize_SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Features_
+    href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Initialize_SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Features_System_String_System_String_
   - name: (
   - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
     name: Features
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String,System.String)
     name: Initialize
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Initialize_SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Features_
+    href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Initialize_SuperOffice_CRM_ArchiveLists_PersonExtenderBase_Features_System_String_System_String_
   - name: (
   - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
     name: Features
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.InnerModifyQuery
@@ -5849,6 +5930,17 @@ references:
     name: Features
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.PersonTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.PersonTableInfo}.SetJoin
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.PersonTableInfo}

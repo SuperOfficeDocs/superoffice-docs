@@ -39,6 +39,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colworkflowName
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colworkflowDesc
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatus
+  - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatusId
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colJumpToFinish
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colStartOnlyOnce
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowEnrolledCount
@@ -465,6 +466,14 @@ references:
   name: _colWorkflowDefinitionStatus
   nameWithType: WorkflowExtenderBase._colWorkflowDefinitionStatus
   fullName: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatus
+- uid: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatusId
+  commentId: F:SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatusId
+  parent: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase.html#SuperOffice_CRM_ArchiveLists_WorkflowExtenderBase__colWorkflowDefinitionStatusId
+  name: _colWorkflowDefinitionStatusId
+  nameWithType: WorkflowExtenderBase._colWorkflowDefinitionStatusId
+  fullName: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatusId
 - uid: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colJumpToFinish
   commentId: F:SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colJumpToFinish
   parent: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase

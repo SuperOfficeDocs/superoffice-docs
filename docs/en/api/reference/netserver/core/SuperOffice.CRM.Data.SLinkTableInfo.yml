@@ -28,6 +28,8 @@ items:
   - SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_SLinkCustomerStatical_LinkId
   - SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_SLinkCustomer_LinkId
   - SuperOffice.CRM.Data.SLinkTableInfo.LinkValue
+  - SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+  - SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage
   - SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl
   - SuperOffice.CRM.Data.SLinkTableInfo.Registered
   - SuperOffice.CRM.Data.SLinkTableInfo.RegisteredAssociateId
@@ -287,7 +289,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
   summary: >-
-    Field 'url' in table 's_link': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+    Field 'url' in table 's_link': Dictionary type String[4001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
 
     The real URL of this link (www.vg.no etc)
   example: []
@@ -1286,6 +1288,32 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SLinkTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+  id: LocalLink
+  parent: SuperOffice.CRM.Data.SLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LocalLink
+  nameWithType: SLinkTableInfo.LocalLink
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'local_link' in table 's_link': Dictionary type FK, target: SMessage, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    If this references a shipment message, then this is a local link belonging to that message
+  example: []
+  syntax:
+    content: public Int32FieldInfo LocalLink { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LocalLink As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink*
 - uid: SuperOffice.CRM.Data.SLinkTableInfo.ScriptId_InnerJoin_Ejscript
   commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.ScriptId_InnerJoin_Ejscript
   id: ScriptId_InnerJoin_Ejscript
@@ -1746,6 +1774,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.SLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage
+  id: LocalLink_InnerJoin_SMessage
+  parent: SuperOffice.CRM.Data.SLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LocalLink_InnerJoin_SMessage
+  nameWithType: SLinkTableInfo.LocalLink_InnerJoin_SMessage
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key LocalLink in this table, to its target table <xref href="SuperOffice.CRM.Data.SMessageTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<SMessageTableInfo> LocalLink_InnerJoin_SMessage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SMessageTableInfo}
+    content.vb: Public ReadOnly Property LocalLink_InnerJoin_SMessage As TargetedInnerJoin(Of SMessageTableInfo)
+  overload: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage*
 - uid: SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_SLinkCustomer_LinkId
   commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_SLinkCustomer_LinkId
   id: LeftOuterJoin_SLinkCustomer_LinkId
@@ -3110,6 +3161,13 @@ references:
   name: UpdatedCount
   nameWithType: SLinkTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.SLinkTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_LocalLink
+  name: LocalLink
+  nameWithType: SLinkTableInfo.LocalLink
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
 - uid: SuperOffice.CRM.Data.EjscriptTableInfo
   commentId: T:SuperOffice.CRM.Data.EjscriptTableInfo
   parent: SuperOffice.CRM.Data
@@ -3751,6 +3809,56 @@ references:
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: SLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SLinkTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.SMessageTableInfo
+  commentId: T:SuperOffice.CRM.Data.SMessageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.SMessageTableInfo.html
+  name: SMessageTableInfo
+  nameWithType: SMessageTableInfo
+  fullName: SuperOffice.CRM.Data.SMessageTableInfo
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_LocalLink_InnerJoin_SMessage
+  name: LocalLink_InnerJoin_SMessage
+  nameWithType: SLinkTableInfo.LocalLink_InnerJoin_SMessage
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SMessageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SMessageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<SMessageTableInfo>
+  nameWithType: TargetedInnerJoin<SMessageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.SMessageTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of SMessageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.SMessageTableInfo)
+  name.vb: TargetedInnerJoin(Of SMessageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.SMessageTableInfo
+    name: SMessageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SMessageTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.SMessageTableInfo
+    name: SMessageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SMessageTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.SLinkCustomerTableInfo.LinkId
   commentId: P:SuperOffice.CRM.Data.SLinkCustomerTableInfo.LinkId
   isExternal: true

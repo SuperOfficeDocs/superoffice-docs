@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.SetJoin
   langs:
   - csharp
@@ -65,6 +66,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnAssocUserName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnPersonEmail
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnLocationAddress
+  - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFirstName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colLastName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colMiddleName
@@ -96,7 +98,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colAssocUserName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colPersonEmail
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colLocationAddress
-  - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
+  - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.PersonRelatedColumns
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ContactRelatedColumns
@@ -277,6 +279,30 @@ items:
     content.vb: Protected Overrides Function SetJoin() As AssociateTableInfo
   overridden: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AssociateTableInfo}.SetJoin
   overload: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.SetJoin*
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.InnerModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.InnerModifyQuery
+  id: InnerModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender
+  langs:
+  - csharp
+  - vb
+  name: InnerModifyQuery()
+  nameWithType: AppointmentAssociateExtender.InnerModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.InnerModifyQuery()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: >-
+    Add/map return fields to the query; call SetJoin to obtain the contact table info instance from
+
+    the derived class
+  example: []
+  syntax:
+    content: protected override void InnerModifyQuery()
+    content.vb: Protected Overrides Sub InnerModifyQuery()
+  overridden: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
+  overload: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.InnerModifyQuery*
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
@@ -692,6 +718,14 @@ references:
   name: ColumnLocationAddress
   nameWithType: AssociateExtenderBase.ColumnLocationAddress
   fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnLocationAddress
+- uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
+  commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
+  parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase_ColumnIsLocation
+  name: ColumnIsLocation
+  nameWithType: AssociateExtenderBase.ColumnIsLocation
+  fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
 - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFirstName
   commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFirstName
   parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
@@ -940,28 +974,14 @@ references:
   name: _colLocationAddress
   nameWithType: AssociateExtenderBase._colLocationAddress
   fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colLocationAddress
-- uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
-  commentId: M:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
+- uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
+  commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
   parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase_InnerModifyQuery
-  name: InnerModifyQuery()
-  nameWithType: AssociateExtenderBase.InnerModifyQuery()
-  fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
-    name: InnerModifyQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase_InnerModifyQuery
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
-    name: InnerModifyQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase_InnerModifyQuery
-  - name: (
-  - name: )
+  href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase__colIsLocation
+  name: _colIsLocation
+  nameWithType: AssociateExtenderBase._colIsLocation
+  fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
 - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
@@ -5804,3 +5824,32 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.CRM.Data.html
+- uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase_InnerModifyQuery
+  name: InnerModifyQuery()
+  nameWithType: AssociateExtenderBase.InnerModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
+    name: InnerModifyQuery
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase_InnerModifyQuery
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
+    name: InnerModifyQuery
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase_InnerModifyQuery
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.InnerModifyQuery*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.InnerModifyQuery
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.html#SuperOffice_CRM_ArchiveLists_AppointmentAssociateExtender_InnerModifyQuery
+  name: InnerModifyQuery
+  nameWithType: AppointmentAssociateExtender.InnerModifyQuery
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender.InnerModifyQuery

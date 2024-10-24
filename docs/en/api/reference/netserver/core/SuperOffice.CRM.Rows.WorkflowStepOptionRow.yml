@@ -37,7 +37,6 @@ items:
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow.UpdatedAssociateId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow.UpdatedCount
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow.Validate(SuperOffice.CRM.Rows.RowValidator)
-  - SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowStepId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowStepOptionId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowStepOptionTableInfo
@@ -49,7 +48,6 @@ items:
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentUpdated
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentUpdatedCount
-  - SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentWorkflowId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentWorkflowStepId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentWorkflowStepOptionId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedKeyId
@@ -60,7 +58,6 @@ items:
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedUpdated
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedUpdatedCount
-  - SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedWorkflowId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedWorkflowStepId
   - SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedWorkflowStepOptionId
   langs:
@@ -207,6 +204,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedWorkflowStepOptionId
   commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedWorkflowStepOptionId
   id: _persistedWorkflowStepOptionId
@@ -249,27 +247,6 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedWorkflowStepId As Integer
-- uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedWorkflowId
-  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedWorkflowId
-  id: _persistedWorkflowId
-  parent: SuperOffice.CRM.Rows.WorkflowStepOptionRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedWorkflowId
-  nameWithType: WorkflowStepOptionRow._persistedWorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedWorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _persistedWorkflowId
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedName
   commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionRow._persistedName
   id: _persistedName
@@ -480,27 +457,6 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentWorkflowStepId As Integer
-- uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentWorkflowId
-  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentWorkflowId
-  id: _currentWorkflowId
-  parent: SuperOffice.CRM.Rows.WorkflowStepOptionRow
-  langs:
-  - csharp
-  - vb
-  name: _currentWorkflowId
-  nameWithType: WorkflowStepOptionRow._currentWorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentWorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _currentWorkflowId
-    return:
-      type: System.Int32
-    content.vb: Protected _currentWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentName
   commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionRow._currentName
   id: _currentName
@@ -1432,41 +1388,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowStepId As Integer
   overload: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowStepId*
-  exceptions:
-  - type: SuperOffice.Exceptions.SoSentryException
-    commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if the set method is accessed without having the Write access right to the field
-- uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
-  commentId: P:SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
-  id: WorkflowId
-  parent: SuperOffice.CRM.Rows.WorkflowStepOptionRow
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId
-  nameWithType: WorkflowStepOptionRow.WorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. The flow this instance belongs to'
-  remarks: >-
-    Original type in dictionary:  FK.
-
-    <p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (0)</p>
-
-    <p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-  example: []
-  syntax:
-    content: public virtual int WorkflowId { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property WorkflowId As Integer
-  overload: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId*
   exceptions:
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
@@ -3779,6 +3700,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -4177,6 +4151,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -4239,13 +4265,6 @@ references:
   name: WorkflowStepId
   nameWithType: WorkflowStepOptionRow.WorkflowStepId
   fullName: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowStepId
-- uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
-  commentId: P:SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowStepOptionRow.html#SuperOffice_CRM_Rows_WorkflowStepOptionRow_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowStepOptionRow.WorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
 - uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow.Name
   commentId: P:SuperOffice.CRM.Rows.WorkflowStepOptionRow.Name
   isExternal: true
@@ -5103,13 +5122,6 @@ references:
   name: WorkflowStepId
   nameWithType: WorkflowStepOptionRow.WorkflowStepId
   fullName: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowStepId
-- uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId*
-  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowStepOptionRow.html#SuperOffice_CRM_Rows_WorkflowStepOptionRow_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowStepOptionRow.WorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionRow.WorkflowId
 - uid: SuperOffice.CRM.Rows.WorkflowStepOptionRow.Name*
   commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepOptionRow.Name
   isExternal: true

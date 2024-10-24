@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Rank
   - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Registered
   - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Updated
@@ -224,6 +225,27 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Rank
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: WorkflowStepOptionLinkRecordData.Rank
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Rank
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Step order
+  example: []
+  syntax:
+    content: public int Rank
+    return:
+      type: System.Int32
+    content.vb: Public Rank As Integer
 - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor
   id: '#ctor'

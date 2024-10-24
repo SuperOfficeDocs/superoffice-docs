@@ -16,6 +16,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
   - SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
   - SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
+  - SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
   - SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
   - SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
   - SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
@@ -23,6 +24,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
   - SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
   - SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
+  - SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
   - SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
   - SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
   - SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
@@ -582,6 +584,52 @@ items:
       type: System.Int32
     content.vb: Public Shared Property LiveUiEventLimit As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit*
+- uid: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
+  id: SynchronizerSettingsUrl
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: SynchronizerSettingsUrl
+  nameWithType: ConfigFile.Client.SynchronizerSettingsUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: URL to InfoBridge Synchronizer Settings
+  example: []
+  syntax:
+    content: public static string SynchronizerSettingsUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property SynchronizerSettingsUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl*
+- uid: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
+  id: HighchartsExportServiceUrl
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: HighchartsExportServiceUrl
+  nameWithType: ConfigFile.Client.HighchartsExportServiceUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: URL to the Highcharts export service
+  example: []
+  syntax:
+    content: public static string HighchartsExportServiceUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property HighchartsExportServiceUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl*
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
@@ -1041,3 +1089,17 @@ references:
   name: LiveUiEventLimit
   nameWithType: ConfigFile.Client.LiveUiEventLimit
   fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
+- uid: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_SynchronizerSettingsUrl
+  name: SynchronizerSettingsUrl
+  nameWithType: ConfigFile.Client.SynchronizerSettingsUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
+- uid: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_HighchartsExportServiceUrl
+  name: HighchartsExportServiceUrl
+  nameWithType: ConfigFile.Client.HighchartsExportServiceUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl

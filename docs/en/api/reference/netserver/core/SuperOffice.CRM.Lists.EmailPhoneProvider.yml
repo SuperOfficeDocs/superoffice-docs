@@ -86,9 +86,13 @@ items:
     content: >-
       [MDOProviderPlugin("emailphone")]
 
+      [MDOAdditionalInfo("phoneOnly", "Only sms loaded", false)]
+
       public class EmailPhoneProvider : AnyTableListProviderBase, ISoListProvider, ISoList
     content.vb: >-
       <MDOProviderPlugin("emailphone")>
+
+      <MDOAdditionalInfo("phoneOnly", "Only sms loaded", False)>
 
       Public Class EmailPhoneProvider Inherits AnyTableListProviderBase Implements ISoListProvider, ISoList
   inheritance:
@@ -131,6 +135,15 @@ items:
     arguments:
     - type: System.String
       value: emailphone
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: phoneOnly
+    - type: System.String
+      value: Only sms loaded
+    - type: System.Boolean
+      value: false
 - uid: SuperOffice.CRM.Lists.EmailPhoneProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.EmailPhoneProvider.ProviderName
   id: ProviderName

@@ -207,6 +207,7 @@ items:
   - SuperOffice.CRM.Data.ForeignAppTableInfo
   - SuperOffice.CRM.Data.ForeignDeviceTableInfo
   - SuperOffice.CRM.Data.ForeignKeyTableInfo
+  - SuperOffice.CRM.Data.FormFieldValueTableInfo
   - SuperOffice.CRM.Data.FormKeysTableInfo
   - SuperOffice.CRM.Data.FormSubmissionTableInfo
   - SuperOffice.CRM.Data.FormTableInfo
@@ -577,6 +578,7 @@ items:
   - SuperOffice.CRM.Data.WordRelationsTableInfo
   - SuperOffice.CRM.Data.WorkflowGoalTableInfo
   - SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  - SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
   - SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
   - SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
   - SuperOffice.CRM.Data.WorkflowStepTableInfo

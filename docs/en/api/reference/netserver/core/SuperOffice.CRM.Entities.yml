@@ -91,6 +91,7 @@ items:
   - SuperOffice.CRM.Entities.EntityUdefHelper
   - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
   - SuperOffice.CRM.Entities.EntityVisibleForHelper
+  - SuperOffice.CRM.Entities.FormValueCalculator
   - SuperOffice.CRM.Entities.GetRelatedObjects
   - SuperOffice.CRM.Entities.IEntityUdefHelperContainer
   - SuperOffice.CRM.Entities.InterestHelper
@@ -2022,6 +2023,13 @@ references:
   name: EntityVisibleForHelper
   nameWithType: EntityVisibleForHelper
   fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper
+- uid: SuperOffice.CRM.Entities.FormValueCalculator
+  commentId: T:SuperOffice.CRM.Entities.FormValueCalculator
+  isExternal: true
+  href: SuperOffice.CRM.Entities.FormValueCalculator.html
+  name: FormValueCalculator
+  nameWithType: FormValueCalculator
+  fullName: SuperOffice.CRM.Entities.FormValueCalculator
 - uid: SuperOffice.CRM.Entities.PersonCollection
   commentId: T:SuperOffice.CRM.Entities.PersonCollection
   parent: SuperOffice.CRM.Entities

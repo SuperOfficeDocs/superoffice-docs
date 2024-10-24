@@ -39,15 +39,8 @@ items:
   fullName: SuperOffice.CRM.Documents
   type: Namespace
   assemblies:
-  - SoDataBase
+  - SoCore
 references:
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-  commentId: T:SuperOffice.CRM.Documents.ArchiveTempFileProvider
-  isExternal: true
-  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  name: ArchiveTempFileProvider
-  nameWithType: ArchiveTempFileProvider
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
 - uid: SuperOffice.CRM.Documents.AsponseInitializer
   commentId: T:SuperOffice.CRM.Documents.AsponseInitializer
   isExternal: true
@@ -55,6 +48,13 @@ references:
   name: AsponseInitializer
   nameWithType: AsponseInitializer
   fullName: SuperOffice.CRM.Documents.AsponseInitializer
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  commentId: T:SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  isExternal: true
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  name: ArchiveTempFileProvider
+  nameWithType: ArchiveTempFileProvider
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
 - uid: SuperOffice.CRM.Documents.DocumentEntityHelper
   commentId: T:SuperOffice.CRM.Documents.DocumentEntityHelper
   isExternal: true

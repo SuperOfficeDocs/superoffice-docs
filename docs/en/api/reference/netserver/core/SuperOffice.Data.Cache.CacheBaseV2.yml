@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.Cache.HierarchyTreeCache
   - SuperOffice.CRM.Cache.MDOListTableCacheBase
   - SuperOffice.CRM.Cache.MDOPreferenceCache
+  - SuperOffice.CRM.Cache.OnlineAppCache
   - SuperOffice.CRM.Cache.PriceListCache
   - SuperOffice.CRM.Cache.ProbCache
   - SuperOffice.CRM.Cache.ProjectStatusCache

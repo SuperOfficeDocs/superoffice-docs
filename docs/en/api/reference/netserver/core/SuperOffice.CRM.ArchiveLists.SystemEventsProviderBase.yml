@@ -20,21 +20,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Archive provider
-  remarks: >-
-    Blah...
-
-    <p></p>
-
-    blah....
-
-    <p></p>
-
-    ...
-
-    <p></p>
-
-    ........
+  summary: Provider base for system events.
   example: []
   syntax:
     content: >-

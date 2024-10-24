@@ -16,6 +16,7 @@ items:
   - SuperOffice.CRM.Workflow.CreateSaleSettings.Project
   - SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate
   - SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.Source
   - SuperOffice.CRM.Workflow.CreateSaleSettings.Stage
   - SuperOffice.CRM.Workflow.CreateSaleSettings.Title
   langs:
@@ -320,6 +321,27 @@ items:
       type: System.DateTime
     content.vb: Public Property SaleDate As Date
   overload: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate*
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Source
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.Source
+  id: Source
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: CreateSaleSettings.Source
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Source
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Source { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Source As Integer
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.Source*
 references:
 - uid: SuperOffice.CRM.Workflow
   commentId: N:SuperOffice.CRM.Workflow
@@ -1237,3 +1259,10 @@ references:
   nameWithType.vb: Date
   fullName.vb: Date
   name.vb: Date
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Source*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.Source
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.CreateSaleSettings.html#SuperOffice_CRM_Workflow_CreateSaleSettings_Source
+  name: Source
+  nameWithType: CreateSaleSettings.Source
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Source

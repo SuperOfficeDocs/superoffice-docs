@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SaleFields.AssociateId
   - SuperOffice.CRM.Data.DBC.SaleFields.ComptrId
   - SuperOffice.CRM.Data.DBC.SaleFields.ContactId
+  - SuperOffice.CRM.Data.DBC.SaleFields.CreatedByWorkflowId
   - SuperOffice.CRM.Data.DBC.SaleFields.CreditedId
   - SuperOffice.CRM.Data.DBC.SaleFields.CurrencyId
   - SuperOffice.CRM.Data.DBC.SaleFields.Done
@@ -954,6 +955,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const ActiveErpLinks As String = "activeErpLinks"
+- uid: SuperOffice.CRM.Data.DBC.SaleFields.CreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Data.DBC.SaleFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: DBC.SaleFields.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Data.DBC.SaleFields.CreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Sale.CreatedByWorkflowId: The workflow this sale was created by'
+  example: []
+  syntax:
+    content: public const string CreatedByWorkflowId = "created_by_workflow_id"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedByWorkflowId As String = "created_by_workflow_id"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

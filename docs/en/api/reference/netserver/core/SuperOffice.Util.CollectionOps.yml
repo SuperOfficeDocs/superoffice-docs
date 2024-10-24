@@ -265,7 +265,10 @@ items:
   summary: Conditionally Convert an array of some type to an equal-length array of another type, using a converter and a predicate on the source type
   example: []
   syntax:
-    content: public static ReturnType[] ConvertArray<SourceType, ReturnType>(SourceType[] source, CollectionOps.ConvertType<SourceType, ReturnType> converter, Predicate<SourceType> condition)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version.", false)]
+
+      public static ReturnType[] ConvertArray<SourceType, ReturnType>(SourceType[] source, CollectionOps.ConvertType<SourceType, ReturnType> converter, Predicate<SourceType> condition)
     parameters:
     - id: source
       type: '{SourceType}[]'
@@ -284,8 +287,19 @@ items:
     return:
       type: '{ReturnType}[]'
       description: Array of target type
-    content.vb: Public Shared Function ConvertArray(Of SourceType, ReturnType)(source As SourceType(), converter As CollectionOps.ConvertType(Of SourceType, ReturnType), condition As Predicate(Of SourceType)) As ReturnType()
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version.", False)>
+
+      Public Shared Function ConvertArray(Of SourceType, ReturnType)(source As SourceType(), converter As CollectionOps.ConvertType(Of SourceType, ReturnType), condition As Predicate(Of SourceType)) As ReturnType()
   overload: SuperOffice.Util.CollectionOps.ConvertArray*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.ConvertArray(Of SourceType, ReturnType)(SourceType(), CollectionOps.ConvertType(Of SourceType, ReturnType), Predicate(Of SourceType))
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertArray(Of SourceType, ReturnType)(SourceType(), SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType), System.Predicate(Of SourceType))
   name.vb: ConvertArray(Of SourceType, ReturnType)(SourceType(), ConvertType(Of SourceType, ReturnType), Predicate(Of SourceType))
@@ -344,7 +358,10 @@ items:
   summary: Conditionally Convert an array of some type to an equal-length array of another type, using a converter and a predicate on the source type
   example: []
   syntax:
-    content: public static ReturnType[] ConvertArray<SourceType, ReturnType>(ICollection<SourceType> source, CollectionOps.ConvertType<SourceType, ReturnType> converter, Predicate<SourceType> condition)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version.", false)]
+
+      public static ReturnType[] ConvertArray<SourceType, ReturnType>(ICollection<SourceType> source, CollectionOps.ConvertType<SourceType, ReturnType> converter, Predicate<SourceType> condition)
     parameters:
     - id: source
       type: System.Collections.Generic.ICollection{{SourceType}}
@@ -363,8 +380,19 @@ items:
     return:
       type: '{ReturnType}[]'
       description: Array of target type
-    content.vb: Public Shared Function ConvertArray(Of SourceType, ReturnType)(source As ICollection(Of SourceType), converter As CollectionOps.ConvertType(Of SourceType, ReturnType), condition As Predicate(Of SourceType)) As ReturnType()
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version.", False)>
+
+      Public Shared Function ConvertArray(Of SourceType, ReturnType)(source As ICollection(Of SourceType), converter As CollectionOps.ConvertType(Of SourceType, ReturnType), condition As Predicate(Of SourceType)) As ReturnType()
   overload: SuperOffice.Util.CollectionOps.ConvertArray*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.ConvertArray(Of SourceType, ReturnType)(ICollection(Of SourceType), CollectionOps.ConvertType(Of SourceType, ReturnType), Predicate(Of SourceType))
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertArray(Of SourceType, ReturnType)(System.Collections.Generic.ICollection(Of SourceType), SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType), System.Predicate(Of SourceType))
   name.vb: ConvertArray(Of SourceType, ReturnType)(ICollection(Of SourceType), ConvertType(Of SourceType, ReturnType), Predicate(Of SourceType))
@@ -388,7 +416,10 @@ items:
     A null input will result in a null output. An empty input will give an empty output (not null).
   example: []
   syntax:
-    content: public static string[] ConvertToStringArray<SourceType>(ICollection<SourceType> sourceCollection)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version.", false)]
+
+      public static string[] ConvertToStringArray<SourceType>(ICollection<SourceType> sourceCollection)
     parameters:
     - id: sourceCollection
       type: System.Collections.Generic.ICollection{{SourceType}}
@@ -399,8 +430,19 @@ items:
     return:
       type: System.String[]
       description: Array with same number of elements as input collection; or null if input was null
-    content.vb: Public Shared Function ConvertToStringArray(Of SourceType)(sourceCollection As ICollection(Of SourceType)) As String()
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version.", False)>
+
+      Public Shared Function ConvertToStringArray(Of SourceType)(sourceCollection As ICollection(Of SourceType)) As String()
   overload: SuperOffice.Util.CollectionOps.ConvertToStringArray*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.ConvertToStringArray(Of SourceType)(ICollection(Of SourceType))
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertToStringArray(Of SourceType)(System.Collections.Generic.ICollection(Of SourceType))
   name.vb: ConvertToStringArray(Of SourceType)(ICollection(Of SourceType))
@@ -424,7 +466,10 @@ items:
     A null input will result in a null output. An empty input will give an empty output (not null).
   example: []
   syntax:
-    content: public static string[] ConvertToStringArray<SourceType>(SourceType[] sourceArray)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version.", false)]
+
+      public static string[] ConvertToStringArray<SourceType>(SourceType[] sourceArray)
     parameters:
     - id: sourceArray
       type: '{SourceType}[]'
@@ -435,8 +480,19 @@ items:
     return:
       type: System.String[]
       description: Array with same number of elements as input collection; or null if input was null
-    content.vb: Public Shared Function ConvertToStringArray(Of SourceType)(sourceArray As SourceType()) As String()
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version.", False)>
+
+      Public Shared Function ConvertToStringArray(Of SourceType)(sourceArray As SourceType()) As String()
   overload: SuperOffice.Util.CollectionOps.ConvertToStringArray*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.ConvertToStringArray(Of SourceType)(SourceType())
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertToStringArray(Of SourceType)(SourceType())
   name.vb: ConvertToStringArray(Of SourceType)(SourceType())
@@ -847,7 +903,10 @@ items:
   summary: Create a dictionary of key, item pairs from an array if items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
     parameters:
     - id: array
       type: '{ValueType}[]'
@@ -865,8 +924,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
   name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), GetKeyFromValueItem(Of KeyType, ValueType))
@@ -887,7 +957,10 @@ items:
   summary: Create a dictionary of key, item pairs from an array of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
     parameters:
     - id: array
       type: '{ValueType}[]'
@@ -908,8 +981,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType))
   name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
@@ -930,7 +1014,10 @@ items:
   summary: Conditionally create a dictionary of key, item pairs from an array if items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
     parameters:
     - id: array
       type: '{ValueType}[]'
@@ -951,8 +1038,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Predicate(Of ValueType))
   name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
@@ -973,7 +1071,10 @@ items:
   summary: Conditionally create a dictionary of key, item pairs from an array if items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
     parameters:
     - id: array
       type: '{ValueType}[]'
@@ -996,8 +1097,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType), System.Predicate(Of ValueType))
   name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
@@ -1018,7 +1130,10 @@ items:
   summary: Create a dictionary of key, item pairs from a collection of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
     parameters:
     - id: collection
       type: System.Collections.Generic.ICollection{{ValueType}}
@@ -1036,8 +1151,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(System.Collections.Generic.ICollection(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
   name.vb: CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), GetKeyFromValueItem(Of KeyType, ValueType))
@@ -1058,7 +1184,10 @@ items:
   summary: Conditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
     parameters:
     - id: collection
       type: System.Collections.Generic.ICollection{{ValueType}}
@@ -1078,8 +1207,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(System.Collections.Generic.ICollection(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Predicate(Of ValueType))
   name.vb: CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
@@ -1100,7 +1240,10 @@ items:
   summary: Create a dictionary of key, item pairs from a collection of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
     parameters:
     - id: collection
       type: System.Collections.Generic.ICollection{{ValueType}}
@@ -1119,8 +1262,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(System.Collections.Generic.ICollection(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType))
   name.vb: CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
@@ -1141,7 +1295,10 @@ items:
   summary: Conditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
     parameters:
     - id: collection
       type: System.Collections.Generic.ICollection{{ValueType}}
@@ -1163,8 +1320,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(System.Collections.Generic.ICollection(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType), System.Predicate(Of ValueType))
   name.vb: CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
@@ -1185,7 +1353,10 @@ items:
   summary: Create a dictionary of key, item pairs from a collection of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
     parameters:
     - id: collection
       type: System.Collections.Generic.IEnumerable{{ValueType}}
@@ -1202,8 +1373,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(System.Collections.Generic.IEnumerable(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
   name.vb: CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), GetKeyFromValueItem(Of KeyType, ValueType))
@@ -1224,7 +1406,10 @@ items:
   summary: Conditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
     parameters:
     - id: collection
       type: System.Collections.Generic.IEnumerable{{ValueType}}
@@ -1244,8 +1429,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(System.Collections.Generic.IEnumerable(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Predicate(Of ValueType))
   name.vb: CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
@@ -1266,7 +1462,10 @@ items:
   summary: Create a dictionary of key, item pairs from a collection of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
     parameters:
     - id: collection
       type: System.Collections.Generic.IEnumerable{{ValueType}}
@@ -1285,8 +1484,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(System.Collections.Generic.IEnumerable(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType))
   name.vb: CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
@@ -1307,7 +1517,10 @@ items:
   summary: Conditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information
   example: []
   syntax:
-    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", false)]
+
+      public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
     parameters:
     - id: collection
       type: System.Collections.Generic.IEnumerable{{ValueType}}
@@ -1329,8 +1542,19 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
       description: Dictionary, populated with the keys and corresponding items
-    content.vb: Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.", False)>
+
+      Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
   overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version. Use IEnumerableExtensions.ToDictionaryPermissive(...) instead.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
   fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(System.Collections.Generic.IEnumerable(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType), System.Predicate(Of ValueType))
   name.vb: CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
@@ -2058,7 +2282,10 @@ items:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static IEnumerable<T> AtLeastOne<T>(this IEnumerable<T> sequence)
+    content: >-
+      [Obsolete("This method is obsolete and will be removed in a future version.", false)]
+
+      public static IEnumerable<T> AtLeastOne<T>(this IEnumerable<T> sequence)
     parameters:
     - id: sequence
       type: System.Collections.Generic.IEnumerable{{T}}
@@ -2066,8 +2293,19 @@ items:
     - id: T
     return:
       type: System.Collections.Generic.IEnumerable{{T}}
-    content.vb: Public Shared Function AtLeastOne(Of T)(sequence As IEnumerable(Of T)) As IEnumerable(Of T)
+    content.vb: >-
+      <Obsolete("This method is obsolete and will be removed in a future version.", False)>
+
+      Public Shared Function AtLeastOne(Of T)(sequence As IEnumerable(Of T)) As IEnumerable(Of T)
   overload: SuperOffice.Util.CollectionOps.AtLeastOne*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete and will be removed in a future version.
+    - type: System.Boolean
+      value: false
   nameWithType.vb: CollectionOps.AtLeastOne(Of T)(IEnumerable(Of T))
   fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)(System.Collections.Generic.IEnumerable(Of T))
   name.vb: AtLeastOne(Of T)(IEnumerable(Of T))

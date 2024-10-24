@@ -21,6 +21,7 @@ items:
   - SuperOffice.CRM.Rows.EjscriptRow.HierarchyId
   - SuperOffice.CRM.Rows.EjscriptRow.HtmlOutput
   - SuperOffice.CRM.Rows.EjscriptRow.IncludeId
+  - SuperOffice.CRM.Rows.EjscriptRow.Includes
   - SuperOffice.CRM.Rows.EjscriptRow.InnerFieldValuePairs
   - SuperOffice.CRM.Rows.EjscriptRow.InnerPrimaryKey
   - SuperOffice.CRM.Rows.EjscriptRow.InnerPrimaryKeyValue
@@ -29,6 +30,7 @@ items:
   - SuperOffice.CRM.Rows.EjscriptRow.IsNew
   - SuperOffice.CRM.Rows.EjscriptRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.EjscriptRow.Item(System.String)
+  - SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
   - SuperOffice.CRM.Rows.EjscriptRow.LastExecAnonHttp
   - SuperOffice.CRM.Rows.EjscriptRow.LastExecHttp
   - SuperOffice.CRM.Rows.EjscriptRow.LongDescription
@@ -41,6 +43,8 @@ items:
   - SuperOffice.CRM.Rows.EjscriptRow.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   - SuperOffice.CRM.Rows.EjscriptRow.SetPrimaryKey(System.Int32)
   - SuperOffice.CRM.Rows.EjscriptRow.SetRowAsNew
+  - SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+  - SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
   - SuperOffice.CRM.Rows.EjscriptRow.TableInfo
   - SuperOffice.CRM.Rows.EjscriptRow.ToString
   - SuperOffice.CRM.Rows.EjscriptRow.Type
@@ -57,11 +61,15 @@ items:
   - SuperOffice.CRM.Rows.EjscriptRow._currentHierarchyId
   - SuperOffice.CRM.Rows.EjscriptRow._currentHtmlOutput
   - SuperOffice.CRM.Rows.EjscriptRow._currentIncludeId
+  - SuperOffice.CRM.Rows.EjscriptRow._currentIncludes
+  - SuperOffice.CRM.Rows.EjscriptRow._currentLastCompiled
   - SuperOffice.CRM.Rows.EjscriptRow._currentLastExecAnonHttp
   - SuperOffice.CRM.Rows.EjscriptRow._currentLastExecHttp
   - SuperOffice.CRM.Rows.EjscriptRow._currentLongDescription
   - SuperOffice.CRM.Rows.EjscriptRow._currentRegistered
   - SuperOffice.CRM.Rows.EjscriptRow._currentRegisteredAssociateId
+  - SuperOffice.CRM.Rows.EjscriptRow._currentSourceCode
+  - SuperOffice.CRM.Rows.EjscriptRow._currentSourceMaps
   - SuperOffice.CRM.Rows.EjscriptRow._currentType
   - SuperOffice.CRM.Rows.EjscriptRow._currentUniqueIdentifier
   - SuperOffice.CRM.Rows.EjscriptRow._currentUpdated
@@ -75,11 +83,15 @@ items:
   - SuperOffice.CRM.Rows.EjscriptRow._persistedHierarchyId
   - SuperOffice.CRM.Rows.EjscriptRow._persistedHtmlOutput
   - SuperOffice.CRM.Rows.EjscriptRow._persistedIncludeId
+  - SuperOffice.CRM.Rows.EjscriptRow._persistedIncludes
+  - SuperOffice.CRM.Rows.EjscriptRow._persistedLastCompiled
   - SuperOffice.CRM.Rows.EjscriptRow._persistedLastExecAnonHttp
   - SuperOffice.CRM.Rows.EjscriptRow._persistedLastExecHttp
   - SuperOffice.CRM.Rows.EjscriptRow._persistedLongDescription
   - SuperOffice.CRM.Rows.EjscriptRow._persistedRegistered
   - SuperOffice.CRM.Rows.EjscriptRow._persistedRegisteredAssociateId
+  - SuperOffice.CRM.Rows.EjscriptRow._persistedSourceCode
+  - SuperOffice.CRM.Rows.EjscriptRow._persistedSourceMaps
   - SuperOffice.CRM.Rows.EjscriptRow._persistedType
   - SuperOffice.CRM.Rows.EjscriptRow._persistedUniqueIdentifier
   - SuperOffice.CRM.Rows.EjscriptRow._persistedUpdated
@@ -229,6 +241,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.EjscriptRow._persistedEjscriptId
   commentId: F:SuperOffice.CRM.Rows.EjscriptRow._persistedEjscriptId
   id: _persistedEjscriptId
@@ -607,6 +620,90 @@ items:
     return:
       type: System.DateTime
     content.vb: Protected _persistedLastExecAnonHttp As Date
+- uid: SuperOffice.CRM.Rows.EjscriptRow._persistedSourceCode
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._persistedSourceCode
+  id: _persistedSourceCode
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedSourceCode
+  nameWithType: EjscriptRow._persistedSourceCode
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._persistedSourceCode
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.SourceCode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedSourceCode
+    return:
+      type: System.String
+    content.vb: Protected _persistedSourceCode As String
+- uid: SuperOffice.CRM.Rows.EjscriptRow._persistedIncludes
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._persistedIncludes
+  id: _persistedIncludes
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedIncludes
+  nameWithType: EjscriptRow._persistedIncludes
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._persistedIncludes
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.Includes" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedIncludes
+    return:
+      type: System.String
+    content.vb: Protected _persistedIncludes As String
+- uid: SuperOffice.CRM.Rows.EjscriptRow._persistedLastCompiled
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._persistedLastCompiled
+  id: _persistedLastCompiled
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLastCompiled
+  nameWithType: EjscriptRow._persistedLastCompiled
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._persistedLastCompiled
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.LastCompiled" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _persistedLastCompiled
+    return:
+      type: System.DateTime
+    content.vb: Protected _persistedLastCompiled As Date
+- uid: SuperOffice.CRM.Rows.EjscriptRow._persistedSourceMaps
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._persistedSourceMaps
+  id: _persistedSourceMaps
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedSourceMaps
+  nameWithType: EjscriptRow._persistedSourceMaps
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._persistedSourceMaps
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.SourceMaps" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedSourceMaps
+    return:
+      type: System.String
+    content.vb: Protected _persistedSourceMaps As String
 - uid: SuperOffice.CRM.Rows.EjscriptRow._currentEjscriptId
   commentId: F:SuperOffice.CRM.Rows.EjscriptRow._currentEjscriptId
   id: _currentEjscriptId
@@ -985,6 +1082,90 @@ items:
     return:
       type: System.DateTime
     content.vb: Protected _currentLastExecAnonHttp As Date
+- uid: SuperOffice.CRM.Rows.EjscriptRow._currentSourceCode
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._currentSourceCode
+  id: _currentSourceCode
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _currentSourceCode
+  nameWithType: EjscriptRow._currentSourceCode
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._currentSourceCode
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.SourceCode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentSourceCode
+    return:
+      type: System.String
+    content.vb: Protected _currentSourceCode As String
+- uid: SuperOffice.CRM.Rows.EjscriptRow._currentIncludes
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._currentIncludes
+  id: _currentIncludes
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _currentIncludes
+  nameWithType: EjscriptRow._currentIncludes
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._currentIncludes
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.Includes" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentIncludes
+    return:
+      type: System.String
+    content.vb: Protected _currentIncludes As String
+- uid: SuperOffice.CRM.Rows.EjscriptRow._currentLastCompiled
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._currentLastCompiled
+  id: _currentLastCompiled
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLastCompiled
+  nameWithType: EjscriptRow._currentLastCompiled
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._currentLastCompiled
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.LastCompiled" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _currentLastCompiled
+    return:
+      type: System.DateTime
+    content.vb: Protected _currentLastCompiled As Date
+- uid: SuperOffice.CRM.Rows.EjscriptRow._currentSourceMaps
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._currentSourceMaps
+  id: _currentSourceMaps
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _currentSourceMaps
+  nameWithType: EjscriptRow._currentSourceMaps
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._currentSourceMaps
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.SourceMaps" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentSourceMaps
+    return:
+      type: System.String
+    content.vb: Protected _currentSourceMaps As String
 - uid: SuperOffice.CRM.Rows.EjscriptRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.EjscriptRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2282,6 +2463,130 @@ items:
       type: System.DateTime
     content.vb: Public Overridable Property LastExecAnonHttp As Date
   overload: SuperOffice.CRM.Rows.EjscriptRow.LastExecAnonHttp*
+- uid: SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+  id: SourceCode
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: SourceCode
+  nameWithType: EjscriptRow.SourceCode
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Contains the source code of the script'
+  remarks: >-
+    Original type in dictionary:  Clob.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string SourceCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourceCode As String
+  overload: SuperOffice.CRM.Rows.EjscriptRow.SourceCode*
+- uid: SuperOffice.CRM.Rows.EjscriptRow.Includes
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.Includes
+  id: Includes
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: Includes
+  nameWithType: EjscriptRow.Includes
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.Includes
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Contains a comma separated list of ids of all nested includes used by this script'
+  remarks: >-
+    Original type in dictionary:  String[4001].
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string Includes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Includes As String
+  overload: SuperOffice.CRM.Rows.EjscriptRow.Includes*
+- uid: SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
+  id: LastCompiled
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: LastCompiled
+  nameWithType: EjscriptRow.LastCompiled
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: DateTime. When this script was last compiled (UTC).'
+  remarks: >-
+    Original type in dictionary:  DateTime.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual DateTime LastCompiled { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastCompiled As Date
+  overload: SuperOffice.CRM.Rows.EjscriptRow.LastCompiled*
+- uid: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
+  id: SourceMaps
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: SourceMaps
+  nameWithType: EjscriptRow.SourceMaps
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Source maps in JSON format'
+  remarks: >-
+    Original type in dictionary:  Clob.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string SourceMaps { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourceMaps As String
+  overload: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps*
 references:
 - uid: SuperOffice.CRM.Rows.EjscriptRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.EjscriptRow.CreateNew
@@ -4314,6 +4619,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -4712,6 +5070,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -4927,6 +5337,34 @@ references:
   name: LastExecAnonHttp
   nameWithType: EjscriptRow.LastExecAnonHttp
   fullName: SuperOffice.CRM.Rows.EjscriptRow.LastExecAnonHttp
+- uid: SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_SourceCode
+  name: SourceCode
+  nameWithType: EjscriptRow.SourceCode
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+- uid: SuperOffice.CRM.Rows.EjscriptRow.Includes
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.Includes
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_Includes
+  name: Includes
+  nameWithType: EjscriptRow.Includes
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.Includes
+- uid: SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_LastCompiled
+  name: LastCompiled
+  nameWithType: EjscriptRow.LastCompiled
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
+- uid: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_SourceMaps
+  name: SourceMaps
+  nameWithType: EjscriptRow.SourceMaps
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5807,3 +6245,31 @@ references:
   name: LastExecAnonHttp
   nameWithType: EjscriptRow.LastExecAnonHttp
   fullName: SuperOffice.CRM.Rows.EjscriptRow.LastExecAnonHttp
+- uid: SuperOffice.CRM.Rows.EjscriptRow.SourceCode*
+  commentId: Overload:SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_SourceCode
+  name: SourceCode
+  nameWithType: EjscriptRow.SourceCode
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.SourceCode
+- uid: SuperOffice.CRM.Rows.EjscriptRow.Includes*
+  commentId: Overload:SuperOffice.CRM.Rows.EjscriptRow.Includes
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_Includes
+  name: Includes
+  nameWithType: EjscriptRow.Includes
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.Includes
+- uid: SuperOffice.CRM.Rows.EjscriptRow.LastCompiled*
+  commentId: Overload:SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_LastCompiled
+  name: LastCompiled
+  nameWithType: EjscriptRow.LastCompiled
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.LastCompiled
+- uid: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps*
+  commentId: Overload:SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_SourceMaps
+  name: SourceMaps
+  nameWithType: EjscriptRow.SourceMaps
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps

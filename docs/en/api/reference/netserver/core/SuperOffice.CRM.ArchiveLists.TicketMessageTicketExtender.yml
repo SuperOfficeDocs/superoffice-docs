@@ -89,6 +89,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colLanguageCode
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSentimentScore
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -881,6 +882,14 @@ references:
   name: _colSuggestedCategory
   nameWithType: TicketExtenderBase._colSuggestedCategory
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketExtenderBase__colCreatedByWorkflow
+  name: _colCreatedByWorkflow
+  nameWithType: TicketExtenderBase._colCreatedByWorkflow
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase

@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.Flags
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.FullnameField
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.HierarchyId
+  - SuperOffice.CRM.Rows.ExtraTablesRecordData.IconId
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.Name
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.NewEntryHeader
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.ParentField
@@ -422,6 +423,27 @@ items:
     return:
       type: System.String
     content.vb: Public Description As String
+- uid: SuperOffice.CRM.Rows.ExtraTablesRecordData.IconId
+  commentId: F:SuperOffice.CRM.Rows.ExtraTablesRecordData.IconId
+  id: IconId
+  parent: SuperOffice.CRM.Rows.ExtraTablesRecordData
+  langs:
+  - csharp
+  - vb
+  name: IconId
+  nameWithType: ExtraTablesRecordData.IconId
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRecordData.IconId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The id of the binary object entry
+  example: []
+  syntax:
+    content: public int IconId
+    return:
+      type: System.Int32
+    content.vb: Public IconId As Integer
 - uid: SuperOffice.CRM.Rows.ExtraTablesRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ExtraTablesRecordData.#ctor
   id: '#ctor'

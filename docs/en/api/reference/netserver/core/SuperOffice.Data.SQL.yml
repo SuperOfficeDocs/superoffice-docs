@@ -184,6 +184,7 @@ items:
   - SuperOffice.Data.SQL.StringFieldInfo
   - SuperOffice.Data.SQL.Subtract
   - SuperOffice.Data.SQL.Sum
+  - SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
   - SuperOffice.Data.SQL.TableExpression
   - SuperOffice.Data.SQL.TableInfo
   - SuperOffice.Data.SQL.TableInfoCollection
@@ -995,6 +996,14 @@ references:
   name: ArchiveBehaviourFieldInfo
   nameWithType: ArchiveBehaviourFieldInfo
   fullName: SuperOffice.Data.SQL.ArchiveBehaviourFieldInfo
+- uid: SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.SystemMessageTypeFieldInfo.html
+  name: SystemMessageTypeFieldInfo
+  nameWithType: SystemMessageTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL

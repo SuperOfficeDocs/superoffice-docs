@@ -17,6 +17,8 @@ items:
   - SuperOffice.CRM.Data.EmailFlowTableInfo.HierarchyId
   - SuperOffice.CRM.Data.EmailFlowTableInfo.HierarchyId_InnerJoin_Hierarchy
   - SuperOffice.CRM.Data.EmailFlowTableInfo.LeftOuterJoin_EmailFlowContentLink_EmailFlowId
+  - SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
+  - SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage
   - SuperOffice.CRM.Data.EmailFlowTableInfo.OverrideConsentSubscription
   - SuperOffice.CRM.Data.EmailFlowTableInfo.Registered
   - SuperOffice.CRM.Data.EmailFlowTableInfo.RegisteredAssociateId
@@ -256,7 +258,7 @@ items:
   summary: >-
     Field 'workflow_id' in table 'email_flow': Dictionary type FK, target: Workflow, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
 
-    The flow this instance belongs to
+    The workflow this emailflow belongs to
   example: []
   syntax:
     content: public Int32FieldInfo WorkflowId { get; }
@@ -837,6 +839,32 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ReplyToName As StringFieldInfo
   overload: SuperOffice.CRM.Data.EmailFlowTableInfo.ReplyToName*
+- uid: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
+  commentId: P:SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
+  id: MainMessageId
+  parent: SuperOffice.CRM.Data.EmailFlowTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MainMessageId
+  nameWithType: EmailFlowTableInfo.MainMessageId
+  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'main_message_id' in table 'email_flow': Dictionary type FK, target: SMessage, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The main email message, used for thumbnail creation
+  example: []
+  syntax:
+    content: public Int32FieldInfo MainMessageId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property MainMessageId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId*
 - uid: SuperOffice.CRM.Data.EmailFlowTableInfo.WorkflowId_InnerJoin_Workflow
   commentId: P:SuperOffice.CRM.Data.EmailFlowTableInfo.WorkflowId_InnerJoin_Workflow
   id: WorkflowId_InnerJoin_Workflow
@@ -952,6 +980,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.HierarchyTableInfo}
     content.vb: Public ReadOnly Property HierarchyId_InnerJoin_Hierarchy As TargetedInnerJoin(Of HierarchyTableInfo)
   overload: SuperOffice.CRM.Data.EmailFlowTableInfo.HierarchyId_InnerJoin_Hierarchy*
+- uid: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage
+  commentId: P:SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage
+  id: MainMessageId_InnerJoin_SMessage
+  parent: SuperOffice.CRM.Data.EmailFlowTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MainMessageId_InnerJoin_SMessage
+  nameWithType: EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage
+  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key MainMessageId in this table, to its target table <xref href="SuperOffice.CRM.Data.SMessageTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<SMessageTableInfo> MainMessageId_InnerJoin_SMessage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SMessageTableInfo}
+    content.vb: Public ReadOnly Property MainMessageId_InnerJoin_SMessage As TargetedInnerJoin(Of SMessageTableInfo)
+  overload: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage*
 - uid: SuperOffice.CRM.Data.EmailFlowTableInfo.LeftOuterJoin_EmailFlowContentLink_EmailFlowId
   commentId: P:SuperOffice.CRM.Data.EmailFlowTableInfo.LeftOuterJoin_EmailFlowContentLink_EmailFlowId
   id: LeftOuterJoin_EmailFlowContentLink_EmailFlowId
@@ -2174,6 +2225,13 @@ references:
   name: ReplyToName
   nameWithType: EmailFlowTableInfo.ReplyToName
   fullName: SuperOffice.CRM.Data.EmailFlowTableInfo.ReplyToName
+- uid: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailFlowTableInfo.html#SuperOffice_CRM_Data_EmailFlowTableInfo_MainMessageId
+  name: MainMessageId
+  nameWithType: EmailFlowTableInfo.MainMessageId
+  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo
   commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
   parent: SuperOffice.CRM.Data
@@ -2408,6 +2466,56 @@ references:
     name: HierarchyTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.HierarchyTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.SMessageTableInfo
+  commentId: T:SuperOffice.CRM.Data.SMessageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.SMessageTableInfo.html
+  name: SMessageTableInfo
+  nameWithType: SMessageTableInfo
+  fullName: SuperOffice.CRM.Data.SMessageTableInfo
+- uid: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage*
+  commentId: Overload:SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailFlowTableInfo.html#SuperOffice_CRM_Data_EmailFlowTableInfo_MainMessageId_InnerJoin_SMessage
+  name: MainMessageId_InnerJoin_SMessage
+  nameWithType: EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage
+  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId_InnerJoin_SMessage
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SMessageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SMessageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<SMessageTableInfo>
+  nameWithType: TargetedInnerJoin<SMessageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.SMessageTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of SMessageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.SMessageTableInfo)
+  name.vb: TargetedInnerJoin(Of SMessageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.SMessageTableInfo
+    name: SMessageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SMessageTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.SMessageTableInfo
+    name: SMessageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SMessageTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo.EmailFlowId
   commentId: P:SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo.EmailFlowId

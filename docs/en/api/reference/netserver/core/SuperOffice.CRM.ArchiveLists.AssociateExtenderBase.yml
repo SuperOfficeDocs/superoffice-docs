@@ -25,6 +25,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnFirstName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnFullName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsActive
+  - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnLastName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnLocationAddress
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnMiddleName
@@ -61,6 +62,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFullName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsActive
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsActiveText
+  - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colLastName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colLocationAddress
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colMiddleName
@@ -834,6 +836,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const ColumnLocationAddress As String = "locationAddress"
+- uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
+  commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
+  id: ColumnIsLocation
+  parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: ColumnIsLocation
+  nameWithType: AssociateExtenderBase.ColumnIsLocation
+  fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnIsLocation = "isLocation"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnIsLocation As String = "isLocation"
 - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFirstName
   commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFirstName
   id: _colFirstName
@@ -1423,6 +1444,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colLocationAddress As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
+  commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
+  id: _colIsLocation
+  parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colIsLocation
+  nameWithType: AssociateExtenderBase._colIsLocation
+  fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colIsLocation
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colIsLocation As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.#ctor
   id: '#ctor'

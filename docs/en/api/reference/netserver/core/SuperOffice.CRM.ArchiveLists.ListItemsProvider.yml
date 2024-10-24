@@ -37,20 +37,6 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   summary: Archive provider for the list of ListItems
-  remarks: >-
-    Blah...
-
-    <p></p>
-
-    blah....
-
-    <p></p>
-
-    ...
-
-    <p></p>
-
-    ........
   example: []
   syntax:
     content: >-

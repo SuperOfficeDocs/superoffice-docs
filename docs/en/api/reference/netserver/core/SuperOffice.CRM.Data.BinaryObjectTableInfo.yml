@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Data.BinaryObjectTableInfo.IsEncrypted
   - SuperOffice.CRM.Data.BinaryObjectTableInfo.IsZipped
   - SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_BinaryObjectLink_BinaryObjectId
+  - SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId
   - SuperOffice.CRM.Data.BinaryObjectTableInfo.MimeType
   - SuperOffice.CRM.Data.BinaryObjectTableInfo.OriginalSize
   - SuperOffice.CRM.Data.BinaryObjectTableInfo.Registered
@@ -660,6 +661,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BinaryObjectLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_BinaryObjectLink_BinaryObjectId As TargetedLeftOuterJoin(Of BinaryObjectLinkTableInfo)
   overload: SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_BinaryObjectLink_BinaryObjectId*
+- uid: SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId
+  commentId: P:SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId
+  id: LeftOuterJoin_ExtraTables_IconId
+  parent: SuperOffice.CRM.Data.BinaryObjectTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ExtraTables_IconId
+  nameWithType: BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId
+  fullName: SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key BinaryObjectId on this table, to ExtraTables.<xref href="SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<ExtraTablesTableInfo> LeftOuterJoin_ExtraTables_IconId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExtraTablesTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ExtraTables_IconId As TargetedLeftOuterJoin(Of ExtraTablesTableInfo)
+  overload: SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -1936,4 +1960,53 @@ references:
   - name: Of
   - name: " "
   - name: TargetTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+  commentId: P:SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExtraTablesTableInfo.html#SuperOffice_CRM_Data_ExtraTablesTableInfo_IconId
+  name: IconId
+  nameWithType: ExtraTablesTableInfo.IconId
+  fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+- uid: SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId*
+  commentId: Overload:SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BinaryObjectTableInfo.html#SuperOffice_CRM_Data_BinaryObjectTableInfo_LeftOuterJoin_ExtraTables_IconId
+  name: LeftOuterJoin_ExtraTables_IconId
+  nameWithType: BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId
+  fullName: SuperOffice.CRM.Data.BinaryObjectTableInfo.LeftOuterJoin_ExtraTables_IconId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExtraTablesTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExtraTablesTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<ExtraTablesTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ExtraTablesTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ExtraTablesTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ExtraTablesTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ExtraTablesTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ExtraTablesTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.ExtraTablesTableInfo
+    name: ExtraTablesTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtraTablesTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ExtraTablesTableInfo
+    name: ExtraTablesTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ExtraTablesTableInfo.html
   - name: )

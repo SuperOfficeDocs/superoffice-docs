@@ -161,6 +161,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ForeignDevice
   - SuperOffice.CRM.Data.DBC.ForeignKey
   - SuperOffice.CRM.Data.DBC.Form
+  - SuperOffice.CRM.Data.DBC.FormFieldValue
   - SuperOffice.CRM.Data.DBC.FormKeys
   - SuperOffice.CRM.Data.DBC.FormSubmission
   - SuperOffice.CRM.Data.DBC.FreeTextIndex
@@ -530,6 +531,7 @@ items:
   - SuperOffice.CRM.Data.DBC.Workflow
   - SuperOffice.CRM.Data.DBC.WorkflowGoal
   - SuperOffice.CRM.Data.DBC.WorkflowInstance
+  - SuperOffice.CRM.Data.DBC.WorkflowRootStepLink
   - SuperOffice.CRM.Data.DBC.WorkflowStep
   - SuperOffice.CRM.Data.DBC.WorkflowStepOption
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLink
@@ -11482,6 +11484,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const WorkflowWaitForAction As String = "workflow_wait_for_action"
+- uid: SuperOffice.CRM.Data.DBC.WorkflowRootStepLink
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowRootStepLink
+  id: WorkflowRootStepLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WorkflowRootStepLink
+  nameWithType: DBC.WorkflowRootStepLink
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowRootStepLink
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'WorkflowRootStepLink: Link root steps to the workflow'
+  example: []
+  syntax:
+    content: public const string WorkflowRootStepLink = "workflow_root_step_link"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowRootStepLink As String = "workflow_root_step_link"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValue
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValue
+  id: FormFieldValue
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: FormFieldValue
+  nameWithType: DBC.FormFieldValue
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValue
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue: Form field values saved in a searchable format'
+  example: []
+  syntax:
+    content: public const string FormFieldValue = "form_field_value"
+    return:
+      type: System.String
+    content.vb: Public Const FormFieldValue As String = "form_field_value"
 - uid: SuperOffice.CRM.Data.DBC.AssociateHistory
   commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistory
   id: AssociateHistory

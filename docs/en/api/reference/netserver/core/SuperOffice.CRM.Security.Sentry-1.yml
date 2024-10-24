@@ -50,6 +50,7 @@ items:
   derivedClasses:
   - SuperOffice.CRM.Security.AssociateSentry
   - SuperOffice.CRM.Security.DocDocumentSentry
+  - SuperOffice.CRM.Security.HierarchySentry
   - SuperOffice.CRM.Security.KbEntrySentry
   - SuperOffice.CRM.Security.QuoteAlternativeSentry
   - SuperOffice.CRM.Security.QuoteLineSentry

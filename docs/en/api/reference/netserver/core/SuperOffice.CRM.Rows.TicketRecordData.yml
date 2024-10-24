@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRecordData.ContactId
   - SuperOffice.CRM.Rows.TicketRecordData.CreatedAt
   - SuperOffice.CRM.Rows.TicketRecordData.CreatedBy
+  - SuperOffice.CRM.Rows.TicketRecordData.CreatedByWorkflowId
   - SuperOffice.CRM.Rows.TicketRecordData.CustId
   - SuperOffice.CRM.Rows.TicketRecordData.DbiAgentId
   - SuperOffice.CRM.Rows.TicketRecordData.DbiKey
@@ -1308,6 +1309,27 @@ items:
     return:
       type: System.Int32
     content.vb: Public FormSubmissionId As Integer
+- uid: SuperOffice.CRM.Rows.TicketRecordData.CreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: TicketRecordData.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.CreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The workflow this request/ticket was created by
+  example: []
+  syntax:
+    content: public int CreatedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Public CreatedByWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
   id: SuggestedCategoryId

@@ -1,0 +1,818 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
+  id: WorkflowRootStepLinkRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo})
+  - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo})
+  - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+  - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData})
+  - SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowRootStepLinkRow)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowRootStepLinkRecordDataExtensions
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
+
+    using the TargetedSelect infrastructure
+  example: []
+  syntax:
+    content: public static class WorkflowRootStepLinkRecordDataExtensions
+    content.vb: Public Module WorkflowRootStepLinkRecordDataExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<WorkflowRootStepLinkTableInfo>)
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.FromSelect(TargetedSelect<WorkflowRootStepLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;WorkflowRootStepLinkTableInfo&gt;, execute it and return an IEnumerable&lt;WorkflowRootStepLinkRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<WorkflowRootStepLinkRecordData> FromSelect(this TargetedSelect<WorkflowRootStepLinkTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData}
+    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of WorkflowRootStepLinkTableInfo)) As IEnumerable(Of WorkflowRootStepLinkRecordData)
+  overload: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect*
+  nameWithType.vb: WorkflowRootStepLinkRecordDataExtensions.FromSelect(TargetedSelect(Of WorkflowRootStepLinkTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of WorkflowRootStepLinkTableInfo))
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<WorkflowRootStepLinkTableInfo>)
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.FromRecord(TargetedDataRecord<WorkflowRootStepLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedDataRecord&lt;WorkflowRootStepLinkTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData" data-throw-if-not-resolved="false"></xref> POCO object
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    /* add joins, return fields etc. as you wish */
+
+    s.ReturnFields.Add(s.Table.All);
+
+    var result = s.Records().Select(r =&gt; new { WorkflowRootStepLinkItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static WorkflowRootStepLinkRecordData FromRecord(this TargetedDataRecord<WorkflowRootStepLinkTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of WorkflowRootStepLinkTableInfo)) As WorkflowRootStepLinkRecordData
+  overload: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord*
+  nameWithType.vb: WorkflowRootStepLinkRecordDataExtensions.FromRecord(TargetedDataRecord(Of WorkflowRootStepLinkTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of WorkflowRootStepLinkTableInfo))
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(WorkflowRootStepLinkRecordData)
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsert(WorkflowRootStepLinkRecordData)
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this WorkflowRootStepLinkRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: Public Shared Function ToInsert(record As WorkflowRootStepLinkRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert*
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<WorkflowRootStepLinkRecordData>)
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInserts(IEnumerable<WorkflowRootStepLinkRecordData>)
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<WorkflowRootStepLinkRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInserts(records As IEnumerable(Of WorkflowRootStepLinkRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts*
+  nameWithType.vb: WorkflowRootStepLinkRecordDataExtensions.ToInserts(IEnumerable(Of WorkflowRootStepLinkRecordData))
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData))
+  name.vb: ToInserts(IEnumerable(Of WorkflowRootStepLinkRecordData))
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowRootStepLinkRow)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowRootStepLinkRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.WorkflowRootStepLinkRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(WorkflowRootStepLinkRow)
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToRecordData(WorkflowRootStepLinkRow)
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowRootStepLinkRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static WorkflowRootStepLinkRecordData ToRecordData(this WorkflowRootStepLinkRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.WorkflowRootStepLinkRow
+    return:
+      type: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+    content.vb: Public Shared Function ToRecordData(row As WorkflowRootStepLinkRow) As WorkflowRootStepLinkRecordData
+  overload: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToRecordData*
+references:
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+  commentId: T:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.html
+  name: WorkflowRootStepLinkRecordData
+  nameWithType: WorkflowRootStepLinkRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRootStepLinkRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_WorkflowRootStepLinkTableInfo__
+  name: FromSelect
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  name: TargetedSelect<WorkflowRootStepLinkTableInfo>
+  nameWithType: TargetedSelect<WorkflowRootStepLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo>
+  nameWithType.vb: TargetedSelect(Of WorkflowRootStepLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo)
+  name.vb: TargetedSelect(Of WorkflowRootStepLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+    name: WorkflowRootStepLinkTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+    name: WorkflowRootStepLinkTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<WorkflowRootStepLinkRecordData>
+  nameWithType: IEnumerable<WorkflowRootStepLinkRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData>
+  nameWithType.vb: IEnumerable(Of WorkflowRootStepLinkRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData)
+  name.vb: IEnumerable(Of WorkflowRootStepLinkRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+    name: WorkflowRootStepLinkRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData
+    name: WorkflowRootStepLinkRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordData.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: <
+  - name: MainTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: MainTableInfo
+  - name: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRootStepLinkRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_WorkflowRootStepLinkTableInfo__
+  name: FromRecord
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  name: TargetedDataRecord<WorkflowRootStepLinkTableInfo>
+  nameWithType: TargetedDataRecord<WorkflowRootStepLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of WorkflowRootStepLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo)
+  name.vb: TargetedDataRecord(Of WorkflowRootStepLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+    name: WorkflowRootStepLinkTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+    name: WorkflowRootStepLinkTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: <
+  - name: MainTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: MainTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRootStepLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_WorkflowRootStepLinkRecordData_
+  name: ToInsert
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Insert.html
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRootStepLinkRecordDataExtensions_ToInserts_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_WorkflowRootStepLinkRecordData__
+  name: ToInserts
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToRecordData
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRootStepLinkRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_WorkflowRootStepLinkRow_
+  name: ToRecordData
+  nameWithType: WorkflowRootStepLinkRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.WorkflowRootStepLinkRow
+  commentId: T:SuperOffice.CRM.Rows.WorkflowRootStepLinkRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WorkflowRootStepLinkRow.html
+  name: WorkflowRootStepLinkRow
+  nameWithType: WorkflowRootStepLinkRow
+  fullName: SuperOffice.CRM.Rows.WorkflowRootStepLinkRow

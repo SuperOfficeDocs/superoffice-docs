@@ -71,6 +71,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colRecordTypeText
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colJoinVideomeetUrl
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colDuration
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCreatedByWorkflow
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessRestrictions
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.GetOrCreateAppointmentTableInfo
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -808,6 +809,14 @@ references:
   name: _colDuration
   nameWithType: AppointmentExtenderBase._colDuration
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colDuration
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCreatedByWorkflow
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCreatedByWorkflow
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.html#SuperOffice_CRM_ArchiveLists_AppointmentExtenderBase__colCreatedByWorkflow
+  name: _colCreatedByWorkflow
+  nameWithType: AppointmentExtenderBase._colCreatedByWorkflow
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCreatedByWorkflow
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessRestrictions
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessRestrictions
   parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase

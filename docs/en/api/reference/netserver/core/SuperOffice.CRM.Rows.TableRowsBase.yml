@@ -229,6 +229,7 @@ items:
   - SuperOffice.CRM.Rows.ForeignAppRows
   - SuperOffice.CRM.Rows.ForeignDeviceRows
   - SuperOffice.CRM.Rows.ForeignKeyRows
+  - SuperOffice.CRM.Rows.FormFieldValueRows
   - SuperOffice.CRM.Rows.FormKeysRows
   - SuperOffice.CRM.Rows.FormRows
   - SuperOffice.CRM.Rows.FormSubmissionRows
@@ -598,6 +599,7 @@ items:
   - SuperOffice.CRM.Rows.WordRelationsRows
   - SuperOffice.CRM.Rows.WorkflowGoalRows
   - SuperOffice.CRM.Rows.WorkflowInstanceRows
+  - SuperOffice.CRM.Rows.WorkflowRootStepLinkRows
   - SuperOffice.CRM.Rows.WorkflowRows
   - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRows
   - SuperOffice.CRM.Rows.WorkflowStepOptionRows

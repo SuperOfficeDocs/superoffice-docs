@@ -885,13 +885,17 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
+  summary: SO Language code used for e-mail invites for this appointment.
+  example: []
   syntax:
     content: public static string GetTemplateLanguage(int appointmentId)
     parameters:
     - id: appointmentId
       type: System.Int32
+      description: ''
     return:
       type: System.String
+      description: SO Language code ("US", "SW" or "GE") or NULL if appointment not found.
     content.vb: Public Shared Function GetTemplateLanguage(appointmentId As Integer) As String
   overload: SuperOffice.Util.AppointmentUtility.GetTemplateLanguage*
   nameWithType.vb: AppointmentUtility.GetTemplateLanguage(Integer)

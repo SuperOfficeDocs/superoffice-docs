@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Rows.ScreenChooserRow.CreateNew
   - SuperOffice.CRM.Rows.ScreenChooserRow.Description
   - SuperOffice.CRM.Rows.ScreenChooserRow.Ejscript
+  - SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId
   - SuperOffice.CRM.Rows.ScreenChooserRow.Enabled
   - SuperOffice.CRM.Rows.ScreenChooserRow.GetFromCustomSearch(SuperOffice.CRM.Rows.ScreenChooserRow.CustomSearch)
   - SuperOffice.CRM.Rows.ScreenChooserRow.GetFromIdxScreenChooserId(System.Int32)
@@ -45,6 +46,7 @@ items:
   - SuperOffice.CRM.Rows.ScreenChooserRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.ScreenChooserRow._currentDescription
   - SuperOffice.CRM.Rows.ScreenChooserRow._currentEjscript
+  - SuperOffice.CRM.Rows.ScreenChooserRow._currentEjscriptId
   - SuperOffice.CRM.Rows.ScreenChooserRow._currentEnabled
   - SuperOffice.CRM.Rows.ScreenChooserRow._currentRegistered
   - SuperOffice.CRM.Rows.ScreenChooserRow._currentRegisteredAssociateId
@@ -57,6 +59,7 @@ items:
   - SuperOffice.CRM.Rows.ScreenChooserRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.ScreenChooserRow._persistedDescription
   - SuperOffice.CRM.Rows.ScreenChooserRow._persistedEjscript
+  - SuperOffice.CRM.Rows.ScreenChooserRow._persistedEjscriptId
   - SuperOffice.CRM.Rows.ScreenChooserRow._persistedEnabled
   - SuperOffice.CRM.Rows.ScreenChooserRow._persistedRegistered
   - SuperOffice.CRM.Rows.ScreenChooserRow._persistedRegisteredAssociateId
@@ -211,6 +214,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.ScreenChooserRow._persistedScreenChooserId
   commentId: F:SuperOffice.CRM.Rows.ScreenChooserRow._persistedScreenChooserId
   id: _persistedScreenChooserId
@@ -463,6 +467,27 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _persistedUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.ScreenChooserRow._persistedEjscriptId
+  commentId: F:SuperOffice.CRM.Rows.ScreenChooserRow._persistedEjscriptId
+  id: _persistedEjscriptId
+  parent: SuperOffice.CRM.Rows.ScreenChooserRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedEjscriptId
+  nameWithType: ScreenChooserRow._persistedEjscriptId
+  fullName: SuperOffice.CRM.Rows.ScreenChooserRow._persistedEjscriptId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedEjscriptId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedEjscriptId As Integer
 - uid: SuperOffice.CRM.Rows.ScreenChooserRow._currentScreenChooserId
   commentId: F:SuperOffice.CRM.Rows.ScreenChooserRow._currentScreenChooserId
   id: _currentScreenChooserId
@@ -715,6 +740,27 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.ScreenChooserRow._currentEjscriptId
+  commentId: F:SuperOffice.CRM.Rows.ScreenChooserRow._currentEjscriptId
+  id: _currentEjscriptId
+  parent: SuperOffice.CRM.Rows.ScreenChooserRow
+  langs:
+  - csharp
+  - vb
+  name: _currentEjscriptId
+  nameWithType: ScreenChooserRow._currentEjscriptId
+  fullName: SuperOffice.CRM.Rows.ScreenChooserRow._currentEjscriptId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentEjscriptId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentEjscriptId As Integer
 - uid: SuperOffice.CRM.Rows.ScreenChooserRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.ScreenChooserRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -1826,6 +1872,37 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.CRM.Rows.ScreenChooserRow.UpdatedCount*
+- uid: SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId
+  commentId: P:SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId
+  id: EjscriptId
+  parent: SuperOffice.CRM.Rows.ScreenChooserRow
+  langs:
+  - csharp
+  - vb
+  name: EjscriptId
+  nameWithType: ScreenChooserRow.EjscriptId
+  fullName: SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The ejscript row containing the TypeScript for this trigger'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int EjscriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EjscriptId As Integer
+  overload: SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId*
 references:
 - uid: SuperOffice.CRM.Rows.ScreenChooserRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.ScreenChooserRow.CreateNew
@@ -3858,6 +3935,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -4256,6 +4386,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -4421,6 +4603,13 @@ references:
   name: UpdatedCount
   nameWithType: ScreenChooserRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.ScreenChooserRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId
+  commentId: P:SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ScreenChooserRow.html#SuperOffice_CRM_Rows_ScreenChooserRow_EjscriptId
+  name: EjscriptId
+  nameWithType: ScreenChooserRow.EjscriptId
+  fullName: SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5259,3 +5448,10 @@ references:
   name: UpdatedCount
   nameWithType: ScreenChooserRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.ScreenChooserRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ScreenChooserRow.html#SuperOffice_CRM_Rows_ScreenChooserRow_EjscriptId
+  name: EjscriptId
+  nameWithType: ScreenChooserRow.EjscriptId
+  fullName: SuperOffice.CRM.Rows.ScreenChooserRow.EjscriptId

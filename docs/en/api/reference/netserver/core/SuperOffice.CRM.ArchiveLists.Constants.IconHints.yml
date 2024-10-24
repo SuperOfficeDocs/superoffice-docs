@@ -36,6 +36,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Contact
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.ContextMenu
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomList
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomObject
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document_MailMerge
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email
@@ -51,8 +52,9 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Read
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Replied
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Status_Heading
-  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Extratable
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.FlowContent
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Flows
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Flowsparticipants
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Folder
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Folder_Grey
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings
@@ -115,6 +117,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_SourceTarget
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Report
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Available
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Conflict
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Group
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Contact
@@ -1519,6 +1522,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const Resource_Conflict As String = "resource_conflict"
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Available
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Available
+  id: Resource_Available
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Resource_Available
+  nameWithType: Constants.IconHints.Resource_Available
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Available
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Resource_Available = "resource_available"
+    return:
+      type: System.String
+    content.vb: Public Const Resource_Available As String = "resource_available"
 - uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Conflict
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Conflict
   id: Conflict
@@ -1747,6 +1769,44 @@ items:
     return:
       type: System.String
     content.vb: Public Const Flows As String = "Flows"
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Flowsparticipants
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Flowsparticipants
+  id: Flowsparticipants
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Flowsparticipants
+  nameWithType: Constants.IconHints.Flowsparticipants
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Flowsparticipants
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Flowsparticipants = "Flowsparticipants"
+    return:
+      type: System.String
+    content.vb: Public Const Flowsparticipants As String = "Flowsparticipants"
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.FlowContent
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.FlowContent
+  id: FlowContent
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: FlowContent
+  nameWithType: Constants.IconHints.FlowContent
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.FlowContent
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string FlowContent = "FlowContent"
+    return:
+      type: System.String
+    content.vb: Public Const FlowContent As String = "FlowContent"
 - uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Chat
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Chat
   id: Chat
@@ -2754,25 +2814,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const PreferenceInapp As String = "Preference_Inapp"
-- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Extratable
-  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Extratable
-  id: Extratable
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomObject
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomObject
+  id: CustomObject
   parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
   langs:
   - csharp
   - vb
-  name: Extratable
-  nameWithType: Constants.IconHints.Extratable
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Extratable
+  name: CustomObject
+  nameWithType: Constants.IconHints.CustomObject
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomObject
   type: Field
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public const string Extratable = "Extratable"
+    content: public const string CustomObject = "CustomObject"
     return:
       type: System.String
-    content.vb: Public Const Extratable As String = "Extratable"
+    content.vb: Public Const CustomObject As String = "CustomObject"
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists

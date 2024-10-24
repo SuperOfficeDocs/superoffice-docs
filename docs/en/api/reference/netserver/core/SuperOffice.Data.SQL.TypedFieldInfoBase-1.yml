@@ -140,6 +140,7 @@ items:
   - SuperOffice.Data.SQL.ShowTaskItemInClientFieldInfo
   - SuperOffice.Data.SQL.ShowWindowStateFieldInfo
   - SuperOffice.Data.SQL.StringFieldInfo
+  - SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
   - SuperOffice.Data.SQL.TargetAssignementLevelFieldInfo
   - SuperOffice.Data.SQL.TargetEntityTypeFieldInfo
   - SuperOffice.Data.SQL.TargetMeasurementUnitFieldInfo

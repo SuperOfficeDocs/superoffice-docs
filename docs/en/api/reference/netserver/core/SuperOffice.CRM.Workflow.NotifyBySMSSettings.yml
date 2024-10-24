@@ -1,0 +1,989 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  commentId: T:SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  id: NotifyBySMSSettings
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.#ctor
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.From
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.SpecificPhoneNumbers
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.Text
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.To
+  langs:
+  - csharp
+  - vb
+  name: NotifyBySMSSettings
+  nameWithType: NotifyBySMSSettings
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public class NotifyBySMSSettings : StepSettings'
+    content.vb: Public Class NotifyBySMSSettings Inherits StepSettings
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Workflow.StepSettings
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.NotifyBySMSSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  langs:
+  - csharp
+  - vb
+  name: NotifyBySMSSettings()
+  nameWithType: NotifyBySMSSettings.NotifyBySMSSettings()
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.NotifyBySMSSettings()
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public NotifyBySMSSettings()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Workflow.NotifyBySMSSettings.#ctor*
+  nameWithType.vb: NotifyBySMSSettings.New()
+  fullName.vb: SuperOffice.CRM.Workflow.NotifyBySMSSettings.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.To
+  commentId: P:SuperOffice.CRM.Workflow.NotifyBySMSSettings.To
+  id: To
+  parent: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: NotifyBySMSSettings.To
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.To
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public WorkflowNotifySMSType To { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowNotifySMSType
+    content.vb: Public Property [To] As WorkflowNotifySMSType
+  overload: SuperOffice.CRM.Workflow.NotifyBySMSSettings.To*
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.SpecificPhoneNumbers
+  commentId: P:SuperOffice.CRM.Workflow.NotifyBySMSSettings.SpecificPhoneNumbers
+  id: SpecificPhoneNumbers
+  parent: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  langs:
+  - csharp
+  - vb
+  name: SpecificPhoneNumbers
+  nameWithType: NotifyBySMSSettings.SpecificPhoneNumbers
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.SpecificPhoneNumbers
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string[] SpecificPhoneNumbers { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property SpecificPhoneNumbers As String()
+  overload: SuperOffice.CRM.Workflow.NotifyBySMSSettings.SpecificPhoneNumbers*
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.From
+  commentId: P:SuperOffice.CRM.Workflow.NotifyBySMSSettings.From
+  id: From
+  parent: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: NotifyBySMSSettings.From
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.From
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property From As String
+  overload: SuperOffice.CRM.Workflow.NotifyBySMSSettings.From*
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.Text
+  commentId: P:SuperOffice.CRM.Workflow.NotifyBySMSSettings.Text
+  id: Text
+  parent: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: NotifyBySMSSettings.Text
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.Text
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: SuperOffice.CRM.Workflow.NotifyBySMSSettings.Text*
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Workflow
+    name: Workflow
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Workflow.StepSettings
+  commentId: T:SuperOffice.CRM.Workflow.StepSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.StepSettings.html
+  name: StepSettings
+  nameWithType: StepSettings
+  fullName: SuperOffice.CRM.Workflow.StepSettings
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<NotifyBySMSSettings, To>(NotifyBySMSSettings)
+  nameWithType: EnumUtil.MapEnums<NotifyBySMSSettings, To>(NotifyBySMSSettings)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.NotifyBySMSSettings, To>(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  nameWithType.vb: EnumUtil.MapEnums(Of NotifyBySMSSettings, To)(NotifyBySMSSettings)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.NotifyBySMSSettings, To)(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  name.vb: MapEnums(Of NotifyBySMSSettings, To)(NotifyBySMSSettings)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<NotifyBySMSSettings, To>(NotifyBySMSSettings)
+  nameWithType: Converters.MapEnums<NotifyBySMSSettings, To>(NotifyBySMSSettings)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.NotifyBySMSSettings, To>(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  nameWithType.vb: Converters.MapEnums(Of NotifyBySMSSettings, To)(NotifyBySMSSettings)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.NotifyBySMSSettings, To)(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  name.vb: MapEnums(Of NotifyBySMSSettings, To)(NotifyBySMSSettings)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<NotifyBySMSSettings>(NotifyBySMSSettings, NotifyBySMSSettings)
+  nameWithType: ObjectExtensions.AssignByReflection<NotifyBySMSSettings>(NotifyBySMSSettings, NotifyBySMSSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.NotifyBySMSSettings>(SuperOffice.CRM.Workflow.NotifyBySMSSettings, SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NotifyBySMSSettings)(NotifyBySMSSettings, NotifyBySMSSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.NotifyBySMSSettings)(SuperOffice.CRM.Workflow.NotifyBySMSSettings, SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  name.vb: AssignByReflection(Of NotifyBySMSSettings)(NotifyBySMSSettings, NotifyBySMSSettings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.NotifyBySMSSettings,SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.NotifyBySMSSettings,SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<NotifyBySMSSettings>(NotifyBySMSSettings)
+  nameWithType: ObjectExtensions.GraphCopy<NotifyBySMSSettings>(NotifyBySMSSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.NotifyBySMSSettings>(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of NotifyBySMSSettings)(NotifyBySMSSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.NotifyBySMSSettings)(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+  name.vb: GraphCopy(Of NotifyBySMSSettings)(NotifyBySMSSettings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Workflow.NotifyBySMSSettings)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+    name: NotifyBySMSSettings
+    isExternal: true
+    href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.NotifyBySMSSettings.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html#SuperOffice_CRM_Workflow_NotifyBySMSSettings__ctor
+  name: NotifyBySMSSettings
+  nameWithType: NotifyBySMSSettings.NotifyBySMSSettings
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.NotifyBySMSSettings
+  nameWithType.vb: NotifyBySMSSettings.New
+  fullName.vb: SuperOffice.CRM.Workflow.NotifyBySMSSettings.New
+  name.vb: New
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.To*
+  commentId: Overload:SuperOffice.CRM.Workflow.NotifyBySMSSettings.To
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html#SuperOffice_CRM_Workflow_NotifyBySMSSettings_To
+  name: To
+  nameWithType: NotifyBySMSSettings.To
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.To
+- uid: SuperOffice.Data.WorkflowNotifySMSType
+  commentId: T:SuperOffice.Data.WorkflowNotifySMSType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WorkflowNotifySMSType.html
+  name: WorkflowNotifySMSType
+  nameWithType: WorkflowNotifySMSType
+  fullName: SuperOffice.Data.WorkflowNotifySMSType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.SpecificPhoneNumbers*
+  commentId: Overload:SuperOffice.CRM.Workflow.NotifyBySMSSettings.SpecificPhoneNumbers
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html#SuperOffice_CRM_Workflow_NotifyBySMSSettings_SpecificPhoneNumbers
+  name: SpecificPhoneNumbers
+  nameWithType: NotifyBySMSSettings.SpecificPhoneNumbers
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.SpecificPhoneNumbers
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.From*
+  commentId: Overload:SuperOffice.CRM.Workflow.NotifyBySMSSettings.From
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html#SuperOffice_CRM_Workflow_NotifyBySMSSettings_From
+  name: From
+  nameWithType: NotifyBySMSSettings.From
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.From
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings.Text*
+  commentId: Overload:SuperOffice.CRM.Workflow.NotifyBySMSSettings.Text
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html#SuperOffice_CRM_Workflow_NotifyBySMSSettings_Text
+  name: Text
+  nameWithType: NotifyBySMSSettings.Text
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings.Text

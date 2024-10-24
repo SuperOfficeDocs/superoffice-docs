@@ -7,6 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.DefaultPriority
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.DefaultStatus
+  - SuperOffice.CRM.Data.DBC.TicketTypeFields.ExcludeEmailRecipients
+  - SuperOffice.CRM.Data.DBC.TicketTypeFields.ExcludeSignature
+  - SuperOffice.CRM.Data.DBC.TicketTypeFields.ExternalAsDefault
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.Icon
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.IsDefault
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.IsExternal
@@ -14,12 +17,16 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.Rank
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.Registered
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyExternalAsDefault
+  - SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyForwardNoSignature
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyTemplate
+  - SuperOffice.CRM.Data.DBC.TicketTypeFields.ShowInNew
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.TicketTypeId
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.Tooltip
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.Updated
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.TicketTypeFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.TicketTypeFields.VisibleForGroups
   langs:
   - csharp
   - vb
@@ -360,6 +367,153 @@ items:
     return:
       type: System.String
     content.vb: Public Const IsDefault As String = "is_default"
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields.ShowInNew
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeFields.ShowInNew
+  id: ShowInNew
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeFields
+  langs:
+  - csharp
+  - vb
+  name: ShowInNew
+  nameWithType: DBC.TicketTypeFields.ShowInNew
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields.ShowInNew
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketType.ShowInNew: Enables this request type to be accessible in +New in top bar'
+  example: []
+  syntax:
+    content: public const string ShowInNew = "show_in_new"
+    return:
+      type: System.String
+    content.vb: Public Const ShowInNew As String = "show_in_new"
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields.ExcludeSignature
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeFields.ExcludeSignature
+  id: ExcludeSignature
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeFields
+  langs:
+  - csharp
+  - vb
+  name: ExcludeSignature
+  nameWithType: DBC.TicketTypeFields.ExcludeSignature
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields.ExcludeSignature
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketType.ExcludeSignature: Do not insert user signature automatically'
+  example: []
+  syntax:
+    content: public const string ExcludeSignature = "exclude_signature"
+    return:
+      type: System.String
+    content.vb: Public Const ExcludeSignature As String = "exclude_signature"
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields.ExcludeEmailRecipients
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeFields.ExcludeEmailRecipients
+  id: ExcludeEmailRecipients
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeFields
+  langs:
+  - csharp
+  - vb
+  name: ExcludeEmailRecipients
+  nameWithType: DBC.TicketTypeFields.ExcludeEmailRecipients
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields.ExcludeEmailRecipients
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketType.ExcludeEmailRecipients: Create request without initially having to send outbound e-mail'
+  example: []
+  syntax:
+    content: public const string ExcludeEmailRecipients = "exclude_email_recipients"
+    return:
+      type: System.String
+    content.vb: Public Const ExcludeEmailRecipients As String = "exclude_email_recipients"
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields.ExternalAsDefault
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeFields.ExternalAsDefault
+  id: ExternalAsDefault
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeFields
+  langs:
+  - csharp
+  - vb
+  name: ExternalAsDefault
+  nameWithType: DBC.TicketTypeFields.ExternalAsDefault
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields.ExternalAsDefault
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketType.ExternalAsDefault: Ability to set external access level for this request type'
+  example: []
+  syntax:
+    content: public const string ExternalAsDefault = "external_as_default"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalAsDefault As String = "external_as_default"
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields.VisibleForGroups
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeFields.VisibleForGroups
+  id: VisibleForGroups
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeFields
+  langs:
+  - csharp
+  - vb
+  name: VisibleForGroups
+  nameWithType: DBC.TicketTypeFields.VisibleForGroups
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields.VisibleForGroups
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketType.VisibleForGroups: Array of references to the visible for groups'
+  example: []
+  syntax:
+    content: public const string VisibleForGroups = "visible_for_groups"
+    return:
+      type: System.String
+    content.vb: Public Const VisibleForGroups As String = "visible_for_groups"
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyForwardNoSignature
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyForwardNoSignature
+  id: ReplyForwardNoSignature
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyForwardNoSignature
+  nameWithType: DBC.TicketTypeFields.ReplyForwardNoSignature
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyForwardNoSignature
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketType.ReplyForwardNoSignature: Do not insert user signature when replying or forwarding the message'
+  example: []
+  syntax:
+    content: public const string ReplyForwardNoSignature = "reply_forward_no_signature"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyForwardNoSignature As String = "reply_forward_no_signature"
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyExternalAsDefault
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyExternalAsDefault
+  id: ReplyExternalAsDefault
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyExternalAsDefault
+  nameWithType: DBC.TicketTypeFields.ReplyExternalAsDefault
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields.ReplyExternalAsDefault
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TicketType.ReplyExternalAsDefault: Set external access level when replying the message'
+  example: []
+  syntax:
+    content: public const string ReplyExternalAsDefault = "reply_external_as_default"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyExternalAsDefault As String = "reply_external_as_default"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

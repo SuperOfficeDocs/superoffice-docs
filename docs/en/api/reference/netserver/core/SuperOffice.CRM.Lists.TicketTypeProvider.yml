@@ -6,7 +6,9 @@ items:
   parent: SuperOffice.CRM.Lists
   children:
   - SuperOffice.CRM.Lists.TicketTypeProvider.#ctor
+  - SuperOffice.CRM.Lists.TicketTypeProvider.Admin
   - SuperOffice.CRM.Lists.TicketTypeProvider.GetMainQuery
+  - SuperOffice.CRM.Lists.TicketTypeProvider.InfoKey_OnlyForMenu
   - SuperOffice.CRM.Lists.TicketTypeProvider.Init
   - SuperOffice.CRM.Lists.TicketTypeProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   - SuperOffice.CRM.Lists.TicketTypeProvider.ProviderName
@@ -29,9 +31,17 @@ items:
     content: >-
       [MDOProviderPlugin("TicketType")]
 
+      [MDOAdditionalInfo("onlyForMenu", "false")]
+
+      [MDOAdditionalInfo("admin", "Describes if call is coming from admin system", "false")]
+
       public class TicketTypeProvider : AnyTableListProviderBase, ISoListProvider, ISoList
     content.vb: >-
       <MDOProviderPlugin("TicketType")>
+
+      <MDOAdditionalInfo("onlyForMenu", "false")>
+
+      <MDOAdditionalInfo("admin", "Describes if call is coming from admin system", "false")>
 
       Public Class TicketTypeProvider Inherits AnyTableListProviderBase Implements ISoListProvider, ISoList
   inheritance:
@@ -78,6 +88,22 @@ items:
     arguments:
     - type: System.String
       value: TicketType
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: onlyForMenu
+    - type: System.String
+      value: "false"
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: admin
+    - type: System.String
+      value: Describes if call is coming from admin system
+    - type: System.String
+      value: "false"
 - uid: SuperOffice.CRM.Lists.TicketTypeProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.TicketTypeProvider.ProviderName
   id: ProviderName
@@ -97,6 +123,44 @@ items:
     return:
       type: System.String
     content.vb: Public Const ProviderName As String = "TicketType"
+- uid: SuperOffice.CRM.Lists.TicketTypeProvider.InfoKey_OnlyForMenu
+  commentId: F:SuperOffice.CRM.Lists.TicketTypeProvider.InfoKey_OnlyForMenu
+  id: InfoKey_OnlyForMenu
+  parent: SuperOffice.CRM.Lists.TicketTypeProvider
+  langs:
+  - csharp
+  - vb
+  name: InfoKey_OnlyForMenu
+  nameWithType: TicketTypeProvider.InfoKey_OnlyForMenu
+  fullName: SuperOffice.CRM.Lists.TicketTypeProvider.InfoKey_OnlyForMenu
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public const string InfoKey_OnlyForMenu = "onlyForMenu"
+    return:
+      type: System.String
+    content.vb: Public Const InfoKey_OnlyForMenu As String = "onlyForMenu"
+- uid: SuperOffice.CRM.Lists.TicketTypeProvider.Admin
+  commentId: F:SuperOffice.CRM.Lists.TicketTypeProvider.Admin
+  id: Admin
+  parent: SuperOffice.CRM.Lists.TicketTypeProvider
+  langs:
+  - csharp
+  - vb
+  name: Admin
+  nameWithType: TicketTypeProvider.Admin
+  fullName: SuperOffice.CRM.Lists.TicketTypeProvider.Admin
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public const string Admin = "admin"
+    return:
+      type: System.String
+    content.vb: Public Const Admin As String = "admin"
 - uid: SuperOffice.CRM.Lists.TicketTypeProvider._tableInfo
   commentId: F:SuperOffice.CRM.Lists.TicketTypeProvider._tableInfo
   id: _tableInfo

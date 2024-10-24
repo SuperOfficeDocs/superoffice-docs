@@ -43,6 +43,8 @@ items:
 
       [MDOAdditionalInfo("addRootTarget", "Add a root target item", false)]
 
+      [MDOAdditionalInfo("useMultilanguageSearch", "Use a search that works with multilanguage strings", false)]
+
       public class UserGroupProvider : AnyTableListProviderBase, ISoListProvider, ISoList
     content.vb: >-
       <MDOProviderPlugin("UserGroup")>
@@ -54,6 +56,8 @@ items:
       <MDOAdditionalInfo("addblankstring", "Add a blank item", True)>
 
       <MDOAdditionalInfo("addRootTarget", "Add a root target item", False)>
+
+      <MDOAdditionalInfo("useMultilanguageSearch", "Use a search that works with multilanguage strings", False)>
 
       Public Class UserGroupProvider Inherits AnyTableListProviderBase Implements ISoListProvider, ISoList
   inheritance:
@@ -132,6 +136,15 @@ items:
       value: addRootTarget
     - type: System.String
       value: Add a root target item
+    - type: System.Boolean
+      value: false
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: useMultilanguageSearch
+    - type: System.String
+      value: Use a search that works with multilanguage strings
     - type: System.Boolean
       value: false
 - uid: SuperOffice.CRM.Lists.UserGroupProvider.ProviderName

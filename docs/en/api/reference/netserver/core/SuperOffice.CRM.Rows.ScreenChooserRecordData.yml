@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Rows.ScreenChooserRecordData.#ctor
   - SuperOffice.CRM.Rows.ScreenChooserRecordData.Description
   - SuperOffice.CRM.Rows.ScreenChooserRecordData.Ejscript
+  - SuperOffice.CRM.Rows.ScreenChooserRecordData.EjscriptId
   - SuperOffice.CRM.Rows.ScreenChooserRecordData.Enabled
   - SuperOffice.CRM.Rows.ScreenChooserRecordData.Registered
   - SuperOffice.CRM.Rows.ScreenChooserRecordData.RegisteredAssociateId
@@ -312,6 +313,27 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.ScreenChooserRecordData.EjscriptId
+  commentId: F:SuperOffice.CRM.Rows.ScreenChooserRecordData.EjscriptId
+  id: EjscriptId
+  parent: SuperOffice.CRM.Rows.ScreenChooserRecordData
+  langs:
+  - csharp
+  - vb
+  name: EjscriptId
+  nameWithType: ScreenChooserRecordData.EjscriptId
+  fullName: SuperOffice.CRM.Rows.ScreenChooserRecordData.EjscriptId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The ejscript row containing the TypeScript for this trigger
+  example: []
+  syntax:
+    content: public int EjscriptId
+    return:
+      type: System.Int32
+    content.vb: Public EjscriptId As Integer
 - uid: SuperOffice.CRM.Rows.ScreenChooserRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ScreenChooserRecordData.#ctor
   id: '#ctor'

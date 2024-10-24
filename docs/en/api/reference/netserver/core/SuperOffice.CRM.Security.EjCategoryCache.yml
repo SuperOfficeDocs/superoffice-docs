@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory(System.Int32,System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory(System.Int32,System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.OnLoad
+  - SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories(System.Int32)
   - SuperOffice.CRM.Security.EjCategoryCache.TableNames
   langs:
   - csharp
@@ -217,6 +218,35 @@ items:
   nameWithType.vb: EjCategoryCache.GetCategoriesUserIsMasterOf(Integer)
   fullName.vb: SuperOffice.CRM.Security.EjCategoryCache.GetCategoriesUserIsMasterOf(Integer)
   name.vb: GetCategoriesUserIsMasterOf(Integer)
+- uid: SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories(System.Int32)
+  id: RestrictedCategories(System.Int32)
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: RestrictedCategories(int)
+  nameWithType: EjCategoryCache.RestrictedCategories(int)
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: Get the categories that the given userId is restricted out of
+  example: []
+  syntax:
+    content: public int[] RestrictedCategories(int ejUserId)
+    parameters:
+    - id: ejUserId
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Int32[]
+    content.vb: Public Function RestrictedCategories(ejUserId As Integer) As Integer()
+  overload: SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories*
+  nameWithType.vb: EjCategoryCache.RestrictedCategories(Integer)
+  fullName.vb: SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories(Integer)
+  name.vb: RestrictedCategories(Integer)
 - uid: SuperOffice.CRM.Security.EjCategoryCache.GetCategoriesUserIsMemberOrMasterOf(System.Int32)
   commentId: M:SuperOffice.CRM.Security.EjCategoryCache.GetCategoriesUserIsMemberOrMasterOf(System.Int32)
   id: GetCategoriesUserIsMemberOrMasterOf(System.Int32)
@@ -1419,6 +1449,13 @@ references:
   name: GetCategoriesUserIsMasterOf
   nameWithType: EjCategoryCache.GetCategoriesUserIsMasterOf
   fullName: SuperOffice.CRM.Security.EjCategoryCache.GetCategoriesUserIsMasterOf
+- uid: SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories
+  isExternal: true
+  href: SuperOffice.CRM.Security.EjCategoryCache.html#SuperOffice_CRM_Security_EjCategoryCache_RestrictedCategories_System_Int32_
+  name: RestrictedCategories
+  nameWithType: EjCategoryCache.RestrictedCategories
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.RestrictedCategories
 - uid: SuperOffice.CRM.Security.EjCategoryCache.GetCategoriesUserIsMemberOrMasterOf*
   commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.GetCategoriesUserIsMemberOrMasterOf
   isExternal: true

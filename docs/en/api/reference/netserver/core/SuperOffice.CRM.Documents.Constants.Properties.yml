@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Documents.Constants.Properties.FileType
   - SuperOffice.CRM.Documents.Constants.Properties.HasLocking
   - SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
+  - SuperOffice.CRM.Documents.Constants.Properties.IsSafeFileExtension
   - SuperOffice.CRM.Documents.Constants.Properties.LastModified
   - SuperOffice.CRM.Documents.Constants.Properties.Length
   - SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
@@ -287,6 +288,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const Length As String = "length"
+- uid: SuperOffice.CRM.Documents.Constants.Properties.IsSafeFileExtension
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.IsSafeFileExtension
+  id: IsSafeFileExtension
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: IsSafeFileExtension
+  nameWithType: Constants.Properties.IsSafeFileExtension
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.IsSafeFileExtension
+  type: Field
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: If true, this file is safe according to the UnsafeFileTypes preference
+  example: []
+  syntax:
+    content: public const string IsSafeFileExtension = "is-safe-file-extension"
+    return:
+      type: System.String
+    content.vb: Public Const IsSafeFileExtension As String = "is-safe-file-extension"
 references:
 - uid: SuperOffice.CRM.Documents
   commentId: N:SuperOffice.CRM.Documents

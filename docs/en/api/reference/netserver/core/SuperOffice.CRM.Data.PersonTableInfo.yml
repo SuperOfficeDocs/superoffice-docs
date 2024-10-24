@@ -17,6 +17,8 @@ items:
   - SuperOffice.CRM.Data.PersonTableInfo.ContactId_InnerJoin_Contact
   - SuperOffice.CRM.Data.PersonTableInfo.CountryId
   - SuperOffice.CRM.Data.PersonTableInfo.CountryId_InnerJoin_Country
+  - SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+  - SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId_InnerJoin_Form
   - SuperOffice.CRM.Data.PersonTableInfo.DayOfBirth
   - SuperOffice.CRM.Data.PersonTableInfo.DbiAgentId
   - SuperOffice.CRM.Data.PersonTableInfo.DbiAgentId_InnerJoin_DbiAgent
@@ -75,6 +77,9 @@ items:
   - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_UserCandidate_PersonId
   - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
   - SuperOffice.CRM.Data.PersonTableInfo.MiddleName
+  - SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
+  - SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow
+  - SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen
   - SuperOffice.CRM.Data.PersonTableInfo.MonthOfBirth
   - SuperOffice.CRM.Data.PersonTableInfo.Mrmrs
   - SuperOffice.CRM.Data.PersonTableInfo.Nomailing
@@ -1728,6 +1733,84 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property DeletedDate As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.PersonTableInfo.DeletedDate*
+- uid: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+  id: CreatedByFormId
+  parent: SuperOffice.CRM.Data.PersonTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedByFormId
+  nameWithType: PersonTableInfo.CreatedByFormId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'created_by_form_id' in table 'person': Dictionary type FK, target: Form, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The form this person was created by
+  example: []
+  syntax:
+    content: public Int32FieldInfo CreatedByFormId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CreatedByFormId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId*
+- uid: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
+  id: ModifiedByWorkflowId
+  parent: SuperOffice.CRM.Data.PersonTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowId
+  nameWithType: PersonTableInfo.ModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'modified_by_workflow_id' in table 'person': Dictionary type FK, target: Workflow, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The workflow this person last was modified by
+  example: []
+  syntax:
+    content: public Int32FieldInfo ModifiedByWorkflowId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ModifiedByWorkflowId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId*
+- uid: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen
+  id: ModifiedByWorkflowWhen
+  parent: SuperOffice.CRM.Data.PersonTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowWhen
+  nameWithType: PersonTableInfo.ModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'modified_by_workflow_when' in table 'person': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    When the workflow modified this person
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo ModifiedByWorkflowWhen { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property ModifiedByWorkflowWhen As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen*
 - uid: SuperOffice.CRM.Data.PersonTableInfo.ContactId_InnerJoin_Contact
   commentId: P:SuperOffice.CRM.Data.PersonTableInfo.ContactId_InnerJoin_Contact
   id: ContactId_InnerJoin_Contact
@@ -2073,6 +2156,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DbiAgentTableInfo}
     content.vb: Public ReadOnly Property DbiAgentId_InnerJoin_DbiAgent As TargetedInnerJoin(Of DbiAgentTableInfo)
   overload: SuperOffice.CRM.Data.PersonTableInfo.DbiAgentId_InnerJoin_DbiAgent*
+- uid: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId_InnerJoin_Form
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId_InnerJoin_Form
+  id: CreatedByFormId_InnerJoin_Form
+  parent: SuperOffice.CRM.Data.PersonTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedByFormId_InnerJoin_Form
+  nameWithType: PersonTableInfo.CreatedByFormId_InnerJoin_Form
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId_InnerJoin_Form
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key CreatedByFormId in this table, to its target table <xref href="SuperOffice.CRM.Data.FormTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<FormTableInfo> CreatedByFormId_InnerJoin_Form { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormTableInfo}
+    content.vb: Public ReadOnly Property CreatedByFormId_InnerJoin_Form As TargetedInnerJoin(Of FormTableInfo)
+  overload: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId_InnerJoin_Form*
+- uid: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow
+  id: ModifiedByWorkflowId_InnerJoin_Workflow
+  parent: SuperOffice.CRM.Data.PersonTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ModifiedByWorkflowId_InnerJoin_Workflow
+  nameWithType: PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key ModifiedByWorkflowId in this table, to its target table <xref href="SuperOffice.CRM.Data.WorkflowTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<WorkflowTableInfo> ModifiedByWorkflowId_InnerJoin_Workflow { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+    content.vb: Public ReadOnly Property ModifiedByWorkflowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
+  overload: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow*
 - uid: SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_Associate_PersonId
   commentId: P:SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_Associate_PersonId
   id: LeftOuterJoin_Associate_PersonId
@@ -4467,6 +4596,27 @@ references:
   name: DeletedDate
   nameWithType: PersonTableInfo.DeletedDate
   fullName: SuperOffice.CRM.Data.PersonTableInfo.DeletedDate
+- uid: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId*
+  commentId: Overload:SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_CreatedByFormId
+  name: CreatedByFormId
+  nameWithType: PersonTableInfo.CreatedByFormId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+- uid: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_ModifiedByWorkflowId
+  name: ModifiedByWorkflowId
+  nameWithType: PersonTableInfo.ModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
+- uid: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen*
+  commentId: Overload:SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_ModifiedByWorkflowWhen
+  name: ModifiedByWorkflowWhen
+  nameWithType: PersonTableInfo.ModifiedByWorkflowWhen
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen
 - uid: SuperOffice.CRM.Data.ContactTableInfo
   commentId: T:SuperOffice.CRM.Data.ContactTableInfo
   parent: SuperOffice.CRM.Data
@@ -5158,6 +5308,106 @@ references:
     name: DbiAgentTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.DbiAgentTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.FormTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormTableInfo.html
+  name: FormTableInfo
+  nameWithType: FormTableInfo
+  fullName: SuperOffice.CRM.Data.FormTableInfo
+- uid: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId_InnerJoin_Form*
+  commentId: Overload:SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId_InnerJoin_Form
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_CreatedByFormId_InnerJoin_Form
+  name: CreatedByFormId_InnerJoin_Form
+  nameWithType: PersonTableInfo.CreatedByFormId_InnerJoin_Form
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId_InnerJoin_Form
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<FormTableInfo>
+  nameWithType: TargetedInnerJoin<FormTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.FormTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of FormTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.FormTableInfo)
+  name.vb: TargetedInnerJoin(Of FormTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.FormTableInfo
+    name: FormTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.FormTableInfo
+    name: FormTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.WorkflowTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  name: WorkflowTableInfo
+  nameWithType: WorkflowTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+- uid: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow*
+  commentId: Overload:SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_ModifiedByWorkflowId_InnerJoin_Workflow
+  name: ModifiedByWorkflowId_InnerJoin_Workflow
+  nameWithType: PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<WorkflowTableInfo>
+  nameWithType: TargetedInnerJoin<WorkflowTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of WorkflowTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WorkflowTableInfo)
+  name.vb: TargetedInnerJoin(Of WorkflowTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.PersonId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.PersonId

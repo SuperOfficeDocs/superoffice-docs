@@ -19,21 +19,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Archive provider for the list of userpreferences
-  remarks: >-
-    Blah...
-
-    <p></p>
-
-    blah....
-
-    <p></p>
-
-    ...
-
-    <p></p>
-
-    ........
+  summary: Archive provider for the list of numbers, for the number allocation system. Not be confused with table sequence numbers.
   example: []
   syntax:
     content: >-

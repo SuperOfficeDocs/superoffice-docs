@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Entities.LinksHelper.CopyTo(SuperOffice.CRM.Entities.LinksHelper)
   - SuperOffice.CRM.Entities.LinksHelper.DeleteLinks(System.Int32[])
   - SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  - SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.LinksHelper.GetLinks
   - SuperOffice.CRM.Entities.LinksHelper.IsDeleted
   - SuperOffice.CRM.Entities.LinksHelper.IsSameChild(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.RelationsRow)
@@ -50,6 +51,7 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Add(SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Remove(SuperOffice.CRM.Rows.RelationsRow)
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Edit(SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.SetChildren(SuperOffice.CRM.Rows.RelationsRow[])
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.FindChildInItems(SuperOffice.CRM.Rows.RelationsRow@)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.IsSameChild(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.RelationsRow)
@@ -70,6 +72,7 @@ items:
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.IsDirty
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperAdded
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperRemoved
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperEdited
   - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
   - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
@@ -352,6 +355,32 @@ items:
       description: Relations row pointing to the item to remove link to.
     content.vb: Public Sub DeleteSimilarLink(relationsRow As RelationsRow)
   overload: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink*
+- uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  commentId: M:SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  id: EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  parent: SuperOffice.CRM.Entities.LinksHelper
+  langs:
+  - csharp
+  - vb
+  name: EditSimilarLink(RelationsRow)
+  nameWithType: LinksHelper.EditSimilarLink(RelationsRow)
+  fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink(SuperOffice.CRM.Rows.RelationsRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: Edit similar link if it exists.
+  example: []
+  syntax:
+    content: public RelationsRow EditSimilarLink(RelationsRow relationsRow)
+    parameters:
+    - id: relationsRow
+      type: SuperOffice.CRM.Rows.RelationsRow
+      description: Relations row pointing to the item to edit.
+    return:
+      type: SuperOffice.CRM.Rows.RelationsRow
+    content.vb: Public Function EditSimilarLink(relationsRow As RelationsRow) As RelationsRow
+  overload: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink*
 - uid: SuperOffice.CRM.Entities.LinksHelper.GetLinks
   commentId: M:SuperOffice.CRM.Entities.LinksHelper.GetLinks
   id: GetLinks
@@ -778,6 +807,38 @@ references:
     name: Remove
     isExternal: true
     href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_Remove__1_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RelationsRow.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Edit(SuperOffice.CRM.Rows.RelationsRow)
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Edit(SuperOffice.CRM.Rows.RelationsRow)
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit(`1)
+  href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_Edit__1_
+  name: Edit(RelationsRow)
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.Edit(RelationsRow)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.Edit(SuperOffice.CRM.Rows.RelationsRow)
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).Edit(RelationsRow)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).Edit(SuperOffice.CRM.Rows.RelationsRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Edit(SuperOffice.CRM.Rows.RelationsRow)
+    name: Edit
+    isExternal: true
+    href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_Edit__1_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.RelationsRow.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Edit(SuperOffice.CRM.Rows.RelationsRow)
+    name: Edit
+    isExternal: true
+    href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_Edit__1_
   - name: (
   - uid: SuperOffice.CRM.Rows.RelationsRow
     name: RelationsRow
@@ -1333,6 +1394,16 @@ references:
   fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnEntityDetailsHelperRemoved
   nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnEntityDetailsHelperRemoved
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnEntityDetailsHelperRemoved
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperEdited
+  commentId: E:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.OnEntityDetailsHelperEdited
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
+  href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_OnEntityDetailsHelperEdited
+  name: OnEntityDetailsHelperEdited
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.OnEntityDetailsHelperEdited
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.OnEntityDetailsHelperEdited
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).OnEntityDetailsHelperEdited
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).OnEntityDetailsHelperEdited
 - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
   parent: SuperOffice.Data.NestedPersistFacade
@@ -2073,6 +2144,31 @@ references:
   - name: (
   - name: TChild
   - name: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit(`1)
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit(`1)
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_Edit__1_
+  name: Edit(TChild)
+  nameWithType: EntityDetailsHelper<TParent, TChild>.Edit(TChild)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.Edit(TChild)
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).Edit(TChild)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).Edit(TChild)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit(`1)
+    name: Edit
+    isExternal: true
+    href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_Edit__1_
+  - name: (
+  - name: TChild
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.Edit(`1)
+    name: Edit
+    isExternal: true
+    href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_Edit__1_
+  - name: (
+  - name: TChild
+  - name: )
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.SetChildren(`1[])
   commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.SetChildren(`1[])
   isExternal: true
@@ -2524,6 +2620,15 @@ references:
   fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnEntityDetailsHelperRemoved
   nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperRemoved
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperRemoved
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
+  commentId: E:SuperOffice.CRM.Entities.EntityDetailsHelper`2.OnEntityDetailsHelperEdited
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityDetailsHelper-2.html#SuperOffice_CRM_Entities_EntityDetailsHelper_2_OnEntityDetailsHelperEdited
+  name: OnEntityDetailsHelperEdited
+  nameWithType: EntityDetailsHelper<TParent, TChild>.OnEntityDetailsHelperEdited
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.OnEntityDetailsHelperEdited
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperEdited
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).OnEntityDetailsHelperEdited
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -2870,6 +2975,13 @@ references:
   name: DeleteSimilarLink
   nameWithType: LinksHelper.DeleteSimilarLink
   fullName: SuperOffice.CRM.Entities.LinksHelper.DeleteSimilarLink
+- uid: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink*
+  commentId: Overload:SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink
+  isExternal: true
+  href: SuperOffice.CRM.Entities.LinksHelper.html#SuperOffice_CRM_Entities_LinksHelper_EditSimilarLink_SuperOffice_CRM_Rows_RelationsRow_
+  name: EditSimilarLink
+  nameWithType: LinksHelper.EditSimilarLink
+  fullName: SuperOffice.CRM.Entities.LinksHelper.EditSimilarLink
 - uid: SuperOffice.CRM.Entities.LinksHelper.GetLinks*
   commentId: Overload:SuperOffice.CRM.Entities.LinksHelper.GetLinks
   isExternal: true

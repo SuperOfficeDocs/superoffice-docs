@@ -12,7 +12,6 @@ items:
   - SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.Updated
   - SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.UpdatedCount
-  - SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.WorkflowId
   - SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.WorkflowStepId
   - SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.WorkflowWaitForActionId
   langs:
@@ -82,27 +81,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const WorkflowStepId As String = "workflow_step_id"
-- uid: SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.WorkflowId
-  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.WorkflowId
-  id: WorkflowId
-  parent: SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId
-  nameWithType: DBC.WorkflowWaitForActionFields.WorkflowId
-  fullName: SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.WorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'WorkflowWaitForAction.WorkflowId: The flow this instance belongs to'
-  example: []
-  syntax:
-    content: public const string WorkflowId = "workflow_id"
-    return:
-      type: System.String
-    content.vb: Public Const WorkflowId As String = "workflow_id"
 - uid: SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.ActionType
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.ActionType
   id: ActionType

@@ -51,6 +51,7 @@ items:
   - SuperOffice.CRM.Security.DashboardSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
+  - SuperOffice.CRM.Security.HierarchySentryQueryInfo
   - SuperOffice.CRM.Security.KbEntrySentryQueryInfo
   - SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
   - SuperOffice.CRM.Security.ProjectSentryQueryInfo

@@ -105,7 +105,7 @@ items:
   - SoCore
   namespace: SuperOffice.IO
   summary: >-
-    Regular expression extracting a tag from a string.  
+    Regular expression extracting a tag from a string.
 
     Use <pre><code class="lang-csharp">tag = RegExTag.Match(tag)</code></pre>.
   remarks: The regular expression expression is formated as &lt;code&gt;(?&lt;=([{&lt;\u2264]))[a-z][a-z|0-9|?|.|#]{3}(?=[\x20\x09]*[}&gt;\u2265])&lt;/code&gt;
@@ -754,7 +754,7 @@ items:
   - SoCore
   namespace: SuperOffice.IO
   summary: >-
-    Holds the old encoding. Used if encoding is 
+    Holds the old encoding. Used if encoding is
 
     changed during template substitution
   example: []

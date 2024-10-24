@@ -16,6 +16,8 @@ items:
   - SuperOffice.CRM.Data.SaleTableInfo.ComptrId_InnerJoin_Comptr
   - SuperOffice.CRM.Data.SaleTableInfo.ContactId
   - SuperOffice.CRM.Data.SaleTableInfo.ContactId_InnerJoin_Contact
+  - SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
+  - SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
   - SuperOffice.CRM.Data.SaleTableInfo.CreditedId
   - SuperOffice.CRM.Data.SaleTableInfo.CreditedId_InnerJoin_Credited
   - SuperOffice.CRM.Data.SaleTableInfo.CurrencyId
@@ -1546,6 +1548,32 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ActiveErpLinks As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SaleTableInfo.ActiveErpLinks*
+- uid: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
+  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Data.SaleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: SaleTableInfo.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'created_by_workflow_id' in table 'sale': Dictionary type FK, target: Workflow, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The workflow this sale was created by
+  example: []
+  syntax:
+    content: public Int32FieldInfo CreatedByWorkflowId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CreatedByWorkflowId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId*
 - uid: SuperOffice.CRM.Data.SaleTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SaleTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -2075,6 +2103,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SaleTypeCatTableInfo}
     content.vb: Public ReadOnly Property SaleTypeCatId_InnerJoin_SaleTypeCat As TargetedInnerJoin(Of SaleTypeCatTableInfo)
   overload: SuperOffice.CRM.Data.SaleTableInfo.SaleTypeCatId_InnerJoin_SaleTypeCat*
+- uid: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  id: CreatedByWorkflowId_InnerJoin_Workflow
+  parent: SuperOffice.CRM.Data.SaleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId_InnerJoin_Workflow
+  nameWithType: SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key CreatedByWorkflowId in this table, to its target table <xref href="SuperOffice.CRM.Data.WorkflowTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<WorkflowTableInfo> CreatedByWorkflowId_InnerJoin_Workflow { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+    content.vb: Public ReadOnly Property CreatedByWorkflowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
+  overload: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow*
 - uid: SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_Appointment_SaleId
   commentId: P:SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_Appointment_SaleId
   id: LeftOuterJoin_Appointment_SaleId
@@ -3656,6 +3707,13 @@ references:
   name: ActiveErpLinks
   nameWithType: SaleTableInfo.ActiveErpLinks
   fullName: SuperOffice.CRM.Data.SaleTableInfo.ActiveErpLinks
+- uid: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_CreatedByWorkflowId
+  name: CreatedByWorkflowId
+  nameWithType: SaleTableInfo.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data
@@ -4661,6 +4719,56 @@ references:
     name: SaleTypeCatTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.SaleTypeCatTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.WorkflowTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  name: WorkflowTableInfo
+  nameWithType: WorkflowTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+- uid: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow*
+  commentId: Overload:SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_CreatedByWorkflowId_InnerJoin_Workflow
+  name: CreatedByWorkflowId_InnerJoin_Workflow
+  nameWithType: SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<WorkflowTableInfo>
+  nameWithType: TargetedInnerJoin<WorkflowTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of WorkflowTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WorkflowTableInfo)
+  name.vb: TargetedInnerJoin(Of WorkflowTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.SaleId
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.SaleId

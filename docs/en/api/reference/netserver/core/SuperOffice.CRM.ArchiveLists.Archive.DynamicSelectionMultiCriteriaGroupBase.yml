@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.CRM.ArchiveLists.Archive
   children:
   - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor
+  - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor(System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.GetRows(System.String)
   - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.RestrictionStorageKey
@@ -39,6 +41,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionDynamicProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentShadowSelectionDynamicProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderV2
@@ -140,6 +143,77 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colRowKind As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase
+  langs:
+  - csharp
+  - vb
+  name: DynamicSelectionMultiCriteriaGroupBase()
+  nameWithType: DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase()
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public DynamicSelectionMultiCriteriaGroupBase()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor*
+  nameWithType.vb: DynamicSelectionMultiCriteriaGroupBase.New()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase
+  langs:
+  - csharp
+  - vb
+  name: DynamicSelectionMultiCriteriaGroupBase(string)
+  nameWithType: DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase(string)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase(string)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public DynamicSelectionMultiCriteriaGroupBase(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+    content.vb: Public Sub New(tableName As String)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor*
+  nameWithType.vb: DynamicSelectionMultiCriteriaGroupBase.New(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.New(String)
+  name.vb: New(String)
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase
+  langs:
+  - csharp
+  - vb
+  name: DynamicSelectionMultiCriteriaGroupBase(string, string)
+  nameWithType: DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase(string, string)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase(string, string)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public DynamicSelectionMultiCriteriaGroupBase(string tableName, string context)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(tableName As String, context As String)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor*
+  nameWithType.vb: DynamicSelectionMultiCriteriaGroupBase.New(String, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.New(String, String)
+  name.vb: New(String, String)
 - uid: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   id: SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -237,27 +311,6 @@ items:
   nameWithType.vb: DynamicSelectionMultiCriteriaGroupBase.GetRows(String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.GetRows(String)
   name.vb: GetRows(String)
-- uid: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase
-  langs:
-  - csharp
-  - vb
-  name: DynamicSelectionMultiCriteriaGroupBase()
-  nameWithType: DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase()
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase()
-  type: Constructor
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists.Archive
-  syntax:
-    content: protected DynamicSelectionMultiCriteriaGroupBase()
-    content.vb: Protected Sub New()
-  overload: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor*
-  nameWithType.vb: DynamicSelectionMultiCriteriaGroupBase.New()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.New()
-  name.vb: New()
 - uid: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.SubProviderName
   commentId: P:SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.SubProviderName
   id: SubProviderName
@@ -1693,6 +1746,27 @@ references:
   name: ArchiveColumnInfo
   nameWithType: ArchiveColumnInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.html#SuperOffice_CRM_ArchiveLists_Archive_DynamicSelectionMultiCriteriaGroupBase__ctor
+  name: DynamicSelectionMultiCriteriaGroupBase
+  nameWithType: DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase
+  nameWithType.vb: DynamicSelectionMultiCriteriaGroupBase.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups
@@ -1852,17 +1926,6 @@ references:
   name: GetRows
   nameWithType: DynamicSelectionMultiCriteriaGroupBase.GetRows
   fullName: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.GetRows
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
   commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
   parent: System.Collections.Generic
@@ -1961,16 +2024,6 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.#ctor
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.html#SuperOffice_CRM_ArchiveLists_Archive_DynamicSelectionMultiCriteriaGroupBase__ctor
-  name: DynamicSelectionMultiCriteriaGroupBase
-  nameWithType: DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.DynamicSelectionMultiCriteriaGroupBase
-  nameWithType.vb: DynamicSelectionMultiCriteriaGroupBase.New
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase.New
-  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.SubProviderName
   commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.SubProviderName
   parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups

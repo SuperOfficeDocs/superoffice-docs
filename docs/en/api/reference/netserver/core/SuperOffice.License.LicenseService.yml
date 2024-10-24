@@ -340,7 +340,7 @@ items:
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Accent a license
+  summary: Accept a license
   example: []
   syntax:
     content: public virtual void AcceptLicense(AcceptLicenseRequest req)

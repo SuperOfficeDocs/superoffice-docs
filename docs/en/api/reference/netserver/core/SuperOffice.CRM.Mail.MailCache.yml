@@ -8,7 +8,6 @@ items:
   - SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
   - SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,System.Int32@,System.Int32@,System.Int32@)
   - SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo(System.Int32,System.String,System.String)
-  - SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes(System.Int32,System.String,SuperOffice.CRM.Mail.SoMailCredentials,System.Int32[])
   - SuperOffice.CRM.Mail.MailCache.FindMessageInIdList(SuperOffice.CRM.Mail.MailEnvelope,System.Int32[])
   - SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String)
   - SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String,System.DateTime@)
@@ -32,13 +31,10 @@ items:
   - SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames(System.Int32,System.Int32)
   - SuperOffice.CRM.Mail.MailCache.GetTrashFolderName(System.Int32)
   - SuperOffice.CRM.Mail.MailCache.RecipientConceptualType
-  - SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead(System.Int32,System.String,SuperOffice.CRM.Mail.SoMailCredentials,System.Int32[],System.Boolean)
   - SuperOffice.CRM.Mail.MailCache.SetCachedFolderInfo(System.Int32,System.String,System.String,SuperOffice.CRM.Mail.SoMailFolderInfo[])
-  - SuperOffice.CRM.Mail.MailCache.SetCachedFolderList(System.Int32,System.String,System.String,System.String[])
   - SuperOffice.CRM.Mail.MailCache.SetCachingFinished(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
   - SuperOffice.CRM.Mail.MailCache.SetCachingStarted(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
   - SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
-  - SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,SuperOffice.CRM.Mail.MailEnvelope[])
   - SuperOffice.CRM.Mail.MailCache.UpdateRecipientList(System.Int32,SuperOffice.CRM.Mail.MailEnvelope)
   - SuperOffice.CRM.Mail.MailCache.UpdateStatusAndDeletedEnvelopes(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
   - SuperOffice.CRM.Mail.MailCache.findFolderSeparator(System.Int32)
@@ -88,116 +84,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const RecipientConceptualType As String = "RecipientList"
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead(System.Int32,System.String,SuperOffice.CRM.Mail.SoMailCredentials,System.Int32[],System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead(System.Int32,System.String,SuperOffice.CRM.Mail.SoMailCredentials,System.Int32[],System.Boolean)
-  id: SetCachedEnvelopesRead(System.Int32,System.String,SuperOffice.CRM.Mail.SoMailCredentials,System.Int32[],System.Boolean)
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: SetCachedEnvelopesRead(int, string, SoMailCredentials, int[], bool)
-  nameWithType: MailCache.SetCachedEnvelopesRead(int, string, SoMailCredentials, int[], bool)
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead(int, string, SuperOffice.CRM.Mail.SoMailCredentials, int[], bool)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: Updates the read state for envelopes in the cache
-  example: []
-  syntax:
-    content: public static void SetCachedEnvelopesRead(int associateId, string folder, SoMailCredentials mailCredentials, int[] messageIdList, bool read)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: Associate id
-    - id: folder
-      type: System.String
-      description: Folder where the messages are stored
-    - id: mailCredentials
-      type: SuperOffice.CRM.Mail.SoMailCredentials
-      description: Mail credentials providing information about the current context
-    - id: messageIdList
-      type: System.Int32[]
-      description: List of message ids to to mark
-    - id: read
-      type: System.Boolean
-      description: Mark as read or unread
-    content.vb: Public Shared Sub SetCachedEnvelopesRead(associateId As Integer, folder As String, mailCredentials As SoMailCredentials, messageIdList As Integer(), read As Boolean)
-  overload: SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead*
-  nameWithType.vb: MailCache.SetCachedEnvelopesRead(Integer, String, SoMailCredentials, Integer(), Boolean)
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead(Integer, String, SuperOffice.CRM.Mail.SoMailCredentials, Integer(), Boolean)
-  name.vb: SetCachedEnvelopesRead(Integer, String, SoMailCredentials, Integer(), Boolean)
-- uid: SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes(System.Int32,System.String,SuperOffice.CRM.Mail.SoMailCredentials,System.Int32[])
-  commentId: M:SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes(System.Int32,System.String,SuperOffice.CRM.Mail.SoMailCredentials,System.Int32[])
-  id: DeleteCachedEnvelopes(System.Int32,System.String,SuperOffice.CRM.Mail.SoMailCredentials,System.Int32[])
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: DeleteCachedEnvelopes(int, string, SoMailCredentials, int[])
-  nameWithType: MailCache.DeleteCachedEnvelopes(int, string, SoMailCredentials, int[])
-  fullName: SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes(int, string, SuperOffice.CRM.Mail.SoMailCredentials, int[])
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: Deletes envelopes in the cache
-  example: []
-  syntax:
-    content: public static void DeleteCachedEnvelopes(int associateId, string folder, SoMailCredentials mailCredentials, int[] messageIdList)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: Associate id
-    - id: folder
-      type: System.String
-    - id: mailCredentials
-      type: SuperOffice.CRM.Mail.SoMailCredentials
-      description: Mail credentials to provide information about the context
-    - id: messageIdList
-      type: System.Int32[]
-      description: list of message ids to delete
-    content.vb: Public Shared Sub DeleteCachedEnvelopes(associateId As Integer, folder As String, mailCredentials As SoMailCredentials, messageIdList As Integer())
-  overload: SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes*
-  nameWithType.vb: MailCache.DeleteCachedEnvelopes(Integer, String, SoMailCredentials, Integer())
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes(Integer, String, SuperOffice.CRM.Mail.SoMailCredentials, Integer())
-  name.vb: DeleteCachedEnvelopes(Integer, String, SoMailCredentials, Integer())
-- uid: SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,SuperOffice.CRM.Mail.MailEnvelope[])
-  commentId: M:SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,SuperOffice.CRM.Mail.MailEnvelope[])
-  id: UpdateMailCacheForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,SuperOffice.CRM.Mail.MailEnvelope[])
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: UpdateMailCacheForAssociate(int, SoMailCredentials, string, MailEnvelope[])
-  nameWithType: MailCache.UpdateMailCacheForAssociate(int, SoMailCredentials, string, MailEnvelope[])
-  fullName: SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate(int, SuperOffice.CRM.Mail.SoMailCredentials, string, SuperOffice.CRM.Mail.MailEnvelope[])
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: Update the associate mail cache with new data
-  example: []
-  syntax:
-    content: public static void UpdateMailCacheForAssociate(int associateId, SoMailCredentials credentials, string folder, MailEnvelope[] envelopes)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: Id of associate to cache data for
-    - id: credentials
-      type: SuperOffice.CRM.Mail.SoMailCredentials
-      description: Mail credentials
-    - id: folder
-      type: System.String
-      description: Folder the envelopes belong to
-    - id: envelopes
-      type: SuperOffice.CRM.Mail.MailEnvelope[]
-      description: The new data
-    content.vb: Public Shared Sub UpdateMailCacheForAssociate(associateId As Integer, credentials As SoMailCredentials, folder As String, envelopes As MailEnvelope())
-  overload: SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate*
-  nameWithType.vb: MailCache.UpdateMailCacheForAssociate(Integer, SoMailCredentials, String, MailEnvelope())
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate(Integer, SuperOffice.CRM.Mail.SoMailCredentials, String, SuperOffice.CRM.Mail.MailEnvelope())
-  name.vb: UpdateMailCacheForAssociate(Integer, SoMailCredentials, String, MailEnvelope())
 - uid: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
   commentId: M:SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
   id: CacheMailForAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
@@ -726,45 +612,6 @@ items:
   nameWithType.vb: MailCache.ClearCachedFolderInfo(Integer, String, String)
   fullName.vb: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo(Integer, String, String)
   name.vb: ClearCachedFolderInfo(Integer, String, String)
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachedFolderList(System.Int32,System.String,System.String,System.String[])
-  commentId: M:SuperOffice.CRM.Mail.MailCache.SetCachedFolderList(System.Int32,System.String,System.String,System.String[])
-  id: SetCachedFolderList(System.Int32,System.String,System.String,System.String[])
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: SetCachedFolderList(int, string, string, string[])
-  nameWithType: MailCache.SetCachedFolderList(int, string, string, string[])
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachedFolderList(int, string, string, string[])
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: >-
-    Cache mail folder list to the database. This should be the list without any information about number of read/unread items
-
-    so that the folder list can be retrieved fast.
-  example: []
-  syntax:
-    content: public static void SetCachedFolderList(int assocId, string server, string username, string[] folderList)
-    parameters:
-    - id: assocId
-      type: System.Int32
-      description: Associate to cache item for
-    - id: server
-      type: System.String
-      description: Mail server
-    - id: username
-      type: System.String
-      description: Mail server account
-    - id: folderList
-      type: System.String[]
-      description: Folder list to cache
-    content.vb: Public Shared Sub SetCachedFolderList(assocId As Integer, server As String, username As String, folderList As String())
-  overload: SuperOffice.CRM.Mail.MailCache.SetCachedFolderList*
-  nameWithType.vb: MailCache.SetCachedFolderList(Integer, String, String, String())
-  fullName.vb: SuperOffice.CRM.Mail.MailCache.SetCachedFolderList(Integer, String, String, String())
-  name.vb: SetCachedFolderList(Integer, String, String, String())
 - uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderList(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
   commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedFolderList(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
   id: GetCachedFolderList(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials)
@@ -1629,13 +1476,13 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead
+- uid: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_SetCachedEnvelopesRead_System_Int32_System_String_SuperOffice_CRM_Mail_SoMailCredentials_System_Int32___System_Boolean_
-  name: SetCachedEnvelopesRead
-  nameWithType: MailCache.SetCachedEnvelopesRead
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachedEnvelopesRead
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_CacheMailForAssociate_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_String_
+  name: CacheMailForAssociate
+  nameWithType: MailCache.CacheMailForAssociate
+  fullName: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1655,6 +1502,31 @@ references:
   name: SoMailCredentials
   nameWithType: SoMailCredentials
   fullName: SuperOffice.CRM.Mail.SoMailCredentials
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.FindMessageInIdList
+  isExternal: true
+  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_FindMessageInIdList_SuperOffice_CRM_Mail_MailEnvelope_System_Int32___
+  name: FindMessageInIdList
+  nameWithType: MailCache.FindMessageInIdList
+  fullName: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList
+- uid: SuperOffice.CRM.Mail.MailEnvelope
+  commentId: T:SuperOffice.CRM.Mail.MailEnvelope
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: MailEnvelope
+  nameWithType: MailEnvelope
+  fullName: SuperOffice.CRM.Mail.MailEnvelope
 - uid: System.Int32[]
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.int32
@@ -1678,72 +1550,6 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
   - name: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes
-  isExternal: true
-  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_DeleteCachedEnvelopes_System_Int32_System_String_SuperOffice_CRM_Mail_SoMailCredentials_System_Int32___
-  name: DeleteCachedEnvelopes
-  nameWithType: MailCache.DeleteCachedEnvelopes
-  fullName: SuperOffice.CRM.Mail.MailCache.DeleteCachedEnvelopes
-- uid: SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate
-  isExternal: true
-  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_UpdateMailCacheForAssociate_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_String_SuperOffice_CRM_Mail_MailEnvelope___
-  name: UpdateMailCacheForAssociate
-  nameWithType: MailCache.UpdateMailCacheForAssociate
-  fullName: SuperOffice.CRM.Mail.MailCache.UpdateMailCacheForAssociate
-- uid: SuperOffice.CRM.Mail.MailEnvelope[]
-  isExternal: true
-  name: MailEnvelope[]
-  nameWithType: MailEnvelope[]
-  fullName: SuperOffice.CRM.Mail.MailEnvelope[]
-  nameWithType.vb: MailEnvelope()
-  fullName.vb: SuperOffice.CRM.Mail.MailEnvelope()
-  name.vb: MailEnvelope()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailEnvelope
-    name: MailEnvelope
-    isExternal: true
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: SuperOffice.CRM.Mail.MailEnvelope
-    name: MailEnvelope
-    isExternal: true
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate
-  isExternal: true
-  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_CacheMailForAssociate_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_String_
-  name: CacheMailForAssociate
-  nameWithType: MailCache.CacheMailForAssociate
-  fullName: SuperOffice.CRM.Mail.MailCache.CacheMailForAssociate
-- uid: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.FindMessageInIdList
-  isExternal: true
-  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_FindMessageInIdList_SuperOffice_CRM_Mail_MailEnvelope_System_Int32___
-  name: FindMessageInIdList
-  nameWithType: MailCache.FindMessageInIdList
-  fullName: SuperOffice.CRM.Mail.MailCache.FindMessageInIdList
-- uid: SuperOffice.CRM.Mail.MailEnvelope
-  commentId: T:SuperOffice.CRM.Mail.MailEnvelope
-  parent: SuperOffice.CRM.Mail
-  isExternal: true
-  name: MailEnvelope
-  nameWithType: MailEnvelope
-  fullName: SuperOffice.CRM.Mail.MailEnvelope
 - uid: SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.UpdateCacheWithNewEMail
   isExternal: true
@@ -1797,6 +1603,26 @@ references:
   nameWithType.vb: Date
   fullName.vb: Date
   name.vb: Date
+- uid: SuperOffice.CRM.Mail.MailEnvelope[]
+  isExternal: true
+  name: MailEnvelope[]
+  nameWithType: MailEnvelope[]
+  fullName: SuperOffice.CRM.Mail.MailEnvelope[]
+  nameWithType.vb: MailEnvelope()
+  fullName.vb: SuperOffice.CRM.Mail.MailEnvelope()
+  name.vb: MailEnvelope()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailEnvelope
+    name: MailEnvelope
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailEnvelope
+    name: MailEnvelope
+    isExternal: true
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader
   isExternal: true
@@ -1903,13 +1729,6 @@ references:
   name: ClearCachedFolderInfo
   nameWithType: MailCache.ClearCachedFolderInfo
   fullName: SuperOffice.CRM.Mail.MailCache.ClearCachedFolderInfo
-- uid: SuperOffice.CRM.Mail.MailCache.SetCachedFolderList*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.SetCachedFolderList
-  isExternal: true
-  href: SuperOffice.CRM.Mail.MailCache.html#SuperOffice_CRM_Mail_MailCache_SetCachedFolderList_System_Int32_System_String_System_String_System_String___
-  name: SetCachedFolderList
-  nameWithType: MailCache.SetCachedFolderList
-  fullName: SuperOffice.CRM.Mail.MailCache.SetCachedFolderList
 - uid: SuperOffice.CRM.Mail.MailCache.GetCachedFolderList*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetCachedFolderList
   isExternal: true

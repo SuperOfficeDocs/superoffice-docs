@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxCategoryIdx(System.Int32)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxContactId(System.Int32)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxContactIdRank(System.Int32,System.Int16)
+  - SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId(System.Int32)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxDbiAgentId(System.Int32)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxDbiKey(System.String)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxDbiLastModified(System.DateTime)
@@ -28,6 +29,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxKanalname(System.String)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxLastname(System.String)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxMiddleName(System.String)
+  - SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId(System.Int32)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxPersonNumber(System.String)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxSource(System.Int16)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxUserdef2Id(System.Int32)
@@ -983,6 +985,82 @@ items:
   nameWithType.vb: PersonRows.GetFromIdxDeletedDate(Date)
   fullName.vb: SuperOffice.CRM.Rows.PersonRows.GetFromIdxDeletedDate(Date)
   name.vb: GetFromIdxDeletedDate(Date)
+- uid: SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId(System.Int32)
+  id: GetFromIdxCreatedByFormId(System.Int32)
+  parent: SuperOffice.CRM.Rows.PersonRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxCreatedByFormId(int)
+  nameWithType: PersonRows.GetFromIdxCreatedByFormId(int)
+  fullName: SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the PersonRow object, by querying the database table via the index 'IDXPersCreated_by_form_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Person table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.PersonRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static PersonRows GetFromIdxCreatedByFormId(int createdByFormId)
+    parameters:
+    - id: createdByFormId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.PersonRows
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxCreatedByFormId(createdByFormId As Integer) As PersonRows
+  overload: SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId*
+  nameWithType.vb: PersonRows.GetFromIdxCreatedByFormId(Integer)
+  fullName.vb: SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId(Integer)
+  name.vb: GetFromIdxCreatedByFormId(Integer)
+- uid: SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId(System.Int32)
+  id: GetFromIdxModifiedByWorkflowId(System.Int32)
+  parent: SuperOffice.CRM.Rows.PersonRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxModifiedByWorkflowId(int)
+  nameWithType: PersonRows.GetFromIdxModifiedByWorkflowId(int)
+  fullName: SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the PersonRow object, by querying the database table via the index 'IDXPersModified_by_workflow_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Person table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.PersonRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static PersonRows GetFromIdxModifiedByWorkflowId(int modifiedByWorkflowId)
+    parameters:
+    - id: modifiedByWorkflowId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.PersonRows
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxModifiedByWorkflowId(modifiedByWorkflowId As Integer) As PersonRows
+  overload: SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId*
+  nameWithType.vb: PersonRows.GetFromIdxModifiedByWorkflowId(Integer)
+  fullName.vb: SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId(Integer)
+  name.vb: GetFromIdxModifiedByWorkflowId(Integer)
 - uid: SuperOffice.CRM.Rows.PersonRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo)
   commentId: M:SuperOffice.CRM.Rows.PersonRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo)
   id: GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo)
@@ -3575,6 +3653,20 @@ references:
   name: GetFromIdxDeletedDate
   nameWithType: PersonRows.GetFromIdxDeletedDate
   fullName: SuperOffice.CRM.Rows.PersonRows.GetFromIdxDeletedDate
+- uid: SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRows.html#SuperOffice_CRM_Rows_PersonRows_GetFromIdxCreatedByFormId_System_Int32_
+  name: GetFromIdxCreatedByFormId
+  nameWithType: PersonRows.GetFromIdxCreatedByFormId
+  fullName: SuperOffice.CRM.Rows.PersonRows.GetFromIdxCreatedByFormId
+- uid: SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRows.html#SuperOffice_CRM_Rows_PersonRows_GetFromIdxModifiedByWorkflowId_System_Int32_
+  name: GetFromIdxModifiedByWorkflowId
+  nameWithType: PersonRows.GetFromIdxModifiedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowId
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true

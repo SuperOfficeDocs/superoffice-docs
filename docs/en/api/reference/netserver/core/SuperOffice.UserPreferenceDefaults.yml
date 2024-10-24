@@ -251,10 +251,10 @@ items:
   summary: Default unsafe file types
   example: []
   syntax:
-    content: public const string UnsafeFileTypes = "msi,exe,com,bat,cmd,ps1,dll,scr,ocx,vbs,js"
+    content: public const string UnsafeFileTypes = "msi,exe,com,bat,cmd,ps1,dll,scr,ocx,vbs,js,lnk,php"
     return:
       type: System.String
-    content.vb: Public Const UnsafeFileTypes As String = "msi,exe,com,bat,cmd,ps1,dll,scr,ocx,vbs,js"
+    content.vb: Public Const UnsafeFileTypes As String = "msi,exe,com,bat,cmd,ps1,dll,scr,ocx,vbs,js,lnk,php"
 - uid: SuperOffice.UserPreferenceDefaults.DefaultAlarmTime
   commentId: F:SuperOffice.UserPreferenceDefaults.DefaultAlarmTime
   id: DefaultAlarmTime

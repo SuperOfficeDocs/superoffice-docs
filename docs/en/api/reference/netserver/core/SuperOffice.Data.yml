@@ -72,6 +72,7 @@ items:
   - SuperOffice.Data.DocTmplPrivacyType
   - SuperOffice.Data.DocTmplQuoteType
   - SuperOffice.Data.DocTmplType
+  - SuperOffice.Data.DocumentHandler
   - SuperOffice.Data.Domain
   - SuperOffice.Data.DurationUnit
   - SuperOffice.Data.EFieldRight
@@ -107,6 +108,7 @@ items:
   - SuperOffice.Data.GdprSources
   - SuperOffice.Data.GeneratorEncoding
   - SuperOffice.Data.GuideStepConstants
+  - SuperOffice.Data.HtmlSanitizerOptions
   - SuperOffice.Data.INestedPersist
   - SuperOffice.Data.ISoCollection
   - SuperOffice.Data.ISoDataRecord
@@ -134,6 +136,7 @@ items:
   - SuperOffice.Data.LogEvent
   - SuperOffice.Data.LoginFlags
   - SuperOffice.Data.MDOSortOrder
+  - SuperOffice.Data.MailClient
   - SuperOffice.Data.MailboxType
   - SuperOffice.Data.MessageActionType
   - SuperOffice.Data.MessageHeaderStdItem
@@ -254,6 +257,7 @@ items:
   - SuperOffice.Data.SystemEventHelper
   - SuperOffice.Data.SystemEventHelper.Scope
   - SuperOffice.Data.SystemEventScope
+  - SuperOffice.Data.SystemMessageType
   - SuperOffice.Data.SystemReport
   - SuperOffice.Data.TablesInfo
   - SuperOffice.Data.TagEntity
@@ -316,6 +320,8 @@ items:
   - SuperOffice.Data.WorkflowEventType
   - SuperOffice.Data.WorkflowGoalType
   - SuperOffice.Data.WorkflowInstanceStatus
+  - SuperOffice.Data.WorkflowNotifyEmailType
+  - SuperOffice.Data.WorkflowNotifySMSType
   - SuperOffice.Data.WorkflowOwnerType
   - SuperOffice.Data.WorkflowSplitOptionType
   - SuperOffice.Data.WorkflowStepType
@@ -1261,6 +1267,22 @@ references:
   name: WorkflowContentType
   nameWithType: WorkflowContentType
   fullName: SuperOffice.Data.WorkflowContentType
+- uid: SuperOffice.Data.WorkflowNotifyEmailType
+  commentId: T:SuperOffice.Data.WorkflowNotifyEmailType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WorkflowNotifyEmailType.html
+  name: WorkflowNotifyEmailType
+  nameWithType: WorkflowNotifyEmailType
+  fullName: SuperOffice.Data.WorkflowNotifyEmailType
+- uid: SuperOffice.Data.WorkflowNotifySMSType
+  commentId: T:SuperOffice.Data.WorkflowNotifySMSType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WorkflowNotifySMSType.html
+  name: WorkflowNotifySMSType
+  nameWithType: WorkflowNotifySMSType
+  fullName: SuperOffice.Data.WorkflowNotifySMSType
 - uid: SuperOffice.Data.WorkflowWaitForActionType
   commentId: T:SuperOffice.Data.WorkflowWaitForActionType
   parent: SuperOffice.Data
@@ -1741,6 +1763,38 @@ references:
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.Data.AiTextStyle
+- uid: SuperOffice.Data.HtmlSanitizerOptions
+  commentId: T:SuperOffice.Data.HtmlSanitizerOptions
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.HtmlSanitizerOptions.html
+  name: HtmlSanitizerOptions
+  nameWithType: HtmlSanitizerOptions
+  fullName: SuperOffice.Data.HtmlSanitizerOptions
+- uid: SuperOffice.Data.SystemMessageType
+  commentId: T:SuperOffice.Data.SystemMessageType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.SystemMessageType.html
+  name: SystemMessageType
+  nameWithType: SystemMessageType
+  fullName: SuperOffice.Data.SystemMessageType
+- uid: SuperOffice.Data.MailClient
+  commentId: T:SuperOffice.Data.MailClient
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.MailClient.html
+  name: MailClient
+  nameWithType: MailClient
+  fullName: SuperOffice.Data.MailClient
+- uid: SuperOffice.Data.DocumentHandler
+  commentId: T:SuperOffice.Data.DocumentHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.DocumentHandler.html
+  name: DocumentHandler
+  nameWithType: DocumentHandler
+  fullName: SuperOffice.Data.DocumentHandler
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -2577,6 +2631,7 @@ references:
   fullName: SuperOffice.Data.PrefDescCache
 - uid: SuperOffice.Data.PrefDescCacheExtensions
   commentId: T:SuperOffice.Data.PrefDescCacheExtensions
+  parent: SuperOffice.Data
   isExternal: true
   href: SuperOffice.Data.PrefDescCacheExtensions.html
   name: PrefDescCacheExtensions

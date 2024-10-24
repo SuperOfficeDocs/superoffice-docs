@@ -26,6 +26,7 @@ items:
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveApproveQuote
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveCustomObject
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
   - SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
@@ -42,6 +43,7 @@ items:
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveApproveQuote
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveCustomObject
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
   - SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
@@ -55,6 +57,7 @@ items:
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
+  - SuperOffice.Data.EventHandlerType.SalesLoadCustomObject
   - SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
   - SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
   - SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
@@ -2840,6 +2843,68 @@ items:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.Data.EventHandlerType.SalesLoadCustomObject
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesLoadCustomObject
+  id: SalesLoadCustomObject
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesLoadCustomObject
+  nameWithType: EventHandlerType.SalesLoadCustomObject
+  fullName: SuperOffice.Data.EventHandlerType.SalesLoadCustomObject
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1017: SalesLoadCustomObject'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesLoadCustomObject = 1017
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesLoadCustomObject = 1017
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveCustomObject
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveCustomObject
+  id: SalesBeforeSaveCustomObject
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveCustomObject
+  nameWithType: EventHandlerType.SalesBeforeSaveCustomObject
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveCustomObject
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1018: SalesBeforeSaveCustomObject'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveCustomObject = 1018
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveCustomObject = 1018
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
   commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
   id: SalesAfterSaveAppointment
@@ -3332,6 +3397,37 @@ items:
       <EnumMember>
 
       SalesAfterSaveTicket = 1116
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveCustomObject
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveCustomObject
+  id: SalesAfterSaveCustomObject
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveCustomObject
+  nameWithType: EventHandlerType.SalesAfterSaveCustomObject
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveCustomObject
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1117: SalesAfterSaveCustomObject'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveCustomObject = 1117
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveCustomObject = 1117
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

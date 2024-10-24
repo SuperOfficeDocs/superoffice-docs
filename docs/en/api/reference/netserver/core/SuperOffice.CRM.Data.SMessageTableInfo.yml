@@ -20,8 +20,10 @@ items:
   - SuperOffice.CRM.Data.SMessageTableInfo.HtmlMessage
   - SuperOffice.CRM.Data.SMessageTableInfo.InlineImages
   - SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlowContentLink_SMessageId
+  - SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId
   - SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_ExternalDocument_SMessage
   - SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SAttachment_MessageId
+  - SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SLink_LocalLink
   - SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SSentMessage_MessageId
   - SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SShipment_MessageId
   - SuperOffice.CRM.Data.SMessageTableInfo.LongDescription
@@ -850,6 +852,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SShipment_MessageId As TargetedLeftOuterJoin(Of SShipmentTableInfo)
   overload: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SShipment_MessageId*
+- uid: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SLink_LocalLink
+  commentId: P:SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SLink_LocalLink
+  id: LeftOuterJoin_SLink_LocalLink
+  parent: SuperOffice.CRM.Data.SMessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_SLink_LocalLink
+  nameWithType: SMessageTableInfo.LeftOuterJoin_SLink_LocalLink
+  fullName: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SLink_LocalLink
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key SMessageId on this table, to SLink.<xref href="SuperOffice.CRM.Data.SLinkTableInfo.LocalLink" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<SLinkTableInfo> LeftOuterJoin_SLink_LocalLink { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_SLink_LocalLink As TargetedLeftOuterJoin(Of SLinkTableInfo)
+  overload: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SLink_LocalLink*
 - uid: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SAttachment_MessageId
   commentId: P:SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SAttachment_MessageId
   id: LeftOuterJoin_SAttachment_MessageId
@@ -919,6 +944,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SSentMessageTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SSentMessage_MessageId As TargetedLeftOuterJoin(Of SSentMessageTableInfo)
   overload: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SSentMessage_MessageId*
+- uid: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId
+  commentId: P:SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId
+  id: LeftOuterJoin_EmailFlow_MainMessageId
+  parent: SuperOffice.CRM.Data.SMessageTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_EmailFlow_MainMessageId
+  nameWithType: SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId
+  fullName: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key SMessageId on this table, to EmailFlow.<xref href="SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<EmailFlowTableInfo> LeftOuterJoin_EmailFlow_MainMessageId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailFlowTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_EmailFlow_MainMessageId As TargetedLeftOuterJoin(Of EmailFlowTableInfo)
+  overload: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId*
 - uid: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlowContentLink_SMessageId
   commentId: P:SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlowContentLink_SMessageId
   id: LeftOuterJoin_EmailFlowContentLink_SMessageId
@@ -2316,6 +2364,55 @@ references:
   - name: " "
   - name: TargetTableInfo
   - name: )
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_LocalLink
+  name: LocalLink
+  nameWithType: SLinkTableInfo.LocalLink
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+- uid: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SLink_LocalLink*
+  commentId: Overload:SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SLink_LocalLink
+  isExternal: true
+  href: SuperOffice.CRM.Data.SMessageTableInfo.html#SuperOffice_CRM_Data_SMessageTableInfo_LeftOuterJoin_SLink_LocalLink
+  name: LeftOuterJoin_SLink_LocalLink
+  nameWithType: SMessageTableInfo.LeftOuterJoin_SLink_LocalLink
+  fullName: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_SLink_LocalLink
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<SLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<SLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of SLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.SLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of SLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.SLinkTableInfo
+    name: SLinkTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SLinkTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.SLinkTableInfo
+    name: SLinkTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SLinkTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.SAttachmentTableInfo.MessageId
   commentId: P:SuperOffice.CRM.Data.SAttachmentTableInfo.MessageId
   isExternal: true
@@ -2462,6 +2559,55 @@ references:
     name: SSentMessageTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.SSentMessageTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
+  commentId: P:SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailFlowTableInfo.html#SuperOffice_CRM_Data_EmailFlowTableInfo_MainMessageId
+  name: MainMessageId
+  nameWithType: EmailFlowTableInfo.MainMessageId
+  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo.MainMessageId
+- uid: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId*
+  commentId: Overload:SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SMessageTableInfo.html#SuperOffice_CRM_Data_SMessageTableInfo_LeftOuterJoin_EmailFlow_MainMessageId
+  name: LeftOuterJoin_EmailFlow_MainMessageId
+  nameWithType: SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId
+  fullName: SuperOffice.CRM.Data.SMessageTableInfo.LeftOuterJoin_EmailFlow_MainMessageId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailFlowTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailFlowTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<EmailFlowTableInfo>
+  nameWithType: TargetedLeftOuterJoin<EmailFlowTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.EmailFlowTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of EmailFlowTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.EmailFlowTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of EmailFlowTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.EmailFlowTableInfo
+    name: EmailFlowTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.EmailFlowTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.EmailFlowTableInfo
+    name: EmailFlowTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.EmailFlowTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo.SMessageId
   commentId: P:SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo.SMessageId

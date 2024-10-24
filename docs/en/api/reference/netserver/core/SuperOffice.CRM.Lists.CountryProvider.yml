@@ -34,6 +34,8 @@ items:
   inheritance:
   - System.Object
   - SuperOffice.CRM.Lists.MDOProviderBase
+  derivedClasses:
+  - SuperOffice.CRM.Lists.Country2Provider
   implements:
   - SuperOffice.CRM.Lists.ISoListProvider
   - SuperOffice.CRM.Lists.ISoList

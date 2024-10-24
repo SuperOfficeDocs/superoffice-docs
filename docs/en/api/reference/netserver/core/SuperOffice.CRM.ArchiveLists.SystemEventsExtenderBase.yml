@@ -30,7 +30,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: ''
+  summary: Provider for the list of system events.
   example: []
   syntax:
     content: 'public abstract class SystemEventsExtenderBase : TableExtenderBase<SystemEventTableInfo>, IArchiveProviderQueryMapping, IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible'

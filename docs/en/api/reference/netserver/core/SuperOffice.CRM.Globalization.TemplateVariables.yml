@@ -57,6 +57,7 @@ items:
   - SuperOffice.IO.TagContainer.AddData(System.Object[])
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
+  - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   - SuperOffice.IO.TagContainer.CurrentUiCulture
@@ -848,6 +849,25 @@ references:
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.ClearData
     name: ClearData
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.IO.TagContainer.GetTags
+  commentId: M:SuperOffice.IO.TagContainer.GetTags
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetTags()
+  nameWithType: TagContainer.GetTags()
+  fullName: SuperOffice.IO.TagContainer.GetTags()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
     isExternal: true
   - name: (
   - name: )

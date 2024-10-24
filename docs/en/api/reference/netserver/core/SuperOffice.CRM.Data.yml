@@ -234,6 +234,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ForeignAppFields
   - SuperOffice.CRM.Data.DBC.ForeignDeviceFields
   - SuperOffice.CRM.Data.DBC.ForeignKeyFields
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields
   - SuperOffice.CRM.Data.DBC.FormFields
   - SuperOffice.CRM.Data.DBC.FormKeysFields
   - SuperOffice.CRM.Data.DBC.FormSubmissionFields
@@ -604,6 +605,7 @@ items:
   - SuperOffice.CRM.Data.DBC.WorkflowFields
   - SuperOffice.CRM.Data.DBC.WorkflowGoalFields
   - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  - SuperOffice.CRM.Data.DBC.WorkflowRootStepLinkFields
   - SuperOffice.CRM.Data.DBC.WorkflowStepFields
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields
   - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
@@ -692,6 +694,7 @@ items:
   - SuperOffice.CRM.Data.ForeignAppTableInfo
   - SuperOffice.CRM.Data.ForeignDeviceTableInfo
   - SuperOffice.CRM.Data.ForeignKeyTableInfo
+  - SuperOffice.CRM.Data.FormFieldValueTableInfo
   - SuperOffice.CRM.Data.FormKeysTableInfo
   - SuperOffice.CRM.Data.FormSubmissionTableInfo
   - SuperOffice.CRM.Data.FormTableInfo
@@ -1062,6 +1065,7 @@ items:
   - SuperOffice.CRM.Data.WordRelationsTableInfo
   - SuperOffice.CRM.Data.WorkflowGoalTableInfo
   - SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  - SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
   - SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
   - SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
   - SuperOffice.CRM.Data.WorkflowStepTableInfo
@@ -15799,6 +15803,60 @@ references:
     name: WorkflowWaitForActionFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.WorkflowWaitForActionFields.html
+- uid: SuperOffice.CRM.Data.DBC.WorkflowRootStepLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowRootStepLinkFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.WorkflowRootStepLinkFields
+  nameWithType: DBC.WorkflowRootStepLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowRootStepLinkFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.WorkflowRootStepLinkFields
+    name: WorkflowRootStepLinkFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.WorkflowRootStepLinkFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.WorkflowRootStepLinkFields
+    name: WorkflowRootStepLinkFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.WorkflowRootStepLinkFields.html
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  commentId: T:SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.FormFieldValueFields
+  nameWithType: DBC.FormFieldValueFields
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+    name: FormFieldValueFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.FormFieldValueFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+    name: FormFieldValueFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.FormFieldValueFields.html
 - uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
   commentId: T:SuperOffice.CRM.Data.DBC.AssociateHistoryFields
   isExternal: true
@@ -16699,6 +16757,14 @@ references:
   name: FormTableInfo
   nameWithType: FormTableInfo
   fullName: SuperOffice.CRM.Data.FormTableInfo
+- uid: SuperOffice.CRM.Data.FormFieldValueTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormFieldValueTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldValueTableInfo.html
+  name: FormFieldValueTableInfo
+  nameWithType: FormFieldValueTableInfo
+  fullName: SuperOffice.CRM.Data.FormFieldValueTableInfo
 - uid: SuperOffice.CRM.Data.FormKeysTableInfo
   commentId: T:SuperOffice.CRM.Data.FormKeysTableInfo
   parent: SuperOffice.CRM.Data
@@ -19658,6 +19724,14 @@ references:
   name: WorkflowInstanceTableInfo
   nameWithType: WorkflowInstanceTableInfo
   fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
+  name: WorkflowRootStepLinkTableInfo
+  nameWithType: WorkflowRootStepLinkTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
 - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
   commentId: T:SuperOffice.CRM.Data.WorkflowStepTableInfo
   parent: SuperOffice.CRM.Data

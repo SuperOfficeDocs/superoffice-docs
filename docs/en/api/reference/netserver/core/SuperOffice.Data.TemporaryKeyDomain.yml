@@ -10,6 +10,7 @@ items:
   - SuperOffice.Data.TemporaryKeyDomain.LoginCustomerCenter
   - SuperOffice.Data.TemporaryKeyDomain.MailingRecipient
   - SuperOffice.Data.TemporaryKeyDomain.PublicFaq
+  - SuperOffice.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
   - SuperOffice.Data.TemporaryKeyDomain.Unknown
   - SuperOffice.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   langs:
@@ -263,6 +264,37 @@ items:
       <EnumMember>
 
       ChangePasswordCustomerCenter = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
+  commentId: F:SuperOffice.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
+  id: RegisterCustomerCenterEmailVerification
+  parent: SuperOffice.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: RegisterCustomerCenterEmailVerification
+  nameWithType: TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
+  fullName: SuperOffice.Data.TemporaryKeyDomain.RegisterCustomerCenterEmailVerification
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '7: Customer center register email verification'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      RegisterCustomerCenterEmailVerification = 7
+    return:
+      type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: >-
+      <EnumMember>
+
+      RegisterCustomerCenterEmailVerification = 7
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

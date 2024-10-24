@@ -5,7 +5,7 @@ items:
   id: TemporaryKeyHelper
   parent: SuperOffice.CRM
   children:
-  - SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
+  - SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
   - SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
   langs:
   - csharp
@@ -30,22 +30,22 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
-  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
-  id: CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
+- uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  commentId: M:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
+  id: CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String)
   parent: SuperOffice.CRM.TemporaryKeyHelper
   langs:
   - csharp
   - vb
-  name: CreateTemporaryKey(TemporaryKeyDomain, int, int, DateTime)
-  nameWithType: TemporaryKeyHelper.CreateTemporaryKey(TemporaryKeyDomain, int, int, DateTime)
-  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain, int, int, System.DateTime)
+  name: CreateTemporaryKey(TemporaryKeyDomain, int, int, DateTime, string)
+  nameWithType: TemporaryKeyHelper.CreateTemporaryKey(TemporaryKeyDomain, int, int, DateTime, string)
+  fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain, int, int, System.DateTime, string)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static string CreateTemporaryKey(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires)
+    content: public static string CreateTemporaryKey(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires, string payload = "")
     parameters:
     - id: domain
       type: SuperOffice.Data.TemporaryKeyDomain
@@ -55,13 +55,15 @@ items:
       type: System.Int32
     - id: expires
       type: System.DateTime
+    - id: payload
+      type: System.String
     return:
       type: System.String
-    content.vb: Public Shared Function CreateTemporaryKey(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As Date) As String
+    content.vb: Public Shared Function CreateTemporaryKey(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As Date, payload As String = "") As String
   overload: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey*
-  nameWithType.vb: TemporaryKeyHelper.CreateTemporaryKey(TemporaryKeyDomain, Integer, Integer, Date)
-  fullName.vb: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain, Integer, Integer, Date)
-  name.vb: CreateTemporaryKey(TemporaryKeyDomain, Integer, Integer, Date)
+  nameWithType.vb: TemporaryKeyHelper.CreateTemporaryKey(TemporaryKeyDomain, Integer, Integer, Date, String)
+  fullName.vb: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain, Integer, Integer, Date, String)
+  name.vb: CreateTemporaryKey(TemporaryKeyDomain, Integer, Integer, Date, String)
 - uid: SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
   commentId: M:SuperOffice.CRM.TemporaryKeyHelper.DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
   id: DeleteTemporaryKeys(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
@@ -356,7 +358,7 @@ references:
 - uid: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey*
   commentId: Overload:SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey
   isExternal: true
-  href: SuperOffice.CRM.TemporaryKeyHelper.html#SuperOffice_CRM_TemporaryKeyHelper_CreateTemporaryKey_SuperOffice_Data_TemporaryKeyDomain_System_Int32_System_Int32_System_DateTime_
+  href: SuperOffice.CRM.TemporaryKeyHelper.html#SuperOffice_CRM_TemporaryKeyHelper_CreateTemporaryKey_SuperOffice_Data_TemporaryKeyDomain_System_Int32_System_Int32_System_DateTime_System_String_
   name: CreateTemporaryKey
   nameWithType: TemporaryKeyHelper.CreateTemporaryKey
   fullName: SuperOffice.CRM.TemporaryKeyHelper.CreateTemporaryKey

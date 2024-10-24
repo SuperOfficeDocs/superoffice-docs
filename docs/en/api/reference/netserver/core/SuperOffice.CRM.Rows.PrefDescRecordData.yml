@@ -66,6 +66,8 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Rows.PrefDescRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.CRM.Rows.PrefDescRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader
+  - SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel
   - SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PrefDescRecordData)
   - SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
@@ -898,6 +900,66 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Rows.PrefDescRecordData.html
   - name: )
+- uid: SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  definition: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsSectionHeader_SuperOffice_CRM_Rows_PrefDescRecordData_
+  name: IsSectionHeader(PrefDescRecordData)
+  nameWithType: PrefDescCacheExtensions.IsSectionHeader(PrefDescRecordData)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+    name: IsSectionHeader
+    isExternal: true
+    href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsSectionHeader_SuperOffice_CRM_Rows_PrefDescRecordData_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+    name: IsSectionHeader
+    isExternal: true
+    href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsSectionHeader_SuperOffice_CRM_Rows_PrefDescRecordData_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  definition: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsUserLevel_SuperOffice_CRM_Rows_PrefDescRecordData_
+  name: IsUserLevel(PrefDescRecordData)
+  nameWithType: PrefDescCacheExtensions.IsUserLevel(PrefDescRecordData)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+    name: IsUserLevel
+    isExternal: true
+    href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsUserLevel_SuperOffice_CRM_Rows_PrefDescRecordData_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+    name: IsUserLevel
+    isExternal: true
+    href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsUserLevel_SuperOffice_CRM_Rows_PrefDescRecordData_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  - name: )
 - uid: SuperOffice.CRM.Rows.PrefDescRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -1185,6 +1247,72 @@ references:
   name: PrefDescRecordDataExtensions
   nameWithType: PrefDescRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.PrefDescRecordDataExtensions
+- uid: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsSectionHeader_SuperOffice_CRM_Rows_PrefDescRecordData_
+  name: IsSectionHeader(PrefDescRecordData)
+  nameWithType: PrefDescCacheExtensions.IsSectionHeader(PrefDescRecordData)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+    name: IsSectionHeader
+    isExternal: true
+    href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsSectionHeader_SuperOffice_CRM_Rows_PrefDescRecordData_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.PrefDescCacheExtensions.IsSectionHeader(SuperOffice.CRM.Rows.PrefDescRecordData)
+    name: IsSectionHeader
+    isExternal: true
+    href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsSectionHeader_SuperOffice_CRM_Rows_PrefDescRecordData_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  - name: )
+- uid: SuperOffice.Data.PrefDescCacheExtensions
+  commentId: T:SuperOffice.Data.PrefDescCacheExtensions
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html
+  name: PrefDescCacheExtensions
+  nameWithType: PrefDescCacheExtensions
+  fullName: SuperOffice.Data.PrefDescCacheExtensions
+- uid: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  isExternal: true
+  href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsUserLevel_SuperOffice_CRM_Rows_PrefDescRecordData_
+  name: IsUserLevel(PrefDescRecordData)
+  nameWithType: PrefDescCacheExtensions.IsUserLevel(PrefDescRecordData)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+    name: IsUserLevel
+    isExternal: true
+    href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsUserLevel_SuperOffice_CRM_Rows_PrefDescRecordData_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.PrefDescCacheExtensions.IsUserLevel(SuperOffice.CRM.Rows.PrefDescRecordData)
+    name: IsUserLevel
+    isExternal: true
+    href: SuperOffice.Data.PrefDescCacheExtensions.html#SuperOffice_Data_PrefDescCacheExtensions_IsUserLevel_SuperOffice_CRM_Rows_PrefDescRecordData_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PrefDescRecordData.html
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -1315,6 +1443,33 @@ references:
   - name: (
   - name: T
   - name: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -1409,33 +1564,6 @@ references:
   name: PrefDescValueType
   nameWithType: PrefDescValueType
   fullName: SuperOffice.Data.PrefDescValueType
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.PreferenceLevel
   commentId: T:SuperOffice.Data.PreferenceLevel
   parent: SuperOffice.Data

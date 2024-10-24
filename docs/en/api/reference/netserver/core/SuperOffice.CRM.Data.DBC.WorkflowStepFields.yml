@@ -5,7 +5,6 @@ items:
   id: DBC.WorkflowStepFields
   parent: SuperOffice.CRM.Data
   children:
-  - SuperOffice.CRM.Data.DBC.WorkflowStepFields.Rank
   - SuperOffice.CRM.Data.DBC.WorkflowStepFields.Registered
   - SuperOffice.CRM.Data.DBC.WorkflowStepFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.WorkflowStepFields.Settings
@@ -13,7 +12,6 @@ items:
   - SuperOffice.CRM.Data.DBC.WorkflowStepFields.Updated
   - SuperOffice.CRM.Data.DBC.WorkflowStepFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.WorkflowStepFields.UpdatedCount
-  - SuperOffice.CRM.Data.DBC.WorkflowStepFields.WorkflowId
   - SuperOffice.CRM.Data.DBC.WorkflowStepFields.WorkflowStepId
   langs:
   - csharp
@@ -61,27 +59,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const WorkflowStepId As String = "workflow_step_id"
-- uid: SuperOffice.CRM.Data.DBC.WorkflowStepFields.WorkflowId
-  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepFields.WorkflowId
-  id: WorkflowId
-  parent: SuperOffice.CRM.Data.DBC.WorkflowStepFields
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId
-  nameWithType: DBC.WorkflowStepFields.WorkflowId
-  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepFields.WorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'WorkflowStep.WorkflowId: The flow this step belongs to'
-  example: []
-  syntax:
-    content: public const string WorkflowId = "workflow_id"
-    return:
-      type: System.String
-    content.vb: Public Const WorkflowId As String = "workflow_id"
 - uid: SuperOffice.CRM.Data.DBC.WorkflowStepFields.StepType
   commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepFields.StepType
   id: StepType
@@ -229,27 +206,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
-- uid: SuperOffice.CRM.Data.DBC.WorkflowStepFields.Rank
-  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepFields.Rank
-  id: Rank
-  parent: SuperOffice.CRM.Data.DBC.WorkflowStepFields
-  langs:
-  - csharp
-  - vb
-  name: Rank
-  nameWithType: DBC.WorkflowStepFields.Rank
-  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepFields.Rank
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'WorkflowStep.Rank: Step order'
-  example: []
-  syntax:
-    content: public const string Rank = "Rank"
-    return:
-      type: System.String
-    content.vb: Public Const Rank As String = "Rank"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

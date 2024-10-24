@@ -8,7 +8,11 @@ items:
   - SuperOffice.CRM.Workflow.CreateFollowUpSettings
   - SuperOffice.CRM.Workflow.CreateRequestSettings
   - SuperOffice.CRM.Workflow.CreateSaleSettings
+  - SuperOffice.CRM.Workflow.FlowEngineState
+  - SuperOffice.CRM.Workflow.NotifyByEmailSettings
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings
   - SuperOffice.CRM.Workflow.RemoveFromListSettings
+  - SuperOffice.CRM.Workflow.RunScriptSettings
   - SuperOffice.CRM.Workflow.SendEmailSettings
   - SuperOffice.CRM.Workflow.SendSMSSettings
   - SuperOffice.CRM.Workflow.SplitSettings
@@ -21,7 +25,10 @@ items:
   - SuperOffice.CRM.Workflow.WorkflowStepCreateFollowUp
   - SuperOffice.CRM.Workflow.WorkflowStepCreateRequest
   - SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+  - SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+  - SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
   - SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+  - SuperOffice.CRM.Workflow.WorkflowStepRunScript
   - SuperOffice.CRM.Workflow.WorkflowStepSendEmail
   - SuperOffice.CRM.Workflow.WorkflowStepSendSMS
   - SuperOffice.CRM.Workflow.WorkflowStepSplit
@@ -42,6 +49,13 @@ items:
   assemblies:
   - SoDataBase
 references:
+- uid: SuperOffice.CRM.Workflow.FlowEngineState
+  commentId: T:SuperOffice.CRM.Workflow.FlowEngineState
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.FlowEngineState.html
+  name: FlowEngineState
+  nameWithType: FlowEngineState
+  fullName: SuperOffice.CRM.Workflow.FlowEngineState
 - uid: SuperOffice.CRM.Workflow.AddToListSettings
   commentId: T:SuperOffice.CRM.Workflow.AddToListSettings
   parent: SuperOffice.CRM.Workflow
@@ -118,6 +132,36 @@ references:
   name: WorkflowStepCreateSale
   nameWithType: WorkflowStepCreateSale
   fullName: SuperOffice.CRM.Workflow.WorkflowStepCreateSale
+- uid: SuperOffice.CRM.Workflow.NotifyByEmailSettings
+  commentId: T:SuperOffice.CRM.Workflow.NotifyByEmailSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyByEmailSettings.html
+  name: NotifyByEmailSettings
+  nameWithType: NotifyByEmailSettings
+  fullName: SuperOffice.CRM.Workflow.NotifyByEmailSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail.html
+  name: WorkflowStepNotifyByEmail
+  nameWithType: WorkflowStepNotifyByEmail
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepNotifyByEmail
+- uid: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  commentId: T:SuperOffice.CRM.Workflow.NotifyBySMSSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.NotifyBySMSSettings.html
+  name: NotifyBySMSSettings
+  nameWithType: NotifyBySMSSettings
+  fullName: SuperOffice.CRM.Workflow.NotifyBySMSSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS.html
+  name: WorkflowStepNotifyBySMS
+  nameWithType: WorkflowStepNotifyBySMS
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepNotifyBySMS
 - uid: SuperOffice.CRM.Workflow.RemoveFromListSettings
   commentId: T:SuperOffice.CRM.Workflow.RemoveFromListSettings
   parent: SuperOffice.CRM.Workflow
@@ -133,6 +177,21 @@ references:
   name: WorkflowStepRemoveFromList
   nameWithType: WorkflowStepRemoveFromList
   fullName: SuperOffice.CRM.Workflow.WorkflowStepRemoveFromList
+- uid: SuperOffice.CRM.Workflow.RunScriptSettings
+  commentId: T:SuperOffice.CRM.Workflow.RunScriptSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.RunScriptSettings.html
+  name: RunScriptSettings
+  nameWithType: RunScriptSettings
+  fullName: SuperOffice.CRM.Workflow.RunScriptSettings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepRunScript
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepRunScript
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowStepRunScript.html
+  name: WorkflowStepRunScript
+  nameWithType: WorkflowStepRunScript
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepRunScript
 - uid: SuperOffice.CRM.Workflow.SendEmailSettings
   commentId: T:SuperOffice.CRM.Workflow.SendEmailSettings
   parent: SuperOffice.CRM.Workflow

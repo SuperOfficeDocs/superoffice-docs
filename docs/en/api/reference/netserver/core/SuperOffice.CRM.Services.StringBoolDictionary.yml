@@ -104,6 +104,10 @@ items:
   - SuperOffice.CRM.Services.StringBoolDictionary.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - System.Collections.Generic.Dictionary{System.String,System.Boolean}.SuperOffice.CRM.Services.stringBoolDictionaryExt.ToStringBoolDictionary
   - System.Collections.Generic.Dictionary{System.String,System.Boolean}.SuperOffice.Util.CollectionOps.AddRange``2(System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}})
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TElement}})
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TElement}},System.Collections.Generic.IEqualityComparer{{TKey}})
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.Batch``1(System.Int32)
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}})
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
@@ -113,6 +117,10 @@ items:
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{K}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{V}})
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{K}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{V}},System.Collections.Generic.IEqualityComparer{{K}})
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.Permute``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}})
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TElement}})
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TElement}},System.Collections.Generic.IEqualityComparer{{TKey}})
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}})
@@ -1914,6 +1922,882 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
   - name: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__
+  name: ToDictionaryPermissive<KeyValuePair<string, bool>, TKey>(ICollection<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<KeyValuePair<string, bool>, TKey>(ICollection<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<System.Collections.Generic.KeyValuePair<string, bool>, TKey>(System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, bool>>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey)(ICollection(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey)(System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Boolean)), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey))
+  name.vb: ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey)(ICollection(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<KeyValuePair<string, bool>, TKey>(ICollection<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<KeyValuePair<string, bool>, TKey>(ICollection<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<System.Collections.Generic.KeyValuePair<string, bool>, TKey>(System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, bool>>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TKey>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey)(ICollection(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey)(System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Boolean)), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey)(ICollection(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TElement}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__
+  name: ToDictionaryPermissive<KeyValuePair<string, bool>, TKey, TElement>(ICollection<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, Func<KeyValuePair<string, bool>, TElement>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<KeyValuePair<string, bool>, TKey, TElement>(ICollection<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, Func<KeyValuePair<string, bool>, TElement>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<System.Collections.Generic.KeyValuePair<string, bool>, TKey, TElement>(System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, bool>>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TKey>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TElement>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey, TElement)(ICollection(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), Func(Of KeyValuePair(Of String, Boolean), TElement))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey, TElement)(System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Boolean)), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TElement))
+  name.vb: ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey, TElement)(ICollection(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), Func(Of KeyValuePair(Of String, Boolean), TElement))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TElement}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<KeyValuePair<string, bool>, TKey, TElement>(ICollection<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, Func<KeyValuePair<string, bool>, TElement>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<KeyValuePair<string, bool>, TKey, TElement>(ICollection<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, Func<KeyValuePair<string, bool>, TElement>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<System.Collections.Generic.KeyValuePair<string, bool>, TKey, TElement>(System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, bool>>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TKey>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TElement>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey, TElement)(ICollection(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), Func(Of KeyValuePair(Of String, Boolean), TElement), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey, TElement)(System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, Boolean)), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TElement), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey, TElement)(ICollection(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), Func(Of KeyValuePair(Of String, Boolean), TElement), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
 - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.Batch``1(System.Int32)
   commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   parent: IEnumerableExtensions
@@ -3421,6 +4305,882 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  name: ToDictionaryPermissive<KeyValuePair<string, bool>, TKey>(IEnumerable<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<KeyValuePair<string, bool>, TKey>(IEnumerable<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<System.Collections.Generic.KeyValuePair<string, bool>, TKey>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, bool>>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey)(IEnumerable(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, Boolean)), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey))
+  name.vb: ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey)(IEnumerable(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``2(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<KeyValuePair<string, bool>, TKey>(IEnumerable<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<KeyValuePair<string, bool>, TKey>(IEnumerable<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<System.Collections.Generic.KeyValuePair<string, bool>, TKey>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, bool>>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TKey>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey)(IEnumerable(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, Boolean)), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey)(IEnumerable(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TElement}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  name: ToDictionaryPermissive<KeyValuePair<string, bool>, TKey, TElement>(IEnumerable<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, Func<KeyValuePair<string, bool>, TElement>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<KeyValuePair<string, bool>, TKey, TElement>(IEnumerable<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, Func<KeyValuePair<string, bool>, TElement>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<System.Collections.Generic.KeyValuePair<string, bool>, TKey, TElement>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, bool>>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TKey>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TElement>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey, TElement)(IEnumerable(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), Func(Of KeyValuePair(Of String, Boolean), TElement))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey, TElement)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, Boolean)), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TElement))
+  name.vb: ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey, TElement)(IEnumerable(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), Func(Of KeyValuePair(Of String, Boolean), TElement))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.IEnumerableExtensions.ToDictionaryPermissive``3(System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TKey}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},{TElement}},System.Collections.Generic.IEqualityComparer{{TKey}})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<KeyValuePair<string, bool>, TKey, TElement>(IEnumerable<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, Func<KeyValuePair<string, bool>, TElement>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<KeyValuePair<string, bool>, TKey, TElement>(IEnumerable<KeyValuePair<string, bool>>, Func<KeyValuePair<string, bool>, TKey>, Func<KeyValuePair<string, bool>, TElement>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<System.Collections.Generic.KeyValuePair<string, bool>, TKey, TElement>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, bool>>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TKey>, System.Func<System.Collections.Generic.KeyValuePair<string, bool>, TElement>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey, TElement)(IEnumerable(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), Func(Of KeyValuePair(Of String, Boolean), TElement), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey, TElement)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, Boolean)), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TKey), System.Func(Of System.Collections.Generic.KeyValuePair(Of String, Boolean), TElement), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of KeyValuePair(Of String, Boolean), TKey, TElement)(IEnumerable(Of KeyValuePair(Of String, Boolean)), Func(Of KeyValuePair(Of String, Boolean), TKey), Func(Of KeyValuePair(Of String, Boolean), TElement), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``1},System.Func{System.Collections.Generic.KeyValuePair{System.String,System.Boolean},``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
 - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Boolean}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   parent: SuperOffice.Util.CollectionOps
@@ -4915,6 +6675,437 @@ references:
   name: CollectionOps
   nameWithType: CollectionOps
   fullName: SuperOffice.Util.CollectionOps
+- uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__
+  name: ToDictionaryPermissive<TSource, TKey>(ICollection<TSource>, Func<TSource, TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(ICollection<TSource>, Func<TSource, TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(System.Collections.Generic.ICollection<TSource>, System.Func<TSource, TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(ICollection(Of TSource), Func(Of TSource, TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(System.Collections.Generic.ICollection(Of TSource), System.Func(Of TSource, TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey)(ICollection(Of TSource), Func(Of TSource, TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions
+  commentId: T:IEnumerableExtensions
+  isExternal: true
+  href: IEnumerableExtensions.html
+  name: IEnumerableExtensions
+  nameWithType: IEnumerableExtensions
+  fullName: IEnumerableExtensions
+- uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<TSource, TKey>(ICollection<TSource>, Func<TSource, TKey>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(ICollection<TSource>, Func<TSource, TKey>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(System.Collections.Generic.ICollection<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(ICollection(Of TSource), Func(Of TSource, TKey), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(System.Collections.Generic.ICollection(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey)(ICollection(Of TSource), Func(Of TSource, TKey), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__
+  name: ToDictionaryPermissive<TSource, TKey, TElement>(ICollection<TSource>, Func<TSource, TKey>, Func<TSource, TElement>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(ICollection<TSource>, Func<TSource, TKey>, Func<TSource, TElement>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(System.Collections.Generic.ICollection<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(ICollection(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(System.Collections.Generic.ICollection(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TElement))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey, TElement)(ICollection(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<TSource, TKey, TElement>(ICollection<TSource>, Func<TSource, TKey>, Func<TSource, TElement>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(ICollection<TSource>, Func<TSource, TKey>, Func<TSource, TElement>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(System.Collections.Generic.ICollection<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(ICollection(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(System.Collections.Generic.ICollection(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TElement), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey, TElement)(ICollection(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.ICollection{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_ICollection___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
 - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   isExternal: true
@@ -4975,13 +7166,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-- uid: IEnumerableExtensions
-  commentId: T:IEnumerableExtensions
-  isExternal: true
-  href: IEnumerableExtensions.html
-  name: IEnumerableExtensions
-  nameWithType: IEnumerableExtensions
-  fullName: IEnumerableExtensions
 - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   isExternal: true
@@ -5619,6 +7803,430 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  name: ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(IEnumerable<TSource>, Func<TSource, TKey>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey)(IEnumerable(Of TSource), Func(Of TSource, TKey), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  name: ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TElement))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: )
+- uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  name: ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>, IEqualityComparer<TKey>)
+  nameWithType: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(IEnumerable<TSource>, Func<TSource, TKey>, Func<TSource, TElement>, IEqualityComparer<TKey>)
+  fullName: IEnumerableExtensions.ToDictionaryPermissive<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>, System.Collections.Generic.IEqualityComparer<TKey>)
+  nameWithType.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement), IEqualityComparer(Of TKey))
+  fullName.vb: IEnumerableExtensions.ToDictionaryPermissive(Of TSource, TKey, TElement)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TKey), System.Func(Of TSource, TElement), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: ToDictionaryPermissive(Of TSource, TKey, TElement)(IEnumerable(Of TSource), Func(Of TSource, TKey), Func(Of TSource, TElement), IEqualityComparer(Of TKey))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ToDictionaryPermissive``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: ToDictionaryPermissive
+    isExternal: true
+    href: IEnumerableExtensions.html#IEnumerableExtensions_ToDictionaryPermissive__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Func___0___2__System_Collections_Generic_IEqualityComparer___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
   - name: )
 - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})

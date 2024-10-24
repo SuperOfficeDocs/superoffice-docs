@@ -8,8 +8,6 @@ items:
   - SuperOffice.IO.TextGenerator.EndTags
   - SuperOffice.IO.TextGenerator.Generate(System.IO.Stream)
   - SuperOffice.IO.TextGenerator.Generate(System.IO.Stream,System.IO.Stream)
-  - SuperOffice.IO.TextGenerator.ParseLine(System.String)
-  - SuperOffice.IO.TextGenerator.ParseTag(System.String)
   - SuperOffice.IO.TextGenerator.Reader
   - SuperOffice.IO.TextGenerator.StartTags
   - SuperOffice.IO.TextGenerator.TagEnd
@@ -174,58 +172,6 @@ items:
     content.vb: Public Overrides Sub Generate(output As Stream)
   overridden: SuperOffice.IO.Generator.Generate(System.IO.Stream)
   overload: SuperOffice.IO.TextGenerator.Generate*
-- uid: SuperOffice.IO.TextGenerator.ParseLine(System.String)
-  commentId: M:SuperOffice.IO.TextGenerator.ParseLine(System.String)
-  id: ParseLine(System.String)
-  parent: SuperOffice.IO.TextGenerator
-  langs:
-  - csharp
-  - vb
-  name: ParseLine(string)
-  nameWithType: TextGenerator.ParseLine(string)
-  fullName: SuperOffice.IO.TextGenerator.ParseLine(string)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO
-  syntax:
-    content: protected virtual string ParseLine(string line)
-    parameters:
-    - id: line
-      type: System.String
-    return:
-      type: System.String
-    content.vb: Protected Overridable Function ParseLine(line As String) As String
-  overload: SuperOffice.IO.TextGenerator.ParseLine*
-  nameWithType.vb: TextGenerator.ParseLine(String)
-  fullName.vb: SuperOffice.IO.TextGenerator.ParseLine(String)
-  name.vb: ParseLine(String)
-- uid: SuperOffice.IO.TextGenerator.ParseTag(System.String)
-  commentId: M:SuperOffice.IO.TextGenerator.ParseTag(System.String)
-  id: ParseTag(System.String)
-  parent: SuperOffice.IO.TextGenerator
-  langs:
-  - csharp
-  - vb
-  name: ParseTag(string)
-  nameWithType: TextGenerator.ParseTag(string)
-  fullName: SuperOffice.IO.TextGenerator.ParseTag(string)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO
-  syntax:
-    content: protected virtual string ParseTag(string line)
-    parameters:
-    - id: line
-      type: System.String
-    return:
-      type: System.String
-    content.vb: Protected Overridable Function ParseTag(line As String) As String
-  overload: SuperOffice.IO.TextGenerator.ParseTag*
-  nameWithType.vb: TextGenerator.ParseTag(String)
-  fullName.vb: SuperOffice.IO.TextGenerator.ParseTag(String)
-  name.vb: ParseTag(String)
 - uid: SuperOffice.IO.TextGenerator.TagStart
   commentId: P:SuperOffice.IO.TextGenerator.TagStart
   id: TagStart
@@ -1791,31 +1737,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: )
-- uid: SuperOffice.IO.TextGenerator.ParseLine*
-  commentId: Overload:SuperOffice.IO.TextGenerator.ParseLine
-  isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_ParseLine_System_String_
-  name: ParseLine
-  nameWithType: TextGenerator.ParseLine
-  fullName: SuperOffice.IO.TextGenerator.ParseLine
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.IO.TextGenerator.ParseTag*
-  commentId: Overload:SuperOffice.IO.TextGenerator.ParseTag
-  isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_ParseTag_System_String_
-  name: ParseTag
-  nameWithType: TextGenerator.ParseTag
-  fullName: SuperOffice.IO.TextGenerator.ParseTag
 - uid: SuperOffice.IO.TextGenerator.TagStart*
   commentId: Overload:SuperOffice.IO.TextGenerator.TagStart
   isExternal: true

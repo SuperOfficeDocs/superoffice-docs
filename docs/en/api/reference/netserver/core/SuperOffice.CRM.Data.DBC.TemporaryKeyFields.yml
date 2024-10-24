@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Data.DBC.TemporaryKeyFields.Authkey
   - SuperOffice.CRM.Data.DBC.TemporaryKeyFields.Domain
   - SuperOffice.CRM.Data.DBC.TemporaryKeyFields.Expires
+  - SuperOffice.CRM.Data.DBC.TemporaryKeyFields.Payload
   - SuperOffice.CRM.Data.DBC.TemporaryKeyFields.PersonId
   - SuperOffice.CRM.Data.DBC.TemporaryKeyFields.Registered
   - SuperOffice.CRM.Data.DBC.TemporaryKeyFields.RegisteredAssociateId
@@ -272,6 +273,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+- uid: SuperOffice.CRM.Data.DBC.TemporaryKeyFields.Payload
+  commentId: F:SuperOffice.CRM.Data.DBC.TemporaryKeyFields.Payload
+  id: Payload
+  parent: SuperOffice.CRM.Data.DBC.TemporaryKeyFields
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: DBC.TemporaryKeyFields.Payload
+  fullName: SuperOffice.CRM.Data.DBC.TemporaryKeyFields.Payload
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TemporaryKey.Payload: Optional field that may contain arbitrary data used when the key is verified, dependent on the domain'
+  example: []
+  syntax:
+    content: public const string Payload = "payload"
+    return:
+      type: System.String
+    content.vb: Public Const Payload As String = "payload"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

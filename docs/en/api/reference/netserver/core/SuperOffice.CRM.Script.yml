@@ -4,7 +4,9 @@ items:
   commentId: N:SuperOffice.CRM.Script
   id: SuperOffice.CRM.Script
   children:
+  - SuperOffice.CRM.Script.CRMScriptHelper
   - SuperOffice.CRM.Script.CRMScriptServiceBase
+  - SuperOffice.CRM.Script.CRMScriptValidationException
   - SuperOffice.CRM.Script.ICRMScriptService
   langs:
   - csharp
@@ -16,6 +18,20 @@ items:
   assemblies:
   - SoDataBase
 references:
+- uid: SuperOffice.CRM.Script.CRMScriptValidationException
+  commentId: T:SuperOffice.CRM.Script.CRMScriptValidationException
+  isExternal: true
+  href: SuperOffice.CRM.Script.CRMScriptValidationException.html
+  name: CRMScriptValidationException
+  nameWithType: CRMScriptValidationException
+  fullName: SuperOffice.CRM.Script.CRMScriptValidationException
+- uid: SuperOffice.CRM.Script.CRMScriptHelper
+  commentId: T:SuperOffice.CRM.Script.CRMScriptHelper
+  isExternal: true
+  href: SuperOffice.CRM.Script.CRMScriptHelper.html
+  name: CRMScriptHelper
+  nameWithType: CRMScriptHelper
+  fullName: SuperOffice.CRM.Script.CRMScriptHelper
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
   commentId: T:SuperOffice.CRM.Script.CRMScriptServiceBase
   isExternal: true

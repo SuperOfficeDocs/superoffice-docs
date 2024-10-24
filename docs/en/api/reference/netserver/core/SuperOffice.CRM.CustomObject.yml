@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.CustomObject
+  commentId: N:SuperOffice.CRM.CustomObject
+  id: SuperOffice.CRM.CustomObject
+  children:
+  - SuperOffice.CRM.CustomObject.CustomObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.CustomObject
+  nameWithType: SuperOffice.CRM.CustomObject
+  fullName: SuperOffice.CRM.CustomObject
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.CustomObject.CustomObjectHelper
+  commentId: T:SuperOffice.CRM.CustomObject.CustomObjectHelper
+  isExternal: true
+  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html
+  name: CustomObjectHelper
+  nameWithType: CustomObjectHelper
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper

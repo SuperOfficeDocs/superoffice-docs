@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Workflow
   children:
   - SuperOffice.CRM.Workflow.WorkflowUtil.#ctor
+  - SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved(System.Int32[],System.Int32[])
   - SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStylePrefix
   - SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStyleSuffix
   - SuperOffice.CRM.Workflow.WorkflowUtil.CSParserPrefix
@@ -13,14 +14,21 @@ items:
   - SuperOffice.CRM.Workflow.WorkflowUtil.CSSpmLinkNameLink
   - SuperOffice.CRM.Workflow.WorkflowUtil.CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType,System.Int32,System.DateTime)
   - SuperOffice.CRM.Workflow.WorkflowUtil.CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk(System.Int32,System.Int32[])
   - SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName(System.Int32)
   - SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds(System.Int32)
   - SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds(System.Int32)
   - SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds(System.Int32)
   - SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds(System.Int32,SuperOffice.Data.WorkflowStepType)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria(System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId(System.Int32)
   - SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(System.Int32,System.Int32[],System.Int32[])
   - SuperOffice.CRM.Workflow.WorkflowUtil.HasEmarketingConsentAndSubscription(System.Int32,System.Int32,System.String@)
   - SuperOffice.CRM.Workflow.WorkflowUtil.IsAddressUsedByOtherParticipant(System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId(System.Int32,System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow(System.Int32,System.Int32[])
   - SuperOffice.CRM.Workflow.WorkflowUtil.TryAddToSelection(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Workflow.WorkflowUtil.VerifySmtpSetup(System.Int32)
   langs:
@@ -146,6 +154,204 @@ items:
     return:
       type: System.String
     content.vb: Public Const CSSpmLinkNameLink As String = "spmLink"
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk(System.Int32,System.Int32[])
+  id: FilterOk(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: FilterOk(int, int[])
+  nameWithType: WorkflowUtil.FilterOk(int, int[])
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk(int, int[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static HashSet<int> FilterOk(int workflowId, int[] personIds)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personIds
+      type: System.Int32[]
+    return:
+      type: System.Collections.Generic.HashSet{System.Int32}
+    content.vb: Public Shared Function FilterOk(workflowId As Integer, personIds As Integer()) As HashSet(Of Integer)
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk*
+  nameWithType.vb: WorkflowUtil.FilterOk(Integer, Integer())
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk(Integer, Integer())
+  name.vb: FilterOk(Integer, Integer())
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved(System.Int32[],System.Int32[])
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved(System.Int32[],System.Int32[])
+  id: BlockListApproved(System.Int32[],System.Int32[])
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: BlockListApproved(int[], params int[])
+  nameWithType: WorkflowUtil.BlockListApproved(int[], params int[])
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved(int[], params int[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static HashSet<int> BlockListApproved(int[] selections, params int[] personIds)
+    parameters:
+    - id: selections
+      type: System.Int32[]
+    - id: personIds
+      type: System.Int32[]
+    return:
+      type: System.Collections.Generic.HashSet{System.Int32}
+    content.vb: Public Shared Function BlockListApproved(selections As Integer(), ParamArray personIds As Integer()) As HashSet(Of Integer)
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved*
+  nameWithType.vb: WorkflowUtil.BlockListApproved(Integer(), ParamArray Integer())
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved(Integer(), ParamArray Integer())
+  name.vb: BlockListApproved(Integer(), ParamArray Integer())
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow(System.Int32,System.Int32[])
+  id: TryAddPersonsToWorkFlow(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: TryAddPersonsToWorkFlow(int, params int[])
+  nameWithType: WorkflowUtil.TryAddPersonsToWorkFlow(int, params int[])
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow(int, params int[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static bool[] TryAddPersonsToWorkFlow(int workflowId, params int[] personIds)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personIds
+      type: System.Int32[]
+    return:
+      type: System.Boolean[]
+    content.vb: Public Shared Function TryAddPersonsToWorkFlow(workflowId As Integer, ParamArray personIds As Integer()) As Boolean()
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow*
+  nameWithType.vb: WorkflowUtil.TryAddPersonsToWorkFlow(Integer, ParamArray Integer())
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow(Integer, ParamArray Integer())
+  name.vb: TryAddPersonsToWorkFlow(Integer, ParamArray Integer())
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(System.Int32,System.Int32,System.Int32)
+  id: GoalReached(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GoalReached(int, int, int)
+  nameWithType: WorkflowUtil.GoalReached(int, int, int)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(int, int, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static bool GoalReached(int workflowId, int personId, int contactId)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: contactId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GoalReached(workflowId As Integer, personId As Integer, contactId As Integer) As Boolean
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached*
+  nameWithType.vb: WorkflowUtil.GoalReached(Integer, Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(Integer, Integer, Integer)
+  name.vb: GoalReached(Integer, Integer, Integer)
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(System.Int32,System.Int32[],System.Int32[])
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(System.Int32,System.Int32[],System.Int32[])
+  id: GoalReached(System.Int32,System.Int32[],System.Int32[])
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GoalReached(int, int[], int[])
+  nameWithType: WorkflowUtil.GoalReached(int, int[], int[])
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(int, int[], int[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static HashSet<int> GoalReached(int workflowId, int[] personIds, int[] contactIds)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personIds
+      type: System.Int32[]
+    - id: contactIds
+      type: System.Int32[]
+    return:
+      type: System.Collections.Generic.HashSet{System.Int32}
+    content.vb: Public Shared Function GoalReached(workflowId As Integer, personIds As Integer(), contactIds As Integer()) As HashSet(Of Integer)
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached*
+  nameWithType.vb: WorkflowUtil.GoalReached(Integer, Integer(), Integer())
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached(Integer, Integer(), Integer())
+  name.vb: GoalReached(Integer, Integer(), Integer())
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId(System.Int32,System.Int32)
+  id: NextStepId(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: NextStepId(int, int)
+  nameWithType: WorkflowUtil.NextStepId(int, int)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId(int, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static int NextStepId(int workflowId, int stepId)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: stepId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function NextStepId(workflowId As Integer, stepId As Integer) As Integer
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId*
+  nameWithType.vb: WorkflowUtil.NextStepId(Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId(Integer, Integer)
+  name.vb: NextStepId(Integer, Integer)
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId(System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId(System.Int32)
+  id: GetWorkflowIdFromStepId(System.Int32)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowIdFromStepId(int)
+  nameWithType: WorkflowUtil.GetWorkflowIdFromStepId(int)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static int GetWorkflowIdFromStepId(int stepId)
+    parameters:
+    - id: stepId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetWorkflowIdFromStepId(stepId As Integer) As Integer
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId*
+  nameWithType.vb: WorkflowUtil.GetWorkflowIdFromStepId(Integer)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId(Integer)
+  name.vb: GetWorkflowIdFromStepId(Integer)
 - uid: SuperOffice.CRM.Workflow.WorkflowUtil.CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   id: CleanRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -271,13 +477,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Workflow
   syntax:
-    content: public static IEnumerable<int> GetRootStepIds(int workflowId)
+    content: public static int[] GetRootStepIds(int workflowId)
     parameters:
     - id: workflowId
       type: System.Int32
     return:
-      type: System.Collections.Generic.IEnumerable{System.Int32}
-    content.vb: Public Shared Function GetRootStepIds(workflowId As Integer) As IEnumerable(Of Integer)
+      type: System.Int32[]
+    content.vb: Public Shared Function GetRootStepIds(workflowId As Integer) As Integer()
   overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds*
   nameWithType.vb: WorkflowUtil.GetRootStepIds(Integer)
   fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds(Integer)
@@ -297,15 +503,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Workflow
   syntax:
-    content: public static IEnumerable<int> GetStepIds(int workflowId, WorkflowStepType stepType)
+    content: public static List<int> GetStepIds(int workflowId, WorkflowStepType stepType)
     parameters:
     - id: workflowId
       type: System.Int32
     - id: stepType
       type: SuperOffice.Data.WorkflowStepType
     return:
-      type: System.Collections.Generic.IEnumerable{System.Int32}
-    content.vb: Public Shared Function GetStepIds(workflowId As Integer, stepType As WorkflowStepType) As IEnumerable(Of Integer)
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: Public Shared Function GetStepIds(workflowId As Integer, stepType As WorkflowStepType) As List(Of Integer)
   overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds*
   nameWithType.vb: WorkflowUtil.GetStepIds(Integer, WorkflowStepType)
   fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds(Integer, SuperOffice.Data.WorkflowStepType)
@@ -441,6 +647,36 @@ items:
   nameWithType.vb: WorkflowUtil.TryAddToSelection(Integer, Integer, Integer)
   fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.TryAddToSelection(Integer, Integer, Integer)
   name.vb: TryAddToSelection(Integer, Integer, Integer)
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria(System.Int32,System.Int32,System.String)
+  id: GetValueFromCriteria(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetValueFromCriteria(int, int, string)
+  nameWithType: WorkflowUtil.GetValueFromCriteria(int, int, string)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria(int, int, string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static int GetValueFromCriteria(int ownerTable, int ownerId, string colName)
+    parameters:
+    - id: ownerTable
+      type: System.Int32
+    - id: ownerId
+      type: System.Int32
+    - id: colName
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetValueFromCriteria(ownerTable As Integer, ownerId As Integer, colName As String) As Integer
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria*
+  nameWithType.vb: WorkflowUtil.GetValueFromCriteria(Integer, Integer, String)
+  fullName.vb: SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria(Integer, Integer, String)
+  name.vb: GetValueFromCriteria(Integer, Integer, String)
 - uid: SuperOffice.CRM.Workflow.WorkflowUtil.CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType,System.Int32,System.DateTime)
   commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType,System.Int32,System.DateTime)
   id: CalculateTime(SuperOffice.Data.WorkflowTimeWaitIntervalType,System.Int32,System.DateTime)
@@ -1231,6 +1467,216 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_FilterOk_System_Int32_System_Int32___
+  name: FilterOk
+  nameWithType: WorkflowUtil.FilterOk
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.FilterOk
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.HashSet{System.Int32}
+  commentId: T:System.Collections.Generic.HashSet{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<int>
+  nameWithType: HashSet<int>
+  fullName: System.Collections.Generic.HashSet<int>
+  nameWithType.vb: HashSet(Of Integer)
+  fullName.vb: System.Collections.Generic.HashSet(Of Integer)
+  name.vb: HashSet(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_BlockListApproved_System_Int32___System_Int32___
+  name: BlockListApproved
+  nameWithType: WorkflowUtil.BlockListApproved
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.BlockListApproved
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_TryAddPersonsToWorkFlow_System_Int32_System_Int32___
+  name: TryAddPersonsToWorkFlow
+  nameWithType: WorkflowUtil.TryAddPersonsToWorkFlow
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.TryAddPersonsToWorkFlow
+- uid: System.Boolean[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool[]
+  nameWithType: bool[]
+  fullName: bool[]
+  nameWithType.vb: Boolean()
+  fullName.vb: Boolean()
+  name.vb: Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_GoalReached_System_Int32_System_Int32_System_Int32_
+  name: GoalReached
+  nameWithType: WorkflowUtil.GoalReached
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GoalReached
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_NextStepId_System_Int32_System_Int32_
+  name: NextStepId
+  nameWithType: WorkflowUtil.NextStepId
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.NextStepId
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_GetWorkflowIdFromStepId_System_Int32_
+  name: GetWorkflowIdFromStepId
+  nameWithType: WorkflowUtil.GetWorkflowIdFromStepId
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowIdFromStepId
 - uid: SuperOffice.CRM.Workflow.WorkflowUtil.CleanRestrictions*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.CleanRestrictions
   isExternal: true
@@ -1324,43 +1770,6 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.CRM.Workflow.WorkflowUtil.IsAddressUsedByOtherParticipant*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.IsAddressUsedByOtherParticipant
   isExternal: true
@@ -1368,28 +1777,6 @@ references:
   name: IsAddressUsedByOtherParticipant
   nameWithType: WorkflowUtil.IsAddressUsedByOtherParticipant
   fullName: SuperOffice.CRM.Workflow.WorkflowUtil.IsAddressUsedByOtherParticipant
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: SuperOffice.CRM.Workflow.WorkflowUtil.HasEmarketingConsentAndSubscription*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.HasEmarketingConsentAndSubscription
   isExternal: true
@@ -1411,6 +1798,90 @@ references:
   name: GetRootStepIds
   nameWithType: WorkflowUtil.GetRootStepIds
   fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_GetStepIds_System_Int32_SuperOffice_Data_WorkflowStepType_
+  name: GetStepIds
+  nameWithType: WorkflowUtil.GetStepIds
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds
+- uid: SuperOffice.Data.WorkflowStepType
+  commentId: T:SuperOffice.Data.WorkflowStepType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WorkflowStepType.html
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.Data.WorkflowStepType
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<int>
+  nameWithType: List<int>
+  fullName: System.Collections.Generic.List<int>
+  nameWithType.vb: List(Of Integer)
+  fullName.vb: System.Collections.Generic.List(Of Integer)
+  name.vb: List(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_GetOptionStepIds_System_Int32_
+  name: GetOptionStepIds
+  nameWithType: WorkflowUtil.GetOptionStepIds
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds
 - uid: System.Collections.Generic.IEnumerable{System.Int32}
   commentId: T:System.Collections.Generic.IEnumerable{System.Int32}
   parent: System.Collections.Generic
@@ -1474,55 +1945,6 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds*
-  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds
-  isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_GetStepIds_System_Int32_SuperOffice_Data_WorkflowStepType_
-  name: GetStepIds
-  nameWithType: WorkflowUtil.GetStepIds
-  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds
-- uid: SuperOffice.Data.WorkflowStepType
-  commentId: T:SuperOffice.Data.WorkflowStepType
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.WorkflowStepType.html
-  name: WorkflowStepType
-  nameWithType: WorkflowStepType
-  fullName: SuperOffice.Data.WorkflowStepType
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds*
-  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds
-  isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_GetOptionStepIds_System_Int32_
-  name: GetOptionStepIds
-  nameWithType: WorkflowUtil.GetOptionStepIds
-  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds
 - uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds
   isExternal: true
@@ -1612,6 +2034,13 @@ references:
   name: TryAddToSelection
   nameWithType: WorkflowUtil.TryAddToSelection
   fullName: SuperOffice.CRM.Workflow.WorkflowUtil.TryAddToSelection
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria
+  isExternal: true
+  href: SuperOffice.CRM.Workflow.WorkflowUtil.html#SuperOffice_CRM_Workflow_WorkflowUtil_GetValueFromCriteria_System_Int32_System_Int32_System_String_
+  name: GetValueFromCriteria
+  nameWithType: WorkflowUtil.GetValueFromCriteria
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetValueFromCriteria
 - uid: SuperOffice.CRM.Workflow.WorkflowUtil.CalculateTime*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.CalculateTime
   isExternal: true

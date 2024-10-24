@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRow.CreateNew
   - SuperOffice.CRM.Rows.TicketRow.CreatedAt
   - SuperOffice.CRM.Rows.TicketRow.CreatedBy
+  - SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
   - SuperOffice.CRM.Rows.TicketRow.CustId
   - SuperOffice.CRM.Rows.TicketRow.DbiAgentId
   - SuperOffice.CRM.Rows.TicketRow.DbiKey
@@ -105,6 +106,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRow._currentContactId
   - SuperOffice.CRM.Rows.TicketRow._currentCreatedAt
   - SuperOffice.CRM.Rows.TicketRow._currentCreatedBy
+  - SuperOffice.CRM.Rows.TicketRow._currentCreatedByWorkflowId
   - SuperOffice.CRM.Rows.TicketRow._currentCustId
   - SuperOffice.CRM.Rows.TicketRow._currentDbiAgentId
   - SuperOffice.CRM.Rows.TicketRow._currentDbiKey
@@ -168,6 +170,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRow._persistedContactId
   - SuperOffice.CRM.Rows.TicketRow._persistedCreatedAt
   - SuperOffice.CRM.Rows.TicketRow._persistedCreatedBy
+  - SuperOffice.CRM.Rows.TicketRow._persistedCreatedByWorkflowId
   - SuperOffice.CRM.Rows.TicketRow._persistedCustId
   - SuperOffice.CRM.Rows.TicketRow._persistedDbiAgentId
   - SuperOffice.CRM.Rows.TicketRow._persistedDbiKey
@@ -366,6 +369,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.TicketRow._persistedTicketId
   commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedTicketId
   id: _persistedTicketId
@@ -1563,6 +1567,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedFormSubmissionId As Integer
+- uid: SuperOffice.CRM.Rows.TicketRow._persistedCreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedCreatedByWorkflowId
+  id: _persistedCreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedCreatedByWorkflowId
+  nameWithType: TicketRow._persistedCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.TicketRow._persistedCreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedCreatedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedCreatedByWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.TicketRow._persistedSuggestedCategoryId
   commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedSuggestedCategoryId
   id: _persistedSuggestedCategoryId
@@ -2886,6 +2911,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentFormSubmissionId As Integer
+- uid: SuperOffice.CRM.Rows.TicketRow._currentCreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._currentCreatedByWorkflowId
+  id: _currentCreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _currentCreatedByWorkflowId
+  nameWithType: TicketRow._currentCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.TicketRow._currentCreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentCreatedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentCreatedByWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.TicketRow._currentSuggestedCategoryId
   commentId: F:SuperOffice.CRM.Rows.TicketRow._currentSuggestedCategoryId
   id: _currentSuggestedCategoryId
@@ -5677,6 +5723,37 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property FormSubmissionId As Integer
   overload: SuperOffice.CRM.Rows.TicketRow.FormSubmissionId*
+- uid: SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
+  commentId: P:SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: TicketRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The workflow this request/ticket was created by'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int CreatedByWorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CreatedByWorkflowId As Integer
+  overload: SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId*
 - uid: SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
   commentId: P:SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
   id: SuggestedCategoryId
@@ -7985,6 +8062,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -8478,6 +8608,58 @@ references:
     name: SqlCommand
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
@@ -9051,6 +9233,13 @@ references:
   name: FormSubmissionId
   nameWithType: TicketRow.FormSubmissionId
   fullName: SuperOffice.CRM.Rows.TicketRow.FormSubmissionId
+- uid: SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
+  commentId: P:SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRow.html#SuperOffice_CRM_Rows_TicketRow_CreatedByWorkflowId
+  name: CreatedByWorkflowId
+  nameWithType: TicketRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
 - uid: SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
   commentId: P:SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
   isExternal: true
@@ -10283,6 +10472,13 @@ references:
   name: FormSubmissionId
   nameWithType: TicketRow.FormSubmissionId
   fullName: SuperOffice.CRM.Rows.TicketRow.FormSubmissionId
+- uid: SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRow.html#SuperOffice_CRM_Rows_TicketRow_CreatedByWorkflowId
+  name: CreatedByWorkflowId
+  nameWithType: TicketRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.TicketRow.CreatedByWorkflowId
 - uid: SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId*
   commentId: Overload:SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
   isExternal: true

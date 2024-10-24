@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.FormId
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.FormId_InnerJoin_Form
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.FormSubmissionId
+  - SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_Ticket_FormSubmissionId
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.PersonId
@@ -597,6 +598,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentAddrTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SShipmentAddr_FormSubmissionId As TargetedLeftOuterJoin(Of SShipmentAddrTableInfo)
   overload: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId*
+- uid: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId
+  commentId: P:SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId
+  id: LeftOuterJoin_FormFieldValue_FormSubmissionId
+  parent: SuperOffice.CRM.Data.FormSubmissionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_FormFieldValue_FormSubmissionId
+  nameWithType: FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId
+  fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key FormSubmissionId on this table, to FormFieldValue.<xref href="SuperOffice.CRM.Data.FormFieldValueTableInfo.FormSubmissionId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<FormFieldValueTableInfo> LeftOuterJoin_FormFieldValue_FormSubmissionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.FormFieldValueTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_FormFieldValue_FormSubmissionId As TargetedLeftOuterJoin(Of FormFieldValueTableInfo)
+  overload: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -2000,4 +2024,53 @@ references:
     name: SShipmentAddrTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.SShipmentAddrTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.FormFieldValueTableInfo.FormSubmissionId
+  commentId: P:SuperOffice.CRM.Data.FormFieldValueTableInfo.FormSubmissionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldValueTableInfo.html#SuperOffice_CRM_Data_FormFieldValueTableInfo_FormSubmissionId
+  name: FormSubmissionId
+  nameWithType: FormFieldValueTableInfo.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.FormFieldValueTableInfo.FormSubmissionId
+- uid: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId*
+  commentId: Overload:SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormSubmissionTableInfo.html#SuperOffice_CRM_Data_FormSubmissionTableInfo_LeftOuterJoin_FormFieldValue_FormSubmissionId
+  name: LeftOuterJoin_FormFieldValue_FormSubmissionId
+  nameWithType: FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId
+  fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_FormFieldValue_FormSubmissionId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.FormFieldValueTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.FormFieldValueTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<FormFieldValueTableInfo>
+  nameWithType: TargetedLeftOuterJoin<FormFieldValueTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.FormFieldValueTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of FormFieldValueTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.FormFieldValueTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of FormFieldValueTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.FormFieldValueTableInfo
+    name: FormFieldValueTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormFieldValueTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.FormFieldValueTableInfo
+    name: FormFieldValueTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormFieldValueTableInfo.html
   - name: )

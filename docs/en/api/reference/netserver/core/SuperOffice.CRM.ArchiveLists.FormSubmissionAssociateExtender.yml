@@ -65,6 +65,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnAssocUserName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnPersonEmail
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnLocationAddress
+  - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFirstName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colLastName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colMiddleName
@@ -96,6 +97,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colAssocUserName
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colPersonEmail
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colLocationAddress
+  - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.PersonRelatedColumns
@@ -692,6 +694,14 @@ references:
   name: ColumnLocationAddress
   nameWithType: AssociateExtenderBase.ColumnLocationAddress
   fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnLocationAddress
+- uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
+  commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
+  parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase_ColumnIsLocation
+  name: ColumnIsLocation
+  nameWithType: AssociateExtenderBase.ColumnIsLocation
+  fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.ColumnIsLocation
 - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFirstName
   commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colFirstName
   parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
@@ -940,6 +950,14 @@ references:
   name: _colLocationAddress
   nameWithType: AssociateExtenderBase._colLocationAddress
   fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colLocationAddress
+- uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
+  commentId: F:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
+  parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.html#SuperOffice_CRM_ArchiveLists_AssociateExtenderBase__colIsLocation
+  name: _colIsLocation
+  nameWithType: AssociateExtenderBase._colIsLocation
+  fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase._colIsLocation
 - uid: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase

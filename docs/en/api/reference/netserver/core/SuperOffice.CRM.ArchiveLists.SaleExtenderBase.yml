@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor
-  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ColSaleType
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -18,8 +18,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.VisibleForTable
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colActiveErpLinks
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmount
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountWeighted
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCompetitor
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCredited
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCurrency
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCurrencyId
@@ -44,6 +46,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStage
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageRank
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStalledReason
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
   langs:
   - csharp
   - vb
@@ -78,6 +81,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Joiners.TicketSaleExtender
   - SuperOffice.CRM.ArchiveLists.LinksSaleBySourceLeftExtender
   - SuperOffice.CRM.ArchiveLists.LinksSaleBySourceRightExtender
+  - SuperOffice.CRM.ArchiveLists.PersonSaleExtender
   - SuperOffice.CRM.ArchiveLists.ProjectSaleExtender
   - SuperOffice.CRM.ArchiveLists.QuoteSaleExtender
   - SuperOffice.CRM.ArchiveLists.SaSmSaleExtender
@@ -788,6 +792,63 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colActiveErpLinks As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
+  id: _colCreatedByWorkflow
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colCreatedByWorkflow
+  nameWithType: SaleExtenderBase._colCreatedByWorkflow
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCreatedByWorkflow
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCreatedByWorkflow As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
+  id: _colAmountInBaseCurrency
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colAmountInBaseCurrency
+  nameWithType: SaleExtenderBase._colAmountInBaseCurrency
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colAmountInBaseCurrency
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colAmountInBaseCurrency As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
+  id: _colWeightedAmountInBaseCurrency
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colWeightedAmountInBaseCurrency
+  nameWithType: SaleExtenderBase._colWeightedAmountInBaseCurrency
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colWeightedAmountInBaseCurrency
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colWeightedAmountInBaseCurrency As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor
   id: '#ctor'
@@ -809,30 +870,32 @@ items:
   nameWithType.vb: SaleExtenderBase.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.New()
   name.vb: New()
-- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)'
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features,System.String)'
   parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
   langs:
   - csharp
   - vb
-  name: SaleExtenderBase(Features)
-  nameWithType: SaleExtenderBase.SaleExtenderBase(SaleExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SaleExtenderBase(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
+  name: SaleExtenderBase(Features, string)
+  nameWithType: SaleExtenderBase.SaleExtenderBase(SaleExtenderBase.Features, string)
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SaleExtenderBase(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features, string)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected SaleExtenderBase(SaleExtenderBase.Features features)
+    content: protected SaleExtenderBase(SaleExtenderBase.Features features, string iconHint = "Sale")
     parameters:
     - id: features
       type: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features
-    content.vb: Protected Sub New(features As SaleExtenderBase.Features)
+    - id: iconHint
+      type: System.String
+    content.vb: Protected Sub New(features As SaleExtenderBase.Features, iconHint As String = "Sale")
   overload: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor*
-  nameWithType.vb: SaleExtenderBase.New(SaleExtenderBase.Features)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.New(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
-  name.vb: New(Features)
+  nameWithType.vb: SaleExtenderBase.New(SaleExtenderBase.Features, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.New(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features, String)
+  name.vb: New(Features, String)
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   id: ModifyQuery

@@ -120,10 +120,13 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice
+  summary: Override version string for WebTools. <b>WARNING</b> this method will trigger the ClassFactory!
+  example: []
   syntax:
     content: public static string OverriddenVersionString()
     return:
       type: System.String
+      description: ''
     content.vb: Public Shared Function OverriddenVersionString() As String
   overload: SuperOffice.NetServerVersion.OverriddenVersionString*
 - uid: SuperOffice.NetServerVersion.GetServerVersionWithOverride(System.Boolean@)
@@ -140,7 +143,10 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: Returns the current server-version or the explicit WebTools version-override set in config-file.
+  summary: >-
+    Returns the current server-version or the explicit WebTools version-override set in config-file.
+
+    <b>WARNING</b> this method will trigger the ClassFactory!
   example: []
   syntax:
     content: public static Version GetServerVersionWithOverride(out bool useOverride)

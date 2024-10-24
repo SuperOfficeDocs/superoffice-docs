@@ -6,11 +6,11 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.MessageRow.#ctor(SuperOffice.CRM.Rows.MessageRow.MessageRowIdxBase)
+  - SuperOffice.CRM.Rows.MessageRow.AssociateId
   - SuperOffice.CRM.Rows.MessageRow.CreateNew
-  - SuperOffice.CRM.Rows.MessageRow.Description
-  - SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-  - SuperOffice.CRM.Rows.MessageRow.DetailsTable
+  - SuperOffice.CRM.Rows.MessageRow.Expire
   - SuperOffice.CRM.Rows.MessageRow.GetFromCustomSearch(SuperOffice.CRM.Rows.MessageRow.CustomSearch)
+  - SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId(System.Int32,System.String,System.Int32)
   - SuperOffice.CRM.Rows.MessageRow.GetFromIdxMessageId(System.Int32)
   - SuperOffice.CRM.Rows.MessageRow.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.MessageTableInfo)
   - SuperOffice.CRM.Rows.MessageRow.GetPersistedFieldValue(SuperOffice.Data.SQL.FieldInfo)
@@ -22,50 +22,48 @@ items:
   - SuperOffice.CRM.Rows.MessageRow.IsNew
   - SuperOffice.CRM.Rows.MessageRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.MessageRow.Item(System.String)
+  - SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
   - SuperOffice.CRM.Rows.MessageRow.MessageId
   - SuperOffice.CRM.Rows.MessageRow.MessageTableInfo
-  - SuperOffice.CRM.Rows.MessageRow.MessageType
-  - SuperOffice.CRM.Rows.MessageRow.MotherId
   - SuperOffice.CRM.Rows.MessageRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.MessageRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.MessageRow.OnSaved(System.Boolean)
+  - SuperOffice.CRM.Rows.MessageRow.OnlineappId
   - SuperOffice.CRM.Rows.MessageRow.Registered
   - SuperOffice.CRM.Rows.MessageRow.RegisteredAssociateId
   - SuperOffice.CRM.Rows.MessageRow.Reset
   - SuperOffice.CRM.Rows.MessageRow.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   - SuperOffice.CRM.Rows.MessageRow.SetPrimaryKey(System.Int32)
   - SuperOffice.CRM.Rows.MessageRow.SetRowAsNew
-  - SuperOffice.CRM.Rows.MessageRow.SourceHandler
+  - SuperOffice.CRM.Rows.MessageRow.SystemMessageId
   - SuperOffice.CRM.Rows.MessageRow.TableInfo
-  - SuperOffice.CRM.Rows.MessageRow.TargetHandler
   - SuperOffice.CRM.Rows.MessageRow.ToString
+  - SuperOffice.CRM.Rows.MessageRow.Type
   - SuperOffice.CRM.Rows.MessageRow.Updated
   - SuperOffice.CRM.Rows.MessageRow.UpdatedAssociateId
   - SuperOffice.CRM.Rows.MessageRow.UpdatedCount
   - SuperOffice.CRM.Rows.MessageRow.Validate(SuperOffice.CRM.Rows.RowValidator)
-  - SuperOffice.CRM.Rows.MessageRow._currentDescription
-  - SuperOffice.CRM.Rows.MessageRow._currentDetailsRecord
-  - SuperOffice.CRM.Rows.MessageRow._currentDetailsTable
+  - SuperOffice.CRM.Rows.MessageRow._currentAssociateId
+  - SuperOffice.CRM.Rows.MessageRow._currentExpire
+  - SuperOffice.CRM.Rows.MessageRow._currentMarkdownMessage
   - SuperOffice.CRM.Rows.MessageRow._currentMessageId
-  - SuperOffice.CRM.Rows.MessageRow._currentMessageType
-  - SuperOffice.CRM.Rows.MessageRow._currentMotherId
+  - SuperOffice.CRM.Rows.MessageRow._currentOnlineappId
   - SuperOffice.CRM.Rows.MessageRow._currentRegistered
   - SuperOffice.CRM.Rows.MessageRow._currentRegisteredAssociateId
-  - SuperOffice.CRM.Rows.MessageRow._currentSourceHandler
-  - SuperOffice.CRM.Rows.MessageRow._currentTargetHandler
+  - SuperOffice.CRM.Rows.MessageRow._currentSystemMessageId
+  - SuperOffice.CRM.Rows.MessageRow._currentType
   - SuperOffice.CRM.Rows.MessageRow._currentUpdated
   - SuperOffice.CRM.Rows.MessageRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.MessageRow._currentUpdatedCount
-  - SuperOffice.CRM.Rows.MessageRow._persistedDescription
-  - SuperOffice.CRM.Rows.MessageRow._persistedDetailsRecord
-  - SuperOffice.CRM.Rows.MessageRow._persistedDetailsTable
+  - SuperOffice.CRM.Rows.MessageRow._persistedAssociateId
+  - SuperOffice.CRM.Rows.MessageRow._persistedExpire
+  - SuperOffice.CRM.Rows.MessageRow._persistedMarkdownMessage
   - SuperOffice.CRM.Rows.MessageRow._persistedMessageId
-  - SuperOffice.CRM.Rows.MessageRow._persistedMessageType
-  - SuperOffice.CRM.Rows.MessageRow._persistedMotherId
+  - SuperOffice.CRM.Rows.MessageRow._persistedOnlineappId
   - SuperOffice.CRM.Rows.MessageRow._persistedRegistered
   - SuperOffice.CRM.Rows.MessageRow._persistedRegisteredAssociateId
-  - SuperOffice.CRM.Rows.MessageRow._persistedSourceHandler
-  - SuperOffice.CRM.Rows.MessageRow._persistedTargetHandler
+  - SuperOffice.CRM.Rows.MessageRow._persistedSystemMessageId
+  - SuperOffice.CRM.Rows.MessageRow._persistedType
   - SuperOffice.CRM.Rows.MessageRow._persistedUpdated
   - SuperOffice.CRM.Rows.MessageRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.MessageRow._persistedUpdatedCount
@@ -213,6 +211,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.MessageRow._persistedMessageId
   commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedMessageId
   id: _persistedMessageId
@@ -234,153 +233,6 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedMessageId As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._persistedSourceHandler
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedSourceHandler
-  id: _persistedSourceHandler
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedSourceHandler
-  nameWithType: MessageRow._persistedSourceHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow._persistedSourceHandler
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.SourceHandler" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _persistedSourceHandler
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedSourceHandler As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._persistedTargetHandler
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedTargetHandler
-  id: _persistedTargetHandler
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedTargetHandler
-  nameWithType: MessageRow._persistedTargetHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow._persistedTargetHandler
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.TargetHandler" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _persistedTargetHandler
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedTargetHandler As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._persistedMotherId
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedMotherId
-  id: _persistedMotherId
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedMotherId
-  nameWithType: MessageRow._persistedMotherId
-  fullName: SuperOffice.CRM.Rows.MessageRow._persistedMotherId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.MotherId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _persistedMotherId
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedMotherId As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._persistedMessageType
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedMessageType
-  id: _persistedMessageType
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedMessageType
-  nameWithType: MessageRow._persistedMessageType
-  fullName: SuperOffice.CRM.Rows.MessageRow._persistedMessageType
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.MessageType" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected uint _persistedMessageType
-    return:
-      type: System.UInt32
-    content.vb: Protected _persistedMessageType As UInteger
-- uid: SuperOffice.CRM.Rows.MessageRow._persistedDetailsTable
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedDetailsTable
-  id: _persistedDetailsTable
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedDetailsTable
-  nameWithType: MessageRow._persistedDetailsTable
-  fullName: SuperOffice.CRM.Rows.MessageRow._persistedDetailsTable
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.DetailsTable" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected short _persistedDetailsTable
-    return:
-      type: System.Int16
-    content.vb: Protected _persistedDetailsTable As Short
-- uid: SuperOffice.CRM.Rows.MessageRow._persistedDetailsRecord
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedDetailsRecord
-  id: _persistedDetailsRecord
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedDetailsRecord
-  nameWithType: MessageRow._persistedDetailsRecord
-  fullName: SuperOffice.CRM.Rows.MessageRow._persistedDetailsRecord
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.DetailsRecord" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _persistedDetailsRecord
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedDetailsRecord As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._persistedDescription
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedDescription
-  id: _persistedDescription
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedDescription
-  nameWithType: MessageRow._persistedDescription
-  fullName: SuperOffice.CRM.Rows.MessageRow._persistedDescription
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.Description" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected string _persistedDescription
-    return:
-      type: System.String
-    content.vb: Protected _persistedDescription As String
 - uid: SuperOffice.CRM.Rows.MessageRow._persistedRegistered
   commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedRegistered
   id: _persistedRegistered
@@ -486,6 +338,132 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _persistedUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.MessageRow._persistedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedAssociateId
+  id: _persistedAssociateId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedAssociateId
+  nameWithType: MessageRow._persistedAssociateId
+  fullName: SuperOffice.CRM.Rows.MessageRow._persistedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.AssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedAssociateId As Integer
+- uid: SuperOffice.CRM.Rows.MessageRow._persistedOnlineappId
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedOnlineappId
+  id: _persistedOnlineappId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedOnlineappId
+  nameWithType: MessageRow._persistedOnlineappId
+  fullName: SuperOffice.CRM.Rows.MessageRow._persistedOnlineappId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.OnlineappId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedOnlineappId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedOnlineappId As Integer
+- uid: SuperOffice.CRM.Rows.MessageRow._persistedSystemMessageId
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedSystemMessageId
+  id: _persistedSystemMessageId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedSystemMessageId
+  nameWithType: MessageRow._persistedSystemMessageId
+  fullName: SuperOffice.CRM.Rows.MessageRow._persistedSystemMessageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.SystemMessageId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedSystemMessageId
+    return:
+      type: System.String
+    content.vb: Protected _persistedSystemMessageId As String
+- uid: SuperOffice.CRM.Rows.MessageRow._persistedMarkdownMessage
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedMarkdownMessage
+  id: _persistedMarkdownMessage
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedMarkdownMessage
+  nameWithType: MessageRow._persistedMarkdownMessage
+  fullName: SuperOffice.CRM.Rows.MessageRow._persistedMarkdownMessage
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.MarkdownMessage" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedMarkdownMessage
+    return:
+      type: System.String
+    content.vb: Protected _persistedMarkdownMessage As String
+- uid: SuperOffice.CRM.Rows.MessageRow._persistedExpire
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedExpire
+  id: _persistedExpire
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedExpire
+  nameWithType: MessageRow._persistedExpire
+  fullName: SuperOffice.CRM.Rows.MessageRow._persistedExpire
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.Expire" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _persistedExpire
+    return:
+      type: System.DateTime
+    content.vb: Protected _persistedExpire As Date
+- uid: SuperOffice.CRM.Rows.MessageRow._persistedType
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._persistedType
+  id: _persistedType
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedType
+  nameWithType: MessageRow._persistedType
+  fullName: SuperOffice.CRM.Rows.MessageRow._persistedType
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected SystemMessageType _persistedType
+    return:
+      type: SuperOffice.Data.SystemMessageType
+    content.vb: Protected _persistedType As SystemMessageType
 - uid: SuperOffice.CRM.Rows.MessageRow._currentMessageId
   commentId: F:SuperOffice.CRM.Rows.MessageRow._currentMessageId
   id: _currentMessageId
@@ -507,153 +485,6 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentMessageId As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._currentSourceHandler
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentSourceHandler
-  id: _currentSourceHandler
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _currentSourceHandler
-  nameWithType: MessageRow._currentSourceHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow._currentSourceHandler
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.SourceHandler" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _currentSourceHandler
-    return:
-      type: System.Int32
-    content.vb: Protected _currentSourceHandler As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._currentTargetHandler
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentTargetHandler
-  id: _currentTargetHandler
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _currentTargetHandler
-  nameWithType: MessageRow._currentTargetHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow._currentTargetHandler
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.TargetHandler" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _currentTargetHandler
-    return:
-      type: System.Int32
-    content.vb: Protected _currentTargetHandler As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._currentMotherId
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentMotherId
-  id: _currentMotherId
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _currentMotherId
-  nameWithType: MessageRow._currentMotherId
-  fullName: SuperOffice.CRM.Rows.MessageRow._currentMotherId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.MotherId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _currentMotherId
-    return:
-      type: System.Int32
-    content.vb: Protected _currentMotherId As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._currentMessageType
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentMessageType
-  id: _currentMessageType
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _currentMessageType
-  nameWithType: MessageRow._currentMessageType
-  fullName: SuperOffice.CRM.Rows.MessageRow._currentMessageType
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.MessageType" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected uint _currentMessageType
-    return:
-      type: System.UInt32
-    content.vb: Protected _currentMessageType As UInteger
-- uid: SuperOffice.CRM.Rows.MessageRow._currentDetailsTable
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentDetailsTable
-  id: _currentDetailsTable
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _currentDetailsTable
-  nameWithType: MessageRow._currentDetailsTable
-  fullName: SuperOffice.CRM.Rows.MessageRow._currentDetailsTable
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.DetailsTable" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected short _currentDetailsTable
-    return:
-      type: System.Int16
-    content.vb: Protected _currentDetailsTable As Short
-- uid: SuperOffice.CRM.Rows.MessageRow._currentDetailsRecord
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentDetailsRecord
-  id: _currentDetailsRecord
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _currentDetailsRecord
-  nameWithType: MessageRow._currentDetailsRecord
-  fullName: SuperOffice.CRM.Rows.MessageRow._currentDetailsRecord
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.DetailsRecord" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected int _currentDetailsRecord
-    return:
-      type: System.Int32
-    content.vb: Protected _currentDetailsRecord As Integer
-- uid: SuperOffice.CRM.Rows.MessageRow._currentDescription
-  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentDescription
-  id: _currentDescription
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: _currentDescription
-  nameWithType: MessageRow._currentDescription
-  fullName: SuperOffice.CRM.Rows.MessageRow._currentDescription
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.Description" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected string _currentDescription
-    return:
-      type: System.String
-    content.vb: Protected _currentDescription As String
 - uid: SuperOffice.CRM.Rows.MessageRow._currentRegistered
   commentId: F:SuperOffice.CRM.Rows.MessageRow._currentRegistered
   id: _currentRegistered
@@ -759,6 +590,132 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.MessageRow._currentAssociateId
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentAssociateId
+  id: _currentAssociateId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _currentAssociateId
+  nameWithType: MessageRow._currentAssociateId
+  fullName: SuperOffice.CRM.Rows.MessageRow._currentAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.AssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentAssociateId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentAssociateId As Integer
+- uid: SuperOffice.CRM.Rows.MessageRow._currentOnlineappId
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentOnlineappId
+  id: _currentOnlineappId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _currentOnlineappId
+  nameWithType: MessageRow._currentOnlineappId
+  fullName: SuperOffice.CRM.Rows.MessageRow._currentOnlineappId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.OnlineappId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentOnlineappId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentOnlineappId As Integer
+- uid: SuperOffice.CRM.Rows.MessageRow._currentSystemMessageId
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentSystemMessageId
+  id: _currentSystemMessageId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _currentSystemMessageId
+  nameWithType: MessageRow._currentSystemMessageId
+  fullName: SuperOffice.CRM.Rows.MessageRow._currentSystemMessageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.SystemMessageId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentSystemMessageId
+    return:
+      type: System.String
+    content.vb: Protected _currentSystemMessageId As String
+- uid: SuperOffice.CRM.Rows.MessageRow._currentMarkdownMessage
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentMarkdownMessage
+  id: _currentMarkdownMessage
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _currentMarkdownMessage
+  nameWithType: MessageRow._currentMarkdownMessage
+  fullName: SuperOffice.CRM.Rows.MessageRow._currentMarkdownMessage
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.MarkdownMessage" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentMarkdownMessage
+    return:
+      type: System.String
+    content.vb: Protected _currentMarkdownMessage As String
+- uid: SuperOffice.CRM.Rows.MessageRow._currentExpire
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentExpire
+  id: _currentExpire
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _currentExpire
+  nameWithType: MessageRow._currentExpire
+  fullName: SuperOffice.CRM.Rows.MessageRow._currentExpire
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.Expire" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _currentExpire
+    return:
+      type: System.DateTime
+    content.vb: Protected _currentExpire As Date
+- uid: SuperOffice.CRM.Rows.MessageRow._currentType
+  commentId: F:SuperOffice.CRM.Rows.MessageRow._currentType
+  id: _currentType
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: _currentType
+  nameWithType: MessageRow._currentType
+  fullName: SuperOffice.CRM.Rows.MessageRow._currentType
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.MessageRow.Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected SystemMessageType _currentType
+    return:
+      type: SuperOffice.Data.SystemMessageType
+    content.vb: Protected _currentType As SystemMessageType
 - uid: SuperOffice.CRM.Rows.MessageRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.MessageRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -1014,6 +971,48 @@ items:
   nameWithType.vb: MessageRow.GetFromIdxMessageId(Integer)
   fullName.vb: SuperOffice.CRM.Rows.MessageRow.GetFromIdxMessageId(Integer)
   name.vb: GetFromIdxMessageId(Integer)
+- uid: SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId(System.Int32,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId(System.Int32,System.String,System.Int32)
+  id: GetFromIdxAssociateIdSystemMessageIdOnlineappId(System.Int32,System.String,System.Int32)
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxAssociateIdSystemMessageIdOnlineappId(int, string, int)
+  nameWithType: MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId(int, string, int)
+  fullName: SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId(int, string, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the MessageRow object, by querying the database table via the index 'IAssociateIdSystemMessageIdOnlineapp_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Message table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.MessageRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static MessageRow GetFromIdxAssociateIdSystemMessageIdOnlineappId(int associateId, string systemMessageId, int onlineappId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: systemMessageId
+      type: System.String
+    - id: onlineappId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.MessageRow
+      description: >-
+        Row object that represents the result of the search. <xref href="SuperOffice.CRM.Rows.MessageRow.IsNew" data-throw-if-not-resolved="false"></xref> will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxAssociateIdSystemMessageIdOnlineappId(associateId As Integer, systemMessageId As String, onlineappId As Integer) As MessageRow
+  overload: SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId*
+  nameWithType.vb: MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId(Integer, String, Integer)
+  fullName.vb: SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId(Integer, String, Integer)
+  name.vb: GetFromIdxAssociateIdSystemMessageIdOnlineappId(Integer, String, Integer)
 - uid: SuperOffice.CRM.Rows.MessageRow.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.MessageRow.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -1491,223 +1490,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable ReadOnly Property MessageId As Integer
   overload: SuperOffice.CRM.Rows.MessageRow.MessageId*
-- uid: SuperOffice.CRM.Rows.MessageRow.SourceHandler
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.SourceHandler
-  id: SourceHandler
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: SourceHandler
-  nameWithType: MessageRow.SourceHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow.SourceHandler
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. Originating message handler'
-  remarks: >-
-    Original type in dictionary:  FK.
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual int SourceHandler { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property SourceHandler As Integer
-  overload: SuperOffice.CRM.Rows.MessageRow.SourceHandler*
-- uid: SuperOffice.CRM.Rows.MessageRow.TargetHandler
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.TargetHandler
-  id: TargetHandler
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: TargetHandler
-  nameWithType: MessageRow.TargetHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow.TargetHandler
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. Target message handler'
-  remarks: >-
-    Original type in dictionary:  FK.
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual int TargetHandler { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property TargetHandler As Integer
-  overload: SuperOffice.CRM.Rows.MessageRow.TargetHandler*
-- uid: SuperOffice.CRM.Rows.MessageRow.MotherId
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.MotherId
-  id: MotherId
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: MotherId
-  nameWithType: MessageRow.MotherId
-  fullName: SuperOffice.CRM.Rows.MessageRow.MotherId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. ID of message that this message is correlated to; 0 if this is the first message of a conversation'
-  remarks: >-
-    Original type in dictionary:  FK.
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual int MotherId { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property MotherId As Integer
-  overload: SuperOffice.CRM.Rows.MessageRow.MotherId*
-- uid: SuperOffice.CRM.Rows.MessageRow.MessageType
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.MessageType
-  id: MessageType
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: MessageType
-  nameWithType: MessageRow.MessageType
-  fullName: SuperOffice.CRM.Rows.MessageRow.MessageType
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: uint. Application-specific message type'
-  remarks: >-
-    Original type in dictionary:  UInt.
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual uint MessageType { get; set; }
-    parameters: []
-    return:
-      type: System.UInt32
-    content.vb: Public Overridable Property MessageType As UInteger
-  overload: SuperOffice.CRM.Rows.MessageRow.MessageType*
-- uid: SuperOffice.CRM.Rows.MessageRow.DetailsTable
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.DetailsTable
-  id: DetailsTable
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: DetailsTable
-  nameWithType: MessageRow.DetailsTable
-  fullName: SuperOffice.CRM.Rows.MessageRow.DetailsTable
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: short. Table containing message body (BatchTask, or some thing else)'
-  remarks: >-
-    Original type in dictionary:  TableNumber.
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual short DetailsTable { get; set; }
-    parameters: []
-    return:
-      type: System.Int16
-    content.vb: Public Overridable Property DetailsTable As Short
-  overload: SuperOffice.CRM.Rows.MessageRow.DetailsTable*
-- uid: SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-  id: DetailsRecord
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: DetailsRecord
-  nameWithType: MessageRow.DetailsRecord
-  fullName: SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. Record containing message body'
-  remarks: >-
-    Original type in dictionary:  RecordId.
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual int DetailsRecord { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property DetailsRecord As Integer
-  overload: SuperOffice.CRM.Rows.MessageRow.DetailsRecord*
-- uid: SuperOffice.CRM.Rows.MessageRow.Description
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.Description
-  id: Description
-  parent: SuperOffice.CRM.Rows.MessageRow
-  langs:
-  - csharp
-  - vb
-  name: Description
-  nameWithType: MessageRow.Description
-  fullName: SuperOffice.CRM.Rows.MessageRow.Description
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: string. Message description, to aid in debugging and monitoring'
-  remarks: >-
-    Original type in dictionary:  String[255].
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual string Description { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Overridable Property Description As String
-  overload: SuperOffice.CRM.Rows.MessageRow.Description*
 - uid: SuperOffice.CRM.Rows.MessageRow.Registered
   commentId: P:SuperOffice.CRM.Rows.MessageRow.Registered
   id: Registered
@@ -1863,6 +1645,192 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.CRM.Rows.MessageRow.UpdatedCount*
+- uid: SuperOffice.CRM.Rows.MessageRow.AssociateId
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: MessageRow.AssociateId
+  fullName: SuperOffice.CRM.Rows.MessageRow.AssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The associate that is the target of this message'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Rows.MessageRow.AssociateId*
+- uid: SuperOffice.CRM.Rows.MessageRow.OnlineappId
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.OnlineappId
+  id: OnlineappId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: OnlineappId
+  nameWithType: MessageRow.OnlineappId
+  fullName: SuperOffice.CRM.Rows.MessageRow.OnlineappId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The online app that owns this message'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int OnlineappId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OnlineappId As Integer
+  overload: SuperOffice.CRM.Rows.MessageRow.OnlineappId*
+- uid: SuperOffice.CRM.Rows.MessageRow.SystemMessageId
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.SystemMessageId
+  id: SystemMessageId
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: SystemMessageId
+  nameWithType: MessageRow.SystemMessageId
+  fullName: SuperOffice.CRM.Rows.MessageRow.SystemMessageId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Message identifier, used for message update or removal'
+  remarks: >-
+    Original type in dictionary:  String[256].
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string SystemMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SystemMessageId As String
+  overload: SuperOffice.CRM.Rows.MessageRow.SystemMessageId*
+- uid: SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
+  id: MarkdownMessage
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: MarkdownMessage
+  nameWithType: MessageRow.MarkdownMessage
+  fullName: SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Markdown message to be displayed to user'
+  remarks: >-
+    Original type in dictionary:  String[4001].
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string MarkdownMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MarkdownMessage As String
+  overload: SuperOffice.CRM.Rows.MessageRow.MarkdownMessage*
+- uid: SuperOffice.CRM.Rows.MessageRow.Expire
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.Expire
+  id: Expire
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: Expire
+  nameWithType: MessageRow.Expire
+  fullName: SuperOffice.CRM.Rows.MessageRow.Expire
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: DateTime. The date and time the message expires in UTC'
+  remarks: >-
+    Original type in dictionary:  UtcDateTime.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual DateTime Expire { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Expire As Date
+  overload: SuperOffice.CRM.Rows.MessageRow.Expire*
+- uid: SuperOffice.CRM.Rows.MessageRow.Type
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.Type
+  id: Type
+  parent: SuperOffice.CRM.Rows.MessageRow
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageRow.Type
+  fullName: SuperOffice.CRM.Rows.MessageRow.Type
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: SystemMessageType. Type of message, example: info, warning, error'
+  remarks: >-
+    Original type in dictionary:  Enum.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual SystemMessageType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SystemMessageType
+    content.vb: Public Overridable Property Type As SystemMessageType
+  overload: SuperOffice.CRM.Rows.MessageRow.Type*
 references:
 - uid: SuperOffice.CRM.Rows.MessageRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.MessageRow.CreateNew
@@ -3895,6 +3863,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -4293,6 +4314,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -4348,88 +4421,6 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.CRM.Rows.MessageRow.SourceHandler
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.SourceHandler
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_SourceHandler
-  name: SourceHandler
-  nameWithType: MessageRow.SourceHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow.SourceHandler
-- uid: SuperOffice.CRM.Rows.MessageRow.TargetHandler
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.TargetHandler
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_TargetHandler
-  name: TargetHandler
-  nameWithType: MessageRow.TargetHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow.TargetHandler
-- uid: SuperOffice.CRM.Rows.MessageRow.MotherId
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.MotherId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_MotherId
-  name: MotherId
-  nameWithType: MessageRow.MotherId
-  fullName: SuperOffice.CRM.Rows.MessageRow.MotherId
-- uid: SuperOffice.CRM.Rows.MessageRow.MessageType
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.MessageType
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_MessageType
-  name: MessageType
-  nameWithType: MessageRow.MessageType
-  fullName: SuperOffice.CRM.Rows.MessageRow.MessageType
-- uid: System.UInt32
-  commentId: T:System.UInt32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
-- uid: SuperOffice.CRM.Rows.MessageRow.DetailsTable
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.DetailsTable
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_DetailsTable
-  name: DetailsTable
-  nameWithType: MessageRow.DetailsTable
-  fullName: SuperOffice.CRM.Rows.MessageRow.DetailsTable
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
-- uid: SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_DetailsRecord
-  name: DetailsRecord
-  nameWithType: MessageRow.DetailsRecord
-  fullName: SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-- uid: SuperOffice.CRM.Rows.MessageRow.Description
-  commentId: P:SuperOffice.CRM.Rows.MessageRow.Description
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_Description
-  name: Description
-  nameWithType: MessageRow.Description
-  fullName: SuperOffice.CRM.Rows.MessageRow.Description
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: SuperOffice.CRM.Rows.MessageRow.Registered
   commentId: P:SuperOffice.CRM.Rows.MessageRow.Registered
   isExternal: true
@@ -4476,6 +4467,78 @@ references:
   name: UpdatedCount
   nameWithType: MessageRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.MessageRow.UpdatedCount
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Rows.MessageRow.AssociateId
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_AssociateId
+  name: AssociateId
+  nameWithType: MessageRow.AssociateId
+  fullName: SuperOffice.CRM.Rows.MessageRow.AssociateId
+- uid: SuperOffice.CRM.Rows.MessageRow.OnlineappId
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.OnlineappId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_OnlineappId
+  name: OnlineappId
+  nameWithType: MessageRow.OnlineappId
+  fullName: SuperOffice.CRM.Rows.MessageRow.OnlineappId
+- uid: SuperOffice.CRM.Rows.MessageRow.SystemMessageId
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.SystemMessageId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_SystemMessageId
+  name: SystemMessageId
+  nameWithType: MessageRow.SystemMessageId
+  fullName: SuperOffice.CRM.Rows.MessageRow.SystemMessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_MarkdownMessage
+  name: MarkdownMessage
+  nameWithType: MessageRow.MarkdownMessage
+  fullName: SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
+- uid: SuperOffice.CRM.Rows.MessageRow.Expire
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.Expire
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_Expire
+  name: Expire
+  nameWithType: MessageRow.Expire
+  fullName: SuperOffice.CRM.Rows.MessageRow.Expire
+- uid: SuperOffice.CRM.Rows.MessageRow.Type
+  commentId: P:SuperOffice.CRM.Rows.MessageRow.Type
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_Type
+  name: Type
+  nameWithType: MessageRow.Type
+  fullName: SuperOffice.CRM.Rows.MessageRow.Type
+- uid: SuperOffice.Data.SystemMessageType
+  commentId: T:SuperOffice.Data.SystemMessageType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.SystemMessageType.html
+  name: SystemMessageType
+  nameWithType: SystemMessageType
+  fullName: SuperOffice.Data.SystemMessageType
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -4709,6 +4772,13 @@ references:
   name: GetFromIdxMessageId
   nameWithType: MessageRow.GetFromIdxMessageId
   fullName: SuperOffice.CRM.Rows.MessageRow.GetFromIdxMessageId
+- uid: SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_GetFromIdxAssociateIdSystemMessageIdOnlineappId_System_Int32_System_String_System_Int32_
+  name: GetFromIdxAssociateIdSystemMessageIdOnlineappId
+  nameWithType: MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId
+  fullName: SuperOffice.CRM.Rows.MessageRow.GetFromIdxAssociateIdSystemMessageIdOnlineappId
 - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5230,55 +5300,6 @@ references:
   name: MessageId
   nameWithType: MessageRow.MessageId
   fullName: SuperOffice.CRM.Rows.MessageRow.MessageId
-- uid: SuperOffice.CRM.Rows.MessageRow.SourceHandler*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.SourceHandler
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_SourceHandler
-  name: SourceHandler
-  nameWithType: MessageRow.SourceHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow.SourceHandler
-- uid: SuperOffice.CRM.Rows.MessageRow.TargetHandler*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.TargetHandler
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_TargetHandler
-  name: TargetHandler
-  nameWithType: MessageRow.TargetHandler
-  fullName: SuperOffice.CRM.Rows.MessageRow.TargetHandler
-- uid: SuperOffice.CRM.Rows.MessageRow.MotherId*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.MotherId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_MotherId
-  name: MotherId
-  nameWithType: MessageRow.MotherId
-  fullName: SuperOffice.CRM.Rows.MessageRow.MotherId
-- uid: SuperOffice.CRM.Rows.MessageRow.MessageType*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.MessageType
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_MessageType
-  name: MessageType
-  nameWithType: MessageRow.MessageType
-  fullName: SuperOffice.CRM.Rows.MessageRow.MessageType
-- uid: SuperOffice.CRM.Rows.MessageRow.DetailsTable*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.DetailsTable
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_DetailsTable
-  name: DetailsTable
-  nameWithType: MessageRow.DetailsTable
-  fullName: SuperOffice.CRM.Rows.MessageRow.DetailsTable
-- uid: SuperOffice.CRM.Rows.MessageRow.DetailsRecord*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_DetailsRecord
-  name: DetailsRecord
-  nameWithType: MessageRow.DetailsRecord
-  fullName: SuperOffice.CRM.Rows.MessageRow.DetailsRecord
-- uid: SuperOffice.CRM.Rows.MessageRow.Description*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.Description
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_Description
-  name: Description
-  nameWithType: MessageRow.Description
-  fullName: SuperOffice.CRM.Rows.MessageRow.Description
 - uid: SuperOffice.CRM.Rows.MessageRow.Registered*
   commentId: Overload:SuperOffice.CRM.Rows.MessageRow.Registered
   isExternal: true
@@ -5314,3 +5335,45 @@ references:
   name: UpdatedCount
   nameWithType: MessageRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.MessageRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.MessageRow.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_AssociateId
+  name: AssociateId
+  nameWithType: MessageRow.AssociateId
+  fullName: SuperOffice.CRM.Rows.MessageRow.AssociateId
+- uid: SuperOffice.CRM.Rows.MessageRow.OnlineappId*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.OnlineappId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_OnlineappId
+  name: OnlineappId
+  nameWithType: MessageRow.OnlineappId
+  fullName: SuperOffice.CRM.Rows.MessageRow.OnlineappId
+- uid: SuperOffice.CRM.Rows.MessageRow.SystemMessageId*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.SystemMessageId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_SystemMessageId
+  name: SystemMessageId
+  nameWithType: MessageRow.SystemMessageId
+  fullName: SuperOffice.CRM.Rows.MessageRow.SystemMessageId
+- uid: SuperOffice.CRM.Rows.MessageRow.MarkdownMessage*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_MarkdownMessage
+  name: MarkdownMessage
+  nameWithType: MessageRow.MarkdownMessage
+  fullName: SuperOffice.CRM.Rows.MessageRow.MarkdownMessage
+- uid: SuperOffice.CRM.Rows.MessageRow.Expire*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.Expire
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_Expire
+  name: Expire
+  nameWithType: MessageRow.Expire
+  fullName: SuperOffice.CRM.Rows.MessageRow.Expire
+- uid: SuperOffice.CRM.Rows.MessageRow.Type*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRow.Type
+  isExternal: true
+  href: SuperOffice.CRM.Rows.MessageRow.html#SuperOffice_CRM_Rows_MessageRow_Type
+  name: Type
+  nameWithType: MessageRow.Type
+  fullName: SuperOffice.CRM.Rows.MessageRow.Type

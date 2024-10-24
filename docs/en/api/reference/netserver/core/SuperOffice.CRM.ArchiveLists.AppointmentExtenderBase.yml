@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor
-  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.AppointmentIconHint(SuperOffice.Data.AppointmentType,SuperOffice.Data.DocTmplType,SuperOffice.Data.DocTmplDirection)
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ColumnAppointmentId
@@ -31,6 +31,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colBooking
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCautionWarning
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCompletedDate
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCreatedByWorkflow
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colDuration
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colEndDate
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colEndTime
@@ -812,6 +813,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colDuration As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCreatedByWorkflow
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCreatedByWorkflow
+  id: _colCreatedByWorkflow
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colCreatedByWorkflow
+  nameWithType: AppointmentExtenderBase._colCreatedByWorkflow
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colCreatedByWorkflow
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCreatedByWorkflow
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCreatedByWorkflow As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor
   id: '#ctor'
@@ -833,30 +853,32 @@ items:
   nameWithType.vb: AppointmentExtenderBase.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.New()
   name.vb: New()
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)'
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features,System.String)'
   parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
   langs:
   - csharp
   - vb
-  name: AppointmentExtenderBase(Features)
-  nameWithType: AppointmentExtenderBase.AppointmentExtenderBase(AppointmentExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.AppointmentExtenderBase(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
+  name: AppointmentExtenderBase(Features, string)
+  nameWithType: AppointmentExtenderBase.AppointmentExtenderBase(AppointmentExtenderBase.Features, string)
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.AppointmentExtenderBase(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, string)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected AppointmentExtenderBase(AppointmentExtenderBase.Features features)
+    content: protected AppointmentExtenderBase(AppointmentExtenderBase.Features features, string iconHint = "Appointment")
     parameters:
     - id: features
       type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
-    content.vb: Protected Sub New(features As AppointmentExtenderBase.Features)
+    - id: iconHint
+      type: System.String
+    content.vb: Protected Sub New(features As AppointmentExtenderBase.Features, iconHint As String = "Appointment")
   overload: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.#ctor*
-  nameWithType.vb: AppointmentExtenderBase.New(AppointmentExtenderBase.Features)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.New(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
-  name.vb: New(Features)
+  nameWithType.vb: AppointmentExtenderBase.New(AppointmentExtenderBase.Features, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.New(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, String)
+  name.vb: New(Features, String)
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessRestrictions
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessRestrictions
   id: ProcessRestrictions

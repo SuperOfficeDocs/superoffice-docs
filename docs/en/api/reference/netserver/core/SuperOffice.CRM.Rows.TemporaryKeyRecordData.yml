@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.Authkey
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.Domain
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.Expires
+  - SuperOffice.CRM.Rows.TemporaryKeyRecordData.Payload
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.PersonId
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.Registered
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.RegisteredAssociateId
@@ -290,6 +291,27 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Payload
+  commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.Payload
+  id: Payload
+  parent: SuperOffice.CRM.Rows.TemporaryKeyRecordData
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: TemporaryKeyRecordData.Payload
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Payload
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Optional field that may contain arbitrary data used when the key is verified, dependent on the domain
+  example: []
+  syntax:
+    content: public string Payload
+    return:
+      type: System.String
+    content.vb: Public Payload As String
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordData.#ctor
   id: '#ctor'

@@ -21,6 +21,8 @@ items:
   - SuperOffice.CRM.Data.AppointmentTableInfo.ColorIndex
   - SuperOffice.CRM.Data.AppointmentTableInfo.ContactId
   - SuperOffice.CRM.Data.AppointmentTableInfo.ContactId_InnerJoin_Contact
+  - SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
+  - SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
   - SuperOffice.CRM.Data.AppointmentTableInfo.Definition
   - SuperOffice.CRM.Data.AppointmentTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.AppointmentTableInfo.DictionaryTableNumber
@@ -2827,6 +2829,32 @@ items:
       type: SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
     content.vb: Public ReadOnly Property ModifiedAppointmentFields As ModifiedAppointmentFieldsFieldInfo
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields*
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: AppointmentTableInfo.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'created_by_workflow_id' in table 'appointment': Dictionary type FK, target: Workflow, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The workflow this follow-up was created by
+  example: []
+  syntax:
+    content: public Int32FieldInfo CreatedByWorkflowId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CreatedByWorkflowId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId*
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning
   id: CautionWarning
@@ -3431,6 +3459,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TextTableInfo}
     content.vb: Public ReadOnly Property InternalNotesTextId_InnerJoin_Text As TargetedInnerJoin(Of TextTableInfo)
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text*
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  id: CreatedByWorkflowId_InnerJoin_Workflow
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId_InnerJoin_Workflow
+  nameWithType: AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key CreatedByWorkflowId in this table, to its target table <xref href="SuperOffice.CRM.Data.WorkflowTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<WorkflowTableInfo> CreatedByWorkflowId_InnerJoin_Workflow { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+    content.vb: Public ReadOnly Property CreatedByWorkflowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow*
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate
   id: MotherAssociateId_InnerJoin_Associate
@@ -5399,6 +5450,13 @@ references:
   name: ModifiedAppointmentFieldsFieldInfo
   nameWithType: ModifiedAppointmentFieldsFieldInfo
   fullName: SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AppointmentTableInfo.html#SuperOffice_CRM_Data_AppointmentTableInfo_CreatedByWorkflowId
+  name: CreatedByWorkflowId
+  nameWithType: AppointmentTableInfo.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
 - uid: SuperOffice.Data.AppointmentCautionWarning
   commentId: T:SuperOffice.Data.AppointmentCautionWarning
   parent: SuperOffice.Data
@@ -6399,6 +6457,56 @@ references:
   name: InternalNotesTextId_InnerJoin_Text
   nameWithType: AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
   fullName: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
+- uid: SuperOffice.CRM.Data.WorkflowTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  name: WorkflowTableInfo
+  nameWithType: WorkflowTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  isExternal: true
+  href: SuperOffice.CRM.Data.AppointmentTableInfo.html#SuperOffice_CRM_Data_AppointmentTableInfo_CreatedByWorkflowId_InnerJoin_Workflow
+  name: CreatedByWorkflowId_InnerJoin_Workflow
+  nameWithType: AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId_InnerJoin_Workflow
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<WorkflowTableInfo>
+  nameWithType: TargetedInnerJoin<WorkflowTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of WorkflowTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WorkflowTableInfo)
+  name.vb: TargetedInnerJoin(Of WorkflowTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate
   isExternal: true

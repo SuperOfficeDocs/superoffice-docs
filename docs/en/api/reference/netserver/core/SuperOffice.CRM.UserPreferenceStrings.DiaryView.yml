@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.ExtendFindAvailable
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchEndTime
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchStartTime
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.NewFollowUpDialogActive
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.Section
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
@@ -424,6 +425,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const AlarmOnFollowUp As String = "AlarmOnFollowUp"
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.NewFollowUpDialogActive
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.NewFollowUpDialogActive
+  id: NewFollowUpDialogActive
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: NewFollowUpDialogActive
+  nameWithType: UserPreferenceStrings.DiaryView.NewFollowUpDialogActive
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.NewFollowUpDialogActive
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: >-
+    When the new followup dialog is active this will be set to 1, otherwise zero, in program startup.
+
+    Infobridge sync needs this to know if the new followup dialog is active or not in onsite sync.
+  example: []
+  syntax:
+    content: public const string NewFollowUpDialogActive = "NewFollowUpDialogActive"
+    return:
+      type: System.String
+    content.vb: Public Const NewFollowUpDialogActive As String = "NewFollowUpDialogActive"
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM

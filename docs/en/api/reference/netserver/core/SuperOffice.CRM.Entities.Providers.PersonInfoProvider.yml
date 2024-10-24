@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.CRM.Entities.Providers
   children:
   - SuperOffice.CRM.Entities.Providers.PersonInfoProvider.AssociateId
+  - SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Business
+  - SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Category
   - SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Chat
   - SuperOffice.CRM.Entities.Providers.PersonInfoProvider.ChatId
   - SuperOffice.CRM.Entities.Providers.PersonInfoProvider.ChatProtocol
@@ -104,12 +106,13 @@ items:
     a <xref href="SuperOffice.CRM.Entities.Providers.SimplePersonInfo" data-throw-if-not-resolved="false"></xref> instead, fully populate it, and pass that to the factory.
   example: []
   syntax:
-    content: 'public class PersonInfoProvider : ContactPersonInfoProviderBase, IPersonInfo3, IPersonInfo2, IPersonInfo'
-    content.vb: Public Class PersonInfoProvider Inherits ContactPersonInfoProviderBase Implements IPersonInfo3, IPersonInfo2, IPersonInfo
+    content: 'public class PersonInfoProvider : ContactPersonInfoProviderBase, IPersonInfo4, IPersonInfo3, IPersonInfo2, IPersonInfo'
+    content.vb: Public Class PersonInfoProvider Inherits ContactPersonInfoProviderBase Implements IPersonInfo4, IPersonInfo3, IPersonInfo2, IPersonInfo
   inheritance:
   - System.Object
   - SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   implements:
+  - SuperOffice.CRM.IPersonInfo4
   - SuperOffice.CRM.IPersonInfo3
   - SuperOffice.CRM.IPersonInfo2
   - SuperOffice.CRM.IPersonInfo
@@ -1810,6 +1813,56 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.ServiceContactName*
   implements:
   - SuperOffice.CRM.IPersonInfo2.ServiceContactName
+- uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Category
+  commentId: P:SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Category
+  id: Category
+  parent: SuperOffice.CRM.Entities.Providers.PersonInfoProvider
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: PersonInfoProvider.Category
+  fullName: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Category
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: Category from database
+  example: []
+  syntax:
+    content: public string Category { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Category As String
+  overload: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Category*
+  implements:
+  - SuperOffice.CRM.IPersonInfo4.Category
+- uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Business
+  commentId: P:SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Business
+  id: Business
+  parent: SuperOffice.CRM.Entities.Providers.PersonInfoProvider
+  langs:
+  - csharp
+  - vb
+  name: Business
+  nameWithType: PersonInfoProvider.Business
+  fullName: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Business
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: Business from database
+  example: []
+  syntax:
+    content: public string Business { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Business As String
+  overload: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Business*
+  implements:
+  - SuperOffice.CRM.IPersonInfo4.Business
 - uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.CustomFields
   commentId: P:SuperOffice.CRM.Entities.Providers.PersonInfoProvider.CustomFields
   id: CustomFields
@@ -1926,6 +1979,14 @@ references:
   name: ContactPersonInfoProviderBase
   nameWithType: ContactPersonInfoProviderBase
   fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
+- uid: SuperOffice.CRM.IPersonInfo4
+  commentId: T:SuperOffice.CRM.IPersonInfo4
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.IPersonInfo4.html
+  name: IPersonInfo4
+  nameWithType: IPersonInfo4
+  fullName: SuperOffice.CRM.IPersonInfo4
 - uid: SuperOffice.CRM.IPersonInfo3
   commentId: T:SuperOffice.CRM.IPersonInfo3
   parent: SuperOffice.CRM
@@ -3710,6 +3771,34 @@ references:
   name: ServiceContactName
   nameWithType: IPersonInfo2.ServiceContactName
   fullName: SuperOffice.CRM.IPersonInfo2.ServiceContactName
+- uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Category*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Category
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.html#SuperOffice_CRM_Entities_Providers_PersonInfoProvider_Category
+  name: Category
+  nameWithType: PersonInfoProvider.Category
+  fullName: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Category
+- uid: SuperOffice.CRM.IPersonInfo4.Category
+  commentId: P:SuperOffice.CRM.IPersonInfo4.Category
+  parent: SuperOffice.CRM.IPersonInfo4
+  isExternal: true
+  name: Category
+  nameWithType: IPersonInfo4.Category
+  fullName: SuperOffice.CRM.IPersonInfo4.Category
+- uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Business*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Business
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.html#SuperOffice_CRM_Entities_Providers_PersonInfoProvider_Business
+  name: Business
+  nameWithType: PersonInfoProvider.Business
+  fullName: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.Business
+- uid: SuperOffice.CRM.IPersonInfo4.Business
+  commentId: P:SuperOffice.CRM.IPersonInfo4.Business
+  parent: SuperOffice.CRM.IPersonInfo4
+  isExternal: true
+  name: Business
+  nameWithType: IPersonInfo4.Business
+  fullName: SuperOffice.CRM.IPersonInfo4.Business
 - uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.CustomFields*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.PersonInfoProvider.CustomFields
   isExternal: true
@@ -3721,6 +3810,7 @@ references:
   commentId: P:SuperOffice.CRM.IPersonInfo3.CustomFields
   parent: SuperOffice.CRM.IPersonInfo3
   isExternal: true
+  href: SuperOffice.CRM.IPersonInfo3.html#SuperOffice_CRM_IPersonInfo3_CustomFields
   name: CustomFields
   nameWithType: IPersonInfo3.CustomFields
   fullName: SuperOffice.CRM.IPersonInfo3.CustomFields

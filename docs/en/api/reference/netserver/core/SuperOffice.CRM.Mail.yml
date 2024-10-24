@@ -23,6 +23,7 @@ items:
   - SuperOffice.CRM.Mail.SendMailQueue
   - SuperOffice.CRM.Mail.SendMailQueueArgument
   - SuperOffice.CRM.Mail.SendMailQueueProcessor
+  - SuperOffice.CRM.Mail.SendSmsHelper
   - SuperOffice.CRM.Mail.SentEMailInfo
   - SuperOffice.CRM.Mail.SoMail
   - SuperOffice.CRM.Mail.SoMailCredentials
@@ -220,6 +221,13 @@ references:
   name: SendMailQueue
   nameWithType: SendMailQueue
   fullName: SuperOffice.CRM.Mail.SendMailQueue
+- uid: SuperOffice.CRM.Mail.SendSmsHelper
+  commentId: T:SuperOffice.CRM.Mail.SendSmsHelper
+  isExternal: true
+  href: SuperOffice.CRM.Mail.SendSmsHelper.html
+  name: SendSmsHelper
+  nameWithType: SendSmsHelper
+  fullName: SuperOffice.CRM.Mail.SendSmsHelper
 - uid: SuperOffice.CRM.Mail.SoMailCredentials
   commentId: T:SuperOffice.CRM.Mail.SoMailCredentials
   parent: SuperOffice.CRM.Mail

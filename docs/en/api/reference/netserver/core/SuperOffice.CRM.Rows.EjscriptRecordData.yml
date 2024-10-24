@@ -14,11 +14,15 @@ items:
   - SuperOffice.CRM.Rows.EjscriptRecordData.HierarchyId
   - SuperOffice.CRM.Rows.EjscriptRecordData.HtmlOutput
   - SuperOffice.CRM.Rows.EjscriptRecordData.IncludeId
+  - SuperOffice.CRM.Rows.EjscriptRecordData.Includes
+  - SuperOffice.CRM.Rows.EjscriptRecordData.LastCompiled
   - SuperOffice.CRM.Rows.EjscriptRecordData.LastExecAnonHttp
   - SuperOffice.CRM.Rows.EjscriptRecordData.LastExecHttp
   - SuperOffice.CRM.Rows.EjscriptRecordData.LongDescription
   - SuperOffice.CRM.Rows.EjscriptRecordData.Registered
   - SuperOffice.CRM.Rows.EjscriptRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.EjscriptRecordData.SourceCode
+  - SuperOffice.CRM.Rows.EjscriptRecordData.SourceMaps
   - SuperOffice.CRM.Rows.EjscriptRecordData.Type
   - SuperOffice.CRM.Rows.EjscriptRecordData.UniqueIdentifier
   - SuperOffice.CRM.Rows.EjscriptRecordData.Updated
@@ -444,6 +448,90 @@ items:
     return:
       type: System.DateTime
     content.vb: Public LastExecAnonHttp As Date
+- uid: SuperOffice.CRM.Rows.EjscriptRecordData.SourceCode
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRecordData.SourceCode
+  id: SourceCode
+  parent: SuperOffice.CRM.Rows.EjscriptRecordData
+  langs:
+  - csharp
+  - vb
+  name: SourceCode
+  nameWithType: EjscriptRecordData.SourceCode
+  fullName: SuperOffice.CRM.Rows.EjscriptRecordData.SourceCode
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Contains the source code of the script
+  example: []
+  syntax:
+    content: public string SourceCode
+    return:
+      type: System.String
+    content.vb: Public SourceCode As String
+- uid: SuperOffice.CRM.Rows.EjscriptRecordData.Includes
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRecordData.Includes
+  id: Includes
+  parent: SuperOffice.CRM.Rows.EjscriptRecordData
+  langs:
+  - csharp
+  - vb
+  name: Includes
+  nameWithType: EjscriptRecordData.Includes
+  fullName: SuperOffice.CRM.Rows.EjscriptRecordData.Includes
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Contains a comma separated list of ids of all nested includes used by this script
+  example: []
+  syntax:
+    content: public string Includes
+    return:
+      type: System.String
+    content.vb: Public Includes As String
+- uid: SuperOffice.CRM.Rows.EjscriptRecordData.LastCompiled
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRecordData.LastCompiled
+  id: LastCompiled
+  parent: SuperOffice.CRM.Rows.EjscriptRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastCompiled
+  nameWithType: EjscriptRecordData.LastCompiled
+  fullName: SuperOffice.CRM.Rows.EjscriptRecordData.LastCompiled
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: When this script was last compiled (UTC).
+  example: []
+  syntax:
+    content: public DateTime LastCompiled
+    return:
+      type: System.DateTime
+    content.vb: Public LastCompiled As Date
+- uid: SuperOffice.CRM.Rows.EjscriptRecordData.SourceMaps
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRecordData.SourceMaps
+  id: SourceMaps
+  parent: SuperOffice.CRM.Rows.EjscriptRecordData
+  langs:
+  - csharp
+  - vb
+  name: SourceMaps
+  nameWithType: EjscriptRecordData.SourceMaps
+  fullName: SuperOffice.CRM.Rows.EjscriptRecordData.SourceMaps
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Source maps in JSON format
+  example: []
+  syntax:
+    content: public string SourceMaps
+    return:
+      type: System.String
+    content.vb: Public SourceMaps As String
 - uid: SuperOffice.CRM.Rows.EjscriptRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.EjscriptRecordData.#ctor
   id: '#ctor'

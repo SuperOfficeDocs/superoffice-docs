@@ -230,6 +230,7 @@ items:
   - SuperOffice.IO.TagContainer.GetData
   - SuperOffice.IO.TagContainer.ClearData
   - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.GetTags
   - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
@@ -963,7 +964,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: The connection from "Use this link to open the Invitation dialog in SuperOffice SIX"" shown for registered contacts. Blank if the recipient not is a registered contact.
+  summary: Not in use. Return empty string
   example: []
   syntax:
     content: >-
@@ -1068,7 +1069,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: The connection from "superoffice:invitations" to the invitation dialog box
+  summary: Not in use. Return empty string
   example: []
   syntax:
     content: >-
@@ -7193,6 +7194,25 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.IO.TagContainer.GetTags
+  commentId: M:SuperOffice.IO.TagContainer.GetTags
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetTags()
+  nameWithType: TagContainer.GetTags()
+  fullName: SuperOffice.IO.TagContainer.GetTags()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetTags
+    name: GetTags
+    isExternal: true
+  - name: (
   - name: )
 - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)

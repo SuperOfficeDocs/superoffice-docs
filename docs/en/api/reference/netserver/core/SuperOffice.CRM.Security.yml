@@ -26,6 +26,8 @@ items:
   - SuperOffice.CRM.Security.FunctionRight
   - SuperOffice.CRM.Security.FunctionRightCache
   - SuperOffice.CRM.Security.GenericRight
+  - SuperOffice.CRM.Security.HierarchySentry
+  - SuperOffice.CRM.Security.HierarchySentryQueryInfo
   - SuperOffice.CRM.Security.ISentryIgnorable
   - SuperOffice.CRM.Security.ISentryPlugin
   - SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
@@ -500,6 +502,20 @@ references:
   name: FunctionRightCache
   nameWithType: FunctionRightCache
   fullName: SuperOffice.CRM.Security.FunctionRightCache
+- uid: SuperOffice.CRM.Security.HierarchySentry
+  commentId: T:SuperOffice.CRM.Security.HierarchySentry
+  isExternal: true
+  href: SuperOffice.CRM.Security.HierarchySentry.html
+  name: HierarchySentry
+  nameWithType: HierarchySentry
+  fullName: SuperOffice.CRM.Security.HierarchySentry
+- uid: SuperOffice.CRM.Security.HierarchySentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.HierarchySentryQueryInfo
+  isExternal: true
+  href: SuperOffice.CRM.Security.HierarchySentryQueryInfo.html
+  name: HierarchySentryQueryInfo
+  nameWithType: HierarchySentryQueryInfo
+  fullName: SuperOffice.CRM.Security.HierarchySentryQueryInfo
 - uid: SuperOffice.CRM.Security.KbEntrySentry
   commentId: T:SuperOffice.CRM.Security.KbEntrySentry
   isExternal: true

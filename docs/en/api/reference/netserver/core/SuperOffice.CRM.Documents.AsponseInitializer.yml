@@ -15,7 +15,7 @@ items:
   fullName: SuperOffice.CRM.Documents.AsponseInitializer
   type: Class
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.CRM.Documents
   syntax:
     content: public class AsponseInitializer
@@ -47,7 +47,7 @@ items:
   fullName: SuperOffice.CRM.Documents.AsponseInitializer.Initialize()
   type: Method
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.CRM.Documents
   syntax:
     content: public static void Initialize()
@@ -65,7 +65,7 @@ items:
   fullName: SuperOffice.CRM.Documents.AsponseInitializer.AsponseInitializer()
   type: Constructor
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.CRM.Documents
   syntax:
     content: public AsponseInitializer()

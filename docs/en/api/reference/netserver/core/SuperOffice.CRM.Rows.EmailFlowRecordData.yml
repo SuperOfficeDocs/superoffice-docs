@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Rows.EmailFlowRecordData.GaCampaign
   - SuperOffice.CRM.Rows.EmailFlowRecordData.GaSource
   - SuperOffice.CRM.Rows.EmailFlowRecordData.HierarchyId
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.MainMessageId
   - SuperOffice.CRM.Rows.EmailFlowRecordData.OverrideConsentSubscription
   - SuperOffice.CRM.Rows.EmailFlowRecordData.Registered
   - SuperOffice.CRM.Rows.EmailFlowRecordData.RegisteredAssociateId
@@ -107,7 +108,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The flow this instance belongs to
+  summary: The workflow this emailflow belongs to
   example: []
   syntax:
     content: public int WorkflowId
@@ -576,6 +577,27 @@ items:
     return:
       type: System.String
     content.vb: Public ReplyToName As String
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.MainMessageId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.MainMessageId
+  id: MainMessageId
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: MainMessageId
+  nameWithType: EmailFlowRecordData.MainMessageId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.MainMessageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The main email message, used for thumbnail creation
+  example: []
+  syntax:
+    content: public int MainMessageId
+    return:
+      type: System.Int32
+    content.vb: Public MainMessageId As Integer
 - uid: SuperOffice.CRM.Rows.EmailFlowRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.EmailFlowRecordData.#ctor
   id: '#ctor'

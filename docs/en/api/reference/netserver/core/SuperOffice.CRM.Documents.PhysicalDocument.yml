@@ -30,6 +30,8 @@ items:
   - SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference
   - SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins
   - SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCode
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCulture
   - SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId
   - SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(SuperOffice.CRM.IDocumentInfo)
   - SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(System.Int32)
@@ -474,6 +476,52 @@ items:
       type: System.IO.Stream
     content.vb: Public Function LoadDocumentStream() As Stream
   overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream*
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCode
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCode
+  id: GetDatabaseLanguageCode
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDatabaseLanguageCode()
+  nameWithType: PhysicalDocument.GetDatabaseLanguageCode()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCode()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: Returns the database language for the current SuperOffice installation as stored in the ProductVersion table "SuperOffice" "DatabaseLanguage". "US"
+  example: []
+  syntax:
+    content: public static string GetDatabaseLanguageCode()
+    return:
+      type: System.String
+      description: 'SuperOffice Language code: "US", "SW", "GE" etc. NULL if nothing is configured.'
+    content.vb: Public Shared Function GetDatabaseLanguageCode() As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCode*
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCulture
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCulture
+  id: GetDatabaseLanguageCulture
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDatabaseLanguageCulture()
+  nameWithType: PhysicalDocument.GetDatabaseLanguageCulture()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCulture()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: Returns the database language for the current SuperOffice installation as stored in the ProductVersion table "SuperOffice" "DatabaseLanguage". "US"
+  example: []
+  syntax:
+    content: public static CultureInfo GetDatabaseLanguageCulture()
+    return:
+      type: System.Globalization.CultureInfo
+      description: 'CultureInfo based on the neutral ISO language: "en", "sv", "de" etc. NULL if nothing is configured.'
+    content.vb: Public Shared Function GetDatabaseLanguageCulture() As CultureInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCulture*
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
   commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
   id: GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
@@ -488,15 +536,26 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
+  summary: >-
+    Return the list of language-specific variants of a given document template, excepting the default language ("").
+
+    The DatabaseLanguage should be used to determine the default language.
+  example: []
   syntax:
     content: public static string[] GetTemplateLanguages(IDocumentTemplateInfo templateInfo)
     parameters:
     - id: templateInfo
       type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: The document template info
     return:
       type: System.String[]
+      description: 'Array of ISO language codes identifying language variants: ["en", "sv", "de"]. Empty array if no variants'
     content.vb: Public Shared Function GetTemplateLanguages(templateInfo As IDocumentTemplateInfo) As String()
   overload: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: Throws if templateInfo is null or id 0
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
   commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
   id: GetDocumentUrl
@@ -2845,6 +2904,62 @@ references:
   name: LoadDocumentStream
   nameWithType: PhysicalDocument.LoadDocumentStream
   fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCode*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCode
+  isExternal: true
+  href: SuperOffice.CRM.Documents.PhysicalDocument.html#SuperOffice_CRM_Documents_PhysicalDocument_GetDatabaseLanguageCode
+  name: GetDatabaseLanguageCode
+  nameWithType: PhysicalDocument.GetDatabaseLanguageCode
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCode
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCulture*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCulture
+  isExternal: true
+  href: SuperOffice.CRM.Documents.PhysicalDocument.html#SuperOffice_CRM_Documents_PhysicalDocument_GetDatabaseLanguageCulture
+  name: GetDatabaseLanguageCulture
+  nameWithType: PhysicalDocument.GetDatabaseLanguageCulture
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDatabaseLanguageCulture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: SuperOffice.Exceptions.SoIllegalOperationException
+  commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+  isExternal: true
+  href: SuperOffice.Exceptions.SoIllegalOperationException.html
+  name: SoIllegalOperationException
+  nameWithType: SoIllegalOperationException
+  fullName: SuperOffice.Exceptions.SoIllegalOperationException
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages*
   commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages
   isExternal: true

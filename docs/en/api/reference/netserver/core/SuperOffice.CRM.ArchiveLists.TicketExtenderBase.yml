@@ -5,7 +5,7 @@ items:
   id: TicketExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.CategoryFullName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColCategoryFullName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnConnectId
@@ -34,6 +34,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colContent
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedAt
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedBy
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colDeadline
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colFirstReadByOwner
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colFirstReadByUser
@@ -1266,16 +1267,35 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colSuggestedCategory As ArchiveColumnInfo
-- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)'
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
+  id: _colCreatedByWorkflow
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
   langs:
   - csharp
   - vb
-  name: TicketExtenderBase(Features)
-  nameWithType: TicketExtenderBase.TicketExtenderBase(TicketExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketExtenderBase(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
+  name: _colCreatedByWorkflow
+  nameWithType: TicketExtenderBase._colCreatedByWorkflow
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCreatedByWorkflow
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCreatedByWorkflow As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: TicketExtenderBase(Features, string)
+  nameWithType: TicketExtenderBase.TicketExtenderBase(TicketExtenderBase.Features, string)
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketExtenderBase(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, string)
   type: Constructor
   assemblies:
   - SoDataBase
@@ -1283,15 +1303,17 @@ items:
   summary: Construct the extender and all all standard extenders (all features)
   example: []
   syntax:
-    content: public TicketExtenderBase(TicketExtenderBase.Features features = Features.All)
+    content: public TicketExtenderBase(TicketExtenderBase.Features features = Features.All, string iconHint = "Ticket")
     parameters:
     - id: features
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    content.vb: Public Sub New(features As TicketExtenderBase.Features = Features.All)
+    - id: iconHint
+      type: System.String
+    content.vb: Public Sub New(features As TicketExtenderBase.Features = Features.All, iconHint As String = "Ticket")
   overload: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor*
-  nameWithType.vb: TicketExtenderBase.New(TicketExtenderBase.Features)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.New(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  name.vb: New(Features)
+  nameWithType.vb: TicketExtenderBase.New(TicketExtenderBase.Features, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.New(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, String)
+  name.vb: New(Features, String)
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerModifyQuery
   id: InnerModifyQuery
@@ -6271,7 +6293,7 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.#ctor
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketExtenderBase__ctor_SuperOffice_CRM_ArchiveLists_TicketExtenderBase_Features_
+  href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketExtenderBase__ctor_SuperOffice_CRM_ArchiveLists_TicketExtenderBase_Features_System_String_
   name: TicketExtenderBase
   nameWithType: TicketExtenderBase.TicketExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketExtenderBase

@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  commentId: T:SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  id: DBC.FormFieldValueFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.BoolValue
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.DatetimeValue
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.DoubleValue
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.FormFieldValueId
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.FormSubmissionId
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.IntValue
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.Label
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.Rank
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.Registered
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.Sequence
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.StringValue
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.Type
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.Updated
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.FormFieldValueFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.FormFieldValueFields
+  nameWithType: DBC.FormFieldValueFields
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Fields for FormFieldValue, Form field values saved in a searchable format
+  example: []
+  syntax:
+    content: public static class DBC.FormFieldValueFields
+    content.vb: Public Module DBC.FormFieldValueFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.FormFieldValueId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.FormFieldValueId
+  id: FormFieldValueId
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: FormFieldValueId
+  nameWithType: DBC.FormFieldValueFields.FormFieldValueId
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.FormFieldValueId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.FormFieldValueId: Primary key'
+  example: []
+  syntax:
+    content: public const string FormFieldValueId = "form_field_value_id"
+    return:
+      type: System.String
+    content.vb: Public Const FormFieldValueId As String = "form_field_value_id"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.FormSubmissionId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: DBC.FormFieldValueFields.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.FormSubmissionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.FormSubmissionId: The form submission this set of values belong to'
+  example: []
+  syntax:
+    content: public const string FormSubmissionId = "form_submission_id"
+    return:
+      type: System.String
+    content.vb: Public Const FormSubmissionId As String = "form_submission_id"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.FormFieldValueFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Rank
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.Rank: The rank of this form field within the form'
+  example: []
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Label
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.Label
+  id: Label
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: DBC.FormFieldValueFields.Label
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Label
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.Label: The label of this form field'
+  example: []
+  syntax:
+    content: public const string Label = "label"
+    return:
+      type: System.String
+    content.vb: Public Const Label As String = "label"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.FormFieldValueFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Type
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.Type: The type of this form field'
+  example: []
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Sequence
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.Sequence
+  id: Sequence
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: Sequence
+  nameWithType: DBC.FormFieldValueFields.Sequence
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Sequence
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.Sequence: The sequence of this form field'
+  example: []
+  syntax:
+    content: public const string Sequence = "sequence"
+    return:
+      type: System.String
+    content.vb: Public Const Sequence As String = "sequence"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.StringValue
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.StringValue
+  id: StringValue
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: StringValue
+  nameWithType: DBC.FormFieldValueFields.StringValue
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.StringValue
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.StringValue: The string value of this form field'
+  example: []
+  syntax:
+    content: public const string StringValue = "string_value"
+    return:
+      type: System.String
+    content.vb: Public Const StringValue As String = "string_value"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.IntValue
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.IntValue
+  id: IntValue
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: IntValue
+  nameWithType: DBC.FormFieldValueFields.IntValue
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.IntValue
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.IntValue: The integer value of this form field'
+  example: []
+  syntax:
+    content: public const string IntValue = "int_value"
+    return:
+      type: System.String
+    content.vb: Public Const IntValue As String = "int_value"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.DoubleValue
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.DoubleValue
+  id: DoubleValue
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: DoubleValue
+  nameWithType: DBC.FormFieldValueFields.DoubleValue
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.DoubleValue
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.DoubleValue: The double value of this form field'
+  example: []
+  syntax:
+    content: public const string DoubleValue = "double_value"
+    return:
+      type: System.String
+    content.vb: Public Const DoubleValue As String = "double_value"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.BoolValue
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.BoolValue
+  id: BoolValue
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: BoolValue
+  nameWithType: DBC.FormFieldValueFields.BoolValue
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.BoolValue
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.BoolValue: The boolean value of this form field'
+  example: []
+  syntax:
+    content: public const string BoolValue = "bool_value"
+    return:
+      type: System.String
+    content.vb: Public Const BoolValue As String = "bool_value"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.DatetimeValue
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.DatetimeValue
+  id: DatetimeValue
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: DatetimeValue
+  nameWithType: DBC.FormFieldValueFields.DatetimeValue
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.DatetimeValue
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.DatetimeValue: The datetime value of this form field'
+  example: []
+  syntax:
+    content: public const string DatetimeValue = "datetime_value"
+    return:
+      type: System.String
+    content.vb: Public Const DatetimeValue As String = "datetime_value"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.FormFieldValueFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.Registered: Registered when'
+  example: []
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.FormFieldValueFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.RegisteredAssociateId: Registered by whom'
+  example: []
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.FormFieldValueFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.Updated: Last updated when'
+  example: []
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.FormFieldValueFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.UpdatedAssociateId: Last updated by whom'
+  example: []
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldValueFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.FormFieldValueFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.FormFieldValueFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldValueFields.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldValue.UpdatedCount: Number of updates made to this record'
+  example: []
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

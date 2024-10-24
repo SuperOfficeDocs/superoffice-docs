@@ -127,8 +127,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
-    content: public static class SoLists
-    content.vb: Public Module SoLists
+    content: >-
+      [Obsolete("Not used anywhere so will be removed. Use SoListProviderFactory.Create(...) instead")]
+
+      public static class SoLists
+    content.vb: >-
+      <Obsolete("Not used anywhere so will be removed. Use SoListProviderFactory.Create(...) instead")>
+
+      Public Module SoLists
   inheritance:
   - System.Object
   inheritedMembers:
@@ -139,6 +145,12 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not used anywhere so will be removed. Use SoListProviderFactory.Create(...) instead
 - uid: SuperOffice.CRM.Lists.SoLists.GetCountryList
   commentId: M:SuperOffice.CRM.Lists.SoLists.GetCountryList
   id: GetCountryList

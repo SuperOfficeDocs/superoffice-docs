@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists.Joiners
   children:
   - SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
   - SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.SetJoin
   langs:
   - csharp
@@ -34,6 +35,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.AnalyzeTable
@@ -212,6 +214,32 @@ items:
   nameWithType.vb: SaleExtraFieldExtender.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.New()
   name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
+  id: '#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)'
+  parent: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender
+  langs:
+  - csharp
+  - vb
+  name: SaleExtraFieldExtender(string, RecursionInfo)
+  nameWithType: SaleExtraFieldExtender.SaleExtraFieldExtender(string, RecursionInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.SaleExtraFieldExtender(string, SuperOffice.CRM.ArchiveLists.RecursionInfo)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Joiners
+  syntax:
+    content: public SaleExtraFieldExtender(string iconHint, RecursionInfo recursionInfo)
+    parameters:
+    - id: iconHint
+      type: System.String
+    - id: recursionInfo
+      type: SuperOffice.CRM.ArchiveLists.RecursionInfo
+    content.vb: Public Sub New(iconHint As String, recursionInfo As RecursionInfo)
+  overload: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor*
+  nameWithType.vb: SaleExtraFieldExtender.New(String, RecursionInfo)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.New(String, SuperOffice.CRM.ArchiveLists.RecursionInfo)
+  name.vb: New(String, RecursionInfo)
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Joiners
   commentId: N:SuperOffice.CRM.ArchiveLists.Joiners
@@ -405,6 +433,14 @@ references:
   name: _soTable
   nameWithType: ExtraFieldExtenderBase._soTable
   fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
+  parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ExtraFieldExtenderBase__recursionInfo
+  name: _recursionInfo
+  nameWithType: ExtraFieldExtenderBase._recursionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
@@ -5342,3 +5378,22 @@ references:
   nameWithType.vb: SaleExtraFieldExtender.New
   fullName.vb: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.New
   name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.ArchiveLists.RecursionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.RecursionInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RecursionInfo.html
+  name: RecursionInfo
+  nameWithType: RecursionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.RecursionInfo

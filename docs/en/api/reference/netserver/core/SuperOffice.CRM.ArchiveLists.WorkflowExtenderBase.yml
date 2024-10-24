@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colUpdatedDate
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowCompletedCount
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatus
+  - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatusId
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowEnrolledCount
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowId
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowInProgressCount
@@ -276,6 +277,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colWorkflowDefinitionStatus As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatusId
+  commentId: F:SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatusId
+  id: _colWorkflowDefinitionStatusId
+  parent: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colWorkflowDefinitionStatusId
+  nameWithType: WorkflowExtenderBase._colWorkflowDefinitionStatusId
+  fullName: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colWorkflowDefinitionStatusId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colWorkflowDefinitionStatusId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colWorkflowDefinitionStatusId As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colJumpToFinish
   commentId: F:SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase._colJumpToFinish
   id: _colJumpToFinish

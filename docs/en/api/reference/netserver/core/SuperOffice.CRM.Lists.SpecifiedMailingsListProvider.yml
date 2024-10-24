@@ -14,10 +14,13 @@ items:
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider.TableInfo
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._configurations
+  - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowContentLinkTableInfo
+  - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowTableInfo
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._hierarchy
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._messageTableInfo
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._shipmentTableInfo
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._tracked
+  - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._workflowTableInfo
   langs:
   - csharp
   - vb
@@ -231,6 +234,63 @@ items:
     return:
       type: SuperOffice.CRM.Data.SMessageTableInfo
     content.vb: Protected _messageTableInfo As SMessageTableInfo
+- uid: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowContentLinkTableInfo
+  commentId: F:SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowContentLinkTableInfo
+  id: _emailFlowContentLinkTableInfo
+  parent: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
+  langs:
+  - csharp
+  - vb
+  name: _emailFlowContentLinkTableInfo
+  nameWithType: SpecifiedMailingsListProvider._emailFlowContentLinkTableInfo
+  fullName: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowContentLinkTableInfo
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected EmailFlowContentLinkTableInfo _emailFlowContentLinkTableInfo
+    return:
+      type: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+    content.vb: Protected _emailFlowContentLinkTableInfo As EmailFlowContentLinkTableInfo
+- uid: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._workflowTableInfo
+  commentId: F:SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._workflowTableInfo
+  id: _workflowTableInfo
+  parent: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
+  langs:
+  - csharp
+  - vb
+  name: _workflowTableInfo
+  nameWithType: SpecifiedMailingsListProvider._workflowTableInfo
+  fullName: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._workflowTableInfo
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected WorkflowTableInfo _workflowTableInfo
+    return:
+      type: SuperOffice.CRM.Data.WorkflowTableInfo
+    content.vb: Protected _workflowTableInfo As WorkflowTableInfo
+- uid: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowTableInfo
+  commentId: F:SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowTableInfo
+  id: _emailFlowTableInfo
+  parent: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
+  langs:
+  - csharp
+  - vb
+  name: _emailFlowTableInfo
+  nameWithType: SpecifiedMailingsListProvider._emailFlowTableInfo
+  fullName: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowTableInfo
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected EmailFlowTableInfo _emailFlowTableInfo
+    return:
+      type: SuperOffice.CRM.Data.EmailFlowTableInfo
+    content.vb: Protected _emailFlowTableInfo As EmailFlowTableInfo
 - uid: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider.Init
   commentId: M:SuperOffice.CRM.Lists.SpecifiedMailingsListProvider.Init
   id: Init
@@ -1746,6 +1806,30 @@ references:
   name: SMessageTableInfo
   nameWithType: SMessageTableInfo
   fullName: SuperOffice.CRM.Data.SMessageTableInfo
+- uid: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo.html
+  name: EmailFlowContentLinkTableInfo
+  nameWithType: EmailFlowContentLinkTableInfo
+  fullName: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  name: WorkflowTableInfo
+  nameWithType: WorkflowTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+- uid: SuperOffice.CRM.Data.EmailFlowTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailFlowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailFlowTableInfo.html
+  name: EmailFlowTableInfo
+  nameWithType: EmailFlowTableInfo
+  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase

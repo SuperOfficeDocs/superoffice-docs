@@ -21,6 +21,7 @@ items:
   - SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   - SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
   - SuperOffice.Data.QueryExecutionHelper.Reader
   - SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
@@ -383,6 +384,46 @@ items:
   nameWithType.vb: QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SqlCommand)
   fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand)
   name.vb: ExecuteTypedScalar(Of ReturnType)(SqlCommand)
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  id: ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteTypedScalar<ReturnType>(SqlCommand, bool)
+  nameWithType: QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SuperOffice.Data.SQL.SqlCommand, bool)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    Execute a command that has a single-valued (scalar) result, and immediately clean up.
+
+    <p></p>The return value is converted to the given type, if possible. If the result of the query
+
+    was empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).
+  example: []
+  syntax:
+    content: public static ReturnType ExecuteTypedScalar<ReturnType>(SqlCommand command, bool ignoreSentry)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Should sentry be ignored
+    typeParameters:
+    - id: ReturnType
+    return:
+      type: '{ReturnType}'
+      description: Scalar result, correctly cast; or default(ReturnType)
+    content.vb: Public Shared Function ExecuteTypedScalar(Of ReturnType)(command As SqlCommand, ignoreSentry As Boolean) As ReturnType
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar*
+  nameWithType.vb: QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteTypedScalar(Of ReturnType)(SqlCommand, Boolean)
 - uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   id: ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)

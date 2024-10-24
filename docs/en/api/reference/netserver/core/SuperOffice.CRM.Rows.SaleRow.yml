@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow.ComptrId
   - SuperOffice.CRM.Rows.SaleRow.ContactId
   - SuperOffice.CRM.Rows.SaleRow.CreateNew
+  - SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
   - SuperOffice.CRM.Rows.SaleRow.CreditedId
   - SuperOffice.CRM.Rows.SaleRow.CurrencyId
   - SuperOffice.CRM.Rows.SaleRow.Done
@@ -43,6 +44,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow.OnAssociateIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnComptrIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnContactIdChange
+  - SuperOffice.CRM.Rows.SaleRow.OnCreatedByWorkflowIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnCreditedIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnCurrencyIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnDoneChange
@@ -121,6 +123,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._currentAssociateId
   - SuperOffice.CRM.Rows.SaleRow._currentComptrId
   - SuperOffice.CRM.Rows.SaleRow._currentContactId
+  - SuperOffice.CRM.Rows.SaleRow._currentCreatedByWorkflowId
   - SuperOffice.CRM.Rows.SaleRow._currentCreditedId
   - SuperOffice.CRM.Rows.SaleRow._currentCurrencyId
   - SuperOffice.CRM.Rows.SaleRow._currentDone
@@ -163,6 +166,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._onAssociateIdChange
   - SuperOffice.CRM.Rows.SaleRow._onComptrIdChange
   - SuperOffice.CRM.Rows.SaleRow._onContactIdChange
+  - SuperOffice.CRM.Rows.SaleRow._onCreatedByWorkflowIdChange
   - SuperOffice.CRM.Rows.SaleRow._onCreditedIdChange
   - SuperOffice.CRM.Rows.SaleRow._onCurrencyIdChange
   - SuperOffice.CRM.Rows.SaleRow._onDoneChange
@@ -204,6 +208,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._persistedAssociateId
   - SuperOffice.CRM.Rows.SaleRow._persistedComptrId
   - SuperOffice.CRM.Rows.SaleRow._persistedContactId
+  - SuperOffice.CRM.Rows.SaleRow._persistedCreatedByWorkflowId
   - SuperOffice.CRM.Rows.SaleRow._persistedCreditedId
   - SuperOffice.CRM.Rows.SaleRow._persistedCurrencyId
   - SuperOffice.CRM.Rows.SaleRow._persistedDone
@@ -383,6 +388,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.SaleRow._persistedSaleId
   commentId: F:SuperOffice.CRM.Rows.SaleRow._persistedSaleId
   id: _persistedSaleId
@@ -1265,6 +1271,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedActiveErpLinks As Integer
+- uid: SuperOffice.CRM.Rows.SaleRow._persistedCreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.SaleRow._persistedCreatedByWorkflowId
+  id: _persistedCreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedCreatedByWorkflowId
+  nameWithType: SaleRow._persistedCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.SaleRow._persistedCreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedCreatedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedCreatedByWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.SaleRow._currentSaleId
   commentId: F:SuperOffice.CRM.Rows.SaleRow._currentSaleId
   id: _currentSaleId
@@ -2147,6 +2174,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentActiveErpLinks As Integer
+- uid: SuperOffice.CRM.Rows.SaleRow._currentCreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.SaleRow._currentCreatedByWorkflowId
+  id: _currentCreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _currentCreatedByWorkflowId
+  nameWithType: SaleRow._currentCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.SaleRow._currentCreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentCreatedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentCreatedByWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.SaleRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.SaleRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -4334,6 +4382,37 @@ items:
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
     description: Thrown if the set method is accessed without having the Write access right to the field
+- uid: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
+  commentId: P:SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: SaleRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The workflow this sale was created by'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int CreatedByWorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CreatedByWorkflowId As Integer
+  overload: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId*
 - uid: SuperOffice.CRM.Rows.SaleRow._onAssociateIdChange
   commentId: E:SuperOffice.CRM.Rows.SaleRow._onAssociateIdChange
   id: _onAssociateIdChange
@@ -5195,6 +5274,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Protected Event _onActiveErpLinksChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.SaleRow._onCreatedByWorkflowIdChange
+  commentId: E:SuperOffice.CRM.Rows.SaleRow._onCreatedByWorkflowIdChange
+  id: _onCreatedByWorkflowIdChange
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _onCreatedByWorkflowIdChange
+  nameWithType: SaleRow._onCreatedByWorkflowIdChange
+  fullName: SuperOffice.CRM.Rows.SaleRow._onCreatedByWorkflowIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onCreatedByWorkflowIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onCreatedByWorkflowIdChange As OnFieldChange(Of Integer)
 - uid: SuperOffice.CRM.Rows.SaleRow.OnAssociateIdChange
   commentId: E:SuperOffice.CRM.Rows.SaleRow.OnAssociateIdChange
   id: OnAssociateIdChange
@@ -6056,6 +6156,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Public Event OnActiveErpLinksChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.SaleRow.OnCreatedByWorkflowIdChange
+  commentId: E:SuperOffice.CRM.Rows.SaleRow.OnCreatedByWorkflowIdChange
+  id: OnCreatedByWorkflowIdChange
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: OnCreatedByWorkflowIdChange
+  nameWithType: SaleRow.OnCreatedByWorkflowIdChange
+  fullName: SuperOffice.CRM.Rows.SaleRow.OnCreatedByWorkflowIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when CreatedByWorkflowId is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnCreatedByWorkflowIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnCreatedByWorkflowIdChange As OnFieldChange(Of Integer)
 references:
 - uid: SuperOffice.CRM.Rows.SaleRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.SaleRow.CreateNew
@@ -8088,6 +8209,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -8485,6 +8659,58 @@ references:
     name: SqlCommand
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
@@ -8899,6 +9125,13 @@ references:
   name: ActiveErpLinks
   nameWithType: SaleRow.ActiveErpLinks
   fullName: SuperOffice.CRM.Rows.SaleRow.ActiveErpLinks
+- uid: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
+  commentId: P:SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRow.html#SuperOffice_CRM_Rows_SaleRow_CreatedByWorkflowId
+  name: CreatedByWorkflowId
+  nameWithType: SaleRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -9954,6 +10187,13 @@ references:
   name: ActiveErpLinks
   nameWithType: SaleRow.ActiveErpLinks
   fullName: SuperOffice.CRM.Rows.SaleRow.ActiveErpLinks
+- uid: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRow.html#SuperOffice_CRM_Rows_SaleRow_CreatedByWorkflowId
+  name: CreatedByWorkflowId
+  nameWithType: SaleRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.SaleRow.CreatedByWorkflowId
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

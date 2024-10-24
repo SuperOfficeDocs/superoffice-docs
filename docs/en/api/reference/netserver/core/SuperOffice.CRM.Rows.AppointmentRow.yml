@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.ColorIndex
   - SuperOffice.CRM.Rows.AppointmentRow.ContactId
   - SuperOffice.CRM.Rows.AppointmentRow.CreateNew
+  - SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
   - SuperOffice.CRM.Rows.AppointmentRow.DoBy
   - SuperOffice.CRM.Rows.AppointmentRow.DocumentId
   - SuperOffice.CRM.Rows.AppointmentRow.Done
@@ -70,6 +71,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.OnCentralserviceVideomeetIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnColorIndexChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnContactIdChange
+  - SuperOffice.CRM.Rows.AppointmentRow.OnCreatedByWorkflowIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnDoByChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnDocumentIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnDoneChange
@@ -162,6 +164,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._currentCentralserviceVideomeetId
   - SuperOffice.CRM.Rows.AppointmentRow._currentColorIndex
   - SuperOffice.CRM.Rows.AppointmentRow._currentContactId
+  - SuperOffice.CRM.Rows.AppointmentRow._currentCreatedByWorkflowId
   - SuperOffice.CRM.Rows.AppointmentRow._currentDoBy
   - SuperOffice.CRM.Rows.AppointmentRow._currentDocumentId
   - SuperOffice.CRM.Rows.AppointmentRow._currentDone
@@ -216,6 +219,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._onCentralserviceVideomeetIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onColorIndexChange
   - SuperOffice.CRM.Rows.AppointmentRow._onContactIdChange
+  - SuperOffice.CRM.Rows.AppointmentRow._onCreatedByWorkflowIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onDoByChange
   - SuperOffice.CRM.Rows.AppointmentRow._onDocumentIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onDoneChange
@@ -271,6 +275,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._persistedCentralserviceVideomeetId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedColorIndex
   - SuperOffice.CRM.Rows.AppointmentRow._persistedContactId
+  - SuperOffice.CRM.Rows.AppointmentRow._persistedCreatedByWorkflowId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedDoBy
   - SuperOffice.CRM.Rows.AppointmentRow._persistedDocumentId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedDone
@@ -464,6 +469,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.AppointmentRow._persistedAppointmentId
   commentId: F:SuperOffice.CRM.Rows.AppointmentRow._persistedAppointmentId
   id: _persistedAppointmentId
@@ -1577,6 +1583,27 @@ items:
     return:
       type: SuperOffice.Data.ModifiedAppointmentFields
     content.vb: Protected _persistedModifiedAppointmentFields As ModifiedAppointmentFields
+- uid: SuperOffice.CRM.Rows.AppointmentRow._persistedCreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRow._persistedCreatedByWorkflowId
+  id: _persistedCreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedCreatedByWorkflowId
+  nameWithType: AppointmentRow._persistedCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._persistedCreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedCreatedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedCreatedByWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.AppointmentRow._persistedCautionWarning
   commentId: F:SuperOffice.CRM.Rows.AppointmentRow._persistedCautionWarning
   id: _persistedCautionWarning
@@ -2732,6 +2759,27 @@ items:
     return:
       type: SuperOffice.Data.ModifiedAppointmentFields
     content.vb: Protected _currentModifiedAppointmentFields As ModifiedAppointmentFields
+- uid: SuperOffice.CRM.Rows.AppointmentRow._currentCreatedByWorkflowId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRow._currentCreatedByWorkflowId
+  id: _currentCreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _currentCreatedByWorkflowId
+  nameWithType: AppointmentRow._currentCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._currentCreatedByWorkflowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentCreatedByWorkflowId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentCreatedByWorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.AppointmentRow._currentCautionWarning
   commentId: F:SuperOffice.CRM.Rows.AppointmentRow._currentCautionWarning
   id: _currentCautionWarning
@@ -5568,6 +5616,37 @@ items:
       type: SuperOffice.Data.ModifiedAppointmentFields
     content.vb: Public Overridable Property ModifiedAppointmentFields As ModifiedAppointmentFields
   overload: SuperOffice.CRM.Rows.AppointmentRow.ModifiedAppointmentFields*
+- uid: SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
+  commentId: P:SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
+  id: CreatedByWorkflowId
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: CreatedByWorkflowId
+  nameWithType: AppointmentRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The workflow this follow-up was created by'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int CreatedByWorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CreatedByWorkflowId As Integer
+  overload: SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId*
 - uid: SuperOffice.CRM.Rows.AppointmentRow.CautionWarning
   commentId: P:SuperOffice.CRM.Rows.AppointmentRow.CautionWarning
   id: CautionWarning
@@ -6722,6 +6801,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ModifiedAppointmentFields}
     content.vb: Protected Event _onModifiedAppointmentFieldsChange As OnFieldChange(Of ModifiedAppointmentFields)
+- uid: SuperOffice.CRM.Rows.AppointmentRow._onCreatedByWorkflowIdChange
+  commentId: E:SuperOffice.CRM.Rows.AppointmentRow._onCreatedByWorkflowIdChange
+  id: _onCreatedByWorkflowIdChange
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _onCreatedByWorkflowIdChange
+  nameWithType: AppointmentRow._onCreatedByWorkflowIdChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._onCreatedByWorkflowIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onCreatedByWorkflowIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onCreatedByWorkflowIdChange As OnFieldChange(Of Integer)
 - uid: SuperOffice.CRM.Rows.AppointmentRow._onCautionWarningChange
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow._onCautionWarningChange
   id: _onCautionWarningChange
@@ -7856,6 +7956,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ModifiedAppointmentFields}
     content.vb: Public Event OnModifiedAppointmentFieldsChange As OnFieldChange(Of ModifiedAppointmentFields)
+- uid: SuperOffice.CRM.Rows.AppointmentRow.OnCreatedByWorkflowIdChange
+  commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnCreatedByWorkflowIdChange
+  id: OnCreatedByWorkflowIdChange
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: OnCreatedByWorkflowIdChange
+  nameWithType: AppointmentRow.OnCreatedByWorkflowIdChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.OnCreatedByWorkflowIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when CreatedByWorkflowId is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnCreatedByWorkflowIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnCreatedByWorkflowIdChange As OnFieldChange(Of Integer)
 - uid: SuperOffice.CRM.Rows.AppointmentRow.OnCautionWarningChange
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnCautionWarningChange
   id: OnCautionWarningChange
@@ -10322,6 +10443,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -11103,6 +11277,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -11641,6 +11867,13 @@ references:
   name: ModifiedAppointmentFields
   nameWithType: ModifiedAppointmentFields
   fullName: SuperOffice.Data.ModifiedAppointmentFields
+- uid: SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
+  commentId: P:SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html#SuperOffice_CRM_Rows_AppointmentRow_CreatedByWorkflowId
+  name: CreatedByWorkflowId
+  nameWithType: AppointmentRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
 - uid: SuperOffice.CRM.Rows.AppointmentRow.CautionWarning
   commentId: P:SuperOffice.CRM.Rows.AppointmentRow.CautionWarning
   isExternal: true
@@ -12882,6 +13115,13 @@ references:
   name: ModifiedAppointmentFields
   nameWithType: AppointmentRow.ModifiedAppointmentFields
   fullName: SuperOffice.CRM.Rows.AppointmentRow.ModifiedAppointmentFields
+- uid: SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html#SuperOffice_CRM_Rows_AppointmentRow_CreatedByWorkflowId
+  name: CreatedByWorkflowId
+  nameWithType: AppointmentRow.CreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.CreatedByWorkflowId
 - uid: SuperOffice.CRM.Rows.AppointmentRow.CautionWarning*
   commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.CautionWarning
   isExternal: true

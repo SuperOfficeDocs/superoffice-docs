@@ -7,17 +7,12 @@ items:
   - SuperOffice.IO.BinaryGenerator
   - SuperOffice.IO.BinaryGenerator.State
   - SuperOffice.IO.Generator
-  - SuperOffice.IO.IFastSerializationTypeSurrogate
-  - SuperOffice.IO.IOwnedDataSerializable
-  - SuperOffice.IO.IOwnedDataSerializableAndRecreatable
   - SuperOffice.IO.IStreamProvider
   - SuperOffice.IO.ITempFileProvider
+  - SuperOffice.IO.JsonSerializerOptionsFor
   - SuperOffice.IO.MsWordGenerator
-  - SuperOffice.IO.OptimizationException
   - SuperOffice.IO.ProviderStream
   - SuperOffice.IO.ProviderStream.AccessMode
-  - SuperOffice.IO.SerializationReader
-  - SuperOffice.IO.SerializationWriter
   - SuperOffice.IO.TagContainer
   - SuperOffice.IO.TemplateTagAttribute
   - SuperOffice.IO.TextGenerator
@@ -111,51 +106,6 @@ references:
     name: AccessMode
     isExternal: true
     href: SuperOffice.IO.ProviderStream.AccessMode.html
-- uid: SuperOffice.IO.SerializationWriter
-  commentId: T:SuperOffice.IO.SerializationWriter
-  parent: SuperOffice.IO
-  isExternal: true
-  href: SuperOffice.IO.SerializationWriter.html
-  name: SerializationWriter
-  nameWithType: SerializationWriter
-  fullName: SuperOffice.IO.SerializationWriter
-- uid: SuperOffice.IO.SerializationReader
-  commentId: T:SuperOffice.IO.SerializationReader
-  parent: SuperOffice.IO
-  isExternal: true
-  href: SuperOffice.IO.SerializationReader.html
-  name: SerializationReader
-  nameWithType: SerializationReader
-  fullName: SuperOffice.IO.SerializationReader
-- uid: SuperOffice.IO.OptimizationException
-  commentId: T:SuperOffice.IO.OptimizationException
-  isExternal: true
-  href: SuperOffice.IO.OptimizationException.html
-  name: OptimizationException
-  nameWithType: OptimizationException
-  fullName: SuperOffice.IO.OptimizationException
-- uid: SuperOffice.IO.IOwnedDataSerializableAndRecreatable
-  commentId: T:SuperOffice.IO.IOwnedDataSerializableAndRecreatable
-  isExternal: true
-  href: SuperOffice.IO.IOwnedDataSerializableAndRecreatable.html
-  name: IOwnedDataSerializableAndRecreatable
-  nameWithType: IOwnedDataSerializableAndRecreatable
-  fullName: SuperOffice.IO.IOwnedDataSerializableAndRecreatable
-- uid: SuperOffice.IO.IOwnedDataSerializable
-  commentId: T:SuperOffice.IO.IOwnedDataSerializable
-  parent: SuperOffice.IO
-  isExternal: true
-  href: SuperOffice.IO.IOwnedDataSerializable.html
-  name: IOwnedDataSerializable
-  nameWithType: IOwnedDataSerializable
-  fullName: SuperOffice.IO.IOwnedDataSerializable
-- uid: SuperOffice.IO.IFastSerializationTypeSurrogate
-  commentId: T:SuperOffice.IO.IFastSerializationTypeSurrogate
-  isExternal: true
-  href: SuperOffice.IO.IFastSerializationTypeSurrogate.html
-  name: IFastSerializationTypeSurrogate
-  nameWithType: IFastSerializationTypeSurrogate
-  fullName: SuperOffice.IO.IFastSerializationTypeSurrogate
 - uid: SuperOffice.IO.Generator
   commentId: T:SuperOffice.IO.Generator
   parent: SuperOffice.IO
@@ -172,6 +122,13 @@ references:
   name: ITempFileProvider
   nameWithType: ITempFileProvider
   fullName: SuperOffice.IO.ITempFileProvider
+- uid: SuperOffice.IO.JsonSerializerOptionsFor
+  commentId: T:SuperOffice.IO.JsonSerializerOptionsFor
+  isExternal: true
+  href: SuperOffice.IO.JsonSerializerOptionsFor.html
+  name: JsonSerializerOptionsFor
+  nameWithType: JsonSerializerOptionsFor
+  fullName: SuperOffice.IO.JsonSerializerOptionsFor
 - uid: SuperOffice.IO.MsWordGenerator
   commentId: T:SuperOffice.IO.MsWordGenerator
   isExternal: true

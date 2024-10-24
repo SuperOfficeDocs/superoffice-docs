@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Data.OnlineAppTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.OnlineAppTableInfo.DisplayName
   - SuperOffice.CRM.Data.OnlineAppTableInfo.LastUsed
+  - SuperOffice.CRM.Data.OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId
   - SuperOffice.CRM.Data.OnlineAppTableInfo.OnlineAppId
   - SuperOffice.CRM.Data.OnlineAppTableInfo.PartnerName
   - SuperOffice.CRM.Data.OnlineAppTableInfo.Registered
@@ -528,6 +529,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.OnlineAppTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId
+  commentId: P:SuperOffice.CRM.Data.OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId
+  id: LeftOuterJoin_Message_OnlineappId
+  parent: SuperOffice.CRM.Data.OnlineAppTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Message_OnlineappId
+  nameWithType: OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId
+  fullName: SuperOffice.CRM.Data.OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key OnlineAppId on this table, to Message.<xref href="SuperOffice.CRM.Data.MessageTableInfo.OnlineappId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<MessageTableInfo> LeftOuterJoin_Message_OnlineappId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MessageTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Message_OnlineappId As TargetedLeftOuterJoin(Of MessageTableInfo)
+  overload: SuperOffice.CRM.Data.OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -1646,3 +1670,80 @@ references:
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: OnlineAppTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.OnlineAppTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
+  commentId: P:SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
+  isExternal: true
+  href: SuperOffice.CRM.Data.MessageTableInfo.html#SuperOffice_CRM_Data_MessageTableInfo_OnlineappId
+  name: OnlineappId
+  nameWithType: MessageTableInfo.OnlineappId
+  fullName: SuperOffice.CRM.Data.MessageTableInfo.OnlineappId
+- uid: SuperOffice.CRM.Data.OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId*
+  commentId: Overload:SuperOffice.CRM.Data.OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId
+  isExternal: true
+  href: SuperOffice.CRM.Data.OnlineAppTableInfo.html#SuperOffice_CRM_Data_OnlineAppTableInfo_LeftOuterJoin_Message_OnlineappId
+  name: LeftOuterJoin_Message_OnlineappId
+  nameWithType: OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId
+  fullName: SuperOffice.CRM.Data.OnlineAppTableInfo.LeftOuterJoin_Message_OnlineappId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MessageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MessageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<MessageTableInfo>
+  nameWithType: TargetedLeftOuterJoin<MessageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.MessageTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of MessageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.MessageTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of MessageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.MessageTableInfo
+    name: MessageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.MessageTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.MessageTableInfo
+    name: MessageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.MessageTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )

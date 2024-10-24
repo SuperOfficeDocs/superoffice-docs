@@ -6,7 +6,6 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.WorkflowStepRecordData.#ctor
-  - SuperOffice.CRM.Rows.WorkflowStepRecordData.Rank
   - SuperOffice.CRM.Rows.WorkflowStepRecordData.Registered
   - SuperOffice.CRM.Rows.WorkflowStepRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.WorkflowStepRecordData.Settings
@@ -14,7 +13,6 @@ items:
   - SuperOffice.CRM.Rows.WorkflowStepRecordData.Updated
   - SuperOffice.CRM.Rows.WorkflowStepRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.WorkflowStepRecordData.UpdatedCount
-  - SuperOffice.CRM.Rows.WorkflowStepRecordData.WorkflowId
   - SuperOffice.CRM.Rows.WorkflowStepRecordData.WorkflowStepId
   langs:
   - csharp
@@ -79,27 +77,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public WorkflowStepId As Integer
-- uid: SuperOffice.CRM.Rows.WorkflowStepRecordData.WorkflowId
-  commentId: F:SuperOffice.CRM.Rows.WorkflowStepRecordData.WorkflowId
-  id: WorkflowId
-  parent: SuperOffice.CRM.Rows.WorkflowStepRecordData
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId
-  nameWithType: WorkflowStepRecordData.WorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordData.WorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: The flow this step belongs to
-  example: []
-  syntax:
-    content: public int WorkflowId
-    return:
-      type: System.Int32
-    content.vb: Public WorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.WorkflowStepRecordData.StepType
   commentId: F:SuperOffice.CRM.Rows.WorkflowStepRecordData.StepType
   id: StepType
@@ -247,27 +224,6 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
-- uid: SuperOffice.CRM.Rows.WorkflowStepRecordData.Rank
-  commentId: F:SuperOffice.CRM.Rows.WorkflowStepRecordData.Rank
-  id: Rank
-  parent: SuperOffice.CRM.Rows.WorkflowStepRecordData
-  langs:
-  - csharp
-  - vb
-  name: Rank
-  nameWithType: WorkflowStepRecordData.Rank
-  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordData.Rank
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Step order
-  example: []
-  syntax:
-    content: public int Rank
-    return:
-      type: System.Int32
-    content.vb: Public Rank As Integer
 - uid: SuperOffice.CRM.Rows.WorkflowStepRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.WorkflowStepRecordData.#ctor
   id: '#ctor'

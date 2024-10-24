@@ -13,7 +13,6 @@ items:
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.Updated
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.UpdatedCount
-  - SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.WorkflowId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.WorkflowStepId
   - SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.WorkflowWaitForActionId
   langs:
@@ -100,27 +99,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public WorkflowStepId As Integer
-- uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.WorkflowId
-  commentId: F:SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.WorkflowId
-  id: WorkflowId
-  parent: SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId
-  nameWithType: WorkflowWaitForActionRecordData.WorkflowId
-  fullName: SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.WorkflowId
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: The flow this instance belongs to
-  example: []
-  syntax:
-    content: public int WorkflowId
-    return:
-      type: System.Int32
-    content.vb: Public WorkflowId As Integer
 - uid: SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.ActionType
   commentId: F:SuperOffice.CRM.Rows.WorkflowWaitForActionRecordData.ActionType
   id: ActionType

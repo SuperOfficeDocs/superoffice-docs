@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsBookingExternalInvitation(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsBookingOwnerNotAssociate(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsBookingRowOwner(SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetJoin
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   langs:
@@ -55,6 +56,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.RecurrencePatternColumnName
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsAssignmentColumnName
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsFreeColumnName
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colStartDateTime
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colEndDateTime
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colLocation
@@ -67,6 +69,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colRejectReason
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsAssignment
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsFree
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSystemUserAssignment
   - SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender{SuperOffice.CRM.Data.AppointmentTableInfo}.NotifyDateTimeColumnName
   - SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender{SuperOffice.CRM.Data.AppointmentTableInfo}.AssociateIdColumnName
   - SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender{SuperOffice.CRM.Data.AppointmentTableInfo}.UpdateTypeColumnName
@@ -465,6 +468,29 @@ items:
       type: System.Boolean
     content.vb: Protected Function IsAssignmentStatus(reader As SoDataReader) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsAssignmentStatus*
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment(SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment(SuperOffice.Data.SoDataReader)
+  id: IsSystemUserAssignment(SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
+  langs:
+  - csharp
+  - vb
+  name: IsSystemUserAssignment(SoDataReader)
+  nameWithType: AppointmentNotificationAggregatorExtender.IsSystemUserAssignment(SoDataReader)
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment(SuperOffice.Data.SoDataReader)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected bool IsSystemUserAssignment(SoDataReader reader)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    return:
+      type: System.Boolean
+    content.vb: Protected Function IsSystemUserAssignment(reader As SoDataReader) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment*
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetLinkhintId(SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetLinkhintId(SuperOffice.Data.SoDataReader)
   id: GetLinkhintId(SuperOffice.Data.SoDataReader)
@@ -850,6 +876,14 @@ references:
   name: IsFreeColumnName
   nameWithType: AppointmentNotificationExtenderBase.IsFreeColumnName
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsFreeColumnName
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.html#SuperOffice_CRM_ArchiveLists_AppointmentNotificationExtenderBase_IsSystemUserAssignmentColumnName
+  name: IsSystemUserAssignmentColumnName
+  nameWithType: AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.IsSystemUserAssignmentColumnName
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colStartDateTime
   commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colStartDateTime
   parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
@@ -946,6 +980,14 @@ references:
   name: _colIsFree
   nameWithType: AppointmentNotificationExtenderBase._colIsFree
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsFree
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSystemUserAssignment
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSystemUserAssignment
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase.html#SuperOffice_CRM_ArchiveLists_AppointmentNotificationExtenderBase__colIsSystemUserAssignment
+  name: _colIsSystemUserAssignment
+  nameWithType: AppointmentNotificationExtenderBase._colIsSystemUserAssignment
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase._colIsSystemUserAssignment
 - uid: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender{SuperOffice.CRM.Data.AppointmentTableInfo}.NotifyDateTimeColumnName
   commentId: F:SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender{SuperOffice.CRM.Data.AppointmentTableInfo}.NotifyDateTimeColumnName
   parent: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender{SuperOffice.CRM.Data.AppointmentTableInfo}
@@ -6343,6 +6385,13 @@ references:
   name: IsAssignmentStatus
   nameWithType: AppointmentNotificationAggregatorExtender.IsAssignmentStatus
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsAssignmentStatus
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.html#SuperOffice_CRM_ArchiveLists_AppointmentNotificationAggregatorExtender_IsSystemUserAssignment_SuperOffice_Data_SoDataReader_
+  name: IsSystemUserAssignment
+  nameWithType: AppointmentNotificationAggregatorExtender.IsSystemUserAssignment
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetLinkhintId*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetLinkhintId
   isExternal: true

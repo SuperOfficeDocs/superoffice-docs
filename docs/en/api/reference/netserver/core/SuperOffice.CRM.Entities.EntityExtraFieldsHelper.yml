@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
@@ -204,6 +205,36 @@ items:
   nameWithType.vb: EntityExtraFieldsHelper.Parse(String, String)
   fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(String, String)
   name.vb: Parse(String, String)
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
+  id: GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetExtraInfo(string, TableInfo, object)
+  nameWithType: EntityExtraFieldsHelper.GetExtraInfo(string, TableInfo, object)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(string, SuperOffice.Data.SQL.TableInfo, object)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static (string, string) GetExtraInfo(string fieldname, TableInfo table, object value)
+    parameters:
+    - id: fieldname
+      type: System.String
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+    - id: value
+      type: System.Object
+    return:
+      type: System.ValueTuple{System.String,System.String}
+    content.vb: Public Shared Function GetExtraInfo(fieldname As String, table As TableInfo, value As Object) As (String, String)
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
+  nameWithType.vb: EntityExtraFieldsHelper.GetExtraInfo(String, TableInfo, Object)
+  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(String, SuperOffice.Data.SQL.TableInfo, Object)
+  name.vb: GetExtraInfo(String, TableInfo, Object)
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
   id: GetExtraInfo(System.String)
@@ -1025,10 +1056,18 @@ references:
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_GetExtraInfo_System_String_
+  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_GetExtraInfo_System_String_SuperOffice_Data_SQL_TableInfo_System_Object_
   name: GetExtraInfo
   nameWithType: EntityExtraFieldsHelper.GetExtraInfo
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ValueTuple{System.String,System.String}
   commentId: T:System.ValueTuple{System.String,System.String}
   parent: System
@@ -1090,6 +1129,43 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: System.ValueTuple`2
   commentId: T:System.ValueTuple`2
   name: (T1, T2)

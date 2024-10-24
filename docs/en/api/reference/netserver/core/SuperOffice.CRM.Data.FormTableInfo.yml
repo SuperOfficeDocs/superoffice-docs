@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Data.FormTableInfo.GroupId_InnerJoin_UserGroup
   - SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_EmailFlowContentLink_FormId
   - SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_FormSubmission_FormId
+  - SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_Person_CreatedByFormId
   - SuperOffice.CRM.Data.FormTableInfo.MaxSubmits
   - SuperOffice.CRM.Data.FormTableInfo.Name
   - SuperOffice.CRM.Data.FormTableInfo.NewTicket
@@ -869,6 +870,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UserGroupTableInfo}
     content.vb: Public ReadOnly Property GroupId_InnerJoin_UserGroup As TargetedInnerJoin(Of UserGroupTableInfo)
   overload: SuperOffice.CRM.Data.FormTableInfo.GroupId_InnerJoin_UserGroup*
+- uid: SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_Person_CreatedByFormId
+  commentId: P:SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_Person_CreatedByFormId
+  id: LeftOuterJoin_Person_CreatedByFormId
+  parent: SuperOffice.CRM.Data.FormTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Person_CreatedByFormId
+  nameWithType: FormTableInfo.LeftOuterJoin_Person_CreatedByFormId
+  fullName: SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_Person_CreatedByFormId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key FormId on this table, to Person.<xref href="SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<PersonTableInfo> LeftOuterJoin_Person_CreatedByFormId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Person_CreatedByFormId As TargetedLeftOuterJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_Person_CreatedByFormId*
 - uid: SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_FormSubmission_FormId
   commentId: P:SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_FormSubmission_FormId
   id: LeftOuterJoin_FormSubmission_FormId
@@ -2339,6 +2363,83 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Data.UserGroupTableInfo.html
   - name: )
+- uid: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_CreatedByFormId
+  name: CreatedByFormId
+  nameWithType: PersonTableInfo.CreatedByFormId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.CreatedByFormId
+- uid: SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_Person_CreatedByFormId*
+  commentId: Overload:SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_Person_CreatedByFormId
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormTableInfo.html#SuperOffice_CRM_Data_FormTableInfo_LeftOuterJoin_Person_CreatedByFormId
+  name: LeftOuterJoin_Person_CreatedByFormId
+  nameWithType: FormTableInfo.LeftOuterJoin_Person_CreatedByFormId
+  fullName: SuperOffice.CRM.Data.FormTableInfo.LeftOuterJoin_Person_CreatedByFormId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<PersonTableInfo>
+  nameWithType: TargetedLeftOuterJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )
 - uid: SuperOffice.CRM.Data.FormSubmissionTableInfo.FormId
   commentId: P:SuperOffice.CRM.Data.FormSubmissionTableInfo.FormId
   isExternal: true
@@ -2387,34 +2488,6 @@ references:
     name: FormSubmissionTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.FormSubmissionTableInfo.html
-  - name: )
-- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  isExternal: true
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  name: TargetedLeftOuterJoin<TargetTableInfo>
-  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
-  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
-  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-    name: TargetedLeftOuterJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: <
-  - name: TargetTableInfo
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-    name: TargetedLeftOuterJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TargetTableInfo
   - name: )
 - uid: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo.FormId
   commentId: P:SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo.FormId

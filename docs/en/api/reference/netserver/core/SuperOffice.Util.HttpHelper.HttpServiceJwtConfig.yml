@@ -8,6 +8,7 @@ items:
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.#ctor
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Audience
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
+  - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey
@@ -189,6 +190,27 @@ items:
       type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     content.vb: Public Shared ReadOnly Property VideoMeetings As HttpHelper.HttpServiceJwtConfig
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.VideoMeetings*
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
+  commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
+  id: HugoAI_User
+  parent: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  langs:
+  - csharp
+  - vb
+  name: HugoAI_User
+  nameWithType: HttpHelper.HttpServiceJwtConfig.HugoAI_User
+  fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static HttpHelper.HttpServiceJwtConfig HugoAI_User { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    content.vb: Public Shared ReadOnly Property HugoAI_User As HttpHelper.HttpServiceJwtConfig
+  overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User*
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   id: HugoAI
@@ -1037,6 +1059,13 @@ references:
     name: HttpServiceJwtConfig
     isExternal: true
     href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User*
+  commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
+  isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_HugoAI_User
+  name: HugoAI_User
+  nameWithType: HttpHelper.HttpServiceJwtConfig.HugoAI_User
+  fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   isExternal: true

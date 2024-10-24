@@ -26,7 +26,10 @@ items:
   - SuperOffice.CRM.Workflow.CreateFollowUpSettings
   - SuperOffice.CRM.Workflow.CreateRequestSettings
   - SuperOffice.CRM.Workflow.CreateSaleSettings
+  - SuperOffice.CRM.Workflow.NotifyByEmailSettings
+  - SuperOffice.CRM.Workflow.NotifyBySMSSettings
   - SuperOffice.CRM.Workflow.RemoveFromListSettings
+  - SuperOffice.CRM.Workflow.RunScriptSettings
   - SuperOffice.CRM.Workflow.SendEmailSettings
   - SuperOffice.CRM.Workflow.SendSMSSettings
   - SuperOffice.CRM.Workflow.SplitSettings

@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraTablesRow.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ExtraTablesTableInfo)
   - SuperOffice.CRM.Rows.ExtraTablesRow.GetPersistedFieldValue(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.ExtraTablesRow.HierarchyId
+  - SuperOffice.CRM.Rows.ExtraTablesRow.IconId
   - SuperOffice.CRM.Rows.ExtraTablesRow.InnerFieldValuePairs
   - SuperOffice.CRM.Rows.ExtraTablesRow.InnerPrimaryKey
   - SuperOffice.CRM.Rows.ExtraTablesRow.InnerPrimaryKeyValue
@@ -55,6 +56,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentFlags
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentFullnameField
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentHierarchyId
+  - SuperOffice.CRM.Rows.ExtraTablesRow._currentIconId
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentName
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentNewEntryHeader
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentParentField
@@ -72,6 +74,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedFlags
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedFullnameField
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedHierarchyId
+  - SuperOffice.CRM.Rows.ExtraTablesRow._persistedIconId
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedName
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedNewEntryHeader
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedParentField
@@ -225,6 +228,7 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
 - uid: SuperOffice.CRM.Rows.ExtraTablesRow._persistedExtraTablesId
   commentId: F:SuperOffice.CRM.Rows.ExtraTablesRow._persistedExtraTablesId
   id: _persistedExtraTablesId
@@ -582,6 +586,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedDescription As String
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow._persistedIconId
+  commentId: F:SuperOffice.CRM.Rows.ExtraTablesRow._persistedIconId
+  id: _persistedIconId
+  parent: SuperOffice.CRM.Rows.ExtraTablesRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedIconId
+  nameWithType: ExtraTablesRow._persistedIconId
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow._persistedIconId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.ExtraTablesRow.IconId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedIconId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedIconId As Integer
 - uid: SuperOffice.CRM.Rows.ExtraTablesRow._currentExtraTablesId
   commentId: F:SuperOffice.CRM.Rows.ExtraTablesRow._currentExtraTablesId
   id: _currentExtraTablesId
@@ -939,6 +964,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentDescription As String
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow._currentIconId
+  commentId: F:SuperOffice.CRM.Rows.ExtraTablesRow._currentIconId
+  id: _currentIconId
+  parent: SuperOffice.CRM.Rows.ExtraTablesRow
+  langs:
+  - csharp
+  - vb
+  name: _currentIconId
+  nameWithType: ExtraTablesRow._currentIconId
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow._currentIconId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.ExtraTablesRow.IconId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentIconId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentIconId As Integer
 - uid: SuperOffice.CRM.Rows.ExtraTablesRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.ExtraTablesRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2167,6 +2213,37 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.CRM.Rows.ExtraTablesRow.Description*
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow.IconId
+  commentId: P:SuperOffice.CRM.Rows.ExtraTablesRow.IconId
+  id: IconId
+  parent: SuperOffice.CRM.Rows.ExtraTablesRow
+  langs:
+  - csharp
+  - vb
+  name: IconId
+  nameWithType: ExtraTablesRow.IconId
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow.IconId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. The id of the binary object entry'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int IconId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property IconId As Integer
+  overload: SuperOffice.CRM.Rows.ExtraTablesRow.IconId*
 references:
 - uid: SuperOffice.CRM.Rows.ExtraTablesRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.ExtraTablesRow.CreateNew
@@ -4199,6 +4276,59 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
@@ -4597,6 +4727,58 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  name: ExecuteScalar<T>(SqlCommand, bool)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -4786,6 +4968,13 @@ references:
   name: Description
   nameWithType: ExtraTablesRow.Description
   fullName: SuperOffice.CRM.Rows.ExtraTablesRow.Description
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow.IconId
+  commentId: P:SuperOffice.CRM.Rows.ExtraTablesRow.IconId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExtraTablesRow.html#SuperOffice_CRM_Rows_ExtraTablesRow_IconId
+  name: IconId
+  nameWithType: ExtraTablesRow.IconId
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow.IconId
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5652,3 +5841,10 @@ references:
   name: Description
   nameWithType: ExtraTablesRow.Description
   fullName: SuperOffice.CRM.Rows.ExtraTablesRow.Description
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow.IconId*
+  commentId: Overload:SuperOffice.CRM.Rows.ExtraTablesRow.IconId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExtraTablesRow.html#SuperOffice_CRM_Rows_ExtraTablesRow_IconId
+  name: IconId
+  nameWithType: ExtraTablesRow.IconId
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow.IconId

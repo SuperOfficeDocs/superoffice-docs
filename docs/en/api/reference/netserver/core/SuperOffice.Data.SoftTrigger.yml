@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.SoftTrigger.#ctor(SuperOffice.Data.ISoftTriggerPlugin[])
+  - SuperOffice.Data.SoftTrigger.HasSubscribers(System.String)
   - SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
@@ -84,6 +85,36 @@ items:
   nameWithType.vb: SoftTrigger.New(ISoftTriggerPlugin())
   fullName.vb: SuperOffice.Data.SoftTrigger.New(SuperOffice.Data.ISoftTriggerPlugin())
   name.vb: New(ISoftTriggerPlugin())
+- uid: SuperOffice.Data.SoftTrigger.HasSubscribers(System.String)
+  commentId: M:SuperOffice.Data.SoftTrigger.HasSubscribers(System.String)
+  id: HasSubscribers(System.String)
+  parent: SuperOffice.Data.SoftTrigger
+  langs:
+  - csharp
+  - vb
+  name: HasSubscribers(string)
+  nameWithType: SoftTrigger.HasSubscribers(string)
+  fullName: SuperOffice.Data.SoftTrigger.HasSubscribers(string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Check if any pre or post change subscribers are registered for a given table.
+  example: []
+  syntax:
+    content: public bool HasSubscribers(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function HasSubscribers(tableName As String) As Boolean
+  overload: SuperOffice.Data.SoftTrigger.HasSubscribers*
+  nameWithType.vb: SoftTrigger.HasSubscribers(String)
+  fullName.vb: SuperOffice.Data.SoftTrigger.HasSubscribers(String)
+  name.vb: HasSubscribers(String)
 - uid: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   commentId: M:SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   id: SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
@@ -908,6 +939,35 @@ references:
     href: SuperOffice.Data.ISoftTriggerPlugin.html
   - name: (
   - name: )
+- uid: SuperOffice.Data.SoftTrigger.HasSubscribers*
+  commentId: Overload:SuperOffice.Data.SoftTrigger.HasSubscribers
+  isExternal: true
+  href: SuperOffice.Data.SoftTrigger.html#SuperOffice_Data_SoftTrigger_HasSubscribers_System_String_
+  name: HasSubscribers
+  nameWithType: SoftTrigger.HasSubscribers
+  fullName: SuperOffice.Data.SoftTrigger.HasSubscribers
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange*
   commentId: Overload:SuperOffice.Data.SoftTrigger.SubscribeOnPreChange
   isExternal: true
@@ -954,17 +1014,6 @@ references:
     name: OnChange
     isExternal: true
     href: SuperOffice.Data.SoftTrigger.OnChange.html
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange*
   commentId: Overload:SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange
   isExternal: true

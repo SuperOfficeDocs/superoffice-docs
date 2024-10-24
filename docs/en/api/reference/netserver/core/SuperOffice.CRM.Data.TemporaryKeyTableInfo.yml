@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Data.TemporaryKeyTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.TemporaryKeyTableInfo.Domain
   - SuperOffice.CRM.Data.TemporaryKeyTableInfo.Expires
+  - SuperOffice.CRM.Data.TemporaryKeyTableInfo.Payload
   - SuperOffice.CRM.Data.TemporaryKeyTableInfo.PersonId
   - SuperOffice.CRM.Data.TemporaryKeyTableInfo.PersonId_InnerJoin_Person
   - SuperOffice.CRM.Data.TemporaryKeyTableInfo.Registered
@@ -483,6 +484,32 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.TemporaryKeyTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.TemporaryKeyTableInfo.Payload
+  commentId: P:SuperOffice.CRM.Data.TemporaryKeyTableInfo.Payload
+  id: Payload
+  parent: SuperOffice.CRM.Data.TemporaryKeyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: TemporaryKeyTableInfo.Payload
+  fullName: SuperOffice.CRM.Data.TemporaryKeyTableInfo.Payload
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'payload' in table 'TemporaryKey': Dictionary type String[4001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Optional field that may contain arbitrary data used when the key is verified, dependent on the domain
+  example: []
+  syntax:
+    content: public StringFieldInfo Payload { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Payload As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TemporaryKeyTableInfo.Payload*
 - uid: SuperOffice.CRM.Data.TemporaryKeyTableInfo.PersonId_InnerJoin_Person
   commentId: P:SuperOffice.CRM.Data.TemporaryKeyTableInfo.PersonId_InnerJoin_Person
   id: PersonId_InnerJoin_Person
@@ -1628,6 +1655,13 @@ references:
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.TemporaryKeyTableInfo.Payload*
+  commentId: Overload:SuperOffice.CRM.Data.TemporaryKeyTableInfo.Payload
+  isExternal: true
+  href: SuperOffice.CRM.Data.TemporaryKeyTableInfo.html#SuperOffice_CRM_Data_TemporaryKeyTableInfo_Payload
+  name: Payload
+  nameWithType: TemporaryKeyTableInfo.Payload
+  fullName: SuperOffice.CRM.Data.TemporaryKeyTableInfo.Payload
 - uid: SuperOffice.CRM.Data.PersonTableInfo
   commentId: T:SuperOffice.CRM.Data.PersonTableInfo
   parent: SuperOffice.CRM.Data

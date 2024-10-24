@@ -4,6 +4,7 @@ items:
   commentId: N:SoCore.Shared.CRM.Services
   id: SoCore.Shared.CRM.Services
   children:
+  - SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
   - SoCore.Shared.CRM.Services.TimeZoneHintAttribute
   - SoCore.Shared.CRM.Services.TimeZoneInterpretation
   langs:
@@ -24,6 +25,14 @@ references:
   name: TimeZoneInterpretation
   nameWithType: TimeZoneInterpretation
   fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+- uid: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
+  commentId: T:SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
+  parent: SoCore.Shared.CRM.Services
+  isExternal: true
+  href: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment.html
+  name: TimeZoneDiaryAdjustment
+  nameWithType: TimeZoneDiaryAdjustment
+  fullName: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
   commentId: T:SoCore.Shared.CRM.Services.TimeZoneHintAttribute
   isExternal: true

@@ -6,7 +6,8 @@ items:
   parent: SuperOffice.CRM.ArchiveLists.Archive
   children:
   - SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor
-  - SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features,System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.ProviderName
   langs:
   - csharp
@@ -261,30 +262,56 @@ items:
   nameWithType.vb: DummySelectionContactProvider.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.New()
   name.vb: New()
-- uid: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)'
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider
   langs:
   - csharp
   - vb
-  name: DummySelectionContactProvider(Features)
-  nameWithType: DummySelectionContactProvider.DummySelectionContactProvider(ContactExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.DummySelectionContactProvider(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
+  name: DummySelectionContactProvider(string)
+  nameWithType: DummySelectionContactProvider.DummySelectionContactProvider(string)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.DummySelectionContactProvider(string)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists.Archive
   syntax:
-    content: public DummySelectionContactProvider(ContactExtenderBase.Features features)
+    content: public DummySelectionContactProvider(string context)
+    parameters:
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(context As String)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor*
+  nameWithType.vb: DummySelectionContactProvider.New(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.New(String)
+  name.vb: New(String)
+- uid: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider
+  langs:
+  - csharp
+  - vb
+  name: DummySelectionContactProvider(Features, string)
+  nameWithType: DummySelectionContactProvider.DummySelectionContactProvider(ContactExtenderBase.Features, string)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.DummySelectionContactProvider(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, string)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public DummySelectionContactProvider(ContactExtenderBase.Features features, string context = "")
     parameters:
     - id: features
       type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
-    content.vb: Public Sub New(features As ContactExtenderBase.Features)
+    - id: context
+      type: System.String
+    content.vb: Public Sub New(features As ContactExtenderBase.Features, context As String = "")
   overload: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.#ctor*
-  nameWithType.vb: DummySelectionContactProvider.New(ContactExtenderBase.Features)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.New(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
-  name.vb: New(Features)
+  nameWithType.vb: DummySelectionContactProvider.New(ContactExtenderBase.Features, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider.New(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, String)
+  name.vb: New(Features, String)
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Archive
   commentId: N:SuperOffice.CRM.ArchiveLists.Archive

@@ -31,6 +31,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdTypeStatusDone(System.Int32,SuperOffice.Data.AppointmentType,SuperOffice.Data.AppointmentStatus,System.DateTime)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxContactId(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxContactIdType(System.Int32,SuperOffice.Data.AppointmentType)
+  - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxDoBy(System.DateTime)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxDocumentId(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxDone(System.DateTime)
@@ -2372,6 +2373,44 @@ items:
   nameWithType.vb: AppointmentRows.GetFromIdxTypeActiveDate(AppointmentType, Date)
   fullName.vb: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate(SuperOffice.Data.AppointmentType, Date)
   name.vb: GetFromIdxTypeActiveDate(AppointmentType, Date)
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId(System.Int32)
+  id: GetFromIdxCreatedByWorkflowId(System.Int32)
+  parent: SuperOffice.CRM.Rows.AppointmentRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxCreatedByWorkflowId(int)
+  nameWithType: AppointmentRows.GetFromIdxCreatedByWorkflowId(int)
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the AppointmentRow object, by querying the database table via the index 'IDXAppntCreated_by_workflow_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Appointment table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.AppointmentRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static AppointmentRows GetFromIdxCreatedByWorkflowId(int createdByWorkflowId)
+    parameters:
+    - id: createdByWorkflowId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRows
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxCreatedByWorkflowId(createdByWorkflowId As Integer) As AppointmentRows
+  overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId*
+  nameWithType.vb: AppointmentRows.GetFromIdxCreatedByWorkflowId(Integer)
+  fullName.vb: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId(Integer)
+  name.vb: GetFromIdxCreatedByWorkflowId(Integer)
 - uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
   commentId: M:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
   id: GetFromIdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
@@ -5312,6 +5351,13 @@ references:
   name: GetFromIdxTypeActiveDate
   nameWithType: AppointmentRows.GetFromIdxTypeActiveDate
   fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRows.html#SuperOffice_CRM_Rows_AppointmentRows_GetFromIdxCreatedByWorkflowId_System_Int32_
+  name: GetFromIdxCreatedByWorkflowId
+  nameWithType: AppointmentRows.GetFromIdxCreatedByWorkflowId
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxCreatedByWorkflowId
 - uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus*
   commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus
   isExternal: true

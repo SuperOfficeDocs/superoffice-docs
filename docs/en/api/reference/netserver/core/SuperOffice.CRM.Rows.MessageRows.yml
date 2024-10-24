@@ -14,9 +14,8 @@ items:
   - SuperOffice.CRM.Rows.MessageRows.FindAll(System.Predicate{SuperOffice.CRM.Rows.MessageRow})
   - SuperOffice.CRM.Rows.MessageRows.ForEach(System.Action{SuperOffice.CRM.Rows.MessageRow})
   - SuperOffice.CRM.Rows.MessageRows.GetFromCustomSearch(SuperOffice.CRM.Rows.MessageRows.CustomSearch)
-  - SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId(System.Int32)
-  - SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler(System.Int32)
-  - SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler(System.Int32)
+  - SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId(System.Int32)
+  - SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId(System.Int32,System.String)
   - SuperOffice.CRM.Rows.MessageRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.MessageTableInfo)
   - SuperOffice.CRM.Rows.MessageRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.MessageRows.Remove(SuperOffice.CRM.Rows.MessageRow)
@@ -282,22 +281,22 @@ items:
       description: A new instance of the MessageRows object, reflecting the result of the query.
     content.vb: Public Shared Function GetFromCustomSearch(query As MessageRows.CustomSearch) As MessageRows
   overload: SuperOffice.CRM.Rows.MessageRows.GetFromCustomSearch*
-- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler(System.Int32)
-  id: GetFromIdxSourceHandler(System.Int32)
+- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId(System.Int32)
+  id: GetFromIdxAssociateId(System.Int32)
   parent: SuperOffice.CRM.Rows.MessageRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxSourceHandler(int)
-  nameWithType: MessageRows.GetFromIdxSourceHandler(int)
-  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler(int)
+  name: GetFromIdxAssociateId(int)
+  nameWithType: MessageRows.GetFromIdxAssociateId(int)
+  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId(int)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Create a new instance of the MessageRow object, by querying the database table via the index 'IDXMessageSourceHandler'.
+    Create a new instance of the MessageRow object, by querying the database table via the index 'IAssociateIdSystemMessageIdOnlineapp_id'.
 
     This method is intended to make it easy to use efficient queries that match a database index.
   remarks: >-
@@ -306,36 +305,36 @@ items:
     and methods in the <xref href="SuperOffice.CRM.Rows.MessageRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
   example: []
   syntax:
-    content: public static MessageRows GetFromIdxSourceHandler(int sourceHandler)
+    content: public static MessageRows GetFromIdxAssociateId(int associateId)
     parameters:
-    - id: sourceHandler
+    - id: associateId
       type: System.Int32
     return:
       type: SuperOffice.CRM.Rows.MessageRows
       description: >-
         Row object that represents the result of the search. IsNew will be true if 
                     the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxSourceHandler(sourceHandler As Integer) As MessageRows
-  overload: SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler*
-  nameWithType.vb: MessageRows.GetFromIdxSourceHandler(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler(Integer)
-  name.vb: GetFromIdxSourceHandler(Integer)
-- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler(System.Int32)
-  id: GetFromIdxTargetHandler(System.Int32)
+    content.vb: Public Shared Function GetFromIdxAssociateId(associateId As Integer) As MessageRows
+  overload: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId*
+  nameWithType.vb: MessageRows.GetFromIdxAssociateId(Integer)
+  fullName.vb: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId(Integer)
+  name.vb: GetFromIdxAssociateId(Integer)
+- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId(System.Int32,System.String)
+  id: GetFromIdxAssociateIdSystemMessageId(System.Int32,System.String)
   parent: SuperOffice.CRM.Rows.MessageRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxTargetHandler(int)
-  nameWithType: MessageRows.GetFromIdxTargetHandler(int)
-  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler(int)
+  name: GetFromIdxAssociateIdSystemMessageId(int, string)
+  nameWithType: MessageRows.GetFromIdxAssociateIdSystemMessageId(int, string)
+  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId(int, string)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Create a new instance of the MessageRow object, by querying the database table via the index 'IDXMessageTargetHandler'.
+    Create a new instance of the MessageRow object, by querying the database table via the index 'IAssociateIdSystemMessageIdOnlineapp_id'.
 
     This method is intended to make it easy to use efficient queries that match a database index.
   remarks: >-
@@ -344,58 +343,22 @@ items:
     and methods in the <xref href="SuperOffice.CRM.Rows.MessageRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
   example: []
   syntax:
-    content: public static MessageRows GetFromIdxTargetHandler(int targetHandler)
+    content: public static MessageRows GetFromIdxAssociateIdSystemMessageId(int associateId, string systemMessageId)
     parameters:
-    - id: targetHandler
+    - id: associateId
       type: System.Int32
+    - id: systemMessageId
+      type: System.String
     return:
       type: SuperOffice.CRM.Rows.MessageRows
       description: >-
         Row object that represents the result of the search. IsNew will be true if 
                     the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxTargetHandler(targetHandler As Integer) As MessageRows
-  overload: SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler*
-  nameWithType.vb: MessageRows.GetFromIdxTargetHandler(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler(Integer)
-  name.vb: GetFromIdxTargetHandler(Integer)
-- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId(System.Int32)
-  id: GetFromIdxMotherId(System.Int32)
-  parent: SuperOffice.CRM.Rows.MessageRows
-  langs:
-  - csharp
-  - vb
-  name: GetFromIdxMotherId(int)
-  nameWithType: MessageRows.GetFromIdxMotherId(int)
-  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId(int)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Create a new instance of the MessageRow object, by querying the database table via the index 'IDXMessageMotherId'.
-
-    This method is intended to make it easy to use efficient queries that match a database index.
-  remarks: >-
-    This method represents one of the unique indexes on the Message table. Non-unique indexes have corresponding inner classes
-
-    and methods in the <xref href="SuperOffice.CRM.Rows.MessageRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
-  example: []
-  syntax:
-    content: public static MessageRows GetFromIdxMotherId(int motherId)
-    parameters:
-    - id: motherId
-      type: System.Int32
-    return:
-      type: SuperOffice.CRM.Rows.MessageRows
-      description: >-
-        Row object that represents the result of the search. IsNew will be true if 
-                    the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxMotherId(motherId As Integer) As MessageRows
-  overload: SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId*
-  nameWithType.vb: MessageRows.GetFromIdxMotherId(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId(Integer)
-  name.vb: GetFromIdxMotherId(Integer)
+    content.vb: Public Shared Function GetFromIdxAssociateIdSystemMessageId(associateId As Integer, systemMessageId As String) As MessageRows
+  overload: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId*
+  nameWithType.vb: MessageRows.GetFromIdxAssociateIdSystemMessageId(Integer, String)
+  fullName.vb: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId(Integer, String)
+  name.vb: GetFromIdxAssociateIdSystemMessageId(Integer, String)
 - uid: SuperOffice.CRM.Rows.MessageRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.MessageTableInfo)
   commentId: M:SuperOffice.CRM.Rows.MessageRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.MessageTableInfo)
   id: GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.MessageTableInfo)
@@ -2818,13 +2781,13 @@ references:
   name: GetFromCustomSearch
   nameWithType: MessageRows.GetFromCustomSearch
   fullName: SuperOffice.CRM.Rows.MessageRows.GetFromCustomSearch
-- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler
+- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRows.html#SuperOffice_CRM_Rows_MessageRows_GetFromIdxSourceHandler_System_Int32_
-  name: GetFromIdxSourceHandler
-  nameWithType: MessageRows.GetFromIdxSourceHandler
-  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxSourceHandler
+  href: SuperOffice.CRM.Rows.MessageRows.html#SuperOffice_CRM_Rows_MessageRows_GetFromIdxAssociateId_System_Int32_
+  name: GetFromIdxAssociateId
+  nameWithType: MessageRows.GetFromIdxAssociateId
+  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2836,20 +2799,24 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler
+- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId*
+  commentId: Overload:SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId
   isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRows.html#SuperOffice_CRM_Rows_MessageRows_GetFromIdxTargetHandler_System_Int32_
-  name: GetFromIdxTargetHandler
-  nameWithType: MessageRows.GetFromIdxTargetHandler
-  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxTargetHandler
-- uid: SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId*
-  commentId: Overload:SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId
+  href: SuperOffice.CRM.Rows.MessageRows.html#SuperOffice_CRM_Rows_MessageRows_GetFromIdxAssociateIdSystemMessageId_System_Int32_System_String_
+  name: GetFromIdxAssociateIdSystemMessageId
+  nameWithType: MessageRows.GetFromIdxAssociateIdSystemMessageId
+  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxAssociateIdSystemMessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
-  href: SuperOffice.CRM.Rows.MessageRows.html#SuperOffice_CRM_Rows_MessageRows_GetFromIdxMotherId_System_Int32_
-  name: GetFromIdxMotherId
-  nameWithType: MessageRows.GetFromIdxMotherId
-  fullName: SuperOffice.CRM.Rows.MessageRows.GetFromIdxMotherId
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true
@@ -3113,17 +3080,6 @@ references:
   name: ToString
   nameWithType: MessageRows.ToString
   fullName: SuperOffice.CRM.Rows.MessageRows.ToString
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: SuperOffice.CRM.Rows.MessageRows.Item*
   commentId: Overload:SuperOffice.CRM.Rows.MessageRows.Item
   isExternal: true

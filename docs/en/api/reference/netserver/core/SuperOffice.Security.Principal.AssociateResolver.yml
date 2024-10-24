@@ -12,6 +12,7 @@ items:
   - SuperOffice.Security.Principal.AssociateResolver.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
   - SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
   - SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String)
+  - SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
   - SuperOffice.Security.Principal.AssociateResolver.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
   - SuperOffice.Security.Principal.AssociateResolver.UpdateRoleId(System.Int32,System.Int32)
   langs:
@@ -267,6 +268,36 @@ items:
   nameWithType.vb: AssociateResolver.SecretFromPassword(Integer, String)
   fullName.vb: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(Integer, String)
   name.vb: SecretFromPassword(Integer, String)
+- uid: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(System.Int32,System.String,System.String)
+  id: SecretFromPassword(System.Int32,System.String,System.String)
+  parent: SuperOffice.Security.Principal.AssociateResolver
+  langs:
+  - csharp
+  - vb
+  name: SecretFromPassword(int, string, string)
+  nameWithType: AssociateResolver.SecretFromPassword(int, string, string)
+  fullName: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(int, string, string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public static string SecretFromPassword(int associateId, string password, string centralDbTag)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: password
+      type: System.String
+    - id: centralDbTag
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function SecretFromPassword(associateId As Integer, password As String, centralDbTag As String) As String
+  overload: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword*
+  nameWithType.vb: AssociateResolver.SecretFromPassword(Integer, String, String)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver.SecretFromPassword(Integer, String, String)
+  name.vb: SecretFromPassword(Integer, String, String)
 - uid: SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
   commentId: M:SuperOffice.Security.Principal.AssociateResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
   id: ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)

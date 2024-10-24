@@ -11,10 +11,10 @@ items:
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowStepId
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowInstance_CurrentStep
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowInstance_LastCommunicationStep
+  - SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowStepOptionLink_WorkflowStepId
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowStepOption_WorkflowStepId
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowWaitForAction_WorkflowStepId
-  - SuperOffice.CRM.Data.WorkflowStepTableInfo.Rank
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.Registered
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.RegisteredAssociateId_InnerJoin_Associate
@@ -25,8 +25,6 @@ items:
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.UpdatedAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.UpdatedCount
-  - SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId
-  - SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow
   - SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowStepId
   langs:
   - csharp
@@ -228,32 +226,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property WorkflowStepId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowStepId*
-- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId
-  commentId: P:SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId
-  id: WorkflowId
-  parent: SuperOffice.CRM.Data.WorkflowStepTableInfo
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId
-  nameWithType: WorkflowStepTableInfo.WorkflowId
-  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'workflow_id' in table 'workflow_step': Dictionary type FK, target: Workflow, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The flow this step belongs to
-  example: []
-  syntax:
-    content: public Int32FieldInfo WorkflowId { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property WorkflowId As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId*
 - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.StepType
   commentId: P:SuperOffice.CRM.Data.WorkflowStepTableInfo.StepType
   id: StepType
@@ -436,55 +408,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowStepTableInfo.UpdatedCount*
-- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.Rank
-  commentId: P:SuperOffice.CRM.Data.WorkflowStepTableInfo.Rank
-  id: Rank
-  parent: SuperOffice.CRM.Data.WorkflowStepTableInfo
-  langs:
-  - csharp
-  - vb
-  name: Rank
-  nameWithType: WorkflowStepTableInfo.Rank
-  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo.Rank
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'Rank' in table 'workflow_step': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Step order
-  example: []
-  syntax:
-    content: public Int32FieldInfo Rank { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property Rank As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.WorkflowStepTableInfo.Rank*
-- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow
-  commentId: P:SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow
-  id: WorkflowId_InnerJoin_Workflow
-  parent: SuperOffice.CRM.Data.WorkflowStepTableInfo
-  langs:
-  - csharp
-  - vb
-  name: WorkflowId_InnerJoin_Workflow
-  nameWithType: WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow
-  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key WorkflowId in this table, to its target table <xref href="SuperOffice.CRM.Data.WorkflowTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public TargetedInnerJoin<WorkflowTableInfo> WorkflowId_InnerJoin_Workflow { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
-    content.vb: Public ReadOnly Property WorkflowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
-  overload: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow*
 - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.WorkflowStepTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -669,6 +592,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowWaitForActionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_WorkflowWaitForAction_WorkflowStepId As TargetedLeftOuterJoin(Of WorkflowWaitForActionTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowWaitForAction_WorkflowStepId*
+- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  commentId: P:SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  id: LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  parent: SuperOffice.CRM.Data.WorkflowStepTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  nameWithType: WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key WorkflowStepId on this table, to WorkflowRootStepLink.<xref href="SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowStepId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<WorkflowRootStepLinkTableInfo> LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId As TargetedLeftOuterJoin(Of WorkflowRootStepLinkTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -1586,13 +1532,6 @@ references:
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
-- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId*
-  commentId: Overload:SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowStepTableInfo.html#SuperOffice_CRM_Data_WorkflowStepTableInfo_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowStepTableInfo.WorkflowId
-  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId
 - uid: SuperOffice.Data.WorkflowStepType
   commentId: T:SuperOffice.Data.WorkflowStepType
   parent: SuperOffice.Data
@@ -1731,91 +1670,6 @@ references:
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
-- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.Rank*
-  commentId: Overload:SuperOffice.CRM.Data.WorkflowStepTableInfo.Rank
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowStepTableInfo.html#SuperOffice_CRM_Data_WorkflowStepTableInfo_Rank
-  name: Rank
-  nameWithType: WorkflowStepTableInfo.Rank
-  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo.Rank
-- uid: SuperOffice.CRM.Data.WorkflowTableInfo
-  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  name: WorkflowTableInfo
-  nameWithType: WorkflowTableInfo
-  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
-- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow*
-  commentId: Overload:SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowStepTableInfo.html#SuperOffice_CRM_Data_WorkflowStepTableInfo_WorkflowId_InnerJoin_Workflow
-  name: WorkflowId_InnerJoin_Workflow
-  nameWithType: WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow
-  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo.WorkflowId_InnerJoin_Workflow
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
-  parent: SuperOffice.Data.SQL
-  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  name: TargetedInnerJoin<WorkflowTableInfo>
-  nameWithType: TargetedInnerJoin<WorkflowTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of WorkflowTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WorkflowTableInfo)
-  name.vb: TargetedInnerJoin(Of WorkflowTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: <
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  - name: )
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
-  isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  name: TargetedInnerJoin<TargetTableInfo>
-  nameWithType: TargetedInnerJoin<TargetTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
-  name.vb: TargetedInnerJoin(Of TargetTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: <
-  - name: TargetTableInfo
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TargetTableInfo
-  - name: )
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data
@@ -1865,6 +1719,34 @@ references:
     name: AssociateTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
   - name: )
 - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowStepTableInfo.UpdatedAssociateId_InnerJoin_Associate
@@ -2159,4 +2041,53 @@ references:
     name: WorkflowWaitForActionTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.WorkflowWaitForActionTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowStepId
+  commentId: P:SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowStepId
+  isExternal: true
+  href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html#SuperOffice_CRM_Data_WorkflowRootStepLinkTableInfo_WorkflowStepId
+  name: WorkflowStepId
+  nameWithType: WorkflowRootStepLinkTableInfo.WorkflowStepId
+  fullName: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowStepId
+- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  isExternal: true
+  href: SuperOffice.CRM.Data.WorkflowStepTableInfo.html#SuperOffice_CRM_Data_WorkflowStepTableInfo_LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  name: LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  nameWithType: WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowStepId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<WorkflowRootStepLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<WorkflowRootStepLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of WorkflowRootStepLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of WorkflowRootStepLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+    name: WorkflowRootStepLinkTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
+    name: WorkflowRootStepLinkTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
   - name: )

@@ -17,7 +17,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider(System.Type)
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities(System.String,System.String)
-  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders
   langs:
   - csharp
@@ -369,22 +369,22 @@ items:
   nameWithType.vb: ArchiveProviderFactory.GetAvailableEntities(String, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities(String, String)
   name.vb: GetAvailableEntities(String, String)
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable(System.String,System.String)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable(System.String,System.String)
-  id: HandlesExtraTable(System.String,System.String)
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject(System.String,System.String)
+  id: HandlesCustomObject(System.String,System.String)
   parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
   langs:
   - csharp
   - vb
-  name: HandlesExtraTable(string, string)
-  nameWithType: ArchiveProviderFactory.HandlesExtraTable(string, string)
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable(string, string)
+  name: HandlesCustomObject(string, string)
+  nameWithType: ArchiveProviderFactory.HandlesCustomObject(string, string)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject(string, string)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public static bool HandlesExtraTable(string providerName, string context = "")
+    content: public static bool HandlesCustomObject(string providerName, string context = "")
     parameters:
     - id: providerName
       type: System.String
@@ -392,11 +392,11 @@ items:
       type: System.String
     return:
       type: System.Boolean
-    content.vb: Public Shared Function HandlesExtraTable(providerName As String, context As String = "") As Boolean
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable*
-  nameWithType.vb: ArchiveProviderFactory.HandlesExtraTable(String, String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable(String, String)
-  name.vb: HandlesExtraTable(String, String)
+    content.vb: Public Shared Function HandlesCustomObject(providerName As String, context As String = "") As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject*
+  nameWithType.vb: ArchiveProviderFactory.HandlesCustomObject(String, String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject(String, String)
+  name.vb: HandlesCustomObject(String, String)
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider(System.Type)
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider(System.Type)
   id: GetActualProvider(System.Type)
@@ -1483,13 +1483,13 @@ references:
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.html#SuperOffice_CRM_ArchiveLists_ArchiveProviderFactory_HandlesExtraTable_System_String_System_String_
-  name: HandlesExtraTable
-  nameWithType: ArchiveProviderFactory.HandlesExtraTable
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesExtraTable
+  href: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.html#SuperOffice_CRM_ArchiveLists_ArchiveProviderFactory_HandlesCustomObject_System_String_System_String_
+  name: HandlesCustomObject
+  nameWithType: ArchiveProviderFactory.HandlesCustomObject
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.HandlesCustomObject
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider
   isExternal: true

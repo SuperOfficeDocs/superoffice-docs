@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SLinkFields.Hits
   - SuperOffice.CRM.Data.DBC.SLinkFields.LastReset
   - SuperOffice.CRM.Data.DBC.SLinkFields.LinkValue
+  - SuperOffice.CRM.Data.DBC.SLinkFields.LocalLink
   - SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
   - SuperOffice.CRM.Data.DBC.SLinkFields.Registered
   - SuperOffice.CRM.Data.DBC.SLinkFields.RegisteredAssociateId
@@ -910,6 +911,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.LocalLink
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.LocalLink
+  id: LocalLink
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: LocalLink
+  nameWithType: DBC.SLinkFields.LocalLink
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.LocalLink
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'SLink.LocalLink: If this references a shipment message, then this is a local link belonging to that message'
+  example: []
+  syntax:
+    content: public const string LocalLink = "local_link"
+    return:
+      type: System.String
+    content.vb: Public Const LocalLink As String = "local_link"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
