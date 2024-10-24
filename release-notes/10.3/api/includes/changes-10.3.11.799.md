@@ -1,9 +1,9 @@
 ---
-uid: version_10.3.11.698_changes
-date: 21.10.2024
+uid: version_10.3.11.799_changes
+date: 10/24/2024
 ---
 
-Changes from v10.3.10.720 and v10.3.11.698
+Changes from v10.3.10.720 and v10.3.11.799
 
 ## Web Services
 
@@ -53,13 +53,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_SELECTED_CONTACTS`
   * Field `SR_SELECTION_TASK_PRINT_SELECTION`
 
-
 ### Assembly: SoDatabase
 
 ### Modified Types
 
 #### SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase is Modified
-
 
 #### SuperOffice.CRM.Data.DBC is Modified
 
@@ -69,7 +67,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.ScreenChooserFieldsEjscriptId`
-
 
 #### SuperOffice.CRM.Data.EjscriptTableInfo is Modified
 
@@ -97,7 +94,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `EjscriptId`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
@@ -117,6 +113,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `EjscriptId`
-
-
-
