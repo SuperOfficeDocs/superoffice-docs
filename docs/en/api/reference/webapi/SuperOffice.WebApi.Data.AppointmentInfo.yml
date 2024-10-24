@@ -11,13 +11,21 @@ items:
   - SuperOffice.WebApi.Data.AppointmentInfo.AssociateId
   - SuperOffice.WebApi.Data.AppointmentInfo.ColorIndex
   - SuperOffice.WebApi.Data.AppointmentInfo.ColorIndex_String
+  - SuperOffice.WebApi.Data.AppointmentInfo.ContactName
   - SuperOffice.WebApi.Data.AppointmentInfo.EndDate
+  - SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm
   - SuperOffice.WebApi.Data.AppointmentInfo.IsAllDay
+  - SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain
   - SuperOffice.WebApi.Data.AppointmentInfo.IsBusy
+  - SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted
   - SuperOffice.WebApi.Data.AppointmentInfo.IsRecurring
+  - SuperOffice.WebApi.Data.AppointmentInfo.IsTentative
   - SuperOffice.WebApi.Data.AppointmentInfo.IsVideoMeeting
   - SuperOffice.WebApi.Data.AppointmentInfo.MotherId
+  - SuperOffice.WebApi.Data.AppointmentInfo.ProjectName
+  - SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo
   - SuperOffice.WebApi.Data.AppointmentInfo.StartDate
+  - SuperOffice.WebApi.Data.AppointmentInfo.TaskName
   - SuperOffice.WebApi.Data.AppointmentInfo.Title
   langs:
   - csharp
@@ -271,6 +279,75 @@ items:
   - type: Newtonsoft.Json.JsonIgnoreAttribute
     ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
     arguments: []
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.TaskName
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.TaskName
+  id: TaskName
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: TaskName
+  nameWithType: AppointmentInfo.TaskName
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.TaskName
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The name of the appointment task type
+  example: []
+  syntax:
+    content: public virtual string TaskName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TaskName As String
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.TaskName*
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.ContactName
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: AppointmentInfo.ContactName
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.ContactName
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The name of the appointment contact.
+  example: []
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.ContactName*
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.ProjectName
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.ProjectName
+  id: ProjectName
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: AppointmentInfo.ProjectName
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.ProjectName
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The name of the appointment project
+  example: []
+  syntax:
+    content: public virtual string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectName As String
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.ProjectName*
 - uid: SuperOffice.WebApi.Data.AppointmentInfo.Title
   commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.Title
   id: Title
@@ -409,6 +486,121 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsVideoMeeting As Boolean
   overload: SuperOffice.WebApi.Data.AppointmentInfo.IsVideoMeeting*
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm
+  id: HasAlarm
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: HasAlarm
+  nameWithType: AppointmentInfo.HasAlarm
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: True if the appointment has alarm
+  example: []
+  syntax:
+    content: public virtual bool HasAlarm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasAlarm As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm*
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted
+  id: IsCompleted
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsCompleted
+  nameWithType: AppointmentInfo.IsCompleted
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: True if the appointment is completed
+  example: []
+  syntax:
+    content: public virtual bool IsCompleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsCompleted As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted*
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.IsTentative
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.IsTentative
+  id: IsTentative
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsTentative
+  nameWithType: AppointmentInfo.IsTentative
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsTentative
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: True if the appointment is tentative
+  example: []
+  syntax:
+    content: public virtual bool IsTentative { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsTentative As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.IsTentative*
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain
+  id: IsBookingMain
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsBookingMain
+  nameWithType: AppointmentInfo.IsBookingMain
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: True if the appointment is a main booking
+  example: []
+  syntax:
+    content: public virtual bool IsBookingMain { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsBookingMain As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain*
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo
+  id: RecurrenceInfo
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceInfo
+  nameWithType: AppointmentInfo.RecurrenceInfo
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The recurrence info if the appointment is recurring
+  example: []
+  syntax:
+    content: public virtual RecurrenceInfo RecurrenceInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceInfo
+    content.vb: Public Overridable Property RecurrenceInfo As RecurrenceInfo
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo*
 references:
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent
   commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
@@ -869,6 +1061,27 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.TaskName*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.TaskName
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_TaskName
+  name: TaskName
+  nameWithType: AppointmentInfo.TaskName
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.TaskName
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.ContactName
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_ContactName
+  name: ContactName
+  nameWithType: AppointmentInfo.ContactName
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.ContactName
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.ProjectName*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.ProjectName
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_ProjectName
+  name: ProjectName
+  nameWithType: AppointmentInfo.ProjectName
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.ProjectName
 - uid: SuperOffice.WebApi.Data.AppointmentInfo.Title*
   commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.Title
   isExternal: true
@@ -922,3 +1135,46 @@ references:
   name: IsVideoMeeting
   nameWithType: AppointmentInfo.IsVideoMeeting
   fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsVideoMeeting
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_HasAlarm
+  name: HasAlarm
+  nameWithType: AppointmentInfo.HasAlarm
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_IsCompleted
+  name: IsCompleted
+  nameWithType: AppointmentInfo.IsCompleted
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.IsTentative*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.IsTentative
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_IsTentative
+  name: IsTentative
+  nameWithType: AppointmentInfo.IsTentative
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsTentative
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_IsBookingMain
+  name: IsBookingMain
+  nameWithType: AppointmentInfo.IsBookingMain
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_RecurrenceInfo
+  name: RecurrenceInfo
+  nameWithType: AppointmentInfo.RecurrenceInfo
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RecurrenceInfo.html
+  name: RecurrenceInfo
+  nameWithType: RecurrenceInfo
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo

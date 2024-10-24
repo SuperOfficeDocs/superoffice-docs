@@ -26,6 +26,7 @@ items:
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveApproveQuote
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveContact
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveCustomObject
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveDocument
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSavePerson
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProject
@@ -42,6 +43,7 @@ items:
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveAppointment
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveApproveQuote
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveContact
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveCustomObject
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveDocument
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSavePerson
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProject
@@ -55,6 +57,7 @@ items:
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelectionMember
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveStakeholder
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveTicket
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesLoadCustomObject
   - SuperOffice.WebApi.Data.EventHandlerType.ScheduledTaskFailed
   - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
   - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
@@ -2820,6 +2823,68 @@ items:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesLoadCustomObject
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesLoadCustomObject
+  id: SalesLoadCustomObject
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesLoadCustomObject
+  nameWithType: EventHandlerType.SalesLoadCustomObject
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesLoadCustomObject
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1017: SalesLoadCustomObject'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesLoadCustomObject = 1017
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesLoadCustomObject = 1017
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveCustomObject
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveCustomObject
+  id: SalesBeforeSaveCustomObject
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveCustomObject
+  nameWithType: EventHandlerType.SalesBeforeSaveCustomObject
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveCustomObject
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1018: SalesBeforeSaveCustomObject'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesBeforeSaveCustomObject = 1018
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesBeforeSaveCustomObject = 1018
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
   commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
   id: SalesAfterSaveAppointment
@@ -3312,6 +3377,37 @@ items:
       <EnumMember>
 
       SalesAfterSaveTicket = 1116
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveCustomObject
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveCustomObject
+  id: SalesAfterSaveCustomObject
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveCustomObject
+  nameWithType: EventHandlerType.SalesAfterSaveCustomObject
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveCustomObject
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1117: SalesAfterSaveCustomObject'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesAfterSaveCustomObject = 1117
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesAfterSaveCustomObject = 1117
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

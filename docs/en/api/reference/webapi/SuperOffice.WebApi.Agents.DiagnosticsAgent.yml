@@ -19,10 +19,15 @@ items:
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -571,6 +576,196 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
+  id: SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: SendSystemMessageAsync(string, int, string, DateTime, SystemMessageType, RequestOptions)
+  nameWithType: DiagnosticsAgent.SendSystemMessageAsync(string, int, string, DateTime, SystemMessageType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync(string, int, string, System.DateTime, SuperOffice.WebApi.Data.SystemMessageType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Adds a system message for a specific associate.
+  example: []
+  syntax:
+    content: public Task SendSystemMessageAsync(string systemMessageId, int associateId, string markdownMessage, DateTime expire, SystemMessageType type, RequestOptions requestOptions = null)
+    parameters:
+    - id: systemMessageId
+      type: System.String
+      description: The message string id
+    - id: associateId
+      type: System.Int32
+      description: The associateId of the message target.
+    - id: markdownMessage
+      type: System.String
+      description: Markdown message to be displayed to the user
+    - id: expire
+      type: System.DateTime
+      description: When the message will no longer be available
+    - id: type
+      type: SuperOffice.WebApi.Data.SystemMessageType
+      description: 'Type of message, example: info, warning, error'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SendSystemMessageAsync(systemMessageId As String, associateId As Integer, markdownMessage As String, expire As Date, type As SystemMessageType, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DiagnosticsAgent.SendSystemMessageAsync(String, Integer, String, Date, SystemMessageType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync(String, Integer, String, Date, SuperOffice.WebApi.Data.SystemMessageType, SuperOffice.WebApi.RequestOptions)
+  name.vb: SendSystemMessageAsync(String, Integer, String, Date, SystemMessageType, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSystemMessageAsync(int, string, RequestOptions)
+  nameWithType: DiagnosticsAgent.RemoveSystemMessageAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync(int, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Removes a system message for current associate
+  example: []
+  syntax:
+    content: public Task RemoveSystemMessageAsync(int onlineappId, string systemMessageId, RequestOptions requestOptions = null)
+    parameters:
+    - id: onlineappId
+      type: System.Int32
+      description: Id of the online app that owns this message
+    - id: systemMessageId
+      type: System.String
+      description: Message identifier, used for message  removal
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function RemoveSystemMessageAsync(onlineappId As Integer, systemMessageId As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DiagnosticsAgent.RemoveSystemMessageAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveSystemMessageAsync(Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSystemMessageForAssociateAsync(int, string, int, RequestOptions)
+  nameWithType: DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(int, string, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(int, string, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Removes a system message for specific associate.
+  example: []
+  syntax:
+    content: public Task RemoveSystemMessageForAssociateAsync(int onlineappId, string systemMessageId, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: onlineappId
+      type: System.Int32
+      description: Id of the online app that owns this message
+    - id: systemMessageId
+      type: System.String
+      description: Message identifier, used for message update or removal
+    - id: associateId
+      type: System.Int32
+      description: The associateId of the message target.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function RemoveSystemMessageForAssociateAsync(onlineappId As Integer, systemMessageId As String, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(Integer, String, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(Integer, String, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveSystemMessageForAssociateAsync(Integer, String, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSystemMessagesAsync(int, RequestOptions)
+  nameWithType: DiagnosticsAgent.GetSystemMessagesAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Retrieves a list of system messages for a specific associate.
+  example: []
+  syntax:
+    content: public Task<SystemMessage[]> GetSystemMessagesAsync(int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associateId of the message target.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SystemMessage[]}
+      description: List of SystemMessages for desired associate
+    content.vb: Public Function GetSystemMessagesAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SystemMessage())
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DiagnosticsAgent.GetSystemMessagesAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetSystemMessagesAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+  id: RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveExpiredSystemMessagesAsync(RequestOptions)
+  nameWithType: DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Deletes expired system messages.
+  example: []
+  syntax:
+    content: public Task RemoveExpiredSystemMessagesAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function RemoveExpiredSystemMessagesAsync(requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   id: PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
@@ -2752,6 +2947,441 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_SendSystemMessageAsync_System_String_System_Int32_System_String_System_DateTime_SuperOffice_WebApi_Data_SystemMessageType_SuperOffice_WebApi_RequestOptions_
+  name: SendSystemMessageAsync
+  nameWithType: DiagnosticsAgent.SendSystemMessageAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.SendSystemMessageAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_SendSystemMessageAsync_System_String_System_Int32_System_String_System_DateTime_SuperOffice_WebApi_Data_SystemMessageType_SuperOffice_WebApi_RequestOptions_
+  name: SendSystemMessageAsync(string, int, string, DateTime, SystemMessageType, RequestOptions)
+  nameWithType: IDiagnosticsAgent.SendSystemMessageAsync(string, int, string, DateTime, SystemMessageType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.SendSystemMessageAsync(string, int, string, System.DateTime, SuperOffice.WebApi.Data.SystemMessageType, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.SendSystemMessageAsync(String, Integer, String, Date, SystemMessageType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.SendSystemMessageAsync(String, Integer, String, Date, SuperOffice.WebApi.Data.SystemMessageType, SuperOffice.WebApi.RequestOptions)
+  name.vb: SendSystemMessageAsync(String, Integer, String, Date, SystemMessageType, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
+    name: SendSystemMessageAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_SendSystemMessageAsync_System_String_System_Int32_System_String_System_DateTime_SuperOffice_WebApi_Data_SystemMessageType_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.SystemMessageType
+    name: SystemMessageType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.SystemMessageType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.WebApi.Data.SystemMessageType,SuperOffice.WebApi.RequestOptions)
+    name: SendSystemMessageAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_SendSystemMessageAsync_System_String_System_Int32_System_String_System_DateTime_SuperOffice_WebApi_Data_SystemMessageType_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.SystemMessageType
+    name: SystemMessageType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.SystemMessageType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.WebApi.Data.SystemMessageType
+  commentId: T:SuperOffice.WebApi.Data.SystemMessageType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SystemMessageType.html
+  name: SystemMessageType
+  nameWithType: SystemMessageType
+  fullName: SuperOffice.WebApi.Data.SystemMessageType
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_RemoveSystemMessageAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: RemoveSystemMessageAsync
+  nameWithType: DiagnosticsAgent.RemoveSystemMessageAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveSystemMessageAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: RemoveSystemMessageAsync(int, string, RequestOptions)
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageAsync(int, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.RemoveSystemMessageAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveSystemMessageAsync(Integer, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: RemoveSystemMessageAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveSystemMessageAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: RemoveSystemMessageAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveSystemMessageAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_RemoveSystemMessageForAssociateAsync_System_Int32_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: RemoveSystemMessageForAssociateAsync
+  nameWithType: DiagnosticsAgent.RemoveSystemMessageForAssociateAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveSystemMessageForAssociateAsync_System_Int32_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: RemoveSystemMessageForAssociateAsync(int, string, int, RequestOptions)
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(int, string, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(int, string, int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(Integer, String, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(Integer, String, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveSystemMessageForAssociateAsync(Integer, String, Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveSystemMessageForAssociateAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveSystemMessageForAssociateAsync_System_Int32_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveSystemMessageForAssociateAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveSystemMessageForAssociateAsync_System_Int32_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_GetSystemMessagesAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetSystemMessagesAsync
+  nameWithType: DiagnosticsAgent.GetSystemMessagesAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetSystemMessagesAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetSystemMessagesAsync(int, RequestOptions)
+  nameWithType: IDiagnosticsAgent.GetSystemMessagesAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetSystemMessagesAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.GetSystemMessagesAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetSystemMessagesAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetSystemMessagesAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetSystemMessagesAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetSystemMessagesAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetSystemMessagesAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetSystemMessagesAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SystemMessage[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SystemMessage[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SystemMessage[]>
+  nameWithType: Task<SystemMessage[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SystemMessage[]>
+  nameWithType.vb: Task(Of SystemMessage())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SystemMessage())
+  name.vb: Task(Of SystemMessage())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.SystemMessage
+    name: SystemMessage
+    isExternal: true
+    href: SuperOffice.WebApi.Data.SystemMessage.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.SystemMessage
+    name: SystemMessage
+    isExternal: true
+    href: SuperOffice.WebApi.Data.SystemMessage.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_RemoveExpiredSystemMessagesAsync_SuperOffice_WebApi_RequestOptions_
+  name: RemoveExpiredSystemMessagesAsync
+  nameWithType: DiagnosticsAgent.RemoveExpiredSystemMessagesAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveExpiredSystemMessagesAsync_SuperOffice_WebApi_RequestOptions_
+  name: RemoveExpiredSystemMessagesAsync(RequestOptions)
+  nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+    name: RemoveExpiredSystemMessagesAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveExpiredSystemMessagesAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
+    name: RemoveExpiredSystemMessagesAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RemoveExpiredSystemMessagesAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync
   isExternal: true
@@ -2944,28 +3574,6 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.Threading.Tasks.Task{System.Boolean}
   commentId: T:System.Threading.Tasks.Task{System.Boolean}
   parent: System.Threading.Tasks

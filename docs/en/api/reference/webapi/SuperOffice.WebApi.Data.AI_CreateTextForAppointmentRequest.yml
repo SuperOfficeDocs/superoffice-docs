@@ -1,42 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript
-  commentId: T:SuperOffice.WebApi.Data.WorkflowStepRunScript
-  id: WorkflowStepRunScript
+- uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
+  id: AI_CreateTextForAppointmentRequest
   parent: SuperOffice.WebApi.Data
   children:
-  - SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
-  - SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+  - SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.Appointment
+  - SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.IsoLangCode
   langs:
   - csharp
   - vb
-  name: WorkflowStepRunScript
-  nameWithType: WorkflowStepRunScript
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript
+  name: AI_CreateTextForAppointmentRequest
+  nameWithType: AI_CreateTextForAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
   type: Class
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for WorkflowStepRunScript.
-
-    Step in workflow.
   example: []
   syntax:
-    content: 'public class WorkflowStepRunScript : WorkflowStepBase'
-    content.vb: Public Class WorkflowStepRunScript Inherits WorkflowStepBase
-  seealso:
-  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
-    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+    content: public class AI_CreateTextForAppointmentRequest
+    content.vb: Public Class AI_CreateTextForAppointmentRequest
   inheritance:
   - System.Object
-  - SuperOffice.WebApi.Data.WorkflowStepBase
   inheritedMembers:
-  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -44,60 +32,72 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
-  commentId: M:SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
+- uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.#ctor
   id: '#ctor'
-  parent: SuperOffice.WebApi.Data.WorkflowStepRunScript
+  parent: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
   langs:
   - csharp
   - vb
-  name: WorkflowStepRunScript()
-  nameWithType: WorkflowStepRunScript.WorkflowStepRunScript()
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.WorkflowStepRunScript()
+  name: AI_CreateTextForAppointmentRequest()
+  nameWithType: AI_CreateTextForAppointmentRequest.AI_CreateTextForAppointmentRequest()
+  fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.AI_CreateTextForAppointmentRequest()
   type: Constructor
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
   syntax:
-    content: public WorkflowStepRunScript()
+    content: public AI_CreateTextForAppointmentRequest()
     content.vb: Public Sub New()
-  overload: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor*
-  nameWithType.vb: WorkflowStepRunScript.New()
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepRunScript.New()
+  overload: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.#ctor*
+  nameWithType.vb: AI_CreateTextForAppointmentRequest.New()
+  fullName.vb: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.New()
   name.vb: New()
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
-  id: ScriptId
-  parent: SuperOffice.WebApi.Data.WorkflowStepRunScript
+- uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.Appointment
+  commentId: P:SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
   langs:
   - csharp
   - vb
-  name: ScriptId
-  nameWithType: WorkflowStepRunScript.ScriptId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+  name: Appointment
+  nameWithType: AI_CreateTextForAppointmentRequest.Appointment
+  fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.Appointment
   type: Property
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Script Id to run
   example: []
   syntax:
-    content: public virtual int ScriptId { get; set; }
+    content: public AppointmentEntity Appointment { get; set; }
     parameters: []
     return:
-      type: System.Int32
-    content.vb: Public Overridable Property ScriptId As Integer
-  overload: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId*
+      type: SuperOffice.WebApi.Data.AppointmentEntity
+    content.vb: Public Property Appointment As AppointmentEntity
+  overload: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.Appointment*
+- uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_CreateTextForAppointmentRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.IsoLangCode
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.IsoLangCode*
 references:
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
@@ -146,54 +146,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase
-  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html
-  name: WorkflowStepBase
-  nameWithType: WorkflowStepBase
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowStepId
-  name: WorkflowStepId
-  nameWithType: WorkflowStepBase.WorkflowStepId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowStepBase.WorkflowId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType_String
-  name: StepType_String
-  nameWithType: WorkflowStepBase.StepType_String
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType
-  name: StepType
-  nameWithType: WorkflowStepBase.StepType
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_Rank
-  name: Rank
-  nameWithType: WorkflowStepBase.Rank
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -420,31 +372,46 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
+- uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepRunScript.html#SuperOffice_WebApi_Data_WorkflowStepRunScript__ctor
-  name: WorkflowStepRunScript
-  nameWithType: WorkflowStepRunScript.WorkflowStepRunScript
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.WorkflowStepRunScript
-  nameWithType.vb: WorkflowStepRunScript.New
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepRunScript.New
+  href: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.html#SuperOffice_WebApi_Data_AI_CreateTextForAppointmentRequest__ctor
+  name: AI_CreateTextForAppointmentRequest
+  nameWithType: AI_CreateTextForAppointmentRequest.AI_CreateTextForAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.AI_CreateTextForAppointmentRequest
+  nameWithType.vb: AI_CreateTextForAppointmentRequest.New
+  fullName.vb: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.New
   name.vb: New
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+- uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.Appointment*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.Appointment
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepRunScript.html#SuperOffice_WebApi_Data_WorkflowStepRunScript_ScriptId
-  name: ScriptId
-  nameWithType: WorkflowStepRunScript.ScriptId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
-- uid: System.Int32
-  commentId: T:System.Int32
+  href: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.html#SuperOffice_WebApi_Data_AI_CreateTextForAppointmentRequest_Appointment
+  name: Appointment
+  nameWithType: AI_CreateTextForAppointmentRequest.Appointment
+  fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.Appointment
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentEntity.html
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity
+- uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.IsoLangCode
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.html#SuperOffice_WebApi_Data_AI_CreateTextForAppointmentRequest_IsoLangCode
+  name: IsoLangCode
+  nameWithType: AI_CreateTextForAppointmentRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.IsoLangCode
+- uid: System.String
+  commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

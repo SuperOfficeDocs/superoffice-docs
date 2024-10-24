@@ -60,6 +60,7 @@ items:
   - SuperOffice.WebApi.Data.CRMScriptErrorInfo
   - SuperOffice.WebApi.Data.CRMScriptResult
   - SuperOffice.WebApi.Data.CRMScriptRunResult
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap
   - SuperOffice.WebApi.Data.CRMScriptTraceRun
   - SuperOffice.WebApi.Data.Cache
   - SuperOffice.WebApi.Data.CategorizationModelDetails
@@ -323,6 +324,7 @@ items:
   - SuperOffice.WebApi.Data.SuggestedDocumentEntity
   - SuperOffice.WebApi.Data.SyncUserAccount
   - SuperOffice.WebApi.Data.SystemEventEntity
+  - SuperOffice.WebApi.Data.SystemMessage
   - SuperOffice.WebApi.Data.SystemTemplateSettings
   - SuperOffice.WebApi.Data.TabOrder
   - SuperOffice.WebApi.Data.TableRecord

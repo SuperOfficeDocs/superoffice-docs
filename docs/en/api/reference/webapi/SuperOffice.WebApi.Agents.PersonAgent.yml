@@ -21,6 +21,7 @@ items:
   - SuperOffice.WebApi.Agents.PersonAgent.CreateDefaultPersonImageAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.CreateOrUpdateUserCandidateAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.DeleteConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.DeleteExpiredAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.DeletePersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -63,6 +64,7 @@ items:
   - SuperOffice.WebApi.Agents.PersonAgent.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.SetPersonRankAsync(System.Int32,System.Int16,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.UndeleteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
   langs:
@@ -488,6 +490,44 @@ items:
   nameWithType.vb: PersonAgent.GetPersonAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.GetPersonAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetPersonAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: TryAddPersonsToEmailFlowAsync(int, int[], RequestOptions)
+  nameWithType: PersonAgent.TryAddPersonsToEmailFlowAsync(int, int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync(int, int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Try to add a participant to the EmailFlow, Same function available in WorkflowAgent
+  example: []
+  syntax:
+    content: public Task<bool[]> TryAddPersonsToEmailFlowAsync(int emailFlowId, int[] personIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: Primary key of EmailFlow
+    - id: personIds
+      type: System.Int32[]
+      description: Array of Person Ids
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean[]}
+      description: True if the corresponding participant was successfully added, false if it could not be added because of filter criteria or other reason
+    content.vb: Public Function TryAddPersonsToEmailFlowAsync(emailFlowId As Integer, personIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Boolean())
+  overload: SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: PersonAgent.TryAddPersonsToEmailFlowAsync(Integer, Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync(Integer, Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: TryAddPersonsToEmailFlowAsync(Integer, Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.PersonAgent.GetPersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1395,6 +1435,53 @@ items:
   nameWithType.vb: PersonAgent.CreateTemporaryKeyAsync(TemporaryKeyDomain, Integer, Integer, Date, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain, Integer, Integer, Date, SuperOffice.WebApi.RequestOptions)
   name.vb: CreateTemporaryKeyAsync(TemporaryKeyDomain, Integer, Integer, Date, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain, int, int, DateTime, string, RequestOptions)
+  nameWithType: PersonAgent.CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain, int, int, DateTime, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain, int, int, System.DateTime, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Create a temporary key in the database from the given parameters and return the key string. Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.
+  example: []
+  syntax:
+    content: public Task<string> CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires, string payload, RequestOptions requestOptions = null)
+    parameters:
+    - id: domain
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+      description: The domain this key is for
+    - id: targetId
+      type: System.Int32
+      description: The primary key of the entity this is for. Depends on domain.
+    - id: personId
+      type: System.Int32
+      description: The person this key is for. May be null.
+    - id: expires
+      type: System.DateTime
+      description: When the key will expire (servers local time)
+    - id: payload
+      type: System.String
+      description: The payload for the temporary key
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The key as base64, ready to be used e.g. in a URL
+    content.vb: Public Function CreateTemporaryKeyWithPayloadAsync(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As Date, payload As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: PersonAgent.CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain, Integer, Integer, Date, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain, Integer, Integer, Date, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain, Integer, Integer, Date, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.PersonAgent.CheckTemporaryKeyAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.PersonAgent.CheckTemporaryKeyAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: CheckTemporaryKeyAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -4224,6 +4311,136 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.Person.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.PersonAgent.html#SuperOffice_WebApi_Agents_PersonAgent_TryAddPersonsToEmailFlowAsync_System_Int32_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: TryAddPersonsToEmailFlowAsync
+  nameWithType: PersonAgent.TryAddPersonsToEmailFlowAsync
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_TryAddPersonsToEmailFlowAsync_System_Int32_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: TryAddPersonsToEmailFlowAsync(int, int[], RequestOptions)
+  nameWithType: IPersonAgent.TryAddPersonsToEmailFlowAsync(int, int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.TryAddPersonsToEmailFlowAsync(int, int[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPersonAgent.TryAddPersonsToEmailFlowAsync(Integer, Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.TryAddPersonsToEmailFlowAsync(Integer, Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: TryAddPersonsToEmailFlowAsync(Integer, Integer(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: TryAddPersonsToEmailFlowAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_TryAddPersonsToEmailFlowAsync_System_Int32_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: TryAddPersonsToEmailFlowAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_TryAddPersonsToEmailFlowAsync_System_Int32_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean[]}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool[]>
+  nameWithType: Task<bool[]>
+  fullName: System.Threading.Tasks.Task<bool[]>
+  nameWithType.vb: Task(Of Boolean())
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean())
+  name.vb: Task(Of Boolean())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.GetPersonEntityAsync
   isExternal: true
@@ -6193,6 +6410,106 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.PersonAgent.html#SuperOffice_WebApi_Agents_PersonAgent_CreateTemporaryKeyWithPayloadAsync_SuperOffice_WebApi_Data_TemporaryKeyDomain_System_Int32_System_Int32_System_DateTime_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CreateTemporaryKeyWithPayloadAsync
+  nameWithType: PersonAgent.CreateTemporaryKeyWithPayloadAsync
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.CreateTemporaryKeyWithPayloadAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_CreateTemporaryKeyWithPayloadAsync_SuperOffice_WebApi_Data_TemporaryKeyDomain_System_Int32_System_Int32_System_DateTime_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain, int, int, DateTime, string, RequestOptions)
+  nameWithType: IPersonAgent.CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain, int, int, DateTime, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain, int, int, System.DateTime, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPersonAgent.CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain, Integer, Integer, Date, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain, Integer, Integer, Date, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTemporaryKeyWithPayloadAsync(TemporaryKeyDomain, Integer, Integer, Date, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
+    name: CreateTemporaryKeyWithPayloadAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_CreateTemporaryKeyWithPayloadAsync_SuperOffice_WebApi_Data_TemporaryKeyDomain_System_Int32_System_Int32_System_DateTime_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TemporaryKeyDomain.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyWithPayloadAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
+    name: CreateTemporaryKeyWithPayloadAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_CreateTemporaryKeyWithPayloadAsync_SuperOffice_WebApi_Data_TemporaryKeyDomain_System_Int32_System_Int32_System_DateTime_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TemporaryKeyDomain.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.PersonAgent.CheckTemporaryKeyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.CheckTemporaryKeyAsync
   isExternal: true
@@ -6911,29 +7228,6 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-- uid: System.Int32[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
-  spec.csharp:
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
   - name: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonImage[]}
   commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonImage[]}

@@ -36,12 +36,13 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class ApiAgent : AgentBase, IDisposable'
-    content.vb: Public Class ApiAgent Inherits AgentBase Implements IDisposable
+    content: 'public class ApiAgent : AgentBase, IApiAgent, IDisposable'
+    content.vb: Public Class ApiAgent Inherits AgentBase Implements IApiAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IApiAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -182,6 +183,8 @@ items:
       description: 'Dictionary containing meta-data: "NetServerVersion", "Services", "Version"'
     content.vb: Public Function GetApiVersionAsync(requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
   overload: SuperOffice.WebApi.Agents.ApiAgent.GetApiVersionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ApiAgent.GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ApiAgent.GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -218,6 +221,8 @@ items:
       description: Tenant status
     content.vb: Public Function GetTenantStatusAsync(tenantCustId As String, subdomain As String = "online", requestOptions As RequestOptions = Nothing) As Task(Of TenantStatus)
   overload: SuperOffice.WebApi.Agents.ApiAgent.GetTenantStatusAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ApiAgent.GetTenantStatusAsync(String, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ApiAgent.GetTenantStatusAsync(String, String, SuperOffice.WebApi.RequestOptions)
   name.vb: GetTenantStatusAsync(String, String, RequestOptions)
@@ -278,6 +283,14 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IApiAgent
+  commentId: T:SuperOffice.WebApi.Agents.IApiAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IApiAgent.html
+  name: IApiAgent
+  nameWithType: IApiAgent
+  fullName: SuperOffice.WebApi.Agents.IApiAgent
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System
@@ -1401,6 +1414,36 @@ references:
   name: GetApiVersionAsync
   nameWithType: ApiAgent.GetApiVersionAsync
   fullName: SuperOffice.WebApi.Agents.ApiAgent.GetApiVersionAsync
+- uid: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IApiAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IApiAgent.html#SuperOffice_WebApi_Agents_IApiAgent_GetApiVersionAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetApiVersionAsync(RequestOptions)
+  nameWithType: IApiAgent.GetApiVersionAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetApiVersionAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IApiAgent.html#SuperOffice_WebApi_Agents_IApiAgent_GetApiVersionAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetApiVersionAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IApiAgent.html#SuperOffice_WebApi_Agents_IApiAgent_GetApiVersionAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
@@ -1523,6 +1566,63 @@ references:
   name: GetTenantStatusAsync
   nameWithType: ApiAgent.GetTenantStatusAsync
   fullName: SuperOffice.WebApi.Agents.ApiAgent.GetTenantStatusAsync
+- uid: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IApiAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IApiAgent.html#SuperOffice_WebApi_Agents_IApiAgent_GetTenantStatusAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetTenantStatusAsync(string, string, RequestOptions)
+  nameWithType: IApiAgent.GetTenantStatusAsync(string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(string, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IApiAgent.GetTenantStatusAsync(String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTenantStatusAsync(String, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetTenantStatusAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IApiAgent.html#SuperOffice_WebApi_Agents_IApiAgent_GetTenantStatusAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetTenantStatusAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IApiAgent.html#SuperOffice_WebApi_Agents_IApiAgent_GetTenantStatusAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TenantStatus}
   commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TenantStatus}
   parent: System.Threading.Tasks

@@ -1,42 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript
-  commentId: T:SuperOffice.WebApi.Data.WorkflowStepRunScript
-  id: WorkflowStepRunScript
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+  id: Diagnostics_RemoveSystemMessageForAssociateRequest
   parent: SuperOffice.WebApi.Data
   children:
-  - SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
-  - SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+  - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.#ctor
+  - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId
+  - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId
+  - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId
   langs:
   - csharp
   - vb
-  name: WorkflowStepRunScript
-  nameWithType: WorkflowStepRunScript
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript
+  name: Diagnostics_RemoveSystemMessageForAssociateRequest
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
   type: Class
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for WorkflowStepRunScript.
-
-    Step in workflow.
   example: []
   syntax:
-    content: 'public class WorkflowStepRunScript : WorkflowStepBase'
-    content.vb: Public Class WorkflowStepRunScript Inherits WorkflowStepBase
-  seealso:
-  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
-    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+    content: public class Diagnostics_RemoveSystemMessageForAssociateRequest
+    content.vb: Public Class Diagnostics_RemoveSystemMessageForAssociateRequest
   inheritance:
   - System.Object
-  - SuperOffice.WebApi.Data.WorkflowStepBase
   inheritedMembers:
-  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -44,60 +33,94 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
-  commentId: M:SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.#ctor
   id: '#ctor'
-  parent: SuperOffice.WebApi.Data.WorkflowStepRunScript
+  parent: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
   langs:
   - csharp
   - vb
-  name: WorkflowStepRunScript()
-  nameWithType: WorkflowStepRunScript.WorkflowStepRunScript()
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.WorkflowStepRunScript()
+  name: Diagnostics_RemoveSystemMessageForAssociateRequest()
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest.Diagnostics_RemoveSystemMessageForAssociateRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.Diagnostics_RemoveSystemMessageForAssociateRequest()
   type: Constructor
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
   syntax:
-    content: public WorkflowStepRunScript()
+    content: public Diagnostics_RemoveSystemMessageForAssociateRequest()
     content.vb: Public Sub New()
-  overload: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor*
-  nameWithType.vb: WorkflowStepRunScript.New()
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepRunScript.New()
+  overload: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.#ctor*
+  nameWithType.vb: Diagnostics_RemoveSystemMessageForAssociateRequest.New()
+  fullName.vb: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.New()
   name.vb: New()
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
-  id: ScriptId
-  parent: SuperOffice.WebApi.Data.WorkflowStepRunScript
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId
+  id: OnlineappId
+  parent: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
   langs:
   - csharp
   - vb
-  name: ScriptId
-  nameWithType: WorkflowStepRunScript.ScriptId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+  name: OnlineappId
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId
   type: Property
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Script Id to run
   example: []
   syntax:
-    content: public virtual int ScriptId { get; set; }
+    content: public int OnlineappId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ScriptId As Integer
-  overload: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId*
+    content.vb: Public Property OnlineappId As Integer
+  overload: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId*
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId
+  id: SystemMessageId
+  parent: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: SystemMessageId
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string SystemMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SystemMessageId As String
+  overload: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId*
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId*
 references:
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
@@ -146,54 +169,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase
-  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html
-  name: WorkflowStepBase
-  nameWithType: WorkflowStepBase
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowStepId
-  name: WorkflowStepId
-  nameWithType: WorkflowStepBase.WorkflowStepId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowStepBase.WorkflowId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType_String
-  name: StepType_String
-  nameWithType: WorkflowStepBase.StepType_String
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType
-  name: StepType
-  nameWithType: WorkflowStepBase.StepType
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_Rank
-  name: Rank
-  nameWithType: WorkflowStepBase.Rank
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -420,23 +395,23 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepRunScript.html#SuperOffice_WebApi_Data_WorkflowStepRunScript__ctor
-  name: WorkflowStepRunScript
-  nameWithType: WorkflowStepRunScript.WorkflowStepRunScript
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.WorkflowStepRunScript
-  nameWithType.vb: WorkflowStepRunScript.New
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepRunScript.New
+  href: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.html#SuperOffice_WebApi_Data_Diagnostics_RemoveSystemMessageForAssociateRequest__ctor
+  name: Diagnostics_RemoveSystemMessageForAssociateRequest
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest.Diagnostics_RemoveSystemMessageForAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.Diagnostics_RemoveSystemMessageForAssociateRequest
+  nameWithType.vb: Diagnostics_RemoveSystemMessageForAssociateRequest.New
+  fullName.vb: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.New
   name.vb: New
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepRunScript.html#SuperOffice_WebApi_Data_WorkflowStepRunScript_ScriptId
-  name: ScriptId
-  nameWithType: WorkflowStepRunScript.ScriptId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+  href: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.html#SuperOffice_WebApi_Data_Diagnostics_RemoveSystemMessageForAssociateRequest_OnlineappId
+  name: OnlineappId
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.OnlineappId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -448,3 +423,28 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.html#SuperOffice_WebApi_Data_Diagnostics_RemoveSystemMessageForAssociateRequest_SystemMessageId
+  name: SystemMessageId
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.SystemMessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.html#SuperOffice_WebApi_Data_Diagnostics_RemoveSystemMessageForAssociateRequest_AssociateId
+  name: AssociateId
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.AssociateId

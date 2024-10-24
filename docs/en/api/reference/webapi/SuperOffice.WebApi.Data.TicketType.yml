@@ -14,6 +14,8 @@ items:
   - SuperOffice.WebApi.Data.TicketType.Icon
   - SuperOffice.WebApi.Data.TicketType.IsDefault
   - SuperOffice.WebApi.Data.TicketType.Name
+  - SuperOffice.WebApi.Data.TicketType.ReplyExternalAsDefault
+  - SuperOffice.WebApi.Data.TicketType.ReplyForwardNoSignature
   - SuperOffice.WebApi.Data.TicketType.ShowInNew
   - SuperOffice.WebApi.Data.TicketType.TicketTypeId
   - SuperOffice.WebApi.Data.TicketType.VisibleForGroups
@@ -327,6 +329,52 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property VisibleForGroups As Integer()
   overload: SuperOffice.WebApi.Data.TicketType.VisibleForGroups*
+- uid: SuperOffice.WebApi.Data.TicketType.ReplyForwardNoSignature
+  commentId: P:SuperOffice.WebApi.Data.TicketType.ReplyForwardNoSignature
+  id: ReplyForwardNoSignature
+  parent: SuperOffice.WebApi.Data.TicketType
+  langs:
+  - csharp
+  - vb
+  name: ReplyForwardNoSignature
+  nameWithType: TicketType.ReplyForwardNoSignature
+  fullName: SuperOffice.WebApi.Data.TicketType.ReplyForwardNoSignature
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Do not insert user signature when replying or forwarding the message
+  example: []
+  syntax:
+    content: public virtual bool ReplyForwardNoSignature { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ReplyForwardNoSignature As Boolean
+  overload: SuperOffice.WebApi.Data.TicketType.ReplyForwardNoSignature*
+- uid: SuperOffice.WebApi.Data.TicketType.ReplyExternalAsDefault
+  commentId: P:SuperOffice.WebApi.Data.TicketType.ReplyExternalAsDefault
+  id: ReplyExternalAsDefault
+  parent: SuperOffice.WebApi.Data.TicketType
+  langs:
+  - csharp
+  - vb
+  name: ReplyExternalAsDefault
+  nameWithType: TicketType.ReplyExternalAsDefault
+  fullName: SuperOffice.WebApi.Data.TicketType.ReplyExternalAsDefault
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Set external access level when replying the message
+  example: []
+  syntax:
+    content: public virtual bool ReplyExternalAsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ReplyExternalAsDefault As Boolean
+  overload: SuperOffice.WebApi.Data.TicketType.ReplyExternalAsDefault*
 references:
 - uid: SuperOffice.WebApi.Agents.ListAgent
   commentId: T:SuperOffice.WebApi.Agents.ListAgent
@@ -776,3 +824,17 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
   - name: )
+- uid: SuperOffice.WebApi.Data.TicketType.ReplyForwardNoSignature*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketType.ReplyForwardNoSignature
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketType.html#SuperOffice_WebApi_Data_TicketType_ReplyForwardNoSignature
+  name: ReplyForwardNoSignature
+  nameWithType: TicketType.ReplyForwardNoSignature
+  fullName: SuperOffice.WebApi.Data.TicketType.ReplyForwardNoSignature
+- uid: SuperOffice.WebApi.Data.TicketType.ReplyExternalAsDefault*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketType.ReplyExternalAsDefault
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketType.html#SuperOffice_WebApi_Data_TicketType_ReplyExternalAsDefault
+  name: ReplyExternalAsDefault
+  nameWithType: TicketType.ReplyExternalAsDefault
+  fullName: SuperOffice.WebApi.Data.TicketType.ReplyExternalAsDefault

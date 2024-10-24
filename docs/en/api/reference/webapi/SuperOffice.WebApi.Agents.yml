@@ -33,6 +33,7 @@ items:
   - SuperOffice.WebApi.Agents.ForeignSystemAgent
   - SuperOffice.WebApi.Agents.FreeTextAgent
   - SuperOffice.WebApi.Agents.IAIAgent
+  - SuperOffice.WebApi.Agents.IApiAgent
   - SuperOffice.WebApi.Agents.IAppointmentAgent
   - SuperOffice.WebApi.Agents.IArchiveAgent
   - SuperOffice.WebApi.Agents.IAssociateAgent
@@ -140,6 +141,14 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IApiAgent
+  commentId: T:SuperOffice.WebApi.Agents.IApiAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IApiAgent.html
+  name: IApiAgent
+  nameWithType: IApiAgent
+  fullName: SuperOffice.WebApi.Agents.IApiAgent
 - uid: SuperOffice.WebApi.Agents.ApiAgent
   commentId: T:SuperOffice.WebApi.Agents.ApiAgent
   isExternal: true

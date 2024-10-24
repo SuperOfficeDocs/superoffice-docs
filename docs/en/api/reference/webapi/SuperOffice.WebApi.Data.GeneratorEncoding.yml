@@ -12,6 +12,7 @@ items:
   - SuperOffice.WebApi.Data.GeneratorEncoding.MsOffice2007Xml
   - SuperOffice.WebApi.Data.GeneratorEncoding.MsPowerpoint
   - SuperOffice.WebApi.Data.GeneratorEncoding.MsWord
+  - SuperOffice.WebApi.Data.GeneratorEncoding.MsWord2007
   - SuperOffice.WebApi.Data.GeneratorEncoding.OpenDocument
   - SuperOffice.WebApi.Data.GeneratorEncoding.OpenDocumentXml
   - SuperOffice.WebApi.Data.GeneratorEncoding.Pdf
@@ -464,6 +465,37 @@ items:
       <EnumMember>
 
       OpenDocumentXml = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.GeneratorEncoding.MsWord2007
+  commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.MsWord2007
+  id: MsWord2007
+  parent: SuperOffice.WebApi.Data.GeneratorEncoding
+  langs:
+  - csharp
+  - vb
+  name: MsWord2007
+  nameWithType: GeneratorEncoding.MsWord2007
+  fullName: SuperOffice.WebApi.Data.GeneratorEncoding.MsWord2007
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '14: Microsoft Word 2007 document type document, using custom Aspose.Words based engine.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      MsWord2007 = 14
+    return:
+      type: SuperOffice.WebApi.Data.GeneratorEncoding
+    content.vb: >-
+      <EnumMember>
+
+      MsWord2007 = 14
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

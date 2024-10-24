@@ -21,6 +21,7 @@ items:
   - SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate
   - SuperOffice.WebApi.Data.PersonEntity.Country
   - SuperOffice.WebApi.Data.PersonEntity.CreatedBy
+  - SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId
   - SuperOffice.WebApi.Data.PersonEntity.CreatedDate
   - SuperOffice.WebApi.Data.PersonEntity.CustomFields
   - SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage
@@ -1554,6 +1555,29 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ActiveStatusMonitorId As Integer
   overload: SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId*
+- uid: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId
+  id: CreatedByFormId
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedByFormId
+  nameWithType: PersonEntity.CreatedByFormId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The form id of the form that created the person
+  example: []
+  syntax:
+    content: public virtual int CreatedByFormId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CreatedByFormId As Integer
+  overload: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId*
 - uid: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   id: UserDefinedFields
@@ -2648,6 +2672,13 @@ references:
   name: ActiveStatusMonitorId
   nameWithType: PersonEntity.ActiveStatusMonitorId
   fullName: SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId
+- uid: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.PersonEntity.html#SuperOffice_WebApi_Data_PersonEntity_CreatedByFormId
+  name: CreatedByFormId
+  nameWithType: PersonEntity.CreatedByFormId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId
 - uid: SuperOffice.WebApi.Data.PersonEntity.CustomFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.CustomFields
   isExternal: true

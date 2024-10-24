@@ -5,6 +5,7 @@ items:
   id: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
+  - SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
   - SuperOffice.WebApi.Data.AI_DetectLanguageRequest
   - SuperOffice.WebApi.Data.AI_DetectSentimentRequest
   - SuperOffice.WebApi.Data.AI_ExpandTextRequest
@@ -134,6 +135,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment_ToggleAppointmentStatusRequest
   - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest
   - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest
   - SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest
   - SuperOffice.WebApi.Data.Appointment_ValidateDaysRequest
   - SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest
@@ -282,6 +284,7 @@ items:
   - SuperOffice.WebApi.Data.CRMScriptErrorInfo
   - SuperOffice.WebApi.Data.CRMScriptResult
   - SuperOffice.WebApi.Data.CRMScriptRunResult
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap
   - SuperOffice.WebApi.Data.CRMScriptTraceRun
   - SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
   - SuperOffice.WebApi.Data.CRMScript_DeleteTriggerScriptByUniqueIdRequest
@@ -293,7 +296,9 @@ items:
   - SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
   - SuperOffice.WebApi.Data.CRMScript_GetCRMScriptByUniqueIdentifierRequest
   - SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest
+  - SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
   - SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  - SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptEntityWithoutCompileRequest
   - SuperOffice.WebApi.Data.CRMScript_SaveTriggerScriptByUniqueIdRequest
   - SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest
   - SuperOffice.WebApi.Data.CRMScript_ValidateScriptByStringRequest
@@ -570,10 +575,15 @@ items:
   - SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForCurrentUserRequest
+  - SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
   - SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
   - SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
+  - SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
+  - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+  - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageRequest
   - SuperOffice.WebApi.Data.Diagnostics_ResyncUsersRequest
+  - SuperOffice.WebApi.Data.Diagnostics_SendSystemMessageRequest
   - SuperOffice.WebApi.Data.Diagnostics_WebAppUsageExistsInPeriodRequest
   - SuperOffice.WebApi.Data.DiaryViewEntity
   - SuperOffice.WebApi.Data.DictionaryStepInformation
@@ -592,6 +602,7 @@ items:
   - SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
   - SuperOffice.WebApi.Data.DocumentMigration_GetForSelectionRequest
   - SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest
+  - SuperOffice.WebApi.Data.DocumentMigration_GetNumberOfConfidentialDocumentsRequest
   - SuperOffice.WebApi.Data.DocumentMigration_HasDocumentsToMigrateRequest
   - SuperOffice.WebApi.Data.DocumentMigration_MigrateDocumentToNewDocPluginRequest
   - SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest
@@ -1271,6 +1282,7 @@ items:
   - SuperOffice.WebApi.Data.Person_CreateDefaultFromCredentialRequest
   - SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest
   - SuperOffice.WebApi.Data.Person_CreateTemporaryKeyRequest
+  - SuperOffice.WebApi.Data.Person_CreateTemporaryKeyWithPayloadRequest
   - SuperOffice.WebApi.Data.Person_DeleteExpiredRequest
   - SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest
   - SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest
@@ -1305,6 +1317,7 @@ items:
   - SuperOffice.WebApi.Data.Person_SetConsentRequest
   - SuperOffice.WebApi.Data.Person_SetPersonImageRequest
   - SuperOffice.WebApi.Data.Person_SetPersonRankRequest
+  - SuperOffice.WebApi.Data.Person_TryAddPersonsToEmailFlowRequest
   - SuperOffice.WebApi.Data.Person_UndeleteRequest
   - SuperOffice.WebApi.Data.Person_ValidatePersonEntityRequest
   - SuperOffice.WebApi.Data.PhoneListItem
@@ -1659,6 +1672,7 @@ items:
   - SuperOffice.WebApi.Data.SalesActivity
   - SuperOffice.WebApi.Data.Satellite
   - SuperOffice.WebApi.Data.Script
+  - SuperOffice.WebApi.Data.ScriptType
   - SuperOffice.WebApi.Data.SelectableMDOListItem
   - SuperOffice.WebApi.Data.SelectionCategory
   - SuperOffice.WebApi.Data.SelectionEntity
@@ -1761,6 +1775,8 @@ items:
   - SuperOffice.WebApi.Data.SyncUserAccount
   - SuperOffice.WebApi.Data.SystemEventEntity
   - SuperOffice.WebApi.Data.SystemEventScope
+  - SuperOffice.WebApi.Data.SystemMessage
+  - SuperOffice.WebApi.Data.SystemMessageType
   - SuperOffice.WebApi.Data.SystemTemplateSettings
   - SuperOffice.WebApi.Data.TabOrder
   - SuperOffice.WebApi.Data.TableRecord
@@ -2142,6 +2158,7 @@ items:
   - SuperOffice.WebApi.Data.WorkflowGoal
   - SuperOffice.WebApi.Data.WorkflowGoalType
   - SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  - SuperOffice.WebApi.Data.WorkflowNotifySMSType
   - SuperOffice.WebApi.Data.WorkflowOwnerType
   - SuperOffice.WebApi.Data.WorkflowSplitOptionType
   - SuperOffice.WebApi.Data.WorkflowStepAddToList
@@ -2176,6 +2193,7 @@ items:
   - SuperOffice.WebApi.Data.Workflow_AddAfterWorkflowStepRequest
   - SuperOffice.WebApi.Data.Workflow_ConnectEmailFlowContentRequest
   - SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest
+  - SuperOffice.WebApi.Data.Workflow_CopyEmailFlowRequest
   - SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepFromTypeRequest
   - SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
   - SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest
@@ -2184,6 +2202,7 @@ items:
   - SuperOffice.WebApi.Data.Workflow_RemoveParticipantsFromEmailFlowRequest
   - SuperOffice.WebApi.Data.Workflow_RunRequest
   - SuperOffice.WebApi.Data.Workflow_SendEventRequest
+  - SuperOffice.WebApi.Data.Workflow_SetStatusOnWorkflowRequest
   - SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
   - SuperOffice.WebApi.Data.Workflow_UpdateFormSubmissionsRequest
   langs:
@@ -4045,6 +4064,13 @@ references:
   name: Person
   nameWithType: Person
   fullName: SuperOffice.WebApi.Data.Person
+- uid: SuperOffice.WebApi.Data.Person_TryAddPersonsToEmailFlowRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_TryAddPersonsToEmailFlowRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Person_TryAddPersonsToEmailFlowRequest.html
+  name: Person_TryAddPersonsToEmailFlowRequest
+  nameWithType: Person_TryAddPersonsToEmailFlowRequest
+  fullName: SuperOffice.WebApi.Data.Person_TryAddPersonsToEmailFlowRequest
 - uid: SuperOffice.WebApi.Data.PersonEntity
   commentId: T:SuperOffice.WebApi.Data.PersonEntity
   parent: SuperOffice.WebApi.Data
@@ -4207,6 +4233,13 @@ references:
   name: Person_CreateTemporaryKeyRequest
   nameWithType: Person_CreateTemporaryKeyRequest
   fullName: SuperOffice.WebApi.Data.Person_CreateTemporaryKeyRequest
+- uid: SuperOffice.WebApi.Data.Person_CreateTemporaryKeyWithPayloadRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_CreateTemporaryKeyWithPayloadRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Person_CreateTemporaryKeyWithPayloadRequest.html
+  name: Person_CreateTemporaryKeyWithPayloadRequest
+  nameWithType: Person_CreateTemporaryKeyWithPayloadRequest
+  fullName: SuperOffice.WebApi.Data.Person_CreateTemporaryKeyWithPayloadRequest
 - uid: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest
   commentId: T:SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest
   isExternal: true
@@ -5605,6 +5638,13 @@ references:
   name: Appointment_UpdateAppointmentRequest
   nameWithType: Appointment_UpdateAppointmentRequest
   fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.html
+  name: Appointment_UpdateAppointmentWithModeRequest
+  nameWithType: Appointment_UpdateAppointmentWithModeRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest
 - uid: SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
   commentId: T:SuperOffice.WebApi.Data.Appointment_GetAssociatesDiaryRequest
   isExternal: true
@@ -9128,6 +9168,48 @@ references:
   name: Diagnostics_ResyncUsersRequest
   nameWithType: Diagnostics_ResyncUsersRequest
   fullName: SuperOffice.WebApi.Data.Diagnostics_ResyncUsersRequest
+- uid: SuperOffice.WebApi.Data.SystemMessage
+  commentId: T:SuperOffice.WebApi.Data.SystemMessage
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SystemMessage.html
+  name: SystemMessage
+  nameWithType: SystemMessage
+  fullName: SuperOffice.WebApi.Data.SystemMessage
+- uid: SuperOffice.WebApi.Data.Diagnostics_SendSystemMessageRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_SendSystemMessageRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_SendSystemMessageRequest.html
+  name: Diagnostics_SendSystemMessageRequest
+  nameWithType: Diagnostics_SendSystemMessageRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_SendSystemMessageRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageRequest.html
+  name: Diagnostics_RemoveSystemMessageRequest
+  nameWithType: Diagnostics_RemoveSystemMessageRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest.html
+  name: Diagnostics_RemoveSystemMessageForAssociateRequest
+  nameWithType: Diagnostics_RemoveSystemMessageForAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest.html
+  name: Diagnostics_GetSystemMessagesRequest
+  nameWithType: Diagnostics_GetSystemMessagesRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest.html
+  name: Diagnostics_RemoveExpiredSystemMessagesRequest
+  nameWithType: Diagnostics_RemoveExpiredSystemMessagesRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
 - uid: SuperOffice.WebApi.Data.Installation
   commentId: T:SuperOffice.WebApi.Data.Installation
   isExternal: true
@@ -14523,6 +14605,13 @@ references:
   name: CRMScriptEntity
   nameWithType: CRMScriptEntity
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity
+- uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptEntityWithoutCompileRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptEntityWithoutCompileRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptEntityWithoutCompileRequest.html
+  name: CRMScript_SaveCRMScriptEntityWithoutCompileRequest
+  nameWithType: CRMScript_SaveCRMScriptEntityWithoutCompileRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptEntityWithoutCompileRequest
 - uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
   commentId: T:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
   isExternal: true
@@ -14593,6 +14682,13 @@ references:
   name: CRMScript_ValidateScriptByStringRequest
   nameWithType: CRMScript_ValidateScriptByStringRequest
   fullName: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByStringRequest
+- uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.html
+  name: CRMScript_ResolveIncludesRequest
+  nameWithType: CRMScript_ResolveIncludesRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
 - uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo
   commentId: T:SuperOffice.WebApi.Data.CRMScriptErrorInfo
   parent: SuperOffice.WebApi.Data
@@ -14603,6 +14699,7 @@ references:
   fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo
 - uid: SuperOffice.WebApi.Data.CRMScriptResult
   commentId: T:SuperOffice.WebApi.Data.CRMScriptResult
+  parent: SuperOffice.WebApi.Data
   isExternal: true
   href: SuperOffice.WebApi.Data.CRMScriptResult.html
   name: CRMScriptResult
@@ -14615,6 +14712,13 @@ references:
   name: CRMScriptRunResult
   nameWithType: CRMScriptRunResult
   fullName: SuperOffice.WebApi.Data.CRMScriptRunResult
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptSourceMap
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html
+  name: CRMScriptSourceMap
+  nameWithType: CRMScriptSourceMap
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun
   commentId: T:SuperOffice.WebApi.Data.CRMScriptTraceRun
   parent: SuperOffice.WebApi.Data
@@ -15448,6 +15552,13 @@ references:
   name: AI_RephraseTextRequest
   nameWithType: AI_RephraseTextRequest
   fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest
+- uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest.html
+  name: AI_CreateTextForAppointmentRequest
+  nameWithType: AI_CreateTextForAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
 - uid: SuperOffice.WebApi.Data.CategorizationModelDetails
   commentId: T:SuperOffice.WebApi.Data.CategorizationModelDetails
   parent: SuperOffice.WebApi.Data
@@ -15666,6 +15777,13 @@ references:
   name: DocumentMigration_HasDocumentsToMigrateRequest
   nameWithType: DocumentMigration_HasDocumentsToMigrateRequest
   fullName: SuperOffice.WebApi.Data.DocumentMigration_HasDocumentsToMigrateRequest
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetNumberOfConfidentialDocumentsRequest
+  commentId: T:SuperOffice.WebApi.Data.DocumentMigration_GetNumberOfConfidentialDocumentsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentMigration_GetNumberOfConfidentialDocumentsRequest.html
+  name: DocumentMigration_GetNumberOfConfidentialDocumentsRequest
+  nameWithType: DocumentMigration_GetNumberOfConfidentialDocumentsRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetNumberOfConfidentialDocumentsRequest
 - uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
   commentId: T:SuperOffice.WebApi.Data.DocumentTemplateMigrationList
   isExternal: true
@@ -15737,6 +15855,20 @@ references:
   name: Workflow_UpdateFormSubmissionsRequest
   nameWithType: Workflow_UpdateFormSubmissionsRequest
   fullName: SuperOffice.WebApi.Data.Workflow_UpdateFormSubmissionsRequest
+- uid: SuperOffice.WebApi.Data.Workflow_SetStatusOnWorkflowRequest
+  commentId: T:SuperOffice.WebApi.Data.Workflow_SetStatusOnWorkflowRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Workflow_SetStatusOnWorkflowRequest.html
+  name: Workflow_SetStatusOnWorkflowRequest
+  nameWithType: Workflow_SetStatusOnWorkflowRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_SetStatusOnWorkflowRequest
+- uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowRequest
+  commentId: T:SuperOffice.WebApi.Data.Workflow_CopyEmailFlowRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowRequest.html
+  name: Workflow_CopyEmailFlowRequest
+  nameWithType: Workflow_CopyEmailFlowRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowRequest
 - uid: SuperOffice.WebApi.Data.FieldValue
   commentId: T:SuperOffice.WebApi.Data.FieldValue
   isExternal: true
@@ -16719,6 +16851,14 @@ references:
   name: WorkflowNotifyEmailType
   nameWithType: WorkflowNotifyEmailType
   fullName: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+- uid: SuperOffice.WebApi.Data.WorkflowNotifySMSType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowNotifySMSType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowNotifySMSType.html
+  name: WorkflowNotifySMSType
+  nameWithType: WorkflowNotifySMSType
+  fullName: SuperOffice.WebApi.Data.WorkflowNotifySMSType
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType
   commentId: T:SuperOffice.WebApi.Data.WorkflowWaitForActionType
   parent: SuperOffice.WebApi.Data
@@ -17255,6 +17395,14 @@ references:
   name: HtmlSanitizerOptions
   nameWithType: HtmlSanitizerOptions
   fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions
+- uid: SuperOffice.WebApi.Data.SystemMessageType
+  commentId: T:SuperOffice.WebApi.Data.SystemMessageType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SystemMessageType.html
+  name: SystemMessageType
+  nameWithType: SystemMessageType
+  fullName: SuperOffice.WebApi.Data.SystemMessageType
 - uid: SuperOffice.WebApi.Data.EventHandlerType
   commentId: T:SuperOffice.WebApi.Data.EventHandlerType
   parent: SuperOffice.WebApi.Data
@@ -17391,6 +17539,14 @@ references:
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.WebApi.Data.BadgeType
+- uid: SuperOffice.WebApi.Data.ScriptType
+  commentId: T:SuperOffice.WebApi.Data.ScriptType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ScriptType.html
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: SuperOffice.WebApi.Data.ScriptType
 - uid: SuperOffice.WebApi.Data.WidgetTheme
   commentId: T:SuperOffice.WebApi.Data.WidgetTheme
   parent: SuperOffice.WebApi.Data

@@ -85,6 +85,8 @@ items:
     name: FreeTextAgent
   - uid: SuperOffice.WebApi.Agents.IAIAgent
     name: IAIAgent
+  - uid: SuperOffice.WebApi.Agents.IApiAgent
+    name: IApiAgent
   - uid: SuperOffice.WebApi.Agents.IAppointmentAgent
     name: IAppointmentAgent
   - uid: SuperOffice.WebApi.Agents.IArchiveAgent
@@ -306,6 +308,8 @@ items:
   items:
   - uid: SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
     name: AI_ClearChatbotTurnsRequest
+  - uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
+    name: AI_CreateTextForAppointmentRequest
   - uid: SuperOffice.WebApi.Data.AI_DetectLanguageRequest
     name: AI_DetectLanguageRequest
   - uid: SuperOffice.WebApi.Data.AI_DetectSentimentRequest
@@ -564,6 +568,8 @@ items:
     name: Appointment_UpdateAppointmentFromIcsResponseRequest
   - uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentRequest
     name: Appointment_UpdateAppointmentRequest
+  - uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest
+    name: Appointment_UpdateAppointmentWithModeRequest
   - uid: SuperOffice.WebApi.Data.Appointment_ValidateAppointmentEntityRequest
     name: Appointment_ValidateAppointmentEntityRequest
   - uid: SuperOffice.WebApi.Data.Appointment_ValidateDaysRequest
@@ -860,6 +866,8 @@ items:
     name: CRMScriptResult
   - uid: SuperOffice.WebApi.Data.CRMScriptRunResult
     name: CRMScriptRunResult
+  - uid: SuperOffice.WebApi.Data.CRMScriptSourceMap
+    name: CRMScriptSourceMap
   - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun
     name: CRMScriptTraceRun
   - uid: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
@@ -882,8 +890,12 @@ items:
     name: CRMScript_GetCRMScriptByUniqueIdentifierRequest
   - uid: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest
     name: CRMScript_GetTriggerScriptByUniqueIdRequest
+  - uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
+    name: CRMScript_ResolveIncludesRequest
   - uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptByUniqueIdentifierRequest
     name: CRMScript_SaveCRMScriptByUniqueIdentifierRequest
+  - uid: SuperOffice.WebApi.Data.CRMScript_SaveCRMScriptEntityWithoutCompileRequest
+    name: CRMScript_SaveCRMScriptEntityWithoutCompileRequest
   - uid: SuperOffice.WebApi.Data.CRMScript_SaveTriggerScriptByUniqueIdRequest
     name: CRMScript_SaveTriggerScriptByUniqueIdRequest
   - uid: SuperOffice.WebApi.Data.CRMScript_ValidateScriptByIncludeIdRequest
@@ -1436,14 +1448,24 @@ items:
     name: Diagnostics_GetEntityCountsForAllUsersRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForCurrentUserRequest
     name: Diagnostics_GetEntityCountsForCurrentUserRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest
+    name: Diagnostics_GetSystemMessagesRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
     name: Diagnostics_GetWebAppUsagesForPeriodRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
     name: Diagnostics_LogViewStateRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
     name: Diagnostics_PerformTasksAfterUpgradeRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
+    name: Diagnostics_RemoveExpiredSystemMessagesRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
+    name: Diagnostics_RemoveSystemMessageForAssociateRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageRequest
+    name: Diagnostics_RemoveSystemMessageRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_ResyncUsersRequest
     name: Diagnostics_ResyncUsersRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_SendSystemMessageRequest
+    name: Diagnostics_SendSystemMessageRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_WebAppUsageExistsInPeriodRequest
     name: Diagnostics_WebAppUsageExistsInPeriodRequest
   - uid: SuperOffice.WebApi.Data.DiaryViewEntity
@@ -1480,6 +1502,8 @@ items:
     name: DocumentMigration_GetForSelectionRequest
   - uid: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest
     name: DocumentMigration_GetForTemplatesRequest
+  - uid: SuperOffice.WebApi.Data.DocumentMigration_GetNumberOfConfidentialDocumentsRequest
+    name: DocumentMigration_GetNumberOfConfidentialDocumentsRequest
   - uid: SuperOffice.WebApi.Data.DocumentMigration_HasDocumentsToMigrateRequest
     name: DocumentMigration_HasDocumentsToMigrateRequest
   - uid: SuperOffice.WebApi.Data.DocumentMigration_MigrateDocumentToNewDocPluginRequest
@@ -2838,6 +2862,8 @@ items:
     name: Person_CreateOrUpdateUserCandidateRequest
   - uid: SuperOffice.WebApi.Data.Person_CreateTemporaryKeyRequest
     name: Person_CreateTemporaryKeyRequest
+  - uid: SuperOffice.WebApi.Data.Person_CreateTemporaryKeyWithPayloadRequest
+    name: Person_CreateTemporaryKeyWithPayloadRequest
   - uid: SuperOffice.WebApi.Data.Person_DeleteExpiredRequest
     name: Person_DeleteExpiredRequest
   - uid: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest
@@ -2906,6 +2932,8 @@ items:
     name: Person_SetPersonImageRequest
   - uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest
     name: Person_SetPersonRankRequest
+  - uid: SuperOffice.WebApi.Data.Person_TryAddPersonsToEmailFlowRequest
+    name: Person_TryAddPersonsToEmailFlowRequest
   - uid: SuperOffice.WebApi.Data.Person_UndeleteRequest
     name: Person_UndeleteRequest
   - uid: SuperOffice.WebApi.Data.Person_ValidatePersonEntityRequest
@@ -3614,6 +3642,8 @@ items:
     name: Satellite
   - uid: SuperOffice.WebApi.Data.Script
     name: Script
+  - uid: SuperOffice.WebApi.Data.ScriptType
+    name: ScriptType
   - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
     name: SelectableMDOListItem
   - uid: SuperOffice.WebApi.Data.SelectionCategory
@@ -3818,6 +3848,10 @@ items:
     name: SystemEventEntity
   - uid: SuperOffice.WebApi.Data.SystemEventScope
     name: SystemEventScope
+  - uid: SuperOffice.WebApi.Data.SystemMessage
+    name: SystemMessage
+  - uid: SuperOffice.WebApi.Data.SystemMessageType
+    name: SystemMessageType
   - uid: SuperOffice.WebApi.Data.SystemTemplateSettings
     name: SystemTemplateSettings
   - uid: SuperOffice.WebApi.Data.TabOrder
@@ -4580,6 +4614,8 @@ items:
     name: WorkflowGoalType
   - uid: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
     name: WorkflowNotifyEmailType
+  - uid: SuperOffice.WebApi.Data.WorkflowNotifySMSType
+    name: WorkflowNotifySMSType
   - uid: SuperOffice.WebApi.Data.WorkflowOwnerType
     name: WorkflowOwnerType
   - uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
@@ -4648,6 +4684,8 @@ items:
     name: Workflow_ConnectEmailFlowContentRequest
   - uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest
     name: Workflow_CopyEmailFlowContentRequest
+  - uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowRequest
+    name: Workflow_CopyEmailFlowRequest
   - uid: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepFromTypeRequest
     name: Workflow_CreateDefaultWorkflowStepFromTypeRequest
   - uid: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
@@ -4664,6 +4702,8 @@ items:
     name: Workflow_RunRequest
   - uid: SuperOffice.WebApi.Data.Workflow_SendEventRequest
     name: Workflow_SendEventRequest
+  - uid: SuperOffice.WebApi.Data.Workflow_SetStatusOnWorkflowRequest
+    name: Workflow_SetStatusOnWorkflowRequest
   - uid: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
     name: Workflow_TryAddPersonsToEmailFlowRequest
   - uid: SuperOffice.WebApi.Data.Workflow_UpdateFormSubmissionsRequest

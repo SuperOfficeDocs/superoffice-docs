@@ -1,38 +1,37 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo
-  commentId: T:SuperOffice.WebApi.Data.TemporaryKeyInfo
-  id: TemporaryKeyInfo
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptSourceMap
+  id: CRMScriptSourceMap
   parent: SuperOffice.WebApi.Data
   children:
-  - SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor
-  - SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-  - SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-  - SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
-  - SuperOffice.WebApi.Data.TemporaryKeyInfo.Payload
-  - SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
-  - SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap.#ctor
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap.Delta
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludeId
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludedFrom
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberFrom
+  - SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberTo
   langs:
   - csharp
   - vb
-  name: TemporaryKeyInfo
-  nameWithType: TemporaryKeyInfo
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  name: CRMScriptSourceMap
+  nameWithType: CRMScriptSourceMap
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap
   type: Class
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: >-
-    Carrier object for TemporaryKeyInfo.
+    Carrier object for CRMScriptSourceMap.
 
-    The fields returned when checking a temporary key
+    Object for returning source-map info when validating or executing a CRMScript
   example: []
   syntax:
-    content: 'public class TemporaryKeyInfo : Carrier'
-    content.vb: Public Class TemporaryKeyInfo Inherits Carrier
+    content: 'public class CRMScriptSourceMap : Carrier'
+    content.vb: Public Class CRMScriptSourceMap Inherits Carrier
   seealso:
-  - linkId: SuperOffice.WebApi.Agents.PersonAgent
-    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
+    commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Data.Carrier
@@ -46,16 +45,16 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor
-  commentId: M:SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScriptSourceMap.#ctor
   id: '#ctor'
-  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  parent: SuperOffice.WebApi.Data.CRMScriptSourceMap
   langs:
   - csharp
   - vb
-  name: TemporaryKeyInfo()
-  nameWithType: TemporaryKeyInfo.TemporaryKeyInfo()
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.TemporaryKeyInfo()
+  name: CRMScriptSourceMap()
+  nameWithType: CRMScriptSourceMap.CRMScriptSourceMap()
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.CRMScriptSourceMap()
   type: Constructor
   assemblies:
   - SuperOffice.WebApi
@@ -63,192 +62,135 @@ items:
   summary: Default constructor - defaults any enum props to 0.
   example: []
   syntax:
-    content: public TemporaryKeyInfo()
+    content: public CRMScriptSourceMap()
     content.vb: Public Sub New()
-  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor*
-  nameWithType.vb: TemporaryKeyInfo.New()
-  fullName.vb: SuperOffice.WebApi.Data.TemporaryKeyInfo.New()
+  overload: SuperOffice.WebApi.Data.CRMScriptSourceMap.#ctor*
+  nameWithType.vb: CRMScriptSourceMap.New()
+  fullName.vb: SuperOffice.WebApi.Data.CRMScriptSourceMap.New()
   name.vb: New()
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-  id: Domain_String
-  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberFrom
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberFrom
+  id: LineNumberFrom
+  parent: SuperOffice.WebApi.Data.CRMScriptSourceMap
   langs:
   - csharp
   - vb
-  name: Domain_String
-  nameWithType: TemporaryKeyInfo.Domain_String
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  name: LineNumberFrom
+  nameWithType: CRMScriptSourceMap.LineNumberFrom
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberFrom
   type: Property
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The domain for this key. Unknown if key is not valid.
-
-    Raw string enum value.
+  summary: The 1-based start line (inclusive) of this entry
   example: []
   syntax:
-    content: >-
-      [JsonProperty("Domain")]
-
-      public string Domain_String { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <JsonProperty("Domain")>
-
-      Public Property Domain_String As String
-  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String*
-  seealso:
-  - linkId: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-    commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Domain
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-  id: Domain
-  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
-  langs:
-  - csharp
-  - vb
-  name: Domain
-  nameWithType: TemporaryKeyInfo.Domain
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-  type: Property
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The domain for this key. Unknown if key is not valid.
-
-    NULL if unknown enum value.
-  example: []
-  syntax:
-    content: >-
-      [JsonIgnore]
-
-      public TemporaryKeyDomain? Domain { get; set; }
-    parameters: []
-    return:
-      type: System.Nullable{SuperOffice.WebApi.Data.TemporaryKeyDomain}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Domain As TemporaryKeyDomain?
-  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain*
-  seealso:
-  - linkId: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-    commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
-  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
-  id: TargetId
-  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
-  langs:
-  - csharp
-  - vb
-  name: TargetId
-  nameWithType: TemporaryKeyInfo.TargetId
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
-  type: Property
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  summary: The primary key of the entity this temporary key is for, dependent of dmain
-  example: []
-  syntax:
-    content: public virtual int TargetId { get; set; }
+    content: public virtual int LineNumberFrom { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property TargetId As Integer
-  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId*
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
-  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
-  id: PersonId
-  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+    content.vb: Public Overridable Property LineNumberFrom As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberFrom*
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberTo
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberTo
+  id: LineNumberTo
+  parent: SuperOffice.WebApi.Data.CRMScriptSourceMap
   langs:
   - csharp
   - vb
-  name: PersonId
-  nameWithType: TemporaryKeyInfo.PersonId
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
+  name: LineNumberTo
+  nameWithType: CRMScriptSourceMap.LineNumberTo
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberTo
   type: Property
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The person id this key is related to. May be null.
+  summary: The 1-based end line (inclusive) of this entry
   example: []
   syntax:
-    content: public virtual int PersonId { get; set; }
+    content: public virtual int LineNumberTo { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property PersonId As Integer
-  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId*
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
-  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
-  id: IsExpired
-  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+    content.vb: Public Overridable Property LineNumberTo As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberTo*
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.Delta
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptSourceMap.Delta
+  id: Delta
+  parent: SuperOffice.WebApi.Data.CRMScriptSourceMap
   langs:
   - csharp
   - vb
-  name: IsExpired
-  nameWithType: TemporaryKeyInfo.IsExpired
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
+  name: Delta
+  nameWithType: CRMScriptSourceMap.Delta
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.Delta
   type: Property
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Whether the key is expired or not.
+  summary: The delta between global line number and a line number inside this range
   example: []
   syntax:
-    content: public virtual bool IsExpired { get; set; }
+    content: public virtual int Delta { get; set; }
     parameters: []
     return:
-      type: System.Boolean
-    content.vb: Public Overridable Property IsExpired As Boolean
-  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired*
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Payload
-  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Payload
-  id: Payload
-  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+      type: System.Int32
+    content.vb: Public Overridable Property Delta As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptSourceMap.Delta*
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludeId
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludeId
+  id: IncludeId
+  parent: SuperOffice.WebApi.Data.CRMScriptSourceMap
   langs:
   - csharp
   - vb
-  name: Payload
-  nameWithType: TemporaryKeyInfo.Payload
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Payload
+  name: IncludeId
+  nameWithType: CRMScriptSourceMap.IncludeId
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludeId
   type: Property
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The payload for this key. May be null or empty.
+  summary: The includeId for this entry
   example: []
   syntax:
-    content: public virtual string Payload { get; set; }
+    content: public virtual string IncludeId { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Payload As String
-  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.Payload*
+    content.vb: Public Overridable Property IncludeId As String
+  overload: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludeId*
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludedFrom
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludedFrom
+  id: IncludedFrom
+  parent: SuperOffice.WebApi.Data.CRMScriptSourceMap
+  langs:
+  - csharp
+  - vb
+  name: IncludedFrom
+  nameWithType: CRMScriptSourceMap.IncludedFrom
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludedFrom
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The list of IncludeId:linenum that leads to this source
+  example: []
+  syntax:
+    content: public virtual string[] IncludedFrom { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property IncludedFrom As String()
+  overload: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludedFrom*
 references:
-- uid: SuperOffice.WebApi.Agents.PersonAgent
-  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.PersonAgent.html
-  name: PersonAgent
-  nameWithType: PersonAgent
-  fullName: SuperOffice.WebApi.Agents.PersonAgent
+  href: SuperOffice.WebApi.Agents.CRMScriptAgent.html
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
@@ -547,110 +489,23 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor*
-  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptSourceMap.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo__ctor
-  name: TemporaryKeyInfo
-  nameWithType: TemporaryKeyInfo.TemporaryKeyInfo
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.TemporaryKeyInfo
-  nameWithType.vb: TemporaryKeyInfo.New
-  fullName.vb: SuperOffice.WebApi.Data.TemporaryKeyInfo.New
+  href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html#SuperOffice_WebApi_Data_CRMScriptSourceMap__ctor
+  name: CRMScriptSourceMap
+  nameWithType: CRMScriptSourceMap.CRMScriptSourceMap
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.CRMScriptSourceMap
+  nameWithType.vb: CRMScriptSourceMap.New
+  fullName.vb: SuperOffice.WebApi.Data.CRMScriptSourceMap.New
   name.vb: New
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberFrom*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberFrom
   isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo_Domain
-  name: Domain
-  nameWithType: TemporaryKeyInfo.Domain
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String*
-  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo_Domain_String
-  name: Domain_String
-  nameWithType: TemporaryKeyInfo.Domain_String
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo_Domain_String
-  name: Domain_String
-  nameWithType: TemporaryKeyInfo.Domain_String
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain*
-  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo_Domain
-  name: Domain
-  nameWithType: TemporaryKeyInfo.Domain
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
-- uid: System.Nullable{SuperOffice.WebApi.Data.TemporaryKeyDomain}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TemporaryKeyDomain}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.TemporaryKeyDomain.html
-  name: TemporaryKeyDomain?
-  nameWithType: TemporaryKeyDomain?
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    name: TemporaryKeyDomain
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TemporaryKeyDomain.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
-    name: TemporaryKeyDomain
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TemporaryKeyDomain.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId*
-  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo_TargetId
-  name: TargetId
-  nameWithType: TemporaryKeyInfo.TargetId
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
+  href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html#SuperOffice_WebApi_Data_CRMScriptSourceMap_LineNumberFrom
+  name: LineNumberFrom
+  nameWithType: CRMScriptSourceMap.LineNumberFrom
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberFrom
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -662,35 +517,65 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId*
-  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberTo*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberTo
   isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo_PersonId
-  name: PersonId
-  nameWithType: TemporaryKeyInfo.PersonId
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired*
-  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
+  href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html#SuperOffice_WebApi_Data_CRMScriptSourceMap_LineNumberTo
+  name: LineNumberTo
+  nameWithType: CRMScriptSourceMap.LineNumberTo
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.LineNumberTo
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.Delta*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptSourceMap.Delta
   isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo_IsExpired
-  name: IsExpired
-  nameWithType: TemporaryKeyInfo.IsExpired
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
-- uid: System.Boolean
-  commentId: T:System.Boolean
+  href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html#SuperOffice_WebApi_Data_CRMScriptSourceMap_Delta
+  name: Delta
+  nameWithType: CRMScriptSourceMap.Delta
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.Delta
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludeId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludeId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html#SuperOffice_WebApi_Data_CRMScriptSourceMap_IncludeId
+  name: IncludeId
+  nameWithType: CRMScriptSourceMap.IncludeId
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludeId
+- uid: System.String
+  commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Payload*
-  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.Payload
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludedFrom*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludedFrom
   isExternal: true
-  href: SuperOffice.WebApi.Data.TemporaryKeyInfo.html#SuperOffice_WebApi_Data_TemporaryKeyInfo_Payload
-  name: Payload
-  nameWithType: TemporaryKeyInfo.Payload
-  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Payload
+  href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html#SuperOffice_WebApi_Data_CRMScriptSourceMap_IncludedFrom
+  name: IncludedFrom
+  nameWithType: CRMScriptSourceMap.IncludedFrom
+  fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap.IncludedFrom
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

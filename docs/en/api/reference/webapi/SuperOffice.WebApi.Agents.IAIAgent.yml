@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.Agents
   children:
   - SuperOffice.WebApi.Agents.IAIAgent.ClearChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.DetectSentimentAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.ExpandTextAsync(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -159,6 +160,42 @@ items:
   nameWithType.vb: IAIAgent.RephraseTextAsync(String, AiTextStyle, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.RephraseTextAsync(String, SuperOffice.WebApi.Data.AiTextStyle, String, SuperOffice.WebApi.RequestOptions)
   name.vb: RephraseTextAsync(String, AiTextStyle, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTextForAppointmentAsync(AppointmentEntity, string, RequestOptions)
+  nameWithType: IAIAgent.CreateTextForAppointmentAsync(AppointmentEntity, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Generate agenda text for an appointment based on appointment's company category, title, person, etc.
+  example: []
+  syntax:
+    content: Task<string> CreateTextForAppointmentAsync(AppointmentEntity appointment, string isoLangCode, RequestOptions requestOptions = null)
+    parameters:
+    - id: appointment
+      type: SuperOffice.WebApi.Data.AppointmentEntity
+      description: The appointment object to generate text for.
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in. Blank = do not specify language.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Agenda text in markdown format
+    content.vb: Function CreateTextForAppointmentAsync(appointment As AppointmentEntity, isoLangCode As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync*
+  nameWithType.vb: IAIAgent.CreateTextForAppointmentAsync(AppointmentEntity, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTextForAppointmentAsync(AppointmentEntity, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   id: GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
@@ -1093,6 +1130,21 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CreateTextForAppointmentAsync_SuperOffice_WebApi_Data_AppointmentEntity_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CreateTextForAppointmentAsync
+  nameWithType: IAIAgent.CreateTextForAppointmentAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentEntity.html
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync
   isExternal: true

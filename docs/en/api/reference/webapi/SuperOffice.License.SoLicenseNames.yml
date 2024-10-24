@@ -83,6 +83,7 @@ items:
   - SuperOffice.License.SoLicenseNames.MarketingPlatform
   - SuperOffice.License.SoLicenseNames.MarketingT1
   - SuperOffice.License.SoLicenseNames.MarketingT2
+  - SuperOffice.License.SoLicenseNames.Nebula
   - SuperOffice.License.SoLicenseNames.NeedConsent
   - SuperOffice.License.SoLicenseNames.Office365
   - SuperOffice.License.SoLicenseNames.Online
@@ -1798,6 +1799,40 @@ items:
     return:
       type: System.String
     content.vb: Public Const ExchangeSync As String = "superoffice.exchange-sync"
+- uid: SuperOffice.License.SoLicenseNames.Nebula
+  commentId: F:SuperOffice.License.SoLicenseNames.Nebula
+  id: Nebula
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Nebula
+  nameWithType: SoLicenseNames.Nebula
+  fullName: SuperOffice.License.SoLicenseNames.Nebula
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.nebula: InfoBridge SuperOffice Synchronizer
+
+    Site License:
+  example: []
+  syntax:
+    content: >-
+      [UserLicense]
+
+      public const string Nebula = "superoffice.nebula"
+    return:
+      type: System.String
+    content.vb: >-
+      <UserLicense>
+
+      Public Const Nebula As String = "superoffice.nebula"
+  attributes:
+  - type: SuperOffice.License.UserLicenseAttribute
+    ctor: SuperOffice.License.UserLicenseAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.License.SoLicenseNames.SyncServer
   commentId: F:SuperOffice.License.SoLicenseNames.SyncServer
   id: SyncServer

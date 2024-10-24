@@ -23,8 +23,10 @@ items:
   - SuperOffice.WebApi.Agents.CRMScriptAgent.GetCRMScriptEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.GetTriggerScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync(System.String,SuperOffice.WebApi.Data.Script,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.SaveTriggerScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.TriggerScriptEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.WebApi.Data.TriggerScriptEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -542,6 +544,43 @@ items:
   nameWithType.vb: CRMScriptAgent.GetCRMScriptEntityAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.CRMScriptAgent.GetCRMScriptEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetCRMScriptEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCRMScriptEntityWithoutCompileAsync(CRMScriptEntity, RequestOptions)
+  nameWithType: CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(CRMScriptEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Save the script directly without compiling TypeScript
+
+    <p></p>
+
+    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task<CRMScriptEntity> SaveCRMScriptEntityWithoutCompileAsync(CRMScriptEntity crmScriptEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: crmScriptEntity
+      type: SuperOffice.WebApi.Data.CRMScriptEntity
+      description: The entity to save. Source and SourceCode should both be specified
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CRMScriptEntity}
+      description: The saved entity
+    content.vb: Public Function SaveCRMScriptEntityWithoutCompileAsync(crmScriptEntity As CRMScriptEntity, requestOptions As RequestOptions = Nothing) As Task(Of CRMScriptEntity)
+  overload: SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsync(System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsync(System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
   id: ExecuteScriptAsync(System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
@@ -963,6 +1002,49 @@ items:
   nameWithType.vb: CRMScriptAgent.ValidateScriptByStringAsync(String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByStringAsync(String, SuperOffice.WebApi.RequestOptions)
   name.vb: ValidateScriptByStringAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ResolveIncludesAsync(string, bool, RequestOptions)
+  nameWithType: CRMScriptAgent.ResolveIncludesAsync(string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync(string, bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Will resolve all includes for a TypeScript and return an array of the IDs
+
+    <p></p>
+
+    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task<int[]> ResolveIncludesAsync(string script, bool ignoreErrors, RequestOptions requestOptions = null)
+    parameters:
+    - id: script
+      type: System.String
+      description: The script to resolve includes for
+    - id: ignoreErrors
+      type: System.Boolean
+      description: If true, then missing includes will be ignored
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: The ids of all the included scripts
+    content.vb: Public Function ResolveIncludesAsync(script As String, ignoreErrors As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Integer())
+  overload: SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ICRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: CRMScriptAgent.ResolveIncludesAsync(String, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync(String, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: ResolveIncludesAsync(String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.CRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.CRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetTriggerScriptEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -3134,6 +3216,55 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.CRMScriptAgent.html#SuperOffice_WebApi_Agents_CRMScriptAgent_SaveCRMScriptEntityWithoutCompileAsync_SuperOffice_WebApi_Data_CRMScriptEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveCRMScriptEntityWithoutCompileAsync
+  nameWithType: CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync
+- uid: SuperOffice.WebApi.Agents.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICRMScriptAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICRMScriptAgent.html#SuperOffice_WebApi_Agents_ICRMScriptAgent_SaveCRMScriptEntityWithoutCompileAsync_SuperOffice_WebApi_Data_CRMScriptEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveCRMScriptEntityWithoutCompileAsync(CRMScriptEntity, RequestOptions)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(CRMScriptEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveCRMScriptEntityWithoutCompileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ICRMScriptAgent.html#SuperOffice_WebApi_Agents_ICRMScriptAgent_SaveCRMScriptEntityWithoutCompileAsync_SuperOffice_WebApi_Data_CRMScriptEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.CRMScriptEntity
+    name: CRMScriptEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CRMScriptEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompileAsync(SuperOffice.WebApi.Data.CRMScriptEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveCRMScriptEntityWithoutCompileAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ICRMScriptAgent.html#SuperOffice_WebApi_Agents_ICRMScriptAgent_SaveCRMScriptEntityWithoutCompileAsync_SuperOffice_WebApi_Data_CRMScriptEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.CRMScriptEntity
+    name: CRMScriptEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CRMScriptEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsync
   isExternal: true
@@ -3893,6 +4024,120 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.CRMScriptAgent.html#SuperOffice_WebApi_Agents_CRMScriptAgent_ResolveIncludesAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: ResolveIncludesAsync
+  nameWithType: CRMScriptAgent.ResolveIncludesAsync
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ResolveIncludesAsync
+- uid: SuperOffice.WebApi.Agents.ICRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICRMScriptAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICRMScriptAgent.html#SuperOffice_WebApi_Agents_ICRMScriptAgent_ResolveIncludesAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: ResolveIncludesAsync(string, bool, RequestOptions)
+  nameWithType: ICRMScriptAgent.ResolveIncludesAsync(string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICRMScriptAgent.ResolveIncludesAsync(string, bool, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ICRMScriptAgent.ResolveIncludesAsync(String, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICRMScriptAgent.ResolveIncludesAsync(String, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: ResolveIncludesAsync(String, Boolean, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ICRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: ResolveIncludesAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ICRMScriptAgent.html#SuperOffice_WebApi_Agents_ICRMScriptAgent_ResolveIncludesAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ICRMScriptAgent.ResolveIncludesAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: ResolveIncludesAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ICRMScriptAgent.html#SuperOffice_WebApi_Agents_ICRMScriptAgent_ResolveIncludesAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: T:System.Threading.Tasks.Task{System.Int32[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int[]>
+  nameWithType: Task<int[]>
+  fullName: System.Threading.Tasks.Task<int[]>
+  nameWithType.vb: Task(Of Integer())
+  fullName.vb: System.Threading.Tasks.Task(Of Integer())
+  name.vb: Task(Of Integer())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
   - name: )
 - uid: SuperOffice.WebApi.Agents.CRMScriptAgent.GetTriggerScriptEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.GetTriggerScriptEntityAsync

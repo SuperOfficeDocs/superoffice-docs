@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForDateRangeAsync(System.Int32,System.DateTime,System.DateTime,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForSelectionAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDocumentMigrationAgent.HasDocumentsToMigrateAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateDocumentToNewDocPluginAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDocumentMigrationAgent.MigrateTemplateToNewDocPluginAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -301,6 +302,38 @@ items:
       description: True if there are documents available to migrate.
     content.vb: Function HasDocumentsToMigrateAsync(requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.HasDocumentsToMigrateAsync*
+- uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetNumberOfConfidentialDocumentsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNumberOfConfidentialDocumentsAsync(RequestOptions)
+  nameWithType: IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Gets the total number of documents that is not visible to everyone
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
+  syntax:
+    content: Task<int> GetNumberOfConfidentialDocumentsAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Number of confidential documents.
+    content.vb: Function GetNumberOfConfidentialDocumentsAsync(requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync*
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetForTemplatesAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -752,6 +785,48 @@ references:
     name: Boolean
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.html#SuperOffice_WebApi_Agents_IDocumentMigrationAgent_GetNumberOfConfidentialDocumentsAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetNumberOfConfidentialDocumentsAsync
+  nameWithType: IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync
+  fullName: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
 - uid: SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDocumentMigrationAgent.GetForTemplatesAsync

@@ -86,7 +86,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: >-
-    Notify by Email to
+    Recipient notified by Email
 
     Raw string enum value.
   example: []
@@ -127,7 +127,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: >-
-    Notify by Email to
+    Recipient notified by Email
 
     NULL if unknown enum value.
   example: []
@@ -165,7 +165,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Notify by Email to address
+  summary: Recipient email addresses notified by Email
   example: []
   syntax:
     content: public virtual string[] SpecificEmailAddresses { get; set; }
@@ -188,7 +188,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Notify by Email subject
+  summary: Email notification subject
   example: []
   syntax:
     content: public virtual string Subject { get; set; }
@@ -211,7 +211,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Notify by Email text
+  summary: Email notification text
   example: []
   syntax:
     content: public virtual string Text { get; set; }

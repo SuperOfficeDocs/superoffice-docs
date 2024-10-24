@@ -16,6 +16,8 @@ items:
   - SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible
   - SuperOffice.WebApi.Data.TicketTypeEntity.Name
   - SuperOffice.WebApi.Data.TicketTypeEntity.Rank
+  - SuperOffice.WebApi.Data.TicketTypeEntity.ReplyExternalAsDefault
+  - SuperOffice.WebApi.Data.TicketTypeEntity.ReplyForwardNoSignature
   - SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate
   - SuperOffice.WebApi.Data.TicketTypeEntity.ShowInNew
   - SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities
@@ -479,6 +481,52 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property VisibleForGroups As Integer()
   overload: SuperOffice.WebApi.Data.TicketTypeEntity.VisibleForGroups*
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyForwardNoSignature
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.ReplyForwardNoSignature
+  id: ReplyForwardNoSignature
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeEntity.ReplyForwardNoSignature
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyForwardNoSignature
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Do not insert user signature when replying or forwarding the message
+  example: []
+  syntax:
+    content: public virtual bool ReplyForwardNoSignature { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ReplyForwardNoSignature As Boolean
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyForwardNoSignature*
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyExternalAsDefault
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.ReplyExternalAsDefault
+  id: ReplyExternalAsDefault
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeEntity.ReplyExternalAsDefault
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyExternalAsDefault
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Set external access level when replying the message
+  example: []
+  syntax:
+    content: public virtual bool ReplyExternalAsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ReplyExternalAsDefault As Boolean
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyExternalAsDefault*
 references:
 - uid: SuperOffice.WebApi.Agents.ListAgent
   commentId: T:SuperOffice.WebApi.Agents.ListAgent
@@ -981,3 +1029,17 @@ references:
   name: VisibleForGroups
   nameWithType: TicketTypeEntity.VisibleForGroups
   fullName: SuperOffice.WebApi.Data.TicketTypeEntity.VisibleForGroups
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyForwardNoSignature*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.ReplyForwardNoSignature
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketTypeEntity.html#SuperOffice_WebApi_Data_TicketTypeEntity_ReplyForwardNoSignature
+  name: ReplyForwardNoSignature
+  nameWithType: TicketTypeEntity.ReplyForwardNoSignature
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyForwardNoSignature
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyExternalAsDefault*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.ReplyExternalAsDefault
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketTypeEntity.html#SuperOffice_WebApi_Data_TicketTypeEntity_ReplyExternalAsDefault
+  name: ReplyExternalAsDefault
+  nameWithType: TicketTypeEntity.ReplyExternalAsDefault
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyExternalAsDefault

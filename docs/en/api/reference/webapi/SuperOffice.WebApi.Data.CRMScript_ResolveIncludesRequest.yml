@@ -1,42 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript
-  commentId: T:SuperOffice.WebApi.Data.WorkflowStepRunScript
-  id: WorkflowStepRunScript
+- uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
+  id: CRMScript_ResolveIncludesRequest
   parent: SuperOffice.WebApi.Data
   children:
-  - SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
-  - SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+  - SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.#ctor
+  - SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.IgnoreErrors
+  - SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.Script
   langs:
   - csharp
   - vb
-  name: WorkflowStepRunScript
-  nameWithType: WorkflowStepRunScript
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript
+  name: CRMScript_ResolveIncludesRequest
+  nameWithType: CRMScript_ResolveIncludesRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
   type: Class
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for WorkflowStepRunScript.
-
-    Step in workflow.
   example: []
   syntax:
-    content: 'public class WorkflowStepRunScript : WorkflowStepBase'
-    content.vb: Public Class WorkflowStepRunScript Inherits WorkflowStepBase
-  seealso:
-  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
-    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+    content: public class CRMScript_ResolveIncludesRequest
+    content.vb: Public Class CRMScript_ResolveIncludesRequest
   inheritance:
   - System.Object
-  - SuperOffice.WebApi.Data.WorkflowStepBase
   inheritedMembers:
-  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -44,60 +32,72 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
-  commentId: M:SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
+- uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.#ctor
   id: '#ctor'
-  parent: SuperOffice.WebApi.Data.WorkflowStepRunScript
+  parent: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
   langs:
   - csharp
   - vb
-  name: WorkflowStepRunScript()
-  nameWithType: WorkflowStepRunScript.WorkflowStepRunScript()
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.WorkflowStepRunScript()
+  name: CRMScript_ResolveIncludesRequest()
+  nameWithType: CRMScript_ResolveIncludesRequest.CRMScript_ResolveIncludesRequest()
+  fullName: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.CRMScript_ResolveIncludesRequest()
   type: Constructor
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
   syntax:
-    content: public WorkflowStepRunScript()
+    content: public CRMScript_ResolveIncludesRequest()
     content.vb: Public Sub New()
-  overload: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor*
-  nameWithType.vb: WorkflowStepRunScript.New()
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepRunScript.New()
+  overload: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.#ctor*
+  nameWithType.vb: CRMScript_ResolveIncludesRequest.New()
+  fullName.vb: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.New()
   name.vb: New()
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
-  id: ScriptId
-  parent: SuperOffice.WebApi.Data.WorkflowStepRunScript
+- uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.Script
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.Script
+  id: Script
+  parent: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
   langs:
   - csharp
   - vb
-  name: ScriptId
-  nameWithType: WorkflowStepRunScript.ScriptId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+  name: Script
+  nameWithType: CRMScript_ResolveIncludesRequest.Script
+  fullName: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.Script
   type: Property
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Script Id to run
   example: []
   syntax:
-    content: public virtual int ScriptId { get; set; }
+    content: public string Script { get; set; }
     parameters: []
     return:
-      type: System.Int32
-    content.vb: Public Overridable Property ScriptId As Integer
-  overload: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId*
+      type: System.String
+    content.vb: Public Property Script As String
+  overload: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.Script*
+- uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.IgnoreErrors
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.IgnoreErrors
+  id: IgnoreErrors
+  parent: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest
+  langs:
+  - csharp
+  - vb
+  name: IgnoreErrors
+  nameWithType: CRMScript_ResolveIncludesRequest.IgnoreErrors
+  fullName: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.IgnoreErrors
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public bool IgnoreErrors { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IgnoreErrors As Boolean
+  overload: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.IgnoreErrors*
 references:
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
@@ -146,54 +146,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase
-  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html
-  name: WorkflowStepBase
-  nameWithType: WorkflowStepBase
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowStepId
-  name: WorkflowStepId
-  nameWithType: WorkflowStepBase.WorkflowStepId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowStepBase.WorkflowId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType_String
-  name: StepType_String
-  nameWithType: WorkflowStepBase.StepType_String
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType
-  name: StepType
-  nameWithType: WorkflowStepBase.StepType
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
-- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-  parent: SuperOffice.WebApi.Data.WorkflowStepBase
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_Rank
-  name: Rank
-  nameWithType: WorkflowStepBase.Rank
-  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -420,31 +372,49 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepRunScript.#ctor
+- uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepRunScript.html#SuperOffice_WebApi_Data_WorkflowStepRunScript__ctor
-  name: WorkflowStepRunScript
-  nameWithType: WorkflowStepRunScript.WorkflowStepRunScript
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.WorkflowStepRunScript
-  nameWithType.vb: WorkflowStepRunScript.New
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepRunScript.New
+  href: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.html#SuperOffice_WebApi_Data_CRMScript_ResolveIncludesRequest__ctor
+  name: CRMScript_ResolveIncludesRequest
+  nameWithType: CRMScript_ResolveIncludesRequest.CRMScript_ResolveIncludesRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.CRMScript_ResolveIncludesRequest
+  nameWithType.vb: CRMScript_ResolveIncludesRequest.New
+  fullName.vb: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.New
   name.vb: New
-- uid: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
+- uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.Script*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.Script
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepRunScript.html#SuperOffice_WebApi_Data_WorkflowStepRunScript_ScriptId
-  name: ScriptId
-  nameWithType: WorkflowStepRunScript.ScriptId
-  fullName: SuperOffice.WebApi.Data.WorkflowStepRunScript.ScriptId
-- uid: System.Int32
-  commentId: T:System.Int32
+  href: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.html#SuperOffice_WebApi_Data_CRMScript_ResolveIncludesRequest_Script
+  name: Script
+  nameWithType: CRMScript_ResolveIncludesRequest.Script
+  fullName: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.Script
+- uid: System.String
+  commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.IgnoreErrors*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.IgnoreErrors
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.html#SuperOffice_WebApi_Data_CRMScript_ResolveIncludesRequest_IgnoreErrors
+  name: IgnoreErrors
+  nameWithType: CRMScript_ResolveIncludesRequest.IgnoreErrors
+  fullName: SuperOffice.WebApi.Data.CRMScript_ResolveIncludesRequest.IgnoreErrors
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

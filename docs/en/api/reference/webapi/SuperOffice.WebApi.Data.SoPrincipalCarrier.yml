@@ -410,7 +410,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Owner (AssocaiteId) of the company that the user belongs to.
+  summary: Owner (AssociateId) of the company that the user belongs to.
   example: []
   syntax:
     content: public virtual int ContactOwner { get; set; }
