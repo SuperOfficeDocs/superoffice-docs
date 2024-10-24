@@ -4,12 +4,12 @@ title: Add CRM data to Outlook event
 description: Add CRM data to Outlook event
 keywords: SuperOffice for Outlook, Outlook, email, event, calendar, CRM data
 author: Erik Lebiko, Bergfrid Dias
-date: 09.20.2024
+date: 10.29.2024
 version_sofo: 2024.8.12
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Add CRM data to Outlook event
@@ -44,7 +44,7 @@ audience_tooltip: SuperOffice CRM
 1. Follow the same steps as outlined above to modify or save the event.
 
 > [!NOTE]
-> You need **Synchronizer for SuperOffice** for this functionality. Calendar events synced from SuperOffice CRM are view-only in Outlook, but you can still view contact information.
+> You need [Synchronizer for SuperOffice][2] for this functionality. Calendar events synced from SuperOffice CRM are view-only in Outlook, but you can still view contact information.
 
 ## Additional information
 
@@ -55,6 +55,7 @@ To view sales, projects, or activities related to a contact, follow these steps:
 
 <!-- Referenced links -->
 [1]: get.md#open
+[2]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/outlook-calendar-event.png

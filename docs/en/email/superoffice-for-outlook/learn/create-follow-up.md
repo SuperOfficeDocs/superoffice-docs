@@ -4,12 +4,12 @@ title: Create follow-up
 description: Create follow-up
 keywords: SuperOffice for Outlook, Outlook, email, create appointment, create task, follow-up
 author: Erik Lebiko, Bergfrid Dias
-date: 09.20.2024
+date: 10.29.2024
 version_sofo: 2024.8.12
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Create follow-up
@@ -28,11 +28,11 @@ To create a [follow-up][1] (appointment or task) in SuperOffice directly from Ou
     * **Project** (Optional): Link the follow-up to an ongoing project if applicable.
     * **Type**: Choose the type of follow-up (such as, Customer complaint, Meeting).
     * **Date** and **Time**: Set the date and time for the follow-up.
-    * **Description**: Add any important details related to the follow-up (such as, case number or additional context).
-
-    ![SuperOffice for Outlook, Create follow-up][img1]
+    * **Description**: Add any important details related to the follow-up (such as, case number or additional context). Optionally, edit the prefilled text.
 
 1. Once all fields are completed, click **Save**.
+
+    ![SuperOffice for Outlook, Create follow-up][img1]
 
 > [!TIP]
 > You can also create a sale or request directly from the email. If it is part of an ongoing issue, you can attach the message to a specific request.

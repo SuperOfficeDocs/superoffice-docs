@@ -4,12 +4,12 @@ title: Get the add-in
 description: How to install SuperOffice for Outlook for your account (1 user).
 keywords: SuperOffice for Outlook, Outlook, email, get add-in
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
-date: 09.20.2024
+date: 10.29.2024
 version_sofo: 2024.8.12
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Get the add-in
@@ -18,7 +18,7 @@ This will install SuperOffice for Outlook for your account. If you need assistan
 
 ## Steps
 
-<!-- markdownlint-disable MD051 -->
+<!-- markdownlint-disable MD051 MD044-->
 ### [From Office Store (AppSource)](#tab/appsource)
 
 1. Go to [SuperOffice for Outlook at appsource.microsoft.com][1].
@@ -94,9 +94,9 @@ After installing the add-in, you can pin it for quick access while reading email
 
 1. Click the three dots and select **Remove**.
 
-    ![SuperOffice for Outlook, remove add-in -screenshot][img4]
-
 1. Click **Remove** to confirm.
+
+![SuperOffice for Outlook, remove add-in -screenshot][img4]
 
 > [!NOTE]
 > If you cannot see the **Remove** option, the SuperOffice for Outlook add-in is likely required and managed by your administrator.
@@ -110,7 +110,7 @@ After installing the add-in, you can pin it for quick access while reading email
 [1]: https://appsource.microsoft.com/en-us/product/office/WA200001597?src=office&tab=Overview
 [2]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
 [4]: https://support.office.com/en-us/article/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8
-[5]: ../it/deploy.md
+[5]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/outlook-icon-bar.png

@@ -4,12 +4,12 @@ title: Add contact to SuperOffice
 description: Add contact to SuperOffice
 keywords: SuperOffice for Outlook, Outlook, email, add contact
 author: Erik Lebiko, Bergfrid Dias
-date: 09.20.2024
+date: 10.29.2024
 version_sofo: 2024.8.12
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Add contact to SuperOffice
@@ -32,9 +32,9 @@ You can easily add new contacts to SuperOffice CRM if the email address is unkno
     * **Add contact to an existing company**: From the **​Or add contact to company** list, associate the new contact with an existing company in SuperOffice.
     * **Create a new company and contact**: If the contact's company does not exist in your database, create both the company and the contact.
 
-    ![SuperOffice for Outlook, save contact -screenshot][img1]
-
 1. Fill out the required fields and click **Save**.
+
+![SuperOffice for Outlook, save contact -screenshot][img1]
 
 ## Adding a contact from the People tab
 
@@ -44,7 +44,7 @@ The **People** tab displays all contacts mentioned in the email. If the sender o
 
 1. Open the **People** tab.
 
-1. Selectg **Click to add new contact** for the contact you would like to add.
+1. Select **Click to add new contact** for the contact you would like to add.
 
 1. Choose whether to:
 

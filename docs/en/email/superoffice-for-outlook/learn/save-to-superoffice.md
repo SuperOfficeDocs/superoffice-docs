@@ -4,21 +4,21 @@ title: Save to SuperOffice
 description: Save to SuperOffice
 keywords: SuperOffice for Outlook, Outlook, archive email, email, save to SuperOffice, send and archive, save attachment
 author: Erik Lebiko, Bergfrid Dias
-date: 09.20.2024
+date: 10.29.2024
 version_sofo: 2024.8.12
 topic: howto
 envir: cloud
 client: online
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Save to SuperOffice
 
 ## Archive email to SuperOffice
 
-To archive information from an email in Outlook and save it to SuperOffice
+To archive information from an email in Outlook and save it to SuperOffice:
 
 1. Open or select the email you want to archive.
 
@@ -28,9 +28,9 @@ To archive information from an email in Outlook and save it to SuperOffice
 
 1. Make any necessary changes to the fields.
 
-    ![SuperOffice for Outlook, archive email -screenshot][img1]
-
 1. Click **Save** to archive the email.
+
+![SuperOffice for Outlook, archive email -screenshot][img1]
 
 ## Save attachments to SuperOffice
 
