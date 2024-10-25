@@ -3,7 +3,6 @@ uid: help-sv-invitation-add-attendee
 title: Lägga till deltagare i händelser
 description: "Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning."
 author: Bergfrid Dias
-redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 keywords: kalender, händelse, förfrågan, deltagare
 topic: howto
 language: sv

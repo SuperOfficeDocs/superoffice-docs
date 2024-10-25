@@ -3,7 +3,6 @@ uid: help-no-invitation-add-attendee
 title: Legge til deltakere i oppfølginger
 description: "Det er flere måter å invitere personer til en avtale på. Denne guiden viser hvordan du legger til deltakere i en avtale."
 author: Bergfrid Dias
-redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 keywords: dagbok, oppfølging, invitasjon, deltaker
 topic: howto
 language: no

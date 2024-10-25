@@ -3,7 +3,6 @@ uid: help-nl-invitation-add-attendee
 title: Deelnemers toevoegen aan vervolgactiviteiten
 description: "Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen."
 author: Bergfrid Dias
-redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 keywords: agenda, vervolgactiviteit, uitnodiging, deelnemer
 topic: howto
 language: nl
