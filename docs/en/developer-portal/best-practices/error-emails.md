@@ -56,11 +56,11 @@ For other errors, such as when a customer reports a problem from the App Store, 
 * [Troubleshooting authorizing an application and working with tokens][7]
 
 <!-- Referenced links -->
-[1]: tenant-status/index.md#notify
+[1]: tenant-status/index.md
 
-[4]: ../create-app/config/update-endpoints.md#database-mirroring
-[5]: ../create-app/config/update-endpoints.md#erp-sync
-[6]: ../create-app/config/update-endpoints.md#quote-connector
+[4]: ../create-app/config/update-endpoints.md
+[5]: ../create-app/config/update-endpoints.md
+[6]: ../create-app/config/update-endpoints.md
 [7]: ../../api/authentication/online/troubleshooting/index.md
 [8]: ../faq/update-contact-person.md
 

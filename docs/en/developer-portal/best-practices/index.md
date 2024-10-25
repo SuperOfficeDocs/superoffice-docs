@@ -312,7 +312,7 @@ Read about [effective visual design][6].
 [2]: ../../api/authentication/online/sign-in-user/index.md
 [5]: ../../api/authentication/online/auth-application/index.md
 
-[1]: ./tenant-status/index.md#state
+[1]: ./tenant-status/index.md
 [8]: ./tenant-status/index.md
 
 [13]: ../getting-started/what-api-to-use.md
