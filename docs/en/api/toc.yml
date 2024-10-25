@@ -355,6 +355,19 @@ items:
           href: web-services/howto/custom-objects/get-udef-list-and-values.md
         - name: Find contact by udef
           href: web-services/howto/custom-objects/find-contact-by-udef.md
+    - name: Diary
+      href: web-services/howto/diary/index.md
+      items:
+      - name: Create appointment
+        href: web-services/howto/diary/create-apt-services.md
+      - name: Create recurring appointment
+        href: web-services/howto/diary/create-recurring-appointment-services.md
+      - name: Create invitation
+        href: web-services/howto/diary/create-invitation-services.md
+      - name: Get invitations
+        href: web-services/howto/diary/get-invitations-services.md
+      - name: Accept invitation
+        href: web-services/howto/diary/accept-invitation-services.md
     - name: Documents
       href: web-services/howto/document/index.md
       items:
@@ -464,6 +477,21 @@ items:
         href: entities/howto/custom-objects/udefhelper-class.md
       - name: Udef on contact
         href: entities/howto/custom-objects/udef-on-contact.md
+    - name: Diary
+      href: entities/howto/diary/index.md
+      items:
+      - name: Create appointment
+        href: entities/howto/diary/create-apt-entity.md
+      - name: Create appointment (in entity)
+        href: entities/howto/diary/create-apt-entity-in-entity.md
+      - name: Create appointment (in collection)
+        href: entities/howto/diary/create-apt-entity-in-collection.md
+      - name: Create recurring appointment
+        href: entities/howto/diary/create-recurring-appointment-entity.md
+      - name: Create invitation
+        href: entities/howto/diary/create-invitation-entity.md
+      - name: Accept invitation
+        href: entities/howto/diary/accept-invitation-entity.md
     - name: Sale
       href: entities/howto/sale/index.md
       items:
@@ -516,6 +544,13 @@ items:
         href: rows/howto/contact/update-person-rows.md
       - name: Collections
         href: rows/howto/contact/collection.md
+    - name: Diary
+      href: rows/howto/diary/index.md
+      items:
+      - name: Create appointment (Row)
+        href: rows/howto/diary/create-apt-row.md
+      - name: Create appointment (Rows)
+        href: rows/howto/diary/create-apt-rows.md
     - name: SAINT
       href: rows/howto/saint/index.md
       items:
@@ -572,6 +607,11 @@ items:
         href: osql/howto/contact/get-persons-from-contact-sodatareader.md
       - name: Update person
         href: osql/howto/contact/update-person-osql.md
+    - name: Diary
+      href: osql/howto/diary/index.md
+      items:
+      - name: Create appointment
+        href: osql/howto/diary/create-apt-osql.md
 - name: Raw SQL queries
   items:
   - name: Company
@@ -599,6 +639,15 @@ items:
     items:
     - name: Set udef
       href: sql/howto/custom-objects/set-udef.md
+  - name: Diary
+    href: sql/howto/diary/index.md
+    items:
+    - name: Create appointment
+      href: sql/howto/diary/create-apt-sql.md
+    - name: Create invitation
+      href: sql/howto/diary/create-invitation-sql.md
+    - name: Accept invitation
+      href: sql/howto/diary/accept-invitation-sql.md
   - name: SAINT
     href: sql/howto/saint/index.md
     items:
@@ -714,6 +763,11 @@ items:
       href: archive-providers/joiners.md
     - name: Base and helper classes
       href: archive-providers/base-and-helper-classes.md
+  - name: ArchiveAgent samples
+    href: archive-providers/howto/diary/index.md
+    items:
+    - name: Invitation archive
+      href: archive-providers/howto/diary/invitation-archive.md
   - name: Archive provider reference
     href: archive-providers/reference/toc.yml
     topicHref: archive-providers/reference/index.md

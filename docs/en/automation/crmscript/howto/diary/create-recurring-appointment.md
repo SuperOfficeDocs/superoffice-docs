@@ -168,4 +168,4 @@ r.SetEndDate(d);
 [1]: <xref:CRMScript.NetServer.NSAppointmentAgent>
 [2]: <xref:CRMScript.NetServer.NSAppointmentEntity>
 [3]: <xref:CRMScript.NetServer.NSRecurrenceInfo>
-[4]: ../../../../diary/howto/index.md#recurrence
+[4]: ../../../../diary/reference/index.md#recurrence

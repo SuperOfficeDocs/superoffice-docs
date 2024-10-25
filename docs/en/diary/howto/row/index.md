@@ -1,20 +1,6 @@
 ---
-title: Diary - rows
-uid: api_diary_rows
-description: Working with appointments via rows.
+uid: api-diary-rows-redirect
 author: Bergfrid Skaara Dias
-date: 11.04.2021
-keywords: diary, calendar, appointment, API, row
-topic: concept
+date: 10.25.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/rows/howto/diary/index.html
 ---
-
-# Diary - rows
-
-## Creating appointments
-
-* [Create appointment (Row)][1]
-* [Create appointments (Rows)][2]
-
-<!-- Referenced links -->
-[1]: create-apt-row.md
-[2]: create-apt-rows.md

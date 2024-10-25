@@ -5,71 +5,23 @@ items:
   - name: Video meeting
     href: ../video-meeting/toc.yml
     topicHref: ../video-meeting/index.md
+  - name: User guide
+    topicHref: learn/index.md
+  - name: Technical reference
+    href: reference/index.md
   - name: API options
-    href: howto/index.md
+    topicHref: reference/index.md
     items:
     - name: CRMScript
       topicHref: ../automation/crmscript/howto/diary/index.md
     - name: Web services
-      href: howto/services/index.md
+      topicHref: ../api/web-services/howto/diary/index.md
+    - name: Tutorials
+      href: ../api/tutorials/index.md
       items:
-      - name: Create appointment
-        href: howto/services/create-apt-services.md
-      - name: Create recurring appointment
-        href: howto/services/create-recurring-appointment-services.md
-      - name: Create invitation
-        href: howto/services/create-invitation-services.md
-      - name: Get invitations
-        href: howto/services/get-invitations-services.md
-      - name: Accept invitation
-        href: howto/services/accept-invitation-services.md
-    - name: ArchiveAgent
-      href: howto/archive/index.md
-      items:
-      - name: Invitation archive
-        href: howto/archive/invitation-archive.md
-    - name: Entities
-      href: howto/entity/index.md
-      items:
-      - name: Create appointment
-        href: howto/entity/create-apt-entity.md
-      - name: Create appointment (in entity)
-        href: howto/entity/create-apt-entity-in-entity.md
-      - name: Create appointment (in collection)
-        href: howto/entity/create-apt-entity-in-collection.md
-      - name: Create recurring appointment
-        href: howto/entity/create-recurring-appointment-entity.md
-      - name: Create invitation
-        href: howto/entity/create-invitation-entity.md
-      - name: Accept invitation
-        href: howto/entity/accept-invitation-entity.md
-    - name: Rows
-      href: howto/row/index.md
-      items:
-      - name: Create appointment (Row)
-        href: howto/row/create-apt-row.md
-      - name: Create appointment (Rows)
-        href: howto/row/create-apt-rows.md
-    - name: Objectified SQL
-      href: howto/osql/index.md
-      items:
-      - name: Create appointment
-        href: howto/osql/create-apt-osql.md
-    - name: Raw SQL
-      href: howto/sql/index.md
-      items:
-      - name: Create appointment
-        href: howto/sql/create-apt-sql.md
-      - name: Create invitation
-        href: howto/sql/create-invitation-sql.md
-      - name: Accept invitation
-        href: howto/sql/accept-invitation-sql.md
-  - name: Tutorials
-    href: tutorials/index.md
-    items:
-    - name: iTunes-like client for activities
-      href: tutorials/itunes-like-activities/index.yml
-    - name: SuperOffice iCal Feed
-      href: tutorials/so-ical-feed/index.yml
-    - name: Generate RSS feed in VB.Net
-      href: tutorials/rss-feed-vb/index.yml
+      - name: iTunes-like client for activities
+        href: ../api/tutorials/itunes-like-activities/index.yml
+      - name: SuperOffice iCal Feed
+        href: ../api/tutorials/so-ical-feed/index.yml
+      - name: Generate RSS feed in VB.Net
+        href: ../api/tutorials/rss-feed-vb/index.yml

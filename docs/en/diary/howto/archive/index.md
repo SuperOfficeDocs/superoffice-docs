@@ -1,16 +1,6 @@
 ---
-title: Diary - archive
-uid: api_diary_archive
-description: Working with appointments via archives.
+uid: api-diary-archive-redirect
 author: Bergfrid Skaara Dias
-date: 11.04.2021
-keywords: diary, calendar, appointment, API, archive, invitation
-topic: concept
+date: 10.25.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/archive-providers/howto/diary/index.html
 ---
-
-# Diary - archive
-
-* [Invitation Archive][1]
-
-<!-- Referenced links -->
-[1]: invitation-archive.md

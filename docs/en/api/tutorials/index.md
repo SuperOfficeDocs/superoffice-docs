@@ -1,8 +1,16 @@
 ---
-title: Welcome to SuperOffice Docs
-description: Placeholder landing page
-date: 05.29.2021
+uid: tutorials-overview
+title: Tutorials
+description: Contains a list of tutorials.
+keywords: diary, calendar, follow-up
+author: Bergfrid Skaara Dias
+date: 03.21.2022
+topic: tutorial
 ---
 
-<!-- markdownlint-disable-file MD041 -->
-[!include[placeholder](../../includes/default-index.md)]
+# Tutorials
+
+> [!CAUTION]
+> These are rather old. Use at your own discretion.
+
+<!-- Reference links -->
