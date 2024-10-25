@@ -108,4 +108,4 @@ printLine("Sold: " + summary.GetSold().toString() + "\tTotal: " + summary.GetSol
 ```
 
 <!-- Referenced links -->
-[1]: ../../../../contact/associate.md
+[1]: ../../../../contact/reference/index.md#associate

@@ -173,11 +173,32 @@ So how does one go about reading and writing address information using this gene
 For NetServer Core, use the [AddressFormatter][1] class
 For web services, use the [AddressHelper][2] class
 
+## Available samples
+
+| Task | Available examples |
+|---|---|
+| Get address | [CRMScript][11]; [web services][13] |
+| Set address | [CRMScript][12]; [web services][14] |
+| Prevent update | [SQL][15] |
+
+## More
+
+* [ERP Sync engine automatic field mapping][16]
+* [Quote connector address provider][17]
+
 <!-- Referenced links -->
 [1]: addressformatter.md
 [2]: addresshelper.md
 [3]: ../../database/tables/address.md
 [4]: ../../database/tables/phone.md
+
+[11]: ../../../automation/crmscript/howto/address/get-address.md
+[12]: ../../../automation/crmscript/howto/address/set-address.md
+[13]: ../../api/web-services/howto/address/get-localized-address.md
+[14]: ../../api/web-services/howto/address/set-localized-address.md
+[15]: ../../api/security/sentry/sql/set-override-sql.md
+[16]: ../../api/plugins/erp-connectors/automatic-field-mapping.md
+[17]: ../../api/plugins/quote-connectors/addresses.md
 
 <!-- Referenced images -->
 [img1]: media/combinedaddresslayouts.png

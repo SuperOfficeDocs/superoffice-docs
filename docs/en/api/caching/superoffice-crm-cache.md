@@ -29,6 +29,6 @@ The namespace exposes the following classes to the user:
 * **RowCacheBase** is the base class for all caches. It is built over the HDB rows.
 
 <!-- Referenced links -->
-[1]: ../../contact/associate.md
+[1]: ../../contact/reference/index.md#associate
 [2]: ../../company/category-list.md
 [3]: associate-cache.md

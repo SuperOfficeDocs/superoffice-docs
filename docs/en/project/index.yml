@@ -24,7 +24,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Introduction to projects
-          url: overview.md
+          url: reference/index.md
         - text: Organize files and activities in projects
           url: learn/index.md
       - itemType: list
@@ -179,7 +179,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: SQL samples
-          url: howto/sql/index.md
+          url: ../api/sql/howto/project/index.md
 
   - title: Database tables
     linkLists:

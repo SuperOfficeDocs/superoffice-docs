@@ -17,4 +17,4 @@ Each of the extension methods to [set LocalizedAddress][1] depends on a helper c
 [!code-csharp[CS](includes/addresshelper.cs)]
 
 <!-- Referenced links -->
-[1]: howto/services/set-localized-address.md
+[1]: ../../api/web-services/howto/address/set-localized-address.md
