@@ -1,7 +1,7 @@
 ---
 uid: help-no-gmail-link-archive-as-activity
 title: Arkiver e-post som aktivitet
-description: "Hvis du lagrer en e-post direkte som en oppfølging i SuperOffice-dagboken din, glemmer du aldri å følge opp en kunde eller en forespørsel." 
+description: "Hvis du lagrer en e-post direkte som en oppfølging i SuperOffice-dagboken din, glemmer du aldri å følge opp en kunde eller en sak." 
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link

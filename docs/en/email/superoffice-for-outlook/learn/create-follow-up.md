@@ -32,7 +32,7 @@ To create a [follow-up][1] (appointment or task) in SuperOffice directly from Ou
 
 1. Once all fields are completed, click **Save**.
 
-    ![SuperOffice for Outlook, Create follow-up][img1]
+    ![SuperOffice for Outlook, Create follow-up -screenshot][img1]
 
 > [!TIP]
 > You can also create a sale or request directly from the email. If it is part of an ongoing issue, you can attach the message to a specific request.

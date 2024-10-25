@@ -15,7 +15,7 @@ SuperOffice Gmail Link er en plugin-modul som kobler Gmail-klienten til SuperOff
 
 * Arkiver innkommende og utgående e-poster og vedlegg fra Gmail-kontoen din som dokumenter i SuperOffice.
 * Opprett dagbokaktiviteter i SuperOffice basert på e-post i Gmail.
-* Opprett forespørsler basert på e-poster i Gmail.
+* Opprett saker basert på e-poster i Gmail.
 * Slå opp avsendere i SuperOffice: veivisere som er enkle å følge hjelper deg med å opprette et nytt firma, person eller e-postadresse i din SuperOffice CRM-database, hvis avsenderen ikke er ukjent.
 
 ## Hva vil du gjøre nå?

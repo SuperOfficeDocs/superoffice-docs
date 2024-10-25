@@ -36,7 +36,7 @@ Det er to måter å opprette en e-post fra Microsoft Outlook. Du kan bruke Super
 
 3. I **Emne**-feltet skriver du inn teksten du vil skal være gjenstand for e-posten. Dette vises også under detaljkortet Aktiviteter i SuperOffice CRM.
 
-4. I Firma-feltet kan du søke etter et selskap ved å begynne å skrive inn firmanavnet og deretter velge blant treffene som vises.
+4. I Firma-feltet kan du søke etter et firma ved å begynne å skrive inn firmanavnet og deretter velge blant treffene som vises.
 
 5. I Person-feltet kan du bruke rullegardinmenyen til å velge en av personene som tilhører firmaet du valgte i forrige trinn. Du kan også søke ved å begynne å skrive inn personnavnet.
 

@@ -14,7 +14,7 @@ language: en
 
 # SuperOffice for Outlook
 
-[View in the SuperOffice AppStore][11]
+[View in the SuperOffice App Store][11]
 
 The **SuperOffice for Outlook** add-in helps you work effortlessly between Microsoft 365 and SuperOffice CRM. With this integration, you can manage key CRM tasks directly from your email without switching between systems, saving you time and helping you stay productive.
 
@@ -87,7 +87,7 @@ Because the add-in is cloud-based, it is always up to date without any action on
 [9]: create-sale.md
 [11]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [12]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
-[17]: ../it/deploy.md
+[17]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
 [18]: ../../inbox/learn/index.md
 [19]: ../../../document/library/learn/index.md
 

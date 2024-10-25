@@ -1,7 +1,7 @@
 ---
 uid: help-no-gmail-link-archive-email-as-requests
-title: Arkiver e-post som forespørsler
-description: Arkiver e-post som forespørsler
+title: Arkiver e-post som saker
+description: Arkiver e-post som saker
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Gmail Link
@@ -13,7 +13,7 @@ language: no
 
 [!include[Requirement](../../../../../common/includes/req-service-essentials.md)]
 
-Du kan opprette en forespørsel i SuperOffice Service basert på en e-post i Gmail-innboksen.
+Du kan opprette en sak i SuperOffice Service basert på en e-post i Gmail-innboksen.
 
 1. Åpne en e-post i Gmail-innboksen.
 
@@ -21,13 +21,13 @@ Du kan opprette en forespørsel i SuperOffice Service basert på en e-post i Gma
 
 3. Velg **Opprett sak**.
 
-4. I dialogboksen **Opprett forespørsel i SuperOffice basert på e-post** klikker du på forespørselskøen der du vil plassere forespørselen. Hver kø har fått tildelt en spesifikk kategori og prioritet.
+4. I dialogboksen **Opprett sak i SuperOffice basert på e-post** klikker du på sakskøen der du vil plassere saken. Hver kø har fått tildelt en spesifikk kategori og prioritet.
 
 5. Klikk på **Lagre**. En bekreftelsesmelding vil vises.
-    * Hvis avsenderens e-postadresse gjenkjennes, kobles forespørselen automatisk til riktig person og firma.
+    * Hvis avsenderens e-postadresse gjenkjennes, kobles saken automatisk til riktig person og firma.
     * Hvis avsenderens e-postadresse ikke gjenkjennes, registreres avsenderen automatisk som en ny person i SuperOffice Service.
 
-6. (valgfritt) I bekreftelsesmeldingen velger du **Klikk her for å vise den** for å se nærmere på forespørselen.
+6. (valgfritt) I bekreftelsesmeldingen velger du **Klikk her for å vise den** for å se nærmere på saken.
 
 ## Hva vil du gjøre nå?
 

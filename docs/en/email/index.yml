@@ -74,7 +74,7 @@ additionalContent:
             text: Deployment overview
           - url: superoffice-for-outlook/it/deploy.md
             text: Deploy centrally
-          - url: superoffice-for-outlook/learn/add.md
+          - url: superoffice-for-outlook/learn/get.md
             text: Deploy office add-in
           - url: superoffice-for-outlook/learn/requirements.md
             text: Requirements

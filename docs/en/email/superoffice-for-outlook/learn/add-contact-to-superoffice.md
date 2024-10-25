@@ -24,12 +24,14 @@ You can easily add new contacts to SuperOffice CRM if the email address is unkno
 
 1. In the SuperOffice sidebar, select **Click to add new contact**.
 
-    ![SuperOffice for Outlook, unknown contact][img2]
+    ![SuperOffice for Outlook, unknown contact -screenshot][img2]
 
 1. Choose from the following options:
 
     * **Add email to an existing contact**: Select from the **This contact could be** list to link the email to an existing contact in SuperOffice.
+
     * **Add contact to an existing company**: From the **​Or add contact to company** list, associate the new contact with an existing company in SuperOffice.
+
     * **Create a new company and contact**: If the contact's company does not exist in your database, create both the company and the contact.
 
 1. Fill out the required fields and click **Save**.

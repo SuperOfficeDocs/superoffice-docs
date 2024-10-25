@@ -38,7 +38,7 @@ Hvis du vil ha all kunderelatert informasjon på ett sted, kan du enkelt arkiver
 
 ### Lagre e-post som oppfølging
 
-Hvis du lagrer en e-post direkte som en oppfølging i SuperOffice-dagboken din, glemmer du aldri å følge opp en kunde eller forespørsel.
+Hvis du lagrer en e-post direkte som en oppfølging i SuperOffice-dagboken din, glemmer du aldri å følge opp en kunde eller sak.
 
 * [Arkiver e-post som oppfølging med WebTools og Mail Link][7]
 * [Arkiver e-post som oppfølging med Gmail Link][4]
