@@ -1,18 +1,6 @@
 ---
-title: Diary - OSQL
-uid: api_diary_osql
-description: Working with appointments via Objectified SQL.
+uid: api-diary-osql-redirect
 author: Bergfrid Skaara Dias
-date: 11.04.2021
-keywords: diary, calendar, appointment, API, OSQL
-topic: concept
+date: 10.25.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/osql/howto/diary/index.html
 ---
-
-# Diary - OSQL
-
-## Create appointments
-
-* [Create appointment][1]
-
-<!-- Referenced links -->
-[1]: create-apt-osql.md

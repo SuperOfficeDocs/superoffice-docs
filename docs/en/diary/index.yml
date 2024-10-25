@@ -148,27 +148,27 @@ conceptualContent:
       - text: Raw SQL
         itemType: list
         typeDesc: how-to-guide
-        url: howto/sql/index.md
+        url: ../api/sql/howto/diary/index.md
       - text: OSQL
         itemType: list
         typeDesc: how-to-guide
-        url: howto/osql/create-apt-osql.md
+        url: ../api/osql/howto/diary/create-apt-osql.md
       - text: Row
         itemType: list
         typeDesc: how-to-guide
-        url: howto/row/create-apt-row.md
+        url: ../api/rows/howto/diary/create-apt-row.md
       - text: Entity
         itemType: list
         typeDesc: how-to-guide
-        url: howto/entity/index.md
+        url: ../api/entities/howto/diary/index.md
       - text: Web services
         itemType: list
         typeDesc: how-to-guide
-        url: howto/services/index.md
+        url: ../api/web-services/howto/diary/index.md
       - text: Archive (search)
         itemType: list
         typeDesc: how-to-guide
-        url: howto/archive/invitation-archive.md
+        url: ../api/archive-providers/howto/diary/invitation-archive.md
 
     # Card
     - title: Data options
@@ -239,15 +239,6 @@ additionalContent:
     - title: "" # < 60 chars (optional)
       summary: "" # < 160 chars (optional)
       items:
-      # Card
-      - title: Tutorials
-        links:
-        - text: iTunes-like client for activities
-          url: tutorials/itunes-like-activities/index.yml
-        - text: SuperOffice iCal Feed
-          url: tutorials/so-ical-feed/index.yml
-        - text: Generate RSS feed in VB.Net
-          url: tutorials/rss-feed-vb/index.yml
       # Card
       - title: UI options
         links:
