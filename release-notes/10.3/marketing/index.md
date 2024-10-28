@@ -13,9 +13,9 @@ audience_tooltip: Marketing
 
 # New and improved Marketing
 
-* [Marketing Premium - Automate with flows including multiple mailings and other steps (10.3.9)][9]
 * [Mailing - Audit check on email mailing (10.3.10)][10]
 * [Mailing - Validation of preheader text in email mailing (10.3.10)][10]
+* [Marketing Premium - Automate with flows including multiple mailings and other steps (10.3.9)][9]
 
 <!-- Referenced links-->
 [9]: 10.3.9-update.md

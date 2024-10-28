@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps
 author: SuperOffice AS – Research and Development
-date: 10.08.2024
+date: 10.29.2024
 version: 10.3
 topic: reference
 ---
@@ -22,8 +22,8 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.11 (29.10.2024):
-  * [Document dialog - Clean and intuitive (10.3.11)][44]
-  * [Selection - Task for Print selection (10.3.11)][44]
+  * [Document dialog - Clean and intuitive (10.3.11)][44] in Core CRM
+  * [Selection - Task for print selection (10.3.11)][44] in Core CRM
 
 * 10.3.10 (08.10.2024):
   * [Selection - Task for print labels (10.3.10)][42] in Core CRM
@@ -31,9 +31,9 @@ Check out our **Product release** overview for more details in our [Community][2
   * [Mailing - Validation of preheader text in email mailing (10.3.10)][41] in Marketing
 
 * 10.3.9 (17.09.2024):
-  * [Marketing Premium - Automate with flows including multiple mailings and other steps (10.3.9 - 01.10.2024)][43] in Marketing
   * [Column calculations on section tabs and selections (10.3.9)][38] in Core CRM
   * [Columns/fields - Base currency and currency options (10.3.9)][38] in Core CRM
+  * [Marketing Premium - Automate with flows including multiple mailings and other steps (10.3.9 - 01.10.2024)][43] in Marketing
 
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
@@ -72,7 +72,7 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### Mobile CRM
 
-* [Version 11.0.3][27] (22.10.2024)
+* [Version 11.0.3][27] (23.10.2024)
 
 ### Office integrations
 
@@ -104,9 +104,9 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 See all the [new or updated apps][5]
 
-* [Panels for SuperOffice (30.09.2024)][47]
-* [Document viewer for SuperOffice (02.10.2024)][46]
 * [Activity folders for SuperOffice (02.10.2024)][45]
+* [Document viewer for SuperOffice (02.10.2024)][46]
+* [Panels for SuperOffice (30.09.2024)][47]
 * [DATEV Rechnungswesen Sync (11.09.2024)][39]
 * [DATEV Eigenorganisation Sync (08.09.2024)][40]
 * [DataBridge for SuperOffice (03.06.2024)][34]
