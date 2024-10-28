@@ -44,6 +44,18 @@ The field `ticket_log_change.log_change` has an enum from this list:
 | `LogChange_Ticket_TicketStatus` | 35 |
 | `LogChange_Ticket_Deadline` | 36 |
 | `LogChange_Ticket_FilterAddress` | 37 |
+| `LogChange_Ticket_TimeSpentInternally ` | 38 |
+| `LogChange_Ticket_TimeSpentExternally ` | 39 |
+| `LogChange_Ticket_TimeSpentQueue` | 40 |
+| `LogChange_Ticket_RealTimeSpentInternally` | 41 |
+| `LogChange_Ticket_RealTimeSpentExternally` | 42 |
+| `LogChange_Ticket_RealTimeSpentQueue` | 43 |
+| `LogChange_Ticket_NumReplies` | 44 |
+| `LogChange_Ticket_NumMessages` | 45 |
+| `LogChange_Ticket_Tags` | 46 |
+| `LogChange_Ticket_SaleId` | 47 |
+| `LogChange_Ticket_ProjectId` | 48 |
+| `LogChange_Ticket_TicketType` | 49 |
 
 **Message:**
 
