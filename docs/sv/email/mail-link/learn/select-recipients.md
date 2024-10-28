@@ -17,9 +17,9 @@ När du skapar ett e-postmeddelande [från Microsoft Outlook][1] kan du lägga t
 
 2. I dialogrutan **Välj mottagare** under **Välj från** klickar du på en av de fem alternativknapparna: **Företag**, **Projekt**, **Försäljning**, **Urval** eller **Användargrupp**. Resten av dialogrutan ändras enligt ditt val.
 
-3. Välj namnet på ett/en företag/projekt/lära/försäljning/lära/urval/användargrupp. Du kan också söka genom att börja skriva namnet på det aktuella objektet.
+3. Välj namnet på ett/en företag/projekt/försäljning/urval/användargrupp. Du kan också söka genom att börja skriva namnet på det aktuella objektet.
 
-    En lista över alla medlemmar i det/den valda företaget/projektet/lära/försäljningen/lära/urvalet/användargruppen visas. Om en medarbetare har mer än en e-postadress och du väljer **Visa alla adresser** i dialogrutans nedre vänstra hörn visas alla medarbetarens e-postadresser.
+    En lista över alla medlemmar i det/den valda företaget/projektet/försäljningen/urvalet/användargruppen visas. Om en medarbetare har mer än en e-postadress och du väljer **Visa alla adresser** i dialogrutans nedre vänstra hörn visas alla medarbetarens e-postadresser.
 
 4. Markera de användare som ska inkluderas i fältet **Till** och klicka på pilknappen till höger om listan (![ikon][img2]). Mottagarna visas i listan **Till**.
 
