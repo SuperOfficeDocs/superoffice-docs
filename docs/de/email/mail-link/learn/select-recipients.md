@@ -17,9 +17,9 @@ Wenn Sie [eine E-Mail von Microsoft Outlook][1] erstellen, können Sie Empfänge
 
 2. Wählen Sie im Dialogfeld **Empfänger auswählen** unter **Auswählen von** eines der fünf Optionsfelder aus: **Firma**, **Projekt**, **Verkauf**, **Selektion** oder **Benutzergruppe**. Der Rest des Dialogfeldes ändert sich entsprechend.
 
-3. Wählen Sie den Namen einer der Optionen Firma/Projekt/Lernen/Verkauf/Lernen/Selektion/Benutzergruppe aus. Sie können das betreffende Objekt auch suchen, indem Sie den Anfang des Namens eingeben.
+3. Wählen Sie den Namen einer der Optionen Firma/Projekt/Verkauf/Selektion/Benutzergruppe aus. Sie können das betreffende Objekt auch suchen, indem Sie den Anfang des Namens eingeben.
 
-    Es wird eine Liste aller Mitglieder der ausgewählten Option Firma/Projekt/Lernen/Verkauf/Lernen/Selektion/Benutzergruppe angezeigt. Wenn ein Mitarbeiter mehr als eine E-Mail-Adresse hat und Sie in der unteren linken Ecke des Dialogfelds **Alle Adressen anzeigen** auswählen, werden alle seine E-Mail-Adressen angezeigt.
+    Es wird eine Liste aller Mitglieder der ausgewählten Option Firma/Projekt/Verkauf/Selektion/Benutzergruppe angezeigt. Wenn ein Mitarbeiter mehr als eine E-Mail-Adresse hat und Sie in der unteren linken Ecke des Dialogfelds **Alle Adressen anzeigen** auswählen, werden alle seine E-Mail-Adressen angezeigt.
 
 4. Wählen Sie die Empfänger aus, die Sie im Feld **An** einbeziehen möchten und klicken Sie auf die Pfeilschaltfläche rechts neben der Liste (![Symbol][img2]). Die Empfänger werden in der Liste **An** angezeigt.
 

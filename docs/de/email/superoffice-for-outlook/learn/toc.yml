@@ -1,0 +1,19 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Add-In herunterladen
+  href: get.md
+- name: Speichern in SuperOffice
+  href: save-to-superoffice.md
+- name: Kontakt zu SuperOffice hinzufügen
+  href: add-contact-to-superoffice.md
+- name: Folgeaufgabe erstellen
+  href: create-follow-up.md
+- name: Verkauf erstellen
+  href: create-sale.md
+- name: Anfrage erstellen, Nachricht hinzufügen
+  href: create-request.md
+- name: CRM-Daten zu Outlook-Ereignis hinzufügen
+  href: add-crm-data-to-event.md
+- name: Anforderungen
+  href: requirements.md
