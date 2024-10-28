@@ -4,7 +4,7 @@ title: New and improved mobile
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: mobile, CallerID, notification, request, ticket, quote, custom task, new button, SharePoint, filter, dashboard, follow-up
 author: SuperOffice AS – Research and Development
-date: 09.19.2024
+date: 10.29.2024
 version_mobile: 11.0
 topic: reference
 client: mobile
@@ -16,7 +16,8 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.0
 
-* Mobile CRM is rewritten to the MAUI platform. All existing functionality works as before. See [Mobile CRM Product release for 11.0.1][36].
+* [Time and date picker - time wheel and calendar (11.0.3)][36]
+* Mobile CRM is rewritten to the MAUI platform. All existing functionality works as before. See [Mobile CRM Product release for 11.0.1][51].
 
 ## Version 10.2
 
@@ -83,5 +84,6 @@ audience_tooltip: SuperOffice Mobile CRM
 [33]: 10.2.16-update.md
 [34]: 10.2.18-update.md
 [35]: 10.2.19-update.md
-[36]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
+[36]: 11.0.3-update.md
 [50]: ../../docs/en/mobile/overview.md
+[51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
