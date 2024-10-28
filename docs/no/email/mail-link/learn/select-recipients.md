@@ -17,9 +17,9 @@ Når du oppretter en e-post [fra Microsoft Outlook][1], kan du legge til mottake
 
 2. I dialogboksen **Velg mottakere** under **Velg fra**, velger du én av de fem alternativknappene: **Firma**, **Prosjekt**, **Salg**, **Utvalg** eller **Brukergruppe**. Resten av dialogen endres tilsvarende.
 
-3. Velg navnet på et firma/prosjekt/lær/salg/lær/utvalg/brukergruppe. Du kan også søke ved å begynne å skrive inn navnet på det aktuelle elementet.
+3. Velg navnet på et firma/prosjekt/salg/utvalg/brukergruppe. Du kan også søke ved å begynne å skrive inn navnet på det aktuelle elementet.
 
-    En liste over alle medlemmene i valgte firma/prosjekt/lær/salg/lær/utvalg/brukergruppe vises. Hvis en ansatt har mer enn én e-postadresse og du velger **Vis alle adresser** i nedre venstre hjørne av dialogboksen, vises alle e-postadressene deres.
+    En liste over alle medlemmene i valgte firma/prosjekt/salg/utvalg/brukergruppe vises. Hvis en ansatt har mer enn én e-postadresse og du velger **Vis alle adresser** i nedre venstre hjørne av dialogboksen, vises alle e-postadressene deres.
 
 4. Velg mottakerne du vil inkludere, i **Til**-feltet og klikk på pilen til høyre for listen (![icon][img2]). Mottakerne vises i **Til**-listen.
 

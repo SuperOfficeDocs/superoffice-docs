@@ -83,7 +83,7 @@ Omdat de invoegtoepassing cloudgebaseerd is, is deze altijd up-to-date zonder da
 [5]: create-request.md
 [6]: add-crm-data-to-event.md
 [7]: add-contact-to-superoffice.md
-[8]: create-vervolgactiviteit.md
+[8]: create-follow-up.md
 [9]: create-sale.md
 [11]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [12]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice

@@ -32,7 +32,7 @@ For at oprette en [opfølgning][1] (aftale eller opgave) i SuperOffice direkte f
 
 1. Når alle felter er udfyldt, klik på **Gem**.
 
-    ![SuperOffice for Outlook, Opret opfølgning][img1]
+    ![SuperOffice for Outlook, Opret opfølgning -screenshot][img1]
 
 > [!TIP]
 > Du kan også oprette et salg eller en sag direkte fra e-mailen. Hvis det er en del af et igangværende problem, kan du vedhæfte meddelelsen til en specifik sag.
