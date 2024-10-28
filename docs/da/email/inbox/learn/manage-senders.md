@@ -20,7 +20,7 @@ Du kan nemt finde information om en afsender i SuperOffice CRM.
 3. Det næste, der sker, afhænger af, om afsenderens e-mailadresse findes i SuperOffice:
     * Hvis e-mailadressen findes på et firma/en person, vises firma-/personkortet.
     * Hvis e-mailadressen er registreret ved mere en et firma eller en person, vises en dialogboks med en liste med alternativerne, hvor du kan vælge.
-    * Hvis mailadressen ikke er registreret i SuperOffice CRM, kan du klikke på **Opret ny virksomhed og kontakt**.
+    * Hvis mailadressen ikke er registreret i SuperOffice CRM, kan du klikke på **Opret nyt firma og kontakt**.
 
 ## Tilføj afsenderens e-mailadresse til en ny eller eksisterende person i SuperOffice
 

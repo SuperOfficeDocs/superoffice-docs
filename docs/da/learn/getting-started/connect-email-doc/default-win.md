@@ -29,7 +29,7 @@ Vælg en af følgende muligheder:
 
 * [SuperOffice Inbox][1] - hvis du ikke kan bruge WebTools. [Se denne video for at komme i gang][10].
 
-* [!include[SuperOffice til Outlook](includes/why-superoffice-for-outlook.md)]
+* [!include[SuperOffice for Outlook](includes/why-superoffice-for-outlook.md)]
 
 ## <a id="step-3"></a>Dokument
 

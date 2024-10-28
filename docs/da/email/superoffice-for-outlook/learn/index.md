@@ -1,40 +1,95 @@
 ---
 uid: help-da-email-outlook
 title: SuperOffice for Outlook
-description: Med tilføjelsesprogrammet SuperOffice til Outlook kan du arbejde ubesværet mellem din Microsoft 365- og SuperOffice CRM-løsning ved at give dig adgang til vigtige oplysninger og funktioner fra SuperOffice direkte i din mail.
-keywords: e-mail
+description: Med tilføjelsesprogrammet SuperOffice for Outlook kan du arbejde ubesværet mellem din Microsoft 365- og SuperOffice CRM-løsning ved at give dig adgang til vigtige oplysninger og funktioner fra SuperOffice direkte i din mail.
+keywords: e-mail, SuperOffice for Outlook, Outlook
 author: Bergfrid Dias
-date: 08.28.2024
+date: 10.29.2024
+version_sofo: 2024.8.12
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 ---
 
 # SuperOffice for Outlook
 
-Med tilføjelsesprogrammet SuperOffice til Outlook kan du arbejde ubesværet mellem din Microsoft 365- og SuperOffice CRM-løsning ved at give dig adgang til vigtige oplysninger og funktioner fra SuperOffice direkte i din mail.
+[Vis i SuperOffice AppStore][11]
 
-Når du har oprettet forbindelse til SuperOffice til Outlook, kan du gemme nye kontakter, e-mails, salg, aktiviteter eller anmodninger direkte fra Outlook. Med tilføjelsesprogrammets panel kan du hurtigt se vigtige oplysninger om kontakt, salg og anmodningshistorik. Få et overblik over de personer og firmaer, der er inkluderet i e-mailen, så du med det samme kan se, hvem du interagerer med.
+**SuperOffice for Outlook**-tilføjelsen hjælper dig med at arbejde ubesværet mellem Microsoft 365 og SuperOffice CRM. Med denne integration kan du administrere vigtige CRM-opgaver direkte fra din e-mail uden at skifte mellem systemer, hvilket sparer tid og hjælper dig med at forblive produktiv.
 
-![Under fanen Handling kan du udføre opgaver som at gemme på mail og oprette aktivitet i SuperOffice -screenshot][img1]
+## Hvorfor bruge SuperOffice for Outlook?
 
-## Sådan installerer du SuperOffice for Outlook
+Med tilføjelsesprogrammet kan du hurtigt:
 
-For at oprette forbindelse til SuperOffice til Outlook skal du gå til vores [App Store][1] og følge instruktionerne under **fanen Sådan installeres** den. Der kræves ingen installation, du kan blot aktivere den fra din browser.
+* Gemme nye kontakter, e-mails, salg, aktiviteter eller sager fra Outlook.
+* Få adgang til kontakt-, salgs- og sagsoplysninger for alle i e-mailtråden.
+* Få øjeblikkelig kontekst om, hvem du interagerer med via tilføjelsespanelet.
+
+Du har vigtig information ved hånden, lige når du har brug for det. Desuden er det fuldt skybaseret, så ingen installation er nødvendig – bare aktiver det fra din browser, og du er klar.
+
+![Handlingsfanen viser gem til e-mail og opret aktivitetsmuligheder i SuperOffice -screenshot][img1]
+
+## Nøglefunktioner
+
+SuperOffice for Outlook-tilføjelsen giver dig mulighed for at:
+
+* [Gem kontakter og firma][7]
+* [Arkivere e-mails][3]
+* [Gem vedhæftede filer][3]
+* [Opret aftaler][8]
+* [Opret opgaver][8]
+* [Opret salg][9]
+* [Opret sager][5]
+* [Tilføj beskeder til sager][5]
+* [Tilføj CRM-data til kalenderbegivenheder][6] (Kræver [Synchronizer for SuperOffice][12])
+
+Alt hvad du behøver er integreret i din indbakke, hvilket gør din arbejdsgang mere effektiv og problemfri.
+
+## Sådan installeres
+
+1. Gå til vores [App Store][11] og se fanen **Sådan installeres**.
+2. Følg de enkle trin for at aktivere tilføjelsen – ingen download er nødvendig.
 
 > [!NOTE]
-> Du skal have et aktivt Microsoft 365-abonnement for at oprette forbindelse mellem tilføjelsesprogrammet og Outlook.
+> Du skal have et aktivt Microsoft 365-abonnement og en SuperOffice CRM Online-konto for at tilslutte tilføjelsen.
+
+## Udrulningsmuligheder
+
+Du kan udrulle tilføjelsen på to måder:
+
+* [For individuelle Outlook-brugere][2]
+* [Centralt administreret af administratorer][17]
+
+[Vis systemkrav][1]
+
+## Priser
+
+**SuperOffice for Outlook**-tilføjelsen er inkluderet gratis med dit eksisterende SuperOffice CRM Online-abonnement.
+
+## Opdateringer
+
+Fordi tilføjelsen er skybaseret, er den altid opdateret uden nogen handling fra din side. Du vil automatisk få de nyeste forbedringer og funktioner. Vil du have tidlig adgang til nye funktioner? Deltag i vores pilotprogram for eksklusive forhåndsvisninger. [Lær mere][11]
 
 ## Relateret indhold
 
-* [SharePoint-dokumentbibliotek][2]
-* [Oversigt over SharePoint-integrationen][3]
+* [SharePoint-dokumentbibliotek][19]
+* [SuperOffice Indbakke][18]
 
 <!-- Referenced links -->
-[1]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
-[2]: ../../../document/library/learn/index.md
-[3]: ../../../../en/document/cloud/sharepoint-documents/index.md
+[1]: requirements.md
+[2]: get.md
+[3]: save-to-superoffice.md
+[5]: create-request.md
+[6]: add-crm-data-to-event.md
+[7]: add-contact-to-superoffice.md
+[8]: create-follow-up.md
+[9]: create-sale.md
+[11]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
+[12]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
+[17]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
+[18]: ../../inbox/learn/index.md
+[19]: ../../../document/library/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

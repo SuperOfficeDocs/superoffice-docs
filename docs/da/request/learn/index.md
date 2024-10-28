@@ -17,7 +17,7 @@ Vores ticket-system giver dig mulighed for effektivt at håndtere indgående sag
 
 **Sager** er en af de vigtigste funktioner i SuperOffice. Her behandler du sager og henvendelser i systemet. Du kan også oprette interne og eksterne sager, besvare indkommende henvendelser og få en oversigt over status for alle sager i systemet. Klik på knappen ![ikon][img2] **Sager** for at åbne skærmbilledet Sager, eller klik på teksten **Sager** for at åbne navigatorindstillingerne med søgning, historik og foretrukne.
 
-Hvert spørgsmål og hver forespørgsel kan defineres som en sag. Disse spørgsmål spænder fra supportproblemer, spørgsmål om produktet og tjenesterne eller spørgsmål om fakturaer. Når en sag kommer ind, skal du gerne håndtere dem så hurtigt og effektivt som muligt, mens du yder professionel kundeservice.
+Hvert spørgsmål og hver sag kan defineres som en sag. Disse spørgsmål spænder fra supportproblemer, spørgsmål om produktet og tjenesterne eller spørgsmål om fakturaer. Når en sag kommer ind, skal du gerne håndtere dem så hurtigt og effektivt som muligt, mens du yder professionel kundeservice.
 
 ![Sag med liste over Ikke fordelte sager med forhåndsvisning -screenshot][img1]
 
@@ -52,7 +52,7 @@ Sager kan knyttes til [personer][2], som igen kan være tilknyttet et [firma][3]
 
 Indgående sager kan ankomme via mange kanaler, og der er mere end én måde at registrere og besvare dem på. Det varierer fra sag til sag, hvordan sagsbehandlingen foregår.
 
-Et personservicesystem handler om at give personer de svar, de leder efter, og gemme deres kontaktoplysninger. Når du svarer på en forespørgsel, modtager de en e-mail fra dig. Derfor er det vigtigt at [oprette din e-mail-signatur][15].
+Et personservicesystem handler om at give personer de svar, de leder efter, og gemme deres kontaktoplysninger. Når du svarer på en sag, modtager de en e-mail fra dig. Derfor er det vigtigt at [oprette din e-mail-signatur][15].
 
 ### Typiske arbejdsopgaver
 

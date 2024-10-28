@@ -43,11 +43,11 @@ sager tildeles probabilistisk baseret på deres vægtninger.
 
 ![Request assignment methods, weighted][img3]
 
-| Forespørgsel | Tilfældig værdi | Tildelt til |
+| Sag | Tilfældig værdi | Tildelt til |
 |---|:-:|---|
-| Første forespørgsel | 7 | Medlem C |
-| Anden forespørgsel | 2 | Medlem B |
-| Tredje forespørgsel | 5 | Medlem C |
+| Første sag | 7 | Medlem C |
+| Anden sag | 2 | Medlem B |
+| Tredje sag | 5 | Medlem C |
 
 ![Request assignment methods, weighted -screenshot][img4]
 
@@ -55,11 +55,11 @@ sager tildeles probabilistisk baseret på deres vægtninger.
 
 Tildeler nye sager til medlemmet med færrest aktive sager.
 
-| Forespørgsel | Betingelse | Tildelt til |
+| Sag | Betingelse | Tildelt til |
 |---|---|---|
-| Første forespørgsel | Medlemmerne B og C har færrest sager | Medlem C |
-| Anden forespørgsel | Medlem B har færrest sager | Medlem B |
-| Tredje forespørgsel | Alle medlemmer har samme antal sager | Medlem B |
+| Første sag | Medlemmerne B og C har færrest sager | Medlem C |
+| Anden sag | Medlem B har færrest sager | Medlem B |
+| Tredje sag | Alle medlemmer har samme antal sager | Medlem B |
 
 ![Request assignment methods, user with fewest open requests -screenshot][img5]
 

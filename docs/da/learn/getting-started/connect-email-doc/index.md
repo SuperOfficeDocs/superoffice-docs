@@ -25,9 +25,9 @@ Tilslutning af dine e-mails, dokumenter og kalender til SuperOffice vil hjælpe 
 
 | | Applikation | Beskrivelse | Muligheder |
 |-|---|---|---|
-| ![icon][img4] | **E-mail** | Arkiver indgående og udgående e-mails.| [WebTools][4] (kun Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice til Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| ![icon][img4] | **E-mail** | Arkiver indgående og udgående e-mails.| [WebTools][4] (kun Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
 | ![icon][img5] | **Dokumenter** | Arkiver filer fra kommunikation med kunder og kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) / [WebTools til Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Kalender** | Send og modtag invitationer. | [SuperOffice Inbox][6]<br/> [Synchronizer til SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools til Mac][5]|
+| ![icon][img6] | **Kalender** | Send og modtag invitationer. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools til Mac][5]|
 
 ## Hvilken løsning bruger din virksomhed?
 
@@ -53,11 +53,11 @@ De integrationer, du har brug for, afhænger af dit operativsystem, din e-mailkl
 
 *SuperOffice Inbox er opsat og modtager indgående invitationer med Accepter/Afslå knapper*
 
-### SuperOffice til Outlook applikation
+### SuperOffice for Outlook applikation
 
-![Brug applikationen **SuperOffice til Outlook** til at arkivere e-mails til SuperOffice -screenshot][img3]
+![Brug applikationen **SuperOffice for Outlook** til at arkivere e-mails til SuperOffice -screenshot][img3]
 
-*Brug applikationen SuperOffice til Outlook til at arkivere e-mails til SuperOffice*
+*Brug applikationen SuperOffice for Outlook til at arkivere e-mails til SuperOffice*
 
 <!-- Referenced links -->
 [1]: default-win.md

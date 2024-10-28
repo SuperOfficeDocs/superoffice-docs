@@ -179,7 +179,7 @@ For detaljer om værdien af hvert felt, se [databasereferencen][5].
 * Billede
 * Links
 
-## Forespørgsel
+## Sag
 
 **Standardfelter:**
 
@@ -218,7 +218,7 @@ For detaljer om værdien af hvert felt, se [databasereferencen][5].
 | Realtid til lukning | Tid | |
 | Realtid til svar | Tid | |
 | Svar ved | Dato | |
-| [Forespørgselstype][13] | Drop-down | |
+| [Sagstype][13] | Drop-down | |
 | Salg | Drop-down | |
 | Følelse | Tekst | |
 | Følelsesnøjagtighed | Tekst | |

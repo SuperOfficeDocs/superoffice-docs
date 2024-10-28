@@ -13,7 +13,7 @@ language: da
 
 # Find en sag
 
-Som kundesupportagent får du mange indgående opkald og e-mails om afventende eller gamle kundeforespørgsler. Derfor er det vigtigt at vide, hvordan du kan finde en enkelt sag eller grupper af sag så hurtigt som muligt.
+Som kundesupportagent får du mange indgående opkald og e-mails om afventende eller gamle kundesager. Derfor er det vigtigt at vide, hvordan du kan finde en enkelt sag eller grupper af sag så hurtigt som muligt.
 
 Gør ét af følgende:
 

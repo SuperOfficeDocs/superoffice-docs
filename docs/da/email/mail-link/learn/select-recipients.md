@@ -17,9 +17,9 @@ Når du [opretter en mail fra Microsoft Outlook][1] kan du tilføje modtagere ve
 
 2. I dialogboksen **Vælg modtagere** under **Vælg fra** vælger du en af de fem alternativknapper: **Firma**, **Projekt**, **Salg**, **Valg** eller **brugergruppe**. Resten af dialogboksen ændres i overensstemmelse hermed.
 
-3. Vælg navnet på en/et virksomhed /projekt/lær/salg/lær/valg/brugergruppe. Du kan også søge ved at starte på at indtaste navnet på den ønskede enhed.
+3. Vælg navnet på en/et firma/projekt/salg/valg/brugergruppe. Du kan også søge ved at starte på at indtaste navnet på den ønskede enhed.
 
-    Der vises en liste over alle medlemmer af den valgte virksomhed/projekt/lær/salg/lær/udvalg/brugergruppe. Hvis en medarbejder har mere end én mailadresse, og du vælger **Vis alle adresser** i nederste venstre hjørne af dialogboksen, vises alle medarbejderens mailadresser.
+    Der vises en liste over alle medlemmer af valgte firma/projekt/salg/udvalg/brugergruppe. Hvis en medarbejder har mere end én mailadresse, og du vælger **Vis alle adresser** i nederste venstre hjørne af dialogboksen, vises alle medarbejderens mailadresser.
 
 4. Vælg de modtagere, der skal medtages i feltet **Til**, og klik på pileknappen til høje for listen (![ikon][img2]). Modtagerne vises på listen **Til** .
 
