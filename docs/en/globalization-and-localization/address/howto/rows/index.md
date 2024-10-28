@@ -1,16 +1,6 @@
 ---
-uid: address-howto-rows
-title: Address localization
-description: Working with addresses as rows.
-author: Bergfrid Dias
-date: 02.16.2022
-keywords: address
-topic: howto
+uid: address-howto-rows-redirect
+author: Bergfrid Skaara Dias
+date: 10.25.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/rows/howto/address/index.html
 ---
-
-# Address - rows
-
-* [Update address with sentry][1]
-
-<!-- Referenced links -->
-[1]: update-address.md

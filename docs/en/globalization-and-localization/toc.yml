@@ -17,22 +17,11 @@ items:
   - name: AddressHelper class
     href: address/addresshelper.md
   - name: API options
-    href: address/howto/index.md
     items:
     - name: CRMScript
       topicHref: ../automation/crmscript/howto/address/index.md
     - name: Web services
-      href: address/howto/services/index.md
-      items:
-      - name: Read the LocalizedAddress
-        href: address/howto/services/get-localized-address.md
-      - name: Set LocalizedAddress
-        href: address/howto/services/set-localized-address.md
-    - name: Rows
-      href: address/howto/rows/index.md
-      items:
-      - name: Update address
-        href: address/howto/rows/update-address.md
+      topicHref: ../api/web-services/howto/address/index.md
 - name: Culture
   href: culture/index.md
   items:

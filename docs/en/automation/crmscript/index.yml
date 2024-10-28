@@ -23,7 +23,7 @@ landingContent:
         - text: What is CRMSCript?
           url: overview/index.md
         - text: SuperOffice view of the world
-          url: ../../contact/overview.md
+          url: ../../contact/reference/index.md
         - text: What can I do with CRMScript?
           url: overview/crmscript-usage.md
   # Card

@@ -269,7 +269,7 @@ The enum values correspond to what you see in the **Pattern** dialog.
 [34]: ../../project/index.yml
 [35]: ../../email/index.yml
 [36]: ../../document/index.yml
-[37]: ../../contact/associate.md
+[37]: ../../contact/reference/index.md#associate
 [38]: ../learn/follow-ups.md
 
 [40]: ../../database/tables/appointment.md

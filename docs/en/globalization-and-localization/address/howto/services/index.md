@@ -1,18 +1,6 @@
 ---
-uid: address-howto-ws
-title: Address localization
-description: Working with addresses in web services.
-author: Bergfrid Dias
-date: 02.16.2022
-keywords: address
-topic: howto
+uid: address-howto-ws-redirect
+author: Bergfrid Skaara Dias
+date: 10.25.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/address/index.html
 ---
-
-# Address - web services
-
-* [Get address][1]
-* [Set address][2]
-
-<!-- Referenced links -->
-[1]: get-localized-address.md
-[2]: set-localized-address.md

@@ -278,6 +278,13 @@ items:
   - name: How to...
     topicHref: web-services/howto/index.md
     items:
+    - name: Address
+      href: web-services/howto/address/index.md
+      items:
+      - name: Read the LocalizedAddress
+        href: web-services/howto/address/get-localized-address.md
+      - name: Set LocalizedAddress
+        href: web-services/howto/address/set-localized-address.md
     - name: Company
       href: web-services/howto/company/index.md
       items:
@@ -524,6 +531,11 @@ items:
       href: rows/delete-row.md
     - name: Delete a row through an entity
       href: rows/delete-row-from-entity.md
+    - name: Address
+      href: rows/howto/address/index.md
+      items:
+      - name: Update address
+        href: rows/howto/address/update-address.md
     - name: Company
       href: rows/howto/company/index.md
       items:
@@ -648,6 +660,15 @@ items:
       href: sql/howto/diary/create-invitation-sql.md
     - name: Accept invitation
       href: sql/howto/diary/accept-invitation-sql.md
+  - name: Project
+    href: sql/howto/project/index.md
+    items:
+    - name: Create project
+      href: sql/howto/project/create.md
+    - name: Text table
+      href: sql/howto/project/text-table.md
+    - name: Project guide
+      href: sql/howto/project/project-guide.md
   - name: SAINT
     href: sql/howto/saint/index.md
     items:

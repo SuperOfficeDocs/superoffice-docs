@@ -93,4 +93,4 @@ bool isAssoExists = assoCache.ValidateAndTestAssociate(4);
 Using methods like above you can get some very vital information of the associates that are listed in the SuperOffice database from the cache without going to the database.
 
 <!-- Referenced links -->
-[1]: ../../contact/associate.md
+[1]: ../../contact/reference/index.md#associate

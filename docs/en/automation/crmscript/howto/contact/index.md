@@ -68,5 +68,5 @@ printLine(p.getVariable("user.username", 0));
 Here, prefixes are *customer* and *user* respectively.
 
 <!-- Referenced links -->
-[1]: ../../../../contact/associate.md
+[1]: ../../../../contact/reference/index.md#associate
 [2]: ../request/reply-templates.md

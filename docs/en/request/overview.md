@@ -105,8 +105,8 @@ All other calculations run in the background. We use `time_counter` to mark whic
 
 <!-- Referenced links -->
 [1]: ../automation/crmscript/overview/index.md
-[2]: ../contact/overview.md
-[3]: ../company/overview.md
+[2]: ../contact/reference/index.md
+[3]: ../company/reference/index.md
 [4]: learn/status/create.md
 [5]: learn/category/create.md
 [6]: learn/tags.md

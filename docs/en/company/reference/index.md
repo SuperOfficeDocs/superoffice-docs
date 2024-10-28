@@ -182,7 +182,7 @@ Explore the options and select the most appropriate method for your application.
 [30]: ../../globalization-and-localization/address/index.md
 [31]: ../../automation/crmscript/overview/index.md
 [32]: ../../automation/crmscript/howto/company/index.md
-[33]: ../../contact/associate.md
+[33]: ../../contact/reference/index.md#associate
 
 <!-- Referenced images -->
 [img1]: media/so-contact.gif
