@@ -46,7 +46,7 @@ Afhankelijk van het doel en de CTA van uw mailing kunt u uw database bijwerken. 
 | [Script](#script) | voer een script uit. |
 
 > [!TIP]
-> Houd er bij het bijwerken van een gevolgde link rekening mee dat deze mogelijk wordt gebruikt door meerdere mailings en/of geautomatiseerde flows (een pilotfunctie). Zorg ervoor dat er geen dubbele of conflicterende acties zijn.
+> Houd er bij het bijwerken van een gevolgde link rekening mee dat deze mogelijk wordt gebruikt door meerdere mailings en/of geautomatiseerde flows. Zorg ervoor dat er geen dubbele of conflicterende acties zijn.
 
 ## <a id="response"></a>Reactie
 

@@ -61,7 +61,7 @@ Här kan du välja åtgärder som ska utföras när ett formulär bearbetas (aut
     Om du till exempel har ett formulär för potentiella kunder, väljer du potentiella kunder som din kategori. Därefter kan du enkelt skapa urval baserat på denna kategori och/eller företag.
 
 > [!NOTE]
-> När du uppdaterar ett formulär, kom ihåg att det kan användas av flera kampanjer och/eller automatiserade flöden (en pilotfunktion). Se till att det inte finns några duplicerade eller motstridiga åtgärder.
+> När du uppdaterar ett formulär, kom ihåg att det kan användas av flera kampanjer och/eller automatiserade flöden. Se till att det inte finns några duplicerade eller motstridiga åtgärder.
 
 ## Vad vill du göra nu?
 

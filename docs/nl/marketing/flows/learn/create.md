@@ -10,7 +10,6 @@ topic: howto
 language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
-pilot: yes
 ---
 
 # Een nieuwe flow maken

@@ -46,7 +46,7 @@ Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank
 | [Skript](#script) | Ein Skript ausführen. |
 
 > [!TIP]
-> Wenn Sie einen überwachte Link aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows (einer Pilotfunktion) verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
+> Wenn Sie einen überwachte Link aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
 
 ## <a id="response"></a>Antwort
 

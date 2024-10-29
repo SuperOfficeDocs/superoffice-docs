@@ -10,7 +10,6 @@ topic: howto
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
-pilot: yes
 ---
 
 # Analyser resultatene for flyt

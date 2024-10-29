@@ -61,7 +61,7 @@ Hier können Sie Aktionen auswählen, die bei der automatischen oder manuellen V
     Wenn Sie z. B. ein Formular für Interessenten haben, wählen Sie Interessenten als Kategorie aus. Sie können dann ganz einfach Selektionen auf Basis dieser Kategorie und/oder dieser Branche erstellen.
 
 > [!NOTE]
-> Wenn Sie einen Formular aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows (einer Pilotfunktion) verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
+> Wenn Sie einen Formular aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
 
 ## Was möchten Sie jetzt tun?
 

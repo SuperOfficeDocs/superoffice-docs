@@ -61,7 +61,7 @@ Here you can select actions to perform when a form is processed (automatically o
     For example, if you have a form for prospects, you select prospects as your category. You can then easily create selections based on this category and/or business.
 
 > [!NOTE]
-> When updating a form, keep in mind that it might be used in multiple mailings and/or automated flows (a pilot feature). You should make sure there are no duplicate or conflicting actions.
+> When updating a form, keep in mind that it might be used in multiple mailings and/or automated flows. You should make sure there are no duplicate or conflicting actions.
 
 ## What would you like to do now?
 

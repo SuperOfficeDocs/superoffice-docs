@@ -22,7 +22,7 @@ Ved hjelp av SuperOffice Marketing kan du opprette følgende:
 
 * **Utsendelser** (e-post, SMS, dokumenter og skjemasvar). [Kom i gang med den første utsendelsen][5].
 * **Skjemaer**. [Kom i gang med det første skjemaet][1].
-* **Flyter**. (bare pilot)
+* **Flyter** (automatisering).
 
 Se denne produktomvisningen på video og få en introduksjon til funksjonene i SuperOffice Marketing (videolengde – 2:31):
 

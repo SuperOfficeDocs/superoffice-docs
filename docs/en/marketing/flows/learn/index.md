@@ -10,7 +10,6 @@ topic: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
-pilot: yes
 ---
 
 # Marketing automation - flows

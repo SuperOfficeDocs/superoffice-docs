@@ -22,7 +22,7 @@ Mit SuperOffice Marketing können Sie Folgendes erstellen:
 
 * **Kampagnen** (E-Mails, SMS, Dokumente und Formularantworten). [Erste Schritte mit Ihrer ersten Kampagne][5].
 * **Formulare**. [Erste Schritt mit Ihrem ersten Formular][1].
-* **Flows** (ab Version 10.3.5 Pilot).
+* **Flows** (Automatisierung).
 
 Sehen Sie sich dieses Produkttour-Video an, um eine Einführung in die SuperOffice Marketing-Funktionen zu erhalten (Videolänge - 2:31):
 

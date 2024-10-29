@@ -22,7 +22,7 @@ I SuperOffice Marknadsföring kan du skapa följande:
 
 * **Utskick** (e-postmeddelanden, SMS, dokument och formulärsvar). [Kom igång med ditt första utskick][5].
 * **Formulär**. [Kom igång med ditt första formulär][1].
-* **Flöden** (i pilot från version 10.3.5).
+* **Flöden** (automatisering).
 
 Titta på den här videon med en produktgenomgång och få en introduktion till funktionerna i SuperOffice Marknadsföring (videons längd – 2:31):
 

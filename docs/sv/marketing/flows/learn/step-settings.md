@@ -10,7 +10,6 @@ topic: howto
 language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
-pilot: yes
 ---
 
 # Steginställningar

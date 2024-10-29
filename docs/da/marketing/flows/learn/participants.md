@@ -10,7 +10,6 @@ topic: howto
 language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
-pilot: yes
 ---
 
 # Flowdeltagere

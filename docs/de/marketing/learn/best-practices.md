@@ -77,7 +77,7 @@ Administratoren können eine [validierte Domäne hinzufügen][6] in den Einstell
 
 Autoren sehen eine Nachricht, wenn sie eine nicht validierte E-Mail-Adresse im Feld Von verwenden, als Erinnerung daran, authentifizierte Domänen zu verwenden. Dies hilft auch dabei, Rechtschreibfehler in der Domäne für den Versand von E-Mails zu vermeiden.
 
-## Automatisierung (ab Version 10.3.5 Pilot)
+## Automatisierung
 
 * Geben Sie eine maximale Wartezeit an, um zu verhindern, dass Teilnehmer für immer in einem Flow aktiv bleiben.
 

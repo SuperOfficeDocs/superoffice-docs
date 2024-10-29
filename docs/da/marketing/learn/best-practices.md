@@ -77,7 +77,7 @@ Administratorer kan [tilføje valideret domæne][6] i Indstillinger og vedligeho
 
 Indholdsforfattere vil se en meddelelse, hvis de bruger en ikke-validerbar e-mailadresse i Fra-feltet, som en påmindelse om at bruge autentificerede domæner. Dette vil også hjælpe med at undgå stavefejl i domænet for e-mail-afsendelse.
 
-## Automatisering (kun pilot)
+## Automatisering
 
 * Angiv en maksimal ventetid for at undgå, at deltagere forbliver aktive i et flow for evigt.
 

@@ -61,7 +61,7 @@ Her kan du velge handlinger som skal utføres når et skjema behandles (automati
     Hvis du for eksempel har et skjema for potensielle kunder, velger du potensielle kunder som kategori. Deretter kan du enkelt opprette utvalg basert på denne kategorien og/eller bransje.
 
 > [!NOTE]
-> Når du oppdaterer et skjema, må du huske at det kan brukes i flere utsendelser og/eller automatiserte flyter (en pilotfunksjon). Du bør forsikre deg om at det ikke er noen dupliserte eller motstridende handlinger.
+> Når du oppdaterer et skjema, må du huske at det kan brukes i flere utsendelser og/eller automatiserte flyter. Du bør forsikre deg om at det ikke er noen dupliserte eller motstridende handlinger.
 
 ## Hva vil du gjøre nå?
 

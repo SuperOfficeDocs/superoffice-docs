@@ -77,7 +77,7 @@ Administratörer kan [lägga till validerad domän][6] under Inställningar och 
 
 Innehållsförfattare kommer att se ett meddelande om de använder en ej validerad e-postadress i Från-fältet, som en påminnelse om att använda autentiserade domäner. Detta kommer också att hjälpa till att undvika stavfel i domänen för e-postutskick.
 
-## Automatisering (endast pilot)
+## Automatisering
 
 * Ange en maximal väntetid för att undvika att deltagare förblir aktiva i ett flöde för alltid.
 

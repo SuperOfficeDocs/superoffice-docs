@@ -22,7 +22,7 @@ Met SuperOffice Marketing kunt u het volgende maken:
 
 * **Mailings** (e-mails, SMS, documenten en formulierantwoorden). [Aan de slag met uw eerste mailing][5].
 * **Formulieren**. [Aan de slag met uw eerste formulier][1].
-* **Flows** (alleen pilot).
+* **Flows** (automatisering).
 
 Bekijk deze producttourvideo en krijg een inleiding tot de SuperOffice Marketing-functies (videolengte - 2:31):
 
