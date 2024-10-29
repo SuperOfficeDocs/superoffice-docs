@@ -23,6 +23,7 @@ audience_tooltip: SuperOffice Service
 * [Show SAINT status monitor on Requests screen (10.3.1)][1]
 * [System design - show extrafield in Request Properties sidebar (10.3.1)][12]
 * [Dashboard - Request tiles (10.3.1)][13]
+* [System Preference - Unsafe File Types (10.3.11)][14]
 
 <!-- Referenced links-->
 [1]: 10.3.1-update.md
@@ -33,3 +34,4 @@ audience_tooltip: SuperOffice Service
 [8]: 10.3.8-update.md
 [12]: ../admin/10.3.1-update.md
 [13]: ../core-crm/10.3.1-update.md
+[14]: 10.3.11-update.md

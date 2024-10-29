@@ -30,6 +30,8 @@ items:
 - name: Service
   href: service/index.md
   items:
+  - name: 10.3.11 update
+    href: service/10.3.11-update.md
   - name: 10.3.8 update
     href: service/10.3.8-update.md
   - name: 10.3.6 update
