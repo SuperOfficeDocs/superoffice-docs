@@ -11,6 +11,9 @@ language: nl
 
 # Rapporten
 
+> [!CAUTION]
+> Reporter Studio en rapporten naderen het [einde levenscyclus][10].
+
 Het scherm **Rapporten** is een rapportgenerator die wordt geleverd met een aantal standaardrapporten. Deze kunt u gebruiken om rapporten af te drukken op basis van gegevens uit SuperOffice CRM. U kunt de zoekcriteria in standaardrapporten aanpassen en zo uw eigen favoriete rapporten maken.
 
 > [!TIP]
@@ -58,6 +61,7 @@ Open het scherm **Rapporten** door te klikken op de ![pictogram][img7] knop **Ra
 [6]: open-from-archive.md
 [7]: filter.md
 [8]: delete-from-archive.md
+[10]: ../../../../release-notes/eol/reports.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/reports/label.png

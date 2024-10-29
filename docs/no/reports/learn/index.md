@@ -11,6 +11,9 @@ language: no
 
 # Rapporter
 
+> [!CAUTION]
+> Reporter Studio og rapporter nærmer seg [slutten av levetiden][10].
+
 **Rapporter**-bildet er en rapportgenerator som leveres med et sett standardrapporter du kan bruke til å skrive ut rapporter basert på data fra SuperOffice CRM. Du kan justere søkekriteriene i standardrapportene og på den måten definere dine egne favorittrapporter.
 
 > [!TIP]
@@ -58,6 +61,7 @@ Du kommer til **Rapporter**-bildet ved å klikke på ![ikon][img7] **Rapporter**
 [6]: open-from-archive.md
 [7]: filter.md
 [8]: delete-from-archive.md
+[10]: ../../../../release-notes/eol/reports.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/reports/label.png

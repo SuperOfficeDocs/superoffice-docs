@@ -11,10 +11,12 @@ language: da
 
 # Rapporter
 
+> [!CAUTION]
+> Reporter Studio og rapporter nærmer sig [udfasning][10].
+
 På skærmbilledet **Rapporter** findes der en rapportgenerator med en række standardrapporter, som du kan bruge til at udskrive rapporter baseret på data fra SuperOffice CRM. Du kan tilpasse søgekriterierne i standardrapporter og på den måde definere dine egne foretrukne rapporter.
 
-> [!TIP]
-> [Dashboards][1] er en anden måde at præsentere SuperOffice-data på.
+[Dashboards][1] er en anden måde at præsentere SuperOffice-data på.
 
 ## Hvor er mine rapporter?
 
@@ -58,6 +60,7 @@ På skærmbilledet **Rapporter** findes der en rapportgenerator med en række st
 [6]: open-from-archive.md
 [7]: filter.md
 [8]: delete-from-archive.md
+[10]: ../../../../release-notes/eol/reports.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/reports/label.png
