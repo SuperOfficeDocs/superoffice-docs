@@ -4,7 +4,6 @@ title: Arbeide med eksterne dokumenter
 description: Arbeide med eksterne dokumenter
 keywords: sak, dokument
 author: Bergfrid Dias
-author: Kirsti Aakerholt, Bergfrid Dias
 date: 10.29.2023
 version: 10.3.11
 topic: howto

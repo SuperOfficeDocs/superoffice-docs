@@ -4,7 +4,6 @@ title: Mit externen Dokumenten arbeiten
 description: Mit externen Dokumenten arbeiten
 keywords: Anfrage, Dokument
 author: Bergfrid Dias
-author: Kirsti Aakerholt, Bergfrid Dias
 date: 10.29.2023
 version: 10.3.11
 topic: howto
