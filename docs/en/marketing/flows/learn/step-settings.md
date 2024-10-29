@@ -10,7 +10,6 @@ topic: reference
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
-pilot: yes
 ---
 
 # Step settings

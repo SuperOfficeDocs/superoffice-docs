@@ -46,7 +46,7 @@ Basert på målet og oppfordringen til handling i e-posten din, kan du oppdatere
 | [Skript](#script) | Kjør et skript. |
 
 > [!NOTE]
-> Når du oppdaterer en sporingslenke, må du huske at den kan brukes av flere utsendelser og/eller automatiserte flyter (en pilotfunksjon). Du bør forsikre deg om at det ikke er noen dupliserte eller motstridende handlinger.
+> Når du oppdaterer en sporingslenke, må du huske at den kan brukes av flere utsendelser og/eller automatiserte flyter. Du bør forsikre deg om at det ikke er noen dupliserte eller motstridende handlinger.
 
 ## <a id="response"></a>Respons
 

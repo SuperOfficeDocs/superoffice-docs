@@ -77,7 +77,7 @@ Administrators can [add validated domain][6] in Settings and maintenance to make
 
 Content authors will see a message if they are using an un-validated email address in the From field, as a reminder to use authenticated domains. This will also help avoiding spelling mistakes in the email sending domain
 
-## Automation (pilot only)
+## Automation
 
 * Specify a maximum waiting time to avoid participants remaining active in a flow forever.​
 

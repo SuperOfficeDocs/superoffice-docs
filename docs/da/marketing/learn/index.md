@@ -21,7 +21,7 @@ Med SuperOffice Marketing kan du oprette følgende:
 
 * **Udsendelser** (e-mails, SMS, dokumenter og formularbesvarelser). [Kom i gang med din første udsendelse][5].
 * **Formularer**. [Kom i gang med din første formular][1].
-* **Flows** (i pilot fra version 10.3.5).
+* **Flows** (automatisering).
 
 Se denne videorundvisning om produkterne og få en introduktion til funktionerne i SuperOffice Marketing ( videoens længde - 2:31):
 

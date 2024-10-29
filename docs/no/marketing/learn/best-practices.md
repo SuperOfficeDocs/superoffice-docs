@@ -77,7 +77,7 @@ Administratorer kan [legge til validerbart domene][6] i Innstillinger og vedlike
 
 Forfattere vil se en melding hvis de bruker en ikke-validerbar e-postadresse i Fra-feltet, som en påminnelse om å bruke autentiserte domener. Dette vil også bidra til å unngå skrivefeil i domenet for e-postutsending.
 
-## Automatisering (bare pilot)
+## Automatisering
 
 * Spesifiser en maksimal ventetid for å unngå at deltakere forblir aktive i en flyt for alltid.​
 

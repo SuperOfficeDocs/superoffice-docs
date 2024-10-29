@@ -46,7 +46,7 @@ Baseret på din udsendelses mål og call-to-action kan du opdatere din database.
 | [Script](#script) | Køre et script |
 
 > [!TIP]
-> Når du opdaterer et sporet link, skal du huske, at det muligvis bruges af flere e-mails og/eller automatiserede flows (en pilotfunktion). Du bør sikre dig, at der ikke er nogen duplikerede eller modstridende handlinger.
+> Når du opdaterer et sporet link, skal du huske, at det muligvis bruges af flere e-mails og/eller automatiserede flows. Du bør sikre dig, at der ikke er nogen duplikerede eller modstridende handlinger.
 
 ## <a id="response"></a>Respons
 

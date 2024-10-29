@@ -61,7 +61,7 @@ Her kan du vælge handlinger, der skal udføres, når en formular behandles (aut
     Hvis du f.eks. har en formular til kundeemner, skal du vælge kundeemner som din kategori. Du kan derefter nemt oprette valg baseret på denne kategori og/eller virksomhed.
 
 > [!NOTE]
-> Når du opdaterer et formular, skal du huske, at det kan blive brugt af flere kampagner og/eller automatiserede flows (en pilotfunktion). Sørg for, at der ikke er nogen duplikerede eller modstridende handlinger.
+> Når du opdaterer et formular, skal du huske, at det kan blive brugt af flere kampagner og/eller automatiserede flows. Sørg for, at der ikke er nogen duplikerede eller modstridende handlinger.
 
 ## Hvad vil du foretage dig nu?
 

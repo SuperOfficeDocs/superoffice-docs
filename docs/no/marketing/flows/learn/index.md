@@ -10,7 +10,6 @@ topic: concept
 language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
-pilot: yes
 ---
 
 # Markedsføringsautomatisering - flyter

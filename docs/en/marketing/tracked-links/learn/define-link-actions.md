@@ -46,7 +46,7 @@ Based on your mailing's goal and call-to-action, you can update your database. T
 | [Script](#script) | Execute a script. |
 
 > [!NOTE]
-> When updating a tracked link, keep in mind that it might be used by multiple mailings and/or automated flows (a pilot feature). You should make sure there are no duplicate or conflicting actions.
+> When updating a tracked link, keep in mind that it might be used by multiple mailings and/or automated flows. You should make sure there are no duplicate or conflicting actions.
 
 ## <a id="response"></a>Response
 

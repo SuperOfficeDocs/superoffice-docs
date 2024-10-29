@@ -46,7 +46,7 @@ Baserat på din utskicks mål och CTAkan du uppdatera din databas. Denna informa
 | [Skript](#script) | Köra ett skript. |
 
 > [!TIP]
-> När du uppdaterar en spårad länk, kom ihåg att den kan användas av flera e-postmeddelanden och/eller automatiserade flöden (en pilotfunktion). Du bör säkerställa att det inte finns några duplicerade eller motstridiga åtgärder.
+> När du uppdaterar en spårad länk, kom ihåg att den kan användas av flera e-postmeddelanden och/eller automatiserade flöden. Du bör säkerställa att det inte finns några duplicerade eller motstridiga åtgärder.
 
 ## <a id="response"></a>Svar
 

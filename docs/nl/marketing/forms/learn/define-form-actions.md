@@ -61,7 +61,7 @@ Hier kunt u acties selecteren die worden uitgevoerd wanneer een formulier wordt 
     Als u bijvoorbeeld een formulier voor prospects hebt, selecteert u prospects als uw categorie. U kunt dan eenvoudig selecties maken op basis van deze categorie en/of branche.
 
 > [!NOTE]
-> Houd er bij het bijwerken van een formulier rekening mee dat dit mogelijk wordt gebruikt in meerdere mailings en/of geautomatiseerde flows (een pilotfunctie). Zorg ervoor dat er geen dubbele of conflicterende acties zijn.
+> Houd er bij het bijwerken van een formulier rekening mee dat dit mogelijk wordt gebruikt in meerdere mailings en/of geautomatiseerde flows. Zorg ervoor dat er geen dubbele of conflicterende acties zijn.
 
 ## Wat wilt u nu doen?
 

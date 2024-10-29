@@ -22,7 +22,7 @@ Using SuperOffice Marketing you can create the following:
 
 * **Mailings** (emails, SMS, documents and form responses). [Get started with your first mailing][5].
 * **Forms**. [Get started on your first form][1].
-* **Flows** (pilot only)
+* **Flows** (automation).
 
 Watch this product tour video and get an introduction to the SuperOffice Marketing features (video length - 2:31):
 

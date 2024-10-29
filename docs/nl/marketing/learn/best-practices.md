@@ -77,7 +77,7 @@ Beheerders kunnen een [gevalideerd domein toevoegen][6] in Instellingen en onder
 
 Auteurs zien een bericht als ze een niet-gevalideerd e-mailadres in het From-veld gebruiken, als een herinnering om geauthenticeerde domeinen te gebruiken. Dit helpt ook om spelfouten in het domein voor het verzenden van e-mails te voorkomen.
 
-## Automatisering (alleen pilot)
+## Automatisering
 
 * Specificeer een maximale wachttijd om te voorkomen dat deelnemers voor altijd actief blijven in een flow.​
 

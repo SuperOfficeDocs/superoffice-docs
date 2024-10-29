@@ -10,7 +10,6 @@ topic: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
-pilot: yes
 ---
 
 # Analyze your flow results
