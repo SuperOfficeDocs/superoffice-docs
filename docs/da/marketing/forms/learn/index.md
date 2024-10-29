@@ -26,7 +26,7 @@ Du kan bruge webformularer til at fange dine besøgendes oplysninger - deres nav
 
 * **Indfang kontaktoplysninger:** De oplysninger, folk sender på webformularer, gemmes i SuperOffice CRM, så du kan følge op på dem senere.
 
-* **Modtag kundefeedback:** Når kunder eller besøgende på webstedet har et spørgsmål, et problem eller en forespørgsel, kan de kontakte dig direkte på webformularer.
+* **Modtag kundefeedback:** Når kunder eller besøgende på webstedet har et spørgsmål, et problem eller en sag, kan de kontakte dig direkte på webformularer.
 
 * **Få samtykke:** Når en person giver dig tilladelse til at gemme oplysninger om dem på en webformular, ved du, at de virkelig er interesserede i dine marketingmeddelelser. Det vil ikke kun øge succesen med dine e-mail-kampagner, men du vil også følge reglerne i GDPR.
 

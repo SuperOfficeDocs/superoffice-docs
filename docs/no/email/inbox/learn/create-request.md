@@ -11,7 +11,7 @@ language: no
 
 # Opprett sak
 
-Denne funksjonen lar deg raskt legge til en forespørsel i SuperOffice Service basert på avsenderen og tekstinnholdet i e-postmeldingen.
+Denne funksjonen lar deg raskt legge til en sak i SuperOffice Service basert på avsenderen og tekstinnholdet i e-postmeldingen.
 
 1. Gå til innboksen.
 2. Merk ønsket melding i innboksen.
@@ -19,7 +19,7 @@ Denne funksjonen lar deg raskt legge til en forespørsel i SuperOffice Service b
 4. Klikk på **Opprett sak**.
 5. Fyll ut de relevante feltene i dialogboksen.
 6. Klikk på **Lagre**.
-    * Hvis avsenderens e-postadresse gjenkjennes, kobles forespørselen automatisk til riktig person og firma.
+    * Hvis avsenderens e-postadresse gjenkjennes, kobles saken automatisk til riktig person og firma.
     * Hvis avsenderens e-postadresse ikke gjenkjennes, registreres avsenderen automatisk som en ny person i SuperOffice Service.
 
 <!-- Referenced links -->

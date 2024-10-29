@@ -1,7 +1,7 @@
 ---
 uid: help-no-mail-link-archive-as-activity
 title: Arkiver e-post som aktivitet
-description: "Hvis du lagrer en e-post direkte som en oppgave, en avtale eller en telefonsamtale i SuperOffice-dagboken din, glemmer du aldri å følge opp en kunde eller forespørsel."
+description: "Hvis du lagrer en e-post direkte som en oppgave, en avtale eller en telefonsamtale i SuperOffice-dagboken din, glemmer du aldri å følge opp en kunde eller sak."
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail Link, e-post

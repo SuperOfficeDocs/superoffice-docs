@@ -1,7 +1,7 @@
 ---
 uid: help-da-mail-link-archive-as-activity
 title: Arkiver e-mail som aktivitet
-description: "Hvis du gemmer en e-mail direkte som en opgave, en aftale eller et telefonopkald i din SuperOffice-dagbog, sikrer du, at du aldrig glemmer at følge op på en kunde eller forespørgsel."
+description: "Hvis du gemmer en e-mail direkte som en opgave, en aftale eller et telefonopkald i din SuperOffice-dagbog, sikrer du, at du aldrig glemmer at følge op på en kunde eller sag."
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Mail Link, e-mail

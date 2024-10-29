@@ -1,0 +1,19 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Hent tilføjelsesprogrammet
+  href: get.md
+- name: Gem til SuperOffice
+  href: save-to-superoffice.md
+- name: Tilføj kontakt til SuperOffice
+  href: add-contact-to-superoffice.md
+- name: Opret opfølgning
+  href: create-follow-up.md
+- name: Opret salg
+  href: create-sale.md
+- name: Tilføj sag eller meddelelse
+  href: create-request.md
+- name: Tilføj CRM-data til Outlook-begivenhed
+  href: add-crm-data-to-event.md
+- name: Krav
+  href: requirements.md

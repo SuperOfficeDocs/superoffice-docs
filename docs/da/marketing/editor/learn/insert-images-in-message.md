@@ -63,7 +63,7 @@ Vælg mellem millioner af billeder fra det royalty-frie onlinebilledbibliotek.
 
 2. Vælg **Billeder** ![ikon][img2].
 
-3. Angiv søgeord i søgefeltet, og tryk på **ENTER**. Billeder, der matcher din forespørgsel, vises.
+3. Angiv søgeord i søgefeltet, og tryk på **ENTER**. Billeder, der matcher din sag, vises.
 
 4. Klik på og træk billedet til det relevante afsnit i meddelelsen.
 

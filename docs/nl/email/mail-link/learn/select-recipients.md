@@ -17,9 +17,9 @@ Wanneer u een [e-mail maakt vanuit Microsoft Outlook][1], kunt u ontvangers toev
 
 2. Selecteer in het dialoogvenster **Ontvangers selecteren** onder **Selecteer uit**, een van de vijf keuzerondjes: **Bedrijf**, **Project**, **Verkoop**, **Selectie** of **Gebruikersgroep**. De rest van het dialoogvenster verandert dienovereenkomstig.
 
-3. Selecteer de naam van een bedrijf/project/leren/verkoop/leren/selectie/gebruikersgroep. U kunt ook zoeken door de naam van het betreffende item te typen.
+3. Selecteer de naam van een bedrijf/project/verkoop/selectie/gebruikersgroep. U kunt ook zoeken door de naam van het betreffende item te typen.
 
-    Er wordt een lijst weergegeven met alle leden van het geselecteerde bedrijf/project/leren/verkopen/leren/selecteren/gebruikersgroep. Als een werknemer meer dan één e-mailadres heeft en u **Alle adressen weergeven** in de linkerbenedenhoek van het dialoogvenster selecteert, worden al zijn e-mailadressen weergegeven.
+    Er wordt een lijst weergegeven met alle leden van het geselecteerde bedrijf/project/verkopen/selecteren/gebruikersgroep. Als een werknemer meer dan één e-mailadres heeft en u **Alle adressen weergeven** in de linkerbenedenhoek van het dialoogvenster selecteert, worden al zijn e-mailadressen weergegeven.
 
 4. Selecteer de ontvangers die u wilt opnemen in het veld **Aan** en klik op de pijlknop rechts van de lijst (![pictogram][img2]). De ontvangers worden weergegeven in de lijst **Aan**.
 
