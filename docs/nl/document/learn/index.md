@@ -10,7 +10,6 @@ topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-pilot: yes
 ---
 
 # Werken met documenten ![pictogram][img1]

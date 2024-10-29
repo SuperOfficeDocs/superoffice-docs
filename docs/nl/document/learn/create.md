@@ -4,13 +4,12 @@ title: Nieuw document maken
 description: Maak een nieuw document rechtstreeks in SuperOffice CRM of upload bestaande documenten, om ervoor te zorgen dat u en uw collega's altijd toegang hebben tot de nieuwste documenten en versies. Deze handleiding laat u zien hoe u beide kunt doen.
 keywords: document
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-pilot: yes
 ---
 
 # Nieuwe documenten maken
@@ -102,13 +101,13 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 > Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op de pijl ![icon][img5] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
 
 <!-- markdownlint-disable MD051 -->
-### [Klassiek](#tab/dialog-old)
-
-![Document maken vanuit sjabloon (Klassiek) -screenshot][img3]
-
-### [Nieuw (vanaf versie 10.3.10 pilot)](#tab/dialog-new)
+### [Nieuw (vanaf versie 10.3.11)](#tab/dialog-new)
 
 ![Document maken vanuit sjabloon (Nieuw) -screenshot][img4]
+
+### [Klassiek (onsite)](#tab/dialog-old)
+
+![Document maken vanuit sjabloon (Klassiek) -screenshot][img3]
 
 ***
 <!-- markdownlint-restore -->
@@ -149,8 +148,8 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 3. (optioneel) Markeer het document als voltooid:
 
-     * Klassieke dialoog: Klik op het vinkje pictogram rechtsboven in de dialoog.
-     * Nieuw (vanaf versie 10.3.10 pilot): Selecteer het selectievakje in de voettekst.
+     * Nieuw (vanaf versie 10.3.11): Selecteer het selectievakje in de voettekst.
+     * Klassieke dialoog (onsite): Klik op het vinkje pictogram rechtsboven in de dialoog.
 
 4. [Typ de gewenste informatie in de verschillende velden.](#fields)
 

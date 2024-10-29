@@ -4,8 +4,8 @@ title: Referenz
 description: Referenz der im Ansichtsdesigner in Einstellungen und Verwaltung verfügbaren Elemente.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Feld, Standardfeld, Registerkarte, Standardregisterkarte
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -274,7 +274,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 * Links
 * Mehr
 
-## Dokument (im Pilotbetrieb ab Version 10.3.10)
+## Dokument
 
 **Standardfelder:**
 

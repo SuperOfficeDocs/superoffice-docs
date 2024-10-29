@@ -4,8 +4,8 @@ title: Reference
 description: Reference over elementer, der er tilgængelige i Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: Skærmdesigner, layout, felt, standardfelt, fane, standardfane
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -274,7 +274,7 @@ For detaljer om værdien af hvert felt, se [databasereferencen][7].
 * Links
 * Mere
 
-## Dokument (i pilot fra version 10.3.10)
+## Dokument
 
 **Standardfelter:**
 

@@ -4,8 +4,8 @@ title: Layout zu Gruppe, Typ oder Vorlage zuweisen
 description: So weisen Sie mit dem Ansichtsdesigner in Einstellungen und Wartung ein Layout einer Gruppe, Verkaufstyp, Projekttyp oder Anfrageart zu.
 keywords: Ansichtsdesigner, Layout, Layout zuweisen
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,7 +29,7 @@ language: de
     * Projekt: Benutzergruppe oder Projekttyp
     * Anfrage: Benutzergruppe oder Anfragetyp
     * Folgeaufgabe: Benutzergruppe oder Folgeaufgabstyp
-    * Dokument: Benutzergruppe oder Dokumentvorlage (Pilot)
+    * Dokument: Benutzergruppe oder Dokumentvorlage
 
 1. Wählen Sie ein Layout in der Liste auf der linken Seite aus.
 

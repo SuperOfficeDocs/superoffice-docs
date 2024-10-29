@@ -4,8 +4,8 @@ title: Reference
 description: Reference of elements available in the Screen Designer in Settings and maintenance.
 keywords: Screen designer, layout, field, standard field, tab, standard tab
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -274,7 +274,7 @@ For details about the value of each field, see the [Appointment database table][
 * Links
 * More
 
-## Document (in pilot from version 10.3.10)
+## Document
 
 **Standard fields:**
 

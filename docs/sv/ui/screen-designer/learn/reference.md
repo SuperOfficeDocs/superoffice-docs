@@ -4,8 +4,8 @@ title: Referens
 description: Referens över element som finns tillgängliga i Skärmdesignern i Inställningar och underhåll.
 keywords: Skärmdesigner, fält, flik, standardfält, standardflik
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -274,7 +274,7 @@ För detaljer om värdet av varje fält, se [databasreferencen][7].
 * Länkar
 * Mer
 
-## Dokument (i pilot från version 10.3.10)
+## Dokument
 
 **Standardfält:**
 

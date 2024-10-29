@@ -4,8 +4,8 @@ title: Screen designer
 description: Learn how to configure your screens and dialogs in this how-to guide.
 keywords: Screen designer, layout, UI, screen, customization, configurable screen
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -61,7 +61,7 @@ You can customize the following screens and dialogs:
 * Project
 * Request
 * Follow-up dialog
-* Document dialog (pilot)
+* Document dialog
 
 ## How do layouts work?
 

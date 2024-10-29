@@ -1,15 +1,15 @@
 ---
 uid: help-nl-document-dialog
-title: Dialoogvenster Document
+title: Dialoogvenster Document (onsite)
 description: Dialoogvenster Document
 keywords: document
 author: SuperOffice RnD
-date: 08.27.2024
+date: 10.29.2024
 topic: concept
 language: nl
 ---
 
-# Het dialoogvenster Document
+# Het dialoogvenster Document (onsite)
 
 De centrale voorziening in de documentfunctie is het dialoogvenster **Document**, dat u op verschillende manieren kunt openen:
 
@@ -23,7 +23,7 @@ Het dialoogvenster bestaat uit een hoofdonderdeel met algemene informatie over h
 * Meer
 
 > [!NOTE]
-> De beschrijvingen op deze pagina hebben betrekking op het klassieke Documentdialoogvenster. Als u de pilotversie van het nieuwe Documentdialoogvenster gebruikt, raadpleeg de [sectie Velden][6] in de handleiding voor uitleg over dialoogvensters en velden.
+> De beschrijvingen op deze pagina hebben betrekking op het klassieke Documentdialoogvenster (onsite). Als u SuperOffice CRM Online gebruikt, raadpleeg de [sectie Velden][6] in de handleiding voor uitleg over dialoogvensters en velden.
 
 ## Hoofdonderdeel
 

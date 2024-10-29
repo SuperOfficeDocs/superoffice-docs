@@ -10,7 +10,6 @@ topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
-pilot: yes
 ---
 
 # Dokument ![ikon][img1]

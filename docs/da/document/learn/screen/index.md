@@ -1,15 +1,15 @@
 ---
 uid: help-da-document-dialog
-title: Dialogboksen Dokument
+title: Dialogboksen Dokument (onsite)
 description: Dialogboksen Dokument
 author: SuperOffice RnD
-date: 08.27.2024
+date: 10.29.2024
 keywords: dokument
 topic: concept
 language: da
 ---
 
-# Dialogboksen Dokument
+# Dialogboksen Dokument (onsite)
 
 Centralt i dokumentfunktionen findes dialogboksen **Dokument**, som du kan åbne på forskellige måder:
 
@@ -23,7 +23,7 @@ Dialogboksen består af en hoveddel med generelle oplysninger om dokumentet samt
 * Mere
 
 > [!NOTE]
-> Beskrivelserne på denne side vedrører den klassiske Dokumentdialog. Hvis du bruger pilotversionen af den nye Dokumentdialog, se [Feltafdelingen][6] i vejledningen for forklaring af dialoger og felter.
+> Beskrivelserne på denne side vedrører den klassiske Dokumentdialog (onsite). Hvis du bruger SuperOffice CRM Online, se [Feltafdelingen][6] i vejledningen for forklaring af dialoger og felter.
 
 ## Hovedafsnit
 

@@ -4,13 +4,12 @@ title: Opprett nytt dokument
 description: Opprett et nytt dokument direkte i SuperOffice CRM, eller last opp eksisterende, for å sikre at du og kollegene dine alltid har tilgang til de nyeste dokumentene og versjonene. Denne veiledningen viser deg hvordan du gjør begge deler.
 keywords: dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-pilot: yes
 ---
 
 # Opprett nye dokument
@@ -102,13 +101,13 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 > Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img5] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
 
 <!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/dialog-old)
-
-![Opprett dokument fra mal (klassisk) -screenshot][img3]
-
-### [Ny (fra version 10.3.10 pilot)](#tab/dialog-new)
+### [Ny (fra version 10.3.11)](#tab/dialog-new)
 
 ![Opprett dokument fra mal (ny) -screenshot][img4]
+
+### [Klassisk (onsite)](#tab/dialog-old)
+
+![Opprett dokument fra mal (klassisk) -screenshot][img3]
 
 ***
 <!-- markdownlint-restore -->
@@ -149,8 +148,8 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 3. (valgfritt) Marker dokumentet som fullført:
 
-     * Klassisk dialog: Klikk på hakeikonet øverst til høyre i dialogboksen.
-     * Ny (fra versjon 10.3.10 pilot): Velg avmerkingsboksen i footeren.
+     * Ny (fra versjon 10.3.11): Velg avmerkingsboksen i footeren.
+     * Klassisk dialog (onsite): Klikk på hakeikonet øverst til høyre i dialogboksen.
 
 4. [Fyll ut feltene med nødvendig informasjon](#fields).
 

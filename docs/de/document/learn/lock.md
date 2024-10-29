@@ -4,13 +4,12 @@ title: Dokumente ein-/auschecken
 description: Dokumente ein-/auschecken
 keywords: Dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-pilot: yes
 ---
 
 # Dokumente ein-/auschecken
@@ -30,7 +29,15 @@ Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet. Wenn Sie es vor
 ## Woran erkannt man, ob ein Dokument ausgecheckt wurde?
 
 <!-- markdownlint-disable MD051 -->
-### [Klassisch](#tab/lock-old)
+### [Neu (ab Version 10.3.1)](#tab/lock-new)
+
+Im Dialogfeld **Dokument** zeigt ein ausgechecktes Dokument ein Banner mit Informationen darüber, wer das Dokument bearbeitet.
+
+![Symbol][img5] **Sie** bearbeiten dieses Dokument.
+
+![Symbol][img5] Sie können dieses Dokument nicht bearbeiten, da es von **NN** gesperrt ist.
+
+### [Klassisch (onsite)](#tab/lock-old)
 
 Im Dialogfeld **Dokument** ist ein ausgechecktes Dokument mit einem der folgenden Symbole gekennzeichnet:
 
@@ -41,14 +48,6 @@ Im Dialogfeld **Dokument** ist ein ausgechecktes Dokument mit einem der folgende
 Zeigen Sie mit dem Mauszeiger auf ein Symbol, um Informationen über den Benutzer anzuzeigen, der das Dokument ausgecheckt hat.
 
 Wenn Sie versuchen, ein ausgechecktes Dokument zu öffnen, wird ein Dialogfeld mit Informationen über den Benutzer angezeigt, der das Dokument ausgecheckt hat. Sie können das Dokument nur im Lesemodus öffnen.
-
-### [Neu (ab Version 10.3.10 pilot)](#tab/lock-new)
-
-Im Dialogfeld **Dokument** zeigt ein ausgechecktes Dokument ein Banner mit Informationen darüber, wer das Dokument bearbeitet.
-
-![Symbol][img5] **Sie** bearbeiten dieses Dokument.
-
-![Symbol][img5] Sie können dieses Dokument nicht bearbeiten, da es von **NN** gesperrt ist.
 
 ***
 <!-- markdownlint-restore -->

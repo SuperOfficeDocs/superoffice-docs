@@ -10,7 +10,6 @@ topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
-pilot: yes
 ---
 
 # Arbeta med dokument ![ikon][img1]

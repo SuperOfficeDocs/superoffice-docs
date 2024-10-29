@@ -4,13 +4,12 @@ title: Documenten aan/afmelden
 description: Documenten aan/afmelden
 keywords: document
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-pilot: yes
 ---
 
 # Documenten aan/afmelden
@@ -30,7 +29,15 @@ Een document wordt standaard in de bewerkingsmodus geopend. Als u liever de lees
 ## Hoe weet ik wanneer een document is afgemeld?
 
 <!-- markdownlint-disable MD051 -->
-### [Klassiek](#tab/lock-old)
+### [Nieuw (vanaf versie 10.3.11)](#tab/lock-new)
+
+In het dialoogvenster **Document** toont een afgemeld document een banner die aangeeft wie het bewerkt.
+
+![pictogram][img5] **Jij** bewerkt dit document.
+
+![pictogram][img5] Je kunt dit document niet bewerken omdat het is vergrendeld door **NN**.
+
+### [Klassiek (onsite)](#tab/lock-old)
 
 In het dialoogvenster **Document** heeft een afgemeld document een van de volgende pictogrammen:
 
@@ -41,14 +48,6 @@ In het dialoogvenster **Document** heeft een afgemeld document een van de volgen
 Houd de muisaanwijzer op een pictogram om informatie over de gebruiker weer te geven die het document heeft afgemeld.
 
 Als u probeert een afgemeld document te openen, wordt er een dialoogvenster weergegeven met informatie over de persoon die het document heeft afgemeld. U kunt het document alleen in leesmodus openen.
-
-### [Nieuw (vanaf versie 10.3.10 pilot)](#tab/lock-new)
-
-In het dialoogvenster **Document** toont een afgemeld document een banner die aangeeft wie het bewerkt.
-
-![pictogram][img5] **Jij** bewerkt dit document.
-
-![pictogram][img5] Je kunt dit document niet bewerken omdat het is vergrendeld door **NN**.
 
 ***
 <!-- markdownlint-restore -->

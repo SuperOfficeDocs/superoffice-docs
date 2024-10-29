@@ -10,7 +10,6 @@ topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-pilot: yes
 ---
 
 # Documenten bewerken

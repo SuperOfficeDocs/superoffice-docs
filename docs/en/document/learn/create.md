@@ -4,13 +4,12 @@ title: Create new document
 description: Create a new document directly in SuperOffice CRM or upload existing ones, to make sure you and your colleagues always have access to the latest documents and versions. This how-to guide will show you how to do both.
 keywords: document, SharePoint, create document, upload document, online text-editing
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-pilot: yes
 ---
 
 # Create new document
@@ -90,7 +89,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 8. Click the link to upload the document or drag and drop the document from Windows Explorer to the **Document** dialog.
 
-    <!-- TODO: retake screenshot when GA -->
+    <!-- TODO: retake screenshot when GA. Update: postpone to new UX -->
     ![Create a new document -screenshot][img2]
 
 9. Close the **Document** dialog by clicking **Save**.
@@ -103,13 +102,13 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 > Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
 
 <!-- markdownlint-disable MD051 -->
-### [Classic](#tab/dialog-old)
-
-![Create document from template (classic) -screenshot][img3]
-
-### [New (from version 10.3.10 pilot)](#tab/dialog-new)
+### [New (from version 10.3.11)](#tab/dialog-new)
 
 ![Create document from template (new) -screenshot][img4]
+
+### [Classic (onsite)](#tab/dialog-old)
+
+![Create document from template (classic) -screenshot][img3]
 
 ***
 <!-- markdownlint-restore -->
@@ -150,8 +149,8 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 3. (optional) Mark the document as completed:
 
-    * Classic dialog: Click the checkmark icon at the top-right of the dialog.
-    * New (from version 10.3.10 pilot): Select the checkbox in the footer.
+    * New (from version 10.3.11): Select the checkbox in the footer.
+    * Classic dialog (onsite): Click the checkmark icon at the top-right of the dialog.
 
 4. [Complete the fields with the required information](#fields).
 
