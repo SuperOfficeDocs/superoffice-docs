@@ -2,9 +2,10 @@
 uid: help-en-document-external
 title: Work with external documents
 description: Work with external documents and files
-author: Kirsti Aakerholt
-date: 07.05.2023
 keywords: request, document, external, file, knowledge base
+author: Kirsti Aakerholt, Bergfrid Dias
+date: 10.29.2023
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -53,6 +54,9 @@ For example, when [answering requests][1], you can enter text in the **Message**
 1. Click **Save**. If the file type can be edited in the browser, the **Contents** field is populated.
 
 1. Click **OK**. The file is added to the specified folder.
+
+> [!NOTE]
+> Certain file types are blocked by default from being uploaded as external documents in Service. If you need to allow uploads of any of these types, such as **js**, an administrator can update the [**unsafe file types** system preference][9] in Settings and maintenance.
 
 ## Edit file content
 
@@ -117,6 +121,7 @@ When you delete a folder, all the files in it are also deleted from SuperOffice.
 
 <!-- Referenced links -->
 [1]: howto/reply.md
+[9]: ../../../../release-notes/10.3/service/10.3.11-update.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/archive-icon.png

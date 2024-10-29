@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
 keywords: Service, request
 author: SuperOffice AS – Research and Development
-date: 08.27.2024
+date: 10.29.2024
 version: 10.3
 topic: reference
 audience: person
@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
+* [System preference - Unsafe file types (10.3.11)][11]
 * [Request type - Reply/forwarding settings (10.3.8)][8]
 * [Requests - Get next in queue including own open requests (10.3.8)][8]
 * [Request - Send comment to email recipients (10.3.6)][6]
@@ -23,7 +24,6 @@ audience_tooltip: SuperOffice Service
 * [Show SAINT status monitor on Requests screen (10.3.1)][1]
 * [System design - show extrafield in Request Properties sidebar (10.3.1)][12]
 * [Dashboard - Request tiles (10.3.1)][13]
-* [System Preference - Unsafe File Types (10.3.11)][14]
 
 <!-- Referenced links-->
 [1]: 10.3.1-update.md
@@ -32,6 +32,6 @@ audience_tooltip: SuperOffice Service
 [5]: 10.3.5-update.md
 [6]: 10.3.6-update.md
 [8]: 10.3.8-update.md
+[11]: 10.3.11-update.md
 [12]: ../admin/10.3.1-update.md
 [13]: ../core-crm/10.3.1-update.md
-[14]: 10.3.11-update.md

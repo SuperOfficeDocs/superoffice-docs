@@ -2,9 +2,11 @@
 uid: help-nl-document-external
 title: Werken met externe documenten
 description: Werken met externe documenten
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: verzoek, document
+author: Bergfrid Dias
+author: Kirsti Aakerholt, Bergfrid Dias
+date: 10.29.2023
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -53,6 +55,9 @@ Dit is bijvoorbeeld van toepassing wanneer u via het tabblad **Bericht**[verzoek
 1. Klik op **Opslaan**. Als het type document kan worden bewerkt in de browser, wordt het veld **Inhoud** gevuld met de inhoud van het document.
 
 1. Klik op **OK**. Het document wordt toegevoegd aan de opgegeven map.
+
+> [!NOTE]
+> Bepaalde bestandstypen zijn standaard geblokkeerd voor uploaden als externe documenten in Service. Als je de upload van een van deze typen, zoals **js**, wilt toestaan, kan een beheerder de [systeeminstelling **onveilige bestandstypen**][9] bijwerken in Instellingen en onderhoud.
 
 ## Documentinhoud bewerken
 
@@ -117,6 +122,7 @@ Wanneer u een map verwijdert, worden ook alle documenten in die map verwijderd u
 
 <!-- Referenced links -->
 [1]: howto/reply.md
+[9]: ../../../../release-notes/10.3/service/10.3.11-update.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/archive-icon.png

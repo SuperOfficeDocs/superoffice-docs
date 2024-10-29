@@ -2,9 +2,11 @@
 uid: help-de-document-external
 title: Mit externen Dokumenten arbeiten
 description: Mit externen Dokumenten arbeiten
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: Anfrage, Dokument
+author: Bergfrid Dias
+author: Kirsti Aakerholt, Bergfrid Dias
+date: 10.29.2023
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -53,6 +55,9 @@ Dies ist beispielsweise der Fall, wenn Sie die Registerkarte **Mitteilung** bei 
 1. Klicken Sie auf **Speichern**. Wenn der Dokumenttyp im Browser bearbeitet werden kann, wird das Feld **Inhalt** mit dem Inhalt des Dokuments gefüllt.
 
 1. Klicken Sie auf **OK**. Das Dokument wird dem festgelegten Ordner hinzugefügt.
+
+> [!NOTE]
+> Bestimmte Dateitypen sind standardmäßig blockiert und können nicht als externe Dokumente in Service hochgeladen werden. Wenn Sie das Hochladen dieser Dateitypen, wie z. B. **js**, erlauben müssen, kann ein Administrator [die Systemeinstellung **unsichere Dateitypen**][9] in Einstellungen und Verwaltung anpassen.
 
 ## Den Inhalt des Dokuments bearbeiten
 
@@ -117,6 +122,7 @@ Wenn Sie einen Ordner löschen, werden auch alle darin enthaltenen Dokumente aus
 
 <!-- Referenced links -->
 [1]: howto/reply.md
+[9]: ../../../../release-notes/10.3/service/10.3.11-update.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/archive-icon.png

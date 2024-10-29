@@ -2,9 +2,10 @@
 uid: help-da-document-external
 title: Arbejde med eksterne dokumenter
 description: Arbejde med eksterne dokumenter
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: sag, dokument
+author: Bergfrid Dias
+date: 10.29.2023
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -53,6 +54,9 @@ Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sag
 1. Klik på **Gem**. Hvis dokumenttypen kan redigeres i browseren, udfyldes feltet **Indhold** med dokumentets indhold.
 
 1. Klik på **OK**. Dokumentet tilføjes i den angivne mappe.
+
+> [!NOTE]
+> Visse filtyper er som standard blokeret fra at blive uploadet som eksterne dokumenter i Service. Hvis du har brug for at tillade upload af nogle af disse typer, såsom **js**, kan en administrator opdatere [systempræferencen **usikre filtyper**][9] i Indstillinger og vedligeholdelse.
 
 ## Redigering af dokumentindhold
 
@@ -117,6 +121,7 @@ Når du sletter en mappe, slettes alle dokumenterne i den også fra SuperOffice.
 
 <!-- Referenced links -->
 [1]: howto/reply.md
+[9]: ../../../../release-notes/10.3/service/10.3.11-update.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/archive-icon.png
