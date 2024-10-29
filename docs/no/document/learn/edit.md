@@ -10,7 +10,6 @@ topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-pilot: yes
 ---
 
 # Redigere dokument

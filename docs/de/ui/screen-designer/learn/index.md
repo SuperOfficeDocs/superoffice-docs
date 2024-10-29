@@ -4,8 +4,8 @@ title: Ansichtsdesigner
 description: In dieser Anleitung lernen Sie, wie Sie Ihre Karten/Ansichten konfigurieren.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, anpassen
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -61,7 +61,7 @@ Sie können die folgenden Ansichte und Dialoge anpassen:
 * Projekt
 * Anfrage
 * Folgeaufgabedialog
-* Dokumentdialog (Pilot)
+* Dokumentdialog
 
 ## Wie funktionieren Layouts?
 

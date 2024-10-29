@@ -4,8 +4,8 @@ title: Referentie
 description: Referentie van elementen beschikbaar in de Schermontwerper in Instellingen en onderhoud.
 keywords: Schermontwerper, opmaak, veld, standaardveld, tabblad, standaardtabblad
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -274,7 +274,7 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][7].
 * Links
 * Meer
 
-## Document (in pilot vanaf versie 10.3.10)
+## Document
 
 **Standaardvelden:**
 

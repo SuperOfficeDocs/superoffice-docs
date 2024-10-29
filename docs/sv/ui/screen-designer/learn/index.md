@@ -4,8 +4,8 @@ title: Skärmdesigner
 description: Lär dig hur du konfigurerar skärmar i den här guiden.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält
 author: Bergfrid
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -55,7 +55,7 @@ Du kan anpassa följande skärmar och dialoger:
 * Projekt
 * Ärende
 * Händelsesdialog
-* Dokumentdialog (pilot)
+* Dokumentdialog
 
 ## Hur fungerar layouter?
 

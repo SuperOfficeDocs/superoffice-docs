@@ -4,8 +4,8 @@ title: Referanse
 description: Oversikt over felt tilgjengelig i Skjermdesigneren i Innstillinger of vedlikeholde.
 keywords: Skjermdesigner, felt, standardfelt, fane, standardfane
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -274,7 +274,7 @@ For detaljer om verdien av hvert felt, se [databasereferansen][7].
 * Koblinger
 * Mer
 
-## Dokument (i pilot fra versjon 10.3.10)
+## Dokument
 
 **Standardfelt:**
 

@@ -4,8 +4,8 @@ title: Schermontwerper
 description: Kom te weten hoe u uw kaarten configureert in deze gids.
 keywords: Schermontwerper, interface, opmaak, lay-out, aanpassen
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -61,7 +61,7 @@ U kunt de volgende schermen en dialoogvensters aanpassen:
 * Project
 * Verzoek
 * Vervolgactiviteitdialoog
-* Documentdialoog (pilot)
+* Documentdialoog
 
 ## Hoe werken opmaken?
 

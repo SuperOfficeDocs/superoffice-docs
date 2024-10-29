@@ -1,15 +1,15 @@
 ---
 uid: help-no-document-dialog
-title: Dialogboks for dokument
+title: Dialogboks for dokument (onsite)
 description: Dialogboks for dokument
 author: SuperOffice RnD
-date: 08.27.2024
+date: 10.29.2024
 keywords: dokument
 topic: concept
 language: no
 ---
 
-# Dialogboksen Dokument
+# Dialogboksen Dokument (onsite)
 
 Sentralt i dokumentfunksjonen står dialogboksen **Dokument**, som du kan åpne på forskjellige måter:
 
@@ -23,7 +23,7 @@ Dialogboksen består av en hovedseksjon med generell informasjon om dokumentet, 
 * Mer
 
 > [!NOTE]
-> Beskrivelsene på denne siden gjelder den klassiske Dokumentdialogen. Hvis du bruker pilotversjonen av den nye Dokumentdialogen, se [seksjonen Felt][6] i veiledningen for forklaring av dialoger og felter.
+> Beskrivelsene på denne siden gjelder den klassiske Dokumentdialogen (onsite). Hvis du bruker SuperOffice CRM Online, se [seksjonen Felt][6] i veiledningen for forklaring av dialoger og felter.
 
 ## Hovedseksjon
 

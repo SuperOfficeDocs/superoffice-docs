@@ -4,8 +4,8 @@ title: Assign layout to group, type, or template
 description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
 keywords: Screen designer, assign layout, layout
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,7 +29,7 @@ language: en
     * Project: user group or project type
     * Request: user group or request type
     * Follow-up: user group or follow-up type
-    * Document: user group or document template (pilot)
+    * Document: user group or document template
 
 1. Select a layout in the list on the left side.
 

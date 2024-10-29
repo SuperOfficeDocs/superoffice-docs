@@ -4,8 +4,8 @@ title: Tilldela layout till grupp, typ eller mall
 description: Hur du tilldelar en layout till en grupp, säljtyp, projekttyp eller ärendetyp med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält, tilldela layout
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,7 +29,7 @@ language: sv
     * Projekt: användargrupp eller projekttyp
     * Ärende: användargrupp eller ärendetyp
     * Händelse: användargrupp eller händelsestyp
-    * Dokument: användargrupp eller dokumentmall (pilot)
+    * Dokument: användargrupp eller dokumentmall
 
 1. Välj en layout i listan till vänster.
 

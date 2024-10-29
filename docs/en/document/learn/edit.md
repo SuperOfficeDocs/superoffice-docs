@@ -10,7 +10,6 @@ topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-pilot: yes
 ---
 
 # Edit documents

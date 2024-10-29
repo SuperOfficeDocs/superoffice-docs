@@ -4,13 +4,12 @@ title: Skapa ett nytt dokument
 description: Skapa ett nytt dokument direkt i SuperOffice CRM eller ladda upp befintliga dokument så att du och dina kollegor alltid har tillgång till de senaste dokumenten och versionerna. Den här guiden visar hur du gör båda.
 keywords: dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tootip: SuperOffice CRM
 language: sv
-pilot: yes
 ---
 
 # Skapa nya dokument
@@ -102,13 +101,13 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 > Många fält har en lista med fördefinierade värden att välja från. Klicka på pilen ![icon][img5] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, till exempel ett företagsnamn.
 
 <!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/dialog-old)
-
-![Skapa dokument från mall (klassisk) -screenshot][img3]
-
-### [Ny (från version 10.3.10 pilot)](#tab/dialog-new)
+### [Ny (från version 10.3.11)](#tab/dialog-new)
 
 ![Skapa dokument från mall (ny) -screenshot][img4]
+
+### [Klassisk (onsite)](#tab/dialog-old)
+
+![Skapa dokument från mall (klassisk) -screenshot][img3]
 
 ***
 <!-- markdownlint-restore -->
@@ -149,8 +148,8 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 3. (valfritt) Markera dokumentet som slutfört:
 
-    * Klassisk dialog: Klicka på bockikonen uppe till höger i dialogrutan.
-    * Ny (från version 10.3.10 pilot): Välj kryssrutan i sidfoten.
+    * Ny (från version 10.3.11): Välj kryssrutan i sidfoten.
+    * Klassisk dialog (onsite): Klicka på bockikonen uppe till höger i dialogrutan.
 
 4. [Ange den information som behövs i fälten](#fields).
 

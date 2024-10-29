@@ -4,13 +4,12 @@ title: Neues Dokument erstellen
 description: "Erstellen Sie ein neues Dokument direkt in SuperOffice CRM oder laden Sie ein bestehendes hoch, um sicherzustellen, dass Sie und Ihre Kollegen immer Zugriff auf die neuesten Dokumente und Versionen haben. Diese Anleitung zeigt Ihnen, wie Sie beides machen können."
 keywords: Dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-pilot: yes
 ---
 
 # Neue Dokumente erstellen
@@ -102,13 +101,13 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 > Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![icon][img5], um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
 
 <!-- markdownlint-disable MD051 -->
-### [Klassisch](#tab/dialog-old)
-
-![Dokument aus Vorlage erstellen (klassisch) -screenshot][img3]
-
-### [Neu (ab Version 10.3.10 pilot)](#tab/dialog-new)
+### [Neu (ab Version 10.3.11)](#tab/dialog-new)
 
 ![Dokument aus Vorlage erstellen (neu) -screenshot][img4]
+
+### [Klassisch (onsite)](#tab/dialog-old)
+
+![Dokument aus Vorlage erstellen (klassisch) -screenshot][img3]
 
 ***
 <!-- markdownlint-restore -->
@@ -149,8 +148,8 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 3. (Optional) Markieren Sie das Dokument als abgeschlossen:
 
-    * Klassischer Dialog: Klicken Sie auf das Häkchensymbol oben rechts im Dialog.
-    * Neu (ab Version 10.3.10 pilot): Wählen Sie das Kontrollkästchen in der Fußzeile aus.
+    * Neu (ab Version 10.3.11): Wählen Sie das Kontrollkästchen in der Fußzeile aus.
+    * Klassischer Dialog (onsite): Klicken Sie auf das Häkchensymbol oben rechts im Dialog.
 
 4. [Geben Sie die erforderlichen Informationen in die betreffenden Felder ein](#fields).
 

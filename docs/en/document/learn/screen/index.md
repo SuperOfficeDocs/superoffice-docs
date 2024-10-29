@@ -1,16 +1,16 @@
 ---
 uid: help-en-document-dialog
-title: Document dialog
+title: Document dialog (onsite)
 description: Document dialog
 author: SuperOffice RnD
-date: 08.12.2024
+date: 10.29.2024
 keywords: document
 topic: concept
 language: en
 ---
 
-<!-- Legacy - page will be removed after pilot -->
-# The Document dialog
+<!-- Legacy - page will be removed soon -->
+# The Document dialog (onsite)
 
 The central feature of the document function is the **Document** dialog, which you can open in different ways:
 
@@ -24,7 +24,7 @@ The dialog consists of a main section with general information about the documen
 * More
 
 > [!NOTE]
-> The descriptions on this page pertain to the **classic** Document dialog. If you use the pilot version of the new **Document** dialog, see the [Fields section][6] in the how-to for explanation of dialogs and fields.
+> The descriptions on this page pertain to the **classic** Document dialog (onsite). If you use SuperOffice CRM Online, see the [Fields section][6] in the how-to for explanation of dialogs and fields.
 
 ## Main section
 

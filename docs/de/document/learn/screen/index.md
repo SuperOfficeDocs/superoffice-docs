@@ -1,15 +1,15 @@
 ---
 uid: help-de-document-dialog
-title: "Dialogfeld Dokument"
-description: "Dialogfeld Dokument"
+title: Dialogfeld Dokument (onsite)
+description: Dialogfeld Dokument
 author: SuperOffice RnD
-date: 08.27.2024
+date: 10.29.2024
 keywords: Dokument
 topic: concept
 language: de
 ---
 
-# Dialogfeld Dokument
+# Dialogfeld Dokument (onsite)
 
 Ein zentraler Bestandteil der Dokumentfunktion ist das Dialogfeld **Dokument**, das Sie auf unterschiedliche Weise öffnen können:
 
@@ -23,7 +23,7 @@ Das Dialogfeld besteht aus einer Hauptkomponente mit allgemeinen Informationen �
 * Mehr
 
 > [!NOTE]
-> Die Beschreibungen auf dieser Seite beziehen sich auf den klassischen Dokumentdialog. Wenn Sie die Pilotversion des neuen Dokument-Dialogs verwenden, sehen Sie im [Abschnitt Felder][6] in der Anleitung zur Erklärung von Dialogen und Feldern nach.
+> Die Beschreibungen auf dieser Seite beziehen sich auf den klassischen Dokumentdialog (onsite). Wenn Sie SuperOffice CRM Online verwenden, sehen Sie im [Abschnitt Felder][6] in der Anleitung zur Erklärung von Dialogen und Feldern nach.
 
 ## Hauptkomponenten
 

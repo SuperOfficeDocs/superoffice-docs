@@ -4,8 +4,8 @@ title: Skærmdesigner
 description: Få mere at vide om, hvordan du konfigurerer dine skærmbilleder i denne vejledning.
 keywords: Skærmdesigner, layout, skærmbillede, tilpasningsmulighed
 author: Bergfrid Dias
-date: 10.07.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -61,7 +61,7 @@ Du kan tilpasse følgende skærme og dialoger:
 * Projekt
 * Sag
 * Opfølgningsdialog
-* Dokumentdialog (pilot)
+* Dokumentdialog
 
 ## Hvordan fungerer layouts?
 

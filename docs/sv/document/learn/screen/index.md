@@ -1,15 +1,15 @@
 ---
 uid: help-sv-document-dialog
-title: Dialogrutan Dokument
+title: Dialogrutan Dokument (onsite)
 description: Dialogrutan Dokument
 author: SuperOffice RnD
-date: 08.27.2024
+date: 10.29.2024
 keywords: dokument
 topic: concept
 language: sv
 ---
 
-# Dialogrutan Dokument
+# Dialogrutan Dokument (onsite)
 
 Många dokumentfunktioner hanteras via dialogrutan **Dokument**, som du kan öppna på flera olika sätt:
 
@@ -23,7 +23,7 @@ Dialogrutan består av en huvuddel med allmän information om dokumentet samt f�
 * Mer
 
 > [!NOTE]
-> Beskrivningarna på den här sidan avser den klassiska Dokumentdialogen. Om du använder pilotversionen av den nya Dokumentdialogen, se [Fältsektionen][6] i instruktionen för förklaring av dialoger och fält.
+> Beskrivningarna på den här sidan avser den klassiska Dokumentdialogen (onsite). Om du använder SuperOffice CRM Online, se [Fältsektionen][6] i instruktionen för förklaring av dialoger och fält.
 
 ## Huvuddel
 

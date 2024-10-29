@@ -4,13 +4,12 @@ title: Checka in/ut dokument
 description: Checka in/ut dokument
 keywords: dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
-pilot: yes
 ---
 
 # Checka in/ut dokument
@@ -30,7 +29,16 @@ Som standard öppnas ett dokument i redigeringsläge. Om du föredrar att välja
 ## Hur vet jag när ett dokument är utcheckat?
 
 <!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/lock-old)
+
+### [Ny (från version 10.3.11)](#tab/lock-new)
+
+I dialogrutan **Dokument** visar ett utcheckat dokument en banner som visar vem som redigerar det.
+
+![ikon][img5] **Du** redigerar det här dokumentet.
+
+![ikon][img5] Du kan inte redigera det här dokumentet eftersom det är låst av **NN**.
+
+### [Klassisk (onsite)](#tab/lock-old)
 
 I dialogrutan **Dokument** har ett utcheckat dokument någon av följande ikoner:
 
@@ -41,14 +49,6 @@ I dialogrutan **Dokument** har ett utcheckat dokument någon av följande ikoner
 Håll muspekaren över en ikon för att visa information om användaren som har checkat ut dokumentet.
 
 Om du försöker öppna ett utcheckat dokument visas en dialogruta med information om vem som har checkat ut dokumentet. Du kan bara öppna dokumentet i läsläge.
-
-### [Ny (från version 10.3.10 pilot)](#tab/lock-new)
-
-I dialogrutan **Dokument** visar ett utcheckat dokument en banner som visar vem som redigerar det.
-
-![ikon][img5] **Du** redigerar det här dokumentet.
-
-![ikon][img5] Du kan inte redigera det här dokumentet eftersom det är låst av **NN**.
 
 ***
 <!-- markdownlint-restore -->

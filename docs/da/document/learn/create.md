@@ -4,13 +4,12 @@ title: Opret nyt dokument
 description: "Opret et nyt dokument direkte i SuperOffice CRM eller upload eksisterende, så du og dine kolleger altid har adgang til de nyeste dokumenter og versioner. Denne vejledning viser dig, hvordan du gør begge dele."
 keywords: dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 10.29.2024
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
-pilot: yes
 ---
 
 # Oprettelse af nye dokumenter
@@ -102,13 +101,13 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 > Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på pilen ![icon][img5] for at udvide listen. Vælg derefter en værdi for det pågældende felt. Alternativt kan du begynde at skrive i feltet for at søge efter en bestemt værdi, f.eks. et firmanavn.
 
 <!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/dialog-old)
-
-![Opret dokument fra skabelon (klassisk) -screenshot][img3]
-
-### [Ny (fra version 10.3.10 pilot)](#tab/dialog-new)
+### [Ny (fra version 10.3.11)](#tab/dialog-new)
 
 ![Opret dokument fra skabelon (ny) -screenshot][img4]
+
+### [Klassisk (onsite)](#tab/dialog-old)
+
+![Opret dokument fra skabelon (klassisk) -screenshot][img3]
 
 ***
 <!-- markdownlint-restore -->
@@ -149,8 +148,8 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 3. (valgfrit) Marker dokumentet som udført:
 
-    * Klassisk dialog: Klik på flueben-ikonet øverst til højre i dialogboksen.
-    * Ny (fra version 10.3.10 pilot): Vælg afkrydsningsfeltet i footeren.
+    * Ny (fra version 10.3.11): Vælg afkrydsningsfeltet i footeren.
+    * Klassisk dialog (onsite): Klik på flueben-ikonet øverst til højre i dialogboksen.
 
 4. [Indtast de ønskede oplysninger i felterne][2].
 
