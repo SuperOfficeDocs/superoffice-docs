@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 519,
-  "Name": "Reynolds Group",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 985,
-  "UdListDefinitionId": 597
+  "HeadingId": 752,
+  "Name": "Pagac LLC",
+  "Tooltip": "fuga",
+  "Deleted": false,
+  "Rank": 887,
+  "UdListDefinitionId": 334
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 799,
-  "Name": "Kohler, Trantow and Upton",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 581,
-  "UdListDefinitionId": 874,
+  "HeadingId": 339,
+  "Name": "Ullrich-Gulgowski",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 124,
+  "UdListDefinitionId": 370,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldLength": 409
     }
   }
 }

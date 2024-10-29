@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 624
+  "ShipmentId": 728
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1997-10-11T03:44:52.7614393+02:00",
+  "StartDate": "2019-03-15T13:14:06.1320455+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 429,
-  "ShipmentDescription": "Organized 24/7 support",
-  "FromAddress": "sit",
-  "Configuration": 108,
-  "PersonId": 211,
-  "PersonFullName": "Arnold Selmer Bechtelar Jr.",
-  "ShipmentType": "cumque",
-  "MessageId": 404,
-  "MessageSubject": "modi",
-  "DocumentMessageId": 561,
-  "NumSent": 875,
-  "NumOpened": 759,
-  "NumBounced": 654,
-  "NumClicks": 715,
+  "ShipmentId": 595,
+  "ShipmentDescription": "Multi-channelled composite paradigm",
+  "FromAddress": "iste",
+  "Configuration": 901,
+  "PersonId": 856,
+  "PersonFullName": "Frederik Shanahan",
+  "ShipmentType": "sit",
+  "MessageId": 631,
+  "MessageSubject": "ipsum",
+  "DocumentMessageId": 705,
+  "NumSent": 903,
+  "NumOpened": 471,
+  "NumBounced": 557,
+  "NumClicks": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldLength": 212
     }
   }
 }

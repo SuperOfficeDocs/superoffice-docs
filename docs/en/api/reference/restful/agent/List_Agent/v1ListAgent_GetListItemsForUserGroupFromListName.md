@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Franecki Group",
-  "GroupId": 238
+  "UdListDefinitionName": "Swaniawski Group",
+  "GroupId": 54
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Wisozk, Barton and Lesch",
-    "ToolTip": "Nihil aspernatur autem beatae.",
-    "Deleted": false,
-    "Rank": 714,
-    "Type": "animi",
-    "ColorBlock": 386,
-    "IconHint": "atque",
+    "Id": 691,
+    "Name": "Gislason Group",
+    "ToolTip": "Deleniti unde reprehenderit.",
+    "Deleted": true,
+    "Rank": 137,
+    "Type": "voluptatem",
+    "ColorBlock": 305,
+    "IconHint": "non",
     "Selected": true,
-    "LastChanged": "2013-02-03T03:44:52.6989885+01:00",
+    "LastChanged": "2024-09-21T13:14:06.0851676+02:00",
     "ChildItems": [
       {
-        "Id": 360,
-        "Name": "Corwin, Franecki and Grady",
-        "ToolTip": "Aspernatur iusto.",
+        "Id": 488,
+        "Name": "McKenzie, McKenzie and Trantow",
+        "ToolTip": "Tempora temporibus.",
         "Deleted": false,
-        "Rank": 337,
-        "Type": "eaque",
-        "ColorBlock": 338,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2003-10-25T03:44:52.6989885+02:00",
+        "Rank": 869,
+        "Type": "totam",
+        "ColorBlock": 226,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2015-08-08T13:14:06.0851676+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "rerum",
+        "ExtraInfo": "hic",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Selina Hickle",
+        "FullName": "Miss Kiara Jacobs DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 328
+            "FieldLength": 390
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "nam",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Mr. Velma Walker",
+    "FullName": "Nolan Skiles MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldLength": 807
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Jast-Hills",
-    "ToolTip": "In vero est reiciendis sit.",
+    "Id": 2,
+    "Name": "Harvey LLC",
+    "ToolTip": "Ut deleniti et laudantium maiores dolorum est perferendis.",
     "Deleted": false,
-    "Rank": 561,
-    "Type": "sint",
-    "ColorBlock": 146,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2002-10-07T03:44:57.5000465+02:00",
+    "Rank": 280,
+    "Type": "consequatur",
+    "ColorBlock": 256,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2023-10-02T13:14:10.9610472+02:00",
     "ChildItems": [
       {
-        "Id": 157,
-        "Name": "Weber, Mitchell and Tremblay",
-        "ToolTip": "Et et amet.",
-        "Deleted": true,
-        "Rank": 289,
-        "Type": "ex",
-        "ColorBlock": 74,
-        "IconHint": "sunt",
+        "Id": 644,
+        "Name": "Considine Inc and Sons",
+        "ToolTip": "Tenetur dolorem sit.",
+        "Deleted": false,
+        "Rank": 843,
+        "Type": "id",
+        "ColorBlock": 987,
+        "IconHint": "fugiat",
         "Selected": true,
-        "LastChanged": "2001-09-10T03:44:57.5000465+02:00",
+        "LastChanged": "2008-05-03T13:14:10.9610472+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "magnam",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Osborne Grant",
+        "FullName": "Mrs. Casandra Gutkowski II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 56
+            "FieldType": "System.String",
+            "FieldLength": 407
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ab",
+    "ExtraInfo": "est",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Dr. Isabelle Kavon Fay PhD",
+    "FullName": "Katarina Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 695
       }
     }
   }

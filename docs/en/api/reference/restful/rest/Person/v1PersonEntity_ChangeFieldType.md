@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 366,
-  "ColumnId": 236,
-  "FieldDefault": "omnis",
-  "FieldHeight": 309,
-  "FieldLabel": "esse",
-  "FieldLeft": 93,
-  "FieldTop": 724,
+  "UDefFieldId": 18,
+  "ColumnId": 942,
+  "FieldDefault": "quidem",
+  "FieldHeight": 43,
+  "FieldLabel": "sequi",
+  "FieldLeft": 482,
+  "FieldTop": 670,
   "FieldType": "Checkbox",
-  "FieldWidth": 898,
-  "FormatMask": "placeat",
-  "HideLabel": true,
+  "FieldWidth": 268,
+  "FormatMask": "earum",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 532,
-  "LabelLeft": 175,
-  "LabelTop": 600,
-  "LabelWidth": 93,
-  "LastVersionId": 545,
-  "ListTableId": 188,
+  "LabelHeight": 331,
+  "LabelLeft": 531,
+  "LabelTop": 354,
+  "LabelWidth": 242,
+  "LastVersionId": 928,
+  "ListTableId": 791,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 242,
-  "ProgId": "sunt",
-  "IsReadOnly": true,
-  "ShortLabel": "eveniet",
-  "TabOrder": 330,
-  "TextLength": 213,
-  "Tooltip": "illo",
-  "UdefIdentity": 683,
-  "UDListDefinitionId": 370,
+  "Page1LineNo": 563,
+  "ProgId": "culpa",
+  "IsReadOnly": false,
+  "ShortLabel": "quam",
+  "TabOrder": 955,
+  "TextLength": 850,
+  "Tooltip": "saepe",
+  "UdefIdentity": 12,
+  "UDListDefinitionId": 436,
   "Justification": "Center",
-  "Version": 968,
-  "TemplateVariableName": "Boyer-Hermann",
+  "Version": 29,
+  "TemplateVariableName": "Konopelski-Hansen",
   "HasBeenPublished": false,
-  "MdoListName": "Bergnaum, Bailey and Lubowitz",
+  "MdoListName": "Dooley Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 61
     }
   }
 }

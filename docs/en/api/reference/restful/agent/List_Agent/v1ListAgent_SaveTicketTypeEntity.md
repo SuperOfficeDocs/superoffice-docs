@@ -103,34 +103,34 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 273,
-  "Name": "Flatley, Rath and Mann",
-  "Rank": 31,
-  "Tooltip": "consequuntur",
-  "Icon": "qui",
-  "DefaultTicketStatus": 731,
+  "TicketTypeId": 614,
+  "Name": "Grimes, Dare and Price",
+  "Rank": 374,
+  "Tooltip": "accusamus",
+  "Icon": "maiores",
+  "DefaultTicketStatus": 885,
   "TicketStatuses": [
-    135,
-    342
+    657,
+    917
   ],
-  "DefaultTicketPriority": 540,
+  "DefaultTicketPriority": 284,
   "TicketPriorities": [
-    460,
-    715
+    536,
+    648
   ],
-  "ReplyTemplate": 888,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 338,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    55,
-    783
+    183,
+    482
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -141,40 +141,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 282,
-  "Name": "Larkin, Dare and Christiansen",
-  "Rank": 252,
-  "Tooltip": "nemo",
-  "Icon": "repellendus",
-  "DefaultTicketStatus": 64,
+  "TicketTypeId": 515,
+  "Name": "Lindgren Group",
+  "Rank": 43,
+  "Tooltip": "ducimus",
+  "Icon": "accusamus",
+  "DefaultTicketStatus": 58,
   "TicketStatuses": [
-    615,
-    237
+    138,
+    231
   ],
-  "DefaultTicketPriority": 673,
+  "DefaultTicketPriority": 4,
   "TicketPriorities": [
-    1002,
-    542
+    929,
+    925
   ],
-  "ReplyTemplate": 874,
+  "ReplyTemplate": 171,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    968,
-    222
+    417,
+    676
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

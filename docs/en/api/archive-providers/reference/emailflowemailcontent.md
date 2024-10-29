@@ -45,6 +45,7 @@ Lists all email flow message content
 |emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -97,6 +98,7 @@ Lists all email flow message content
 |shipment/emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |shipment/emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |shipment/emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|shipment/emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |shipment/emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |shipment/emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |shipment/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -120,12 +122,12 @@ Lists all email flow message content
 |shipment/emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |shipment/emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |shipment/emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
-|shipment/emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
-|shipment/emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
+|shipment/emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
 |shipment/emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
 |shipment/emailFlow/workflowAssociate/assocName|associate|Owner - User ID: User ID| x |
 |shipment/emailFlow/workflowAssociate/assocTooltip|string|Owner - Description: Description|  |
@@ -224,12 +226,12 @@ Lists all email flow message content
 |shipment/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |shipment/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |shipment/project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
-|shipment/project/NumberOfActivities|int|Number of activities|  |
-|shipment/project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/NumberOfActivities|int|Number of activities|  |
+|shipment/project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |shipment/project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |shipment/project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |shipment/project/LastActivity|date|Date of last activity|  |
@@ -256,7 +258,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowAssociate/title,shipment/emailFlow/workflowDefinitionStatus,shipment/emailFlow/workflowAssociate/isActiveText
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowDefinitionStatus,shipment/emailFlow/workflowAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

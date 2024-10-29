@@ -83,23 +83,23 @@ OK
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "alias",
-      "PersonId": 607,
-      "AssociateId": 789,
-      "ExtraId": 219,
-      "ExtraInfo": "est",
-      "Height": 858,
-      "LeftX": 104,
+      "OwnerWindow": "facilis",
+      "PersonId": 738,
+      "AssociateId": 567,
+      "ExtraId": 355,
+      "ExtraInfo": "aperiam",
+      "Height": 15,
+      "LeftX": 326,
       "State": "Maximized",
-      "UpperY": 524,
-      "Width": 356,
-      "WindowPosSizeId": 146
+      "UpperY": 764,
+      "Width": 373,
+      "WindowPosSizeId": 465
     }
   ]
 }
@@ -113,23 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "occaecati",
-    "PersonId": 166,
-    "AssociateId": 826,
-    "ExtraId": 757,
-    "ExtraInfo": "nobis",
-    "Height": 601,
-    "LeftX": 701,
+    "OwnerWindow": "qui",
+    "PersonId": 258,
+    "AssociateId": 123,
+    "ExtraId": 586,
+    "ExtraInfo": "aut",
+    "Height": 681,
+    "LeftX": 650,
     "State": "Maximized",
-    "UpperY": 356,
-    "Width": 26,
-    "WindowPosSizeId": 939,
+    "UpperY": 932,
+    "Width": 960,
+    "WindowPosSizeId": 695,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldType": "System.Int32",
+        "FieldLength": 780
       }
     }
   }

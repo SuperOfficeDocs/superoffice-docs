@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=molestias
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=necessitatibus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Cole Inc and Sons",
-    "ToolTip": "Inventore id maiores et quis quis distinctio aut.",
+    "Id": 477,
+    "Name": "Kerluke-Simonis",
+    "ToolTip": "Amet dolorem ut.",
     "Deleted": false,
-    "Rank": 308,
-    "Type": "ipsum",
+    "Rank": 188,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Franecki-Klein",
-        "ToolTip": "Qui aperiam officiis maxime.",
-        "Deleted": false,
-        "Rank": 470,
-        "Type": "vitae",
+        "Id": 40,
+        "Name": "Medhurst-Skiles",
+        "ToolTip": "Et omnis non doloremque veritatis.",
+        "Deleted": true,
+        "Rank": 688,
+        "Type": "dolorem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eaque",
-        "ColorBlock": 257,
-        "ExtraInfo": "dolor",
-        "StyleHint": "aperiam",
-        "FullName": "Mr. Pamela Susan Kihn",
+        "IconHint": "unde",
+        "ColorBlock": 240,
+        "ExtraInfo": "ipsa",
+        "StyleHint": "enim",
+        "FullName": "Ms. Jon Nicholas Wisoky IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 972
+            "FieldType": "System.Int32",
+            "FieldLength": 274
           }
         }
       }
     ],
-    "IconHint": "assumenda",
-    "ColorBlock": 464,
-    "ExtraInfo": "laborum",
-    "StyleHint": "quam",
-    "FullName": "Lelah Hodkiewicz III",
+    "IconHint": "nam",
+    "ColorBlock": 306,
+    "ExtraInfo": "ea",
+    "StyleHint": "aspernatur",
+    "FullName": "Miss Alene Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldType": "System.String",
+        "FieldLength": 191
       }
     }
   }

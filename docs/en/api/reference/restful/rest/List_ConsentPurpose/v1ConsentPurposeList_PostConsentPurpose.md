@@ -93,18 +93,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 633,
-  "Name": "Adams-Stiedemann",
-  "ConsentText": "dolores",
-  "FormText": "dolores",
-  "Key": "et",
-  "Tooltip": "deleniti",
-  "Active": 840,
-  "UpdatedDate": "2019-09-26T03:44:57.9374899+02:00",
+  "ConsentPurposeId": 689,
+  "Name": "Braun, Lubowitz and Corwin",
+  "ConsentText": "incidunt",
+  "FormText": "a",
+  "Key": "velit",
+  "Tooltip": "laudantium",
+  "Active": 444,
+  "UpdatedDate": "2003-11-05T13:14:11.3360694+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 100,
-  "PrivacyStatementDesc": "dolorem",
+  "Deleted": true,
+  "Rank": 488,
+  "PrivacyStatementDesc": "fugit",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 183,
-  "Name": "Weimann, Torphy and Hudson",
-  "ConsentText": "dolores",
-  "FormText": "atque",
-  "Key": "eum",
-  "Tooltip": "itaque",
-  "Active": 724,
-  "UpdatedDate": "2009-03-24T03:44:57.9374899+01:00",
+  "ConsentPurposeId": 550,
+  "Name": "Kautzer, Hane and Grady",
+  "ConsentText": "eaque",
+  "FormText": "dolorem",
+  "Key": "asperiores",
+  "Tooltip": "culpa",
+  "Active": 197,
+  "UpdatedDate": "2010-02-26T13:14:11.3360694+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 250,
-  "PrivacyStatementDesc": "id",
+  "Rank": 762,
+  "PrivacyStatementDesc": "est",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   }
 }

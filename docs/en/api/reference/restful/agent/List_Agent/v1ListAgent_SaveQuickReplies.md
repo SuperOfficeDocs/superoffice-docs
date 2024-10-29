@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 452,
-      "Name": "Ortiz, Stroman and Walker",
-      "HtmlBody": "eum"
+      "QuickReplyId": 359,
+      "Name": "Farrell, Erdman and Koch",
+      "HtmlBody": "sint"
     },
     {
-      "QuickReplyId": 452,
-      "Name": "Ortiz, Stroman and Walker",
-      "HtmlBody": "eum"
+      "QuickReplyId": 359,
+      "Name": "Farrell, Erdman and Koch",
+      "HtmlBody": "sint"
     }
   ]
 }

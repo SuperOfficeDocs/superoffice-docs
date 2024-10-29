@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "ophelia.howell@hamill.biz",
-  "Counts": 709,
-  "Code": 809,
+  "EmailAddress": "carlos@gislason.uk",
+  "Counts": 789,
+  "Code": 602,
   "Reason": ""
 }
 ```

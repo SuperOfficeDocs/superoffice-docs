@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 677,
-  "Name": "Steuber, Nicolas and Bradtke",
-  "Tooltip": "voluptatum",
-  "Rank": 859,
+  "SaleTypeId": 44,
+  "Name": "Pfeffer LLC",
+  "Tooltip": "iusto",
+  "Rank": 567,
   "DurationUnit": "Century",
-  "SaleDuration": 215,
-  "SaleTypeCatId": 231,
+  "SaleDuration": 630,
+  "SaleTypeCatId": 538,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 246,
-  "QuoteLinesTemplate": 558,
-  "ConfirmationLinesTemplate": 47,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 175,
+  "QuoteLinesTemplate": 786,
+  "ConfirmationLinesTemplate": 574,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 257,
-  "MinEarningPercent": 360,
-  "GroupQuoteLinesBy": 870,
-  "SortGroupLinesBy": 845,
+  "MaxDiscountPercent": 695,
+  "MinEarningPercent": 729,
+  "GroupQuoteLinesBy": 944,
+  "SortGroupLinesBy": 177,
   "Stages": [
     {
-      "Id": 383,
-      "Name": "Stark-Williamson",
-      "ToolTip": "Sed minima porro maiores ullam et dolor.",
+      "Id": 406,
+      "Name": "Champlin, Bailey and Schuster",
+      "ToolTip": "Et soluta.",
       "Deleted": false,
-      "Rank": 558,
-      "Type": "ab",
-      "ColorBlock": 754,
-      "IconHint": "ab",
-      "Selected": false,
-      "LastChanged": "2020-08-07T03:44:58.1562167+02:00",
+      "Rank": 176,
+      "Type": "qui",
+      "ColorBlock": 682,
+      "IconHint": "aut",
+      "Selected": true,
+      "LastChanged": "2016-12-01T13:14:11.5392071+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "provident",
-      "Hidden": true,
-      "FullName": "Mireille Gerhold",
+      "ExtraInfo": "distinctio",
+      "StyleHint": "aut",
+      "Hidden": false,
+      "FullName": "Dr. Antwon Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 818
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 431
     }
   }
 }

@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 897,
-    "ERPName": "Prohaska, Tillman and Senger",
-    "DisplayName": "Ledner, Walter and Crooks",
-    "DisplayDescription": "Organized optimal data-warehouse",
-    "Rank": 374,
-    "ConnectorName": "Pollich-Wilkinson",
-    "ErpConnectionId": 771,
-    "ExtraData": "consequatur",
-    "IsAvailable": true,
+    "QuoteConnectionId": 767,
+    "ERPName": "Stark-Smith",
+    "DisplayName": "Dibbert-Denesik",
+    "DisplayDescription": "Enhanced solution-oriented capability",
+    "Rank": 739,
+    "ConnectorName": "Kemmer, Carter and Schultz",
+    "ErpConnectionId": 133,
+    "ExtraData": "aut",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 534,
-        "ERPPriceListKey": "magni",
-        "QuoteConnectionId": 244,
-        "Name": "Larson, Pouros and Smitham",
-        "Description": "Pre-emptive fresh-thinking process improvement",
-        "Currency": "non",
-        "CurrencyName": "Littel, Stroman and Streich",
-        "ValidFrom": "2001-02-05T03:44:53.0583181+01:00",
-        "ValidTo": "2003-11-28T03:44:53.0583181+01:00",
-        "IsActive": false,
+        "PriceListId": 390,
+        "ERPPriceListKey": "nesciunt",
+        "QuoteConnectionId": 270,
+        "Name": "Nicolas-Kohler",
+        "Description": "Future-proofed object-oriented function",
+        "Currency": "et",
+        "CurrencyName": "Gorczany, Blick and Upton",
+        "ValidFrom": "2008-04-09T13:14:06.3195563+02:00",
+        "ValidTo": "2010-12-13T13:14:06.3195563+01:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 103
+            "FieldLength": 842
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": true,
     "UserGroupAccessIds": [
-      798,
-      755
+      304,
+      437
     ],
     "AssociateAccessIds": [
-      639,
-      23
+      672,
+      427
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 962
       }
     }
   }

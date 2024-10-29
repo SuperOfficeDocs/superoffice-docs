@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 615,
-    "LCID": 466,
-    "EnglishName": "Nolan-Cremin",
-    "NativeName": "Roob-Wintheiser",
-    "ThreeLetterISOLanguageName": "Marks, Dicki and Graham",
-    "TwoLetterISOLanguageName": "Hegmann, Hand and Daniel",
+    "LanguageInfoId": 869,
+    "LCID": 651,
+    "EnglishName": "Hane-Krajcik",
+    "NativeName": "Connelly-Rohan",
+    "ThreeLetterISOLanguageName": "Mayer-Howe",
+    "TwoLetterISOLanguageName": "Goyette, King and Mayert",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 405
       }
     }
   }

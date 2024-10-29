@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "autem",
-    "InputValues2": "unde"
+    "InputValues1": "voluptas",
+    "InputValues2": "ducimus"
   },
   "BlockExecution": false,
-  "NavigateTo": "explicabo",
-  "Message": "fugit",
-  "ShowDialog": "animi",
+  "NavigateTo": "nesciunt",
+  "Message": "blanditiis",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "aut",
-    "OutputValues2": "vitae"
+    "OutputValues1": "neque",
+    "OutputValues2": "in"
   },
   "StateValues": {
-    "StateValues1": "quia",
-    "StateValues2": "dolor"
+    "StateValues1": "molestiae",
+    "StateValues2": "hic"
   },
-  "Exception": "qui",
+  "Exception": "earum",
   "ParserValues": {
-    "ParserValues1": "sunt",
-    "ParserValues2": "aut"
+    "ParserValues1": "nobis",
+    "ParserValues2": "voluptatibus"
   },
   "CgiVariables": {
-    "CgiVariables1": "ea",
-    "CgiVariables2": "quis"
+    "CgiVariables1": "ad",
+    "CgiVariables2": "dolorum"
   },
-  "CgiContent": "est",
+  "CgiContent": "necessitatibus",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "quisquam"
+    "Headers1": "molestiae",
+    "Headers2": "eaque"
   },
   "TraceExecution": true,
   "TableRight": null,
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 207
     }
   }
 }

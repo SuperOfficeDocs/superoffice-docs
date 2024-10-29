@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 548
+  "Count": 658
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 117,
-    "StartDate": "2002-02-11T03:44:52.0427664+01:00",
-    "EndDate": "2000-07-26T03:44:52.0427664+02:00",
+    "AppointmentId": 876,
+    "StartDate": "2017-10-24T13:14:05.507008+02:00",
+    "EndDate": "2010-05-09T13:14:05.507008+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sequi",
-    "AssociateFullName": "Mr. Tianna Treutel",
-    "ContactName": "Casper, Von and Koepp",
-    "Description": "Adaptive dynamic portal",
-    "PersonFullName": "Mrs. Rod Mariane Gottlieb I",
-    "PersonId": 428,
-    "ContactId": 241,
-    "ProjectId": 504,
-    "ProjectName": "Kessler, Hegmann and Gusikowski",
-    "IsPublished": true,
-    "AssociateId": 88,
-    "ColorIndex": 807,
-    "IsFree": true,
-    "HasAlarm": false,
+    "Task": "et",
+    "AssociateFullName": "Lawrence Hahn",
+    "ContactName": "Wiza-Huel",
+    "Description": "Assimilated attitude-oriented architecture",
+    "PersonFullName": "Lesly Rippin",
+    "PersonId": 242,
+    "ContactId": 426,
+    "ProjectId": 194,
+    "ProjectName": "Kihn-Ferry",
+    "IsPublished": false,
+    "AssociateId": 839,
+    "ColorIndex": 337,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 325,
-    "PriorityName": "Breitenberg, Ullrich and Rodriguez",
+    "PriorityId": 668,
+    "PriorityName": "Lynch Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2023-09-02T03:44:52.0427664+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2007-04-09T13:14:05.507008+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-06-11T03:44:52.0427664+02:00",
-    "RecurringEndDate": "2010-11-19T03:44:52.0427664+01:00",
-    "MotherId": 958,
-    "AssignedBy": 629,
-    "AssignedByFullName": "Lorenzo Schinner DDS",
+    "RecurringStartDate": "1999-05-23T13:14:05.507008+02:00",
+    "RecurringEndDate": "1998-11-27T13:14:05.507008+01:00",
+    "MotherId": 163,
+    "AssignedBy": 586,
+    "AssignedByFullName": "Korbin Gerlach",
     "RejectReason": "",
-    "Location": "molestiae",
-    "AlarmLeadTime": "dignissimos",
-    "SaleId": 662,
-    "SaleName": "Mraz Inc and Sons",
-    "AssociateName": "Padberg, Kessler and Dicki",
-    "CreatedDate": "2014-04-17T03:44:52.0427664+02:00",
-    "CreatedBy": "voluptas",
-    "CreatedByFullName": "Fritz Kiehn",
-    "CreatedByAssociateId": 454,
+    "Location": "aut",
+    "AlarmLeadTime": "architecto",
+    "SaleId": 553,
+    "SaleName": "Fisher Inc and Sons",
+    "AssociateName": "Walker-Dooley",
+    "CreatedDate": "2020-11-22T13:14:05.507008+01:00",
+    "CreatedBy": "dolor",
+    "CreatedByFullName": "Miss Lonie Hackett",
+    "CreatedByAssociateId": 573,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 836,
+    "PreferredTZLocation": 591,
     "Title": "sit",
-    "Agenda": "doloremque",
-    "InternalNotes": "quam",
+    "Agenda": "fuga",
+    "InternalNotes": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldLength": 165
       }
     }
   }

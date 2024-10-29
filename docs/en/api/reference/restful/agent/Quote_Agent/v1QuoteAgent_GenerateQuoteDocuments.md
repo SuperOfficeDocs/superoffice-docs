@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 71,
-  "EmailBodyTemplateId": 511,
+  "QuoteVersionId": 960,
+  "EmailBodyTemplateId": 697,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 537,
-  "IncludeAttachments": true,
-  "RawMailSubject": "at"
+  "QuotedProductsTemplateId": 553,
+  "IncludeAttachments": false,
+  "RawMailSubject": "sunt"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 575,
-  "QuotedProductsId": 542,
+  "QuoteDocumentId": 637,
+  "QuotedProductsId": 263,
   "QuoteAttachmentIds": [
-    562,
-    75
+    614,
+    348
   ],
-  "MailBody": "accusantium",
-  "MailSubject": "error",
-  "ToEmail": "vern.labadie@mcglynnschaefer.co.uk",
-  "ToFullName": "Bart Shanahan",
-  "ErrorMessage": "recusandae",
+  "MailBody": "labore",
+  "MailSubject": "necessitatibus",
+  "ToEmail": "madelynn_botsford@parisianbradtke.uk",
+  "ToFullName": "Clinton Kuhlman",
+  "ErrorMessage": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 330,
-  "Name": "Waelchi Group",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 936,
+  "Id": 512,
+  "Name": "Ernser, Gulgowski and Erdman",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "Rank": 841,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldType": "System.Int32",
+      "FieldLength": 649
     }
   },
   "_Links": {

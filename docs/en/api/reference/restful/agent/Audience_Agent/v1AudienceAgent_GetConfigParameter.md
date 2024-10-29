@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Bogan Group",
-  "ParameterName": "Schmitt, Sawayn and Shields"
+  "LayoutName": "Gutkowski Inc and Sons",
+  "ParameterName": "Leannon Group"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 609,
-  "Name": "Christiansen Inc and Sons",
-  "Value": "repellendus",
-  "CreatedDate": "2015-11-30T03:44:52.0740137+01:00",
-  "UpdatedDate": "2000-06-22T03:44:52.0740137+02:00",
-  "CreatedBy": "odio",
-  "UpdatedBy": "amet",
+  "AudienceLayoutId": 135,
+  "Name": "Kutch, Donnelly and Conn",
+  "Value": "voluptatem",
+  "CreatedDate": "2006-03-29T13:14:05.5226336+02:00",
+  "UpdatedDate": "2004-02-12T13:14:05.5226336+01:00",
+  "CreatedBy": "et",
+  "UpdatedBy": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

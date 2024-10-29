@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 429,
-  "Name": "Zboncak-Hansen",
-  "Rank": 921,
-  "Tooltip": "earum",
-  "Icon": "dignissimos",
-  "DefaultTicketStatus": 444,
+  "TicketTypeId": 1000,
+  "Name": "Cronin Inc and Sons",
+  "Rank": 985,
+  "Tooltip": "voluptatem",
+  "Icon": "assumenda",
+  "DefaultTicketStatus": 958,
   "TicketStatuses": [
-    489,
-    564
+    348,
+    392
   ],
-  "DefaultTicketPriority": 305,
+  "DefaultTicketPriority": 14,
   "TicketPriorities": [
-    438,
-    810
+    120,
+    383
   ],
-  "ReplyTemplate": 487,
+  "ReplyTemplate": 966,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    659,
-    902
+    399,
+    513
   ],
   "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 551
     }
   }
 }

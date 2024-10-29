@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 23 Aug 2022 03:44:57 G8T
+Last-Modified: Mon, 21 Mar 2011 13:14:10 G3T
 
 {
-  "Key": "consequuntur",
-  "Value": "dolor",
-  "RecordId": 389,
-  "CreatedDate": "1999-04-08T03:44:57.359003+02:00",
-  "UpdatedDate": "2022-08-23T03:44:57.359003+02:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "dolorem",
-  "TableName": "Towne LLC",
+  "Key": "dolores",
+  "Value": "tempora",
+  "RecordId": 88,
+  "CreatedDate": "2002-11-29T13:14:10.8360396+01:00",
+  "UpdatedDate": "2011-03-21T13:14:10.8360396+01:00",
+  "UpdatedBy": "rerum",
+  "CreatedBy": "corporis",
+  "TableName": "Fay, McClure and Hahn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 125
     }
   }
 }

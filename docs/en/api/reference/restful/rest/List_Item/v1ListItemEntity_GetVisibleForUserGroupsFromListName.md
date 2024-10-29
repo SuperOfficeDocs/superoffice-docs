@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Huels, Greenfelder and Emmerich",
-    "ToolTip": "Facere distinctio perspiciatis officiis.",
+    "Id": 466,
+    "Name": "Moen-Dietrich",
+    "ToolTip": "Delectus minus porro qui harum dolor iste molestiae.",
     "Deleted": false,
-    "Rank": 521,
+    "Rank": 548,
     "Type": "et",
-    "ColorBlock": 797,
-    "IconHint": "quaerat",
-    "Selected": true,
-    "LastChanged": "2002-04-27T03:44:57.8125425+02:00",
+    "ColorBlock": 187,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "2017-05-31T13:14:11.3048179+02:00",
     "ChildItems": [
       {
-        "Id": 228,
-        "Name": "Yost, Schowalter and Paucek",
-        "ToolTip": "A assumenda voluptas molestias iusto voluptas et.",
+        "Id": 934,
+        "Name": "Bauch Group",
+        "ToolTip": "Vel dolorem sapiente labore qui rem provident.",
         "Deleted": false,
-        "Rank": 145,
-        "Type": "eaque",
-        "ColorBlock": 518,
-        "IconHint": "omnis",
+        "Rank": 389,
+        "Type": "et",
+        "ColorBlock": 24,
+        "IconHint": "deleniti",
         "Selected": true,
-        "LastChanged": "2011-05-09T03:44:57.8125425+02:00",
+        "LastChanged": "2017-06-20T13:14:11.3048179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Robb Eichmann",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "ducimus",
+        "Hidden": true,
+        "FullName": "Miss Neoma Susan Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 313
+            "FieldLength": 832
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "nihil",
+    "ExtraInfo": "officia",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Elinor Yundt",
+    "FullName": "Toy Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 545
       }
     }
   }

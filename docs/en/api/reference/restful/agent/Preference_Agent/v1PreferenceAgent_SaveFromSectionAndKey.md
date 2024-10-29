@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "magnam",
-  "Key": "iusto",
+  "Section": "sit",
+  "Key": "aut",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 199,
-  "Section": "natus",
-  "Key": "quia",
-  "Name": "Wolf, Von and Prohaska",
+  "PrefDescId": 988,
+  "Section": "omnis",
+  "Key": "rerum",
+  "Name": "Cassin-Hickle",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked homogeneous attitude",
+  "Description": "Secured fresh-thinking knowledge user",
   "IsBuiltin": false,
-  "TableName": "Ryan, Champlin and Kautzer",
-  "UserDefinedListId": 62,
-  "Rank": 601,
-  "SubGroup": "magni",
-  "MinLevel": 820,
-  "MaxValue": 880,
-  "MinValue": 161,
-  "RequiredLicense": "sapiente",
+  "TableName": "Fahey, Flatley and Hoeger",
+  "UserDefinedListId": 442,
+  "Rank": 915,
+  "SubGroup": "quam",
+  "MinLevel": 513,
+  "MaxValue": 924,
+  "MinValue": 927,
+  "RequiredLicense": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldType": "System.Int32",
+      "FieldLength": 366
     }
   }
 }

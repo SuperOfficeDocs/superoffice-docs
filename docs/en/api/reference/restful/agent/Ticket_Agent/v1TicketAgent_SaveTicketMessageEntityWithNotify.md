@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 189,
+  "EjMessageId": 799,
   "Ticket": null,
-  "CreatedAt": "2001-12-15T03:44:53.3560431+01:00",
+  "CreatedAt": "2001-02-08T13:14:06.6633276+01:00",
   "CreatedBy": null,
-  "Author": "harum",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rem",
-  "TimeSpent": 565,
-  "Body": "rem",
-  "HtmlBody": "fuga",
-  "EmailHeader": "jerald.yost@leuschke.uk",
-  "DebugInfo": "numquam",
-  "MailSorter": "in",
+  "MessageId": "sapiente",
+  "TimeSpent": 245,
+  "Body": "corporis",
+  "HtmlBody": "sed",
+  "EmailHeader": "dana@schoen.biz",
+  "DebugInfo": "odit",
+  "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ut",
+  "SearchTitle": "ea",
   "MessageHeaders": [
     {
-      "Id": 499,
-      "Name": "Barrows, Champlin and Grant",
-      "Value": "eveniet",
+      "Id": 476,
+      "Name": "Corkery Inc and Sons",
+      "Value": "suscipit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldLength": 59
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "et",
-  "Sentiment": 525,
-  "SentimentConfidence": 613,
+  "Important": false,
+  "Language": "dolorum",
+  "Sentiment": 986,
+  "SentimentConfidence": 898,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 981,
-      "Name": "Tillman, Kertzmann and Bechtelar",
-      "ContentType": "sed",
-      "AttSize": 752,
+      "AttachmentId": 515,
+      "Name": "Hyatt, Wunsch and Hansen",
+      "ContentType": "beatae",
+      "AttSize": 944,
       "InlineImage": false,
-      "ContentId": "neque",
-      "AuthKey": "explicabo",
+      "ContentId": "aut",
+      "AuthKey": "consequatur",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldLength": 994
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "id"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "blanditiis",
-    "CustomFields2": "aperiam"
+    "CustomFields1": "et",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 797
     }
   }
 }

@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Crooks Group",
-    "ToolTip": "In sapiente asperiores.",
+    "Id": 222,
+    "Name": "Brakus-Lebsack",
+    "ToolTip": "Doloribus id nesciunt vel sequi.",
     "Deleted": false,
-    "Rank": 81,
-    "Type": "aspernatur",
+    "Rank": 974,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Schmeler, Oberbrunner and Braun",
-        "ToolTip": "Accusantium aut officia vitae unde delectus qui aperiam.",
+        "Id": 120,
+        "Name": "Hoeger LLC",
+        "ToolTip": "Quis omnis quaerat repudiandae.",
         "Deleted": false,
-        "Rank": 952,
-        "Type": "quis",
+        "Rank": 504,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nisi",
-        "ColorBlock": 674,
-        "ExtraInfo": "omnis",
-        "StyleHint": "molestiae",
-        "FullName": "Mrs. Katheryn Destinee Block",
+        "IconHint": "doloremque",
+        "ColorBlock": 530,
+        "ExtraInfo": "rerum",
+        "StyleHint": "est",
+        "FullName": "Garnet Cornelius Romaguera PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldLength": 275
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 219,
-    "ExtraInfo": "ad",
-    "StyleHint": "excepturi",
-    "FullName": "Prof. Shania Arvel Friesen",
+    "IconHint": "eos",
+    "ColorBlock": 434,
+    "ExtraInfo": "non",
+    "StyleHint": "quae",
+    "FullName": "Dr. Lisa Block Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 776
+        "FieldType": "System.Int32",
+        "FieldLength": 583
       }
     }
   }

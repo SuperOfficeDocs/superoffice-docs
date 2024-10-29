@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "laudantium"
+  "ChatId": "sapiente"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2020-03-20T03:44:51.808417+01:00",
-    "UserPrompt": "sunt",
-    "UserDisplayText": "quis",
-    "BotResponse": "soluta",
+    "Timestamp": "2009-04-24T13:14:05.1944888+02:00",
+    "UserPrompt": "id",
+    "UserDisplayText": "adipisci",
+    "BotResponse": "odit",
     "BotActions": {
-      "BotActions1": "autem",
-      "BotActions2": "nulla"
+      "BotActions1": "voluptatibus",
+      "BotActions2": "ipsam"
     },
     "Attachments": [
-      "nesciunt",
-      "aliquam"
+      "earum",
+      "quia"
     ]
   },
   {
-    "Timestamp": "2020-03-20T03:44:51.808417+01:00",
-    "UserPrompt": "sunt",
-    "UserDisplayText": "quis",
-    "BotResponse": "soluta",
+    "Timestamp": "2009-04-24T13:14:05.1944888+02:00",
+    "UserPrompt": "id",
+    "UserDisplayText": "adipisci",
+    "BotResponse": "odit",
     "BotActions": {
-      "BotActions1": "autem",
-      "BotActions2": "nulla"
+      "BotActions1": "voluptatibus",
+      "BotActions2": "ipsam"
     },
     "Attachments": [
-      "nesciunt",
-      "aliquam"
+      "earum",
+      "quia"
     ]
   }
 ]

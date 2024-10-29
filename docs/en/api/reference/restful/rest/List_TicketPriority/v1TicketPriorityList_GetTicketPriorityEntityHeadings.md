@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 671,
-    "Name": "Harvey LLC",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 35,
-    "UdListDefinitionId": 527,
+    "HeadingId": 940,
+    "Name": "Stoltenberg-Miller",
+    "Tooltip": "rem",
+    "Deleted": false,
+    "Rank": 506,
+    "UdListDefinitionId": 172,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 272
       }
     }
   }

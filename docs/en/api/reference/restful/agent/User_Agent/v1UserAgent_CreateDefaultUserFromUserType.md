@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 822,
-  "Name": "Harris LLC",
-  "Rank": 22,
-  "Tooltip": "qui",
+  "AssociateId": 80,
+  "Name": "Jones-Watsica",
+  "Rank": 310,
+  "Tooltip": "impedit",
   "LicenseOwners": [
     {
-      "Name": "Dach, Grady and Osinski",
-      "Description": "Centralized multi-state process improvement",
+      "Name": "Jaskolski-Beer",
+      "Description": "Multi-layered zero defect internet solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 737
         }
       }
     },
     {
-      "Name": "Dach, Grady and Osinski",
-      "Description": "Centralized multi-state process improvement",
+      "Name": "Jaskolski-Beer",
+      "Description": "Multi-layered zero defect internet solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 737
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptates",
-      "Tooltip": "dolorem",
-      "Id": 80,
-      "Rank": 390,
+      "Value": "consequatur",
+      "Tooltip": "ea",
+      "Id": 473,
+      "Rank": 513,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 721
+          "FieldLength": 893
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2018-06-02T03:44:53.418654+02:00",
-  "Lastlogout": "2014-04-12T03:44:53.418654+02:00",
-  "EjUserId": 786,
-  "RequestSignature": "numquam",
+  "Lastlogin": "2017-01-06T13:14:06.7414574+01:00",
+  "Lastlogout": "2019-12-15T13:14:06.7414574+01:00",
+  "EjUserId": 373,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "error",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 491
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "error",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 491
-        }
-      }
-    }
-  ],
-  "UserName": "Zemlak Group",
-  "TicketCategories": [
-    {
-      "Id": 937,
-      "Name": "Leffler, Feeney and Hackett",
-      "ToolTip": "Delectus dolorum et consequatur est mollitia ut.",
-      "Deleted": true,
-      "Rank": 833,
-      "Type": "et",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ut",
-      "ColorBlock": 156,
-      "ExtraInfo": "est",
-      "StyleHint": "et",
-      "FullName": "Ward Muller",
+      "Value": "cupiditate",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldLength": 367
         }
       }
-    }
-  ],
-  "NickName": "Hartmann LLC",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "illum"
-  },
-  "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "perferendis"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Haag, Hettinger and Metz",
-      "DisplayName": "Hyatt LLC",
-      "Description": "Sharable full-range framework",
-      "ToolTip": "Inventore ut et maiores atque.",
-      "Actions": "Implicit",
-      "ActionData": "aliquid",
+      "Type": null,
+      "Value": "cupiditate",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 838
+          "FieldType": "System.Int32",
+          "FieldLength": 367
+        }
+      }
+    }
+  ],
+  "UserName": "Gleason Group",
+  "TicketCategories": [
+    {
+      "Id": 632,
+      "Name": "Dibbert, O'Connell and Greenfelder",
+      "ToolTip": "Ut excepturi quod rerum voluptatum molestias.",
+      "Deleted": false,
+      "Rank": 936,
+      "Type": "voluptas",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "nulla",
+      "ColorBlock": 712,
+      "ExtraInfo": "est",
+      "StyleHint": "amet",
+      "FullName": "Cortez Amira Hayes V",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 722
+        }
+      }
+    }
+  ],
+  "NickName": "O'Keefe, Greenfelder and Aufderhar",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "nihil",
+    "CustomFields2": "dignissimos"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Jerde, Auer and Thompson",
+      "DisplayName": "Bergstrom, Armstrong and Pfeffer",
+      "Description": "Enhanced reciprocal knowledge user",
+      "ToolTip": "Est dolorum blanditiis.",
+      "Actions": "Implicit",
+      "ActionData": "dolore",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 214
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 701
     }
   }
 }

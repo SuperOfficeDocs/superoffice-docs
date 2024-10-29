@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 573,
-  "StartDate": "2023-10-01T03:44:51.9490264+02:00",
-  "EndDate": "2001-08-30T03:44:51.9490264+02:00",
-  "RecurrenceCounter": 926,
+  "RecurrenceId": 250,
+  "StartDate": "2003-02-23T13:14:05.3976254+01:00",
+  "EndDate": "2015-02-16T13:14:05.3976254+01:00",
+  "RecurrenceCounter": 429,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2000-05-05T03:44:51.9490264+02:00",
-      "IsConflict": false,
-      "Description": "Right-sized asynchronous budgetary management",
-      "DescriptionStyleHint": "Open-architected multi-state system engine",
-      "Tooltip": "nisi"
+      "Date": "2010-02-11T13:14:05.3976254+01:00",
+      "IsConflict": true,
+      "Description": "Fully-configurable mobile implementation",
+      "DescriptionStyleHint": "Fully-configurable full-range artificial intelligence",
+      "Tooltip": "aut"
     },
     {
-      "Date": "2000-05-05T03:44:51.9490264+02:00",
-      "IsConflict": false,
-      "Description": "Right-sized asynchronous budgetary management",
-      "DescriptionStyleHint": "Open-architected multi-state system engine",
-      "Tooltip": "nisi"
+      "Date": "2010-02-11T13:14:05.3976254+01:00",
+      "IsConflict": true,
+      "Description": "Fully-configurable mobile implementation",
+      "DescriptionStyleHint": "Fully-configurable full-range artificial intelligence",
+      "Tooltip": "aut"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

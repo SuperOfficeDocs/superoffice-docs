@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 871,
-  "Name": "Brown, Weimann and Hegmann",
-  "ContentType": "illum",
-  "AttSize": 494,
+  "AttachmentId": 552,
+  "Name": "Kertzmann Group",
+  "ContentType": "id",
+  "AttSize": 773,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "natus",
+  "ContentId": "eaque",
+  "AuthKey": "sit",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldType": "System.String",
+      "FieldLength": 702
     }
   },
   "_Links": {

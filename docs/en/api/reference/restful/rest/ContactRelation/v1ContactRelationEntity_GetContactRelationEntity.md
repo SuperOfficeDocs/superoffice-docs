@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 27 Apr 2015 03:44:57 G4T
+Last-Modified: Sun, 28 Dec 2003 13:14:10 G12T
 
 {
-  "SourceContactId": 997,
-  "SourcePersonId": 149,
-  "DestinationContactId": 681,
-  "DestinationPersonId": 781,
-  "RelationId": 758,
-  "Comment": "et",
-  "RelationDefinitionId": 360,
-  "Reversed": 76,
-  "UpdatedDate": "2015-04-27T03:44:57.2028009+02:00",
-  "CreatedDate": "2012-12-29T03:44:57.2028009+01:00",
+  "SourceContactId": 490,
+  "SourcePersonId": 946,
+  "DestinationContactId": 363,
+  "DestinationPersonId": 636,
+  "RelationId": 52,
+  "Comment": "ut",
+  "RelationDefinitionId": 814,
+  "Reversed": 911,
+  "UpdatedDate": "2003-12-28T13:14:10.7579101+01:00",
+  "CreatedDate": "2009-07-12T13:14:10.7579101+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Batz Inc and Sons",
-  "SourcePersonName": "Beahan-Mante",
-  "DestinationContactName": "Rempel-Wisoky",
-  "DestinationPersonName": "Littel, Howell and Gutmann",
-  "ActiveText": "molestiae",
-  "PassiveText": "voluptas",
+  "SourceContactName": "Ratke, Weimann and Goldner",
+  "SourcePersonName": "Treutel Inc and Sons",
+  "DestinationContactName": "Kertzmann, Daugherty and Heller",
+  "DestinationPersonName": "Mante LLC",
+  "ActiveText": "sunt",
+  "PassiveText": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldLength": 237
     }
   },
   "_Links": {

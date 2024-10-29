@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": true
+  "Children": false
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 734,
+    "HierarchyId": 590,
     "Domain": "Dashboards",
-    "Name": "Koss Inc and Sons",
-    "Fullname": "dignissimos",
-    "ParentId": 443,
+    "Name": "Renner, Cartwright and Dickens",
+    "Fullname": "deserunt",
+    "ParentId": 621,
     "Children": [
       {
-        "HierarchyId": 168,
+        "HierarchyId": 517,
         "Domain": "Dashboards",
-        "Name": "Moen Inc and Sons",
-        "Fullname": "cupiditate",
-        "ParentId": 253,
+        "Name": "Gleichner-Nikolaus",
+        "Fullname": "ex",
+        "ParentId": 789,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2006-03-17T03:44:52.7302252+01:00",
-        "RegisteredAssociateId": 37,
-        "Updated": "2018-09-14T03:44:52.7302252+02:00",
-        "UpdatedAssociateId": 621,
+        "Registered": "2002-07-29T13:14:06.1007936+02:00",
+        "RegisteredAssociateId": 363,
+        "Updated": "2022-04-15T13:14:06.1007936+02:00",
+        "UpdatedAssociateId": 162,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 361
+            "FieldLength": 258
           }
         }
       }
     ],
-    "Registered": "2003-11-02T03:44:52.7302252+01:00",
-    "RegisteredAssociateId": 55,
-    "Updated": "2015-12-21T03:44:52.7302252+01:00",
-    "UpdatedAssociateId": 24,
+    "Registered": "2007-05-10T13:14:06.1007936+02:00",
+    "RegisteredAssociateId": 180,
+    "Updated": "2022-10-28T13:14:06.1007936+02:00",
+    "UpdatedAssociateId": 637,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 802
+        "FieldType": "System.Int32",
+        "FieldLength": 106
       }
     }
   }

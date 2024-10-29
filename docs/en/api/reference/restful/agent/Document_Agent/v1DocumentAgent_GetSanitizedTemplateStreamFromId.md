@@ -75,8 +75,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 512,
-  "UiCulture": "quasi"
+  "TemplateId": 899,
+  "UiCulture": "et"
 }
 ```
 

@@ -25,7 +25,7 @@ Get a list of the lists - built-in and user-defined.
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List?includeDeleted=False
+GET /api/v1/List?includeDeleted=True
 ```
 
 
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Feeney Group",
-    "Tooltip": "eligendi",
-    "Deleted": true,
-    "Rank": 206,
+    "Id": 84,
+    "Name": "Morissette, O'Connell and Koch",
+    "Tooltip": "odio",
+    "Deleted": false,
+    "Rank": 626,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "illum",
-    "InUseByUserDefinedFields": false,
+    "ListType": "animi",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldType": "System.Int32",
+        "FieldLength": 832
       }
     }
   }

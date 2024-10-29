@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 975,
-  "Created": "2022-04-12T03:44:53.0739396+02:00",
+  "SatelliteId": 138,
+  "Created": "2022-04-07T13:14:06.3508082+02:00",
   "CreatedBy": null,
-  "Updated": "2016-06-10T03:44:53.0739396+02:00",
+  "Updated": "2023-06-05T13:14:06.3508082+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Rogahn LLC",
-      "Description": "Business-focused upward-trending Graphic Interface",
+      "Name": "McGlynn-Klocko",
+      "Description": "Multi-channelled encompassing customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 365
         }
       }
     },
     {
-      "Name": "Rogahn LLC",
-      "Description": "Business-focused upward-trending Graphic Interface",
+      "Name": "McGlynn-Klocko",
+      "Description": "Multi-channelled encompassing customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 365
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldLength": 257
     }
   }
 }

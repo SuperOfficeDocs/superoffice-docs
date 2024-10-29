@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 955,
-  "DefaultValue": "sint",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "ea",
+  "ErpFieldId": 518,
+  "DefaultValue": "enim",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "voluptatem",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "molestiae",
+  "ErpFieldKey": "veritatis",
   "FieldType": "Checkbox",
-  "ListName": "Moen-Nolan",
+  "ListName": "Kshlerin-Kutch",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 991
     }
   }
 }

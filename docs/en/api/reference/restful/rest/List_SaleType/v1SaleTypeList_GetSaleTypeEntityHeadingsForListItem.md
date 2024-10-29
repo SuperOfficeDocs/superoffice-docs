@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Brown-Dicki",
-    "ToolTip": "Exercitationem alias ab est perferendis.",
-    "Deleted": false,
-    "Rank": 77,
-    "Type": "error",
-    "ColorBlock": 703,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "2014-04-26T03:44:58.1562167+02:00",
+    "Id": 328,
+    "Name": "Wilkinson LLC",
+    "ToolTip": "Quas quia totam illo labore et autem dolorum.",
+    "Deleted": true,
+    "Rank": 243,
+    "Type": "in",
+    "ColorBlock": 759,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2001-06-08T13:14:11.5392071+02:00",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Altenwerth-Raynor",
-        "ToolTip": "Dolorem quidem et animi numquam.",
+        "Id": 400,
+        "Name": "Goodwin Group",
+        "ToolTip": "Tenetur libero assumenda non recusandae corporis.",
         "Deleted": false,
-        "Rank": 246,
-        "Type": "aut",
-        "ColorBlock": 717,
-        "IconHint": "facilis",
+        "Rank": 577,
+        "Type": "quidem",
+        "ColorBlock": 284,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "1997-08-06T03:44:58.1562167+02:00",
+        "LastChanged": "2020-12-15T13:14:11.5392071+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Vivien Altenwerth",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "dignissimos",
+        "Hidden": false,
+        "FullName": "Yvonne Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldLength": 630
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "natus",
-    "Hidden": false,
-    "FullName": "Ms. Beau Richie Christiansen PhD",
+    "ExtraInfo": "sint",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Jon Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldType": "System.String",
+        "FieldLength": 92
       }
     }
   }

@@ -83,17 +83,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 387,
+  "TargetDimensionId": 383,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "porro",
-  "DimensionListName": "Johnson-Cronin",
-  "DimensionListId": 223,
-  "DimensionListLabel": "maiores",
+  "DimensionListField": "odit",
+  "DimensionListName": "Nolan-Mraz",
+  "DimensionListId": 93,
+  "DimensionListLabel": "aut",
   "SelectedDimensions": [
-    908,
-    975
+    670,
+    734
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 596,
+  "TargetDimensionId": 274,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "libero",
-  "DimensionListName": "Armstrong, McDermott and Leannon",
-  "DimensionListId": 23,
-  "DimensionListLabel": "debitis",
+  "DimensionListField": "error",
+  "DimensionListName": "Mertz, Nicolas and Witting",
+  "DimensionListId": 930,
+  "DimensionListLabel": "et",
   "SelectedDimensions": [
-    984,
-    879
+    218,
+    122
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldType": "System.String",
+      "FieldLength": 547
     }
   }
 }

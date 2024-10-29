@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "perferendis",
-  "ProviderName": "Dach, Wyman and Hammes",
-  "StorageKey": "pariatur",
+  "StorageType": "cupiditate",
+  "ProviderName": "Bosco Inc and Sons",
+  "StorageKey": "est",
   "DesiredColumnNames": [
-    "Bode-Rolfson",
-    "Dicki Inc and Sons"
+    "Gibson-Tremblay",
+    "DuBuque-Gislason"
   ],
   "StaticColumns": [
-    "asperiores",
-    "et"
+    "quia",
+    "optio"
   ],
-  "Context": "voluptatem"
+  "Context": "rem"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Carter Group",
-      "Operator": "nisi",
+      "Name": "Kuhlman-Muller",
+      "Operator": "dolor",
       "Values": [
-        "labore",
-        "aliquid"
+        "magni",
+        "id"
       ],
       "DisplayValues": [
-        "doloremque",
-        "mollitia"
+        "laborum",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 584,
+      "InterParenthesis": 662,
       "InterOperator": "And",
-      "UniqueHash": 140
+      "UniqueHash": 672
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hartmann, Bartoletti and Zboncak",
-      "DisplayTooltip": "ut",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": false,
-      "Name": "Mohr, Hodkiewicz and O'Reilly",
+      "DisplayName": "Jenkins Group",
+      "DisplayTooltip": "autem",
+      "DisplayType": "fugiat",
+      "CanOrderBy": true,
+      "Name": "Stracke, Ebert and Herman",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Emard Inc and Sons",
+      "RestrictionType": "error",
+      "RestrictionListName": "Graham Group",
       "IsVisible": false,
-      "ExtraInfo": "sit",
-      "Width": "neque",
-      "IconHint": "dolorum",
-      "HeadingIconHint": "non"
+      "ExtraInfo": "repellat",
+      "Width": "facere",
+      "IconHint": "ut",
+      "HeadingIconHint": "rerum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kozey-Feil",
-      "PrimaryKey": 188,
+      "EntityName": "Wilderman-Schoen",
+      "PrimaryKey": 77,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quo",
-          "TooltipHint": "provident",
-          "LinkHint": "maiores"
+          "DisplayValue": "et",
+          "TooltipHint": "facere",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "inventore",
+      "LinkHint": "maiores",
+      "StyleHint": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 951
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hoeger-Streich",
-      "Description": "Right-sized 24/7 methodology",
-      "Rank": 822,
+      "Name": "Monahan, Veum and Gleason",
+      "Description": "Synchronised full-range solution",
+      "Rank": 580,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hoeger-Streich",
-      "Description": "Right-sized 24/7 methodology",
-      "Rank": 822,
+      "Name": "Monahan, Veum and Gleason",
+      "Description": "Synchronised full-range solution",
+      "Rank": 580,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

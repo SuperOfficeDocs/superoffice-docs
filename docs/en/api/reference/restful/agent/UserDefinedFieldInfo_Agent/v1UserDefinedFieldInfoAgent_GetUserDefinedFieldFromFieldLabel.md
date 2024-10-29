@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "natus",
+  "FieldLabel": "dolorem",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 508,
-  "ColumnId": 199,
-  "FieldDefault": "qui",
-  "FieldHeight": 339,
-  "FieldLabel": "minima",
-  "FieldLeft": 715,
-  "FieldTop": 735,
+  "UDefFieldId": 92,
+  "ColumnId": 423,
+  "FieldDefault": "aut",
+  "FieldHeight": 86,
+  "FieldLabel": "odio",
+  "FieldLeft": 833,
+  "FieldTop": 348,
   "FieldType": "Checkbox",
-  "FieldWidth": 309,
-  "FormatMask": "explicabo",
+  "FieldWidth": 427,
+  "FormatMask": "et",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 554,
-  "LabelLeft": 547,
-  "LabelTop": 522,
-  "LabelWidth": 415,
-  "LastVersionId": 540,
-  "ListTableId": 272,
+  "LabelHeight": 92,
+  "LabelLeft": 874,
+  "LabelTop": 351,
+  "LabelWidth": 912,
+  "LastVersionId": 492,
+  "ListTableId": 290,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 40,
-  "ProgId": "doloribus",
+  "Page1LineNo": 680,
+  "ProgId": "eos",
   "IsReadOnly": false,
-  "ShortLabel": "voluptates",
-  "TabOrder": 220,
-  "TextLength": 546,
-  "Tooltip": "atque",
-  "UdefIdentity": 502,
-  "UDListDefinitionId": 577,
+  "ShortLabel": "vitae",
+  "TabOrder": 87,
+  "TextLength": 322,
+  "Tooltip": "aut",
+  "UdefIdentity": 71,
+  "UDListDefinitionId": 722,
   "Justification": "Center",
-  "Version": 510,
-  "TemplateVariableName": "Greenfelder, Schiller and Auer",
+  "Version": 307,
+  "TemplateVariableName": "Herman-Abbott",
   "HasBeenPublished": true,
-  "MdoListName": "Huel, Gerhold and Jacobson",
+  "MdoListName": "Hudson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 511
     }
   }
 }

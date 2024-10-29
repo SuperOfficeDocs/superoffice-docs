@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Towne Inc and Sons",
-  "Tooltip": "eaque",
+  "Id": 875,
+  "Name": "Friesen, Haag and Gleichner",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "Rank": 489,
+  "Rank": 330,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "optio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 547
     }
   },
   "_Links": {

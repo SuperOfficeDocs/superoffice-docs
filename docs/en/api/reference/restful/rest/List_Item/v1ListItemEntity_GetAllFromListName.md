@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Dietrich-Lind",
-    "Tooltip": "distinctio",
+    "Id": 426,
+    "Name": "Kerluke, Bins and Gulgowski",
+    "Tooltip": "harum",
     "Deleted": true,
-    "UdListDefinitionId": 587,
-    "Rank": 64,
+    "UdListDefinitionId": 901,
+    "Rank": 37,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

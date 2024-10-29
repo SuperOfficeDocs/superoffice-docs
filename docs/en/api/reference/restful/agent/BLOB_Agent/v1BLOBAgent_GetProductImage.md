@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 124
+  "ProductId": 965
 }
 ```
 

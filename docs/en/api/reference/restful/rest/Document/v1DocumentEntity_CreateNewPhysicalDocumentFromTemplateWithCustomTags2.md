@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=595
-POST /api/v1/Document/{documentId}/Content?personId=271
-POST /api/v1/Document/{documentId}/Content?appointmentId=387
-POST /api/v1/Document/{documentId}/Content?saleId=97
-POST /api/v1/Document/{documentId}/Content?selectionId=667
-POST /api/v1/Document/{documentId}/Content?projectId=759
-POST /api/v1/Document/{documentId}/Content?uiCulture=odit
+POST /api/v1/Document/{documentId}/Content?contactId=753
+POST /api/v1/Document/{documentId}/Content?personId=369
+POST /api/v1/Document/{documentId}/Content?appointmentId=420
+POST /api/v1/Document/{documentId}/Content?saleId=405
+POST /api/v1/Document/{documentId}/Content?selectionId=428
+POST /api/v1/Document/{documentId}/Content?projectId=783
+POST /api/v1/Document/{documentId}/Content?uiCulture=aspernatur
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 662,
+  "DocumentId": 57,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "tempore",
-  "Header": "quis",
-  "Name": "Dach, Kuphal and Effertz",
-  "OurRef": "veritatis",
-  "YourRef": "beatae",
-  "CreatedDate": "1999-07-01T03:44:57.3277561+02:00",
-  "UpdatedDate": "2017-04-20T03:44:57.3277561+02:00",
-  "Description": "Configurable discrete moratorium",
+  "Attention": "quaerat",
+  "Header": "maiores",
+  "Name": "Konopelski, Kassulke and Berge",
+  "OurRef": "aut",
+  "YourRef": "porro",
+  "CreatedDate": "2002-07-07T13:14:10.8204078+02:00",
+  "UpdatedDate": "2001-01-25T13:14:10.8204078+01:00",
+  "Description": "Organized regional moderator",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-08-18T03:44:57.3277561+02:00",
-  "ExternalRef": "excepturi",
+  "Date": "2024-10-02T13:14:10.8204078+02:00",
+  "ExternalRef": "voluptas",
   "Completed": "Completed",
-  "ActiveLinks": 162,
+  "ActiveLinks": 871,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "D'Amore-Harber",
-      "Id": 485,
-      "Description": "De-engineered static middleware",
-      "ExtraInfo": "sunt",
-      "LinkId": 733,
+      "EntityName": "Mills-Paucek",
+      "Id": 276,
+      "Description": "Enhanced regional synergy",
+      "ExtraInfo": "officia",
+      "LinkId": 413,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 192
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 319,
-  "Snum": 216,
+  "SuggestedDocumentId": 393,
+  "Snum": 31,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Lenore Katlynn Hermiston",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Mr. Clementine Gerhold III",
+    "SuperOffice:2": "Mr. Taya Florida Hettinger PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "repudiandae",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "veritatis",
-    "CustomFields2": "neque"
+    "CustomFields1": "saepe",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2004-08-28T03:44:57.3277561+02:00",
-  "PublishTo": "2001-07-21T03:44:57.3277561+02:00",
-  "PublishFrom": "2017-11-07T03:44:57.3277561+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2016-08-24T13:14:10.8204078+02:00",
+  "PublishTo": "2022-09-02T13:14:10.8204078+02:00",
+  "PublishFrom": "2002-12-15T13:14:10.8204078+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 528,
+      "VisibleId": 68,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldLength": 338
         }
       }
     },
     {
-      "VisibleId": 528,
+      "VisibleId": 68,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldLength": 338
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldLength": 81
     }
   }
 }

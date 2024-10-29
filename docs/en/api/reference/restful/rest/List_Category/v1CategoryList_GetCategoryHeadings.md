@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 803,
-    "Name": "Berge LLC",
-    "Tooltip": "doloremque",
+    "HeadingId": 90,
+    "Name": "Rosenbaum LLC",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 378,
-    "UdListDefinitionId": 758,
+    "Rank": 822,
+    "UdListDefinitionId": 947,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 803
       }
     }
   }

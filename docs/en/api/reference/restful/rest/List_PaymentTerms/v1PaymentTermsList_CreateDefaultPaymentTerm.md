@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Ullrich, Beatty and Dickinson",
-  "Tooltip": "voluptatum",
+  "Id": 571,
+  "Name": "Hilpert-Willms",
+  "Tooltip": "eum",
   "Deleted": true,
-  "UdListDefinitionId": 878,
-  "Rank": 656,
+  "UdListDefinitionId": 69,
+  "Rank": 481,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldType": "System.Int32",
+      "FieldLength": 65
     }
   }
 }

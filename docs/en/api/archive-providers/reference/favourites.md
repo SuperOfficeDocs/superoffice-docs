@@ -2950,6 +2950,7 @@ Archive provider for the list of favourites
 |emailFlow/workflowName| *None* |Name: Name of the flow definition|  |
 |emailFlow/workflowDescription| *None* |Description: Description of flow definition|  |
 |emailFlow/workflowDefinitionStatus| *None* |Status: Status of the flow definition|  |
+|emailFlow/workflowDefinitionStatusId| *None* |Status: Status of the flow definition|  |
 |emailFlow/jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
 |emailFlow/startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?|  |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -3040,11 +3041,11 @@ Archive provider for the list of favourites
 |sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |sale/registeredBy| *None* |Registered by: The user who registered the data|  |
 |sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |sale/currencyId| *None* |Currency ID: The currency list item ID|  |
 |sale/currency| *None* |Currency: The currency of the sale|  |
 |sale/credited| *None* |Credited: The user to be credited with the sale|  |
@@ -3144,11 +3145,11 @@ Archive provider for the list of favourites
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
 |duration| *None* |Duration: The duration of the chat session|  |
 |appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |appointmentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 |appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointmentUdef/SuperOffice:1| *None* |followupshorttext|  |
@@ -3248,11 +3249,11 @@ Archive provider for the list of favourites
 |ownedBy/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
 |ownedBy/associateDbId| *None* |Owner - ID|  |
 |ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
-|ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 |ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
 |ownedBy/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
 |ownedBy/contactCategory| *None* |Owner - Category: Category|  |
@@ -3293,7 +3294,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=person/birthdate,project/projectAssociate/ejDisplayName,project/projectAssociate/isActive,saleStakeholder/person/correspondingAssociate/locationAddress,saleStakeholder/contact/saintAmountClass
+GET /api/v1/archive/Favourites?$select=getAllRows,hasStakeholders,person/email/emailAddress,person/personExtra/x_person_shorttext_list,contact/associateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Will-Walker",
-    "AssociateId": 598,
-    "DetailsTable": 959,
-    "DetailsRecord": 22,
+    "Id": 226,
+    "Name": "Barrows Inc and Sons",
+    "AssociateId": 750,
+    "DetailsTable": 942,
+    "DetailsRecord": 534,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "inventore",
-      "ParameterObject2": "quasi"
+      "ParameterObject1": "optio",
+      "ParameterObject2": "laborum"
     },
-    "LastStarted": "2008-01-10T03:44:52.0740137+01:00",
-    "Created": "2017-05-20T03:44:52.0740137+02:00",
-    "StartCount": 162,
-    "DatabaseSerialNumber": "1320630",
-    "Context": "iusto",
-    "Result": "perferendis",
+    "LastStarted": "2020-11-09T13:14:05.5382596+01:00",
+    "Created": "2006-07-21T13:14:05.5382596+02:00",
+    "StartCount": 89,
+    "DatabaseSerialNumber": "788475",
+    "Context": "aperiam",
+    "Result": "nulla",
     "State": "All",
-    "Description": "Customer-focused attitude-oriented synergy",
-    "Response": "fugiat",
-    "Request": "atque",
-    "ProgressDescription": "Optimized fault-tolerant project",
-    "ProgressPercent": 874,
-    "FileName": "Bode, Yost and Parker",
+    "Description": "Ameliorated exuding strategy",
+    "Response": "non",
+    "Request": "laudantium",
+    "ProgressDescription": "Upgradable intangible contingency",
+    "ProgressPercent": 706,
+    "FileName": "Schimmel, Donnelly and Grady",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   }

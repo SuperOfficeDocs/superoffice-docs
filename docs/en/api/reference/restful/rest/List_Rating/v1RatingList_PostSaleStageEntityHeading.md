@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 879,
-  "Name": "Tillman, Feest and Beer",
-  "Tooltip": "vero",
+  "HeadingId": 135,
+  "Name": "Schuster Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 700,
-  "UdListDefinitionId": 11
+  "Rank": 811,
+  "UdListDefinitionId": 979
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 225,
-  "Name": "Feil, Feest and Boehm",
-  "Tooltip": "repellat",
-  "Deleted": false,
-  "Rank": 426,
-  "UdListDefinitionId": 320,
+  "HeadingId": 922,
+  "Name": "Collier Group",
+  "Tooltip": "fuga",
+  "Deleted": true,
+  "Rank": 624,
+  "UdListDefinitionId": 196,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 420
     }
   }
 }

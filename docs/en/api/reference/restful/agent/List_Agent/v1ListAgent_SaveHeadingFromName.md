@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hand Inc and Sons",
+  "Name": "Koch-O'Conner",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 684,
-  "Name": "Hills, Hahn and Reynolds",
-  "Tooltip": "sed",
+  "HeadingId": 429,
+  "Name": "Tillman, Fritsch and Boyle",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 529,
-  "UdListDefinitionId": 106,
+  "Rank": 12,
+  "UdListDefinitionId": 2,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 5
     }
   }
 }

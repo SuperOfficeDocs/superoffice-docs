@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Greenholt-Legros",
+  "ProviderName": "Bogan LLC",
   "Restrictions": [
     {
-      "Name": "Willms, O'Kon and Carroll",
-      "Operator": "nihil",
+      "Name": "Heaney-Welch",
+      "Operator": "voluptas",
       "Values": [
-        "dolor",
-        "et"
+        "fugit",
+        "enim"
       ],
       "DisplayValues": [
-        "consequatur",
-        "velit"
+        "modi",
+        "incidunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 957,
+      "InterParenthesis": 603,
       "InterOperator": "And",
-      "UniqueHash": 580
+      "UniqueHash": 764
     }
   ],
-  "AssociateId": 476
+  "AssociateId": 961
 }
 ```
 

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Luettgen Group",
-  "StorageKey": "suscipit"
+  "StorageType": "consequatur",
+  "ProviderName": "Hauck, Marvin and Conn",
+  "StorageKey": "sed"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hahn Inc and Sons",
-    "DisplayTooltip": "nobis",
-    "DisplayType": "sed",
+    "DisplayName": "Hessel-Gleason",
+    "DisplayTooltip": "quasi",
+    "DisplayType": "ut",
     "CanOrderBy": false,
-    "Name": "Tillman-Bartoletti",
+    "Name": "Jerde, Willms and Labadie",
     "CanRestrictBy": true,
-    "RestrictionType": "nam",
-    "RestrictionListName": "Schumm, Ferry and Hammes",
+    "RestrictionType": "iure",
+    "RestrictionListName": "Mosciski, O'Conner and Reilly",
     "IsVisible": false,
-    "ExtraInfo": "eos",
-    "Width": "quo",
-    "IconHint": "animi",
-    "HeadingIconHint": "placeat"
+    "ExtraInfo": "et",
+    "Width": "maxime",
+    "IconHint": "quis",
+    "HeadingIconHint": "nihil"
   }
 ]
 ```

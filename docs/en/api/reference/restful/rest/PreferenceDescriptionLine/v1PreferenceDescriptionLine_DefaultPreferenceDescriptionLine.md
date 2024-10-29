@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 966,
-  "PrefDescId": 976,
-  "PrefValue": "iste",
-  "PrefShowValue": "et",
-  "Description": "Robust background function",
+  "PrefDescLineId": 404,
+  "PrefDescId": 663,
+  "PrefValue": "ab",
+  "PrefShowValue": "deleniti",
+  "Description": "Advanced motivating frame",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 711
     }
   }
 }

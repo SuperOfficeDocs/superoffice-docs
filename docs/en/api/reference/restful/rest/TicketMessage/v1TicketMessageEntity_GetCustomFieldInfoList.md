@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "O'Connell-Metz",
-    "DisplayName": "Stehr Inc and Sons",
-    "Description": "Networked multi-tasking circuit",
-    "ShortLabel": "velit",
+    "FieldName": "McDermott-Adams",
+    "DisplayName": "Swaniawski-Terry",
+    "Description": "Polarised bottom-line neural-net",
+    "ShortLabel": "eum",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 153,
-    "TemplateVariableName": "Prosacco-Schroeder"
+    "IsExternal": true,
+    "IsDisplayField": false,
+    "Rank": 763,
+    "TemplateVariableName": "Leuschke-Jakubowski"
   }
 ]
 ```

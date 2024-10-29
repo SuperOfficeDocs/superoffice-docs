@@ -87,10 +87,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stark-Becker",
-  "DeviceName": "Flatley Group",
-  "DeviceIdentifier": "omnis",
-  "TableName": "Russel LLC"
+  "ApplicationName": "Block, Schimmel and Kris",
+  "DeviceName": "Klocko-Reichert",
+  "DeviceIdentifier": "eius",
+  "TableName": "Bashirian-Dietrich"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sint",
-    "Value": "facilis",
-    "RecordId": 139,
-    "CreatedDate": "2001-01-13T03:44:52.6521119+01:00",
-    "UpdatedDate": "2009-05-11T03:44:52.6521119+02:00",
-    "UpdatedBy": "voluptatum",
-    "CreatedBy": "quo",
-    "TableName": "Strosin-Schultz",
+    "Key": "sapiente",
+    "Value": "voluptates",
+    "RecordId": 86,
+    "CreatedDate": "2011-08-20T13:14:06.0382898+02:00",
+    "UpdatedDate": "1998-02-21T13:14:06.0382898+01:00",
+    "UpdatedBy": "quae",
+    "CreatedBy": "et",
+    "TableName": "Rodriguez-Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 792
       }
     }
   }

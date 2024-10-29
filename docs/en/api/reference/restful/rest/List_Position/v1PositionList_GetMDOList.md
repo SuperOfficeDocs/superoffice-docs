@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=quo
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=libero
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Barrows LLC",
-    "ToolTip": "Enim blanditiis repellat qui esse qui dolorum.",
+    "Id": 193,
+    "Name": "Kuhlman LLC",
+    "ToolTip": "Soluta numquam ipsam ut ut vitae.",
     "Deleted": false,
-    "Rank": 148,
-    "Type": "libero",
+    "Rank": 843,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Steuber LLC",
-        "ToolTip": "Id libero ut laudantium quia nihil.",
+        "Id": 426,
+        "Name": "Wisozk-Gutkowski",
+        "ToolTip": "Voluptates molestias nobis qui non eveniet voluptas.",
         "Deleted": true,
-        "Rank": 112,
-        "Type": "rerum",
+        "Rank": 250,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deleniti",
-        "ColorBlock": 624,
-        "ExtraInfo": "veniam",
-        "StyleHint": "quia",
-        "FullName": "Cole Barrows",
+        "IconHint": "veniam",
+        "ColorBlock": 891,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "a",
+        "FullName": "Dr. Hudson Amely Buckridge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 598
+            "FieldLength": 298
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 1001,
-    "ExtraInfo": "culpa",
-    "StyleHint": "aut",
-    "FullName": "Hilton Kemmer",
+    "IconHint": "dicta",
+    "ColorBlock": 318,
+    "ExtraInfo": "vel",
+    "StyleHint": "fuga",
+    "FullName": "Alvera Abdullah Gerhold IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

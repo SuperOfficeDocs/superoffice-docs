@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 614,
-    "Comment": "sunt",
-    "Registered": "2012-07-29T03:44:57.421496+02:00",
-    "RegisteredAssociateId": 865,
-    "Updated": "2006-03-02T03:44:57.421496+01:00",
-    "UpdatedAssociateId": 401,
-    "LegalBaseId": 772,
-    "LegalBaseKey": "placeat",
-    "LegalBaseName": "Lemke, Torphy and Borer",
-    "ConsentPurposeId": 817,
-    "ConsentPurposeKey": "voluptatibus",
-    "ConsentPurposeName": "Bradtke Group",
-    "ConsentSourceId": 344,
-    "ConsentSourceKey": "mollitia",
-    "ConsentSourceName": "Heaney, Maggio and Kub",
+    "ConsentPersonId": 606,
+    "Comment": "aut",
+    "Registered": "2022-08-16T13:14:10.8985434+02:00",
+    "RegisteredAssociateId": 626,
+    "Updated": "2008-09-18T13:14:10.8985434+02:00",
+    "UpdatedAssociateId": 147,
+    "LegalBaseId": 211,
+    "LegalBaseKey": "assumenda",
+    "LegalBaseName": "White, Kozey and Thompson",
+    "ConsentPurposeId": 627,
+    "ConsentPurposeKey": "voluptates",
+    "ConsentPurposeName": "Stamm Inc and Sons",
+    "ConsentSourceId": 754,
+    "ConsentSourceKey": "adipisci",
+    "ConsentSourceName": "West-Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 330
       }
     }
   }

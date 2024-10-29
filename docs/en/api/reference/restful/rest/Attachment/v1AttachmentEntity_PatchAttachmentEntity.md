@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "provident",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "provident",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 596,
-  "Name": "Nader, Hamill and Osinski",
-  "ContentType": "aut",
-  "AttSize": 522,
+  "AttachmentId": 938,
+  "Name": "Bahringer, Bins and McClure",
+  "ContentType": "porro",
+  "AttSize": 69,
   "InlineImage": false,
-  "ContentId": "quis",
-  "AuthKey": "occaecati",
+  "ContentId": "rerum",
+  "AuthKey": "est",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   },
   "_Links": {

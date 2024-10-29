@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 315,
-  "Section": "vel",
-  "Key": "excepturi",
-  "Name": "Harber-Runolfsson",
+  "PrefDescId": 463,
+  "Section": "id",
+  "Key": "incidunt",
+  "Name": "Bahringer Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered needs-based neural-net",
-  "IsBuiltin": false,
-  "TableName": "Denesik, Feest and Stanton",
-  "UserDefinedListId": 944,
-  "Rank": 221,
-  "SubGroup": "odit",
-  "MinLevel": 660,
-  "MaxValue": 784,
-  "MinValue": 900,
-  "RequiredLicense": "numquam",
+  "Description": "Versatile holistic architecture",
+  "IsBuiltin": true,
+  "TableName": "Glover LLC",
+  "UserDefinedListId": 809,
+  "Rank": 71,
+  "SubGroup": "modi",
+  "MinLevel": 764,
+  "MaxValue": 324,
+  "MinValue": 164,
+  "RequiredLicense": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldType": "System.Int32",
+      "FieldLength": 540
     }
   }
 }

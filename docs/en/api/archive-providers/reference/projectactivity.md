@@ -496,6 +496,7 @@ Activity archive provider for the Project card
 |emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -538,11 +539,11 @@ Activity archive provider for the Project card
 |emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
 |emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
 |emailFlow/workflowAssociate/locationAddress|string|Owner - Location: Location| x |
-|emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
 |emailFlow/hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |emailFlow/hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
@@ -642,11 +643,11 @@ Activity archive provider for the Project card
 |project/saintAmountClass|listAny|Amount class|  |
 |project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
-|project/saintIntention|listAny|Intention|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
@@ -746,11 +747,11 @@ Activity archive provider for the Project card
 |person/email/emailDescription|string|Description| x |
 |person/email/emailId|int|ID| x |
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
-|person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |person/personUrl/URLAddress|string|URL| x |
@@ -850,11 +851,11 @@ Activity archive provider for the Project card
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -954,11 +955,11 @@ Activity archive provider for the Project card
 |contact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/streetAddress/state|string|Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|contact/streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
 |contact/streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
 |contact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
@@ -1058,11 +1059,11 @@ Activity archive provider for the Project card
 |contact/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |contact/LastTicket|date|Date of last request|  |
 |contact/LastCompletedTicket|date|Date of last completed request|  |
-|contact/LastDoByTicket|date|Date of last non-completed request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/LastDoByTicket|date|Date of last non-completed request|  |
 |contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |contact/saintSaleStatus|listAny|With status|  |
@@ -1162,11 +1163,11 @@ Activity archive provider for the Project card
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
@@ -1228,7 +1229,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingAddr/person/personExtra/x_person_priority_relation,project/projectEvent/isExternalEvent,person/personRegisteredByFullName,person/restrictionAddress/addressId,person/personExtra/x_person_category_relation
+GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/contactSource,mailingAddr/contact/contactAssociate/contactDepartment,mailingAddr/contact/contactExtra/x_contact_longtext,mailingAddr/contact/contactExtra/x_contact_date,mailingAddr/person/personAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

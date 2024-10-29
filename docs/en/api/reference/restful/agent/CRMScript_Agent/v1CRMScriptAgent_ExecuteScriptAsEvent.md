@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 846,
+  "CRMScriptId": 848,
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "neque",
-    "InputValues2": "aut"
+    "InputValues1": "autem",
+    "InputValues2": "qui"
   },
   "BlockExecution": false,
-  "NavigateTo": "quas",
-  "Message": "laborum",
-  "ShowDialog": "aut",
+  "NavigateTo": "omnis",
+  "Message": "consequatur",
+  "ShowDialog": "animi",
   "OutputValues": {
-    "OutputValues1": "sapiente",
-    "OutputValues2": "ut"
+    "OutputValues1": "eius",
+    "OutputValues2": "eos"
   },
   "StateValues": {
-    "StateValues1": "eaque",
-    "StateValues2": "aliquam"
+    "StateValues1": "minima",
+    "StateValues2": "sapiente"
   },
-  "Exception": "placeat",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "ipsum",
-    "ParserValues2": "nesciunt"
+    "ParserValues1": "dicta",
+    "ParserValues2": "alias"
   },
   "CgiVariables": {
-    "CgiVariables1": "voluptas",
-    "CgiVariables2": "tempore"
+    "CgiVariables1": "fuga",
+    "CgiVariables2": "exercitationem"
   },
-  "CgiContent": "minima",
+  "CgiContent": "animi",
   "Headers": {
-    "Headers1": "necessitatibus",
-    "Headers2": "ipsa"
+    "Headers1": "ducimus",
+    "Headers2": "autem"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 712
+      "FieldLength": 584
     }
   }
 }

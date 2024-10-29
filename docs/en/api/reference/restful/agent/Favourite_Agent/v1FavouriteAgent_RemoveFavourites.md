@@ -70,12 +70,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Toy Inc and Sons",
+  "TableName": "Cruickshank-Murray",
   "RecordIds": [
-    358,
-    211
+    433,
+    795
   ],
-  "AssociateId": 899
+  "AssociateId": 951
 }
 ```
 

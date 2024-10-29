@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 64,
-  "Name": "O'Keefe, Willms and Crona",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 448,
-  "Rank": 345
+  "Id": 455,
+  "Name": "Schneider Inc and Sons",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 397,
+  "Rank": 385
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Hand, Lemke and West",
-  "Tooltip": "repudiandae",
+  "Id": 819,
+  "Name": "Daugherty LLC",
+  "Tooltip": "consectetur",
   "Deleted": true,
-  "UdListDefinitionId": 687,
-  "Rank": 886,
+  "UdListDefinitionId": 176,
+  "Rank": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldLength": 453
     }
   }
 }

@@ -77,7 +77,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 895,
-  "UniqueIdentifier": "dolorem",
-  "Name": "McCullough-Huel",
-  "Description": "Horizontal didactic customer loyalty",
-  "IncludeId": "aliquid",
-  "AccessKey": "sed",
-  "HierarchyId": 398,
-  "Source": "temporibus",
-  "SourceCode": "et",
+  "EjscriptId": 222,
+  "UniqueIdentifier": "accusamus",
+  "Name": "Wehner-Gleason",
+  "Description": "Public-key bi-directional support",
+  "IncludeId": "accusantium",
+  "AccessKey": "nihil",
+  "HierarchyId": 175,
+  "Source": "qui",
+  "SourceCode": "in",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 673,
+  "HtmlOutput": 183,
   "Includes": [
-    877,
-    537
+    989,
+    100
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 705,
-      "LineNumberTo": 269,
-      "Delta": 676,
-      "IncludeId": "perferendis",
+      "LineNumberFrom": 166,
+      "LineNumberTo": 525,
+      "Delta": 202,
+      "IncludeId": "est",
       "IncludedFrom": [
-        "excepturi",
-        "eos"
+        "maxime",
+        "ullam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 970
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2002-06-23T03:44:57.2028009+02:00",
-  "RegisteredAssociateId": 918,
-  "Updated": "2019-10-23T03:44:57.2028009+02:00",
-  "UpdatedAssociateId": 713,
+  "Registered": "2018-03-21T13:14:10.7735359+01:00",
+  "RegisteredAssociateId": 602,
+  "Updated": "2003-01-03T13:14:10.7735359+01:00",
+  "UpdatedAssociateId": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 704
     }
   }
 }

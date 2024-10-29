@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Turcotte Group",
-    "ToolTip": "Vel odit nisi.",
-    "Deleted": true,
-    "Rank": 933,
-    "Type": "et",
-    "ColorBlock": 796,
-    "IconHint": "cum",
-    "Selected": false,
-    "LastChanged": "2020-07-30T03:44:57.9531133+02:00",
+    "Id": 909,
+    "Name": "Conroy-Parisian",
+    "ToolTip": "At voluptas vel a perspiciatis officia qui id.",
+    "Deleted": false,
+    "Rank": 850,
+    "Type": "rerum",
+    "ColorBlock": 570,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2015-10-17T13:14:11.3673211+02:00",
     "ChildItems": [
       {
-        "Id": 873,
-        "Name": "Hartmann, Towne and Balistreri",
-        "ToolTip": "Exercitationem vero quia.",
-        "Deleted": true,
-        "Rank": 891,
-        "Type": "tempore",
-        "ColorBlock": 55,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2004-10-31T03:44:57.9531133+01:00",
+        "Id": 879,
+        "Name": "O'Conner Group",
+        "ToolTip": "Reiciendis aliquam aut.",
+        "Deleted": false,
+        "Rank": 816,
+        "Type": "minima",
+        "ColorBlock": 857,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "2009-03-19T13:14:11.3673211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Keira Stracke",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Matilda Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 667
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "itaque",
+    "ExtraInfo": "culpa",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Litzy Kerluke",
+    "FullName": "Fatima Trudie Larkin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldType": "System.String",
+        "FieldLength": 970
       }
     }
   }

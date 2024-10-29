@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Altenwerth Inc and Sons",
-  "Tooltip": "officiis",
+  "Id": 509,
+  "Name": "Koch, Gleichner and McCullough",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "UdListDefinitionId": 312,
-  "Rank": 958,
+  "UdListDefinitionId": 655,
+  "Rank": 766,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 853
     }
   }
 }

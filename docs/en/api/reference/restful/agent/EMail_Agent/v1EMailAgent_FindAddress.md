@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "provident"
+  "Address": "labore"
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 279,
-    "ContactName": "Okuneva-Nikolaus",
-    "PersonId": 938,
-    "PersonName": "Walsh-Leannon",
-    "AssociateId": 540,
-    "Address": "eveniet",
-    "EmailId": 866,
+    "ContactId": 61,
+    "ContactName": "Schinner Inc and Sons",
+    "PersonId": 423,
+    "PersonName": "Sporer, Nikolaus and Casper",
+    "AssociateId": 154,
+    "Address": "tempora",
+    "EmailId": 628,
     "DuplicatePersonIds": [
-      695,
-      181
+      772,
+      355
     ],
-    "Name": "Murray Group",
+    "Name": "Hammes-Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 718
+        "FieldType": "System.String",
+        "FieldLength": 385
       }
     }
   }

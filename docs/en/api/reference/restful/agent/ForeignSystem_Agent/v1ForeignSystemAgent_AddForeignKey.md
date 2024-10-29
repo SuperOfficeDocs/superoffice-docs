@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Hills Group",
-  "DeviceName": "Hintz-O'Reilly",
-  "DeviceIdentifier": "omnis"
+  "ApplicationName": "Towne, Conn and Russel",
+  "DeviceName": "Bailey LLC",
+  "DeviceIdentifier": "ut"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "ut",
-  "RecordId": 945,
-  "CreatedDate": "2022-10-08T03:44:52.6521119+02:00",
-  "UpdatedDate": "2020-09-13T03:44:52.6521119+02:00",
-  "UpdatedBy": "ratione",
-  "CreatedBy": "maiores",
-  "TableName": "Douglas Group",
+  "Key": "et",
+  "Value": "magni",
+  "RecordId": 31,
+  "CreatedDate": "2011-09-15T13:14:06.0382898+02:00",
+  "UpdatedDate": "1998-08-30T13:14:06.0382898+02:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "necessitatibus",
+  "TableName": "Stracke, Cole and Bauch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 375
     }
   }
 }

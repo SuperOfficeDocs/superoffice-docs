@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Emmerich-Wyman"
+  "Name": "Boehm, Bins and Hackett"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bauch, O'Kon and Waters",
-    "SoPrimaryKey": 428,
-    "EntryName": "Kemmer Inc and Sons",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Trantow, Beer and Predovic",
+    "RuleName": "Bashirian Inc and Sons",
+    "SoPrimaryKey": 435,
+    "EntryName": "Gaylord Group",
+    "EntryIdentifier": "sit",
+    "RuleDisplayName": "Strosin-Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldType": "System.String",
+        "FieldLength": 992
       }
     }
   }

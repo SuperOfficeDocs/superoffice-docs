@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 663,
-  "UniqueId": "nobis",
-  "Name": "Berge-Harvey",
-  "Description": "Ameliorated 24/7 emulation",
-  "AssociateId": 351,
-  "Columns": 242,
+  "DashboardId": 950,
+  "UniqueId": "aut",
+  "Name": "Grady, Murray and Morar",
+  "Description": "Visionary national moderator",
+  "AssociateId": 763,
+  "Columns": 947,
   "Theme": null,
-  "VisibleForAll": 196,
+  "VisibleForAll": 891,
   "VisibleForAssociates": [
-    401,
-    824
+    316,
+    762
   ],
   "VisibleForGroups": [
-    783,
-    990
+    633,
+    167
   ],
-  "PinForAll": 754,
+  "PinForAll": 142,
   "PinForAssociates": [
-    651,
-    55
+    368,
+    325
   ],
   "PinForGroups": [
-    316,
-    693
+    244,
+    374
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 616
     }
   },
   "_Links": {

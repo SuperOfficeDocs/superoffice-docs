@@ -1248,6 +1248,7 @@ This is the archive Provider for the Selection contact/person archive.
 |workflowInstance/emailFlow/workflowName| *None* |Name: Name of the flow definition| x |
 |workflowInstance/emailFlow/workflowDescription| *None* |Description: Description of flow definition| x |
 |workflowInstance/emailFlow/workflowDefinitionStatus| *None* |Status: Status of the flow definition| x |
+|workflowInstance/emailFlow/workflowDefinitionStatusId| *None* |Status: Status of the flow definition| x |
 |workflowInstance/emailFlow/jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?| x |
 |workflowInstance/emailFlow/startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?| x |
 |workflowInstance/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -1267,11 +1268,11 @@ This is the archive Provider for the Selection contact/person archive.
 |chatSession/whenEnded| *None* |Chat ended: When did this chat end?| x |
 |chatSession/duration| *None* |Duration: The duration of the chat session|  |
 |chatSession/timeInQueue| *None* |Time in queue: The time spent waiting in the queue| x |
-|chatSession/queueLength| *None* |Queue length: Queue length when the session was requested| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|chatSession/queueLength| *None* |Queue length: Queue length when the session was requested| x |
 |chatSession/rating| *None* |Rating: Rating of chat session| x |
 |chatSession/agent| *None* |Agent: The agent of the chat| x |
 |chatSession/status| *None* |Status: Status for the chat session| x |
@@ -1371,11 +1372,11 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/quote/version/alternative/quoteline/updatedBy| *None* |Updated by: The user who last updated the data| x |
 |sale/quote/version/alternative/quoteline/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data| x |
 |sale/quote/version/alternative/quoteline/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
-|sale/quote/version/alternative/quoteline/registeredBy| *None* |Registered by: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/registeredBy| *None* |Registered by: The user who registered the data| x |
 |sale/quote/version/alternative/quoteline/registeredByFullName| *None* |Registered by - Full name: The user who registered the data| x |
 |sale/quote/version/alternative/quoteline/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |sale/quote/version/alternative/quoteline/productCategoryKey| *None* |Product category: The category the product is defined in|  |
@@ -1390,7 +1391,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=hasInterests,searchPhone/formattedNumber,contactAssociate/contactId,sale/amountInBaseCurrency,sale/associate/simultaneousEjUser
+GET /api/v1/archive/ContactPersonSelectionV2?$select=contactPhone/description,sale/currency,sale/amountWeightedInBaseCurrency,personExtra/x_person_user_relation,personAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Streich-Bode",
-  "AssociateId": 503
+  "TableName": "Lakin, Franecki and Waelchi",
+  "AssociateId": 913
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Lowe LLC",
-    "RecordId": 658,
-    "AssociateId": 51,
-    "ExtraInfo": "quasi",
-    "Rank": 241,
+    "TableName": "Mohr-Cartwright",
+    "RecordId": 310,
+    "AssociateId": 518,
+    "ExtraInfo": "sunt",
+    "Rank": 502,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldType": "System.String",
+        "FieldLength": 603
       }
     }
   }

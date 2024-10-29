@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Value": "sunt",
-    "Tooltip": "quae",
+    "Id": 600,
+    "Value": "quia",
+    "Tooltip": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldLength": 575
       }
     }
   },
   {
-    "Id": 227,
-    "Value": "sunt",
-    "Tooltip": "quae",
+    "Id": 600,
+    "Value": "quia",
+    "Tooltip": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldLength": 575
       }
     }
   }

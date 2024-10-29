@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 47,
-  "Name": "Steuber-Renner",
-  "Description": "Multi-channelled mission-critical website",
+  "ProjectId": 816,
+  "Name": "Bartoletti, Moore and Renner",
+  "Description": "Programmable web-enabled process improvement",
   "URL": "http://www.example.com/",
-  "Type": "qui",
-  "AssociateId": 164,
-  "AssociateFullName": "George Grant",
-  "TypeId": 698,
-  "Updated": "2018-06-22T03:44:57.4844273+02:00",
-  "StatusId": 945,
-  "Status": "quam",
-  "TextId": 118,
-  "PublishTo": "2005-11-11T03:44:57.4844273+01:00",
-  "PublishFrom": "1998-03-25T03:44:57.4844273+01:00",
-  "IsPublished": true,
+  "Type": "atque",
+  "AssociateId": 285,
+  "AssociateFullName": "Teresa Considine",
+  "TypeId": 209,
+  "Updated": "2021-09-06T13:14:10.9454212+02:00",
+  "StatusId": 674,
+  "Status": "cum",
+  "TextId": 115,
+  "PublishTo": "2022-05-29T13:14:10.9454212+02:00",
+  "PublishFrom": "2019-05-09T13:14:10.9454212+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "764387",
-  "ActiveErpLinks": 603,
+  "ProjectNumber": "1662420",
+  "ActiveErpLinks": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 685
     }
   }
 }

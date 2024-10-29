@@ -1302,7 +1302,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindSale?$select=person/correspondingAssociate/portraitThumbnail,saleStakeholder/person/personExtra/x_person_shorttext,contact/NumberOfActivities
+GET /api/v1/archive/FindSale?$select=person/personPager/description,person/personExtra/x_person_user_relation,contact/business,contact/contactNoMail,contact/contactAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 961,
-  "EMailAddress": "quisquam",
-  "AssociateId": 310,
+  "EMailAccountId": 185,
+  "EMailAddress": "deleniti",
+  "AssociateId": 416,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 400,
-  "ErrorCount": 151,
+  "AccountStatus": 865,
+  "ErrorCount": 637,
   "ErrorReason": "",
-  "InboxFolder": "eos",
-  "SentFolder": "eum",
+  "InboxFolder": "saepe",
+  "SentFolder": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 742
     }
   }
 }

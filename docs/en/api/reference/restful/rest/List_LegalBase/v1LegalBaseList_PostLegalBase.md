@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 627,
-  "Name": "Koss, Volkman and Muller",
-  "Tooltip": "velit",
-  "Rank": 462,
-  "Key": "recusandae",
-  "Deleted": false
+  "LegalBaseId": 826,
+  "Name": "Crooks, Ortiz and Lynch",
+  "Tooltip": "et",
+  "Rank": 38,
+  "Key": "in",
+  "Deleted": true
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 576,
-  "Name": "Kuphal-Lakin",
-  "Tooltip": "hic",
-  "Rank": 817,
-  "Key": "id",
-  "Deleted": false,
+  "LegalBaseId": 310,
+  "Name": "Wunsch LLC",
+  "Tooltip": "incidunt",
+  "Rank": 391,
+  "Key": "labore",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 500
+      "FieldType": "System.Int32",
+      "FieldLength": 778
     }
   }
 }

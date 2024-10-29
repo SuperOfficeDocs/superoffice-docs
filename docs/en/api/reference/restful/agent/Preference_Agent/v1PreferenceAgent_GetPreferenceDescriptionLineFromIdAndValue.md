@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 864,
-  "PrefValue": "eveniet"
+  "PrefDescId": 901,
+  "PrefValue": "velit"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 498,
-  "PrefDescId": 518,
-  "PrefValue": "consequatur",
-  "PrefShowValue": "veritatis",
-  "Description": "Focused 3rd generation time-frame",
-  "IsBuiltin": false,
+  "PrefDescLineId": 352,
+  "PrefDescId": 430,
+  "PrefValue": "error",
+  "PrefShowValue": "rem",
+  "Description": "Integrated tertiary throughput",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 88
     }
   }
 }

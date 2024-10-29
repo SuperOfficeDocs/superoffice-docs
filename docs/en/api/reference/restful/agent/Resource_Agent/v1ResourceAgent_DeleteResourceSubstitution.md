@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Resource/DeleteResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Brown, Koch and Bogisich",
-  "Culture": "aut"
+  "ResourceName": "Zieme, Shanahan and Aufderhar",
+  "Culture": "numquam"
 }
 ```
 

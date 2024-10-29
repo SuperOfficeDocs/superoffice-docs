@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "quasi"
+  "TriggerScriptUniqueId": "dolores"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 760,
-  "Name": "Roberts-Schmidt",
+  "ScreenChooserId": 213,
+  "Name": "Toy, Kautzer and Ziemann",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "in",
-  "Source": "ea",
-  "Registered": "2014-11-19T03:44:52.3865159+01:00",
-  "RegisteredAssociateId": 31,
-  "Updated": "2014-06-13T03:44:52.3865159+02:00",
-  "UpdatedAssociateId": 133,
+  "UniqueIdentifier": "laboriosam",
+  "Source": "consequatur",
+  "Registered": "2021-05-06T13:14:05.7257709+02:00",
+  "RegisteredAssociateId": 933,
+  "Updated": "1999-12-11T13:14:05.7257709+01:00",
+  "UpdatedAssociateId": 326,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 540
     }
   }
 }

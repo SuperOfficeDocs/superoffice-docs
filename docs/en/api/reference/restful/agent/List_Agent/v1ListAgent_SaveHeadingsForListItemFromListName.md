@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Grant Group",
-  "ListItemId": 309,
+  "UdListDefinitionName": "Hane Inc and Sons",
+  "ListItemId": 5,
   "Headings": [
     {
-      "Id": 705,
-      "Name": "Klocko Inc and Sons",
-      "ToolTip": "Facere qui est enim maxime nemo.",
-      "Deleted": true,
-      "Rank": 623,
-      "Type": "deleniti",
-      "ColorBlock": 716,
-      "IconHint": "ut",
-      "Selected": true,
-      "LastChanged": "2003-05-22T03:44:52.6989885+02:00",
+      "Id": 381,
+      "Name": "Hoppe LLC",
+      "ToolTip": "Assumenda incidunt adipisci.",
+      "Deleted": false,
+      "Rank": 760,
+      "Type": "est",
+      "ColorBlock": 370,
+      "IconHint": "eaque",
+      "Selected": false,
+      "LastChanged": "1999-03-28T13:14:06.0851676+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "possimus",
-      "StyleHint": "earum",
+      "ExtraInfo": "et",
+      "StyleHint": "accusantium",
       "Hidden": true,
-      "FullName": "Miss Darian Jordon Boyer"
+      "FullName": "Aisha Bogan"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Schinner Group",
-    "ToolTip": "Qui voluptas.",
-    "Deleted": true,
-    "Rank": 153,
-    "Type": "beatae",
-    "ColorBlock": 494,
-    "IconHint": "dolorem",
+    "Id": 495,
+    "Name": "Halvorson, Volkman and Lubowitz",
+    "ToolTip": "Voluptatem dolore voluptas repellendus enim voluptates.",
+    "Deleted": false,
+    "Rank": 582,
+    "Type": "esse",
+    "ColorBlock": 288,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "1997-07-28T03:44:52.6989885+02:00",
+    "LastChanged": "2012-01-21T13:14:06.0851676+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Rohan-Waelchi",
-        "ToolTip": "Et ducimus soluta sint aut.",
+        "Id": 434,
+        "Name": "Volkman, Bayer and Powlowski",
+        "ToolTip": "Voluptatem consectetur.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "voluptas",
-        "ColorBlock": 284,
-        "IconHint": "temporibus",
+        "Rank": 226,
+        "Type": "velit",
+        "ColorBlock": 924,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2007-06-14T03:44:52.6989885+02:00",
+        "LastChanged": "2016-12-24T13:14:06.0851676+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "qui",
+        "ExtraInfo": "eaque",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Cassandre Lindgren",
+        "FullName": "Miss Henri Damaris Beahan PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 228
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "dicta",
+    "StyleHint": "hic",
     "Hidden": true,
-    "FullName": "Delphia Rath",
+    "FullName": "Mr. Kareem Powlowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldLength": 565
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=maiores
+GET /api/v1/List/ReasonSold/MDOItems?flat=True
+GET /api/v1/List/ReasonSold/MDOItems?query=inventore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "VonRueden Group",
-    "ToolTip": "Id sed vero sint consectetur laborum modi enim.",
-    "Deleted": true,
-    "Rank": 87,
-    "Type": "enim",
+    "Id": 950,
+    "Name": "Toy Group",
+    "ToolTip": "Nisi excepturi perferendis fuga quia quod.",
+    "Deleted": false,
+    "Rank": 688,
+    "Type": "sapiente",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Pfeffer Inc and Sons",
-        "ToolTip": "Est nisi illum in eos et.",
+        "Id": 672,
+        "Name": "Turcotte LLC",
+        "ToolTip": "Dignissimos reprehenderit ut minima et.",
         "Deleted": false,
-        "Rank": 968,
-        "Type": "placeat",
+        "Rank": 300,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorum",
-        "ColorBlock": 112,
-        "ExtraInfo": "ea",
-        "StyleHint": "vel",
-        "FullName": "Mr. Lavada Reichel Sr.",
+        "IconHint": "explicabo",
+        "ColorBlock": 41,
+        "ExtraInfo": "rerum",
+        "StyleHint": "sint",
+        "FullName": "Dr. Kayla Abernathy I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 250
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 666,
-    "ExtraInfo": "pariatur",
-    "StyleHint": "nam",
-    "FullName": "Prof. Angela Stark",
+    "IconHint": "omnis",
+    "ColorBlock": 916,
+    "ExtraInfo": "alias",
+    "StyleHint": "modi",
+    "FullName": "Woodrow Aufderhar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldLength": 35
       }
     }
   }

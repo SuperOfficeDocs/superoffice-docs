@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Powlowski Group",
-    "ToolTip": "Voluptatum ipsa totam veniam accusamus repellendus quia quibusdam.",
+    "Id": 38,
+    "Name": "Lemke-Hoppe",
+    "ToolTip": "Id esse cumque iure.",
     "Deleted": false,
-    "Rank": 911,
-    "Type": "quod",
-    "ColorBlock": 469,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "1999-01-08T03:44:58.1093468+01:00",
+    "Rank": 477,
+    "Type": "autem",
+    "ColorBlock": 752,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2015-10-04T13:14:11.4923293+02:00",
     "ChildItems": [
       {
-        "Id": 210,
-        "Name": "Bradtke Group",
-        "ToolTip": "Laboriosam et odit deleniti alias voluptas.",
-        "Deleted": false,
-        "Rank": 787,
-        "Type": "ut",
-        "ColorBlock": 413,
-        "IconHint": "alias",
-        "Selected": true,
-        "LastChanged": "2005-06-12T03:44:58.1093468+02:00",
+        "Id": 375,
+        "Name": "Schultz, Renner and Klocko",
+        "ToolTip": "Laudantium eaque ut quo consequatur laboriosam.",
+        "Deleted": true,
+        "Rank": 283,
+        "Type": "omnis",
+        "ColorBlock": 219,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "1998-03-11T13:14:11.4923293+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "soluta",
+        "ExtraInfo": "vel",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Otho Trantow",
+        "FullName": "Mr. Gwen Kertzmann II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 873
+            "FieldLength": 113
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dasia Bednar V",
+    "FullName": "Johann Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 723
+        "FieldType": "System.Int32",
+        "FieldLength": 639
       }
     }
   }

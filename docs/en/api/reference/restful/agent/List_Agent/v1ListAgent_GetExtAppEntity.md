@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=837
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=217
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 515,
-  "Name": "Jacobs, Hamill and Adams",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 864,
-  "Filename": "numquam",
-  "Parameters": "non",
-  "Workdir": "in",
+  "ExtAppId": 886,
+  "Name": "Hintz LLC",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 277,
+  "Filename": "qui",
+  "Parameters": "id",
+  "Workdir": "dignissimos",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 859,
-  "WaitToFinish": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 802,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "non",
+  "Path": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 910
     }
   }
 }

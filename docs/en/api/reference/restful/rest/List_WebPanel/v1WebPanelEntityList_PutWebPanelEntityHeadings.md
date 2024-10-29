@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 139,
-    "Name": "Bergstrom, Altenwerth and Koss",
-    "Tooltip": "omnis",
+    "HeadingId": 184,
+    "Name": "Robel, Thiel and Steuber",
+    "Tooltip": "quos",
     "Deleted": true,
-    "Rank": 45,
-    "UdListDefinitionId": 311
+    "Rank": 851,
+    "UdListDefinitionId": 813
   },
   {
-    "HeadingId": 139,
-    "Name": "Bergstrom, Altenwerth and Koss",
-    "Tooltip": "omnis",
+    "HeadingId": 184,
+    "Name": "Robel, Thiel and Steuber",
+    "Tooltip": "quos",
     "Deleted": true,
-    "Rank": 45,
-    "UdListDefinitionId": 311
+    "Rank": 851,
+    "UdListDefinitionId": 813
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 805,
-    "Name": "Quitzon-Toy",
-    "Tooltip": "sapiente",
+    "HeadingId": 951,
+    "Name": "O'Keefe-Dach",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 11,
-    "UdListDefinitionId": 276,
+    "Rank": 542,
+    "UdListDefinitionId": 955,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldLength": 358
       }
     }
   }

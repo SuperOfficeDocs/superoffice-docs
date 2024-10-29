@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "odio"
+  "Context": "rerum"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "explicabo",
-    "ValueType": "expedita",
+    "IsActive": true,
+    "Key": "cumque",
+    "ValueType": "sunt",
     "Mandatory": true,
-    "EncodedDisplayName": "Kub LLC",
-    "EncodedDisplayDescription": "Future-proofed dynamic archive",
-    "IconHint": "cumque",
+    "EncodedDisplayName": "Tromp, Yost and Ferry",
+    "EncodedDisplayDescription": "Up-sized optimizing interface",
+    "IconHint": "voluptatem",
     "ControlInfos": [
       {
-        "Type": "nam",
+        "Type": "veniam",
         "Label": "et",
-        "Dimension": 450,
-        "ListProviderName": "Lubowitz, Ryan and Cole",
-        "ListProviderExtraInfo": "error",
-        "ListProviderPrimaryKeyName": "Jones Group",
-        "ListLeadText": "et",
+        "Dimension": 948,
+        "ListProviderName": "Baumbach, Bailey and Heaney",
+        "ListProviderExtraInfo": "nihil",
+        "ListProviderPrimaryKeyName": "Koepp-Kihn",
+        "ListLeadText": "maxime",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 479
           }
         }
       }
     ],
-    "EncodedDataCaption": "perferendis",
-    "EncodedDataCaptionDescription": "Visionary actuating intranet",
-    "CurrentOperationType": "et",
+    "EncodedDataCaption": "ducimus",
+    "EncodedDataCaptionDescription": "Persistent interactive model",
+    "CurrentOperationType": "distinctio",
     "Values": [
-      "quia",
-      "voluptatem"
+      "voluptas",
+      "quia"
     ],
     "DisplayValues": [
-      "maxime",
-      "laboriosam"
+      "sint",
+      "ut"
     ],
     "OperationInfos": [
       {
-        "Key": "praesentium",
-        "EncodedDisplayName": "Walker-Ledner",
+        "Key": "quo",
+        "EncodedDisplayName": "Quigley, Hayes and Bechtelar",
         "EncodedLeadTexts": [
-          "accusantium",
-          "autem"
+          "velit",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 711
+            "FieldLength": 84
           }
         }
       },
       {
-        "Key": "praesentium",
-        "EncodedDisplayName": "Walker-Ledner",
+        "Key": "quo",
+        "EncodedDisplayName": "Quigley, Hayes and Bechtelar",
         "EncodedLeadTexts": [
-          "accusantium",
-          "autem"
+          "velit",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 711
+            "FieldLength": 84
           }
         }
       }

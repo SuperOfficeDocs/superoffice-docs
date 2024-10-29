@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 902,
-  "Name": "Zemlak LLC",
-  "Tooltip": "quia",
+  "HeadingId": 227,
+  "Name": "Moore, Donnelly and Roberts",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 484,
-  "UdListDefinitionId": 931
+  "Rank": 73,
+  "UdListDefinitionId": 790
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 195,
-  "Name": "Nienow, Bernier and Deckow",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 979,
-  "UdListDefinitionId": 254,
+  "HeadingId": 442,
+  "Name": "Wiza, McKenzie and Vandervort",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 848,
+  "UdListDefinitionId": 422,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

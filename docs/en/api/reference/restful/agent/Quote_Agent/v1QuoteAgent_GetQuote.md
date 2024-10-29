@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 1000
+  "QuoteId": 588
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 752,
-  "SaleId": 302,
-  "QuoteConnectionId": 33,
-  "ERPQuoteKey": "nam",
-  "ERPOrderKey": "et",
-  "ActiveQuoteVersionId": 560,
-  "AcceptedQuoteAlternativeId": 255,
-  "UseValuesFromQuote": 987,
-  "DocumentId": 976,
-  "PoNumber": "1426216",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "rosalia@gottlieb.biz",
+  "QuoteId": 613,
+  "SaleId": 836,
+  "QuoteConnectionId": 885,
+  "ERPQuoteKey": "corporis",
+  "ERPOrderKey": "ex",
+  "ActiveQuoteVersionId": 868,
+  "AcceptedQuoteAlternativeId": 749,
+  "UseValuesFromQuote": 228,
+  "DocumentId": 798,
+  "PoNumber": "1908577",
+  "OrderComment": "et",
+  "PreferredEmailCulture": "olen.steuber@lueilwitzstiedemann.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldType": "System.String",
+      "FieldLength": 499
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=913
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=314
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 259,
-  "Section": "sequi",
-  "Key": "quis",
-  "Name": "O'Connell LLC",
+  "PrefDescId": 435,
+  "Section": "impedit",
+  "Key": "fuga",
+  "Name": "Klein, Anderson and Bradtke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fully-configurable multimedia workforce",
+  "Description": "Programmable impactful data-warehouse",
   "IsBuiltin": true,
-  "TableName": "Kulas, Barton and Wolff",
-  "UserDefinedListId": 916,
-  "Rank": 966,
-  "SubGroup": "eaque",
-  "MinLevel": 628,
-  "MaxValue": 396,
-  "MinValue": 609,
-  "RequiredLicense": "rerum",
+  "TableName": "Greenholt Inc and Sons",
+  "UserDefinedListId": 55,
+  "Rank": 678,
+  "SubGroup": "non",
+  "MinLevel": 44,
+  "MaxValue": 90,
+  "MinValue": 235,
+  "RequiredLicense": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 973
     }
   }
 }

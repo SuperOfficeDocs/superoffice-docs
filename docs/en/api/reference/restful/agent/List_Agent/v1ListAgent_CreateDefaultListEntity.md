@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 485,
-  "Name": "Pfannerstill Group",
-  "Tooltip": "deleniti",
+  "Id": 376,
+  "Name": "Homenick-Spinka",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 577,
+  "Rank": 382,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
+  "ListType": "officia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldLength": 497
     }
   }
 }

@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 501,
-  "PlainMessage": "ipsum",
-  "HtmlMessage": "eos",
-  "SmsMessage": "quam",
-  "Description": "Proactive tertiary data-warehouse",
-  "Subject": "fugit",
-  "FolderId": 993,
-  "HeaderField": "ut",
-  "Design": "sint",
+  "ShipmentMessageId": 274,
+  "PlainMessage": "iste",
+  "HtmlMessage": "praesentium",
+  "SmsMessage": "consectetur",
+  "Description": "Triple-buffered multi-tasking solution",
+  "Subject": "consectetur",
+  "FolderId": 439,
+  "HeaderField": "veniam",
+  "Design": "id",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Devolved actuating projection",
-  "AccessKey": "maiores",
-  "DocumentMessage": 245,
-  "Registered": "1999-04-08T03:44:57.5937539+02:00",
-  "RegisteredAssociateId": 687,
-  "Updated": "2002-02-23T03:44:57.5937539+01:00",
-  "UpdatedAssociateId": 798,
-  "UpdatedCount": 182,
+  "LongDescription": "Managed bottom-line complexity",
+  "AccessKey": "ducimus",
+  "DocumentMessage": 893,
+  "Registered": "1999-09-10T13:14:11.1173007+02:00",
+  "RegisteredAssociateId": 115,
+  "Updated": "2020-02-14T13:14:11.1173007+01:00",
+  "UpdatedAssociateId": 198,
+  "UpdatedCount": 403,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

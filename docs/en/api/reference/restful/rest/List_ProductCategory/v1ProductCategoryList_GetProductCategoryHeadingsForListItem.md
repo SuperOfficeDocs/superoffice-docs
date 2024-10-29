@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 95,
-    "Name": "Lesch LLC",
-    "ToolTip": "Dolore culpa aut eum a velit et molestias.",
+    "Id": 383,
+    "Name": "Corkery-Johnson",
+    "ToolTip": "Totam quo cumque fugiat voluptatibus magni.",
     "Deleted": false,
-    "Rank": 585,
-    "Type": "qui",
-    "ColorBlock": 14,
-    "IconHint": "facilis",
+    "Rank": 182,
+    "Type": "sapiente",
+    "ColorBlock": 432,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2008-03-07T03:44:58.062516+01:00",
+    "LastChanged": "2012-11-25T13:14:11.4610767+01:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Feest, Botsford and Conroy",
-        "ToolTip": "Nisi molestiae atque architecto voluptatem eum deserunt.",
+        "Id": 442,
+        "Name": "O'Hara, Jones and Greenfelder",
+        "ToolTip": "Quo eaque voluptas et et velit.",
         "Deleted": false,
-        "Rank": 520,
-        "Type": "illum",
-        "ColorBlock": 243,
-        "IconHint": "qui",
+        "Rank": 112,
+        "Type": "sit",
+        "ColorBlock": 923,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2023-12-06T03:44:58.062516+01:00",
+        "LastChanged": "2002-04-21T13:14:11.4610767+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "dolores",
+        "ExtraInfo": "fuga",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Hester Hansen",
+        "FullName": "Prof. Adah Balistreri DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 900
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "rerum",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Lindsey Cassin",
+    "FullName": "Leonard Laney Torp Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldType": "System.String",
+        "FieldLength": 171
       }
     }
   }

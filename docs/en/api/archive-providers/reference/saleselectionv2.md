@@ -1309,7 +1309,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=person/kanaFirstName,person/personDirectFax/formattedNumber,person/personUdef/SuperOffice:4,contact/contactAssociate/personEmail,contact/NumberOfNotCompletedActivitiesInPeriod
+GET /api/v1/archive/SaleSelectionV2?$select=person/correspondingAssociate/associateDbId,person/legalBaseStore,contact/postAddress/wgs84longitude,contact/streetAddress/formattedMultiLineAddress,associate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

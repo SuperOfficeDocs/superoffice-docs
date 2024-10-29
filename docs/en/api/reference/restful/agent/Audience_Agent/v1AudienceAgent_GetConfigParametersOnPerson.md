@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 42
+  "PersonId": 299
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 123,
-    "Name": "Graham Group",
-    "Value": "sint",
-    "CreatedDate": "2011-08-03T03:44:52.0740137+02:00",
-    "UpdatedDate": "2021-10-23T03:44:52.0740137+02:00",
-    "CreatedBy": "nobis",
-    "UpdatedBy": "neque",
+    "AudienceLayoutId": 535,
+    "Name": "Feil, Doyle and Mohr",
+    "Value": "autem",
+    "CreatedDate": "2010-06-15T13:14:05.5226336+02:00",
+    "UpdatedDate": "2014-04-04T13:14:05.5226336+02:00",
+    "CreatedBy": "atque",
+    "UpdatedBy": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 771
       }
     }
   }

@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 226,
-  "ERPProductKey": "voluptas",
-  "Rank": 313
+  "QuoteConnectionId": 318,
+  "ERPProductKey": "placeat",
+  "Rank": 16
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"labore"
+"mollitia"
 ```

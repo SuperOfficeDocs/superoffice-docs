@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 668,
-  "Section": "omnis",
-  "Key": "totam",
-  "Name": "Lebsack Group",
+  "PrefDescId": 637,
+  "Section": "laboriosam",
+  "Key": "suscipit",
+  "Name": "Moore Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key solution-oriented ability",
+  "Description": "Switchable 6th generation functionalities",
   "IsBuiltin": true,
-  "TableName": "Marvin Inc and Sons",
-  "UserDefinedListId": 950,
-  "Rank": 86,
-  "SubGroup": "eos",
-  "MinLevel": 713,
-  "MaxValue": 895,
-  "MinValue": 762,
-  "RequiredLicense": "qui",
+  "TableName": "Koch, Dooley and Hickle",
+  "UserDefinedListId": 635,
+  "Rank": 49,
+  "SubGroup": "voluptatem",
+  "MinLevel": 933,
+  "MaxValue": 82,
+  "MinValue": 680,
+  "RequiredLicense": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldLength": 19
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

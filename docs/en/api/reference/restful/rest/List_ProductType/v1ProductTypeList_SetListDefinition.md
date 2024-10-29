@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 236,
-  "Name": "Towne, Boyle and Wolff",
-  "Tooltip": "magnam",
+  "Id": 208,
+  "Name": "Aufderhar, Lehner and Sporer",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 263,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
+  "Rank": 920,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "Name": "Daniel-Schoen",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 219,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
+  "Id": 502,
+  "Name": "Kuhlman Group",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "Rank": 972,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
   "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 582
     }
   }
 }

@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/List/DeleteAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Armstrong Group"
+  "UdListDefinitionName": "Considine, Simonis and Osinski"
 }
 ```
 

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 78,
-    "Name": "Zboncak-Hoeger",
-    "Description": "Polarised web-enabled alliance",
+    "ProjectId": 394,
+    "Name": "Hills, Weber and Ortiz",
+    "Description": "Open-architected empowering matrices",
     "URL": "http://www.example.com/",
-    "Type": "omnis",
-    "AssociateId": 702,
-    "AssociateFullName": "Miss Tiara Hayes Sr.",
-    "TypeId": 696,
-    "Updated": "2005-12-16T03:44:53.0270705+01:00",
-    "StatusId": 416,
-    "Status": "adipisci",
-    "TextId": 990,
-    "PublishTo": "2005-04-17T03:44:53.0270705+02:00",
-    "PublishFrom": "2007-05-20T03:44:53.0270705+02:00",
-    "IsPublished": true,
+    "Type": "architecto",
+    "AssociateId": 727,
+    "AssociateFullName": "Fern Rempel",
+    "TypeId": 154,
+    "Updated": "2007-01-02T13:14:06.2883049+01:00",
+    "StatusId": 300,
+    "Status": "similique",
+    "TextId": 659,
+    "PublishTo": "2020-01-19T13:14:06.2883049+01:00",
+    "PublishFrom": "2024-05-24T13:14:06.2883049+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1181347",
-    "ActiveErpLinks": 296,
+    "ProjectNumber": "844278",
+    "ActiveErpLinks": 209,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 273
+        "FieldType": "System.Int32",
+        "FieldLength": 100
       }
     }
   }

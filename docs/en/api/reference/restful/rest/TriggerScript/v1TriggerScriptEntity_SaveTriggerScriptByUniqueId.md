@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 856,
-  "Name": "Renner, Runolfsdottir and Dicki",
+  "ScreenChooserId": 185,
+  "Name": "D'Amore, Hills and Hand",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "accusamus",
-  "Source": "in",
-  "Registered": "2024-04-26T03:44:57.687517+02:00",
-  "RegisteredAssociateId": 336,
-  "Updated": "2016-10-08T03:44:57.687517+02:00",
-  "UpdatedAssociateId": 606
+  "Enabled": false,
+  "UniqueIdentifier": "omnis",
+  "Source": "minus",
+  "Registered": "2017-08-18T13:14:11.1954363+02:00",
+  "RegisteredAssociateId": 557,
+  "Updated": "2008-07-07T13:14:11.1954363+02:00",
+  "UpdatedAssociateId": 383
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 994,
-  "Name": "Hintz, Hermiston and Padberg",
+  "ScreenChooserId": 801,
+  "Name": "Klocko, Barrows and Buckridge",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "at",
-  "Source": "consequatur",
-  "Registered": "2014-10-11T03:44:57.687517+02:00",
-  "RegisteredAssociateId": 355,
-  "Updated": "2009-09-26T03:44:57.687517+02:00",
-  "UpdatedAssociateId": 547,
+  "UniqueIdentifier": "est",
+  "Source": "hic",
+  "Registered": "2023-10-13T13:14:11.1954363+02:00",
+  "RegisteredAssociateId": 419,
+  "Updated": "2005-01-29T13:14:11.1954363+01:00",
+  "UpdatedAssociateId": 828,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldLength": 770
     }
   }
 }

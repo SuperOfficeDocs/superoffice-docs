@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Johns-Hodkiewicz",
-  "AssociateId": 360,
-  "DetailsTable": 874,
-  "DetailsRecord": 124,
+  "Id": 53,
+  "Name": "Sipes LLC",
+  "AssociateId": 941,
+  "DetailsTable": 463,
+  "DetailsRecord": 334,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "natus",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "porro",
+    "ParameterObject2": "aliquam"
   },
-  "LastStarted": "2008-08-16T03:44:52.6521119+02:00",
-  "Created": "2017-03-05T03:44:52.6521119+01:00",
-  "StartCount": 305,
-  "DatabaseSerialNumber": "1262237",
-  "Context": "odit",
-  "Result": "enim",
+  "LastStarted": "2014-12-05T13:14:06.0539158+01:00",
+  "Created": "2024-07-29T13:14:06.0539158+02:00",
+  "StartCount": 110,
+  "DatabaseSerialNumber": "1254652",
+  "Context": "temporibus",
+  "Result": "qui",
   "State": "All",
-  "Description": "Up-sized zero tolerance moderator",
-  "Response": "ex",
-  "Request": "tempora",
-  "ProgressDescription": "Decentralized executive internet solution",
-  "ProgressPercent": 818,
-  "FileName": "Wilderman, Erdman and Ryan",
+  "Description": "Total stable policy",
+  "Response": "aut",
+  "Request": "delectus",
+  "ProgressDescription": "Programmable fresh-thinking project",
+  "ProgressPercent": 439,
+  "FileName": "Lesch, Wilkinson and Torp",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 226
     }
   }
 }

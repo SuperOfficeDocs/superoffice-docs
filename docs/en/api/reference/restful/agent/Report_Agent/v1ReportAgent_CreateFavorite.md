@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 485,
-  "Name": "Walter-Lindgren",
-  "Description": "Balanced exuding access"
+  "SourceId": 742,
+  "Name": "Kunde, Krajcik and Willms",
+  "Description": "Monitored tertiary utilisation"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 715,
+  "ReportId": 6,
   "ReportCategory": "All",
-  "Description": "Polarised bandwidth-monitored middleware",
+  "Description": "Distributed discrete utilisation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Leuschke Inc and Sons",
-  "AssociateId": 844,
-  "TemplateId": 903,
-  "Published": true,
+  "Name": "O'Kon, Pfeffer and Quitzon",
+  "AssociateId": 346,
+  "TemplateId": 794,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 825
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 881,
-    "Name": "Barrows LLC",
-    "ToolTip": "Sed facere.",
+    "Id": 474,
+    "Name": "Hudson-McLaughlin",
+    "ToolTip": "Quo aut.",
     "Deleted": false,
-    "Rank": 411,
-    "Type": "labore",
-    "ColorBlock": 459,
-    "IconHint": "nihil",
+    "Rank": 827,
+    "Type": "est",
+    "ColorBlock": 875,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2023-08-08T03:44:58.1405935+02:00",
+    "LastChanged": "2006-10-25T13:14:11.5392071+02:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "Batz, Walker and Murazik",
-        "ToolTip": "Quis consequatur iste error quaerat laborum debitis.",
+        "Id": 631,
+        "Name": "Monahan, Williamson and Beahan",
+        "ToolTip": "Quia voluptatem vel incidunt nihil numquam.",
         "Deleted": false,
-        "Rank": 862,
-        "Type": "veniam",
-        "ColorBlock": 796,
-        "IconHint": "sed",
+        "Rank": 531,
+        "Type": "similique",
+        "ColorBlock": 72,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2019-07-11T03:44:58.1405935+02:00",
+        "LastChanged": "2016-04-14T13:14:11.5392071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Miss Akeem Hilll",
+        "ExtraInfo": "eum",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Miss Dessie Langworth II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 336
+            "FieldType": "System.Int32",
+            "FieldLength": 346
           }
         }
       }
     ],
     "ExtraInfo": "rerum",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Maddison Kilback",
+    "StyleHint": "nulla",
+    "Hidden": true,
+    "FullName": "Columbus Marvin DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 284
       }
     }
   }

@@ -93,17 +93,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 594,
-  "Name": "Tremblay, Jacobs and Rohan",
-  "ContentType": "aut",
-  "AttSize": 649,
-  "InlineImage": true,
-  "ContentId": "dicta",
-  "AuthKey": "corporis",
+  "AttachmentId": 805,
+  "Name": "Konopelski-Carroll",
+  "ContentType": "autem",
+  "AttSize": 242,
+  "InlineImage": false,
+  "ContentId": "velit",
+  "AuthKey": "architecto",
   "IsSafeFileExtension": false
 }
 ```
@@ -115,25 +115,25 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 341,
-  "Name": "Jerde-Kozey",
-  "ContentType": "ipsum",
-  "AttSize": 530,
+  "AttachmentId": 909,
+  "Name": "Von, Jacobs and Green",
+  "ContentType": "non",
+  "AttSize": 77,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "minus",
+  "ContentId": "porro",
+  "AuthKey": "aut",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 693
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

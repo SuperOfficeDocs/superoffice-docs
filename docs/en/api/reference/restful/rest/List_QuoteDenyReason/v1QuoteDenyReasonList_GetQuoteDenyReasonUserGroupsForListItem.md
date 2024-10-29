@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Mohr-Denesik",
-    "ToolTip": "Animi explicabo.",
+    "Id": 130,
+    "Name": "Hudson, Kozey and Johns",
+    "ToolTip": "Quis omnis doloribus.",
     "Deleted": false,
-    "Rank": 389,
-    "Type": "illo",
-    "ColorBlock": 978,
-    "IconHint": "asperiores",
-    "Selected": false,
-    "LastChanged": "2023-10-24T03:44:58.1093468+02:00",
+    "Rank": 154,
+    "Type": "qui",
+    "ColorBlock": 489,
+    "IconHint": "eius",
+    "Selected": true,
+    "LastChanged": "2014-07-16T13:14:11.5079552+02:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Wisoky-Spencer",
-        "ToolTip": "Consequatur nam sit quo qui.",
+        "Id": 554,
+        "Name": "Eichmann-Wintheiser",
+        "ToolTip": "Sequi animi ea dignissimos praesentium dolores facilis.",
         "Deleted": false,
-        "Rank": 939,
-        "Type": "quo",
-        "ColorBlock": 249,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2003-07-04T03:44:58.1093468+02:00",
+        "Rank": 968,
+        "Type": "aut",
+        "ColorBlock": 668,
+        "IconHint": "iure",
+        "Selected": false,
+        "LastChanged": "2011-01-04T13:14:11.5079552+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "sequi",
+        "ExtraInfo": "eius",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Floyd Nitzsche",
+        "FullName": "Aniya Leann Little DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "quidem",
+    "ExtraInfo": "qui",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Mr. Domenico Kuvalis",
+    "FullName": "Demetrius King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 308
       }
     }
   }

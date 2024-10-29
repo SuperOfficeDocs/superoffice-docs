@@ -89,12 +89,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Keeling-Bergstrom",
-  "DeviceName": "Friesen-Ondricka",
-  "DeviceIdentifier": "blanditiis",
-  "KeyName": "Bode, Ebert and Gottlieb",
-  "KeyValue": "dolorum",
-  "TableName": "Spencer LLC"
+  "ApplicationName": "Terry Inc and Sons",
+  "DeviceName": "Carroll LLC",
+  "DeviceIdentifier": "ipsa",
+  "KeyName": "Hartmann LLC",
+  "KeyValue": "qui",
+  "TableName": "Jakubowski-Hills"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sit",
-  "Value": "aliquam",
-  "RecordId": 972,
-  "CreatedDate": "2000-07-06T03:44:52.6521119+02:00",
-  "UpdatedDate": "2000-02-01T03:44:52.6521119+01:00",
-  "UpdatedBy": "sit",
-  "CreatedBy": "accusantium",
-  "TableName": "Corwin Inc and Sons",
+  "Key": "molestiae",
+  "Value": "nisi",
+  "RecordId": 409,
+  "CreatedDate": "2018-04-16T13:14:06.0382898+02:00",
+  "UpdatedDate": "2009-01-07T13:14:06.0382898+01:00",
+  "UpdatedBy": "est",
+  "CreatedBy": "et",
+  "TableName": "Grant-McCullough",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   }
 }

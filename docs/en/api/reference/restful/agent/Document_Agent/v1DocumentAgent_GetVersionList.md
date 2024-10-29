@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 565
+  "DocumentId": 364
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "et",
-    "DocumentId": 452,
-    "VersionId": "fugiat",
-    "CheckedInDate": "1997-08-03T03:44:52.5115026+02:00",
-    "CheckedInByName": "Leffler LLC",
-    "CheckedInByAssociateId": 113,
-    "Description": "Visionary high-level service-desk",
-    "DisplayText": "impedit",
+    "ExternalReference": "ut",
+    "DocumentId": 79,
+    "VersionId": "deserunt",
+    "CheckedInDate": "2023-04-13T13:14:05.9132824+02:00",
+    "CheckedInByName": "Senger-Armstrong",
+    "CheckedInByAssociateId": 766,
+    "Description": "Innovative non-volatile workforce",
+    "DisplayText": "possimus",
     "ExtraFields": [
-      "veniam",
-      "occaecati"
+      "voluptatibus",
+      "id"
     ]
   }
 ]

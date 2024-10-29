@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "consectetur",
-  "ProviderName": "Murphy Inc and Sons",
-  "DesiredColumns": "dolores",
-  "PageSize": 134,
-  "PageNumber": 830
+  "Restrictions": "et",
+  "ProviderName": "Renner-Wiegand",
+  "DesiredColumns": "provident",
+  "PageSize": 92,
+  "PageNumber": 632
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Heidenreich Inc and Sons",
-      "DisplayTooltip": "maxime",
-      "DisplayType": "a",
+      "DisplayName": "Schowalter-Kuvalis",
+      "DisplayTooltip": "aut",
+      "DisplayType": "rerum",
       "CanOrderBy": false,
-      "Name": "Hermiston, O'Hara and Paucek",
-      "CanRestrictBy": false,
-      "RestrictionType": "ex",
-      "RestrictionListName": "Tromp, Gerhold and Aufderhar",
+      "Name": "Hammes-Ortiz",
+      "CanRestrictBy": true,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Gutkowski Group",
       "IsVisible": false,
-      "ExtraInfo": "incidunt",
-      "Width": "temporibus",
-      "IconHint": "ut",
-      "HeadingIconHint": "reiciendis"
+      "ExtraInfo": "deserunt",
+      "Width": "repellendus",
+      "IconHint": "qui",
+      "HeadingIconHint": "nihil"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Smitham, Ratke and Feil",
-      "PrimaryKey": 810,
+      "EntityName": "Schulist Inc and Sons",
+      "PrimaryKey": 686,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "libero",
-          "TooltipHint": "consequuntur",
-          "LinkHint": "consequuntur"
+          "DisplayValue": "et",
+          "TooltipHint": "quod",
+          "LinkHint": "esse"
         }
       },
-      "LinkHint": "facere",
-      "StyleHint": "fugit",
+      "LinkHint": "et",
+      "StyleHint": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 269
         }
       }
     }
   ],
-  "RowCount": 509,
+  "RowCount": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

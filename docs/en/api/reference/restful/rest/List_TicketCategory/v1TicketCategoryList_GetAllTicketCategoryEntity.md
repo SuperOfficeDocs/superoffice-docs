@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 300,
-    "ParentId": 491,
-    "Name": "Wolff-McClure",
-    "Fullname": "voluptatem",
-    "CategoryMaster": 758,
+    "TicketCategoryId": 944,
+    "ParentId": 853,
+    "Name": "Blanda, Hammes and Kuphal",
+    "Fullname": "mollitia",
+    "CategoryMaster": 387,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Reilly Inc and Sons",
+    "ExternalName": "Bode, Kessler and Botsford",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 310,
-    "ReplyTemplate": 831,
-    "NotificationEmail": "meredith.hirthe@collier.com",
+    "AssignmentLag": 77,
+    "ReplyTemplate": 750,
+    "NotificationEmail": "dorris@medhurst.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 696,
+    "EffectiveReplyTemplateId": 865,
     "ExtraFields": {
-      "ExtraFields1": "eos",
-      "ExtraFields2": "dolor"
+      "ExtraFields1": "omnis",
+      "ExtraFields2": "voluptas"
     },
     "CustomFields": {
-      "CustomFields1": "accusantium",
-      "CustomFields2": "placeat"
+      "CustomFields1": "sed",
+      "CustomFields2": "quos"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

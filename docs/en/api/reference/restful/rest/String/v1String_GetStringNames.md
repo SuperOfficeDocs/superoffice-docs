@@ -28,8 +28,8 @@ Search the strings using Q parameter.
 | isoLangCode | string |  ISO Language code. ("nb-no", "en-gb" etc) Defaults to English if nothing specified in the Accept-Language header. |
 
 ```http
-GET /api/v1/String?q=cumque
-GET /api/v1/String?isoLangCode=corrupti
+GET /api/v1/String?q=corrupti
+GET /api/v1/String?isoLangCode=beatae
 ```
 
 
@@ -74,7 +74,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "amet",
-  "quibusdam"
+  "quia",
+  "quis"
 ]
 ```

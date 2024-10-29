@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 821,
-  "TargetDimensionId": 368
+  "Year": 506,
+  "TargetDimensionId": 395
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 37,
+    "TargetAssignmentInfoId": 125,
     "Values": [
-      697,
-      541
+      357,
+      138
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 277,
-    "DimensionListItemDisplayName": "Bahringer LLC",
+    "DimensionListItem": 884,
+    "DimensionListItemDisplayName": "Emard, Mraz and Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 730
       }
     }
   }

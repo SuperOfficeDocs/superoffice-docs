@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 670,
-  "Name": "Moore, Heller and Trantow",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 972,
-  "UdListDefinitionId": 578
+  "HeadingId": 758,
+  "Name": "Green, Lueilwitz and Schinner",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 653,
+  "UdListDefinitionId": 258
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 358,
-  "Name": "O'Keefe-Kilback",
-  "Tooltip": "qui",
+  "HeadingId": 478,
+  "Name": "Nienow-Ledner",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 746,
-  "UdListDefinitionId": 82,
+  "Rank": 587,
+  "UdListDefinitionId": 289,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 306
     }
   }
 }

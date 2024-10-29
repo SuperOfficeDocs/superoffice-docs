@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 272,
-    "Name": "Marquardt, Kassulke and Stark",
-    "Tooltip": "dolore",
+    "HeadingId": 45,
+    "Name": "Kuhn Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 356,
-    "UdListDefinitionId": 713,
+    "Rank": 24,
+    "UdListDefinitionId": 172,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldLength": 688
       }
     }
   }

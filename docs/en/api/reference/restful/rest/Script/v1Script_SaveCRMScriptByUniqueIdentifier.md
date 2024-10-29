@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Kovacek Group",
-  "Description": "Reverse-engineered systemic initiative",
-  "IncludeId": "dolor",
-  "Source": "deleniti",
-  "Registered": "2002-10-20T03:44:57.7500442+02:00",
-  "RegisteredBy": "fuga",
-  "Updated": "2016-11-13T03:44:57.7500442+01:00",
-  "UpdatedBy": "quo",
-  "Path": "ut"
+  "UniqueIdentifier": "soluta",
+  "Name": "Jones, Hills and Grimes",
+  "Description": "Cross-group interactive installation",
+  "IncludeId": "ducimus",
+  "Source": "nisi",
+  "Registered": "2023-04-14T13:14:11.2579402+02:00",
+  "RegisteredBy": "eum",
+  "Updated": "2021-04-30T13:14:11.2579402+02:00",
+  "UpdatedBy": "provident",
+  "Path": "nesciunt"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "praesentium",
-  "Name": "Prohaska, Schamberger and Kovacek",
-  "Description": "Synergistic bandwidth-monitored success",
-  "IncludeId": "fugit",
-  "Source": "quo",
-  "Registered": "2009-01-22T03:44:57.7500442+01:00",
-  "RegisteredBy": "accusamus",
-  "Updated": "2017-06-08T03:44:57.7500442+02:00",
-  "UpdatedBy": "dicta",
-  "Path": "quam",
+  "UniqueIdentifier": "voluptas",
+  "Name": "Rippin-Schiller",
+  "Description": "Upgradable zero tolerance structure",
+  "IncludeId": "at",
+  "Source": "officiis",
+  "Registered": "2010-11-17T13:14:11.2579402+01:00",
+  "RegisteredBy": "illum",
+  "Updated": "2024-02-13T13:14:11.2579402+01:00",
+  "UpdatedBy": "qui",
+  "Path": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   }
 }

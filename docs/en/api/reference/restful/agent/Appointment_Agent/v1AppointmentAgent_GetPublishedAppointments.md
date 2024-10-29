@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    283,
-    572
+    6,
+    855
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 590,
-    "StartDate": "2022-01-08T03:44:51.8396645+01:00",
-    "EndDate": "2015-10-19T03:44:51.8396645+02:00",
+    "AppointmentId": 16,
+    "StartDate": "2023-06-26T13:14:05.2257407+02:00",
+    "EndDate": "2007-06-05T13:14:05.2257407+02:00",
     "Type": "BookingForChecklist",
-    "Task": "soluta",
-    "AssociateFullName": "Gideon Schmeler",
-    "ContactName": "Ledner-Stoltenberg",
-    "Description": "Self-enabling multimedia customer loyalty",
-    "PersonFullName": "Mrs. Skylar Ankunding",
-    "PersonId": 410,
-    "ContactId": 826,
-    "ProjectId": 374,
-    "ProjectName": "Walter LLC",
+    "Task": "inventore",
+    "AssociateFullName": "Llewellyn Luettgen IV",
+    "ContactName": "Fay, Hintz and Streich",
+    "Description": "Exclusive actuating database",
+    "PersonFullName": "Grant Witting",
+    "PersonId": 586,
+    "ContactId": 933,
+    "ProjectId": 810,
+    "ProjectName": "Kreiger-McLaughlin",
     "IsPublished": false,
-    "AssociateId": 650,
-    "ColorIndex": 237,
-    "IsFree": false,
+    "AssociateId": 826,
+    "ColorIndex": 760,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 459,
-    "PriorityName": "Wolff-Oberbrunner",
+    "PriorityId": 960,
+    "PriorityName": "Gibson, Pouros and Batz",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2002-03-20T03:44:51.8552876+01:00",
+    "ActiveDate": "2016-09-05T13:14:05.2257407+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-07-21T03:44:51.8552876+02:00",
-    "RecurringEndDate": "2021-10-13T03:44:51.8552876+02:00",
-    "MotherId": 62,
-    "AssignedBy": 555,
-    "AssignedByFullName": "Hellen Pacocha",
+    "RecurringStartDate": "2009-01-06T13:14:05.2257407+01:00",
+    "RecurringEndDate": "2024-10-09T13:14:05.2257407+02:00",
+    "MotherId": 174,
+    "AssignedBy": 369,
+    "AssignedByFullName": "Dr. Micah Roel Champlin",
     "RejectReason": "",
-    "Location": "alias",
-    "AlarmLeadTime": "natus",
-    "SaleId": 558,
-    "SaleName": "Hirthe, O'Kon and Langosh",
-    "AssociateName": "Ferry Group",
-    "CreatedDate": "2017-07-14T03:44:51.8552876+02:00",
-    "CreatedBy": "vel",
-    "CreatedByFullName": "Alivia West",
-    "CreatedByAssociateId": 586,
+    "Location": "quia",
+    "AlarmLeadTime": "minima",
+    "SaleId": 1002,
+    "SaleName": "McLaughlin-Lindgren",
+    "AssociateName": "Dooley-Stokes",
+    "CreatedDate": "2022-02-27T13:14:05.2257407+01:00",
+    "CreatedBy": "magni",
+    "CreatedByFullName": "Ms. Minnie Muller",
+    "CreatedByAssociateId": 349,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 478,
-    "Title": "quis",
-    "Agenda": "cupiditate",
-    "InternalNotes": "explicabo",
+    "PreferredTZLocation": 92,
+    "Title": "quia",
+    "Agenda": "similique",
+    "InternalNotes": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 190
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Welch-Bahringer",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "Rank": 295,
+  "Id": 636,
+  "Name": "Hoppe-Nicolas",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 645,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellat",
+  "ListType": "voluptates",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 299,
-  "Name": "Hegmann, Vandervort and Lang",
-  "Tooltip": "nihil",
+  "Id": 757,
+  "Name": "Frami Inc and Sons",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 105,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 477,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nulla",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 860
     }
   }
 }

@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 483,
+  "SelectionId": 296,
   "Criteria": [
     {
-      "Name": "Murazik, Hyatt and Nicolas",
-      "Operator": "ut",
+      "Name": "Schoen, Willms and Yundt",
+      "Operator": "commodi",
       "Values": [
-        "non",
-        "voluptatibus"
+        "est",
+        "reiciendis"
       ],
       "DisplayValues": [
-        "eius",
-        "qui"
+        "dignissimos",
+        "fugiat"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 923,
+      "InterParenthesis": 680,
       "InterOperator": "And",
-      "UniqueHash": 327
+      "UniqueHash": 639
     }
   ],
-  "Filter": "consequatur"
+  "Filter": "aut"
 }
 ```
 
@@ -124,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mertz, Miller and Hirthe",
-    "Operator": "deleniti",
+    "Name": "Mohr-Adams",
+    "Operator": "totam",
     "Values": [
-      "earum",
+      "ut",
       "et"
     ],
     "DisplayValues": [
-      "est",
-      "laborum"
+      "optio",
+      "dolorem"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ortiz-Weber",
-        "Operator": "rerum",
+        "Name": "Walker, Schneider and Altenwerth",
+        "Operator": "vero",
         "Values": [
-          "unde",
-          "dicta"
+          "non",
+          "suscipit"
         ],
         "DisplayValues": [
-          "sunt",
-          "in"
+          "repellendus",
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 713,
+        "InterParenthesis": 395,
         "InterOperator": "And",
-        "UniqueHash": 851
+        "UniqueHash": 565
       }
     ],
-    "InterParenthesis": 32,
+    "InterParenthesis": 193,
     "InterOperator": "And",
-    "UniqueHash": 614
+    "UniqueHash": 703
   }
 ]
 ```

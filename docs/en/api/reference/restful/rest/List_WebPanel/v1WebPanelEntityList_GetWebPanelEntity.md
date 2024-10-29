@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,26 +93,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 619,
-  "Name": "Wehner-Rempel",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 209,
+  "WebPanelId": 31,
+  "Name": "Ward, Carroll and Feest",
+  "Tooltip": "provident",
+  "Deleted": true,
+  "Rank": 358,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Cruickshank-Leannon",
+  "WindowName": "Beatty-Abshire",
   "Url": "http://www.example.com/",
-  "ProgId": "sunt",
-  "Icon": 352,
+  "ProgId": "voluptas",
+  "Icon": 576,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 164
     }
   }
 }

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Gutmann, Wyman and Denesik",
-  "DeviceName": "Ankunding-Oberbrunner",
-  "DeviceIdentifier": "optio"
+  "ApplicationName": "Koelpin, Daniel and Kutch",
+  "DeviceName": "Ledner-Schmidt",
+  "DeviceIdentifier": "temporibus"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "praesentium",
-  "Value": "eveniet",
-  "RecordId": 542,
-  "CreatedDate": "2002-10-24T03:44:52.6521119+02:00",
-  "UpdatedDate": "2002-10-03T03:44:52.6521119+02:00",
-  "UpdatedBy": "id",
-  "CreatedBy": "est",
-  "TableName": "Zboncak, Gutkowski and Fay",
+  "Key": "explicabo",
+  "Value": "officiis",
+  "RecordId": 476,
+  "CreatedDate": "2014-06-25T13:14:06.0382898+02:00",
+  "UpdatedDate": "2022-06-20T13:14:06.0382898+02:00",
+  "UpdatedBy": "iure",
+  "CreatedBy": "tenetur",
+  "TableName": "Nader Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldLength": 810
     }
   }
 }

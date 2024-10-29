@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 359,
-  "StartTime": "2005-06-05T03:44:51.8396645+02:00",
-  "EndTime": "2012-05-21T03:44:51.8396645+02:00",
-  "Count": 204,
+  "ContactId": 160,
+  "StartTime": "2003-03-01T13:14:05.2257407+01:00",
+  "EndTime": "2020-04-16T13:14:05.2257407+02:00",
+  "Count": 672,
   "TaskIds": [
-    202,
-    453
+    741,
+    791
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 90,
-    "StartDate": "2004-10-01T03:44:51.8396645+02:00",
-    "EndDate": "2001-10-28T03:44:51.8396645+01:00",
+    "AppointmentId": 481,
+    "StartDate": "2022-05-16T13:14:05.2257407+02:00",
+    "EndDate": "2022-07-13T13:14:05.2257407+02:00",
     "Type": "BookingForChecklist",
-    "Task": "neque",
-    "AssociateFullName": "Mr. Cora Schinner III",
-    "ContactName": "Ernser, Raynor and Parisian",
-    "Description": "Virtual didactic hub",
-    "PersonFullName": "Alison Ankunding",
-    "PersonId": 865,
-    "ContactId": 391,
-    "ProjectId": 974,
-    "ProjectName": "Hane Group",
-    "IsPublished": true,
-    "AssociateId": 808,
-    "ColorIndex": 613,
+    "Task": "eos",
+    "AssociateFullName": "Gus Maggio",
+    "ContactName": "Herman Group",
+    "Description": "Automated neutral paradigm",
+    "PersonFullName": "Justen Howe",
+    "PersonId": 421,
+    "ContactId": 503,
+    "ProjectId": 300,
+    "ProjectName": "Raynor-Brakus",
+    "IsPublished": false,
+    "AssociateId": 939,
+    "ColorIndex": 753,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 864,
-    "PriorityName": "Homenick, Zboncak and Schmeler",
+    "PriorityId": 569,
+    "PriorityName": "Hermann-Quigley",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1998-03-15T03:44:51.8396645+01:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2016-09-23T13:14:05.2257407+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-03-07T03:44:51.8396645+01:00",
-    "RecurringEndDate": "2011-08-03T03:44:51.8396645+02:00",
-    "MotherId": 847,
-    "AssignedBy": 531,
-    "AssignedByFullName": "Mrs. April White",
+    "RecurringStartDate": "2014-11-20T13:14:05.2257407+01:00",
+    "RecurringEndDate": "2007-07-30T13:14:05.2257407+02:00",
+    "MotherId": 934,
+    "AssignedBy": 786,
+    "AssignedByFullName": "Mr. Donny Vallie Keeling MD",
     "RejectReason": "",
-    "Location": "deserunt",
-    "AlarmLeadTime": "asperiores",
-    "SaleId": 420,
-    "SaleName": "Wolf, Lowe and Block",
-    "AssociateName": "Johns-Fadel",
-    "CreatedDate": "2013-02-20T03:44:51.8396645+01:00",
-    "CreatedBy": "cumque",
-    "CreatedByFullName": "Doug Reichert IV",
-    "CreatedByAssociateId": 30,
+    "Location": "est",
+    "AlarmLeadTime": "eaque",
+    "SaleId": 185,
+    "SaleName": "Gislason-Hermann",
+    "AssociateName": "Wisozk LLC",
+    "CreatedDate": "2010-07-16T13:14:05.2257407+02:00",
+    "CreatedBy": "eaque",
+    "CreatedByFullName": "Itzel Walsh",
+    "CreatedByAssociateId": 809,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 137,
-    "Title": "quae",
-    "Agenda": "voluptatem",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 407,
+    "Title": "maxime",
+    "Agenda": "nihil",
+    "InternalNotes": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 572
+        "FieldType": "System.Int32",
+        "FieldLength": 908
       }
     }
   }

@@ -110,33 +110,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 39,
-  "Name": "Bins-Ondricka",
-  "Rank": 669,
-  "Tooltip": "animi",
-  "Icon": "laudantium",
-  "DefaultTicketStatus": 551,
+  "TicketTypeId": 990,
+  "Name": "Anderson, Macejkovic and Douglas",
+  "Rank": 571,
+  "Tooltip": "deleniti",
+  "Icon": "dicta",
+  "DefaultTicketStatus": 107,
   "TicketStatuses": [
-    175,
-    209
+    345,
+    156
   ],
-  "DefaultTicketPriority": 205,
+  "DefaultTicketPriority": 806,
   "TicketPriorities": [
-    919,
-    908
+    378,
+    813
   ],
-  "ReplyTemplate": 552,
+  "ReplyTemplate": 478,
   "IsExternalVisible": false,
   "IsDefault": true,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    176,
-    244
+    736,
+    238
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -148,40 +148,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 95,
-  "Name": "Mohr Inc and Sons",
-  "Rank": 353,
-  "Tooltip": "autem",
-  "Icon": "nemo",
-  "DefaultTicketStatus": 892,
+  "TicketTypeId": 813,
+  "Name": "Conn, Hansen and Frami",
+  "Rank": 161,
+  "Tooltip": "ipsa",
+  "Icon": "nihil",
+  "DefaultTicketStatus": 434,
   "TicketStatuses": [
-    555,
-    891
+    511,
+    483
   ],
-  "DefaultTicketPriority": 577,
+  "DefaultTicketPriority": 917,
   "TicketPriorities": [
-    835,
-    12
+    3,
+    812
   ],
-  "ReplyTemplate": 238,
+  "ReplyTemplate": 177,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    802,
-    596
+    44,
+    381
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldLength": 839
     }
   }
 }

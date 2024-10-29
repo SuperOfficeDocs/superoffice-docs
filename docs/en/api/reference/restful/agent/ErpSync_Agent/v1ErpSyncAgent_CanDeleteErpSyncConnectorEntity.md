@@ -74,7 +74,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectorId": 149
+  "ErpSyncConnectorId": 651
 }
 ```
 

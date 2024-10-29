@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-12-09T03:44:51.9177803+01:00",
-  "AppointmentId": 880,
-  "Description": "Synergized 3rd generation encryption",
-  "Title": "nulla",
-  "Agenda": "vero",
-  "InternalNotes": "unde",
-  "StartDate": "2016-06-08T03:44:51.9177803+02:00",
-  "EndDate": "2011-12-21T03:44:51.9177803+01:00",
+  "CreatedDate": "2003-10-04T13:14:05.3819998+02:00",
+  "AppointmentId": 599,
+  "Description": "Mandatory next generation artificial intelligence",
+  "Title": "error",
+  "Agenda": "voluptas",
+  "InternalNotes": "velit",
+  "StartDate": "2019-04-08T13:14:05.3819998+02:00",
+  "EndDate": "2013-12-15T13:14:05.3819998+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 50,
+  "MotherId": 818,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-07-02T03:44:51.9177803+02:00",
+  "UpdatedDate": "2008-10-28T13:14:05.3819998+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 427,
+  "ActiveLinks": 988,
   "Links": [
     {
-      "EntityName": "Osinski Group",
-      "Id": 586,
-      "Description": "Self-enabling transitional installation",
-      "ExtraInfo": "omnis",
-      "LinkId": 106,
+      "EntityName": "Bode-Kuhn",
+      "Id": 930,
+      "Description": "De-engineered high-level interface",
+      "ExtraInfo": "dolore",
+      "LinkId": 213,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 694
         }
       }
     }
   ],
-  "AlarmLeadTime": "minus",
-  "HasAlarm": false,
-  "ColorIndex": 744,
+  "AlarmLeadTime": "quam",
+  "HasAlarm": true,
+  "ColorIndex": 72,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "quos",
-  "LeadTime": "corrupti",
-  "Location": "molestiae",
-  "RejectCounter": 237,
+  "IsAlldayEvent": true,
+  "LagTime": "repellendus",
+  "LeadTime": "est",
+  "Location": "accusantium",
+  "RejectCounter": 610,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 515,
-      "PersonId": 997,
-      "ContactId": 819,
-      "EmailId": 640,
+      "AssociateId": 102,
+      "PersonId": 666,
+      "ContactId": 449,
+      "EmailId": 474,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dagmar.simonis@graham.com",
-      "Description": "Compatible background array"
+      "EmailAddress": "carolyne@littelbartoletti.name",
+      "Description": "Pre-emptive 4th generation array"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-04-22T03:44:51.9177803+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2009-01-22T13:14:05.3819998+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 946,
+  "PreferredTZLocation": 635,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 250,
+  "SuggestedAppointmentId": 364,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "fugiat",
+  "CentralserviceVideomeetId": "quis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Maymie Wisozk",
-    "SuperOffice:2": "Karianne Crist"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "309967059"
   },
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "debitis"
+    "CustomFields1": "sit",
+    "CustomFields2": "odit"
   },
-  "PublishEventDate": "2024-02-14T03:44:51.9177803+01:00",
-  "PublishTo": "2008-05-06T03:44:51.9177803+02:00",
-  "PublishFrom": "2008-02-22T03:44:51.9177803+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2018-03-07T13:14:05.3819998+01:00",
+  "PublishTo": "2013-10-20T13:14:05.3819998+02:00",
+  "PublishFrom": "2006-10-13T13:14:05.3819998+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 525,
+      "VisibleId": 400,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 953
+          "FieldType": "System.Int32",
+          "FieldLength": 206
         }
       }
     },
     {
-      "VisibleId": 525,
+      "VisibleId": 400,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 953
+          "FieldType": "System.Int32",
+          "FieldLength": 206
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 683
     }
   }
 }

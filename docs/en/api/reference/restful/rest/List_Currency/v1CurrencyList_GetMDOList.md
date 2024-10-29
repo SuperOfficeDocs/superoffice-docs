@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=rerum
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=alias
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Senger, Franecki and Franecki",
-    "ToolTip": "Voluptatem sint.",
+    "Id": 935,
+    "Name": "Ratke Group",
+    "ToolTip": "Aut omnis illo.",
     "Deleted": false,
-    "Rank": 133,
-    "Type": "aperiam",
+    "Rank": 412,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Hayes LLC",
-        "ToolTip": "Aut praesentium aut dolores.",
-        "Deleted": true,
-        "Rank": 175,
-        "Type": "dolore",
+        "Id": 913,
+        "Name": "Klocko, Ortiz and Turner",
+        "ToolTip": "Ut ad odit quidem iure.",
+        "Deleted": false,
+        "Rank": 222,
+        "Type": "voluptate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illo",
-        "ColorBlock": 197,
-        "ExtraInfo": "beatae",
-        "StyleHint": "voluptatem",
-        "FullName": "Blanca Amya Osinski PhD",
+        "IconHint": "aliquam",
+        "ColorBlock": 175,
+        "ExtraInfo": "culpa",
+        "StyleHint": "dolorem",
+        "FullName": "Destinee Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 975
+            "FieldLength": 9
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 221,
-    "ExtraInfo": "est",
-    "StyleHint": "similique",
-    "FullName": "Breanna Hettinger",
+    "IconHint": "enim",
+    "ColorBlock": 797,
+    "ExtraInfo": "corrupti",
+    "StyleHint": "officiis",
+    "FullName": "Barry Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 210
       }
     }
   }

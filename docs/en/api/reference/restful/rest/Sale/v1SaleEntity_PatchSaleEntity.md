@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "iure",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "iure",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "natus",
+  "SaleText": "autem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-09-03T03:44:57.5469246+02:00",
-  "Amount": 19361.852,
-  "SaleId": 645,
-  "Earning": 16118.162,
-  "EarningPercent": 1855.328,
-  "Heading": "possimus",
-  "Number": "1397120",
-  "Probability": 659,
-  "CreatedDate": "2006-10-12T03:44:57.5469246+02:00",
-  "UpdatedDate": "2017-10-29T03:44:57.5469246+01:00",
+  "Saledate": "1999-09-13T13:14:11.0860489+02:00",
+  "Amount": 9003.982,
+  "SaleId": 712,
+  "Earning": 4600.7119999999995,
+  "EarningPercent": 16017.874,
+  "Heading": "quia",
+  "Number": "349342",
+  "Probability": 524,
+  "CreatedDate": "2018-08-15T13:14:11.0860489+02:00",
+  "UpdatedDate": "2023-12-11T13:14:11.0860489+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 134,
+  "ActiveLinks": 41,
   "Links": [
     {
-      "EntityName": "Williamson, Schaefer and Tremblay",
-      "Id": 335,
-      "Description": "Programmable hybrid data-warehouse",
-      "ExtraInfo": "est",
-      "LinkId": 312,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 657
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2024-02-19T03:44:57.5469246+01:00",
-  "Postit": "voluptatibus",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2010-07-20T03:44:57.5469246+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Jacobson LLC",
-      "Comment": "ad",
-      "StakeholderRoleId": 479,
-      "CountryId": 468,
-      "PersonId": 361,
-      "EmailDescription": "karine.stark@dubuque.info",
-      "EmailId": 229,
-      "EmailAddress": "jana_homenick@watsicaaltenwerth.info",
-      "PhoneId": 426,
-      "ContactName": "Sipes LLC",
-      "ContactId": 900,
-      "SaleId": 375,
-      "Mrmrs": "est",
-      "Firstname": "Lorna",
-      "MiddleName": "Anderson-Gibson",
-      "Lastname": "Schroeder",
-      "SaleStakeholderId": 690,
-      "Rank": 434,
-      "Phone": "725-517-6679",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 376,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1323581721",
-    "SuperOffice:2": "Laisha Rippin"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "voluptas"
-  },
-  "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "nam"
-  },
-  "PublishEventDate": "2004-01-28T03:44:57.5469246+01:00",
-  "PublishTo": "2002-04-22T03:44:57.5469246+02:00",
-  "PublishFrom": "2005-03-26T03:44:57.5469246+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 401,
-      "Visibility": "All",
-      "DisplayValue": "est",
+      "EntityName": "Kuhic-Blanda",
+      "Id": 211,
+      "Description": "Persistent cohesive pricing structure",
+      "ExtraInfo": "fuga",
+      "LinkId": 242,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldLength": 317
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2009-11-19T13:14:11.0860489+01:00",
+  "Postit": "necessitatibus",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2002-11-27T13:14:11.0860489+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Heaney LLC",
+      "Comment": "voluptatem",
+      "StakeholderRoleId": 294,
+      "CountryId": 611,
+      "PersonId": 955,
+      "EmailDescription": "richard@bergstromkonopelski.com",
+      "EmailId": 133,
+      "EmailAddress": "lisandro@konopelski.name",
+      "PhoneId": 757,
+      "ContactName": "Powlowski LLC",
+      "ContactId": 815,
+      "SaleId": 503,
+      "Mrmrs": "sunt",
+      "Firstname": "Abelardo",
+      "MiddleName": "Turner Inc and Sons",
+      "Lastname": "Upton",
+      "SaleStakeholderId": 303,
+      "Rank": 64,
+      "Phone": "597-693-7353 x235",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 813
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 63,
+  "UserDefinedFields": {
+    "SuperOffice:1": "927180411",
+    "SuperOffice:2": "Miss Elizabeth Grady III"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "neque"
+  },
+  "CustomFields": {
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "voluptatem"
+  },
+  "PublishEventDate": "2015-12-30T13:14:11.0860489+01:00",
+  "PublishTo": "2018-04-05T13:14:11.0860489+02:00",
+  "PublishFrom": "2011-10-22T13:14:11.0860489+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 636,
+      "Visibility": "All",
+      "DisplayValue": "molestiae",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 689
         }
       }
     },
     {
-      "VisibleId": 401,
+      "VisibleId": 636,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldLength": 689
         }
       }
     }
@@ -305,13 +305,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

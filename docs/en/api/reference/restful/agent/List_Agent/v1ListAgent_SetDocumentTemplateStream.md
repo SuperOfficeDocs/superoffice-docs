@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "harum",
-  "PluginId": 558
+  "LanguageCode": "quos",
+  "PluginId": 170
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 237,
-  "Name": "Kiehn Inc and Sons",
-  "Tooltip": "at",
-  "SaveInDb": 432,
-  "Filename": "soluta",
-  "DefaultOref": "dolores",
+  "DocumentTemplateId": 4,
+  "Name": "Moen-Champlin",
+  "Tooltip": "veniam",
+  "SaveInDb": 390,
+  "Filename": "dolor",
+  "DefaultOref": "in",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 775,
-  "IntentId": 153,
-  "IsDefaultPublished": true,
-  "Rank": 1002,
-  "LoadTemplateFromPlugin": 688,
-  "MimeType": "earum",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 97,
+  "AutoeventId": 769,
+  "IntentId": 994,
+  "IsDefaultPublished": false,
+  "Rank": 787,
+  "LoadTemplateFromPlugin": 72,
+  "MimeType": "enim",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 143,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "berry@mclaughlin.name",
+  "EmailSubject": "reta.anderson@vonrueden.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cody@cole.biz",
+  "SenderEmailAddress": "ardella@gusikowskijerde.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 203
     }
   }
 }

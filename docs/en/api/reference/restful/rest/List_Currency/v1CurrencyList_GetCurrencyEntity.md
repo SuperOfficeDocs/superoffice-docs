@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 679,
-  "Name": "Bosco LLC",
-  "Tooltip": "excepturi",
-  "Rank": 458,
-  "Rate": 18735.052,
-  "Units": 17450.112,
-  "Deleted": true,
+  "CurrencyId": 433,
+  "Name": "Greenfelder, Price and Nader",
+  "Tooltip": "sit",
+  "Rank": 52,
+  "Rate": 26773.762,
+  "Units": 22310.946,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldLength": 336
     }
   }
 }

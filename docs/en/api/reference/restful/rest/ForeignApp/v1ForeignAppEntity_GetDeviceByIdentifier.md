@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 15 Aug 2014 03:44:57 G8T
+Last-Modified: Tue, 09 Mar 1999 13:14:10 G3T
 
 {
-  "ForeignDeviceId": 283,
-  "Name": "Mayert LLC",
-  "CreatedDate": "2012-09-08T03:44:57.359003+02:00",
-  "UpdatedDate": "2014-08-15T03:44:57.359003+02:00",
-  "AssociateFullName": "Christiana Prohaska",
-  "CreatedBy": "nisi",
-  "UpdatedBy": "esse",
-  "DeviceIdentifier": "voluptatem",
-  "ForeignAppId": 641,
+  "ForeignDeviceId": 711,
+  "Name": "Wyman-Swaniawski",
+  "CreatedDate": "2009-05-07T13:14:10.8360396+02:00",
+  "UpdatedDate": "1999-03-09T13:14:10.8360396+01:00",
+  "AssociateFullName": "Mr. Michelle Satterfield",
+  "CreatedBy": "velit",
+  "UpdatedBy": "vel",
+  "DeviceIdentifier": "dolor",
+  "ForeignAppId": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

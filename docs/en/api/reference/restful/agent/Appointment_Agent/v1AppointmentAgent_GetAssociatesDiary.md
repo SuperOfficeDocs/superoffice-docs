@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    611,
-    834
+    320,
+    977
   ],
-  "StartTime": "2020-02-19T03:44:51.8552876+01:00",
-  "EndTime": "2010-07-10T03:44:51.8552876+02:00"
+  "StartTime": "2008-09-19T13:14:05.2413666+02:00",
+  "EndTime": "2015-12-27T13:14:05.2413666+01:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 667,
-    "StartDate": "2003-10-23T03:44:51.8552876+02:00",
-    "EndDate": "2022-10-01T03:44:51.8552876+02:00",
+    "AppointmentId": 985,
+    "StartDate": "2005-05-17T13:14:05.2413666+02:00",
+    "EndDate": "2008-07-31T13:14:05.2413666+02:00",
     "Type": "BookingForChecklist",
-    "Task": "reprehenderit",
-    "AssociateFullName": "Gabriel Hoppe",
-    "ContactName": "Leuschke, Murray and McDermott",
-    "Description": "Compatible 5th generation open system",
-    "PersonFullName": "Norene Kemmer",
-    "PersonId": 968,
-    "ContactId": 742,
-    "ProjectId": 364,
-    "ProjectName": "Bosco, Streich and Hermann",
-    "IsPublished": true,
-    "AssociateId": 956,
-    "ColorIndex": 29,
-    "IsFree": true,
+    "Task": "quibusdam",
+    "AssociateFullName": "Mr. Kyra Tevin Roob",
+    "ContactName": "Vandervort-Feeney",
+    "Description": "Streamlined impactful portal",
+    "PersonFullName": "Ms. Rickie Bernadette Larkin Sr.",
+    "PersonId": 498,
+    "ContactId": 737,
+    "ProjectId": 83,
+    "ProjectName": "Gerlach Group",
+    "IsPublished": false,
+    "AssociateId": 96,
+    "ColorIndex": 736,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 240,
-    "PriorityName": "Rutherford-Kuhic",
+    "PriorityId": 177,
+    "PriorityName": "Kautzer Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2020-05-28T03:44:51.8552876+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2020-11-27T13:14:05.2413666+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-11-15T03:44:51.8552876+01:00",
-    "RecurringEndDate": "2013-04-14T03:44:51.8552876+02:00",
-    "MotherId": 242,
-    "AssignedBy": 438,
-    "AssignedByFullName": "Dr. Cleta Barrows MD",
+    "RecurringStartDate": "1997-07-12T13:14:05.2413666+02:00",
+    "RecurringEndDate": "2001-07-28T13:14:05.2413666+02:00",
+    "MotherId": 235,
+    "AssignedBy": 607,
+    "AssignedByFullName": "Ms. Anita Feeney MD",
     "RejectReason": "",
-    "Location": "molestiae",
-    "AlarmLeadTime": "ut",
-    "SaleId": 495,
-    "SaleName": "Hyatt-Denesik",
-    "AssociateName": "Turcotte Inc and Sons",
-    "CreatedDate": "2018-10-31T03:44:51.8552876+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Jonathan Glennie Kohler III",
-    "CreatedByAssociateId": 695,
+    "Location": "et",
+    "AlarmLeadTime": "quaerat",
+    "SaleId": 838,
+    "SaleName": "Kiehn Inc and Sons",
+    "AssociateName": "Gerlach-Towne",
+    "CreatedDate": "1998-10-29T13:14:05.2413666+01:00",
+    "CreatedBy": "eum",
+    "CreatedByFullName": "Dr. Jaylen Mara Nitzsche DDS",
+    "CreatedByAssociateId": 317,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 558,
-    "Title": "aliquam",
-    "Agenda": "et",
-    "InternalNotes": "odit",
+    "PreferredTZLocation": 561,
+    "Title": "qui",
+    "Agenda": "quis",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldType": "System.String",
+        "FieldLength": 493
       }
     }
   }

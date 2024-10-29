@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 351,
-  "LanguageCode": "quis"
+  "DocumentTemplateId": 625,
+  "LanguageCode": "blanditiis"
 }
 ```
 

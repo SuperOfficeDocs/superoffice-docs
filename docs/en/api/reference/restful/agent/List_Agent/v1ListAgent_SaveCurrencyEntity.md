@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 347,
-  "Name": "Abbott Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 652,
-  "Rate": 9489.752,
-  "Units": 7223.87,
-  "Deleted": false
+  "CurrencyId": 529,
+  "Name": "Schinner LLC",
+  "Tooltip": "voluptatum",
+  "Rank": 523,
+  "Rate": 25752.077999999998,
+  "Units": 30268.172,
+  "Deleted": true
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 898,
-  "Name": "Kovacek, Hane and Witting",
-  "Tooltip": "assumenda",
-  "Rank": 345,
-  "Rate": 28456.719999999998,
-  "Units": 25382.266,
+  "CurrencyId": 602,
+  "Name": "Greenholt, Yost and Kohler",
+  "Tooltip": "quo",
+  "Rank": 396,
+  "Rate": 29525.414,
+  "Units": 4171.354,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldLength": 926
     }
   }
 }

@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "provident",
-  "ProviderName": "Hand LLC",
-  "StorageKey": "est",
-  "Rank": 422,
-  "Context": "minima"
+  "StorageType": "consequuntur",
+  "ProviderName": "Muller Inc and Sons",
+  "StorageKey": "consequatur",
+  "Rank": 712,
+  "Context": "enim"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Macejkovic-Mertz",
-  "Description": "Expanded stable knowledge user",
-  "Rank": 165,
+  "Name": "Mosciski-Wehner",
+  "Description": "Universal intermediate functionalities",
+  "Rank": 999,
   "Restrictions": [
     {
-      "Name": "Hamill, Stanton and Grady",
-      "Operator": "quisquam",
+      "Name": "Wilderman LLC",
+      "Operator": "maiores",
       "Values": [
-        "nostrum",
-        "officia"
+        "ipsa",
+        "ut"
       ],
       "DisplayValues": [
-        "molestiae",
-        "quia"
+        "sequi",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 39,
+      "InterParenthesis": 70,
       "InterOperator": "And",
-      "UniqueHash": 146
+      "UniqueHash": 727
     }
   ]
 }

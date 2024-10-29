@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Hudson-Reichel",
-    "ToolTip": "Temporibus id repudiandae molestiae voluptates.",
+    "Id": 696,
+    "Name": "Barton-Goldner",
+    "ToolTip": "Ipsa nam nihil dolor officia id.",
     "Deleted": false,
-    "Rank": 837,
-    "Type": "odit",
-    "ColorBlock": 80,
-    "IconHint": "quisquam",
+    "Rank": 160,
+    "Type": "dolorem",
+    "ColorBlock": 884,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2011-10-20T03:44:58.0156476+02:00",
+    "LastChanged": "2019-09-20T13:14:11.4141989+02:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Wunsch, Russel and Prohaska",
-        "ToolTip": "Dolore voluptatem omnis saepe dolorem.",
-        "Deleted": true,
-        "Rank": 350,
-        "Type": "praesentium",
-        "ColorBlock": 495,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "1998-02-09T03:44:58.0156476+01:00",
+        "Id": 810,
+        "Name": "Fisher-Kuhn",
+        "ToolTip": "Et adipisci et in rem assumenda esse et.",
+        "Deleted": false,
+        "Rank": 809,
+        "Type": "dolores",
+        "ColorBlock": 376,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2020-01-29T13:14:11.4141989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "maiores",
+        "ExtraInfo": "autem",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Tessie Labadie",
+        "FullName": "Ms. Emerald Annalise Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 245
+            "FieldType": "System.String",
+            "FieldLength": 427
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "eveniet",
-    "Hidden": false,
-    "FullName": "Diamond Schneider",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Arno Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 858
       }
     }
   }

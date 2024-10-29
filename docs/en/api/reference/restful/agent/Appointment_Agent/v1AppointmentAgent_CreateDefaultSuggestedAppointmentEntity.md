@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 126,
-  "Name": "Kulas LLC",
-  "Tooltip": "fugit",
-  "Rank": 389,
+  "SuggestedAppointmentId": 823,
+  "Name": "Reichel Group",
+  "Tooltip": "nostrum",
+  "Rank": 456,
   "Deleted": false,
-  "DaysFuture": 549,
-  "Duration": "consequatur",
+  "DaysFuture": 878,
+  "Duration": "dignissimos",
   "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "voluptas",
+  "Text": "dolorem",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldType": "System.Int32",
+      "FieldLength": 495
     }
   }
 }

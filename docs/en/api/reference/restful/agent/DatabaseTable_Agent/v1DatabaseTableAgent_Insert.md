@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Swaniawski, Heidenreich and Erdman",
+  "TableName": "Toy-Rutherford",
   "Columns": [
-    "omnis",
-    "quod"
+    "modi",
+    "laudantium"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "molestiae",
-  "Inserts": 27,
-  "Updates": 177,
-  "Deletes": 434,
+  "Message": "quia",
+  "Inserts": 49,
+  "Updates": 991,
+  "Deletes": 380,
   "RowStatus": [
     {
-      "PrimaryKey": 418,
+      "PrimaryKey": 888,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nemo",
-        "ad"
+        "laborum",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 669
+          "FieldType": "System.Int32",
+          "FieldLength": 4
         }
       }
     },
     {
-      "PrimaryKey": 418,
+      "PrimaryKey": 888,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nemo",
-        "ad"
+        "laborum",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 669
+          "FieldType": "System.Int32",
+          "FieldLength": 4
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 223
     }
   }
 }

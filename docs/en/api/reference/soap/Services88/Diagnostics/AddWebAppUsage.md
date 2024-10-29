@@ -43,7 +43,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Diagnostics:WebAppUsage xsi:type="Diagnostics:WebAppUsage">
       <Diagnostics:WebAppUsageId xsi:type="xsd:int">0</Diagnostics:WebAppUsageId>
       <Diagnostics:AssocId xsi:type="xsd:int">0</Diagnostics:AssocId>
-      <Diagnostics:Timestamp xsi:type="xsd:dateTime">2024-10-09T01:43:09Z</Diagnostics:Timestamp>
+      <Diagnostics:Timestamp xsi:type="xsd:dateTime">2024-10-28T12:12:21Z</Diagnostics:Timestamp>
       <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
       <Diagnostics:AggregateCount xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateCount>
       <Diagnostics:AggregateBin xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateBin>

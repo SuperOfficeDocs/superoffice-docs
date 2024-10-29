@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 604,
-  "Name": "Rath-Mohr",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 289,
-  "UdListDefinitionId": 613,
+  "HeadingId": 896,
+  "Name": "Marks Group",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "Rank": 658,
+  "UdListDefinitionId": 4,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldType": "System.String",
+      "FieldLength": 413
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Katelyn Greenfelder",
-    "Description": "Visionary stable interface",
-    "ProjectId": 267,
-    "EventName": "Haag Inc and Sons",
+    "AssociateFullName": "Mariane Gottlieb",
+    "Description": "Organized didactic synergy",
+    "ProjectId": 509,
+    "EventName": "Schimmel Group",
     "AssociateId": 999,
     "IsSignedOn": false,
     "SignOffConfirmationText": "veniam",
-    "SignOffText": "qui",
-    "SignOnConfirmationText": "molestias",
-    "SignOnText": "officia",
-    "EventDate": "2000-05-02T03:44:53.0114471+02:00",
-    "Enabled": true,
+    "SignOffText": "voluptatem",
+    "SignOnConfirmationText": "vel",
+    "SignOnText": "assumenda",
+    "EventDate": "2014-01-28T13:14:06.2883049+01:00",
+    "Enabled": false,
     "SignOff": true,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": false,
-    "SignOffTaskId": 676,
-    "SignOnTaskId": 713,
+    "SignOn": true,
+    "SignOffTaskId": 102,
+    "SignOnTaskId": 232,
     "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 924,
-    "SignOffPersonId": 925,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 369,
+    "SignOffPersonId": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 417
       }
     }
   }

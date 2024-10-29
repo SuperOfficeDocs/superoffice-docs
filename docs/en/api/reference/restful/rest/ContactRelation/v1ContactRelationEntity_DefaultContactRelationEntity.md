@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 01 Sep 2013 03:44:57 G9T
+Last-Modified: Wed, 02 May 2018 13:14:10 G5T
 
 {
-  "SourceContactId": 343,
-  "SourcePersonId": 528,
-  "DestinationContactId": 384,
-  "DestinationPersonId": 140,
-  "RelationId": 902,
-  "Comment": "quia",
-  "RelationDefinitionId": 699,
-  "Reversed": 381,
-  "UpdatedDate": "2013-09-01T03:44:57.1871459+02:00",
-  "CreatedDate": "2002-01-09T03:44:57.1871459+01:00",
+  "SourceContactId": 632,
+  "SourcePersonId": 28,
+  "DestinationContactId": 717,
+  "DestinationPersonId": 821,
+  "RelationId": 569,
+  "Comment": "dignissimos",
+  "RelationDefinitionId": 204,
+  "Reversed": 348,
+  "UpdatedDate": "2018-05-02T13:14:10.7579101+02:00",
+  "CreatedDate": "2013-03-15T13:14:10.7579101+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wolf LLC",
-  "SourcePersonName": "Boyle LLC",
-  "DestinationContactName": "Grady, Towne and Stracke",
-  "DestinationPersonName": "Crooks-Dare",
-  "ActiveText": "praesentium",
-  "PassiveText": "sunt",
+  "SourceContactName": "Mayert, Gaylord and Toy",
+  "SourcePersonName": "Brakus Inc and Sons",
+  "DestinationContactName": "Lynch-Lehner",
+  "DestinationPersonName": "Kohler-Cremin",
+  "ActiveText": "molestiae",
+  "PassiveText": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   }
 }

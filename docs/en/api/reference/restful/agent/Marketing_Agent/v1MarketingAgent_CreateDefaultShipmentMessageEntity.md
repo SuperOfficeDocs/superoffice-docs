@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 250,
-  "PlainMessage": "et",
-  "HtmlMessage": "eius",
-  "SmsMessage": "labore",
-  "Description": "Secured solution-oriented initiative",
-  "Subject": "consequatur",
-  "FolderId": 721,
-  "HeaderField": "ex",
-  "Design": "ea",
+  "ShipmentMessageId": 665,
+  "PlainMessage": "debitis",
+  "HtmlMessage": "cupiditate",
+  "SmsMessage": "commodi",
+  "Description": "Versatile didactic moratorium",
+  "Subject": "voluptatum",
+  "FolderId": 497,
+  "HeaderField": "odit",
+  "Design": "nulla",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Focused solution-oriented time-frame",
-  "AccessKey": "fugit",
-  "DocumentMessage": 985,
-  "Registered": "1997-11-28T03:44:52.7458159+01:00",
-  "RegisteredAssociateId": 61,
-  "Updated": "2021-12-02T03:44:52.7458159+01:00",
-  "UpdatedAssociateId": 13,
-  "UpdatedCount": 501,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Phased high-level internet solution",
+  "AccessKey": "dicta",
+  "DocumentMessage": 315,
+  "Registered": "2007-12-03T13:14:06.1320455+01:00",
+  "RegisteredAssociateId": 65,
+  "Updated": "2014-03-07T13:14:06.1320455+01:00",
+  "UpdatedAssociateId": 50,
+  "UpdatedCount": 609,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 446
     }
   }
 }

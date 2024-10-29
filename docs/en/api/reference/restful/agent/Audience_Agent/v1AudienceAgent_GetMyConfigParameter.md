@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Dickens-Grady"
+  "ParameterName": "Denesik, Maggio and Dooley"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 229,
-  "Name": "Schuster, Anderson and Gutmann",
-  "Value": "necessitatibus",
-  "CreatedDate": "2005-01-19T03:44:52.0740137+01:00",
-  "UpdatedDate": "1999-06-01T03:44:52.0740137+02:00",
-  "CreatedBy": "provident",
-  "UpdatedBy": "aut",
+  "AudienceLayoutId": 170,
+  "Name": "Purdy LLC",
+  "Value": "ipsam",
+  "CreatedDate": "2024-02-04T13:14:05.5226336+01:00",
+  "UpdatedDate": "2019-10-31T13:14:05.5226336+01:00",
+  "CreatedBy": "esse",
+  "UpdatedBy": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldLength": 41
     }
   }
 }

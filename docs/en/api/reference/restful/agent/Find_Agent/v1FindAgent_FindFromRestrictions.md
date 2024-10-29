@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Brakus Group",
-      "Operator": "aut",
+      "Name": "Batz Inc and Sons",
+      "Operator": "veritatis",
       "Values": [
-        "consectetur",
-        "fugiat"
+        "illo",
+        "sed"
       ],
       "DisplayValues": [
-        "quos",
-        "quidem"
+        "vitae",
+        "velit"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 5,
+      "InterParenthesis": 709,
       "InterOperator": "And",
-      "UniqueHash": 353
+      "UniqueHash": 817
     }
   ],
-  "ProviderName": "Hodkiewicz LLC",
-  "PageSize": 255,
-  "PageNumber": 828
+  "ProviderName": "Reinger, Quigley and Hettinger",
+  "PageSize": 1002,
+  "PageNumber": 601
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kunde, O'Kon and Kovacek",
-      "DisplayTooltip": "quisquam",
-      "DisplayType": "expedita",
+      "DisplayName": "Kihn Group",
+      "DisplayTooltip": "sed",
+      "DisplayType": "provident",
       "CanOrderBy": false,
-      "Name": "Rempel-Dietrich",
-      "CanRestrictBy": true,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Hilpert Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "eum",
-      "Width": "iste",
-      "IconHint": "est",
-      "HeadingIconHint": "molestiae"
+      "Name": "Kunde, Ward and Skiles",
+      "CanRestrictBy": false,
+      "RestrictionType": "culpa",
+      "RestrictionListName": "Bechtelar, Schmeler and Trantow",
+      "IsVisible": false,
+      "ExtraInfo": "ipsa",
+      "Width": "beatae",
+      "IconHint": "nulla",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schaden, Runte and Anderson",
-      "PrimaryKey": 215,
+      "EntityName": "Watsica-Wyman",
+      "PrimaryKey": 495,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "reprehenderit",
-          "LinkHint": "in"
+          "DisplayValue": "accusamus",
+          "TooltipHint": "non",
+          "LinkHint": "id"
         }
       },
       "LinkHint": "et",
-      "StyleHint": "dolor",
+      "StyleHint": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 899
         }
       }
     }
   ],
-  "RowCount": 75,
+  "RowCount": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

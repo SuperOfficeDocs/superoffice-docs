@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 961,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "repellat",
+  "HeadingId": 806,
+  "Name": "Schoen, Schuster and Weber",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 581,
-  "UdListDefinitionId": 49
+  "Rank": 235,
+  "UdListDefinitionId": 329
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 809,
-  "Name": "Hayes, Ruecker and Wisozk",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "Rank": 994,
-  "UdListDefinitionId": 19,
+  "HeadingId": 131,
+  "Name": "Greenfelder, Rolfson and Nienow",
+  "Tooltip": "eveniet",
+  "Deleted": true,
+  "Rank": 737,
+  "UdListDefinitionId": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldType": "System.String",
+      "FieldLength": 756
     }
   }
 }

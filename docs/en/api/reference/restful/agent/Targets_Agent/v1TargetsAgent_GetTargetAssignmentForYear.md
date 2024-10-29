@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 571,
+  "TargetYear": 696,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 494
+  "Id": 28
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 762,
+  "TargetAssignmentInfoId": 72,
   "Values": [
-    740,
-    257
+    169,
+    341
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 579,
-  "DimensionListItemDisplayName": "Breitenberg, Christiansen and Wehner",
+  "DimensionListItem": 89,
+  "DimensionListItemDisplayName": "Monahan, Green and Quigley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 51
     }
   }
 }

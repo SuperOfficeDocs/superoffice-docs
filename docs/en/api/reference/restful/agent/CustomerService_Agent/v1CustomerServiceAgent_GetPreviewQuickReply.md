@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 771
+  "QuickReplyId": 147
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stiedemann-Watsica",
-  "UpdatedByFullName": "Ms. Franco Xzavier Heller MD",
-  "Updated": "2012-09-04T03:44:52.4021422+02:00",
-  "HtmlBody": "nobis",
+  "Name": "Crona Inc and Sons",
+  "UpdatedByFullName": "Graham Haley",
+  "Updated": "2008-12-29T13:14:05.7257709+01:00",
+  "HtmlBody": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldLength": 33
     }
   }
 }

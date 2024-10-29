@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "quisquam"
+  "MessageId": "ipsum"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 346,
-      "ContactName": "O'Connell-Watsica",
-      "PersonId": 13,
-      "PersonName": "Johns, Lubowitz and VonRueden",
-      "AssociateId": 441,
-      "Address": "aspernatur",
-      "EmailId": 909,
+      "ContactId": 908,
+      "ContactName": "Becker, Lubowitz and Marks",
+      "PersonId": 983,
+      "PersonName": "Huels Group",
+      "AssociateId": 670,
+      "Address": "architecto",
+      "EmailId": 214,
       "DuplicatePersonIds": [
-        995,
-        311
+        965,
+        464
       ],
-      "Name": "Konopelski, Hickle and McDermott",
+      "Name": "Keeling-Kozey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 252
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 6,
-      "ContactName": "Dooley-Stamm",
-      "PersonId": 47,
-      "PersonName": "Sipes Group",
-      "AssociateId": 429,
-      "Address": "debitis",
-      "EmailId": 375,
+      "ContactId": 933,
+      "ContactName": "Jakubowski, Raynor and Schneider",
+      "PersonId": 277,
+      "PersonName": "Hahn-Weimann",
+      "AssociateId": 548,
+      "Address": "ratione",
+      "EmailId": 907,
       "DuplicatePersonIds": [
-        420,
-        512
+        74,
+        930
       ],
-      "Name": "Zboncak Inc and Sons",
+      "Name": "Kuphal Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 765
+          "FieldLength": 59
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 903,
-      "ContactName": "Cartwright-Marvin",
-      "PersonId": 347,
-      "PersonName": "Pacocha-O'Reilly",
-      "AssociateId": 594,
-      "Address": "non",
-      "EmailId": 709,
+      "ContactId": 155,
+      "ContactName": "Kub-Mayer",
+      "PersonId": 279,
+      "PersonName": "Stark LLC",
+      "AssociateId": 601,
+      "Address": "est",
+      "EmailId": 747,
       "DuplicatePersonIds": [
-        350,
-        104
+        657,
+        840
       ],
-      "Name": "Armstrong-Nikolaus",
+      "Name": "Schoen-Ankunding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldType": "System.String",
+          "FieldLength": 965
         }
       }
     }
   ],
-  "Subject": "ea",
-  "HTMLBody": "iusto",
+  "Subject": "velit",
+  "HTMLBody": "dignissimos",
   "From": null,
-  "Sent": "1997-06-09T03:44:52.5427529+02:00",
-  "Size": 986,
+  "Sent": "2004-01-23T13:14:05.9445336+01:00",
+  "Size": 372,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sit",
-  "PlainBody": "atque",
+  "MessageID": "labore",
+  "PlainBody": "soluta",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 611,
+  "ServerId": 22,
   "Attachments": [
     {
-      "Description": "Grass-roots non-volatile alliance",
-      "Filename": "non",
-      "Size": 910,
-      "Type": "reprehenderit",
-      "Encoding": "earum",
-      "Id": "hic",
-      "Disposition": "ratione",
+      "Description": "Re-contextualized intangible firmware",
+      "Filename": "consequatur",
+      "Size": 414,
+      "Type": "officia",
+      "Encoding": "error",
+      "Id": "blanditiis",
+      "Disposition": "sapiente",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldType": "System.String",
+          "FieldLength": 655
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kulas, Hammes and Adams",
+      "Name": "Champlin Inc and Sons",
       "Values": [
-        "omnis",
-        "itaque"
+        "distinctio",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 61
+          "FieldLength": 313
         }
       }
     },
     {
-      "Name": "Kulas, Hammes and Adams",
+      "Name": "Champlin Inc and Sons",
       "Values": [
-        "omnis",
-        "itaque"
+        "distinctio",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 61
+          "FieldLength": 313
         }
       }
     }
   ],
-  "FolderName": "Frami Inc and Sons",
-  "EmailItemId": 874,
-  "AccountId": 496,
-  "ReceivedAt": "2012-06-19T03:44:52.5427529+02:00",
+  "FolderName": "Wisozk Inc and Sons",
+  "EmailItemId": 367,
+  "AccountId": 703,
+  "ReceivedAt": "2013-11-25T13:14:05.9445336+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-12-23T03:44:52.5427529+01:00",
+  "RepliedAt": "2013-05-31T13:14:05.9445336+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 42
     }
   }
 }

@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 849,
-  "ERPPriceListKey": "quidem",
-  "QuoteConnectionId": 58,
-  "Name": "Jacobs-Howell",
-  "Description": "Triple-buffered content-based interface",
-  "Currency": "sit",
-  "CurrencyName": "Schmitt Group",
-  "ValidFrom": "2013-04-17T03:44:58.0468534+02:00",
-  "ValidTo": "2011-05-29T03:44:58.0468534+02:00",
+  "PriceListId": 244,
+  "ERPPriceListKey": "rerum",
+  "QuoteConnectionId": 785,
+  "Name": "Rau LLC",
+  "Description": "Integrated user-facing encryption",
+  "Currency": "tenetur",
+  "CurrencyName": "Gulgowski, Runolfsdottir and Collins",
+  "ValidFrom": "2015-01-14T13:14:11.4454508+01:00",
+  "ValidTo": "2009-07-30T13:14:11.4454508+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 35
     }
   },
   "_Links": {

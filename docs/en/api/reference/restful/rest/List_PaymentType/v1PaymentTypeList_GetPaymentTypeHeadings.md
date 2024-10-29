@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 564,
-    "Name": "Cassin-Kunze",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 173,
-    "UdListDefinitionId": 875,
+    "HeadingId": 602,
+    "Name": "Batz Group",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 942,
+    "UdListDefinitionId": 704,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 844
+        "FieldType": "System.Int32",
+        "FieldLength": 528
       }
     }
   }

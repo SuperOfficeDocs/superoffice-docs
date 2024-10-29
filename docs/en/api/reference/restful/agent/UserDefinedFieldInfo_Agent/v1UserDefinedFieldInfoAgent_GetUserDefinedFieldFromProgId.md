@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "velit",
+  "ProgId": "excepturi",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 223,
-  "ColumnId": 305,
-  "FieldDefault": "quis",
-  "FieldHeight": 541,
-  "FieldLabel": "fuga",
-  "FieldLeft": 201,
-  "FieldTop": 224,
+  "UDefFieldId": 1002,
+  "ColumnId": 53,
+  "FieldDefault": "dolorem",
+  "FieldHeight": 571,
+  "FieldLabel": "qui",
+  "FieldLeft": 714,
+  "FieldTop": 924,
   "FieldType": "Checkbox",
-  "FieldWidth": 174,
-  "FormatMask": "blanditiis",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 201,
-  "LabelLeft": 478,
-  "LabelTop": 865,
-  "LabelWidth": 276,
-  "LastVersionId": 975,
-  "ListTableId": 448,
+  "FieldWidth": 634,
+  "FormatMask": "fugit",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 536,
+  "LabelLeft": 711,
+  "LabelTop": 777,
+  "LabelWidth": 250,
+  "LastVersionId": 904,
+  "ListTableId": 270,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 129,
-  "ProgId": "at",
+  "Page1LineNo": 106,
+  "ProgId": "ipsa",
   "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 394,
-  "TextLength": 417,
-  "Tooltip": "iste",
-  "UdefIdentity": 538,
-  "UDListDefinitionId": 93,
+  "ShortLabel": "voluptas",
+  "TabOrder": 754,
+  "TextLength": 161,
+  "Tooltip": "ipsa",
+  "UdefIdentity": 782,
+  "UDListDefinitionId": 434,
   "Justification": "Center",
-  "Version": 612,
-  "TemplateVariableName": "Gleason Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Hamill Inc and Sons",
+  "Version": 988,
+  "TemplateVariableName": "Wiegand LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Cummings, Sipes and Ratke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   }
 }

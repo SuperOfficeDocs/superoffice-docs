@@ -26,7 +26,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=546
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=313
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -90,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 740,
-  "Deleted": 924,
-  "DaysFuture": 315,
-  "Tooltip": "ducimus",
-  "Text": "quaerat",
-  "TaskId": 914,
-  "SuggestedAppointmentId": 201,
-  "SaleTypeStageLinkId": 967,
-  "RegisteredAssociateId": 335,
-  "Rank": 766,
-  "ProjectTypeStatusLinkId": 285,
-  "Name": "Macejkovic Group",
-  "Duration": 147,
+  "AutoSuggest": 85,
+  "Deleted": 178,
+  "DaysFuture": 480,
+  "Tooltip": "rem",
+  "Text": "unde",
+  "TaskId": 106,
+  "SuggestedAppointmentId": 216,
+  "SaleTypeStageLinkId": 167,
+  "RegisteredAssociateId": 787,
+  "Rank": 966,
+  "ProjectTypeStatusLinkId": 719,
+  "Name": "Walker, Runolfsson and Zieme",
+  "Duration": 862,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

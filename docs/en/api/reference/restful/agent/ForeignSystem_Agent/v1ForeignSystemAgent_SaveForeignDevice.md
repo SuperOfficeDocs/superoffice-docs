@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Satterfield-Cassin"
+  "ApplicationName": "Brakus-Shields"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 273,
-  "Name": "Kohler-Zboncak",
-  "CreatedDate": "2006-08-13T03:44:52.6521119+02:00",
-  "UpdatedDate": "2015-05-30T03:44:52.6521119+02:00",
-  "AssociateFullName": "Danika Krajcik",
-  "CreatedBy": "qui",
-  "UpdatedBy": "sit",
-  "DeviceIdentifier": "corporis",
-  "ForeignAppId": 363,
+  "ForeignDeviceId": 964,
+  "Name": "Flatley LLC",
+  "CreatedDate": "2011-04-26T13:14:06.0382898+02:00",
+  "UpdatedDate": "2002-03-09T13:14:06.0382898+01:00",
+  "AssociateFullName": "Mr. Cynthia Connelly II",
+  "CreatedBy": "enim",
+  "UpdatedBy": "voluptas",
+  "DeviceIdentifier": "nemo",
+  "ForeignAppId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

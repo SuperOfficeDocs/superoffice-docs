@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogan-Jacobson",
-    "DisplayName": "Mayer, Waelchi and Weissnat",
-    "DisplayTooltip": "commodi",
+    "Name": "Gislason-Wintheiser",
+    "DisplayName": "Schroeder LLC",
+    "DisplayTooltip": "dolore",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldType": "System.Int32",
+        "FieldLength": 815
       }
     }
   },
   {
-    "Name": "Bogan-Jacobson",
-    "DisplayName": "Mayer, Waelchi and Weissnat",
-    "DisplayTooltip": "commodi",
+    "Name": "Gislason-Wintheiser",
+    "DisplayName": "Schroeder LLC",
+    "DisplayTooltip": "dolore",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldType": "System.Int32",
+        "FieldLength": 815
       }
     }
   }

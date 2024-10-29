@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=voluptatem
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=accusantium
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Wolff-Macejkovic",
-    "ToolTip": "Labore a sit sed necessitatibus est.",
-    "Deleted": true,
-    "Rank": 786,
-    "Type": "excepturi",
+    "Id": 411,
+    "Name": "Kuhlman-Shields",
+    "ToolTip": "Occaecati neque omnis eos incidunt aut.",
+    "Deleted": false,
+    "Rank": 849,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Osinski-Batz",
-        "ToolTip": "Necessitatibus sit.",
+        "Id": 856,
+        "Name": "Heathcote LLC",
+        "ToolTip": "Voluptatibus harum omnis repudiandae pariatur nemo et natus.",
         "Deleted": true,
-        "Rank": 521,
-        "Type": "aut",
+        "Rank": 36,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 240,
-        "ExtraInfo": "quasi",
-        "StyleHint": "dolore",
-        "FullName": "Lorenza Toy DVM",
+        "IconHint": "rerum",
+        "ColorBlock": 822,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "mollitia",
+        "FullName": "Yadira Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldType": "System.String",
+            "FieldLength": 587
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 417,
-    "ExtraInfo": "sequi",
-    "StyleHint": "quibusdam",
-    "FullName": "Carmine Keeling",
+    "IconHint": "rem",
+    "ColorBlock": 591,
+    "ExtraInfo": "atque",
+    "StyleHint": "non",
+    "FullName": "Lafayette Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldType": "System.Int32",
+        "FieldLength": 721
       }
     }
   }

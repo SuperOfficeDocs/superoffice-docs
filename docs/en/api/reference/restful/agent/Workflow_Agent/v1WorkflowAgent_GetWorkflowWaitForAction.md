@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=699
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=659
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 115,
-  "WorkflowStepId": 109,
-  "WorkflowId": 410,
-  "Rank": 12,
+  "WorkflowWaitForActionId": 263,
+  "WorkflowStepId": 717,
+  "WorkflowId": 379,
+  "Rank": 71,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Cartwright LLC",
-      "Description": "Optional client-server attitude",
-      "Rank": 240,
+      "Name": "Fay-Quigley",
+      "Description": "Open-source scalable strategy",
+      "Rank": 21,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cartwright LLC",
-      "Description": "Optional client-server attitude",
-      "Rank": 240,
+      "Name": "Fay-Quigley",
+      "Description": "Open-source scalable strategy",
+      "Rank": 21,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldType": "System.String",
+      "FieldLength": 277
     }
   }
 }

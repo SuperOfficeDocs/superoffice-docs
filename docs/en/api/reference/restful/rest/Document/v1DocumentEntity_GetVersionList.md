@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "et",
-    "DocumentId": 926,
-    "VersionId": "alias",
-    "CheckedInDate": "2008-12-20T03:44:57.3433794+01:00",
-    "CheckedInByName": "McKenzie Inc and Sons",
-    "CheckedInByAssociateId": 380,
-    "Description": "Inverse static productivity",
-    "DisplayText": "ab",
+    "ExternalReference": "quisquam",
+    "DocumentId": 727,
+    "VersionId": "quaerat",
+    "CheckedInDate": "2013-10-08T13:14:10.8204078+02:00",
+    "CheckedInByName": "Pfannerstill LLC",
+    "CheckedInByAssociateId": 451,
+    "Description": "Synchronised mobile hub",
+    "DisplayText": "consectetur",
     "ExtraFields": [
-      "dolores",
-      "distinctio"
+      "architecto",
+      "incidunt"
     ]
   }
 ]

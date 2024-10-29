@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 819,
-  "Name": "Rippin, Lowe and Lakin",
-  "ContentType": "eos",
-  "AttSize": 582,
+  "AttachmentId": 275,
+  "Name": "Wilderman Inc and Sons",
+  "ContentType": "et",
+  "AttSize": 728,
   "InlineImage": false,
-  "ContentId": "fugiat",
-  "AuthKey": "qui",
+  "ContentId": "alias",
+  "AuthKey": "blanditiis",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 907
     }
   }
 }

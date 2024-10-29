@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated upward-trending initiative",
-  "Postit": "rem",
+  "Description": "Mandatory directional hub",
+  "Postit": "a",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 637,
-  "IncludePerson": 305,
+  "GroupIdx": 982,
+  "IncludePerson": 655,
   "MemberCount": 99.99,
-  "Name": "Langosh Inc and Sons",
-  "PostitTextId": 62,
-  "CreatedDate": "1998-11-30T03:44:53.1524683+01:00",
-  "SelectionId": 756,
-  "SoundEx": "voluptate",
-  "Source": 425,
-  "TextId": 104,
-  "UpdatedDate": "2022-01-22T03:44:53.1524683+01:00",
-  "UpdatedCount": 559,
-  "Visibility": 158,
+  "Name": "Grady, Corkery and Kovacek",
+  "PostitTextId": 77,
+  "CreatedDate": "2022-05-05T13:14:06.4133118+02:00",
+  "SelectionId": 769,
+  "SoundEx": "et",
+  "Source": 305,
+  "TextId": 516,
+  "UpdatedDate": "2002-08-05T13:14:06.4133118+02:00",
+  "UpdatedCount": 499,
+  "Visibility": 902,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 650,
-  "TargetTableName": "Doyle, Mante and Paucek",
+  "CompanyUnique": true,
+  "TargetTableNumber": 647,
+  "TargetTableName": "Marquardt, Hilpert and Waelchi",
   "Completed": false,
-  "LeftSelectionId": 951,
-  "RightSelectionId": 154,
+  "LeftSelectionId": 21,
+  "RightSelectionId": 356,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Durgan, O'Keefe and Cole",
-  "ShadowProviderName": "Legros-O'Kon",
-  "ChartKey": "tempora",
-  "LastLoaded": "1997-10-22T03:44:53.1524683+02:00",
-  "LastLoadedBy": 905,
+  "MainProviderName": "Cummings LLC",
+  "ShadowProviderName": "Williamson Inc and Sons",
+  "ChartKey": "architecto",
+  "LastLoaded": "2014-08-27T13:14:06.4133118+02:00",
+  "LastLoadedBy": 919,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-12-21T03:44:53.1524683+01:00",
-  "LastMembershipChangeBy": 38,
+  "LastMembershipChange": "1998-01-19T13:14:06.4133118+01:00",
+  "LastMembershipChangeBy": 901,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odio",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Renner LLC",
-  "DashboardTileDefinitionId": 760,
+  "MainHeading": "itaque",
+  "MemberTabHeading": "labore",
+  "MailingsProviderName": "Walter, Abernathy and Pacocha",
+  "DashboardTileDefinitionId": 474,
   "VisibleFor": [
     {
-      "VisibleId": 683,
+      "VisibleId": 689,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldLength": 475
         }
       }
     },
     {
-      "VisibleId": 683,
+      "VisibleId": 689,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldLength": 475
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 698
     }
   }
 }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "Stokes-VonRueden",
-  "AssociateId": 591,
-  "DetailsTable": 530,
-  "DetailsRecord": 273,
-  "IsSystemTask": true,
+  "Id": 4,
+  "Name": "Kautzer LLC",
+  "AssociateId": 409,
+  "DetailsTable": 836,
+  "DetailsRecord": 770,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "hic",
-    "ParameterObject2": "nobis"
+    "ParameterObject1": "et",
+    "ParameterObject2": "adipisci"
   },
-  "LastStarted": "2011-06-27T03:44:53.0900933+02:00",
-  "Created": "2018-06-26T03:44:53.0900933+02:00",
-  "StartCount": 410,
-  "DatabaseSerialNumber": "470394",
-  "Context": "laborum",
-  "Result": "sed",
+  "LastStarted": "2002-02-13T13:14:06.366434+01:00",
+  "Created": "2001-10-13T13:14:06.366434+02:00",
+  "StartCount": 235,
+  "DatabaseSerialNumber": "1237407",
+  "Context": "repellat",
+  "Result": "earum",
   "State": "All",
-  "Description": "Fundamental systematic database",
-  "Response": "veritatis",
-  "Request": "velit",
-  "ProgressDescription": "Cross-group intermediate website",
-  "ProgressPercent": 459,
-  "FileName": "Breitenberg Inc and Sons",
+  "Description": "Synergized zero tolerance service-desk",
+  "Response": "asperiores",
+  "Request": "iste",
+  "ProgressDescription": "Grass-roots tangible model",
+  "ProgressPercent": 438,
+  "FileName": "Hilll LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

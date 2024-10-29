@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    453,
-    701
+    976,
+    124
   ]
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  579,
-  905
+  66,
+  378
 ]
 ```

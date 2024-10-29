@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Friesen, Berge and Carroll",
-    "Gerlach, Hickle and Rolfson"
+    "Hickle-Ritchie",
+    "King, Senger and Kihn"
   ],
-  "Culture": "id",
+  "Culture": "distinctio",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "King, Runolfsson and Adams",
-    "ResourceValue": "ut",
-    "Culture": "ratione",
+    "ResourceName": "Funk, Mertz and Braun",
+    "ResourceValue": "esse",
+    "Culture": "et",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldLength": 944
       }
     }
   },
   {
-    "ResourceName": "King, Runolfsson and Adams",
-    "ResourceValue": "ut",
-    "Culture": "ratione",
+    "ResourceName": "Funk, Mertz and Braun",
+    "ResourceValue": "esse",
+    "Culture": "et",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldLength": 944
       }
     }
   }

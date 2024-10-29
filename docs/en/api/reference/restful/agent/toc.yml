@@ -253,6 +253,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_UpdateAppointment.md
   - name: UpdateAppointmentFromIcsResponse
     href: Appointment_Agent/v1AppointmentAgent_UpdateAppointmentFromIcsResponse.md
+  - name: UpdateAppointmentWithMode
+    href: Appointment_Agent/v1AppointmentAgent_UpdateAppointmentWithMode.md
   - name: ValidateAppointmentEntity
     href: Appointment_Agent/v1AppointmentAgent_ValidateAppointmentEntity.md
   - name: ValidateDays

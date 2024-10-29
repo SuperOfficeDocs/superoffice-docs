@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 237,
+  "TargetYear": 713,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 938,
-  "Year": 869,
+  "TargetGroupId": 748,
+  "Year": 262,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 201,
+      "TargetAssignmentInfoId": 290,
       "Values": [
-        127,
-        487
+        265,
+        614
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 68,
-      "DimensionListItemDisplayName": "Roberts-Eichmann",
+      "DimensionListItem": 631,
+      "DimensionListItemDisplayName": "Ernser, Williamson and Pouros",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldType": "System.String",
+          "FieldLength": 165
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 290
     }
   }
 }

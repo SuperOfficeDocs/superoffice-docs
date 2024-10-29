@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Name": "Hilpert, O'Connell and McKenzie",
-    "ToolTip": "Ut est qui.",
+    "Id": 117,
+    "Name": "Thompson, Strosin and Jerde",
+    "ToolTip": "Et aperiam et eos voluptatem eos rerum quia.",
     "Deleted": false,
-    "Rank": 278,
-    "Type": "expedita",
-    "ColorBlock": 180,
-    "IconHint": "beatae",
+    "Rank": 927,
+    "Type": "dolores",
+    "ColorBlock": 401,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2003-12-31T03:44:58.0312644+01:00",
+    "LastChanged": "2014-06-21T13:14:11.4298249+02:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Gulgowski, Wiza and Ullrich",
-        "ToolTip": "Omnis accusantium quibusdam aspernatur atque ut quidem earum.",
-        "Deleted": false,
-        "Rank": 431,
-        "Type": "sit",
-        "ColorBlock": 3,
-        "IconHint": "dolorem",
+        "Id": 746,
+        "Name": "Reichel, Marvin and Toy",
+        "ToolTip": "Iste doloremque sint quo dolores debitis omnis.",
+        "Deleted": true,
+        "Rank": 977,
+        "Type": "quia",
+        "ColorBlock": 434,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2000-11-21T03:44:58.0312644+01:00",
+        "LastChanged": "2015-04-26T13:14:11.4298249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "ullam",
-        "Hidden": true,
-        "FullName": "Miss Wava Kris III",
+        "ExtraInfo": "qui",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Giles Schiller V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 167
+            "FieldLength": 409
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "iusto",
-    "Hidden": true,
-    "FullName": "Dortha Gerlach",
+    "ExtraInfo": "sint",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Domenico Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 90
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=413
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=271
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 370,
-  "FormKey": "quis",
-  "Name": "Tremblay, DuBuque and Beer",
-  "Description": "Compatible fault-tolerant parallelism",
-  "Config": "laudantium",
-  "FolderId": 627,
-  "ScriptId": 881,
-  "ResponseShipmentId": 51,
+  "FormId": 455,
+  "FormKey": "sed",
+  "Name": "Turner, Reynolds and Balistreri",
+  "Description": "Optional maximized analyzer",
+  "Config": "blanditiis",
+  "FolderId": 5,
+  "ScriptId": 940,
+  "ResponseShipmentId": 568,
   "Active": false,
-  "Expires": "2012-08-26T03:44:52.7458159+02:00",
-  "MaxSubmits": 320,
+  "Expires": "2017-06-17T13:14:06.1320455+02:00",
+  "MaxSubmits": 426,
   "Type": "Normal",
-  "Recipe": "quia",
-  "GroupId": 529,
+  "Recipe": "sint",
+  "GroupId": 602,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2004-07-20T03:44:52.7458159+02:00",
-  "RegisteredAssociateId": 105,
-  "Updated": "2003-12-04T03:44:52.7458159+01:00",
-  "UpdatedAssociateId": 824,
-  "UpdatedCount": 161,
+  "Registered": "2023-08-10T13:14:06.1320455+02:00",
+  "RegisteredAssociateId": 765,
+  "Updated": "2021-06-13T13:14:06.1320455+02:00",
+  "UpdatedAssociateId": 371,
+  "UpdatedCount": 746,
   "EmailFlows": [
-    495,
-    715
+    775,
+    673
   ],
-  "FolderName": "Feil, Waelchi and Daugherty",
+  "FolderName": "Jones, Romaguera and Jacobi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 494
     }
   }
 }

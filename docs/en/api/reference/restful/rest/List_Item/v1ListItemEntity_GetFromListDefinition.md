@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Connelly LLC",
-  "Tooltip": "iusto",
+  "Id": 35,
+  "Name": "Grimes Group",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "UdListDefinitionId": 308,
-  "Rank": 690,
+  "UdListDefinitionId": 249,
+  "Rank": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

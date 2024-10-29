@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 26 Sep 2005 03:44:57 G9T
+Last-Modified: Mon, 28 Jan 2002 13:14:10 G1T
 
 {
-  "ForeignAppId": 400,
-  "Name": "Walter Inc and Sons",
-  "CreatedDate": "2010-12-07T03:44:57.359003+01:00",
-  "UpdatedDate": "2005-09-26T03:44:57.359003+02:00",
+  "ForeignAppId": 79,
+  "Name": "Halvorson, Strosin and Tromp",
+  "CreatedDate": "2003-04-20T13:14:10.8360396+02:00",
+  "UpdatedDate": "2002-01-28T13:14:10.8360396+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 639,
-      "Name": "Hettinger, Schmidt and Hand",
-      "CreatedDate": "2010-12-13T03:44:57.359003+01:00",
-      "UpdatedDate": "1999-03-24T03:44:57.359003+01:00",
-      "AssociateFullName": "Bradford Kling V",
-      "CreatedBy": "sunt",
-      "UpdatedBy": "ipsam",
-      "DeviceIdentifier": "explicabo",
-      "ForeignAppId": 504,
+      "ForeignDeviceId": 101,
+      "Name": "O'Kon, Crist and Hahn",
+      "CreatedDate": "2005-08-28T13:14:10.8360396+02:00",
+      "UpdatedDate": "2014-05-27T13:14:10.8360396+02:00",
+      "AssociateFullName": "Elsie Rau",
+      "CreatedBy": "et",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "quia",
+      "ForeignAppId": 169,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 938
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Mon, 26 Sep 2005 03:44:57 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 340
     }
   }
 }

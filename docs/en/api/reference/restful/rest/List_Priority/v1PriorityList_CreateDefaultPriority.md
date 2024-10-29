@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Leuschke Inc and Sons",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "UdListDefinitionId": 190,
-  "Rank": 594,
+  "Id": 769,
+  "Name": "Terry, Maggio and Sawayn",
+  "Tooltip": "quisquam",
+  "Deleted": false,
+  "UdListDefinitionId": 20,
+  "Rank": 914,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 365
     }
   }
 }

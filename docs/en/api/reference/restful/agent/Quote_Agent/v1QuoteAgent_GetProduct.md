@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 445,
-  "ERPProductKey": "explicabo"
+  "QuoteConnectionId": 560,
+  "ERPProductKey": "et"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 661,
-  "ERPProductKey": "praesentium",
-  "ERPPriceListKey": "est",
-  "Name": "Gaylord, Cummerata and Champlin",
-  "Description": "Business-focused asynchronous implementation",
-  "Code": "dolor",
-  "PriceUnit": "non",
-  "QuantityUnit": "numquam",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ipsum",
-  "DefaultSubscriptionQuantity": 28986.365999999998,
-  "ItemNumber": "1186954",
+  "ProductId": 616,
+  "ERPProductKey": "dolor",
+  "ERPPriceListKey": "et",
+  "Name": "Ondricka, Lubowitz and Koepp",
+  "Description": "Persistent demand-driven help-desk",
+  "Code": "consequatur",
+  "PriceUnit": "mollitia",
+  "QuantityUnit": "modi",
+  "IsSubscription": false,
+  "SubscriptionUnit": "expedita",
+  "DefaultSubscriptionQuantity": 19349.316,
+  "ItemNumber": "868028",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sunt",
-  "ProductTypeKey": "optio",
-  "VAT": 18672.372,
-  "VATInfo": "sunt",
-  "UnitCost": 5393.614,
-  "UnitMinimumPrice": 12655.091999999999,
-  "UnitListPrice": 13335.17,
-  "InAssortment": true,
-  "Supplier": "sint",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "aut",
+  "VAT": 18963.834,
+  "VATInfo": "at",
+  "UnitCost": 30672.458,
+  "UnitMinimumPrice": 23652.298,
+  "UnitListPrice": 28431.647999999997,
+  "InAssortment": false,
+  "Supplier": "possimus",
   "SupplierCode": "minus",
-  "Rights": "eaque",
-  "Rule": "ut",
+  "Rights": "sit",
+  "Rule": "in",
   "ExtraInfo": [
     {
-      "Name": "Hackett-Davis",
-      "Value": "placeat",
+      "Name": "Bartoletti-Wiza",
+      "Value": "deserunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldType": "System.String",
+          "FieldLength": 953
         }
       }
     },
     {
-      "Name": "Hackett-Davis",
-      "Value": "placeat",
+      "Name": "Bartoletti-Wiza",
+      "Value": "deserunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldType": "System.String",
+          "FieldLength": 953
         }
       }
     }
   ],
-  "RawExtraInfo": "vel",
-  "ExtraField1": "mollitia",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "enim",
-  "ExtraField4": "hic",
-  "ExtraField5": "nobis",
-  "InStock": 18562.682,
+  "RawExtraInfo": "quibusdam",
+  "ExtraField1": "ut",
+  "ExtraField2": "illum",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "voluptates",
+  "ExtraField5": "ut",
+  "InStock": 18230.478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 778
     }
   }
 }

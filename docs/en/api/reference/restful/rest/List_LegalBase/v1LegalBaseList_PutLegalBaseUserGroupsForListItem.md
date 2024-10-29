@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Haley Inc and Sons",
-    "ToolTip": "Incidunt consequatur.",
+    "Id": 524,
+    "Name": "Lockman Group",
+    "ToolTip": "Odit et nemo.",
     "Deleted": false,
-    "Rank": 207,
-    "Type": "accusamus",
-    "ColorBlock": 87,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2023-03-29T03:44:58.0000211+02:00",
+    "Rank": 863,
+    "Type": "repudiandae",
+    "ColorBlock": 303,
+    "IconHint": "architecto",
+    "Selected": true,
+    "LastChanged": "1999-10-16T13:14:11.4141989+02:00",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Ebert, Prosacco and Braun",
-        "ToolTip": "Voluptas ea quia nostrum beatae consequuntur inventore et.",
-        "Deleted": true,
-        "Rank": 493,
-        "Type": "qui",
-        "ColorBlock": 531,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2015-07-26T03:44:58.0000211+02:00",
+        "Id": 190,
+        "Name": "Cole, Grady and Wiegand",
+        "ToolTip": "Molestias qui laboriosam soluta dolorum quia.",
+        "Deleted": false,
+        "Rank": 289,
+        "Type": "magnam",
+        "ColorBlock": 628,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2020-03-25T13:14:11.4141989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Francis Lang"
+        "ExtraInfo": "optio",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Prof. Kade Ladarius Paucek II"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "quis",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Ezra Lester Franecki Jr."
+    "FullName": "Clotilde Daugherty"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Boehm Inc and Sons",
-    "ToolTip": "Qui itaque voluptatem ducimus nobis.",
+    "Id": 175,
+    "Name": "Jenkins, Hoeger and Block",
+    "ToolTip": "Et sunt nobis rerum amet eum facilis iste.",
     "Deleted": false,
-    "Rank": 52,
-    "Type": "dolorum",
-    "ColorBlock": 757,
-    "IconHint": "doloribus",
-    "Selected": true,
-    "LastChanged": "2006-05-13T03:44:58.0156476+02:00",
+    "Rank": 210,
+    "Type": "et",
+    "ColorBlock": 819,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2014-06-18T13:14:11.4141989+02:00",
     "ChildItems": [
       {
-        "Id": 706,
-        "Name": "Haag-Ortiz",
-        "ToolTip": "Error aperiam nobis dignissimos ab amet.",
-        "Deleted": true,
-        "Rank": 577,
-        "Type": "at",
-        "ColorBlock": 435,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "1999-05-30T03:44:58.0156476+02:00",
+        "Id": 89,
+        "Name": "Quitzon, Sauer and Corkery",
+        "ToolTip": "Placeat vel et sit sint soluta at.",
+        "Deleted": false,
+        "Rank": 966,
+        "Type": "harum",
+        "ColorBlock": 657,
+        "IconHint": "ducimus",
+        "Selected": true,
+        "LastChanged": "2012-08-20T13:14:11.4141989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "amet",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Amie Auer",
+        "FullName": "Donna Sarina Willms II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldType": "System.Int32",
+            "FieldLength": 257
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "nihil",
+    "ExtraInfo": "rerum",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Arturo Sipes",
+    "FullName": "Earline Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 990
       }
     }
   }

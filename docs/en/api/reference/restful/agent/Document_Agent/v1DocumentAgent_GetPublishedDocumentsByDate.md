@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 223,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2003-02-10T03:44:52.417768+01:00",
-  "EndTime": "2006-09-05T03:44:52.417768+02:00",
-  "Count": 746
+  "PersonId": 890,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2013-09-25T13:14:05.7570229+02:00",
+  "EndTime": "2016-11-15T13:14:05.7570229+01:00",
+  "Count": 782
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 213,
-    "Attention": "libero",
-    "Header": "optio",
-    "Name": "Kerluke, Hoeger and Walsh",
-    "OurRef": "ut",
-    "YourRef": "doloremque",
-    "Description": "Team-oriented bifurcated ability",
-    "DocumentTemplate": "commodi",
+    "DocumentId": 356,
+    "Attention": "voluptates",
+    "Header": "facere",
+    "Name": "Stracke, Mraz and Effertz",
+    "OurRef": "minima",
+    "YourRef": "iste",
+    "Description": "Progressive neutral hierarchy",
+    "DocumentTemplate": "soluta",
     "IsPublished": false,
-    "PersonId": 124,
-    "PersonFullName": "Mr. Ryley Newton Grimes Sr.",
-    "AssociateFullName": "Destin West",
-    "ContactId": 315,
-    "ContactName": "Huel-Skiles",
-    "ProjectId": 231,
-    "ProjectName": "Sanford LLC",
-    "AssociateId": 359,
-    "Snum": 423,
-    "SaleId": 285,
-    "SaleName": "Leffler-Donnelly",
+    "PersonId": 607,
+    "PersonFullName": "Fermin Bernier",
+    "AssociateFullName": "Miss Ulices Carter",
+    "ContactId": 441,
+    "ContactName": "Cormier-Robel",
+    "ProjectId": 329,
+    "ProjectName": "Conn-Mitchell",
+    "AssociateId": 17,
+    "Snum": 693,
+    "SaleId": 320,
+    "SaleName": "Runolfsdottir Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 732
       }
     }
   }

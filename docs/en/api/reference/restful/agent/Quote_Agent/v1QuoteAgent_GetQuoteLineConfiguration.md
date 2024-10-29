@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 857
+  "QuoteLineConfigurationId": 425
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 221,
-  "FieldName": "Boyle, Moen and Koepp",
-  "Label": "ut",
-  "Tooltip": "quae",
+  "QuoteLineConfigurationId": 17,
+  "FieldName": "Reichel Inc and Sons",
+  "Label": "quos",
+  "Tooltip": "culpa",
   "Editable": false,
-  "InUse": false,
-  "Mandatory": false,
-  "Rank": 269,
-  "RestrictEdit": false,
+  "InUse": true,
+  "Mandatory": true,
+  "Rank": 949,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 718
     }
   }
 }

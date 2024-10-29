@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Stehr LLC",
+  "ConnectorName": "Kub LLC",
   "ConnectionData": {
-    "ConnectionData1": "rem",
-    "ConnectionData2": "accusantium"
+    "ConnectionData1": "dolorem",
+    "ConnectionData2": "nisi"
   }
 }
 ```
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "dolor",
-  "TechExplanation": "qui",
-  "ErrorCode": "velit",
+  "UserExplanation": "sed",
+  "TechExplanation": "omnis",
+  "ErrorCode": "non",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 127
     }
   }
 }

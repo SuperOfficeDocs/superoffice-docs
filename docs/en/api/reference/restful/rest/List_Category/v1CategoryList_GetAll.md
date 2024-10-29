@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Zemlak Inc and Sons",
-    "Tooltip": "dignissimos",
+    "Id": 543,
+    "Name": "Franecki, Gutmann and Romaguera",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 788,
-    "Rank": 214,
+    "UdListDefinitionId": 732,
+    "Rank": 585,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 717
+        "FieldType": "System.Int32",
+        "FieldLength": 336
       }
     }
   }

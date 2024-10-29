@@ -135,7 +135,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 180
+  "SaleId": 373
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-07-08T03:44:51.9958963+02:00",
-  "AppointmentId": 618,
-  "Description": "Multi-channelled mission-critical middleware",
-  "Title": "reprehenderit",
-  "Agenda": "ut",
-  "InternalNotes": "et",
-  "StartDate": "2014-11-16T03:44:51.9958963+01:00",
-  "EndDate": "2008-10-04T03:44:51.9958963+02:00",
+  "CreatedDate": "2023-06-23T13:14:05.4601291+02:00",
+  "AppointmentId": 978,
+  "Description": "Progressive global Graphical User Interface",
+  "Title": "vitae",
+  "Agenda": "in",
+  "InternalNotes": "dolor",
+  "StartDate": "2014-03-07T13:14:05.4601291+01:00",
+  "EndDate": "2022-07-10T13:14:05.4601291+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 733,
+  "MotherId": 652,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-09-04T03:44:51.9958963+02:00",
+  "UpdatedDate": "2012-09-17T13:14:05.4601291+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 668,
+  "ActiveLinks": 329,
   "Links": [
     {
-      "EntityName": "Schulist Inc and Sons",
-      "Id": 21,
-      "Description": "Re-engineered multimedia policy",
-      "ExtraInfo": "est",
-      "LinkId": 716,
+      "EntityName": "Miller-Gorczany",
+      "Id": 515,
+      "Description": "Persistent hybrid groupware",
+      "ExtraInfo": "impedit",
+      "LinkId": 104,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldType": "System.Int32",
+          "FieldLength": 837
         }
       }
     }
   ],
-  "AlarmLeadTime": "est",
+  "AlarmLeadTime": "voluptas",
   "HasAlarm": false,
-  "ColorIndex": 952,
+  "ColorIndex": 241,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ea",
-  "LeadTime": "ullam",
-  "Location": "voluptatem",
-  "RejectCounter": 779,
+  "LagTime": "voluptatem",
+  "LeadTime": "quasi",
+  "Location": "quos",
+  "RejectCounter": 815,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 697,
-      "PersonId": 127,
-      "ContactId": 414,
-      "EmailId": 376,
-      "SendEmail": true,
+      "AssociateId": 832,
+      "PersonId": 451,
+      "ContactId": 530,
+      "EmailId": 57,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "burley@lindgrenpacocha.info",
-      "Description": "De-engineered client-server superstructure"
+      "EmailAddress": "asia@dicki.name",
+      "Description": "Cloned 24 hour moderator"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-08-12T03:44:51.9958963+02:00",
+  "ActiveDate": "2021-05-21T13:14:05.4601291+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 298,
+  "PreferredTZLocation": 323,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 286,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 600,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "esse",
+  "CentralserviceVideomeetId": "iusto",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1038192147"
+    "SuperOffice:1": "Austen Schmidt",
+    "SuperOffice:2": "Cruz Aufderhar"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "nam"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "impedit"
+    "CustomFields1": "non",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2015-12-17T03:44:51.9958963+01:00",
-  "PublishTo": "2002-09-22T03:44:51.9958963+02:00",
-  "PublishFrom": "2022-08-13T03:44:51.9958963+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-09-23T13:14:05.4601291+02:00",
+  "PublishTo": "1999-01-28T13:14:05.4601291+01:00",
+  "PublishFrom": "2017-02-07T13:14:05.4601291+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 722,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldLength": 686
         }
       }
     },
     {
-      "VisibleId": 722,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldLength": 686
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

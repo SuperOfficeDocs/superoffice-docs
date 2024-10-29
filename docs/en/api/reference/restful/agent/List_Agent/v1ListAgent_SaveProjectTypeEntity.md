@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 977,
-  "Name": "Farrell-Senger",
-  "Tooltip": "accusantium",
-  "Rank": 426,
+  "ProjTypeId": 726,
+  "Name": "Kilback Inc and Sons",
+  "Tooltip": "maiores",
+  "Rank": 500,
   "DurationUnit": "Century",
-  "ProjectDuration": 254,
+  "ProjectDuration": 61,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 663,
-      "Name": "Fisher Inc and Sons",
-      "ToolTip": "Est id dolor vitae qui molestiae voluptatem.",
+      "Id": 300,
+      "Name": "Sipes LLC",
+      "ToolTip": "Et similique reiciendis officiis quod facere et.",
       "Deleted": false,
-      "Rank": 351,
-      "Type": "excepturi",
-      "ColorBlock": 352,
-      "IconHint": "rerum",
+      "Rank": 785,
+      "Type": "quia",
+      "ColorBlock": 743,
+      "IconHint": "quo",
       "Selected": false,
-      "LastChanged": "2002-04-24T03:44:52.7302252+02:00",
+      "LastChanged": "2021-02-12T13:14:06.1164195+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "similique",
-      "StyleHint": "temporibus",
+      "ExtraInfo": "eum",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Mrs. Samanta Derrick Ernser V"
+      "FullName": "Krystina Abernathy"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 79,
-  "Name": "Langworth, D'Amore and Dicki",
-  "Tooltip": "nihil",
-  "Rank": 941,
+  "ProjTypeId": 990,
+  "Name": "Stamm-Donnelly",
+  "Tooltip": "ut",
+  "Rank": 622,
   "DurationUnit": "Century",
-  "ProjectDuration": 953,
+  "ProjectDuration": 483,
   "Deleted": true,
   "HasGuide": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 623,
-      "Name": "Klocko, Deckow and Dickens",
-      "ToolTip": "Aspernatur excepturi.",
+      "Id": 285,
+      "Name": "Marvin-Stanton",
+      "ToolTip": "In facilis aliquid molestiae occaecati laudantium mollitia dolore.",
       "Deleted": false,
-      "Rank": 734,
-      "Type": "libero",
-      "ColorBlock": 756,
-      "IconHint": "culpa",
+      "Rank": 341,
+      "Type": "possimus",
+      "ColorBlock": 141,
+      "IconHint": "sed",
       "Selected": true,
-      "LastChanged": "2005-06-30T03:44:52.7302252+02:00",
+      "LastChanged": "2008-06-22T13:14:06.1164195+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "omnis",
-      "Hidden": false,
-      "FullName": "Mrs. Ward Amari Nolan V",
+      "ExtraInfo": "sed",
+      "StyleHint": "quaerat",
+      "Hidden": true,
+      "FullName": "Mattie Haag",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 581
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 903
     }
   }
 }

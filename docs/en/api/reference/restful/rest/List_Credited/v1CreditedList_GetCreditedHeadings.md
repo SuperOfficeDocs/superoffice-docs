@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 977,
-    "Name": "Prosacco Inc and Sons",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "Rank": 840,
-    "UdListDefinitionId": 952,
+    "HeadingId": 48,
+    "Name": "Ledner Inc and Sons",
+    "Tooltip": "modi",
+    "Deleted": false,
+    "Rank": 220,
+    "UdListDefinitionId": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldType": "System.Int32",
+        "FieldLength": 136
       }
     }
   }

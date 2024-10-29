@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 893,
-    "Name": "Carter-Thiel",
+    "LegalBaseId": 188,
+    "Name": "Rutherford, Frami and Wisozk",
     "Tooltip": "veritatis",
-    "Rank": 522,
-    "Key": "distinctio",
+    "Rank": 490,
+    "Key": "rerum",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldType": "System.Int32",
+        "FieldLength": 267
       }
     }
   }

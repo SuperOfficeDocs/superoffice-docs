@@ -77,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 738,
-  "TypeId": 696,
-  "StartDate": "2001-04-03T03:44:53.1524683+02:00",
-  "Duration": 968,
-  "Description": "Customer-focused multi-state process improvement",
-  "PriorityId": 189,
+  "ProjectId": 271,
+  "TypeId": 837,
+  "StartDate": "2017-07-02T13:14:06.4133118+02:00",
+  "Duration": 988,
+  "Description": "Organized clear-thinking software",
+  "PriorityId": 213,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 869,
+  "OwnerAssociateId": 149,
   "SingleEntryOnEachCompany": false,
-  "SaleId": 998,
+  "SaleId": 255,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 402
     }
   }
 }

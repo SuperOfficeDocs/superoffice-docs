@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 18 May 2018 03:44:57 G5T
+Last-Modified: Sat, 21 Apr 2018 13:14:10 G4T
 
 {
-  "ForeignAppId": 33,
-  "Name": "Homenick Inc and Sons",
-  "CreatedDate": "2013-06-22T03:44:57.3433794+02:00",
-  "UpdatedDate": "2018-05-18T03:44:57.3433794+02:00",
+  "ForeignAppId": 528,
+  "Name": "Block-Howell",
+  "CreatedDate": "2001-03-27T13:14:10.8360396+02:00",
+  "UpdatedDate": "2018-04-21T13:14:10.8360396+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 47,
-      "Name": "Funk LLC",
-      "CreatedDate": "1999-06-04T03:44:57.3433794+02:00",
-      "UpdatedDate": "1998-09-16T03:44:57.3433794+02:00",
-      "AssociateFullName": "Roscoe Wehner",
-      "CreatedBy": "adipisci",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "ab",
-      "ForeignAppId": 60,
+      "ForeignDeviceId": 18,
+      "Name": "Jewess LLC",
+      "CreatedDate": "2015-01-10T13:14:10.8360396+01:00",
+      "UpdatedDate": "2023-11-04T13:14:10.8360396+01:00",
+      "AssociateFullName": "Vesta Lueilwitz",
+      "CreatedBy": "aut",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "inventore",
+      "ForeignAppId": 540,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Fri, 18 May 2018 03:44:57 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 249
     }
   }
 }

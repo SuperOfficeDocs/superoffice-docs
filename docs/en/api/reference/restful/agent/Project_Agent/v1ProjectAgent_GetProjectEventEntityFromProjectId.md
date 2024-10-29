@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 74
+  "ProjectId": 793
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "et",
-  "SignOffText": "labore",
-  "SignOnConfirmationText": "blanditiis",
-  "SignOnText": "nobis",
-  "EventDate": "2019-08-02T03:44:53.0114471+02:00",
-  "Enabled": false,
-  "CreatedDate": "1998-06-15T03:44:53.0114471+02:00",
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 154,
-  "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOffConfirmationText": "aut",
+  "SignOffText": "nobis",
+  "SignOnConfirmationText": "sint",
+  "SignOnText": "molestias",
+  "EventDate": "2011-05-19T13:14:06.2883049+02:00",
+  "Enabled": true,
+  "CreatedDate": "2010-03-02T13:14:06.2883049+01:00",
+  "SignOff": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 784,
+  "SignOffTriggersAssign": true,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 739,
+  "SignOnTaskId": 845,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2016-05-28T03:44:53.0114471+02:00",
+  "UpdatedDate": "2010-05-02T13:14:06.2883049+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 8,
-  "Id": 53,
-  "PublishFrom": "2017-02-12T03:44:53.0114471+01:00",
+  "ProjectId": 474,
+  "Id": 695,
+  "PublishFrom": "2003-04-09T13:14:06.2883049+02:00",
   "PublishType": "External",
-  "PublishTo": "2000-06-28T03:44:53.0114471+02:00",
+  "PublishTo": "2014-03-07T13:14:06.2883049+01:00",
   "VisibleForCategories": [
     {
-      "Id": 685,
-      "Name": "Oberbrunner, Lehner and Rutherford",
-      "ToolTip": "Magnam consequatur rem minima distinctio.",
+      "Id": 389,
+      "Name": "Quigley LLC",
+      "ToolTip": "Et culpa quia.",
       "Deleted": true,
-      "Rank": 628,
-      "Type": "officiis",
+      "Rank": 495,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fuga",
-      "ColorBlock": 770,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "amet",
-      "FullName": "Bianka Anabelle Runolfsdottir DDS",
+      "IconHint": "mollitia",
+      "ColorBlock": 508,
+      "ExtraInfo": "officiis",
+      "StyleHint": "temporibus",
+      "FullName": "Solon Moen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 920
+          "FieldType": "System.Int32",
+          "FieldLength": 308
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 745,
-      "Name": "Treutel, Ullrich and Upton",
-      "ToolTip": "Culpa ea nobis et dolorem assumenda at cum.",
+      "Id": 746,
+      "Name": "Vandervort LLC",
+      "ToolTip": "Consectetur error iusto est placeat.",
       "Deleted": false,
-      "Rank": 157,
-      "Type": "sit",
+      "Rank": 972,
+      "Type": "mollitia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "minima",
-      "ColorBlock": 238,
-      "ExtraInfo": "consequuntur",
-      "StyleHint": "fugit",
-      "FullName": "Geovany Reilly III",
+      "IconHint": "saepe",
+      "ColorBlock": 936,
+      "ExtraInfo": "maxime",
+      "StyleHint": "sunt",
+      "FullName": "Marcelina O'Hara",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 366
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": false,
+  "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 595,
+  "ProjectEventId": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldLength": 18
     }
   }
 }

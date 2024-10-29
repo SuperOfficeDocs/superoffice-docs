@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Name": "Wyman-Nader",
-  "Tooltip": "praesentium",
+  "Id": 245,
+  "Name": "Stanton Inc and Sons",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 705,
-  "IsCustomList": false,
+  "Rank": 157,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": false
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Runolfsdottir LLC",
-  "Tooltip": "nemo",
+  "Id": 620,
+  "Name": "Heidenreich-Mueller",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 828,
-  "IsCustomList": true,
+  "Rank": 91,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
+  "UseGroupsAndHeadings": false,
   "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 45
     }
   }
 }

@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 343,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2002-11-26T03:44:52.4333602+01:00",
-  "EndTime": "2018-07-16T03:44:52.4333602+02:00",
-  "Count": 715,
-  "DocumentTemplateId": 880
+  "PersonId": 165,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2003-07-10T13:14:05.7726487+02:00",
+  "EndTime": "2003-10-16T13:14:05.7726487+02:00",
+  "Count": 192,
+  "DocumentTemplateId": 870
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 979,
-    "Attention": "laboriosam",
-    "Header": "soluta",
-    "Name": "Langworth-Cremin",
-    "OurRef": "voluptatibus",
-    "YourRef": "ut",
-    "Description": "Optimized 24 hour software",
-    "DocumentTemplate": "blanditiis",
-    "IsPublished": false,
-    "PersonId": 956,
-    "PersonFullName": "Ivory Jakubowski",
-    "AssociateFullName": "Nikita Vandervort",
-    "ContactId": 1000,
-    "ContactName": "Farrell, Wiegand and Reichert",
-    "ProjectId": 313,
-    "ProjectName": "Steuber, Monahan and Armstrong",
-    "AssociateId": 36,
-    "Snum": 929,
-    "SaleId": 768,
-    "SaleName": "Lubowitz-Gleichner",
+    "DocumentId": 668,
+    "Attention": "deleniti",
+    "Header": "repudiandae",
+    "Name": "Grady-Lowe",
+    "OurRef": "id",
+    "YourRef": "natus",
+    "Description": "Expanded fresh-thinking groupware",
+    "DocumentTemplate": "saepe",
+    "IsPublished": true,
+    "PersonId": 318,
+    "PersonFullName": "Prof. Janet Ludwig Dickens II",
+    "AssociateFullName": "Miss Darrel Ward",
+    "ContactId": 508,
+    "ContactName": "Smith-Kulas",
+    "ProjectId": 589,
+    "ProjectName": "Mertz-Hane",
+    "AssociateId": 671,
+    "Snum": 181,
+    "SaleId": 599,
+    "SaleName": "Lockman-Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 822
       }
     }
   }

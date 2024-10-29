@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 998,
-  "Name": "Hane Group",
-  "Tooltip": "adipisci",
+  "HeadingId": 740,
+  "Name": "Stracke Group",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 836,
-  "UdListDefinitionId": 171
+  "Rank": 877,
+  "UdListDefinitionId": 94
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 753,
-  "Name": "Bergnaum-Gutmann",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "Rank": 548,
-  "UdListDefinitionId": 302,
+  "HeadingId": 625,
+  "Name": "Flatley, Cruickshank and Schroeder",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "Rank": 167,
+  "UdListDefinitionId": 595,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 529
     }
   }
 }

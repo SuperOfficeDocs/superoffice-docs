@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 605,
-    "Attention": "fuga",
-    "Header": "sunt",
-    "Name": "Murray-Stamm",
-    "OurRef": "eaque",
-    "YourRef": "est",
-    "Description": "Customizable discrete instruction set",
-    "DocumentTemplate": "expedita",
+    "DocumentId": 81,
+    "Attention": "saepe",
+    "Header": "ea",
+    "Name": "Oberbrunner-Volkman",
+    "OurRef": "tenetur",
+    "YourRef": "aliquam",
+    "Description": "Fundamental 24/7 capability",
+    "DocumentTemplate": "temporibus",
     "IsPublished": false,
-    "PersonId": 709,
-    "PersonFullName": "Dr. Edd Bethel Walsh",
-    "AssociateFullName": "Rosalinda Murazik",
-    "ContactId": 146,
-    "ContactName": "Yost-Murphy",
-    "ProjectId": 499,
-    "ProjectName": "Smitham Group",
-    "AssociateId": 938,
-    "Snum": 622,
-    "SaleId": 322,
-    "SaleName": "Schumm, Mitchell and Runolfsdottir",
+    "PersonId": 80,
+    "PersonFullName": "Wilhelmine Hermann",
+    "AssociateFullName": "Skylar Lowe",
+    "ContactId": 354,
+    "ContactName": "Cummings Inc and Sons",
+    "ProjectId": 162,
+    "ProjectName": "Senger Group",
+    "AssociateId": 192,
+    "Snum": 627,
+    "SaleId": 843,
+    "SaleName": "Wyman Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 996
       }
     }
   }

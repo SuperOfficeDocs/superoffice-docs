@@ -114,6 +114,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAppointmentAge
 * [ToggleAppointmentStatus](toggleappointmentstatus.md)
 * [UpdateAppointment](updateappointment.md)
 * [UpdateAppointmentFromIcsResponse](updateappointmentfromicsresponse.md)
+* [UpdateAppointmentWithMode](updateappointmentwithmode.md)
 * [ValidateAppointmentEntity](validateappointmententity.md)
 * [ValidateDays](validatedays.md)
 * [WillSendEmail](willsendemail.md)

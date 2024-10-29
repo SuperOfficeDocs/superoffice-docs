@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 148,
-    "Name": "Brakus Inc and Sons",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "Rank": 672,
-    "UdListDefinitionId": 243
+    "HeadingId": 541,
+    "Name": "Heidenreich LLC",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "Rank": 340,
+    "UdListDefinitionId": 621
   },
   {
-    "HeadingId": 148,
-    "Name": "Brakus Inc and Sons",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "Rank": 672,
-    "UdListDefinitionId": 243
+    "HeadingId": 541,
+    "Name": "Heidenreich LLC",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "Rank": 340,
+    "UdListDefinitionId": 621
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 752,
-    "Name": "Rath-Ryan",
-    "Tooltip": "delectus",
+    "HeadingId": 571,
+    "Name": "Lakin Inc and Sons",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 508,
-    "UdListDefinitionId": 764,
+    "Rank": 454,
+    "UdListDefinitionId": 616,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 490
       }
     }
   }

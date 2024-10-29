@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Bins Group",
-  "Tooltip": "odio",
+  "Id": 813,
+  "Name": "Kemmer, Kub and Bergnaum",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 217,
-  "Rank": 672,
+  "UdListDefinitionId": 913,
+  "Rank": 389,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 960
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=qui
+GET /api/v1/List/Task/MDOItems?query=sit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Muller LLC",
-    "ToolTip": "Pariatur hic architecto dolorum accusantium.",
-    "Deleted": false,
-    "Rank": 471,
-    "Type": "dolorem",
+    "Id": 856,
+    "Name": "Leffler-Hagenes",
+    "ToolTip": "Officia aperiam reiciendis culpa.",
+    "Deleted": true,
+    "Rank": 51,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 151,
-        "Name": "Larkin, Luettgen and Bernier",
-        "ToolTip": "Fugit et ipsam tenetur voluptatem voluptatem.",
+        "Id": 531,
+        "Name": "Lind-Rosenbaum",
+        "ToolTip": "Rerum nam dolor est possimus ut nobis.",
         "Deleted": false,
-        "Rank": 988,
-        "Type": "quaerat",
+        "Rank": 429,
+        "Type": "officiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 311,
-        "ExtraInfo": "quia",
-        "StyleHint": "voluptas",
-        "FullName": "Wilton Yazmin Rempel Jr.",
+        "IconHint": "quo",
+        "ColorBlock": 660,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aut",
+        "FullName": "Dr. Dino Schultz III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 504
+            "FieldType": "System.String",
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 675,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "tempore",
-    "FullName": "Mr. Jace Katelin Haley",
+    "IconHint": "reiciendis",
+    "ColorBlock": 1002,
+    "ExtraInfo": "ducimus",
+    "StyleHint": "suscipit",
+    "FullName": "Ms. Alexandria Spencer III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldType": "System.String",
+        "FieldLength": 51
       }
     }
   }

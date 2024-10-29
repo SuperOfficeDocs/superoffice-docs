@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 830,
-    "Name": "Fadel-Walker",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "UdListDefinitionId": 857,
-    "Rank": 596,
+    "Id": 334,
+    "Name": "McDermott LLC",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 716,
+    "Rank": 589,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldType": "System.Int32",
+        "FieldLength": 511
       }
     }
   }

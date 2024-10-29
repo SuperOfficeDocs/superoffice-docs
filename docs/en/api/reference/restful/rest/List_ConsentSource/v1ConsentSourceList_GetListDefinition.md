@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 19,
-  "Name": "McGlynn-Borer",
-  "Tooltip": "enim",
+  "Id": 439,
+  "Name": "Ortiz Group",
+  "Tooltip": "animi",
   "Deleted": false,
-  "Rank": 291,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 870,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 490
     }
   },
   "_Links": {

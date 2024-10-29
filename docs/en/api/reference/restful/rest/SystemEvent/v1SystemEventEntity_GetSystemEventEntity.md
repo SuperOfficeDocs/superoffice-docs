@@ -92,27 +92,27 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 632,
+  "SystemEventId": 410,
   "Scope": "Database",
-  "Eta": "2010-09-06T03:44:57.5937539+02:00",
-  "Eventkey": "necessitatibus",
-  "Eventmess": "sequi",
-  "ExtraInfo": 200,
-  "Owner": 988,
-  "UpdatedCount": 114,
-  "Registered": "2014-03-13T03:44:57.5937539+01:00",
+  "Eta": "2021-06-01T13:14:11.1173007+02:00",
+  "Eventkey": "nihil",
+  "Eventmess": "dicta",
+  "ExtraInfo": 957,
+  "Owner": 431,
+  "UpdatedCount": 658,
+  "Registered": "2023-06-14T13:14:11.1173007+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 347
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

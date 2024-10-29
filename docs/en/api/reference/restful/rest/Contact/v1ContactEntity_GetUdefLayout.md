@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 66,
-    "ColumnId": 459,
-    "FieldDefault": "ad",
-    "FieldHeight": 480,
-    "FieldLabel": "eaque",
-    "FieldLeft": 747,
-    "FieldTop": 354,
+    "UDefFieldId": 324,
+    "ColumnId": 696,
+    "FieldDefault": "quod",
+    "FieldHeight": 413,
+    "FieldLabel": "est",
+    "FieldLeft": 358,
+    "FieldTop": 136,
     "FieldType": "Checkbox",
-    "FieldWidth": 699,
-    "FormatMask": "itaque",
+    "FieldWidth": 314,
+    "FormatMask": "consequatur",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 768,
-    "LabelLeft": 357,
-    "LabelTop": 874,
-    "LabelWidth": 866,
-    "LastVersionId": 517,
-    "ListTableId": 372,
+    "IsIndexed": false,
+    "LabelHeight": 214,
+    "LabelLeft": 789,
+    "LabelTop": 708,
+    "LabelWidth": 150,
+    "LastVersionId": 16,
+    "ListTableId": 58,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 960,
-    "ProgId": "ab",
+    "Page1LineNo": 985,
+    "ProgId": "eveniet",
     "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 408,
-    "TextLength": 576,
-    "Tooltip": "nam",
-    "UdefIdentity": 535,
-    "UDListDefinitionId": 699,
+    "ShortLabel": "quia",
+    "TabOrder": 623,
+    "TextLength": 835,
+    "Tooltip": "sed",
+    "UdefIdentity": 147,
+    "UDListDefinitionId": 381,
     "Justification": "Center",
-    "Version": 795,
-    "TemplateVariableName": "Lind Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Blick-Dibbert",
+    "Version": 717,
+    "TemplateVariableName": "Hoppe Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Keebler-Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 451
       }
     }
   }

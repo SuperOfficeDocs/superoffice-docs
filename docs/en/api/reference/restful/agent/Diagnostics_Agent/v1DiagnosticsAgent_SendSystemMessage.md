@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "nostrum",
-  "AssociateId": 525,
-  "MarkdownMessage": "libero",
-  "Expire": "2011-03-09T03:44:52.417768+01:00",
+  "SystemMessageId": "natus",
+  "AssociateId": 913,
+  "MarkdownMessage": "impedit",
+  "Expire": "2013-11-13T13:14:05.7570229+01:00",
   "Type": "Error"
 }
 ```

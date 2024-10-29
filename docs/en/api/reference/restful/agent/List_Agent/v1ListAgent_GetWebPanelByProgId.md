@@ -98,7 +98,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "eius"
+  "ProgId": "quaerat"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 75,
-  "Name": "Littel-Weber",
-  "Tooltip": "nobis",
+  "WebPanelId": 415,
+  "Name": "Bogisich, Becker and Rice",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 994,
+  "Rank": 112,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Schroeder Inc and Sons",
+  "WindowName": "Schiller, Macejkovic and Gorczany",
   "Url": "http://www.example.com/",
-  "ProgId": "sunt",
-  "Icon": 829,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "fugiat",
+  "Icon": 705,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 181
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

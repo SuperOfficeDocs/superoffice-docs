@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 253,
-  "LanguageCode": "sed"
+  "DocumentTemplateId": 332,
+  "LanguageCode": "repellendus"
 }
 ```
 

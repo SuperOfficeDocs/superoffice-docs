@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Cronin, Ruecker and Kub",
-    "ToolTip": "Eos eius quia similique sit.",
-    "Deleted": false,
-    "Rank": 665,
-    "Type": "itaque",
-    "ColorBlock": 636,
-    "IconHint": "sunt",
-    "Selected": true,
-    "LastChanged": "2009-08-10T03:44:57.9687368+02:00",
+    "Id": 31,
+    "Name": "Swift, Abbott and Batz",
+    "ToolTip": "A excepturi accusantium modi vitae qui quia reprehenderit.",
+    "Deleted": true,
+    "Rank": 704,
+    "Type": "aperiam",
+    "ColorBlock": 469,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2024-10-13T13:14:11.3829471+02:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Ryan LLC",
-        "ToolTip": "Debitis eveniet itaque totam.",
-        "Deleted": true,
-        "Rank": 247,
-        "Type": "labore",
-        "ColorBlock": 405,
-        "IconHint": "assumenda",
-        "Selected": true,
-        "LastChanged": "2008-05-26T03:44:57.9687368+02:00",
+        "Id": 624,
+        "Name": "Pfannerstill, Reynolds and Breitenberg",
+        "ToolTip": "Dolor adipisci adipisci temporibus doloremque.",
+        "Deleted": false,
+        "Rank": 842,
+        "Type": "temporibus",
+        "ColorBlock": 70,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2001-01-05T13:14:11.3829471+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "iusto",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Dr. Hailey Parisian"
+        "FullName": "Felton Parisian"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Velva Kemmer"
+    "ExtraInfo": "quis",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Mrs. Wendell Erik Deckow"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Leuschke, O'Reilly and Jenkins",
-    "ToolTip": "Consequatur optio quos rem est quam.",
-    "Deleted": true,
-    "Rank": 234,
-    "Type": "vitae",
-    "ColorBlock": 309,
-    "IconHint": "ut",
+    "Id": 196,
+    "Name": "Satterfield-Hartmann",
+    "ToolTip": "Asperiores at dolor natus.",
+    "Deleted": false,
+    "Rank": 709,
+    "Type": "veniam",
+    "ColorBlock": 62,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2023-07-07T03:44:57.9687368+02:00",
+    "LastChanged": "1997-08-07T13:14:11.3829471+02:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Prohaska, Hegmann and Homenick",
-        "ToolTip": "Quis nemo ullam omnis doloribus ducimus id.",
-        "Deleted": false,
-        "Rank": 86,
-        "Type": "dolor",
-        "ColorBlock": 861,
-        "IconHint": "voluptatibus",
+        "Id": 518,
+        "Name": "Schiller-Mayert",
+        "ToolTip": "Nesciunt sed delectus fuga.",
+        "Deleted": true,
+        "Rank": 353,
+        "Type": "accusamus",
+        "ColorBlock": 163,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2012-01-27T03:44:57.9687368+01:00",
+        "LastChanged": "2024-07-17T13:14:11.3829471+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "animi",
-        "Hidden": false,
-        "FullName": "Jerrold Schroeder",
+        "ExtraInfo": "est",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Nicola Ebert Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 351
+            "FieldType": "System.String",
+            "FieldLength": 176
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Prof. Haylie Norma Fay",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Mr. Mossie Emilia Gleason MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldLength": 584
       }
     }
   }

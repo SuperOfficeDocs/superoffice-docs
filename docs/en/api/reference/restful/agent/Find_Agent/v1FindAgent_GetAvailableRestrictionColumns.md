@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "facilis",
-  "ProviderName": "Friesen-Abshire"
+  "StorageType": "mollitia",
+  "ProviderName": "Jerde-Jaskolski"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "omnis",
-  "nostrum"
+  "quia",
+  "iste"
 ]
 ```

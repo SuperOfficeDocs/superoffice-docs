@@ -90,10 +90,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ab",
-  "PrefKey": "laborum",
+  "PrefSection": "aliquam",
+  "PrefKey": "laboriosam",
   "PrefLevel": "Database",
-  "OwnerId": 16
+  "OwnerId": 740
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "qui",
+  "RawValue": "non",
   "Specification": null,
-  "DisplayValue": "facilis",
-  "DisplayTooltip": "amet",
+  "DisplayValue": "quis",
+  "DisplayTooltip": "fuga",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 675,
-  "PrefDescId": 169,
-  "TableName": "Schumm-Kris",
-  "UserPreferenceId": 337,
+  "TargetId": 788,
+  "PrefDescId": 553,
+  "TableName": "Tromp-Marks",
+  "UserPreferenceId": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldLength": 62
     }
   }
 }

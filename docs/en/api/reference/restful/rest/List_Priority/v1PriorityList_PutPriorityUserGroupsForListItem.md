@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 794,
-    "Name": "Ernser, Sanford and Hyatt",
-    "ToolTip": "Esse praesentium.",
-    "Deleted": false,
-    "Rank": 643,
-    "Type": "a",
-    "ColorBlock": 252,
-    "IconHint": "commodi",
+    "Id": 380,
+    "Name": "Marquardt, Abernathy and Schiller",
+    "ToolTip": "Et perspiciatis molestiae eos eum.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "aut",
+    "ColorBlock": 123,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2018-08-12T03:44:58.0468534+02:00",
+    "LastChanged": "2011-03-22T13:14:11.4454508+01:00",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Kilback, Bins and Stamm",
-        "ToolTip": "Et sapiente.",
-        "Deleted": false,
-        "Rank": 320,
-        "Type": "sit",
-        "ColorBlock": 135,
-        "IconHint": "possimus",
-        "Selected": false,
-        "LastChanged": "2015-08-04T03:44:58.0468534+02:00",
+        "Id": 441,
+        "Name": "Rohan Group",
+        "ToolTip": "Mollitia quae tenetur explicabo et officiis ut.",
+        "Deleted": true,
+        "Rank": 287,
+        "Type": "illo",
+        "ColorBlock": 259,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "2013-07-03T13:14:11.4454508+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Prof. Charlotte Micaela Pfannerstill Jr."
+        "ExtraInfo": "deleniti",
+        "StyleHint": "fugit",
+        "Hidden": true,
+        "FullName": "Lisandro Wilderman"
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "quae",
+    "ExtraInfo": "ut",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Mrs. Johnnie Angelica Walsh"
+    "FullName": "Miss Hank Deion Windler MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Frami Group",
-    "ToolTip": "Placeat veritatis omnis maxime harum modi ad.",
+    "Id": 182,
+    "Name": "Mraz Inc and Sons",
+    "ToolTip": "Amet sapiente.",
     "Deleted": false,
-    "Rank": 346,
-    "Type": "dicta",
-    "ColorBlock": 764,
-    "IconHint": "aut",
+    "Rank": 830,
+    "Type": "autem",
+    "ColorBlock": 355,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2023-01-22T03:44:58.062516+01:00",
+    "LastChanged": "2021-11-13T13:14:11.4454508+01:00",
     "ChildItems": [
       {
-        "Id": 592,
-        "Name": "Bernier, Gutkowski and Goyette",
-        "ToolTip": "Optio et tenetur veritatis magni nisi culpa.",
+        "Id": 409,
+        "Name": "Frami Group",
+        "ToolTip": "Rem atque repellat dolore exercitationem aut.",
         "Deleted": false,
-        "Rank": 522,
-        "Type": "minus",
-        "ColorBlock": 76,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2012-03-03T03:44:58.062516+01:00",
+        "Rank": 414,
+        "Type": "est",
+        "ColorBlock": 286,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2016-11-01T13:14:11.4454508+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Dejah Littel",
+        "FullName": "Morgan Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 303
+            "FieldLength": 233
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Noe Douglas",
+    "ExtraInfo": "rerum",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Ms. Patsy Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldType": "System.Int32",
+        "FieldLength": 110
       }
     }
   }

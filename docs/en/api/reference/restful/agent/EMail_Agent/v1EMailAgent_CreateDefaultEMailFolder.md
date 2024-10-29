@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gleason-Kub",
-  "Delimiter": "debitis",
-  "Flags": "dolore",
-  "TotalItems": 99,
-  "UnreadItems": 971,
+  "Name": "Lynch-Kub",
+  "Delimiter": "quia",
+  "Flags": "est",
+  "TotalItems": 293,
+  "UnreadItems": 932,
   "Subscribed": false,
-  "EmailFolderId": 492,
+  "EmailFolderId": 208,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 322
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   }
 }

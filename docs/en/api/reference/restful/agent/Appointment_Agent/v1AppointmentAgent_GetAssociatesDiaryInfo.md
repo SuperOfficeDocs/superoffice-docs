@@ -73,12 +73,18 @@ OK
 | ColorIndex | string | The color index of the appointment (task) |
 | TaskName | string | The name of the appointment task type |
 | ContactName | string | The name of the appointment contact. |
+| ProjectName | string | The name of the appointment project |
 | Title | string | The appointment title (first line of appointment description) |
 | Agenda | string | The appointment agenda (the rest of appointment description) |
 | IsAllDay | bool | True if the appointment is an all day appointment |
 | IsBusy | bool | True if the participant is marked as busy |
 | IsRecurring | bool | True if the appointment is part of a recurring series |
 | IsVideoMeeting | bool | True if the appointment has a video link |
+| HasAlarm | bool | True if the appointment has alarm |
+| IsCompleted | bool | True if the appointment is completed |
+| IsTentative | bool | True if the appointment is tentative |
+| IsBookingMain | bool | True if the appointment is a main booking |
+| RecurrenceInfo | RecurrenceInfo | The recurrence info if the appointment is recurring |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -93,11 +99,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    327,
-    268
+    867,
+    320
   ],
-  "StartTime": "2011-11-12T03:44:51.8552876+01:00",
-  "EndTime": "2012-01-16T03:44:51.8552876+01:00"
+  "StartTime": "2024-10-15T13:14:05.2413666+02:00",
+  "EndTime": "2010-02-10T13:14:05.2413666+01:00"
 }
 ```
 
@@ -109,26 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 823,
-    "AssociateId": 211,
-    "MotherId": 521,
-    "StartDate": "2008-12-15T03:44:51.8552876+01:00",
-    "EndDate": "2009-01-10T03:44:51.8552876+01:00",
+    "AppointmentId": 865,
+    "AssociateId": 823,
+    "MotherId": 333,
+    "StartDate": "2013-01-22T13:14:05.2413666+01:00",
+    "EndDate": "2009-02-05T13:14:05.2413666+01:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Johnston-West",
-    "ContactName": "Connelly, Hand and Douglas",
-    "Title": "eaque",
-    "Agenda": "esse",
+    "TaskName": "Denesik-Fritsch",
+    "ContactName": "Lesch Inc and Sons",
+    "ProjectName": "Beatty, Dicki and Zieme",
+    "Title": "molestiae",
+    "Agenda": "beatae",
     "IsAllDay": false,
     "IsBusy": false,
     "IsRecurring": false,
-    "IsVideoMeeting": false,
+    "IsVideoMeeting": true,
+    "HasAlarm": false,
+    "IsCompleted": false,
+    "IsTentative": true,
+    "IsBookingMain": true,
+    "RecurrenceInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 702
       }
     }
   }

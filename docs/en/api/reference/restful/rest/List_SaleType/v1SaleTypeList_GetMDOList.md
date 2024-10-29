@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=fuga
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=iusto
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Hansen, Swift and Turner",
-    "ToolTip": "Consequatur nihil ipsam sint.",
+    "Id": 702,
+    "Name": "Towne Inc and Sons",
+    "ToolTip": "Libero sequi enim molestiae necessitatibus consequatur at.",
     "Deleted": false,
-    "Rank": 446,
-    "Type": "fugiat",
+    "Rank": 825,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Ledner-McCullough",
-        "ToolTip": "Dicta et temporibus.",
-        "Deleted": true,
-        "Rank": 536,
-        "Type": "at",
+        "Id": 258,
+        "Name": "Bernhard-Mosciski",
+        "ToolTip": "Quibusdam aliquam nihil.",
+        "Deleted": false,
+        "Rank": 288,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nesciunt",
-        "ColorBlock": 644,
+        "IconHint": "eum",
+        "ColorBlock": 693,
         "ExtraInfo": "dolores",
-        "StyleHint": "rem",
-        "FullName": "Luella Alena O'Kon III",
+        "StyleHint": "voluptate",
+        "FullName": "Ms. Leta Koepp Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 187
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 616,
-    "ExtraInfo": "aliquam",
-    "StyleHint": "rem",
-    "FullName": "Prof. Carissa Edmund Bartoletti",
+    "IconHint": "inventore",
+    "ColorBlock": 433,
+    "ExtraInfo": "quae",
+    "StyleHint": "autem",
+    "FullName": "Makenna Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 587
       }
     }
   }

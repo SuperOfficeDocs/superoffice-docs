@@ -71,16 +71,16 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kerluke Group",
-  "DeviceName": "Sipes LLC",
-  "DeviceIdentifier": "cupiditate",
-  "KeyName": "Hermann-Harvey",
-  "TableName": "Waters-Durgan",
-  "RecordId": 137
+  "ApplicationName": "Considine Group",
+  "DeviceName": "Murphy-Torp",
+  "DeviceIdentifier": "illum",
+  "KeyName": "Block-Abernathy",
+  "TableName": "Hirthe, Walker and Dietrich",
+  "RecordId": 705
 }
 ```
 

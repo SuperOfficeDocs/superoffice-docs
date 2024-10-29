@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 1001,
-  "Name": "Kuhlman-Wisoky",
-  "Tooltip": "maiores",
-  "Rank": 642,
-  "Rate": 27739.034,
-  "Units": 13140.862,
-  "Deleted": true,
+  "CurrencyId": 871,
+  "Name": "Rempel Inc and Sons",
+  "Tooltip": "quas",
+  "Rank": 36,
+  "Rate": 7079.706,
+  "Units": 17528.462,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 75
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=658
+POST /api/v1/Agents/Person/GetPerson?personId=559
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "et",
-  "PersonId": 33,
-  "Mrmrs": "quia",
-  "Firstname": "Sincere",
-  "Lastname": "Tremblay",
-  "MiddleName": "Rath-Feest",
+  "Position": "porro",
+  "PersonId": 961,
+  "Mrmrs": "consectetur",
+  "Firstname": "Heather",
+  "Lastname": "Cartwright",
+  "MiddleName": "Trantow-Grimes",
   "Title": "sint",
-  "Description": "Enterprise-wide uniform intranet",
-  "Email": "damion@padberg.name",
-  "FullName": "Peyton Caroline Thiel II",
-  "DirectPhone": "546.602.7481",
-  "FormalName": "Windler, Kertzmann and Glover",
-  "CountryId": 435,
-  "ContactId": 124,
-  "ContactName": "Jerde-Hammes",
-  "Retired": 729,
-  "Rank": 768,
-  "ActiveInterests": 644,
+  "Description": "Triple-buffered multimedia extranet",
+  "Email": "tianna_will@brakus.com",
+  "FullName": "Mrs. Graciela Runte V",
+  "DirectPhone": "602-520-5326 x67573",
+  "FormalName": "Cronin LLC",
+  "CountryId": 946,
+  "ContactId": 698,
+  "ContactName": "Morissette Inc and Sons",
+  "Retired": 920,
+  "Rank": 33,
+  "ActiveInterests": 943,
   "ContactDepartment": "",
-  "ContactCountryId": 374,
-  "ContactOrgNr": "1582067",
-  "FaxPhone": "690-556-3982 x770",
-  "MobilePhone": "816-196-0404 x90588",
-  "ContactPhone": "731-738-7449 x6731",
-  "AssociateName": "Boyle-Buckridge",
-  "AssociateId": 98,
+  "ContactCountryId": 932,
+  "ContactOrgNr": "1173304",
+  "FaxPhone": "(684)693-0741",
+  "MobilePhone": "652.050.2881",
+  "ContactPhone": "981.534.1765",
+  "AssociateName": "Kreiger-Rath",
+  "AssociateId": 541,
   "UsePersonAddress": false,
-  "ContactFax": "est",
-  "Kanafname": "deleniti",
-  "Kanalname": "corporis",
-  "Post1": "odio",
-  "Post2": "ut",
-  "Post3": "optio",
-  "EmailName": "donato@shields.co.uk",
-  "ContactFullName": "Mr. Germaine Mills",
-  "ActiveErpLinks": 40,
-  "TicketPriorityId": 991,
-  "SupportLanguageId": 33,
-  "SupportAssociateId": 679,
+  "ContactFax": "placeat",
+  "Kanafname": "voluptatem",
+  "Kanalname": "impedit",
+  "Post1": "architecto",
+  "Post2": "quo",
+  "Post3": "ut",
+  "EmailName": "korey.bartell@wiza.ca",
+  "ContactFullName": "Duane Hoppe",
+  "ActiveErpLinks": 158,
+  "TicketPriorityId": 896,
+  "SupportLanguageId": 438,
+  "SupportAssociateId": 551,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldType": "System.String",
+      "FieldLength": 327
     }
   }
 }

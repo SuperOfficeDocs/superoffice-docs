@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 755,
-  "Filter": "deleniti"
+  "SelectionId": 368,
+  "Filter": "qui"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Littel-Okuneva",
-    "Operator": "tempore",
+    "Name": "Grant-Wolf",
+    "Operator": "qui",
     "Values": [
-      "ab",
-      "ullam"
+      "accusamus",
+      "eligendi"
     ],
     "DisplayValues": [
       "aut",
-      "qui"
+      "rerum"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Russel-Kutch",
-        "Operator": "ut",
+        "Name": "Greenfelder-Hyatt",
+        "Operator": "et",
         "Values": [
-          "omnis",
-          "aperiam"
+          "aliquid",
+          "eos"
         ],
         "DisplayValues": [
-          "culpa",
-          "harum"
+          "magnam",
+          "laudantium"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 446,
+        "InterParenthesis": 563,
         "InterOperator": "And",
-        "UniqueHash": 484
+        "UniqueHash": 871
       }
     ],
-    "InterParenthesis": 440,
+    "InterParenthesis": 4,
     "InterOperator": "And",
-    "UniqueHash": 309
+    "UniqueHash": 590
   }
 ]
 ```

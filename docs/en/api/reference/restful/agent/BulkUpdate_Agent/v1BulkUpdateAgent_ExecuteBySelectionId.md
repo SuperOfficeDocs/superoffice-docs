@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "consequatur",
-      "ValueType": "voluptate",
-      "Mandatory": true,
-      "EncodedDisplayName": "Quitzon-Harvey",
-      "EncodedDisplayDescription": "Innovative encompassing hardware",
-      "IconHint": "sit",
+      "Key": "neque",
+      "ValueType": "ut",
+      "Mandatory": false,
+      "EncodedDisplayName": "Howell-Ruecker",
+      "EncodedDisplayDescription": "Future-proofed regional throughput",
+      "IconHint": "expedita",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "omnis",
-      "EncodedDataCaptionDescription": "Seamless next generation orchestration",
-      "CurrentOperationType": "et",
+      "EncodedDataCaption": "molestias",
+      "EncodedDataCaptionDescription": "Horizontal zero tolerance open architecture",
+      "CurrentOperationType": "sint",
       "Values": [
-        "illum",
-        "qui"
+        "earum",
+        "consequatur"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "et"
+        "odit",
+        "ad"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Macejkovic-Lebsack",
-  "Context": "reiciendis",
-  "SelectionId": 282,
-  "IsShadow": true
+  "TableName": "Schneider Inc and Sons",
+  "Context": "explicabo",
+  "SelectionId": 59,
+  "IsShadow": false
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-782
+430
 ```

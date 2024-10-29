@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dicta",
+  "SaleText": "illum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-04-23T03:44:57.5312932+02:00",
-  "Amount": 3309.504,
-  "SaleId": 297,
-  "Earning": 9915.976,
-  "EarningPercent": 30672.458,
-  "Heading": "vel",
-  "Number": "1140946",
-  "Probability": 723,
-  "CreatedDate": "2021-01-31T03:44:57.5312932+01:00",
-  "UpdatedDate": "2012-07-04T03:44:57.5312932+02:00",
+  "Saledate": "1997-08-05T13:14:11.0704236+02:00",
+  "Amount": 8474.336,
+  "SaleId": 970,
+  "Earning": 9179.485999999999,
+  "EarningPercent": 25864.902,
+  "Heading": "magnam",
+  "Number": "874100",
+  "Probability": 274,
+  "CreatedDate": "2011-09-06T13:14:11.0704236+02:00",
+  "UpdatedDate": "2007-02-28T13:14:11.0704236+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 943,
+  "ActiveLinks": 153,
   "Links": [
     {
-      "EntityName": "Grady LLC",
-      "Id": 89,
-      "Description": "Cross-group user-facing implementation",
-      "ExtraInfo": "ea",
-      "LinkId": 108
+      "EntityName": "White-Jewess",
+      "Id": 246,
+      "Description": "Multi-channelled bi-directional encoding",
+      "ExtraInfo": "inventore",
+      "LinkId": 443
     },
     {
-      "EntityName": "Grady LLC",
-      "Id": 89,
-      "Description": "Cross-group user-facing implementation",
-      "ExtraInfo": "ea",
-      "LinkId": 108
+      "EntityName": "White-Jewess",
+      "Id": 246,
+      "Description": "Multi-channelled bi-directional encoding",
+      "ExtraInfo": "inventore",
+      "LinkId": 443
     }
   ],
-  "NextDueDate": "2010-07-18T03:44:57.5312932+02:00",
-  "Postit": "quibusdam",
+  "NextDueDate": "2012-12-12T13:14:11.0704236+01:00",
+  "Postit": "omnis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-09-16T03:44:57.5312932+02:00",
+  "ReopenDate": "2013-03-13T13:14:11.0704236+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Walker, Kulas and Legros",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 164,
-      "CountryId": 570,
-      "PersonId": 458,
-      "EmailDescription": "sadie.gottlieb@shanahan.biz",
-      "EmailId": 303,
-      "EmailAddress": "clovis_oberbrunner@dubuque.info",
-      "PhoneId": 448,
-      "ContactName": "Buckridge-Hudson",
-      "ContactId": 56,
-      "SaleId": 927,
-      "Mrmrs": "ad",
-      "Firstname": "Marjory",
-      "MiddleName": "Mann-Bayer",
-      "Lastname": "Miller",
-      "SaleStakeholderId": 339,
-      "Rank": 720,
-      "Phone": "695.199.4763 x1473"
+      "StakeholderRoleName": "Wehner Inc and Sons",
+      "Comment": "officiis",
+      "StakeholderRoleId": 430,
+      "CountryId": 942,
+      "PersonId": 542,
+      "EmailDescription": "liza_mckenzie@rice.info",
+      "EmailId": 507,
+      "EmailAddress": "rory@osinskikrajcik.com",
+      "PhoneId": 490,
+      "ContactName": "Zieme Group",
+      "ContactId": 649,
+      "SaleId": 712,
+      "Mrmrs": "ab",
+      "Firstname": "Margaret",
+      "MiddleName": "O'Keefe-Rice",
+      "Lastname": "Steuber",
+      "SaleStakeholderId": 578,
+      "Rank": 789,
+      "Phone": "(505)212-2490 x7841"
     }
   ],
-  "ActiveErpLinks": 348,
+  "ActiveErpLinks": 232,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:2": "Filiberto Kassulke"
   },
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "veniam"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "2015-08-10T03:44:57.5312932+02:00",
-  "PublishTo": "2022-04-02T03:44:57.5312932+02:00",
-  "PublishFrom": "2017-02-20T03:44:57.5312932+01:00",
+  "PublishEventDate": "2000-10-06T13:14:11.0704236+02:00",
+  "PublishTo": "2011-07-15T13:14:11.0704236+02:00",
+  "PublishFrom": "2010-05-25T13:14:11.0704236+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 419,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 419,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "facere",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-12-15T03:44:57.5469246+01:00",
-  "Amount": 5246.316,
-  "SaleId": 412,
-  "Earning": 22649.417999999998,
-  "EarningPercent": 17296.546,
-  "Heading": "in",
-  "Number": "649805",
-  "Probability": 417,
-  "CreatedDate": "2023-04-28T03:44:57.5469246+02:00",
-  "UpdatedDate": "2014-12-17T03:44:57.5469246+01:00",
+  "Saledate": "2003-06-02T13:14:11.0704236+02:00",
+  "Amount": 17371.762,
+  "SaleId": 515,
+  "Earning": 22129.174,
+  "EarningPercent": 8897.426,
+  "Heading": "provident",
+  "Number": "1059203",
+  "Probability": 48,
+  "CreatedDate": "2003-07-22T13:14:11.0704236+02:00",
+  "UpdatedDate": "2010-11-15T13:14:11.0704236+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 215,
+  "ActiveLinks": 47,
   "Links": [
     {
-      "EntityName": "King Inc and Sons",
-      "Id": 47,
-      "Description": "User-centric zero administration help-desk",
-      "ExtraInfo": "eum",
-      "LinkId": 48,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 844
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2012-02-05T03:44:57.5469246+01:00",
-  "Postit": "non",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2021-11-25T03:44:57.5469246+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Balistreri-Schaden",
-      "Comment": "adipisci",
-      "StakeholderRoleId": 260,
-      "CountryId": 331,
-      "PersonId": 837,
-      "EmailDescription": "helga@oconnellstanton.com",
-      "EmailId": 783,
-      "EmailAddress": "michele@harris.uk",
-      "PhoneId": 112,
-      "ContactName": "Stroman-Blanda",
-      "ContactId": 603,
-      "SaleId": 726,
-      "Mrmrs": "est",
-      "Firstname": "Cristopher",
-      "MiddleName": "Hirthe, McGlynn and Lemke",
-      "Lastname": "Hermiston",
-      "SaleStakeholderId": 727,
-      "Rank": 534,
-      "Phone": "956-459-4726 x510",
+      "EntityName": "Doyle-Little",
+      "Id": 405,
+      "Description": "Focused exuding infrastructure",
+      "ExtraInfo": "sunt",
+      "LinkId": 519,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldLength": 256
         }
       }
     }
   ],
-  "ActiveErpLinks": 136,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Foster Austyn Pollich",
-    "SuperOffice:2": "Darby Ferry"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "occaecati"
-  },
-  "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "consequuntur"
-  },
-  "PublishEventDate": "2022-07-27T03:44:57.5469246+02:00",
-  "PublishTo": "2006-09-24T03:44:57.5469246+02:00",
-  "PublishFrom": "2001-07-03T03:44:57.5469246+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2015-07-14T13:14:11.0704236+02:00",
+  "Postit": "autem",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2011-04-30T13:14:11.0704236+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 400,
-      "Visibility": "All",
-      "DisplayValue": "eos",
+      "StakeholderRoleName": "Johnson Inc and Sons",
+      "Comment": "nisi",
+      "StakeholderRoleId": 154,
+      "CountryId": 34,
+      "PersonId": 655,
+      "EmailDescription": "carroll_luettgen@runolfssongleichner.biz",
+      "EmailId": 344,
+      "EmailAddress": "nova@denesikmiller.info",
+      "PhoneId": 286,
+      "ContactName": "Crooks-Schuppe",
+      "ContactId": 244,
+      "SaleId": 246,
+      "Mrmrs": "in",
+      "Firstname": "Freeman",
+      "MiddleName": "Ullrich, Roob and Hagenes",
+      "Lastname": "Reinger",
+      "SaleStakeholderId": 917,
+      "Rank": 714,
+      "Phone": "378-526-9964 x568",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldLength": 454
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 631,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Avery Breitenberg",
+    "SuperOffice:2": "Melisa Mario Kozey Jr."
+  },
+  "ExtraFields": {
+    "ExtraFields1": "velit",
+    "ExtraFields2": "eum"
+  },
+  "CustomFields": {
+    "CustomFields1": "autem",
+    "CustomFields2": "error"
+  },
+  "PublishEventDate": "2024-10-26T13:14:11.0704236+02:00",
+  "PublishTo": "2015-01-09T13:14:11.0704236+01:00",
+  "PublishFrom": "2018-07-17T13:14:11.0704236+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 275,
+      "Visibility": "All",
+      "DisplayValue": "reiciendis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 578
         }
       }
     },
     {
-      "VisibleId": 400,
+      "VisibleId": 275,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldType": "System.Int32",
+          "FieldLength": 578
         }
       }
     }
@@ -412,7 +412,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldLength": 644
     }
   },
   "_Links": {

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 799
+  "ContactId": 236
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 344,
-    "Name": "Schroeder-Hickle",
-    "Description": "Secured maximized capability",
+    "ProjectId": 138,
+    "Name": "Gleason-Fritsch",
+    "Description": "Inverse system-worthy archive",
     "URL": "http://www.example.com/",
-    "Type": "praesentium",
-    "AssociateId": 961,
-    "AssociateFullName": "Mrs. German Wolf IV",
-    "TypeId": 286,
-    "Updated": "2003-11-15T03:44:53.0114471+01:00",
-    "StatusId": 774,
-    "Status": "aliquid",
-    "TextId": 826,
-    "PublishTo": "2001-01-30T03:44:53.0114471+01:00",
-    "PublishFrom": "2010-05-25T03:44:53.0114471+02:00",
+    "Type": "et",
+    "AssociateId": 685,
+    "AssociateFullName": "Viola Williamson",
+    "TypeId": 638,
+    "Updated": "1997-11-29T13:14:06.2883049+01:00",
+    "StatusId": 566,
+    "Status": "velit",
+    "TextId": 176,
+    "PublishTo": "2020-04-14T13:14:06.2883049+02:00",
+    "PublishFrom": "2010-10-17T13:14:06.2883049+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "758268",
-    "ActiveErpLinks": 709,
+    "ProjectNumber": "688325",
+    "ActiveErpLinks": 845,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 749
       }
     }
   }

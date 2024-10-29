@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 587,
-  "Section": "perspiciatis",
-  "Key": "error",
-  "Name": "Moen, Pollich and Dickinson",
+  "PrefDescId": 281,
+  "Section": "cumque",
+  "Key": "maiores",
+  "Name": "Mohr Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enhanced grid-enabled complexity",
+  "Description": "Adaptive tangible capability",
   "IsBuiltin": false,
-  "TableName": "Predovic LLC",
-  "UserDefinedListId": 816,
-  "Rank": 641,
-  "SubGroup": "dolorem",
-  "MinLevel": 262,
-  "MaxValue": 999,
-  "MinValue": 35,
-  "RequiredLicense": "natus"
+  "TableName": "Kreiger, Barton and Kunze",
+  "UserDefinedListId": 485,
+  "Rank": 6,
+  "SubGroup": "ea",
+  "MinLevel": 138,
+  "MaxValue": 624,
+  "MinValue": 298,
+  "RequiredLicense": "consequuntur"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 755,
-  "Section": "odit",
-  "Key": "placeat",
-  "Name": "Osinski-Greenholt",
+  "PrefDescId": 994,
+  "Section": "vero",
+  "Key": "atque",
+  "Name": "King LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Integrated human-resource superstructure",
+  "Description": "Switchable zero defect solution",
   "IsBuiltin": false,
-  "TableName": "Strosin-Green",
-  "UserDefinedListId": 716,
-  "Rank": 84,
-  "SubGroup": "nesciunt",
-  "MinLevel": 624,
-  "MaxValue": 562,
-  "MinValue": 35,
-  "RequiredLicense": "cum",
+  "TableName": "Boyer LLC",
+  "UserDefinedListId": 400,
+  "Rank": 46,
+  "SubGroup": "et",
+  "MinLevel": 353,
+  "MaxValue": 846,
+  "MinValue": 546,
+  "RequiredLicense": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldLength": 939
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

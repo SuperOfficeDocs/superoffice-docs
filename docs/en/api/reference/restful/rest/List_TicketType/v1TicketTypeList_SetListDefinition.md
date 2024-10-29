@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 497,
-  "Name": "Simonis-Bergnaum",
-  "Tooltip": "consequatur",
+  "Id": 922,
+  "Name": "Treutel-Mante",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 127,
+  "Rank": 297,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": true
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 241,
-  "Name": "Bechtelar Group",
-  "Tooltip": "quis",
+  "Id": 906,
+  "Name": "Dietrich LLC",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 836,
+  "Rank": 136,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ea",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 749
     }
   }
 }

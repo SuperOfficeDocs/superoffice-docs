@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 311,
-  "WorkflowId": 278,
+  "WorkflowGoalId": 29,
+  "WorkflowId": 110,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Bosco Group",
-      "Description": "Managed 24/7 implementation",
-      "Rank": 38,
+      "Name": "Veum-Runolfsdottir",
+      "Description": "Centralized hybrid website",
+      "Rank": 694,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bosco Group",
-      "Description": "Managed 24/7 implementation",
-      "Rank": 38,
+      "Name": "Veum-Runolfsdottir",
+      "Description": "Centralized hybrid website",
+      "Rank": 694,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 445
     }
   }
 }

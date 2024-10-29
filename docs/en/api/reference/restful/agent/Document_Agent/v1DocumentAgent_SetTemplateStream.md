@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "voluptas",
-  "Personal": true,
+  "Filename": "iusto",
+  "Personal": false,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```

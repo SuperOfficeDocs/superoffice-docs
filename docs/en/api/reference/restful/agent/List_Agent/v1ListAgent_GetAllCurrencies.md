@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 425,
-    "Name": "Mante-Jones",
-    "Tooltip": "deleniti",
-    "Rank": 678,
-    "Rate": 12441.98,
-    "Units": 17569.203999999998,
-    "Deleted": false,
+    "CurrencyId": 690,
+    "Name": "D'Amore LLC",
+    "Tooltip": "iste",
+    "Rank": 101,
+    "Rate": 20806.626,
+    "Units": 30694.396,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Link object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLink?linkId=54
+POST /api/v1/Agents/List/GetLink?linkId=561
 POST /api/v1/Agents/List/GetLink?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Breitenberg Inc and Sons",
-  "Id": 731,
-  "Description": "Public-key intermediate project",
-  "ExtraInfo": "expedita",
-  "LinkId": 4,
+  "EntityName": "Jacobs-Conroy",
+  "Id": 676,
+  "Description": "Reduced object-oriented structure",
+  "ExtraInfo": "vel",
+  "LinkId": 861,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

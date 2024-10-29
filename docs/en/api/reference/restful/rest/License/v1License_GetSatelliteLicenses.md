@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grady, Hirthe and Hudson",
-    "Description": "Optional zero defect utilisation",
+    "Name": "Hickle Inc and Sons",
+    "Description": "Programmable local structure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 283,
-        "Tooltip": "reprehenderit",
-        "CanAssign": false,
-        "Free": 422,
-        "InUse": 635,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 531,
+        "Tooltip": "accusantium",
+        "CanAssign": true,
+        "Free": 736,
+        "InUse": 462,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 932,
-        "Name": "Beahan, Willms and Nikolaus",
-        "Description": "Face to face bifurcated structure",
-        "PrerequisiteModuleName": "Durgan-Corwin",
-        "SortOrder": 87,
-        "ExtraFlags": 181,
+        "ModuleLicenseId": 615,
+        "Name": "Nikolaus-Hartmann",
+        "Description": "Managed static software",
+        "PrerequisiteModuleName": "Cronin Inc and Sons",
+        "SortOrder": 737,
+        "ExtraFlags": 511,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 279
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 14,
-        "Tooltip": "tenetur",
+        "Unrestricted": true,
+        "Total": 931,
+        "Tooltip": "velit",
         "CanAssign": true,
-        "Free": 319,
-        "InUse": 844,
+        "Free": 19,
+        "InUse": 348,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 182,
-        "Name": "Boehm, Kemmer and West",
-        "Description": "Front-line full-range instruction set",
-        "PrerequisiteModuleName": "Schaden-Nienow",
-        "SortOrder": 401,
-        "ExtraFlags": 69,
+        "Assigned": true,
+        "ModuleLicenseId": 476,
+        "Name": "Kerluke-Rosenbaum",
+        "Description": "Face to face intermediate framework",
+        "PrerequisiteModuleName": "Carroll-Marks",
+        "SortOrder": 262,
+        "ExtraFlags": 727,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 417
+            "FieldLength": 811
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldType": "System.String",
+        "FieldLength": 458
       }
     }
   },
   {
-    "Name": "Grady, Hirthe and Hudson",
-    "Description": "Optional zero defect utilisation",
+    "Name": "Hickle Inc and Sons",
+    "Description": "Programmable local structure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 283,
-        "Tooltip": "reprehenderit",
-        "CanAssign": false,
-        "Free": 422,
-        "InUse": 635,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 531,
+        "Tooltip": "accusantium",
+        "CanAssign": true,
+        "Free": 736,
+        "InUse": 462,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 932,
-        "Name": "Beahan, Willms and Nikolaus",
-        "Description": "Face to face bifurcated structure",
-        "PrerequisiteModuleName": "Durgan-Corwin",
-        "SortOrder": 87,
-        "ExtraFlags": 181,
+        "ModuleLicenseId": 615,
+        "Name": "Nikolaus-Hartmann",
+        "Description": "Managed static software",
+        "PrerequisiteModuleName": "Cronin Inc and Sons",
+        "SortOrder": 737,
+        "ExtraFlags": 511,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 279
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 14,
-        "Tooltip": "tenetur",
+        "Unrestricted": true,
+        "Total": 931,
+        "Tooltip": "velit",
         "CanAssign": true,
-        "Free": 319,
-        "InUse": 844,
+        "Free": 19,
+        "InUse": 348,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 182,
-        "Name": "Boehm, Kemmer and West",
-        "Description": "Front-line full-range instruction set",
-        "PrerequisiteModuleName": "Schaden-Nienow",
-        "SortOrder": 401,
-        "ExtraFlags": 69,
+        "Assigned": true,
+        "ModuleLicenseId": 476,
+        "Name": "Kerluke-Rosenbaum",
+        "Description": "Face to face intermediate framework",
+        "PrerequisiteModuleName": "Carroll-Marks",
+        "SortOrder": 262,
+        "ExtraFlags": 727,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 417
+            "FieldLength": 811
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldType": "System.String",
+        "FieldLength": 458
       }
     }
   }

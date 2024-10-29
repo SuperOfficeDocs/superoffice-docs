@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 84,
-  "Name": "O'Conner Group",
-  "Tooltip": "velit",
+  "HeadingId": 489,
+  "Name": "Graham-Cole",
+  "Tooltip": "iure",
   "Deleted": false,
-  "Rank": 100,
-  "UdListDefinitionId": 708
+  "Rank": 670,
+  "UdListDefinitionId": 751
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 942,
-  "Name": "Little LLC",
-  "Tooltip": "possimus",
+  "HeadingId": 474,
+  "Name": "Tillman Inc and Sons",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 351,
-  "UdListDefinitionId": 151,
+  "Rank": 101,
+  "UdListDefinitionId": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

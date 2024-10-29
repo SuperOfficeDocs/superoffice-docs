@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 443,
-    "Name": "Lemke-Moen",
-    "ContentType": "quam",
-    "AttSize": 152,
-    "InlineImage": true,
-    "ContentId": "voluptatum",
-    "AuthKey": "consequatur",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 204,
+    "Name": "Treutel LLC",
+    "ContentType": "nihil",
+    "AttSize": 726,
+    "InlineImage": false,
+    "ContentId": "aut",
+    "AuthKey": "nisi",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 479
+        "FieldType": "System.Int32",
+        "FieldLength": 286
       }
     }
   }

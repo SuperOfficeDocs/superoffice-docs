@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 344,
-    "Name": "Hand-Emmerich",
-    "ToolTip": "Est itaque at quo quis commodi ut.",
+    "Id": 261,
+    "Name": "Dare-Langworth",
+    "ToolTip": "Cupiditate accusamus.",
     "Deleted": true,
-    "Rank": 766,
-    "Type": "sint",
-    "ColorBlock": 938,
-    "IconHint": "temporibus",
+    "Rank": 580,
+    "Type": "modi",
+    "ColorBlock": 251,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2024-07-04T03:44:57.8437502+02:00",
+    "LastChanged": "2019-01-12T13:14:11.3360694+01:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Purdy, Kris and O'Hara",
-        "ToolTip": "Commodi blanditiis rerum.",
+        "Id": 532,
+        "Name": "McKenzie, Hoeger and Douglas",
+        "ToolTip": "Laboriosam aliquid dicta adipisci aliquid.",
         "Deleted": true,
-        "Rank": 566,
-        "Type": "accusantium",
-        "ColorBlock": 106,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2011-06-29T03:44:57.8437502+02:00",
+        "Rank": 686,
+        "Type": "eveniet",
+        "ColorBlock": 508,
+        "IconHint": "nemo",
+        "Selected": true,
+        "LastChanged": "2024-08-19T13:14:11.3360694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Alyson Teresa Simonis I",
+        "ExtraInfo": "quo",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Mrs. Coby Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 587
+            "FieldType": "System.String",
+            "FieldLength": 114
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "enim",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Mrs. Kody Nolan III",
+    "FullName": "Brandyn Hilpert PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 555
       }
     }
   }

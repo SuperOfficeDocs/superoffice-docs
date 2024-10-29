@@ -1245,6 +1245,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |workflowInstance/emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |workflowInstance/emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |workflowInstance/emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|workflowInstance/emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |workflowInstance/emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |workflowInstance/emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |workflowInstance/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -1265,11 +1266,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |chatSession/duration|timeSpan|Duration: The duration of the chat session|  |
 |chatSession/timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
 |chatSession/queueLength|int|Queue length: Queue length when the session was requested| x |
-|chatSession/rating|int|Rating: Rating of chat session| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|chatSession/rating|int|Rating: Rating of chat session| x |
 |chatSession/agent|ejUser|Agent: The agent of the chat| x |
 |chatSession/status|listAny|Status: Status for the chat session| x |
 |chatSession/icon| *None* |Category: Displays the icon for an activity type| x |
@@ -1369,11 +1370,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/quote/version/alternative/quoteline/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |sale/quote/version/alternative/quoteline/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |sale/quote/version/alternative/quoteline/registeredBy|associate|Registered by: The user who registered the data| x |
-|sale/quote/version/alternative/quoteline/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |sale/quote/version/alternative/quoteline/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |sale/quote/version/alternative/quoteline/productCategoryKey|listExternal|Product category: The category the product is defined in|  |
 |sale/quote/version/alternative/quoteline/productFamilyKey|listExternal|Product family: The family the product is defined in|  |
@@ -1387,7 +1388,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=contactExtra/x_contact_timespan,targetRelation/name,appointment/text,appointment/updatedBy,appointment/appointmentPublish/publishedBy
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=targetRelation/number,sale/associate/userName,appointment/invitedPersonId,document/type,document/associate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

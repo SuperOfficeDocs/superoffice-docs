@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 758,
-    "Name": "Fadel, Legros and Daugherty",
-    "Tooltip": "consectetur",
+    "HeadingId": 658,
+    "Name": "Jacobson-Howell",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 114,
-    "UdListDefinitionId": 930,
+    "Rank": 757,
+    "UdListDefinitionId": 637,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldType": "System.Int32",
+        "FieldLength": 791
       }
     }
   }

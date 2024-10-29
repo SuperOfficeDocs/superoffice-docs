@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Langworth Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 152,
-    "Rank": 676
+    "Id": 371,
+    "Name": "Cartwright-Waelchi",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "UdListDefinitionId": 867,
+    "Rank": 865
   },
   {
-    "Id": 317,
-    "Name": "Langworth Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 152,
-    "Rank": 676
+    "Id": 371,
+    "Name": "Cartwright-Waelchi",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "UdListDefinitionId": 867,
+    "Rank": 865
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Koch, Mraz and Walter",
+    "Id": 490,
+    "Name": "Wisozk-Goldner",
     "Tooltip": "veritatis",
-    "Deleted": true,
-    "UdListDefinitionId": 14,
-    "Rank": 532,
+    "Deleted": false,
+    "UdListDefinitionId": 843,
+    "Rank": 898,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldLength": 390
       }
     }
   }

@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "et",
     "value": {}
   }
 ]
@@ -150,22 +150,22 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 175,
-  "Name": "Mraz LLC",
-  "Rank": 936,
-  "Tooltip": "animi",
-  "Icon": "rerum",
-  "DefaultTicketStatus": 987,
+  "TicketTypeId": 611,
+  "Name": "Kemmer, Zieme and Miller",
+  "Rank": 756,
+  "Tooltip": "praesentium",
+  "Icon": "earum",
+  "DefaultTicketStatus": 559,
   "TicketStatuses": [
-    121,
-    960
+    199,
+    864
   ],
-  "DefaultTicketPriority": 447,
+  "DefaultTicketPriority": 629,
   "TicketPriorities": [
-    522,
-    773
+    930,
+    127
   ],
-  "ReplyTemplate": 428,
+  "ReplyTemplate": 684,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
@@ -173,17 +173,17 @@ Content-Type: application/json; charset=utf-8
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    422,
-    940
+    171,
+    663
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldLength": 695
     }
   },
   "_Links": {

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "UdListDefinitionId": 860
+  "Id": 993,
+  "UdListDefinitionId": 704
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "Name": "Ankunding-Grady",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "UdListDefinitionId": 670,
-  "Rank": 34,
+  "Id": 883,
+  "Name": "Kessler Group",
+  "Tooltip": "odit",
+  "Deleted": false,
+  "UdListDefinitionId": 223,
+  "Rank": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldLength": 919
     }
   }
 }

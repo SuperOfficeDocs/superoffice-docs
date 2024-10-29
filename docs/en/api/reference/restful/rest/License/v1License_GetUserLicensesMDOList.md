@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Gaylord Inc and Sons",
-    "ToolTip": "Voluptatem dignissimos hic quis ipsa est id.",
+    "Id": 286,
+    "Name": "Kassulke-Crist",
+    "ToolTip": "Aut et delectus.",
     "Deleted": false,
-    "Rank": 241,
-    "Type": "fuga",
-    "ColorBlock": 701,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2011-06-21T03:44:57.7187632+02:00",
+    "Rank": 315,
+    "Type": "eos",
+    "ColorBlock": 315,
+    "IconHint": "maiores",
+    "Selected": true,
+    "LastChanged": "2005-10-18T13:14:11.2110624+02:00",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "McLaughlin-Nikolaus",
-        "ToolTip": "Iure nemo aut itaque quaerat.",
+        "Id": 861,
+        "Name": "Schiller Group",
+        "ToolTip": "Nostrum voluptas dignissimos debitis atque omnis voluptas.",
         "Deleted": false,
-        "Rank": 627,
-        "Type": "earum",
-        "ColorBlock": 929,
-        "IconHint": "illo",
-        "Selected": false,
-        "LastChanged": "2011-08-28T03:44:57.7187632+02:00",
+        "Rank": 722,
+        "Type": "quod",
+        "ColorBlock": 696,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "1997-06-29T13:14:11.2110624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "fugit",
+        "ExtraInfo": "beatae",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Jessie Rolfson",
+        "FullName": "Irwin Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 324
+            "FieldType": "System.String",
+            "FieldLength": 45
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "unde",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Khalid Kirlin",
+    "FullName": "Dr. Garnett Little MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldType": "System.String",
+        "FieldLength": 67
       }
     }
   }

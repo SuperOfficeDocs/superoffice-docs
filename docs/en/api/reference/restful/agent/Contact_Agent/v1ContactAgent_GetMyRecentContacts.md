@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 552,
-    "Name": "Schulist-Stamm",
-    "OrgNr": "1077736",
+    "ContactId": 882,
+    "Name": "Blanda, Ledner and Kiehn",
+    "OrgNr": "490861",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "mollitia",
-    "DirectPhone": "1-169-942-9109 x06578",
-    "AssociateId": 878,
-    "CountryId": 546,
-    "EmailAddress": "ryder_wisozk@quigley.us",
-    "Kananame": "sed",
-    "EmailAddressName": "helen.bechtelar@powlowski.com",
+    "City": "ratione",
+    "DirectPhone": "358-979-5804 x6444",
+    "AssociateId": 987,
+    "CountryId": 502,
+    "EmailAddress": "eveline@dare.info",
+    "Kananame": "sit",
+    "EmailAddressName": "kennedi@padberg.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Rozella Pamela Schaefer V",
+    "AssociateFullName": "Bonnie Lorine Bergnaum DDS",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "incidunt",
-    "FullName": "Kennith Schimmel",
+    "FormattedAddress": "sint",
+    "FullName": "Ari Schroeder",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 646,
-    "Number1": "186226",
-    "Number2": "905159",
+    "ActiveErpLinks": 139,
+    "Number1": "719325",
+    "Number2": "901304",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 325
+        "FieldLength": 647
       }
     }
   }

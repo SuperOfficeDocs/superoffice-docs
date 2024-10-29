@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    829,
-    898
+    960,
+    490
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 331,
-    "ContactName": "Thiel Group",
-    "PersonId": 165,
-    "PersonName": "Grimes-Ernser",
-    "AssociateId": 178,
-    "Address": "eum",
-    "EmailId": 568,
+    "ContactId": 299,
+    "ContactName": "Hintz, Tremblay and Wolff",
+    "PersonId": 69,
+    "PersonName": "Towne, Runolfsdottir and Walker",
+    "AssociateId": 969,
+    "Address": "et",
+    "EmailId": 301,
     "DuplicatePersonIds": [
-      625,
-      153
+      389,
+      999
     ],
-    "Name": "Kertzmann LLC",
+    "Name": "Rice, King and Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldType": "System.String",
+        "FieldLength": 417
       }
     }
   }

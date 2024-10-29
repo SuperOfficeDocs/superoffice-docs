@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=31
+GET /api/v1/Contact/{contactId}/Summary?limit=896
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 164,
-      "TicketStatus": 893,
-      "Title": "vero",
-      "Registered": "2003-01-23T03:44:57.1715229+01:00",
-      "IconHint": "consequatur"
+      "TicketId": 401,
+      "TicketStatus": 197,
+      "Title": "aliquid",
+      "Registered": "1997-08-31T13:14:10.7579101+02:00",
+      "IconHint": "nisi"
     },
     {
-      "TicketId": 164,
-      "TicketStatus": 893,
-      "Title": "vero",
-      "Registered": "2003-01-23T03:44:57.1715229+01:00",
-      "IconHint": "consequatur"
+      "TicketId": 401,
+      "TicketStatus": 197,
+      "Title": "aliquid",
+      "Registered": "1997-08-31T13:14:10.7579101+02:00",
+      "IconHint": "nisi"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 32,
-      "DocumentId": 31,
-      "Date": "2002-11-13T03:44:57.1715229+01:00",
-      "Description": "Switchable explicit collaboration",
+      "AppointmentId": 559,
+      "DocumentId": 108,
+      "Date": "1999-03-01T13:14:10.7579101+01:00",
+      "Description": "Focused background instruction set",
       "Completed": "Completed",
-      "Registered": "2016-04-16T03:44:57.1715229+02:00"
+      "Registered": "2002-05-13T13:14:10.7579101+02:00"
     },
     {
-      "AppointmentId": 32,
-      "DocumentId": 31,
-      "Date": "2002-11-13T03:44:57.1715229+01:00",
-      "Description": "Switchable explicit collaboration",
+      "AppointmentId": 559,
+      "DocumentId": 108,
+      "Date": "1999-03-01T13:14:10.7579101+01:00",
+      "Description": "Focused background instruction set",
       "Completed": "Completed",
-      "Registered": "2016-04-16T03:44:57.1715229+02:00"
+      "Registered": "2002-05-13T13:14:10.7579101+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 195,
-      "DocumentId": 867,
-      "Date": "2012-10-16T03:44:57.1715229+02:00",
-      "Description": "Optional impactful emulation",
+      "AppointmentId": 72,
+      "DocumentId": 745,
+      "Date": "1999-03-31T13:14:10.7579101+02:00",
+      "Description": "Polarised optimal extranet",
       "Completed": "Completed",
-      "Registered": "2007-02-25T03:44:57.1715229+01:00"
+      "Registered": "2015-11-07T13:14:10.7579101+01:00"
     },
     {
-      "AppointmentId": 195,
-      "DocumentId": 867,
-      "Date": "2012-10-16T03:44:57.1715229+02:00",
-      "Description": "Optional impactful emulation",
+      "AppointmentId": 72,
+      "DocumentId": 745,
+      "Date": "1999-03-31T13:14:10.7579101+02:00",
+      "Description": "Polarised optimal extranet",
       "Completed": "Completed",
-      "Registered": "2007-02-25T03:44:57.1715229+01:00"
+      "Registered": "2015-11-07T13:14:10.7579101+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 877,
-      "SaleDate": "2000-09-21T03:44:57.1715229+02:00",
-      "Probability": 493,
-      "Heading": "eum",
-      "Amount": 30343.388,
-      "Currency": "ut",
-      "AmountInBaseCurrency": 10342.199999999999,
+      "SaleId": 838,
+      "SaleDate": "2007-07-21T13:14:10.7579101+02:00",
+      "Probability": 922,
+      "Heading": "sequi",
+      "Amount": 8461.8,
+      "Currency": "est",
+      "AmountInBaseCurrency": 2729.714,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2020-04-11T03:44:57.1715229+02:00"
+      "Registered": "2017-08-21T13:14:10.7579101+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 280,
-      "Name": "Wolff-Ruecker",
-      "CompanyName": "Goodwin, Kerluke and Dare",
-      "FirstMessage": "sequi",
-      "LastMessage": "recusandae",
-      "WhenRequested": "2020-03-04T03:44:57.1715229+01:00",
-      "WhenEnded": "2010-11-15T03:44:57.1715229+01:00"
+      "ChatSessionId": 495,
+      "Name": "Gutkowski Inc and Sons",
+      "CompanyName": "Breitenberg-Ullrich",
+      "FirstMessage": "nam",
+      "LastMessage": "aut",
+      "WhenRequested": "2019-02-13T13:14:10.7579101+01:00",
+      "WhenEnded": "1997-07-02T13:14:10.7579101+02:00"
     }
   ]
 }

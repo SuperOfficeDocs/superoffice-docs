@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Weissnat, Schmitt and Kirlin"
+  "FunctionalRightName": "Sipes LLC"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Zemlak-Lowe",
-    "ToolTip": "Voluptas dolorum.",
-    "Deleted": false,
-    "Rank": 676,
-    "Type": "suscipit",
+    "Id": 56,
+    "Name": "Brakus LLC",
+    "ToolTip": "Sit dolor at quae recusandae quia rem et.",
+    "Deleted": true,
+    "Rank": 1001,
+    "Type": "eaque",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Skiles-Emard",
-        "ToolTip": "Voluptatem ipsa voluptas est.",
+        "Id": 439,
+        "Name": "Mertz LLC",
+        "ToolTip": "Quisquam ut ut id provident id molestiae quis.",
         "Deleted": false,
-        "Rank": 33,
-        "Type": "aut",
+        "Rank": 278,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deserunt",
-        "ColorBlock": 838,
-        "ExtraInfo": "ut",
-        "StyleHint": "voluptatem",
-        "FullName": "Edd Gibson",
+        "IconHint": "quidem",
+        "ColorBlock": 878,
+        "ExtraInfo": "mollitia",
+        "StyleHint": "velit",
+        "FullName": "Tracey Virginia Champlin Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 465
+            "FieldLength": 17
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 984,
-    "ExtraInfo": "debitis",
-    "StyleHint": "consequatur",
-    "FullName": "Clark Homenick",
+    "IconHint": "et",
+    "ColorBlock": 23,
+    "ExtraInfo": "et",
+    "StyleHint": "at",
+    "FullName": "Daija Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 676
+        "FieldType": "System.Int32",
+        "FieldLength": 395
       }
     }
   }

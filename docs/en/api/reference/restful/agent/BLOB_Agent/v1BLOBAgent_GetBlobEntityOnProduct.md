@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 708
+  "ProductId": 204
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 973,
-  "BlobSize": 96,
-  "Description": "Function-based explicit pricing structure",
-  "ExtraInfo": "incidunt",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "eius",
-  "OriginalSize": 963,
-  "CreatedDate": "2004-03-12T03:44:52.0896371+01:00",
-  "UpdatedDate": "2009-11-09T03:44:52.0896371+01:00",
+  "BlobId": 840,
+  "BlobSize": 930,
+  "Description": "Public-key impactful hardware",
+  "ExtraInfo": "hic",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "magnam",
+  "OriginalSize": 542,
+  "CreatedDate": "2023-03-14T13:14:05.5382596+01:00",
+  "UpdatedDate": "2003-06-16T13:14:05.5382596+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldLength": 186
     }
   }
 }

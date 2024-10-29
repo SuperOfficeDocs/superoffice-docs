@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 384,
-  "Name": "Ziemann, Collins and Baumbach",
-  "Tooltip": "dolores",
+  "Id": 874,
+  "Name": "Kiehn-Buckridge",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 402,
+  "Rank": 50,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quisquam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "tempore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldLength": 596
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -77,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reilly-Hermiston",
-    "Operator": "et",
+    "Name": "Olson-Turcotte",
+    "Operator": "magnam",
     "Values": [
-      "officiis",
-      "illo"
+      "dolorem",
+      "dolorum"
     ],
     "DisplayValues": [
-      "debitis",
-      "dolorum"
+      "quis",
+      "corrupti"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wintheiser-Kulas",
-        "Operator": "voluptas",
+        "Name": "Rodriguez-Greenholt",
+        "Operator": "aliquam",
         "Values": [
-          "qui",
-          "quis"
+          "reprehenderit",
+          "aspernatur"
         ],
         "DisplayValues": [
-          "laboriosam",
-          "modi"
+          "ea",
+          "facilis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 751,
+        "InterParenthesis": 570,
         "InterOperator": "And",
-        "UniqueHash": 220
+        "UniqueHash": 273
       }
     ],
-    "InterParenthesis": 367,
+    "InterParenthesis": 259,
     "InterOperator": "And",
-    "UniqueHash": 338
+    "UniqueHash": 349
   }
 ]
 ```

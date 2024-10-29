@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gorczany, Hyatt and Hickle",
+  "Name": "Schmitt, Flatley and Grady",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Mueller-Gottlieb",
-    "SoPrimaryKey": 284,
-    "EntryName": "Will Group",
-    "EntryIdentifier": "optio",
-    "RuleDisplayName": "Volkman LLC",
+    "RuleName": "Schaefer Group",
+    "SoPrimaryKey": 936,
+    "EntryName": "McKenzie Group",
+    "EntryIdentifier": "quae",
+    "RuleDisplayName": "Okuneva-Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 382
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   }

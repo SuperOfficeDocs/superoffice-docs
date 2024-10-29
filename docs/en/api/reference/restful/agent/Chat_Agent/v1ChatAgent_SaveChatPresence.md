@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 208,
-      "DisplayName": "Fisher Inc and Sons",
-      "OngoingChats": 45,
-      "Present": true,
+      "UserId": 943,
+      "DisplayName": "Goyette Inc and Sons",
+      "OngoingChats": 904,
+      "Present": false,
       "ChatTopics": [
-        617,
-        91
+        567,
+        427
       ]
     },
     {
-      "UserId": 208,
-      "DisplayName": "Fisher Inc and Sons",
-      "OngoingChats": 45,
-      "Present": true,
+      "UserId": 943,
+      "DisplayName": "Goyette Inc and Sons",
+      "OngoingChats": 904,
+      "Present": false,
       "ChatTopics": [
-        617,
-        91
+        567,
+        427
       ]
     }
   ]

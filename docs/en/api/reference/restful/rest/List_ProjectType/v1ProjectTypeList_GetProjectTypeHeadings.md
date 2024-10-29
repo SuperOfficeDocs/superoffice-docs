@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 317,
-    "Name": "Towne LLC",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 583,
-    "UdListDefinitionId": 307,
+    "HeadingId": 894,
+    "Name": "Kshlerin Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 454,
+    "UdListDefinitionId": 556,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 829
       }
     }
   }

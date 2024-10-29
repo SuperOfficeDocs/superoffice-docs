@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 830,
-  "Name": "O'Kon, Halvorson and Willms",
-  "Tooltip": "qui",
+  "HeadingId": 414,
+  "Name": "Hegmann Inc and Sons",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 425,
-  "UdListDefinitionId": 194
+  "Rank": 879,
+  "UdListDefinitionId": 347
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 450,
-  "Name": "Rohan-Bergnaum",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 786,
-  "UdListDefinitionId": 57,
+  "HeadingId": 417,
+  "Name": "Franecki Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 812,
+  "UdListDefinitionId": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldType": "System.String",
+      "FieldLength": 51
     }
   }
 }

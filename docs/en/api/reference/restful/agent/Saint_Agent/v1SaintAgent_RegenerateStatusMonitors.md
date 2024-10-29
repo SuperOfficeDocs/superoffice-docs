@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 984,
-  "Name": "Predovic Group",
-  "AssociateId": 362,
-  "DetailsTable": 629,
-  "DetailsRecord": 353,
-  "IsSystemTask": false,
+  "Id": 112,
+  "Name": "Runolfsdottir-Ruecker",
+  "AssociateId": 702,
+  "DetailsTable": 520,
+  "DetailsRecord": 740,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "fugiat",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "nostrum",
+    "ParameterObject2": "rerum"
   },
-  "LastStarted": "2012-08-23T03:44:53.0900933+02:00",
-  "Created": "2011-07-10T03:44:53.0900933+02:00",
-  "StartCount": 386,
-  "DatabaseSerialNumber": "432656",
-  "Context": "fugiat",
-  "Result": "quo",
+  "LastStarted": "1997-07-13T13:14:06.3508082+02:00",
+  "Created": "2015-02-15T13:14:06.3508082+01:00",
+  "StartCount": 975,
+  "DatabaseSerialNumber": "228833",
+  "Context": "ducimus",
+  "Result": "voluptate",
   "State": "All",
-  "Description": "Face to face solution-oriented contingency",
-  "Response": "repellendus",
-  "Request": "voluptas",
-  "ProgressDescription": "Quality-focused foreground local area network",
-  "ProgressPercent": 727,
-  "FileName": "Mueller-Schaden",
+  "Description": "Synchronised solution-oriented secured line",
+  "Response": "consequatur",
+  "Request": "recusandae",
+  "ProgressDescription": "Multi-tiered content-based open architecture",
+  "ProgressPercent": 557,
+  "FileName": "Kuhic LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Cole, Towne and Braun",
-    "ToolTip": "Omnis porro accusamus doloremque placeat molestiae maiores.",
-    "Deleted": true,
-    "Rank": 308,
-    "Type": "minus",
-    "ColorBlock": 910,
-    "IconHint": "occaecati",
+    "Id": 871,
+    "Name": "King-Kautzer",
+    "ToolTip": "Et exercitationem eos temporibus debitis voluptatem.",
+    "Deleted": false,
+    "Rank": 31,
+    "Type": "cupiditate",
+    "ColorBlock": 802,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2000-04-01T03:44:58.0156476+02:00",
+    "LastChanged": "2014-10-26T13:14:11.4141989+01:00",
     "ChildItems": [
       {
-        "Id": 724,
-        "Name": "Champlin Group",
-        "ToolTip": "Sint esse et.",
-        "Deleted": false,
-        "Rank": 968,
-        "Type": "eum",
-        "ColorBlock": 475,
-        "IconHint": "vel",
+        "Id": 71,
+        "Name": "Herzog LLC",
+        "ToolTip": "Id ad.",
+        "Deleted": true,
+        "Rank": 382,
+        "Type": "deleniti",
+        "ColorBlock": 421,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2024-01-20T03:44:58.0156476+01:00",
+        "LastChanged": "2003-02-19T13:14:11.4141989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "iusto",
+        "ExtraInfo": "aut",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Jade Larson"
+        "FullName": "Nakia Tillman"
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Nash McLaughlin"
+    "ExtraInfo": "qui",
+    "StyleHint": "molestias",
+    "Hidden": true,
+    "FullName": "Mr. Carli Stokes DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Monahan Inc and Sons",
-    "ToolTip": "Deserunt et dolor accusantium eveniet tenetur alias delectus.",
+    "Id": 372,
+    "Name": "Schmeler-Labadie",
+    "ToolTip": "Nulla ipsa.",
     "Deleted": false,
-    "Rank": 341,
-    "Type": "in",
-    "ColorBlock": 672,
-    "IconHint": "iusto",
+    "Rank": 514,
+    "Type": "voluptas",
+    "ColorBlock": 423,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2023-06-01T03:44:58.0156476+02:00",
+    "LastChanged": "2014-01-11T13:14:11.4141989+01:00",
     "ChildItems": [
       {
-        "Id": 610,
-        "Name": "Gutkowski, Thompson and Kilback",
-        "ToolTip": "Voluptatum occaecati dolores atque eaque cumque optio.",
+        "Id": 818,
+        "Name": "Schultz-Marvin",
+        "ToolTip": "Cumque provident eaque qui occaecati et rerum soluta.",
         "Deleted": false,
-        "Rank": 961,
-        "Type": "exercitationem",
-        "ColorBlock": 365,
-        "IconHint": "officia",
+        "Rank": 504,
+        "Type": "adipisci",
+        "ColorBlock": 929,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2004-10-12T03:44:58.0156476+02:00",
+        "LastChanged": "2014-05-08T13:14:11.4141989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "aspernatur",
-        "Hidden": true,
-        "FullName": "Kailee Strosin",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Torey Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 275
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "qui",
+    "ExtraInfo": "odit",
+    "StyleHint": "porro",
     "Hidden": false,
-    "FullName": "Gene Rutherford",
+    "FullName": "Mckenzie Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldLength": 518
       }
     }
   }

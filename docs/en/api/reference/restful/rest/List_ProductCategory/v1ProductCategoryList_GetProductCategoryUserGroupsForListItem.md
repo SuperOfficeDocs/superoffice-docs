@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Schuster LLC",
-    "ToolTip": "Neque quidem maiores quia corrupti.",
+    "Id": 415,
+    "Name": "Stokes, Bradtke and Flatley",
+    "ToolTip": "Quidem labore ullam corporis.",
     "Deleted": false,
-    "Rank": 951,
-    "Type": "autem",
-    "ColorBlock": 662,
-    "IconHint": "minus",
+    "Rank": 148,
+    "Type": "ut",
+    "ColorBlock": 926,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2022-06-10T03:44:58.062516+02:00",
+    "LastChanged": "2009-03-29T13:14:11.4610767+02:00",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Mayert-Hamill",
-        "ToolTip": "Suscipit unde voluptas explicabo.",
+        "Id": 726,
+        "Name": "Nikolaus Inc and Sons",
+        "ToolTip": "Est iure perspiciatis quibusdam distinctio.",
         "Deleted": false,
-        "Rank": 639,
-        "Type": "rerum",
-        "ColorBlock": 923,
-        "IconHint": "nostrum",
+        "Rank": 792,
+        "Type": "dolor",
+        "ColorBlock": 264,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2003-05-27T03:44:58.062516+02:00",
+        "LastChanged": "2008-11-13T13:14:11.4610767+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Miss Fletcher Maryam Hudson I",
+        "ExtraInfo": "velit",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Buford Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 687
+            "FieldType": "System.String",
+            "FieldLength": 315
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "est",
+    "ExtraInfo": "sed",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Orval Jaden Hahn Jr.",
+    "FullName": "Tyson Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 978
       }
     }
   }

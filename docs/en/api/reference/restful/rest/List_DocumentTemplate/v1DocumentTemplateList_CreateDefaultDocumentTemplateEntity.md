@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 619,
-  "Name": "Champlin Group",
-  "Tooltip": "expedita",
-  "SaveInDb": 448,
-  "Filename": "voluptates",
-  "DefaultOref": "eum",
+  "DocumentTemplateId": 412,
+  "Name": "Harris-Johns",
+  "Tooltip": "velit",
+  "SaveInDb": 223,
+  "Filename": "aut",
+  "DefaultOref": "quam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 568,
-  "IntentId": 481,
+  "AutoeventId": 599,
+  "IntentId": 308,
   "IsDefaultPublished": false,
-  "Rank": 238,
-  "LoadTemplateFromPlugin": 437,
-  "MimeType": "sint",
+  "Rank": 902,
+  "LoadTemplateFromPlugin": 627,
+  "MimeType": "in",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 261,
+  "DocumentTypeKey": 32,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "gus.quigley@kassulkejacobi.ca",
+  "EmailSubject": "lexus@schoen.biz",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "harrison.kutch@parisian.name",
+  "SenderEmailAddress": "cade@treutellueilwitz.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 542
     }
   }
 }

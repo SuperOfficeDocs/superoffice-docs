@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Parisian Group",
-    "ToolTip": "Eos soluta cumque dignissimos quas quasi.",
+    "Id": 636,
+    "Name": "Rolfson, Reilly and Herman",
+    "ToolTip": "Odio similique.",
     "Deleted": false,
-    "Rank": 102,
-    "Type": "magnam",
-    "ColorBlock": 101,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "1998-01-31T03:44:58.0781351+01:00",
+    "Rank": 84,
+    "Type": "dolorum",
+    "ColorBlock": 139,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "2003-10-20T13:14:11.4767026+02:00",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Armstrong, Hauck and Brekke",
-        "ToolTip": "Rerum beatae eos suscipit praesentium.",
+        "Id": 569,
+        "Name": "Jacobs Group",
+        "ToolTip": "Sit sunt beatae dolores officiis.",
         "Deleted": false,
-        "Rank": 36,
-        "Type": "natus",
-        "ColorBlock": 907,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "1998-05-22T03:44:58.0781351+02:00",
+        "Rank": 291,
+        "Type": "beatae",
+        "ColorBlock": 50,
+        "IconHint": "cum",
+        "Selected": true,
+        "LastChanged": "2022-03-28T13:14:11.4767026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "nobis",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Mrs. Florence Cassin Jr."
+        "FullName": "Ms. Coy Eichmann IV"
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "quasi",
+    "ExtraInfo": "natus",
+    "StyleHint": "quaerat",
     "Hidden": true,
-    "FullName": "Lonnie Rudy Schulist Sr."
+    "FullName": "Prof. Tiara Kub"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 623,
-    "Name": "Nitzsche Group",
-    "ToolTip": "Quos animi.",
-    "Deleted": true,
-    "Rank": 645,
-    "Type": "omnis",
-    "ColorBlock": 785,
-    "IconHint": "ducimus",
+    "Id": 426,
+    "Name": "Adams Group",
+    "ToolTip": "Tenetur eos molestiae deleniti fuga.",
+    "Deleted": false,
+    "Rank": 394,
+    "Type": "exercitationem",
+    "ColorBlock": 816,
+    "IconHint": "tempore",
     "Selected": true,
-    "LastChanged": "2020-08-28T03:44:58.0781351+02:00",
+    "LastChanged": "2003-05-30T13:14:11.4767026+02:00",
     "ChildItems": [
       {
-        "Id": 149,
-        "Name": "Friesen, Dietrich and Tromp",
-        "ToolTip": "Omnis exercitationem.",
+        "Id": 941,
+        "Name": "Gaylord, O'Reilly and O'Kon",
+        "ToolTip": "Autem culpa sunt non fugit sit.",
         "Deleted": false,
-        "Rank": 427,
-        "Type": "saepe",
-        "ColorBlock": 986,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2011-01-31T03:44:58.0781351+01:00",
+        "Rank": 602,
+        "Type": "adipisci",
+        "ColorBlock": 998,
+        "IconHint": "consectetur",
+        "Selected": false,
+        "LastChanged": "2004-04-26T13:14:11.4767026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "velit",
+        "ExtraInfo": "ut",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Miss Roma Gladyce Lowe PhD",
+        "FullName": "Carmella Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 645
+            "FieldType": "System.Int32",
+            "FieldLength": 544
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "veniam",
+    "ExtraInfo": "aut",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Dr. Ellie Kieran Kilback",
+    "FullName": "Wilber Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldType": "System.String",
+        "FieldLength": 268
       }
     }
   }

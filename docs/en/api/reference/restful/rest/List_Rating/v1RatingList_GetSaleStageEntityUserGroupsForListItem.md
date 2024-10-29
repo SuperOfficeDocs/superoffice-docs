@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Pfannerstill Inc and Sons",
-    "ToolTip": "Eligendi culpa necessitatibus fugiat quas beatae numquam qui.",
-    "Deleted": true,
-    "Rank": 196,
-    "Type": "omnis",
-    "ColorBlock": 558,
-    "IconHint": "laborum",
-    "Selected": false,
-    "LastChanged": "2021-07-20T03:44:58.1249703+02:00",
+    "Id": 954,
+    "Name": "Walker-Swift",
+    "ToolTip": "Dolorem vitae incidunt est.",
+    "Deleted": false,
+    "Rank": 632,
+    "Type": "explicabo",
+    "ColorBlock": 198,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2013-07-02T13:14:11.5079552+02:00",
     "ChildItems": [
       {
-        "Id": 604,
-        "Name": "Mitchell, Hills and Fay",
-        "ToolTip": "A ab.",
+        "Id": 982,
+        "Name": "Eichmann-Murazik",
+        "ToolTip": "Ut dolor alias distinctio ut.",
         "Deleted": false,
-        "Rank": 321,
-        "Type": "optio",
-        "ColorBlock": 157,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2000-05-13T03:44:58.1249703+02:00",
+        "Rank": 853,
+        "Type": "nihil",
+        "ColorBlock": 351,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2009-02-08T13:14:11.5079552+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mr. Lila Regan McDermott",
+        "ExtraInfo": "hic",
+        "StyleHint": "ratione",
+        "Hidden": true,
+        "FullName": "Tessie Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 713
+            "FieldLength": 80
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "alias",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "corrupti",
     "Hidden": false,
-    "FullName": "Prof. Zita Danielle Satterfield III",
+    "FullName": "Sierra Crooks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 441
       }
     }
   }

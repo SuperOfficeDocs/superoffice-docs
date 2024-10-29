@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=636
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=898
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 493,
-  "ERPPriceListKey": "minima",
-  "QuoteConnectionId": 139,
-  "Name": "Kautzer-Littel",
-  "Description": "De-engineered radical access",
-  "Currency": "voluptatem",
-  "CurrencyName": "Dooley, Thiel and Rohan",
-  "ValidFrom": "2021-06-25T03:44:53.042699+02:00",
-  "ValidTo": "2020-01-26T03:44:53.042699+01:00",
-  "IsActive": false,
+  "PriceListId": 374,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 843,
+  "Name": "Kirlin Inc and Sons",
+  "Description": "Team-oriented real-time process improvement",
+  "Currency": "omnis",
+  "CurrencyName": "Orn LLC",
+  "ValidFrom": "2002-07-13T13:14:06.3195563+02:00",
+  "ValidTo": "2008-05-06T13:14:06.3195563+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldLength": 679
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 656,
-  "Name": "Emmerich, Kassulke and Haley",
-  "Rank": 454,
-  "Tooltip": "assumenda",
+  "AssociateId": 861,
+  "Name": "Denesik LLC",
+  "Rank": 858,
+  "Tooltip": "a",
   "LicenseOwners": [
     {
-      "Name": "Stehr-Smith",
-      "Description": "De-engineered upward-trending moderator",
+      "Name": "Abshire Group",
+      "Description": "Ergonomic needs-based middleware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     },
     {
-      "Name": "Stehr-Smith",
-      "Description": "De-engineered upward-trending moderator",
+      "Name": "Abshire Group",
+      "Description": "Ergonomic needs-based middleware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "totam",
-      "Tooltip": "molestiae",
-      "Id": 734,
-      "Rank": 373,
+      "Value": "facilis",
+      "Tooltip": "illo",
+      "Id": 767,
+      "Rank": 719,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 503
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2014-05-29T03:44:57.7812958+02:00",
-  "Lastlogout": "2022-04-16T03:44:57.7812958+02:00",
-  "EjUserId": 700,
-  "RequestSignature": "modi",
+  "Deleted": true,
+  "Lastlogin": "2002-09-20T13:14:11.273566+02:00",
+  "Lastlogout": "2013-10-07T13:14:11.273566+02:00",
+  "EjUserId": 666,
+  "RequestSignature": "odio",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ipsum",
-      "DisplayValue": "placeat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 880
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "ipsum",
-      "DisplayValue": "placeat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 880
-        }
-      }
-    }
-  ],
-  "UserName": "Hintz, Aufderhar and Mills",
-  "TicketCategories": [
-    {
-      "Id": 475,
-      "Name": "Ritchie Group",
-      "ToolTip": "Facere consequatur qui necessitatibus.",
-      "Deleted": false,
-      "Rank": 902,
-      "Type": "ea",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "eius",
-      "ColorBlock": 416,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "voluptatem",
-      "FullName": "Philip Bradly Gusikowski II",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 303
-        }
-      }
-    }
-  ],
-  "NickName": "Welch-Orn",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "alias"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "West Group",
-      "DisplayName": "Boyle-Cremin",
-      "Description": "Re-engineered fresh-thinking neural-net",
-      "ToolTip": "Quia aut qui sit.",
-      "Actions": "Implicit",
-      "ActionData": "sapiente",
+      "Value": "ipsam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 671
+          "FieldLength": 783
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ipsam",
+      "DisplayValue": "aut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 783
+        }
+      }
+    }
+  ],
+  "UserName": "Mann, Monahan and Greenholt",
+  "TicketCategories": [
+    {
+      "Id": 304,
+      "Name": "Larkin-Kshlerin",
+      "ToolTip": "Enim ipsa rerum voluptatem.",
+      "Deleted": true,
+      "Rank": 58,
+      "Type": "cumque",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "voluptas",
+      "ColorBlock": 398,
+      "ExtraInfo": "iusto",
+      "StyleHint": "sint",
+      "FullName": "Miss Adolphus Claire Deckow II",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 92
+        }
+      }
+    }
+  ],
+  "NickName": "Ankunding, Grady and Witting",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "architecto"
+  },
+  "CustomFields": {
+    "CustomFields1": "voluptas",
+    "CustomFields2": "recusandae"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Schiller, Lemke and Jacobi",
+      "DisplayName": "Feeney LLC",
+      "Description": "Centralized mission-critical system engine",
+      "ToolTip": "Eum aliquam illo sed sit accusantium.",
+      "Actions": "Implicit",
+      "ActionData": "debitis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 992
         }
       }
     }
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldType": "System.String",
+      "FieldLength": 433
     }
   }
 }

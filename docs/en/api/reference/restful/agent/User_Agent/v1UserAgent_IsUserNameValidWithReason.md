@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 109,
+  "AssociateId": 10,
   "Type": "AnonymousAssociate",
-  "PersonId": 733,
-  "UserName": "Durgan LLC"
+  "PersonId": 139,
+  "UserName": "Schultz, Emmerich and Larkin"
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": true,
+  "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 502
     }
   }
 }

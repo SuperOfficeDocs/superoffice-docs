@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Kertzmann-Klocko",
-  "AssociateId": 196,
-  "DetailsTable": 365,
-  "DetailsRecord": 472,
+  "Id": 654,
+  "Name": "Altenwerth-Mueller",
+  "AssociateId": 229,
+  "DetailsTable": 262,
+  "DetailsRecord": 59,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "fuga",
-    "ParameterObject2": "et"
+    "ParameterObject1": "laboriosam",
+    "ParameterObject2": "expedita"
   },
-  "LastStarted": "2020-05-16T03:44:52.0740137+02:00",
-  "Created": "2005-07-22T03:44:52.0740137+02:00",
-  "StartCount": 134,
-  "DatabaseSerialNumber": "904244",
-  "Context": "quos",
-  "Result": "doloribus",
+  "LastStarted": "2011-10-17T13:14:05.5382596+02:00",
+  "Created": "2017-12-13T13:14:05.5382596+01:00",
+  "StartCount": 713,
+  "DatabaseSerialNumber": "1678452",
+  "Context": "deserunt",
+  "Result": "doloremque",
   "State": "All",
-  "Description": "Horizontal bottom-line pricing structure",
-  "Response": "velit",
-  "Request": "nobis",
-  "ProgressDescription": "Programmable leading edge capability",
-  "ProgressPercent": 609,
-  "FileName": "McLaughlin-Dare",
+  "Description": "Optimized object-oriented moratorium",
+  "Response": "quisquam",
+  "Request": "rerum",
+  "ProgressDescription": "Upgradable multimedia challenge",
+  "ProgressPercent": 591,
+  "FileName": "Hilll Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 57
     }
   }
 }

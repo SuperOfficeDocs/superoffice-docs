@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Fisher Group",
+      "Name": "Dibbert-Farrell",
       "State": true
     },
     {
-      "Name": "Fisher Group",
+      "Name": "Dibbert-Farrell",
       "State": true
     }
   ]

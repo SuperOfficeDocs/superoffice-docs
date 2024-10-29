@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 555,
-  "LanguageId": 210,
-  "PersonId": 131,
-  "TicketId": 783
+  "ReplyTemplateId": 855,
+  "LanguageId": 739,
+  "PersonId": 764,
+  "TicketId": 789
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 970,
-  "PlainParsed": "magni",
-  "HtmlParsed": "corporis",
+  "ReplyTemplateId": 75,
+  "PlainParsed": "ut",
+  "HtmlParsed": "non",
   "Attachments": [
     {
-      "AttachmentId": 942,
-      "Name": "Schuster, Koch and Wolff",
-      "ContentType": "illo",
-      "AttSize": 851,
+      "AttachmentId": 432,
+      "Name": "Kiehn, Howe and Lindgren",
+      "ContentType": "et",
+      "AttSize": 81,
       "InlineImage": false,
-      "ContentId": "nostrum",
-      "AuthKey": "et",
-      "IsSafeFileExtension": false,
+      "ContentId": "ut",
+      "AuthKey": "qui",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldLength": 613
         }
       }
     }
   ],
-  "Subject": "eum",
+  "Subject": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 678
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 739
+  "CountWords": 940
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Name": "Sipes, Koch and Koss",
-    "ToolTip": "Dolorum temporibus consequuntur est.",
-    "Deleted": true,
-    "Rank": 926,
-    "Type": "animi",
+    "Id": 707,
+    "Name": "Lakin Group",
+    "ToolTip": "Voluptas asperiores.",
+    "Deleted": false,
+    "Rank": 833,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 126,
-        "Name": "Dickinson LLC",
-        "ToolTip": "Est non accusantium ratione eum molestiae.",
+        "Id": 743,
+        "Name": "Schinner Group",
+        "ToolTip": "Quas esse.",
         "Deleted": false,
-        "Rank": 865,
-        "Type": "et",
+        "Rank": 694,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 670,
-        "ExtraInfo": "at",
-        "StyleHint": "et",
-        "FullName": "Mohammed Sauer",
+        "IconHint": "nihil",
+        "ColorBlock": 481,
+        "ExtraInfo": "eveniet",
+        "StyleHint": "aut",
+        "FullName": "Mr. Antonietta Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 522
+            "FieldType": "System.String",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 609,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "totam",
-    "FullName": "Cale Howell",
+    "IconHint": "molestiae",
+    "ColorBlock": 476,
+    "ExtraInfo": "mollitia",
+    "StyleHint": "consequuntur",
+    "FullName": "Miss Joel Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 731
       }
     }
   }

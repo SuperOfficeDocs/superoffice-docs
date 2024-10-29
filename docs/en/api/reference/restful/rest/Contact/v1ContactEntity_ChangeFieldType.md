@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 999,
-  "ColumnId": 390,
-  "FieldDefault": "enim",
-  "FieldHeight": 360,
-  "FieldLabel": "ut",
-  "FieldLeft": 394,
-  "FieldTop": 425,
+  "UDefFieldId": 972,
+  "ColumnId": 438,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 702,
+  "FieldLabel": "possimus",
+  "FieldLeft": 710,
+  "FieldTop": 198,
   "FieldType": "Checkbox",
-  "FieldWidth": 506,
-  "FormatMask": "enim",
+  "FieldWidth": 288,
+  "FormatMask": "nemo",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 674,
-  "LabelLeft": 701,
-  "LabelTop": 293,
-  "LabelWidth": 22,
-  "LastVersionId": 746,
-  "ListTableId": 734,
+  "LabelHeight": 176,
+  "LabelLeft": 629,
+  "LabelTop": 809,
+  "LabelWidth": 320,
+  "LastVersionId": 308,
+  "ListTableId": 320,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 315,
-  "ProgId": "debitis",
-  "IsReadOnly": true,
-  "ShortLabel": "maiores",
-  "TabOrder": 605,
-  "TextLength": 426,
-  "Tooltip": "doloribus",
-  "UdefIdentity": 663,
-  "UDListDefinitionId": 776,
+  "Page1LineNo": 926,
+  "ProgId": "est",
+  "IsReadOnly": false,
+  "ShortLabel": "est",
+  "TabOrder": 898,
+  "TextLength": 393,
+  "Tooltip": "tempore",
+  "UdefIdentity": 861,
+  "UDListDefinitionId": 961,
   "Justification": "Center",
-  "Version": 952,
-  "TemplateVariableName": "Leffler, Batz and Fay",
-  "HasBeenPublished": false,
-  "MdoListName": "Beatty LLC",
+  "Version": 536,
+  "TemplateVariableName": "Rice LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Marvin, Kreiger and Windler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 253
     }
   }
 }

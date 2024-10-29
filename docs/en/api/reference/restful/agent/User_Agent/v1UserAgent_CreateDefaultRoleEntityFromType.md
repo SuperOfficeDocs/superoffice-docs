@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 802,
-  "Name": "Daniel-D'Amore",
-  "Tooltip": "aut",
+  "RoleId": 963,
+  "Name": "Simonis-Gleichner",
+  "Tooltip": "veritatis",
   "RoleType": "Anonymous",
-  "Deleted": 741,
-  "Rank": 864,
-  "Created": "2022-12-09T03:44:53.4029931+01:00",
-  "UseCategories": 44,
+  "Deleted": 317,
+  "Rank": 557,
+  "Created": "2014-10-30T13:14:06.7102053+01:00",
+  "UseCategories": 4,
   "CreatedBy": null,
-  "Updated": "2014-02-09T03:44:53.4029931+01:00",
+  "Updated": "2003-11-07T13:14:06.7102053+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 53
     }
   }
 }

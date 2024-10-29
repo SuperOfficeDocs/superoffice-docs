@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 642,
-  "CurrentAppointmentId": 290,
-  "SkipCompleteCheck": false
+  "SaleId": 107,
+  "CurrentAppointmentId": 583,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 478,
-  "Deleted": 461,
-  "DaysFuture": 37,
-  "Tooltip": "reiciendis",
-  "Text": "sint",
-  "TaskId": 28,
-  "SuggestedAppointmentId": 641,
-  "SaleTypeStageLinkId": 31,
-  "RegisteredAssociateId": 243,
-  "Rank": 148,
-  "ProjectTypeStatusLinkId": 504,
-  "Name": "Lesch-Pollich",
-  "Duration": 749,
+  "AutoSuggest": 622,
+  "Deleted": 2,
+  "DaysFuture": 775,
+  "Tooltip": "perferendis",
+  "Text": "delectus",
+  "TaskId": 44,
+  "SuggestedAppointmentId": 181,
+  "SaleTypeStageLinkId": 968,
+  "RegisteredAssociateId": 648,
+  "Rank": 461,
+  "ProjectTypeStatusLinkId": 204,
+  "Name": "Tromp Inc and Sons",
+  "Duration": 60,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 857
     }
   }
 }

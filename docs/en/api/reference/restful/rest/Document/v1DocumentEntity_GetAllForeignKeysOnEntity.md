@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "corrupti",
-  "2": "quis"
+  "1": "et",
+  "2": "deleniti"
 }
 ```

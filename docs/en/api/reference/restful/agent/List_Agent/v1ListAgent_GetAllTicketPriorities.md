@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 427,
-    "Name": "Hane, Walter and Quitzon",
+    "TicketPriorityId": 816,
+    "Name": "Corwin, Hoeger and Carter",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 925,
+    "SortOrder": 48,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 469,
-    "MonStart": "2021-10-06T03:44:52.6677336+02:00",
-    "MonStop": "2017-11-16T03:44:52.6677336+01:00",
-    "TueStart": "2001-07-04T03:44:52.6677336+02:00",
-    "TueStop": "2003-12-30T03:44:52.6677336+01:00",
-    "WedStart": "2018-02-15T03:44:52.6677336+01:00",
-    "WedStop": "2018-06-10T03:44:52.6677336+02:00",
-    "ThuStart": "2015-07-24T03:44:52.6677336+02:00",
-    "ThuStop": "2007-06-22T03:44:52.6677336+02:00",
-    "FriStart": "2007-12-19T03:44:52.6677336+01:00",
-    "FriStop": "2007-11-22T03:44:52.6677336+01:00",
-    "SatStart": "2005-10-27T03:44:52.6677336+02:00",
-    "SatStop": "2006-01-05T03:44:52.6677336+01:00",
-    "SunStart": "2010-02-12T03:44:52.6677336+01:00",
-    "SunStop": "2001-09-05T03:44:52.6677336+02:00",
+    "Deadline": 476,
+    "MonStart": "2018-12-15T13:14:06.0539158+01:00",
+    "MonStop": "2019-09-24T13:14:06.0539158+02:00",
+    "TueStart": "1998-05-18T13:14:06.0539158+02:00",
+    "TueStop": "2013-09-05T13:14:06.0539158+02:00",
+    "WedStart": "2022-07-04T13:14:06.0539158+02:00",
+    "WedStop": "2006-07-23T13:14:06.0539158+02:00",
+    "ThuStart": "2016-03-23T13:14:06.0539158+01:00",
+    "ThuStop": "2018-06-02T13:14:06.0539158+02:00",
+    "FriStart": "2009-06-21T13:14:06.0539158+02:00",
+    "FriStop": "2000-11-25T13:14:06.0539158+01:00",
+    "SatStart": "1999-07-06T13:14:06.0539158+02:00",
+    "SatStop": "2002-10-12T13:14:06.0539158+02:00",
+    "SunStart": "2009-09-12T13:14:06.0539158+02:00",
+    "SunStop": "1998-11-04T13:14:06.0539158+01:00",
     "NonDates": [
-      "eum",
-      "odio"
+      "qui",
+      "possimus"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 935,
-        "AlertLevel": 876,
-        "AlertTimeout": 98,
-        "Action": 81,
-        "DelegateTo": 563,
-        "ScriptId": 148,
-        "EmailTo": "carey@ritchieconroy.ca",
-        "SmsTo": "qui",
-        "ReplyTemplateIdCustomer": 172,
-        "ReplyTemplateIdUser": 496,
-        "ReplyTemplateIdCatmast": 660,
-        "ReplyTemplateIdEmail": 275,
-        "RtiCustomerSms": 971,
-        "ReplyTemplateIdUserSms": 698,
-        "ReplyTemplateIdCatmastSms": 722,
-        "ReplyTemplateIdSms": 61,
+        "TicketAlertId": 759,
+        "AlertLevel": 684,
+        "AlertTimeout": 539,
+        "Action": 519,
+        "DelegateTo": 729,
+        "ScriptId": 870,
+        "EmailTo": "milton@hodkiewicz.info",
+        "SmsTo": "laudantium",
+        "ReplyTemplateIdCustomer": 738,
+        "ReplyTemplateIdUser": 634,
+        "ReplyTemplateIdCatmast": 786,
+        "ReplyTemplateIdEmail": 286,
+        "RtiCustomerSms": 613,
+        "ReplyTemplateIdUserSms": 340,
+        "ReplyTemplateIdCatmastSms": 118,
+        "ReplyTemplateIdSms": 448,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 827
+            "FieldLength": 177
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 963
       }
     }
   }

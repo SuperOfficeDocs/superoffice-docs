@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -101,16 +101,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 800,
-    "Value": "laudantium",
+    "TaskListItemId": 114,
+    "Value": "repellendus",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "aspernatur",
-    "Deleted": false,
-    "IntentId": 754,
-    "Rank": 362,
+    "Tooltip": "cupiditate",
+    "Deleted": true,
+    "IntentId": 279,
+    "Rank": 192,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
+    "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   }

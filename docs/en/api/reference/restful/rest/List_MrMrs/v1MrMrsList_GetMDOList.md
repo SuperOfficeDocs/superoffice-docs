@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=impedit
+GET /api/v1/List/MrMrs/MDOItems?query=consequatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Zulauf LLC",
-    "ToolTip": "Porro minus sunt architecto mollitia.",
-    "Deleted": true,
-    "Rank": 838,
-    "Type": "maiores",
+    "Id": 61,
+    "Name": "Murphy-Schultz",
+    "ToolTip": "Ex voluptatem est pariatur nihil in.",
+    "Deleted": false,
+    "Rank": 642,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Davis, Roberts and Heaney",
-        "ToolTip": "Veniam totam sunt asperiores suscipit quisquam blanditiis.",
-        "Deleted": true,
-        "Rank": 950,
-        "Type": "commodi",
+        "Id": 954,
+        "Name": "Stracke-Sanford",
+        "ToolTip": "Non ea magnam sed.",
+        "Deleted": false,
+        "Rank": 364,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "labore",
-        "ColorBlock": 696,
-        "ExtraInfo": "qui",
-        "StyleHint": "ad",
-        "FullName": "Lavinia Heidenreich Jr.",
+        "IconHint": "assumenda",
+        "ColorBlock": 957,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "quod",
+        "FullName": "Wendell Idella Johnson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 362
+            "FieldType": "System.Int32",
+            "FieldLength": 938
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 146,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "necessitatibus",
-    "FullName": "Prof. Rosalyn Shana Wisoky",
+    "IconHint": "perspiciatis",
+    "ColorBlock": 501,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "eos",
+    "FullName": "Mr. Mireya Schroeder III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldType": "System.Int32",
+        "FieldLength": 997
       }
     }
   }

@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 775,
-  "ParentId": 268,
-  "Name": "West-Jaskolski",
-  "Fullname": "repudiandae",
-  "CategoryMaster": 488,
+  "TicketCategoryId": 523,
+  "ParentId": 202,
+  "Name": "Littel-Bayer",
+  "Fullname": "incidunt",
+  "CategoryMaster": 390,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bins-Weissnat",
+  "ExternalName": "Corkery-Bashirian",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 625,
-  "ReplyTemplate": 598,
-  "NotificationEmail": "lacy.lindgren@gusikowskiwillms.us",
+  "AssignmentLag": 771,
+  "ReplyTemplate": 694,
+  "NotificationEmail": "alek@batztromp.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 610,
+  "EffectiveReplyTemplateId": 672,
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "magni"
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "natus"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "iusto"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 515
     }
   }
 }

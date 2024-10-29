@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Bartoletti LLC",
-  "Tooltip": "id",
+  "Id": 767,
+  "Name": "O'Reilly, Considine and McDermott",
+  "Tooltip": "labore",
   "Deleted": false,
-  "UdListDefinitionId": 553,
-  "Rank": 211,
+  "UdListDefinitionId": 320,
+  "Rank": 126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 978
     }
   }
 }

@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 28 Nov 2014 03:44:57 G11T
+Last-Modified: Tue, 02 Sep 2014 13:14:11 G9T
 
 {
-  "Description": "De-engineered radical framework",
-  "Postit": "sed",
+  "Description": "Fully-configurable leading edge paradigm",
+  "Postit": "doloribus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 553,
-  "IncludePerson": 734,
+  "GroupIdx": 595,
+  "IncludePerson": 536,
   "MemberCount": 99.99,
-  "Name": "Tromp-Simonis",
-  "PostitTextId": 370,
-  "CreatedDate": "2021-12-25T03:44:57.5781309+01:00",
-  "SelectionId": 772,
-  "SoundEx": "eveniet",
-  "Source": 257,
-  "TextId": 832,
-  "UpdatedDate": "2014-11-28T03:44:57.5781309+01:00",
-  "UpdatedCount": 100,
-  "Visibility": 686,
+  "Name": "Gleason-Lemke",
+  "PostitTextId": 588,
+  "CreatedDate": "2020-06-15T13:14:11.1016748+02:00",
+  "SelectionId": 186,
+  "SoundEx": "vitae",
+  "Source": 693,
+  "TextId": 489,
+  "UpdatedDate": "2014-09-02T13:14:11.1016748+02:00",
+  "UpdatedCount": 948,
+  "Visibility": 359,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 274,
-  "TargetTableName": "Daugherty LLC",
-  "Completed": false,
-  "LeftSelectionId": 1002,
-  "RightSelectionId": 453,
+  "TargetTableNumber": 106,
+  "TargetTableName": "Bartoletti, Volkman and Prohaska",
+  "Completed": true,
+  "LeftSelectionId": 717,
+  "RightSelectionId": 756,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Miller Group",
-  "ShadowProviderName": "Miller LLC",
-  "ChartKey": "ducimus",
-  "LastLoaded": "2021-06-16T03:44:57.5781309+02:00",
-  "LastLoadedBy": 743,
+  "MainProviderName": "Deckow Group",
+  "ShadowProviderName": "Dibbert-Robel",
+  "ChartKey": "enim",
+  "LastLoaded": "1999-07-13T13:14:11.1016748+02:00",
+  "LastLoadedBy": 354,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-02-22T03:44:57.5781309+01:00",
-  "LastMembershipChangeBy": 295,
+  "LastMembershipChange": "2017-12-03T13:14:11.1016748+01:00",
+  "LastMembershipChangeBy": 691,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quidem",
-  "MemberTabHeading": "dignissimos",
-  "MailingsProviderName": "O'Hara Inc and Sons",
-  "DashboardTileDefinitionId": 473,
+  "MainHeading": "sequi",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Sporer, Bergnaum and Streich",
+  "DashboardTileDefinitionId": 847,
   "VisibleFor": [
     {
-      "VisibleId": 903,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 541
         }
       }
     },
     {
-      "VisibleId": 903,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 541
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Fri, 28 Nov 2014 03:44:57 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   },
   "_Links": {

@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=repellat
+GET /api/v1/List/ProductType/MDOItems?query=fugiat
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "Botsford LLC",
-    "ToolTip": "Ipsum aut cumque itaque.",
+    "Id": 292,
+    "Name": "Sanford, Bailey and White",
+    "ToolTip": "Expedita fugit esse ratione temporibus natus consectetur.",
     "Deleted": false,
-    "Rank": 694,
-    "Type": "ullam",
+    "Rank": 995,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Schmidt-Homenick",
-        "ToolTip": "Iste qui rem.",
+        "Id": 403,
+        "Name": "Schmeler-Crooks",
+        "ToolTip": "Modi perspiciatis doloribus molestiae ut.",
         "Deleted": false,
-        "Rank": 916,
-        "Type": "et",
+        "Rank": 958,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "esse",
-        "ColorBlock": 884,
-        "ExtraInfo": "quidem",
-        "StyleHint": "nihil",
-        "FullName": "Jace Kyle Smith Sr.",
+        "IconHint": "aut",
+        "ColorBlock": 882,
+        "ExtraInfo": "rerum",
+        "StyleHint": "aspernatur",
+        "FullName": "Faye Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 706
+            "FieldLength": 441
           }
         }
       }
     ],
-    "IconHint": "quod",
-    "ColorBlock": 459,
-    "ExtraInfo": "possimus",
-    "StyleHint": "molestiae",
-    "FullName": "Andre Hessel",
+    "IconHint": "dignissimos",
+    "ColorBlock": 458,
+    "ExtraInfo": "vel",
+    "StyleHint": "rerum",
+    "FullName": "Dustin Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldType": "System.Int32",
+        "FieldLength": 249
       }
     }
   }

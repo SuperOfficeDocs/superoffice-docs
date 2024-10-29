@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 33,
-      "UniqueId": "harum",
-      "Name": "Leuschke LLC",
-      "Description": "Synergized hybrid success",
-      "AssociateId": 743,
-      "Columns": 517,
+      "DashboardId": 733,
+      "UniqueId": "magni",
+      "Name": "Bogan, Buckridge and Little",
+      "Description": "Streamlined uniform interface",
+      "AssociateId": 546,
+      "Columns": 997,
       "Theme": null,
-      "VisibleForAll": 25,
+      "VisibleForAll": 520,
       "VisibleForAssociates": [
-        130,
-        379
+        44,
+        797
       ],
       "VisibleForGroups": [
-        490,
-        443
+        583,
+        302
       ],
-      "PinForAll": 169,
+      "PinForAll": 434,
       "PinForAssociates": [
-        267,
-        677
+        514,
+        542
       ],
       "PinForGroups": [
-        597,
-        85
+        803,
+        684
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 172
+          "FieldType": "System.Int32",
+          "FieldLength": 507
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 910,
-      "UniqueId": "sequi",
-      "Name": "Pacocha-Koepp",
-      "Description": "Inverse global projection",
-      "AssociateId": 507,
-      "Columns": 830,
+      "DashboardId": 149,
+      "UniqueId": "sed",
+      "Name": "Graham-Emmerich",
+      "Description": "Enhanced 24 hour software",
+      "AssociateId": 960,
+      "Columns": 583,
       "Theme": null,
-      "VisibleForAll": 494,
+      "VisibleForAll": 93,
       "VisibleForAssociates": [
-        141,
-        908
+        146,
+        132
       ],
       "VisibleForGroups": [
-        838,
-        264
+        383,
+        817
       ],
-      "PinForAll": 549,
+      "PinForAll": 988,
       "PinForAssociates": [
-        165,
-        463
+        722,
+        167
       ],
       "PinForGroups": [
-        695,
-        57
+        461,
+        228
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 287
+          "FieldLength": 940
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 537,
-      "UniqueId": "nihil",
-      "Name": "Hauck Inc and Sons",
-      "Description": "Quality-focused real-time monitoring",
-      "AssociateId": 546,
-      "Columns": 899,
+      "DashboardId": 538,
+      "UniqueId": "accusamus",
+      "Name": "Champlin Inc and Sons",
+      "Description": "Devolved logistical throughput",
+      "AssociateId": 29,
+      "Columns": 730,
       "Theme": null,
-      "VisibleForAll": 842,
+      "VisibleForAll": 916,
       "VisibleForAssociates": [
-        844,
-        53
+        251,
+        236
       ],
       "VisibleForGroups": [
-        702,
-        422
+        56,
+        741
       ],
-      "PinForAll": 629,
+      "PinForAll": 260,
       "PinForAssociates": [
-        924,
-        367
+        267,
+        424
       ],
       "PinForGroups": [
-        467,
-        599
+        294,
+        189
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 515
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

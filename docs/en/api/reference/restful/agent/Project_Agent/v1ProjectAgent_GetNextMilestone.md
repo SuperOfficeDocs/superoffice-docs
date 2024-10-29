@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 88
+  "ProjectId": 339
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 23,
-  "StartDate": "2010-04-23T03:44:53.0114471+02:00",
-  "EndDate": "1998-06-29T03:44:53.0114471+02:00",
+  "AppointmentId": 203,
+  "StartDate": "2010-12-30T13:14:06.2883049+01:00",
+  "EndDate": "2011-06-22T13:14:06.2883049+02:00",
   "Type": "BookingForChecklist",
-  "Task": "eum",
-  "AssociateFullName": "Tristian Mante",
-  "ContactName": "Hintz-Emmerich",
-  "Description": "Streamlined interactive approach",
-  "PersonFullName": "Maggie White I",
-  "PersonId": 569,
-  "ContactId": 180,
-  "ProjectId": 475,
-  "ProjectName": "Predovic Group",
+  "Task": "in",
+  "AssociateFullName": "Barbara Nat Streich DDS",
+  "ContactName": "Thiel-Prosacco",
+  "Description": "Integrated responsive encryption",
+  "PersonFullName": "Allison Homenick",
+  "PersonId": 350,
+  "ContactId": 145,
+  "ProjectId": 120,
+  "ProjectName": "Wunsch Inc and Sons",
   "IsPublished": false,
-  "AssociateId": 542,
-  "ColorIndex": 145,
-  "IsFree": false,
+  "AssociateId": 907,
+  "ColorIndex": 885,
+  "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 220,
-  "PriorityName": "Yundt, Walter and Brakus",
+  "PriorityId": 231,
+  "PriorityName": "Schamberger, Moore and Gottlieb",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsBookingMain": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2022-02-13T03:44:53.0114471+01:00",
+  "ActiveDate": "1998-06-11T13:14:06.2883049+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2016-01-21T03:44:53.0114471+01:00",
-  "RecurringEndDate": "2003-10-24T03:44:53.0114471+02:00",
-  "MotherId": 145,
-  "AssignedBy": 640,
-  "AssignedByFullName": "Dr. Osvaldo Roob Sr.",
+  "RecurringStartDate": "2001-04-14T13:14:06.2883049+02:00",
+  "RecurringEndDate": "2007-03-09T13:14:06.2883049+01:00",
+  "MotherId": 833,
+  "AssignedBy": 267,
+  "AssignedByFullName": "Natalie Hahn",
   "RejectReason": "",
-  "Location": "nesciunt",
-  "AlarmLeadTime": "aut",
-  "SaleId": 524,
-  "SaleName": "Bartoletti, Stracke and Wintheiser",
-  "AssociateName": "Monahan, Bechtelar and Ernser",
-  "CreatedDate": "1998-10-03T03:44:53.0114471+02:00",
-  "CreatedBy": "deserunt",
-  "CreatedByFullName": "Hilbert Estrella Hodkiewicz I",
-  "CreatedByAssociateId": 698,
+  "Location": "qui",
+  "AlarmLeadTime": "omnis",
+  "SaleId": 483,
+  "SaleName": "Kutch, Parker and Hackett",
+  "AssociateName": "Kovacek, Crist and Schultz",
+  "CreatedDate": "2020-06-28T13:14:06.2883049+02:00",
+  "CreatedBy": "commodi",
+  "CreatedByFullName": "Miss Virginie Swaniawski",
+  "CreatedByAssociateId": 649,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 905,
-  "Title": "qui",
-  "Agenda": "iure",
-  "InternalNotes": "sit",
+  "PreferredTZLocation": 488,
+  "Title": "nihil",
+  "Agenda": "ut",
+  "InternalNotes": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

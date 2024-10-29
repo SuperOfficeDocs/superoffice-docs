@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=732
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=299
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 238,
-  "ColumnId": 760,
-  "FieldDefault": "facilis",
-  "FieldHeight": 889,
-  "FieldLabel": "nam",
-  "FieldLeft": 576,
-  "FieldTop": 777,
+  "UDefFieldId": 896,
+  "ColumnId": 948,
+  "FieldDefault": "amet",
+  "FieldHeight": 541,
+  "FieldLabel": "quia",
+  "FieldLeft": 63,
+  "FieldTop": 349,
   "FieldType": "Checkbox",
-  "FieldWidth": 519,
-  "FormatMask": "pariatur",
+  "FieldWidth": 288,
+  "FormatMask": "reprehenderit",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 830,
-  "LabelLeft": 170,
-  "LabelTop": 854,
-  "LabelWidth": 790,
-  "LastVersionId": 639,
-  "ListTableId": 888,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 476,
+  "LabelLeft": 687,
+  "LabelTop": 610,
+  "LabelWidth": 649,
+  "LastVersionId": 499,
+  "ListTableId": 983,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 73,
-  "ProgId": "necessitatibus",
+  "Page1LineNo": 266,
+  "ProgId": "voluptas",
   "IsReadOnly": false,
-  "ShortLabel": "expedita",
-  "TabOrder": 492,
-  "TextLength": 840,
-  "Tooltip": "nemo",
-  "UdefIdentity": 993,
-  "UDListDefinitionId": 227,
+  "ShortLabel": "iure",
+  "TabOrder": 219,
+  "TextLength": 125,
+  "Tooltip": "quam",
+  "UdefIdentity": 192,
+  "UDListDefinitionId": 70,
   "Justification": "Center",
-  "Version": 760,
-  "TemplateVariableName": "Kihn Inc and Sons",
+  "Version": 253,
+  "TemplateVariableName": "Volkman Group",
   "HasBeenPublished": true,
-  "MdoListName": "Schamberger, Swaniawski and Ratke",
+  "MdoListName": "Kautzer Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 968
     }
   }
 }

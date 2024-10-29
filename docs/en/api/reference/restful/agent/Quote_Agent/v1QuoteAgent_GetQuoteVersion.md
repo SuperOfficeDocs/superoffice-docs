@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 173
+  "QuoteVersionId": 869
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 979,
-  "ERPQuoteVersionKey": "deserunt",
-  "QuoteId": 555,
-  "Description": "Persevering high-level product",
-  "Number": "1781376",
+  "QuoteVersionId": 527,
+  "ERPQuoteVersionKey": "nulla",
+  "QuoteId": 247,
+  "Description": "Organic next generation extranet",
+  "Number": "875195",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 401,
-  "SentDate": "2024-05-23T03:44:53.042699+02:00",
-  "FollowupId": 305,
-  "ExpirationDate": "2007-10-10T03:44:53.042699+02:00",
-  "DeliveryCountryId": 357,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 208,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "est",
-  "ERPPaymentTypeKey": "dignissimos",
-  "ERPDeliveryTermsKey": "expedita",
-  "ERPDeliveryTypeKey": "at",
-  "Rank": 442,
-  "ApprovedBy": 870,
-  "ApprovedText": "facilis",
-  "ApprovedRegisteredBy": 668,
-  "ApprovedRegisteredDate": "1998-10-03T03:44:53.042699+02:00",
-  "ExtraField1": "corporis",
-  "ExtraField2": "fugiat",
-  "ExtraField3": "suscipit",
-  "ExtraField4": "deserunt",
-  "ExtraField5": "deserunt",
-  "LastRecalculated": "2008-09-09T03:44:53.042699+02:00",
-  "Updated": "2013-03-14T03:44:53.042699+01:00",
-  "UpdatedAssociateId": 38,
-  "Registered": "2010-05-26T03:44:53.042699+02:00",
-  "RegisteredAssociateId": 410,
-  "RequestAssociateId": 824,
-  "RequestComment": "impedit",
+  "LikelyQuoteAlternativeId": 853,
+  "SentDate": "1999-08-01T13:14:06.3039303+02:00",
+  "FollowupId": 953,
+  "ExpirationDate": "2020-02-11T13:14:06.3039303+01:00",
+  "DeliveryCountryId": 431,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 345,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "veniam",
+  "ERPPaymentTypeKey": "quia",
+  "ERPDeliveryTermsKey": "occaecati",
+  "ERPDeliveryTypeKey": "quam",
+  "Rank": 685,
+  "ApprovedBy": 775,
+  "ApprovedText": "rerum",
+  "ApprovedRegisteredBy": 253,
+  "ApprovedRegisteredDate": "2000-03-15T13:14:06.3039303+01:00",
+  "ExtraField1": "hic",
+  "ExtraField2": "atque",
+  "ExtraField3": "incidunt",
+  "ExtraField4": "officiis",
+  "ExtraField5": "veniam",
+  "LastRecalculated": "1998-05-18T13:14:06.3039303+02:00",
+  "Updated": "2014-03-06T13:14:06.3039303+01:00",
+  "UpdatedAssociateId": 612,
+  "Registered": "2024-01-30T13:14:06.3039303+01:00",
+  "RegisteredAssociateId": 302,
+  "RequestAssociateId": 885,
+  "RequestComment": "maxime",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 389,
-      "ERPQuoteAlternativeKey": "omnis",
-      "QuoteVersionId": 988,
-      "Name": "Marks-Sauer",
-      "Description": "Assimilated neutral alliance",
+      "QuoteAlternativeId": 902,
+      "ERPQuoteAlternativeKey": "voluptatem",
+      "QuoteVersionId": 610,
+      "Name": "Casper, Hodkiewicz and Howe",
+      "Description": "Reduced upward-trending implementation",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 10586.652,
-      "ERPDiscountAmount": 1961.884,
-      "DiscountPercent": 19913.435999999998,
-      "DiscountAmount": 27585.468,
+      "ERPDiscountPercent": 13272.49,
+      "ERPDiscountAmount": 17127.309999999998,
+      "DiscountPercent": 25441.811999999998,
+      "DiscountAmount": 2457.056,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "maxime",
-      "VAT": 15488.228,
-      "EarningPercent": 29522.28,
-      "EarningAmount": 15488.228,
-      "SubTotal": 23392.176,
-      "TotalPrice": 2905.218,
-      "ExtraField1": "ullam",
-      "ExtraField2": "enim",
-      "ExtraField3": "odit",
-      "ExtraField4": "ad",
-      "ExtraField5": "eos",
+      "VATInfo": "ducimus",
+      "VAT": 1576.402,
+      "EarningPercent": 23633.494,
+      "EarningAmount": 24811.878,
+      "SubTotal": 23702.442,
+      "TotalPrice": 24783.672,
+      "ExtraField1": "id",
+      "ExtraField2": "velit",
+      "ExtraField3": "sit",
+      "ExtraField4": "qui",
+      "ExtraField5": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 639
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 279
+      "FieldLength": 939
     }
   }
 }

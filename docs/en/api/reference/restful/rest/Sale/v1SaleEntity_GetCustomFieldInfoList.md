@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Farrell LLC",
-    "DisplayName": "Marvin LLC",
-    "Description": "Diverse optimizing attitude",
-    "ShortLabel": "et",
+    "FieldName": "Koss-Bartoletti",
+    "DisplayName": "Yundt Group",
+    "Description": "Open-source homogeneous matrix",
+    "ShortLabel": "pariatur",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 792,
-    "TemplateVariableName": "Spinka Inc and Sons"
+    "Rank": 34,
+    "TemplateVariableName": "Ankunding-Bayer"
   }
 ]
 ```

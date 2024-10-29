@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Wehner-Pagac",
-    "Tooltip": "voluptatem",
+    "Id": 174,
+    "Name": "Hansen Inc and Sons",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 567,
-    "IsCustomList": false,
+    "Rank": 109,
+    "IsCustomList": true,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "sint",
+    "UseGroupsAndHeadings": false,
+    "ListType": "nulla",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 870
       }
     }
   }

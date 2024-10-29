@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Mosciski-Blanda",
-  "Tooltip": "inventore",
-  "Deleted": true,
-  "UdListDefinitionId": 663,
-  "Rank": 75,
+  "Id": 843,
+  "Name": "Tillman, Waelchi and Schumm",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 799,
+  "Rank": 580,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

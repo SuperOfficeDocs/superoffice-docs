@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=759
+POST /api/v1/Agents/User/GetUser?userId=50
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 125,
-  "Name": "Runolfsson, Dach and Lynch",
-  "Rank": 527,
-  "Tooltip": "molestiae",
+  "AssociateId": 350,
+  "Name": "Volkman, Littel and Morissette",
+  "Rank": 867,
+  "Tooltip": "atque",
   "LicenseOwners": [
     {
-      "Name": "Donnelly-Bashirian",
-      "Description": "Optimized secondary time-frame",
+      "Name": "Connelly Inc and Sons",
+      "Description": "Business-focused maximized analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,14 +123,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 113
         }
       }
     },
     {
-      "Name": "Donnelly-Bashirian",
-      "Description": "Optimized secondary time-frame",
+      "Name": "Connelly Inc and Sons",
+      "Description": "Business-focused maximized analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 113
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eveniet",
-      "Tooltip": "aut",
-      "Id": 935,
-      "Rank": 517,
+      "Value": "nesciunt",
+      "Tooltip": "odio",
+      "Id": 469,
+      "Rank": 951,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldType": "System.String",
+          "FieldLength": 907
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2024-06-20T03:44:53.4029931+02:00",
-  "Lastlogout": "2004-06-01T03:44:53.4029931+02:00",
-  "EjUserId": 237,
-  "RequestSignature": "qui",
+  "Lastlogin": "2003-10-13T13:14:06.7102053+02:00",
+  "Lastlogout": "2007-02-08T13:14:06.7102053+01:00",
+  "EjUserId": 70,
+  "RequestSignature": "harum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "dolores",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "aut",
-      "DisplayValue": "dolores",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
-        }
-      }
-    }
-  ],
-  "UserName": "Turner-Doyle",
-  "TicketCategories": [
-    {
-      "Id": 567,
-      "Name": "Considine-Kozey",
-      "ToolTip": "Quae ipsa quibusdam perspiciatis eum.",
-      "Deleted": false,
-      "Rank": 779,
-      "Type": "id",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "praesentium",
-      "ColorBlock": 48,
-      "ExtraInfo": "id",
-      "StyleHint": "nobis",
-      "FullName": "Mr. Aaliyah Schoen",
+      "Value": "id",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 725
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "id",
+      "DisplayValue": "nemo",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 725
         }
       }
     }
   ],
-  "NickName": "Yost-Schmitt",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "neque"
-  },
-  "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "at"
-  },
-  "PostSaveCommands": [
+  "UserName": "Mohr, Walsh and Miller",
+  "TicketCategories": [
     {
-      "Name": "Goyette-Ernser",
-      "DisplayName": "Nitzsche-Bode",
-      "Description": "Cloned next generation policy",
-      "ToolTip": "Earum et ipsum corrupti rerum neque.",
-      "Actions": "Implicit",
-      "ActionData": "architecto",
+      "Id": 817,
+      "Name": "Auer-Boyle",
+      "ToolTip": "Neque itaque fuga maiores dolor consequuntur.",
+      "Deleted": true,
+      "Rank": 91,
+      "Type": "eos",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "expedita",
+      "ColorBlock": 146,
+      "ExtraInfo": "aliquam",
+      "StyleHint": "dolorem",
+      "FullName": "Marilyne Glover",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldLength": 711
+        }
+      }
+    }
+  ],
+  "NickName": "Mraz-Corwin",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "laboriosam",
+    "ExtraFields2": "ducimus"
+  },
+  "CustomFields": {
+    "CustomFields1": "deleniti",
+    "CustomFields2": "ullam"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Powlowski LLC",
+      "DisplayName": "Schulist, Wiegand and Klocko",
+      "Description": "Inverse local archive",
+      "ToolTip": "Possimus sed nihil rerum et ea delectus totam.",
+      "Actions": "Implicit",
+      "ActionData": "tenetur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 450
         }
       }
     }
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldType": "System.Int32",
+      "FieldLength": 984
     }
   }
 }

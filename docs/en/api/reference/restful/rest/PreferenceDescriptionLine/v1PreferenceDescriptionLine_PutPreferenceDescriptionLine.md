@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 700,
-  "PrefDescId": 594,
-  "PrefValue": "tempore",
-  "PrefShowValue": "ea",
-  "Description": "Multi-lateral well-modulated algorithm",
+  "PrefDescLineId": 817,
+  "PrefDescId": 401,
+  "PrefValue": "et",
+  "PrefShowValue": "repudiandae",
+  "Description": "Programmable logistical software",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 851,
-  "PrefDescId": 27,
-  "PrefValue": "consectetur",
-  "PrefShowValue": "assumenda",
-  "Description": "Profound didactic interface",
+  "PrefDescLineId": 69,
+  "PrefDescId": 546,
+  "PrefValue": "modi",
+  "PrefShowValue": "eveniet",
+  "Description": "Cloned uniform project",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldType": "System.String",
+      "FieldLength": 807
     }
   },
   "_Links": {

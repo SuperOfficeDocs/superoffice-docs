@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 430,
+  "SourceDocumentTemplateId": 110,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 149,
-  "Name": "Murray-Waters",
-  "Tooltip": "tenetur",
-  "SaveInDb": 867,
-  "Filename": "in",
-  "DefaultOref": "accusamus",
+  "DocumentTemplateId": 168,
+  "Name": "Doyle-Gutkowski",
+  "Tooltip": "sit",
+  "SaveInDb": 658,
+  "Filename": "qui",
+  "DefaultOref": "illo",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 22,
-  "IntentId": 458,
-  "IsDefaultPublished": true,
-  "Rank": 891,
-  "LoadTemplateFromPlugin": 830,
-  "MimeType": "omnis",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 206,
+  "AutoeventId": 414,
+  "IntentId": 394,
+  "IsDefaultPublished": false,
+  "Rank": 469,
+  "LoadTemplateFromPlugin": 936,
+  "MimeType": "itaque",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 151,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kimberly.buckridge@kunde.uk",
+  "EmailSubject": "esmeralda@mohr.name",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "arch@zulauf.us",
+  "SenderEmailAddress": "magnus@runolfsdottir.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 426
     }
   }
 }

@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Abshire, Friesen and Stroman",
-  "DeviceName": "Stanton, Langosh and Rath",
-  "KeyName": "Reynolds-Pouros",
-  "TableName": "Botsford Inc and Sons",
-  "RecordId": 356
+  "ApplicationName": "Toy LLC",
+  "DeviceName": "Muller-McClure",
+  "KeyName": "Schuppe, Cummerata and Christiansen",
+  "TableName": "Cummerata, Little and Cronin",
+  "RecordId": 739
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nisi",
-  "Value": "dolore",
-  "RecordId": 22,
-  "CreatedDate": "2018-11-09T03:44:52.6521119+01:00",
-  "UpdatedDate": "2020-03-23T03:44:52.6521119+01:00",
-  "UpdatedBy": "consequatur",
-  "CreatedBy": "voluptatem",
-  "TableName": "Haley-Walsh",
+  "Key": "ut",
+  "Value": "quas",
+  "RecordId": 448,
+  "CreatedDate": "2024-06-29T13:14:06.0382898+02:00",
+  "UpdatedDate": "2015-11-11T13:14:06.0382898+01:00",
+  "UpdatedBy": "ipsam",
+  "CreatedBy": "neque",
+  "TableName": "Heathcote Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

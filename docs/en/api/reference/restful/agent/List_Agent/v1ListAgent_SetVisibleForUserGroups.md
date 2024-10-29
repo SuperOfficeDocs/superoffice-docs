@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 881,
-  "ListItemId": 834,
+  "UdListDefinitionId": 593,
+  "ListItemId": 52,
   "UserGroups": [
     {
-      "Id": 752,
-      "Name": "Conn, Schimmel and Wolf",
-      "ToolTip": "Fugiat voluptatum molestiae asperiores nostrum qui recusandae.",
+      "Id": 445,
+      "Name": "Will Group",
+      "ToolTip": "Ipsa itaque magni.",
       "Deleted": false,
-      "Rank": 144,
-      "Type": "cum",
-      "ColorBlock": 775,
-      "IconHint": "est",
-      "Selected": true,
-      "LastChanged": "2015-01-05T03:44:52.6989885+01:00",
+      "Rank": 480,
+      "Type": "aspernatur",
+      "ColorBlock": 515,
+      "IconHint": "voluptates",
+      "Selected": false,
+      "LastChanged": "2006-07-10T13:14:06.0851676+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "eum",
-      "Hidden": true,
-      "FullName": "Miss Estel Reinger II"
+      "ExtraInfo": "minima",
+      "StyleHint": "fugit",
+      "Hidden": false,
+      "FullName": "Alexa Marks IV"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Lang LLC",
-    "ToolTip": "Atque earum sint ea deserunt et.",
-    "Deleted": true,
-    "Rank": 792,
-    "Type": "sit",
-    "ColorBlock": 934,
-    "IconHint": "ut",
+    "Id": 249,
+    "Name": "Hills Group",
+    "ToolTip": "Minus illum magnam unde.",
+    "Deleted": false,
+    "Rank": 951,
+    "Type": "amet",
+    "ColorBlock": 491,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2010-03-09T03:44:52.6989885+01:00",
+    "LastChanged": "2009-10-28T13:14:06.0851676+01:00",
     "ChildItems": [
       {
-        "Id": 830,
-        "Name": "Waters, Leuschke and Daugherty",
-        "ToolTip": "Error perspiciatis mollitia voluptatem.",
-        "Deleted": false,
-        "Rank": 453,
-        "Type": "nesciunt",
-        "ColorBlock": 811,
-        "IconHint": "illo",
-        "Selected": true,
-        "LastChanged": "2008-09-23T03:44:52.6989885+02:00",
+        "Id": 384,
+        "Name": "Anderson, Padberg and Huel",
+        "ToolTip": "Sed ipsum et libero rerum voluptas rerum et.",
+        "Deleted": true,
+        "Rank": 524,
+        "Type": "in",
+        "ColorBlock": 320,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2012-11-07T13:14:06.0851676+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Ward Hintz",
+        "ExtraInfo": "illo",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Robyn Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 773
+            "FieldType": "System.String",
+            "FieldLength": 916
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "et",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Mrs. Jennie Reilly",
+    "FullName": "Gussie Erdman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 885
       }
     }
   }

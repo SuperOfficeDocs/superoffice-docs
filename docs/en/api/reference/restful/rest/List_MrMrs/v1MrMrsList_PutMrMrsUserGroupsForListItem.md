@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Schmeler, Powlowski and Stoltenberg",
-    "ToolTip": "Eos ab expedita.",
+    "Id": 674,
+    "Name": "Gerlach, McDermott and Daugherty",
+    "ToolTip": "Tempore deserunt ex.",
     "Deleted": false,
-    "Rank": 676,
-    "Type": "vitae",
-    "ColorBlock": 288,
-    "IconHint": "eos",
+    "Rank": 337,
+    "Type": "ea",
+    "ColorBlock": 691,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2023-07-07T03:44:58.0156476+02:00",
+    "LastChanged": "2005-12-24T13:14:11.4141989+01:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Huel-Schaden",
-        "ToolTip": "Sunt ut cumque quia id a.",
+        "Id": 976,
+        "Name": "Leffler Inc and Sons",
+        "ToolTip": "Quaerat voluptas adipisci amet fugit et.",
         "Deleted": false,
-        "Rank": 515,
-        "Type": "voluptatem",
-        "ColorBlock": 726,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2010-08-11T03:44:58.0156476+02:00",
+        "Rank": 923,
+        "Type": "asperiores",
+        "ColorBlock": 137,
+        "IconHint": "suscipit",
+        "Selected": true,
+        "LastChanged": "2015-10-24T13:14:11.4141989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "optio",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatum",
         "Hidden": true,
-        "FullName": "Rosalyn Larson"
+        "FullName": "Prof. Brendan Constance O'Reilly PhD"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Leonie Schowalter MD"
+    "ExtraInfo": "nostrum",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Kallie Keeling"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Mante-Lindgren",
-    "ToolTip": "Eum recusandae dolor odio ipsa aut.",
+    "Id": 308,
+    "Name": "Jones-Stark",
+    "ToolTip": "Incidunt minus.",
     "Deleted": false,
-    "Rank": 586,
-    "Type": "et",
-    "ColorBlock": 676,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2012-05-07T03:44:58.0156476+02:00",
+    "Rank": 128,
+    "Type": "praesentium",
+    "ColorBlock": 131,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "2014-10-28T13:14:11.4141989+01:00",
     "ChildItems": [
       {
-        "Id": 655,
-        "Name": "Cremin-Wolf",
-        "ToolTip": "Aut enim voluptas magnam quam aliquam voluptatem et.",
+        "Id": 469,
+        "Name": "Kozey, Carter and Ullrich",
+        "ToolTip": "Corporis dolorem consequatur qui tenetur molestias cupiditate cum.",
         "Deleted": true,
-        "Rank": 215,
-        "Type": "commodi",
-        "ColorBlock": 898,
-        "IconHint": "ipsum",
-        "Selected": false,
-        "LastChanged": "2001-08-16T03:44:58.0156476+02:00",
+        "Rank": 123,
+        "Type": "aspernatur",
+        "ColorBlock": 265,
+        "IconHint": "nemo",
+        "Selected": true,
+        "LastChanged": "2010-06-13T13:14:11.4141989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "ullam",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Dr. Maddison Osbaldo Ullrich",
+        "FullName": "Jada Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldLength": 209
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Prof. Jaron Renner",
+    "ExtraInfo": "qui",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Mrs. Jake Braun Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 299
+        "FieldLength": 701
       }
     }
   }

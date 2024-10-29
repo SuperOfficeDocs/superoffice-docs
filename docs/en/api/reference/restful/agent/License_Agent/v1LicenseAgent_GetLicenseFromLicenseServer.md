@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Swift, Braun and Howe"
+  "OwnerName": "Mayer, Greenholt and Beer"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "target dot-com eyeballs",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 769,
-      "NumberOfLicensesFree": 870,
-      "NumberOfLicensesAdded": 285,
-      "NumberOfLicensesNewTotal": 788,
-      "NumberOfLicensesNewFree": 765,
-      "NumberOfLicensesTotal": 142
+      "NumberOfLicensesInUse": 3,
+      "NumberOfLicensesFree": 853,
+      "NumberOfLicensesAdded": 680,
+      "NumberOfLicensesNewTotal": 953,
+      "NumberOfLicensesNewFree": 434,
+      "NumberOfLicensesTotal": 755
     }
   ],
-  "AccumulatedNextCheckDate": "2020-02-29T03:44:52.6521119+01:00"
+  "AccumulatedNextCheckDate": "2004-11-22T13:14:06.0539158+01:00"
 }
 ```

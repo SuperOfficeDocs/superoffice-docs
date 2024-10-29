@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 439,
-  "ModuleOwner": "omnis"
+  "AssociateId": 907,
+  "ModuleOwner": "laudantium"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 677,
-    "Tooltip": "molestiae",
+    "Total": 637,
+    "Tooltip": "rerum",
     "CanAssign": false,
-    "Free": 482,
-    "InUse": 307,
+    "Free": 578,
+    "InUse": 535,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 942,
-    "Name": "Schmitt-Berge",
-    "Description": "Organic maximized functionalities",
-    "PrerequisiteModuleName": "Aufderhar-Kunde",
-    "SortOrder": 674,
-    "ExtraFlags": 362,
+    "ModuleLicenseId": 383,
+    "Name": "Williamson, Fahey and Vandervort",
+    "Description": "Proactive fault-tolerant migration",
+    "PrerequisiteModuleName": "Farrell, Bogisich and DuBuque",
+    "SortOrder": 658,
+    "ExtraFlags": 119,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 30
       }
     }
   }

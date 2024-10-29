@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    195,
-    507
+    869,
+    886
   ]
 }
 ```
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-313
+967
 ```

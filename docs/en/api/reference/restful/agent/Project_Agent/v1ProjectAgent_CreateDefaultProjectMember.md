@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 50,
-  "ContactId": 627,
-  "ProjectId": 378,
-  "ContactName": "Koch, Maggio and Becker",
-  "ContactDepartment": "",
-  "ProjectName": "Rath Inc and Sons",
-  "EmailId": 14,
-  "EmailAddress": "bridget_conroy@langworth.ca",
-  "CountryId": 94,
-  "Firstname": "Antonina",
-  "MiddleName": "Wuckert-Upton",
-  "Lastname": "Stokes",
-  "PersonId": 657,
-  "Mrmrs": "veritatis",
-  "ProjectMemberTypeName": "Fahey, Orn and Funk",
-  "Phone": "1-306-974-2939",
-  "PhoneId": 45,
-  "ProjectMemberTypeId": 641,
-  "EmailAddressName": "dax_stamm@koelpinthiel.biz",
-  "Comment": "autem",
-  "FullName": "Emily Cormier",
+  "ProjectmemberId": 646,
+  "ContactId": 879,
+  "ProjectId": 789,
+  "ContactName": "Nitzsche Inc and Sons",
+  "ContactDepartment": "unleash best-of-breed infrastructures",
+  "ProjectName": "Krajcik LLC",
+  "EmailId": 578,
+  "EmailAddress": "brenda_klocko@runolfsson.info",
+  "CountryId": 108,
+  "Firstname": "Haylee",
+  "MiddleName": "Lang-Jaskolski",
+  "Lastname": "Botsford",
+  "PersonId": 511,
+  "Mrmrs": "dolor",
+  "ProjectMemberTypeName": "Bruen Group",
+  "Phone": "1-965-519-9040 x299",
+  "PhoneId": 165,
+  "ProjectMemberTypeId": 187,
+  "EmailAddressName": "jenifer.harber@jewessdeckow.biz",
+  "Comment": "rerum",
+  "FullName": "Israel Wolf",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

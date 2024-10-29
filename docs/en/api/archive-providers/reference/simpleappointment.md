@@ -720,7 +720,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleAppointment?$select=contact/department,person/personDirectPhone/description,person/restrictionAddress/wgs84longitude,sale/date,associate/personEmail
+GET /api/v1/archive/SimpleAppointment?$select=alarm,contact/contactAssociate/portraitThumbnail,person/personSource,person/searchPhone/formattedNumber,person/consentSourceStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

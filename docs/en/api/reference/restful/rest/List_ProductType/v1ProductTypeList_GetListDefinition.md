@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "Rank": 895,
-  "IsCustomList": false,
+  "Id": 793,
+  "Name": "Crooks Group",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 134,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 106
     }
   },
   "_Links": {

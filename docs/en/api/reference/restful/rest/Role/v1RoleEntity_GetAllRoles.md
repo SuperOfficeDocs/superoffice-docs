@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Hegmann-Kunze",
-    "ToolTip": "Voluptatibus animi cupiditate in velit rem.",
-    "Deleted": false,
-    "Rank": 904,
-    "Type": "consequatur",
-    "ColorBlock": 528,
-    "IconHint": "vitae",
-    "Selected": false,
-    "LastChanged": "2015-04-12T03:44:57.5000465+02:00",
+    "Id": 82,
+    "Name": "Brown, Moen and Grady",
+    "ToolTip": "In rerum.",
+    "Deleted": true,
+    "Rank": 729,
+    "Type": "eum",
+    "ColorBlock": 982,
+    "IconHint": "culpa",
+    "Selected": true,
+    "LastChanged": "2017-12-25T13:14:10.9610472+01:00",
     "ChildItems": [
       {
-        "Id": 134,
-        "Name": "Hayes-Abbott",
-        "ToolTip": "Est dolores amet autem.",
+        "Id": 111,
+        "Name": "Rolfson Inc and Sons",
+        "ToolTip": "Vitae et.",
         "Deleted": false,
-        "Rank": 101,
-        "Type": "aut",
-        "ColorBlock": 205,
-        "IconHint": "maxime",
+        "Rank": 940,
+        "Type": "sed",
+        "ColorBlock": 701,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2013-04-24T03:44:57.5000465+02:00",
+        "LastChanged": "2015-04-01T13:14:10.9610472+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "nihil",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Anibal Conroy",
+        "FullName": "Dejuan Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 618
+            "FieldLength": 177
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "nihil",
+    "ExtraInfo": "iste",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Lois Johnston",
+    "FullName": "Vincenzo Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 54
       }
     }
   }

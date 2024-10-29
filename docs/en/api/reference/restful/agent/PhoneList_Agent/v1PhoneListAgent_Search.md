@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "molestiae"
+  "SearchString": "rerum"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "857-924-3181",
-    "PersonCellPhone": "670-971-8526 x763",
-    "PersonPrivatePhone": "1-390-872-2739",
-    "PersonFaxNumber": "873149",
-    "PersonPagerNumber": "353104",
-    "PersonEmail": "estelle.rosenbaum@stiedemann.ca",
-    "Id": 758,
-    "Name": "Bayer-Morar",
-    "Tooltip": "sed",
-    "UniqueId": "officiis",
+    "PersonDirectPhone": "697-264-9703 x3076",
+    "PersonCellPhone": "556-479-6078 x62714",
+    "PersonPrivatePhone": "1-350-081-4674",
+    "PersonFaxNumber": "1603045",
+    "PersonPagerNumber": "669615",
+    "PersonEmail": "reba@hauck.com",
+    "Id": 103,
+    "Name": "Torphy, Corwin and Schneider",
+    "Tooltip": "quia",
+    "UniqueId": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 662
       }
     }
   }

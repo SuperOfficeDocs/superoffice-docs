@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 911
+  "LanguageId": 362
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 518,
-    "ResourceId": 512,
-    "Text": "aut",
+    "LanguageId": 424,
+    "ResourceId": 67,
+    "Text": "officiis",
     "Type": "Column",
-    "LocalizedTextId": 49,
+    "LocalizedTextId": 605,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldLength": 144
       }
     }
   }

@@ -35,6 +35,7 @@ Lists all email flows
 |workflowName|string|Name: Name of the flow definition| x |
 |workflowDescription|string|Description: Description of flow definition| x |
 |workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -87,7 +88,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=updatedDate,workflowAssociate/title
+GET /api/v1/archive/EmailFlows?$select=updatedBy,workflowAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

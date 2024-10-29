@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 474
+  "ErpConnectionId": 850
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 230,
-  "ErpConnectorId": 824,
-  "DisplayName": "Conn-Hettinger",
-  "DisplayDescription": "Compatible fault-tolerant analyzer",
-  "Active": false,
-  "ConnectionId": "magni",
+  "ErpConnectionId": 816,
+  "ErpConnectorId": 761,
+  "DisplayName": "Hammes, Dach and Sporer",
+  "DisplayDescription": "Switchable asynchronous leverage",
+  "Active": true,
+  "ConnectionId": "est",
   "MostRecentTimestamp": "ut",
   "ConfigFields": {
-    "ConfigFields1": "sed",
-    "ConfigFields2": "tempora"
+    "ConfigFields1": "accusantium",
+    "ConfigFields2": "ipsum"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    65,
-    8
+    672,
+    36
   ],
   "AssociateAccessIds": [
-    630,
-    32
+    45,
+    801
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 382
     }
   }
 }

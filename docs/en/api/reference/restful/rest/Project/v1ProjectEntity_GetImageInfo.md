@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 21 Mar 2019 03:44:57 G3T
+Last-Modified: Tue, 06 Jun 2006 13:14:10 G6T
 
 {
-  "BlobId": 452,
-  "BlobSize": 530,
-  "Description": "Extended tertiary info-mediaries",
-  "ExtraInfo": "et",
+  "BlobId": 17,
+  "BlobSize": 705,
+  "Description": "Switchable mobile analyzer",
+  "ExtraInfo": "non",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ea",
-  "OriginalSize": 247,
-  "CreatedDate": "2019-05-14T03:44:57.4844273+02:00",
-  "UpdatedDate": "2019-03-21T03:44:57.4844273+01:00",
+  "IsZipped": false,
+  "MimeType": "rerum",
+  "OriginalSize": 285,
+  "CreatedDate": "2019-10-18T13:14:10.9454212+02:00",
+  "UpdatedDate": "2006-06-06T13:14:10.9454212+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldLength": 148
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 894,
-  "ColumnId": 984,
-  "FieldDefault": "iste",
-  "FieldHeight": 305,
-  "FieldLabel": "cum",
-  "FieldLeft": 573,
-  "FieldTop": 318,
+  "UDefFieldId": 249,
+  "ColumnId": 978,
+  "FieldDefault": "voluptate",
+  "FieldHeight": 864,
+  "FieldLabel": "id",
+  "FieldLeft": 408,
+  "FieldTop": 18,
   "FieldType": "Checkbox",
-  "FieldWidth": 185,
-  "FormatMask": "sed",
+  "FieldWidth": 710,
+  "FormatMask": "eaque",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 190,
-  "LabelLeft": 265,
-  "LabelTop": 531,
-  "LabelWidth": 71,
-  "LastVersionId": 208,
-  "ListTableId": 842,
+  "IsIndexed": false,
+  "LabelHeight": 394,
+  "LabelLeft": 312,
+  "LabelTop": 157,
+  "LabelWidth": 852,
+  "LastVersionId": 306,
+  "ListTableId": 155,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 814,
-  "ProgId": "eos",
-  "IsReadOnly": true,
-  "ShortLabel": "provident",
-  "TabOrder": 339,
-  "TextLength": 475,
-  "Tooltip": "animi",
-  "UdefIdentity": 414,
-  "UDListDefinitionId": 910,
+  "Page1LineNo": 544,
+  "ProgId": "alias",
+  "IsReadOnly": false,
+  "ShortLabel": "praesentium",
+  "TabOrder": 454,
+  "TextLength": 529,
+  "Tooltip": "et",
+  "UdefIdentity": 673,
+  "UDListDefinitionId": 114,
   "Justification": "Center",
-  "Version": 31,
-  "TemplateVariableName": "Wiza, Heathcote and White",
-  "HasBeenPublished": true,
-  "MdoListName": "Kuhlman-Roob",
+  "Version": 512,
+  "TemplateVariableName": "Schultz, Williamson and Cassin",
+  "HasBeenPublished": false,
+  "MdoListName": "Ankunding-Russel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 214
     }
   }
 }

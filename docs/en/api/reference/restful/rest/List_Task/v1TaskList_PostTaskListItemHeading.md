@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 344,
-  "Name": "Cartwright LLC",
-  "Tooltip": "id",
+  "HeadingId": 137,
+  "Name": "Moen-Dicki",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 37,
-  "UdListDefinitionId": 54
+  "Rank": 1000,
+  "UdListDefinitionId": 76
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 749,
-  "Name": "Flatley, Eichmann and Ankunding",
-  "Tooltip": "sequi",
+  "HeadingId": 679,
+  "Name": "Smith Inc and Sons",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 143,
-  "UdListDefinitionId": 75,
+  "Rank": 411,
+  "UdListDefinitionId": 149,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 464
     }
   }
 }

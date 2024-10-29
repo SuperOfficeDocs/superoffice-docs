@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=consequatur
+GET /api/v1/List/ProjectType/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Von LLC",
-    "ToolTip": "Totam animi quae sed excepturi omnis rem veritatis.",
-    "Deleted": true,
-    "Rank": 301,
-    "Type": "impedit",
+    "Id": 16,
+    "Name": "Heidenreich, Wehner and Kassulke",
+    "ToolTip": "Maxime qui.",
+    "Deleted": false,
+    "Rank": 223,
+    "Type": "eveniet",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Greenholt LLC",
-        "ToolTip": "Quam consectetur.",
-        "Deleted": true,
-        "Rank": 647,
-        "Type": "qui",
+        "Id": 340,
+        "Name": "Kreiger Group",
+        "ToolTip": "Debitis cupiditate dolores.",
+        "Deleted": false,
+        "Rank": 190,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 127,
-        "ExtraInfo": "ducimus",
-        "StyleHint": "maxime",
-        "FullName": "Haylee Terry V",
+        "IconHint": "ut",
+        "ColorBlock": 457,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "nemo",
+        "FullName": "Fermin Grayson Russel V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 856
+            "FieldLength": 979
           }
         }
       }
     ],
-    "IconHint": "cupiditate",
-    "ColorBlock": 692,
-    "ExtraInfo": "laborum",
-    "StyleHint": "quis",
-    "FullName": "Javon Dach",
+    "IconHint": "fugiat",
+    "ColorBlock": 178,
+    "ExtraInfo": "recusandae",
+    "StyleHint": "ut",
+    "FullName": "Dr. Melvina Monahan PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldType": "System.String",
+        "FieldLength": 418
       }
     }
   }

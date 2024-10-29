@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=False
+GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
 
 
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 467,
+  "HierarchyId": 521,
   "Domain": "Dashboards",
-  "Name": "Schroeder Group",
-  "Fullname": "laborum",
-  "ParentId": 300,
+  "Name": "Nienow LLC",
+  "Fullname": "consequuntur",
+  "ParentId": 332,
   "Children": [
     {
-      "HierarchyId": 567,
+      "HierarchyId": 21,
       "Domain": "Dashboards",
-      "Name": "Schulist, Heller and Pouros",
-      "Fullname": "ut",
-      "ParentId": 774,
+      "Name": "Veum-Cassin",
+      "Fullname": "sed",
+      "ParentId": 551,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-11-13T03:44:57.359003+01:00",
-      "RegisteredAssociateId": 234,
-      "Updated": "2000-08-14T03:44:57.359003+02:00",
-      "UpdatedAssociateId": 831,
+      "Registered": "1999-06-11T13:14:10.8516656+02:00",
+      "RegisteredAssociateId": 246,
+      "Updated": "2017-12-08T13:14:10.8516656+01:00",
+      "UpdatedAssociateId": 975,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 364
         }
       }
     }
   ],
-  "Registered": "2001-02-07T03:44:57.359003+01:00",
-  "RegisteredAssociateId": 138,
-  "Updated": "2006-03-16T03:44:57.359003+01:00",
-  "UpdatedAssociateId": 357,
+  "Registered": "2007-09-06T13:14:10.8516656+02:00",
+  "RegisteredAssociateId": 28,
+  "Updated": "2024-09-09T13:14:10.8516656+02:00",
+  "UpdatedAssociateId": 676,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 116
     }
   }
 }

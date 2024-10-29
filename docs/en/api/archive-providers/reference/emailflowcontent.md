@@ -46,6 +46,7 @@ Lists all email flow content
 |emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -95,6 +96,7 @@ Lists all email flow content
 |shipment/emailFlow/workflowName| *None* |Name: Name of the flow definition|  |
 |shipment/emailFlow/workflowDescription| *None* |Description: Description of flow definition|  |
 |shipment/emailFlow/workflowDefinitionStatus| *None* |Status: Status of the flow definition|  |
+|shipment/emailFlow/workflowDefinitionStatusId| *None* |Status: Status of the flow definition|  |
 |shipment/emailFlow/jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
 |shipment/emailFlow/startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?|  |
 |shipment/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -121,12 +123,12 @@ Lists all email flow content
 |shipment/emailFlow/workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
 |shipment/emailFlow/workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
 |shipment/emailFlow/workflowAssociate/role| *None* |Owner - Role: Role|  |
-|shipment/emailFlow/workflowAssociate/assocName| *None* |Owner - User ID: User ID|  |
-|shipment/emailFlow/workflowAssociate/assocTooltip| *None* |Owner - Description: Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/emailFlow/workflowAssociate/assocName| *None* |Owner - User ID: User ID|  |
+|shipment/emailFlow/workflowAssociate/assocTooltip| *None* |Owner - Description: Description|  |
 |shipment/emailFlow/workflowAssociate/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
 |shipment/emailFlow/workflowAssociate/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
 |shipment/emailFlow/workflowAssociate/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -225,12 +227,12 @@ Lists all email flow content
 |shipment/project/NumberOfActivities| *None* |Number of activities|  |
 |shipment/project/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |shipment/project/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
-|shipment/project/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
-|shipment/project/LastActivity| *None* |Date of last activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
+|shipment/project/LastActivity| *None* |Date of last activity|  |
 |shipment/project/LastCompletedActivity| *None* |Date of last completed activity|  |
 |shipment/project/LastDoByActivity| *None* |Date of last non-completed activity|  |
 |shipment/project/NumberOfSales| *None* |Number of sales|  |
@@ -257,7 +259,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=contentThumbnail,shipment/emailFlow/workflowEnrolledCount,shipment/emailFlow/workflowAssociate/userName
+GET /api/v1/archive/EmailFlowContent?$select=shipment/emailFlow/startOnlyOnce,shipment/emailFlow/workflowAssociate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

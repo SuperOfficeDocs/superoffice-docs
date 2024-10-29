@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/DatabaseTable/DeleteRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ortiz Group",
-  "Id": 113
+  "TableName": "Sanford, Stehr and Haley",
+  "Id": 65
 }
 ```
 

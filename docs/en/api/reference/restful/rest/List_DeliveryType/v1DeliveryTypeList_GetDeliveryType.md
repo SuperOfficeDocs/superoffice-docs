@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Kuhic-Brakus",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 102,
-  "Rank": 462,
+  "Id": 304,
+  "Name": "Price LLC",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "UdListDefinitionId": 219,
+  "Rank": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 758
     }
   }
 }

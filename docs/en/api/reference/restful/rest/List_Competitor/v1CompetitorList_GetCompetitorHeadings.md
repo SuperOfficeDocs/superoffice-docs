@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 33,
-    "Name": "Beer-Gutkowski",
-    "Tooltip": "earum",
+    "HeadingId": 661,
+    "Name": "Walter Group",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 101,
-    "UdListDefinitionId": 563,
+    "Rank": 733,
+    "UdListDefinitionId": 81,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldType": "System.String",
+        "FieldLength": 740
       }
     }
   }

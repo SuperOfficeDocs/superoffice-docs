@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Jul 1997 03:44:57 G7T
+Last-Modified: Tue, 13 Nov 2001 13:14:10 G11T
 
 {
-  "ForeignAppId": 829,
-  "Name": "Harvey Inc and Sons",
-  "CreatedDate": "2018-08-30T03:44:57.359003+02:00",
-  "UpdatedDate": "1997-07-21T03:44:57.359003+02:00",
+  "ForeignAppId": 968,
+  "Name": "Green Inc and Sons",
+  "CreatedDate": "2023-04-26T13:14:10.8360396+02:00",
+  "UpdatedDate": "2001-11-13T13:14:10.8360396+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 989,
-      "Name": "Koch, Kilback and Padberg",
-      "CreatedDate": "2000-02-27T03:44:57.359003+01:00",
-      "UpdatedDate": "2006-10-29T03:44:57.359003+01:00",
-      "AssociateFullName": "Christina Kerluke",
-      "CreatedBy": "ab",
-      "UpdatedBy": "ipsa",
-      "DeviceIdentifier": "dolorem",
-      "ForeignAppId": 5,
+      "ForeignDeviceId": 352,
+      "Name": "Ebert-Mueller",
+      "CreatedDate": "2023-02-26T13:14:10.8360396+01:00",
+      "UpdatedDate": "2022-01-08T13:14:10.8360396+01:00",
+      "AssociateFullName": "Corbin Goodwin",
+      "CreatedBy": "assumenda",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 360,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 586
         }
       }
     }
@@ -123,7 +123,7 @@ Last-Modified: Mon, 21 Jul 1997 03:44:57 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 640
     }
   },
   "_Links": {

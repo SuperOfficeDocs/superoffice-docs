@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 378,
-    "ParentId": 748,
-    "Name": "Hodkiewicz, Bartell and Schumm",
-    "Fullname": "aut",
-    "CategoryMaster": 275,
+    "TicketCategoryId": 49,
+    "ParentId": 862,
+    "Name": "Murphy, Pacocha and Donnelly",
+    "Fullname": "ut",
+    "CategoryMaster": 465,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Rippin-Rohan",
+    "ExternalName": "Corwin-Romaguera",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 194,
-    "ReplyTemplate": 123,
-    "NotificationEmail": "dudley@weber.ca",
+    "AssignmentLag": 230,
+    "ReplyTemplate": 816,
+    "NotificationEmail": "raphaelle@white.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 625,
+    "EffectiveReplyTemplateId": 484,
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "harum"
+      "ExtraFields1": "quidem",
+      "ExtraFields2": "et"
     },
     "CustomFields": {
-      "CustomFields1": "accusantium",
-      "CustomFields2": "quo"
+      "CustomFields1": "pariatur",
+      "CustomFields2": "corrupti"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 340
+        "FieldLength": 152
       }
     }
   }

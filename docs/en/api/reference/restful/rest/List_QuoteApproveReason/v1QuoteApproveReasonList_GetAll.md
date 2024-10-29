@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Thompson LLC",
-    "Tooltip": "et",
+    "Id": 82,
+    "Name": "Waters-Bartell",
+    "Tooltip": "eum",
     "Deleted": true,
-    "UdListDefinitionId": 418,
-    "Rank": 3,
+    "UdListDefinitionId": 461,
+    "Rank": 707,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldLength": 872
       }
     }
   }

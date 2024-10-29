@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 807,
-  "Section": "facilis",
-  "Key": "et",
-  "Name": "Emard-Howell",
+  "PrefDescId": 600,
+  "Section": "blanditiis",
+  "Key": "voluptatibus",
+  "Name": "Oberbrunner Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused intermediate application",
+  "Description": "Persevering homogeneous concept",
   "IsBuiltin": false,
-  "TableName": "Gibson-Waelchi",
-  "UserDefinedListId": 997,
-  "Rank": 11,
-  "SubGroup": "temporibus",
-  "MinLevel": 961,
-  "MaxValue": 212,
-  "MinValue": 421,
-  "RequiredLicense": "voluptatem",
+  "TableName": "Heathcote Group",
+  "UserDefinedListId": 238,
+  "Rank": 97,
+  "SubGroup": "et",
+  "MinLevel": 92,
+  "MaxValue": 487,
+  "MinValue": 709,
+  "RequiredLicense": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldType": "System.String",
+      "FieldLength": 105
     }
   }
 }

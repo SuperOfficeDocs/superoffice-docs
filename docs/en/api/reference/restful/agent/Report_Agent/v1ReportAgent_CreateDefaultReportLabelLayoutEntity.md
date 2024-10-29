@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 513,
-  "Name": "Rath Inc and Sons",
-  "Description": "Face to face needs-based collaboration",
+  "ReportLabelLayoutId": 242,
+  "Name": "Stoltenberg-Mayer",
+  "Description": "Secured holistic protocol",
   "Orientation": "Landscape",
-  "PaperWidth": 677,
-  "PaperHeight": 999,
-  "LeftMargin": 614,
-  "RightMargin": 154,
-  "TopMargin": 190,
-  "BottomMargin": 702,
-  "CountColumns": 914,
-  "CountRows": 601,
+  "PaperWidth": 1000,
+  "PaperHeight": 914,
+  "LeftMargin": 234,
+  "RightMargin": 613,
+  "TopMargin": 373,
+  "BottomMargin": 679,
+  "CountColumns": 61,
+  "CountRows": 18,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 420
     }
   }
 }

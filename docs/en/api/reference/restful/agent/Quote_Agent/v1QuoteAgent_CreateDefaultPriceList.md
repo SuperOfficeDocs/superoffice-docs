@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 496,
-  "ERPPriceListKey": "dolorum",
-  "QuoteConnectionId": 126,
-  "Name": "Quigley Inc and Sons",
-  "Description": "Virtual bifurcated moratorium",
-  "Currency": "illo",
-  "CurrencyName": "Davis-Kuphal",
-  "ValidFrom": "2018-09-14T03:44:53.042699+02:00",
-  "ValidTo": "2003-03-03T03:44:53.042699+01:00",
-  "IsActive": false,
+  "PriceListId": 595,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 405,
+  "Name": "Ryan, Graham and Osinski",
+  "Description": "Versatile uniform help-desk",
+  "Currency": "natus",
+  "CurrencyName": "Stokes Group",
+  "ValidFrom": "2017-07-13T13:14:06.3039303+02:00",
+  "ValidTo": "2003-05-22T13:14:06.3039303+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldType": "System.Int32",
+      "FieldLength": 252
     }
   }
 }

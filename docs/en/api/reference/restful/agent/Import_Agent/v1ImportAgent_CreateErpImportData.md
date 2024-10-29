@@ -83,32 +83,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "DuBuque LLC",
-      "Operator": "commodi",
+      "Name": "Jenkins, Weimann and Farrell",
+      "Operator": "qui",
       "Values": [
-        "sapiente",
-        "quasi"
+        "numquam",
+        "est"
       ],
       "DisplayValues": [
-        "pariatur",
-        "sunt"
+        "ipsam",
+        "sequi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 122,
+      "InterParenthesis": 498,
       "InterOperator": "And",
-      "UniqueHash": 53
+      "UniqueHash": 604
     }
   ],
   "Columns": [
-    "at",
-    "eligendi"
+    "quo",
+    "veritatis"
   ],
-  "ConnectionId": 828,
+  "ConnectionId": 64,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "nemo",
-        "excepturi"
+        "vitae",
+        "molestiae"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "eius",
+      "ExternalKey": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldType": "System.String",
+          "FieldLength": 699
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Olson LLC",
-      "DisplayName": "Witting LLC",
+      "Name": "Christiansen, Huels and Kunze",
+      "DisplayName": "Vandervort LLC",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 779
         }
       }
     },
     {
-      "Name": "Olson LLC",
-      "DisplayName": "Witting LLC",
+      "Name": "Christiansen, Huels and Kunze",
+      "DisplayName": "Vandervort LLC",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 779
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 929
     }
   }
 }

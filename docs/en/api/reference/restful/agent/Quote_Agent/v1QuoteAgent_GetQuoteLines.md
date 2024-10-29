@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 712
+  "QuoteAlternativeId": 129
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 185,
-    "ERPQuoteLineKey": "aut",
-    "QuoteAlternativeId": 901,
-    "ERPProductKey": "animi",
+    "QuoteLineId": 904,
+    "ERPQuoteLineKey": "cumque",
+    "QuoteAlternativeId": 527,
+    "ERPProductKey": "recusandae",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 47.01,
-    "DeliveredQuantity": 24934.104,
-    "Rank": 803,
-    "Name": "Hills Inc and Sons",
-    "Description": "Compatible mission-critical knowledge base",
-    "Code": "ut",
-    "QuantityUnit": "officiis",
-    "PriceUnit": "quae",
-    "ItemNumber": "1220348",
+    "Quantity": 9840.76,
+    "DeliveredQuantity": 26726.752,
+    "Rank": 8,
+    "Name": "Glover Group",
+    "Description": "Innovative logistical capability",
+    "Code": "praesentium",
+    "QuantityUnit": "possimus",
+    "PriceUnit": "voluptatem",
+    "ItemNumber": "1751752",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "voluptatum",
-    "ProductTypeKey": "ea",
-    "Supplier": "nihil",
-    "SupplierCode": "nesciunt",
-    "Thumbnail": "quo",
-    "VATInfo": "cumque",
-    "VAT": 10404.88,
-    "UnitCost": 29340.507999999998,
-    "UnitMinimumPrice": 14381.926,
-    "UnitListPrice": 21367.612,
+    "ProductFamilyKey": "vel",
+    "ProductTypeKey": "magni",
+    "Supplier": "totam",
+    "SupplierCode": "culpa",
+    "Thumbnail": "architecto",
+    "VATInfo": "dolorem",
+    "VAT": 10320.261999999999,
+    "UnitCost": 15616.722,
+    "UnitMinimumPrice": 22069.628,
+    "UnitListPrice": 13523.21,
     "ExtraInfo": [
       {
-        "Name": "Pacocha Inc and Sons",
-        "Value": "vitae",
+        "Name": "Kuhic-Padberg",
+        "Value": "inventore",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 376
+            "FieldLength": 55
           }
         }
       },
       {
-        "Name": "Pacocha Inc and Sons",
-        "Value": "vitae",
+        "Name": "Kuhic-Padberg",
+        "Value": "inventore",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 376
+            "FieldLength": 55
           }
         }
       }
     ],
-    "RawExtraInfo": "nisi",
-    "IsSubscription": true,
-    "SubscriptionUnit": "magnam",
-    "SubscriptionQuantity": 12918.348,
-    "SubscriptionStart": "2001-08-29T03:44:53.0739396+02:00",
-    "ERPDiscountPercent": 28271.814,
-    "ERPDiscountAmount": 23940.626,
-    "DiscountPercent": 29732.257999999998,
-    "DiscountAmount": 6199.052,
+    "RawExtraInfo": "cumque",
+    "IsSubscription": false,
+    "SubscriptionUnit": "numquam",
+    "SubscriptionQuantity": 22220.059999999998,
+    "SubscriptionStart": "2002-09-28T13:14:06.3351823+02:00",
+    "ERPDiscountPercent": 18766.392,
+    "ERPDiscountAmount": 21026.005999999998,
+    "DiscountPercent": 2576.148,
+    "DiscountAmount": 21442.827999999998,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 28253.01,
-    "EarningAmount": 14193.886,
-    "SubTotal": 3102.66,
-    "TotalPrice": 13169.068,
-    "Rights": "reiciendis",
-    "Rule": "et",
-    "ExtraField1": "quaerat",
-    "ExtraField2": "aperiam",
-    "ExtraField3": "aut",
-    "ExtraField4": "ut",
-    "ExtraField5": "aspernatur",
+    "EarningPercent": 18500.002,
+    "EarningAmount": 175.504,
+    "SubTotal": 23392.176,
+    "TotalPrice": 10144.758,
+    "Rights": "molestiae",
+    "Rule": "placeat",
+    "ExtraField1": "magni",
+    "ExtraField2": "autem",
+    "ExtraField3": "et",
+    "ExtraField4": "suscipit",
+    "ExtraField5": "architecto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 407
       }
     }
   }

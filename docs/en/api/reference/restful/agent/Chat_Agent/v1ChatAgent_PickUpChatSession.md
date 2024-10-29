@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 861
+  "ChatSessionId": 444
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 965,
-  "TopicId": 80,
+  "ChatSessionId": 634,
+  "TopicId": 556,
   "User": null,
   "Person": null,
-  "CustomerAlias": "accusamus",
-  "CustomerHost": "corrupti",
-  "CustomerName": "Bauch-Harvey",
-  "CustomerEmail": "lucile@blanda.co.uk",
-  "CustomerPhone": "081.477.3179 x77519",
+  "CustomerAlias": "eum",
+  "CustomerHost": "aperiam",
+  "CustomerName": "Mann LLC",
+  "CustomerEmail": "camylle_spencer@nienowtremblay.co.uk",
+  "CustomerPhone": "(477)926-8140",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kerluke-Ankunding",
+  "CustomerCompanyName": "Schultz-Schinner",
   "Status": "Closed",
-  "FirstMessage": "provident",
-  "LastMessage": "doloremque",
-  "WhenRequested": "2014-11-12T03:44:52.1521306+01:00",
-  "WhenStarted": "2016-08-02T03:44:52.1521306+02:00",
-  "WhenEnded": "2012-05-15T03:44:52.1521306+02:00",
-  "WhenIdle": "2013-02-05T03:44:52.1521306+01:00",
-  "WhenFetched": "1997-11-29T03:44:52.1521306+01:00",
-  "SessionKey": "ea",
-  "InitialQueuePos": 976,
-  "AlertLevel": 259,
-  "Rank": 485,
+  "FirstMessage": "dolor",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2011-04-13T13:14:05.6007634+02:00",
+  "WhenStarted": "2020-08-26T13:14:05.6007634+02:00",
+  "WhenEnded": "2003-01-22T13:14:05.6007634+01:00",
+  "WhenIdle": "1997-09-17T13:14:05.6007634+02:00",
+  "WhenFetched": "2021-11-12T13:14:05.6007634+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 413,
+  "AlertLevel": 5,
+  "Rank": 498,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 59,
+  "ChatbotIsActive": true,
+  "Rating": 708,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 415
     }
   }
 }

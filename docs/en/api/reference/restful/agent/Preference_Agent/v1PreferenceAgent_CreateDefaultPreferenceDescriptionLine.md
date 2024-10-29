@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 793,
-  "PrefDescId": 86,
-  "PrefValue": "dolor",
-  "PrefShowValue": "animi",
-  "Description": "Up-sized responsive local area network",
+  "PrefDescLineId": 933,
+  "PrefDescId": 9,
+  "PrefValue": "neque",
+  "PrefShowValue": "blanditiis",
+  "Description": "Object-based analyzing product",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

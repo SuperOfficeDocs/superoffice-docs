@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 874,
-    "Name": "Wunsch, Brown and Tremblay",
-    "Tooltip": "illo",
+    "HeadingId": 144,
+    "Name": "Larson LLC",
+    "Tooltip": "quos",
     "Deleted": false,
-    "Rank": 107,
-    "UdListDefinitionId": 109,
+    "Rank": 444,
+    "UdListDefinitionId": 848,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 345
       }
     }
   }

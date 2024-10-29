@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 986,
-    "Name": "Russel Group",
-    "Tooltip": "ut",
+    "HeadingId": 399,
+    "Name": "Schamberger, Crist and Osinski",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 587,
-    "UdListDefinitionId": 344
+    "Rank": 259,
+    "UdListDefinitionId": 216
   },
   {
-    "HeadingId": 986,
-    "Name": "Russel Group",
-    "Tooltip": "ut",
+    "HeadingId": 399,
+    "Name": "Schamberger, Crist and Osinski",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 587,
-    "UdListDefinitionId": 344
+    "Rank": 259,
+    "UdListDefinitionId": 216
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 214,
-    "Name": "McGlynn Group",
-    "Tooltip": "porro",
-    "Deleted": true,
-    "Rank": 896,
-    "UdListDefinitionId": 245,
+    "HeadingId": 963,
+    "Name": "Lehner-Hayes",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "Rank": 926,
+    "UdListDefinitionId": 303,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

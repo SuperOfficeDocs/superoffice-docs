@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 478,
-  "SourcePersonId": 555,
-  "DestinationContactId": 929,
-  "DestinationPersonId": 828,
-  "RelationId": 579,
-  "Comment": "nihil",
-  "RelationDefinitionId": 52,
-  "Reversed": 920,
-  "UpdatedDate": "2013-08-05T03:44:57.1871459+02:00",
-  "CreatedDate": "2010-12-29T03:44:57.1871459+01:00",
+  "SourceContactId": 778,
+  "SourcePersonId": 553,
+  "DestinationContactId": 545,
+  "DestinationPersonId": 443,
+  "RelationId": 196,
+  "Comment": "excepturi",
+  "RelationDefinitionId": 532,
+  "Reversed": 87,
+  "UpdatedDate": "2012-06-29T13:14:10.7579101+02:00",
+  "CreatedDate": "2021-11-16T13:14:10.7579101+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Pagac Group",
-  "SourcePersonName": "Abernathy, Stanton and Wisoky",
-  "DestinationContactName": "Bednar-Bogisich",
-  "DestinationPersonName": "Howe-Schultz",
-  "ActiveText": "cumque",
-  "PassiveText": "ut"
+  "SourceContactName": "Schumm, Purdy and Prosacco",
+  "SourcePersonName": "Barton Inc and Sons",
+  "DestinationContactName": "Runte Group",
+  "DestinationPersonName": "Harber-Paucek",
+  "ActiveText": "enim",
+  "PassiveText": "temporibus"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 983,
-  "SourcePersonId": 814,
-  "DestinationContactId": 931,
-  "DestinationPersonId": 172,
-  "RelationId": 740,
-  "Comment": "tempora",
-  "RelationDefinitionId": 933,
-  "Reversed": 400,
-  "UpdatedDate": "2011-03-12T03:44:57.1871459+01:00",
-  "CreatedDate": "2000-11-13T03:44:57.1871459+01:00",
+  "SourceContactId": 114,
+  "SourcePersonId": 856,
+  "DestinationContactId": 769,
+  "DestinationPersonId": 718,
+  "RelationId": 230,
+  "Comment": "facilis",
+  "RelationDefinitionId": 796,
+  "Reversed": 256,
+  "UpdatedDate": "2007-02-10T13:14:10.7579101+01:00",
+  "CreatedDate": "2020-10-09T13:14:10.7579101+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Considine, Cassin and Bins",
-  "SourcePersonName": "Collier, Jaskolski and Marquardt",
-  "DestinationContactName": "Bahringer-Turcotte",
-  "DestinationPersonName": "Farrell-Greenholt",
-  "ActiveText": "totam",
-  "PassiveText": "velit",
+  "SourceContactName": "Hoppe-Runte",
+  "SourcePersonName": "Nikolaus, Schiller and Waelchi",
+  "DestinationContactName": "Feil-Wisoky",
+  "DestinationPersonName": "O'Connell Inc and Sons",
+  "ActiveText": "aut",
+  "PassiveText": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

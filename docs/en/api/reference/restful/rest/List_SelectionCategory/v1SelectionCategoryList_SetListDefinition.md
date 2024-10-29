@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Kirlin-Kub",
-  "Tooltip": "assumenda",
+  "Id": 29,
+  "Name": "Mitchell-Lemke",
+  "Tooltip": "magni",
   "Deleted": true,
-  "Rank": 287,
+  "Rank": 48,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 710,
-  "Name": "Barrows Inc and Sons",
-  "Tooltip": "numquam",
+  "Id": 232,
+  "Name": "Beier Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 997,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "Rank": 369,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

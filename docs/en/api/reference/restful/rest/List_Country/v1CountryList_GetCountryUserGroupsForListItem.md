@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Stroman-Padberg",
-    "ToolTip": "Commodi est quis dignissimos eum nisi quia quidem.",
-    "Deleted": false,
-    "Rank": 619,
-    "Type": "suscipit",
-    "ColorBlock": 201,
-    "IconHint": "aut",
+    "Id": 611,
+    "Name": "Fritsch, Harris and Wyman",
+    "ToolTip": "Praesentium suscipit fugit voluptatem blanditiis voluptatem.",
+    "Deleted": true,
+    "Rank": 25,
+    "Type": "corporis",
+    "ColorBlock": 230,
+    "IconHint": "ex",
     "Selected": true,
-    "LastChanged": "1998-11-15T03:44:57.9531133+01:00",
+    "LastChanged": "2006-12-08T13:14:11.3673211+01:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Marks, Dibbert and Kerluke",
-        "ToolTip": "Tempore numquam repellendus.",
+        "Id": 333,
+        "Name": "Beer Inc and Sons",
+        "ToolTip": "Eaque quidem velit.",
         "Deleted": false,
-        "Rank": 474,
-        "Type": "fugit",
-        "ColorBlock": 85,
-        "IconHint": "facilis",
-        "Selected": true,
-        "LastChanged": "2013-11-06T03:44:57.9531133+01:00",
+        "Rank": 208,
+        "Type": "non",
+        "ColorBlock": 176,
+        "IconHint": "debitis",
+        "Selected": false,
+        "LastChanged": "2001-02-25T13:14:11.3673211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Franz Donnelly",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Adolfo Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 509
+            "FieldType": "System.String",
+            "FieldLength": 468
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "et",
+    "ExtraInfo": "maxime",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Miss Jordi Flavie Macejkovic Sr.",
+    "FullName": "Crystal Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 296
+        "FieldType": "System.String",
+        "FieldLength": 968
       }
     }
   }

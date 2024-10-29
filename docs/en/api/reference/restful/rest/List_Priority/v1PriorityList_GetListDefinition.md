@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 457,
-  "Name": "O'Kon, Hammes and Lindgren",
-  "Tooltip": "ab",
+  "Id": 254,
+  "Name": "Brekke-Collier",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 991,
-  "IsCustomList": true,
+  "Rank": 738,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "libero",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   },
   "_Links": {

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "DuBuque-Lowe",
-    "Tooltip": "omnis",
+    "HeadingId": 892,
+    "Name": "Johns Inc and Sons",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "Rank": 866,
-    "UdListDefinitionId": 405,
+    "Rank": 384,
+    "UdListDefinitionId": 144,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

@@ -96,7 +96,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "est",
+  "CRMScriptUniqueId": "itaque",
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "dolor",
-    "InputValues2": "temporibus"
+    "InputValues1": "quod",
+    "InputValues2": "fuga"
   },
   "BlockExecution": false,
-  "NavigateTo": "vero",
-  "Message": "aut",
-  "ShowDialog": "libero",
+  "NavigateTo": "corrupti",
+  "Message": "velit",
+  "ShowDialog": "provident",
   "OutputValues": {
-    "OutputValues1": "accusantium",
-    "OutputValues2": "ut"
+    "OutputValues1": "ratione",
+    "OutputValues2": "perspiciatis"
   },
   "StateValues": {
-    "StateValues1": "reiciendis",
-    "StateValues2": "assumenda"
+    "StateValues1": "sint",
+    "StateValues2": "laborum"
   },
-  "Exception": "sunt",
+  "Exception": "aperiam",
   "ParserValues": {
-    "ParserValues1": "soluta",
-    "ParserValues2": "dolores"
+    "ParserValues1": "occaecati",
+    "ParserValues2": "quis"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
-    "CgiVariables2": "occaecati"
+    "CgiVariables1": "est",
+    "CgiVariables2": "impedit"
   },
-  "CgiContent": "blanditiis",
+  "CgiContent": "non",
   "Headers": {
-    "Headers1": "natus",
-    "Headers2": "in"
+    "Headers1": "labore",
+    "Headers2": "voluptatem"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

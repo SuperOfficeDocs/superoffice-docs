@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cole Inc and Sons",
-  "DeviceName": "Schulist, Bashirian and Okuneva"
+  "ApplicationName": "Kunde Group",
+  "DeviceName": "Lemke Group"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 84,
-  "Name": "Murphy, Bernier and Carroll",
-  "CreatedDate": "2008-03-02T03:44:52.6521119+01:00",
-  "UpdatedDate": "2023-04-15T03:44:52.6521119+02:00",
-  "AssociateFullName": "Prof. Sallie Braxton Mann IV",
-  "CreatedBy": "dicta",
-  "UpdatedBy": "sunt",
-  "DeviceIdentifier": "voluptatum",
-  "ForeignAppId": 777,
+  "ForeignDeviceId": 261,
+  "Name": "Boyer Group",
+  "CreatedDate": "2009-12-13T13:14:06.0382898+01:00",
+  "UpdatedDate": "2004-04-12T13:14:06.0382898+02:00",
+  "AssociateFullName": "Miss Kamryn Ericka Nienow Sr.",
+  "CreatedBy": "accusamus",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 609
     }
   }
 }

@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eaque",
-  "ProviderName": "Ziemann, O'Conner and Dare",
-  "StorageKey": "debitis",
+  "StorageType": "voluptas",
+  "ProviderName": "Collins LLC",
+  "StorageKey": "sequi",
   "StaticColumns": [
-    "ipsa",
-    "officia"
+    "facilis",
+    "accusamus"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Goyette LLC",
-      "Operator": "voluptas",
+      "Name": "Aufderhar-Rowe",
+      "Operator": "aspernatur",
       "Values": [
-        "rem",
-        "sequi"
+        "corrupti",
+        "sunt"
       ],
       "DisplayValues": [
-        "officiis",
-        "dicta"
+        "et",
+        "corporis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 627,
+      "InterParenthesis": 181,
       "InterOperator": "And",
-      "UniqueHash": 753
+      "UniqueHash": 701
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Okuneva, Windler and Stamm",
-      "DisplayTooltip": "aliquam",
-      "DisplayType": "est",
+      "DisplayName": "Stamm, Gulgowski and Osinski",
+      "DisplayTooltip": "earum",
+      "DisplayType": "quos",
       "CanOrderBy": false,
-      "Name": "Heaney Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "natus",
-      "RestrictionListName": "Mohr-Volkman",
-      "IsVisible": true,
-      "ExtraInfo": "libero",
-      "Width": "et",
-      "IconHint": "iure",
-      "HeadingIconHint": "labore"
+      "Name": "Wolf Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "vitae",
+      "RestrictionListName": "Smith LLC",
+      "IsVisible": false,
+      "ExtraInfo": "doloribus",
+      "Width": "quibusdam",
+      "IconHint": "blanditiis",
+      "HeadingIconHint": "necessitatibus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kuvalis, Fisher and Rau",
-      "PrimaryKey": 56,
+      "EntityName": "Jerde-Hickle",
+      "PrimaryKey": 955,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "aut",
-          "LinkHint": "sequi"
+          "DisplayValue": "accusantium",
+          "TooltipHint": "est",
+          "LinkHint": "laborum"
         }
       },
-      "LinkHint": "nisi",
-      "StyleHint": "et",
+      "LinkHint": "non",
+      "StyleHint": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 517
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bosco, Dooley and Hessel",
-      "Description": "Stand-alone 4th generation project",
-      "Rank": 672,
+      "Name": "Smith-Romaguera",
+      "Description": "Sharable solution-oriented product",
+      "Rank": 815,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bosco, Dooley and Hessel",
-      "Description": "Stand-alone 4th generation project",
-      "Rank": 672,
+      "Name": "Smith-Romaguera",
+      "Description": "Sharable solution-oriented product",
+      "Rank": 815,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 802
     }
   }
 }

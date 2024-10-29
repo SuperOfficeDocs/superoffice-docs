@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Reichert, Dare and Wilderman",
-  "EventFilter": "dignissimos",
+  "NameFilter": "Kautzer, Hintz and Funk",
+  "EventFilter": "veniam",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 113,
-    "Name": "Toy, Wisozk and Johns",
+    "WebhookId": 273,
+    "Name": "Graham-Funk",
     "Events": [
-      "ex",
-      "sit"
+      "ut",
+      "aut"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "eaque",
+    "Secret": "ea",
     "State": "Active",
-    "Type": "quis",
+    "Type": "corrupti",
     "Headers": {
-      "Headers1": "nisi",
-      "Headers2": "est"
+      "Headers1": "adipisci",
+      "Headers2": "nihil"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2017-07-14T03:44:53.4498657+02:00",
+    "Registered": "2009-01-10T13:14:06.7570832+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2001-10-12T03:44:53.4498657+02:00",
+    "Updated": "2002-10-11T13:14:06.7570832+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "alivia@barton.us"
+    "ErrorsEmail": "weston_weber@dietrich.com"
   }
 ]
 ```

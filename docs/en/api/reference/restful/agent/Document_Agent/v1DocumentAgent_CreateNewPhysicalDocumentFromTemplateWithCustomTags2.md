@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 602,
-  "PersonId": 932,
-  "AppointmentId": 129,
-  "DocumentId": 8,
-  "SaleId": 149,
-  "SelectionId": 442,
-  "ProjectId": 437,
+  "ContactId": 578,
+  "PersonId": 328,
+  "AppointmentId": 211,
+  "DocumentId": 455,
+  "SaleId": 160,
+  "SelectionId": 129,
+  "ProjectId": 763,
   "CustomTags": {
-    "CustomTags1": "molestiae",
-    "CustomTags2": "nulla"
+    "CustomTags1": "quis",
+    "CustomTags2": "optio"
   },
-  "UiCulture": "sit"
+  "UiCulture": "officiis"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 855,
+  "DocumentId": 921,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequatur",
-  "Header": "quisquam",
-  "Name": "Herman LLC",
-  "OurRef": "aut",
-  "YourRef": "ab",
-  "CreatedDate": "2020-08-31T03:44:52.4958766+02:00",
-  "UpdatedDate": "2002-03-03T03:44:52.4958766+01:00",
-  "Description": "Grass-roots eco-centric synergy",
+  "Attention": "ad",
+  "Header": "et",
+  "Name": "Hessel-Dickinson",
+  "OurRef": "neque",
+  "YourRef": "et",
+  "CreatedDate": "2024-03-01T13:14:05.9132824+01:00",
+  "UpdatedDate": "2024-09-28T13:14:05.9132824+02:00",
+  "Description": "Mandatory systemic flexibility",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-12-29T03:44:52.4958766+01:00",
-  "ExternalRef": "in",
+  "Date": "2013-02-05T13:14:05.9132824+01:00",
+  "ExternalRef": "voluptatem",
   "Completed": "Completed",
-  "ActiveLinks": 998,
+  "ActiveLinks": 421,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gislason Inc and Sons",
-      "Id": 660,
-      "Description": "Cloned 4th generation throughput",
-      "ExtraInfo": "dolorem",
-      "LinkId": 864,
+      "EntityName": "Bahringer, Christiansen and Will",
+      "Id": 529,
+      "Description": "Sharable global flexibility",
+      "ExtraInfo": "voluptas",
+      "LinkId": 796,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldType": "System.String",
+          "FieldLength": 405
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 824,
-  "Snum": 200,
+  "SuggestedDocumentId": 465,
+  "Snum": 17,
   "UserDefinedFields": {
-    "SuperOffice:1": "Toy Emile Crona III",
-    "SuperOffice:2": "Dr. Hilda Jarrell Kling"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Carolanne Bayer"
   },
   "ExtraFields": {
-    "ExtraFields1": "ex",
-    "ExtraFields2": "similique"
+    "ExtraFields1": "at",
+    "ExtraFields2": "voluptate"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "nihil"
+    "CustomFields1": "eos",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "2017-11-17T03:44:52.4958766+01:00",
-  "PublishTo": "2005-09-25T03:44:52.4958766+02:00",
-  "PublishFrom": "2022-01-09T03:44:52.4958766+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-02-02T13:14:05.9132824+01:00",
+  "PublishTo": "2024-01-01T13:14:05.9132824+01:00",
+  "PublishFrom": "2006-03-23T13:14:05.9132824+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 490,
+      "VisibleId": 432,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldType": "System.Int32",
+          "FieldLength": 271
         }
       }
     },
     {
-      "VisibleId": 490,
+      "VisibleId": 432,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldType": "System.Int32",
+          "FieldLength": 271
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 229
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

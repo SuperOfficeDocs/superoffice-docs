@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 17 Mar 2004 03:44:56 G3T
+Last-Modified: Thu, 08 May 2003 13:14:10 G5T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-04-14T03:44:56.9371895+02:00",
-  "AppointmentId": 467,
-  "Description": "Reverse-engineered national open system",
-  "Title": "non",
-  "Agenda": "provident",
-  "InternalNotes": "accusamus",
-  "StartDate": "2019-06-16T03:44:56.9371895+02:00",
-  "EndDate": "2007-09-06T03:44:56.9371895+02:00",
+  "CreatedDate": "1999-06-12T13:14:10.4610164+02:00",
+  "AppointmentId": 942,
+  "Description": "Virtual systematic firmware",
+  "Title": "quia",
+  "Agenda": "omnis",
+  "InternalNotes": "dicta",
+  "StartDate": "2005-12-22T13:14:10.4610164+01:00",
+  "EndDate": "2010-04-09T13:14:10.4610164+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 27,
+  "MotherId": 383,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-03-17T03:44:56.9528161+01:00",
+  "UpdatedDate": "2003-05-08T13:14:10.4610164+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 396,
+  "ActiveLinks": 900,
   "Links": [
     {
-      "EntityName": "Hermann LLC",
-      "Id": 980,
-      "Description": "Cross-group responsive concept",
-      "ExtraInfo": "architecto",
-      "LinkId": 877,
+      "EntityName": "Thiel Group",
+      "Id": 839,
+      "Description": "Decentralized composite flexibility",
+      "ExtraInfo": "consequatur",
+      "LinkId": 654,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 805
+          "FieldLength": 886
         }
       }
     }
   ],
-  "AlarmLeadTime": "molestiae",
-  "HasAlarm": false,
-  "ColorIndex": 349,
+  "AlarmLeadTime": "eveniet",
+  "HasAlarm": true,
+  "ColorIndex": 504,
   "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "maxime",
-  "LeadTime": "aut",
-  "Location": "nesciunt",
-  "RejectCounter": 419,
-  "RejectReason": "drive visionary synergies",
+  "LagTime": "consequatur",
+  "LeadTime": "quia",
+  "Location": "dicta",
+  "RejectCounter": 423,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 652,
-      "PersonId": 229,
-      "ContactId": 206,
-      "EmailId": 896,
+      "AssociateId": 285,
+      "PersonId": 650,
+      "ContactId": 477,
+      "EmailId": 810,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "sincere@kuphal.co.uk",
-      "Description": "Self-enabling methodical productivity"
+      "EmailAddress": "maye@smitham.biz",
+      "Description": "User-centric national solution"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2001-07-14T03:44:56.9528161+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2011-01-10T13:14:10.4610164+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 573,
+  "PreferredTZLocation": 266,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 768,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 155,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laudantium",
+  "CentralserviceVideomeetId": "quibusdam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Iva Mariah Grady",
-    "SuperOffice:2": "1720082772"
+    "SuperOffice:1": "1903957198",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "laboriosam"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "nesciunt"
+    "CustomFields1": "similique",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "1997-08-02T03:44:56.9528161+02:00",
-  "PublishTo": "2020-05-23T03:44:56.9528161+02:00",
-  "PublishFrom": "2000-03-28T03:44:56.9528161+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2009-03-28T13:14:10.4610164+01:00",
+  "PublishTo": "2013-03-11T13:14:10.4610164+01:00",
+  "PublishFrom": "2000-10-01T13:14:10.4610164+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 162,
+      "VisibleId": 110,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldType": "System.Int32",
+          "FieldLength": 642
         }
       }
     },
     {
-      "VisibleId": 162,
+      "VisibleId": 110,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldType": "System.Int32",
+          "FieldLength": 642
         }
       }
     }
@@ -252,8 +252,8 @@ Last-Modified: Wed, 17 Mar 2004 03:44:56 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldType": "System.String",
+      "FieldLength": 826
     }
   }
 }

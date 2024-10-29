@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839
+  "Id": 989
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Brekke Group",
-  "AssociateId": 210,
-  "DetailsTable": 471,
-  "DetailsRecord": 1001,
+  "Id": 79,
+  "Name": "Gottlieb-Abshire",
+  "AssociateId": 341,
+  "DetailsTable": 716,
+  "DetailsRecord": 841,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "fugiat",
-    "ParameterObject2": "ipsam"
+    "ParameterObject1": "deleniti",
+    "ParameterObject2": "dicta"
   },
-  "LastStarted": "2006-10-05T03:44:52.0740137+02:00",
-  "Created": "2007-12-04T03:44:52.0740137+01:00",
-  "StartCount": 428,
-  "DatabaseSerialNumber": "563444",
-  "Context": "odio",
-  "Result": "vitae",
+  "LastStarted": "2005-05-02T13:14:05.5226336+02:00",
+  "Created": "2018-05-05T13:14:05.5226336+02:00",
+  "StartCount": 818,
+  "DatabaseSerialNumber": "1578740",
+  "Context": "qui",
+  "Result": "facere",
   "State": "All",
-  "Description": "Synergistic cohesive hardware",
-  "Response": "dicta",
-  "Request": "animi",
-  "ProgressDescription": "Assimilated uniform attitude",
-  "ProgressPercent": 685,
-  "FileName": "Feest, Becker and Feest",
+  "Description": "Pre-emptive eco-centric moratorium",
+  "Response": "commodi",
+  "Request": "quis",
+  "ProgressDescription": "Phased mission-critical function",
+  "ProgressPercent": 699,
+  "FileName": "Ullrich Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

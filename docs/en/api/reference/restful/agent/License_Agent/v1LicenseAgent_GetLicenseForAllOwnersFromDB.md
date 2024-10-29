@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,42 +79,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Reason": "deploy leading-edge solutions",
-    "CanBeActivated": false,
+    "Reason": "",
+    "CanBeActivated": true,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 662,
-        "NumberOfLicensesFree": 158,
-        "NumberOfLicensesAdded": 47,
-        "NumberOfLicensesNewTotal": 753,
-        "NumberOfLicensesNewFree": 682,
-        "NumberOfLicensesTotal": 22
+        "NumberOfLicensesInUse": 457,
+        "NumberOfLicensesFree": 360,
+        "NumberOfLicensesAdded": 322,
+        "NumberOfLicensesNewTotal": 2,
+        "NumberOfLicensesNewFree": 92,
+        "NumberOfLicensesTotal": 452
       }
     ],
-    "AccumulatedNextCheckDate": "2023-09-30T03:44:52.6521119+02:00"
+    "AccumulatedNextCheckDate": "2011-03-24T13:14:06.0539158+01:00"
   },
   {
-    "Reason": "deploy leading-edge solutions",
-    "CanBeActivated": false,
+    "Reason": "",
+    "CanBeActivated": true,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 662,
-        "NumberOfLicensesFree": 158,
-        "NumberOfLicensesAdded": 47,
-        "NumberOfLicensesNewTotal": 753,
-        "NumberOfLicensesNewFree": 682,
-        "NumberOfLicensesTotal": 22
+        "NumberOfLicensesInUse": 457,
+        "NumberOfLicensesFree": 360,
+        "NumberOfLicensesAdded": 322,
+        "NumberOfLicensesNewTotal": 2,
+        "NumberOfLicensesNewFree": 92,
+        "NumberOfLicensesTotal": 452
       }
     ],
-    "AccumulatedNextCheckDate": "2023-09-30T03:44:52.6521119+02:00"
+    "AccumulatedNextCheckDate": "2011-03-24T13:14:06.0539158+01:00"
   }
 ]
 ```

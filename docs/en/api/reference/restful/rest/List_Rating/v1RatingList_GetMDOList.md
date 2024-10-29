@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=est
+GET /api/v1/List/Rating/MDOItems?query=laborum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Robel LLC",
-    "ToolTip": "Numquam qui dolore.",
+    "Id": 265,
+    "Name": "Wisozk-Swift",
+    "ToolTip": "Ea vel et iste enim ipsum veritatis repellendus.",
     "Deleted": true,
-    "Rank": 435,
-    "Type": "voluptatem",
+    "Rank": 574,
+    "Type": "tenetur",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Berge-Heaney",
-        "ToolTip": "Earum repellat similique numquam reprehenderit tempore.",
-        "Deleted": true,
-        "Rank": 760,
-        "Type": "cumque",
+        "Id": 627,
+        "Name": "Hamill-Upton",
+        "ToolTip": "Sed id et tenetur.",
+        "Deleted": false,
+        "Rank": 443,
+        "Type": "facilis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 851,
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "sunt",
-        "FullName": "Dr. Velma Reinger II",
+        "IconHint": "esse",
+        "ColorBlock": 682,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "minus",
+        "FullName": "Serena Streich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 972
+            "FieldLength": 390
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 4,
-    "ExtraInfo": "delectus",
-    "StyleHint": "voluptatibus",
-    "FullName": "Jorge Casandra Renner DVM",
+    "IconHint": "incidunt",
+    "ColorBlock": 633,
+    "ExtraInfo": "debitis",
+    "StyleHint": "tempore",
+    "FullName": "Mrs. Iva Oberbrunner IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldLength": 772
       }
     }
   }

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 110,
-  "Name": "O'Keefe, Schaefer and Beahan",
-  "CreatedDate": "2013-11-16T03:44:52.6364852+01:00",
-  "UpdatedDate": "1999-04-05T03:44:52.6364852+02:00",
+  "ForeignAppId": 974,
+  "Name": "Barrows Inc and Sons",
+  "CreatedDate": "2011-08-08T13:14:06.0382898+02:00",
+  "UpdatedDate": "2023-09-28T13:14:06.0382898+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 645,
-      "Name": "Williamson Group",
-      "CreatedDate": "1998-02-10T03:44:52.6364852+01:00",
-      "UpdatedDate": "2020-06-18T03:44:52.6364852+02:00",
-      "AssociateFullName": "Alvina Wolff MD",
-      "CreatedBy": "eos",
-      "UpdatedBy": "vel",
-      "DeviceIdentifier": "doloremque",
-      "ForeignAppId": 699,
+      "ForeignDeviceId": 565,
+      "Name": "Stanton-Barrows",
+      "CreatedDate": "2003-04-05T13:14:06.0382898+02:00",
+      "UpdatedDate": "2010-06-06T13:14:06.0382898+02:00",
+      "AssociateFullName": "Vicente Reichert",
+      "CreatedBy": "optio",
+      "UpdatedBy": "sunt",
+      "DeviceIdentifier": "aliquid",
+      "ForeignAppId": 24,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldLength": 907
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 137
     }
   }
 }

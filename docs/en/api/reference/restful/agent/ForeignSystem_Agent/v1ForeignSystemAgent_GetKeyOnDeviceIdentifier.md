@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Haag Inc and Sons",
-  "DeviceName": "Kovacek-Jacobi",
-  "DeviceIdentifier": "inventore",
-  "KeyName": "Bins, Gibson and Lynch",
-  "TableName": "Waters Group",
-  "RecordId": 848
+  "ApplicationName": "Boyer-Rau",
+  "DeviceName": "Volkman-Ratke",
+  "DeviceIdentifier": "non",
+  "KeyName": "Kunze-Beer",
+  "TableName": "Abbott-Runte",
+  "RecordId": 871
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolorem",
-  "Value": "deserunt",
-  "RecordId": 900,
-  "CreatedDate": "2014-09-15T03:44:52.6521119+02:00",
-  "UpdatedDate": "2004-08-22T03:44:52.6521119+02:00",
-  "UpdatedBy": "recusandae",
-  "CreatedBy": "beatae",
-  "TableName": "Kris-Beatty",
+  "Key": "ut",
+  "Value": "nisi",
+  "RecordId": 973,
+  "CreatedDate": "2012-10-08T13:14:06.0382898+02:00",
+  "UpdatedDate": "2021-03-03T13:14:06.0382898+01:00",
+  "UpdatedBy": "sunt",
+  "CreatedBy": "optio",
+  "TableName": "Witting, Effertz and Willms",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

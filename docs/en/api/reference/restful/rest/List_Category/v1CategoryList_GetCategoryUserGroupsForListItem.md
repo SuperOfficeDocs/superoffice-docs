@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Konopelski-Kling",
-    "ToolTip": "Quia nulla aut.",
-    "Deleted": true,
-    "Rank": 838,
-    "Type": "est",
-    "ColorBlock": 939,
-    "IconHint": "optio",
-    "Selected": true,
-    "LastChanged": "2007-07-10T03:44:57.8437502+02:00",
+    "Id": 95,
+    "Name": "Tremblay-Monahan",
+    "ToolTip": "Natus sit quo aut sint qui quia.",
+    "Deleted": false,
+    "Rank": 807,
+    "Type": "ut",
+    "ColorBlock": 232,
+    "IconHint": "inventore",
+    "Selected": false,
+    "LastChanged": "2021-05-02T13:14:11.3204434+02:00",
     "ChildItems": [
       {
-        "Id": 494,
-        "Name": "Haag, Moen and Rolfson",
-        "ToolTip": "Reiciendis totam laudantium.",
-        "Deleted": true,
-        "Rank": 339,
-        "Type": "voluptatem",
-        "ColorBlock": 985,
-        "IconHint": "alias",
-        "Selected": false,
-        "LastChanged": "1997-10-02T03:44:57.8437502+02:00",
+        "Id": 529,
+        "Name": "Tromp Group",
+        "ToolTip": "Modi tempore vel.",
+        "Deleted": false,
+        "Rank": 915,
+        "Type": "alias",
+        "ColorBlock": 483,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2005-08-21T13:14:11.3360694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "amet",
+        "ExtraInfo": "fugit",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Marcel Blanda",
+        "FullName": "Miss Wayne Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 774
+            "FieldType": "System.Int32",
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Margot Crona",
+    "FullName": "Rossie Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 166
       }
     }
   }

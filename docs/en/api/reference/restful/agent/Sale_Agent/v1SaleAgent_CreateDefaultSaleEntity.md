@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "non",
+  "SaleText": "recusandae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-05-06T03:44:53.1055953+02:00",
-  "Amount": 4622.65,
-  "SaleId": 976,
-  "Earning": 18440.456,
-  "EarningPercent": 18468.662,
-  "Heading": "sit",
-  "Number": "621852",
-  "Probability": 904,
-  "CreatedDate": "2014-02-28T03:44:53.1055953+01:00",
-  "UpdatedDate": "2021-12-31T03:44:53.1055953+01:00",
+  "Saledate": "2019-10-18T13:14:06.366434+02:00",
+  "Amount": 17892.006,
+  "SaleId": 33,
+  "Earning": 16105.626,
+  "EarningPercent": 5791.632,
+  "Heading": "dolorem",
+  "Number": "909178",
+  "Probability": 205,
+  "CreatedDate": "1997-11-14T13:14:06.366434+01:00",
+  "UpdatedDate": "2014-06-27T13:14:06.366434+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 2,
+  "ActiveLinks": 723,
   "Links": [
     {
-      "EntityName": "Brown, Jakubowski and Morissette",
-      "Id": 35,
-      "Description": "Synchronised regional interface",
-      "ExtraInfo": "et",
-      "LinkId": 926,
+      "EntityName": "Wilkinson-Watsica",
+      "Id": 669,
+      "Description": "Persevering executive application",
+      "ExtraInfo": "omnis",
+      "LinkId": 423,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 105
         }
       }
     }
   ],
-  "NextDueDate": "2015-01-15T03:44:53.1055953+01:00",
-  "Postit": "numquam",
+  "NextDueDate": "2014-02-16T13:14:06.366434+01:00",
+  "Postit": "omnis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-08-08T03:44:53.1055953+02:00",
+  "ReopenDate": "1998-09-10T13:14:06.366434+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hartmann Inc and Sons",
-      "Comment": "qui",
-      "StakeholderRoleId": 183,
-      "CountryId": 486,
-      "PersonId": 538,
-      "EmailDescription": "annie_herman@leannon.co.uk",
-      "EmailId": 914,
-      "EmailAddress": "elmo@weimannfisher.info",
-      "PhoneId": 338,
-      "ContactName": "Shanahan LLC",
-      "ContactId": 1001,
-      "SaleId": 216,
-      "Mrmrs": "facilis",
-      "Firstname": "Breanne",
-      "MiddleName": "Terry-Little",
-      "Lastname": "Hartmann",
-      "SaleStakeholderId": 543,
-      "Rank": 838,
-      "Phone": "(005)378-5290 x75450",
+      "StakeholderRoleName": "Lowe, Mills and Cole",
+      "Comment": "beatae",
+      "StakeholderRoleId": 628,
+      "CountryId": 274,
+      "PersonId": 851,
+      "EmailDescription": "maximo_herman@reichel.co.uk",
+      "EmailId": 663,
+      "EmailAddress": "austin@cronin.ca",
+      "PhoneId": 607,
+      "ContactName": "Konopelski, Ritchie and Kautzer",
+      "ContactId": 385,
+      "SaleId": 661,
+      "Mrmrs": "aut",
+      "Firstname": "Duane",
+      "MiddleName": "Botsford LLC",
+      "Lastname": "Senger",
+      "SaleStakeholderId": 82,
+      "Rank": 705,
+      "Phone": "501.962.0848 x596",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 459
         }
       }
     }
   ],
-  "ActiveErpLinks": 748,
+  "ActiveErpLinks": 660,
   "UserDefinedFields": {
-    "SuperOffice:1": "Glen Wunsch",
-    "SuperOffice:2": "Araceli Mann"
+    "SuperOffice:1": "Destinee Lindgren",
+    "SuperOffice:2": "526989415"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "porro",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "vero",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2008-09-14T03:44:53.1055953+02:00",
-  "PublishTo": "2007-02-27T03:44:53.1055953+01:00",
-  "PublishFrom": "2002-08-04T03:44:53.1055953+02:00",
+  "PublishEventDate": "2017-06-10T13:14:06.366434+02:00",
+  "PublishTo": "2002-06-16T13:14:06.366434+02:00",
+  "PublishFrom": "2000-08-04T13:14:06.366434+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 163,
+      "VisibleId": 230,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 461
         }
       }
     },
     {
-      "VisibleId": 163,
+      "VisibleId": 230,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 461
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 522
     }
   }
 }

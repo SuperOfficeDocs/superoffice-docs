@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bins, Hilpert and Jerde",
+  "Name": "Hilpert-Kozey",
   "AssociateIds": [
-    474,
-    612
+    272,
+    554
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Jakubowski-Grimes",
-    "AssociateId": 32,
-    "DetailsTable": 124,
-    "DetailsRecord": 919,
+    "Id": 771,
+    "Name": "Herman-Muller",
+    "AssociateId": 34,
+    "DetailsTable": 217,
+    "DetailsRecord": 429,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "facere",
-      "ParameterObject2": "voluptatem"
+      "ParameterObject1": "iure",
+      "ParameterObject2": "itaque"
     },
-    "LastStarted": "2014-01-22T03:44:52.0740137+01:00",
-    "Created": "2012-07-07T03:44:52.0740137+02:00",
-    "StartCount": 739,
-    "DatabaseSerialNumber": "863587",
-    "Context": "quibusdam",
-    "Result": "porro",
+    "LastStarted": "2010-11-12T13:14:05.5382596+01:00",
+    "Created": "2016-01-02T13:14:05.5382596+01:00",
+    "StartCount": 436,
+    "DatabaseSerialNumber": "1167102",
+    "Context": "qui",
+    "Result": "laboriosam",
     "State": "All",
-    "Description": "Future-proofed web-enabled local area network",
-    "Response": "voluptas",
-    "Request": "et",
-    "ProgressDescription": "Total 3rd generation architecture",
-    "ProgressPercent": 909,
-    "FileName": "Eichmann, Koss and Kuphal",
+    "Description": "Synergistic bifurcated database",
+    "Response": "ut",
+    "Request": "similique",
+    "ProgressDescription": "Cloned methodical instruction set",
+    "ProgressPercent": 152,
+    "FileName": "Dare-Mayert",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 15
+        "FieldLength": 125
       }
     }
   }

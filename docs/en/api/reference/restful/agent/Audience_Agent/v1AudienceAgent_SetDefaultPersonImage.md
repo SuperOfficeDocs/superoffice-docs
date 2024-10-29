@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Parisian Group",
+  "LayoutName": "Boehm, Wilkinson and Bechtelar",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

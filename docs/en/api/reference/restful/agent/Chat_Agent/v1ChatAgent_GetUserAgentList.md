@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": true
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Harris, Thompson and Hartmann",
-    "ToolTip": "Non vitae minus cupiditate pariatur eveniet.",
+    "Id": 120,
+    "Name": "Kihn-Marquardt",
+    "ToolTip": "Deleniti velit optio et mollitia dolorum exercitationem.",
     "Deleted": false,
-    "Rank": 944,
-    "Type": "laborum",
+    "Rank": 425,
+    "Type": "numquam",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Bednar-Halvorson",
-        "ToolTip": "Sint eum dolorem quia ut sit eius.",
+        "Id": 82,
+        "Name": "Leffler-Gottlieb",
+        "ToolTip": "Vel placeat aut eligendi et rerum ab.",
         "Deleted": false,
-        "Rank": 552,
-        "Type": "nulla",
+        "Rank": 946,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "debitis",
-        "ColorBlock": 895,
-        "ExtraInfo": "vitae",
-        "StyleHint": "rem",
-        "FullName": "Alia Nienow",
+        "IconHint": "animi",
+        "ColorBlock": 432,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "porro",
+        "FullName": "Delia Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 122
+            "FieldType": "System.Int32",
+            "FieldLength": 69
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 506,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "quae",
-    "FullName": "Dawson Haag",
+    "IconHint": "labore",
+    "ColorBlock": 528,
+    "ExtraInfo": "maiores",
+    "StyleHint": "consequatur",
+    "FullName": "Dallas Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

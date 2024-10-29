@@ -81,11 +81,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 636,
-  "Name": "Ernser, Haley and Quitzon",
+  "TicketStatusId": 762,
+  "Name": "Prosacco-Ryan",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": false
 }
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 861,
-  "Name": "Torphy LLC",
+  "TicketStatusId": 561,
+  "Name": "Mosciski-Altenwerth",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

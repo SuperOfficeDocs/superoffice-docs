@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Schoen-Treutel",
-    "ToolTip": "Est ut numquam reiciendis id voluptate aut in.",
-    "Deleted": true,
-    "Rank": 572,
-    "Type": "est",
-    "ColorBlock": 700,
-    "IconHint": "id",
+    "Id": 225,
+    "Name": "Gottlieb-Green",
+    "ToolTip": "Omnis in deleniti.",
+    "Deleted": false,
+    "Rank": 437,
+    "Type": "maxime",
+    "ColorBlock": 320,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "1998-04-24T03:44:58.17184+02:00",
+    "LastChanged": "1997-10-26T13:14:11.554833+01:00",
     "ChildItems": [
       {
-        "Id": 57,
-        "Name": "Hodkiewicz-Wiza",
-        "ToolTip": "Sint est.",
-        "Deleted": true,
-        "Rank": 373,
-        "Type": "et",
-        "ColorBlock": 344,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2005-06-08T03:44:58.17184+02:00",
+        "Id": 15,
+        "Name": "Brown, Lubowitz and Goyette",
+        "ToolTip": "Soluta ab molestiae ut at.",
+        "Deleted": false,
+        "Rank": 888,
+        "Type": "excepturi",
+        "ColorBlock": 316,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "1997-07-18T13:14:11.554833+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "dicta",
+        "ExtraInfo": "aut",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Madelyn Hintz",
+        "FullName": "Creola Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 102
+            "FieldType": "System.Int32",
+            "FieldLength": 110
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Omari Willms",
+    "ExtraInfo": "saepe",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Skye Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldLength": 919
       }
     }
   }

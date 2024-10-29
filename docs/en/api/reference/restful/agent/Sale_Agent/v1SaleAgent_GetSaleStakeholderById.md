@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    452,
-    210
+    681,
+    924
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Mante, Lebsack and Jenkins",
-    "Comment": "voluptatem",
-    "StakeholderRoleId": 38,
-    "CountryId": 735,
-    "PersonId": 570,
-    "EmailDescription": "shanna@keebler.info",
-    "EmailId": 235,
-    "EmailAddress": "mckenzie_kemmer@mayer.biz",
-    "PhoneId": 610,
-    "ContactName": "Cassin Group",
-    "ContactId": 110,
-    "SaleId": 224,
-    "Mrmrs": "voluptas",
-    "Firstname": "Vinnie",
-    "MiddleName": "Schuppe-Wehner",
-    "Lastname": "Lesch",
-    "SaleStakeholderId": 955,
-    "Rank": 503,
-    "Phone": "734-648-4334 x132",
+    "StakeholderRoleName": "Okuneva Inc and Sons",
+    "Comment": "quod",
+    "StakeholderRoleId": 913,
+    "CountryId": 50,
+    "PersonId": 738,
+    "EmailDescription": "alvena_haag@mante.info",
+    "EmailId": 813,
+    "EmailAddress": "cecile.kris@hahn.com",
+    "PhoneId": 527,
+    "ContactName": "Vandervort, Mosciski and Bartell",
+    "ContactId": 263,
+    "SaleId": 400,
+    "Mrmrs": "rem",
+    "Firstname": "Axel",
+    "MiddleName": "Harvey-O'Hara",
+    "Lastname": "Smitham",
+    "SaleStakeholderId": 769,
+    "Rank": 384,
+    "Phone": "(910)411-3191",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 356
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

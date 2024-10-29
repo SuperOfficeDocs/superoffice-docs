@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 543,
-  "Name": "Zieme Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 915,
+  "Name": "Veum, Terry and Feest",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "UdListDefinitionId": 362,
-  "Rank": 560
+  "UdListDefinitionId": 450,
+  "Rank": 733
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 248,
-  "Name": "Reynolds Group",
-  "Tooltip": "architecto",
+  "Id": 780,
+  "Name": "Fahey-Harris",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "UdListDefinitionId": 324,
-  "Rank": 727,
+  "UdListDefinitionId": 687,
+  "Rank": 39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   }
 }

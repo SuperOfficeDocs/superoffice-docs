@@ -76,13 +76,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LogWarning": false,
-  "LogInformation": false,
-  "LogSuccessAudit": true,
-  "LogFailureAudit": false,
+  "LogInformation": true,
+  "LogSuccessAudit": false,
+  "LogFailureAudit": true,
   "LogToEventLog": false,
   "LogToSuperOffice": false,
   "LogToFile": false,
-  "LogToTrace": false
+  "LogToTrace": true
 }
 ```
 

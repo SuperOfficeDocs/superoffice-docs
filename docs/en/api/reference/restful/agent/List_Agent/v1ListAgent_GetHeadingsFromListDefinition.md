@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 480
+  "Id": 760
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 363,
-    "Name": "Pfannerstill-Keeling",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "Rank": 644,
-    "UdListDefinitionId": 934,
+    "HeadingId": 438,
+    "Name": "Rowe, Walter and Konopelski",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 118,
+    "UdListDefinitionId": 161,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldLength": 797
       }
     }
   }

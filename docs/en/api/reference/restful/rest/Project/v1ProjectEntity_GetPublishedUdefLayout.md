@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 628,
-    "ColumnId": 478,
-    "FieldDefault": "deserunt",
-    "FieldHeight": 629,
-    "FieldLabel": "quia",
-    "FieldLeft": 879,
-    "FieldTop": 537,
+    "UDefFieldId": 447,
+    "ColumnId": 886,
+    "FieldDefault": "cum",
+    "FieldHeight": 882,
+    "FieldLabel": "eum",
+    "FieldLeft": 31,
+    "FieldTop": 676,
     "FieldType": "Checkbox",
-    "FieldWidth": 643,
-    "FormatMask": "cum",
+    "FieldWidth": 698,
+    "FormatMask": "sit",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 714,
-    "LabelLeft": 997,
-    "LabelTop": 691,
-    "LabelWidth": 184,
-    "LastVersionId": 238,
-    "ListTableId": 221,
-    "IsMandatory": true,
+    "LabelHeight": 524,
+    "LabelLeft": 646,
+    "LabelTop": 796,
+    "LabelWidth": 442,
+    "LastVersionId": 129,
+    "ListTableId": 936,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 701,
-    "ProgId": "inventore",
+    "Page1LineNo": 115,
+    "ProgId": "est",
     "IsReadOnly": false,
-    "ShortLabel": "non",
-    "TabOrder": 860,
-    "TextLength": 140,
-    "Tooltip": "possimus",
-    "UdefIdentity": 365,
-    "UDListDefinitionId": 651,
+    "ShortLabel": "molestiae",
+    "TabOrder": 810,
+    "TextLength": 840,
+    "Tooltip": "aliquid",
+    "UdefIdentity": 181,
+    "UDListDefinitionId": 592,
     "Justification": "Center",
-    "Version": 799,
-    "TemplateVariableName": "Bruen-Labadie",
-    "HasBeenPublished": false,
-    "MdoListName": "Runte-Olson",
+    "Version": 645,
+    "TemplateVariableName": "Balistreri, Mante and Lind",
+    "HasBeenPublished": true,
+    "MdoListName": "Lubowitz LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 465
       }
     }
   }

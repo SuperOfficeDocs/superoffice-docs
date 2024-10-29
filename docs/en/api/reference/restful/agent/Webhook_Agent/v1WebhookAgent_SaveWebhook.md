@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 565,
-  "Name": "Stehr, Hammes and Hodkiewicz",
+  "WebhookId": 83,
+  "Name": "Murray-Jenkins",
   "Events": [
-    "quae",
-    "deleniti"
+    "consequatur",
+    "alias"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ipsum",
+  "Secret": "dolore",
   "State": "Active",
-  "Type": "distinctio",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "eos",
-    "Headers2": "labore"
+    "Headers1": "quo",
+    "Headers2": "ipsum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-02-13T03:44:53.4498657+01:00",
+  "Registered": "2010-03-09T13:14:06.7570832+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-09-28T03:44:53.4498657+02:00",
+  "Updated": "2024-10-08T13:14:06.7570832+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "lloyd@hyatt.name"
+  "ErrorsEmail": "mose@pollich.uk"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 598,
-  "Name": "Goyette Group",
+  "WebhookId": 637,
+  "Name": "Klein, Lehner and Kunde",
   "Events": [
-    "laboriosam",
-    "inventore"
+    "dignissimos",
+    "quae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolor",
+  "Secret": "iure",
   "State": "Active",
-  "Type": "harum",
+  "Type": "ducimus",
   "Headers": {
-    "Headers1": "neque",
-    "Headers2": "provident"
+    "Headers1": "consequatur",
+    "Headers2": "distinctio"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-02-03T03:44:53.4498657+01:00",
+  "Registered": "2010-05-09T13:14:06.7570832+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2008-03-04T03:44:53.4498657+01:00",
+  "Updated": "2011-03-19T13:14:06.7570832+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "reynold@johnsonhahn.us"
+  "ErrorsEmail": "millie@moen.us"
 }
 ```

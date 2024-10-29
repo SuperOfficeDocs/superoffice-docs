@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 898,
-  "Name": "Ortiz-Dare",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "Rank": 680,
-  "IsCustomList": false,
+  "Id": 975,
+  "Name": "Weissnat, Yundt and Thompson",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 715,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
+  "UseGroupsAndHeadings": true,
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 130,
-  "Name": "Windler Group",
-  "Tooltip": "ut",
+  "Id": 854,
+  "Name": "Rice Inc and Sons",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 952,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 763,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldType": "System.Int32",
+      "FieldLength": 548
     }
   }
 }

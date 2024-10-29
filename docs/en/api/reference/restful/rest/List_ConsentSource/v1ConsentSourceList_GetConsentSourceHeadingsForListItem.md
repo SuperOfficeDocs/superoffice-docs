@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Schoen, Koelpin and Nitzsche",
-    "ToolTip": "Deserunt doloribus ipsam est tempora id.",
-    "Deleted": false,
-    "Rank": 647,
-    "Type": "autem",
-    "ColorBlock": 55,
-    "IconHint": "deserunt",
+    "Id": 275,
+    "Name": "Hodkiewicz Inc and Sons",
+    "ToolTip": "Dolorum vel molestiae autem.",
+    "Deleted": true,
+    "Rank": 93,
+    "Type": "quis",
+    "ColorBlock": 839,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2016-10-03T03:44:57.9531133+02:00",
+    "LastChanged": "1997-06-27T13:14:11.3516953+02:00",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Nienow, Paucek and Reichel",
-        "ToolTip": "Atque consequuntur praesentium.",
+        "Id": 179,
+        "Name": "Smitham-Stoltenberg",
+        "ToolTip": "Omnis atque culpa saepe voluptas molestiae laboriosam consequatur.",
         "Deleted": false,
-        "Rank": 10,
-        "Type": "tempora",
-        "ColorBlock": 825,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2002-05-05T03:44:57.9531133+02:00",
+        "Rank": 377,
+        "Type": "similique",
+        "ColorBlock": 739,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "2020-06-17T13:14:11.3516953+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "nam",
-        "Hidden": true,
-        "FullName": "Oran Stanton",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "incidunt",
+        "Hidden": false,
+        "FullName": "Prof. Mariana Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 576
+            "FieldLength": 464
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "quae",
-    "Hidden": false,
-    "FullName": "Ulises Bartoletti DDS",
+    "ExtraInfo": "nihil",
+    "StyleHint": "deleniti",
+    "Hidden": true,
+    "FullName": "Mrs. Sherwood Colten Considine Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldLength": 302
       }
     }
   }

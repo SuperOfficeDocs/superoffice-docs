@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2017-04-15T03:44:52.0427664+02:00",
-  "ToDate": "2018-06-26T03:44:52.0427664+02:00",
+  "FromDate": "2017-11-18T13:14:05.507008+01:00",
+  "ToDate": "2019-12-31T13:14:05.507008+01:00",
   "AssociateList": [
     {
-      "Id": 976,
-      "Name": "Lebsack, Roberts and Bernhard",
-      "ToolTip": "Nobis qui quo ex.",
-      "Deleted": true,
-      "Rank": 871,
-      "Type": "sint",
-      "ColorBlock": 976,
-      "IconHint": "nihil",
+      "Id": 142,
+      "Name": "Gutkowski Group",
+      "ToolTip": "Mollitia quod placeat consequatur.",
+      "Deleted": false,
+      "Rank": 201,
+      "Type": "est",
+      "ColorBlock": 827,
+      "IconHint": "dolorem",
       "Selected": false,
-      "LastChanged": "2014-03-26T03:44:52.0427664+01:00",
+      "LastChanged": "2024-09-28T13:14:05.507008+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Horacio Ernest Padberg II",
+      "ExtraInfo": "ratione",
+      "StyleHint": "porro",
+      "Hidden": false,
+      "FullName": "Muhammad Olson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldType": "System.String",
+          "FieldLength": 656
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 679,
-      "Name": "Zemlak Group",
-      "ToolTip": "Sit quod.",
-      "Deleted": false,
-      "Rank": 400,
-      "Type": "voluptatibus",
-      "ColorBlock": 331,
-      "IconHint": "sed",
+      "Id": 453,
+      "Name": "Rutherford-Gutmann",
+      "ToolTip": "Consequatur dolorem dolor accusamus vel.",
+      "Deleted": true,
+      "Rank": 767,
+      "Type": "architecto",
+      "ColorBlock": 392,
+      "IconHint": "incidunt",
       "Selected": false,
-      "LastChanged": "2006-01-07T03:44:52.0427664+01:00",
+      "LastChanged": "2000-11-15T13:14:05.507008+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "molestiae",
-      "Hidden": false,
-      "FullName": "Deven Julia Schowalter IV",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "ipsum",
+      "Hidden": true,
+      "FullName": "Janiya Witting",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 968
+          "FieldLength": 184
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 638,
-      "Name": "Berge Group",
-      "ToolTip": "Ducimus laborum pariatur nobis.",
+      "Id": 678,
+      "Name": "Robel-Huel",
+      "ToolTip": "Atque in occaecati saepe consequatur et reiciendis veritatis.",
       "Deleted": true,
-      "Rank": 970,
-      "Type": "dolor",
+      "Rank": 507,
+      "Type": "nihil",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "occaecati",
-      "ColorBlock": 284,
+      "IconHint": "inventore",
+      "ColorBlock": 921,
       "ExtraInfo": "consequatur",
-      "StyleHint": "sunt",
-      "FullName": "Thea Nader",
+      "StyleHint": "aut",
+      "FullName": "Dr. Maxie Arden Maggio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 231
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 182
     }
   }
 }

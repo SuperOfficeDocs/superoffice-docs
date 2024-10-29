@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=476
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=486
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quia",
+  "SaleText": "corrupti",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-09-10T03:44:53.1212215+02:00",
-  "Amount": 30941.982,
-  "SaleId": 116,
-  "Earning": 28964.428,
-  "EarningPercent": 16766.899999999998,
-  "Heading": "veritatis",
-  "Number": "806074",
-  "Probability": 46,
-  "CreatedDate": "2023-06-05T03:44:53.1212215+02:00",
-  "UpdatedDate": "2018-01-28T03:44:53.1212215+01:00",
+  "Saledate": "2017-01-13T13:14:06.38206+01:00",
+  "Amount": 4444.012,
+  "SaleId": 176,
+  "Earning": 15400.475999999999,
+  "EarningPercent": 21016.604,
+  "Heading": "quasi",
+  "Number": "1137286",
+  "Probability": 525,
+  "CreatedDate": "2023-10-06T13:14:06.38206+02:00",
+  "UpdatedDate": "2008-01-02T13:14:06.38206+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 890,
+  "ActiveLinks": 501,
   "Links": [
     {
-      "EntityName": "Greenfelder Group",
-      "Id": 295,
-      "Description": "Sharable 24/7 benchmark",
-      "ExtraInfo": "ullam",
-      "LinkId": 748,
+      "EntityName": "Stanton, Bergstrom and Dickinson",
+      "Id": 884,
+      "Description": "Re-contextualized even-keeled moderator",
+      "ExtraInfo": "voluptas",
+      "LinkId": 843,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     }
   ],
-  "NextDueDate": "2015-03-19T03:44:53.1212215+01:00",
-  "Postit": "qui",
+  "NextDueDate": "2004-10-04T13:14:06.38206+02:00",
+  "Postit": "fuga",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-10-05T03:44:53.1212215+02:00",
+  "ReopenDate": "2002-05-16T13:14:06.38206+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Daugherty Inc and Sons",
-      "Comment": "odio",
-      "StakeholderRoleId": 666,
-      "CountryId": 975,
-      "PersonId": 363,
-      "EmailDescription": "theodore@powlowski.uk",
-      "EmailId": 535,
-      "EmailAddress": "cullen@cummings.biz",
-      "PhoneId": 747,
-      "ContactName": "Lueilwitz Group",
-      "ContactId": 331,
-      "SaleId": 241,
-      "Mrmrs": "rem",
-      "Firstname": "Monte",
-      "MiddleName": "Buckridge, Rippin and Keeling",
-      "Lastname": "Yost",
-      "SaleStakeholderId": 995,
-      "Rank": 348,
-      "Phone": "306.140.6418",
+      "StakeholderRoleName": "Waters, Bartell and Goyette",
+      "Comment": "dolores",
+      "StakeholderRoleId": 554,
+      "CountryId": 949,
+      "PersonId": 1001,
+      "EmailDescription": "bartholome.bartell@robel.biz",
+      "EmailId": 103,
+      "EmailAddress": "luella@cronin.ca",
+      "PhoneId": 866,
+      "ContactName": "Predovic-Greenholt",
+      "ContactId": 109,
+      "SaleId": 11,
+      "Mrmrs": "itaque",
+      "Firstname": "Ricardo",
+      "MiddleName": "Tremblay Group",
+      "Lastname": "Block",
+      "SaleStakeholderId": 17,
+      "Rank": 263,
+      "Phone": "(595)251-4244 x616",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 71
         }
       }
     }
   ],
-  "ActiveErpLinks": 634,
+  "ActiveErpLinks": 369,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Tiana Lang",
-    "SuperOffice:2": "Loraine Wiegand"
+    "SuperOffice:1": "Karlie Beatty",
+    "SuperOffice:2": "260494864"
   },
   "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "mollitia"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "repellat",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2017-10-11T03:44:53.1212215+02:00",
-  "PublishTo": "2011-04-29T03:44:53.1212215+02:00",
-  "PublishFrom": "2018-12-27T03:44:53.1212215+01:00",
+  "PublishEventDate": "2013-01-23T13:14:06.38206+01:00",
+  "PublishTo": "2019-04-16T13:14:06.38206+02:00",
+  "PublishFrom": "2021-04-24T13:14:06.38206+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 862,
+      "VisibleId": 355,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 424
         }
       }
     },
     {
-      "VisibleId": 862,
+      "VisibleId": 355,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 424
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 870
+      "FieldType": "System.Int32",
+      "FieldLength": 518
     }
   }
 }

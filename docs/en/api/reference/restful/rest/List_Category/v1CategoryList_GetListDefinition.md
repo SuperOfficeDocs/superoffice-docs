@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Stehr-Waters",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 765,
-  "IsCustomList": true,
+  "Id": 744,
+  "Name": "Daniel Inc and Sons",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "Rank": 269,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldType": "System.String",
+      "FieldLength": 524
     }
   },
   "_Links": {

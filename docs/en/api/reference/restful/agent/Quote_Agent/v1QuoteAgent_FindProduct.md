@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 193,
-  "UserInput": "quam",
-  "PriceListKey": "fugit"
+  "QuoteAlternativeId": 587,
+  "UserInput": "et",
+  "PriceListKey": "eum"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 130,
-    "ERPProductKey": "distinctio",
-    "ERPPriceListKey": "asperiores",
-    "Name": "Purdy-Ruecker",
-    "Description": "Compatible maximized adapter",
-    "Code": "ullam",
-    "PriceUnit": "excepturi",
-    "QuantityUnit": "nobis",
-    "IsSubscription": false,
-    "SubscriptionUnit": "possimus",
-    "DefaultSubscriptionQuantity": 2206.336,
-    "ItemNumber": "1180883",
+    "ProductId": 896,
+    "ERPProductKey": "debitis",
+    "ERPPriceListKey": "neque",
+    "Name": "Koss LLC",
+    "Description": "Visionary cohesive process improvement",
+    "Code": "cupiditate",
+    "PriceUnit": "cumque",
+    "QuantityUnit": "occaecati",
+    "IsSubscription": true,
+    "SubscriptionUnit": "assumenda",
+    "DefaultSubscriptionQuantity": 21624.6,
+    "ItemNumber": "951377",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "possimus",
-    "ProductTypeKey": "earum",
-    "VAT": 5258.852,
-    "VATInfo": "quibusdam",
-    "UnitCost": 31148.825999999997,
-    "UnitMinimumPrice": 2679.5699999999997,
-    "UnitListPrice": 2579.2819999999997,
-    "InAssortment": false,
-    "Supplier": "autem",
-    "SupplierCode": "maxime",
-    "Rights": "reprehenderit",
-    "Rule": "molestias",
+    "ProductFamilyKey": "aliquid",
+    "ProductTypeKey": "consectetur",
+    "VAT": 9195.155999999999,
+    "VATInfo": "omnis",
+    "UnitCost": 12517.196,
+    "UnitMinimumPrice": 25877.438,
+    "UnitListPrice": 15312.724,
+    "InAssortment": true,
+    "Supplier": "omnis",
+    "SupplierCode": "reprehenderit",
+    "Rights": "eligendi",
+    "Rule": "rerum",
     "ExtraInfo": [
       {
-        "Name": "Stamm Inc and Sons",
-        "Value": "exercitationem",
+        "Name": "Kirlin Group",
+        "Value": "dolores",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 81
+            "FieldLength": 739
           }
         }
       },
       {
-        "Name": "Stamm Inc and Sons",
-        "Value": "exercitationem",
+        "Name": "Kirlin Group",
+        "Value": "dolores",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 81
+            "FieldLength": 739
           }
         }
       }
     ],
-    "RawExtraInfo": "consequuntur",
-    "ExtraField1": "possimus",
-    "ExtraField2": "dolorem",
-    "ExtraField3": "sit",
-    "ExtraField4": "ut",
-    "ExtraField5": "distinctio",
-    "InStock": 1369.558,
+    "RawExtraInfo": "beatae",
+    "ExtraField1": "et",
+    "ExtraField2": "qui",
+    "ExtraField3": "sapiente",
+    "ExtraField4": "minima",
+    "ExtraField5": "nulla",
+    "InStock": 8969.508,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

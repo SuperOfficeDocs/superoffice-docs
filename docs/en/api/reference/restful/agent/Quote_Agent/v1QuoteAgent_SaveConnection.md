@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 511,
-  "ERPName": "Wehner-Bergstrom",
-  "DisplayName": "Cormier, Friesen and Adams",
-  "DisplayDescription": "Synergized context-sensitive support",
-  "Rank": 140,
-  "ConnectorName": "Barrows, Champlin and Hodkiewicz",
-  "ErpConnectionId": 435,
-  "ExtraData": "alias",
-  "IsAvailable": true,
+  "QuoteConnectionId": 509,
+  "ERPName": "Becker LLC",
+  "DisplayName": "Crooks-Sauer",
+  "DisplayDescription": "Digitized local strategy",
+  "Rank": 257,
+  "ConnectorName": "VonRueden, Schaefer and Purdy",
+  "ErpConnectionId": 171,
+  "ExtraData": "et",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 926,
-      "ERPPriceListKey": "et",
-      "QuoteConnectionId": 697,
-      "Name": "Keeling Inc and Sons",
-      "Description": "Face to face didactic knowledge user",
-      "Currency": "fugit",
-      "CurrencyName": "Mertz Group",
-      "ValidFrom": "1999-09-19T03:44:53.0583181+02:00",
-      "ValidTo": "2000-10-07T03:44:53.0583181+02:00",
+      "PriceListId": 554,
+      "ERPPriceListKey": "facere",
+      "QuoteConnectionId": 668,
+      "Name": "Durgan-Schaefer",
+      "Description": "Seamless client-driven monitoring",
+      "Currency": "quasi",
+      "CurrencyName": "Aufderhar-Anderson",
+      "ValidFrom": "2021-04-18T13:14:06.3195563+02:00",
+      "ValidTo": "2014-03-23T13:14:06.3195563+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 128
+          "FieldType": "System.String",
+          "FieldLength": 825
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    293,
-    63
+    205,
+    400
   ],
   "AssociateAccessIds": [
-    526,
-    645
+    647,
+    447
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldType": "System.String",
+      "FieldLength": 518
     }
   }
 }

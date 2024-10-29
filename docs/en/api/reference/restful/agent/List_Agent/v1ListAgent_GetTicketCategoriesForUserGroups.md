@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    822,
-    774
+    61,
+    255
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Moen-Kemmer",
-    "ToolTip": "Quis praesentium.",
-    "Deleted": true,
-    "Rank": 898,
-    "Type": "tenetur",
+    "Id": 366,
+    "Name": "Franecki, Jenkins and Lebsack",
+    "ToolTip": "Consequatur quia officia aut sunt.",
+    "Deleted": false,
+    "Rank": 801,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 783,
-        "Name": "Breitenberg, Hettinger and Ernser",
-        "ToolTip": "Magni natus tempore.",
-        "Deleted": true,
-        "Rank": 273,
-        "Type": "ab",
+        "Id": 628,
+        "Name": "Leuschke-Ferry",
+        "ToolTip": "Quasi rerum laborum ut sed.",
+        "Deleted": false,
+        "Rank": 262,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 594,
-        "ExtraInfo": "facilis",
-        "StyleHint": "molestiae",
-        "FullName": "Ms. Logan Dickinson",
+        "IconHint": "molestias",
+        "ColorBlock": 23,
+        "ExtraInfo": "iure",
+        "StyleHint": "quasi",
+        "FullName": "Zack Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 733
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 759,
-    "ExtraInfo": "optio",
-    "StyleHint": "nesciunt",
-    "FullName": "Andre Cole MD",
+    "IconHint": "quaerat",
+    "ColorBlock": 453,
+    "ExtraInfo": "et",
+    "StyleHint": "hic",
+    "FullName": "Velda Devin Lindgren Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 709
       }
     }
   }

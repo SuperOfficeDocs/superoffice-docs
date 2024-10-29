@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "blanditiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "blanditiis",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 615,
-  "Name": "Weber-Gibson",
-  "CreatedDate": "2013-08-02T03:44:57.359003+02:00",
-  "UpdatedDate": "2011-08-02T03:44:57.359003+02:00",
+  "ForeignAppId": 204,
+  "Name": "Mitchell, Moen and Moore",
+  "CreatedDate": "2014-03-19T13:14:10.8360396+01:00",
+  "UpdatedDate": "2004-02-09T13:14:10.8360396+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 507,
-      "Name": "Monahan Group",
-      "CreatedDate": "2015-02-18T03:44:57.359003+01:00",
-      "UpdatedDate": "2011-11-29T03:44:57.359003+01:00",
-      "AssociateFullName": "Genoveva Batz",
-      "CreatedBy": "aut",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "at",
-      "ForeignAppId": 830,
+      "ForeignDeviceId": 6,
+      "Name": "Skiles Inc and Sons",
+      "CreatedDate": "2003-06-08T13:14:10.8360396+02:00",
+      "UpdatedDate": "1997-11-25T13:14:10.8360396+01:00",
+      "AssociateFullName": "Miss Eusebio West Jr.",
+      "CreatedBy": "numquam",
+      "UpdatedBy": "ex",
+      "DeviceIdentifier": "veniam",
+      "ForeignAppId": 222,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldType": "System.String",
+          "FieldLength": 319
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

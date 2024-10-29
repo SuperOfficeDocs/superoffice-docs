@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 3,
-  "Name": "D'Amore Group",
-  "Tooltip": "qui",
+  "HeadingId": 645,
+  "Name": "Walker Group",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 185,
-  "UdListDefinitionId": 302
+  "Rank": 36,
+  "UdListDefinitionId": 417
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 753,
-  "Name": "Predovic-Huel",
-  "Tooltip": "nemo",
+  "HeadingId": 413,
+  "Name": "Bauch-Simonis",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 482,
-  "UdListDefinitionId": 682,
+  "Rank": 46,
+  "UdListDefinitionId": 598,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldType": "System.Int32",
+      "FieldLength": 889
     }
   }
 }

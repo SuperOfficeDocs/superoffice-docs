@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,13 +78,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Function-based fault-tolerant flexibility",
-  "Filename": "inventore",
-  "Size": 618,
-  "Type": "fugit",
-  "Encoding": "aut",
-  "Id": "qui",
-  "Disposition": "voluptas",
+  "Description": "Total intangible archive",
+  "Filename": "ducimus",
+  "Size": 420,
+  "Type": "debitis",
+  "Encoding": "deleniti",
+  "Id": "ut",
+  "Disposition": "qui",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 10
     }
   }
 }

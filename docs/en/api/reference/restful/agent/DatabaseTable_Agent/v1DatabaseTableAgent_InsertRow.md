@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Howell, Ferry and Parisian",
+  "TableName": "Jacobi, Bins and Waters",
   "Values": {
-    "Values1": "consequatur",
-    "Values2": "delectus"
+    "Values1": "facere",
+    "Values2": "officiis"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-632
+421
 ```

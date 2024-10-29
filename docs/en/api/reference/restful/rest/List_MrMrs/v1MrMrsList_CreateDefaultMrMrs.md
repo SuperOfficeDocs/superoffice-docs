@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 159,
-  "Name": "Tromp-Cole",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 210,
-  "Rank": 524,
+  "Id": 824,
+  "Name": "Schowalter, Gleason and Casper",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "UdListDefinitionId": 401,
+  "Rank": 107,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 386
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=sunt
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=dolorum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Ratke Inc and Sons",
-    "ToolTip": "Eaque sequi repellendus quisquam voluptas iure libero similique.",
-    "Deleted": true,
-    "Rank": 238,
-    "Type": "accusamus",
+    "Id": 220,
+    "Name": "Morissette LLC",
+    "ToolTip": "Et eveniet dolores.",
+    "Deleted": false,
+    "Rank": 157,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Corkery Group",
-        "ToolTip": "Modi qui.",
-        "Deleted": true,
-        "Rank": 644,
-        "Type": "quisquam",
+        "Id": 125,
+        "Name": "Lindgren, Spencer and Predovic",
+        "ToolTip": "Totam ad in possimus adipisci quaerat omnis et.",
+        "Deleted": false,
+        "Rank": 205,
+        "Type": "similique",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 74,
-        "ExtraInfo": "sed",
-        "StyleHint": "ullam",
-        "FullName": "Miss Rebecca Carleton Frami I",
+        "IconHint": "iusto",
+        "ColorBlock": 879,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "labore",
+        "FullName": "Bette Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 310
+            "FieldType": "System.Int32",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 531,
-    "ExtraInfo": "libero",
-    "StyleHint": "sit",
-    "FullName": "Hester Waelchi",
+    "IconHint": "eum",
+    "ColorBlock": 552,
+    "ExtraInfo": "corporis",
+    "StyleHint": "praesentium",
+    "FullName": "Miss Lemuel Sister Brekke DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 900
       }
     }
   }

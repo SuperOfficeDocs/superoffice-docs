@@ -77,22 +77,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 876,
-  "LabelLayoutId": 1001,
-  "Filename": "non",
-  "Language": "architecto",
-  "FileType": "sint",
+  "ReportId": 581,
+  "LabelLayoutId": 563,
+  "Filename": "animi",
+  "Language": "doloribus",
+  "FileType": "numquam",
   "Restrictions": [
     {
-      "Name": "Jaskolski, Rodriguez and Fay",
-      "Operator": "quisquam",
+      "Name": "Zemlak LLC",
+      "Operator": "rerum",
       "Values": [
-        "tenetur",
-        "sit"
+        "minima",
+        "possimus"
       ],
       "DisplayValues": [
-        "nobis",
-        "harum"
+        "aut",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 22,
+      "InterParenthesis": 870,
       "InterOperator": "And",
-      "UniqueHash": 678
+      "UniqueHash": 324
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"hic"
+"at"
 ```

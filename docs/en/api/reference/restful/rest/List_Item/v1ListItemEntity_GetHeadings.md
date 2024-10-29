@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Runolfsson, Terry and Tillman",
-    "ToolTip": "Accusamus vel omnis atque.",
-    "Deleted": false,
-    "Rank": 867,
-    "Type": "asperiores",
-    "ColorBlock": 485,
-    "IconHint": "asperiores",
+    "Id": 326,
+    "Name": "Schroeder-Weissnat",
+    "ToolTip": "Dignissimos est itaque deserunt nemo.",
+    "Deleted": true,
+    "Rank": 968,
+    "Type": "sed",
+    "ColorBlock": 100,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2003-02-26T03:44:57.8125425+01:00",
+    "LastChanged": "1999-08-12T13:14:11.3048179+02:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Padberg LLC",
-        "ToolTip": "Laudantium quia neque nemo adipisci.",
+        "Id": 997,
+        "Name": "Gusikowski, Ward and Bechtelar",
+        "ToolTip": "Harum quos qui fuga dolor autem.",
         "Deleted": false,
-        "Rank": 48,
-        "Type": "natus",
-        "ColorBlock": 92,
-        "IconHint": "molestias",
+        "Rank": 955,
+        "Type": "hic",
+        "ColorBlock": 945,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2012-03-12T03:44:57.8125425+01:00",
+        "LastChanged": "2013-03-24T13:14:11.3048179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "incidunt",
-        "Hidden": true,
-        "FullName": "Bartholome D'Amore",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "natus",
+        "Hidden": false,
+        "FullName": "Anita Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 541
+            "FieldLength": 786
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Eleanore Willms",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "fugit",
+    "Hidden": false,
+    "FullName": "Dejon Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 916
       }
     }
   }

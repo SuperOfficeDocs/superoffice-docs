@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "sapiente",
-    "non"
+    "corporis",
+    "omnis"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 756,
-    "ResourceId": 642,
-    "Text": "optio",
+    "LanguageId": 36,
+    "ResourceId": 953,
+    "Text": "amet",
     "Type": "Column",
-    "LocalizedTextId": 169,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 237,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 260
       }
     }
   }

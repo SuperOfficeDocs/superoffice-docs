@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=aperiam
+GET /api/v1/List/SelectionCategory/MDOItems?query=autem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Borer-Wilderman",
-    "ToolTip": "Possimus quaerat ut rerum.",
+    "Id": 453,
+    "Name": "Quitzon LLC",
+    "ToolTip": "Maxime voluptatem sed odio eligendi eum perspiciatis.",
     "Deleted": false,
-    "Rank": 408,
-    "Type": "tenetur",
+    "Rank": 134,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Hyatt, Schultz and Ziemann",
-        "ToolTip": "Ullam aliquid.",
+        "Id": 310,
+        "Name": "Moen Group",
+        "ToolTip": "Id debitis et assumenda qui.",
         "Deleted": true,
-        "Rank": 922,
-        "Type": "et",
+        "Rank": 319,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 934,
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "provident",
-        "FullName": "Sasha Schowalter",
+        "IconHint": "et",
+        "ColorBlock": 351,
+        "ExtraInfo": "neque",
+        "StyleHint": "quo",
+        "FullName": "Idella Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldLength": 88
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 365,
-    "ExtraInfo": "iure",
-    "StyleHint": "ut",
-    "FullName": "Kavon Schumm",
+    "IconHint": "laboriosam",
+    "ColorBlock": 140,
+    "ExtraInfo": "repellat",
+    "StyleHint": "necessitatibus",
+    "FullName": "Jimmie Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 356
       }
     }
   }

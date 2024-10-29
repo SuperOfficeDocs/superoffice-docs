@@ -93,10 +93,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 992,
-  "AttachmentId": "voluptatibus",
-  "AttachmentType": "qui",
-  "AttachmentFilename": "sit"
+  "MailItemId": 523,
+  "AttachmentId": "dolorum",
+  "AttachmentType": "nihil",
+  "AttachmentFilename": "sunt"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic well-modulated budgetary management",
-  "Filename": "doloremque",
-  "Size": 647,
-  "Type": "saepe",
-  "Encoding": "et",
-  "Id": "ad",
-  "Disposition": "dolore",
+  "Description": "Assimilated systemic hierarchy",
+  "Filename": "numquam",
+  "Size": 498,
+  "Type": "reprehenderit",
+  "Encoding": "soluta",
+  "Id": "corrupti",
+  "Disposition": "est",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 484
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 430,
-  "ERPProductKey": "ut",
-  "ERPPriceListKey": "laborum",
-  "Name": "Huel Inc and Sons",
-  "Description": "Decentralized dedicated task-force",
-  "Code": "sed",
-  "PriceUnit": "rerum",
-  "QuantityUnit": "deleniti",
+  "ProductId": 459,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "vitae",
+  "Name": "Lang, Grady and Schmitt",
+  "Description": "Business-focused directional artificial intelligence",
+  "Code": "neque",
+  "PriceUnit": "non",
+  "QuantityUnit": "sed",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 21715.486,
-  "ItemNumber": "1041309",
+  "SubscriptionUnit": "voluptate",
+  "DefaultSubscriptionQuantity": 25824.16,
+  "ItemNumber": "929670",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "excepturi",
-  "ProductTypeKey": "earum",
-  "VAT": 2363.036,
-  "VATInfo": "vel",
-  "UnitCost": 16080.554,
-  "UnitMinimumPrice": 6813.316,
-  "UnitListPrice": 30161.615999999998,
-  "InAssortment": true,
-  "Supplier": "perferendis",
-  "SupplierCode": "velit",
-  "Rights": "ipsa",
-  "Rule": "deserunt",
+  "ProductFamilyKey": "porro",
+  "ProductTypeKey": "provident",
+  "VAT": 8251.822,
+  "VATInfo": "qui",
+  "UnitCost": 17465.782,
+  "UnitMinimumPrice": 18026.768,
+  "UnitListPrice": 8358.378,
+  "InAssortment": false,
+  "Supplier": "fuga",
+  "SupplierCode": "illo",
+  "Rights": "non",
+  "Rule": "a",
   "ExtraInfo": [
     {
-      "Name": "Borer, Johns and Mayer",
-      "Value": "eum",
+      "Name": "Jaskolski Group",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 690
+          "FieldLength": 480
         }
       }
     },
     {
-      "Name": "Borer, Johns and Mayer",
-      "Value": "eum",
+      "Name": "Jaskolski Group",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 690
+          "FieldLength": 480
         }
       }
     }
   ],
-  "RawExtraInfo": "nulla",
-  "ExtraField1": "dignissimos",
-  "ExtraField2": "sit",
-  "ExtraField3": "accusamus",
-  "ExtraField4": "similique",
-  "ExtraField5": "velit",
-  "InStock": 17641.286,
+  "RawExtraInfo": "non",
+  "ExtraField1": "explicabo",
+  "ExtraField2": "officiis",
+  "ExtraField3": "quisquam",
+  "ExtraField4": "neque",
+  "ExtraField5": "quas",
+  "InStock": 9411.402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldLength": 830
     }
   }
 }

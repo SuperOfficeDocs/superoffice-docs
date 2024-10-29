@@ -1203,7 +1203,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=sale/associate/ejStatus,personSource,personExtra/x_person_float,personAssociate/lastName,request/createdBy/fullName
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=getNoRows,email/emailLastSent,postAddress/line3,contactUdef/SuperOffice:12,LastCompletedActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

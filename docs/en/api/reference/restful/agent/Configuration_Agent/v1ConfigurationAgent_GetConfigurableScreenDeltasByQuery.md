@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 417,
-    "Name": "Nolan Inc and Sons",
-    "Description": "User-centric user-facing customer loyalty",
-    "DeltaJson": "in",
+    "ConfigurableScreenDeltaId": 841,
+    "Name": "Johns-Becker",
+    "Description": "Reverse-engineered background service-desk",
+    "DeltaJson": "quos",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "facilis",
-    "UpdatedDate": "2001-01-13T03:44:52.2771517+01:00",
-    "CreatedDate": "2024-06-21T03:44:52.2771517+02:00",
+    "RecipeId": "enim",
+    "UpdatedDate": "1999-10-13T13:14:05.6320153+02:00",
+    "CreatedDate": "2008-11-29T13:14:05.6320153+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      63,
-      284
+      516,
+      226
     ],
-    "AppliesToKey": "laudantium",
+    "AppliesToKey": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 575
+        "FieldLength": 185
       }
     }
   }

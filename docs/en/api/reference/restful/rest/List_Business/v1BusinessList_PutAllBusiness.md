@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Bruen LLC",
-    "Tooltip": "temporibus",
+    "Id": 20,
+    "Name": "Weber Inc and Sons",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 895,
-    "Rank": 990
+    "UdListDefinitionId": 735,
+    "Rank": 964
   },
   {
-    "Id": 389,
-    "Name": "Bruen LLC",
-    "Tooltip": "temporibus",
+    "Id": 20,
+    "Name": "Weber Inc and Sons",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 895,
-    "Rank": 990
+    "UdListDefinitionId": 735,
+    "Rank": 964
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Watsica-Braun",
-    "Tooltip": "enim",
+    "Id": 627,
+    "Name": "Bednar, Hills and Beahan",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "UdListDefinitionId": 29,
-    "Rank": 73,
+    "UdListDefinitionId": 620,
+    "Rank": 399,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 436
       }
     }
   }

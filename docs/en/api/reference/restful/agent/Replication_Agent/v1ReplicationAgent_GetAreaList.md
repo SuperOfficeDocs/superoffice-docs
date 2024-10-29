@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 124,
-    "Name": "Murphy Inc and Sons",
-    "MaxDataAge": 93,
-    "NumberOfUsers": 191,
-    "NumberOfLogins": 961,
+    "AreaId": 445,
+    "Name": "Vandervort Inc and Sons",
+    "MaxDataAge": 662,
+    "NumberOfUsers": 978,
+    "NumberOfLogins": 696,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldLength": 149
       }
     }
   }

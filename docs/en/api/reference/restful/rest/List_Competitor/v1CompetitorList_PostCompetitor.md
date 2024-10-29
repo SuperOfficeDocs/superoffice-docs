@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 384,
-  "Name": "Conroy, Rosenbaum and Gottlieb",
-  "Tooltip": "necessitatibus",
+  "Id": 130,
+  "Name": "Satterfield-Dibbert",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 452,
-  "Rank": 499
+  "UdListDefinitionId": 139,
+  "Rank": 338
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Cartwright LLC",
-  "Tooltip": "error",
-  "Deleted": false,
-  "UdListDefinitionId": 845,
-  "Rank": 559,
+  "Id": 337,
+  "Name": "Prohaska, Hermiston and Rice",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 867,
+  "Rank": 166,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldLength": 432
     }
   }
 }

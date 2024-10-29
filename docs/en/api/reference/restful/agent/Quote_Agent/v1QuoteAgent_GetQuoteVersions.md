@@ -115,7 +115,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 643
+  "QuoteId": 514
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 679,
-    "ERPQuoteVersionKey": "amet",
-    "QuoteId": 743,
-    "Description": "Horizontal human-resource policy",
-    "Number": "638794",
+    "QuoteVersionId": 799,
+    "ERPQuoteVersionKey": "sint",
+    "QuoteId": 653,
+    "Description": "Synergistic asynchronous synergy",
+    "Number": "1132367",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 621,
-    "SentDate": "2003-08-03T03:44:53.042699+02:00",
-    "FollowupId": 672,
-    "ExpirationDate": "2005-09-07T03:44:53.042699+02:00",
-    "DeliveryCountryId": 302,
+    "LikelyQuoteAlternativeId": 608,
+    "SentDate": "1997-10-20T13:14:06.3039303+02:00",
+    "FollowupId": 557,
+    "ExpirationDate": "1997-10-06T13:14:06.3039303+02:00",
+    "DeliveryCountryId": 818,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 829,
+    "InvoiceCountryId": 218,
     "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "aut",
-    "ERPPaymentTypeKey": "voluptatem",
-    "ERPDeliveryTermsKey": "nihil",
-    "ERPDeliveryTypeKey": "et",
-    "Rank": 641,
-    "ApprovedBy": 435,
-    "ApprovedText": "ut",
-    "ApprovedRegisteredBy": 80,
-    "ApprovedRegisteredDate": "2010-03-09T03:44:53.042699+01:00",
-    "ExtraField1": "est",
-    "ExtraField2": "tempora",
-    "ExtraField3": "provident",
-    "ExtraField4": "eos",
-    "ExtraField5": "et",
-    "LastRecalculated": "2013-04-29T03:44:53.042699+02:00",
-    "Updated": "2007-11-28T03:44:53.042699+01:00",
-    "UpdatedAssociateId": 919,
-    "Registered": "2005-12-17T03:44:53.042699+01:00",
-    "RegisteredAssociateId": 440,
-    "RequestAssociateId": 857,
-    "RequestComment": "unde",
+    "ERPPaymentTermsKey": "dolor",
+    "ERPPaymentTypeKey": "harum",
+    "ERPDeliveryTermsKey": "corporis",
+    "ERPDeliveryTypeKey": "sed",
+    "Rank": 512,
+    "ApprovedBy": 485,
+    "ApprovedText": "eveniet",
+    "ApprovedRegisteredBy": 542,
+    "ApprovedRegisteredDate": "2005-02-19T13:14:06.3039303+01:00",
+    "ExtraField1": "nam",
+    "ExtraField2": "quis",
+    "ExtraField3": "accusantium",
+    "ExtraField4": "modi",
+    "ExtraField5": "aut",
+    "LastRecalculated": "2015-04-01T13:14:06.3039303+02:00",
+    "Updated": "2021-04-22T13:14:06.3039303+02:00",
+    "UpdatedAssociateId": 657,
+    "Registered": "2008-11-28T13:14:06.3039303+01:00",
+    "RegisteredAssociateId": 427,
+    "RequestAssociateId": 951,
+    "RequestComment": "id",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 999,
-        "ERPQuoteAlternativeKey": "id",
-        "QuoteVersionId": 458,
-        "Name": "Kozey, Kassulke and Deckow",
-        "Description": "Configurable bi-directional support",
+        "QuoteAlternativeId": 829,
+        "ERPQuoteAlternativeKey": "ex",
+        "QuoteVersionId": 257,
+        "Name": "Hirthe LLC",
+        "Description": "Pre-emptive maximized time-frame",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 11680.418,
-        "ERPDiscountAmount": 26632.732,
-        "DiscountPercent": 4045.9939999999997,
-        "DiscountAmount": 9188.887999999999,
+        "ERPDiscountPercent": 29801.206,
+        "ERPDiscountAmount": 11157.039999999999,
+        "DiscountPercent": 20449.35,
+        "DiscountAmount": 28876.676,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "sed",
-        "VAT": 19418.264,
-        "EarningPercent": 31236.577999999998,
-        "EarningAmount": 13046.841999999999,
-        "SubTotal": 9417.67,
-        "TotalPrice": 24579.962,
-        "ExtraField1": "sint",
-        "ExtraField2": "voluptates",
-        "ExtraField3": "sit",
-        "ExtraField4": "dolor",
-        "ExtraField5": "blanditiis",
+        "VATInfo": "exercitationem",
+        "VAT": 11210.318,
+        "EarningPercent": 16221.583999999999,
+        "EarningAmount": 24047.182,
+        "SubTotal": 18230.478,
+        "TotalPrice": 9624.514,
+        "ExtraField1": "beatae",
+        "ExtraField2": "modi",
+        "ExtraField3": "at",
+        "ExtraField4": "facilis",
+        "ExtraField5": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 477
+            "FieldLength": 319
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 281
       }
     }
   }

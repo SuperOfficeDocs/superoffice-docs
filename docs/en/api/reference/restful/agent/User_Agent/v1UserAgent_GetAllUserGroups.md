@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "et",
-    "Tooltip": "id",
-    "Id": 918,
-    "Rank": 759,
-    "Deleted": true,
+    "Value": "ullam",
+    "Tooltip": "pariatur",
+    "Id": 878,
+    "Rank": 73,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldLength": 220
       }
     }
   }

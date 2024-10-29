@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 873,
-    "Name": "Kihn Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 126,
-    "UdListDefinitionId": 29
+    "HeadingId": 145,
+    "Name": "Runte-Romaguera",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 625,
+    "UdListDefinitionId": 437
   },
   {
-    "HeadingId": 873,
-    "Name": "Kihn Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 126,
-    "UdListDefinitionId": 29
+    "HeadingId": 145,
+    "Name": "Runte-Romaguera",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 625,
+    "UdListDefinitionId": 437
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 664,
-    "Name": "Cummerata-Little",
-    "Tooltip": "vitae",
-    "Deleted": true,
-    "Rank": 395,
-    "UdListDefinitionId": 313,
+    "HeadingId": 363,
+    "Name": "Parker-Corwin",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "Rank": 732,
+    "UdListDefinitionId": 408,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 323
+        "FieldType": "System.Int32",
+        "FieldLength": 83
       }
     }
   }

@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 148,
+  "EjMessageId": 314,
   "Ticket": null,
-  "CreatedAt": "2015-12-03T03:44:53.2466467+01:00",
+  "CreatedAt": "2001-10-06T13:14:06.4914414+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "ratione",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 81,
-  "Body": "et",
-  "HtmlBody": "voluptate",
-  "EmailHeader": "giles_osinski@medhurst.name",
-  "DebugInfo": "incidunt",
-  "MailSorter": "et",
+  "MessageId": "omnis",
+  "TimeSpent": 470,
+  "Body": "repellendus",
+  "HtmlBody": "facere",
+  "EmailHeader": "travon.kuhlman@orn.info",
+  "DebugInfo": "doloremque",
+  "MailSorter": "assumenda",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "suscipit",
+  "SearchTitle": "velit",
   "MessageHeaders": [
     {
-      "Id": 880,
-      "Name": "Shields, Schultz and West",
-      "Value": "aut",
+      "Id": 340,
+      "Name": "Schultz-Crist",
+      "Value": "ipsa",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 880,
-      "Name": "Shields, Schultz and West",
-      "Value": "aut",
+      "Id": 340,
+      "Name": "Schultz-Crist",
+      "Value": "ipsa",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "accusantium",
-  "Sentiment": 580,
-  "SentimentConfidence": 501,
+  "Important": true,
+  "Language": "labore",
+  "Sentiment": 723,
+  "SentimentConfidence": 824,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 423,
-      "Name": "Nicolas, Bergstrom and Harber",
-      "ContentType": "sit",
-      "AttSize": 454,
+      "AttachmentId": 55,
+      "Name": "Jewess, Grady and Bartoletti",
+      "ContentType": "non",
+      "AttSize": 314,
       "InlineImage": false,
-      "ContentId": "in",
-      "AuthKey": "minima",
+      "ContentId": "expedita",
+      "AuthKey": "commodi",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "dolores"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "qui"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 134,
+  "EjMessageId": 88,
   "Ticket": null,
-  "CreatedAt": "2019-04-27T03:44:53.2623023+02:00",
+  "CreatedAt": "2015-08-17T13:14:06.4914414+02:00",
   "CreatedBy": null,
-  "Author": "magnam",
+  "Author": "occaecati",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptates",
-  "TimeSpent": 531,
-  "Body": "aut",
-  "HtmlBody": "perspiciatis",
-  "EmailHeader": "chadrick_hansen@green.info",
-  "DebugInfo": "sunt",
-  "MailSorter": "voluptatem",
+  "MessageId": "quis",
+  "TimeSpent": 580,
+  "Body": "ut",
+  "HtmlBody": "sed",
+  "EmailHeader": "kayleigh@wisokycassin.uk",
+  "DebugInfo": "qui",
+  "MailSorter": "facere",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tempore",
+  "SearchTitle": "sint",
   "MessageHeaders": [
     {
-      "Id": 445,
-      "Name": "Leffler, Legros and Krajcik",
-      "Value": "dolorem",
+      "Id": 961,
+      "Name": "Hamill, Kirlin and Abbott",
+      "Value": "aperiam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -214,50 +214,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldLength": 531
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quia",
-  "Sentiment": 425,
-  "SentimentConfidence": 194,
+  "Language": "animi",
+  "Sentiment": 582,
+  "SentimentConfidence": 472,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 905,
-      "Name": "Zieme LLC",
-      "ContentType": "et",
-      "AttSize": 157,
-      "InlineImage": false,
-      "ContentId": "fuga",
-      "AuthKey": "quaerat",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 732,
+      "Name": "Kutch-Cremin",
+      "ContentType": "veritatis",
+      "AttSize": 532,
+      "InlineImage": true,
+      "ContentId": "autem",
+      "AuthKey": "cum",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "ducimus"
+    "CustomFields1": "qui",
+    "CustomFields2": "architecto"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 101,
-  "Name": "Beahan Group",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "UdListDefinitionId": 167,
-  "Rank": 536,
+  "Id": 950,
+  "Name": "Beier-Hickle",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "UdListDefinitionId": 922,
+  "Rank": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

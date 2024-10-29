@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Hagenes, Haley and Bartell",
-    "ToolTip": "Molestiae provident.",
-    "Deleted": false,
-    "Rank": 284,
-    "Type": "architecto",
-    "ColorBlock": 840,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2000-10-08T03:44:58.1249703+02:00",
+    "Id": 384,
+    "Name": "Mohr, Hoeger and Connelly",
+    "ToolTip": "Et nisi voluptatibus asperiores illum.",
+    "Deleted": true,
+    "Rank": 694,
+    "Type": "atque",
+    "ColorBlock": 120,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2014-06-26T13:14:11.5235812+02:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Stracke-West",
-        "ToolTip": "Non aut.",
+        "Id": 5,
+        "Name": "Beatty, Ferry and Dach",
+        "ToolTip": "Eaque porro vero.",
         "Deleted": false,
-        "Rank": 677,
-        "Type": "ad",
-        "ColorBlock": 666,
-        "IconHint": "ea",
+        "Rank": 516,
+        "Type": "a",
+        "ColorBlock": 65,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2021-10-08T03:44:58.1249703+02:00",
+        "LastChanged": "1999-10-19T13:14:11.5235812+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "quo",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Fredy Jewess MD",
+        "FullName": "Herman Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 280
+            "FieldType": "System.String",
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Mrs. Zachary Chanelle Wisoky",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Prof. Marlene Hane II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldLength": 42
       }
     }
   }

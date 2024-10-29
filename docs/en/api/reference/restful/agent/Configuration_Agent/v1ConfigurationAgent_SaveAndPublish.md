@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 511,
-  "Name": "Rolfson-Weissnat",
-  "Description": "Grass-roots even-keeled strategy",
-  "DeltaJson": "placeat",
+  "ConfigurableScreenDeltaId": 950,
+  "Name": "Stanton-Balistreri",
+  "Description": "Synergistic impactful portal",
+  "DeltaJson": "consequatur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "enim",
-  "UpdatedDate": "2022-05-14T03:44:52.2771517+02:00",
-  "CreatedDate": "2017-11-11T03:44:52.2771517+01:00",
+  "RecipeId": "aut",
+  "UpdatedDate": "2014-12-28T13:14:05.6320153+01:00",
+  "CreatedDate": "2000-04-01T13:14:05.6320153+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    88,
-    922
+    81,
+    964
   ],
-  "AppliesToKey": "voluptas",
+  "AppliesToKey": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 638
     }
   }
 }

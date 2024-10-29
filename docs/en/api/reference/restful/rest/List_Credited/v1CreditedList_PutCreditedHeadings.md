@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 261,
-    "Name": "Rice-Nikolaus",
-    "Tooltip": "illum",
-    "Deleted": true,
-    "Rank": 865,
-    "UdListDefinitionId": 942
+    "HeadingId": 3,
+    "Name": "Cummerata Inc and Sons",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "Rank": 412,
+    "UdListDefinitionId": 754
   },
   {
-    "HeadingId": 261,
-    "Name": "Rice-Nikolaus",
-    "Tooltip": "illum",
-    "Deleted": true,
-    "Rank": 865,
-    "UdListDefinitionId": 942
+    "HeadingId": 3,
+    "Name": "Cummerata Inc and Sons",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "Rank": 412,
+    "UdListDefinitionId": 754
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 831,
-    "Name": "Predovic, McGlynn and Bode",
-    "Tooltip": "eos",
+    "HeadingId": 203,
+    "Name": "Kassulke-Kuhn",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 103,
+    "Rank": 554,
+    "UdListDefinitionId": 753,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldLength": 322
       }
     }
   }

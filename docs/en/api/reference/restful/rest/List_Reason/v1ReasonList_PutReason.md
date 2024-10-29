@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Bednar Inc and Sons",
-  "Tooltip": "nam",
+  "Id": 569,
+  "Name": "Greenholt, Paucek and McCullough",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 218,
-  "Rank": 754
+  "UdListDefinitionId": 371,
+  "Rank": 208
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 294,
-  "Name": "Anderson Inc and Sons",
-  "Tooltip": "incidunt",
-  "Deleted": false,
-  "UdListDefinitionId": 682,
-  "Rank": 912,
+  "Id": 722,
+  "Name": "Ruecker Inc and Sons",
+  "Tooltip": "dicta",
+  "Deleted": true,
+  "UdListDefinitionId": 45,
+  "Rank": 259,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 741
+      "FieldType": "System.Int32",
+      "FieldLength": 686
     }
   }
 }

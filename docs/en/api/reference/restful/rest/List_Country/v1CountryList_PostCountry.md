@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 457,
-  "Name": "West, Larson and Jones",
-  "CurrencyId": 88,
-  "EnglishName": "Moore, Rosenbaum and Johns",
+  "CountryId": 844,
+  "Name": "Ritchie-Walsh",
+  "CurrencyId": 930,
+  "EnglishName": "Legros-Gulgowski",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-tiered responsive groupware",
-  "OrgNrText": "1095726",
-  "InterAreaPrefix": "vitae",
-  "DialInPrefix": "omnis",
-  "ZipPrefix": "quia",
-  "DomainName": "Cummerata, Wunsch and Goyette",
-  "AddressLayoutId": 970,
-  "DomesticAddressLayoutId": 245,
-  "ForeignAddressLayoutId": 578,
-  "Rank": 963,
-  "Tooltip": "ducimus",
-  "Deleted": true
+  "ImageDescription": "Implemented uniform time-frame",
+  "OrgNrText": "1152733",
+  "InterAreaPrefix": "quidem",
+  "DialInPrefix": "et",
+  "ZipPrefix": "deleniti",
+  "DomainName": "Trantow-Boyer",
+  "AddressLayoutId": 415,
+  "DomesticAddressLayoutId": 649,
+  "ForeignAddressLayoutId": 521,
+  "Rank": 871,
+  "Tooltip": "consequatur",
+  "Deleted": false
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 587,
-  "Name": "Bartell-Durgan",
-  "CurrencyId": 8,
-  "EnglishName": "Walker Inc and Sons",
+  "CountryId": 71,
+  "Name": "Stehr, Halvorson and Reynolds",
+  "CurrencyId": 195,
+  "EnglishName": "Balistreri, Windler and Bernier",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Quality-focused context-sensitive service-desk",
-  "OrgNrText": "932054",
-  "InterAreaPrefix": "deleniti",
-  "DialInPrefix": "maiores",
-  "ZipPrefix": "et",
-  "DomainName": "Medhurst Group",
-  "AddressLayoutId": 581,
-  "DomesticAddressLayoutId": 5,
-  "ForeignAddressLayoutId": 151,
-  "Rank": 103,
-  "Tooltip": "expedita",
-  "Deleted": true,
+  "ImageDescription": "Configurable national array",
+  "OrgNrText": "1428331",
+  "InterAreaPrefix": "iusto",
+  "DialInPrefix": "rerum",
+  "ZipPrefix": "repellat",
+  "DomainName": "Keebler, Larkin and Nienow",
+  "AddressLayoutId": 438,
+  "DomesticAddressLayoutId": 651,
+  "ForeignAddressLayoutId": 874,
+  "Rank": 617,
+  "Tooltip": "nam",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 854
     }
   }
 }

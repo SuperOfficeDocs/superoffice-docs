@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 886,
-  "Count": 35
+  "WeightedAmountLimit": 515,
+  "Count": 651
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Boehm Inc and Sons",
-    "SaleDate": "2021-05-18T03:44:53.136845+02:00",
-    "SaleId": 443,
-    "Probability": 965,
-    "Title": "officiis",
-    "Amount": 29324.838,
-    "Currency": "quo",
-    "ProjectName": "Hirthe-Greenfelder",
-    "AssociateFullName": "Casandra Tromp",
-    "Description": "Progressive analyzing projection",
+    "ContactName": "Stark, Runte and Schumm",
+    "SaleDate": "2009-08-09T13:14:06.3976861+02:00",
+    "SaleId": 758,
+    "Probability": 813,
+    "Title": "adipisci",
+    "Amount": 16638.406,
+    "Currency": "beatae",
+    "ProjectName": "O'Keefe LLC",
+    "AssociateFullName": "Gino Wilderman",
+    "Description": "Optional 24/7 attitude",
     "Status": "Lost",
-    "WeightedAmount": 27015.079999999998,
-    "ProjectId": 995,
-    "EarningPercent": 21978.742,
-    "Earning": 3253.092,
-    "ContactId": 128,
-    "AssociateId": 14,
-    "PersonId": 236,
-    "SaleTypeId": 798,
-    "SaleTypeName": "Haag-Dare",
-    "PersonFullName": "Ms. Jacey Jazmin Braun Sr.",
+    "WeightedAmount": 636.202,
+    "ProjectId": 774,
+    "EarningPercent": 27002.543999999998,
+    "Earning": 26388.28,
+    "ContactId": 940,
+    "AssociateId": 202,
+    "PersonId": 269,
+    "SaleTypeId": 605,
+    "SaleTypeName": "Carroll, Nienow and Kuphal",
+    "PersonFullName": "Berry Mallie Barrows PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 603,
-    "NextDueDate": "2001-09-08T03:44:53.136845+02:00",
-    "Number": "984534",
+    "ActiveErpLinks": 51,
+    "NextDueDate": "2018-07-06T13:14:06.3976861+02:00",
+    "Number": "1357430",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldType": "System.Int32",
+        "FieldLength": 910
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Raynor-Fisher"
+  "LayoutName": "Gleichner-Russel"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 762,
-  "InstanceLayout": "nulla",
-  "InstanceName": "Tromp Group",
-  "CreatedDate": "2002-10-08T03:44:52.0740137+02:00",
-  "UpdatedDate": "2009-03-10T03:44:52.0740137+01:00",
+  "AudienceLayoutId": 890,
+  "InstanceLayout": "minus",
+  "InstanceName": "Orn-Ullrich",
+  "CreatedDate": "2012-09-14T13:14:05.5226336+02:00",
+  "UpdatedDate": "2023-06-08T13:14:05.5226336+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldLength": 245
     }
   }
 }

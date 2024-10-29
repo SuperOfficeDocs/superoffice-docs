@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 364,
-  "SourcePersonId": 984,
-  "DestinationContactId": 496,
-  "DestinationPersonId": 33,
-  "RelationId": 442,
-  "Comment": "impedit",
-  "RelationDefinitionId": 61,
-  "Reversed": 267,
-  "UpdatedDate": "2003-12-26T03:44:53.0739396+01:00",
-  "CreatedDate": "2002-01-14T03:44:53.0739396+01:00",
+  "SourceContactId": 314,
+  "SourcePersonId": 699,
+  "DestinationContactId": 948,
+  "DestinationPersonId": 39,
+  "RelationId": 331,
+  "Comment": "est",
+  "RelationDefinitionId": 18,
+  "Reversed": 803,
+  "UpdatedDate": "2017-07-14T13:14:06.3508082+02:00",
+  "CreatedDate": "2015-08-30T13:14:06.3508082+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Braun, Bauch and Mraz",
-  "SourcePersonName": "Aufderhar, Simonis and Cole",
-  "DestinationContactName": "Mertz-Marvin",
-  "DestinationPersonName": "Wilderman-Stokes",
-  "ActiveText": "in",
-  "PassiveText": "soluta",
+  "SourceContactName": "Braun Group",
+  "SourcePersonName": "Homenick, Swift and Bernhard",
+  "DestinationContactName": "Rau-Kirlin",
+  "DestinationPersonName": "VonRueden LLC",
+  "ActiveText": "inventore",
+  "PassiveText": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 54
     }
   }
 }

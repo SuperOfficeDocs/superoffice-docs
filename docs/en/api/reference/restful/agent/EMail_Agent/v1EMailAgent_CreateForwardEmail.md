@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 10,
-      "ContactName": "Walsh Group",
-      "PersonId": 181,
-      "PersonName": "Stamm, Howe and Wolf",
-      "AssociateId": 516,
-      "Address": "odit",
-      "EmailId": 772,
+      "ContactId": 250,
+      "ContactName": "Mann, Schulist and Little",
+      "PersonId": 138,
+      "PersonName": "Christiansen, Eichmann and Pouros",
+      "AssociateId": 937,
+      "Address": "eos",
+      "EmailId": 837,
       "DuplicatePersonIds": [
-        720,
-        292
+        327,
+        931
       ],
-      "Name": "Turner, Jakubowski and Satterfield",
+      "Name": "Walter, Kreiger and Tillman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 243
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 513,
-      "ContactName": "Hauck-O'Conner",
-      "PersonId": 578,
-      "PersonName": "Trantow, Schultz and Feil",
-      "AssociateId": 163,
-      "Address": "perferendis",
-      "EmailId": 464,
+      "ContactId": 338,
+      "ContactName": "Marquardt-Maggio",
+      "PersonId": 168,
+      "PersonName": "Heller, Hoppe and Little",
+      "AssociateId": 647,
+      "Address": "rerum",
+      "EmailId": 99,
       "DuplicatePersonIds": [
-        867,
-        463
+        824,
+        260
       ],
-      "Name": "Schmeler, Turner and Kilback",
+      "Name": "Daniel, Watsica and Predovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 804
+          "FieldType": "System.Int32",
+          "FieldLength": 134
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 650,
-      "ContactName": "Grant Inc and Sons",
-      "PersonId": 591,
-      "PersonName": "Bernhard Group",
-      "AssociateId": 853,
-      "Address": "modi",
-      "EmailId": 298,
+      "ContactId": 78,
+      "ContactName": "O'Kon, Torp and Russel",
+      "PersonId": 827,
+      "PersonName": "Johns, Conn and Smith",
+      "AssociateId": 286,
+      "Address": "et",
+      "EmailId": 138,
       "DuplicatePersonIds": [
-        836,
-        128
+        529,
+        121
       ],
-      "Name": "Murray Group",
+      "Name": "Cartwright Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldType": "System.String",
+          "FieldLength": 325
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "mollitia",
+  "Subject": "sit",
+  "HTMLBody": "quisquam",
   "From": null,
-  "Sent": "2005-11-01T03:44:52.5427529+01:00",
-  "Size": 498,
+  "Sent": "2022-11-23T13:14:05.9445336+01:00",
+  "Size": 161,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aliquid",
-  "PlainBody": "iusto",
+  "MessageID": "neque",
+  "PlainBody": "eum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 999,
+  "ServerId": 761,
   "Attachments": [
     {
-      "Description": "Progressive uniform orchestration",
-      "Filename": "tempora",
-      "Size": 130,
-      "Type": "laudantium",
-      "Encoding": "neque",
-      "Id": "voluptate",
-      "Disposition": "placeat",
+      "Description": "Right-sized upward-trending parallelism",
+      "Filename": "aut",
+      "Size": 327,
+      "Type": "non",
+      "Encoding": "nihil",
+      "Id": "rerum",
+      "Disposition": "quisquam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Grady Inc and Sons",
+      "Name": "Rippin, Legros and Deckow",
       "Values": [
-        "labore",
-        "modi"
+        "qui",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldType": "System.String",
+          "FieldLength": 643
         }
       }
     },
     {
-      "Name": "Grady Inc and Sons",
+      "Name": "Rippin, Legros and Deckow",
       "Values": [
-        "labore",
-        "modi"
+        "qui",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldType": "System.String",
+          "FieldLength": 643
         }
       }
     }
   ],
-  "FolderName": "Murazik-Beatty",
-  "EmailItemId": 75,
-  "AccountId": 255,
-  "ReceivedAt": "2021-07-04T03:44:52.5427529+02:00",
+  "FolderName": "Zboncak, Schulist and McLaughlin",
+  "EmailItemId": 606,
+  "AccountId": 897,
+  "ReceivedAt": "2021-07-10T13:14:05.9445336+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-07-27T03:44:52.5427529+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2006-12-07T13:14:05.9445336+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 425
     }
   }
 }

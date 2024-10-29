@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Hammes Group",
-    "ToolTip": "Nisi est et molestiae.",
+    "Id": 804,
+    "Name": "Vandervort-Berge",
+    "ToolTip": "Odit consequuntur ut repellendus error ullam dolor repellendus.",
     "Deleted": false,
-    "Rank": 797,
-    "Type": "voluptas",
-    "ColorBlock": 500,
-    "IconHint": "optio",
+    "Rank": 666,
+    "Type": "et",
+    "ColorBlock": 513,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2021-11-22T03:44:58.1874634+01:00",
+    "LastChanged": "2014-11-17T13:14:11.5704589+01:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Treutel Inc and Sons",
-        "ToolTip": "Eos nostrum ducimus qui eum tempore qui quia.",
+        "Id": 249,
+        "Name": "Botsford, Zboncak and Roob",
+        "ToolTip": "Dolore ea debitis est.",
         "Deleted": true,
-        "Rank": 274,
-        "Type": "aut",
-        "ColorBlock": 233,
-        "IconHint": "non",
+        "Rank": 925,
+        "Type": "cum",
+        "ColorBlock": 220,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2004-08-23T03:44:58.1874634+02:00",
+        "LastChanged": "2007-08-01T13:14:11.5704589+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "eveniet",
-        "Hidden": false,
-        "FullName": "Celestino Quitzon",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Erling Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 723
+            "FieldType": "System.Int32",
+            "FieldLength": 191
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Joanny Thiel",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Prof. Audrey Osborne Skiles DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 675
+        "FieldType": "System.Int32",
+        "FieldLength": 994
       }
     }
   }

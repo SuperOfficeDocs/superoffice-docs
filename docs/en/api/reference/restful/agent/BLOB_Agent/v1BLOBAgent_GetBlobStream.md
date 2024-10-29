@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 365
+  "BlobEntityId": 304
 }
 ```
 

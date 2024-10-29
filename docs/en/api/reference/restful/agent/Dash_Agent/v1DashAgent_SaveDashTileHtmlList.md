@@ -75,19 +75,19 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 428,
+  "DashboardTileDefinitionId": 839,
   "Languages": [
     {
-      "LanguageCode": "voluptatem",
-      "Html": "nulla"
+      "LanguageCode": "veritatis",
+      "Html": "perferendis"
     },
     {
-      "LanguageCode": "voluptatem",
-      "Html": "nulla"
+      "LanguageCode": "veritatis",
+      "Html": "perferendis"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "reiciendis",
-    "Html": "mollitia",
+    "LanguageCode": "esse",
+    "Html": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 910
       }
     }
   },
   {
-    "LanguageCode": "reiciendis",
-    "Html": "mollitia",
+    "LanguageCode": "esse",
+    "Html": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 910
       }
     }
   }

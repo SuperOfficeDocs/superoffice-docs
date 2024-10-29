@@ -749,7 +749,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=email/emailBounceCount,contactAssociate/ejStatus,saintAmountClass,targetRelation/restrictionContactId,sale/saleStatus
+GET /api/v1/archive/SaintContact?$select=sale/originalStage,document/document/description,personExtra/x_person_priority_relation,personExtra/x_person_request_relation,personAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -64,6 +64,8 @@ generated: true
 
 * [POST Agents/Appointment/UpdateAppointment](v1AppointmentAgent_UpdateAppointment.md)
 
+* [POST Agents/Appointment/UpdateAppointmentWithMode](v1AppointmentAgent_UpdateAppointmentWithMode.md)
+
 * [POST Agents/Appointment/GetAssociatesDiary](v1AppointmentAgent_GetAssociatesDiary.md)
 
 * [POST Agents/Appointment/GetAssociatesDiaryInfo](v1AppointmentAgent_GetAssociatesDiaryInfo.md)

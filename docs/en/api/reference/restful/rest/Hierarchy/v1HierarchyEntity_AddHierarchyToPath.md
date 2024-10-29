@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 167,
+  "HierarchyId": 71,
   "Domain": "Dashboards",
-  "Name": "Franecki, Crist and Conroy",
-  "Fullname": "vel",
-  "ParentId": 72,
+  "Name": "Smith, Gutkowski and Paucek",
+  "Fullname": "inventore",
+  "ParentId": 141,
   "Children": [
     {
-      "HierarchyId": 161,
+      "HierarchyId": 19,
       "Domain": "Dashboards",
-      "Name": "Durgan-Daugherty",
-      "Fullname": "a",
-      "ParentId": 301,
+      "Name": "Schuppe LLC",
+      "Fullname": "tempore",
+      "ParentId": 213,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-06-04T03:44:57.359003+02:00",
-      "RegisteredAssociateId": 273,
-      "Updated": "2017-11-24T03:44:57.359003+01:00",
-      "UpdatedAssociateId": 408,
+      "Registered": "2021-10-04T13:14:10.8516656+02:00",
+      "RegisteredAssociateId": 440,
+      "Updated": "2006-10-07T13:14:10.8516656+02:00",
+      "UpdatedAssociateId": 943,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 884
         }
       }
     }
   ],
-  "Registered": "2019-11-08T03:44:57.359003+01:00",
-  "RegisteredAssociateId": 996,
-  "Updated": "2014-08-29T03:44:57.359003+02:00",
-  "UpdatedAssociateId": 154,
+  "Registered": "2002-09-03T13:14:10.8516656+02:00",
+  "RegisteredAssociateId": 458,
+  "Updated": "1999-05-13T13:14:10.8516656+02:00",
+  "UpdatedAssociateId": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 330
     }
   }
 }

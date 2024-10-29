@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 146,
-  "MinDate": "1997-09-26T03:44:52.527125+02:00",
-  "MaxDate": "2017-07-04T03:44:52.527125+02:00",
+  "DocumentPluginId": 52,
+  "MinDate": "2011-12-24T13:14:05.9289081+01:00",
+  "MaxDate": "2022-11-04T13:14:05.9289081+01:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 697,
-  "NumDocumentsAlreadyMigrated": 194,
+  "NumDocumentsOmitted": 457,
+  "NumDocumentsAlreadyMigrated": 640,
   "Documents": [
     {
-      "DocumentId": 581,
-      "ContactId": 138,
-      "PersonId": 877,
-      "SaleId": 43,
-      "ProjectId": 780,
-      "DocTmplId": 221,
-      "AssociateId": 790,
-      "UserGroupId": 266,
-      "VisibleForId": 590
+      "DocumentId": 784,
+      "ContactId": 956,
+      "PersonId": 723,
+      "SaleId": 710,
+      "ProjectId": 20,
+      "DocTmplId": 49,
+      "AssociateId": 183,
+      "UserGroupId": 275,
+      "VisibleForId": 548
     }
   ],
   "Associates": [
     {
-      "AssociateId": 741,
-      "EmailAddress": "yvonne@fadel.uk"
+      "AssociateId": 360,
+      "EmailAddress": "donna.wilderman@gottlieb.uk"
     },
     {
-      "AssociateId": 741,
-      "EmailAddress": "yvonne@fadel.uk"
+      "AssociateId": 360,
+      "EmailAddress": "donna.wilderman@gottlieb.uk"
     }
   ]
 }

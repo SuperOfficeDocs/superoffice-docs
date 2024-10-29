@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 420,
-  "Count": 228
+  "AmountLimit": 589,
+  "Count": 695
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Rutherford-Dibbert",
-    "SaleDate": "2019-03-08T03:44:53.136845+01:00",
-    "SaleId": 377,
-    "Probability": 566,
-    "Title": "dolorum",
-    "Amount": 3785.872,
-    "Currency": "aut",
-    "ProjectName": "Mitchell LLC",
-    "AssociateFullName": "Micah Stroman",
-    "Description": "Decentralized zero defect implementation",
+    "ContactName": "Mante, Huel and Pagac",
+    "SaleDate": "2004-02-21T13:14:06.3976861+01:00",
+    "SaleId": 617,
+    "Probability": 564,
+    "Title": "praesentium",
+    "Amount": 10125.954,
+    "Currency": "similique",
+    "ProjectName": "Hermiston-Parker",
+    "AssociateFullName": "Mrs. Ludwig Goyette",
+    "Description": "Distributed system-worthy framework",
     "Status": "Lost",
-    "WeightedAmount": 5650.602,
-    "ProjectId": 441,
-    "EarningPercent": 3043.114,
-    "Earning": 14967.984,
-    "ContactId": 512,
-    "AssociateId": 176,
-    "PersonId": 355,
-    "SaleTypeId": 286,
-    "SaleTypeName": "Turner, Bins and Gibson",
-    "PersonFullName": "Kaylah Mueller DVM",
+    "WeightedAmount": 30822.89,
+    "ProjectId": 171,
+    "EarningPercent": 2579.2819999999997,
+    "Earning": 4901.576,
+    "ContactId": 201,
+    "AssociateId": 58,
+    "PersonId": 832,
+    "SaleTypeId": 795,
+    "SaleTypeName": "Schinner-Hickle",
+    "PersonFullName": "Scot Kuhic",
     "Completed": "Completed",
-    "ActiveErpLinks": 42,
-    "NextDueDate": "2000-03-22T03:44:53.136845+01:00",
-    "Number": "1114308",
+    "ActiveErpLinks": 960,
+    "NextDueDate": "2009-10-06T13:14:06.3976861+02:00",
+    "Number": "565098",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 612
       }
     }
   }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Blanda Group",
-    "SaleDate": "2005-07-20T03:44:53.136845+02:00",
-    "SaleId": 83,
-    "Probability": 391,
-    "Title": "quis",
-    "Amount": 3485.008,
-    "Currency": "doloremque",
-    "ProjectName": "Huel, Halvorson and Powlowski",
-    "AssociateFullName": "Elza Senger IV",
-    "Description": "Mandatory assymetric knowledge user",
+    "ContactName": "Mueller Inc and Sons",
+    "SaleDate": "2022-11-12T13:14:06.3976861+01:00",
+    "SaleId": 866,
+    "Probability": 659,
+    "Title": "provident",
+    "Amount": 27381.757999999998,
+    "Currency": "quis",
+    "ProjectName": "Nitzsche, Hartmann and Mosciski",
+    "AssociateFullName": "Dr. Dolores Ankunding II",
+    "Description": "Future-proofed incremental knowledge base",
     "Status": "Lost",
-    "WeightedAmount": 20555.906,
-    "ProjectId": 618,
-    "EarningPercent": 13592.158,
-    "Earning": 3845.4179999999997,
-    "ContactId": 353,
-    "AssociateId": 151,
-    "PersonId": 632,
-    "SaleTypeId": 639,
-    "SaleTypeName": "White-O'Reilly",
-    "PersonFullName": "Katelin Murazik",
+    "WeightedAmount": 10241.912,
+    "ProjectId": 341,
+    "EarningPercent": 13886.753999999999,
+    "Earning": 12488.99,
+    "ContactId": 517,
+    "AssociateId": 259,
+    "PersonId": 954,
+    "SaleTypeId": 138,
+    "SaleTypeName": "Weber Group",
+    "PersonFullName": "Lucious Dickinson",
     "Completed": "Completed",
-    "ActiveErpLinks": 654,
-    "NextDueDate": "2013-01-03T03:44:53.136845+01:00",
-    "Number": "618518",
+    "ActiveErpLinks": 454,
+    "NextDueDate": "2016-12-26T13:14:06.3976861+01:00",
+    "Number": "655404",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldType": "System.Int32",
+        "FieldLength": 736
       }
     }
   }

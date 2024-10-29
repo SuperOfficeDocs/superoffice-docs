@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent hybrid projection",
-  "Postit": "unde",
+  "Description": "Synergistic disintermediate infrastructure",
+  "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 834,
-  "IncludePerson": 839,
+  "GroupIdx": 713,
+  "IncludePerson": 785,
   "MemberCount": 99.99,
-  "Name": "Hermann-Swift",
-  "PostitTextId": 841,
-  "CreatedDate": "2021-08-04T03:44:53.1726478+02:00",
-  "SelectionId": 903,
-  "SoundEx": "quis",
-  "Source": 207,
-  "TextId": 48,
-  "UpdatedDate": "2016-05-16T03:44:53.1726478+02:00",
-  "UpdatedCount": 665,
-  "Visibility": 972,
+  "Name": "Crona Group",
+  "PostitTextId": 780,
+  "CreatedDate": "2015-11-18T13:14:06.4289377+01:00",
+  "SelectionId": 639,
+  "SoundEx": "ipsum",
+  "Source": 261,
+  "TextId": 639,
+  "UpdatedDate": "2020-09-24T13:14:06.4289377+02:00",
+  "UpdatedCount": 873,
+  "Visibility": 395,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 323,
-  "TargetTableName": "Pfeffer, Hilll and Hirthe",
-  "Completed": true,
-  "LeftSelectionId": 747,
-  "RightSelectionId": 237,
+  "CompanyUnique": true,
+  "TargetTableNumber": 351,
+  "TargetTableName": "Jerde, Bosco and Champlin",
+  "Completed": false,
+  "LeftSelectionId": 331,
+  "RightSelectionId": 957,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Grady, Marquardt and Kuhic",
-  "ShadowProviderName": "Schmidt Group",
-  "ChartKey": "corporis",
-  "LastLoaded": "2014-10-09T03:44:53.1726478+02:00",
-  "LastLoadedBy": 418,
+  "MainProviderName": "Feest, Mertz and Pollich",
+  "ShadowProviderName": "Vandervort Group",
+  "ChartKey": "provident",
+  "LastLoaded": "2007-05-10T13:14:06.4289377+02:00",
+  "LastLoadedBy": 427,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-08-12T03:44:53.1726478+02:00",
-  "LastMembershipChangeBy": 304,
+  "LastMembershipChange": "2013-03-13T13:14:06.4289377+01:00",
+  "LastMembershipChangeBy": 276,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Stamm Inc and Sons",
-  "DashboardTileDefinitionId": 349,
+  "MainHeading": "consectetur",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Waelchi, Kertzmann and Sauer",
+  "DashboardTileDefinitionId": 406,
   "VisibleFor": [
     {
-      "VisibleId": 581,
+      "VisibleId": 339,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldLength": 955
         }
       }
     },
     {
-      "VisibleId": 581,
+      "VisibleId": 339,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldLength": 955
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldLength": 460
     }
   }
 }

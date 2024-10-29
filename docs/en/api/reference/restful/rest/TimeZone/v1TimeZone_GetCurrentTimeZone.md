@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 430,
-  "Name": "Dare, McDermott and Pacocha",
-  "TZLocationCode": "voluptatem",
-  "TZLocationCities": "ea",
-  "IsoNumber": 735,
+  "TZLocationID": 33,
+  "Name": "Considine-McKenzie",
+  "TZLocationCode": "vitae",
+  "TZLocationCities": "autem",
+  "IsoNumber": 486,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 861,
-      "StartMonth": 721,
-      "EndDay": 842,
-      "EndMonth": 583,
-      "TZOffset": 11,
-      "StartRulePattern": "illum",
-      "EndRulePattern": "consequuntur"
+      "StartDay": 239,
+      "StartMonth": 46,
+      "EndDay": 965,
+      "EndMonth": 689,
+      "TZOffset": 778,
+      "StartRulePattern": "dicta",
+      "EndRulePattern": "laudantium"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 451,
-      "StartMonth": 10,
-      "EndDay": 860,
-      "EndMonth": 522,
-      "TZOffset": 1001,
-      "StartRulePattern": "autem",
-      "EndRulePattern": "molestiae"
+      "StartDay": 974,
+      "StartMonth": 662,
+      "EndDay": 690,
+      "EndMonth": 471,
+      "TZOffset": 46,
+      "StartRulePattern": "molestiae",
+      "EndRulePattern": "et"
     }
   }
 }

@@ -89,15 +89,15 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 94,
-      "FieldName": "Torphy LLC",
-      "Label": "temporibus",
-      "Tooltip": "facere",
+      "QuoteLineConfigurationId": 960,
+      "FieldName": "Bartell Inc and Sons",
+      "Label": "suscipit",
+      "Tooltip": "dolores",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 312,
-      "RestrictEdit": false
+      "Rank": 186,
+      "RestrictEdit": true
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 706,
-    "FieldName": "Schmeler LLC",
-    "Label": "itaque",
-    "Tooltip": "est",
+    "QuoteLineConfigurationId": 803,
+    "FieldName": "Oberbrunner Group",
+    "Label": "eius",
+    "Tooltip": "pariatur",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 935,
+    "Rank": 887,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 225
+        "FieldType": "System.String",
+        "FieldLength": 546
       }
     }
   }

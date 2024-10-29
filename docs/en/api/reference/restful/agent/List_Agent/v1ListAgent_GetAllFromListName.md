@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schroeder, Runolfsson and Keeling",
-  "IncludeDeleted": true
+  "UdListDefinitionName": "Hickle Group",
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Torp-Thompson",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 515,
-    "Rank": 710,
+    "Id": 810,
+    "Name": "Parisian, Toy and Dare",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "UdListDefinitionId": 155,
+    "Rank": 838,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 974
       }
     }
   }

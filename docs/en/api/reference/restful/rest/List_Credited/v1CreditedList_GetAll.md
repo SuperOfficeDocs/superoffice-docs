@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Luettgen Inc and Sons",
-    "Tooltip": "a",
-    "Deleted": false,
-    "UdListDefinitionId": 467,
-    "Rank": 79,
+    "Id": 935,
+    "Name": "Will-Strosin",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "UdListDefinitionId": 233,
+    "Rank": 691,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldType": "System.String",
+        "FieldLength": 827
       }
     }
   }

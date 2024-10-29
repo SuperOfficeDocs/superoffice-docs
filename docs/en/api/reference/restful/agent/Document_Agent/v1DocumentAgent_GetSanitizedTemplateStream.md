@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Ondricka LLC",
+  "TemplateName": "Schneider Inc and Sons",
   "AllowPersonal": false,
-  "UiCulture": "consectetur"
+  "UiCulture": "quis"
 }
 ```
 

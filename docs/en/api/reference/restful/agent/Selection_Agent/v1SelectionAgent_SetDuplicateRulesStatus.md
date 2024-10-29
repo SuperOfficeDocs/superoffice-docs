@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Dooley Inc and Sons",
-      "DisplayName": "Pfeffer, Altenwerth and Feil",
-      "DisplayTooltip": "id",
+      "Name": "Miller-Fisher",
+      "DisplayName": "Schowalter LLC",
+      "DisplayTooltip": "est",
       "IsActive": true
     },
     {
-      "Name": "Dooley Inc and Sons",
-      "DisplayName": "Pfeffer, Altenwerth and Feil",
-      "DisplayTooltip": "id",
+      "Name": "Miller-Fisher",
+      "DisplayName": "Schowalter LLC",
+      "DisplayTooltip": "est",
       "IsActive": true
     }
   ]

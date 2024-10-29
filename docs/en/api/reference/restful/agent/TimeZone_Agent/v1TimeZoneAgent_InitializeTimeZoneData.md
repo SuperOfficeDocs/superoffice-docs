@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 869,
-    "Name": "Morissette-Thompson",
-    "TZLocationCode": "quo",
-    "TZLocationCities": "illum",
-    "IsoNumber": 47,
+    "TZLocationID": 47,
+    "Name": "Fritsch, Hauck and Hettinger",
+    "TZLocationCode": "iure",
+    "TZLocationCities": "dolores",
+    "IsoNumber": 722,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 628,
-        "StartMonth": 732,
-        "EndDay": 505,
-        "EndMonth": 673,
-        "TZOffset": 646,
-        "StartRulePattern": "neque",
-        "EndRulePattern": "suscipit"
+        "StartDay": 654,
+        "StartMonth": 797,
+        "EndDay": 321,
+        "EndMonth": 920,
+        "TZOffset": 726,
+        "StartRulePattern": "aut",
+        "EndRulePattern": "eum"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 856,
-        "StartMonth": 123,
-        "EndDay": 264,
-        "EndMonth": 712,
-        "TZOffset": 244,
-        "StartRulePattern": "eum",
-        "EndRulePattern": "quia"
+        "StartDay": 859,
+        "StartMonth": 792,
+        "EndDay": 105,
+        "EndMonth": 760,
+        "TZOffset": 213,
+        "StartRulePattern": "quis",
+        "EndRulePattern": "sit"
       }
     }
   }

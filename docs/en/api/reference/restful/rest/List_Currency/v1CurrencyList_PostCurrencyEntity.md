@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 538,
-  "Name": "Purdy, Batz and Windler",
-  "Tooltip": "sequi",
-  "Rank": 293,
-  "Rate": 1219.126,
-  "Units": 4531.764,
+  "CurrencyId": 955,
+  "Name": "Brakus-Marks",
+  "Tooltip": "quis",
+  "Rank": 808,
+  "Rate": 10959.598,
+  "Units": 11388.956,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 222,
-  "Name": "Marquardt-Hettinger",
-  "Tooltip": "tempore",
-  "Rank": 729,
-  "Rate": 21593.26,
-  "Units": 3456.8019999999997,
+  "CurrencyId": 763,
+  "Name": "Breitenberg, Hayes and Stiedemann",
+  "Tooltip": "provident",
+  "Rank": 354,
+  "Rate": 28901.748,
+  "Units": 3049.382,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 860
     }
   }
 }

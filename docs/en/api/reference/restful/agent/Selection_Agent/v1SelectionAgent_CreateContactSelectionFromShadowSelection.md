@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 328,
-  "Name": "Shanahan Group"
+  "SelectionId": 984,
+  "Name": "Abernathy LLC"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured web-enabled local area network",
-  "Postit": "possimus",
+  "Description": "Balanced responsive methodology",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 10,
-  "IncludePerson": 392,
+  "GroupIdx": 628,
+  "IncludePerson": 108,
   "MemberCount": 99.99,
-  "Name": "Blanda-Emmerich",
-  "PostitTextId": 663,
-  "CreatedDate": "2014-12-19T03:44:53.1841498+01:00",
-  "SelectionId": 866,
-  "SoundEx": "velit",
-  "Source": 337,
-  "TextId": 202,
-  "UpdatedDate": "2021-09-04T03:44:53.1841498+02:00",
-  "UpdatedCount": 442,
-  "Visibility": 579,
+  "Name": "Tremblay-Pfannerstill",
+  "PostitTextId": 69,
+  "CreatedDate": "2021-03-08T13:14:06.4445637+01:00",
+  "SelectionId": 766,
+  "SoundEx": "est",
+  "Source": 5,
+  "TextId": 810,
+  "UpdatedDate": "2012-12-27T13:14:06.4445637+01:00",
+  "UpdatedCount": 344,
+  "Visibility": 956,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 83,
-  "TargetTableName": "Mills LLC",
+  "TargetTableNumber": 243,
+  "TargetTableName": "Toy LLC",
   "Completed": false,
-  "LeftSelectionId": 19,
-  "RightSelectionId": 293,
+  "LeftSelectionId": 961,
+  "RightSelectionId": 745,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Powlowski Inc and Sons",
-  "ShadowProviderName": "Gerhold Inc and Sons",
-  "ChartKey": "beatae",
-  "LastLoaded": "2011-04-01T03:44:53.1841498+02:00",
-  "LastLoadedBy": 386,
+  "MainProviderName": "Koelpin, Lowe and Tillman",
+  "ShadowProviderName": "Pfeffer, Kohler and Schmidt",
+  "ChartKey": "tempora",
+  "LastLoaded": "2004-05-25T13:14:06.4445637+02:00",
+  "LastLoadedBy": 944,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-08-30T03:44:53.1841498+02:00",
-  "LastMembershipChangeBy": 718,
+  "LastMembershipChange": "2012-10-19T13:14:06.4445637+02:00",
+  "LastMembershipChangeBy": 698,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "facere",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Watsica, Brakus and Zboncak",
-  "DashboardTileDefinitionId": 635,
+  "MainHeading": "minima",
+  "MemberTabHeading": "tempora",
+  "MailingsProviderName": "Hettinger-Bednar",
+  "DashboardTileDefinitionId": 737,
   "VisibleFor": [
     {
-      "VisibleId": 262,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldLength": 923
         }
       }
     },
     {
-      "VisibleId": 262,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldLength": 923
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 426
     }
   }
 }

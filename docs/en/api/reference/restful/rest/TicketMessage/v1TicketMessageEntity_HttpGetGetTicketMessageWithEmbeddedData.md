@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 92,
+  "EjMessageId": 478,
   "Ticket": null,
-  "CreatedAt": "2013-02-06T03:44:57.6718901+01:00",
+  "CreatedAt": "2009-11-24T13:14:11.1798105+01:00",
   "CreatedBy": null,
-  "Author": "deleniti",
+  "Author": "dolorem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "autem",
-  "TimeSpent": 177,
-  "Body": "incidunt",
-  "HtmlBody": "odit",
-  "EmailHeader": "layne@lebsack.uk",
-  "DebugInfo": "architecto",
-  "MailSorter": "quo",
+  "MessageId": "saepe",
+  "TimeSpent": 865,
+  "Body": "est",
+  "HtmlBody": "quibusdam",
+  "EmailHeader": "skye@hegmann.us",
+  "DebugInfo": "laboriosam",
+  "MailSorter": "expedita",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "similique",
+  "SearchTitle": "laboriosam",
   "MessageHeaders": [
     {
-      "Id": 996,
-      "Name": "Bosco, Dooley and Effertz",
-      "Value": "quos",
+      "Id": 227,
+      "Name": "Ratke-Welch",
+      "Value": "dolorem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldType": "System.String",
+          "FieldLength": 713
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "corrupti",
-  "Sentiment": 4,
-  "SentimentConfidence": 372,
+  "Important": false,
+  "Language": "animi",
+  "Sentiment": 438,
+  "SentimentConfidence": 354,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 67,
-      "Name": "Koelpin, Mosciski and Runolfsson",
-      "ContentType": "qui",
-      "AttSize": 871,
+      "AttachmentId": 89,
+      "Name": "Schamberger LLC",
+      "ContentType": "et",
+      "AttSize": 969,
       "InlineImage": true,
-      "ContentId": "est",
-      "AuthKey": "quia",
-      "IsSafeFileExtension": true,
+      "ContentId": "omnis",
+      "AuthKey": "voluptatem",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "quos"
+    "CustomFields1": "placeat",
+    "CustomFields2": "voluptatem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   }
 }

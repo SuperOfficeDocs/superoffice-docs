@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-05-01T03:44:56.9996788+02:00",
-  "AppointmentId": 340,
-  "Description": "Exclusive holistic interface",
-  "Title": "officiis",
+  "CreatedDate": "2020-02-14T13:14:10.6016446+01:00",
+  "AppointmentId": 820,
+  "Description": "Inverse holistic implementation",
+  "Title": "voluptatem",
   "Agenda": "et",
-  "InternalNotes": "autem",
-  "StartDate": "2001-09-17T03:44:56.9996788+02:00",
-  "EndDate": "1997-11-09T03:44:56.9996788+01:00",
+  "InternalNotes": "aut",
+  "StartDate": "2007-12-07T13:14:10.6016446+01:00",
+  "EndDate": "2018-10-01T13:14:10.6016446+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 806,
+  "MotherId": 265,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-10-05T03:44:56.9996788+02:00",
+  "UpdatedDate": "2009-08-06T13:14:10.6016446+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 615,
+  "ActiveLinks": 730,
   "Links": [
     {
-      "EntityName": "Wuckert Inc and Sons",
-      "Id": 792,
-      "Description": "Organic reciprocal protocol",
-      "ExtraInfo": "hic",
-      "LinkId": 777
+      "EntityName": "Labadie-Bahringer",
+      "Id": 806,
+      "Description": "Future-proofed client-server knowledge user",
+      "ExtraInfo": "et",
+      "LinkId": 160
     },
     {
-      "EntityName": "Wuckert Inc and Sons",
-      "Id": 792,
-      "Description": "Organic reciprocal protocol",
-      "ExtraInfo": "hic",
-      "LinkId": 777
+      "EntityName": "Labadie-Bahringer",
+      "Id": 806,
+      "Description": "Future-proofed client-server knowledge user",
+      "ExtraInfo": "et",
+      "LinkId": 160
     }
   ],
-  "AlarmLeadTime": "facilis",
-  "HasAlarm": false,
-  "ColorIndex": 331,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "dolores",
-  "LeadTime": "doloribus",
-  "Location": "rerum",
-  "RejectCounter": 947,
+  "AlarmLeadTime": "itaque",
+  "HasAlarm": true,
+  "ColorIndex": 227,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "aut",
+  "LeadTime": "molestiae",
+  "Location": "aut",
+  "RejectCounter": 803,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 642,
-      "PersonId": 118,
-      "ContactId": 409,
-      "EmailId": 499,
+      "AssociateId": 664,
+      "PersonId": 199,
+      "ContactId": 337,
+      "EmailId": 475,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "katrine@ullrich.info",
-      "Description": "Synchronised grid-enabled firmware"
+      "EmailAddress": "jena@cassin.biz",
+      "Description": "Monitored directional approach"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-01-29T03:44:56.9996788+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2024-03-16T13:14:10.6016446+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 757,
+  "PreferredTZLocation": 309,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 54,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 903,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "placeat",
+  "CentralserviceVideomeetId": "sit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Erin Yundt",
-    "SuperOffice:2": "Arielle Aufderhar"
+    "SuperOffice:1": "1325170746",
+    "SuperOffice:2": "Prof. Rosie Kovacek PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "voluptate"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "et"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2014-03-11T03:44:56.9996788+01:00",
-  "PublishTo": "2017-04-05T03:44:56.9996788+02:00",
-  "PublishFrom": "2008-07-22T03:44:56.9996788+02:00",
+  "PublishEventDate": "2007-11-24T13:14:10.6016446+01:00",
+  "PublishTo": "2013-12-16T13:14:10.6016446+01:00",
+  "PublishFrom": "2006-06-05T13:14:10.6016446+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 60,
+      "VisibleId": 533,
       "Visibility": "All",
-      "DisplayValue": "hic"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 60,
+      "VisibleId": 533,
       "Visibility": "All",
-      "DisplayValue": "hic"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quibusdam",
-  "2": "deserunt"
+  "1": "rem",
+  "2": "optio"
 }
 ```

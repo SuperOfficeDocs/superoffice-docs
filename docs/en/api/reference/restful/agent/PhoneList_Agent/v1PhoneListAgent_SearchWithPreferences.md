@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "odio",
+  "SearchString": "et",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-466-558-7350 x173",
-    "PersonCellPhone": "944.363.7718 x9735",
-    "PersonPrivatePhone": "831.987.3131 x02326",
-    "PersonFaxNumber": "548151",
-    "PersonPagerNumber": "1385833",
-    "PersonEmail": "gavin@zemlak.biz",
-    "Id": 510,
-    "Name": "Quigley, Friesen and Dickens",
-    "Tooltip": "molestiae",
-    "UniqueId": "et",
+    "PersonDirectPhone": "(108)224-9680 x1151",
+    "PersonCellPhone": "017.737.0278",
+    "PersonPrivatePhone": "337-582-2496 x422",
+    "PersonFaxNumber": "777686",
+    "PersonPagerNumber": "767854",
+    "PersonEmail": "rozella@murphy.com",
+    "Id": 285,
+    "Name": "Veum, Bartoletti and Hessel",
+    "Tooltip": "consequatur",
+    "UniqueId": "aperiam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 813
       }
     }
   }

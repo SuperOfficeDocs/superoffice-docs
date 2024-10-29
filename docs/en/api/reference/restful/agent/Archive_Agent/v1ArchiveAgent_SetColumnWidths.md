@@ -69,10 +69,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Brown, Kirlin and Monahan",
+  "GuiName": "Reichert Group",
   "ColumnWidths": [
-    "recusandae",
-    "fugit"
+    "provident",
+    "ratione"
   ]
 }
 ```

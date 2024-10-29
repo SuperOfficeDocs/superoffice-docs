@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 19,
-  "Name": "Mante Inc and Sons",
-  "CreatedDate": "2018-11-22T03:44:57.359003+01:00",
-  "UpdatedDate": "2009-12-04T03:44:57.359003+01:00",
+  "ForeignAppId": 435,
+  "Name": "Hudson-Sipes",
+  "CreatedDate": "2006-11-03T13:14:10.8360396+01:00",
+  "UpdatedDate": "2020-04-10T13:14:10.8360396+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 830,
-      "Name": "Mraz Group",
-      "CreatedDate": "2002-10-09T03:44:57.359003+02:00",
-      "UpdatedDate": "2016-03-19T03:44:57.359003+01:00",
-      "AssociateFullName": "Stuart Skiles",
-      "CreatedBy": "facere",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "rem",
-      "ForeignAppId": 247
+      "ForeignDeviceId": 671,
+      "Name": "Kshlerin, Oberbrunner and D'Amore",
+      "CreatedDate": "2008-08-30T13:14:10.8360396+02:00",
+      "UpdatedDate": "2023-07-28T13:14:10.8360396+02:00",
+      "AssociateFullName": "Gabriel Metz",
+      "CreatedBy": "qui",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "in",
+      "ForeignAppId": 745
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 392,
-  "Name": "Bruen, Christiansen and Skiles",
-  "CreatedDate": "1998-03-30T03:44:57.359003+02:00",
-  "UpdatedDate": "2014-11-18T03:44:57.359003+01:00",
+  "ForeignAppId": 763,
+  "Name": "Bashirian-Collier",
+  "CreatedDate": "2004-10-15T13:14:10.8360396+02:00",
+  "UpdatedDate": "2018-04-13T13:14:10.8360396+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 765,
-      "Name": "Bernhard, Fisher and Murazik",
-      "CreatedDate": "2013-11-05T03:44:57.359003+01:00",
-      "UpdatedDate": "2023-01-06T03:44:57.359003+01:00",
-      "AssociateFullName": "Prof. Kay Rath",
-      "CreatedBy": "ea",
-      "UpdatedBy": "praesentium",
-      "DeviceIdentifier": "hic",
-      "ForeignAppId": 45,
+      "ForeignDeviceId": 357,
+      "Name": "Paucek, Gaylord and Eichmann",
+      "CreatedDate": "2018-05-31T13:14:10.8360396+02:00",
+      "UpdatedDate": "2012-02-20T13:14:10.8360396+01:00",
+      "AssociateFullName": "Miss Marcelina Ledner V",
+      "CreatedBy": "vel",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "quas",
+      "ForeignAppId": 932,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 913
+          "FieldType": "System.Int32",
+          "FieldLength": 81
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldType": "System.Int32",
+      "FieldLength": 813
     }
   },
   "_Links": {

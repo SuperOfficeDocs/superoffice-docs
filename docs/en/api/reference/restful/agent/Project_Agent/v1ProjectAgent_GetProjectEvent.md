@@ -26,7 +26,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=637
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=576
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Prof. Rhiannon Bins MD",
-  "Description": "Multi-tiered executive complexity",
-  "ProjectId": 25,
-  "EventName": "Kohler LLC",
-  "AssociateId": 706,
+  "AssociateFullName": "Jerrold Crooks",
+  "Description": "Cross-platform regional moratorium",
+  "ProjectId": 299,
+  "EventName": "Shields Inc and Sons",
+  "AssociateId": 904,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "consequatur",
-  "SignOffText": "velit",
-  "SignOnConfirmationText": "quidem",
-  "SignOnText": "recusandae",
-  "EventDate": "2012-05-06T03:44:53.0114471+02:00",
-  "Enabled": true,
-  "SignOff": false,
-  "SignOffTaskEnable": false,
+  "SignOffConfirmationText": "molestiae",
+  "SignOffText": "quibusdam",
+  "SignOnConfirmationText": "ipsam",
+  "SignOnText": "veritatis",
+  "EventDate": "2009-02-16T13:14:06.2883049+01:00",
+  "Enabled": false,
+  "SignOff": true,
+  "SignOffTaskEnable": true,
   "SignOnTaskEnable": false,
   "SignOn": false,
-  "SignOffTaskId": 374,
-  "SignOnTaskId": 715,
+  "SignOffTaskId": 150,
+  "SignOnTaskId": 857,
   "SignOffTriggersAssign": false,
   "SignOnTriggersAssign": true,
-  "SignOnPersonId": 393,
-  "SignOffPersonId": 998,
+  "SignOnPersonId": 521,
+  "SignOffPersonId": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 350
     }
   }
 }

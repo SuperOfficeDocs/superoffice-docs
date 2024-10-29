@@ -119,34 +119,34 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 251,
-  "Name": "Williamson-Hills",
-  "Rank": 11,
-  "Tooltip": "mollitia",
-  "Icon": "quia",
-  "DefaultTicketStatus": 447,
+  "TicketTypeId": 485,
+  "Name": "Gusikowski, Schiller and Romaguera",
+  "Rank": 280,
+  "Tooltip": "consequatur",
+  "Icon": "inventore",
+  "DefaultTicketStatus": 760,
   "TicketStatuses": [
-    246,
-    532
+    452,
+    318
   ],
-  "DefaultTicketPriority": 268,
+  "DefaultTicketPriority": 593,
   "TicketPriorities": [
-    627,
-    541
+    379,
+    451
   ],
-  "ReplyTemplate": 146,
+  "ReplyTemplate": 984,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    311,
-    855
+    167,
+    242
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -157,45 +157,45 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 614,
-  "Name": "Wehner Group",
-  "Rank": 937,
-  "Tooltip": "illo",
-  "Icon": "pariatur",
-  "DefaultTicketStatus": 191,
+  "TicketTypeId": 423,
+  "Name": "Kuhn, Goyette and Abernathy",
+  "Rank": 269,
+  "Tooltip": "non",
+  "Icon": "qui",
+  "DefaultTicketStatus": 700,
   "TicketStatuses": [
-    128,
-    862
+    28,
+    14
   ],
-  "DefaultTicketPriority": 525,
+  "DefaultTicketPriority": 746,
   "TicketPriorities": [
-    452,
-    360
+    42,
+    61
   ],
-  "ReplyTemplate": 680,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": true,
+  "ReplyTemplate": 347,
+  "IsExternalVisible": true,
+  "IsDefault": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    648,
-    867
+    714,
+    91
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 391
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

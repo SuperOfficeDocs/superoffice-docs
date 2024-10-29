@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 135,
-  "Name": "Cruickshank-Boyle",
-  "Tooltip": "neque",
-  "Rank": 467,
-  "AmountFrom": 13150.264,
-  "AmountTo": 13197.274,
+  "AmountClassId": 930,
+  "Name": "Berge Group",
+  "Tooltip": "est",
+  "Rank": 906,
+  "AmountFrom": 30854.23,
+  "AmountTo": 16431.561999999998,
   "Deleted": false,
-  "CurrencyId": 598
+  "CurrencyId": 194
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 367,
-  "Name": "Kulas-Jacobi",
-  "Tooltip": "at",
-  "Rank": 666,
-  "AmountFrom": 1880.3999999999999,
-  "AmountTo": 17324.752,
-  "Deleted": false,
-  "CurrencyId": 352,
+  "AmountClassId": 559,
+  "Name": "Schowalter, Stokes and Orn",
+  "Tooltip": "autem",
+  "Rank": 778,
+  "AmountFrom": 29835.68,
+  "AmountTo": 13059.377999999999,
+  "Deleted": true,
+  "CurrencyId": 569,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 629
+      "FieldType": "System.Int32",
+      "FieldLength": 855
     }
   }
 }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Barrows Inc and Sons",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 727,
+  "Id": 650,
+  "Name": "Feeney LLC",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 315,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
-  "InUseByUserDefinedFields": false
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 725,
-  "Name": "Boyer-Wolff",
-  "Tooltip": "quam",
+  "Id": 500,
+  "Name": "Kuhic-Romaguera",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 160,
+  "Rank": 18,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
+  "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 8
     }
   }
 }

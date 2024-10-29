@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 421,
-  "Name": "Glover, Kovacek and Hammes",
-  "Rank": 268,
-  "Tooltip": "provident",
-  "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "eligendi"
+  "ResourceId": 209,
+  "Name": "Brown-West",
+  "Rank": 135,
+  "Tooltip": "nam",
+  "Deleted": false,
+  "IsLocation": true,
+  "LocationAddress": "et"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 347,
-  "Name": "Fritsch Group",
-  "Rank": 891,
-  "Tooltip": "molestiae",
+  "ResourceId": 587,
+  "Name": "Kreiger, Lynch and Murray",
+  "Rank": 134,
+  "Tooltip": "reiciendis",
   "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "exercitationem",
+  "IsLocation": true,
+  "LocationAddress": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 913
     }
   }
 }

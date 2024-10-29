@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Block-Dickinson",
-  "StorageKey": "doloremque",
-  "Restrictions": "quae",
-  "StaticColumns": "ut"
+  "StorageType": "qui",
+  "ProviderName": "Lowe, Treutel and Schimmel",
+  "StorageKey": "dolor",
+  "Restrictions": "facere",
+  "StaticColumns": "et"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Romaguera, Bradtke and Jacobson",
-      "Operator": "voluptas",
+      "Name": "Brekke, Price and Hessel",
+      "Operator": "saepe",
       "Values": [
-        "aut",
-        "quia"
+        "ullam",
+        "et"
       ],
       "DisplayValues": [
-        "quos",
-        "eaque"
+        "necessitatibus",
+        "odio"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 99,
+      "InterParenthesis": 879,
       "InterOperator": "And",
-      "UniqueHash": 525
+      "UniqueHash": 447
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kling, Wilderman and Hilpert",
-      "DisplayTooltip": "tempore",
-      "DisplayType": "magni",
+      "DisplayName": "Stracke, Stoltenberg and Bosco",
+      "DisplayTooltip": "occaecati",
+      "DisplayType": "commodi",
       "CanOrderBy": false,
-      "Name": "Langworth Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "non",
-      "RestrictionListName": "Farrell-Grady",
+      "Name": "Anderson-Turcotte",
+      "CanRestrictBy": true,
+      "RestrictionType": "iste",
+      "RestrictionListName": "Sauer Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "consequatur",
-      "Width": "vel",
-      "IconHint": "non",
-      "HeadingIconHint": "perspiciatis"
+      "ExtraInfo": "repudiandae",
+      "Width": "exercitationem",
+      "IconHint": "distinctio",
+      "HeadingIconHint": "eius"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Jones LLC",
-      "PrimaryKey": 698,
+      "EntityName": "Borer, Sipes and Kerluke",
+      "PrimaryKey": 661,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "autem",
-          "LinkHint": "a"
+          "DisplayValue": "ex",
+          "TooltipHint": "eius",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "voluptas",
+      "LinkHint": "aut",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldType": "System.String",
+          "FieldLength": 786
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Crist, Wilderman and Cronin",
-      "Description": "Triple-buffered hybrid moratorium",
-      "Rank": 592,
+      "Name": "Wisoky Group",
+      "Description": "Future-proofed discrete interface",
+      "Rank": 152,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Crist, Wilderman and Cronin",
-      "Description": "Triple-buffered hybrid moratorium",
-      "Rank": 592,
+      "Name": "Wisoky Group",
+      "Description": "Future-proofed discrete interface",
+      "Rank": 152,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 555
     }
   }
 }

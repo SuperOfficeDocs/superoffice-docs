@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lemke, Feest and Emmerich",
-  "DeviceName": "Schoen-Wisozk",
-  "DeviceIdentifier": "nam",
+  "ApplicationName": "Halvorson-Witting",
+  "DeviceName": "Armstrong, Rogahn and Russel",
+  "DeviceIdentifier": "ut",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 991,
-  "Name": "Heidenreich-Heaney",
-  "CreatedDate": "2013-02-09T03:44:52.6521119+01:00",
-  "UpdatedDate": "2003-07-01T03:44:52.6521119+02:00",
-  "AssociateFullName": "Wilfrid Brown",
-  "CreatedBy": "magnam",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "aut",
-  "ForeignAppId": 801,
+  "ForeignDeviceId": 859,
+  "Name": "Lehner Inc and Sons",
+  "CreatedDate": "2003-07-20T13:14:06.0382898+02:00",
+  "UpdatedDate": "2021-10-17T13:14:06.0382898+02:00",
+  "AssociateFullName": "Lizzie Shawn McLaughlin DVM",
+  "CreatedBy": "doloribus",
+  "UpdatedBy": "placeat",
+  "DeviceIdentifier": "enim",
+  "ForeignAppId": 896,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldLength": 6
     }
   }
 }

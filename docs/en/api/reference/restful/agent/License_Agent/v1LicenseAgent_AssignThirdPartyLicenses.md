@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 506,
-  "ModuleOwner": "et",
+  "AssociateId": 725,
+  "ModuleOwner": "possimus",
   "ModuleLicenseNames": [
-    "Ullrich Group",
-    "Beahan Group"
+    "Bahringer-Fahey",
+    "Ortiz-Leannon"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 859,
-    "Tooltip": "eum",
-    "CanAssign": true,
-    "Free": 970,
-    "InUse": 830,
+    "Total": 820,
+    "Tooltip": "necessitatibus",
+    "CanAssign": false,
+    "Free": 337,
+    "InUse": 2,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 530,
-    "Name": "Upton, Pagac and Kautzer",
-    "Description": "Focused value-added moderator",
-    "PrerequisiteModuleName": "Rolfson, Bailey and Shields",
-    "SortOrder": 762,
-    "ExtraFlags": 965,
+    "ModuleLicenseId": 125,
+    "Name": "McGlynn, Bartoletti and Reichel",
+    "Description": "Total 24 hour policy",
+    "PrerequisiteModuleName": "Reilly, Bechtelar and Vandervort",
+    "SortOrder": 527,
+    "ExtraFlags": 242,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

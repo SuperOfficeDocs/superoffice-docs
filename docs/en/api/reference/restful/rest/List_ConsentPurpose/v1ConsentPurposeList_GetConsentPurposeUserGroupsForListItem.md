@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 663,
-    "Name": "Quitzon LLC",
-    "ToolTip": "Aut id.",
-    "Deleted": true,
-    "Rank": 532,
-    "Type": "rerum",
-    "ColorBlock": 988,
-    "IconHint": "omnis",
+    "Id": 957,
+    "Name": "Quigley LLC",
+    "ToolTip": "Corporis odio.",
+    "Deleted": false,
+    "Rank": 693,
+    "Type": "eos",
+    "ColorBlock": 290,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2022-11-23T03:44:57.9374899+01:00",
+    "LastChanged": "2010-12-25T13:14:11.3516953+01:00",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Strosin Inc and Sons",
-        "ToolTip": "Sint deserunt excepturi tempore.",
+        "Id": 544,
+        "Name": "Bahringer-Parker",
+        "ToolTip": "Blanditiis ut accusamus voluptatibus.",
         "Deleted": false,
-        "Rank": 278,
-        "Type": "eaque",
-        "ColorBlock": 432,
-        "IconHint": "et",
+        "Rank": 834,
+        "Type": "maxime",
+        "ColorBlock": 423,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2016-01-13T03:44:57.9374899+01:00",
+        "LastChanged": "2008-08-23T13:14:11.3516953+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
+        "ExtraInfo": "consequatur",
         "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Iliana Hahn",
+        "Hidden": false,
+        "FullName": "Garnett Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 787
+            "FieldType": "System.String",
+            "FieldLength": 985
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Abbigail Lindgren",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Ariane Richard Greenfelder V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 801
       }
     }
   }

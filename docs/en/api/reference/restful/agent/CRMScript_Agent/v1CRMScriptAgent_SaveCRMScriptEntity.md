@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 177,
-  "UniqueIdentifier": "nulla",
-  "Name": "Stanton-Kuhic",
-  "Description": "Future-proofed content-based firmware",
-  "IncludeId": "sed",
-  "AccessKey": "dolorem",
-  "HierarchyId": 415,
-  "Source": "maxime",
-  "SourceCode": "iste",
+  "EjscriptId": 375,
+  "UniqueIdentifier": "similique",
+  "Name": "Corwin, Goyette and Ryan",
+  "Description": "Progressive methodical open system",
+  "IncludeId": "nisi",
+  "AccessKey": "quis",
+  "HierarchyId": 194,
+  "Source": "voluptas",
+  "SourceCode": "tempore",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 366,
+  "HtmlOutput": 132,
   "Includes": [
-    828,
-    567
+    316,
+    558
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 910,
-      "LineNumberTo": 36,
-      "Delta": 776,
-      "IncludeId": "odit",
+      "LineNumberFrom": 467,
+      "LineNumberTo": 796,
+      "Delta": 12,
+      "IncludeId": "eos",
       "IncludedFrom": [
-        "officia",
-        "fuga"
+        "molestiae",
+        "earum"
       ]
     },
     {
-      "LineNumberFrom": 910,
-      "LineNumberTo": 36,
-      "Delta": 776,
-      "IncludeId": "odit",
+      "LineNumberFrom": 467,
+      "LineNumberTo": 796,
+      "Delta": 12,
+      "IncludeId": "eos",
       "IncludedFrom": [
-        "officia",
-        "fuga"
+        "molestiae",
+        "earum"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2013-07-11T03:44:52.3708918+02:00",
-  "RegisteredAssociateId": 813,
-  "Updated": "2015-11-07T03:44:52.3708918+01:00",
-  "UpdatedAssociateId": 505
+  "Registered": "2016-09-03T13:14:05.710145+02:00",
+  "RegisteredAssociateId": 488,
+  "Updated": "2003-07-23T13:14:05.710145+02:00",
+  "UpdatedAssociateId": 711
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 686,
-  "UniqueIdentifier": "quibusdam",
-  "Name": "Batz Group",
-  "Description": "Multi-channelled modular installation",
-  "IncludeId": "ex",
-  "AccessKey": "nihil",
-  "HierarchyId": 806,
-  "Source": "repudiandae",
-  "SourceCode": "dolore",
+  "EjscriptId": 225,
+  "UniqueIdentifier": "est",
+  "Name": "Schmidt Inc and Sons",
+  "Description": "Object-based next generation flexibility",
+  "IncludeId": "quo",
+  "AccessKey": "aut",
+  "HierarchyId": 453,
+  "Source": "ut",
+  "SourceCode": "a",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 552,
+  "HtmlOutput": 433,
   "Includes": [
-    397,
-    332
+    435,
+    464
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 346,
-      "LineNumberTo": 198,
-      "Delta": 925,
-      "IncludeId": "molestiae",
+      "LineNumberFrom": 461,
+      "LineNumberTo": 663,
+      "Delta": 676,
+      "IncludeId": "maxime",
       "IncludedFrom": [
-        "incidunt",
-        "minus"
+        "numquam",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 791
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2019-11-13T03:44:52.3708918+01:00",
-  "RegisteredAssociateId": 527,
-  "Updated": "2001-06-12T03:44:52.3708918+02:00",
-  "UpdatedAssociateId": 772,
+  "Registered": "2009-02-24T13:14:05.710145+01:00",
+  "RegisteredAssociateId": 522,
+  "Updated": "2024-08-03T13:14:05.710145+02:00",
+  "UpdatedAssociateId": 154,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

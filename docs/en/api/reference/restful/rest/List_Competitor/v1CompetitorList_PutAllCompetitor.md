@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Gottlieb-Stokes",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "UdListDefinitionId": 406,
-    "Rank": 884
+    "Id": 911,
+    "Name": "Bauch LLC",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 912,
+    "Rank": 726
   },
   {
-    "Id": 828,
-    "Name": "Gottlieb-Stokes",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "UdListDefinitionId": 406,
-    "Rank": 884
+    "Id": 911,
+    "Name": "Bauch LLC",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 912,
+    "Rank": 726
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Schoen-Schulist",
-    "Tooltip": "unde",
-    "Deleted": false,
-    "UdListDefinitionId": 913,
-    "Rank": 473,
+    "Id": 811,
+    "Name": "Beer-Bailey",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "UdListDefinitionId": 189,
+    "Rank": 267,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 964
+        "FieldType": "System.Int32",
+        "FieldLength": 871
       }
     }
   }

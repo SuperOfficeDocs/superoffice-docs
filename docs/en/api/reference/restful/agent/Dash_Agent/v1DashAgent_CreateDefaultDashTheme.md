@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 569,
-  "Name": "Baumbach LLC",
-  "Config": "itaque",
-  "Rank": 894,
-  "Client": "quasi",
-  "Style": "consequatur",
+  "DashboardThemeId": 255,
+  "Name": "Pfeffer Group",
+  "Config": "cum",
+  "Rank": 766,
+  "Client": "veritatis",
+  "Style": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 991
     }
   }
 }

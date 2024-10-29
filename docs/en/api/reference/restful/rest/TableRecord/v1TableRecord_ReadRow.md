@@ -72,15 +72,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "minima",
-    "Values2": "illo"
+    "Values1": "rem",
+    "Values2": "nam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 712
+      "FieldType": "System.Int32",
+      "FieldLength": 362
     }
   }
 }

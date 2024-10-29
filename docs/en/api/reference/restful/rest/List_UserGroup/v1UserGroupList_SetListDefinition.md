@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 903,
-  "Name": "Bailey Group",
-  "Tooltip": "vel",
+  "Id": 976,
+  "Name": "O'Connell LLC",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 844,
+  "Rank": 302,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "ListType": "mollitia",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Dickinson Inc and Sons",
-  "Tooltip": "error",
-  "Deleted": true,
-  "Rank": 764,
-  "IsCustomList": false,
+  "Id": 235,
+  "Name": "Weimann, Zieme and Carroll",
+  "Tooltip": "officia",
+  "Deleted": false,
+  "Rank": 338,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptates",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 477
     }
   }
 }

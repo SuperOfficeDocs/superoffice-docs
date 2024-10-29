@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 776,
-  "DimensionId": 31
+  "TargetYear": 154,
+  "DimensionId": 368
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 990,
-  "Year": 248,
+  "TargetGroupId": 213,
+  "Year": 86,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 928,
+      "TargetAssignmentInfoId": 220,
       "Values": [
-        158,
-        425
+        696,
+        906
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 455,
-      "DimensionListItemDisplayName": "Cummerata-Frami",
+      "DimensionListItem": 629,
+      "DimensionListItemDisplayName": "Schimmel-Corwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 399
+          "FieldLength": 851
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldType": "System.String",
+      "FieldLength": 899
     }
   }
 }

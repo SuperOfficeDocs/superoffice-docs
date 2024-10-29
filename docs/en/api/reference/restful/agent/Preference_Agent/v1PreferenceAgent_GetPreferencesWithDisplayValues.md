@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "itaque",
-      "Key": "pariatur"
+      "Section": "nostrum",
+      "Key": "possimus"
     },
     {
-      "Section": "itaque",
-      "Key": "pariatur"
+      "Section": "nostrum",
+      "Key": "possimus"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "voluptas",
+    "RawValue": "ea",
     "Specification": null,
-    "DisplayValue": "ipsam",
-    "DisplayTooltip": "voluptatem",
+    "DisplayValue": "aut",
+    "DisplayTooltip": "non",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 590,
-    "PrefDescId": 573,
-    "TableName": "O'Conner, Wolff and Ullrich",
-    "UserPreferenceId": 152,
+    "TargetId": 508,
+    "PrefDescId": 631,
+    "TableName": "Bruen Group",
+    "UserPreferenceId": 436,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 26
       }
     }
   }

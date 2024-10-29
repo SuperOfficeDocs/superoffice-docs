@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schuppe-Nicolas",
+  "Name": "Bogan, Hane and Beatty",
   "Entities": [
     {
-      "HeadingId": 188,
-      "Name": "Cole-Ziemann",
-      "Tooltip": "non",
-      "Deleted": true,
-      "Rank": 190,
-      "UdListDefinitionId": 188
+      "HeadingId": 435,
+      "Name": "Cartwright Group",
+      "Tooltip": "eaque",
+      "Deleted": false,
+      "Rank": 188,
+      "UdListDefinitionId": 463
     },
     {
-      "HeadingId": 188,
-      "Name": "Cole-Ziemann",
-      "Tooltip": "non",
-      "Deleted": true,
-      "Rank": 190,
-      "UdListDefinitionId": 188
+      "HeadingId": 435,
+      "Name": "Cartwright Group",
+      "Tooltip": "eaque",
+      "Deleted": false,
+      "Rank": 188,
+      "UdListDefinitionId": 463
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 801,
-    "Name": "Rolfson LLC",
-    "Tooltip": "et",
+    "HeadingId": 538,
+    "Name": "Kohler, Denesik and Fahey",
+    "Tooltip": "necessitatibus",
     "Deleted": false,
-    "Rank": 546,
-    "UdListDefinitionId": 835,
+    "Rank": 633,
+    "UdListDefinitionId": 786,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   }

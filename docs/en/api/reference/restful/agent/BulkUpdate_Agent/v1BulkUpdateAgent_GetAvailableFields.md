@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "unde",
-    "ValueType": "tenetur",
-    "Mandatory": true,
-    "EncodedDisplayName": "Larkin LLC",
-    "EncodedDisplayDescription": "Self-enabling analyzing definition",
-    "IconHint": "non",
+    "Key": "et",
+    "ValueType": "veritatis",
+    "Mandatory": false,
+    "EncodedDisplayName": "Weber Inc and Sons",
+    "EncodedDisplayDescription": "Monitored content-based open architecture",
+    "IconHint": "corrupti",
     "ControlInfos": [
       {
-        "Type": "mollitia",
-        "Label": "vitae",
-        "Dimension": 547,
-        "ListProviderName": "Wyman, Willms and Gleichner",
-        "ListProviderExtraInfo": "repudiandae",
-        "ListProviderPrimaryKeyName": "Schmitt-Kulas",
-        "ListLeadText": "quis",
+        "Type": "officia",
+        "Label": "autem",
+        "Dimension": 662,
+        "ListProviderName": "Zieme-Sauer",
+        "ListProviderExtraInfo": "recusandae",
+        "ListProviderPrimaryKeyName": "McLaughlin-Graham",
+        "ListLeadText": "vitae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 28
+            "FieldLength": 877
           }
         }
       }
     ],
-    "EncodedDataCaption": "praesentium",
-    "EncodedDataCaptionDescription": "Re-contextualized real-time flexibility",
-    "CurrentOperationType": "itaque",
+    "EncodedDataCaption": "soluta",
+    "EncodedDataCaptionDescription": "Enhanced exuding flexibility",
+    "CurrentOperationType": "debitis",
     "Values": [
-      "aut",
-      "in"
+      "perspiciatis",
+      "quia"
     ],
     "DisplayValues": [
-      "fugit",
-      "nihil"
+      "quasi",
+      "sit"
     ],
     "OperationInfos": [
       {
-        "Key": "sed",
-        "EncodedDisplayName": "Rogahn, Dietrich and Cummerata",
+        "Key": "assumenda",
+        "EncodedDisplayName": "Jones Inc and Sons",
         "EncodedLeadTexts": [
-          "ad",
-          "est"
+          "earum",
+          "quas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 735
+            "FieldType": "System.Int32",
+            "FieldLength": 143
           }
         }
       },
       {
-        "Key": "sed",
-        "EncodedDisplayName": "Rogahn, Dietrich and Cummerata",
+        "Key": "assumenda",
+        "EncodedDisplayName": "Jones Inc and Sons",
         "EncodedLeadTexts": [
-          "ad",
-          "est"
+          "earum",
+          "quas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 735
+            "FieldType": "System.Int32",
+            "FieldLength": 143
           }
         }
       }

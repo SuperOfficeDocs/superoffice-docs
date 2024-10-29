@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 727,
-  "StripAttachments": true
+  "MessageServerId": 241,
+  "StripAttachments": false
 }
 ```
 

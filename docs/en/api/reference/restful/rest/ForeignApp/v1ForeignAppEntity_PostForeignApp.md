@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 454,
-  "Name": "Prosacco Inc and Sons",
-  "CreatedDate": "2001-12-04T03:44:57.3433794+01:00",
-  "UpdatedDate": "2009-02-24T03:44:57.3433794+01:00",
+  "ForeignAppId": 992,
+  "Name": "O'Hara-Schamberger",
+  "CreatedDate": "2008-07-22T13:14:10.8360396+02:00",
+  "UpdatedDate": "2013-08-18T13:14:10.8360396+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 447,
-      "Name": "Russel Inc and Sons",
-      "CreatedDate": "2011-08-16T03:44:57.3433794+02:00",
-      "UpdatedDate": "1999-09-08T03:44:57.3433794+02:00",
-      "AssociateFullName": "Dr. Nicolas Alexzander Cummerata",
-      "CreatedBy": "recusandae",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "laborum",
-      "ForeignAppId": 420,
+      "ForeignDeviceId": 105,
+      "Name": "McDermott, Cummerata and Schowalter",
+      "CreatedDate": "2000-02-17T13:14:10.8360396+01:00",
+      "UpdatedDate": "2023-12-25T13:14:10.8360396+01:00",
+      "AssociateFullName": "Pearline Bayer",
+      "CreatedBy": "quaerat",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 484,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 274
+          "FieldType": "System.Int32",
+          "FieldLength": 891
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 421
     }
   }
 }

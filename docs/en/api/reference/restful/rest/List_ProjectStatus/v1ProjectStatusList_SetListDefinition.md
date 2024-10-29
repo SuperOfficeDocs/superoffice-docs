@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Jakubowski Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 970,
+  "Id": 537,
+  "Name": "Olson Group",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 466,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "minus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 304,
-  "Name": "Bednar Group",
-  "Tooltip": "aut",
+  "Id": 678,
+  "Name": "Prohaska-Turner",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 224,
+  "Rank": 67,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldType": "System.String",
+      "FieldLength": 523
     }
   }
 }

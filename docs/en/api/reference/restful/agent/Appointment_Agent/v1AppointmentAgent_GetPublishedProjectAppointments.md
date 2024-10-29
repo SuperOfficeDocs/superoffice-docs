@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 548
+  "ProjectId": 76
 }
 ```
 
@@ -141,65 +141,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 526,
-    "StartDate": "2015-06-12T03:44:51.8552876+02:00",
-    "EndDate": "2012-05-04T03:44:51.8552876+02:00",
+    "AppointmentId": 184,
+    "StartDate": "2023-11-11T13:14:05.2257407+01:00",
+    "EndDate": "2009-03-13T13:14:05.2257407+01:00",
     "Type": "BookingForChecklist",
-    "Task": "maiores",
-    "AssociateFullName": "Mrs. Kristofer Fay Sr.",
-    "ContactName": "Simonis-Jacobs",
-    "Description": "Down-sized didactic open system",
-    "PersonFullName": "Roger Bauch",
-    "PersonId": 824,
-    "ContactId": 589,
-    "ProjectId": 9,
-    "ProjectName": "Greenholt Group",
-    "IsPublished": false,
-    "AssociateId": 279,
-    "ColorIndex": 427,
+    "Task": "sit",
+    "AssociateFullName": "Shana Sauer",
+    "ContactName": "Pfannerstill Group",
+    "Description": "Virtual maximized Graphic Interface",
+    "PersonFullName": "Dejah Christiansen",
+    "PersonId": 297,
+    "ContactId": 506,
+    "ProjectId": 160,
+    "ProjectName": "Crona, Brakus and Bogan",
+    "IsPublished": true,
+    "AssociateId": 808,
+    "ColorIndex": 671,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 791,
-    "PriorityName": "Lesch-Bogisich",
+    "PriorityId": 687,
+    "PriorityName": "Jakubowski LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1998-08-09T03:44:51.8552876+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2004-07-13T13:14:05.2257407+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-04-18T03:44:51.8552876+02:00",
-    "RecurringEndDate": "2014-03-31T03:44:51.8552876+02:00",
-    "MotherId": 151,
-    "AssignedBy": 472,
-    "AssignedByFullName": "Mrs. Alison Anna VonRueden MD",
+    "RecurringStartDate": "2002-09-04T13:14:05.2257407+02:00",
+    "RecurringEndDate": "2018-03-13T13:14:05.2257407+01:00",
+    "MotherId": 910,
+    "AssignedBy": 468,
+    "AssignedByFullName": "Mauricio Weimann",
     "RejectReason": "",
-    "Location": "natus",
-    "AlarmLeadTime": "ullam",
-    "SaleId": 110,
-    "SaleName": "O'Connell Group",
-    "AssociateName": "Spencer LLC",
-    "CreatedDate": "2005-05-24T03:44:51.8552876+02:00",
-    "CreatedBy": "aliquid",
-    "CreatedByFullName": "Audra Hickle",
-    "CreatedByAssociateId": 634,
+    "Location": "est",
+    "AlarmLeadTime": "blanditiis",
+    "SaleId": 360,
+    "SaleName": "Wunsch Inc and Sons",
+    "AssociateName": "O'Conner, Frami and Hoppe",
+    "CreatedDate": "2015-08-16T13:14:05.2257407+02:00",
+    "CreatedBy": "eius",
+    "CreatedByFullName": "Nedra Koch",
+    "CreatedByAssociateId": 836,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 454,
-    "Title": "quia",
-    "Agenda": "quia",
-    "InternalNotes": "ea",
+    "PreferredTZLocation": 270,
+    "Title": "quo",
+    "Agenda": "itaque",
+    "InternalNotes": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldType": "System.String",
+        "FieldLength": 762
       }
     }
   }

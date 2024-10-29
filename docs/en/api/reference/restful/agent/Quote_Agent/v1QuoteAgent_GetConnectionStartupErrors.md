@@ -82,9 +82,9 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "IsOk": false,
-    "UserExplanation": "saepe",
-    "TechExplanation": "sint",
-    "ErrorCode": "quia",
+    "UserExplanation": "harum",
+    "TechExplanation": "voluptatem",
+    "ErrorCode": "nobis",
     "Changes": null,
     "Status": "Error",
     "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 395
       }
     }
   }

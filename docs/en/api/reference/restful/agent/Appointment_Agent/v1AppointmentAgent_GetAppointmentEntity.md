@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=466
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=890
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-01-07T03:44:51.9177803+01:00",
-  "AppointmentId": 305,
-  "Description": "Public-key encompassing migration",
-  "Title": "molestiae",
-  "Agenda": "consequuntur",
-  "InternalNotes": "sequi",
-  "StartDate": "2016-01-19T03:44:51.9177803+01:00",
-  "EndDate": "2004-06-25T03:44:51.9177803+02:00",
+  "CreatedDate": "2001-12-27T13:14:05.3663737+01:00",
+  "AppointmentId": 535,
+  "Description": "Down-sized contextually-based model",
+  "Title": "quis",
+  "Agenda": "sit",
+  "InternalNotes": "doloribus",
+  "StartDate": "2004-11-02T13:14:05.3663737+01:00",
+  "EndDate": "2020-03-15T13:14:05.3663737+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 981,
+  "MotherId": 907,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-05-08T03:44:51.9177803+02:00",
+  "UpdatedDate": "2001-12-28T13:14:05.3663737+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 750,
+  "ActiveLinks": 565,
   "Links": [
     {
-      "EntityName": "Ratke-Mohr",
-      "Id": 869,
-      "Description": "Networked system-worthy internet solution",
-      "ExtraInfo": "molestiae",
-      "LinkId": 365,
+      "EntityName": "Grant-Bruen",
+      "Id": 543,
+      "Description": "Cross-group system-worthy implementation",
+      "ExtraInfo": "magni",
+      "LinkId": 994,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     }
   ],
-  "AlarmLeadTime": "nam",
-  "HasAlarm": false,
-  "ColorIndex": 609,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "ratione",
-  "LeadTime": "saepe",
-  "Location": "vitae",
-  "RejectCounter": 163,
+  "AlarmLeadTime": "eaque",
+  "HasAlarm": true,
+  "ColorIndex": 513,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "natus",
+  "LeadTime": "iusto",
+  "Location": "nulla",
+  "RejectCounter": 649,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 992,
-      "PersonId": 851,
-      "ContactId": 570,
-      "EmailId": 806,
+      "AssociateId": 260,
+      "PersonId": 891,
+      "ContactId": 44,
+      "EmailId": 442,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jessie_barrows@grimes.us",
-      "Description": "Vision-oriented zero tolerance website"
+      "EmailAddress": "dariana@balistrerikertzmann.ca",
+      "Description": "Innovative attitude-oriented productivity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-07-30T03:44:51.9177803+02:00",
+  "ActiveDate": "2011-12-06T13:14:05.3663737+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 404,
+  "PreferredTZLocation": 615,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 167,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 786,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "est",
+  "CentralserviceVideomeetId": "placeat",
   "UserDefinedFields": {
-    "SuperOffice:1": "Jake Hettinger",
-    "SuperOffice:2": "Elijah Bradtke"
+    "SuperOffice:1": "1237142151",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "autem"
+    "CustomFields1": "id",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2006-09-03T03:44:51.9177803+02:00",
-  "PublishTo": "2007-09-14T03:44:51.9177803+02:00",
-  "PublishFrom": "2015-03-12T03:44:51.9177803+01:00",
+  "PublishEventDate": "2019-04-01T13:14:05.3663737+02:00",
+  "PublishTo": "2000-10-16T13:14:05.3663737+02:00",
+  "PublishFrom": "2022-08-15T13:14:05.3663737+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 522,
+      "VisibleId": 392,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldType": "System.String",
+          "FieldLength": 200
         }
       }
     },
     {
-      "VisibleId": 522,
+      "VisibleId": 392,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldType": "System.String",
+          "FieldLength": 200
         }
       }
     }
@@ -261,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 820
     }
   }
 }

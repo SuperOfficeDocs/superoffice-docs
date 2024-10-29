@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 353,
-  "Name": "Hermann Group",
+  "TicketPriorityId": 731,
+  "Name": "Dicki LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 960,
+  "SortOrder": 290,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 891,
-  "MonStart": "2021-02-16T03:44:52.7458159+01:00",
-  "MonStop": "2003-11-05T03:44:52.7458159+01:00",
-  "TueStart": "2018-02-07T03:44:52.7458159+01:00",
-  "TueStop": "1998-04-18T03:44:52.7458159+02:00",
-  "WedStart": "2017-02-18T03:44:52.7458159+01:00",
-  "WedStop": "2000-12-17T03:44:52.7458159+01:00",
-  "ThuStart": "2018-06-28T03:44:52.7458159+02:00",
-  "ThuStop": "2004-10-30T03:44:52.7458159+02:00",
-  "FriStart": "2008-12-18T03:44:52.7458159+01:00",
-  "FriStop": "2021-09-14T03:44:52.7458159+02:00",
-  "SatStart": "2023-11-01T03:44:52.7458159+01:00",
-  "SatStop": "2003-09-20T03:44:52.7458159+02:00",
-  "SunStart": "1998-02-27T03:44:52.7458159+01:00",
-  "SunStop": "2015-07-22T03:44:52.7458159+02:00",
+  "Deadline": 893,
+  "MonStart": "2009-04-17T13:14:06.1164195+02:00",
+  "MonStop": "2008-06-19T13:14:06.1164195+02:00",
+  "TueStart": "1998-11-19T13:14:06.1164195+01:00",
+  "TueStop": "2016-07-03T13:14:06.1164195+02:00",
+  "WedStart": "1998-04-06T13:14:06.1164195+02:00",
+  "WedStop": "1999-07-18T13:14:06.1164195+02:00",
+  "ThuStart": "2021-06-10T13:14:06.1164195+02:00",
+  "ThuStop": "2017-09-09T13:14:06.1164195+02:00",
+  "FriStart": "2011-07-28T13:14:06.1164195+02:00",
+  "FriStop": "2002-04-16T13:14:06.1164195+02:00",
+  "SatStart": "2015-03-23T13:14:06.1164195+01:00",
+  "SatStop": "2013-10-09T13:14:06.1164195+02:00",
+  "SunStart": "1997-11-04T13:14:06.1164195+01:00",
+  "SunStop": "2003-04-18T13:14:06.1164195+02:00",
   "NonDates": [
-    "et",
-    "reprehenderit"
+    "delectus",
+    "id"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 395,
-      "AlertLevel": 557,
-      "AlertTimeout": 23,
-      "Action": 454,
-      "DelegateTo": 249,
-      "ScriptId": 614,
-      "EmailTo": "constantin@boyle.uk",
-      "SmsTo": "sit",
-      "ReplyTemplateIdCustomer": 52,
-      "ReplyTemplateIdUser": 303,
-      "ReplyTemplateIdCatmast": 666,
-      "ReplyTemplateIdEmail": 817,
-      "RtiCustomerSms": 88,
-      "ReplyTemplateIdUserSms": 28,
-      "ReplyTemplateIdCatmastSms": 333,
-      "ReplyTemplateIdSms": 977,
+      "TicketAlertId": 855,
+      "AlertLevel": 443,
+      "AlertTimeout": 830,
+      "Action": 302,
+      "DelegateTo": 896,
+      "ScriptId": 217,
+      "EmailTo": "liam.legros@howellhartmann.biz",
+      "SmsTo": "aperiam",
+      "ReplyTemplateIdCustomer": 89,
+      "ReplyTemplateIdUser": 594,
+      "ReplyTemplateIdCatmast": 163,
+      "ReplyTemplateIdEmail": 661,
+      "RtiCustomerSms": 414,
+      "ReplyTemplateIdUserSms": 578,
+      "ReplyTemplateIdCatmastSms": 825,
+      "ReplyTemplateIdSms": 724,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 637
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 164
     }
   }
 }

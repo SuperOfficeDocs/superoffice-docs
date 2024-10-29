@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Keebler LLC",
+  "TableName": "Becker LLC",
   "RecordIds": [
-    945,
-    842
+    306,
+    665
   ],
-  "AssociateId": 838,
-  "ExtraInfo": "quia"
+  "AssociateId": 257,
+  "ExtraInfo": "voluptatum"
 }
 ```
 

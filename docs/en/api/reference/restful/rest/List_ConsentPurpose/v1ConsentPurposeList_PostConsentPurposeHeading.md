@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 75,
-  "Name": "Howell LLC",
-  "Tooltip": "magni",
+  "HeadingId": 617,
+  "Name": "Gibson, Johnston and Fadel",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 413,
-  "UdListDefinitionId": 797
+  "Rank": 355,
+  "UdListDefinitionId": 961
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 718,
-  "Name": "Veum Inc and Sons",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "Rank": 308,
-  "UdListDefinitionId": 5,
+  "HeadingId": 340,
+  "Name": "Wolff Group",
+  "Tooltip": "facilis",
+  "Deleted": true,
+  "Rank": 739,
+  "UdListDefinitionId": 834,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 111
     }
   }
 }

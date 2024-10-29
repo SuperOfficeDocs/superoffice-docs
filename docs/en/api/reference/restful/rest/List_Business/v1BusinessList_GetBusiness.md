@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Oberbrunner-Johnston",
-  "Tooltip": "ipsam",
+  "Id": 177,
+  "Name": "Schiller Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 948,
-  "Rank": 670,
+  "UdListDefinitionId": 813,
+  "Rank": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   }
 }

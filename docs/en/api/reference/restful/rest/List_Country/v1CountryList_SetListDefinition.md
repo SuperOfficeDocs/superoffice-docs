@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285,
-  "Name": "Herman-Mills",
-  "Tooltip": "quas",
+  "Id": 776,
+  "Name": "Ankunding, Herzog and Grady",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 839,
-  "IsCustomList": true,
+  "Rank": 123,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellat",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Howell Group",
-  "Tooltip": "et",
+  "Id": 930,
+  "Name": "Beer-Waters",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 761,
-  "IsCustomList": false,
+  "Rank": 12,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 337
     }
   }
 }

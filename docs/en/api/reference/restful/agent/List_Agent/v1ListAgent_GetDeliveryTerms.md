@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Value": "repudiandae",
-    "Tooltip": "consectetur",
+    "Id": 406,
+    "Value": "autem",
+    "Tooltip": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 874
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   },
   {
-    "Id": 11,
-    "Value": "repudiandae",
-    "Tooltip": "consectetur",
+    "Id": 406,
+    "Value": "autem",
+    "Tooltip": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 874
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Kemmer LLC",
-    "ToolTip": "Qui vero corporis.",
-    "Deleted": false,
-    "Rank": 511,
-    "Type": "est",
-    "ColorBlock": 991,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "2023-10-29T03:44:58.1249703+01:00",
+    "Id": 823,
+    "Name": "Flatley LLC",
+    "ToolTip": "Quia voluptatem aspernatur sed minus nemo vel voluptates.",
+    "Deleted": true,
+    "Rank": 982,
+    "Type": "repellat",
+    "ColorBlock": 660,
+    "IconHint": "quos",
+    "Selected": true,
+    "LastChanged": "2006-01-18T13:14:11.5079552+01:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Collier-Leuschke",
-        "ToolTip": "Distinctio illo sed et corrupti consequuntur est doloremque.",
-        "Deleted": false,
-        "Rank": 869,
-        "Type": "harum",
-        "ColorBlock": 925,
-        "IconHint": "ut",
+        "Id": 504,
+        "Name": "Kreiger-Koepp",
+        "ToolTip": "Dolor occaecati quas aut ea ut eaque ea.",
+        "Deleted": true,
+        "Rank": 455,
+        "Type": "aliquid",
+        "ColorBlock": 168,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2021-09-04T03:44:58.1249703+02:00",
+        "LastChanged": "2015-08-20T13:14:11.5079552+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "quo",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Prof. Virginie Abshire"
+        "FullName": "Jennyfer Hilll"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "delectus",
+    "ExtraInfo": "sed",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Kelsie Erdman"
+    "FullName": "Marc Willms"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Trantow Group",
-    "ToolTip": "Sint qui perferendis et.",
+    "Id": 342,
+    "Name": "Schroeder Inc and Sons",
+    "ToolTip": "Aliquid est consequatur et ad eaque.",
     "Deleted": false,
-    "Rank": 649,
-    "Type": "qui",
-    "ColorBlock": 808,
-    "IconHint": "quibusdam",
+    "Rank": 691,
+    "Type": "occaecati",
+    "ColorBlock": 140,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2004-12-30T03:44:58.1249703+01:00",
+    "LastChanged": "2009-02-11T13:14:11.5079552+01:00",
     "ChildItems": [
       {
-        "Id": 402,
-        "Name": "Cruickshank LLC",
-        "ToolTip": "Ratione aut similique laboriosam sint.",
+        "Id": 584,
+        "Name": "Hammes-Kilback",
+        "ToolTip": "Dolore qui.",
         "Deleted": false,
-        "Rank": 887,
-        "Type": "sit",
-        "ColorBlock": 46,
-        "IconHint": "qui",
+        "Rank": 571,
+        "Type": "omnis",
+        "ColorBlock": 476,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2002-02-27T03:44:58.1249703+01:00",
+        "LastChanged": "1997-11-05T13:14:11.5079552+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "qui",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Ericka Kulas",
+        "FullName": "Elenora Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 240
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "enim",
+    "ExtraInfo": "sed",
+    "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Ms. Garth Hirthe",
+    "FullName": "Gust Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 218
       }
     }
   }

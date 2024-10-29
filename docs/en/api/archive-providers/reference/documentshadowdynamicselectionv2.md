@@ -711,7 +711,7 @@ Document shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=person/personUpdatedBy,person/correspondingAssociate/userName,person/consentSourceEmarketing,contact/streetAddress/wgs84longitude,contact/contactAssociate/assocType
+GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=person/correspondingAssociate/fullName,contact/postAddress/line1,project/registeredByFullName,sale/stalledComment,sale/saleTypeCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

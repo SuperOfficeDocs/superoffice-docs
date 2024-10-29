@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=dolorum
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=sit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 337,
-    "Name": "Sipes LLC",
-    "ToolTip": "Quis vero.",
+    "Id": 512,
+    "Name": "Mitchell-Mueller",
+    "ToolTip": "Pariatur a non fuga voluptas.",
     "Deleted": false,
-    "Rank": 736,
-    "Type": "quidem",
+    "Rank": 463,
+    "Type": "possimus",
     "ChildItems": [
       {
-        "Id": 927,
-        "Name": "Monahan LLC",
-        "ToolTip": "Quidem quis molestiae aut ut consequatur rerum.",
+        "Id": 262,
+        "Name": "Carroll Inc and Sons",
+        "ToolTip": "Ut a id.",
         "Deleted": false,
-        "Rank": 98,
-        "Type": "sapiente",
+        "Rank": 971,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 581,
-        "ExtraInfo": "eos",
-        "StyleHint": "sed",
-        "FullName": "Tyreek Stracke",
+        "IconHint": "et",
+        "ColorBlock": 835,
+        "ExtraInfo": "natus",
+        "StyleHint": "perspiciatis",
+        "FullName": "Parker O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 285
+            "FieldLength": 273
           }
         }
       }
     ],
-    "IconHint": "ab",
-    "ColorBlock": 158,
-    "ExtraInfo": "ut",
-    "StyleHint": "id",
-    "FullName": "Darrin Douglas PhD",
+    "IconHint": "repellendus",
+    "ColorBlock": 644,
+    "ExtraInfo": "et",
+    "StyleHint": "velit",
+    "FullName": "Ms. Brooke Layne Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldType": "System.String",
+        "FieldLength": 346
       }
     }
   }

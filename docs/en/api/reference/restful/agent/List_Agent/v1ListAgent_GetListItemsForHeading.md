@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 370,
-  "HeadingId": 130
+  "UdListDefinitionId": 860,
+  "HeadingId": 435
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Bayer Inc and Sons",
-    "ToolTip": "Est est.",
-    "Deleted": false,
-    "Rank": 852,
-    "Type": "est",
-    "ColorBlock": 866,
-    "IconHint": "ducimus",
+    "Id": 858,
+    "Name": "Wuckert-Berge",
+    "ToolTip": "Quisquam nulla quae distinctio sit ex.",
+    "Deleted": true,
+    "Rank": 952,
+    "Type": "eum",
+    "ColorBlock": 199,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2001-10-05T03:44:52.6989885+02:00",
+    "LastChanged": "2018-05-28T13:14:06.0851676+02:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Nicolas-Reichert",
-        "ToolTip": "Modi nostrum.",
-        "Deleted": true,
-        "Rank": 182,
-        "Type": "quibusdam",
-        "ColorBlock": 251,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "1997-08-13T03:44:52.6989885+02:00",
+        "Id": 1002,
+        "Name": "Schultz-Harber",
+        "ToolTip": "A autem magnam maiores asperiores nesciunt.",
+        "Deleted": false,
+        "Rank": 94,
+        "Type": "sed",
+        "ColorBlock": 703,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2010-06-12T13:14:06.0851676+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "odio",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Kraig Murazik",
+        "FullName": "Prof. Reyna Bogisich I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 858
+            "FieldType": "System.String",
+            "FieldLength": 12
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "officiis",
     "Hidden": true,
-    "FullName": "Vallie Heidenreich",
+    "FullName": "Ms. Carter Sheila Torp PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldType": "System.String",
+        "FieldLength": 798
       }
     }
   }

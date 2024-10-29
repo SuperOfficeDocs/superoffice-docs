@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 791,
-  "TopicId": 110,
+  "ChatSessionId": 149,
+  "TopicId": 534,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "rerum",
-  "CustomerName": "Auer Inc and Sons",
-  "CustomerEmail": "aurelia_nicolas@deckow.ca",
-  "CustomerPhone": "109-160-6244 x1530",
+  "CustomerAlias": "natus",
+  "CustomerHost": "eius",
+  "CustomerName": "Wyman-Dooley",
+  "CustomerEmail": "sigmund@metztremblay.biz",
+  "CustomerPhone": "(797)866-2376 x80728",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Harris, D'Amore and Hoeger",
+  "CustomerCompanyName": "Paucek-Bergnaum",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "voluptas",
-  "WhenRequested": "2002-04-16T03:44:57.0308934+02:00",
-  "WhenStarted": "2006-08-19T03:44:57.0308934+02:00",
-  "WhenEnded": "2013-03-10T03:44:57.0308934+01:00",
-  "WhenIdle": "1999-04-01T03:44:57.0308934+02:00",
-  "WhenFetched": "2014-01-30T03:44:57.0308934+01:00",
-  "SessionKey": "distinctio",
-  "InitialQueuePos": 911,
-  "AlertLevel": 145,
-  "Rank": 428,
+  "FirstMessage": "voluptatibus",
+  "LastMessage": "numquam",
+  "WhenRequested": "2022-12-30T13:14:10.6172706+01:00",
+  "WhenStarted": "1999-07-27T13:14:10.6172706+02:00",
+  "WhenEnded": "2004-05-10T13:14:10.6172706+02:00",
+  "WhenIdle": "2007-12-09T13:14:10.6172706+01:00",
+  "WhenFetched": "2005-02-09T13:14:10.6172706+01:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 550,
+  "AlertLevel": 276,
+  "Rank": 250,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,18 +143,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 74,
+  "Rating": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 728
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

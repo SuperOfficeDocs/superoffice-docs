@@ -70,11 +70,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Terry-Lueilwitz",
-  "Id": 981,
+  "TableName": "Balistreri, Huels and Cole",
+  "Id": 710,
   "Values": {
-    "Values1": "unde",
-    "Values2": "saepe"
+    "Values1": "vitae",
+    "Values2": "tenetur"
   }
 }
 ```

@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "eum",
-  "Key": "cumque"
+  "Section": "quos",
+  "Key": "eveniet"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 372,
-  "Section": "atque",
-  "Key": "aspernatur",
-  "Name": "Hodkiewicz Group",
+  "PrefDescId": 455,
+  "Section": "non",
+  "Key": "et",
+  "Name": "Schowalter, Cormier and Brown",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed even-keeled strategy",
+  "Description": "De-engineered regional toolset",
   "IsBuiltin": true,
-  "TableName": "Maggio-Blanda",
-  "UserDefinedListId": 195,
-  "Rank": 519,
-  "SubGroup": "sed",
-  "MinLevel": 528,
-  "MaxValue": 461,
-  "MinValue": 288,
-  "RequiredLicense": "nemo",
+  "TableName": "Windler, Casper and D'Amore",
+  "UserDefinedListId": 676,
+  "Rank": 230,
+  "SubGroup": "quae",
+  "MinLevel": 713,
+  "MaxValue": 997,
+  "MinValue": 49,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 4
     }
   }
 }

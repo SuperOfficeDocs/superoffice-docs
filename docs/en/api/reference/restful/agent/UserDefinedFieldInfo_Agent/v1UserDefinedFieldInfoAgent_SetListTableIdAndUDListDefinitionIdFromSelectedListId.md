@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 121
+  "SelectedListId": 569
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 736,
-  "ColumnId": 683,
-  "FieldDefault": "laboriosam",
-  "FieldHeight": 688,
-  "FieldLabel": "exercitationem",
-  "FieldLeft": 854,
-  "FieldTop": 524,
+  "UDefFieldId": 888,
+  "ColumnId": 376,
+  "FieldDefault": "sit",
+  "FieldHeight": 650,
+  "FieldLabel": "inventore",
+  "FieldLeft": 803,
+  "FieldTop": 858,
   "FieldType": "Checkbox",
-  "FieldWidth": 164,
-  "FormatMask": "maxime",
+  "FieldWidth": 260,
+  "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 250,
-  "LabelLeft": 610,
-  "LabelTop": 841,
-  "LabelWidth": 729,
-  "LastVersionId": 582,
-  "ListTableId": 128,
-  "IsMandatory": true,
+  "LabelHeight": 648,
+  "LabelLeft": 45,
+  "LabelTop": 474,
+  "LabelWidth": 626,
+  "LastVersionId": 44,
+  "ListTableId": 194,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 177,
-  "ProgId": "dolorem",
+  "Page1LineNo": 633,
+  "ProgId": "temporibus",
   "IsReadOnly": false,
-  "ShortLabel": "recusandae",
-  "TabOrder": 146,
-  "TextLength": 876,
-  "Tooltip": "nemo",
-  "UdefIdentity": 1000,
-  "UDListDefinitionId": 49,
+  "ShortLabel": "et",
+  "TabOrder": 18,
+  "TextLength": 364,
+  "Tooltip": "rem",
+  "UdefIdentity": 333,
+  "UDListDefinitionId": 462,
   "Justification": "Center",
-  "Version": 547,
-  "TemplateVariableName": "Kreiger-Lang",
-  "HasBeenPublished": true,
-  "MdoListName": "Ankunding-Towne",
+  "Version": 773,
+  "TemplateVariableName": "Jacobi, Price and Witting",
+  "HasBeenPublished": false,
+  "MdoListName": "Ankunding, Lehner and Leannon",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

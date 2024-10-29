@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 812,
-  "StartTime": "2023-10-02T03:44:52.4333602+02:00",
-  "EndTime": "2009-01-11T03:44:52.4333602+01:00",
-  "Count": 348,
-  "DocumentTemplateId": 646
+  "ProjectId": 745,
+  "StartTime": "2009-02-07T13:14:05.7726487+01:00",
+  "EndTime": "2003-11-05T13:14:05.7726487+01:00",
+  "Count": 582,
+  "DocumentTemplateId": 860
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 950,
-    "Attention": "dolorem",
-    "Header": "nesciunt",
-    "Name": "Ernser-Ritchie",
-    "OurRef": "ut",
-    "YourRef": "hic",
-    "Description": "Extended demand-driven secured line",
-    "DocumentTemplate": "et",
+    "DocumentId": 189,
+    "Attention": "hic",
+    "Header": "quia",
+    "Name": "Mitchell LLC",
+    "OurRef": "ipsa",
+    "YourRef": "asperiores",
+    "Description": "Automated logistical project",
+    "DocumentTemplate": "rerum",
     "IsPublished": false,
-    "PersonId": 86,
-    "PersonFullName": "Miss Jordon O'Keefe MD",
-    "AssociateFullName": "Keagan Ritchie",
-    "ContactId": 242,
-    "ContactName": "Carroll Inc and Sons",
-    "ProjectId": 993,
-    "ProjectName": "Heaney-Brakus",
-    "AssociateId": 612,
-    "Snum": 766,
-    "SaleId": 780,
-    "SaleName": "Botsford Group",
+    "PersonId": 890,
+    "PersonFullName": "Ms. Holden Monique Hilll DVM",
+    "AssociateFullName": "Jayme Rippin",
+    "ContactId": 443,
+    "ContactName": "Sauer LLC",
+    "ProjectId": 179,
+    "ProjectName": "Kirlin, Miller and Jacobi",
+    "AssociateId": 411,
+    "Snum": 784,
+    "SaleId": 501,
+    "SaleName": "Ledner, Stoltenberg and Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 957
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

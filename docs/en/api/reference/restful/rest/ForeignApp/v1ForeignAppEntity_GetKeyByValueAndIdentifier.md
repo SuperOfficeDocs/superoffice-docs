@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=qui
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=occaecati
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 16 Jul 2023 03:44:57 G7T
+Last-Modified: Wed, 22 Apr 2009 13:14:10 G4T
 
 {
-  "Key": "quis",
-  "Value": "exercitationem",
-  "RecordId": 633,
-  "CreatedDate": "2009-05-18T03:44:57.359003+02:00",
-  "UpdatedDate": "2023-07-16T03:44:57.359003+02:00",
-  "UpdatedBy": "maiores",
-  "CreatedBy": "voluptas",
-  "TableName": "Hane Inc and Sons",
+  "Key": "ipsa",
+  "Value": "est",
+  "RecordId": 273,
+  "CreatedDate": "2015-06-28T13:14:10.8516656+02:00",
+  "UpdatedDate": "2009-04-22T13:14:10.8516656+02:00",
+  "UpdatedBy": "consequatur",
+  "CreatedBy": "quod",
+  "TableName": "Reichel-Hartmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldType": "System.String",
+      "FieldLength": 812
     }
   }
 }

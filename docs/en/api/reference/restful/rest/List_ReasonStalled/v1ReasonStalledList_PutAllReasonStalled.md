@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Grimes Group",
-    "Tooltip": "sequi",
+    "Id": 8,
+    "Name": "King, Mosciski and Bahringer",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "UdListDefinitionId": 724,
-    "Rank": 577
+    "UdListDefinitionId": 548,
+    "Rank": 790
   },
   {
-    "Id": 813,
-    "Name": "Grimes Group",
-    "Tooltip": "sequi",
+    "Id": 8,
+    "Name": "King, Mosciski and Bahringer",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "UdListDefinitionId": 724,
-    "Rank": 577
+    "UdListDefinitionId": 548,
+    "Rank": 790
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Botsford, Graham and Trantow",
-    "Tooltip": "amet",
+    "Id": 104,
+    "Name": "Predovic LLC",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 792,
-    "Rank": 427,
+    "UdListDefinitionId": 509,
+    "Rank": 34,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldType": "System.String",
+        "FieldLength": 146
       }
     }
   }

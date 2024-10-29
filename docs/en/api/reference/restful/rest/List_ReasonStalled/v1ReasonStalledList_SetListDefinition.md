@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Stoltenberg, Schuster and Lubowitz",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "Rank": 669,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
+  "Id": 678,
+  "Name": "Howe LLC",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "Rank": 442,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "enim",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "Crona Inc and Sons",
-  "Tooltip": "quia",
+  "Id": 494,
+  "Name": "Wilkinson, Ankunding and DuBuque",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 857,
+  "Rank": 173,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "illo",
+  "ListType": "totam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

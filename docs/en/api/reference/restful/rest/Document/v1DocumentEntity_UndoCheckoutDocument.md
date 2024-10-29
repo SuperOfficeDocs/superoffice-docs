@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "veniam",
-  "VersionId": "qui",
-  "Success": true,
+  "ExternalReference": "optio",
+  "VersionId": "velit",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "commodi",
-  "AdditionalInfo": "velit"
+  "Value": "quidem",
+  "AdditionalInfo": "neque"
 }
 ```

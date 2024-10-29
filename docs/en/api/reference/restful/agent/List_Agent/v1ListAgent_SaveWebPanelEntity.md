@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 733,
-  "Name": "Brakus, Ondricka and Windler",
-  "Tooltip": "veritatis",
+  "WebPanelId": 673,
+  "Name": "Hirthe, Harris and Farrell",
+  "Tooltip": "delectus",
   "Deleted": false,
-  "Rank": 271,
+  "Rank": 473,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Pagac-Spinka",
+  "ShowInStatusBar": false,
+  "WindowName": "Schuster, Balistreri and Murphy",
   "Url": "http://www.example.com/",
-  "ProgId": "mollitia",
-  "Icon": 784,
+  "ProgId": "optio",
+  "Icon": 931,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 177,
-  "Name": "Mayer-Goyette",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "Rank": 810,
+  "WebPanelId": 189,
+  "Name": "Bosco Inc and Sons",
+  "Tooltip": "deserunt",
+  "Deleted": false,
+  "Rank": 454,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Tillman Inc and Sons",
+  "WindowName": "O'Conner, Bartell and Connelly",
   "Url": "http://www.example.com/",
-  "ProgId": "molestias",
-  "Icon": 246,
+  "ProgId": "qui",
+  "Icon": 338,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 231
     }
   }
 }

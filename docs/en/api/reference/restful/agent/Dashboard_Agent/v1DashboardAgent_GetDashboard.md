@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=72
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=537
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 114,
-  "AssociateId": 565,
-  "Caption": "in",
+  "DashboardId": 694,
+  "AssociateId": 290,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 104,
-      "Caption": "error",
-      "Description": "Decentralized well-modulated knowledge user",
-      "ChartName": "Stehr LLC",
-      "ChartId": "ducimus",
+      "DashboardTileId": 48,
+      "Caption": "distinctio",
+      "Description": "Re-engineered responsive productivity",
+      "ChartName": "Reynolds Inc and Sons",
+      "ChartId": "dolorem",
       "IsDefault": false,
-      "AssociateId": 319,
-      "GroupId": 981,
-      "SelectionId": 618,
-      "Config": "tempora",
+      "AssociateId": 251,
+      "GroupId": 828,
+      "SelectionId": 209,
+      "Config": "excepturi",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldType": "System.String",
+          "FieldLength": 696
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldType": "System.Int32",
+      "FieldLength": 903
     }
   }
 }

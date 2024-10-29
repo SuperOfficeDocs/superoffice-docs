@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 815,
-    "Name": "Keeling LLC",
-    "PersonId": 363,
-    "Rank": 960,
-    "Tooltip": "officia",
+    "AssociateId": 32,
+    "Name": "Prosacco, Oberbrunner and Koch",
+    "PersonId": 25,
+    "Rank": 10,
+    "Tooltip": "et",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 210,
-    "FullName": "Prof. Breana Jessica Marquardt",
-    "FormalName": "Kuhic, Cassin and Altenwerth",
-    "Deleted": false,
-    "EjUserId": 643,
-    "UserName": "Gorczany-Mante",
+    "GroupIdx": 946,
+    "FullName": "Ms. Seth Berge",
+    "FormalName": "Beahan Inc and Sons",
+    "Deleted": true,
+    "EjUserId": 226,
+    "UserName": "Pagac, Von and Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldType": "System.Int32",
+        "FieldLength": 809
       }
     }
   }

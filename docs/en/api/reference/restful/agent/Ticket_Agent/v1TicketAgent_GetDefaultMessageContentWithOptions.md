@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 473,
+  "TicketId": 652,
   "MessageActionType": "Forward",
-  "TicketMessageId": 738,
-  "TicketTypeId": 590,
-  "ExcludeSignature": false
+  "TicketMessageId": 401,
+  "TicketTypeId": 422,
+  "ExcludeSignature": true
 }
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "voluptatum",
+  "Body": "reiciendis",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 274,
-      "Name": "White, Braun and Pagac",
-      "ContentType": "est",
-      "AttSize": 338,
+      "AttachmentId": 556,
+      "Name": "White-Macejkovic",
+      "ContentType": "asperiores",
+      "AttSize": 735,
       "InlineImage": false,
-      "ContentId": "velit",
-      "AuthKey": "accusamus",
-      "IsSafeFileExtension": true,
+      "ContentId": "numquam",
+      "AuthKey": "rem",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 524
+          "FieldLength": 159
         }
       }
     }

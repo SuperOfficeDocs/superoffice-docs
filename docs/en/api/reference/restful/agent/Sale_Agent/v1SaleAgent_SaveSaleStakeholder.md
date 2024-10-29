@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Tremblay, Nicolas and Cartwright",
-  "Comment": "odio",
-  "StakeholderRoleId": 308,
-  "CountryId": 69,
-  "PersonId": 974,
-  "EmailDescription": "wendell_kiehn@daughertygorczany.uk",
-  "EmailId": 6,
-  "EmailAddress": "ramon.volkman@hermann.ca",
-  "PhoneId": 945,
-  "ContactName": "Koss, Heller and Cormier",
-  "ContactId": 688,
-  "SaleId": 772,
-  "Mrmrs": "accusamus",
-  "Firstname": "Bessie",
-  "MiddleName": "Dickinson, Jakubowski and Schaefer",
-  "Lastname": "Watsica",
-  "SaleStakeholderId": 94,
-  "Rank": 887,
-  "Phone": "1-464-810-3150"
+  "StakeholderRoleName": "Stoltenberg-Altenwerth",
+  "Comment": "cumque",
+  "StakeholderRoleId": 848,
+  "CountryId": 280,
+  "PersonId": 152,
+  "EmailDescription": "pink@doyleryan.biz",
+  "EmailId": 851,
+  "EmailAddress": "kayleigh@denesik.ca",
+  "PhoneId": 925,
+  "ContactName": "Feest-Romaguera",
+  "ContactId": 423,
+  "SaleId": 49,
+  "Mrmrs": "tempora",
+  "Firstname": "Meagan",
+  "MiddleName": "Collins-Luettgen",
+  "Lastname": "Toy",
+  "SaleStakeholderId": 631,
+  "Rank": 126,
+  "Phone": "335.978.6374 x0707"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Rempel, Ondricka and Gusikowski",
-  "Comment": "ipsam",
-  "StakeholderRoleId": 200,
-  "CountryId": 748,
-  "PersonId": 342,
-  "EmailDescription": "oma@schmeler.com",
-  "EmailId": 670,
-  "EmailAddress": "dallas.hilpert@damore.co.uk",
-  "PhoneId": 522,
-  "ContactName": "Roberts-Ziemann",
-  "ContactId": 401,
-  "SaleId": 851,
-  "Mrmrs": "aspernatur",
-  "Firstname": "Nicklaus",
-  "MiddleName": "Balistreri, Wolff and Hermann",
-  "Lastname": "Shanahan",
-  "SaleStakeholderId": 746,
-  "Rank": 984,
-  "Phone": "377-933-8995",
+  "StakeholderRoleName": "Turcotte, Parker and Krajcik",
+  "Comment": "ut",
+  "StakeholderRoleId": 103,
+  "CountryId": 799,
+  "PersonId": 591,
+  "EmailDescription": "lew.jacobs@monahan.us",
+  "EmailId": 266,
+  "EmailAddress": "dallin@auerharris.uk",
+  "PhoneId": 551,
+  "ContactName": "Bayer-O'Keefe",
+  "ContactId": 953,
+  "SaleId": 943,
+  "Mrmrs": "laborum",
+  "Firstname": "Katelynn",
+  "MiddleName": "Goyette-Cruickshank",
+  "Lastname": "Bradtke",
+  "SaleStakeholderId": 550,
+  "Rank": 971,
+  "Phone": "(101)835-7610 x16189",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

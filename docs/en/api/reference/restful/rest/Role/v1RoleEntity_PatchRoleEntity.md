@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 809,
-  "Name": "Batz-Shields",
-  "Tooltip": "repellendus",
+  "RoleId": 27,
+  "Name": "Sipes, Kulas and Ferry",
+  "Tooltip": "quas",
   "RoleType": "Anonymous",
-  "Deleted": 433,
-  "Rank": 465,
-  "Created": "2000-03-13T03:44:57.5000465+01:00",
-  "UseCategories": 311,
+  "Deleted": 301,
+  "Rank": 346,
+  "Created": "1999-09-22T13:14:10.9610472+02:00",
+  "UseCategories": 699,
   "CreatedBy": null,
-  "Updated": "2000-12-12T03:44:57.5000465+01:00",
+  "Updated": "1999-01-06T13:14:10.9610472+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 792
     }
   },
   "_Links": {

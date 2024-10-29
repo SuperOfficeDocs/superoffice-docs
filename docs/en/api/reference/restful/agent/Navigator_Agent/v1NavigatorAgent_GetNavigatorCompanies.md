@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beer-Rolfson"
+  "Name": "Turner-Murazik"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Value": "ut",
-    "Tooltip": "saepe",
+    "Id": 226,
+    "Value": "saepe",
+    "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   },
   {
-    "Id": 905,
-    "Value": "ut",
-    "Tooltip": "saepe",
+    "Id": 226,
+    "Value": "saepe",
+    "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

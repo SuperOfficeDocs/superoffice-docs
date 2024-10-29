@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 216,
+  "LatestKnownEventId": 943,
   "PublishEvents": [
     {
-      "EventId": 883,
-      "EventName": "Block-Koepp",
-      "EntityType": "quaerat",
-      "EntityKey": 139,
-      "AssociateId": 276,
-      "AssociateName": "Pfannerstill-Bode",
-      "EventDateTime": "2000-01-10T03:44:53.4498657+01:00"
+      "EventId": 44,
+      "EventName": "Ankunding-Carroll",
+      "EntityType": "modi",
+      "EntityKey": 396,
+      "AssociateId": 615,
+      "AssociateName": "Schowalter LLC",
+      "EventDateTime": "2012-09-05T13:14:06.7570832+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Wolf Inc and Sons",
-      "Value": 746
+      "Name": "Beatty LLC",
+      "Value": 826
     },
     {
-      "Name": "Wolf Inc and Sons",
-      "Value": 746
+      "Name": "Beatty LLC",
+      "Value": 826
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 927,
-    "EventName": "Carter-Schneider",
-    "EntityType": "quam",
-    "EntityKey": 369,
-    "AssociateId": 167,
-    "AssociateName": "Osinski-Robel",
-    "EventDateTime": "2013-12-08T03:44:53.4498657+01:00",
+    "EventId": 153,
+    "EventName": "Hyatt-Hermann",
+    "EntityType": "vitae",
+    "EntityKey": 245,
+    "AssociateId": 70,
+    "AssociateName": "Yundt Inc and Sons",
+    "EventDateTime": "2022-02-21T13:14:06.7570832+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldLength": 121
       }
     }
   }

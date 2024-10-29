@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 57,
-  "Name": "Kub Inc and Sons",
-  "Description": "Horizontal assymetric toolset",
-  "WelcomeMessage": "totam",
+  "ChatTopicId": 315,
+  "Name": "Halvorson-Lebsack",
+  "Description": "Reduced neutral knowledge base",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2006-08-23T03:44:57.0940238+02:00",
-  "SecondsPrAccept": 754,
-  "AlertRecipient": "ut",
+  "LastAccept": "2021-06-26T13:14:10.6797802+02:00",
+  "SecondsPrAccept": 897,
+  "AlertRecipient": "voluptatem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "reiciendis",
+  "BadgeHeader": "omnis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eos",
-  "WarnNewChatMinutes": 586,
-  "WarnManagerNewChatMinutes": 120,
+  "CustomQueueText": "iste",
+  "WarnNewChatMinutes": 776,
+  "WarnManagerNewChatMinutes": 715,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 126,
-  "WarnManagerChatMessageMinutes": 359,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 618,
-  "OfflineFormQueueLength": 530,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "rerum",
+  "WarnChatMessageMinutes": 919,
+  "WarnManagerChatMessageMinutes": 620,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 780,
+  "OfflineFormQueueLength": 138,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   },
   "_Links": {

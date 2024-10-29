@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 306,
-  "Year": 91,
-  "TargetDimensionId": 290
+  "UserGroupId": 98,
+  "Year": 582,
+  "TargetDimensionId": 527
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 902,
+    "TargetAssignmentInfoId": 741,
     "Values": [
-      798,
-      306
+      913,
+      189
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 324,
-    "DimensionListItemDisplayName": "Murazik, Doyle and Lindgren",
+    "DimensionListItem": 500,
+    "DimensionListItemDisplayName": "Kirlin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

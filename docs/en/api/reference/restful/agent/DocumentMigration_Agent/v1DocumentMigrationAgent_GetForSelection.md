@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 993,
-  "SelectionId": 132,
+  "DocumentPluginId": 270,
+  "SelectionId": 351,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 624,
-  "NumDocumentsAlreadyMigrated": 259,
+  "NumDocumentsOmitted": 200,
+  "NumDocumentsAlreadyMigrated": 665,
   "Documents": [
     {
-      "DocumentId": 82,
-      "ContactId": 277,
-      "PersonId": 881,
-      "SaleId": 182,
-      "ProjectId": 446,
-      "DocTmplId": 793,
-      "AssociateId": 347,
-      "UserGroupId": 994,
-      "VisibleForId": 533
+      "DocumentId": 199,
+      "ContactId": 118,
+      "PersonId": 755,
+      "SaleId": 113,
+      "ProjectId": 409,
+      "DocTmplId": 482,
+      "AssociateId": 452,
+      "UserGroupId": 148,
+      "VisibleForId": 782
     }
   ],
   "Associates": [
     {
-      "AssociateId": 419,
-      "EmailAddress": "imelda_kihn@vonruedenmclaughlin.com"
+      "AssociateId": 263,
+      "EmailAddress": "clemens_marvin@goldner.co.uk"
     },
     {
-      "AssociateId": 419,
-      "EmailAddress": "imelda_kihn@vonruedenmclaughlin.com"
+      "AssociateId": 263,
+      "EmailAddress": "clemens_marvin@goldner.co.uk"
     }
   ]
 }

@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 111,
-  "ToAssociate": "aliquid"
+  "ChatSessionId": 955,
+  "ToAssociate": "vero"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 799,
-  "TopicId": 877,
+  "ChatSessionId": 563,
+  "TopicId": 468,
   "User": null,
   "Person": null,
-  "CustomerAlias": "officia",
-  "CustomerHost": "sequi",
-  "CustomerName": "Dicki, Parisian and Turner",
-  "CustomerEmail": "kathryn.connelly@orn.biz",
-  "CustomerPhone": "(141)192-5994 x59942",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "architecto",
+  "CustomerName": "Gleason-Hansen",
+  "CustomerEmail": "joana@eichmann.name",
+  "CustomerPhone": "038-336-1681 x904",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Nicolas LLC",
+  "CustomerCompanyName": "Auer, O'Hara and Nitzsche",
   "Status": "Closed",
-  "FirstMessage": "a",
-  "LastMessage": "necessitatibus",
-  "WhenRequested": "2018-08-14T03:44:52.1365075+02:00",
-  "WhenStarted": "2002-02-13T03:44:52.1365075+01:00",
-  "WhenEnded": "2010-04-08T03:44:52.1365075+02:00",
-  "WhenIdle": "2006-01-15T03:44:52.1365075+01:00",
-  "WhenFetched": "2001-07-15T03:44:52.1365075+02:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 884,
-  "AlertLevel": 841,
-  "Rank": 873,
+  "FirstMessage": "et",
+  "LastMessage": "eum",
+  "WhenRequested": "2010-01-13T13:14:05.5851375+01:00",
+  "WhenStarted": "2005-01-25T13:14:05.5851375+01:00",
+  "WhenEnded": "1998-02-09T13:14:05.5851375+01:00",
+  "WhenIdle": "2005-01-28T13:14:05.5851375+01:00",
+  "WhenFetched": "2019-07-16T13:14:05.5851375+02:00",
+  "SessionKey": "sunt",
+  "InitialQueuePos": 950,
+  "AlertLevel": 422,
+  "Rank": 189,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 69,
+  "Rating": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldLength": 780
     }
   }
 }

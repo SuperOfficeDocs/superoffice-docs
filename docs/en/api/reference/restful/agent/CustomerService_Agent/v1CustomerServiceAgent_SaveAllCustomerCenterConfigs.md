@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 456,
+      "CustConfigId": 121,
       "Type": "Options",
-      "Config": "debitis",
-      "CustLangId": 5,
-      "Registered": "2016-03-13T03:44:52.3865159+01:00",
-      "RegisteredAssociateId": 705,
-      "Updated": "1999-05-09T03:44:52.3865159+02:00",
-      "UpdatedAssociateId": 703
+      "Config": "optio",
+      "CustLangId": 654,
+      "Registered": "1999-04-01T13:14:05.7257709+02:00",
+      "RegisteredAssociateId": 671,
+      "Updated": "1999-06-19T13:14:05.7257709+02:00",
+      "UpdatedAssociateId": 671
     }
   ]
 }

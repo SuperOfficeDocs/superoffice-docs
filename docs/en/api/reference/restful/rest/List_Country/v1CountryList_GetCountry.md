@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 764,
-  "Name": "Renner, Stokes and Will",
-  "CurrencyId": 150,
-  "EnglishName": "Hessel, Runolfsdottir and Bayer",
+  "CountryId": 887,
+  "Name": "Keeling, Nikolaus and Legros",
+  "CurrencyId": 763,
+  "EnglishName": "Nicolas-Hauck",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Upgradable solution-oriented matrix",
-  "OrgNrText": "267631",
-  "InterAreaPrefix": "doloremque",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "iusto",
-  "DomainName": "Wilderman, McKenzie and Abbott",
-  "AddressLayoutId": 323,
-  "DomesticAddressLayoutId": 695,
-  "ForeignAddressLayoutId": 659,
-  "Rank": 845,
-  "Tooltip": "non",
-  "Deleted": false,
+  "ImageDescription": "Face to face multimedia collaboration",
+  "OrgNrText": "1279950",
+  "InterAreaPrefix": "tempore",
+  "DialInPrefix": "sint",
+  "ZipPrefix": "hic",
+  "DomainName": "Hoppe LLC",
+  "AddressLayoutId": 244,
+  "DomesticAddressLayoutId": 4,
+  "ForeignAddressLayoutId": 943,
+  "Rank": 994,
+  "Tooltip": "qui",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   }
 }

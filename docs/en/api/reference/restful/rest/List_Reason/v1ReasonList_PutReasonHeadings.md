@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 614,
-    "Name": "Fay, Upton and Blick",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 470,
-    "UdListDefinitionId": 235
+    "HeadingId": 62,
+    "Name": "Glover Inc and Sons",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "Rank": 701,
+    "UdListDefinitionId": 747
   },
   {
-    "HeadingId": 614,
-    "Name": "Fay, Upton and Blick",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 470,
-    "UdListDefinitionId": 235
+    "HeadingId": 62,
+    "Name": "Glover Inc and Sons",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "Rank": 701,
+    "UdListDefinitionId": 747
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 161,
-    "Name": "Gusikowski Inc and Sons",
-    "Tooltip": "sit",
+    "HeadingId": 263,
+    "Name": "Hahn, Grant and VonRueden",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "Rank": 158,
-    "UdListDefinitionId": 895,
+    "Rank": 375,
+    "UdListDefinitionId": 545,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldLength": 11
       }
     }
   }

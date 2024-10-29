@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 578,
-  "ERPQuoteVersionKey": "consequatur",
-  "QuoteId": 871,
-  "Description": "Profit-focused even-keeled toolset",
-  "Number": "529398",
+  "QuoteVersionId": 242,
+  "ERPQuoteVersionKey": "voluptatibus",
+  "QuoteId": 32,
+  "Description": "Organic full-range local area network",
+  "Number": "1249547",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 751,
-  "SentDate": "2017-09-13T03:44:53.042699+02:00",
-  "FollowupId": 950,
-  "ExpirationDate": "2002-12-02T03:44:53.042699+01:00",
-  "DeliveryCountryId": 15,
+  "LikelyQuoteAlternativeId": 473,
+  "SentDate": "2020-07-07T13:14:06.3039303+02:00",
+  "FollowupId": 652,
+  "ExpirationDate": "2010-11-08T13:14:06.3039303+01:00",
+  "DeliveryCountryId": 267,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 886,
+  "InvoiceCountryId": 196,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "quisquam",
-  "ERPPaymentTypeKey": "sit",
-  "ERPDeliveryTermsKey": "ab",
-  "ERPDeliveryTypeKey": "possimus",
-  "Rank": 41,
-  "ApprovedBy": 686,
-  "ApprovedText": "enim",
-  "ApprovedRegisteredBy": 278,
-  "ApprovedRegisteredDate": "1998-10-21T03:44:53.042699+02:00",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "veritatis",
-  "ExtraField4": "laborum",
-  "ExtraField5": "ducimus",
-  "LastRecalculated": "2008-03-31T03:44:53.042699+02:00",
-  "Updated": "2001-04-30T03:44:53.042699+02:00",
-  "UpdatedAssociateId": 435,
-  "Registered": "2005-02-05T03:44:53.042699+01:00",
-  "RegisteredAssociateId": 703,
-  "RequestAssociateId": 82,
-  "RequestComment": "est",
+  "ERPPaymentTermsKey": "cum",
+  "ERPPaymentTypeKey": "ducimus",
+  "ERPDeliveryTermsKey": "optio",
+  "ERPDeliveryTypeKey": "excepturi",
+  "Rank": 55,
+  "ApprovedBy": 45,
+  "ApprovedText": "illo",
+  "ApprovedRegisteredBy": 669,
+  "ApprovedRegisteredDate": "2001-07-09T13:14:06.3039303+02:00",
+  "ExtraField1": "sunt",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "illo",
+  "ExtraField4": "sit",
+  "ExtraField5": "ea",
+  "LastRecalculated": "2024-09-22T13:14:06.3039303+02:00",
+  "Updated": "2005-08-19T13:14:06.3039303+02:00",
+  "UpdatedAssociateId": 353,
+  "Registered": "2002-01-24T13:14:06.3039303+01:00",
+  "RegisteredAssociateId": 49,
+  "RequestAssociateId": 828,
+  "RequestComment": "et",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 748,
-      "ERPQuoteAlternativeKey": "debitis",
-      "QuoteVersionId": 880,
-      "Name": "Legros-Russel",
-      "Description": "Networked fresh-thinking productivity",
+      "QuoteAlternativeId": 397,
+      "ERPQuoteAlternativeKey": "aut",
+      "QuoteVersionId": 935,
+      "Name": "Powlowski-Corkery",
+      "Description": "Visionary interactive pricing structure",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 6738.0999999999995,
-      "ERPDiscountAmount": 29139.932,
-      "DiscountPercent": 20800.358,
-      "DiscountAmount": 7502.7959999999994,
+      "ERPDiscountPercent": 2428.85,
+      "ERPDiscountAmount": 21141.964,
+      "DiscountPercent": 19032.782,
+      "DiscountAmount": 8800.271999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "dicta",
-      "VAT": 14773.676,
-      "EarningPercent": 15328.394,
-      "EarningAmount": 30493.82,
-      "SubTotal": 26350.672,
-      "TotalPrice": 2181.264,
-      "ExtraField1": "perspiciatis",
-      "ExtraField2": "provident",
-      "ExtraField3": "esse",
-      "ExtraField4": "laborum",
-      "ExtraField5": "earum",
+      "VATInfo": "nihil",
+      "VAT": 711.418,
+      "EarningPercent": 15149.756,
+      "EarningAmount": 2178.13,
+      "SubTotal": 23019.23,
+      "TotalPrice": 23357.701999999997,
+      "ExtraField1": "placeat",
+      "ExtraField2": "et",
+      "ExtraField3": "et",
+      "ExtraField4": "saepe",
+      "ExtraField5": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 535
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldType": "System.String",
+      "FieldLength": 709
     }
   }
 }

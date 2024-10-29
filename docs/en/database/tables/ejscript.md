@@ -66,6 +66,7 @@ ejscript
 |[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[scheduled\_task](scheduled-task.md)  |A scheduled entry executing a script at certain times |
+|[screen\_chooser](screen-chooser.md)  |Screen choosers |
 |[screen\_definition\_action](screen-definition-action.md)  |An action to perform for a certain button in an screen |
 |[TaskMenu](taskmenu.md)  |List items to merge into menues |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |

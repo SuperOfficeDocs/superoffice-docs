@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "1999-11-29T03:44:52.027143+01:00",
-  "EndTime": "2015-06-23T03:44:52.027143+02:00",
-  "Count": 599
+  "StartTime": "1999-05-15T13:14:05.4913817+02:00",
+  "EndTime": "2018-01-15T13:14:05.4913817+01:00",
+  "Count": 90
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 10,
-    "StartDate": "2016-05-21T03:44:52.0427664+02:00",
-    "EndDate": "2005-03-22T03:44:52.0427664+01:00",
+    "AppointmentId": 832,
+    "StartDate": "2017-10-05T13:14:05.4913817+02:00",
+    "EndDate": "2004-02-15T13:14:05.4913817+01:00",
     "Type": "BookingForChecklist",
-    "Task": "vitae",
-    "AssociateFullName": "Miss Della Auer",
-    "ContactName": "Ferry-Gulgowski",
-    "Description": "Function-based incremental flexibility",
-    "PersonFullName": "Prof. Hilma Jaren Stamm DDS",
-    "PersonId": 270,
-    "ContactId": 84,
-    "ProjectId": 180,
-    "ProjectName": "Hyatt, Kerluke and Muller",
-    "IsPublished": false,
-    "AssociateId": 845,
-    "ColorIndex": 732,
+    "Task": "rem",
+    "AssociateFullName": "Esperanza Predovic",
+    "ContactName": "Gaylord-Swaniawski",
+    "Description": "Seamless didactic task-force",
+    "PersonFullName": "Harry Steuber",
+    "PersonId": 195,
+    "ContactId": 577,
+    "ProjectId": 883,
+    "ProjectName": "Bradtke Group",
+    "IsPublished": true,
+    "AssociateId": 62,
+    "ColorIndex": 140,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 446,
-    "PriorityName": "Cartwright Group",
+    "PriorityId": 817,
+    "PriorityName": "Simonis Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2015-02-20T03:44:52.0427664+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2024-10-21T13:14:05.4913817+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-03-16T03:44:52.0427664+01:00",
-    "RecurringEndDate": "2016-09-29T03:44:52.0427664+02:00",
-    "MotherId": 564,
-    "AssignedBy": 237,
-    "AssignedByFullName": "Earl Fritsch",
+    "RecurringStartDate": "2018-11-26T13:14:05.4913817+01:00",
+    "RecurringEndDate": "2001-12-02T13:14:05.4913817+01:00",
+    "MotherId": 713,
+    "AssignedBy": 413,
+    "AssignedByFullName": "Estevan Mraz",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "odio",
-    "SaleId": 130,
-    "SaleName": "Bergnaum, Ankunding and Ullrich",
-    "AssociateName": "Bernhard Inc and Sons",
-    "CreatedDate": "2002-12-19T03:44:52.0427664+01:00",
-    "CreatedBy": "expedita",
-    "CreatedByFullName": "Miss Caterina King III",
-    "CreatedByAssociateId": 105,
+    "Location": "rem",
+    "AlarmLeadTime": "enim",
+    "SaleId": 837,
+    "SaleName": "Hintz-Torphy",
+    "AssociateName": "Gleason Inc and Sons",
+    "CreatedDate": "2000-05-07T13:14:05.4913817+02:00",
+    "CreatedBy": "id",
+    "CreatedByFullName": "Jaylin Abernathy",
+    "CreatedByAssociateId": 439,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 712,
-    "Title": "dolorum",
-    "Agenda": "hic",
-    "InternalNotes": "voluptatem",
+    "PreferredTZLocation": 787,
+    "Title": "eligendi",
+    "Agenda": "fugit",
+    "InternalNotes": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 361
       }
     }
   }

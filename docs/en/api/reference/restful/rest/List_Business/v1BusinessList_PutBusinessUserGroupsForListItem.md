@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Champlin Group",
-    "ToolTip": "Qui reprehenderit ad non possimus mollitia iure.",
+    "Id": 239,
+    "Name": "Renner, Ziemann and Emard",
+    "ToolTip": "Aut quisquam sed facilis qui.",
     "Deleted": true,
-    "Rank": 169,
-    "Type": "a",
-    "ColorBlock": 30,
-    "IconHint": "praesentium",
+    "Rank": 956,
+    "Type": "ex",
+    "ColorBlock": 915,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2002-04-18T03:44:57.8281269+02:00",
+    "LastChanged": "2004-10-04T13:14:11.3204434+02:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Greenholt Group",
-        "ToolTip": "Aut eum suscipit consequatur aspernatur quas ratione.",
+        "Id": 785,
+        "Name": "Gerlach Inc and Sons",
+        "ToolTip": "Et qui.",
         "Deleted": false,
-        "Rank": 18,
-        "Type": "odio",
-        "ColorBlock": 114,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2010-01-04T03:44:57.8281269+01:00",
+        "Rank": 734,
+        "Type": "facere",
+        "ColorBlock": 759,
+        "IconHint": "minima",
+        "Selected": true,
+        "LastChanged": "2012-01-21T13:14:11.3204434+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sit",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Sherman Orn II"
+        "FullName": "Garry Kemmer"
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "a",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Davonte Mayert Jr."
+    "FullName": "Maxine Crona"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 163,
-    "Name": "Roberts-Altenwerth",
-    "ToolTip": "Ab sapiente rem minus.",
-    "Deleted": true,
-    "Rank": 242,
-    "Type": "porro",
-    "ColorBlock": 91,
-    "IconHint": "omnis",
+    "Id": 118,
+    "Name": "Kihn-Schulist",
+    "ToolTip": "Doloribus labore voluptatem voluptatem.",
+    "Deleted": false,
+    "Rank": 369,
+    "Type": "error",
+    "ColorBlock": 92,
+    "IconHint": "minima",
     "Selected": true,
-    "LastChanged": "2024-04-09T03:44:57.8281269+02:00",
+    "LastChanged": "2009-04-06T13:14:11.3204434+02:00",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Olson-Gleichner",
-        "ToolTip": "Cum at.",
+        "Id": 799,
+        "Name": "Blick LLC",
+        "ToolTip": "Aut quia.",
         "Deleted": false,
-        "Rank": 32,
-        "Type": "maxime",
-        "ColorBlock": 642,
-        "IconHint": "eum",
+        "Rank": 226,
+        "Type": "cum",
+        "ColorBlock": 718,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2007-01-05T03:44:57.8281269+01:00",
+        "LastChanged": "2002-06-09T13:14:11.3204434+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "cumque",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Prof. Baylee Gretchen Fisher",
+        "FullName": "Guy Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 276
+            "FieldType": "System.Int32",
+            "FieldLength": 182
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "eius",
-    "Hidden": true,
-    "FullName": "Margarita Myah Wilkinson I",
+    "ExtraInfo": "nemo",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Kenneth Rippin I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldType": "System.Int32",
+        "FieldLength": 713
       }
     }
   }

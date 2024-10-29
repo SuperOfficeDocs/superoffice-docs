@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 843,
-  "Name": "Kihn-Maggio",
+  "WebhookId": 323,
+  "Name": "Weimann, Cronin and Schoen",
   "Events": [
     "blanditiis",
-    "deleniti"
+    "qui"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
+  "Secret": "eos",
   "State": "Active",
-  "Type": "excepturi",
+  "Type": "voluptas",
   "Headers": {
-    "Headers1": "voluptate",
-    "Headers2": "eveniet"
+    "Headers1": "adipisci",
+    "Headers2": "in"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-01-16T03:44:57.7969186+01:00",
+  "Registered": "2022-06-26T13:14:11.289192+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-05-12T03:44:57.7969186+02:00",
+  "Updated": "2005-07-25T13:14:11.289192+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "vada@altenwerth.name"
+  "ErrorsEmail": "roberto@von.com"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 286,
-  "Name": "Medhurst-Watsica",
+  "WebhookId": 852,
+  "Name": "Berge Group",
   "Events": [
-    "eveniet",
+    "saepe",
     "consequatur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolorem",
+  "Secret": "iusto",
   "State": "Active",
-  "Type": "aut",
+  "Type": "ullam",
   "Headers": {
-    "Headers1": "asperiores",
-    "Headers2": "velit"
+    "Headers1": "nihil",
+    "Headers2": "ut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1997-11-07T03:44:57.7969186+01:00",
+  "Registered": "2004-05-06T13:14:11.289192+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-11-05T03:44:57.7969186+01:00",
+  "Updated": "2003-12-11T13:14:11.289192+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "paul_hessel@hauck.co.uk",
+  "ErrorsEmail": "cecelia@hauck.co.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

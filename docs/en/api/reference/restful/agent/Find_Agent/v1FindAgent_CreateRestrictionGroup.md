@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nulla",
-  "ProviderName": "Hyatt LLC",
-  "StorageKey": "hic",
-  "Context": "blanditiis"
+  "StorageType": "enim",
+  "ProviderName": "Gulgowski LLC",
+  "StorageKey": "et",
+  "Context": "sunt"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Klein-Labadie",
-  "Description": "Profound interactive knowledge user",
-  "Rank": 725,
+  "Name": "Kuhlman, Welch and Thiel",
+  "Description": "Business-focused object-oriented portal",
+  "Rank": 234,
   "Restrictions": [
     {
-      "Name": "Padberg-Murray",
-      "Operator": "ab",
+      "Name": "Powlowski Group",
+      "Operator": "quo",
       "Values": [
-        "animi",
-        "omnis"
+        "sit",
+        "placeat"
       ],
       "DisplayValues": [
-        "dolorum",
-        "laudantium"
+        "explicabo",
+        "id"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 960,
+      "InterParenthesis": 886,
       "InterOperator": "And",
-      "UniqueHash": 573
+      "UniqueHash": 643
     }
   ]
 }

@@ -43,6 +43,7 @@ Lists all email flow form content
 |emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -58,7 +59,7 @@ Lists all email flow form content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowFormContent?$select=emailFlow/emailFlowId,emailFlow/mediumThumbnail
+GET /api/v1/archive/EmailFlowFormContent?$select=emailFlow/emailFlowId,emailFlow/workflowId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

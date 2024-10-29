@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 482,
-  "ColumnId": 232,
-  "FieldDefault": "ab",
-  "FieldHeight": 108,
-  "FieldLabel": "ut",
-  "FieldLeft": 604,
-  "FieldTop": 364,
+  "UDefFieldId": 38,
+  "ColumnId": 559,
+  "FieldDefault": "quasi",
+  "FieldHeight": 322,
+  "FieldLabel": "minus",
+  "FieldLeft": 613,
+  "FieldTop": 886,
   "FieldType": "Checkbox",
-  "FieldWidth": 186,
-  "FormatMask": "et",
-  "HideLabel": true,
+  "FieldWidth": 523,
+  "FormatMask": "sit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 353,
-  "LabelLeft": 324,
-  "LabelTop": 598,
-  "LabelWidth": 26,
-  "LastVersionId": 27,
-  "ListTableId": 87,
+  "LabelHeight": 742,
+  "LabelLeft": 337,
+  "LabelTop": 510,
+  "LabelWidth": 64,
+  "LastVersionId": 635,
+  "ListTableId": 940,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 87,
-  "ProgId": "aut",
-  "IsReadOnly": true,
-  "ShortLabel": "autem",
-  "TabOrder": 479,
-  "TextLength": 479,
-  "Tooltip": "aperiam",
-  "UdefIdentity": 61,
-  "UDListDefinitionId": 170,
+  "Page1LineNo": 845,
+  "ProgId": "iure",
+  "IsReadOnly": false,
+  "ShortLabel": "aut",
+  "TabOrder": 977,
+  "TextLength": 258,
+  "Tooltip": "quae",
+  "UdefIdentity": 214,
+  "UDListDefinitionId": 418,
   "Justification": "Center",
-  "Version": 162,
-  "TemplateVariableName": "Gulgowski Group",
+  "Version": 522,
+  "TemplateVariableName": "Donnelly-VonRueden",
   "HasBeenPublished": false,
-  "MdoListName": "Schowalter, Yost and Durgan",
+  "MdoListName": "Romaguera Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 147
     }
   }
 }

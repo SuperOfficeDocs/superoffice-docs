@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 449,
-  "Caption": "necessitatibus",
-  "Description": "Advanced tangible core",
-  "ChartName": "Smith, Bins and McGlynn",
-  "ChartId": "porro",
-  "IsDefault": true,
-  "AssociateId": 651,
-  "GroupId": 115,
-  "SelectionId": 404,
-  "Config": "beatae",
+  "DashboardTileId": 558,
+  "Caption": "repudiandae",
+  "Description": "Focused leading edge Graphic Interface",
+  "ChartName": "Stanton Group",
+  "ChartId": "et",
+  "IsDefault": false,
+  "AssociateId": 334,
+  "GroupId": 69,
+  "SelectionId": 634,
+  "Config": "consequatur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "O'Keefe, Bednar and Cartwright",
-      "Description": "Multi-channelled client-server firmware",
+      "Name": "Daniel Group",
+      "Description": "Triple-buffered interactive success",
       "Type": "Boolean",
-      "ListName": "Wilderman, Kirlin and Donnelly",
+      "ListName": "Denesik, Beatty and Ondricka",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "itaque",
+      "Value": "enim",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldType": "System.Int32",
+          "FieldLength": 882
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 163,
+      "VisibleId": 150,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldLength": 148
         }
       }
     },
     {
-      "VisibleId": 163,
+      "VisibleId": 150,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldLength": 148
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 891
     }
   }
 }

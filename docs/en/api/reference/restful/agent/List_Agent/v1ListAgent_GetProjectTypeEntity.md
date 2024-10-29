@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=153
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=125
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 187,
-  "Name": "Krajcik Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 655,
+  "ProjTypeId": 197,
+  "Name": "Jones LLC",
+  "Tooltip": "consequatur",
+  "Rank": 978,
   "DurationUnit": "Century",
-  "ProjectDuration": 782,
+  "ProjectDuration": 717,
   "Deleted": false,
   "HasGuide": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 991,
-      "Name": "Beier-Roob",
-      "ToolTip": "Placeat voluptatibus et sint.",
-      "Deleted": true,
-      "Rank": 32,
-      "Type": "ut",
-      "ColorBlock": 571,
-      "IconHint": "eligendi",
+      "Id": 756,
+      "Name": "Russel, Franecki and Keeling",
+      "ToolTip": "Occaecati esse corporis odit.",
+      "Deleted": false,
+      "Rank": 315,
+      "Type": "ratione",
+      "ColorBlock": 236,
+      "IconHint": "inventore",
       "Selected": false,
-      "LastChanged": "2012-03-18T03:44:52.6833552+01:00",
+      "LastChanged": "2007-02-09T13:14:06.0695417+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rem",
-      "StyleHint": "labore",
-      "Hidden": true,
-      "FullName": "Mrs. Quentin Ortiz",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "id",
+      "Hidden": false,
+      "FullName": "Lera Schmidt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldLength": 922
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 954
     }
   }
 }

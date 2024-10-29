@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 225,
-  "EmailAddress": "stephany@lemkejacobs.info",
-  "EmailTemplateId": 716,
-  "CultureLcidId": 660,
-  "Subject": "velit"
+  "PersonId": 137,
+  "EmailAddress": "christa_rohan@gutkowski.us",
+  "EmailTemplateId": 940,
+  "CultureLcidId": 485,
+  "Subject": "fugit"
 }
 ```
 

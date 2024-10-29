@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 513,
-  "Created": "2008-11-09T03:44:53.0739396+01:00",
+  "SatelliteId": 510,
+  "Created": "2018-06-25T13:14:06.3508082+02:00",
   "CreatedBy": null,
-  "Updated": "2004-05-09T03:44:53.0739396+02:00",
+  "Updated": "2002-06-13T13:14:06.3508082+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Jacobson LLC",
-      "Description": "Monitored multi-tasking functionalities",
+      "Name": "Denesik Inc and Sons",
+      "Description": "Focused local implementation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Jacobson LLC",
-      "Description": "Monitored multi-tasking functionalities",
+      "Name": "Denesik Inc and Sons",
+      "Description": "Focused local implementation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 39,
-  "Created": "1997-08-12T03:44:53.0900933+02:00",
+  "SatelliteId": 980,
+  "Created": "2009-07-13T13:14:06.3508082+02:00",
   "CreatedBy": null,
-  "Updated": "2017-04-15T03:44:53.0900933+02:00",
+  "Updated": "2016-07-08T13:14:06.3508082+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Nader Inc and Sons",
-      "Description": "Digitized client-driven synergy",
+      "Name": "Treutel, Davis and Kuphal",
+      "Description": "Realigned value-added help-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldType": "System.String",
+          "FieldLength": 508
         }
       }
     },
     {
-      "Name": "Nader Inc and Sons",
-      "Description": "Digitized client-driven synergy",
+      "Name": "Treutel, Davis and Kuphal",
+      "Description": "Realigned value-added help-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldType": "System.String",
+          "FieldLength": 508
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 55
     }
   }
 }

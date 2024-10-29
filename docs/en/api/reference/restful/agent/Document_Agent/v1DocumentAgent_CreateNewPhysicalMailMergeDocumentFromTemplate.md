@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 964,
-  "UiCulture": "voluptates"
+  "DocumentId": 565,
+  "UiCulture": "enim"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 192,
+  "DocumentId": 286,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "in",
-  "Name": "Kirlin-Wisoky",
-  "OurRef": "vero",
-  "YourRef": "reprehenderit",
-  "CreatedDate": "1999-07-03T03:44:52.480256+02:00",
-  "UpdatedDate": "1999-08-03T03:44:52.480256+02:00",
-  "Description": "Mandatory even-keeled leverage",
+  "Attention": "molestiae",
+  "Header": "odit",
+  "Name": "Bernier, Price and Hyatt",
+  "OurRef": "alias",
+  "YourRef": "qui",
+  "CreatedDate": "2017-06-19T13:14:05.8976562+02:00",
+  "UpdatedDate": "2008-10-07T13:14:05.8976562+02:00",
+  "Description": "Fundamental didactic knowledge base",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-10-09T03:44:52.480256+02:00",
-  "ExternalRef": "sint",
+  "Date": "2014-05-19T13:14:05.8976562+02:00",
+  "ExternalRef": "labore",
   "Completed": "Completed",
-  "ActiveLinks": 703,
+  "ActiveLinks": 304,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kunze-Terry",
-      "Id": 655,
-      "Description": "Cross-platform secondary info-mediaries",
-      "ExtraInfo": "tempore",
-      "LinkId": 657,
+      "EntityName": "Swaniawski-Maggio",
+      "Id": 10,
+      "Description": "Multi-lateral coherent adapter",
+      "ExtraInfo": "sint",
+      "LinkId": 535,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 173
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 609,
-  "Snum": 268,
+  "SuggestedDocumentId": 533,
+  "Snum": 538,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ophelia Bednar III",
-    "SuperOffice:2": "Prof. Genesis Ivah Heathcote"
+    "SuperOffice:1": "77606410",
+    "SuperOffice:2": "2063502559"
   },
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "sunt",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "1998-03-20T03:44:52.480256+01:00",
-  "PublishTo": "2024-01-11T03:44:52.480256+01:00",
-  "PublishFrom": "2023-09-23T03:44:52.480256+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-09-24T13:14:05.8976562+02:00",
+  "PublishTo": "2023-03-24T13:14:05.8976562+01:00",
+  "PublishFrom": "2007-10-07T13:14:05.8976562+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 161,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     },
     {
-      "VisibleId": 161,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

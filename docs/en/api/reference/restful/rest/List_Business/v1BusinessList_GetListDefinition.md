@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Rutherford, Conroy and Jenkins",
-  "Tooltip": "doloremque",
+  "Id": 230,
+  "Name": "Romaguera, Armstrong and Pacocha",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 52,
-  "IsCustomList": true,
+  "Rank": 712,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldType": "System.String",
+      "FieldLength": 323
     }
   },
   "_Links": {

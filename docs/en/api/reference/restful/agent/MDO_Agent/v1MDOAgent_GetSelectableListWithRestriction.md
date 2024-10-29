@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Johnston, Kertzmann and Kessler",
-  "AdditionalInfo": "quae",
-  "SearchValue": "quisquam"
+  "Name": "Hackett Group",
+  "AdditionalInfo": "delectus",
+  "SearchValue": "eius"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Quitzon-Jacobs",
-    "ToolTip": "Laboriosam ut eum iste quam et.",
+    "Id": 457,
+    "Name": "Volkman-Homenick",
+    "ToolTip": "Voluptatem aut.",
     "Deleted": false,
-    "Rank": 194,
-    "Type": "eveniet",
-    "ColorBlock": 293,
-    "IconHint": "doloremque",
+    "Rank": 90,
+    "Type": "nam",
+    "ColorBlock": 486,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1998-10-19T03:44:52.7614393+02:00",
+    "LastChanged": "2000-02-22T13:14:06.1476714+01:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Gerhold-Wiegand",
-        "ToolTip": "Reprehenderit a est ipsum et earum.",
+        "Id": 267,
+        "Name": "Torp-Kling",
+        "ToolTip": "Ducimus recusandae saepe inventore dolorem est.",
         "Deleted": false,
-        "Rank": 21,
-        "Type": "iure",
-        "ColorBlock": 83,
-        "IconHint": "vel",
+        "Rank": 994,
+        "Type": "corporis",
+        "ColorBlock": 15,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2002-01-28T03:44:52.7614393+01:00",
+        "LastChanged": "2012-08-17T13:14:06.1476714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Mollie Hayes",
+        "FullName": "Idella Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 484
+            "FieldType": "System.String",
+            "FieldLength": 806
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "dolores",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Ms. Derick Eula Pfeffer Sr.",
+    "FullName": "Nora Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 34
       }
     }
   }

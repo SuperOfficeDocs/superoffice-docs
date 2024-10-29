@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schmidt, Dooley and VonRueden",
+  "ProviderName": "Christiansen, Farrell and Mraz",
   "Restrictions": [
     {
-      "Name": "Frami-Gerhold",
-      "Operator": "nisi",
+      "Name": "Bauch-Hintz",
+      "Operator": "aliquid",
       "Values": [
-        "qui",
-        "sapiente"
+        "labore",
+        "officia"
       ],
       "DisplayValues": [
-        "est",
-        "dolorem"
+        "necessitatibus",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 942,
+      "InterParenthesis": 74,
       "InterOperator": "And",
-      "UniqueHash": 935
+      "UniqueHash": 416
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hagenes-McCullough",
-    "DisplayTooltip": "ducimus",
-    "DisplayType": "placeat",
-    "CanOrderBy": false,
-    "Name": "Spencer, Blick and Lehner",
+    "DisplayName": "Ortiz, Mraz and Terry",
+    "DisplayTooltip": "est",
+    "DisplayType": "id",
+    "CanOrderBy": true,
+    "Name": "Gusikowski-Kassulke",
     "CanRestrictBy": true,
-    "RestrictionType": "qui",
-    "RestrictionListName": "Tremblay Group",
+    "RestrictionType": "expedita",
+    "RestrictionListName": "Koss-Farrell",
     "IsVisible": true,
-    "ExtraInfo": "dolorem",
-    "Width": "dicta",
-    "IconHint": "cupiditate",
-    "HeadingIconHint": "incidunt"
+    "ExtraInfo": "est",
+    "Width": "id",
+    "IconHint": "eveniet",
+    "HeadingIconHint": "in"
   }
 ]
 ```

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 748,
-    "Name": "Jaskolski-Dicki",
-    "Tooltip": "alias",
-    "Deleted": true,
-    "Rank": 385,
-    "UdListDefinitionId": 8
+    "HeadingId": 214,
+    "Name": "Emard, Fisher and Ondricka",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 492,
+    "UdListDefinitionId": 418
   },
   {
-    "HeadingId": 748,
-    "Name": "Jaskolski-Dicki",
-    "Tooltip": "alias",
-    "Deleted": true,
-    "Rank": 385,
-    "UdListDefinitionId": 8
+    "HeadingId": 214,
+    "Name": "Emard, Fisher and Ondricka",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 492,
+    "UdListDefinitionId": 418
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 191,
-    "Name": "Wisoky Inc and Sons",
-    "Tooltip": "error",
-    "Deleted": false,
-    "Rank": 96,
-    "UdListDefinitionId": 400,
+    "HeadingId": 581,
+    "Name": "Renner-Satterfield",
+    "Tooltip": "quam",
+    "Deleted": true,
+    "Rank": 169,
+    "UdListDefinitionId": 463,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 718
       }
     }
   }

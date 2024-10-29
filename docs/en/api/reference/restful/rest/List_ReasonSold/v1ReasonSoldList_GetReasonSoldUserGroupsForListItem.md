@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 114,
-    "Name": "Keebler, Conn and Franecki",
-    "ToolTip": "Optio a ex neque nihil non.",
+    "Id": 47,
+    "Name": "Lubowitz, Rempel and Bartoletti",
+    "ToolTip": "Est quis eos ratione et nihil.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "beatae",
-    "ColorBlock": 673,
-    "IconHint": "blanditiis",
+    "Rank": 5,
+    "Type": "quibusdam",
+    "ColorBlock": 871,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2005-11-09T03:44:58.1405935+01:00",
+    "LastChanged": "2009-07-08T13:14:11.5235812+02:00",
     "ChildItems": [
       {
-        "Id": 315,
-        "Name": "Williamson-Collins",
-        "ToolTip": "Magnam sint at.",
-        "Deleted": true,
-        "Rank": 720,
-        "Type": "dolore",
-        "ColorBlock": 723,
-        "IconHint": "sed",
+        "Id": 449,
+        "Name": "Grimes LLC",
+        "ToolTip": "Eveniet qui ipsam veniam soluta tempore.",
+        "Deleted": false,
+        "Rank": 913,
+        "Type": "laudantium",
+        "ColorBlock": 503,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2006-10-06T03:44:58.1405935+02:00",
+        "LastChanged": "1997-08-04T13:14:11.5235812+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "pariatur",
-        "Hidden": true,
-        "FullName": "Mellie Ward",
+        "ExtraInfo": "commodi",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Stanton Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 971
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "sint",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Mrs. Ewell Morar",
+    "FullName": "Taryn Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 431
+        "FieldType": "System.Int32",
+        "FieldLength": 54
       }
     }
   }

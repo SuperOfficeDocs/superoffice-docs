@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 940,
-    "Name": "Bauch Group",
-    "Tooltip": "beatae",
+    "HeadingId": 903,
+    "Name": "Cormier-Feeney",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "Rank": 73,
-    "UdListDefinitionId": 686,
+    "Rank": 216,
+    "UdListDefinitionId": 922,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 755
       }
     }
   }

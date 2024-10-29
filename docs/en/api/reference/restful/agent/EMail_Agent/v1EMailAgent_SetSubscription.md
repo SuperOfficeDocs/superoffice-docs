@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Kertzmann-Upton",
-      "Delimiter": "minus",
-      "Flags": "qui",
-      "TotalItems": 824,
-      "UnreadItems": 983,
+      "Name": "Emmerich-Rippin",
+      "Delimiter": "non",
+      "Flags": "facere",
+      "TotalItems": 1001,
+      "UnreadItems": 875,
       "Subscribed": false,
-      "EmailFolderId": 912
+      "EmailFolderId": 824
     }
   ]
 }

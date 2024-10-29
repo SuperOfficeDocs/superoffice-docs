@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 467,
-  "Name": "Schneider, Grady and Veum",
-  "Tooltip": "rerum",
+  "Id": 608,
+  "Name": "Quigley-Streich",
+  "Tooltip": "laboriosam",
   "Deleted": true,
-  "UdListDefinitionId": 961,
-  "Rank": 671,
+  "UdListDefinitionId": 342,
+  "Rank": 29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 787
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Hoeger, Labadie and Crona",
-    "ToolTip": "Commodi sint eius reiciendis et et.",
+    "Id": 443,
+    "Name": "Nolan-Keebler",
+    "ToolTip": "Adipisci et dolore error voluptas at sapiente.",
     "Deleted": true,
-    "Rank": 800,
-    "Type": "quis",
-    "ColorBlock": 226,
-    "IconHint": "voluptas",
+    "Rank": 637,
+    "Type": "facilis",
+    "ColorBlock": 461,
+    "IconHint": "tenetur",
     "Selected": false,
-    "LastChanged": "2014-04-01T03:44:57.9843605+02:00",
+    "LastChanged": "2019-07-17T13:14:11.3985731+02:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "O'Connell-Watsica",
-        "ToolTip": "Neque asperiores.",
-        "Deleted": false,
-        "Rank": 856,
-        "Type": "ducimus",
-        "ColorBlock": 347,
-        "IconHint": "aspernatur",
+        "Id": 860,
+        "Name": "Metz-Denesik",
+        "ToolTip": "Est aut sed et veritatis vitae ullam quisquam.",
+        "Deleted": true,
+        "Rank": 915,
+        "Type": "et",
+        "ColorBlock": 893,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "2011-03-28T03:44:57.9843605+02:00",
+        "LastChanged": "2020-02-11T13:14:11.3985731+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Arnaldo Terry"
+        "ExtraInfo": "officia",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Jaida Feil"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Corene Abbott"
+    "ExtraInfo": "sequi",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Ms. Neoma Bartell V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Auer-Kuhlman",
-    "ToolTip": "Nihil repellat ut ratione consectetur.",
+    "Id": 628,
+    "Name": "Kuhn, Predovic and Lubowitz",
+    "ToolTip": "Delectus illum soluta quos dolores possimus dolor dicta.",
     "Deleted": true,
-    "Rank": 331,
-    "Type": "consequatur",
-    "ColorBlock": 548,
-    "IconHint": "amet",
+    "Rank": 288,
+    "Type": "eligendi",
+    "ColorBlock": 643,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2024-03-01T03:44:57.9843605+01:00",
+    "LastChanged": "2004-08-01T13:14:11.3985731+02:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Heathcote-Smitham",
-        "ToolTip": "Officia voluptatem debitis voluptatem qui sit non nemo.",
+        "Id": 780,
+        "Name": "Harris, Swaniawski and Prosacco",
+        "ToolTip": "Delectus libero animi.",
         "Deleted": true,
-        "Rank": 808,
-        "Type": "quidem",
-        "ColorBlock": 606,
-        "IconHint": "qui",
+        "Rank": 239,
+        "Type": "autem",
+        "ColorBlock": 191,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2014-03-24T03:44:57.9843605+01:00",
+        "LastChanged": "2021-10-18T13:14:11.3985731+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "non",
+        "ExtraInfo": "provident",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Prof. Leonard Jewel Champlin DVM",
+        "FullName": "Dr. Kraig Mireya Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 993
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "officia",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Tania Huels",
+    "FullName": "Earlene Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 368
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=359
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=332
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 840,
-  "CreatedAt": "1997-11-28T03:44:53.340429+01:00",
+  "TicketMessageId": 481,
+  "CreatedAt": "2000-11-20T13:14:06.6633276+01:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "saepe",
-  "PersonId": 739,
-  "PersonFullName": "Buddy Prohaska",
-  "ContactId": 995,
-  "ContactName": "Wolff, Walsh and Rice",
+  "Author": "occaecati",
+  "PersonId": 703,
+  "PersonFullName": "Mrs. Tia Annamae Leuschke PhD",
+  "ContactId": 590,
+  "ContactName": "Schmitt-Satterfield",
   "ContactDepartment": "",
   "NumAttachments": 872,
-  "EmailHeader": "alejandra@durganreilly.ca",
+  "EmailHeader": "makayla_blick@lockman.com",
   "MessageHeaders": [
     {
-      "Id": 695,
-      "Name": "Haley, Hahn and Schroeder",
-      "Value": "culpa",
+      "Id": 729,
+      "Name": "Harber LLC",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 71
+          "FieldLength": 627
         }
       }
     }
   ],
-  "Language": "dolore",
-  "Sentiment": 479,
-  "SentimentConfidence": 815,
-  "CreatedBy": 273,
-  "ChangedAt": "1999-10-06T03:44:53.340429+02:00",
+  "Language": "reiciendis",
+  "Sentiment": 796,
+  "SentimentConfidence": 742,
+  "CreatedBy": 692,
+  "ChangedAt": "2005-08-11T13:14:06.6633276+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 673
     }
   }
 }

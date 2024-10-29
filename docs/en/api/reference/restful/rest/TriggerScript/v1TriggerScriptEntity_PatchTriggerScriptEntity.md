@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "ipsa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "ipsa",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 79,
-  "Name": "Gleason LLC",
+  "ScreenChooserId": 3,
+  "Name": "Senger, Greenholt and Terry",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "et",
-  "Registered": "2001-09-20T03:44:57.687517+02:00",
-  "RegisteredAssociateId": 650,
-  "Updated": "2016-01-06T03:44:57.687517+01:00",
-  "UpdatedAssociateId": 370,
+  "UniqueIdentifier": "at",
+  "Source": "voluptates",
+  "Registered": "2003-09-18T13:14:11.1954363+02:00",
+  "RegisteredAssociateId": 220,
+  "Updated": "2001-11-07T13:14:11.1954363+01:00",
+  "UpdatedAssociateId": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldType": "System.String",
+      "FieldLength": 266
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

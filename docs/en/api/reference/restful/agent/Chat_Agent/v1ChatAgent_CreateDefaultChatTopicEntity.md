@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 445,
-  "Name": "Osinski-Stanton",
-  "Description": "Switchable full-range database",
-  "WelcomeMessage": "a",
+  "ChatTopicId": 784,
+  "Name": "Barrows-Bode",
+  "Description": "Team-oriented uniform knowledge user",
+  "WelcomeMessage": "id",
   "Language": null,
-  "LastAccept": "2003-06-10T03:44:52.1208843+02:00",
-  "SecondsPrAccept": 17,
-  "AlertRecipient": "at",
+  "LastAccept": "2023-03-02T13:14:05.5695115+01:00",
+  "SecondsPrAccept": 181,
+  "AlertRecipient": "eveniet",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "quam",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ipsa",
-  "WarnNewChatMinutes": 35,
-  "WarnManagerNewChatMinutes": 846,
+  "CollectConsent": false,
+  "BadgeHeader": "quis",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "vero",
+  "WarnNewChatMinutes": 70,
+  "WarnManagerNewChatMinutes": 445,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 162,
-  "WarnManagerChatMessageMinutes": 209,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 342,
+  "WarnManagerChatMessageMinutes": 544,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 680,
-  "OfflineFormQueueLength": 892,
+  "OfflineFormTimeLimit": 217,
+  "OfflineFormQueueLength": 833,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "numquam",
+  "WidgetRatingText": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldLength": 47
     }
   }
 }

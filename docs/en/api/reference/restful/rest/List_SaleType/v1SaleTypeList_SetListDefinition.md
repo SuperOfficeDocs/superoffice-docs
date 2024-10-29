@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 967,
-  "Name": "Bauch, Cummings and Bergstrom",
-  "Tooltip": "cupiditate",
+  "Id": 211,
+  "Name": "Rohan-Gorczany",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 450,
+  "Rank": 550,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "ListType": "suscipit",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 877,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "quia",
+  "Id": 923,
+  "Name": "Lynch Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 203,
-  "IsCustomList": true,
+  "Rank": 731,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "ListType": "optio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 371
     }
   }
 }

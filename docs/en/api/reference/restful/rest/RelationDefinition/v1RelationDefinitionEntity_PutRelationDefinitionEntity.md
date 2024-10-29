@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 153,
-  "Name": "Will-Osinski",
-  "Tooltip": "magni",
-  "PassiveText": "omnis",
+  "ReldefId": 490,
+  "Name": "Lang-Lang",
+  "Tooltip": "est",
+  "PassiveText": "eos",
   "Deleted": false,
-  "Rank": 12,
+  "Rank": 517,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,25 +115,25 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 79,
-  "Name": "Rath-O'Hara",
-  "Tooltip": "ut",
-  "PassiveText": "atque",
-  "Deleted": true,
-  "Rank": 647,
+  "ReldefId": 635,
+  "Name": "McLaughlin LLC",
+  "Tooltip": "alias",
+  "PassiveText": "non",
+  "Deleted": false,
+  "Rank": 478,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldType": "System.String",
+      "FieldLength": 347
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

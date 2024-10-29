@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 801,
-  "Name": "Schinner, Zboncak and O'Reilly",
-  "Tooltip": "facilis",
-  "Deleted": false,
-  "Rank": 680,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": false
+  "Id": 322,
+  "Name": "Windler LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 35,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 81,
-  "Name": "Robel-Funk",
-  "Tooltip": "iure",
-  "Deleted": false,
-  "Rank": 968,
+  "Id": 334,
+  "Name": "Bruen LLC",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "Rank": 208,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "aliquid",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 105
     }
   }
 }

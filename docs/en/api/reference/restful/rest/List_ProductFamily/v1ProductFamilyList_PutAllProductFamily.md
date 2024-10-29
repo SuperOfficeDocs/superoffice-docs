@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Collins, Kshlerin and Weber",
-    "Tooltip": "possimus",
-    "Deleted": true,
-    "UdListDefinitionId": 114,
-    "Rank": 146
+    "Id": 395,
+    "Name": "Rempel-Runolfsson",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "UdListDefinitionId": 509,
+    "Rank": 304
   },
   {
-    "Id": 44,
-    "Name": "Collins, Kshlerin and Weber",
-    "Tooltip": "possimus",
-    "Deleted": true,
-    "UdListDefinitionId": 114,
-    "Rank": 146
+    "Id": 395,
+    "Name": "Rempel-Runolfsson",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "UdListDefinitionId": 509,
+    "Rank": 304
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Stark Inc and Sons",
-    "Tooltip": "qui",
+    "Id": 959,
+    "Name": "Shields-Conn",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 620,
-    "Rank": 142,
+    "UdListDefinitionId": 867,
+    "Rank": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

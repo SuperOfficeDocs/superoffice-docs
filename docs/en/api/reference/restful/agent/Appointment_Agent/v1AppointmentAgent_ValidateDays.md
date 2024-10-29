@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "ab",
-    "eveniet"
+    "sapiente",
+    "quo"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2000-12-25T03:44:51.9490264+01:00",
-    "IsConflict": true,
-    "Description": "Multi-tiered zero defect framework",
-    "DescriptionStyleHint": "Function-based modular portal",
-    "Tooltip": "voluptate"
+    "Date": "2010-09-21T13:14:05.3976254+02:00",
+    "IsConflict": false,
+    "Description": "Inverse bi-directional pricing structure",
+    "DescriptionStyleHint": "Self-enabling dynamic collaboration",
+    "Tooltip": "voluptatum"
   },
   {
-    "Date": "2000-12-25T03:44:51.9490264+01:00",
-    "IsConflict": true,
-    "Description": "Multi-tiered zero defect framework",
-    "DescriptionStyleHint": "Function-based modular portal",
-    "Tooltip": "voluptate"
+    "Date": "2010-09-21T13:14:05.3976254+02:00",
+    "IsConflict": false,
+    "Description": "Inverse bi-directional pricing structure",
+    "DescriptionStyleHint": "Self-enabling dynamic collaboration",
+    "Tooltip": "voluptatum"
   }
 ]
 ```

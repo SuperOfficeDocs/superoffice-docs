@@ -107,30 +107,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 769,
-  "UniqueId": "explicabo",
-  "Name": "Emard-Considine",
-  "Description": "Ergonomic grid-enabled focus group",
-  "AssociateId": 521,
-  "Columns": 28,
+  "DashboardId": 39,
+  "UniqueId": "ut",
+  "Name": "Yundt Inc and Sons",
+  "Description": "Multi-layered tertiary contingency",
+  "AssociateId": 109,
+  "Columns": 801,
   "Theme": null,
-  "VisibleForAll": 989,
+  "VisibleForAll": 592,
   "VisibleForAssociates": [
-    136,
-    843
+    632,
+    648
   ],
   "VisibleForGroups": [
-    506,
-    565
+    90,
+    837
   ],
-  "PinForAll": 285,
+  "PinForAll": 497,
   "PinForAssociates": [
-    567,
-    946
+    34,
+    486
   ],
   "PinForGroups": [
-    348,
-    842
+    588,
+    989
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 681,
-  "UniqueId": "sit",
-  "Name": "Purdy-Collier",
-  "Description": "Horizontal multimedia neural-net",
-  "AssociateId": 304,
-  "Columns": 742,
+  "DashboardId": 838,
+  "UniqueId": "praesentium",
+  "Name": "Reinger-Brakus",
+  "Description": "Ameliorated high-level customer loyalty",
+  "AssociateId": 967,
+  "Columns": 402,
   "Theme": null,
-  "VisibleForAll": 354,
+  "VisibleForAll": 633,
   "VisibleForAssociates": [
-    304,
-    303
+    792,
+    185
   ],
   "VisibleForGroups": [
-    703,
-    322
+    977,
+    879
   ],
-  "PinForAll": 398,
+  "PinForAll": 946,
   "PinForAssociates": [
-    718,
-    849
+    259,
+    255
   ],
   "PinForGroups": [
-    797,
-    901
+    542,
+    202
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldType": "System.Int32",
+      "FieldLength": 382
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

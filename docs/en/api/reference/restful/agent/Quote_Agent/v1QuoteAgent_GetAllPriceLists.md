@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 946,
-  "Currency": "enim"
+  "QuoteConnectionId": 142,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 353,
-    "ERPPriceListKey": "veniam",
-    "QuoteConnectionId": 524,
-    "Name": "Ritchie, Koss and Kuvalis",
-    "Description": "Digitized radical analyzer",
-    "Currency": "voluptatem",
-    "CurrencyName": "Harber LLC",
-    "ValidFrom": "2024-04-10T03:44:53.0583181+02:00",
-    "ValidTo": "2015-02-22T03:44:53.0583181+01:00",
-    "IsActive": false,
+    "PriceListId": 759,
+    "ERPPriceListKey": "laborum",
+    "QuoteConnectionId": 77,
+    "Name": "Dare-O'Keefe",
+    "Description": "Networked bi-directional solution",
+    "Currency": "repudiandae",
+    "CurrencyName": "Moore, Gutkowski and Doyle",
+    "ValidFrom": "2020-05-23T13:14:06.3351823+02:00",
+    "ValidTo": "2006-03-14T13:14:06.3351823+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldLength": 274
       }
     }
   }

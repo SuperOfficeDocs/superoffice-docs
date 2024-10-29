@@ -12340,6 +12340,8 @@
       href: Services88/Appointment/UpdateAppointment.md
     - name: UpdateAppointmentFromIcsResponse
       href: Services88/Appointment/UpdateAppointmentFromIcsResponse.md
+    - name: UpdateAppointmentWithMode
+      href: Services88/Appointment/UpdateAppointmentWithMode.md
     - name: ValidateAppointmentEntity
       href: Services88/Appointment/ValidateAppointmentEntity.md
     - name: ValidateDays

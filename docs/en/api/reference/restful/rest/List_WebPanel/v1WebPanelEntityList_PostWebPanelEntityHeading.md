@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 749,
-  "Name": "Muller-Weber",
-  "Tooltip": "aut",
+  "HeadingId": 323,
+  "Name": "Quigley-Jacobson",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 613,
-  "UdListDefinitionId": 67
+  "Rank": 402,
+  "UdListDefinitionId": 544
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 804,
-  "Name": "White Group",
-  "Tooltip": "inventore",
+  "HeadingId": 303,
+  "Name": "Wyman-Feest",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 797,
-  "UdListDefinitionId": 942,
+  "Rank": 227,
+  "UdListDefinitionId": 341,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldType": "System.Int32",
+      "FieldLength": 855
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Langosh-Walter",
-    "ToolTip": "Repudiandae voluptates.",
+    "Id": 616,
+    "Name": "Olson, Spinka and Johns",
+    "ToolTip": "Odit inventore sit.",
     "Deleted": false,
-    "Rank": 676,
-    "Type": "at",
-    "ColorBlock": 191,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2022-03-02T03:44:57.9687368+01:00",
+    "Rank": 237,
+    "Type": "quam",
+    "ColorBlock": 243,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2015-07-16T13:14:11.3673211+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Hackett, Lesch and Jewess",
-        "ToolTip": "Qui ipsa optio repellat harum.",
+        "Id": 371,
+        "Name": "Purdy, Lubowitz and Tremblay",
+        "ToolTip": "Animi ut blanditiis voluptatem.",
         "Deleted": false,
-        "Rank": 944,
-        "Type": "quibusdam",
-        "ColorBlock": 97,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2019-06-15T03:44:57.9687368+02:00",
+        "Rank": 265,
+        "Type": "doloremque",
+        "ColorBlock": 688,
+        "IconHint": "rem",
+        "Selected": false,
+        "LastChanged": "2016-09-20T13:14:11.3673211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Eleanore Dooley",
+        "FullName": "Prof. Jarrod Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 668
+            "FieldLength": 412
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "nam",
+    "StyleHint": "totam",
     "Hidden": true,
-    "FullName": "Darrion Hintz",
+    "FullName": "Unique Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 705
       }
     }
   }

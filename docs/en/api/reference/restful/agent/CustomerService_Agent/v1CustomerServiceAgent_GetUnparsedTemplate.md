@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 25,
-  "LanguageId": 823
+  "ReplyTemplateId": 478,
+  "LanguageId": 818
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 676,
-  "PlainParsed": "quidem",
-  "HtmlParsed": "sed",
+  "ReplyTemplateId": 329,
+  "PlainParsed": "et",
+  "HtmlParsed": "laudantium",
   "Attachments": [
     {
-      "AttachmentId": 756,
-      "Name": "Stamm, Leuschke and Mueller",
-      "ContentType": "vel",
-      "AttSize": 217,
+      "AttachmentId": 822,
+      "Name": "Grady-Hessel",
+      "ContentType": "veniam",
+      "AttSize": 922,
       "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "et",
+      "ContentId": "animi",
+      "AuthKey": "veritatis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldLength": 236
         }
       }
     }
   ],
-  "Subject": "autem",
+  "Subject": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   }
 }

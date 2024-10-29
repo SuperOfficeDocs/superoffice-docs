@@ -81,13 +81,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 977,
-  "Name": "Dickinson Group",
-  "ContentType": "dolores",
-  "AttSize": 9,
+  "AttachmentId": 845,
+  "Name": "Ledner, Tremblay and Gutkowski",
+  "ContentType": "ut",
+  "AttSize": 433,
   "InlineImage": false,
-  "ContentId": "sequi",
-  "AuthKey": "rerum",
+  "ContentId": "ut",
+  "AuthKey": "necessitatibus",
   "IsSafeFileExtension": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 41,
-  "Name": "Ritchie-Sipes",
-  "ContentType": "inventore",
-  "AttSize": 169,
-  "InlineImage": false,
-  "ContentId": "animi",
-  "AuthKey": "sint",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 345,
+  "Name": "Gerlach, Stroman and Haag",
+  "ContentType": "libero",
+  "AttSize": 965,
+  "InlineImage": true,
+  "ContentId": "labore",
+  "AuthKey": "fuga",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 763
     }
   }
 }

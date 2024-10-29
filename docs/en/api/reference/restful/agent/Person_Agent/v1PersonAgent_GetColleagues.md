@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ipsa",
-    "PersonId": 834,
-    "Mrmrs": "ut",
-    "Firstname": "Ryder",
-    "Lastname": "Christiansen",
-    "MiddleName": "Bruen-Yundt",
-    "Title": "consequatur",
-    "Description": "Universal context-sensitive strategy",
-    "Email": "velda@jast.info",
-    "FullName": "Frida Kiehn",
-    "DirectPhone": "1-418-625-7513",
-    "FormalName": "Haag-Hamill",
-    "CountryId": 956,
-    "ContactId": 252,
-    "ContactName": "Bernier, Collins and Brakus",
-    "Retired": 863,
-    "Rank": 225,
-    "ActiveInterests": 829,
+    "Position": "commodi",
+    "PersonId": 532,
+    "Mrmrs": "accusantium",
+    "Firstname": "Willie",
+    "Lastname": "Kuvalis",
+    "MiddleName": "Ziemann, Jerde and Schmeler",
+    "Title": "sunt",
+    "Description": "Organic clear-thinking matrix",
+    "Email": "jeanette_rolfson@corkerymorar.com",
+    "FullName": "Ms. Buck Mayra Kshlerin",
+    "DirectPhone": "363-081-3473",
+    "FormalName": "Mosciski-Hamill",
+    "CountryId": 707,
+    "ContactId": 87,
+    "ContactName": "Sporer-Ankunding",
+    "Retired": 601,
+    "Rank": 82,
+    "ActiveInterests": 855,
     "ContactDepartment": "",
-    "ContactCountryId": 697,
-    "ContactOrgNr": "862559",
-    "FaxPhone": "(531)065-7062",
-    "MobilePhone": "608-728-3598 x102",
-    "ContactPhone": "810.243.1599",
-    "AssociateName": "Kulas Group",
-    "AssociateId": 565,
-    "UsePersonAddress": false,
-    "ContactFax": "dignissimos",
-    "Kanafname": "qui",
-    "Kanalname": "dolorem",
-    "Post1": "esse",
-    "Post2": "sunt",
-    "Post3": "tenetur",
-    "EmailName": "gunnar_hilpert@gleason.biz",
-    "ContactFullName": "Prof. Junius Schiller II",
-    "ActiveErpLinks": 991,
-    "TicketPriorityId": 842,
-    "SupportLanguageId": 891,
-    "SupportAssociateId": 383,
+    "ContactCountryId": 191,
+    "ContactOrgNr": "152273",
+    "FaxPhone": "1-870-195-4202 x1920",
+    "MobilePhone": "935-629-3271",
+    "ContactPhone": "181-297-7735",
+    "AssociateName": "Kub-Padberg",
+    "AssociateId": 204,
+    "UsePersonAddress": true,
+    "ContactFax": "quisquam",
+    "Kanafname": "odit",
+    "Kanalname": "omnis",
+    "Post1": "veritatis",
+    "Post2": "aut",
+    "Post3": "adipisci",
+    "EmailName": "hayley@durgan.com",
+    "ContactFullName": "Jayme Langosh",
+    "ActiveErpLinks": 165,
+    "TicketPriorityId": 98,
+    "SupportLanguageId": 991,
+    "SupportAssociateId": 562,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 424
       }
     }
   }

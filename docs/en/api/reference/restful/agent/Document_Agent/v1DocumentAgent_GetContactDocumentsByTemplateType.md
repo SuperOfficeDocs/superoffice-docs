@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 601,
-  "StartTime": "2002-06-05T03:44:52.4333602+02:00",
-  "EndTime": "2016-06-07T03:44:52.4333602+02:00",
-  "Count": 436,
-  "DocumentTemplateId": 899
+  "ContactId": 964,
+  "StartTime": "1999-03-11T13:14:05.7570229+01:00",
+  "EndTime": "2000-03-04T13:14:05.7570229+01:00",
+  "Count": 520,
+  "DocumentTemplateId": 284
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 783,
-    "Attention": "rerum",
-    "Header": "perspiciatis",
-    "Name": "Ward LLC",
-    "OurRef": "fugiat",
-    "YourRef": "perspiciatis",
-    "Description": "Cross-group coherent support",
-    "DocumentTemplate": "qui",
+    "DocumentId": 990,
+    "Attention": "earum",
+    "Header": "error",
+    "Name": "Pacocha, Greenholt and Schowalter",
+    "OurRef": "in",
+    "YourRef": "voluptatibus",
+    "Description": "Networked attitude-oriented emulation",
+    "DocumentTemplate": "ipsam",
     "IsPublished": false,
-    "PersonId": 196,
-    "PersonFullName": "Reece Corkery",
-    "AssociateFullName": "Howell O'Keefe",
-    "ContactId": 675,
-    "ContactName": "Toy-Schuppe",
-    "ProjectId": 591,
-    "ProjectName": "Mitchell LLC",
-    "AssociateId": 86,
-    "Snum": 817,
-    "SaleId": 7,
-    "SaleName": "Corkery, Balistreri and Brown",
+    "PersonId": 572,
+    "PersonFullName": "Carson Becker",
+    "AssociateFullName": "Roy Zulauf",
+    "ContactId": 772,
+    "ContactName": "Gorczany-Wolf",
+    "ProjectId": 874,
+    "ProjectName": "Hermiston Group",
+    "AssociateId": 38,
+    "Snum": 670,
+    "SaleId": 840,
+    "SaleName": "Herzog-Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 387
+        "FieldType": "System.Int32",
+        "FieldLength": 793
       }
     }
   }

@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 700,
-  "Name": "McLaughlin, Schoen and Abshire",
-  "CreatedDate": "2020-04-22T03:44:57.3433794+02:00",
-  "UpdatedDate": "2015-05-19T03:44:57.3433794+02:00",
+  "ForeignAppId": 865,
+  "Name": "Donnelly-Gottlieb",
+  "CreatedDate": "2008-07-29T13:14:10.8360396+02:00",
+  "UpdatedDate": "2011-08-14T13:14:10.8360396+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 190,
-      "Name": "Hand Group",
-      "CreatedDate": "2003-07-19T03:44:57.3433794+02:00",
-      "UpdatedDate": "2012-12-20T03:44:57.3433794+01:00",
-      "AssociateFullName": "Earline Lehner",
-      "CreatedBy": "autem",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "facere",
-      "ForeignAppId": 333,
+      "ForeignDeviceId": 200,
+      "Name": "Miller LLC",
+      "CreatedDate": "2012-11-14T13:14:10.8360396+01:00",
+      "UpdatedDate": "2020-08-26T13:14:10.8360396+02:00",
+      "AssociateFullName": "Miss Bryana Hammes",
+      "CreatedBy": "sapiente",
+      "UpdatedBy": "dicta",
+      "DeviceIdentifier": "laudantium",
+      "ForeignAppId": 30,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldType": "System.String",
+          "FieldLength": 290
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   }
 }

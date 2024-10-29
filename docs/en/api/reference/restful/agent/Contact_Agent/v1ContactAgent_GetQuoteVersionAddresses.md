@@ -84,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 499
+  "QuoteVersionId": 274
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 14739.202,
-    "Wgs84Longitude": 8652.974,
+    "Wgs84Latitude": 14569.966,
+    "Wgs84Longitude": 25774.016,
     "LocalizedAddress": [
       [
         {
-          "Name": "Keeling-Goyette",
-          "Value": "recusandae",
-          "Tooltip": "ipsum",
-          "Label": "ipsa",
-          "ValueLength": 689,
-          "AddressType": "molestiae",
+          "Name": "Homenick-Hauck",
+          "Value": "molestiae",
+          "Tooltip": "eveniet",
+          "Label": "nemo",
+          "ValueLength": 285,
+          "AddressType": "porro",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 817
+              "FieldLength": 655
             }
           }
         }
       ],
       [
         {
-          "Name": "Lubowitz, Cormier and Hayes",
-          "Value": "ex",
-          "Tooltip": "quis",
-          "Label": "natus",
-          "ValueLength": 208,
-          "AddressType": "ea",
+          "Name": "Dicki-Cronin",
+          "Value": "rem",
+          "Tooltip": "consequuntur",
+          "Label": "consequatur",
+          "ValueLength": 114,
+          "AddressType": "voluptatibus",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 182
+              "FieldLength": 119
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "iusto",
+    "Formatted": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 293
       }
     }
   }

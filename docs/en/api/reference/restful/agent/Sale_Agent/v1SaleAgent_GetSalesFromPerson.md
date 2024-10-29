@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 557,
-  "OnlyOpenSales": true
+  "PersonId": 40,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Veum Inc and Sons",
-    "SaleDate": "2010-10-24T03:44:53.136845+02:00",
-    "SaleId": 595,
-    "Probability": 601,
-    "Title": "et",
-    "Amount": 19656.448,
-    "Currency": "laboriosam",
-    "ProjectName": "Batz, Heathcote and Heaney",
-    "AssociateFullName": "Owen Tremblay",
-    "Description": "Persevering zero tolerance circuit",
+    "ContactName": "Cassin LLC",
+    "SaleDate": "2020-11-26T13:14:06.3976861+01:00",
+    "SaleId": 939,
+    "Probability": 698,
+    "Title": "dicta",
+    "Amount": 27811.115999999998,
+    "Currency": "et",
+    "ProjectName": "Goldner-Ankunding",
+    "AssociateFullName": "Wilber Terry",
+    "Description": "Multi-channelled encompassing alliance",
     "Status": "Lost",
-    "WeightedAmount": 2259.614,
-    "ProjectId": 184,
-    "EarningPercent": 16077.42,
-    "Earning": 12000.086,
-    "ContactId": 217,
-    "AssociateId": 637,
-    "PersonId": 831,
-    "SaleTypeId": 540,
-    "SaleTypeName": "Bernhard-Huels",
-    "PersonFullName": "Mr. Patrick Elwyn Fadel PhD",
+    "WeightedAmount": 6543.7919999999995,
+    "ProjectId": 993,
+    "EarningPercent": 29497.208,
+    "Earning": 23031.766,
+    "ContactId": 844,
+    "AssociateId": 618,
+    "PersonId": 897,
+    "SaleTypeId": 992,
+    "SaleTypeName": "Schamberger, Lynch and Mante",
+    "PersonFullName": "Prof. Alessandra Waelchi PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 588,
-    "NextDueDate": "2024-03-24T03:44:53.136845+01:00",
-    "Number": "1415644",
+    "ActiveErpLinks": 793,
+    "NextDueDate": "2015-01-19T13:14:06.3976861+01:00",
+    "Number": "584817",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldLength": 365
       }
     }
   }

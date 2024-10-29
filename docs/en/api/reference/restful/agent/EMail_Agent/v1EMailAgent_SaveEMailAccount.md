@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 745,
-  "EMailAddress": "earum",
-  "AssociateId": 659,
+  "EMailAccountId": 252,
+  "EMailAddress": "harum",
+  "AssociateId": 331,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 276,
-  "ErrorCount": 394,
+  "AccountStatus": 461,
+  "ErrorCount": 2,
   "ErrorReason": "",
-  "InboxFolder": "hic",
-  "SentFolder": "rerum"
+  "InboxFolder": "aliquam",
+  "SentFolder": "ut"
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 956,
-  "EMailAddress": "sequi",
-  "AssociateId": 325,
+  "EMailAccountId": 763,
+  "EMailAddress": "eum",
+  "AssociateId": 172,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 268,
-  "ErrorCount": 993,
-  "ErrorReason": "",
-  "InboxFolder": "nam",
-  "SentFolder": "labore",
+  "AccountStatus": 536,
+  "ErrorCount": 153,
+  "ErrorReason": "deploy 24/7 interfaces",
+  "InboxFolder": "repellendus",
+  "SentFolder": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 181
     }
   }
 }

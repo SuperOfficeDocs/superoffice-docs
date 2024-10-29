@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 837,
-  "Name": "Heller LLC",
+  "ScreenChooserId": 850,
+  "Name": "Metz-Gibson",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ullam",
-  "Source": "dolores",
-  "Registered": "2000-04-04T03:44:52.3708918+02:00",
-  "RegisteredAssociateId": 859,
-  "Updated": "2017-02-12T03:44:52.3708918+01:00",
-  "UpdatedAssociateId": 370
+  "Enabled": false,
+  "UniqueIdentifier": "esse",
+  "Source": "aliquid",
+  "Registered": "2017-12-19T13:14:05.710145+01:00",
+  "RegisteredAssociateId": 642,
+  "Updated": "2003-08-18T13:14:05.710145+02:00",
+  "UpdatedAssociateId": 47
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 466,
-  "Name": "Jewess LLC",
+  "ScreenChooserId": 346,
+  "Name": "Emmerich-Oberbrunner",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "delectus",
-  "Source": "praesentium",
-  "Registered": "2012-02-28T03:44:52.3708918+01:00",
-  "RegisteredAssociateId": 130,
-  "Updated": "2016-10-14T03:44:52.3708918+02:00",
-  "UpdatedAssociateId": 815,
+  "UniqueIdentifier": "at",
+  "Source": "aliquid",
+  "Registered": "2007-07-29T13:14:05.710145+02:00",
+  "RegisteredAssociateId": 518,
+  "Updated": "2020-11-23T13:14:05.710145+01:00",
+  "UpdatedAssociateId": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 858
     }
   }
 }

@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 169,
+  "DocumentId": 844,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "ducimus",
-  "Name": "Bergnaum, Roob and Shanahan",
-  "OurRef": "veritatis",
-  "YourRef": "aut",
-  "CreatedDate": "2017-08-15T03:44:52.480256+02:00",
-  "UpdatedDate": "2003-07-21T03:44:52.480256+02:00",
-  "Description": "Vision-oriented grid-enabled data-warehouse",
+  "Attention": "asperiores",
+  "Header": "optio",
+  "Name": "Little, Beer and Ward",
+  "OurRef": "fugiat",
+  "YourRef": "vero",
+  "CreatedDate": "2014-07-17T13:14:05.8820302+02:00",
+  "UpdatedDate": "2022-05-13T13:14:05.8820302+02:00",
+  "Description": "Mandatory well-modulated projection",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-03-20T03:44:52.480256+01:00",
-  "ExternalRef": "pariatur",
+  "Date": "2001-12-31T13:14:05.8976562+01:00",
+  "ExternalRef": "tempore",
   "Completed": "Completed",
-  "ActiveLinks": 526,
+  "ActiveLinks": 294,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gutmann-King",
-      "Id": 854,
-      "Description": "Operative fresh-thinking help-desk",
-      "ExtraInfo": "autem",
-      "LinkId": 654,
+      "EntityName": "Kautzer, Ebert and Williamson",
+      "Id": 829,
+      "Description": "Universal transitional algorithm",
+      "ExtraInfo": "beatae",
+      "LinkId": 551,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 662
+          "FieldLength": 69
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 135,
-  "Snum": 91,
+  "SuggestedDocumentId": 772,
+  "Snum": 510,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Eloy Cole IV",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Lizzie Grant",
+    "SuperOffice:2": "Ms. Gabriel Rogahn"
   },
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "molestias",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "nulla"
   },
-  "PublishEventDate": "2014-01-15T03:44:52.480256+01:00",
-  "PublishTo": "2001-01-31T03:44:52.480256+01:00",
-  "PublishFrom": "2010-09-20T03:44:52.480256+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-03-27T13:14:05.8976562+01:00",
+  "PublishTo": "2010-07-22T13:14:05.8976562+02:00",
+  "PublishFrom": "2006-01-18T13:14:05.8976562+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 349,
+      "VisibleId": 370,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldType": "System.String",
+          "FieldLength": 803
         }
       }
     },
     {
-      "VisibleId": 349,
+      "VisibleId": 370,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldType": "System.String",
+          "FieldLength": 803
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldLength": 704
     }
   }
 }

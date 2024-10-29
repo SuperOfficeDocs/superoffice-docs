@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SaleStakeholder?$select=name,department,category/id
 GET /api/v1/SaleStakeholder?$filter=name begins 'S'
 GET /api/v1/SaleStakeholder?$orderBy=name asc
-GET /api/v1/SaleStakeholder?$entities=nam
-GET /api/v1/SaleStakeholder?$top=536
-GET /api/v1/SaleStakeholder?$skip=991
+GET /api/v1/SaleStakeholder?$entities=omnis
+GET /api/v1/SaleStakeholder?$top=251
+GET /api/v1/SaleStakeholder?$skip=523
 GET /api/v1/SaleStakeholder?$mode=Full
 GET /api/v1/SaleStakeholder?$options=GrandTotal=true
-GET /api/v1/SaleStakeholder?$context=velit
+GET /api/v1/SaleStakeholder?$context=commodi
 GET /api/v1/SaleStakeholder?$format=JSON
 GET /api/v1/SaleStakeholder?$jsonSafe=True
 GET /api/v1/SaleStakeholder?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatum",
+  "odata.nextLink": "sed",
   "value": [
     {
-      "PrimaryKey": 1426,
+      "PrimaryKey": 5185,
       "EntityName": "person",
-      "personId": 1426,
-      "fullName": "Prof. Octavia Enrico Koch"
+      "personId": 5185,
+      "fullName": "Kaylah Osinski"
     },
     {
-      "PrimaryKey": 105,
+      "PrimaryKey": 9692,
       "EntityName": "person",
-      "personId": 105,
-      "fullName": "Renee Kuvalis"
+      "personId": 9692,
+      "fullName": "Jennifer Rocio Dickinson III"
     }
   ]
 }

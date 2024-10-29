@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 233,
-  "Name": "Barrows-Bauch",
-  "Tooltip": "officia",
+  "Id": 828,
+  "Name": "Bechtelar, Towne and Smitham",
+  "Tooltip": "quo",
   "Deleted": false,
-  "UdListDefinitionId": 571,
-  "Rank": 852
+  "UdListDefinitionId": 939,
+  "Rank": 25
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 916,
-  "Name": "Jewess-Volkman",
-  "Tooltip": "fugit",
-  "Deleted": true,
-  "UdListDefinitionId": 361,
-  "Rank": 568,
+  "Id": 239,
+  "Name": "Bernhard LLC",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "UdListDefinitionId": 831,
+  "Rank": 270,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 24
     }
   }
 }

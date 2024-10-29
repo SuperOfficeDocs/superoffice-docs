@@ -26,7 +26,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=674
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=551
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 610,
-  "Name": "Kutch Inc and Sons",
-  "Description": "Open-architected intermediate data-warehouse",
+  "ReportLabelLayoutId": 753,
+  "Name": "Wisoky, Runolfsson and Ondricka",
+  "Description": "Quality-focused encompassing customer loyalty",
   "Orientation": "Landscape",
-  "PaperWidth": 39,
-  "PaperHeight": 644,
-  "LeftMargin": 719,
-  "RightMargin": 350,
-  "TopMargin": 238,
-  "BottomMargin": 712,
-  "CountColumns": 801,
-  "CountRows": 976,
+  "PaperWidth": 463,
+  "PaperHeight": 162,
+  "LeftMargin": 805,
+  "RightMargin": 605,
+  "TopMargin": 203,
+  "BottomMargin": 640,
+  "CountColumns": 915,
+  "CountRows": 111,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldType": "System.String",
+      "FieldLength": 745
     }
   }
 }

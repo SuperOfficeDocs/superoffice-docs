@@ -80,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 216,
-  "Name": "Keebler, Windler and Bartoletti",
-  "Tooltip": "ut",
-  "TableName": "McCullough-Rice",
-  "Area": "cupiditate",
+  "TaskMenuId": 974,
+  "Name": "Ebert, Hane and Goldner",
+  "Tooltip": "aliquam",
+  "TableName": "Lowe-Batz",
+  "Area": "ut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 594,
+  "CrmScriptId": 641,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 887,
+  "Rank": 777,
   "Encoding": "ANSI",
-  "ProgId": "similique",
-  "Deleted": true,
+  "ProgId": "ratione",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

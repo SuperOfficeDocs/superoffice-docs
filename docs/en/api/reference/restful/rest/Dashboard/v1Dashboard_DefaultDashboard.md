@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 124,
-  "AssociateId": 896,
-  "Caption": "ipsam",
+  "DashboardId": 671,
+  "AssociateId": 960,
+  "Caption": "in",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 708,
-      "Caption": "libero",
-      "Description": "Reduced tangible protocol",
-      "ChartName": "Murray, Ebert and Kuvalis",
-      "ChartId": "tenetur",
+      "DashboardTileId": 91,
+      "Caption": "quis",
+      "Description": "Streamlined leading edge knowledge base",
+      "ChartName": "Gulgowski-Walsh",
+      "ChartId": "rerum",
       "IsDefault": false,
-      "AssociateId": 482,
-      "GroupId": 676,
-      "SelectionId": 952,
-      "Config": "officiis",
+      "AssociateId": 148,
+      "GroupId": 91,
+      "SelectionId": 403,
+      "Config": "sed",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 200
+          "FieldType": "System.Int32",
+          "FieldLength": 779
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 698
+      "FieldType": "System.Int32",
+      "FieldLength": 970
     }
   }
 }

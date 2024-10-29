@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 231,
-  "TopicId": 780,
+  "ChatSessionId": 316,
+  "TopicId": 128,
   "User": null,
   "Person": null,
-  "CustomerAlias": "neque",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Stoltenberg, Homenick and Murazik",
-  "CustomerEmail": "lenny@carter.info",
-  "CustomerPhone": "312.276.9490 x9752",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Heathcote, Lowe and Herman",
+  "CustomerAlias": "adipisci",
+  "CustomerHost": "accusamus",
+  "CustomerName": "Macejkovic-Klocko",
+  "CustomerEmail": "alysa_leannon@ullrichsmitham.info",
+  "CustomerPhone": "(859)920-6123",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Okuneva Group",
   "Status": "Closed",
-  "FirstMessage": "nulla",
-  "LastMessage": "nostrum",
-  "WhenRequested": "2004-02-16T03:44:57.0777633+01:00",
-  "WhenStarted": "2011-08-07T03:44:57.0777633+02:00",
-  "WhenEnded": "2016-07-08T03:44:57.0777633+02:00",
-  "WhenIdle": "2015-11-04T03:44:57.0777633+01:00",
-  "WhenFetched": "1998-10-06T03:44:57.0777633+02:00",
-  "SessionKey": "tempora",
-  "InitialQueuePos": 508,
-  "AlertLevel": 419,
-  "Rank": 112,
+  "FirstMessage": "ut",
+  "LastMessage": "itaque",
+  "WhenRequested": "2005-09-17T13:14:10.6641543+02:00",
+  "WhenStarted": "2008-08-16T13:14:10.6641543+02:00",
+  "WhenEnded": "1999-02-10T13:14:10.6641543+01:00",
+  "WhenIdle": "2000-06-19T13:14:10.6641543+02:00",
+  "WhenFetched": "2023-04-17T13:14:10.6641543+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 255,
+  "AlertLevel": 711,
+  "Rank": 802,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 160,
+  "Rating": 857,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldType": "System.String",
+      "FieldLength": 954
     }
   }
 }

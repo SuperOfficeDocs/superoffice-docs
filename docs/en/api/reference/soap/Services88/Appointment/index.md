@@ -116,6 +116,7 @@ Download [WSDL file for Services88/Appointment](../Services88-Appointment.md) if
 * [ToggleAppointmentStatus](ToggleAppointmentStatus.md)
 * [UpdateAppointment](UpdateAppointment.md)
 * [UpdateAppointmentFromIcsResponse](UpdateAppointmentFromIcsResponse.md)
+* [UpdateAppointmentWithMode](UpdateAppointmentWithMode.md)
 * [ValidateAppointmentEntity](ValidateAppointmentEntity.md)
 * [ValidateDays](ValidateDays.md)
 * [WillSendEmail](WillSendEmail.md)

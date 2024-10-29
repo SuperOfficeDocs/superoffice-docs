@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 130,
+  "ReportId": 501,
   "ReportCategory": "All",
-  "Description": "Organized empowering infrastructure",
+  "Description": "Open-architected fault-tolerant attitude",
   "ReportLayout": "CalendarMonth",
-  "Name": "Medhurst, Gusikowski and Jast",
-  "AssociateId": 497,
-  "TemplateId": 785,
+  "Name": "Sporer, Blick and Okuneva",
+  "AssociateId": 959,
+  "TemplateId": 991,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 93
     }
   }
 }

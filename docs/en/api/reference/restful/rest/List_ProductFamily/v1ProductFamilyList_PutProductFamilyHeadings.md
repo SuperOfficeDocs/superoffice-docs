@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 858,
-    "Name": "Funk Group",
-    "Tooltip": "aut",
+    "HeadingId": 486,
+    "Name": "Reinger-Orn",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "Rank": 996,
-    "UdListDefinitionId": 197
+    "Rank": 335,
+    "UdListDefinitionId": 449
   },
   {
-    "HeadingId": 858,
-    "Name": "Funk Group",
-    "Tooltip": "aut",
+    "HeadingId": 486,
+    "Name": "Reinger-Orn",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "Rank": 996,
-    "UdListDefinitionId": 197
+    "Rank": 335,
+    "UdListDefinitionId": 449
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 97,
-    "Name": "Bashirian-Larson",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "Rank": 581,
-    "UdListDefinitionId": 121,
+    "HeadingId": 194,
+    "Name": "Roob, Jacobs and Quitzon",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "Rank": 620,
+    "UdListDefinitionId": 232,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldType": "System.String",
+        "FieldLength": 304
       }
     }
   }

@@ -692,7 +692,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personUdef/SuperOffice:1,personSourceRelation/restrictionPersonId,personAssociate/contactName,request/timeToReply,projectMembers/projectUdef/SuperOffice:10
+GET /api/v1/archive/ExternalPersons?$select=personAddress/line1,personUdef/SuperOffice:7,personExtra/x_person_boolean,personTargetRelation/lastName,personTargetRelation/personRegisteredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

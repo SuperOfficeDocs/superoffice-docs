@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Johns LLC",
+  "TaskName": "Kemmer, Hegmann and O'Kon",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Lubowitz, Casper and Spinka",
-    "AssociateId": 349,
-    "DetailsTable": 992,
-    "DetailsRecord": 361,
-    "IsSystemTask": true,
+    "Id": 599,
+    "Name": "Hodkiewicz-Goyette",
+    "AssociateId": 884,
+    "DetailsTable": 993,
+    "DetailsRecord": 914,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "tenetur",
-      "ParameterObject2": "fugiat"
+      "ParameterObject1": "beatae",
+      "ParameterObject2": "occaecati"
     },
-    "LastStarted": "2002-04-01T03:44:52.0896371+02:00",
-    "Created": "2010-05-25T03:44:52.0896371+02:00",
-    "StartCount": 441,
-    "DatabaseSerialNumber": "1073110",
-    "Context": "excepturi",
-    "Result": "voluptatum",
+    "LastStarted": "2016-12-21T13:14:05.5382596+01:00",
+    "Created": "2021-11-19T13:14:05.5382596+01:00",
+    "StartCount": 49,
+    "DatabaseSerialNumber": "1285108",
+    "Context": "minus",
+    "Result": "harum",
     "State": "All",
-    "Description": "Triple-buffered full-range emulation",
-    "Response": "deserunt",
-    "Request": "pariatur",
-    "ProgressDescription": "Enhanced logistical secured line",
-    "ProgressPercent": 475,
-    "FileName": "Eichmann-Conroy",
+    "Description": "Reactive disintermediate help-desk",
+    "Response": "ut",
+    "Request": "eos",
+    "ProgressDescription": "Up-sized holistic analyzer",
+    "ProgressPercent": 759,
+    "FileName": "Kreiger, Gibson and Homenick",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

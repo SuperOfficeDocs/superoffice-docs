@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 667
+  "SelectionId": 594
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pouros-Stokes",
-    "Description": "Object-based intangible flexibility",
-    "Rank": 412,
+    "Name": "Murphy LLC",
+    "Description": "Monitored zero administration benchmark",
+    "Rank": 579,
     "Restrictions": [
       {
-        "Name": "Little-Cruickshank",
-        "Operator": "ipsa",
+        "Name": "Turner, Kub and Rutherford",
+        "Operator": "et",
         "Values": [
-          "sunt",
-          "sapiente"
+          "laborum",
+          "et"
         ],
         "DisplayValues": [
-          "aut",
-          "cum"
+          "beatae",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 678,
+        "InterParenthesis": 49,
         "InterOperator": "And",
-        "UniqueHash": 553
+        "UniqueHash": 924
       }
     ]
   },
   {
-    "Name": "Pouros-Stokes",
-    "Description": "Object-based intangible flexibility",
-    "Rank": 412,
+    "Name": "Murphy LLC",
+    "Description": "Monitored zero administration benchmark",
+    "Rank": 579,
     "Restrictions": [
       {
-        "Name": "Little-Cruickshank",
-        "Operator": "ipsa",
+        "Name": "Turner, Kub and Rutherford",
+        "Operator": "et",
         "Values": [
-          "sunt",
-          "sapiente"
+          "laborum",
+          "et"
         ],
         "DisplayValues": [
-          "aut",
-          "cum"
+          "beatae",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 678,
+        "InterParenthesis": 49,
         "InterOperator": "And",
-        "UniqueHash": 553
+        "UniqueHash": 924
       }
     ]
   }

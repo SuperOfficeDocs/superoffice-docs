@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Romaguera Inc and Sons",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "UdListDefinitionId": 216,
-  "Rank": 542
+  "Id": 620,
+  "Name": "Bernier, O'Kon and Koch",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 369,
+  "Rank": 456
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527,
-  "Name": "Pollich, O'Conner and McDermott",
-  "Tooltip": "tempora",
+  "Id": 270,
+  "Name": "McCullough-Rodriguez",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 928,
-  "Rank": 133,
+  "UdListDefinitionId": 5,
+  "Rank": 656,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=448
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=383
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 775,
-  "Name": "Sipes Group",
+  "ScreenChooserId": 376,
+  "Name": "Hirthe Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "fuga",
-  "Source": "quidem",
-  "Registered": "2001-05-03T03:44:52.3865159+02:00",
-  "RegisteredAssociateId": 320,
-  "Updated": "2002-11-20T03:44:52.3865159+01:00",
-  "UpdatedAssociateId": 872,
+  "Enabled": true,
+  "UniqueIdentifier": "enim",
+  "Source": "incidunt",
+  "Registered": "2006-06-03T13:14:05.7257709+02:00",
+  "RegisteredAssociateId": 372,
+  "Updated": "2021-09-25T13:14:05.7257709+02:00",
+  "UpdatedAssociateId": 763,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 197
     }
   }
 }

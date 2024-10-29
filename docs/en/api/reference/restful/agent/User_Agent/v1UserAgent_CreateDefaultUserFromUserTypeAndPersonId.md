@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 721
+  "PersonId": 500
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 336,
-  "Name": "Cummerata LLC",
-  "Rank": 582,
-  "Tooltip": "voluptatum",
+  "AssociateId": 465,
+  "Name": "Runolfsson-Ward",
+  "Rank": 86,
+  "Tooltip": "in",
   "LicenseOwners": [
     {
-      "Name": "Fritsch-Hansen",
-      "Description": "Adaptive high-level Graphical User Interface",
+      "Name": "Schuster Group",
+      "Description": "Proactive disintermediate frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldLength": 49
         }
       }
     },
     {
-      "Name": "Fritsch-Hansen",
-      "Description": "Adaptive high-level Graphical User Interface",
+      "Name": "Schuster Group",
+      "Description": "Proactive disintermediate frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldLength": 49
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "architecto",
-      "Tooltip": "consequuntur",
-      "Id": 648,
-      "Rank": 150,
+      "Value": "incidunt",
+      "Tooltip": "rerum",
+      "Id": 204,
+      "Rank": 228,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 724
+          "FieldType": "System.Int32",
+          "FieldLength": 959
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2011-12-12T03:44:53.418654+01:00",
-  "Lastlogout": "2011-03-28T03:44:53.418654+02:00",
-  "EjUserId": 57,
-  "RequestSignature": "reprehenderit",
+  "Deleted": false,
+  "Lastlogin": "2011-04-13T13:14:06.7414574+02:00",
+  "Lastlogout": "2018-08-28T13:14:06.7414574+02:00",
+  "EjUserId": 161,
+  "RequestSignature": "qui",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 897
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 897
-        }
-      }
-    }
-  ],
-  "UserName": "Considine, Dickens and Prohaska",
-  "TicketCategories": [
-    {
-      "Id": 347,
-      "Name": "Conn-Dietrich",
-      "ToolTip": "Dolores voluptas quaerat deleniti quia qui nobis odio.",
-      "Deleted": true,
-      "Rank": 596,
-      "Type": "et",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "repellendus",
-      "ColorBlock": 798,
-      "ExtraInfo": "dicta",
-      "StyleHint": "rerum",
-      "FullName": "Jesse Weissnat Sr.",
+      "Value": "est",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 782
+          "FieldLength": 626
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "est",
+      "DisplayValue": "tenetur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 626
         }
       }
     }
   ],
-  "NickName": "Fisher LLC",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "eum"
-  },
-  "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "officia"
-  },
-  "PostSaveCommands": [
+  "UserName": "Langworth-Skiles",
+  "TicketCategories": [
     {
-      "Name": "Lemke, Bogisich and Harvey",
-      "DisplayName": "Auer-Hessel",
-      "Description": "Triple-buffered logistical knowledge user",
-      "ToolTip": "Nostrum saepe.",
-      "Actions": "Implicit",
-      "ActionData": "commodi",
+      "Id": 181,
+      "Name": "Oberbrunner-Spinka",
+      "ToolTip": "Aliquid et repudiandae ullam omnis et voluptatem.",
+      "Deleted": false,
+      "Rank": 97,
+      "Type": "ipsum",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "optio",
+      "ColorBlock": 610,
+      "ExtraInfo": "dolores",
+      "StyleHint": "corrupti",
+      "FullName": "Joesph Fahey Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldLength": 671
+        }
+      }
+    }
+  ],
+  "NickName": "Hodkiewicz, Stoltenberg and Bauch",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "aut",
+    "ExtraFields2": "velit"
+  },
+  "CustomFields": {
+    "CustomFields1": "non",
+    "CustomFields2": "sint"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Osinski-Haag",
+      "DisplayName": "Leannon, Herman and VonRueden",
+      "Description": "Innovative radical approach",
+      "ToolTip": "Magni mollitia odio ut rerum distinctio libero.",
+      "Actions": "Implicit",
+      "ActionData": "illo",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 539
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   }
 }

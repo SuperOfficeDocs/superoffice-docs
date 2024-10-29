@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=254
+PUT /api/v1/Project/{id}/ImageInfo?projectId=967
 ```
 
 
@@ -108,19 +108,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 525,
-  "BlobSize": 186,
-  "Description": "Digitized human-resource leverage",
-  "ExtraInfo": "voluptate",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "odit",
-  "OriginalSize": 596,
-  "CreatedDate": "2017-06-13T03:44:57.4844273+02:00",
-  "UpdatedDate": "2004-01-24T03:44:57.4844273+01:00",
+  "BlobId": 704,
+  "BlobSize": 225,
+  "Description": "Robust foreground core",
+  "ExtraInfo": "illum",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "aperiam",
+  "OriginalSize": 259,
+  "CreatedDate": "2022-04-17T13:14:10.9454212+02:00",
+  "UpdatedDate": "2011-05-29T13:14:10.9454212+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dignissimos"
+  "ConceptualType": "qui"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 806,
-  "BlobSize": 876,
-  "Description": "Secured maximized support",
-  "ExtraInfo": "voluptate",
-  "IsEncrypted": false,
+  "BlobId": 804,
+  "BlobSize": 582,
+  "Description": "Public-key modular concept",
+  "ExtraInfo": "voluptatem",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ab",
-  "OriginalSize": 826,
-  "CreatedDate": "2010-08-15T03:44:57.4844273+02:00",
-  "UpdatedDate": "2023-08-11T03:44:57.4844273+02:00",
+  "MimeType": "perferendis",
+  "OriginalSize": 774,
+  "CreatedDate": "2015-11-25T13:14:10.9454212+01:00",
+  "UpdatedDate": "2007-09-13T13:14:10.9454212+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

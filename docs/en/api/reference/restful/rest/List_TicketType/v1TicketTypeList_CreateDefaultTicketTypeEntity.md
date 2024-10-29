@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,40 +83,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 8,
-  "Name": "D'Amore Inc and Sons",
-  "Rank": 520,
-  "Tooltip": "autem",
-  "Icon": "aspernatur",
-  "DefaultTicketStatus": 922,
+  "TicketTypeId": 113,
+  "Name": "Ryan, Baumbach and Streich",
+  "Rank": 332,
+  "Tooltip": "et",
+  "Icon": "sit",
+  "DefaultTicketStatus": 490,
   "TicketStatuses": [
-    588,
-    403
+    259,
+    90
   ],
-  "DefaultTicketPriority": 962,
+  "DefaultTicketPriority": 20,
   "TicketPriorities": [
-    763,
-    415
+    299,
+    48
   ],
-  "ReplyTemplate": 49,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 565,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    115,
-    141
+    337,
+    226
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldType": "System.String",
+      "FieldLength": 453
     }
   }
 }

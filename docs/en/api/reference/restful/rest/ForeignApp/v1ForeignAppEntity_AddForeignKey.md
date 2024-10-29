@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptates",
-  "Value": "minima",
-  "RecordId": 849,
-  "CreatedDate": "2016-06-26T03:44:57.359003+02:00",
-  "UpdatedDate": "2020-12-23T03:44:57.359003+01:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "et",
-  "TableName": "Vandervort-Crist"
+  "Key": "soluta",
+  "Value": "omnis",
+  "RecordId": 967,
+  "CreatedDate": "2007-12-15T13:14:10.8516656+01:00",
+  "UpdatedDate": "2017-06-29T13:14:10.8516656+02:00",
+  "UpdatedBy": "nisi",
+  "CreatedBy": "dolor",
+  "TableName": "Boyle Group"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "reiciendis",
-  "Value": "exercitationem",
-  "RecordId": 729,
-  "CreatedDate": "2017-07-06T03:44:57.359003+02:00",
-  "UpdatedDate": "2016-12-07T03:44:57.359003+01:00",
-  "UpdatedBy": "id",
-  "CreatedBy": "accusantium",
-  "TableName": "Feeney-Herzog",
+  "Key": "et",
+  "Value": "accusamus",
+  "RecordId": 632,
+  "CreatedDate": "2024-07-29T13:14:10.8516656+02:00",
+  "UpdatedDate": "2017-11-21T13:14:10.8516656+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "id",
+  "TableName": "Johnson, Mosciski and Raynor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 700
     }
   }
 }

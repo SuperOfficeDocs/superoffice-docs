@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Greenfelder, Marquardt and Goyette"
+  "Name": "Mueller-Will"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hodkiewicz, Hansen and Hagenes",
-    "SoPrimaryKey": 695,
-    "EntryName": "Runolfsdottir-Satterfield",
-    "EntryIdentifier": "nostrum",
-    "RuleDisplayName": "Gaylord Group",
+    "RuleName": "Cummings-Kuvalis",
+    "SoPrimaryKey": 136,
+    "EntryName": "Weber Inc and Sons",
+    "EntryIdentifier": "aut",
+    "RuleDisplayName": "Hills-Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldLength": 442
       }
     }
   }

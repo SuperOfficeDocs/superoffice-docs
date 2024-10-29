@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Wisoky LLC",
-    "ToolTip": "Minus et officiis repellat.",
+    "Id": 854,
+    "Name": "Powlowski Group",
+    "ToolTip": "Nisi accusantium.",
     "Deleted": false,
-    "Rank": 226,
-    "Type": "labore",
-    "ColorBlock": 723,
-    "IconHint": "qui",
+    "Rank": 721,
+    "Type": "et",
+    "ColorBlock": 119,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2022-10-25T03:44:57.8125425+02:00",
+    "LastChanged": "2021-04-23T13:14:11.3048179+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Balistreri, Crona and Fahey",
-        "ToolTip": "Veritatis velit excepturi ducimus esse.",
-        "Deleted": false,
-        "Rank": 578,
-        "Type": "sed",
-        "ColorBlock": 199,
-        "IconHint": "id",
+        "Id": 233,
+        "Name": "Bergnaum, Bergnaum and Bashirian",
+        "ToolTip": "Sapiente quae ipsa ducimus ut culpa autem.",
+        "Deleted": true,
+        "Rank": 937,
+        "Type": "nesciunt",
+        "ColorBlock": 27,
+        "IconHint": "impedit",
         "Selected": true,
-        "LastChanged": "2023-10-05T03:44:57.8125425+02:00",
+        "LastChanged": "2015-03-21T13:14:11.3048179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "at",
-        "Hidden": true,
-        "FullName": "Ricky Becker",
+        "ExtraInfo": "laborum",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Enid Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 990
+            "FieldLength": 889
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "in",
+    "ExtraInfo": "facilis",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Elton Predovic",
+    "FullName": "Ms. Carroll Misty Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldLength": 266
       }
     }
   }

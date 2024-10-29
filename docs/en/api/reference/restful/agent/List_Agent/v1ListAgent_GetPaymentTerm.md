@@ -26,7 +26,7 @@ Gets a PaymentTerm object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPaymentTerm?paymentTermId=930
+POST /api/v1/Agents/List/GetPaymentTerm?paymentTermId=253
 POST /api/v1/Agents/List/GetPaymentTerm?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Value": "quia",
-  "Tooltip": "aliquam",
+  "Id": 930,
+  "Value": "atque",
+  "Tooltip": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 272
     }
   }
 }

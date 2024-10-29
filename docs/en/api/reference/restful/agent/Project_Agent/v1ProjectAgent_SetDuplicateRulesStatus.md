@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Kuphal-Witting",
-      "DisplayName": "Jerde, Kuhlman and Metz",
-      "DisplayTooltip": "doloremque",
-      "IsActive": true
+      "Name": "Corwin, Eichmann and Cormier",
+      "DisplayName": "Kreiger, Pacocha and Gottlieb",
+      "DisplayTooltip": "veritatis",
+      "IsActive": false
     },
     {
-      "Name": "Kuphal-Witting",
-      "DisplayName": "Jerde, Kuhlman and Metz",
-      "DisplayTooltip": "doloremque",
-      "IsActive": true
+      "Name": "Corwin, Eichmann and Cormier",
+      "DisplayName": "Kreiger, Pacocha and Gottlieb",
+      "DisplayTooltip": "veritatis",
+      "IsActive": false
     }
   ]
 }

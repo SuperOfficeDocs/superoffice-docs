@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 966,
-  "Section": "esse",
-  "Key": "temporibus",
-  "Name": "Bashirian, Adams and Klocko",
+  "PrefDescId": 415,
+  "Section": "dolorem",
+  "Key": "qui",
+  "Name": "Schultz-Schoen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reactive incremental hierarchy",
+  "Description": "Pre-emptive hybrid customer loyalty",
   "IsBuiltin": true,
-  "TableName": "Graham-Bechtelar",
-  "UserDefinedListId": 179,
-  "Rank": 118,
-  "SubGroup": "in",
-  "MinLevel": 393,
-  "MaxValue": 546,
-  "MinValue": 443,
-  "RequiredLicense": "libero"
+  "TableName": "Medhurst Group",
+  "UserDefinedListId": 213,
+  "Rank": 739,
+  "SubGroup": "distinctio",
+  "MinLevel": 505,
+  "MaxValue": 5,
+  "MinValue": 475,
+  "RequiredLicense": "quae"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 395,
-  "Section": "eaque",
-  "Key": "accusantium",
-  "Name": "Abernathy Group",
+  "PrefDescId": 951,
+  "Section": "ab",
+  "Key": "possimus",
+  "Name": "Smitham Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Centralized discrete groupware",
+  "Description": "Persevering 5th generation strategy",
   "IsBuiltin": false,
-  "TableName": "Stark Inc and Sons",
-  "UserDefinedListId": 812,
-  "Rank": 868,
-  "SubGroup": "aut",
-  "MinLevel": 661,
-  "MaxValue": 523,
-  "MinValue": 169,
-  "RequiredLicense": "nobis",
+  "TableName": "McGlynn, Willms and Koch",
+  "UserDefinedListId": 752,
+  "Rank": 158,
+  "SubGroup": "sapiente",
+  "MinLevel": 947,
+  "MaxValue": 424,
+  "MinValue": 571,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

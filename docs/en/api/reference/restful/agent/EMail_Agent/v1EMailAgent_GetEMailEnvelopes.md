@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    259,
-    371
+    70,
+    708
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 709,
-    "MessageId": "dolorem",
-    "Subject": "officiis",
+    "ServerId": 968,
+    "MessageId": "vel",
+    "Subject": "reprehenderit",
     "From": null,
     "To": [
       {
-        "ContactId": 784,
-        "ContactName": "Wisozk LLC",
-        "PersonId": 851,
-        "PersonName": "Wunsch Group",
-        "AssociateId": 910,
-        "Address": "in",
-        "EmailId": 4,
+        "ContactId": 836,
+        "ContactName": "Simonis, Mayer and Schneider",
+        "PersonId": 936,
+        "PersonName": "Hansen, Mueller and Douglas",
+        "AssociateId": 122,
+        "Address": "est",
+        "EmailId": 146,
         "DuplicatePersonIds": [
-          863,
-          683
+          460,
+          406
         ],
-        "Name": "Wiza Group",
+        "Name": "Jacobi Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 174
+            "FieldLength": 342
           }
         }
       }
     ],
-    "Sent": "2000-02-11T03:44:52.5896202+01:00",
+    "Sent": "2019-07-29T13:14:05.991412+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 572,
+    "Size": 79,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

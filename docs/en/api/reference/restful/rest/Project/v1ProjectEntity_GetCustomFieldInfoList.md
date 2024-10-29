@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "O'Hara, Nolan and Beahan",
-    "DisplayName": "Bogisich LLC",
-    "Description": "Future-proofed human-resource benchmark",
-    "ShortLabel": "rem",
+    "FieldName": "Ritchie Inc and Sons",
+    "DisplayName": "Schuster-Deckow",
+    "Description": "Progressive systemic Graphic Interface",
+    "ShortLabel": "placeat",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
+    "IsReadOnly": false,
+    "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 831,
-    "TemplateVariableName": "Larkin-Orn"
+    "Rank": 377,
+    "TemplateVariableName": "Weissnat-Auer"
   }
 ]
 ```

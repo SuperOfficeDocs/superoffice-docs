@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Pouros-McCullough",
-  "DeviceName": "O'Connell-Fay",
-  "DeviceIdentifier": "nihil"
+  "ApplicationName": "Abshire, Kertzmann and Baumbach",
+  "DeviceName": "Abshire Inc and Sons",
+  "DeviceIdentifier": "laborum"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 371,
-  "Name": "Pfannerstill, Kozey and Cole",
-  "CreatedDate": "2000-02-18T03:44:52.6521119+01:00",
-  "UpdatedDate": "2012-07-19T03:44:52.6521119+02:00",
-  "AssociateFullName": "Dr. Shanna Etha Hauck PhD",
-  "CreatedBy": "mollitia",
-  "UpdatedBy": "quis",
-  "DeviceIdentifier": "error",
-  "ForeignAppId": 810,
+  "ForeignDeviceId": 270,
+  "Name": "Stehr LLC",
+  "CreatedDate": "2006-04-27T13:14:06.0382898+02:00",
+  "UpdatedDate": "2011-08-24T13:14:06.0382898+02:00",
+  "AssociateFullName": "Prof. Keyshawn Eugene Kutch I",
+  "CreatedBy": "facere",
+  "UpdatedBy": "nobis",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 643,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 713
     }
   }
 }

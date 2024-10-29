@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 578,
-    "Name": "Collins, Price and Kirlin",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 964,
-    "UdListDefinitionId": 653
+    "HeadingId": 36,
+    "Name": "Wolf-McClure",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 427,
+    "UdListDefinitionId": 687
   },
   {
-    "HeadingId": 578,
-    "Name": "Collins, Price and Kirlin",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 964,
-    "UdListDefinitionId": 653
+    "HeadingId": 36,
+    "Name": "Wolf-McClure",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 427,
+    "UdListDefinitionId": 687
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 42,
-    "Name": "Bosco LLC",
-    "Tooltip": "sit",
+    "HeadingId": 393,
+    "Name": "DuBuque Group",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 318,
-    "UdListDefinitionId": 59,
+    "Rank": 39,
+    "UdListDefinitionId": 812,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 428
       }
     }
   }

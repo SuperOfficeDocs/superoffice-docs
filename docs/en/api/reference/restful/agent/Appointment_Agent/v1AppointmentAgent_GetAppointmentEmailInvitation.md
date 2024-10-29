@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Oberbrunner, Dare and Schultz",
-  "Language": "aut"
+  "TemplateName": "Willms, Haag and Casper",
+  "Language": "in"
 }
 ```
 
@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 513,
-      "ContactName": "Willms Group",
-      "PersonId": 351,
-      "PersonName": "Hand Group",
-      "AssociateId": 669,
-      "Address": "minima",
-      "EmailId": 900,
+      "ContactId": 591,
+      "ContactName": "Herman-Kautzer",
+      "PersonId": 59,
+      "PersonName": "Schumm Inc and Sons",
+      "AssociateId": 412,
+      "Address": "eveniet",
+      "EmailId": 281,
       "DuplicatePersonIds": [
-        393,
-        112
+        504,
+        725
       ],
-      "Name": "Rolfson, Larkin and Jones",
+      "Name": "Raynor, Roberts and Moen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 73
+          "FieldType": "System.Int32",
+          "FieldLength": 502
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 391,
-      "ContactName": "McClure, Runolfsson and Braun",
-      "PersonId": 767,
-      "PersonName": "Reilly, Shields and Thiel",
-      "AssociateId": 917,
-      "Address": "et",
-      "EmailId": 250,
+      "ContactId": 790,
+      "ContactName": "Koepp-Hauck",
+      "PersonId": 55,
+      "PersonName": "Wintheiser Inc and Sons",
+      "AssociateId": 441,
+      "Address": "unde",
+      "EmailId": 127,
       "DuplicatePersonIds": [
-        64,
-        532
+        505,
+        202
       ],
-      "Name": "Welch-Bartell",
+      "Name": "Johns-Veum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldLength": 169
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 797,
-      "ContactName": "Cartwright-Nader",
-      "PersonId": 848,
-      "PersonName": "Fahey Inc and Sons",
-      "AssociateId": 183,
-      "Address": "non",
-      "EmailId": 498,
+      "ContactId": 814,
+      "ContactName": "Kutch Inc and Sons",
+      "PersonId": 380,
+      "PersonName": "Jakubowski, Renner and Mann",
+      "AssociateId": 817,
+      "Address": "sint",
+      "EmailId": 789,
       "DuplicatePersonIds": [
-        277,
-        784
+        455,
+        979
       ],
-      "Name": "Nienow, Jacobson and Jakubowski",
+      "Name": "Crona, Kemmer and Morissette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 931
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     }
   ],
-  "Subject": "officia",
-  "HTMLBody": "eos",
+  "Subject": "quos",
+  "HTMLBody": "quae",
   "From": null,
-  "Sent": "2022-10-09T03:44:52.027143+02:00",
-  "Size": 712,
+  "Sent": "2000-06-23T13:14:05.4913817+02:00",
+  "Size": 845,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "doloribus",
-  "PlainBody": "beatae",
+  "MessageID": "tempore",
+  "PlainBody": "sed",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 968,
+  "ServerId": 495,
   "Attachments": [
     {
-      "Description": "Multi-channelled 24 hour attitude",
-      "Filename": "facere",
-      "Size": 228,
-      "Type": "similique",
-      "Encoding": "esse",
-      "Id": "quo",
-      "Disposition": "debitis",
-      "IsSafeFileExtension": false,
+      "Description": "Reverse-engineered content-based hierarchy",
+      "Filename": "ipsam",
+      "Size": 357,
+      "Type": "nesciunt",
+      "Encoding": "quia",
+      "Id": "facilis",
+      "Disposition": "nulla",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 639
+          "FieldLength": 652
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Graham, Tillman and Johnston",
+      "Name": "Lowe, Bartell and Hamill",
       "Values": [
-        "et",
-        "nostrum"
+        "hic",
+        "modi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldType": "System.String",
+          "FieldLength": 836
         }
       }
     },
     {
-      "Name": "Graham, Tillman and Johnston",
+      "Name": "Lowe, Bartell and Hamill",
       "Values": [
-        "et",
-        "nostrum"
+        "hic",
+        "modi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldType": "System.String",
+          "FieldLength": 836
         }
       }
     }
   ],
-  "FolderName": "McClure-Gorczany",
-  "EmailItemId": 104,
-  "AccountId": 364,
-  "ReceivedAt": "2020-08-14T03:44:52.027143+02:00",
+  "FolderName": "Wunsch, Graham and Bernier",
+  "EmailItemId": 38,
+  "AccountId": 902,
+  "ReceivedAt": "2011-06-15T13:14:05.4913817+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-05-13T03:44:52.027143+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2017-04-28T13:14:05.4913817+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 781
     }
   }
 }

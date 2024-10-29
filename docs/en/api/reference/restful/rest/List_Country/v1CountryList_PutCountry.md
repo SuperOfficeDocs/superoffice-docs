@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 225,
-  "Name": "Ullrich, Sipes and Hahn",
-  "CurrencyId": 792,
-  "EnglishName": "Bauch-Kris",
+  "CountryId": 182,
+  "Name": "Johnson Group",
+  "CurrencyId": 832,
+  "EnglishName": "Deckow-Bogisich",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Proactive system-worthy productivity",
-  "OrgNrText": "1035501",
-  "InterAreaPrefix": "quos",
-  "DialInPrefix": "amet",
-  "ZipPrefix": "voluptatem",
-  "DomainName": "Hermiston-Blanda",
-  "AddressLayoutId": 749,
-  "DomesticAddressLayoutId": 90,
-  "ForeignAddressLayoutId": 381,
-  "Rank": 198,
-  "Tooltip": "et",
+  "ImageDescription": "Reactive multi-tasking contingency",
+  "OrgNrText": "519272",
+  "InterAreaPrefix": "error",
+  "DialInPrefix": "corporis",
+  "ZipPrefix": "et",
+  "DomainName": "Koelpin Inc and Sons",
+  "AddressLayoutId": 145,
+  "DomesticAddressLayoutId": 698,
+  "ForeignAddressLayoutId": 2,
+  "Rank": 771,
+  "Tooltip": "sint",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 122,
-  "Name": "Lebsack, Hoppe and Gulgowski",
-  "CurrencyId": 987,
-  "EnglishName": "Emard-Weber",
+  "CountryId": 320,
+  "Name": "Pagac Group",
+  "CurrencyId": 901,
+  "EnglishName": "Koch Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Enhanced logistical concept",
-  "OrgNrText": "278859",
-  "InterAreaPrefix": "vel",
-  "DialInPrefix": "commodi",
-  "ZipPrefix": "eligendi",
-  "DomainName": "Roob-Nolan",
-  "AddressLayoutId": 259,
-  "DomesticAddressLayoutId": 448,
-  "ForeignAddressLayoutId": 379,
-  "Rank": 213,
-  "Tooltip": "ut",
+  "ImageDescription": "Re-contextualized incremental info-mediaries",
+  "OrgNrText": "1428160",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "amet",
+  "ZipPrefix": "id",
+  "DomainName": "Stroman-Lueilwitz",
+  "AddressLayoutId": 213,
+  "DomesticAddressLayoutId": 575,
+  "ForeignAddressLayoutId": 440,
+  "Rank": 388,
+  "Tooltip": "iste",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 492
     }
   }
 }

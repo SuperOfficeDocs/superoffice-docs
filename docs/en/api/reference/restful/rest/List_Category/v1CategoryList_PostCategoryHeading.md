@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 792,
-  "Name": "Dare-Carroll",
-  "Tooltip": "ea",
+  "HeadingId": 485,
+  "Name": "Kessler-Windler",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "Rank": 667,
-  "UdListDefinitionId": 496
+  "Rank": 32,
+  "UdListDefinitionId": 673
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 32,
-  "Name": "Kreiger LLC",
-  "Tooltip": "culpa",
+  "HeadingId": 735,
+  "Name": "Bechtelar, Thiel and Schmeler",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 972,
-  "UdListDefinitionId": 429,
+  "Rank": 618,
+  "UdListDefinitionId": 949,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 171
     }
   }
 }

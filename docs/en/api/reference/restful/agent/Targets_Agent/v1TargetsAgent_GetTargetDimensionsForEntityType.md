@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 735,
+    "TargetDimensionId": 202,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "quia",
-    "DimensionListName": "Buckridge-Rutherford",
-    "DimensionListId": 59,
-    "DimensionListLabel": "consequatur",
+    "DimensionListField": "est",
+    "DimensionListName": "Koelpin LLC",
+    "DimensionListId": 278,
+    "DimensionListLabel": "nihil",
     "SelectedDimensions": [
-      522,
-      819
+      489,
+      4
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldType": "System.String",
+        "FieldLength": 398
       }
     }
   }

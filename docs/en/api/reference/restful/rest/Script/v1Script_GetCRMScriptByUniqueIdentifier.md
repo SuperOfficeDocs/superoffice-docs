@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sit",
-  "Name": "Herman, Cremin and Okuneva",
-  "Description": "Down-sized human-resource success",
-  "IncludeId": "ratione",
-  "Source": "vero",
-  "Registered": "2004-12-05T03:44:57.7500442+01:00",
-  "RegisteredBy": "qui",
-  "Updated": "1998-07-28T03:44:57.7500442+02:00",
-  "UpdatedBy": "est",
-  "Path": "quia",
+  "UniqueIdentifier": "minus",
+  "Name": "Kutch-Jakubowski",
+  "Description": "Enterprise-wide web-enabled open architecture",
+  "IncludeId": "nobis",
+  "Source": "qui",
+  "Registered": "2009-02-19T13:14:11.2579402+01:00",
+  "RegisteredBy": "tempora",
+  "Updated": "2024-03-28T13:14:11.2579402+01:00",
+  "UpdatedBy": "hic",
+  "Path": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 879
+      "FieldType": "System.Int32",
+      "FieldLength": 465
     }
   }
 }

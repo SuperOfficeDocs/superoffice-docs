@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cruickshank-Christiansen",
-    "DisplayName": "Collins Inc and Sons",
-    "DisplayTooltip": "laudantium",
+    "Name": "Zulauf Inc and Sons",
+    "DisplayName": "Rowe-Schuppe",
+    "DisplayTooltip": "veritatis",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 221
       }
     }
   },
   {
-    "Name": "Cruickshank-Christiansen",
-    "DisplayName": "Collins Inc and Sons",
-    "DisplayTooltip": "laudantium",
+    "Name": "Zulauf Inc and Sons",
+    "DisplayName": "Rowe-Schuppe",
+    "DisplayTooltip": "veritatis",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 221
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 684,
-  "Name": "Rempel Inc and Sons",
-  "AssociateId": 935,
-  "DetailsTable": 122,
-  "DetailsRecord": 851,
+  "Id": 979,
+  "Name": "Powlowski LLC",
+  "AssociateId": 884,
+  "DetailsTable": 203,
+  "DetailsRecord": 574,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "qui",
-    "ParameterObject2": "ut"
+    "ParameterObject1": "ratione",
+    "ParameterObject2": "consectetur"
   },
-  "LastStarted": "2022-06-18T03:44:57.687517+02:00",
-  "Created": "2023-10-19T03:44:57.687517+02:00",
-  "StartCount": 427,
-  "DatabaseSerialNumber": "738044",
-  "Context": "qui",
-  "Result": "molestiae",
+  "LastStarted": "2021-01-17T13:14:11.1954363+01:00",
+  "Created": "1998-03-09T13:14:11.1954363+01:00",
+  "StartCount": 178,
+  "DatabaseSerialNumber": "242437",
+  "Context": "possimus",
+  "Result": "minima",
   "State": "All",
-  "Description": "Self-enabling intangible open architecture",
-  "Response": "et",
-  "Request": "dolorum",
-  "ProgressDescription": "Persistent attitude-oriented process improvement",
-  "ProgressPercent": 466,
-  "FileName": "Kuhlman, Wisozk and Champlin",
+  "Description": "Profit-focused 24 hour instruction set",
+  "Response": "ipsam",
+  "Request": "eos",
+  "ProgressDescription": "Optional executive array",
+  "ProgressPercent": 677,
+  "FileName": "Steuber-Wilkinson",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldType": "System.Int32",
+      "FieldLength": 369
     }
   }
 }

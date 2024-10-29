@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 78
+  "DocumentId": 190
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 647,
-      "ContactName": "Ernser Group",
-      "PersonId": 627,
-      "PersonName": "Turner, Parisian and Dickens",
-      "AssociateId": 825,
-      "Address": "repellendus",
-      "EmailId": 962,
+      "ContactId": 239,
+      "ContactName": "Cremin, Jakubowski and Lindgren",
+      "PersonId": 305,
+      "PersonName": "Hansen, Koss and Glover",
+      "AssociateId": 478,
+      "Address": "blanditiis",
+      "EmailId": 313,
       "DuplicatePersonIds": [
-        787,
-        162
+        179,
+        786
       ],
-      "Name": "West, Osinski and Swaniawski",
+      "Name": "Kertzmann, Cole and Bogan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldType": "System.Int32",
+          "FieldLength": 709
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 514,
-      "ContactName": "Streich, Kuphal and Runolfsdottir",
-      "PersonId": 330,
-      "PersonName": "Dibbert LLC",
-      "AssociateId": 690,
-      "Address": "est",
-      "EmailId": 610,
+      "ContactId": 283,
+      "ContactName": "Bechtelar-Hoeger",
+      "PersonId": 571,
+      "PersonName": "Luettgen, Abernathy and Stanton",
+      "AssociateId": 346,
+      "Address": "aut",
+      "EmailId": 698,
       "DuplicatePersonIds": [
-        966,
-        604
+        162,
+        994
       ],
-      "Name": "Kautzer, Kuphal and Murray",
+      "Name": "Lebsack-Zemlak",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 894
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 178,
-      "ContactName": "Ziemann, Schiller and Jacobson",
-      "PersonId": 820,
-      "PersonName": "Hickle, Von and Brekke",
-      "AssociateId": 956,
-      "Address": "eos",
-      "EmailId": 144,
+      "ContactId": 775,
+      "ContactName": "Gislason Inc and Sons",
+      "PersonId": 223,
+      "PersonName": "Mayer, Beier and Leffler",
+      "AssociateId": 355,
+      "Address": "quibusdam",
+      "EmailId": 204,
       "DuplicatePersonIds": [
-        592,
-        470
+        550,
+        515
       ],
-      "Name": "Runte-Simonis",
+      "Name": "Braun, Mohr and Kassulke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldType": "System.String",
+          "FieldLength": 894
         }
       }
     }
   ],
-  "Subject": "quas",
-  "HTMLBody": "quibusdam",
+  "Subject": "dolores",
+  "HTMLBody": "laborum",
   "From": null,
-  "Sent": "2003-03-08T03:44:52.5896202+01:00",
-  "Size": 42,
+  "Sent": "2013-12-27T13:14:05.9757861+01:00",
+  "Size": 708,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "exercitationem",
-  "PlainBody": "quibusdam",
+  "MessageID": "doloribus",
+  "PlainBody": "libero",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 892,
+  "ServerId": 817,
   "Attachments": [
     {
-      "Description": "Horizontal clear-thinking encoding",
-      "Filename": "illum",
-      "Size": 712,
-      "Type": "eos",
-      "Encoding": "sit",
-      "Id": "aliquam",
-      "Disposition": "adipisci",
-      "IsSafeFileExtension": false,
+      "Description": "Inverse background intranet",
+      "Filename": "ut",
+      "Size": 672,
+      "Type": "aut",
+      "Encoding": "ullam",
+      "Id": "culpa",
+      "Disposition": "necessitatibus",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kunde-McGlynn",
+      "Name": "Walter-Rowe",
       "Values": [
-        "veniam",
-        "velit"
+        "possimus",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldLength": 163
         }
       }
     },
     {
-      "Name": "Kunde-McGlynn",
+      "Name": "Walter-Rowe",
       "Values": [
-        "veniam",
-        "velit"
+        "possimus",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 23
+          "FieldLength": 163
         }
       }
     }
   ],
-  "FolderName": "Schimmel, Balistreri and Schimmel",
-  "EmailItemId": 819,
-  "AccountId": 430,
-  "ReceivedAt": "2013-10-01T03:44:52.5896202+02:00",
+  "FolderName": "Fahey, Bernhard and Parisian",
+  "EmailItemId": 800,
+  "AccountId": 77,
+  "ReceivedAt": "2011-01-21T13:14:05.9757861+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-01-24T03:44:52.5896202+01:00",
+  "RepliedAt": "2005-02-14T13:14:05.9757861+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldType": "System.String",
+      "FieldLength": 508
     }
   }
 }

@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 892,
-  "Section": "sunt",
-  "Key": "eligendi",
-  "Name": "Kuhn Group",
+  "PrefDescId": 230,
+  "Section": "aut",
+  "Key": "rerum",
+  "Name": "Mayer LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customer-focused even-keeled approach",
+  "Description": "Multi-lateral bi-directional application",
   "IsBuiltin": false,
-  "TableName": "Wiegand, Zieme and Bahringer",
-  "UserDefinedListId": 474,
-  "Rank": 21,
-  "SubGroup": "officiis",
-  "MinLevel": 636,
-  "MaxValue": 458,
-  "MinValue": 99,
-  "RequiredLicense": "et",
+  "TableName": "Kuvalis Group",
+  "UserDefinedListId": 748,
+  "Rank": 622,
+  "SubGroup": "quisquam",
+  "MinLevel": 871,
+  "MaxValue": 105,
+  "MinValue": 684,
+  "RequiredLicense": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

@@ -139,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 788,
-  "Name": "Russel-Fisher",
-  "Description": "Quality-focused value-added support",
-  "WelcomeMessage": "blanditiis",
+  "ChatTopicId": 601,
+  "Name": "Lockman, Parker and Towne",
+  "Description": "Focused 3rd generation encryption",
+  "WelcomeMessage": "voluptas",
   "Language": null,
-  "LastAccept": "2019-11-26T03:44:57.0940238+01:00",
-  "SecondsPrAccept": 250,
-  "AlertRecipient": "adipisci",
+  "LastAccept": "2009-07-21T13:14:10.6797802+02:00",
+  "SecondsPrAccept": 477,
+  "AlertRecipient": "sequi",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "expedita",
+  "CollectConsent": true,
+  "BadgeHeader": "voluptas",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "unde",
-  "WarnNewChatMinutes": 607,
-  "WarnManagerNewChatMinutes": 613,
+  "CustomQueueText": "sapiente",
+  "WarnNewChatMinutes": 590,
+  "WarnManagerNewChatMinutes": 542,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 403,
-  "WarnManagerChatMessageMinutes": 605,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 660,
+  "WarnManagerChatMessageMinutes": 618,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 87,
-  "OfflineFormQueueLength": 24,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "omnis"
+  "OfflineFormTimeLimit": 564,
+  "OfflineFormQueueLength": 414,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "aperiam"
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 998,
-  "Name": "Yost-Dickinson",
-  "Description": "Quality-focused contextually-based matrix",
-  "WelcomeMessage": "rerum",
+  "ChatTopicId": 1002,
+  "Name": "Hauck-Larkin",
+  "Description": "Centralized attitude-oriented contingency",
+  "WelcomeMessage": "voluptatibus",
   "Language": null,
-  "LastAccept": "2012-07-09T03:44:57.0940238+02:00",
-  "SecondsPrAccept": 117,
-  "AlertRecipient": "rem",
+  "LastAccept": "2007-09-23T13:14:10.6797802+02:00",
+  "SecondsPrAccept": 629,
+  "AlertRecipient": "qui",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "enim",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "in",
-  "WarnNewChatMinutes": 930,
-  "WarnManagerNewChatMinutes": 302,
+  "CollectConsent": true,
+  "BadgeHeader": "dolor",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 494,
+  "WarnManagerNewChatMinutes": 117,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 87,
-  "WarnManagerChatMessageMinutes": 909,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 68,
+  "WarnManagerChatMessageMinutes": 378,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 608,
-  "OfflineFormQueueLength": 311,
+  "OfflineFormTimeLimit": 383,
+  "OfflineFormQueueLength": 375,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "tenetur",
+  "WidgetRatingText": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldLength": 508
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

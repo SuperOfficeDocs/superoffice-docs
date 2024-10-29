@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 625,
-  "Name": "Hermiston, Towne and Bergnaum",
-  "Tooltip": "aut",
+  "HeadingId": 82,
+  "Name": "Rogahn-Weber",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 381,
-  "UdListDefinitionId": 440
+  "Rank": 737,
+  "UdListDefinitionId": 171
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 621,
-  "Name": "Hammes Group",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "Rank": 650,
-  "UdListDefinitionId": 485,
+  "HeadingId": 795,
+  "Name": "Gutkowski, Herman and Stehr",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 467,
+  "UdListDefinitionId": 17,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 843
     }
   }
 }

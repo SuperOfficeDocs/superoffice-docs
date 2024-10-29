@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 468,
-  "Name": "Mohr Inc and Sons",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 563,
+  "Id": 604,
+  "Name": "Volkman-Murray",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 930,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "accusantium",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 824,
-  "Name": "Mills-Moen",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 48,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
-  "InUseByUserDefinedFields": true,
+  "Id": 425,
+  "Name": "McLaughlin, Batz and Volkman",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "Rank": 448,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "necessitatibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 254
     }
   }
 }

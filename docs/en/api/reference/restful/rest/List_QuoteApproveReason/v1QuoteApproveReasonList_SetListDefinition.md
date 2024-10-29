@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 259,
-  "Name": "Schinner, Blanda and Huel",
-  "Tooltip": "ut",
+  "Id": 371,
+  "Name": "Doyle LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 180,
+  "Rank": 554,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "similique",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "Shanahan LLC",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 436,
+  "Id": 647,
+  "Name": "Gusikowski-Reynolds",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 109,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "magnam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 397
     }
   }
 }

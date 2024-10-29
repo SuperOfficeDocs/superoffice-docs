@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Kessler Inc and Sons",
-  "Tooltip": "consequuntur",
+  "Id": 990,
+  "Name": "Schimmel-Trantow",
+  "Tooltip": "odio",
   "Deleted": false,
-  "UdListDefinitionId": 211,
-  "Rank": 366,
+  "UdListDefinitionId": 494,
+  "Rank": 250,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 15
     }
   }
 }

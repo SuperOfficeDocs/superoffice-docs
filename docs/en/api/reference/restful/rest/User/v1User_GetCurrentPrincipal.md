@@ -58,7 +58,7 @@ OK
 | GroupId | int32 | Associate's group_idx |
 | BusinessId | int32 | BusinessIdx for the company that the user belongs to. |
 | CategoryId | int32 | CategoryIdx of the company that the user belongs to. |
-| ContactOwner | int32 | Owner (AssociateId) of the company that the user belongs to. |
+| ContactOwner | int32 | Owner (AssocaiteId) of the company that the user belongs to. |
 | RoleId | int32 | Id of the users role |
 | RoleName | string | Name of the users role |
 | RoleDescription | string | Descrtiption (e.g. tooltip) for the users role |
@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "et",
-  "AssociateId": 720,
+  "Associate": "atque",
+  "AssociateId": 840,
   "IsPerson": false,
-  "PersonId": 658,
-  "CountryId": 545,
-  "HomeCountryId": 258,
-  "ContactId": 524,
-  "GroupId": 731,
-  "BusinessId": 664,
-  "CategoryId": 486,
-  "ContactOwner": 710,
-  "RoleId": 347,
-  "RoleName": "Kiehn-Kirlin",
-  "RoleDescription": "Profound motivating forecast",
+  "PersonId": 735,
+  "CountryId": 669,
+  "HomeCountryId": 676,
+  "ContactId": 866,
+  "GroupId": 455,
+  "BusinessId": 858,
+  "CategoryId": 473,
+  "ContactOwner": 147,
+  "RoleId": 382,
+  "RoleName": "O'Reilly-Balistreri",
+  "RoleDescription": "Balanced fresh-thinking benchmark",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 459,
-      "OwnerName": "Hayes-Kessler",
-      "OwnerDescription": "Switchable real-time middleware",
-      "ModuleId": 782,
-      "Name": "Berge-Braun",
-      "Description": "Integrated global conglomeration",
-      "Version": "aliquam",
+      "OwnerId": 527,
+      "OwnerName": "Ebert-Hayes",
+      "OwnerDescription": "Proactive directional instruction set",
+      "ModuleId": 807,
+      "Name": "Jones-Beatty",
+      "Description": "Multi-layered methodical capability",
+      "Version": "dolor",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 508,
-      "ExtraInfo": "itaque",
-      "SortOrder": 498,
-      "LicenseNumber": 632,
-      "IsHidden": true,
+      "ExtraFlags": 481,
+      "ExtraInfo": "nihil",
+      "SortOrder": 926,
+      "LicenseNumber": 385,
+      "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2003-07-01T03:44:57.7969186+02:00",
+      "ExpiryDate": "2015-08-09T13:14:11.289192+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldType": "System.String",
+          "FieldLength": 962
         }
       }
     }
   ],
-  "FullName": "Danny Kuvalis II",
-  "EMailAddress": "alias",
+  "FullName": "Mrs. Damon Maxime Schumm",
+  "EMailAddress": "sed",
   "FunctionRights": [
-    "fugit",
-    "inventore"
+    "tenetur",
+    "ipsa"
   ],
-  "EjUserId": 52,
-  "EjAccessLevel": 335,
+  "EjUserId": 795,
+  "EjAccessLevel": 243,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "velit",
-      "SearchName": "Graham LLC",
-      "DisplayName": "Padberg-Waelchi",
-      "CredentialId": 452
+      "Type": "magnam",
+      "SearchName": "Lebsack LLC",
+      "DisplayName": "Fay LLC",
+      "CredentialId": 41
     },
     {
-      "Type": "velit",
-      "SearchName": "Graham LLC",
-      "DisplayName": "Padberg-Waelchi",
-      "CredentialId": 452
+      "Type": "magnam",
+      "SearchName": "Lebsack LLC",
+      "DisplayName": "Fay LLC",
+      "CredentialId": 41
     }
   ],
   "SecondaryGroups": [
-    282,
-    603
+    766,
+    781
   ],
-  "DatabaseContextIdentifier": "aut",
-  "UserName": "Schroeder, Kuphal and Moen"
+  "DatabaseContextIdentifier": "exercitationem",
+  "UserName": "Witting Group"
 }
 ```

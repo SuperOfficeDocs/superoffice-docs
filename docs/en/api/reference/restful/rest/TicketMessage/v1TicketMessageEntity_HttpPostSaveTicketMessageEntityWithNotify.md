@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=True
+POST /api/v1/TicketMessage?notify=False
 ```
 
 
@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 180,
+  "EjMessageId": 335,
   "Ticket": null,
-  "CreatedAt": "2006-02-10T03:44:57.656888+01:00",
+  "CreatedAt": "2012-09-27T13:14:11.1641844+02:00",
   "CreatedBy": null,
-  "Author": "quo",
+  "Author": "enim",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 633,
-  "Body": "laborum",
-  "HtmlBody": "dicta",
-  "EmailHeader": "jermey_funk@medhurst.info",
-  "DebugInfo": "atque",
-  "MailSorter": "saepe",
+  "MessageId": "quia",
+  "TimeSpent": 181,
+  "Body": "dolorum",
+  "HtmlBody": "in",
+  "EmailHeader": "theresia@bartell.name",
+  "DebugInfo": "laboriosam",
+  "MailSorter": "quisquam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "tempora",
   "MessageHeaders": [
     {
-      "Id": 715,
-      "Name": "Rath-Harvey",
-      "Value": "non",
+      "Id": 800,
+      "Name": "Conn-Halvorson",
+      "Value": "dicta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 715,
-      "Name": "Rath-Harvey",
-      "Value": "non",
+      "Id": 800,
+      "Name": "Conn-Halvorson",
+      "Value": "dicta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "ducimus",
-  "Sentiment": 195,
-  "SentimentConfidence": 954,
+  "Language": "et",
+  "Sentiment": 521,
+  "SentimentConfidence": 379,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 824,
-      "Name": "Bogisich-Langworth",
-      "ContentType": "eius",
-      "AttSize": 211,
-      "InlineImage": false,
-      "ContentId": "odit",
-      "AuthKey": "quia",
-      "IsSafeFileExtension": true
+      "AttachmentId": 37,
+      "Name": "Robel, Kertzmann and Koss",
+      "ContentType": "nihil",
+      "AttSize": 827,
+      "InlineImage": true,
+      "ContentId": "odio",
+      "AuthKey": "et",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "voluptatum"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "expedita"
+    "CustomFields1": "qui",
+    "CustomFields2": "eum"
   }
 }
 ```
@@ -195,79 +195,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 70,
+  "EjMessageId": 775,
   "Ticket": null,
-  "CreatedAt": "2021-04-08T03:44:57.6718901+02:00",
+  "CreatedAt": "1999-03-29T13:14:11.1798105+02:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "quidem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestias",
-  "TimeSpent": 882,
-  "Body": "tempora",
-  "HtmlBody": "omnis",
-  "EmailHeader": "matt@howe.biz",
-  "DebugInfo": "minima",
-  "MailSorter": "repellat",
+  "MessageId": "accusantium",
+  "TimeSpent": 795,
+  "Body": "nesciunt",
+  "HtmlBody": "delectus",
+  "EmailHeader": "damaris.okeefe@rennerwolf.com",
+  "DebugInfo": "quis",
+  "MailSorter": "corrupti",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fuga",
+  "SearchTitle": "reiciendis",
   "MessageHeaders": [
     {
-      "Id": 684,
-      "Name": "Kessler LLC",
-      "Value": "perspiciatis",
+      "Id": 581,
+      "Name": "Miller Group",
+      "Value": "delectus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldType": "System.String",
+          "FieldLength": 728
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "enim",
-  "Sentiment": 97,
-  "SentimentConfidence": 858,
+  "Important": false,
+  "Language": "libero",
+  "Sentiment": 969,
+  "SentimentConfidence": 842,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 764,
-      "Name": "Rempel-Kshlerin",
-      "ContentType": "aut",
-      "AttSize": 92,
-      "InlineImage": true,
-      "ContentId": "ducimus",
-      "AuthKey": "animi",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 297,
+      "Name": "Effertz, Hane and Runte",
+      "ContentType": "explicabo",
+      "AttSize": 447,
+      "InlineImage": false,
+      "ContentId": "corrupti",
+      "AuthKey": "sint",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldType": "System.String",
+          "FieldLength": 884
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "est"
+    "CustomFields1": "maxime",
+    "CustomFields2": "itaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldLength": 87
     }
   }
 }

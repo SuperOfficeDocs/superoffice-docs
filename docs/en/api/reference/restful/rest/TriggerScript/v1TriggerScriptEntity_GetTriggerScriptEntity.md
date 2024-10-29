@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 413,
-  "Name": "Mohr-Gleason",
+  "ScreenChooserId": 832,
+  "Name": "Goyette Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quia",
-  "Source": "nihil",
-  "Registered": "2020-09-17T03:44:57.687517+02:00",
-  "RegisteredAssociateId": 751,
-  "Updated": "2011-01-18T03:44:57.687517+01:00",
-  "UpdatedAssociateId": 773,
+  "Enabled": false,
+  "UniqueIdentifier": "sed",
+  "Source": "perferendis",
+  "Registered": "2003-06-03T13:14:11.1954363+02:00",
+  "RegisteredAssociateId": 36,
+  "Updated": "2004-06-26T13:14:11.1954363+02:00",
+  "UpdatedAssociateId": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

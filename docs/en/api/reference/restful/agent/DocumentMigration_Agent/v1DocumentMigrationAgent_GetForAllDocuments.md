@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 592,
+  "DocumentPluginId": 687,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 233,
-  "NumDocumentsAlreadyMigrated": 324,
+  "NumDocumentsOmitted": 399,
+  "NumDocumentsAlreadyMigrated": 531,
   "Documents": [
     {
-      "DocumentId": 114,
-      "ContactId": 214,
-      "PersonId": 917,
-      "SaleId": 54,
-      "ProjectId": 615,
-      "DocTmplId": 451,
-      "AssociateId": 176,
-      "UserGroupId": 367,
-      "VisibleForId": 15
+      "DocumentId": 786,
+      "ContactId": 362,
+      "PersonId": 521,
+      "SaleId": 638,
+      "ProjectId": 585,
+      "DocTmplId": 1002,
+      "AssociateId": 564,
+      "UserGroupId": 759,
+      "VisibleForId": 726
     }
   ],
   "Associates": [
     {
-      "AssociateId": 659,
-      "EmailAddress": "alison.cartwright@rempelmurazik.us"
+      "AssociateId": 42,
+      "EmailAddress": "dannie@predovickeeling.ca"
     },
     {
-      "AssociateId": 659,
-      "EmailAddress": "alison.cartwright@rempelmurazik.us"
+      "AssociateId": 42,
+      "EmailAddress": "dannie@predovickeeling.ca"
     }
   ]
 }

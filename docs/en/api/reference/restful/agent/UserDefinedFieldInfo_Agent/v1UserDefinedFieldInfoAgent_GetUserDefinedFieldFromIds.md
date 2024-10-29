@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    496,
-    739
+    208,
+    893
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 37,
-    "ColumnId": 312,
-    "FieldDefault": "quis",
-    "FieldHeight": 492,
-    "FieldLabel": "quia",
-    "FieldLeft": 43,
-    "FieldTop": 956,
+    "UDefFieldId": 346,
+    "ColumnId": 263,
+    "FieldDefault": "ipsum",
+    "FieldHeight": 88,
+    "FieldLabel": "maiores",
+    "FieldLeft": 870,
+    "FieldTop": 898,
     "FieldType": "Checkbox",
-    "FieldWidth": 381,
-    "FormatMask": "quia",
+    "FieldWidth": 772,
+    "FormatMask": "ea",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 9,
-    "LabelLeft": 239,
-    "LabelTop": 84,
-    "LabelWidth": 363,
-    "LastVersionId": 705,
-    "ListTableId": 528,
+    "LabelHeight": 649,
+    "LabelLeft": 813,
+    "LabelTop": 396,
+    "LabelWidth": 206,
+    "LastVersionId": 850,
+    "ListTableId": 198,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 390,
-    "ProgId": "illo",
-    "IsReadOnly": true,
-    "ShortLabel": "exercitationem",
-    "TabOrder": 450,
-    "TextLength": 705,
-    "Tooltip": "molestias",
-    "UdefIdentity": 93,
-    "UDListDefinitionId": 384,
+    "Page1LineNo": 135,
+    "ProgId": "dolor",
+    "IsReadOnly": false,
+    "ShortLabel": "dolorem",
+    "TabOrder": 897,
+    "TextLength": 403,
+    "Tooltip": "animi",
+    "UdefIdentity": 998,
+    "UDListDefinitionId": 863,
     "Justification": "Center",
-    "Version": 63,
-    "TemplateVariableName": "Bayer, Walter and Braun",
-    "HasBeenPublished": false,
-    "MdoListName": "Cummerata-Mitchell",
+    "Version": 157,
+    "TemplateVariableName": "Raynor Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Huel, Purdy and Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 101
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 103,
-  "CustomerCustomerReplyTemplateId": 910,
-  "CustomerPasswordTemplateId": 881,
-  "CustomerConfirmEmailTemplateId": 868,
-  "CustomerChatLogTemplateId": 599,
-  "NewLinkTemplateId": 819,
-  "HotlistNewMessageTemplateId": 167,
-  "HotlistTicketActivatedTemplateId": 879,
-  "UserTicketAlarmTemplateId": 126,
-  "HotlistTicketTakenOverTemplateId": 218,
-  "UserActiveTicketsTemplateId": 83,
-  "UserNewMessageTemplateId": 975,
-  "UserTicketActivatedTemplateId": 23,
-  "UserNewTicketTemplateId": 665,
-  "PublishKbQuestionTemplateId": 201,
-  "PublishKbAnswerTemplateId": 136,
-  "UserTicketTakenOverTemplateId": 539,
-  "PrintTicketTemplateId": 793,
-  "WeekStatTemplateId": 647,
-  "TicketAlarmHotlistTemplateId": 493,
-  "EmailAddresses": "alycia@streich.ca",
+  "CustomerNewCustomerTemplateId": 697,
+  "CustomerCustomerReplyTemplateId": 1002,
+  "CustomerPasswordTemplateId": 784,
+  "CustomerConfirmEmailTemplateId": 134,
+  "CustomerChatLogTemplateId": 663,
+  "NewLinkTemplateId": 348,
+  "HotlistNewMessageTemplateId": 245,
+  "HotlistTicketActivatedTemplateId": 69,
+  "UserTicketAlarmTemplateId": 90,
+  "HotlistTicketTakenOverTemplateId": 289,
+  "UserActiveTicketsTemplateId": 453,
+  "UserNewMessageTemplateId": 380,
+  "UserTicketActivatedTemplateId": 911,
+  "UserNewTicketTemplateId": 664,
+  "PublishKbQuestionTemplateId": 81,
+  "PublishKbAnswerTemplateId": 758,
+  "UserTicketTakenOverTemplateId": 275,
+  "PrintTicketTemplateId": 507,
+  "WeekStatTemplateId": 145,
+  "TicketAlarmHotlistTemplateId": 597,
+  "EmailAddresses": "tracey@schroeder.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 877
     }
   }
 }

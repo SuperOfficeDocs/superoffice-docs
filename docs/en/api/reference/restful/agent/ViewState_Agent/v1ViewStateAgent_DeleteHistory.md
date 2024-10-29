@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Sauer-Roob",
-  "Id": 456
+  "HistoryName": "Grady Group",
+  "Id": 831
 }
 ```
 

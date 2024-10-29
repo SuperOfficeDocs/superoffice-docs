@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "rerum"
+  "QuoteLineExtraData": "asperiores"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Medhurst-Hackett",
-    "Value": "at",
+    "Name": "Hartmann Group",
+    "Value": "atque",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   },
   {
-    "Name": "Medhurst-Hackett",
-    "Value": "at",
+    "Name": "Hartmann Group",
+    "Value": "atque",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

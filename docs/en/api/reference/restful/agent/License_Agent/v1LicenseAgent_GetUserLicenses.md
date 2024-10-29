@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 999
+  "AssociateId": 651
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leuschke Group",
-    "Description": "Cross-platform multimedia support",
+    "Name": "Prosacco, Legros and Hansen",
+    "Description": "Seamless modular protocol",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 873,
-        "Tooltip": "recusandae",
+        "Unrestricted": true,
+        "Total": 268,
+        "Tooltip": "molestiae",
         "CanAssign": false,
-        "Free": 657,
-        "InUse": 534,
+        "Free": 808,
+        "InUse": 933,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 942,
-        "Name": "Zulauf Inc and Sons",
-        "Description": "Right-sized bi-directional initiative",
-        "PrerequisiteModuleName": "Ankunding LLC",
-        "SortOrder": 351,
-        "ExtraFlags": 254,
+        "ModuleLicenseId": 538,
+        "Name": "Harris-Zemlak",
+        "Description": "Digitized reciprocal initiative",
+        "PrerequisiteModuleName": "Smith-Cruickshank",
+        "SortOrder": 838,
+        "ExtraFlags": 841,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 107
+            "FieldLength": 282
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 920,
-        "Tooltip": "illum",
+        "Unrestricted": false,
+        "Total": 71,
+        "Tooltip": "culpa",
         "CanAssign": false,
-        "Free": 234,
-        "InUse": 332,
+        "Free": 877,
+        "InUse": 789,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 960,
-        "Name": "Hartmann, Wiza and Schmidt",
-        "Description": "Versatile real-time task-force",
-        "PrerequisiteModuleName": "Lakin-Renner",
-        "SortOrder": 37,
-        "ExtraFlags": 996,
+        "ModuleLicenseId": 835,
+        "Name": "Schowalter-Watsica",
+        "Description": "Synergized dynamic model",
+        "PrerequisiteModuleName": "Schumm-Botsford",
+        "SortOrder": 628,
+        "ExtraFlags": 409,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 264
+            "FieldType": "System.String",
+            "FieldLength": 740
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 818
       }
     }
   },
   {
-    "Name": "Leuschke Group",
-    "Description": "Cross-platform multimedia support",
+    "Name": "Prosacco, Legros and Hansen",
+    "Description": "Seamless modular protocol",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 873,
-        "Tooltip": "recusandae",
+        "Unrestricted": true,
+        "Total": 268,
+        "Tooltip": "molestiae",
         "CanAssign": false,
-        "Free": 657,
-        "InUse": 534,
+        "Free": 808,
+        "InUse": 933,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 942,
-        "Name": "Zulauf Inc and Sons",
-        "Description": "Right-sized bi-directional initiative",
-        "PrerequisiteModuleName": "Ankunding LLC",
-        "SortOrder": 351,
-        "ExtraFlags": 254,
+        "ModuleLicenseId": 538,
+        "Name": "Harris-Zemlak",
+        "Description": "Digitized reciprocal initiative",
+        "PrerequisiteModuleName": "Smith-Cruickshank",
+        "SortOrder": 838,
+        "ExtraFlags": 841,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 107
+            "FieldLength": 282
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 920,
-        "Tooltip": "illum",
+        "Unrestricted": false,
+        "Total": 71,
+        "Tooltip": "culpa",
         "CanAssign": false,
-        "Free": 234,
-        "InUse": 332,
+        "Free": 877,
+        "InUse": 789,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 960,
-        "Name": "Hartmann, Wiza and Schmidt",
-        "Description": "Versatile real-time task-force",
-        "PrerequisiteModuleName": "Lakin-Renner",
-        "SortOrder": 37,
-        "ExtraFlags": 996,
+        "ModuleLicenseId": 835,
+        "Name": "Schowalter-Watsica",
+        "Description": "Synergized dynamic model",
+        "PrerequisiteModuleName": "Schumm-Botsford",
+        "SortOrder": 628,
+        "ExtraFlags": 409,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 264
+            "FieldType": "System.String",
+            "FieldLength": 740
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 818
       }
     }
   }

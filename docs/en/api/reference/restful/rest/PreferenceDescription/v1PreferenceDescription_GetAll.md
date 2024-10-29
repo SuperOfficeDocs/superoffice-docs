@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 627,
-    "Section": "quidem",
-    "Key": "enim",
-    "Name": "Hickle LLC",
+    "PrefDescId": 738,
+    "Section": "iure",
+    "Key": "qui",
+    "Name": "Jenkins-McDermott",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Total cohesive interface",
+    "Description": "Future-proofed optimal solution",
     "IsBuiltin": false,
-    "TableName": "Barrows Inc and Sons",
-    "UserDefinedListId": 899,
-    "Rank": 327,
-    "SubGroup": "pariatur",
-    "MinLevel": 925,
-    "MaxValue": 465,
-    "MinValue": 557,
-    "RequiredLicense": "asperiores",
+    "TableName": "Donnelly, DuBuque and Ondricka",
+    "UserDefinedListId": 576,
+    "Rank": 803,
+    "SubGroup": "vero",
+    "MinLevel": 826,
+    "MaxValue": 760,
+    "MinValue": 445,
+    "RequiredLicense": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldType": "System.Int32",
+        "FieldLength": 387
       }
     }
   }

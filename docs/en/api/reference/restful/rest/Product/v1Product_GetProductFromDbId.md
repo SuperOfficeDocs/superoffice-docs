@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 696,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "est",
-  "Name": "Jones Group",
-  "Description": "Customizable high-level policy",
-  "Code": "velit",
-  "PriceUnit": "tenetur",
-  "QuantityUnit": "facere",
+  "ProductId": 567,
+  "ERPProductKey": "quis",
+  "ERPPriceListKey": "qui",
+  "Name": "Waelchi-Lynch",
+  "Description": "Vision-oriented needs-based installation",
+  "Code": "expedita",
+  "PriceUnit": "repellat",
+  "QuantityUnit": "dolores",
   "IsSubscription": false,
-  "SubscriptionUnit": "magnam",
-  "DefaultSubscriptionQuantity": 23812.131999999998,
-  "ItemNumber": "659219",
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 21505.507999999998,
+  "ItemNumber": "984159",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "qui",
-  "VAT": 13833.475999999999,
-  "VATInfo": "eligendi",
-  "UnitCost": 19863.291999999998,
-  "UnitMinimumPrice": 16810.775999999998,
-  "UnitListPrice": 28140.185999999998,
+  "ProductFamilyKey": "illo",
+  "ProductTypeKey": "et",
+  "VAT": 19897.766,
+  "VATInfo": "minima",
+  "UnitCost": 23834.07,
+  "UnitMinimumPrice": 15679.402,
+  "UnitListPrice": 25435.543999999998,
   "InAssortment": true,
-  "Supplier": "rem",
-  "SupplierCode": "voluptas",
-  "Rights": "hic",
-  "Rule": "nam",
+  "Supplier": "sequi",
+  "SupplierCode": "quod",
+  "Rights": "consequatur",
+  "Rule": "consequatur",
   "ExtraInfo": [
     {
-      "Name": "Kunze-McCullough",
-      "Value": "voluptas",
+      "Name": "Shanahan-Daniel",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 811
+          "FieldLength": 397
         }
       }
     },
     {
-      "Name": "Kunze-McCullough",
-      "Value": "voluptas",
+      "Name": "Shanahan-Daniel",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 811
+          "FieldLength": 397
         }
       }
     }
   ],
-  "RawExtraInfo": "omnis",
-  "ExtraField1": "vitae",
-  "ExtraField2": "et",
-  "ExtraField3": "quam",
-  "ExtraField4": "at",
-  "ExtraField5": "delectus",
-  "InStock": 22605.541999999998,
+  "RawExtraInfo": "alias",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "omnis",
+  "ExtraField3": "doloremque",
+  "ExtraField4": "sunt",
+  "ExtraField5": "ullam",
+  "InStock": 29208.879999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldType": "System.String",
+      "FieldLength": 522
     }
   }
 }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 114,
-  "Name": "Torphy, D'Amore and Batz",
+  "TicketPriorityId": 795,
+  "Name": "Leuschke Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 512,
+  "SortOrder": 864,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 337,
-  "MonStart": "2010-01-24T03:44:58.1874634+01:00",
-  "MonStop": "1998-07-20T03:44:58.1874634+02:00",
-  "TueStart": "2014-12-26T03:44:58.1874634+01:00",
-  "TueStop": "2015-03-23T03:44:58.1874634+01:00",
-  "WedStart": "2018-05-07T03:44:58.1874634+02:00",
-  "WedStop": "2011-09-15T03:44:58.1874634+02:00",
-  "ThuStart": "2004-11-30T03:44:58.1874634+01:00",
-  "ThuStop": "2000-07-30T03:44:58.1874634+02:00",
-  "FriStart": "2018-03-10T03:44:58.1874634+01:00",
-  "FriStop": "2011-11-05T03:44:58.1874634+01:00",
-  "SatStart": "2008-07-09T03:44:58.1874634+02:00",
-  "SatStop": "2013-11-02T03:44:58.1874634+01:00",
-  "SunStart": "2003-03-26T03:44:58.1874634+01:00",
-  "SunStop": "2001-06-05T03:44:58.1874634+02:00",
+  "Deadline": 261,
+  "MonStart": "2006-11-27T13:14:11.5704589+01:00",
+  "MonStop": "2018-10-26T13:14:11.5704589+02:00",
+  "TueStart": "2002-09-20T13:14:11.5704589+02:00",
+  "TueStop": "2017-02-07T13:14:11.5704589+01:00",
+  "WedStart": "2000-08-22T13:14:11.5704589+02:00",
+  "WedStop": "2006-01-14T13:14:11.5704589+01:00",
+  "ThuStart": "2024-01-17T13:14:11.5704589+01:00",
+  "ThuStop": "2018-04-26T13:14:11.5704589+02:00",
+  "FriStart": "2011-08-07T13:14:11.5704589+02:00",
+  "FriStop": "2009-06-22T13:14:11.5704589+02:00",
+  "SatStart": "2006-06-28T13:14:11.5704589+02:00",
+  "SatStop": "2002-07-14T13:14:11.5704589+02:00",
+  "SunStart": "2004-03-12T13:14:11.5704589+01:00",
+  "SunStop": "2019-09-10T13:14:11.5704589+02:00",
   "NonDates": [
-    "occaecati",
-    "perspiciatis"
+    "suscipit",
+    "veritatis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 608,
-      "AlertLevel": 863,
-      "AlertTimeout": 254,
-      "Action": 584,
-      "DelegateTo": 314,
-      "ScriptId": 203,
-      "EmailTo": "kaden_beahan@johnsdietrich.us",
-      "SmsTo": "et",
-      "ReplyTemplateIdCustomer": 877,
-      "ReplyTemplateIdUser": 220,
-      "ReplyTemplateIdCatmast": 78,
-      "ReplyTemplateIdEmail": 663,
-      "RtiCustomerSms": 779,
-      "ReplyTemplateIdUserSms": 407,
-      "ReplyTemplateIdCatmastSms": 302,
-      "ReplyTemplateIdSms": 331,
+      "TicketAlertId": 464,
+      "AlertLevel": 646,
+      "AlertTimeout": 800,
+      "Action": 961,
+      "DelegateTo": 662,
+      "ScriptId": 858,
+      "EmailTo": "dee@dach.name",
+      "SmsTo": "maxime",
+      "ReplyTemplateIdCustomer": 393,
+      "ReplyTemplateIdUser": 120,
+      "ReplyTemplateIdCatmast": 240,
+      "ReplyTemplateIdEmail": 767,
+      "RtiCustomerSms": 849,
+      "ReplyTemplateIdUserSms": 83,
+      "ReplyTemplateIdCatmastSms": 639,
+      "ReplyTemplateIdSms": 306,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 126
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 698
     }
   }
 }

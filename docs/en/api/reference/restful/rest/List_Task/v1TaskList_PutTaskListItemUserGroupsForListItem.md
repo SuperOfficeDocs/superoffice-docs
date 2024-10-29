@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Bernier Inc and Sons",
-    "ToolTip": "Qui fuga sint minus quo.",
-    "Deleted": true,
-    "Rank": 478,
-    "Type": "occaecati",
-    "ColorBlock": 261,
-    "IconHint": "quibusdam",
+    "Id": 744,
+    "Name": "Schiller LLC",
+    "ToolTip": "Quidem et.",
+    "Deleted": false,
+    "Rank": 170,
+    "Type": "veritatis",
+    "ColorBlock": 941,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2010-10-05T03:44:58.1874634+02:00",
+    "LastChanged": "2008-11-24T13:14:11.5704589+01:00",
     "ChildItems": [
       {
-        "Id": 317,
-        "Name": "Osinski-Johnson",
-        "ToolTip": "Qui illo eos ipsam consequatur iste reiciendis repellendus.",
+        "Id": 848,
+        "Name": "Zemlak Inc and Sons",
+        "ToolTip": "Vero quos.",
         "Deleted": false,
-        "Rank": 679,
-        "Type": "officia",
-        "ColorBlock": 191,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "1997-12-09T03:44:58.1874634+01:00",
+        "Rank": 257,
+        "Type": "non",
+        "ColorBlock": 733,
+        "IconHint": "perspiciatis",
+        "Selected": true,
+        "LastChanged": "1998-05-20T13:14:11.5704589+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "quod",
+        "ExtraInfo": "inventore",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Shawna Kunze"
+        "FullName": "Elwyn Heaney"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "cum",
-    "Hidden": true,
-    "FullName": "Vaughn Senger III"
+    "ExtraInfo": "dicta",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Nya Mertz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 270,
-    "Name": "Barton Group",
-    "ToolTip": "Sint ratione doloremque quibusdam qui.",
+    "Id": 779,
+    "Name": "Gleichner LLC",
+    "ToolTip": "Expedita magni ad.",
     "Deleted": false,
-    "Rank": 619,
-    "Type": "pariatur",
-    "ColorBlock": 91,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2009-05-12T03:44:58.1874634+02:00",
+    "Rank": 972,
+    "Type": "ullam",
+    "ColorBlock": 728,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2018-11-16T13:14:11.5704589+01:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Anderson, McDermott and Kreiger",
-        "ToolTip": "Cupiditate rerum odio expedita.",
-        "Deleted": false,
-        "Rank": 582,
-        "Type": "deleniti",
-        "ColorBlock": 313,
-        "IconHint": "rerum",
+        "Id": 31,
+        "Name": "Maggio Group",
+        "ToolTip": "Qui dolor quo adipisci aut ea eos similique.",
+        "Deleted": true,
+        "Rank": 315,
+        "Type": "dolores",
+        "ColorBlock": 368,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2000-02-10T03:44:58.1874634+01:00",
+        "LastChanged": "2017-08-08T13:14:11.5704589+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "inventore",
+        "ExtraInfo": "maxime",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "London Schultz",
+        "FullName": "Mrs. Dayne Steuber V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 287
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Marjorie Wisoky",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Miss Eliza Brooks Pollich V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 934
       }
     }
   }

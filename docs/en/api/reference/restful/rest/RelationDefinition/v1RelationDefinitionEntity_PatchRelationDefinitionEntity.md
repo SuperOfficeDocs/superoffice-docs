@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "magnam",
+    "path": "dicta",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magnam",
+    "path": "dicta",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 706,
-  "Name": "Kunze Group",
-  "Tooltip": "ea",
-  "PassiveText": "aperiam",
+  "ReldefId": 595,
+  "Name": "Monahan, Lynch and Homenick",
+  "Tooltip": "facere",
+  "PassiveText": "commodi",
   "Deleted": false,
-  "Rank": 413,
+  "Rank": 490,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 656
     }
   },
   "_Links": {

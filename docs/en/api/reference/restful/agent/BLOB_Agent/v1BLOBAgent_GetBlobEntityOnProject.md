@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 877
+  "ProjectId": 226
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 544,
-  "BlobSize": 872,
-  "Description": "Profound dedicated workforce",
-  "ExtraInfo": "aut",
+  "BlobId": 725,
+  "BlobSize": 97,
+  "Description": "Progressive dedicated open system",
+  "ExtraInfo": "distinctio",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "laboriosam",
-  "OriginalSize": 41,
-  "CreatedDate": "2011-04-07T03:44:52.0896371+02:00",
-  "UpdatedDate": "2010-02-05T03:44:52.0896371+01:00",
+  "MimeType": "perspiciatis",
+  "OriginalSize": 161,
+  "CreatedDate": "2013-08-06T13:14:05.5382596+02:00",
+  "UpdatedDate": "2018-05-11T13:14:05.5382596+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iste",
+  "ConceptualType": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Schuppe LLC",
-    "Tooltip": "dolorum",
-    "Deleted": true,
-    "UdListDefinitionId": 687,
-    "Rank": 214
+    "Id": 121,
+    "Name": "Wilderman Inc and Sons",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "UdListDefinitionId": 501,
+    "Rank": 958
   },
   {
-    "Id": 957,
-    "Name": "Schuppe LLC",
-    "Tooltip": "dolorum",
-    "Deleted": true,
-    "UdListDefinitionId": 687,
-    "Rank": 214
+    "Id": 121,
+    "Name": "Wilderman Inc and Sons",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "UdListDefinitionId": 501,
+    "Rank": 958
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Walsh-Conroy",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "UdListDefinitionId": 737,
-    "Rank": 349,
+    "Id": 806,
+    "Name": "Wisoky-Bartoletti",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "UdListDefinitionId": 68,
+    "Rank": 221,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 940
+        "FieldLength": 61
       }
     }
   }

@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wuckert, Ondricka and Sauer",
-  "Comment": "ipsa",
-  "StakeholderRoleId": 68,
-  "CountryId": 452,
-  "PersonId": 390,
-  "EmailDescription": "tod@daughertymiller.co.uk",
-  "EmailId": 31,
-  "EmailAddress": "abe.rath@turner.ca",
-  "PhoneId": 540,
-  "ContactName": "Marks Group",
-  "ContactId": 547,
-  "SaleId": 271,
-  "Mrmrs": "iure",
-  "Firstname": "Raphael",
-  "MiddleName": "Jewess-Renner",
-  "Lastname": "Pacocha",
-  "SaleStakeholderId": 435,
-  "Rank": 178,
-  "Phone": "(926)424-5374",
+  "StakeholderRoleName": "Klein-Crist",
+  "Comment": "molestias",
+  "StakeholderRoleId": 936,
+  "CountryId": 900,
+  "PersonId": 361,
+  "EmailDescription": "berneice@connelly.ca",
+  "EmailId": 567,
+  "EmailAddress": "henry@heathcote.com",
+  "PhoneId": 930,
+  "ContactName": "Kuhn-Gleason",
+  "ContactId": 348,
+  "SaleId": 847,
+  "Mrmrs": "esse",
+  "Firstname": "Mollie",
+  "MiddleName": "Kuvalis, Wunsch and Johnson",
+  "Lastname": "Mayert",
+  "SaleStakeholderId": 493,
+  "Rank": 914,
+  "Phone": "722.608.8076",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 972
     }
   },
   "_Links": {

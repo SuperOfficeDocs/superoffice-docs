@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 705,
-    "Name": "Gaylord-Rogahn",
-    "Tooltip": "dolor",
+    "HeadingId": 10,
+    "Name": "Kilback Group",
+    "Tooltip": "tempora",
     "Deleted": true,
-    "Rank": 837,
-    "UdListDefinitionId": 637
+    "Rank": 985,
+    "UdListDefinitionId": 597
   },
   {
-    "HeadingId": 705,
-    "Name": "Gaylord-Rogahn",
-    "Tooltip": "dolor",
+    "HeadingId": 10,
+    "Name": "Kilback Group",
+    "Tooltip": "tempora",
     "Deleted": true,
-    "Rank": 837,
-    "UdListDefinitionId": 637
+    "Rank": 985,
+    "UdListDefinitionId": 597
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 163,
-    "Name": "Rowe Inc and Sons",
-    "Tooltip": "distinctio",
-    "Deleted": false,
-    "Rank": 596,
-    "UdListDefinitionId": 588,
+    "HeadingId": 573,
+    "Name": "Ward-Bogan",
+    "Tooltip": "debitis",
+    "Deleted": true,
+    "Rank": 434,
+    "UdListDefinitionId": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldLength": 291
       }
     }
   }

@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 585,
-  "ColumnId": 777,
-  "FieldDefault": "ut",
-  "FieldHeight": 446,
-  "FieldLabel": "et",
-  "FieldLeft": 459,
-  "FieldTop": 996,
+  "UDefFieldId": 773,
+  "ColumnId": 25,
+  "FieldDefault": "quas",
+  "FieldHeight": 716,
+  "FieldLabel": "amet",
+  "FieldLeft": 593,
+  "FieldTop": 133,
   "FieldType": "Checkbox",
-  "FieldWidth": 362,
-  "FormatMask": "quia",
+  "FieldWidth": 931,
+  "FormatMask": "qui",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 112,
-  "LabelLeft": 380,
-  "LabelTop": 92,
-  "LabelWidth": 594,
-  "LastVersionId": 127,
-  "ListTableId": 227,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 615,
+  "LabelLeft": 120,
+  "LabelTop": 703,
+  "LabelWidth": 408,
+  "LastVersionId": 427,
+  "ListTableId": 897,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 870,
-  "ProgId": "omnis",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 300,
-  "TextLength": 617,
-  "Tooltip": "totam",
-  "UdefIdentity": 691,
-  "UDListDefinitionId": 236,
+  "Page1LineNo": 959,
+  "ProgId": "tempore",
+  "IsReadOnly": false,
+  "ShortLabel": "ex",
+  "TabOrder": 319,
+  "TextLength": 532,
+  "Tooltip": "minima",
+  "UdefIdentity": 865,
+  "UDListDefinitionId": 24,
   "Justification": "Center",
-  "Version": 898,
-  "TemplateVariableName": "McGlynn LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Greenfelder, Hoppe and Kutch",
+  "Version": 448,
+  "TemplateVariableName": "D'Amore, Maggio and Medhurst",
+  "HasBeenPublished": false,
+  "MdoListName": "Kemmer, Reichel and Nolan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldLength": 580
     }
   }
 }

@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "reiciendis",
-  "IsoLangCode": "eum",
-  "UserPrompt": "ab",
-  "DisplayValue": "facilis",
+  "ChatId": "mollitia",
+  "IsoLangCode": "autem",
+  "UserPrompt": "et",
+  "DisplayValue": "adipisci",
   "PreviousTurns": [
     {
-      "Timestamp": "2012-09-22T03:44:51.808417+02:00",
-      "UserPrompt": "et",
-      "UserDisplayText": "et",
-      "BotResponse": "enim",
+      "Timestamp": "2004-06-20T13:14:05.1944888+02:00",
+      "UserPrompt": "consequuntur",
+      "UserDisplayText": "enim",
+      "BotResponse": "voluptatibus",
       "BotActions": {
-        "BotActions1": "ut",
-        "BotActions2": "tempore"
+        "BotActions1": "ullam",
+        "BotActions2": "amet"
       },
       "Attachments": [
-        "dolores",
-        "incidunt"
+        "explicabo",
+        "fugit"
       ]
     },
     {
-      "Timestamp": "2012-09-22T03:44:51.808417+02:00",
-      "UserPrompt": "et",
-      "UserDisplayText": "et",
-      "BotResponse": "enim",
+      "Timestamp": "2004-06-20T13:14:05.1944888+02:00",
+      "UserPrompt": "consequuntur",
+      "UserDisplayText": "enim",
+      "BotResponse": "voluptatibus",
       "BotActions": {
-        "BotActions1": "ut",
-        "BotActions2": "tempore"
+        "BotActions1": "ullam",
+        "BotActions2": "amet"
       },
       "Attachments": [
-        "dolores",
-        "incidunt"
+        "explicabo",
+        "fugit"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2010-06-16T03:44:51.808417+02:00",
-  "UserPrompt": "ut",
-  "UserDisplayText": "officiis",
-  "BotResponse": "numquam",
+  "Timestamp": "2006-03-30T13:14:05.1944888+02:00",
+  "UserPrompt": "deserunt",
+  "UserDisplayText": "et",
+  "BotResponse": "et",
   "BotActions": {
-    "BotActions1": "nulla",
-    "BotActions2": "quia"
+    "BotActions1": "dolores",
+    "BotActions2": "blanditiis"
   },
   "Attachments": [
-    "hic",
-    "optio"
+    "sit",
+    "sunt"
   ]
 }
 ```

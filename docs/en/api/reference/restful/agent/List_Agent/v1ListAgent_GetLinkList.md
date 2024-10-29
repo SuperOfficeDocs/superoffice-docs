@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jaskolski Inc and Sons",
-    "Id": 27,
-    "Description": "Reduced analyzing frame",
-    "ExtraInfo": "nihil",
-    "LinkId": 191,
+    "EntityName": "Hickle Group",
+    "Id": 605,
+    "Description": "Diverse bi-directional service-desk",
+    "ExtraInfo": "aut",
+    "LinkId": 47,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

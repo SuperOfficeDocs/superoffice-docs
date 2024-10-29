@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 09 Oct 2019 03:44:57 G10T
+Last-Modified: Sat, 28 Oct 2000 13:14:10 G10T
 
 [
   {
-    "ForeignDeviceId": 501,
-    "Name": "Windler, Fritsch and Wyman",
-    "CreatedDate": "1999-07-04T03:44:57.359003+02:00",
-    "UpdatedDate": "2019-10-09T03:44:57.359003+02:00",
-    "AssociateFullName": "Talia Harvey",
-    "CreatedBy": "animi",
-    "UpdatedBy": "saepe",
-    "DeviceIdentifier": "laudantium",
-    "ForeignAppId": 72,
+    "ForeignDeviceId": 967,
+    "Name": "Moore LLC",
+    "CreatedDate": "2000-08-05T13:14:10.8360396+02:00",
+    "UpdatedDate": "2000-10-28T13:14:10.8360396+02:00",
+    "AssociateFullName": "Dr. Arvilla Barrows PhD",
+    "CreatedBy": "itaque",
+    "UpdatedBy": "sunt",
+    "DeviceIdentifier": "enim",
+    "ForeignAppId": 321,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldLength": 628
       }
     }
   }

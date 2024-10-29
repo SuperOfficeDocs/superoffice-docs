@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=83
+POST /api/v1/Agents/Project/GetProject?projectId=345
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 579,
-  "Name": "Schuppe-Homenick",
-  "Description": "Assimilated needs-based support",
+  "ProjectId": 906,
+  "Name": "White, Kuphal and Collins",
+  "Description": "Profound didactic functionalities",
   "URL": "http://www.example.com/",
-  "Type": "inventore",
-  "AssociateId": 631,
-  "AssociateFullName": "Prof. Rosie Stark Jr.",
-  "TypeId": 830,
-  "Updated": "2023-04-04T03:44:52.9958238+02:00",
-  "StatusId": 82,
-  "Status": "rerum",
-  "TextId": 609,
-  "PublishTo": "1997-07-09T03:44:52.9958238+02:00",
-  "PublishFrom": "2000-06-24T03:44:52.9958238+02:00",
+  "Type": "sed",
+  "AssociateId": 931,
+  "AssociateFullName": "Danielle Myrtis Bernhard I",
+  "TypeId": 20,
+  "Updated": "2000-07-30T13:14:06.2726729+02:00",
+  "StatusId": 655,
+  "Status": "amet",
+  "TextId": 779,
+  "PublishTo": "2002-06-27T13:14:06.2726729+02:00",
+  "PublishFrom": "1999-05-28T13:14:06.2726729+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "702002",
-  "ActiveErpLinks": 793,
+  "ProjectNumber": "1518577",
+  "ActiveErpLinks": 25,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 363
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "McGlynn-Schroeder",
-    "ToolTip": "Ut modi eum labore assumenda fuga aut qui.",
+    "Id": 465,
+    "Name": "Kuvalis LLC",
+    "ToolTip": "Quis eum consequatur.",
     "Deleted": false,
-    "Rank": 38,
-    "Type": "perferendis",
-    "ColorBlock": 418,
-    "IconHint": "et",
+    "Rank": 952,
+    "Type": "velit",
+    "ColorBlock": 199,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2006-01-29T03:44:58.1093468+01:00",
+    "LastChanged": "2004-02-08T13:14:11.5079552+01:00",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Von, Greenfelder and Ryan",
-        "ToolTip": "Odit reprehenderit quisquam velit qui.",
+        "Id": 426,
+        "Name": "Zulauf-Dare",
+        "ToolTip": "Ut et nobis.",
         "Deleted": false,
-        "Rank": 67,
-        "Type": "molestiae",
-        "ColorBlock": 63,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2010-07-26T03:44:58.1093468+02:00",
+        "Rank": 977,
+        "Type": "illum",
+        "ColorBlock": 717,
+        "IconHint": "minima",
+        "Selected": false,
+        "LastChanged": "2000-11-20T13:14:11.5079552+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Kaleigh O'Kon IV",
+        "ExtraInfo": "atque",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Perry Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldLength": 305
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "harum",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Prof. Brennon Conn MD",
+    "FullName": "Gaetano Cordia Renner DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldLength": 290
       }
     }
   }

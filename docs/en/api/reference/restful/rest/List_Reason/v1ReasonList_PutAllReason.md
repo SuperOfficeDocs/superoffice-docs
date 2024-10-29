@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "Barton-Osinski",
-    "Tooltip": "tempore",
+    "Id": 134,
+    "Name": "Murray, Raynor and Wintheiser",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 460,
-    "Rank": 610
+    "UdListDefinitionId": 249,
+    "Rank": 318
   },
   {
-    "Id": 64,
-    "Name": "Barton-Osinski",
-    "Tooltip": "tempore",
+    "Id": 134,
+    "Name": "Murray, Raynor and Wintheiser",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 460,
-    "Rank": 610
+    "UdListDefinitionId": 249,
+    "Rank": 318
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Bauch Group",
-    "Tooltip": "non",
+    "Id": 753,
+    "Name": "Schowalter LLC",
+    "Tooltip": "illo",
     "Deleted": false,
-    "UdListDefinitionId": 685,
-    "Rank": 454,
+    "UdListDefinitionId": 563,
+    "Rank": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldType": "System.Int32",
+        "FieldLength": 604
       }
     }
   }

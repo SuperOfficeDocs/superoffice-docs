@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zulauf, Greenholt and Runolfsson",
-    "DisplayName": "Harris LLC",
-    "Description": "Re-contextualized fresh-thinking data-warehouse",
-    "ToolTip": "Harum et distinctio magni et sit.",
+    "Name": "Stanton Group",
+    "DisplayName": "Boyer-Haag",
+    "Description": "Reduced mission-critical local area network",
+    "ToolTip": "Libero sed voluptas soluta.",
     "Actions": "Implicit",
-    "ActionData": "sed",
+    "ActionData": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 562
+        "FieldType": "System.Int32",
+        "FieldLength": 140
       }
     }
   }

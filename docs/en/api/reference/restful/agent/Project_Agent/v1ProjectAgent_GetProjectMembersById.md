@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    979,
-    934
+    304,
+    982
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 427,
-    "ContactId": 302,
-    "ProjectId": 525,
-    "ContactName": "Dickens, Hand and Vandervort",
+    "ProjectmemberId": 718,
+    "ContactId": 605,
+    "ProjectId": 304,
+    "ContactName": "Spinka-Wuckert",
     "ContactDepartment": "",
-    "ProjectName": "Keeling-Lindgren",
-    "EmailId": 48,
-    "EmailAddress": "kirsten@abernathy.info",
-    "CountryId": 249,
-    "Firstname": "Brandy",
-    "MiddleName": "Cremin-Schmitt",
-    "Lastname": "Heidenreich",
-    "PersonId": 434,
-    "Mrmrs": "facilis",
-    "ProjectMemberTypeName": "Bruen-Waters",
-    "Phone": "1-734-449-5346 x449",
-    "PhoneId": 345,
-    "ProjectMemberTypeId": 92,
-    "EmailAddressName": "dylan.lynch@heathcote.us",
-    "Comment": "sit",
-    "FullName": "Ms. Kamryn Ima Littel",
+    "ProjectName": "Dare Inc and Sons",
+    "EmailId": 686,
+    "EmailAddress": "daphney@cummerataokuneva.com",
+    "CountryId": 539,
+    "Firstname": "Mckenna",
+    "MiddleName": "Pollich-Pacocha",
+    "Lastname": "Rosenbaum",
+    "PersonId": 607,
+    "Mrmrs": "qui",
+    "ProjectMemberTypeName": "Greenfelder, Bergnaum and Feeney",
+    "Phone": "478.321.6485 x6859",
+    "PhoneId": 432,
+    "ProjectMemberTypeId": 79,
+    "EmailAddressName": "jennings_cronin@smithhirthe.us",
+    "Comment": "natus",
+    "FullName": "Mrs. Delbert Angelica West II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

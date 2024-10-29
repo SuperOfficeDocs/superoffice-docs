@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 478,
-  "Name": "Carroll Inc and Sons",
-  "Tooltip": "itaque",
-  "Rank": 87,
-  "Key": "dicta",
-  "MailTemplateId": 841,
+  "ConsentSourceId": 649,
+  "Name": "Satterfield Inc and Sons",
+  "Tooltip": "molestiae",
+  "Rank": 856,
+  "Key": "autem",
+  "MailTemplateId": 964,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

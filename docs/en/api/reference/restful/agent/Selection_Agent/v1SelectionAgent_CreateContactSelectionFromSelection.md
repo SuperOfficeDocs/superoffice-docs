@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 787,
-  "Name": "Kuphal, Feest and Beer",
+  "SelectionId": 997,
+  "Name": "Swaniawski, Gaylord and Rogahn",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based assymetric workforce",
-  "Postit": "sed",
+  "Description": "Function-based bottom-line capability",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 979,
-  "IncludePerson": 706,
+  "GroupIdx": 174,
+  "IncludePerson": 768,
   "MemberCount": 99.99,
-  "Name": "Mann-Rempel",
-  "PostitTextId": 207,
-  "CreatedDate": "2021-09-07T03:44:53.1705699+02:00",
-  "SelectionId": 844,
-  "SoundEx": "officiis",
-  "Source": 28,
-  "TextId": 36,
-  "UpdatedDate": "2021-10-29T03:44:53.1705699+02:00",
-  "UpdatedCount": 882,
-  "Visibility": 116,
+  "Name": "Ruecker LLC",
+  "PostitTextId": 175,
+  "CreatedDate": "2019-07-07T13:14:06.4133118+02:00",
+  "SelectionId": 981,
+  "SoundEx": "dolores",
+  "Source": 122,
+  "TextId": 465,
+  "UpdatedDate": "2008-10-28T13:14:06.4133118+01:00",
+  "UpdatedCount": 420,
+  "Visibility": 594,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 141,
-  "TargetTableName": "Rippin Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 167,
-  "RightSelectionId": 621,
+  "CompanyUnique": true,
+  "TargetTableNumber": 481,
+  "TargetTableName": "Nitzsche Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 153,
+  "RightSelectionId": 861,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hauck, McCullough and Gusikowski",
-  "ShadowProviderName": "Ernser, Fahey and Harris",
-  "ChartKey": "beatae",
-  "LastLoaded": "2013-01-02T03:44:53.1705699+01:00",
-  "LastLoadedBy": 364,
+  "MainProviderName": "Torp, Cole and Williamson",
+  "ShadowProviderName": "Cruickshank Inc and Sons",
+  "ChartKey": "inventore",
+  "LastLoaded": "2024-05-05T13:14:06.4133118+02:00",
+  "LastLoadedBy": 801,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-10-03T03:44:53.1705699+02:00",
-  "LastMembershipChangeBy": 716,
+  "LastMembershipChange": "2015-01-19T13:14:06.4133118+01:00",
+  "LastMembershipChangeBy": 896,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eligendi",
-  "MemberTabHeading": "eum",
-  "MailingsProviderName": "Walsh-Kuphal",
-  "DashboardTileDefinitionId": 411,
+  "MainHeading": "quod",
+  "MemberTabHeading": "modi",
+  "MailingsProviderName": "Cummerata-Price",
+  "DashboardTileDefinitionId": 505,
   "VisibleFor": [
     {
-      "VisibleId": 4,
+      "VisibleId": 737,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 442
+          "FieldLength": 773
         }
       }
     },
     {
-      "VisibleId": 4,
+      "VisibleId": 737,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 442
+          "FieldLength": 773
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 626
     }
   }
 }

@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "numquam",
+  "SaleText": "quidem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-09-07T03:44:57.5625173+02:00",
-  "Amount": 6186.516,
-  "SaleId": 721,
-  "Earning": 23589.618,
-  "EarningPercent": 23392.176,
-  "Heading": "consequatur",
-  "Number": "1500584",
-  "Probability": 536,
-  "CreatedDate": "2016-03-11T03:44:57.5625173+01:00",
-  "UpdatedDate": "2011-10-06T03:44:57.5625173+02:00",
+  "Saledate": "2002-05-06T13:14:11.0860489+02:00",
+  "Amount": 5688.21,
+  "SaleId": 810,
+  "Earning": 22351.688,
+  "EarningPercent": 27535.324,
+  "Heading": "sunt",
+  "Number": "1470220",
+  "Probability": 839,
+  "CreatedDate": "2003-11-12T13:14:11.0860489+01:00",
+  "UpdatedDate": "1998-09-06T13:14:11.0860489+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 493,
+  "ActiveLinks": 542,
   "Links": [
     {
-      "EntityName": "Wunsch-Mohr",
-      "Id": 312,
-      "Description": "Synergized national access",
-      "ExtraInfo": "ut",
-      "LinkId": 167
+      "EntityName": "Lockman Inc and Sons",
+      "Id": 994,
+      "Description": "Polarised assymetric extranet",
+      "ExtraInfo": "tenetur",
+      "LinkId": 77
     },
     {
-      "EntityName": "Wunsch-Mohr",
-      "Id": 312,
-      "Description": "Synergized national access",
-      "ExtraInfo": "ut",
-      "LinkId": 167
+      "EntityName": "Lockman Inc and Sons",
+      "Id": 994,
+      "Description": "Polarised assymetric extranet",
+      "ExtraInfo": "tenetur",
+      "LinkId": 77
     }
   ],
-  "NextDueDate": "2010-02-10T03:44:57.5625173+01:00",
-  "Postit": "facilis",
+  "NextDueDate": "2019-03-06T13:14:11.0860489+01:00",
+  "Postit": "facere",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-04-24T03:44:57.5625173+02:00",
+  "ReopenDate": "2011-08-09T13:14:11.0860489+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Berge Inc and Sons",
-      "Comment": "in",
-      "StakeholderRoleId": 905,
-      "CountryId": 305,
-      "PersonId": 447,
-      "EmailDescription": "brigitte_kohler@leuschkeking.name",
-      "EmailId": 27,
-      "EmailAddress": "kaylah@wisoky.info",
-      "PhoneId": 106,
-      "ContactName": "Gusikowski Group",
-      "ContactId": 986,
-      "SaleId": 801,
-      "Mrmrs": "quia",
-      "Firstname": "Tad",
-      "MiddleName": "Feil-Bogan",
-      "Lastname": "Jenkins",
-      "SaleStakeholderId": 712,
-      "Rank": 273,
-      "Phone": "561-856-9114 x09109"
+      "StakeholderRoleName": "Parisian-Treutel",
+      "Comment": "dignissimos",
+      "StakeholderRoleId": 143,
+      "CountryId": 643,
+      "PersonId": 780,
+      "EmailDescription": "georgianna_gibson@millerjerde.us",
+      "EmailId": 822,
+      "EmailAddress": "eva_cremin@beatty.com",
+      "PhoneId": 994,
+      "ContactName": "Hauck, Strosin and Brakus",
+      "ContactId": 496,
+      "SaleId": 936,
+      "Mrmrs": "eum",
+      "Firstname": "Darion",
+      "MiddleName": "Schroeder, McLaughlin and Gutkowski",
+      "Lastname": "Smitham",
+      "SaleStakeholderId": 949,
+      "Rank": 568,
+      "Phone": "1-058-676-9839"
     }
   ],
-  "ActiveErpLinks": 327,
+  "ActiveErpLinks": 288,
   "UserDefinedFields": {
-    "SuperOffice:1": "Araceli Murphy II",
-    "SuperOffice:2": "Beryl Cruickshank"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "424907978"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "odit"
+    "CustomFields1": "in",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2015-06-05T03:44:57.5625173+02:00",
-  "PublishTo": "2000-08-11T03:44:57.5625173+02:00",
-  "PublishFrom": "2013-06-30T03:44:57.5625173+02:00",
+  "PublishEventDate": "1998-07-10T13:14:11.0860489+02:00",
+  "PublishTo": "2006-02-09T13:14:11.0860489+01:00",
+  "PublishFrom": "2005-03-09T13:14:11.0860489+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 703,
+      "VisibleId": 315,
       "Visibility": "All",
-      "DisplayValue": "ullam"
+      "DisplayValue": "incidunt"
     },
     {
-      "VisibleId": 703,
+      "VisibleId": 315,
       "Visibility": "All",
-      "DisplayValue": "ullam"
+      "DisplayValue": "incidunt"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "libero",
-  "2": "temporibus"
+  "1": "et",
+  "2": "error"
 }
 ```

@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 977,
-  "ListItemId": 78,
+  "UdListDefinitionId": 227,
+  "ListItemId": 538,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Welch, Ledner and Boehm",
-    "ToolTip": "Iste deleniti quia.",
+    "Id": 239,
+    "Name": "VonRueden, Champlin and Ritchie",
+    "ToolTip": "Et libero perspiciatis harum assumenda labore.",
     "Deleted": false,
-    "Rank": 938,
-    "Type": "soluta",
-    "ColorBlock": 428,
-    "IconHint": "impedit",
+    "Rank": 701,
+    "Type": "fugiat",
+    "ColorBlock": 676,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2008-09-08T03:44:52.6989885+02:00",
+    "LastChanged": "2006-06-12T13:14:06.0851676+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Carter, Ullrich and Willms",
-        "ToolTip": "Repudiandae qui.",
+        "Id": 640,
+        "Name": "McKenzie-Sanford",
+        "ToolTip": "Suscipit est eos magni adipisci.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "consequatur",
-        "ColorBlock": 823,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2006-07-04T03:44:52.6989885+02:00",
+        "Rank": 233,
+        "Type": "ab",
+        "ColorBlock": 929,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2013-11-09T13:14:06.0851676+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "illo",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Dr. Emmy Kelsi Oberbrunner Jr.",
+        "FullName": "Ms. Dahlia Kiara Torphy DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 205
+            "FieldType": "System.String",
+            "FieldLength": 200
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "ipsa",
-    "Hidden": true,
-    "FullName": "Marlin Jerde Sr.",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Elenor Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldType": "System.String",
+        "FieldLength": 179
       }
     }
   }

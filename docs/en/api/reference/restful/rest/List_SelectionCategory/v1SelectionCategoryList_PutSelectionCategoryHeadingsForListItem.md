@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Hintz-Toy",
-    "ToolTip": "Voluptatem consequuntur officiis et temporibus iste.",
+    "Id": 425,
+    "Name": "Kuvalis LLC",
+    "ToolTip": "Sed sit quo culpa voluptate perspiciatis nam consequatur.",
     "Deleted": false,
-    "Rank": 554,
-    "Type": "expedita",
-    "ColorBlock": 882,
-    "IconHint": "fugiat",
+    "Rank": 979,
+    "Type": "autem",
+    "ColorBlock": 960,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2013-11-16T03:44:58.17184+01:00",
+    "LastChanged": "2008-11-19T13:14:11.554833+01:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Toy-Okuneva",
-        "ToolTip": "In officia nisi ullam vitae qui sed quae.",
+        "Id": 758,
+        "Name": "Bogan, Osinski and Wolf",
+        "ToolTip": "Harum voluptatem et dolore impedit quia repellat.",
         "Deleted": false,
-        "Rank": 233,
-        "Type": "aut",
-        "ColorBlock": 275,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2016-09-13T03:44:58.17184+02:00",
+        "Rank": 635,
+        "Type": "accusantium",
+        "ColorBlock": 611,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2021-06-16T13:14:11.554833+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "non",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Dr. Elijah Wiza DVM"
+        "FullName": "Miss Chester Bayer V"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Esteban Kyleigh McLaughlin DVM"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Mr. Jody Oberbrunner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Hoeger Inc and Sons",
-    "ToolTip": "Incidunt iste aperiam id est itaque veritatis.",
-    "Deleted": false,
-    "Rank": 450,
-    "Type": "quasi",
-    "ColorBlock": 345,
-    "IconHint": "in",
+    "Id": 800,
+    "Name": "Bailey-Mraz",
+    "ToolTip": "Qui omnis facere necessitatibus voluptas.",
+    "Deleted": true,
+    "Rank": 199,
+    "Type": "qui",
+    "ColorBlock": 119,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2013-07-27T03:44:58.17184+02:00",
+    "LastChanged": "2019-12-07T13:14:11.554833+01:00",
     "ChildItems": [
       {
-        "Id": 491,
-        "Name": "Jones Inc and Sons",
-        "ToolTip": "Totam quisquam sit aut adipisci sequi cum.",
+        "Id": 186,
+        "Name": "Kessler-Nolan",
+        "ToolTip": "Sint incidunt velit consectetur.",
         "Deleted": false,
-        "Rank": 231,
-        "Type": "eaque",
-        "ColorBlock": 459,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2011-05-23T03:44:58.17184+02:00",
+        "Rank": 427,
+        "Type": "ut",
+        "ColorBlock": 388,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2001-04-26T13:14:11.554833+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Faye Oberbrunner III",
+        "ExtraInfo": "qui",
+        "StyleHint": "incidunt",
+        "Hidden": false,
+        "FullName": "Janae Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 254
+            "FieldLength": 451
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "id",
+    "ExtraInfo": "minima",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Rocio Keebler",
+    "FullName": "Dr. Kaylie Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 541
       }
     }
   }

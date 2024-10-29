@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 192,
-  "StartTime": "1998-07-19T03:44:52.4333602+02:00",
-  "EndTime": "2023-05-01T03:44:52.4333602+02:00",
-  "Count": 773,
-  "TemplateHeadingId": 287
+  "ContactId": 298,
+  "StartTime": "2001-06-06T13:14:05.7570229+02:00",
+  "EndTime": "2001-07-10T13:14:05.7570229+02:00",
+  "Count": 569,
+  "TemplateHeadingId": 334
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 699,
-    "Attention": "culpa",
-    "Header": "consectetur",
-    "Name": "Schiller Inc and Sons",
-    "OurRef": "esse",
-    "YourRef": "non",
-    "Description": "Sharable disintermediate middleware",
-    "DocumentTemplate": "qui",
-    "IsPublished": false,
-    "PersonId": 585,
-    "PersonFullName": "Breana Murazik",
-    "AssociateFullName": "Sophia Zieme",
-    "ContactId": 884,
-    "ContactName": "Kuphal Group",
-    "ProjectId": 870,
-    "ProjectName": "Labadie Group",
-    "AssociateId": 772,
-    "Snum": 599,
-    "SaleId": 969,
-    "SaleName": "Hamill-Dickinson",
+    "DocumentId": 153,
+    "Attention": "sed",
+    "Header": "rem",
+    "Name": "Rolfson-Brekke",
+    "OurRef": "unde",
+    "YourRef": "dolor",
+    "Description": "Upgradable heuristic synergy",
+    "DocumentTemplate": "quidem",
+    "IsPublished": true,
+    "PersonId": 499,
+    "PersonFullName": "Alta Reynolds",
+    "AssociateFullName": "Aubree Smitham",
+    "ContactId": 240,
+    "ContactName": "Sipes-Douglas",
+    "ProjectId": 153,
+    "ProjectName": "Williamson, Pacocha and King",
+    "AssociateId": 99,
+    "Snum": 980,
+    "SaleId": 272,
+    "SaleName": "Stehr, Rutherford and Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldLength": 643
       }
     }
   }

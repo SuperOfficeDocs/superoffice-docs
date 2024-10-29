@@ -101,35 +101,35 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 154,
-  "Name": "Gorczany-Lowe",
-  "Rank": 212,
-  "Tooltip": "praesentium",
-  "Icon": "et",
-  "DefaultTicketStatus": 345,
+  "TicketTypeId": 13,
+  "Name": "Strosin-Doyle",
+  "Rank": 232,
+  "Tooltip": "dolorum",
+  "Icon": "accusantium",
+  "DefaultTicketStatus": 148,
   "TicketStatuses": [
-    318,
-    808
+    963,
+    881
   ],
-  "DefaultTicketPriority": 889,
+  "DefaultTicketPriority": 57,
   "TicketPriorities": [
-    445,
-    751
+    236,
+    921
   ],
-  "ReplyTemplate": 216,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 438,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    767,
-    196
+    397,
+    790
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
@@ -143,40 +143,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 219,
-  "Name": "Moore LLC",
-  "Rank": 607,
-  "Tooltip": "cupiditate",
-  "Icon": "dolor",
-  "DefaultTicketStatus": 985,
+  "TicketTypeId": 590,
+  "Name": "Lynch, Johns and Lesch",
+  "Rank": 660,
+  "Tooltip": "quaerat",
+  "Icon": "voluptates",
+  "DefaultTicketStatus": 246,
   "TicketStatuses": [
-    683,
-    413
+    48,
+    396
   ],
-  "DefaultTicketPriority": 75,
+  "DefaultTicketPriority": 78,
   "TicketPriorities": [
-    360,
-    918
+    241,
+    930
   ],
-  "ReplyTemplate": 601,
+  "ReplyTemplate": 934,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    340,
-    323
+    92,
+    836
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

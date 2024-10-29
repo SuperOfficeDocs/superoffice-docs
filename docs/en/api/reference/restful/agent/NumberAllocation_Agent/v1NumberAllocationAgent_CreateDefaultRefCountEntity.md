@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 320,
-  "Field": "commodi",
-  "RecordId": 214,
+  "RefCountsId": 892,
+  "Field": "delectus",
+  "RecordId": 662,
   "SuggestedRecords": [
     {
-      "Id": 246,
-      "Name": "Langworth, Tillman and Von",
-      "ToolTip": "Fuga totam tempora.",
+      "Id": 110,
+      "Name": "Skiles-Franecki",
+      "ToolTip": "Est sed quidem.",
       "Deleted": false,
-      "Rank": 588,
-      "Type": "incidunt",
+      "Rank": 156,
+      "Type": "saepe",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 594,
-      "ExtraInfo": "inventore",
-      "StyleHint": "consequuntur",
-      "FullName": "Prof. Rylan Abbott",
+      "IconHint": "dolores",
+      "ColorBlock": 811,
+      "ExtraInfo": "sapiente",
+      "StyleHint": "fugiat",
+      "FullName": "Miss Abel Ada Vandervort DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 19
         }
       }
     }
   ],
-  "CurrentValue": 339,
-  "TravelPrefix": 304,
-  "SatPrefix": 12,
-  "Allocate": false,
+  "CurrentValue": 167,
+  "TravelPrefix": 562,
+  "SatPrefix": 405,
+  "Allocate": true,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 679
     }
   }
 }

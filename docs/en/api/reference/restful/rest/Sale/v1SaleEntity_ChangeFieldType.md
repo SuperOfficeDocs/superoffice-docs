@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 558,
-  "ColumnId": 417,
-  "FieldDefault": "odit",
-  "FieldHeight": 634,
-  "FieldLabel": "vitae",
-  "FieldLeft": 775,
-  "FieldTop": 893,
+  "UDefFieldId": 855,
+  "ColumnId": 38,
+  "FieldDefault": "non",
+  "FieldHeight": 585,
+  "FieldLabel": "quo",
+  "FieldLeft": 483,
+  "FieldTop": 408,
   "FieldType": "Checkbox",
-  "FieldWidth": 439,
-  "FormatMask": "nisi",
-  "HideLabel": true,
+  "FieldWidth": 134,
+  "FormatMask": "consequatur",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 990,
-  "LabelLeft": 396,
-  "LabelTop": 611,
-  "LabelWidth": 856,
-  "LastVersionId": 77,
-  "ListTableId": 552,
+  "LabelHeight": 36,
+  "LabelLeft": 54,
+  "LabelTop": 710,
+  "LabelWidth": 792,
+  "LastVersionId": 725,
+  "ListTableId": 420,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 644,
-  "ProgId": "et",
+  "Page1LineNo": 667,
+  "ProgId": "eveniet",
   "IsReadOnly": false,
-  "ShortLabel": "ad",
-  "TabOrder": 648,
-  "TextLength": 31,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 3,
-  "UDListDefinitionId": 712,
+  "ShortLabel": "possimus",
+  "TabOrder": 12,
+  "TextLength": 944,
+  "Tooltip": "soluta",
+  "UdefIdentity": 890,
+  "UDListDefinitionId": 293,
   "Justification": "Center",
-  "Version": 100,
-  "TemplateVariableName": "Pacocha Inc and Sons",
+  "Version": 392,
+  "TemplateVariableName": "Murray Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Swift, Crist and Lynch",
+  "MdoListName": "Gibson-Robel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 261
     }
   }
 }

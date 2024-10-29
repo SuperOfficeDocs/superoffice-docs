@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 146,
-  "Name": "Schroeder, Osinski and Kunde",
-  "Tooltip": "aspernatur",
-  "Rank": 53,
-  "Key": "cumque",
-  "Deleted": false,
+  "LegalBaseId": 635,
+  "Name": "Vandervort, Nicolas and Wintheiser",
+  "Tooltip": "ut",
+  "Rank": 166,
+  "Key": "eos",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 467
     }
   }
 }

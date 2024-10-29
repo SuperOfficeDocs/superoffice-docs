@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 819,
-  "Name": "Morissette, Leuschke and Russel",
-  "Tooltip": "facere",
-  "Rank": 523,
-  "Key": "totam",
-  "MailTemplateId": 361,
+  "ConsentSourceId": 986,
+  "Name": "Lang Group",
+  "Tooltip": "similique",
+  "Rank": 348,
+  "Key": "impedit",
+  "MailTemplateId": 690,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 480
     }
   }
 }

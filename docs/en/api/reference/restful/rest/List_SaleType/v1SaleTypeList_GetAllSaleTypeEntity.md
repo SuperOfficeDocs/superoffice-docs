@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 307,
-    "Name": "Leannon LLC",
-    "Tooltip": "minima",
-    "Rank": 515,
+    "SaleTypeId": 832,
+    "Name": "Morissette-Torp",
+    "Tooltip": "inventore",
+    "Rank": 876,
     "DurationUnit": "Century",
-    "SaleDuration": 211,
-    "SaleTypeCatId": 440,
-    "Deleted": false,
+    "SaleDuration": 9,
+    "SaleTypeCatId": 644,
+    "Deleted": true,
     "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 20,
-    "QuoteLinesTemplate": 647,
-    "ConfirmationLinesTemplate": 639,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 312,
-    "MinEarningPercent": 130,
-    "GroupQuoteLinesBy": 829,
-    "SortGroupLinesBy": 145,
+    "DefaultQuoteValidity": 284,
+    "QuoteLinesTemplate": 74,
+    "ConfirmationLinesTemplate": 57,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 272,
+    "MinEarningPercent": 594,
+    "GroupQuoteLinesBy": 522,
+    "SortGroupLinesBy": 445,
     "Stages": [
       {
-        "Id": 624,
-        "Name": "Terry, Torp and Pfeffer",
-        "ToolTip": "Aperiam sed.",
+        "Id": 219,
+        "Name": "Goodwin-Barrows",
+        "ToolTip": "Quam rerum error qui voluptatem.",
         "Deleted": false,
-        "Rank": 376,
-        "Type": "natus",
-        "ColorBlock": 119,
-        "IconHint": "quas",
+        "Rank": 200,
+        "Type": "facilis",
+        "ColorBlock": 620,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2013-08-20T03:44:58.1562167+02:00",
+        "LastChanged": "2001-09-17T13:14:11.5392071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Elliot Metz PhD",
+        "ExtraInfo": "quas",
+        "StyleHint": "quibusdam",
+        "Hidden": false,
+        "FullName": "Mr. Bobby Israel Koss IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 564
+            "FieldLength": 148
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 96
+        "FieldType": "System.Int32",
+        "FieldLength": 175
       }
     }
   }

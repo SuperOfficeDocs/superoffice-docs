@@ -64,7 +64,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 498,
-  "Name": "Kulas-Reichel",
-  "Tooltip": "dolores",
-  "PassiveText": "ea",
+  "ReldefId": 60,
+  "Name": "Witting LLC",
+  "Tooltip": "sunt",
+  "PassiveText": "autem",
   "Deleted": false,
-  "Rank": 353,
+  "Rank": 187,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 752
     }
   }
 }

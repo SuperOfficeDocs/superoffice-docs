@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    647,
-    60
+    232,
+    981
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 781,
-    "MessageId": "modi",
-    "Subject": "alias",
+    "ServerId": 110,
+    "MessageId": "et",
+    "Subject": "pariatur",
     "From": null,
     "To": [
       {
-        "ContactId": 307,
-        "ContactName": "Legros-Anderson",
-        "PersonId": 167,
-        "PersonName": "Borer LLC",
-        "AssociateId": 7,
-        "Address": "temporibus",
-        "EmailId": 359,
+        "ContactId": 376,
+        "ContactName": "Bartoletti Inc and Sons",
+        "PersonId": 6,
+        "PersonName": "Treutel Group",
+        "AssociateId": 121,
+        "Address": "nihil",
+        "EmailId": 630,
         "DuplicatePersonIds": [
-          116,
-          457
+          68,
+          641
         ],
-        "Name": "Lehner Inc and Sons",
+        "Name": "Stokes, Mraz and McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 527
+            "FieldType": "System.Int32",
+            "FieldLength": 941
           }
         }
       }
     ],
-    "Sent": "2006-02-05T03:44:52.5427529+01:00",
+    "Sent": "2004-04-10T13:14:05.9445336+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 771,
+    "Size": 24,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 559
       }
     }
   }

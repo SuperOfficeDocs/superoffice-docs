@@ -111,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 429,
-  "Name": "O'Kon-Swift",
-  "Tooltip": "aspernatur",
-  "Rank": 165,
+  "SaleTypeId": 636,
+  "Name": "Hegmann, Gerhold and Kuvalis",
+  "Tooltip": "vel",
+  "Rank": 896,
   "DurationUnit": "Century",
-  "SaleDuration": 965,
-  "SaleTypeCatId": 757,
+  "SaleDuration": 900,
+  "SaleTypeCatId": 564,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 43,
-  "QuoteLinesTemplate": 122,
-  "ConfirmationLinesTemplate": 297,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 91,
+  "QuoteLinesTemplate": 845,
+  "ConfirmationLinesTemplate": 439,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 951,
-  "MinEarningPercent": 349,
-  "GroupQuoteLinesBy": 981,
-  "SortGroupLinesBy": 157,
+  "MaxDiscountPercent": 198,
+  "MinEarningPercent": 40,
+  "GroupQuoteLinesBy": 550,
+  "SortGroupLinesBy": 504,
   "Stages": [
     {
-      "Id": 833,
-      "Name": "Shanahan, West and Lubowitz",
-      "ToolTip": "Porro iure rerum et fugit veniam.",
+      "Id": 360,
+      "Name": "Buckridge LLC",
+      "ToolTip": "Aliquid error voluptatem.",
       "Deleted": false,
-      "Rank": 346,
-      "Type": "neque",
-      "ColorBlock": 453,
-      "IconHint": "aut",
-      "Selected": true,
-      "LastChanged": "2011-06-26T03:44:58.1562167+02:00",
+      "Rank": 847,
+      "Type": "et",
+      "ColorBlock": 133,
+      "IconHint": "eum",
+      "Selected": false,
+      "LastChanged": "2000-12-11T13:14:11.5392071+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "aut",
-      "Hidden": false,
-      "FullName": "Jayson Greenholt"
+      "ExtraInfo": "rem",
+      "StyleHint": "fuga",
+      "Hidden": true,
+      "FullName": "Dr. Ralph Justus Wunsch Sr."
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 9,
-  "Name": "Hintz, Herzog and Streich",
-  "Tooltip": "illum",
-  "Rank": 849,
+  "SaleTypeId": 213,
+  "Name": "Johns-Gerhold",
+  "Tooltip": "et",
+  "Rank": 288,
   "DurationUnit": "Century",
-  "SaleDuration": 113,
-  "SaleTypeCatId": 597,
-  "Deleted": false,
+  "SaleDuration": 610,
+  "SaleTypeCatId": 935,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 50,
-  "QuoteLinesTemplate": 331,
-  "ConfirmationLinesTemplate": 965,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 431,
+  "QuoteLinesTemplate": 997,
+  "ConfirmationLinesTemplate": 788,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 316,
-  "MinEarningPercent": 276,
-  "GroupQuoteLinesBy": 240,
-  "SortGroupLinesBy": 921,
+  "MaxDiscountPercent": 247,
+  "MinEarningPercent": 12,
+  "GroupQuoteLinesBy": 21,
+  "SortGroupLinesBy": 979,
   "Stages": [
     {
-      "Id": 221,
-      "Name": "Littel, Heller and Fadel",
-      "ToolTip": "Et neque rem iste sequi tempora cupiditate iusto.",
+      "Id": 611,
+      "Name": "Fadel LLC",
+      "ToolTip": "Ut quidem.",
       "Deleted": false,
-      "Rank": 942,
-      "Type": "vitae",
-      "ColorBlock": 530,
-      "IconHint": "provident",
-      "Selected": false,
-      "LastChanged": "2002-02-12T03:44:58.1562167+01:00",
+      "Rank": 189,
+      "Type": "officiis",
+      "ColorBlock": 935,
+      "IconHint": "velit",
+      "Selected": true,
+      "LastChanged": "2003-03-18T13:14:11.5392071+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eaque",
-      "StyleHint": "ad",
+      "ExtraInfo": "incidunt",
+      "StyleHint": "voluptatem",
       "Hidden": false,
-      "FullName": "Karina West",
+      "FullName": "Alfonzo Dena Blick Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldType": "System.String",
+          "FieldLength": 65
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   }
 }

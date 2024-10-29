@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 478,
+  "TargetDimensionId": 131,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "nisi",
-  "DimensionListName": "Schmitt-Lesch",
-  "DimensionListId": 576,
-  "DimensionListLabel": "vitae",
+  "DimensionListField": "facilis",
+  "DimensionListName": "Gibson LLC",
+  "DimensionListId": 857,
+  "DimensionListLabel": "ipsam",
   "SelectedDimensions": [
-    751,
-    326
+    905,
+    457
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 528
     }
   }
 }

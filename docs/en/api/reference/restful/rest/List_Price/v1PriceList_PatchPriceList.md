@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dicta",
+    "path": "sequi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dicta",
+    "path": "sequi",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 916,
-  "ERPPriceListKey": "sit",
-  "QuoteConnectionId": 439,
-  "Name": "Heller-Simonis",
-  "Description": "Visionary systematic policy",
-  "Currency": "repellendus",
-  "CurrencyName": "Stamm-Schinner",
-  "ValidFrom": "2007-07-23T03:44:58.0468534+02:00",
-  "ValidTo": "2008-08-05T03:44:58.0468534+02:00",
+  "PriceListId": 59,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 750,
+  "Name": "Runolfsdottir, Wolff and Gaylord",
+  "Description": "Centralized zero tolerance interface",
+  "Currency": "recusandae",
+  "CurrencyName": "Feeney Group",
+  "ValidFrom": "2001-05-06T13:14:11.4454508+02:00",
+  "ValidTo": "2019-05-29T13:14:11.4454508+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 236
     }
   },
   "_Links": {

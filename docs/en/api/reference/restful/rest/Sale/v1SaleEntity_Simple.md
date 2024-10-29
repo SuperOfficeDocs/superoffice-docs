@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Kilback-Adams",
-  "SaleDate": "2018-05-22T03:44:57.5625173+02:00",
-  "SaleId": 874,
-  "Probability": 803,
-  "Title": "doloribus",
-  "Amount": 448.162,
-  "Currency": "voluptate",
-  "ProjectName": "Franecki, Durgan and Nienow",
-  "AssociateFullName": "Austen Schowalter",
-  "Description": "Self-enabling zero tolerance protocol",
+  "ContactName": "Konopelski Inc and Sons",
+  "SaleDate": "2013-05-29T13:14:11.0860489+02:00",
+  "SaleId": 992,
+  "Probability": 918,
+  "Title": "consectetur",
+  "Amount": 30371.593999999997,
+  "Currency": "eligendi",
+  "ProjectName": "Jenkins, Strosin and Bergstrom",
+  "AssociateFullName": "Arturo Thompson",
+  "Description": "Streamlined exuding success",
   "Status": "Lost",
-  "WeightedAmount": 16064.884,
-  "ProjectId": 974,
-  "EarningPercent": 827.376,
-  "Earning": 15826.699999999999,
-  "ContactId": 352,
-  "AssociateId": 784,
-  "PersonId": 297,
-  "SaleTypeId": 263,
-  "SaleTypeName": "Hessel Group",
-  "PersonFullName": "Miss Minerva Prohaska Jr.",
+  "WeightedAmount": 16911.064,
+  "ProjectId": 97,
+  "EarningPercent": 20994.666,
+  "Earning": 27359.82,
+  "ContactId": 221,
+  "AssociateId": 991,
+  "PersonId": 865,
+  "SaleTypeId": 477,
+  "SaleTypeName": "Altenwerth Inc and Sons",
+  "PersonFullName": "Mozelle Schuster",
   "Completed": "Completed",
-  "ActiveErpLinks": 267,
-  "NextDueDate": "2015-02-26T03:44:57.5625173+01:00",
-  "Number": "1753094",
+  "ActiveErpLinks": 362,
+  "NextDueDate": "2004-04-23T13:14:11.0860489+02:00",
+  "Number": "1044088",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 457
     }
   }
 }

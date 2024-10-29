@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 795,
-    "Name": "Bode, Dooley and Hettinger",
-    "Rank": 701,
-    "Tooltip": "eveniet",
-    "Icon": "doloribus",
-    "DefaultTicketStatus": 985,
+    "TicketTypeId": 57,
+    "Name": "Doyle Group",
+    "Rank": 790,
+    "Tooltip": "qui",
+    "Icon": "autem",
+    "DefaultTicketStatus": 337,
     "TicketStatuses": [
-      623,
-      847
-    ],
-    "DefaultTicketPriority": 813,
-    "TicketPriorities": [
       585,
-      871
+      959
     ],
-    "ReplyTemplate": 39,
-    "IsExternalVisible": false,
+    "DefaultTicketPriority": 320,
+    "TicketPriorities": [
+      447,
+      263
+    ],
+    "ReplyTemplate": 788,
+    "IsExternalVisible": true,
     "IsDefault": false,
-    "ShowInNew": false,
-    "ExcludeSignature": true,
-    "ExcludeEmailRecipients": true,
-    "ExternalAsDefault": true,
+    "ShowInNew": true,
+    "ExcludeSignature": false,
+    "ExcludeEmailRecipients": false,
+    "ExternalAsDefault": false,
     "VisibleForGroups": [
-      862,
-      546
+      772,
+      583
     ],
     "ReplyForwardNoSignature": true,
     "ReplyExternalAsDefault": false,
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 12
+        "FieldLength": 375
       }
     }
   }

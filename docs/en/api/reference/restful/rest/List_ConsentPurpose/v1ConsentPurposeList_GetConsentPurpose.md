@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 253,
-  "Name": "Blanda-Beatty",
-  "ConsentText": "facere",
-  "FormText": "dolor",
-  "Key": "nesciunt",
-  "Tooltip": "est",
-  "Active": 354,
-  "UpdatedDate": "2000-12-02T03:44:57.9374899+01:00",
+  "ConsentPurposeId": 328,
+  "Name": "Wuckert Inc and Sons",
+  "ConsentText": "asperiores",
+  "FormText": "eligendi",
+  "Key": "quasi",
+  "Tooltip": "placeat",
+  "Active": 407,
+  "UpdatedDate": "2012-10-20T13:14:11.3360694+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 498,
+  "Deleted": false,
+  "Rank": 351,
   "PrivacyStatementDesc": "molestiae",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 273
     }
   }
 }

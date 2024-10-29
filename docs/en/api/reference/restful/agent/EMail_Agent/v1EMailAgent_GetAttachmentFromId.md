@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 364,
-  "AttachmentId": "beatae"
+  "MailItemId": 889,
+  "AttachmentId": "earum"
 }
 ```
 
@@ -100,13 +100,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable client-server project",
-  "Filename": "fugit",
-  "Size": 796,
-  "Type": "natus",
-  "Encoding": "dolore",
-  "Id": "atque",
-  "Disposition": "qui",
+  "Description": "Multi-channelled even-keeled matrix",
+  "Filename": "velit",
+  "Size": 402,
+  "Type": "dolores",
+  "Encoding": "ea",
+  "Id": "doloremque",
+  "Disposition": "exercitationem",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 137
     }
   }
 }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 567
+  "SatelliteId": 853
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dach, Paucek and Balistreri",
-    "Description": "Public-key static Graphical User Interface",
+    "Name": "Becker LLC",
+    "Description": "Cross-platform modular info-mediaries",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 449,
-        "Tooltip": "blanditiis",
-        "CanAssign": true,
-        "Free": 823,
-        "InUse": 728,
+        "Total": 294,
+        "Tooltip": "aspernatur",
+        "CanAssign": false,
+        "Free": 827,
+        "InUse": 906,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 167,
-        "Name": "Flatley-Daugherty",
-        "Description": "Managed systematic architecture",
-        "PrerequisiteModuleName": "Schmidt, Lockman and Kohler",
-        "SortOrder": 980,
-        "ExtraFlags": 251,
+        "ModuleLicenseId": 973,
+        "Name": "Harris LLC",
+        "Description": "Innovative 24 hour moratorium",
+        "PrerequisiteModuleName": "Runte, Becker and Bashirian",
+        "SortOrder": 995,
+        "ExtraFlags": 781,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 789
+            "FieldLength": 520
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 994,
-        "Tooltip": "a",
-        "CanAssign": false,
-        "Free": 132,
-        "InUse": 758,
+        "Total": 455,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 602,
+        "InUse": 80,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 923,
-        "Name": "Daniel Inc and Sons",
-        "Description": "Inverse client-server internet solution",
-        "PrerequisiteModuleName": "Hirthe-Spinka",
-        "SortOrder": 499,
-        "ExtraFlags": 240,
+        "ModuleLicenseId": 902,
+        "Name": "Harber LLC",
+        "Description": "Multi-layered discrete initiative",
+        "PrerequisiteModuleName": "Carroll Inc and Sons",
+        "SortOrder": 928,
+        "ExtraFlags": 380,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldLength": 833
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldType": "System.Int32",
+        "FieldLength": 993
       }
     }
   },
   {
-    "Name": "Dach, Paucek and Balistreri",
-    "Description": "Public-key static Graphical User Interface",
+    "Name": "Becker LLC",
+    "Description": "Cross-platform modular info-mediaries",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 449,
-        "Tooltip": "blanditiis",
-        "CanAssign": true,
-        "Free": 823,
-        "InUse": 728,
+        "Total": 294,
+        "Tooltip": "aspernatur",
+        "CanAssign": false,
+        "Free": 827,
+        "InUse": 906,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 167,
-        "Name": "Flatley-Daugherty",
-        "Description": "Managed systematic architecture",
-        "PrerequisiteModuleName": "Schmidt, Lockman and Kohler",
-        "SortOrder": 980,
-        "ExtraFlags": 251,
+        "ModuleLicenseId": 973,
+        "Name": "Harris LLC",
+        "Description": "Innovative 24 hour moratorium",
+        "PrerequisiteModuleName": "Runte, Becker and Bashirian",
+        "SortOrder": 995,
+        "ExtraFlags": 781,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 789
+            "FieldLength": 520
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 994,
-        "Tooltip": "a",
-        "CanAssign": false,
-        "Free": 132,
-        "InUse": 758,
+        "Total": 455,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 602,
+        "InUse": 80,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 923,
-        "Name": "Daniel Inc and Sons",
-        "Description": "Inverse client-server internet solution",
-        "PrerequisiteModuleName": "Hirthe-Spinka",
-        "SortOrder": 499,
-        "ExtraFlags": 240,
+        "ModuleLicenseId": 902,
+        "Name": "Harber LLC",
+        "Description": "Multi-layered discrete initiative",
+        "PrerequisiteModuleName": "Carroll Inc and Sons",
+        "SortOrder": 928,
+        "ExtraFlags": 380,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldLength": 833
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldType": "System.Int32",
+        "FieldLength": 993
       }
     }
   }

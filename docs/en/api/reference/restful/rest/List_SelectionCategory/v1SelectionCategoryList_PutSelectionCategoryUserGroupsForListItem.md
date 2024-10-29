@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Koch Group",
-    "ToolTip": "Accusantium omnis.",
+    "Id": 819,
+    "Name": "Bashirian, Wisozk and Prohaska",
+    "ToolTip": "Suscipit est alias dolores dolorem.",
     "Deleted": false,
-    "Rank": 708,
-    "Type": "praesentium",
-    "ColorBlock": 279,
-    "IconHint": "expedita",
+    "Rank": 422,
+    "Type": "numquam",
+    "ColorBlock": 503,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2020-12-08T03:44:58.1562167+01:00",
+    "LastChanged": "2005-11-07T13:14:11.554833+01:00",
     "ChildItems": [
       {
-        "Id": 980,
-        "Name": "Toy-Konopelski",
-        "ToolTip": "Dolores alias quo.",
-        "Deleted": true,
-        "Rank": 340,
-        "Type": "atque",
-        "ColorBlock": 643,
-        "IconHint": "incidunt",
+        "Id": 896,
+        "Name": "Kris-Welch",
+        "ToolTip": "A saepe debitis.",
+        "Deleted": false,
+        "Rank": 38,
+        "Type": "sunt",
+        "ColorBlock": 880,
+        "IconHint": "corrupti",
         "Selected": true,
-        "LastChanged": "2000-05-20T03:44:58.1562167+02:00",
+        "LastChanged": "2013-01-16T13:14:11.554833+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Susanna Freeda Gutkowski I"
+        "ExtraInfo": "minima",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Ms. Shakira Patience Schimmel I"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "ut",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Mr. Alessandra Odell Wintheiser"
+    "FullName": "Kimberly Farrell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Kreiger-Nikolaus",
-    "ToolTip": "At fugit.",
+    "Id": 111,
+    "Name": "Champlin-Stoltenberg",
+    "ToolTip": "Vero pariatur.",
     "Deleted": false,
-    "Rank": 263,
-    "Type": "officiis",
-    "ColorBlock": 463,
-    "IconHint": "qui",
+    "Rank": 50,
+    "Type": "dolorem",
+    "ColorBlock": 634,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2014-02-21T03:44:58.1562167+01:00",
+    "LastChanged": "2011-06-05T13:14:11.554833+02:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Kozey Group",
-        "ToolTip": "Alias maxime nesciunt labore.",
-        "Deleted": true,
-        "Rank": 728,
-        "Type": "quod",
-        "ColorBlock": 266,
-        "IconHint": "reiciendis",
+        "Id": 273,
+        "Name": "Klein, Zieme and Wuckert",
+        "ToolTip": "Officiis rerum hic.",
+        "Deleted": false,
+        "Rank": 731,
+        "Type": "laboriosam",
+        "ColorBlock": 339,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2009-02-26T03:44:58.1562167+01:00",
+        "LastChanged": "2007-02-18T13:14:11.554833+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "libero",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Zora Thompson",
+        "FullName": "Rosie Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 991
+            "FieldLength": 373
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Ms. Frankie Dietrich",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Prof. Osbaldo Carlo Rippin I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 573
       }
     }
   }

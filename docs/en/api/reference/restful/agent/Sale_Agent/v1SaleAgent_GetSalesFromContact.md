@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 754,
-  "OnlyOpenSales": false
+  "ContactId": 445,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Runolfsson Inc and Sons",
-    "SaleDate": "2001-07-14T03:44:53.136845+02:00",
-    "SaleId": 641,
-    "Probability": 467,
-    "Title": "odit",
-    "Amount": 4832.628,
-    "Currency": "assumenda",
-    "ProjectName": "Prosacco Inc and Sons",
-    "AssociateFullName": "Shannon Emmerich DDS",
-    "Description": "Enterprise-wide logistical migration",
+    "ContactName": "Schinner Inc and Sons",
+    "SaleDate": "1997-07-10T13:14:06.3976861+02:00",
+    "SaleId": 214,
+    "Probability": 747,
+    "Title": "dolores",
+    "Amount": 12156.786,
+    "Currency": "voluptatem",
+    "ProjectName": "Kohler-Miller",
+    "AssociateFullName": "Mr. Jefferey Cummerata",
+    "Description": "Reactive intermediate pricing structure",
     "Status": "Lost",
-    "WeightedAmount": 11395.224,
-    "ProjectId": 402,
-    "EarningPercent": 11498.645999999999,
-    "Earning": 11385.822,
-    "ContactId": 107,
-    "AssociateId": 339,
-    "PersonId": 124,
-    "SaleTypeId": 210,
-    "SaleTypeName": "Bahringer LLC",
-    "PersonFullName": "Carmen Lebsack",
+    "WeightedAmount": 1833.3899999999999,
+    "ProjectId": 52,
+    "EarningPercent": 10157.294,
+    "Earning": 8355.244,
+    "ContactId": 499,
+    "AssociateId": 387,
+    "PersonId": 744,
+    "SaleTypeId": 26,
+    "SaleTypeName": "Champlin, Altenwerth and Haley",
+    "PersonFullName": "Leta Turner",
     "Completed": "Completed",
-    "ActiveErpLinks": 785,
-    "NextDueDate": "2008-09-05T03:44:53.136845+02:00",
-    "Number": "1120148",
+    "ActiveErpLinks": 121,
+    "NextDueDate": "2012-11-30T13:14:06.3976861+01:00",
+    "Number": "1688139",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldLength": 563
       }
     }
   }

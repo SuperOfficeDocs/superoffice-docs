@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 334,
-    "Name": "Mills, Bauch and Osinski",
-    "Tooltip": "omnis",
+    "HeadingId": 837,
+    "Name": "Konopelski, Waters and Jerde",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "Rank": 994,
-    "UdListDefinitionId": 823,
+    "Rank": 580,
+    "UdListDefinitionId": 847,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 548
+        "FieldType": "System.Int32",
+        "FieldLength": 301
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=729
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=723
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 47,
-  "Name": "Cummings, Kovacek and Metz",
-  "CreatedDate": "2007-04-24T03:44:52.6521119+02:00",
-  "UpdatedDate": "2017-09-09T03:44:52.6521119+02:00",
-  "AssociateFullName": "Clifford Marvin",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "similique",
-  "DeviceIdentifier": "iste",
-  "ForeignAppId": 967,
+  "ForeignDeviceId": 637,
+  "Name": "Reilly Inc and Sons",
+  "CreatedDate": "1999-07-19T13:14:06.0382898+02:00",
+  "UpdatedDate": "2013-08-06T13:14:06.0382898+02:00",
+  "AssociateFullName": "Ms. Marvin Gleason",
+  "CreatedBy": "consequatur",
+  "UpdatedBy": "in",
+  "DeviceIdentifier": "ipsum",
+  "ForeignAppId": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 418
     }
   }
 }

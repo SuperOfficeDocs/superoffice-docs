@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Heathcote, Kuhn and Jacobs",
-    "ToolTip": "Nam iure tenetur velit.",
+    "Id": 492,
+    "Name": "McLaughlin Inc and Sons",
+    "ToolTip": "Repudiandae necessitatibus.",
     "Deleted": true,
-    "Rank": 317,
-    "Type": "quibusdam",
-    "ColorBlock": 258,
-    "IconHint": "hic",
-    "Selected": false,
-    "LastChanged": "2018-03-03T03:44:58.0937233+01:00",
+    "Rank": 902,
+    "Type": "facilis",
+    "ColorBlock": 527,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2023-12-21T13:14:11.4923293+01:00",
     "ChildItems": [
       {
-        "Id": 878,
-        "Name": "Walter, Zulauf and Braun",
-        "ToolTip": "Quia aut.",
-        "Deleted": true,
-        "Rank": 35,
-        "Type": "cupiditate",
-        "ColorBlock": 133,
-        "IconHint": "eum",
-        "Selected": false,
-        "LastChanged": "2009-10-12T03:44:58.0937233+02:00",
+        "Id": 249,
+        "Name": "Brown-Kautzer",
+        "ToolTip": "Commodi quasi.",
+        "Deleted": false,
+        "Rank": 230,
+        "Type": "veniam",
+        "ColorBlock": 558,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2024-01-28T13:14:11.4923293+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Juliana Schuster",
+        "ExtraInfo": "ut",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Ms. Newton Winona Deckow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 333
+            "FieldType": "System.Int32",
+            "FieldLength": 920
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "nulla",
+    "ExtraInfo": "enim",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Allie Pacocha",
+    "FullName": "Ricardo Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldType": "System.String",
+        "FieldLength": 913
       }
     }
   }

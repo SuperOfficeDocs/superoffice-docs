@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Leannon-Hettinger",
-  "ContactGroupId": 388,
-  "ContactAssociateId": 851
+  "TableName": "Haag-McKenzie",
+  "ContactGroupId": 434,
+  "ContactAssociateId": 378
 }
 ```
 
@@ -92,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": "orchestrate scalable web-readiness"
+  "Reason": ""
 }
 ```

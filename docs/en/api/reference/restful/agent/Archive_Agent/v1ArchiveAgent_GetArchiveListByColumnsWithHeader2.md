@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cole-Swaniawski",
-  "Columns": "qui",
-  "SortOrder": "rerum",
-  "Restriction": "est",
-  "Entities": "occaecati",
-  "Page": 203,
-  "PageSize": 800,
-  "Options": "necessitatibus"
+  "ProviderName": "Kirlin, Daniel and Baumbach",
+  "Columns": "quia",
+  "SortOrder": "non",
+  "Restriction": "necessitatibus",
+  "Entities": "et",
+  "Page": 634,
+  "PageSize": 200,
+  "Options": "provident"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 28,
+  "RowCount": 720,
   "Rows": [
     {
-      "EntityName": "Green Group",
-      "PrimaryKey": 386,
+      "EntityName": "Johnston LLC",
+      "PrimaryKey": 603,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "repellendus",
-          "TooltipHint": "ut",
-          "LinkHint": "eos"
+          "DisplayValue": "qui",
+          "TooltipHint": "sunt",
+          "LinkHint": "molestias"
         }
       },
-      "LinkHint": "eligendi",
-      "StyleHint": "accusamus",
+      "LinkHint": "facere",
+      "StyleHint": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 873
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

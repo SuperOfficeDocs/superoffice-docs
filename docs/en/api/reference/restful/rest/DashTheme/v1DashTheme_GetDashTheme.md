@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 258,
-  "Name": "Yost, Simonis and Olson",
-  "Config": "et",
-  "Rank": 853,
-  "Client": "qui",
-  "Style": "aut",
+  "DashboardThemeId": 809,
+  "Name": "Johnston, Beatty and Bernhard",
+  "Config": "neque",
+  "Rank": 979,
+  "Client": "dolorem",
+  "Style": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   },
   "_Links": {

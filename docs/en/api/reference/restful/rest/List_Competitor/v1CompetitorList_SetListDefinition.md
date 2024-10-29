@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 919,
-  "Name": "Erdman-Douglas",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "Rank": 904,
+  "Id": 367,
+  "Name": "Hills LLC",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 526,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": true
+  "ListType": "illum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 533,
-  "Name": "West-Keebler",
-  "Tooltip": "assumenda",
+  "Id": 900,
+  "Name": "Towne-McCullough",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 650,
+  "Rank": 208,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "alias",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 685
     }
   }
 }

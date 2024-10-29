@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "quasi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "quasi",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 431,
-  "Name": "Haley, Metz and Ankunding",
+  "WebhookId": 403,
+  "Name": "Weissnat-Bailey",
   "Events": [
-    "nostrum",
-    "tempore"
+    "qui",
+    "dicta"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "tempora",
+  "Secret": "iure",
   "State": "Active",
-  "Type": "aperiam",
+  "Type": "a",
   "Headers": {
-    "Headers1": "ullam",
-    "Headers2": "modi"
+    "Headers1": "ut",
+    "Headers2": "molestiae"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-01-06T03:44:57.8125425+01:00",
+  "Registered": "1999-09-27T13:14:11.289192+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-04-22T03:44:57.8125425+02:00",
+  "Updated": "2014-09-07T13:14:11.289192+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jammie@oberbrunner.com",
+  "ErrorsEmail": "joel_weber@crooks.info",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

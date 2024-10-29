@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Luettgen, Mosciski and Mosciski",
-  "Columns": "ut",
-  "SortOrder": "dicta",
-  "Restrictions": "totam",
-  "Entities": "iure",
-  "Page": 731,
-  "PageSize": 189
+  "ProviderName": "Mosciski, Walker and Kihn",
+  "Columns": "vitae",
+  "SortOrder": "odio",
+  "Restrictions": "id",
+  "Entities": "mollitia",
+  "Page": 31,
+  "PageSize": 912
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Harber LLC",
-    "PrimaryKey": 657,
+    "EntityName": "Mayert, Torp and Rolfson",
+    "PrimaryKey": 1000,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "neque",
-        "LinkHint": "enim"
+        "DisplayValue": "non",
+        "TooltipHint": "aliquam",
+        "LinkHint": "autem"
       }
     },
-    "LinkHint": "distinctio",
-    "StyleHint": "possimus",
+    "LinkHint": "vitae",
+    "StyleHint": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 671
+        "FieldType": "System.Int32",
+        "FieldLength": 563
       }
     }
   }

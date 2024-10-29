@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 604,
-  "Name": "Powlowski-Pacocha",
-  "Tooltip": "sed",
+  "ExtAppId": 831,
+  "Name": "Lang-Daugherty",
+  "Tooltip": "mollitia",
   "Deleted": true,
-  "Rank": 106,
-  "Filename": "velit",
-  "Parameters": "rerum",
-  "Workdir": "quo",
+  "Rank": 407,
+  "Filename": "vero",
+  "Parameters": "aut",
+  "Workdir": "veritatis",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 148,
-  "WaitToFinish": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 479,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "commodi",
+  "Path": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 680
     }
   }
 }

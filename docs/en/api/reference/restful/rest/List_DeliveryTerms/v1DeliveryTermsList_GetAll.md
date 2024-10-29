@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Monahan Inc and Sons",
-    "Tooltip": "ab",
+    "Id": 87,
+    "Name": "Cormier-Gerhold",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "UdListDefinitionId": 1000,
-    "Rank": 983,
+    "UdListDefinitionId": 709,
+    "Rank": 618,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

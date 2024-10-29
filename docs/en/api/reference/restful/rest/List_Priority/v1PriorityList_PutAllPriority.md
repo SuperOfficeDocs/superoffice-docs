@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Howe Inc and Sons",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "UdListDefinitionId": 380,
-    "Rank": 107
+    "Id": 420,
+    "Name": "Baumbach Inc and Sons",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "UdListDefinitionId": 950,
+    "Rank": 351
   },
   {
-    "Id": 711,
-    "Name": "Howe Inc and Sons",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "UdListDefinitionId": 380,
-    "Rank": 107
+    "Id": 420,
+    "Name": "Baumbach Inc and Sons",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "UdListDefinitionId": 950,
+    "Rank": 351
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 906,
-    "Name": "Carter LLC",
-    "Tooltip": "maiores",
+    "Id": 313,
+    "Name": "Collins, Ritchie and Krajcik",
+    "Tooltip": "quo",
     "Deleted": false,
-    "UdListDefinitionId": 435,
-    "Rank": 443,
+    "UdListDefinitionId": 320,
+    "Rank": 376,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldType": "System.String",
+        "FieldLength": 93
       }
     }
   }

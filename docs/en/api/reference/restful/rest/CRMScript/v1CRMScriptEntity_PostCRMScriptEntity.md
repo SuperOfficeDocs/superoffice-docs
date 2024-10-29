@@ -113,52 +113,52 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 648,
-  "UniqueIdentifier": "est",
-  "Name": "Cummings, Prohaska and Price",
-  "Description": "Innovative attitude-oriented leverage",
-  "IncludeId": "sint",
-  "AccessKey": "aut",
-  "HierarchyId": 978,
-  "Source": "laboriosam",
-  "SourceCode": "et",
+  "EjscriptId": 781,
+  "UniqueIdentifier": "modi",
+  "Name": "Rohan, Pollich and Grant",
+  "Description": "Front-line foreground ability",
+  "IncludeId": "sit",
+  "AccessKey": "est",
+  "HierarchyId": 560,
+  "Source": "consequatur",
+  "SourceCode": "ut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 70,
+  "HtmlOutput": 284,
   "Includes": [
-    94,
-    422
+    336,
+    225
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 991,
-      "LineNumberTo": 79,
-      "Delta": 889,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 220,
+      "LineNumberTo": 155,
+      "Delta": 195,
+      "IncludeId": "repellat",
       "IncludedFrom": [
-        "ea",
-        "sequi"
+        "eius",
+        "dignissimos"
       ]
     },
     {
-      "LineNumberFrom": 991,
-      "LineNumberTo": 79,
-      "Delta": 889,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 220,
+      "LineNumberTo": 155,
+      "Delta": 195,
+      "IncludeId": "repellat",
       "IncludedFrom": [
-        "ea",
-        "sequi"
+        "eius",
+        "dignissimos"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2021-05-25T03:44:57.2028009+02:00",
-  "RegisteredAssociateId": 146,
-  "Updated": "2013-05-08T03:44:57.2028009+02:00",
-  "UpdatedAssociateId": 75
+  "Registered": "2009-04-18T13:14:10.7735359+02:00",
+  "RegisteredAssociateId": 67,
+  "Updated": "2012-07-19T13:14:10.7735359+02:00",
+  "UpdatedAssociateId": 532
 }
 ```
 
@@ -169,52 +169,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 923,
-  "UniqueIdentifier": "animi",
-  "Name": "Cremin LLC",
-  "Description": "Adaptive analyzing conglomeration",
-  "IncludeId": "aut",
-  "AccessKey": "in",
-  "HierarchyId": 864,
-  "Source": "et",
-  "SourceCode": "itaque",
+  "EjscriptId": 22,
+  "UniqueIdentifier": "consectetur",
+  "Name": "Thiel-Daniel",
+  "Description": "Multi-lateral actuating firmware",
+  "IncludeId": "possimus",
+  "AccessKey": "quidem",
+  "HierarchyId": 252,
+  "Source": "ullam",
+  "SourceCode": "id",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 462,
+  "HtmlOutput": 736,
   "Includes": [
-    925,
-    308
+    230,
+    406
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 140,
-      "LineNumberTo": 811,
-      "Delta": 655,
-      "IncludeId": "et",
+      "LineNumberFrom": 914,
+      "LineNumberTo": 925,
+      "Delta": 218,
+      "IncludeId": "corporis",
       "IncludedFrom": [
-        "molestias",
-        "optio"
+        "amet",
+        "ullam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 633
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2005-02-21T03:44:57.2028009+01:00",
-  "RegisteredAssociateId": 742,
-  "Updated": "2022-06-25T03:44:57.2028009+02:00",
-  "UpdatedAssociateId": 400,
+  "Registered": "2017-06-26T13:14:10.7735359+02:00",
+  "RegisteredAssociateId": 136,
+  "Updated": "2017-05-05T13:14:10.7735359+02:00",
+  "UpdatedAssociateId": 60,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 584
+      "FieldType": "System.Int32",
+      "FieldLength": 353
     }
   },
   "_Links": {

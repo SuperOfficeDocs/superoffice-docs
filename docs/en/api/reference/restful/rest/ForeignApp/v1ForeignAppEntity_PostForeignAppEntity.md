@@ -92,23 +92,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 406,
-  "Name": "Koelpin, Pouros and Flatley",
-  "CreatedDate": "2005-04-11T03:44:57.3433794+02:00",
-  "UpdatedDate": "2013-04-18T03:44:57.3433794+02:00",
+  "ForeignAppId": 238,
+  "Name": "Dach, Bashirian and Kemmer",
+  "CreatedDate": "2014-10-21T13:14:10.8360396+02:00",
+  "UpdatedDate": "2018-09-17T13:14:10.8360396+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 235,
-      "Name": "Raynor LLC",
-      "CreatedDate": "2022-04-04T03:44:57.3433794+02:00",
-      "UpdatedDate": "2016-01-16T03:44:57.3433794+01:00",
-      "AssociateFullName": "Prof. Chaz Conroy IV",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 5
+      "ForeignDeviceId": 648,
+      "Name": "Gutkowski-Schuster",
+      "CreatedDate": "2000-04-03T13:14:10.8360396+02:00",
+      "UpdatedDate": "2020-01-10T13:14:10.8360396+01:00",
+      "AssociateFullName": "Weldon Kurt Brakus MD",
+      "CreatedBy": "numquam",
+      "UpdatedBy": "ipsum",
+      "DeviceIdentifier": "esse",
+      "ForeignAppId": 899
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 667,
-  "Name": "Larson LLC",
-  "CreatedDate": "2001-04-01T03:44:57.3433794+02:00",
-  "UpdatedDate": "2022-04-21T03:44:57.3433794+02:00",
+  "ForeignAppId": 67,
+  "Name": "Prohaska, Hayes and Barrows",
+  "CreatedDate": "2014-12-22T13:14:10.8360396+01:00",
+  "UpdatedDate": "1998-02-04T13:14:10.8360396+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 710,
-      "Name": "Zemlak, Reinger and Lehner",
-      "CreatedDate": "2007-04-26T03:44:57.3433794+02:00",
-      "UpdatedDate": "2011-05-07T03:44:57.3433794+02:00",
-      "AssociateFullName": "Laurine Max Rosenbaum Jr.",
-      "CreatedBy": "quia",
-      "UpdatedBy": "maiores",
-      "DeviceIdentifier": "eum",
-      "ForeignAppId": 926,
+      "ForeignDeviceId": 147,
+      "Name": "Moore-O'Reilly",
+      "CreatedDate": "2007-11-12T13:14:10.8360396+01:00",
+      "UpdatedDate": "2018-05-30T13:14:10.8360396+02:00",
+      "AssociateFullName": "Max Sanford DDS",
+      "CreatedBy": "pariatur",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "debitis",
+      "ForeignAppId": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldLength": 216
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 9
     }
   },
   "_Links": {

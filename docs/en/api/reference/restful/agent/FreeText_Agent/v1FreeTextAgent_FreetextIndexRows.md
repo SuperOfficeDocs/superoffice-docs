@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/FreeText/FreetextIndexRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Leffler LLC",
+  "TableName": "Douglas, Kreiger and Botsford",
   "IDs": [
-    781,
-    212
+    519,
+    171
   ]
 }
 ```

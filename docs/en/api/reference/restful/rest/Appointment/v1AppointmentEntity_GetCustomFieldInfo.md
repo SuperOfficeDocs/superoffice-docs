@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Weber, Schroeder and Bernier",
-  "DisplayName": "Veum-Toy",
-  "Description": "Pre-emptive human-resource website",
-  "ShortLabel": "labore",
-  "HideLabel": true,
+  "FieldName": "Renner-Barton",
+  "DisplayName": "VonRueden, Leannon and Ebert",
+  "Description": "Synergistic assymetric task-force",
+  "ShortLabel": "optio",
+  "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
+  "IsExternal": false,
   "IsDisplayField": true,
-  "Rank": 777,
-  "TemplateVariableName": "Kris Inc and Sons"
+  "Rank": 4,
+  "TemplateVariableName": "Leffler Group"
 }
 ```

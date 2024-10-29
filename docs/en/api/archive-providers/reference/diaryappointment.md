@@ -724,7 +724,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=recordTypeText,contact/registeredByFullName,contact/NumberOfNotCompletedActivities,person/retired,person/personUdef/SuperOffice:8
+GET /api/v1/archive/DiaryAppointment?$select=contact/phone/formattedNumber,contact/contactExtra/x_contact_timespan,project/projectPublish/isPublished,sale/who,sale/associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

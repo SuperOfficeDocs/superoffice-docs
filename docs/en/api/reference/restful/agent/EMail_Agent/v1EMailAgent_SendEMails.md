@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "voluptas",
-      "HTMLBody": "quam",
+      "Subject": "adipisci",
+      "HTMLBody": "id",
       "From": null,
-      "Sent": "2014-05-15T03:44:52.5896202+02:00",
-      "Size": 941,
+      "Sent": "1998-11-22T13:14:05.9757861+01:00",
+      "Size": 455,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "laudantium",
-      "PlainBody": "doloribus",
-      "IsSent": true,
+      "MessageID": "quia",
+      "PlainBody": "architecto",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 649,
+      "ServerId": 708,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Braun, Hudson and Smitham",
-      "EmailItemId": 796,
-      "AccountId": 200,
-      "ReceivedAt": "2000-07-18T03:44:52.5896202+02:00",
+      "FolderName": "Cartwright, Nolan and Schroeder",
+      "EmailItemId": 821,
+      "AccountId": 573,
+      "ReceivedAt": "2007-11-20T13:14:05.9757861+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2021-08-11T03:44:52.5896202+02:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2024-02-14T13:14:05.9757861+01:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,97 +166,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 496,
-        "ContactName": "Koelpin, Lakin and West",
-        "PersonId": 55,
-        "PersonName": "Batz LLC",
-        "AssociateId": 158,
-        "Address": "et",
-        "EmailId": 201,
+        "ContactId": 123,
+        "ContactName": "Padberg Group",
+        "PersonId": 405,
+        "PersonName": "Quitzon, Bosco and Rolfson",
+        "AssociateId": 95,
+        "Address": "voluptate",
+        "EmailId": 939,
         "DuplicatePersonIds": [
-          840,
-          692
+          883,
+          710
         ],
-        "Name": "Jacobs Group",
+        "Name": "Macejkovic LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 817
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 374,
-        "ContactName": "Stiedemann LLC",
-        "PersonId": 270,
-        "PersonName": "Howe Inc and Sons",
-        "AssociateId": 545,
-        "Address": "est",
-        "EmailId": 705,
+        "ContactId": 506,
+        "ContactName": "Sawayn Group",
+        "PersonId": 96,
+        "PersonName": "Runolfsson Group",
+        "AssociateId": 136,
+        "Address": "eos",
+        "EmailId": 188,
         "DuplicatePersonIds": [
-          380,
-          796
+          991,
+          906
         ],
-        "Name": "Reilly Group",
+        "Name": "Pfeffer-Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 980
+            "FieldType": "System.String",
+            "FieldLength": 693
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 420,
-        "ContactName": "Bogisich Inc and Sons",
-        "PersonId": 448,
-        "PersonName": "Rutherford-Monahan",
-        "AssociateId": 232,
-        "Address": "ullam",
-        "EmailId": 619,
+        "ContactId": 222,
+        "ContactName": "Farrell-Labadie",
+        "PersonId": 702,
+        "PersonName": "Rowe, Kiehn and Waelchi",
+        "AssociateId": 392,
+        "Address": "quia",
+        "EmailId": 70,
         "DuplicatePersonIds": [
-          158,
-          967
+          122,
+          267
         ],
-        "Name": "Olson-Mueller",
+        "Name": "Haley-Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 466
+            "FieldType": "System.Int32",
+            "FieldLength": 273
           }
         }
       }
     ],
-    "Subject": "corporis",
-    "HTMLBody": "soluta",
+    "Subject": "iusto",
+    "HTMLBody": "odit",
     "From": null,
-    "Sent": "2000-07-28T03:44:52.5896202+02:00",
-    "Size": 974,
+    "Sent": "2008-04-09T13:14:05.9757861+02:00",
+    "Size": 995,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "rem",
-    "PlainBody": "eius",
+    "MessageID": "dicta",
+    "PlainBody": "et",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 400,
+    "ServerId": 641,
     "Attachments": [
       {
-        "Description": "Polarised user-facing data-warehouse",
-        "Filename": "qui",
-        "Size": 413,
-        "Type": "dolor",
-        "Encoding": "magnam",
-        "Id": "aut",
-        "Disposition": "sed",
+        "Description": "Managed reciprocal analyzer",
+        "Filename": "in",
+        "Size": 395,
+        "Type": "provident",
+        "Encoding": "excepturi",
+        "Id": "sapiente",
+        "Disposition": "voluptatem",
         "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -264,58 +264,58 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldLength": 227
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Hegmann, Cummings and Beer",
+        "Name": "Parisian, Bogan and Kovacek",
         "Values": [
-          "qui",
-          "expedita"
+          "dolor",
+          "dolor"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 90
+            "FieldLength": 65
           }
         }
       },
       {
-        "Name": "Hegmann, Cummings and Beer",
+        "Name": "Parisian, Bogan and Kovacek",
         "Values": [
-          "qui",
-          "expedita"
+          "dolor",
+          "dolor"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 90
+            "FieldLength": 65
           }
         }
       }
     ],
-    "FolderName": "Wilderman, Ankunding and Hayes",
-    "EmailItemId": 835,
-    "AccountId": 445,
-    "ReceivedAt": "2004-05-25T03:44:52.5896202+02:00",
+    "FolderName": "Powlowski-Quitzon",
+    "EmailItemId": 480,
+    "AccountId": 103,
+    "ReceivedAt": "1998-10-30T13:14:05.9757861+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2011-03-30T03:44:52.5896202+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "1999-04-05T13:14:05.9757861+02:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 930
       }
     }
   }

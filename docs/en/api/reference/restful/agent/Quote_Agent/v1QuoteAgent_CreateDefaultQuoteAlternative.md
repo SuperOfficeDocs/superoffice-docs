@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 141,
-  "ERPQuoteAlternativeKey": "non",
-  "QuoteVersionId": 605,
-  "Name": "Ondricka-Kuhic",
-  "Description": "Managed background adapter",
+  "QuoteAlternativeId": 514,
+  "ERPQuoteAlternativeKey": "consectetur",
+  "QuoteVersionId": 937,
+  "Name": "Lowe Inc and Sons",
+  "Description": "Fundamental static analyzer",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 3337.71,
-  "ERPDiscountAmount": 16713.622,
-  "DiscountPercent": 10702.609999999999,
-  "DiscountAmount": 21000.934,
+  "ERPDiscountPercent": 8938.168,
+  "ERPDiscountAmount": 18725.649999999998,
+  "DiscountPercent": 25717.604,
+  "DiscountAmount": 28798.325999999997,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "repellendus",
-  "VAT": 12545.402,
-  "EarningPercent": 13927.496,
-  "EarningAmount": 21098.088,
-  "SubTotal": 31045.404,
-  "TotalPrice": 23727.514,
-  "ExtraField1": "sunt",
-  "ExtraField2": "recusandae",
-  "ExtraField3": "perspiciatis",
-  "ExtraField4": "perferendis",
-  "ExtraField5": "perferendis",
+  "VATInfo": "tempora",
+  "VAT": 11078.69,
+  "EarningPercent": 5099.018,
+  "EarningAmount": 4089.87,
+  "SubTotal": 21728.022,
+  "TotalPrice": 5412.418,
+  "ExtraField1": "et",
+  "ExtraField2": "tenetur",
+  "ExtraField3": "laudantium",
+  "ExtraField4": "laudantium",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   }
 }

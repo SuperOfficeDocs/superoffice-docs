@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 996
+  "TicketMessageEntityId": 859
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 853,
-    "Name": "West Group",
-    "ContentType": "eos",
-    "AttSize": 685,
-    "InlineImage": true,
-    "ContentId": "qui",
-    "AuthKey": "debitis",
+    "AttachmentId": 293,
+    "Name": "Rice Inc and Sons",
+    "ContentType": "maiores",
+    "AttSize": 809,
+    "InlineImage": false,
+    "ContentId": "quo",
+    "AuthKey": "voluptatum",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldLength": 501
       }
     }
   }

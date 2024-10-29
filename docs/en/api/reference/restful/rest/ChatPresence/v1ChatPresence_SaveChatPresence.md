@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 527,
-    "DisplayName": "Parisian, Kemmer and Schultz",
-    "OngoingChats": 869,
+    "UserId": 791,
+    "DisplayName": "McKenzie, Stracke and O'Keefe",
+    "OngoingChats": 865,
     "Present": false,
     "ChatTopics": [
-      808,
-      96
+      918,
+      399
     ]
   },
   {
-    "UserId": 527,
-    "DisplayName": "Parisian, Kemmer and Schultz",
-    "OngoingChats": 869,
+    "UserId": 791,
+    "DisplayName": "McKenzie, Stracke and O'Keefe",
+    "OngoingChats": 865,
     "Present": false,
     "ChatTopics": [
-      808,
-      96
+      918,
+      399
     ]
   }
 ]

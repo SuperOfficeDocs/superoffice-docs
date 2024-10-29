@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 467,
-  "BlobSize": 360,
-  "Description": "Quality-focused neutral knowledge base",
-  "ExtraInfo": "ut",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "quidem",
-  "OriginalSize": 726,
-  "CreatedDate": "2005-05-13T03:44:52.0896371+02:00",
-  "UpdatedDate": "2022-08-22T03:44:52.0896371+02:00",
+  "BlobId": 424,
+  "BlobSize": 850,
+  "Description": "Grass-roots contextually-based data-warehouse",
+  "ExtraInfo": "quod",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "ut",
+  "OriginalSize": 812,
+  "CreatedDate": "2010-10-08T13:14:05.5382596+02:00",
+  "UpdatedDate": "2017-11-08T13:14:05.5382596+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quibusdam",
+  "ConceptualType": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 610
+      "FieldLength": 63
     }
   }
 }

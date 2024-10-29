@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 730,
-    "Name": "Jewess-Bosco",
-    "Tooltip": "non",
+    "HeadingId": 493,
+    "Name": "Abbott LLC",
+    "Tooltip": "sint",
     "Deleted": false,
-    "Rank": 446,
-    "UdListDefinitionId": 928
+    "Rank": 287,
+    "UdListDefinitionId": 611
   },
   {
-    "HeadingId": 730,
-    "Name": "Jewess-Bosco",
-    "Tooltip": "non",
+    "HeadingId": 493,
+    "Name": "Abbott LLC",
+    "Tooltip": "sint",
     "Deleted": false,
-    "Rank": 446,
-    "UdListDefinitionId": 928
+    "Rank": 287,
+    "UdListDefinitionId": 611
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 695,
-    "Name": "Runte, Volkman and Hauck",
-    "Tooltip": "voluptas",
+    "HeadingId": 979,
+    "Name": "Kiehn, Jast and Monahan",
+    "Tooltip": "excepturi",
     "Deleted": true,
-    "Rank": 476,
-    "UdListDefinitionId": 761,
+    "Rank": 369,
+    "UdListDefinitionId": 573,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 422
+        "FieldLength": 587
       }
     }
   }

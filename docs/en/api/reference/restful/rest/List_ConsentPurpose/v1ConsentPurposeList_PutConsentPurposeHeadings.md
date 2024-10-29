@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 479,
-    "Name": "Stroman LLC",
-    "Tooltip": "est",
+    "HeadingId": 412,
+    "Name": "Muller Inc and Sons",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 513,
-    "UdListDefinitionId": 195
+    "Rank": 264,
+    "UdListDefinitionId": 518
   },
   {
-    "HeadingId": 479,
-    "Name": "Stroman LLC",
-    "Tooltip": "est",
+    "HeadingId": 412,
+    "Name": "Muller Inc and Sons",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 513,
-    "UdListDefinitionId": 195
+    "Rank": 264,
+    "UdListDefinitionId": 518
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 943,
-    "Name": "Conroy Group",
-    "Tooltip": "ipsam",
+    "HeadingId": 190,
+    "Name": "Medhurst, Treutel and Huels",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 687,
-    "UdListDefinitionId": 214,
+    "Rank": 582,
+    "UdListDefinitionId": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 636
+        "FieldType": "System.Int32",
+        "FieldLength": 584
       }
     }
   }

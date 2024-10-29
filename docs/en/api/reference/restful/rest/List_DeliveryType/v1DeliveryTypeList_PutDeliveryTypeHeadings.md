@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 345,
-    "Name": "Davis, Langosh and Runte",
-    "Tooltip": "accusantium",
+    "HeadingId": 706,
+    "Name": "Dickens, Schmeler and Satterfield",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 659
+    "Rank": 891,
+    "UdListDefinitionId": 251
   },
   {
-    "HeadingId": 345,
-    "Name": "Davis, Langosh and Runte",
-    "Tooltip": "accusantium",
+    "HeadingId": 706,
+    "Name": "Dickens, Schmeler and Satterfield",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 659
+    "Rank": 891,
+    "UdListDefinitionId": 251
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 638,
-    "Name": "Corwin-Dare",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "Rank": 909,
-    "UdListDefinitionId": 206,
+    "HeadingId": 8,
+    "Name": "West-Hyatt",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "Rank": 752,
+    "UdListDefinitionId": 701,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 711
+        "FieldLength": 997
       }
     }
   }

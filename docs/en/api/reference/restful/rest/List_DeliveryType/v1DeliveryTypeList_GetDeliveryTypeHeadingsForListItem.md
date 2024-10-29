@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Gerhold, Thompson and Heaney",
-    "ToolTip": "Cum earum nesciunt suscipit.",
+    "Id": 538,
+    "Name": "Huels Inc and Sons",
+    "ToolTip": "Eligendi asperiores et quidem atque autem.",
     "Deleted": false,
-    "Rank": 992,
-    "Type": "molestiae",
-    "ColorBlock": 526,
-    "IconHint": "qui",
+    "Rank": 254,
+    "Type": "quia",
+    "ColorBlock": 883,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2014-11-27T03:44:57.9843605+01:00",
+    "LastChanged": "2005-10-04T13:14:11.3985731+02:00",
     "ChildItems": [
       {
-        "Id": 22,
-        "Name": "Abbott LLC",
-        "ToolTip": "Aperiam sed laborum in tenetur nulla explicabo nam.",
+        "Id": 388,
+        "Name": "Dibbert LLC",
+        "ToolTip": "Nihil cum laudantium quia totam.",
         "Deleted": true,
-        "Rank": 220,
-        "Type": "voluptatem",
-        "ColorBlock": 633,
-        "IconHint": "aperiam",
+        "Rank": 349,
+        "Type": "alias",
+        "ColorBlock": 256,
+        "IconHint": "non",
         "Selected": true,
-        "LastChanged": "1998-08-21T03:44:57.9843605+02:00",
+        "LastChanged": "2023-05-05T13:14:11.3985731+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "nisi",
-        "Hidden": true,
-        "FullName": "Jonathon Powlowski",
+        "ExtraInfo": "possimus",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Mr. Earlene Goodwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 375
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "vel",
+    "ExtraInfo": "alias",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Vernon Orn",
+    "FullName": "Hans Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 164
       }
     }
   }

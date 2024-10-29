@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "vitae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "vitae",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent needs-based paradigm",
-  "Postit": "ipsam",
+  "Description": "Upgradable dynamic budgetary management",
+  "Postit": "explicabo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 71,
-  "IncludePerson": 63,
+  "GroupIdx": 184,
+  "IncludePerson": 776,
   "MemberCount": 99.99,
-  "Name": "Smitham-Kris",
-  "PostitTextId": 359,
-  "CreatedDate": "2007-03-14T03:44:57.5781309+01:00",
-  "SelectionId": 393,
-  "SoundEx": "dolore",
-  "Source": 183,
-  "TextId": 429,
-  "UpdatedDate": "2015-08-02T03:44:57.5781309+02:00",
-  "UpdatedCount": 104,
-  "Visibility": 20,
+  "Name": "Kassulke-Hyatt",
+  "PostitTextId": 620,
+  "CreatedDate": "2014-01-31T13:14:11.1016748+01:00",
+  "SelectionId": 203,
+  "SoundEx": "quidem",
+  "Source": 832,
+  "TextId": 418,
+  "UpdatedDate": "2003-03-28T13:14:11.1016748+01:00",
+  "UpdatedCount": 137,
+  "Visibility": 627,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 223,
-  "TargetTableName": "Kassulke LLC",
+  "TargetTableNumber": 483,
+  "TargetTableName": "Feil LLC",
   "Completed": false,
-  "LeftSelectionId": 347,
-  "RightSelectionId": 450,
+  "LeftSelectionId": 110,
+  "RightSelectionId": 221,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kunde, Morar and McDermott",
-  "ShadowProviderName": "Crooks-DuBuque",
-  "ChartKey": "amet",
-  "LastLoaded": "2005-01-24T03:44:57.5781309+01:00",
-  "LastLoadedBy": 880,
+  "MainProviderName": "Runolfsdottir-Howe",
+  "ShadowProviderName": "Jacobs Group",
+  "ChartKey": "odio",
+  "LastLoaded": "2012-05-16T13:14:11.1016748+02:00",
+  "LastLoadedBy": 76,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-06-05T03:44:57.5781309+02:00",
-  "LastMembershipChangeBy": 943,
+  "LastMembershipChange": "2015-10-10T13:14:11.1016748+02:00",
+  "LastMembershipChangeBy": 157,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quam",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Osinski-Smitham",
-  "DashboardTileDefinitionId": 555,
+  "MainHeading": "ut",
+  "MemberTabHeading": "dolore",
+  "MailingsProviderName": "Schiller, Schumm and Jast",
+  "DashboardTileDefinitionId": 888,
   "VisibleFor": [
     {
-      "VisibleId": 681,
+      "VisibleId": 501,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldLength": 594
         }
       }
     },
     {
-      "VisibleId": 681,
+      "VisibleId": 501,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldLength": 594
         }
       }
     }
@@ -245,12 +245,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 899
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Fay LLC",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 338,
-    "Rank": 157,
+    "Id": 866,
+    "Name": "Cummerata Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 827,
+    "Rank": 671,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   }

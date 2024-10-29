@@ -72,7 +72,7 @@ OK
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Dooley-Collier",
-  "DisplayName": "Schuppe Group",
-  "Description": "Self-enabling value-added emulation",
-  "ShortLabel": "fuga",
-  "HideLabel": false,
+  "FieldName": "Koepp, Dare and Hoppe",
+  "DisplayName": "Herman, Cronin and Hickle",
+  "Description": "Versatile regional protocol",
+  "ShortLabel": "aut",
+  "HideLabel": true,
   "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": false,
+  "IsMandatory": true,
+  "IsReadOnly": false,
+  "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 412,
-  "TemplateVariableName": "Heathcote-Runolfsson"
+  "Rank": 437,
+  "TemplateVariableName": "Mohr Inc and Sons"
 }
 ```

@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 683,
-  "QuoteAlternativeName": "Friesen-Heaney",
-  "QuoteAlternativeDescription": "Digitized client-driven methodology"
+  "QuoteVersionId": 556,
+  "QuoteAlternativeName": "Stoltenberg, Hammes and Hermann",
+  "QuoteAlternativeDescription": "Team-oriented uniform adapter"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 957,
-  "ERPQuoteAlternativeKey": "animi",
-  "QuoteVersionId": 542,
-  "Name": "Schimmel-Wuckert",
-  "Description": "Persistent 24 hour interface",
+  "QuoteAlternativeId": 496,
+  "ERPQuoteAlternativeKey": "dolores",
+  "QuoteVersionId": 415,
+  "Name": "Becker, Tremblay and Harvey",
+  "Description": "Decentralized eco-centric service-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 19684.654,
-  "ERPDiscountAmount": 8358.378,
-  "DiscountPercent": 26751.824,
-  "DiscountAmount": 16707.354,
+  "ERPDiscountPercent": 16585.128,
+  "ERPDiscountAmount": 8825.344,
+  "DiscountPercent": 7198.798,
+  "DiscountAmount": 4760.546,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "repellendus",
-  "VAT": 26833.308,
-  "EarningPercent": 16205.913999999999,
-  "EarningAmount": 13253.686,
-  "SubTotal": 26262.92,
-  "TotalPrice": 31151.96,
-  "ExtraField1": "natus",
-  "ExtraField2": "aut",
-  "ExtraField3": "impedit",
-  "ExtraField4": "odio",
-  "ExtraField5": "odit",
+  "VATInfo": "est",
+  "VAT": 20110.878,
+  "EarningPercent": 13507.539999999999,
+  "EarningAmount": 6274.268,
+  "SubTotal": 13889.887999999999,
+  "TotalPrice": 17801.12,
+  "ExtraField1": "qui",
+  "ExtraField2": "placeat",
+  "ExtraField3": "sed",
+  "ExtraField4": "porro",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldLength": 921
     }
   }
 }

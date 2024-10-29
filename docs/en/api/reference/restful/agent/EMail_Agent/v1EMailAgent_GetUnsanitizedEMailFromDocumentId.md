@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 321
+  "DocumentId": 565
 }
 ```
 
@@ -120,97 +120,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 631,
-      "ContactName": "Hackett Inc and Sons",
-      "PersonId": 184,
-      "PersonName": "Douglas Inc and Sons",
-      "AssociateId": 558,
-      "Address": "minima",
-      "EmailId": 933,
+      "ContactId": 709,
+      "ContactName": "Feil-Brown",
+      "PersonId": 951,
+      "PersonName": "Lueilwitz-Howell",
+      "AssociateId": 210,
+      "Address": "et",
+      "EmailId": 81,
       "DuplicatePersonIds": [
-        764,
-        201
+        556,
+        481
       ],
-      "Name": "Price Group",
+      "Name": "Rempel-Schneider",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldLength": 4
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 909,
-      "ContactName": "Wisozk Group",
-      "PersonId": 952,
-      "PersonName": "Moore Inc and Sons",
-      "AssociateId": 18,
-      "Address": "alias",
-      "EmailId": 794,
+      "ContactId": 318,
+      "ContactName": "Lockman-Dickens",
+      "PersonId": 674,
+      "PersonName": "Dickinson, Ondricka and Morissette",
+      "AssociateId": 310,
+      "Address": "delectus",
+      "EmailId": 579,
       "DuplicatePersonIds": [
-        867,
-        747
+        113,
+        755
       ],
-      "Name": "Beatty Inc and Sons",
+      "Name": "Bahringer Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 627
+          "FieldType": "System.Int32",
+          "FieldLength": 150
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 425,
-      "ContactName": "Langosh-Morar",
-      "PersonId": 692,
-      "PersonName": "Spinka Inc and Sons",
-      "AssociateId": 456,
-      "Address": "quo",
-      "EmailId": 264,
+      "ContactId": 42,
+      "ContactName": "Smitham-Zulauf",
+      "PersonId": 718,
+      "PersonName": "Goldner-Mayert",
+      "AssociateId": 289,
+      "Address": "praesentium",
+      "EmailId": 116,
       "DuplicatePersonIds": [
-        47,
-        567
+        6,
+        22
       ],
-      "Name": "Schuppe-Murray",
+      "Name": "Baumbach, Luettgen and Spencer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldLength": 899
         }
       }
     }
   ],
-  "Subject": "expedita",
-  "HTMLBody": "voluptatem",
+  "Subject": "qui",
+  "HTMLBody": "labore",
   "From": null,
-  "Sent": "2002-01-01T03:44:52.5896202+01:00",
-  "Size": 942,
+  "Sent": "2005-05-03T13:14:05.9757861+02:00",
+  "Size": 570,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sed",
-  "PlainBody": "et",
+  "MessageID": "et",
+  "PlainBody": "voluptatem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 998,
+  "ServerId": 885,
   "Attachments": [
     {
-      "Description": "Fully-configurable holistic portal",
-      "Filename": "quia",
-      "Size": 838,
-      "Type": "pariatur",
-      "Encoding": "unde",
-      "Id": "consequatur",
-      "Disposition": "ut",
+      "Description": "User-friendly multi-tasking parallelism",
+      "Filename": "expedita",
+      "Size": 102,
+      "Type": "aut",
+      "Encoding": "repudiandae",
+      "Id": "eaque",
+      "Disposition": "pariatur",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,50 +218,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 995
+          "FieldLength": 613
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Erdman Group",
+      "Name": "Kris-Rippin",
       "Values": [
         "pariatur",
-        "rerum"
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 69
         }
       }
     },
     {
-      "Name": "Erdman Group",
+      "Name": "Kris-Rippin",
       "Values": [
         "pariatur",
-        "rerum"
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 69
         }
       }
     }
   ],
-  "FolderName": "Lakin-Adams",
+  "FolderName": "Bogisich, Lemke and Cummerata",
   "EmailItemId": 560,
-  "AccountId": 721,
-  "ReceivedAt": "2001-12-29T03:44:52.5896202+01:00",
+  "AccountId": 855,
+  "ReceivedAt": "2002-01-19T13:14:05.991412+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-07-01T03:44:52.5896202+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2004-06-06T13:14:05.991412+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 855
     }
   }
 }

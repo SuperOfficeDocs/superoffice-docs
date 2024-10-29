@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 492,
+  "SystemEventId": 393,
   "Scope": "Database",
-  "Eta": "2005-04-23T03:44:52.2615302+02:00",
-  "Eventkey": "atque",
-  "Eventmess": "et",
-  "ExtraInfo": 882,
-  "Owner": 823,
-  "UpdatedCount": 128,
-  "Registered": "2010-01-28T03:44:52.2615302+01:00",
+  "Eta": "2016-04-30T13:14:05.6163893+02:00",
+  "Eventkey": "saepe",
+  "Eventmess": "doloribus",
+  "ExtraInfo": 985,
+  "Owner": 301,
+  "UpdatedCount": 461,
+  "Registered": "2011-02-03T13:14:05.6163893+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 43,
+  "SystemEventId": 408,
   "Scope": "Database",
-  "Eta": "2010-01-05T03:44:52.2615302+01:00",
-  "Eventkey": "rerum",
-  "Eventmess": "illum",
-  "ExtraInfo": 70,
-  "Owner": 457,
-  "UpdatedCount": 545,
-  "Registered": "2013-02-11T03:44:52.2615302+01:00",
+  "Eta": "2004-10-16T13:14:05.6320153+02:00",
+  "Eventkey": "at",
+  "Eventmess": "provident",
+  "ExtraInfo": 336,
+  "Owner": 686,
+  "UpdatedCount": 137,
+  "Registered": "1998-08-22T13:14:05.6320153+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldLength": 612
     }
   }
 }

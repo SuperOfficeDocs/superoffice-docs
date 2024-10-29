@@ -89,18 +89,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 661,
-  "Name": "Mayer Inc and Sons",
-  "Description": "Reduced background array",
+  "ReportLabelLayoutId": 136,
+  "Name": "Boyer, Durgan and Wilderman",
+  "Description": "Enhanced regional budgetary management",
   "Orientation": "Landscape",
-  "PaperWidth": 243,
-  "PaperHeight": 725,
-  "LeftMargin": 468,
-  "RightMargin": 721,
-  "TopMargin": 740,
-  "BottomMargin": 823,
-  "CountColumns": 627,
-  "CountRows": 84
+  "PaperWidth": 892,
+  "PaperHeight": 699,
+  "LeftMargin": 405,
+  "RightMargin": 597,
+  "TopMargin": 633,
+  "BottomMargin": 979,
+  "CountColumns": 48,
+  "CountRows": 14
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 465,
-  "Name": "Parisian Group",
-  "Description": "Customizable local open architecture",
+  "ReportLabelLayoutId": 834,
+  "Name": "Heidenreich-Lehner",
+  "Description": "Reverse-engineered multi-state algorithm",
   "Orientation": "Landscape",
-  "PaperWidth": 151,
-  "PaperHeight": 938,
-  "LeftMargin": 674,
-  "RightMargin": 612,
-  "TopMargin": 910,
-  "BottomMargin": 43,
-  "CountColumns": 770,
-  "CountRows": 552,
+  "PaperWidth": 999,
+  "PaperHeight": 688,
+  "LeftMargin": 571,
+  "RightMargin": 727,
+  "TopMargin": 52,
+  "BottomMargin": 957,
+  "CountColumns": 219,
+  "CountRows": 748,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldLength": 774
     }
   }
 }

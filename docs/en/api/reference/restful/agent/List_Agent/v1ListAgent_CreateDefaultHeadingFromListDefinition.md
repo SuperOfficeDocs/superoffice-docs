@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 68
+  "UdListDefinitionId": 454
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 792,
-  "Name": "Kunze LLC",
-  "Tooltip": "est",
+  "HeadingId": 56,
+  "Name": "Reichert, Crona and Heaney",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 175,
-  "UdListDefinitionId": 432,
+  "Rank": 948,
+  "UdListDefinitionId": 4,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   }
 }

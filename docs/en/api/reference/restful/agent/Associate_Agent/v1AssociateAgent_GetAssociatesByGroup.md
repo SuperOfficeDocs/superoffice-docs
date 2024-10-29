@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 546,
-  "Type": 756
+  "GroupId": 395,
+  "Type": 631
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 161,
-    "Name": "Morar-Weimann",
-    "PersonId": 316,
-    "Rank": 445,
-    "Tooltip": "voluptatem",
+    "AssociateId": 595,
+    "Name": "Flatley, Treutel and Barton",
+    "PersonId": 805,
+    "Rank": 458,
+    "Tooltip": "nihil",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 781,
-    "FullName": "German Hessel",
-    "FormalName": "Bradtke, Hammes and Lubowitz",
+    "GroupIdx": 561,
+    "FullName": "Emmanuel Tommie Gibson Jr.",
+    "FormalName": "Schultz Inc and Sons",
     "Deleted": true,
-    "EjUserId": 187,
-    "UserName": "Franecki Inc and Sons",
+    "EjUserId": 246,
+    "UserName": "Oberbrunner Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 517
+        "FieldType": "System.Int32",
+        "FieldLength": 211
       }
     }
   }

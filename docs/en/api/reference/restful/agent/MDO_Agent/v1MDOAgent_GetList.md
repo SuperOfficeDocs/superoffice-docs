@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Willms-Gleason",
-  "ForceFlatList": false,
-  "AdditionalInfo": "repellat",
+  "Name": "Padberg, Bogisich and Pfannerstill",
+  "ForceFlatList": true,
+  "AdditionalInfo": "dolorem",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Tremblay-Christiansen",
-    "ToolTip": "Doloribus eum sunt dolorem.",
+    "Id": 11,
+    "Name": "Wilderman-Ward",
+    "ToolTip": "Dignissimos ratione dolore quis.",
     "Deleted": false,
-    "Rank": 253,
-    "Type": "tempora",
+    "Rank": 910,
+    "Type": "eligendi",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Botsford-Smitham",
-        "ToolTip": "Ipsum quod neque quis.",
-        "Deleted": true,
-        "Rank": 976,
-        "Type": "dolorem",
+        "Id": 283,
+        "Name": "Mills, Prosacco and Casper",
+        "ToolTip": "Dolore unde non quidem numquam minus.",
+        "Deleted": false,
+        "Rank": 195,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 266,
-        "ExtraInfo": "eum",
-        "StyleHint": "cumque",
-        "FullName": "Nathanael Herminia Runolfsdottir IV",
+        "IconHint": "ut",
+        "ColorBlock": 183,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "dolores",
+        "FullName": "Mrs. Olen Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 874
+            "FieldLength": 468
           }
         }
       }
     ],
-    "IconHint": "doloribus",
-    "ColorBlock": 648,
-    "ExtraInfo": "nihil",
-    "StyleHint": "magni",
-    "FullName": "Mr. Monty Fadel",
+    "IconHint": "quia",
+    "ColorBlock": 837,
+    "ExtraInfo": "non",
+    "StyleHint": "alias",
+    "FullName": "Mr. Lucile Hammes III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 149
       }
     }
   }

@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/Quote/PlaceOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 711,
-  "MarkSaleAsSold": true,
-  "PoNumber": "716153",
-  "OrderComment": "repellendus",
-  "Culture": "sint"
+  "QuoteAlternativeId": 787,
+  "MarkSaleAsSold": false,
+  "PoNumber": "1685989",
+  "OrderComment": "nemo",
+  "Culture": "necessitatibus"
 }
 ```
 
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "perferendis",
-  "TechExplanation": "eligendi",
+  "UserExplanation": "id",
+  "TechExplanation": "consequuntur",
   "ErrorCode": "eligendi",
   "Changes": null,
   "Url": "http://www.example.com/",
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldType": "System.String",
+      "FieldLength": 62
     }
   }
 }

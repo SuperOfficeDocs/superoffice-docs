@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=veniam
+GET /api/v1/List/ConsentPurpose/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Shanahan-Robel",
-    "ToolTip": "Nostrum nisi et enim et earum.",
-    "Deleted": false,
-    "Rank": 63,
-    "Type": "accusantium",
+    "Id": 524,
+    "Name": "Brown-Gibson",
+    "ToolTip": "Odit id earum alias.",
+    "Deleted": true,
+    "Rank": 887,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 834,
-        "Name": "Gislason, Pfeffer and Abbott",
-        "ToolTip": "Recusandae excepturi et sit adipisci praesentium mollitia.",
+        "Id": 256,
+        "Name": "Hartmann LLC",
+        "ToolTip": "Nulla voluptates.",
         "Deleted": false,
-        "Rank": 748,
-        "Type": "qui",
+        "Rank": 645,
+        "Type": "reiciendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 100,
-        "ExtraInfo": "quas",
-        "StyleHint": "qui",
-        "FullName": "Jaquelin Rowe",
+        "IconHint": "in",
+        "ColorBlock": 895,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "unde",
+        "FullName": "Meaghan Mills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldLength": 98
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 141,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "fugit",
-    "FullName": "Deja Schmitt",
+    "IconHint": "eum",
+    "ColorBlock": 484,
+    "ExtraInfo": "ullam",
+    "StyleHint": "iusto",
+    "FullName": "Imani Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldType": "System.String",
+        "FieldLength": 411
       }
     }
   }

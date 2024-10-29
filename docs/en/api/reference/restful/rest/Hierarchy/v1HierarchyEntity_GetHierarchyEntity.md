@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 329,
+  "HierarchyId": 410,
   "Domain": "Dashboards",
-  "Name": "Lebsack Group",
-  "Fullname": "fuga",
-  "ParentId": 101,
+  "Name": "Kunze LLC",
+  "Fullname": "accusamus",
+  "ParentId": 621,
   "Children": [
     {
-      "HierarchyId": 158,
+      "HierarchyId": 300,
       "Domain": "Dashboards",
-      "Name": "Abbott-Parisian",
-      "Fullname": "sapiente",
-      "ParentId": 356,
+      "Name": "Oberbrunner Group",
+      "Fullname": "maxime",
+      "ParentId": 799,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-11-21T03:44:57.359003+01:00",
-      "RegisteredAssociateId": 469,
-      "Updated": "2007-05-29T03:44:57.359003+02:00",
-      "UpdatedAssociateId": 934,
+      "Registered": "2008-05-07T13:14:10.8516656+02:00",
+      "RegisteredAssociateId": 150,
+      "Updated": "2009-04-11T13:14:10.8516656+02:00",
+      "UpdatedAssociateId": 992,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 154
         }
       }
     }
   ],
-  "Registered": "2004-07-22T03:44:57.359003+02:00",
-  "RegisteredAssociateId": 860,
-  "Updated": "2021-03-19T03:44:57.359003+01:00",
-  "UpdatedAssociateId": 471,
+  "Registered": "2023-08-06T13:14:10.8516656+02:00",
+  "RegisteredAssociateId": 890,
+  "Updated": "2023-09-29T13:14:10.8516656+02:00",
+  "UpdatedAssociateId": 291,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   },
   "_Links": {

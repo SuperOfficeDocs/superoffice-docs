@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 375,
-  "Name": "Leuschke-Zemlak",
-  "Description": "Digitized foreground conglomeration",
-  "OwnedByFullName": "Mrs. Alysa Roel Collier DVM",
-  "Registered": "2024-06-22T03:44:52.4021422+02:00",
+  "DashboardId": 709,
+  "Name": "Breitenberg-Romaguera",
+  "Description": "Business-focused secondary hardware",
+  "OwnedByFullName": "Dean Wuckert V",
+  "Registered": "2005-01-14T13:14:05.7413971+01:00",
   "Tiles": [
     {
-      "Name": "Waters, Willms and Auer",
+      "Name": "Lesch, Hahn and Jacobs",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 907
         }
       }
     },
     {
-      "Name": "Waters, Willms and Auer",
+      "Name": "Lesch, Hahn and Jacobs",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 907
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldLength": 529
     }
   }
 }

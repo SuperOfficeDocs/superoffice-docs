@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 142,
+  "HierarchyId": 995,
   "Domain": "Dashboards",
-  "Name": "Tremblay, Reinger and Schultz",
-  "Fullname": "ratione",
-  "ParentId": 516,
+  "Name": "Pfeffer, Kertzmann and Schmitt",
+  "Fullname": "laudantium",
+  "ParentId": 737,
   "Children": [
     {
-      "HierarchyId": 942,
+      "HierarchyId": 954,
       "Domain": "Dashboards",
-      "Name": "Metz, Gutkowski and O'Connell",
-      "Fullname": "quibusdam",
-      "ParentId": 970,
+      "Name": "Romaguera, Kunde and Ruecker",
+      "Fullname": "qui",
+      "ParentId": 808,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-07-02T03:44:57.359003+02:00",
-      "RegisteredAssociateId": 464,
-      "Updated": "2004-09-21T03:44:57.359003+02:00",
-      "UpdatedAssociateId": 280
+      "Registered": "2008-02-28T13:14:10.8516656+01:00",
+      "RegisteredAssociateId": 918,
+      "Updated": "2017-04-04T13:14:10.8516656+02:00",
+      "UpdatedAssociateId": 319
     }
   ],
-  "Registered": "2014-03-08T03:44:57.359003+01:00",
-  "RegisteredAssociateId": 395,
-  "Updated": "2001-12-31T03:44:57.359003+01:00",
-  "UpdatedAssociateId": 892
+  "Registered": "2023-10-31T13:14:10.8516656+01:00",
+  "RegisteredAssociateId": 44,
+  "Updated": "2024-07-10T13:14:10.8516656+02:00",
+  "UpdatedAssociateId": 218
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 351,
+  "HierarchyId": 76,
   "Domain": "Dashboards",
-  "Name": "Balistreri Inc and Sons",
-  "Fullname": "dignissimos",
-  "ParentId": 173,
+  "Name": "Funk-Nikolaus",
+  "Fullname": "eos",
+  "ParentId": 125,
   "Children": [
     {
-      "HierarchyId": 412,
+      "HierarchyId": 334,
       "Domain": "Dashboards",
-      "Name": "Stamm LLC",
-      "Fullname": "sit",
-      "ParentId": 956,
+      "Name": "Roberts, Goodwin and Kshlerin",
+      "Fullname": "quas",
+      "ParentId": 847,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-07-24T03:44:57.359003+02:00",
-      "RegisteredAssociateId": 620,
-      "Updated": "2008-01-02T03:44:57.359003+01:00",
-      "UpdatedAssociateId": 296,
+      "Registered": "2004-12-28T13:14:10.8516656+01:00",
+      "RegisteredAssociateId": 719,
+      "Updated": "2018-09-23T13:14:10.8516656+02:00",
+      "UpdatedAssociateId": 800,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldLength": 686
         }
       }
     }
   ],
-  "Registered": "2012-05-20T03:44:57.359003+02:00",
-  "RegisteredAssociateId": 526,
-  "Updated": "2009-02-17T03:44:57.359003+01:00",
-  "UpdatedAssociateId": 618,
+  "Registered": "2003-02-10T13:14:10.8516656+01:00",
+  "RegisteredAssociateId": 822,
+  "Updated": "2019-04-11T13:14:10.8516656+02:00",
+  "UpdatedAssociateId": 148,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 826
     }
   }
 }

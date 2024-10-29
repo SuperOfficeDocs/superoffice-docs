@@ -88,11 +88,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Connelly Inc and Sons",
-  "DeviceName": "Corkery LLC",
-  "DeviceIdentifier": "consequatur",
-  "TableName": "Luettgen-Simonis",
-  "RecordId": 616
+  "ApplicationName": "Schiller LLC",
+  "DeviceName": "Effertz, Runolfsdottir and Kassulke",
+  "DeviceIdentifier": "non",
+  "TableName": "Conn, Lowe and Nienow",
+  "RecordId": 695
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ex",
-    "Value": "fuga",
-    "RecordId": 701,
-    "CreatedDate": "2012-10-13T03:44:52.6521119+02:00",
-    "UpdatedDate": "2003-07-12T03:44:52.6521119+02:00",
-    "UpdatedBy": "ipsam",
-    "CreatedBy": "cumque",
-    "TableName": "Toy-Trantow",
+    "Key": "impedit",
+    "Value": "ullam",
+    "RecordId": 763,
+    "CreatedDate": "2000-06-06T13:14:06.0382898+02:00",
+    "UpdatedDate": "2005-08-15T13:14:06.0382898+02:00",
+    "UpdatedBy": "cum",
+    "CreatedBy": "amet",
+    "TableName": "Hamill-Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldLength": 934
       }
     }
   }

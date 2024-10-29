@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schaefer, Hane and Senger",
-    "Comment": "hic",
-    "StakeholderRoleId": 329,
-    "CountryId": 400,
-    "PersonId": 376,
-    "EmailDescription": "cynthia_dickinson@koepp.info",
-    "EmailId": 371,
-    "EmailAddress": "hollie_ankunding@bartonharris.us",
-    "PhoneId": 994,
-    "ContactName": "Cole Inc and Sons",
-    "ContactId": 926,
-    "SaleId": 559,
-    "Mrmrs": "qui",
-    "Firstname": "Newell",
-    "MiddleName": "Gusikowski, Osinski and Ebert",
-    "Lastname": "Boyer",
-    "SaleStakeholderId": 515,
-    "Rank": 58,
-    "Phone": "(040)840-7750 x04010",
+    "StakeholderRoleName": "Pagac-Kling",
+    "Comment": "vitae",
+    "StakeholderRoleId": 336,
+    "CountryId": 482,
+    "PersonId": 433,
+    "EmailDescription": "ethyl@klockoframi.us",
+    "EmailId": 325,
+    "EmailAddress": "melany@schowalter.us",
+    "PhoneId": 742,
+    "ContactName": "Gutmann LLC",
+    "ContactId": 71,
+    "SaleId": 652,
+    "Mrmrs": "in",
+    "Firstname": "Johathan",
+    "MiddleName": "Buckridge-Fisher",
+    "Lastname": "Adams",
+    "SaleStakeholderId": 81,
+    "Rank": 913,
+    "Phone": "(278)137-6506 x76176",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldType": "System.Int32",
+        "FieldLength": 698
       }
     }
   }

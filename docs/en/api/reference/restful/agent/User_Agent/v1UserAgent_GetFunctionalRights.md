@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 411
+  "RoleId": 500
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Wilderman-Heathcote",
-    "ToolTip": "Non unde quidem.",
+    "Id": 406,
+    "Name": "Koch-Kuhlman",
+    "ToolTip": "Tenetur omnis dolorem accusantium consectetur magni eligendi culpa.",
     "Deleted": false,
-    "Rank": 203,
-    "Type": "architecto",
-    "ColorBlock": 83,
-    "IconHint": "et",
+    "Rank": 829,
+    "Type": "facilis",
+    "ColorBlock": 504,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2013-01-06T03:44:53.4029931+01:00",
+    "LastChanged": "2021-08-05T13:14:06.7102053+02:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Runolfsdottir, Shanahan and Crooks",
-        "ToolTip": "Quisquam inventore non enim rerum sapiente.",
-        "Deleted": false,
-        "Rank": 969,
-        "Type": "aperiam",
-        "ColorBlock": 684,
-        "IconHint": "sint",
+        "Id": 959,
+        "Name": "Gulgowski-Doyle",
+        "ToolTip": "Impedit dolorem dolorem tenetur ea corrupti.",
+        "Deleted": true,
+        "Rank": 346,
+        "Type": "dolores",
+        "ColorBlock": 594,
+        "IconHint": "doloremque",
         "Selected": false,
-        "LastChanged": "2006-08-12T03:44:53.4029931+02:00",
+        "LastChanged": "2000-08-19T13:14:06.7102053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "minus",
-        "Hidden": false,
-        "FullName": "Gail Lind",
+        "ExtraInfo": "quam",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Alexandra Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 42
+            "FieldType": "System.String",
+            "FieldLength": 669
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "optio",
-    "Hidden": false,
-    "FullName": "Ebba Klein V",
+    "ExtraInfo": "et",
+    "StyleHint": "reiciendis",
+    "Hidden": true,
+    "FullName": "Dr. Aimee Willms IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldLength": 296
       }
     }
   }

@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 102,
-  "Name": "Mohr-Carroll",
-  "Tooltip": "impedit",
+  "RoleId": 170,
+  "Name": "Senger Inc and Sons",
+  "Tooltip": "facilis",
   "RoleType": "Anonymous",
-  "Deleted": 644,
-  "Rank": 25,
-  "Created": "2002-02-20T03:44:53.3716682+01:00",
-  "UseCategories": 611,
+  "Deleted": 722,
+  "Rank": 497,
+  "Created": "2018-06-15T13:14:06.6945788+02:00",
+  "UseCategories": 487,
   "CreatedBy": null,
-  "Updated": "2009-12-09T03:44:53.3716682+01:00",
+  "Updated": "2023-02-22T13:14:06.6945788+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 751,
-  "Name": "Weimann-Rogahn",
-  "Tooltip": "dolor",
+  "RoleId": 493,
+  "Name": "Dooley Inc and Sons",
+  "Tooltip": "minus",
   "RoleType": "Anonymous",
-  "Deleted": 249,
-  "Rank": 265,
-  "Created": "2000-10-01T03:44:53.3716682+02:00",
-  "UseCategories": 938,
+  "Deleted": 2,
+  "Rank": 252,
+  "Created": "2022-09-10T13:14:06.6945788+02:00",
+  "UseCategories": 59,
   "CreatedBy": null,
-  "Updated": "2014-03-06T03:44:53.3874154+01:00",
+  "Updated": "2023-04-12T13:14:06.6945788+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldLength": 862
     }
   }
 }

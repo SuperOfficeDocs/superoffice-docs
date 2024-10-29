@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 596,
-  "Name": "Okuneva-Champlin",
-  "Tooltip": "iste",
+  "Id": 192,
+  "Name": "Nikolaus-Zulauf",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 22,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 499,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": false,
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   },
   "_Links": {

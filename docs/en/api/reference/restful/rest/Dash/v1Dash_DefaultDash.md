@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 645,
-  "UniqueId": "aliquid",
-  "Name": "Nolan, Casper and Stroman",
-  "Description": "Distributed fresh-thinking ability",
-  "AssociateId": 314,
-  "Columns": 296,
+  "DashboardId": 797,
+  "UniqueId": "accusantium",
+  "Name": "Moen, Sipes and Aufderhar",
+  "Description": "Phased scalable hierarchy",
+  "AssociateId": 849,
+  "Columns": 526,
   "Theme": null,
-  "VisibleForAll": 213,
+  "VisibleForAll": 550,
   "VisibleForAssociates": [
-    680,
-    590
+    131,
+    692
   ],
   "VisibleForGroups": [
-    68,
-    524
+    176,
+    912
   ],
-  "PinForAll": 375,
+  "PinForAll": 554,
   "PinForAssociates": [
-    703,
-    340
+    345,
+    414
   ],
   "PinForGroups": [
-    648,
-    271
+    464,
+    241
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

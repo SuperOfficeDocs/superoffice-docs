@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "O'Conner LLC",
-    "ToolTip": "Impedit molestiae iusto accusantium sequi consequatur omnis.",
+    "Id": 540,
+    "Name": "Gerhold, Heathcote and Terry",
+    "ToolTip": "Sunt delectus quod fugit explicabo.",
     "Deleted": false,
-    "Rank": 481,
-    "Type": "magni",
-    "ColorBlock": 252,
-    "IconHint": "quae",
-    "Selected": false,
-    "LastChanged": "2004-05-09T03:44:58.1093468+02:00",
+    "Rank": 451,
+    "Type": "hic",
+    "ColorBlock": 224,
+    "IconHint": "enim",
+    "Selected": true,
+    "LastChanged": "2022-10-13T13:14:11.4923293+02:00",
     "ChildItems": [
       {
-        "Id": 98,
-        "Name": "Hodkiewicz Group",
-        "ToolTip": "Magni maiores ut consectetur necessitatibus.",
+        "Id": 733,
+        "Name": "Beatty, Monahan and Conn",
+        "ToolTip": "Magni est laudantium molestiae voluptatum.",
         "Deleted": false,
-        "Rank": 919,
-        "Type": "quia",
-        "ColorBlock": 429,
-        "IconHint": "in",
+        "Rank": 320,
+        "Type": "quidem",
+        "ColorBlock": 186,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2024-02-07T03:44:58.1093468+01:00",
+        "LastChanged": "1999-09-18T13:14:11.4923293+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Dr. Delaney Violette Shields Sr.",
+        "ExtraInfo": "nemo",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Herminia Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 868
+            "FieldLength": 885
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "eaque",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Selmer Dicki",
+    "FullName": "Mr. Lucy Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

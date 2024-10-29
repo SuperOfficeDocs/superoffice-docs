@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 719,
-  "Name": "Ward-Parisian",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 640,
-  "Filename": "dicta",
-  "Parameters": "omnis",
-  "Workdir": "possimus",
+  "ExtAppId": 981,
+  "Name": "Gleason-Kutch",
+  "Tooltip": "quibusdam",
+  "Deleted": false,
+  "Rank": 55,
+  "Filename": "consequuntur",
+  "Parameters": "vitae",
+  "Workdir": "id",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 24,
-  "WaitToFinish": false,
+  "Icon": 164,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "inventore"
+  "Path": "eos"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 532,
-  "Name": "Ernser Inc and Sons",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 629,
-  "Filename": "temporibus",
-  "Parameters": "rerum",
-  "Workdir": "culpa",
+  "ExtAppId": 265,
+  "Name": "Jenkins-Paucek",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "Rank": 789,
+  "Filename": "omnis",
+  "Parameters": "expedita",
+  "Workdir": "qui",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 868,
-  "WaitToFinish": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "Icon": 783,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut",
+  "Path": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 183
     }
   }
 }

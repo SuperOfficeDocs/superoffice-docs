@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=enim
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=quidem
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 11 Feb 1998 03:44:57 G2T
+Last-Modified: Fri, 23 Jul 2010 13:14:10 G7T
 
 {
-  "Key": "eos",
-  "Value": "et",
-  "RecordId": 815,
-  "CreatedDate": "2007-06-16T03:44:57.359003+02:00",
-  "UpdatedDate": "1998-02-11T03:44:57.359003+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "a",
-  "TableName": "Bode Inc and Sons",
+  "Key": "corporis",
+  "Value": "est",
+  "RecordId": 282,
+  "CreatedDate": "2009-08-05T13:14:10.8516656+02:00",
+  "UpdatedDate": "2010-07-23T13:14:10.8516656+02:00",
+  "UpdatedBy": "vitae",
+  "CreatedBy": "atque",
+  "TableName": "Kiehn, Reichel and Huel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 759
     }
   }
 }

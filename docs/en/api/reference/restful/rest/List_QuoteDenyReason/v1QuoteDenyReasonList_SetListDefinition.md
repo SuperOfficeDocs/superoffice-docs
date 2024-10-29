@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 81,
-  "Name": "Mohr Group",
-  "Tooltip": "provident",
-  "Deleted": true,
-  "Rank": 640,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
-  "InUseByUserDefinedFields": true
+  "Id": 548,
+  "Name": "Murazik-Macejkovic",
+  "Tooltip": "accusantium",
+  "Deleted": false,
+  "Rank": 913,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "blanditiis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Rice LLC",
-  "Tooltip": "fugit",
+  "Id": 152,
+  "Name": "Predovic, Macejkovic and Weber",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 395,
+  "Rank": 321,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "ListType": "quis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldType": "System.Int32",
+      "FieldLength": 426
     }
   }
 }

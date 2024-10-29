@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 899,
-  "PrefDescId": 307,
-  "PrefValue": "incidunt",
-  "PrefShowValue": "aut",
-  "Description": "Polarised multimedia support",
+  "PrefDescLineId": 294,
+  "PrefDescId": 995,
+  "PrefValue": "excepturi",
+  "PrefShowValue": "corporis",
+  "Description": "Enhanced secondary challenge",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

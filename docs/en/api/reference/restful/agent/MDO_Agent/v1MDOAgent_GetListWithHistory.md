@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Maggio, Wiza and Stark",
-  "ForceFlatList": false,
-  "AdditionalInfo": "quos",
+  "Name": "Heathcote, Jakubowski and Daugherty",
+  "ForceFlatList": true,
+  "AdditionalInfo": "voluptas",
   "HistoryItems": [
-    30,
-    791
+    257,
+    545
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "DuBuque Inc and Sons",
-    "ToolTip": "Est libero voluptatem sunt amet.",
+    "Id": 925,
+    "Name": "Streich-O'Connell",
+    "ToolTip": "Sunt officia repudiandae aperiam dolores ut aspernatur consectetur.",
     "Deleted": true,
-    "Rank": 524,
-    "Type": "quis",
+    "Rank": 388,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Corkery, Ondricka and Langosh",
-        "ToolTip": "Deleniti consectetur quam consequatur doloremque omnis.",
+        "Id": 954,
+        "Name": "Stoltenberg-Kreiger",
+        "ToolTip": "Quod voluptatem nulla.",
         "Deleted": false,
-        "Rank": 767,
-        "Type": "atque",
+        "Rank": 267,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 562,
-        "ExtraInfo": "qui",
-        "StyleHint": "aperiam",
-        "FullName": "Mabel Ahmad Schmeler I",
+        "IconHint": "ad",
+        "ColorBlock": 894,
+        "ExtraInfo": "ad",
+        "StyleHint": "blanditiis",
+        "FullName": "Prof. Abraham Candida Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 860
+            "FieldLength": 972
           }
         }
       }
     ],
-    "IconHint": "quod",
-    "ColorBlock": 590,
-    "ExtraInfo": "odio",
-    "StyleHint": "est",
-    "FullName": "Roderick Prosacco",
+    "IconHint": "quasi",
+    "ColorBlock": 665,
+    "ExtraInfo": "expedita",
+    "StyleHint": "quasi",
+    "FullName": "Prof. Hubert Garrick Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 530
       }
     }
   }

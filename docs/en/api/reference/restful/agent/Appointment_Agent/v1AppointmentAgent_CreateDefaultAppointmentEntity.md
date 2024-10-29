@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-07-19T03:44:51.8865334+02:00",
-  "AppointmentId": 177,
-  "Description": "Managed explicit encoding",
-  "Title": "repellendus",
-  "Agenda": "vel",
-  "InternalNotes": "nostrum",
-  "StartDate": "2023-11-21T03:44:51.8865334+01:00",
-  "EndDate": "2024-05-22T03:44:51.8865334+02:00",
+  "CreatedDate": "2016-07-06T13:14:05.3507479+02:00",
+  "AppointmentId": 867,
+  "Description": "Digitized human-resource forecast",
+  "Title": "inventore",
+  "Agenda": "sit",
+  "InternalNotes": "provident",
+  "StartDate": "2021-12-07T13:14:05.3507479+01:00",
+  "EndDate": "2022-08-29T13:14:05.3507479+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 132,
+  "MotherId": 495,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-09-28T03:44:51.8865334+02:00",
+  "UpdatedDate": "2002-07-21T13:14:05.3507479+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 423,
+  "ActiveLinks": 509,
   "Links": [
     {
-      "EntityName": "Donnelly Inc and Sons",
-      "Id": 402,
-      "Description": "Mandatory background task-force",
-      "ExtraInfo": "nihil",
-      "LinkId": 202,
+      "EntityName": "Pfeffer-Grant",
+      "Id": 132,
+      "Description": "Managed system-worthy approach",
+      "ExtraInfo": "officiis",
+      "LinkId": 921,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldLength": 443
         }
       }
     }
   ],
-  "AlarmLeadTime": "qui",
+  "AlarmLeadTime": "earum",
   "HasAlarm": false,
-  "ColorIndex": 137,
+  "ColorIndex": 982,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "qui",
-  "LeadTime": "quod",
-  "Location": "facere",
-  "RejectCounter": 716,
+  "IsAlldayEvent": false,
+  "LagTime": "ea",
+  "LeadTime": "esse",
+  "Location": "eum",
+  "RejectCounter": 532,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 563,
-      "PersonId": 740,
-      "ContactId": 85,
-      "EmailId": 253,
+      "AssociateId": 125,
+      "PersonId": 475,
+      "ContactId": 872,
+      "EmailId": 741,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "cale@grimesprohaska.name",
-      "Description": "Business-focused encompassing complexity"
+      "EmailAddress": "presley@schmitt.co.uk",
+      "Description": "Enhanced methodical policy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-01-18T03:44:51.8865334+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2004-03-17T13:14:05.3507479+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 326,
+  "PreferredTZLocation": 615,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 303,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 467,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "impedit",
+  "CentralserviceVideomeetId": "sint",
   "UserDefinedFields": {
-    "SuperOffice:1": "Noble Medhurst III",
+    "SuperOffice:1": "Prof. Kolby Jordyn Mayer PhD",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "et",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "eos"
+    "CustomFields1": "vitae",
+    "CustomFields2": "odit"
   },
-  "PublishEventDate": "2009-03-13T03:44:51.8865334+01:00",
-  "PublishTo": "2007-07-05T03:44:51.8865334+02:00",
-  "PublishFrom": "2002-12-02T03:44:51.8865334+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-05-03T13:14:05.3507479+02:00",
+  "PublishTo": "2013-03-30T13:14:05.3507479+01:00",
+  "PublishFrom": "2023-04-30T13:14:05.3507479+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 920,
+      "VisibleId": 882,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 976
         }
       }
     },
     {
-      "VisibleId": 920,
+      "VisibleId": 882,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 976
         }
       }
     }
@@ -251,8 +251,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldType": "System.String",
+      "FieldLength": 154
     }
   }
 }

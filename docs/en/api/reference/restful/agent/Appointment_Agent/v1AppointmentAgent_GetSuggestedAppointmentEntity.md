@@ -26,7 +26,7 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=179
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=364
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -90,17 +90,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 30,
-  "Name": "Keebler, Harvey and Sporer",
-  "Tooltip": "voluptatem",
-  "Rank": 899,
+  "SuggestedAppointmentId": 328,
+  "Name": "Leffler, Jakubowski and Flatley",
+  "Tooltip": "animi",
+  "Rank": 605,
   "Deleted": false,
-  "DaysFuture": 637,
-  "Duration": "nihil",
+  "DaysFuture": 342,
+  "Duration": "cum",
   "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "et",
+  "AssignToMember": true,
+  "Text": "repellendus",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 89
     }
   }
 }

@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 922,
-  "ERPPriceListKey": "aperiam",
-  "QuoteConnectionId": 170,
-  "Name": "Lueilwitz, Beatty and Carroll",
-  "Description": "User-friendly value-added strategy",
-  "Currency": "sint",
-  "CurrencyName": "Pfannerstill LLC",
-  "ValidFrom": "2010-08-09T03:44:53.042699+02:00",
-  "ValidTo": "2014-02-17T03:44:53.042699+01:00",
+  "PriceListId": 356,
+  "ERPPriceListKey": "debitis",
+  "QuoteConnectionId": 62,
+  "Name": "Parisian-Runolfsson",
+  "Description": "Persevering neutral adapter",
+  "Currency": "veniam",
+  "CurrencyName": "Auer LLC",
+  "ValidFrom": "1999-04-18T13:14:06.3195563+02:00",
+  "ValidTo": "1998-07-28T13:14:06.3195563+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 870,
-  "ERPPriceListKey": "sapiente",
-  "QuoteConnectionId": 493,
-  "Name": "Mosciski-Luettgen",
-  "Description": "Decentralized national service-desk",
-  "Currency": "fugit",
-  "CurrencyName": "Quigley, Mann and Lueilwitz",
-  "ValidFrom": "2009-11-24T03:44:53.042699+01:00",
-  "ValidTo": "2012-08-19T03:44:53.042699+02:00",
+  "PriceListId": 539,
+  "ERPPriceListKey": "at",
+  "QuoteConnectionId": 694,
+  "Name": "Rowe, Leannon and Turner",
+  "Description": "Ameliorated logistical function",
+  "Currency": "incidunt",
+  "CurrencyName": "Kessler Group",
+  "ValidFrom": "1998-03-20T13:14:06.3195563+01:00",
+  "ValidTo": "2018-04-16T13:14:06.3195563+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 66
     }
   }
 }

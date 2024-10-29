@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Kling-Torphy",
+      "ErpListName": "Barton Inc and Sons",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Lehner Group",
-      "ErpFieldId": 33,
+      "ErpActorTypeName": "King Group",
+      "ErpFieldId": 965,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 182
+          "FieldLength": 157
         }
       }
     }
   ],
-  "ErpConnectionId": 451,
-  "ErpConnectionName": "Marvin, Kuvalis and Lockman",
+  "ErpConnectionId": 107,
+  "ErpConnectionName": "Gutkowski Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

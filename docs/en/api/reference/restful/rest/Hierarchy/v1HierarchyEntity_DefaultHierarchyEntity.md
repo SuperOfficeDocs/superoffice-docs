@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 681,
+  "HierarchyId": 210,
   "Domain": "Dashboards",
-  "Name": "Christiansen-Borer",
-  "Fullname": "beatae",
-  "ParentId": 910,
+  "Name": "Thiel-Conroy",
+  "Fullname": "consequatur",
+  "ParentId": 671,
   "Children": [
     {
-      "HierarchyId": 560,
+      "HierarchyId": 266,
       "Domain": "Dashboards",
-      "Name": "Murazik, Hintz and Stehr",
-      "Fullname": "ea",
-      "ParentId": 854,
+      "Name": "Huel-Glover",
+      "Fullname": "eos",
+      "ParentId": 353,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-03-13T03:44:57.359003+01:00",
-      "RegisteredAssociateId": 780,
-      "Updated": "2005-03-02T03:44:57.359003+01:00",
-      "UpdatedAssociateId": 530,
+      "Registered": "2002-07-24T13:14:10.8516656+02:00",
+      "RegisteredAssociateId": 87,
+      "Updated": "1998-12-02T13:14:10.8516656+01:00",
+      "UpdatedAssociateId": 838,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 223
         }
       }
     }
   ],
-  "Registered": "2009-11-25T03:44:57.359003+01:00",
-  "RegisteredAssociateId": 142,
-  "Updated": "1999-02-01T03:44:57.359003+01:00",
-  "UpdatedAssociateId": 366,
+  "Registered": "2019-06-18T13:14:10.8516656+02:00",
+  "RegisteredAssociateId": 680,
+  "Updated": "2024-06-22T13:14:10.8516656+02:00",
+  "UpdatedAssociateId": 461,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

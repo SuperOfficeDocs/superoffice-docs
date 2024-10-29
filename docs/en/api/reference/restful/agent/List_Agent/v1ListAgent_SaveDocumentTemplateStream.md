@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 745,
+  "DocumentTemplateId": 371,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "minus",
-  "PluginId": 558
+  "LanguageCode": "molestias",
+  "PluginId": 250
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grimes, Gulgowski and Witting",
-  "Description": "Optional attitude-oriented hierarchy",
-  "ExternalReference": "dicta",
-  "MimeType": "qui",
-  "PluginId": 457
+  "Name": "Graham, Cummings and Metz",
+  "Description": "Reactive bottom-line alliance",
+  "ExternalReference": "non",
+  "MimeType": "ut",
+  "PluginId": 721
 }
 ```

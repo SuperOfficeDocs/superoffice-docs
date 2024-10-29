@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 761,
-  "ERPProductKey": "quo",
-  "ERPPriceListKey": "omnis",
-  "Name": "Cummings LLC",
-  "Description": "Advanced static intranet",
-  "Code": "adipisci",
-  "PriceUnit": "officia",
-  "QuantityUnit": "accusantium",
+  "ProductId": 283,
+  "ERPProductKey": "nihil",
+  "ERPPriceListKey": "fuga",
+  "Name": "Blanda, Boyer and Schuppe",
+  "Description": "Streamlined web-enabled encryption",
+  "Code": "earum",
+  "PriceUnit": "magnam",
+  "QuantityUnit": "facere",
   "IsSubscription": false,
-  "SubscriptionUnit": "quibusdam",
-  "DefaultSubscriptionQuantity": 7925.8859999999995,
-  "ItemNumber": "1337445",
+  "SubscriptionUnit": "quia",
+  "DefaultSubscriptionQuantity": 17594.275999999998,
+  "ItemNumber": "1149862",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sapiente",
-  "ProductTypeKey": "minus",
-  "VAT": 570.388,
-  "VATInfo": "amet",
-  "UnitCost": 18556.414,
-  "UnitMinimumPrice": 2936.558,
-  "UnitListPrice": 28334.494,
-  "InAssortment": true,
-  "Supplier": "est",
-  "SupplierCode": "ut",
-  "Rights": "in",
-  "Rule": "quia",
+  "ProductFamilyKey": "nihil",
+  "ProductTypeKey": "doloribus",
+  "VAT": 14159.412,
+  "VATInfo": "minima",
+  "UnitCost": 9583.771999999999,
+  "UnitMinimumPrice": 31036.002,
+  "UnitListPrice": 5318.398,
+  "InAssortment": false,
+  "Supplier": "quia",
+  "SupplierCode": "ullam",
+  "Rights": "accusantium",
+  "Rule": "quo",
   "ExtraInfo": [
     {
-      "Name": "O'Connell, Wilderman and Heathcote",
-      "Value": "ipsam",
+      "Name": "Emard-Blanda",
+      "Value": "impedit",
       "Type": "Image"
     },
     {
-      "Name": "O'Connell, Wilderman and Heathcote",
-      "Value": "ipsam",
+      "Name": "Emard-Blanda",
+      "Value": "impedit",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "dicta",
-  "ExtraField1": "et",
-  "ExtraField2": "iste",
-  "ExtraField3": "cum",
-  "ExtraField4": "et",
-  "ExtraField5": "est",
-  "InStock": 17290.278
+  "RawExtraInfo": "impedit",
+  "ExtraField1": "hic",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "aut",
+  "ExtraField4": "non",
+  "ExtraField5": "velit",
+  "InStock": 15933.256
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 452,
-  "ERPProductKey": "laudantium",
-  "ERPPriceListKey": "vel",
-  "Name": "Davis LLC",
-  "Description": "Face to face user-facing implementation",
-  "Code": "quia",
-  "PriceUnit": "deleniti",
-  "QuantityUnit": "voluptates",
-  "IsSubscription": true,
-  "SubscriptionUnit": "nostrum",
-  "DefaultSubscriptionQuantity": 26313.064,
-  "ItemNumber": "1840830",
+  "ProductId": 800,
+  "ERPProductKey": "quia",
+  "ERPPriceListKey": "fuga",
+  "Name": "Nikolaus Inc and Sons",
+  "Description": "Organic executive protocol",
+  "Code": "dolor",
+  "PriceUnit": "cumque",
+  "QuantityUnit": "corrupti",
+  "IsSubscription": false,
+  "SubscriptionUnit": "doloremque",
+  "DefaultSubscriptionQuantity": 24263.428,
+  "ItemNumber": "1032512",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repudiandae",
-  "ProductTypeKey": "ut",
-  "VAT": 23345.165999999997,
-  "VATInfo": "est",
-  "UnitCost": 8132.73,
-  "UnitMinimumPrice": 21856.516,
-  "UnitListPrice": 26350.672,
-  "InAssortment": true,
-  "Supplier": "quaerat",
-  "SupplierCode": "qui",
-  "Rights": "et",
-  "Rule": "iste",
+  "ProductFamilyKey": "illo",
+  "ProductTypeKey": "suscipit",
+  "VAT": 12263.341999999999,
+  "VATInfo": "in",
+  "UnitCost": 26269.188,
+  "UnitMinimumPrice": 10332.797999999999,
+  "UnitListPrice": 8831.612,
+  "InAssortment": false,
+  "Supplier": "quia",
+  "SupplierCode": "tenetur",
+  "Rights": "saepe",
+  "Rule": "repudiandae",
   "ExtraInfo": [
     {
-      "Name": "Hettinger Inc and Sons",
-      "Value": "quos",
+      "Name": "McLaughlin, Lynch and Jacobi",
+      "Value": "delectus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 116
+          "FieldType": "System.Int32",
+          "FieldLength": 532
         }
       }
     },
     {
-      "Name": "Hettinger Inc and Sons",
-      "Value": "quos",
+      "Name": "McLaughlin, Lynch and Jacobi",
+      "Value": "delectus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 116
+          "FieldType": "System.Int32",
+          "FieldLength": 532
         }
       }
     }
   ],
-  "RawExtraInfo": "blanditiis",
-  "ExtraField1": "quidem",
-  "ExtraField2": "sapiente",
-  "ExtraField3": "iste",
-  "ExtraField4": "tempora",
-  "ExtraField5": "ratione",
-  "InStock": 1168.982,
+  "RawExtraInfo": "ducimus",
+  "ExtraField1": "eius",
+  "ExtraField2": "qui",
+  "ExtraField3": "rerum",
+  "ExtraField4": "nisi",
+  "ExtraField5": "est",
+  "InStock": 21298.664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 67
     }
   }
 }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Bode, Beatty and Howell",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "UdListDefinitionId": 764,
-  "Rank": 819,
+  "Id": 551,
+  "Name": "Wolff, Bradtke and Rice",
+  "Tooltip": "perspiciatis",
+  "Deleted": true,
+  "UdListDefinitionId": 436,
+  "Rank": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 4
     }
   }
 }

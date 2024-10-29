@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 802,
-  "Name": "Mayer Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 281,
+  "Name": "Weber-Denesik",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "UdListDefinitionId": 247,
-  "Rank": 368,
+  "UdListDefinitionId": 868,
+  "Rank": 640,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 118,
-  "CurrencyId": 903
+  "QuoteConnectionId": 571,
+  "CurrencyId": 910
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 974,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 602,
-    "Name": "Stracke Group",
-    "Description": "Sharable web-enabled capacity",
-    "Currency": "et",
-    "CurrencyName": "Wolf Group",
-    "ValidFrom": "2019-10-31T03:44:53.0583181+01:00",
-    "ValidTo": "2001-01-02T03:44:53.0583181+01:00",
-    "IsActive": true,
+    "PriceListId": 740,
+    "ERPPriceListKey": "est",
+    "QuoteConnectionId": 614,
+    "Name": "Ullrich, Hauck and Jerde",
+    "Description": "Extended analyzing success",
+    "Currency": "fuga",
+    "CurrencyName": "Pfannerstill Group",
+    "ValidFrom": "2019-05-24T13:14:06.3351823+02:00",
+    "ValidTo": "2019-12-04T13:14:06.3351823+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldType": "System.Int32",
+        "FieldLength": 785
       }
     }
   }

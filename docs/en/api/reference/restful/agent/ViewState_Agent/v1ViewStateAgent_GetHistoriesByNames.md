@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Deckow, Konopelski and Kessler",
-    "Marquardt Inc and Sons"
+    "Smitham-Lind",
+    "Kertzmann-Purdy"
   ]
 }
 ```
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 390,
-    "Id": 779,
-    "HistoryName": "Towne, Hayes and Jacobs",
-    "HistoryId": 146,
-    "AssociateId": 463,
-    "Name": "Cremin-Hansen",
-    "ItemInfo": "aut",
+    "Rank": 849,
+    "Id": 861,
+    "HistoryName": "Schaden-Walter",
+    "HistoryId": 57,
+    "AssociateId": 996,
+    "Name": "Murray-Deckow",
+    "ItemInfo": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 523
+        "FieldType": "System.String",
+        "FieldLength": 97
       }
     }
   }

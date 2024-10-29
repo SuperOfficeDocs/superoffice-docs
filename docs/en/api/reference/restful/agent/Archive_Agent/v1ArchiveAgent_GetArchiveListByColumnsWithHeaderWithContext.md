@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cronin Inc and Sons",
+  "ProviderName": "Batz LLC",
   "Columns": [
-    "rem",
-    "in"
+    "optio",
+    "sed"
   ],
   "SortOrder": [
     {
-      "Name": "Lockman-Kutch",
+      "Name": "Kuhlman Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Lockman-Kutch",
+      "Name": "Kuhlman Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hoeger-Prohaska",
-      "Operator": "distinctio",
+      "Name": "Gutmann, Murphy and DuBuque",
+      "Operator": "error",
       "Values": [
-        "assumenda",
-        "odio"
+        "quas",
+        "rem"
       ],
       "DisplayValues": [
-        "exercitationem",
-        "corporis"
+        "perspiciatis",
+        "enim"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,19 +140,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 1001,
+      "InterParenthesis": 364,
       "InterOperator": "And",
-      "UniqueHash": 711
+      "UniqueHash": 816
     }
   ],
   "Entities": [
-    "nam",
-    "ut"
+    "mollitia",
+    "fugiat"
   ],
-  "Page": 25,
-  "PageSize": 346,
-  "Options": "qui",
-  "Context": "quas"
+  "Page": 818,
+  "PageSize": 593,
+  "Options": "quis",
+  "Context": "voluptas"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 778,
+  "RowCount": 412,
   "Rows": [
     {
-      "EntityName": "Rutherford, Conroy and Haley",
-      "PrimaryKey": 623,
+      "EntityName": "Kertzmann, Dietrich and Bogan",
+      "PrimaryKey": 713,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "officia",
-          "TooltipHint": "et",
-          "LinkHint": "ea"
+          "DisplayValue": "laborum",
+          "TooltipHint": "eligendi",
+          "LinkHint": "cum"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "et",
+      "LinkHint": "quas",
+      "StyleHint": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldType": "System.String",
+          "FieldLength": 552
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldLength": 264
     }
   }
 }

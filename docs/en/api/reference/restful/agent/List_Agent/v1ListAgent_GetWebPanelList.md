@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 310,
-    "Name": "Tremblay-Ziemann",
-    "Tooltip": "ut",
+    "WebPanelId": 152,
+    "Name": "Osinski-Rempel",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 760,
+    "Rank": 942,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": true,
-    "ShowInAddressBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Lang Inc and Sons",
+    "WindowName": "Bergstrom-Breitenberg",
     "Url": "http://www.example.com/",
-    "ProgId": "quia",
-    "Icon": 538,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "beatae",
+    "Icon": 531,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 857
       }
     }
   }

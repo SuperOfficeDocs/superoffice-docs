@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "McClure-Hane",
-    "ToolTip": "Est a molestiae in enim.",
+    "Id": 157,
+    "Name": "Wisoky, Pollich and Mueller",
+    "ToolTip": "Error impedit amet quis dolor maxime nobis enim.",
     "Deleted": true,
-    "Rank": 562,
-    "Type": "quaerat",
-    "ColorBlock": 529,
-    "IconHint": "laborum",
+    "Rank": 384,
+    "Type": "itaque",
+    "ColorBlock": 869,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2024-05-02T03:44:58.0312644+02:00",
+    "LastChanged": "2022-01-05T13:14:11.4298249+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Frami-Kirlin",
-        "ToolTip": "Fugiat sunt dolores illo officia quia.",
+        "Id": 298,
+        "Name": "Carter-Labadie",
+        "ToolTip": "Officia illum nisi.",
         "Deleted": false,
-        "Rank": 888,
-        "Type": "aut",
-        "ColorBlock": 817,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2006-09-23T03:44:58.0312644+02:00",
+        "Rank": 302,
+        "Type": "dignissimos",
+        "ColorBlock": 518,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2016-03-06T13:14:11.4298249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "molestias",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Arlo Wiza",
+        "FullName": "Reuben Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 529
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Elmore Marquardt",
+    "ExtraInfo": "quidem",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Gaetano Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldType": "System.String",
+        "FieldLength": 559
       }
     }
   }

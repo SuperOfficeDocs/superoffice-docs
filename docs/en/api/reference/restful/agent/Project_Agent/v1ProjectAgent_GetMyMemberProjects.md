@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 952,
-    "Name": "VonRueden-Reichel",
-    "Description": "Distributed object-oriented artificial intelligence",
+    "ProjectId": 633,
+    "Name": "Sauer-Macejkovic",
+    "Description": "Profound disintermediate hierarchy",
     "URL": "http://www.example.com/",
-    "Type": "vel",
-    "AssociateId": 54,
-    "AssociateFullName": "Jeramie Connelly",
-    "TypeId": 777,
-    "Updated": "2016-01-04T03:44:53.0114471+01:00",
-    "StatusId": 99,
-    "Status": "et",
-    "TextId": 824,
-    "PublishTo": "2004-07-28T03:44:53.0114471+02:00",
-    "PublishFrom": "2020-12-20T03:44:53.0114471+01:00",
+    "Type": "rerum",
+    "AssociateId": 425,
+    "AssociateFullName": "Roma Emard",
+    "TypeId": 556,
+    "Updated": "2015-05-26T13:14:06.2883049+02:00",
+    "StatusId": 312,
+    "Status": "commodi",
+    "TextId": 146,
+    "PublishTo": "2023-07-22T13:14:06.2883049+02:00",
+    "PublishFrom": "2021-01-13T13:14:06.2883049+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1490948",
-    "ActiveErpLinks": 183,
+    "ProjectNumber": "1267046",
+    "ActiveErpLinks": 53,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 149
       }
     }
   }

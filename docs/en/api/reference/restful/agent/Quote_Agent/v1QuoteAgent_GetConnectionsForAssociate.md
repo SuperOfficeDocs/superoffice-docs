@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 194
+  "AssociateId": 361
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 805,
-    "ERPName": "Hahn-Barton",
-    "DisplayName": "Simonis, Mann and Gislason",
-    "DisplayDescription": "Devolved global access",
-    "Rank": 570,
-    "ConnectorName": "Jacobson-Wiza",
-    "ErpConnectionId": 188,
-    "ExtraData": "ut",
+    "QuoteConnectionId": 944,
+    "ERPName": "Vandervort-Daugherty",
+    "DisplayName": "Jones-Sipes",
+    "DisplayDescription": "Multi-channelled analyzing leverage",
+    "Rank": 390,
+    "ConnectorName": "McKenzie-Pacocha",
+    "ErpConnectionId": 518,
+    "ExtraData": "esse",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 227,
-        "ERPPriceListKey": "a",
-        "QuoteConnectionId": 787,
-        "Name": "Hayes, Altenwerth and Hegmann",
-        "Description": "Optimized multimedia methodology",
-        "Currency": "eveniet",
-        "CurrencyName": "Bahringer-Hilpert",
-        "ValidFrom": "2016-10-16T03:44:53.0583181+02:00",
-        "ValidTo": "2024-08-31T03:44:53.0583181+02:00",
+        "PriceListId": 716,
+        "ERPPriceListKey": "assumenda",
+        "QuoteConnectionId": 536,
+        "Name": "Rau, Bruen and Mills",
+        "Description": "Self-enabling optimizing framework",
+        "Currency": "aut",
+        "CurrencyName": "Goodwin-Johnson",
+        "ValidFrom": "2007-09-13T13:14:06.3351823+02:00",
+        "ValidTo": "2018-11-24T13:14:06.3351823+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldLength": 864
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      403,
-      836
+      662,
+      468
     ],
     "AssociateAccessIds": [
-      982,
-      810
+      734,
+      700
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldType": "System.Int32",
+        "FieldLength": 901
       }
     }
   }

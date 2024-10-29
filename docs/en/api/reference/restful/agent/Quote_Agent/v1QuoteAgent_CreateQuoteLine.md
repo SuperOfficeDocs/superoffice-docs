@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 602,
-  "ERPProductKey": "vel"
+  "QuoteAlternativeId": 263,
+  "ERPProductKey": "aut"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 341,
-  "ERPQuoteLineKey": "laboriosam",
-  "QuoteAlternativeId": 790,
-  "ERPProductKey": "id",
+  "QuoteLineId": 204,
+  "ERPQuoteLineKey": "eligendi",
+  "QuoteAlternativeId": 135,
+  "ERPProductKey": "nemo",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25595.378,
-  "DeliveredQuantity": 27999.156,
-  "Rank": 247,
-  "Name": "Ledner-Metz",
-  "Description": "Focused multimedia software",
-  "Code": "autem",
-  "QuantityUnit": "aperiam",
-  "PriceUnit": "ea",
-  "ItemNumber": "219725",
+  "Quantity": 12112.91,
+  "DeliveredQuantity": 4635.186,
+  "Rank": 773,
+  "Name": "Wilderman-Schaefer",
+  "Description": "Focused zero administration system engine",
+  "Code": "sunt",
+  "QuantityUnit": "aut",
+  "PriceUnit": "odit",
+  "ItemNumber": "439910",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veritatis",
-  "ProductTypeKey": "et",
-  "Supplier": "dolor",
-  "SupplierCode": "soluta",
-  "Thumbnail": "unde",
-  "VATInfo": "laboriosam",
-  "VAT": 15096.478,
-  "UnitCost": 24109.862,
-  "UnitMinimumPrice": 22533.46,
-  "UnitListPrice": 17095.97,
+  "ProductFamilyKey": "pariatur",
+  "ProductTypeKey": "dolore",
+  "Supplier": "excepturi",
+  "SupplierCode": "ut",
+  "Thumbnail": "et",
+  "VATInfo": "omnis",
+  "VAT": 21377.014,
+  "UnitCost": 17365.494,
+  "UnitMinimumPrice": 28209.134,
+  "UnitListPrice": 1181.518,
   "ExtraInfo": [
     {
-      "Name": "Nolan, Harber and Kuvalis",
-      "Value": "consequatur",
+      "Name": "Kiehn-Hegmann",
+      "Value": "deleniti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldLength": 6
         }
       }
     },
     {
-      "Name": "Nolan, Harber and Kuvalis",
-      "Value": "consequatur",
+      "Name": "Kiehn-Hegmann",
+      "Value": "deleniti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldLength": 6
         }
       }
     }
   ],
-  "RawExtraInfo": "repellendus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "SubscriptionQuantity": 7076.572,
-  "SubscriptionStart": "2003-09-23T03:44:53.0739396+02:00",
-  "ERPDiscountPercent": 26704.814,
-  "ERPDiscountAmount": 29359.311999999998,
-  "DiscountPercent": 30826.023999999998,
-  "DiscountAmount": 2356.768,
+  "RawExtraInfo": "tempore",
+  "IsSubscription": true,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 20753.347999999998,
+  "SubscriptionStart": "2017-05-16T13:14:06.3351823+02:00",
+  "ERPDiscountPercent": 12777.318,
+  "ERPDiscountAmount": 11191.514,
+  "DiscountPercent": 4224.632,
+  "DiscountAmount": 26137.559999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 454.43,
-  "EarningAmount": 3149.67,
-  "SubTotal": 10426.818,
-  "TotalPrice": 8809.6739999999991,
-  "Rights": "culpa",
-  "Rule": "ipsam",
-  "ExtraField1": "est",
-  "ExtraField2": "possimus",
-  "ExtraField3": "et",
-  "ExtraField4": "fugiat",
-  "ExtraField5": "impedit",
+  "EarningPercent": 20665.595999999998,
+  "EarningAmount": 1140.776,
+  "SubTotal": 27629.343999999997,
+  "TotalPrice": 11257.328,
+  "Rights": "veritatis",
+  "Rule": "voluptas",
+  "ExtraField1": "tenetur",
+  "ExtraField2": "velit",
+  "ExtraField3": "repudiandae",
+  "ExtraField4": "enim",
+  "ExtraField5": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 104
     }
   }
 }

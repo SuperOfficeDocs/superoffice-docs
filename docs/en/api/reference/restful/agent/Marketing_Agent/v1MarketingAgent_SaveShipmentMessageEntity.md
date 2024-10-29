@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 123,
-  "PlainMessage": "beatae",
-  "HtmlMessage": "eligendi",
-  "SmsMessage": "natus",
-  "Description": "Persevering assymetric function",
-  "Subject": "mollitia",
-  "FolderId": 475,
-  "HeaderField": "sunt",
-  "Design": "alias",
+  "ShipmentMessageId": 476,
+  "PlainMessage": "voluptas",
+  "HtmlMessage": "pariatur",
+  "SmsMessage": "aut",
+  "Description": "Exclusive human-resource hardware",
+  "Subject": "in",
+  "FolderId": 208,
+  "HeaderField": "asperiores",
+  "Design": "mollitia",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Intuitive bottom-line capability",
-  "AccessKey": "earum",
-  "DocumentMessage": 244,
-  "Registered": "2017-10-10T03:44:52.7458159+02:00",
-  "RegisteredAssociateId": 525,
-  "Updated": "2021-12-07T03:44:52.7458159+01:00",
-  "UpdatedAssociateId": 409,
-  "UpdatedCount": 106
+  "InlineImages": false,
+  "LongDescription": "Synergized encompassing contingency",
+  "AccessKey": "in",
+  "DocumentMessage": 971,
+  "Registered": "2002-06-20T13:14:06.1320455+02:00",
+  "RegisteredAssociateId": 633,
+  "Updated": "2015-11-14T13:14:06.1320455+01:00",
+  "UpdatedAssociateId": 421,
+  "UpdatedCount": 10
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 332,
-  "PlainMessage": "neque",
-  "HtmlMessage": "deserunt",
-  "SmsMessage": "debitis",
-  "Description": "Profit-focused 3rd generation initiative",
-  "Subject": "ut",
-  "FolderId": 610,
-  "HeaderField": "non",
-  "Design": "nesciunt",
+  "ShipmentMessageId": 881,
+  "PlainMessage": "facere",
+  "HtmlMessage": "culpa",
+  "SmsMessage": "distinctio",
+  "Description": "Multi-layered client-driven hardware",
+  "Subject": "illum",
+  "FolderId": 436,
+  "HeaderField": "aut",
+  "Design": "tempore",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Robust empowering protocol",
-  "AccessKey": "eius",
-  "DocumentMessage": 181,
-  "Registered": "2004-05-16T03:44:52.7458159+02:00",
-  "RegisteredAssociateId": 261,
-  "Updated": "2008-07-01T03:44:52.7458159+02:00",
-  "UpdatedAssociateId": 581,
-  "UpdatedCount": 32,
+  "LongDescription": "Triple-buffered clear-thinking projection",
+  "AccessKey": "animi",
+  "DocumentMessage": 937,
+  "Registered": "2005-01-25T13:14:06.1320455+01:00",
+  "RegisteredAssociateId": 157,
+  "Updated": "2023-03-16T13:14:06.1320455+01:00",
+  "UpdatedAssociateId": 630,
+  "UpdatedCount": 623,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 681
+      "FieldLength": 448
     }
   }
 }

@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 763,
-  "AttachmentId": "exercitationem"
+  "MessageServerId": 803,
+  "AttachmentId": "aut"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Triple-buffered empowering definition",
-  "Filename": "nam",
-  "Size": 526,
-  "Type": "ut",
-  "Encoding": "esse",
-  "Id": "non",
-  "Disposition": "eos",
+  "Description": "Configurable interactive intranet",
+  "Filename": "itaque",
+  "Size": 677,
+  "Type": "itaque",
+  "Encoding": "error",
+  "Id": "eius",
+  "Disposition": "sint",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 879
+      "FieldLength": 90
     }
   }
 }

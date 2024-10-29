@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 244,
+  "ErpConnectionId": 892,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "voluptas",
-    "Rank": 252,
-    "DisplayName": "Schmeler Inc and Sons",
-    "DisplayDescription": "Programmable didactic productivity",
+    "FieldKey": "praesentium",
+    "Rank": 572,
+    "DisplayName": "Farrell Group",
+    "DisplayDescription": "Intuitive even-keeled complexity",
     "FieldType": "Checkbox",
-    "ListName": "Becker-Russel",
-    "DefaultValue": "eaque",
-    "MaxLength": 261,
+    "ListName": "Hoppe, Mohr and Casper",
+    "DefaultValue": "perspiciatis",
+    "MaxLength": 842,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 633
       }
     }
   }

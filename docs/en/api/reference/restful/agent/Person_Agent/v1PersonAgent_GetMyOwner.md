@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "error",
-  "PersonId": 642,
-  "Mrmrs": "vero",
-  "Firstname": "Gerald",
-  "Lastname": "Abernathy",
-  "MiddleName": "Connelly Group",
-  "Title": "eligendi",
-  "Description": "Front-line homogeneous model",
-  "Email": "woodrow.ohara@maggio.ca",
-  "FullName": "Krystina Walsh",
-  "DirectPhone": "902.821.3645",
-  "FormalName": "Lynch, Wiegand and D'Amore",
-  "CountryId": 811,
-  "ContactId": 504,
-  "ContactName": "Pollich-Mohr",
-  "Retired": 49,
-  "Rank": 258,
-  "ActiveInterests": 985,
+  "Position": "alias",
+  "PersonId": 657,
+  "Mrmrs": "aliquid",
+  "Firstname": "Gia",
+  "Lastname": "Feil",
+  "MiddleName": "McGlynn Group",
+  "Title": "nisi",
+  "Description": "Monitored cohesive concept",
+  "Email": "zoe_torp@gorczanyking.uk",
+  "FullName": "Nestor McCullough",
+  "DirectPhone": "097-746-9715",
+  "FormalName": "Sauer, Pfannerstill and Baumbach",
+  "CountryId": 118,
+  "ContactId": 985,
+  "ContactName": "Koepp-Crona",
+  "Retired": 78,
+  "Rank": 910,
+  "ActiveInterests": 621,
   "ContactDepartment": "",
-  "ContactCountryId": 581,
-  "ContactOrgNr": "735667",
-  "FaxPhone": "675-489-3318 x644",
-  "MobilePhone": "1-580-778-0766 x61843",
-  "ContactPhone": "551-296-5666",
-  "AssociateName": "Romaguera Inc and Sons",
-  "AssociateId": 53,
+  "ContactCountryId": 712,
+  "ContactOrgNr": "1732927",
+  "FaxPhone": "382.989.9966",
+  "MobilePhone": "899-642-0724 x0971",
+  "ContactPhone": "817-486-3705 x28805",
+  "AssociateName": "Thiel Inc and Sons",
+  "AssociateId": 231,
   "UsePersonAddress": false,
-  "ContactFax": "sint",
-  "Kanafname": "qui",
-  "Kanalname": "beatae",
-  "Post1": "error",
-  "Post2": "distinctio",
-  "Post3": "soluta",
-  "EmailName": "raleigh.simonis@larkinschultz.info",
-  "ContactFullName": "Leonor Jerde",
-  "ActiveErpLinks": 553,
-  "TicketPriorityId": 812,
-  "SupportLanguageId": 973,
-  "SupportAssociateId": 606,
+  "ContactFax": "vel",
+  "Kanafname": "et",
+  "Kanalname": "unde",
+  "Post1": "placeat",
+  "Post2": "voluptas",
+  "Post3": "natus",
+  "EmailName": "adell.heathcote@hayes.ca",
+  "ContactFullName": "Ms. Regan Turner",
+  "ActiveErpLinks": 644,
+  "TicketPriorityId": 499,
+  "SupportLanguageId": 208,
+  "SupportAssociateId": 110,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldType": "System.String",
+      "FieldLength": 379
     }
   }
 }

@@ -732,7 +732,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=registeredDate,appointmentPublish/publishedBy,contact/saintActivityType,person/personUdef/SuperOffice:9,person/correspondingAssociate/mrMrs
+GET /api/v1/archive/LinksAppointments?$select=appointmentPublish/publishedBy,contact/mainContact,contact/restrictionAddress/formattedMultiLineAddress,person/restrictionAddress/line1,person/personAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 737,
-    "Name": "Casper Inc and Sons",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "Rank": 869,
-    "UdListDefinitionId": 675
+    "HeadingId": 872,
+    "Name": "Rodriguez-McGlynn",
+    "Tooltip": "minus",
+    "Deleted": false,
+    "Rank": 18,
+    "UdListDefinitionId": 430
   },
   {
-    "HeadingId": 737,
-    "Name": "Casper Inc and Sons",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "Rank": 869,
-    "UdListDefinitionId": 675
+    "HeadingId": 872,
+    "Name": "Rodriguez-McGlynn",
+    "Tooltip": "minus",
+    "Deleted": false,
+    "Rank": 18,
+    "UdListDefinitionId": 430
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 613,
-    "Name": "Gutmann, Grant and Lindgren",
-    "Tooltip": "sapiente",
+    "HeadingId": 217,
+    "Name": "Cruickshank Inc and Sons",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 921,
-    "UdListDefinitionId": 779,
+    "Rank": 880,
+    "UdListDefinitionId": 293,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 34
       }
     }
   }

@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 454,
-  "Width": 783,
-  "Height": 44
+  "ChatTopicId": 615,
+  "Width": 527,
+  "Height": 248
 }
 ```
 

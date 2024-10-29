@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 834,
-    "Name": "Runte, Swift and Koss",
-    "ToolTip": "Atque est.",
-    "Deleted": false,
-    "Rank": 721,
-    "Type": "pariatur",
-    "ColorBlock": 430,
-    "IconHint": "facilis",
-    "Selected": true,
-    "LastChanged": "2015-02-09T03:44:58.17184+01:00",
+    "Id": 70,
+    "Name": "Champlin Group",
+    "ToolTip": "Porro itaque dolorem repellat illo optio doloribus.",
+    "Deleted": true,
+    "Rank": 921,
+    "Type": "numquam",
+    "ColorBlock": 641,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "2003-12-23T13:14:11.554833+01:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Jast, Kohler and Quigley",
-        "ToolTip": "Rerum atque qui perferendis saepe a.",
-        "Deleted": true,
-        "Rank": 921,
-        "Type": "possimus",
-        "ColorBlock": 901,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2006-08-27T03:44:58.17184+02:00",
+        "Id": 723,
+        "Name": "Schmidt Inc and Sons",
+        "ToolTip": "Mollitia harum porro saepe fugiat et repellat qui.",
+        "Deleted": false,
+        "Rank": 523,
+        "Type": "ipsum",
+        "ColorBlock": 710,
+        "IconHint": "quod",
+        "Selected": true,
+        "LastChanged": "2006-05-10T13:14:11.554833+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Assunta Friesen",
+        "FullName": "Floyd VonRueden DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 605
+            "FieldType": "System.Int32",
+            "FieldLength": 883
           }
         }
       }
     ],
     "ExtraInfo": "voluptas",
-    "StyleHint": "laborum",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Anna Mueller",
+    "FullName": "Dr. Justen Clifford Hamill MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 956
+        "FieldType": "System.Int32",
+        "FieldLength": 428
       }
     }
   }

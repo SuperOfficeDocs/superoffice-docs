@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quibusdam",
-  "ProviderName": "Nikolaus, Kunze and Adams",
-  "StorageKey": "quos",
-  "ExtraRestrictions": "possimus",
-  "OrderBy": "error",
-  "DesiredColumns": "facilis",
-  "PageSize": 547,
-  "PageNumber": 609
+  "StorageType": "ipsum",
+  "ProviderName": "Hand-Lubowitz",
+  "StorageKey": "quia",
+  "ExtraRestrictions": "facilis",
+  "OrderBy": "eveniet",
+  "DesiredColumns": "nihil",
+  "PageSize": 1000,
+  "PageNumber": 715
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jewess, Parisian and Gerlach",
-      "DisplayTooltip": "et",
-      "DisplayType": "dolorem",
+      "DisplayName": "Boehm Inc and Sons",
+      "DisplayTooltip": "optio",
+      "DisplayType": "aperiam",
       "CanOrderBy": false,
-      "Name": "Kunze Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Bins, Aufderhar and Lehner",
-      "IsVisible": true,
-      "ExtraInfo": "velit",
-      "Width": "nobis",
-      "IconHint": "facilis",
+      "Name": "Botsford, Bechtelar and Strosin",
+      "CanRestrictBy": true,
+      "RestrictionType": "at",
+      "RestrictionListName": "Hettinger LLC",
+      "IsVisible": false,
+      "ExtraInfo": "ea",
+      "Width": "quia",
+      "IconHint": "quia",
       "HeadingIconHint": "quis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ortiz-Cormier",
-      "PrimaryKey": 406,
+      "EntityName": "Balistreri-Eichmann",
+      "PrimaryKey": 1002,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aliquam",
-          "TooltipHint": "quas",
-          "LinkHint": "saepe"
+          "DisplayValue": "delectus",
+          "TooltipHint": "officia",
+          "LinkHint": "dignissimos"
         }
       },
-      "LinkHint": "optio",
-      "StyleHint": "ea",
+      "LinkHint": "commodi",
+      "StyleHint": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 464
+          "FieldLength": 289
         }
       }
     }
   ],
-  "RowCount": 40,
+  "RowCount": 433,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 817
     }
   }
 }

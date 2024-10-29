@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Wyman, Von and D'Amore"
+  "TargetTableName": "Boyle-Johnston"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organized maximized customer loyalty",
-  "Postit": "tempora",
+  "Description": "Enterprise-wide even-keeled collaboration",
+  "Postit": "dolorum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 306,
-  "IncludePerson": 890,
+  "GroupIdx": 413,
+  "IncludePerson": 9,
   "MemberCount": 99.99,
-  "Name": "Harber, Bergstrom and Batz",
-  "PostitTextId": 987,
-  "CreatedDate": "2001-02-26T03:44:53.1524683+01:00",
-  "SelectionId": 703,
-  "SoundEx": "optio",
-  "Source": 226,
-  "TextId": 956,
-  "UpdatedDate": "1998-09-07T03:44:53.1524683+02:00",
-  "UpdatedCount": 46,
-  "Visibility": 801,
+  "Name": "Breitenberg Group",
+  "PostitTextId": 964,
+  "CreatedDate": "2014-12-07T13:14:06.4133118+01:00",
+  "SelectionId": 865,
+  "SoundEx": "dolorem",
+  "Source": 641,
+  "TextId": 435,
+  "UpdatedDate": "2008-12-03T13:14:06.4133118+01:00",
+  "UpdatedCount": 825,
+  "Visibility": 19,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 365,
-  "TargetTableName": "Lehner Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 795,
+  "TargetTableName": "Macejkovic-Kling",
   "Completed": false,
-  "LeftSelectionId": 797,
-  "RightSelectionId": 222,
+  "LeftSelectionId": 993,
+  "RightSelectionId": 756,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Brekke-Johnson",
-  "ShadowProviderName": "Beier, Bergnaum and Cremin",
-  "ChartKey": "doloribus",
-  "LastLoaded": "2021-10-02T03:44:53.1524683+02:00",
-  "LastLoadedBy": 59,
+  "MainProviderName": "Johnson-Rippin",
+  "ShadowProviderName": "Schinner, Kassulke and Hills",
+  "ChartKey": "qui",
+  "LastLoaded": "2019-10-17T13:14:06.4133118+02:00",
+  "LastLoadedBy": 319,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-08-02T03:44:53.1524683+02:00",
-  "LastMembershipChangeBy": 315,
+  "LastMembershipChange": "1999-01-02T13:14:06.4133118+01:00",
+  "LastMembershipChangeBy": 477,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "ipsum",
-  "MailingsProviderName": "Hettinger LLC",
-  "DashboardTileDefinitionId": 734,
+  "MainHeading": "quibusdam",
+  "MemberTabHeading": "modi",
+  "MailingsProviderName": "Boehm LLC",
+  "DashboardTileDefinitionId": 776,
   "VisibleFor": [
     {
-      "VisibleId": 596,
+      "VisibleId": 307,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldType": "System.String",
+          "FieldLength": 273
         }
       }
     },
     {
-      "VisibleId": 596,
+      "VisibleId": 307,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldType": "System.String",
+          "FieldLength": 273
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldLength": 136
     }
   }
 }

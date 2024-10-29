@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 341,
-    "Name": "Schultz, Harris and Rogahn",
-    "ToolTip": "Est nesciunt sit delectus sunt.",
-    "Deleted": false,
-    "Rank": 194,
-    "Type": "aut",
-    "ColorBlock": 802,
-    "IconHint": "in",
+    "Id": 852,
+    "Name": "Bogisich Group",
+    "ToolTip": "Facere eius.",
+    "Deleted": true,
+    "Rank": 562,
+    "Type": "quidem",
+    "ColorBlock": 110,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2018-12-12T03:44:58.0156476+01:00",
+    "LastChanged": "1998-08-21T13:14:11.4141989+02:00",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Shields, Flatley and Stehr",
-        "ToolTip": "A et et recusandae.",
+        "Id": 977,
+        "Name": "Wilderman-Simonis",
+        "ToolTip": "Inventore tempora facilis quo.",
         "Deleted": false,
-        "Rank": 535,
-        "Type": "nostrum",
-        "ColorBlock": 757,
-        "IconHint": "sed",
+        "Rank": 314,
+        "Type": "laborum",
+        "ColorBlock": 475,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2021-03-24T03:44:58.0156476+01:00",
+        "LastChanged": "2002-01-21T13:14:11.4141989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "itaque",
+        "ExtraInfo": "nam",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Mrs. Sadye Hazle Ebert DVM",
+        "FullName": "Shanel Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldType": "System.String",
+            "FieldLength": 369
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "eos",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dr. Eldora Domenick Deckow PhD",
+    "FullName": "Gladyce Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 823
       }
     }
   }

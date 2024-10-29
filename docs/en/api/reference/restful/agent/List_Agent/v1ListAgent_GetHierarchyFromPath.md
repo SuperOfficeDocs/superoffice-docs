@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "sequi",
-  "Children": true
+  "Path": "sit",
+  "Children": false
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 961,
+  "HierarchyId": 235,
   "Domain": "Dashboards",
-  "Name": "Howe, Luettgen and Kihn",
-  "Fullname": "doloremque",
-  "ParentId": 429,
+  "Name": "Gleason, Doyle and Gislason",
+  "Fullname": "autem",
+  "ParentId": 876,
   "Children": [
     {
-      "HierarchyId": 485,
+      "HierarchyId": 967,
       "Domain": "Dashboards",
-      "Name": "Pfeffer, Bahringer and Flatley",
-      "Fullname": "mollitia",
-      "ParentId": 251,
+      "Name": "Heidenreich Inc and Sons",
+      "Fullname": "rerum",
+      "ParentId": 80,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-04-01T03:44:52.7302252+02:00",
-      "RegisteredAssociateId": 923,
-      "Updated": "1998-03-14T03:44:52.7302252+01:00",
-      "UpdatedAssociateId": 557,
+      "Registered": "2022-06-20T13:14:06.1007936+02:00",
+      "RegisteredAssociateId": 688,
+      "Updated": "2002-01-03T13:14:06.1007936+01:00",
+      "UpdatedAssociateId": 424,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 618
+          "FieldType": "System.Int32",
+          "FieldLength": 856
         }
       }
     }
   ],
-  "Registered": "2000-07-21T03:44:52.7302252+02:00",
-  "RegisteredAssociateId": 978,
-  "Updated": "2008-12-23T03:44:52.7302252+01:00",
-  "UpdatedAssociateId": 637,
+  "Registered": "2016-09-13T13:14:06.1007936+02:00",
+  "RegisteredAssociateId": 644,
+  "Updated": "2024-07-25T13:14:06.1007936+02:00",
+  "UpdatedAssociateId": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

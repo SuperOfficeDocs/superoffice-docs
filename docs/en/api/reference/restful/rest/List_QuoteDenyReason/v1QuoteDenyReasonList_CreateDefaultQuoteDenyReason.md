@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Bergstrom Group",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 808,
-  "Rank": 334,
+  "Id": 68,
+  "Name": "Rosenbaum, Mayert and Ward",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "UdListDefinitionId": 896,
+  "Rank": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 691
     }
   }
 }

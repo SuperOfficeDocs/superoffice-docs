@@ -253,6 +253,8 @@ items:
     href: appointmentagent/updateappointment.md
   - name: UpdateAppointmentFromIcsResponse
     href: appointmentagent/updateappointmentfromicsresponse.md
+  - name: UpdateAppointmentWithMode
+    href: appointmentagent/updateappointmentwithmode.md
   - name: ValidateAppointmentEntity
     href: appointmentagent/validateappointmententity.md
   - name: ValidateDays

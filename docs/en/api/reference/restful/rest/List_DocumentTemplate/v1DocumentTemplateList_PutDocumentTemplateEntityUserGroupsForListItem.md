@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Sawayn Inc and Sons",
-    "ToolTip": "Rem et iste corporis eum voluptas corporis.",
-    "Deleted": false,
-    "Rank": 59,
-    "Type": "similique",
-    "ColorBlock": 882,
-    "IconHint": "qui",
+    "Id": 985,
+    "Name": "Fahey Group",
+    "ToolTip": "Voluptates dignissimos possimus corporis accusamus.",
+    "Deleted": true,
+    "Rank": 783,
+    "Type": "cum",
+    "ColorBlock": 815,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2005-08-24T03:44:58.0000211+02:00",
+    "LastChanged": "2013-07-07T13:14:11.3985731+02:00",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Mitchell-Bruen",
-        "ToolTip": "Quibusdam quos vel vel dolorem quam.",
+        "Id": 271,
+        "Name": "Hoppe, Bradtke and Conn",
+        "ToolTip": "Rerum incidunt nam tenetur ipsum et error totam.",
         "Deleted": false,
-        "Rank": 761,
-        "Type": "esse",
-        "ColorBlock": 494,
-        "IconHint": "ex",
+        "Rank": 743,
+        "Type": "dolorum",
+        "ColorBlock": 97,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2010-12-02T03:44:58.0000211+01:00",
+        "LastChanged": "2012-07-01T13:14:11.3985731+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Miss Estevan O'Hara PhD"
+        "ExtraInfo": "sequi",
+        "StyleHint": "illum",
+        "Hidden": false,
+        "FullName": "Eriberto Miller DDS"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Savanah Travon Kuhic V"
+    "ExtraInfo": "ratione",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Dr. Clara Don Hahn MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Schinner-Nitzsche",
-    "ToolTip": "Est nesciunt fugit pariatur rem nesciunt iure.",
+    "Id": 536,
+    "Name": "Halvorson LLC",
+    "ToolTip": "Ut et possimus eligendi sint consequatur.",
     "Deleted": false,
-    "Rank": 721,
-    "Type": "adipisci",
-    "ColorBlock": 748,
-    "IconHint": "labore",
-    "Selected": false,
-    "LastChanged": "1998-01-29T03:44:58.0000211+01:00",
+    "Rank": 856,
+    "Type": "blanditiis",
+    "ColorBlock": 272,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2003-06-07T13:14:11.3985731+02:00",
     "ChildItems": [
       {
-        "Id": 720,
-        "Name": "Runolfsson-Fisher",
-        "ToolTip": "Ut dolorem.",
+        "Id": 458,
+        "Name": "Rempel, Mann and Vandervort",
+        "ToolTip": "Et ad.",
         "Deleted": false,
-        "Rank": 973,
-        "Type": "excepturi",
-        "ColorBlock": 305,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2007-03-21T03:44:58.0000211+01:00",
+        "Rank": 381,
+        "Type": "suscipit",
+        "ColorBlock": 717,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2024-08-08T13:14:11.3985731+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Reina Crona",
+        "ExtraInfo": "dicta",
+        "StyleHint": "sint",
+        "Hidden": false,
+        "FullName": "Ms. Talia Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldLength": 476
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Otilia Fadel",
+    "ExtraInfo": "ad",
+    "StyleHint": "vitae",
+    "Hidden": false,
+    "FullName": "Mrs. Abe Caleigh Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldType": "System.String",
+        "FieldLength": 417
       }
     }
   }

@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cassin, Willms and Collier",
-  "UsergroupId": 464,
+  "UdListDefinitionName": "Wiegand-Miller",
+  "UsergroupId": 304,
   "ListItemsID": [
-    958,
-    375
+    311,
+    900
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

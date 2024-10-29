@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 961,
-  "Select": "excepturi"
+  "SelectionId": 502,
+  "Select": "perspiciatis"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Lind Inc and Sons",
-    "PrimaryKey": 134,
+    "EntityName": "Koepp, Bahringer and Grady",
+    "PrimaryKey": 378,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "qui",
-        "TooltipHint": "repellat",
-        "LinkHint": "nisi"
+        "DisplayValue": "temporibus",
+        "TooltipHint": "et",
+        "LinkHint": "impedit"
       }
     },
-    "LinkHint": "provident",
-    "StyleHint": "quaerat",
+    "LinkHint": "neque",
+    "StyleHint": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldType": "System.String",
+        "FieldLength": 1001
       }
     }
   }

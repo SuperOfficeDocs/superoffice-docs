@@ -90,16 +90,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 312,
-  "Name": "Carroll Inc and Sons",
-  "Tooltip": "quaerat",
-  "PassiveText": "sint",
-  "Deleted": true,
-  "Rank": 597,
+  "ReldefId": 241,
+  "Name": "Reynolds, VonRueden and Grant",
+  "Tooltip": "molestias",
+  "PassiveText": "id",
+  "Deleted": false,
+  "Rank": 645,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 979,
-  "Name": "Osinski, Wisozk and Feil",
-  "Tooltip": "est",
-  "PassiveText": "ut",
+  "ReldefId": 641,
+  "Name": "Krajcik, Nicolas and Konopelski",
+  "Tooltip": "eos",
+  "PassiveText": "suscipit",
   "Deleted": true,
-  "Rank": 624,
+  "Rank": 126,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

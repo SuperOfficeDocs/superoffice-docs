@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Keebler, Romaguera and Gislason",
-  "Tooltip": "saepe",
+  "Id": 935,
+  "Name": "Crooks, Goodwin and Wunsch",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "UdListDefinitionId": 717,
-  "Rank": 141,
+  "UdListDefinitionId": 791,
+  "Rank": 588,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 728
     }
   }
 }

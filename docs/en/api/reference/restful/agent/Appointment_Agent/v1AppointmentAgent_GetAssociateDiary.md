@@ -128,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 889,
-  "StartTime": "2022-04-24T03:44:51.8552876+02:00",
-  "EndTime": "2006-03-09T03:44:51.8552876+01:00",
-  "Count": 775
+  "AssociateId": 841,
+  "StartTime": "2007-08-04T13:14:05.2257407+02:00",
+  "EndTime": "2019-04-20T13:14:05.2257407+02:00",
+  "Count": 455
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 271,
-    "StartDate": "2010-07-28T03:44:51.8552876+02:00",
-    "EndDate": "2007-07-17T03:44:51.8552876+02:00",
+    "AppointmentId": 15,
+    "StartDate": "2019-12-23T13:14:05.2413666+01:00",
+    "EndDate": "2020-11-11T13:14:05.2413666+01:00",
     "Type": "BookingForChecklist",
-    "Task": "deleniti",
-    "AssociateFullName": "Ms. Foster Bartell",
-    "ContactName": "Dickens-Witting",
-    "Description": "Reverse-engineered background capability",
-    "PersonFullName": "Francisca Macejkovic",
-    "PersonId": 160,
-    "ContactId": 825,
-    "ProjectId": 947,
-    "ProjectName": "Bernhard, Rogahn and Walker",
+    "Task": "omnis",
+    "AssociateFullName": "Mrs. Bulah Ritchie",
+    "ContactName": "Kuhn-Schneider",
+    "Description": "Future-proofed system-worthy superstructure",
+    "PersonFullName": "Dr. Donnell Nitzsche",
+    "PersonId": 975,
+    "ContactId": 573,
+    "ProjectId": 560,
+    "ProjectName": "Daugherty, Gislason and Zieme",
     "IsPublished": false,
-    "AssociateId": 348,
-    "ColorIndex": 93,
-    "IsFree": true,
-    "HasAlarm": false,
+    "AssociateId": 231,
+    "ColorIndex": 25,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 662,
-    "PriorityName": "Roob-Barton",
+    "PriorityId": 132,
+    "PriorityName": "Boyer, Larkin and Zemlak",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2011-04-24T03:44:51.8552876+02:00",
+    "ActiveDate": "2001-07-30T13:14:05.2413666+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-10-25T03:44:51.8552876+02:00",
-    "RecurringEndDate": "1998-12-16T03:44:51.8552876+01:00",
-    "MotherId": 57,
-    "AssignedBy": 15,
-    "AssignedByFullName": "Adrienne Walter",
-    "RejectReason": "grow interactive infrastructures",
-    "Location": "dolorem",
-    "AlarmLeadTime": "sed",
-    "SaleId": 449,
-    "SaleName": "Kihn-Jerde",
-    "AssociateName": "Hyatt Inc and Sons",
-    "CreatedDate": "2000-09-13T03:44:51.8552876+02:00",
-    "CreatedBy": "autem",
-    "CreatedByFullName": "Prof. Xavier Jamil Lindgren III",
-    "CreatedByAssociateId": 909,
+    "RecurringStartDate": "2012-11-13T13:14:05.2413666+01:00",
+    "RecurringEndDate": "2017-06-13T13:14:05.2413666+02:00",
+    "MotherId": 678,
+    "AssignedBy": 573,
+    "AssignedByFullName": "Walton Frami",
+    "RejectReason": "",
+    "Location": "dicta",
+    "AlarmLeadTime": "sint",
+    "SaleId": 635,
+    "SaleName": "Feest LLC",
+    "AssociateName": "Vandervort-Wuckert",
+    "CreatedDate": "2011-07-23T13:14:05.2413666+02:00",
+    "CreatedBy": "temporibus",
+    "CreatedByFullName": "Nicolette Legros V",
+    "CreatedByAssociateId": 73,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 981,
-    "Title": "repudiandae",
-    "Agenda": "qui",
-    "InternalNotes": "totam",
+    "PreferredTZLocation": 204,
+    "Title": "voluptate",
+    "Agenda": "beatae",
+    "InternalNotes": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldLength": 640
       }
     }
   }

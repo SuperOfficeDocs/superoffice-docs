@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 148,
-  "UniqueId": "nihil",
-  "Name": "Schmeler LLC",
-  "Description": "Automated 6th generation moratorium",
-  "AssociateId": 105,
-  "Columns": 232,
+  "DashboardId": 435,
+  "UniqueId": "exercitationem",
+  "Name": "Swift-Fadel",
+  "Description": "Re-engineered intangible migration",
+  "AssociateId": 581,
+  "Columns": 573,
   "Theme": null,
-  "VisibleForAll": 550,
+  "VisibleForAll": 71,
   "VisibleForAssociates": [
-    817,
-    358
+    510,
+    172
   ],
   "VisibleForGroups": [
-    44,
-    148
+    13,
+    114
   ],
-  "PinForAll": 469,
+  "PinForAll": 776,
   "PinForAssociates": [
-    36,
-    231
+    184,
+    175
   ],
   "PinForGroups": [
-    564,
-    838
+    418,
+    527
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   },
   "_Links": {

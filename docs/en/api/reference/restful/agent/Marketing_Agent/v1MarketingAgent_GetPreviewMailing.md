@@ -92,7 +92,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 52
+  "ShipmentAddrId": 264
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2023-06-28T03:44:52.7614393+02:00",
+  "SendingTime": "2002-06-26T13:14:06.1320455+02:00",
   "Status": "Blocked",
-  "ShipmentId": 718,
-  "ShipmentDescription": "Ameliorated 5th generation initiative",
-  "FromAddress": "error",
-  "Configuration": 138,
-  "ContactId": 751,
-  "ContactName": "Baumbach, Ritchie and Langosh",
-  "PersonId": 319,
-  "PersonFullName": "Mr. Enoch Neva Cronin",
-  "ShipmentType": "quos",
-  "MessageId": 300,
-  "MessageSubject": "eveniet",
-  "DocumentMessageId": 740,
-  "Opened": "2000-11-06T03:44:52.7614393+01:00",
-  "LinkClicks": 486,
+  "ShipmentId": 299,
+  "ShipmentDescription": "Adaptive impactful protocol",
+  "FromAddress": "ex",
+  "Configuration": 702,
+  "ContactId": 495,
+  "ContactName": "Ledner Group",
+  "PersonId": 176,
+  "PersonFullName": "Rahsaan Emmerich DDS",
+  "ShipmentType": "nulla",
+  "MessageId": 670,
+  "MessageSubject": "velit",
+  "DocumentMessageId": 350,
+  "Opened": "2000-11-19T13:14:06.1320455+01:00",
+  "LinkClicks": 964,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldType": "System.String",
+      "FieldLength": 643
     }
   }
 }

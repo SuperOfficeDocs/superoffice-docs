@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 823
+  "UserGroupId": 232
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 97,
-    "ColumnId": 775,
-    "FieldDefault": "eligendi",
-    "FieldHeight": 557,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 577,
-    "FieldTop": 102,
+    "UDefFieldId": 53,
+    "ColumnId": 690,
+    "FieldDefault": "in",
+    "FieldHeight": 524,
+    "FieldLabel": "error",
+    "FieldLeft": 472,
+    "FieldTop": 48,
     "FieldType": "Checkbox",
-    "FieldWidth": 567,
-    "FormatMask": "rerum",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 86,
-    "LabelLeft": 394,
-    "LabelTop": 347,
-    "LabelWidth": 898,
-    "LastVersionId": 705,
-    "ListTableId": 135,
+    "FieldWidth": 731,
+    "FormatMask": "voluptatibus",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 248,
+    "LabelLeft": 840,
+    "LabelTop": 653,
+    "LabelWidth": 394,
+    "LastVersionId": 331,
+    "ListTableId": 211,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 642,
-    "ProgId": "sed",
-    "IsReadOnly": true,
-    "ShortLabel": "tempore",
-    "TabOrder": 955,
-    "TextLength": 773,
-    "Tooltip": "iusto",
-    "UdefIdentity": 528,
-    "UDListDefinitionId": 98,
+    "Page1LineNo": 194,
+    "ProgId": "minima",
+    "IsReadOnly": false,
+    "ShortLabel": "consectetur",
+    "TabOrder": 308,
+    "TextLength": 704,
+    "Tooltip": "ipsa",
+    "UdefIdentity": 34,
+    "UDListDefinitionId": 173,
     "Justification": "Center",
-    "Version": 447,
-    "TemplateVariableName": "Koepp, Jacobs and O'Conner",
+    "Version": 350,
+    "TemplateVariableName": "Sanford, Kemmer and Wyman",
     "HasBeenPublished": false,
-    "MdoListName": "Runolfsson Inc and Sons",
+    "MdoListName": "King Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 430
       }
     }
   }

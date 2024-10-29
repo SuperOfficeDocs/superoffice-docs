@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Moen Group",
-    "Tooltip": "aperiam",
+    "Id": 738,
+    "Name": "Wuckert LLC",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "UdListDefinitionId": 121,
-    "Rank": 470
+    "UdListDefinitionId": 494,
+    "Rank": 573
   },
   {
-    "Id": 304,
-    "Name": "Moen Group",
-    "Tooltip": "aperiam",
+    "Id": 738,
+    "Name": "Wuckert LLC",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "UdListDefinitionId": 121,
-    "Rank": 470
+    "UdListDefinitionId": 494,
+    "Rank": 573
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Hirthe-D'Amore",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 552,
-    "Rank": 250,
+    "Id": 916,
+    "Name": "Brakus-Renner",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "UdListDefinitionId": 70,
+    "Rank": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldLength": 175
       }
     }
   }

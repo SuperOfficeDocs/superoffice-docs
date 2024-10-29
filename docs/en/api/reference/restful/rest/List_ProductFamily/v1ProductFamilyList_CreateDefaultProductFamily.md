@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 983,
-  "Name": "Ratke Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 253,
+  "Name": "Weimann-Armstrong",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "UdListDefinitionId": 727,
-  "Rank": 627,
+  "UdListDefinitionId": 767,
+  "Rank": 502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

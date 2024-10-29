@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quisquam",
-    "PersonId": 542,
-    "Mrmrs": "sint",
-    "Firstname": "Mertie",
-    "Lastname": "Abshire",
-    "MiddleName": "Jewess-Lang",
-    "Title": "voluptatem",
-    "Description": "Triple-buffered didactic orchestration",
-    "Email": "carrie_von@uptonmurphy.com",
-    "FullName": "Ludie Abbott",
-    "DirectPhone": "1-952-222-8597 x3934",
-    "FormalName": "Weissnat-Gusikowski",
-    "CountryId": 704,
-    "ContactId": 580,
-    "ContactName": "Stracke-Beatty",
-    "Retired": 732,
-    "Rank": 200,
-    "ActiveInterests": 741,
+    "Position": "delectus",
+    "PersonId": 72,
+    "Mrmrs": "tempore",
+    "Firstname": "Erick",
+    "Lastname": "Rosenbaum",
+    "MiddleName": "West, Spinka and Kirlin",
+    "Title": "vero",
+    "Description": "Cross-platform content-based archive",
+    "Email": "louvenia.homenick@breitenberg.name",
+    "FullName": "Brock Harvey",
+    "DirectPhone": "460.291.6836 x11070",
+    "FormalName": "Wunsch-Graham",
+    "CountryId": 534,
+    "ContactId": 460,
+    "ContactName": "Emmerich Group",
+    "Retired": 942,
+    "Rank": 574,
+    "ActiveInterests": 588,
     "ContactDepartment": "",
-    "ContactCountryId": 35,
-    "ContactOrgNr": "1824481",
-    "FaxPhone": "(378)008-1738",
-    "MobilePhone": "(733)573-3251",
-    "ContactPhone": "(072)144-8384 x88522",
-    "AssociateName": "Moore, Haag and Harris",
-    "AssociateId": 904,
+    "ContactCountryId": 681,
+    "ContactOrgNr": "1685321",
+    "FaxPhone": "(037)133-6739 x7598",
+    "MobilePhone": "1-937-949-3560",
+    "ContactPhone": "716.687.7795",
+    "AssociateName": "Leannon-Heathcote",
+    "AssociateId": 783,
     "UsePersonAddress": true,
-    "ContactFax": "perspiciatis",
-    "Kanafname": "sit",
-    "Kanalname": "quis",
-    "Post1": "eos",
-    "Post2": "consequatur",
-    "Post3": "nesciunt",
-    "EmailName": "ian_stroman@kessler.name",
-    "ContactFullName": "Ernesto Hettinger IV",
-    "ActiveErpLinks": 869,
-    "TicketPriorityId": 569,
-    "SupportLanguageId": 880,
-    "SupportAssociateId": 900,
+    "ContactFax": "quis",
+    "Kanafname": "asperiores",
+    "Kanalname": "iste",
+    "Post1": "quod",
+    "Post2": "eius",
+    "Post3": "ut",
+    "EmailName": "rhiannon@oconnerrosenbaum.biz",
+    "ContactFullName": "Hassie Lynch",
+    "ActiveErpLinks": 987,
+    "TicketPriorityId": 51,
+    "SupportLanguageId": 871,
+    "SupportAssociateId": 755,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 437
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=385
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=698
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 82,
-  "Name": "Langworth, Gulgowski and Ryan",
-  "Description": "Innovative fault-tolerant extranet",
-  "WelcomeMessage": "quo",
+  "ChatTopicId": 338,
+  "Name": "Dare-Daniel",
+  "Description": "Optimized bi-directional contingency",
+  "WelcomeMessage": "quia",
   "Language": null,
-  "LastAccept": "2016-03-11T03:44:52.2459049+01:00",
-  "SecondsPrAccept": 644,
-  "AlertRecipient": "voluptatibus",
+  "LastAccept": "2015-12-06T13:14:05.6163893+01:00",
+  "SecondsPrAccept": 2,
+  "AlertRecipient": "sed",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "quas",
+  "CollectConsent": false,
+  "BadgeHeader": "sint",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "tempora",
-  "WarnNewChatMinutes": 763,
-  "WarnManagerNewChatMinutes": 901,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 692,
+  "WarnManagerNewChatMinutes": 837,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -131,19 +131,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 222,
-  "WarnManagerChatMessageMinutes": 263,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 849,
-  "OfflineFormQueueLength": 902,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "quae",
+  "WarnChatMessageMinutes": 798,
+  "WarnManagerChatMessageMinutes": 772,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 324,
+  "OfflineFormQueueLength": 433,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 604
     }
   }
 }

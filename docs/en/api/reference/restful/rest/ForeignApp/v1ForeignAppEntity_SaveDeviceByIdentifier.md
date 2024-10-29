@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 703,
-  "Name": "Murphy, Waelchi and Goyette",
-  "CreatedDate": "2009-02-03T03:44:57.359003+01:00",
-  "UpdatedDate": "2012-04-14T03:44:57.359003+02:00",
-  "AssociateFullName": "Prof. Kelley Wilkinson I",
-  "CreatedBy": "animi",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "nihil",
-  "ForeignAppId": 834
+  "ForeignDeviceId": 796,
+  "Name": "Simonis Inc and Sons",
+  "CreatedDate": "2017-02-25T13:14:10.8360396+01:00",
+  "UpdatedDate": "2015-04-25T13:14:10.8360396+02:00",
+  "AssociateFullName": "Maci Hamill",
+  "CreatedBy": "ipsa",
+  "UpdatedBy": "in",
+  "DeviceIdentifier": "alias",
+  "ForeignAppId": 990
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 799,
-  "Name": "Grant, Lesch and Rolfson",
-  "CreatedDate": "2019-02-08T03:44:57.359003+01:00",
-  "UpdatedDate": "1998-12-17T03:44:57.359003+01:00",
-  "AssociateFullName": "Armando Kihn",
-  "CreatedBy": "quo",
-  "UpdatedBy": "ea",
-  "DeviceIdentifier": "aut",
-  "ForeignAppId": 620,
+  "ForeignDeviceId": 758,
+  "Name": "Brown, Gleichner and Koelpin",
+  "CreatedDate": "2020-05-06T13:14:10.8360396+02:00",
+  "UpdatedDate": "2000-08-02T13:14:10.8360396+02:00",
+  "AssociateFullName": "Jarrod Cremin",
+  "CreatedBy": "consequatur",
+  "UpdatedBy": "sint",
+  "DeviceIdentifier": "est",
+  "ForeignAppId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   }
 }

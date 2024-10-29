@@ -118,10 +118,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 843,
+  "SelectionId": 126,
   "SelectionMemberIds": [
-    111,
-    203
+    100,
+    190
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered next generation benchmark",
-  "Postit": "placeat",
+  "Description": "Extended system-worthy interface",
+  "Postit": "laudantium",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 991,
-  "IncludePerson": 56,
+  "GroupIdx": 369,
+  "IncludePerson": 437,
   "MemberCount": 99.99,
-  "Name": "Gislason-Torphy",
-  "PostitTextId": 116,
-  "CreatedDate": "1999-07-01T03:44:53.1726478+02:00",
-  "SelectionId": 661,
-  "SoundEx": "tempore",
-  "Source": 892,
-  "TextId": 398,
-  "UpdatedDate": "2012-09-21T03:44:53.1726478+02:00",
-  "UpdatedCount": 878,
-  "Visibility": 286,
+  "Name": "Bogisich-Grimes",
+  "PostitTextId": 826,
+  "CreatedDate": "2017-04-20T13:14:06.4289377+02:00",
+  "SelectionId": 535,
+  "SoundEx": "quae",
+  "Source": 819,
+  "TextId": 859,
+  "UpdatedDate": "2015-03-16T13:14:06.4289377+01:00",
+  "UpdatedCount": 346,
+  "Visibility": 716,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 101,
-  "TargetTableName": "Christiansen Group",
+  "TargetTableNumber": 822,
+  "TargetTableName": "Pollich LLC",
   "Completed": false,
-  "LeftSelectionId": 14,
-  "RightSelectionId": 637,
+  "LeftSelectionId": 193,
+  "RightSelectionId": 90,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ferry-Kautzer",
-  "ShadowProviderName": "Greenfelder Group",
-  "ChartKey": "sed",
-  "LastLoaded": "2016-01-31T03:44:53.1726478+01:00",
-  "LastLoadedBy": 139,
+  "MainProviderName": "Raynor, Baumbach and Bradtke",
+  "ShadowProviderName": "Raynor, Wolff and Schiller",
+  "ChartKey": "quas",
+  "LastLoaded": "2006-03-13T13:14:06.4289377+01:00",
+  "LastLoadedBy": 969,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-05-01T03:44:53.1726478+02:00",
-  "LastMembershipChangeBy": 549,
+  "LastMembershipChange": "2016-07-20T13:14:06.4289377+02:00",
+  "LastMembershipChangeBy": 81,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "architecto",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Romaguera, Rempel and Fahey",
-  "DashboardTileDefinitionId": 158,
+  "MainHeading": "beatae",
+  "MemberTabHeading": "laudantium",
+  "MailingsProviderName": "Hintz-Kohler",
+  "DashboardTileDefinitionId": 342,
   "VisibleFor": [
     {
-      "VisibleId": 465,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 47
+          "FieldLength": 92
         }
       }
     },
     {
-      "VisibleId": 465,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 47
+          "FieldLength": 92
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 195
     }
   }
 }

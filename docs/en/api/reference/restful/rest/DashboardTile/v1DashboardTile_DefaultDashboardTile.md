@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 755,
-  "Caption": "sed",
-  "Description": "Universal zero tolerance website",
-  "ChartName": "Dickens-Stanton",
-  "ChartId": "accusantium",
-  "IsDefault": false,
-  "AssociateId": 361,
-  "GroupId": 335,
-  "SelectionId": 760,
-  "Config": "tempore",
+  "DashboardTileId": 856,
+  "Caption": "sunt",
+  "Description": "Realigned solution-oriented moderator",
+  "ChartName": "Windler Group",
+  "ChartId": "aut",
+  "IsDefault": true,
+  "AssociateId": 198,
+  "GroupId": 806,
+  "SelectionId": 930,
+  "Config": "odio",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Gusikowski Group",
-      "Description": "Customizable leading edge workforce",
+      "Name": "O'Connell-Miller",
+      "Description": "Pre-emptive mission-critical paradigm",
       "Type": "Boolean",
-      "ListName": "Stehr LLC",
+      "ListName": "Legros Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "in",
+      "Value": "labore",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldLength": 19
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 959,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldType": "System.String",
+          "FieldLength": 454
         }
       }
     },
     {
-      "VisibleId": 959,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldType": "System.String",
+          "FieldLength": 454
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 188,
-      "Id": 215,
-      "HistoryName": "Schultz, Fay and Schimmel",
-      "HistoryId": 821,
-      "AssociateId": 811,
-      "Name": "Emmerich-Steuber",
-      "ItemInfo": "sed"
+      "Rank": 210,
+      "Id": 208,
+      "HistoryName": "Kautzer-Marvin",
+      "HistoryId": 36,
+      "AssociateId": 19,
+      "Name": "Ebert Group",
+      "ItemInfo": "est"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 240,
-    "Id": 356,
-    "HistoryName": "Johnson-Mayer",
-    "HistoryId": 392,
-    "AssociateId": 253,
-    "Name": "Gorczany Inc and Sons",
-    "ItemInfo": "dignissimos",
+    "Rank": 198,
+    "Id": 662,
+    "HistoryName": "Gorczany-Padberg",
+    "HistoryId": 520,
+    "AssociateId": 685,
+    "Name": "Ratke, Eichmann and Rutherford",
+    "ItemInfo": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 780
       }
     }
   }

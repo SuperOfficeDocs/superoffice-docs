@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Marks-Harris",
-    "ToolTip": "Enim deserunt.",
+    "Id": 37,
+    "Name": "Hartmann-Ortiz",
+    "ToolTip": "Aut dolores omnis debitis qui tenetur.",
     "Deleted": false,
-    "Rank": 489,
-    "Type": "autem",
-    "ColorBlock": 630,
-    "IconHint": "debitis",
+    "Rank": 720,
+    "Type": "quia",
+    "ColorBlock": 136,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2005-10-02T03:44:57.9843605+02:00",
+    "LastChanged": "2023-11-10T13:14:11.3985731+01:00",
     "ChildItems": [
       {
-        "Id": 88,
-        "Name": "McClure LLC",
-        "ToolTip": "Quis aut sapiente et illum exercitationem perferendis expedita.",
+        "Id": 716,
+        "Name": "Schoen-Grimes",
+        "ToolTip": "Ipsam minus.",
         "Deleted": false,
-        "Rank": 266,
-        "Type": "et",
-        "ColorBlock": 581,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "2022-10-12T03:44:57.9843605+02:00",
+        "Rank": 924,
+        "Type": "ad",
+        "ColorBlock": 652,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2019-02-26T13:14:11.3985731+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Miss Samara Trystan Bailey"
+        "ExtraInfo": "explicabo",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Darrin Bailey"
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Mr. Oswald Aurelia Kuhn"
+    "ExtraInfo": "quasi",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Miss Sydnie Jaylon Rolfson I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Pouros, Cartwright and Buckridge",
-    "ToolTip": "Omnis animi.",
+    "Id": 975,
+    "Name": "Parisian-Jenkins",
+    "ToolTip": "Corrupti sapiente nisi qui ratione quam assumenda neque.",
     "Deleted": false,
-    "Rank": 166,
-    "Type": "debitis",
-    "ColorBlock": 665,
-    "IconHint": "adipisci",
+    "Rank": 130,
+    "Type": "dicta",
+    "ColorBlock": 336,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2006-12-08T03:44:57.9843605+01:00",
+    "LastChanged": "2012-10-11T13:14:11.3985731+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Braun, Raynor and Doyle",
-        "ToolTip": "Alias in aut voluptas.",
-        "Deleted": true,
-        "Rank": 360,
-        "Type": "unde",
-        "ColorBlock": 581,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2024-01-03T03:44:57.9843605+01:00",
+        "Id": 165,
+        "Name": "Marquardt, Runte and Doyle",
+        "ToolTip": "Fugiat est.",
+        "Deleted": false,
+        "Rank": 57,
+        "Type": "eaque",
+        "ColorBlock": 938,
+        "IconHint": "animi",
+        "Selected": true,
+        "LastChanged": "2020-09-18T13:14:11.3985731+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Dr. Wilhelmine Makenzie Dooley IV",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Mr. Adele Thalia Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 25
+            "FieldType": "System.Int32",
+            "FieldLength": 168
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "velit",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Leonard Sporer",
+    "FullName": "Lawson DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldLength": 593
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 522,
-  "ConnectorName": "Gleason-Nitzsche"
+  "ConnectionId": 837,
+  "ConnectorName": "Fahey Group"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "voluptate",
-    "Rank": 170,
-    "DisplayName": "Wehner Group",
-    "DisplayDescription": "Function-based logistical moderator",
+    "FieldKey": "consequatur",
+    "Rank": 64,
+    "DisplayName": "Kirlin Group",
+    "DisplayDescription": "Devolved object-oriented success",
     "FieldType": "Checkbox",
-    "ListName": "Kuhlman-Macejkovic",
-    "DefaultValue": "est",
-    "MaxLength": 753,
+    "ListName": "Wintheiser-Bartell",
+    "DefaultValue": "minus",
+    "MaxLength": 847,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 86
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Schiller-Bergstrom",
-    "ToolTip": "Accusantium consequatur.",
+    "Id": 129,
+    "Name": "Kuhn-Walter",
+    "ToolTip": "Ea eum qui odio.",
     "Deleted": true,
-    "Rank": 860,
-    "Type": "molestias",
-    "ColorBlock": 225,
-    "IconHint": "recusandae",
+    "Rank": 918,
+    "Type": "quam",
+    "ColorBlock": 101,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2001-09-21T03:44:57.9374899+02:00",
+    "LastChanged": "2016-08-25T13:14:11.3516953+02:00",
     "ChildItems": [
       {
-        "Id": 92,
-        "Name": "Parisian, Breitenberg and Jewess",
-        "ToolTip": "Enim sint pariatur.",
-        "Deleted": true,
-        "Rank": 942,
-        "Type": "nemo",
-        "ColorBlock": 958,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2006-09-08T03:44:57.9374899+02:00",
+        "Id": 555,
+        "Name": "Aufderhar LLC",
+        "ToolTip": "Accusantium id ullam eligendi.",
+        "Deleted": false,
+        "Rank": 666,
+        "Type": "eveniet",
+        "ColorBlock": 241,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2003-05-25T13:14:11.3516953+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "aut",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "doloremque",
         "Hidden": true,
-        "FullName": "Ms. Floyd Maria Ruecker V"
+        "FullName": "Tito Hahn"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "quia",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Jack Grady Sr."
+    "FullName": "Ms. Laurel Hilario Maggio"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Bradtke Group",
-    "ToolTip": "Corrupti est et placeat aliquam repellendus dolor.",
+    "Id": 481,
+    "Name": "Nicolas Inc and Sons",
+    "ToolTip": "Est nemo voluptatem.",
     "Deleted": false,
-    "Rank": 415,
-    "Type": "omnis",
-    "ColorBlock": 906,
-    "IconHint": "omnis",
+    "Rank": 103,
+    "Type": "pariatur",
+    "ColorBlock": 841,
+    "IconHint": "assumenda",
     "Selected": true,
-    "LastChanged": "2018-07-09T03:44:57.9374899+02:00",
+    "LastChanged": "2008-05-12T13:14:11.3516953+02:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Lynch-Keeling",
-        "ToolTip": "Optio mollitia ut voluptas atque eligendi eum eveniet.",
+        "Id": 524,
+        "Name": "Cormier-Kreiger",
+        "ToolTip": "Quae reiciendis sed et in dolorem.",
         "Deleted": false,
-        "Rank": 565,
-        "Type": "et",
-        "ColorBlock": 627,
-        "IconHint": "sunt",
+        "Rank": 273,
+        "Type": "modi",
+        "ColorBlock": 444,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2007-09-09T03:44:57.9374899+02:00",
+        "LastChanged": "2005-03-13T13:14:11.3516953+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "quo",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Darion Carson Schowalter Sr.",
+        "FullName": "Kaitlyn Jayson Goldner PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 722
+            "FieldType": "System.Int32",
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "rerum",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Garfield Goodwin",
+    "FullName": "Esperanza Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldType": "System.String",
+        "FieldLength": 628
       }
     }
   }

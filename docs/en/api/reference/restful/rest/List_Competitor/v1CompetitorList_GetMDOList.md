@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=unde
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=esse
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Schimmel-Huel",
-    "ToolTip": "Ea tempora aut.",
+    "Id": 535,
+    "Name": "Auer-Glover",
+    "ToolTip": "Earum eum voluptatem animi quo hic.",
     "Deleted": false,
-    "Rank": 487,
-    "Type": "eos",
+    "Rank": 871,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Schmidt, Nienow and Quigley",
-        "ToolTip": "Inventore soluta mollitia fuga dolores qui.",
+        "Id": 212,
+        "Name": "Kessler Inc and Sons",
+        "ToolTip": "Et non a non mollitia.",
         "Deleted": false,
-        "Rank": 586,
-        "Type": "qui",
+        "Rank": 160,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 639,
-        "ExtraInfo": "non",
-        "StyleHint": "ipsam",
-        "FullName": "Buford Morar",
+        "IconHint": "explicabo",
+        "ColorBlock": 114,
+        "ExtraInfo": "rem",
+        "StyleHint": "et",
+        "FullName": "Dr. Vivien Justine Hickle DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 292
+            "FieldType": "System.Int32",
+            "FieldLength": 447
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 651,
-    "ExtraInfo": "et",
-    "StyleHint": "nobis",
-    "FullName": "Rolando Nienow",
+    "IconHint": "deserunt",
+    "ColorBlock": 351,
+    "ExtraInfo": "architecto",
+    "StyleHint": "aliquid",
+    "FullName": "Izaiah Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 803
       }
     }
   }

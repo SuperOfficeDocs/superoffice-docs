@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 741,
-  "StartTime": "2010-10-22T03:44:52.4333602+02:00",
-  "EndTime": "2004-01-23T03:44:52.4333602+01:00",
-  "Count": 304,
+  "ProjectId": 288,
+  "StartTime": "2005-10-06T13:14:05.7726487+02:00",
+  "EndTime": "2009-02-24T13:14:05.7726487+01:00",
+  "Count": 778,
   "DocumentTemplateIds": [
-    803,
-    986
+    963,
+    664
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 8,
-    "Attention": "rerum",
-    "Header": "et",
-    "Name": "Watsica, Stark and Keeling",
-    "OurRef": "asperiores",
-    "YourRef": "id",
-    "Description": "Visionary logistical pricing structure",
-    "DocumentTemplate": "at",
+    "DocumentId": 201,
+    "Attention": "et",
+    "Header": "laboriosam",
+    "Name": "Kassulke, Fritsch and Roberts",
+    "OurRef": "et",
+    "YourRef": "consequatur",
+    "Description": "Customer-focused explicit initiative",
+    "DocumentTemplate": "dolore",
     "IsPublished": false,
-    "PersonId": 695,
-    "PersonFullName": "Charlotte Cormier",
-    "AssociateFullName": "Erin Wolf",
-    "ContactId": 956,
-    "ContactName": "Mayert LLC",
-    "ProjectId": 840,
-    "ProjectName": "McGlynn, Johnson and Howell",
-    "AssociateId": 537,
-    "Snum": 916,
-    "SaleId": 592,
-    "SaleName": "Herzog, Lind and Kirlin",
+    "PersonId": 208,
+    "PersonFullName": "Marilyne Flatley",
+    "AssociateFullName": "Domenica Moen",
+    "ContactId": 311,
+    "ContactName": "Smith, Jacobson and Crooks",
+    "ProjectId": 649,
+    "ProjectName": "Harris-Grant",
+    "AssociateId": 214,
+    "Snum": 14,
+    "SaleId": 213,
+    "SaleName": "Halvorson LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 23
+        "FieldType": "System.Int32",
+        "FieldLength": 736
       }
     }
   }

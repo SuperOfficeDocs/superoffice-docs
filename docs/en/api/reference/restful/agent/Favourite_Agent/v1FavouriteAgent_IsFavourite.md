@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Hara, Konopelski and Quigley",
-  "RecordId": 740,
-  "AssociateId": 156
+  "TableName": "Kutch, Gleason and Schmeler",
+  "RecordId": 506,
+  "AssociateId": 724
 }
 ```
 

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Breitenberg, Nitzsche and Berge",
-    "ToolTip": "Quaerat blanditiis architecto enim error at.",
+    "Id": 57,
+    "Name": "Kassulke-Gibson",
+    "ToolTip": "Ex sunt ut ipsam.",
     "Deleted": true,
-    "Rank": 343,
-    "Type": "molestiae",
-    "ColorBlock": 632,
+    "Rank": 689,
+    "Type": "qui",
+    "ColorBlock": 317,
     "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2023-03-07T03:44:57.8437502+01:00",
+    "LastChanged": "2008-02-28T13:14:11.3360694+01:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Auer LLC",
-        "ToolTip": "Doloremque quo repellendus qui aut fugiat quas.",
-        "Deleted": false,
-        "Rank": 120,
-        "Type": "reiciendis",
-        "ColorBlock": 230,
-        "IconHint": "asperiores",
+        "Id": 433,
+        "Name": "Hand Inc and Sons",
+        "ToolTip": "Corporis voluptas vero amet.",
+        "Deleted": true,
+        "Rank": 945,
+        "Type": "aut",
+        "ColorBlock": 835,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2020-08-07T03:44:57.8437502+02:00",
+        "LastChanged": "2002-06-08T13:14:11.3360694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "modi",
+        "ExtraInfo": "repellat",
+        "StyleHint": "vitae",
         "Hidden": true,
-        "FullName": "Miss Humberto Dusty Crooks",
+        "FullName": "Mr. Deanna Kurtis O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldType": "System.String",
+            "FieldLength": 303
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "et",
+    "ExtraInfo": "et",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Aniyah Yost",
+    "FullName": "Ms. Khalid Elna Walker PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldType": "System.Int32",
+        "FieldLength": 77
       }
     }
   }

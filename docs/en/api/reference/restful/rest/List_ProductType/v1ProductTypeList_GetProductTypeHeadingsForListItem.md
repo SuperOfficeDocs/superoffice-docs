@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Kuvalis Inc and Sons",
-    "ToolTip": "Et ex modi voluptate qui omnis sit et.",
+    "Id": 782,
+    "Name": "Becker-Mertz",
+    "ToolTip": "Nulla eum autem asperiores veritatis explicabo.",
     "Deleted": false,
-    "Rank": 476,
-    "Type": "accusamus",
-    "ColorBlock": 845,
-    "IconHint": "quis",
+    "Rank": 955,
+    "Type": "dolorem",
+    "ColorBlock": 804,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2021-01-10T03:44:58.0781351+01:00",
+    "LastChanged": "2006-08-23T13:14:11.4767026+02:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "McLaughlin-Friesen",
-        "ToolTip": "Quos voluptatem.",
+        "Id": 333,
+        "Name": "Mann-Corwin",
+        "ToolTip": "Nihil consequatur.",
         "Deleted": false,
-        "Rank": 990,
-        "Type": "doloremque",
-        "ColorBlock": 86,
-        "IconHint": "sapiente",
-        "Selected": false,
-        "LastChanged": "2012-11-01T03:44:58.0781351+01:00",
+        "Rank": 280,
+        "Type": "itaque",
+        "ColorBlock": 36,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2022-07-04T13:14:11.4767026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Anissa Janick Fahey II",
+        "ExtraInfo": "ut",
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Cassandra Krystina Bashirian I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 600
+            "FieldLength": 748
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "possimus",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Alf Lang",
+    "FullName": "Miss Leanne Chet Abernathy DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 22
       }
     }
   }

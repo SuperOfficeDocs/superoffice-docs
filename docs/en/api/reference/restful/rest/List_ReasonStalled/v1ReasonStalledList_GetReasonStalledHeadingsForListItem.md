@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Mayert Inc and Sons",
-    "ToolTip": "Sed nihil ut dolores quia voluptas.",
+    "Id": 374,
+    "Name": "Hudson-Pollich",
+    "ToolTip": "Ipsum fuga quasi vel et assumenda suscipit aliquam.",
     "Deleted": false,
-    "Rank": 806,
-    "Type": "odio",
-    "ColorBlock": 969,
-    "IconHint": "voluptas",
+    "Rank": 54,
+    "Type": "architecto",
+    "ColorBlock": 68,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2019-10-15T03:44:58.1405935+02:00",
+    "LastChanged": "2013-08-18T13:14:11.5392071+02:00",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Legros Inc and Sons",
-        "ToolTip": "Nobis ut.",
+        "Id": 760,
+        "Name": "Bergstrom-Nitzsche",
+        "ToolTip": "Laboriosam provident vitae minima natus.",
         "Deleted": false,
-        "Rank": 43,
-        "Type": "officia",
-        "ColorBlock": 80,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2021-12-19T03:44:58.1405935+01:00",
+        "Rank": 301,
+        "Type": "vitae",
+        "ColorBlock": 946,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2004-10-15T13:14:11.5392071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "aliquam",
-        "Hidden": true,
-        "FullName": "Sophia Verlie Welch DVM",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Fred Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 969
+            "FieldType": "System.String",
+            "FieldLength": 892
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "rerum",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Sabrina Homenick",
+    "FullName": "Dr. Sylvan Cara Tromp Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 813
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-918-142-8516",
-    "PersonCellPhone": "1-981-455-4077 x42779",
-    "PersonPrivatePhone": "653-429-8798 x071",
-    "PersonFaxNumber": "682689",
-    "PersonPagerNumber": "1061818",
-    "PersonEmail": "sigurd.ryan@smithammarks.us",
-    "Id": 551,
-    "Name": "Wyman-Romaguera",
-    "Tooltip": "illum",
-    "UniqueId": "delectus",
+    "PersonDirectPhone": "1-338-264-6662 x012",
+    "PersonCellPhone": "(610)399-8416",
+    "PersonPrivatePhone": "437.119.4012 x2459",
+    "PersonFaxNumber": "581719",
+    "PersonPagerNumber": "350731",
+    "PersonEmail": "vesta.jacobi@kuhlmanwintheiser.us",
+    "Id": 885,
+    "Name": "Grady Inc and Sons",
+    "Tooltip": "voluptates",
+    "UniqueId": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldLength": 515
       }
     }
   }

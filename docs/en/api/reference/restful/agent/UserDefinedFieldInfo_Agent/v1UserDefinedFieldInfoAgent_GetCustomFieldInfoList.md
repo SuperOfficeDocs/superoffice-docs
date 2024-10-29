@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Morar, Kohler and Kshlerin",
-  "IncludeStandard": false
+  "TableName": "Lockman-Kohler",
+  "IncludeStandard": true
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Greenholt Group",
-    "DisplayName": "Boehm LLC",
-    "Description": "Up-sized intermediate utilisation",
-    "ShortLabel": "modi",
+    "FieldName": "Roberts-Kuhlman",
+    "DisplayName": "Ankunding-Klein",
+    "Description": "Customer-focused attitude-oriented definition",
+    "ShortLabel": "culpa",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 893,
-    "TemplateVariableName": "Eichmann-Ullrich"
+    "Rank": 17,
+    "TemplateVariableName": "Bashirian-Goyette"
   }
 ]
 ```

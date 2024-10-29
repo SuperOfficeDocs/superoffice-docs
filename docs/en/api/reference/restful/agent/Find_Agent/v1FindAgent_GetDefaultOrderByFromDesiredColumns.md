@@ -79,10 +79,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McClure-Haley",
+  "ProviderName": "Mraz, Jacobson and Roberts",
   "DesiredColumns": [
-    "voluptates",
-    "animi"
+    "vel",
+    "architecto"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zemlak, Treutel and Bartell",
+    "Name": "Moen, Brakus and Kozey",
     "Direction": "ASC"
   },
   {
-    "Name": "Zemlak, Treutel and Bartell",
+    "Name": "Moen, Brakus and Kozey",
     "Direction": "ASC"
   }
 ]

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Huels, Harris and Kuhn",
-    "ToolTip": "Soluta earum natus commodi placeat hic velit libero.",
+    "Id": 805,
+    "Name": "Langosh LLC",
+    "ToolTip": "Reprehenderit maiores adipisci corrupti iusto sequi sint sit.",
     "Deleted": true,
-    "Rank": 827,
-    "Type": "cumque",
-    "ColorBlock": 282,
-    "IconHint": "quos",
+    "Rank": 300,
+    "Type": "voluptates",
+    "ColorBlock": 541,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2006-09-30T03:44:58.1562167+02:00",
+    "LastChanged": "2005-05-16T13:14:11.5392071+02:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Smith LLC",
-        "ToolTip": "Tenetur provident et dicta asperiores necessitatibus.",
+        "Id": 989,
+        "Name": "Kuhn, Jaskolski and Daugherty",
+        "ToolTip": "Ut delectus.",
         "Deleted": false,
-        "Rank": 937,
-        "Type": "a",
-        "ColorBlock": 978,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2004-06-25T03:44:58.1562167+02:00",
+        "Rank": 855,
+        "Type": "ea",
+        "ColorBlock": 487,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2010-02-04T13:14:11.5392071+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Mrs. Hollis Rosalia Keeling Jr."
+        "ExtraInfo": "ut",
+        "StyleHint": "libero",
+        "Hidden": false,
+        "FullName": "Mr. Christine Christina Hoeger II"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Mireille Schiller"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Hailey Hermann"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Kulas Inc and Sons",
-    "ToolTip": "Dicta non necessitatibus quibusdam.",
-    "Deleted": false,
-    "Rank": 108,
-    "Type": "suscipit",
-    "ColorBlock": 395,
-    "IconHint": "vel",
+    "Id": 12,
+    "Name": "Wolf Inc and Sons",
+    "ToolTip": "Soluta optio id perferendis accusantium odio ratione nisi.",
+    "Deleted": true,
+    "Rank": 510,
+    "Type": "doloribus",
+    "ColorBlock": 450,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "1999-07-28T03:44:58.1562167+02:00",
+    "LastChanged": "2010-01-22T13:14:11.5392071+01:00",
     "ChildItems": [
       {
-        "Id": 135,
-        "Name": "Yost, O'Conner and Lakin",
-        "ToolTip": "Molestias praesentium deserunt.",
+        "Id": 402,
+        "Name": "Hills Group",
+        "ToolTip": "Dolorum molestiae totam et minima quia optio rerum.",
         "Deleted": false,
-        "Rank": 865,
-        "Type": "doloremque",
-        "ColorBlock": 298,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "2003-01-15T03:44:58.1562167+01:00",
+        "Rank": 736,
+        "Type": "sint",
+        "ColorBlock": 667,
+        "IconHint": "similique",
+        "Selected": false,
+        "LastChanged": "2024-07-13T13:14:11.5392071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "voluptates",
-        "Hidden": true,
-        "FullName": "Ms. Bernie Carroll",
+        "ExtraInfo": "cum",
+        "StyleHint": "nam",
+        "Hidden": false,
+        "FullName": "Dr. Annabel Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldLength": 338
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "sit",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Candace Ardith Hintz V",
+    "FullName": "Stacy Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldType": "System.String",
+        "FieldLength": 876
       }
     }
   }

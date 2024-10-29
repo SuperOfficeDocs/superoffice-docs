@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pollich Group",
-    "Delimiter": "aut",
-    "Flags": "assumenda",
-    "TotalItems": 936,
-    "UnreadItems": 854,
+    "Name": "Barrows, Hyatt and Krajcik",
+    "Delimiter": "expedita",
+    "Flags": "id",
+    "TotalItems": 469,
+    "UnreadItems": 361,
     "Subscribed": false,
-    "EmailFolderId": 188,
+    "EmailFolderId": 995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 571
       }
     }
   }

@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "aut",
-    "eos"
+    "ipsa",
+    "ut"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 310,
-  "ERPQuoteLineKey": "tenetur",
-  "QuoteAlternativeId": 863,
-  "ERPProductKey": "ut",
+  "QuoteLineId": 447,
+  "ERPQuoteLineKey": "sunt",
+  "QuoteAlternativeId": 733,
+  "ERPProductKey": "quibusdam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 29998.647999999997,
-  "DeliveredQuantity": 6622.142,
-  "Rank": 868,
-  "Name": "Predovic Inc and Sons",
-  "Description": "Grass-roots upward-trending leverage",
-  "Code": "suscipit",
-  "QuantityUnit": "aspernatur",
-  "PriceUnit": "in",
-  "ItemNumber": "1080089",
+  "Quantity": 19722.262,
+  "DeliveredQuantity": 8612.232,
+  "Rank": 999,
+  "Name": "Douglas Inc and Sons",
+  "Description": "Innovative even-keeled firmware",
+  "Code": "eos",
+  "QuantityUnit": "voluptatem",
+  "PriceUnit": "placeat",
+  "ItemNumber": "920567",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "odio",
-  "Supplier": "nisi",
-  "SupplierCode": "cum",
-  "Thumbnail": "qui",
-  "VATInfo": "a",
-  "VAT": 29243.354,
-  "UnitCost": 18468.662,
-  "UnitMinimumPrice": 21837.712,
-  "UnitListPrice": 6694.224,
+  "ProductFamilyKey": "architecto",
+  "ProductTypeKey": "et",
+  "Supplier": "quae",
+  "SupplierCode": "sapiente",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "in",
+  "VAT": 14999.323999999999,
+  "UnitCost": 19098.595999999998,
+  "UnitMinimumPrice": 9085.466,
+  "UnitListPrice": 3444.266,
   "ExtraInfo": [
     {
-      "Name": "Pacocha, Hegmann and Schinner",
-      "Value": "ea",
+      "Name": "Willms Group",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 346
         }
       }
     },
     {
-      "Name": "Pacocha, Hegmann and Schinner",
-      "Value": "ea",
+      "Name": "Willms Group",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 346
         }
       }
     }
   ],
-  "RawExtraInfo": "nihil",
+  "RawExtraInfo": "laborum",
   "IsSubscription": false,
-  "SubscriptionUnit": "iste",
-  "SubscriptionQuantity": 21480.435999999998,
-  "SubscriptionStart": "2004-03-08T03:44:53.0270705+01:00",
-  "ERPDiscountPercent": 29678.98,
-  "ERPDiscountAmount": 23545.742,
-  "DiscountPercent": 238.184,
-  "DiscountAmount": 10962.732,
+  "SubscriptionUnit": "occaecati",
+  "SubscriptionQuantity": 1194.0539999999999,
+  "SubscriptionStart": "2014-07-07T13:14:06.3039303+02:00",
+  "ERPDiscountPercent": 20609.184,
+  "ERPDiscountAmount": 15027.529999999999,
+  "DiscountPercent": 25256.906,
+  "DiscountAmount": 12971.626,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 6691.09,
-  "EarningAmount": 27096.564,
-  "SubTotal": 14272.235999999999,
-  "TotalPrice": 7559.208,
-  "Rights": "et",
-  "Rule": "quis",
-  "ExtraField1": "recusandae",
-  "ExtraField2": "adipisci",
-  "ExtraField3": "recusandae",
-  "ExtraField4": "facere",
-  "ExtraField5": "iste",
+  "EarningPercent": 18703.712,
+  "EarningAmount": 9571.235999999999,
+  "SubTotal": 26613.928,
+  "TotalPrice": 8956.972,
+  "Rights": "natus",
+  "Rule": "omnis",
+  "ExtraField1": "nemo",
+  "ExtraField2": "accusantium",
+  "ExtraField3": "qui",
+  "ExtraField4": "praesentium",
+  "ExtraField5": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 459
     }
   }
 }

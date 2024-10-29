@@ -116,34 +116,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 896,
-  "Name": "Mitchell-Borer",
-  "Rank": 314,
-  "Tooltip": "quod",
-  "Icon": "qui",
-  "DefaultTicketStatus": 770,
+  "TicketTypeId": 726,
+  "Name": "Tillman Inc and Sons",
+  "Rank": 286,
+  "Tooltip": "sed",
+  "Icon": "nulla",
+  "DefaultTicketStatus": 149,
   "TicketStatuses": [
-    701,
-    817
+    346,
+    57
   ],
-  "DefaultTicketPriority": 711,
+  "DefaultTicketPriority": 222,
   "TicketPriorities": [
-    926,
-    720
+    380,
+    261
   ],
-  "ReplyTemplate": 477,
+  "ReplyTemplate": 678,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    462,
-    430
+    191,
+    683
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -154,31 +154,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 413,
-  "Name": "Altenwerth LLC",
-  "Rank": 586,
-  "Tooltip": "quod",
-  "Icon": "est",
-  "DefaultTicketStatus": 253,
+  "TicketTypeId": 219,
+  "Name": "Rolfson, Huels and Lehner",
+  "Rank": 245,
+  "Tooltip": "iure",
+  "Icon": "enim",
+  "DefaultTicketStatus": 617,
   "TicketStatuses": [
-    26,
-    988
+    272,
+    747
   ],
-  "DefaultTicketPriority": 309,
+  "DefaultTicketPriority": 827,
   "TicketPriorities": [
-    497,
-    652
+    215,
+    107
   ],
-  "ReplyTemplate": 389,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 779,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    24,
-    486
+    594,
+    227
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -186,13 +186,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldType": "System.Int32",
+      "FieldLength": 609
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

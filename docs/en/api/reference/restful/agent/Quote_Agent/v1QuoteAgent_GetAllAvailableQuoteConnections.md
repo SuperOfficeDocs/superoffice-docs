@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 874,
-    "ERPName": "Dietrich LLC",
-    "DisplayName": "Cole, Bergnaum and Fay",
-    "DisplayDescription": "Distributed dynamic extranet",
-    "Rank": 305,
-    "ConnectorName": "Robel, Donnelly and Cummerata",
-    "ErpConnectionId": 434,
-    "ExtraData": "id",
+    "QuoteConnectionId": 835,
+    "ERPName": "Hayes, Casper and Powlowski",
+    "DisplayName": "Hegmann, Kautzer and Koepp",
+    "DisplayDescription": "Total encompassing concept",
+    "Rank": 263,
+    "ConnectorName": "Bruen LLC",
+    "ErpConnectionId": 333,
+    "ExtraData": "voluptatem",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 470,
-        "ERPPriceListKey": "unde",
-        "QuoteConnectionId": 342,
-        "Name": "Baumbach Inc and Sons",
-        "Description": "Reduced logistical moratorium",
-        "Currency": "vel",
-        "CurrencyName": "Balistreri Group",
-        "ValidFrom": "2007-01-03T03:44:53.0583181+01:00",
-        "ValidTo": "2022-10-01T03:44:53.0583181+02:00",
+        "PriceListId": 90,
+        "ERPPriceListKey": "quidem",
+        "QuoteConnectionId": 417,
+        "Name": "Marks Group",
+        "Description": "Multi-lateral 24/7 instruction set",
+        "Currency": "dolorem",
+        "CurrencyName": "Williamson-Mills",
+        "ValidFrom": "2014-07-10T13:14:06.3195563+02:00",
+        "ValidTo": "2012-08-23T13:14:06.3195563+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 967
+            "FieldLength": 49
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": true,
     "UserGroupAccessIds": [
-      874,
-      483
+      283,
+      170
     ],
     "AssociateAccessIds": [
-      297,
-      804
+      645,
+      966
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 871
       }
     }
   }

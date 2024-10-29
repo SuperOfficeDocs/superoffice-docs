@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 279,
-  "Name": "Williamson Inc and Sons",
-  "Tooltip": "sint",
+  "Id": 802,
+  "Name": "Aufderhar, Stoltenberg and Koch",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 86,
-  "IsCustomList": false,
+  "Rank": 609,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "porro",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Morar, Ruecker and Rolfson",
-  "Tooltip": "sint",
+  "Id": 780,
+  "Name": "Smitham Group",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "Rank": 619,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quo",
+  "Rank": 319,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "illo",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 105
     }
   }
 }

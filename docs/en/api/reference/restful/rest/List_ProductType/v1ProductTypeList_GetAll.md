@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Greenholt Group",
-    "Tooltip": "vel",
+    "Id": 654,
+    "Name": "Harris-Cassin",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 552,
-    "Rank": 268,
+    "UdListDefinitionId": 919,
+    "Rank": 694,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 706
       }
     }
   }

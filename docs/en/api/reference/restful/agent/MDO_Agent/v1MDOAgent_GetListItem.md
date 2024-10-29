@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Hills, Feil and Schneider",
-  "Id": 165
+  "ListName": "Stracke, Walker and White",
+  "Id": 990
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Name": "Gaylord Group",
-  "ToolTip": "Eos ad dignissimos hic.",
+  "Id": 312,
+  "Name": "Waelchi, Ruecker and Murray",
+  "ToolTip": "Dolores facilis unde.",
   "Deleted": false,
-  "Rank": 200,
-  "Type": "et",
+  "Rank": 244,
+  "Type": "molestiae",
   "ChildItems": [
     {
-      "Id": 745,
-      "Name": "Nolan, Turcotte and Langworth",
-      "ToolTip": "Voluptatem ea vitae at.",
+      "Id": 660,
+      "Name": "Flatley LLC",
+      "ToolTip": "Voluptatem ab blanditiis eum aperiam.",
       "Deleted": false,
-      "Rank": 127,
-      "Type": "unde",
+      "Rank": 261,
+      "Type": "ab",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 994,
-      "ExtraInfo": "et",
-      "StyleHint": "in",
-      "FullName": "Miss Nyasia Camilla Trantow",
+      "IconHint": "illo",
+      "ColorBlock": 494,
+      "ExtraInfo": "pariatur",
+      "StyleHint": "est",
+      "FullName": "Mariela Emmy Lynch II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldType": "System.Int32",
+          "FieldLength": 94
         }
       }
     }
   ],
-  "IconHint": "et",
-  "ColorBlock": 349,
-  "ExtraInfo": "doloremque",
-  "StyleHint": "eius",
-  "FullName": "Jayson Rau",
+  "IconHint": "fuga",
+  "ColorBlock": 815,
+  "ExtraInfo": "sint",
+  "StyleHint": "iure",
+  "FullName": "Herbert Botsford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldType": "System.Int32",
+      "FieldLength": 133
     }
   }
 }

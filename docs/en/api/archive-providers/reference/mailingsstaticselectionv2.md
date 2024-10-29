@@ -494,6 +494,7 @@ Static archive Provider for a Selection of Mailingss archive.
 |emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -536,11 +537,11 @@ Static archive Provider for a Selection of Mailingss archive.
 |emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
 |emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
 |emailFlow/workflowAssociate/locationAddress|string|Owner - Location: Location| x |
-|emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
 |emailFlow/hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |emailFlow/hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
@@ -640,11 +641,11 @@ Static archive Provider for a Selection of Mailingss archive.
 |project/saintAmountClass|listAny|Amount class|  |
 |project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
-|project/saintIntention|listAny|Intention|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
@@ -658,7 +659,7 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingSent,mailingAddr/contact/email/emailLastSent,mailingAddr/contact/SaintStatus1,mailingAddr/person/personAddress/line3,mailingAddr/person/correspondingAssociate/contactDepartment
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=emailFlow/workflowAssociate/firstName,project/hasGuide,mailingAddr/contact/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

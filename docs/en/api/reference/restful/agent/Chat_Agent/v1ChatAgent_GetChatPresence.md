@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 261,
-    "DisplayName": "Labadie-Skiles",
-    "OngoingChats": 29,
+    "UserId": 598,
+    "DisplayName": "Dach, DuBuque and Goldner",
+    "OngoingChats": 514,
     "Present": false,
     "ChatTopics": [
-      852,
-      43
+      258,
+      197
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldLength": 790
       }
     }
   }

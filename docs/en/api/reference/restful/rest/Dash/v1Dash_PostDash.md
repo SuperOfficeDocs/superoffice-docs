@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 529,
-  "UniqueId": "non",
-  "Name": "Witting, Cronin and Reynolds",
-  "Description": "Innovative dynamic analyzer",
-  "AssociateId": 812,
-  "Columns": 424,
+  "DashboardId": 657,
+  "UniqueId": "atque",
+  "Name": "Eichmann, Wolf and Murazik",
+  "Description": "Open-source systematic portal",
+  "AssociateId": 193,
+  "Columns": 415,
   "Theme": null,
-  "VisibleForAll": 227,
+  "VisibleForAll": 458,
   "VisibleForAssociates": [
-    659,
-    44
+    322,
+    36
   ],
   "VisibleForGroups": [
-    453,
-    744
+    408,
+    838
   ],
-  "PinForAll": 514,
+  "PinForAll": 18,
   "PinForAssociates": [
-    459,
-    508
+    611,
+    13
   ],
   "PinForGroups": [
-    914,
-    692
+    532,
+    604
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 929,
-  "UniqueId": "blanditiis",
-  "Name": "Wuckert LLC",
-  "Description": "Organic directional neural-net",
-  "AssociateId": 450,
-  "Columns": 636,
+  "DashboardId": 341,
+  "UniqueId": "qui",
+  "Name": "Swift Group",
+  "Description": "Reactive zero administration Graphical User Interface",
+  "AssociateId": 790,
+  "Columns": 882,
   "Theme": null,
-  "VisibleForAll": 50,
+  "VisibleForAll": 641,
   "VisibleForAssociates": [
-    923,
-    348
+    380,
+    419
   ],
   "VisibleForGroups": [
-    412,
-    483
+    769,
+    241
   ],
-  "PinForAll": 379,
+  "PinForAll": 818,
   "PinForAssociates": [
-    729,
-    718
+    699,
+    441
   ],
   "PinForGroups": [
-    401,
-    467
+    113,
+    820
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   },
   "_Links": {

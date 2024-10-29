@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 665,
-    "Name": "Swift-Johnston",
-    "Tooltip": "necessitatibus",
-    "Deleted": false,
-    "Rank": 788,
-    "UdListDefinitionId": 369,
+    "HeadingId": 443,
+    "Name": "McDermott, Schaden and Hoeger",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 556,
+    "UdListDefinitionId": 176,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldLength": 430
       }
     }
   }

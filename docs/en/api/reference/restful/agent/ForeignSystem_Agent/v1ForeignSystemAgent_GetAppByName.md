@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Zboncak LLC"
+  "ApplicationName": "Shields, Schimmel and Hirthe"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 653,
-  "Name": "Prohaska LLC",
-  "CreatedDate": "2012-04-15T03:44:52.6521119+02:00",
-  "UpdatedDate": "2018-09-25T03:44:52.6521119+02:00",
+  "ForeignAppId": 597,
+  "Name": "Stiedemann, Harris and Pfannerstill",
+  "CreatedDate": "2006-07-09T13:14:06.0382898+02:00",
+  "UpdatedDate": "2005-05-31T13:14:06.0382898+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 710,
-      "Name": "Walker Inc and Sons",
-      "CreatedDate": "2003-01-04T03:44:52.6521119+01:00",
-      "UpdatedDate": "2020-04-25T03:44:52.6521119+02:00",
-      "AssociateFullName": "Opal Warren Hand V",
-      "CreatedBy": "ut",
-      "UpdatedBy": "dolor",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 182,
+      "ForeignDeviceId": 631,
+      "Name": "Yundt-Dietrich",
+      "CreatedDate": "2011-10-25T13:14:06.0382898+02:00",
+      "UpdatedDate": "2022-07-10T13:14:06.0382898+02:00",
+      "AssociateFullName": "Nasir Reichel",
+      "CreatedBy": "quia",
+      "UpdatedBy": "molestias",
+      "DeviceIdentifier": "voluptates",
+      "ForeignAppId": 225,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldLength": 681
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 435
     }
   }
 }

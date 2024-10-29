@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 15
+  "EjUserId": 944
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 943,
-    "Name": "Mertz Group",
-    "Rank": 872,
-    "Tooltip": "nemo",
+    "AssociateId": 182,
+    "Name": "Gorczany LLC",
+    "Rank": 410,
+    "Tooltip": "dolorem",
     "LicenseOwners": [
       {
-        "Name": "Jenkins LLC",
-        "Description": "Advanced demand-driven matrices",
+        "Name": "Kuhic-Schiller",
+        "Description": "Organized client-driven middleware",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 782
+            "FieldLength": 96
           }
         }
       },
       {
-        "Name": "Jenkins LLC",
-        "Description": "Advanced demand-driven matrices",
+        "Name": "Kuhic-Schiller",
+        "Description": "Organized client-driven middleware",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 782
+            "FieldLength": 96
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "quis",
-        "Tooltip": "consequatur",
-        "Id": 357,
-        "Rank": 436,
-        "Deleted": false,
+        "Value": "officiis",
+        "Tooltip": "delectus",
+        "Id": 698,
+        "Rank": 401,
+        "Deleted": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 810
+            "FieldLength": 398
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2003-11-18T03:44:53.4342427+01:00",
-    "Lastlogout": "2023-05-31T03:44:53.4342427+02:00",
-    "EjUserId": 542,
-    "RequestSignature": "laboriosam",
+    "Lastlogin": "1998-09-29T13:14:06.7414574+02:00",
+    "Lastlogout": "2007-07-04T13:14:06.7414574+02:00",
+    "EjUserId": 3,
+    "RequestSignature": "debitis",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
-    "IsOnTravel": true,
+    "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "sunt",
-        "DisplayValue": "dolore",
+        "Value": "inventore",
+        "DisplayValue": "id",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 30
           }
         }
       },
       {
         "Type": null,
-        "Value": "sunt",
-        "DisplayValue": "dolore",
+        "Value": "inventore",
+        "DisplayValue": "id",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 30
           }
         }
       }
     ],
-    "UserName": "Monahan LLC",
+    "UserName": "Braun, Botsford and Homenick",
     "TicketCategories": [
       {
-        "Id": 668,
-        "Name": "Greenholt-Lehner",
-        "ToolTip": "Ut vel est magni sit quod necessitatibus est.",
+        "Id": 127,
+        "Name": "Pacocha Group",
+        "ToolTip": "Nam hic velit dicta quos eaque alias.",
         "Deleted": true,
-        "Rank": 861,
-        "Type": "asperiores",
+        "Rank": 488,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 547,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "non",
-        "FullName": "Hope Bergnaum",
+        "IconHint": "voluptatem",
+        "ColorBlock": 360,
+        "ExtraInfo": "nam",
+        "StyleHint": "alias",
+        "FullName": "Prof. Marshall Dora Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 488
+            "FieldType": "System.String",
+            "FieldLength": 936
           }
         }
       }
     ],
-    "NickName": "Dibbert, Schiller and Kunde",
+    "NickName": "Senger Inc and Sons",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "voluptatem",
-      "ExtraFields2": "consequatur"
+      "ExtraFields1": "cupiditate",
+      "ExtraFields2": "fuga"
     },
     "CustomFields": {
-      "CustomFields1": "esse",
-      "CustomFields2": "nulla"
+      "CustomFields1": "reiciendis",
+      "CustomFields2": "ea"
     },
     "PostSaveCommands": [
       {
-        "Name": "Mertz Inc and Sons",
-        "DisplayName": "Marks-Maggio",
-        "Description": "Seamless background website",
-        "ToolTip": "Suscipit et non in sequi excepturi sed.",
+        "Name": "Kohler-Daugherty",
+        "DisplayName": "Jaskolski LLC",
+        "Description": "Function-based zero tolerance protocol",
+        "ToolTip": "Nulla dolore sed quam praesentium praesentium ut ut.",
         "Actions": "Implicit",
-        "ActionData": "ut",
+        "ActionData": "repudiandae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 11
           }
         }
       }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 150
       }
     }
   }

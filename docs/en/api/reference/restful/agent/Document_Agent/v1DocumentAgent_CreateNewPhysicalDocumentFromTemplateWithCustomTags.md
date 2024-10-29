@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 903,
-  "PersonId": 752,
-  "AppointmentId": 786,
-  "DocumentId": 173,
-  "SaleId": 584,
-  "SelectionId": 340,
-  "ProjectId": 827,
+  "ContactId": 524,
+  "PersonId": 77,
+  "AppointmentId": 248,
+  "DocumentId": 656,
+  "SaleId": 634,
+  "SelectionId": 441,
+  "ProjectId": 319,
   "CustomTags": [
-    "ea",
-    "libero"
+    "odio",
+    "qui"
   ],
   "CustomValues": [
-    "explicabo",
-    "voluptates"
+    "ut",
+    "provident"
   ],
-  "UiCulture": "soluta"
+  "UiCulture": "id"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 891,
+  "DocumentId": 545,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "nemo",
-  "Name": "Sawayn, Rohan and Senger",
-  "OurRef": "dolorem",
-  "YourRef": "adipisci",
-  "CreatedDate": "2018-04-23T03:44:52.480256+02:00",
-  "UpdatedDate": "1999-04-08T03:44:52.480256+02:00",
-  "Description": "Reactive grid-enabled alliance",
+  "Attention": "ipsam",
+  "Header": "autem",
+  "Name": "Marquardt Group",
+  "OurRef": "minima",
+  "YourRef": "et",
+  "CreatedDate": "2016-09-09T13:14:05.8976562+02:00",
+  "UpdatedDate": "1998-03-03T13:14:05.8976562+01:00",
+  "Description": "Virtual object-oriented definition",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-04-27T03:44:52.4958766+02:00",
-  "ExternalRef": "tenetur",
+  "Date": "2005-10-09T13:14:05.8976562+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 321,
+  "ActiveLinks": 910,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Morar-Berge",
-      "Id": 302,
-      "Description": "Advanced empowering core",
+      "EntityName": "Harvey-McLaughlin",
+      "Id": 467,
+      "Description": "User-friendly composite structure",
       "ExtraInfo": "consequatur",
-      "LinkId": 6,
+      "LinkId": 90,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 393
+          "FieldLength": 488
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 436,
-  "Snum": 929,
+  "SuggestedDocumentId": 958,
+  "Snum": 773,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Jacklyn Carter Sr.",
-    "SuperOffice:2": "Jodie Jones"
+    "SuperOffice:1": "1671086104",
+    "SuperOffice:2": "235306232"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "id",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "ab"
+    "CustomFields1": "perferendis",
+    "CustomFields2": "amet"
   },
-  "PublishEventDate": "2022-09-14T03:44:52.4958766+02:00",
-  "PublishTo": "2012-04-22T03:44:52.4958766+02:00",
-  "PublishFrom": "2015-06-16T03:44:52.4958766+02:00",
+  "PublishEventDate": "1998-02-05T13:14:05.8976562+01:00",
+  "PublishTo": "2017-12-02T13:14:05.8976562+01:00",
+  "PublishFrom": "2023-11-29T13:14:05.8976562+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 898,
+      "VisibleId": 730,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 619
         }
       }
     },
     {
-      "VisibleId": 898,
+      "VisibleId": 730,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 619
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 824
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

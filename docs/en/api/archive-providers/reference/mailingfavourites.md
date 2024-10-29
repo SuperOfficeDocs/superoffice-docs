@@ -494,6 +494,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -534,11 +535,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
 |emailFlow/workflowAssociate/otherGroups|userGroup|Owner - Other groups: Other groups|  |
 |emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
-|emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
 |emailFlow/workflowAssociate/locationAddress|string|Owner - Location: Location| x |
 |emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
 |emailFlow/hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
@@ -638,11 +639,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
-|project/saintActivityType|listAny|SAINT type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
@@ -653,7 +654,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=mailingAddr/contact/contactDeleted,mailingAddr/contact/contactExtra/x_contact_time,mailingAddr/person/restrictionAddress/formattedAddress,mailingAddr/person/personExtra/x_person_request_relation
+GET /api/v1/archive/mailingfavourites?$select=mailingReplyTo,mailingDeleted,mailingAddr/contact/contactUdef/SuperOffice:11,mailingAddr/person/personExtra/x_person_timespan,associate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

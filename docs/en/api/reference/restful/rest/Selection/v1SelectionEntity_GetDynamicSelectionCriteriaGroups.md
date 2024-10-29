@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zulauf-Sipes",
-    "Description": "Configurable composite knowledge user",
-    "Rank": 970,
+    "Name": "Schuster-Abernathy",
+    "Description": "Pre-emptive static migration",
+    "Rank": 685,
     "Restrictions": [
       {
-        "Name": "Casper-Cruickshank",
-        "Operator": "quo",
+        "Name": "Leannon Inc and Sons",
+        "Operator": "veniam",
         "Values": [
-          "corporis",
+          "dolor",
           "fugiat"
         ],
         "DisplayValues": [
-          "est",
-          "sint"
+          "aliquam",
+          "laborum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 672,
+        "InterParenthesis": 696,
         "InterOperator": "And",
-        "UniqueHash": 499
+        "UniqueHash": 788
       }
     ]
   },
   {
-    "Name": "Zulauf-Sipes",
-    "Description": "Configurable composite knowledge user",
-    "Rank": 970,
+    "Name": "Schuster-Abernathy",
+    "Description": "Pre-emptive static migration",
+    "Rank": 685,
     "Restrictions": [
       {
-        "Name": "Casper-Cruickshank",
-        "Operator": "quo",
+        "Name": "Leannon Inc and Sons",
+        "Operator": "veniam",
         "Values": [
-          "corporis",
+          "dolor",
           "fugiat"
         ],
         "DisplayValues": [
-          "est",
-          "sint"
+          "aliquam",
+          "laborum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 672,
+        "InterParenthesis": 696,
         "InterOperator": "And",
-        "UniqueHash": 499
+        "UniqueHash": 788
       }
     ]
   }

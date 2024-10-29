@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 122,
-    "Name": "Thiel, Hahn and Mertz",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 872,
+    "WebPanelId": 671,
+    "Name": "Hilll, Hyatt and Bayer",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "Rank": 857,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Upton-Nikolaus",
+    "WindowName": "Rempel, O'Reilly and Lockman",
     "Url": "http://www.example.com/",
-    "ProgId": "perspiciatis",
-    "Icon": 889,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "est",
+    "Icon": 244,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 683
+        "FieldType": "System.Int32",
+        "FieldLength": 194
       }
     }
   }

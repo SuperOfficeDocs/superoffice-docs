@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 153,
-  "Name": "Parker, Treutel and Hermiston",
+  "ScreenChooserId": 185,
+  "Name": "Wolff, Legros and Hagenes",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "possimus",
-  "Registered": "2004-07-03T03:44:57.687517+02:00",
-  "RegisteredAssociateId": 990,
-  "Updated": "1999-07-04T03:44:57.687517+02:00",
-  "UpdatedAssociateId": 46,
+  "UniqueIdentifier": "qui",
+  "Source": "fuga",
+  "Registered": "2003-08-16T13:14:11.1954363+02:00",
+  "RegisteredAssociateId": 439,
+  "Updated": "2012-11-06T13:14:11.1954363+01:00",
+  "UpdatedAssociateId": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldLength": 568
     }
   }
 }

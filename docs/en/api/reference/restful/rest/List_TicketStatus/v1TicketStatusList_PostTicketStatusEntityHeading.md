@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 720,
-  "Name": "Rowe Inc and Sons",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "Rank": 482,
-  "UdListDefinitionId": 508
+  "HeadingId": 449,
+  "Name": "Willms, Smitham and Roberts",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 701,
+  "UdListDefinitionId": 223
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 369,
-  "Name": "O'Keefe LLC",
-  "Tooltip": "tempore",
+  "HeadingId": 544,
+  "Name": "Gislason, Thompson and O'Conner",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 408,
-  "UdListDefinitionId": 717,
+  "Rank": 689,
+  "UdListDefinitionId": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   }
 }

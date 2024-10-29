@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 739,
-  "CustomerCustomerReplyTemplateId": 57,
-  "CustomerPasswordTemplateId": 353,
-  "CustomerConfirmEmailTemplateId": 906,
-  "CustomerChatLogTemplateId": 53,
-  "NewLinkTemplateId": 322,
-  "HotlistNewMessageTemplateId": 948,
-  "HotlistTicketActivatedTemplateId": 403,
-  "UserTicketAlarmTemplateId": 135,
-  "HotlistTicketTakenOverTemplateId": 2,
-  "UserActiveTicketsTemplateId": 380,
-  "UserNewMessageTemplateId": 466,
-  "UserTicketActivatedTemplateId": 653,
-  "UserNewTicketTemplateId": 185,
-  "PublishKbQuestionTemplateId": 968,
-  "PublishKbAnswerTemplateId": 704,
-  "UserTicketTakenOverTemplateId": 329,
-  "PrintTicketTemplateId": 949,
-  "WeekStatTemplateId": 425,
-  "TicketAlarmHotlistTemplateId": 816,
-  "EmailAddresses": "lucas@mayer.info",
+  "CustomerNewCustomerTemplateId": 130,
+  "CustomerCustomerReplyTemplateId": 897,
+  "CustomerPasswordTemplateId": 883,
+  "CustomerConfirmEmailTemplateId": 974,
+  "CustomerChatLogTemplateId": 669,
+  "NewLinkTemplateId": 786,
+  "HotlistNewMessageTemplateId": 143,
+  "HotlistTicketActivatedTemplateId": 716,
+  "UserTicketAlarmTemplateId": 604,
+  "HotlistTicketTakenOverTemplateId": 97,
+  "UserActiveTicketsTemplateId": 5,
+  "UserNewMessageTemplateId": 389,
+  "UserTicketActivatedTemplateId": 97,
+  "UserNewTicketTemplateId": 468,
+  "PublishKbQuestionTemplateId": 900,
+  "PublishKbAnswerTemplateId": 661,
+  "UserTicketTakenOverTemplateId": 146,
+  "PrintTicketTemplateId": 195,
+  "WeekStatTemplateId": 401,
+  "TicketAlarmHotlistTemplateId": 497,
+  "EmailAddresses": "bradford@hagenes.co.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 437
     }
   }
 }

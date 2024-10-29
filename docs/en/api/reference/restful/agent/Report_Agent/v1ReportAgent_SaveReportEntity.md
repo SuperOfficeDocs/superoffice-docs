@@ -81,14 +81,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 137,
+  "ReportId": 117,
   "ReportCategory": "All",
-  "Description": "Enterprise-wide tangible website",
+  "Description": "Grass-roots dynamic benchmark",
   "ReportLayout": "CalendarMonth",
-  "Name": "Casper-Corkery",
-  "AssociateId": 795,
-  "TemplateId": 767,
-  "Published": false
+  "Name": "Russel Inc and Sons",
+  "AssociateId": 810,
+  "TemplateId": 23,
+  "Published": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 506,
+  "ReportId": 269,
   "ReportCategory": "All",
-  "Description": "Profit-focused 24/7 monitoring",
+  "Description": "Decentralized demand-driven productivity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Torphy-Marvin",
-  "AssociateId": 100,
-  "TemplateId": 491,
+  "Name": "Watsica Inc and Sons",
+  "AssociateId": 721,
+  "TemplateId": 617,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 389
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "Goodwin Inc and Sons",
-    "ToolTip": "Accusantium velit itaque tempora recusandae deleniti et quidem.",
-    "Deleted": false,
-    "Rank": 907,
-    "Type": "quod",
-    "ColorBlock": 750,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2000-11-20T03:44:58.17184+01:00",
+    "Id": 614,
+    "Name": "Farrell, Hegmann and Upton",
+    "ToolTip": "Occaecati cupiditate ut minima corporis vero voluptas et.",
+    "Deleted": true,
+    "Rank": 456,
+    "Type": "est",
+    "ColorBlock": 287,
+    "IconHint": "deserunt",
+    "Selected": false,
+    "LastChanged": "2014-07-10T13:14:11.554833+02:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Olson, Dare and Rau",
-        "ToolTip": "Et animi aut corrupti iste sint.",
-        "Deleted": false,
-        "Rank": 576,
-        "Type": "maiores",
-        "ColorBlock": 507,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2018-11-30T03:44:58.17184+01:00",
+        "Id": 368,
+        "Name": "Greenfelder Inc and Sons",
+        "ToolTip": "Deleniti commodi dolorem consequuntur.",
+        "Deleted": true,
+        "Rank": 84,
+        "Type": "minima",
+        "ColorBlock": 913,
+        "IconHint": "culpa",
+        "Selected": false,
+        "LastChanged": "2006-12-20T13:14:11.554833+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "in",
+        "ExtraInfo": "maxime",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Miss Stella Laverne Collins",
+        "FullName": "Tiara Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldType": "System.String",
+            "FieldLength": 836
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "harum",
+    "ExtraInfo": "qui",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Trycia Stracke",
+    "FullName": "Kevon Ritchie Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldType": "System.Int32",
+        "FieldLength": 138
       }
     }
   }

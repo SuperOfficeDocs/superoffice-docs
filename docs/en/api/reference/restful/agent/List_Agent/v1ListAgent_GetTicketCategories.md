@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 795,
-    "ParentId": 219,
-    "Name": "Pfannerstill, Howell and Marvin",
-    "Fullname": "labore",
-    "CategoryMaster": 237,
+    "TicketCategoryId": 362,
+    "ParentId": 279,
+    "Name": "Macejkovic-O'Reilly",
+    "Fullname": "est",
+    "CategoryMaster": 776,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Gislason-Labadie",
+    "ExternalName": "Harber, Abernathy and Thiel",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 666,
-    "ReplyTemplate": 102,
-    "NotificationEmail": "chelsea_smith@howell.co.uk",
+    "AssignmentLag": 267,
+    "ReplyTemplate": 501,
+    "NotificationEmail": "maxwell@macejkovicmccullough.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 670,
+    "EffectiveReplyTemplateId": 198,
     "ExtraFields": {
-      "ExtraFields1": "qui",
-      "ExtraFields2": "nihil"
+      "ExtraFields1": "eveniet",
+      "ExtraFields2": "sapiente"
     },
     "CustomFields": {
-      "CustomFields1": "id",
-      "CustomFields2": "culpa"
+      "CustomFields1": "sed",
+      "CustomFields2": "consequatur"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 478
+        "FieldType": "System.Int32",
+        "FieldLength": 33
       }
     }
   }

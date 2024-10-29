@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Dach-Cummerata",
-    "Tooltip": "magni",
+    "Id": 482,
+    "Name": "Ortiz Inc and Sons",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "UdListDefinitionId": 252,
-    "Rank": 25,
+    "UdListDefinitionId": 563,
+    "Rank": 919,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

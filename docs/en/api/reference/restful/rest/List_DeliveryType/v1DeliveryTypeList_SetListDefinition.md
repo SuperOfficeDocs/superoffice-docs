@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "Name": "Funk, Purdy and Osinski",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 567,
+  "Id": 790,
+  "Name": "Paucek-Heidenreich",
+  "Tooltip": "corrupti",
+  "Deleted": false,
+  "Rank": 336,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": true
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 156,
-  "Name": "Berge LLC",
-  "Tooltip": "vel",
+  "Id": 568,
+  "Name": "Bayer-Hammes",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 451,
+  "Rank": 267,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 235
     }
   }
 }

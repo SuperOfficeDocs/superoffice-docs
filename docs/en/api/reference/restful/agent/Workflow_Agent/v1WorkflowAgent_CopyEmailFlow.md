@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Workflow/CopyEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 235,
-  "NewName": "Raynor LLC"
+  "EmailFlowId": 71,
+  "NewName": "McGlynn-Dickinson"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-315
+623
 ```

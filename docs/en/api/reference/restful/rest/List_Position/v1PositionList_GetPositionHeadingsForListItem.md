@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Mueller, Jenkins and Upton",
-    "ToolTip": "Ut itaque iusto quaerat dolores autem facilis quidem.",
+    "Id": 40,
+    "Name": "Ferry-Baumbach",
+    "ToolTip": "Ratione id nisi repudiandae perspiciatis quas quae.",
     "Deleted": true,
-    "Rank": 597,
-    "Type": "deserunt",
-    "ColorBlock": 646,
-    "IconHint": "tempore",
+    "Rank": 199,
+    "Type": "repellat",
+    "ColorBlock": 417,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2017-11-19T03:44:58.0468534+01:00",
+    "LastChanged": "2005-12-08T13:14:11.4454508+01:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Price Inc and Sons",
-        "ToolTip": "Iste consequatur molestias nesciunt incidunt aspernatur autem.",
+        "Id": 546,
+        "Name": "Schowalter-Hilll",
+        "ToolTip": "Reprehenderit ea ipsa omnis eum et.",
         "Deleted": false,
-        "Rank": 471,
-        "Type": "tempore",
-        "ColorBlock": 94,
-        "IconHint": "deserunt",
-        "Selected": false,
-        "LastChanged": "2003-09-11T03:44:58.0468534+02:00",
+        "Rank": 464,
+        "Type": "quia",
+        "ColorBlock": 940,
+        "IconHint": "ipsa",
+        "Selected": true,
+        "LastChanged": "2024-03-22T13:14:11.4454508+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "iusto",
+        "ExtraInfo": "ex",
+        "StyleHint": "aliquid",
         "Hidden": true,
-        "FullName": "Lloyd Metz Sr.",
+        "FullName": "Deven Lehner DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldType": "System.Int32",
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "expedita",
+    "ExtraInfo": "id",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Dr. Ward Reed Green",
+    "FullName": "Cierra Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldType": "System.String",
+        "FieldLength": 753
       }
     }
   }

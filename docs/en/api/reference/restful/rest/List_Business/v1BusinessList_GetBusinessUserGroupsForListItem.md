@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Sipes, Hagenes and Koss",
-    "ToolTip": "Cum et est quia.",
-    "Deleted": true,
-    "Rank": 493,
-    "Type": "sed",
-    "ColorBlock": 875,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2009-11-09T03:44:57.8281269+01:00",
+    "Id": 692,
+    "Name": "Herman-Boyer",
+    "ToolTip": "Consequatur nemo quia saepe aut harum.",
+    "Deleted": false,
+    "Rank": 485,
+    "Type": "ea",
+    "ColorBlock": 426,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "1998-02-20T13:14:11.3204434+01:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Treutel, Wisozk and Spencer",
-        "ToolTip": "Impedit architecto labore quisquam quia voluptatum.",
+        "Id": 762,
+        "Name": "Grady, King and Tremblay",
+        "ToolTip": "Nemo quia magni et doloremque.",
         "Deleted": true,
-        "Rank": 845,
-        "Type": "molestiae",
-        "ColorBlock": 489,
-        "IconHint": "odio",
+        "Rank": 680,
+        "Type": "unde",
+        "ColorBlock": 444,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "1998-03-29T03:44:57.8281269+02:00",
+        "LastChanged": "2000-12-28T13:14:11.3204434+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "tempora",
+        "ExtraInfo": "saepe",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Therese Lind",
+        "FullName": "Marlin Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 194
+            "FieldLength": 649
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "omnis",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Harley Hahn",
+    "FullName": "Mckenzie Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 260
+        "FieldType": "System.Int32",
+        "FieldLength": 303
       }
     }
   }

@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 266,
+  "TicketId": 852,
   "MessageActionType": "Forward",
-  "TicketMessageId": 263,
-  "TicketTypeId": 985
+  "TicketMessageId": 547,
+  "TicketTypeId": 317
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "quisquam",
+  "Body": "assumenda",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 148,
-      "Name": "Schoen, Frami and Hagenes",
-      "ContentType": "quia",
-      "AttSize": 459,
-      "InlineImage": true,
-      "ContentId": "tenetur",
-      "AuthKey": "cupiditate",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 919,
+      "Name": "King, Torphy and Mitchell",
+      "ContentType": "aut",
+      "AttSize": 544,
+      "InlineImage": false,
+      "ContentId": "temporibus",
+      "AuthKey": "fugiat",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 898
+          "FieldType": "System.String",
+          "FieldLength": 668
         }
       }
     }

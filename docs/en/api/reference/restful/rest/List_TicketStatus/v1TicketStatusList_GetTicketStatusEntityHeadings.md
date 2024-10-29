@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 502,
-    "Name": "Denesik Inc and Sons",
-    "Tooltip": "assumenda",
+    "HeadingId": 451,
+    "Name": "Thiel LLC",
+    "Tooltip": "alias",
     "Deleted": false,
-    "Rank": 259,
-    "UdListDefinitionId": 807,
+    "Rank": 2,
+    "UdListDefinitionId": 681,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 132
+        "FieldType": "System.Int32",
+        "FieldLength": 679
       }
     }
   }

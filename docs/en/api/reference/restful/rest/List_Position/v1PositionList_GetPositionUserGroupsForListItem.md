@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Wiza-Schiller",
-    "ToolTip": "Mollitia explicabo aut possimus.",
+    "Id": 795,
+    "Name": "Champlin, Dicki and Stanton",
+    "ToolTip": "Voluptas maiores sint sunt voluptatem.",
     "Deleted": true,
-    "Rank": 345,
-    "Type": "sequi",
-    "ColorBlock": 48,
-    "IconHint": "minima",
+    "Rank": 366,
+    "Type": "et",
+    "ColorBlock": 395,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2011-06-26T03:44:58.0468534+02:00",
+    "LastChanged": "2024-10-23T13:14:11.4454508+02:00",
     "ChildItems": [
       {
-        "Id": 416,
-        "Name": "Mueller-Cassin",
-        "ToolTip": "Non et quibusdam reiciendis labore velit.",
+        "Id": 364,
+        "Name": "Lesch LLC",
+        "ToolTip": "Nihil in vel ipsam.",
         "Deleted": false,
-        "Rank": 665,
-        "Type": "sed",
-        "ColorBlock": 828,
-        "IconHint": "aut",
+        "Rank": 427,
+        "Type": "distinctio",
+        "ColorBlock": 296,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2013-11-18T03:44:58.0468534+01:00",
+        "LastChanged": "1999-11-17T13:14:11.4454508+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "quo",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Mr. Austyn Maggio",
+        "FullName": "Lisa Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 298
+            "FieldType": "System.Int32",
+            "FieldLength": 514
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Guiseppe Ondricka",
+    "FullName": "Kailee Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 674
       }
     }
   }

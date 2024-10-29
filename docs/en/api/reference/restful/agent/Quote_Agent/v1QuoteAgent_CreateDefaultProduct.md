@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 240,
-  "ERPProductKey": "quisquam",
-  "ERPPriceListKey": "alias",
-  "Name": "Eichmann, Will and Kautzer",
-  "Description": "Business-focused intermediate help-desk",
-  "Code": "ducimus",
-  "PriceUnit": "esse",
-  "QuantityUnit": "fugiat",
-  "IsSubscription": true,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 29675.845999999998,
-  "ItemNumber": "1659272",
+  "ProductId": 943,
+  "ERPProductKey": "facilis",
+  "ERPPriceListKey": "magni",
+  "Name": "Barrows-Cummings",
+  "Description": "Enhanced neutral knowledge user",
+  "Code": "velit",
+  "PriceUnit": "tempora",
+  "QuantityUnit": "et",
+  "IsSubscription": false,
+  "SubscriptionUnit": "recusandae",
+  "DefaultSubscriptionQuantity": 22871.932,
+  "ItemNumber": "951710",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "amet",
-  "ProductTypeKey": "non",
-  "VAT": 25441.811999999998,
-  "VATInfo": "in",
-  "UnitCost": 11094.359999999999,
-  "UnitMinimumPrice": 21167.036,
-  "UnitListPrice": 21684.146,
+  "ProductFamilyKey": "ea",
+  "ProductTypeKey": "provident",
+  "VAT": 31089.28,
+  "VATInfo": "nam",
+  "UnitCost": 11783.84,
+  "UnitMinimumPrice": 5421.82,
+  "UnitListPrice": 893.18999999999994,
   "InAssortment": false,
-  "Supplier": "qui",
-  "SupplierCode": "dolor",
-  "Rights": "et",
-  "Rule": "quis",
+  "Supplier": "delectus",
+  "SupplierCode": "dolores",
+  "Rights": "consequatur",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Altenwerth-Effertz",
-      "Value": "et",
+      "Name": "Schuppe, Ondricka and Lebsack",
+      "Value": "unde",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldLength": 129
         }
       }
     },
     {
-      "Name": "Altenwerth-Effertz",
-      "Value": "et",
+      "Name": "Schuppe, Ondricka and Lebsack",
+      "Value": "unde",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldLength": 129
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "repudiandae",
-  "ExtraField2": "cum",
-  "ExtraField3": "omnis",
-  "ExtraField4": "officia",
-  "ExtraField5": "ullam",
-  "InStock": 5807.302,
+  "RawExtraInfo": "minus",
+  "ExtraField1": "totam",
+  "ExtraField2": "ipsa",
+  "ExtraField3": "qui",
+  "ExtraField4": "vel",
+  "ExtraField5": "non",
+  "InStock": 12796.122,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 222
     }
   }
 }

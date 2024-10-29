@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=accusamus
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "Anderson Group",
-    "ToolTip": "Voluptas tempora minus illum praesentium.",
+    "Id": 206,
+    "Name": "Feil, Watsica and Kuhlman",
+    "ToolTip": "Laborum impedit minus.",
     "Deleted": true,
-    "Rank": 94,
-    "Type": "amet",
+    "Rank": 805,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Bauch Group",
-        "ToolTip": "Voluptatem quia quibusdam nisi sit ad quia.",
+        "Id": 770,
+        "Name": "Schmitt Group",
+        "ToolTip": "Dignissimos iste repudiandae iste.",
         "Deleted": false,
-        "Rank": 311,
-        "Type": "officia",
+        "Rank": 67,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 188,
-        "ExtraInfo": "praesentium",
-        "StyleHint": "qui",
-        "FullName": "Westley Waters",
+        "IconHint": "et",
+        "ColorBlock": 403,
+        "ExtraInfo": "vitae",
+        "StyleHint": "est",
+        "FullName": "Dr. Lorenzo Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 691
+            "FieldLength": 393
           }
         }
       }
     ],
-    "IconHint": "voluptate",
-    "ColorBlock": 29,
-    "ExtraInfo": "et",
-    "StyleHint": "officiis",
-    "FullName": "Savanah Hills",
+    "IconHint": "praesentium",
+    "ColorBlock": 877,
+    "ExtraInfo": "dolore",
+    "StyleHint": "voluptas",
+    "FullName": "Trey Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldLength": 71
       }
     }
   }

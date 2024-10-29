@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Baumbach-Waters"
+  "Name": "Frami, Langworth and Cassin"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 731,
-  "Name": "Streich, O'Hara and Bogisich",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 107,
-  "IsCustomList": false,
+  "Id": 117,
+  "Name": "Adams-Altenwerth",
+  "Tooltip": "debitis",
+  "Deleted": false,
+  "Rank": 184,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "ad",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

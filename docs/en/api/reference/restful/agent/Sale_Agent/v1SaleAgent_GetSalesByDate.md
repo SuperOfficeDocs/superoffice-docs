@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2010-07-22T03:44:53.136845+02:00",
-  "ToDate": "2001-02-20T03:44:53.136845+01:00",
-  "AmountLimit": 572,
+  "FromDate": "2015-11-19T13:14:06.3976861+01:00",
+  "ToDate": "2011-08-02T13:14:06.3976861+02:00",
+  "AmountLimit": 878,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Runolfsson Group",
-    "SaleDate": "2021-08-26T03:44:53.136845+02:00",
-    "SaleId": 854,
-    "Probability": 319,
-    "Title": "tenetur",
-    "Amount": 16544.386,
-    "Currency": "dolorem",
-    "ProjectName": "Goldner-Lind",
-    "AssociateFullName": "Mrs. Jared Abbey Ernser III",
-    "Description": "Cross-platform cohesive open system",
+    "ContactName": "Harvey LLC",
+    "SaleDate": "2006-05-29T13:14:06.3976861+02:00",
+    "SaleId": 206,
+    "Probability": 5,
+    "Title": "facilis",
+    "Amount": 19176.946,
+    "Currency": "maxime",
+    "ProjectName": "Gulgowski Inc and Sons",
+    "AssociateFullName": "Alfred Stamm",
+    "Description": "Focused even-keeled synergy",
     "Status": "Lost",
-    "WeightedAmount": 30904.374,
-    "ProjectId": 452,
-    "EarningPercent": 9022.786,
-    "Earning": 3967.644,
-    "ContactId": 77,
-    "AssociateId": 276,
-    "PersonId": 673,
-    "SaleTypeId": 943,
-    "SaleTypeName": "Fisher LLC",
-    "PersonFullName": "Gardner Krajcik V",
+    "WeightedAmount": 30017.451999999997,
+    "ProjectId": 621,
+    "EarningPercent": 23385.908,
+    "Earning": 17603.678,
+    "ContactId": 72,
+    "AssociateId": 530,
+    "PersonId": 430,
+    "SaleTypeId": 977,
+    "SaleTypeName": "Swaniawski-Schoen",
+    "PersonFullName": "Miss Catherine Koch",
     "Completed": "Completed",
-    "ActiveErpLinks": 447,
-    "NextDueDate": "2003-05-04T03:44:53.136845+02:00",
-    "Number": "920435",
+    "ActiveErpLinks": 23,
+    "NextDueDate": "2003-06-22T13:14:06.3976861+02:00",
+    "Number": "1329240",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 122
       }
     }
   }

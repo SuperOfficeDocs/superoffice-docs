@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 70,
-  "FieldName": "Brown LLC",
-  "Label": "voluptates",
-  "Tooltip": "earum",
+  "QuoteLineConfigurationId": 834,
+  "FieldName": "Brown, O'Keefe and Leuschke",
+  "Label": "atque",
+  "Tooltip": "eum",
   "Editable": false,
-  "InUse": true,
-  "Mandatory": true,
-  "Rank": 956,
-  "RestrictEdit": false,
+  "InUse": false,
+  "Mandatory": false,
+  "Rank": 608,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 43
     }
   }
 }

@@ -120,27 +120,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 673,
-  "PlainMessage": "vel",
-  "HtmlMessage": "at",
-  "SmsMessage": "eaque",
-  "Description": "Intuitive solution-oriented knowledge user",
-  "Subject": "et",
-  "FolderId": 812,
-  "HeaderField": "quis",
-  "Design": "sed",
+  "ShipmentMessageId": 436,
+  "PlainMessage": "necessitatibus",
+  "HtmlMessage": "ullam",
+  "SmsMessage": "recusandae",
+  "Description": "Object-based dynamic hardware",
+  "Subject": "culpa",
+  "FolderId": 29,
+  "HeaderField": "et",
+  "Design": "amet",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "De-engineered holistic extranet",
-  "AccessKey": "alias",
-  "DocumentMessage": 888,
-  "Registered": "2016-10-01T03:44:57.5937539+02:00",
-  "RegisteredAssociateId": 679,
-  "Updated": "2002-04-10T03:44:57.5937539+02:00",
-  "UpdatedAssociateId": 236,
-  "UpdatedCount": 182
+  "InlineImages": true,
+  "LongDescription": "Configurable directional complexity",
+  "AccessKey": "iste",
+  "DocumentMessage": 586,
+  "Registered": "2022-12-25T13:14:11.1173007+01:00",
+  "RegisteredAssociateId": 707,
+  "Updated": "2012-01-12T13:14:11.1173007+01:00",
+  "UpdatedAssociateId": 652,
+  "UpdatedCount": 422
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 701,
-  "PlainMessage": "dolorum",
-  "HtmlMessage": "voluptatum",
-  "SmsMessage": "aut",
-  "Description": "Ergonomic assymetric Graphic Interface",
-  "Subject": "beatae",
-  "FolderId": 470,
-  "HeaderField": "odio",
-  "Design": "est",
+  "ShipmentMessageId": 633,
+  "PlainMessage": "ut",
+  "HtmlMessage": "quo",
+  "SmsMessage": "quae",
+  "Description": "Focused well-modulated implementation",
+  "Subject": "asperiores",
+  "FolderId": 937,
+  "HeaderField": "voluptatem",
+  "Design": "quaerat",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Exclusive static concept",
-  "AccessKey": "est",
-  "DocumentMessage": 856,
-  "Registered": "2019-05-16T03:44:57.5937539+02:00",
-  "RegisteredAssociateId": 567,
-  "Updated": "2017-12-01T03:44:57.5937539+01:00",
-  "UpdatedAssociateId": 162,
-  "UpdatedCount": 959,
+  "LongDescription": "Up-sized secondary intranet",
+  "AccessKey": "consequatur",
+  "DocumentMessage": 453,
+  "Registered": "2002-10-25T13:14:11.1173007+02:00",
+  "RegisteredAssociateId": 582,
+  "Updated": "2006-05-09T13:14:11.1173007+02:00",
+  "UpdatedAssociateId": 414,
+  "UpdatedCount": 395,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldLength": 344
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

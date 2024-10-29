@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Davis, Gulgowski and Weber",
-  "ProviderName": "Kassulke Inc and Sons",
-  "Context": "optio",
-  "OwnerKeys": "enim"
+  "GuiName": "Kulas, Ortiz and Adams",
+  "ProviderName": "Baumbach, Vandervort and Bogisich",
+  "Context": "vel",
+  "OwnerKeys": "dolorum"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Cole-Borer",
-      "DisplayTooltip": "aut",
-      "DisplayType": "rerum",
+      "DisplayName": "Klocko-Bashirian",
+      "DisplayTooltip": "non",
+      "DisplayType": "quod",
       "CanOrderBy": false,
-      "Name": "Batz Inc and Sons",
+      "Name": "Hagenes-Lemke",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptate",
-      "RestrictionListName": "Thompson, O'Connell and Dooley",
-      "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "sunt",
-      "IconHint": "similique",
-      "HeadingIconHint": "et"
+      "RestrictionType": "doloremque",
+      "RestrictionListName": "Rippin-Mayert",
+      "IsVisible": true,
+      "ExtraInfo": "doloremque",
+      "Width": "veritatis",
+      "IconHint": "minima",
+      "HeadingIconHint": "in"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 637,
-      "Name": "Okuneva LLC",
-      "ToolTip": "Assumenda accusantium ut ut.",
+      "Id": 945,
+      "Name": "Kunde-Fisher",
+      "ToolTip": "Temporibus unde optio assumenda.",
       "Deleted": false,
-      "Rank": 779,
-      "Type": "ea",
-      "ColorBlock": 103,
-      "IconHint": "nihil",
-      "Selected": true,
-      "LastChanged": "2015-03-23T03:44:52.0583904+01:00",
+      "Rank": 688,
+      "Type": "quaerat",
+      "ColorBlock": 483,
+      "IconHint": "at",
+      "Selected": false,
+      "LastChanged": "2021-09-02T13:14:05.507008+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "totam",
-      "StyleHint": "vero",
-      "Hidden": true,
-      "FullName": "Dan Keeling",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "quia",
+      "Hidden": false,
+      "FullName": "Mr. Easton Zita Herman Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldType": "System.Int32",
+          "FieldLength": 671
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Krajcik, Hermiston and Hermann",
+      "Name": "Weimann, Larkin and Feeney",
       "Direction": "ASC"
     },
     {
-      "Name": "Krajcik, Hermiston and Hermann",
+      "Name": "Weimann, Larkin and Feeney",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "aut",
+  "OwnerKeys": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 963
+      "FieldLength": 596
     }
   }
 }

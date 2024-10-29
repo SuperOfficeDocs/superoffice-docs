@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 880,
-  "AssociateId": 892,
-  "Caption": "nam",
+  "DashboardId": 162,
+  "AssociateId": 891,
+  "Caption": "ducimus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 764,
-      "Caption": "asperiores",
-      "Description": "Organic asynchronous initiative",
-      "ChartName": "Moen Inc and Sons",
-      "ChartId": "amet",
-      "IsDefault": false,
-      "AssociateId": 126,
-      "GroupId": 856,
-      "SelectionId": 973,
-      "Config": "sed",
+      "DashboardTileId": 693,
+      "Caption": "repellendus",
+      "Description": "Re-engineered global flexibility",
+      "ChartName": "Lehner-Jewess",
+      "ChartId": "dolores",
+      "IsDefault": true,
+      "AssociateId": 830,
+      "GroupId": 786,
+      "SelectionId": 872,
+      "Config": "in",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 698
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldType": "System.String",
+      "FieldLength": 600
     }
   }
 }

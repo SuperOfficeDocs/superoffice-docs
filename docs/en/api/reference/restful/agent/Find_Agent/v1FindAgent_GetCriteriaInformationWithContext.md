@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "modi",
-  "ProviderName": "Toy Inc and Sons",
-  "StorageKey": "voluptatem",
+  "StorageType": "alias",
+  "ProviderName": "Bauch, Runolfsdottir and Will",
+  "StorageKey": "repellat",
   "StaticColumns": [
-    "est",
-    "quia"
+    "quia",
+    "harum"
   ],
-  "Context": "nesciunt"
+  "Context": "rerum"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Cummings-Bergstrom",
-      "Operator": "in",
+      "Name": "Kozey, Koelpin and Jerde",
+      "Operator": "consequatur",
       "Values": [
-        "maiores",
-        "voluptates"
+        "laboriosam",
+        "illum"
       ],
       "DisplayValues": [
-        "dolorem",
-        "qui"
+        "et",
+        "pariatur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 468,
+      "InterParenthesis": 876,
       "InterOperator": "And",
-      "UniqueHash": 844
+      "UniqueHash": 410
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Koepp Inc and Sons",
-      "DisplayTooltip": "minima",
-      "DisplayType": "pariatur",
+      "DisplayName": "Rolfson, Schinner and Ankunding",
+      "DisplayTooltip": "voluptatibus",
+      "DisplayType": "sed",
       "CanOrderBy": true,
-      "Name": "McClure-Barton",
+      "Name": "Ratke, Murazik and Von",
       "CanRestrictBy": true,
-      "RestrictionType": "maiores",
-      "RestrictionListName": "Buckridge-Predovic",
-      "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "et",
-      "IconHint": "asperiores",
-      "HeadingIconHint": "ea"
+      "RestrictionType": "veritatis",
+      "RestrictionListName": "Fadel LLC",
+      "IsVisible": false,
+      "ExtraInfo": "labore",
+      "Width": "voluptatibus",
+      "IconHint": "itaque",
+      "HeadingIconHint": "quo"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Reichert Inc and Sons",
-      "PrimaryKey": 358,
+      "EntityName": "Schmitt-Rohan",
+      "PrimaryKey": 581,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "perspiciatis",
-          "TooltipHint": "aut",
-          "LinkHint": "occaecati"
+          "DisplayValue": "tempore",
+          "TooltipHint": "et",
+          "LinkHint": "soluta"
         }
       },
-      "LinkHint": "eum",
-      "StyleHint": "rerum",
+      "LinkHint": "voluptatem",
+      "StyleHint": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 2
+          "FieldType": "System.Int32",
+          "FieldLength": 766
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Lehner-Armstrong",
-      "Description": "Organic modular monitoring",
-      "Rank": 7,
+      "Name": "Kling-Terry",
+      "Description": "Seamless real-time capacity",
+      "Rank": 910,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lehner-Armstrong",
-      "Description": "Organic modular monitoring",
-      "Rank": 7,
+      "Name": "Kling-Terry",
+      "Description": "Seamless real-time capacity",
+      "Rank": 910,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 461
     }
   }
 }

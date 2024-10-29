@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 384,
-  "Name": "Keebler Inc and Sons",
-  "Tooltip": "at",
+  "Id": 906,
+  "Name": "Bradtke-Rogahn",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 651,
+  "Rank": 93,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "error",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Hagenes Group",
-  "Tooltip": "voluptas",
+  "Id": 955,
+  "Name": "Quitzon, Upton and Leannon",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 248,
+  "Rank": 705,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "placeat",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldLength": 783
     }
   }
 }

@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 276,
-  "AppointmentId": 684,
-  "ProjectId": 769,
-  "SaleId": 844,
-  "Archived": false,
-  "ArchivedAt": "2002-11-09T03:44:52.5583726+01:00",
-  "ArchivedBy": 949,
-  "ArchivedDisplayName": "Gutmann, Tremblay and Heller",
+  "DocumentId": 892,
+  "AppointmentId": 512,
+  "ProjectId": 937,
+  "SaleId": 424,
+  "Archived": true,
+  "ArchivedAt": "2016-01-04T13:14:05.96016+01:00",
+  "ArchivedBy": 539,
+  "ArchivedDisplayName": "Balistreri, Wiegand and Rodriguez",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   }
 }

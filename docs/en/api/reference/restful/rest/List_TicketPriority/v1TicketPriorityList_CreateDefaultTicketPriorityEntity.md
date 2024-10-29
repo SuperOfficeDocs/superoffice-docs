@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 275,
-  "Name": "Rosenbaum LLC",
+  "TicketPriorityId": 468,
+  "Name": "Turner, Schuppe and Tromp",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 283,
+  "SortOrder": 258,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 633,
-  "MonStart": "2004-04-21T03:44:58.1874634+02:00",
-  "MonStop": "2005-07-30T03:44:58.1874634+02:00",
-  "TueStart": "2023-01-10T03:44:58.1874634+01:00",
-  "TueStop": "2013-06-27T03:44:58.1874634+02:00",
-  "WedStart": "2016-08-17T03:44:58.1874634+02:00",
-  "WedStop": "2006-07-06T03:44:58.1874634+02:00",
-  "ThuStart": "2002-10-10T03:44:58.1874634+02:00",
-  "ThuStop": "2022-04-08T03:44:58.1874634+02:00",
-  "FriStart": "2003-07-17T03:44:58.1874634+02:00",
-  "FriStop": "1999-03-09T03:44:58.1874634+01:00",
-  "SatStart": "2013-05-23T03:44:58.1874634+02:00",
-  "SatStop": "2016-01-15T03:44:58.1874634+01:00",
-  "SunStart": "2006-07-26T03:44:58.1874634+02:00",
-  "SunStop": "1998-06-03T03:44:58.1874634+02:00",
+  "Deadline": 384,
+  "MonStart": "2017-04-29T13:14:11.5704589+02:00",
+  "MonStop": "2016-06-04T13:14:11.5704589+02:00",
+  "TueStart": "2002-02-05T13:14:11.5704589+01:00",
+  "TueStop": "2004-02-22T13:14:11.5704589+01:00",
+  "WedStart": "2021-10-16T13:14:11.5704589+02:00",
+  "WedStop": "1998-08-19T13:14:11.5704589+02:00",
+  "ThuStart": "2008-04-15T13:14:11.5704589+02:00",
+  "ThuStop": "2014-07-22T13:14:11.5704589+02:00",
+  "FriStart": "2016-07-30T13:14:11.5704589+02:00",
+  "FriStop": "2005-09-21T13:14:11.5704589+02:00",
+  "SatStart": "2020-01-13T13:14:11.5704589+01:00",
+  "SatStop": "2017-04-14T13:14:11.5704589+02:00",
+  "SunStart": "2023-03-03T13:14:11.5704589+01:00",
+  "SunStop": "2002-12-20T13:14:11.5704589+01:00",
   "NonDates": [
-    "et",
-    "sed"
+    "velit",
+    "architecto"
   ],
   "EscalationLevels": [
     {
       "TicketAlertId": 311,
-      "AlertLevel": 336,
-      "AlertTimeout": 921,
-      "Action": 699,
-      "DelegateTo": 205,
-      "ScriptId": 827,
-      "EmailTo": "ed.morar@parisianturner.info",
-      "SmsTo": "fugiat",
-      "ReplyTemplateIdCustomer": 697,
-      "ReplyTemplateIdUser": 934,
-      "ReplyTemplateIdCatmast": 334,
-      "ReplyTemplateIdEmail": 44,
-      "RtiCustomerSms": 473,
-      "ReplyTemplateIdUserSms": 50,
-      "ReplyTemplateIdCatmastSms": 852,
-      "ReplyTemplateIdSms": 921,
+      "AlertLevel": 297,
+      "AlertTimeout": 756,
+      "Action": 1001,
+      "DelegateTo": 788,
+      "ScriptId": 139,
+      "EmailTo": "stacey.halvorson@haagfriesen.ca",
+      "SmsTo": "eum",
+      "ReplyTemplateIdCustomer": 63,
+      "ReplyTemplateIdUser": 891,
+      "ReplyTemplateIdCatmast": 149,
+      "ReplyTemplateIdEmail": 745,
+      "RtiCustomerSms": 577,
+      "ReplyTemplateIdUserSms": 976,
+      "ReplyTemplateIdCatmastSms": 517,
+      "ReplyTemplateIdSms": 179,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 912
+          "FieldLength": 690
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 722
     }
   }
 }

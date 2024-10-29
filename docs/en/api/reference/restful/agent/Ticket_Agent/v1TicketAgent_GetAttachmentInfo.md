@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 666
+  "TicketMessageEntityId": 393
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 308,
-    "Name": "Kutch Inc and Sons",
-    "ContentType": "praesentium",
-    "AttSize": 747,
-    "InlineImage": false,
-    "ContentId": "totam",
-    "AuthKey": "ut",
+    "AttachmentId": 698,
+    "Name": "Walsh-Frami",
+    "ContentType": "sit",
+    "AttSize": 423,
+    "InlineImage": true,
+    "ContentId": "doloribus",
+    "AuthKey": "placeat",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 696
       }
     }
   }

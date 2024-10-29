@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=415
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=736
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 542,
-  "Caption": "officiis",
-  "Description": "User-centric web-enabled parallelism",
-  "ChartName": "Gislason, Hegmann and Cormier",
-  "ChartId": "inventore",
-  "IsDefault": true,
-  "AssociateId": 34,
-  "GroupId": 306,
-  "SelectionId": 775,
-  "Config": "sed",
+  "DashboardTileId": 396,
+  "Caption": "ex",
+  "Description": "Team-oriented even-keeled info-mediaries",
+  "ChartName": "Kohler-Mraz",
+  "ChartId": "rerum",
+  "IsDefault": false,
+  "AssociateId": 984,
+  "GroupId": 605,
+  "SelectionId": 623,
+  "Config": "natus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hudson LLC",
-      "Description": "Proactive neutral contingency",
+      "Name": "Mohr LLC",
+      "Description": "Enterprise-wide tangible task-force",
       "Type": "Boolean",
-      "ListName": "Hane, Yost and Zulauf",
+      "ListName": "Okuneva Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ut",
+      "Value": "possimus",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 553
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 848,
+      "VisibleId": 988,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 875
         }
       }
     },
     {
-      "VisibleId": 848,
+      "VisibleId": 988,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 875
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

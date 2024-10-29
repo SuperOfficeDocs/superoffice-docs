@@ -107,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 555
+  "ChatTopicId": 518
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 333,
-  "TopicId": 695,
+  "ChatSessionId": 633,
+  "TopicId": 479,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nihil",
-  "CustomerHost": "aut",
-  "CustomerName": "Dickinson Group",
-  "CustomerEmail": "ansel_anderson@robel.biz",
-  "CustomerPhone": "659-942-1581 x6004",
+  "CustomerAlias": "vero",
+  "CustomerHost": "ut",
+  "CustomerName": "Flatley, Torp and Wisoky",
+  "CustomerEmail": "damian@ebertcarter.com",
+  "CustomerPhone": "756-578-5716",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Cummings, Kuvalis and Barrows",
+  "CustomerCompanyName": "Aufderhar-Kerluke",
   "Status": "Closed",
-  "FirstMessage": "corrupti",
-  "LastMessage": "fugit",
-  "WhenRequested": "1998-01-13T03:44:52.2615302+01:00",
-  "WhenStarted": "2007-11-01T03:44:52.2615302+01:00",
-  "WhenEnded": "1998-02-07T03:44:52.2615302+01:00",
-  "WhenIdle": "2000-08-02T03:44:52.2615302+02:00",
-  "WhenFetched": "1999-10-11T03:44:52.2615302+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 816,
-  "AlertLevel": 552,
-  "Rank": 908,
+  "FirstMessage": "at",
+  "LastMessage": "occaecati",
+  "WhenRequested": "2023-05-20T13:14:05.6163893+02:00",
+  "WhenStarted": "2012-04-25T13:14:05.6163893+02:00",
+  "WhenEnded": "2003-09-10T13:14:05.6163893+02:00",
+  "WhenIdle": "2022-09-15T13:14:05.6163893+02:00",
+  "WhenFetched": "2006-03-12T13:14:05.6163893+01:00",
+  "SessionKey": "doloremque",
+  "InitialQueuePos": 789,
+  "AlertLevel": 562,
+  "Rank": 134,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 70,
+  "Rating": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldType": "System.String",
+      "FieldLength": 624
     }
   }
 }

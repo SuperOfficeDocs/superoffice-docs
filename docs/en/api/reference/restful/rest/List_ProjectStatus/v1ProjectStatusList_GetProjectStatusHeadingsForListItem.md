@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Kunze Group",
-    "ToolTip": "Minima ab laboriosam eligendi atque facilis consequatur pariatur.",
-    "Deleted": false,
-    "Rank": 467,
-    "Type": "omnis",
-    "ColorBlock": 5,
-    "IconHint": "distinctio",
+    "Id": 592,
+    "Name": "Huels-Bosco",
+    "ToolTip": "Voluptas labore enim ratione molestias.",
+    "Deleted": true,
+    "Rank": 731,
+    "Type": "aut",
+    "ColorBlock": 320,
+    "IconHint": "animi",
     "Selected": true,
-    "LastChanged": "2001-10-05T03:44:58.0937233+02:00",
+    "LastChanged": "2024-10-27T13:14:11.4767026+01:00",
     "ChildItems": [
       {
-        "Id": 30,
-        "Name": "Kautzer LLC",
-        "ToolTip": "Quia iure mollitia vero maxime deserunt.",
+        "Id": 93,
+        "Name": "Konopelski-Ullrich",
+        "ToolTip": "Ea dolore tenetur blanditiis explicabo nulla ad.",
         "Deleted": false,
-        "Rank": 24,
-        "Type": "voluptatem",
-        "ColorBlock": 68,
-        "IconHint": "et",
+        "Rank": 947,
+        "Type": "vero",
+        "ColorBlock": 423,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2013-04-27T03:44:58.0937233+02:00",
+        "LastChanged": "2000-05-02T13:14:11.4767026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Osvaldo Hessel",
+        "ExtraInfo": "quis",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Jo Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 959
+            "FieldType": "System.String",
+            "FieldLength": 604
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "rem",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Jedediah Schiller",
+    "FullName": "Richard Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 96
+        "FieldLength": 968
       }
     }
   }

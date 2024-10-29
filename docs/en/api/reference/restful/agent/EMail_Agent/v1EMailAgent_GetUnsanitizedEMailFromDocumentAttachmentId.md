@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 615,
+  "DocId": 565,
   "AttachmentIds": [
-    "facere",
-    "temporibus"
+    "ad",
+    "consequuntur"
   ],
   "IncludeAttachments": false
 }
@@ -127,148 +127,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 412,
-      "ContactName": "Ward, D'Amore and McKenzie",
-      "PersonId": 292,
-      "PersonName": "Frami Group",
-      "AssociateId": 810,
-      "Address": "occaecati",
-      "EmailId": 557,
+      "ContactId": 947,
+      "ContactName": "Cummerata LLC",
+      "PersonId": 280,
+      "PersonName": "Erdman LLC",
+      "AssociateId": 577,
+      "Address": "eaque",
+      "EmailId": 694,
       "DuplicatePersonIds": [
-        487,
-        143
+        350,
+        755
       ],
-      "Name": "Torphy LLC",
+      "Name": "Jast LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 339
+          "FieldType": "System.String",
+          "FieldLength": 809
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 462,
-      "ContactName": "Osinski Group",
-      "PersonId": 657,
-      "PersonName": "Roberts LLC",
-      "AssociateId": 444,
-      "Address": "id",
-      "EmailId": 6,
+      "ContactId": 53,
+      "ContactName": "Casper Inc and Sons",
+      "PersonId": 64,
+      "PersonName": "Buckridge Group",
+      "AssociateId": 615,
+      "Address": "dolor",
+      "EmailId": 722,
       "DuplicatePersonIds": [
-        293,
-        190
+        679,
+        236
       ],
-      "Name": "Breitenberg, Witting and Bartoletti",
+      "Name": "Stamm-Kirlin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 279
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 735,
-      "ContactName": "Jenkins-Ledner",
-      "PersonId": 495,
-      "PersonName": "Gerhold-Howe",
-      "AssociateId": 899,
-      "Address": "dolorum",
-      "EmailId": 772,
+      "ContactId": 370,
+      "ContactName": "Skiles Inc and Sons",
+      "PersonId": 305,
+      "PersonName": "Towne-Graham",
+      "AssociateId": 209,
+      "Address": "labore",
+      "EmailId": 210,
       "DuplicatePersonIds": [
-        592,
-        952
+        485,
+        481
       ],
-      "Name": "Reichel Group",
+      "Name": "Hackett, Hodkiewicz and Vandervort",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     }
   ],
-  "Subject": "modi",
-  "HTMLBody": "rerum",
+  "Subject": "sunt",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2024-04-11T03:44:52.5896202+02:00",
-  "Size": 522,
+  "Sent": "2012-10-23T13:14:05.991412+02:00",
+  "Size": 784,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sit",
-  "PlainBody": "ut",
-  "IsSent": false,
+  "MessageID": "quia",
+  "PlainBody": "excepturi",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 118,
+  "ServerId": 941,
   "Attachments": [
     {
-      "Description": "Self-enabling fresh-thinking knowledge base",
-      "Filename": "eligendi",
-      "Size": 789,
-      "Type": "consequatur",
-      "Encoding": "rerum",
-      "Id": "illum",
-      "Disposition": "architecto",
+      "Description": "Ergonomic context-sensitive monitoring",
+      "Filename": "blanditiis",
+      "Size": 605,
+      "Type": "in",
+      "Encoding": "laborum",
+      "Id": "nam",
+      "Disposition": "assumenda",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 44
+          "FieldType": "System.String",
+          "FieldLength": 304
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Luettgen Group",
+      "Name": "Spinka LLC",
       "Values": [
-        "et",
-        "molestiae"
+        "sed",
+        "quidem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 335
+          "FieldType": "System.Int32",
+          "FieldLength": 299
         }
       }
     },
     {
-      "Name": "Luettgen Group",
+      "Name": "Spinka LLC",
       "Values": [
-        "et",
-        "molestiae"
+        "sed",
+        "quidem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 335
+          "FieldType": "System.Int32",
+          "FieldLength": 299
         }
       }
     }
   ],
-  "FolderName": "Greenholt Group",
-  "EmailItemId": 318,
-  "AccountId": 759,
-  "ReceivedAt": "2008-12-10T03:44:52.5896202+01:00",
+  "FolderName": "Heaney-Pagac",
+  "EmailItemId": 957,
+  "AccountId": 91,
+  "ReceivedAt": "2008-07-06T13:14:05.991412+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-09-01T03:44:52.5896202+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-05-15T13:14:05.991412+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 177
     }
   }
 }

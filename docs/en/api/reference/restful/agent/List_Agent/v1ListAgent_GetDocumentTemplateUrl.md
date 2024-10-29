@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 343,
+  "DocumentTemplateId": 937,
   "WritableUrl": true,
-  "LanguageCode": "distinctio"
+  "LanguageCode": "cum"
 }
 ```
 

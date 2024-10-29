@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 735
+  "PersonId": 989
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 382,
-  "PlainParsed": "velit",
-  "HtmlParsed": "nemo",
+  "ReplyTemplateId": 71,
+  "PlainParsed": "similique",
+  "HtmlParsed": "quaerat",
   "Attachments": [
     {
-      "AttachmentId": 950,
-      "Name": "Bosco Group",
-      "ContentType": "autem",
-      "AttSize": 75,
+      "AttachmentId": 398,
+      "Name": "Lowe Group",
+      "ContentType": "velit",
+      "AttSize": 148,
       "InlineImage": false,
-      "ContentId": "voluptatem",
-      "AuthKey": "consequatur",
-      "IsSafeFileExtension": false,
+      "ContentId": "dolor",
+      "AuthKey": "necessitatibus",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldType": "System.String",
+          "FieldLength": 157
         }
       }
     }
   ],
-  "Subject": "dignissimos",
+  "Subject": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 230,
+  "EjMessageId": 833,
   "Ticket": null,
-  "CreatedAt": "1999-09-11T03:44:57.656888+02:00",
+  "CreatedAt": "2018-08-06T13:14:11.1641844+02:00",
   "CreatedBy": null,
-  "Author": "unde",
+  "Author": "dignissimos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "repellendus",
-  "TimeSpent": 922,
-  "Body": "dolor",
-  "HtmlBody": "aut",
-  "EmailHeader": "lindsay@halvorson.co.uk",
-  "DebugInfo": "consequuntur",
-  "MailSorter": "molestiae",
+  "MessageId": "ipsam",
+  "TimeSpent": 504,
+  "Body": "placeat",
+  "HtmlBody": "neque",
+  "EmailHeader": "mattie@ryan.co.uk",
+  "DebugInfo": "eaque",
+  "MailSorter": "aliquid",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "earum",
+  "SearchTitle": "rerum",
   "MessageHeaders": [
     {
-      "Id": 579,
-      "Name": "Bernier, Grimes and Hermann",
-      "Value": "aspernatur",
+      "Id": 61,
+      "Name": "Dickens-Mitchell",
+      "Value": "itaque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 680
+          "FieldType": "System.Int32",
+          "FieldLength": 18
         }
       }
     }
   ],
   "Important": false,
-  "Language": "qui",
-  "Sentiment": 364,
-  "SentimentConfidence": 229,
+  "Language": "perferendis",
+  "Sentiment": 136,
+  "SentimentConfidence": 645,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 294,
-      "Name": "Marquardt-Wiza",
-      "ContentType": "perferendis",
-      "AttSize": 752,
-      "InlineImage": true,
-      "ContentId": "sit",
-      "AuthKey": "quibusdam",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 138,
+      "Name": "Reichert LLC",
+      "ContentType": "ea",
+      "AttSize": 88,
+      "InlineImage": false,
+      "ContentId": "aperiam",
+      "AuthKey": "quia",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldLength": 827
         }
       }
     }
   ],
   "ExtraFields": {
     "ExtraFields1": "nihil",
-    "ExtraFields2": "et"
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "eius"
+    "CustomFields1": "eum",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 779
     }
   }
 }

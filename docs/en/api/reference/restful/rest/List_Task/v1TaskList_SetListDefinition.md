@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 946,
-  "Name": "Considine-Smitham",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "Rank": 302,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sequi",
+  "Id": 997,
+  "Name": "Vandervort-Wintheiser",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 21,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 635,
-  "Name": "Bechtelar, Bruen and Goodwin",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 116,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 167,
+  "Name": "Schuster Group",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 953,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 801
     }
   }
 }

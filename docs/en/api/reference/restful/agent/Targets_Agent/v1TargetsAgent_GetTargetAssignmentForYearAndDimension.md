@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 985,
+  "TargetYear": 323,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 505,
-  "DimensionId": 349
+  "Id": 858,
+  "DimensionId": 269
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 768,
+  "TargetAssignmentInfoId": 479,
   "Values": [
-    909,
-    753
+    70,
+    744
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 690,
-  "DimensionListItemDisplayName": "McKenzie, DuBuque and Thompson",
+  "DimensionListItem": 905,
+  "DimensionListItemDisplayName": "Bosco-Raynor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldLength": 320
     }
   }
 }

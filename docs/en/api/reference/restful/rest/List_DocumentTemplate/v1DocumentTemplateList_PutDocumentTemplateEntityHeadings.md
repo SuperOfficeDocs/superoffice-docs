@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 866,
-    "Name": "Pouros Group",
-    "Tooltip": "doloribus",
+    "HeadingId": 596,
+    "Name": "Kris, Stark and Lind",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "Rank": 64,
-    "UdListDefinitionId": 361
+    "Rank": 245,
+    "UdListDefinitionId": 893
   },
   {
-    "HeadingId": 866,
-    "Name": "Pouros Group",
-    "Tooltip": "doloribus",
+    "HeadingId": 596,
+    "Name": "Kris, Stark and Lind",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "Rank": 64,
-    "UdListDefinitionId": 361
+    "Rank": 245,
+    "UdListDefinitionId": 893
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 354,
-    "Name": "Wuckert, White and Dietrich",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 946,
-    "UdListDefinitionId": 402,
+    "HeadingId": 933,
+    "Name": "Borer-Crona",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "Rank": 898,
+    "UdListDefinitionId": 520,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 438
       }
     }
   }

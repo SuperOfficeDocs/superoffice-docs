@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 751,
+  "ProductId": 31,
   "ERPProductKey": "et",
-  "ERPPriceListKey": "quae",
-  "Name": "Tremblay, Reilly and Corkery",
-  "Description": "Business-focused logistical benchmark",
-  "Code": "et",
-  "PriceUnit": "in",
-  "QuantityUnit": "voluptatem",
-  "IsSubscription": false,
-  "SubscriptionUnit": "fugit",
-  "DefaultSubscriptionQuantity": 24451.468,
-  "ItemNumber": "1125968",
+  "ERPPriceListKey": "quis",
+  "Name": "Tremblay, Reilly and Parisian",
+  "Description": "Digitized object-oriented leverage",
+  "Code": "ut",
+  "PriceUnit": "tempora",
+  "QuantityUnit": "dicta",
+  "IsSubscription": true,
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 24470.272,
+  "ItemNumber": "1466521",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "esse",
-  "ProductTypeKey": "aperiam",
-  "VAT": 13075.047999999999,
-  "VATInfo": "eos",
-  "UnitCost": 14560.564,
-  "UnitMinimumPrice": 14096.732,
-  "UnitListPrice": 29628.836,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "iusto",
+  "VAT": 17280.876,
+  "VATInfo": "et",
+  "UnitCost": 3914.366,
+  "UnitMinimumPrice": 1350.754,
+  "UnitListPrice": 15814.163999999999,
   "InAssortment": true,
-  "Supplier": "optio",
-  "SupplierCode": "aut",
-  "Rights": "ea",
-  "Rule": "voluptas",
+  "Supplier": "occaecati",
+  "SupplierCode": "ab",
+  "Rights": "molestiae",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Dibbert, Feest and Lockman",
-      "Value": "officiis",
+      "Name": "Adams-Smith",
+      "Value": "a",
       "Type": "Image"
     },
     {
-      "Name": "Dibbert, Feest and Lockman",
-      "Value": "officiis",
+      "Name": "Adams-Smith",
+      "Value": "a",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "maiores",
-  "ExtraField1": "illum",
-  "ExtraField2": "inventore",
-  "ExtraField3": "nisi",
-  "ExtraField4": "quia",
-  "ExtraField5": "ut",
-  "InStock": 30305.78
+  "RawExtraInfo": "consequatur",
+  "ExtraField1": "dolorem",
+  "ExtraField2": "natus",
+  "ExtraField3": "nobis",
+  "ExtraField4": "qui",
+  "ExtraField5": "voluptatum",
+  "InStock": 22129.174
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 464,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "facere",
-  "Name": "Aufderhar-Effertz",
-  "Description": "Configurable stable strategy",
-  "Code": "ut",
-  "PriceUnit": "numquam",
-  "QuantityUnit": "in",
+  "ProductId": 277,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "doloremque",
+  "Name": "Mayert-Schamberger",
+  "Description": "Compatible optimizing monitoring",
+  "Code": "est",
+  "PriceUnit": "corporis",
+  "QuantityUnit": "dolor",
   "IsSubscription": false,
-  "SubscriptionUnit": "aliquid",
-  "DefaultSubscriptionQuantity": 10367.271999999999,
-  "ItemNumber": "1279456",
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 29516.012,
+  "ItemNumber": "782065",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quo",
-  "ProductTypeKey": "aperiam",
-  "VAT": 4246.57,
-  "VATInfo": "rerum",
-  "UnitCost": 351.008,
-  "UnitMinimumPrice": 27221.924,
-  "UnitListPrice": 27124.77,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "dolores",
+  "VAT": 14971.118,
+  "VATInfo": "culpa",
+  "UnitCost": 7549.806,
+  "UnitMinimumPrice": 30067.595999999998,
+  "UnitListPrice": 1679.8239999999998,
   "InAssortment": true,
-  "Supplier": "est",
+  "Supplier": "numquam",
   "SupplierCode": "fugit",
-  "Rights": "omnis",
-  "Rule": "eos",
+  "Rights": "voluptatem",
+  "Rule": "pariatur",
   "ExtraInfo": [
     {
-      "Name": "Christiansen-Wunsch",
-      "Value": "dignissimos",
+      "Name": "Breitenberg LLC",
+      "Value": "consectetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 267
         }
       }
     },
     {
-      "Name": "Christiansen-Wunsch",
-      "Value": "dignissimos",
+      "Name": "Breitenberg LLC",
+      "Value": "consectetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 267
         }
       }
     }
   ],
-  "RawExtraInfo": "laudantium",
-  "ExtraField1": "velit",
-  "ExtraField2": "in",
-  "ExtraField3": "aperiam",
-  "ExtraField4": "eligendi",
-  "ExtraField5": "aut",
-  "InStock": 19484.077999999998,
+  "RawExtraInfo": "quis",
+  "ExtraField1": "et",
+  "ExtraField2": "qui",
+  "ExtraField3": "nihil",
+  "ExtraField4": "sed",
+  "ExtraField5": "deleniti",
+  "InStock": 12996.698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

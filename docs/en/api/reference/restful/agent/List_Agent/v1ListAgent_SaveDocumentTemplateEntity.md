@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 844,
-  "Name": "Bogisich, Wisozk and Deckow",
-  "Tooltip": "illo",
-  "SaveInDb": 989,
+  "DocumentTemplateId": 492,
+  "Name": "Upton-Raynor",
+  "Tooltip": "quidem",
+  "SaveInDb": 22,
   "Filename": "adipisci",
-  "DefaultOref": "harum",
+  "DefaultOref": "officia",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 900,
-  "IntentId": 197,
+  "AutoeventId": 566,
+  "IntentId": 434,
   "IsDefaultPublished": false,
-  "Rank": 194,
-  "LoadTemplateFromPlugin": 166,
-  "MimeType": "tempore",
+  "Rank": 996,
+  "LoadTemplateFromPlugin": 690,
+  "MimeType": "aut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 42,
+  "DocumentTypeKey": 282,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "melba_boyer@auer.name",
+  "EmailSubject": "calista.robel@glover.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ford@bashirian.ca",
+  "SenderEmailAddress": "ramon_robel@tillman.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 551,
-  "Name": "D'Amore Inc and Sons",
-  "Tooltip": "facere",
-  "SaveInDb": 89,
-  "Filename": "aut",
-  "DefaultOref": "id",
+  "DocumentTemplateId": 221,
+  "Name": "O'Kon Inc and Sons",
+  "Tooltip": "eos",
+  "SaveInDb": 220,
+  "Filename": "beatae",
+  "DefaultOref": "mollitia",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 90,
-  "IntentId": 583,
+  "AutoeventId": 1001,
+  "IntentId": 831,
   "IsDefaultPublished": false,
-  "Rank": 94,
-  "LoadTemplateFromPlugin": 414,
-  "MimeType": "nemo",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 993,
+  "Rank": 684,
+  "LoadTemplateFromPlugin": 69,
+  "MimeType": "vel",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 607,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "chloe.monahan@collinsdavis.info",
+  "EmailSubject": "trinity@nolan.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "orland@feeney.ca",
+  "SenderEmailAddress": "caden@tremblay.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 467
     }
   }
 }

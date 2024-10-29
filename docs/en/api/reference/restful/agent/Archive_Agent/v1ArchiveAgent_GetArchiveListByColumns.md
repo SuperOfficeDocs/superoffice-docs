@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Keebler, Rolfson and Weber",
+  "ProviderName": "Corwin, Steuber and Fay",
   "Columns": [
-    "culpa",
-    "delectus"
+    "sequi",
+    "aspernatur"
   ],
   "SortOrder": [
     {
-      "Name": "Hills, Cronin and Barton",
+      "Name": "O'Kon-Kovacek",
       "Direction": "ASC"
     },
     {
-      "Name": "Hills, Cronin and Barton",
+      "Name": "O'Kon-Kovacek",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Waelchi LLC",
-      "Operator": "et",
+      "Name": "Rau-Buckridge",
+      "Operator": "ut",
       "Values": [
-        "ipsum",
-        "dolorem"
+        "consequuntur",
+        "sit"
       ],
       "DisplayValues": [
-        "a",
-        "aut"
+        "magnam",
+        "quisquam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 759,
+      "InterParenthesis": 61,
       "InterOperator": "And",
-      "UniqueHash": 86
+      "UniqueHash": 104
     }
   ],
   "Entities": [
-    "asperiores",
-    "praesentium"
+    "nihil",
+    "officia"
   ],
-  "Page": 614,
-  "PageSize": 259
+  "Page": 10,
+  "PageSize": 695
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Carter, Littel and Hoppe",
-    "PrimaryKey": 670,
+    "EntityName": "Kulas, McLaughlin and Yost",
+    "PrimaryKey": 519,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "assumenda",
-        "TooltipHint": "molestiae",
-        "LinkHint": "voluptatem"
+        "DisplayValue": "magni",
+        "TooltipHint": "delectus",
+        "LinkHint": "corporis"
       }
     },
-    "LinkHint": "quia",
-    "StyleHint": "inventore",
+    "LinkHint": "ut",
+    "StyleHint": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   }

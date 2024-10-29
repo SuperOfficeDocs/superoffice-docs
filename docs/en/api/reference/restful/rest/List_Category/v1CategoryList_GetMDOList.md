@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=iste
+GET /api/v1/List/Category/MDOItems?flat=True
+GET /api/v1/List/Category/MDOItems?query=consequatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Dooley, Considine and Jenkins",
-    "ToolTip": "Voluptates qui dolor aut quibusdam nesciunt necessitatibus facilis.",
+    "Id": 335,
+    "Name": "Barrows, Abshire and Rippin",
+    "ToolTip": "Qui ut.",
     "Deleted": false,
-    "Rank": 375,
-    "Type": "et",
+    "Rank": 228,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "Bartell, Connelly and Jerde",
-        "ToolTip": "Ad ex quisquam veritatis autem in.",
+        "Id": 417,
+        "Name": "Wolff Inc and Sons",
+        "ToolTip": "Aliquam sit.",
         "Deleted": true,
-        "Rank": 38,
-        "Type": "dolores",
+        "Rank": 284,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illum",
-        "ColorBlock": 854,
-        "ExtraInfo": "dolore",
-        "StyleHint": "magnam",
-        "FullName": "Prof. Garett Chaim Zulauf DVM",
+        "IconHint": "temporibus",
+        "ColorBlock": 84,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "vel",
+        "FullName": "Lafayette Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldType": "System.String",
+            "FieldLength": 770
           }
         }
       }
     ],
-    "IconHint": "cupiditate",
-    "ColorBlock": 665,
-    "ExtraInfo": "qui",
-    "StyleHint": "nesciunt",
-    "FullName": "Amie Graham III",
+    "IconHint": "enim",
+    "ColorBlock": 297,
+    "ExtraInfo": "quidem",
+    "StyleHint": "eaque",
+    "FullName": "Maeve Hane I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldType": "System.Int32",
+        "FieldLength": 102
       }
     }
   }

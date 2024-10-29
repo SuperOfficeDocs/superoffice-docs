@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 596,
-    "Name": "Hoeger Group",
-    "ConsentText": "optio",
-    "FormText": "exercitationem",
-    "Key": "beatae",
-    "Tooltip": "dolor",
-    "Active": 553,
-    "UpdatedDate": "2002-10-08T03:44:57.9374899+02:00",
+    "ConsentPurposeId": 911,
+    "Name": "Conroy, Halvorson and Torphy",
+    "ConsentText": "totam",
+    "FormText": "similique",
+    "Key": "tempore",
+    "Tooltip": "repudiandae",
+    "Active": 725,
+    "UpdatedDate": "2000-03-10T13:14:11.3360694+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 627,
+    "Rank": 553,
     "PrivacyStatementDesc": "corrupti",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldType": "System.String",
+        "FieldLength": 946
       }
     }
   }

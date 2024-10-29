@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    217,
-    417
+    668,
+    541
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Champlin, Hayes and Bernhard",
-    "AssociateId": 656,
-    "DetailsTable": 907,
-    "DetailsRecord": 250,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 834,
+    "Name": "Hane, Hauck and Langworth",
+    "AssociateId": 511,
+    "DetailsTable": 641,
+    "DetailsRecord": 934,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "dolores",
-      "ParameterObject2": "voluptates"
+      "ParameterObject1": "provident",
+      "ParameterObject2": "unde"
     },
-    "LastStarted": "2001-11-26T03:44:52.0740137+01:00",
-    "Created": "2002-09-24T03:44:52.0740137+02:00",
-    "StartCount": 119,
-    "DatabaseSerialNumber": "770995",
-    "Context": "ipsum",
-    "Result": "numquam",
+    "LastStarted": "2005-10-23T13:14:05.5382596+02:00",
+    "Created": "2004-12-12T13:14:05.5382596+01:00",
+    "StartCount": 635,
+    "DatabaseSerialNumber": "1374420",
+    "Context": "rerum",
+    "Result": "natus",
     "State": "All",
-    "Description": "Reduced 6th generation software",
-    "Response": "necessitatibus",
-    "Request": "qui",
-    "ProgressDescription": "Expanded motivating contingency",
-    "ProgressPercent": 18,
-    "FileName": "Stroman, Konopelski and Cummerata",
+    "Description": "Multi-tiered zero administration leverage",
+    "Response": "quos",
+    "Request": "animi",
+    "ProgressDescription": "Open-architected intermediate open architecture",
+    "ProgressPercent": 942,
+    "FileName": "Carter Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 628
       }
     }
   }

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Value": "enim",
-    "Tooltip": "aut",
+    "Id": 411,
+    "Value": "a",
+    "Tooltip": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 761
       }
     }
   },
   {
-    "Id": 810,
-    "Value": "enim",
-    "Tooltip": "aut",
+    "Id": 411,
+    "Value": "a",
+    "Tooltip": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 761
       }
     }
   }

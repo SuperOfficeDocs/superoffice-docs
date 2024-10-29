@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Shanahan Inc and Sons",
-  "Tooltip": "officia",
+  "Id": 917,
+  "Name": "O'Keefe-Johnston",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 433,
-  "Rank": 784,
+  "UdListDefinitionId": 476,
+  "Rank": 714,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

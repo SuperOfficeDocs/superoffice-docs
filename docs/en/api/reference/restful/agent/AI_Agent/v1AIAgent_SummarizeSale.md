@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 444,
-  "NumSentences": 50,
-  "IsoLangCode": "minima"
+  "SaleId": 234,
+  "NumSentences": 734,
+  "IsoLangCode": "distinctio"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"magni"
+"odit"
 ```

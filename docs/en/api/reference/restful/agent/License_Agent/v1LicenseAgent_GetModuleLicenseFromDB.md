@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Weber LLC",
-  "ModuleName": "Dietrich-Douglas"
+  "OwnerName": "Miller-Yundt",
+  "ModuleName": "Rippin Group"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rohan LLC",
-  "ModuleName": "Mohr-Emmerich",
-  "ModuleDescription": "Automated user-facing functionalities",
-  "ModuleTooltip": "molestias",
-  "ModuleVersion": "quisquam",
+  "OwnerName": "Padberg-Mertz",
+  "ModuleName": "Lueilwitz-Macejkovic",
+  "ModuleDescription": "Monitored object-oriented moderator",
+  "ModuleTooltip": "officiis",
+  "ModuleVersion": "voluptas",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 958,
-  "ExtraFlags": 846,
-  "ExtraInfo": "quia",
-  "SortOrder": 235,
+  "NumberOfLicenses": 533,
+  "ExtraFlags": 796,
+  "ExtraInfo": "asperiores",
+  "SortOrder": 833,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Spinka-Purdy",
-  "Signature": "atque"
+  "PrerequisiteModuleName": "Lang Inc and Sons",
+  "Signature": "repellat"
 }
 ```

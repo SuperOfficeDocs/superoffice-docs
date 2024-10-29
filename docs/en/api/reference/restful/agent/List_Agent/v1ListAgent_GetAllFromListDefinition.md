@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 580,
+  "UdListDefinitionId": 365,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Pollich LLC",
-    "Tooltip": "est",
+    "Id": 378,
+    "Name": "Becker-Johnson",
+    "Tooltip": "eligendi",
     "Deleted": true,
-    "UdListDefinitionId": 722,
-    "Rank": 495,
+    "UdListDefinitionId": 404,
+    "Rank": 804,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldLength": 796
       }
     }
   }

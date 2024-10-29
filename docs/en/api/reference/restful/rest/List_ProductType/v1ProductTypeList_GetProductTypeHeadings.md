@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 501,
-    "Name": "Gleason, Kreiger and Orn",
-    "Tooltip": "placeat",
+    "HeadingId": 234,
+    "Name": "Herman, Doyle and Torp",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 339,
-    "UdListDefinitionId": 233,
+    "Rank": 858,
+    "UdListDefinitionId": 121,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 296
+        "FieldLength": 543
       }
     }
   }

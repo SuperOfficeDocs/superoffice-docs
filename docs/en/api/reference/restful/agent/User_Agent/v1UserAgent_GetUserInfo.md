@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=57
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=378
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": true,
-  "UserInfoId": 559,
-  "UserName": "Gaylord-Hammes",
-  "PersonId": 822,
-  "Rank": 68,
-  "Tooltip": "sed",
-  "UserGroupId": 881,
-  "EjUserId": 905,
+  "Deleted": false,
+  "UserInfoId": 472,
+  "UserName": "Quitzon LLC",
+  "PersonId": 948,
+  "Rank": 770,
+  "Tooltip": "itaque",
+  "UserGroupId": 777,
+  "EjUserId": 20,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "modi",
-    "dolor"
+    "inventore",
+    "praesentium"
   ],
   "CanLogon": false,
-  "RoleName": "Homenick, Luettgen and Klocko",
-  "RoleTooltip": "assumenda",
-  "UserGroupName": "Stiedemann-Olson",
-  "UserGroupTooltip": "velit",
+  "RoleName": "Heller, Hansen and Wilkinson",
+  "RoleTooltip": "sunt",
+  "UserGroupName": "Connelly Inc and Sons",
+  "UserGroupTooltip": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 312
     }
   }
 }

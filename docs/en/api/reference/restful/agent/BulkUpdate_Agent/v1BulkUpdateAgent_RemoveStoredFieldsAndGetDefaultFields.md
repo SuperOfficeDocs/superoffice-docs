@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Swaniawski, Bauch and Steuber",
-  "Context": "necessitatibus"
+  "TableName": "D'Amore-Vandervort",
+  "Context": "in"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "eveniet",
-    "ValueType": "doloremque",
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "et",
+    "ValueType": "fugit",
     "Mandatory": false,
-    "EncodedDisplayName": "Hammes Group",
-    "EncodedDisplayDescription": "Stand-alone tertiary interface",
-    "IconHint": "sint",
+    "EncodedDisplayName": "Goldner-Gulgowski",
+    "EncodedDisplayDescription": "Robust neutral software",
+    "IconHint": "praesentium",
     "ControlInfos": [
       {
-        "Type": "velit",
-        "Label": "nesciunt",
-        "Dimension": 878,
-        "ListProviderName": "Moore LLC",
-        "ListProviderExtraInfo": "nisi",
-        "ListProviderPrimaryKeyName": "Kilback, Keeling and Klein",
-        "ListLeadText": "totam",
+        "Type": "vel",
+        "Label": "porro",
+        "Dimension": 956,
+        "ListProviderName": "Schmitt, McGlynn and Boyle",
+        "ListProviderExtraInfo": "a",
+        "ListProviderPrimaryKeyName": "Bernhard Inc and Sons",
+        "ListLeadText": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 244
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "EncodedDataCaption": "facere",
-    "EncodedDataCaptionDescription": "Horizontal explicit function",
-    "CurrentOperationType": "iusto",
+    "EncodedDataCaption": "harum",
+    "EncodedDataCaptionDescription": "Adaptive 3rd generation leverage",
+    "CurrentOperationType": "nesciunt",
     "Values": [
-      "et",
-      "optio"
+      "soluta",
+      "modi"
     ],
     "DisplayValues": [
-      "sit",
-      "eum"
+      "et",
+      "sed"
     ],
     "OperationInfos": [
       {
-        "Key": "animi",
-        "EncodedDisplayName": "Rempel Inc and Sons",
+        "Key": "eligendi",
+        "EncodedDisplayName": "Bahringer-Hegmann",
         "EncodedLeadTexts": [
-          "voluptas",
-          "non"
+          "ut",
+          "illo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 70
+            "FieldType": "System.Int32",
+            "FieldLength": 54
           }
         }
       },
       {
-        "Key": "animi",
-        "EncodedDisplayName": "Rempel Inc and Sons",
+        "Key": "eligendi",
+        "EncodedDisplayName": "Bahringer-Hegmann",
         "EncodedLeadTexts": [
-          "voluptas",
-          "non"
+          "ut",
+          "illo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 70
+            "FieldType": "System.Int32",
+            "FieldLength": 54
           }
         }
       }

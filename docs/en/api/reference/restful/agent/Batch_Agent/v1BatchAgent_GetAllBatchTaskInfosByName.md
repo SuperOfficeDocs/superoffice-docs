@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Beahan, Bogan and Homenick"
+  "TaskName": "Fay Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Roob-Hyatt",
-    "AssociateId": 601,
-    "DetailsTable": 855,
-    "DetailsRecord": 238,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 749,
+    "Name": "Fritsch-Lebsack",
+    "AssociateId": 143,
+    "DetailsTable": 602,
+    "DetailsRecord": 882,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "dignissimos",
-      "ParameterObject2": "laborum"
+      "ParameterObject1": "qui",
+      "ParameterObject2": "officia"
     },
-    "LastStarted": "2015-06-15T03:44:52.0740137+02:00",
-    "Created": "2021-07-23T03:44:52.0740137+02:00",
-    "StartCount": 813,
-    "DatabaseSerialNumber": "551976",
-    "Context": "corporis",
-    "Result": "dolorem",
+    "LastStarted": "2020-10-19T13:14:05.5382596+02:00",
+    "Created": "2009-06-16T13:14:05.5382596+02:00",
+    "StartCount": 134,
+    "DatabaseSerialNumber": "900065",
+    "Context": "architecto",
+    "Result": "cupiditate",
     "State": "All",
-    "Description": "Upgradable multi-tasking parallelism",
-    "Response": "repudiandae",
-    "Request": "at",
-    "ProgressDescription": "Cross-group homogeneous initiative",
-    "ProgressPercent": 233,
-    "FileName": "Lowe, Donnelly and Jerde",
+    "Description": "Focused discrete system engine",
+    "Response": "rerum",
+    "Request": "aut",
+    "ProgressDescription": "Ameliorated solution-oriented algorithm",
+    "ProgressPercent": 417,
+    "FileName": "Sipes, Wiza and Bosco",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 225
+        "FieldType": "System.Int32",
+        "FieldLength": 369
       }
     }
   }

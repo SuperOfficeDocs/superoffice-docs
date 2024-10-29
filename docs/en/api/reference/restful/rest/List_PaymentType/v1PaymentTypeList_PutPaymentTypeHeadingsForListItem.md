@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Luettgen, Jewess and Langosh",
-    "ToolTip": "Qui quo dolor architecto voluptatibus consequatur possimus.",
-    "Deleted": false,
-    "Rank": 1002,
-    "Type": "qui",
-    "ColorBlock": 334,
-    "IconHint": "eligendi",
+    "Id": 112,
+    "Name": "Bayer, Auer and Torp",
+    "ToolTip": "Est voluptas sint inventore fugiat iure illo eligendi.",
+    "Deleted": true,
+    "Rank": 423,
+    "Type": "velit",
+    "ColorBlock": 782,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2002-08-01T03:44:58.0312644+02:00",
+    "LastChanged": "2015-10-03T13:14:11.4298249+02:00",
     "ChildItems": [
       {
-        "Id": 245,
-        "Name": "Swift, Howe and Kirlin",
-        "ToolTip": "Magnam ullam quo aut sunt et.",
+        "Id": 408,
+        "Name": "Ritchie, Schimmel and Anderson",
+        "ToolTip": "Exercitationem porro et.",
         "Deleted": true,
-        "Rank": 696,
-        "Type": "numquam",
-        "ColorBlock": 15,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2016-06-28T03:44:58.0312644+02:00",
+        "Rank": 277,
+        "Type": "nostrum",
+        "ColorBlock": 646,
+        "IconHint": "natus",
+        "Selected": true,
+        "LastChanged": "2011-11-12T13:14:11.4298249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "odit",
+        "ExtraInfo": "molestias",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Mr. Nona Marty Stracke"
+        "FullName": "Isabel Schimmel"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "laborum",
-    "Hidden": true,
-    "FullName": "Prof. Emelie Roob"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Walter Reinger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Connelly, Rippin and Kuhlman",
-    "ToolTip": "Voluptas eius quibusdam.",
+    "Id": 216,
+    "Name": "Morar Group",
+    "ToolTip": "Qui veniam suscipit quod.",
     "Deleted": true,
-    "Rank": 270,
-    "Type": "et",
-    "ColorBlock": 880,
-    "IconHint": "dolorum",
+    "Rank": 749,
+    "Type": "sunt",
+    "ColorBlock": 710,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2018-06-19T03:44:58.0312644+02:00",
+    "LastChanged": "2013-08-31T13:14:11.4298249+02:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Hamill Group",
-        "ToolTip": "Delectus velit aliquid aliquid.",
+        "Id": 807,
+        "Name": "Reynolds Inc and Sons",
+        "ToolTip": "Culpa maiores.",
         "Deleted": false,
-        "Rank": 391,
-        "Type": "laudantium",
-        "ColorBlock": 946,
-        "IconHint": "sequi",
+        "Rank": 12,
+        "Type": "sapiente",
+        "ColorBlock": 961,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2011-09-27T03:44:58.0312644+02:00",
+        "LastChanged": "1998-12-04T13:14:11.4298249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quisquam",
-        "Hidden": false,
-        "FullName": "Elissa Kling V",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Winona Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 384
+            "FieldType": "System.String",
+            "FieldLength": 588
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "harum",
+    "ExtraInfo": "est",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Mrs. Jaylon Hilton Stoltenberg IV",
+    "FullName": "Bertram Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 589
+        "FieldType": "System.Int32",
+        "FieldLength": 118
       }
     }
   }

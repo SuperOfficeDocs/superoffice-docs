@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 709,
-  "QuoteAlternativeId": 216,
-  "QuoteAlternativeName": "Ratke LLC"
+  "QuoteVersionId": 295,
+  "QuoteAlternativeId": 659,
+  "QuoteAlternativeName": "Nader-Gusikowski"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 282,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 929,
-  "Name": "Keebler, Donnelly and Fadel",
-  "Description": "Total contextually-based extranet",
+  "QuoteAlternativeId": 77,
+  "ERPQuoteAlternativeKey": "voluptatibus",
+  "QuoteVersionId": 361,
+  "Name": "Rutherford, Prohaska and Lakin",
+  "Description": "Enterprise-wide exuding productivity",
   "Status": "Error",
-  "Reason": "synthesize viral supply-chains",
-  "ERPDiscountPercent": 28998.902,
-  "ERPDiscountAmount": 8496.274,
-  "DiscountPercent": 26043.54,
-  "DiscountAmount": 20994.666,
+  "Reason": "",
+  "ERPDiscountPercent": 21392.684,
+  "ERPDiscountAmount": 28651.028,
+  "DiscountPercent": 197.442,
+  "DiscountAmount": 17174.32,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "itaque",
-  "VAT": 11708.624,
-  "EarningPercent": 22915.808,
-  "EarningAmount": 13379.046,
-  "SubTotal": 12394.97,
-  "TotalPrice": 14012.114,
-  "ExtraField1": "officiis",
-  "ExtraField2": "perferendis",
-  "ExtraField3": "et",
-  "ExtraField4": "facilis",
-  "ExtraField5": "repellendus",
+  "VATInfo": "harum",
+  "VAT": 12090.972,
+  "EarningPercent": 25965.19,
+  "EarningAmount": 18963.834,
+  "SubTotal": 22618.077999999998,
+  "TotalPrice": 1366.424,
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "sit",
+  "ExtraField4": "aut",
+  "ExtraField5": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 237
     }
   }
 }

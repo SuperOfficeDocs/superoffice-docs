@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quos",
+  "RawValue": "enim",
   "Specification": null,
-  "DisplayValue": "architecto",
-  "DisplayTooltip": "qui",
+  "DisplayValue": "ratione",
+  "DisplayTooltip": "eum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 855,
-  "PrefDescId": 480,
-  "TableName": "Steuber LLC",
-  "UserPreferenceId": 173
+  "TargetId": 886,
+  "PrefDescId": 138,
+  "TableName": "West, Hartmann and Hoppe",
+  "UserPreferenceId": 263
 }
 ```
 

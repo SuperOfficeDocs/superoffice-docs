@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "ad",
-    "omnis"
+    "distinctio",
+    "voluptas"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "aspernatur",
+    "Label": "nesciunt",
     "Values": [
       {
-        "Label": "illo",
-        "Value": 21630.868,
-        "Description": "Versatile didactic functionalities",
+        "Label": "ea",
+        "Value": 6857.192,
+        "Description": "Streamlined transitional internet solution",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldType": "System.String",
+            "FieldLength": 341
           }
         }
       },
       {
-        "Label": "illo",
-        "Value": 21630.868,
-        "Description": "Versatile didactic functionalities",
+        "Label": "ea",
+        "Value": 6857.192,
+        "Description": "Streamlined transitional internet solution",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldType": "System.String",
+            "FieldLength": 341
           }
         }
       }
     ],
-    "Description": "Object-based homogeneous success",
+    "Description": "Synchronised global middleware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldLength": 295
       }
     }
   },
   {
-    "Label": "aspernatur",
+    "Label": "nesciunt",
     "Values": [
       {
-        "Label": "illo",
-        "Value": 21630.868,
-        "Description": "Versatile didactic functionalities",
+        "Label": "ea",
+        "Value": 6857.192,
+        "Description": "Streamlined transitional internet solution",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldType": "System.String",
+            "FieldLength": 341
           }
         }
       },
       {
-        "Label": "illo",
-        "Value": 21630.868,
-        "Description": "Versatile didactic functionalities",
+        "Label": "ea",
+        "Value": 6857.192,
+        "Description": "Streamlined transitional internet solution",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldType": "System.String",
+            "FieldLength": 341
           }
         }
       }
     ],
-    "Description": "Object-based homogeneous success",
+    "Description": "Synchronised global middleware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldLength": 295
       }
     }
   }

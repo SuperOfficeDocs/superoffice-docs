@@ -109,7 +109,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 175
+  "ChatSessionId": 152
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 240,
-  "TopicId": 34,
+  "ChatSessionId": 725,
+  "TopicId": 275,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolores",
-  "CustomerHost": "fuga",
-  "CustomerName": "Wuckert, Abshire and Brakus",
-  "CustomerEmail": "alessandra_rippin@lemke.name",
-  "CustomerPhone": "1-318-117-9519 x4339",
+  "CustomerAlias": "eum",
+  "CustomerHost": "sequi",
+  "CustomerName": "Schinner, Daugherty and Collins",
+  "CustomerEmail": "jess_stokes@fisherraynor.us",
+  "CustomerPhone": "987.222.0017",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Pollich, Dooley and Batz",
+  "CustomerCompanyName": "Mayert-Heathcote",
   "Status": "Closed",
-  "FirstMessage": "neque",
-  "LastMessage": "id",
-  "WhenRequested": "2022-07-30T03:44:52.2459049+02:00",
-  "WhenStarted": "2012-04-28T03:44:52.2459049+02:00",
-  "WhenEnded": "2017-02-04T03:44:52.2459049+01:00",
-  "WhenIdle": "2018-01-24T03:44:52.2459049+01:00",
-  "WhenFetched": "2012-05-14T03:44:52.2459049+02:00",
-  "SessionKey": "eveniet",
-  "InitialQueuePos": 503,
-  "AlertLevel": 941,
-  "Rank": 7,
+  "FirstMessage": "deserunt",
+  "LastMessage": "odit",
+  "WhenRequested": "2006-10-07T13:14:05.6007634+02:00",
+  "WhenStarted": "2024-07-26T13:14:05.6007634+02:00",
+  "WhenEnded": "2002-03-31T13:14:05.6007634+02:00",
+  "WhenIdle": "2016-11-01T13:14:05.6007634+01:00",
+  "WhenFetched": "2022-09-05T13:14:05.6007634+02:00",
+  "SessionKey": "mollitia",
+  "InitialQueuePos": 729,
+  "AlertLevel": 218,
+  "Rank": 921,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 926,
+  "Rating": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 394
     }
   }
 }

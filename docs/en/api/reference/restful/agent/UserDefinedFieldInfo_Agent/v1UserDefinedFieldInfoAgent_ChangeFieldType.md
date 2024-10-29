@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 70,
-  "ColumnId": 494,
-  "FieldDefault": "totam",
-  "FieldHeight": 313,
-  "FieldLabel": "maiores",
-  "FieldLeft": 474,
-  "FieldTop": 68,
+  "UDefFieldId": 212,
+  "ColumnId": 200,
+  "FieldDefault": "rerum",
+  "FieldHeight": 693,
+  "FieldLabel": "inventore",
+  "FieldLeft": 185,
+  "FieldTop": 194,
   "FieldType": "Checkbox",
-  "FieldWidth": 255,
-  "FormatMask": "delectus",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 980,
-  "LabelLeft": 653,
-  "LabelTop": 682,
-  "LabelWidth": 345,
-  "LastVersionId": 312,
-  "ListTableId": 431,
-  "IsMandatory": true,
+  "FieldWidth": 4,
+  "FormatMask": "magnam",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 291,
+  "LabelLeft": 263,
+  "LabelTop": 690,
+  "LabelWidth": 243,
+  "LastVersionId": 1001,
+  "ListTableId": 736,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 921,
-  "ProgId": "aliquam",
+  "Page1LineNo": 613,
+  "ProgId": "fuga",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 733,
-  "TextLength": 660,
-  "Tooltip": "non",
-  "UdefIdentity": 627,
-  "UDListDefinitionId": 610,
+  "ShortLabel": "eius",
+  "TabOrder": 164,
+  "TextLength": 489,
+  "Tooltip": "aut",
+  "UdefIdentity": 44,
+  "UDListDefinitionId": 734,
   "Justification": "Center",
-  "Version": 136,
-  "TemplateVariableName": "Farrell Group",
+  "Version": 873,
+  "TemplateVariableName": "Balistreri LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Will-Zboncak",
+  "MdoListName": "Runte Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldLength": 764
     }
   }
 }

@@ -93,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 974,
-  "Name": "Harvey, Brekke and Pouros",
-  "Config": "animi",
-  "Rank": 774,
-  "Client": "quia",
-  "Style": "est"
+  "DashboardThemeId": 472,
+  "Name": "O'Keefe-Dibbert",
+  "Config": "ea",
+  "Rank": 937,
+  "Client": "dolorem",
+  "Style": "voluptatum"
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 807,
-  "Name": "Herman-Schowalter",
-  "Config": "doloremque",
-  "Rank": 1000,
-  "Client": "et",
-  "Style": "eos",
+  "DashboardThemeId": 459,
+  "Name": "Hahn-Daniel",
+  "Config": "consectetur",
+  "Rank": 746,
+  "Client": "voluptatem",
+  "Style": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 279
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   },
   "_Links": {

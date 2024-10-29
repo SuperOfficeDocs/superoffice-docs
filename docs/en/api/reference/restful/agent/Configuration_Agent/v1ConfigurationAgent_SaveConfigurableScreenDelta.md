@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 40,
-  "Name": "Steuber Inc and Sons",
-  "Description": "Networked neutral emulation",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 198,
+  "Name": "Kautzer Inc and Sons",
+  "Description": "User-centric holistic array",
+  "DeltaJson": "natus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "atque",
-  "UpdatedDate": "2004-02-03T03:44:52.2615302+01:00",
-  "CreatedDate": "1997-12-22T03:44:52.2615302+01:00",
+  "RecipeId": "molestiae",
+  "UpdatedDate": "2023-02-01T13:14:05.6163893+01:00",
+  "CreatedDate": "2015-06-21T13:14:05.6163893+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    618,
-    755
+    557,
+    724
   ],
-  "AppliesToKey": "ut"
+  "AppliesToKey": "autem"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 50,
-  "Name": "Walker-Hackett",
-  "Description": "Ergonomic optimal help-desk",
-  "DeltaJson": "officia",
+  "ConfigurableScreenDeltaId": 385,
+  "Name": "Sauer-Keebler",
+  "Description": "Vision-oriented demand-driven neural-net",
+  "DeltaJson": "ut",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "nihil",
-  "UpdatedDate": "2016-05-21T03:44:52.2615302+02:00",
-  "CreatedDate": "2019-06-03T03:44:52.2615302+02:00",
+  "RecipeId": "aut",
+  "UpdatedDate": "2016-11-29T13:14:05.6163893+01:00",
+  "CreatedDate": "2011-02-03T13:14:05.6163893+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    49,
-    672
+    12,
+    249
   ],
-  "AppliesToKey": "ullam",
+  "AppliesToKey": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

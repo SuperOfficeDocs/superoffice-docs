@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Roberts Inc and Sons",
-    "Tooltip": "eligendi",
+    "Id": 673,
+    "Name": "Welch-Becker",
+    "Tooltip": "optio",
     "Deleted": true,
-    "UdListDefinitionId": 493,
-    "Rank": 96
+    "UdListDefinitionId": 568,
+    "Rank": 200
   },
   {
-    "Id": 984,
-    "Name": "Roberts Inc and Sons",
-    "Tooltip": "eligendi",
+    "Id": 673,
+    "Name": "Welch-Becker",
+    "Tooltip": "optio",
     "Deleted": true,
-    "UdListDefinitionId": 493,
-    "Rank": 96
+    "UdListDefinitionId": 568,
+    "Rank": 200
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Gulgowski LLC",
-    "Tooltip": "porro",
+    "Id": 895,
+    "Name": "Beahan-O'Hara",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 495,
-    "Rank": 660,
+    "UdListDefinitionId": 439,
+    "Rank": 744,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 23
       }
     }
   }

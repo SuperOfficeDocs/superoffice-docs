@@ -81,21 +81,21 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 306,
+  "SelectionId": 159,
   "Criteria": [
     {
-      "Name": "Rice LLC",
-      "Description": "Virtual upward-trending system engine",
-      "Rank": 139,
+      "Name": "Ledner-Tillman",
+      "Description": "Persistent discrete encoding",
+      "Rank": 518,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rice LLC",
-      "Description": "Virtual upward-trending system engine",
-      "Rank": 139,
+      "Name": "Ledner-Tillman",
+      "Description": "Persistent discrete encoding",
+      "Rank": 518,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bode-Mosciski",
-    "Description": "Multi-layered reciprocal open architecture",
-    "Rank": 738,
+    "Name": "Willms LLC",
+    "Description": "Seamless radical concept",
+    "Rank": 997,
     "Restrictions": [
       {
-        "Name": "Heller LLC",
-        "Operator": "harum",
+        "Name": "Schuster, Rath and Jakubowski",
+        "Operator": "cumque",
         "Values": [
-          "quos",
-          "sunt"
+          "molestiae",
+          "qui"
         ],
         "DisplayValues": [
-          "vitae",
-          "ut"
+          "quisquam",
+          "eius"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 214,
+        "InterParenthesis": 760,
         "InterOperator": "And",
-        "UniqueHash": 955
+        "UniqueHash": 337
       }
     ]
   },
   {
-    "Name": "Bode-Mosciski",
-    "Description": "Multi-layered reciprocal open architecture",
-    "Rank": 738,
+    "Name": "Willms LLC",
+    "Description": "Seamless radical concept",
+    "Rank": 997,
     "Restrictions": [
       {
-        "Name": "Heller LLC",
-        "Operator": "harum",
+        "Name": "Schuster, Rath and Jakubowski",
+        "Operator": "cumque",
         "Values": [
-          "quos",
-          "sunt"
+          "molestiae",
+          "qui"
         ],
         "DisplayValues": [
-          "vitae",
-          "ut"
+          "quisquam",
+          "eius"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 214,
+        "InterParenthesis": 760,
         "InterOperator": "And",
-        "UniqueHash": 955
+        "UniqueHash": 337
       }
     ]
   }

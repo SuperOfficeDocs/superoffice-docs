@@ -28,6 +28,7 @@ Screen choosers
 |updated|Last updated when|UtcDateTime|&#x25CF;|
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort| |
+|ejscript\_id|The ejscript row containing the TypeScript for this trigger|FK [ejscript](ejscript.md)|&#x25CF;|
 
 
 ![screen_chooser table relationship diagram](./media/screen_chooser.png)
@@ -47,6 +48,7 @@ Screen choosers
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ejscript](ejscript.md)  |ejscript |
 |[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
 
 

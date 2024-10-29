@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Bauch-Thiel",
-    "ToolTip": "Porro eligendi eum et iure rerum sit.",
-    "Deleted": true,
-    "Rank": 777,
-    "Type": "in",
-    "ColorBlock": 957,
-    "IconHint": "vitae",
+    "Id": 305,
+    "Name": "Daniel, Yost and Corkery",
+    "ToolTip": "Qui minima quisquam illum laboriosam aut incidunt.",
+    "Deleted": false,
+    "Rank": 788,
+    "Type": "inventore",
+    "ColorBlock": 42,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2017-07-06T03:44:58.0781351+02:00",
+    "LastChanged": "2004-01-09T13:14:11.4610767+01:00",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "Kerluke Inc and Sons",
-        "ToolTip": "Totam cumque.",
+        "Id": 692,
+        "Name": "Raynor, Pagac and Block",
+        "ToolTip": "Quo ex enim.",
         "Deleted": false,
-        "Rank": 464,
-        "Type": "quas",
-        "ColorBlock": 396,
-        "IconHint": "sed",
+        "Rank": 16,
+        "Type": "ipsam",
+        "ColorBlock": 335,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2015-03-17T03:44:58.0781351+01:00",
+        "LastChanged": "2021-05-21T13:14:11.4610767+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Emelia Auer Sr.",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "iste",
+        "Hidden": true,
+        "FullName": "Janet Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 964
+            "FieldLength": 975
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Weston Kautzer",
+    "ExtraInfo": "sit",
+    "StyleHint": "eius",
+    "Hidden": false,
+    "FullName": "Kendrick Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 460
       }
     }
   }

@@ -75,28 +75,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Fay-Bahringer",
+  "ProviderName": "Heathcote Group",
   "Restrictions": [
     {
-      "Name": "Beahan LLC",
-      "Operator": "ab",
+      "Name": "Morar Group",
+      "Operator": "corporis",
       "Values": [
-        "tempora",
-        "et"
+        "excepturi",
+        "distinctio"
       ],
       "DisplayValues": [
-        "voluptas",
-        "culpa"
+        "natus",
+        "hic"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 735,
+      "InterParenthesis": 889,
       "InterOperator": "And",
-      "UniqueHash": 653
+      "UniqueHash": 243
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  967,
-  767
+  133,
+  595
 ]
 ```

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 466,
-  "Name": "Kris-Hoeger",
-  "Tooltip": "dolores",
+  "HeadingId": 861,
+  "Name": "Conroy, Schaefer and Spencer",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 709,
-  "UdListDefinitionId": 288
+  "Rank": 907,
+  "UdListDefinitionId": 532
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 342,
-  "Name": "Weissnat-Raynor",
-  "Tooltip": "magnam",
+  "HeadingId": 769,
+  "Name": "Christiansen Group",
+  "Tooltip": "vitae",
   "Deleted": true,
-  "Rank": 857,
-  "UdListDefinitionId": 286,
+  "Rank": 191,
+  "UdListDefinitionId": 51,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   }
 }

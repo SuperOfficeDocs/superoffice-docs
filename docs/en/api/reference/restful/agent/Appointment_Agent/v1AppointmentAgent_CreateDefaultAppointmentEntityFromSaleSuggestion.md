@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 519,
-  "SaleId": 877,
-  "CreateNow": true,
-  "OwnerId": 888
+  "SuggestedAppointmentId": 965,
+  "SaleId": 271,
+  "CreateNow": false,
+  "OwnerId": 408
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-11-10T03:44:51.9802728+01:00",
-  "AppointmentId": 700,
-  "Description": "Re-engineered asynchronous system engine",
-  "Title": "porro",
-  "Agenda": "optio",
-  "InternalNotes": "aliquam",
-  "StartDate": "2001-09-03T03:44:51.9802728+02:00",
-  "EndDate": "2009-08-04T03:44:51.9802728+02:00",
+  "CreatedDate": "2011-03-19T13:14:05.4601291+01:00",
+  "AppointmentId": 627,
+  "Description": "Seamless optimizing projection",
+  "Title": "autem",
+  "Agenda": "numquam",
+  "InternalNotes": "id",
+  "StartDate": "2004-08-22T13:14:05.4601291+02:00",
+  "EndDate": "2010-10-11T13:14:05.4601291+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 109,
+  "MotherId": 865,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-10-04T03:44:51.9958963+02:00",
+  "UpdatedDate": "2013-02-10T13:14:05.4601291+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 830,
+  "ActiveLinks": 60,
   "Links": [
     {
-      "EntityName": "Parker, Lynch and Bednar",
-      "Id": 597,
-      "Description": "Re-contextualized upward-trending hub",
-      "ExtraInfo": "consequuntur",
-      "LinkId": 221,
+      "EntityName": "Brakus-Feest",
+      "Id": 116,
+      "Description": "Future-proofed executive emulation",
+      "ExtraInfo": "sed",
+      "LinkId": 255,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldLength": 492
         }
       }
     }
   ],
-  "AlarmLeadTime": "saepe",
-  "HasAlarm": false,
-  "ColorIndex": 293,
+  "AlarmLeadTime": "rem",
+  "HasAlarm": true,
+  "ColorIndex": 841,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "molestias",
-  "LeadTime": "quo",
-  "Location": "consequatur",
-  "RejectCounter": 951,
+  "IsAlldayEvent": false,
+  "LagTime": "ad",
+  "LeadTime": "necessitatibus",
+  "Location": "inventore",
+  "RejectCounter": 466,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 935,
-      "PersonId": 195,
-      "ContactId": 408,
-      "EmailId": 437,
+      "AssociateId": 752,
+      "PersonId": 313,
+      "ContactId": 310,
+      "EmailId": 722,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "cassandra@watsicaratke.name",
-      "Description": "Optional logistical capability"
+      "EmailAddress": "nash@abernathyabshire.us",
+      "Description": "Balanced systematic workforce"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-03-11T03:44:51.9958963+01:00",
-  "HasConflict": false,
+  "ActiveDate": "1997-07-04T13:14:05.4601291+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 797,
+  "PreferredTZLocation": 527,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 376,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 125,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolorum",
+  "CentralserviceVideomeetId": "ad",
   "UserDefinedFields": {
-    "SuperOffice:1": "1502737931",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Mr. Arch Ethelyn Carter III",
+    "SuperOffice:2": "Sedrick Flatley"
   },
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "nemo"
+    "CustomFields1": "ut",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2008-12-07T03:44:51.9958963+01:00",
-  "PublishTo": "2021-05-20T03:44:51.9958963+02:00",
-  "PublishFrom": "2017-10-23T03:44:51.9958963+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-05-01T13:14:05.4601291+02:00",
+  "PublishTo": "2014-04-05T13:14:05.4601291+02:00",
+  "PublishFrom": "2000-05-16T13:14:05.4601291+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 316,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 228
         }
       }
     },
     {
-      "VisibleId": 316,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 228
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

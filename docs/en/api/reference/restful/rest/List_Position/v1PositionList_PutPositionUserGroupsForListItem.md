@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Gislason-Reichert",
-    "ToolTip": "Qui deserunt.",
+    "Id": 691,
+    "Name": "Hahn, Mills and Bahringer",
+    "ToolTip": "A sunt suscipit voluptas ex.",
     "Deleted": false,
-    "Rank": 273,
-    "Type": "dicta",
-    "ColorBlock": 111,
-    "IconHint": "excepturi",
+    "Rank": 75,
+    "Type": "est",
+    "ColorBlock": 398,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2002-10-31T03:44:58.0468534+01:00",
+    "LastChanged": "2023-11-14T13:14:11.4454508+01:00",
     "ChildItems": [
       {
-        "Id": 529,
-        "Name": "Kertzmann Group",
-        "ToolTip": "Sed fugit sequi et molestiae.",
-        "Deleted": false,
-        "Rank": 317,
-        "Type": "fuga",
-        "ColorBlock": 246,
-        "IconHint": "corporis",
+        "Id": 87,
+        "Name": "Stiedemann, Romaguera and Hills",
+        "ToolTip": "Impedit occaecati modi.",
+        "Deleted": true,
+        "Rank": 944,
+        "Type": "sunt",
+        "ColorBlock": 369,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2003-10-15T03:44:58.0468534+02:00",
+        "LastChanged": "2013-06-12T13:14:11.4454508+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "illo",
-        "Hidden": true,
-        "FullName": "Miss Maia Cecelia Klocko I"
+        "ExtraInfo": "veniam",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Olin Shanahan"
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "non",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Mr. Sabryna Reina Kunze II"
+    "FullName": "Enola Hintz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Romaguera LLC",
-    "ToolTip": "Et dolorem sed soluta est.",
+    "Id": 359,
+    "Name": "Terry-Rutherford",
+    "ToolTip": "Doloribus et eligendi doloribus ut quo.",
     "Deleted": false,
-    "Rank": 137,
-    "Type": "nam",
-    "ColorBlock": 182,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2019-02-12T03:44:58.0468534+01:00",
+    "Rank": 788,
+    "Type": "molestiae",
+    "ColorBlock": 137,
+    "IconHint": "unde",
+    "Selected": true,
+    "LastChanged": "2005-02-20T13:14:11.4454508+01:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Hane, Lubowitz and Lind",
-        "ToolTip": "Occaecati sint ad ipsum est et maiores qui.",
+        "Id": 817,
+        "Name": "Weissnat Inc and Sons",
+        "ToolTip": "Dolorum rerum in.",
         "Deleted": false,
-        "Rank": 586,
-        "Type": "tenetur",
-        "ColorBlock": 32,
-        "IconHint": "nemo",
+        "Rank": 837,
+        "Type": "accusamus",
+        "ColorBlock": 797,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2021-12-13T03:44:58.0468534+01:00",
+        "LastChanged": "2005-06-07T13:14:11.4454508+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Emmett Purdy",
+        "ExtraInfo": "officiis",
+        "StyleHint": "nisi",
+        "Hidden": false,
+        "FullName": "Mr. Lilly Bashirian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldLength": 400
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "vel",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Landen Smith",
+    "FullName": "Zetta Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldType": "System.String",
+        "FieldLength": 723
       }
     }
   }

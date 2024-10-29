@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 122
+  "SaleId": 224
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Dooley-Prohaska",
-    "Comment": "eius",
-    "StakeholderRoleId": 464,
-    "CountryId": 449,
-    "PersonId": 107,
-    "EmailDescription": "london@cummerata.name",
-    "EmailId": 923,
-    "EmailAddress": "layla@loweswift.ca",
-    "PhoneId": 981,
-    "ContactName": "Bartoletti, Wisoky and Greenholt",
-    "ContactId": 178,
-    "SaleId": 459,
-    "Mrmrs": "sapiente",
-    "Firstname": "Casey",
-    "MiddleName": "Reichel, Graham and Koelpin",
-    "Lastname": "Nolan",
-    "SaleStakeholderId": 664,
-    "Rank": 290,
-    "Phone": "123.509.4003",
+    "StakeholderRoleName": "Rodriguez Group",
+    "Comment": "rerum",
+    "StakeholderRoleId": 826,
+    "CountryId": 490,
+    "PersonId": 824,
+    "EmailDescription": "karson_mayer@wyman.uk",
+    "EmailId": 453,
+    "EmailAddress": "aurore@trantow.info",
+    "PhoneId": 208,
+    "ContactName": "Farrell, Quitzon and Schinner",
+    "ContactId": 765,
+    "SaleId": 761,
+    "Mrmrs": "quod",
+    "Firstname": "Grace",
+    "MiddleName": "Schaefer LLC",
+    "Lastname": "Gutmann",
+    "SaleStakeholderId": 450,
+    "Rank": 15,
+    "Phone": "276.086.6896 x8322",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldLength": 357
       }
     }
   }

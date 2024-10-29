@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 535,
-  "Name": "Kessler-Simonis",
-  "CurrencyId": 705,
-  "EnglishName": "Borer-McGlynn",
+  "CountryId": 17,
+  "Name": "Jast-Hudson",
+  "CurrencyId": 115,
+  "EnglishName": "Parker-Boyer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Innovative actuating pricing structure",
-  "OrgNrText": "531508",
-  "InterAreaPrefix": "qui",
-  "DialInPrefix": "dolor",
-  "ZipPrefix": "omnis",
-  "DomainName": "Walter, VonRueden and Christiansen",
-  "AddressLayoutId": 795,
-  "DomesticAddressLayoutId": 78,
-  "ForeignAddressLayoutId": 809,
-  "Rank": 924,
-  "Tooltip": "ut",
+  "ImageDescription": "Team-oriented attitude-oriented methodology",
+  "OrgNrText": "1539332",
+  "InterAreaPrefix": "esse",
+  "DialInPrefix": "voluptatibus",
+  "ZipPrefix": "a",
+  "DomainName": "King-Williamson",
+  "AddressLayoutId": 584,
+  "DomesticAddressLayoutId": 817,
+  "ForeignAddressLayoutId": 191,
+  "Rank": 209,
+  "Tooltip": "cum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

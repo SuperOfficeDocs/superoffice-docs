@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 185,
-      "ColumnId": 396,
-      "FieldDefault": "ratione",
-      "FieldHeight": 606,
-      "FieldLabel": "dolores",
-      "FieldLeft": 214,
-      "FieldTop": 997,
+      "UDefFieldId": 213,
+      "ColumnId": 871,
+      "FieldDefault": "quam",
+      "FieldHeight": 838,
+      "FieldLabel": "aut",
+      "FieldLeft": 191,
+      "FieldTop": 239,
       "FieldType": "Checkbox",
-      "FieldWidth": 906,
-      "FormatMask": "deserunt",
+      "FieldWidth": 602,
+      "FormatMask": "laboriosam",
       "HideLabel": true,
       "IsIndexed": false,
-      "LabelHeight": 230,
-      "LabelLeft": 627,
-      "LabelTop": 273,
-      "LabelWidth": 69,
-      "LastVersionId": 880,
-      "ListTableId": 899,
+      "LabelHeight": 227,
+      "LabelLeft": 314,
+      "LabelTop": 498,
+      "LabelWidth": 453,
+      "LastVersionId": 43,
+      "ListTableId": 590,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 54,
-      "ProgId": "et",
+      "Page1LineNo": 608,
+      "ProgId": "officia",
       "IsReadOnly": false,
-      "ShortLabel": "sint",
-      "TabOrder": 580,
-      "TextLength": 942,
-      "Tooltip": "veritatis",
-      "UdefIdentity": 563,
-      "UDListDefinitionId": 352,
+      "ShortLabel": "iusto",
+      "TabOrder": 984,
+      "TextLength": 109,
+      "Tooltip": "rem",
+      "UdefIdentity": 508,
+      "UDListDefinitionId": 76,
       "Justification": "Center",
-      "Version": 31,
-      "TemplateVariableName": "Rippin-Stamm",
+      "Version": 482,
+      "TemplateVariableName": "Miller-Schmeler",
       "HasBeenPublished": false,
-      "MdoListName": "Deckow LLC"
+      "MdoListName": "Lang Inc and Sons"
     }
   ]
 }

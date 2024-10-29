@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 607,
-  "Name": "Kreiger-Rau",
+  "ScreenChooserId": 303,
+  "Name": "Waelchi-Cremin",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "debitis",
-  "Source": "assumenda",
-  "Registered": "2022-11-29T03:44:57.687517+01:00",
-  "RegisteredAssociateId": 303,
-  "Updated": "2009-03-11T03:44:57.687517+01:00",
-  "UpdatedAssociateId": 22
+  "UniqueIdentifier": "veritatis",
+  "Source": "quam",
+  "Registered": "2016-10-28T13:14:11.1954363+02:00",
+  "RegisteredAssociateId": 673,
+  "Updated": "2015-08-06T13:14:11.1954363+02:00",
+  "UpdatedAssociateId": 214
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 183,
-  "Name": "Fahey, Wilderman and Stanton",
+  "ScreenChooserId": 472,
+  "Name": "West, White and Kilback",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "itaque",
-  "Source": "et",
-  "Registered": "2007-06-21T03:44:57.687517+02:00",
-  "RegisteredAssociateId": 649,
-  "Updated": "1999-11-19T03:44:57.687517+01:00",
-  "UpdatedAssociateId": 455,
+  "UniqueIdentifier": "et",
+  "Source": "sunt",
+  "Registered": "2020-11-05T13:14:11.1954363+01:00",
+  "RegisteredAssociateId": 227,
+  "Updated": "2007-02-24T13:14:11.1954363+01:00",
+  "UpdatedAssociateId": 782,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 646
     }
   },
   "_Links": {

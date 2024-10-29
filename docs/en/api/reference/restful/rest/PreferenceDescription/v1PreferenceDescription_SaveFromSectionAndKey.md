@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 374,
-  "Section": "animi",
-  "Key": "neque",
-  "Name": "Sanford LLC",
+  "PrefDescId": 743,
+  "Section": "expedita",
+  "Key": "sed",
+  "Name": "Walter-Toy",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Future-proofed neutral system engine",
-  "IsBuiltin": true,
-  "TableName": "Spencer, Pacocha and Ferry",
-  "UserDefinedListId": 217,
-  "Rank": 811,
-  "SubGroup": "repudiandae",
-  "MinLevel": 587,
-  "MaxValue": 441,
-  "MinValue": 191,
-  "RequiredLicense": "alias"
+  "Description": "Up-sized composite process improvement",
+  "IsBuiltin": false,
+  "TableName": "Little-Herzog",
+  "UserDefinedListId": 795,
+  "Rank": 474,
+  "SubGroup": "animi",
+  "MinLevel": 802,
+  "MaxValue": 584,
+  "MinValue": 895,
+  "RequiredLicense": "voluptatem"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 414,
-  "Section": "et",
-  "Key": "eaque",
-  "Name": "Schumm-Hyatt",
+  "PrefDescId": 581,
+  "Section": "suscipit",
+  "Key": "sed",
+  "Name": "Klein-Lynch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Adaptive foreground access",
+  "Description": "Persevering upward-trending middleware",
   "IsBuiltin": false,
-  "TableName": "Franecki LLC",
-  "UserDefinedListId": 451,
-  "Rank": 409,
-  "SubGroup": "ad",
-  "MinLevel": 344,
-  "MaxValue": 427,
-  "MinValue": 379,
-  "RequiredLicense": "velit",
+  "TableName": "Runolfsdottir, Kassulke and Pollich",
+  "UserDefinedListId": 507,
+  "Rank": 673,
+  "SubGroup": "at",
+  "MinLevel": 132,
+  "MaxValue": 117,
+  "MinValue": 333,
+  "RequiredLicense": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 188
     }
   }
 }

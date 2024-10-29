@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 747,
+  "RecordId": 87,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schamberger Inc and Sons",
-    "CrmFieldKey": "dolorem",
-    "Value": "numquam",
-    "DisplayValue": "molestiae",
-    "SyncToCrm": false,
+    "DisplayName": "Shields-Herman",
+    "CrmFieldKey": "qui",
+    "Value": "in",
+    "DisplayValue": "accusantium",
+    "SyncToCrm": true,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldLength": 177
       }
     }
   }

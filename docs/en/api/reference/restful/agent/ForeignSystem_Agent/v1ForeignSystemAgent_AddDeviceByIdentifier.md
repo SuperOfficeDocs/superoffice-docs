@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hessel-Schamberger",
-  "DeviceName": "Morissette, Ernser and Glover",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Blanda, Bashirian and Koepp",
+  "DeviceName": "Smith, Strosin and Muller",
+  "DeviceIdentifier": "in"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 819,
-  "Name": "Bahringer-McKenzie",
-  "CreatedDate": "2023-08-11T03:44:52.6521119+02:00",
-  "UpdatedDate": "2002-09-30T03:44:52.6521119+02:00",
-  "AssociateFullName": "Ms. Ernesto Wuckert Sr.",
-  "CreatedBy": "et",
-  "UpdatedBy": "debitis",
-  "DeviceIdentifier": "est",
-  "ForeignAppId": 469,
+  "ForeignDeviceId": 964,
+  "Name": "Predovic, Kihn and Lynch",
+  "CreatedDate": "2007-09-13T13:14:06.0382898+02:00",
+  "UpdatedDate": "1999-06-07T13:14:06.0382898+02:00",
+  "AssociateFullName": "Jessika Shanahan",
+  "CreatedBy": "consequuntur",
+  "UpdatedBy": "rem",
+  "DeviceIdentifier": "sequi",
+  "ForeignAppId": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 361
+      "FieldType": "System.Int32",
+      "FieldLength": 63
     }
   }
 }

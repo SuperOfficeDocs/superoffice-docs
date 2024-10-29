@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 784,
+  "PersonId": 5,
   "IncludeProjectDocuments": false,
-  "StartTime": "2006-12-21T03:44:52.4333602+01:00",
-  "EndTime": "2009-06-30T03:44:52.4333602+02:00",
-  "Count": 338,
+  "StartTime": "2019-08-16T13:14:05.7726487+02:00",
+  "EndTime": "2015-04-21T13:14:05.7726487+02:00",
+  "Count": 545,
   "DocumentTemplateIds": [
-    987,
-    539
+    991,
+    397
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 658,
-    "Attention": "voluptatum",
-    "Header": "quae",
-    "Name": "Rolfson, Abbott and Jacobi",
-    "OurRef": "nulla",
-    "YourRef": "ea",
-    "Description": "Synergistic bi-directional analyzer",
-    "DocumentTemplate": "atque",
-    "IsPublished": false,
-    "PersonId": 759,
-    "PersonFullName": "Ms. Idell Khalid Gulgowski",
-    "AssociateFullName": "Johnson Beier",
-    "ContactId": 456,
-    "ContactName": "Quigley, O'Connell and Wuckert",
-    "ProjectId": 730,
-    "ProjectName": "Volkman Group",
-    "AssociateId": 340,
-    "Snum": 770,
-    "SaleId": 348,
-    "SaleName": "Mosciski Group",
+    "DocumentId": 136,
+    "Attention": "ipsa",
+    "Header": "sint",
+    "Name": "Gislason Inc and Sons",
+    "OurRef": "ea",
+    "YourRef": "et",
+    "Description": "Advanced neutral complexity",
+    "DocumentTemplate": "hic",
+    "IsPublished": true,
+    "PersonId": 336,
+    "PersonFullName": "Noble Witting",
+    "AssociateFullName": "Mrs. Bernadine Stefan Bechtelar",
+    "ContactId": 585,
+    "ContactName": "Boyle-Mills",
+    "ProjectId": 680,
+    "ProjectName": "Prosacco, Strosin and Wintheiser",
+    "AssociateId": 655,
+    "Snum": 880,
+    "SaleId": 877,
+    "SaleName": "Runte-Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 306
+        "FieldLength": 636
       }
     }
   }

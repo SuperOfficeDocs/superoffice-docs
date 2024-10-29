@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptates",
+  "RawValue": "laborum",
   "Specification": null,
-  "DisplayValue": "quae",
-  "DisplayTooltip": "rerum",
+  "DisplayValue": "ea",
+  "DisplayTooltip": "ut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 706,
-  "PrefDescId": 953,
-  "TableName": "Reichel, Labadie and Howell",
-  "UserPreferenceId": 791
+  "TargetId": 231,
+  "PrefDescId": 834,
+  "TableName": "Kuphal, Larson and VonRueden",
+  "UserPreferenceId": 96
 }
 ```
 

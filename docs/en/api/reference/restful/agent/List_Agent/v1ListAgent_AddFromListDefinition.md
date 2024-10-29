@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 295,
+  "UdListDefinitionId": 426,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 377,
-  "Name": "Langosh Inc and Sons",
-  "Tooltip": "et",
+  "Id": 643,
+  "Name": "Streich, Jaskolski and Hand",
+  "Tooltip": "sint",
   "Deleted": false,
-  "UdListDefinitionId": 165,
-  "Rank": 138,
+  "UdListDefinitionId": 922,
+  "Rank": 466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldLength": 94
     }
   }
 }

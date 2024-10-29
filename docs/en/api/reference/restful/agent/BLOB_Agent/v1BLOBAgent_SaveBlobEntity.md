@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 203,
-  "BlobSize": 358,
-  "Description": "Ergonomic secondary circuit",
-  "ExtraInfo": "quo",
+  "BlobId": 815,
+  "BlobSize": 577,
+  "Description": "Fundamental stable matrices",
+  "ExtraInfo": "eum",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ut",
-  "OriginalSize": 874,
-  "CreatedDate": "2016-05-17T03:44:52.0896371+02:00",
-  "UpdatedDate": "1999-03-09T03:44:52.0896371+01:00",
+  "IsZipped": false,
+  "MimeType": "est",
+  "OriginalSize": 664,
+  "CreatedDate": "2021-04-15T13:14:05.5382596+02:00",
+  "UpdatedDate": "1998-12-25T13:14:05.5382596+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cum"
+  "ConceptualType": "ut"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 348,
-  "BlobSize": 535,
-  "Description": "Cross-platform tertiary emulation",
-  "ExtraInfo": "cum",
+  "BlobId": 488,
+  "BlobSize": 62,
+  "Description": "Secured responsive initiative",
+  "ExtraInfo": "non",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "iure",
-  "OriginalSize": 191,
-  "CreatedDate": "2017-10-16T03:44:52.0896371+02:00",
-  "UpdatedDate": "2001-02-08T03:44:52.0896371+01:00",
+  "MimeType": "nobis",
+  "OriginalSize": 408,
+  "CreatedDate": "2011-06-27T13:14:05.5382596+02:00",
+  "UpdatedDate": "2003-03-21T13:14:05.5382596+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "omnis",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   }
 }

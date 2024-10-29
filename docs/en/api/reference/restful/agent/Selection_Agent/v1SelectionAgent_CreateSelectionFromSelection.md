@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 813,
-  "Name": "Stehr, O'Keefe and Senger",
+  "SelectionId": 566,
+  "Name": "Hermann-Dicki",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual non-volatile artificial intelligence",
-  "Postit": "eligendi",
+  "Description": "Realigned needs-based policy",
+  "Postit": "modi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 132,
-  "IncludePerson": 205,
+  "GroupIdx": 658,
+  "IncludePerson": 719,
   "MemberCount": 99.99,
-  "Name": "Dibbert, King and Dooley",
-  "PostitTextId": 928,
-  "CreatedDate": "2008-04-02T03:44:53.1841498+02:00",
-  "SelectionId": 858,
-  "SoundEx": "impedit",
-  "Source": 913,
-  "TextId": 763,
-  "UpdatedDate": "2016-06-27T03:44:53.1841498+02:00",
-  "UpdatedCount": 269,
-  "Visibility": 902,
+  "Name": "Schmidt Group",
+  "PostitTextId": 51,
+  "CreatedDate": "2021-05-12T13:14:06.4445637+02:00",
+  "SelectionId": 457,
+  "SoundEx": "aut",
+  "Source": 747,
+  "TextId": 720,
+  "UpdatedDate": "2009-11-16T13:14:06.4445637+01:00",
+  "UpdatedCount": 396,
+  "Visibility": 514,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 221,
-  "TargetTableName": "Daugherty LLC",
+  "TargetTableNumber": 82,
+  "TargetTableName": "Cremin-Wisozk",
   "Completed": false,
-  "LeftSelectionId": 963,
-  "RightSelectionId": 306,
+  "LeftSelectionId": 747,
+  "RightSelectionId": 994,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johns Group",
-  "ShadowProviderName": "Emard Inc and Sons",
-  "ChartKey": "enim",
-  "LastLoaded": "2000-04-04T03:44:53.1841498+02:00",
-  "LastLoadedBy": 118,
+  "MainProviderName": "Haag Inc and Sons",
+  "ShadowProviderName": "Donnelly, McCullough and Herman",
+  "ChartKey": "doloremque",
+  "LastLoaded": "2007-11-14T13:14:06.4445637+01:00",
+  "LastLoadedBy": 220,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-12-05T03:44:53.1841498+01:00",
-  "LastMembershipChangeBy": 742,
+  "LastMembershipChange": "2011-11-28T13:14:06.4445637+01:00",
+  "LastMembershipChangeBy": 65,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "quia",
-  "MemberTabHeading": "nesciunt",
-  "MailingsProviderName": "McKenzie-Stroman",
-  "DashboardTileDefinitionId": 826,
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Morar Group",
+  "DashboardTileDefinitionId": 673,
   "VisibleFor": [
     {
-      "VisibleId": 765,
+      "VisibleId": 402,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 206
+          "FieldType": "System.String",
+          "FieldLength": 871
         }
       }
     },
     {
-      "VisibleId": 765,
+      "VisibleId": 402,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 206
+          "FieldType": "System.String",
+          "FieldLength": 871
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

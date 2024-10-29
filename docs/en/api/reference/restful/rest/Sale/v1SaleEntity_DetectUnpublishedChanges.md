@@ -27,7 +27,7 @@ True if the SaleEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Sale/UdefLayout/Changed?columnChangesOnly=True
+GET /api/v1/Sale/UdefLayout/Changed?columnChangesOnly=False
 ```
 
 
@@ -62,7 +62,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Changed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,5 +71,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

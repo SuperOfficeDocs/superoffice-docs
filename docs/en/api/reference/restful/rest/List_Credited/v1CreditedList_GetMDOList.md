@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=eos
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=officiis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Tromp, Mills and Schaefer",
-    "ToolTip": "Voluptas quisquam necessitatibus neque officiis et.",
+    "Id": 784,
+    "Name": "Pfeffer-Metz",
+    "ToolTip": "Reiciendis quisquam alias dolorem id placeat.",
     "Deleted": false,
-    "Rank": 633,
-    "Type": "nobis",
+    "Rank": 145,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Bernhard-McDermott",
-        "ToolTip": "Sit distinctio fuga explicabo tempore porro.",
+        "Id": 962,
+        "Name": "Funk LLC",
+        "ToolTip": "Ut temporibus itaque ullam et sed et ea.",
         "Deleted": true,
-        "Rank": 946,
-        "Type": "qui",
+        "Rank": 285,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iste",
-        "ColorBlock": 38,
-        "ExtraInfo": "ab",
-        "StyleHint": "dolor",
-        "FullName": "Hillary Raegan Quigley Jr.",
+        "IconHint": "quia",
+        "ColorBlock": 244,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "voluptas",
+        "FullName": "Johnson Boyer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 769
+            "FieldLength": 959
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 325,
-    "ExtraInfo": "eum",
-    "StyleHint": "blanditiis",
-    "FullName": "Jameson Ritchie",
+    "IconHint": "unde",
+    "ColorBlock": 757,
+    "ExtraInfo": "sed",
+    "StyleHint": "pariatur",
+    "FullName": "Lucas Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldLength": 400
       }
     }
   }

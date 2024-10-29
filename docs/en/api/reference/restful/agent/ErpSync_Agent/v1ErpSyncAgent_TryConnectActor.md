@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 478,
-  "CrmRecordId": 721,
+  "ErpConnectionId": 420,
+  "CrmRecordId": 883,
   "CrmActorType": "Contact",
-  "ErpKey": "aut",
+  "ErpKey": "sit",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Cummerata, Satterfield and Deckow",
-      "CrmFieldKey": "voluptas",
-      "Value": "ipsum",
-      "DisplayValue": "eum",
+      "DisplayName": "Cole, Walker and Bechtelar",
+      "CrmFieldKey": "quia",
+      "Value": "quaerat",
+      "DisplayValue": "magni",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Cummerata, Satterfield and Deckow",
-      "CrmFieldKey": "voluptas",
-      "Value": "ipsum",
-      "DisplayValue": "eum",
+      "DisplayName": "Cole, Walker and Bechtelar",
+      "CrmFieldKey": "quia",
+      "Value": "quaerat",
+      "DisplayValue": "magni",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }
@@ -111,5 +111,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

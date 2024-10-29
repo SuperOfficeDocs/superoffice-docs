@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 857,
-  "Name": "Konopelski Group",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "Rank": 729,
-  "UdListDefinitionId": 629
+  "HeadingId": 468,
+  "Name": "Hudson, Baumbach and Moore",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "Rank": 796,
+  "UdListDefinitionId": 337
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 150,
-  "Name": "Shields-Little",
-  "Tooltip": "alias",
+  "HeadingId": 998,
+  "Name": "Pacocha Group",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 271,
-  "UdListDefinitionId": 443,
+  "Rank": 714,
+  "UdListDefinitionId": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 767
     }
   }
 }

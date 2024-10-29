@@ -98,7 +98,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 694,
-    "Name": "Crist LLC",
-    "Tooltip": "ratione",
-    "Rank": 851,
+    "SaleTypeId": 830,
+    "Name": "Upton Group",
+    "Tooltip": "alias",
+    "Rank": 926,
     "DurationUnit": "Century",
-    "SaleDuration": 133,
-    "SaleTypeCatId": 614,
+    "SaleDuration": 945,
+    "SaleTypeCatId": 61,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 398,
-    "QuoteLinesTemplate": 979,
-    "ConfirmationLinesTemplate": 849,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 304,
+    "QuoteLinesTemplate": 559,
+    "ConfirmationLinesTemplate": 857,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 947,
-    "MinEarningPercent": 488,
-    "GroupQuoteLinesBy": 70,
-    "SortGroupLinesBy": 784,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 871,
+    "MinEarningPercent": 647,
+    "GroupQuoteLinesBy": 284,
+    "SortGroupLinesBy": 976,
     "Stages": [
       {
-        "Id": 395,
-        "Name": "Swaniawski LLC",
-        "ToolTip": "Ut accusamus tempore officiis illum voluptas accusantium.",
+        "Id": 717,
+        "Name": "Waters, Thompson and Donnelly",
+        "ToolTip": "Eum aut velit.",
         "Deleted": false,
-        "Rank": 355,
-        "Type": "qui",
-        "ColorBlock": 890,
-        "IconHint": "eveniet",
+        "Rank": 924,
+        "Type": "laudantium",
+        "ColorBlock": 646,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2015-02-18T03:44:52.6833552+01:00",
+        "LastChanged": "2016-04-20T13:14:06.0695417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Rosa Rohan",
+        "ExtraInfo": "earum",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Clair Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 489
+            "FieldType": "System.Int32",
+            "FieldLength": 867
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldType": "System.Int32",
+        "FieldLength": 640
       }
     }
   }

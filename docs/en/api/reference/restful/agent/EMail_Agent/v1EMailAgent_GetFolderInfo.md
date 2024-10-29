@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "aliquid",
-    "accusamus"
+    "dolores",
+    "reprehenderit"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Steuber LLC",
-    "Delimiter": "eum",
-    "Flags": "ut",
-    "TotalItems": 829,
-    "UnreadItems": 956,
+    "Name": "Baumbach-Altenwerth",
+    "Delimiter": "aut",
+    "Flags": "at",
+    "TotalItems": 651,
+    "UnreadItems": 680,
     "Subscribed": false,
-    "EmailFolderId": 240,
+    "EmailFolderId": 176,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 870
       }
     }
   }

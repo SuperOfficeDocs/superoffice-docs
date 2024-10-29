@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Price-Smith",
-    "ToolTip": "Assumenda et.",
-    "Deleted": false,
-    "Rank": 301,
-    "Type": "facere",
-    "ColorBlock": 875,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2015-08-08T03:44:58.0000211+02:00",
+    "Id": 684,
+    "Name": "Langworth-Dicki",
+    "ToolTip": "Deserunt illum est.",
+    "Deleted": true,
+    "Rank": 715,
+    "Type": "repudiandae",
+    "ColorBlock": 608,
+    "IconHint": "neque",
+    "Selected": false,
+    "LastChanged": "2013-01-02T13:14:11.4141989+01:00",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Gutmann, Legros and Kuvalis",
-        "ToolTip": "In incidunt rerum itaque facere.",
+        "Id": 260,
+        "Name": "Wisozk, Cremin and Wintheiser",
+        "ToolTip": "Est tenetur odit.",
         "Deleted": false,
-        "Rank": 317,
-        "Type": "qui",
-        "ColorBlock": 701,
-        "IconHint": "enim",
+        "Rank": 810,
+        "Type": "voluptatem",
+        "ColorBlock": 141,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2023-04-17T03:44:58.0000211+02:00",
+        "LastChanged": "2001-04-24T13:14:11.4141989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "commodi",
+        "StyleHint": "labore",
         "Hidden": true,
-        "FullName": "Grady Jamarcus Keeling PhD",
+        "FullName": "Tamara Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 936
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "omnis",
+    "ExtraInfo": "delectus",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Triston Carroll",
+    "FullName": "Mrs. Nakia Letitia Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 999
+        "FieldType": "System.Int32",
+        "FieldLength": 950
       }
     }
   }

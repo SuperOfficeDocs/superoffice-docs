@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "voluptas",
+  "Type": "et",
   "ItemsIds": [
-    872,
-    650
+    936,
+    864
   ]
 }
 ```

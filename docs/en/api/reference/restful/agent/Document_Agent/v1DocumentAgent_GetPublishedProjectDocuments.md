@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 870
+  "ProjectId": 893
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 291,
-    "Attention": "qui",
-    "Header": "corporis",
-    "Name": "McLaughlin-Lynch",
-    "OurRef": "dolore",
-    "YourRef": "molestiae",
-    "Description": "Multi-lateral grid-enabled neural-net",
-    "DocumentTemplate": "dolore",
-    "IsPublished": true,
-    "PersonId": 514,
-    "PersonFullName": "Ms. Delmer Turner",
-    "AssociateFullName": "Carlie Eduardo Padberg III",
-    "ContactId": 382,
-    "ContactName": "Brekke Group",
-    "ProjectId": 734,
-    "ProjectName": "Gislason Inc and Sons",
-    "AssociateId": 175,
-    "Snum": 247,
-    "SaleId": 554,
-    "SaleName": "McKenzie Group",
+    "DocumentId": 658,
+    "Attention": "quia",
+    "Header": "reprehenderit",
+    "Name": "Windler-Bartoletti",
+    "OurRef": "eveniet",
+    "YourRef": "commodi",
+    "Description": "Persistent encompassing protocol",
+    "DocumentTemplate": "eligendi",
+    "IsPublished": false,
+    "PersonId": 220,
+    "PersonFullName": "Mathias Boehm",
+    "AssociateFullName": "Karli Wilkinson",
+    "ContactId": 399,
+    "ContactName": "Bode-Jenkins",
+    "ProjectId": 664,
+    "ProjectName": "Stracke, Herzog and Lueilwitz",
+    "AssociateId": 262,
+    "Snum": 444,
+    "SaleId": 921,
+    "SaleName": "Ward-Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldType": "System.String",
+        "FieldLength": 595
       }
     }
   }

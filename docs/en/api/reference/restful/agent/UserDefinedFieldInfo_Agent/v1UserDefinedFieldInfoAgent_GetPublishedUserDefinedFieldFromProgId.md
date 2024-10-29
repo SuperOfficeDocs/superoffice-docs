@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et",
+  "ProgId": "rerum",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 985,
-  "ColumnId": 580,
-  "FieldDefault": "labore",
-  "FieldHeight": 885,
-  "FieldLabel": "dignissimos",
-  "FieldLeft": 693,
-  "FieldTop": 644,
+  "UDefFieldId": 21,
+  "ColumnId": 963,
+  "FieldDefault": "provident",
+  "FieldHeight": 652,
+  "FieldLabel": "voluptate",
+  "FieldLeft": 977,
+  "FieldTop": 512,
   "FieldType": "Checkbox",
-  "FieldWidth": 131,
-  "FormatMask": "dicta",
-  "HideLabel": false,
+  "FieldWidth": 730,
+  "FormatMask": "omnis",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 578,
-  "LabelLeft": 899,
-  "LabelTop": 368,
-  "LabelWidth": 843,
-  "LastVersionId": 509,
-  "ListTableId": 651,
+  "LabelHeight": 777,
+  "LabelLeft": 568,
+  "LabelTop": 256,
+  "LabelWidth": 954,
+  "LastVersionId": 815,
+  "ListTableId": 301,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 286,
-  "ProgId": "sunt",
+  "Page1LineNo": 378,
+  "ProgId": "possimus",
   "IsReadOnly": false,
-  "ShortLabel": "eveniet",
-  "TabOrder": 54,
-  "TextLength": 495,
-  "Tooltip": "harum",
-  "UdefIdentity": 659,
-  "UDListDefinitionId": 180,
+  "ShortLabel": "aut",
+  "TabOrder": 872,
+  "TextLength": 126,
+  "Tooltip": "rerum",
+  "UdefIdentity": 148,
+  "UDListDefinitionId": 91,
   "Justification": "Center",
-  "Version": 693,
-  "TemplateVariableName": "Wisozk LLC",
+  "Version": 490,
+  "TemplateVariableName": "Huels, Bernhard and Feest",
   "HasBeenPublished": false,
-  "MdoListName": "Stamm LLC",
+  "MdoListName": "Purdy, Ziemann and Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldLength": 644
     }
   }
 }

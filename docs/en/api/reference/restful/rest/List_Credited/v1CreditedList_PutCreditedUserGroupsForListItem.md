@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Dickinson-Hayes",
-    "ToolTip": "Eos saepe.",
+    "Id": 886,
+    "Name": "Ondricka-Hessel",
+    "ToolTip": "Quam commodi.",
     "Deleted": false,
-    "Rank": 856,
-    "Type": "earum",
-    "ColorBlock": 54,
-    "IconHint": "ea",
+    "Rank": 100,
+    "Type": "blanditiis",
+    "ColorBlock": 586,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2015-01-20T03:44:57.9687368+01:00",
+    "LastChanged": "2021-12-30T13:14:11.3673211+01:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Wuckert, Deckow and Kertzmann",
-        "ToolTip": "Amet totam ratione placeat dolor ab qui cupiditate.",
-        "Deleted": false,
-        "Rank": 765,
-        "Type": "eos",
-        "ColorBlock": 654,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "2008-01-18T03:44:57.9687368+01:00",
+        "Id": 900,
+        "Name": "Breitenberg-Howe",
+        "ToolTip": "Delectus ut quia ullam occaecati ratione.",
+        "Deleted": true,
+        "Rank": 554,
+        "Type": "repudiandae",
+        "ColorBlock": 413,
+        "IconHint": "quisquam",
+        "Selected": true,
+        "LastChanged": "1997-06-21T13:14:11.3673211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "est",
+        "ExtraInfo": "dolor",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Mr. Kenya Douglas"
+        "FullName": "Cyril Marvin"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Burnice Shields"
+    "ExtraInfo": "eos",
+    "StyleHint": "possimus",
+    "Hidden": false,
+    "FullName": "Prof. Hyman Lucinda Batz Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Brown Group",
-    "ToolTip": "Officiis dignissimos aut.",
-    "Deleted": true,
-    "Rank": 851,
-    "Type": "quia",
-    "ColorBlock": 407,
-    "IconHint": "possimus",
+    "Id": 133,
+    "Name": "Schmeler-Kris",
+    "ToolTip": "Dolores nihil.",
+    "Deleted": false,
+    "Rank": 962,
+    "Type": "sunt",
+    "ColorBlock": 506,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2018-07-01T03:44:57.9687368+02:00",
+    "LastChanged": "1997-10-25T13:14:11.3673211+02:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Langworth Inc and Sons",
-        "ToolTip": "Accusantium omnis ipsam nihil sit porro voluptate.",
+        "Id": 642,
+        "Name": "Veum, King and Hodkiewicz",
+        "ToolTip": "Occaecati aspernatur ea totam molestiae aut eius enim.",
         "Deleted": false,
-        "Rank": 747,
-        "Type": "voluptatem",
-        "ColorBlock": 299,
-        "IconHint": "quia",
+        "Rank": 742,
+        "Type": "eveniet",
+        "ColorBlock": 67,
+        "IconHint": "magnam",
         "Selected": true,
-        "LastChanged": "2015-07-09T03:44:57.9687368+02:00",
+        "LastChanged": "2020-02-26T13:14:11.3673211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "occaecati",
-        "Hidden": false,
-        "FullName": "Camron Gorczany",
+        "ExtraInfo": "odit",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Donald Ledner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 932
+            "FieldLength": 615
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "illum",
+    "ExtraInfo": "et",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Miss Lolita Myrtle Williamson II",
+    "FullName": "Reva Cartwright V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldLength": 852
       }
     }
   }

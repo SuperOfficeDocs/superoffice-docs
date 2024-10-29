@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Reynolds-Schneider",
-    "ToolTip": "Et quaerat occaecati maxime.",
+    "Id": 241,
+    "Name": "Runolfsson Inc and Sons",
+    "ToolTip": "Esse quod sit qui neque nemo.",
     "Deleted": true,
-    "Rank": 655,
-    "Type": "aut",
-    "ColorBlock": 745,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2015-02-09T03:44:58.1249703+01:00",
+    "Rank": 293,
+    "Type": "rerum",
+    "ColorBlock": 986,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2005-02-06T13:14:11.5235812+01:00",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Friesen, Fadel and Barrows",
-        "ToolTip": "Ad omnis voluptates quis sapiente.",
+        "Id": 801,
+        "Name": "Hettinger-Little",
+        "ToolTip": "Occaecati sint aperiam.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "ipsa",
-        "ColorBlock": 620,
-        "IconHint": "consequuntur",
+        "Rank": 401,
+        "Type": "fuga",
+        "ColorBlock": 571,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2023-04-12T03:44:58.1249703+02:00",
+        "LastChanged": "2015-01-11T13:14:11.5235812+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "inventore",
+        "ExtraInfo": "minima",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Colton Walker"
+        "FullName": "Rae Gibson"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "iusto",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Louisa Weimann"
+    "FullName": "Pasquale Hilll"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Schmitt-Bernhard",
-    "ToolTip": "Voluptatem tempore cupiditate laboriosam eaque et eos.",
-    "Deleted": false,
-    "Rank": 281,
-    "Type": "omnis",
-    "ColorBlock": 196,
-    "IconHint": "porro",
-    "Selected": true,
-    "LastChanged": "2007-10-07T03:44:58.1249703+02:00",
+    "Id": 284,
+    "Name": "Gerhold-Marquardt",
+    "ToolTip": "Quam aut et nemo ullam praesentium ut.",
+    "Deleted": true,
+    "Rank": 511,
+    "Type": "hic",
+    "ColorBlock": 537,
+    "IconHint": "quisquam",
+    "Selected": false,
+    "LastChanged": "2010-07-22T13:14:11.5235812+02:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Kulas, Denesik and Ziemann",
-        "ToolTip": "Inventore ut assumenda nam est sit et explicabo.",
-        "Deleted": true,
-        "Rank": 329,
-        "Type": "itaque",
-        "ColorBlock": 30,
-        "IconHint": "fugiat",
+        "Id": 783,
+        "Name": "Hagenes-Grady",
+        "ToolTip": "Ut perferendis corrupti.",
+        "Deleted": false,
+        "Rank": 509,
+        "Type": "eaque",
+        "ColorBlock": 251,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2014-12-16T03:44:58.1249703+01:00",
+        "LastChanged": "2019-02-20T13:14:11.5235812+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Dr. Dedric Dee Ernser DDS",
+        "ExtraInfo": "nisi",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Josue Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 362
+            "FieldType": "System.String",
+            "FieldLength": 682
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "quae",
-    "Hidden": true,
-    "FullName": "Dr. Roel Kennedi Brakus",
+    "ExtraInfo": "quis",
+    "StyleHint": "debitis",
+    "Hidden": false,
+    "FullName": "Prof. Dayne Borer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldLength": 394
       }
     }
   }

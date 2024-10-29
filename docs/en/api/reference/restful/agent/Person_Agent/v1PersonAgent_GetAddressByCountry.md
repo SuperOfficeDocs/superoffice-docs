@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 858,
-  "CountryId": 321
+  "PersonId": 36,
+  "CountryId": 926
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 17838.728,
-  "Wgs84Longitude": 18362.106,
+  "Wgs84Latitude": 29935.968,
+  "Wgs84Longitude": 25802.221999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kertzmann, Frami and Jenkins",
-        "Value": "suscipit",
-        "Tooltip": "voluptatibus",
-        "Label": "ipsam",
-        "ValueLength": 634,
-        "AddressType": "iste",
+        "Name": "Ankunding LLC",
+        "Value": "nemo",
+        "Tooltip": "mollitia",
+        "Label": "voluptatem",
+        "ValueLength": 341,
+        "AddressType": "mollitia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 699
+            "FieldType": "System.Int32",
+            "FieldLength": 57
           }
         }
       }
     ],
     [
       {
-        "Name": "Hills, Bashirian and Wilkinson",
-        "Value": "in",
-        "Tooltip": "magni",
-        "Label": "voluptatem",
-        "ValueLength": 926,
-        "AddressType": "modi",
+        "Name": "Okuneva-Nicolas",
+        "Value": "ipsum",
+        "Tooltip": "repudiandae",
+        "Label": "inventore",
+        "ValueLength": 499,
+        "AddressType": "facilis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 113
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "voluptas",
+  "Formatted": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 59
     }
   }
 }

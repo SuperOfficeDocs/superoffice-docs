@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Kiehn Group",
-  "Tooltip": "ut",
+  "Id": 127,
+  "Name": "Kautzer LLC",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 915,
-  "IsCustomList": false,
+  "Rank": 500,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "numquam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quo",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   },
   "_Links": {

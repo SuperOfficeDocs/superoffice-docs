@@ -91,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,40 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 834,
-  "Name": "Gaylord Inc and Sons",
-  "Rank": 809,
-  "Tooltip": "ipsa",
-  "Icon": "temporibus",
-  "DefaultTicketStatus": 24,
+  "TicketTypeId": 953,
+  "Name": "Weber LLC",
+  "Rank": 274,
+  "Tooltip": "deserunt",
+  "Icon": "ut",
+  "DefaultTicketStatus": 75,
   "TicketStatuses": [
-    957,
-    434
+    890,
+    863
   ],
-  "DefaultTicketPriority": 825,
+  "DefaultTicketPriority": 152,
   "TicketPriorities": [
-    107,
-    75
+    930,
+    319
   ],
-  "ReplyTemplate": 409,
+  "ReplyTemplate": 435,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    597,
-    135
+    123,
+    581
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldType": "System.String",
+      "FieldLength": 477
     }
   },
   "_Links": {

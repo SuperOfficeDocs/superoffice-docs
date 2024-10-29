@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=642
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=278
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 122,
-  "Name": "Zboncak, Stark and Roob",
-  "Tooltip": "maiores",
-  "SaveInDb": 749,
-  "Filename": "porro",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 121,
+  "Name": "Purdy-Pollich",
+  "Tooltip": "consequatur",
+  "SaveInDb": 502,
+  "Filename": "quis",
+  "DefaultOref": "asperiores",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 445,
-  "IntentId": 918,
-  "IsDefaultPublished": false,
-  "Rank": 855,
-  "LoadTemplateFromPlugin": 778,
-  "MimeType": "at",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 334,
+  "AutoeventId": 509,
+  "IntentId": 842,
+  "IsDefaultPublished": true,
+  "Rank": 405,
+  "LoadTemplateFromPlugin": 242,
+  "MimeType": "cum",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 265,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "adela_abshire@nienow.name",
+  "EmailSubject": "lue_kreiger@schillerborer.co.uk",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alberto@johns.ca",
+  "SenderEmailAddress": "myrtle_lebsack@herzog.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 945
     }
   }
 }

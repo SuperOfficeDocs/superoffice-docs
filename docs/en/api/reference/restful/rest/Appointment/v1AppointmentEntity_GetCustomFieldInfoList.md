@@ -68,7 +68,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Pouros-Rosenbaum",
-    "DisplayName": "Bode, Leffler and Robel",
-    "Description": "Intuitive 5th generation throughput",
-    "ShortLabel": "voluptate",
+    "FieldName": "Koelpin-O'Reilly",
+    "DisplayName": "Ward Group",
+    "Description": "Streamlined global superstructure",
+    "ShortLabel": "nulla",
     "HideLabel": true,
     "HideField": true,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 124,
-    "TemplateVariableName": "Johnston, Vandervort and Stehr"
+    "IsDisplayField": false,
+    "Rank": 373,
+    "TemplateVariableName": "Kunze-Frami"
   }
 ]
 ```

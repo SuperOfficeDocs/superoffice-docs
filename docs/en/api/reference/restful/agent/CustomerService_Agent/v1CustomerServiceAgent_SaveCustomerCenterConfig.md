@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 156,
+  "CustConfigId": 898,
   "Type": "Options",
-  "Config": "quas",
-  "CustLangId": 772,
-  "Registered": "2009-10-16T03:44:52.3865159+02:00",
-  "RegisteredAssociateId": 63,
-  "Updated": "2015-10-15T03:44:52.3865159+02:00",
-  "UpdatedAssociateId": 654
+  "Config": "fuga",
+  "CustLangId": 273,
+  "Registered": "2023-02-10T13:14:05.7257709+01:00",
+  "RegisteredAssociateId": 581,
+  "Updated": "2023-04-04T13:14:05.7257709+02:00",
+  "UpdatedAssociateId": 294
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 187,
+  "CustConfigId": 315,
   "Type": "Options",
-  "Config": "minus",
-  "CustLangId": 15,
-  "Registered": "2009-01-11T03:44:52.3865159+01:00",
-  "RegisteredAssociateId": 880,
-  "Updated": "2014-11-04T03:44:52.3865159+01:00",
-  "UpdatedAssociateId": 396,
+  "Config": "cupiditate",
+  "CustLangId": 298,
+  "Registered": "2021-05-22T13:14:05.7257709+02:00",
+  "RegisteredAssociateId": 143,
+  "Updated": "2007-02-03T13:14:05.7257709+01:00",
+  "UpdatedAssociateId": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 567
     }
   }
 }

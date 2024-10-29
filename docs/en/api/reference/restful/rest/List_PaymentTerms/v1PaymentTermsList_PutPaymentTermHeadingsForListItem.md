@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Nolan Inc and Sons",
-    "ToolTip": "Veniam aliquid.",
-    "Deleted": false,
-    "Rank": 634,
-    "Type": "tempora",
-    "ColorBlock": 133,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2008-09-01T03:44:58.0312644+02:00",
+    "Id": 154,
+    "Name": "Mraz, Robel and Bernhard",
+    "ToolTip": "Et et iste sed.",
+    "Deleted": true,
+    "Rank": 673,
+    "Type": "molestiae",
+    "ColorBlock": 655,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2022-02-04T13:14:11.4298249+01:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Lesch Group",
-        "ToolTip": "Sapiente quia consequuntur aut ut inventore.",
+        "Id": 33,
+        "Name": "Bayer, Wuckert and Kutch",
+        "ToolTip": "Quia voluptatem facilis qui qui facilis modi aut.",
         "Deleted": false,
-        "Rank": 960,
-        "Type": "minus",
-        "ColorBlock": 563,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2001-12-06T03:44:58.0312644+01:00",
+        "Rank": 833,
+        "Type": "veritatis",
+        "ColorBlock": 672,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2004-05-09T13:14:11.4298249+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "non",
-        "StyleHint": "et",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Ubaldo Bednar"
+        "FullName": "Brannon Reilly Konopelski II"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "tempora",
+    "ExtraInfo": "alias",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mrs. Burley Justice O'Keefe II"
+    "FullName": "Emelie Rosenbaum"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Thompson-Huels",
-    "ToolTip": "Totam omnis.",
+    "Id": 226,
+    "Name": "Kunde, Dicki and Cruickshank",
+    "ToolTip": "Deleniti voluptas non blanditiis.",
     "Deleted": false,
-    "Rank": 997,
-    "Type": "occaecati",
-    "ColorBlock": 25,
-    "IconHint": "ea",
+    "Rank": 547,
+    "Type": "vitae",
+    "ColorBlock": 677,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "1999-06-09T03:44:58.0312644+02:00",
+    "LastChanged": "2009-07-03T13:14:11.4298249+02:00",
     "ChildItems": [
       {
-        "Id": 860,
-        "Name": "Kuhic Group",
-        "ToolTip": "Et beatae velit eligendi fugiat cumque facere.",
-        "Deleted": true,
-        "Rank": 325,
-        "Type": "architecto",
-        "ColorBlock": 149,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2018-06-17T03:44:58.0312644+02:00",
+        "Id": 378,
+        "Name": "Bogan-Rosenbaum",
+        "ToolTip": "Repellat exercitationem qui impedit ut.",
+        "Deleted": false,
+        "Rank": 331,
+        "Type": "soluta",
+        "ColorBlock": 109,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "1999-09-29T13:14:11.4298249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Mr. Randy Pedro Deckow I",
+        "ExtraInfo": "veniam",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Dr. Murl Mueller MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 769
+            "FieldLength": 520
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mr. Madonna Stoltenberg",
+    "ExtraInfo": "est",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Mr. Ronny Rosanna Herzog I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 523
+        "FieldType": "System.Int32",
+        "FieldLength": 198
       }
     }
   }

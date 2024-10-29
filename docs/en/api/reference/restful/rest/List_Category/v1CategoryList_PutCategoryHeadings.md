@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 949,
-    "Name": "McLaughlin-Bode",
-    "Tooltip": "nam",
+    "HeadingId": 456,
+    "Name": "O'Conner, Kulas and Ratke",
+    "Tooltip": "optio",
     "Deleted": true,
-    "Rank": 37,
-    "UdListDefinitionId": 804
+    "Rank": 837,
+    "UdListDefinitionId": 806
   },
   {
-    "HeadingId": 949,
-    "Name": "McLaughlin-Bode",
-    "Tooltip": "nam",
+    "HeadingId": 456,
+    "Name": "O'Conner, Kulas and Ratke",
+    "Tooltip": "optio",
     "Deleted": true,
-    "Rank": 37,
-    "UdListDefinitionId": 804
+    "Rank": 837,
+    "UdListDefinitionId": 806
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 161,
-    "Name": "Satterfield Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 622,
-    "UdListDefinitionId": 158,
+    "HeadingId": 24,
+    "Name": "Hintz-Jerde",
+    "Tooltip": "fuga",
+    "Deleted": false,
+    "Rank": 288,
+    "UdListDefinitionId": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 321
       }
     }
   }

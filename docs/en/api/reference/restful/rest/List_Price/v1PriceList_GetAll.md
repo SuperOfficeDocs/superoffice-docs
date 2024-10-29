@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=dolore
-GET /api/v1/Pricelist?$top=960
-GET /api/v1/Pricelist?$skip=906
+GET /api/v1/Pricelist?$entities=ipsa
+GET /api/v1/Pricelist?$top=544
+GET /api/v1/Pricelist?$skip=108
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=doloremque
+GET /api/v1/Pricelist?$context=sit
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "perspiciatis",
+  "odata.nextLink": "consequatur",
   "value": [
     {
-      "PrimaryKey": 4903,
+      "PrimaryKey": 6899,
       "EntityName": "person",
-      "personId": 4903,
-      "fullName": "Name Maggio"
+      "personId": 6899,
+      "fullName": "Colin Rippin"
     },
     {
-      "PrimaryKey": 3353,
+      "PrimaryKey": 5860,
       "EntityName": "person",
-      "personId": 3353,
-      "fullName": "Cooper Osinski"
+      "personId": 5860,
+      "fullName": "Everett Fadel III"
     }
   ]
 }

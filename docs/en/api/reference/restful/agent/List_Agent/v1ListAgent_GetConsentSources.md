@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 216,
-    "Name": "Pacocha Group",
-    "Tooltip": "natus",
-    "Rank": 260,
-    "Key": "quasi",
-    "MailTemplateId": 721,
-    "Deleted": false,
+    "ConsentSourceId": 986,
+    "Name": "Wintheiser-Veum",
+    "Tooltip": "animi",
+    "Rank": 364,
+    "Key": "voluptas",
+    "MailTemplateId": 685,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

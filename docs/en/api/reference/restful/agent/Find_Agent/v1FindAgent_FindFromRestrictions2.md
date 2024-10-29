@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "labore",
-  "ProviderName": "Wuckert Inc and Sons",
-  "PageSize": 494,
-  "PageNumber": 660
+  "Restrictions": "qui",
+  "ProviderName": "Mohr, Doyle and Shields",
+  "PageSize": 89,
+  "PageNumber": 968
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Runolfsson-Weber",
-      "DisplayTooltip": "debitis",
-      "DisplayType": "dolore",
-      "CanOrderBy": false,
-      "Name": "Champlin, Heidenreich and Doyle",
-      "CanRestrictBy": true,
-      "RestrictionType": "minus",
-      "RestrictionListName": "Kertzmann Group",
+      "DisplayName": "Marvin, Bode and Ondricka",
+      "DisplayTooltip": "sint",
+      "DisplayType": "aut",
+      "CanOrderBy": true,
+      "Name": "Altenwerth, Konopelski and Yundt",
+      "CanRestrictBy": false,
+      "RestrictionType": "optio",
+      "RestrictionListName": "Bahringer-Fritsch",
       "IsVisible": false,
-      "ExtraInfo": "unde",
-      "Width": "qui",
-      "IconHint": "quaerat",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "voluptatem",
+      "Width": "ut",
+      "IconHint": "est",
+      "HeadingIconHint": "mollitia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schumm, Boehm and Bayer",
-      "PrimaryKey": 925,
+      "EntityName": "Hoeger Group",
+      "PrimaryKey": 690,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "animi",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "quia"
+          "DisplayValue": "et",
+          "TooltipHint": "in",
+          "LinkHint": "similique"
         }
       },
-      "LinkHint": "vero",
-      "StyleHint": "soluta",
+      "LinkHint": "officiis",
+      "StyleHint": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     }
   ],
-  "RowCount": 823,
+  "RowCount": 51,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldLength": 585
     }
   }
 }

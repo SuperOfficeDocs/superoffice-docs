@@ -26,7 +26,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=106
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=25
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 979,
-  "Name": "Hodkiewicz-Connelly",
-  "ConsentText": "dolor",
-  "FormText": "sunt",
-  "Key": "nulla",
-  "Tooltip": "officia",
-  "Active": 621,
-  "UpdatedDate": "2011-05-16T03:44:52.7458159+02:00",
+  "ConsentPurposeId": 539,
+  "Name": "Huel Inc and Sons",
+  "ConsentText": "similique",
+  "FormText": "aliquam",
+  "Key": "earum",
+  "Tooltip": "sit",
+  "Active": 883,
+  "UpdatedDate": "2020-11-20T13:14:06.1320455+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 909,
-  "PrivacyStatementDesc": "dolor",
+  "Rank": 421,
+  "PrivacyStatementDesc": "harum",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 875
     }
   }
 }

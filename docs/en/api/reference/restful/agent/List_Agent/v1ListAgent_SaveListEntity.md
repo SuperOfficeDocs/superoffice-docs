@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Shanahan-Ziemann",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 316,
+  "Id": 382,
+  "Name": "Kutch LLC",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 734,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Boehm, O'Conner and Murray",
-  "Tooltip": "recusandae",
+  "Id": 541,
+  "Name": "Herzog, Spencer and Schiller",
+  "Tooltip": "modi",
   "Deleted": true,
-  "Rank": 33,
+  "Rank": 526,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldType": "System.String",
+      "FieldLength": 423
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 206
+  "ReplyTemplateId": 806
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Graham Group",
-  "Description": "Digitized context-sensitive toolset",
-  "OwnedByFullName": "Tracey Aiden Hegmann DDS",
-  "Updated": "2013-08-13T03:44:52.4021422+02:00",
+  "Name": "Schultz Group",
+  "Description": "Horizontal reciprocal attitude",
+  "OwnedByFullName": "Frieda Pfannerstill",
+  "Updated": "1999-05-25T13:14:05.7257709+02:00",
   "Body": "est",
-  "IsHtml": false,
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 70
     }
   }
 }

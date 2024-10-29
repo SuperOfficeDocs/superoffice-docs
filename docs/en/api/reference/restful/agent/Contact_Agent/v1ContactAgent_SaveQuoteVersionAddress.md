@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 72,
+  "QuoteVersionId": 609,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 467
+  "CountryId": 930
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 22126.04,
-  "Wgs84Longitude": 26770.628,
+  "Wgs84Latitude": 16503.644,
+  "Wgs84Longitude": 8493.14,
   "LocalizedAddress": [
     [
       {
-        "Name": "Conroy, Mayer and Tromp",
-        "Value": "eum",
-        "Tooltip": "ut",
-        "Label": "vero",
-        "ValueLength": 718,
-        "AddressType": "commodi",
+        "Name": "Cremin Group",
+        "Value": "ea",
+        "Tooltip": "quia",
+        "Label": "fuga",
+        "ValueLength": 381,
+        "AddressType": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldType": "System.String",
+            "FieldLength": 587
           }
         }
       }
     ],
     [
       {
-        "Name": "Weimann-Cole",
-        "Value": "harum",
-        "Tooltip": "quasi",
-        "Label": "rem",
-        "ValueLength": 422,
-        "AddressType": "cum",
+        "Name": "Batz Group",
+        "Value": "odit",
+        "Tooltip": "in",
+        "Label": "autem",
+        "ValueLength": 930,
+        "AddressType": "quibusdam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 76
+            "FieldType": "System.Int32",
+            "FieldLength": 885
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "nulla",
+  "Formatted": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 101
     }
   }
 }

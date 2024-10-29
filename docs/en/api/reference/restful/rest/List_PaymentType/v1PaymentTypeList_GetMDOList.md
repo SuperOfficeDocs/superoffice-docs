@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=odit
+GET /api/v1/List/PaymentType/MDOItems?query=ea
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Dicki, Gaylord and Cassin",
-    "ToolTip": "Qui quis error quam recusandae reprehenderit et.",
+    "Id": 613,
+    "Name": "Hartmann, Lynch and Hermann",
+    "ToolTip": "Magni tenetur ad.",
     "Deleted": true,
-    "Rank": 764,
-    "Type": "accusantium",
+    "Rank": 921,
+    "Type": "exercitationem",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Bartoletti, Williamson and Macejkovic",
-        "ToolTip": "Aut consequatur alias voluptatibus et non.",
-        "Deleted": true,
-        "Rank": 560,
-        "Type": "non",
+        "Id": 825,
+        "Name": "Hessel, Stokes and Parker",
+        "ToolTip": "Nam est qui voluptate tempore neque sed.",
+        "Deleted": false,
+        "Rank": 162,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facilis",
-        "ColorBlock": 681,
-        "ExtraInfo": "ut",
-        "StyleHint": "sed",
-        "FullName": "Zelma Stark",
+        "IconHint": "libero",
+        "ColorBlock": 357,
+        "ExtraInfo": "sunt",
+        "StyleHint": "et",
+        "FullName": "Ward Conn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 42
+            "FieldType": "System.Int32",
+            "FieldLength": 854
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 263,
-    "ExtraInfo": "mollitia",
-    "StyleHint": "est",
-    "FullName": "Christelle Lehner",
+    "IconHint": "expedita",
+    "ColorBlock": 427,
+    "ExtraInfo": "ratione",
+    "StyleHint": "alias",
+    "FullName": "Prof. Jermey Kaitlyn Miller II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 964
+        "FieldLength": 241
       }
     }
   }

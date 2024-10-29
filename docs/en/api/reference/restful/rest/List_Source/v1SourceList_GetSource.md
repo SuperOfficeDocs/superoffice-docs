@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 520,
-  "Name": "Monahan-White",
-  "Tooltip": "reprehenderit",
+  "Id": 243,
+  "Name": "Franecki, Effertz and Rohan",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 11,
-  "Rank": 454,
+  "UdListDefinitionId": 330,
+  "Rank": 379,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldType": "System.Int32",
+      "FieldLength": 358
     }
   }
 }

@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 903,
-  "ERPQuoteLineKey": "itaque",
-  "QuoteAlternativeId": 149,
-  "ERPProductKey": "est",
+  "QuoteLineId": 92,
+  "ERPQuoteLineKey": "veniam",
+  "QuoteAlternativeId": 292,
+  "ERPProductKey": "facilis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 23971.966,
-  "DeliveredQuantity": 27695.158,
-  "Rank": 509,
-  "Name": "Dietrich, Gibson and Leffler",
-  "Description": "Up-sized dedicated moderator",
-  "Code": "est",
-  "QuantityUnit": "tempore",
-  "PriceUnit": "quod",
-  "ItemNumber": "792572",
+  "Quantity": 11204.05,
+  "DeliveredQuantity": 2983.5679999999998,
+  "Rank": 825,
+  "Name": "Mante, Lehner and Cassin",
+  "Description": "Triple-buffered modular definition",
+  "Code": "excepturi",
+  "QuantityUnit": "aut",
+  "PriceUnit": "id",
+  "ItemNumber": "1515665",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "modi",
-  "ProductTypeKey": "et",
-  "Supplier": "voluptas",
-  "SupplierCode": "cum",
-  "Thumbnail": "sapiente",
-  "VATInfo": "autem",
-  "VAT": 6609.606,
-  "UnitCost": 316.534,
-  "UnitMinimumPrice": 10752.753999999999,
-  "UnitListPrice": 6760.038,
+  "ProductFamilyKey": "dolorem",
+  "ProductTypeKey": "maxime",
+  "Supplier": "et",
+  "SupplierCode": "corrupti",
+  "Thumbnail": "suscipit",
+  "VATInfo": "eligendi",
+  "VAT": 21323.736,
+  "UnitCost": 19553.025999999998,
+  "UnitMinimumPrice": 22527.192,
+  "UnitListPrice": 17080.3,
   "ExtraInfo": [
     {
-      "Name": "Altenwerth Inc and Sons",
-      "Value": "asperiores",
+      "Name": "Armstrong-Spinka",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldLength": 473
         }
       }
     },
     {
-      "Name": "Altenwerth Inc and Sons",
-      "Value": "asperiores",
+      "Name": "Armstrong-Spinka",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldLength": 473
         }
       }
     }
   ],
-  "RawExtraInfo": "aspernatur",
+  "RawExtraInfo": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "veritatis",
-  "SubscriptionQuantity": 9994.326,
-  "SubscriptionStart": "2002-08-29T03:44:53.0739396+02:00",
-  "ERPDiscountPercent": 1360.156,
-  "ERPDiscountAmount": 17036.424,
-  "DiscountPercent": 12420.042,
-  "DiscountAmount": 10520.838,
+  "SubscriptionUnit": "placeat",
+  "SubscriptionQuantity": 27754.703999999998,
+  "SubscriptionStart": "2004-09-09T13:14:06.3351823+02:00",
+  "ERPDiscountPercent": 16641.54,
+  "ERPDiscountAmount": 13485.601999999999,
+  "DiscountPercent": 21621.466,
+  "DiscountAmount": 4863.968,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 13165.934,
-  "EarningAmount": 20850.502,
-  "SubTotal": 3419.194,
-  "TotalPrice": 5885.652,
-  "Rights": "est",
-  "Rule": "autem",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "vero",
-  "ExtraField3": "quibusdam",
-  "ExtraField4": "eum",
-  "ExtraField5": "non",
+  "EarningPercent": 23373.372,
+  "EarningAmount": 6446.638,
+  "SubTotal": 31267.917999999998,
+  "TotalPrice": 4917.246,
+  "Rights": "animi",
+  "Rule": "sapiente",
+  "ExtraField1": "praesentium",
+  "ExtraField2": "deleniti",
+  "ExtraField3": "ducimus",
+  "ExtraField4": "sunt",
+  "ExtraField5": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 941
     }
   }
 }

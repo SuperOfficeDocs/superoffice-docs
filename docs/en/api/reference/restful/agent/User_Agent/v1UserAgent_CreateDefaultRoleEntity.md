@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 191,
-  "Name": "Koelpin-Goldner",
-  "Tooltip": "modi",
+  "RoleId": 530,
+  "Name": "Sipes Group",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 115,
-  "Rank": 4,
-  "Created": "2001-10-23T03:44:53.3716682+02:00",
-  "UseCategories": 971,
+  "Deleted": 459,
+  "Rank": 576,
+  "Created": "2001-12-04T13:14:06.6945788+01:00",
+  "UseCategories": 162,
   "CreatedBy": null,
-  "Updated": "2007-01-20T03:44:53.3716682+01:00",
+  "Updated": "2023-09-02T13:14:06.6945788+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 431
+      "FieldLength": 32
     }
   }
 }

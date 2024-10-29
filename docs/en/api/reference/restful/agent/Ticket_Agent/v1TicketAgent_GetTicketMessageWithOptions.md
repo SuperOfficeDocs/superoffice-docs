@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 943,
+  "TicketMessageEntityId": 244,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 462,
+  "EjMessageId": 197,
   "Ticket": null,
-  "CreatedAt": "2002-03-19T03:44:53.2310227+01:00",
+  "CreatedAt": "2013-04-21T13:14:06.4758155+02:00",
   "CreatedBy": null,
-  "Author": "culpa",
+  "Author": "assumenda",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "mollitia",
-  "TimeSpent": 330,
-  "Body": "aspernatur",
-  "HtmlBody": "repellendus",
-  "EmailHeader": "verdie.reichert@hickle.com",
-  "DebugInfo": "blanditiis",
-  "MailSorter": "nihil",
+  "MessageId": "totam",
+  "TimeSpent": 134,
+  "Body": "tempora",
+  "HtmlBody": "ut",
+  "EmailHeader": "june_spinka@watsica.info",
+  "DebugInfo": "illum",
+  "MailSorter": "expedita",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "illum",
+  "SearchTitle": "debitis",
   "MessageHeaders": [
     {
-      "Id": 548,
-      "Name": "Stracke, Hartmann and Lubowitz",
-      "Value": "veritatis",
+      "Id": 969,
+      "Name": "Jones-Ullrich",
+      "Value": "perspiciatis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 608
+          "FieldLength": 39
         }
       }
     }
   ],
   "Important": false,
-  "Language": "hic",
-  "Sentiment": 567,
-  "SentimentConfidence": 764,
+  "Language": "cum",
+  "Sentiment": 982,
+  "SentimentConfidence": 325,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 43,
-      "Name": "McClure-Towne",
-      "ContentType": "et",
-      "AttSize": 507,
+      "AttachmentId": 523,
+      "Name": "Koss, Gibson and Bruen",
+      "ContentType": "alias",
+      "AttSize": 353,
       "InlineImage": true,
-      "ContentId": "ex",
-      "AuthKey": "et",
-      "IsSafeFileExtension": true,
+      "ContentId": "quasi",
+      "AuthKey": "nemo",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "aperiam",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "eos",
+    "CustomFields2": "animi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 290
     }
   }
 }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 137,
-  "Name": "Powlowski-Simonis",
-  "Tooltip": "fugiat",
+  "Id": 781,
+  "Name": "Toy, Beer and Bins",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 389,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 152,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": false
+  "ListType": "distinctio",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Bartoletti Inc and Sons",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "Rank": 304,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 760,
+  "Name": "Macejkovic, Jenkins and Cruickshank",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 874,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false,
+  "ListType": "tempore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

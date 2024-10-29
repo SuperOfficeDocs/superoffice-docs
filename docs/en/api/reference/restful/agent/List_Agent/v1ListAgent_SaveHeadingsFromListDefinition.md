@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
+  "Id": 801,
   "Entities": [
     {
-      "HeadingId": 911,
-      "Name": "McKenzie Inc and Sons",
-      "Tooltip": "non",
+      "HeadingId": 343,
+      "Name": "Denesik, Lehner and Kuhlman",
+      "Tooltip": "quia",
       "Deleted": false,
-      "Rank": 161,
-      "UdListDefinitionId": 201
+      "Rank": 541,
+      "UdListDefinitionId": 998
     },
     {
-      "HeadingId": 911,
-      "Name": "McKenzie Inc and Sons",
-      "Tooltip": "non",
+      "HeadingId": 343,
+      "Name": "Denesik, Lehner and Kuhlman",
+      "Tooltip": "quia",
       "Deleted": false,
-      "Rank": 161,
-      "UdListDefinitionId": 201
+      "Rank": 541,
+      "UdListDefinitionId": 998
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 93,
-    "Name": "Fadel-Durgan",
-    "Tooltip": "sequi",
-    "Deleted": false,
-    "Rank": 317,
-    "UdListDefinitionId": 90,
+    "HeadingId": 788,
+    "Name": "Kautzer, Cassin and Fritsch",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 303,
+    "UdListDefinitionId": 923,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 51
       }
     }
   }

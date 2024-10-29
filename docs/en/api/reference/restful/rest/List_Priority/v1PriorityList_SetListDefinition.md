@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Feest-Mann",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 257,
-  "IsCustomList": false,
+  "Id": 447,
+  "Name": "Zemlak, Blick and Ward",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "Rank": 624,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": false
+  "ListType": "blanditiis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Hyatt-Harber",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 626,
+  "Id": 451,
+  "Name": "Doyle LLC",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 274,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quas",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

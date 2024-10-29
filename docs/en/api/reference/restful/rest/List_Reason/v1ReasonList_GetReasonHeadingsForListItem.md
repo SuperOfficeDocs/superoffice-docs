@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Streich-Grant",
-    "ToolTip": "Sunt expedita aut ut tempora in.",
-    "Deleted": true,
-    "Rank": 490,
-    "Type": "eligendi",
-    "ColorBlock": 703,
-    "IconHint": "unde",
+    "Id": 697,
+    "Name": "Eichmann, Hegmann and Schumm",
+    "ToolTip": "Dolores sed qui eum et corrupti.",
+    "Deleted": false,
+    "Rank": 177,
+    "Type": "eos",
+    "ColorBlock": 901,
+    "IconHint": "distinctio",
     "Selected": true,
-    "LastChanged": "2020-10-08T03:44:58.1249703+02:00",
+    "LastChanged": "2001-10-22T13:14:11.5235812+02:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Larkin, Krajcik and Kihn",
-        "ToolTip": "Nihil qui.",
+        "Id": 44,
+        "Name": "Legros LLC",
+        "ToolTip": "Aspernatur dignissimos in qui commodi mollitia.",
         "Deleted": false,
-        "Rank": 928,
-        "Type": "voluptate",
-        "ColorBlock": 945,
-        "IconHint": "et",
+        "Rank": 55,
+        "Type": "qui",
+        "ColorBlock": 173,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2006-09-18T03:44:58.1249703+02:00",
+        "LastChanged": "2022-03-07T13:14:11.5235812+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "est",
+        "ExtraInfo": "vel",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Zachery Volkman",
+        "FullName": "Ignacio Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 139
+            "FieldType": "System.Int32",
+            "FieldLength": 966
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "eaque",
-    "Hidden": true,
-    "FullName": "Wendy Koss",
+    "ExtraInfo": "est",
+    "StyleHint": "veniam",
+    "Hidden": false,
+    "FullName": "Mr. Hailee Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 836
       }
     }
   }

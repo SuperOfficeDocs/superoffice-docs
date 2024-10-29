@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 36,
-    "FieldName": "Buckridge, Fahey and Kuvalis",
-    "Label": "eum",
-    "Tooltip": "commodi",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 873,
+    "FieldName": "Ryan Inc and Sons",
+    "Label": "nihil",
+    "Tooltip": "mollitia",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 343,
-    "RestrictEdit": true,
+    "Rank": 107,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 438
       }
     }
   }

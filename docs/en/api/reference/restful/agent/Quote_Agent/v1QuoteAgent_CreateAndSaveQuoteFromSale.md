@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 112,
-  "CopyToSaleId": 365
+  "CopyFromSaleId": 640,
+  "CopyToSaleId": 357
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 651,
-  "SaleId": 966,
-  "QuoteConnectionId": 724,
-  "ERPQuoteKey": "quam",
-  "ERPOrderKey": "ipsum",
-  "ActiveQuoteVersionId": 25,
-  "AcceptedQuoteAlternativeId": 203,
-  "UseValuesFromQuote": 756,
-  "DocumentId": 871,
-  "PoNumber": "1249994",
-  "OrderComment": "inventore",
-  "PreferredEmailCulture": "maye@hand.us",
+  "QuoteId": 126,
+  "SaleId": 276,
+  "QuoteConnectionId": 217,
+  "ERPQuoteKey": "porro",
+  "ERPOrderKey": "ea",
+  "ActiveQuoteVersionId": 137,
+  "AcceptedQuoteAlternativeId": 198,
+  "UseValuesFromQuote": 984,
+  "DocumentId": 364,
+  "PoNumber": "982491",
+  "OrderComment": "alias",
+  "PreferredEmailCulture": "timmothy@turnerschuppe.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 441,
-      "ERPQuoteVersionKey": "rerum",
-      "QuoteId": 838,
-      "Description": "Team-oriented assymetric capacity",
-      "Number": "1312024",
+      "QuoteVersionId": 523,
+      "ERPQuoteVersionKey": "mollitia",
+      "QuoteId": 508,
+      "Description": "Self-enabling actuating function",
+      "Number": "928302",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 895,
-      "SentDate": "2005-10-26T03:44:53.0583181+02:00",
-      "FollowupId": 49,
-      "ExpirationDate": "2006-09-22T03:44:53.0583181+02:00",
-      "DeliveryCountryId": 704,
+      "LikelyQuoteAlternativeId": 305,
+      "SentDate": "2019-03-21T13:14:06.3351823+01:00",
+      "FollowupId": 734,
+      "ExpirationDate": "2002-08-14T13:14:06.3351823+02:00",
+      "DeliveryCountryId": 563,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 251,
+      "InvoiceCountryId": 982,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "odio",
-      "ERPPaymentTypeKey": "dolore",
-      "ERPDeliveryTermsKey": "rem",
-      "ERPDeliveryTypeKey": "magni",
-      "Rank": 236,
-      "ApprovedBy": 653,
-      "ApprovedText": "cumque",
-      "ApprovedRegisteredBy": 944,
-      "ApprovedRegisteredDate": "2010-06-08T03:44:53.0583181+02:00",
-      "ExtraField1": "voluptatum",
-      "ExtraField2": "sint",
-      "ExtraField3": "voluptate",
-      "ExtraField4": "ut",
-      "ExtraField5": "magnam",
-      "LastRecalculated": "2024-07-22T03:44:53.0739396+02:00",
-      "Updated": "2007-06-25T03:44:53.0739396+02:00",
-      "UpdatedAssociateId": 329,
-      "Registered": "2010-02-22T03:44:53.0739396+01:00",
-      "RegisteredAssociateId": 773,
-      "RequestAssociateId": 266,
-      "RequestComment": "dicta",
+      "ERPPaymentTermsKey": "porro",
+      "ERPPaymentTypeKey": "fugiat",
+      "ERPDeliveryTermsKey": "pariatur",
+      "ERPDeliveryTypeKey": "iure",
+      "Rank": 698,
+      "ApprovedBy": 293,
+      "ApprovedText": "consequuntur",
+      "ApprovedRegisteredBy": 90,
+      "ApprovedRegisteredDate": "2007-09-22T13:14:06.3351823+02:00",
+      "ExtraField1": "temporibus",
+      "ExtraField2": "excepturi",
+      "ExtraField3": "et",
+      "ExtraField4": "aut",
+      "ExtraField5": "commodi",
+      "LastRecalculated": "2008-02-21T13:14:06.3351823+01:00",
+      "Updated": "2021-02-04T13:14:06.3351823+01:00",
+      "UpdatedAssociateId": 12,
+      "Registered": "2007-03-26T13:14:06.3351823+02:00",
+      "RegisteredAssociateId": 136,
+      "RequestAssociateId": 851,
+      "RequestComment": "unde",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 825
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldType": "System.Int32",
+      "FieldLength": 44
     }
   }
 }

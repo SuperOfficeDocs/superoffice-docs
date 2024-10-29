@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Jacobson Group"
+  "OwnerName": "Jacobson, Franecki and Tromp"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 86,
-      "NumberOfLicensesFree": 937,
-      "NumberOfLicensesAdded": 672,
-      "NumberOfLicensesNewTotal": 935,
-      "NumberOfLicensesNewFree": 446,
-      "NumberOfLicensesTotal": 489
+      "NumberOfLicensesInUse": 66,
+      "NumberOfLicensesFree": 128,
+      "NumberOfLicensesAdded": 259,
+      "NumberOfLicensesNewTotal": 293,
+      "NumberOfLicensesNewFree": 811,
+      "NumberOfLicensesTotal": 732
     }
   ],
-  "AccumulatedNextCheckDate": "2007-09-29T03:44:52.6677336+02:00"
+  "AccumulatedNextCheckDate": "2015-03-29T13:14:06.0539158+02:00"
 }
 ```

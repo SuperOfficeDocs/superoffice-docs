@@ -136,16 +136,16 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 346,
-  "SourceTicketEntityStatusId": 161,
-  "SourceTicketEntityActivate": "2017-06-25T03:44:53.3091735+02:00",
+  "SourceTicketEntityId": 518,
+  "SourceTicketEntityStatusId": 536,
+  "SourceTicketEntityActivate": "2012-12-10T13:14:06.6320757+01:00",
   "TransferMessageIds": [
-    928,
-    606
+    170,
+    791
   ],
   "NewTicketEntity": null
 }
@@ -158,21 +158,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 702,
-  "Title": "ratione",
-  "CreatedAt": "2011-04-21T03:44:53.3091735+02:00",
-  "LastChanged": "2010-06-26T03:44:53.3091735+02:00",
-  "ReadByOwner": "2001-07-18T03:44:53.3091735+02:00",
-  "ReadByCustomer": "2010-09-04T03:44:53.3091735+02:00",
-  "FirstReadByOwner": "1999-02-09T03:44:53.3091735+01:00",
-  "FirstReadByUser": "2022-08-29T03:44:53.3091735+02:00",
-  "Activate": "2000-01-19T03:44:53.3091735+01:00",
-  "ClosedAt": "2008-08-16T03:44:53.3091735+02:00",
-  "RepliedAt": "2018-02-21T03:44:53.3091735+01:00",
-  "AlertTimeout": "2004-06-15T03:44:53.3091735+02:00",
-  "Deadline": "2024-07-28T03:44:53.3091735+02:00",
+  "TicketId": 19,
+  "Title": "veritatis",
+  "CreatedAt": "2014-11-06T13:14:06.6320757+01:00",
+  "LastChanged": "2018-03-14T13:14:06.6320757+01:00",
+  "ReadByOwner": "2005-07-03T13:14:06.6320757+02:00",
+  "ReadByCustomer": "2024-05-15T13:14:06.6320757+02:00",
+  "FirstReadByOwner": "2001-03-25T13:14:06.6320757+02:00",
+  "FirstReadByUser": "2014-06-30T13:14:06.6320757+02:00",
+  "Activate": "2023-07-10T13:14:06.6320757+02:00",
+  "ClosedAt": "2017-05-11T13:14:06.6320757+02:00",
+  "RepliedAt": "2021-11-21T13:14:06.6320757+01:00",
+  "AlertTimeout": "2013-04-18T13:14:06.6320757+02:00",
+  "Deadline": "2022-02-13T13:14:06.6320757+01:00",
   "CreatedBy": null,
-  "Author": "praesentium",
+  "Author": "sequi",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -183,162 +183,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ex",
-      "PersonId": 468,
-      "Mrmrs": "sint",
-      "Firstname": "Elisabeth",
-      "Lastname": "Predovic",
-      "MiddleName": "Parisian, Schaden and Krajcik",
-      "Title": "necessitatibus",
-      "Description": "Reverse-engineered 5th generation adapter",
-      "Email": "boris@pfannerstill.uk",
-      "FullName": "Raquel Gerhold",
-      "DirectPhone": "140-445-2531 x9325",
-      "FormalName": "Graham-Connelly",
-      "CountryId": 287,
-      "ContactId": 165,
-      "ContactName": "Gleichner LLC",
-      "Retired": 601,
-      "Rank": 803,
-      "ActiveInterests": 831,
-      "ContactDepartment": "",
-      "ContactCountryId": 459,
-      "ContactOrgNr": "807528",
-      "FaxPhone": "571.627.8058 x02381",
-      "MobilePhone": "148.986.4218",
-      "ContactPhone": "692.788.5180",
-      "AssociateName": "Abshire, Reichel and Kunde",
-      "AssociateId": 592,
-      "UsePersonAddress": true,
-      "ContactFax": "fuga",
-      "Kanafname": "aut",
-      "Kanalname": "delectus",
-      "Post1": "incidunt",
-      "Post2": "ab",
-      "Post3": "pariatur",
-      "EmailName": "elisa@rueckerfeil.info",
-      "ContactFullName": "Ms. Winifred Wilber Von",
-      "ActiveErpLinks": 290,
-      "TicketPriorityId": 60,
-      "SupportLanguageId": 797,
-      "SupportAssociateId": 614,
+      "Position": "rem",
+      "PersonId": 660,
+      "Mrmrs": "aperiam",
+      "Firstname": "Benton",
+      "Lastname": "Green",
+      "MiddleName": "Glover-Willms",
+      "Title": "et",
+      "Description": "Implemented background strategy",
+      "Email": "audrey.rodriguez@orn.uk",
+      "FullName": "Katlynn Johnston",
+      "DirectPhone": "323.011.8182 x997",
+      "FormalName": "Ruecker-O'Connell",
+      "CountryId": 846,
+      "ContactId": 615,
+      "ContactName": "Gerhold Inc and Sons",
+      "Retired": 727,
+      "Rank": 400,
+      "ActiveInterests": 966,
+      "ContactDepartment": "strategize dot-com infrastructures",
+      "ContactCountryId": 259,
+      "ContactOrgNr": "654561",
+      "FaxPhone": "203-093-5496 x75350",
+      "MobilePhone": "913.292.5870 x08874",
+      "ContactPhone": "1-038-271-8204 x85007",
+      "AssociateName": "Shields, Stokes and Daniel",
+      "AssociateId": 228,
+      "UsePersonAddress": false,
+      "ContactFax": "ut",
+      "Kanafname": "officiis",
+      "Kanalname": "dignissimos",
+      "Post1": "in",
+      "Post2": "soluta",
+      "Post3": "sapiente",
+      "EmailName": "carlotta@kautzerpollich.ca",
+      "ContactFullName": "Brittany Moen",
+      "ActiveErpLinks": 418,
+      "TicketPriorityId": 448,
+      "SupportLanguageId": 902,
+      "SupportAssociateId": 90,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldType": "System.String",
+          "FieldLength": 299
         }
       }
     }
   ],
-  "AlertLevel": 378,
-  "ConnectId": 23,
+  "AlertLevel": 274,
+  "ConnectId": 814,
   "ReadStatus": "Green",
-  "TimeToReply": 786,
-  "RealTimeToReply": 562,
-  "TimeToClose": 799,
-  "RealTimeToClose": 332,
-  "TimeSpentInternally": 806,
-  "TimeSpentExternally": 62,
-  "TimeSpentQueue": 484,
-  "RealTimeSpentInternally": 738,
-  "RealTimeSpentExternally": 821,
-  "RealTimeSpentQueue": 580,
-  "TimeSpent": 728,
-  "HasAttachment": true,
-  "NumReplies": 325,
-  "NumMessages": 283,
-  "FromAddress": "id",
+  "TimeToReply": 326,
+  "RealTimeToReply": 836,
+  "TimeToClose": 412,
+  "RealTimeToClose": 134,
+  "TimeSpentInternally": 907,
+  "TimeSpentExternally": 669,
+  "TimeSpentQueue": 787,
+  "RealTimeSpentInternally": 260,
+  "RealTimeSpentExternally": 380,
+  "RealTimeSpentQueue": 863,
+  "TimeSpent": 188,
+  "HasAttachment": false,
+  "NumReplies": 389,
+  "NumMessages": 548,
+  "FromAddress": "soluta",
   "Messages": [
     {
-      "TicketMessageId": 134,
-      "CreatedAt": "2013-11-09T03:44:53.3091735+01:00",
+      "TicketMessageId": 427,
+      "CreatedAt": "2010-10-20T13:14:06.6320757+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "fugit",
-      "PersonId": 805,
-      "PersonFullName": "Nels Schultz",
-      "ContactId": 337,
-      "ContactName": "Kshlerin-Reynolds",
+      "Important": false,
+      "Author": "vero",
+      "PersonId": 652,
+      "PersonFullName": "Laurine Hoppe",
+      "ContactId": 437,
+      "ContactName": "Greenfelder Group",
       "ContactDepartment": "",
-      "NumAttachments": 290,
-      "EmailHeader": "laverna@rodriguez.us",
+      "NumAttachments": 292,
+      "EmailHeader": "erika@mayert.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "enim",
-      "Sentiment": 462,
-      "SentimentConfidence": 32,
-      "CreatedBy": 589,
-      "ChangedAt": "1998-01-01T03:44:53.3091735+01:00",
+      "Language": "veritatis",
+      "Sentiment": 287,
+      "SentimentConfidence": 983,
+      "CreatedBy": 826,
+      "ChangedAt": "2014-06-05T13:14:06.6320757+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 467
+          "FieldLength": 638
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 643,
-      "Name": "Walsh, Quigley and Hauck",
-      "ToolTip": "Laudantium aut ratione eum aut sed sapiente aut.",
+      "Id": 29,
+      "Name": "D'Amore-Jacobs",
+      "ToolTip": "Hic molestias non exercitationem tempore dolor magni repudiandae.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldLength": 434
         }
       }
     },
     {
-      "Id": 643,
-      "Name": "Walsh, Quigley and Hauck",
-      "ToolTip": "Laudantium aut ratione eum aut sed sapiente aut.",
+      "Id": 29,
+      "Name": "D'Amore-Jacobs",
+      "ToolTip": "Hic molestias non exercitationem tempore dolor magni repudiandae.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldLength": 434
         }
       }
     }
   ],
-  "Language": "officia",
-  "Sentiment": 996,
-  "SentimentConfidence": 970,
-  "SuggestedCategoryId": 949,
+  "Language": "minima",
+  "Sentiment": 236,
+  "SentimentConfidence": 230,
+  "SuggestedCategoryId": 676,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 293,
-  "IconHint": "et",
+  "OrigHumanCategoryId": 731,
+  "IconHint": "ratione",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 125,
+  "ActiveStatusMonitorId": 835,
   "ExtraFields": {
-    "ExtraFields1": "repudiandae",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "aut"
+    "CustomFields1": "enim",
+    "CustomFields2": "inventore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldType": "System.String",
+      "FieldLength": 715
     }
   }
 }

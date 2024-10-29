@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 429
+  "PersonId": 758
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 586,
-  "Name": "Orn-Johnston",
-  "PersonId": 881,
-  "Rank": 796,
-  "Tooltip": "adipisci",
+  "AssociateId": 749,
+  "Name": "Kiehn Inc and Sons",
+  "PersonId": 47,
+  "Rank": 887,
+  "Tooltip": "eos",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 664,
-  "FullName": "Delfina Pagac",
-  "FormalName": "Krajcik, Gleason and Kunde",
+  "GroupIdx": 308,
+  "FullName": "Dena Hammes",
+  "FormalName": "Schinner-Jaskolski",
   "Deleted": false,
-  "EjUserId": 366,
-  "UserName": "Donnelly Inc and Sons",
+  "EjUserId": 10,
+  "UserName": "Pagac-Hermann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 411
     }
   }
 }

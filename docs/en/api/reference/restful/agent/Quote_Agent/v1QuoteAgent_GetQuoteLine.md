@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 747
+  "QuoteLineId": 61
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 700,
-  "ERPQuoteLineKey": "quis",
-  "QuoteAlternativeId": 740,
-  "ERPProductKey": "magni",
+  "QuoteLineId": 180,
+  "ERPQuoteLineKey": "nihil",
+  "QuoteAlternativeId": 3,
+  "ERPProductKey": "reiciendis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17750.976,
-  "DeliveredQuantity": 28632.224,
-  "Rank": 527,
-  "Name": "Stokes Group",
-  "Description": "Synergized reciprocal info-mediaries",
-  "Code": "maiores",
-  "QuantityUnit": "accusantium",
-  "PriceUnit": "quod",
-  "ItemNumber": "1489573",
+  "Quantity": 14209.555999999999,
+  "DeliveredQuantity": 25172.288,
+  "Rank": 899,
+  "Name": "Lehner, Gottlieb and Schinner",
+  "Description": "Reactive context-sensitive installation",
+  "Code": "et",
+  "QuantityUnit": "magnam",
+  "PriceUnit": "asperiores",
+  "ItemNumber": "196416",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "quo",
-  "Supplier": "et",
-  "SupplierCode": "eos",
-  "Thumbnail": "aperiam",
-  "VATInfo": "qui",
-  "VAT": 17647.554,
-  "UnitCost": 7342.9619999999995,
-  "UnitMinimumPrice": 26109.354,
-  "UnitListPrice": 25679.996,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "aut",
+  "Supplier": "vero",
+  "SupplierCode": "numquam",
+  "Thumbnail": "consequatur",
+  "VATInfo": "labore",
+  "VAT": 1269.27,
+  "UnitCost": 30763.343999999997,
+  "UnitMinimumPrice": 23401.577999999998,
+  "UnitListPrice": 20828.564,
   "ExtraInfo": [
     {
-      "Name": "Bergnaum, Corwin and Rippin",
-      "Value": "iste",
+      "Name": "Kilback LLC",
+      "Value": "tenetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 312
         }
       }
     },
     {
-      "Name": "Bergnaum, Corwin and Rippin",
-      "Value": "iste",
+      "Name": "Kilback LLC",
+      "Value": "tenetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 312
         }
       }
     }
   ],
-  "RawExtraInfo": "autem",
+  "RawExtraInfo": "delectus",
   "IsSubscription": false,
-  "SubscriptionUnit": "illo",
-  "SubscriptionQuantity": 5334.068,
-  "SubscriptionStart": "2014-03-28T03:44:53.0739396+01:00",
-  "ERPDiscountPercent": 4895.308,
-  "ERPDiscountAmount": 29070.984,
-  "DiscountPercent": 8712.52,
-  "DiscountAmount": 16481.706,
+  "SubscriptionUnit": "ea",
+  "SubscriptionQuantity": 15939.524,
+  "SubscriptionStart": "1997-06-20T13:14:06.3351823+02:00",
+  "ERPDiscountPercent": 12855.668,
+  "ERPDiscountAmount": 1635.9479999999999,
+  "DiscountPercent": 31114.352,
+  "DiscountAmount": 6067.424,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 2801.796,
-  "EarningAmount": 3989.582,
-  "SubTotal": 8916.23,
-  "TotalPrice": 10577.25,
-  "Rights": "aut",
-  "Rule": "recusandae",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "culpa",
-  "ExtraField3": "doloremque",
-  "ExtraField4": "commodi",
-  "ExtraField5": "et",
+  "EarningPercent": 29898.36,
+  "EarningAmount": 24398.19,
+  "SubTotal": 22583.604,
+  "TotalPrice": 9072.93,
+  "Rights": "nam",
+  "Rule": "ullam",
+  "ExtraField1": "omnis",
+  "ExtraField2": "aut",
+  "ExtraField3": "hic",
+  "ExtraField4": "eaque",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 587
+      "FieldLength": 648
     }
   }
 }

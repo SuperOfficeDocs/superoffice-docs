@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 886,
-    "Name": "Senger, Eichmann and Gorczany",
-    "Description": "Devolved didactic initiative",
+    "ProjectId": 253,
+    "Name": "Kautzer, Crona and Price",
+    "Description": "Vision-oriented 3rd generation access",
     "URL": "http://www.example.com/",
-    "Type": "beatae",
-    "AssociateId": 661,
-    "AssociateFullName": "Kelsi Larkin",
-    "TypeId": 139,
-    "Updated": "2011-02-11T03:44:53.0114471+01:00",
-    "StatusId": 7,
-    "Status": "velit",
-    "TextId": 639,
-    "PublishTo": "2010-01-01T03:44:53.0114471+01:00",
-    "PublishFrom": "2008-12-04T03:44:53.0114471+01:00",
-    "IsPublished": true,
+    "Type": "in",
+    "AssociateId": 201,
+    "AssociateFullName": "Andreane Kulas",
+    "TypeId": 497,
+    "Updated": "2014-01-28T13:14:06.2883049+01:00",
+    "StatusId": 161,
+    "Status": "qui",
+    "TextId": 236,
+    "PublishTo": "2022-07-12T13:14:06.2883049+02:00",
+    "PublishFrom": "2016-12-04T13:14:06.2883049+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1477691",
-    "ActiveErpLinks": 410,
+    "ProjectNumber": "290446",
+    "ActiveErpLinks": 254,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 209
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 786
+  "AssociateId": 942
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 244,
-    "AssociateId": 218,
-    "Caption": "ab",
+    "DashboardId": 869,
+    "AssociateId": 760,
+    "Caption": "et",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 301,
-        "Caption": "consequatur",
-        "Description": "Assimilated static alliance",
-        "ChartName": "Howe-Prohaska",
-        "ChartId": "assumenda",
-        "IsDefault": true,
-        "AssociateId": 267,
-        "GroupId": 839,
-        "SelectionId": 114,
-        "Config": "praesentium",
+        "DashboardTileId": 745,
+        "Caption": "occaecati",
+        "Description": "Synergized static groupware",
+        "ChartName": "Frami Group",
+        "ChartId": "rerum",
+        "IsDefault": false,
+        "AssociateId": 505,
+        "GroupId": 270,
+        "SelectionId": 893,
+        "Config": "eos",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 54
+            "FieldType": "System.Int32",
+            "FieldLength": 332
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 311
+        "FieldLength": 337
       }
     }
   }

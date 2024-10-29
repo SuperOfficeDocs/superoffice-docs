@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 388,
-    "Name": "Breitenberg, Gislason and Carroll",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "Rank": 738,
-    "UdListDefinitionId": 871,
+    "HeadingId": 730,
+    "Name": "Ziemann-Dickens",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 671,
+    "UdListDefinitionId": 581,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

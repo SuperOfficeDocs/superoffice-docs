@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 725,
-  "PersonName": "Jacobs, Gislason and Abernathy",
+  "ContactId": 943,
+  "PersonName": "Rosenbaum Group",
   "PhoneNumbers": [
-    "758175",
-    "1414668"
+    "908253",
+    "1039745"
   ],
   "Emails": [
-    "lenny@connmertz.co.uk",
-    "eve@lesch.info"
+    "rosalia.marvin@nienow.uk",
+    "antonette@durgan.ca"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 704
     }
   }
 }

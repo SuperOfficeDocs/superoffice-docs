@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=numquam
+GET /api/v1/MDOList/{listname}/selectable?additional=voluptatibus
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Abbott, Runte and Senger",
-    "ToolTip": "Illum aut.",
+    "Id": 879,
+    "Name": "Bahringer-Cummings",
+    "ToolTip": "Ab illum.",
     "Deleted": false,
-    "Rank": 994,
-    "Type": "qui",
-    "ColorBlock": 951,
-    "IconHint": "consequuntur",
+    "Rank": 961,
+    "Type": "fugiat",
+    "ColorBlock": 878,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2021-12-24T03:44:58.0156476+01:00",
+    "LastChanged": "2018-10-08T13:14:11.4141989+02:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Klein Inc and Sons",
-        "ToolTip": "Ratione autem enim sunt consequatur.",
-        "Deleted": false,
-        "Rank": 673,
+        "Id": 646,
+        "Name": "Strosin-Herman",
+        "ToolTip": "Hic asperiores aut.",
+        "Deleted": true,
+        "Rank": 354,
         "Type": "ut",
-        "ColorBlock": 902,
-        "IconHint": "amet",
+        "ColorBlock": 619,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2016-06-16T03:44:58.0156476+02:00",
+        "LastChanged": "2018-07-15T13:14:11.4141989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "animi",
+        "ExtraInfo": "corporis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Ms. Bette Carolyn Roberts V",
+        "FullName": "Broderick Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldType": "System.Int32",
+            "FieldLength": 626
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Miss Melyna Hegmann",
+    "ExtraInfo": "nam",
+    "StyleHint": "iusto",
+    "Hidden": false,
+    "FullName": "Mr. Margarita Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldLength": 188
       }
     }
   }

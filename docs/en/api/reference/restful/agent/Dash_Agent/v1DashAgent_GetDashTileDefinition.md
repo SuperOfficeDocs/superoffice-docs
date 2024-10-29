@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=310
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=437
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 514,
-  "Name": "Blanda-Sporer",
-  "Description": "Right-sized encompassing algorithm",
-  "DefaultHeight": 90,
-  "DefaultWidth": 531,
+  "DashboardTileDefinitionId": 462,
+  "Name": "Glover, Mann and Rogahn",
+  "Description": "Devolved grid-enabled portal",
+  "DefaultHeight": 205,
+  "DefaultWidth": 150,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Stokes-Nicolas",
-  "SelectionId": 253,
+  "EntityName": "Cremin LLC",
+  "SelectionId": 407,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptatum",
+  "CurrencyCode": "enim",
   "Measure": "Average",
-  "MeasureField": "ipsam",
-  "SortBy": "aliquam",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 903,
-  "MeasureByField": "qui",
+  "MeasureField": "maxime",
+  "SortBy": "debitis",
+  "LayoutConfig": "mollitia",
+  "SecondarySelectionId": 372,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Murazik, Reinger and Hammes",
+  "ProviderName": "Torp LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldType": "System.String",
+      "FieldLength": 851
     }
   }
 }

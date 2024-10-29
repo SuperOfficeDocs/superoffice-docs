@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 416,
-  "BlobSize": 930,
-  "Description": "Adaptive tangible capability",
-  "ExtraInfo": "dolorem",
+  "BlobId": 257,
+  "BlobSize": 362,
+  "Description": "Decentralized explicit emulation",
+  "ExtraInfo": "numquam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sed",
-  "OriginalSize": 813,
-  "CreatedDate": "2018-09-08T03:44:57.4416391+02:00",
-  "UpdatedDate": "2007-04-26T03:44:57.4416391+02:00",
+  "MimeType": "aut",
+  "OriginalSize": 43,
+  "CreatedDate": "2003-01-28T13:14:10.9141693+01:00",
+  "UpdatedDate": "2014-12-17T13:14:10.9141693+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quo"
+  "ConceptualType": "reiciendis"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 107,
-  "BlobSize": 776,
-  "Description": "Multi-tiered tangible projection",
-  "ExtraInfo": "error",
+  "BlobId": 597,
+  "BlobSize": 126,
+  "Description": "Organized dynamic service-desk",
+  "ExtraInfo": "nemo",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "autem",
-  "OriginalSize": 994,
-  "CreatedDate": "2010-08-03T03:44:57.453141+02:00",
-  "UpdatedDate": "2006-02-24T03:44:57.453141+01:00",
+  "MimeType": "quia",
+  "OriginalSize": 256,
+  "CreatedDate": "2003-03-31T13:14:10.9141693+02:00",
+  "UpdatedDate": "2003-11-24T13:14:10.9141693+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ducimus",
+  "ConceptualType": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 768
     }
   }
 }

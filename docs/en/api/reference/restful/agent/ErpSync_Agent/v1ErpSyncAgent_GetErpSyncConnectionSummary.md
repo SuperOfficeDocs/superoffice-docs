@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 754
+  "ErpSyncConnectionId": 40
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Russel-Lemke",
-  "DisplayDescription": "Fully-configurable modular info-mediaries",
-  "Active": false,
+  "DisplayName": "Little, O'Conner and Steuber",
+  "DisplayDescription": "Automated upward-trending adapter",
+  "Active": true,
   "Deleted": false,
-  "LastSync": "2010-11-30T03:44:52.620866+01:00",
+  "LastSync": "2017-11-02T13:14:06.0070379+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "sit",
-      "Mappings": "ea",
+      "HasMappings": true,
+      "Defaults": "aperiam",
+      "Mappings": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 858
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "sit",
-      "Mappings": "ea",
+      "HasMappings": true,
+      "Defaults": "aperiam",
+      "Mappings": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 858
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 643
     }
   }
 }

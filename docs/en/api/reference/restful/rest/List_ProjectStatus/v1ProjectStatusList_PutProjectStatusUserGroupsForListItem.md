@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Mohr LLC",
-    "ToolTip": "Et sunt quidem impedit officiis totam iste.",
-    "Deleted": true,
-    "Rank": 575,
-    "Type": "repellat",
-    "ColorBlock": 991,
-    "IconHint": "ut",
+    "Id": 212,
+    "Name": "Hilll-Koepp",
+    "ToolTip": "Suscipit reprehenderit dignissimos.",
+    "Deleted": false,
+    "Rank": 508,
+    "Type": "distinctio",
+    "ColorBlock": 245,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2000-02-19T03:44:58.0937233+01:00",
+    "LastChanged": "2006-02-20T13:14:11.4767026+01:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Brakus LLC",
-        "ToolTip": "Dolorem eum ducimus incidunt maxime totam officia quae.",
-        "Deleted": true,
-        "Rank": 769,
-        "Type": "odio",
-        "ColorBlock": 772,
-        "IconHint": "consequatur",
+        "Id": 967,
+        "Name": "McDermott-Nicolas",
+        "ToolTip": "Quos inventore molestiae.",
+        "Deleted": false,
+        "Rank": 300,
+        "Type": "dolor",
+        "ColorBlock": 909,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2005-05-03T03:44:58.0937233+02:00",
+        "LastChanged": "2013-01-11T13:14:11.4767026+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Foster Mitchell"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Jerod Millie Green DVM"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "non",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Lula Loma O'Hara Sr."
+    "FullName": "Dr. Murphy Zack Schroeder DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Schmeler Group",
-    "ToolTip": "Saepe magnam tempora distinctio accusamus autem autem.",
-    "Deleted": true,
-    "Rank": 715,
-    "Type": "dolorem",
-    "ColorBlock": 336,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2016-09-21T03:44:58.0937233+02:00",
+    "Id": 859,
+    "Name": "Tremblay-Christiansen",
+    "ToolTip": "Sint quo.",
+    "Deleted": false,
+    "Rank": 985,
+    "Type": "labore",
+    "ColorBlock": 258,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2021-08-04T13:14:11.4767026+02:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Gutkowski, Ankunding and Kuhn",
-        "ToolTip": "Doloremque sunt rerum fugit in reiciendis.",
+        "Id": 13,
+        "Name": "Durgan Inc and Sons",
+        "ToolTip": "Praesentium vero iusto qui id.",
         "Deleted": false,
-        "Rank": 658,
-        "Type": "minus",
-        "ColorBlock": 985,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2022-02-02T03:44:58.0937233+01:00",
+        "Rank": 507,
+        "Type": "qui",
+        "ColorBlock": 415,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2006-08-27T13:14:11.4767026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "dolore",
+        "ExtraInfo": "dolores",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Ms. Cary Ila Nitzsche MD",
+        "FullName": "Cathrine Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 739
+            "FieldLength": 745
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "porro",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Cyril Lehner",
+    "FullName": "Earnest Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 381
       }
     }
   }

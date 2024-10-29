@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Jerde-Daniel",
-    "ToolTip": "Aut et sed est quia incidunt eum.",
-    "Deleted": false,
-    "Rank": 118,
-    "Type": "aut",
-    "ColorBlock": 655,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2007-01-06T03:44:58.1093468+01:00",
+    "Id": 268,
+    "Name": "Lubowitz, Metz and Luettgen",
+    "ToolTip": "Animi expedita ut.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "harum",
+    "ColorBlock": 838,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2022-05-19T13:14:11.4923293+02:00",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Stark Group",
-        "ToolTip": "Eius sint qui voluptatibus est cum magni dolor.",
-        "Deleted": false,
-        "Rank": 814,
+        "Id": 609,
+        "Name": "Dickinson Inc and Sons",
+        "ToolTip": "Rem itaque neque quia non voluptates accusamus.",
+        "Deleted": true,
+        "Rank": 168,
         "Type": "voluptatem",
-        "ColorBlock": 425,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2012-10-18T03:44:58.1093468+02:00",
+        "ColorBlock": 417,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2013-05-06T13:14:11.4923293+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "est",
+        "ExtraInfo": "nam",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Felicita Senger"
+        "FullName": "Miss Sam Lamont Beier"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "velit",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Amanda Madge Skiles DDS"
+    "FullName": "Prof. Harmony Elinore Carter II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Hegmann, Schneider and Tremblay",
-    "ToolTip": "Debitis autem sed magnam enim.",
+    "Id": 415,
+    "Name": "Kunze, Kautzer and Hirthe",
+    "ToolTip": "Neque placeat inventore excepturi accusantium optio ut eligendi.",
     "Deleted": false,
-    "Rank": 938,
-    "Type": "accusamus",
-    "ColorBlock": 203,
-    "IconHint": "reprehenderit",
+    "Rank": 677,
+    "Type": "sint",
+    "ColorBlock": 62,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2009-04-16T03:44:58.1093468+02:00",
+    "LastChanged": "2004-01-10T13:14:11.4923293+01:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Schaefer LLC",
-        "ToolTip": "Tenetur ut corrupti omnis.",
-        "Deleted": true,
-        "Rank": 861,
-        "Type": "expedita",
-        "ColorBlock": 106,
-        "IconHint": "accusamus",
-        "Selected": true,
-        "LastChanged": "2000-03-22T03:44:58.1093468+01:00",
+        "Id": 742,
+        "Name": "O'Keefe, Conn and Rohan",
+        "ToolTip": "Aperiam aspernatur et sapiente velit.",
+        "Deleted": false,
+        "Rank": 725,
+        "Type": "adipisci",
+        "ColorBlock": 243,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2011-11-29T13:14:11.4923293+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quod",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "reiciendis",
         "Hidden": true,
-        "FullName": "Mrs. Trever Gerardo Batz",
+        "FullName": "Solon Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldLength": 844
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "debitis",
+    "ExtraInfo": "rerum",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Elnora Kuphal",
+    "FullName": "Erica Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 139
       }
     }
   }

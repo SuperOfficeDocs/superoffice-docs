@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 430,
-  "Section": "ut",
-  "Key": "ut",
-  "Name": "Gerhold-Wisoky",
+  "PrefDescId": 810,
+  "Section": "blanditiis",
+  "Key": "commodi",
+  "Name": "Mitchell-Waelchi",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Object-based impactful synergy",
-  "IsBuiltin": false,
-  "TableName": "Kohler-Schulist",
-  "UserDefinedListId": 662,
-  "Rank": 390,
-  "SubGroup": "quos",
-  "MinLevel": 746,
-  "MaxValue": 98,
-  "MinValue": 652,
-  "RequiredLicense": "ea"
+  "Description": "Networked tertiary website",
+  "IsBuiltin": true,
+  "TableName": "Conn, Johnston and Beer",
+  "UserDefinedListId": 443,
+  "Rank": 710,
+  "SubGroup": "nobis",
+  "MinLevel": 500,
+  "MaxValue": 308,
+  "MinValue": 7,
+  "RequiredLicense": "provident"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 616,
-  "Section": "quod",
-  "Key": "error",
-  "Name": "Green, Wisozk and Brekke",
+  "PrefDescId": 215,
+  "Section": "mollitia",
+  "Key": "enim",
+  "Name": "Mills Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered transitional model",
-  "IsBuiltin": false,
-  "TableName": "Gaylord-Kuphal",
-  "UserDefinedListId": 378,
-  "Rank": 461,
-  "SubGroup": "nisi",
-  "MinLevel": 801,
-  "MaxValue": 253,
-  "MinValue": 437,
-  "RequiredLicense": "voluptatem",
+  "Description": "Down-sized systematic toolset",
+  "IsBuiltin": true,
+  "TableName": "Heaney LLC",
+  "UserDefinedListId": 598,
+  "Rank": 148,
+  "SubGroup": "dolore",
+  "MinLevel": 443,
+  "MaxValue": 921,
+  "MinValue": 624,
+  "RequiredLicense": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

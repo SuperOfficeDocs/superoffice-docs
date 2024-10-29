@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 854,
-  "Name": "Marvin-Turner",
-  "ConsentText": "et",
-  "FormText": "ut",
-  "Key": "est",
-  "Tooltip": "molestiae",
-  "Active": 483,
-  "UpdatedDate": "2012-08-20T03:44:52.7458159+02:00",
+  "ConsentPurposeId": 535,
+  "Name": "Oberbrunner-Schuster",
+  "ConsentText": "numquam",
+  "FormText": "dolor",
+  "Key": "dolores",
+  "Tooltip": "voluptatem",
+  "Active": 82,
+  "UpdatedDate": "2003-05-29T13:14:06.1320455+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 304,
-  "PrivacyStatementDesc": "et",
+  "Rank": 18,
+  "PrivacyStatementDesc": "incidunt",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldType": "System.String",
+      "FieldLength": 780
     }
   }
 }

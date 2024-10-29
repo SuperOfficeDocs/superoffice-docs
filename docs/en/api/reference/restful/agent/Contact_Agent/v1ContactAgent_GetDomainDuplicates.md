@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "quibusdam"
+  "Domain": "ullam"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Goldner, Mueller and Keebler",
-    "SoPrimaryKey": 646,
-    "EntryName": "Koepp, Hilll and Rodriguez",
-    "EntryIdentifier": "qui",
-    "RuleDisplayName": "Olson-Goyette",
+    "RuleName": "Effertz Inc and Sons",
+    "SoPrimaryKey": 935,
+    "EntryName": "Halvorson-Wintheiser",
+    "EntryIdentifier": "commodi",
+    "RuleDisplayName": "Hermann-Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldType": "System.Int32",
+        "FieldLength": 678
       }
     }
   }

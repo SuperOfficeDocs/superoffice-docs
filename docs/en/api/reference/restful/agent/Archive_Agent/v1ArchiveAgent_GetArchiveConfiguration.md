@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kiehn, Rogahn and Parisian",
-  "ProviderName": "Runte, Dickens and Walsh"
+  "GuiName": "Langosh-Zieme",
+  "ProviderName": "Beier, Harris and Mertz"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Pfeffer-Hickle",
-      "DisplayTooltip": "quaerat",
-      "DisplayType": "sint",
-      "CanOrderBy": false,
-      "Name": "Wyman Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Zemlak LLC",
+      "DisplayName": "Crooks, Wiegand and Gusikowski",
+      "DisplayTooltip": "velit",
+      "DisplayType": "veritatis",
+      "CanOrderBy": true,
+      "Name": "Jewess, Mills and Flatley",
+      "CanRestrictBy": false,
+      "RestrictionType": "fugit",
+      "RestrictionListName": "Sipes, Beier and Crooks",
       "IsVisible": false,
-      "ExtraInfo": "incidunt",
-      "Width": "dolorem",
-      "IconHint": "qui",
-      "HeadingIconHint": "commodi"
+      "ExtraInfo": "suscipit",
+      "Width": "quia",
+      "IconHint": "quo",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 80,
-      "Name": "Quitzon-Fadel",
-      "ToolTip": "Modi quia nobis earum sed.",
+      "Id": 952,
+      "Name": "Sporer Inc and Sons",
+      "ToolTip": "Omnis molestiae ipsum exercitationem voluptatem et.",
       "Deleted": false,
-      "Rank": 89,
-      "Type": "ullam",
-      "ColorBlock": 727,
-      "IconHint": "animi",
-      "Selected": false,
-      "LastChanged": "2012-08-05T03:44:52.0427664+02:00",
+      "Rank": 635,
+      "Type": "molestias",
+      "ColorBlock": 989,
+      "IconHint": "delectus",
+      "Selected": true,
+      "LastChanged": "2000-10-24T13:14:05.507008+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quos",
-      "StyleHint": "expedita",
+      "ExtraInfo": "praesentium",
+      "StyleHint": "asperiores",
       "Hidden": false,
-      "FullName": "Liana Koelpin",
+      "FullName": "Mrs. Aubree Wintheiser II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 647
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Shields, Kessler and Bahringer",
+      "Name": "Kunde, Nitzsche and Reilly",
       "Direction": "ASC"
     },
     {
-      "Name": "Shields, Kessler and Bahringer",
+      "Name": "Kunde, Nitzsche and Reilly",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "labore",
+  "OwnerKeys": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 859
     }
   }
 }

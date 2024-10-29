@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=686
+POST /api/v1/Agents/List/GetCountry?countryId=601
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 624,
-  "Name": "Erdman-Crona",
-  "CurrencyId": 451,
-  "EnglishName": "Hegmann Inc and Sons",
+  "CountryId": 133,
+  "Name": "Lesch-Corwin",
+  "CurrencyId": 219,
+  "EnglishName": "Dach Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Versatile 5th generation secured line",
-  "OrgNrText": "1061669",
-  "InterAreaPrefix": "molestiae",
-  "DialInPrefix": "magnam",
-  "ZipPrefix": "quo",
-  "DomainName": "Kunze Group",
-  "AddressLayoutId": 185,
-  "DomesticAddressLayoutId": 969,
-  "ForeignAddressLayoutId": 484,
-  "Rank": 971,
-  "Tooltip": "est",
-  "Deleted": false,
+  "ImageDescription": "Cross-platform discrete success",
+  "OrgNrText": "419445",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "enim",
+  "ZipPrefix": "est",
+  "DomainName": "Mills Inc and Sons",
+  "AddressLayoutId": 830,
+  "DomesticAddressLayoutId": 235,
+  "ForeignAddressLayoutId": 872,
+  "Rank": 297,
+  "Tooltip": "nulla",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

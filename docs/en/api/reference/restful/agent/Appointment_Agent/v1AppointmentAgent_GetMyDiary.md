@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2004-11-05T03:44:52.0427664+01:00",
-  "EndTime": "2004-07-11T03:44:52.0427664+02:00",
-  "Count": 706
+  "StartTime": "2011-04-22T13:14:05.4913817+02:00",
+  "EndTime": "2007-05-31T13:14:05.4913817+02:00",
+  "Count": 371
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 918,
-    "StartDate": "2003-06-04T03:44:52.0427664+02:00",
-    "EndDate": "2007-02-01T03:44:52.0427664+01:00",
+    "AppointmentId": 176,
+    "StartDate": "1998-09-13T13:14:05.4913817+02:00",
+    "EndDate": "2000-08-30T13:14:05.4913817+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sunt",
-    "AssociateFullName": "Neal Dibbert",
-    "ContactName": "Moore LLC",
-    "Description": "Seamless maximized strategy",
-    "PersonFullName": "Ms. Jeromy Kunde",
-    "PersonId": 843,
-    "ContactId": 777,
-    "ProjectId": 630,
-    "ProjectName": "Kling-Runolfsson",
-    "IsPublished": true,
-    "AssociateId": 985,
-    "ColorIndex": 787,
+    "Task": "impedit",
+    "AssociateFullName": "Madalyn Hane",
+    "ContactName": "Leannon-Runolfsson",
+    "Description": "Upgradable 4th generation array",
+    "PersonFullName": "Prof. Chasity Emmerich",
+    "PersonId": 579,
+    "ContactId": 602,
+    "ProjectId": 9,
+    "ProjectName": "Brown LLC",
+    "IsPublished": false,
+    "AssociateId": 219,
+    "ColorIndex": 815,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 638,
-    "PriorityName": "Prohaska-Balistreri",
+    "PriorityId": 392,
+    "PriorityName": "Kiehn LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2024-03-11T03:44:52.0427664+01:00",
+    "ActiveDate": "2006-07-11T13:14:05.4913817+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-11-11T03:44:52.0427664+01:00",
-    "RecurringEndDate": "2003-09-22T03:44:52.0427664+02:00",
-    "MotherId": 522,
-    "AssignedBy": 314,
-    "AssignedByFullName": "Ms. Hester Mathias Sauer",
+    "RecurringStartDate": "2006-12-24T13:14:05.4913817+01:00",
+    "RecurringEndDate": "2014-03-01T13:14:05.4913817+01:00",
+    "MotherId": 594,
+    "AssignedBy": 595,
+    "AssignedByFullName": "Breanne Cummerata V",
     "RejectReason": "",
-    "Location": "rerum",
-    "AlarmLeadTime": "optio",
-    "SaleId": 762,
-    "SaleName": "Orn, Labadie and Nolan",
-    "AssociateName": "Collins-Waelchi",
-    "CreatedDate": "2015-02-14T03:44:52.0427664+01:00",
-    "CreatedBy": "fugit",
-    "CreatedByFullName": "Ms. Annabel Cleveland Bailey",
-    "CreatedByAssociateId": 615,
+    "Location": "optio",
+    "AlarmLeadTime": "neque",
+    "SaleId": 538,
+    "SaleName": "Schaefer, Ruecker and Larkin",
+    "AssociateName": "Mante Inc and Sons",
+    "CreatedDate": "2007-12-01T13:14:05.4913817+01:00",
+    "CreatedBy": "eligendi",
+    "CreatedByFullName": "Lenora Jacobson",
+    "CreatedByAssociateId": 898,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 228,
-    "Title": "eius",
-    "Agenda": "harum",
-    "InternalNotes": "sequi",
+    "PreferredTZLocation": 574,
+    "Title": "illum",
+    "Agenda": "provident",
+    "InternalNotes": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 10
       }
     }
   }

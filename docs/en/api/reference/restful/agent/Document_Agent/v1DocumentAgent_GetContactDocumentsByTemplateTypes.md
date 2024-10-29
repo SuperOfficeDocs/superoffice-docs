@@ -102,13 +102,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 902,
-  "StartTime": "2022-03-11T03:44:52.4333602+01:00",
-  "EndTime": "2023-05-31T03:44:52.4333602+02:00",
-  "Count": 986,
+  "ContactId": 453,
+  "StartTime": "2024-05-10T13:14:05.7570229+02:00",
+  "EndTime": "2013-11-01T13:14:05.7570229+01:00",
+  "Count": 857,
   "DocumentTemplateIds": [
-    204,
-    780
+    54,
+    293
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 865,
-    "Attention": "quis",
-    "Header": "ut",
-    "Name": "Sipes LLC",
-    "OurRef": "laudantium",
-    "YourRef": "praesentium",
-    "Description": "Exclusive composite standardization",
-    "DocumentTemplate": "voluptas",
-    "IsPublished": false,
-    "PersonId": 671,
-    "PersonFullName": "Priscilla Hartmann",
-    "AssociateFullName": "Amos Halvorson",
-    "ContactId": 415,
-    "ContactName": "Kunde, Ryan and Barton",
-    "ProjectId": 48,
-    "ProjectName": "Bosco LLC",
-    "AssociateId": 93,
-    "Snum": 383,
-    "SaleId": 417,
-    "SaleName": "Mayert Group",
+    "DocumentId": 256,
+    "Attention": "ipsum",
+    "Header": "porro",
+    "Name": "Thompson-Kohler",
+    "OurRef": "cupiditate",
+    "YourRef": "aperiam",
+    "Description": "Extended needs-based system engine",
+    "DocumentTemplate": "beatae",
+    "IsPublished": true,
+    "PersonId": 870,
+    "PersonFullName": "Riley Veum",
+    "AssociateFullName": "Elody Kris",
+    "ContactId": 924,
+    "ContactName": "Homenick-Goldner",
+    "ProjectId": 908,
+    "ProjectName": "Boyle Group",
+    "AssociateId": 469,
+    "Snum": 944,
+    "SaleId": 338,
+    "SaleName": "Botsford-Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldType": "System.String",
+        "FieldLength": 925
       }
     }
   }

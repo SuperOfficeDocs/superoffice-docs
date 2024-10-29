@@ -25,7 +25,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=True
+GET /api/v1/List/ProductCategory/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Grady LLC",
-    "Tooltip": "soluta",
+    "Id": 470,
+    "Name": "Hahn-Streich",
+    "Tooltip": "adipisci",
     "Deleted": true,
-    "UdListDefinitionId": 538,
-    "Rank": 338,
+    "UdListDefinitionId": 291,
+    "Rank": 352,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldLength": 226
       }
     }
   }

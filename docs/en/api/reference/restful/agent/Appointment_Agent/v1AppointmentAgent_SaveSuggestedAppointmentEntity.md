@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 36,
-  "Name": "Batz-Bogisich",
-  "Tooltip": "cum",
-  "Rank": 532,
+  "SuggestedAppointmentId": 501,
+  "Name": "Ortiz-Rogahn",
+  "Tooltip": "laborum",
+  "Rank": 980,
   "Deleted": false,
-  "DaysFuture": 349,
-  "Duration": "est",
-  "AutoSuggest": false,
+  "DaysFuture": 303,
+  "Duration": "aperiam",
+  "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "est",
+  "Text": "dolores",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 840,
-  "Name": "McGlynn-Altenwerth",
-  "Tooltip": "cumque",
-  "Rank": 743,
-  "Deleted": false,
-  "DaysFuture": 48,
-  "Duration": "consectetur",
+  "SuggestedAppointmentId": 897,
+  "Name": "Barton, Kiehn and Daugherty",
+  "Tooltip": "suscipit",
+  "Rank": 97,
+  "Deleted": true,
+  "DaysFuture": 385,
+  "Duration": "dolores",
   "AutoSuggest": true,
   "IsMilestone": true,
-  "AssignToMember": true,
-  "Text": "libero",
+  "AssignToMember": false,
+  "Text": "quisquam",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 623
     }
   }
 }

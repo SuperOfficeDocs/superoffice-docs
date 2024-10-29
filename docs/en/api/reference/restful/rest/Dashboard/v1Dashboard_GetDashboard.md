@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 129,
-  "AssociateId": 574,
-  "Caption": "dolor",
+  "DashboardId": 367,
+  "AssociateId": 140,
+  "Caption": "voluptas",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 486,
-      "Caption": "aliquam",
-      "Description": "Monitored impactful data-warehouse",
-      "ChartName": "Bergnaum Group",
-      "ChartId": "voluptatem",
+      "DashboardTileId": 953,
+      "Caption": "sed",
+      "Description": "Focused mission-critical website",
+      "ChartName": "Daugherty Inc and Sons",
+      "ChartId": "modi",
       "IsDefault": false,
-      "AssociateId": 840,
-      "GroupId": 268,
-      "SelectionId": 600,
-      "Config": "et",
+      "AssociateId": 855,
+      "GroupId": 335,
+      "SelectionId": 491,
+      "Config": "minus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldLength": 73
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 1000
     }
   },
   "_Links": {

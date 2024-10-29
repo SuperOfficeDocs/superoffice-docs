@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 539,
-  "Name": "Runolfsson-Howe",
-  "Tooltip": "ad",
-  "Rank": 179,
+  "SaleTypeId": 993,
+  "Name": "Legros LLC",
+  "Tooltip": "qui",
+  "Rank": 334,
   "DurationUnit": "Century",
-  "SaleDuration": 713,
-  "SaleTypeCatId": 629,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 260,
+  "SaleTypeCatId": 880,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 60,
-  "QuoteLinesTemplate": 493,
-  "ConfirmationLinesTemplate": 90,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 189,
+  "QuoteLinesTemplate": 107,
+  "ConfirmationLinesTemplate": 712,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 225,
-  "MinEarningPercent": 10,
-  "GroupQuoteLinesBy": 22,
-  "SortGroupLinesBy": 594,
+  "MaxDiscountPercent": 615,
+  "MinEarningPercent": 925,
+  "GroupQuoteLinesBy": 117,
+  "SortGroupLinesBy": 49,
   "Stages": [
     {
-      "Id": 713,
-      "Name": "Stokes-Padberg",
-      "ToolTip": "Et facere iste molestiae harum quis.",
-      "Deleted": true,
-      "Rank": 637,
-      "Type": "fugit",
-      "ColorBlock": 614,
-      "IconHint": "repudiandae",
+      "Id": 371,
+      "Name": "Gaylord-Zemlak",
+      "ToolTip": "Doloremque iure pariatur accusantium numquam quo officiis et.",
+      "Deleted": false,
+      "Rank": 73,
+      "Type": "ad",
+      "ColorBlock": 510,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2016-11-22T03:44:52.7458159+01:00",
+      "LastChanged": "2001-01-03T13:14:06.1164195+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "assumenda",
+      "ExtraInfo": "unde",
+      "StyleHint": "occaecati",
       "Hidden": true,
-      "FullName": "Janessa Macejkovic",
+      "FullName": "Eryn Wolf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 42
+          "FieldType": "System.Int32",
+          "FieldLength": 786
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 792
     }
   }
 }

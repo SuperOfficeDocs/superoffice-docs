@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "occaecati",
-  "ProviderName": "Cassin, Hackett and Labadie",
-  "StorageKey": "nulla",
+  "StorageType": "accusantium",
+  "ProviderName": "Bode, Monahan and Carter",
+  "StorageKey": "eligendi",
   "ExtraRestrictions": [
     {
-      "Name": "Weissnat, Barton and Ondricka",
-      "Operator": "eos",
+      "Name": "Kshlerin-Bartoletti",
+      "Operator": "illum",
       "Values": [
-        "libero",
-        "aut"
+        "omnis",
+        "sit"
       ],
       "DisplayValues": [
-        "autem",
-        "saepe"
+        "accusantium",
+        "inventore"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 989,
+      "InterParenthesis": 580,
       "InterOperator": "And",
-      "UniqueHash": 825
+      "UniqueHash": 68
     }
   ],
   "OrderBy": [
     {
-      "Name": "Collier, Hegmann and Franecki",
+      "Name": "Schoen, Wehner and Yundt",
       "Direction": "ASC"
     },
     {
-      "Name": "Collier, Hegmann and Franecki",
+      "Name": "Schoen, Wehner and Yundt",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "amet",
-    "a"
+    "cum",
+    "porro"
   ],
-  "PageSize": 662,
-  "PageNumber": 579
+  "PageSize": 493,
+  "PageNumber": 924
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kuphal-Torphy",
-      "DisplayTooltip": "quidem",
-      "DisplayType": "itaque",
+      "DisplayName": "Altenwerth-Robel",
+      "DisplayTooltip": "aspernatur",
+      "DisplayType": "maxime",
       "CanOrderBy": false,
-      "Name": "McDermott, Strosin and Schuster",
-      "CanRestrictBy": true,
-      "RestrictionType": "possimus",
-      "RestrictionListName": "Franecki, Bergnaum and Hoppe",
+      "Name": "Gottlieb, Nikolaus and Goodwin",
+      "CanRestrictBy": false,
+      "RestrictionType": "earum",
+      "RestrictionListName": "Stroman, Olson and Nitzsche",
       "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "quam",
-      "IconHint": "iure",
-      "HeadingIconHint": "quasi"
+      "ExtraInfo": "reiciendis",
+      "Width": "voluptas",
+      "IconHint": "et",
+      "HeadingIconHint": "occaecati"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ondricka-Monahan",
-      "PrimaryKey": 608,
+      "EntityName": "Haley-O'Reilly",
+      "PrimaryKey": 951,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "totam",
-          "TooltipHint": "culpa",
-          "LinkHint": "eveniet"
+          "DisplayValue": "nesciunt",
+          "TooltipHint": "exercitationem",
+          "LinkHint": "dicta"
         }
       },
-      "LinkHint": "deserunt",
-      "StyleHint": "tempore",
+      "LinkHint": "soluta",
+      "StyleHint": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 411
         }
       }
     }
   ],
-  "RowCount": 335,
+  "RowCount": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

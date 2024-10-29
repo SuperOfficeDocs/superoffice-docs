@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 126,
-    "Name": "Kub, Reichert and Schaden",
-    "Description": "Object-based optimizing secured line",
+    "ProjectId": 851,
+    "Name": "Ortiz-Schneider",
+    "Description": "Programmable neutral support",
     "URL": "http://www.example.com/",
-    "Type": "animi",
-    "AssociateId": 453,
-    "AssociateFullName": "Aaliyah Kozey",
-    "TypeId": 577,
-    "Updated": "2022-11-18T03:44:53.0114471+01:00",
-    "StatusId": 130,
-    "Status": "cumque",
-    "TextId": 836,
-    "PublishTo": "2019-09-13T03:44:53.0114471+02:00",
-    "PublishFrom": "2020-12-26T03:44:53.0114471+01:00",
-    "IsPublished": true,
+    "Type": "itaque",
+    "AssociateId": 630,
+    "AssociateFullName": "Jaquelin Jast",
+    "TypeId": 381,
+    "Updated": "2014-01-22T13:14:06.2883049+01:00",
+    "StatusId": 960,
+    "Status": "perferendis",
+    "TextId": 328,
+    "PublishTo": "2014-07-10T13:14:06.2883049+02:00",
+    "PublishFrom": "2000-05-31T13:14:06.2883049+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "388308",
-    "ActiveErpLinks": 603,
+    "ProjectNumber": "1047647",
+    "ActiveErpLinks": 853,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 253
       }
     }
   }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=suscipit
-GET /api/v1/BatchTask?$top=210
-GET /api/v1/BatchTask?$skip=709
+GET /api/v1/BatchTask?$entities=autem
+GET /api/v1/BatchTask?$top=186
+GET /api/v1/BatchTask?$skip=223
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=sapiente
+GET /api/v1/BatchTask?$context=autem
 GET /api/v1/BatchTask?$format=JSON
-GET /api/v1/BatchTask?$jsonSafe=True
+GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "excepturi",
+  "odata.nextLink": "dignissimos",
   "value": [
     {
-      "PrimaryKey": 4539,
+      "PrimaryKey": 2561,
       "EntityName": "person",
-      "personId": 4539,
-      "fullName": "Jermain Madonna Gaylord MD"
+      "personId": 2561,
+      "fullName": "Verla Schneider"
     },
     {
-      "PrimaryKey": 4211,
+      "PrimaryKey": 3126,
       "EntityName": "person",
-      "personId": 4211,
-      "fullName": "Chelsie Fay"
+      "personId": 3126,
+      "fullName": "Katelin Schoen"
     }
   ]
 }

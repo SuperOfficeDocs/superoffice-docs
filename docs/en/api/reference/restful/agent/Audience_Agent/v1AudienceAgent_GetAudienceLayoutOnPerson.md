@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 461
+  "PersonId": 784
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 791,
+  "AudienceLayoutId": 954,
   "InstanceLayout": "aut",
-  "InstanceName": "Balistreri Inc and Sons",
-  "CreatedDate": "2011-05-13T03:44:52.0740137+02:00",
-  "UpdatedDate": "2013-09-10T03:44:52.0740137+02:00",
+  "InstanceName": "Haley, Schaefer and Kessler",
+  "CreatedDate": "2006-06-09T13:14:05.5226336+02:00",
+  "UpdatedDate": "2010-03-04T13:14:05.5226336+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldLength": 828
     }
   }
 }

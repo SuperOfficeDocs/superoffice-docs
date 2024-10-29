@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 4,
+  "EjMessageId": 194,
   "Ticket": null,
-  "CreatedAt": "2015-12-06T03:44:57.6718901+01:00",
+  "CreatedAt": "2020-02-13T13:14:11.1798105+01:00",
   "CreatedBy": null,
-  "Author": "porro",
+  "Author": "in",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "tempore",
-  "TimeSpent": 320,
-  "Body": "nihil",
-  "HtmlBody": "quibusdam",
-  "EmailHeader": "alvena@bechtelaranderson.uk",
-  "DebugInfo": "libero",
-  "MailSorter": "ea",
+  "MessageId": "qui",
+  "TimeSpent": 146,
+  "Body": "neque",
+  "HtmlBody": "odio",
+  "EmailHeader": "violette@robertswalsh.biz",
+  "DebugInfo": "esse",
+  "MailSorter": "aliquid",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "dolor",
   "MessageHeaders": [
     {
-      "Id": 686,
-      "Name": "Daugherty, Senger and Schuster",
-      "Value": "aut",
+      "Id": 54,
+      "Name": "Rutherford-Herzog",
+      "Value": "excepturi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 686,
-      "Name": "Daugherty, Senger and Schuster",
-      "Value": "aut",
+      "Id": 54,
+      "Name": "Rutherford-Herzog",
+      "Value": "excepturi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "modi",
-  "Sentiment": 765,
-  "SentimentConfidence": 376,
+  "Important": true,
+  "Language": "omnis",
+  "Sentiment": 509,
+  "SentimentConfidence": 545,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 737,
-      "Name": "Jast, Streich and Terry",
-      "ContentType": "non",
-      "AttSize": 676,
-      "InlineImage": true,
-      "ContentId": "veritatis",
-      "AuthKey": "omnis",
-      "IsSafeFileExtension": true
+      "AttachmentId": 666,
+      "Name": "Walter Group",
+      "ContentType": "libero",
+      "AttSize": 183,
+      "InlineImage": false,
+      "ContentId": "quas",
+      "AuthKey": "ducimus",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "aut"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "sint"
   }
 }
 ```
@@ -200,79 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 324,
+  "EjMessageId": 914,
   "Ticket": null,
-  "CreatedAt": "2007-09-01T03:44:57.6718901+02:00",
+  "CreatedAt": "2023-05-22T13:14:11.1798105+02:00",
   "CreatedBy": null,
-  "Author": "expedita",
+  "Author": "voluptates",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eaque",
-  "TimeSpent": 284,
-  "Body": "consequatur",
-  "HtmlBody": "consequatur",
-  "EmailHeader": "neoma_johns@hahn.uk",
-  "DebugInfo": "ipsa",
-  "MailSorter": "dolorum",
+  "MessageId": "ea",
+  "TimeSpent": 855,
+  "Body": "eum",
+  "HtmlBody": "aliquam",
+  "EmailHeader": "paolo@grantjakubowski.ca",
+  "DebugInfo": "in",
+  "MailSorter": "eaque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "perferendis",
+  "SearchTitle": "quae",
   "MessageHeaders": [
     {
-      "Id": 372,
-      "Name": "Towne, Renner and Kovacek",
-      "Value": "aperiam",
+      "Id": 199,
+      "Name": "Klocko, Zulauf and Anderson",
+      "Value": "itaque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldType": "System.String",
+          "FieldLength": 455
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptas",
-  "Sentiment": 605,
-  "SentimentConfidence": 874,
+  "Language": "qui",
+  "Sentiment": 640,
+  "SentimentConfidence": 484,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 955,
-      "Name": "Schumm-Senger",
-      "ContentType": "asperiores",
-      "AttSize": 753,
+      "AttachmentId": 159,
+      "Name": "Hane Inc and Sons",
+      "ContentType": "deserunt",
+      "AttSize": 17,
       "InlineImage": false,
-      "ContentId": "voluptas",
-      "AuthKey": "sapiente",
-      "IsSafeFileExtension": false,
+      "ContentId": "quia",
+      "AuthKey": "nam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 774
+          "FieldLength": 821
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "omnis"
+    "CustomFields1": "quia",
+    "CustomFields2": "eaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 121
     }
   }
 }

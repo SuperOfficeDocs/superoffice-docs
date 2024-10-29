@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Wehner, Quigley and Harvey"
+  "ConnectorName": "Hackett, Moen and Strosin"
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 20,
-  "ERPName": "Jacobson LLC",
-  "DisplayName": "Fay-Lockman",
-  "DisplayDescription": "Future-proofed eco-centric application",
-  "Rank": 458,
-  "ConnectorName": "Kovacek Group",
-  "ErpConnectionId": 118,
-  "ExtraData": "quod",
-  "IsAvailable": true,
+  "QuoteConnectionId": 342,
+  "ERPName": "Goyette, Treutel and Jenkins",
+  "DisplayName": "Ziemann Group",
+  "DisplayDescription": "Progressive optimizing database",
+  "Rank": 628,
+  "ConnectorName": "O'Conner-Durgan",
+  "ErpConnectionId": 847,
+  "ExtraData": "tempora",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 114,
-      "ERPPriceListKey": "expedita",
-      "QuoteConnectionId": 53,
-      "Name": "Schimmel Inc and Sons",
-      "Description": "Multi-channelled bandwidth-monitored migration",
-      "Currency": "nihil",
-      "CurrencyName": "Murazik, Nolan and Grant",
-      "ValidFrom": "2001-12-26T03:44:53.0583181+01:00",
-      "ValidTo": "2000-11-18T03:44:53.0583181+01:00",
-      "IsActive": true,
+      "PriceListId": 700,
+      "ERPPriceListKey": "dolor",
+      "QuoteConnectionId": 298,
+      "Name": "Corwin, Cormier and Schneider",
+      "Description": "Seamless attitude-oriented website",
+      "Currency": "earum",
+      "CurrencyName": "Lebsack LLC",
+      "ValidFrom": "2017-11-02T13:14:06.3195563+01:00",
+      "ValidTo": "2001-04-16T13:14:06.3195563+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 753
+          "FieldType": "System.Int32",
+          "FieldLength": 375
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    238,
-    161
+    195,
+    305
   ],
   "AssociateAccessIds": [
-    27,
-    627
+    288,
+    847
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 422
     }
   }
 }

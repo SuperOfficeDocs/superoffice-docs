@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 48,
-  "Name": "Lang LLC",
-  "Tooltip": "ea",
-  "Rank": 562,
+  "ProjTypeId": 770,
+  "Name": "Grimes-Murray",
+  "Tooltip": "sed",
+  "Rank": 594,
   "DurationUnit": "Century",
-  "ProjectDuration": 345,
-  "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 59,
+  "Deleted": true,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 129,
-      "Name": "Johnston Inc and Sons",
-      "ToolTip": "Eos quia culpa cupiditate officia est.",
-      "Deleted": true,
-      "Rank": 832,
-      "Type": "voluptas",
-      "ColorBlock": 541,
-      "IconHint": "facere",
-      "Selected": false,
-      "LastChanged": "2005-07-07T03:44:52.7302252+02:00",
+      "Id": 519,
+      "Name": "Ziemann Inc and Sons",
+      "ToolTip": "Natus perferendis tenetur eum perferendis explicabo deserunt ex.",
+      "Deleted": false,
+      "Rank": 223,
+      "Type": "ea",
+      "ColorBlock": 163,
+      "IconHint": "ab",
+      "Selected": true,
+      "LastChanged": "2014-07-16T13:14:06.1164195+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "dolorem",
+      "ExtraInfo": "illo",
+      "StyleHint": "eum",
       "Hidden": false,
-      "FullName": "Miss Sharon Raynor",
+      "FullName": "Prof. King Abel Davis III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 542
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldType": "System.String",
+      "FieldLength": 153
     }
   }
 }

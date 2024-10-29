@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 459,
-  "Name": "Wintheiser, Rath and Dickens",
+  "WebhookId": 559,
+  "Name": "Friesen, Luettgen and Hermann",
   "Events": [
-    "enim",
-    "maiores"
+    "cupiditate",
+    "aut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "reiciendis",
+  "Secret": "repellat",
   "State": "Active",
-  "Type": "sint",
+  "Type": "ipsa",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "eum"
+    "Headers1": "autem",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-04-19T03:44:57.7969186+02:00",
+  "Registered": "2023-02-03T13:14:11.289192+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1997-10-04T03:44:57.7969186+02:00",
+  "Updated": "2018-10-07T13:14:11.289192+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "simone@cremin.us"
+  "ErrorsEmail": "anahi@stoltenberg.name"
 }
 ```

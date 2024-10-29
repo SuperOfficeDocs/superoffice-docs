@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 403,
-  "SaleId": 869,
-  "QuoteConnectionId": 714,
-  "ERPQuoteKey": "praesentium",
-  "ERPOrderKey": "quis",
-  "ActiveQuoteVersionId": 208,
-  "AcceptedQuoteAlternativeId": 131,
-  "UseValuesFromQuote": 953,
-  "DocumentId": 121,
-  "PoNumber": "162461",
-  "OrderComment": "velit",
-  "PreferredEmailCulture": "rollin.zieme@mitchell.ca",
+  "QuoteId": 223,
+  "SaleId": 453,
+  "QuoteConnectionId": 729,
+  "ERPQuoteKey": "in",
+  "ERPOrderKey": "soluta",
+  "ActiveQuoteVersionId": 775,
+  "AcceptedQuoteAlternativeId": 795,
+  "UseValuesFromQuote": 649,
+  "DocumentId": 160,
+  "PoNumber": "790715",
+  "OrderComment": "sunt",
+  "PreferredEmailCulture": "lea@maggiocormier.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 497
+      "FieldLength": 136
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Kautzer Group",
-  "Tooltip": "dolore",
+  "Id": 832,
+  "Name": "Ortiz Group",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "UdListDefinitionId": 961,
-  "Rank": 721,
+  "UdListDefinitionId": 738,
+  "Rank": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 741
     }
   }
 }

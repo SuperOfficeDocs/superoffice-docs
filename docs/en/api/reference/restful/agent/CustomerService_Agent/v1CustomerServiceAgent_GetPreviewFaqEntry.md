@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 865
+  "KbEntryId": 784
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "est",
-  "RegisteredByFullName": "Aliyah Miller",
-  "Updated": "2013-06-26T03:44:52.3865159+02:00",
-  "Question": "pariatur",
-  "Answer": "rerum",
+  "Title": "nam",
+  "RegisteredByFullName": "Mr. Anjali Lazaro Hand",
+  "Updated": "2004-04-06T13:14:05.7257709+02:00",
+  "Question": "id",
+  "Answer": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

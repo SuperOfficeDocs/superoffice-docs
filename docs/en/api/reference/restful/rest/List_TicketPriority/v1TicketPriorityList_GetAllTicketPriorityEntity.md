@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 831,
-    "Name": "Osinski, DuBuque and Cremin",
+    "TicketPriorityId": 702,
+    "Name": "Keeling-Cormier",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 160,
+    "SortOrder": 148,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 100,
-    "MonStart": "2018-01-17T03:44:58.1874634+01:00",
-    "MonStop": "2009-07-15T03:44:58.1874634+02:00",
-    "TueStart": "2017-04-20T03:44:58.1874634+02:00",
-    "TueStop": "2019-07-23T03:44:58.1874634+02:00",
-    "WedStart": "2005-11-06T03:44:58.1874634+01:00",
-    "WedStop": "2023-10-24T03:44:58.1874634+02:00",
-    "ThuStart": "2018-12-03T03:44:58.1874634+01:00",
-    "ThuStop": "2015-06-03T03:44:58.1874634+02:00",
-    "FriStart": "2023-10-06T03:44:58.1874634+02:00",
-    "FriStop": "2000-09-09T03:44:58.1874634+02:00",
-    "SatStart": "2016-04-03T03:44:58.1874634+02:00",
-    "SatStop": "2023-05-16T03:44:58.1874634+02:00",
-    "SunStart": "2024-08-04T03:44:58.1874634+02:00",
-    "SunStop": "2000-05-15T03:44:58.1874634+02:00",
+    "Deadline": 716,
+    "MonStart": "2004-02-12T13:14:11.5704589+01:00",
+    "MonStop": "2008-02-29T13:14:11.5704589+01:00",
+    "TueStart": "2009-06-26T13:14:11.5704589+02:00",
+    "TueStop": "2005-04-30T13:14:11.5704589+02:00",
+    "WedStart": "2023-10-02T13:14:11.5704589+02:00",
+    "WedStop": "1999-01-11T13:14:11.5704589+01:00",
+    "ThuStart": "2016-08-19T13:14:11.5704589+02:00",
+    "ThuStop": "2009-10-16T13:14:11.5704589+02:00",
+    "FriStart": "2017-03-25T13:14:11.5704589+01:00",
+    "FriStop": "2023-01-24T13:14:11.5704589+01:00",
+    "SatStart": "2010-07-12T13:14:11.5704589+02:00",
+    "SatStop": "1999-09-04T13:14:11.5704589+02:00",
+    "SunStart": "2010-03-31T13:14:11.5704589+02:00",
+    "SunStop": "2010-01-25T13:14:11.5704589+01:00",
     "NonDates": [
-      "tempore",
-      "excepturi"
+      "et",
+      "sed"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 38,
-        "AlertLevel": 399,
-        "AlertTimeout": 759,
-        "Action": 516,
-        "DelegateTo": 106,
-        "ScriptId": 847,
-        "EmailTo": "alf@kohler.uk",
-        "SmsTo": "quo",
-        "ReplyTemplateIdCustomer": 321,
-        "ReplyTemplateIdUser": 886,
-        "ReplyTemplateIdCatmast": 448,
-        "ReplyTemplateIdEmail": 434,
-        "RtiCustomerSms": 865,
-        "ReplyTemplateIdUserSms": 34,
-        "ReplyTemplateIdCatmastSms": 525,
-        "ReplyTemplateIdSms": 344,
+        "TicketAlertId": 332,
+        "AlertLevel": 237,
+        "AlertTimeout": 789,
+        "Action": 656,
+        "DelegateTo": 988,
+        "ScriptId": 378,
+        "EmailTo": "mathilde_heathcote@kilback.ca",
+        "SmsTo": "eos",
+        "ReplyTemplateIdCustomer": 988,
+        "ReplyTemplateIdUser": 692,
+        "ReplyTemplateIdCatmast": 721,
+        "ReplyTemplateIdEmail": 959,
+        "RtiCustomerSms": 675,
+        "ReplyTemplateIdUserSms": 169,
+        "ReplyTemplateIdCatmastSms": 346,
+        "ReplyTemplateIdSms": 805,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 921
+            "FieldLength": 454
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldType": "System.Int32",
+        "FieldLength": 569
       }
     }
   }

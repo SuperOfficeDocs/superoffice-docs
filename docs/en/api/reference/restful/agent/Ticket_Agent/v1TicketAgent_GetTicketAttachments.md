@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 855
+  "TicketEntityId": 174
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 396,
-    "Name": "Lueilwitz Inc and Sons",
-    "ContentType": "suscipit",
-    "AttSize": 141,
-    "InlineImage": false,
-    "ContentId": "odit",
-    "AuthKey": "provident",
+    "AttachmentId": 823,
+    "Name": "Kohler-Buckridge",
+    "ContentType": "provident",
+    "AttSize": 459,
+    "InlineImage": true,
+    "ContentId": "dignissimos",
+    "AuthKey": "alias",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldLength": 429
       }
     }
   }

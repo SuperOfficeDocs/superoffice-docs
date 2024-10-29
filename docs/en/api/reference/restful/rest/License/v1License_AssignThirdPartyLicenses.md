@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 920,
-    "Tooltip": "optio",
+    "Unrestricted": false,
+    "Total": 208,
+    "Tooltip": "non",
     "CanAssign": false,
-    "Free": 766,
-    "InUse": 72,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 442,
-    "Name": "Flatley, Dickinson and Boyle",
-    "Description": "Stand-alone dynamic access",
-    "PrerequisiteModuleName": "Fadel-Price",
-    "SortOrder": 265,
-    "ExtraFlags": 872,
+    "Free": 935,
+    "InUse": 59,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 251,
+    "Name": "Kuhic, Feeney and Haley",
+    "Description": "Versatile methodical matrix",
+    "PrerequisiteModuleName": "Rau-Johnston",
+    "SortOrder": 31,
+    "ExtraFlags": 803,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 110
       }
     }
   }

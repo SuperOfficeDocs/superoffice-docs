@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 954,
+  "DocumentTemplateId": 886,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "repellendus",
-  "PluginId": 901
+  "LanguageCode": "aperiam",
+  "PluginId": 704
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hane, Bergnaum and Bernhard",
-  "Description": "Synergistic assymetric task-force",
-  "ExternalReference": "amet",
-  "MimeType": "commodi",
-  "PluginId": 664
+  "Name": "Boehm, Jaskolski and Ferry",
+  "Description": "Intuitive bandwidth-monitored extranet",
+  "ExternalReference": "non",
+  "MimeType": "odio",
+  "PluginId": 206
 }
 ```

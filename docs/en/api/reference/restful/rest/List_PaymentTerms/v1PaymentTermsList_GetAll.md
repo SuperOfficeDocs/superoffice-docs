@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Hyatt, Kiehn and Reynolds",
-    "Tooltip": "id",
-    "Deleted": false,
-    "UdListDefinitionId": 617,
-    "Rank": 465,
+    "Id": 401,
+    "Name": "Bartell Inc and Sons",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "UdListDefinitionId": 28,
+    "Rank": 232,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 528
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   }

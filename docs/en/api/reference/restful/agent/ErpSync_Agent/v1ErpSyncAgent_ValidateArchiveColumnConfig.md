@@ -71,8 +71,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "maxime",
-  "ErpConnectionId": 275
+  "ListOwner": "sit",
+  "ErpConnectionId": 962
 }
 ```
 

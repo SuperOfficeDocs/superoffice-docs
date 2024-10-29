@@ -127,7 +127,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Oct 2000 03:44:57 G10T
+Last-Modified: Sat, 14 Jan 2012 13:14:11 G1T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Sat, 28 Oct 2000 03:44:57 G10T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "consequatur",
+  "SaleText": "eum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Sat, 28 Oct 2000 03:44:57 G10T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-02-14T03:44:57.5312932+01:00",
-  "Amount": 16318.738,
-  "SaleId": 25,
-  "Earning": 25100.206,
-  "EarningPercent": 7349.23,
-  "Heading": "cum",
-  "Number": "1231586",
-  "Probability": 94,
-  "CreatedDate": "2024-02-10T03:44:57.5312932+01:00",
-  "UpdatedDate": "2000-10-28T03:44:57.5312932+02:00",
+  "Saledate": "2011-04-22T13:14:11.0704236+02:00",
+  "Amount": 23219.806,
+  "SaleId": 798,
+  "Earning": 24667.714,
+  "EarningPercent": 351.008,
+  "Heading": "corrupti",
+  "Number": "1353986",
+  "Probability": 880,
+  "CreatedDate": "2000-02-13T13:14:11.0704236+01:00",
+  "UpdatedDate": "2012-01-14T13:14:11.0704236+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 619,
+  "ActiveLinks": 364,
   "Links": [
     {
-      "EntityName": "Spencer, Wyman and Corwin",
-      "Id": 454,
-      "Description": "Streamlined user-facing instruction set",
-      "ExtraInfo": "aut",
-      "LinkId": 474,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 750
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2003-01-31T03:44:57.5312932+01:00",
-  "Postit": "explicabo",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2006-09-10T03:44:57.5312932+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Shanahan, Deckow and Farrell",
-      "Comment": "magnam",
-      "StakeholderRoleId": 756,
-      "CountryId": 825,
-      "PersonId": 808,
-      "EmailDescription": "casey.abernathy@jacobicarroll.us",
-      "EmailId": 511,
-      "EmailAddress": "forrest_mcclure@beattyoconnell.ca",
-      "PhoneId": 412,
-      "ContactName": "Walker-Gorczany",
-      "ContactId": 606,
-      "SaleId": 510,
-      "Mrmrs": "quo",
-      "Firstname": "Antonia",
-      "MiddleName": "Sauer, Feeney and Corwin",
-      "Lastname": "Howell",
-      "SaleStakeholderId": 903,
-      "Rank": 164,
-      "Phone": "038.140.5018",
+      "EntityName": "Dach, Goldner and Morissette",
+      "Id": 797,
+      "Description": "Down-sized 5th generation model",
+      "ExtraInfo": "vitae",
+      "LinkId": 405,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 973
         }
       }
     }
   ],
-  "ActiveErpLinks": 414,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Orie Wunsch",
-    "SuperOffice:2": "Cleve Buckridge"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "non"
-  },
-  "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "ut"
-  },
-  "PublishEventDate": "2008-02-12T03:44:57.5312932+01:00",
-  "PublishTo": "2006-11-07T03:44:57.5312932+01:00",
-  "PublishFrom": "2017-05-13T03:44:57.5312932+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2004-05-27T13:14:11.0704236+02:00",
+  "Postit": "magni",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2004-12-26T13:14:11.0704236+01:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 152,
-      "Visibility": "All",
-      "DisplayValue": "doloremque",
+      "StakeholderRoleName": "Stark-Cormier",
+      "Comment": "vitae",
+      "StakeholderRoleId": 311,
+      "CountryId": 608,
+      "PersonId": 292,
+      "EmailDescription": "declan@kertzmann.info",
+      "EmailId": 30,
+      "EmailAddress": "julius@kuphal.biz",
+      "PhoneId": 917,
+      "ContactName": "Von LLC",
+      "ContactId": 611,
+      "SaleId": 350,
+      "Mrmrs": "doloremque",
+      "Firstname": "Rosalia",
+      "MiddleName": "Hand, Hegmann and Murazik",
+      "Lastname": "Kling",
+      "SaleStakeholderId": 821,
+      "Rank": 954,
+      "Phone": "765-930-4444",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 109
+          "FieldLength": 258
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 579,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Brayan Gusikowski",
+    "SuperOffice:2": "Donnell Stracke"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "possimus"
+  },
+  "CustomFields": {
+    "CustomFields1": "numquam",
+    "CustomFields2": "itaque"
+  },
+  "PublishEventDate": "2017-06-06T13:14:11.0704236+02:00",
+  "PublishTo": "2010-10-04T13:14:11.0704236+02:00",
+  "PublishFrom": "2016-03-01T13:14:11.0704236+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 569,
+      "Visibility": "All",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 810
         }
       }
     },
     {
-      "VisibleId": 152,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "doloremque",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 109
+          "FieldLength": 810
         }
       }
     }
@@ -260,13 +260,13 @@ Last-Modified: Sat, 28 Oct 2000 03:44:57 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 453
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

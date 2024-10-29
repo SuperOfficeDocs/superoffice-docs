@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Witting, Erdman and Armstrong",
-    "ToolTip": "Sapiente perferendis maxime nisi et accusamus sapiente est.",
-    "Deleted": true,
-    "Rank": 144,
-    "Type": "rerum",
-    "ColorBlock": 509,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2016-09-04T03:44:58.1405935+02:00",
+    "Id": 525,
+    "Name": "Fisher Inc and Sons",
+    "ToolTip": "Quia quam harum est.",
+    "Deleted": false,
+    "Rank": 292,
+    "Type": "corrupti",
+    "ColorBlock": 345,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "1998-02-09T13:14:11.5235812+01:00",
     "ChildItems": [
       {
-        "Id": 61,
-        "Name": "Spencer LLC",
-        "ToolTip": "Aut ab quia nam eum qui aut.",
-        "Deleted": true,
-        "Rank": 370,
-        "Type": "ea",
-        "ColorBlock": 242,
-        "IconHint": "qui",
+        "Id": 981,
+        "Name": "Kulas, McCullough and Tromp",
+        "ToolTip": "Dolores tempore.",
+        "Deleted": false,
+        "Rank": 407,
+        "Type": "eius",
+        "ColorBlock": 970,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2017-10-11T03:44:58.1405935+02:00",
+        "LastChanged": "2012-09-14T13:14:11.5235812+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Sophie Wolf"
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Mrs. Rosa Katrine Deckow"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "impedit",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Nash Franecki"
+    "FullName": "Harley Jacobi"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Schinner, McDermott and Effertz",
-    "ToolTip": "Occaecati sit voluptas aut.",
+    "Id": 67,
+    "Name": "Dicki LLC",
+    "ToolTip": "Expedita modi natus illum tempora dolores eum iste.",
     "Deleted": true,
-    "Rank": 895,
-    "Type": "magnam",
-    "ColorBlock": 213,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2017-03-31T03:44:58.1405935+02:00",
+    "Rank": 152,
+    "Type": "dolor",
+    "ColorBlock": 287,
+    "IconHint": "minima",
+    "Selected": false,
+    "LastChanged": "2014-06-29T13:14:11.5235812+02:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Trantow LLC",
-        "ToolTip": "Corporis odio illo.",
+        "Id": 172,
+        "Name": "Hintz, Hoppe and Mayert",
+        "ToolTip": "Ratione occaecati adipisci itaque animi.",
         "Deleted": false,
-        "Rank": 20,
-        "Type": "a",
-        "ColorBlock": 898,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "2018-07-29T03:44:58.1405935+02:00",
+        "Rank": 405,
+        "Type": "ab",
+        "ColorBlock": 731,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2017-05-10T13:14:11.5235812+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "quis",
+        "ExtraInfo": "nemo",
+        "StyleHint": "eveniet",
         "Hidden": false,
-        "FullName": "Elroy Tromp Jr.",
+        "FullName": "Mr. Dillon Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 597
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Dedrick Lockman",
+    "ExtraInfo": "vel",
+    "StyleHint": "veniam",
+    "Hidden": true,
+    "FullName": "Mrs. Howard Frances Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 801
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

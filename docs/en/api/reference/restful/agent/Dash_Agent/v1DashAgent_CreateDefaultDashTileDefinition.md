@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 192,
-  "Name": "Wiza-Hoeger",
-  "Description": "Object-based 3rd generation installation",
-  "DefaultHeight": 333,
-  "DefaultWidth": 463,
+  "DashboardTileDefinitionId": 86,
+  "Name": "Kautzer, Smitham and Roob",
+  "Description": "Extended directional toolset",
+  "DefaultHeight": 736,
+  "DefaultWidth": 250,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Zemlak Inc and Sons",
-  "SelectionId": 612,
+  "EntityName": "Hudson Group",
+  "SelectionId": 138,
   "CurrencyMode": "Base",
-  "CurrencyCode": "esse",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "minima",
-  "SortBy": "amet",
-  "LayoutConfig": "doloremque",
-  "SecondarySelectionId": 262,
-  "MeasureByField": "et",
+  "MeasureField": "voluptatem",
+  "SortBy": "est",
+  "LayoutConfig": "ex",
+  "SecondarySelectionId": 344,
+  "MeasureByField": "rem",
   "Usage": "Dashboard",
-  "ProviderName": "Grady Inc and Sons",
+  "ProviderName": "Eichmann, Kshlerin and McKenzie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

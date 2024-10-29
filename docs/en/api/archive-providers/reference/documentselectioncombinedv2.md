@@ -714,7 +714,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionCombinedV2?$select=person/searchPhone/formattedNumber,person/personUdef/SuperOffice:6,contact/department,sale/associate/associateDbId
+GET /api/v1/archive/DocumentSelectionCombinedV2?$select=person/isProjectMember,person/personDirectPhone/description,person/personAddress/line3,person/correspondingAssociate/firstName,contact/contactAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

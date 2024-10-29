@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 754,
-  "Name": "Adams Group",
-  "CreatedDate": "2015-04-30T03:44:52.6364852+02:00",
-  "UpdatedDate": "2013-07-25T03:44:52.6364852+02:00",
+  "ForeignAppId": 606,
+  "Name": "Sipes-Kihn",
+  "CreatedDate": "1997-12-06T13:14:06.0382898+01:00",
+  "UpdatedDate": "2014-06-17T13:14:06.0382898+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 827,
-      "Name": "Wunsch-Collier",
-      "CreatedDate": "2016-10-20T03:44:52.6364852+02:00",
-      "UpdatedDate": "1999-02-05T03:44:52.6364852+01:00",
-      "AssociateFullName": "Eda Gus Lemke MD",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "amet",
-      "ForeignAppId": 819
+      "ForeignDeviceId": 621,
+      "Name": "Kub-Hahn",
+      "CreatedDate": "2009-12-18T13:14:06.0382898+01:00",
+      "UpdatedDate": "2013-07-22T13:14:06.0382898+02:00",
+      "AssociateFullName": "Ezra Schinner",
+      "CreatedBy": "sunt",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "expedita",
+      "ForeignAppId": 716
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 555,
-  "Name": "Conroy LLC",
-  "CreatedDate": "2001-02-13T03:44:52.6364852+01:00",
-  "UpdatedDate": "2006-05-03T03:44:52.6364852+02:00",
+  "ForeignAppId": 431,
+  "Name": "Dibbert, Kling and Wilkinson",
+  "CreatedDate": "1999-07-22T13:14:06.0382898+02:00",
+  "UpdatedDate": "2023-01-03T13:14:06.0382898+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 194,
-      "Name": "Grady, Nikolaus and O'Hara",
-      "CreatedDate": "2014-05-26T03:44:52.6364852+02:00",
-      "UpdatedDate": "1999-01-07T03:44:52.6364852+01:00",
-      "AssociateFullName": "Ms. Madison Becker PhD",
-      "CreatedBy": "minus",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "facilis",
-      "ForeignAppId": 192,
+      "ForeignDeviceId": 853,
+      "Name": "Farrell-Hansen",
+      "CreatedDate": "2021-03-03T13:14:06.0382898+01:00",
+      "UpdatedDate": "2003-01-13T13:14:06.0382898+01:00",
+      "AssociateFullName": "Miss Casper Erica Bahringer II",
+      "CreatedBy": "aut",
+      "UpdatedBy": "voluptatem",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 751,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 210
+          "FieldLength": 376
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldLength": 547
     }
   }
 }

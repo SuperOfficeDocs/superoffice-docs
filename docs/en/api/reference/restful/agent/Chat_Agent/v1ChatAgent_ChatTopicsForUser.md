@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 15,
-    "Name": "Welch LLC",
-    "Description": "Inverse content-based projection",
-    "WelcomeMessage": "commodi",
+    "ChatTopicId": 410,
+    "Name": "Lind, Heller and Crooks",
+    "Description": "Progressive transitional methodology",
+    "WelcomeMessage": "nam",
     "Language": null,
-    "LastAccept": "2004-06-21T03:44:52.2459049+02:00",
-    "SecondsPrAccept": 504,
-    "AlertRecipient": "veniam",
+    "LastAccept": "2019-08-26T13:14:05.6163893+02:00",
+    "SecondsPrAccept": 521,
+    "AlertRecipient": "optio",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "eos",
+    "BadgeHeader": "quibusdam",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "est",
-    "WarnNewChatMinutes": 169,
-    "WarnManagerNewChatMinutes": 242,
-    "TicketEnabled": true,
+    "CustomQueueText": "non",
+    "WarnNewChatMinutes": 881,
+    "WarnManagerNewChatMinutes": 991,
+    "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
@@ -132,19 +132,19 @@ Content-Type: application/json; charset=utf-8
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 761,
-    "WarnManagerChatMessageMinutes": 490,
+    "WarnChatMessageMinutes": 767,
+    "WarnManagerChatMessageMinutes": 613,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 285,
-    "OfflineFormQueueLength": 528,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "iusto",
+    "OfflineFormTimeLimit": 304,
+    "OfflineFormQueueLength": 110,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 378
       }
     }
   }

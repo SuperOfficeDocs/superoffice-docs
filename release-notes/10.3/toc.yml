@@ -60,6 +60,9 @@ items:
   items:
   - name: 10.3.11 update
     href: api/10.3.11-update.md
+    items:
+    - name: Database changes 10.3.11
+      href: ../database/changes-10.3.11.md
   - name: 10.3.10 update
     href: api/10.3.10-update.md
     items:

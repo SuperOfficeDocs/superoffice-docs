@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 292,
-  "Name": "Funk-Marvin",
-  "Tooltip": "doloribus",
-  "Rank": 395,
-  "Rate": 28397.174,
-  "Units": 5287.058,
+  "CurrencyId": 788,
+  "Name": "Willms-Lindgren",
+  "Tooltip": "aut",
+  "Rank": 400,
+  "Rate": 15967.73,
+  "Units": 9555.5659999999989,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldLength": 100
     }
   }
 }

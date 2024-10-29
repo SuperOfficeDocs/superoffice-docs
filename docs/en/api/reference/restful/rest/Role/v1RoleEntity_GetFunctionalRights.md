@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Pouros, Klocko and McDermott",
-    "ToolTip": "In incidunt quaerat dicta veritatis nam voluptatem unde.",
-    "Deleted": true,
-    "Rank": 356,
-    "Type": "tenetur",
-    "ColorBlock": 65,
-    "IconHint": "dolorem",
+    "Id": 273,
+    "Name": "Schaden, Homenick and Greenfelder",
+    "ToolTip": "Sequi ad.",
+    "Deleted": false,
+    "Rank": 461,
+    "Type": "cumque",
+    "ColorBlock": 315,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2008-07-27T03:44:57.5000465+02:00",
+    "LastChanged": "2024-05-23T13:14:10.9610472+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Abernathy-Stoltenberg",
-        "ToolTip": "Qui sunt doloribus provident vero nemo et.",
+        "Id": 830,
+        "Name": "Zieme-Veum",
+        "ToolTip": "Sit consequatur.",
         "Deleted": false,
-        "Rank": 298,
-        "Type": "quis",
-        "ColorBlock": 336,
-        "IconHint": "necessitatibus",
+        "Rank": 693,
+        "Type": "sint",
+        "ColorBlock": 719,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2011-06-21T03:44:57.5000465+02:00",
+        "LastChanged": "2019-09-12T13:14:10.9610472+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "et",
+        "ExtraInfo": "dolore",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Colleen Walker",
+        "FullName": "Liam McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 303
+            "FieldType": "System.String",
+            "FieldLength": 730
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Mrs. Jillian Dino Johns DVM",
+    "ExtraInfo": "rerum",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Dr. Alexanne Powlowski I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldType": "System.String",
+        "FieldLength": 448
       }
     }
   }

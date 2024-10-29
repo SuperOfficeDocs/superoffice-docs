@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 05 Jul 2023 03:44:57 G7T
+Last-Modified: Fri, 26 Dec 2008 13:14:11 G12T
 
 {
-  "BlobId": 211,
-  "BlobSize": 654,
-  "Description": "De-engineered clear-thinking leverage",
-  "ExtraInfo": "et",
+  "BlobId": 441,
+  "BlobSize": 604,
+  "Description": "Optional intangible local area network",
+  "ExtraInfo": "non",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "consequatur",
-  "OriginalSize": 439,
-  "CreatedDate": "1997-09-02T03:44:57.7344277+02:00",
-  "UpdatedDate": "2023-07-05T03:44:57.7344277+02:00",
+  "MimeType": "dolor",
+  "OriginalSize": 716,
+  "CreatedDate": "2013-12-24T13:14:11.2266882+01:00",
+  "UpdatedDate": "2008-12-26T13:14:11.2266882+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 700
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Toy-Upton",
-    "ToolTip": "Eius deleniti asperiores.",
+    "Id": 183,
+    "Name": "Bergstrom, Rutherford and Murray",
+    "ToolTip": "Amet quo.",
     "Deleted": false,
-    "Rank": 551,
-    "Type": "minima",
-    "ColorBlock": 840,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2009-01-24T03:44:58.062516+01:00",
+    "Rank": 214,
+    "Type": "blanditiis",
+    "ColorBlock": 457,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2021-07-30T13:14:11.4610767+02:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Lindgren, Reinger and Bayer",
-        "ToolTip": "Officia nemo nihil.",
+        "Id": 693,
+        "Name": "McClure Inc and Sons",
+        "ToolTip": "Quisquam ut corporis consectetur unde fuga.",
         "Deleted": false,
-        "Rank": 735,
-        "Type": "et",
-        "ColorBlock": 113,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2010-11-08T03:44:58.062516+01:00",
+        "Rank": 331,
+        "Type": "aut",
+        "ColorBlock": 226,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2012-09-16T13:14:11.4610767+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Christa Bogisich"
+        "ExtraInfo": "qui",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Marquise Hettinger"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "omnis",
+    "ExtraInfo": "ut",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Pat Glover"
+    "FullName": "Mr. Vincenza Helena Harvey"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Will-Fisher",
-    "ToolTip": "Nemo et provident voluptatibus iusto accusamus beatae.",
-    "Deleted": true,
-    "Rank": 342,
-    "Type": "officia",
-    "ColorBlock": 393,
-    "IconHint": "cumque",
+    "Id": 979,
+    "Name": "Beahan LLC",
+    "ToolTip": "Dolore et tempora.",
+    "Deleted": false,
+    "Rank": 727,
+    "Type": "voluptas",
+    "ColorBlock": 648,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2021-02-20T03:44:58.062516+01:00",
+    "LastChanged": "2021-06-24T13:14:11.4610767+02:00",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Glover, Reilly and Reichel",
-        "ToolTip": "Atque ex vero ex.",
+        "Id": 216,
+        "Name": "Rosenbaum Inc and Sons",
+        "ToolTip": "Saepe voluptas repellat ab commodi debitis.",
         "Deleted": false,
-        "Rank": 847,
-        "Type": "voluptatem",
-        "ColorBlock": 653,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2016-08-22T03:44:58.062516+02:00",
+        "Rank": 363,
+        "Type": "et",
+        "ColorBlock": 670,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "1997-08-25T13:14:11.4610767+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "cum",
+        "StyleHint": "dolore",
         "Hidden": true,
-        "FullName": "Ozella Dach",
+        "FullName": "Miss Brad Dare",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 760
+            "FieldType": "System.String",
+            "FieldLength": 22
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "odit",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Dexter Gudrun Bosco DVM",
+    "FullName": "Blanche Stephany Carroll V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 278
       }
     }
   }

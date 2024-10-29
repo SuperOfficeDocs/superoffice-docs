@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 880
+  "DepartmentId": 273
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "molestiae",
-    "PersonId": 904,
-    "Mrmrs": "impedit",
-    "Firstname": "Audrey",
-    "Lastname": "Beer",
-    "MiddleName": "O'Reilly LLC",
-    "Title": "consequuntur",
-    "Description": "Reduced modular pricing structure",
-    "Email": "ernie_bosco@champlin.co.uk",
-    "FullName": "Ellie Hammes",
-    "DirectPhone": "(618)284-0313",
-    "FormalName": "Welch, Rodriguez and Hane",
-    "CountryId": 790,
-    "ContactId": 957,
-    "ContactName": "Mraz, Heller and Kihn",
-    "Retired": 842,
-    "Rank": 378,
-    "ActiveInterests": 597,
+    "Position": "quae",
+    "PersonId": 248,
+    "Mrmrs": "repellendus",
+    "Firstname": "Trudie",
+    "Lastname": "Hammes",
+    "MiddleName": "Balistreri, Nolan and Nitzsche",
+    "Title": "est",
+    "Description": "Inverse bottom-line knowledge base",
+    "Email": "jewel.terry@dooley.ca",
+    "FullName": "Bernard Spinka",
+    "DirectPhone": "398.974.9347",
+    "FormalName": "Lubowitz, Homenick and Hermann",
+    "CountryId": 887,
+    "ContactId": 75,
+    "ContactName": "Kertzmann, Kerluke and Ullrich",
+    "Retired": 975,
+    "Rank": 705,
+    "ActiveInterests": 547,
     "ContactDepartment": "",
-    "ContactCountryId": 608,
-    "ContactOrgNr": "978962",
-    "FaxPhone": "1-107-866-0080",
-    "MobilePhone": "(030)607-6794 x709",
-    "ContactPhone": "861.049.4821 x84610",
-    "AssociateName": "Hintz, Ortiz and Schulist",
-    "AssociateId": 193,
+    "ContactCountryId": 294,
+    "ContactOrgNr": "1724355",
+    "FaxPhone": "1-013-530-2718 x083",
+    "MobilePhone": "(114)309-0539 x475",
+    "ContactPhone": "861-703-2344 x31573",
+    "AssociateName": "Jacobson, Barrows and Marks",
+    "AssociateId": 314,
     "UsePersonAddress": false,
-    "ContactFax": "fuga",
-    "Kanafname": "minima",
-    "Kanalname": "qui",
-    "Post1": "ut",
-    "Post2": "dolores",
-    "Post3": "corrupti",
-    "EmailName": "santino@klockoeffertz.ca",
-    "ContactFullName": "Mr. Roosevelt Anderson Jr.",
-    "ActiveErpLinks": 423,
-    "TicketPriorityId": 339,
-    "SupportLanguageId": 154,
-    "SupportAssociateId": 930,
+    "ContactFax": "beatae",
+    "Kanafname": "cum",
+    "Kanalname": "porro",
+    "Post1": "unde",
+    "Post2": "consequatur",
+    "Post3": "cumque",
+    "EmailName": "desmond@gleichner.info",
+    "ContactFullName": "Jaida Grady Jr.",
+    "ActiveErpLinks": 490,
+    "TicketPriorityId": 826,
+    "SupportLanguageId": 466,
+    "SupportAssociateId": 317,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }

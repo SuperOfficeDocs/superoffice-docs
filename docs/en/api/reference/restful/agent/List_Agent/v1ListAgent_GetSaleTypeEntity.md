@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=883
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=806
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 675,
-  "Name": "Nolan-Treutel",
-  "Tooltip": "tempore",
-  "Rank": 202,
+  "SaleTypeId": 1001,
+  "Name": "Rice-Jacobson",
+  "Tooltip": "omnis",
+  "Rank": 477,
   "DurationUnit": "Century",
-  "SaleDuration": 522,
-  "SaleTypeCatId": 659,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 508,
+  "SaleTypeCatId": 227,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 116,
-  "QuoteLinesTemplate": 662,
-  "ConfirmationLinesTemplate": 964,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 41,
+  "QuoteLinesTemplate": 614,
+  "ConfirmationLinesTemplate": 390,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 573,
-  "MinEarningPercent": 908,
-  "GroupQuoteLinesBy": 157,
-  "SortGroupLinesBy": 121,
+  "MaxDiscountPercent": 435,
+  "MinEarningPercent": 906,
+  "GroupQuoteLinesBy": 873,
+  "SortGroupLinesBy": 879,
   "Stages": [
     {
-      "Id": 894,
-      "Name": "Deckow-Mayer",
-      "ToolTip": "Quas ratione laudantium impedit corporis asperiores.",
+      "Id": 350,
+      "Name": "Hettinger-Lindgren",
+      "ToolTip": "Quo voluptas possimus eaque consequatur non et.",
       "Deleted": false,
-      "Rank": 280,
-      "Type": "dolor",
-      "ColorBlock": 234,
-      "IconHint": "nemo",
-      "Selected": false,
-      "LastChanged": "2011-10-15T03:44:52.6833552+02:00",
+      "Rank": 721,
+      "Type": "corrupti",
+      "ColorBlock": 448,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2019-09-11T13:14:06.0695417+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "eius",
+      "ExtraInfo": "iusto",
+      "StyleHint": "nisi",
       "Hidden": false,
-      "FullName": "Keira Schmitt",
+      "FullName": "Dr. Eudora Kacey Rodriguez",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 371
+          "FieldLength": 882
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldType": "System.String",
+      "FieldLength": 270
     }
   }
 }

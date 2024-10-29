@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "ipsum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "ipsum",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 556,
-  "Name": "Schiller, Hackett and Pfeffer",
-  "Description": "Enterprise-wide human-resource website",
-  "WelcomeMessage": "odit",
+  "ChatTopicId": 60,
+  "Name": "Rowe, Kris and Gaylord",
+  "Description": "Total optimal open system",
+  "WelcomeMessage": "enim",
   "Language": null,
-  "LastAccept": "2022-07-17T03:44:57.0940238+02:00",
-  "SecondsPrAccept": 219,
-  "AlertRecipient": "corrupti",
+  "LastAccept": "2003-10-23T13:14:10.6954061+02:00",
+  "SecondsPrAccept": 386,
+  "AlertRecipient": "molestias",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "aperiam",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "consequatur",
-  "WarnNewChatMinutes": 618,
-  "WarnManagerNewChatMinutes": 430,
+  "CollectConsent": false,
+  "BadgeHeader": "et",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "ut",
+  "WarnNewChatMinutes": 478,
+  "WarnManagerNewChatMinutes": 315,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 120,
-  "WarnManagerChatMessageMinutes": 788,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 471,
+  "WarnManagerChatMessageMinutes": 614,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 269,
-  "OfflineFormQueueLength": 103,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "rerum",
+  "OfflineFormTimeLimit": 521,
+  "OfflineFormQueueLength": 78,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldType": "System.Int32",
+      "FieldLength": 790
     }
   },
   "_Links": {

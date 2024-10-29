@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 627,
-    "Name": "Larson Group",
-    "ToolTip": "Quia non.",
+    "Id": 119,
+    "Name": "Dickinson Group",
+    "ToolTip": "Ut corrupti dolor ratione voluptatem ea sit magnam.",
     "Deleted": false,
-    "Rank": 936,
-    "Type": "voluptatem",
-    "ColorBlock": 519,
-    "IconHint": "minima",
-    "Selected": false,
-    "LastChanged": "2022-01-30T03:44:57.8125425+01:00",
+    "Rank": 579,
+    "Type": "molestias",
+    "ColorBlock": 721,
+    "IconHint": "architecto",
+    "Selected": true,
+    "LastChanged": "2008-11-20T13:14:11.3048179+01:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "King LLC",
-        "ToolTip": "Sit incidunt.",
+        "Id": 914,
+        "Name": "Rath, Klocko and Abbott",
+        "ToolTip": "Exercitationem eum amet.",
         "Deleted": false,
-        "Rank": 559,
-        "Type": "fugit",
-        "ColorBlock": 320,
-        "IconHint": "cum",
-        "Selected": false,
-        "LastChanged": "2024-02-02T03:44:57.8125425+01:00",
+        "Rank": 462,
+        "Type": "repudiandae",
+        "ColorBlock": 460,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "2002-06-28T13:14:11.3048179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
+        "ExtraInfo": "molestias",
         "StyleHint": "natus",
-        "Hidden": true,
-        "FullName": "Jaunita Streich"
+        "Hidden": false,
+        "FullName": "Germaine Ankunding"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "ut",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Sadye Predovic"
+    "FullName": "Ms. Joanne Schinner"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Little, Walter and Mosciski",
-    "ToolTip": "Eligendi dolores voluptatum corporis nam ad.",
+    "Id": 787,
+    "Name": "Crist, Jacobson and Ullrich",
+    "ToolTip": "Ab et cum ut dolor.",
     "Deleted": false,
-    "Rank": 944,
-    "Type": "quia",
-    "ColorBlock": 929,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2023-06-26T03:44:57.8125425+02:00",
+    "Rank": 106,
+    "Type": "ut",
+    "ColorBlock": 969,
+    "IconHint": "explicabo",
+    "Selected": false,
+    "LastChanged": "2007-11-03T13:14:11.3048179+01:00",
     "ChildItems": [
       {
-        "Id": 580,
-        "Name": "Lakin, Barrows and Kshlerin",
-        "ToolTip": "Dolor ullam aliquam cum cupiditate consequatur.",
-        "Deleted": false,
-        "Rank": 733,
-        "Type": "ut",
-        "ColorBlock": 965,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2003-09-02T03:44:57.8125425+02:00",
+        "Id": 568,
+        "Name": "Purdy LLC",
+        "ToolTip": "Laudantium corrupti omnis ex ea laborum expedita sit.",
+        "Deleted": true,
+        "Rank": 931,
+        "Type": "reiciendis",
+        "ColorBlock": 969,
+        "IconHint": "esse",
+        "Selected": false,
+        "LastChanged": "2018-08-23T13:14:11.3048179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aspernatur",
-        "Hidden": false,
-        "FullName": "Roslyn Christiansen",
+        "ExtraInfo": "id",
+        "StyleHint": "molestias",
+        "Hidden": true,
+        "FullName": "Miss Marcel Carter DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "iure",
+    "ExtraInfo": "autem",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Samantha Hodkiewicz",
+    "FullName": "Barrett Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldType": "System.Int32",
+        "FieldLength": 568
       }
     }
   }

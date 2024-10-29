@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 565
+  "AssociateId": 87
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Barrows, Franecki and Schaefer",
-    "DeviceIdentifier": "minus",
-    "PocketVersion": "suscipit",
-    "Language": "aut",
-    "PNSHandle": "et",
+    "DeviceName": "Veum-Crooks",
+    "DeviceIdentifier": "qui",
+    "PocketVersion": "cum",
+    "Language": "tenetur",
+    "PNSHandle": "voluptatem",
     "Platform": "Apple",
-    "OSVersion": "officiis",
-    "TimeZoneId": 68
+    "OSVersion": "sed",
+    "TimeZoneId": 510
   }
 ]
 ```

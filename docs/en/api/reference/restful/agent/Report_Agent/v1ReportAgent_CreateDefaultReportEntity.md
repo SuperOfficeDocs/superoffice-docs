@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 916,
+  "ReportId": 166,
   "ReportCategory": "All",
-  "Description": "User-centric 24/7 model",
+  "Description": "Cross-platform next generation protocol",
   "ReportLayout": "CalendarMonth",
-  "Name": "Skiles Group",
-  "AssociateId": 247,
-  "TemplateId": 528,
+  "Name": "Swaniawski, Wyman and Corwin",
+  "AssociateId": 212,
+  "TemplateId": 114,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldLength": 59
     }
   }
 }

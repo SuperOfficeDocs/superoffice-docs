@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 663,
-    "Section": "sit",
-    "Key": "iste",
-    "Name": "Borer-Braun",
+    "PrefDescId": 794,
+    "Section": "cupiditate",
+    "Key": "eum",
+    "Name": "Nienow Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Grass-roots scalable standardization",
+    "Description": "Open-source leading edge middleware",
     "IsBuiltin": false,
-    "TableName": "Hills, Romaguera and Harvey",
-    "UserDefinedListId": 201,
-    "Rank": 878,
-    "SubGroup": "non",
-    "MinLevel": 546,
-    "MaxValue": 183,
-    "MinValue": 41,
-    "RequiredLicense": "sed",
+    "TableName": "Nader-Jacobs",
+    "UserDefinedListId": 862,
+    "Rank": 737,
+    "SubGroup": "dignissimos",
+    "MinLevel": 472,
+    "MaxValue": 438,
+    "MinValue": 587,
+    "RequiredLicense": "praesentium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 748
+        "FieldLength": 623
       }
     }
   }

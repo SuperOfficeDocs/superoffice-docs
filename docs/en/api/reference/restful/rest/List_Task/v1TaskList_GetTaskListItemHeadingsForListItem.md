@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "McCullough LLC",
-    "ToolTip": "Inventore earum et ut laboriosam.",
+    "Id": 721,
+    "Name": "Hammes, Farrell and Murazik",
+    "ToolTip": "Eum iure mollitia dicta nostrum.",
     "Deleted": true,
-    "Rank": 438,
-    "Type": "laborum",
-    "ColorBlock": 558,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2010-09-24T03:44:58.1874634+02:00",
+    "Rank": 442,
+    "Type": "quos",
+    "ColorBlock": 395,
+    "IconHint": "numquam",
+    "Selected": false,
+    "LastChanged": "2011-11-14T13:14:11.5704589+01:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Brown, Rippin and Hermann",
-        "ToolTip": "Eos neque perferendis repellendus reprehenderit non sit.",
+        "Id": 630,
+        "Name": "Fahey Inc and Sons",
+        "ToolTip": "A placeat pariatur illo voluptatem.",
         "Deleted": false,
-        "Rank": 368,
-        "Type": "dolores",
-        "ColorBlock": 324,
-        "IconHint": "nobis",
+        "Rank": 726,
+        "Type": "neque",
+        "ColorBlock": 415,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "1999-07-14T03:44:58.1874634+02:00",
+        "LastChanged": "2002-08-27T13:14:11.5704589+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatum",
-        "Hidden": true,
-        "FullName": "Pedro Spencer",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Percival Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 619
+            "FieldLength": 905
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "sint",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Dr. Vidal Schamberger I",
+    "FullName": "Felicity Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 383
       }
     }
   }

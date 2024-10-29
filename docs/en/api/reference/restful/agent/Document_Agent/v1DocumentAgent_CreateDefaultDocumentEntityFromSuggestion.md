@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 507
+  "SuggestedDocumentId": 525
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 550,
+  "DocumentId": 595,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "neque",
-  "Header": "minima",
-  "Name": "Crist Group",
-  "OurRef": "laudantium",
-  "YourRef": "dolor",
-  "CreatedDate": "2000-08-07T03:44:52.5115026+02:00",
-  "UpdatedDate": "2009-02-19T03:44:52.5115026+01:00",
-  "Description": "Intuitive optimizing emulation",
+  "Attention": "at",
+  "Header": "consequatur",
+  "Name": "Goyette, Hills and Wiza",
+  "OurRef": "sit",
+  "YourRef": "omnis",
+  "CreatedDate": "2020-10-28T13:14:05.9132824+01:00",
+  "UpdatedDate": "2014-11-03T13:14:05.9132824+01:00",
+  "Description": "Customizable heuristic frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-06-26T03:44:52.5115026+02:00",
-  "ExternalRef": "illum",
+  "Date": "2015-03-10T13:14:05.9132824+01:00",
+  "ExternalRef": "libero",
   "Completed": "Completed",
-  "ActiveLinks": 871,
+  "ActiveLinks": 207,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Stehr, Gusikowski and Bins",
-      "Id": 67,
-      "Description": "Up-sized holistic monitoring",
-      "ExtraInfo": "sed",
-      "LinkId": 3,
+      "EntityName": "Kertzmann, Macejkovic and Fisher",
+      "Id": 358,
+      "Description": "Multi-tiered national superstructure",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 792,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldType": "System.String",
+          "FieldLength": 248
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 249,
-  "Snum": 43,
+  "SuggestedDocumentId": 622,
+  "Snum": 340,
   "UserDefinedFields": {
-    "SuperOffice:1": "69776096",
-    "SuperOffice:2": "Mr. Lurline Kozey V"
+    "SuperOffice:1": "Mr. Kayden Pfeffer",
+    "SuperOffice:2": "Elisha Kirlin"
   },
   "ExtraFields": {
     "ExtraFields1": "voluptas",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "illum"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "1999-09-17T03:44:52.5115026+02:00",
-  "PublishTo": "2010-10-08T03:44:52.5115026+02:00",
-  "PublishFrom": "2006-03-04T03:44:52.5115026+01:00",
+  "PublishEventDate": "2008-04-06T13:14:05.9132824+02:00",
+  "PublishTo": "2020-01-05T13:14:05.9132824+01:00",
+  "PublishFrom": "2018-06-30T13:14:05.9132824+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 161,
+      "VisibleId": 560,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldType": "System.String",
+          "FieldLength": 126
         }
       }
     },
     {
-      "VisibleId": 161,
+      "VisibleId": 560,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldType": "System.String",
+          "FieldLength": 126
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

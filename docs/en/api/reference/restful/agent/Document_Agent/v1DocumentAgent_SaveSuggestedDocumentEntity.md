@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 627,
-  "Name": "Kihn-Jones",
-  "Tooltip": "laboriosam",
-  "Rank": 346,
-  "DoctmplId": 439,
-  "Header": "omnis",
-  "OurRef": "cumque",
-  "Deleted": false,
+  "SuggestedDocumentId": 728,
+  "Name": "Kovacek Group",
+  "Tooltip": "repudiandae",
+  "Rank": 205,
+  "DoctmplId": 273,
+  "Header": "dolores",
+  "OurRef": "reprehenderit",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 712,
-  "Name": "Gleichner-Stokes",
-  "Tooltip": "corporis",
-  "Rank": 492,
-  "DoctmplId": 167,
-  "Header": "hic",
-  "OurRef": "quis",
-  "Deleted": false,
+  "SuggestedDocumentId": 199,
+  "Name": "Nikolaus Inc and Sons",
+  "Tooltip": "dicta",
+  "Rank": 11,
+  "DoctmplId": 324,
+  "Header": "dolores",
+  "OurRef": "id",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   }
 }

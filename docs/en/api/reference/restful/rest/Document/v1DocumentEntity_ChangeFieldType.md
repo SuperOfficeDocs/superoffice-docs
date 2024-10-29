@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 908,
-  "ColumnId": 332,
-  "FieldDefault": "temporibus",
-  "FieldHeight": 698,
-  "FieldLabel": "minus",
-  "FieldLeft": 195,
-  "FieldTop": 697,
+  "UDefFieldId": 298,
+  "ColumnId": 612,
+  "FieldDefault": "non",
+  "FieldHeight": 981,
+  "FieldLabel": "culpa",
+  "FieldLeft": 132,
+  "FieldTop": 808,
   "FieldType": "Checkbox",
-  "FieldWidth": 306,
-  "FormatMask": "veritatis",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 334,
-  "LabelLeft": 250,
-  "LabelTop": 893,
-  "LabelWidth": 384,
-  "LastVersionId": 401,
-  "ListTableId": 515,
+  "FieldWidth": 129,
+  "FormatMask": "perspiciatis",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 123,
+  "LabelLeft": 940,
+  "LabelTop": 934,
+  "LabelWidth": 591,
+  "LastVersionId": 955,
+  "ListTableId": 292,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 44,
-  "ProgId": "totam",
+  "Page1LineNo": 826,
+  "ProgId": "labore",
   "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 500,
-  "TextLength": 609,
-  "Tooltip": "dolorum",
-  "UdefIdentity": 899,
-  "UDListDefinitionId": 720,
+  "ShortLabel": "dolores",
+  "TabOrder": 746,
+  "TextLength": 542,
+  "Tooltip": "aut",
+  "UdefIdentity": 33,
+  "UDListDefinitionId": 760,
   "Justification": "Center",
-  "Version": 765,
-  "TemplateVariableName": "Brown, Denesik and Lang",
-  "HasBeenPublished": false,
-  "MdoListName": "Romaguera, Zemlak and Murphy",
+  "Version": 595,
+  "TemplateVariableName": "Ferry-Homenick",
+  "HasBeenPublished": true,
+  "MdoListName": "Walsh Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldLength": 911
     }
   }
 }

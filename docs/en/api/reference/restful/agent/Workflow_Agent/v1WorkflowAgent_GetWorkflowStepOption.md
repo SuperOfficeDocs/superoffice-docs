@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 176
+  "WorkflowStepOptionId": 822
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 982,
-  "WorkflowStepId": 123,
-  "WorkflowId": 908,
-  "Name": "Pfannerstill Group",
-  "Rank": 268,
+  "WorkflowStepOptionId": 120,
+  "WorkflowStepId": 200,
+  "WorkflowId": 875,
+  "Name": "Hessel-Goyette",
+  "Rank": 626,
   "Steps": [
     {
-      "WorkflowStepId": 673,
-      "WorkflowId": 943,
+      "WorkflowStepId": 143,
+      "WorkflowId": 849,
       "StepType": "AddToList",
-      "Rank": 171
+      "Rank": 230
     },
     {
-      "WorkflowStepId": 673,
-      "WorkflowId": 943,
+      "WorkflowStepId": 143,
+      "WorkflowId": 849,
       "StepType": "AddToList",
-      "Rank": 171
+      "Rank": 230
     }
   ]
 }

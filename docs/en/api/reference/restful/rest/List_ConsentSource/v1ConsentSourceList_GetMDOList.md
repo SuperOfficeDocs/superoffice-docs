@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=corporis
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=sit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Dibbert, Heller and Kuvalis",
-    "ToolTip": "Cum nobis enim qui quo velit maxime ex.",
+    "Id": 459,
+    "Name": "Rice-Goldner",
+    "ToolTip": "Qui vel.",
     "Deleted": false,
-    "Rank": 536,
-    "Type": "sit",
+    "Rank": 172,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Cremin-Schmitt",
-        "ToolTip": "Doloremque dolore aut adipisci.",
+        "Id": 54,
+        "Name": "Mraz-Kuhn",
+        "ToolTip": "Et ipsa hic rerum.",
         "Deleted": false,
-        "Rank": 973,
-        "Type": "blanditiis",
+        "Rank": 152,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 810,
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "similique",
-        "FullName": "Dillan Little",
+        "IconHint": "consequatur",
+        "ColorBlock": 957,
+        "ExtraInfo": "vitae",
+        "StyleHint": "voluptas",
+        "FullName": "Morton Cole",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 247
+            "FieldType": "System.Int32",
+            "FieldLength": 302
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 573,
-    "ExtraInfo": "in",
-    "StyleHint": "expedita",
-    "FullName": "Mr. Krista Dahlia Wuckert II",
+    "IconHint": "ut",
+    "ColorBlock": 175,
+    "ExtraInfo": "sit",
+    "StyleHint": "et",
+    "FullName": "Mrs. Jeremie Welch PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 862
+        "FieldType": "System.Int32",
+        "FieldLength": 228
       }
     }
   }

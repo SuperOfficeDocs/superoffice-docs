@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 333,
-  "ColumnId": 525,
-  "FieldDefault": "est",
-  "FieldHeight": 784,
-  "FieldLabel": "a",
-  "FieldLeft": 109,
-  "FieldTop": 363,
+  "UDefFieldId": 489,
+  "ColumnId": 216,
+  "FieldDefault": "quis",
+  "FieldHeight": 548,
+  "FieldLabel": "quis",
+  "FieldLeft": 99,
+  "FieldTop": 310,
   "FieldType": "Checkbox",
-  "FieldWidth": 125,
-  "FormatMask": "non",
+  "FieldWidth": 465,
+  "FormatMask": "eius",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 665,
-  "LabelLeft": 816,
-  "LabelTop": 214,
-  "LabelWidth": 352,
-  "LastVersionId": 696,
-  "ListTableId": 927,
-  "IsMandatory": true,
+  "LabelHeight": 867,
+  "LabelLeft": 54,
+  "LabelTop": 631,
+  "LabelWidth": 451,
+  "LastVersionId": 86,
+  "ListTableId": 428,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 455,
-  "ProgId": "laboriosam",
-  "IsReadOnly": false,
-  "ShortLabel": "porro",
-  "TabOrder": 310,
-  "TextLength": 61,
-  "Tooltip": "natus",
-  "UdefIdentity": 263,
-  "UDListDefinitionId": 931,
+  "Page1LineNo": 20,
+  "ProgId": "eius",
+  "IsReadOnly": true,
+  "ShortLabel": "suscipit",
+  "TabOrder": 550,
+  "TextLength": 878,
+  "Tooltip": "quis",
+  "UdefIdentity": 915,
+  "UDListDefinitionId": 517,
   "Justification": "Center",
-  "Version": 790,
-  "TemplateVariableName": "Donnelly Group",
+  "Version": 69,
+  "TemplateVariableName": "Metz Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Rempel LLC",
+  "MdoListName": "Harvey-Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

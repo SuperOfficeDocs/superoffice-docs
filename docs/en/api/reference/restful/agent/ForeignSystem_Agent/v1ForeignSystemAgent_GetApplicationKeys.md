@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sawayn-Blanda"
+  "ApplicationName": "Abshire, Zieme and Ullrich"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ducimus",
-    "Value": "voluptas",
-    "RecordId": 763,
-    "CreatedDate": "2002-10-14T03:44:52.6521119+02:00",
-    "UpdatedDate": "2001-07-08T03:44:52.6521119+02:00",
-    "UpdatedBy": "explicabo",
-    "CreatedBy": "delectus",
-    "TableName": "Denesik Inc and Sons",
+    "Key": "minus",
+    "Value": "ipsa",
+    "RecordId": 960,
+    "CreatedDate": "2012-05-17T13:14:06.0382898+02:00",
+    "UpdatedDate": "2003-03-10T13:14:06.0382898+01:00",
+    "UpdatedBy": "reprehenderit",
+    "CreatedBy": "amet",
+    "TableName": "Cummings-Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 3
       }
     }
   }

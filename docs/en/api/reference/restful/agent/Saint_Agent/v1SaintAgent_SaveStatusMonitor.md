@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 886,
-  "Rank": 820,
-  "DefaultTask": 1000,
-  "DefaultTaskText": "dignissimos",
-  "IsVisual": true,
-  "LastGenerated": "2011-03-13T03:44:53.0900933+01:00",
-  "Description": "Face to face full-range extranet",
-  "Name": "Bartell-Weber",
-  "StatusMonitorId": 152,
-  "PictureId": 595,
+  "OwnerTable": 689,
+  "Rank": 773,
+  "DefaultTask": 61,
+  "DefaultTaskText": "beatae",
+  "IsVisual": false,
+  "LastGenerated": "1998-01-09T13:14:06.3508082+01:00",
+  "Description": "Managed local moratorium",
+  "Name": "Orn, Powlowski and Shanahan",
+  "StatusMonitorId": 781,
+  "PictureId": 788,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 121,
-  "NumNeedUpdate": 674,
-  "GenerationStart": "2004-06-11T03:44:53.0900933+02:00"
+  "Deleted": true,
+  "NumMatches": 373,
+  "NumNeedUpdate": 308,
+  "GenerationStart": "2006-09-20T13:14:06.3508082+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 101,
-  "Rank": 156,
-  "DefaultTask": 594,
-  "DefaultTaskText": "totam",
-  "IsVisual": true,
-  "LastGenerated": "2023-03-04T03:44:53.0900933+01:00",
-  "Description": "Profound full-range customer loyalty",
-  "Name": "Fadel, Berge and Conn",
-  "StatusMonitorId": 660,
-  "PictureId": 846,
+  "OwnerTable": 16,
+  "Rank": 149,
+  "DefaultTask": 937,
+  "DefaultTaskText": "praesentium",
+  "IsVisual": false,
+  "LastGenerated": "2021-07-04T13:14:06.3508082+02:00",
+  "Description": "Compatible intangible website",
+  "Name": "Robel Inc and Sons",
+  "StatusMonitorId": 678,
+  "PictureId": 220,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 32,
-  "NumNeedUpdate": 721,
-  "GenerationStart": "2008-12-03T03:44:53.0900933+01:00",
+  "NumMatches": 893,
+  "NumNeedUpdate": 467,
+  "GenerationStart": "2018-11-23T13:14:06.3508082+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 5
     }
   }
 }

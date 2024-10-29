@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Deckow, Dare and Muller",
-    "ToolTip": "Id exercitationem qui dolorem.",
+    "Id": 926,
+    "Name": "Stanton Inc and Sons",
+    "ToolTip": "Nihil consequuntur eaque dolor illum.",
     "Deleted": false,
-    "Rank": 418,
-    "Type": "excepturi",
-    "ColorBlock": 71,
-    "IconHint": "neque",
+    "Rank": 441,
+    "Type": "consequatur",
+    "ColorBlock": 100,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2000-07-06T03:44:57.9843605+02:00",
+    "LastChanged": "1999-04-25T13:14:11.3829471+02:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Gerhold-Dooley",
-        "ToolTip": "Est veniam quod consequatur neque quia velit.",
-        "Deleted": true,
-        "Rank": 357,
-        "Type": "eos",
-        "ColorBlock": 115,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2015-11-23T03:44:57.9843605+01:00",
+        "Id": 250,
+        "Name": "Hammes-Fisher",
+        "ToolTip": "Quo reiciendis ut perspiciatis non sed.",
+        "Deleted": false,
+        "Rank": 629,
+        "Type": "corporis",
+        "ColorBlock": 375,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2022-02-06T13:14:11.3829471+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "in",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Nicholas Zulauf"
+        "FullName": "Prof. Rosalinda Karelle Orn"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "et",
+    "ExtraInfo": "non",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Elton Wiza"
+    "FullName": "Antonetta Fritsch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Lowe-Corwin",
-    "ToolTip": "Sequi facere corporis.",
+    "Id": 363,
+    "Name": "Kuvalis, Grimes and Rodriguez",
+    "ToolTip": "Fuga voluptas illum et autem dolorem voluptas aut.",
     "Deleted": false,
-    "Rank": 273,
-    "Type": "rerum",
-    "ColorBlock": 575,
-    "IconHint": "est",
+    "Rank": 383,
+    "Type": "tenetur",
+    "ColorBlock": 507,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2000-10-12T03:44:57.9843605+02:00",
+    "LastChanged": "2010-12-07T13:14:11.3829471+01:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Sauer-Lemke",
-        "ToolTip": "Est vero et facilis ut.",
-        "Deleted": true,
-        "Rank": 403,
-        "Type": "ipsam",
-        "ColorBlock": 745,
-        "IconHint": "et",
+        "Id": 311,
+        "Name": "Collins-Walter",
+        "ToolTip": "Cum dolore libero sed et iste fuga sint.",
+        "Deleted": false,
+        "Rank": 261,
+        "Type": "quod",
+        "ColorBlock": 718,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2005-03-18T03:44:57.9843605+01:00",
+        "LastChanged": "2024-06-25T13:14:11.3829471+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Brenna Bernier",
+        "ExtraInfo": "iste",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Korbin Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 963
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "ut",
+    "StyleHint": "similique",
     "Hidden": false,
-    "FullName": "Desmond Sawayn II",
+    "FullName": "Zoila Grant",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldLength": 7
       }
     }
   }

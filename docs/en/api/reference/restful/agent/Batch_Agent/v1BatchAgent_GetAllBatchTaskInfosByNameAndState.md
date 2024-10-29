@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Effertz Inc and Sons",
+  "TaskName": "Mills LLC",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Rolfson LLC",
-    "AssociateId": 198,
-    "DetailsTable": 768,
-    "DetailsRecord": 833,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 228,
+    "Name": "Mitchell-Kozey",
+    "AssociateId": 621,
+    "DetailsTable": 529,
+    "DetailsRecord": 14,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "repudiandae",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "non",
+      "ParameterObject2": "odit"
     },
-    "LastStarted": "2023-10-22T03:44:52.0740137+02:00",
-    "Created": "2005-02-15T03:44:52.0740137+01:00",
-    "StartCount": 777,
-    "DatabaseSerialNumber": "588672",
-    "Context": "iusto",
-    "Result": "similique",
+    "LastStarted": "2000-03-08T13:14:05.5382596+01:00",
+    "Created": "2003-12-31T13:14:05.5382596+01:00",
+    "StartCount": 427,
+    "DatabaseSerialNumber": "1181109",
+    "Context": "qui",
+    "Result": "quis",
     "State": "All",
-    "Description": "Visionary executive orchestration",
-    "Response": "distinctio",
-    "Request": "dolores",
-    "ProgressDescription": "Operative multimedia strategy",
-    "ProgressPercent": 764,
-    "FileName": "Fahey-Zieme",
+    "Description": "Realigned 6th generation capability",
+    "Response": "laborum",
+    "Request": "aut",
+    "ProgressDescription": "Grass-roots bottom-line productivity",
+    "ProgressPercent": 829,
+    "FileName": "Waelchi, Moen and Brakus",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldLength": 69
       }
     }
   }

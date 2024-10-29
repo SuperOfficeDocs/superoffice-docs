@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 936,
-  "Name": "Ernser, Schmitt and Jenkins",
-  "Description": "Public-key mobile pricing structure",
-  "DeltaJson": "ea",
+  "ConfigurableScreenDeltaId": 544,
+  "Name": "Schuster, Kling and Murphy",
+  "Description": "Business-focused homogeneous product",
+  "DeltaJson": "sunt",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "illo",
-  "UpdatedDate": "2020-12-31T03:44:52.2615302+01:00",
-  "CreatedDate": "2008-03-09T03:44:52.2615302+01:00",
+  "RecipeId": "inventore",
+  "UpdatedDate": "2014-06-24T13:14:05.6163893+02:00",
+  "CreatedDate": "2006-11-08T13:14:05.6163893+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    385,
-    700
+    592,
+    179
   ],
-  "AppliesToKey": "cumque",
+  "AppliesToKey": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 357
     }
   }
 }

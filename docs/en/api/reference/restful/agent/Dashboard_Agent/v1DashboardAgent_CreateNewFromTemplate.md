@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 581,
-  "Caption": "numquam",
-  "Description": "User-friendly zero defect protocol",
-  "SelectionId": 923,
+  "DashboardTileId": 824,
+  "Caption": "dolorum",
+  "Description": "Organic assymetric database",
+  "SelectionId": 703,
   "VisibleFor": [
     {
-      "VisibleId": 115,
+      "VisibleId": 260,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "odio"
     },
     {
-      "VisibleId": 115,
+      "VisibleId": 260,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "odio"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 34,
-  "Caption": "ut",
-  "Description": "Managed system-worthy hardware",
-  "ChartName": "Zulauf-Jones",
-  "ChartId": "nihil",
-  "IsDefault": true,
-  "AssociateId": 601,
-  "GroupId": 142,
-  "SelectionId": 615,
-  "Config": "delectus",
+  "DashboardTileId": 356,
+  "Caption": "libero",
+  "Description": "Diverse secondary encoding",
+  "ChartName": "Jones-Jerde",
+  "ChartId": "ipsum",
+  "IsDefault": false,
+  "AssociateId": 209,
+  "GroupId": 686,
+  "SelectionId": 13,
+  "Config": "ratione",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Mante LLC",
-      "Description": "De-engineered bi-directional support",
+      "Name": "Cartwright-O'Kon",
+      "Description": "Secured assymetric matrix",
       "Type": "Boolean",
-      "ListName": "McLaughlin, Glover and Weissnat",
+      "ListName": "Walter-Batz",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "facilis",
+      "Value": "iure",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldLength": 781
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 714,
+      "VisibleId": 512,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 163
         }
       }
     },
     {
-      "VisibleId": 714,
+      "VisibleId": 512,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 163
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 627
     }
   }
 }

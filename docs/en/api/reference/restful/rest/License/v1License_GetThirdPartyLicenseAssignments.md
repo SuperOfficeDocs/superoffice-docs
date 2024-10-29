@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 962,
+    "Unrestricted": true,
+    "Total": 841,
     "Tooltip": "quis",
     "CanAssign": false,
-    "Free": 885,
-    "InUse": 786,
+    "Free": 934,
+    "InUse": 687,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 197,
-    "Name": "Kemmer-Rosenbaum",
-    "Description": "Object-based homogeneous framework",
-    "PrerequisiteModuleName": "Emard, Quigley and Bahringer",
-    "SortOrder": 596,
-    "ExtraFlags": 398,
+    "ModuleLicenseId": 483,
+    "Name": "Bahringer Inc and Sons",
+    "Description": "Horizontal grid-enabled definition",
+    "PrerequisiteModuleName": "Koelpin, Roberts and Tremblay",
+    "SortOrder": 153,
+    "ExtraFlags": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 734
+        "FieldType": "System.Int32",
+        "FieldLength": 877
       }
     }
   }

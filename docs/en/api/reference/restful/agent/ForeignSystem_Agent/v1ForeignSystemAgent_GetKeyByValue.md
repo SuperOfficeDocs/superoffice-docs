@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reichel-Cassin",
-  "DeviceName": "Kris, Labadie and Rodriguez",
-  "KeyName": "Little-Parisian",
-  "KeyValue": "et",
-  "TableName": "Murray, Kilback and Mertz"
+  "ApplicationName": "Wisozk LLC",
+  "DeviceName": "Hansen-Wilderman",
+  "KeyName": "Berge Inc and Sons",
+  "KeyValue": "quis",
+  "TableName": "Deckow LLC"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "in",
-  "Value": "ab",
-  "RecordId": 268,
-  "CreatedDate": "2000-04-19T03:44:52.6521119+02:00",
-  "UpdatedDate": "2010-01-14T03:44:52.6521119+01:00",
-  "UpdatedBy": "nesciunt",
-  "CreatedBy": "rerum",
-  "TableName": "Jacobson, Smitham and Wilkinson",
+  "Key": "ut",
+  "Value": "sunt",
+  "RecordId": 980,
+  "CreatedDate": "2018-07-03T13:14:06.0382898+02:00",
+  "UpdatedDate": "2018-06-20T13:14:06.0382898+02:00",
+  "UpdatedBy": "quibusdam",
+  "CreatedBy": "occaecati",
+  "TableName": "Kunze, Crona and Watsica",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 462
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

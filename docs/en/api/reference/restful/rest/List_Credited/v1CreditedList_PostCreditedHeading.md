@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 321,
-  "Name": "McLaughlin LLC",
-  "Tooltip": "facilis",
+  "HeadingId": 432,
+  "Name": "Nikolaus, Dach and Jaskolski",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 949,
-  "UdListDefinitionId": 544
+  "Rank": 734,
+  "UdListDefinitionId": 610
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 205,
-  "Name": "Stokes-Ledner",
-  "Tooltip": "dolores",
+  "HeadingId": 220,
+  "Name": "Bruen-Anderson",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 990,
-  "UdListDefinitionId": 168,
+  "Rank": 903,
+  "UdListDefinitionId": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldType": "System.String",
+      "FieldLength": 742
     }
   }
 }

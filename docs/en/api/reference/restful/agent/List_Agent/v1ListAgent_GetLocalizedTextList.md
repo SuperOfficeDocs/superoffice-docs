@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 948,
-    "ResourceId": 686,
-    "Text": "officia",
+    "LanguageId": 166,
+    "ResourceId": 374,
+    "Text": "dignissimos",
     "Type": "Column",
-    "LocalizedTextId": 615,
+    "LocalizedTextId": 131,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldLength": 62
       }
     }
   }

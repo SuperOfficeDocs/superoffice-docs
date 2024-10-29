@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 181,
-    "Name": "Cummerata LLC",
-    "Tooltip": "rerum",
+    "HeadingId": 192,
+    "Name": "Sawayn, Rempel and Cronin",
+    "Tooltip": "repellat",
     "Deleted": true,
-    "Rank": 62,
-    "UdListDefinitionId": 934
+    "Rank": 891,
+    "UdListDefinitionId": 13
   },
   {
-    "HeadingId": 181,
-    "Name": "Cummerata LLC",
-    "Tooltip": "rerum",
+    "HeadingId": 192,
+    "Name": "Sawayn, Rempel and Cronin",
+    "Tooltip": "repellat",
     "Deleted": true,
-    "Rank": 62,
-    "UdListDefinitionId": 934
+    "Rank": 891,
+    "UdListDefinitionId": 13
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 269,
-    "Name": "Schultz-D'Amore",
-    "Tooltip": "amet",
+    "HeadingId": 891,
+    "Name": "Feil, Durgan and Erdman",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "Rank": 44,
-    "UdListDefinitionId": 27,
+    "Rank": 666,
+    "UdListDefinitionId": 252,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 147
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "totam",
-    "Type": "consectetur",
-    "Description": "Triple-buffered regional utilisation",
+    "DisplayType": "perferendis",
+    "Type": "voluptatem",
+    "Description": "Universal dedicated support",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 981
+        "FieldLength": 750
       }
     }
   }

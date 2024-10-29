@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Dare, Kuphal and Sporer",
-  "TypicalSearchId": 773
+  "EntityName": "Cummings-Feest",
+  "TypicalSearchId": 815
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Luettgen-Brekke",
-  "SelectionId": 310,
+  "ProviderName": "Reilly, Kub and Medhurst",
+  "SelectionId": 217,
   "CanSaveAsSelection": true,
-  "MainHeading": "in",
-  "FilterScreenHeading": "non",
-  "SelectionEntityHeading": "id",
+  "MainHeading": "nesciunt",
+  "FilterScreenHeading": "et",
+  "SelectionEntityHeading": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 491
     }
   }
 }

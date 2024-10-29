@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nemo",
-  "ProviderName": "Rempel LLC",
-  "StorageKey": "minima",
+  "StorageType": "facilis",
+  "ProviderName": "Hackett-Mueller",
+  "StorageKey": "ex",
   "RestrictionGroups": [
     {
-      "Name": "Abbott Group",
-      "Description": "Centralized assymetric success",
-      "Rank": 111,
+      "Name": "Towne Inc and Sons",
+      "Description": "Centralized regional attitude",
+      "Rank": 321,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Abbott Group",
-      "Description": "Centralized assymetric success",
-      "Rank": 111,
+      "Name": "Towne Inc and Sons",
+      "Description": "Centralized regional attitude",
+      "Rank": 321,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "quis"
+  "Context": "repellendus"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Braun, Ziemann and Torphy",
-    "Description": "Diverse clear-thinking standardization",
-    "Rank": 372,
+    "Name": "Gusikowski-Torphy",
+    "Description": "Configurable solution-oriented parallelism",
+    "Rank": 435,
     "Restrictions": [
       {
-        "Name": "Connelly, Nikolaus and Kautzer",
-        "Operator": "est",
+        "Name": "Hills LLC",
+        "Operator": "facilis",
         "Values": [
-          "quo",
-          "eum"
+          "distinctio",
+          "illo"
         ],
         "DisplayValues": [
-          "facilis",
-          "non"
+          "ut",
+          "necessitatibus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 772,
+        "InterParenthesis": 611,
         "InterOperator": "And",
-        "UniqueHash": 741
+        "UniqueHash": 921
       }
     ]
   },
   {
-    "Name": "Braun, Ziemann and Torphy",
-    "Description": "Diverse clear-thinking standardization",
-    "Rank": 372,
+    "Name": "Gusikowski-Torphy",
+    "Description": "Configurable solution-oriented parallelism",
+    "Rank": 435,
     "Restrictions": [
       {
-        "Name": "Connelly, Nikolaus and Kautzer",
-        "Operator": "est",
+        "Name": "Hills LLC",
+        "Operator": "facilis",
         "Values": [
-          "quo",
-          "eum"
+          "distinctio",
+          "illo"
         ],
         "DisplayValues": [
-          "facilis",
-          "non"
+          "ut",
+          "necessitatibus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 772,
+        "InterParenthesis": 611,
         "InterOperator": "And",
-        "UniqueHash": 741
+        "UniqueHash": 921
       }
     ]
   }

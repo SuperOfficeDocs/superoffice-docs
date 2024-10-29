@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 21 Jan 2015 03:44:57 G1T
+Last-Modified: Mon, 13 Jul 2009 13:14:10 G7T
 
 {
-  "BlobId": 229,
-  "BlobSize": 953,
-  "Description": "Centralized homogeneous hardware",
-  "ExtraInfo": "porro",
+  "BlobId": 880,
+  "BlobSize": 876,
+  "Description": "Adaptive regional product",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "doloremque",
-  "OriginalSize": 238,
-  "CreatedDate": "2013-11-16T03:44:57.1090259+01:00",
-  "UpdatedDate": "2015-01-21T03:44:57.1090259+01:00",
+  "MimeType": "facere",
+  "OriginalSize": 862,
+  "CreatedDate": "2021-11-24T13:14:10.6954061+01:00",
+  "UpdatedDate": "2009-07-13T13:14:10.6954061+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "id",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 592
     }
   }
 }

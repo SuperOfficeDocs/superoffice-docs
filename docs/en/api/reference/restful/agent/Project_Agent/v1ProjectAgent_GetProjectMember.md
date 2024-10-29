@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=944
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=35
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 226,
-  "ContactId": 359,
-  "ProjectId": 435,
-  "ContactName": "Labadie, Crist and Konopelski",
+  "ProjectmemberId": 917,
+  "ContactId": 612,
+  "ProjectId": 37,
+  "ContactName": "Langosh-Walter",
   "ContactDepartment": "",
-  "ProjectName": "Boyer Inc and Sons",
-  "EmailId": 572,
-  "EmailAddress": "cloyd@mitchell.name",
-  "CountryId": 417,
-  "Firstname": "Cyril",
-  "MiddleName": "Jerde, Denesik and Bahringer",
-  "Lastname": "Boehm",
-  "PersonId": 323,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Hackett LLC",
-  "Phone": "516.868.3044 x63685",
-  "PhoneId": 839,
-  "ProjectMemberTypeId": 169,
-  "EmailAddressName": "wendell@bednar.info",
-  "Comment": "placeat",
-  "FullName": "Mrs. Jerome Langosh PhD",
+  "ProjectName": "Lind, Howe and Moore",
+  "EmailId": 243,
+  "EmailAddress": "marley_block@swaniawski.biz",
+  "CountryId": 410,
+  "Firstname": "Hollis",
+  "MiddleName": "Keeling, Hane and Hagenes",
+  "Lastname": "Rogahn",
+  "PersonId": 671,
+  "Mrmrs": "dolor",
+  "ProjectMemberTypeName": "Erdman Group",
+  "Phone": "583-748-2877 x173",
+  "PhoneId": 147,
+  "ProjectMemberTypeId": 597,
+  "EmailAddressName": "russel.cummerata@hand.biz",
+  "Comment": "veritatis",
+  "FullName": "Mr. Margot Cordelia Emard",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldLength": 990
     }
   }
 }

@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Beer Group",
-  "ProviderName": "Lubowitz, Toy and Schmidt",
+  "GuiName": "Wolff-Mayert",
+  "ProviderName": "Gerlach Inc and Sons",
   "Entities": [
-    "corporis",
-    "recusandae"
+    "vel",
+    "et"
   ]
 }
 ```

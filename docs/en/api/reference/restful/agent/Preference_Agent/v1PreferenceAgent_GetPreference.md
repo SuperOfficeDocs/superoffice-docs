@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586
+  "Id": 730
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "labore",
+  "RawValue": "ad",
   "Specification": null,
-  "DisplayValue": "ab",
-  "DisplayTooltip": "ut",
+  "DisplayValue": "laborum",
+  "DisplayTooltip": "voluptatem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 683,
-  "PrefDescId": 698,
-  "TableName": "Corwin, O'Hara and Metz",
-  "UserPreferenceId": 571,
+  "TargetId": 444,
+  "PrefDescId": 970,
+  "TableName": "Feest-Zulauf",
+  "UserPreferenceId": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 957
     }
   }
 }

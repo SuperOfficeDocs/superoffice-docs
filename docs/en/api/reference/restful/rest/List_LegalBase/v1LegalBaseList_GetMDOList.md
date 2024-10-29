@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=aperiam
+GET /api/v1/List/LegalBase/MDOItems?query=unde
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Hagenes Group",
-    "ToolTip": "Suscipit molestiae maiores vitae dolor aspernatur sequi.",
+    "Id": 240,
+    "Name": "Kling Group",
+    "ToolTip": "Delectus quia explicabo sunt qui qui adipisci.",
     "Deleted": false,
-    "Rank": 837,
-    "Type": "rerum",
+    "Rank": 38,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 834,
-        "Name": "Jacobi, Hammes and Boyle",
-        "ToolTip": "Ab quae accusantium sit illo dicta repudiandae fuga.",
-        "Deleted": false,
-        "Rank": 319,
-        "Type": "aut",
+        "Id": 921,
+        "Name": "Kub-Tromp",
+        "ToolTip": "Quos sapiente magni in dolore repellat.",
+        "Deleted": true,
+        "Rank": 276,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 153,
-        "ExtraInfo": "et",
-        "StyleHint": "quas",
-        "FullName": "Mrs. Grayce Wolf MD",
+        "IconHint": "quia",
+        "ColorBlock": 569,
+        "ExtraInfo": "quasi",
+        "StyleHint": "ipsum",
+        "FullName": "Toby Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 183
+            "FieldLength": 813
           }
         }
       }
     ],
-    "IconHint": "provident",
-    "ColorBlock": 344,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "rerum",
-    "FullName": "Dr. Trace Simonis IV",
+    "IconHint": "vero",
+    "ColorBlock": 859,
+    "ExtraInfo": "aliquid",
+    "StyleHint": "est",
+    "FullName": "Clyde Runolfsdottir II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 609
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

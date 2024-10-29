@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 632,
-  "Year": 655,
+  "TargetGroupId": 25,
+  "Year": 223,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 199,
+      "TargetAssignmentInfoId": 493,
       "Values": [
-        989,
-        35
+        516,
+        241
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 359,
-      "DimensionListItemDisplayName": "Block, Carter and Ebert"
+      "DimensionListItem": 352,
+      "DimensionListItemDisplayName": "Jewess, Roberts and Mann"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 863,
-  "Year": 591,
+  "TargetGroupId": 650,
+  "Year": 855,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 452,
+      "TargetAssignmentInfoId": 969,
       "Values": [
-        906,
-        836
+        417,
+        831
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 668,
-      "DimensionListItemDisplayName": "Keeling-Hyatt",
+      "DimensionListItem": 855,
+      "DimensionListItemDisplayName": "Crona LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldLength": 520
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 244
     }
   }
 }

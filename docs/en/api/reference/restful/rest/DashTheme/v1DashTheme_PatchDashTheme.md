@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "voluptate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "voluptate",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 212,
-  "Name": "Rath, Cummerata and Schneider",
-  "Config": "sunt",
-  "Rank": 878,
-  "Client": "reprehenderit",
-  "Style": "est",
+  "DashboardThemeId": 36,
+  "Name": "Abshire LLC",
+  "Config": "et",
+  "Rank": 574,
+  "Client": "veniam",
+  "Style": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   },
   "_Links": {

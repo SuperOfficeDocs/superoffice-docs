@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 365,
+  "TicketId": 41,
   "MessageIds": [
-    40,
-    498
+    387,
+    342
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 129,
+    "EjMessageId": 56,
     "Ticket": null,
-    "CreatedAt": "2004-08-25T03:44:53.3247981+02:00",
+    "CreatedAt": "2003-01-28T13:14:06.6477016+01:00",
     "CreatedBy": null,
-    "Author": "quod",
+    "Author": "omnis",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "autem",
-    "TimeSpent": 637,
-    "Body": "reprehenderit",
-    "HtmlBody": "et",
-    "EmailHeader": "helmer_wiza@pollich.name",
-    "DebugInfo": "libero",
-    "MailSorter": "ut",
+    "MessageId": "explicabo",
+    "TimeSpent": 157,
+    "Body": "nihil",
+    "HtmlBody": "temporibus",
+    "EmailHeader": "tracy@hackett.ca",
+    "DebugInfo": "quis",
+    "MailSorter": "voluptatum",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "quia",
+    "SearchTitle": "amet",
     "MessageHeaders": [
       {
-        "Id": 511,
-        "Name": "Durgan, Hand and Kunde",
-        "Value": "illo",
+        "Id": 875,
+        "Name": "Ebert, Sauer and Kovacek",
+        "Value": "voluptas",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 126
+            "FieldType": "System.Int32",
+            "FieldLength": 992
           }
         }
       }
     ],
-    "Important": false,
-    "Language": "animi",
-    "Sentiment": 374,
-    "SentimentConfidence": 598,
+    "Important": true,
+    "Language": "ex",
+    "Sentiment": 236,
+    "SentimentConfidence": 875,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 1001,
-        "Name": "Witting, Kovacek and Streich",
-        "ContentType": "eius",
-        "AttSize": 620,
+        "AttachmentId": 442,
+        "Name": "Wyman, Kunde and Romaguera",
+        "ContentType": "non",
+        "AttSize": 214,
         "InlineImage": true,
-        "ContentId": "atque",
-        "AuthKey": "id",
+        "ContentId": "ipsa",
+        "AuthKey": "modi",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldLength": 566
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "vitae",
-      "ExtraFields2": "unde"
+      "ExtraFields1": "libero",
+      "ExtraFields2": "nihil"
     },
     "CustomFields": {
-      "CustomFields1": "quia",
-      "CustomFields2": "corporis"
+      "CustomFields1": "mollitia",
+      "CustomFields2": "hic"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 201
       }
     }
   }

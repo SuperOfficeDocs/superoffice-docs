@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 645,
+  "ErpConnectionId": 228,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 108,
-      "CrmFieldKey": "cumque",
-      "CrmDisplayName": "Jenkins-Medhurst",
-      "CrmDisplayTooltip": "enim",
-      "ErpFieldKey": "at",
+      "ErpFieldId": 937,
+      "CrmFieldKey": "iusto",
+      "CrmDisplayName": "Cormier Inc and Sons",
+      "CrmDisplayTooltip": "quas",
+      "ErpFieldKey": "enim",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Hackett-Weissnat",
-      "ErpDisplayTooltip": "accusantium",
+      "ErpDisplayName": "Welch-Bauch",
+      "ErpDisplayTooltip": "tempore",
       "SyncToCrm": false,
-      "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": false,
-      "AlreadyMapped": true,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "SyncToErp": true,
+      "ShowInGui": true,
+      "ShowInSearch": true,
+      "AlreadyMapped": false,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "sed",
+      "ListReference": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldType": "System.Int32",
+          "FieldLength": 454
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 387
     }
   }
 }

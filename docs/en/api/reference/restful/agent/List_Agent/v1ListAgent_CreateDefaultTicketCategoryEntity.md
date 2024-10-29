@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 901,
-  "ParentId": 494,
-  "Name": "Wuckert-Beer",
-  "Fullname": "possimus",
-  "CategoryMaster": 437,
+  "TicketCategoryId": 951,
+  "ParentId": 23,
+  "Name": "Streich LLC",
+  "Fullname": "in",
+  "CategoryMaster": 103,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mann LLC",
+  "ExternalName": "DuBuque-Muller",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 428,
-  "ReplyTemplate": 352,
-  "NotificationEmail": "efrain.hirthe@gibson.ca",
+  "AssignmentLag": 422,
+  "ReplyTemplate": 894,
+  "NotificationEmail": "giuseppe_kshlerin@hillsmueller.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 133,
+  "EffectiveReplyTemplateId": 327,
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "saepe"
+    "CustomFields1": "in",
+    "CustomFields2": "architecto"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 729
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

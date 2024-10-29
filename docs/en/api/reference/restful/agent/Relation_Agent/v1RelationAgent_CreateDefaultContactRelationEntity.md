@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 70,
-  "SourcePersonId": 183,
-  "DestinationContactId": 173,
-  "DestinationPersonId": 989,
-  "RelationId": 525,
-  "Comment": "nemo",
-  "RelationDefinitionId": 250,
-  "Reversed": 102,
-  "UpdatedDate": "2013-08-02T03:44:53.0739396+02:00",
-  "CreatedDate": "2000-03-07T03:44:53.0739396+01:00",
+  "SourceContactId": 804,
+  "SourcePersonId": 140,
+  "DestinationContactId": 24,
+  "DestinationPersonId": 604,
+  "RelationId": 1001,
+  "Comment": "dolores",
+  "RelationDefinitionId": 221,
+  "Reversed": 943,
+  "UpdatedDate": "2019-11-17T13:14:06.3351823+01:00",
+  "CreatedDate": "1999-01-08T13:14:06.3351823+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hodkiewicz, Yost and Rodriguez",
-  "SourcePersonName": "Stehr-Harber",
-  "DestinationContactName": "Prohaska Inc and Sons",
-  "DestinationPersonName": "Lockman Inc and Sons",
-  "ActiveText": "ut",
-  "PassiveText": "qui",
+  "SourceContactName": "Renner, Boyer and O'Reilly",
+  "SourcePersonName": "Rogahn, Zemlak and Casper",
+  "DestinationContactName": "Olson Inc and Sons",
+  "DestinationPersonName": "O'Connell, Bergstrom and Johnson",
+  "ActiveText": "architecto",
+  "PassiveText": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 658
     }
   }
 }

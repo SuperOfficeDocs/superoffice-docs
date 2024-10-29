@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Spencer, Tromp and Abernathy",
-    "ToolTip": "Fugit aspernatur sint perspiciatis voluptas harum.",
+    "Id": 951,
+    "Name": "Johnston-Hackett",
+    "ToolTip": "Necessitatibus possimus voluptas.",
     "Deleted": false,
-    "Rank": 782,
-    "Type": "ea",
+    "Rank": 858,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Kassulke-Cruickshank",
-        "ToolTip": "Qui repudiandae optio et aliquid et veritatis.",
-        "Deleted": true,
-        "Rank": 759,
-        "Type": "et",
+        "Id": 117,
+        "Name": "Veum, Hoppe and Schumm",
+        "ToolTip": "Corrupti illo quasi repellendus recusandae iusto.",
+        "Deleted": false,
+        "Rank": 68,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vero",
-        "ColorBlock": 365,
-        "ExtraInfo": "nobis",
-        "StyleHint": "ratione",
-        "FullName": "Sydney Beatty",
+        "IconHint": "consequuntur",
+        "ColorBlock": 193,
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
+        "FullName": "Nicolas Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 780
+            "FieldType": "System.Int32",
+            "FieldLength": 878
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 814,
-    "ExtraInfo": "dolores",
-    "StyleHint": "et",
-    "FullName": "Edward Beatrice Emmerich IV",
+    "IconHint": "omnis",
+    "ColorBlock": 59,
+    "ExtraInfo": "eum",
+    "StyleHint": "dolorum",
+    "FullName": "Natalia Coty Klein I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 57
       }
     }
   }

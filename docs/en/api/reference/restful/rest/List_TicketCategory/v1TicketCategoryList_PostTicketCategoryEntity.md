@@ -103,29 +103,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 209,
-  "ParentId": 308,
-  "Name": "Botsford, Hickle and Jast",
-  "Fullname": "aut",
-  "CategoryMaster": 718,
+  "TicketCategoryId": 636,
+  "ParentId": 404,
+  "Name": "Schuppe-Feeney",
+  "Fullname": "quo",
+  "CategoryMaster": 494,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Sporer Group",
+  "ExternalName": "Adams, O'Conner and Greenfelder",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 886,
-  "ReplyTemplate": 1000,
-  "NotificationEmail": "ashlynn@eichmann.us",
+  "AssignmentLag": 448,
+  "ReplyTemplate": 483,
+  "NotificationEmail": "anita.sauer@corkery.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 612,
+  "EffectiveReplyTemplateId": 10,
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eum"
+    "CustomFields1": "ratione",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 91,
-  "ParentId": 635,
-  "Name": "Rowe, Mills and Johnston",
-  "Fullname": "nihil",
-  "CategoryMaster": 780,
+  "TicketCategoryId": 334,
+  "ParentId": 798,
+  "Name": "Purdy LLC",
+  "Fullname": "veniam",
+  "CategoryMaster": 58,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hermann, O'Keefe and Roob",
+  "ExternalName": "Dach-Hyatt",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 634,
-  "ReplyTemplate": 875,
-  "NotificationEmail": "emmalee@mosciskigleichner.ca",
+  "AssignmentLag": 87,
+  "ReplyTemplate": 264,
+  "NotificationEmail": "vivien_medhurst@robertsherman.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 470,
+  "EffectiveReplyTemplateId": 825,
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "dolor"
+    "CustomFields1": "autem",
+    "CustomFields2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

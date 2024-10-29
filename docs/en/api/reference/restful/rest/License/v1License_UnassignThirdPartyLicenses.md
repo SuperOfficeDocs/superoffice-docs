@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 386,
-    "Tooltip": "recusandae",
-    "CanAssign": false,
-    "Free": 811,
-    "InUse": 168,
+    "Total": 575,
+    "Tooltip": "labore",
+    "CanAssign": true,
+    "Free": 368,
+    "InUse": 55,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 611,
-    "Name": "Cassin Group",
-    "Description": "Multi-channelled stable model",
-    "PrerequisiteModuleName": "Stanton, Dibbert and Gutkowski",
-    "SortOrder": 565,
-    "ExtraFlags": 154,
+    "Assigned": false,
+    "ModuleLicenseId": 79,
+    "Name": "Raynor, Wiegand and Emmerich",
+    "Description": "Streamlined attitude-oriented analyzer",
+    "PrerequisiteModuleName": "O'Reilly, Frami and Huels",
+    "SortOrder": 291,
+    "ExtraFlags": 330,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldType": "System.String",
+        "FieldLength": 829
       }
     }
   }

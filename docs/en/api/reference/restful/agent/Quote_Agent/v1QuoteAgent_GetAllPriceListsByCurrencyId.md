@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 833,
-  "CurrencyId": 207
+  "QuoteConnectionId": 849,
+  "CurrencyId": 771
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 857,
-    "ERPPriceListKey": "eaque",
-    "QuoteConnectionId": 912,
-    "Name": "Marks-Brekke",
-    "Description": "Object-based responsive software",
-    "Currency": "officia",
-    "CurrencyName": "Batz Inc and Sons",
-    "ValidFrom": "2006-12-13T03:44:53.0583181+01:00",
-    "ValidTo": "1998-11-18T03:44:53.0583181+01:00",
+    "PriceListId": 384,
+    "ERPPriceListKey": "consequatur",
+    "QuoteConnectionId": 272,
+    "Name": "Streich-Moen",
+    "Description": "Operative regional hardware",
+    "Currency": "saepe",
+    "CurrencyName": "Dare, Osinski and Erdman",
+    "ValidFrom": "2005-01-21T13:14:06.3351823+01:00",
+    "ValidTo": "2003-11-24T13:14:06.3351823+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 459
       }
     }
   }

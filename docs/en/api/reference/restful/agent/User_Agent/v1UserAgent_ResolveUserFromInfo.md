@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 567,
-  "PersonName": "Hammes, Considine and Smith",
+  "ContactId": 587,
+  "PersonName": "Haley, Hahn and Ratke",
   "PhoneNumbers": [
-    "1293209",
-    "922085"
+    "1256893",
+    "808586"
   ],
   "Emails": [
-    "shawn@orn.biz",
-    "lavern.raynor@dachwehner.uk"
+    "joanny_bogisich@haag.com",
+    "leann_price@whitezulauf.co.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 789
     }
   }
 }

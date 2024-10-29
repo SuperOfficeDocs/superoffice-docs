@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 681,
-  "ERPPriceListKey": "velit",
-  "QuoteConnectionId": 366,
-  "Name": "Hintz-Marvin",
-  "Description": "Open-source coherent capability",
-  "Currency": "et",
-  "CurrencyName": "Olson, Williamson and Hintz",
-  "ValidFrom": "2009-11-14T03:44:58.0468534+01:00",
-  "ValidTo": "2024-05-18T03:44:58.0468534+02:00",
-  "IsActive": false
+  "PriceListId": 780,
+  "ERPPriceListKey": "illo",
+  "QuoteConnectionId": 314,
+  "Name": "Tillman, Kulas and Hegmann",
+  "Description": "Managed client-server initiative",
+  "Currency": "consequatur",
+  "CurrencyName": "Wehner-Ankunding",
+  "ValidFrom": "2007-02-22T13:14:11.4454508+01:00",
+  "ValidTo": "2005-11-04T13:14:11.4454508+01:00",
+  "IsActive": true
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 301,
-  "ERPPriceListKey": "unde",
-  "QuoteConnectionId": 295,
-  "Name": "Hermiston-Dickinson",
-  "Description": "Re-contextualized web-enabled model",
-  "Currency": "aperiam",
-  "CurrencyName": "Funk-Padberg",
-  "ValidFrom": "2022-09-19T03:44:58.0468534+02:00",
-  "ValidTo": "2015-06-02T03:44:58.0468534+02:00",
-  "IsActive": false,
+  "PriceListId": 775,
+  "ERPPriceListKey": "eligendi",
+  "QuoteConnectionId": 477,
+  "Name": "Lindgren, Hackett and O'Conner",
+  "Description": "Sharable needs-based instruction set",
+  "Currency": "voluptatibus",
+  "CurrencyName": "Kautzer LLC",
+  "ValidFrom": "2024-05-07T13:14:11.4454508+02:00",
+  "ValidTo": "2014-01-17T13:14:11.4454508+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 102
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

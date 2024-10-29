@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 296,
-    "Name": "Rempel-Hyatt",
-    "Tooltip": "et",
-    "SaveInDb": 1001,
-    "Filename": "fugiat",
-    "DefaultOref": "ut",
+    "DocumentTemplateId": 213,
+    "Name": "Fisher-Collier",
+    "Tooltip": "nesciunt",
+    "SaveInDb": 415,
+    "Filename": "blanditiis",
+    "DefaultOref": "est",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 103,
-    "IntentId": 39,
+    "AutoeventId": 750,
+    "IntentId": 799,
     "IsDefaultPublished": false,
-    "Rank": 585,
-    "LoadTemplateFromPlugin": 985,
-    "MimeType": "nisi",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 216,
+    "Rank": 810,
+    "LoadTemplateFromPlugin": 219,
+    "MimeType": "et",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 339,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "jamey@nicolas.us",
+    "EmailSubject": "vida@swaniawski.info",
     "IncludeSignature": false,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "billy@windlerweissnat.ca",
+    "SenderEmailAddress": "torey@kuhnlubowitz.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 895
       }
     }
   }

@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 248
+  "QuoteVersionId": 305
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 101,
-  "ERPQuoteVersionKey": "aperiam",
-  "QuoteId": 583,
-  "Description": "Optional dynamic complexity",
-  "Number": "969761",
+  "QuoteVersionId": 304,
+  "ERPQuoteVersionKey": "ipsam",
+  "QuoteId": 641,
+  "Description": "Proactive zero defect functionalities",
+  "Number": "1251046",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 482,
-  "SentDate": "2021-11-05T03:44:53.042699+01:00",
-  "FollowupId": 710,
-  "ExpirationDate": "2020-05-04T03:44:53.042699+02:00",
-  "DeliveryCountryId": 487,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 231,
+  "LikelyQuoteAlternativeId": 986,
+  "SentDate": "2011-08-30T13:14:06.3039303+02:00",
+  "FollowupId": 990,
+  "ExpirationDate": "1999-07-04T13:14:06.3039303+02:00",
+  "DeliveryCountryId": 913,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 4,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "et",
-  "ERPPaymentTypeKey": "necessitatibus",
-  "ERPDeliveryTermsKey": "sunt",
-  "ERPDeliveryTypeKey": "ratione",
-  "Rank": 537,
-  "ApprovedBy": 953,
-  "ApprovedText": "amet",
-  "ApprovedRegisteredBy": 452,
-  "ApprovedRegisteredDate": "2020-09-12T03:44:53.042699+02:00",
-  "ExtraField1": "non",
-  "ExtraField2": "cumque",
-  "ExtraField3": "nihil",
-  "ExtraField4": "dolor",
-  "ExtraField5": "qui",
-  "LastRecalculated": "2011-05-23T03:44:53.042699+02:00",
-  "Updated": "2017-11-07T03:44:53.042699+01:00",
-  "UpdatedAssociateId": 822,
-  "Registered": "2022-03-21T03:44:53.042699+01:00",
-  "RegisteredAssociateId": 84,
-  "RequestAssociateId": 294,
-  "RequestComment": "dicta",
+  "ERPPaymentTermsKey": "eius",
+  "ERPPaymentTypeKey": "ea",
+  "ERPDeliveryTermsKey": "fugit",
+  "ERPDeliveryTypeKey": "expedita",
+  "Rank": 856,
+  "ApprovedBy": 587,
+  "ApprovedText": "consequatur",
+  "ApprovedRegisteredBy": 257,
+  "ApprovedRegisteredDate": "1999-04-29T13:14:06.3039303+02:00",
+  "ExtraField1": "amet",
+  "ExtraField2": "minus",
+  "ExtraField3": "quis",
+  "ExtraField4": "et",
+  "ExtraField5": "fuga",
+  "LastRecalculated": "1998-10-24T13:14:06.3039303+02:00",
+  "Updated": "2006-02-03T13:14:06.3039303+01:00",
+  "UpdatedAssociateId": 52,
+  "Registered": "2022-01-25T13:14:06.3039303+01:00",
+  "RegisteredAssociateId": 278,
+  "RequestAssociateId": 354,
+  "RequestComment": "sed",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 567,
-      "ERPQuoteAlternativeKey": "quia",
-      "QuoteVersionId": 718,
-      "Name": "Gleichner LLC",
-      "Description": "Streamlined uniform project",
+      "QuoteAlternativeId": 348,
+      "ERPQuoteAlternativeKey": "et",
+      "QuoteVersionId": 349,
+      "Name": "Marquardt Group",
+      "Description": "User-friendly clear-thinking hardware",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 11414.028,
-      "ERPDiscountAmount": 3199.814,
-      "DiscountPercent": 3268.7619999999997,
-      "DiscountAmount": 20822.296,
+      "ERPDiscountPercent": 7850.67,
+      "ERPDiscountAmount": 4158.818,
+      "DiscountPercent": 2560.478,
+      "DiscountAmount": 8969.508,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "error",
-      "VAT": 18703.712,
-      "EarningPercent": 10423.684,
-      "EarningAmount": 20674.998,
-      "SubTotal": 25391.667999999998,
-      "TotalPrice": 7891.4119999999994,
-      "ExtraField1": "consequatur",
-      "ExtraField2": "totam",
-      "ExtraField3": "odio",
-      "ExtraField4": "facere",
-      "ExtraField5": "asperiores",
+      "VATInfo": "repudiandae",
+      "VAT": 10787.228,
+      "EarningPercent": 13730.054,
+      "EarningAmount": 20170.424,
+      "SubTotal": 13416.654,
+      "TotalPrice": 6042.352,
+      "ExtraField1": "animi",
+      "ExtraField2": "animi",
+      "ExtraField3": "corrupti",
+      "ExtraField4": "et",
+      "ExtraField5": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 103
+          "FieldType": "System.Int32",
+          "FieldLength": 603
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldLength": 222
     }
   }
 }

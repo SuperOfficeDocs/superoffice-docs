@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Bergnaum-Morissette",
-    "ToolTip": "Maxime eum non id.",
-    "Deleted": false,
-    "Rank": 280,
-    "Type": "tempora",
-    "ColorBlock": 932,
-    "IconHint": "explicabo",
+    "Id": 705,
+    "Name": "Renner-Crooks",
+    "ToolTip": "Quia et cum omnis eligendi.",
+    "Deleted": true,
+    "Rank": 189,
+    "Type": "aut",
+    "ColorBlock": 732,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2014-06-21T03:44:52.6677336+02:00",
+    "LastChanged": "2003-09-07T13:14:06.0539158+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Stracke-Pollich",
-        "ToolTip": "Vero corrupti quo nulla facilis quibusdam suscipit.",
+        "Id": 579,
+        "Name": "Lindgren, Schamberger and Schoen",
+        "ToolTip": "Consequuntur vel.",
         "Deleted": false,
-        "Rank": 177,
-        "Type": "ducimus",
-        "ColorBlock": 281,
-        "IconHint": "et",
+        "Rank": 508,
+        "Type": "aliquid",
+        "ColorBlock": 218,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2011-11-30T03:44:52.6677336+01:00",
+        "LastChanged": "2004-02-23T13:14:06.0539158+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "odio",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Elbert Kihn III",
+        "FullName": "Toni Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 979
+            "FieldLength": 346
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Ardith Spinka",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Brisa Reynolds DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 296
+        "FieldType": "System.String",
+        "FieldLength": 813
       }
     }
   }

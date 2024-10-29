@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 15,
-    "Name": "Hegmann-Legros",
-    "OrgNr": "1555211",
+    "ContactId": 502,
+    "Name": "Russel-Dickinson",
+    "OrgNr": "1424799",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "repellat",
-    "DirectPhone": "920.271.9652 x5824",
-    "AssociateId": 487,
-    "CountryId": 317,
-    "EmailAddress": "kyleigh_leffler@senger.name",
-    "Kananame": "ullam",
-    "EmailAddressName": "keeley.howe@erdman.com",
+    "City": "qui",
+    "DirectPhone": "1-449-794-9182",
+    "AssociateId": 253,
+    "CountryId": 440,
+    "EmailAddress": "dimitri@balistreri.uk",
+    "Kananame": "officia",
+    "EmailAddressName": "melany_tremblay@goldner.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Frida O'Reilly",
+    "AssociateFullName": "Mr. Reina D'Amore IV",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "fuga",
-    "FullName": "Prof. Daniela Krystel Conroy III",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 404,
-    "Number1": "1066591",
-    "Number2": "1354597",
+    "FormattedAddress": "perspiciatis",
+    "FullName": "Dr. Winifred Winifred Wiza II",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 959,
+    "Number1": "408851",
+    "Number2": "1750390",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 922
       }
     }
   }

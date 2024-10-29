@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Beer-Greenfelder",
+  "UdListDefinitionName": "Bailey Group",
   "Items": [
     {
-      "Id": 692,
-      "Name": "Lakin-D'Amore",
-      "Tooltip": "ut",
-      "Deleted": false,
-      "UdListDefinitionId": 695,
-      "Rank": 857
+      "Id": 946,
+      "Name": "Hayes, Collins and Anderson",
+      "Tooltip": "consectetur",
+      "Deleted": true,
+      "UdListDefinitionId": 446,
+      "Rank": 89
     },
     {
-      "Id": 692,
-      "Name": "Lakin-D'Amore",
-      "Tooltip": "ut",
-      "Deleted": false,
-      "UdListDefinitionId": 695,
-      "Rank": 857
+      "Id": 946,
+      "Name": "Hayes, Collins and Anderson",
+      "Tooltip": "consectetur",
+      "Deleted": true,
+      "UdListDefinitionId": 446,
+      "Rank": 89
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Orn, Crona and Sipes",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "UdListDefinitionId": 779,
-    "Rank": 440,
+    "Id": 279,
+    "Name": "Gaylord Group",
+    "Tooltip": "aspernatur",
+    "Deleted": true,
+    "UdListDefinitionId": 83,
+    "Rank": 633,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 369
       }
     }
   }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 312,
-  "Name": "Kessler LLC",
-  "Tooltip": "veniam",
+  "Id": 482,
+  "Name": "Kohler Inc and Sons",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "UdListDefinitionId": 877,
-  "Rank": 318,
+  "UdListDefinitionId": 693,
+  "Rank": 456,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 114
     }
   }
 }

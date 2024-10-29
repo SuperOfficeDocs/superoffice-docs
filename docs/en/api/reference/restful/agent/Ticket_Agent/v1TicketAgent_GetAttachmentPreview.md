@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 367
+  "AttachmentId": 691
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crist Inc and Sons",
-  "MimeType": "ipsam",
-  "Size": 995,
+  "Name": "Weimann-Wiza",
+  "MimeType": "eum",
+  "Size": 250,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "jess_barrows@bogisichullrich.biz",
-  "EmailFrom": "river_moen@rippin.uk",
-  "EmailTo": "gideon_schowalter@mills.co.uk",
-  "EmailCc": "amalia@jakubowski.name",
-  "EmailDate": "2002-06-06T03:44:53.340429+02:00",
+  "EmailSubject": "norberto.gutkowski@hermistonhills.name",
+  "EmailFrom": "myrl@champlinwelch.ca",
+  "EmailTo": "walter@hirtheweber.com",
+  "EmailCc": "georgette_rodriguez@lesch.ca",
+  "EmailDate": "2014-06-22T13:14:06.6633276+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 54,
-      "Name": "Simonis-Block",
-      "ContentType": "commodi",
-      "AttSize": 505,
-      "InlineImage": true,
-      "ContentId": "beatae",
-      "AuthKey": "occaecati",
+      "AttachmentId": 623,
+      "Name": "Green Inc and Sons",
+      "ContentType": "et",
+      "AttSize": 913,
+      "InlineImage": false,
+      "ContentId": "dignissimos",
+      "AuthKey": "aliquam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 404
+          "FieldType": "System.Int32",
+          "FieldLength": 972
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

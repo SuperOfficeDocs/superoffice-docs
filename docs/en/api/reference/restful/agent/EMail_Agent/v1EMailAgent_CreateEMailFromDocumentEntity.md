@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 40,
-      "ContactName": "Langosh Group",
-      "PersonId": 981,
-      "PersonName": "Morar LLC",
-      "AssociateId": 526,
-      "Address": "ipsa",
-      "EmailId": 589,
+      "ContactId": 828,
+      "ContactName": "Klein-Smitham",
+      "PersonId": 78,
+      "PersonName": "Jakubowski, Wolf and Dooley",
+      "AssociateId": 543,
+      "Address": "sunt",
+      "EmailId": 963,
       "DuplicatePersonIds": [
-        397,
-        465
+        540,
+        806
       ],
-      "Name": "Breitenberg Inc and Sons",
+      "Name": "Ullrich Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 367
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 508,
-      "ContactName": "Kautzer-Weimann",
-      "PersonId": 782,
-      "PersonName": "Schumm-Ryan",
-      "AssociateId": 87,
-      "Address": "explicabo",
-      "EmailId": 404,
+      "ContactId": 897,
+      "ContactName": "Gutkowski, Botsford and Hettinger",
+      "PersonId": 325,
+      "PersonName": "Ryan, Hickle and Durgan",
+      "AssociateId": 600,
+      "Address": "eos",
+      "EmailId": 658,
       "DuplicatePersonIds": [
-        909,
-        513
+        516,
+        251
       ],
-      "Name": "Kuvalis-O'Kon",
+      "Name": "Waelchi-Harvey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 97
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 516,
-      "ContactName": "Nolan Group",
-      "PersonId": 757,
-      "PersonName": "Luettgen Inc and Sons",
-      "AssociateId": 823,
-      "Address": "dolor",
-      "EmailId": 984,
+      "ContactId": 215,
+      "ContactName": "Hoeger, Anderson and Kihn",
+      "PersonId": 103,
+      "PersonName": "Zulauf-Rau",
+      "AssociateId": 112,
+      "Address": "illo",
+      "EmailId": 542,
       "DuplicatePersonIds": [
-        934,
-        695
+        801,
+        147
       ],
-      "Name": "Johnston, Schimmel and Lebsack",
+      "Name": "Hills-Daniel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 612
         }
       }
     }
   ],
-  "Subject": "sunt",
-  "HTMLBody": "magnam",
+  "Subject": "illum",
+  "HTMLBody": "maxime",
   "From": null,
-  "Sent": "2008-09-08T03:44:52.6052418+02:00",
-  "Size": 958,
+  "Sent": "1997-10-29T13:14:05.991412+01:00",
+  "Size": 409,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "veritatis",
-  "PlainBody": "voluptate",
+  "MessageID": "quas",
+  "PlainBody": "voluptas",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 355,
+  "ServerId": 501,
   "Attachments": [
     {
-      "Description": "Seamless heuristic internet solution",
-      "Filename": "cupiditate",
-      "Size": 671,
-      "Type": "et",
-      "Encoding": "accusantium",
-      "Id": "vel",
-      "Disposition": "qui",
+      "Description": "Public-key 6th generation moderator",
+      "Filename": "sit",
+      "Size": 406,
+      "Type": "eos",
+      "Encoding": "quod",
+      "Id": "non",
+      "Disposition": "et",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldType": "System.String",
+          "FieldLength": 645
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Friesen, Heathcote and Wiza",
+      "Name": "Cummings-Koss",
       "Values": [
-        "cupiditate",
-        "ratione"
+        "labore",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 636
         }
       }
     },
     {
-      "Name": "Friesen, Heathcote and Wiza",
+      "Name": "Cummings-Koss",
       "Values": [
-        "cupiditate",
-        "ratione"
+        "labore",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 636
         }
       }
     }
   ],
-  "FolderName": "Romaguera Inc and Sons",
-  "EmailItemId": 174,
-  "AccountId": 411,
-  "ReceivedAt": "2022-08-01T03:44:52.6052418+02:00",
+  "FolderName": "Ruecker, Feil and Lockman",
+  "EmailItemId": 301,
+  "AccountId": 809,
+  "ReceivedAt": "2017-04-18T13:14:05.991412+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-09-09T03:44:52.6052418+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2020-10-05T13:14:05.991412+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

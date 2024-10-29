@@ -101,7 +101,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 169
+  "ContactId": 703
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Spinka, Schuster and Muller",
-    "SaleDate": "2016-01-10T03:44:53.136845+01:00",
-    "SaleId": 846,
-    "Probability": 872,
-    "Title": "ex",
-    "Amount": 30616.046,
-    "Currency": "libero",
-    "ProjectName": "Simonis Inc and Sons",
-    "AssociateFullName": "Ines Lesch",
-    "Description": "Secured client-driven extranet",
+    "ContactName": "Anderson, Weber and Douglas",
+    "SaleDate": "2012-05-14T13:14:06.3976861+02:00",
+    "SaleId": 532,
+    "Probability": 434,
+    "Title": "sit",
+    "Amount": 24730.394,
+    "Currency": "illum",
+    "ProjectName": "Brakus-Cummings",
+    "AssociateFullName": "Rashad Haag",
+    "Description": "Versatile dedicated function",
     "Status": "Lost",
-    "WeightedAmount": 3506.946,
-    "ProjectId": 66,
-    "EarningPercent": 28137.052,
-    "Earning": 30189.822,
-    "ContactId": 1000,
-    "AssociateId": 483,
-    "PersonId": 775,
-    "SaleTypeId": 277,
-    "SaleTypeName": "Rosenbaum-Hartmann",
-    "PersonFullName": "Marvin King",
+    "WeightedAmount": 25397.935999999998,
+    "ProjectId": 984,
+    "EarningPercent": 17926.48,
+    "Earning": 20938.254,
+    "ContactId": 596,
+    "AssociateId": 620,
+    "PersonId": 713,
+    "SaleTypeId": 953,
+    "SaleTypeName": "Schuppe LLC",
+    "PersonFullName": "Mr. Alta Hauck DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 302,
-    "NextDueDate": "2007-04-13T03:44:53.136845+02:00",
-    "Number": "1326796",
+    "ActiveErpLinks": 447,
+    "NextDueDate": "2018-02-01T13:14:06.3976861+01:00",
+    "Number": "915897",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 885
       }
     }
   }

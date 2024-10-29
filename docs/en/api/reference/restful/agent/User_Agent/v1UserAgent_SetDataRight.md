@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 844,
-  "TableName": "Schaefer Inc and Sons",
+  "RoleId": 273,
+  "TableName": "Tremblay-Dach",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "ut"
+  "DataRightValue": "labore"
 }
 ```
 

@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 561,
-  "ColumnId": 493,
-  "FieldDefault": "deleniti",
-  "FieldHeight": 809,
-  "FieldLabel": "eius",
-  "FieldLeft": 24,
-  "FieldTop": 715,
+  "UDefFieldId": 311,
+  "ColumnId": 455,
+  "FieldDefault": "eos",
+  "FieldHeight": 111,
+  "FieldLabel": "qui",
+  "FieldLeft": 868,
+  "FieldTop": 712,
   "FieldType": "Checkbox",
-  "FieldWidth": 386,
-  "FormatMask": "quo",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 125,
-  "LabelLeft": 776,
-  "LabelTop": 537,
-  "LabelWidth": 347,
-  "LastVersionId": 14,
-  "ListTableId": 657,
-  "IsMandatory": true,
+  "FieldWidth": 64,
+  "FormatMask": "tempore",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 599,
+  "LabelLeft": 190,
+  "LabelTop": 378,
+  "LabelWidth": 295,
+  "LastVersionId": 979,
+  "ListTableId": 523,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 563,
-  "ProgId": "saepe",
-  "IsReadOnly": false,
-  "ShortLabel": "repellendus",
-  "TabOrder": 58,
-  "TextLength": 742,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 474,
-  "UDListDefinitionId": 488,
+  "Page1LineNo": 210,
+  "ProgId": "facere",
+  "IsReadOnly": true,
+  "ShortLabel": "praesentium",
+  "TabOrder": 244,
+  "TextLength": 727,
+  "Tooltip": "provident",
+  "UdefIdentity": 445,
+  "UDListDefinitionId": 948,
   "Justification": "Center",
-  "Version": 196,
-  "TemplateVariableName": "Carter Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Will, Langosh and Cormier",
+  "Version": 957,
+  "TemplateVariableName": "Leannon, Russel and Little",
+  "HasBeenPublished": true,
+  "MdoListName": "Braun LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 223
     }
   }
 }

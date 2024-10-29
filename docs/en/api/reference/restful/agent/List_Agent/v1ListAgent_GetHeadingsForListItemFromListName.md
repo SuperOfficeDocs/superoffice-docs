@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wuckert LLC",
-  "ListItemId": 657,
+  "UdListDefinitionName": "Toy, Wintheiser and Hauck",
+  "ListItemId": 452,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 190,
-    "Name": "Fay, Hessel and Runolfsdottir",
-    "ToolTip": "Dolor culpa nulla.",
-    "Deleted": false,
-    "Rank": 132,
-    "Type": "qui",
-    "ColorBlock": 609,
-    "IconHint": "recusandae",
-    "Selected": true,
-    "LastChanged": "2000-10-19T03:44:52.6989885+02:00",
+    "Id": 390,
+    "Name": "Mills-Bode",
+    "ToolTip": "Adipisci dolor eius.",
+    "Deleted": true,
+    "Rank": 560,
+    "Type": "tenetur",
+    "ColorBlock": 991,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2015-02-06T13:14:06.0851676+01:00",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Lebsack, Lowe and Hoppe",
-        "ToolTip": "Nemo officiis reprehenderit placeat voluptates ipsum voluptas accusamus.",
+        "Id": 20,
+        "Name": "Hegmann LLC",
+        "ToolTip": "In cum occaecati reiciendis.",
         "Deleted": false,
-        "Rank": 552,
-        "Type": "similique",
-        "ColorBlock": 346,
-        "IconHint": "labore",
+        "Rank": 856,
+        "Type": "quod",
+        "ColorBlock": 128,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2010-09-21T03:44:52.6989885+02:00",
+        "LastChanged": "1998-12-05T13:14:06.0851676+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "totam",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Logan Abshire",
+        "FullName": "Ariel Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 454
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "quis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Izabella Katrine Effertz Jr.",
+    "FullName": "Prof. Wanda Jayson Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 913
       }
     }
   }

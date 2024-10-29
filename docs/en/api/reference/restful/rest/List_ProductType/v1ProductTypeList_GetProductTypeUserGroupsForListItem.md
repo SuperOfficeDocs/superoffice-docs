@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Bogan, Cassin and Hoppe",
-    "ToolTip": "In nesciunt omnis rerum vel.",
-    "Deleted": false,
-    "Rank": 834,
-    "Type": "repellat",
-    "ColorBlock": 859,
-    "IconHint": "nostrum",
+    "Id": 714,
+    "Name": "Frami, Nikolaus and Johnston",
+    "ToolTip": "Eveniet ea sequi.",
+    "Deleted": true,
+    "Rank": 252,
+    "Type": "pariatur",
+    "ColorBlock": 77,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2019-01-16T03:44:58.0781351+01:00",
+    "LastChanged": "2016-07-11T13:14:11.4767026+02:00",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Lindgren LLC",
-        "ToolTip": "Facere cumque omnis cum dignissimos quia.",
+        "Id": 404,
+        "Name": "Ledner-Nienow",
+        "ToolTip": "Aut esse aut minus ad voluptas.",
         "Deleted": false,
-        "Rank": 396,
-        "Type": "quos",
-        "ColorBlock": 686,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2013-07-29T03:44:58.0781351+02:00",
+        "Rank": 803,
+        "Type": "minus",
+        "ColorBlock": 274,
+        "IconHint": "magni",
+        "Selected": true,
+        "LastChanged": "2017-02-03T13:14:11.4767026+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "similique",
+        "ExtraInfo": "qui",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Dominic Block",
+        "FullName": "Cody Goyette V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 577
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Paolo Gerlach",
+    "ExtraInfo": "amet",
+    "StyleHint": "architecto",
+    "Hidden": false,
+    "FullName": "Joyce Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 527
       }
     }
   }

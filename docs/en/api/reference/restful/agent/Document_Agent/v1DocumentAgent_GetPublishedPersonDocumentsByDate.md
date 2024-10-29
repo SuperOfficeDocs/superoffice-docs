@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 421,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2015-10-01T03:44:52.4333602+02:00",
-  "EndTime": "2023-10-23T03:44:52.4333602+02:00",
-  "Count": 111
+  "PersonId": 435,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2016-07-10T13:14:05.7570229+02:00",
+  "EndTime": "2023-04-07T13:14:05.7570229+02:00",
+  "Count": 549
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 233,
-    "Attention": "ut",
-    "Header": "ut",
-    "Name": "Stark, Greenholt and Franecki",
-    "OurRef": "et",
-    "YourRef": "aliquid",
-    "Description": "Multi-lateral actuating policy",
-    "DocumentTemplate": "nobis",
-    "IsPublished": true,
-    "PersonId": 43,
-    "PersonFullName": "Bill Dibbert",
-    "AssociateFullName": "Mrs. Candice Elizabeth Prosacco",
-    "ContactId": 495,
-    "ContactName": "Parker LLC",
-    "ProjectId": 37,
-    "ProjectName": "Padberg-Mueller",
-    "AssociateId": 789,
-    "Snum": 83,
-    "SaleId": 705,
-    "SaleName": "Abernathy, Kerluke and Feil",
+    "DocumentId": 21,
+    "Attention": "eos",
+    "Header": "repudiandae",
+    "Name": "Dietrich Inc and Sons",
+    "OurRef": "quisquam",
+    "YourRef": "assumenda",
+    "Description": "Re-engineered high-level attitude",
+    "DocumentTemplate": "aut",
+    "IsPublished": false,
+    "PersonId": 340,
+    "PersonFullName": "Ricky Connelly",
+    "AssociateFullName": "Alvis Senger",
+    "ContactId": 257,
+    "ContactName": "Funk-Heaney",
+    "ProjectId": 746,
+    "ProjectName": "Hermann, Daniel and O'Hara",
+    "AssociateId": 498,
+    "Snum": 211,
+    "SaleId": 457,
+    "SaleName": "Klein, Block and Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 22
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

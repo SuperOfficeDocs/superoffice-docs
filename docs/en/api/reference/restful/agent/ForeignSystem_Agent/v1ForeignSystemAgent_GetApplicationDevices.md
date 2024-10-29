@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reichel, Hagenes and Dibbert"
+  "ApplicationName": "Johns Inc and Sons"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 871,
-    "Name": "Beer-Jacobi",
-    "CreatedDate": "2003-08-21T03:44:52.6521119+02:00",
-    "UpdatedDate": "2020-11-22T03:44:52.6521119+01:00",
-    "AssociateFullName": "Prof. Liliane Price IV",
-    "CreatedBy": "dolorum",
-    "UpdatedBy": "sunt",
-    "DeviceIdentifier": "voluptatibus",
-    "ForeignAppId": 514,
+    "ForeignDeviceId": 372,
+    "Name": "Volkman Group",
+    "CreatedDate": "1999-03-15T13:14:06.0382898+01:00",
+    "UpdatedDate": "2014-02-05T13:14:06.0382898+01:00",
+    "AssociateFullName": "Katheryn Lesch Sr.",
+    "CreatedBy": "impedit",
+    "UpdatedBy": "dolorum",
+    "DeviceIdentifier": "est",
+    "ForeignAppId": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 421
+        "FieldType": "System.Int32",
+        "FieldLength": 442
       }
     }
   }

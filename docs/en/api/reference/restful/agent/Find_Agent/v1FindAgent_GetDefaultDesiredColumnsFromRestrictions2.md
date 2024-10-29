@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kohler Group",
-  "Restrictions": "omnis"
+  "ProviderName": "Bernhard Group",
+  "Restrictions": "rem"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Wilkinson-Mertz",
-    "DisplayTooltip": "similique",
-    "DisplayType": "unde",
+    "DisplayName": "Keebler LLC",
+    "DisplayTooltip": "architecto",
+    "DisplayType": "molestias",
     "CanOrderBy": false,
-    "Name": "Heller Inc and Sons",
-    "CanRestrictBy": false,
-    "RestrictionType": "explicabo",
-    "RestrictionListName": "Kunze-Abernathy",
-    "IsVisible": true,
-    "ExtraInfo": "impedit",
-    "Width": "quo",
-    "IconHint": "est",
-    "HeadingIconHint": "est"
+    "Name": "Christiansen-Ledner",
+    "CanRestrictBy": true,
+    "RestrictionType": "quae",
+    "RestrictionListName": "Rosenbaum, Mosciski and Streich",
+    "IsVisible": false,
+    "ExtraInfo": "et",
+    "Width": "blanditiis",
+    "IconHint": "mollitia",
+    "HeadingIconHint": "voluptatem"
   }
 ]
 ```

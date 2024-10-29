@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "Bauch, Beatty and Reynolds",
-    "ToolTip": "Molestiae ut quis consequatur perferendis consequuntur.",
+    "Id": 993,
+    "Name": "Yundt, Johnson and Sporer",
+    "ToolTip": "Voluptatibus qui.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "qui",
-    "ColorBlock": 560,
-    "IconHint": "molestiae",
+    "Rank": 845,
+    "Type": "sunt",
+    "ColorBlock": 650,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2003-09-07T03:44:58.1562167+02:00",
+    "LastChanged": "2003-01-06T13:14:11.5392071+01:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Kihn Inc and Sons",
-        "ToolTip": "Vitae inventore consequatur corrupti ea aliquam aut.",
-        "Deleted": true,
-        "Rank": 435,
-        "Type": "quas",
-        "ColorBlock": 412,
-        "IconHint": "alias",
+        "Id": 169,
+        "Name": "Rogahn, Padberg and Haag",
+        "ToolTip": "Repudiandae sit qui et.",
+        "Deleted": false,
+        "Rank": 449,
+        "Type": "et",
+        "ColorBlock": 717,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2001-08-17T03:44:58.1562167+02:00",
+        "LastChanged": "2013-08-19T13:14:11.5392071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "commodi",
+        "ExtraInfo": "atque",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Mr. Treva Bogisich"
+        "FullName": "Nico Carroll"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ut",
+    "ExtraInfo": "itaque",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Chyna Boehm"
+    "FullName": "Tabitha Cruickshank"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 783,
-    "Name": "Brekke, Abernathy and Parker",
-    "ToolTip": "Deleniti dignissimos iste.",
-    "Deleted": false,
-    "Rank": 672,
-    "Type": "dicta",
-    "ColorBlock": 628,
-    "IconHint": "similique",
+    "Id": 36,
+    "Name": "Carroll LLC",
+    "ToolTip": "Sunt et fugit.",
+    "Deleted": true,
+    "Rank": 580,
+    "Type": "corrupti",
+    "ColorBlock": 700,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2020-10-26T03:44:58.1562167+01:00",
+    "LastChanged": "2019-10-14T13:14:11.5392071+02:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Zieme LLC",
-        "ToolTip": "Fugit et non eos.",
-        "Deleted": false,
-        "Rank": 637,
-        "Type": "debitis",
-        "ColorBlock": 999,
-        "IconHint": "officiis",
+        "Id": 100,
+        "Name": "Nienow, Abbott and Wehner",
+        "ToolTip": "Voluptatem nihil soluta quis.",
+        "Deleted": true,
+        "Rank": 408,
+        "Type": "laudantium",
+        "ColorBlock": 237,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2011-01-04T03:44:58.1562167+01:00",
+        "LastChanged": "2003-03-14T13:14:11.5392071+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Derrick Roberts",
+        "ExtraInfo": "natus",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Mr. Muhammad Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 949
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "velit",
+    "ExtraInfo": "ut",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Prof. Maximillian Kohler",
+    "FullName": "Mrs. Tommie Junius Cassin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 978
       }
     }
   }

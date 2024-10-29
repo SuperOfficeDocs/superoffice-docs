@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 743,
-  "PlainMessage": "optio",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "veniam",
-  "Description": "Cross-group national knowledge base",
-  "Subject": "consequuntur",
-  "FolderId": 481,
-  "HeaderField": "quae",
-  "Design": "ex",
+  "ShipmentMessageId": 855,
+  "PlainMessage": "nam",
+  "HtmlMessage": "aspernatur",
+  "SmsMessage": "ex",
+  "Description": "Front-line non-volatile framework",
+  "Subject": "sit",
+  "FolderId": 304,
+  "HeaderField": "ut",
+  "Design": "cupiditate",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Focused maximized superstructure",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 18,
-  "Registered": "2007-07-17T03:44:57.5937539+02:00",
-  "RegisteredAssociateId": 213,
-  "Updated": "1998-02-01T03:44:57.5937539+01:00",
-  "UpdatedAssociateId": 438,
-  "UpdatedCount": 128,
+  "LongDescription": "Inverse hybrid frame",
+  "AccessKey": "assumenda",
+  "DocumentMessage": 593,
+  "Registered": "2002-02-10T13:14:11.1173007+01:00",
+  "RegisteredAssociateId": 658,
+  "Updated": "2012-07-29T13:14:11.1173007+02:00",
+  "UpdatedAssociateId": 29,
+  "UpdatedCount": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 231
     }
   }
 }

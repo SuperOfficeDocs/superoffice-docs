@@ -87,34 +87,34 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 610,
-  "Field": "est",
-  "RecordId": 459,
+  "RefCountsId": 266,
+  "Field": "ea",
+  "RecordId": 692,
   "SuggestedRecords": [
     {
-      "Id": 831,
-      "Name": "Franecki-Flatley",
-      "ToolTip": "Omnis quod sint natus iure expedita dolor.",
-      "Deleted": true,
-      "Rank": 152,
-      "Type": "cum",
+      "Id": 986,
+      "Name": "Erdman Group",
+      "ToolTip": "Modi sit at ut.",
+      "Deleted": false,
+      "Rank": 9,
+      "Type": "rerum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "architecto",
-      "ColorBlock": 619,
-      "ExtraInfo": "a",
-      "StyleHint": "natus",
-      "FullName": "Ms. Willow Grady I"
+      "IconHint": "necessitatibus",
+      "ColorBlock": 463,
+      "ExtraInfo": "et",
+      "StyleHint": "et",
+      "FullName": "Ronaldo Gutkowski"
     }
   ],
-  "CurrentValue": 151,
-  "TravelPrefix": 31,
-  "SatPrefix": 77,
+  "CurrentValue": 121,
+  "TravelPrefix": 238,
+  "SatPrefix": 315,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 465,
-  "Field": "explicabo",
-  "RecordId": 652,
+  "RefCountsId": 558,
+  "Field": "est",
+  "RecordId": 891,
   "SuggestedRecords": [
     {
-      "Id": 736,
-      "Name": "Grady-Leffler",
-      "ToolTip": "Enim velit beatae et sed nihil ipsam.",
+      "Id": 265,
+      "Name": "O'Connell-Sanford",
+      "ToolTip": "Ex nihil dignissimos laboriosam.",
       "Deleted": false,
-      "Rank": 620,
-      "Type": "minima",
+      "Rank": 247,
+      "Type": "magni",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quisquam",
-      "ColorBlock": 593,
-      "ExtraInfo": "sed",
-      "StyleHint": "maxime",
-      "FullName": "Keagan Lazaro Fisher MD",
+      "IconHint": "in",
+      "ColorBlock": 136,
+      "ExtraInfo": "veritatis",
+      "StyleHint": "rerum",
+      "FullName": "Virginie Keebler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 704
+          "FieldType": "System.Int32",
+          "FieldLength": 814
         }
       }
     }
   ],
-  "CurrentValue": 827,
-  "TravelPrefix": 61,
-  "SatPrefix": 689,
+  "CurrentValue": 52,
+  "TravelPrefix": 425,
+  "SatPrefix": 801,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 304
     }
   }
 }

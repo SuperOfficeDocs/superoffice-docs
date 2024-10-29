@@ -27,7 +27,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=ut
+GET /api/v1/List/ProjectStatus/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "McGlynn-Ledner",
-    "ToolTip": "Id incidunt.",
-    "Deleted": true,
-    "Rank": 331,
-    "Type": "aut",
+    "Id": 989,
+    "Name": "Bradtke Group",
+    "ToolTip": "Distinctio provident.",
+    "Deleted": false,
+    "Rank": 954,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Luettgen LLC",
-        "ToolTip": "In et.",
-        "Deleted": true,
-        "Rank": 524,
-        "Type": "rerum",
+        "Id": 216,
+        "Name": "Murphy, Gerlach and Roberts",
+        "ToolTip": "Sunt dicta nihil voluptatem inventore enim voluptas est.",
+        "Deleted": false,
+        "Rank": 217,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maiores",
-        "ColorBlock": 555,
-        "ExtraInfo": "nihil",
-        "StyleHint": "reiciendis",
-        "FullName": "Ms. Adrien Art Hirthe",
+        "IconHint": "molestias",
+        "ColorBlock": 618,
+        "ExtraInfo": "corporis",
+        "StyleHint": "explicabo",
+        "FullName": "Isabel Streich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 750
+            "FieldLength": 498
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 85,
-    "ExtraInfo": "corrupti",
-    "StyleHint": "optio",
-    "FullName": "Vivianne Willms",
+    "IconHint": "qui",
+    "ColorBlock": 38,
+    "ExtraInfo": "quos",
+    "StyleHint": "voluptatibus",
+    "FullName": "Parker Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldType": "System.String",
+        "FieldLength": 801
       }
     }
   }

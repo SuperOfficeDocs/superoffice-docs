@@ -25,7 +25,7 @@ Gets all the DeliveryType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryType/Items?includeDeleted=True
+GET /api/v1/List/DeliveryType/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Larkin-Waters",
-    "Tooltip": "at",
+    "Id": 390,
+    "Name": "Feest-Oberbrunner",
+    "Tooltip": "autem",
     "Deleted": false,
-    "UdListDefinitionId": 643,
-    "Rank": 51,
+    "UdListDefinitionId": 423,
+    "Rank": 481,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 482
       }
     }
   }

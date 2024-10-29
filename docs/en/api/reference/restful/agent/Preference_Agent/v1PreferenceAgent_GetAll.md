@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 319,
-    "Section": "autem",
-    "Key": "consequatur",
-    "Name": "Fahey, Reynolds and Maggio",
+    "PrefDescId": 330,
+    "Section": "doloremque",
+    "Key": "sit",
+    "Name": "Rutherford-McLaughlin",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Quality-focused high-level implementation",
-    "IsBuiltin": true,
-    "TableName": "Miller, Terry and Grant",
-    "UserDefinedListId": 741,
-    "Rank": 552,
-    "SubGroup": "est",
-    "MinLevel": 493,
-    "MaxValue": 531,
-    "MinValue": 426,
-    "RequiredLicense": "omnis",
+    "Description": "Seamless multimedia encoding",
+    "IsBuiltin": false,
+    "TableName": "Wehner Inc and Sons",
+    "UserDefinedListId": 837,
+    "Rank": 150,
+    "SubGroup": "asperiores",
+    "MinLevel": 219,
+    "MaxValue": 151,
+    "MinValue": 628,
+    "RequiredLicense": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldType": "System.String",
+        "FieldLength": 386
       }
     }
   }

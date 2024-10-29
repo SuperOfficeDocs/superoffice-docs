@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aliquam",
+  "RawValue": "ad",
   "Specification": null,
-  "DisplayValue": "iste",
-  "DisplayTooltip": "eum",
+  "DisplayValue": "doloribus",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 30,
-  "PrefDescId": 993,
-  "TableName": "Berge-Tillman",
-  "UserPreferenceId": 959,
+  "TargetId": 550,
+  "PrefDescId": 490,
+  "TableName": "Fritsch-Dickinson",
+  "UserPreferenceId": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 945
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 419,
-    "Name": "Bins-Ziemann",
-    "Tooltip": "eligendi",
-    "Rank": 133,
-    "Key": "modi",
+    "LegalBaseId": 278,
+    "Name": "Weber, Gorczany and Bergnaum",
+    "Tooltip": "sit",
+    "Rank": 790,
+    "Key": "asperiores",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 861
       }
     }
   }

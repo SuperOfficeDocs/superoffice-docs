@@ -109,47 +109,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 330,
-  "Name": "Smith-Kautzer",
-  "Tooltip": "nobis",
-  "Rank": 843,
+  "SaleTypeId": 697,
+  "Name": "Bauch-Sauer",
+  "Tooltip": "quo",
+  "Rank": 915,
   "DurationUnit": "Century",
-  "SaleDuration": 365,
-  "SaleTypeCatId": 961,
-  "Deleted": true,
+  "SaleDuration": 994,
+  "SaleTypeCatId": 577,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 854,
-  "QuoteLinesTemplate": 185,
-  "ConfirmationLinesTemplate": 889,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 863,
+  "QuoteLinesTemplate": 907,
+  "ConfirmationLinesTemplate": 107,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 175,
-  "MinEarningPercent": 715,
-  "GroupQuoteLinesBy": 48,
-  "SortGroupLinesBy": 206,
+  "MaxDiscountPercent": 364,
+  "MinEarningPercent": 866,
+  "GroupQuoteLinesBy": 44,
+  "SortGroupLinesBy": 640,
   "Stages": [
     {
-      "Id": 459,
-      "Name": "Runolfsson-Sporer",
-      "ToolTip": "Et qui numquam praesentium suscipit.",
+      "Id": 842,
+      "Name": "Wisoky-Fay",
+      "ToolTip": "Ut adipisci harum consequuntur.",
       "Deleted": false,
-      "Rank": 238,
-      "Type": "quam",
-      "ColorBlock": 676,
-      "IconHint": "dolorem",
-      "Selected": true,
-      "LastChanged": "2022-09-28T03:44:52.7458159+02:00",
+      "Rank": 717,
+      "Type": "in",
+      "ColorBlock": 937,
+      "IconHint": "qui",
+      "Selected": false,
+      "LastChanged": "1999-02-21T13:14:06.1164195+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maiores",
-      "StyleHint": "illo",
-      "Hidden": true,
-      "FullName": "Daniella Beier"
+      "ExtraInfo": "vitae",
+      "StyleHint": "velit",
+      "Hidden": false,
+      "FullName": "Dewayne Nienow"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 724,
-  "Name": "Huel-Mayert",
-  "Tooltip": "eveniet",
-  "Rank": 162,
+  "SaleTypeId": 514,
+  "Name": "Batz LLC",
+  "Tooltip": "illo",
+  "Rank": 43,
   "DurationUnit": "Century",
-  "SaleDuration": 810,
-  "SaleTypeCatId": 100,
-  "Deleted": false,
+  "SaleDuration": 587,
+  "SaleTypeCatId": 685,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 187,
-  "QuoteLinesTemplate": 461,
-  "ConfirmationLinesTemplate": 126,
+  "DefaultQuoteValidity": 349,
+  "QuoteLinesTemplate": 259,
+  "ConfirmationLinesTemplate": 713,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 19,
-  "MinEarningPercent": 475,
-  "GroupQuoteLinesBy": 272,
-  "SortGroupLinesBy": 925,
+  "MaxDiscountPercent": 70,
+  "MinEarningPercent": 303,
+  "GroupQuoteLinesBy": 866,
+  "SortGroupLinesBy": 688,
   "Stages": [
     {
-      "Id": 888,
-      "Name": "Christiansen, Larkin and Reynolds",
-      "ToolTip": "Repellendus veniam autem consequatur quia possimus commodi.",
+      "Id": 963,
+      "Name": "Weimann Group",
+      "ToolTip": "Assumenda nihil ad ducimus et rerum velit earum.",
       "Deleted": false,
-      "Rank": 820,
-      "Type": "rerum",
-      "ColorBlock": 49,
-      "IconHint": "voluptatum",
+      "Rank": 624,
+      "Type": "quaerat",
+      "ColorBlock": 630,
+      "IconHint": "provident",
       "Selected": false,
-      "LastChanged": "2007-08-05T03:44:52.7458159+02:00",
+      "LastChanged": "2010-10-09T13:14:06.1164195+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ex",
-      "StyleHint": "cum",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "sint",
       "Hidden": false,
-      "FullName": "Dena Treutel",
+      "FullName": "Wyatt Koelpin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldLength": 644
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 743
     }
   }
 }

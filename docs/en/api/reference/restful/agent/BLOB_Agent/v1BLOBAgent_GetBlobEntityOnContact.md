@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 564
+  "ContactId": 333
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 811,
-  "BlobSize": 358,
-  "Description": "Diverse mobile array",
-  "ExtraInfo": "sunt",
-  "IsEncrypted": true,
+  "BlobId": 402,
+  "BlobSize": 352,
+  "Description": "Realigned dedicated conglomeration",
+  "ExtraInfo": "praesentium",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "aliquam",
-  "OriginalSize": 967,
-  "CreatedDate": "2023-04-05T03:44:52.0896371+02:00",
-  "UpdatedDate": "2024-03-09T03:44:52.0896371+01:00",
+  "MimeType": "debitis",
+  "OriginalSize": 492,
+  "CreatedDate": "2017-12-13T13:14:05.5538856+01:00",
+  "UpdatedDate": "2004-02-12T13:14:05.5538856+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minima",
+  "ConceptualType": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 374
     }
   }
 }

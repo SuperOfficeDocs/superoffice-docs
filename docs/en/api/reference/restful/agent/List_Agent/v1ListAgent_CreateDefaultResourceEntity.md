@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 583,
-  "Name": "Spencer-Bergstrom",
-  "Rank": 121,
-  "Tooltip": "id",
-  "Deleted": true,
+  "ResourceId": 364,
+  "Name": "Reichel Inc and Sons",
+  "Rank": 888,
+  "Tooltip": "est",
+  "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "consequatur",
+  "LocationAddress": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

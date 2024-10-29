@@ -80,16 +80,16 @@ OK
 PUT /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 106,
-  "Name": "Gislason Group",
-  "Tooltip": "dolorum",
-  "Rank": 687,
-  "Key": "aut",
-  "Deleted": true
+  "LegalBaseId": 184,
+  "Name": "Kutch, Steuber and Schneider",
+  "Tooltip": "deleniti",
+  "Rank": 968,
+  "Key": "fugiat",
+  "Deleted": false
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 795,
-  "Name": "Rice Inc and Sons",
-  "Tooltip": "quae",
-  "Rank": 783,
-  "Key": "cupiditate",
-  "Deleted": true,
+  "LegalBaseId": 930,
+  "Name": "Stracke-Ryan",
+  "Tooltip": "culpa",
+  "Rank": 924,
+  "Key": "dolores",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 518
     }
   }
 }

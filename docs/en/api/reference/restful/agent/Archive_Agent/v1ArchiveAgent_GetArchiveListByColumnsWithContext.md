@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Hara Group",
+  "ProviderName": "Baumbach, Braun and Will",
   "Columns": [
-    "possimus",
-    "sed"
+    "explicabo",
+    "est"
   ],
   "SortOrder": [
     {
-      "Name": "D'Amore, Eichmann and Quigley",
+      "Name": "Schaden-Feil",
       "Direction": "ASC"
     },
     {
-      "Name": "D'Amore, Eichmann and Quigley",
+      "Name": "Schaden-Feil",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Jast, Adams and Lind",
-      "Operator": "nam",
+      "Name": "Schoen, Sauer and Leannon",
+      "Operator": "quia",
       "Values": [
-        "at",
-        "eum"
+        "iste",
+        "ut"
       ],
       "DisplayValues": [
-        "quo",
-        "delectus"
+        "repellendus",
+        "itaque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 131,
+      "InterParenthesis": 466,
       "InterOperator": "And",
-      "UniqueHash": 416
+      "UniqueHash": 158
     }
   ],
   "Entities": [
-    "nam",
-    "nihil"
+    "laborum",
+    "magnam"
   ],
-  "Page": 944,
-  "PageSize": 263,
-  "Context": "ad"
+  "Page": 406,
+  "PageSize": 1002,
+  "Context": "sapiente"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "King-Gusikowski",
-    "PrimaryKey": 300,
+    "EntityName": "Labadie-Ritchie",
+    "PrimaryKey": 412,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "unde",
-        "TooltipHint": "dolorum",
-        "LinkHint": "provident"
+        "DisplayValue": "aliquid",
+        "TooltipHint": "similique",
+        "LinkHint": "rerum"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "vel",
+    "LinkHint": "ea",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 373
       }
     }
   }

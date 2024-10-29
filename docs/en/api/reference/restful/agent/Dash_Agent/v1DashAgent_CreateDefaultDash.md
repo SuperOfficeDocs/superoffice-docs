@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 979,
-  "UniqueId": "necessitatibus",
-  "Name": "Dibbert, Mayer and Rolfson",
-  "Description": "Open-source bandwidth-monitored encoding",
-  "AssociateId": 325,
-  "Columns": 422,
+  "DashboardId": 801,
+  "UniqueId": "quas",
+  "Name": "Daugherty LLC",
+  "Description": "Balanced 6th generation matrix",
+  "AssociateId": 931,
+  "Columns": 350,
   "Theme": null,
-  "VisibleForAll": 227,
+  "VisibleForAll": 21,
   "VisibleForAssociates": [
-    836,
-    233
+    662,
+    919
   ],
   "VisibleForGroups": [
-    789,
-    153
+    904,
+    240
   ],
-  "PinForAll": 639,
+  "PinForAll": 139,
   "PinForAssociates": [
-    455,
-    41
+    892,
+    261
   ],
   "PinForGroups": [
-    368,
-    91
+    583,
+    245
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 241
     }
   }
 }

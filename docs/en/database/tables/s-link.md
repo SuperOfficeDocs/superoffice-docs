@@ -17,7 +17,7 @@ Links in messages to measure success rate of a campaign.
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
-|url|The real URL of this link (www.vg.no etc)|String(255)| |
+|url|The real URL of this link (www.vg.no etc)|String(4000)| |
 |hits|Number of clicks on this link|Int|&#x25CF;|
 |description|A short description of this link|String(255)|&#x25CF;|
 |last\_reset|The time of last reset.|DateTime|&#x25CF;|

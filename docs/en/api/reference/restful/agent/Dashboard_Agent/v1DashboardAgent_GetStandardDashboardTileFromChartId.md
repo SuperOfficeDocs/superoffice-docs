@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "cum"
+  "ChartId": "consequatur"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 850,
-  "Caption": "quis",
-  "Description": "Profit-focused demand-driven support",
-  "ChartName": "Lowe Group",
-  "ChartId": "sit",
-  "IsDefault": true,
-  "AssociateId": 930,
-  "GroupId": 34,
-  "SelectionId": 522,
-  "Config": "dolor",
+  "DashboardTileId": 636,
+  "Caption": "et",
+  "Description": "Ergonomic regional matrices",
+  "ChartName": "Cole-Bayer",
+  "ChartId": "laborum",
+  "IsDefault": false,
+  "AssociateId": 644,
+  "GroupId": 415,
+  "SelectionId": 231,
+  "Config": "natus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kreiger Inc and Sons",
-      "Description": "Operative methodical structure",
+      "Name": "Oberbrunner-Gibson",
+      "Description": "Re-contextualized optimal artificial intelligence",
       "Type": "Boolean",
-      "ListName": "Armstrong-Connelly",
+      "ListName": "Wisozk-Kuphal",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "est",
+      "Value": "ut",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 73
+          "FieldType": "System.Int32",
+          "FieldLength": 284
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 46,
+      "VisibleId": 157,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 828
         }
       }
     },
     {
-      "VisibleId": 46,
+      "VisibleId": 157,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 828
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 10
     }
   }
 }

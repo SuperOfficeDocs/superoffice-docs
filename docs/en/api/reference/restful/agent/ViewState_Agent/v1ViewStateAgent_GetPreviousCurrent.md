@@ -86,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Waelchi-Ziemann",
-  "Id": 622
+  "HistoryName": "Franecki, Dibbert and Kilback",
+  "Id": 190
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 196,
-  "Id": 861,
-  "HistoryName": "Donnelly Inc and Sons",
-  "HistoryId": 164,
-  "AssociateId": 525,
-  "Name": "Medhurst LLC",
-  "ItemInfo": "et",
+  "Rank": 144,
+  "Id": 522,
+  "HistoryName": "Smith-Dach",
+  "HistoryId": 383,
+  "AssociateId": 82,
+  "Name": "Koch-Grant",
+  "ItemInfo": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 813
     }
   }
 }

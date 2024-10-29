@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=dolor
+GET /api/v1/List/ProductCategory/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Bernhard-Hackett",
-    "ToolTip": "Eos ullam nisi aut.",
-    "Deleted": false,
-    "Rank": 307,
-    "Type": "optio",
+    "Id": 792,
+    "Name": "Kulas, Larkin and Lubowitz",
+    "ToolTip": "Perferendis voluptatem iste.",
+    "Deleted": true,
+    "Rank": 910,
+    "Type": "repellat",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Parisian-Bogan",
-        "ToolTip": "Excepturi eligendi non.",
-        "Deleted": true,
-        "Rank": 738,
-        "Type": "impedit",
+        "Id": 299,
+        "Name": "Bahringer, Oberbrunner and Prohaska",
+        "ToolTip": "Dicta nobis repudiandae ut in id.",
+        "Deleted": false,
+        "Rank": 497,
+        "Type": "debitis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 640,
-        "ExtraInfo": "similique",
-        "StyleHint": "quia",
-        "FullName": "Prof. Lacy Bo Fadel",
+        "IconHint": "tenetur",
+        "ColorBlock": 929,
+        "ExtraInfo": "commodi",
+        "StyleHint": "accusamus",
+        "FullName": "Filiberto Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldType": "System.String",
+            "FieldLength": 924
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 930,
-    "ExtraInfo": "aut",
-    "StyleHint": "alias",
-    "FullName": "Anais Reynolds",
+    "IconHint": "cum",
+    "ColorBlock": 839,
+    "ExtraInfo": "sint",
+    "StyleHint": "aut",
+    "FullName": "Dante Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 705
       }
     }
   }

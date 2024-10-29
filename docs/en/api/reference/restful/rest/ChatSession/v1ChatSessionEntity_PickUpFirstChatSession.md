@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 112,
-  "TopicId": 623,
+  "ChatSessionId": 325,
+  "TopicId": 369,
   "User": null,
   "Person": null,
-  "CustomerAlias": "excepturi",
-  "CustomerHost": "quo",
-  "CustomerName": "Miller-Swift",
-  "CustomerEmail": "cristian@cronin.uk",
-  "CustomerPhone": "768-316-5127",
+  "CustomerAlias": "dolores",
+  "CustomerHost": "et",
+  "CustomerName": "Hilll, Kreiger and Lakin",
+  "CustomerEmail": "burdette@gulgowski.co.uk",
+  "CustomerPhone": "1-960-845-2257 x354",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schmitt Inc and Sons",
+  "CustomerCompanyName": "Ernser LLC",
   "Status": "Closed",
-  "FirstMessage": "odio",
-  "LastMessage": "repudiandae",
-  "WhenRequested": "2024-05-23T03:44:57.0777633+02:00",
-  "WhenStarted": "2007-10-18T03:44:57.0777633+02:00",
-  "WhenEnded": "1999-11-22T03:44:57.0777633+01:00",
-  "WhenIdle": "2013-10-04T03:44:57.0777633+02:00",
-  "WhenFetched": "2004-11-22T03:44:57.0777633+01:00",
-  "SessionKey": "recusandae",
-  "InitialQueuePos": 87,
-  "AlertLevel": 438,
-  "Rank": 387,
+  "FirstMessage": "sed",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2017-03-27T13:14:10.6797802+02:00",
+  "WhenStarted": "2004-12-19T13:14:10.6797802+01:00",
+  "WhenEnded": "2010-08-09T13:14:10.6797802+02:00",
+  "WhenIdle": "2021-02-20T13:14:10.6797802+01:00",
+  "WhenFetched": "2008-01-29T13:14:10.6797802+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 969,
+  "AlertLevel": 647,
+  "Rank": 539,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 824,
+  "Rating": 361,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 399
     }
   }
 }

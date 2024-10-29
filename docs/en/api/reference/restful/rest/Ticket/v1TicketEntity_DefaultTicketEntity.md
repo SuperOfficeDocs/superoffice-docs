@@ -114,7 +114,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 548,
+  "TicketId": 381,
   "Title": "et",
-  "CreatedAt": "2023-12-28T03:44:57.5937539+01:00",
-  "LastChanged": "2020-10-19T03:44:57.5937539+02:00",
-  "ReadByOwner": "2005-08-02T03:44:57.5937539+02:00",
-  "ReadByCustomer": "2017-05-07T03:44:57.5937539+02:00",
-  "FirstReadByOwner": "1999-06-06T03:44:57.5937539+02:00",
-  "FirstReadByUser": "2023-09-17T03:44:57.5937539+02:00",
-  "Activate": "2004-08-19T03:44:57.5937539+02:00",
-  "ClosedAt": "2006-06-04T03:44:57.5937539+02:00",
-  "RepliedAt": "2018-04-03T03:44:57.5937539+02:00",
-  "AlertTimeout": "2017-10-28T03:44:57.5937539+02:00",
-  "Deadline": "2008-07-15T03:44:57.5937539+02:00",
+  "CreatedAt": "2015-11-30T13:14:11.1173007+01:00",
+  "LastChanged": "2013-06-15T13:14:11.1173007+02:00",
+  "ReadByOwner": "2015-07-18T13:14:11.1173007+02:00",
+  "ReadByCustomer": "2012-04-16T13:14:11.1173007+02:00",
+  "FirstReadByOwner": "2014-04-18T13:14:11.1173007+02:00",
+  "FirstReadByUser": "2023-09-16T13:14:11.1173007+02:00",
+  "Activate": "2010-08-30T13:14:11.1173007+02:00",
+  "ClosedAt": "2001-08-05T13:14:11.1173007+02:00",
+  "RepliedAt": "2009-09-03T13:14:11.1173007+02:00",
+  "AlertTimeout": "2022-11-02T13:14:11.1173007+01:00",
+  "Deadline": "2023-09-01T13:14:11.1173007+02:00",
   "CreatedBy": null,
-  "Author": "at",
+  "Author": "qui",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,162 +149,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "non",
-      "PersonId": 234,
-      "Mrmrs": "quis",
-      "Firstname": "Barton",
-      "Lastname": "Larson",
-      "MiddleName": "Adams, Rohan and Koepp",
-      "Title": "corrupti",
-      "Description": "Multi-channelled 6th generation functionalities",
-      "Email": "kristoffer@olson.info",
-      "FullName": "Hank Dare",
-      "DirectPhone": "(946)663-4391",
-      "FormalName": "Doyle-Paucek",
-      "CountryId": 721,
-      "ContactId": 594,
-      "ContactName": "Schroeder LLC",
-      "Retired": 554,
-      "Rank": 639,
-      "ActiveInterests": 139,
+      "Position": "eum",
+      "PersonId": 645,
+      "Mrmrs": "consequatur",
+      "Firstname": "Joseph",
+      "Lastname": "Vandervort",
+      "MiddleName": "Heathcote, O'Conner and Gulgowski",
+      "Title": "earum",
+      "Description": "Intuitive value-added solution",
+      "Email": "deja@wehnerheller.com",
+      "FullName": "Leilani Rempel",
+      "DirectPhone": "(879)779-8554 x15432",
+      "FormalName": "Abbott Group",
+      "CountryId": 163,
+      "ContactId": 765,
+      "ContactName": "Runte-Turcotte",
+      "Retired": 884,
+      "Rank": 764,
+      "ActiveInterests": 825,
       "ContactDepartment": "",
-      "ContactCountryId": 934,
-      "ContactOrgNr": "1266206",
-      "FaxPhone": "1-368-733-6332",
-      "MobilePhone": "1-270-582-1440 x529",
-      "ContactPhone": "(087)772-3974 x30777",
-      "AssociateName": "Howell, Mohr and Cassin",
-      "AssociateId": 435,
+      "ContactCountryId": 478,
+      "ContactOrgNr": "1148443",
+      "FaxPhone": "085-022-5227 x588",
+      "MobilePhone": "(581)380-4623 x2494",
+      "ContactPhone": "1-612-614-5395",
+      "AssociateName": "Bartoletti Group",
+      "AssociateId": 487,
       "UsePersonAddress": false,
-      "ContactFax": "facere",
-      "Kanafname": "corrupti",
-      "Kanalname": "labore",
-      "Post1": "nihil",
-      "Post2": "ab",
-      "Post3": "maxime",
-      "EmailName": "violette@marvin.co.uk",
-      "ContactFullName": "Ross Luettgen",
-      "ActiveErpLinks": 926,
-      "TicketPriorityId": 938,
-      "SupportLanguageId": 586,
-      "SupportAssociateId": 884,
+      "ContactFax": "et",
+      "Kanafname": "iusto",
+      "Kanalname": "vel",
+      "Post1": "necessitatibus",
+      "Post2": "nostrum",
+      "Post3": "officia",
+      "EmailName": "bonita_howe@torpgaylord.ca",
+      "ContactFullName": "Kevin Olson",
+      "ActiveErpLinks": 169,
+      "TicketPriorityId": 778,
+      "SupportLanguageId": 88,
+      "SupportAssociateId": 808,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldLength": 327
         }
       }
     }
   ],
-  "AlertLevel": 278,
-  "ConnectId": 49,
+  "AlertLevel": 326,
+  "ConnectId": 711,
   "ReadStatus": "Green",
-  "TimeToReply": 112,
-  "RealTimeToReply": 399,
-  "TimeToClose": 571,
-  "RealTimeToClose": 992,
-  "TimeSpentInternally": 411,
-  "TimeSpentExternally": 520,
-  "TimeSpentQueue": 419,
-  "RealTimeSpentInternally": 438,
-  "RealTimeSpentExternally": 672,
-  "RealTimeSpentQueue": 116,
-  "TimeSpent": 924,
+  "TimeToReply": 719,
+  "RealTimeToReply": 526,
+  "TimeToClose": 359,
+  "RealTimeToClose": 583,
+  "TimeSpentInternally": 579,
+  "TimeSpentExternally": 431,
+  "TimeSpentQueue": 144,
+  "RealTimeSpentInternally": 761,
+  "RealTimeSpentExternally": 177,
+  "RealTimeSpentQueue": 26,
+  "TimeSpent": 440,
   "HasAttachment": false,
-  "NumReplies": 918,
-  "NumMessages": 220,
-  "FromAddress": "a",
+  "NumReplies": 766,
+  "NumMessages": 578,
+  "FromAddress": "omnis",
   "Messages": [
     {
-      "TicketMessageId": 398,
-      "CreatedAt": "2019-06-27T03:44:57.6093769+02:00",
+      "TicketMessageId": 355,
+      "CreatedAt": "2000-03-02T13:14:11.1173007+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "ea",
-      "PersonId": 336,
-      "PersonFullName": "Dallas Olson",
-      "ContactId": 531,
-      "ContactName": "Lakin-Okuneva",
-      "ContactDepartment": "benchmark synergistic users",
-      "NumAttachments": 855,
-      "EmailHeader": "tre@dubuque.ca",
+      "Important": false,
+      "Author": "rem",
+      "PersonId": 84,
+      "PersonFullName": "Dr. Audreanne Nolan",
+      "ContactId": 617,
+      "ContactName": "Williamson Inc and Sons",
+      "ContactDepartment": "",
+      "NumAttachments": 601,
+      "EmailHeader": "jana.klocko@eichmann.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "laboriosam",
-      "Sentiment": 532,
-      "SentimentConfidence": 597,
-      "CreatedBy": 548,
-      "ChangedAt": "1998-10-26T03:44:57.6093769+01:00",
+      "Language": "qui",
+      "Sentiment": 465,
+      "SentimentConfidence": 657,
+      "CreatedBy": 496,
+      "ChangedAt": "2013-07-20T13:14:11.1173007+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldLength": 370
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 610,
-      "Name": "Doyle-Zulauf",
-      "ToolTip": "Sunt nisi voluptatem nulla autem non necessitatibus.",
+      "Id": 239,
+      "Name": "Wolff, Hoeger and Hickle",
+      "ToolTip": "Sit ducimus sequi omnis consequatur ullam aspernatur esse.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldType": "System.String",
+          "FieldLength": 398
         }
       }
     },
     {
-      "Id": 610,
-      "Name": "Doyle-Zulauf",
-      "ToolTip": "Sunt nisi voluptatem nulla autem non necessitatibus.",
+      "Id": 239,
+      "Name": "Wolff, Hoeger and Hickle",
+      "ToolTip": "Sit ducimus sequi omnis consequatur ullam aspernatur esse.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldType": "System.String",
+          "FieldLength": 398
         }
       }
     }
   ],
-  "Language": "reprehenderit",
-  "Sentiment": 734,
-  "SentimentConfidence": 240,
-  "SuggestedCategoryId": 597,
+  "Language": "eos",
+  "Sentiment": 544,
+  "SentimentConfidence": 930,
+  "SuggestedCategoryId": 538,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 269,
-  "IconHint": "beatae",
+  "OrigHumanCategoryId": 394,
+  "IconHint": "eos",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 560,
+  "ActiveStatusMonitorId": 262,
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "numquam",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "illo",
+    "CustomFields2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 840
     }
   }
 }

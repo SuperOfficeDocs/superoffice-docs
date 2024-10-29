@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=quam
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=illum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Sporer, Ledner and Dach",
-    "ToolTip": "Ut dolores.",
-    "Deleted": true,
-    "Rank": 352,
-    "Type": "blanditiis",
+    "Id": 784,
+    "Name": "Huel LLC",
+    "ToolTip": "Iusto aut autem voluptas in iusto placeat aut.",
+    "Deleted": false,
+    "Rank": 847,
+    "Type": "ipsa",
     "ChildItems": [
       {
-        "Id": 175,
-        "Name": "Rempel LLC",
-        "ToolTip": "Inventore porro.",
-        "Deleted": true,
-        "Rank": 194,
-        "Type": "fugit",
+        "Id": 172,
+        "Name": "Gleason, Klocko and Kuhic",
+        "ToolTip": "Iusto dolores rerum eum.",
+        "Deleted": false,
+        "Rank": 492,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 718,
-        "ExtraInfo": "distinctio",
-        "StyleHint": "ut",
-        "FullName": "Adelbert McLaughlin",
+        "IconHint": "eum",
+        "ColorBlock": 742,
+        "ExtraInfo": "aut",
+        "StyleHint": "molestiae",
+        "FullName": "Mr. Timmothy Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 462
+            "FieldType": "System.Int32",
+            "FieldLength": 494
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 362,
-    "ExtraInfo": "aut",
-    "StyleHint": "minus",
-    "FullName": "Elisabeth Eichmann",
+    "IconHint": "quo",
+    "ColorBlock": 91,
+    "ExtraInfo": "officia",
+    "StyleHint": "sunt",
+    "FullName": "Wilfredo Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 551
       }
     }
   }

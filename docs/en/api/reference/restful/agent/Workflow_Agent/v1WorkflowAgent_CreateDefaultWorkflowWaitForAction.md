@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 798,
-  "WorkflowStepId": 664,
-  "WorkflowId": 885,
-  "Rank": 545,
+  "WorkflowWaitForActionId": 573,
+  "WorkflowStepId": 483,
+  "WorkflowId": 381,
+  "Rank": 317,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Runolfsson LLC",
-      "Description": "Virtual reciprocal moderator",
-      "Rank": 443,
+      "Name": "Ruecker Inc and Sons",
+      "Description": "Mandatory contextually-based portal",
+      "Rank": 412,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Runolfsson LLC",
-      "Description": "Virtual reciprocal moderator",
-      "Rank": 443,
+      "Name": "Ruecker Inc and Sons",
+      "Description": "Mandatory contextually-based portal",
+      "Rank": 412,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 775
     }
   }
 }

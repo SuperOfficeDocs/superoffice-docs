@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Aufderhar Group",
-  "ModuleName": "Predovic, Reilly and Kuvalis",
-  "ModuleDescription": "Enterprise-wide mobile complexity",
-  "ModuleTooltip": "veniam",
-  "ModuleVersion": "non",
+  "OwnerName": "Wehner, Keeling and Mraz",
+  "ModuleName": "Mills-Fisher",
+  "ModuleDescription": "Synchronised context-sensitive Graphical User Interface",
+  "ModuleTooltip": "impedit",
+  "ModuleVersion": "accusamus",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 535,
-  "ExtraFlags": 402,
-  "ExtraInfo": "qui",
-  "SortOrder": 523,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Johnston-Morissette",
-  "Signature": "a"
+  "NumberOfLicenses": 494,
+  "ExtraFlags": 419,
+  "ExtraInfo": "ullam",
+  "SortOrder": 249,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Leffler Inc and Sons",
+  "Signature": "sit"
 }
 ```

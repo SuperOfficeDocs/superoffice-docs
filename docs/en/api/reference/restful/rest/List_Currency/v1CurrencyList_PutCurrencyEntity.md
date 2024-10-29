@@ -86,12 +86,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 120,
-  "Name": "Bosco-Dare",
-  "Tooltip": "eius",
-  "Rank": 289,
-  "Rate": 9210.826,
-  "Units": 711.418,
+  "CurrencyId": 247,
+  "Name": "Renner-Koch",
+  "Tooltip": "molestiae",
+  "Rank": 824,
+  "Rate": 13068.779999999999,
+  "Units": 27237.593999999997,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 279,
-  "Name": "Roberts Inc and Sons",
-  "Tooltip": "explicabo",
-  "Rank": 111,
-  "Rate": 29005.17,
-  "Units": 26341.27,
+  "CurrencyId": 698,
+  "Name": "Gusikowski Group",
+  "Tooltip": "sit",
+  "Rank": 143,
+  "Rate": 6932.4079999999994,
+  "Units": 8822.21,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 30
     }
   }
 }

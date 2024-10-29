@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    691,
-    976
+    104,
+    506
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 878,
-    "UniqueId": "voluptas",
-    "Name": "Zulauf, Carter and Roberts",
-    "Description": "Down-sized dynamic concept",
-    "AssociateId": 311,
-    "Columns": 594,
+    "DashboardId": 665,
+    "UniqueId": "recusandae",
+    "Name": "Walsh LLC",
+    "Description": "Synergized well-modulated pricing structure",
+    "AssociateId": 512,
+    "Columns": 481,
     "Theme": null,
-    "VisibleForAll": 801,
+    "VisibleForAll": 881,
     "VisibleForAssociates": [
-      988,
-      66
+      224,
+      902
     ],
     "VisibleForGroups": [
-      143,
-      685
+      750,
+      666
     ],
-    "PinForAll": 68,
+    "PinForAll": 900,
     "PinForAssociates": [
-      292,
-      119
+      736,
+      656
     ],
     "PinForGroups": [
-      911,
-      174
+      211,
+      225
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 818
       }
     }
   }

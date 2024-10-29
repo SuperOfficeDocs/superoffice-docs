@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 372,
-    "Name": "Hirthe LLC",
-    "OrgNr": "1306473",
-    "Department": "engage sticky architectures",
+    "ContactId": 545,
+    "Name": "Prosacco Inc and Sons",
+    "OrgNr": "1220320",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "id",
-    "DirectPhone": "145.524.3239 x38589",
-    "AssociateId": 531,
-    "CountryId": 516,
-    "EmailAddress": "maurice@gerlachhauck.info",
-    "Kananame": "consequatur",
-    "EmailAddressName": "cindy.ratke@bartellnolan.ca",
+    "City": "dolorum",
+    "DirectPhone": "275-287-4611 x33380",
+    "AssociateId": 22,
+    "CountryId": 561,
+    "EmailAddress": "marley@jacobi.biz",
+    "Kananame": "quo",
+    "EmailAddressName": "bo@klocko.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Santina Kautzer",
+    "AssociateFullName": "Dejuan McKenzie",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "accusamus",
-    "FullName": "Gabe Howell",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 426,
-    "Number1": "1003126",
-    "Number2": "1002082",
+    "FormattedAddress": "sint",
+    "FullName": "Matilda Kuhlman",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 517,
+    "Number1": "704768",
+    "Number2": "1689748",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 900
       }
     }
   }

@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 661,
+  "Id": 510,
   "IncludeAttachments": false
 }
 ```
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 527,
-      "ContactName": "Pouros Inc and Sons",
-      "PersonId": 386,
-      "PersonName": "Eichmann-Mante",
-      "AssociateId": 239,
-      "Address": "odio",
-      "EmailId": 809,
+      "ContactId": 831,
+      "ContactName": "Roberts-Gleason",
+      "PersonId": 836,
+      "PersonName": "Kihn, Balistreri and Von",
+      "AssociateId": 909,
+      "Address": "at",
+      "EmailId": 212,
       "DuplicatePersonIds": [
-        257,
-        780
+        999,
+        83
       ],
-      "Name": "Beier-Reinger",
+      "Name": "Monahan, Muller and Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 207
+          "FieldType": "System.String",
+          "FieldLength": 300
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 481,
-      "ContactName": "Crist Group",
-      "PersonId": 973,
-      "PersonName": "Medhurst-Stokes",
-      "AssociateId": 619,
-      "Address": "qui",
-      "EmailId": 747,
+      "ContactId": 332,
+      "ContactName": "O'Keefe LLC",
+      "PersonId": 408,
+      "PersonName": "Prosacco, Bosco and Jewess",
+      "AssociateId": 172,
+      "Address": "architecto",
+      "EmailId": 636,
       "DuplicatePersonIds": [
-        130,
-        113
+        771,
+        731
       ],
-      "Name": "Sauer, Predovic and Luettgen",
+      "Name": "Deckow, Stokes and Erdman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldLength": 358
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 528,
-      "ContactName": "Quigley LLC",
-      "PersonId": 750,
-      "PersonName": "Daniel-Sipes",
-      "AssociateId": 473,
+      "ContactId": 131,
+      "ContactName": "Waelchi-Mohr",
+      "PersonId": 174,
+      "PersonName": "Mitchell Inc and Sons",
+      "AssociateId": 852,
       "Address": "et",
-      "EmailId": 650,
+      "EmailId": 299,
       "DuplicatePersonIds": [
-        890,
-        580
+        622,
+        846
       ],
-      "Name": "Smith LLC",
+      "Name": "Kohler-Johns",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldType": "System.String",
+          "FieldLength": 964
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "eos",
+  "Subject": "sed",
+  "HTMLBody": "nostrum",
   "From": null,
-  "Sent": "2017-01-29T03:44:52.6052418+01:00",
-  "Size": 706,
+  "Sent": "2014-08-17T13:14:06.0070379+02:00",
+  "Size": 222,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sapiente",
-  "PlainBody": "alias",
+  "MessageID": "dolore",
+  "PlainBody": "veniam",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 963,
+  "ServerId": 865,
   "Attachments": [
     {
-      "Description": "Phased system-worthy hub",
-      "Filename": "eveniet",
-      "Size": 394,
-      "Type": "explicabo",
-      "Encoding": "debitis",
-      "Id": "sed",
-      "Disposition": "dolorem",
+      "Description": "Face to face next generation array",
+      "Filename": "tenetur",
+      "Size": 466,
+      "Type": "ipsam",
+      "Encoding": "maxime",
+      "Id": "inventore",
+      "Disposition": "aut",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 520
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Smitham-Hackett",
+      "Name": "Ferry Group",
       "Values": [
-        "autem",
-        "quasi"
+        "totam",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldType": "System.String",
+          "FieldLength": 82
         }
       }
     },
     {
-      "Name": "Smitham-Hackett",
+      "Name": "Ferry Group",
       "Values": [
-        "autem",
-        "quasi"
+        "totam",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldType": "System.String",
+          "FieldLength": 82
         }
       }
     }
   ],
-  "FolderName": "Buckridge Inc and Sons",
-  "EmailItemId": 846,
-  "AccountId": 19,
-  "ReceivedAt": "2020-02-18T03:44:52.6052418+01:00",
+  "FolderName": "McGlynn, Kertzmann and Keeling",
+  "EmailItemId": 520,
+  "AccountId": 141,
+  "ReceivedAt": "2007-11-03T13:14:06.0070379+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1997-12-04T03:44:52.6052418+01:00",
+  "RepliedAt": "2009-04-13T13:14:06.0070379+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 631
+      "FieldLength": 211
     }
   }
 }

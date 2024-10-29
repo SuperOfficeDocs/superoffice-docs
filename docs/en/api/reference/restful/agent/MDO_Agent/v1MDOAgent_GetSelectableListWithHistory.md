@@ -95,14 +95,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Senger Inc and Sons",
+  "Name": "Jaskolski-Kirlin",
   "ForceFlatList": false,
   "AdditionalInfo": "qui",
   "HistoryItems": [
-    961,
-    130
+    259,
+    835
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Kilback-Watsica",
-    "ToolTip": "Voluptatibus voluptatem.",
-    "Deleted": true,
-    "Rank": 158,
-    "Type": "quisquam",
-    "ColorBlock": 788,
-    "IconHint": "vitae",
+    "Id": 247,
+    "Name": "Corwin-Kassulke",
+    "ToolTip": "Eum autem non ut.",
+    "Deleted": false,
+    "Rank": 10,
+    "Type": "tempore",
+    "ColorBlock": 860,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2001-06-28T03:44:52.7614393+02:00",
+    "LastChanged": "2022-06-22T13:14:06.1476714+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Borer Inc and Sons",
-        "ToolTip": "Et voluptatum.",
+        "Id": 497,
+        "Name": "Dooley-Reichel",
+        "ToolTip": "Doloremque ut aliquam.",
         "Deleted": false,
-        "Rank": 840,
-        "Type": "ipsum",
-        "ColorBlock": 950,
-        "IconHint": "distinctio",
+        "Rank": 493,
+        "Type": "quis",
+        "ColorBlock": 492,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-04-29T03:44:52.7614393+02:00",
+        "LastChanged": "2006-04-04T13:14:06.1476714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "itaque",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Mrs. Bradley Merritt Kassulke Jr.",
+        "FullName": "Dr. Lawson Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldType": "System.String",
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Destin Flatley",
+    "FullName": "Orval Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldType": "System.String",
+        "FieldLength": 784
       }
     }
   }

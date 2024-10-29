@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "nisi",
-  "PrefKey": "vitae",
+  "PrefSection": "omnis",
+  "PrefKey": "consequatur",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "itaque",
+  "RawValue": "blanditiis",
   "Specification": null,
-  "DisplayValue": "cupiditate",
-  "DisplayTooltip": "repellat",
+  "DisplayValue": "odio",
+  "DisplayTooltip": "cupiditate",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 785,
-  "PrefDescId": 926,
-  "TableName": "Schmitt Group",
-  "UserPreferenceId": 536,
+  "TargetId": 219,
+  "PrefDescId": 123,
+  "TableName": "Koepp Inc and Sons",
+  "UserPreferenceId": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 966
     }
   }
 }

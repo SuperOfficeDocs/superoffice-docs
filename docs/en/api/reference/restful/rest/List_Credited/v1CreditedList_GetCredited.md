@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 203,
-  "Name": "Dickinson-Kris",
-  "Tooltip": "in",
+  "Id": 211,
+  "Name": "Nikolaus, Oberbrunner and Lueilwitz",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "UdListDefinitionId": 692,
-  "Rank": 609,
+  "UdListDefinitionId": 436,
+  "Rank": 804,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 181
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

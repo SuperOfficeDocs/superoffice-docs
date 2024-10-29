@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 223,
-  "Name": "Murray, Hagenes and Bosco",
-  "Tooltip": "aut",
-  "Rank": 43,
+  "SaleTypeId": 788,
+  "Name": "Harber, Corwin and Bruen",
+  "Tooltip": "alias",
+  "Rank": 203,
   "DurationUnit": "Century",
-  "SaleDuration": 478,
-  "SaleTypeCatId": 880,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 687,
+  "SaleTypeCatId": 362,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 546,
-  "QuoteLinesTemplate": 433,
-  "ConfirmationLinesTemplate": 514,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 54,
-  "MinEarningPercent": 251,
-  "GroupQuoteLinesBy": 438,
-  "SortGroupLinesBy": 681,
+  "DefaultQuoteValidity": 1001,
+  "QuoteLinesTemplate": 580,
+  "ConfirmationLinesTemplate": 784,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 865,
+  "MinEarningPercent": 612,
+  "GroupQuoteLinesBy": 181,
+  "SortGroupLinesBy": 561,
   "Stages": [
     {
-      "Id": 131,
-      "Name": "Langworth LLC",
-      "ToolTip": "Dignissimos magni.",
-      "Deleted": true,
-      "Rank": 851,
-      "Type": "quaerat",
-      "ColorBlock": 715,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "1997-07-10T03:44:58.1562167+02:00",
+      "Id": 964,
+      "Name": "Hirthe LLC",
+      "ToolTip": "Perspiciatis quod sed dolores labore voluptates eum beatae.",
+      "Deleted": false,
+      "Rank": 464,
+      "Type": "natus",
+      "ColorBlock": 973,
+      "IconHint": "tempore",
+      "Selected": true,
+      "LastChanged": "2017-05-28T13:14:11.5392071+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "aliquam",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "eius",
       "Hidden": false,
-      "FullName": "Miss Kasandra Rogers D'Amore"
+      "FullName": "Alexys Trantow I"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 540,
-  "Name": "Paucek Inc and Sons",
-  "Tooltip": "ut",
-  "Rank": 332,
+  "SaleTypeId": 244,
+  "Name": "Hintz, Bergstrom and Maggio",
+  "Tooltip": "sunt",
+  "Rank": 94,
   "DurationUnit": "Century",
-  "SaleDuration": 127,
-  "SaleTypeCatId": 255,
+  "SaleDuration": 665,
+  "SaleTypeCatId": 395,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 763,
-  "QuoteLinesTemplate": 875,
-  "ConfirmationLinesTemplate": 818,
+  "DefaultQuoteValidity": 583,
+  "QuoteLinesTemplate": 277,
+  "ConfirmationLinesTemplate": 144,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 705,
-  "MinEarningPercent": 161,
-  "GroupQuoteLinesBy": 158,
-  "SortGroupLinesBy": 232,
+  "MaxDiscountPercent": 540,
+  "MinEarningPercent": 665,
+  "GroupQuoteLinesBy": 296,
+  "SortGroupLinesBy": 926,
   "Stages": [
     {
-      "Id": 364,
-      "Name": "Hamill, Kuhic and Rodriguez",
-      "ToolTip": "Rerum consectetur repellat.",
-      "Deleted": false,
-      "Rank": 870,
-      "Type": "quis",
-      "ColorBlock": 431,
-      "IconHint": "impedit",
+      "Id": 726,
+      "Name": "Murazik, Dicki and Muller",
+      "ToolTip": "Ut nam quaerat vero at aut.",
+      "Deleted": true,
+      "Rank": 420,
+      "Type": "aliquam",
+      "ColorBlock": 140,
+      "IconHint": "provident",
       "Selected": false,
-      "LastChanged": "1998-10-13T03:44:58.1562167+02:00",
+      "LastChanged": "2016-02-19T13:14:11.5392071+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "veniam",
+      "ExtraInfo": "ut",
+      "StyleHint": "quis",
       "Hidden": false,
-      "FullName": "Mauricio Runolfsdottir",
+      "FullName": "Lyla Buckridge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 541
+      "FieldType": "System.Int32",
+      "FieldLength": 48
     }
   }
 }

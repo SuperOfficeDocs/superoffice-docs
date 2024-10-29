@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Jast, Windler and Kozey",
-    "ToolTip": "Consequuntur dignissimos rerum maxime exercitationem voluptas.",
-    "Deleted": false,
-    "Rank": 83,
-    "Type": "occaecati",
-    "ColorBlock": 114,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2020-02-22T03:44:57.9374899+01:00",
+    "Id": 699,
+    "Name": "Jaskolski, Denesik and VonRueden",
+    "ToolTip": "Doloribus tempora voluptatum.",
+    "Deleted": true,
+    "Rank": 901,
+    "Type": "facere",
+    "ColorBlock": 997,
+    "IconHint": "ducimus",
+    "Selected": false,
+    "LastChanged": "2022-01-31T13:14:11.3516953+01:00",
     "ChildItems": [
       {
-        "Id": 599,
-        "Name": "Upton Group",
-        "ToolTip": "Doloribus aut voluptatem quaerat.",
-        "Deleted": false,
-        "Rank": 769,
-        "Type": "et",
-        "ColorBlock": 400,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2015-03-18T03:44:57.9374899+01:00",
+        "Id": 463,
+        "Name": "Bogisich-Wilkinson",
+        "ToolTip": "Quis facilis illo enim voluptatem consequatur ut molestias.",
+        "Deleted": true,
+        "Rank": 349,
+        "Type": "ad",
+        "ColorBlock": 861,
+        "IconHint": "debitis",
+        "Selected": false,
+        "LastChanged": "2020-08-23T13:14:11.3516953+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Reba Ernser",
+        "ExtraInfo": "et",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Estelle Moen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 706
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sit",
+    "ExtraInfo": "minima",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Miss Willy Terry DDS",
+    "FullName": "Henderson Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldType": "System.Int32",
+        "FieldLength": 914
       }
     }
   }

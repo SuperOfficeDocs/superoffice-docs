@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    48,
-    142
+    504,
+    91
   ],
-  "UpdateRepliedAt": true
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -122,79 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 177,
+  "EjMessageId": 271,
   "Ticket": null,
-  "CreatedAt": "2001-04-08T03:44:53.3560431+02:00",
+  "CreatedAt": "2022-03-09T13:14:06.6789534+01:00",
   "CreatedBy": null,
-  "Author": "nobis",
+  "Author": "quo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "enim",
-  "TimeSpent": 409,
-  "Body": "delectus",
-  "HtmlBody": "aut",
-  "EmailHeader": "rene_corkery@bauchbernhard.name",
-  "DebugInfo": "nulla",
-  "MailSorter": "illum",
+  "MessageId": "consequatur",
+  "TimeSpent": 21,
+  "Body": "ut",
+  "HtmlBody": "illum",
+  "EmailHeader": "ottis.kassulke@labadiesmitham.biz",
+  "DebugInfo": "voluptatem",
+  "MailSorter": "modi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consectetur",
+  "SearchTitle": "quae",
   "MessageHeaders": [
     {
-      "Id": 49,
-      "Name": "Gottlieb-Gibson",
-      "Value": "aut",
+      "Id": 634,
+      "Name": "Morissette Group",
+      "Value": "magnam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldType": "System.String",
+          "FieldLength": 1002
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "beatae",
-  "Sentiment": 32,
-  "SentimentConfidence": 692,
+  "Important": false,
+  "Language": "dolorem",
+  "Sentiment": 717,
+  "SentimentConfidence": 38,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 305,
-      "Name": "Langworth Group",
-      "ContentType": "magni",
-      "AttSize": 135,
-      "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "hic",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 668,
+      "Name": "Quitzon, Douglas and Walter",
+      "ContentType": "odit",
+      "AttSize": 629,
+      "InlineImage": true,
+      "ContentId": "quod",
+      "AuthKey": "ut",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 153
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "ad",
-    "CustomFields2": "enim"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "maiores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 939
     }
   }
 }

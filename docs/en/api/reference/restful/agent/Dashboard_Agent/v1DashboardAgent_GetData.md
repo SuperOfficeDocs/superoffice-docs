@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 567,
-  "Restrictions": "et"
+  "DashboardTileId": 727,
+  "Restrictions": "nesciunt"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Padberg, Klein and Kuphal",
-        "DisplayTooltip": "voluptatibus",
-        "DisplayType": "beatae",
+        "DisplayName": "Balistreri Group",
+        "DisplayTooltip": "magni",
+        "DisplayType": "voluptatum",
         "CanOrderBy": false,
-        "Name": "Keebler, Stanton and Heaney",
+        "Name": "Harris, Beer and Satterfield",
         "CanRestrictBy": true,
-        "RestrictionType": "autem",
-        "RestrictionListName": "Ryan-Farrell",
-        "IsVisible": false,
-        "ExtraInfo": "unde",
-        "Width": "assumenda",
-        "IconHint": "veritatis",
-        "HeadingIconHint": "qui"
+        "RestrictionType": "rem",
+        "RestrictionListName": "Fay Group",
+        "IsVisible": true,
+        "ExtraInfo": "non",
+        "Width": "aliquid",
+        "IconHint": "quis",
+        "HeadingIconHint": "totam"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Padberg, Klein and Kuphal",
-        "DisplayTooltip": "voluptatibus",
-        "DisplayType": "beatae",
+        "DisplayName": "Balistreri Group",
+        "DisplayTooltip": "magni",
+        "DisplayType": "voluptatum",
         "CanOrderBy": false,
-        "Name": "Keebler, Stanton and Heaney",
+        "Name": "Harris, Beer and Satterfield",
         "CanRestrictBy": true,
-        "RestrictionType": "autem",
-        "RestrictionListName": "Ryan-Farrell",
-        "IsVisible": false,
-        "ExtraInfo": "unde",
-        "Width": "assumenda",
-        "IconHint": "veritatis",
-        "HeadingIconHint": "qui"
+        "RestrictionType": "rem",
+        "RestrictionListName": "Fay Group",
+        "IsVisible": true,
+        "ExtraInfo": "non",
+        "Width": "aliquid",
+        "IconHint": "quis",
+        "HeadingIconHint": "totam"
       }
     ],
     "Result": null

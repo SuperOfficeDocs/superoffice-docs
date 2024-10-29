@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Spinka LLC",
-  "DeviceName": "Rosenbaum Inc and Sons",
-  "DeviceIdentifier": "soluta"
+  "ApplicationName": "Purdy-Ortiz",
+  "DeviceName": "Konopelski-Schmitt",
+  "DeviceIdentifier": "nam"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolores",
-    "Value": "dignissimos",
-    "RecordId": 908,
-    "CreatedDate": "2023-04-10T03:44:52.6521119+02:00",
-    "UpdatedDate": "2009-07-10T03:44:52.6521119+02:00",
-    "UpdatedBy": "id",
-    "CreatedBy": "modi",
-    "TableName": "Morar LLC",
+    "Key": "deserunt",
+    "Value": "incidunt",
+    "RecordId": 638,
+    "CreatedDate": "2018-09-01T13:14:06.0382898+02:00",
+    "UpdatedDate": "2010-11-06T13:14:06.0382898+01:00",
+    "UpdatedBy": "ut",
+    "CreatedBy": "distinctio",
+    "TableName": "Schowalter, Sipes and Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 6
+        "FieldType": "System.Int32",
+        "FieldLength": 661
       }
     }
   }

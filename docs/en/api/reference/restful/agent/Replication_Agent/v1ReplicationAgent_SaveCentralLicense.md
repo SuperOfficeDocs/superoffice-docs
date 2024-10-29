@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Marks LLC",
-      "Description": "Cross-group next generation website",
+      "Name": "Leuschke-Beahan",
+      "Description": "Digitized empowering neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Marks LLC",
-      "Description": "Cross-group next generation website",
+      "Name": "Leuschke-Beahan",
+      "Description": "Digitized empowering neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Smitham Group",
-    "Description": "Intuitive client-server emulation",
+    "Name": "Grimes Inc and Sons",
+    "Description": "Operative responsive website",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 15,
-        "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 336,
-        "InUse": 327,
+        "Unrestricted": true,
+        "Total": 7,
+        "Tooltip": "nam",
+        "CanAssign": true,
+        "Free": 230,
+        "InUse": 800,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 497,
-        "Name": "Carroll, Romaguera and Beahan",
-        "Description": "Focused systemic product",
-        "PrerequisiteModuleName": "Orn-Morar",
-        "SortOrder": 613,
-        "ExtraFlags": 115,
+        "ModuleLicenseId": 890,
+        "Name": "Cruickshank Inc and Sons",
+        "Description": "Team-oriented mobile info-mediaries",
+        "PrerequisiteModuleName": "Zieme Group",
+        "SortOrder": 240,
+        "ExtraFlags": 898,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 772
+            "FieldType": "System.Int32",
+            "FieldLength": 178
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 496,
-        "Tooltip": "a",
-        "CanAssign": false,
-        "Free": 567,
-        "InUse": 310,
+        "Unrestricted": true,
+        "Total": 276,
+        "Tooltip": "praesentium",
+        "CanAssign": true,
+        "Free": 371,
+        "InUse": 600,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 437,
-        "Name": "Kris, Johns and Blanda",
-        "Description": "Upgradable user-facing encoding",
-        "PrerequisiteModuleName": "Nader Group",
-        "SortOrder": 73,
-        "ExtraFlags": 125,
+        "Assigned": true,
+        "ModuleLicenseId": 637,
+        "Name": "Welch-Rogahn",
+        "Description": "Focused coherent extranet",
+        "PrerequisiteModuleName": "Russel-Koss",
+        "SortOrder": 357,
+        "ExtraFlags": 51,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 237
+            "FieldType": "System.Int32",
+            "FieldLength": 286
           }
         }
       }
@@ -177,62 +177,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldType": "System.Int32",
+        "FieldLength": 660
       }
     }
   },
   {
-    "Name": "Smitham Group",
-    "Description": "Intuitive client-server emulation",
+    "Name": "Grimes Inc and Sons",
+    "Description": "Operative responsive website",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 15,
-        "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 336,
-        "InUse": 327,
+        "Unrestricted": true,
+        "Total": 7,
+        "Tooltip": "nam",
+        "CanAssign": true,
+        "Free": 230,
+        "InUse": 800,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 497,
-        "Name": "Carroll, Romaguera and Beahan",
-        "Description": "Focused systemic product",
-        "PrerequisiteModuleName": "Orn-Morar",
-        "SortOrder": 613,
-        "ExtraFlags": 115,
+        "ModuleLicenseId": 890,
+        "Name": "Cruickshank Inc and Sons",
+        "Description": "Team-oriented mobile info-mediaries",
+        "PrerequisiteModuleName": "Zieme Group",
+        "SortOrder": 240,
+        "ExtraFlags": 898,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 772
+            "FieldType": "System.Int32",
+            "FieldLength": 178
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 496,
-        "Tooltip": "a",
-        "CanAssign": false,
-        "Free": 567,
-        "InUse": 310,
+        "Unrestricted": true,
+        "Total": 276,
+        "Tooltip": "praesentium",
+        "CanAssign": true,
+        "Free": 371,
+        "InUse": 600,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 437,
-        "Name": "Kris, Johns and Blanda",
-        "Description": "Upgradable user-facing encoding",
-        "PrerequisiteModuleName": "Nader Group",
-        "SortOrder": 73,
-        "ExtraFlags": 125,
+        "Assigned": true,
+        "ModuleLicenseId": 637,
+        "Name": "Welch-Rogahn",
+        "Description": "Focused coherent extranet",
+        "PrerequisiteModuleName": "Russel-Koss",
+        "SortOrder": 357,
+        "ExtraFlags": 51,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 237
+            "FieldType": "System.Int32",
+            "FieldLength": 286
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldType": "System.Int32",
+        "FieldLength": 660
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Sporer LLC",
-    "ToolTip": "Ullam assumenda nesciunt sint tempora et voluptas.",
+    "Id": 57,
+    "Name": "Jenkins LLC",
+    "ToolTip": "Provident iure ipsam voluptatem.",
     "Deleted": false,
-    "Rank": 484,
-    "Type": "numquam",
-    "ColorBlock": 343,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2001-09-02T03:44:57.9687368+02:00",
+    "Rank": 605,
+    "Type": "rem",
+    "ColorBlock": 472,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "1998-11-15T13:14:11.3673211+01:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Hills Group",
-        "ToolTip": "Voluptatem nesciunt officiis tempora.",
+        "Id": 356,
+        "Name": "Bahringer, Cremin and Ullrich",
+        "ToolTip": "Voluptas quasi odit veniam fuga architecto deserunt et.",
         "Deleted": false,
-        "Rank": 426,
-        "Type": "incidunt",
-        "ColorBlock": 274,
-        "IconHint": "voluptatibus",
+        "Rank": 927,
+        "Type": "dolores",
+        "ColorBlock": 269,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "1998-09-24T03:44:57.9687368+02:00",
+        "LastChanged": "2015-04-04T13:14:11.3673211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "exercitationem",
-        "Hidden": false,
-        "FullName": "Jose Zander Bogan MD"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "rem",
+        "Hidden": true,
+        "FullName": "Miller McCullough"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "quae",
-    "Hidden": true,
-    "FullName": "Dr. Thurman Alexandria Dietrich Sr."
+    "ExtraInfo": "quia",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Tanner Tressa Moore Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Eichmann, Casper and Sporer",
-    "ToolTip": "Voluptate voluptas sed.",
-    "Deleted": false,
-    "Rank": 508,
-    "Type": "iste",
-    "ColorBlock": 367,
-    "IconHint": "maxime",
-    "Selected": true,
-    "LastChanged": "2016-03-02T03:44:57.9687368+01:00",
+    "Id": 793,
+    "Name": "Goodwin-D'Amore",
+    "ToolTip": "Doloremque error perferendis quisquam tempora nobis et aliquid.",
+    "Deleted": true,
+    "Rank": 110,
+    "Type": "quis",
+    "ColorBlock": 754,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2016-12-23T13:14:11.3673211+01:00",
     "ChildItems": [
       {
-        "Id": 690,
-        "Name": "Abbott, Daugherty and Stracke",
-        "ToolTip": "Eum aut aut repudiandae consequatur voluptas qui.",
+        "Id": 494,
+        "Name": "Adams-Lesch",
+        "ToolTip": "Autem magnam et ut qui fugit ducimus.",
         "Deleted": true,
-        "Rank": 288,
-        "Type": "rerum",
-        "ColorBlock": 281,
-        "IconHint": "fuga",
+        "Rank": 427,
+        "Type": "incidunt",
+        "ColorBlock": 777,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2013-11-18T03:44:57.9687368+01:00",
+        "LastChanged": "2020-08-25T13:14:11.3673211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "nisi",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Cecilia Rolfson",
+        "FullName": "Savanah Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 529
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Adrain Armstrong",
+    "ExtraInfo": "error",
+    "StyleHint": "quod",
+    "Hidden": false,
+    "FullName": "Dr. Emely Waino Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 675
       }
     }
   }

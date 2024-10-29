@@ -105,14 +105,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 382,
+  "EmailId": 48,
   "AttachmentIds": [
-    "alias",
-    "repellat"
+    "similique",
+    "deleniti"
   ],
   "IncludeAttachments": true
 }
@@ -127,97 +127,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 99,
-      "ContactName": "Heidenreich-Skiles",
-      "PersonId": 733,
-      "PersonName": "Carter, Schroeder and Koss",
-      "AssociateId": 280,
-      "Address": "repellendus",
-      "EmailId": 25,
+      "ContactId": 498,
+      "ContactName": "Howe, Kiehn and Larson",
+      "PersonId": 823,
+      "PersonName": "Kuhlman-Fay",
+      "AssociateId": 145,
+      "Address": "autem",
+      "EmailId": 843,
       "DuplicatePersonIds": [
-        515,
-        64
+        813,
+        972
       ],
-      "Name": "Klocko-O'Keefe",
+      "Name": "Waelchi, O'Hara and Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 478,
-      "ContactName": "Considine-Berge",
-      "PersonId": 30,
-      "PersonName": "Roberts-Balistreri",
-      "AssociateId": 835,
-      "Address": "repellat",
-      "EmailId": 750,
+      "ContactId": 730,
+      "ContactName": "Little, Auer and Rohan",
+      "PersonId": 851,
+      "PersonName": "Dickens-Waelchi",
+      "AssociateId": 899,
+      "Address": "voluptatem",
+      "EmailId": 724,
       "DuplicatePersonIds": [
-        569,
-        98
+        234,
+        528
       ],
-      "Name": "Stark, Cole and Bode",
+      "Name": "Little-Ryan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 267
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 813,
-      "ContactName": "Cremin, Hane and Frami",
-      "PersonId": 243,
-      "PersonName": "Hickle, Crist and O'Connell",
-      "AssociateId": 134,
-      "Address": "optio",
-      "EmailId": 223,
+      "ContactId": 978,
+      "ContactName": "Jacobson, Lowe and Hahn",
+      "PersonId": 305,
+      "PersonName": "King, Becker and Metz",
+      "AssociateId": 695,
+      "Address": "iusto",
+      "EmailId": 265,
       "DuplicatePersonIds": [
-        709,
-        78
+        418,
+        93
       ],
-      "Name": "Zemlak, Trantow and Walsh",
+      "Name": "Thiel-Leannon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldType": "System.String",
+          "FieldLength": 491
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "qui",
+  "Subject": "autem",
+  "HTMLBody": "dolores",
   "From": null,
-  "Sent": "2015-04-24T03:44:52.5896202+02:00",
-  "Size": 29,
+  "Sent": "2008-12-04T13:14:05.991412+01:00",
+  "Size": 965,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "molestiae",
-  "PlainBody": "consequatur",
+  "MessageID": "ut",
+  "PlainBody": "alias",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 717,
+  "ServerId": 644,
   "Attachments": [
     {
-      "Description": "Focused non-volatile open architecture",
-      "Filename": "placeat",
-      "Size": 429,
-      "Type": "rerum",
-      "Encoding": "voluptatem",
-      "Id": "magnam",
-      "Disposition": "aperiam",
+      "Description": "Re-engineered bottom-line Graphic Interface",
+      "Filename": "alias",
+      "Size": 831,
+      "Type": "libero",
+      "Encoding": "beatae",
+      "Id": "sit",
+      "Disposition": "pariatur",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -225,50 +225,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldLength": 691
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kuphal LLC",
+      "Name": "Sporer-Huel",
       "Values": [
-        "qui",
-        "eum"
+        "eum",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     },
     {
-      "Name": "Kuphal LLC",
+      "Name": "Sporer-Huel",
       "Values": [
-        "qui",
-        "eum"
+        "eum",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     }
   ],
-  "FolderName": "Koepp, Senger and Dietrich",
-  "EmailItemId": 688,
-  "AccountId": 899,
-  "ReceivedAt": "2003-01-24T03:44:52.5896202+01:00",
+  "FolderName": "Stark-Gerlach",
+  "EmailItemId": 570,
+  "AccountId": 294,
+  "ReceivedAt": "2003-05-13T13:14:05.991412+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-06-17T03:44:52.5896202+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2023-01-28T13:14:05.991412+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 116
     }
   }
 }

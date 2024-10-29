@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 157,
-  "Name": "Hills-Herman",
-  "OrgNr": "942606",
+  "ContactId": 72,
+  "Name": "Lind Group",
+  "OrgNr": "1547902",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "repellat",
-  "DirectPhone": "1-200-171-2130 x2682",
-  "AssociateId": 106,
-  "CountryId": 703,
-  "EmailAddress": "everardo_raynor@zboncak.biz",
-  "Kananame": "ex",
-  "EmailAddressName": "christina.okeefe@brakus.ca",
+  "City": "deleniti",
+  "DirectPhone": "008-475-6476 x6600",
+  "AssociateId": 376,
+  "CountryId": 324,
+  "EmailAddress": "dagmar@heaney.biz",
+  "Kananame": "veniam",
+  "EmailAddressName": "russel@conn.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Jamir Kohler MD",
+  "AssociateFullName": "Ashlynn Heller",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "fuga",
-  "FullName": "Dr. Dayna Greenholt",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 362,
-  "Number1": "370247",
-  "Number2": "1512270",
+  "FormattedAddress": "reiciendis",
+  "FullName": "Mrs. Mekhi Gregoria Runte",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 529,
+  "Number1": "625362",
+  "Number2": "784896",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldLength": 831
     }
   }
 }

@@ -723,7 +723,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=person/personNumber,person/personUpdatedBy,person/correspondingAssociate/title,sale/visibleFor
+GET /api/v1/archive/FindAppointment?$select=appointmentId,person/correspondingAssociate/title,person/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

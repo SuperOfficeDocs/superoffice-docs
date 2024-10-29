@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Abshire, Thompson and Macejkovic",
-    "ToolTip": "Dignissimos velit eaque non eaque tempore architecto nihil.",
-    "Deleted": false,
-    "Rank": 627,
-    "Type": "aspernatur",
-    "ColorBlock": 735,
-    "IconHint": "perspiciatis",
+    "Id": 674,
+    "Name": "Lakin Group",
+    "ToolTip": "Repellat sed.",
+    "Deleted": true,
+    "Rank": 985,
+    "Type": "quia",
+    "ColorBlock": 979,
+    "IconHint": "occaecati",
     "Selected": true,
-    "LastChanged": "2020-11-18T03:44:58.1249703+01:00",
+    "LastChanged": "2018-06-29T13:14:11.5079552+02:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Lockman-Gusikowski",
-        "ToolTip": "Fuga dolorem possimus.",
+        "Id": 664,
+        "Name": "Legros, Roberts and Kilback",
+        "ToolTip": "Labore voluptatem ea quia assumenda dolor repellendus ad.",
         "Deleted": false,
-        "Rank": 764,
-        "Type": "temporibus",
-        "ColorBlock": 51,
-        "IconHint": "quis",
-        "Selected": false,
-        "LastChanged": "2004-03-09T03:44:58.1249703+01:00",
+        "Rank": 217,
+        "Type": "suscipit",
+        "ColorBlock": 776,
+        "IconHint": "pariatur",
+        "Selected": true,
+        "LastChanged": "2024-02-18T13:14:11.5079552+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "officiis",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Aidan Yundt IV",
+        "FullName": "Vance Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldType": "System.String",
+            "FieldLength": 85
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "nisi",
+    "ExtraInfo": "aut",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Prof. Gerry Kihn",
+    "FullName": "Amanda Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 361
       }
     }
   }

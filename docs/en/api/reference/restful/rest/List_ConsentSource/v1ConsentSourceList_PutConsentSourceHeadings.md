@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 162,
-    "Name": "Runolfsson Group",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 425,
-    "UdListDefinitionId": 183
+    "HeadingId": 466,
+    "Name": "Hirthe Inc and Sons",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 412,
+    "UdListDefinitionId": 413
   },
   {
-    "HeadingId": 162,
-    "Name": "Runolfsson Group",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 425,
-    "UdListDefinitionId": 183
+    "HeadingId": 466,
+    "Name": "Hirthe Inc and Sons",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 412,
+    "UdListDefinitionId": 413
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 68,
-    "Name": "Mann-Corwin",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 366,
-    "UdListDefinitionId": 695,
+    "HeadingId": 237,
+    "Name": "Langosh LLC",
+    "Tooltip": "recusandae",
+    "Deleted": false,
+    "Rank": 81,
+    "UdListDefinitionId": 61,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 449
       }
     }
   }

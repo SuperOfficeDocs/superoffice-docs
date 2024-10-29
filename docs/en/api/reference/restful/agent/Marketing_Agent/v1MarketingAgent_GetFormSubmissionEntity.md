@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=663
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=342
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 822,
-  "FormId": 19,
-  "WhenSubmitted": "2018-08-05T03:44:52.7458159+02:00",
-  "ContactId": 167,
-  "PersonId": 368,
-  "EmailAddress": "annamae@cormier.info",
-  "ResponseShipmentAddrId": 144,
-  "Response": "fuga",
+  "FormSubmissionId": 2,
+  "FormId": 807,
+  "WhenSubmitted": "2004-06-26T13:14:06.1320455+02:00",
+  "ContactId": 494,
+  "PersonId": 850,
+  "EmailAddress": "maribel.hane@rowe.us",
+  "ResponseShipmentAddrId": 167,
+  "Response": "qui",
   "Status": "EmailVerification",
-  "ProcessingLog": "ab",
+  "ProcessingLog": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Robel, Williamson and Kuhic",
-    "ToolTip": "Reiciendis officia eum aut doloribus rerum id.",
-    "Deleted": false,
-    "Rank": 291,
-    "Type": "ut",
-    "ColorBlock": 530,
-    "IconHint": "reiciendis",
+    "Id": 397,
+    "Name": "Aufderhar-Green",
+    "ToolTip": "Consequatur nam.",
+    "Deleted": true,
+    "Rank": 414,
+    "Type": "recusandae",
+    "ColorBlock": 398,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2011-07-11T03:44:57.8125425+02:00",
+    "LastChanged": "2004-09-17T13:14:11.3048179+02:00",
     "ChildItems": [
       {
-        "Id": 362,
-        "Name": "Hand Inc and Sons",
-        "ToolTip": "Id consequatur provident modi soluta architecto.",
+        "Id": 24,
+        "Name": "Lakin-Runolfsson",
+        "ToolTip": "Quis et accusantium praesentium eligendi aut id.",
         "Deleted": false,
-        "Rank": 6,
-        "Type": "odio",
-        "ColorBlock": 424,
-        "IconHint": "recusandae",
+        "Rank": 990,
+        "Type": "facilis",
+        "ColorBlock": 671,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-06-27T03:44:57.8125425+02:00",
+        "LastChanged": "1997-07-19T13:14:11.3048179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "quam",
-        "Hidden": true,
-        "FullName": "Dr. Jayce Blick Sr."
+        "ExtraInfo": "praesentium",
+        "StyleHint": "iure",
+        "Hidden": false,
+        "FullName": "Arnulfo Reinger"
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "sint",
+    "ExtraInfo": "debitis",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Jordan Harris"
+    "FullName": "Ms. Saige Helmer Johnson MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Heaney LLC",
-    "ToolTip": "Fugiat est.",
-    "Deleted": false,
-    "Rank": 574,
-    "Type": "architecto",
-    "ColorBlock": 800,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2023-01-01T03:44:57.8125425+01:00",
+    "Id": 768,
+    "Name": "Ortiz LLC",
+    "ToolTip": "Sit cupiditate illum quod id corrupti voluptatem et.",
+    "Deleted": true,
+    "Rank": 60,
+    "Type": "sunt",
+    "ColorBlock": 852,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2004-05-18T13:14:11.3048179+02:00",
     "ChildItems": [
       {
-        "Id": 953,
-        "Name": "Feeney-Turner",
-        "ToolTip": "Possimus quo consequatur nam consequatur laborum sequi commodi.",
+        "Id": 873,
+        "Name": "Hyatt, Runolfsdottir and Donnelly",
+        "ToolTip": "Dolorem accusantium porro et incidunt.",
         "Deleted": true,
-        "Rank": 871,
-        "Type": "optio",
-        "ColorBlock": 304,
-        "IconHint": "at",
+        "Rank": 19,
+        "Type": "omnis",
+        "ColorBlock": 922,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2006-11-30T03:44:57.8125425+01:00",
+        "LastChanged": "2020-04-09T13:14:11.3048179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Prof. Antonio Rolfson",
+        "FullName": "Kiel Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 74
+            "FieldType": "System.String",
+            "FieldLength": 515
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "neque",
+    "StyleHint": "veritatis",
     "Hidden": false,
-    "FullName": "Mr. Rene Mara Herzog DVM",
+    "FullName": "Mrs. Maeve Jaskolski IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldLength": 572
       }
     }
   }

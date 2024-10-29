@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=sed
+GET /api/v1/List/DocumentTemplate/MDOItems?query=earum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Pacocha-Trantow",
-    "ToolTip": "Numquam dolorum.",
-    "Deleted": true,
-    "Rank": 345,
-    "Type": "veniam",
+    "Id": 108,
+    "Name": "Cruickshank LLC",
+    "ToolTip": "Sint similique.",
+    "Deleted": false,
+    "Rank": 519,
+    "Type": "a",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Ward-Streich",
-        "ToolTip": "Quia omnis quod.",
+        "Id": 654,
+        "Name": "Mante-Ankunding",
+        "ToolTip": "Ut sint explicabo dignissimos laudantium nostrum.",
         "Deleted": false,
-        "Rank": 434,
-        "Type": "voluptatem",
+        "Rank": 152,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nostrum",
-        "ColorBlock": 614,
-        "ExtraInfo": "provident",
-        "StyleHint": "ipsam",
-        "FullName": "Dr. Aiden Diego Wuckert MD",
+        "IconHint": "odit",
+        "ColorBlock": 878,
+        "ExtraInfo": "et",
+        "StyleHint": "delectus",
+        "FullName": "Shad Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 95
+            "FieldLength": 509
           }
         }
       }
     ],
-    "IconHint": "eligendi",
-    "ColorBlock": 301,
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
-    "FullName": "Reyna Fadel",
+    "IconHint": "qui",
+    "ColorBlock": 76,
+    "ExtraInfo": "incidunt",
+    "StyleHint": "enim",
+    "FullName": "Mrs. Janie Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldLength": 573
       }
     }
   }

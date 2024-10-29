@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Hayes, Stark and Spinka",
-  "Tooltip": "aut",
+  "Id": 786,
+  "Name": "Jerde Inc and Sons",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 242,
+  "Rank": 394,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
+  "ListType": "tempora",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 160,
-  "Name": "Barton, Ruecker and O'Connell",
-  "Tooltip": "magni",
+  "Id": 834,
+  "Name": "Hansen LLC",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 990,
+  "Rank": 665,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consectetur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 625
     }
   }
 }

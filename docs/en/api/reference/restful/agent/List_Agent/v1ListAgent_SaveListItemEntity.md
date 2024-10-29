@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Champlin, Abernathy and Schiller",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 797,
-  "Rank": 372,
+  "Id": 213,
+  "Name": "Kub-Bauch",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "UdListDefinitionId": 261,
+  "Rank": 450,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

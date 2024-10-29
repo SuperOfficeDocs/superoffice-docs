@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 78
+  "QuoteVersionId": 519
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 358,
-    "ERPQuoteAlternativeKey": "dicta",
-    "QuoteVersionId": 386,
-    "Name": "Moore-Hirthe",
-    "Description": "Function-based incremental open system",
+    "QuoteAlternativeId": 876,
+    "ERPQuoteAlternativeKey": "aut",
+    "QuoteVersionId": 408,
+    "Name": "Fahey, Abernathy and Reilly",
+    "Description": "Mandatory zero defect knowledge base",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 6546.9259999999995,
-    "ERPDiscountAmount": 3973.912,
-    "DiscountPercent": 15970.864,
-    "DiscountAmount": 15992.802,
+    "ERPDiscountPercent": 14861.428,
+    "ERPDiscountAmount": 30290.11,
+    "DiscountPercent": 4447.146,
+    "DiscountAmount": 30747.674,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "nostrum",
-    "VAT": 16378.284,
-    "EarningPercent": 11326.276,
-    "EarningAmount": 2551.076,
-    "SubTotal": 7960.36,
-    "TotalPrice": 727.088,
-    "ExtraField1": "ab",
-    "ExtraField2": "vitae",
-    "ExtraField3": "dolore",
-    "ExtraField4": "illum",
-    "ExtraField5": "sed",
+    "VATInfo": "blanditiis",
+    "VAT": 27692.023999999998,
+    "EarningPercent": 30017.451999999997,
+    "EarningAmount": 4995.596,
+    "SubTotal": 27356.685999999998,
+    "TotalPrice": 8461.8,
+    "ExtraField1": "fuga",
+    "ExtraField2": "aspernatur",
+    "ExtraField3": "aut",
+    "ExtraField4": "delectus",
+    "ExtraField5": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldType": "System.Int32",
+        "FieldLength": 928
       }
     }
   }

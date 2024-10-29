@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 509,
-  "ERPProductKey": "assumenda",
-  "ERPPriceListKey": "omnis",
-  "Name": "Quigley-Larson",
-  "Description": "Balanced solution-oriented alliance",
-  "Code": "nobis",
-  "PriceUnit": "et",
-  "QuantityUnit": "a",
+  "ProductId": 764,
+  "ERPProductKey": "quas",
+  "ERPPriceListKey": "non",
+  "Name": "Jenkins, Cartwright and Ward",
+  "Description": "Programmable bottom-line protocol",
+  "Code": "voluptas",
+  "PriceUnit": "ab",
+  "QuantityUnit": "dolores",
   "IsSubscription": false,
-  "SubscriptionUnit": "eum",
-  "DefaultSubscriptionQuantity": 4697.866,
-  "ItemNumber": "1014419",
+  "SubscriptionUnit": "neque",
+  "DefaultSubscriptionQuantity": 11542.521999999999,
+  "ItemNumber": "917556",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quibusdam",
-  "ProductTypeKey": "et",
-  "VAT": 1704.896,
-  "VATInfo": "impedit",
-  "UnitCost": 3879.892,
-  "UnitMinimumPrice": 6167.7119999999995,
-  "UnitListPrice": 1034.22,
+  "ProductFamilyKey": "labore",
+  "ProductTypeKey": "laboriosam",
+  "VAT": 19891.498,
+  "VATInfo": "eum",
+  "UnitCost": 4929.782,
+  "UnitMinimumPrice": 20565.308,
+  "UnitListPrice": 22464.512,
   "InAssortment": false,
-  "Supplier": "expedita",
-  "SupplierCode": "labore",
-  "Rights": "dolores",
-  "Rule": "minima",
+  "Supplier": "mollitia",
+  "SupplierCode": "molestiae",
+  "Rights": "non",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Kris-Green",
-      "Value": "iusto",
+      "Name": "McKenzie, Hansen and Barton",
+      "Value": "maiores",
       "Type": "Image"
     },
     {
-      "Name": "Kris-Green",
-      "Value": "iusto",
+      "Name": "McKenzie, Hansen and Barton",
+      "Value": "maiores",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "adipisci",
-  "ExtraField1": "debitis",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "est",
-  "ExtraField4": "saepe",
-  "ExtraField5": "consequuntur",
-  "InStock": 19496.613999999998
+  "RawExtraInfo": "et",
+  "ExtraField1": "natus",
+  "ExtraField2": "labore",
+  "ExtraField3": "quae",
+  "ExtraField4": "a",
+  "ExtraField5": "quam",
+  "InStock": 21471.034
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 22,
-  "ERPProductKey": "nulla",
-  "ERPPriceListKey": "tempore",
-  "Name": "Dibbert Group",
-  "Description": "Multi-tiered interactive capability",
-  "Code": "voluptatem",
-  "PriceUnit": "mollitia",
-  "QuantityUnit": "sit",
+  "ProductId": 152,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "provident",
+  "Name": "O'Kon, Runolfsson and Leffler",
+  "Description": "Organic demand-driven orchestration",
+  "Code": "vitae",
+  "PriceUnit": "est",
+  "QuantityUnit": "incidunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "eligendi",
-  "DefaultSubscriptionQuantity": 7101.6439999999993,
-  "ItemNumber": "636685",
+  "SubscriptionUnit": "quo",
+  "DefaultSubscriptionQuantity": 13056.243999999999,
+  "ItemNumber": "684345",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ex",
-  "ProductTypeKey": "consectetur",
-  "VAT": 22276.471999999998,
-  "VATInfo": "voluptas",
-  "UnitCost": 1344.4859999999999,
-  "UnitMinimumPrice": 6405.896,
-  "UnitListPrice": 17465.782,
-  "InAssortment": true,
-  "Supplier": "aliquid",
-  "SupplierCode": "qui",
-  "Rights": "voluptatem",
-  "Rule": "non",
+  "ProductFamilyKey": "fugit",
+  "ProductTypeKey": "quo",
+  "VAT": 3735.728,
+  "VATInfo": "omnis",
+  "UnitCost": 26764.36,
+  "UnitMinimumPrice": 19819.416,
+  "UnitListPrice": 24219.552,
+  "InAssortment": false,
+  "Supplier": "cupiditate",
+  "SupplierCode": "aliquid",
+  "Rights": "est",
+  "Rule": "tenetur",
   "ExtraInfo": [
     {
-      "Name": "Volkman-Konopelski",
-      "Value": "mollitia",
+      "Name": "Williamson LLC",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldLength": 540
         }
       }
     },
     {
-      "Name": "Volkman-Konopelski",
-      "Value": "mollitia",
+      "Name": "Williamson LLC",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldLength": 540
         }
       }
     }
   ],
-  "RawExtraInfo": "ducimus",
-  "ExtraField1": "ut",
+  "RawExtraInfo": "soluta",
+  "ExtraField1": "vel",
   "ExtraField2": "ea",
-  "ExtraField3": "accusantium",
-  "ExtraField4": "enim",
-  "ExtraField5": "id",
-  "InStock": 27961.548,
+  "ExtraField3": "vero",
+  "ExtraField4": "corrupti",
+  "ExtraField5": "quo",
+  "InStock": 3930.036,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldLength": 577
     }
   }
 }

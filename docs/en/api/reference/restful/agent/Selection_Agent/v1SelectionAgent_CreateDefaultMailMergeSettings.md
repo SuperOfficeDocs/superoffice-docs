@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 273,
-  "DocumentId": 198,
+  "SelectionId": 721,
+  "DocumentId": 712,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "dicta",
-  "AlwaysUseCustomAttention": false,
-  "SaveDocument": true,
-  "CustomMailBody": "illum",
+  "CustomAttention": "voluptatem",
+  "AlwaysUseCustomAttention": true,
+  "SaveDocument": false,
+  "CustomMailBody": "velit",
   "TaskEntity": null,
-  "AddCompanyInterest": 941,
-  "AddPersonInterest": 145,
-  "RemoveCompanyInterest": 660,
-  "RemovePersonInterest": 321,
+  "AddCompanyInterest": 262,
+  "AddPersonInterest": 284,
+  "RemoveCompanyInterest": 866,
+  "RemovePersonInterest": 964,
   "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 237,
+  "ProjectId": 855,
   "IncludeRetiredRecipients": false,
-  "IncludeStoppedRecipients": true,
-  "CustomMailSubject": "assumenda",
-  "ExtraInfo": "odio",
+  "IncludeStoppedRecipients": false,
+  "CustomMailSubject": "dolorem",
+  "ExtraInfo": "impedit",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 69
     }
   }
 }

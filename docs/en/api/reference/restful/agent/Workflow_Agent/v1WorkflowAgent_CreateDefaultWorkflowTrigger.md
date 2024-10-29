@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 388,
-  "WorkflowId": 280,
+  "WorkflowTriggerId": 556,
+  "WorkflowId": 91,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Miller-Kulas",
-      "Description": "Future-proofed radical toolset",
-      "Rank": 525,
+      "Name": "Yundt Inc and Sons",
+      "Description": "Inverse system-worthy concept",
+      "Rank": 371,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Miller-Kulas",
-      "Description": "Future-proofed radical toolset",
-      "Rank": 525,
+      "Name": "Yundt Inc and Sons",
+      "Description": "Inverse system-worthy concept",
+      "Rank": 371,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

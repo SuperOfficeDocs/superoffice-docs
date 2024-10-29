@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 828,
-  "Name": "Jerde, McLaughlin and Wilkinson",
-  "Tooltip": "ea",
+  "WebPanelId": 793,
+  "Name": "Von-Konopelski",
+  "Tooltip": "placeat",
   "Deleted": true,
-  "Rank": 26,
+  "Rank": 550,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Ondricka Group",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Jaskolski, Schultz and O'Connell",
   "Url": "http://www.example.com/",
-  "ProgId": "quo",
-  "Icon": 929,
+  "ProgId": "dolorem",
+  "Icon": 169,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

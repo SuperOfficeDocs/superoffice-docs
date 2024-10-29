@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Cassin Group"
+  "EntityName": "Waters, Lebsack and Murazik"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 822,
-  "Name": "Huel-Legros",
-  "Description": "Face to face needs-based complexity",
-  "DefaultHeight": 511,
-  "DefaultWidth": 450,
+  "DashboardTileDefinitionId": 549,
+  "Name": "Kilback, Klein and McClure",
+  "Description": "Sharable even-keeled database",
+  "DefaultHeight": 724,
+  "DefaultWidth": 840,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dickens, Jerde and Smitham",
-  "SelectionId": 68,
+  "EntityName": "Moore, Schowalter and Zieme",
+  "SelectionId": 146,
   "CurrencyMode": "Base",
-  "CurrencyCode": "temporibus",
+  "CurrencyCode": "porro",
   "Measure": "Average",
-  "MeasureField": "provident",
-  "SortBy": "amet",
-  "LayoutConfig": "aliquam",
-  "SecondarySelectionId": 122,
-  "MeasureByField": "qui",
+  "MeasureField": "hic",
+  "SortBy": "dolorem",
+  "LayoutConfig": "doloribus",
+  "SecondarySelectionId": 553,
+  "MeasureByField": "nihil",
   "Usage": "Dashboard",
-  "ProviderName": "Zulauf, Stanton and O'Conner",
+  "ProviderName": "Hoppe-Osinski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 374
     }
   }
 }

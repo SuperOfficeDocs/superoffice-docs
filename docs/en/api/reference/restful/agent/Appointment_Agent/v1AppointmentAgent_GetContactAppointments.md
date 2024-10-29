@@ -130,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 249,
-  "StartTime": "2011-03-18T03:44:51.8240408+01:00",
-  "EndTime": "1999-10-07T03:44:51.8240408+02:00",
-  "Count": 811
+  "ContactId": 996,
+  "StartTime": "2010-08-02T13:14:05.2101147+02:00",
+  "EndTime": "2020-12-13T13:14:05.2101147+01:00",
+  "Count": 695
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 446,
-    "StartDate": "2022-08-25T03:44:51.8240408+02:00",
-    "EndDate": "2002-06-06T03:44:51.8240408+02:00",
+    "AppointmentId": 448,
+    "StartDate": "2004-07-20T13:14:05.2101147+02:00",
+    "EndDate": "2006-12-04T13:14:05.2101147+01:00",
     "Type": "BookingForChecklist",
-    "Task": "laborum",
-    "AssociateFullName": "Valentine McKenzie",
-    "ContactName": "Vandervort-Schaefer",
-    "Description": "Grass-roots content-based solution",
-    "PersonFullName": "Emie Berge",
-    "PersonId": 141,
-    "ContactId": 286,
-    "ProjectId": 35,
-    "ProjectName": "D'Amore Inc and Sons",
+    "Task": "magni",
+    "AssociateFullName": "Reilly Wiegand",
+    "ContactName": "Schinner-Douglas",
+    "Description": "Centralized leading edge projection",
+    "PersonFullName": "Vanessa Hintz",
+    "PersonId": 721,
+    "ContactId": 138,
+    "ProjectId": 258,
+    "ProjectName": "Schneider Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 664,
-    "ColorIndex": 602,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "AssociateId": 172,
+    "ColorIndex": 876,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 787,
-    "PriorityName": "Gulgowski Inc and Sons",
+    "PriorityId": 958,
+    "PriorityName": "Zieme, Schneider and Schoen",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2008-12-14T03:44:51.8240408+01:00",
+    "ActiveDate": "2024-09-18T13:14:05.2101147+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-04-03T03:44:51.8240408+02:00",
-    "RecurringEndDate": "2012-01-28T03:44:51.8240408+01:00",
-    "MotherId": 423,
-    "AssignedBy": 94,
-    "AssignedByFullName": "Kayli Adams PhD",
+    "RecurringStartDate": "2014-10-31T13:14:05.2101147+01:00",
+    "RecurringEndDate": "2014-10-07T13:14:05.2101147+02:00",
+    "MotherId": 391,
+    "AssignedBy": 715,
+    "AssignedByFullName": "Audra Stark",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "et",
-    "SaleId": 397,
-    "SaleName": "Koss-Stracke",
-    "AssociateName": "Abshire-Breitenberg",
-    "CreatedDate": "2007-07-02T03:44:51.8240408+02:00",
-    "CreatedBy": "soluta",
-    "CreatedByFullName": "Rubye Madeline Lueilwitz Jr.",
-    "CreatedByAssociateId": 453,
+    "Location": "sit",
+    "AlarmLeadTime": "omnis",
+    "SaleId": 783,
+    "SaleName": "Dooley-Abernathy",
+    "AssociateName": "Hirthe LLC",
+    "CreatedDate": "2003-10-20T13:14:05.2101147+02:00",
+    "CreatedBy": "laboriosam",
+    "CreatedByFullName": "Devante Price",
+    "CreatedByAssociateId": 313,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 528,
-    "Title": "enim",
-    "Agenda": "vel",
-    "InternalNotes": "doloribus",
+    "PreferredTZLocation": 284,
+    "Title": "commodi",
+    "Agenda": "hic",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 436
       }
     }
   }

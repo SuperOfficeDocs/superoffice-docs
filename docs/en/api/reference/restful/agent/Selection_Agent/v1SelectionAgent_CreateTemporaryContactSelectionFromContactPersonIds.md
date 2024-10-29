@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 903,
-      "ContactId": 857
+      "PersonId": 704,
+      "ContactId": 63
     },
     {
-      "PersonId": 903,
-      "ContactId": 857
+      "PersonId": 704,
+      "ContactId": 63
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible real-time focus group",
-  "Postit": "voluptates",
+  "Description": "Exclusive client-server knowledge user",
+  "Postit": "doloremque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 106,
-  "IncludePerson": 670,
+  "GroupIdx": 806,
+  "IncludePerson": 774,
   "MemberCount": 99.99,
-  "Name": "Swaniawski Inc and Sons",
-  "PostitTextId": 319,
-  "CreatedDate": "2023-02-18T03:44:53.1726478+01:00",
-  "SelectionId": 735,
-  "SoundEx": "adipisci",
-  "Source": 752,
-  "TextId": 439,
-  "UpdatedDate": "2024-03-23T03:44:53.1726478+01:00",
-  "UpdatedCount": 281,
-  "Visibility": 703,
+  "Name": "Hickle-Hauck",
+  "PostitTextId": 663,
+  "CreatedDate": "2009-05-30T13:14:06.4289377+02:00",
+  "SelectionId": 353,
+  "SoundEx": "et",
+  "Source": 825,
+  "TextId": 136,
+  "UpdatedDate": "2013-04-27T13:14:06.4289377+02:00",
+  "UpdatedCount": 572,
+  "Visibility": 854,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 479,
-  "TargetTableName": "Franecki, Hilpert and Kunze",
-  "Completed": false,
-  "LeftSelectionId": 681,
-  "RightSelectionId": 372,
+  "CompanyUnique": true,
+  "TargetTableNumber": 950,
+  "TargetTableName": "Cummings Group",
+  "Completed": true,
+  "LeftSelectionId": 826,
+  "RightSelectionId": 181,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gaylord, Homenick and Doyle",
-  "ShadowProviderName": "Lindgren LLC",
-  "ChartKey": "et",
-  "LastLoaded": "2017-10-24T03:44:53.1726478+02:00",
-  "LastLoadedBy": 497,
+  "MainProviderName": "Conn Inc and Sons",
+  "ShadowProviderName": "Kozey Group",
+  "ChartKey": "voluptatum",
+  "LastLoaded": "2023-07-13T13:14:06.4289377+02:00",
+  "LastLoadedBy": 505,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-02-19T03:44:53.1726478+01:00",
-  "LastMembershipChangeBy": 922,
+  "LastMembershipChange": "2020-06-29T13:14:06.4289377+02:00",
+  "LastMembershipChangeBy": 895,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "eligendi",
-  "MailingsProviderName": "Hudson, Hauck and Torp",
-  "DashboardTileDefinitionId": 843,
+  "MainHeading": "adipisci",
+  "MemberTabHeading": "asperiores",
+  "MailingsProviderName": "Ledner-Klein",
+  "DashboardTileDefinitionId": 199,
   "VisibleFor": [
     {
-      "VisibleId": 479,
+      "VisibleId": 383,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 861
+          "FieldType": "System.Int32",
+          "FieldLength": 225
         }
       }
     },
     {
-      "VisibleId": 479,
+      "VisibleId": 383,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 861
+          "FieldType": "System.Int32",
+          "FieldLength": 225
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Raynor Group",
-  "Tooltip": "repudiandae",
+  "Id": 543,
+  "Name": "Kuhic Inc and Sons",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 926,
+  "Rank": 286,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
-  "InUseByUserDefinedFields": false
+  "ListType": "enim",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Jaskolski Group",
-  "Tooltip": "a",
-  "Deleted": false,
-  "Rank": 693,
+  "Id": 45,
+  "Name": "Breitenberg Inc and Sons",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "Rank": 706,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "exercitationem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 79
     }
   }
 }

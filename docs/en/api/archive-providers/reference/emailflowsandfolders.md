@@ -36,6 +36,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 |name|string|Name: Name of the flow definition| x |
 |workflowDescription| *None* |Description: Description of flow definition|  |
 |workflowDefinitionStatus| *None* |Status: Status of the flow definition|  |
+|workflowDefinitionStatusId| *None* |Status: Status of the flow definition|  |
 |jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
 |startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?|  |
 |workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -88,7 +89,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=updatedDate,workflowAssociate/title
+GET /api/v1/archive/EmailFlowsAndFolders?$select=updatedBy,workflowAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

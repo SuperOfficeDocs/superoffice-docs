@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "explicabo",
+  "UniqueIdentifier": "omnis",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "Hilll-Champlin",
-  "Description": "Grass-roots hybrid data-warehouse",
-  "IncludeId": "officia",
-  "Source": "expedita",
-  "Registered": "2019-09-26T03:44:52.3708918+02:00",
-  "RegisteredBy": "exercitationem",
-  "Updated": "2014-10-07T03:44:52.3708918+02:00",
-  "UpdatedBy": "beatae",
-  "Path": "quibusdam",
+  "UniqueIdentifier": "nemo",
+  "Name": "Rau-Shields",
+  "Description": "Assimilated multimedia algorithm",
+  "IncludeId": "eum",
+  "Source": "sapiente",
+  "Registered": "2007-06-29T13:14:05.710145+02:00",
+  "RegisteredBy": "quibusdam",
+  "Updated": "2011-04-09T13:14:05.710145+02:00",
+  "UpdatedBy": "accusamus",
+  "Path": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

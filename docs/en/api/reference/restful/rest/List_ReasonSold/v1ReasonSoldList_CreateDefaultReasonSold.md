@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Corkery, Thompson and Lebsack",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 490,
-  "Rank": 794,
+  "Id": 406,
+  "Name": "Bartell-Denesik",
+  "Tooltip": "soluta",
+  "Deleted": false,
+  "UdListDefinitionId": 229,
+  "Rank": 564,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 829
     }
   }
 }

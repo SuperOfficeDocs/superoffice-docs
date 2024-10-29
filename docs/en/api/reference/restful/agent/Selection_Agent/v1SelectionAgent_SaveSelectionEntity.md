@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined directional installation",
-  "Postit": "esse",
+  "Description": "Extended regional service-desk",
+  "Postit": "amet",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 302,
-  "IncludePerson": 279,
+  "GroupIdx": 70,
+  "IncludePerson": 329,
   "MemberCount": 99.99,
-  "Name": "Legros-Cole",
-  "PostitTextId": 575,
-  "CreatedDate": "2022-10-10T03:44:53.1524683+02:00",
-  "SelectionId": 178,
-  "SoundEx": "dolorum",
-  "Source": 600,
-  "TextId": 520,
-  "UpdatedDate": "2007-06-09T03:44:53.1524683+02:00",
-  "UpdatedCount": 979,
-  "Visibility": 425,
+  "Name": "Howell-McDermott",
+  "PostitTextId": 913,
+  "CreatedDate": "2009-01-06T13:14:06.4133118+01:00",
+  "SelectionId": 384,
+  "SoundEx": "voluptate",
+  "Source": 180,
+  "TextId": 710,
+  "UpdatedDate": "2007-11-24T13:14:06.4133118+01:00",
+  "UpdatedCount": 907,
+  "Visibility": 412,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 50,
-  "TargetTableName": "Trantow Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 293,
-  "RightSelectionId": 412,
+  "TargetTableNumber": 699,
+  "TargetTableName": "Kessler, Gaylord and Skiles",
+  "Completed": false,
+  "LeftSelectionId": 848,
+  "RightSelectionId": 973,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stracke-Schaden",
-  "ShadowProviderName": "Sipes, Bahringer and Brakus",
-  "ChartKey": "vel",
-  "LastLoaded": "2006-06-01T03:44:53.1524683+02:00",
-  "LastLoadedBy": 391,
+  "MainProviderName": "Gibson, Dietrich and Koelpin",
+  "ShadowProviderName": "Ortiz, Price and O'Reilly",
+  "ChartKey": "debitis",
+  "LastLoaded": "2001-06-25T13:14:06.4133118+02:00",
+  "LastLoadedBy": 368,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-08-16T03:44:53.1524683+02:00",
-  "LastMembershipChangeBy": 260,
+  "LastMembershipChange": "2016-10-15T13:14:06.4133118+02:00",
+  "LastMembershipChangeBy": 247,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nam",
-  "MemberTabHeading": "deserunt",
-  "MailingsProviderName": "Hegmann-Barrows",
-  "DashboardTileDefinitionId": 167,
+  "MainHeading": "sit",
+  "MemberTabHeading": "sapiente",
+  "MailingsProviderName": "Krajcik LLC",
+  "DashboardTileDefinitionId": 153,
   "VisibleFor": [
     {
-      "VisibleId": 921,
+      "VisibleId": 189,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "in"
     },
     {
-      "VisibleId": 921,
+      "VisibleId": 189,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "in"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Public-key encompassing collaboration",
-  "Postit": "enim",
+  "Description": "Inverse intangible help-desk",
+  "Postit": "maiores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 393,
-  "IncludePerson": 805,
+  "GroupIdx": 841,
+  "IncludePerson": 733,
   "MemberCount": 99.99,
-  "Name": "VonRueden LLC",
-  "PostitTextId": 982,
-  "CreatedDate": "2023-09-05T03:44:53.1524683+02:00",
-  "SelectionId": 551,
-  "SoundEx": "commodi",
-  "Source": 528,
-  "TextId": 901,
-  "UpdatedDate": "2010-07-29T03:44:53.1524683+02:00",
-  "UpdatedCount": 936,
-  "Visibility": 955,
+  "Name": "Hamill LLC",
+  "PostitTextId": 868,
+  "CreatedDate": "2008-11-26T13:14:06.4133118+01:00",
+  "SelectionId": 471,
+  "SoundEx": "iure",
+  "Source": 483,
+  "TextId": 527,
+  "UpdatedDate": "2011-09-17T13:14:06.4133118+02:00",
+  "UpdatedCount": 242,
+  "Visibility": 753,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 670,
-  "TargetTableName": "Orn-Windler",
+  "TargetTableNumber": 77,
+  "TargetTableName": "Koepp LLC",
   "Completed": false,
-  "LeftSelectionId": 41,
-  "RightSelectionId": 670,
+  "LeftSelectionId": 575,
+  "RightSelectionId": 154,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Aufderhar, Williamson and Nader",
-  "ShadowProviderName": "Bogisich, Wunsch and Nader",
-  "ChartKey": "eveniet",
-  "LastLoaded": "2016-01-08T03:44:53.1524683+01:00",
-  "LastLoadedBy": 561,
+  "MainProviderName": "Sauer-Torphy",
+  "ShadowProviderName": "Bergstrom Inc and Sons",
+  "ChartKey": "explicabo",
+  "LastLoaded": "2022-08-13T13:14:06.4133118+02:00",
+  "LastLoadedBy": 664,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-06-05T03:44:53.1524683+02:00",
-  "LastMembershipChangeBy": 365,
+  "LastMembershipChange": "2019-10-16T13:14:06.4133118+02:00",
+  "LastMembershipChangeBy": 985,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nihil",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Fay, Watsica and Waters",
-  "DashboardTileDefinitionId": 324,
+  "MainHeading": "quia",
+  "MemberTabHeading": "hic",
+  "MailingsProviderName": "Hauck LLC",
+  "DashboardTileDefinitionId": 999,
   "VisibleFor": [
     {
-      "VisibleId": 186,
+      "VisibleId": 999,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     },
     {
-      "VisibleId": 186,
+      "VisibleId": 999,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 391
     }
   }
 }

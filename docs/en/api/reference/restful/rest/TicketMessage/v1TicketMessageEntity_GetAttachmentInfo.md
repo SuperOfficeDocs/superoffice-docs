@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 263,
-    "Name": "Orn, Russel and Turcotte",
-    "ContentType": "quam",
-    "AttSize": 755,
+    "AttachmentId": 375,
+    "Name": "Rice, Bins and Kohler",
+    "ContentType": "iusto",
+    "AttSize": 369,
     "InlineImage": false,
-    "ContentId": "consequatur",
-    "AuthKey": "aut",
-    "IsSafeFileExtension": false,
+    "ContentId": "aperiam",
+    "AuthKey": "est",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

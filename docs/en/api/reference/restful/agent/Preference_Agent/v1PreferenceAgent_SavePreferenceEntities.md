@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "voluptate",
+      "RawValue": "non",
       "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "temporibus",
+      "DisplayValue": "consequuntur",
+      "DisplayTooltip": "aut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 75,
-      "PrefDescId": 321,
-      "TableName": "Schultz, Halvorson and Kihn",
-      "UserPreferenceId": 426
+      "TargetId": 446,
+      "PrefDescId": 444,
+      "TableName": "Hand LLC",
+      "UserPreferenceId": 31
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

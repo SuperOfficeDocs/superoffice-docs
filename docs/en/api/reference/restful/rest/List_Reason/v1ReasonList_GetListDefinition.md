@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Botsford-Bauch",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "Rank": 749,
+  "Id": 202,
+  "Name": "Lockman, Beer and Stoltenberg",
+  "Tooltip": "nobis",
+  "Deleted": true,
+  "Rank": 108,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolores",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 621
     }
   },
   "_Links": {

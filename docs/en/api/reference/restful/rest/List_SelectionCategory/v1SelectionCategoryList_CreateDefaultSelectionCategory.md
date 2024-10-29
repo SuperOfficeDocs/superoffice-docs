@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Klein LLC",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "UdListDefinitionId": 713,
-  "Rank": 246,
+  "Id": 403,
+  "Name": "Kub-Stracke",
+  "Tooltip": "veritatis",
+  "Deleted": false,
+  "UdListDefinitionId": 793,
+  "Rank": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 462
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

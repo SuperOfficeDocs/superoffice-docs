@@ -138,7 +138,7 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 319,
-  "TopicId": 22,
+  "ChatSessionId": 700,
+  "TopicId": 882,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "accusantium",
-  "CustomerName": "Kovacek-Glover",
-  "CustomerEmail": "kassandra_hettinger@prohaska.info",
-  "CustomerPhone": "(494)639-8831",
+  "CustomerAlias": "aspernatur",
+  "CustomerHost": "rem",
+  "CustomerName": "Cremin-Schaden",
+  "CustomerEmail": "odell@blanda.ca",
+  "CustomerPhone": "210.171.0431",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Prohaska Inc and Sons",
+  "CustomerCompanyName": "Padberg-Becker",
   "Status": "Closed",
-  "FirstMessage": "incidunt",
-  "LastMessage": "sunt",
-  "WhenRequested": "2010-11-24T03:44:57.0465162+01:00",
-  "WhenStarted": "2009-05-22T03:44:57.0465162+02:00",
-  "WhenEnded": "2014-04-02T03:44:57.0465162+02:00",
-  "WhenIdle": "2015-01-14T03:44:57.0465162+01:00",
-  "WhenFetched": "2013-03-10T03:44:57.0465162+01:00",
-  "SessionKey": "autem",
-  "InitialQueuePos": 464,
-  "AlertLevel": 236,
-  "Rank": 709,
+  "FirstMessage": "quae",
+  "LastMessage": "quos",
+  "WhenRequested": "2007-08-17T13:14:10.6328965+02:00",
+  "WhenStarted": "2016-12-30T13:14:10.6328965+01:00",
+  "WhenEnded": "1999-10-11T13:14:10.6328965+02:00",
+  "WhenIdle": "2015-03-10T13:14:10.6328965+01:00",
+  "WhenFetched": "2006-12-13T13:14:10.6328965+01:00",
+  "SessionKey": "error",
+  "InitialQueuePos": 591,
+  "AlertLevel": 732,
+  "Rank": 660,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 395,
+  "Rating": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 96
     }
   },
   "_Links": {

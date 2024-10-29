@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 23,
-  "ContactName": "Strosin-Kuphal",
-  "PersonId": 287,
-  "PersonName": "Turcotte-Harris",
-  "AssociateId": 55,
-  "Address": "earum",
-  "EmailId": 607,
+  "ContactId": 706,
+  "ContactName": "Goyette-King",
+  "PersonId": 632,
+  "PersonName": "Altenwerth Group",
+  "AssociateId": 565,
+  "Address": "hic",
+  "EmailId": 863,
   "DuplicatePersonIds": [
-    680,
-    349
+    972,
+    34
   ],
-  "Name": "Oberbrunner LLC",
+  "Name": "Johnston, Ratke and Rice",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 52
     }
   }
 }

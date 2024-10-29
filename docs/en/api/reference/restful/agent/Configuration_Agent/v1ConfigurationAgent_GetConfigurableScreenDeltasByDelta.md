@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 697,
-    "Name": "Koch-Reichel",
-    "Description": "Optional methodical implementation",
-    "DeltaJson": "sit",
+    "ConfigurableScreenDeltaId": 963,
+    "Name": "Green Group",
+    "Description": "Integrated background info-mediaries",
+    "DeltaJson": "et",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "vel",
-    "UpdatedDate": "2019-04-23T03:44:52.2771517+02:00",
-    "CreatedDate": "2003-01-18T03:44:52.2771517+01:00",
+    "RecipeId": "et",
+    "UpdatedDate": "2014-03-28T13:14:05.6320153+01:00",
+    "CreatedDate": "2017-09-17T13:14:05.6320153+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      823,
-      80
+      398,
+      116
     ],
-    "AppliesToKey": "aut",
+    "AppliesToKey": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldType": "System.String",
+        "FieldLength": 630
       }
     }
   }

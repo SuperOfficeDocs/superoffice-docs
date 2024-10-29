@@ -1243,6 +1243,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |workflowInstance/emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |workflowInstance/emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |workflowInstance/emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|workflowInstance/emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |workflowInstance/emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |workflowInstance/emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |workflowInstance/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -1265,11 +1266,11 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |chatSession/queueLength|int|Queue length: Queue length when the session was requested| x |
 |chatSession/rating|int|Rating: Rating of chat session| x |
 |chatSession/agent|ejUser|Agent: The agent of the chat| x |
-|chatSession/status|listAny|Status: Status for the chat session| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|chatSession/status|listAny|Status: Status for the chat session| x |
 |chatSession/icon| *None* |Category: Displays the icon for an activity type| x |
 |chatSession/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |chatSession/type|listAny|Type: Displays the type of an activity| x |
@@ -1369,11 +1370,11 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/quoteline/registeredBy|associate|Registered by: The user who registered the data| x |
 |sale/quote/version/alternative/quoteline/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |sale/quote/version/alternative/quoteline/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|sale/quote/version/alternative/quoteline/productCategoryKey|listExternal|Product category: The category the product is defined in|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/productCategoryKey|listExternal|Product category: The category the product is defined in|  |
 |sale/quote/version/alternative/quoteline/productFamilyKey|listExternal|Product family: The family the product is defined in|  |
 |sale/quote/version/alternative/quoteline/productTypeKey|listExternal|Product type: The type of product|  |
 |sale/quote/version/alternative/quoteline/status|listAny|Quote status: Status field showing the status of each line.| x |
@@ -1385,7 +1386,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactAssociate/personId,contactAssociate/userName,sourceRelation/code,sourceRelation/registeredByFullName,sale/createdByWorkflow
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=sourceRelation/contactId,appointment/alarm,updatedByWorkflow,personSourceRelation/hasInfoText,personSourceRelation/kanaFirstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

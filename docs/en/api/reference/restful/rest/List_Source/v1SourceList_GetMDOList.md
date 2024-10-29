@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=aut
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=dicta
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Kessler Group",
-    "ToolTip": "Repudiandae ducimus numquam ipsa ex possimus harum aut.",
-    "Deleted": false,
-    "Rank": 261,
-    "Type": "non",
+    "Id": 543,
+    "Name": "Turcotte, Prohaska and Hessel",
+    "ToolTip": "Consequatur modi et tempora debitis eum facere labore.",
+    "Deleted": true,
+    "Rank": 551,
+    "Type": "suscipit",
     "ChildItems": [
       {
-        "Id": 208,
-        "Name": "Quitzon-Walker",
-        "ToolTip": "Qui explicabo ut officia.",
+        "Id": 665,
+        "Name": "Cummerata Group",
+        "ToolTip": "Quas fuga quo omnis dignissimos unde omnis reprehenderit.",
         "Deleted": false,
-        "Rank": 870,
-        "Type": "impedit",
+        "Rank": 811,
+        "Type": "mollitia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eius",
-        "ColorBlock": 319,
-        "ExtraInfo": "minus",
-        "StyleHint": "non",
-        "FullName": "Prof. Maureen Queenie Littel",
+        "IconHint": "perferendis",
+        "ColorBlock": 105,
+        "ExtraInfo": "quia",
+        "StyleHint": "dolor",
+        "FullName": "Magnus Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 826
+            "FieldLength": 798
           }
         }
       }
     ],
-    "IconHint": "recusandae",
-    "ColorBlock": 7,
-    "ExtraInfo": "ducimus",
-    "StyleHint": "qui",
-    "FullName": "Dr. Ethyl Georgiana Morar",
+    "IconHint": "dolores",
+    "ColorBlock": 171,
+    "ExtraInfo": "dolor",
+    "StyleHint": "cumque",
+    "FullName": "Iva Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldType": "System.Int32",
+        "FieldLength": 992
       }
     }
   }

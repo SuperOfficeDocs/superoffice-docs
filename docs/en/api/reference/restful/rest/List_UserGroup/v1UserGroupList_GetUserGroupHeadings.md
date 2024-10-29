@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 993,
-    "Name": "Jacobs, Heaney and Connelly",
-    "Tooltip": "error",
+    "HeadingId": 422,
+    "Name": "Grimes LLC",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "Rank": 368,
-    "UdListDefinitionId": 630,
+    "Rank": 320,
+    "UdListDefinitionId": 178,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldType": "System.Int32",
+        "FieldLength": 767
       }
     }
   }

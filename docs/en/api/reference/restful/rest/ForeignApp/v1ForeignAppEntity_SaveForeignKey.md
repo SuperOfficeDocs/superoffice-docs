@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "modi",
-  "Value": "magnam",
-  "RecordId": 835,
-  "CreatedDate": "2003-10-23T03:44:57.359003+02:00",
-  "UpdatedDate": "2019-11-27T03:44:57.359003+01:00",
-  "UpdatedBy": "deleniti",
-  "CreatedBy": "voluptas",
-  "TableName": "Cremin LLC"
+  "Key": "voluptatibus",
+  "Value": "itaque",
+  "RecordId": 485,
+  "CreatedDate": "2015-04-23T13:14:10.8516656+02:00",
+  "UpdatedDate": "2024-10-27T13:14:10.8516656+01:00",
+  "UpdatedBy": "eos",
+  "CreatedBy": "praesentium",
+  "TableName": "Anderson, Legros and Nader"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aliquam",
-  "Value": "natus",
-  "RecordId": 240,
-  "CreatedDate": "2012-04-26T03:44:57.359003+02:00",
-  "UpdatedDate": "2011-09-13T03:44:57.359003+02:00",
-  "UpdatedBy": "libero",
-  "CreatedBy": "consequatur",
-  "TableName": "Bednar-Bogisich",
+  "Key": "ab",
+  "Value": "accusantium",
+  "RecordId": 405,
+  "CreatedDate": "2015-09-02T13:14:10.8516656+02:00",
+  "UpdatedDate": "1997-10-13T13:14:10.8516656+02:00",
+  "UpdatedBy": "ipsam",
+  "CreatedBy": "possimus",
+  "TableName": "Dare LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 956
     }
   }
 }

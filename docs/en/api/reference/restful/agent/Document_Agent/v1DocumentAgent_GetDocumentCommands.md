@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 416,
+  "DocumentId": 235,
   "AllowedReturnTypes": [
-    "quo",
-    "atque"
+    "eius",
+    "laudantium"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Predovic, Weissnat and Gislason",
-    "DisplayName": "Metz, Weimann and Hickle",
-    "DisplayTooltip": "et",
-    "IconHint": "dolorum",
+    "Name": "Nitzsche Inc and Sons",
+    "DisplayName": "Hills-Mayert",
+    "DisplayTooltip": "dicta",
+    "IconHint": "cupiditate",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Predovic, Weissnat and Gislason",
-    "DisplayName": "Metz, Weimann and Hickle",
-    "DisplayTooltip": "et",
-    "IconHint": "dolorum",
+    "Name": "Nitzsche Inc and Sons",
+    "DisplayName": "Hills-Mayert",
+    "DisplayTooltip": "dicta",
+    "IconHint": "cupiditate",
     "ReturnType": "CustomGui"
   }
 ]

@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/SetPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Von-Yundt",
-  "Password": "dolores"
+  "AssociateName": "Kemmer, Stokes and Batz",
+  "Password": "in"
 }
 ```
 

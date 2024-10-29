@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Pacocha Inc and Sons",
-    "Tooltip": "incidunt",
+    "Id": 472,
+    "Name": "Koch Group",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "UdListDefinitionId": 17,
-    "Rank": 146,
+    "UdListDefinitionId": 535,
+    "Rank": 832,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldType": "System.String",
+        "FieldLength": 865
       }
     }
   }

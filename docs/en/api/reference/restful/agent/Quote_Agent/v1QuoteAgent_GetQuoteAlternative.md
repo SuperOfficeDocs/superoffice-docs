@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=580
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=758
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 105,
-  "ERPQuoteAlternativeKey": "aut",
-  "QuoteVersionId": 732,
-  "Name": "Medhurst LLC",
-  "Description": "Business-focused non-volatile pricing structure",
+  "QuoteAlternativeId": 912,
+  "ERPQuoteAlternativeKey": "qui",
+  "QuoteVersionId": 319,
+  "Name": "Howell Inc and Sons",
+  "Description": "Configurable modular secured line",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 25495.09,
-  "ERPDiscountAmount": 18233.612,
-  "DiscountPercent": 15181.096,
-  "DiscountAmount": 30951.384,
+  "ERPDiscountPercent": 4506.692,
+  "ERPDiscountAmount": 9872.1,
+  "DiscountPercent": 1579.536,
+  "DiscountAmount": 28187.196,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolores",
-  "VAT": 6888.532,
-  "EarningPercent": 27999.156,
-  "EarningAmount": 10013.13,
-  "SubTotal": 7734.7119999999995,
-  "TotalPrice": 20082.672,
-  "ExtraField1": "ut",
-  "ExtraField2": "et",
-  "ExtraField3": "et",
-  "ExtraField4": "qui",
-  "ExtraField5": "earum",
+  "VATInfo": "non",
+  "VAT": 29174.406,
+  "EarningPercent": 4594.4439999999995,
+  "EarningAmount": 17045.826,
+  "SubTotal": 6546.9259999999995,
+  "TotalPrice": 4346.858,
+  "ExtraField1": "corrupti",
+  "ExtraField2": "corporis",
+  "ExtraField3": "quia",
+  "ExtraField4": "ut",
+  "ExtraField5": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldLength": 840
     }
   }
 }

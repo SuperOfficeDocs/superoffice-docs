@@ -80,17 +80,17 @@ OK
 POST /api/v1/Agents/Appointment/GetNextAvailableTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Associates": [
-    542,
-    179
+    258,
+    730
   ],
-  "StartTime": "2003-05-06T03:44:51.8709122+02:00",
-  "EndTime": "2000-08-10T03:44:51.8709122+02:00",
-  "Count": 879,
+  "StartTime": "2019-03-25T13:14:05.2413666+01:00",
+  "EndTime": "2013-05-13T13:14:05.2413666+02:00",
+  "Count": 919,
   "IsAllDay": false
 }
 ```
@@ -103,30 +103,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AvailableTimeStart": "2003-04-10T03:44:51.8709122+02:00",
-    "AvailableTimeEnd": "2006-01-06T03:44:51.8709122+01:00",
-    "RecommendedTimeStart": "2019-08-19T03:44:51.8709122+02:00",
-    "RecommendedTimeEnd": "2014-07-22T03:44:51.8709122+02:00",
+    "AvailableTimeStart": "2003-07-24T13:14:05.2413666+02:00",
+    "AvailableTimeEnd": "2015-02-05T13:14:05.2413666+01:00",
+    "RecommendedTimeStart": "2024-08-05T13:14:05.2413666+02:00",
+    "RecommendedTimeEnd": "2020-10-29T13:14:05.2413666+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 194
       }
     }
   },
   {
-    "AvailableTimeStart": "2003-04-10T03:44:51.8709122+02:00",
-    "AvailableTimeEnd": "2006-01-06T03:44:51.8709122+01:00",
-    "RecommendedTimeStart": "2019-08-19T03:44:51.8709122+02:00",
-    "RecommendedTimeEnd": "2014-07-22T03:44:51.8709122+02:00",
+    "AvailableTimeStart": "2003-07-24T13:14:05.2413666+02:00",
+    "AvailableTimeEnd": "2015-02-05T13:14:05.2413666+01:00",
+    "RecommendedTimeStart": "2024-08-05T13:14:05.2413666+02:00",
+    "RecommendedTimeEnd": "2020-10-29T13:14:05.2413666+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 194
       }
     }
   }

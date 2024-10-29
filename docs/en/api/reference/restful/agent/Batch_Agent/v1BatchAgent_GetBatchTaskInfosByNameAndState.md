@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grant Inc and Sons",
+  "Name": "Hartmann Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Hilpert LLC",
-    "AssociateId": 657,
-    "DetailsTable": 222,
-    "DetailsRecord": 601,
+    "Id": 39,
+    "Name": "Monahan-Mertz",
+    "AssociateId": 910,
+    "DetailsTable": 563,
+    "DetailsRecord": 544,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nam",
-      "ParameterObject2": "omnis"
+      "ParameterObject1": "necessitatibus",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2007-01-25T03:44:52.0740137+01:00",
-    "Created": "2000-11-16T03:44:52.0740137+01:00",
-    "StartCount": 868,
-    "DatabaseSerialNumber": "881471",
-    "Context": "culpa",
-    "Result": "explicabo",
+    "LastStarted": "2022-10-28T13:14:05.5382596+02:00",
+    "Created": "2002-04-12T13:14:05.5382596+02:00",
+    "StartCount": 901,
+    "DatabaseSerialNumber": "569951",
+    "Context": "quia",
+    "Result": "tenetur",
     "State": "All",
-    "Description": "Public-key 24/7 database",
-    "Response": "tenetur",
+    "Description": "Profit-focused needs-based forecast",
+    "Response": "est",
     "Request": "ut",
-    "ProgressDescription": "Operative explicit focus group",
-    "ProgressPercent": 671,
-    "FileName": "Connelly, Kutch and Walker",
+    "ProgressDescription": "Multi-channelled well-modulated software",
+    "ProgressPercent": 978,
+    "FileName": "Dibbert, Bashirian and Bogisich",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 987
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

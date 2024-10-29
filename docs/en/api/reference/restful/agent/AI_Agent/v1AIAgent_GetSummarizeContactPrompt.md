@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 933,
-  "NumSentences": 329,
-  "Summary": "accusamus",
-  "IsoLangCode": "in"
+  "ContactId": 527,
+  "NumSentences": 406,
+  "Summary": "odio",
+  "IsoLangCode": "provident"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2003-03-08T03:44:51.808417+01:00",
-  "UserPrompt": "eaque",
-  "UserDisplayText": "aut",
-  "BotResponse": "aut",
+  "Timestamp": "2001-08-08T13:14:05.1944888+02:00",
+  "UserPrompt": "illum",
+  "UserDisplayText": "corrupti",
+  "BotResponse": "non",
   "BotActions": {
-    "BotActions1": "dolorem",
-    "BotActions2": "voluptas"
+    "BotActions1": "eveniet",
+    "BotActions2": "provident"
   },
   "Attachments": [
-    "et",
-    "quo"
+    "aut",
+    "corporis"
   ]
 }
 ```

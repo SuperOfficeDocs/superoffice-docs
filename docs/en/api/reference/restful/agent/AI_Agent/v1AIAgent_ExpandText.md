@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "praesentium",
-  "PercentBigger": 882,
-  "IsoLangCode": "vero"
+  "Text": "alias",
+  "PercentBigger": 688,
+  "IsoLangCode": "nulla"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sapiente"
+"tempora"
 ```

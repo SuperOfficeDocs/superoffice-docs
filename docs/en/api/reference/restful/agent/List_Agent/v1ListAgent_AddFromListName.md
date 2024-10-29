@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Gerhold-Hauck",
+  "UdListDefinitionName": "Stamm-Goldner",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12,
-  "Name": "Greenfelder LLC",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "UdListDefinitionId": 765,
-  "Rank": 168,
+  "Id": 218,
+  "Name": "Gibson Group",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "UdListDefinitionId": 266,
+  "Rank": 249,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldType": "System.Int32",
+      "FieldLength": 327
     }
   }
 }

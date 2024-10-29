@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 826,
-  "Name": "Wiegand-Huels",
-  "Tooltip": "qui",
-  "Rank": 593,
+  "SaleTypeId": 40,
+  "Name": "Effertz Inc and Sons",
+  "Tooltip": "ipsam",
+  "Rank": 485,
   "DurationUnit": "Century",
-  "SaleDuration": 25,
-  "SaleTypeCatId": 872,
-  "Deleted": false,
+  "SaleDuration": 74,
+  "SaleTypeCatId": 424,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 200,
-  "QuoteLinesTemplate": 209,
-  "ConfirmationLinesTemplate": 439,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 3,
+  "QuoteLinesTemplate": 42,
+  "ConfirmationLinesTemplate": 644,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 544,
-  "MinEarningPercent": 560,
-  "GroupQuoteLinesBy": 597,
-  "SortGroupLinesBy": 257,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 906,
+  "MinEarningPercent": 930,
+  "GroupQuoteLinesBy": 812,
+  "SortGroupLinesBy": 141,
   "Stages": [
     {
-      "Id": 398,
-      "Name": "Gerhold, Reynolds and Kilback",
-      "ToolTip": "Non eos.",
-      "Deleted": false,
-      "Rank": 574,
-      "Type": "odit",
-      "ColorBlock": 798,
-      "IconHint": "iusto",
+      "Id": 294,
+      "Name": "Shields-Rohan",
+      "ToolTip": "Sit dicta ducimus consequuntur beatae.",
+      "Deleted": true,
+      "Rank": 5,
+      "Type": "et",
+      "ColorBlock": 672,
+      "IconHint": "inventore",
       "Selected": true,
-      "LastChanged": "2006-12-07T03:44:58.1562167+01:00",
+      "LastChanged": "2007-02-23T13:14:11.5392071+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "repellat",
+      "ExtraInfo": "temporibus",
+      "StyleHint": "aliquam",
       "Hidden": true,
-      "FullName": "Juston Grant",
+      "FullName": "Maryjane Ledner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 826
+          "FieldLength": 946
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 50
     }
   }
 }

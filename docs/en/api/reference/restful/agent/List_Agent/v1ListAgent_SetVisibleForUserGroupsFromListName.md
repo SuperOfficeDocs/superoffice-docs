@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Goyette Inc and Sons",
-  "ListItemId": 688,
+  "UdListDefinitionName": "Streich LLC",
+  "ListItemId": 994,
   "UserGroups": [
     {
-      "Id": 265,
-      "Name": "Gibson, Sanford and Flatley",
-      "ToolTip": "Repellat quam in.",
+      "Id": 73,
+      "Name": "Fritsch, Heller and Wisoky",
+      "ToolTip": "Aut non ab incidunt.",
       "Deleted": false,
-      "Rank": 196,
-      "Type": "natus",
-      "ColorBlock": 552,
-      "IconHint": "voluptas",
-      "Selected": true,
-      "LastChanged": "2015-07-28T03:44:52.6989885+02:00",
+      "Rank": 642,
+      "Type": "quia",
+      "ColorBlock": 710,
+      "IconHint": "labore",
+      "Selected": false,
+      "LastChanged": "2004-08-23T13:14:06.0851676+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ullam",
-      "StyleHint": "quia",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "vel",
       "Hidden": false,
-      "FullName": "Immanuel Conn"
+      "FullName": "Roman Langosh"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Lubowitz, Schumm and Harvey",
-    "ToolTip": "Velit quas.",
+    "Id": 412,
+    "Name": "Jacobs-Deckow",
+    "ToolTip": "Molestiae consequatur.",
     "Deleted": false,
-    "Rank": 201,
-    "Type": "id",
-    "ColorBlock": 972,
-    "IconHint": "at",
+    "Rank": 95,
+    "Type": "minus",
+    "ColorBlock": 619,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2018-07-21T03:44:52.6989885+02:00",
+    "LastChanged": "2011-02-28T13:14:06.0851676+01:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Franecki-Haag",
-        "ToolTip": "Occaecati aut alias eos necessitatibus qui et.",
+        "Id": 616,
+        "Name": "Daugherty, Ortiz and Morissette",
+        "ToolTip": "Consectetur placeat consequatur qui reprehenderit blanditiis accusantium.",
         "Deleted": false,
-        "Rank": 536,
-        "Type": "soluta",
-        "ColorBlock": 710,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2013-08-18T03:44:52.6989885+02:00",
+        "Rank": 734,
+        "Type": "in",
+        "ColorBlock": 333,
+        "IconHint": "repudiandae",
+        "Selected": true,
+        "LastChanged": "2016-01-24T13:14:06.0851676+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Jonatan VonRueden",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Flo Hyatt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 733
+            "FieldType": "System.String",
+            "FieldLength": 363
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "commodi",
-    "Hidden": false,
-    "FullName": "Kody Dietrich",
+    "ExtraInfo": "eius",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Montana Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 743
       }
     }
   }

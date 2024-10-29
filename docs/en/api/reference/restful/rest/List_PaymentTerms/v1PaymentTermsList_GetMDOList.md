@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=vero
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Schaefer-Effertz",
-    "ToolTip": "Commodi cupiditate hic error ut illum corporis perferendis.",
+    "Id": 351,
+    "Name": "Muller, Block and Lockman",
+    "ToolTip": "Aut earum eius occaecati ut.",
     "Deleted": false,
-    "Rank": 917,
-    "Type": "est",
+    "Rank": 629,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Stanton, Stiedemann and Dibbert",
-        "ToolTip": "Sint ea quaerat.",
-        "Deleted": true,
-        "Rank": 1001,
-        "Type": "id",
+        "Id": 865,
+        "Name": "Muller, Johns and Homenick",
+        "ToolTip": "Molestiae et.",
+        "Deleted": false,
+        "Rank": 838,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 67,
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "eos",
-        "FullName": "Russ Wiza",
+        "IconHint": "quibusdam",
+        "ColorBlock": 223,
+        "ExtraInfo": "officiis",
+        "StyleHint": "quos",
+        "FullName": "Dr. Hoyt Gudrun Mueller IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 529
           }
         }
       }
     ],
-    "IconHint": "reprehenderit",
-    "ColorBlock": 318,
-    "ExtraInfo": "rerum",
-    "StyleHint": "odio",
-    "FullName": "Prof. Efren Mertz",
+    "IconHint": "fugiat",
+    "ColorBlock": 456,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "dolorem",
+    "FullName": "Carmel Senger I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 940
+        "FieldType": "System.String",
+        "FieldLength": 98
       }
     }
   }

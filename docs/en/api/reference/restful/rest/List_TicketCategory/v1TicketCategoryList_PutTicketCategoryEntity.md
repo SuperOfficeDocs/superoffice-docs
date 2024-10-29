@@ -108,29 +108,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 367,
-  "ParentId": 694,
-  "Name": "Orn-Turner",
-  "Fullname": "et",
-  "CategoryMaster": 414,
+  "TicketCategoryId": 163,
+  "ParentId": 912,
+  "Name": "Beer, Fisher and Dare",
+  "Fullname": "quasi",
+  "CategoryMaster": 551,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cole-McGlynn",
+  "ExternalName": "Runolfsson LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 274,
-  "ReplyTemplate": 60,
-  "NotificationEmail": "tremayne@mcglynnortiz.com",
+  "AssignmentLag": 275,
+  "ReplyTemplate": 180,
+  "NotificationEmail": "leif_rogahn@wolf.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 602,
+  "EffectiveReplyTemplateId": 174,
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "delectus"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "nobis"
+    "CustomFields1": "et",
+    "CustomFields2": "consequatur"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 885,
-  "ParentId": 611,
-  "Name": "Ruecker Group",
-  "Fullname": "at",
-  "CategoryMaster": 921,
+  "TicketCategoryId": 744,
+  "ParentId": 145,
+  "Name": "Eichmann LLC",
+  "Fullname": "harum",
+  "CategoryMaster": 126,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Lehner-Mitchell",
+  "ExternalName": "Adams Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 719,
-  "ReplyTemplate": 129,
-  "NotificationEmail": "elyssa.hayes@townebecker.com",
+  "AssignmentLag": 1000,
+  "ReplyTemplate": 509,
+  "NotificationEmail": "felicia@swaniawski.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 580,
+  "EffectiveReplyTemplateId": 170,
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "vero"
+    "CustomFields1": "labore",
+    "CustomFields2": "quam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 804
     }
   }
 }

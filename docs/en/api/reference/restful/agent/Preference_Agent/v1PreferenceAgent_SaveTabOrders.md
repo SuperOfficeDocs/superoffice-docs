@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 100,
-      "TabName": "Becker, Parker and Dickens",
-      "Order": "expedita",
-      "AssociateId": 264
+      "TabOrderId": 54,
+      "TabName": "Kiehn-Nicolas",
+      "Order": "velit",
+      "AssociateId": 457
     },
     {
-      "TabOrderId": 100,
-      "TabName": "Becker, Parker and Dickens",
-      "Order": "expedita",
-      "AssociateId": 264
+      "TabOrderId": 54,
+      "TabName": "Kiehn-Nicolas",
+      "Order": "velit",
+      "AssociateId": 457
     }
   ]
 }

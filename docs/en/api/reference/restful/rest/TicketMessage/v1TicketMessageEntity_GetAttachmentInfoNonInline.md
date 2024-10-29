@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 584,
-    "Name": "Crona, Windler and Lemke",
-    "ContentType": "expedita",
-    "AttSize": 479,
+    "AttachmentId": 207,
+    "Name": "Hackett Group",
+    "ContentType": "officiis",
+    "AttSize": 796,
     "InlineImage": false,
-    "ContentId": "earum",
-    "AuthKey": "eaque",
-    "IsSafeFileExtension": false,
+    "ContentId": "odit",
+    "AuthKey": "consectetur",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 6
       }
     }
   }

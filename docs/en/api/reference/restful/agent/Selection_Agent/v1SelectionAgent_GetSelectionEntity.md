@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=481
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=426
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved encompassing superstructure",
-  "Postit": "quia",
+  "Description": "Expanded bandwidth-monitored local area network",
+  "Postit": "expedita",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 993,
-  "IncludePerson": 786,
+  "GroupIdx": 581,
+  "IncludePerson": 583,
   "MemberCount": 99.99,
-  "Name": "Larson, Ruecker and Adams",
-  "PostitTextId": 888,
-  "CreatedDate": "2022-11-18T03:44:53.1524683+01:00",
-  "SelectionId": 89,
-  "SoundEx": "distinctio",
-  "Source": 251,
-  "TextId": 678,
-  "UpdatedDate": "1998-03-05T03:44:53.1524683+01:00",
-  "UpdatedCount": 109,
-  "Visibility": 65,
+  "Name": "Howell-Auer",
+  "PostitTextId": 131,
+  "CreatedDate": "2010-09-08T13:14:06.4133118+02:00",
+  "SelectionId": 968,
+  "SoundEx": "debitis",
+  "Source": 798,
+  "TextId": 885,
+  "UpdatedDate": "1998-04-21T13:14:06.4133118+02:00",
+  "UpdatedCount": 638,
+  "Visibility": 760,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 693,
-  "TargetTableName": "Corwin-Fritsch",
-  "Completed": true,
-  "LeftSelectionId": 339,
-  "RightSelectionId": 54,
+  "TargetTableNumber": 392,
+  "TargetTableName": "Mayer, Tillman and McGlynn",
+  "Completed": false,
+  "LeftSelectionId": 802,
+  "RightSelectionId": 861,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Walsh-Gutmann",
-  "ShadowProviderName": "Legros, Satterfield and Marquardt",
-  "ChartKey": "commodi",
-  "LastLoaded": "2001-04-10T03:44:53.1524683+02:00",
-  "LastLoadedBy": 845,
+  "MainProviderName": "Yost Inc and Sons",
+  "ShadowProviderName": "Renner-Waters",
+  "ChartKey": "minus",
+  "LastLoaded": "2007-05-20T13:14:06.4133118+02:00",
+  "LastLoadedBy": 536,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-10-20T03:44:53.1524683+02:00",
-  "LastMembershipChangeBy": 852,
+  "LastMembershipChange": "2015-08-13T13:14:06.4133118+02:00",
+  "LastMembershipChangeBy": 688,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "quod",
-  "MailingsProviderName": "Weber LLC",
-  "DashboardTileDefinitionId": 434,
+  "MainHeading": "illum",
+  "MemberTabHeading": "corporis",
+  "MailingsProviderName": "Runolfsson Inc and Sons",
+  "DashboardTileDefinitionId": 438,
   "VisibleFor": [
     {
-      "VisibleId": 958,
+      "VisibleId": 778,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldLength": 54
         }
       }
     },
     {
-      "VisibleId": 958,
+      "VisibleId": 778,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldLength": 54
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 789
     }
   }
 }

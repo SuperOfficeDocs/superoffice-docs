@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 976
+  "ProductId": 828
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 204,
-  "ERPProductKey": "consectetur",
-  "ERPPriceListKey": "ratione",
-  "Name": "Goyette-Gutmann",
-  "Description": "Inverse motivating array",
-  "Code": "voluptas",
-  "PriceUnit": "non",
-  "QuantityUnit": "eum",
-  "IsSubscription": true,
-  "SubscriptionUnit": "non",
-  "DefaultSubscriptionQuantity": 7129.8499999999995,
-  "ItemNumber": "995510",
+  "ProductId": 144,
+  "ERPProductKey": "adipisci",
+  "ERPPriceListKey": "earum",
+  "Name": "Toy, Shanahan and Ratke",
+  "Description": "Customer-focused zero defect synergy",
+  "Code": "velit",
+  "PriceUnit": "sequi",
+  "QuantityUnit": "omnis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "velit",
+  "DefaultSubscriptionQuantity": 6180.248,
+  "ItemNumber": "376820",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nostrum",
-  "ProductTypeKey": "est",
-  "VAT": 17550.399999999998,
-  "VATInfo": "dolor",
-  "UnitCost": 10784.094,
-  "UnitMinimumPrice": 11928.003999999999,
-  "UnitListPrice": 24501.612,
-  "InAssortment": false,
-  "Supplier": "non",
-  "SupplierCode": "est",
-  "Rights": "earum",
-  "Rule": "voluptatem",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "dolorem",
+  "VAT": 1971.2859999999998,
+  "VATInfo": "est",
+  "UnitCost": 5826.106,
+  "UnitMinimumPrice": 10439.354,
+  "UnitListPrice": 11802.644,
+  "InAssortment": true,
+  "Supplier": "ab",
+  "SupplierCode": "sit",
+  "Rights": "non",
+  "Rule": "suscipit",
   "ExtraInfo": [
     {
-      "Name": "Ziemann Inc and Sons",
-      "Value": "accusantium",
+      "Name": "King, Nolan and Fahey",
+      "Value": "natus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldLength": 931
         }
       }
     },
     {
-      "Name": "Ziemann Inc and Sons",
-      "Value": "accusantium",
+      "Name": "King, Nolan and Fahey",
+      "Value": "natus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldLength": 931
         }
       }
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "aut",
-  "ExtraField2": "et",
-  "ExtraField3": "autem",
-  "ExtraField4": "mollitia",
-  "ExtraField5": "et",
-  "InStock": 15566.578,
+  "RawExtraInfo": "velit",
+  "ExtraField1": "quia",
+  "ExtraField2": "ut",
+  "ExtraField3": "pariatur",
+  "ExtraField4": "incidunt",
+  "ExtraField5": "soluta",
+  "InStock": 15181.096,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

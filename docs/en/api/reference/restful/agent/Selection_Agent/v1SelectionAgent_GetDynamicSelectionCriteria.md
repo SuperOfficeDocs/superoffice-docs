@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 301
+  "SelectionId": 959
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marks Group",
-    "Operator": "tempore",
+    "Name": "Johns-Marquardt",
+    "Operator": "ipsa",
     "Values": [
-      "nisi",
-      "vero"
+      "optio",
+      "laboriosam"
     ],
     "DisplayValues": [
-      "asperiores",
-      "enim"
+      "sint",
+      "minima"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "O'Connell LLC",
-        "Operator": "et",
+        "Name": "Volkman-Kovacek",
+        "Operator": "voluptatem",
         "Values": [
-          "illo",
-          "molestias"
+          "voluptas",
+          "dignissimos"
         ],
         "DisplayValues": [
-          "vitae",
-          "soluta"
+          "quia",
+          "impedit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 996,
+        "InterParenthesis": 779,
         "InterOperator": "And",
-        "UniqueHash": 792
+        "UniqueHash": 552
       }
     ],
-    "InterParenthesis": 614,
+    "InterParenthesis": 720,
     "InterOperator": "And",
-    "UniqueHash": 249
+    "UniqueHash": 660
   }
 ]
 ```

@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1999-04-07T03:44:51.9646496+02:00"
+  "StartDate": "2020-08-15T13:14:05.4288773+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 478,
-  "StartDate": "2021-01-08T03:44:51.9646496+01:00",
-  "EndDate": "2017-12-02T03:44:51.9646496+01:00",
-  "RecurrenceCounter": 172,
+  "RecurrenceId": 722,
+  "StartDate": "2015-06-23T13:14:05.4288773+02:00",
+  "EndDate": "1999-09-06T13:14:05.4288773+02:00",
+  "RecurrenceCounter": 164,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2009-12-01T03:44:51.9646496+01:00",
-      "IsConflict": true,
-      "Description": "Right-sized optimizing data-warehouse",
-      "DescriptionStyleHint": "Centralized even-keeled hub",
-      "Tooltip": "non"
+      "Date": "2019-06-26T13:14:05.4288773+02:00",
+      "IsConflict": false,
+      "Description": "User-centric zero tolerance standardization",
+      "DescriptionStyleHint": "User-friendly value-added challenge",
+      "Tooltip": "ipsum"
     },
     {
-      "Date": "2009-12-01T03:44:51.9646496+01:00",
-      "IsConflict": true,
-      "Description": "Right-sized optimizing data-warehouse",
-      "DescriptionStyleHint": "Centralized even-keeled hub",
-      "Tooltip": "non"
+      "Date": "2019-06-26T13:14:05.4288773+02:00",
+      "IsConflict": false,
+      "Description": "User-centric zero tolerance standardization",
+      "DescriptionStyleHint": "User-friendly value-added challenge",
+      "Tooltip": "ipsum"
     }
   ],
   "IsRecurrence": false

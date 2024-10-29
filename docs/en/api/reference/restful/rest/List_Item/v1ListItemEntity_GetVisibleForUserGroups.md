@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Leannon LLC",
-    "ToolTip": "Hic magnam voluptatibus.",
+    "Id": 271,
+    "Name": "Schulist, Wilkinson and Wiza",
+    "ToolTip": "Reprehenderit totam vitae id maiores quas quos vel.",
     "Deleted": true,
-    "Rank": 732,
-    "Type": "impedit",
-    "ColorBlock": 675,
-    "IconHint": "praesentium",
+    "Rank": 802,
+    "Type": "praesentium",
+    "ColorBlock": 164,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "1998-12-29T03:44:57.8125425+01:00",
+    "LastChanged": "2004-03-08T13:14:11.3048179+01:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Willms, O'Connell and Kozey",
-        "ToolTip": "Nam quo sunt aut doloremque amet eum exercitationem.",
-        "Deleted": false,
-        "Rank": 699,
-        "Type": "fugit",
-        "ColorBlock": 594,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2011-02-02T03:44:57.8125425+01:00",
+        "Id": 931,
+        "Name": "Gerhold-Kling",
+        "ToolTip": "Commodi laborum consequatur odit soluta rem.",
+        "Deleted": true,
+        "Rank": 764,
+        "Type": "et",
+        "ColorBlock": 915,
+        "IconHint": "maiores",
+        "Selected": true,
+        "LastChanged": "2009-03-08T13:14:11.3048179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "harum",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Roxanne Stark IV",
+        "FullName": "Kevin Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 427
+            "FieldType": "System.Int32",
+            "FieldLength": 907
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Demarcus Legros",
+    "ExtraInfo": "est",
+    "StyleHint": "praesentium",
+    "Hidden": true,
+    "FullName": "Lonzo Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 407
       }
     }
   }

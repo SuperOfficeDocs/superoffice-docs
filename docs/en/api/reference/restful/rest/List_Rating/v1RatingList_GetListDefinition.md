@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 220,
-  "Name": "Hamill Inc and Sons",
-  "Tooltip": "libero",
-  "Deleted": true,
-  "Rank": 571,
+  "Id": 616,
+  "Name": "Hahn Inc and Sons",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 277,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsa",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldType": "System.Int32",
+      "FieldLength": 606
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

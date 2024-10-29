@@ -138,7 +138,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 453,
+  "TicketEntityId": 374,
   "ReadStatus": "Green",
   "CheckEscalating": false
 }
@@ -151,21 +151,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 434,
-  "Title": "omnis",
-  "CreatedAt": "2020-02-20T03:44:53.2779412+01:00",
-  "LastChanged": "2012-06-01T03:44:53.2779412+02:00",
-  "ReadByOwner": "2006-10-19T03:44:53.2779412+02:00",
-  "ReadByCustomer": "2003-01-25T03:44:53.2779412+01:00",
-  "FirstReadByOwner": "2024-04-03T03:44:53.2779412+02:00",
-  "FirstReadByUser": "2014-07-27T03:44:53.2779412+02:00",
-  "Activate": "2019-02-22T03:44:53.2779412+01:00",
-  "ClosedAt": "2024-09-30T03:44:53.2779412+02:00",
-  "RepliedAt": "2007-05-12T03:44:53.2779412+02:00",
-  "AlertTimeout": "1998-08-16T03:44:53.2779412+02:00",
-  "Deadline": "2018-06-18T03:44:53.2779412+02:00",
+  "TicketId": 352,
+  "Title": "rerum",
+  "CreatedAt": "2020-06-28T13:14:06.6164496+02:00",
+  "LastChanged": "2018-08-12T13:14:06.6164496+02:00",
+  "ReadByOwner": "2006-05-28T13:14:06.6164496+02:00",
+  "ReadByCustomer": "2010-01-12T13:14:06.6164496+01:00",
+  "FirstReadByOwner": "2010-02-13T13:14:06.6164496+01:00",
+  "FirstReadByUser": "2004-09-02T13:14:06.6164496+02:00",
+  "Activate": "2009-07-21T13:14:06.6164496+02:00",
+  "ClosedAt": "2023-02-14T13:14:06.6164496+01:00",
+  "RepliedAt": "2008-11-02T13:14:06.6164496+01:00",
+  "AlertTimeout": "2020-10-19T13:14:06.6164496+02:00",
+  "Deadline": "2005-04-02T13:14:06.6164496+02:00",
   "CreatedBy": null,
-  "Author": "adipisci",
+  "Author": "velit",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -176,162 +176,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "veritatis",
-      "PersonId": 828,
-      "Mrmrs": "consequatur",
-      "Firstname": "Paolo",
-      "Lastname": "Fay",
-      "MiddleName": "Crist LLC",
-      "Title": "ratione",
-      "Description": "Face to face discrete data-warehouse",
-      "Email": "juana.hyatt@beier.info",
-      "FullName": "Titus Lennie Kessler DDS",
-      "DirectPhone": "199-873-8873",
-      "FormalName": "Olson-Okuneva",
-      "CountryId": 619,
-      "ContactId": 959,
-      "ContactName": "Cole, Kilback and Erdman",
-      "Retired": 940,
-      "Rank": 613,
-      "ActiveInterests": 15,
+      "Position": "doloribus",
+      "PersonId": 606,
+      "Mrmrs": "qui",
+      "Firstname": "Stewart",
+      "Lastname": "Conn",
+      "MiddleName": "Hoeger Inc and Sons",
+      "Title": "vel",
+      "Description": "Vision-oriented tangible structure",
+      "Email": "trystan.heidenreich@wuckertfeest.us",
+      "FullName": "Darian Goodwin",
+      "DirectPhone": "(742)747-2214 x888",
+      "FormalName": "Bailey-Grady",
+      "CountryId": 885,
+      "ContactId": 472,
+      "ContactName": "Gottlieb, Rodriguez and Conn",
+      "Retired": 354,
+      "Rank": 494,
+      "ActiveInterests": 647,
       "ContactDepartment": "",
-      "ContactCountryId": 797,
-      "ContactOrgNr": "976609",
-      "FaxPhone": "(321)369-1773 x46578",
-      "MobilePhone": "1-879-950-7358 x8045",
-      "ContactPhone": "943.119.5600 x938",
-      "AssociateName": "Ferry LLC",
-      "AssociateId": 822,
+      "ContactCountryId": 160,
+      "ContactOrgNr": "675489",
+      "FaxPhone": "270-019-1460",
+      "MobilePhone": "115-742-1634",
+      "ContactPhone": "1-402-848-8530 x79340",
+      "AssociateName": "Osinski LLC",
+      "AssociateId": 4,
       "UsePersonAddress": false,
-      "ContactFax": "perspiciatis",
-      "Kanafname": "odio",
-      "Kanalname": "voluptatum",
-      "Post1": "cupiditate",
-      "Post2": "itaque",
-      "Post3": "repellendus",
-      "EmailName": "lysanne@purdy.uk",
-      "ContactFullName": "Ms. Maida Beier",
-      "ActiveErpLinks": 800,
-      "TicketPriorityId": 698,
-      "SupportLanguageId": 476,
-      "SupportAssociateId": 902,
+      "ContactFax": "natus",
+      "Kanafname": "provident",
+      "Kanalname": "rerum",
+      "Post1": "quaerat",
+      "Post2": "tempore",
+      "Post3": "consequatur",
+      "EmailName": "jane@mraz.info",
+      "ContactFullName": "Libby Rodriguez",
+      "ActiveErpLinks": 563,
+      "TicketPriorityId": 672,
+      "SupportLanguageId": 561,
+      "SupportAssociateId": 175,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 179
+          "FieldLength": 490
         }
       }
     }
   ],
-  "AlertLevel": 86,
-  "ConnectId": 986,
+  "AlertLevel": 741,
+  "ConnectId": 419,
   "ReadStatus": "Green",
-  "TimeToReply": 517,
-  "RealTimeToReply": 28,
-  "TimeToClose": 988,
-  "RealTimeToClose": 976,
-  "TimeSpentInternally": 485,
-  "TimeSpentExternally": 802,
-  "TimeSpentQueue": 141,
-  "RealTimeSpentInternally": 291,
-  "RealTimeSpentExternally": 792,
-  "RealTimeSpentQueue": 567,
-  "TimeSpent": 564,
+  "TimeToReply": 113,
+  "RealTimeToReply": 885,
+  "TimeToClose": 591,
+  "RealTimeToClose": 407,
+  "TimeSpentInternally": 947,
+  "TimeSpentExternally": 223,
+  "TimeSpentQueue": 10,
+  "RealTimeSpentInternally": 636,
+  "RealTimeSpentExternally": 557,
+  "RealTimeSpentQueue": 231,
+  "TimeSpent": 585,
   "HasAttachment": false,
-  "NumReplies": 39,
-  "NumMessages": 41,
-  "FromAddress": "in",
+  "NumReplies": 933,
+  "NumMessages": 931,
+  "FromAddress": "modi",
   "Messages": [
     {
-      "TicketMessageId": 225,
-      "CreatedAt": "2020-10-27T03:44:53.2779412+01:00",
+      "TicketMessageId": 827,
+      "CreatedAt": "2001-11-01T13:14:06.6164496+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "itaque",
-      "PersonId": 959,
-      "PersonFullName": "Aurelia Kihn",
-      "ContactId": 316,
-      "ContactName": "Fadel Inc and Sons",
+      "Important": false,
+      "Author": "omnis",
+      "PersonId": 727,
+      "PersonFullName": "Dr. Jodie Reynolds",
+      "ContactId": 658,
+      "ContactName": "Weimann Group",
       "ContactDepartment": "",
-      "NumAttachments": 84,
-      "EmailHeader": "rowena.koelpin@gleason.uk",
+      "NumAttachments": 866,
+      "EmailHeader": "okey.mcglynn@conroy.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "repellat",
-      "Sentiment": 89,
-      "SentimentConfidence": 991,
-      "CreatedBy": 675,
-      "ChangedAt": "2015-03-27T03:44:53.2779412+01:00",
+      "Language": "sit",
+      "Sentiment": 731,
+      "SentimentConfidence": 175,
+      "CreatedBy": 166,
+      "ChangedAt": "2017-12-27T13:14:06.6164496+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 205
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 946,
-      "Name": "Padberg LLC",
-      "ToolTip": "Pariatur beatae nesciunt.",
+      "Id": 123,
+      "Name": "Lubowitz-Mayer",
+      "ToolTip": "Molestias rem aliquam minus assumenda.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldType": "System.String",
+          "FieldLength": 499
         }
       }
     },
     {
-      "Id": 946,
-      "Name": "Padberg LLC",
-      "ToolTip": "Pariatur beatae nesciunt.",
+      "Id": 123,
+      "Name": "Lubowitz-Mayer",
+      "ToolTip": "Molestias rem aliquam minus assumenda.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldType": "System.String",
+          "FieldLength": 499
         }
       }
     }
   ],
-  "Language": "possimus",
-  "Sentiment": 846,
-  "SentimentConfidence": 812,
-  "SuggestedCategoryId": 243,
+  "Language": "modi",
+  "Sentiment": 298,
+  "SentimentConfidence": 511,
+  "SuggestedCategoryId": 135,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 839,
-  "IconHint": "quisquam",
+  "OrigHumanCategoryId": 19,
+  "IconHint": "dolorum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 58,
+  "ActiveStatusMonitorId": 842,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "ullam"
+    "CustomFields1": "nulla",
+    "CustomFields2": "quidem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

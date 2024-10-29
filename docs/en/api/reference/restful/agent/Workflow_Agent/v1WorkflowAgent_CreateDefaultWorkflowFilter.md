@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Johnson Group",
-      "Description": "Networked zero administration monitoring",
-      "Rank": 681,
+      "Name": "Torp LLC",
+      "Description": "Persevering composite conglomeration",
+      "Rank": 178,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Johnson Group",
-      "Description": "Networked zero administration monitoring",
-      "Rank": 681,
+      "Name": "Torp LLC",
+      "Description": "Persevering composite conglomeration",
+      "Rank": 178,
       "Restrictions": [
         {},
         {}
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 873
     }
   }
 }

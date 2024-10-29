@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 590,
-  "BlobSize": 782,
-  "Description": "Universal upward-trending architecture",
-  "ExtraInfo": "nihil",
-  "IsEncrypted": false,
+  "BlobId": 781,
+  "BlobSize": 571,
+  "Description": "Down-sized heuristic database",
+  "ExtraInfo": "iste",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "velit",
-  "OriginalSize": 356,
-  "CreatedDate": "2005-06-29T03:44:57.1090259+02:00",
-  "UpdatedDate": "2009-01-14T03:44:57.1090259+01:00",
+  "MimeType": "ullam",
+  "OriginalSize": 351,
+  "CreatedDate": "1999-07-21T13:14:10.6954061+02:00",
+  "UpdatedDate": "2024-02-14T13:14:10.6954061+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut"
+  "ConceptualType": "qui"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 584,
-  "BlobSize": 772,
-  "Description": "Diverse interactive info-mediaries",
-  "ExtraInfo": "quo",
+  "BlobId": 925,
+  "BlobSize": 467,
+  "Description": "Mandatory zero defect strategy",
+  "ExtraInfo": "quis",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nihil",
-  "OriginalSize": 904,
-  "CreatedDate": "2022-08-31T03:44:57.1246527+02:00",
-  "UpdatedDate": "1997-06-12T03:44:57.1246527+02:00",
+  "IsZipped": false,
+  "MimeType": "ducimus",
+  "OriginalSize": 746,
+  "CreatedDate": "2009-10-10T13:14:10.6954061+02:00",
+  "UpdatedDate": "2018-01-08T13:14:10.6954061+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "incidunt",
+  "ConceptualType": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 848
     }
   }
 }

@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 602,
-  "StartDate": "2007-08-18T03:44:51.9490264+02:00",
-  "EndDate": "2021-05-19T03:44:51.9490264+02:00",
-  "RecurrenceCounter": 119,
+  "RecurrenceId": 451,
+  "StartDate": "2012-07-15T13:14:05.3976254+02:00",
+  "EndDate": "2000-09-17T13:14:05.3976254+02:00",
+  "RecurrenceCounter": 803,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-02-17T03:44:51.9490264+01:00",
-      "IsConflict": false,
-      "Description": "Realigned heuristic open system",
-      "DescriptionStyleHint": "Cross-group empowering hierarchy",
-      "Tooltip": "incidunt"
+      "Date": "2024-02-15T13:14:05.3976254+01:00",
+      "IsConflict": true,
+      "Description": "Implemented 6th generation structure",
+      "DescriptionStyleHint": "Multi-layered tangible algorithm",
+      "Tooltip": "consequatur"
     },
     {
-      "Date": "1999-02-17T03:44:51.9490264+01:00",
-      "IsConflict": false,
-      "Description": "Realigned heuristic open system",
-      "DescriptionStyleHint": "Cross-group empowering hierarchy",
-      "Tooltip": "incidunt"
+      "Date": "2024-02-15T13:14:05.3976254+01:00",
+      "IsConflict": true,
+      "Description": "Implemented 6th generation structure",
+      "DescriptionStyleHint": "Multi-layered tangible algorithm",
+      "Tooltip": "consequatur"
     }
   ],
   "IsRecurrence": true

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 729,
-    "Value": "quo",
-    "Tooltip": "quis",
+    "Id": 345,
+    "Value": "optio",
+    "Tooltip": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldType": "System.Int32",
+        "FieldLength": 626
       }
     }
   },
   {
-    "Id": 729,
-    "Value": "quo",
-    "Tooltip": "quis",
+    "Id": 345,
+    "Value": "optio",
+    "Tooltip": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldType": "System.Int32",
+        "FieldLength": 626
       }
     }
   }

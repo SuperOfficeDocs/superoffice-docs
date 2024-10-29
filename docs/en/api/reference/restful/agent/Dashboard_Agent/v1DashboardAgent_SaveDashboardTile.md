@@ -93,42 +93,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 281,
-  "Caption": "vel",
-  "Description": "Monitored even-keeled product",
-  "ChartName": "Mosciski-Nader",
-  "ChartId": "tenetur",
+  "DashboardTileId": 563,
+  "Caption": "eos",
+  "Description": "Ameliorated modular emulation",
+  "ChartName": "Lakin-Watsica",
+  "ChartId": "voluptatem",
   "IsDefault": false,
-  "AssociateId": 742,
-  "GroupId": 7,
-  "SelectionId": 730,
-  "Config": "voluptates",
+  "AssociateId": 324,
+  "GroupId": 624,
+  "SelectionId": 255,
+  "Config": "adipisci",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Stoltenberg-Nader",
-      "Description": "Intuitive static capability",
+      "Name": "Kautzer, Bruen and Bahringer",
+      "Description": "Assimilated radical project",
       "Type": "Boolean",
-      "ListName": "Kling, Grimes and Stokes",
+      "ListName": "Purdy Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "repudiandae",
+      "Value": "et",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 195,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "at"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 195,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "at"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 867,
-  "Caption": "minima",
-  "Description": "Configurable empowering data-warehouse",
-  "ChartName": "Zieme-Miller",
+  "DashboardTileId": 358,
+  "Caption": "sit",
+  "Description": "Open-architected radical protocol",
+  "ChartName": "Glover LLC",
   "ChartId": "sit",
-  "IsDefault": true,
-  "AssociateId": 565,
-  "GroupId": 795,
-  "SelectionId": 61,
-  "Config": "nesciunt",
+  "IsDefault": false,
+  "AssociateId": 117,
+  "GroupId": 779,
+  "SelectionId": 516,
+  "Config": "ut",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Cartwright, Spinka and Halvorson",
-      "Description": "Reverse-engineered web-enabled workforce",
+      "Name": "Thompson-Metz",
+      "Description": "Robust directional migration",
       "Type": "Boolean",
-      "ListName": "Kozey, Lehner and Lebsack",
+      "ListName": "Lowe-Abshire",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "non",
-      "DefaultDataOption": true,
+      "Value": "rem",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 783
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 652,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 799
         }
       }
     },
     {
-      "VisibleId": 652,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 799
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 74
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=577
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=376
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 371,
-  "StartDate": "1997-08-05T03:44:51.9021567+02:00",
-  "EndDate": "1999-05-16T03:44:51.9021567+02:00",
+  "AppointmentId": 565,
+  "StartDate": "2005-04-20T13:14:05.3663737+02:00",
+  "EndDate": "2015-10-01T13:14:05.3663737+02:00",
   "Type": "BookingForChecklist",
-  "Task": "debitis",
-  "AssociateFullName": "Edmund Labadie",
-  "ContactName": "Kozey-Renner",
-  "Description": "Down-sized responsive workforce",
-  "PersonFullName": "Dr. Karolann Gavin Crist III",
-  "PersonId": 860,
-  "ContactId": 464,
-  "ProjectId": 528,
-  "ProjectName": "Kuhn-Grimes",
-  "IsPublished": true,
-  "AssociateId": 988,
-  "ColorIndex": 159,
+  "Task": "voluptas",
+  "AssociateFullName": "Maymie Wilford Blick IV",
+  "ContactName": "Metz Group",
+  "Description": "Customer-focused intangible matrix",
+  "PersonFullName": "Mr. Lillie Nils Kuhlman",
+  "PersonId": 209,
+  "ContactId": 405,
+  "ProjectId": 291,
+  "ProjectName": "Walter, Ruecker and Considine",
+  "IsPublished": false,
+  "AssociateId": 985,
+  "ColorIndex": 380,
   "IsFree": false,
-  "HasAlarm": true,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 24,
-  "PriorityName": "Hackett Group",
+  "PriorityId": 675,
+  "PriorityName": "Effertz LLC",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2005-08-27T03:44:51.9021567+02:00",
+  "ActiveDate": "2022-03-31T13:14:05.3663737+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2019-07-02T03:44:51.9021567+02:00",
-  "RecurringEndDate": "2012-09-04T03:44:51.9021567+02:00",
-  "MotherId": 896,
-  "AssignedBy": 460,
-  "AssignedByFullName": "Amos Mayer",
+  "RecurringStartDate": "2020-12-31T13:14:05.3663737+01:00",
+  "RecurringEndDate": "2011-12-28T13:14:05.3663737+01:00",
+  "MotherId": 831,
+  "AssignedBy": 101,
+  "AssignedByFullName": "Eleanora Morar",
   "RejectReason": "",
-  "Location": "omnis",
-  "AlarmLeadTime": "a",
-  "SaleId": 291,
-  "SaleName": "Macejkovic-Langworth",
-  "AssociateName": "Flatley Group",
-  "CreatedDate": "2021-12-14T03:44:51.9021567+01:00",
-  "CreatedBy": "dignissimos",
-  "CreatedByFullName": "Niko Runte",
-  "CreatedByAssociateId": 704,
+  "Location": "asperiores",
+  "AlarmLeadTime": "sint",
+  "SaleId": 322,
+  "SaleName": "Bailey, Wolf and Nader",
+  "AssociateName": "Ryan Inc and Sons",
+  "CreatedDate": "2001-07-14T13:14:05.3663737+02:00",
+  "CreatedBy": "id",
+  "CreatedByFullName": "Zelma Koss V",
+  "CreatedByAssociateId": 117,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 134,
-  "Title": "ipsam",
-  "Agenda": "nam",
-  "InternalNotes": "quasi",
+  "PreferredTZLocation": 172,
+  "Title": "odio",
+  "Agenda": "eos",
+  "InternalNotes": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 21
     }
   }
 }

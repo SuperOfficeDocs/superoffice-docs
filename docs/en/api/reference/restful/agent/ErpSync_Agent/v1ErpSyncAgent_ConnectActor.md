@@ -71,29 +71,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 327,
-  "CrmRecordId": 59,
+  "ErpConnectionId": 811,
+  "CrmRecordId": 884,
   "CrmActorType": "Contact",
-  "ErpKey": "quia",
+  "ErpKey": "quis",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Block-Hills",
-      "CrmFieldKey": "aliquam",
-      "Value": "modi",
-      "DisplayValue": "voluptatem",
+      "DisplayName": "Bayer, Lesch and Breitenberg",
+      "CrmFieldKey": "ut",
+      "Value": "earum",
+      "DisplayValue": "aut",
       "SyncToCrm": false,
       "SyncToErp": true
     },
     {
-      "DisplayName": "Block-Hills",
-      "CrmFieldKey": "aliquam",
-      "Value": "modi",
-      "DisplayValue": "voluptatem",
+      "DisplayName": "Bayer, Lesch and Breitenberg",
+      "CrmFieldKey": "ut",
+      "Value": "earum",
+      "DisplayValue": "aut",
       "SyncToCrm": false,
       "SyncToErp": true
     }

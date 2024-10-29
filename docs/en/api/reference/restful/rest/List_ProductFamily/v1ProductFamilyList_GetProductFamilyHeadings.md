@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 450,
-    "Name": "Greenholt LLC",
-    "Tooltip": "quis",
+    "HeadingId": 457,
+    "Name": "Shanahan Inc and Sons",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 690,
-    "UdListDefinitionId": 88,
+    "Rank": 461,
+    "UdListDefinitionId": 135,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 771
       }
     }
   }

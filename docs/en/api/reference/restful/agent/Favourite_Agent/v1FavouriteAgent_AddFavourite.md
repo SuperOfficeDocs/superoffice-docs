@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hand, Koelpin and Windler",
-  "RecordId": 79,
-  "AssociateId": 801,
-  "ExtraInfo": "veritatis"
+  "TableName": "Klein Group",
+  "RecordId": 9,
+  "AssociateId": 410,
+  "ExtraInfo": "ipsum"
 }
 ```
 

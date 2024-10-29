@@ -133,18 +133,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "saepe",
+    "path": "minima",
     "value": {}
   },
   {
     "op": "add",
-    "path": "saepe",
+    "path": "minima",
     "value": {}
   }
 ]
@@ -157,79 +157,79 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 816,
+  "EjMessageId": 112,
   "Ticket": null,
-  "CreatedAt": "2015-03-07T03:44:57.687517+01:00",
+  "CreatedAt": "1997-07-20T13:14:11.1798105+02:00",
   "CreatedBy": null,
-  "Author": "commodi",
+  "Author": "ab",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "laudantium",
-  "TimeSpent": 938,
-  "Body": "ut",
-  "HtmlBody": "velit",
-  "EmailHeader": "kennith@mcdermott.info",
-  "DebugInfo": "hic",
-  "MailSorter": "itaque",
+  "MessageId": "veniam",
+  "TimeSpent": 171,
+  "Body": "omnis",
+  "HtmlBody": "laborum",
+  "EmailHeader": "raphaelle.hauck@ondrickasenger.biz",
+  "DebugInfo": "possimus",
+  "MailSorter": "voluptates",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quia",
+  "SearchTitle": "omnis",
   "MessageHeaders": [
     {
-      "Id": 149,
-      "Name": "Waters Group",
-      "Value": "suscipit",
+      "Id": 319,
+      "Name": "Bogisich-Casper",
+      "Value": "vitae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldType": "System.String",
+          "FieldLength": 440
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "vel",
-  "Sentiment": 198,
-  "SentimentConfidence": 565,
+  "Important": false,
+  "Language": "ratione",
+  "Sentiment": 949,
+  "SentimentConfidence": 309,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 596,
-      "Name": "Runolfsdottir Group",
-      "ContentType": "voluptates",
-      "AttSize": 269,
+      "AttachmentId": 38,
+      "Name": "Abernathy-Bogisich",
+      "ContentType": "iure",
+      "AttSize": 180,
       "InlineImage": true,
-      "ContentId": "modi",
-      "AuthKey": "necessitatibus",
-      "IsSafeFileExtension": false,
+      "ContentId": "quis",
+      "AuthKey": "nam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 687
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "aut"
+    "CustomFields1": "architecto",
+    "CustomFields2": "corrupti"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldLength": 209
     }
   },
   "_Links": {

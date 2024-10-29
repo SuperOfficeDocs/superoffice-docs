@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 202
+  "SaleId": 228
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 47,
-  "SaleId": 380,
-  "QuoteConnectionId": 446,
-  "ERPQuoteKey": "quam",
-  "ERPOrderKey": "maiores",
-  "ActiveQuoteVersionId": 369,
-  "AcceptedQuoteAlternativeId": 615,
-  "UseValuesFromQuote": 417,
-  "DocumentId": 344,
-  "PoNumber": "600202",
-  "OrderComment": "nisi",
-  "PreferredEmailCulture": "nannie@emard.name",
+  "QuoteId": 677,
+  "SaleId": 887,
+  "QuoteConnectionId": 45,
+  "ERPQuoteKey": "tempora",
+  "ERPOrderKey": "sunt",
+  "ActiveQuoteVersionId": 303,
+  "AcceptedQuoteAlternativeId": 957,
+  "UseValuesFromQuote": 421,
+  "DocumentId": 129,
+  "PoNumber": "1243357",
+  "OrderComment": "sint",
+  "PreferredEmailCulture": "hayley.kuhn@zulaufolson.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 983
     }
   }
 }

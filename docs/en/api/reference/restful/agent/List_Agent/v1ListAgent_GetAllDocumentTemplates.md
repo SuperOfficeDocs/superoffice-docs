@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 735,
-    "Name": "Lemke, Runte and Leannon",
-    "Tooltip": "illo",
-    "SaveInDb": 758,
-    "Filename": "itaque",
-    "DefaultOref": "molestiae",
+    "DocumentTemplateId": 222,
+    "Name": "Metz, Medhurst and Altenwerth",
+    "Tooltip": "magnam",
+    "SaveInDb": 969,
+    "Filename": "tempora",
+    "DefaultOref": "similique",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 444,
-    "IntentId": 404,
+    "AutoeventId": 163,
+    "IntentId": 826,
     "IsDefaultPublished": false,
-    "Rank": 602,
-    "LoadTemplateFromPlugin": 172,
-    "MimeType": "magnam",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 736,
+    "Rank": 12,
+    "LoadTemplateFromPlugin": 56,
+    "MimeType": "voluptatem",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 396,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "keira.pacocha@dickens.biz",
-    "IncludeSignature": true,
-    "ShowCurrents": true,
+    "EmailSubject": "reggie@windler.biz",
+    "IncludeSignature": false,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jonathon@harvey.co.uk",
+    "SenderEmailAddress": "hazel@streich.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldLength": 534
       }
     }
   }

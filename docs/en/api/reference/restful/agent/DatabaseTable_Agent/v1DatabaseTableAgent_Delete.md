@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schroeder Inc and Sons",
+  "TableName": "Medhurst, Sanford and Roberts",
   "IDs": [
-    792,
-    688
+    150,
+    413
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "necessitatibus",
-  "Inserts": 252,
-  "Updates": 237,
-  "Deletes": 738,
+  "Message": "est",
+  "Inserts": 918,
+  "Updates": 862,
+  "Deletes": 965,
   "RowStatus": [
     {
-      "PrimaryKey": 861,
+      "PrimaryKey": 502,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "cumque",
-        "tempore"
+        "sint",
+        "odio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     },
     {
-      "PrimaryKey": 861,
+      "PrimaryKey": 502,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "cumque",
-        "tempore"
+        "sint",
+        "odio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 882
     }
   }
 }

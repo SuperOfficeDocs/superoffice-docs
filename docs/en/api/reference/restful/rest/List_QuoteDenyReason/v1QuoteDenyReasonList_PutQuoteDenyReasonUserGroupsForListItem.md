@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Rolfson-Johnson",
-    "ToolTip": "Qui nihil.",
-    "Deleted": false,
-    "Rank": 6,
-    "Type": "voluptates",
-    "ColorBlock": 800,
-    "IconHint": "quis",
+    "Id": 588,
+    "Name": "Grimes-Kuvalis",
+    "ToolTip": "Voluptatem laudantium maiores quia ullam et esse.",
+    "Deleted": true,
+    "Rank": 842,
+    "Type": "voluptate",
+    "ColorBlock": 127,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2005-07-15T03:44:58.1093468+02:00",
+    "LastChanged": "2017-03-04T13:14:11.5079552+01:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "McCullough Inc and Sons",
-        "ToolTip": "Quae dicta qui.",
+        "Id": 659,
+        "Name": "Gulgowski Group",
+        "ToolTip": "Adipisci ex.",
         "Deleted": false,
-        "Rank": 196,
-        "Type": "voluptas",
-        "ColorBlock": 822,
-        "IconHint": "nemo",
-        "Selected": true,
-        "LastChanged": "2010-10-06T03:44:58.1093468+02:00",
+        "Rank": 558,
+        "Type": "est",
+        "ColorBlock": 378,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2004-11-29T13:14:11.5079552+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "illo",
-        "Hidden": true,
-        "FullName": "Aliya Karolann Bernhard PhD"
+        "ExtraInfo": "vitae",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Lamont Eileen Borer Jr."
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "fuga",
+    "ExtraInfo": "error",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Annamae Wintheiser"
+    "FullName": "Elda Nikolaus"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Hackett-Ryan",
-    "ToolTip": "Voluptate corporis.",
+    "Id": 879,
+    "Name": "Ruecker-Hane",
+    "ToolTip": "Quos est quisquam hic.",
     "Deleted": false,
-    "Rank": 346,
-    "Type": "non",
-    "ColorBlock": 225,
-    "IconHint": "aspernatur",
+    "Rank": 203,
+    "Type": "enim",
+    "ColorBlock": 931,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2002-01-06T03:44:58.1093468+01:00",
+    "LastChanged": "2018-04-22T13:14:11.5079552+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Hoeger-Wiza",
-        "ToolTip": "Soluta ut nulla esse labore veniam quam illum.",
+        "Id": 289,
+        "Name": "Grimes, Lesch and Goyette",
+        "ToolTip": "Sunt reprehenderit dolorum ullam in tenetur aperiam.",
         "Deleted": true,
-        "Rank": 701,
-        "Type": "voluptate",
-        "ColorBlock": 210,
-        "IconHint": "ea",
+        "Rank": 376,
+        "Type": "quis",
+        "ColorBlock": 171,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2004-06-10T03:44:58.1093468+02:00",
+        "LastChanged": "2016-03-04T13:14:11.5079552+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Art Quitzon",
+        "FullName": "Miss Jasen Sandra Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 416
+            "FieldLength": 121
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "quis",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Benedict Medhurst DDS",
+    "FullName": "Brandi Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 51
       }
     }
   }

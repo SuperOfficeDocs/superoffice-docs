@@ -107,32 +107,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 690,
-  "Name": "Hermann-Hegmann",
-  "Tooltip": "at",
-  "Deleted": false,
-  "Rank": 413,
+  "WebPanelId": 334,
+  "Name": "Stokes, Bernhard and Kuhlman",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 888,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Walsh Inc and Sons",
+  "ShowInStatusBar": false,
+  "WindowName": "Sipes-Aufderhar",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 910,
+  "ProgId": "odio",
+  "Icon": 567,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -143,26 +143,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 521,
-  "Name": "Renner LLC",
-  "Tooltip": "eius",
+  "WebPanelId": 834,
+  "Name": "Pfannerstill, Langworth and Waters",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 712,
+  "Rank": 903,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Keebler Group",
+  "ShowInStatusBar": false,
+  "WindowName": "VonRueden, Cormier and Romaguera",
   "Url": "http://www.example.com/",
   "ProgId": "reprehenderit",
-  "Icon": 337,
+  "Icon": 612,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 48
     }
   }
 }

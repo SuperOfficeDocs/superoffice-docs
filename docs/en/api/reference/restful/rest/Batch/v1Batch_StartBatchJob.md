@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
-  "Name": "Braun LLC",
-  "AssociateId": 473,
-  "DetailsTable": 250,
-  "DetailsRecord": 316,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 632,
+  "Name": "O'Keefe-Wolf",
+  "AssociateId": 80,
+  "DetailsTable": 326,
+  "DetailsRecord": 546,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "similique",
-    "ParameterObject2": "iusto"
+    "ParameterObject1": "officia",
+    "ParameterObject2": "laudantium"
   },
-  "LastStarted": "1997-11-03T03:44:57.687517+01:00",
-  "Created": "2011-05-25T03:44:57.687517+02:00",
-  "StartCount": 730,
-  "DatabaseSerialNumber": "1102093",
-  "Context": "voluptatibus",
-  "Result": "eligendi",
+  "LastStarted": "2002-12-13T13:14:11.1954363+01:00",
+  "Created": "2022-01-28T13:14:11.1954363+01:00",
+  "StartCount": 87,
+  "DatabaseSerialNumber": "170112",
+  "Context": "cupiditate",
+  "Result": "repellendus",
   "State": "All",
-  "Description": "Organized incremental knowledge user",
-  "Response": "ea",
-  "Request": "nihil",
-  "ProgressDescription": "Managed didactic extranet",
-  "ProgressPercent": 982,
-  "FileName": "Larkin, Hermann and Smitham",
+  "Description": "Self-enabling uniform focus group",
+  "Response": "veniam",
+  "Request": "minus",
+  "ProgressDescription": "Fundamental 5th generation neural-net",
+  "ProgressPercent": 22,
+  "FileName": "Yundt-Gorczany",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-956
+199
 ```

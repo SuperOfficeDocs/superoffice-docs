@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Rempel LLC",
-    "ToolTip": "Aut odio atque nemo eius.",
+    "Id": 291,
+    "Name": "Abshire-Monahan",
+    "ToolTip": "Sit porro.",
     "Deleted": true,
-    "Rank": 534,
-    "Type": "ipsa",
-    "ColorBlock": 395,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2015-08-09T03:44:58.1405935+02:00",
+    "Rank": 834,
+    "Type": "id",
+    "ColorBlock": 439,
+    "IconHint": "asperiores",
+    "Selected": true,
+    "LastChanged": "2023-03-02T13:14:11.5235812+01:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Howell-Hessel",
-        "ToolTip": "Voluptates voluptatum atque et.",
+        "Id": 781,
+        "Name": "Weber LLC",
+        "ToolTip": "Quia fugit ut similique.",
         "Deleted": false,
-        "Rank": 903,
-        "Type": "dolorem",
-        "ColorBlock": 689,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2000-10-04T03:44:58.1405935+02:00",
+        "Rank": 31,
+        "Type": "sit",
+        "ColorBlock": 417,
+        "IconHint": "rem",
+        "Selected": true,
+        "LastChanged": "2002-12-12T13:14:11.5235812+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Mrs. Esther Howell Hermiston",
+        "FullName": "Ms. Dangelo Rolfson PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 700
+            "FieldType": "System.String",
+            "FieldLength": 5
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "dolores",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Etha Daniel",
+    "FullName": "Gina Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 635
       }
     }
   }

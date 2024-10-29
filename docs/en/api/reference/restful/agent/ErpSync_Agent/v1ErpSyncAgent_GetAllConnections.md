@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 87,
-    "ErpConnectorId": 386,
-    "DisplayName": "Carroll Group",
-    "DisplayDescription": "Synchronised dedicated toolset",
+    "ErpConnectionId": 931,
+    "ErpConnectorId": 380,
+    "DisplayName": "Smith, Hane and Jerde",
+    "DisplayDescription": "Multi-layered value-added alliance",
     "Active": false,
-    "ConnectionId": "ab",
-    "MostRecentTimestamp": "dolorum",
+    "ConnectionId": "non",
+    "MostRecentTimestamp": "accusamus",
     "ConfigFields": {
-      "ConfigFields1": "modi",
-      "ConfigFields2": "consequatur"
+      "ConfigFields1": "blanditiis",
+      "ConfigFields2": "incidunt"
     },
     "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      336,
-      765
+      461,
+      161
     ],
     "AssociateAccessIds": [
-      253,
-      167
+      171,
+      31
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldLength": 304
       }
     }
   }

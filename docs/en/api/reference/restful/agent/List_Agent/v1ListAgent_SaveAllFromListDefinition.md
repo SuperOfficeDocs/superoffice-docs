@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 744,
+  "UdListDefinitionId": 730,
   "Items": [
     {
-      "Id": 705,
-      "Name": "Jaskolski LLC",
-      "Tooltip": "natus",
-      "Deleted": false,
-      "UdListDefinitionId": 677,
-      "Rank": 635
+      "Id": 407,
+      "Name": "Macejkovic Inc and Sons",
+      "Tooltip": "amet",
+      "Deleted": true,
+      "UdListDefinitionId": 446,
+      "Rank": 790
     },
     {
-      "Id": 705,
-      "Name": "Jaskolski LLC",
-      "Tooltip": "natus",
-      "Deleted": false,
-      "UdListDefinitionId": 677,
-      "Rank": 635
+      "Id": 407,
+      "Name": "Macejkovic Inc and Sons",
+      "Tooltip": "amet",
+      "Deleted": true,
+      "UdListDefinitionId": 446,
+      "Rank": 790
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 570,
-    "Name": "Bashirian-Okuneva",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 636,
-    "Rank": 328,
+    "Id": 120,
+    "Name": "Gleichner, Hahn and Emmerich",
+    "Tooltip": "doloremque",
+    "Deleted": false,
+    "UdListDefinitionId": 695,
+    "Rank": 345,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 727
       }
     }
   }

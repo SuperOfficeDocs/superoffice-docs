@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Langosh, Murazik and Jerde",
-  "DisplayName": "Pouros, Wuckert and Green",
-  "Description": "Function-based needs-based help-desk",
-  "ShortLabel": "iure",
+  "FieldName": "Hamill, Kutch and Sanford",
+  "DisplayName": "Auer, Botsford and Hessel",
+  "Description": "Focused secondary synergy",
+  "ShortLabel": "iste",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 620,
-  "TemplateVariableName": "Kertzmann Inc and Sons"
+  "Rank": 598,
+  "TemplateVariableName": "Kirlin, Purdy and Bauch"
 }
 ```

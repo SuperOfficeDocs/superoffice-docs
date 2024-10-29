@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 366,
-  "Name": "Jakubowski, Streich and Kovacek",
-  "Rank": 443,
-  "Tooltip": "eum",
+  "AssociateId": 623,
+  "Name": "Jewess-Shields",
+  "Rank": 19,
+  "Tooltip": "quis",
   "LicenseOwners": [
     {
-      "Name": "Ondricka Inc and Sons",
-      "Description": "Re-engineered 24/7 capability",
+      "Name": "Stracke LLC",
+      "Description": "Extended holistic intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 297
+          "FieldLength": 725
         }
       }
     },
     {
-      "Name": "Ondricka Inc and Sons",
-      "Description": "Re-engineered 24/7 capability",
+      "Name": "Stracke LLC",
+      "Description": "Extended holistic intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 297
+          "FieldLength": 725
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "labore",
-      "Tooltip": "necessitatibus",
-      "Id": 887,
-      "Rank": 68,
+      "Value": "non",
+      "Tooltip": "asperiores",
+      "Id": 793,
+      "Rank": 72,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldType": "System.String",
+          "FieldLength": 724
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2006-12-06T03:44:57.7969186+01:00",
-  "Lastlogout": "2002-07-12T03:44:57.7969186+02:00",
-  "EjUserId": 703,
-  "RequestSignature": "sint",
+  "Deleted": false,
+  "Lastlogin": "2000-11-18T13:14:11.289192+01:00",
+  "Lastlogout": "2012-10-25T13:14:11.289192+02:00",
+  "EjUserId": 4,
+  "RequestSignature": "nisi",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "explicabo",
+      "Value": "saepe",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldType": "System.String",
+          "FieldLength": 22
         }
       }
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "explicabo",
+      "Value": "saepe",
+      "DisplayValue": "eos",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 22
+        }
+      }
+    }
+  ],
+  "UserName": "Fisher-Hintz",
+  "TicketCategories": [
+    {
+      "Id": 390,
+      "Name": "Wuckert, Heller and McDermott",
+      "ToolTip": "Illo est.",
+      "Deleted": false,
+      "Rank": 257,
+      "Type": "non",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "vero",
+      "ColorBlock": 513,
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "voluptatibus",
+      "FullName": "Peter Marks",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 260
+        }
+      }
+    }
+  ],
+  "NickName": "Boehm Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "unde",
+    "ExtraFields2": "incidunt"
+  },
+  "CustomFields": {
+    "CustomFields1": "minus",
+    "CustomFields2": "ut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Goodwin Inc and Sons",
+      "DisplayName": "Stracke-Medhurst",
+      "Description": "Function-based grid-enabled circuit",
+      "ToolTip": "Consequuntur consectetur.",
+      "Actions": "Implicit",
+      "ActionData": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
-        }
-      }
-    }
-  ],
-  "UserName": "Blick-Barrows",
-  "TicketCategories": [
-    {
-      "Id": 219,
-      "Name": "Bruen LLC",
-      "ToolTip": "Repudiandae quia adipisci.",
-      "Deleted": false,
-      "Rank": 878,
-      "Type": "voluptatem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "quia",
-      "ColorBlock": 903,
-      "ExtraInfo": "adipisci",
-      "StyleHint": "in",
-      "FullName": "Adah Walsh",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 751
-        }
-      }
-    }
-  ],
-  "NickName": "Hettinger-Hammes",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "molestiae"
-  },
-  "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "tenetur"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Schowalter, Brakus and Nitzsche",
-      "DisplayName": "Carroll-Mosciski",
-      "Description": "Grass-roots heuristic model",
-      "ToolTip": "Incidunt eaque.",
-      "Actions": "Implicit",
-      "ActionData": "dolorem",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 458
+          "FieldLength": 360
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   }
 }

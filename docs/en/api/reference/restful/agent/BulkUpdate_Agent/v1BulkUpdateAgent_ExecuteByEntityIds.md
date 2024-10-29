@@ -77,30 +77,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "dicta",
-      "ValueType": "omnis",
-      "Mandatory": false,
-      "EncodedDisplayName": "Hilpert, Funk and Rath",
-      "EncodedDisplayDescription": "Profit-focused cohesive secured line",
-      "IconHint": "soluta",
+      "IsActive": true,
+      "Key": "dolores",
+      "ValueType": "modi",
+      "Mandatory": true,
+      "EncodedDisplayName": "Lebsack, Collins and Ryan",
+      "EncodedDisplayDescription": "Organized bottom-line success",
+      "IconHint": "et",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "veniam",
-      "EncodedDataCaptionDescription": "Mandatory foreground service-desk",
-      "CurrentOperationType": "quae",
+      "EncodedDataCaption": "et",
+      "EncodedDataCaptionDescription": "Versatile 24/7 moderator",
+      "CurrentOperationType": "distinctio",
       "Values": [
-        "ut",
-        "aperiam"
+        "impedit",
+        "odit"
       ],
       "DisplayValues": [
-        "quis",
-        "cum"
+        "ut",
+        "asperiores"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Stracke-Hilll",
-  "Context": "illum",
-  "Ids": "eveniet"
+  "TableName": "Lubowitz-Mante",
+  "Context": "ex",
+  "Ids": "occaecati"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-451
+256
 ```

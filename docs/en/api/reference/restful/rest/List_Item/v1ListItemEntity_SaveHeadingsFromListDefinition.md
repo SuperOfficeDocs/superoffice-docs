@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 381,
-    "Name": "Feest-Mosciski",
-    "Tooltip": "accusantium",
+    "HeadingId": 805,
+    "Name": "Mraz LLC",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 955,
-    "UdListDefinitionId": 824
+    "Rank": 374,
+    "UdListDefinitionId": 192
   },
   {
-    "HeadingId": 381,
-    "Name": "Feest-Mosciski",
-    "Tooltip": "accusantium",
+    "HeadingId": 805,
+    "Name": "Mraz LLC",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 955,
-    "UdListDefinitionId": 824
+    "Rank": 374,
+    "UdListDefinitionId": 192
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 72,
-    "Name": "Hickle Inc and Sons",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 347,
-    "UdListDefinitionId": 190,
+    "HeadingId": 879,
+    "Name": "Vandervort, Bashirian and Kassulke",
+    "Tooltip": "ullam",
+    "Deleted": true,
+    "Rank": 295,
+    "UdListDefinitionId": 530,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 254
       }
     }
   }

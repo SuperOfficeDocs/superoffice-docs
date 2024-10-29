@@ -62,7 +62,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 430,
-  "Name": "Robel-Schulist",
-  "Config": "voluptatem",
-  "Rank": 750,
-  "Client": "consectetur",
-  "Style": "nihil",
+  "DashboardThemeId": 211,
+  "Name": "Zemlak-Von",
+  "Config": "quasi",
+  "Rank": 633,
+  "Client": "aliquam",
+  "Style": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 449
     }
   }
 }

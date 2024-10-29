@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Reinger, Eichmann and Purdy",
-    "ToolTip": "Facere facilis et omnis.",
+    "Id": 598,
+    "Name": "Schultz-Carter",
+    "ToolTip": "Et illo natus.",
     "Deleted": false,
-    "Rank": 905,
-    "Type": "sed",
-    "ColorBlock": 772,
-    "IconHint": "et",
+    "Rank": 335,
+    "Type": "maxime",
+    "ColorBlock": 935,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2011-10-24T03:44:57.9687368+02:00",
+    "LastChanged": "2013-12-11T13:14:11.3673211+01:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Towne-Adams",
-        "ToolTip": "Quae sit aliquid ex amet.",
+        "Id": 882,
+        "Name": "White, Dare and Adams",
+        "ToolTip": "Praesentium architecto architecto consequuntur occaecati.",
         "Deleted": false,
-        "Rank": 358,
-        "Type": "ratione",
-        "ColorBlock": 110,
-        "IconHint": "qui",
+        "Rank": 518,
+        "Type": "eaque",
+        "ColorBlock": 28,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2003-11-02T03:44:57.9687368+01:00",
+        "LastChanged": "2017-08-15T13:14:11.3673211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Rahsaan Kihn",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Margaretta Ernser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 626
+            "FieldType": "System.String",
+            "FieldLength": 128
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "aut",
+    "ExtraInfo": "nihil",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Prof. Shawn Presley Schinner V",
+    "FullName": "Ellen Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 598
       }
     }
   }

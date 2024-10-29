@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Harvey LLC",
-    "ToolTip": "Ut nisi harum molestias.",
-    "Deleted": true,
-    "Rank": 414,
-    "Type": "eum",
-    "ColorBlock": 849,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2016-10-02T03:44:57.9843605+02:00",
+    "Id": 212,
+    "Name": "Stanton-Zulauf",
+    "ToolTip": "Tempora dolor sed sit quo.",
+    "Deleted": false,
+    "Rank": 178,
+    "Type": "quis",
+    "ColorBlock": 880,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2011-04-07T13:14:11.3829471+02:00",
     "ChildItems": [
       {
-        "Id": 864,
-        "Name": "Wolf, Wisoky and Lang",
-        "ToolTip": "Aliquam sit commodi rerum quidem et ab.",
+        "Id": 13,
+        "Name": "Romaguera-Dooley",
+        "ToolTip": "Officia autem laborum.",
         "Deleted": false,
-        "Rank": 250,
-        "Type": "ea",
-        "ColorBlock": 770,
-        "IconHint": "incidunt",
+        "Rank": 842,
+        "Type": "quos",
+        "ColorBlock": 459,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2012-12-05T03:44:57.9843605+01:00",
+        "LastChanged": "2006-12-23T13:14:11.3829471+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "ut",
+        "ExtraInfo": "qui",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Mrs. Carroll Renner MD",
+        "FullName": "Mason Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldLength": 694
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "dolores",
+    "ExtraInfo": "alias",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Miss Carlos Tromp Jr.",
+    "FullName": "Joy Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldType": "System.Int32",
+        "FieldLength": 760
       }
     }
   }

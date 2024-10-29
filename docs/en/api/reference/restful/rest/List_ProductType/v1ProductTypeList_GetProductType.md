@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "Name": "Adams Group",
-  "Tooltip": "beatae",
-  "Deleted": false,
-  "UdListDefinitionId": 643,
-  "Rank": 870,
+  "Id": 403,
+  "Name": "Bashirian Group",
+  "Tooltip": "facere",
+  "Deleted": true,
+  "UdListDefinitionId": 195,
+  "Rank": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   }
 }

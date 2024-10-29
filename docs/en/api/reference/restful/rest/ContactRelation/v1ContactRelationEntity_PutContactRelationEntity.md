@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 629,
-  "SourcePersonId": 652,
-  "DestinationContactId": 528,
-  "DestinationPersonId": 515,
-  "RelationId": 567,
-  "Comment": "aliquam",
-  "RelationDefinitionId": 55,
-  "Reversed": 891,
-  "UpdatedDate": "2008-10-12T03:44:57.2028009+02:00",
-  "CreatedDate": "2022-09-14T03:44:57.2028009+02:00",
+  "SourceContactId": 90,
+  "SourcePersonId": 17,
+  "DestinationContactId": 437,
+  "DestinationPersonId": 228,
+  "RelationId": 166,
+  "Comment": "quod",
+  "RelationDefinitionId": 275,
+  "Reversed": 300,
+  "UpdatedDate": "2010-11-08T13:14:10.7579101+01:00",
+  "CreatedDate": "2016-11-19T13:14:10.7579101+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Yost, Adams and Mante",
-  "SourcePersonName": "Dooley Group",
-  "DestinationContactName": "Eichmann, Anderson and Schinner",
-  "DestinationPersonName": "Swaniawski, Maggio and Lakin",
-  "ActiveText": "vel",
-  "PassiveText": "minus"
+  "SourceContactName": "Runolfsson Group",
+  "SourcePersonName": "Schmitt Group",
+  "DestinationContactName": "Macejkovic Inc and Sons",
+  "DestinationPersonName": "Heidenreich-Bernier",
+  "ActiveText": "ut",
+  "PassiveText": "sunt"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 325,
-  "SourcePersonId": 990,
-  "DestinationContactId": 351,
-  "DestinationPersonId": 706,
-  "RelationId": 429,
-  "Comment": "impedit",
-  "RelationDefinitionId": 851,
-  "Reversed": 994,
-  "UpdatedDate": "2002-07-05T03:44:57.2028009+02:00",
-  "CreatedDate": "2006-01-27T03:44:57.2028009+01:00",
+  "SourceContactId": 895,
+  "SourcePersonId": 28,
+  "DestinationContactId": 135,
+  "DestinationPersonId": 413,
+  "RelationId": 680,
+  "Comment": "non",
+  "RelationDefinitionId": 565,
+  "Reversed": 854,
+  "UpdatedDate": "1997-09-21T13:14:10.7735359+02:00",
+  "CreatedDate": "2011-09-26T13:14:10.7735359+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kuvalis-Ondricka",
-  "SourcePersonName": "Dietrich Group",
-  "DestinationContactName": "Corwin-Champlin",
-  "DestinationPersonName": "Gaylord LLC",
-  "ActiveText": "iure",
-  "PassiveText": "et",
+  "SourceContactName": "Corkery-Kunze",
+  "SourcePersonName": "Larson, Klein and Marvin",
+  "DestinationContactName": "Durgan LLC",
+  "DestinationPersonName": "Erdman, Emard and Bechtelar",
+  "ActiveText": "qui",
+  "PassiveText": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 284
+      "FieldType": "System.Int32",
+      "FieldLength": 511
     }
   },
   "_Links": {

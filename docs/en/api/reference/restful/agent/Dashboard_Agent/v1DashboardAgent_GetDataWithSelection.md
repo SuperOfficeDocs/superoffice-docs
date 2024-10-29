@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 764,
-  "SelectionId": 117,
-  "Restrictions": "vero"
+  "DashboardTileId": 208,
+  "SelectionId": 15,
+  "Restrictions": "dolorem"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Heller LLC",
-        "DisplayTooltip": "in",
-        "DisplayType": "necessitatibus",
-        "CanOrderBy": true,
-        "Name": "Lueilwitz LLC",
-        "CanRestrictBy": false,
-        "RestrictionType": "sit",
-        "RestrictionListName": "O'Keefe, Bashirian and Bradtke",
+        "DisplayName": "Crist-Swaniawski",
+        "DisplayTooltip": "voluptates",
+        "DisplayType": "fugit",
+        "CanOrderBy": false,
+        "Name": "Streich LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "autem",
+        "RestrictionListName": "Conroy Group",
         "IsVisible": true,
-        "ExtraInfo": "voluptatem",
-        "Width": "corporis",
-        "IconHint": "nihil",
-        "HeadingIconHint": "ipsam"
+        "ExtraInfo": "ut",
+        "Width": "et",
+        "IconHint": "quis",
+        "HeadingIconHint": "quam"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Heller LLC",
-        "DisplayTooltip": "in",
-        "DisplayType": "necessitatibus",
-        "CanOrderBy": true,
-        "Name": "Lueilwitz LLC",
-        "CanRestrictBy": false,
-        "RestrictionType": "sit",
-        "RestrictionListName": "O'Keefe, Bashirian and Bradtke",
+        "DisplayName": "Crist-Swaniawski",
+        "DisplayTooltip": "voluptates",
+        "DisplayType": "fugit",
+        "CanOrderBy": false,
+        "Name": "Streich LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "autem",
+        "RestrictionListName": "Conroy Group",
         "IsVisible": true,
-        "ExtraInfo": "voluptatem",
-        "Width": "corporis",
-        "IconHint": "nihil",
-        "HeadingIconHint": "ipsam"
+        "ExtraInfo": "ut",
+        "Width": "et",
+        "IconHint": "quis",
+        "HeadingIconHint": "quam"
       }
     ],
     "Result": null

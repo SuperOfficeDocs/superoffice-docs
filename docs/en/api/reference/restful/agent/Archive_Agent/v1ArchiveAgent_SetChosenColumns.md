@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Borer-Bauch",
-  "ProviderName": "Hodkiewicz Group",
+  "GuiName": "VonRueden-Blanda",
+  "ProviderName": "Towne-Lynch",
   "ChosenColumns": [
-    "ut",
-    "esse"
+    "facere",
+    "optio"
   ]
 }
 ```

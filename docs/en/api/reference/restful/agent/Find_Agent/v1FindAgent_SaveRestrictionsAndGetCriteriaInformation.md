@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Thompson, Greenfelder and Eichmann",
-  "StorageKey": "voluptatum",
+  "StorageType": "eius",
+  "ProviderName": "Klocko, Marquardt and Mills",
+  "StorageKey": "voluptatem",
   "Restrictions": [
     {
-      "Name": "Schiller Group",
-      "Operator": "sed",
+      "Name": "Gibson, Aufderhar and Moore",
+      "Operator": "consequatur",
       "Values": [
-        "voluptas",
-        "ut"
+        "et",
+        "molestias"
       ],
       "DisplayValues": [
-        "blanditiis",
-        "esse"
+        "fugit",
+        "corrupti"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 687,
+      "InterParenthesis": 710,
       "InterOperator": "And",
-      "UniqueHash": 666
+      "UniqueHash": 1001
     }
   ],
   "StaticColumns": [
-    "neque",
-    "ab"
+    "consequatur",
+    "earum"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schiller-Goodwin",
-      "Operator": "dolor",
+      "Name": "Upton, Gislason and Gorczany",
+      "Operator": "mollitia",
       "Values": [
-        "enim",
-        "libero"
+        "fugit",
+        "iste"
       ],
       "DisplayValues": [
-        "ullam",
-        "veritatis"
+        "optio",
+        "iste"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 566,
+      "InterParenthesis": 387,
       "InterOperator": "And",
-      "UniqueHash": 676
+      "UniqueHash": 756
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Fahey LLC",
-      "DisplayTooltip": "aut",
-      "DisplayType": "pariatur",
-      "CanOrderBy": false,
-      "Name": "Anderson Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Dickinson-Kreiger",
+      "DisplayName": "Kihn, Carroll and Abshire",
+      "DisplayTooltip": "cupiditate",
+      "DisplayType": "eos",
+      "CanOrderBy": true,
+      "Name": "Leannon, Kreiger and Nikolaus",
+      "CanRestrictBy": true,
+      "RestrictionType": "tenetur",
+      "RestrictionListName": "Kessler-Friesen",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "ipsa",
-      "IconHint": "odit",
-      "HeadingIconHint": "consequatur"
+      "ExtraInfo": "accusamus",
+      "Width": "qui",
+      "IconHint": "nostrum",
+      "HeadingIconHint": "debitis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stokes-Dach",
-      "PrimaryKey": 306,
+      "EntityName": "Johns-Champlin",
+      "PrimaryKey": 507,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dignissimos",
-          "TooltipHint": "ratione",
-          "LinkHint": "magni"
+          "DisplayValue": "quo",
+          "TooltipHint": "dolorem",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "vitae",
-      "StyleHint": "sequi",
+      "LinkHint": "ducimus",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 832
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rippin Inc and Sons",
-      "Description": "User-centric contextually-based array",
-      "Rank": 649,
+      "Name": "Kreiger, Klocko and Watsica",
+      "Description": "Digitized maximized core",
+      "Rank": 168,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rippin Inc and Sons",
-      "Description": "User-centric contextually-based array",
-      "Rank": 649,
+      "Name": "Kreiger, Klocko and Watsica",
+      "Description": "Digitized maximized core",
+      "Rank": 168,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldLength": 121
     }
   }
 }

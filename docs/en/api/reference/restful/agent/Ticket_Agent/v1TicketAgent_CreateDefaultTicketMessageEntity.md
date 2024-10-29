@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 430,
+  "EjMessageId": 574,
   "Ticket": null,
-  "CreatedAt": "2016-09-27T03:44:53.2466467+02:00",
+  "CreatedAt": "2020-10-04T13:14:06.4914414+02:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "harum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 229,
-  "Body": "ea",
-  "HtmlBody": "vel",
-  "EmailHeader": "josefina@casperoreilly.biz",
-  "DebugInfo": "eos",
-  "MailSorter": "eum",
+  "MessageId": "dicta",
+  "TimeSpent": 13,
+  "Body": "consequatur",
+  "HtmlBody": "eaque",
+  "EmailHeader": "ignacio@gislasonfeeney.name",
+  "DebugInfo": "sapiente",
+  "MailSorter": "soluta",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quis",
+  "SearchTitle": "consequatur",
   "MessageHeaders": [
     {
-      "Id": 803,
-      "Name": "Johns-Blick",
-      "Value": "minus",
+      "Id": 537,
+      "Name": "Feeney Inc and Sons",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldType": "System.Int32",
+          "FieldLength": 485
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "quo",
-  "Sentiment": 893,
-  "SentimentConfidence": 822,
+  "Important": false,
+  "Language": "dolorem",
+  "Sentiment": 376,
+  "SentimentConfidence": 418,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 730,
-      "Name": "Blick-Witting",
-      "ContentType": "rerum",
-      "AttSize": 331,
+      "AttachmentId": 669,
+      "Name": "Carter, Lesch and Gerlach",
+      "ContentType": "et",
+      "AttSize": 179,
       "InlineImage": false,
-      "ContentId": "consequatur",
-      "AuthKey": "et",
-      "IsSafeFileExtension": true,
+      "ContentId": "dolorum",
+      "AuthKey": "atque",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldLength": 909
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "ea"
+    "CustomFields1": "corrupti",
+    "CustomFields2": "commodi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 21
     }
   }
 }

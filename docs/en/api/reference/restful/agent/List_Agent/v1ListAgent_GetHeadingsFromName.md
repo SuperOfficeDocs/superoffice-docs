@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crist-Sporer"
+  "Name": "Ward, Welch and Hoppe"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 482,
-    "Name": "Hudson-Quigley",
-    "Tooltip": "modi",
+    "HeadingId": 3,
+    "Name": "Dare LLC",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 676,
-    "UdListDefinitionId": 745,
+    "Rank": 818,
+    "UdListDefinitionId": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   }

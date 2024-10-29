@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "Pfannerstill LLC",
-    "ToolTip": "Cum architecto non molestiae itaque et voluptatem.",
-    "Deleted": true,
-    "Rank": 759,
-    "Type": "nihil",
-    "ColorBlock": 482,
-    "IconHint": "laboriosam",
+    "Id": 165,
+    "Name": "Barton Inc and Sons",
+    "ToolTip": "Illum harum magnam.",
+    "Deleted": false,
+    "Rank": 477,
+    "Type": "eaque",
+    "ColorBlock": 408,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2003-10-15T03:44:57.8437502+02:00",
+    "LastChanged": "2008-04-14T13:14:11.3360694+02:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Ernser-Wintheiser",
-        "ToolTip": "Repellat modi.",
+        "Id": 165,
+        "Name": "D'Amore-Gaylord",
+        "ToolTip": "Voluptatibus saepe.",
         "Deleted": false,
-        "Rank": 526,
-        "Type": "voluptatum",
-        "ColorBlock": 465,
-        "IconHint": "dignissimos",
+        "Rank": 26,
+        "Type": "suscipit",
+        "ColorBlock": 183,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2014-04-23T03:44:57.8437502+02:00",
+        "LastChanged": "2022-08-25T13:14:11.3360694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Oswaldo Jenkins"
+        "ExtraInfo": "eaque",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Prof. Morton Adams MD"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "at",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Ona Miller"
+    "FullName": "Ms. Elias Schumm III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Romaguera, Spinka and Hoeger",
-    "ToolTip": "Sequi incidunt ducimus delectus nemo quas error est.",
-    "Deleted": false,
-    "Rank": 286,
-    "Type": "voluptatem",
-    "ColorBlock": 105,
-    "IconHint": "ea",
+    "Id": 806,
+    "Name": "Koepp, Stark and Torp",
+    "ToolTip": "Dolorem ut.",
+    "Deleted": true,
+    "Rank": 499,
+    "Type": "voluptatibus",
+    "ColorBlock": 503,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2017-06-20T03:44:57.8437502+02:00",
+    "LastChanged": "2003-08-02T13:14:11.3360694+02:00",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Dickens, Gibson and Breitenberg",
-        "ToolTip": "Delectus qui et et.",
+        "Id": 430,
+        "Name": "Bogan Inc and Sons",
+        "ToolTip": "Neque odit dignissimos quibusdam nostrum.",
         "Deleted": true,
-        "Rank": 956,
-        "Type": "perspiciatis",
-        "ColorBlock": 246,
-        "IconHint": "repellendus",
-        "Selected": false,
-        "LastChanged": "2005-01-09T03:44:57.8437502+01:00",
+        "Rank": 676,
+        "Type": "laborum",
+        "ColorBlock": 800,
+        "IconHint": "quod",
+        "Selected": true,
+        "LastChanged": "2001-05-05T13:14:11.3360694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Miss Fabian Ondricka",
+        "ExtraInfo": "velit",
+        "StyleHint": "blanditiis",
+        "Hidden": true,
+        "FullName": "Franz Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldLength": 459
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "qui",
+    "ExtraInfo": "earum",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Prof. Willy Enrique Hand",
+    "FullName": "Alexandrine Hoppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 56
+        "FieldType": "System.Int32",
+        "FieldLength": 829
       }
     }
   }

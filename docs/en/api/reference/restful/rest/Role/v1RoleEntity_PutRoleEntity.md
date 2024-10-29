@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 445,
-  "Name": "Sanford, Hilpert and Mueller",
-  "Tooltip": "odit",
+  "RoleId": 458,
+  "Name": "Wilkinson-Hills",
+  "Tooltip": "corrupti",
   "RoleType": "Anonymous",
-  "Deleted": 454,
-  "Rank": 606,
-  "Created": "2004-12-19T03:44:57.5000465+01:00",
-  "UseCategories": 635,
+  "Deleted": 863,
+  "Rank": 998,
+  "Created": "2003-02-15T13:14:10.9454212+01:00",
+  "UseCategories": 131,
   "CreatedBy": null,
-  "Updated": "2017-02-16T03:44:57.5000465+01:00",
+  "Updated": "2010-10-09T13:14:10.9610472+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 295,
-  "Name": "Schulist, Armstrong and Vandervort",
-  "Tooltip": "quam",
+  "RoleId": 757,
+  "Name": "Robel Inc and Sons",
+  "Tooltip": "labore",
   "RoleType": "Anonymous",
-  "Deleted": 171,
-  "Rank": 692,
-  "Created": "2018-05-01T03:44:57.5000465+02:00",
-  "UseCategories": 247,
+  "Deleted": 191,
+  "Rank": 690,
+  "Created": "2005-12-06T13:14:10.9610472+01:00",
+  "UseCategories": 617,
   "CreatedBy": null,
-  "Updated": "2010-02-22T03:44:57.5000465+01:00",
+  "Updated": "2009-02-14T13:14:10.9610472+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 86
     }
   },
   "_Links": {

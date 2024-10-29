@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 101,
-    "Name": "Corwin, Braun and White",
-    "Tooltip": "est",
+    "HeadingId": 31,
+    "Name": "Kuhlman Inc and Sons",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "Rank": 832,
-    "UdListDefinitionId": 660
+    "Rank": 753,
+    "UdListDefinitionId": 519
   },
   {
-    "HeadingId": 101,
-    "Name": "Corwin, Braun and White",
-    "Tooltip": "est",
+    "HeadingId": 31,
+    "Name": "Kuhlman Inc and Sons",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "Rank": 832,
-    "UdListDefinitionId": 660
+    "Rank": 753,
+    "UdListDefinitionId": 519
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 124,
-    "Name": "Leuschke-Price",
-    "Tooltip": "tenetur",
+    "HeadingId": 542,
+    "Name": "Friesen Group",
+    "Tooltip": "aliquam",
     "Deleted": false,
-    "Rank": 144,
-    "UdListDefinitionId": 865,
+    "Rank": 392,
+    "UdListDefinitionId": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 554
       }
     }
   }

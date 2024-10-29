@@ -126,7 +126,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 153,
+  "QuoteAlternativeId": 613,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 80,
-  "ERPQuoteLineKey": "ullam",
-  "QuoteAlternativeId": 507,
-  "ERPProductKey": "fugiat",
+  "QuoteLineId": 129,
+  "ERPQuoteLineKey": "quo",
+  "QuoteAlternativeId": 863,
+  "ERPProductKey": "laborum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 6346.3499999999995,
-  "DeliveredQuantity": 23928.09,
-  "Rank": 39,
-  "Name": "Toy, Mraz and Walker",
-  "Description": "Versatile value-added orchestration",
-  "Code": "porro",
-  "QuantityUnit": "error",
-  "PriceUnit": "veniam",
-  "ItemNumber": "1745883",
+  "Quantity": 10191.768,
+  "DeliveredQuantity": 15601.052,
+  "Rank": 5,
+  "Name": "Murray, Fahey and Schuppe",
+  "Description": "Upgradable national interface",
+  "Code": "eos",
+  "QuantityUnit": "numquam",
+  "PriceUnit": "est",
+  "ItemNumber": "1166640",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quis",
-  "ProductTypeKey": "quod",
-  "Supplier": "rerum",
-  "SupplierCode": "perferendis",
-  "Thumbnail": "voluptas",
-  "VATInfo": "earum",
-  "VAT": 9198.2899999999991,
-  "UnitCost": 21157.634,
-  "UnitMinimumPrice": 11454.77,
-  "UnitListPrice": 14726.666,
+  "ProductFamilyKey": "consequatur",
+  "ProductTypeKey": "exercitationem",
+  "Supplier": "fuga",
+  "SupplierCode": "enim",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "laudantium",
+  "VAT": 6929.2739999999994,
+  "UnitCost": 8903.694,
+  "UnitMinimumPrice": 28406.575999999997,
+  "UnitListPrice": 14012.114,
   "ExtraInfo": [
     {
-      "Name": "Shanahan-Wisozk",
-      "Value": "velit",
+      "Name": "Hermiston Group",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldType": "System.Int32",
+          "FieldLength": 490
         }
       }
     },
     {
-      "Name": "Shanahan-Wisozk",
-      "Value": "velit",
+      "Name": "Hermiston Group",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldType": "System.Int32",
+          "FieldLength": 490
         }
       }
     }
   ],
-  "RawExtraInfo": "saepe",
-  "IsSubscription": true,
-  "SubscriptionUnit": "eos",
-  "SubscriptionQuantity": 10260.716,
-  "SubscriptionStart": "2022-03-16T03:44:53.0739396+01:00",
-  "ERPDiscountPercent": 21474.167999999998,
-  "ERPDiscountAmount": 6202.186,
-  "DiscountPercent": 2710.91,
-  "DiscountAmount": 23429.784,
+  "RawExtraInfo": "soluta",
+  "IsSubscription": false,
+  "SubscriptionUnit": "in",
+  "SubscriptionQuantity": 18584.62,
+  "SubscriptionStart": "2007-11-21T13:14:06.3351823+01:00",
+  "ERPDiscountPercent": 23617.824,
+  "ERPDiscountAmount": 22878.2,
+  "DiscountPercent": 14748.604,
+  "DiscountAmount": 20192.362,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 12385.568,
-  "EarningAmount": 6393.36,
-  "SubTotal": 28820.264,
-  "TotalPrice": 1560.732,
-  "Rights": "voluptas",
-  "Rule": "tempora",
-  "ExtraField1": "et",
-  "ExtraField2": "hic",
-  "ExtraField3": "vel",
-  "ExtraField4": "facilis",
-  "ExtraField5": "impedit",
+  "EarningPercent": 3090.124,
+  "EarningAmount": 9486.618,
+  "SubTotal": 11633.408,
+  "TotalPrice": 18120.788,
+  "Rights": "veritatis",
+  "Rule": "ea",
+  "ExtraField1": "soluta",
+  "ExtraField2": "ex",
+  "ExtraField3": "et",
+  "ExtraField4": "dolores",
+  "ExtraField5": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldType": "System.Int32",
+      "FieldLength": 445
     }
   }
 }

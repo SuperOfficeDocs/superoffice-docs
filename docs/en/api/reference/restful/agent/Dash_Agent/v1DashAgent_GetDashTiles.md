@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 937
+  "DashboardId": 210
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 313,
-    "DashboardId": 546,
-    "Height": 558,
-    "Width": 341,
-    "Rank": 63,
+    "DashboardTileId": 992,
+    "DashboardId": 484,
+    "Height": 262,
+    "Width": 4,
+    "Rank": 469,
     "DashTileDefinition": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 447
       }
     }
   }

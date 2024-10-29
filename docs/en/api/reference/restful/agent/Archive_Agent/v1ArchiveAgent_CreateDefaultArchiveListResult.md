@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 509,
+  "RowCount": 322,
   "Rows": [
     {
-      "EntityName": "Haley, Moen and VonRueden",
-      "PrimaryKey": 959,
+      "EntityName": "Kerluke, Dach and Lakin",
+      "PrimaryKey": 714,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sint",
-          "TooltipHint": "distinctio",
-          "LinkHint": "quas"
+          "DisplayValue": "aut",
+          "TooltipHint": "voluptates",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "dolores",
+      "LinkHint": "non",
+      "StyleHint": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldType": "System.String",
+          "FieldLength": 847
         }
       }
     }
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   }
 }

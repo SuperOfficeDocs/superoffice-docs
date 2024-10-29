@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 312,
-  "ERPPriceListKey": "quam",
-  "QuoteConnectionId": 991,
-  "Name": "Spinka, McClure and Pfeffer",
-  "Description": "Reactive client-server superstructure",
-  "Currency": "et",
-  "CurrencyName": "Medhurst-Turcotte",
-  "ValidFrom": "2009-09-25T03:44:58.0468534+02:00",
-  "ValidTo": "2013-04-14T03:44:58.0468534+02:00",
-  "IsActive": false
+  "PriceListId": 322,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 341,
+  "Name": "Dickinson Inc and Sons",
+  "Description": "Face to face radical budgetary management",
+  "Currency": "itaque",
+  "CurrencyName": "Osinski Inc and Sons",
+  "ValidFrom": "2022-03-28T13:14:11.4454508+02:00",
+  "ValidTo": "1998-02-19T13:14:11.4454508+01:00",
+  "IsActive": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 136,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 447,
-  "Name": "Heller-Steuber",
-  "Description": "Customer-focused stable budgetary management",
-  "Currency": "omnis",
-  "CurrencyName": "Schiller Group",
-  "ValidFrom": "2002-01-29T03:44:58.0468534+01:00",
-  "ValidTo": "2023-12-05T03:44:58.0468534+01:00",
+  "PriceListId": 815,
+  "ERPPriceListKey": "accusamus",
+  "QuoteConnectionId": 856,
+  "Name": "Schultz-Little",
+  "Description": "Configurable homogeneous architecture",
+  "Currency": "itaque",
+  "CurrencyName": "Gaylord Inc and Sons",
+  "ValidFrom": "2021-03-30T13:14:11.4454508+02:00",
+  "ValidTo": "2019-08-27T13:14:11.4454508+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldType": "System.Int32",
+      "FieldLength": 127
     }
   },
   "_Links": {

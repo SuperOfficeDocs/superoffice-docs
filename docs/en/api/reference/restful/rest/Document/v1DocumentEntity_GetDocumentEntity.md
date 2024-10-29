@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 06 Aug 2021 03:44:57 G8T
+Last-Modified: Wed, 24 Jul 2024 13:14:10 G7T
 
 {
-  "DocumentId": 230,
+  "DocumentId": 645,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eius",
-  "Header": "veniam",
-  "Name": "Waters, Marks and Runolfsson",
-  "OurRef": "voluptatem",
-  "YourRef": "ad",
-  "CreatedDate": "2013-12-19T03:44:57.2965093+01:00",
-  "UpdatedDate": "2021-08-06T03:44:57.2965093+02:00",
-  "Description": "Ameliorated intangible capacity",
+  "Attention": "qui",
+  "Header": "est",
+  "Name": "Hyatt, Padberg and Purdy",
+  "OurRef": "porro",
+  "YourRef": "sed",
+  "CreatedDate": "2017-06-07T13:14:10.7891618+02:00",
+  "UpdatedDate": "2024-07-24T13:14:10.7891618+02:00",
+  "Description": "Reactive next generation hardware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-03-03T03:44:57.2965093+01:00",
-  "ExternalRef": "dolores",
+  "Date": "2001-10-19T13:14:10.8047881+02:00",
+  "ExternalRef": "rem",
   "Completed": "Completed",
-  "ActiveLinks": 904,
+  "ActiveLinks": 386,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gorczany-Predovic",
-      "Id": 701,
-      "Description": "Cross-group regional methodology",
-      "ExtraInfo": "molestias",
-      "LinkId": 286,
+      "EntityName": "Thompson Inc and Sons",
+      "Id": 642,
+      "Description": "Implemented solution-oriented concept",
+      "ExtraInfo": "et",
+      "LinkId": 764,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 798
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 549,
-  "Snum": 625,
+  "SuggestedDocumentId": 763,
+  "Snum": 266,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dereck Watsica"
+    "SuperOffice:1": "Ms. Jimmie Hanna Hartmann IV",
+    "SuperOffice:2": "Garret Quigley"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "quasi"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2000-05-02T03:44:57.3121326+02:00",
-  "PublishTo": "1998-07-22T03:44:57.3121326+02:00",
-  "PublishFrom": "2016-03-13T03:44:57.3121326+01:00",
+  "PublishEventDate": "2020-02-10T13:14:10.8047881+01:00",
+  "PublishTo": "2008-02-09T13:14:10.8047881+01:00",
+  "PublishFrom": "2019-05-15T13:14:10.8047881+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 306,
+      "VisibleId": 863,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 583
+          "FieldLength": 433
         }
       }
     },
     {
-      "VisibleId": 306,
+      "VisibleId": 863,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 583
+          "FieldLength": 433
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Fri, 06 Aug 2021 03:44:57 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 494
     }
   },
   "_Links": {

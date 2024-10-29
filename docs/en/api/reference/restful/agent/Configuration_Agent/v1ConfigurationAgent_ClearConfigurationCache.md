@@ -72,8 +72,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "delectus",
-  "Instance": "suscipit",
+  "Application": "id",
+  "Instance": "eum",
   "ForAllAssociates": false
 }
 ```

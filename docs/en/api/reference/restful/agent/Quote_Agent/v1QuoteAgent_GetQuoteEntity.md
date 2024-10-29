@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 56
+  "QuoteId": 520
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 763,
-  "SaleId": 880,
-  "QuoteConnectionId": 920,
-  "ERPQuoteKey": "omnis",
-  "ERPOrderKey": "atque",
-  "ActiveQuoteVersionId": 421,
-  "AcceptedQuoteAlternativeId": 277,
-  "UseValuesFromQuote": 474,
-  "DocumentId": 256,
-  "PoNumber": "583147",
-  "OrderComment": "nulla",
-  "PreferredEmailCulture": "mariam_dach@vandervortdamore.name",
+  "QuoteId": 232,
+  "SaleId": 857,
+  "QuoteConnectionId": 1002,
+  "ERPQuoteKey": "reiciendis",
+  "ERPOrderKey": "minima",
+  "ActiveQuoteVersionId": 395,
+  "AcceptedQuoteAlternativeId": 567,
+  "UseValuesFromQuote": 539,
+  "DocumentId": 299,
+  "PoNumber": "1189997",
+  "OrderComment": "quo",
+  "PreferredEmailCulture": "freeda@dietrichtreutel.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 843,
-      "ERPQuoteVersionKey": "adipisci",
-      "QuoteId": 824,
-      "Description": "Optimized demand-driven hierarchy",
-      "Number": "1356519",
+      "QuoteVersionId": 947,
+      "ERPQuoteVersionKey": "ut",
+      "QuoteId": 175,
+      "Description": "Progressive systemic process improvement",
+      "Number": "1311767",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 917,
-      "SentDate": "2008-10-27T03:44:53.0583181+01:00",
-      "FollowupId": 212,
-      "ExpirationDate": "2008-12-31T03:44:53.0583181+01:00",
-      "DeliveryCountryId": 87,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 595,
+      "LikelyQuoteAlternativeId": 636,
+      "SentDate": "2000-05-05T13:14:06.3351823+02:00",
+      "FollowupId": 553,
+      "ExpirationDate": "2002-02-09T13:14:06.3351823+01:00",
+      "DeliveryCountryId": 990,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 858,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "dolorem",
-      "ERPPaymentTypeKey": "sint",
-      "ERPDeliveryTermsKey": "similique",
-      "ERPDeliveryTypeKey": "qui",
-      "Rank": 904,
-      "ApprovedBy": 493,
-      "ApprovedText": "inventore",
-      "ApprovedRegisteredBy": 550,
-      "ApprovedRegisteredDate": "2017-12-23T03:44:53.0583181+01:00",
-      "ExtraField1": "ratione",
-      "ExtraField2": "veritatis",
-      "ExtraField3": "maiores",
-      "ExtraField4": "magnam",
-      "ExtraField5": "ut",
-      "LastRecalculated": "2021-05-01T03:44:53.0583181+02:00",
-      "Updated": "2004-07-09T03:44:53.0583181+02:00",
-      "UpdatedAssociateId": 378,
-      "Registered": "2000-01-26T03:44:53.0583181+01:00",
-      "RegisteredAssociateId": 381,
-      "RequestAssociateId": 101,
-      "RequestComment": "quia",
+      "ERPPaymentTermsKey": "maiores",
+      "ERPPaymentTypeKey": "numquam",
+      "ERPDeliveryTermsKey": "et",
+      "ERPDeliveryTypeKey": "asperiores",
+      "Rank": 403,
+      "ApprovedBy": 92,
+      "ApprovedText": "quos",
+      "ApprovedRegisteredBy": 389,
+      "ApprovedRegisteredDate": "2022-11-27T13:14:06.3351823+01:00",
+      "ExtraField1": "similique",
+      "ExtraField2": "dolorem",
+      "ExtraField3": "velit",
+      "ExtraField4": "voluptatem",
+      "ExtraField5": "dolores",
+      "LastRecalculated": "2001-12-11T13:14:06.3351823+01:00",
+      "Updated": "2019-12-20T13:14:06.3351823+01:00",
+      "UpdatedAssociateId": 166,
+      "Registered": "2004-12-21T13:14:06.3351823+01:00",
+      "RegisteredAssociateId": 803,
+      "RequestAssociateId": 800,
+      "RequestComment": "et",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 691
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 984
+      "FieldLength": 828
     }
   }
 }

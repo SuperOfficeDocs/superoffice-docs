@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Swift LLC",
-    "ToolTip": "Laboriosam consequatur.",
+    "Id": 993,
+    "Name": "Walter-Kshlerin",
+    "ToolTip": "Sapiente in deleniti in.",
     "Deleted": false,
-    "Rank": 772,
-    "Type": "quia",
-    "ColorBlock": 992,
-    "IconHint": "neque",
-    "Selected": false,
-    "LastChanged": "2004-08-17T03:44:57.8437502+02:00",
+    "Rank": 687,
+    "Type": "laboriosam",
+    "ColorBlock": 886,
+    "IconHint": "alias",
+    "Selected": true,
+    "LastChanged": "2019-05-01T13:14:11.3360694+02:00",
     "ChildItems": [
       {
-        "Id": 383,
-        "Name": "Kiehn LLC",
-        "ToolTip": "Expedita aperiam quis qui impedit.",
+        "Id": 246,
+        "Name": "Nolan, Murray and Harvey",
+        "ToolTip": "Nulla sint praesentium quisquam aliquid.",
         "Deleted": true,
-        "Rank": 756,
-        "Type": "voluptatem",
-        "ColorBlock": 531,
-        "IconHint": "culpa",
+        "Rank": 66,
+        "Type": "error",
+        "ColorBlock": 387,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2008-07-08T03:44:57.8437502+02:00",
+        "LastChanged": "2016-12-26T13:14:11.3360694+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "porro",
+        "ExtraInfo": "beatae",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Prof. Presley Yoshiko Glover",
+        "FullName": "Jayme Williamson DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldType": "System.String",
+            "FieldLength": 390
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Marion Rosenbaum",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "cumque",
+    "Hidden": false,
+    "FullName": "Benton Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 375
       }
     }
   }

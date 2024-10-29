@@ -116,26 +116,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 195,
-  "Name": "Rath, Beer and Quigley",
-  "Tooltip": "labore",
+  "WebPanelId": 659,
+  "Name": "Pouros Inc and Sons",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 621,
+  "Rank": 72,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Koelpin, Gislason and Feeney",
+  "WindowName": "Reynolds Group",
   "Url": "http://www.example.com/",
-  "ProgId": "sit",
-  "Icon": 316,
+  "ProgId": "adipisci",
+  "Icon": 269,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 864,
-  "Name": "Kuvalis-Strosin",
-  "Tooltip": "vitae",
+  "WebPanelId": 771,
+  "Name": "Lockman, Wuckert and Grady",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 190,
+  "Rank": 532,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Smitham, Muller and Feil",
+  "WindowName": "Friesen, Gerlach and Jast",
   "Url": "http://www.example.com/",
-  "ProgId": "neque",
-  "Icon": 535,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "dolorem",
+  "Icon": 292,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldType": "System.String",
+      "FieldLength": 590
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 523,
-    "Name": "Mertz-Kub",
-    "CurrencyId": 962,
-    "EnglishName": "Gleason-Jakubowski",
+    "CountryId": 398,
+    "Name": "McKenzie, Maggio and Green",
+    "CurrencyId": 555,
+    "EnglishName": "Bahringer, Goodwin and Greenfelder",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Phased eco-centric toolset",
-    "OrgNrText": "721142",
-    "InterAreaPrefix": "ut",
-    "DialInPrefix": "dolorum",
-    "ZipPrefix": "voluptas",
-    "DomainName": "Skiles, Kshlerin and Homenick",
-    "AddressLayoutId": 759,
-    "DomesticAddressLayoutId": 676,
-    "ForeignAddressLayoutId": 924,
-    "Rank": 697,
-    "Tooltip": "velit",
-    "Deleted": false,
+    "ImageDescription": "Realigned coherent functionalities",
+    "OrgNrText": "109215",
+    "InterAreaPrefix": "suscipit",
+    "DialInPrefix": "ex",
+    "ZipPrefix": "dolores",
+    "DomainName": "Tillman, Bergstrom and Hirthe",
+    "AddressLayoutId": 752,
+    "DomesticAddressLayoutId": 832,
+    "ForeignAddressLayoutId": 802,
+    "Rank": 93,
+    "Tooltip": "ex",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 506
       }
     }
   }

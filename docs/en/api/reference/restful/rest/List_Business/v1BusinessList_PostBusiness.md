@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 394,
-  "Name": "Paucek Inc and Sons",
-  "Tooltip": "repellendus",
+  "Id": 43,
+  "Name": "Mosciski LLC",
+  "Tooltip": "alias",
   "Deleted": false,
-  "UdListDefinitionId": 63,
-  "Rank": 855
+  "UdListDefinitionId": 203,
+  "Rank": 982
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Huels, Brakus and Kling",
-  "Tooltip": "corrupti",
+  "Id": 257,
+  "Name": "Hegmann-Murazik",
+  "Tooltip": "dicta",
   "Deleted": true,
-  "UdListDefinitionId": 226,
-  "Rank": 935,
+  "UdListDefinitionId": 892,
+  "Rank": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 248
     }
   }
 }

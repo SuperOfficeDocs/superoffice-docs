@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 816,
-    "Name": "Bauch Inc and Sons",
-    "Tooltip": "officia",
+    "HeadingId": 593,
+    "Name": "Lang, Nicolas and Rutherford",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 170,
-    "UdListDefinitionId": 44
+    "Rank": 225,
+    "UdListDefinitionId": 284
   },
   {
-    "HeadingId": 816,
-    "Name": "Bauch Inc and Sons",
-    "Tooltip": "officia",
+    "HeadingId": 593,
+    "Name": "Lang, Nicolas and Rutherford",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 170,
-    "UdListDefinitionId": 44
+    "Rank": 225,
+    "UdListDefinitionId": 284
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 164,
-    "Name": "Pollich-Kutch",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 767,
-    "UdListDefinitionId": 682,
+    "HeadingId": 179,
+    "Name": "Hermann, Schiller and Ankunding",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 190,
+    "UdListDefinitionId": 700,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 192
       }
     }
   }

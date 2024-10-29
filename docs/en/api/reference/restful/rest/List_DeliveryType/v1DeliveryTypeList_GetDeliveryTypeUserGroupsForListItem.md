@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Gibson Group",
-    "ToolTip": "Ipsa laudantium quia.",
+    "Id": 657,
+    "Name": "Corwin-Bartoletti",
+    "ToolTip": "Nihil sunt itaque voluptas repudiandae laudantium neque excepturi.",
     "Deleted": false,
-    "Rank": 37,
-    "Type": "quasi",
-    "ColorBlock": 976,
-    "IconHint": "ipsum",
-    "Selected": true,
-    "LastChanged": "2007-10-25T03:44:57.9843605+02:00",
+    "Rank": 97,
+    "Type": "possimus",
+    "ColorBlock": 964,
+    "IconHint": "enim",
+    "Selected": false,
+    "LastChanged": "2007-03-23T13:14:11.3985731+01:00",
     "ChildItems": [
       {
-        "Id": 501,
-        "Name": "Legros-Stroman",
-        "ToolTip": "Ab quam omnis et nihil.",
-        "Deleted": true,
-        "Rank": 335,
-        "Type": "sint",
-        "ColorBlock": 529,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2016-07-07T03:44:57.9843605+02:00",
+        "Id": 780,
+        "Name": "Zemlak LLC",
+        "ToolTip": "Quod magnam aut impedit quia quo illum.",
+        "Deleted": false,
+        "Rank": 477,
+        "Type": "et",
+        "ColorBlock": 478,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2005-07-18T13:14:11.3985731+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quas",
-        "Hidden": true,
-        "FullName": "Providenci Gutmann",
+        "ExtraInfo": "illum",
+        "StyleHint": "impedit",
+        "Hidden": false,
+        "FullName": "Madisen Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 746
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "ut",
+    "ExtraInfo": "est",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Charlene Predovic",
+    "FullName": "Whitney Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 856
       }
     }
   }

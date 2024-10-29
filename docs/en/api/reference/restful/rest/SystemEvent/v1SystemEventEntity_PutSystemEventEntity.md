@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 916,
+  "SystemEventId": 503,
   "Scope": "Database",
-  "Eta": "2001-06-13T03:44:57.5937539+02:00",
-  "Eventkey": "libero",
-  "Eventmess": "dolore",
-  "ExtraInfo": 835,
-  "Owner": 863,
-  "UpdatedCount": 715,
-  "Registered": "2016-05-26T03:44:57.5937539+02:00",
+  "Eta": "2003-12-04T13:14:11.1173007+01:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "exercitationem",
+  "ExtraInfo": 193,
+  "Owner": 953,
+  "UpdatedCount": 602,
+  "Registered": "2021-07-27T13:14:11.1173007+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 58,
+  "SystemEventId": 951,
   "Scope": "Database",
-  "Eta": "2017-03-18T03:44:57.5937539+01:00",
-  "Eventkey": "ex",
-  "Eventmess": "earum",
-  "ExtraInfo": 724,
-  "Owner": 734,
-  "UpdatedCount": 333,
-  "Registered": "2014-10-28T03:44:57.5937539+01:00",
+  "Eta": "2010-03-18T13:14:11.1173007+01:00",
+  "Eventkey": "at",
+  "Eventmess": "eligendi",
+  "ExtraInfo": 747,
+  "Owner": 785,
+  "UpdatedCount": 177,
+  "Registered": "2016-04-03T13:14:11.1173007+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldLength": 973
     }
   },
   "_Links": {

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 659
+  "DashboardId": 778
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 872,
-  "Name": "Harber, Ankunding and Turner",
-  "Description": "Optional 4th generation Graphic Interface",
-  "OwnedByFullName": "Dr. Lilla Corwin",
-  "Registered": "2019-11-26T03:44:52.417768+01:00",
+  "DashboardId": 128,
+  "Name": "Watsica-Mayert",
+  "Description": "Inverse fresh-thinking application",
+  "OwnedByFullName": "Mrs. Valentin D'angelo Terry",
+  "Registered": "2009-06-20T13:14:05.7413971+02:00",
   "Tiles": [
     {
-      "Name": "Harvey, Nienow and Tromp",
+      "Name": "Gorczany, Wisozk and Connelly",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 224
         }
       }
     },
     {
-      "Name": "Harvey, Nienow and Tromp",
+      "Name": "Gorczany, Wisozk and Connelly",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 224
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 219
     }
   }
 }

@@ -515,6 +515,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |workflowInstance/emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |workflowInstance/emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |workflowInstance/emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|workflowInstance/emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |workflowInstance/emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |workflowInstance/emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |workflowInstance/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -536,11 +537,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |chatSession/timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
 |chatSession/queueLength|int|Queue length: Queue length when the session was requested| x |
 |chatSession/rating|int|Rating: Rating of chat session| x |
-|chatSession/agent|ejUser|Agent: The agent of the chat| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|chatSession/agent|ejUser|Agent: The agent of the chat| x |
 |chatSession/status|listAny|Status: Status for the chat session| x |
 |chatSession/icon| *None* |Category: Displays the icon for an activity type| x |
 |chatSession/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -640,11 +641,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
 |request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
-|request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
 |request/createdBy/otherGroups|userGroup|Created by - Other groups: Other groups|  |
 |request/createdBy/userName|string|Created by - User name: User name| x |
 |request/createdBy/personEmail|string|Created by - E-mail| x |
@@ -744,11 +745,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectMembers/projectAssociate/role|listAny|Role : Role| x |
 |projectMembers/projectAssociate/assocName|associate|User ID : User ID| x |
 |projectMembers/projectAssociate/assocTooltip|string|Description : Description|  |
@@ -848,11 +849,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |personAppointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
-|personAppointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |personAppointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |personAppointment/appointmentUdef/SuperOffice:3|int|followupnumber| x |
 |personAppointment/appointmentUdef/SuperOffice:4|date|followupdate| x |
@@ -952,11 +953,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
-|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
@@ -1056,11 +1057,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
 |sale/quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
 |sale/quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
-|sale/quote/version/alternative/quoteline/description|string|Description: Description of the product that is offered| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/description|string|Description: Description of the product that is offered| x |
 |sale/quote/version/alternative/quoteline/code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
 |sale/quote/version/alternative/quoteline/quantityUnit|string|Unit: The unit of the product that is offered.| x |
 |sale/quote/version/alternative/quoteline/priceUnit|string|Price unit: What is the price unit defined in| x |
@@ -1101,7 +1102,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personSourceRelation/personSource,personSourceRelation/personUpdatedDate,personAssociate/contactName,correspondingAssociate/credentialDisplayValue,streetAddress/formattedMultiLineAddress
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personNoMail,updatedDate,personTargetRelation/birthYear,personTargetRelation/kanaFirstName,personAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 209,
-  "TopicId": 735,
+  "ChatSessionId": 928,
+  "TopicId": 190,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eum",
-  "CustomerHost": "molestiae",
-  "CustomerName": "Connelly-Prohaska",
-  "CustomerEmail": "mireille.buckridge@jakubowski.com",
-  "CustomerPhone": "489-795-3336 x09282",
+  "CustomerAlias": "soluta",
+  "CustomerHost": "in",
+  "CustomerName": "Jaskolski Group",
+  "CustomerEmail": "vern@fay.us",
+  "CustomerPhone": "472-564-3243 x27954",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Kreiger-Abbott",
+  "CustomerCompanyName": "Rutherford, Walker and Kuhn",
   "Status": "Closed",
-  "FirstMessage": "modi",
-  "LastMessage": "sunt",
-  "WhenRequested": "1997-09-24T03:44:57.015302+02:00",
-  "WhenStarted": "2015-10-14T03:44:57.015302+02:00",
-  "WhenEnded": "2014-12-18T03:44:57.015302+01:00",
-  "WhenIdle": "2012-01-16T03:44:57.015302+01:00",
-  "WhenFetched": "2019-06-28T03:44:57.015302+02:00",
-  "SessionKey": "sequi",
-  "InitialQueuePos": 479,
-  "AlertLevel": 497,
-  "Rank": 611,
+  "FirstMessage": "officia",
+  "LastMessage": "non",
+  "WhenRequested": "2002-09-30T13:14:10.6172706+02:00",
+  "WhenStarted": "2005-01-27T13:14:10.6172706+01:00",
+  "WhenEnded": "1998-12-29T13:14:10.6172706+01:00",
+  "WhenIdle": "2014-02-07T13:14:10.6172706+01:00",
+  "WhenFetched": "2015-04-08T13:14:10.6172706+02:00",
+  "SessionKey": "corporis",
+  "InitialQueuePos": 675,
+  "AlertLevel": 353,
+  "Rank": 864,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 269,
+  "Rating": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 646
     }
   }
 }

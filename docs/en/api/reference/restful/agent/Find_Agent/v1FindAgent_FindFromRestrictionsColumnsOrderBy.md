@@ -82,50 +82,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Zboncak LLC",
-      "Operator": "rem",
+      "Name": "Hilpert LLC",
+      "Operator": "doloribus",
       "Values": [
-        "at",
-        "ab"
+        "laborum",
+        "est"
       ],
       "DisplayValues": [
-        "eaque",
-        "perferendis"
+        "aperiam",
+        "laudantium"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 647,
+      "InterParenthesis": 475,
       "InterOperator": "And",
-      "UniqueHash": 100
+      "UniqueHash": 493
     }
   ],
-  "ProviderName": "Cartwright LLC",
+  "ProviderName": "Bogisich, Ullrich and Jacobi",
   "DesiredColumns": [
-    "qui",
-    "est"
+    "voluptatem",
+    "ab"
   ],
   "OrderBy": [
     {
-      "Name": "Parisian LLC",
+      "Name": "Wehner Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Parisian LLC",
+      "Name": "Wehner Group",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 680,
-  "PageNumber": 849
+  "PageSize": 958,
+  "PageNumber": 21
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Weissnat-Gleason",
-      "DisplayTooltip": "odio",
-      "DisplayType": "itaque",
+      "DisplayName": "Mraz, Armstrong and Kuvalis",
+      "DisplayTooltip": "occaecati",
+      "DisplayType": "nam",
       "CanOrderBy": false,
-      "Name": "Bergnaum-Shields",
-      "CanRestrictBy": true,
-      "RestrictionType": "ad",
-      "RestrictionListName": "Luettgen-Moore",
+      "Name": "Beatty-Jacobi",
+      "CanRestrictBy": false,
+      "RestrictionType": "tenetur",
+      "RestrictionListName": "Homenick, Fahey and Blick",
       "IsVisible": false,
-      "ExtraInfo": "molestiae",
-      "Width": "alias",
-      "IconHint": "et",
-      "HeadingIconHint": "eum"
+      "ExtraInfo": "reprehenderit",
+      "Width": "necessitatibus",
+      "IconHint": "ut",
+      "HeadingIconHint": "id"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Dooley-Heidenreich",
-      "PrimaryKey": 328,
+      "EntityName": "Zulauf LLC",
+      "PrimaryKey": 315,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dignissimos",
-          "TooltipHint": "nobis",
-          "LinkHint": "repudiandae"
+          "DisplayValue": "id",
+          "TooltipHint": "vel",
+          "LinkHint": "consectetur"
         }
       },
-      "LinkHint": "excepturi",
-      "StyleHint": "adipisci",
+      "LinkHint": "fuga",
+      "StyleHint": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldType": "System.String",
+          "FieldLength": 794
         }
       }
     }
   ],
-  "RowCount": 620,
+  "RowCount": 894,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldType": "System.String",
+      "FieldLength": 258
     }
   }
 }

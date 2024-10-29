@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    143,
-    449
+    659,
+    311
   ],
-  "TargetTableNumber": 369
+  "TargetTableNumber": 468
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised context-sensitive knowledge user",
-  "Postit": "aspernatur",
+  "Description": "Focused even-keeled parallelism",
+  "Postit": "deleniti",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 424,
-  "IncludePerson": 796,
+  "GroupIdx": 352,
+  "IncludePerson": 401,
   "MemberCount": 99.99,
-  "Name": "Cormier-Rowe",
-  "PostitTextId": 675,
-  "CreatedDate": "2005-04-30T03:44:53.1841498+02:00",
-  "SelectionId": 138,
-  "SoundEx": "qui",
-  "Source": 195,
-  "TextId": 779,
-  "UpdatedDate": "2019-05-05T03:44:53.1841498+02:00",
-  "UpdatedCount": 479,
-  "Visibility": 815,
+  "Name": "Schmitt-Hilpert",
+  "PostitTextId": 118,
+  "CreatedDate": "1998-05-18T13:14:06.4289377+02:00",
+  "SelectionId": 845,
+  "SoundEx": "consequatur",
+  "Source": 20,
+  "TextId": 406,
+  "UpdatedDate": "1999-11-03T13:14:06.4289377+01:00",
+  "UpdatedCount": 635,
+  "Visibility": 304,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 39,
-  "TargetTableName": "Klein-Haley",
-  "Completed": false,
-  "LeftSelectionId": 648,
-  "RightSelectionId": 592,
+  "CompanyUnique": false,
+  "TargetTableNumber": 760,
+  "TargetTableName": "Fahey Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 894,
+  "RightSelectionId": 986,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schroeder LLC",
-  "ShadowProviderName": "Mills, Feeney and Nicolas",
-  "ChartKey": "quo",
-  "LastLoaded": "2021-11-21T03:44:53.1841498+01:00",
-  "LastLoadedBy": 394,
+  "MainProviderName": "Rohan-Hauck",
+  "ShadowProviderName": "Carter Group",
+  "ChartKey": "delectus",
+  "LastLoaded": "2005-09-16T13:14:06.4289377+02:00",
+  "LastLoadedBy": 828,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-09-05T03:44:53.1841498+02:00",
-  "LastMembershipChangeBy": 555,
+  "LastMembershipChange": "2020-03-16T13:14:06.4289377+01:00",
+  "LastMembershipChangeBy": 965,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "id",
-  "MemberTabHeading": "nihil",
-  "MailingsProviderName": "Gleichner LLC",
-  "DashboardTileDefinitionId": 673,
+  "MainHeading": "qui",
+  "MemberTabHeading": "ratione",
+  "MailingsProviderName": "Schultz, Terry and Stiedemann",
+  "DashboardTileDefinitionId": 207,
   "VisibleFor": [
     {
-      "VisibleId": 31,
+      "VisibleId": 464,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 521
+          "FieldLength": 406
         }
       }
     },
     {
-      "VisibleId": 31,
+      "VisibleId": 464,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 521
+          "FieldLength": 406
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldLength": 783
     }
   }
 }

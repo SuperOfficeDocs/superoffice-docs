@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 277,
-  "CountryId": 215
+  "ContactId": 501,
+  "CountryId": 180
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 19518.552,
-  "Wgs84Longitude": 24357.448,
+  "Wgs84Latitude": 6979.418,
+  "Wgs84Longitude": 24940.372,
   "LocalizedAddress": [
     [
       {
-        "Name": "Anderson-Walsh",
-        "Value": "ab",
-        "Tooltip": "aperiam",
-        "Label": "nostrum",
-        "ValueLength": 956,
-        "AddressType": "dolor",
+        "Name": "Gleichner-Waters",
+        "Value": "atque",
+        "Tooltip": "ut",
+        "Label": "eveniet",
+        "ValueLength": 138,
+        "AddressType": "molestiae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldType": "System.String",
+            "FieldLength": 738
           }
         }
       }
     ],
     [
       {
-        "Name": "Stiedemann, O'Hara and Berge",
-        "Value": "harum",
-        "Tooltip": "voluptatibus",
-        "Label": "eius",
-        "ValueLength": 315,
-        "AddressType": "repudiandae",
+        "Name": "Erdman-Lebsack",
+        "Value": "velit",
+        "Tooltip": "molestias",
+        "Label": "a",
+        "ValueLength": 446,
+        "AddressType": "quidem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldLength": 894
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "hic",
+  "Formatted": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

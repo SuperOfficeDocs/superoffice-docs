@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 185
+  "ContactId": 719
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 27688.89,
-  "Wgs84Longitude": 16958.074,
+  "Wgs84Latitude": 14861.428,
+  "Wgs84Longitude": 15262.58,
   "LocalizedAddress": [
     [
       {
-        "Name": "Price-O'Connell",
-        "Value": "molestias",
-        "Tooltip": "sint",
-        "Label": "et",
-        "ValueLength": 217,
-        "AddressType": "minima",
+        "Name": "Jast-Stoltenberg",
+        "Value": "modi",
+        "Tooltip": "natus",
+        "Label": "natus",
+        "ValueLength": 744,
+        "AddressType": "tempora",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldLength": 37
           }
         }
       }
     ],
     [
       {
-        "Name": "Schuster-Herzog",
-        "Value": "dolorum",
-        "Tooltip": "neque",
-        "Label": "incidunt",
-        "ValueLength": 526,
-        "AddressType": "dolore",
+        "Name": "Dickens-Mohr",
+        "Value": "ut",
+        "Tooltip": "quia",
+        "Label": "occaecati",
+        "ValueLength": 797,
+        "AddressType": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 789
+            "FieldLength": 269
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "aut",
+  "Formatted": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 356
     }
   }
 }

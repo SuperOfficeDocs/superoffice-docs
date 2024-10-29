@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 130,
-    "Name": "Eichmann, Gerlach and Welch",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 175,
-    "UdListDefinitionId": 208
+    "HeadingId": 796,
+    "Name": "Runte LLC",
+    "Tooltip": "veritatis",
+    "Deleted": false,
+    "Rank": 701,
+    "UdListDefinitionId": 546
   },
   {
-    "HeadingId": 130,
-    "Name": "Eichmann, Gerlach and Welch",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 175,
-    "UdListDefinitionId": 208
+    "HeadingId": 796,
+    "Name": "Runte LLC",
+    "Tooltip": "veritatis",
+    "Deleted": false,
+    "Rank": 701,
+    "UdListDefinitionId": 546
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 636,
-    "Name": "Strosin LLC",
-    "Tooltip": "quae",
+    "HeadingId": 992,
+    "Name": "Legros, Simonis and Wisozk",
+    "Tooltip": "perspiciatis",
     "Deleted": false,
-    "Rank": 182,
-    "UdListDefinitionId": 128,
+    "Rank": 443,
+    "UdListDefinitionId": 563,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldLength": 516
       }
     }
   }

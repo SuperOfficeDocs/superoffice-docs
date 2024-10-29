@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "suscipit",
-  "RecordId": 629,
-  "Fields": "nihil"
+  "Table": "aliquam",
+  "RecordId": 894,
+  "Fields": "et"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "autem",
+    "Field": "eos",
     "FieldValue": null
   },
   {
-    "Field": "autem",
+    "Field": "eos",
     "FieldValue": null
   }
 ]

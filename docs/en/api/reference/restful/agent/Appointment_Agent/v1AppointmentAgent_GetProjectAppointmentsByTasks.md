@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 872,
-  "StartTime": "2008-03-01T03:44:51.8396645+01:00",
-  "EndTime": "2011-09-16T03:44:51.8396645+02:00",
-  "Count": 512,
+  "ProjectId": 763,
+  "StartTime": "2022-01-20T13:14:05.2101147+01:00",
+  "EndTime": "2022-06-14T13:14:05.2101147+02:00",
+  "Count": 145,
   "TaskIds": [
-    174,
-    810
+    128,
+    657
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 552,
-    "StartDate": "1998-08-19T03:44:51.8396645+02:00",
-    "EndDate": "2008-06-07T03:44:51.8396645+02:00",
+    "AppointmentId": 790,
+    "StartDate": "2008-05-01T13:14:05.2257407+02:00",
+    "EndDate": "2000-04-28T13:14:05.2257407+02:00",
     "Type": "BookingForChecklist",
-    "Task": "illum",
-    "AssociateFullName": "Neal Kreiger",
-    "ContactName": "Yundt Group",
-    "Description": "Customer-focused context-sensitive firmware",
-    "PersonFullName": "Arlie Cassin",
-    "PersonId": 818,
-    "ContactId": 591,
-    "ProjectId": 623,
-    "ProjectName": "Satterfield, Strosin and Reinger",
-    "IsPublished": false,
-    "AssociateId": 982,
-    "ColorIndex": 333,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "recusandae",
+    "AssociateFullName": "Dr. Lily Wiza",
+    "ContactName": "Crooks-Sporer",
+    "Description": "Upgradable optimizing application",
+    "PersonFullName": "Miss Madie Mills V",
+    "PersonId": 12,
+    "ContactId": 342,
+    "ProjectId": 958,
+    "ProjectName": "Hills-McCullough",
+    "IsPublished": true,
+    "AssociateId": 606,
+    "ColorIndex": 529,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 737,
-    "PriorityName": "Baumbach-Ratke",
+    "PriorityId": 172,
+    "PriorityName": "Larkin, Conroy and Abshire",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2002-05-05T03:44:51.8396645+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2013-02-20T13:14:05.2257407+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-08-21T03:44:51.8396645+02:00",
-    "RecurringEndDate": "2011-11-02T03:44:51.8396645+01:00",
-    "MotherId": 882,
-    "AssignedBy": 133,
-    "AssignedByFullName": "Penelope Vandervort",
+    "RecurringStartDate": "2002-04-18T13:14:05.2257407+02:00",
+    "RecurringEndDate": "2010-12-11T13:14:05.2257407+01:00",
+    "MotherId": 11,
+    "AssignedBy": 552,
+    "AssignedByFullName": "Velda Hauck",
     "RejectReason": "",
-    "Location": "quo",
-    "AlarmLeadTime": "alias",
-    "SaleId": 784,
-    "SaleName": "Kris, Legros and Funk",
-    "AssociateName": "Dickens, Lynch and Weissnat",
-    "CreatedDate": "2011-03-19T03:44:51.8396645+01:00",
-    "CreatedBy": "repellendus",
-    "CreatedByFullName": "Miss Norris Jude Goodwin DVM",
-    "CreatedByAssociateId": 436,
+    "Location": "et",
+    "AlarmLeadTime": "maiores",
+    "SaleId": 157,
+    "SaleName": "Murazik LLC",
+    "AssociateName": "Marquardt, Huels and Konopelski",
+    "CreatedDate": "2005-12-10T13:14:05.2257407+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Bryon Zachary Block PhD",
+    "CreatedByAssociateId": 984,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 769,
-    "Title": "aut",
-    "Agenda": "atque",
-    "InternalNotes": "voluptas",
+    "PreferredTZLocation": 581,
+    "Title": "placeat",
+    "Agenda": "iste",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldType": "System.Int32",
+        "FieldLength": 12
       }
     }
   }

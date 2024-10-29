@@ -483,7 +483,7 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=person/personAddress/formattedMultiLineAddress,person/personAssociate/isActiveText
+GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=contact/postAddress/line1,contact/contactAssociate/title,contact/contactAssociate/isActive,contact/contactUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -760,7 +760,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelection?$select=alternative/extraField3,alternative/version/quote/sale/projectId,alternative/version/quote/sale/person/position,alternative/version/quote/sale/person/personCountry,alternative/version/quote/sale/contact/email/emailAddress
+GET /api/v1/archive/QuoteLineSelection?$select=alternative/version/quote/connectionId,alternative/version/quote/sale/contact/contactExtra/x_contact_dropdown,alternative/version/quote/sale/contact/NumberOfActivities,alternative/version/quote/sale/project/projectAssociate/contactFullName,alternative/version/quote/connection/erpConnection/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

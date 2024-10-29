@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hamill LLC",
-    "Description": "Team-oriented demand-driven core",
+    "Name": "Hartmann-Mertz",
+    "Description": "Universal exuding paradigm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 248,
-        "Tooltip": "nostrum",
-        "CanAssign": true,
-        "Free": 279,
-        "InUse": 408,
+        "Total": 205,
+        "Tooltip": "sed",
+        "CanAssign": false,
+        "Free": 675,
+        "InUse": 132,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 490,
-        "Name": "Gerhold-Nitzsche",
-        "Description": "Secured executive instruction set",
-        "PrerequisiteModuleName": "Schinner, Grady and Stroman",
-        "SortOrder": 22,
-        "ExtraFlags": 933,
+        "ModuleLicenseId": 884,
+        "Name": "Jast LLC",
+        "Description": "Decentralized optimizing installation",
+        "PrerequisiteModuleName": "Kutch, Ryan and Krajcik",
+        "SortOrder": 607,
+        "ExtraFlags": 334,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 720
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 398,
-        "Tooltip": "soluta",
-        "CanAssign": true,
-        "Free": 811,
-        "InUse": 709,
+        "Unrestricted": false,
+        "Total": 834,
+        "Tooltip": "ullam",
+        "CanAssign": false,
+        "Free": 596,
+        "InUse": 455,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 886,
-        "Name": "Tromp, Kuphal and Mills",
-        "Description": "Customer-focused heuristic productivity",
-        "PrerequisiteModuleName": "Leffler Inc and Sons",
-        "SortOrder": 87,
-        "ExtraFlags": 154,
+        "ModuleLicenseId": 834,
+        "Name": "Bailey-Kling",
+        "Description": "Programmable demand-driven knowledge base",
+        "PrerequisiteModuleName": "Runolfsdottir, Stokes and Cormier",
+        "SortOrder": 842,
+        "ExtraFlags": 164,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 160
+            "FieldLength": 474
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldType": "System.String",
+        "FieldLength": 502
       }
     }
   },
   {
-    "Name": "Hamill LLC",
-    "Description": "Team-oriented demand-driven core",
+    "Name": "Hartmann-Mertz",
+    "Description": "Universal exuding paradigm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 248,
-        "Tooltip": "nostrum",
-        "CanAssign": true,
-        "Free": 279,
-        "InUse": 408,
+        "Total": 205,
+        "Tooltip": "sed",
+        "CanAssign": false,
+        "Free": 675,
+        "InUse": 132,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 490,
-        "Name": "Gerhold-Nitzsche",
-        "Description": "Secured executive instruction set",
-        "PrerequisiteModuleName": "Schinner, Grady and Stroman",
-        "SortOrder": 22,
-        "ExtraFlags": 933,
+        "ModuleLicenseId": 884,
+        "Name": "Jast LLC",
+        "Description": "Decentralized optimizing installation",
+        "PrerequisiteModuleName": "Kutch, Ryan and Krajcik",
+        "SortOrder": 607,
+        "ExtraFlags": 334,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 720
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 398,
-        "Tooltip": "soluta",
-        "CanAssign": true,
-        "Free": 811,
-        "InUse": 709,
+        "Unrestricted": false,
+        "Total": 834,
+        "Tooltip": "ullam",
+        "CanAssign": false,
+        "Free": 596,
+        "InUse": 455,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 886,
-        "Name": "Tromp, Kuphal and Mills",
-        "Description": "Customer-focused heuristic productivity",
-        "PrerequisiteModuleName": "Leffler Inc and Sons",
-        "SortOrder": 87,
-        "ExtraFlags": 154,
+        "ModuleLicenseId": 834,
+        "Name": "Bailey-Kling",
+        "Description": "Programmable demand-driven knowledge base",
+        "PrerequisiteModuleName": "Runolfsdottir, Stokes and Cormier",
+        "SortOrder": 842,
+        "ExtraFlags": 164,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 160
+            "FieldLength": 474
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldType": "System.String",
+        "FieldLength": 502
       }
     }
   }

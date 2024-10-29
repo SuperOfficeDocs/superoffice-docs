@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 821
+  "UserGroupId": 157
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 172,
-    "ColumnId": 277,
-    "FieldDefault": "quae",
-    "FieldHeight": 280,
-    "FieldLabel": "molestiae",
-    "FieldLeft": 996,
-    "FieldTop": 939,
+    "UDefFieldId": 333,
+    "ColumnId": 564,
+    "FieldDefault": "et",
+    "FieldHeight": 144,
+    "FieldLabel": "dolore",
+    "FieldLeft": 354,
+    "FieldTop": 267,
     "FieldType": "Checkbox",
-    "FieldWidth": 53,
-    "FormatMask": "natus",
+    "FieldWidth": 963,
+    "FormatMask": "veritatis",
     "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 93,
-    "LabelLeft": 773,
-    "LabelTop": 550,
-    "LabelWidth": 464,
-    "LastVersionId": 519,
-    "ListTableId": 810,
+    "IsIndexed": true,
+    "LabelHeight": 118,
+    "LabelLeft": 729,
+    "LabelTop": 472,
+    "LabelWidth": 50,
+    "LastVersionId": 598,
+    "ListTableId": 154,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 231,
-    "ProgId": "fugit",
-    "IsReadOnly": false,
-    "ShortLabel": "aspernatur",
-    "TabOrder": 706,
-    "TextLength": 482,
-    "Tooltip": "suscipit",
-    "UdefIdentity": 354,
-    "UDListDefinitionId": 587,
+    "Page1LineNo": 28,
+    "ProgId": "rerum",
+    "IsReadOnly": true,
+    "ShortLabel": "dolores",
+    "TabOrder": 541,
+    "TextLength": 447,
+    "Tooltip": "aliquid",
+    "UdefIdentity": 511,
+    "UDListDefinitionId": 599,
     "Justification": "Center",
-    "Version": 945,
-    "TemplateVariableName": "Raynor-Crona",
-    "HasBeenPublished": false,
-    "MdoListName": "Adams, Smith and Kovacek",
+    "Version": 931,
+    "TemplateVariableName": "Rohan-Crooks",
+    "HasBeenPublished": true,
+    "MdoListName": "Davis-Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldType": "System.String",
+        "FieldLength": 510
       }
     }
   }

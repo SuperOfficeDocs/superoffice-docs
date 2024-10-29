@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Watsica-Walker",
-    "ToolTip": "Aut veritatis amet non doloribus.",
+    "Id": 474,
+    "Name": "Parker, Quigley and Mayer",
+    "ToolTip": "Odio sapiente.",
     "Deleted": true,
-    "Rank": 491,
-    "Type": "eveniet",
-    "ColorBlock": 615,
-    "IconHint": "quibusdam",
+    "Rank": 820,
+    "Type": "laborum",
+    "ColorBlock": 567,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2007-07-10T03:44:58.1093468+02:00",
+    "LastChanged": "2011-10-31T13:14:11.5079552+01:00",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "O'Conner-Champlin",
-        "ToolTip": "Blanditiis suscipit et fugiat corrupti eaque fuga nobis.",
-        "Deleted": false,
-        "Rank": 634,
-        "Type": "iure",
-        "ColorBlock": 136,
-        "IconHint": "doloribus",
-        "Selected": true,
-        "LastChanged": "2001-03-23T03:44:58.1093468+01:00",
+        "Id": 444,
+        "Name": "Langosh-Satterfield",
+        "ToolTip": "Eius id voluptas.",
+        "Deleted": true,
+        "Rank": 221,
+        "Type": "suscipit",
+        "ColorBlock": 338,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2008-05-03T13:14:11.5079552+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "et",
+        "ExtraInfo": "ut",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Taylor Kilback"
+        "FullName": "Ms. Orland Bogan DVM"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "sed",
+    "ExtraInfo": "porro",
+    "StyleHint": "esse",
     "Hidden": true,
-    "FullName": "Angelica Madonna Schneider V"
+    "FullName": "Meggie Schoen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Lang Inc and Sons",
-    "ToolTip": "Enim eos alias eum.",
+    "Id": 309,
+    "Name": "Aufderhar LLC",
+    "ToolTip": "Eum debitis.",
     "Deleted": false,
-    "Rank": 250,
-    "Type": "voluptate",
-    "ColorBlock": 478,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2008-03-16T03:44:58.1093468+01:00",
+    "Rank": 353,
+    "Type": "magni",
+    "ColorBlock": 335,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "1999-01-20T13:14:11.5079552+01:00",
     "ChildItems": [
       {
-        "Id": 330,
-        "Name": "Raynor-Mayert",
-        "ToolTip": "Cupiditate sapiente natus.",
-        "Deleted": false,
-        "Rank": 858,
-        "Type": "porro",
-        "ColorBlock": 177,
-        "IconHint": "sed",
+        "Id": 4,
+        "Name": "Boehm LLC",
+        "ToolTip": "Et aut culpa unde reprehenderit repellat.",
+        "Deleted": true,
+        "Rank": 253,
+        "Type": "autem",
+        "ColorBlock": 304,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2017-07-30T03:44:58.1093468+02:00",
+        "LastChanged": "2003-09-02T13:14:11.5079552+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "est",
+        "ExtraInfo": "id",
+        "StyleHint": "dicta",
         "Hidden": false,
-        "FullName": "Jeffrey Hardy Mante V",
+        "FullName": "Prof. Sid Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 386
+            "FieldLength": 873
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ut",
+    "ExtraInfo": "numquam",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Cody Adams",
+    "FullName": "Miss Carmelo Johathan Friesen DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldLength": 294
       }
     }
   }

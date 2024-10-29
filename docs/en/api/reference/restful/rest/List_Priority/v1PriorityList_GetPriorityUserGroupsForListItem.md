@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Rau Inc and Sons",
-    "ToolTip": "Explicabo aut adipisci incidunt voluptas.",
+    "Id": 192,
+    "Name": "Collier Group",
+    "ToolTip": "Quae nesciunt.",
     "Deleted": true,
-    "Rank": 139,
-    "Type": "minima",
-    "ColorBlock": 907,
-    "IconHint": "voluptates",
+    "Rank": 532,
+    "Type": "rerum",
+    "ColorBlock": 164,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2018-12-28T03:44:58.0468534+01:00",
+    "LastChanged": "1999-09-28T13:14:11.4454508+02:00",
     "ChildItems": [
       {
-        "Id": 580,
-        "Name": "Cummings, Jakubowski and Hagenes",
-        "ToolTip": "Autem earum dicta.",
-        "Deleted": true,
-        "Rank": 925,
-        "Type": "et",
-        "ColorBlock": 542,
-        "IconHint": "voluptatibus",
+        "Id": 46,
+        "Name": "Gislason, Blick and Wyman",
+        "ToolTip": "Sed vel aliquid aut non in est est.",
+        "Deleted": false,
+        "Rank": 589,
+        "Type": "repudiandae",
+        "ColorBlock": 400,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2019-01-28T03:44:58.0468534+01:00",
+        "LastChanged": "2006-11-13T13:14:11.4454508+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Eveline Witting",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "tempora",
+        "Hidden": true,
+        "FullName": "Cordelia Ashlee Hackett IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 555
+            "FieldLength": 759
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "repellat",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ozella Witting",
+    "FullName": "Janessa Heath Gleichner IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 145
       }
     }
   }

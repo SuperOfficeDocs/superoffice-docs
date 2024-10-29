@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "hic",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "hic",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 631,
-  "Section": "ducimus",
-  "Key": "animi",
-  "Name": "Walker Group",
+  "PrefDescId": 981,
+  "Section": "suscipit",
+  "Key": "quibusdam",
+  "Name": "Jenkins-Pollich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergized encompassing info-mediaries",
-  "IsBuiltin": true,
-  "TableName": "Hodkiewicz Inc and Sons",
-  "UserDefinedListId": 591,
-  "Rank": 547,
-  "SubGroup": "officia",
-  "MinLevel": 174,
-  "MaxValue": 741,
-  "MinValue": 699,
-  "RequiredLicense": "ea",
+  "Description": "Integrated encompassing flexibility",
+  "IsBuiltin": false,
+  "TableName": "O'Kon, Labadie and Stoltenberg",
+  "UserDefinedListId": 618,
+  "Rank": 468,
+  "SubGroup": "odio",
+  "MinLevel": 84,
+  "MaxValue": 47,
+  "MinValue": 821,
+  "RequiredLicense": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   },
   "_Links": {

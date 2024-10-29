@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 200,
-  "Name": "Treutel-Terry",
-  "ConsentText": "iure",
-  "FormText": "fuga",
-  "Key": "qui",
-  "Tooltip": "voluptas",
-  "Active": 716,
-  "UpdatedDate": "2017-01-22T03:44:57.9374899+01:00",
+  "ConsentPurposeId": 346,
+  "Name": "Rath, Heaney and Kulas",
+  "ConsentText": "voluptatibus",
+  "FormText": "temporibus",
+  "Key": "consequatur",
+  "Tooltip": "provident",
+  "Active": 789,
+  "UpdatedDate": "2020-12-23T13:14:11.3360694+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 504,
-  "PrivacyStatementDesc": "nesciunt",
+  "Rank": 459,
+  "PrivacyStatementDesc": "quisquam",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 861,
-  "Name": "Krajcik, Lehner and Kiehn",
-  "ConsentText": "voluptatem",
-  "FormText": "praesentium",
-  "Key": "aut",
-  "Tooltip": "unde",
-  "Active": 498,
-  "UpdatedDate": "1998-03-29T03:44:57.9374899+02:00",
+  "ConsentPurposeId": 532,
+  "Name": "Skiles, Kilback and Russel",
+  "ConsentText": "ducimus",
+  "FormText": "et",
+  "Key": "esse",
+  "Tooltip": "laborum",
+  "Active": 944,
+  "UpdatedDate": "2016-05-04T13:14:11.3360694+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 646,
-  "PrivacyStatementDesc": "voluptatem",
+  "Deleted": false,
+  "Rank": 370,
+  "PrivacyStatementDesc": "a",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldLength": 173
     }
   }
 }

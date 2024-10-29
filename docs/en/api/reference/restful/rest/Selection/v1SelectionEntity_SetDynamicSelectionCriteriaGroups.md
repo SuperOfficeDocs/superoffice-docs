@@ -78,58 +78,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette, Denesik and Hills",
-    "Description": "Proactive assymetric open system",
-    "Rank": 627,
+    "Name": "Cruickshank-Parker",
+    "Description": "Exclusive web-enabled system engine",
+    "Rank": 615,
     "Restrictions": [
       {
-        "Name": "Windler-Hilpert",
-        "Operator": "sed",
+        "Name": "Breitenberg, Haag and Dicki",
+        "Operator": "enim",
         "Values": [
-          "voluptas",
-          "debitis"
+          "non",
+          "aut"
         ],
         "DisplayValues": [
-          "illum",
-          "adipisci"
+          "nulla",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 771,
+        "InterParenthesis": 897,
         "InterOperator": "And",
-        "UniqueHash": 827
+        "UniqueHash": 690
       }
     ]
   },
   {
-    "Name": "Goyette, Denesik and Hills",
-    "Description": "Proactive assymetric open system",
-    "Rank": 627,
+    "Name": "Cruickshank-Parker",
+    "Description": "Exclusive web-enabled system engine",
+    "Rank": 615,
     "Restrictions": [
       {
-        "Name": "Windler-Hilpert",
-        "Operator": "sed",
+        "Name": "Breitenberg, Haag and Dicki",
+        "Operator": "enim",
         "Values": [
-          "voluptas",
-          "debitis"
+          "non",
+          "aut"
         ],
         "DisplayValues": [
-          "illum",
-          "adipisci"
+          "nulla",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 771,
+        "InterParenthesis": 897,
         "InterOperator": "And",
-        "UniqueHash": 827
+        "UniqueHash": 690
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walsh, Lakin and Howe",
-    "Description": "Function-based hybrid collaboration",
-    "Rank": 104,
+    "Name": "Prosacco-Cassin",
+    "Description": "Horizontal high-level application",
+    "Rank": 439,
     "Restrictions": [
       {
-        "Name": "Jones-Gerhold",
-        "Operator": "adipisci",
+        "Name": "Smitham-Kohler",
+        "Operator": "quasi",
         "Values": [
-          "dolorum",
-          "alias"
+          "et",
+          "vel"
         ],
         "DisplayValues": [
-          "delectus",
-          "ex"
+          "soluta",
+          "iure"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 925,
+        "InterParenthesis": 989,
         "InterOperator": "And",
-        "UniqueHash": 650
+        "UniqueHash": 366
       }
     ]
   },
   {
-    "Name": "Walsh, Lakin and Howe",
-    "Description": "Function-based hybrid collaboration",
-    "Rank": 104,
+    "Name": "Prosacco-Cassin",
+    "Description": "Horizontal high-level application",
+    "Rank": 439,
     "Restrictions": [
       {
-        "Name": "Jones-Gerhold",
-        "Operator": "adipisci",
+        "Name": "Smitham-Kohler",
+        "Operator": "quasi",
         "Values": [
-          "dolorum",
-          "alias"
+          "et",
+          "vel"
         ],
         "DisplayValues": [
-          "delectus",
-          "ex"
+          "soluta",
+          "iure"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 925,
+        "InterParenthesis": 989,
         "InterOperator": "And",
-        "UniqueHash": 650
+        "UniqueHash": 366
       }
     ]
   }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 24 May 2023 03:44:57 G5T
+Last-Modified: Mon, 23 Jun 2003 13:14:10 G6T
 
 {
-  "Key": "perspiciatis",
-  "Value": "tenetur",
-  "RecordId": 272,
-  "CreatedDate": "2015-07-24T03:44:57.359003+02:00",
-  "UpdatedDate": "2023-05-24T03:44:57.359003+02:00",
-  "UpdatedBy": "debitis",
-  "CreatedBy": "totam",
-  "TableName": "Cronin, Greenholt and Kunde",
+  "Key": "rerum",
+  "Value": "dolor",
+  "RecordId": 810,
+  "CreatedDate": "2024-01-31T13:14:10.8360396+01:00",
+  "UpdatedDate": "2003-06-23T13:14:10.8360396+02:00",
+  "UpdatedBy": "optio",
+  "CreatedBy": "iste",
+  "TableName": "Shields-Lueilwitz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

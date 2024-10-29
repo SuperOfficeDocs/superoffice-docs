@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 706
+  "ErpFieldId": 384
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 811,
-  "DefaultValue": "expedita",
+  "ErpFieldId": 755,
+  "DefaultValue": "debitis",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "iusto",
+  "FirstSyncDefaultValue": "modi",
   "PromptUser": true,
   "Mandatory": false,
-  "ErpFieldKey": "neque",
+  "ErpFieldKey": "tempora",
   "FieldType": "Checkbox",
-  "ListName": "Block, O'Keefe and Douglas",
+  "ListName": "Pfeffer, Brown and Connelly",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldLength": 741
     }
   }
 }

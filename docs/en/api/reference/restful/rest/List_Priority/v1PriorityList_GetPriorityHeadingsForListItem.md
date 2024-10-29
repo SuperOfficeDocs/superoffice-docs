@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Rath Inc and Sons",
-    "ToolTip": "Consequuntur illo alias consectetur.",
-    "Deleted": false,
-    "Rank": 742,
-    "Type": "possimus",
-    "ColorBlock": 832,
-    "IconHint": "eligendi",
+    "Id": 530,
+    "Name": "Gottlieb, Kulas and Ondricka",
+    "ToolTip": "Repellendus molestiae expedita possimus eaque et.",
+    "Deleted": true,
+    "Rank": 150,
+    "Type": "dolor",
+    "ColorBlock": 782,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2000-11-10T03:44:58.062516+01:00",
+    "LastChanged": "2009-04-25T13:14:11.4454508+02:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Monahan Inc and Sons",
-        "ToolTip": "Dolor qui qui laudantium maxime eveniet et.",
+        "Id": 222,
+        "Name": "Robel, Macejkovic and Gleichner",
+        "ToolTip": "Suscipit magnam magnam.",
         "Deleted": false,
-        "Rank": 905,
-        "Type": "est",
-        "ColorBlock": 727,
-        "IconHint": "assumenda",
+        "Rank": 259,
+        "Type": "et",
+        "ColorBlock": 10,
+        "IconHint": "libero",
         "Selected": true,
-        "LastChanged": "2016-09-04T03:44:58.062516+02:00",
+        "LastChanged": "2007-09-06T13:14:11.4454508+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "earum",
+        "ExtraInfo": "earum",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Mrs. Nick Corwin",
+        "FullName": "Berenice Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldLength": 857
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "illo",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Stephanie Jayden Wunsch I",
+    "FullName": "Christelle Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldType": "System.String",
+        "FieldLength": 76
       }
     }
   }

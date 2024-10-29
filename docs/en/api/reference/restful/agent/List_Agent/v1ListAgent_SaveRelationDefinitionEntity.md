@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 61,
-  "Name": "Block, Daniel and Mayert",
-  "Tooltip": "eveniet",
-  "PassiveText": "fuga",
+  "ReldefId": 539,
+  "Name": "Conroy-Hettinger",
+  "Tooltip": "omnis",
+  "PassiveText": "quaerat",
   "Deleted": false,
-  "Rank": 249,
+  "Rank": 804,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 245,
-  "Name": "Metz Group",
-  "Tooltip": "quae",
-  "PassiveText": "corporis",
+  "ReldefId": 590,
+  "Name": "Morar Group",
+  "Tooltip": "laudantium",
+  "PassiveText": "aperiam",
   "Deleted": false,
-  "Rank": 114,
+  "Rank": 868,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldType": "System.Int32",
+      "FieldLength": 885
     }
   }
 }

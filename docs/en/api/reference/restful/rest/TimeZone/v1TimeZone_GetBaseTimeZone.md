@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 577,
-  "Name": "Gutkowski, Cruickshank and Streich",
-  "TZLocationCode": "omnis",
-  "TZLocationCities": "repudiandae",
-  "IsoNumber": 9,
+  "TZLocationID": 253,
+  "Name": "Nitzsche-Adams",
+  "TZLocationCode": "repellendus",
+  "TZLocationCities": "est",
+  "IsoNumber": 704,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 916,
-      "StartMonth": 265,
-      "EndDay": 982,
-      "EndMonth": 294,
-      "TZOffset": 985,
-      "StartRulePattern": "deleniti",
-      "EndRulePattern": "soluta"
+      "StartDay": 52,
+      "StartMonth": 976,
+      "EndDay": 204,
+      "EndMonth": 367,
+      "TZOffset": 101,
+      "StartRulePattern": "aut",
+      "EndRulePattern": "nostrum"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 173,
-      "StartMonth": 946,
-      "EndDay": 769,
-      "EndMonth": 879,
-      "TZOffset": 217,
-      "StartRulePattern": "magnam",
-      "EndRulePattern": "ipsum"
+      "StartDay": 281,
+      "StartMonth": 487,
+      "EndDay": 335,
+      "EndMonth": 748,
+      "TZOffset": 399,
+      "StartRulePattern": "quia",
+      "EndRulePattern": "maiores"
     }
   }
 }

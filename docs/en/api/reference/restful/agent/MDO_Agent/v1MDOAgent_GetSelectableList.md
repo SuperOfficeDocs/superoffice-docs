@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jenkins-Fisher",
-  "ForceFlatList": true,
-  "AdditionalInfo": "numquam",
-  "OnlyHistory": false
+  "Name": "Roob-Gleason",
+  "ForceFlatList": false,
+  "AdditionalInfo": "esse",
+  "OnlyHistory": true
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Cassin, Sanford and Quigley",
-    "ToolTip": "Est esse quaerat amet accusamus provident neque voluptatem.",
+    "Id": 94,
+    "Name": "Crona-Douglas",
+    "ToolTip": "Odio voluptas id non.",
     "Deleted": false,
-    "Rank": 694,
-    "Type": "minima",
-    "ColorBlock": 723,
-    "IconHint": "repellendus",
+    "Rank": 379,
+    "Type": "consequuntur",
+    "ColorBlock": 687,
+    "IconHint": "corporis",
     "Selected": true,
-    "LastChanged": "2019-06-17T03:44:52.7614393+02:00",
+    "LastChanged": "2001-11-30T13:14:06.1476714+01:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Flatley Group",
-        "ToolTip": "Aut sit delectus sit sint et.",
-        "Deleted": true,
-        "Rank": 807,
-        "Type": "qui",
-        "ColorBlock": 800,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "2017-04-27T03:44:52.7614393+02:00",
+        "Id": 109,
+        "Name": "Weimann, Kuhic and Zieme",
+        "ToolTip": "Omnis qui voluptatibus quia.",
+        "Deleted": false,
+        "Rank": 661,
+        "Type": "et",
+        "ColorBlock": 986,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2015-06-22T13:14:06.1476714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "officiis",
+        "ExtraInfo": "molestias",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Kayleigh Farrell",
+        "FullName": "Joany White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 582
+            "FieldLength": 220
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "aut",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Mr. Nelda Winona Sanford I",
+    "FullName": "Benedict Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 793
       }
     }
   }

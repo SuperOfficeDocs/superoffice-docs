@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 937,
-    "AssociateName": "Harvey, Metz and Schuster",
-    "AssociateId": 477,
+    "AccountId": 82,
+    "AssociateName": "Armstrong-Kessler",
+    "AssociateId": 119,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 221
       }
     }
   },
   {
-    "AccountId": 937,
-    "AssociateName": "Harvey, Metz and Schuster",
-    "AssociateId": 477,
+    "AccountId": 82,
+    "AssociateName": "Armstrong-Kessler",
+    "AssociateId": 119,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 221
       }
     }
   }

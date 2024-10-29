@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 450,
-  "Name": "Kuvalis-Yost",
-  "ContentType": "id",
-  "AttSize": 85,
+  "AttachmentId": 185,
+  "Name": "Blick Group",
+  "ContentType": "harum",
+  "AttSize": 761,
   "InlineImage": true,
-  "ContentId": "enim",
-  "AuthKey": "harum",
+  "ContentId": "cum",
+  "AuthKey": "est",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 709
     }
   }
 }

@@ -71,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Flatley, Gerhold and Ernser",
+  "ProviderName": "Predovic, Kub and Kovacek",
   "Restrictions": [
     {
-      "Name": "Russel Group",
-      "Operator": "deleniti",
+      "Name": "Koch, Ullrich and Reilly",
+      "Operator": "voluptatem",
       "Values": [
-        "animi",
-        "tenetur"
+        "autem",
+        "iure"
       ],
       "DisplayValues": [
-        "sint",
-        "molestiae"
+        "nihil",
+        "culpa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 680,
+      "InterParenthesis": 37,
       "InterOperator": "And",
-      "UniqueHash": 382
+      "UniqueHash": 890
     }
   ],
-  "AssociateId": 415,
-  "ExtraInfo": "voluptates"
+  "AssociateId": 646,
+  "ExtraInfo": "quaerat"
 }
 ```
 

@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Blanda LLC",
-  "Context": "ab",
+  "ProviderName": "Smith-Prosacco",
+  "Context": "dolore",
   "DesiredEntities": [
-    "doloribus",
-    "magnam"
+    "et",
+    "quae"
   ],
   "Columns": [
-    "libero",
-    "ut"
+    "qui",
+    "aut"
   ],
   "SortOrder": [
     {
-      "Name": "Harber-McGlynn",
+      "Name": "Pfannerstill Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Harber-McGlynn",
+      "Name": "Pfannerstill Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Brown Inc and Sons",
-      "Operator": "deserunt",
+      "Name": "Koelpin, Abernathy and Rowe",
+      "Operator": "et",
       "Values": [
-        "accusantium",
-        "delectus"
+        "voluptates",
+        "dignissimos"
       ],
       "DisplayValues": [
-        "amet",
-        "earum"
+        "nihil",
+        "fuga"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 424,
+      "InterParenthesis": 781,
       "InterOperator": "And",
-      "UniqueHash": 837
+      "UniqueHash": 949
     }
   ],
-  "ExportType": "eveniet",
+  "ExportType": "quidem",
   "SelectedRowIds": [
-    "architecto",
-    "aliquam"
+    "distinctio",
+    "deleniti"
   ],
-  "EstimatedRowCount": 495
+  "EstimatedRowCount": 887
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 894,
-  "FileName": "Bogisich-Glover",
-  "Message": "quia",
+  "BatchTaskId": 804,
+  "FileName": "Veum, Schaden and Sporer",
+  "Message": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 72
     }
   }
 }

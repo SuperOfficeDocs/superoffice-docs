@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quis"
+  "UniqueIdentifier": "quam"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "accusantium",
-  "Name": "Turner, West and Schuppe",
-  "Description": "Re-contextualized encompassing forecast",
-  "IncludeId": "eos",
-  "Source": "doloremque",
-  "Registered": "2002-12-15T03:44:52.3708918+01:00",
-  "RegisteredBy": "sint",
-  "Updated": "2013-04-14T03:44:52.3708918+02:00",
-  "UpdatedBy": "ipsam",
-  "Path": "delectus",
+  "UniqueIdentifier": "ut",
+  "Name": "Stoltenberg-Kling",
+  "Description": "Grass-roots demand-driven model",
+  "IncludeId": "temporibus",
+  "Source": "ullam",
+  "Registered": "2005-09-30T13:14:05.710145+02:00",
+  "RegisteredBy": "reprehenderit",
+  "Updated": "2012-08-29T13:14:05.710145+02:00",
+  "UpdatedBy": "nulla",
+  "Path": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldType": "System.String",
+      "FieldLength": 47
     }
   }
 }

@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "dolorem",
-  "ProgramName": "Senger Inc and Sons",
-  "Action": "est",
-  "ExtraParameters": "mollitia"
+  "Language": "delectus",
+  "ProgramName": "Ward LLC",
+  "Action": "aliquid",
+  "ExtraParameters": "ipsa"
 }
 ```
 

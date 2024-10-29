@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "mollitia",
-    "voluptatum"
+    "velit",
+    "sit"
   ],
-  "CurrentClientTime": "2006-05-17T03:44:52.8864257+02:00"
+  "CurrentClientTime": "2014-10-12T13:14:06.2414263+02:00"
 }
 ```
 
@@ -102,35 +102,35 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "iste",
-    "officiis"
+    "ullam",
+    "velit"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 721,
-  "NotificationsCount": 725,
+  "OverdueSalesCount": 981,
+  "NotificationsCount": 31,
   "SystemWebPanels": [
     {
-      "WebPanelId": 622,
-      "Name": "Waters, Spinka and Ondricka",
-      "Tooltip": "asperiores",
-      "Deleted": true,
-      "Rank": 578,
+      "WebPanelId": 864,
+      "Name": "Mraz-Leannon",
+      "Tooltip": "natus",
+      "Deleted": false,
+      "Rank": 17,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
-      "OnSatellite": true,
+      "OnCentral": false,
+      "OnSatellite": false,
       "OnTravel": false,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": false,
-      "ShowInAddressBar": false,
+      "ShowInAddressBar": true,
       "ShowInStatusBar": false,
-      "WindowName": "Toy-Goyette",
+      "WindowName": "Renner Inc and Sons",
       "Url": "http://www.example.com/",
-      "ProgId": "qui",
-      "Icon": 404,
+      "ProgId": "ut",
+      "Icon": 324,
       "AlwaysReloadOnShow": false,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldLength": 572
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "quae",
+      "RawValue": "est",
       "Specification": null,
-      "DisplayValue": "deleniti",
-      "DisplayTooltip": "incidunt",
+      "DisplayValue": "hic",
+      "DisplayTooltip": "ducimus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 981,
-      "PrefDescId": 968,
-      "TableName": "Welch Inc and Sons",
-      "UserPreferenceId": 186,
+      "TargetId": 830,
+      "PrefDescId": 821,
+      "TableName": "Torphy-Hilll",
+      "UserPreferenceId": 839,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 600
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "mollitia",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldLength": 28
     }
   }
 }

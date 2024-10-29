@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 778,
-    "FieldName": "Donnelly, Stark and Bechtelar",
-    "Label": "aspernatur",
-    "Tooltip": "adipisci",
+    "QuoteLineConfigurationId": 888,
+    "FieldName": "Gibson, Macejkovic and Rau",
+    "Label": "consequatur",
+    "Tooltip": "id",
     "Editable": true,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": true,
-    "Rank": 491,
-    "RestrictEdit": true,
+    "Rank": 59,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 744
+        "FieldType": "System.Int32",
+        "FieldLength": 75
       }
     }
   }

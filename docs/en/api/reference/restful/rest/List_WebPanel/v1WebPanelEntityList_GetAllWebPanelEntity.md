@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 884,
-    "Name": "Zulauf, Casper and Heathcote",
-    "Tooltip": "sit",
+    "WebPanelId": 622,
+    "Name": "Graham Inc and Sons",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 232,
+    "Rank": 53,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Pollich Inc and Sons",
+    "WindowName": "Hirthe, Skiles and Donnelly",
     "Url": "http://www.example.com/",
-    "ProgId": "mollitia",
-    "Icon": 457,
+    "ProgId": "quo",
+    "Icon": 747,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 186
       }
     }
   }

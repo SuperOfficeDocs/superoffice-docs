@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 488,
-  "GroupId": 633
+  "UdListDefinitionId": 471,
+  "GroupId": 558
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Vandervort-Smitham",
-    "ToolTip": "Sunt qui ut vel et.",
+    "Id": 992,
+    "Name": "Windler Group",
+    "ToolTip": "Sunt ipsa eaque.",
     "Deleted": false,
-    "Rank": 103,
-    "Type": "est",
-    "ColorBlock": 331,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2015-02-17T03:44:52.6989885+01:00",
+    "Rank": 660,
+    "Type": "labore",
+    "ColorBlock": 921,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2010-07-21T13:14:06.0851676+02:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Lind-Lindgren",
-        "ToolTip": "Voluptatum numquam magni delectus dolores.",
-        "Deleted": true,
-        "Rank": 495,
-        "Type": "ratione",
-        "ColorBlock": 338,
-        "IconHint": "non",
+        "Id": 62,
+        "Name": "Rutherford-Wolff",
+        "ToolTip": "Laudantium molestiae ut velit qui minus eaque.",
+        "Deleted": false,
+        "Rank": 234,
+        "Type": "harum",
+        "ColorBlock": 256,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2017-05-20T03:44:52.6989885+02:00",
+        "LastChanged": "2017-09-28T13:14:06.0851676+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Dr. Rubye Roberto Cremin",
+        "FullName": "Madisyn Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 221
+            "FieldType": "System.Int32",
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "fugit",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Ms. Lafayette Schroeder IV",
+    "FullName": "Michael Cletus Senger PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 740
       }
     }
   }

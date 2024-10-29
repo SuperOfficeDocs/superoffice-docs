@@ -90,12 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 100,
-  "Name": "Daniel, Stehr and Gottlieb",
-  "Config": "quis",
-  "Rank": 348,
-  "Client": "autem",
-  "Style": "ut"
+  "DashboardThemeId": 469,
+  "Name": "Spinka-Jerde",
+  "Config": "voluptates",
+  "Rank": 56,
+  "Client": "sint",
+  "Style": "pariatur"
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 582,
-  "Name": "Zboncak-Sawayn",
-  "Config": "dolorum",
-  "Rank": 522,
-  "Client": "doloremque",
-  "Style": "aut",
+  "DashboardThemeId": 794,
+  "Name": "Herzog, Mraz and Jenkins",
+  "Config": "officia",
+  "Rank": 369,
+  "Client": "nihil",
+  "Style": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 658
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

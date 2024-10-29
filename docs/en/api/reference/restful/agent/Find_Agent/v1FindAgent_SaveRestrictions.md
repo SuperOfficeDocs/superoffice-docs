@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "velit",
-  "ProviderName": "Feeney LLC",
-  "StorageKey": "nisi",
+  "StorageType": "modi",
+  "ProviderName": "Mosciski, Kulas and Abshire",
+  "StorageKey": "quam",
   "Restrictions": [
     {
-      "Name": "Kuhlman Inc and Sons",
-      "Operator": "eius",
+      "Name": "Hoeger Inc and Sons",
+      "Operator": "atque",
       "Values": [
-        "atque",
-        "exercitationem"
+        "qui",
+        "velit"
       ],
       "DisplayValues": [
-        "qui",
-        "fugit"
+        "ratione",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 303,
+      "InterParenthesis": 975,
       "InterOperator": "And",
-      "UniqueHash": 692
+      "UniqueHash": 588
     }
   ]
 }

@@ -90,18 +90,18 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 481,
-  "Name": "Dietrich Group",
-  "ContentType": "sit",
-  "AttSize": 47,
+  "AttachmentId": 274,
+  "Name": "Kutch LLC",
+  "ContentType": "voluptatem",
+  "AttSize": 551,
   "InlineImage": false,
-  "ContentId": "architecto",
-  "AuthKey": "voluptatem",
-  "IsSafeFileExtension": true
+  "ContentId": "facere",
+  "AuthKey": "dolorem",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 32,
-  "Name": "Durgan, Tremblay and Reichert",
-  "ContentType": "distinctio",
-  "AttSize": 882,
+  "AttachmentId": 861,
+  "Name": "Barrows-Robel",
+  "ContentType": "voluptate",
+  "AttSize": 698,
   "InlineImage": false,
-  "ContentId": "ipsum",
-  "AuthKey": "non",
+  "ContentId": "placeat",
+  "AuthKey": "exercitationem",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 981
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   },
   "_Links": {

@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Botsford, Kris and Grant",
-    "ToolTip": "Et blanditiis in.",
+    "Id": 312,
+    "Name": "Bruen-Schimmel",
+    "ToolTip": "Voluptate nesciunt atque aut fugit.",
     "Deleted": true,
-    "Rank": 334,
-    "Type": "in",
-    "ColorBlock": 64,
-    "IconHint": "voluptas",
+    "Rank": 208,
+    "Type": "nisi",
+    "ColorBlock": 717,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2017-03-04T03:44:58.0000211+01:00",
+    "LastChanged": "2004-02-17T13:14:11.3985731+01:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Terry LLC",
-        "ToolTip": "Aliquam asperiores ut sit.",
+        "Id": 549,
+        "Name": "Keeling, Wiza and Krajcik",
+        "ToolTip": "Quo error.",
         "Deleted": false,
-        "Rank": 606,
-        "Type": "in",
-        "ColorBlock": 907,
-        "IconHint": "necessitatibus",
+        "Rank": 524,
+        "Type": "adipisci",
+        "ColorBlock": 200,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2008-06-04T03:44:58.0000211+02:00",
+        "LastChanged": "1998-09-25T13:14:11.3985731+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "sunt",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Moriah Vicky Sporer III",
+        "FullName": "Dr. Deontae Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 96
+            "FieldType": "System.Int32",
+            "FieldLength": 10
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "animi",
-    "Hidden": true,
-    "FullName": "Miss Kane Keaton Schultz",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "aperiam",
+    "Hidden": false,
+    "FullName": "Constantin Rolfson III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldType": "System.Int32",
+        "FieldLength": 256
       }
     }
   }

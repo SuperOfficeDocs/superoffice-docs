@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Schmidt-Kautzer",
-    "ToolTip": "Blanditiis dolor.",
+    "Id": 947,
+    "Name": "Towne Inc and Sons",
+    "ToolTip": "Sint adipisci labore consequuntur voluptas asperiores repudiandae ipsam.",
     "Deleted": false,
-    "Rank": 34,
-    "Type": "repellat",
-    "ColorBlock": 339,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2004-12-14T03:44:58.062516+01:00",
+    "Rank": 936,
+    "Type": "sint",
+    "ColorBlock": 970,
+    "IconHint": "commodi",
+    "Selected": false,
+    "LastChanged": "1999-11-07T13:14:11.4610767+01:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Gleason-Torp",
-        "ToolTip": "Doloremque molestiae quo voluptatum occaecati enim expedita.",
-        "Deleted": false,
-        "Rank": 396,
-        "Type": "consequatur",
-        "ColorBlock": 211,
-        "IconHint": "eius",
-        "Selected": true,
-        "LastChanged": "2017-07-23T03:44:58.062516+02:00",
+        "Id": 730,
+        "Name": "Stamm, Hane and Bins",
+        "ToolTip": "Aut quibusdam tenetur non.",
+        "Deleted": true,
+        "Rank": 674,
+        "Type": "rerum",
+        "ColorBlock": 324,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2024-02-12T13:14:11.4610767+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "delectus",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Anthony Stanton"
+        "FullName": "Miss Darrick Sherman Jerde Jr."
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "et",
+    "ExtraInfo": "quo",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Cara Nitzsche"
+    "FullName": "Mrs. Johan Kellen Glover DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Schneider Inc and Sons",
-    "ToolTip": "Similique est dolores.",
-    "Deleted": false,
-    "Rank": 199,
-    "Type": "quia",
-    "ColorBlock": 957,
-    "IconHint": "cupiditate",
-    "Selected": true,
-    "LastChanged": "2019-09-02T03:44:58.062516+02:00",
+    "Id": 188,
+    "Name": "Klocko Inc and Sons",
+    "ToolTip": "Omnis et sit voluptas molestiae sed.",
+    "Deleted": true,
+    "Rank": 804,
+    "Type": "iusto",
+    "ColorBlock": 76,
+    "IconHint": "placeat",
+    "Selected": false,
+    "LastChanged": "1998-12-30T13:14:11.4610767+01:00",
     "ChildItems": [
       {
-        "Id": 437,
-        "Name": "Mills-Schoen",
-        "ToolTip": "Voluptatem impedit rem neque.",
-        "Deleted": true,
-        "Rank": 312,
-        "Type": "consequuntur",
-        "ColorBlock": 175,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2018-11-11T03:44:58.062516+01:00",
+        "Id": 700,
+        "Name": "Murazik Group",
+        "ToolTip": "Itaque aut architecto laborum.",
+        "Deleted": false,
+        "Rank": 772,
+        "Type": "veritatis",
+        "ColorBlock": 90,
+        "IconHint": "expedita",
+        "Selected": true,
+        "LastChanged": "2023-04-24T13:14:11.4610767+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "nihil",
+        "ExtraInfo": "labore",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Dr. Bert Donnelly III",
+        "FullName": "Emanuel Beahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldLength": 114
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Ms. Kennith Murphy",
+    "ExtraInfo": "impedit",
+    "StyleHint": "quibusdam",
+    "Hidden": false,
+    "FullName": "Braden Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 195
+        "FieldLength": 254
       }
     }
   }

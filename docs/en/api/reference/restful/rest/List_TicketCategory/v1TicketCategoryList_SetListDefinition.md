@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 619,
-  "Name": "Romaguera-Collier",
-  "Tooltip": "consequatur",
+  "Id": 165,
+  "Name": "Marquardt Group",
+  "Tooltip": "quasi",
   "Deleted": true,
-  "Rank": 221,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "in",
+  "Rank": 654,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "facere",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Kuphal-Strosin",
-  "Tooltip": "et",
+  "Id": 7,
+  "Name": "Schmidt Inc and Sons",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 512,
+  "Rank": 654,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptates",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   }
 }

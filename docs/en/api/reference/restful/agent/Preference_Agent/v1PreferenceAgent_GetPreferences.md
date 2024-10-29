@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "voluptatem",
-      "Key": "dolores"
+      "Section": "dicta",
+      "Key": "dignissimos"
     },
     {
-      "Section": "voluptatem",
-      "Key": "dolores"
+      "Section": "dicta",
+      "Key": "dignissimos"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "maxime",
+    "RawValue": "qui",
     "Specification": null,
-    "DisplayValue": "atque",
-    "DisplayTooltip": "perferendis",
+    "DisplayValue": "exercitationem",
+    "DisplayTooltip": "qui",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 99,
-    "PrefDescId": 880,
-    "TableName": "Ledner Group",
-    "UserPreferenceId": 99,
+    "TargetId": 288,
+    "PrefDescId": 402,
+    "TableName": "Baumbach-Cole",
+    "UserPreferenceId": 37,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

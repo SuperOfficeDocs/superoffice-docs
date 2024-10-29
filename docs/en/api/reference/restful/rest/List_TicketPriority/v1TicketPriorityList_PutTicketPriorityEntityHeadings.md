@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 619,
-    "Name": "Kling-Corkery",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 923,
-    "UdListDefinitionId": 622
+    "HeadingId": 327,
+    "Name": "Hauck, Schmidt and Kertzmann",
+    "Tooltip": "quas",
+    "Deleted": false,
+    "Rank": 775,
+    "UdListDefinitionId": 801
   },
   {
-    "HeadingId": 619,
-    "Name": "Kling-Corkery",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 923,
-    "UdListDefinitionId": 622
+    "HeadingId": 327,
+    "Name": "Hauck, Schmidt and Kertzmann",
+    "Tooltip": "quas",
+    "Deleted": false,
+    "Rank": 775,
+    "UdListDefinitionId": 801
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 728,
-    "Name": "Metz Group",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "Rank": 295,
-    "UdListDefinitionId": 924,
+    "HeadingId": 232,
+    "Name": "Keebler-Hilll",
+    "Tooltip": "cumque",
+    "Deleted": true,
+    "Rank": 317,
+    "UdListDefinitionId": 987,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldType": "System.String",
+        "FieldLength": 248
       }
     }
   }

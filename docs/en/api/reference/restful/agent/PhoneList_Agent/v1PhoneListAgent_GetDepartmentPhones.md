@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 862
+  "DepartmentId": 509
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(836)731-3073",
-    "PersonCellPhone": "497-668-3484",
-    "PersonPrivatePhone": "1-039-863-9572 x55507",
-    "PersonFaxNumber": "926737",
-    "PersonPagerNumber": "440806",
-    "PersonEmail": "elisa_hegmann@murray.com",
-    "Id": 195,
-    "Name": "Swaniawski, Halvorson and Witting",
-    "Tooltip": "soluta",
-    "UniqueId": "nobis",
+    "PersonDirectPhone": "338-996-5882 x52517",
+    "PersonCellPhone": "015.423.9865 x040",
+    "PersonPrivatePhone": "678.210.5489 x126",
+    "PersonFaxNumber": "1755061",
+    "PersonPagerNumber": "1576516",
+    "PersonEmail": "myriam@kozey.name",
+    "Id": 347,
+    "Name": "Howell, Gulgowski and Towne",
+    "Tooltip": "animi",
+    "UniqueId": "minus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldLength": 234
       }
     }
   }

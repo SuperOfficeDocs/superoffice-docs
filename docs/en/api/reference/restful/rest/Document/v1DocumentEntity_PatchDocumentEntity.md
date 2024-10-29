@@ -147,12 +147,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "odio",
+    "path": "numquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "odio",
+    "path": "numquam",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 836,
+  "DocumentId": 908,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "laborum",
-  "Header": "corporis",
-  "Name": "Luettgen-Turner",
-  "OurRef": "laboriosam",
-  "YourRef": "dolorum",
-  "CreatedDate": "2014-08-11T03:44:57.3121326+02:00",
-  "UpdatedDate": "2014-04-25T03:44:57.3121326+02:00",
-  "Description": "Re-engineered eco-centric structure",
+  "Attention": "hic",
+  "Header": "nulla",
+  "Name": "Jenkins-Nitzsche",
+  "OurRef": "iusto",
+  "YourRef": "animi",
+  "CreatedDate": "2016-09-12T13:14:10.8047881+02:00",
+  "UpdatedDate": "2016-10-22T13:14:10.8047881+02:00",
+  "Description": "Adaptive directional database",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-07-05T03:44:57.3121326+02:00",
-  "ExternalRef": "voluptatem",
+  "Date": "2001-01-01T13:14:10.8047881+01:00",
+  "ExternalRef": "omnis",
   "Completed": "Completed",
-  "ActiveLinks": 301,
+  "ActiveLinks": 148,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wuckert, Schiller and Wunsch",
-      "Id": 855,
-      "Description": "Advanced leading edge complexity",
-      "ExtraInfo": "sed",
-      "LinkId": 125,
+      "EntityName": "Lockman-Walter",
+      "Id": 725,
+      "Description": "Distributed needs-based artificial intelligence",
+      "ExtraInfo": "aut",
+      "LinkId": 406,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 884
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 209,
-  "Snum": 829,
+  "SuggestedDocumentId": 423,
+  "Snum": 650,
   "UserDefinedFields": {
-    "SuperOffice:1": "Annamarie Ronny Kub DDS",
-    "SuperOffice:2": "2140984329"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1680237288"
   },
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "tempora",
+    "ExtraFields2": "itaque"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2017-02-21T03:44:57.3121326+01:00",
-  "PublishTo": "2012-09-14T03:44:57.3121326+02:00",
-  "PublishFrom": "2015-05-30T03:44:57.3121326+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-02-17T13:14:10.8047881+01:00",
+  "PublishTo": "2015-04-05T13:14:10.8047881+02:00",
+  "PublishFrom": "2010-06-19T13:14:10.8047881+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 124,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldType": "System.String",
+          "FieldLength": 947
         }
       }
     },
     {
-      "VisibleId": 124,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldType": "System.String",
+          "FieldLength": 947
         }
       }
     }
@@ -255,13 +255,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldType": "System.Int32",
+      "FieldLength": 585
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

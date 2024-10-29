@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 683,
-  "RecurrenceRuleId": 369
+  "MotherId": 570,
+  "RecurrenceRuleId": 2
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 479,
-    "StartDate": "2024-09-24T03:44:51.8552876+02:00",
-    "EndDate": "2021-07-12T03:44:51.8552876+02:00",
+    "AppointmentId": 239,
+    "StartDate": "2011-08-09T13:14:05.2413666+02:00",
+    "EndDate": "2005-11-20T13:14:05.2413666+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolor",
-    "AssociateFullName": "Abdiel Wiegand",
-    "ContactName": "Balistreri, Medhurst and Champlin",
-    "Description": "Universal systemic productivity",
-    "PersonFullName": "Dr. Nickolas Barney Effertz II",
-    "PersonId": 462,
-    "ContactId": 56,
-    "ProjectId": 561,
-    "ProjectName": "Pouros, Schneider and Luettgen",
-    "IsPublished": true,
-    "AssociateId": 43,
-    "ColorIndex": 718,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "repellendus",
+    "AssociateFullName": "Ella Predovic",
+    "ContactName": "Sauer-Brekke",
+    "Description": "Profit-focused bandwidth-monitored model",
+    "PersonFullName": "Mr. Laurel Gudrun Bergstrom Sr.",
+    "PersonId": 454,
+    "ContactId": 999,
+    "ProjectId": 545,
+    "ProjectName": "Hansen, Kemmer and Gibson",
+    "IsPublished": false,
+    "AssociateId": 449,
+    "ColorIndex": 459,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 790,
-    "PriorityName": "Schulist-Stamm",
+    "PriorityId": 234,
+    "PriorityName": "Sauer, Hoppe and Feil",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2002-08-21T03:44:51.8552876+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2013-08-15T13:14:05.2413666+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-09-27T03:44:51.8552876+02:00",
-    "RecurringEndDate": "1998-04-19T03:44:51.8552876+02:00",
-    "MotherId": 723,
-    "AssignedBy": 157,
-    "AssignedByFullName": "Mr. Erica Leannon",
-    "RejectReason": "",
-    "Location": "animi",
-    "AlarmLeadTime": "qui",
-    "SaleId": 252,
-    "SaleName": "Vandervort Group",
-    "AssociateName": "Dicki, Cummerata and Gaylord",
-    "CreatedDate": "2003-03-13T03:44:51.8552876+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Mr. Laverne Jedidiah Stanton",
-    "CreatedByAssociateId": 656,
+    "RecurringStartDate": "2020-07-21T13:14:05.2413666+02:00",
+    "RecurringEndDate": "2019-11-28T13:14:05.2413666+01:00",
+    "MotherId": 448,
+    "AssignedBy": 781,
+    "AssignedByFullName": "Jayden Hipolito Hackett DDS",
+    "RejectReason": "iterate global bandwidth",
+    "Location": "magnam",
+    "AlarmLeadTime": "nulla",
+    "SaleId": 789,
+    "SaleName": "Hagenes Inc and Sons",
+    "AssociateName": "Fadel, Ratke and Stiedemann",
+    "CreatedDate": "1997-07-12T13:14:05.2413666+02:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Prof. Penelope Kunze",
+    "CreatedByAssociateId": 427,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 95,
-    "Title": "non",
-    "Agenda": "voluptatibus",
-    "InternalNotes": "quis",
+    "PreferredTZLocation": 501,
+    "Title": "at",
+    "Agenda": "et",
+    "InternalNotes": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 240
       }
     }
   }

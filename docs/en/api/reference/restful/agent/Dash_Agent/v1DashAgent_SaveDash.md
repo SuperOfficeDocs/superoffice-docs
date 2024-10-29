@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 276,
-  "UniqueId": "et",
-  "Name": "Kunde, Schumm and Champlin",
-  "Description": "Fully-configurable eco-centric attitude",
-  "AssociateId": 384,
-  "Columns": 113,
+  "DashboardId": 953,
+  "UniqueId": "voluptas",
+  "Name": "Prohaska, Bergnaum and Goyette",
+  "Description": "Decentralized leading edge frame",
+  "AssociateId": 39,
+  "Columns": 647,
   "Theme": null,
-  "VisibleForAll": 875,
+  "VisibleForAll": 596,
   "VisibleForAssociates": [
-    264,
-    911
+    848,
+    584
   ],
   "VisibleForGroups": [
-    320,
-    767
+    951,
+    941
   ],
-  "PinForAll": 885,
+  "PinForAll": 125,
   "PinForAssociates": [
-    414,
-    852
+    985,
+    11
   ],
   "PinForGroups": [
-    73,
-    706
+    226,
+    224
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 130,
-  "UniqueId": "aut",
-  "Name": "Nienow, Cassin and Jenkins",
-  "Description": "Horizontal fault-tolerant secured line",
-  "AssociateId": 808,
-  "Columns": 924,
+  "DashboardId": 731,
+  "UniqueId": "accusantium",
+  "Name": "Hagenes LLC",
+  "Description": "Persistent demand-driven productivity",
+  "AssociateId": 277,
+  "Columns": 781,
   "Theme": null,
-  "VisibleForAll": 281,
+  "VisibleForAll": 724,
   "VisibleForAssociates": [
-    549,
-    112
-  ],
-  "VisibleForGroups": [
-    545,
+    1000,
     568
   ],
-  "PinForAll": 518,
+  "VisibleForGroups": [
+    282,
+    100
+  ],
+  "PinForAll": 192,
   "PinForAssociates": [
-    510,
-    377
+    777,
+    889
   ],
   "PinForGroups": [
-    892,
-    937
+    178,
+    301
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

@@ -90,40 +90,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 355,
-  "Name": "Kautzer Group",
-  "Rank": 200,
-  "Tooltip": "repellendus",
-  "Icon": "saepe",
-  "DefaultTicketStatus": 193,
+  "TicketTypeId": 518,
+  "Name": "Cruickshank Group",
+  "Rank": 908,
+  "Tooltip": "mollitia",
+  "Icon": "sed",
+  "DefaultTicketStatus": 152,
   "TicketStatuses": [
-    12,
-    655
+    784,
+    819
   ],
-  "DefaultTicketPriority": 140,
+  "DefaultTicketPriority": 487,
   "TicketPriorities": [
-    369,
-    376
+    487,
+    835
   ],
-  "ReplyTemplate": 218,
+  "ReplyTemplate": 922,
   "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": true,
+  "IsDefault": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    750,
-    577
+    819,
+    455
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 937
     }
   }
 }

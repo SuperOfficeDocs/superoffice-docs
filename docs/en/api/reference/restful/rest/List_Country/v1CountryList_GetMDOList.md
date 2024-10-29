@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=est
+GET /api/v1/List/Country/MDOItems?query=sequi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Moore-Ledner",
-    "ToolTip": "Sed commodi quis sunt aut quibusdam dolores laboriosam.",
-    "Deleted": true,
-    "Rank": 125,
-    "Type": "minima",
+    "Id": 13,
+    "Name": "Franecki-Conroy",
+    "ToolTip": "Laudantium et dicta voluptatum molestias eum molestiae quidem.",
+    "Deleted": false,
+    "Rank": 699,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Weissnat LLC",
-        "ToolTip": "Dolorem maiores illo qui voluptatem omnis nihil numquam.",
+        "Id": 644,
+        "Name": "Kuvalis-Hilll",
+        "ToolTip": "Ex eligendi et et est cupiditate quia.",
         "Deleted": false,
-        "Rank": 151,
-        "Type": "ratione",
+        "Rank": 393,
+        "Type": "a",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 21,
-        "ExtraInfo": "id",
-        "StyleHint": "in",
-        "FullName": "Miss Tate Jacobson",
+        "IconHint": "non",
+        "ColorBlock": 974,
+        "ExtraInfo": "quidem",
+        "StyleHint": "quia",
+        "FullName": "Kaylee Carter Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 703
+            "FieldLength": 513
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 900,
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "similique",
-    "FullName": "Miss Gaston Rippin DDS",
+    "IconHint": "est",
+    "ColorBlock": 128,
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "porro",
+    "FullName": "Ms. Ursula Aileen Murazik Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 901
       }
     }
   }

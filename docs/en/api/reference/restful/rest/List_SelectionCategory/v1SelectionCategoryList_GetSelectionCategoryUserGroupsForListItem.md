@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Kunze LLC",
-    "ToolTip": "Dolorem accusamus at distinctio non.",
-    "Deleted": true,
-    "Rank": 241,
-    "Type": "recusandae",
-    "ColorBlock": 263,
-    "IconHint": "iste",
+    "Id": 501,
+    "Name": "Von LLC",
+    "ToolTip": "Et doloribus.",
+    "Deleted": false,
+    "Rank": 174,
+    "Type": "sint",
+    "ColorBlock": 6,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2008-09-01T03:44:58.1562167+02:00",
+    "LastChanged": "2018-09-12T13:14:11.554833+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Considine-Spinka",
-        "ToolTip": "Modi sint exercitationem.",
+        "Id": 749,
+        "Name": "Dibbert Inc and Sons",
+        "ToolTip": "Ut dignissimos suscipit officiis.",
         "Deleted": false,
-        "Rank": 847,
-        "Type": "est",
-        "ColorBlock": 506,
-        "IconHint": "doloribus",
-        "Selected": true,
-        "LastChanged": "2002-11-23T03:44:58.1562167+01:00",
+        "Rank": 985,
+        "Type": "odio",
+        "ColorBlock": 600,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2003-02-08T13:14:11.554833+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "eius",
-        "Hidden": false,
-        "FullName": "Cristian Klocko",
+        "ExtraInfo": "odio",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Dr. Shania Corkery V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 72
+            "FieldLength": 182
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "provident",
+    "ExtraInfo": "enim",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Dariana Paucek",
+    "FullName": "Prof. Emerald Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 630
+        "FieldLength": 79
       }
     }
   }

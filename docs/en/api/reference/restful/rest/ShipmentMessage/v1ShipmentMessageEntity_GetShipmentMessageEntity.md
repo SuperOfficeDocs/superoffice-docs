@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 435,
-  "PlainMessage": "sint",
-  "HtmlMessage": "iusto",
-  "SmsMessage": "maiores",
-  "Description": "Profit-focused secondary portal",
-  "Subject": "odio",
-  "FolderId": 943,
-  "HeaderField": "est",
-  "Design": "tempore",
+  "ShipmentMessageId": 692,
+  "PlainMessage": "eaque",
+  "HtmlMessage": "dolorum",
+  "SmsMessage": "est",
+  "Description": "Re-engineered exuding knowledge user",
+  "Subject": "quo",
+  "FolderId": 49,
+  "HeaderField": "praesentium",
+  "Design": "numquam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Configurable disintermediate task-force",
-  "AccessKey": "rem",
-  "DocumentMessage": 855,
-  "Registered": "2004-01-27T03:44:57.5937539+01:00",
-  "RegisteredAssociateId": 573,
-  "Updated": "2003-03-30T03:44:57.5937539+02:00",
-  "UpdatedAssociateId": 581,
-  "UpdatedCount": 231,
+  "InlineImages": true,
+  "LongDescription": "Polarised next generation implementation",
+  "AccessKey": "omnis",
+  "DocumentMessage": 25,
+  "Registered": "2016-02-23T13:14:11.1173007+01:00",
+  "RegisteredAssociateId": 469,
+  "Updated": "1997-07-24T13:14:11.1173007+02:00",
+  "UpdatedAssociateId": 196,
+  "UpdatedCount": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   },
   "_Links": {

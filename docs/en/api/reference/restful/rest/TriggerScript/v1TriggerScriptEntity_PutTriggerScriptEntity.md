@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 806,
-  "Name": "Dooley, Cruickshank and Cummerata",
+  "ScreenChooserId": 807,
+  "Name": "Kessler LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "delectus",
-  "Source": "commodi",
-  "Registered": "2013-02-17T03:44:57.687517+01:00",
-  "RegisteredAssociateId": 174,
-  "Updated": "2013-12-01T03:44:57.687517+01:00",
-  "UpdatedAssociateId": 422
+  "UniqueIdentifier": "ipsam",
+  "Source": "ab",
+  "Registered": "2000-03-29T13:14:11.1954363+02:00",
+  "RegisteredAssociateId": 741,
+  "Updated": "2014-01-05T13:14:11.1954363+01:00",
+  "UpdatedAssociateId": 802
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 697,
-  "Name": "Brakus-Toy",
+  "ScreenChooserId": 21,
+  "Name": "Fisher, Witting and Mayer",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolor",
-  "Source": "quia",
-  "Registered": "1998-04-10T03:44:57.687517+02:00",
-  "RegisteredAssociateId": 356,
-  "Updated": "2008-06-25T03:44:57.687517+02:00",
-  "UpdatedAssociateId": 923,
+  "UniqueIdentifier": "qui",
+  "Source": "soluta",
+  "Registered": "2012-03-22T13:14:11.1954363+01:00",
+  "RegisteredAssociateId": 249,
+  "Updated": "2002-09-27T13:14:11.1954363+02:00",
+  "UpdatedAssociateId": 154,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 68
     }
   },
   "_Links": {

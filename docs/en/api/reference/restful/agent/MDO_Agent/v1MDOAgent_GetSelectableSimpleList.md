@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Braun, VonRueden and Herman"
+  "Name": "Pacocha, DuBuque and Rice"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Walker-Strosin",
-    "ToolTip": "Fugit accusantium.",
+    "Id": 185,
+    "Name": "Torphy, Walter and Schamberger",
+    "ToolTip": "Occaecati veritatis aliquid rerum qui architecto sunt.",
     "Deleted": false,
-    "Rank": 768,
-    "Type": "dolores",
-    "ColorBlock": 50,
-    "IconHint": "ut",
+    "Rank": 353,
+    "Type": "soluta",
+    "ColorBlock": 484,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2015-01-08T03:44:52.7614393+01:00",
+    "LastChanged": "1999-10-03T13:14:06.1320455+02:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Willms-Hilpert",
-        "ToolTip": "Velit consequatur possimus quas.",
-        "Deleted": true,
-        "Rank": 219,
-        "Type": "iure",
-        "ColorBlock": 513,
-        "IconHint": "quas",
+        "Id": 626,
+        "Name": "Huels Inc and Sons",
+        "ToolTip": "In unde et amet eos vero dolorem.",
+        "Deleted": false,
+        "Rank": 57,
+        "Type": "dolores",
+        "ColorBlock": 730,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2000-07-04T03:44:52.7614393+02:00",
+        "LastChanged": "2002-07-12T13:14:06.1320455+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Dr. Bria Johns Jr.",
+        "ExtraInfo": "natus",
+        "StyleHint": "repudiandae",
+        "Hidden": true,
+        "FullName": "Jeanie Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 337
+            "FieldType": "System.Int32",
+            "FieldLength": 868
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Ms. Don Rogahn III",
+    "ExtraInfo": "error",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Ms. Rolando D'Amore Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldLength": 563
       }
     }
   }

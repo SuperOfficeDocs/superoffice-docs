@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "eos",
+  "TriggerScriptUniqueId": "praesentium",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 9,
-  "Name": "Dibbert, Tremblay and Hegmann",
+  "ScreenChooserId": 713,
+  "Name": "Bernier Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "facilis",
-  "Source": "magnam",
-  "Registered": "2024-02-06T03:44:52.3865159+01:00",
-  "RegisteredAssociateId": 55,
-  "Updated": "2010-03-06T03:44:52.3865159+01:00",
-  "UpdatedAssociateId": 961,
+  "Enabled": true,
+  "UniqueIdentifier": "vel",
+  "Source": "eum",
+  "Registered": "2022-06-27T13:14:05.7257709+02:00",
+  "RegisteredAssociateId": 320,
+  "Updated": "2017-07-14T13:14:05.7257709+02:00",
+  "UpdatedAssociateId": 368,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldType": "System.String",
+      "FieldLength": 445
     }
   }
 }

@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 782,
-  "WorkflowId": 830,
+  "WorkflowGoalId": 347,
+  "WorkflowId": 11,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Will, Kemmer and Cronin",
-      "Description": "Managed real-time moratorium",
-      "Rank": 720,
+      "Name": "Langosh LLC",
+      "Description": "Reverse-engineered intangible product",
+      "Rank": 367,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Will, Kemmer and Cronin",
-      "Description": "Managed real-time moratorium",
-      "Rank": 720,
+      "Name": "Langosh LLC",
+      "Description": "Reverse-engineered intangible product",
+      "Rank": 367,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 976,
-  "WorkflowId": 585,
+  "WorkflowGoalId": 658,
+  "WorkflowId": 410,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Senger Inc and Sons",
-      "Description": "Integrated radical software",
-      "Rank": 387,
+      "Name": "Grimes-Von",
+      "Description": "Configurable content-based process improvement",
+      "Rank": 397,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Senger Inc and Sons",
-      "Description": "Integrated radical software",
-      "Rank": 387,
+      "Name": "Grimes-Von",
+      "Description": "Configurable content-based process improvement",
+      "Rank": 397,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 606
     }
   }
 }

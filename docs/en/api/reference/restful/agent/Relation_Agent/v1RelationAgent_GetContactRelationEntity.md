@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=830
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=427
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 566,
-  "SourcePersonId": 216,
-  "DestinationContactId": 236,
-  "DestinationPersonId": 816,
-  "RelationId": 717,
-  "Comment": "eum",
-  "RelationDefinitionId": 655,
-  "Reversed": 997,
-  "UpdatedDate": "1998-10-24T03:44:53.0739396+02:00",
-  "CreatedDate": "2012-03-25T03:44:53.0739396+02:00",
+  "SourceContactId": 414,
+  "SourcePersonId": 874,
+  "DestinationContactId": 300,
+  "DestinationPersonId": 726,
+  "RelationId": 856,
+  "Comment": "sint",
+  "RelationDefinitionId": 327,
+  "Reversed": 572,
+  "UpdatedDate": "2010-08-02T13:14:06.3351823+02:00",
+  "CreatedDate": "2011-09-03T13:14:06.3351823+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Beahan Inc and Sons",
-  "SourcePersonName": "Huels-Mertz",
-  "DestinationContactName": "Stokes, Rohan and Blanda",
-  "DestinationPersonName": "Cole, Konopelski and Satterfield",
-  "ActiveText": "dolor",
-  "PassiveText": "enim",
+  "SourceContactName": "Brekke-Cartwright",
+  "SourcePersonName": "Considine-Pouros",
+  "DestinationContactName": "Abernathy-VonRueden",
+  "DestinationPersonName": "Ondricka, Fadel and Durgan",
+  "ActiveText": "omnis",
+  "PassiveText": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "natus",
+      "RawValue": "maiores",
       "Specification": null,
-      "DisplayValue": "eligendi",
-      "DisplayTooltip": "ducimus",
+      "DisplayValue": "placeat",
+      "DisplayTooltip": "et",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 150,
-      "PrefDescId": 447,
-      "TableName": "Conroy LLC",
-      "UserPreferenceId": 363
+      "TargetId": 167,
+      "PrefDescId": 653,
+      "TableName": "Bins-Ondricka",
+      "UserPreferenceId": 912
     }
   ]
 }

@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    563,
-    495
+    959,
+    513
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 903,
-    "Name": "Reynolds LLC",
-    "Description": "Phased value-added throughput",
+    "ProjectId": 541,
+    "Name": "Feeney Group",
+    "Description": "Secured homogeneous function",
     "URL": "http://www.example.com/",
-    "Type": "quae",
-    "AssociateId": 521,
-    "AssociateFullName": "Bobby Ortiz",
-    "TypeId": 880,
-    "Updated": "2005-04-28T03:44:53.0270705+02:00",
-    "StatusId": 271,
-    "Status": "beatae",
-    "TextId": 972,
-    "PublishTo": "2007-04-28T03:44:53.0270705+02:00",
-    "PublishFrom": "2016-03-23T03:44:53.0270705+01:00",
+    "Type": "harum",
+    "AssociateId": 715,
+    "AssociateFullName": "Susan Waelchi",
+    "TypeId": 568,
+    "Updated": "2012-09-29T13:14:06.2883049+02:00",
+    "StatusId": 207,
+    "Status": "voluptas",
+    "TextId": 333,
+    "PublishTo": "2021-10-13T13:14:06.2883049+02:00",
+    "PublishFrom": "2024-05-06T13:14:06.2883049+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "284713",
-    "ActiveErpLinks": 176,
+    "ProjectNumber": "1191042",
+    "ActiveErpLinks": 34,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 870
       }
     }
   }

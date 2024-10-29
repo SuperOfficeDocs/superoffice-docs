@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 967,
-  "Name": "Ratke LLC",
-  "Tooltip": "ea",
+  "HeadingId": 966,
+  "Name": "Kuhic-Hyatt",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 321,
-  "UdListDefinitionId": 712
+  "Rank": 180,
+  "UdListDefinitionId": 523
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 426,
-  "Name": "Hoeger-Klocko",
-  "Tooltip": "eaque",
+  "HeadingId": 403,
+  "Name": "Bayer-Murazik",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 368,
-  "UdListDefinitionId": 371,
+  "Rank": 435,
+  "UdListDefinitionId": 708,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldType": "System.Int32",
+      "FieldLength": 474
     }
   }
 }

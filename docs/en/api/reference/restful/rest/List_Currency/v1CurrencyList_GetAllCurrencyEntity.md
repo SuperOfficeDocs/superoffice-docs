@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 849,
-    "Name": "Murray-Blanda",
-    "Tooltip": "tempore",
-    "Rank": 44,
-    "Rate": 27945.878,
-    "Units": 10332.797999999999,
+    "CurrencyId": 442,
+    "Name": "Halvorson, Wolff and Kozey",
+    "Tooltip": "molestias",
+    "Rank": 988,
+    "Rate": 24755.466,
+    "Units": 5020.668,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldType": "System.String",
+        "FieldLength": 214
       }
     }
   }

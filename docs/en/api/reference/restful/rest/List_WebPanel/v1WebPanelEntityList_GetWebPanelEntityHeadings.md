@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 510,
-    "Name": "Ferry, Carter and Hudson",
-    "Tooltip": "veritatis",
-    "Deleted": false,
-    "Rank": 897,
-    "UdListDefinitionId": 259,
+    "HeadingId": 638,
+    "Name": "Pfeffer, Ernser and Robel",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "Rank": 701,
+    "UdListDefinitionId": 273,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldType": "System.String",
+        "FieldLength": 69
       }
     }
   }

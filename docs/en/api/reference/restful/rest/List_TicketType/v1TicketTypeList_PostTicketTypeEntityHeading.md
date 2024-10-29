@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 559,
-  "Name": "Yost Inc and Sons",
-  "Tooltip": "laboriosam",
+  "HeadingId": 271,
+  "Name": "Breitenberg, Hills and O'Connell",
+  "Tooltip": "pariatur",
   "Deleted": true,
-  "Rank": 409,
-  "UdListDefinitionId": 551
+  "Rank": 129,
+  "UdListDefinitionId": 447
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 315,
-  "Name": "Bashirian, Bergnaum and Lemke",
-  "Tooltip": "quos",
+  "HeadingId": 274,
+  "Name": "Fahey LLC",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 250,
-  "UdListDefinitionId": 138,
+  "Rank": 912,
+  "UdListDefinitionId": 989,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 916
     }
   }
 }

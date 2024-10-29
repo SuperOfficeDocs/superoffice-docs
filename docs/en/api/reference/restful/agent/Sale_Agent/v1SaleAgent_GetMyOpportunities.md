@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 764
+  "Count": 400
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hauck Group",
-    "SaleDate": "2023-06-25T03:44:53.136845+02:00",
-    "SaleId": 246,
-    "Probability": 644,
-    "Title": "magni",
-    "Amount": 7759.784,
-    "Currency": "sit",
-    "ProjectName": "Swift, Walsh and Schneider",
-    "AssociateFullName": "Hans Botsford",
-    "Description": "Cross-platform neutral process improvement",
+    "ContactName": "Zboncak-Morissette",
+    "SaleDate": "1999-02-01T13:14:06.3976861+01:00",
+    "SaleId": 232,
+    "Probability": 383,
+    "Title": "officia",
+    "Amount": 30710.066,
+    "Currency": "cum",
+    "ProjectName": "Hoppe Group",
+    "AssociateFullName": "Miss Verner Kunde I",
+    "Description": "Secured full-range budgetary management",
     "Status": "Lost",
-    "WeightedAmount": 13664.24,
-    "ProjectId": 647,
-    "EarningPercent": 11056.752,
-    "Earning": 5055.142,
-    "ContactId": 846,
-    "AssociateId": 630,
-    "PersonId": 268,
-    "SaleTypeId": 287,
-    "SaleTypeName": "Volkman-Morissette",
-    "PersonFullName": "Lavada Johnson PhD",
+    "WeightedAmount": 23523.804,
+    "ProjectId": 553,
+    "EarningPercent": 9583.771999999999,
+    "Earning": 30208.626,
+    "ContactId": 200,
+    "AssociateId": 32,
+    "PersonId": 449,
+    "SaleTypeId": 644,
+    "SaleTypeName": "Jacobs-Gerhold",
+    "PersonFullName": "Samantha Botsford",
     "Completed": "Completed",
-    "ActiveErpLinks": 920,
-    "NextDueDate": "2014-10-24T03:44:53.136845+02:00",
-    "Number": "1332773",
+    "ActiveErpLinks": 421,
+    "NextDueDate": "2008-11-28T13:14:06.3976861+01:00",
+    "Number": "672580",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldType": "System.String",
+        "FieldLength": 687
       }
     }
   }

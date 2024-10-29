@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 810,
-  "Name": "Schimmel, Kirlin and Morissette",
-  "Tooltip": "ipsam",
+  "RoleId": 277,
+  "Name": "Corkery LLC",
+  "Tooltip": "eos",
   "RoleType": "Anonymous",
-  "Deleted": 978,
-  "Rank": 511,
-  "Created": "2005-04-12T03:44:57.4844273+02:00",
-  "UseCategories": 146,
+  "Deleted": 414,
+  "Rank": 738,
+  "Created": "2004-02-16T13:14:10.9454212+01:00",
+  "UseCategories": 912,
   "CreatedBy": null,
-  "Updated": "2018-11-04T03:44:57.4844273+01:00",
+  "Updated": "2016-02-18T13:14:10.9454212+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

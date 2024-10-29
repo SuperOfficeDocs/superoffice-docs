@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Lindgren-Greenfelder",
-    "ToolTip": "Omnis sit minus reprehenderit.",
-    "Deleted": false,
-    "Rank": 192,
-    "Type": "esse",
-    "ColorBlock": 302,
-    "IconHint": "in",
+    "Id": 365,
+    "Name": "Gleason Inc and Sons",
+    "ToolTip": "Omnis nam debitis iusto voluptates autem in.",
+    "Deleted": true,
+    "Rank": 228,
+    "Type": "et",
+    "ColorBlock": 63,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2004-06-21T03:44:58.0312644+02:00",
+    "LastChanged": "2000-04-24T13:14:11.4298249+02:00",
     "ChildItems": [
       {
-        "Id": 241,
-        "Name": "Metz-Jerde",
-        "ToolTip": "At voluptas et dolore.",
-        "Deleted": false,
-        "Rank": 782,
-        "Type": "eos",
-        "ColorBlock": 702,
-        "IconHint": "minus",
+        "Id": 356,
+        "Name": "Bernhard-Barton",
+        "ToolTip": "Est facilis minus dolorem.",
+        "Deleted": true,
+        "Rank": 549,
+        "Type": "aut",
+        "ColorBlock": 114,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2012-06-02T03:44:58.0312644+02:00",
+        "LastChanged": "2020-07-18T13:14:11.4298249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Jayson Rath DDS",
+        "FullName": "Ms. Luna Afton Wehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Rita Hills",
+    "ExtraInfo": "expedita",
+    "StyleHint": "mollitia",
+    "Hidden": true,
+    "FullName": "Addie Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 747
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

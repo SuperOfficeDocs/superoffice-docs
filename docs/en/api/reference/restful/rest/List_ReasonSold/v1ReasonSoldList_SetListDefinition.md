@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Koelpin LLC",
-  "Tooltip": "voluptas",
+  "Id": 66,
+  "Name": "Luettgen Inc and Sons",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 648,
-  "IsCustomList": true,
+  "Rank": 237,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 847,
-  "Name": "Kris Group",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 523,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorum",
-  "InUseByUserDefinedFields": false,
+  "Id": 651,
+  "Name": "Pacocha, Hyatt and O'Keefe",
+  "Tooltip": "facilis",
+  "Deleted": true,
+  "Rank": 798,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "distinctio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 887
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 930,
-    "Name": "Halvorson-Howe",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "Rank": 44,
-    "UdListDefinitionId": 343
+    "HeadingId": 620,
+    "Name": "O'Connell-Christiansen",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 657,
+    "UdListDefinitionId": 462
   },
   {
-    "HeadingId": 930,
-    "Name": "Halvorson-Howe",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "Rank": 44,
-    "UdListDefinitionId": 343
+    "HeadingId": 620,
+    "Name": "O'Connell-Christiansen",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 657,
+    "UdListDefinitionId": 462
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 640,
-    "Name": "Volkman Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 326,
-    "UdListDefinitionId": 373,
+    "HeadingId": 64,
+    "Name": "McCullough-Bergnaum",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "Rank": 17,
+    "UdListDefinitionId": 507,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldLength": 728
       }
     }
   }

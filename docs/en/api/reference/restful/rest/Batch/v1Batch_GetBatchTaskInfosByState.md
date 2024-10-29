@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Rogahn-Blick",
-    "AssociateId": 251,
-    "DetailsTable": 144,
-    "DetailsRecord": 921,
-    "IsSystemTask": false,
+    "Id": 2,
+    "Name": "Halvorson-Pfeffer",
+    "AssociateId": 16,
+    "DetailsTable": 994,
+    "DetailsRecord": 590,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "corrupti",
-      "ParameterObject2": "repellendus"
+      "ParameterObject1": "suscipit",
+      "ParameterObject2": "ea"
     },
-    "LastStarted": "2005-07-19T03:44:57.7031403+02:00",
-    "Created": "2013-04-23T03:44:57.7031403+02:00",
-    "StartCount": 433,
-    "DatabaseSerialNumber": "849504",
-    "Context": "consequatur",
-    "Result": "ullam",
+    "LastStarted": "2020-10-30T13:14:11.1954363+01:00",
+    "Created": "2006-08-19T13:14:11.1954363+02:00",
+    "StartCount": 194,
+    "DatabaseSerialNumber": "1139936",
+    "Context": "deserunt",
+    "Result": "neque",
     "State": "All",
-    "Description": "Open-architected fresh-thinking website",
-    "Response": "temporibus",
-    "Request": "quo",
-    "ProgressDescription": "Fundamental leading edge capacity",
-    "ProgressPercent": 970,
-    "FileName": "Sporer-Kilback",
+    "Description": "User-friendly solution-oriented groupware",
+    "Response": "laboriosam",
+    "Request": "nihil",
+    "ProgressDescription": "Persevering impactful instruction set",
+    "ProgressPercent": 41,
+    "FileName": "Mann, Ritchie and Runolfsdottir",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldType": "System.Int32",
+        "FieldLength": 832
       }
     }
   }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 675
+  "SaleId": 694
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 517,
-  "SaleId": 354,
-  "QuoteConnectionId": 517,
-  "ERPQuoteKey": "repellat",
-  "ERPOrderKey": "in",
-  "ActiveQuoteVersionId": 232,
-  "AcceptedQuoteAlternativeId": 810,
-  "UseValuesFromQuote": 243,
-  "DocumentId": 53,
-  "PoNumber": "659949",
-  "OrderComment": "omnis",
-  "PreferredEmailCulture": "ken_rohan@hilpert.us",
+  "QuoteId": 717,
+  "SaleId": 960,
+  "QuoteConnectionId": 4,
+  "ERPQuoteKey": "natus",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 194,
+  "AcceptedQuoteAlternativeId": 620,
+  "UseValuesFromQuote": 570,
+  "DocumentId": 85,
+  "PoNumber": "591873",
+  "OrderComment": "at",
+  "PreferredEmailCulture": "idella@kohler.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 511,
-      "ERPQuoteVersionKey": "aut",
-      "QuoteId": 546,
-      "Description": "Team-oriented zero tolerance toolset",
-      "Number": "1853020",
+      "QuoteVersionId": 452,
+      "ERPQuoteVersionKey": "ut",
+      "QuoteId": 956,
+      "Description": "Networked user-facing project",
+      "Number": "916422",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 584,
-      "SentDate": "2021-09-25T03:44:53.0583181+02:00",
-      "FollowupId": 416,
-      "ExpirationDate": "2016-04-09T03:44:53.0583181+02:00",
-      "DeliveryCountryId": 933,
+      "LikelyQuoteAlternativeId": 485,
+      "SentDate": "2019-10-13T13:14:06.3351823+02:00",
+      "FollowupId": 392,
+      "ExpirationDate": "2014-03-21T13:14:06.3351823+01:00",
+      "DeliveryCountryId": 762,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 206,
+      "InvoiceCountryId": 548,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "praesentium",
-      "ERPPaymentTypeKey": "reprehenderit",
-      "ERPDeliveryTermsKey": "sed",
-      "ERPDeliveryTypeKey": "qui",
-      "Rank": 34,
-      "ApprovedBy": 171,
-      "ApprovedText": "et",
-      "ApprovedRegisteredBy": 318,
-      "ApprovedRegisteredDate": "2020-01-02T03:44:53.0583181+01:00",
-      "ExtraField1": "ab",
-      "ExtraField2": "non",
-      "ExtraField3": "aperiam",
-      "ExtraField4": "id",
-      "ExtraField5": "vel",
-      "LastRecalculated": "2017-05-11T03:44:53.0583181+02:00",
-      "Updated": "2001-06-29T03:44:53.0583181+02:00",
-      "UpdatedAssociateId": 667,
-      "Registered": "2007-04-06T03:44:53.0583181+02:00",
-      "RegisteredAssociateId": 489,
-      "RequestAssociateId": 325,
-      "RequestComment": "dignissimos",
+      "ERPPaymentTermsKey": "perspiciatis",
+      "ERPPaymentTypeKey": "delectus",
+      "ERPDeliveryTermsKey": "esse",
+      "ERPDeliveryTypeKey": "tempora",
+      "Rank": 245,
+      "ApprovedBy": 523,
+      "ApprovedText": "recusandae",
+      "ApprovedRegisteredBy": 621,
+      "ApprovedRegisteredDate": "1999-06-23T13:14:06.3351823+02:00",
+      "ExtraField1": "nemo",
+      "ExtraField2": "eius",
+      "ExtraField3": "natus",
+      "ExtraField4": "ex",
+      "ExtraField5": "sint",
+      "LastRecalculated": "2024-09-06T13:14:06.3351823+02:00",
+      "Updated": "2012-01-05T13:14:06.3351823+01:00",
+      "UpdatedAssociateId": 886,
+      "Registered": "2021-04-16T13:14:06.3351823+02:00",
+      "RegisteredAssociateId": 758,
+      "RequestAssociateId": 815,
+      "RequestComment": "repellendus",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 58
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldType": "System.String",
+      "FieldLength": 464
     }
   }
 }

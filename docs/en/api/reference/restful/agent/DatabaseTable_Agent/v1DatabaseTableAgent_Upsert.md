@@ -89,14 +89,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Walsh-Christiansen",
+  "TableName": "O'Hara, Olson and Shields",
   "Columns": [
-    "vel",
-    "atque"
+    "fuga",
+    "autem"
   ],
   "Keys": [
-    "sequi",
-    "ea"
+    "ab",
+    "sunt"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "quia",
-  "Inserts": 976,
-  "Updates": 926,
-  "Deletes": 76,
+  "Success": true,
+  "Message": "incidunt",
+  "Inserts": 27,
+  "Updates": 445,
+  "Deletes": 792,
   "RowStatus": [
     {
-      "PrimaryKey": 510,
+      "PrimaryKey": 221,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolor",
-        "voluptatem"
+        "quia",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     },
     {
-      "PrimaryKey": 510,
+      "PrimaryKey": 221,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolor",
-        "voluptatem"
+        "quia",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 852
     }
   }
 }

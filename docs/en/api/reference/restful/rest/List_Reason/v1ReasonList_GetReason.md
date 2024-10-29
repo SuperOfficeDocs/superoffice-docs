@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 241,
-  "Name": "McLaughlin-Conroy",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "UdListDefinitionId": 296,
-  "Rank": 590,
+  "Id": 698,
+  "Name": "Purdy-Cole",
+  "Tooltip": "fugit",
+  "Deleted": true,
+  "UdListDefinitionId": 466,
+  "Rank": 594,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

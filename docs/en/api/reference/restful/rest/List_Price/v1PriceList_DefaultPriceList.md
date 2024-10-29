@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,21 +76,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 194,
-  "ERPPriceListKey": "quae",
-  "QuoteConnectionId": 807,
-  "Name": "Rutherford, Lynch and Maggio",
-  "Description": "Adaptive upward-trending capacity",
-  "Currency": "est",
-  "CurrencyName": "Okuneva Inc and Sons",
-  "ValidFrom": "2013-05-03T03:44:58.0468534+02:00",
-  "ValidTo": "2012-05-29T03:44:58.0468534+02:00",
-  "IsActive": false,
+  "PriceListId": 874,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 400,
+  "Name": "Bednar LLC",
+  "Description": "Persevering bandwidth-monitored extranet",
+  "Currency": "ducimus",
+  "CurrencyName": "Bergnaum, Veum and Bins",
+  "ValidFrom": "2017-07-03T13:14:11.4454508+02:00",
+  "ValidTo": "2005-01-10T13:14:11.4454508+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
+      "FieldType": "System.String",
       "FieldLength": 413
     }
   }

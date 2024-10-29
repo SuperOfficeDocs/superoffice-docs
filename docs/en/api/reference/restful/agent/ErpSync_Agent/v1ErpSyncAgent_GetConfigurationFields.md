@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 823
+  "ErpConnectorId": 472
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "ut",
-    "Rank": 51,
-    "DisplayName": "Schoen-Pouros",
-    "DisplayDescription": "Object-based executive protocol",
+    "FieldKey": "nam",
+    "Rank": 428,
+    "DisplayName": "Gleichner, Nienow and Waelchi",
+    "DisplayDescription": "Synergistic maximized open system",
     "FieldType": "Checkbox",
-    "ListName": "Bechtelar-Satterfield",
-    "DefaultValue": "quam",
-    "MaxLength": 9,
+    "ListName": "Willms, Dickens and Romaguera",
+    "DefaultValue": "debitis",
+    "MaxLength": 784,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   }

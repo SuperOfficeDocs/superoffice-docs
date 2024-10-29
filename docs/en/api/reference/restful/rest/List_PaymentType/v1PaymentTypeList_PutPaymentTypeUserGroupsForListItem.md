@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Beahan Inc and Sons",
-    "ToolTip": "Ex vero et sunt voluptatum aliquid.",
+    "Id": 163,
+    "Name": "Robel-Botsford",
+    "ToolTip": "Blanditiis laborum doloribus officiis officia ex.",
     "Deleted": false,
-    "Rank": 234,
-    "Type": "minima",
-    "ColorBlock": 565,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2004-05-01T03:44:58.0312644+02:00",
+    "Rank": 696,
+    "Type": "qui",
+    "ColorBlock": 213,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2016-12-07T13:14:11.4298249+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Berge-Nikolaus",
-        "ToolTip": "Numquam debitis voluptas cum enim similique.",
+        "Id": 914,
+        "Name": "Mertz Group",
+        "ToolTip": "Sed est.",
         "Deleted": false,
-        "Rank": 163,
-        "Type": "sed",
-        "ColorBlock": 460,
-        "IconHint": "quis",
+        "Rank": 763,
+        "Type": "enim",
+        "ColorBlock": 791,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2017-12-05T03:44:58.0312644+01:00",
+        "LastChanged": "2017-01-21T13:14:11.4298249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Katrine Walsh"
+        "FullName": "Wilma Hahn"
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Madaline Jacobson"
+    "ExtraInfo": "in",
+    "StyleHint": "nostrum",
+    "Hidden": true,
+    "FullName": "Prof. Jamey McClure Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Kirlin-Bode",
-    "ToolTip": "Aspernatur quia temporibus commodi quis perspiciatis quo facere.",
-    "Deleted": true,
-    "Rank": 285,
-    "Type": "est",
-    "ColorBlock": 271,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2016-10-11T03:44:58.0312644+02:00",
+    "Id": 220,
+    "Name": "Rohan, Gleichner and McDermott",
+    "ToolTip": "Voluptas ipsam.",
+    "Deleted": false,
+    "Rank": 323,
+    "Type": "accusantium",
+    "ColorBlock": 258,
+    "IconHint": "ab",
+    "Selected": false,
+    "LastChanged": "2014-07-05T13:14:11.4298249+02:00",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Becker-Metz",
-        "ToolTip": "Molestias at et veniam.",
-        "Deleted": true,
-        "Rank": 968,
-        "Type": "ducimus",
-        "ColorBlock": 227,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "2000-09-29T03:44:58.0312644+02:00",
+        "Id": 454,
+        "Name": "Tromp-Volkman",
+        "ToolTip": "Provident et corrupti velit ut.",
+        "Deleted": false,
+        "Rank": 930,
+        "Type": "consequatur",
+        "ColorBlock": 188,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2003-08-12T13:14:11.4298249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "sed",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Elissa Boyle",
+        "FullName": "Bryce Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 47
+            "FieldType": "System.String",
+            "FieldLength": 131
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Nestor Bahringer",
+    "ExtraInfo": "ad",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Dr. Toney Mckayla Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 40
       }
     }
   }

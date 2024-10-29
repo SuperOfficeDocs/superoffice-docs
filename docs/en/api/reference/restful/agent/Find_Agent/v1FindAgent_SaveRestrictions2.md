@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sunt",
-  "ProviderName": "Tremblay, Ankunding and Wunsch",
-  "StorageKey": "sunt",
-  "Restrictions": "quam"
+  "StorageType": "consectetur",
+  "ProviderName": "Kuvalis Inc and Sons",
+  "StorageKey": "ut",
+  "Restrictions": "similique"
 }
 ```
 

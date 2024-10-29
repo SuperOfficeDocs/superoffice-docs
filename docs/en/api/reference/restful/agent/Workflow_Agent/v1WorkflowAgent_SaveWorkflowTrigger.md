@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 766,
-  "WorkflowId": 770,
+  "WorkflowTriggerId": 919,
+  "WorkflowId": 100,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Wilderman Group",
-      "Description": "Fundamental holistic methodology",
-      "Rank": 866,
+      "Name": "Kihn-Howe",
+      "Description": "Optimized bi-directional process improvement",
+      "Rank": 676,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wilderman Group",
-      "Description": "Fundamental holistic methodology",
-      "Rank": 866,
+      "Name": "Kihn-Howe",
+      "Description": "Optimized bi-directional process improvement",
+      "Rank": 676,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 343,
-  "WorkflowId": 452,
+  "WorkflowTriggerId": 79,
+  "WorkflowId": 748,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "McDermott-Stokes",
-      "Description": "Customer-focused reciprocal customer loyalty",
-      "Rank": 124,
+      "Name": "Crona-Ullrich",
+      "Description": "Reduced secondary system engine",
+      "Rank": 678,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McDermott-Stokes",
-      "Description": "Customer-focused reciprocal customer loyalty",
-      "Rank": 124,
+      "Name": "Crona-Ullrich",
+      "Description": "Reduced secondary system engine",
+      "Rank": 678,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 254
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 915,
-  "MessageId": "aperiam",
-  "Subject": "vel",
+  "ServerId": 65,
+  "MessageId": "excepturi",
+  "Subject": "eligendi",
   "From": null,
   "To": [
     {
-      "ContactId": 718,
-      "ContactName": "Durgan Group",
-      "PersonId": 572,
-      "PersonName": "Lakin Inc and Sons",
-      "AssociateId": 751,
-      "Address": "occaecati",
-      "EmailId": 398,
+      "ContactId": 682,
+      "ContactName": "Reichert, Corkery and Heaney",
+      "PersonId": 662,
+      "PersonName": "Stoltenberg, Waters and Cronin",
+      "AssociateId": 740,
+      "Address": "sed",
+      "EmailId": 1001,
       "DuplicatePersonIds": [
-        728,
-        469
+        466,
+        81
       ],
-      "Name": "Christiansen Inc and Sons",
+      "Name": "Hansen, Klein and Mohr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 219
         }
       }
     }
   ],
-  "Sent": "2009-02-13T03:44:52.5583726+01:00",
+  "Sent": "2010-12-26T13:14:05.96016+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 761,
+  "Size": 118,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

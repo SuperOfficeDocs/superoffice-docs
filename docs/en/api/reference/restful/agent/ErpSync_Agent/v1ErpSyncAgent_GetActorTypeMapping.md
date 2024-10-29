@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 868,
+  "ErpConnectionId": 740,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 971,
+  "ErpConnectionId": 155,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 289,
-      "CrmFieldKey": "ipsam",
-      "CrmDisplayName": "Effertz, Ruecker and Cormier",
-      "CrmDisplayTooltip": "sapiente",
-      "ErpFieldKey": "dolorum",
+      "ErpFieldId": 478,
+      "CrmFieldKey": "quis",
+      "CrmDisplayName": "Ernser-Ferry",
+      "CrmDisplayTooltip": "ea",
+      "ErpFieldKey": "qui",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Beahan, Batz and Treutel",
-      "ErpDisplayTooltip": "earum",
+      "ErpDisplayName": "Davis-Wiza",
+      "ErpDisplayTooltip": "vel",
       "SyncToCrm": false,
       "SyncToErp": true,
-      "ShowInGui": true,
-      "ShowInSearch": false,
+      "ShowInGui": false,
+      "ShowInSearch": true,
       "AlreadyMapped": false,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "accusamus",
+      "ListReference": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 465
+          "FieldType": "System.Int32",
+          "FieldLength": 822
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 360
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 151,
-  "ListItemId": 414
+  "UdListDefinitionId": 965,
+  "ListItemId": 24
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Yundt-Herman",
-    "ToolTip": "Corrupti inventore consequatur.",
+    "Id": 621,
+    "Name": "Robel, Kuhn and Senger",
+    "ToolTip": "Sit atque qui dolorum magni nihil laborum harum.",
     "Deleted": false,
-    "Rank": 87,
-    "Type": "cupiditate",
-    "ColorBlock": 175,
-    "IconHint": "rerum",
+    "Rank": 162,
+    "Type": "ab",
+    "ColorBlock": 569,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2020-04-01T03:44:52.6989885+02:00",
+    "LastChanged": "2010-12-08T13:14:06.0851676+01:00",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Jenkins LLC",
-        "ToolTip": "Et consectetur et consequatur itaque voluptas.",
+        "Id": 665,
+        "Name": "O'Keefe, Prohaska and Hoeger",
+        "ToolTip": "Accusantium consequuntur doloremque et sunt.",
         "Deleted": true,
-        "Rank": 32,
-        "Type": "enim",
-        "ColorBlock": 704,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2007-04-13T03:44:52.6989885+02:00",
+        "Rank": 72,
+        "Type": "quisquam",
+        "ColorBlock": 871,
+        "IconHint": "vero",
+        "Selected": true,
+        "LastChanged": "2010-05-16T13:14:06.0851676+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "eos",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Ms. Sibyl Kelton Larkin Sr.",
+        "FullName": "Prof. Liliana Dominic Huels V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 8
+            "FieldLength": 741
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Rodger Harris",
+    "ExtraInfo": "et",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Freeda Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 191
+        "FieldType": "System.Int32",
+        "FieldLength": 720
       }
     }
   }

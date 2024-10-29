@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 23 Oct 2011 03:44:57 G10T
+Last-Modified: Fri, 11 May 2012 13:14:11 G5T
 
 {
-  "Description": "Universal methodical model",
-  "Postit": "sit",
+  "Description": "Seamless systematic concept",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 407,
-  "IncludePerson": 300,
+  "GroupIdx": 366,
+  "IncludePerson": 316,
   "MemberCount": 99.99,
-  "Name": "Rau-Kiehn",
-  "PostitTextId": 585,
-  "CreatedDate": "2009-11-20T03:44:57.5625173+01:00",
-  "SelectionId": 843,
-  "SoundEx": "quasi",
-  "Source": 515,
-  "TextId": 533,
-  "UpdatedDate": "2011-10-23T03:44:57.5625173+02:00",
-  "UpdatedCount": 27,
-  "Visibility": 963,
+  "Name": "Nikolaus Group",
+  "PostitTextId": 290,
+  "CreatedDate": "2008-02-28T13:14:11.0860489+01:00",
+  "SelectionId": 563,
+  "SoundEx": "suscipit",
+  "Source": 627,
+  "TextId": 571,
+  "UpdatedDate": "2012-05-11T13:14:11.0860489+02:00",
+  "UpdatedCount": 451,
+  "Visibility": 101,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 318,
-  "TargetTableName": "Torphy, Goyette and Breitenberg",
-  "Completed": false,
-  "LeftSelectionId": 273,
-  "RightSelectionId": 878,
+  "TargetTableNumber": 1001,
+  "TargetTableName": "Johns-Gusikowski",
+  "Completed": true,
+  "LeftSelectionId": 427,
+  "RightSelectionId": 918,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Blick Group",
-  "ShadowProviderName": "Kerluke, Jones and Volkman",
-  "ChartKey": "est",
-  "LastLoaded": "1999-06-02T03:44:57.5625173+02:00",
-  "LastLoadedBy": 924,
+  "MainProviderName": "Schimmel, Lang and Blick",
+  "ShadowProviderName": "Roob Group",
+  "ChartKey": "quisquam",
+  "LastLoaded": "2008-04-18T13:14:11.0860489+02:00",
+  "LastLoadedBy": 494,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-09-05T03:44:57.5625173+02:00",
-  "LastMembershipChangeBy": 175,
+  "LastMembershipChange": "2014-11-12T13:14:11.1016748+01:00",
+  "LastMembershipChangeBy": 425,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "occaecati",
-  "MemberTabHeading": "dolorem",
-  "MailingsProviderName": "Windler-Barrows",
-  "DashboardTileDefinitionId": 459,
+  "MainHeading": "ducimus",
+  "MemberTabHeading": "possimus",
+  "MailingsProviderName": "Bins-Paucek",
+  "DashboardTileDefinitionId": 625,
   "VisibleFor": [
     {
-      "VisibleId": 603,
+      "VisibleId": 147,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 227
+          "FieldLength": 956
         }
       }
     },
     {
-      "VisibleId": 603,
+      "VisibleId": 147,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 227
+          "FieldLength": 956
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Sun, 23 Oct 2011 03:44:57 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 601
     }
   }
 }

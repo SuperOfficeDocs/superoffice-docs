@@ -1198,6 +1198,7 @@ Activity archive provider for the Company card
 |emailFlow/workflowName|string|Name: Name of the flow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of flow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
@@ -1250,7 +1251,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=timeInQueue,person/restrictionAddress/line2,contact/contactNoMail,contact/streetAddress/formattedMultiLineAddress,contact/restrictionAddress/county
+GET /api/v1/archive/ContactActivity?$select=chatTopic/description,person/correspondingAssociate/role,person/correspondingAssociate/ejDisplayName,contact/contactExtra/x_contact_dropdown,project/projectUrl/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

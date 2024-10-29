@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Morissette Inc and Sons",
-  "Tooltip": "minima",
+  "Id": 230,
+  "Name": "Cassin Inc and Sons",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "UdListDefinitionId": 825,
-  "Rank": 344
+  "UdListDefinitionId": 985,
+  "Rank": 254
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 419,
-  "Name": "Braun Group",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "UdListDefinitionId": 156,
-  "Rank": 300,
+  "Id": 302,
+  "Name": "Walter, McClure and West",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "UdListDefinitionId": 678,
+  "Rank": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldType": "System.String",
+      "FieldLength": 746
     }
   }
 }

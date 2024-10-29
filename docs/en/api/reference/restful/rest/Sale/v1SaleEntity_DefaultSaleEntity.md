@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 03 Nov 1998 03:44:57 G11T
+Last-Modified: Thu, 18 Aug 2016 13:14:10 G8T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Tue, 03 Nov 1998 03:44:57 G11T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ratione",
+  "SaleText": "non",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Tue, 03 Nov 1998 03:44:57 G11T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-11-23T03:44:57.5156715+01:00",
-  "Amount": 13614.096,
-  "SaleId": 317,
-  "Earning": 28582.079999999998,
-  "EarningPercent": 2654.498,
-  "Heading": "et",
-  "Number": "271847",
-  "Probability": 781,
-  "CreatedDate": "2003-08-25T03:44:57.5156715+02:00",
-  "UpdatedDate": "1998-11-03T03:44:57.5156715+01:00",
+  "Saledate": "2018-01-12T13:14:10.9610472+01:00",
+  "Amount": 25344.658,
+  "SaleId": 365,
+  "Earning": 29475.27,
+  "EarningPercent": 21659.074,
+  "Heading": "laudantium",
+  "Number": "1379624",
+  "Probability": 673,
+  "CreatedDate": "2008-02-08T13:14:10.9610472+01:00",
+  "UpdatedDate": "2016-08-18T13:14:10.9610472+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 862,
+  "ActiveLinks": 12,
   "Links": [
     {
-      "EntityName": "Skiles, Hirthe and Barrows",
-      "Id": 541,
-      "Description": "Networked reciprocal complexity",
-      "ExtraInfo": "maiores",
-      "LinkId": 794,
+      "EntityName": "Tillman, Rempel and Cronin",
+      "Id": 593,
+      "Description": "Organic demand-driven extranet",
+      "ExtraInfo": "in",
+      "LinkId": 155,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldLength": 52
         }
       }
     }
   ],
-  "NextDueDate": "2019-01-15T03:44:57.5156715+01:00",
-  "Postit": "quo",
+  "NextDueDate": "2021-09-06T13:14:10.9610472+02:00",
+  "Postit": "dolor",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1997-06-29T03:44:57.5156715+02:00",
+  "ReopenDate": "2013-05-06T13:14:10.9610472+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Spinka LLC",
-      "Comment": "deserunt",
-      "StakeholderRoleId": 813,
-      "CountryId": 42,
-      "PersonId": 778,
-      "EmailDescription": "pedro_crona@thompsonhilpert.co.uk",
-      "EmailId": 714,
-      "EmailAddress": "kaylie@batz.co.uk",
-      "PhoneId": 764,
-      "ContactName": "Heathcote-McCullough",
-      "ContactId": 255,
-      "SaleId": 978,
-      "Mrmrs": "in",
-      "Firstname": "Layne",
-      "MiddleName": "Metz Group",
-      "Lastname": "Schiller",
-      "SaleStakeholderId": 934,
-      "Rank": 186,
-      "Phone": "1-545-619-7126",
+      "StakeholderRoleName": "Volkman Inc and Sons",
+      "Comment": "vero",
+      "StakeholderRoleId": 502,
+      "CountryId": 483,
+      "PersonId": 395,
+      "EmailDescription": "florence@stoltenberg.com",
+      "EmailId": 274,
+      "EmailAddress": "carissa_dietrich@coleerdman.co.uk",
+      "PhoneId": 606,
+      "ContactName": "Kihn-Ondricka",
+      "ContactId": 720,
+      "SaleId": 199,
+      "Mrmrs": "vitae",
+      "Firstname": "Joany",
+      "MiddleName": "Bruen-Goodwin",
+      "Lastname": "Dach",
+      "SaleStakeholderId": 612,
+      "Rank": 972,
+      "Phone": "1-245-176-3258 x7883",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 133
         }
       }
     }
   ],
-  "ActiveErpLinks": 486,
+  "ActiveErpLinks": 63,
   "UserDefinedFields": {
-    "SuperOffice:1": "972904429",
-    "SuperOffice:2": "Maye Kassulke III"
+    "SuperOffice:1": "1251440982",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "non",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "magnam"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "aperiam"
   },
-  "PublishEventDate": "2023-12-14T03:44:57.5156715+01:00",
-  "PublishTo": "2017-03-09T03:44:57.5156715+01:00",
-  "PublishFrom": "2009-11-01T03:44:57.5156715+01:00",
+  "PublishEventDate": "2006-08-22T13:14:10.9610472+02:00",
+  "PublishTo": "2019-02-22T13:14:10.9610472+01:00",
+  "PublishFrom": "2002-01-14T13:14:10.9610472+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 179,
+      "VisibleId": 418,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 646
+          "FieldType": "System.Int32",
+          "FieldLength": 735
         }
       }
     },
     {
-      "VisibleId": 179,
+      "VisibleId": 418,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 646
+          "FieldType": "System.Int32",
+          "FieldLength": 735
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Tue, 03 Nov 1998 03:44:57 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 359
     }
   }
 }

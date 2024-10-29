@@ -115,41 +115,41 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 573,
-  "UniqueIdentifier": "unde",
-  "Name": "Grady LLC",
-  "Description": "Face to face cohesive migration",
-  "IncludeId": "excepturi",
-  "AccessKey": "voluptatem",
-  "HierarchyId": 244,
-  "Source": "tempora",
-  "SourceCode": "perferendis",
+  "EjscriptId": 239,
+  "UniqueIdentifier": "repellendus",
+  "Name": "Metz-Cremin",
+  "Description": "User-centric modular projection",
+  "IncludeId": "saepe",
+  "AccessKey": "quaerat",
+  "HierarchyId": 780,
+  "Source": "ut",
+  "SourceCode": "alias",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 380,
+  "HtmlOutput": 309,
   "Includes": [
-    637,
-    467
+    23,
+    30
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 153,
-      "LineNumberTo": 129,
-      "Delta": 384,
-      "IncludeId": "et",
+      "LineNumberFrom": 403,
+      "LineNumberTo": 160,
+      "Delta": 551,
+      "IncludeId": "consectetur",
       "IncludedFrom": [
         "qui",
         "et"
       ]
     },
     {
-      "LineNumberFrom": 153,
-      "LineNumberTo": 129,
-      "Delta": 384,
-      "IncludeId": "et",
+      "LineNumberFrom": 403,
+      "LineNumberTo": 160,
+      "Delta": 551,
+      "IncludeId": "consectetur",
       "IncludedFrom": [
         "qui",
         "et"
@@ -157,9 +157,9 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "ValidationResult": null,
-  "Registered": "2021-06-22T03:44:57.2028009+02:00",
-  "RegisteredAssociateId": 459,
-  "Updated": "2024-05-17T03:44:57.2028009+02:00",
+  "Registered": "2020-03-09T13:14:10.7735359+01:00",
+  "RegisteredAssociateId": 251,
+  "Updated": "2012-09-18T13:14:10.7735359+02:00",
   "UpdatedAssociateId": 683
 }
 ```
@@ -171,52 +171,52 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 186,
-  "UniqueIdentifier": "itaque",
-  "Name": "Predovic Inc and Sons",
-  "Description": "Reactive motivating complexity",
-  "IncludeId": "ea",
-  "AccessKey": "eaque",
-  "HierarchyId": 615,
-  "Source": "tenetur",
-  "SourceCode": "dolorem",
+  "EjscriptId": 804,
+  "UniqueIdentifier": "temporibus",
+  "Name": "Mann, Corkery and Reichert",
+  "Description": "User-centric human-resource implementation",
+  "IncludeId": "laudantium",
+  "AccessKey": "molestiae",
+  "HierarchyId": 899,
+  "Source": "omnis",
+  "SourceCode": "sint",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 688,
+  "HtmlOutput": 801,
   "Includes": [
-    904,
-    979
+    669,
+    746
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 976,
-      "LineNumberTo": 986,
-      "Delta": 694,
-      "IncludeId": "sed",
+      "LineNumberFrom": 948,
+      "LineNumberTo": 364,
+      "Delta": 449,
+      "IncludeId": "eum",
       "IncludedFrom": [
-        "et",
-        "aut"
+        "eum",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldLength": 31
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2017-05-06T03:44:57.2028009+02:00",
-  "RegisteredAssociateId": 814,
-  "Updated": "2012-05-06T03:44:57.2028009+02:00",
-  "UpdatedAssociateId": 173,
+  "Registered": "2011-09-13T13:14:10.7735359+02:00",
+  "RegisteredAssociateId": 810,
+  "Updated": "2007-07-15T13:14:10.7735359+02:00",
+  "UpdatedAssociateId": 243,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldType": "System.String",
+      "FieldLength": 228
     }
   },
   "_Links": {

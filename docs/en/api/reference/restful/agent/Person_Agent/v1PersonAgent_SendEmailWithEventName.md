@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "deserunt",
-  "To": "natus",
-  "Subject": "quis",
-  "PlainBody": "consequuntur",
-  "HtmlBody": "nihil",
+  "From": "molestiae",
+  "To": "minus",
+  "Subject": "sed",
+  "PlainBody": "et",
+  "HtmlBody": "non",
   "AttachmentIds": [
-    506,
-    973
+    48,
+    903
   ],
-  "EventName": "Stamm-West"
+  "EventName": "Koelpin Group"
 }
 ```
 

@@ -28,7 +28,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=500
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=369
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 978,
-  "EMailAddress": "sed",
-  "AssociateId": 947,
+  "EMailAccountId": 828,
+  "EMailAddress": "culpa",
+  "AssociateId": 495,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 94,
-  "ErrorCount": 587,
+  "AccountStatus": 450,
+  "ErrorCount": 673,
   "ErrorReason": "",
-  "InboxFolder": "recusandae",
-  "SentFolder": "sit",
+  "InboxFolder": "sed",
+  "SentFolder": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 493
     }
   }
 }

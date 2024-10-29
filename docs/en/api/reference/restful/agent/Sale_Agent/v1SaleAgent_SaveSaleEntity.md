@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-07-13T03:44:53.1055953+02:00",
-  "Amount": 23768.255999999998,
-  "SaleId": 823,
-  "Earning": 25629.852,
-  "EarningPercent": 2770.456,
-  "Heading": "sunt",
-  "Number": "1166860",
-  "Probability": 465,
-  "CreatedDate": "2023-05-25T03:44:53.1055953+02:00",
-  "UpdatedDate": "2012-07-21T03:44:53.1055953+02:00",
+  "Saledate": "2007-02-10T13:14:06.366434+01:00",
+  "Amount": 13212.944,
+  "SaleId": 779,
+  "Earning": 3663.6459999999997,
+  "EarningPercent": 28287.484,
+  "Heading": "deserunt",
+  "Number": "424738",
+  "Probability": 420,
+  "CreatedDate": "2001-09-22T13:14:06.366434+02:00",
+  "UpdatedDate": "2006-04-27T13:14:06.366434+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 82,
+  "ActiveLinks": 956,
   "Links": [
     {
-      "EntityName": "Schmeler, Abshire and Kuhn",
-      "Id": 661,
-      "Description": "Robust mobile concept",
-      "ExtraInfo": "iste",
-      "LinkId": 982
+      "EntityName": "Swaniawski, Farrell and Kuvalis",
+      "Id": 782,
+      "Description": "Distributed system-worthy middleware",
+      "ExtraInfo": "harum",
+      "LinkId": 400
     },
     {
-      "EntityName": "Schmeler, Abshire and Kuhn",
-      "Id": 661,
-      "Description": "Robust mobile concept",
-      "ExtraInfo": "iste",
-      "LinkId": 982
+      "EntityName": "Swaniawski, Farrell and Kuvalis",
+      "Id": 782,
+      "Description": "Distributed system-worthy middleware",
+      "ExtraInfo": "harum",
+      "LinkId": 400
     }
   ],
-  "NextDueDate": "1998-12-31T03:44:53.1055953+01:00",
-  "Postit": "sunt",
+  "NextDueDate": "2022-01-10T13:14:06.366434+01:00",
+  "Postit": "eius",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-10-01T03:44:53.1055953+02:00",
+  "ReopenDate": "1999-11-03T13:14:06.366434+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Nitzsche Group",
-      "Comment": "excepturi",
-      "StakeholderRoleId": 262,
-      "CountryId": 392,
-      "PersonId": 528,
-      "EmailDescription": "stephon_oberbrunner@beierbartoletti.co.uk",
-      "EmailId": 979,
-      "EmailAddress": "madeline@kunzekub.name",
-      "PhoneId": 791,
-      "ContactName": "Botsford LLC",
-      "ContactId": 488,
-      "SaleId": 354,
-      "Mrmrs": "vero",
-      "Firstname": "Christ",
-      "MiddleName": "Flatley, Turner and Olson",
-      "Lastname": "Ledner",
-      "SaleStakeholderId": 36,
-      "Rank": 591,
-      "Phone": "181.360.5587"
+      "StakeholderRoleName": "Powlowski-Will",
+      "Comment": "neque",
+      "StakeholderRoleId": 437,
+      "CountryId": 608,
+      "PersonId": 767,
+      "EmailDescription": "bobbie.franecki@littlemante.co.uk",
+      "EmailId": 271,
+      "EmailAddress": "emmie@medhurst.com",
+      "PhoneId": 795,
+      "ContactName": "Fay, Bartell and Gleason",
+      "ContactId": 795,
+      "SaleId": 968,
+      "Mrmrs": "dolor",
+      "Firstname": "Aron",
+      "MiddleName": "Halvorson Inc and Sons",
+      "Lastname": "Fisher",
+      "SaleStakeholderId": 378,
+      "Rank": 533,
+      "Phone": "(169)075-4256 x303"
     }
   ],
-  "ActiveErpLinks": 809,
+  "ActiveErpLinks": 890,
   "UserDefinedFields": {
-    "SuperOffice:1": "Milton Ruecker",
-    "SuperOffice:2": "Ms. Mercedes Virgie Considine"
+    "SuperOffice:1": "112896742",
+    "SuperOffice:2": "Prof. Cassandre Frami II"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "ab",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "est"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "2008-03-12T03:44:53.1055953+01:00",
-  "PublishTo": "2013-04-27T03:44:53.1055953+02:00",
-  "PublishFrom": "2011-11-28T03:44:53.1055953+01:00",
+  "PublishEventDate": "2018-03-25T13:14:06.366434+02:00",
+  "PublishTo": "2017-06-07T13:14:06.366434+02:00",
+  "PublishFrom": "2010-09-18T13:14:06.366434+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 107,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "ipsum"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 107,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "ipsum"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sed",
+  "SaleText": "laborum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-04-06T03:44:53.1212215+02:00",
-  "Amount": 14610.707999999999,
-  "SaleId": 985,
-  "Earning": 18221.076,
-  "EarningPercent": 14388.194,
+  "Saledate": "1998-06-23T13:14:06.38206+02:00",
+  "Amount": 25072.0,
+  "SaleId": 193,
+  "Earning": 7436.982,
+  "EarningPercent": 3162.2059999999997,
   "Heading": "ea",
-  "Number": "1076209",
-  "Probability": 763,
-  "CreatedDate": "1999-10-28T03:44:53.1212215+02:00",
-  "UpdatedDate": "1997-09-08T03:44:53.1212215+02:00",
+  "Number": "969210",
+  "Probability": 36,
+  "CreatedDate": "2006-11-11T13:14:06.38206+01:00",
+  "UpdatedDate": "1998-12-05T13:14:06.38206+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 518,
+  "ActiveLinks": 663,
   "Links": [
     {
-      "EntityName": "Botsford-Bruen",
-      "Id": 224,
-      "Description": "Extended heuristic focus group",
-      "ExtraInfo": "incidunt",
-      "LinkId": 409,
+      "EntityName": "Dare, Rau and Hudson",
+      "Id": 579,
+      "Description": "Proactive radical time-frame",
+      "ExtraInfo": "numquam",
+      "LinkId": 401,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 281
+          "FieldLength": 106
         }
       }
     }
   ],
-  "NextDueDate": "2024-03-02T03:44:53.1212215+01:00",
-  "Postit": "soluta",
+  "NextDueDate": "2007-08-15T13:14:06.38206+02:00",
+  "Postit": "recusandae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-01-10T03:44:53.1212215+01:00",
+  "ReopenDate": "2001-07-16T13:14:06.38206+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lemke-Lockman",
-      "Comment": "illo",
-      "StakeholderRoleId": 569,
-      "CountryId": 190,
-      "PersonId": 646,
-      "EmailDescription": "oran@bruenvandervort.uk",
-      "EmailId": 273,
-      "EmailAddress": "ernest_johnston@kirlin.uk",
-      "PhoneId": 984,
-      "ContactName": "Stroman-Lockman",
-      "ContactId": 580,
-      "SaleId": 614,
-      "Mrmrs": "quia",
-      "Firstname": "D'angelo",
-      "MiddleName": "Rath-Osinski",
-      "Lastname": "Von",
-      "SaleStakeholderId": 483,
-      "Rank": 737,
-      "Phone": "(344)143-7473 x42982",
+      "StakeholderRoleName": "Gerlach LLC",
+      "Comment": "dolore",
+      "StakeholderRoleId": 674,
+      "CountryId": 605,
+      "PersonId": 446,
+      "EmailDescription": "susan_kihn@mckenziemoore.com",
+      "EmailId": 67,
+      "EmailAddress": "kurt_dooley@feest.biz",
+      "PhoneId": 547,
+      "ContactName": "Parker Group",
+      "ContactId": 438,
+      "SaleId": 797,
+      "Mrmrs": "similique",
+      "Firstname": "Virginie",
+      "MiddleName": "Morissette-Powlowski",
+      "Lastname": "Hettinger",
+      "SaleStakeholderId": 271,
+      "Rank": 367,
+      "Phone": "606-936-7448 x633",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldLength": 111
         }
       }
     }
   ],
-  "ActiveErpLinks": 824,
+  "ActiveErpLinks": 856,
   "UserDefinedFields": {
-    "SuperOffice:1": "Demond Kris",
-    "SuperOffice:2": "497098960"
+    "SuperOffice:1": "Shane Kozey",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "sit"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2001-02-11T03:44:53.1212215+01:00",
-  "PublishTo": "2002-04-24T03:44:53.1212215+02:00",
-  "PublishFrom": "2003-02-06T03:44:53.1212215+01:00",
+  "PublishEventDate": "2012-05-02T13:14:06.38206+02:00",
+  "PublishTo": "1998-06-21T13:14:06.38206+02:00",
+  "PublishFrom": "2011-09-26T13:14:06.38206+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 840,
+      "VisibleId": 165,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 937
         }
       }
     },
     {
-      "VisibleId": 840,
+      "VisibleId": 165,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 937
         }
       }
     }
@@ -394,8 +394,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

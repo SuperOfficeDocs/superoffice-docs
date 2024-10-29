@@ -92,11 +92,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 646,
-  "ModuleOwner": "et",
+  "AssociateId": 345,
+  "ModuleOwner": "atque",
   "ModuleLicenseNames": [
-    "Swaniawski, Torphy and Schowalter",
-    "Wyman-Stracke"
+    "Lynch, Nikolaus and Barrows",
+    "Turner Group"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 443,
-    "Tooltip": "ipsum",
+    "Unrestricted": false,
+    "Total": 861,
+    "Tooltip": "et",
     "CanAssign": false,
-    "Free": 300,
-    "InUse": 360,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 194,
-    "Name": "McKenzie-Franecki",
-    "Description": "Advanced context-sensitive paradigm",
-    "PrerequisiteModuleName": "Cummerata, Littel and Grant",
-    "SortOrder": 14,
-    "ExtraFlags": 938,
+    "Free": 852,
+    "InUse": 990,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 670,
+    "Name": "Parker, Wyman and Yundt",
+    "Description": "Automated reciprocal challenge",
+    "PrerequisiteModuleName": "Blanda-Breitenberg",
+    "SortOrder": 59,
+    "ExtraFlags": 995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 702
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

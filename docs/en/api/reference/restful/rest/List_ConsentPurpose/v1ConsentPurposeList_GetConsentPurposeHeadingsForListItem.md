@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "McCullough, Terry and Mayer",
-    "ToolTip": "Qui magni modi quidem expedita.",
+    "Id": 200,
+    "Name": "Kling, Schaden and Hettinger",
+    "ToolTip": "Accusamus ut et quo fugiat voluptatem mollitia.",
     "Deleted": false,
-    "Rank": 472,
-    "Type": "quaerat",
-    "ColorBlock": 696,
-    "IconHint": "id",
-    "Selected": true,
-    "LastChanged": "2010-07-06T03:44:57.9374899+02:00",
+    "Rank": 285,
+    "Type": "quam",
+    "ColorBlock": 193,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "1998-04-11T13:14:11.3516953+02:00",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Maggio, Mosciski and Kassulke",
-        "ToolTip": "Adipisci sint non hic et commodi.",
+        "Id": 637,
+        "Name": "Balistreri, Robel and Murazik",
+        "ToolTip": "Rerum ipsa et quis nihil iusto qui.",
         "Deleted": false,
-        "Rank": 234,
-        "Type": "voluptatibus",
-        "ColorBlock": 339,
-        "IconHint": "possimus",
+        "Rank": 291,
+        "Type": "in",
+        "ColorBlock": 99,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2013-03-15T03:44:57.9374899+01:00",
+        "LastChanged": "2001-08-22T13:14:11.3516953+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "excepturi",
-        "Hidden": true,
-        "FullName": "Miss Beulah Jerod Moen I",
+        "ExtraInfo": "eius",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Eryn Gerlach II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 937
+            "FieldType": "System.String",
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "quia",
+    "ExtraInfo": "sequi",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Jewell Roob",
+    "FullName": "Camden Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 70
       }
     }
   }

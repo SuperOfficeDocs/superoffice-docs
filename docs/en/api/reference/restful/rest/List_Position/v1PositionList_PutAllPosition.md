@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Ryan Group",
-    "Tooltip": "aut",
+    "Id": 162,
+    "Name": "Eichmann-Heaney",
+    "Tooltip": "dolorum",
     "Deleted": true,
-    "UdListDefinitionId": 270,
-    "Rank": 245
+    "UdListDefinitionId": 161,
+    "Rank": 906
   },
   {
-    "Id": 856,
-    "Name": "Ryan Group",
-    "Tooltip": "aut",
+    "Id": 162,
+    "Name": "Eichmann-Heaney",
+    "Tooltip": "dolorum",
     "Deleted": true,
-    "UdListDefinitionId": 270,
-    "Rank": 245
+    "UdListDefinitionId": 161,
+    "Rank": 906
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Zieme Group",
-    "Tooltip": "dolorum",
+    "Id": 837,
+    "Name": "Murphy, Considine and Pfeffer",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "UdListDefinitionId": 439,
-    "Rank": 318,
+    "UdListDefinitionId": 480,
+    "Rank": 903,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 670
+        "FieldType": "System.Int32",
+        "FieldLength": 728
       }
     }
   }

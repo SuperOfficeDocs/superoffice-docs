@@ -84,8 +84,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "excepturi",
-  "SearchString": "libero"
+  "Type": "assumenda",
+  "SearchString": "odit"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ebert-Braun",
-    "DisplayName": "Conroy, Emard and Huel",
+    "Name": "Boyle LLC",
+    "DisplayName": "Murray-Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 970
       }
     }
   },
   {
-    "Name": "Ebert-Braun",
-    "DisplayName": "Conroy, Emard and Huel",
+    "Name": "Boyle LLC",
+    "DisplayName": "Murray-Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 970
       }
     }
   }

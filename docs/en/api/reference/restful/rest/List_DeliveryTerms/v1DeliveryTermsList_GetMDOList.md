@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=assumenda
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=odit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Purdy, Tremblay and Walter",
-    "ToolTip": "Est iste corporis in.",
-    "Deleted": true,
-    "Rank": 766,
-    "Type": "veritatis",
+    "Id": 297,
+    "Name": "Maggio-Ritchie",
+    "ToolTip": "Cum ipsum officia ipsam veniam at blanditiis.",
+    "Deleted": false,
+    "Rank": 282,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 594,
-        "Name": "Wyman-VonRueden",
-        "ToolTip": "Cumque consequuntur atque nulla est quia consequuntur.",
-        "Deleted": false,
-        "Rank": 272,
-        "Type": "ratione",
+        "Id": 647,
+        "Name": "Goodwin Inc and Sons",
+        "ToolTip": "Eligendi animi delectus natus magnam maxime ut.",
+        "Deleted": true,
+        "Rank": 271,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "provident",
-        "ColorBlock": 792,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "inventore",
-        "FullName": "Kaya Huel",
+        "IconHint": "dignissimos",
+        "ColorBlock": 883,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "doloremque",
+        "FullName": "Josiane Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 284
+            "FieldType": "System.Int32",
+            "FieldLength": 402
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 126,
-    "ExtraInfo": "aut",
-    "StyleHint": "doloribus",
-    "FullName": "Mr. Cordell Hayes II",
+    "IconHint": "aut",
+    "ColorBlock": 908,
+    "ExtraInfo": "ut",
+    "StyleHint": "quia",
+    "FullName": "Ford Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 265
+        "FieldLength": 521
       }
     }
   }

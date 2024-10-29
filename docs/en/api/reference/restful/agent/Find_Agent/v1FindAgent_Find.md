@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "impedit",
-  "ProviderName": "Nolan, Kuhic and Dibbert",
-  "StorageKey": "sunt",
-  "PageSize": 933,
-  "PageNumber": 504
+  "StorageType": "veniam",
+  "ProviderName": "Gaylord Group",
+  "StorageKey": "architecto",
+  "PageSize": 395,
+  "PageNumber": 443
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Douglas Inc and Sons",
-      "DisplayTooltip": "sapiente",
-      "DisplayType": "est",
-      "CanOrderBy": false,
-      "Name": "Stehr, Johns and Roberts",
+      "DisplayName": "Gulgowski-Green",
+      "DisplayTooltip": "asperiores",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "Johnston-Turcotte",
       "CanRestrictBy": false,
-      "RestrictionType": "dignissimos",
-      "RestrictionListName": "Williamson-Predovic",
-      "IsVisible": false,
-      "ExtraInfo": "minus",
-      "Width": "amet",
-      "IconHint": "sed",
-      "HeadingIconHint": "atque"
+      "RestrictionType": "quam",
+      "RestrictionListName": "Spencer-Yundt",
+      "IsVisible": true,
+      "ExtraInfo": "quo",
+      "Width": "quas",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "fuga"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Lesch Inc and Sons",
-      "PrimaryKey": 570,
+      "EntityName": "Kiehn-Haag",
+      "PrimaryKey": 567,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "ea",
-          "LinkHint": "et"
+          "DisplayValue": "dicta",
+          "TooltipHint": "in",
+          "LinkHint": "repellendus"
         }
       },
-      "LinkHint": "unde",
-      "StyleHint": "sed",
+      "LinkHint": "sint",
+      "StyleHint": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldType": "System.String",
+          "FieldLength": 585
         }
       }
     }
   ],
-  "RowCount": 470,
+  "RowCount": 757,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldLength": 675
     }
   }
 }

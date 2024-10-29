@@ -135,13 +135,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-11-25T03:44:51.933403+01:00",
-  "AppointmentId": 729,
-  "Description": "Object-based multi-tasking project",
-  "Title": "quia",
-  "Agenda": "aut",
-  "InternalNotes": "fugit",
-  "StartDate": "2015-04-22T03:44:51.933403+02:00",
-  "EndDate": "2024-10-01T03:44:51.933403+02:00",
+  "CreatedDate": "2023-04-01T13:14:05.3976254+02:00",
+  "AppointmentId": 763,
+  "Description": "Pre-emptive empowering hardware",
+  "Title": "sit",
+  "Agenda": "consequatur",
+  "InternalNotes": "corporis",
+  "StartDate": "2014-11-27T13:14:05.3976254+01:00",
+  "EndDate": "2015-08-26T13:14:05.3976254+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 200,
+  "MotherId": 537,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-03-08T03:44:51.933403+01:00",
+  "UpdatedDate": "2005-04-28T13:14:05.3976254+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 346,
+  "ActiveLinks": 354,
   "Links": [
     {
-      "EntityName": "Purdy, Ryan and Littel",
-      "Id": 882,
-      "Description": "Compatible logistical architecture",
-      "ExtraInfo": "in",
-      "LinkId": 703,
+      "EntityName": "Schuppe-Bednar",
+      "Id": 721,
+      "Description": "Right-sized responsive matrix",
+      "ExtraInfo": "est",
+      "LinkId": 915,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldLength": 856
         }
       }
     }
   ],
-  "AlarmLeadTime": "delectus",
-  "HasAlarm": false,
-  "ColorIndex": 240,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "sint",
-  "LeadTime": "saepe",
-  "Location": "quia",
-  "RejectCounter": 527,
+  "AlarmLeadTime": "rem",
+  "HasAlarm": true,
+  "ColorIndex": 116,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "et",
+  "LeadTime": "iusto",
+  "Location": "repellendus",
+  "RejectCounter": 519,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 409,
-      "PersonId": 395,
-      "ContactId": 400,
-      "EmailId": 90,
+      "AssociateId": 29,
+      "PersonId": 520,
+      "ContactId": 469,
+      "EmailId": 669,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "destiney@runolfsdottir.name",
-      "Description": "Streamlined homogeneous intranet"
+      "EmailAddress": "doyle.kutch@kshlerin.com",
+      "Description": "Synergistic executive contingency"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-03-23T03:44:51.933403+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2003-01-18T13:14:05.3976254+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 579,
+  "PreferredTZLocation": 596,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 5,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 520,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quam",
+  "CentralserviceVideomeetId": "impedit",
   "UserDefinedFields": {
-    "SuperOffice:1": "656432752",
-    "SuperOffice:2": "1568487894"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1367903281"
   },
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "accusamus"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "autem"
+    "CustomFields1": "nobis",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2002-09-18T03:44:51.933403+02:00",
-  "PublishTo": "2004-10-17T03:44:51.933403+02:00",
-  "PublishFrom": "2009-07-08T03:44:51.933403+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2013-11-22T13:14:05.3976254+01:00",
+  "PublishTo": "2009-10-25T13:14:05.3976254+01:00",
+  "PublishFrom": "2017-09-07T13:14:05.3976254+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 994,
+      "VisibleId": 21,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldType": "System.String",
+          "FieldLength": 617
         }
       }
     },
     {
-      "VisibleId": 994,
+      "VisibleId": 21,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldType": "System.String",
+          "FieldLength": 617
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldType": "System.String",
+      "FieldLength": 298
     }
   }
 }

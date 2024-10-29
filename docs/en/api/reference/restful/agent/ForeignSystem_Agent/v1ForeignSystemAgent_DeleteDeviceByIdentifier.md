@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rohan-Batz",
-  "DeviceName": "Stark Group",
-  "DeviceIdentifier": "incidunt"
+  "ApplicationName": "Gulgowski-Weissnat",
+  "DeviceName": "Stoltenberg Group",
+  "DeviceIdentifier": "officia"
 }
 ```
 

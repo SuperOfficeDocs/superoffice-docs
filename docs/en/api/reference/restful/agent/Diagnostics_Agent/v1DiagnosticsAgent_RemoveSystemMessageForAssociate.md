@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/RemoveSystemMessageForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 201,
-  "SystemMessageId": "occaecati",
-  "AssociateId": 391
+  "OnlineappId": 706,
+  "SystemMessageId": "eius",
+  "AssociateId": 471
 }
 ```
 

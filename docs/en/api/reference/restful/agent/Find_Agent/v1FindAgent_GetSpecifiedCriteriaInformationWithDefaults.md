@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Green-Rath",
-  "StorageKey": "quod",
+  "StorageType": "tenetur",
+  "ProviderName": "Becker, Schiller and Hettinger",
+  "StorageKey": "vel",
   "DesiredColumnNames": [
-    "Spencer-Pouros",
-    "Champlin, Cronin and Lebsack"
+    "Kub-Raynor",
+    "Rogahn-Gulgowski"
   ],
   "StaticColumns": [
-    "totam",
-    "blanditiis"
+    "hic",
+    "sequi"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "McGlynn, Lindgren and Lowe",
-      "Operator": "dolor",
+      "Name": "O'Connell Inc and Sons",
+      "Operator": "enim",
       "Values": [
-        "ex",
-        "fugiat"
+        "animi",
+        "tenetur"
       ],
       "DisplayValues": [
-        "nostrum",
-        "voluptatibus"
+        "voluptate",
+        "deserunt"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 657,
+      "InterParenthesis": 897,
       "InterOperator": "And",
-      "UniqueHash": 654
+      "UniqueHash": 539
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hermiston Group",
-      "DisplayTooltip": "accusantium",
-      "DisplayType": "aperiam",
-      "CanOrderBy": true,
-      "Name": "Berge, Larkin and Turner",
-      "CanRestrictBy": false,
-      "RestrictionType": "eos",
-      "RestrictionListName": "Ortiz Inc and Sons",
+      "DisplayName": "Boyle, West and Connelly",
+      "DisplayTooltip": "quo",
+      "DisplayType": "iste",
+      "CanOrderBy": false,
+      "Name": "Hodkiewicz, Trantow and Mayer",
+      "CanRestrictBy": true,
+      "RestrictionType": "itaque",
+      "RestrictionListName": "Shanahan, Hamill and Fritsch",
       "IsVisible": true,
-      "ExtraInfo": "suscipit",
-      "Width": "ut",
-      "IconHint": "quod",
-      "HeadingIconHint": "sapiente"
+      "ExtraInfo": "corporis",
+      "Width": "et",
+      "IconHint": "quisquam",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ebert Group",
-      "PrimaryKey": 190,
+      "EntityName": "Lemke, Schowalter and Vandervort",
+      "PrimaryKey": 442,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "molestiae",
-          "LinkHint": "commodi"
+          "DisplayValue": "et",
+          "TooltipHint": "deleniti",
+          "LinkHint": "iusto"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "consequatur",
+      "LinkHint": "sequi",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 889
+          "FieldType": "System.Int32",
+          "FieldLength": 345
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Thiel Inc and Sons",
-      "Description": "Virtual executive matrix",
-      "Rank": 754,
+      "Name": "Schmitt, Satterfield and Klein",
+      "Description": "Inverse needs-based benchmark",
+      "Rank": 468,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Thiel Inc and Sons",
-      "Description": "Virtual executive matrix",
-      "Rank": 754,
+      "Name": "Schmitt, Satterfield and Klein",
+      "Description": "Inverse needs-based benchmark",
+      "Rank": 468,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 818
     }
   }
 }

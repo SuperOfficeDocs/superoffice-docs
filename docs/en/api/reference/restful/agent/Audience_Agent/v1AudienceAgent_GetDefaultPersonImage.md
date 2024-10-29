@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Mraz Group"
+  "LayoutName": "Schmidt Inc and Sons"
 }
 ```
 

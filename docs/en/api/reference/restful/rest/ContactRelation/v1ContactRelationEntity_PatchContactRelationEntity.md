@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "a",
+    "path": "facere",
     "value": {}
   },
   {
     "op": "add",
-    "path": "a",
+    "path": "facere",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 910,
-  "SourcePersonId": 884,
-  "DestinationContactId": 536,
-  "DestinationPersonId": 813,
-  "RelationId": 295,
-  "Comment": "vel",
-  "RelationDefinitionId": 246,
-  "Reversed": 704,
-  "UpdatedDate": "2001-12-13T03:44:57.2028009+01:00",
-  "CreatedDate": "2023-06-19T03:44:57.2028009+02:00",
+  "SourceContactId": 863,
+  "SourcePersonId": 518,
+  "DestinationContactId": 123,
+  "DestinationPersonId": 541,
+  "RelationId": 138,
+  "Comment": "suscipit",
+  "RelationDefinitionId": 783,
+  "Reversed": 92,
+  "UpdatedDate": "1997-08-16T13:14:10.7735359+02:00",
+  "CreatedDate": "2007-09-13T13:14:10.7735359+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Denesik, Lesch and Braun",
-  "SourcePersonName": "Ebert LLC",
-  "DestinationContactName": "Gislason Inc and Sons",
-  "DestinationPersonName": "O'Keefe Group",
-  "ActiveText": "asperiores",
-  "PassiveText": "velit",
+  "SourceContactName": "Predovic LLC",
+  "SourcePersonName": "Koepp-Leannon",
+  "DestinationContactName": "Botsford-Greenholt",
+  "DestinationPersonName": "Russel Group",
+  "ActiveText": "libero",
+  "PassiveText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 95
     }
   },
   "_Links": {

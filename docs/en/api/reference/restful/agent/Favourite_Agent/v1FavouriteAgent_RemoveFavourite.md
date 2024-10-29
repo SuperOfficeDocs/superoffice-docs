@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Flatley, Dach and Considine",
-  "RecordId": 469,
-  "AssociateId": 613
+  "TableName": "Medhurst-Crona",
+  "RecordId": 319,
+  "AssociateId": 644
 }
 ```
 

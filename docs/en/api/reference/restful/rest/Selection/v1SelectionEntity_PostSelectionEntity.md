@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent grid-enabled initiative",
-  "Postit": "rerum",
+  "Description": "Operative multi-state secured line",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 442,
-  "IncludePerson": 390,
+  "GroupIdx": 282,
+  "IncludePerson": 13,
   "MemberCount": 99.99,
-  "Name": "O'Connell LLC",
-  "PostitTextId": 497,
-  "CreatedDate": "2018-08-09T03:44:57.5781309+02:00",
-  "SelectionId": 182,
-  "SoundEx": "est",
-  "Source": 975,
-  "TextId": 665,
-  "UpdatedDate": "2009-12-28T03:44:57.5781309+01:00",
-  "UpdatedCount": 755,
-  "Visibility": 318,
+  "Name": "Donnelly Group",
+  "PostitTextId": 685,
+  "CreatedDate": "2016-11-14T13:14:11.1016748+01:00",
+  "SelectionId": 96,
+  "SoundEx": "porro",
+  "Source": 6,
+  "TextId": 680,
+  "UpdatedDate": "2002-01-14T13:14:11.1016748+01:00",
+  "UpdatedCount": 579,
+  "Visibility": 176,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 776,
-  "TargetTableName": "Larson-Powlowski",
+  "CompanyUnique": true,
+  "TargetTableNumber": 838,
+  "TargetTableName": "Ward, Smitham and Jacobson",
   "Completed": false,
-  "LeftSelectionId": 561,
-  "RightSelectionId": 719,
+  "LeftSelectionId": 763,
+  "RightSelectionId": 964,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kessler, Brown and Medhurst",
-  "ShadowProviderName": "Shanahan, Murazik and Eichmann",
-  "ChartKey": "corporis",
-  "LastLoaded": "2004-12-29T03:44:57.5781309+01:00",
-  "LastLoadedBy": 677,
+  "MainProviderName": "Buckridge Group",
+  "ShadowProviderName": "O'Kon-Robel",
+  "ChartKey": "quam",
+  "LastLoaded": "2016-05-23T13:14:11.1016748+02:00",
+  "LastLoadedBy": 512,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-11-10T03:44:57.5781309+01:00",
-  "LastMembershipChangeBy": 566,
+  "LastMembershipChange": "2008-04-28T13:14:11.1016748+02:00",
+  "LastMembershipChangeBy": 635,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nihil",
-  "MemberTabHeading": "nobis",
-  "MailingsProviderName": "Pacocha-Roob",
-  "DashboardTileDefinitionId": 295,
+  "MainHeading": "ex",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Maggio Group",
+  "DashboardTileDefinitionId": 367,
   "VisibleFor": [
     {
-      "VisibleId": 472,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "molestiae"
+      "DisplayValue": "mollitia"
     },
     {
-      "VisibleId": 472,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "molestiae"
+      "DisplayValue": "mollitia"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable content-based synergy",
-  "Postit": "repellendus",
+  "Description": "Optional regional complexity",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 353,
-  "IncludePerson": 231,
+  "GroupIdx": 878,
+  "IncludePerson": 714,
   "MemberCount": 99.99,
-  "Name": "Goldner-Funk",
-  "PostitTextId": 192,
-  "CreatedDate": "2023-01-04T03:44:57.5781309+01:00",
-  "SelectionId": 995,
-  "SoundEx": "sequi",
-  "Source": 593,
-  "TextId": 742,
-  "UpdatedDate": "2001-10-30T03:44:57.5781309+01:00",
-  "UpdatedCount": 673,
-  "Visibility": 440,
+  "Name": "Swaniawski Group",
+  "PostitTextId": 404,
+  "CreatedDate": "2000-05-14T13:14:11.1016748+02:00",
+  "SelectionId": 742,
+  "SoundEx": "atque",
+  "Source": 479,
+  "TextId": 886,
+  "UpdatedDate": "2023-03-07T13:14:11.1016748+01:00",
+  "UpdatedCount": 62,
+  "Visibility": 420,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 880,
-  "TargetTableName": "Cummerata, Kulas and Rath",
-  "Completed": false,
-  "LeftSelectionId": 118,
-  "RightSelectionId": 791,
+  "CompanyUnique": true,
+  "TargetTableNumber": 474,
+  "TargetTableName": "Aufderhar-Wunsch",
+  "Completed": true,
+  "LeftSelectionId": 225,
+  "RightSelectionId": 266,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crooks, Jaskolski and Zemlak",
-  "ShadowProviderName": "Roob, Krajcik and Dickens",
-  "ChartKey": "sunt",
-  "LastLoaded": "2008-02-26T03:44:57.5781309+01:00",
-  "LastLoadedBy": 217,
+  "MainProviderName": "Crist, Kuhlman and Upton",
+  "ShadowProviderName": "Legros, Turner and Leuschke",
+  "ChartKey": "officiis",
+  "LastLoaded": "2005-05-14T13:14:11.1016748+02:00",
+  "LastLoadedBy": 511,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-01-13T03:44:57.5781309+01:00",
-  "LastMembershipChangeBy": 741,
+  "LastMembershipChange": "2021-06-04T13:14:11.1016748+02:00",
+  "LastMembershipChangeBy": 106,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "illum",
-  "MemberTabHeading": "adipisci",
-  "MailingsProviderName": "Kshlerin-Metz",
-  "DashboardTileDefinitionId": 765,
+  "MainHeading": "eum",
+  "MemberTabHeading": "sequi",
+  "MailingsProviderName": "Wisozk-Kertzmann",
+  "DashboardTileDefinitionId": 329,
   "VisibleFor": [
     {
-      "VisibleId": 151,
+      "VisibleId": 45,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 633
+          "FieldLength": 966
         }
       }
     },
     {
-      "VisibleId": 151,
+      "VisibleId": 45,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 633
+          "FieldLength": 966
         }
       }
     }
@@ -294,13 +294,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=900
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=236
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 126,
+  "DocumentId": 30,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ea",
-  "Header": "voluptatum",
-  "Name": "Mosciski, Tromp and Kovacek",
-  "OurRef": "delectus",
-  "YourRef": "et",
-  "CreatedDate": "2020-03-29T03:44:52.4646325+02:00",
-  "UpdatedDate": "2014-03-23T03:44:52.4646325+01:00",
-  "Description": "Devolved leading edge neural-net",
+  "Attention": "quia",
+  "Header": "aliquam",
+  "Name": "Hammes-Upton",
+  "OurRef": "at",
+  "YourRef": "quo",
+  "CreatedDate": "2003-01-27T13:14:05.7882747+01:00",
+  "UpdatedDate": "2000-04-01T13:14:05.7882747+02:00",
+  "Description": "Front-line high-level solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-05-04T03:44:52.4646325+02:00",
-  "ExternalRef": "necessitatibus",
+  "Date": "2007-01-28T13:14:05.7882747+01:00",
+  "ExternalRef": "architecto",
   "Completed": "Completed",
-  "ActiveLinks": 410,
+  "ActiveLinks": 941,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Stehr-Torphy",
-      "Id": 650,
-      "Description": "Stand-alone zero defect capacity",
-      "ExtraInfo": "doloribus",
-      "LinkId": 977,
+      "EntityName": "D'Amore-Weimann",
+      "Id": 462,
+      "Description": "Innovative full-range access",
+      "ExtraInfo": "nulla",
+      "LinkId": 707,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 804
+          "FieldLength": 595
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 369,
-  "Snum": 120,
+  "SuggestedDocumentId": 811,
+  "Snum": 632,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lynn Kutch",
-    "SuperOffice:2": "Evalyn Labadie"
+    "SuperOffice:1": "1297310320",
+    "SuperOffice:2": "Ervin Schmitt"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "necessitatibus"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "magnam"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2020-12-05T03:44:52.4646325+01:00",
-  "PublishTo": "2022-09-23T03:44:52.4646325+02:00",
-  "PublishFrom": "2018-09-22T03:44:52.4646325+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-08-24T13:14:05.7882747+02:00",
+  "PublishTo": "2010-04-19T13:14:05.7882747+02:00",
+  "PublishFrom": "2002-09-05T13:14:05.7882747+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 967,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 340
         }
       }
     },
     {
-      "VisibleId": 967,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 340
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 258
     }
   }
 }

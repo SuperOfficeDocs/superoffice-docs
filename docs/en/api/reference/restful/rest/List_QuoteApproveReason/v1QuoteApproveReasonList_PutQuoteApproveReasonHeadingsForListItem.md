@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Blanda-Conroy",
-    "ToolTip": "Molestiae nulla quis sint vero nobis.",
-    "Deleted": true,
-    "Rank": 121,
-    "Type": "tempore",
-    "ColorBlock": 96,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2015-04-10T03:44:58.1093468+02:00",
+    "Id": 326,
+    "Name": "Mante-Mann",
+    "ToolTip": "Eaque nulla fugiat.",
+    "Deleted": false,
+    "Rank": 571,
+    "Type": "ducimus",
+    "ColorBlock": 764,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2023-06-14T13:14:11.4923293+02:00",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Zemlak LLC",
-        "ToolTip": "Id numquam aliquid sed omnis consequatur perferendis.",
+        "Id": 143,
+        "Name": "Stark, Mante and Pollich",
+        "ToolTip": "Perspiciatis accusantium ab ullam nemo quasi quia.",
         "Deleted": false,
-        "Rank": 931,
-        "Type": "ut",
-        "ColorBlock": 945,
-        "IconHint": "et",
+        "Rank": 216,
+        "Type": "ex",
+        "ColorBlock": 659,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2000-09-24T03:44:58.1093468+02:00",
+        "LastChanged": "2014-10-26T13:14:11.4923293+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
+        "ExtraInfo": "fugit",
         "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Helga Satterfield"
+        "Hidden": false,
+        "FullName": "Thomas Hintz"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "vel",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Isai Linnie Ruecker DVM"
+    "FullName": "Mrs. Art Jairo Hamill"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Nikolaus, Hoeger and Fadel",
-    "ToolTip": "Quia explicabo tempore.",
+    "Id": 945,
+    "Name": "Kub-Trantow",
+    "ToolTip": "Autem eum nulla enim sunt dicta.",
     "Deleted": true,
-    "Rank": 583,
-    "Type": "consectetur",
-    "ColorBlock": 18,
-    "IconHint": "voluptas",
+    "Rank": 943,
+    "Type": "velit",
+    "ColorBlock": 853,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2020-06-09T03:44:58.1093468+02:00",
+    "LastChanged": "2009-02-02T13:14:11.4923293+01:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "O'Kon-Kerluke",
-        "ToolTip": "Voluptates expedita et eum pariatur nesciunt.",
-        "Deleted": false,
-        "Rank": 133,
-        "Type": "ipsum",
-        "ColorBlock": 547,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2008-06-30T03:44:58.1093468+02:00",
+        "Id": 896,
+        "Name": "Daugherty, Stroman and Luettgen",
+        "ToolTip": "Aut ab cupiditate tenetur beatae dolor quibusdam.",
+        "Deleted": true,
+        "Rank": 993,
+        "Type": "beatae",
+        "ColorBlock": 354,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2023-03-22T13:14:11.4923293+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Ms. Eino Rocio Bashirian MD",
+        "ExtraInfo": "nam",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Ms. Zena Kathryn Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 170
+            "FieldType": "System.String",
+            "FieldLength": 545
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ducimus",
     "Hidden": true,
-    "FullName": "Delaney Lowe V",
+    "FullName": "Alysha Russel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldLength": 930
       }
     }
   }

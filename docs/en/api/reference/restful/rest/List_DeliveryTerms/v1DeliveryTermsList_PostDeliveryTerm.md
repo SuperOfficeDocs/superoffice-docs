@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "O'Conner Group",
-  "Tooltip": "labore",
-  "Deleted": false,
-  "UdListDefinitionId": 806,
-  "Rank": 935
+  "Id": 352,
+  "Name": "Zboncak, Littel and Miller",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "UdListDefinitionId": 380,
+  "Rank": 329
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Stoltenberg Inc and Sons",
-  "Tooltip": "aspernatur",
+  "Id": 284,
+  "Name": "Rutherford LLC",
+  "Tooltip": "atque",
   "Deleted": false,
-  "UdListDefinitionId": 381,
-  "Rank": 123,
+  "UdListDefinitionId": 279,
+  "Rank": 340,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 440
     }
   }
 }

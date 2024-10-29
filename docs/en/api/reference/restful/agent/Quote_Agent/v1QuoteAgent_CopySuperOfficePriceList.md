@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 440,
-  "NewName": "Altenwerth LLC",
-  "ValidFrom": "2008-10-14T03:44:53.042699+02:00",
-  "ValidTo": "2017-02-24T03:44:53.042699+01:00",
-  "NewCurrencyId": 972,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 885,
+  "NewName": "Hand-Ankunding",
+  "ValidFrom": "2017-04-21T13:14:06.3195563+02:00",
+  "ValidTo": "2016-07-05T13:14:06.3195563+02:00",
+  "NewCurrencyId": 299,
+  "ConvertCurrency": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 98,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 880,
-  "Name": "Franecki-Rosenbaum",
-  "Description": "Organic tertiary interface",
-  "Currency": "natus",
-  "CurrencyName": "Abbott-Runolfsdottir",
-  "ValidFrom": "1999-08-23T03:44:53.042699+02:00",
-  "ValidTo": "2015-10-17T03:44:53.042699+02:00",
+  "PriceListId": 545,
+  "ERPPriceListKey": "vitae",
+  "QuoteConnectionId": 238,
+  "Name": "Morar-Pollich",
+  "Description": "Robust high-level infrastructure",
+  "Currency": "minima",
+  "CurrencyName": "Senger, Cassin and Langworth",
+  "ValidFrom": "2003-05-04T13:14:06.3195563+02:00",
+  "ValidTo": "1997-07-14T13:14:06.3195563+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 824
     }
   }
 }

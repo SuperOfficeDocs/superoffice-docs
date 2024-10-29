@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=adipisci
-GET /api/v1/MDOList/{listname}?query=possimus
+GET /api/v1/MDOList/{listname}?additional=error
+GET /api/v1/MDOList/{listname}?query=doloribus
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Rosenbaum, Mosciski and Funk",
-    "ToolTip": "Voluptas omnis.",
-    "Deleted": false,
-    "Rank": 924,
-    "Type": "et",
+    "Id": 39,
+    "Name": "Wolff, Murazik and Torp",
+    "ToolTip": "Totam soluta quo sint animi sunt.",
+    "Deleted": true,
+    "Rank": 488,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "Gibson LLC",
-        "ToolTip": "Voluptas excepturi voluptatem perspiciatis ducimus alias.",
+        "Id": 176,
+        "Name": "Wolff Group",
+        "ToolTip": "Excepturi ut sint.",
         "Deleted": false,
-        "Rank": 428,
-        "Type": "cupiditate",
+        "Rank": 847,
+        "Type": "deleniti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consectetur",
-        "ColorBlock": 526,
-        "ExtraInfo": "quia",
-        "StyleHint": "eveniet",
-        "FullName": "Dolores Carroll",
+        "IconHint": "quos",
+        "ColorBlock": 346,
+        "ExtraInfo": "sint",
+        "StyleHint": "et",
+        "FullName": "Asa Funk MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 786
+            "FieldLength": 304
           }
         }
       }
     ],
-    "IconHint": "corrupti",
-    "ColorBlock": 933,
-    "ExtraInfo": "enim",
-    "StyleHint": "architecto",
-    "FullName": "Miss Mathias Lesch MD",
+    "IconHint": "vel",
+    "ColorBlock": 170,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "quia",
+    "FullName": "Carmela Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 540
       }
     }
   }

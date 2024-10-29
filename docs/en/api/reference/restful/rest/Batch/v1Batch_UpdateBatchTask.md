@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Hagenes Group",
-  "AssociateId": 204,
-  "DetailsTable": 947,
-  "DetailsRecord": 83,
+  "Id": 456,
+  "Name": "Gottlieb, Collins and Zulauf",
+  "AssociateId": 450,
+  "DetailsTable": 173,
+  "DetailsRecord": 939,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "expedita",
-    "ParameterObject2": "enim"
+    "ParameterObject1": "consequatur",
+    "ParameterObject2": "exercitationem"
   },
-  "LastStarted": "2019-06-04T03:44:57.7031403+02:00",
-  "Created": "2020-04-19T03:44:57.7031403+02:00",
-  "StartCount": 923,
-  "DatabaseSerialNumber": "1102600",
-  "Context": "dolor",
-  "Result": "inventore",
+  "LastStarted": "2015-04-08T13:14:11.1954363+02:00",
+  "Created": "2022-05-04T13:14:11.1954363+02:00",
+  "StartCount": 964,
+  "DatabaseSerialNumber": "1114315",
+  "Context": "impedit",
+  "Result": "sit",
   "State": "All",
-  "Description": "Decentralized dedicated structure",
-  "Response": "reprehenderit",
-  "Request": "soluta",
-  "ProgressDescription": "Reduced interactive access",
-  "ProgressPercent": 874,
-  "FileName": "Wyman Inc and Sons",
+  "Description": "Integrated multimedia knowledge user",
+  "Response": "qui",
+  "Request": "cumque",
+  "ProgressDescription": "Devolved encompassing middleware",
+  "ProgressPercent": 661,
+  "FileName": "Lynch Inc and Sons",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 130,
-  "Name": "Johnston-Rempel",
-  "AssociateId": 16,
-  "DetailsTable": 412,
-  "DetailsRecord": 60,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 998,
+  "Name": "Brakus, Moen and Pollich",
+  "AssociateId": 10,
+  "DetailsTable": 937,
+  "DetailsRecord": 751,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "harum",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "tenetur",
+    "ParameterObject2": "quia"
   },
-  "LastStarted": "2024-01-23T03:44:57.7031403+01:00",
-  "Created": "2013-11-29T03:44:57.7031403+01:00",
-  "StartCount": 715,
-  "DatabaseSerialNumber": "451068",
-  "Context": "aut",
-  "Result": "quas",
+  "LastStarted": "2002-07-18T13:14:11.1954363+02:00",
+  "Created": "2010-07-03T13:14:11.1954363+02:00",
+  "StartCount": 475,
+  "DatabaseSerialNumber": "1447440",
+  "Context": "minus",
+  "Result": "ut",
   "State": "All",
-  "Description": "Assimilated intermediate service-desk",
-  "Response": "rerum",
-  "Request": "ipsa",
-  "ProgressDescription": "De-engineered systematic support",
-  "ProgressPercent": 809,
-  "FileName": "Bogisich, Smith and Schneider",
+  "Description": "Quality-focused directional product",
+  "Response": "rem",
+  "Request": "ut",
+  "ProgressDescription": "Fully-configurable fresh-thinking infrastructure",
+  "ProgressPercent": 497,
+  "FileName": "Mosciski-Berge",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldLength": 655
     }
   }
 }

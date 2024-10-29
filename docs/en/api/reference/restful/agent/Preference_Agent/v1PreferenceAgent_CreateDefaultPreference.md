@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nam",
+  "RawValue": "assumenda",
   "Specification": null,
-  "DisplayValue": "laborum",
-  "DisplayTooltip": "quos",
+  "DisplayValue": "commodi",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 949,
-  "PrefDescId": 670,
-  "TableName": "Ziemann-Jakubowski",
-  "UserPreferenceId": 386,
+  "TargetId": 356,
+  "PrefDescId": 207,
+  "TableName": "Parker, Beatty and Predovic",
+  "UserPreferenceId": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 558
     }
   }
 }

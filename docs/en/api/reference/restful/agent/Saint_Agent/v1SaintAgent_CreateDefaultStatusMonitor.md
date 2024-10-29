@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 907,
-  "Rank": 632,
-  "DefaultTask": 531,
-  "DefaultTaskText": "cupiditate",
-  "IsVisual": false,
-  "LastGenerated": "2023-12-04T03:44:53.0900933+01:00",
-  "Description": "Assimilated bifurcated capability",
-  "Name": "Boehm, Lind and Anderson",
-  "StatusMonitorId": 157,
-  "PictureId": 772,
+  "OwnerTable": 674,
+  "Rank": 45,
+  "DefaultTask": 182,
+  "DefaultTaskText": "molestiae",
+  "IsVisual": true,
+  "LastGenerated": "1998-08-03T13:14:06.3508082+02:00",
+  "Description": "Virtual client-server extranet",
+  "Name": "O'Connell, Kuhlman and Koss",
+  "StatusMonitorId": 496,
+  "PictureId": 297,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 355,
-  "NumNeedUpdate": 513,
-  "GenerationStart": "2001-08-28T03:44:53.0900933+02:00",
+  "Deleted": true,
+  "NumMatches": 949,
+  "NumNeedUpdate": 966,
+  "GenerationStart": "2016-05-22T13:14:06.3508082+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldLength": 138
     }
   }
 }

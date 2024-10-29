@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Hudson-Hirthe",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 894,
-  "Rank": 424,
+  "Id": 673,
+  "Name": "Howe, Wyman and Hyatt",
+  "Tooltip": "deserunt",
+  "Deleted": false,
+  "UdListDefinitionId": 918,
+  "Rank": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 715
     }
   }
 }

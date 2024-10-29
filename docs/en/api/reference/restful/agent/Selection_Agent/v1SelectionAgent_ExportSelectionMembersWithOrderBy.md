@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 450,
-  "TemplateName": "Pacocha-Okuneva",
-  "UseContacts": false,
-  "OrderBy": "omnis"
+  "SelectionId": 541,
+  "TemplateName": "Heidenreich-Schamberger",
+  "UseContacts": true,
+  "OrderBy": "itaque"
 }
 ```
 

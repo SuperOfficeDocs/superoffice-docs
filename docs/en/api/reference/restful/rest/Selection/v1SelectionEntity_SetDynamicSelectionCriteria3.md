@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Roob, McKenzie and Reilly",
-    "Operator": "illum",
+    "Name": "Feil-Nienow",
+    "Operator": "neque",
     "Values": [
-      "molestias",
-      "laboriosam"
+      "quaerat",
+      "et"
     ],
     "DisplayValues": [
-      "illum",
-      "enim"
+      "omnis",
+      "nostrum"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Bogisich LLC",
-        "Operator": "sit",
+        "Name": "Flatley, Altenwerth and Balistreri",
+        "Operator": "aut",
         "Values": [
-          "qui",
-          "animi"
+          "explicabo",
+          "quidem"
         ],
         "DisplayValues": [
-          "sunt",
-          "molestias"
+          "est",
+          "eius"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 484,
+        "InterParenthesis": 609,
         "InterOperator": "And",
-        "UniqueHash": 814
+        "UniqueHash": 465
       }
     ],
-    "InterParenthesis": 931,
+    "InterParenthesis": 304,
     "InterOperator": "And",
-    "UniqueHash": 584
+    "UniqueHash": 87
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bruen LLC",
-    "Operator": "atque",
+    "Name": "Reichert, Zulauf and Watsica",
+    "Operator": "accusantium",
     "Values": [
-      "excepturi",
-      "velit"
+      "et",
+      "minima"
     ],
     "DisplayValues": [
-      "accusantium",
-      "sequi"
+      "ad",
+      "quo"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Erdman, Emmerich and Kuvalis",
-        "Operator": "qui",
+        "Name": "Hilll, Ward and Stamm",
+        "Operator": "molestias",
         "Values": [
-          "dolore",
-          "nisi"
+          "alias",
+          "et"
         ],
         "DisplayValues": [
-          "aut",
-          "quod"
+          "necessitatibus",
+          "voluptatem"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 878,
+        "InterParenthesis": 72,
         "InterOperator": "And",
-        "UniqueHash": 555
+        "UniqueHash": 375
       }
     ],
-    "InterParenthesis": 660,
+    "InterParenthesis": 680,
     "InterOperator": "And",
-    "UniqueHash": 823
+    "UniqueHash": 969
   }
 ]
 ```
