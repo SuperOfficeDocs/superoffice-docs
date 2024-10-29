@@ -2,9 +2,10 @@
 uid: help-no-document-external
 title: Arbeide med eksterne dokumenter
 description: Arbeide med eksterne dokumenter
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: sak, dokument
+author: Bergfrid Dias
+date: 10.29.2023
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -53,6 +54,9 @@ Dette gjelder f.eks. når du bruker fanen **Melding** i forbindelse med [saksbeh
 1. Klikk på **Lagre**. Hvis dokumenttypen kan redigeres i nettleseren, fylles feltet **Innhold** ut med dokumentinnholdet.
 
 1. Klikk på **OK**. Dokumentet legges til i den angitte mappen.
+
+> [!NOTE]
+> Enkelte filtyper er som standard blokkert fra å bli lastet opp som eksterne dokumenter i Service. Hvis du trenger å tillate opplasting av noen av disse typene, som for eksempel **js**, kan en administrator oppdatere [systeminnstillingen **usikre filtyper**][9] i Innstillinger og vedlikehold.
 
 ## Redigere dokumentinnhold
 
@@ -117,6 +121,7 @@ Når du sletter en mappe, slettes også alle dokumentene i mappen fra SuperOffic
 
 <!-- Referenced links -->
 [1]: howto/reply.md
+[9]: ../../../../release-notes/10.3/service/10.3.11-update.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/archive-icon.png

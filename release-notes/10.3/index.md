@@ -24,6 +24,7 @@ Check out our **Product release** overview for more details in our [Community][2
 * 10.3.11 (29.10.2024):
   * [Document dialog - Clean and intuitive (10.3.11)][44] in Core CRM
   * [Selection - Task for print selection (10.3.11)][44] in Core CRM
+  * [System preference - Unsafe file types (10.3.11)][48] in Service
 
 * 10.3.10 (08.10.2024):
   * [Selection - Task for print labels (10.3.10)][42] in Core CRM
@@ -176,5 +177,5 @@ See all the [new or updated apps][5]
 [45]: https://appstore.superoffice.com/infobridge-software-b-v-/activity-folders-for-superoffice
 [46]: https://appstore.superoffice.com/infobridge-software-b-v-/document-viewer-for-superoffice
 [47]: https://appstore.superoffice.com/infobridge-software-b-v-/panels-for-superoffice
-
+[48]: service/10.3.11-update.md
 <!-- Referenced images -->

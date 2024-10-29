@@ -2,9 +2,10 @@
 uid: help-sv-document-external
 title: Arbeta med externa dokument
 description: Arbeta med externa dokument
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: ärende, dokument
+author: Bergfrid Dias
+date: 10.29.2023
+version: 10.3.11
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -53,6 +54,9 @@ Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på 
 1. Klicka på **Spara**. Om dokumenttypen kan redigeras i webbläsaren visas dokumentets innehåll i fältet **Innehåll**.
 
 1. Klicka på **OK**. Dokumentet läggs i angiven mapp.
+
+> [!NOTE]
+> Vissa filtyper är som standard blockerade från att laddas upp som externa dokument i Service. Om du behöver tillåta uppladdning av någon av dessa typer, såsom **js**, kan en administratör uppdatera [systeminställningen **osäkra filtyper**][9] i Inställningar och underhåll.
 
 ## Redigera dokumentinnehåll
 
@@ -117,6 +121,7 @@ När du tar bort en mapp raderas även alla dokument i mappen från SuperOffice.
 
 <!-- Referenced links -->
 [1]: howto/reply.md
+[9]: ../../../../release-notes/10.3/service/10.3.11-update.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/archive-icon.png
