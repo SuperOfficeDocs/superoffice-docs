@@ -52,7 +52,7 @@ Everything you need is integrated into your inbox, making your workflow smoother
 2. Follow the simple steps to enable the add-in – no download required.
 
 > [!NOTE]
-> You need an active Microsoft 365 subscription and a SuperOffice CRM Online account to connect the add-in.
+> You need an active Microsoft 365 subscription and a SuperOffice CRM Online account or SuperOffice onsite to connect the add-in.
 
 ## Deployment options
 

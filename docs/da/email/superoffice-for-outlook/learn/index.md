@@ -52,7 +52,7 @@ Alt hvad du behøver er integreret i din indbakke, hvilket gør din arbejdsgang 
 2. Følg de enkle trin for at aktivere tilføjelsen – ingen download er nødvendig.
 
 > [!NOTE]
-> Du skal have et aktivt Microsoft 365-abonnement og en SuperOffice CRM Online-konto for at tilslutte tilføjelsen.
+> Du skal have et aktivt Microsoft 365-abonnement og en SuperOffice CRM Online-konto eller SuperOffice onsite for at tilslutte tilføjelsen.
 
 ## Udrulningsmuligheder
 

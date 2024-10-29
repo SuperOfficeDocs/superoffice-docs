@@ -52,7 +52,7 @@ Allt du behöver är integrerat i din inkorg, vilket gör ditt arbetsflöde smid
 2. Följ de enkla stegen för att aktivera tillägget – ingen nedladdning krävs.
 
 > [!NOTE]
-> Du behöver ett aktivt Microsoft 365-prenumeration och ett SuperOffice CRM Online-konto för att ansluta tillägget.
+> Du behöver ett aktivt Microsoft 365-prenumeration och ett SuperOffice CRM Online-konto eller SuperOffice onsite för att ansluta tillägget.
 
 ## Distributionsalternativ
 

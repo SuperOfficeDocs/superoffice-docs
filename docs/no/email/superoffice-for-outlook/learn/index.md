@@ -53,7 +53,7 @@ Alt du trenger er integrert i innboksen din, noe som gjør arbeidsflyten din mer
 2. Følg de enkle trinnene for å aktivere tillegget – ingen nedlasting er nødvendig.
 
 > [!NOTE]
-> Du trenger et aktivt Microsoft 365-abonnement og en SuperOffice CRM Online-konto for å koble til tillegget.
+> Du trenger et aktivt Microsoft 365-abonnement og en SuperOffice CRM Online-konto eller SuperOffice onsite for å koble til tillegget.
 
 ## Distribusjonsalternativer
 

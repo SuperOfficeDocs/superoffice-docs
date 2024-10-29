@@ -52,7 +52,7 @@ Alles, was Sie brauchen, ist in Ihrem Posteingang integriert, was Ihren Arbeitsa
 2. Folgen Sie den einfachen Schritten, um das Add-in zu aktivieren – kein Download erforderlich.
 
 > [!NOTE]
-> Sie benötigen ein aktives Microsoft 365-Abonnement und ein SuperOffice CRM Online-Konto, um das Add-in zu verbinden.
+> Sie benötigen ein aktives Microsoft 365-Abonnement und ein SuperOffice CRM Online-Konto oder SuperOffice onsite, um das Add-in zu verbinden.
 
 ## Bereitstellungsoptionen
 

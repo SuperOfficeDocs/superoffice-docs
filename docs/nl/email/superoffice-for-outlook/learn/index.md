@@ -52,7 +52,7 @@ Alles wat je nodig hebt is geïntegreerd in je inbox, waardoor je werkproces eff
 2. Volg de eenvoudige stappen om de invoegtoepassing te activeren – geen download nodig.
 
 > [!NOTE]
-> Je hebt een actief Microsoft 365-abonnement en een SuperOffice CRM Online-account nodig om de invoegtoepassing te koppelen.
+> Je hebt een actief Microsoft 365-abonnement en een SuperOffice CRM Online-account of SuperOffice onsite nodig om de invoegtoepassing te koppelen.
 
 ## Implementatieopties
 
