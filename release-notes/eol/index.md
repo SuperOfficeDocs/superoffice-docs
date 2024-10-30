@@ -4,10 +4,10 @@ title: End-of-life notifications
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
 author: Bergfrid Dias
-date: 10.23.2024
-language: en
-topic: reference
+date: 10.29.2024
 version: 10.3
+topic: reference
+language: en
 ---
 
 # End-of-life notifications
@@ -24,9 +24,9 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
-| [Microsoft 365 Document Integration (Sharepoint v1.0)][14] | Approaching end-of-life | 01.09.2024 | Switch to [Super ID][24] and [SharePoint Documents][25]. |
+| [Microsoft 365 Document Integration (Sharepoint v1.0)][14] | Approaching end-of-life | September 1, 2024 | Switch to [Super ID][24] and [SharePoint Documents][25]. |
 | [Pagebuilder][12] | No longer supported | The last supported version is 10.2.9 | Switch to [Screen Designer][22]. |
-| Reporter Studio and reports | Approaching end-of-life | 12.01.2024 | Switch to dashboards and selections. |
+| [Reporter Studio and reports][15] | Approaching end-of-life | December 4, 2024 | Switch to [dashboards][26] and [selections][27]. |
 
 ## Upcoming end-of-life notices
 
@@ -38,7 +38,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
-| [Lotus Notes Link][11] | Deprecated | Not supported from 01.01.2024 | Switch to [SuperOffice Inbox][21]. |
+| [Lotus Notes Link][11] | Deprecated | Not supported from January 1, 2024 | Switch to [SuperOffice Inbox][21]. |
 | Pagebuilder extensibility | Deprecated | Not supported on SuperOffice 10.x and newer. | [WebCustomizations breaking changes][5] |
 | SOAP interface of SuperOffice Service | Deprecated | Not supported in SuperOffice Online version 10.x and newer. | Switch to [SuperOffice.WebApi][23] (REST). |
 
@@ -59,10 +59,13 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 [12]: pagebuilder.md
 [13]: soap.md
 [14]: sharepoint-app.md
+[15]: reports.md
 [21]: ../../docs/en/email/inbox/learn/index.md
 [22]: ../../docs/en/ui/screen-designer/learn/index.md
 [23]: ../../docs/en/api/web-services/endpoints/rest-webapi/index.md
 [24]: ../../docs/en/identity-management/superid/sign-in-services.md
 [25]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
+[26]: ../../docs/en/search-options/selection/learn/index.md
+[27]: ../../docs/en/dashboard/learn/index.md
 
 <!-- Referenced images -->

@@ -11,10 +11,12 @@ language: sv
 
 # Rapporter
 
+> [!CAUTION]
+> Reporter Studio och rapporter närmar sig [slut på support][10].
+
 Fönstret **Rapporter** är en rapportgenerator med en uppsättning standardrapporter som du kan använda för att skriva ut rapporter baserat på data från SuperOffice CRM. Du kan anpassa sökkriterierna i standardrapporter och på så sätt definiera dina egna favoritrapporter.
 
-> [!TIP]
-> [Dashboards][1] är ytterligare ett sätt att presentera SuperOffice-data på.
+[Dashboards][1] är ytterligare ett sätt att presentera SuperOffice-data på.
 
 ## Var finns mina rapporter?
 
@@ -58,6 +60,7 @@ Fönstret **Rapporter** är en rapportgenerator med en uppsättning standardrapp
 [6]: open-from-archive.md
 [7]: filter.md
 [8]: delete-from-archive.md
+[10]: ../../../../release-notes/eol/reports.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/reports/label.png

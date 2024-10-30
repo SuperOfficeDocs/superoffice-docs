@@ -23,7 +23,7 @@ The Company card consists of different sub tabs (section tabs) that provides goo
 
 If you deal with customers that are not (yet) associated with a company, the Contact card provides similar features to the Company card.
 
-The system also has other features. For example, you can use Dashboards, Selections, and Reports to get an overview of contacts (based on categories, business or other criteria), sales, projects and activities. This is very helpful when you need to keep colleagues up to date on a weekly basis.
+The system also has other features. For example, you can use Dashboards and Selections to get an overview of contacts (based on categories, business or other criteria), sales, projects and activities. This is very helpful when you need to keep colleagues up to date on a weekly basis.
 
 The Diary helps you with your scheduling, and you can stay in touch with your customers using the Chat feature. Sale and Project provide additional tools for effectively managing your business.
 

@@ -11,10 +11,12 @@ language: de
 
 # Berichte
 
+> [!CAUTION]
+> Reporter Studio und Berichte nähern sich dem [Support-Ende][10].
+
 Die Ansicht **Berichte** ist ein Berichtgenerator mit einer Reihe von Standardberichten, die Sie verwenden können, um Berichte mit Daten aus SuperOffice CRM zu drucken. Sie können die Suchkriterien in Standardberichten anpassen und auf diese Weise Ihre eigenen Berichte erstellen.
 
-> [!TIP]
-> [Dashboards][1] sind ein anderer Weg, um SuperOffice-Daten zu präsentieren.
+[Dashboards][1] sind ein anderer Weg, um SuperOffice-Daten zu präsentieren.
 
 ## Wo sind meine Berichte?
 
@@ -58,6 +60,7 @@ Die Ansicht **Berichte** ist ein Berichtgenerator mit einer Reihe von Standardbe
 [6]: open-from-archive.md
 [7]: filter.md
 [8]: delete-from-archive.md
+[10]: ../../../../release-notes/eol/reports.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/reports/label.png

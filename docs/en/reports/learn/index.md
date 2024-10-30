@@ -11,10 +11,12 @@ language: en
 
 # Reports
 
+> [!CAUTION]
+> Reporter Studio and reports are [approaching end-of-life][10].
+
 The **Reports** screen is a report generator supplied with a set of standard reports which you can use to print reports based on data from SuperOffice CRM. You can customize the search criteria in standard reports and in this way define your own favorite reports.
 
-> [!TIP]
-> [Dashboards][1] are another way to present SuperOffice data.
+[Dashboards][1] are another way to present SuperOffice data.
 
 ## Where are my reports?
 
@@ -58,6 +60,7 @@ Open the **Reports** screen by clicking the ![icon][img7] **Reports** button in 
 [6]: open-from-archive.md
 [7]: filter.md
 [8]: delete-from-archive.md
+[10]: ../../../../release-notes/eol/reports.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/reports/label.png

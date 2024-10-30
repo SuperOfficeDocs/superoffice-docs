@@ -7,5 +7,7 @@ items:
   href: sharepoint-app.md
 - name: Pagebuilder
   href: pagebuilder.md
+- name: Reports
+  href: reports.md
 - name: SOAP web services
   href: soap.md
