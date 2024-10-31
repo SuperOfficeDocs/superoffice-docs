@@ -2,16 +2,19 @@
 uid: help-da-history-list
 title: Brug af historiklisten
 description: Brug af historiklisten
+keywords: søge, historiklisten, historik
 author: SuperOffice RnD
-date: 08.05.2023
-keywords: søge, historik
+date: 10.31.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Historiklisten
 
-Flere steder i SuperOffice CRM gør historiklisten det nemt at få adgang til de sidste forekomster, du har kigget på. Historiklisten indeholder firmaer, personer, salg, udvalg eller projekter, du tidligere har arbejdet med. Antallet af poster, der vises på historiklisten, defineres under **Præferencer**. (Se [Præferencer][1]).
+Flere steder i SuperOffice CRM gør historiklisten det nemt at få adgang til de sidste forekomster, du har kigget på. Historiklisten indeholder firmaer, personer, salg, udvalg eller projekter, du tidligere har arbejdet med. Antallet af poster, der vises på historiklisten, defineres under [**Præferencer**][1].
 
 Du kan bruge historiklisten på forskellige måder:
 
@@ -33,7 +36,7 @@ Du kan bruge historiklisten på forskellige måder:
 3. Klik på det ønskede firma, den ønskede person, det ønskede salg, projekt eller udvalg for at tilknytte posten.
 
 > [!NOTE]
-> Du kan øge eller begrænse antallet af linjer på historiklisten ved at gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Visuelle effekter** > **Antal elementer i historiklisten** og indtaste det ønskede antal.
+> Du kan øge eller begrænse antallet af linjer på historiklisten ved at gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Visuelle effekter** > **Antal elementer i historiklisten** og indtaste det ønskede antal (maksimum 15).
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md

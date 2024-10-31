@@ -2,16 +2,19 @@
 uid: help-en-history-list
 title: Using the history list
 description: Using the history list
+keywords: search, history list, history
 author: SuperOffice RnD
-date: 08.05.2023
-keywords: search, history
+date: 10.31.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # The History list
 
-In several places in SuperOffice CRM, the history list makes it easy to access the last items you looked at. The history list contains companies, contacts, sales, selections or projects you have previously worked with. The number of records displayed in the history list is defined under **Preferences**. (See [Preferences][1]).
+In several places in SuperOffice CRM, the history list makes it easy to access the last items you looked at. The history list contains companies, contacts, sales, selections or projects you have previously worked with. The number of records displayed in the history list is defined under [**Preferences**][1].
 
 You can use the history list in different ways:
 
@@ -33,7 +36,7 @@ You can use the history list in different ways:
 3. Click the required company, contact, sale, selection or project to link to the record.
 
 > [!NOTE]
-> You can increase or limit the number of lines in the history list by going to ![icon][img1] **Personal settings** > **Preferences** > **Visual effects** > **Size of history list** and entering the number you require.
+> You can increase or limit the number of lines in the history list by going to ![icon][img1] **Personal settings** > **Preferences** > **Visual effects** > **Size of history list** and entering the number you require (maximum 15).
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
