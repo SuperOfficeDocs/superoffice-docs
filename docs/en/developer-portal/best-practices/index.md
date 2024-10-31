@@ -2,9 +2,10 @@
 uid: app-best-practices
 title: Best practices
 description: Best practices for SuperOffice CRM Online apps
-author: Margrethe Romnes, Anthony Yates
 keywords: apps, best practices, 3rd-party
-date: 09.07.2023
+author: Margrethe Romnes, Anthony Yates
+date: 10.31.2024
+version: 10
 topic: howto
 envir: cloud
 client: online
@@ -174,7 +175,7 @@ However, there are cases where such splitting doesn’t work. The caching works 
 
 #### Count
 
-Don’t ask for counts. Fetching an accurate count means we have to process every row and the database has to process a SELECT COUNT query. Don’t do it unless absolutely necessary.
+Don't ask for counts. Fetching an accurate count means we have to process every row and the database has to process a SELECT COUNT query. Don't do it unless absolutely necessary. Instead, use the [count aggregation][26].
 
 Looking at the following images, notice how using count(id) causes tremendous load on the server and performs badly.
 
@@ -328,6 +329,7 @@ Read about [effective visual design][6].
 [22]: ../../api/authentication/online/api.md#access-tokens
 [23]: ../../api/web-services/webapi/index.md#soticket
 [25]: ../../api/security/sentry/index.md
+[26]: ../../api/archive-providers/data-aggregation.md
 
 [7]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
