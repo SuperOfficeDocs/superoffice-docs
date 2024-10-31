@@ -3,11 +3,13 @@ uid: help-sv-freetext-search-enable
 title: Aktivera fritextsökning
 description: Aktivera fritextsökning
 author: Bergfrid Dias
-date: 03.24.2023
+date: 10.31.2024
+version: 10
 keywords: fritext, söka
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+envir: onsite
 language: sv
 ---
 
@@ -17,7 +19,7 @@ language: sv
 
 1. Markera **Aktivera fritextsökning**.
 
-Som standard är fritextsökning aktiverad, men om ditt företag vill förhindra att tid och plats i systemet används till att uppdatera fritextindexet varje gång något nytt sparas i databasen kan du avmarkera **Aktivera fritextsökning**. Fältet fritextsökning inaktiveras då i SuperOffice CRM.
+Som standard är fritextsökning aktiverad, men om ditt företag vill förhindra att tid och plats i systemet används till att uppdatera fritextindexet varje gång något nytt sparas i databasen kan du avmarkera **Aktivera fritextsökning**. Fältet fritextsökning inaktiveras då i SuperOffice CRM onsite.
 
 <!-- Referenced links -->
 

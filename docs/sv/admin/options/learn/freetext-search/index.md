@@ -2,20 +2,25 @@
 uid: help-sv-settings-freetext-search
 title: Fritextsökning
 description: Fritextsökning
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: fritext, söka
+author: Bergfrid Dias
+date: 10.31.2024
+version: 10
 topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 
 # Fritextsökning
 
-Med funktionen fritextsökning i SuperOffice CRM kan användarna söka efter text i hela programmet. Detta är text som de själva har lagt in i databasen, till exempel företagsnamn, avdelningar och text från fönstren Kontakt och Dokument. Du kan definiera exakt hur detta ska fungera i SuperOffice CRM på den här fliken under Inställningar och underhåll.
+Med funktionen fritextsökning i SuperOffice CRM kan användarna söka efter text i hela programmet. Detta är text som de själva har lagt in i databasen, till exempel företagsnamn, avdelningar och text från fönstren Kontakt och Dokument.
+
+Du kan definiera exakt hur detta ska fungera i SuperOffice CRM på den här fliken under Inställningar och underhåll. Obs: fritextsökning kan endast inaktiveras för onsite-lösningar, inte för online-/cloud-versioner.
 
 ## Vad vill du göra nu?
 
-* [Aktivera fritextsökning][1]
+* [Aktivera fritextsökning (onsite)][1]
 * [Ange sökkriterier][2]
 * [Lägga till stoppord][3]
 * [Återskapa fritextindex][4]

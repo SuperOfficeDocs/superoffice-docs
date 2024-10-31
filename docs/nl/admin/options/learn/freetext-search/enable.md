@@ -2,12 +2,14 @@
 uid: help-nl-freetext-search-enable
 title: Zoeken op vrije tekst inschakelen
 description: Zoeken op vrije tekst inschakelen
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: vrije tekst, zoeken
+author: Bergfrid Dias
+date: 10.31.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+envir: onsite
 language: nl
 ---
 
@@ -17,7 +19,7 @@ language: nl
 
 1. Schakel het selectievakje **Zoeken op vrije tekst inschakelen** in.
 
-Het zoeken op vrije tekst is standaard ingeschakeld. Als uw organisatie echter geen tijd en systeemruimte wil besteden aan het bijwerken van de vrije-tekstindex bij elk nieuw gegeven dat in de database wordt opgeslagen, kunt u het selectievakje **Zoeken op vrije tekst inschakelen** uitschakelen. Hierdoor wordt het veld voor vrije-tekstzoekbewerking in SuperOffice CRM uitgeschakeld.
+Het zoeken op vrije tekst is standaard ingeschakeld. Als uw organisatie echter geen tijd en systeemruimte wil besteden aan het bijwerken van de vrije-tekstindex bij elk nieuw gegeven dat in de database wordt opgeslagen, kunt u het selectievakje **Zoeken op vrije tekst inschakelen** uitschakelen. Hierdoor wordt het veld voor vrije-tekstzoekbewerking in SuperOffice CRM onsite uitgeschakeld.
 
 <!-- Referenced links -->
 
