@@ -2,12 +2,14 @@
 uid: help-en-freetext-search-enable
 title: Enabling freetext search
 description: Enabling freetext search
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: free-text, search
+author: Bergfrid Dias
+date: 10.31.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+envir: onsite
 language: en
 ---
 
@@ -17,7 +19,7 @@ language: en
 
 1. Check **Enable freetext search**.
 
-By default, freetext search is enabled, but if your organization wishes to avoid the system overheads in time and space caused by the freetext index update when new entries are added to the database, you can uncheck **Enable freetext search**. This disables the freetext search field in SuperOffice CRM.
+By default, freetext search is enabled, but if your organization wishes to avoid the system overheads in time and space caused by the freetext index update when new entries are added to the database, you can uncheck **Enable freetext search**. This disables the freetext search field in SuperOffice CRM onsite.
 
 <!-- Referenced links -->
 

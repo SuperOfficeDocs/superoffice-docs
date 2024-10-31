@@ -2,20 +2,25 @@
 uid: help-de-settings-freetext-search
 title: Volltextsuche
 description: Volltextsuche
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: Volltext, Suchen
+author: Bergfrid Dias
+date: 10.31.2024
+version: 10
 topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 
 # Volltextsuche
 
-Mit der Funktion Volltextsuche in SuperOffice CRM können Benutzer die gesamte Anwendung nach Text durchsuchen. Dies gilt für Text, den die Benutzer selbst in die Datenbank eingefügt haben, wie zum Beispiel Firmennamen, Abteilungen und Text aus den Ansichten Person und Dokument. Über diese Registerkarte in Einstellungen und Verwaltung können Sie die Volltextsuche in SuperOffice CRM genau steuern.
+Mit der Funktion Volltextsuche in SuperOffice CRM können Benutzer die gesamte Anwendung nach Text durchsuchen. Dies gilt für Text, den die Benutzer selbst in die Datenbank eingefügt haben, wie zum Beispiel Firmennamen, Abteilungen und Text aus den Ansichten Person und Dokument.
+
+Über diese Registerkarte in Einstellungen und Verwaltung können Sie die Volltextsuche in SuperOffice CRM genau steuern. Die Freitextsuche kann nur für OnSite-Lösungen deaktiviert werden, nicht für online-/cloud-Versionen.
 
 ## Was möchten Sie jetzt tun?
 
-* [Volltextsuche aktivieren][1]
+* [Volltextsuche aktivieren (onsite)][1]
 * [Suchkriterien festlegen][2]
 * [Stoppwörter hinzufügen][3]
 * [Volltextindex neu generieren][4]
