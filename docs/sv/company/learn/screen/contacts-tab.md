@@ -2,10 +2,13 @@
 uid: help-sv-company-screen-contacts
 title: Fliken Kontakter
 description: Fliken Kontakter
+keywords: företag, aktivera användning av mellannamn
 author: SuperOffice RnD
-date: 05.24.2023
-keywords: företag
+date: 10.31.2024
+version: 10
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -38,7 +41,7 @@ Anger hur kontakten ska tilltalas.
 Visar kontaktens namn, titel och mobilnummer.
 
 > [!NOTE]
-> Användning av mellannamn kan aktiveras under Inställningar och underhåll. Om inställningen är aktiverad används efternamnets första del som mellannamn (men sorteras inte på detta). Om inställningen inte är aktiverad kan du ange ett mellannamn i fältet **Förnamn**. Mellannamnet betraktas då som ett andra förnamn.
+> Användning av mellannamn kan aktiveras under **Inställningar och underhåll** > **Inställningar** > **Globala inställningar** > **Funktioner** genom att välja **Aktivera användning av mellannamn**. Om inställningen är aktiverad används efternamnets första del som mellannamn (men sorteras inte på detta). Om inställningen inte är aktiverad kan du ange ett mellannamn i fältet **Förnamn**. Mellannamnet betraktas då som ett andra förnamn.
 
 ### E-post
 
