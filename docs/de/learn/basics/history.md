@@ -3,15 +3,18 @@ uid: help-de-history-list
 title: Verlaufsliste verwenden
 description: Verlaufsliste verwenden
 author: SuperOffice RnD
-date: 08.05.2023
-keywords: Suchen, Verlauf
+keywords: Suchen, Verlaufsliste, Verlauf
+date: 10.31.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Verlaufsliste
 
-Mithilfe der Verlaufsliste können Sie von verschiedenen Ansichten in SuperOffice CRM einfach auf die zuletzt von Ihnen eingeblendeten Objekte zugreifen. Die Verlaufsliste enthält Firmen, Personen, Verkäufe, Selektionen oder Projekte, mit denen Sie zuvor gearbeitet haben. Die Anzahl der in der Verlaufsliste angezeigten Datensätze wird unter **Einstellungen** festgelegt. (Siehe [Einstellungen][1]).
+Mithilfe der Verlaufsliste können Sie von verschiedenen Ansichten in SuperOffice CRM einfach auf die zuletzt von Ihnen eingeblendeten Objekte zugreifen. Die Verlaufsliste enthält Firmen, Personen, Verkäufe, Selektionen oder Projekte, mit denen Sie zuvor gearbeitet haben. Die Anzahl der in der Verlaufsliste angezeigten Datensätze wird unter [**Einstellungen**][1] festgelegt.
 
 Sie können die Verlaufsliste auf unterschiedliche Weise verwenden:
 
@@ -33,7 +36,7 @@ Sie können die Verlaufsliste auf unterschiedliche Weise verwenden:
 3. Klicken Sie auf die gewünschte Firma, die Person, den Verkauf, die Selektion oder das Projekt, um zum entsprechenden Datensatz zu wechseln.
 
 > [!NOTE]
-> Sie können die Zeilenzahl in der Verlaufsliste vergrößern oder einschränken, indem Sie auf ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Optische Effekte** > **Größe der Verlaufsliste** auswählen und die gewünschte Nummer eingeben.
+> Sie können die Zeilenzahl in der Verlaufsliste vergrößern oder einschränken, indem Sie auf ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Optische Effekte** > **Größe der Verlaufsliste** auswählen und die gewünschte Nummer eingeben (maximal 15).
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md

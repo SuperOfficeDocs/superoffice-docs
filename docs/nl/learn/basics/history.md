@@ -2,16 +2,19 @@
 uid: help-nl-history-list
 title: De historielijst gebruiken
 description: De historielijst gebruiken
+keywords: zoeken, historielijst, historie
 author: SuperOffice RnD
-date: 08.05.2023
-keywords: zoeken, historie
+date: 10.31.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # De historielijst
 
-Op verschillende plaatsen in SuperOffice CRM kunt u via de historielijst eenvoudig toegang krijgen tot de laatst gebruikte items. De historielijst geeft bedrijven, personen, verkopen, selecties of projecten weer waarmee u eerder hebt gewerkt. U kunt het aantal records dat wordt weergegeven in de historielijst, definiëren in het dialoogvenster **Voorkeuren**. (Zie [Voorkeuren][1]).
+Op verschillende plaatsen in SuperOffice CRM kunt u via de historielijst eenvoudig toegang krijgen tot de laatst gebruikte items. De historielijst geeft bedrijven, personen, verkopen, selecties of projecten weer waarmee u eerder hebt gewerkt. U kunt het aantal records dat wordt weergegeven in de historielijst, definiëren in het dialoogvenster [**Voorkeuren**][1].
 
 U kunt de historielijst op diverse manieren gebruiken:
 
@@ -33,7 +36,7 @@ U kunt de historielijst op diverse manieren gebruiken:
 3. Klik op het gewenste bedrijf, de persoon, de verkoop, het project of de selectie om aan de record te koppelen.
 
 > [!NOTE]
-> U kunt het aantal regels in de historielijst verhogen of beperken door naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Visuele effecten** > **Omvang historielijst** te gaan en het gewenste aantal in te voeren.
+> U kunt het aantal regels in de historielijst verhogen of beperken door naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Visuele effecten** > **Omvang historielijst** te gaan en het gewenste aantal in te voeren (maximaal 15).
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
