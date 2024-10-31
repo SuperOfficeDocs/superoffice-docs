@@ -2,10 +2,13 @@
 uid: help-da-company-screen-contacts
 title: Fanen Kontaktpersoner
 description: Fanen Kontaktpersoner
+keywords: firma, aktiver brug af mellemnavn
 author: SuperOffice RnD
-date: 05.24.2023
-keywords: firma
+date: 10.31.2024
+version: 10
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -38,7 +41,7 @@ Viser, hvordan personen skal adresseres.
 Viser personens navn, titel og mobiltelefonnummer.
 
 > [!NOTE]
-> Brug af mellemnavne kan aktiveres i Indstillinger og vedligeholdelse. Hvis indstillingen er aktiveret, bruges den første del af efternavnet som mellemnavn (men sorteres ikke efter). Hvis indstillingen ikke er aktiveret, kan du indtaste et mellemnavn i feltet **Fornavn**, og mellemnavnet vil derefter blive betragtet som et andet fornavn.
+> Brug af mellemnavne kan aktiveres i **Indstillinger og vedligeholdelse** > **Præferencer** > **Globale præferencer** > **Funktioner** ved at vælge **Aktiver brug af mellemnavn**. Hvis indstillingen er aktiveret, bruges den første del af efternavnet som mellemnavn (men sorteres ikke efter). Hvis indstillingen ikke er aktiveret, kan du indtaste et mellemnavn i feltet **Fornavn**, og mellemnavnet vil derefter blive betragtet som et andet fornavn.
 
 ### E-mail
 

@@ -2,10 +2,13 @@
 uid: help-de-company-screen-contacts
 title: Registerkarte Personen
 description: Registerkarte Personen
+keywords: Firma, zweiten Vornamen zulassen
 author: SuperOffice RnD
-date: 05.24.2023
-keywords: Firma
+date: 10.31.2024
+version: 10
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -38,7 +41,7 @@ Gibt an, wie die Person angesprochen werden soll.
 Zeigt Namen, Titel und die Mobiltelefonnummer der Person an.
 
 > [!NOTE]
-> Die Verwendung von zweiten Vornamen kann in Einstellungen und Verwaltung aktiviert werden. Wenn die Einstellung aktiviert wurde, wird der erste Teil des Nachnamens als zweiter Vorname verwendet (aber nicht sortiert). Ist die Einstellung deaktiviert, können Sie im Feld **Vorname** einen zweiten Vornamen eingeben, und der zweite Vorname wird dann als solcher angesehen.
+> Die Verwendung von zweiten Vornamen kann in **Einstellungen und Verwaltung** > **Einstellungen** > **Globale Einstellungen** > **Funktionen** aktiviert werden, indem Sie **Zweiten Vornamen zulassen** auswählen. Wenn die Einstellung aktiviert wurde, wird der erste Teil des Nachnamens als zweiter Vorname verwendet (aber nicht sortiert). Ist die Einstellung deaktiviert, können Sie im Feld **Vorname** einen zweiten Vornamen eingeben, und der zweite Vorname wird dann als solcher angesehen.
 
 ### E-Mail
 

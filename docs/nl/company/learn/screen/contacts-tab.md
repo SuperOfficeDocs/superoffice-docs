@@ -2,10 +2,13 @@
 uid: help-nl-company-screen-contacts
 title: Tabblad Contactpersonen
 description: Tabblad Contactpersonen
+keywords: bedrijf, gebrüik tussenvoegsel inschakeln
 author: SuperOffice RnD
-date: 05.24.2023
-keywords: bedrijf
+date: 10.31.2024
+version: 10
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -38,7 +41,7 @@ Geeft aan hoe de contactpersoon moet worden aangesproken.
 Hier worden de naam, de functie en het mobiele nummer van de persoon weergegeven.
 
 > [!NOTE]
-> Het gebruik van tussenvoegsels kan worden ingeschakeld in Instellingen en onderhoud. Als de voorkeur is ingeschakeld, wordt het eerste deel van de achternaam gebruikt als het tussenvoegsel (maar er wordt niet op gesorteerd). Als de voorkeur niet is ingeschakeld, kunt u een voorvoegsel invoeren in het veld **Voornaam**, zodat het voorvoegsel als een tweede voornaam wordt beschouwd.
+> Het gebruik van tussenvoegsels kan worden ingeschakeld in **Instellingen en onderhoud** > **Voorkeuren** > **Globale voorkeuren** > **Functies** door **Gebrüik tussenvoegsel inschakeln** te selecteren. Als de voorkeur is ingeschakeld, wordt het eerste deel van de achternaam gebruikt als het tussenvoegsel (maar er wordt niet op gesorteerd). Als de voorkeur niet is ingeschakeld, kunt u een voorvoegsel invoeren in het veld **Voornaam**, zodat het voorvoegsel als een tweede voornaam wordt beschouwd.
 
 ### E-mail
 

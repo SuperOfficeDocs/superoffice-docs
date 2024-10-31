@@ -2,10 +2,13 @@
 uid: help-no-company-screen-contacts
 title: Personer-fane
 description: Personer-fane
+keywords: firma, aktiver bruk av mellomnavn
 author: SuperOffice RnD
-date: 05.24.2023
-keywords: firma
+date: 10.31.2024
+version: 10
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -38,7 +41,7 @@ Viser den aktuelle personens Hr/Fr-titulering, hvis personen bruker det.
 Viser personens navn, tittel og mobilnummer.
 
 > [!NOTE]
-> Bruk av mellomnavn kan aktiveres i Innstillinger og vedlikehold. Hvis preferansen aktiveres, brukes den første delen av etternavnet som mellomnavn (uten at det sorteres på mellomnavnet). Hvis preferansen ikke er aktivert, må du skrive inn eventuelle mellomnavn i **Fornavn**-feltet, og mellomnavnet vil da oppfattes som et andre fornavn.
+> Bruk av mellomnavn kan aktiveres i **Innstillinger og vedlikehold** > **Preferanser** > **Globale preferanser** > **Funksjoner** ved å velge **Aktiver bruk av mellomnavn**. Hvis preferansen aktiveres, brukes den første delen av etternavnet som mellomnavn (uten at det sorteres på mellomnavnet). Hvis preferansen ikke er aktivert, må du skrive inn eventuelle mellomnavn i **Fornavn**-feltet, og mellomnavnet vil da oppfattes som et andre fornavn.
 
 ### E-post
 

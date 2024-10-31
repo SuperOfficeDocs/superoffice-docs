@@ -2,10 +2,13 @@
 uid: help-en-company-screen-contacts
 title: Contacts tab
 description: Contacts tab
+keywords: company, enable middle name
 author: SuperOffice RnD
-date: 05.24.2023
-keywords: company
+date: 10.31.2024
+version: 10
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -38,7 +41,7 @@ Shows how the contact should be addressed.
 Displays the contact's name, title and mobile phone number.
 
 > [!NOTE]
-> Use of middle names can be enabled in Settings and maintenance. If the preference is enabled, the first part of the last name is used as the middle name (but is not sorted on). If the preference is not enabled, you may enter a middle name in the **First name** field, and the middle name will then be considered as a second first name.
+> Use of middle names can be enabled in **Settings and maintenance** > **Preference** > **Global preferences** > **Functions** by selecting **Enable middle name**. If the preference is enabled, the first part of the last name is used as the middle name (but is not sorted on). If the preference is not enabled, you may enter a middle name in the **First name** field, and the middle name will then be considered as a second first name.
 
 ### Email
 
