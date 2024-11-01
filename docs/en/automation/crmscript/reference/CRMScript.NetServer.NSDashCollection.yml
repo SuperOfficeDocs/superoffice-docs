@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDashCollection
+  commentId: T:CRMScript.NetServer.NSDashCollection
+  id: NSDashCollection
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDashCollection.#ctor
+  - CRMScript.NetServer.NSDashCollection.GetFavourites()
+  - CRMScript.NetServer.NSDashCollection.GetPinned()
+  - CRMScript.NetServer.NSDashCollection.GetOther() 
+  - CRMScript.NetServer.NSDashCollection.SetFavourites(NSDash[])
+  - CRMScript.NetServer.NSDashCollection.SetPinned(NSDash[])
+  - CRMScript.NetServer.NSDashCollection.SetOther(NSDash[])
+  name: NSDashCollection
+  nameWithType: NSDashCollection
+  fullName: CRMScript.NetServer.NSDashCollection
+  type: Class
+  summary: "\nCarrier object for NSDashCollection.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDashCollection.#ctor
+  commentId: M:CRMScript.NetServer.NSDashCollection.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDashCollection
+  langs:
+  - crmscript
+  name: NSDashCollection()
+  nameWithType: NSDashCollection.#ctor
+  fullName: CRMScript.NetServer.NSDashCollection.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDashCollection class.\n"
+  remarks: 
+  syntax: 
+    content: NSDashCollection
+  example: 
+- uid: CRMScript.NetServer.NSDashCollection.GetFavourites()
+  commentId: M:CRMScript.NetServer.NSDashCollection.GetFavourites()
+  id: 'GetFavourites()'
+  so.intellisense: NSDashCollection.GetFavourites
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetFavourites()'
+  nameWithType: NSDashCollection.GetFavourites()
+  fullName: CRMScript.NetServer.NSDashCollection.GetFavourites()
+  type: Method
+  summary: "\nReturns the associates favourite dashboards.\n"
+  remarks: 
+  syntax: 
+    content: NSDash[] GetPinForAssociates()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDash[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashCollection.GetPinned()
+  commentId: M:CRMScript.NetServer.NSDashCollection.GetPinned()
+  id: 'GetPinned()'
+  so.intellisense: NSDashCollection.GetPinned
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetPinned()'
+  nameWithType: NSDashCollection.GetPinned()
+  fullName: CRMScript.NetServer.NSDashCollection.GetPinned()
+  type: Method
+  summary: "\nReturns dashboards pinned to the associate.\n"
+  remarks: 
+  syntax: 
+    content: NSDash[] GetPinned()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDash[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashCollection.GetOther()
+  commentId: M:CRMScript.NetServer.NSDashCollection.GetOther()
+  id: 'GetOther()'
+  so.intellisense: NSDashCollection.GetOther
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetOther()'
+  nameWithType: NSDashCollection.GetOther()
+  fullName: CRMScript.NetServer.NSDashCollection.GetOther()
+  type: Method
+  summary: "\nReturns other dashboards.\n"
+  remarks: 
+  syntax: 
+    content: NSDash[] GetOther()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDash[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashCollection.SetFavourites(NSDash[])
+  commentId: M:CRMScript.NetServer.NSDashCollection.SetFavourites(NSDash[])
+  id: 'SetFavourites(NSDash[])'
+  so.intellisense: NSDashCollection.SetFavourites
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetFavourites(NSDash[])'
+  nameWithType: NSDashCollection.SetFavourites(NSDash[])
+  fullName: CRMScript.NetServer.NSDashCollection.SetFavourites(NSDash[])
+  type: Method
+  summary: "\nSet associates favourite dashboards.\n"
+  remarks: 
+  syntax: 
+    content: Void SetFavourites(NSDash[] dashboards)
+    parameters: 
+    - id: dashboards
+      type: CRMScript.NetServer.NSDash[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashCollection.SetPinned(NSDash[])
+  commentId: M:CRMScript.NetServer.NSDashCollection.SetPinned(NSDash[])
+  id: 'SetPinned(NSDash[])'
+  so.intellisense: NSDashCollection.SetPinned
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetPinned(NSDash[])'
+  nameWithType: NSDashCollection.SetPinned(NSDash[])
+  fullName: CRMScript.NetServer.NSDashCollection.SetPinned(NSDash[])
+  type: Method
+  summary: "\nSets dashboards pinned to the associate.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPinned(NSDash[] dashboards)
+    parameters: 
+    - id: dashboards
+      type: CRMScript.NetServer.NSDash[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashCollection.SetOther(NSDash[])
+  commentId: M:CRMScript.NetServer.NSDashCollection.SetOther(NSDash[])
+  id: 'SetOther(NSDash[])'
+  so.intellisense: NSDashCollection.SetOther
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetOther(NSDash[])'
+  nameWithType: NSDashCollection.SetOther(NSDash[])
+  fullName: CRMScript.NetServer.NSDashCollection.SetOther(NSDash[])
+  type: Method
+  summary: "\nSets other dashboards.\n"
+  remarks: 
+  syntax: 
+    content: Void SetOther(NSDash[] dashboards)
+    parameters: 
+    - id: dashboards
+      type: CRMScript.NetServer.NSDash[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDash[]
+  commentId: T:CRMScript.NetServer.NSDash[]
+  isExternal: true
+  name: NSDash[]
+  nameWithType: NSDash[]
+  fullName: CRMScript.NetServer.NSDash[]
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -144,6 +144,13 @@ items:
   - CRMScript.NetServer.NSCustomerLanguage
   - CRMScript.NetServer.NSCustomerServiceAgent
   - CRMScript.NetServer.NSCustomerServiceStartup
+  - CRMScript.NetServer.NSDash
+  - CRMScript.NetServer.NSDashAgent
+  - CRMScript.NetServer.NSDashCollection
+  - CRMScript.NetServer.NSDashTheme
+  - CRMScript.NetServer.NSDashTile
+  - CRMScript.NetServer.NSDashTileDefinition
+  - CRMScript.NetServer.NSDashTileHtml
   - CRMScript.NetServer.NSDataRight
   - CRMScript.NetServer.NSDataRights
   - CRMScript.NetServer.NSDayInformationListItem
@@ -264,6 +271,8 @@ items:
   - CRMScript.NetServer.NSPreferenceDescription
   - CRMScript.NetServer.NSPreferenceDescriptionLine
   - CRMScript.NetServer.NSPreferenceSpec
+  - CRMScript.NetServer.NSPreviewDash
+  - CRMScript.NetServer.NSPreviewDashTile
   - CRMScript.NetServer.NSPreviewMailing
   - CRMScript.NetServer.NSPreviewMailingHeader
   - CRMScript.NetServer.NSPreviews
