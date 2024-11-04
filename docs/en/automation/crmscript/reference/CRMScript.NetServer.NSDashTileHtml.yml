@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDashTileHtml
+  commentId: T:CRMScript.NetServer.NSDashTileHtml
+  id: NSDashTileHtml
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDashTileHtml.#ctor
+  - CRMScript.NetServer.NSDashTileHtml.GetLanguageCode()
+  - CRMScript.NetServer.NSDashTileHtml.GetHtml()
+  - CRMScript.NetServer.NSDashTileHtml.SetLanguageCode(String)
+  - CRMScript.NetServer.NSDashTileHtml.SetHtml(String)
+  name: NSDashTileHtml
+  nameWithType: NSDashTileHtml
+  fullName: CRMScript.NetServer.NSDashTileHtml
+  type: Class
+  summary: "\nRepresents an HTML tile within a dashboard with language and HTML content settings.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDashTileHtml.#ctor
+  commentId: M:CRMScript.NetServer.NSDashTileHtml.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDashTileHtml
+  langs:
+  - crmscript
+  name: NSDashTileHtml()
+  nameWithType: NSDashTileHtml.#ctor
+  fullName: CRMScript.NetServer.NSDashTileHtml.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDashTileHtml class.\n"
+  remarks: 
+  syntax: 
+    content: NSDashTileHtml
+  example: 
+- uid: CRMScript.NetServer.NSDashTileHtml.GetLanguageCode()
+  commentId: M:CRMScript.NetServer.NSDashTileHtml.GetLanguageCode
+  id: 'GetLanguageCode()'
+  so.intellisense: NSDashTileHtml.GetLanguageCode
+  langs:
+  - crmscript
+  name: 'GetLanguageCode()'
+  nameWithType: NSDashTileHtml.GetLanguageCode()
+  fullName: CRMScript.NetServer.NSDashTileHtml.GetLanguageCode()
+  type: Method
+  summary: "\nGets the content language code for the HTML dashboard tile.\n"
+  syntax:
+    content: String GetLanguageCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Language code for the content in the HTML tile.
+  example: 
+- uid: CRMScript.NetServer.NSDashTileHtml.SetLanguageCode(String)
+  commentId: M:CRMScript.NetServer.NSDashTileHtml.SetLanguageCode(String)
+  id: 'SetLanguageCode(String)'
+  so.intellisense: NSDashTileHtml.SetLanguageCode
+  langs:
+  - crmscript
+  name: 'SetLanguageCode(String)'
+  nameWithType: NSDashTileHtml.SetLanguageCode(String)
+  fullName: CRMScript.NetServer.NSDashTileHtml.SetLanguageCode(String)
+  type: Method
+  summary: "\nSets the content language code for the HTML dashboard tile.\n"
+  syntax:
+    content: Void SetLanguageCode(String languageCode)
+    parameters:
+    - id: languageCode
+      type: CRMScript.Global.String
+      description: Language code to assign to the content in the HTML tile.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTileHtml.GetHtml()
+  commentId: M:CRMScript.NetServer.NSDashTileHtml.GetHtml
+  id: 'GetHtml()'
+  so.intellisense: NSDashTileHtml.GetHtml
+  langs:
+  - crmscript
+  name: 'GetHtml()'
+  nameWithType: NSDashTileHtml.GetHtml()
+  fullName: CRMScript.NetServer.NSDashTileHtml.GetHtml()
+  type: Method
+  summary: "\nGets the HTML content of the dashboard tile.\n"
+  syntax:
+    content: String GetHtml()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: HTML content of the tile.
+  example: 
+- uid: CRMScript.NetServer.NSDashTileHtml.SetHtml(String)
+  commentId: M:CRMScript.NetServer.NSDashTileHtml.SetHtml(String)
+  id: 'SetHtml(String)'
+  so.intellisense: NSDashTileHtml.SetHtml
+  langs:
+  - crmscript
+  name: 'SetHtml(String)'
+  nameWithType: NSDashTileHtml.SetHtml(String)
+  fullName: CRMScript.NetServer.NSDashTileHtml.SetHtml(String)
+  type: Method
+  summary: "\nSets the HTML content for the dashboard tile.\n"
+  syntax:
+    content: Void SetHtml(String htmlContent)
+    parameters:
+    - id: htmlContent
+      type: CRMScript.Global.String
+      description: HTML content to set for the tile.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDashTileHtml
+  commentId: T:CRMScript.NetServer.NSDashTileHtml
+  isExternal: true
+  name: NSDashTileHtml
+  nameWithType: CRMScript.NetServer.NSDashTileHtml
+  fullName: CRMScript.NetServer.NSDashTileHtml
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String

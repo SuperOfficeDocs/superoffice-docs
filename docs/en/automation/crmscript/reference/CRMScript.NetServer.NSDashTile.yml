@@ -1,0 +1,320 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDashTile
+  commentId: T:CRMScript.NetServer.NSDashTile
+  id: NSDashTile
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDashTile.#ctor
+  - CRMScript.NetServer.NSDashTile.GetDashboardId()
+  - CRMScript.NetServer.NSDashTile.GetDashboardTileId()
+  - CRMScript.NetServer.NSDashTile.GetDashTileDefinition()
+  - CRMScript.NetServer.NSDashTile.GetHeight()
+  - CRMScript.NetServer.NSDashTile.GetRank()
+  - CRMScript.NetServer.NSDashTile.GetWidth()
+  - CRMScript.NetServer.NSDashTile.SetDashboardId(Integer)
+  - CRMScript.NetServer.NSDashTile.SetDashboardTileId(Integer)
+  - CRMScript.NetServer.NSDashTile.SetDashTileDefinition(NSDashTileDefinition)
+  - CRMScript.NetServer.NSDashTile.SetHeight(Integer)
+  - CRMScript.NetServer.NSDashTile.SetRank(Integer)
+  - CRMScript.NetServer.NSDashTile.SetWidth(Integer)
+  name: NSDashTile
+  nameWithType: NSDashTile
+  fullName: CRMScript.NetServer.NSDashTile
+  type: Class
+  summary: "\nRepresents a tile in a dashboard configuration.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.#ctor
+  commentId: M:CRMScript.NetServer.NSDashTile.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDashTile
+  langs:
+  - crmscript
+  name: NSDashTile()
+  nameWithType: NSDashTile.#ctor
+  fullName: CRMScript.NetServer.NSDashTile.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDashTile class.\n"
+  remarks: 
+  syntax: 
+    content: NSDashTile
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.GetDashboardId()
+  commentId: M:CRMScript.NetServer.NSDashTile.GetDashboardId
+  id: 'GetDashboardId()'
+  so.intellisense: NSDashTile.GetDashboardId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetDashboardId()'
+  nameWithType: NSDashTile.GetDashboardId()
+  fullName: CRMScript.NetServer.NSDashTile.GetDashboardId()
+  type: Method
+  summary: "\nGets the ID of the associated dashboard.\n"
+  syntax: 
+    content: Integer GetDashboardId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.GetDashboardTileId()
+  commentId: M:CRMScript.NetServer.NSDashTile.GetDashboardTileId
+  id: 'GetDashboardTileId()'
+  so.intellisense: NSDashTile.GetDashboardTileId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetDashboardTileId()'
+  nameWithType: NSDashTile.GetDashboardTileId()
+  fullName: CRMScript.NetServer.NSDashTile.GetDashboardTileId()
+  type: Method
+  summary: "\nGets the primary key ID of the dashboard tile.\n"
+  syntax: 
+    content: Integer GetDashboardTileId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.GetDashTileDefinition()
+  commentId: M:CRMScript.NetServer.NSDashTile.GetDashTileDefinition
+  id: 'GetDashTileDefinition()'
+  so.intellisense: NSDashTile.GetDashTileDefinition
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetDashTileDefinition()'
+  nameWithType: NSDashTile.GetDashTileDefinition()
+  fullName: CRMScript.NetServer.NSDashTile.GetDashTileDefinition()
+  type: Method
+  summary: "\nGets the tile definition entity.\n"
+  syntax: 
+    content: NSDashTileDefinition GetDashTileDefinition()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDashTileDefinition
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.GetHeight()
+  commentId: M:CRMScript.NetServer.NSDashTile.GetHeight
+  id: 'GetHeight()'
+  so.intellisense: NSDashTile.GetHeight
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetHeight()'
+  nameWithType: NSDashTile.GetHeight()
+  fullName: CRMScript.NetServer.NSDashTile.GetHeight()
+  type: Method
+  summary: "\nGets the height of the tile in the dashboard.\n"
+  syntax: 
+    content: Integer GetHeight()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.GetRank()
+  commentId: M:CRMScript.NetServer.NSDashTile.GetRank
+  id: 'GetRank()'
+  so.intellisense: NSDashTile.GetRank
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSDashTile.GetRank()
+  fullName: CRMScript.NetServer.NSDashTile.GetRank()
+  type: Method
+  summary: "\nGets the rank order of the tile.\n"
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.GetWidth()
+  commentId: M:CRMScript.NetServer.NSDashTile.GetWidth
+  id: 'GetWidth()'
+  so.intellisense: NSDashTile.GetWidth
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetWidth()'
+  nameWithType: NSDashTile.GetWidth()
+  fullName: CRMScript.NetServer.NSDashTile.GetWidth()
+  type: Method
+  summary: "\nGets the width of the tile in the dashboard.\n"
+  syntax: 
+    content: Integer GetWidth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.SetDashboardId(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTile.SetDashboardId
+  id: 'SetDashboardId(Integer)'
+  so.intellisense: NSDashTile.SetDashboardId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetDashboardId(Integer)'
+  nameWithType: NSDashTile.SetDashboardId(Integer)
+  fullName: CRMScript.NetServer.NSDashTile.SetDashboardId(Integer)
+  type: Method
+  summary: "\nSets the ID of the associated dashboard.\n"
+  syntax: 
+    content: Void SetDashboardId(Integer dashboardId)
+    parameters: 
+    - id: dashboardId
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.SetDashboardTileId(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTile.SetDashboardTileId
+  id: 'SetDashboardTileId(Integer)'
+  so.intellisense: NSDashTile.SetDashboardTileId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetDashboardTileId(Integer)'
+  nameWithType: NSDashTile.SetDashboardTileId(Integer)
+  fullName: CRMScript.NetServer.NSDashTile.SetDashboardTileId(Integer)
+  type: Method
+  summary: "\nSets the primary key ID of the dashboard tile.\n"
+  syntax: 
+    content: Void SetDashboardTileId(Integer tileId)
+    parameters: 
+    - id: tileId
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.SetDashTileDefinition(NSDashTileDefinition)
+  commentId: M:CRMScript.NetServer.NSDashTile.SetDashTileDefinition
+  id: 'SetDashTileDefinition(NSDashTileDefinition)'
+  so.intellisense: NSDashTile.SetDashTileDefinition
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetDashTileDefinition(NSDashTileDefinition)'
+  nameWithType: NSDashTile.SetDashTileDefinition(NSDashTileDefinition)
+  fullName: CRMScript.NetServer.NSDashTile.SetDashTileDefinition(NSDashTileDefinition)
+  type: Method
+  summary: "\nSets the tile definition entity.\n"
+  syntax: 
+    content: Void SetDashTileDefinition(NSDashTileDefinition definition)
+    parameters: 
+    - id: definition
+      type: CRMScript.NetServer.NSDashTileDefinition
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.SetHeight(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTile.SetHeight
+  id: 'SetHeight(Integer)'
+  so.intellisense: NSDashTile.SetHeight
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetHeight(Integer)'
+  nameWithType: NSDashTile.SetHeight(Integer)
+  fullName: CRMScript.NetServer.NSDashTile.SetHeight(Integer)
+  type: Method
+  summary: "\nSets the height of the tile in the dashboard.\n"
+  syntax: 
+    content: Void SetHeight(Integer height)
+    parameters: 
+    - id: height
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTile.SetRank
+  id: 'SetRank(Integer)'
+  so.intellisense: NSDashTile.SetRank
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSDashTile.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSDashTile.SetRank(Integer)
+  type: Method
+  summary: "\nSets the rank order of the tile.\n"
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters: 
+    - id: rank
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTile.SetWidth(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTile.SetWidth
+  id: 'SetWidth(Integer)'
+  so.intellisense: NSDashTile.SetWidth
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetWidth(Integer)'
+  nameWithType: NSDashTile.SetWidth(Integer)
+  fullName: CRMScript.NetServer.NSDashTile.SetWidth(Integer)
+  type: Method
+  summary: "\nSets the width of the tile in the dashboard.\n"
+  syntax: 
+    content: Void SetWidth(Integer width)
+    parameters: 
+    - id: width
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDashTile
+  commentId: T:CRMScript.NetServer.NSDashTile
+  isExternal: true
+  name: NSDashTile
+  nameWithType: CRMScript.NetServer.NSDashTile
+  fullName: CRMScript.NetServer.NSDashTile
+- uid: CRMScript.NetServer.NSDashTileDefinition
+  commentId: T:CRMScript.NetServer.NSDashTileDefinition
+  isExternal: true
+  name: NSDashTileDefinition
+  nameWithType: NSDashTileDefinition
+  fullName: CRMScript.NetServer.NSDashTileDefinition
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

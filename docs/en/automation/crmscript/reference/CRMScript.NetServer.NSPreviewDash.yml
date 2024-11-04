@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPreviewDash
+  commentId: T:CRMScript.NetServer.NSPreviewDash
+  id: NSPreviewDash
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPreviewDash.#ctor
+  - CRMScript.NetServer.NSPreviewDash.GetDashboardId()
+  - CRMScript.NetServer.NSPreviewDash.GetDescription()
+  - CRMScript.NetServer.NSPreviewDash.GetName()
+  - CRMScript.NetServer.NSPreviewDash.GetOwnedByFullName()
+  - CRMScript.NetServer.NSPreviewDash.GetRegistered()
+  - CRMScript.NetServer.NSPreviewDash.GetTiles()
+  - CRMScript.NetServer.NSPreviewDash.SetDashboardId(Integer)
+  - CRMScript.NetServer.NSPreviewDash.SetDescription(String)
+  - CRMScript.NetServer.NSPreviewDash.SetName(String)
+  - CRMScript.NetServer.NSPreviewDash.SetOwnedByFullName(String)
+  - CRMScript.NetServer.NSPreviewDash.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSPreviewDash.SetTiles(NSPreviewDashTile[])
+  name: NSPreviewDash
+  nameWithType: NSPreviewDash
+  fullName: CRMScript.NetServer.NSPreviewDash
+  type: Class
+  summary: "\nRepresents a preview of a dashboard.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.#ctor
+  commentId: M:CRMScript.NetServer.NSPreviewDash.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPreviewDash
+  langs:
+  - crmscript
+  name: NSPreviewDash()
+  nameWithType: NSPreviewDash.#ctor
+  fullName: CRMScript.NetServer.NSPreviewDash.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPreviewDash class.\n"
+  remarks: 
+  syntax: 
+    content: NSPreviewDash
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.GetDashboardId()
+  commentId: M:CRMScript.NetServer.NSPreviewDash.GetDashboardId
+  id: 'GetDashboardId()'
+  so.intellisense: NSPreviewDash.GetDashboardId
+  langs:
+  - crmscript
+  name: 'GetDashboardId()'
+  nameWithType: NSPreviewDash.GetDashboardId()
+  fullName: CRMScript.NetServer.NSPreviewDash.GetDashboardId()
+  type: Method
+  summary: "\nGets the primary key ID of the dashboard.\n"
+  syntax:
+    content: Integer GetDashboardId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Primary key ID of the dashboard.
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.SetDashboardId(Integer)
+  commentId: M:CRMScript.NetServer.NSPreviewDash.SetDashboardId(Integer)
+  id: 'SetDashboardId(Integer)'
+  so.intellisense: NSPreviewDash.SetDashboardId
+  langs:
+  - crmscript
+  name: 'SetDashboardId(Integer)'
+  nameWithType: NSPreviewDash.SetDashboardId(Integer)
+  fullName: CRMScript.NetServer.NSPreviewDash.SetDashboardId(Integer)
+  type: Method
+  summary: "\nSets the primary key ID for the dashboard.\n"
+  syntax:
+    content: Void SetDashboardId(Integer dashboardId)
+    parameters:
+    - id: dashboardId
+      type: CRMScript.Global.Integer
+      description: ID to set as the dashboard primary key.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.GetDescription()
+  commentId: M:CRMScript.NetServer.NSPreviewDash.GetDescription
+  id: 'GetDescription()'
+  so.intellisense: NSPreviewDash.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSPreviewDash.GetDescription()
+  fullName: CRMScript.NetServer.NSPreviewDash.GetDescription()
+  type: Method
+  summary: "\nGets the detailed description of the dashboard.\n"
+  syntax:
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Description of the dashboard.
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSPreviewDash.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSPreviewDash.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSPreviewDash.SetDescription(String)
+  fullName: CRMScript.NetServer.NSPreviewDash.SetDescription(String)
+  type: Method
+  summary: "\nSets a detailed description for the dashboard.\n"
+  syntax:
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: Detailed description for the dashboard.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.GetName()
+  commentId: M:CRMScript.NetServer.NSPreviewDash.GetName
+  id: 'GetName()'
+  so.intellisense: NSPreviewDash.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSPreviewDash.GetName()
+  fullName: CRMScript.NetServer.NSPreviewDash.GetName()
+  type: Method
+  summary: "\nGets the name of the dashboard.\n"
+  syntax:
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Name of the dashboard.
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.SetName(String)
+  commentId: M:CRMScript.NetServer.NSPreviewDash.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSPreviewDash.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSPreviewDash.SetName(String)
+  fullName: CRMScript.NetServer.NSPreviewDash.SetName(String)
+  type: Method
+  summary: "\nSets the name of the dashboard.\n"
+  syntax:
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: Name to assign to the dashboard.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.GetOwnedByFullName()
+  commentId: M:CRMScript.NetServer.NSPreviewDash.GetOwnedByFullName
+  id: 'GetOwnedByFullName()'
+  so.intellisense: NSPreviewDash.GetOwnedByFullName
+  langs:
+  - crmscript
+  name: 'GetOwnedByFullName()'
+  nameWithType: NSPreviewDash.GetOwnedByFullName()
+  fullName: CRMScript.NetServer.NSPreviewDash.GetOwnedByFullName()
+  type: Method
+  summary: "\nGets the full name of the dashboard owner.\n"
+  syntax:
+    content: String GetOwnedByFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Full name of the dashboard owner.
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.SetOwnedByFullName(String)
+  commentId: M:CRMScript.NetServer.NSPreviewDash.SetOwnedByFullName(String)
+  id: 'SetOwnedByFullName(String)'
+  so.intellisense: NSPreviewDash.SetOwnedByFullName
+  langs:
+  - crmscript
+  name: 'SetOwnedByFullName(String)'
+  nameWithType: NSPreviewDash.SetOwnedByFullName(String)
+  fullName: CRMScript.NetServer.NSPreviewDash.SetOwnedByFullName(String)
+  type: Method
+  summary: "\nSets the full name of the dashboard owner.\n"
+  syntax:
+    content: Void SetOwnedByFullName(String ownerFullName)
+    parameters:
+    - id: ownerFullName
+      type: CRMScript.Global.String
+      description: Full name of the dashboard owner.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSPreviewDash.GetRegistered
+  id: 'GetRegistered()'
+  so.intellisense: NSPreviewDash.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSPreviewDash.GetRegistered()
+  fullName: CRMScript.NetServer.NSPreviewDash.GetRegistered()
+  type: Method
+  summary: "\nGets the registration date of the dashboard.\n"
+  syntax:
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: Date the dashboard was registered.
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSPreviewDash.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSPreviewDash.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSPreviewDash.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSPreviewDash.SetRegistered(DateTime)
+  type: Method
+  summary: "\nSets the registration date for the dashboard.\n"
+  syntax:
+    content: Void SetRegistered(DateTime registeredDate)
+    parameters:
+    - id: registeredDate
+      type: CRMScript.Global.DateTime
+      description: Date to set as registration for the dashboard.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.GetTiles()
+  commentId: M:CRMScript.NetServer.NSPreviewDash.GetTiles
+  id: 'GetTiles()'
+  so.intellisense: NSPreviewDash.GetTiles
+  langs:
+  - crmscript
+  name: 'GetTiles()'
+  nameWithType: NSPreviewDash.GetTiles()
+  fullName: CRMScript.NetServer.NSPreviewDash.GetTiles()
+  type: Method
+  summary: "\nGets the dashboard tiles.\n"
+  syntax:
+    content: NSPreviewDashTile[] GetTiles()
+    parameters: []
+    return:
+      type: RMScript.NetServer.NSPreviewDashTile[]
+      description: Array of tiles in the dashboard.
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDash.SetTiles(NSPreviewDashTile[])
+  commentId: M:CRMScript.NetServer.NSPreviewDash.SetTiles(NSPreviewDashTile[])
+  id: 'SetTiles(NSPreviewDashTile[])'
+  so.intellisense: NSPreviewDash.SetTiles
+  langs:
+  - crmscript
+  name: 'SetTiles(NSPreviewDashTile[])'
+  nameWithType: NSPreviewDash.SetTiles(NSPreviewDashTile[])
+  fullName: CRMScript.NetServer.NSPreviewDash.SetTiles(NSPreviewDashTile[])
+  type: Method
+  summary: "\nSets the dashboard tiles.\n"
+  syntax:
+    content: Void SetTiles(NSPreviewDashTile[] tiles)
+    parameters:
+    - id: tiles
+      type: CRMScript.NetServer.NSPreviewDashTile[]
+      description: Array of tiles to set in the dashboard.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.NetServer.NSPreviewDash
+  commentId: T:CRMScript.NetServer.NSPreviewDash
+  isExternal: true
+  name: NSPreviewDash
+  nameWithType: CRMScript.NetServer.NSPreviewDash
+  fullName: CRMScript.NetServer.NSPreviewDash
+- uid: CRMScript.NetServer.NSPreviewDashTile[]
+  commentId: T:CRMScript.NetServer.NSPreviewDashTile[]
+  isExternal: true
+  name: NSPreviewDashTile[]
+  nameWithType: NSPreviewDashTile[]
+  fullName: CRMScript.NetServer.NSPreviewDashTile[]
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime

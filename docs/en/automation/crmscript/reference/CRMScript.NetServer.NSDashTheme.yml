@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDashTheme
+  commentId: T:CRMScript.NetServer.NSDashTheme
+  id: NSDashTheme
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDashTheme.#ctor
+  - CRMScript.NetServer.NSDashTheme.GetClient()
+  - CRMScript.NetServer.NSDashTheme.GetConfig()
+  - CRMScript.NetServer.NSDashTheme.GetDashboardThemeId()
+  - CRMScript.NetServer.NSDashTheme.GetName()
+  - CRMScript.NetServer.NSDashTheme.GetRank()
+  - CRMScript.NetServer.NSDashTheme.GetStyle()
+  - CRMScript.NetServer.NSDashTheme.SetClient(String)
+  - CRMScript.NetServer.NSDashTheme.SetConfig(String)
+  - CRMScript.NetServer.NSDashTheme.SetDashboardThemeId(Integer)
+  - CRMScript.NetServer.NSDashTheme.SetName(String)
+  - CRMScript.NetServer.NSDashTheme.SetRank(Integer)
+  - CRMScript.NetServer.NSDashTheme.SetStyle(String)
+  name: NSDashTheme
+  nameWithType: NSDashTheme
+  fullName: CRMScript.NetServer.NSDashTheme
+  type: Class
+  summary: "\nRepresents a dashboard theme configuration.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.#ctor
+  commentId: M:CRMScript.NetServer.NSDashTheme.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDashTheme
+  langs:
+  - crmscript
+  name: NSDashTheme()
+  nameWithType: NSDashTheme.#ctor
+  fullName: CRMScript.NetServer.NSDashTheme.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDashTheme class.\n"
+  remarks: 
+  syntax: 
+    content: NSDashTheme
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.GetClient()
+  commentId: M:CRMScript.NetServer.NSDashTheme.GetClient
+  id: 'GetClient()'
+  so.intellisense: NSDashTheme.GetClient
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetClient()'
+  nameWithType: NSDashTheme.GetClient()
+  fullName: CRMScript.NetServer.NSDashTheme.GetClient()
+  type: Method
+  summary: "\nGets the name of the client(s) the theme is available to.\n"
+  syntax: 
+    content: String GetClient()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.GetConfig()
+  commentId: M:CRMScript.NetServer.NSDashTheme.GetConfig
+  id: 'GetConfig()'
+  so.intellisense: NSDashTheme.GetConfig
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetConfig()'
+  nameWithType: NSDashTheme.GetConfig()
+  fullName: CRMScript.NetServer.NSDashTheme.GetConfig()
+  type: Method
+  summary: "\nGets the JSON clob-formatted configuration.\n"
+  syntax: 
+    content: String GetConfig()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.GetDashboardThemeId()
+  commentId: M:CRMScript.NetServer.NSDashTheme.GetDashboardThemeId
+  id: 'GetDashboardThemeId()'
+  so.intellisense: NSDashTheme.GetDashboardThemeId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetDashboardThemeId()'
+  nameWithType: NSDashTheme.GetDashboardThemeId()
+  fullName: CRMScript.NetServer.NSDashTheme.GetDashboardThemeId()
+  type: Method
+  summary: "\nGets the dashboard theme ID.\n"
+  syntax: 
+    content: Integer GetDashboardThemeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.GetName()
+  commentId: M:CRMScript.NetServer.NSDashTheme.GetName
+  id: 'GetName()'
+  so.intellisense: NSDashTheme.GetName
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDashTheme.GetName()
+  fullName: CRMScript.NetServer.NSDashTheme.GetName()
+  type: Method
+  summary: "\nGets the name of the dashboard theme.\n"
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.GetRank()
+  commentId: M:CRMScript.NetServer.NSDashTheme.GetRank
+  id: 'GetRank()'
+  so.intellisense: NSDashTheme.GetRank
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSDashTheme.GetRank()
+  fullName: CRMScript.NetServer.NSDashTheme.GetRank()
+  type: Method
+  summary: "\nGets the rank order.\n"
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.GetStyle()
+  commentId: M:CRMScript.NetServer.NSDashTheme.GetStyle
+  id: 'GetStyle()'
+  so.intellisense: NSDashTheme.GetStyle
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetStyle()'
+  nameWithType: NSDashTheme.GetStyle()
+  fullName: CRMScript.NetServer.NSDashTheme.GetStyle()
+  type: Method
+  summary: "\nGets the style value (e.g., 'light' or 'dark').\n"
+  syntax: 
+    content: String GetStyle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.SetClient(String)
+  commentId: M:CRMScript.NetServer.NSDashTheme.SetClient(String)
+  id: 'SetClient(String)'
+  so.intellisense: NSDashTheme.SetClient
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetClient(String)'
+  nameWithType: NSDashTheme.SetClient(String)
+  fullName: CRMScript.NetServer.NSDashTheme.SetClient(String)
+  type: Method
+  summary: "\nSets the name of the client(s) the theme is available to.\n"
+  syntax: 
+    content: Void SetClient(String client)
+    parameters: 
+    - id: client
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.SetConfig(String)
+  commentId: M:CRMScript.NetServer.NSDashTheme.SetConfig(String)
+  id: 'SetConfig(String)'
+  so.intellisense: NSDashTheme.SetConfig
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetConfig(String)'
+  nameWithType: NSDashTheme.SetConfig(String)
+  fullName: CRMScript.NetServer.NSDashTheme.SetConfig(String)
+  type: Method
+  summary: "\nSets the JSON clob-formatted configuration.\n"
+  syntax: 
+    content: Void SetConfig(String config)
+    parameters: 
+    - id: config
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.SetDashboardThemeId(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTheme.SetDashboardThemeId(Integer)
+  id: 'SetDashboardThemeId(Integer)'
+  so.intellisense: NSDashTheme.SetDashboardThemeId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetDashboardThemeId(Integer)'
+  nameWithType: NSDashTheme.SetDashboardThemeId(Integer)
+  fullName: CRMScript.NetServer.NSDashTheme.SetDashboardThemeId(Integer)
+  type: Method
+  summary: "\nSets the dashboard theme ID.\n"
+  syntax: 
+    content: Void SetDashboardThemeId(Integer id)
+    parameters: 
+    - id: id
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDashTheme.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSDashTheme.SetName
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDashTheme.SetName(String)
+  fullName: CRMScript.NetServer.NSDashTheme.SetName(String)
+  type: Method
+  summary: "\nSets the name of the dashboard theme.\n"
+  syntax: 
+    content: Void SetName(String name)
+    parameters: 
+    - id: name
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTheme.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSDashTheme.SetRank
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSDashTheme.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSDashTheme.SetRank(Integer)
+  type: Method
+  summary: "\nSets the rank order.\n"
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters: 
+    - id: rank
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTheme.SetStyle(String)
+  commentId: M:CRMScript.NetServer.NSDashTheme.SetStyle(String)
+  id: 'SetStyle(String)'
+  so.intellisense: NSDashTheme.SetStyle
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetStyle(String)'
+  nameWithType: NSDashTheme.SetStyle(String)
+  fullName: CRMScript.NetServer.NSDashTheme.SetStyle(String)
+  type: Method
+  summary: "\nSets the style value (e.g., 'light' or 'dark').\n"
+  syntax: 
+    content: Void SetStyle(String style)
+    parameters: 
+    - id: style
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDashTheme
+  commentId: T:CRMScript.NetServer.NSDashTheme
+  isExternal: true
+  name: NSDashTheme
+  nameWithType: CRMScript.NetServer.NSDashTheme
+  fullName: CRMScript.NetServer.NSDashTheme
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

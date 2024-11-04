@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPreviewDashTile
+  commentId: T:CRMScript.NetServer.NSPreviewDashTile
+  id: NSPreviewDashTile
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPreviewDashTile.#ctor
+  - CRMScript.NetServer.NSPreviewDashTile.GetName()
+  - CRMScript.NetServer.NSPreviewDashTile.GetTileType()
+  - CRMScript.NetServer.NSPreviewDashTile.SetName(String)
+  - CRMScript.NetServer.NSPreviewDashTile.SetTileType(Integer)
+  name: NSPreviewDashTile
+  nameWithType: NSPreviewDashTile
+  fullName: CRMScript.NetServer.NSPreviewDashTile
+  type: Class
+  summary: "\nRepresents a tile within a preview dashboard.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDashTile.#ctor
+  commentId: M:CRMScript.NetServer.NSPreviewDashTile.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPreviewDashTile
+  langs:
+  - crmscript
+  name: NSPreviewDashTile()
+  nameWithType: NSPreviewDashTile.#ctor
+  fullName: CRMScript.NetServer.NSPreviewDashTile.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPreviewDashTile class.\n"
+  remarks: 
+  syntax: 
+    content: NSPreviewDashTile
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDashTile.GetName()
+  commentId: M:CRMScript.NetServer.NSPreviewDashTile.GetName
+  id: 'GetName()'
+  so.intellisense: NSPreviewDashTile.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSPreviewDashTile.GetName()
+  fullName: CRMScript.NetServer.NSPreviewDashTile.GetName()
+  type: Method
+  summary: "\nGets the name of the dashboard tile.\n"
+  syntax:
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Name of the dashboard tile.
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDashTile.SetName(String)
+  commentId: M:CRMScript.NetServer.NSPreviewDashTile.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSPreviewDashTile.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSPreviewDashTile.SetName(String)
+  fullName: CRMScript.NetServer.NSPreviewDashTile.SetName(String)
+  type: Method
+  summary: "\nSets the name of the dashboard tile.\n"
+  syntax:
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: Name to assign to the tile.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDashTile.GetTileType()
+  commentId: M:CRMScript.NetServer.NSPreviewDashTile.GetTileType
+  id: 'GetTileType()'
+  so.intellisense: NSPreviewDashTile.GetTileType
+  langs:
+  - crmscript
+  name: 'GetTileType()'
+  nameWithType: NSPreviewDashTile.GetTileType()
+  fullName: CRMScript.NetServer.NSPreviewDashTile.GetTileType()
+  type: Method
+  summary: "\nGets the type of the dashboard tile.\n"
+  syntax:
+    content: Integer GetTileType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Type of the dashboard tile.
+  example: 
+- uid: CRMScript.NetServer.NSPreviewDashTile.SetTileType(Integer)
+  commentId: M:CRMScript.NetServer.NSPreviewDashTile.SetTileType(Integer)
+  id: 'SetTileType(Integer)'
+  so.intellisense: NSPreviewDashTile.SetTileType
+  langs:
+  - crmscript
+  name: 'SetTileType(Integer)'
+  nameWithType: NSPreviewDashTile.SetTileType(Integer)
+  fullName: CRMScript.NetServer.NSPreviewDashTile.SetTileType(Integer)
+  type: Method
+  summary: "\nSets the type of the dashboard tile.\n"
+  syntax:
+    content: Void SetTileType(Integer tileType)
+    parameters:
+    - id: tileType
+      type: CRMScript.Global.Integer
+      description: Type to assign to the tile.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.NetServer.NSPreviewDashTile
+  commentId: T:CRMScript.NetServer.NSPreviewDashTile
+  isExternal: true
+  name: NSPreviewDashTile
+  nameWithType: CRMScript.NetServer.NSPreviewDashTile
+  fullName: CRMScript.NetServer.NSPreviewDashTile
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String

@@ -317,6 +317,20 @@ items:
     href: CRMScript.NetServer.NSCustomerServiceAgent.yml
   - name: NSCustomerServiceStartup
     href: CRMScript.NetServer.NSCustomerServiceStartup.yml
+  - name: NSDash
+    href: CRMScript.NetServer.NSDash.yml
+  - name: NSDashAgent
+    href: CRMScript.NetServer.NSDashAgent.yml
+  - name: NSDashCollection
+    href: CRMScript.NetServer.NSDashCollection.yml
+  - name: NSDashTheme
+    href: CRMScript.NetServer.NSDashTheme.yml
+  - name: NSDashTile
+    href: CRMScript.NetServer.NSDashTile.yml
+  - name: NSDashTileDefinition
+    href: CRMScript.NetServer.NSDashTileDefinition.yml
+  - name: NSDashTileHtml
+    href: CRMScript.NetServer.NSDashTileHtml.yml
   - name: NSDataRight
     href: CRMScript.NetServer.NSDataRight.yml
   - name: NSDataRights
@@ -557,6 +571,10 @@ items:
     href: CRMScript.NetServer.NSPreferenceDescriptionLine.yml
   - name: NSPreferenceSpec
     href: CRMScript.NetServer.NSPreferenceSpec.yml
+  - name: NSPreviewDash
+    href: CRMScript.NetServer.NSPreviewDash.yml
+  - name: NSPreviewDashTile
+    href: CRMScript.NetServer.NSPreviewDashTile.yml
   - name: NSPreviewMailing
     href: CRMScript.NetServer.NSPreviewMailing.yml
   - name: NSPreviewMailingHeader

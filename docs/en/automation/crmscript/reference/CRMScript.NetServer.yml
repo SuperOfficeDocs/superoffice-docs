@@ -144,6 +144,13 @@ items:
   - CRMScript.NetServer.NSCustomerLanguage
   - CRMScript.NetServer.NSCustomerServiceAgent
   - CRMScript.NetServer.NSCustomerServiceStartup
+  - CRMScript.NetServer.NSDash
+  - CRMScript.NetServer.NSDashAgent
+  - CRMScript.NetServer.NSDashCollection
+  - CRMScript.NetServer.NSDashTheme
+  - CRMScript.NetServer.NSDashTile
+  - CRMScript.NetServer.NSDashTileDefinition
+  - CRMScript.NetServer.NSDashTileHtml
   - CRMScript.NetServer.NSDataRight
   - CRMScript.NetServer.NSDataRights
   - CRMScript.NetServer.NSDayInformationListItem
@@ -264,6 +271,8 @@ items:
   - CRMScript.NetServer.NSPreferenceDescription
   - CRMScript.NetServer.NSPreferenceDescriptionLine
   - CRMScript.NetServer.NSPreferenceSpec
+  - CRMScript.NetServer.NSPreviewDash
+  - CRMScript.NetServer.NSPreviewDashTile
   - CRMScript.NetServer.NSPreviewMailing
   - CRMScript.NetServer.NSPreviewMailingHeader
   - CRMScript.NetServer.NSPreviews
@@ -1163,6 +1172,48 @@ references:
   name: NSCustomerServiceStartup
   nameWithType: NSCustomerServiceStartup
   fullName: CRMScript.NetServer.NSCustomerServiceStartup
+- uid: CRMScript.NetServer.NSDash
+  commentId: T:CRMScript.NetServer.NSDash
+  isExternal: true
+  name: NSDash
+  nameWithType: CRMScript.NetServer.NSDash
+  fullName: CRMScript.NetServer.NSDash
+- uid: CRMScript.NetServer.NSDashAgent
+  commentId: T:CRMScript.NetServer.NSDashAgent
+  isExternal: true
+  name: NSDashAgent
+  nameWithType: CRMScript.NetServer.NSDashAgent
+  fullName: CRMScript.NetServer.NSDashAgent
+- uid: CRMScript.NetServer.NSDashCollection
+  commentId: T:CRMScript.NetServer.NSDashCollection
+  isExternal: true
+  name: NSDashCollection
+  nameWithType: CRMScript.NetServer.NSDashCollection
+  fullName: CRMScript.NetServer.NSDashCollection
+- uid: CRMScript.NetServer.NSDashTheme
+  commentId: T:CRMScript.NetServer.NSDashTheme
+  isExternal: true
+  name: NSDashTheme
+  nameWithType: CRMScript.NetServer.NSDashTheme
+  fullName: CRMScript.NetServer.NSDashTheme
+- uid: CRMScript.NetServer.NSDashTile
+  commentId: T:CRMScript.NetServer.NSDashTile
+  isExternal: true
+  name: NSDashTile
+  nameWithType: CRMScript.NetServer.NSDashTile
+  fullName: CRMScript.NetServer.NSDashTile
+- uid: CRMScript.NetServer.NSDashTileDefinition
+  commentId: T:CRMScript.NetServer.NSDashTileDefinition
+  isExternal: true
+  name: NSDashTileDefinition
+  nameWithType: CRMScript.NetServer.NSDashTileDefinition
+  fullName: CRMScript.NetServer.NSDashTileDefinition
+- uid: CRMScript.NetServer.NSDashTileHtml
+  commentId: T:CRMScript.NetServer.NSDashTileHtml
+  isExternal: true
+  name: NSDashTileHtml
+  nameWithType: CRMScript.NetServer.NSDashTileHtml
+  fullName: CRMScript.NetServer.NSDashTileHtml
 - uid: CRMScript.NetServer.NSDataRight
   commentId: T:CRMScript.NetServer.NSDataRight
   isExternal: true
@@ -2213,6 +2264,18 @@ references:
   name: PublishType
   nameWithType: PublishType
   fullName: CRMScript.NetServer.PublishType
+- uid: CRMScript.NetServer.NSPreviewDash
+  commentId: T:CRMScript.NetServer.NSPreviewDash
+  isExternal: true
+  name: NSPreviewDash
+  nameWithType: CRMScript.NetServer.NSPreviewDash
+  fullName: CRMScript.NetServer.NSPreviewDash
+- uid: CRMScript.NetServer.NSPreviewDashTile
+  commentId: T:CRMScript.NetServer.NSPreviewDashTile
+  isExternal: true
+  name: NSPreviewDashTile
+  nameWithType: CRMScript.NetServer.NSPreviewDashTile
+  fullName: CRMScript.NetServer.NSPreviewDashTile
 - uid: CRMScript.NetServer.NSProjectMember
   commentId: T:CRMScript.NetServer.NSProjectMember
   isExternal: true

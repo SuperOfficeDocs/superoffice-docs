@@ -1,0 +1,875 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDashTileDefinition
+  commentId: T:CRMScript.NetServer.NSDashTileDefinition
+  id: NSDashTileDefinition
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDashTileDefinition.#ctor
+  - CRMScript.NetServer.NSDashTileDefinition.GetCurrencyCode()
+  - CRMScript.NetServer.NSDashTileDefinition.GetCurrencyMode()
+  - CRMScript.NetServer.NSDashTileDefinition.GetDashboardTileDefinitionId()
+  - CRMScript.NetServer.NSDashTileDefinition.GetDefaultHeight()
+  - CRMScript.NetServer.NSDashTileDefinition.GetDefaultWidth()
+  - CRMScript.NetServer.NSDashTileDefinition.GetDescription()
+  - CRMScript.NetServer.NSDashTileDefinition.GetEntityName()
+  - CRMScript.NetServer.NSDashTileDefinition.GetEntityType()
+  - CRMScript.NetServer.NSDashTileDefinition.GetLayoutConfig()
+  - CRMScript.NetServer.NSDashTileDefinition.GetMeasure()
+  - CRMScript.NetServer.NSDashTileDefinition.GetMeasureByField()
+  - CRMScript.NetServer.NSDashTileDefinition.GetMeasureField()
+  - CRMScript.NetServer.NSDashTileDefinition.GetName()
+  - CRMScript.NetServer.NSDashTileDefinition.GetProviderName()
+  - CRMScript.NetServer.NSDashTileDefinition.GetSecondarySelectionId()
+  - CRMScript.NetServer.NSDashTileDefinition.GetSelectionId()
+  - CRMScript.NetServer.NSDashTileDefinition.GetSortBy()
+  - CRMScript.NetServer.NSDashTileDefinition.GetTileType()
+  - CRMScript.NetServer.NSDashTileDefinition.GetUsage()
+  - CRMScript.NetServer.NSDashTileDefinition.SetCurrencyCode(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetCurrencyMode(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetDashboardTileDefinitionId(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetDefaultHeight(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetDefaultWidth(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetDescription(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetEntityName(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetEntityType(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetLayoutConfig(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetMeasure(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetMeasureByField(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetMeasureField(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetName(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetProviderName(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetSecondarySelectionId(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetSelectionId(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetSortBy(String)
+  - CRMScript.NetServer.NSDashTileDefinition.SetTileType(Integer)
+  - CRMScript.NetServer.NSDashTileDefinition.SetUsage(Integer)
+  name: NSDashTileDefinition
+  nameWithType: NSDashTileDefinition
+  fullName: CRMScript.NetServer.NSDashTileDefinition
+  type: Class
+  summary: "\nDefines a dashboard tile with various settings.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDashTileDefinition.#ctor
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDashTileDefinition
+  langs:
+  - crmscript
+  name: NSDashTileDefinition()
+  nameWithType: NSDashTileDefinition.#ctor
+  fullName: CRMScript.NetServer.NSDashTileDefinition.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDashTileDefinition class.\n"
+  remarks: 
+  syntax: 
+    content: NSDashTileDefinition
+  example: 
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetCurrencyCode()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetCurrencyCode
+  id: 'GetCurrencyCode()'
+  so.intellisense: NSDashTileDefinition.GetCurrencyCode
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetCurrencyCode()'
+  nameWithType: NSDashTileDefinition.GetCurrencyCode()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetCurrencyCode()
+  type: Method
+  summary: "\nReturns the currency code for the dashboard tile.\n"
+  remarks: 
+  syntax: 
+    content: String GetCurrencyCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetCurrencyMode()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetCurrencyMode
+  id: 'GetCurrencyMode()'
+  so.intellisense: NSDashTileDefinition.GetCurrencyMode
+  langs:
+  - crmscript
+  name: 'GetCurrencyMode()'
+  nameWithType: NSDashTileDefinition.GetCurrencyMode()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetCurrencyMode()
+  type: Method
+  summary: "\nRetrieves the currency mode of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Integer GetCurrencyMode()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The currency mode of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetDashboardTileDefinitionId()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetDashboardTileDefinitionId
+  id: 'GetDashboardTileDefinitionId()'
+  so.intellisense: NSDashTileDefinition.GetDashboardTileDefinitionId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetDashboardTileDefinitionId()'
+  nameWithType: NSDashTileDefinition.GetDashboardTileDefinitionId()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetDashboardTileDefinitionId()
+  type: Method
+  summary: "\nGets the primary key ID of the dashboard tile definition.\n"
+  syntax: 
+    content: Integer GetDashboardTileDefinitionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Primary key ID of the dashboard tile.
+  example: 
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetDefaultHeight()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetDefaultHeight
+  id: 'GetDefaultHeight()'
+  so.intellisense: NSDashTileDefinition.GetDefaultHeight
+  langs:
+  - crmscript
+  name: 'GetDefaultHeight()'
+  nameWithType: NSDashTileDefinition.GetDefaultHeight()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetDefaultHeight()
+  type: Method
+  summary: "\nRetrieves the default height of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Integer GetDefaultHeight()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The default height of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetDefaultWidth()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetDefaultWidth
+  id: 'GetDefaultWidth()'
+  so.intellisense: NSDashTileDefinition.GetDefaultWidth
+  langs:
+  - crmscript
+  name: 'GetDefaultWidth()'
+  nameWithType: NSDashTileDefinition.GetDefaultWidth()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetDefaultWidth()
+  type: Method
+  summary: "\nRetrieves the default width of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Integer GetDefaultWidth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The default width of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetDescription()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetDescription
+  id: 'GetDescription()'
+  so.intellisense: NSDashTileDefinition.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSDashTileDefinition.GetDescription()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetDescription()
+  type: Method
+  summary: "\nRetrieves the description of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The description of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetEntityName()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetEntityName
+  id: 'GetEntityName()'
+  so.intellisense: NSDashTileDefinition.GetEntityName
+  langs:
+  - crmscript
+  name: 'GetEntityName()'
+  nameWithType: NSDashTileDefinition.GetEntityName()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetEntityName()
+  type: Method
+  summary: "\nRetrieves the entity name measured by the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: String GetEntityName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The entity name measured by the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetEntityType()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetEntityType
+  id: 'GetEntityType()'
+  so.intellisense: NSDashTileDefinition.GetEntityType
+  langs:
+  - crmscript
+  name: 'GetEntityType()'
+  nameWithType: NSDashTileDefinition.GetEntityType()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetEntityType()
+  type: Method
+  summary: "\nRetrieves the entity type of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Integer GetEntityType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The entity type of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetLayoutConfig()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetLayoutConfig
+  id: 'GetLayoutConfig()'
+  so.intellisense: NSDashTileDefinition.GetLayoutConfig
+  langs:
+  - crmscript
+  name: 'GetLayoutConfig()'
+  nameWithType: NSDashTileDefinition.GetLayoutConfig()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetLayoutConfig()
+  type: Method
+  summary: "\nRetrieves the JSON formatted layout configuration of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: String GetLayoutConfig()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The JSON formatted layout configuration of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetMeasure()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetMeasure
+  id: 'GetMeasure()'
+  so.intellisense: NSDashTileDefinition.GetMeasure
+  langs:
+  - crmscript
+  name: 'GetMeasure()'
+  nameWithType: NSDashTileDefinition.GetMeasure()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetMeasure()
+  type: Method
+  summary: "\nRetrieves the measure type of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Integer GetMeasure()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The measure type of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetMeasureByField()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetMeasureByField
+  id: 'GetMeasureByField()'
+  so.intellisense: NSDashTileDefinition.GetMeasureByField
+  langs:
+  - crmscript
+  name: 'GetMeasureByField()'
+  nameWithType: NSDashTileDefinition.GetMeasureByField()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetMeasureByField()
+  type: Method
+  summary: "\nRetrieves the field used to group data in the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: String GetMeasureByField()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The field used to group data by the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetMeasureField()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetMeasureField
+  id: 'GetMeasureField()'
+  so.intellisense: NSDashTileDefinition.GetMeasureField
+  langs:
+  - crmscript
+  name: 'GetMeasureField()'
+  nameWithType: NSDashTileDefinition.GetMeasureField()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetMeasureField()
+  type: Method
+  summary: "\nRetrieves the field to be measured by the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: String GetMeasureField()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The field to be measured by the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetName()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetName
+  id: 'GetName()'
+  so.intellisense: NSDashTileDefinition.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDashTileDefinition.GetName()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetName()
+  type: Method
+  summary: "\nRetrieves the name of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetProviderName()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetProviderName
+  id: 'GetProviderName()'
+  so.intellisense: NSDashTileDefinition.GetProviderName
+  langs:
+  - crmscript
+  name: 'GetProviderName()'
+  nameWithType: NSDashTileDefinition.GetProviderName()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetProviderName()
+  type: Method
+  summary: "\nRetrieves the provider name used with this entity type.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: String GetProviderName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the provider used with this entity type."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetSecondarySelectionId()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetSecondarySelectionId
+  id: 'GetSecondarySelectionId()'
+  so.intellisense: NSDashTileDefinition.GetSecondarySelectionId
+  langs:
+  - crmscript
+  name: 'GetSecondarySelectionId()'
+  nameWithType: NSDashTileDefinition.GetSecondarySelectionId()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetSecondarySelectionId()
+  type: Method
+  summary: "\nRetrieves the secondary selection ID for period comparisons.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Integer GetSecondarySelectionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The secondary selection ID for period comparisons."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetSelectionId()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetSelectionId
+  id: 'GetSelectionId()'
+  so.intellisense: NSDashTileDefinition.GetSelectionId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetSelectionId()'
+  nameWithType: NSDashTileDefinition.GetSelectionId()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetSelectionId()
+  type: Method
+  summary: "\nGets the selection criteria ID of the tile definition.\n"
+  syntax: 
+    content: Integer GetSelectionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Selection ID defining the criteria for the tile.
+  example: 
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetSortBy()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetSortBy
+  id: 'GetSortBy()'
+  so.intellisense: NSDashTileDefinition.GetSortBy
+  langs:
+  - crmscript
+  name: 'GetSortBy()'
+  nameWithType: NSDashTileDefinition.GetSortBy()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetSortBy()
+  type: Method
+  summary: "\nRetrieves the sort field for the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: String GetSortBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The field by which the dashboard tile is sorted."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetTileType()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetTileType
+  id: 'GetTileType()'
+  so.intellisense: NSDashTileDefinition.GetTileType
+  langs:
+  - crmscript
+  name: 'GetTileType()'
+  nameWithType: NSDashTileDefinition.GetTileType()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetTileType()
+  type: Method
+  summary: "\nRetrieves the type of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Integer GetTileType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The type of the dashboard tile."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.GetUsage()
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.GetUsage
+  id: 'GetUsage()'
+  so.intellisense: NSDashTileDefinition.GetUsage
+  langs:
+  - crmscript
+  name: 'GetUsage()'
+  nameWithType: NSDashTileDefinition.GetUsage()
+  fullName: CRMScript.NetServer.NSDashTileDefinition.GetUsage()
+  type: Method
+  summary: "\nRetrieves where the dashboard tile can be used.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Integer GetUsage()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Where the dashboard tile can be used."
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetCurrencyCode(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetCurrencyCode(String)
+  id: 'SetCurrencyCode(String)'
+  so.intellisense: NSDashTileDefinition.SetCurrencyCode
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetCurrencyCode(String)'
+  nameWithType: NSDashTileDefinition.SetCurrencyCode(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetCurrencyCode(String)
+  type: Method
+  summary: "\nSets the currency code for the dashboard tile.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCurrencyCode(String currencyCode)
+    parameters: 
+    - id: currencyCode
+      type: CRMScript.Global.String
+      description: Currency code to be set for the tile.
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetCurrencyMode(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetCurrencyMode
+  id: 'SetCurrencyMode(Integer)'
+  so.intellisense: NSDashTileDefinition.SetCurrencyMode
+  langs:
+  - crmscript
+  name: 'SetCurrencyMode(Integer)'
+  nameWithType: NSDashTileDefinition.SetCurrencyMode(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetCurrencyMode(Integer)
+  type: Method
+  summary: "\nSets the currency mode of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetCurrencyMode(Integer mode)
+    parameters:
+    - id: mode
+      type: CRMScript.Global.Integer
+      description: "The currency mode to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetDashboardTileDefinitionId(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetDashboardTileDefinitionId
+  id: 'SetDashboardTileDefinitionId(Integer)'
+  so.intellisense: NSDashTileDefinition.SetDashboardTileDefinitionId
+  langs:
+  - crmscript
+  name: 'SetDashboardTileDefinitionId(Integer)'
+  nameWithType: NSDashTileDefinition.SetDashboardTileDefinitionId(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetDashboardTileDefinitionId(Integer)
+  type: Method
+  summary: "\nSets the primary key ID of the dashboard tile definition.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetDashboardTileDefinitionId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The primary key ID to set for the dashboard tile definition."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetDefaultHeight(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetDefaultHeight
+  id: 'SetDefaultHeight(Integer)'
+  so.intellisense: NSDashTileDefinition.SetDefaultHeight
+  langs:
+  - crmscript
+  name: 'SetDefaultHeight(Integer)'
+  nameWithType: NSDashTileDefinition.SetDefaultHeight(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetDefaultHeight(Integer)
+  type: Method
+  summary: "\nSets the default height of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetDefaultHeight(Integer height)
+    parameters:
+    - id: height
+      type: CRMScript.Global.Integer
+      description: "The default height to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetDefaultWidth(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetDefaultWidth
+  id: 'SetDefaultWidth(Integer)'
+  so.intellisense: NSDashTileDefinition.SetDefaultWidth
+  langs:
+  - crmscript
+  name: 'SetDefaultWidth(Integer)'
+  nameWithType: NSDashTileDefinition.SetDefaultWidth(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetDefaultWidth(Integer)
+  type: Method
+  summary: "\nSets the default width of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetDefaultWidth(Integer width)
+    parameters:
+    - id: width
+      type: CRMScript.Global.Integer
+      description: "The default width to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetDescription
+  id: 'SetDescription(String)'
+  so.intellisense: NSDashTileDefinition.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSDashTileDefinition.SetDescription(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetDescription(String)
+  type: Method
+  summary: "\nSets the description of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The description to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetEntityName(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetEntityName
+  id: 'SetEntityName(String)'
+  so.intellisense: NSDashTileDefinition.SetEntityName
+  langs:
+  - crmscript
+  name: 'SetEntityName(String)'
+  nameWithType: NSDashTileDefinition.SetEntityName(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetEntityName(String)
+  type: Method
+  summary: "\nSets the entity name measured by the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetEntityName(String entityName)
+    parameters:
+    - id: entityName
+      type: CRMScript.Global.String
+      description: "The entity name to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetEntityType(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetEntityType
+  id: 'SetEntityType(Integer)'
+  so.intellisense: NSDashTileDefinition.SetEntityType
+  langs:
+  - crmscript
+  name: 'SetEntityType(Integer)'
+  nameWithType: NSDashTileDefinition.SetEntityType(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetEntityType(Integer)
+  type: Method
+  summary: "\nSets the entity type of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetEntityType(Integer entityType)
+    parameters:
+    - id: entityType
+      type: CRMScript.Global.Integer
+      description: "The entity type to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetLayoutConfig(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetLayoutConfig
+  id: 'SetLayoutConfig(String)'
+  so.intellisense: NSDashTileDefinition.SetLayoutConfig
+  langs:
+  - crmscript
+  name: 'SetLayoutConfig(String)'
+  nameWithType: NSDashTileDefinition.SetLayoutConfig(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetLayoutConfig(String)
+  type: Method
+  summary: "\nSets the JSON formatted layout configuration of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetLayoutConfig(String layoutConfig)
+    parameters:
+    - id: layoutConfig
+      type: CRMScript.Global.String
+      description: "The JSON formatted layout configuration to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetMeasure(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetMeasure
+  id: 'SetMeasure(Integer)'
+  so.intellisense: NSDashTileDefinition.SetMeasure
+  langs:
+  - crmscript
+  name: 'SetMeasure(Integer)'
+  nameWithType: NSDashTileDefinition.SetMeasure(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetMeasure(Integer)
+  type: Method
+  summary: "\nSets the measure type of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetMeasure(Integer measure)
+    parameters:
+    - id: measure
+      type: CRMScript.Global.Integer
+      description: "The measure type to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetMeasureByField(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetMeasureByField
+  id: 'SetMeasureByField(String)'
+  so.intellisense: NSDashTileDefinition.SetMeasureByField
+  langs:
+  - crmscript
+  name: 'SetMeasureByField(String)'
+  nameWithType: NSDashTileDefinition.SetMeasureByField(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetMeasureByField(String)
+  type: Method
+  summary: "\nSets the field to group data in the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetMeasureByField(String measureByField)
+    parameters:
+    - id: measureByField
+      type: CRMScript.Global.String
+      description: "The field to set for grouping data in the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetMeasureField(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetMeasureField
+  id: 'SetMeasureField(String)'
+  so.intellisense: NSDashTileDefinition.SetMeasureField
+  langs:
+  - crmscript
+  name: 'SetMeasureField(String)'
+  nameWithType: NSDashTileDefinition.SetMeasureField(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetMeasureField(String)
+  type: Method
+  summary: "\nSets the field to be measured by the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetMeasureField(String measureField)
+    parameters:
+    - id: measureField
+      type: CRMScript.Global.String
+      description: "The field to set for measurement by the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetName
+  id: 'SetName(String)'
+  so.intellisense: NSDashTileDefinition.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDashTileDefinition.SetName(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetName(String)
+  type: Method
+  summary: "\nSets the name of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetProviderName(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetProviderName
+  id: 'SetProviderName(String)'
+  so.intellisense: NSDashTileDefinition.SetProviderName
+  langs:
+  - crmscript
+  name: 'SetProviderName(String)'
+  nameWithType: NSDashTileDefinition.SetProviderName(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetProviderName(String)
+  type: Method
+  summary: "\nSets the provider name for the specified entity type.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetProviderName(String providerName)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: "The name of the provider to set for this entity type."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetSecondarySelectionId(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetSecondarySelectionId
+  id: 'SetSecondarySelectionId(Integer)'
+  so.intellisense: NSDashTileDefinition.SetSecondarySelectionId
+  langs:
+  - crmscript
+  name: 'SetSecondarySelectionId(Integer)'
+  nameWithType: NSDashTileDefinition.SetSecondarySelectionId(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetSecondarySelectionId(Integer)
+  type: Method
+  summary: "\nSets the secondary selection ID for period comparisons.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetSecondarySelectionId(Integer secondarySelectionId)
+    parameters:
+    - id: secondarySelectionId
+      type: CRMScript.Global.Integer
+      description: "The secondary selection ID for period comparisons."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetSelectionId(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetSelectionId
+  id: 'SetSelectionId(Integer)'
+  so.intellisense: NSDashTileDefinition.SetSelectionId
+  langs:
+  - crmscript
+  name: 'SetSelectionId(Integer)'
+  nameWithType: NSDashTileDefinition.SetSelectionId(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetSelectionId(Integer)
+  type: Method
+  summary: "\nSets the selection ID for the tile definition criteria.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetSelectionId(Integer selectionId)
+    parameters:
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: "The selection ID to set for the tile definition criteria."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetSortBy(String)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetSortBy
+  id: 'SetSortBy(String)'
+  so.intellisense: NSDashTileDefinition.SetSortBy
+  langs:
+  - crmscript
+  name: 'SetSortBy(String)'
+  nameWithType: NSDashTileDefinition.SetSortBy(String)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetSortBy(String)
+  type: Method
+  summary: "\nSets the sort field for the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetSortBy(String sortBy)
+    parameters:
+    - id: sortBy
+      type: CRMScript.Global.String
+      description: "The field to set for sorting the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetTileType(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetTileType
+  id: 'SetTileType(Integer)'
+  so.intellisense: NSDashTileDefinition.SetTileType
+  langs:
+  - crmscript
+  name: 'SetTileType(Integer)'
+  nameWithType: NSDashTileDefinition.SetTileType(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetTileType(Integer)
+  type: Method
+  summary: "\nSets the type of the dashboard tile.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetTileType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "The type to set for the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+- uid: CRMScript.NetServer.NSDashTileDefinition.SetUsage(Integer)
+  commentId: M:CRMScript.NetServer.NSDashTileDefinition.SetUsage
+  id: 'SetUsage(Integer)'
+  so.intellisense: NSDashTileDefinition.SetUsage
+  langs:
+  - crmscript
+  name: 'SetUsage(Integer)'
+  nameWithType: NSDashTileDefinition.SetUsage(Integer)
+  fullName: CRMScript.NetServer.NSDashTileDefinition.SetUsage(Integer)
+  type: Method
+  summary: "\nSets where the dashboard tile can be used.\n"
+  remarks: "Generated from NetServer"
+  syntax:
+    content: Void SetUsage(Integer usage)
+    parameters:
+    - id: usage
+      type: CRMScript.Global.Integer
+      description: "The usage setting to apply to the dashboard tile."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example:
+references:
+- uid: CRMScript.NetServer.NSDashTileDefinition
+  commentId: T:CRMScript.NetServer.NSDashTileDefinition
+  isExternal: true
+  name: NSDashTileDefinition
+  nameWithType: CRMScript.NetServer.NSDashTileDefinition
+  fullName: CRMScript.NetServer.NSDashTileDefinition
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

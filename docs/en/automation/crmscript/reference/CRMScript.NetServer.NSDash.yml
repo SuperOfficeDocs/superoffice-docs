@@ -1,0 +1,653 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDash
+  commentId: T:CRMScript.NetServer.NSDash
+  id: NSDash
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDash.#ctor
+  - CRMScript.NetServer.NSDash.GetAssociateId()
+  - CRMScript.NetServer.NSDash.GetColumns()
+  - CRMScript.NetServer.NSDash.GetDashboardId()
+  - CRMScript.NetServer.NSDash.GetDescription()
+  - CRMScript.NetServer.NSDash.GetName()
+  - CRMScript.NetServer.NSDash.GetPinForAll() 
+  - CRMScript.NetServer.NSDash.GetPinForAssociates()
+  - CRMScript.NetServer.NSDash.GetPinForGroups() 
+  - CRMScript.NetServer.NSDash.GetTheme()
+  - CRMScript.NetServer.NSDash.GetUniqueId()
+  - CRMScript.NetServer.NSDash.GetVisibleForAll()
+  - CRMScript.NetServer.NSDash.GetVisibleForAssociates()
+  - CRMScript.NetServer.NSDash.GetVisibleForGroups()
+  - CRMScript.NetServer.NSDash.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSDash.SetColumns(Integer)
+  - CRMScript.NetServer.NSDash.SetDashboardId(Integer)
+  - CRMScript.NetServer.NSDash.SetDescription(String)
+  - CRMScript.NetServer.NSDash.SetName(String)
+  - CRMScript.NetServer.NSDash.SetPinForAll(Integer) 
+  - CRMScript.NetServer.NSDash.SetPinForAssociates(Integer[])
+  - CRMScript.NetServer.NSDash.SetPinForGroups(Integer[])  
+  - CRMScript.NetServer.NSDash.SetTheme(NSDashTheme)
+  - CRMScript.NetServer.NSDash.SetUniqueId(String)
+  - CRMScript.NetServer.NSDash.SetVisibleForAll(Integer)
+  - CRMScript.NetServer.NSDash.SetVisibleForAssociates(Integer[])
+  - CRMScript.NetServer.NSDash.SetVisibleForGroups(Integer[])
+  name: NSDash
+  nameWithType: NSDash
+  fullName: CRMScript.NetServer.NSDash
+  type: Class
+  summary: "\nCarrier object for NSDash.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDash.#ctor
+  commentId: M:CRMScript.NetServer.NSDash.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDash
+  langs:
+  - crmscript
+  name: NSDash()
+  nameWithType: NSDash.#ctor
+  fullName: CRMScript.NetServer.NSDash.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDash class.\n"
+  remarks: 
+  syntax: 
+    content: NSDash
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSDash.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSDash.GetAssociateId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSDash.GetAssociateId()
+  fullName: CRMScript.NetServer.NSDash.GetAssociateId()
+  type: Method
+  summary: "\nAssociate who owns this dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetColumns()
+  commentId: M:CRMScript.NetServer.NSDash.GetColumns()
+  id: 'GetColumns()'
+  so.intellisense: NSDash.GetColumns
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetColumns()'
+  nameWithType: NSDash.GetColumns()
+  fullName: CRMScript.NetServer.NSDash.GetColumns()
+  type: Method
+  summary: "\nHow many columns there are in the dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetColumns()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetDashboardId()
+  commentId: M:CRMScript.NetServer.NSDash.GetDashboardId()
+  id: 'GetDashboardId()'
+  so.intellisense: NSDash.GetDashboardId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetDashboardId()'
+  nameWithType: NSDash.GetDashboardId()
+  fullName: CRMScript.NetServer.NSDash.GetDashboardId()
+  type: Method
+  summary: "\nPrimary key of dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetDashboardId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetDescription()
+  commentId: M:CRMScript.NetServer.NSDash.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSDash.GetDescription
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSDash.GetDescription()
+  fullName: CRMScript.NetServer.NSDash.GetDescription()
+  type: Method
+  summary: "\nDetailed description of the dashboard.\n"
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetName()
+  commentId: M:CRMScript.NetServer.NSDash.GetName()
+  id: 'GetName()'
+  so.intellisense: NSDash.GetName
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDash.GetName()
+  fullName: CRMScript.NetServer.NSDash.GetName()
+  type: Method
+  summary: "\nGets name the dashboard.\n"
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetPinForAll()
+  commentId: M:CRMScript.NetServer.NSDash.GetPinForAll()
+  id: 'GetPinForAll()'
+  so.intellisense: NSDash.GetPinForAll
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetPinForAll()'
+  nameWithType: NSDash.GetPinForAll()
+  fullName: CRMScript.NetServer.NSDash.GetPinForAll()
+  type: Method
+  summary: "\nReturns 1 if pinned for all.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetPinForAll()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetPinForAssociates()
+  commentId: M:CRMScript.NetServer.NSDash.GetPinForAssociates()
+  id: 'GetPinForAssociates()'
+  so.intellisense: NSDash.GetPinForAssociates
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetPinForAssociates()'
+  nameWithType: NSDash.GetPinForAssociates()
+  fullName: CRMScript.NetServer.NSDash.GetPinForAssociates()
+  type: Method
+  summary: "\nReturns array of references to the pinned associates.\n"
+  remarks: 
+  syntax: 
+    content: Integer[] GetPinForAssociates()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetPinForGroups()
+  commentId: M:CRMScript.NetServer.NSDash.GetPinForGroups()
+  id: 'GetPinForGroups()'
+  so.intellisense: NSDash.GetPinForGroups
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetPinForGroups()'
+  nameWithType: NSDash.GetPinForGroups()
+  fullName: CRMScript.NetServer.NSDash.GetPinForGroups()
+  type: Method
+  summary: "\nReturns array of references to the pinned groups.\n"
+  remarks: 
+  syntax: 
+    content: Integer[] GetPinForGroups()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetTheme()
+  commentId: M:CRMScript.NetServer.NSDash.GetTheme()
+  id: 'GetTheme()'
+  so.intellisense: NSDash.GetTheme
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetTheme()'
+  nameWithType: NSDash.GetTheme()
+  fullName: CRMScript.NetServer.NSDash.GetTheme()
+  type: Method
+  summary: "\nReturns the theme for this dashboard.\n"
+  remarks: 
+  syntax: 
+    content: NSDashTheme GetTheme()
+    parameters: []
+    return:
+      type: CRMScript.Netserver.NSDashTheme
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetUniqueId()
+  commentId: M:CRMScript.NetServer.NSDash.GetUniqueId()
+  id: 'GetUniqueId()'
+  so.intellisense: NSDash.GetUniqueId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetUniqueId()'
+  nameWithType: NSDash.GetUniqueId()
+  fullName: CRMScript.NetServer.NSDash.GetUniqueId()
+  type: Method
+  summary: "\nReturns GUID identifying a default dashboard from SuperOffice.\n"
+  remarks: 
+  syntax: 
+    content: String GetUniqueId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetVisibleForAll()
+  commentId: M:CRMScript.NetServer.NSDash.GetVisibleForAll()
+  id: 'GetVisibleForAll()'
+  so.intellisense: NSDash.GetVisibleForAll
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetVisibleForAll()'
+  nameWithType: NSDash.GetVisibleForAll()
+  fullName: CRMScript.NetServer.NSDash.GetVisibleForAll()
+  type: Method
+  summary: "\nReturns 1 if visible for all.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetVisibleForAll()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetVisibleForAssociates()
+  commentId: M:CRMScript.NetServer.NSDash.GetVisibleForAssociates()
+  id: 'GetVisibleForAssociates()'
+  so.intellisense: NSDash.GetVisibleForAssociates
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetVisibleForAssociates()'
+  nameWithType: NSDash.GetVisibleForAssociates()
+  fullName: CRMScript.NetServer.NSDash.GetVisibleForAssociates()
+  type: Method
+  summary: "\nReturns array of references to the visible for associates.\n"
+  remarks: 
+  syntax: 
+    content: Integer[] GetVisibleForAssociates()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.GetVisibleForGroups()
+  commentId: M:CRMScript.NetServer.NSDash.GetVisibleForGroups()
+  id: 'GetVisibleForGroups()'
+  so.intellisense: NSDash.GetVisibleForGroups
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'GetVisibleForGroups()'
+  nameWithType: NSDash.GetVisibleForGroups()
+  fullName: CRMScript.NetServer.NSDash.GetVisibleForGroups()
+  type: Method
+  summary: "\nReturns array of references to the visible for groups.\n"
+  remarks: 
+  syntax: 
+    content: Integer[] GetVisibleForGroups()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSDash.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: CRMScript.NetServer.NSDash.SetAssociateId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSDash.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSDash.SetAssociateId(Integer)
+  type: Method
+  summary: "\nAssociate who owns this dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters: 
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetColumns(Integer)
+  commentId: M:CRMScript.NetServer.NSDash.SetColumns(Integer)
+  id: 'SetColumns(Integer)'
+  so.intellisense: NSDash.SetColumns
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetColumns(Integer)'
+  nameWithType: NSDash.SetColumns(Integer)
+  fullName: CRMScript.NetServer.NSDash.SetColumns(Integer)
+  type: Method
+  summary: "\nHow many columns there are in the dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Void SetColumns(Integer cols)
+    parameters: 
+    - id: cols
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetDashboardId(Integer)
+  commentId: M:CRMScript.NetServer.NSDash.SetDashboardId(Integer)
+  id: 'SetDashboardId(Integer)'
+  so.intellisense: NSDash.SetDashboardId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetDashboardId(Integer)'
+  nameWithType: NSDash.SetDashboardId(Integer)
+  fullName: CRMScript.NetServer.NSDash.SetDashboardId(Integer)
+  type: Method
+  summary: "\nPrimary key of dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDashboardId(Integer dashId)
+    parameters: 
+    - id: dashId
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSDash.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSDash.SetDescription
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSDash.SetDescription(String)
+  fullName: CRMScript.NetServer.NSDash.SetDescription(String)
+  type: Method
+  summary: "\nDetailed description of the dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String desc)
+    parameters: 
+    - id: desc
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDash.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSDash.SetName
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDash.SetName(String)
+  fullName: CRMScript.NetServer.NSDash.SetName(String)
+  type: Method
+  summary: "\nSets name the dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters: 
+    - id: name
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetPinForAll(Integer)
+  commentId: M:CRMScript.NetServer.NSDash.SetPinForAll(Integer)
+  id: 'SetPinForAll(Integer)'
+  so.intellisense: NSDash.SetPinForAll
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetPinForAll(Integer)'
+  nameWithType: NSDash.SetPinForAll(Integer)
+  fullName: CRMScript.NetServer.NSDash.SetPinForAll(Integer)
+  type: Method
+  summary: "\nSet to 1 if pinned for all.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPinForAll(Integer pinned)
+    parameters: 
+    - id: pinned
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetPinForAssociates(Integer[])
+  commentId: M:CRMScript.NetServer.NSDash.SetPinForAssociates(Integer[])
+  id: 'SetPinForAssociates(Integer[])'
+  so.intellisense: NSDash.SetPinForAssociates
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetPinForAssociates(Integer[])'
+  nameWithType: NSDash.SetPinForAssociates(Integer[])
+  fullName: CRMScript.NetServer.NSDash.SetPinForAssociates(Integer[])
+  type: Method
+  summary: "\nSet an array of references to pinned associates.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPinForAssociates(Integer[] assocList)
+    parameters: 
+    - id: assocList
+      type: CRMScript.Global.Integer[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetPinForGroups(Integer[])
+  commentId: M:CRMScript.NetServer.NSDash.SetPinForGroups(Integer[])
+  id: 'SetPinForGroups(Integer[])'
+  so.intellisense: NSDash.SetPinForGroups
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetPinForGroups(Integer[])'
+  nameWithType: NSDash.SetPinForGroups(Integer[])
+  fullName: CRMScript.NetServer.NSDash.SetPinForGroups(Integer[])
+  type: Method
+  summary: "\nSet an array of references to pinned groups.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPinForGroups(Integer[] groups)
+    parameters: 
+    - id: groups
+      type: CRMScript.Global.Integer[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetTheme(NSDashTheme)
+  commentId: M:CRMScript.NetServer.NSDash.SetTheme(NSDashTheme)
+  id: 'SetTheme(NSDashTheme)'
+  so.intellisense: NSDash.SetTheme
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetTheme(NSDashTheme)'
+  nameWithType: NSDash.SetTheme(NSDashTheme)
+  fullName: CRMScript.NetServer.NSDash.SetTheme(NSDashTheme)
+  type: Method
+  summary: "\nSets the theme for this dashboard.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTheme(NSDashTheme theme)
+    parameters: 
+    - id: theme
+      type: CRMScript.NetServer.NSDashTheme
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetUniqueId(String)
+  commentId: M:CRMScript.NetServer.NSDash.SetUniqueId(String)
+  id: 'SetUniqueId(String)'
+  so.intellisense: NSDash.SetUniqueId
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetUniqueId(String)'
+  nameWithType: NSDash.SetUniqueId(String)
+  fullName: CRMScript.NetServer.NSDash.SetUniqueId(String)
+  type: Method
+  summary: "\nSets GUID identifying a default dashboard from SuperOffice.\n"
+  remarks: 
+  syntax: 
+    content: Void SetUniqueId(String guid)
+    parameters: 
+    - id: guid
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetVisibleForAll(Integer)
+  commentId: M:CRMScript.NetServer.NSDash.SetVisibleForAll(Integer)
+  id: 'SetVisibleForAll(Integer)'
+  so.intellisense: NSDash.SetVisibleForAll
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetVisibleForAll(Integer)'
+  nameWithType: NSDash.SetVisibleForAll(Integer)
+  fullName: CRMScript.NetServer.NSDash.SetVisibleForAll(Integer)
+  type: Method
+  summary: "\nSet to 1 if visible for all.\n"
+  remarks: 
+  syntax: 
+    content: Void SetVisibleForAll(Integer visible)
+    parameters: 
+    - id: visible
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetVisibleForAssociates(Integer[])
+  commentId: M:CRMScript.NetServer.NSDash.SetVisibleForAssociates(Integer[])
+  id: 'SetVisibleForAssociates(Integer[])'
+  so.intellisense: NSDash.SetVisibleForAssociates
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetVisibleForAssociates(Integer[])'
+  nameWithType: NSDash.SetVisibleForAssociates(Integer[])
+  fullName: CRMScript.NetServer.NSDash.SetVisibleForAssociates(Integer[])
+  type: Method
+  summary: "\nSet an array of references to visible for associates.\n"
+  remarks: 
+  syntax: 
+    content: Void SetVisibleForAssociates(Integer[] assocList)
+    parameters: 
+    - id: assocList
+      type: CRMScript.Global.Integer[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDash.SetVisibleForGroups(Integer[])
+  commentId: M:CRMScript.NetServer.NSDash.SetVisibleForGroups(Integer[])
+  id: 'SetVisibleForGroups(Integer[])'
+  so.intellisense: NSDash.SetPiSetVisibleForGroupsnForGroups
+  so.version: 10.3.12
+  langs:
+  - crmscript
+  name: 'SetVisibleForGroups(Integer[])'
+  nameWithType: NSDash.SetVisibleForGroups(Integer[])
+  fullName: CRMScript.NetServer.NSDash.SetVisibleForGroups(Integer[])
+  type: Method
+  summary: "\nSet an array of references to visible for groups.\n"
+  remarks: 
+  syntax: 
+    content: Void SetVisibleForGroups(Integer[] groups)
+    parameters: 
+    - id: groups
+      type: CRMScript.Global.Integer[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDash
+  commentId: T:CRMScript.NetServer.NSDash
+  isExternal: true
+  name: NSDash
+  nameWithType: CRMScript.NetServer.NSDash
+  fullName: CRMScript.NetServer.NSDash
+- uid: CRMScript.NetServer.NSDashTheme
+  commentId: T:CRMScript.NetServer.NSDashTheme
+  isExternal: true
+  name: NSDashTheme
+  nameWithType: NSDashTheme
+  fullName: CRMScript.NetServer.NSDashTheme
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer[]
+  commentId: T:CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
