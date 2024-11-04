@@ -6,7 +6,6 @@
 > * BulkUpdateAgent
 > * CRMScriptAgent
 > * DashboardAgent
-> * DashAgent
 > * DatabaseAgent
 > * DatabaseTableAgent
 > * ErpSyncAgent
