@@ -763,7 +763,6 @@ references:
   nameWithType: NSDash
   fullName: CRMScript.NetServer.NSDash
   summary: "\nRepresents an individual dashboard object in the system.\n"
-  
 - uid: CRMScript.NetServer.NSDashCollection
   commentId: T:CRMScript.NetServer.NSDashCollection
   isExternal: true
@@ -771,7 +770,6 @@ references:
   nameWithType: NSDashCollection
   fullName: CRMScript.NetServer.NSDashCollection
   summary: "\nRepresents a collection of dashboards.\n"
-
 - uid: CRMScript.NetServer.NSDashTheme
   commentId: T:CRMScript.NetServer.NSDashTheme
   isExternal: true
@@ -779,7 +777,6 @@ references:
   nameWithType: NSDashTheme
   fullName: CRMScript.NetServer.NSDashTheme
   summary: "\nRepresents the theme settings for a dashboard.\n"
-
 - uid: CRMScript.NetServer.NSDashTile
   commentId: T:CRMScript.NetServer.NSDashTile
   isExternal: true
@@ -787,7 +784,6 @@ references:
   nameWithType: NSDashTile
   fullName: CRMScript.NetServer.NSDashTile
   summary: "\nRepresents an individual tile within a dashboard.\n"
-
 - uid: CRMScript.NetServer.NSDashTileDefinition
   commentId: T:CRMScript.NetServer.NSDashTileDefinition
   isExternal: true
@@ -795,7 +791,6 @@ references:
   nameWithType: NSDashTileDefinition
   fullName: CRMScript.NetServer.NSDashTileDefinition
   summary: "\nDefines the structure and settings for a dashboard tile.\n"
-
 - uid: CRMScript.NetServer.NSDashTileHtml
   commentId: T:CRMScript.NetServer.NSDashTileHtml
   isExternal: true
@@ -803,7 +798,6 @@ references:
   nameWithType: NSDashTileHtml
   fullName: CRMScript.NetServer.NSDashTileHtml
   summary: "\nRepresents HTML content associated with a dashboard tile.\n"
-
 - uid: CRMScript.NetServer.NSPreviewDash
   commentId: T:CRMScript.NetServer.NSPreviewDash
   isExternal: true
@@ -811,7 +805,6 @@ references:
   nameWithType: NSPreviewDash
   fullName: CRMScript.NetServer.NSPreviewDash
   summary: "\nRepresents a preview version of a dashboard.\n"
-
 - uid: CRMScript.NetServer.NSPreviewDashTile
   commentId: T:CRMScript.NetServer.NSPreviewDashTile
   isExternal: true
@@ -819,7 +812,6 @@ references:
   nameWithType: NSPreviewDashTile
   fullName: CRMScript.NetServer.NSPreviewDashTile
   summary: "\nRepresents a preview tile for a dashboard.\n"
-
 - uid: CRMScript.Global.Void
   commentId: T:CRMScript.Global.Void
   isExternal: true
@@ -827,7 +819,6 @@ references:
   nameWithType: Void
   fullName: CRMScript.Global.Void
   summary: "\nRepresents a void return type, indicating no return value.\n"
-
 - uid: CRMScript.Global.Integer
   commentId: T:CRMScript.Global.Integer
   isExternal: true
@@ -835,7 +826,6 @@ references:
   nameWithType: Integer
   fullName: CRMScript.Global.Integer
   summary: "\nRepresents an integer data type.\n"
-
 - uid: CRMScript.Global.String
   commentId: T:CRMScript.Global.String
   isExternal: true
@@ -843,7 +833,6 @@ references:
   nameWithType: String
   fullName: CRMScript.Global.String
   summary: "\nRepresents a string data type.\n"
-
 - uid: CRMScript.NetServer.NSDash[]
   commentId: T:CRMScript.NetServer.NSDash[]
   isExternal: true
@@ -851,7 +840,6 @@ references:
   nameWithType: NSDash[]
   fullName: CRMScript.NetServer.NSDash[]
   summary: "\nRepresents an array of NSDash objects.\n"
-
 - uid: CRMScript.NetServer.NSDashTileHtml[]
   commentId: T:CRMScript.NetServer.NSDashTileHtml[]
   isExternal: true
@@ -859,7 +847,6 @@ references:
   nameWithType: NSDashTileHtml[]
   fullName: CRMScript.NetServer.NSDashTileHtml[]
   summary: "\nRepresents an array of NSDashTileHtml objects.\n"
-
 - uid: CRMScript.NetServer.NSDashTile[]
   commentId: T:CRMScript.NetServer.NSDashTile[]
   isExternal: true
@@ -867,7 +854,6 @@ references:
   nameWithType: NSDashTile[]
   fullName: CRMScript.NetServer.NSDashTile[]
   summary: "\nRepresents an array of NSDashTile objects.\n"
-
 - uid: CRMScript.Global.Integer[]
   commentId: T:CRMScript.Global.Integer[]
   isExternal: true
