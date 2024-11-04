@@ -12,15 +12,14 @@ items:
   - CRMScript.NetServer.NSDashAgent.AddTileToDashboard(Integer, Integer)
   - CRMScript.NetServer.NSDashAgent.CopyTileSelection(Integer)
   - CRMScript.NetServer.NSDashAgent.CreateDashTileSelectionFromEntity(String)
-  - CRMScript.NetServer.NSDashAgent.CreateDefaultDash()
-  - CRMScript.NetServer.NSDashAgent.CreateDefaultDashCollection()
-  - CRMScript.NetServer.NSDashAgent.CreateDefaultDashTheme()
-  - CRMScript.NetServer.NSDashAgent.CreateDefaultDashTile()
-  - CRMScript.NetServer.NSDashAgent.CreateDefaultDashTileDefinition()
-  - CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDash()
-  - CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDashTile()
+  - CRMScript.NetServer.NSDashAgent.CreateDefaultDash
+  - CRMScript.NetServer.NSDashAgent.CreateDefaultDashCollection
+  - CRMScript.NetServer.NSDashAgent.CreateDefaultDashTheme
+  - CRMScript.NetServer.NSDashAgent.CreateDefaultDashTile
+  - CRMScript.NetServer.NSDashAgent.CreateDefaultDashTileDefinition
+  - CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDash
+  - CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDashTile
   - CRMScript.NetServer.NSDashAgent.CreateDefaultTileForEntity(String)
-  - CRMScript.NetServer.NSDashAgent.CreateDefaultTileDefinitionForEntity(String)
   - CRMScript.NetServer.NSDashAgent.DeleteDash(Integer)
   - CRMScript.NetServer.NSDashAgent.DeleteDashTheme(Integer)
   - CRMScript.NetServer.NSDashAgent.DeleteDashTile(Integer)
@@ -28,7 +27,7 @@ items:
   - CRMScript.NetServer.NSDashAgent.DuplicateDashboard(Integer, String)
   - CRMScript.NetServer.NSDashAgent.DuplicateTile(Integer, String)
   - CRMScript.NetServer.NSDashAgent.GetDash(Integer)
-  - CRMScript.NetServer.NSDashAgent.GetDashCollection()
+  - CRMScript.NetServer.NSDashAgent.GetDashCollection
   - CRMScript.NetServer.NSDashAgent.GetDashList(Integer[])
   - CRMScript.NetServer.NSDashAgent.GetDashTheme(Integer)
   - CRMScript.NetServer.NSDashAgent.GetDashTile(Integer)
@@ -39,7 +38,7 @@ items:
   - CRMScript.NetServer.NSDashAgent.GetPreviewDash(Integer)
   - CRMScript.NetServer.NSDashAgent.GetSecondaryTempTileSelection(Integer)
   - CRMScript.NetServer.NSDashAgent.GetTempTileSelection(Integer)
-  - CRMScript.NetServer.NSDashAgent.SaveDash(NSDash)
+  - CRMScript.NetServer.NSDashAgent.SaveDash(Integer, NSDash)
   - CRMScript.NetServer.NSDashAgent.SaveDashTheme(NSDashTheme)
   - CRMScript.NetServer.NSDashAgent.SaveDashTile(NSDashTile)
   - CRMScript.NetServer.NSDashAgent.SaveDashTileDefinition(NSDashTileDefinition)
@@ -49,8 +48,8 @@ items:
   nameWithType: NSDashAgent
   fullName: CRMScript.NetServer.NSDashAgent
   type: Class
-  summary: "\nProvides methods for managing dashboards, tiles, themes, and preview elements.\n"
-  example: 
+  summary: "\nCarrier object for managing various dashboard operations.\n"
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.#ctor
   commentId: M:CRMScript.NetServer.NSDashAgent.#ctor
   id: '#ctor'
@@ -68,37 +67,34 @@ items:
   example: 
 - uid: CRMScript.NetServer.NSDashAgent.AddNewTileToDashboard(Integer, NSDashTileDefinition)
   commentId: M:CRMScript.NetServer.NSDashAgent.AddNewTileToDashboard
-  id: 'AddNewTileToDashboard(Integer,NSDashTileDefinition)'
+  id: 'AddNewTileToDashboard(Integer, NSDashTileDefinition)'
   so.intellisense: NSDashAgent.AddNewTileToDashboard
   langs:
   - crmscript
-  name: 'AddNewTileToDashboard(Integer,NSDashTileDefinition)'
-  nameWithType: NSDashAgent.AddNewTileToDashboard(Integer,NSDashTileDefinition)
-  fullName: CRMScript.NetServer.NSDashAgent.AddNewTileToDashboard(Integer,NSDashTileDefinition)
+  name: 'AddNewTileToDashboard(Integer, NSDashTileDefinition)'
+  nameWithType: NSDashAgent.AddNewTileToDashboard(Integer, NSDashTileDefinition)
+  fullName: CRMScript.NetServer.NSDashAgent.AddNewTileToDashboard
   type: Method
-  summary: "\nAdds a new tile to a specified dashboard.\n"
+  summary: "\nAdds a new tile to the specified dashboard.\n"
   syntax:
     content: NSDashTile AddNewTileToDashboard(Integer dashboardId, NSDashTileDefinition tileDefinition)
     parameters:
     - id: dashboardId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard.
     - id: tileDefinition
       type: CRMScript.NetServer.NSDashTileDefinition
-      description: Tile definition to add.
     return:
       type: CRMScript.NetServer.NSDashTile
-      description: Newly added tile.
   example: 
 - uid: CRMScript.NetServer.NSDashAgent.AddTileToDashboard(Integer, Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.AddTileToDashboard
-  id: 'AddTileToDashboard(Integer,Integer)'
+  id: 'AddTileToDashboard(Integer, Integer)'
   so.intellisense: NSDashAgent.AddTileToDashboard
   langs:
   - crmscript
-  name: 'AddTileToDashboard(Integer,Integer)'
-  nameWithType: NSDashAgent.AddTileToDashboard(Integer,Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.AddTileToDashboard(Integer,Integer)
+  name: 'AddTileToDashboard(Integer, Integer)'
+  nameWithType: NSDashAgent.AddTileToDashboard(Integer, Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.AddTileToDashboard
   type: Method
   summary: "\nAdds an existing tile to a specified dashboard.\n"
   syntax:
@@ -106,14 +102,11 @@ items:
     parameters:
     - id: dashboardId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard.
     - id: tileId
       type: CRMScript.Global.Integer
-      description: ID of the tile.
     return:
       type: CRMScript.NetServer.NSDashTile
-      description: Tile added to the dashboard.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.CopyTileSelection(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.CopyTileSelection
   id: 'CopyTileSelection(Integer)'
@@ -122,19 +115,17 @@ items:
   - crmscript
   name: 'CopyTileSelection(Integer)'
   nameWithType: NSDashAgent.CopyTileSelection(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.CopyTileSelection(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.CopyTileSelection
   type: Method
-  summary: "\nCreates a copy of the specified tile selection.\n"
+  summary: "\nCopies the specified tile selection.\n"
   syntax:
     content: Integer CopyTileSelection(Integer selectionId)
     parameters:
     - id: selectionId
       type: CRMScript.Global.Integer
-      description: ID of the tile selection to copy.
     return:
       type: CRMScript.Global.Integer
-      description: ID of the newly copied tile selection.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.CreateDashTileSelectionFromEntity(String)
   commentId: M:CRMScript.NetServer.NSDashAgent.CreateDashTileSelectionFromEntity
   id: 'CreateDashTileSelectionFromEntity(String)'
@@ -143,64 +134,60 @@ items:
   - crmscript
   name: 'CreateDashTileSelectionFromEntity(String)'
   nameWithType: NSDashAgent.CreateDashTileSelectionFromEntity(String)
-  fullName: CRMScript.NetServer.NSDashAgent.CreateDashTileSelectionFromEntity(String)
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDashTileSelectionFromEntity
   type: Method
-  summary: "\nCreates a tile selection based on the specified entity.\n"
+  summary: "\nCreates a dash tile selection based on the specified entity.\n"
   syntax:
-    content: Integer CreateDashTileSelectionFromEntity(String entityName)
+    content: Integer CreateDashTileSelectionFromEntity(String entity)
     parameters:
-    - id: entityName
+    - id: entity
       type: CRMScript.Global.String
-      description: Name of the entity to create the selection from.
     return:
       type: CRMScript.Global.Integer
-      description: ID of the created tile selection.
-  example: 
-- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDash()
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDash
   commentId: M:CRMScript.NetServer.NSDashAgent.CreateDefaultDash
-  id: 'CreateDefaultDash()'
+  id: 'CreateDefaultDash'
   so.intellisense: NSDashAgent.CreateDefaultDash
   langs:
   - crmscript
-  name: 'CreateDefaultDash()'
-  nameWithType: NSDashAgent.CreateDefaultDash()
-  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDash()
+  name: 'CreateDefaultDash'
+  nameWithType: NSDashAgent.CreateDefaultDash
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDash
   type: Method
-  summary: "\nCreates a default dashboard.\n"
+  summary: "\nGenerates a default dashboard.\n"
   syntax:
     content: NSDash CreateDefaultDash()
     parameters: []
     return:
       type: CRMScript.NetServer.NSDash
-      description: Newly created default dashboard.
-  example: 
-- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDashCollection()
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDashCollection
   commentId: M:CRMScript.NetServer.NSDashAgent.CreateDefaultDashCollection
-  id: 'CreateDefaultDashCollection()'
+  id: 'CreateDefaultDashCollection'
   so.intellisense: NSDashAgent.CreateDefaultDashCollection
   langs:
   - crmscript
-  name: 'CreateDefaultDashCollection()'
-  nameWithType: NSDashAgent.CreateDefaultDashCollection()
-  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDashCollection()
+  name: 'CreateDefaultDashCollection'
+  nameWithType: NSDashAgent.CreateDefaultDashCollection
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDashCollection
   type: Method
-  summary: "\nCreates a default collection of dashboards.\n"
+  summary: "\nGenerates a default collection of dashboards.\n"
   syntax:
     content: NSDashCollection CreateDefaultDashCollection()
     parameters: []
     return:
       type: CRMScript.NetServer.NSDashCollection
-      description: Collection of default dashboards.
-  example: 
-- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTheme()
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTheme
   commentId: M:CRMScript.NetServer.NSDashAgent.CreateDefaultDashTheme
-  id: 'CreateDefaultDashTheme()'
+  id: 'CreateDefaultDashTheme'
   so.intellisense: NSDashAgent.CreateDefaultDashTheme
   langs:
   - crmscript
-  name: 'CreateDefaultDashTheme()'
-  nameWithType: NSDashAgent.CreateDefaultDashTheme()
-  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTheme()
+  name: 'CreateDefaultDashTheme'
+  nameWithType: NSDashAgent.CreateDefaultDashTheme
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTheme
   type: Method
   summary: "\nCreates a default theme for dashboards.\n"
   syntax:
@@ -208,44 +195,94 @@ items:
     parameters: []
     return:
       type: CRMScript.NetServer.NSDashTheme
-      description: Default dashboard theme.
-  example: 
-- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTile()
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTile
   commentId: M:CRMScript.NetServer.NSDashAgent.CreateDefaultDashTile
-  id: 'CreateDefaultDashTile()'
+  id: 'CreateDefaultDashTile'
   so.intellisense: NSDashAgent.CreateDefaultDashTile
   langs:
   - crmscript
-  name: 'CreateDefaultDashTile()'
-  nameWithType: NSDashAgent.CreateDefaultDashTile()
-  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTile()
+  name: 'CreateDefaultDashTile'
+  nameWithType: NSDashAgent.CreateDefaultDashTile
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTile
   type: Method
-  summary: "\nCreates a default dashboard tile.\n"
+  summary: "\nGenerates a default tile for dashboards.\n"
   syntax:
     content: NSDashTile CreateDefaultDashTile()
     parameters: []
     return:
       type: CRMScript.NetServer.NSDashTile
-      description: Newly created default dashboard tile.
-  example: 
-- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTileDefinition()
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTileDefinition
   commentId: M:CRMScript.NetServer.NSDashAgent.CreateDefaultDashTileDefinition
-  id: 'CreateDefaultDashTileDefinition()'
+  id: 'CreateDefaultDashTileDefinition'
   so.intellisense: NSDashAgent.CreateDefaultDashTileDefinition
   langs:
   - crmscript
-  name: 'CreateDefaultDashTileDefinition()'
-  nameWithType: NSDashAgent.CreateDefaultDashTileDefinition()
-  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTileDefinition()
+  name: 'CreateDefaultDashTileDefinition'
+  nameWithType: NSDashAgent.CreateDefaultDashTileDefinition
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultDashTileDefinition
   type: Method
-  summary: "\nCreates a default tile definition for dashboards.\n"
+  summary: "\nCreates a default definition for a dashboard tile.\n"
   syntax:
     content: NSDashTileDefinition CreateDefaultDashTileDefinition()
     parameters: []
     return:
       type: CRMScript.NetServer.NSDashTileDefinition
-      description: Default dashboard tile definition.
-  example: 
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDash
+  commentId: M:CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDash
+  id: 'CreateDefaultPreviewDash'
+  so.intellisense: NSDashAgent.CreateDefaultPreviewDash
+  langs:
+  - crmscript
+  name: 'CreateDefaultPreviewDash'
+  nameWithType: NSDashAgent.CreateDefaultPreviewDash
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDash
+  type: Method
+  summary: "\nGenerates a default preview dashboard.\n"
+  syntax:
+    content: NSPreviewDash CreateDefaultPreviewDash()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPreviewDash
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDashTile
+  commentId: M:CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDashTile
+  id: 'CreateDefaultPreviewDashTile'
+  so.intellisense: NSDashAgent.CreateDefaultPreviewDashTile
+  langs:
+  - crmscript
+  name: 'CreateDefaultPreviewDashTile'
+  nameWithType: NSDashAgent.CreateDefaultPreviewDashTile
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultPreviewDashTile
+  type: Method
+  summary: "\nCreates a default tile for preview dashboards.\n"
+  syntax:
+    content: NSPreviewDashTile CreateDefaultPreviewDashTile()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPreviewDashTile
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.CreateDefaultTileForEntity(String)
+  commentId: M:CRMScript.NetServer.NSDashAgent.CreateDefaultTileForEntity
+  id: 'CreateDefaultTileForEntity(String)'
+  so.intellisense: NSDashAgent.CreateDefaultTileForEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultTileForEntity(String)'
+  nameWithType: NSDashAgent.CreateDefaultTileForEntity(String)
+  fullName: CRMScript.NetServer.NSDashAgent.CreateDefaultTileForEntity
+  type: Method
+  summary: "\nCreates a default tile for the specified entity.\n"
+  syntax:
+    content: NSDashTile CreateDefaultTileForEntity(String entity)
+    parameters:
+    - id: entity
+      type: CRMScript.Global.String
+    return:
+      type: CRMScript.NetServer.NSDashTile
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.DeleteDash(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.DeleteDash
   id: 'DeleteDash(Integer)'
@@ -254,19 +291,17 @@ items:
   - crmscript
   name: 'DeleteDash(Integer)'
   nameWithType: NSDashAgent.DeleteDash(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.DeleteDash(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.DeleteDash
   type: Method
-  summary: "\nDeletes the specified dashboard by ID.\n"
+  summary: "\nDeletes a specified dashboard.\n"
   syntax:
-    content: Void DeleteDash(Integer dashboardId)
+    content: Void DeleteDash(Integer dashId)
     parameters:
-    - id: dashboardId
+    - id: dashId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard to delete.
     return:
       type: CRMScript.Global.Void
-      description:
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.DeleteDashTheme(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.DeleteDashTheme
   id: 'DeleteDashTheme(Integer)'
@@ -275,19 +310,17 @@ items:
   - crmscript
   name: 'DeleteDashTheme(Integer)'
   nameWithType: NSDashAgent.DeleteDashTheme(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.DeleteDashTheme(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.DeleteDashTheme
   type: Method
-  summary: "\nDeletes the specified dashboard theme by ID.\n"
+  summary: "\nDeletes the specified dashboard theme.\n"
   syntax:
     content: Void DeleteDashTheme(Integer themeId)
     parameters:
     - id: themeId
       type: CRMScript.Global.Integer
-      description: ID of the theme to delete.
     return:
       type: CRMScript.Global.Void
-      description:
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.DeleteDashTile(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.DeleteDashTile
   id: 'DeleteDashTile(Integer)'
@@ -296,19 +329,17 @@ items:
   - crmscript
   name: 'DeleteDashTile(Integer)'
   nameWithType: NSDashAgent.DeleteDashTile(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.DeleteDashTile(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.DeleteDashTile
   type: Method
-  summary: "\nDeletes the specified dashboard tile by ID.\n"
+  summary: "\nDeletes a specified dashboard tile.\n"
   syntax:
     content: Void DeleteDashTile(Integer tileId)
     parameters:
     - id: tileId
       type: CRMScript.Global.Integer
-      description: ID of the tile to delete.
     return:
       type: CRMScript.Global.Void
-      description:
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.DeleteDashTileDefinition(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.DeleteDashTileDefinition
   id: 'DeleteDashTileDefinition(Integer)'
@@ -317,67 +348,59 @@ items:
   - crmscript
   name: 'DeleteDashTileDefinition(Integer)'
   nameWithType: NSDashAgent.DeleteDashTileDefinition(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.DeleteDashTileDefinition(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.DeleteDashTileDefinition
   type: Method
-  summary: "\nDeletes the specified dashboard tile definition by ID.\n"
+  summary: "\nDeletes the specified tile definition.\n"
   syntax:
     content: Void DeleteDashTileDefinition(Integer tileDefinitionId)
     parameters:
     - id: tileDefinitionId
       type: CRMScript.Global.Integer
-      description: ID of the tile definition to delete.
     return:
       type: CRMScript.Global.Void
-      description:
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.DuplicateDashboard(Integer, String)
   commentId: M:CRMScript.NetServer.NSDashAgent.DuplicateDashboard
-  id: 'DuplicateDashboard(Integer,String)'
+  id: 'DuplicateDashboard(Integer, String)'
   so.intellisense: NSDashAgent.DuplicateDashboard
   langs:
   - crmscript
-  name: 'DuplicateDashboard(Integer,String)'
-  nameWithType: NSDashAgent.DuplicateDashboard(Integer,String)
-  fullName: CRMScript.NetServer.NSDashAgent.DuplicateDashboard(Integer,String)
+  name: 'DuplicateDashboard(Integer, String)'
+  nameWithType: NSDashAgent.DuplicateDashboard(Integer, String)
+  fullName: CRMScript.NetServer.NSDashAgent.DuplicateDashboard
   type: Method
-  summary: "\nDuplicates a dashboard with a new name.\n"
+  summary: "\nCreates a copy of the specified dashboard with a new name.\n"
   syntax:
-    content: NSDash DuplicateDashboard(Integer dashboardId, String newName)
+    content: NSDash DuplicateDashboard(Integer dashId, String newName)
     parameters:
-    - id: dashboardId
+    - id: dashId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard to duplicate.
     - id: newName
       type: CRMScript.Global.String
-      description: New name for the duplicated dashboard.
     return:
       type: CRMScript.NetServer.NSDash
-      description: Duplicated dashboard.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.DuplicateTile(Integer, String)
   commentId: M:CRMScript.NetServer.NSDashAgent.DuplicateTile
-  id: 'DuplicateTile(Integer,String)'
+  id: 'DuplicateTile(Integer, String)'
   so.intellisense: NSDashAgent.DuplicateTile
   langs:
   - crmscript
-  name: 'DuplicateTile(Integer,String)'
-  nameWithType: NSDashAgent.DuplicateTile(Integer,String)
-  fullName: CRMScript.NetServer.NSDashAgent.DuplicateTile(Integer,String)
+  name: 'DuplicateTile(Integer, String)'
+  nameWithType: NSDashAgent.DuplicateTile(Integer, String)
+  fullName: CRMScript.NetServer.NSDashAgent.DuplicateTile
   type: Method
-  summary: "\nDuplicates a dashboard tile with a new name.\n"
+  summary: "\nDuplicates a tile with a new name.\n"
   syntax:
     content: NSDashTile DuplicateTile(Integer tileId, String newName)
     parameters:
     - id: tileId
       type: CRMScript.Global.Integer
-      description: ID of the tile to duplicate.
     - id: newName
       type: CRMScript.Global.String
-      description: New name for the duplicated tile.
     return:
       type: CRMScript.NetServer.NSDashTile
-      description: Duplicated dashboard tile.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetDash(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDash
   id: 'GetDash(Integer)'
@@ -386,37 +409,34 @@ items:
   - crmscript
   name: 'GetDash(Integer)'
   nameWithType: NSDashAgent.GetDash(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetDash(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetDash
   type: Method
-  summary: "\nRetrieves a dashboard by ID.\n"
+  summary: "\nRetrieves a specific dashboard by ID.\n"
   syntax:
-    content: NSDash GetDash(Integer dashboardId)
+    content: NSDash GetDash(Integer dashId)
     parameters:
-    - id: dashboardId
+    - id: dashId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard to retrieve.
     return:
       type: CRMScript.NetServer.NSDash
-      description: Retrieved dashboard instance.
-  example: 
-- uid: CRMScript.NetServer.NSDashAgent.GetDashCollection()
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.GetDashCollection
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDashCollection
-  id: 'GetDashCollection()'
+  id: 'GetDashCollection'
   so.intellisense: NSDashAgent.GetDashCollection
   langs:
   - crmscript
-  name: 'GetDashCollection()'
-  nameWithType: NSDashAgent.GetDashCollection()
-  fullName: CRMScript.NetServer.NSDashAgent.GetDashCollection()
+  name: 'GetDashCollection'
+  nameWithType: NSDashAgent.GetDashCollection
+  fullName: CRMScript.NetServer.NSDashAgent.GetDashCollection
   type: Method
-  summary: "\nRetrieves the default collection of dashboards.\n"
+  summary: "\nRetrieves the current collection of dashboards.\n"
   syntax:
     content: NSDashCollection GetDashCollection()
     parameters: []
     return:
       type: CRMScript.NetServer.NSDashCollection
-      description: Default collection of dashboards.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetDashList(Integer[])
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDashList
   id: 'GetDashList(Integer[])'
@@ -425,19 +445,17 @@ items:
   - crmscript
   name: 'GetDashList(Integer[])'
   nameWithType: NSDashAgent.GetDashList(Integer[])
-  fullName: CRMScript.NetServer.NSDashAgent.GetDashList(Integer[])
+  fullName: CRMScript.NetServer.NSDashAgent.GetDashList
   type: Method
-  summary: "\nRetrieves a list of dashboards by their IDs.\n"
+  summary: "\nRetrieves a list of dashboards based on an array of IDs.\n"
   syntax:
-    content: NSDash[] GetDashList(Integer[] dashboardIds)
+    content: NSDash[] GetDashList(Integer[] dashIds)
     parameters:
-    - id: dashboardIds
+    - id: dashIds
       type: CRMScript.Global.Integer[]
-      description: Array of dashboard IDs to retrieve.
     return:
       type: CRMScript.NetServer.NSDash[]
-      description: Array of retrieved dashboards.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetDashTheme(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDashTheme
   id: 'GetDashTheme(Integer)'
@@ -446,19 +464,17 @@ items:
   - crmscript
   name: 'GetDashTheme(Integer)'
   nameWithType: NSDashAgent.GetDashTheme(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetDashTheme(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetDashTheme
   type: Method
-  summary: "\nRetrieves a dashboard theme by ID.\n"
+  summary: "\nRetrieves a specific dashboard theme by ID.\n"
   syntax:
     content: NSDashTheme GetDashTheme(Integer themeId)
     parameters:
     - id: themeId
       type: CRMScript.Global.Integer
-      description: ID of the theme to retrieve.
     return:
       type: CRMScript.NetServer.NSDashTheme
-      description: Retrieved dashboard theme.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetDashTile(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDashTile
   id: 'GetDashTile(Integer)'
@@ -467,19 +483,17 @@ items:
   - crmscript
   name: 'GetDashTile(Integer)'
   nameWithType: NSDashAgent.GetDashTile(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetDashTile(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetDashTile
   type: Method
-  summary: "\nRetrieves a dashboard tile by ID.\n"
+  summary: "\nRetrieves a specific tile from a dashboard by ID.\n"
   syntax:
     content: NSDashTile GetDashTile(Integer tileId)
     parameters:
     - id: tileId
       type: CRMScript.Global.Integer
-      description: ID of the tile to retrieve.
     return:
       type: CRMScript.NetServer.NSDashTile
-      description: Retrieved dashboard tile.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetDashTileDefinition(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDashTileDefinition
   id: 'GetDashTileDefinition(Integer)'
@@ -488,43 +502,38 @@ items:
   - crmscript
   name: 'GetDashTileDefinition(Integer)'
   nameWithType: NSDashAgent.GetDashTileDefinition(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetDashTileDefinition(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetDashTileDefinition
   type: Method
-  summary: "\nRetrieves a dashboard tile definition by ID.\n"
+  summary: "\nRetrieves a tile definition by ID.\n"
   syntax:
     content: NSDashTileDefinition GetDashTileDefinition(Integer tileDefinitionId)
     parameters:
     - id: tileDefinitionId
       type: CRMScript.Global.Integer
-      description: ID of the tile definition to retrieve.
     return:
       type: CRMScript.NetServer.NSDashTileDefinition
-      description: Retrieved dashboard tile definition.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetDashTileHtml(Integer, String)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDashTileHtml
-  id: 'GetDashTileHtml(Integer,String)'
+  id: 'GetDashTileHtml(Integer, String)'
   so.intellisense: NSDashAgent.GetDashTileHtml
   langs:
   - crmscript
-  name: 'GetDashTileHtml(Integer,String)'
-  nameWithType: NSDashAgent.GetDashTileHtml(Integer,String)
-  fullName: CRMScript.NetServer.NSDashAgent.GetDashTileHtml(Integer,String)
+  name: 'GetDashTileHtml(Integer, String)'
+  nameWithType: NSDashAgent.GetDashTileHtml(Integer, String)
+  fullName: CRMScript.NetServer.NSDashAgent.GetDashTileHtml
   type: Method
-  summary: "\nRetrieves the HTML content of a dashboard tile by ID.\n"
+  summary: "\nRetrieves the HTML content for a specific dashboard tile.\n"
   syntax:
-    content: NSDashTileHtml GetDashTileHtml(Integer tileId, String languageCode)
+    content: NSDashTileHtml GetDashTileHtml(Integer tileId, String context)
     parameters:
     - id: tileId
       type: CRMScript.Global.Integer
-      description: ID of the tile to retrieve.
-    - id: languageCode
+    - id: context
       type: CRMScript.Global.String
-      description: Language code for the HTML content.
     return:
-      type: CRMScipt.NetServer.NSDashTileHtml
-      description: HTML content of the dashboard tile.
-  example: 
+      type: CRMScript.NetServer.NSDashTileHtml
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetDashTileHtmlList(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDashTileHtmlList
   id: 'GetDashTileHtmlList(Integer)'
@@ -533,19 +542,17 @@ items:
   - crmscript
   name: 'GetDashTileHtmlList(Integer)'
   nameWithType: NSDashAgent.GetDashTileHtmlList(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetDashTileHtmlList(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetDashTileHtmlList
   type: Method
-  summary: "\nRetrieves a list of HTML content for tiles within a dashboard by ID.\n"
+  summary: "\nRetrieves a list of HTML content for all tiles in a dashboard.\n"
   syntax:
-    content: NSDashTileHtml[] GetDashTileHtmlList(Integer dashboardId)
+    content: NSDashTileHtml[] GetDashTileHtmlList(Integer dashId)
     parameters:
-    - id: dashboardId
+    - id: dashId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard whose tiles' HTML content to retrieve.
     return:
-      type: CRMScipt.NetServer.NSDashTileHtml[]
-      description: Array of HTML content for each tile in the dashboard.
-  example: 
+      type: CRMScript.NetServer.NSDashTileHtml[]
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetDashTiles(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetDashTiles
   id: 'GetDashTiles(Integer)'
@@ -554,19 +561,17 @@ items:
   - crmscript
   name: 'GetDashTiles(Integer)'
   nameWithType: NSDashAgent.GetDashTiles(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetDashTiles(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetDashTiles
   type: Method
-  summary: "\nRetrieves a list of tiles for the specified dashboard by ID.\n"
+  summary: "\nRetrieves all tiles in the specified dashboard.\n"
   syntax:
-    content: NSDashTile[] GetDashTiles(Integer dashboardId)
+    content: NSDashTile[] GetDashTiles(Integer dashId)
     parameters:
-    - id: dashboardId
+    - id: dashId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard whose tiles to retrieve.
     return:
       type: CRMScript.NetServer.NSDashTile[]
-      description: Array of tiles within the dashboard.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetPreviewDash(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetPreviewDash
   id: 'GetPreviewDash(Integer)'
@@ -575,19 +580,17 @@ items:
   - crmscript
   name: 'GetPreviewDash(Integer)'
   nameWithType: NSDashAgent.GetPreviewDash(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetPreviewDash(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetPreviewDash
   type: Method
-  summary: "\nRetrieves a preview of the dashboard by ID.\n"
+  summary: "\nRetrieves a preview version of a specific dashboard.\n"
   syntax:
-    content: NSPreviewDash GetPreviewDash(Integer dashboardId)
+    content: NSPreviewDash GetPreviewDash(Integer dashId)
     parameters:
-    - id: dashboardId
+    - id: dashId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard to preview.
     return:
       type: CRMScript.NetServer.NSPreviewDash
-      description: Preview of the specified dashboard.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetSecondaryTempTileSelection(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetSecondaryTempTileSelection
   id: 'GetSecondaryTempTileSelection(Integer)'
@@ -596,19 +599,17 @@ items:
   - crmscript
   name: 'GetSecondaryTempTileSelection(Integer)'
   nameWithType: NSDashAgent.GetSecondaryTempTileSelection(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetSecondaryTempTileSelection(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetSecondaryTempTileSelection
   type: Method
-  summary: "\nRetrieves a secondary temporary tile selection by ID.\n"
+  summary: "\nRetrieves the secondary temporary tile selection by ID.\n"
   syntax:
     content: Integer GetSecondaryTempTileSelection(Integer selectionId)
     parameters:
     - id: selectionId
       type: CRMScript.Global.Integer
-      description: ID of the secondary temporary selection to retrieve.
     return:
       type: CRMScript.Global.Integer
-      description: ID of the retrieved secondary temporary selection.
-  example: 
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.GetTempTileSelection(Integer)
   commentId: M:CRMScript.NetServer.NSDashAgent.GetTempTileSelection
   id: 'GetTempTileSelection(Integer)'
@@ -617,40 +618,38 @@ items:
   - crmscript
   name: 'GetTempTileSelection(Integer)'
   nameWithType: NSDashAgent.GetTempTileSelection(Integer)
-  fullName: CRMScript.NetServer.NSDashAgent.GetTempTileSelection(Integer)
+  fullName: CRMScript.NetServer.NSDashAgent.GetTempTileSelection
   type: Method
-  summary: "\nRetrieves a temporary tile selection by ID.\n"
+  summary: "\nRetrieves the temporary tile selection by ID.\n"
   syntax:
     content: Integer GetTempTileSelection(Integer selectionId)
     parameters:
     - id: selectionId
       type: CRMScript.Global.Integer
-      description: ID of the temporary selection to retrieve.
     return:
       type: CRMScript.Global.Integer
-      description: ID of the retrieved temporary selection.
-  example: 
-- uid: CRMScript.NetServer.NSDashAgent.SaveDash(NSDash)
+  example:
+- uid: CRMScript.NetServer.NSDashAgent.SaveDash(Integer, NSDash)
   commentId: M:CRMScript.NetServer.NSDashAgent.SaveDash
-  id: 'SaveDash(NSDash)'
+  id: 'SaveDash(Integer, NSDash)'
   so.intellisense: NSDashAgent.SaveDash
   langs:
   - crmscript
-  name: 'SaveDash(NSDash)'
-  nameWithType: NSDashAgent.SaveDash(NSDash)
-  fullName: CRMScript.NetServer.NSDashAgent.SaveDash(NSDash)
+  name: 'SaveDash(Integer, NSDash)'
+  nameWithType: NSDashAgent.SaveDash(Integer, NSDash)
+  fullName: CRMScript.NetServer.NSDashAgent.SaveDash
   type: Method
-  summary: "\nSaves the specified dashboard.\n"
+  summary: "\nSaves the specified dashboard with given data.\n"
   syntax:
-    content: NSDash SaveDash(NSDash dash)
+    content: Void SaveDash(Integer dashId, NSDash dashData)
     parameters:
-    - id: dash
+    - id: dashId
+      type: CRMScript.Global.Integer
+    - id: dashData
       type: CRMScript.NetServer.NSDash
-      description: Dashboard to save.
     return:
-      type: CRMScript.NetServer.NSDash
-      description: Saved dashboard instance.
-  example: 
+      type: CRMScript.Global.Void
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.SaveDashTheme(NSDashTheme)
   commentId: M:CRMScript.NetServer.NSDashAgent.SaveDashTheme
   id: 'SaveDashTheme(NSDashTheme)'
@@ -659,19 +658,17 @@ items:
   - crmscript
   name: 'SaveDashTheme(NSDashTheme)'
   nameWithType: NSDashAgent.SaveDashTheme(NSDashTheme)
-  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTheme(NSDashTheme)
+  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTheme
   type: Method
   summary: "\nSaves the specified dashboard theme.\n"
   syntax:
-    content: NSDashTheme SaveDashTheme(NSDashTheme theme)
+    content: Void SaveDashTheme(NSDashTheme theme)
     parameters:
     - id: theme
       type: CRMScript.NetServer.NSDashTheme
-      description: Theme to save.
     return:
-      type: CRMScript.NetServer.NSDashTheme
-      description: Saved dashboard theme instance.
-  example: 
+      type: CRMScript.Global.Void
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.SaveDashTile(NSDashTile)
   commentId: M:CRMScript.NetServer.NSDashAgent.SaveDashTile
   id: 'SaveDashTile(NSDashTile)'
@@ -680,19 +677,17 @@ items:
   - crmscript
   name: 'SaveDashTile(NSDashTile)'
   nameWithType: NSDashAgent.SaveDashTile(NSDashTile)
-  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTile(NSDashTile)
+  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTile
   type: Method
   summary: "\nSaves the specified dashboard tile.\n"
   syntax:
-    content: NSDashTile SaveDashTile(NSDashTile tile)
+    content: Void SaveDashTile(NSDashTile tile)
     parameters:
     - id: tile
       type: CRMScript.NetServer.NSDashTile
-      description: Tile to save.
     return:
-      type: CRMScript.NetServer.NSDashTile
-      description: Saved dashboard tile instance.
-  example: 
+      type: CRMScript.Global.Void
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.SaveDashTileDefinition(NSDashTileDefinition)
   commentId: M:CRMScript.NetServer.NSDashAgent.SaveDashTileDefinition
   id: 'SaveDashTileDefinition(NSDashTileDefinition)'
@@ -701,67 +696,59 @@ items:
   - crmscript
   name: 'SaveDashTileDefinition(NSDashTileDefinition)'
   nameWithType: NSDashAgent.SaveDashTileDefinition(NSDashTileDefinition)
-  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTileDefinition(NSDashTileDefinition)
+  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTileDefinition
   type: Method
   summary: "\nSaves the specified dashboard tile definition.\n"
   syntax:
-    content: NSDashTileDefinition SaveDashTileDefinition(NSDashTileDefinition tileDefinition)
+    content: Void SaveDashTileDefinition(NSDashTileDefinition tileDefinition)
     parameters:
     - id: tileDefinition
       type: CRMScript.NetServer.NSDashTileDefinition
-      description: Tile definition to save.
     return:
-      type: CRMScript.NetServer.NSDashTileDefinition
-      description: Saved tile definition instance.
-  example: 
+      type: CRMScript.Global.Void
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.SaveDashTileHtmlList(Integer, NSDashTileHtml[])
   commentId: M:CRMScript.NetServer.NSDashAgent.SaveDashTileHtmlList
-  id: 'SaveDashTileHtmlList(Integer,NSDashTileHtml[])'
+  id: 'SaveDashTileHtmlList(Integer, NSDashTileHtml[])'
   so.intellisense: NSDashAgent.SaveDashTileHtmlList
   langs:
   - crmscript
-  name: 'SaveDashTileHtmlList(Integer,NSDashTileHtml[])'
-  nameWithType: NSDashAgent.SaveDashTileHtmlList(Integer,NSDashTileHtml[])
-  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTileHtmlList(Integer,NSDashTileHtml[])
+  name: 'SaveDashTileHtmlList(Integer, NSDashTileHtml[])'
+  nameWithType: NSDashAgent.SaveDashTileHtmlList(Integer, NSDashTileHtml[])
+  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTileHtmlList
   type: Method
-  summary: "\nSaves a list of HTML content for tiles within a dashboard.\n"
+  summary: "\nSaves a list of HTML content for dashboard tiles.\n"
   syntax:
-    content: NSDashTileHtml[] SaveDashTileHtmlList(Integer dashboardId, NSDashTileHtml[] tileHtmlList)
+    content: Void SaveDashTileHtmlList(Integer dashId, NSDashTileHtml[] tileHtmlList)
     parameters:
-    - id: dashboardId
+    - id: dashId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard whose tile HTML content to save.
     - id: tileHtmlList
       type: CRMScript.NetServer.NSDashTileHtml[]
-      description: Array of HTML content to save for each tile in the dashboard.
     return:
-      type: CRMScipt.NetServer.NSDashTileHtml[]
-      description: Array of saved HTML content for the tiles.
-  example: 
+      type: CRMScript.Global.Void
+  example:
 - uid: CRMScript.NetServer.NSDashAgent.SaveDashTiles(Integer, NSDashTile[])
   commentId: M:CRMScript.NetServer.NSDashAgent.SaveDashTiles
-  id: 'SaveDashTiles(Integer,NSDashTile[])'
+  id: 'SaveDashTiles(Integer, NSDashTile[])'
   so.intellisense: NSDashAgent.SaveDashTiles
   langs:
   - crmscript
-  name: 'SaveDashTiles(Integer,NSDashTile[])'
-  nameWithType: NSDashAgent.SaveDashTiles(Integer,NSDashTile[])
-  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTiles(Integer,NSDashTile[])
+  name: 'SaveDashTiles(Integer, NSDashTile[])'
+  nameWithType: NSDashAgent.SaveDashTiles(Integer, NSDashTile[])
+  fullName: CRMScript.NetServer.NSDashAgent.SaveDashTiles
   type: Method
-  summary: "\nSaves a list of tiles for the specified dashboard.\n"
+  summary: "\nSaves multiple tiles for the specified dashboard.\n"
   syntax:
-    content: Void SaveDashTiles(Integer dashboardId, NSDashTile[] tiles)
+    content: Void SaveDashTiles(Integer dashId, NSDashTile[] tiles)
     parameters:
-    - id: dashboardId
+    - id: dashId
       type: CRMScript.Global.Integer
-      description: ID of the dashboard to save tiles for.
     - id: tiles
       type: CRMScript.NetServer.NSDashTile[]
-      description: Array of tiles to save in the dashboard.
     return:
       type: CRMScript.Global.Void
-      description:
-  example: 
+  example:
 references:
 - uid: CRMScript.NetServer.NSDashAgent
   commentId: T:CRMScript.NetServer.NSDashAgent
@@ -769,87 +756,122 @@ references:
   name: NSDashAgent
   nameWithType: CRMScript.NetServer.NSDashAgent
   fullName: CRMScript.NetServer.NSDashAgent
-- uid: CRMScript.Global.Void
-  commentId: T:CRMScript.Global.Void
-  isExternal: true
-  name: Void
-  nameWithType: Void
-  fullName: CRMScript.Global.Void
-- uid: CRMScript.Global.String
-  commentId: T:CRMScript.Global.String
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: CRMScript.Global.String
-- uid: CRMScript.Global.Integer
-  commentId: T:CRMScript.Global.Integer
-  isExternal: true
-  name: Integer
-  nameWithType: Integer
-  fullName: CRMScript.Global.Integer
-- uid: CRMScript.Global.Integer[]
-  commentId: T:CRMScript.Global.Integer[]
-  isExternal: true
-  name: Integer[]
-  nameWithType: Integer[]
-  fullName: CRMScript.Global.Integer[]
 - uid: CRMScript.NetServer.NSDash
   commentId: T:CRMScript.NetServer.NSDash
   isExternal: true
   name: NSDash
   nameWithType: NSDash
   fullName: CRMScript.NetServer.NSDash
-- uid: CRMScript.NetServer.NSDash[]
-  commentId: T:CRMScript.NetServer.NSDash[]
-  isExternal: true
-  name: NSDash[]
-  nameWithType: NSDash[]
-  fullName: CRMScript.NetServer.NSDash[]
+  summary: "\nRepresents an individual dashboard object in the system.\n"
+  
 - uid: CRMScript.NetServer.NSDashCollection
   commentId: T:CRMScript.NetServer.NSDashCollection
   isExternal: true
   name: NSDashCollection
   nameWithType: NSDashCollection
   fullName: CRMScript.NetServer.NSDashCollection
+  summary: "\nRepresents a collection of dashboards.\n"
+
 - uid: CRMScript.NetServer.NSDashTheme
   commentId: T:CRMScript.NetServer.NSDashTheme
   isExternal: true
   name: NSDashTheme
   nameWithType: NSDashTheme
   fullName: CRMScript.NetServer.NSDashTheme
+  summary: "\nRepresents the theme settings for a dashboard.\n"
+
 - uid: CRMScript.NetServer.NSDashTile
   commentId: T:CRMScript.NetServer.NSDashTile
   isExternal: true
   name: NSDashTile
   nameWithType: NSDashTile
   fullName: CRMScript.NetServer.NSDashTile
-- uid: CRMScript.NetServer.NSDashTile[]
-  commentId: T:CRMScript.NetServer.NSDashTile[]
-  isExternal: true
-  name: NSDashTile[]
-  nameWithType: NSDashTile[]
-  fullName: CRMScript.NetServer.NSDashTile[]
+  summary: "\nRepresents an individual tile within a dashboard.\n"
+
 - uid: CRMScript.NetServer.NSDashTileDefinition
   commentId: T:CRMScript.NetServer.NSDashTileDefinition
   isExternal: true
   name: NSDashTileDefinition
   nameWithType: NSDashTileDefinition
   fullName: CRMScript.NetServer.NSDashTileDefinition
+  summary: "\nDefines the structure and settings for a dashboard tile.\n"
+
 - uid: CRMScript.NetServer.NSDashTileHtml
   commentId: T:CRMScript.NetServer.NSDashTileHtml
   isExternal: true
   name: NSDashTileHtml
   nameWithType: NSDashTileHtml
   fullName: CRMScript.NetServer.NSDashTileHtml
-- uid: CRMScript.NetServer.NSDashTileHtml[]
-  commentId: T:CRMScript.NetServer.NSDashTileHtml[]
-  isExternal: true
-  name: NSDashTileHtml[]
-  nameWithType: NSDashTileHtml[]
-  fullName: CRMScript.NetServer.NSDashTileHtml[]
+  summary: "\nRepresents HTML content associated with a dashboard tile.\n"
+
 - uid: CRMScript.NetServer.NSPreviewDash
   commentId: T:CRMScript.NetServer.NSPreviewDash
   isExternal: true
   name: NSPreviewDash
   nameWithType: NSPreviewDash
   fullName: CRMScript.NetServer.NSPreviewDash
+  summary: "\nRepresents a preview version of a dashboard.\n"
+
+- uid: CRMScript.NetServer.NSPreviewDashTile
+  commentId: T:CRMScript.NetServer.NSPreviewDashTile
+  isExternal: true
+  name: NSPreviewDashTile
+  nameWithType: NSPreviewDashTile
+  fullName: CRMScript.NetServer.NSPreviewDashTile
+  summary: "\nRepresents a preview tile for a dashboard.\n"
+
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+  summary: "\nRepresents a void return type, indicating no return value.\n"
+
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+  summary: "\nRepresents an integer data type.\n"
+
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+  summary: "\nRepresents a string data type.\n"
+
+- uid: CRMScript.NetServer.NSDash[]
+  commentId: T:CRMScript.NetServer.NSDash[]
+  isExternal: true
+  name: NSDash[]
+  nameWithType: NSDash[]
+  fullName: CRMScript.NetServer.NSDash[]
+  summary: "\nRepresents an array of NSDash objects.\n"
+
+- uid: CRMScript.NetServer.NSDashTileHtml[]
+  commentId: T:CRMScript.NetServer.NSDashTileHtml[]
+  isExternal: true
+  name: NSDashTileHtml[]
+  nameWithType: NSDashTileHtml[]
+  fullName: CRMScript.NetServer.NSDashTileHtml[]
+  summary: "\nRepresents an array of NSDashTileHtml objects.\n"
+
+- uid: CRMScript.NetServer.NSDashTile[]
+  commentId: T:CRMScript.NetServer.NSDashTile[]
+  isExternal: true
+  name: NSDashTile[]
+  nameWithType: NSDashTile[]
+  fullName: CRMScript.NetServer.NSDashTile[]
+  summary: "\nRepresents an array of NSDashTile objects.\n"
+
+- uid: CRMScript.Global.Integer[]
+  commentId: T:CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  summary: "\nRepresents an array of Integer values.\n"
