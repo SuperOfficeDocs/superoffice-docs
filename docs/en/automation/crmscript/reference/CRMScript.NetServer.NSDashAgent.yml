@@ -763,6 +763,12 @@ items:
       description:
   example: 
 references:
+- uid: CRMScript.NetServer.NSDashAgent
+  commentId: T:CRMScript.NetServer.NSDashAgent
+  isExternal: true
+  name: NSDashAgent
+  nameWithType: CRMScript.NetServer.NSDashAgent
+  fullName: CRMScript.NetServer.NSDashAgent
 - uid: CRMScript.Global.Void
   commentId: T:CRMScript.Global.Void
   isExternal: true

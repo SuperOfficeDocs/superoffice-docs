@@ -112,6 +112,12 @@ items:
       description:
   example: 
 references:
+- uid: CRMScript.NetServer.NSDashTileHtml
+  commentId: T:CRMScript.NetServer.NSDashTileHtml
+  isExternal: true
+  name: NSDashTileHtml
+  nameWithType: CRMScript.NetServer.NSDashTileHtml
+  fullName: CRMScript.NetServer.NSDashTileHtml
 - uid: CRMScript.Global.Void
   commentId: T:CRMScript.Global.Void
   isExternal: true

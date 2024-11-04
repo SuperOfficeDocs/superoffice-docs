@@ -288,6 +288,12 @@ items:
       description:
   example: 
 references:
+- uid: CRMScript.NetServer.NSDashTheme
+  commentId: T:CRMScript.NetServer.NSDashTheme
+  isExternal: true
+  name: NSDashTheme
+  nameWithType: CRMScript.NetServer.NSDashTheme
+  fullName: CRMScript.NetServer.NSDashTheme
 - uid: CRMScript.Global.String
   commentId: T:CRMScript.Global.String
   isExternal: true

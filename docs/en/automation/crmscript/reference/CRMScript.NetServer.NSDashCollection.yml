@@ -165,6 +165,12 @@ items:
       description:
   example: 
 references:
+- uid: CRMScript.NetServer.NSDashCollection
+  commentId: T:CRMScript.NetServer.NSDashCollection
+  isExternal: true
+  name: NSDashCollection
+  nameWithType: CRMScript.NetServer.NSDashCollection
+  fullName: CRMScript.NetServer.NSDashCollection
 - uid: CRMScript.NetServer.NSDash[]
   commentId: T:CRMScript.NetServer.NSDash[]
   isExternal: true
