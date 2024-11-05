@@ -96,6 +96,8 @@ items:
         href: webhook/reference/project-member-events.md
       - name: Quote events
         href: webhook/reference/quote-events.md
+      - name: Relation events
+        href: webhook/reference/relation-events.md
       - name: Sale events
         href: webhook/reference/sale-events.md
       - name: Sale stakeholder events
