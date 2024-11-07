@@ -2,8 +2,8 @@
 title: Tested client OS
 uid: tested_client_os
 description: Tested client OS
-author: {github-id}
-date: 09.12.2023
+author: Martin Pavlas
+date: 07.11.2024
 keywords:
 topic: reference
 envir: onsite
@@ -41,6 +41,7 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 
 | OS                 | 8.0, SR1, SR2 | 8.0 SR3 - 8.1 | 8.2 - 8.3 | 8.4 | 8.5 | 9 | 10 |
 |--------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| MacOS Sequoia      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MacOS Sonoma       | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MacOS Ventura      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MacOS Monterey     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
@@ -50,7 +51,6 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 | MacOS High Sierra  | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] |
 | MacOS Sierra       | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] |
 | MacOS X El Capitan | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] |
-| MacOS X Yosemite   | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] |
 
 > [!NOTE]
 > For Mac users, the biggest source of incompatibility is our WebTools. So for the Mac OS versions not part of our tested configurations, this is the most likely part of the product that will not work.

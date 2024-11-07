@@ -2,7 +2,8 @@
 title: Compatibility reports
 uid: onsite_compatibility_reports
 description: Compatibility test reports for SuperOffice onsite
-author: {github-id}
+author: Martin Pavlas
+date: 07.11.2024
 keywords: requirements
 topic: reference
 envir: onsite
@@ -14,6 +15,14 @@ envir: onsite
 The published compatibility test reports. A **Test Passed** status is a 90% assurance that this product will work as intended in the environment tested.
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
+
+## MacOS Sequoia
+
+![macOS Sequoia][img21]
+
+We have tested SuperOffice Web, Service and WebTools for Mac 13.0.131.0 on MacOS Sequoia. No issues were found during testing. The report was made on October 24th 2024.
+
+<a href="../../../assets/downloads/compatibility/maclink---os-macos-sequoia.xlsx" download>Click to download report</a>
 
 ## MacOS Sonoma
 
@@ -190,3 +199,4 @@ Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 
 [img18]: media/macos-ventura.png
 [img19]: media/sql-server-2022.png
 [img20]: media/macos-sonoma.png
+[img21]: media/macos-sequoia.jpg
