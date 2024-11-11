@@ -1,10 +1,10 @@
 ---
-title: Compatibility reports
 uid: onsite_compatibility_reports
+title: Compatibility reports
 description: Compatibility test reports for SuperOffice onsite
+keywords: requirements, compatibility test, compatibility report, onsite compatibility
 author: Martin Pavlas
-date: 07.11.2024
-keywords: requirements
+date: 11.07.2024
 topic: reference
 envir: onsite
 # client:
@@ -20,7 +20,7 @@ We make the compatibility reports when other vendors release newer versions afte
 
 ![macOS Sequoia][img21]
 
-We have tested SuperOffice Web, Service and WebTools for Mac 13.0.131.0 on MacOS Sequoia. No issues were found during testing. The report was made on October 24th 2024.
+We have tested SuperOffice Web, Service, and WebTools for Mac 13.0.131.0 on MacOS Sequoia. No issues were found during testing. The report was made on October 24th 2024.
 
 <a href="../../../assets/downloads/compatibility/maclink---os-macos-sequoia.xlsx" download>Click to download report</a>
 
@@ -28,7 +28,7 @@ We have tested SuperOffice Web, Service and WebTools for Mac 13.0.131.0 on MacOS
 
 ![macOS Sonoma][img20]
 
-We have tested SuperOffice Web, Service and WebTools for Mac 12.0.69.0 on MacOS Sonoma. No issues were found during testing. The report was made on September 30th 2023.
+We have tested SuperOffice Web, Service, and WebTools for Mac 12.0.69.0 on MacOS Sonoma. No issues were found during testing. The report was made on September 30th 2023.
 
 <a href="../../../assets/downloads/compatibility/maclink---os-macos-sonoma.xlsx" download>Click to download report</a>
 
@@ -44,7 +44,7 @@ Microsoft SQL Server 2022 tested with SuperOffice 10.1.6 along with ODBC driver 
 
 ![macOS Ventura][img18]
 
-We have tested SuperOffice Web, Service and WebTools for Mac 11.5.7948 on MacOS Ventura. We’ve conducted the test on MacOS Ventura Beta release as the final RTM is not yet released. No issues were found during testing. The report was made on September 29th 2022.
+We have tested SuperOffice Web, Service, and WebTools for Mac 11.5.7948 on MacOS Ventura. We’ve conducted the test on MacOS Ventura Beta release as the final RTM is not yet released. No issues were found during testing. The report was made on September 29th 2022.
 
 <a href="../../../assets/downloads/compatibility/maclink---os-macos-ventura.xlsx" download>Click to download report</a>
 
@@ -60,7 +60,7 @@ We have tested Microsoft Office 2021 with SuperOffice 10. We put more focus on O
 
 ![macos-monterey.jpg][img15]
 
-We have tested SuperOffice Web, Service and WebTools for Mac 11.5.7948 on MacOS Monterey. No issues were found during testing. The report was made on November 26th 2021.
+We have tested SuperOffice Web, Service, and WebTools for Mac 11.5.7948 on MacOS Monterey. No issues were found during testing. The report was made on November 26th 2021.
 
 <a href="../../../assets/downloads/compatibility/maclink---os-macosmonterey.xlsx" download>Click to download report</a>
 
@@ -164,7 +164,7 @@ We have tested SuperOffice 8 version 8.0.6144 (SR4) for all clients (Win, Web, C
 
 ![sqlexpress.png][img12]
 
-The objective of the test was to verify that SQL Express 2016m, which is normally used as a Travel DB for CRM clients, also can be used as the main DB for the CRM clients. DB Compatibility test for SuperOffice version 8.0 SR2 [Win, Web, CS) was carried out. Please note that this database version has limitations and may not suit your needs. The report was made on July 29th 2016.
+The objective of the test was to verify that SQL Express 2016m, which is normally used as a Travel DB for CRM clients, also can be used as the main DB for the CRM clients. DB Compatibility test for SuperOffice version 8.0 SR2 (Win, Web, CS) was carried out. Please note that this database version has limitations and may not suit your needs. The report was made on July 29th 2016.
 
 <a href="../../../assets/downloads/compatibility/sql-server-2016-express.xlsx" download>Click to download report</a>
 

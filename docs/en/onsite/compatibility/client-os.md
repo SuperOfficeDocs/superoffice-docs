@@ -1,10 +1,10 @@
 ---
-title: Tested client OS
 uid: tested_client_os
+title: Tested client OS
 description: Tested client OS
+keywords: client operating system, Windows compatibility, MacOS compatibility, Sequoia, Sonoma, Windows 11
 author: Martin Pavlas
-date: 07.11.2024
-keywords:
+date: 11.07.2024
 topic: reference
 envir: onsite
 # client:
