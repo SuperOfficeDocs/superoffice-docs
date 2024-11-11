@@ -53,7 +53,7 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 | MacOS X El Capitan | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] |
 
 > [!NOTE]
-> For Mac users, the biggest source of incompatibility is our WebTools. So for the Mac OS versions not part of our tested configurations, this is the most likely part of the product that will not work.
+> WebTools is the primary source of incompatibility for Mac users. For Mac OS versions that are not included in our tested configurations, WebTools is the component most likely to experience issues.
 
 ## Legend
 
