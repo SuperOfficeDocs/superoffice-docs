@@ -21,6 +21,9 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### SuperOffice CRM
 
+* 10.3.12 (18.11.2024):
+  * [User preferences - search option (10.3.12)][12]
+
 * 10.3.11 (29.10.2024):
   * [Document dialog - Clean and intuitive (10.3.11)][44] in Core CRM
   * [Selection - Task for print selection (10.3.11)][44] in Core CRM

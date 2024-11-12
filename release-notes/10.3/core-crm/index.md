@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM
 
+* [User preferences - search option (10.3.12)][12]
 * [Document dialog - Clean and intuitive (10.3.11)][11]
 * [Selection - Task for print selection (10.3.11)][11]
 * [Selection - Task for print labels (10.3.10)][10]
@@ -31,3 +32,4 @@ audience_tooltip: SuperOffice CRM
 [9]: 10.3.9-update.md
 [10]: 10.3.10-update.md
 [11]: 10.3.11-update.md
+[12]: 10.3.12-update.md
