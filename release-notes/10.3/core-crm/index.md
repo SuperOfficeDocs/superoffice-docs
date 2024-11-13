@@ -14,6 +14,7 @@ audience_tooltip: SuperOffice CRM
 # New and improved Core CRM
 
 * [User preferences - search option (10.3.12)][12]
+* [Project and Sale - Add members (10.3.12)][12]
 * [Document dialog - Clean and intuitive (10.3.11)][11]
 * [Selection - Task for print selection (10.3.11)][11]
 * [Selection - Task for print labels (10.3.10)][10]
