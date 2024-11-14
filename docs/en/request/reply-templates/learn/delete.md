@@ -13,13 +13,8 @@ language: en
 
 # Delete reply template
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
 1. Go to the folder where the reply template is located.
 1. Click the reply template. This takes you to the **View reply templates** screen.
 1. Click the **Edit reply template** button. This takes you to the **Reply template properties** screen.
 1. Click the **Delete** button at the bottom of the screen. The reply template is deleted immediately.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png

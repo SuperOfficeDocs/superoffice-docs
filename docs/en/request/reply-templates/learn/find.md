@@ -15,7 +15,7 @@ language: en
 
 If there are lots of reply templates in a folder, it may be difficult to find the one you want. In that case, doing a search may be a good idea.
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
 1. Click the **Search** button. This takes you to the **Criteria** screen.
 1. Enter the text you want to search for and optionally other criteria.
 1. Click **Search**.
@@ -26,6 +26,3 @@ If there are lots of reply templates in a folder, it may be difficult to find th
 
 <!-- Referenced links -->
 [1]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png

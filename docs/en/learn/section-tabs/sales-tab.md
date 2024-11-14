@@ -59,7 +59,7 @@ The **Sales** section tab contains the following columns to display key informat
 
 ### Filter sales
 
-You can filter the list of sales by date, user, or group by clicking the **Filter** button (![icon][img2]). This helps focus on specific sales activities that need attention.
+You can filter the list of sales by date, user, or group by clicking the **Filter** button (<i class="ph ph-funnel" aria-hidden="true"></i>). This helps focus on specific sales activities that need attention.
 
 ### Include stakeholders
 
@@ -116,5 +116,4 @@ To add a new sale directly from the **Sales section** tab:
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/sale-detail.png
-[img2]: ../../../../common/icons/filter-icon.png
 [img3]: ../../../media/icons/check.png

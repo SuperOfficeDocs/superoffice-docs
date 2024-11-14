@@ -37,7 +37,7 @@ The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab,
 
 * Click a month, week number, or day in the calendar to move directly to one of the tabs.
 
-* Click the previous/next buttons ![icon][img2] ![icon][img1] at the lower right of the Diary.
+* Click the previous/next buttons (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) at the lower right of the Diary.
 
 * (If open) click a day or week in the day, week, or month view in the side panel.
 
@@ -78,6 +78,4 @@ The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab,
 [50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/loc/en/diary/diary.png

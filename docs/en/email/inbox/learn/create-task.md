@@ -15,7 +15,7 @@ This feature allows you to quickly add a task in SuperOffice CRM based on the se
 
 1. Go to the inbox.
 2. Select the required message in the inbox.
-3. Click **Archive** ![icon][img1].
+3. Click <i class="ph ph-archive" aria-hidden="true"></i> **Archive**.
 4. Click **Create task**. The **Follow-up** dialog opens.
 5. [Enter the required information in the fields.][2]
 
@@ -23,6 +23,3 @@ This feature allows you to quickly add a task in SuperOffice CRM based on the se
 
 <!-- Referenced links -->
 [2]: ../../../diary/learn/create-follow-up.md#fields
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/archive-icon.png

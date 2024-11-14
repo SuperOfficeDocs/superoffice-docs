@@ -19,7 +19,7 @@ You can add recipients from selections (from both SuperOffice CRM and SuperOffic
 
 3. Click a selection or a project in the list.
 
-4. Click ![icon][img1]. The selection or project is added to the **Recipient sources** list, and the **Recipients** list is updated.
+4. Click **+**. The selection or project is added to the **Recipient sources** list, and the **Recipients** list is updated.
 
 5. Repeat steps 1-4 to add more selections or projects.
 
@@ -36,7 +36,7 @@ You can add individual contacts from SuperOffice.
 
 3. Select the contact you want from the list that appears.
 
-4. Click ![icon][img1]. The contact is added to the **Recipient sources** list, and the **Recipients** list is updated.
+4. Click **+**. The contact is added to the **Recipient sources** list, and the **Recipients** list is updated.
 
 5. Repeat steps 2-5 to add more contacts. Additional contacts will be added to the same row in the **Recipient sources** list, and the number of contacts will display in the **Name** column.
 
@@ -52,7 +52,7 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 
 2. Locate the relevant file (.txt, .csv or similar text format).
 
-3. Click ![icon][img1]. The list is added to the **Recipient sources** list, and the **Recipients** list is updated.
+3. Click **+**. The list is added to the **Recipient sources** list, and the **Recipients** list is updated.
 
 4. Repeat steps 2-4 to add more recipients. Additional recipients will be added to the same row in the **Recipient sources** list. The total number of recipients will display in the **Name** column.
 
@@ -118,7 +118,7 @@ After adding recipients to the **Recipients** list, you can preview the mailing 
 
 3. Click links to check that they work, but remember to reset them if they are tracked.
 
-4. Click ![icon][img2] to close the **Preview** window.
+4. Click X to close the **Preview** window.
 
 ## Review and update the Recipients list
 
@@ -132,6 +132,4 @@ In addition, you can click the **Update list** button below the **Recipients** l
 Click **Next** to go to Step 5: Confirm. You can still revisit the **Recipients** step to edit the recipients list.
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-add.png
-[img2]: ../../../../../../../common/icons/salelost.png
 [img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

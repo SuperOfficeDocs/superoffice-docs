@@ -73,12 +73,12 @@ In the **Weekly stats** tab, you have the following options:
 
 | Option | Description |
 |---|---|
-| Reply template for weekly statistics | The reply template to use for weekly statistics.
+| Reply template for weekly statistics | The reply template to use for weekly statistics. |
 | E-mail addresses for weekly statistics | Here you can add one or more (comma-separated) email addresses to send weekly statistics for SuperOffice to. |
 
 ## How to change template
 
-To select another template, click the ![icon][img1] list button next to the relevant field and select a template from the list that appears.
+To select another template, click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the relevant field and select a template from the list that appears.
 
 ## Related topics
 
@@ -89,6 +89,3 @@ To select another template, click the ![icon][img1] list button next to the rele
 [1]: ../../../email/service/learn/kb-aliases/index.md
 [2]: ../../reply-templates/learn/index.md
 [3]: ../../../faq/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png

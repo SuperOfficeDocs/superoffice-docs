@@ -27,7 +27,7 @@ Learn how to customize views by configuring columns with this short video, or re
 
 ## Enable grouping
 
-1. Click the ![icon][img1] settings icon to the right of the column header and select **Enable grouping**.
+1. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column header and select **Enable grouping**.
 
     ![Enable grouping -screenshot][img5]
 
@@ -60,7 +60,6 @@ Now, a new row is displayed above the column headers.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
 [img5]: ../../../media/loc/en/learn/archive-enable-grouping.png
 [img6]: ../../../media/loc/en/learn/getstarted-archives-groupingon.png
 [img7]: ../../../media/loc/en/learn/getstarted-archives-selectgroup.png

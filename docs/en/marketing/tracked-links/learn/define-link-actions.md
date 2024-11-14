@@ -85,7 +85,7 @@ Activate this function by selecting **Follow-up**.
 > [!TIP]
 > As description, enter which mailing it relates to, which link the recipient clicked, and possibly how the to-do or meeting should be followed up.
 >
-> When setting **Created by** or **Default recipient** you can click the **Select active user** button ![icon][img1] to choose yourself.
+> When setting **Created by** or **Default recipient** you can click the **Select active user** button (<i class="ph ph-user-circle" aria-hidden="true"></i>) to choose yourself.
 
 ## <a id="request"></a>Request
 
@@ -109,6 +109,5 @@ Variables available in the script include custId, linkId, shipmentId, linkUrl, l
 [6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-contact.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
 [img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

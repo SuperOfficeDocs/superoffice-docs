@@ -20,16 +20,16 @@ Open an existing follow-up by double-clicking it in the Diary or the **Activitie
 
 | Icon | Property | Description |
 |:-:|---|---|
-| ![icon][img9]| Owner | Who the follow-up belongs to. The original creator or the associate that the follow-up was assigned/delegated to. |
-| ![icon][img3]| Title | A descriptive label. Additional details go in the agenda. |
+| <i class="ph ph-user-circle" aria-label="Contact"></i> | Owner | Who the follow-up belongs to. The original creator or the associate that the follow-up was assigned/delegated to. |
+| <i class="ph ph-text-align-left" aria-label="Align left"></i> | Title | A descriptive label. Additional details go in the agenda. |
 | (a colored dot) | Type | A pre-defined list of activities such as Meeting (external) and Phone-In. |
-| ![icon][img7], ![icon][img8] | Company / contact | Who the follow-up concerns. |
-| ![icon][img10]| Time and date | When the follow-up starts or is due. |
-| ![icon][img4]| Recurrence | If and how the follow-up repeats. |
+| <i class="ph ph-buildings" aria-label="Company"></i>, <i class="ph ph-user-circle" aria-label="Contact"></i> | Company / contact | Who the follow-up concerns. |
+| <i class="ph ph-clock" aria-label="Clock"></i> | Time and date | When the follow-up starts or is due. |
+| <i class="ph ph-arrow-clockwise" aria-label="Recurrence"></i> | Recurrence | If and how the follow-up repeats. |
 | (no icon) | Availability | Free/busy. Affects conflict handling. |
-| ![icon][img2] | Alarm | If and when to notify the person. |
-| ![icon][img5] | Sale | A sale linked to the follow-up. |
-| ![icon][img6] | Project | A project linked to the follow-up. |
+| <i class="ph ph-alarm" aria-label="Alarm"></i> | Alarm | If and when to notify the person. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale"></i> | Sale | A sale linked to the follow-up. |
+| <i class="ph ph-clipboard-text" aria-label="Clipboard"></i> | Project | A project linked to the follow-up. |
 
 ## Create new
 
@@ -87,7 +87,7 @@ A *call* represents a very specific action - the phone call - and is a hybrid be
 
 The default duration is 1 hour for a meeting and 15 minutes for a call. To change the default value:
 
-1. Go to ![icon][img14] **Personal settings** and select **Preferences**.
+1. Go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** and select **Preferences**.
 1. Select **Default values**.
 1. Enter a value for one or both of these values and click **Save**.
     * **Duration for new appointment**
@@ -109,13 +109,3 @@ The [More tab][12] displays custom fields for the follow-up.
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/diary-alarm.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diary-recurring-transparent.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-[img9]: ../../../../common/icons/associate-current.png
-[img10]: ../../../../common/icons/now.png
-[img14]: ../../../media/icons/personal-settings-small.png

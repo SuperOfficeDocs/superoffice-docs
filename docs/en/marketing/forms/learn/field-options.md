@@ -49,17 +49,17 @@ This is an overview of special options in some of the available fields.
 
   * **Vertical:** Display the values horizontally or vertically.
 
-  * **Data:** Here you enter the values for each radio button. Enter a value in this field and click the add button ![icon][img1]. Repeat to add additional values.
+  * **Data:** Here you enter the values for each radio button. Enter a value in this field and click **+**. Repeat to add additional values.
 
 * **Checkbox:** A selection field where you can select multiple values.
 
   * **Vertical:** Display the values horizontally or vertically.
 
-  * **Data:** Here you enter the values for each checkbox. Enter a value in this field and click the add button ![icon][img1]. Repeat to add additional values.
+  * **Data:** Here you enter the values for each checkbox. Enter a value in this field and click **+**. Repeat to add additional values.
 
 * **Drop-down:** A selection field where you can select a value from a list.
 
-  * **Data:** Here you enter the list values. Enter a value in this field and click the add button ![icon][img1]. Repeat to add additional values.
+  * **Data:** Here you enter the list values. Enter a value in this field and click **+**. Repeat to add additional values.
 
 * **Hidden:** A field that is not visible in the published form. In the **Default value** field you can enter a code, a project name/number or other information that should be associated with this form.
 
@@ -94,4 +94,3 @@ This is an overview of special options in some of the available fields.
 [4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/add-icon.png

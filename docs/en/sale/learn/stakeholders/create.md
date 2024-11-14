@@ -36,7 +36,7 @@ A company/contact can be added as a stakeholder multiple times, provided differe
 
       ![Add/edit stakeholders dialog, group -screenshot][img6]
 
-    * Company: Click ![icon][img3] to browse contacts by company or add a company as a stakeholder.
+    * Company: Click <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> to browse contacts by company or add a company as a stakeholder.
 
       ![Add/edit stakeholders dialog, company -screenshot][img7]
 
@@ -76,7 +76,6 @@ A company/contact can be added as a stakeholder multiple times, provided differe
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
 [img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
 [img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
 [img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png

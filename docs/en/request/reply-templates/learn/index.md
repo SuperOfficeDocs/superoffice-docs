@@ -23,7 +23,7 @@ A reply template can for instance be a specific layout to implement on replies, 
 
 In the Reply templates screen, you will find the reply templates available to you. The reply templates are in a [folder structure][10] that you can create yourself.
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
 1. Go to the required folder.
 1. Click the reply template you are interested in. The **View reply templates** screen appears, containing information about access level, language and owner. In the tabs below, you can see the reply template text itself and any attachments.
 
@@ -47,6 +47,3 @@ In the Reply templates screen, you will find the reply templates available to yo
 [9]: find.md
 [10]: manage-folders.md
 [11]: ../../learn/howto/reply.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png

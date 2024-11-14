@@ -37,7 +37,7 @@ If you need more information before accepting, or use [Get next request in queue
 1. [Open the request][1].
 1. Accept:
 
-    * Click the ![icon][img1] **Task** button and select **Accept**.
+    * Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Accept**.
     * Or, in the **Owner** field, select yourself.
 
 ## Related topics
@@ -56,5 +56,4 @@ If you need more information before accepting, or use [Get next request in queue
 [6]: ../next-in-queue.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/request/requests-accept.png

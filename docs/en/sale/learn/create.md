@@ -41,7 +41,7 @@ Learn how to register and update a sale in this video or follow the guided steps
 To edit an existing sale, browse to the sale and click **Edit** at the bottom of the Sale screen.
 
 > [!NOTE]
-> When you browse through sales using the arrow keys (or similar) and when you search for sales using FastSearcher, by default all sales are displayed. If you do not want to show completed sales (sold or lost), click ![icon][img1] **Task** and select **Skip completed sales**.
+> When you browse through sales using the arrow keys (or similar) and when you search for sales using FastSearcher, by default all sales are displayed. If you do not want to show completed sales (sold or lost), click **Task** and select **Skip completed sales**.
 
 ## What would you like to do now?
 
@@ -52,5 +52,4 @@ To edit an existing sale, browse to the sale and click **Edit** at the bottom of
 [4]: ../../quote/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/sale/sale-card.png

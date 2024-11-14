@@ -20,7 +20,7 @@ Editing a reply template can mean one of two things:
 
 ## Steps
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
 1. Go to the folder where the reply template is located.
 1. Click the reply template. This takes you to the **View reply templates** screen.
 1. Click the **Edit reply template** button. This takes you to the **Reply template properties** screen.
@@ -37,6 +37,3 @@ Editing a reply template can mean one of two things:
 [2]: create.md
 [3]: new-language.md
 [4]: copy.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png

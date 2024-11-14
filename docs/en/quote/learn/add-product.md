@@ -24,7 +24,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 1. Start typing the name of the product or product code in the **Product search** field. The hit list is updated automatically. You can search on all or parts of both the product name and product code.
 
     > [!TIP]
-    > If advanced searching is supported, you can click the search button ![icon][img1] in the **Product search** field for search for and [add several products simultaneously](#add-multiple).
+    > If advanced searching is supported, you can click <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> in the **Product search** field to search for and [add several products simultaneously](#add-multiple).
 
 1. Click the product you want in the list. The dialog is updated with product information.
 
@@ -40,7 +40,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 1. Click **Add** at the bottom of the **Products** tab in the **Edit quote** dialog.
 
-2. Start typing a product name in the **Product search** field to search for a product. Click the search icon ![icon][img1] to search for products using a variety of different criteria, for example, by product range, product groups/categories, name, and item codes. The search includes all active price lists with the applicable currency.
+2. Start typing a product name in the **Product search** field to search for a product. Click <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> to search for products using a variety of different criteria, for example, by product range, product groups/categories, name, and item codes. The search includes all active price lists with the applicable currency.
 
 3. After you have found the products you want to add to the quote, select them (**Ctrl+click**), and click **OK**. The products are displayed in the **Products** tab (or in the tab for the alternative you have created).
 
@@ -103,4 +103,3 @@ Warnings and messages may be due to, for example:
 [1]: approve.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-search.png

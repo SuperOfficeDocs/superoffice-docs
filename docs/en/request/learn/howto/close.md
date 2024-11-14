@@ -28,13 +28,10 @@ After [responding to the request][3], select **Closed** in the **Status** field 
 ## Use selection to close on multiple requests
 
 1. Create a selection of all requests you want to close.
-1. Click the ![icon][img1] **Task** button and select **Bulk update**.
+1. Click <i class="ph ph-list" aria-label="Task menu"></i> and select **Bulk update**.
 1. Follow the guide for [Update multiple records (bulk update)][1] and select **Request - Status** as one of the fields to update.
 
 <!-- Referenced links -->
 [1]: ../../../learn/basics/bulk-update.md
 [2]: ../status/index.md
 [3]: reply.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

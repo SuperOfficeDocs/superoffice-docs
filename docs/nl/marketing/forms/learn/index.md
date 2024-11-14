@@ -117,5 +117,5 @@ Het gebruik van de dubbele opt-in-functie garandeert dat mensen het juiste e-mai
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img3]: ../../../../media/loc/en/marketing/form-notification.png
 [img5]: ../../../../../common/icons/favourite-no.png

@@ -17,7 +17,7 @@ If a message contains two issues that should be handled separately, you can spli
 
 1. [Open the request][1].
 
-1. In the **Messages** tab, click the ![icon][img1] **Task** button next to the message you want to split.
+1. In the **Messages** tab, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> next to the message you want to split.
 
 1. In the **Split message** screen in the **Title** field, enter a descriptive name for the new request.
 
@@ -54,6 +54,3 @@ If a message contains two issues that should be handled separately, you can spli
 [1]: ../index.md#open
 [2]: split-request.md
 [3]: merge.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

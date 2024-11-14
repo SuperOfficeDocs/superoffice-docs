@@ -77,7 +77,7 @@ language: en
 
 ### Menu
 
-* **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button ![icon][img1] in the Navigator or selects **Other Applications** in SuperOffice CRM.
+* **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button (<i class="ph ph-wrench" aria-hidden="true"></i>) in the Navigator or selects **Other Applications** in SuperOffice CRM.
 
 * **View menu**: the URL address is displayed when the user selects **Other Applications** in SuperOffice CRM.
 
@@ -96,4 +96,3 @@ language: en
 [3]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-tools.png

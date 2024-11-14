@@ -26,15 +26,13 @@ At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to 
 
 | Button | Name | Description |
 |:-:|---|---|
-| ![icon][img3] | New | Click this button to quickly create new companies, contacts, sales, projects, selections, follow-ups, documents, requests, and more. |
+| <i class="ph ph-plus" aria-label="Plus"></i> | New | Click this button to quickly create new companies, contacts, sales, projects, selections, follow-ups, documents, requests, and more. |
 | ![icon][img8] | Find | Click this button to [search for][5] companies, contacts, projects, selections, follow-ups, sales and documents in SuperOffice CRM. NA to Service |
-| ![icon][img4] | No invitations / Notifications | Opens a list of new notifications in SuperOffice CRM, such as [invitations][4], assigned requests, and approved sales/quotes. Click an item in the list to open the relevant record. |
-| ![icon][img5] | Unread invitations | |
-| ![icon][img6] | Unanswered invitations | |
-| ![icon][img2] | Personal settings | Used to edit your personal settings, such as preferences, email signature and password. If you added an image in your own contact card, this image will appear on the button. (Options listed below) |
-| ![icon][img1] | Main menu | Used to access general system settings (options listed below) and to switch between SuperOffice CRM and Settings and maintenance. |
+| <i class="ph ph-bell" aria-label="Bell icon"></i> | Notifications | Opens a list of new notifications in SuperOffice CRM, such as [invitations][4], assigned requests, and approved sales/quotes. Click an item in the list to open the relevant record. |
+| <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Personal settings | Used to edit your personal settings, such as preferences, email signature and password. If you added an image in your own contact card, this image will appear on the button. (Options listed below) |
+| <i class="ph ph-list" aria-label="Main menu"></i> | Main menu | Used to access general system settings (options listed below) and to switch between SuperOffice CRM and Settings and maintenance. |
 | Help | Help | Clicking this button gives you access to comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. |
-| ![icon][img7] | Search | At the upper right is the [Freetext search field][10]. Use this field to quickly find data in the system. |
+| <i class="ph ph-magnifying-glass" aria-label="Magnifying glass"></i> | Search | At the upper right is the [Freetext search field][10]. Use this field to quickly find data in the system. |
 
 ## Options in the Personal settings menu
 
@@ -108,12 +106,5 @@ At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to 
 [20]: https://community.superoffice.com
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
-[img2]: ../../../../media/icons/personal-settings.png
-[img4]: ../../../../media/icons/notice.png
-[img5]: ../../../../media/icons/notice-new.png
-[img6]: ../../../../media/icons/notice-pending.png
-[img7]: ../../../../../common/icons/search-icon-black.png
-[img3]: ../../../../../common/icons/plus-black.png
 [img8]: ../../../../media/loc/en/learn/find.png
 [img9]: ../../../../media/superoffice-logo.png

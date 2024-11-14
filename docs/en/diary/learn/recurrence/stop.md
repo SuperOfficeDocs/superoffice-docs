@@ -17,7 +17,7 @@ language: en
 When you stop the repeating follow-up, all instances of the follow-up *after* the one you edited are deleted. If the follow-up is the first in a series of repeating follow-ups, the repeating pattern is deleted and it becomes an "ordinary" follow-up.
 
 1. Open the follow-up from the Diary or on the **Activities** section tab.
-1. Click the repeat icon ![icon][img1].
+1. Click <i class="ph ph-arrow-clockwise" aria-label="Repeat"></i>.
 1. Click **Stop repeating**.
 1. Click **Save** in the **Follow-up** dialog to save all changes.
 
@@ -38,6 +38,3 @@ You can also stop a repeating follow-up by selecting it in the diary and deletin
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../edit-follow-up.md#repeat
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png

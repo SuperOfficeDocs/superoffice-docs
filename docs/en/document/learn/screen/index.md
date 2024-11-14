@@ -32,7 +32,7 @@ The main section contains the following essential information about the document
 
 ### Document template
 
-Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)] Or, type the whole or the beginning of the name to search for a specific template.
+Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the type field at the top of the dialog to display a list of document templates that you can choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)] Or, type the whole or the beginning of the name to search for a specific template.
 
 > [!NOTE]
 > When you [create a document][5], the template opens in the program it was created in. For example, DOCX files will open in Word.
@@ -89,7 +89,7 @@ See [Check in/out documents][4].
 
 ### Completed
 
-By default, the document is marked as completed ![icon][img4], but you can remove this checkmark if you wish. The document will then be displayed on the **Activities** section tab in the Diary screen until it is marked as completed.
+By default, the document is marked as completed, but you can remove this checkmark if you wish. The document will then be displayed on the **Activities** section tab in the Diary screen until it is marked as completed.
 
 > [!NOTE]
 > You cannot edit a completed document until you have undone its **Completed** status. [How to change Completed status of an activity][7].
@@ -147,7 +147,3 @@ This tab displays any [user-defined fields][3] configured in Settings and mainte
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
 [3]: ../../../custom-objects/learn/udef.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-icon.png
-[img4]: ../../../../media/icons/followup-completed-small.png

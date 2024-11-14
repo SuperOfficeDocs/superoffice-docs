@@ -34,7 +34,7 @@ In the section tabs, you can sort the lists by the various columns in ascending 
 To reduce the loading time, only a specified number of records are displayed when opening a section tab. To show all records, click **Show all** at the bottom of the section tab.
 
 1. Go to the section tab you want to edit.
-2. Click ![icon][img1] to the right of the column headers.
+2. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers.
 3. In the dialog, click the **Page size** list and select a value.
 4. Click **OK**.
 
@@ -72,4 +72,3 @@ To reduce the loading time, only a specified number of records are displayed whe
 [16]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png

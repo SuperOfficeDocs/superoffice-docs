@@ -19,7 +19,7 @@ You must always specify rules for handling duplicates during importing.
 
 2. Do one of the following:
 
-    * Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog that opens. An import file and previously selected settings are inserted automatically.
+    * Click <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> next to the **Import description file** field and select an import description file in the dialog that opens. An import file and previously selected settings are inserted automatically.
 
     * [!include[Select file](includes/step-select-file.md)]
 
@@ -60,4 +60,3 @@ You must always specify rules for handling duplicates during importing.
 [3]: resetting-rules-for-duplicate-handling.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/search-icon-black.png

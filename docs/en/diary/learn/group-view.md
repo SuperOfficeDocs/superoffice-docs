@@ -26,7 +26,7 @@ You can choose users and resources whose diaries you want to see and save the vi
 
 1. Click the **View** tab in the Diary screen.
 
-1. Click the ![icon][img5] **Task** button at the lower right and choose **New group view**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and choose **New group view**.
 
     > [!NOTE]
     > To edit an existing view, click **Edit**. [You can change only group views created by you.](#troubleshoot) To copy an existing view, click **Copy**.
@@ -35,11 +35,11 @@ You can choose users and resources whose diaries you want to see and save the vi
 
 1. Choose to view the diary for **Associates**, **Project**, or **Resource** in the **Select from** field. The contents of the list box immediately below the **Select from** field vary depending on what you chose.
 
-1. Select the users/resources you require and click the right arrow ![icon][img2] to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
+1. Select the users/resources you require and click <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
 
 1. The pane on the right displays all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click **Delete**.
 
-1. The selected users and resources will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ![icon][img3] or arrow down ![icon][img4] to move it up or down.
+1. The selected users and resources will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> to move it up or down.
 
 1. Click **Save** after selecting users and resources, or click **Cancel** to close the dialog without saving. You are returned to the **View** tab, where you can create appointments for associates, and so forth.
 
@@ -74,16 +74,16 @@ When you select an option for **Select from**, a list box is displayed below. Th
 
 ### Left pane
 
-Here you will see a list of available users and/or resources that can be added to the group view. Select the users/resources you require and click the right arrow ![icon][img2] to add them to the pane on the right.
+Here you will see a list of available users and/or resources that can be added to the group view. Select the users/resources you require and click <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> to add them to the pane on the right.
 
 > [!NOTE]
 > You can also select users and resources individually by double-clicking them.
 
-Click **Select all** ![icon][img6] to select all the users/resources in the list above. Click **Unselect all** ![icon][img7] to unselect all the users and resources.
+Click **Select all** (<i class="ph ph-check-circle" aria-hidden="true"></i>) to select all the users/resources in the list above. Click **Unselect all** (<i class="ph ph-minus-circle" aria-hidden="true"></i>) to unselect all the users and resources.
 
 ### Right pane
 
-Displayed here are all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click the left arrow ![icon][img1]. The users and resources you have chosen are displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ![icon][img3] or arrow down ![icon][img4] to move it up or down.
+Displayed here are all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click <i class="ph ph-arrow-circle-left" aria-label="Arrow left"></i>. The users and resources you have chosen are displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> to move it up or down.
 
 ## <a id="troubleshoot"></a>Why is the Edit button greyed out?
 
@@ -97,12 +97,3 @@ To edit and save a predefined group view, select the **Copy** option and save th
 
 <!-- Referenced links -->
 [4]: create-follow-up.md#associate
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-left.png
-[img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
-[img5]: ../../../media/icons/btn-menu.png
-[img6]: ../../../media/icons/select-all.png
-[img7]: ../../../media/icons/unselect-all.png

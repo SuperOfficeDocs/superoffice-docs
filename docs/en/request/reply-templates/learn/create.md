@@ -22,7 +22,7 @@ Reply templates can also include an attachment, which will then be added to the 
 
 ## Steps
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
 
 1. Go to the folder you want to put the reply template in. If it does not yet exist, you can [create a new folder][2].
 
@@ -40,7 +40,7 @@ Reply templates can also include an attachment, which will then be added to the 
 1. Select the **(Unspecified language)** tab.
 
 1. In the **Properties** tab, enter the following:
-    * **Language**: In this list, select which language the reply template is in. The list box contains the languages registered under ![icon][img2] > **Customer languages**.
+    * **Language**: In this list, select which language the reply template is in. The list box contains the languages registered under <i class="ph ph-list" aria-label="Main menu"></i> > **Customer languages**.
     * **Default**: Check here if you want this to be the default language for this reply template.
     * **Subject**: Enter the title of the reply template. This is normally inserted into the **Subject** field when the reply template is used for an email.
     * **Message headers**: Here you can add predefined content to be displayed in the message header, for example, the **To** and **Subject** fields, in an email. This function is only used in special cases.
@@ -97,7 +97,7 @@ SuperOffice Service comes with a set of reply templates. Among these reply templ
 
 Based on the customer's request, the system searches for corresponding words (including key words) in FAQ entries in SuperOffice Service. Based on the degree of correlation between these, suggested FAQs that could help the customer are included in the reply template that is automatically sent to the customer to confirm receipt of the request.
 
-You can select the degree of correlation between the request from the customer and the FAQ entries in the field **Minimum score for FAQ search result (in percent)** in ![icon][img2] **System settings** > **System** > **Settings**.
+You can select the degree of correlation between the request from the customer and the FAQ entries in the field **Minimum score for FAQ search result (in percent)** in <i class="ph ph-list" aria-label="Main menu"></i> **System settings** > **System** > **Settings**.
 
 ## What would you like to do now?
 
@@ -114,6 +114,4 @@ You can select the degree of correlation between the request from the customer a
 [7]: copy.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
-[img2]: ../../../../media/icons/main-menu-small.png
 [img3]: ../../../../media/loc/en/request/create-a-new-reply-template.png

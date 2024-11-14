@@ -36,7 +36,7 @@ From the Contact screen, you can send or resend the privacy confirmation email t
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Click **Task** (![icon][img1]) > **Send privacy confirmation email**.
+1. Click **Task** > **Send privacy confirmation email**.
 
     ![Send a confirmation email to inform the contacts about their information being stored in your CRM database -screenshot][img2]
 
@@ -70,5 +70,4 @@ The email can also contain a link to a customer centre where the contact can man
 [1]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

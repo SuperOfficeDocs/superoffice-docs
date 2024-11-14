@@ -19,7 +19,7 @@ language: en
 In general, it is not recommended to delete a request. However, you may have to delete a request to comply with your company's [privacy policy][4]. All messages and attachments/files linked to the request are also deleted.
 
 1. [Open the request you want to delete][1].
-1. Click the ![icon][img1] **Task** button and select **Delete**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete**.
 1. Confirm whether you really want to delete the request by clicking **Yes** or **No**.
 
 > [!NOTE]
@@ -39,6 +39,3 @@ In general, it is not recommended to delete a request. However, you may have to 
 [4]: ../../../security/privacy/learn/implementation-guide.md
 [5]: reply.md
 [6]: edit-message.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

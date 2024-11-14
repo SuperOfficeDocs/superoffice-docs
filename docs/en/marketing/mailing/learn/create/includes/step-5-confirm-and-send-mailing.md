@@ -21,7 +21,7 @@ To not overload your servers during working hours, it would be a good idea to ch
 
 1. Click **Schedule**.
 2. Under **Schedule to send at**, select one of the following options:
-    * Click the **Choose date** icon ![icon][img3], and select the date and time the mailing is to start.
+    * Click the **Choose date** icon (<i class="ph ph-calendar-blank" aria-hidden="true"></i>), and select the date and time the mailing is to start.
     * Click **Set to now** to insert today's date and the time.
 3. Click **OK**. The workflow closes and you are returned to the **Mailings** tab.
 
@@ -35,5 +35,4 @@ To stop the mailing or start a planned mailing ahead of schedule, click the **St
 [1]: ../../view-statistics.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

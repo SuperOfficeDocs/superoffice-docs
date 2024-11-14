@@ -25,7 +25,7 @@ At some stage, you may want to copy an existing company to a new company. For ex
 
 [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Select **Manage companies** from the ![icon][img1] **Task** button, and click **Copy company**.
+1. Select **Manage companies** from the **Task** button, and click **Copy company**.
     The **Copy company** dialog opens. The source company is specified under **From**.
 
 1. Enter the name of the new company and, where appropriate, a department under **To**.
@@ -45,5 +45,4 @@ At some stage, you may want to copy an existing company to a new company. For ex
 [2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img3]: ../../../media/loc/en/company/copy-company.png

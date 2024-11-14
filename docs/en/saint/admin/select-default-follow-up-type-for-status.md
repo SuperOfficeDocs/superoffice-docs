@@ -30,7 +30,7 @@ You can specify a default follow-up type and descriptive text to be displayed in
 
 1. Click the **Create follow-up** tab.
 
-1. Click the ![icon][img1] arrow button to the right of the **Type** field, and select a follow-up.
+1. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> to the right of the **Type** field, and select a follow-up.
 
 1. Enter the required description.
 
@@ -44,6 +44,3 @@ You can specify a default follow-up type and descriptive text to be displayed in
 [1]: select-status-criteria.md
 [2]: select-period-length.md
 [3]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png

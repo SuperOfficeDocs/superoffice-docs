@@ -30,9 +30,9 @@ If you receive a message in a language you cannot read, you can click the **Tran
 
 Is the contact happy or angry?
 
-* Negative ![icon][img2]
-* Neutral ![icon][img3]
-* Positive ![icon][img4]
+* Negative <i class="ph ph-smiley-sad" aria-hidden="true"></i>
+* Neutral <i class="ph ph-smiley-meh" aria-hidden="true"></i>
+* Positive <i class="ph ph-smiley" aria-hidden="true"></i>
 
 If this function is active, incoming email requests are analysed to determine the mood of the contact. An emoticon below the message indicates the detected sentiment (happy, unhappy, or neutral).
 
@@ -50,8 +50,3 @@ Save time by letting the system categorise requests for you. If this function is
 [1]: ../../ai/learn/index.md
 [2]: ../../ai/learn/text-analysis.md
 [3]: ../../ai/learn/categorization.md
-
-<!-- Referenced images -->
-[img2]: ../../../../common/icons/sentiment-negative.png
-[img3]: ../../../../common/icons/sentiment-neutral.png
-[img4]: ../../../../common/icons/sentiment-positive.png

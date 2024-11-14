@@ -29,9 +29,4 @@ language: en
 1. Click the **Add** button to add the IP address range to the list below.
 
 > [!TIP]
-> To delete an IP address range from the list, click the ![icon][img1] delete icon.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png
+> To delete an IP address range from the list, click <i class="ph ph-x-circle" aria-label="Remove icon"></i>.
