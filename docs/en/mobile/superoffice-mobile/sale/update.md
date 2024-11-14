@@ -16,7 +16,7 @@ client: mobile
 ## Steps
 
 1. Locate and open the sale.
-2. Tap the **Edit** icon (![icon][img1]) in the footer.
+2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) in the footer.
 3. Update the information as necessary.
 
     ![Mobile CRM: Edit sale -app-screen][img2]
@@ -69,5 +69,4 @@ When you are in a sales process, consider linking the sale to relevant incoming 
 [4]: ../request/update.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/mobile/edit.png
 [img2]: media/sale-details.png

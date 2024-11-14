@@ -11,7 +11,7 @@ language: en
 client: mobile
 ---
 
-# Sale ![icon][img10]
+# Sale <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i>
 
 From Sale, you can update forecasts for future sales, conclude sales, and create new ones. Also, track the status of all sales that you and your colleagues are responsible for.
 
@@ -21,8 +21,8 @@ From Sale, you can update forecasts for future sales, conclude sales, and create
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| ![icon][img19] | Search | Search field and history list. |
-| ![icon][img18] | Favorites | Sales marked as a favorite (yellow star). |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field and history list. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | Sales marked as a favorite (yellow star). |
 | ![icon][img7] | Upcoming | A list of sales with the date of today or ahead. Select a sale to view details about it. |
 | ![icon][img8] | Closed | Sold or lost sales. |
 | ![icon][img9] | Overdue | A sale is overdue if it has a sale date earlier than today, but its status is neither *sold* nor *lost*. |
@@ -45,7 +45,7 @@ Icons in the action bar: New appointment, Call, Send email, Go to website, Updat
 | ![icon][img11] | Details | Description and info. Edit to update info or mark as lost/sold/open/stalled. |
 | ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the sale. |
 | ![icon][img12] | Documents | Documents and emails linked to the sale. |
-| ![icon][img15] | Requests | Requests linked to the sale. |
+| <i class="ph ph-ticket" aria-label="Request icon"></i> | Requests | Requests linked to the sale. |
 | ![icon][img17] | Stakeholders | A list of contacts involved in the sale. |
 | ![icon][img20] | Quote/products | |
 
@@ -53,16 +53,16 @@ Icons in the action bar: New appointment, Call, Send email, Go to website, Updat
 
 | Symbol | Description |
 |:-:|---|
-| ![icon][img5] | Open. In the Stage field, you will also see how far through the sales process you are and which stage the sale has reached (for example, first meeting, prospect, quotation). |
-| ![icon][img4] | Sold |
-| ![icon][img2] | Lost |
-| ![icon][img3] | Stalled |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Open. In the Stage field, you will also see how far through the sales process you are and which stage the sale has reached (for example, first meeting, prospect, quotation). |
+| <i class="ph ph-check" aria-label="Check icon"></i> | Sold |
+| <i class="ph ph-x" aria-label="X icon"></i> | Lost |
+| <i class="ph ph-triangle" aria-label="Red triangle icon"></i> | Stalled |
 
 The number in the red circle next to the sale icon in the navigator shows how many overdue sales you have. If there is a plus sign (+) in the red circle, this means that you have 10 or more overdue sales.
 
 ## View your own sales
 
-1. Go to **Sale** ![icon][img10].
+1. Go to **Sale** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>).
 2. Check that your name appears at the top.
 
     If another person's name is shown in red, this means that you are looking at another person's sales. Select the person's name and switch to your own pipeline.
@@ -111,19 +111,11 @@ Keeping an eye on the team or internal competition? You can track sales by user 
 
 <!-- Referenced images -->
 [img1]: media/sale.png
-[img2]: ../../../../media/icons/sale-lost.png
-[img3]: ../../../../media/icons/sale-postponed.png
-[img4]: ../../../../media/icons/sale-sold.png
-[img5]: ../../../../../common/icons/nav-sale-h32.png
 [img6]: ../../../../../common/icons/mobile/activities-h32.png
 [img7]: ../../../../../common/icons/mobile/saleslist-pipeline-h32.png
 [img8]: ../../../../../common/icons/mobile/saleslist-closed-h32.png
 [img9]: ../../../../../common/icons/mobile/saleslist-overdue-h32.png
-[img10]: ../../../../../common/icons/nav-sale.png
 [img11]: ../../../../../common/icons/mobile/details-h32.png
 [img12]: ../../../../../common/icons/mobile/documents-h32.png
-[img15]: ../../../../../common/icons/mobile/ticket-h32.png
 [img17]: ../../../../../common/icons/mobile/associate-h32.png
-[img18]: ../../../../../common/icons/mobile/star-h32.png
-[img19]: ../../../../../common/icons/mobile/search-h32.png
 [img20]: ../../../../../common/icons/mobile/product-default-h32.png

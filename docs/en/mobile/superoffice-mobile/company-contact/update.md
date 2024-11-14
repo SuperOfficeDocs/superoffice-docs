@@ -16,7 +16,7 @@ client: mobile
 ## Steps
 
 1. Locate and open the company or contact.
-2. Tap the **Edit** icon (![icon][img1]) in the footer.
+2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) in the footer.
 3. Update the information as necessary.
 4. Tap **Save**.
 
@@ -54,6 +54,3 @@ client: mobile
 [2]: ../../../../en/contact/learn/delete.md
 [3]: ../../../../en/contact/learn/move.md
 [4]: ../../../../en/contact/learn/merge-contacts.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/mobile/edit.png

@@ -50,7 +50,7 @@ Icons in the action bar: Call, SMS, Email, Show location
 
 | Symbol | Description |
 |:-:|---|
-| ![icon][img13] | Have viewed but not yet responded to invitation. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Have viewed but not yet responded to invitation. |
 | ![icon][img14] | Accepted. The attendee has accepted the invitation. Automatically set for the owner. |
 | ![icon][img18] | Declined. The attendee has rejected the invitation. |
 | ![icon][img15] | Conflict. The time of the appointment overlaps with another appointment. You need to either alter the times or cancel one of them. |
@@ -62,7 +62,7 @@ Icons in the action bar: Call, SMS, Email, Show location
 | Frame | The selected day in a week |
 | Gray circle | The current date in a month |
 | Red circle | The selected date in a month |
-| ![icon][img19] | Email sent |
+| <i class="ph ph-at" aria-label="Email icon"></i> | Email sent |
 
 ### See who has been invited to an appointment
 
@@ -119,10 +119,8 @@ It can be useful to check whether the persons you want to invite are free on the
 [img10]: ../../../../../common/icons/mobile/diary-day.png
 [img11]: ../../../../../common/icons/mobile/diary-checklist.png
 [img12]: ../../../../../common/icons/mobile/diary-videocall.png
-[img13]: ../../../../../common/icons/mobile/deltager-sett.png
 [img14]: ../../../../../common/icons/mobile/deltager-ja.png
 [img15]: ../../../../../common/icons/mobile/check-many.png
 [img16]: ../../../../../common/icons/mobile/recurring.png
 [img17]: ../../../../../common/icons/mobile/remove-circle.png
 [img18]: ../../../../../common/icons/mobile/deltager-nei.png
-[img19]: ../../../../../common/icons/mobile/email-ikon.png

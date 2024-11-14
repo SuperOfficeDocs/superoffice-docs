@@ -16,7 +16,7 @@ client: mobile
 ## Steps
 
 1. Locate and open the project.
-2. Tap the **Edit** icon (![icon][img5]) in the footer.
+2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) in the footer.
 3. Update the information as necessary.
 4. Tap **Save**.
 
@@ -80,4 +80,3 @@ When you are working with a project, consider linking the the project to relevan
 [img2]: ../../../../../common/icons/mobile/details.png
 [img3]: ../../../../../release-notes/mobile/media/mobile-crm-sale-request-tab.png
 [img4]: ../../../../../common/icons/mobile/setstage.png
-[img5]: ../../../../../common/icons/mobile/edit.png

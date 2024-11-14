@@ -50,7 +50,7 @@ Comments are used to discuss the request internally before replying to the custo
 
     ![Mobile CRM: Request with internal message -app-screen][img6]
 
-## <a id="forward"></a>Forward ![icon][img4]
+## <a id="forward"></a>Forward <i class="ph ph-arrow-bend-up-right" aria-hidden="true"></i>
 
 Sometimes, internal comments or reassigning the request is not enough to solve a problem, and you need to involve others.
 
@@ -125,7 +125,6 @@ Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (F
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/mobile/request-reply.png
 [img3]: ../../../../../common/icons/mobile/addcomment.png
-[img4]: ../../../../../common/icons/forward-icon.png
 [img2]: ../../../../../release-notes/mobile/media/save-request.png
 [img5]: media/add-comment.png
 [img6]: media/internal-message.png

@@ -37,7 +37,7 @@ In lists, you will typically see date, type, and title for each document. The so
 
 Icons in the action bar: Share, Email, Preview (contents), Details (properties)
 
-## Email information ![icon][img13]
+## Email information <i class="ph ph-at" aria-hidden="true"></i>
 
 Saved emails also appear in the **Documents** tab.
 
@@ -107,4 +107,3 @@ If you are looking at a list of documents, you can swipe left and select **Downl
 [img10]: ../../../../../common/icons/mobile/document-preview.png
 [img11]: ../../../../../common/icons/mobile/details.png
 [img12]: ../../../../../common/icons/mobile/documents.png
-[img13]: ../../../../../common/icons/mobile/email-ikon.png
