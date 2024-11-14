@@ -60,7 +60,7 @@ MD031:
   list_items: false
 MD032: true
 MD033:
-  allowed_elements: ["details","summary","br","table","a","see","seealso","script"]
+  allowed_elements: ["details","summary","br","table","a","see","seealso","script", "i"]
 MD034: true
 MD035:
   style: "consistent"

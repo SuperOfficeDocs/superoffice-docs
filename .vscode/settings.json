@@ -33,5 +33,8 @@
         "MD025": {
             "front_matter_title": ""
         }
-    }
+    },
+    "markdown.styles": [
+        "./.vscode/markdown.css"
+    ]
 }
