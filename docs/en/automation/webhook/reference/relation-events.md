@@ -1,18 +1,16 @@
 ---
-title:Relation webhook events
+title: Relation events
 uid: webhook_relation_event
 description: Relation events
-author: ChristianM
-date: 2024-11-04
+author: AnthonyYates
+date: 5.11.2024
 keywords: automation
 topic: reference
-# envir:
-# client:
 ---
 
-# Relation webhook events
+# Relation events
 
-These webhook events are fired when `relation` rows are changed:
+These events are fired when Relation rows are changed:
 
 * `relation.created`
 * `relation.changed`
@@ -25,79 +23,93 @@ POST /webhook HTTP/1.1
 Content-Type: application/json; charset=utf-8
 User-Agent: NetServer-Webhook/8.8.6684.1719
 X-Superoffice-Event: relation.created
-X-Superoffice-Eventid: 720b0f15-03b4-42e1-947f-ca1ed10addff
+X-Superoffice-Eventid: e87ac619-c864-4881-89eb-07ca5521ee2c
 X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
 
 {
-  "EventId": "639c5fb9-6e5c-4ff6-81d0-6930007785ad",
-  "Timestamp": "2024-11-05T09:49:18.4607724Z",
+  "EventId": "abca7e30-5fd4-41d3-849a-16f51c927ecb",
+  "Timestamp": "2024-11-05T11:25:24.0528404Z",
   "Changes": [
     "relation_id",
+    "source_table",
+    "updated",
+    "reversed",
+    "destination_table",
+    "registered_associate_id",
     "group_idx",
     "reldef_id",
-    "destination_table",
-    "destination_record",
-    "registered",
-    "endDate",
-    "source_table",
-    "reversed",
     "startDate",
-    "associateId",
-    "updated",
-    "source_record",
     "updated_associate_id",
-    "relcomment",
-    "relFlags",
     "updatedCount",
-    "registered_associate_id"
+    "associateId",
+    "source_record",
+    "relFlags",
+    "registered",
+    "relcomment",
+    "endDate",
+    "destination_record"
   ],
   "Event": "relation.created",
-  "PrimaryKey": 85,
+  "PrimaryKey": 20,
   "Entity": "relation",
-  "ContextIdentifier": "Cust12345",
-  "ChangedByAssociateId": 18,
-  "WebhookName": "Name you provided"
+  "ContextIdentifier": "Cust26759",
+  "ChangedByAssociateId": 5,
+  "WebhookName": "Relation Webhook"
 }
 ```
 
 ## Relation.changed
 
 ```json
+POST /webhook HTTP/1.1
+Content-Type: application/json; charset=utf-8
+User-Agent: NetServer-Webhook/8.8.6684.1719
+X-Superoffice-Event: relation.changed
+X-Superoffice-Eventid: e87ac619-c864-4881-89eb-07ca5521ee2c
+X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
+
 {
-  "EventId": "8acb81db-8333-4ae9-ba03-707b4761eb77",
-  "Timestamp": "2024-11-05T09:44:24.7081605Z",
+  "EventId": "aeb900dd-344b-403e-a365-7a2708bc71c1",
+  "Timestamp": "2024-11-05T11:26:29.6996142Z",
   "Changes": [
     "relation_id",
+    "reldef_id",
+    "updated_associate_id",
     "updated",
-    "relcomment",
-    "updated_associate_id"
+    "relcomment"
   ],
   "Event": "relation.changed",
-  "PrimaryKey": 3,
+  "PrimaryKey": 20,
   "Entity": "relation",
-  "ContextIdentifier": "Cust12345",
-  "ChangedByAssociateId": 18,
-  "WebhookName": "Name you provided"
+  "ContextIdentifier": "Cust26759",
+  "ChangedByAssociateId": 5,
+  "WebhookName": "Relation Webhook"
 }
 ```
 
 ## Relation.deleted
 
 ```json
+POST /webhook HTTP/1.1
+Content-Type: application/json; charset=utf-8
+User-Agent: NetServer-Webhook/8.8.6684.1719
+X-Superoffice-Event: relation.deleted
+X-Superoffice-Eventid: e87ac619-c864-4881-89eb-07ca5521ee2c
+X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
+
 {
-  "EventId": "2f3de03c-118f-4f9e-a3fa-b14a0e63f52a",
-  "Timestamp": "2024-11-05T09:54:40.0200499Z",
+  "EventId": "e87ac619-c864-4881-89eb-07ca5521ee2c",
+  "Timestamp": "2018-04-24T08:18:42.089895Z",
   "Changes": [],
   "Values": {
-    "relation_id": 3,
-    "registered_associate_id": 18,
-    "updated_associate_id": 18
+    "associate_id": 40,
+    "relation_id": 178105
   },
   "Event": "relation.deleted",
-  "PrimaryKey": 3,
+  "PrimaryKey": 178105,
   "Entity": "relation",
   "ContextIdentifier": "Default",
-  "ChangedByAssociateId": 18,
-  "WebhookName": "Name you provided"
+  "ChangedByAssociateId": 316,
+  "WebhookName": "Relation Webhook"
 }
 ```

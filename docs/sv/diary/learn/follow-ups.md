@@ -12,7 +12,7 @@ language: sv
 
 # Händelser
 
-*Händelse* är ett samlingsbegrepp för[möte](#meeting) och [att göra](#todo). Ett [telefonsamtal](#call) är en hybrid av de båda. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
+*Händelse* är ett samlingsbegrepp för [möte](#meeting) och [att göra](#todo). Ett [telefonsamtal](#call) är en hybrid av de båda. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
 
 Öppna en befintlig händelse genom att dubbelklicka på den i kalendern eller i detaljkortet **Aktiviteter**.
 

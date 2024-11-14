@@ -58,6 +58,11 @@ items:
 - name: API
   href: api/index.md
   items:
+  - name: 10.3.12 update
+    href: api/10.3.12-update.md
+    items:
+    - name: Database changes 10.3.12
+      href: ../database/changes-10.3.12.md
   - name: 10.3.11 update
     href: api/10.3.11-update.md
     items:

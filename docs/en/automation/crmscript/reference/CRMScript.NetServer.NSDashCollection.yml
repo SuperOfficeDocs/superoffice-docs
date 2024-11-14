@@ -49,7 +49,7 @@ items:
   summary: "\nReturns the associates favourite dashboards.\n"
   remarks: 
   syntax: 
-    content: NSDash[] GetPinForAssociates()
+    content: NSDash[] GetFavourites()
     parameters: []
     return:
       type: CRMScript.NetServer.NSDash[]
