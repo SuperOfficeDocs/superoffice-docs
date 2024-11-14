@@ -20,7 +20,7 @@ language: en
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Click the ![icon][img1] arrow next to the **Type** field and select the required follow-up type from the list box.
+2. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the **Type** field and select the required follow-up type from the list box.
 
 3. In the **Direction** field, specify if the follow-up is outgoing or incoming by clicking the arrow and choosing from the list box.
 
@@ -41,6 +41,3 @@ language: en
 
 <!-- Referenced links -->
 [2]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

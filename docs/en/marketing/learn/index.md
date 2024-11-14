@@ -12,11 +12,11 @@ audience: person
 audience_tooltip: SuperOffice Marketing
 ---
 
-# SuperOffice Marketing
+# SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
 
 SuperOffice Marketing is concerned with outbound communication and forms. Use mailings to inform customers about upgrades or product news, for example. Use forms for product/newsletter registration, consent management, data updates and simple "contact me" forms.
 
-To open SuperOffice Marketing, click the **Marketing** icon ![icon][img2] in the Navigator.
+To open SuperOffice Marketing, click the **Marketing** icon (<i class="ph ph-target" aria-hidden="true"></i>) in the Navigator.
 
 Using SuperOffice Marketing you can create the following:
 
@@ -104,8 +104,8 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 |---|---|---|
 | Mailings | Contains all mailings and create new ones. | [Create new mailing][5] |
 | Message templates | Contains the standard SuperOffice Marketing templates and templates you have created, in addition to a wide range of templates from the online template library. | [Work with the message templates][13] |
-| Tracked links | Contains all tracked links used in your mailings. Click the ![icon][img1] **Add** button to create a new link. | [Create tracked links][14] |
-| Images | Contains all available images in SuperOffice Marketing. Click the ![icon][img1] **Add** button to add new images. | [Add images][15] |
+| Tracked links | Contains all tracked links used in your mailings. Click the **Add** button to create a new link. | [Create tracked links][14] |
+| Images | Contains all available images in SuperOffice Marketing. Click the **Add** button to add new images. | [Add images][15] |
 | Blocked email addresses | Handle bounced emails and spam complaints. | [Blocked email addresses][12], [spam][16] |
 | Forms | Contains all forms and create new ones. | [Create a new form][1] |
 | Form templates | Contains all form templates. | [Work with the form templates][18] |
@@ -137,7 +137,3 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../../common/icons/nav-marketing.png

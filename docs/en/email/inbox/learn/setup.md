@@ -82,12 +82,11 @@ To send emails from SuperOffice CRM, enter your SMTP server details.
 Some email providers, such as Gmail, will block login attempts from unknown apps. Check your inbox to see if your email provider has sent you information about an unauthorized login attempt. Follow the instructions in the email to allow SuperOffice to access your account.
 
 > [!TIP]
-> To access the email options, go to ![icon][img1] **Personal settings** > **Email options**.
+> To access the email options, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Email options**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
 [img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png

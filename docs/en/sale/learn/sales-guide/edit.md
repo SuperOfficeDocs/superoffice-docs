@@ -15,7 +15,7 @@ language: en
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-1. Click the **Workflow** button in the Navigator (![icon][img1]).
+1. Click <i class="ph ph-arrows-left-right" aria-hidden="true"></i> **Workflow** in the Navigator.
 2. Select the **Sales guide** tab.
 3. Select the required sale type in the **Sale type** list box.
 4. Click **Edit**.
@@ -31,6 +31,3 @@ language: en
 [1]: create.md#add-fo-stage
 [2]: create.md#add-doc-stage
 [3]: ../../../admin/lists/learn/sale-stage.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-workflow-active.png

@@ -15,7 +15,7 @@ language: en
 
 1. Go to the inbox.
 2. Select a message in the inbox.
-3. Click the **Actions** button ![icon][img1], and select **Move to folder**.
+3. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Move to folder**.
 4. Select the required folder. The message is moved to the specified folder.
 
 ## Move multiple email messages to another folder
@@ -24,8 +24,3 @@ language: en
 2. Select the messages in the inbox.
 3. In the preview window to the right, select **Move to folder**.
 4. Select the required folder. The messages are moved to the specified folder.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

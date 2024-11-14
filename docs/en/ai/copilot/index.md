@@ -33,7 +33,7 @@ The SuperOffice Copilot is available in all screens with the [side panel][1]. By
 
 1. Go to a company, contact, diary, sale, project, request, or selection.
 
-1. Click the arrow ![icon][img1] next to the side panel's name and select **SuperOffice Copilot**.
+1. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the side panel's name and select **SuperOffice Copilot**.
 
     ![Enable SuperOffice Copilot -screenshot][img2]
 
@@ -104,7 +104,6 @@ Prompts are subject to change without prior notice during the pilot!
 [2]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/ai-lab/
 
 <!-- Referenced image -->
-[img1]: ../../../../common/icons/dropdown-icon.png
 [img2]: ../../../media/loc/en/ai/copilot-in-sidepanel-list.png
 [img3]: ../../../media/loc/en/ai/copilot-on-sale.png
 [img4]: ../../../media/loc/en/ai/copilot-about-superoffice.png

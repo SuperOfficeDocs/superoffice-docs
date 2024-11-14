@@ -14,12 +14,12 @@ audience_tooltip: SuperOffice Marketing
 
 # Edit content
 
-![icon][img1]
+![Edit content -screenshot][img1]
 
 > [!TIP]
 > To edit global properties and layout for the message, select **Body** in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.
 >
-> Select **Desktop** ![icon][img3] or **Mobile** ![icon][img4] at the top of the side-panel to edit properties for a specific layout.
+> Select **Desktop** (<i class="ph ph-monitor" aria-hidden="true"></i>) or **Mobile** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) at the top of the side-panel to edit properties for a specific layout.
 
 ## Edit text content (text blocks) in a message
 
@@ -34,7 +34,7 @@ audience_tooltip: SuperOffice Marketing
 
 5. [Add tracked links to the message][8]. For example, you can add a link to an information page for a product. You can create a new link or add an existing link.
 
-    To add a regular link (untracked): Select a text and click ![icon][img6] in the toolbar. Enter the link in the **URL** field.
+    To add a regular link (untracked): Select a text and click <i class="ph ph-link" aria-label="Link"></i> in the toolbar. Enter the link in the **URL** field.
 
 6. Edit the formatting of the text using the fields in the side-panel.
 
@@ -84,7 +84,4 @@ Click **Next** if you are done editing.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../../media/icons/marketing-and-forms/link.png

@@ -24,7 +24,7 @@ In SuperOffice CRM, many people are creating, editing and reading documents at a
 
 * **Read mode:** The document is opened for reading. If you make changes to the document, they will not be saved. To [save the document with your changes][1], you must create a new document in SuperOffice CRM and upload the file with your changes.
 
-By default, a document is opened in edit mode. If you prefer to select read mode or edit mode when you open a document, go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
+By default, a document is opened in edit mode. If you prefer to select read mode or edit mode when you open a document, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
 
 ## How do I know when a document is checked out?
 
@@ -33,9 +33,9 @@ By default, a document is opened in edit mode. If you prefer to select read mode
 
 In the **Document** dialog, a checked-out document displays a banner showing who is editing it.
 
-![icon][img5] **You** are editing this document.
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> **You** are editing this document.
 
-![icon][img5] You cannot edit this document because it is locked by **NN**.
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> You cannot edit this document because it is locked by **NN**.
 
 ### [Classic (onsite)](#tab/lock-old)
 
@@ -78,7 +78,5 @@ If you or someone else checked out a document, and you want to edit the document
 [1]: edit.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png
-[img5]: ../../../../common/icons/ops.png

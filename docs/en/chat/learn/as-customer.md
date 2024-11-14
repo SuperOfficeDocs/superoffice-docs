@@ -27,7 +27,7 @@ language: en
 
 5. The customer chats with the agent.
 
-6. When the conversation is finished, the customer can end the chat by closing the chat window. Alternatively, the agent can end the chat by selecting ![icon][img1] > **End chat**.
+6. When the conversation is finished, the customer can end the chat by closing the chat window. Alternatively, the agent can end the chat by selecting <i class="ph ph-list" aria-label="Task menu"></i> > **End chat**.
 
     * If the post-chat form is active for this chat channel, the customer has the option to return to the chat.
     * If the **Enable transcript** function is active for this chat channel, the customer may choose to receive a log of your conversation via email. The email uses a reply template in SuperOffice Service.
@@ -37,8 +37,3 @@ language: en
 If no agents are available (typically outside working hours), a short message is displayed in the chat window. Example: "Sorry. We are closed. Our opening hours are ..."
 
 If request submission is active for this chat channel, the customers can enter their name, email address, and a question. The request ID is displayed in the chat window.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

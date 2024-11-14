@@ -22,7 +22,7 @@ Watch this video to learn how to set up and configure your chat widget (video le
 
 ## Steps
 
-1. Click ![icon][img2] **Chat** in the Navigator.
+1. Click <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** in the Navigator.
 
 2. Click **Add** at the bottom of the list of chat channels.
 
@@ -35,7 +35,7 @@ Watch this video to learn how to set up and configure your chat widget (video le
 5. Click **Save** when you are done.
 
 > [!NOTE]
-> Fields with red frames are mandatory. Tabs with the icon ![icon][img4] contain empty mandatory fields.
+> Fields with red frames are mandatory. Tabs with <i class="ph ph-warning-circle" aria-label="Warning icon"></i> contain empty mandatory fields.
 
 ## Properties
 
@@ -144,9 +144,3 @@ The preview on the right displays the chat window with the current settings.
 ### Can I delete a chat channel?
 
 Yes, but make sure that the chat channel is not being used on a website. Otherwise the chat window is visible, but non-functional.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png
-[img4]: ../../../../../common/icons/mandatory.png

@@ -13,7 +13,7 @@ language: en
 
 # SMS configuration in Global preferences
 
-Go to ![icon][img1] **Preferences** in the navigator and select the tab **Global Preferences**. The section for **SMS configuration** contains options for configuring SMS solutions in SuperOffice.
+Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navigator and select the tab **Global Preferences**. The section for **SMS configuration** contains options for configuring SMS solutions in SuperOffice.
 
 ## General fields
 
@@ -38,8 +38,3 @@ To test the settings, enter a mobile phone number and some text, and then click 
 * **SMS endpoint**: This field should contain code that allows SuperOffice Service to recognize an incoming SMS.
 * **User name**: Here you enter the user name provided to you by PsWinCom.
 * **Password**: Here you enter the password provided to you by PsWinCom.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

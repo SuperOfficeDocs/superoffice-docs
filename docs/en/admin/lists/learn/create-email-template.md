@@ -29,19 +29,19 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 7. [!include[Click arrow and select](includes/expand-list.md)] **Document template** from the **List** dropdown.
 
-8. Click the **Add** button ![icon][img2] below the **Items** list.
+8. Click the **Add** button (<i class="ph ph-plus" aria-hidden="true"></i>) below the **Items** list.
 
 9. In the dialog, enter the required name of the template in the mandatory **Name** field.
 
-10. In the **File name** field, click the arrow ![icon][img1] and select the *.somail* file you just created.
+10. In the **File name** field, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select the *.somail* file you just created.
 
-11. In the **Direction** field, click the arrow ![icon][img1] and choose **Outgoing** from the dropdown.
+11. In the **Direction** field, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and choose **Outgoing** from the dropdown.
 
-12. In the **Record type** field, click the arrow ![icon][img1] and choose **Email**.
+12. In the **Record type** field, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and choose **Email**.
 
-13. In the **Document plugin** field, select the program to be used to display the document by clicking the arrow ![icon][img1] and selecting from the dropdown.
+13. In the **Document plugin** field, select the program to be used to display the document by clicking <i class="ph ph-caret-down" aria-label="Chevron"></i> and selecting from the dropdown.
 
-14. In the **Intention** field, click the arrow ![icon][img1] and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).
+14. In the **Intention** field, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).
 
 15. Check the **Publish** box to allow a user to select, in the Document dialog, that the document template in question should be made available to external users.
 
@@ -58,7 +58,3 @@ You can create your own templates to use when creating emails from SuperOffice C
 21. Click **Save**.
 
 You may now create new emails from SuperOffice CRM using this template.
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../media/icons/btn-add.png

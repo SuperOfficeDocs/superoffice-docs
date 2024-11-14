@@ -13,11 +13,6 @@ language: en
 
 To use Settings and maintenance in another language:
 
-1. Go to ![icon][img1] **Personal settings** > **Local settings**.
+1. Go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Local settings**.
 2. Select the language you require in the **Active language** list.
 3. Click **OK**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png

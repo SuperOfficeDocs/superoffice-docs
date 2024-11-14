@@ -38,13 +38,13 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 3. Click **Get next in queue** to respond to the next chat.
 
     > [!NOTE]
-    > To respond to a specific chat (for instance from a returning customer, double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
+    > To respond to a specific chat (for instance from a returning customer), double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
 
 4. Try to [locate the customer in SuperOffice][1], so you can see relevant information about them in the side panel, to help you respond to their inquiry.
 
 5. To chat, enter text in the lower part of the screen, and press **ENTER** or click **Send**.
 
-6. To use emojis/stickers, click ![icon][img5] next to the text field.
+6. To use emojis/stickers, click <i class="ph ph-smiley" aria-label="Smiley"></i> next to the text field.
 
 7. If you are unable to help the customer with their question, do one of the following:
 
@@ -55,7 +55,7 @@ In the top-right corner of the **Chat** screen, you can set your presence:
     * [Send an FAQ, a reply template or quick reply][4], and/or
     * [Send a file][5]
 
-9. When the conversation is over, you can click ![icon][img1] and select **End chat** (unless the customer closes the chat window first). The chat is moved to **Recent chat sessions**. You can also find a record of the chat in the **Activities** section tab in SuperOffice CRM.
+9. When the conversation is over, you can click <i class="ph ph-list" aria-label="Task menu"></i> and select **End chat** (unless the customer closes the chat window first). The chat is moved to **Recent chat sessions**. You can also find a record of the chat in the **Activities** section tab in SuperOffice CRM.
 
 > [!NOTE]
 > If the post-chat form is active for this chat channel, the customer may return to the chat. The chat will be reactivated.
@@ -83,9 +83,7 @@ Save time by using pre-defined texts when answering customer queries through cha
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
 [img4]: ../../../media/loc/en/chat/chat-status-away.png
-[img5]: ../../../../common/icons/smiley-icon.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

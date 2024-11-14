@@ -35,7 +35,7 @@ The following data is displayed:
 
 * The sale date (estimated, sold or lost)
 
-* A [status icon for the sale][4], showing if it is sold ![icon][img1], lost ![icon][img2] or stalled ![icon][img3] (if there is no icon, the sale is "open")
+* A [status icon for the sale][4], showing if it is sold, lost, or stalled (if there is no icon, the sale is "open")
 
 Sales not marked as completed are shown in this list.
 
@@ -48,7 +48,7 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 * All sales with planned activities for a specific number of days ahead.
 
     > [!NOTE]
-    > The number of days ahead, based on the next activity date, is a preference. To change it, go to ![icon][img5] **Personal settings** > **Preferences** and select **Functions** > **Show days ahead**.
+    > The number of days ahead, based on the next activity date, is a preference. To change it, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** and select **Functions** > **Show days ahead**.
 
 * All sales with overdue activities (end date is earlier than today). These sales are shown in red.
 
@@ -59,8 +59,4 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 [4]: ../../../sale/learn/stages.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/sale-sold-details.png
-[img2]: ../../../../media/icons/sale-lost-details.png
-[img3]: ../../../../../common/icons/salestalled.png
 [img4]: ../../../../media/loc/en/diary/sales-detail.png
-[img5]: ../../../../media/icons/personal-settings-small.png

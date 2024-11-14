@@ -17,7 +17,7 @@ You can create a list of email addresses that you often use, but which are not r
 
 ## List email addresses
 
-If you want details of the registered email addresses, go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Email addresses**.. This takes you to the **Email addresses** screen, which contains email addresses in a folder structure that you can create yourself.
+If you want details of the registered email addresses, go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Email addresses**.. This takes you to the **Email addresses** screen, which contains email addresses in a folder structure that you can create yourself.
 
 * To **create** a new email address, see [Create email addresses][2].
 * To **edit** an existing email address, click the name in the list.
@@ -32,6 +32,3 @@ If you want details of the registered email addresses, go to ![icon][img1] **Mai
 <!-- Referenced links -->
 [2]: add-email-address.md
 [3]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/main-menu.png

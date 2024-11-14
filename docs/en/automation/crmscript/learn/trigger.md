@@ -28,7 +28,7 @@ This is an example of a very simple trigger. You can for instance add conditions
 We will now create a series of actions based on the example above.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Click ![icon][img2] **CRMScript** and select the **Triggers** tab.
+1. Click <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** and select the **Triggers** tab.
 1. Click the **New trigger (macro)** button. The **Choose trigger** screen displays the available triggers. These are events in the system that can be used to set off actions/macros. In our example we select **Request closed**, so that the macro is run when a request is closed in SuperOffice.
 1. Type "request" in the search field and select the trigger called **Request closed**.
 1. Enter a description of the trigger in the **Description** field.
@@ -43,7 +43,7 @@ We will now create a series of actions based on the example above.
 1. Click **Apply**.
 1. Click **New action**, and select **Send an email or SMS**. We will now adapt the email that will be sent to the customer.
 1. Check **Subject**.
-1. Click the ![icon][img1] parameter icon to the right, and then click the **Choose parameter** field.
+1. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right, and then click the **Choose parameter** field.
 1. Select **Change a request** > **Title**. This will put the request title in the subject of the email.
 1. Check **From** and select **Change a request** > **Owner**.
 1. Check **To** and select **Change a request** > **Contact: Email address**.
@@ -51,9 +51,3 @@ We will now create a series of actions based on the example above.
 1. Click **Apply**.
 
 You have now created a macro that sends an email with "Request closed" to the customer when a request is closed. This trigger is active immediately if you checked **Enabled** at the top.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/gearblack.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

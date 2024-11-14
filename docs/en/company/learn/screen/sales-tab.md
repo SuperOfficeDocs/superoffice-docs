@@ -25,7 +25,7 @@ Double-click a sale in the list to open the Sale screen with information about t
 
 Click **Add** to create a new sale.
 
-Click the **Filter** button ![icon][img2] to [filter the list][4] by date, users or groups.
+Click the **Filter** button (<i class="ph ph-funnel" aria-hidden="true"></i>) to [filter the list][4] by date, users or groups.
 
 If you check **Include stakeholders** at the bottom of the section tab, sales where the company is involved as a [stakeholder][3] are also displayed.
 
@@ -41,4 +41,3 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/company/sale-detail.png
-[img2]: ../../../../../common/icons/filter-icon.png

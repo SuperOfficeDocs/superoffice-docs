@@ -26,7 +26,7 @@ language: en
 
 4. In the **Postal prefix** field, specify the letter(s) used in front of the postcode when you write to the selected country from another country, for example, *N* for Norway.
 
-5. For each of the next three fields, click the ![icon][img1] arrow and select the required address format from the list. The same format will usually apply for all three fields, but, for some countries, it may be useful to vary the formats, depending on what you are using the address for:
+5. For each of the next three fields, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select the required address format from the list. The same format will usually apply for all three fields, but, for some countries, it may be useful to vary the formats, depending on what you are using the address for:
     * **Visual address format**:
         The usual format as it appears on screen in the Company screen. As a rule, it is sufficient to select a format only here.
     * **Printed address format (local)** and **(intl)**:
@@ -34,7 +34,7 @@ language: en
 
 6. The Company screen contains a field labelled **VAT No.**, for recording the company's VAT number or similar number. You can change this field label in Settings and maintenance. Type in the desired text in the **Organization number field label** field, for example, *Org. nr* for Norway. When you enter a Norwegian company in SuperOffice, the label for the company's organization number will be *Org. nr* instead of *VAT No.*.
 
-7. Click the ![icon][img1] arrow next to the **Currency** field and select a currency from the list.
+7. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the **Currency** field and select a currency from the list.
 
     > [!NOTE]
     > These options are defined in the [**General - Currency** list][2].
@@ -49,6 +49,3 @@ language: en
 
 <!-- Referenced links -->
 [2]: currency.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

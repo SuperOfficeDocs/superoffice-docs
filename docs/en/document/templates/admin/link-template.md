@@ -74,13 +74,13 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
 Enter the following information in the **Details** tab:
 
-1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking the ![icon][img1] arrow and choosing from the list box.
+1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking <i class="ph ph-caret-down" aria-label="Chevron"></i> and choosing from the list box.
 
 2. In the **Document type** field, choose either **Document** or **Fax** as the template type.
 
 3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-4. In the **Intention** field, click ![icon][img1] and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
+4. In the **Intention** field, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
 
     > [!TIP]
     > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
@@ -128,7 +128,6 @@ Here you can add translated versions of the document template.
 [4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png
 [img2]: ../../../../media/loc/en/document/edit-list-item.png
 [img3]: ../../../../media/loc/en/document/lists-add.png
 [img4]: ../../../../media/loc/en/document/imagedmnmi.png

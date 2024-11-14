@@ -19,7 +19,7 @@ You can edit the details in the **Sales role** and **Comment** field for stakeho
 
 1. Select the **Stakeholders** section tab.
 
-1. Select one or more stakeholders, and click ![icon][img1] **Edit** at the bottom of the section tab.
+1. Select one or more stakeholders, and click **Edit** at the bottom of the section tab.
 
 1. In the **Edit stakeholder** dialog, select the stakeholders you want to edit.
 
@@ -42,6 +42,3 @@ To remove one or more stakeholders from the sale, select them and click the **Re
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/edit.png

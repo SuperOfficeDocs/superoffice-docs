@@ -15,7 +15,7 @@ language: en
 
 To create a new reply template based on an existing reply template, you can copy it.
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
 1. Go to the folder where the reply template is located.
 1. Click the reply template. This takes you to the **View reply templates** screen.
 1. Click the **Copy** button. A copy of the reply template is opened in edit mode.
@@ -32,6 +32,3 @@ To create a new reply template based on an existing reply template, you can copy
 [3]: ../../learn/howto/reply.md
 [5]: edit.md
 [6]: delete.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png

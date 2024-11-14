@@ -30,9 +30,9 @@ When you create a follow-up that concerns other people, you can add them as atte
 1. Click the **Add attendees** box. Then choose one or more persons from the list.
 
     * Start typing to search for a person throughout SuperOffice.
-    * Select a person from the history list ![icon][img4] or your favorites ![icon][img5].
-    * Click ![icon][img6] to search for an associate or ![icon][img7] to select persons linked to a company.
-    * You can also select sale stakeholders ![icon][img8] and project members ![icon][img9].
+    * Select a person from the history list (<i class="ph ph-clock" aria-hidden="true"></i>) or your favorites (<i class="ph ph-star" aria-hidden="true"></i>).
+    * Click <i class="ph ph-user-circle" aria-label="Contact icon"></i> to search for an associate or <i class="ph ph-buildings" aria-label="Company icon"></i> to select persons linked to a company.
+    * You can also select sale stakeholders (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) and project members (<i class="ph ph-clipboard-text" aria-hidden="true"></i>).
 
     ![Follow-up dialog, select attendees -screenshot][img17]
 
@@ -115,12 +115,6 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 [5]: accept-decline.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/history-icon.png
-[img5]: ../../../../../common/icons/favourite-icon.png
-[img6]: ../../../../../common/icons/personblack.png
-[img7]: ../../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../../common/icons/sale.png
-[img9]: ../../../../../common/icons/singlecolour/project.png
 [img13]: ../../../../media/loc/en/diary/preview-invitation.png
 [img14]: ../../../../media/loc/en/diary/invite.png
 [img15]: ../../../../media/loc/en/diary/large-follow-up-dialog.png

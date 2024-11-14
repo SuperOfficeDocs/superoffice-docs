@@ -22,7 +22,7 @@ In the **Extra menus** screen, you can add extra menus (buttons, menus, links, s
 * **Top menu**
 
 * The **Status** tile on the dashboard
-  * ![icon][img1] **Task** buttons in the main screens
+  * <i class="ph ph-list" aria-hidden="true"></i> **Task** buttons in the main screens
   * Menu buttons in the extra table view
 
 * **Navigator**
@@ -49,6 +49,3 @@ See also [Menu properties][1].
 [1]: properties.md
 [2]: actions.md
 [3]: ../../../web-panels/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

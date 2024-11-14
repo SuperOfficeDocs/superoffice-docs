@@ -18,11 +18,11 @@ You can have shortcuts to external applications and URL addresses in SuperOffice
 
 Linked applications and URL addresses that you have access to in SuperOffice CRM can be displayed in the following places:
 
-* Under the **Other applications** option on the ![icon][img1] **Main menu**: Click the name of the required application/URL address to open it.
+* Under the **Other applications** option on the **Main menu** (<i class="ph ph-list" aria-hidden="true"></i>): Click the name of the required application/URL address to open it.
 
 * Via the Navigator: Some applications/URL addresses are displayed with their own icons in the Navigator; to open them, simply click the icon or name.
 
-* Via **Tools** in the Navigator: When you click the word **Tools** or the ![icon][img2] icon, a list of any linked applications/URL addresses is displayed. Click the name of the required application/URL address to open it.
+* Via **Tools** (<i class="ph ph-wrench" aria-hidden="true"></i>) in the Navigator: When you click the word **Tools** or the icon, a list of any linked applications/URL addresses is displayed. Click the name of the required application/URL address to open it.
 
     > [!NOTE]
     > Tools must be configured in Settings and maintenance.
@@ -30,9 +30,3 @@ Linked applications and URL addresses that you have access to in SuperOffice CRM
 * Via the **WWW** tab in the Company screen (configured in Settings and maintenance): URL addresses can be displayed at the top of the **WWW** tab in the form of links that you can click to open the appropriate address.
 
 * Via extra section tabs in the Company and Project screens: You can add a URL address as an extra section tab to the Company, Contact, Project, and/or Sale screens. You then open the URL address by clicking the tab itself.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png
-[img2]: ../../../../common/icons/nav-tools.png

@@ -46,7 +46,7 @@ Use the filter buttons (Sent, Bounced, and Opened) to [filter you recipients lis
 
 1. Select the email in the list and click **Open** in the side-panel to edit the contact.
 2. Go to the **Details** tab.
-3. A warning icon ![icon][img1] next to the email address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
+3. A warning icon (<i class="ph ph-warning" aria-hidden="true"></i>) next to the email address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
 
 > [!TIP]
 > Click a column to access sorting and grouping functions.
@@ -129,5 +129,4 @@ Use this option to set a contact as a former employee.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/warning.png
 [img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png

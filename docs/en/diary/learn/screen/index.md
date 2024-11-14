@@ -36,12 +36,12 @@ Follow-ups with times are displayed as boxes in the different views in the Diary
 
 | Icon | Description | Read more |
 |:-:|---|---|
-| ![icon][img1] | This is a repeating follow-up. | [Schedule repeating follow-ups][11] |
-| ![icon][img2] | The follow-up has several attendees. | [Invite your associates to a follow-up][12] |
-| ![icon][img3] | The follow-up is completed. | [Change Completed status of an activity][8] |
-| ![icon][img4] | The follow-up has an active alarm. | |
-| ![icon][img5] | There are unanswered invitations for this follow-up. | [Status of invitations][9] |
-| ![icon][img6] | This follow-up is a video meeting. To join the meeting, right-click the follow-up and select **Join meeting**. | [Work with video meetings][10] |
+| <i class="ph ph-arrow-clockwise" aria-label="Recurrence"></i> | This is a repeating follow-up. | [Schedule repeating follow-ups][11] |
+| <i class="ph ph-user-circle" aria-label="Contact"></i> | The follow-up has several attendees. | [Invite your associates to a follow-up][12] |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | The follow-up is completed. | [Change Completed status of an activity][8] |
+| <i class="ph ph-bell" aria-label="Bell"></i> | The follow-up has an active alarm. | |
+| <i class="ph ph-question" aria-label="Question mark"></i> | There are unanswered invitations for this follow-up. | [Status of invitations][9] |
+| <i class="ph ph-video-camera" aria-label="Camera"></i> | This follow-up is a video meeting. To join the meeting, right-click the follow-up and select **Join meeting**. | [Work with video meetings][10] |
 
 By default, the follow-ups are displayed as a blue field in the diary tabs. If you hold the mouse pointer over one of these fields, a tooltip is displayed showing more information about the follow-up. You can also double-click the blue field to open the follow-up.
 
@@ -65,7 +65,7 @@ The **Week** tab displays one week at a time. There is one column for each day o
 To open the **Day** tab for a particular day, click the relevant day heading.
 
 > [!NOTE]
-> You can define if Sunday or Monday should be considered the first day of the week under ![icon][img7] **Personal settings** > **Preferences**.
+> You can define if Sunday or Monday should be considered the first day of the week under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences**.
 
 ### <a id="month"></a>The Month tab
 
@@ -86,7 +86,7 @@ The **View** tab in the Diary screen shows your own diary with your user ID at t
 
 The **View** tab is used mainly to open and look at overviews of other users or resources, to find out when they will be available, before inviting them to a meeting by [linking them to follow-ups][5], or creating follow-ups for them.
 
-The ![icon][img8] **Task** button is available on the **View** tab.
+The **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) is available on the **View** tab.
 
 **Options:**
 
@@ -120,14 +120,6 @@ The Diary screen contains the following section tabs:
 [14]: ../../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img7]: ../../../../media/icons/personal-settings-small.png
-[img8]: ../../../../media/icons/btn-menu.png
-[img1]: ../../../../media/icons/recurring-booking-assignment.png
-[img2]: ../../../../../common/icons/diary-participants.png
-[img3]: ../../../../../common/icons/diary-complete.png
-[img4]: ../../../../../common/icons/diary-alarm.png
-[img5]: ../../../../../common/icons/diary-tentative.png
-[img6]: ../../../../../common/icons/diary-videocall.png
 [img11]: ../../../../media/loc/en/diary/day-plan.png
 [img12]: ../../../../media/loc/en/diary/week-plan.png
 [img13]: ../../../../media/loc/en/diary/month-plan.png

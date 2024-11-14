@@ -16,7 +16,7 @@ language: en
 When a request handler [creates a suggestion for an FAQ entry][1], it is unpublished and unavailable in SuperOffice Customer Centre. To make it available, a person with FAQ administration rights must publish it.
 
 1. When you log in, any unpublished FAQ entries are shown on the **Status** tile on the dashboard, under **Unpublished FAQ entries**.
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **FAQ**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **FAQ**.
 1. Click on the required entry.
 1. In the **FAQ entry** screen, click **Edit entry**.
 1. In the **FAQ entry properties** screen, select the **Question** and **Answer** tabs, and read through the question and answer.
@@ -39,6 +39,3 @@ When a request handler [creates a suggestion for an FAQ entry][1], it is unpubli
 [2]: ../../request/learn/index.md
 [3]: workflow.md
 [4]: ../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

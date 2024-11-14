@@ -3,7 +3,7 @@
 
 1. In **Preview import** you can browse through the import data before the import begins.
 
-    | Icon | Description
+    | Icon | Description |
     |:-:|---|
     | ![Icon - company new][img1] | The company does not exist and will be added. |
     | ![Icon - company changed][img2] | The company already exists and will be updated. |

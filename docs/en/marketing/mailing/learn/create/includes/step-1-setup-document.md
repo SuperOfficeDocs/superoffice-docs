@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> To view and print an existing document mailing, close the **Setup** step (click **Cancel** or **Save + Close**). Select the **Mailings** tab, locate the document, click ![icon][img1] and select **View**. Click the button under **Download generated document**. The document is downloaded to your browser. Open and print the document.
+> To view and print an existing document mailing, close the **Setup** step (click **Cancel** or **Save + Close**). Select the **Mailings** tab, locate the document, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **View**. Click the button under **Download generated document**. The document is downloaded to your browser. Open and print the document.
 
 Using the document mailing workflow you can generate a PDF document to print and send to your customers. The first step in creating a document mailing, is called **Setup**. Here you can set the name of the mailing, the heading and attention text in the document, and set archive options for the mailing.
 
@@ -45,6 +45,3 @@ You can connect the document mailing to a specific sale. This can be relevant if
 <!-- Referenced links -->
 [1]: ../../../../../document/templates/variables/index.md
 [19]: ../../../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-menu.png

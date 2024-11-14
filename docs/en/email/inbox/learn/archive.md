@@ -17,7 +17,7 @@ You can archive an incoming email (including any attachments) as a document in S
 
 1. Go to the inbox or the relevant folder.
 2. Select the required message.
-3. Click **Archive** ![icon][img1].
+3. Click <i class="ph ph-archive" aria-hidden="true"></i> **Archive**.
 4. Click **Archive email**. The [**Document** dialog opens][1].
 
 ## <a id="out"></a>Archive outgoing email
@@ -41,6 +41,3 @@ To send a message and archive it as a document in SuperOffice CRM, click **Send 
 <!-- Referenced links -->
 [1]: ../../../document/learn/screen/index.md
 [3]: compose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/archive-icon.png

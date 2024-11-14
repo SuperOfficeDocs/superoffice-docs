@@ -17,7 +17,7 @@ This screen is used to edit the properties of a new or existing script/macro fol
 
 ## Create folders
 
-1. Click ![icon][img1] **New folder** at the top of the screen.
+1. Click <i class="ph ph-folder" aria-hidden="true"></i> **New folder** at the top of the screen.
 2. In the **Folder** field, select a parent folder in the list.
 3. Enter a descriptive name for the folder in the **Name** field.
 4. Click **OK**. The new folder is created.
@@ -39,8 +39,3 @@ When you delete a folder, all its contents (such as selections, FAQ entries, rep
 2. Click the name of the folder.
 3. Click **Delete**.
 4. Click **OK** to confirm. The folder and its contents are removed from SuperOffice.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/folder.png

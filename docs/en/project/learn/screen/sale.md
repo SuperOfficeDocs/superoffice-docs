@@ -17,11 +17,11 @@ audience_tooltip: SuperOffice CRM
 
 The columns of the **Sales** section tab contain the following information:
 
-* ![icon][img1] : The first column in the **Sales** section tab specifies the **Completed** status of a sale. A tick in the checkbox ![icon][img2] means that the sale is completed, while an empty box means that it is not completed.
+* The first column in the **Sales** section tab specifies the **Completed** status of a sale. A tick in the checkbox means that the sale is completed, while an empty box means that it is not completed.
 * A [status icon for the sale][1]
-  * ![icon][img1] sold
-  * ![icon][img3] lost
-  * ![icon][img4] stalled
+  * <i class="ph ph-check" aria-label="Check icon"></i> Sold
+  * <i class="ph ph-x" aria-label="X icon"></i> Lost
+  * <i class="ph ph-triangle" aria-label="Red triangle icon"></i> Stalled
   * if there is no icon, the sale is open
 * The date of the sale
 * The sale amount
@@ -45,7 +45,3 @@ Double-click a sale in the list to open the Sale which contains information abou
 [4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/sale-sold-details.png
-[img2]: ../../../../media/icons/check.png
-[img3]: ../../../../media/icons/sale-lost-details.png
-[img4]: ../../../../../common/icons/salestalled.png

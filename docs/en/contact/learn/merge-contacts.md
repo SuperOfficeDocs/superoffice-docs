@@ -19,12 +19,12 @@ Project membership and activities will be moved to the target contact, and the s
 
 1. Open the **Merge contacts** dialog bu doing one of the following:
     * In the Company screen: Go to the **Contacts** section tab, select and right-click one or two contacts you want to merge, select **Manage contacts** and **Merge contacts**.
-    * In the Contact screen: Go to the required contact, click the ![icon][img1] **Task** button in the contact card, and select **Manage contacts** and **Merge contacts**.
+    * In the Contact screen: Go to the required contact, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> in the contact card, and select **Manage contacts** and **Merge contacts**.
 
 2. If you selected only one contact, select another contact under **To** (to search for a contact, start typing). The two contacts you want to merge are now displayed under **From** and **To**.
 
     > [!TIP]
-    > To switch the **From** and **To** contacts, click the ![icon][img2] button.
+    > To switch the **From** and **To** contacts, click <i class="ph ph-info" aria-label="Info"></i>.
 
 3. Select one of the following under **Action on \[contact/company\] after merge**:
     * **Delete...**: If you select this option, the source contact is deleted after the merge.
@@ -49,7 +49,3 @@ Project membership and activities will be moved to the target contact, and the s
 
 <!-- Referenced links -->
 [1]: ../../company/learn/merge-companies.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/info-ball.png

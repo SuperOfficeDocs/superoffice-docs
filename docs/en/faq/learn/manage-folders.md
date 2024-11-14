@@ -17,7 +17,7 @@ You can create a folder structure for FAQs, to give them a logical structure and
 
 ## Create folders
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **FAQ**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **FAQ**.
 
 1. Click the **New folder** button. This takes you to the **FAQ folder properties** screen.
 
@@ -55,6 +55,3 @@ Before you delete an FAQ folder, you must remove all the entries in it. You do t
 [1]: delete.md
 [2]: edit.md
 [3]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

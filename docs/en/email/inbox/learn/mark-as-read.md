@@ -17,15 +17,10 @@ An email message is automatically set to read (not bold) when you select it in t
 
 1. Go to the inbox.
 2. Select a message in the inbox.
-3. Click the ![icon][img1] **Actions** button, and select **Mark as read/unread**.
+3. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Mark as read/unread**.
 
 ## Mark multiple email messages as read/unread
 
 1. Go to the inbox.
 2. Select the messages in the inbox.
 3. In the preview window to the right, select **Mark as unread** or **Mark as read**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

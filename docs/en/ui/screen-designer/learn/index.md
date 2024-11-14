@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# Screen designer ![icon][img1]
+# Screen designer <i class="ph ph-squares-four" aria-hidden="true"></i>
 
 The **Screen Designer** in SuperOffice CRM allows you to customize the layout of key screens within the application, ensuring that the interface meets the specific needs of different user groups in your organization. This feature replaces the old [PageBuilder][9] tool, offering a more streamlined and flexible way to configure screens - without coding.
 
@@ -83,7 +83,7 @@ The **Layouts** list displays all existing layouts, including a preview screen.
 
 To start customizing screens:
 
-1. Open the Screen Designer by clicking ![icon][img2], selecting **Settings and maintenance**, and then choosing **Screen Designer** from the navigator.
+1. Go to **Settings and maintenance** and select **Screen Designer** from the navigator.
 2. Drag and drop fields into the editor to add them to your layout.
 3. Click on a field to move it or update its settings. The available settings will depend on the type of field selected.
 
@@ -125,8 +125,6 @@ By customizing the screen layouts with the Screen Designer, you can eliminate un
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../media/loc/en/ui/status-draft.png
 [img4]: ../../../../media/loc/en/ui/status-published.png
 [img5]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

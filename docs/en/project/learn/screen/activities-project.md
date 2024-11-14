@@ -19,9 +19,9 @@ Double-click an activity in the section tab to view or edit it, as required.
 
 ## Columns in the Activities section tab
 
-### Completed status ![icon][img3]
+### Completed status <i class="ph ph-check" aria-label="Check icon"></i>
 
-The first column in the **Activities** section tab indicates the **Completed** status of an activity. A tick in the checkbox ![icon][img2] means that the activity is completed, while an empty box means that it is not completed.
+The first column in the **Activities** section tab indicates the **Completed** status of an activity. A tick in the checkbox means that the activity is completed, while an empty box means that it is not completed.
 
 ### Type icons
 
@@ -60,5 +60,3 @@ The second column contains icons that indicate the type of activity. These icons
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/project/project-activities.png
-[img2]: ../../../../media/icons/check.png
-[img3]: ../../../../media/icons/sale-sold-details.png

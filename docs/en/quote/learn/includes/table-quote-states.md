@@ -1,12 +1,12 @@
 <!-- markdownlint-disable-file MD041 -->
 | Icon | State |
 |:-:|---|
-| ![icon][img1] | ![icon][img2] | Draft / Draft – not calculated |
+| ![icon][img1] ![icon][img2] | Draft / Draft – not calculated |
 | ![icon][img3] | Needs Approval |
-| ![icon][img4] | ![icon][img5] | Approved / Not Approved |
+| ![icon][img4] ![icon][img5] | Approved / Not Approved |
 | ![icon][img6] | Sent |
 | ![icon][img7] | Sent – Expired |
-| ![icon][img8] | ![icon][img9] | Sold / Lost |
+| ![icon][img8] ![icon][img9] | Sold / Lost |
 | ![icon][img10] | Ordered |
 | ![icon][img11] | Archived |
 

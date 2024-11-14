@@ -32,14 +32,14 @@ When you specify an item in a list in the Lists screen, you can also specify whi
 
 5. Select a user group in the **Visible for user groups** list. All the user groups in the organization are displayed here. Click the box next to the required user group to specify that the item should be visible to that group.
 
-    The box will then be marked with a tick (![icon][img2]).
+    The box will then be marked with a tick (<i class="ph ph-check" aria-hidden="true"></i>).
 
 6. Repeat steps 4 and 5 for each item you want to make visible for particular user groups.
 
 > [!NOTE]
 > When you add an item to the **Items** list, it will automatically be visible to all the user groups listed under **Visible for user groups**. You can, if required, remove the checks for the user groups you do not want the items to be visible to.
 
-You can select several user groups for one item. Click **Select all** (![icon][img1]) to select all the groups, or **Unselect all** (![icon][img3]) to remove all selections.
+You can select several user groups for one item. Click **Select all** (<i class="ph ph-check-circle" aria-hidden="true"></i>) to select all the groups, or **Unselect all** (<i class="ph ph-minus-circle" aria-hidden="true"></i>) to remove all selections.
 
 ## Specify items for a user group
 
@@ -69,8 +69,3 @@ You can also specify available items for a user group:
 <!-- Referenced links -->
 [1]: headings.md
 [2]: ../../../user-management/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/select-all.png
-[img2]: ../../../../../media/icons/btn-selected.png
-[img3]: ../../../../../media/icons/unselect-all.png

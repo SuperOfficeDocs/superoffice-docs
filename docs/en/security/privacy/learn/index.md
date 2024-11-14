@@ -9,7 +9,7 @@ topic: concept
 language: en
 ---
 
-# Privacy
+# Privacy <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 The **Privacy** feature in SuperOffice will assist you in protecting the data privacy of your customers and complying with the EU's General Data Protection Regulation (GDPR).
 
@@ -17,7 +17,7 @@ The **Privacy** feature in SuperOffice will assist you in protecting the data pr
 
 These are two different purposes for obtaining a person's consent. In SuperOffice, these purposes are called **Sales and service** and **E-marketing**. There may also be other purposes relevant for you business.
 
-In the **Consent** tab in the **Privacy** screen (![icon][img1]) you can [create and edit purposes][2].
+In the **Consent** tab in the **Privacy** screen you can [create and edit purposes][2].
 
 For each purpose, a legal basis and source of consent must be documented (during import or in SuperOffice CRM for individual or multiple users).
 
@@ -68,4 +68,3 @@ If you do *not* select this option, only persons with **E-marketing** set to **O
 [4]: ../../../admin/lists/learn/privacy-source-add.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-privacy-active.png

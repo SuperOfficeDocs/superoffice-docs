@@ -23,13 +23,13 @@ When you open a request and select **Reply**, the [email signature][7] you have 
 
 1. [Open the request][1].
 
-1. Click the ![icon][img5] **Reply** or ![icon][img6] **Reply all** button or click the ![icon][img1] **Task** button and select **Reply** or **Reply all**. The **Message** tab in the **Request** screen appears. The contact is automatically added as a recipient in the **To** field.
+1. Click the <i class="ph ph-arrow-bend-up-left" aria-hidden="true"></i> **Reply** or <i class="ph ph-arrow-bend-up-left" aria-hidden="true"></i> **Reply all** button or click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Reply** or **Reply all**. The **Message** tab in the **Request** screen appears. The contact is automatically added as a recipient in the **To** field.
 
 1. Type in the [message][2] you want to add to the request.
 
 1. Since this message should be visible to the contact, verify that **External** appears in the toolbar at the bottom of the tab.
 
-1. Click ![icon][img2] in the toolbar and add any relevant documents as [attachments to the request][2].
+1. Click <i class="ph ph-paperclip" aria-label="Attachments"></i> in the toolbar and add any relevant documents as [attachments to the request][2].
 
 1. Click **Save**. The message is sent to the contact.
 
@@ -54,7 +54,7 @@ When you respond to an contact enquiry, you can save time by using a [reply temp
 
 When [transferring a request to a colleague][10], you can add a comment. For example, to explain why you pass it on or to include what you have done or discovered so far.
 
-1. Click the ![icon][img7] **Add comment** button.
+1. Click the **Add comment** button (<i class="ph ph-dots-three" aria-hiddenl="true"></i>).
 
 1. Add your comment.
 
@@ -71,7 +71,7 @@ You can add a message to several requests in a single operation. For example, if
 
 1. In the request list, select the relevant requests.
 
-1. Click the ![icon][img1] **Task** button in the lower left corner of the request list.
+1. Click the **Task** button in the lower left corner of the request list.
 
 1. Select **Reply to customers**.
 
@@ -85,7 +85,7 @@ You can add a message to several requests in a single operation. For example, if
 
 ### Use selection to reply to contacts on multiple requests
 
-1. Click the ![icon][img1] **Task** button in the lower left corner of the request selection.
+1. Click the **Task** button in the lower left corner of the request selection.
 1. Select **Reply to customers** in the **Manage** section.
 1. Click **Reply** when you are finished.
 
@@ -113,10 +113,5 @@ You can add a message to several requests in a single operation. For example, if
 [10]: forward.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/attachments-theme.png
 [img3]: ../../../../../common/icons/copy-paste-icon.png
 [img4]: ../../../../media/loc/en/request/reply-to-a-customer.png
-[img5]: ../../../../../common/icons/reply-icon.png
-[img6]: ../../../../../common/icons/reply-all-icon.png
-[img7]: ../../../../../common/icons/addcomment.png

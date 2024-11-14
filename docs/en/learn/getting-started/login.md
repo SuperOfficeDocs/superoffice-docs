@@ -101,7 +101,7 @@ You must belong to the *User level 0* role or another role that gives you login 
 
 ## How to change your password
 
-1. Select ![icon][img1] **Personal Settings** > **Change password**.
+1. Select <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal Settings** > **Change password**.
 2. Enter the new password in the **New password** field.
 3. Enter it again in the **Repeat password** field to ensure you entered it correctly first time round.
 4. Click **OK**.
@@ -169,7 +169,6 @@ Contact your SuperOffice administrator to receive a new password.
 [12]: http://www.digitaltrends.com/computing/how-to-delete-cookies-in-chrome-firefox-safari-and-ie/
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png
 [img4]: ../../../media/loc/en/learn/login-screen.png
 [img5]: ../../../media/loc/en/learn/activate-now-email.png

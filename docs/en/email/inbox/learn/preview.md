@@ -24,7 +24,7 @@ The **Preview** tab contains the following fields:
 | Attachments | Displays any attachments to the message. |
 
 > [!NOTE]
-> Go to ![icon][img1] **Personal settings** > **Email options**. Open the **General** tab. If you check **Show inline images**, inline images are displayed in preview.
+> Go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Email options**. Open the **General** tab. If you check **Show inline images**, inline images are displayed in preview.
 
 ## Related topics
 
@@ -40,6 +40,3 @@ The **Preview** tab contains the following fields:
 [3]: invitations.md
 [4]: create-task.md
 [5]: create-request.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png

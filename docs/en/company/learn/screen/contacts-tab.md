@@ -24,13 +24,13 @@ The **Contacts** section tab contains the following columns:
 
 ### Information
 
-A paperclip icon (![icon][img3]) in this column means that the **Note** tab in the contact card contains information.
+A paperclip icon (<i class="ph ph-paperclip" aria-hidden="true"></i>) in this column means that the **Note** tab in the contact card contains information.
 
 Position the mouse pointer over the dot and the information is displayed as a tooltip.
 
 ### Interests
 
-A pin icon (![icon][img2]) in this column means that one or more interests have been entered for that contact. Position the mouse pointer over the dot and the information is displayed in a tooltip. To edit the interests, double-click the contact's name to open the contact card, and go to the **Interests** tab.
+A pin icon (<i class="ph ph-push-pin" aria-hidden="true"></i>) in this column means that one or more interests have been entered for that contact. Position the mouse pointer over the dot and the information is displayed in a tooltip. To edit the interests, double-click the contact's name to open the contact card, and go to the **Interests** tab.
 
 ### Mr/Ms
 
@@ -75,5 +75,3 @@ They will then be shown in a different color. They are also shown in this way on
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../../media/icons/pin.png
-[img3]: ../../../../media/icons/binders.png

@@ -11,9 +11,9 @@ audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# Macros and scripts
+# Macros and scripts <i class="ph ph-code-block" aria-hidden="true"></i>
 
-In the **Macros and scripts** tab on ![icon][img2] **CRMScript** you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to [view, edit or run it][1].
+In the **Macros and scripts** tab on **CRMScript** you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to [view, edit or run it][1].
 
 ## About macros
 
@@ -25,7 +25,7 @@ Macros have multiple functions in SuperOffice. They can be linked to specific [t
 
 For example, you can use macros:
 
-* As a task/function in a menu point (such as in ![icon][img1] **Task** in the Request screen)
+* As a task/function in a menu point (such as in **Task** in the Request screen)
 * When a request is escalated via the warning levels for priority
 * As a planned task
 * When they are activated by an email filter
@@ -51,5 +51,3 @@ A script is a small program written to perform specific tasks, and requires prog
 [4]: create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/task.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

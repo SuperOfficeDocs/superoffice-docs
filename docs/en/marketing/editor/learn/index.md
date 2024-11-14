@@ -27,7 +27,7 @@ In the **Content** step you can edit the appearance and content of the message.
 SuperOffice Marketing is supplied with many [ready-made message templates][9], and you can easily move content around to get the appearance you want. Save frequently used content as blocks to save time.
 
 > [!TIP]
-> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Mobile** ![icon][img4] in the menu in the lower left corner. See also [Customize the message for display on mobile devices][3].
+> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Mobile** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) in the menu in the lower left corner. See also [Customize the message for display on mobile devices][3].
 
 ## Edit columns and blocks/sections
 
@@ -87,8 +87,8 @@ From the global menu, you can preview, undo or repeat actions, and se how the me
 | Icon | Name | Function |
 |:-:|---|---|
 | ![icon][img11] | Undo/Redo | Undoes the last action or redoes an undone action. |
-| ![icon][img2] | Preview | Opens a preview of the message on a desktop or mobile display. |
-| ![icon][img3], ![icon][img4] | Toggle showing for desktop or mobile devices | Used to see what the appearance is like on a desktop or smart phone. |
+| <i class="ph ph-eye" aria-label="Preview"></i> | Preview | Opens a preview of the message on a desktop or mobile display. |
+| <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Toggle showing for desktop or mobile devices | Used to see what the appearance is like on a desktop or smart phone. |
 
 ## Context menu
 
@@ -159,9 +159,6 @@ The user guide for the old editor is located in the [SuperOffice version 10.1 he
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img2]: ../../../../media/icons/marketing-and-forms/preview.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile-2.png
 [img5]: ../../../../media/icons/marketing-and-forms/add-row.png
 [img6]: ../../../../media/icons/marketing-and-forms/move-2.png
 [img7]: ../../../../media/icons/marketing-and-forms/cancel.png

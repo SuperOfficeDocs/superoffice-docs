@@ -59,7 +59,7 @@ In addition to the templates created by your and your colleagues, you have acces
 
 3. If required, use the search field to find a specific template.
 
-4. Click the ![icon][img1] menu button next to the template you want to use.
+4. Click the <i class="ph ph-list" aria-label="Task menu"></i> menu button next to the template you want to use.
 
 5. Select **Create mailing**. The template opens in the [mailings wizard][1].
 
@@ -93,7 +93,7 @@ In addition to the templates created by your and your colleagues, you have acces
 
 1. Go to the **Message templates** tab.
 
-2. Click ![icon][img2] **Add SMS**. The **Edit template** screen displays.
+2. Click **Add SMS**. The **Edit template** screen displays.
 
 3. Enter a descriptive name for the template in the **Name** field.
 
@@ -104,7 +104,7 @@ In addition to the templates created by your and your colleagues, you have acces
 ## Create a template based on existing mailing
 
 1. Go to the **Mailings** tab.
-2. Click the ![icon][img1] menu button next to the mailing you want to use as a basis for the template.
+2. Click the <i class="ph ph-list" aria-label="Task menu"></i> menu button next to the mailing you want to use as a basis for the template.
 3. Select **Copy to template**.
 4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
 5. If required, click **Folder** to select a folder for the template.
@@ -113,7 +113,7 @@ In addition to the templates created by your and your colleagues, you have acces
 ## Create a template based on existing template (copy)
 
 1. Go to the **Message templates** tab.
-2. Click the ![icon][img1] menu button next to the template you want to use.
+2. Click the <i class="ph ph-list" aria-label="Task menu"></i> menu button next to the template you want to use.
 3. Select **Make copy**.
 4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
 5. Make any necessary changes and click **OK**.
@@ -134,6 +134,4 @@ In addition to the templates created by your and your colleagues, you have acces
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-add.png
 [img3]: ../../../media/loc/en/marketing/work-with-templates.png

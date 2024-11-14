@@ -20,7 +20,7 @@ To set up recurrence means to schedule the *start date* of follow-ups in a serie
 
 1. [Open or create a follow-up][2].
 
-1. Click the repeat icon ![icon][img1] and select one of the suggested frequencies. If none of the patterns work for you, select **Custom**.
+1. Click <i class="ph ph-arrow-clockwise" aria-label="Repeat"></i> and select one of the suggested frequencies. If none of the patterns work for you, select **Custom**.
 
     ![Follow-up dialog, suggested recurrence -screenshot][img8]
 
@@ -51,6 +51,5 @@ To set up recurrence means to schedule the *start date* of follow-ups in a serie
 [3]: stop.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
 [img7]: ../../../../media/loc/en/diary/recurrence-selected-dates.png
 [img8]: ../../../../media/loc/en/diary/suggested-pattern.png

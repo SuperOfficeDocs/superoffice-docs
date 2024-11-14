@@ -69,7 +69,7 @@ At the top, you have the following options:
 | Inactive/Active | Toggle this slider button to activate or deactivate the form. |
 | Refresh | Updates the screen. |
 | Edit | Opens the form in edit mode. |
-| ![icon][img5] | Sets the form as a [favorite][11]. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Sets the form as a [favorite][11]. |
 
 The **View form** screen consists of the following tabs:
 
@@ -117,5 +117,4 @@ This means that your mailing list will be more reliable, which will help raise t
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/icons/marketing-and-forms/form-notification.png
-[img5]: ../../../../../common/icons/favourite-no.png
+[img3]: ../../../../media/loc/en/marketing/form-notification.png

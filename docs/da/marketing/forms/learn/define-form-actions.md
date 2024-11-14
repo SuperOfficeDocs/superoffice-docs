@@ -75,5 +75,5 @@ Her kan du vælge handlinger, der skal udføres, når en formular behandles (aut
 [9]: ../../../../en/automation/crmscript/howto/marketing/forms.md
 
 <!-- Referenced images -->
-[img11]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img11]: ../../../../media/loc/en/marketing/form-notification.png
 [img17]: ../../../../media/loc/en/marketing/contact-me-form-actions.png

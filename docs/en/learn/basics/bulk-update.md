@@ -38,7 +38,7 @@ Bulk update allows you to change values across multiple records of the same type
 
 5. To add more fields to be updated, click **Add** and repeat steps 3 and 4.
 
-6. Make sure you select (![icon][img1]) the fields you want to update and unselect (![icon][img2]) the fields you DO NOT want to update.
+6. Make sure you select (<i class="ph ph-check" aria-hidden="true"></i>) the fields you want to update and unselect the fields you DO NOT want to update.
 
 7. Click **Update**. The **Confirm** dialog opens, showing a summary of the updates.
 
@@ -89,9 +89,3 @@ You discover that the contact field **Position** is rarely used. To at least sta
 ## Update project
 
 You want to clean up all the "old" projects that have not been set to completed. Create a selection of all your old projects, for example all projects created more than 2 years ago and that has not been updated in the last year. Use **Bulk update** to set the **Completed** status for these projects to **Yes**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-selected.png
-[img2]: ../../../media/icons/btn-unselected.png

@@ -25,7 +25,7 @@ To view the list of participants for a specific flow:
 
 ![The flow participants list -screenshot][img1]
 
-Use the cogwheel ![icon][img4] in the list's header to customize the columns.
+Use the cogwheel (<i class="ph ph-gear" aria-hidden="true"></i>) in the list's header to customize the columns.
 
 ![The flow participants list, customize columns -screenshot][img2]
 
@@ -83,4 +83,3 @@ In a split, participants follow the first (leftmost) branch where they meet the 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-participants.png
 [img2]: ../../../../media/loc/en/marketing/flow-participant-columns.png
-[img4]: ../../../../../common/icons/mobile/gear.png

@@ -48,7 +48,7 @@ language: en
     4. Click **Add** to add the value.
 
         > [!TIP]
-        > You can delete a value again by selecting it and clicking the ![icon][img1] delete icon.
+        > You can delete a value again by selecting it and clicking <i class="ph ph-x-circle" aria-label="Remove icon"></i>.
 
 1. In the **Set properties** tab, you can set specific properties for requests that are generated from emails that match the current filter:
 
@@ -69,4 +69,3 @@ language: en
 [3]: ../../../../request/reply-templates/learn/create.md#faq
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/delete-circle-red.png

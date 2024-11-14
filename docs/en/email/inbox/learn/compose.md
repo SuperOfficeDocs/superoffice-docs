@@ -26,7 +26,7 @@ Fill in the fields below, click **Create** and compose the email as described ab
 
 | Field | Description |
 |---|---|
-| Document template | Click the arrow ![icon][img2] next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in Settings and maintenance. |
+| Document template | Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in Settings and maintenance. |
 | Company | Enter here the name of the company you are writing to. |
 | Contact | Click the arrow next to this field and a list of known contacts in the company is displayed. |
 | Project | Enter the name of the project that the email should be linked to. |
@@ -44,12 +44,8 @@ When you finished the message, and want to send it, you have the following optio
 > [!TIP]
 > If you do not archive the message when you send it, you can still [go to the sent folder and archive the message][2].
 >
-> The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** > **Edit personal signature**.
+> The signature template at the bottom of the message can be edited in <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Edit personal signature**.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md
 [2]: archive.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../common/icons/dropdown-icon.png

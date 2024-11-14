@@ -15,7 +15,7 @@ You can have shortcuts to URL addresses in SuperOffice CRM, so that you can open
 
 You define which URL addresses will be available to users in SuperOffice CRM in the **Lists** screen in Settings and maintenance.
 
-The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons to the left of the list ( ![icon][img1] ![icon][img2] ).
+The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons to the left of the list (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 After adding items, you can specify details for each individual item. You can specify:
 
@@ -30,7 +30,3 @@ After adding items, you can specify details for each individual item. You can sp
 [1]: organize/headings.md
 [2]: organize/user-group-filtering.md
 [3]: web-panel-add-item.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-up.png
-[img2]: ../../../../media/icons/arrow-down.png

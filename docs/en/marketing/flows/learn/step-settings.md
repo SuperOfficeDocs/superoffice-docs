@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice Marketing
 # Step settings
 
 > [!NOTE]
-> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img4] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a selection name.
+> Many fields have a list of predefined values you can choose from. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a selection name.
 
 ## Add to selection and/or project
 
@@ -160,6 +160,3 @@ This works similar to [bulk update][10].
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
 [14]: ../../../sale/learn/sales-guide/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../common/icons/dropdown-icon.png

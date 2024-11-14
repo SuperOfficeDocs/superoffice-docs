@@ -65,7 +65,7 @@ If the field you are searching in is a date field, for example, the **Date** fie
 
 [!include[Search criteria](includes/list-date-criteria.md)]
 
-Select the required option. Depending on what you select, the field is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
+Select the required option. Depending on what you select, the field is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
 ### <a id="number"></a>Number field
 
@@ -115,11 +115,11 @@ When you open the **Find** screen, it contains default search criteria or the se
 
 | Action | Steps |
 |---|---|
-| Move a criterion | Click ![icon][img2] and drag the line. |
+| Move a criterion | Click <i class="ph ph-equals" aria-label="="></i> and drag the line. |
 | Change a criterion | Click it and select a different one from the list that appears. |
 | Deactivate one or more criteria | Leave the value field empty. |
 | Deactivate all criteria | Click **Clear all**. |
-| Delete a criterion | Click ![icon][img3]. |
+| Delete a criterion | Click <i class="ph ph-x-circle" aria-label="X"></i>. |
 | Reset the list | Click **Reset to default**. |
 
 > [!NOTE]
@@ -137,8 +137,3 @@ When you open the **Find** screen, it contains default search criteria or the se
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
 [4]: ../selection/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/criteria-move.png
-[img3]: ../../../../common/icons/delete-circle-red.png

@@ -35,14 +35,14 @@ To link the project to a company, you must specify at least one project member.
     > [!NOTE]
     > If the required name is not in the list, you must first [create the contact][2].
 
-7. Click the ![icon][img2] arrow button to the right of the list. The contact(s) will then be displayed on the right of the dialog.
+7. Click <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> to the right of the list. The contact(s) will then be displayed on the right of the dialog.
 
 8. In the **Function** field, specify the function each person has in the project. Click the arrow to display a list of predefined alternatives to choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 9. In the large text box under **Comment**, enter a more detailed description of the person's function within the project, if required.
 
     > [!NOTE]
-    > If you enter anything in this text box, a ![icon][img1] paperclip symbol is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    > If you enter anything in this text box, a <i class="ph ph-paperclip" aria-label="Paperclip"></i> is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
 
 10. After entering the required information, click **OK**.
 
@@ -73,7 +73,3 @@ You can add project members and stakeholders from the contact lists in different
 <!-- Referenced links -->
 [2]: ../../../contact/learn/create.md
 [3]: ../../../search-options/learn/find-screen.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png

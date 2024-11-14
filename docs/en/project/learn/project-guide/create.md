@@ -55,7 +55,7 @@ Examples of project types: "Conference", "Campaign", "Internal".
 
 After you create statuses and specify a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
 
-1. Click the **Workflow** button in the Navigator (![icon][img1]).
+1. Click the **Workflow** button in the Navigator (<i class="ph ph-arrows-left-right" aria-hidden="true"></i>).
 
 2. Select the **Project guide** tab.
 
@@ -163,5 +163,4 @@ Planning meeting:
 [6]: deactivate.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-workflow-active.png
 [img2]: ../../../../media/loc/en/project/create-project-guide.png

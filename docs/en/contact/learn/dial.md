@@ -14,7 +14,7 @@ language: en
 If your IP phone solution is correctly configured, you can call a contact directly from SuperOffice CRM in one of the following ways:
 
 * Click a telephone number in the Company screen
-* Click ![icon][img1] in a dialog.
+* Click <i class="ph ph-phone" aria-label="Phone icon"></i> in a dialog.
 * Right-click a person in a section tab and selecting **Call *name***.
 * Dial contacts.
 
@@ -24,7 +24,7 @@ You do this using the telephone button in, for example, the **Follow-up** and **
 
 1. Open a follow-up or document.
 2. Select the required contact in the **Contact** field in the dialog.
-3. Click the button next to the contact field ![icon][img1]. A list of numbers for the selected contact is displayed.
+3. Click the call button next to the contact field. A list of numbers for the selected contact is displayed.
 4. Select the number you want to call. The contact is then dialled.
 
 ## Call from section tabs (to contacts, selection members, stakeholders, attendees)
@@ -56,6 +56,3 @@ If IP phone, Skype or FaceTime is installed, you can make phone calls from Super
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/phone.png

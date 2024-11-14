@@ -18,23 +18,16 @@ The inbox contains the following options:
 | Icon | Description |
 |---|---|
 | New | Used to [create a new message][1]. |
-| Delete | |
-| Search | Enter text in this field to start searching in the open folder. |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Enter text in this field to start searching in the open folder. |
 | INBOX | Used to select a folder. The default folder is Inbox. |
-| ![icon][img2] ![icon][img5] | By default the messages are sorted by date, with the newest messages at the top of the list. You can also sort by sender and subject in descending or ascending order. |
+| <i class="ph ph-sort-ascending" aria-label="Sort icon"></i> <i class="ph ph-sort-descending" aria-hidden="true"></i> | By default the messages are sorted by date, with the newest messages at the top of the list. You can also sort by sender and subject in descending or ascending order. |
 
 ## Toolbar at the bottom
 
 | Icon | Description |
 |---|---|
-| ![icon][img3] | Filters the messages in the inbox. |
-| ![icon][img4] | Refreshes the inbox. |
+| <i class="ph ph-funnel" aria-label="Filter"></i> | Filters the messages in the inbox. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Refreshes the inbox. |
 
 <!-- Referenced links -->
 [1]: compose.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/dropdown-arrow.png
-[img5]: ../../../../../common/icons/arrow-down-icon.png
-[img3]: ../../../../../common/icons/filter-icon.png
-[img4]: ../../../../../common/icons/refresh-icon.png

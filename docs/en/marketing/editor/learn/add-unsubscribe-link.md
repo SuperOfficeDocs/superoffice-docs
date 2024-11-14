@@ -30,7 +30,7 @@ You have the flexibility to determine the placement and wording of this unsubscr
 
 2. Type and select the text which the recipient has to click, for example "Click here to unsubscribe" or "Click here to manage your subscriptions".
 
-3. Click the **Insert/edit link** button ![icon][img3] in the toolbar.
+3. Click the **Insert/edit link** button (<i class="ph ph-link" aria-hidden="true"></i>) in the toolbar.
 
 4. Click **Special links** and select one of the following options:
     * **Manage subscriptions**: Inserts a link to a web page where the recipients can select which mailing types they want to receive. The link is valid for 21 days by default.
@@ -51,5 +51,4 @@ You do, however, have the possibility to override "no consent / no subscription"
 [1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/link.png
 [img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

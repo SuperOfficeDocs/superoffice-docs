@@ -1,8 +1,8 @@
 <!-- markdownlint-disable-file MD041 -->
 The columns of the **Activities** section tab contain the following information:
 
-* ![icon][img1] : The first column in the **Activities** section tab specifies the **Completed** status of an activity. A tick means that the [activity is completed][1], while an empty box means that it is not completed.
-* The second column contains icons that indicate the activity category, for example ![icon][img2] for a to-do.
+* The first column in the **Activities** section tab specifies the **Completed** status of an activity. A tick (<i class="ph ph-check" aria-hidden="true"></i>) means that the [activity is completed][1], while an empty box means that it is not completed.
+* The second column contains icons that indicate the activity category, for example <i class="ph ph-calendar-check" aria-label="Task icon"></i> for a to-do.
 * Date information:
   * Documents: Shows the date when the document was recorded.
   * Follow-ups: Shows the date when the follow-up takes place.
@@ -14,7 +14,3 @@ The columns of the **Activities** section tab contain the following information:
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/change-completed-status.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/appointment-task.png

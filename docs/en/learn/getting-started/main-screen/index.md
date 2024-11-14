@@ -41,10 +41,10 @@ The global buttons appear throughout the user interface. Some are in the main sc
 
 | Button | Function |
 |---|---|
-| ![icon][img4] | Used to open the search window. |
-| ![icon][img3] | Used to choose a telephone number to dial. |
-| ![icon][img2] | Arrows open and close lists. |
-| ![icon][img1] | Used to open a menu containing tasks relevant to the dialog or screen. |
+| <i class="ph ph-magnifying-glass" aria-label="Search"></i> | Used to open the search window. |
+| <i class="ph ph-phone" aria-label="Phone"></i> | Used to choose a telephone number to dial. |
+| <i class="ph ph-caret-down" aria-label="Chevron"></i> | Arrows open and close lists. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Used to open a menu containing tasks relevant to the dialog or screen. |
 
 ## Change the size of screen elements
 
@@ -53,7 +53,7 @@ You can change the size of the main card, the side panel and the section tabs. I
 **Steps:**
 
 1. Position the mouse pointer between the screen elements you want to resize.
-2. Click ![icon][img11] or ![icon][img12] and drag to the required size.
+2. Click and drag to the required size (<i class="ph ph-split-horizontal" aria-hidden="true"></i> <i class="ph ph-split-vertical" aria-hidden="true"></i>).
 3. When the elements are the size you want them to be, release the mouse button.
 
 > [!NOTE]
@@ -80,11 +80,3 @@ Zoom in/out in the browser to get larger/smaller font.
 [15]: ../../../project/learn/screen/index.md
 [17]: ../../../sale/learn/screen/index.md
 [19]: ../../../search-options/selection/learn/screen/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/dropdown-icon.png
-[img3]: ../../../../../common/icons/phone.png
-[img4]: ../../../../../common/icons/search-icon-black.png
-[img11]: ../../../../../common/icons/dragger-vert-h32.png
-[img12]: ../../../../../common/icons/dragger-hori-h32.png

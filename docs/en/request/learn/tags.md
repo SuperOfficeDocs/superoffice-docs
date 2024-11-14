@@ -30,7 +30,7 @@ By default, there are no tags present in your SuperOffice CRM solution. You can 
 When you [create or edit a request][1], you can add one or more tags that describe the request.
 
 1. Select the relevant requests.
-1. Click the **Task** button (![icon][img1]) in the lower left corner of the request list.
+1. Click the **Task** button (<i class="ph ph-list" aria-hidden="true"></i>) in the lower left corner of the request list.
 1. Select **Bulk update**.
 1. In the **Bulk update** screen, check the **Tags** box.
 1. Select **Add items** in the **Action** list and select the tags you want from the **New value** list.
@@ -53,5 +53,4 @@ Tags can be used to search for requests in the [free-text search][2] and in the 
 [4]: ../../admin/lists/learn/adding-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/request/requests-tag-request-small.png

@@ -37,7 +37,7 @@ There are many ways to create a follow-up. This method works from anywhere in Su
 ### <a id="fields"></a>How to enter information
 
 > [!NOTE]
-> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img4] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
+> Many fields have a list of predefined values you can choose from. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
 
 If your SuperOffice has [time zones][9] turned on, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
 
@@ -77,7 +77,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 
 ## Create follow-up from Task button
 
-1. Click the ![icon][img3] **Task** button in the Contact card.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> in the Contact card.
 
     * To create a meeting, select **Request a meeting**.
 
@@ -92,7 +92,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 * **To use default duration:** double-click a time in the Diary or right-click a time in the Diary and select **New**.
 
 > [!NOTE]
-> If you create the meeting from the **View** tab, you can choose to have attendees automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
+> If you create the meeting from the **View** tab, you can choose to have attendees automatically filled out with the members of the view. To set this option, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 ### <a id="associate"></a>Create meeting for an associate
 
@@ -137,8 +137,5 @@ You can also create a new follow-up by copying an existing follow-up to another 
 [9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/btn-menu.png
-[img4]: ../../../../common/icons/dropdown-icon.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

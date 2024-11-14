@@ -17,7 +17,7 @@ It may be appropriate to have the same reply template in several languages, for 
 
 ## Add languages to reply template
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
 
 2. Go to the folder where the reply template is located.
 
@@ -39,6 +39,3 @@ It may be appropriate to have the same reply template in several languages, for 
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png

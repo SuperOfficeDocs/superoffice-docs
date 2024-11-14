@@ -35,7 +35,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 1. [Open a request][1].
 
-1. Click the ![icon][img1] **Task** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
    ![The FAQ entry properties screen -screenshot][img5]
 
@@ -69,14 +69,14 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
     1. Click **Choose file** next to **Attachment**.
     2. In the dialog, browse to the document you require.
-    3. Click ![icon][img1] to add the attachment.
+    3. Click **+** to add the attachment.
     4. Repeat this procedure to add more attachments.
 
 1. In the **Link** field, you can add one or more addresses of relevant websites:
 
     1. In the field to the left, enter the name to be displayed for the link.
     2. In the field on the right, enter the actual web address after `http://`
-    3. Click ![icon][img1] **Add** to add the link.
+    3. Click **+** to add the link.
     4. Repeat this procedure to add more links.
 
 1. Go to the **Question** tab.
@@ -84,7 +84,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 1. Enter the question that you want the FAQ entry to contain. By default, the first message in the request is pasted into the **Question** tab.
 
     > [!TIP]
-    > Click the ![icon][img2] **Format font** button to change the layout of the text.
+    > Click the **Format font** button (<i class="ph ph-text-a-underline" aria-hidden="true"></i>) to change the layout of the text.
 
 1. Go to the **Answer** tab and enter the answer. By default, the next messages in the request are pasted into the **Answer** tab.
 
@@ -94,7 +94,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 ## Create new FAQ
 
-1. Go to ![icon][img4] **Main menu** in the top bar and select **Knowledge base** > **FAQ**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **FAQ**.
 
 1. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
 
@@ -121,8 +121,5 @@ Because the option to create FAQ entries this way is only available to **adminis
 [6]: ../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/msg-toolbar.png
 [img3]: ../../../media/loc/en/faq/create-publish-faq.png
-[img4]: ../../../media/icons/main-menu.png
 [img5]: ../../../media/loc/en/faq/faq-create.png

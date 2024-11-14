@@ -29,9 +29,9 @@ The users you chose to link to a follow-up will be notified of this on their scr
 
 | Icon | Description |
 |:-:|---|
-| ![icon][img1] | Invitation is accepted. |
-| ![icon][img2] | Invitation is declined. |
-| ![icon][img3] | Invitation is seen but not answered. |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | Invitation is accepted. |
+| <i class="ph ph-x" aria-label="Red X"></i> | Invitation is declined. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Invitation is seen but not answered. |
 | unmarked | Invitation has not been seen. |
 
 ## Resources
@@ -56,8 +56,3 @@ When you send an invitation, the recipient can either accept or decline it.
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-attendee.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/check-black.png
-[img2]: ../../../../../common/icons/reject-appointment-icon.png
-[img3]: ../../../../../common/icons/assignment-seen.png

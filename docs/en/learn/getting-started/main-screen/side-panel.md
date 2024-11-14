@@ -16,12 +16,12 @@ language: en
 
 The side panel is a multifunctional panel located rightmost on every screen in SuperOffice (except for the Inbox).
 
-Use the side panel to view and use information from other parts of your CRM solution. For example, to work your way through lists of contacts to call, sales to update, or sales proposals to follow up. You can choose from different views by clicking the ![icon][img3] arrow next to the side panel's name.
+Use the side panel to view and use information from other parts of your CRM solution. For example, to work your way through lists of contacts to call, sales to update, or sales proposals to follow up. You can choose from different views by clicking the arrow (<i class="ph ph-caret-down" aria-hidden="true"></i>) next to the side panel's name.
 
 ![The side panel is located on the right side of SuperOffice CRM -screenshot][img10]
 
 > [!TIP]
-> You can minimize the side-panel by clicking the ![icon][img4] minimize icon on the upper right corner, to get more room for the main cards and archives.
+> You can minimize the side-panel by clicking <i class="ph ph-sidebar-simple" aria-label="Sidebar icon"></i> on the upper right corner, to get more room for the main cards and archives.
 
 The side panel is useful for showing information complementary to the screen you are in. For example, you can display the monthly calendar at the same time as you are viewing the daily calendar in the Diary screen, to give you a better overview, or you can show the members of a selection linked to a project you are looking at in the Project screen. You can also add custom views to the side panel, from Settings and Maintenance.
 
@@ -66,13 +66,11 @@ Shows a monthly agenda, giving you an overview of follow-ups for the next month(
 
 If you hold the mouse pointer over these days, a tooltip containing a list of the relevant follow-ups appears.
 
-| Icon | Description |
-|---|---|
-| ![icon][img7] | The "bar" below the date indicates the level of activities that day, making it easier to schedule meetings. |
-| ![icon][img8] | Today. |
-| ![icon][img9] | The selected date in the Diary. |
+* The "bar" below the date indicates the level of activities that day, making it easier to schedule meetings.
+* Today's date is bold.
+* The selected date has a gray background.
 
-You can move from month to month by clicking the ![icon][img1] ![icon][img2] arrow icons at the bottom of the side panel.
+You can move from month to month by clicking <i class="ph ph-arrow-left" aria-label="Arrow left"></i><i class="ph ph-arrow-right" aria-label="Arrow right"></i> at the bottom of the side panel.
 
 ## My favorites
 
@@ -94,7 +92,7 @@ Shows a preview of a selected activity, project, contact, project member or sele
 Shows a summary of information about the current project in the Project screen.
 
 > [!TIP]
-> To view other projects, without having to switch projects in the Project screen, click the arrow ![icon][img3] next to the product name to open the [history list][1].
+> To view other projects, without having to switch projects in the Project screen, click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the product name to open the [history list][1].
 
 ## Project members
 
@@ -108,7 +106,7 @@ Shows a list of project members in the current project in the Project screen.
 Shows a summary of information about the current sale in the Sale screen.
 
 > [!TIP]
-> To view other sales, without having to switch sales in the Sale screen, click the arrow ![icon][img3] next to the name of the sale to open the [history list][1].
+> To view other sales, without having to switch sales in the Sale screen, click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the name of the sale to open the [history list][1].
 
 [How to use the side panel efficiently for sales][10]
 
@@ -117,7 +115,7 @@ Shows a summary of information about the current sale in the Sale screen.
 Shows a summary of information about the current selection in the Selection screen.
 
 > [!TIP]
-> To view other selections, without having to switch selections in the Selection screen, click the arrow ![icon][img3] next to the selection name to open the [history list][1].
+> To view other selections, without having to switch selections in the Selection screen, click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the selection name to open the [history list][1].
 
 ## Selection members
 
@@ -142,11 +140,4 @@ In Settings and maintenance, you can also define your own views for the side pan
 [10]: ../../../sale/learn/use-side-panel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-left.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/dropdown-icon.png
-[img4]: ../../../../../common/icons/right-collapse.png
-[img7]: ../../../../media/icons/mini-card-level.png
-[img8]: ../../../../media/icons/mini-card-today.png
-[img9]: ../../../../media/icons/mini-card-selected.png
 [img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

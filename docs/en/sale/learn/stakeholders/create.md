@@ -36,7 +36,7 @@ language: en
 
 6. To add the company as a stakeholder, click the upper arrow button (to the right of the company). The company appears on the rightmost side of the window.
 
-7. To add contacts as stakeholders, select the contact(s) and click the lower ![icon][img2] arrow button. The contact(s) will then be displayed on the right of the dialog.
+7. To add contacts as stakeholders, select the contact(s) and click the lower <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i>. The contact(s) will then be displayed on the right of the dialog.
 
     > [!NOTE]
     > If the required name is not in the list, you must first [create the contact][3].
@@ -47,7 +47,7 @@ language: en
 9. In the large text box under **Comments**, enter a more detailed description of the company's or contact's function within the sale, if required.
 
     > [!NOTE]
-    > If you enter anything in this text box, a ![icon][img1] paperclip symbol is displayed to the right of the **Sales role** column in the **Stakeholders** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    > If you enter anything in this text box, a <i class="ph ph-paperclip" aria-label="Paperclip"></i> is displayed to the right of the **Sales role** column in the **Stakeholders** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
 
 10. Repeat steps 4-9 for each stakeholder you want to add.
 
@@ -62,6 +62,4 @@ language: en
 [3]: ../../../contact/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
 [img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.png

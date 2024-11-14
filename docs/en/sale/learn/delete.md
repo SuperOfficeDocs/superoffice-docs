@@ -14,13 +14,7 @@ language: en
 You may find that you want to delete a sale, if it is no longer appropriate to store it in the database.
 
 1. Go to the required sale.
-2. Click the **Task** button (![icon][img1]).
-3. Select **Delete 'sale name'**.
-4. When you are asked if you really want to delete the sale, click **Yes**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete 'sale name'**.
+1. When you are asked if you really want to delete the sale, click **Yes**.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

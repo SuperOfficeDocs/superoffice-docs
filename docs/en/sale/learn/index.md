@@ -22,7 +22,7 @@ Watch this video and see how easy pursuing sales opportunities can be with Super
 
 The **Sale** screen contains information about the sales entered into SuperOffice CRM. Each sale is displayed like an index card, showing all information about that sale.
 
-To move between sales, click the previous/next buttons ( ![icon][img2] ![icon][img4] ) at the bottom right of the cards.
+To move between sales, click the previous/next buttons (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) at the bottom right of the cards.
 
 You can also [create a quote][1] in the **Quote** section tab in the Sale screen.
 
@@ -137,8 +137,6 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
-[img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/loc/en/sale/sale-details.png
-[img4]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/loc/en/sale/sale-card.png
 [img6]: ../../../media/loc/en/sale/sale-more.png

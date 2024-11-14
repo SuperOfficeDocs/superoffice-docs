@@ -17,9 +17,9 @@ language: en
 
 To illustrate this functionality, we will add a new navigator group in the navigator to the left in SuperOffice. We will add an extra menu in the new navigator group. In our example, we will add the navigator group "Websites" with some useful websites.
 
-1. Select ![icon][img2] **System settings** > **System design** > **Extra menus**.
+1. Select <i class="ph ph-list" aria-label="Main menu"></i> **System settings** > **System design** > **Extra menus**.
 
-2. Hold the mouse pointer over the **Navigator** folder and click ![icon][img1].
+2. Hold the mouse pointer over the **Navigator** folder and click **+**.
 
 3. Enter "Websites" in the **Label** field (maximum 14 characters).
 
@@ -29,11 +29,11 @@ To illustrate this functionality, we will add a new navigator group in the navig
 
 6. Click **OK**. The new navigator group is shown on the left. The navigator group is empty, so we must add website. In this case, we add Google.
 
-7. Hold the mouse pointer over the navigator group you have just created and click ![icon][img1]. The **Menu properties** screen appears.
+7. Hold the mouse pointer over the navigator group you have just created and click **+**. The **Menu properties** screen appears.
 
 8. Enter "Google" in the **Label** field (maximum 20 characters).
 
-9. Check **Use URL** and enter "http://www.google.com" in the **URL** field.
+9. Check **Use URL** and enter `http://www.google.com` in the **URL** field.
 
 10. DO NOT check **Append ID** or **Append &lt;usec&gt;**, or values will be added behind the URL you defined.
 
@@ -47,7 +47,3 @@ To illustrate this functionality, we will add a new navigator group in the navig
 
 <!-- Referenced links -->
 [1]: properties.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

@@ -23,7 +23,7 @@ It is the data that lies behind the tiles that makes a dashboard useful. Learn h
 
 * Click the data labels (legend) under the tile to hide/show specific data in the tiles. This can be useful for printing or exporting the tiles.
 
-* Click ![icon][img1] in the header of a tile and select **View in full screen** to open the tile in full screen. Useful for tiles with much content.
+* Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile and select **View in full screen** to open the tile in full screen. Useful for tiles with much content.
 
 ### Examine underlying data
 
@@ -49,7 +49,7 @@ Follow the steps in this GIF or the steps below to see how you can access the da
 
 ## Export tiles
 
-Click ![icon][img1] in the header of a tile to access the following options:
+Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile to access the following options:
 
 * **Download PDF document** / **Download PNG document**: Download the tile in PDF or PNG format. The export files are downloaded to your browser (**Downloads** folder).
 
@@ -73,5 +73,4 @@ Click ![icon][img1] in the header of a tile to access the following options:
 [5]: show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/context-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

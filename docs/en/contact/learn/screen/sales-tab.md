@@ -23,7 +23,7 @@ Double-click a sale in the list to open the Sale screen, which contains informat
 
 Click **Add** to create a new [sale][1].
 
-Click the **Filter** button ![icon][img1] to [filter the list][3] by date, users or groups.
+Click the **Filter** button (<i class="ph ph-funnel" aria-hidden="true"></i>) to [filter the list][3] by date, users or groups.
 
 If you check **Include stakeholders** at the bottom of the section tab, sales where the [contact is involved as a stakeholder][2] are also displayed.
 
@@ -38,4 +38,3 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 [4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/filter-icon.png

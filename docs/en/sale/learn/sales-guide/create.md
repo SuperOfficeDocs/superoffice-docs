@@ -43,7 +43,7 @@ Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cr
 
 After you have created stages and specified a sale type for the sales guide, you can design the sales guide itself by adding follow-ups and/or documents for each stage.
 
-1. Click the **Workflow** button in the Navigator (![icon][img1]).
+1. Click <i class="ph ph-arrows-left-right" aria-hidden="true"></i> **Workflow** in the Navigator.
 
 2. Select the **Sales guide** tab.
 
@@ -146,6 +146,3 @@ Agenda for first meeting:
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
 [4]: ../../../document/templates/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-workflow-active.png

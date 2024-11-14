@@ -28,12 +28,12 @@ To add reports as favourites, see [Favourite reports][1].
 From the Navigator:
 
 1. Click the word **Company**, **Contact**, **Sale**, **Project**, **Requests**, or **Selection** in Navigator.
-2. Click ![icon][img1].
+2. Click <i class="ph ph-star" aria-label="Star icon"></i>.
 3. Select the item you want to view.
 
 In the [side panel][4]:
 
-1. Click the ![icon][img4] arrow next to the side panel's name.
+1. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the side panel's name.
 2. Select **My favourites**.
 3. Optionally, click the checkbox at the bottom of the side panel to show only one type of favorites. For example, if the Sale screen is open, click **Sales only** to show only favorite sales.
 
@@ -43,7 +43,7 @@ In the [side panel][4]:
 ## Remove item from the favourites list
 
 1. Open the record.
-2. Click the favourites icon ![icon][img2] in the header. The icon changes to ![icon][img3].
+2. Click <i class="ph ph-star" aria-label="Star icon"></i> in the header. The icon changes color.
 
 ## Related content
 
@@ -56,9 +56,3 @@ In the [side panel][4]:
 [2]: ../../request/learn/howto/fav.md
 [3]: ../../marketing/learn/add-fav.md
 [4]: ../getting-started/main-screen/side-panel.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-fav.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/favourite-no.png
-[img4]: ../../../../common/icons/dropdown-icon.png

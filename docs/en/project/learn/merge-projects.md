@@ -15,14 +15,14 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 1. Go to the project you want merge into another project. See [Use the Find screen][1].
 
-2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**.
+2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> on the **Project** card and select **Merge projects**.
 
 3. In the **Merge projects** dialog under **To**, select the project you want to merge the existing project into. Start typing in the field to search for a project.
 
     ![Merge projects dialog -screenshot][img2]
 
     > [!TIP]
-    > To switch the **From** and **To** projects, click ![icon][img3].
+    > To switch the **From** and **To** projects, click <i class="ph ph-info" aria-label="Info"></i>.
 
 4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** to update empty fields in the target project with details from the source one.
 
@@ -49,6 +49,4 @@ If you have two nearly identical projects, it is possible to merge them, includi
 [3]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/info-ball.png
 [img2]: ../../../media/loc/en/project/merge-project.png

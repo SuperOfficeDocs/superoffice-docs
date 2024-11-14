@@ -22,7 +22,7 @@ A field identifier is a unique ID for a specific field. It will not change even 
 
 1. [Create a new form][1].
 
-2. For each field you want to be pre-filled: Click **Advanced options** ![icon][img1] to display the **Identifier** field, where you can add an ID for the field.
+2. For each field you want to be pre-filled: Click **Advanced options** (<i class="ph ph-gear" aria-hidden="true"></i>) to display the **Identifier** field, where you can add an ID for the field.
 
 3. [Publish forms][2].
 
@@ -50,4 +50,3 @@ A field identifier is a unique ID for a specific field. It will not change even 
 [3]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png

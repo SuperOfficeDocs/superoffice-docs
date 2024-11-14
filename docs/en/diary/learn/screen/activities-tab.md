@@ -22,7 +22,7 @@ The activities list does not change when you switch between the different tabs i
 
 The activities list columns contain the following information:
 
-* ![icon][img3] : The first column in the activities list specifies the **Completed** [status of an activity][1]. A tick in the checkbox ![icon][img2] means that the activity is completed, while an empty box means that it is not completed.
+* The first column in the activities list specifies the **Completed** [status of an activity][1]. A tick in the checkbox means that the activity is completed, while an empty box means that it is not completed.
 
     > [!TIP]
     > To change the **Completed** status of an activity simply click the box.
@@ -53,19 +53,19 @@ To view the details of several activities from the activities list, without havi
 1. Go to the side panel and select the **Preview** view.
 2. Click an activity in the activities list. The side panel displays a preview of the selected activity.
 
-## Preferences
+## Preferences <i class="ph ph-user-circle" aria-label="Contact icon"></i>
 
 After an activity is completed, it is removed from the activities list by the next day. By default, the **Activities** section tab displays to-dos that you have not completed as of today's date.
 
 ### Display future to-dos
 
-1. Go to ![icon][img1] **Personal settings** > **Preferences**.
+1. Go to **Personal settings** > **Preferences**.
 2. Select **Functions** and find the **Show days ahead** option.
 3. Define how many days ahead you want completed activities to be visible for. For example, entering 7 here would display to-dos for the next week.
 
 ### Remove activity from list when completed
 
-1. Go to ![icon][img1] **Personal settings** > **Preferences**.
+1. Go to **Personal settings** > **Preferences**.
 2. Select **Visual effects**.
 3. Update the **Remove completed activities** [preference][8].
 
@@ -73,7 +73,7 @@ After an activity is completed, it is removed from the activities list by the ne
 
 If an activity is highlighted in red type, this means that its provisional date was passed. To change this setting:
 
-1. Go to ![icon][img1] **Personal settings** > **Preferences**.
+1. Go to **Personal settings** > **Preferences**.
 2. Select **Functions**.
 3. Update the **Mark overdue activities** option.
 
@@ -90,7 +90,4 @@ If an activity is highlighted in red type, this means that its provisional date 
 [8]: ../../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../media/icons/check.png
-[img3]: ../../../../media/icons/sale-sold-details.png
 [img4]: ../../../../media/loc/en/diary/activities-detail.png

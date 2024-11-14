@@ -80,7 +80,7 @@ Now you must ensure that you are a member of the category or categories you are 
 
 1. Select the **Members** tab.
 
-1. Select yourself in the **User** list and click ![icon][img1] to add yourself as a member of the category.
+1. Select yourself in the **User** list and click **+** to add yourself as a member of the category.
 
 1. Add any other users as members of this category.
 
@@ -100,6 +100,3 @@ Create a new request, set **Owner** to **Unassigned**, select the category you a
 
 <!-- Referenced links -->
 [2]: category/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png

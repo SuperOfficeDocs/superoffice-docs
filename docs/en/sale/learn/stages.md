@@ -17,10 +17,10 @@ For individual sale types, a list of stages is also displayed,[!include[SM](../.
 
 | Icon | Meaning |
 |---|---|
-| ![icon][img3] | Open |
-| ![icon][img2] | Stalled |
-| ![icon][img1] | Lost|
-| ![icon][img7] | Sold |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Open |
+| <i class="ph ph-check" aria-label="Check icon"></i> | Sold |
+| <i class="ph ph-x" aria-label="X icon"></i> | Lost |
+| <i class="ph ph-triangle" aria-label="Red triangle icon"></i> | Stalled |
 
 ## Open
 
@@ -61,10 +61,6 @@ If you set the sale to **Sold** or **Lost**, you can enter the date, any competi
 [3]: ../../admin/lists/learn/sale-stage.md
 
 <!-- Referenced images -->
-[img7]: ../../../media/icons/sale-sold.png
-[img1]: ../../../media/icons/sale-postponed.png
-[img2]: ../../../media/icons/sale-lost.png
-[img3]: ../../../../common/icons/nav-sale-h32.png
 [img4]: ../../../media/loc/en/sale/72-chap7-sale-open.png
 [img5]: ../../../media/loc/en/sale/73-chap7-sale-stalled.png
 [img6]: ../../../media/loc/en/sale/74-chap7-sale-lost.png

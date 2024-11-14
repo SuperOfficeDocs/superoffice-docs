@@ -31,7 +31,7 @@ The default templates contain template variables that are replaced with data fro
 
 3. In the dialog, select either the **Email signature** tab or the **Request signature** tab.
 
-4. Click ![icon][img2] to open the text editor toolbar. Here you have various options for editing text and adding additional content.
+4. Click <i class="ph ph-text-a-underline" aria-label="Show/hide toolbar"></i> to open the text editor toolbar. Here you have various options for editing text and adding additional content.
 
     ![Edit personal email signature -screenshot][img1]
 
@@ -85,6 +85,5 @@ supershop.com
 [3]: ../../document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/editor-toolbar-icon.png
 [img3]: ../../../media/icons/sign-editor-variables.png
 [img1]: ../../../media/loc/en/learn/getstarted-preferences-email-signature.png

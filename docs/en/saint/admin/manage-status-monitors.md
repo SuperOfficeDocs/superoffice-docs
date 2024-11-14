@@ -28,32 +28,25 @@ You should regenerate statuses and/or counters if the indicators show that the l
 
 ### How to tell if it is updated
 
-If an item is not updated, it is shown as ![icon][img1] (statuses) and ![icon][img3] / ![icon][img4] / ![icon][img5] (counters) in SuperOffice CRM.
+If an item is not updated, it is shown as grayed out in SuperOffice CRM.
 
-## Regenerate statuses
+## Regenerate statuses <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i>
 
 When you have [added, edited, or deleted a criterion][2], or if, for example, you have edited an intention for a task in SuperOffice CRM, a red cross is displayed in the status list to the left of the status(es) in question. Statuses marked with a red cross are not enabled.
 
 You must then regenerate these statuses by clicking one of these buttons:
 
-| Icon | Name | Description | Location |
-|---|---|---|---|
-| ![icon][img2] | Regenerate selected status monitor | Select to regenerate the selected status | Bottom of the **Company**, **Contact**, or **Project** tab |
-| ![icon][img2] | Regenerate all status monitors | Select to regenerate all statuses | Bottom of the **Status** tab |
+| Name | Description | Location |
+|---|---|---|
+| Regenerate selected status monitor | Select to regenerate the selected status | Bottom of the **Company**, **Contact**, or **Project** tab |
+| Regenerate all status monitors | Select to regenerate all statuses | Bottom of the **Status** tab |
 
 ## Regenerate counter values
 
-| Icon | Name | Description |
-|---|---|---|
-| ![icon][img2] | Regenerate all counters | Select to regenerate all counters |
+| Name | Description |
+|---|---|
+| Regenerate all counters | Select to regenerate all counters |
 
 <!-- Referenced links -->
 [1]: ../../search-options/learn/search-criteria.md
 [2]: select-status-criteria.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/admin/status-inactive.png
-[img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../media/icons/admin/saint-counter-company-dis.png
-[img4]: ../../../media/icons/admin/saint-counter-project-dis.png
-[img5]: ../../../media/icons/admin/saint-counter-sale-disabled.png

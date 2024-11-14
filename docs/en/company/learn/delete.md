@@ -13,7 +13,7 @@ language: en
 
 [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Click the ![icon][img1] **Task** button and select **Delete &lt;company name&gt;**.
+1. Click the <i class="ph ph-list" aria-hidden="true"></i> **Task** button and select **Delete &lt;company name&gt;**.
 
 1. In the **Delete Company** dialog, click **Yes** to confirm that you really want to delete the company.
 
@@ -31,6 +31,3 @@ language: en
 [2]: ../../learn/basics/deleting-elements.md#restore
 [3]: ../../search-options/selection/learn/howto/mass-delete.md
 [4]: merge-companies.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

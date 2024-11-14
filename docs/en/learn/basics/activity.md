@@ -21,15 +21,15 @@ audience_tooltip: SuperOffice CRM
 There are two main types of activities – documents and follow-ups. In addition, mailings, form submissions, and chat records are displayed in the **Activities** section tab.
 
 * [Follow-ups][1]
-  * ![icon][img11] Meeting (appointment)
-  * ![icon][img13] Follow-up (call)
-  * ![icon][img12 ]To-do (task)
+  * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Meeting (appointment)
+  * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Follow-up (call)
+  * <i class="ph ph-calendar-check" aria-hidden="true"></i> To-do (task)
 * [Documents][4]
-  * ![icon][img14] Document (letters and other documents)
-  * ![icon][img15] Email
-* ![icon][img16] [Mailings][3] (bulk mailings by merged document, email or SMS)
-* ![icon][img18] [Chat sessions][12]
-* ![icon][img17] Form submissions
+  * <i class="ph ph-file-doc" aria-hidden="true"></i> Document (letters and other documents)
+  * <i class="ph ph-at" aria-hidden="true"></i> Email
+* <i class="ph ph-target" aria-hidden="true"></i> [Mailings][3] (bulk mailings by merged document, email or SMS)
+* <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> [Chat sessions][12]
+* <i class="ph ph-rows" aria-hidden="true"></i> Form submissions
 
 ## Where do I find activities?
 
@@ -46,7 +46,7 @@ There are two main types of activities – documents and follow-ups. In addition
 
 ## <a id="view"></a>View activities
 
-The activities displayed depend on which filters you select at the bottom of the section tab. You can show all activities, or just one of the types. Click the ![icon][img5] **Filter** button to [filter activities][17] by date and user.
+The activities displayed depend on which filters you select at the bottom of the section tab. You can show all activities, or just one of the types. Click the **Filter** button (<i class="ph ph-funnel" aria-hidden="true"></i>) to [filter activities][17] by date and user.
 
 ![Activities section tabs shows filter options of different record types -screenshot][img4]
 
@@ -54,7 +54,7 @@ The activities displayed depend on which filters you select at the bottom of the
 
 The activities list columns contain the following information:
 
-* ![icon][img1]: The first column in the activities list specifies the **Completed** status of an activity. A tick means that the activity is completed, while an empty box means that it is not completed.
+* The first column in the activities list specifies the **Completed** status of an activity. A tick (<i class="ph ph-check" aria-hidden="true"></i>) means that the activity is completed, while an empty box means that it is not completed.
 
 * The Category column contains icons that indicate the type of activity, for example, a calendar for a meeting. These icons reflect the text in the **Type** column.
 
@@ -103,15 +103,5 @@ You can delete activities from any screen where they are displayed:
 [17]: ../section-tabs/filter.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
-[img5]: ../../../../common/icons/filter-icon.png
-[img11]: ../../../../common/icons/appointment.png
-[img12]: ../../../../common/icons/appointment-task.png
-[img13]: ../../../../common/icons/appointment-followup.png
-[img14]: ../../../../common/icons/document.png
-[img15]: ../../../../common/icons/email.png
-[img16]: ../../../../common/icons/marketing.png
-[img17]: ../../../../common/icons/webforms.png
-[img18]: ../../../../common/icons/chat.png

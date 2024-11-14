@@ -9,9 +9,7 @@ topic: howto
 language: en
 ---
 
-# Compose an email
-
-![icon][img2]
+# Compose an email <i class="ph ph-at" aria-label="Email icon"></i>
 
 No matter where you are in SuperOffice CRM, you can compose a new email message by clicking the **New** button in the top bar.
 
@@ -27,12 +25,8 @@ When you finished the message, and want to send it, you have the following optio
 > [!TIP]
 > If you do not archive the message when you send it, you can still go to the sent folder and [archive the message][2].
 >
-> The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** > **Edit personal signature**.
+> The signature template at the bottom of the message can be edited in <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Edit personal signature**.
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md
 [2]: ../inbox/learn/archive.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img2]: ../../../../common/icons/nav-inbox-h32.png

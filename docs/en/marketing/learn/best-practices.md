@@ -91,7 +91,7 @@ Content authors will see a message if they are using an un-validated email addre
 
 The message is automatically customized for display on smaller screens.
 
-When editing, click ![icon][img1] **Mobile** in the global menu to see what the appearance is like on a smart phone. You can also click a section in the message and click **Mobile** under **Content** in the side-panel.
+When editing, click **Mobile** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) in the global menu to see what the appearance is like on a smart phone. You can also click a section in the message and click **Mobile** under **Content** in the side-panel.
 
 To adjust mobile-specific settings for a message, select a section in the message and click **Mobile** in the side-panel. You can now define the formatting for displaying the message on mobile devices, and also select which elements (such as images) to exclude from mobile devices.
 
@@ -107,5 +107,4 @@ To adjust mobile-specific settings for a message, select a section in the messag
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/mobile.png
 [img2]: ../../../media/loc/en/marketing/from-name.gif

@@ -22,7 +22,7 @@ If a single request contains several questions, for example, if the customer fir
 
 1. [Open the request][2].
 
-1. Click the ![icon][img1] **Task** button and select **Split**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Split**.
 
     This opens up a dialog, where you specify information about the new request.
 
@@ -63,6 +63,3 @@ If a single request contains several questions, for example, if the customer fir
 [5]: transfer.md
 [6]: forward.md
 [7]: merge.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

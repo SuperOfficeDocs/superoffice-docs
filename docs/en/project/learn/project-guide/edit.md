@@ -15,7 +15,7 @@ language: en
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-1. Click the ![icon][img1] **Workflow** button in the Navigator.
+1. Select <i class="ph ph-arrows-left-right" aria-hidden="true"></i> **Workflow** in the Navigator.
 2. Select the **Project guide** tab.
 3. Select the required project type in the list box at the top.
 4. [Edit information on the project type and its statuses][3].
@@ -31,6 +31,3 @@ language: en
 [1]: create.md#add-doc-status
 [2]: create.md#add-fo-status
 [3]: ../../../admin/lists/learn/project-status.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-workflow-active.png

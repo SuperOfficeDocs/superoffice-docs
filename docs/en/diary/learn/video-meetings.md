@@ -33,12 +33,12 @@ You can easily set up a video meeting when creating a follow up.
 
 1. Create a new meeting and select the name of the company and the contact you plan to meet.
 
-2. To create the video meeting URL, click the video meeting icon ![icon][img1]. The icon changes to ![icon][img2] and a video meeting link is added. SuperOffice CRM will create and add the video meeting URL for the video provider you use.
+2. To create the video meeting URL, click <i class="ph ph-video-camera" aria-label="Camera icon"></i>. The icon changes color and a video meeting link is added. SuperOffice CRM will create and add the video meeting URL for the video provider you use.
 
     ![Click the video meeting icon to create the video meeting URL -screenshot][img5]
 
     > [!NOTE]
-    > The first time you select the video icon ![icon][img1], you must log in to authenticate your user in the video meeting service defined by your administrator.
+    > The first time you select <i class="ph ph-video-camera" aria-label="Video meeting"></i>, you must log in to authenticate your user in the video meeting service defined by your administrator.
     >
     > If you do not see the icon, this means that the video meeting feature is not configured yet. Please contact your SuperOffice administrator, who would be able to set up the feature and video provider connection.
 
@@ -48,10 +48,10 @@ You can easily set up a video meeting when creating a follow up.
 
     When you have added everyone that you want to attend the meeting, click **Save**.
 
-    If you turned on email invitations for the attendees of the follow-up, an email with a link to join the video meeting is sent when the meeting is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
+    If you turned on email invitations for the attendees of the follow-up, an email with a link to join the video meeting is sent when the meeting is saved. In the diary, follow-ups with video meetings are displayed with <i class="ph ph-video-camera" aria-label="Camera icon"></i>.
 
 > [!TIP]
-> Click ![icon][img4] to copy the video meeting link. You can then paste the link in the agenda/description of the meeting or send to others via direct messaging. Use the template variable {burl} to add the video meeting link to invitation templates.
+> Click <i class="ph ph-copy" aria-label="Copy"></i> to copy the video meeting link. You can then paste the link in the agenda/description of the meeting or send to others via direct messaging. Use the template variable {burl} to add the video meeting link to invitation templates.
 
 ## Join video meetings
 
@@ -93,8 +93,4 @@ To join the video meeting via the preview screen, just click the **Join Meeting*
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/videocall-off.png
-[img2]: ../../../../common/icons/videocall.png
-[img3]: ../../../../common/icons/diary-videocall.png
-[img4]: ../../../../common/icons/diary-copy.png
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

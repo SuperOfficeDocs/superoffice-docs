@@ -13,7 +13,7 @@ language: en
 
 # Global preferences for SuperOffice Service system settings
 
-Go to ![icon][img2] **Preferences** in the navigator and select the tab **Global Preferences**. The section for **SuperOffice Service system settings** contains the following options:
+Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navigator and select the tab **Global Preferences**. The section for **SuperOffice Service system settings** contains the following options:
 
 * **Default font in editor**: Select which font, font size and formatting to use as default for message registration.
 
@@ -21,7 +21,7 @@ Go to ![icon][img2] **Preferences** in the navigator and select the tab **Global
 
 * **Default font weight**: Weight (thickness) of the default font in the Request editor.
 
-* **Send email notification of open requests**: Specifies if email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from ![icon][img1] **Personal settings** > **Preferences** > **Notification via e-mail & SMS**.
+* **Send email notification of open requests**: Specifies if email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Notification via e-mail & SMS**.
 
 * **New status when accepting a request**: Select which status to use when a request is accepted by a user.
 
@@ -31,7 +31,7 @@ Go to ![icon][img2] **Preferences** in the navigator and select the tab **Global
 
 * **System administrator**: The email address of the person who is responsible for operation of SuperOffice Service. This must be an email address that is not imported/processed by SuperOffice Service.
 
-* **Default From address**: The system's default email sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, support@company.com.
+* **Default From address**: The system's default email sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, `support@company.com`.
 
 * **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in emails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received emails will not be correctly linked to existing requests.
 
@@ -69,7 +69,3 @@ Go to ![icon][img2] **Preferences** in the navigator and select the tab **Global
 
 <!-- Referenced links -->
 [1]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../../common/icons/nav-admin-preferences-active.png

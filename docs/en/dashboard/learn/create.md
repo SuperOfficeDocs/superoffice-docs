@@ -29,7 +29,7 @@ Watch this video or follow the steps below to learn how to add new dashboard tab
 4. Enter a description of the dashboard. The description is displayed at the top of the dashboard.
 
     > [!TIP]
-    > You can also add the name and description [in other languages][1] by clicking ![icon][img1].
+    > You can also add the name and description [in other languages][1] by clicking **A-Z**.
 
 5. Select the theme of the dashboard in the **Theme** list.
 
@@ -66,5 +66,4 @@ There is a lot of standard tiles to choose from in the library, but you can also
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

@@ -21,7 +21,7 @@ You can set the order of the ERP fields displayed in the ERP tab in SuperOffice 
 
 1. Select the tab for the actor you want to configure default values for. This tab shows all available fields for the actor (including both fields that are displayed in the **ERP** tab in SuperOffice CRM and those that are not).
 
-1. Select a field in the list, and use the ![icon][img1] ![icon][img2] arrows to set the fields's order.
+1. Select a field in the list, and use <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> to set the fields's order.
 
 1. Repeat steps 4 and 5 to change the field ranking for other actors.
 
@@ -33,7 +33,3 @@ You can set the order of the ERP fields displayed in the ERP tab in SuperOffice 
 <!-- Referenced links -->
 [1]: sync-configure-field-allocation.md
 [2]: sync-configure-default-values.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png

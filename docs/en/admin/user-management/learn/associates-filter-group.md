@@ -25,7 +25,7 @@ Use this dynamic search function to quickly locate specific users by name or use
 
 Select this option to show only users that are active (have not been deactivated).
 
-## Filtering the list
+## Filtering the list <i class="ph ph-funnel" aria-hidden="true"></i>
 
 You can filter the list of users by any of the column headers.
 
@@ -33,10 +33,10 @@ You can filter the list of users by any of the column headers.
 > Right-click a column to add any additional columns you want to filter by.
 
 1. Go to the **Associates** tab.
-2. Right-click a column heading or click ![icon][img1] in the top-right corner of the list.
+2. Right-click a column heading or click <i class="ph ph-gear" aria-label="Gear"></i> in the top-right corner of the list.
 3. Select **Enable filter**.
-4. Click **OK**.Filter buttons (![icon][img2]) are added to each column header.
-5. Click ![icon][img2] on the column you want to filter.
+4. Click **OK**. Filter buttons are added to each column header.
+5. Click <i class="ph ph-funnel" aria-label="Filter icon"></i> on the column you want to filter.
 6. Select the relevant values in the list. Use the search function if the list is long.
 7. Click **Filter**.
 8. Repeat steps 5-7 to filter on additional columns.
@@ -49,7 +49,7 @@ You can group the list of users by role, user plan, primary group, and similar. 
 > Right-click a column to add any additional columns you want to group by (see also [Adjust views][1]).
 
 1. Go to the **Associates** tab.
-2. Right-click a column heading or click ![icon][img1] in the top-right corner of the list.
+2. Right-click a column heading or click <i class="ph ph-gear" aria-label="Gear"></i> in the top-right corner of the list.
 3. Select **Enable grouping**.
 4. Click **OK**.
 5. Click the column header for the value by which you want to group and drag it to the area above the columns ("Drag a column header and ..."). The list is now grouped by that value.
@@ -62,7 +62,3 @@ You can group the list of users by role, user plan, primary group, and similar. 
 
 <!-- Referenced links -->
 [1]: ../../learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png
-[img2]: ../../../../media/icons/filter-column.png

@@ -16,7 +16,7 @@ It is possible to edit the properties of a message in a request, but only admini
 
 1. [Open the request][1].
 1. Click the **Messages** tab.
-1. Click the ![icon][img1] **Task** button and select **Change**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Change**.
 1. Here you have the following options:
     * **Author**: Shows the name of the person who created the request.
     * **Time spent**: Shows the amount of time spent on this message.
@@ -27,6 +27,3 @@ It is possible to edit the properties of a message in a request, but only admini
 
 <!-- Referenced links -->
 [1]: ../index.md#open
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

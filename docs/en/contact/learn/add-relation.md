@@ -27,7 +27,7 @@ language: en
     > [!NOTE]
     > The alternatives displayed in this list box also depend on if it is a relation between a company and a contact or between two contacts.
 
-1. Enter any additional information as free text in the **Description** field. If you type in anything here, a ![icon][img1] paperclip symbol is displayed on the relevant line in the **Relations** section tab.
+1. Enter any additional information as free text in the **Description** field. If you type in anything here, a <i class="ph ph-paperclip" aria-label="Paperclip"></i> is displayed on the relevant line in the **Relations** section tab.
 
 1. The **Result** field is automatically updated according to the information in the **Relation** field. Example: If you selected "owns" as a relationship, the result will show who owns whom, and who is owned by whom.
 
@@ -39,6 +39,3 @@ language: en
 
 <!-- Referenced links -->
 [3]: delete-relation.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/binders.png

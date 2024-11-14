@@ -33,8 +33,8 @@ language: en
 
 6. Select one of the following options:
 
-    * Click the ![icon][img5] arrow next to the **Copy rights from** box, and select the role you want to base the new role on.
-    * Click the ![icon][img5] arrow and select **Start with blank rights** to create the role from scratch.
+    * Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the **Copy rights from** box, and select the role you want to base the new role on.
+    * Click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select **Start with blank rights** to create the role from scratch.
 
 7. Click **Save**. The new role is displayed in the **Roles** list.
 
@@ -65,6 +65,3 @@ language: en
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-
-<!-- Referenced images -->
-[img5]: ../../../../../media/icons/arrow-down.png
