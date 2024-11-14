@@ -13,7 +13,7 @@ audience_tooltip: Marketing
 
 # New and improved Marketing
 
-* [Flow - Track links using form with variables 10.3.12][12]
+* [Tracked links - Open form with variables (10.3.12)][12]
 * [Mailing - Audit check on email mailing (10.3.10)][10]
 * [Mailing - Validation of preheader text in email mailing (10.3.10)][10]
 * [Marketing Premium - Automate with flows including multiple mailings and other steps (10.3.9)][9]

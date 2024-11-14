@@ -24,7 +24,7 @@ Check out our **Product release** overview for more details in our [Community][2
 * 10.3.12 (18.11.2024):
   * [User preferences - search option (10.3.12)][49]
   * [Project and Sale - Add members (10.3.12)][49]
-  * [Flow - Track links using form with variables (10.3.12)][50]
+  * [Tracked links - Open form with variables (10.3.12)][50]
 
 * 10.3.11 (29.10.2024):
   * [Document dialog - Clean and intuitive (10.3.11)][44] in Core CRM
@@ -79,6 +79,7 @@ Check out our **Product release** overview for more details in our [Community][2
 ### Mobile CRM
 
 * [Version 11.0.3][27] (23.10.2024)
+  * Check out help documentation for [SuperOffice Mobile CRM][52] on Learn | Docs.
 
 ### Office integrations
 
@@ -87,6 +88,7 @@ Latest released versions:
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
 * SuperOffice for Outlook 5.0 (10.07.2024)
+  * Read more about how to use it in the [SuperOffice for Outlook][51] Learn | Docs
 * WebTools for Mac 13.0 (10.04.2024)
 * SharePoint Documents 3.2 (24.09.2023)
 * SuperOffice for Gmail 2.10 (11.03.2024)
@@ -185,5 +187,7 @@ See all the [new or updated apps][5]
 [48]: service/10.3.11-update.md
 [49]: core-crm/10.3.12-update.md
 [50]: marketing/10.3.12-update.md
+[51]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
+[52]: ../../docs/en/mobile/superoffice-mobile/index.md
 
 <!-- Referenced images -->
