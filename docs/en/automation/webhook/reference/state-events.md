@@ -8,9 +8,9 @@ keywords: automation, webhook
 topic: reference
 ---
 
-# State change events
+# Webhook State change events
 
-In order to subscribe to webhook state change events, you must first create a webhook to get the `WebhookId`, then use that in the webhook subscription `Event` property.
+In order to subscribe to webhook state change events, you must first create a webhook to get the `WebhookId`, then use that id in the webhook subscription `Event` property.
 
 These events are fired when a webhook `State` property changes.
 
@@ -18,11 +18,11 @@ These events are fired when a webhook `State` property changes.
 * `webhook{webhookId}.stopped` - when state is set to `Stopped`
 * `webhook{webhookId}.errors`  - when state is set to `TooManyErrors`
 
-When webhook 123 is activated, signal webhook123.started
+When webhook 123 is activated, signal **webhook123.started**
 
-When webhook 123 is disabled, signal webhook123.stopped
+When webhook 123 is disabled, signal **webhook123.stopped**
 
-When webhook 123 is disabled by errors, signal webhook123.errors
+When webhook 123 is disabled by errors, signal **webhook123.errors**
 
 ## webhook{webhookId}.started
 
@@ -39,9 +39,9 @@ X-SuperOffice-EventId: 1848cc1f-d395-49ba-9b35-04a9269996d4
   "Changes": [],
   "Event": "webhook.started",
   "PrimaryKey": 66,
-  "ContextIdentifier": "Default",
+  "ContextIdentifier": "Cust12345",
   "ChangedByAssociateId": 0,
-  "WebhookName": "webhook{webhookId}.started"
+  "WebhookName": "Name you provided"
 }
 ```
 
@@ -60,15 +60,15 @@ X-SuperOffice-EventId: 1848cc1f-d395-49ba-9b35-04a9269996d4
   "Changes": [],
   "Event": "webhook.stopped",
   "PrimaryKey": 66,
-  "ContextIdentifier": "Default",
+  "ContextIdentifier": "Cust12345",
   "ChangedByAssociateId": 0,
-  "WebhookName": "webhook{webhookId}.stopped"
+  "WebhookName": "Name you provided"
 }
 ```
 
 ## webhook{webhookId}.errors
 
-Whenever the hook gets disabled due to errors or permanent failure (HTTP STATUS 410 GONE).
+Whenever the hook gets disabled due to multiple errors or permanent failure (HTTP STATUS 410 GONE).
 
 ```json
 POST /webhook HTTP/1.1
@@ -83,8 +83,8 @@ X-SuperOffice-EventId: 1848cc1f-d395-49ba-9b35-04a9269996d4
   "Changes": [],
   "Event": "webhook.errors",
   "PrimaryKey": 66,
-  "ContextIdentifier": "Default",
+  "ContextIdentifier": "Cust12345",
   "ChangedByAssociateId": 0,
-  "WebhookName": "webhook{webhookId}.errors"
+  "WebhookName": "Name you provided"
 }
 ```
