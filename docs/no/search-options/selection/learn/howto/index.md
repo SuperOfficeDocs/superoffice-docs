@@ -52,7 +52,7 @@ Et av formålene med å definere utvalg er å utføre ulike oppgaver for medlemm
 ### Skriv ut/eksporter
 
 * [Skriv ut etiketter][9]
-* [Skriv ut firmarapporter][10]
+* [Skriv ut utvalg][10]
 * [Eksportere til Excel eller en fil][12]
 
 ### Slett
@@ -70,7 +70,7 @@ Et av formålene med å definere utvalg er å utføre ulike oppgaver for medlemm
 [7]: ../update/delete.md
 [8]: ../../../../admin/user-management/learn/role/index.md
 [9]: print-labels.md
-[10]: print-company-reports.md
+[10]: print.md
 [12]: export.md
 [13]: mass-delete.md
 

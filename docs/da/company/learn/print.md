@@ -2,10 +2,13 @@
 uid: help-da-company-print
 title: Udskriv oplysninger om et firma
 description: Udskriv oplysninger om et firma
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: firma
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

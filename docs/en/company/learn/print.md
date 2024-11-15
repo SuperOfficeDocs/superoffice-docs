@@ -2,10 +2,13 @@
 uid: help-en-company-print
 title: Print information about a company
 description: Print information about a company
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: company
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

@@ -1,11 +1,14 @@
 ---
 uid: help-de-sale
 title: Verkauf
-description: "SuperOffice Sales hilft Vertriebsteams, die Kontrolle über ihre Vertriebspipelines und -prozesse zu behalten."
-author: SuperOffice RnD
-date: 02.16.2023
+description: SuperOffice Sales hilft Vertriebsteams, die Kontrolle über ihre Vertriebspipelines und -prozesse zu behalten.
 keywords: Verkauf
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -71,7 +74,7 @@ Diese Registerkarte enthält speziell Felder mit Angaben zu den finanziellen Det
 | Feld | Beschreibung | In Einstellungen und Verwaltung definiert |
 |---|---|---|
 |Nummer | Die ID-Nummer des Verkaufs, wo die die nächste freie Nummer automatisch eingetragen wird. | x |
-| Quelle | Zeigt die Quelle des Verkaufs gemäß Ihren Angaben auf der Registerkarte **Verkauf** an. Sie können die Quelle hier auch bearbeiten. |
+| Quelle | Zeigt die Quelle des Verkaufs gemäß Ihren Angaben auf der Registerkarte **Verkauf** an. Sie können die Quelle hier auch bearbeiten. | |
 | Wettbewerber | Enthält eine vordefinierte Liste von Wettbewerbern. Hier können Sie einen Wettbewerber für den Verkauf festlegen. Es kann nur ein Wettbewerber ausgewählt werden. | x |
 | Gesamtkosten | Geben Sie hier die mit dem Verkauf verbundenen Kosten ein. Dieser wird in der gleichen Währung wie der Betrag angezeigt. Der Standardwert ist 0. Wenn Sie einen Betrag in dieses Feld eingeben, wird im Feld darunter automatisch der Ertrag in Prozent und der Betrag ermittelt. | |
 | Ertrag | Hier können Sie den Ertrag eines Verkaufs eintragen. Dieser wird in der gleichen Währung wie der Betrag angezeigt. | |

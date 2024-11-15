@@ -52,7 +52,7 @@ Knappen **Uppgift** innehåller uppgifter som att skicka e-post, massredigera oc
 ### Skriv ut/exportera
 
 * [Skriva ut etiketter][9]
-* [Skriva ut företagsrapporter][10]
+* [Skriva ut urval][10]
 * [Exportera till Excel eller en fil][12]
 
 ### Radera
@@ -70,7 +70,7 @@ Knappen **Uppgift** innehåller uppgifter som att skicka e-post, massredigera oc
 [7]: ../update/delete.md
 [8]: ../../../../admin/user-management/learn/role/index.md
 [9]: print-labels.md
-[10]: print-company-reports.md
+[10]: print.md
 [12]: export.md
 [13]: mass-delete.md
 

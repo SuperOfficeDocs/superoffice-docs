@@ -52,7 +52,7 @@ Die Schaltfläche **Aufgabe** enthält Aufgaben wie das Senden von E-Mails, Mass
 ### Drucken/Exportieren
 
 * [Etiketten drucken][9]
-* [Firmenberichte drucken][10]
+* [Selektion drucken][10]
 * [In Excel oder eine Datei exportieren][12]
 
 ### Löschen
@@ -70,7 +70,7 @@ Die Schaltfläche **Aufgabe** enthält Aufgaben wie das Senden von E-Mails, Mass
 [7]: ../update/delete.md
 [8]: ../../../../admin/user-management/learn/role/index.md
 [9]: print-labels.md
-[10]: print-company-reports.md
+[10]: print.md
 [12]: export.md
 [13]: mass-delete.md
 

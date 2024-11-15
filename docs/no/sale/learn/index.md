@@ -2,10 +2,13 @@
 uid: help-no-sale
 title: Salg
 description: SuperOffice Salg hjelper salgsteam med å holde kontroll over salgspipeliner og -prosesser.
-author: SuperOffice RnD
-date: 06.15.2023
 keywords: salg
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -71,7 +74,7 @@ Denne fanen inneholder felt som blant annet fokuserer på økonomiske opplysning
 | Felt | Beskrivelse | Definert i Innstillinger og vedlikehold |
 |---|---|---|
 |Nummer | ID-nummeret for salget, der neste ledige salgsnummer blir lagt inn automatisk. | x |
-| Kilde | Her vises kilden for salget, som angitt i **Salg**-fanen. Du kan også endre kilden herfra. |
+| Kilde | Her vises kilden for salget, som angitt i **Salg**-fanen. Du kan også endre kilden herfra. | |
 | Konkurrent | Inneholder en forhåndsdefinert liste over konkurrenter. Her kan du angi en eventuell konkurrent til salget. Du kan bare angi én konkurrent. | x |
 | Total kostnad | Her kan du registrere kostnaden forbundet med salget. Den vises i samme valuta som beløpet. Standardverdien er 0. Når du skriver inn et beløp i dette feltet, blir fortjenesteprosenten og beløpet automatisk beregnet i feltet nedenfor. | |
 | Fortjeneste | Her kan du registrere fortjenesten forbundet med salget. Den vises i samme valuta som beløpet. | |

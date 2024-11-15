@@ -2,10 +2,13 @@
 uid: help-no-project
 title: Prosjekt
 description: Denne veiledningen viser deg hvordan du oppretter og bruker prosjekter for å holde oversikt over arbeidet ditt.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: prosjekt
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

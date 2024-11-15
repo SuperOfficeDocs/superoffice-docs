@@ -13,8 +13,8 @@ items:
     href: bulk-update.md
   - name: Etiketten afdrukken
     href: print-labels.md
-  - name: Bedrijfsrapporten afdrukken
-    href: print-company-reports.md
+  - name: Selectie afdrukken
+    href: print.md
   - name: Exporteren naar Excel of bestand
     href: export.md
   - name: Records permanent verwijderen

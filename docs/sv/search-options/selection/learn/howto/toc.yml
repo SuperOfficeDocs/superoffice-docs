@@ -13,8 +13,8 @@ items:
     href: bulk-update.md
   - name: Skriva ut ledtexter
     href: print-labels.md
-  - name: Skriva ut företagsrapporter
-    href: print-company-reports.md
+  - name: Skriva ut urval
+    href: print.md
   - name: Exportera till Excel eller fil
     href: export.md
   - name: Ta bort poster permanent

@@ -2,10 +2,13 @@
 uid: help-no-contact-print
 title: Skrive ut kontaktinfo
 description: Skrive ut kontaktinfo
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: person, person, skrive ut
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

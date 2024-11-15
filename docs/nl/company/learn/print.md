@@ -2,10 +2,13 @@
 uid: help-nl-company-print
 title: Informatie over een bedrijf afdrukken
 description: Informatie over een bedrijf afdrukken
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: bedrijf
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

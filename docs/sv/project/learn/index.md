@@ -2,10 +2,13 @@
 uid: help-sv-project
 title: Projekt
 description: Den här guiden visar hur du skapar och använder projekt för att hålla koll på ditt arbete.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: projekt
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

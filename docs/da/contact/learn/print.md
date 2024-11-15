@@ -2,10 +2,13 @@
 uid: help-da-contact-print
 title: Udskriv kontaktinfo
 description: Udskriv kontaktinfo
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: person, contact, udskriv
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
