@@ -1,11 +1,14 @@
 ---
 uid: help-de-project
 title: Projekt
-description: "Diese Anleitung zeigt Ihnen, wie Sie Projekte erstellen und verwenden, um den Überblick über Ihre Arbeit zu behalten."
-author: SuperOffice RnD
-date: 02.10.2023
+description: Diese Anleitung zeigt Ihnen, wie Sie Projekte erstellen und verwenden, um den Überblick über Ihre Arbeit zu behalten.
 keywords: Projekt
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

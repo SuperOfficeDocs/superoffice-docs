@@ -52,7 +52,7 @@ Knappen **Opgave** indeholder opgaver som afsendelse af e-mails, masseredigering
 ### Udskriv/eksportér
 
 * [Udskrivning af etiketter][9]
-* [Udskrivning af firmarapporter][10]
+* [Udskrivning af udvalg][10]
 * [Eksportér til Excel eller en fil][12]
 
 ### Slet
@@ -70,7 +70,7 @@ Knappen **Opgave** indeholder opgaver som afsendelse af e-mails, masseredigering
 [7]: ../update/delete.md
 [8]: ../../../../admin/user-management/learn/role/index.md
 [9]: print-labels.md
-[10]: print-company-reports.md
+[10]: print.md
 [12]: export.md
 [13]: mass-delete.md
 

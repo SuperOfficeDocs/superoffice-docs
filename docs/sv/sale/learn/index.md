@@ -2,10 +2,13 @@
 uid: help-sv-sale
 title: Försäljning
 description: SuperOffice Sales hjälper säljteam att hålla koll på sina försäljningspipelines och processer.
-author: SuperOffice RnD
-date: 02.16.2023
 keywords: försäljning
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -71,7 +74,7 @@ Den här fliken innehåller fält som särskilt fokuserar på de finansiella det
 | Fält | Beskrivning | Definieras i Inställningar och underhåll |
 |---|---|---|
 |Nummer | ID-numret för försäljningen, där nästa lediga försäljningsnummer anges automatiskt. | x |
-| Källa | Visar källan till försäljningen, enligt vad som anges på fliken **Försäljning** . Du kan också redigera källan här. |
+| Källa | Visar källan till försäljningen, enligt vad som anges på fliken **Försäljning** . Du kan också redigera källan här. | |
 | Konkurrent | Innehåller en fördefinierad lista över konkurrenter. Här kan du ange vilken konkurrent som helst för försäljningen. Du kan bara välja en konkurrent. | x |
 | Total kostnad | Ange här kostnaden som uppstår i samband med försäljningen. Den visas i samma valuta som beloppet. Standardvärdet är 0. När du anger ett belopp i det här fältet, beräknas vinstprocenten och beloppet automatiskt i fältet nedan. | |
 | Vinst | Ange vinsten i samband med försäljningen här. Den visas i samma valuta som beloppet. | |

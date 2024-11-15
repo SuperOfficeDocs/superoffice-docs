@@ -13,8 +13,8 @@ items:
     href: bulk-update.md
   - name: Etiketten drucken
     href: print-labels.md
-  - name: Firmenberichte drucken
-    href: print-company-reports.md
+  - name: Selektion drucken
+    href: print.md
   - name: In Excel oder eine Datei exportieren
     href: export.md
   - name: Datensätze unwiederbringlich löschen

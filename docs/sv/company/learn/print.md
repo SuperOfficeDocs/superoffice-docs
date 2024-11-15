@@ -2,10 +2,13 @@
 uid: help-sv-company-print
 title: Skriv ut information om ett företag
 description: Skriv ut information om ett företag
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: företag
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

@@ -2,10 +2,13 @@
 uid: help-nl-project
 title: Project
 description: Deze handleiding laat u zien hoe u projecten kunt maken en gebruiken om uw werk te organiseren.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: project
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

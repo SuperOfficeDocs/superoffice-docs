@@ -2,10 +2,13 @@
 uid: help-en-contact-print
 title: Print contact info
 description: Print contact info
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: person, contact, print
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

@@ -2,10 +2,13 @@
 uid: help-en-project
 title: Project
 description: This how-to guide will show you how to create and use projects to stay on top of your work.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: project
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

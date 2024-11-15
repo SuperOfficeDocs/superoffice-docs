@@ -13,8 +13,8 @@ items:
     href: bulk-update.md
   - name: Print labels
     href: print-labels.md
-  - name: Print company reports
-    href: print-company-reports.md
+  - name: Print selection
+    href: print.md
   - name: Export to Excel or file
     href: export.md
   - name: Delete records permanently

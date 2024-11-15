@@ -2,10 +2,13 @@
 uid: help-sv-contact-print
 title: Skriv ut kontaktinformation
 description: Skriv ut kontaktinformation
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: person, contact, skriv ut
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

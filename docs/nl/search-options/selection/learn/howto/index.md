@@ -52,7 +52,7 @@ De knop **Taak** bevat taken, zoals de verzending van e-mail, massabewerking en 
 ### Afdrukken/exporteren
 
 * [Etiketten afdrukken][9]
-* [Bedrijfsrapporten afdrukken][10]
+* [Selectie afdrukken][10]
 * [Exporteren naar Excel of een bestand][12]
 
 ### Verwijderen
@@ -70,7 +70,7 @@ De knop **Taak** bevat taken, zoals de verzending van e-mail, massabewerking en 
 [7]: ../update/delete.md
 [8]: ../../../../admin/user-management/learn/role/index.md
 [9]: print-labels.md
-[10]: print-company-reports.md
+[10]: print.md
 [12]: export.md
 [13]: mass-delete.md
 

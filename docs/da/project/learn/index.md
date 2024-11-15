@@ -1,11 +1,14 @@
 ---
 uid: help-da-project
 title: Projekt
-description: "Denne vejledning viser dig, hvordan du opretter og bruger projekter til at holde styr på dit arbejde."
-author: SuperOffice RnD
-date: 02.10.2023
+description: Denne vejledning viser dig, hvordan du opretter og bruger projekter til at holde styr på dit arbejde.
 keywords: projekt
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

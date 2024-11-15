@@ -1,26 +1,7 @@
 ---
-uid: help-sv-selection-print-company-reports
-title: Skriva ut företagsrapporter
-description: Skriva ut företagsrapporter
+uid: help-sv-selection-print-company-reports-redirect
 author: Bergfrid Dias
-date: 03.29.2023
-keywords: selection
-topic: howto
+date: 11.15.2024
 language: sv
+redirect_url: https://docs.superoffice.com/sv/search-options/selection/learn/howto/print.html
 ---
-
-# Skriva ut företagsrapporter
-
-Ibland kan det vara bra att skriva ut en översikt över utvalda företag, till exempel när du behöver en lista över alla dina kunder.
-
-1. [!include[Start](../includes/steps-start-task.md)]
-
-1. Välj fliken **Företag/kontakt**.
-
-1. Klicka på **Uppgift**-knappen och välj **Skriv ut företagsrapporter**. Processen körs i bakgrunden, så du kan fortsätta jobba samtidigt. En PDF-fil skapas.
-
-1. Öppna PDF-filen och skriv ut den.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
