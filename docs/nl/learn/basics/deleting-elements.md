@@ -1,11 +1,14 @@
 ---
 uid: help-nl-basics-delete
 title: Elementen verwijderen
-description: "Elementen samenvoegen, verwijderen en herstellen."
-author: SuperOffice RnD
-date: 03.07.2023
+description: Elementen samenvoegen, verwijderen en herstellen.
 keywords: delete, herstellen, prullenbak
+author: SuperOffice
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

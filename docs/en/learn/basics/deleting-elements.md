@@ -2,10 +2,13 @@
 uid: help-en-basics-delete
 title: Deleting elements
 description: How to merge, delete and restore elements.
-author: SuperOffice RnD
-date: 03.07.2023
 keywords: delete, restore, recycle bin
+author: SuperOffice
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
