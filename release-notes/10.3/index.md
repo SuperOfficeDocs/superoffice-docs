@@ -21,10 +21,10 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### SuperOffice CRM
 
-* 10.3.12 (18.11.2024):
-  * [User preferences - search option (10.3.12)][49]
-  * [Project and Sale - Add members (10.3.12)][49]
-  * [Tracked links - Open form with variables (10.3.12)][50]
+* 10.3.12 (19.11.2024):
+  * [User preferences - search option (10.3.12)][49] in Core CRM
+  * [Project and Sale - Add members (10.3.12)][49] in Core CRM
+  * [Tracked links - Open form with variables (10.3.12)][50] in Marketing
 
 * 10.3.11 (29.10.2024):
   * [Document dialog - Clean and intuitive (10.3.11)][44] in Core CRM
