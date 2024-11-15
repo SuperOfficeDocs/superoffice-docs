@@ -2,10 +2,13 @@
 uid: help-de-company-copy
 title: Firmen kopieren
 description: Firmen kopieren
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Firma
+author: SuperOffice RnD
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
