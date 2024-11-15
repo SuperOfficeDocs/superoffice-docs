@@ -2,7 +2,7 @@
 uid: news-core-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
-keywords: dashboard, notification, follow-up, invitation, appointment, meeting
+keywords: dashboard, notification, follow-up, invitation, appointment, meeting, add member, stakeholder, project member, preferences search
 author: SuperOffice AS – Research and Development
 date: 10.29.2024
 version: 10.3
