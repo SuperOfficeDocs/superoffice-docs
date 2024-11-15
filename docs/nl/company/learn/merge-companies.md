@@ -1,11 +1,14 @@
 ---
 uid: help-nl-company-merge
 title: Bedrijven samenvoegen
-description: "Om efficiënt te kunnen werken met klanten en contacten, is het van vitaal belang om een omgeving 'zonder rommel' te hebben. Dit betekent ongebruikte bedrijven en contacten verwijderen en gedupliceerde bedrijven en personen samenvoegen."
-author: SuperOffice RnD
-date: 12.15.2022
+description: Om efficiënt te kunnen werken met klanten en contacten, is het van vitaal belang om een omgeving 'zonder rommel' te hebben. Dit betekent ongebruikte bedrijven en contacten verwijderen en gedupliceerde bedrijven en personen samenvoegen.
 keywords: bedrijf
+author: SuperOffice
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -24,21 +27,18 @@ Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bed
 1. Selecteer **Bedrijven beheren** in het menu ![pictogram][img3] **Taak** en klik vervolgens op **Bedrijven samenvoegen**.
     Het dialoogvenster **Bedrijven samenvoegen** wordt geopend. Het bronbedrijf staat bij **Van**.
 
-1. Selecteer bij **Aan bedrijf** het bedrijf dat u wilt bijwerken met gegevens van het bronbedrijf. Begin in het veld te typen om naar een bedrijf te zoeken.
+1. Selecteer bij **Aan bedrijf** het bedrijf dat u wilt bijwerken met gegevens van het bronbedrijf. Begin in het veld te typen om naar een bedrijf te zoeken. Als u de bedrijven bij **Van** en bij **Naar** wilt omkeren, klikt u op de pijl knop.
 
-    > [!TIP]
-    > Als u de bedrijven bij **Van** en bij **Naar** wilt omkeren, klikt u op de ![pictogram][img1] knop.
+    > [!CAUTION]
+    > Controleer in het dialoogvenster Bedrijven samenvoegen of u het juiste bedrijf selecteert in het veld Van EN in het veld T/m.
 
 1. Bij **Gegevens van contactpersonen en bedrijf** kunt u kiezen uit:
 
     * Identieke contactpersonen samenvoegen. Als deze optie is geselecteerd, worden contactpersonen met identieke namen samengevoegd.
 
-        > [!NOTE]
-        > De namen moeten EXACT hetzelfde zijn, voornaam, tussenvoegsel en achternaam, om samengevoegd te worden.
+        De namen moeten EXACT hetzelfde zijn, voornaam, tussenvoegsel en achternaam, om samengevoegd te worden.
 
     * **Vervang lege velden in \[target company\] door waarden van \[source company\]**. Als deze optie is geselecteerd, worden lege gegevensvelden in het bedrijf bij **Aan** bijgewerkt met gegevens van het bedrijf bij **Van**.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Klik op **Samenvoegen**. Vervolgens gebeurt het volgende:
 
@@ -51,10 +51,6 @@ Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bed
 
 ![Dialoogvenster Bedrijven samenvoegen -screenshot][img4]
 
-[Controleer in het dialoogvenster Bedrijven samenvoegen of u het juiste bedrijf selecteert in het veld Van EN in het veld T/m -screenshot][img5]
-
-![Om extra informatie te krijgen voordat u de twee bedrijven samenvoegt, klikt u op de Info-knop op Resultaat weergeven -screenshot][img6]
-
 > [!TIP]
 > u kunt bedrijven ook samenvoegen in dynamische en statische selecties.
 
@@ -66,8 +62,5 @@ Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bed
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/info-ball.png
 [img3]: ../../../media/icons/btn-menu.png
 [img4]: ../../../media/loc/en/company/merge-companies.png
-[img5]: ../../../media/loc/en/company/company-merge.png
-[img6]: ../../../media/loc/en/company/company-merge-info.png

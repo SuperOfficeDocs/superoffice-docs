@@ -1,11 +1,14 @@
 ---
 uid: help-sv-company-merge
 title: Slå ihop företag
-description: "För att du ska kunna vara effektiv när du arbetar med kunder och kontakter är det viktigt att du har en välorganiserad och 'skräpfri' miljö. Det innebär att företag och kontakter som inte används tas bort och att dubbletter av företag och kontakter slås ihop."
-author: SuperOffice RnD
-date: 12.15.2022
+description: För att du ska kunna vara effektiv när du arbetar med kunder och kontakter är det viktigt att du har en välorganiserad och 'skräpfri' miljö. Det innebär att företag och kontakter som inte används tas bort och att dubbletter av företag och kontakter slås ihop.
 keywords: företag
+author: SuperOffice
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -24,21 +27,18 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 1. Välj **Underhåll företag** under ![ikon][img3] knappen **Uppgift** och klicka på **Slå ihop företag**.
     Dialogrutan **Slå ihop företag** öppnas. Källföretaget finns under **Från**.
 
-1. Under **Till företag** väljer du det företag som ska uppdateras med information från källföretaget. Börja skriva i fältet för att söka efter ett företag.
+1. Under **Till företag** väljer du det företag som ska uppdateras med information från källföretaget. Börja skriva i fältet för att söka efter ett företag. Om du vill byta plats på **Från**- och **Till**-företag klickar du på pilknappen
 
-    > [!TIP]
-    > Om du vill byta plats på **Från**- och **Till**-företag klickar du på knappen ![ikon][img1].
+    > [!CAUTION]
+    > Kontrollera att du väljer rätt företag i Från-fältet OCH Till-fältet i dialogrutan Slå ihop företag.
 
 1. Under **Detaljinformation om företag och kontakter** kan du markera följande:
 
     * Slå ihop identiska kontakter. Om du väljer det här alternativet slås kontakter med identiska namn ihop.
 
-        > [!NOTE]
-        > Namnen måste vara HELT identiska (förnamn, mellannamn och efternamn) för att programmet ska slå ihop dem.
+        Namnen måste vara HELT identiska (förnamn, mellannamn och efternamn) för att programmet ska slå ihop dem.
 
     * **Ersätt tomma fält för \[target company\] med värden från \[source company\]**. Om du väljer det här alternativet uppdateras tomma datafält för **Till**-företaget med data från **Från**-företaget.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Klicka på **Slå ihop**. Följande sker:
 
@@ -51,10 +51,6 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 
 ![Dialogrutan Slå ihop företag -screenshot][img4]
 
-[Kontrollera att du väljer rätt företag i Från-fältet OCH Till-fältet i dialogrutan Slå ihop företag][img5]
-
-![Om du vill ha mer information innan du slår ihop de två företagen klickar du på Info-knappen för Visa resultat -screenshot][img6]
-
 > [!TIP]
 > Du kan också slå ihop företag i dynamiska och statiska urval.
 
@@ -66,8 +62,5 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/info-ball.png
 [img3]: ../../../media/icons/btn-menu.png
 [img4]: ../../../media/loc/en/company/merge-companies.png
-[img5]: ../../../media/loc/en/company/company-merge.png
-[img6]: ../../../media/loc/en/company/company-merge-info.png

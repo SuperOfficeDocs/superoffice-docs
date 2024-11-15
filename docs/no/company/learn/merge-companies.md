@@ -1,11 +1,14 @@
 ---
 uid: help-no-company-merge
 title: Slå sammen firmaer
-description: "For å være effektiv i arbeidet med kunder og personer er det viktig å ha et ryddig miljø. Dette betyr å slette ubrukte firmaer og personer, og å slå sammen dupliserte firmaer og personer."
-author: SuperOffice RnD
-date: 12.15.2022
+description: For å være effektiv i arbeidet med kunder og personer er det viktig å ha et ryddig miljø. Dette betyr å slette ubrukte firmaer og personer, og å slå sammen dupliserte firmaer og personer.
 keywords: firma
+author: SuperOffice
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -24,21 +27,18 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
 1. Velg **Vedlikehold firmaer** fra ![ikon][img3] **Oppgave**-knappen, og klikk deretter på **Slå sammen firmaer**.
     Dialogboksen **Slå sammen firmaer** åpnes. Kildefirmaet er angitt under **Fra**.
 
-1. Under **Til firma** velger du firmaet som skal oppdateres med informasjon fra kildefirmaet. Begynn å skrive i feltet for å søke etter et firma.
+1. Under **Til firma** velger du firmaet som skal oppdateres med informasjon fra kildefirmaet. Begynn å skrive i feltet for å søke etter et firma. Hvis du vil bytte **Fra**- og **Til**-firmaene, klikker du på pilknappen.
 
-    > [!TIP]
-    > Hvis du vil bytte **Fra**- og **Til**-firmaene, klikker du på ![ikon][img1] knappen.
+    > [!CAUTION]
+    > Velg riktig firma i Fra-feltet og Til-feltet.
 
 1. Under **Detaljinformasjon om firma og personer** kan du merke av for følgende:
 
     * Slå sammen identiske personer. Hvis du velger dette alternativet, slås personer med likt navn sammen.
 
-        > [!NOTE]
-        > Navnene må være helt like – fornavn, mellomnavn og etternavn – for at de skal slås sammen.
+        Navnene må være helt like – fornavn, mellomnavn og etternavn – for at de skal slås sammen.
 
     * **Overskriv tomme felt i [target company] med verdier fra [source company]**. Hvis dette alternativet velges, vil tomme felt for **Til**-firmaet overskrives med data fra **Fra**-firmaet.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Klikk på **Slå sammen**. Da skjer følgende:
 
@@ -51,10 +51,6 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
 
 ![Dialogboksen Slå sammen firmaer -screenshot][img4]
 
-[I dialogboksen Slå sammen firmaer må du velge riktig firma i Fra-feltet og Til-feltet][img5]
-
-![Hvis du vil ha mer informasjon før du slår sammen de to firmaene, klikker du på Info-knappen på Vis resultat. -screenshot][img6]
-
 > [!TIP]
 > Du kan også slå sammen firmaer i dynamiske og statiske utvalg.
 
@@ -66,8 +62,5 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/info-ball.png
 [img3]: ../../../media/icons/btn-menu.png
 [img4]: ../../../media/loc/en/company/merge-companies.png
-[img5]: ../../../media/loc/en/company/company-merge.png
-[img6]: ../../../media/loc/en/company/company-merge-info.png

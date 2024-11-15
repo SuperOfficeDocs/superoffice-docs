@@ -2,10 +2,13 @@
 uid: help-de-company-merge
 title: Firmen zusammenführen
 description: "Um mit Kunden und Personen effizient arbeiten zu können, ist es wichtig, eine aufgeräumte Umgebung zu haben. Das bedeutet, dass Sie unbenutzte Firmen und Personen löschen und doppelte Firmen und Personen zusammenführen."
-author: SuperOffice RnD
-date: 12.15.2022
 keywords: Firma
+author: SuperOffice
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -24,21 +27,18 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 1. Wählen Sie von ![Symbol][img3] der Schaltfläche **Aufgabe** die Option **Firmen verwalten** aus und klicken Sie auf **Firmen zusammenführen**.
     Das Dialogfeld **Firmen zusammenführen** wird geöffnet. Die Quellfirma wird unter **Von** angezeigt.
 
-1. Wählen Sie unter **In Firma** die Firma aus, die mit den Informationen der ersten Firma aktualisiert werden soll. Beginnen Sie mit der Eingabe in das Feld Suche nach einer Firma.
+1. Wählen Sie unter **In Firma** die Firma aus, die mit den Informationen der ersten Firma aktualisiert werden soll. Beginnen Sie mit der Eingabe in das Feld Suche nach einer Firma. Um **Von** und **In** Firmen zu wechseln, müssen Sie auf die Pfeil-Schaltfläche klicken
 
-    > [!TIP]
-    > Um **Von** und **In** Firmen zu wechseln, müssen Sie auf die Schaltfläche ![Symbol][img1] klicken.
+    > [!Caution]
+    > Stellen Sie sicher, dass im Dialogfeld Firmen zusammenführen die richtige Firma im Feld Von UND im Feld An ausgewählt wurde.
 
 1. Unter **Personen- und Firmendetails** stehen folgende Optionen zur Verfügung:
 
     * Identische Personen zusammenführen. Wenn diese Option ausgewählt wurde, werden Personen mit identischen Namen zusammengeführt.
 
-        > [!NOTE]
-        > Um die Personen zusammenzuführen, müssen alle Namen, Zweite Vornamen und Nachname – GENAU übereinstimmen.
+        Um die Personen zusammenzuführen, müssen alle Namen, Zweite Vornamen und Nachname – GENAU übereinstimmen.
 
     * **Ersetzen Sie leere Felder in \[target company\] mit Werten von \[source company\]**. Wenn diese Option ausgewählt wurde, werden leere Datenfelder in der Firma **An** mit Daten aus der Firma **Von** aktualisiert.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Klicken Sie auf **Zusammenführen**. Daraufhin geschieht Folgendes:
 
@@ -51,10 +51,6 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 
 ![Dialogfeld Firmen zusammenführen -screenshot][img4]
 
-[Stellen Sie sicher, dass im Dialogfeld Firmen zusammenführen die richtige Firma im Feld Von UND im Feld An ausgewählt wurde -screenshot][img5]
-
-![Für Zusatzinformationen vor der Zusammenführung der beiden Firmen müssen Sie auf die Schaltfläche Info in Ergebnis anzeigen klicken -screenshot][img6]
-
 > [!TIP]
 > Sie können auch Firmen in dynamischen und statischen Selektionen zusammenführen.
 
@@ -66,8 +62,5 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/info-ball.png
 [img3]: ../../../media/icons/btn-menu.png
 [img4]: ../../../media/loc/en/company/merge-companies.png
-[img5]: ../../../media/loc/en/company/company-merge.png
-[img6]: ../../../media/loc/en/company/company-merge-info.png
