@@ -44,7 +44,7 @@ Description of the Database and Archive connections.
 | EnableHdbCache= | Setting it to 0 means SuperOffice does not cache writes |
 | LocalDbEngineParam= | If not present, it will default to '-c 16m' meaning 16 MB of local cache memory for the built-in database engine. |
 | ProtoServerPath= |Full path to the folder you want the prototypes to be created in (as viewed from the server). This should always be a local path (example: C:\SuperOffie\SO_Proto). This path is going to be used when SuperOffice tells the SQL Server to create a new prototype database.<br>This is needed only on computers used for generating prototypes other than for build-in database (MS SQL Express, Sybase). |
-| ProtoClientPath= | Full path to the folder where prototypes reside (as viewed from the client computer). This path should always be a network path (UNC path), or a mapped drive. If you choose mapped drive, be sure all clients have it mapped the same way. | Needed only if MS SQL Express or Sybase is used as a Travel database. |
+| ProtoClientPath= | Full path to the folder where prototypes reside (as viewed from the client computer). This path should always be a network path (UNC path), or a mapped drive. If you choose mapped drive, be sure all clients have it mapped the same way.  Needed only if MS SQL Express or Sybase is used as a Travel database. |
 
 The only parameters that **must** be specified are `archivepath` and `datapath`.
 

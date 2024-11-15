@@ -247,4 +247,3 @@ For users, it means that delete operations can be undone. For DBAs, the deep del
 [18]: ../../api/archive-providers/reference/recyclecontact.md
 [19]: ../../api/archive-providers/reference/recycleperson.md
 [20]: ../../api/archive-providers/reference/recycleticket.md
-[21]: .
