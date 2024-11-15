@@ -4,7 +4,7 @@ items:
   items:
   - name: Introduction
     href: overview.md
-  - name: Superoffice Mobile
+  - name: SuperOffice Mobile
     href: superoffice-mobile/toc.yml
   - name: Pocket CRM
     items:
