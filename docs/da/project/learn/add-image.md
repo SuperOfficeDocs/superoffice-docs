@@ -2,10 +2,13 @@
 uid: help-da-project-image-add
 title: Tilføjelse af et projektbillede
 description: Sådan tilføjer du et projektbillede
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt
+author: SuperOffice RnD
+date: 10.08.2024
+version: 10.3.10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
