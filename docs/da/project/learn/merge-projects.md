@@ -2,10 +2,13 @@
 uid: help-da-project-merge
 title: Flet projekter
 description: Sådan sammenfletter du et projekt i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt
+author: SuperOffice
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -17,16 +20,11 @@ Hvis du har to projekter, som er næsten ens, er det nu muligt at lægge dem sam
 
 2. Klik på ![ikon][img1] **Opgave** på kortet **Projekt**, og vælg **Slå projekter sammen**.
 
-3. I dialogboksen **Sammenflet projekter** under **Til** vælger du det projekt, som du vil lægge sammen med det eksisterende projekt. Begynd at skrive i feltet for at søge efter et projekt.
+3. I dialogboksen **Sammenflet projekter** under **Til** vælger du det projekt, som du vil lægge sammen med det eksisterende projekt. Begynd at skrive i feltet for at søge efter et projekt. Hvis du vil bytte om på **Fra-** og **Til-**projekterne, skal du klikke på pilknappen.
 
     ![Dialogboksen Slå projekter sammen -screenshot][img2]
 
-    > [!TIP]
-    > Du kan bytte om på projekterne **Fra** og **Til** ved at klikke på ![ikon][img3].
-
-4. Markér alternativet **Overskriv tomme felter i \[target project\] med data fra \[source project\]**, hvis du vil opdatere tomme felter i målprojektet med detaljer fra kildeprojektet.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+4. Markér **Overskriv tomme felter...**, hvis du vil opdatere tomme felter i målprojektet med detaljer fra kildeprojektet.
 
 5. Klik på **Slå sammen**. Følgende sker:
     * Projekterne slås sammen.
@@ -50,5 +48,4 @@ Hvis du har to projekter, som er næsten ens, er det nu muligt at lægge dem sam
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/info-ball.png
 [img2]: ../../../media/loc/en/project/merge-project.png

@@ -2,10 +2,13 @@
 uid: help-no-project-merge
 title: Slå sammen prosjekter
 description: Slik slår du sammen prosjekter i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: prosjekt
+author: SuperOffice
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -17,16 +20,11 @@ Hvis du har to prosjekter som er nesten like, er det nå mulig å slå sammen di
 
 2. Klikk på ![ikon][img1] **Oppgave** på **Prosjekt**-kortet og velg **Slå sammen prosjekter**.
 
-3. I dialogboksen **Slå sammen prosjekter** under **Til**, velger du prosjektet du vil slå sammen med det eksisterende prosjektet. Begynn å skrive i feltet for å søke etter et prosjekt.
+3. I dialogboksen **Slå sammen prosjekter** under **Til**, velger du prosjektet du vil slå sammen med det eksisterende prosjektet. Begynn å skrive i feltet for å søke etter et prosjekt. Hvis du vil bytte **Fra**- og **Til**-prosjektene, klikker du på pilknappen.
 
     ![Dialogboksen Slå sammen prosjekter -screenshot][img2]
 
-    > [!TIP]
-    > Hvis du vil bytte **Fra**- og **Til**-prosjektet, klikker du på ![ikon][img3].
-
-4. Velg **Erstatt tomme felt i [target project] med data fra [source project]** hvis du vil oppdatere tomme felt i målprosjektet med  detaljer fra kildeprosjektet.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+4. Velg **Erstatt tomme felt...** hvis du vil oppdatere tomme felt i målprosjektet med  detaljer fra kildeprosjektet.
 
 5. Klikk på **Slå sammen**. Da skjer følgende:
     * Prosjektene slås sammen.
@@ -50,5 +48,4 @@ Hvis du har to prosjekter som er nesten like, er det nå mulig å slå sammen di
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/info-ball.png
 [img2]: ../../../media/loc/en/project/merge-project.png
