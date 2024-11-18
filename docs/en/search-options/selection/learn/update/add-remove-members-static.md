@@ -55,7 +55,7 @@ Use this option to add the selected records to an existing static selection.
 
 5. Click **OK**. The selection is updated.
 
-## Add members to to new static selection
+## Add members to new static selection
 
 1. Go to a list of the records you want to add to a selection (search results or a section tab).
 
