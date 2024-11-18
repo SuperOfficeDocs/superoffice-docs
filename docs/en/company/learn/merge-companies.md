@@ -38,7 +38,7 @@ If two companies in your customer database decide to merge or one of the compani
 
         The names must be EXACTLY the same, first name, middle name and last name, to be merged.
 
-    * **Replace empty fields in \[target company\] with values from \[source company\]**. If selected, empty data fields in the **To** company are updated with data from the **From** company.
+    * **Replace empty fields...**. If selected, empty data fields in the **To** company are updated with data from the **From** company.
 
 1. Click **Merge**. The following then happens:
 
@@ -46,7 +46,7 @@ If two companies in your customer database decide to merge or one of the compani
     * Contacts are moved or merged.
     * All activities are moved.
     * Project memberships and memberships of static selections follow the company.
-    * All details are merged if you selected **Replace empty fields in &lt;target company&gt; with values from &lt;source company&gt;**.
+    * All details are merged if you selected **Replace empty fields...**.
     * The source company is deleted.
 
 ![Merge companies dialog -screenshot][img4]

@@ -27,7 +27,7 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 1. Välj **Underhåll företag** under ![ikon][img3] knappen **Uppgift** och klicka på **Slå ihop företag**.
     Dialogrutan **Slå ihop företag** öppnas. Källföretaget finns under **Från**.
 
-1. Under **Till företag** väljer du det företag som ska uppdateras med information från källföretaget. Börja skriva i fältet för att söka efter ett företag. Om du vill byta plats på **Från**- och **Till**-företag klickar du på pilknappen
+1. Under **Till företag** väljer du det företag som ska uppdateras med information från källföretaget. Börja skriva i fältet för att söka efter ett företag. Om du vill byta plats på **Från**- och **Till**-företag klickar du på pilknappen.
 
     > [!CAUTION]
     > Kontrollera att du väljer rätt företag i Från-fältet OCH Till-fältet i dialogrutan Slå ihop företag.
@@ -38,7 +38,7 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 
         Namnen måste vara HELT identiska (förnamn, mellannamn och efternamn) för att programmet ska slå ihop dem.
 
-    * **Ersätt tomma fält för \[target company\] med värden från \[source company\]**. Om du väljer det här alternativet uppdateras tomma datafält för **Till**-företaget med data från **Från**-företaget.
+    * **Ersätt tomma fält...**. Om du väljer det här alternativet uppdateras tomma datafält för **Till**-företaget med data från **Från**-företaget.
 
 1. Klicka på **Slå ihop**. Följande sker:
 
@@ -46,7 +46,7 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
     * Kontakter flyttas eller slås ihop.
     * Alla aktiviteter flyttas.
     * Projektmedlemskap och medlemskap i statiska urval följer företaget.
-    * Alla detaljer slås ihop om du har valt **Ersätt tomma fält på &lt;target company&gt; med värden från &lt;source company&gt;**.
+    * Alla detaljer slås ihop om du har valt **Ersätt tomma fält...**.
     * Källföretaget tas bort.
 
 ![Dialogrutan Slå ihop företag -screenshot][img4]

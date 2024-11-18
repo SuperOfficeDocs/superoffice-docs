@@ -27,7 +27,7 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 1. Wählen Sie von ![Symbol][img3] der Schaltfläche **Aufgabe** die Option **Firmen verwalten** aus und klicken Sie auf **Firmen zusammenführen**.
     Das Dialogfeld **Firmen zusammenführen** wird geöffnet. Die Quellfirma wird unter **Von** angezeigt.
 
-1. Wählen Sie unter **In Firma** die Firma aus, die mit den Informationen der ersten Firma aktualisiert werden soll. Beginnen Sie mit der Eingabe in das Feld Suche nach einer Firma. Um **Von** und **In** Firmen zu wechseln, müssen Sie auf die Pfeil-Schaltfläche klicken
+1. Wählen Sie unter **In Firma** die Firma aus, die mit den Informationen der ersten Firma aktualisiert werden soll. Beginnen Sie mit der Eingabe in das Feld Suche nach einer Firma. Um **Von** und **In** Firmen zu wechseln, müssen Sie auf die Pfeil-Schaltfläche klicken.
 
     > [!Caution]
     > Stellen Sie sicher, dass im Dialogfeld Firmen zusammenführen die richtige Firma im Feld Von UND im Feld An ausgewählt wurde.
@@ -38,7 +38,7 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 
         Um die Personen zusammenzuführen, müssen alle Namen, Zweite Vornamen und Nachname – GENAU übereinstimmen.
 
-    * **Ersetzen Sie leere Felder in \[target company\] mit Werten von \[source company\]**. Wenn diese Option ausgewählt wurde, werden leere Datenfelder in der Firma **An** mit Daten aus der Firma **Von** aktualisiert.
+    * **Ersetzen Sie leere Felder...**. Wenn diese Option ausgewählt wurde, werden leere Datenfelder in der Firma **An** mit Daten aus der Firma **Von** aktualisiert.
 
 1. Klicken Sie auf **Zusammenführen**. Daraufhin geschieht Folgendes:
 
@@ -46,7 +46,7 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
     * Die Personen werden verschoben oder zusammengeführt.
     * Alle Aktivitäten werden verschoben.
     * Projektzugehörigkeiten und Zugehörigkeiten statischer Selektionen werden zusammen mit der Firma verschoben.
-    * Wenn Sie die Option **Leere Felder bei &lt;target company&gt; durch Werte von &lt;source company&gt; ersetzen** gewählt haben, werden alle Details zusammengeführt.
+    * Wenn Sie die Option **Leere Felder ersetzen...** gewählt haben, werden alle Details zusammengeführt.
     * Die Quellfirma wird gelöscht.
 
 ![Dialogfeld Firmen zusammenführen -screenshot][img4]

@@ -38,7 +38,7 @@ Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bed
 
         De namen moeten EXACT hetzelfde zijn, voornaam, tussenvoegsel en achternaam, om samengevoegd te worden.
 
-    * **Vervang lege velden in \[target company\] door waarden van \[source company\]**. Als deze optie is geselecteerd, worden lege gegevensvelden in het bedrijf bij **Aan** bijgewerkt met gegevens van het bedrijf bij **Van**.
+    * **Vervang lege velden...**. Als deze optie is geselecteerd, worden lege gegevensvelden in het bedrijf bij **Aan** bijgewerkt met gegevens van het bedrijf bij **Van**.
 
 1. Klik op **Samenvoegen**. Vervolgens gebeurt het volgende:
 
@@ -46,7 +46,7 @@ Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bed
     * Contactpersonen worden verplaatst of samengevoegd.
     * Alle activiteiten worden verplaatst.
     * Projectlidmaatschappen en lidmaatschappen van statische selecties volgen het bedrijf.
-    * Alle gegevens worden samengevoegd als u **Lege velden in &lt;target company&gt; vervangen met waarden uit &lt;source company&gt;** selecteert.
+    * Alle gegevens worden samengevoegd als u **Lege velden vervangen...** selecteert.
     * Het bronbedrijf wordt verwijderd.
 
 ![Dialoogvenster Bedrijven samenvoegen -screenshot][img4]

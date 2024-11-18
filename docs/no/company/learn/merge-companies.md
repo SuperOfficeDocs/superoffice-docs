@@ -38,7 +38,7 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
 
         Navnene må være helt like – fornavn, mellomnavn og etternavn – for at de skal slås sammen.
 
-    * **Overskriv tomme felt i [target company] med verdier fra [source company]**. Hvis dette alternativet velges, vil tomme felt for **Til**-firmaet overskrives med data fra **Fra**-firmaet.
+    * **Overskriv tomme felt...**. Hvis dette alternativet velges, vil tomme felt for **Til**-firmaet overskrives med data fra **Fra**-firmaet.
 
 1. Klikk på **Slå sammen**. Da skjer følgende:
 
@@ -46,7 +46,7 @@ Hvis to firmaer i kundedatabasen velger å slå seg sammen, eller ett av firmaen
     * Personer flyttes eller slås sammen.
     * Alle aktiviteter flyttes.
     * Prosjektdeltakelse og medlemskap i statiske utvalg følger firmaet.
-    * Alle detaljer slås sammen hvis du har valgt **Erstatt tomme felt på &lt;målfirma&gt; med verdier fra &lt;kildefirma&gt;**.
+    * Alle detaljer slås sammen hvis du har valgt **Erstatt tomme felt...**.
     * Kildefirmaet slettes.
 
 ![Dialogboksen Slå sammen firmaer -screenshot][img4]

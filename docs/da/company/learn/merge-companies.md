@@ -38,7 +38,7 @@ Hvis to firmaer i kundedatabasen beslutter at fusionere, eller et af firmaerne h
 
         Navnene skal være HELT identiske for at blive lagt sammen, både fornavn, mellemnavn og efternavn.
 
-    * **Erstat tomme felter \[target company\] med værdier fra \[source company\]**. Hvis du vælger denne indstilling, bliver det tomme datafelt i **Til**-firmaet opdateret med data fra **Fra**-firmaet.
+    * **Erstat tomme felter...**. Hvis du vælger denne indstilling, bliver det tomme datafelt i **Til**-firmaet opdateret med data fra **Fra**-firmaet.
 
 1. Klik på **Slå sammen**. Følgende sker:
 
@@ -46,7 +46,7 @@ Hvis to firmaer i kundedatabasen beslutter at fusionere, eller et af firmaerne h
     * Personer flyttes eller lægges sammen.
     * Alle aktiviteter flyttes.
     * Projektmedlemskab og medlemskab i statiske udvalg følger firmaet.
-    * Alle detaljer lægges sammen, hvis du har valgt **Erstat tomme felter i &lt;target company&gt; med værdier fra &lt;source company&gt;**.
+    * Alle detaljer lægges sammen, hvis du har valgt **Erstat tomme felter...**.
     * Kildefirmaet slettes.
 
 ![Slå firmaer sammen -screenshot][img4]
