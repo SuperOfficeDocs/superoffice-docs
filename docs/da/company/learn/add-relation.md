@@ -2,49 +2,51 @@
 uid: help-da-company-add-relation
 title: Tilføj relation
 description: Tilføj relation
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: firma
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Tilføj en relation (skærmbilledet Firma)
 
-> [!NOTE]
-> En relation skal altid bestå af to parter, hvoraf den ene part er aktiv, og den anden er passiv, for eksempel på følgende måde: Selskab A ejer Selskab B, mens Selskab B ejes af Selskab A.
+En relation skal altid have to parter: én aktiv og én passiv. For eksempel ejer Person A Firma B, mens Firma B ejes af Person A.
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+**Forholdstyper** defineres under Indstillinger og vedligeholdelse.
+
+## Trin
+
+[!include[Gå til personskærmen](../../learn/includes/goto-contact.md)]
 
 1. Vælg detaljekortet **Relationer**.
 
-1. Klik på knappen **Tilføj** under detaljekortet. Dialogboksen **Relation** åbnes.
+1. Klik på **Tilføj**.
 
     ![Dialogboksen Relationer -screenshot][img2]
 
-1. I rullemenuen **Firma** under **Aktiv** skal du angive det ønskede firma. Dette er obligatorisk.
+1. I **Relation**-dialogen, specificér **Aktiv part**:
 
-    Angiv det ved enten at klikke på pilen og vælge ønsket firma i listen som vises, ved at indtaste hele eller begyndelsen af firmanavnet.
+    * Firma: Vælg firmaet fra rullemenuen eller begynd at skrive for at søge. Dette er obligatorisk.
+    * Person: Valgfrit, specificér en kontakt for det aktive firma (for eksempel hvis kontakten er en repræsentant, har en specifik rolle, eller er en tidligere kollega af en kontakt i Firma B).
 
-1. I rullemenuen **Person** under **Aktiv** kan du også angive en person. For eksempel, hvis en kontakt i firma A er en tidligere kollega til en kontakt i firma B.
+1. Specificér **Passiv part**:
 
-1. I rullemenuen **Firma** under **Passiv** angiver du det firma, du definerer som den passive part i relationen. Brug samme fremgangsmåde som under **Aktiv**.
+    * Firma: Vælg firmaet for den passive rolle ved at bruge samme metode som for den aktive part.
+    * Person: Valgfrit, specificér en kontakt for det passive firma.
 
-1. I rullemenuen **Person** under **Passiv** kan du angive en eventuel person hos den passive part. Brug samme fremgangsmåde som under **Aktiv**.
+1. Vælg en relationstype fra **Relation**-listen, for eksempel "ejer". De tilgængelige muligheder afhænger af, om relationen er mellem to firmaer, et firma og en person eller mellem to personer.
 
-1. På rullemenuen **Relation** angiver du, hvilken relation, der er mellem den aktive og den passive part, f.eks. ejer.[!include[SM](../../learn/includes/are-defined-sm.md)]
+1. Valgfrit: Indtast ekstra detaljer i **Beskrivelse**-feltet.
 
-    > [!NOTE]
-    > Hvilke indstillinger, der vises på denne liste, afhænger også af, om det drejer sig om en relation mellem to firmaer, et firma og en person eller mellem to personer.
+1. **Resultat**-feltet opdateres automatisk baseret på den valgte relation.
 
-1. I feltet **Beskrivelse** kan du tilføje eventuelle ekstra oplysninger i form af fritekst. Hvis du skriver noget her, vises et ![ikon][img1] clipssymbol på den relevante linje på detaljekortet **Relationer**.
-
-1. Feltet **Resultat** opdateres automatisk i henhold til oplysningerne i feltet **Relation**. Eksempel: Hvis du vælger "ejer" som relation, vil resultatet vise, hvem der ejer hvem, og hvem der ejes af hvem.
-
-1. Når du er færdig, skal du klikke på **Gem** for at lukke dialogen og gemme de indtastede oplysninger.
+1. Klik på **Gem**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.png
 [img2]: ../../../media/loc/en/company/relation.png

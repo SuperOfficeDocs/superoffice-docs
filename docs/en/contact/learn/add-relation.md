@@ -2,36 +2,39 @@
 uid: help-en-contact-add-relation
 title: Add relations (Contact screen)
 description: Add relations (Contact screen)
-author: SuperOffice RnD
-date: 05.08.2023
 keywords: person, contact, relation
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Add relations (Contact screen)
 
-> [!NOTE]
-> A relation must always consist of two parties, one active and one passive, for example: Contact A owns Company B, while Company B is owned by Contact A.
+A relation must always have two parties: one active and one passive. For example, Contact A owns Company B, while Company B is owned by Contact A.
+
+**Relationship types** are defined in Settings and maintenance.
+
+## Steps
 
 [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
 1. Select the **Relations** section tab.
 
-1. Click the **Add** button below the section tab.
+1. Click **Add**.
 
-1. In the **Relation** dialog, select companies and contacts under **Active part** and **Passive part** as required. To do this, either click the arrow and select the required company or contact from the displayed list, or type the whole or the beginning of the name.
+1. In the **Relation** dialog, select **Active part** and **Passive part**. Use the dropdown or start typing to search for a company or contact.
 
-1. In the **Relation** list box, specify what relationship there is between the active and passive parties, "owns" for example. [!include[SM](../../learn/includes/are-defined-sm.md)]
+1. Choose a relationship type from the **Relation** list, for example, "owns". The available options depend on whether the relationship is between a contact and a company or between two contacts.
 
-    > [!NOTE]
-    > The alternatives displayed in this list box also depend on if it is a relation between a company and a contact or between two contacts.
+1. Optionally, enter extra details in the **Description field**.
 
-1. Enter any additional information as free text in the **Description** field. If you type in anything here, a ![icon][img1] paperclip symbol is displayed on the relevant line in the **Relations** section tab.
+1. The **Result** field will auto-update based on the chosen relationship.
 
-1. The **Result** field is automatically updated according to the information in the **Relation** field. Example: If you selected "owns" as a relationship, the result will show who owns whom, and who is owned by whom.
-
-1. After entering information, click the **Save** button to close the dialog and save the information you entered.
+1. Click **Save**.
 
 ## Related topics
 
@@ -41,4 +44,3 @@ language: en
 [3]: delete-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.png

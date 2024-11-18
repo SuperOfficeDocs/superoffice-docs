@@ -2,49 +2,51 @@
 uid: help-de-company-add-relation
 title: Beziehung hinzufügen
 description: Beziehung hinzufügen
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Firma
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Beziehung hinzufügen (Anzeige Firma)
 
-> [!NOTE]
-> Eine Beziehung muss immer aus zwei Parteien bestehen, wovon eine aktiv und eine passiv ist. Ein Beispiel: Firma A ist Eigentümer von Firma B, während Firma B Eigentum von Firma A ist.
+Eine Beziehung muss immer zwei Parteien haben: eine aktive und eine passive. Zum Beispiel besitzt Person A Firma B, während Firma B von Person A besessen wird.
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+**Beziehungstypen** werden unter Einstellungen und Verwaltung definiert.
+
+## Schritte
+
+[!include[Gehen Sie zum Firmaschirm](../../learn/includes/goto-contact.md)]
 
 1. Wählen Sie die Bereichsregisterkarte **Beziehungen**.
 
-1. Klicken Sie unter der Bereichsregisterkarte auf die Schaltfläche **Hinzufügen**. Das Dialogfeld **Beziehung** wird geöffnet.
+1. Klicken Sie auf **Hinzufügen**.
 
     ![Dialogfeld Beziehungen -screenshot][img2]
 
-1. Die gewünschte Firma muss im Listenfeld **Firma** als **Aktiv** definiert werden. Dieser Schritt ist erforderlich.
+1. Im **Beziehung**-Dialog, spezifizieren Sie den **Aktiven Teil**:
 
-    Klicken Sie zu diesem Zweck entweder auf den Pfeil und wählen die gewünschte Firma im Listenfeld aus, oder geben Sie den vollständigen oder nur den Anfang des Namens der Firma ein.
+    * Firma: Wählen Sie die Firma aus dem Listenfeld aus oder beginnen Sie zu tippen, um es zu suchen. Dies ist obligatorisch.
+    * Person: Optional, geben Sie einen Kontakt für die aktive Firma an (zum Beispiel, wenn der Kontakt ein Vertreter ist, eine spezielle Rolle hat oder ein ehemaliger Kollege einer Person in Firma B ist).
 
-1. Geben Sie optional eine beliebige Person im Listenfeld **Person** unter **Aktiv**an. Zum Beispiel, wenn eine Person in der Firma A ein ehemaliger Kollege einer Person in der Firma B ist.
+1. Spezifizieren Sie den **Passiven Teil**:
 
-1. Geben Sie im Listenfeld **Firma** unter **Passiv** an, welche Firma als passive Partei definiert werden soll. Gehen Sie dabei wie unter **Aktiv** beschrieben vor.
+    * Firma: Wählen Sie die Firma für die passive Rolle aus, indem Sie die gleiche Methode wie für den aktiven Teil verwenden.
+    * Person: Optional, geben Sie einen Kontakt für die passive Firma an.
 
-1. Legen Sie im Listenfeld **Person** unter **Passiv** ggf. eine Person als passive Partei fest. Gehen Sie dabei wie unter **Aktiv** beschrieben vor.
+1. Wählen Sie einen Beziehungstyp aus der **Beziehung**-Liste, z. B. "besitzt". Die verfügbaren Optionen hängen davon ab, ob die Beziehung zwischen zwei Firmen, zwischen einer Firma und einer Person oder zwischen zwei Personen besteht.
 
-1. Geben Sie im Listenfeld **Beziehung** an, welche Beziehung zwischen Aktiv und Passiv besteht, wie zum Beispiel "ist Eigentümer von". [!include[SM](../../learn/includes/are-defined-sm.md)]
+1. Optional: Geben Sie zusätzliche Informationen in das **Beschreibung**-Feld ein.
 
-    > [!NOTE]
-    > Welche Alternativen in diesem Listenfeld angezeigt werden, hängt auch davon ab, ob es sich um eine Beziehung zwischen zwei Firmen, zwischen einer Firma und einer Person oder zwischen zwei Personen handelt.
+1. Das **Ergebnis**-Feld wird basierend auf der gewählten Beziehung automatisch aktualisiert.
 
-1. In das Feld **Beschreibung** können Sie formlos zusätzliche Informationen eingeben. Wenn Sie hier etwas eingeben, wird ein ![Symbol][img1] für Büroklammern in der entsprechenden Linie auf der Bereichsregisterkarte **Beziehungen** angezeigt.
-
-1. Das Feld **Ergebnis** wird automatisch mit den Änderungen im Feld **Beziehung** aktualisiert. Beispiel: Wenn Sie für eine Beziehung "ist Eigentümer von" eingeben, werden im Ergebnis die Besitzverhältnisse angezeigt.
-
-1. Wenn Sie fertig sind, klicken Sie auf **Speichern**, um das Dialogfeld zu schließen und die eingegebenen Informationen zu speichern.
+1. Klicken Sie auf **Speichern**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.png
 [img2]: ../../../media/loc/en/company/relation.png
