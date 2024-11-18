@@ -2,10 +2,13 @@
 uid: help-sv-edit-legal-base
 title: Redigera rättslig grund
 description: I den här guiden får du lära dig mer om GDPR-funktionerna i SuperOffice Marketing som hjälper dig att säkerställa att dina marknadsföringsåtgärder är GDPR-kompatibla.
-author: SuperOffice RnD
-date: 02.21.2023
 keywords: integritet, samtycke, rättslig grund
+author: SuperOffice RnD
+date: 10.08.2024
+version: 10.3.10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
