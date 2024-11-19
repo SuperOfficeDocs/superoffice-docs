@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice Mobile CRM
 # SuperOffice Mobile CRM
 
 > [!TIP]
-> Check out help documentation for [SuperOffice Mobile CRM][52] on Learn | Docs.
+> Check out the SuperOffice Mobile CRM [user guide][52] on Learn | Docs.
 
 ## Version 11.0
 

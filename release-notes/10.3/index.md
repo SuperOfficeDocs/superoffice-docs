@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps
 author: SuperOffice AS – Research and Development
-date: 10.29.2024
+date: 11.19.2024
 version: 10.3
 topic: reference
 ---
@@ -22,8 +22,8 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.12 (19.11.2024):
-  * [User preferences - search option (10.3.12)][49] in Core CRM
-  * [Project and Sale - Add members (10.3.12)][49] in Core CRM
+  * [User preferences - Search option (10.3.12)][49] in Core CRM
+  * [Project and sale - Add members (10.3.12)][49] in Core CRM
   * [Tracked links - Open form with variables (10.3.12)][50] in Marketing
 
 * 10.3.11 (29.10.2024):
@@ -79,7 +79,6 @@ Check out our **Product release** overview for more details in our [Community][2
 ### Mobile CRM
 
 * [Version 11.0.3][27] (23.10.2024)
-  * Check out help documentation for [SuperOffice Mobile CRM][52] on Learn | Docs.
 
 ### Office integrations
 
@@ -88,7 +87,6 @@ Latest released versions:
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
 * SuperOffice for Outlook 5.0 (10.07.2024)
-  * Read more about how to use it in the [SuperOffice for Outlook][51] Learn | Docs
 * WebTools for Mac 13.0 (10.04.2024)
 * SharePoint Documents 3.2 (24.09.2023)
 * SuperOffice for Gmail 2.10 (11.03.2024)
@@ -98,7 +96,7 @@ Latest released versions:
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
-* [SuperOffice Marketing Premium][20] (released in 10.3.9 - 01.10.2024)
+* SuperOffice Marketing Premium (released in 10.3.9 - 01.10.2024)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
 * [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
@@ -107,6 +105,10 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 * [SuperOffice Service - New Service Request][23] (available on demand in 10.2.1 - 27.01.2023)
 
 ### Other highlights
+
+#### New user guides
+
+Check out the new user guide for [SuperOffice for Outlook][51] - it's available in six languages!
 
 #### SuperOffice App Store
 
@@ -188,6 +190,5 @@ See all the [new or updated apps][5]
 [49]: core-crm/10.3.12-update.md
 [50]: marketing/10.3.12-update.md
 [51]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
-[52]: ../../docs/en/mobile/superoffice-mobile/index.md
 
 <!-- Referenced images -->

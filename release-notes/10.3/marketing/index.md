@@ -4,10 +4,10 @@ title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
 keywords: marketing premium, marketing, mailing, audit, preheader, email settings, flow, step, form, tracked link, open form
 author: SuperOffice AS – Research and Development
-date: 10.08.2024
+date: 11.19.2024
 version: 10.3
 topic: reference
-audience: track_changes
+audience: person
 audience_tooltip: Marketing
 ---
 
