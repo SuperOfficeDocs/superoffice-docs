@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps
 author: SuperOffice AS – Research and Development
-date: 10.29.2024
+date: 11.19.2024
 version: 10.3
 topic: reference
 ---
@@ -20,6 +20,11 @@ topic: reference
 Check out our **Product release** overview for more details in our [Community][28].
 
 ### SuperOffice CRM
+
+* 10.3.12 (19.11.2024):
+  * [User preferences - Search option (10.3.12)][49] in Core CRM
+  * [Project and sale - Add members (10.3.12)][49] in Core CRM
+  * [Tracked links - Open form with variables (10.3.12)][50] in Marketing
 
 * 10.3.11 (29.10.2024):
   * [Document dialog - Clean and intuitive (10.3.11)][44] in Core CRM
@@ -91,7 +96,7 @@ Latest released versions:
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
-* [SuperOffice Marketing Premium][20] (released in 10.3.9 - 01.10.2024)
+* SuperOffice Marketing Premium (released in 10.3.9 - 01.10.2024)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
 * [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
@@ -100,6 +105,10 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 * [SuperOffice Service - New Service Request][23] (available on demand in 10.2.1 - 27.01.2023)
 
 ### Other highlights
+
+#### New user guides
+
+Check out the new user guide for [SuperOffice for Outlook][51] - it's available in six languages!
 
 #### SuperOffice App Store
 
@@ -178,4 +187,8 @@ See all the [new or updated apps][5]
 [46]: https://appstore.superoffice.com/infobridge-software-b-v-/document-viewer-for-superoffice
 [47]: https://appstore.superoffice.com/infobridge-software-b-v-/panels-for-superoffice
 [48]: service/10.3.11-update.md
+[49]: core-crm/10.3.12-update.md
+[50]: marketing/10.3.12-update.md
+[51]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
+
 <!-- Referenced images -->
