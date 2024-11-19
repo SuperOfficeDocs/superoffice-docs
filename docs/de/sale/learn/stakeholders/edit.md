@@ -2,46 +2,46 @@
 uid: help-de-sale-stakeholder-edit
 title: Beteiligte bearbeiten
 description: Wie man Beteiligte in einem Verkauf in SuperOffice bearbeitet oder entfernt.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: Verkauf
-topic: howto
+keywords: Verkauf, Beteiligt, Interessent
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Beteiligte bearbeiten oder entfernen
 
-Sie können die Details zu einem Beteiligten in den Feldern **Verkaufsrolle** und **Kommentar** bearbeiten.
+Sie können die **Verkaufsrolle** und **Kommentar**-Felder für Beteiligte aktualisieren oder Beteiligte vollständig entfernen.
 
-## Informationen aktualisieren
+## Beteiligteinformationen aktualisieren
 
-1. Gehen Sie in der Anzeige Verkauf in den gewünschten Verkauf. (Siehe [Suchansicht verwenden][1].)
+1. Öffnen Sie den Verkauf (siehe [Suchansicht verwenden][1]) und gehen Sie zur Bereichsregisterkarte **Beteiligte**.
 
-1. Wählen Sie die Bereichsregisterkarte **Beteiligte**.
+1. Wählen Sie einen oder mehrere Beteiligte aus der Liste und klicken Sie auf **Bearbeiten** unten auf der Bereichsregisterkarte. Dadurch wird der Dialog **Beteiligte hinzufügen/bearbeiten** geöffnet.
 
-1. Wählen Sie einen oder mehrere Beteiligte aus und klicken Sie unten in der  Bereichsregisterkarte auf **Bearbeiten** ![Symbol][img1].
+1. Im Dialog **Beteiligte hinzufügen/bearbeiten** wählen Sie die Beteiligte aus, die Sie bearbeiten möchten.
 
-1. Wählen Sie im Dialogfeld **Beteiligte bearbeiten** die Beteiligten aus, die Sie bearbeiten möchten.
+1. Nehmen Sie Änderungen vor:
 
-1. Nehmen Sie die gewünschten Änderungen in den Feldern **Verkaufsrolle** und **Kommentare** vor.
+    * Aktualisieren Sie die **Verkaufsrolle** für die ausgewählten Beteiligte.
+
+    * Bearbeiten Sie das **Kommentar**-Feld, um zusätzliche Details hinzuzufügen oder zu ändern.
 
     > [!TIP]
-    > Eine Beschreibung der verschiedenen Felder finden Sie unter [Beteiligte erstellen][2].
-    >
-    > Sie können auch mehrere Firmen/Personen gleichzeitig auswählen, indem Sie die **STRG**-Taste oder die **UMSCHALTTASTE** während der Auswahl gedrückt halten. Änderungen, die Sie im Feld **Verkaufsrolle** und im Textfeld **Kommentar** vornehmen, gelten für alle ausgewählten Firmen/Personen.
+    > Sie können mehrere Beteiligte auswählen (halten Sie Strg oder Shift). Änderungen in den Feldern **Verkaufsrolle** oder **Kommentar** gelten für alle ausgewählten Beteiligte.
 
-1. Klicken Sie auf **OK**, um das Dialogfeld zu schließen und die Änderungen zu speichern.
+1. Klicken Sie auf **OK**, um Ihre Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
 
-> [!NOTE]
-> Klicken Sie auf **Abbrechen**, um den Bearbeitungsmodus zu beenden, ohne die Änderungen zu speichern.
+## Interessent entfernen
 
-## Beteiligte entfernen
+1. Wählen Sie die Beteiligte aus, die Sie aus der Liste in der **Beteiligte**-Bereichsregisterkarte entfernen möchten.
 
-Um einen oder mehrere Beteiligte aus dem Verkauf zu entfernen, wählen Sie sie aus und klicken Sie unter der Bereichsregisterkarte auf die Schaltfläche **Entfernen**. Klicken Sie im daraufhin angezeigten Dialogfeld auf **Ja**.
+1. Klicken Sie auf **Entfernen**. Im angezeigten Bestätigungsdialog klicken Sie auf **Ja**, um zu bestätigen.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
-[2]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/edit.png

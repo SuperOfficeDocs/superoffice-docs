@@ -22,8 +22,7 @@ language: da
 
 1. Indtast det ønskede navn for forekomsten i feltet **Navn**.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 2. Vælg den ønskede kategori for salgstypen på listen **Salgstypekategori**.
 

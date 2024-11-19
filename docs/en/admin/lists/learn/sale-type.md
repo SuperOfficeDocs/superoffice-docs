@@ -22,8 +22,7 @@ language: en
 
 1. Enter the required name of the item in the **Name** field.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 2. Select the required category for the sale type in the **Sale type category** list box.
 

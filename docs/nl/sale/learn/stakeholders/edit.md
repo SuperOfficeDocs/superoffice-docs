@@ -2,46 +2,46 @@
 uid: help-nl-sale-stakeholder-edit
 title: Belanghebbenden bewerken
 description: Het bewerken en verwijderen van belanghebbenden in een verkoop in SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: verkoop
-topic: howto
+keywords: verkoop, belanghebbend, aandeelhouder, stakeholder
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Aandeelhouders bewerken of verwijderen
+# Belanghebbenden bewerken of verwijderen
 
-U kunt de gegevens in de velden **Verkooprol** en **Commentaar** bewerken voor aandeelhouders.
+U kunt de velden **Verkooprol** en **Opmerking** voor belanghebbenden bijwerken, of belanghebbenden volledig verwijderen.
 
-## Informatie bijwerken
+## Belanghebbendeninformatie bijwerken
 
-1. Ga naar de gewenste verkoop in het scherm Verkoop. (Zie [Het scherm Zoeken gebruiken][1].)
+1. Open de verkoop (zie [Gebruik het Zoekenscherm][1]) en ga naar het sectietabblad **Belanghebbenden**.
 
-1. Selecteer het sectietabblad **Aandeelhouders**.
+1. Selecteer een of meer belanghebbende uit de lijst en klik op **Bewerken** onderaan het sectietabblad. Hierdoor wordt het dialoogvenster **Belanghebbende toevoegen/bewerken** geopend.
 
-1. Selecteer een of meer aandeelhouders en klik op ![pictogram][img1] **Bewerken** onder aan het sectietabblad.
+1. In de **Belanghebbende toevoegen/bewerken**-dialoog selecteert u de belanghebbenden die u wilt bewerken.
 
-1. Selecteer in het dialoogvenster **Belanghebbenden bewerken** de belanghebbenden die u wilt bewerken.
+1. Wijzigingen aanbrengen:
 
-1. Voer de gewenste wijzigingen door in de velden **Verkooprol** en **Commentaar**.
+    * Werk de **Verkooprol** bij voor de geselecteerde belanghebbenden.
+
+    * Bewerk het **Opmerking**-veld om extra details toe te voegen of te wijzigen.
 
     > [!TIP]
-    > Er is beschrijving van de verschillende velden onder [Belanghebbenden maken][2].
-    >
-    > u kunt meerdere bedrijven/personen selecteren door **Ctrl** of **Shift** ingedrukt te houden tijdens het selecteren. Wijzigingen die u doorvoert in het veld **Verkooprol** en het tekstvak **Commentaar** worden toegepast op alle geselecteerde bedrijven/personen.
+    > U kunt meerdere belanghebbenden selecteren (houd **Ctrl** of **Shift** ingedrukt). Wijzigingen in de velden **Verkooprol** of **Opmerking** gelden voor alle geselecteerde bedrijven/personen.
 
-1. Klik op **Opslaan** om de wijzigingen op te slaan en het dialoogvenster te sluiten.
+1. Klik op **OK** om uw wijzigingen op te slaan of op **Annuleren** om deze te verwerpen.
 
-> [!NOTE]
-> als u op **Annuleren** klikt, wordt het dialoogvenster gesloten zonder de wijzigingen op te slaan.
+## Belanghebbenden verwijderen
 
-## Aandeelhouder verwijderen
+1. Selecteer de belanghebbenden die u wilt verwijderen uit de lijst in het sectietabblad **Belanghebbenden**.
 
-Om een of meer belanghebbenden uit de verkoop te verwijderen, selecteer ze en klik op de knop **Verwijderen** onder het sectietabblad . Klik op **Ja** in het dialoogvenster dat wordt weergegeven.
+1. Klik op **Verwijderen**. In het bevestigingsdialoogvenster dat verschijnt, klikt u op **Ja** om te bevestigen.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
-[2]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/edit.png

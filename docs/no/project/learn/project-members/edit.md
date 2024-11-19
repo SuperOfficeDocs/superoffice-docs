@@ -1,36 +1,46 @@
 ---
 uid: help-no-project-member-edit
-title: Redigere prosjektdeltakere
+title: Rediger eller fjern prosjektdeltakere
 description: Slik redigerer eller sletter du en prosjektdeltaker i SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: prosjekt, deltaker
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Redigere eller slette prosjektdeltakere
+# Rediger eller fjern prosjektdeltakere
 
-## Redigere en prosjektdeltaker
+Du kan oppdatere feltene **Funksjon** og **Kommentar** for prosjektdeltakere, eller fjerne flere deltakere samtidig.
 
-Du kan redigere opplysningene i feltet **Funksjon** og **Kommentar** for prosjektdeltakerne.
+## Rediger prosjektdeltaker-info
 
-1. [!include[Go to project](../includes/goto-project.md)]
-2. Velg detaljkortet **Prosjektdeltakere**.
-3. Dobbeltklikk på en prosjektdeltaker.
-4. I dialogboksen **Prosjektdeltaker** gjør du de ønskede endringene i feltet **Funksjon** og **Kommentar**. Du finner en beskrivelse av de ulike feltene under [Legge til/opprette prosjektdeltakere][1].
-5. Klikk på **Lagre**.
+1. Åpne prosjektet (se [Bruke Finn-bildet][1]) og gå til detaljkortet **Prosjektdeltakere**.
 
-> [!TIP]
-> Du kan redigere flere personer ved å klikke på **Legg til** under **Prosjektdeltakere**. Merk og flytt prosjektdeltakerne fra venstre til høyre felt. Deretter holder du nede **CTRL** eller **SKIFT** for å velge prosjektdeltakerne i høyre felt. Endringer du deretter gjør i feltet **Funksjon** og tekstboksen **Kommentar**, vil gjelde for alle de merkede prosjektdeltakerne.
+1. Velg ett eller flere prosjektdeltakere fra listen, høyreklikk, og velg **Rediger**. Dette vil åpne dialogen **Legg til/rediger prosjektdeltakere**.
 
-## Slette prosjektdeltakere
+1. I dialogen **Legg til/rediger prosjektdeltakere**, gjør de nødvendige endringene:
 
-1. Merk én eller flere prosjektdeltakere på detaljkortet **Prosjektdeltakere**.
-2. Klikk på **Slett**-knappen under detaljkortet.
-3. I dialogboksen som vises, klikker du på **Ja**.
+   * **Funksjon**: Oppdater funksjonen for de valgte prosjektdeltakerene.
+   * **Kommentar**: Rediger kommentarene for å gi ytterligere detaljer om deltakerens funksjon i prosjektet.
+
+   > [!TIP]
+   > Du kan velge flere prosjektdeltakere (hold **Ctrl** eller **Shift**). Eventuelle endringer i feltene **Funksjon** eller **Kommentar** vil gjelde for alle valgte deltakere.
+
+1. Klikk **OK** for å lagre endringene dine eller **Avbryt** for å forkaste dem.
+
+## Fjern prosjektdeltakere
+
+1. Velg prosjektdeltakerene du vil fjerne fra listen i detaljkortet **Prosjektdeltakere**.
+
+1. Klikk på **Fjern** nederst på detaljekortet.
+
+1. I bekreftelsesdialogen som vises, klikk **Ja** for å bekrefte fjerningen.
 
 <!-- Referenced links -->
-[1]: add.md
+[1]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->

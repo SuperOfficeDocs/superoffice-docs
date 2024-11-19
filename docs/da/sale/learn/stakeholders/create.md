@@ -2,66 +2,82 @@
 uid: help-da-stakeholder-create
 title: Opret en interessent
 description: Sådan knyttes et salg til en interessent (firma eller person) i SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: salg
-topic: howto
+keywords: salg, interessent
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Tilføj interessenter
 
-> [!NOTE]
-> Du kan også [tilføje interessenter via detaljekortene][2], som indeholder personer, i skærmbillederne Firma og Udvalg.
+Når du tilføjer interessenter til et salg, kan du enten tildele roller individuelt, mens du tilføjer personer/firma, tildele roller efter, at alle interessenter er tilføjet, eller bruge en kombination af begge metoder.
 
-## Knyt salget til interessenter
+Et firma/en person kan tilføjes som en interessent flere gange, forudsat at forskellige roller angives hver gang.
 
-1. Gå til det ønskede salg i skærmbilledet Salg. (Se [Brug skærmbilledet Søg][1].)
+## Trin
 
-2. Vælg detaljekortet **Interessenter**.
+1. Åbn salget (se [Brug skærmbilledet Søg][1]) og gå til **Interessenter**-detaljekortet.
 
-    > [!NOTE]
-    > Hvis dette detaljekort ikke vises, skal det angives i Indstillinger og vedligeholdelse, at denne salgstype har interessenter.
+1. Klik på **Tilføj** under detaljekortet. Dialogen **Tilføj/rediger interessenter** åbnes.
 
-3. Klik på knappen **Tilføj** under detaljekortet. Dialogboksen **Tilføj interessenter** åbnes.
+1. Klik på **Firma/person**-listen for at tilføje interessenter. Du har flere muligheder:
 
-    Dialogboksen ![Tilføj interessenter -screenshot][img3]
+    * **Søg:** Skriv mindst to tegn for at søge efter en person eller et firma.
 
-4. I feltet **Salg** vises det aktive salg som standard. Alternativt kan du vælge et andet salg, som interessenten/interessenterne skal føjes til. Det gør du ved at klikke på pilen og vælge det ønskede salg på den viste liste eller indtaste navnet på salget direkte.
+    * **Historik/Favoritter:** Vælg fra historiklisten eller favoritter.
 
-5. I feltet **Firma/person**:
+      ![Tilføj/rediger interessenter dialog, historik -screenshot][img5]
 
-    * Sådan vælger du en person fra et firma: Klik på pilen, og vælg det ønskede firma på listen, der bliver vist, eller indtast firmaets navn. Som standard vises det firma, der er aktivt, i skærmbilledet Firma.
-    * Sådan vælger du en person direkte: Indtast personens navn (dette gælder både personer med og uden et tilknyttet firma), og klik på navnet i resultatlisten.
+    * **Brugergruppe:** Klik ![ikon][img2] for at gennemse samarbejdspartnere efter gruppe.
 
-6. For at tilføje firmaet som interessent skal du klikke på den øverste pileknap (til højre for firmaet). Firmaet vises yderst til højre i vinduet.
+      ![Tilføj/rediger interessenter dialog, gruppe -screenshot][img6]
 
-7. For at tilføje personer som interessenter skal du markere personen/personerne og derefter klikke på det nederste ![ikon][img2] for pileknap. Personen/personerne vises derefter i højre side af vinduet.
+    * **Firma:** Klik ![ikon][img3] for at gennemse personer efter firma eller tilføje et firma som interessent.
 
-    > [!NOTE]
-    > Hvis det ønskede navn ikke findes på listen, skal du først [oprette personen][3].
+      ![Tilføj/rediger interessenter dialog, firma -screenshot][img7]
 
-8. I feltet **Salgsrolle** angiver du, hvilken rolle hvert af firmaerne og/eller personerne har i salget. Markér firmaet og/eller personen, og klik på pilen. Du får herefter vist en liste over foruddefinerede valgmuligheder, du kan vælge mellem. [!include[SM](../../../learn/includes/are-defined-sm.md)]
-    Et firma/en person kan tilføjes som interessent flere gange, hvis der er angivet forskellige roller i hvert enkelt tilfælde.
+1. **Tildel roller**: Vælg en interessent og tildel en rolle. For at tildele samme rolle til flere interessenter på én gang skal du bruge **Vælg alle** eller holde **Ctrl/Shift**, mens du vælger.
 
-9. I den store tekstboks under **Kommentarer** kan du tilføje en mere detaljeret beskrivelse af firmaets eller personens funktion i salget, hvis det er nødvendigt.
+    ![Tilføj/rediger interessenter dialog, rolle -screenshot][img8]
 
-    > [!NOTE]
-    > Hvis du indtaster noget i denne tekstboks, vises et ![ikon][img1] for papirclipssymbolet til højre for kolonnen **Salgsrolle** i detaljekortet **Interessenter**. Hvis du anbringer markøren over clipsen, vises de indtastede kommentarer i en infoboks.
+    Valgfrit: Tilføj en kommentar for at beskrive interessentens rolle mere detaljeret.
 
-10. Gentag trin 4-9 for at tilføje flere interessenter.
+1. Klik på **Gem**.
 
-11. Efter indtastning af den ønskede information skal du klikke på **Gem**.
+## Fejlfinding
 
-    > [!TIP]
-    > Du kan markere flere firmaer og/eller personer i højre side af vinduet ved at holde tasten **CTRL** eller tasten **Shift** nede, mens du vælger dem. Det, du derefter angiver i feltet **Salgsrolle** og tekstboksen **Kommentar**, vil gælde for alle de markerede firmaer/personer.
+* **Manglende detaljekort**: Hvis detaljekortet **Interessenter** ikke er synlig, skal du sørge for, at denne [salgstype har interessenter][4] aktiveret under Indstillinger og vedligeholdelse.
+
+* **Manglende person**: Hvis en interessent ikke er opført, skal du først [oprette personen][3].
+
+* **Manglende roller**: [Roller][5] defineres under Indstillinger og vedligeholdelse.
+
+## Tips
+
+* **Tilføj interessenter via firma eller udvalg**
+
+    Du kan også [tilføje interessenter via detaljekort][2], der indeholder personer i skærmbillederne Firma og Udvalg.
+
+* **Tilføj kommentarer**
+
+    Hvis der tilføjes en kommentar, vises et ![ikon][img1] papirclip ved siden af **Salgsrolle**-kolonnen i **Interessenter**-detaljekortet. Hold musen over clipsen for at se kommentarens tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
+[4]: ../../../admin/lists/learn/sale-type.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
+[img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
+[img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png
+[img8]: ../../../../media/loc/en/sale/set-stakeholder-role.png

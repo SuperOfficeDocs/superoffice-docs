@@ -1,47 +1,47 @@
 ---
 uid: help-en-sale-stakeholder-edit
-title: Edit stakeholders
+title: Edit or remove stakeholders
 description: How to edit or remove stakeholders in a sale in SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: sale
-topic: howto
+keywords: sale, stakeholder
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Edit or remove stakeholders
 
-You can edit the details in the **Sales role** and **Comment** field for stakeholders.
+You can update the **sales role** and **comment** fields for stakeholders, or remove stakeholders entirely.
 
-## Update information
+## Update stakeholder information
 
-1. Go to the required sale in the Sale screen. (See [Use the Find screen][1].)
+1. Open the sale (see [Use the Find screen][1]) and go to the **Stakeholders** section tab.
 
-1. Select the **Stakeholders** section tab.
+1. Select one or more stakeholders from the list and click **Edit** at the bottom of the section tab. This will open the **Add/edit stakeholder** dialog.
 
-1. Select one or more stakeholders, and click ![icon][img1] **Edit** at the bottom of the section tab.
+1. In the **Add/edit stakeholder** dialog, select the stakeholders you want to edit.
 
-1. In the **Edit stakeholder** dialog, select the stakeholders you want to edit.
+1. Make changes:
 
-1. Make the required changes in the **Sales role** and **Comments** fields.
+    * Update the **Sales role** for the selected stakeholders.
+
+    * Edit the **Comments** field to add or change additional details.
 
     > [!TIP]
-    > There is a description of the different fields under [Create stakeholders][2].
-    >
-    > You can select multiple companies/contacts by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Sales role** field and **Comment** text box will apply to all the selected companies/contacts.
+    > You can select multiple stakeholders (hold Ctrl or Shift). Any changes made in the **Sales role** or **Comments** fields will apply to all selected stakeholders.
 
-1. Click **OK** to close the dialog and save the changes.
-
-> [!NOTE]
-> Click **Cancel** to exit edit mode without saving your changes.
+1. Click **OK** to save your changes or **Cancel** to discard them.
 
 ## Remove stakeholder
 
-To remove one or more stakeholders from the sale, select them and click the **Remove** button below the section tab. In the dialog that appears, click **Yes**.
+1. Select the stakeholders you want to remove from the list in the **Stakeholders** tab.
+
+1. Click **Remove**. In the confirmation dialog that appears, click **Yes** to confirm.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
-[2]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/edit.png

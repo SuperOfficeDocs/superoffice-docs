@@ -1,67 +1,83 @@
 ---
 uid: help-de-stakeholder-create
-title: Beteiligte erstellen
+title: Beteiligte hinzufügen
 description: Wie man einen Verkauf mit einem Beteiligten (Firma oder Person) in SuperOffice verknüpft.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: Verkauf
-topic: howto
+keywords: Verkauf, Beteiligt, Interessent
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Beteiligte hinzufügen
 
-> [!NOTE]
-> Sie können auch [Beteiligte über die Bereichsregisterkarten hinzufügen][2], in denen Personen in den Ansichten Firma und Selektion enthalten sind.
+Beim Hinzufügen von Beteiligte zu einem Verkauf können Sie entweder Rollen einzeln zuweisen, wenn Sie Firmen/Personen hinzufügen, die Rollen nach dem Hinzufügen aller Beteiligte zuweisen oder eine Kombination beider Methoden verwenden.
 
-## Verkauf mit Beteiligten verknüpfen
+Eine Firma/Person kann mehrfach als Interessent hinzugefügt werden, vorausgesetzt, es werden jeweils unterschiedliche Rollen festgelegt.
 
-1. Gehen Sie in der Anzeige Verkauf in den gewünschten Verkauf. (Siehe [Suchansicht verwenden][1].)
+## Schritte
 
-2. Wählen Sie die Bereichsregisterkarte **Beteiligte**.
+1. Öffnen Sie den Verkauf (siehe [Suchansicht verwenden][1]) und gehen Sie zur Bereichsregisterkarte **Beteiligte**.
 
-    > [!NOTE]
-    > Wenn diese Bereichsregisterkarte nicht angezeigt wird, muss in Einstellungen und Verwaltung angegeben werden, dass dieser Vertriebstyp mit Beteiligten ist.
+1. Klicken Sie auf **Hinzufügen** unter der Bereichsregisterkarte. Der Dialog **Beteiligte hinzufügen/bearbeiten** öffnet sich.
 
-3. Klicken Sie unter der Bereichsregisterkarte auf die Schaltfläche **Hinzufügen**. Das Dialogfeld **Beteiligte hinzufügen** wird geöffnet.
+1. Klicken Sie auf die **Firma/Person**-Liste, um Beteiligte hinzuzufügen. Sie haben folgende Möglichkeiten:
 
-    ![Dialogfeld Beteiligte hinzufügen -screenshot][img3]
+    * **Suchen**: Geben Sie mindestens zwei Zeichen ein, um nach einer Person oder einer Firma zu suchen.
 
-4. Der aktive Verkauf wird standardmäßig im Feld **Verkauf** angezeigt. Sie können auch einen anderen Verkauf auswählen, zu dem Sie Beteiligte hinzufügen möchten. Klicken Sie zu diesem Zweck auf den Pfeil, und wählen Sie im daraufhin angezeigten Listenfeld den gewünschten Verkauf aus, oder geben Sie einfach den Namen des Verkaufs ein.
+    * **Verlauf/Favoriten**: Wählen Sie aus der Verlaufsliste oder Favoriten.
 
-5. Im Feld **Firma/Person**:
+      ![Dialog Beteiligte hinzufügen/bearbeiten, Verlauf -screenshot][img5]
 
-    * So wählen Sie eine Person aus einer Firma aus: Klicken Sie auf den Pfeil und wählen Sie in der Liste, die daraufhin angezeigt wird, die gewünschte Firma aus oder geben Sie den Namen der Firma ein. Standardmäßig wird die aktive Firma in der Ansicht Firma angezeigt.
-    * So wählen Sie eine Person direkt aus: Geben Sie, unabhängig davon, ob die Person einer Firma zugeordnet ist, den Namen der Person ein und klicken Sie in der Liste der Ergebnisse auf den gewünschten Namen.
+    * **Benutzergruppe**: Klicken Sie auf ![Icon][img2], um Mitarbeiter nach Gruppe zu durchsuchen.
 
-6. Um die Firma als Beteiligten hinzufügen möchten, klicken Sie auf die Schaltfläche oberer Pfeil (rechts neben der Firma). Die Firma wird ganz rechts im Fenster angezeigt.
+      ![Dialog Beteiligte hinzufügen/bearbeiten, Gruppe -screenshot][img6]
 
-7. Um Personen als Beteiligte hinzufügen, müssen Sie die Personen auswählen und auf die untere Pfeilschaltfläche ![Symbol][img2] klicken. Die Personen werden daraufhin auf der rechten Seite des Dialogfelds angezeigt.
+    * **Firma**: Klicken Sie auf ![Icon][img3], um Personen nach Firma zu durchsuchen oder eine Firma als Interessent hinzuzufügen.
 
-    > [!NOTE]
-    > Wenn der gewünschte Name nicht in der Liste enthalten ist, müssen Sie zuerst die [Person erstellen][3].
+      ![Dialog Beteiligte hinzufügen/bearbeiten, Firma -screenshot][img7]
 
-8. Definieren Sie im Feld **Verkaufsrolle** die Rolle der Firmen und/oder Personen innerhalb des Verkaufs. Wählen Sie die Firma und/oder Person aus und klicken Sie auf den Pfeil. Daraufhin wird eine Liste mit voreingestellten Optionen zur Auswahl angezeigt. [!include[SM](../../../learn/includes/are-defined-sm.md)]
-    Eine Firma/Person kann mehrmals als Beteiligter hinzugefügt werden, sofern jeweils andere Rollen angegeben wurden.
+1. **Rollen zuweisen**: Wählen Sie einen Beteiligte aus und weisen Sie eine Rolle zu. Um dieselbe Rolle mehreren Beteiligte gleichzeitig zuzuweisen, verwenden Sie **Alle auswählen** oder halten Sie **Strg/Shift** gedrückt, während Sie auswählen.
 
-9. Im großen Textfeld unter **Kommentare** können Sie eine detailliertere Beschreibung der Funktion dieser Firma oder Person innerhalb des Verkaufs eingeben.
+    ![Dialog Beteiligte hinzufügen/bearbeiten, Rolle -screenshot][img8]
 
-    > [!NOTE]
-    > Wenn Sie etwas in dieses Textfeld eingeben, wird auf der Bereichsregisterkarte **Beteiligte** ein Büroklammersymbol ![Symbol][img1] rechts neben der Spalte **Verkaufsrolle** angezeigt. Platzieren Sie den Mauszeiger auf der Büroklammer, um die gespeicherten Informationen in einer QuickInfo anzuzeigen.
+    Optional: Fügen Sie einen Kommentar hinzu, um die Rolle des Beteiligte genauer zu beschreiben.
 
-10. Wiederholen Sie die Schritte 4 - 9 für jeden Beteiligten, den Sie hinzufügen möchten.
+1. Klicken Sie auf **Speichern**.
 
-11. Klicken Sie auf **Speichern**, nachdem Sie die gewünschte Information eingegeben haben.
+## Fehlerbehebung
 
-    > [!TIP]
-    > Sie können rechts neben dem Fenster mehrere Firmen und/oder Personen gleichzeitig auswählen, indem Sie die **STRG**-Taste oder die **UMSCHALTTASTE** während der Auswahl gedrückt halten. Änderungen, die Sie im Feld **Verkaufsrolle** und im Textfeld **Kommentare** vornehmen, gelten für alle ausgewählten Firmen/Personen.
+* **Fehlende Bereichsregisterkarte**: Wenn die Bereichsregisterkarte Beteiligte nicht sichtbar ist, stellen Sie sicher, dass diese [Vertriebstyp][4] in den Einstellungen und Verwaltung aktiviert ist.
+
+* **Fehlende Person**: Wenn ein Interessent nicht aufgeführt ist, müssen Sie zuerst [die Person erstellen][3].
+
+* **Fehlende Rollen**: [Rollen][5] werden in den Einstellungen und Verwaltung definiert.
+
+## Tipps
+
+* **Beteiligte über Firmen- oder Auswahlbildschirme hinzufügen**
+
+    Sie können auch [Beteiligte über die Bereichsregisterkarte][2] hinzufügen, die Personen in den Ansichten Firma und Selektion enthalten.
+
+* **Kommentare hinzufügen**
+
+    Wenn ein Kommentar hinzugefügt wird, erscheint ein ![Icon][img1] Büroklammer-Symbol neben der Spalte **Verkaufsrolle** in der **Beteiligte**-Bereichsregisterkarte. Bewegen Sie den Mauszeiger über die Büroklammer, um das Tooltip mit dem Kommentar anzuzeigen.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
+[4]: ../../../admin/lists/learn/sale-type.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
+[img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
+[img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png
+[img8]: ../../../../media/loc/en/sale/set-stakeholder-role.png

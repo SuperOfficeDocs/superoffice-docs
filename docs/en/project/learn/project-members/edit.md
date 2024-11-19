@@ -1,36 +1,46 @@
 ---
 uid: help-en-project-member-edit
-title: Editing project members
-description: How to edit or delete a project member in SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
+title: Edit or delete project members
+description: How to edit or remove a project member in SuperOffice.
 keywords: project, member
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Edit or delete project members
 
-## Edit a project member
+You can update the **Function** and **Comments** fields for project members, or remove multiple members at once.
 
-You can edit the details in the **Function** and **Comments** field for project members.
+## Edit project member info
 
-1. [!include[Go to project](../includes/goto-project.md)]
-2. Choose the **Project Members** section tab.
-3. Double-click a project member.
-4. In the **Project member** dialog, make the required changes in the **Function** and **Comments** fields. There is a description of the different fields under [Add create project members][1].
-5. Click **Save**.
+1. Open the project (see [Use the Find screen][1]) and go to the **Project Members** section tab.
 
-> [!TIP]
-> You can edit multiple contacts by clicking **Add** in the **Project Members**. Select and move the members from the left to right field. Then hold down **CTRL** or **SHIFT** to select the members in the right field. Changes you then make in the **Function** field and **Comments** text box will apply to all the selected members.
+1. Select one or more project members from the list, right-click, and choose **Edit**. This will open the **Add/Edit Project Members** dialog.
 
-## Delete project members
+1. In the **Add/Edit Project Members** dialog, make the required changes:
 
-1. Select one or more project members in the **Project Members** section tab.
-2. Click the **Delete** button below the section tab.
-3. In the dialog that appears, click **Yes**.
+   * **Function**: Update the function for the selected project members.
+   * **Comments**: Edit the comments to provide additional details about the members' function in the project.
+
+   > [!TIP]
+   > You can select multiple project members (hold **Ctrl** or **Shift**). Any changes made in the **Function** or **Comments** fields will apply to all selected members.
+
+1. Click **OK** to save your changes or **Cancel** to discard them.
+
+## Remove project members
+
+1. Select the project members you want to remove from the list in the **Project Members** section tab.
+
+1. Click **Delete** at the bottom of the section tab.
+
+1. In the confirmation dialog that appears, click **Yes** to confirm the removal.
 
 <!-- Referenced links -->
-[1]: add.md
+[1]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->

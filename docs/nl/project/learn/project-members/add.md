@@ -2,56 +2,55 @@
 uid: help-nl-project-member-add
 title: Projectlid toevoegen
 description: Een projectlid toevoegen in SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: project, lid
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Projectleden toevoegen
 
-Als u het project wilt koppelen aan een bedrijf, moet u ten minste Ã©Ã©n projectlid opgeven.
+Om een project aan een bedrijf te koppelen, moet ten minste één projectlid worden opgegeven. Dit kan op het Projectscherm of [via de sectietabbladen](#from-section-tab) voor personen in de Bedrijf-, Selectie- of Verkoopschermen.
 
-## Projectleden
+Bij het toevoegen van leden aan een project kunt u functies individueel toewijzen terwijl u contacten/bedrijven toevoegt, functies achteraf toewijzen, of een combinatie van beide methoden gebruiken.
 
-1. [!include[Go to project](../includes/goto-project.md)]
+## Stappen
 
-2. Selecteer het sectietabblad **Projectleden**.
+1. Open het project (zie [Het scherm Zoeken gebruiken][1]) en ga naar het sectietabblad **Projectleden**.
 
-3. Klik op de knop **Toevoegen** onder het sectietabblad. Het dialoogvenster **Projectleden toevoegen** wordt geopend.
+1. Klik op **Toevoegen** onder het sectietabblad. Het dialoogvenster **Projectleden toevoegen/bewerken** wordt geopend.
 
-    > [!NOTE]
-    > U kunt ook [projectleden toevoegen via de sectietabbladen](#from-section-tab) met personen in de schermen Bedrijf, Selectie en Verkoop.
+1. Klik op de lijst **Bedrijf/Persoon** om leden toe te voegen. U heeft verschillende opties:
 
-4. In het veld **Bedrijf/persoon**:
-    * Selecteer als volgt een persoon van een bedrijf: Klik op de pijl en selecteer het gewenste bedrijf in de weergegeven lijst of typ de naam van het bedrijf. Standaard wordt het bedrijf weergegeven dat actief is in het scherm Bedrijf.
-    * Selecteer als volgt een persoon rechtstreeks: Typ de naam van de persoon (dit is zowel op personen met en zonder gekoppeld bedrijf van toepassing) en klik op de naam in de lijst met resultaten.
+    * **Zoeken**: Typ ten minste twee tekens om te zoeken naar een contactpersoon of bedrijf.
 
-5. Geef in het veld **Project** op aan welk project de projectleden moeten worden toegevoegd door op de pijl te klikken en het gewenste project in de lijst te selecteren.
+    * **Geschiedenis/Favorieten**: Selecteer uit de geschiedenislijst of favorieten.
 
-6. Selecteer in de lijst van contactpersonen aan de linkerkant de persoon of personen die u wilt toevoegen aan het project.
+      ![Dialoogvenster Projectleden toevoegen/bewerken, geschiedenis -screenshot][img5]
 
-    > [!NOTE]
-    > Als de gewenste naam niet in de lijst staat, moet u de [persoon eerst maken][2].
+    * **Gebruikersgroep**: Klik op ![icoon][img2] om medewerkers per groep te doorzoeken.
 
-7. Klik op de ![pictogram][img2] pijlknop rechts van de lijst. De contactpersonen worden vervolgens rechts in het dialoogvenster weergegeven.
+      ![Dialoogvenster Projectleden toevoegen/bewerken, groep -screenshot][img6]
 
-8. Geef in het veld **Functie** op welke functie de contactpersoon heeft in het project. Als u op de pijl klikt, wordt een lijst met vooraf gedefinieerde keuzen weergegeven. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+    * **Bedrijf**: Klik op ![icoon][img3] om personen binnen een bedrijf te doorzoeken of om een bedrijf als lid toe te voegen.
 
-9. In het grote tekstvak onder **Commentaar** kunt u een meer gedetailleerde beschrijving van de functie van het projectlid invoeren.
+      ![Dialoogvenster Projectleden toevoegen/bewerken, bedrijf -screenshot][img7]
 
-    > [!NOTE]
-    > Als u tekst in dit vak typt, wordt een ![paperclippictogram][img1] weergegeven in de kolom **Projectlidgegevens** op het sectietabblad **Projectleden**. Als u de muisaanwijzer op de paperclip plaatst, wordt het geregistreerde commentaar weergegeven in de knopinfo.
+1. **Functies toewijzen**: Selecteer een projectlid en wijs een functie toe. Om dezelfde functie aan meerdere leden tegelijk toe te wijzen, gebruikt u **Alles selecteren** of houdt u **Ctrl/Shift** ingedrukt terwijl u selecteert.
 
-10. Klik op **OK** nadat u alle benodigde gegevens zijn ingevoerd.
+    ![Dialoogvenster Projectleden toevoegen/bewerken, functie -screenshot][img8]
 
-> [!TIP]
-> u kunt meerdere contactpersonen selecteren aan de rechterkant van het venster door **CTRL** of **SHIFT** ingedrukt te houden bij het selecteren. Wijzigingen die u doorvoert in het veld **Functie** en het tekstvak **Commentaar**, worden toegepast op alle geselecteerde personen.
+    Optioneel: Voeg een opmerking toe om de functie van het projectlid in meer detail te beschrijven.
+
+1. Klik op **OK**.
 
 ## <a id="from-section-tab"></a>Projectleden en belanghebbenden toevoegen vanaf sectietabbladen
 
-U kunt projectleden en aandeelhouders toevoegen vanuit de personenlijsten op verschillende sectietabbladen, zoals **Bedrijf** (**Personen**), **Selectie** (**Bedrijf/persoon**), **Verkoop** (**Aandeelhouders**) en **Project** (**Projectleden**). De onderstaande procedure kan dus ook worden uitgevoerd op het tabblad **Resultaat** in het [scherm Zoeken][3].
+U kunt projectleden en aandeelhouders toevoegen vanuit de personenlijsten op verschillende sectietabbladen, zoals **Bedrijf** (**Personen**), **Selectie** (**Bedrijf/persoon**), **Verkoop** (**Aandeelhouders**) en **Project** (**Projectleden**). De onderstaande procedure kan dus ook worden uitgevoerd op het tabblad **Resultaat** in het [scherm Zoeken][1].
 
 **Stappen:**
 
@@ -66,14 +65,32 @@ U kunt projectleden en aandeelhouders toevoegen vanuit de personenlijsten op ver
 
 4. Geef in het veld **Verkoop** of **Project** op aan welke verkoop/welk project de personen worden toegevoegd. U doet dit door te klikken op de pijl en de betreffende verkoop/het betreffende project te selecteren in de keuzelijst die wordt weergegeven of door de volledige naam van de verkoop/het project of het begin ervan te typen.
 
-5. Geef in het veld **Verkooprol** of **Functie** aan welke rol/functie iedere persoon heeft in de verkoop/het project. Als u op de pijl klikt, wordt een lijst met vooraf gedefinieerde keuzen weergegeven. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+5. Geef in het veld **Verkooprol** of **Functie** aan welke rol/functie iedere persoon heeft in de verkoop/het project. Als u op de pijl klikt, wordt een lijst met vooraf gedefinieerde keuzen weergegeven.
 
 6. Klik op **Opslaan**.
 
+## Probleemoplossing
+
+* **Ontbrekend persoon:** Als een persoon niet wordt vermeld, moet u eerst [de contactpersoon aanmaken][3].
+
+* **Ontbrekende functies:** Beschikbare [functies][5] worden gedefinieerd in Instellingen en Onderhoud.
+
+## Tips
+
+* **Voeg opmerkingen toe**
+
+    Als een opmerking is toegevoegd, verschijnt er een ![icoon][img1] paperclip naast de kolom **Projectlidgegevens** op het sectietabblad **Projectleden**. Beweeg de muis over de paperclip om de tooltip met de opmerking weer te geven.
+
 <!-- Referenced links -->
-[2]: ../../../contact/learn/create.md
-[3]: ../../../search-options/learn/find-screen.md
+[1]: ../../../search-options/learn/find-screen.md
+[3]: ../../../contact/learn/create.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
+[img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
+[img7]: ../../../../media/loc/en/project/add-project-member-from-company.png
+[img8]: ../../../../media/loc/en/project/set-project-member-function.png

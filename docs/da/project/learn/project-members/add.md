@@ -1,57 +1,56 @@
 ---
 uid: help-da-project-member-add
-title: Tilføj projektdeltager
+title: Tilføj projektdeltagere
 description: Sådan tilføjer du en projektdeltager i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt, deltager
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Tilføjelse af projektdeltagere
+# Tilføj projektdeltagere
 
-Hvis du ønsker at knytte projektet til et firma, skal du angive mindst én projektdeltager.
+For at knytte et projekt til en firma skal mindst én projektdeltager specificeres. Dette kan gøres på Projektskærmen eller [via detaljekorterne](#from-section-tab) for personer i Firma-, Udvalg- eller Salgsskærmene.
 
-## Projektdeltager
+Når du tilføjer deltagere til et projekt, kan du tildele funktioner individuelt, mens du tilføjer personer/firmaer, tildele funktioner efterfølgende, eller bruge en kombination af begge metoder.
 
-1. [!include[Go to project](../includes/goto-project.md)]
+## Trin
 
-2. Vælg detaljekortet **Projektdeltagere**.
+1. Åbn projektet (se [Brug skærmbilledet Søg][1]) og gå til detaljekortet **Projektdeltagere**.
 
-3. Klik på knappen **Tilføj** under detaljekortet. Dialogboksen **Tilføj projektdeltagere** åbnes.
+1. Klik på **Tilføj** under detaljekortet. Dialogen **Tilføj/rediger projektdeltagere** åbnes.
 
-    > [!NOTE]
-    > Du kan også [tilføje projektdeltagere via de detaljekort](#from-section-tab), som indeholder personer i skærmbillederne Firma, Udvalg og Salg.
+1. Klik på listen **Firma/person** for at tilføje deltagere. Du har flere muligheder:
 
-4. I feltet **Firma/person**:
-    * Sådan vælger du en person fra et firma: Klik på pilen, og vælg det ønskede firma på listen, der bliver vist, eller indtast firmaets navn. Som standard vises det firma, der er aktivt, i skærmbilledet Firma.
-    * Sådan vælger du en person direkte: Indtast personens navn (dette gælder både personer med og uden et tilknyttet firma), og klik på navnet i resultatlisten.
+    * **Søg**: Skriv mindst to tegn for at søge efter en person eller firma.
 
-5. I feltet **Projekt** skal du angive, hvilket projekt projektdeltageren eller projektdeltagerne skal føjes til, ved at klikke på pilen og vælge det ønskede projekt på listen.
+    * **Historik/Favoritter**: Vælg fra historiklisten eller favoritter.
 
-6. På listen over personer til venstre markerer du den eller de personer, du vil føje til projektet.
+      ![Tilføj/rediger projektdeltagere dialog, historik -screenshot][img5]
 
-    > [!NOTE]
-    > Hvis det ønskede navn ikke findes på listen, skal du først [oprette personen][2].
+    * **Brugergruppe**: Klik på ![ikon][img2] for at gennemse medarbejdere efter gruppe.
 
-7. Klik på pileknappen ![ikon][img2] til højre for listen. Personen/personerne vises derefter i højre side af vinduet.
+      ![Tilføj/rediger projektdeltagere dialog, gruppe -screenshot][img6]
 
-8. I feltet **Funktion** angiver du, hvilken funktion hver af personerne har i projektet. Hvis du klikker på pilen, åbnes en liste over de foruddefinerede valgmuligheder. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+    * **Firma**: Klik på ![ikon][img3] for at gennemse personer i en firma eller tilføje en firma som deltager.
 
-9. I den store tekstboks under **Kommentar** kan du tilføje en nærmere beskrivelse af personens funktion i projektet.
+      ![Tilføj/rediger projektdeltagere dialog, firma -screenshot][img7]
 
-    > [!NOTE]
-    > Hvis du indtaster noget i denne tekstboks, vises et ![ikon][img1] clips-symbol i kolonnen **Projektdeltagerinformation** på detaljekortet **Projektdeltagere**. Hvis du anbringer markøren over clipsen, vises de indtastede kommentarer i en infoboks.
+1. **Tildel funktioner**: Vælg en projektdeltager og tildel en funktion. For at tildele samme funktion til flere deltagere på én gang, brug **Mærk alle** eller hold **Ctrl/Shift** nede, mens du vælger.
 
-10. Når du har angivet de ønskede oplysninger, skal du klikke på **OK**.
+    ![Tilføj/rediger projektdeltagere dialog, funktion -screenshot][img8]
 
-> [!TIP]
-> Du kan markere flere personer i højre side af vinduet ved at holde tasten **CTRL** eller tasten **Shift** nede, mens du markerer dem. Det, du derefter angiver i feltet **Funktion** og tekstboksen **Kommentar**, vil gælde for alle de markerede personer.
+    Valgfrit: Tilføj en kommentar for at beskrive projektdeltagerens funktion i mere detalje.
+
+1. Klik på **OK**.
 
 ## <a id="from-section-tab"></a>Tilføj projektdeltagere og interessenter fra detaljekort
 
-Du kan tilføje projektdeltagere og interessenter fra personoversigterne på forskellige detaljekort, for eksempel **Firma** (**Personer**), **Udvalg** (**Firma/person**), **Salg** (**Interessenter**) og **Projekter** (**Projektdeltagere**). Nedenstående fremgangsmåde kan således også udføres fra fanen **Resultat** i skærmbilledet [Søg][3].
+Du kan tilføje projektdeltagere og interessenter fra personoversigterne på forskellige detaljekort, for eksempel **Firma** (**Personer**), **Udvalg** (**Firma/person**), **Salg** (**Interessenter**) og **Projekter** (**Projektdeltagere**). Nedenstående fremgangsmåde kan således også udføres fra fanen **Resultat** i skærmbilledet [Søg][1].
 
 **Trin:**
 
@@ -60,20 +59,38 @@ Du kan tilføje projektdeltagere og interessenter fra personoversigterne på for
 2. Vælg den ønskede person på listen.
 
     > [!NOTE]
-    > Hvis du vil tilføje flere kontakter som interessenter/projektdeltagere, skal du bruge **Shift** eller **Ctrl** + klik.
+    > Hvis du vil tilføje flere personer som interessenter/projektdeltagere, skal du bruge **Shift** eller **Ctrl** + klik.
 
 3. Højreklik på personerne, og vælg **Tilføj til salg** eller **Tilføj til projekt** i den menu, der vises.
 
 4. I feltet **Salg** eller **Projekt** angiver du, hvilket salg/projekt firmaet skal tilføjes til. Gør dette enten ved at klikke på pilen og vælge det nødvendige salg/projekt på den viste liste eller ved at skrive hele eller begyndelsen af salgs-/projektnavnet.
 
-5. I feltet **Salgsrolle** eller **Funktion** angiver du, hvilken salgsrolle/funktion hver af personerne har i salget/projektet. Hvis du klikker på pilen, åbnes en liste over de foruddefinerede valgmuligheder. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+5. I feltet **Salgsrolle** eller **Funktion** angiver du, hvilken salgsrolle/funktion hver af personerne har i salget/projektet. Hvis du klikker på pilen, åbnes en liste over de foruddefinerede valgmuligheder.
 
 6. Klik på **Gem**.
 
+## Fejlfinding
+
+* **Manglende person:** Hvis en person ikke er opført, skal du først [oprette personen][3].
+
+* **Manglende roller:** Tilgængelige [funktioner][5] defineres i Indstillinger og Vedligeholdelse.
+
+## Tips
+
+* **Tilføj kommentarer**
+
+    Hvis der er tilføjet en kommentar, vises der et ![ikon][img1] papirclip ved siden af kolonnen **Projektdeltagerinformation** i detaljekortet **Projektdeltagere**. Hold musen over clipsen for at se kommentartipset.
+
 <!-- Referenced links -->
-[2]: ../../../contact/learn/create.md
-[3]: ../../../search-options/learn/find-screen.md
+[1]: ../../../search-options/learn/find-screen.md
+[3]: ../../../contact/learn/create.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
+[img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
+[img7]: ../../../../media/loc/en/project/add-project-member-from-company.png
+[img8]: ../../../../media/loc/en/project/set-project-member-function.png

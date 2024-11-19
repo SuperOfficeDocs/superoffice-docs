@@ -22,8 +22,7 @@ language: nl
 
 1. Typ de gewenste naam voor het item in het veld **Naam**.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 2. Selecteer de gewenste categorie voor het verkooptype in de keuzelijst **Categorie verkooptype**.
 

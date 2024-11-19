@@ -1,67 +1,83 @@
 ---
 uid: help-sv-stakeholder-create
-title: Skapa en intressent
+title: Lägg till intressenter
 description: Hur man kopplar en försäljning till en intressent (företag eller kontakt) i SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: försäljning
-topic: howto
+keywords: försäljning, intressent
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Lägg till intressenter
 
-> [!NOTE]
-> Du kan även [lägga till intressenter via detaljkort][2] som innehåller kontakter i fönstren Företag och Urval.
+När du lägger till intressenter i en försäljning kan du antingen tilldela roller individuellt när du lägger till kontakter/företag, tilldela roller efter att alla intressenter har lagts till, eller använda en kombination av båda metoderna.
 
-## Koppla försäljningen till intressenter
+Ett företag/en kontakt kan läggas till som en intressent flera gånger, förutsatt att olika roller specificeras varje gång.
 
-1. Gå till önskad försäljning i fönstret Försäljning. (Se [Använd fönstret Sök][1].)
+## Steg
 
-2. Välj detaljkortet **Intressenter**.
+1. Öppna försäljningen (se [Använd fönstret Sök][1]) och gå till detaljkortet **Intressenter**.
 
-    > [!NOTE]
-    > Om detta detaljkort inte visas, måste det specificeras i Inställningar och underhåll att försäljningstypen har intressenter.
+1. Klicka på **Lägg till** under detaljkortet. Dialogrutan **Lägg till/redigera intressenter** öppnas.
 
-3. Klicka på **Lägg till**-knappen under detaljkortet. Dialogrutan **Lägg till intressenter** öppnas.
+1. Klicka på **Företag/Kontakt**-listan för att lägga till intressenter. Du har flera alternativ:
 
-    ![Dialogrutan lägg till intressenter -screenshot][img3]
+    * **Sök**: Skriv minst två tecken för att söka efter en kontakt eller ett företag.
 
-4. I fältet **Försäljning** visas som standard den aktiva försäljningen. Du kan eventuellt välja en annan försäljning som intressenten ska lägga till i. Detta gör du genom att klicka på pilen och välja en försäljning i listrutan som visas eller skriva in namnet på försäljningen direkt.
+    * **Historik/Favoriter**: Välj från historiklistan eller favoriter.
 
-5. I fältet **Företag/kontakt**:
+      ![Lägg till/redigera intressenter dialog, historik -screenshot][img5]
 
-    * Så här väljer du en kontakt från ett företag: Klicka på pilen och välj önskat företag i listan som visas, eller skriv namnet på företaget. Som standard visas det företag som är aktivt i fönstret Företag.
-    * Så här väljer du en kontakt direkt: Skriv namnet på kontakten (detta gäller för både kontakter med och utan koppling till ett företag) och klicka på namnet i resultatlistan.
+    * **Användargrupp**: Klicka ![ikon][img2] för att bläddra genom associerade personer efter grupp.
 
-6. För att lägga till företaget som intressent klickar du på den övre pilknappen (till höger om företaget). Företaget visas längst till höger i fönstret.
+      ![Lägg till/redigera intressenter dialog, grupp -screenshot][img6]
 
-7. För att lägga till kontakter som intressenter markerar du kontakten eller kontakterna och klickar på den nedre ![ikon][img2] pilknappen. Kontakterna visas då på höger sida av fönstret.
+    * **Företag**: Klicka ![ikon][img3] för att bläddra genom kontakter i ett företag eller lägga till ett företag som intressent.
 
-    > [!NOTE]
-    > Om namnet inte finns med i listan måste du först [skapa kontakten][3].
+      ![Lägg till/redigera intressenter dialog, företag -screenshot][img7]
 
-8. I fältet **Säljroll** anger du vilken roll vart och ett av företagen och/eller kontakterna har i försäljningen. Markera företaget och/eller kontakten och klicka på pilen. Då får du fram en lista över fördefinierade alternativ som du kan välja mellan. [!include[SM](../../../learn/includes/are-defined-sm.md)]
-    Ett företag/en kontakt kan läggas till som intressent flera gånger om det har angetts olika roller för posterna.
+1. **Tilldela roller**: Välj en intressent och tilldela en roll. För att tilldela samma roll till flera intressenter samtidigt, använd **Välj alla** eller håll **Ctrl/Shift** medan du väljer.
 
-9. I den stora textrutan under **Kommentar** kan du lägga in en utförligare beskrivning av företagets/kontaktens roll i försäljningen.
+    ![Lägg till/redigera intressenter dialog, roll -screenshot][img8]
 
-    > [!NOTE]
-    > Om du lägger in något i den här textrutan visas en gemsymbol ![ikon][img1] till höger om kolumnen **Säljroll** på detaljkortet **Intressenter**. Om du placerar muspekaren på gemsymbolen visas den registrerade kommentaren i en inforuta.
+    Valfritt: Lägg till en kommentar för att beskriva intressentens roll mer detaljerat.
 
-10. Upprepa steg 4–9 om du vill lägga till fler intressenter.
+1. Klicka på **Spara**.
 
-11. Efter att du har registrerat all information som behövs, klickar du på **Spara**.
+## Felsökning
 
-    > [!TIP]
-    > Du kan markera flera företag och/eller kontakter på fönstrets högra sida genom att hålla **CTRL**- eller **SHIFT**-tangenten nedtryckt medan du markerar dem. Det du sedan anger i fältet **Säljroll** och textrutan **Kommentar** kommer då att gälla för alla markerade företag/kontakter.
+* **Saknad detaljkortet**: Om detaljkortet **Intressenter** inte är synlig, se till att denna [försäljningstyp har intressenter][4] aktiverade i Inställningar och underhåll.
+
+* **Saknad person**: Om en intressent inte finns med i listan, måste du först [skapa kontakten][3].
+
+* **Saknade roller**: [Roller][5] definieras i Inställningar och underhåll.
+
+## Tips
+
+* **Lägg till intressenter via företag eller urval**
+
+    Du kan också [lägga till intressenter via detaljkort][2] som innehåller kontakter i fönstren Företag och Urval.
+
+* **Lägg till kommentarer**
+
+    Om en kommentar läggs till visas ett ![ikon][img1] gem bredvid **Säljroll**-kolumnen i **Intressenter**-detaljkortet. Håll muspekaren över gemet för att visa kommentarens tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
+[4]: ../../../admin/lists/learn/sale-type.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
+[img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
+[img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png
+[img8]: ../../../../media/loc/en/sale/set-stakeholder-role.png

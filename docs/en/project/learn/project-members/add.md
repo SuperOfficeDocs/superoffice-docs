@@ -1,57 +1,56 @@
 ---
 uid: help-en-project-member-add
-title: Add project member
+title: Add project members
 description: How to add a project member in SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: project, member
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Add project members
 
-To link the project to a company, you must specify at least one project member.
+To link a project to a company, at least one project member must be specified. You can do this on the Project screen or [via the section tabs](#from-section-tab) for contacts in the Company, Selection, or Sale screens.
 
-## Project members
+When adding members to a project, you can assign functions individually as you add contacts/companies, assign functions afterward, or use a combination of both methods.
 
-1. [!include[Go to project](../includes/goto-project.md)]
+## Steps
 
-2. Choose the **Project Members** section tab.
+1. Open the project (see [Use the Find screen][1]) and go to the **Project Members** section tab.
 
-3. Click the **Add** button below the section tab. The **Add project members** dialog opens.
+1. Click **Add** below the section tab. The **Add/edit project members** dialog opens.
 
-    > [!NOTE]
-    > You can also [add project members via the section tabs](#from-section-tab) containing contacts in the Company, Selection, and Sale screens.
+1. Click the **Company/Contact** list to add members. You have several options:
 
-4. In the **Company/contact** field:
-    * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the Company screen is shown.
-    * To select a contact directly: Type the name of the contact (this applies to both contacts with and without an associated company), and click the name in the results list.
+    * Search: Type at least two characters to search for a contact or company.
 
-5. In the **Project** field specify which project to add the project member(s) to by clicking the arrow and selecting the required project from the list.
+    * History/Favorites: Select from the history list or favorites.
 
-6. In the list of contacts on the left select the contact(s) you want to add to the project.
+      ![Add/edit project members dialog, history -screenshot][img5]
 
-    > [!NOTE]
-    > If the required name is not in the list, you must first [create the contact][2].
+    * User group: Click ![icon][img2] to browse associates by group.
 
-7. Click the ![icon][img2] arrow button to the right of the list. The contact(s) will then be displayed on the right of the dialog.
+      ![Add/edit project members dialog, group -screenshot][img6]
 
-8. In the **Function** field, specify the function each person has in the project. Click the arrow to display a list of predefined alternatives to choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+    * Company: Click ![icon][img3] to browse contacts by company or add a company as a member.
 
-9. In the large text box under **Comment**, enter a more detailed description of the person's function within the project, if required.
+      ![Add/edit project members dialog, company -screenshot][img7]
 
-    > [!NOTE]
-    > If you enter anything in this text box, a ![icon][img1] paperclip symbol is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+1. **Set functions**: Select a project member and assign a function. To assign the same function to multiple members at once, use **Select All** or hold Ctrl/Shift while selecting.
 
-10. After entering the required information, click **OK**.
+    ![Add/edit project members dialog, function -screenshot][img8]
 
-> [!TIP]
-> You can select multiple contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Function** field and **Comment** text box will apply to all the selected contacts.
+    Optionally, add a comment to describe the project member's function in more detail.
+
+1. Click **OK**.
 
 ## <a id="from-section-tab"></a>Add project members and stakeholders from section tabs
 
-You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][3].
+You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][1].
 
 **Steps:**
 
@@ -66,14 +65,32 @@ You can add project members and stakeholders from the contact lists in different
 
 4. In the **Sale** or **Project** field, specify which sale/project to add the contacts to. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
 
-5. In the **Sales role** or **Function** field, specify the sales role/function each person has in the sale/project. Click the arrow to display a list of predefined alternatives to choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+5. In the **Sales role** or **Function** field, specify the sales role/function each person has in the sale/project. Click the arrow to display a list of predefined alternatives to choose from.
 
 6. Click **Save**.
 
+## Troubleshooting
+
+* **Missing person:** If a person is not listed, [create the contact][3] first.
+
+* **Missing roles:** Available [functions][5] are defined in Settings and Maintenance.
+
+## Tips
+
+* **Add comments**
+
+    If a comment is added, a ![icon][img1] paperclip will appear next to the **Project member information** column in the **Project Members** tab. Hover over the paperclip to see the comment tooltip.
+
 <!-- Referenced links -->
-[2]: ../../../contact/learn/create.md
-[3]: ../../../search-options/learn/find-screen.md
+[1]: ../../../search-options/learn/find-screen.md
+[3]: ../../../contact/learn/create.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
+[img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
+[img7]: ../../../../media/loc/en/project/add-project-member-from-company.png
+[img8]: ../../../../media/loc/en/project/set-project-member-function.png

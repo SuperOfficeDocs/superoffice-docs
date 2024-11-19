@@ -1,47 +1,47 @@
 ---
 uid: help-no-sale-stakeholder-edit
-title: Redigere interessenter
+title: Redigere eller fjerne interessenter
 description: Slik redigerer eller fjerner du interessenter i et salg i SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: salg
-topic: howto
+keywords: salg, interessent
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Redigere eller fjerne interessenter
+# Rediger eller fjern interessenter
 
-Du kan redigere opplysningene i feltet **Salgsrolle** og **Kommentar** for interessentene.
+Du kan oppdatere **salgsrollen** og **kommentar**-feltene for interessenter, eller fjerne interessenter helt.
 
-## Oppdatere informasjon
+## Oppdater interessentinformasjon
 
-1. Gå til ønsket salg i Salg-bildet. (Se [Bruke Finn-bildet][1].)
+1. Åpne salget (se [Bruk søkeskjermen][1]) og gå til **Interessenter**-detaljkortet.
 
-1. Velg detaljkortet **Interessenter**.
+1. Velg én eller flere interessenter fra listen og klikk **Rediger** nederst i detaljkortet. Dette åpner dialogen **Legg til/rediger interessenter**.
 
-1. Velg én eller flere interessenter, og klikk på ![ikon][img1] **Rediger** nederst i detaljkortet.
+1. I dialogen **Legg til/rediger interessenter**, velg interessentene du vil redigere.
 
-1. I dialogboksen **Rediger interessenter** velger du interessentene du vil redigere.
+1. Gjør endringer:
 
-1. Gjør de ønskede endringene i **Salgsrolle**- og **Kommentar**-feltet.
+    * Oppdater **Salgsrollen** for de valgte interessentene.
+
+    * Rediger **Kommentar**-feltet for å legge til eller endre detaljer.
 
     > [!TIP]
-    > Du finner en beskrivelse av de ulike feltene under [Opprette interessenter][2].
-    >
-    > Du kan merke flere firmaer/personer ved å holde nede **CTRL**- eller **SKIFT**-tasten mens du merker dem. Endringer du deretter gjør i feltet **Salgsrolle** og tekstboksen **Kommentar**, vil gjelde for alle de merkede firmaene/personene.
+    > Du kan velge flere interessenter (hold Ctrl eller Shift). Endringer i **Salgsrollen** eller **Kommentar**-feltene vil gjelde for alle valgte interessenter.
 
-1. Klikk på **OK** for å lukke vinduet og lagre endringene.
+1. Klikk **OK** for å lagre endringene eller **Avbryt** for å forkaste dem.
 
-> [!NOTE]
-> Hvis du klikker på **Avbryt**, går du ut av redigeringsmodus uten å lagre endringene du har gjort.
+## Fjern interessent
 
-## Fjerne interessent
+1. Velg interessentene du vil fjerne fra listen i **Interessenter**-detaljkortet.
 
-Hvis du vil fjerne én eller flere interessenter fra salget, merker du dem og klikker på **Fjern**-knappen under detaljkortet. I dialogboksen som vises, klikker du på **Ja**.
+1. Klikk **Fjern**. I bekreftelsesdialogen som vises, klikk **Ja** for å bekrefte.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
-[2]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/edit.png
