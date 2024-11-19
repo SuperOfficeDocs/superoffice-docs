@@ -22,8 +22,7 @@ language: sv
 
 1. Skriv in namnet på posten i fältet **Namn**.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 2. Välj eventuellt önskad kategori för försäljningstypen i listrutan **Kategori för försäljningstyp**.
 

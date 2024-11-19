@@ -22,8 +22,7 @@ language: de
 
 1. Geben Sie den gewünschten Namen für das Objekt in das Feld **Name** ein.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 2. Wählen Sie im Listenfeld **Verkaufstypkategorie** die gewünschte Kategorie für den Verkaufstyp.
 
