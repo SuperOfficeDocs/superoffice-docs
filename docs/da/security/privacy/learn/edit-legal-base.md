@@ -1,11 +1,14 @@
 ---
 uid: help-da-edit-legal-base
 title: Rediger retsgrundlag
-description: "I denne vejledning lærer du om GDPR-funktionerne i SuperOffice Markedsføring, der hjælper dig med at sikre, at din markedsføringsindsats er i overensstemmelse med GDPR."
-author: SuperOffice RnD
-date: 02.21.2023
+description: I denne vejledning lærer du om GDPR-funktionerne i SuperOffice Markedsføring, der hjælper dig med at sikre, at din markedsføringsindsats er i overensstemmelse med GDPR.
 keywords: personbeskyttelse, samtykke, retsgrundlag
+author: SuperOffice RnD
+date: 10.08.2024
+version: 10.3.10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

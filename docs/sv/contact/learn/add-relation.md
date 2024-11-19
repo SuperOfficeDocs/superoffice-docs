@@ -2,36 +2,39 @@
 uid: help-sv-contact-add-relation
 title: Lägga till relationer (Kontakt-fönstret)
 description: Lägga till relationer (Kontakt-fönstret)
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: person, contact
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Lägga till relationer (Kontakt-fönstret)
 
-> [!NOTE]
-> En relation ska alltid bestå av två parter där den ena parten är aktiv och den andra är passiv. Exempel: Kontakt A äger företag B, medan företag B ägs av kontakt A.
+En relation måste alltid ha två parter: en aktiv och en passiv. Till exempel äger Kontakt A Företag B, medan Företag B ägs av Kontakt A.
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+**Relationstyper** definieras under Inställningar och underhåll.
+
+## Steg
+
+[!include[Gå till kontaktskärmen](../../learn/includes/goto-contact.md)]
 
 1. Välj detaljkortet **Relationer**.
 
-1. Klicka på **Lägg till**-knappen under detaljkortet.
+1. Klicka på **Lägg till**.
 
-1. Välj företag och kontakter under **Aktiv** respektive **Passiv** i dialogrutan **Relation**. Ange informationen antingen genom att klicka på pilen och välja ett företag eller en kontakt i listrutan som visas, genom att skriva in hela eller början på namnet.
+1. I dialogrutan **Relation** väljer du **Aktiv del** och **Passiv del**. Använd rullgardinsmenyn eller börja skriva för att söka efter ett företag eller en kontakt.
 
-1. I listrutan **Relation** anger du vilken relation som finns mellan den aktiva och den passiva parten, till exempel "ägare". [!include[SM](../../learn/includes/are-defined-sm.md)]
+1. Välj en relationstyp från **Relation**-listan, till exempel "ägare". De tillgängliga alternativen beror på om relationen är mellan ett företag och en kontakt eller mellan två kontakter.
 
-    > [!NOTE]
-    > Vilka alternativ som visas i den här listrutan beror också på om det är relation mellan ett företag och en kontakt eller mellan två kontakter.
+1. Valfritt: Ange extra information i **Beskrivning**-fältet.
 
-1. I fältet **Beskrivning** kan du skriva ytterligare information. Om du skriver något här visas en ![ikon][img1] gemsymbol på den aktuella raden på detaljkortet **Relationer**.
+1. **Resultat**-fältet uppdateras automatiskt baserat på vald relation.
 
-1. Fältet **Resultat** uppdateras automatiskt av informationen i fältet **Relation**. Exempel: Om du till exempel väljer "ägare" som relation, visas information om vem som äger vem, och vem som ägs av vem.
-
-1. När du har lagt in informationen stänger du dialogrutan och sparar informationen genom att klicka på **Spara**.
+1. Klicka på **Spara**.
 
 ## Relaterade ämnen
 
@@ -41,4 +44,3 @@ language: sv
 [3]: delete-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.png

@@ -1,21 +1,18 @@
 <!-- markdownlint-disable-file MD041 -->
 1. Klik på fanen **Links**.
 
-2. Klik på **Rediger** for at skifte til redigeringstilstand.
+1. Klik på **Rediger** for at aktivere redigering.
 
-3. Klik på **Tilføj**.
+1. Klik på **Tilføj**.
 
-4. Marker den linktype, du ønsker at tilføje, i dialogboksen **Tilføj link**. Indstillingerne er **URL**, **Projekt**, **Salg**, **Dokument** og**Opfølgning**.
+1. I dialogboksen **Tilføj link** skal du vælge, hvilken type link du vil tilføje. Mulighederne inkluderer: URL, Projekt, Salg, Dokument eller Opfølgning.
 
-5. Vælg det, du vil oprette et link til, i det næste felt. Brug [historiklisten][1], eller begynd at skrive for at søge. Navnet på dette felt ændres afhængigt af linktypen, du valgte ovenfor. Hvis du for eksempel valgte **URL** i feltet **Type**, skriver du **URL**-adressen på den side, du vil have vist.
+1. Vælg eller søg efter linkmålet: Afhængigt af den valgte linktype skal du vælge, hvad du vil linke til. Vælg en post fra listen eller begynd at skrive for at søge. Navnet på dette felt ændrer sig baseret på den valgte linktype. Hvis du f.eks. har valgt URL, skal du indtaste URL-adressen på den ønskede side.
 
-6. Angiv en kort beskrivelse af linket i feltet **Beskrivelse**. Hvis du har angivet en beskrivelse, anvendes denne som linktekst.
+1. Angiv en kort beskrivelse af linket i feltet **Beskrivelse**. Denne beskrivelse vil blive brugt som linktekst.
 
-7. Klik på **OK** for at gemme linket.
+1. Klik på **OK** for at tilføje linket.
 
-8. Klik på **Gem** på fanen **Links**.
+1. Til sidst skal du klikke på **Gem** i **Links**-fanen for at gemme alle ændringer.
 
-En prik på faneoverskriften **Links** betyder, at der er tilføjet et link for salget.
-
-<!-- Referenced links -->
-[1]: ../basics/history.md
+En prik på faneoverskriften **Links** betyder, at salget har et link.

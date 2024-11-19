@@ -1,11 +1,14 @@
 ---
 uid: help-sv-basics-delete
 title: Ta bort objekt
-description: "Så här slår du samman, tar bort och återställer objekt."
-author: SuperOffice RnD
-date: 03.07.2023
+description: Så här slår du samman, tar bort och återställer objekt.
 keywords: ta bort, återställ, papperskorg
+author: SuperOffice
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

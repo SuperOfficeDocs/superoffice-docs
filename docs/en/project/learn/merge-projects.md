@@ -2,10 +2,13 @@
 uid: help-en-project-merge
 title: Merge projects
 description: How to merge project in SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: project
+author: SuperOffice
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -17,16 +20,11 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**.
 
-3. In the **Merge projects** dialog under **To**, select the project you want to merge the existing project into. Start typing in the field to search for a project.
+3. In the **Merge projects** dialog under **To**, select the project you want to merge the existing project into. Start typing in the field to search for a project. To switch the **From** and **To** projects, click the arrow button.
 
     ![Merge projects dialog -screenshot][img2]
 
-    > [!TIP]
-    > To switch the **From** and **To** projects, click ![icon][img3].
-
-4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** to update empty fields in the target project with details from the source one.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+4. Select **Replace empty fields...** to update empty fields in the target project with details from the source.
 
 5. Click **Merge**. The following then happens:
     * The projects are merged.
@@ -50,5 +48,4 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/info-ball.png
 [img2]: ../../../media/loc/en/project/merge-project.png

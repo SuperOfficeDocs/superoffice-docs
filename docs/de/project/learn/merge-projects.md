@@ -2,10 +2,13 @@
 uid: help-de-project-merge
 title: Projekte zusammenführen
 description: Wie man ein Projekt in SuperOffice zusammenführt
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: Projekt
+author: SuperOffice
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -17,16 +20,11 @@ Wenn Sie über zwei nahezu identische Projekte verfügen, können Sie diese eins
 
 2. Klicken Sie auf das ![Symbol][img1] **Aufgabe** auf der Karte **Projekt** und wählen Sie **Projekte zusammenführen** aus.
 
-3. Wählen Sie im Dialogfeld **Projekt zusammenführen** unter **An** das Projekt aus, in dem Sie das vorhandene Projekt zusammenführen möchten. Beginnen Sie mit der Eingabe in das Feld, um nach einem Projekt zu suchen.
+3. Wählen Sie im Dialogfeld **Projekt zusammenführen** unter **An** das Projekt aus, in dem Sie das vorhandene Projekt zusammenführen möchten. Beginnen Sie mit der Eingabe in das Feld, um nach einem Projekt zu suchen. Um **Von** und **In** Projekte zu wechseln, müssen Sie auf die Pfeil-Schaltfläche klicken.
 
     ![Dialogfeld Projekte zusammenführen -screenshot][img2]
 
-    > [!TIP]
-    > Klicken Sie auf das ![Symbol][img3], um die Projekte **Von** und **Bis** zu tauschen.
-
-4. Wählen Sie die Option **Leere Felder in \[target project\] durch Daten aus \[source project\] ersetzen**, um leere Felder des Zielprojekts mit Daten des Quellprojekts zu aktualisieren.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+4. Wählen Sie die Option **Leere Felder ersetzen...**, um leere Felder des Zielprojekts mit Daten des Quellprojekts zu aktualisieren.
 
 5. Klicken Sie auf **Zusammenführen**. Daraufhin geschieht Folgendes:
     * Die Projekte werden zusammengeführt.
@@ -50,5 +48,4 @@ Wenn Sie über zwei nahezu identische Projekte verfügen, können Sie diese eins
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/info-ball.png
 [img2]: ../../../media/loc/en/project/merge-project.png

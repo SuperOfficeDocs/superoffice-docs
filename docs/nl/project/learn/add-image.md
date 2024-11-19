@@ -2,10 +2,13 @@
 uid: help-nl-project-image-add
 title: Een projectafbeelding toevoegen
 description: Zo voegt u een projectafbeelding toe
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: project
+author: SuperOffice RnD
+date: 10.08.2024
+version: 10.3.10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

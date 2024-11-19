@@ -2,10 +2,13 @@
 uid: help-da-company-copy
 title: Kopiering af firmaer
 description: Kopiering af firmaer
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: firma
+author: SuperOffice RnD
+date: 08.27.2024
+version: 10.3.8
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

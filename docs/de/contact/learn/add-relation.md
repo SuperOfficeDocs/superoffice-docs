@@ -2,36 +2,39 @@
 uid: help-de-contact-add-relation
 title: Beziehungen hinzufügen (Ansicht Person)
 description: Beziehungen hinzufügen (Ansicht Person)
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: Person, Beziehung
+author: SuperOffice RnD
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Beziehungen hinzufügen (Ansicht Person)
 
-> [!NOTE]
-> Eine Beziehung muss immer aus zwei Parteien bestehen, wovon eine aktiv und eine passiv ist. Ein Beispiel: Person A ist Eigentümer von Firma B, während Firma B Eigentum von Person A ist.
+Eine Beziehung muss immer zwei Parteien haben: eine aktive und eine passive. Zum Beispiel besitzt Person A Firma B, während Firma B von Person A besessen wird.
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+**Beziehungstypen** werden unter Einstellungen und Verwaltung definiert.
+
+## Schritte
+
+[!include[Gehen Sie zum Personschirm](../../learn/includes/goto-contact.md)]
 
 1. Wählen Sie die Bereichsregisterkarte **Beziehungen**.
 
-1. Klicken Sie unter der Bereichsregisterkarte auf die Schaltfläche **Hinzufügen**.
+1. Klicken Sie auf **Hinzufügen**.
 
 1. Wählen Sie im Dialogfeld **Beziehung** die gewünschten Firmen und Personen unter **Aktiv** und **Passiv** aus. Klicken Sie zu diesem Zweck entweder auf den Pfeil und wählen die gewünschte Firma oder Person im Listenfeld aus, oder geben Sie den vollständigen oder nur den Anfang des Namens ein.
 
-1. Geben Sie im Listenfeld **Beziehung** an, welche Beziehung zwischen Aktiv und Passiv besteht, wie zum Beispiel "ist Eigentümer von". [!include[SM](../../learn/includes/are-defined-sm.md)]
+1. Wählen Sie einen Beziehungstyp aus der **Beziehung**-Liste, z. B. "besitzt". Die verfügbaren Optionen hängen davon ab, ob die Beziehung zwischen einer Firma und einer Person oder zwischen zwei Personen besteht.
 
-    > [!NOTE]
-    > Welche Alternativen in diesem Listenfeld angezeigt werden, hängt auch davon ab, ob es sich um eine Beziehung zwischen einer Firma und einer Person oder zwischen zwei Personen handelt.
+1. Optional: Geben Sie zusätzliche Informationen in das **Beschreibung**-Feld ein.
 
-1. In das Feld **Beschreibung** können Sie formlos zusätzliche Informationen eingeben. Wenn Sie hier etwas eingeben, wird ein ![Symbol][img1] für Büroklammern in der entsprechenden Linie auf der Bereichsregisterkarte **Beziehungen** angezeigt.
+1. Das **Ergebnis**-Feld wird basierend auf der gewählten Beziehung automatisch aktualisiert.
 
-1. Das Feld **Ergebnis** wird automatisch mit den Änderungen im Feld **Beziehung** aktualisiert. Beispiel: Wenn Sie für eine Beziehung "ist Eigentümer von" eingeben, werden im Ergebnis die Besitzverhältnisse angezeigt.
-
-1. Nachdem Sie Informationen eingegeben haben, klicken Sie auf die Schaltfläche **Speichern**, um das Dialogfeld zu schließen und die eingegebenen Informationen zu speichern.
+1. Klicken Sie auf **Speichern**.
 
 ## Verwandte Themen
 
@@ -41,4 +44,3 @@ language: de
 [3]: delete-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.png

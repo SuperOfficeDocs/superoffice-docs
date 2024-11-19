@@ -1,21 +1,18 @@
 <!-- markdownlint-disable-file MD041 -->
 1. Klikk på fanen **Koblinger**.
 
-2. Klikk på **Rediger** for å bytte til redigeringsmodus.
+1. Klikk på **Rediger** for å aktivere redigeringsmodus.
 
-3. Klikk på **Legg til**.
+1. Klikk på **Legg til**.
 
-4. I dialogboksen **Legg til kobling** velger du koblingstypen du vil legge til. Alternativene er **URL**, **Prosjekt**, **Salg**, **Dokument** og **Oppfølging**.
+1. I dialogboksen **Legg til kobling**, velg typen lenke du vil legge til. Alternativene inkluderer: URL, Prosjekt, Salg, Dokument, eller Oppfølging.
 
-5. I det neste feltet velger du hva du vil opprette en kobling til. Bruk [historikklisten][1] eller begynn å skrive for å søke. Navnet på dette feltet endres, avhengig av koblingstypen du har valgt ovenfor. Hvis du for eksempel valgte **URL** i **Type**-feltet, skriver du inn **URL**-adressen til siden du vil vise.
+1. Velg eller søk etter lenkemål: Avhengig av valgt lenketype, velg hva du vil lenke til. Velg en post fra listen eller begynn å skrive for å søke. Navnet på dette feltet endres basert på lenketypen du valgte. For eksempel, hvis du valgte URL, må du skrive inn URL-adressen til ønsket side. siden du vil vise.
 
-6. Skriv inn en kort beskrivelse av koblingen i **Beskrivelse**-feltet. Hvis du skriver inn en beskrivelse, vil den bli brukt som koblingstekst.
+1. Skriv inn en kort beskrivelse av koblingen i **Beskrivelse**-feltet. Denne beskrivelsen vil bli brukt som lenketekst.
 
-7. Klikk på **OK** for å lagre koblingen.
+1. Klikk på **OK** for å legge til koblingen.
 
-8. Klikk på **Lagre** i fanen **Koblinger**.
+1. Til slutt, klikk på **Lagre** i fanen **Koblinger** for å lagre alle endringene.
 
-En prikk i toppteksten i fanen **Kobling** angir at salget har en kobling.
-
-<!-- Referenced links -->
-[1]: ../basics/history.md
+En prikk på fanen **Kobling** indikerer at salget har en kobling.

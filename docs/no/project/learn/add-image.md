@@ -2,10 +2,13 @@
 uid: help-no-project-image-add
 title: Legge til et prosjektbilde
 description: Slik legger du til et prosjektbilde
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: prosjekt
+author: SuperOffice RnD
+date: 10.08.2024
+version: 10.3.10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

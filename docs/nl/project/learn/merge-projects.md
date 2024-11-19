@@ -2,10 +2,13 @@
 uid: help-nl-project-merge
 title: Projecten samenvoegen
 description: Zo voegt u projecten samen in SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: project
+author: SuperOffice
+date: 10.29.2024
+version: 10.3.11
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -17,16 +20,11 @@ Als u twee vrijwel identieke projecten hebt, kunt u deze samenvoegen, inclusief 
 
 2. Klik op het ![pictogram][img1] **Taak** op de **Projectkaart** en selecteer **Projecten samenvoegen**.
 
-3. Selecteer in het dialoogvenster **Projecten samenvoegen** onder **Naar** het project dat u met het bestaande project wilt samenvoegen. Begin in het veld te typen om naar een project te zoeken.
+3. Selecteer in het dialoogvenster **Projecten samenvoegen** onder **Naar** het project dat u met het bestaande project wilt samenvoegen. Begin in het veld te typen om naar een project te zoeken. Als u de projecten bij **Van** en bij **Naar** wilt omkeren, klikt u op de pijl knop.
 
     ![Dialoogvenster projecten samenvoegen -screenshot][img2]
 
-    > [!TIP]
-    > Als u wilt wisselen tussen de **Van** en **Naar** projecten, klikt u op het ![pictogram][img3].
-
-4. Selecteer de **Lege velden vervangen in\[target project\] met gegevens uit \[source project\]** als u lege velden in het doelproject wilt bijwerken met gegevens uit het bronproject.
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+4. Selecteer de **Lege velden vervangen...** als u lege velden in het doelproject wilt bijwerken met gegevens uit het bronproject.
 
 5. Klik op **Samenvoegen**. Vervolgens gebeurt het volgende:
     * De projecten worden samengevoegd.
@@ -50,5 +48,4 @@ Als u twee vrijwel identieke projecten hebt, kunt u deze samenvoegen, inclusief 
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/info-ball.png
 [img2]: ../../../media/loc/en/project/merge-project.png

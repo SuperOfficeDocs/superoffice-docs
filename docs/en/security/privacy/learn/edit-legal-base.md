@@ -2,10 +2,13 @@
 uid: help-en-edit-legal-base
 title: Edit legal base
 description: In this how-to guide, you will learn about the GDPR features in SuperOffice Marketing that help you ensure that your marketing efforts are GDPR-compliant.
-author: SuperOffice RnD
-date: 08.28.2023
 keywords: privacy, consent, legal basis, GDPR
+author: SuperOffice RnD
+date: 10.08.2024
+version: 10.3.10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
