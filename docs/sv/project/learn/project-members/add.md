@@ -2,56 +2,55 @@
 uid: help-sv-project-member-add
 title: Lägg till projektmedlem
 description: Så lägger du till en projektdeltagare i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt, deltagare
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Lägga till projektdeltagare
 
-Om du vill att projektet ska kopplas till ett företag måste du registrera minst en projektdeltagare.
+För att länka ett projekt till ett företag måste minst en projektdeltagare specificeras. Detta kan göras på Projektskärmen eller [via detaljkorterna](#from-section-tab) för kontakter i Företag-, Urval- eller Försäljningsskärmarna.
 
-## Projektdeltagare
+När du lägger till deltagare i ett projekt kan du tilldela funktioner individuellt när du lägger till kontakter/företag, tilldela funktioner efteråt, eller använda en kombination av båda metoderna.
 
-1. [!include[Go to project](../includes/goto-project.md)]
+## Steg
 
-2. Välj detaljkortet **Projektdeltagare**.
+1. Öppna projektet (se [Använd sökskärmen][1]) och gå till detaljkortet **Projektdeltagare**.
 
-3. Klicka på **Lägg till**-knappen under detaljkortet. Dialogrutan **Lägg till projektdeltagare** visas.
+1. Klicka på **Lägg till** under detaljkortet. Dialogrutan **Lägg till/redigera projektdeltagare** öppnas.
 
-    > [!NOTE]
-    > Du kan också [lägga till projektdeltagare via detaljkortet](#from-section-tab) som innehåller kontakter i fönstren Företag, Urval och Försäljning.
+1. Klicka på listan **Företag/kontakt** för att lägga till deltagare. Du har flera alternativ:
 
-4. I fältet **Företag/kontakt**:
-    * Så här väljer du en kontakt från ett företag: Klicka på pilen och välj önskat företag i listan som visas, eller skriv namnet på företaget. Som standard visas det företag som är aktivt i fönstret Företag.
-    * Så här väljer du en kontakt direkt: Skriv namnet på kontakten (detta gäller för både kontakter med och utan koppling till ett företag) och klicka på namnet i resultatlistan.
+    * **Sök**: Skriv minst två tecken för att söka efter en kontakt eller ett företag.
 
-5. I fältet **Projekt** anger du vilket projekt du vill lägga till projektdeltagare i genom att klicka på pilen och välja önskat projekt i listan.
+    * **Historik/Favoriter**: Välj från historiklistan eller favoriter.
 
-6. I listan över kontakter till vänster markerar du den eller dem du vill lägga till i projektet.
+      ![Lägg till/redigera projektdeltagare dialog, historik -screenshot][img5]
 
-    > [!NOTE]
-    > Om namnet inte finns med i listan måste du först [skapa kontakten][2].
+    * **Användargrupp**: Klicka på ![ikon][img2] för att bläddra bland medarbetare efter grupp.
 
-7. Klicka på ![ikon][img2] pilknappen till höger om listan. Kontakterna visas då på höger sida av fönstret.
+      ![Lägg till/redigera projektdeltagare dialog, grupp -screenshot][img6]
 
-8. I fältet **Funktion** anger du vilken funktion varje kontakt har i projektet. Klicka på pilen om du vill se en lista över fördefinierade alternativ som du kan välja. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+    * **Företag**: Klicka på ![ikon][img3] för att bläddra bland kontakter i ett företag eller lägga till ett företag som deltagare.
 
-9. I den stora textrutan under **Kommentar** kan du skriva en utförligare beskrivning av personens funktion i projektet.
+      ![Lägg till/redigera projektdeltagare dialog, företag -screenshot][img7]
 
-    > [!NOTE]
-    > Om du anger något i den här textrutan, visas en ![ikon][img1] gemsymbol i kolumnen **Information om projektdeltagare** i detaljkortet **Projektdeltagare**. Om du placerar muspekaren på gemsymbolen visas den registrerade kommentaren i en inforuta.
+1. **Tilldela funktioner**: Välj en projektdeltagare och tilldela en funktion. För att tilldela samma funktion till flera deltagare samtidigt, använd **Markera alla** eller håll **Ctrl/Shift** nedtryckt medan du väljer.
 
-10. Efter att du har registrerat all information som behövs, klickar du på **OK**.
+    ![Lägg till/redigera projektdeltagare dialog, funktion -screenshot][img8]
 
-> [!TIP]
-> Du kan markera flera kontakter genom att på höger sida hålla ned **CTRL**- eller **SKIFT**-tangenten intryckt medan du markerar dem. Det du sedan anger i fältet **Funktion** och textrutan **Kommentar**, kommer då att gälla för alla de markerade kontakterna.
+    Valfritt: Lägg till en kommentar för att beskriva projektdeltagarens funktion i mer detalj.
+
+1. Klicka på **OK**.
 
 ## <a id="from-section-tab"></a>Lägga till projektdeltagare och intressenter från detaljkort
 
-Du kan lägga till projektdeltagare och intressenter från kontaktöversikterna på olika detaljkort, till exempel **Företag** (**Kontakter**), **Urval** (**Företag/Kontakt**), **Försäljning** (**Intressenter**) och **Projekt** (**Projektdeltagare**). Proceduren nedan kan med andra ord även utföras från fliken **Resultat** i fönstret [Sök][3].
+Du kan lägga till projektdeltagare och intressenter från kontaktöversikterna på olika detaljkort, till exempel **Företag** (**Kontakter**), **Urval** (**Företag/Kontakt**), **Försäljning** (**Intressenter**) och **Projekt** (**Projektdeltagare**). Proceduren nedan kan med andra ord även utföras från fliken **Resultat** i fönstret [Sök][1].
 
 **Steg:**
 
@@ -60,20 +59,38 @@ Du kan lägga till projektdeltagare och intressenter från kontaktöversikterna 
 2. Välj önskad kontakt från listan.
 
     > [!NOTE]
-    > För att lägga till flera kontakter som intressenter/projektmedlemmar, använder du **Shift** eller **Ctrl** + klick.
+    > För att lägga till flera kontakter som intressenter/projektdeltagare, använder du **Shift** eller **Ctrl** + klick.
 
 3. Högerklicka på kontakter och välj **Lägg till försäljning** eller **Lägg till projekt** i menyn som visas.
 
 4. I fältet **Försäljning** eller **Projekt** anger du vilken försäljning/vilket projekt som kontakterna ska läggas till i. Du gör detta antingen genom att klicka på pilen och välja en försäljning/ett projekt i listrutan som visas, genom att skriva in hela eller början på namnet på försäljningen/projektet.
 
-5. I fältet **Säljroll** eller **Funktion** anger du vilken säljroll/funktion varje person har i försäljningen/projektet. Klicka på pilen om du vill se en lista över fördefinierade alternativ som du kan välja. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+5. I fältet **Säljroll** eller **Funktion** anger du vilken säljroll/funktion varje person har i försäljningen/projektet. Klicka på pilen om du vill se en lista över fördefinierade alternativ som du kan välja.
 
 6. Klicka på **Spara**.
 
+## Felsökning
+
+* **Saknad person:** Om en person inte är listad, måste du först [skapa kontakten][3].
+
+* **Saknade roller:** Tillgängliga [funktioner][5] definieras i Inställningar och underhåll.
+
+## Tips
+
+* **Lägg till kommentarer**
+
+    Om en kommentar har lagts till, visas ett ![ikon][img1] gem bredvid kolumnen **Information om projektdeltagare** i detaljkortet **Projektdeltagare**. Håll muspekaren över gemet för att se kommentartipset.
+
 <!-- Referenced links -->
-[2]: ../../../contact/learn/create.md
-[3]: ../../../search-options/learn/find-screen.md
+[1]: ../../../search-options/learn/find-screen.md
+[3]: ../../../contact/learn/create.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
+[img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
+[img7]: ../../../../media/loc/en/project/add-project-member-from-company.png
+[img8]: ../../../../media/loc/en/project/set-project-member-function.png

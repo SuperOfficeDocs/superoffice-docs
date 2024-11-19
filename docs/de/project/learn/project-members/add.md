@@ -2,56 +2,55 @@
 uid: help-de-project-member-add
 title: Projektmitglied hinzufügen
 description: Wie man ein Projektmitglied in SuperOffice hinzufügt
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: Projekt, Mitglied
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Projektmitglieder hinzufügen
 
-Wenn Sie das Projekt mit einer Firma verknüpfen möchten, müssen Sie zumindest ein Projektmitglied festlegen.
+Um ein Projekt mit einer Firma zu verknüpfen, muss mindestens ein Projektmitglied angegeben werden. Dies kann auf dem Projektbildschirm oder [über die Bereichsregisterkarten](#from-section-tab) für Persone im Firmen-, Selection- oder Verkaufsbildschirm erfolgen.
 
-## Projektmitglieder
+Beim Hinzufügen von Mitgliedern zu einem Projekt können Sie Funktionen individuell zuweisen, während Sie Persone/Firmen hinzufügen, die Funktionen nachträglich zuweisen oder eine Kombination aus beiden Methoden verwenden.
 
-1. [!include[Go to project](../includes/goto-project.md)]
+## Schritte
 
-2. Wählen Sie die Bereichsregisterkarte **Projektmitglieder**.
+1. Öffnen Sie das Projekt (siehe [Suchansicht verwenden][1]) und gehen Sie zur Bereichsregisterkarte **Projektmitglieder**.
 
-3. Klicken Sie unter der Bereichsregisterkarte auf die Schaltfläche **Hinzufügen**. Das Dialogfeld **Projektmitglieder hinzufügen** wird geöffnet.
+1. Klicken Sie auf **Hinzufügen** unter der Bereichsregisterkarte. Der Dialog **Projektmitglieder hinzufügen/bearbeiten** öffnet sich.
 
-    > [!NOTE]
-    > Sie können [Projektmitglieder auch in den Registerkarten Bereich hinzufügen](#from-section-tab), die Personen in den Ansichten Firma, Selektion und Verkauf enthalten.
+1. Klicken Sie auf die Liste **Firma/Person**, um Mitglieder hinzuzufügen. Sie haben folgende Möglichkeiten:
 
-4. Im Feld **Firma/Person**:
-    * So wählen Sie eine Person aus einer Firma aus: Klicken Sie auf den Pfeil und wählen Sie in der Liste, die daraufhin angezeigt wird, die gewünschte Firma aus oder geben Sie den Namen der Firma ein. Standardmäßig wird die aktive Firma in der Ansicht Firma angezeigt.
-    * So wählen Sie eine Person direkt aus: Geben Sie, unabhängig davon, ob die Person einer Firma zugeordnet ist, den Namen der Person ein und klicken Sie in der Liste der Ergebnisse auf den gewünschten Namen.
+    * **Suchen**: Geben Sie mindestens zwei Zeichen ein, um nach einem Person oder einer Firma zu suchen.
 
-5. Geben Sie im Feld **Projekt** an, zu welchem Projekt das/die Projektmitglied(er) hinzugefügt werden sollen, indem Sie auf den Pfeil klicken und das gewünschte Projekt aus der Liste auswählen.
+    * **Verlauf/Favoriten**: Wählen Sie aus der Verlaufsliste oder Favoriten.
 
-6. Wählen Sie aus der Liste mit Personen auf der linken Seite die Personen aus, die Sie dem Projekt hinzufügen möchten.
+      ![Dialog Projektmitglieder hinzufügen/bearbeiten, Verlauf -screenshot][img5]
 
-    > [!NOTE]
-    > Wenn der gewünschte Name nicht in der Liste enthalten ist, müssen Sie zuerst die [Person erstellen][2].
+    * **Benutzergruppe**: Klicken Sie auf ![Symbol][img2], um Mitarbeiter nach Gruppe zu durchsuchen.
 
-7. Klicken Sie auf das ![Symbol][img2] der Pfeilschaltfläche rechts neben der Liste. Die Personen werden daraufhin auf der rechten Seite des Dialogfelds angezeigt.
+      ![Dialog Projektmitglieder hinzufügen/bearbeiten, Gruppe -screenshot][img6]
 
-8. Definieren Sie im Feld **Funktion** die Funktion der einzelnen Personen innerhalb des Projekts. Wenn Sie auf den Pfeil klicken, wird eine Liste mit vordefinierten Optionen zur Auswahl angezeigt. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+    * **Firma**: Klicken Sie auf ![Symbol][img3], um Persone innerhalb einer Firma zu durchsuchen oder eine Firma als Mitglied hinzuzufügen.
 
-9. Im großen Textfeld unter **Kommentar** können Sie eine detailliertere Beschreibung der Funktion dieser Person innerhalb des Projekts eingeben.
+      ![Dialog Projektmitglieder hinzufügen/bearbeiten, Firma -screenshot][img7]
 
-    > [!NOTE]
-    > Wenn Sie in dieses Feld einen Text eingeben, wird in der Spalte **Information zum Projektmitglied** auf der Bereichsregisterkarte **Projektmitglieder** ein ![Symbol][img1] Büroklammer angezeigt. Platzieren Sie den Mauszeiger auf der Büroklammer, um die gespeicherten Informationen in einer QuickInfo anzuzeigen.
+1. **Funktionen zuweisen**: Wählen Sie ein Projektmitglied aus und weisen Sie eine Funktion zu. Um dieselbe Funktion mehreren Mitgliedern gleichzeitig zuzuweisen, verwenden Sie **Alle auswählen** oder halten Sie **Strg/Shift** gedrückt, während Sie auswählen.
 
-10. Klicken Sie auf **OK**, nachdem Sie die gewünschte Information eingegeben haben.
+    ![Dialog Projektmitglieder hinzufügen/bearbeiten, Funktion -screenshot][img8]
 
-> [!TIP]
-> Sie können rechts neben dem Fenster mehrere Personen gleichzeitig auswählen, indem Sie die **STRG**-Taste oder die **UMSCHALTTASTE** während der Auswahl gedrückt halten. Änderungen, die Sie im Feld **Funktion** und im Textfeld **Kommentar** vornehmen, gelten für alle ausgewählten Personen.
+    Optional: Fügen Sie einen Kommentar hinzu, um die Funktion des Projektmitglieds genauer zu beschreiben.
+
+1. Klicken Sie auf **OK**.
 
 ## <a id="from-section-tab"></a>Projektmitglieder und Beteiligte von Bereichsregisterkarten hinzufügen
 
-Sie können Projektmitglieder und Beteiligte aus den Personenlisten der verschiedenen Bereichsregisterkarten hinzufügen, z. B. **Firma** (**Personen**), **Selektion** (**Firma/Person**), **Verkauf** (**Beteiligte**) und **Projekt** (**Projektmitglieder**). So kann das folgende Verfahren auch über die Registerkarte **Ergebnis** in der [Ansicht Suchen][3] durchgeführt werden.
+Sie können Projektmitglieder und Beteiligte aus den Personenlisten der verschiedenen Bereichsregisterkarten hinzufügen, z. B. **Firma** (**Personen**), **Selektion** (**Firma/Person**), **Verkauf** (**Beteiligte**) und **Projekt** (**Projektmitglieder**). So kann das folgende Verfahren auch über die Registerkarte **Ergebnis** in der [Ansicht Suchen][1] durchgeführt werden.
 
 **Schritte:**
 
@@ -66,14 +65,32 @@ Sie können Projektmitglieder und Beteiligte aus den Personenlisten der verschie
 
 4. Legen Sie im Feld **Verkauf** oder **Projekt** fest, zu welchem Verkauf/Projekt die Personen hinzugefügt wird. Klicken Sie hierzu entweder auf den Pfeil und wählen Sie den gewünschten Verkauf/das gewünschte Projekt im angezeigten Listenfeld aus, oder geben Sie den gesamten oder nur den Anfang des Verkaufs-/Projektnamens ein.
 
-5. Definieren Sie im Feld **Verkaufsrolle** oder **Funktion** die Verkaufsrolle/Funktion der einzelnen Personen innerhalb des Verkaufs/Projekts. Wenn Sie auf den Pfeil klicken, wird eine Liste mit vordefinierten Optionen zur Auswahl angezeigt. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+5. Definieren Sie im Feld **Verkaufsrolle** oder **Funktion** die Verkaufsrolle/Funktion der einzelnen Personen innerhalb des Verkaufs/Projekts. Wenn Sie auf den Pfeil klicken, wird eine Liste mit vordefinierten Optionen zur Auswahl angezeigt.
 
 6. Klicken Sie auf **Speichern**.
 
+## Fehlerbehebung
+
+* **Fehlende Person:** Wenn eine Person nicht aufgelistet ist, müssen Sie zuerst [den Person erstellen][3].
+
+* **Fehlende Funktionen:** Verfügbare [Funktionen][5] werden in Einstellungen und Verwaltung definiert.
+
+## Tipps
+
+* **Kommentare hinzufügen**
+
+    Wenn ein Kommentar hinzugefügt wurde, erscheint ein ![Symbol][img1] Büroklammer-Symbol neben der Spalte **Information zum Projektmitglied** auf der Bereichsregisterkarte **Projektmitglieder**. Bewegen Sie den Mauszeiger über die Büroklammer, um den Kommentar-Tooltip anzuzeigen.
+
 <!-- Referenced links -->
-[2]: ../../../contact/learn/create.md
-[3]: ../../../search-options/learn/find-screen.md
+[1]: ../../../search-options/learn/find-screen.md
+[3]: ../../../contact/learn/create.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
+[img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
+[img7]: ../../../../media/loc/en/project/add-project-member-from-company.png
+[img8]: ../../../../media/loc/en/project/set-project-member-function.png

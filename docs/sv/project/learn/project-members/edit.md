@@ -1,36 +1,46 @@
 ---
 uid: help-sv-project-member-edit
-title: Redigera projektdeltagare
+title: Redigera eller ta bort projektdeltagare
 description: Så redigerar eller tar du bort projektdeltagare i SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt, deltagare
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Redigera eller ta bort projektdeltagare
 
-## Redigera en projektdeltagare
+Du kan uppdatera fälten **Funktion** och **Kommentar** för projektdeltagare eller ta bort flera deltagare samtidigt.
 
-Du kan redigera informationen i fälten **Funktion** och **Kommentar** för projektdeltagare.
+## Redigera projektdeltagarinformation
 
-1. [!include[Go to project](../includes/goto-project.md)]
-2. Välj detaljkortet **Projektdeltagare**.
-3. Dubbelklicka på en projektdeltagare.
-4. Gör önskade ändringar i fälten **Funktion** och **Kommentarer** i dialogrutan **Projektdeltagare**. En beskrivning av de olika fälten finns under [Lägga till/skapa projektdeltagare][1].
-5. Klicka på **Spara**.
+1. Öppna projektet (se [Använd sökskärmen][1]) och gå till detaljkortet **Projektdeltagare**.
 
-> [!TIP]
-> Du kan redigera flera kontakter genom att klicka på **Lägg till** under **Projektdeltagare**. Markera och flytta projektdeltagarna från det vänstra fältet till det högra. Håll sedan **CTRL** eller **SKIFT** nedtryckt för att välja projektdeltagare i det högra fältet. Ändringar du sedan gör i fältet **Funktion** och textrutan **Kommentar** kommer då att gälla för alla de markerade projektdeltagarna.
+1. Välj en eller flera projektdeltagare från listan, högerklicka och välj **Redigera**. Detta öppnar dialogen **Lägg till/redigera projektdeltagare**.
+
+1. I dialogen **Lägg till/redigera projektdeltagare**, gör de nödvändiga ändringarna:
+
+   * **Funktion**: Uppdatera funktionen för de valda projektdeltagarena.
+   * **Kommentar**: Redigera kommentarerna för att ge ytterligare detaljer om deltagarenas funktion i projektet.
+
+   > [!TIP]
+   > Du kan välja flera projektdeltagare (håll **Ctrl** eller **Shift**). Alla ändringar som görs i fälten **Funktion** eller **Kommentar** kommer att gälla för alla valda deltagare.
+
+1. Klicka på **OK** för att spara dina ändringar eller **Avbryt** för att kassera dem.
 
 ## Ta bort projektdeltagare
 
-1. Markera en eller flera projektdeltagare på detaljkortet **Projektdeltagare**.
-2. Klicka på **Ta bort**-knappen på detaljkortet.
-3. I dialogrutan som visas klickar du på **Ja**.
+1. Välj de projektdeltagare du vill ta bort från listan i detaljkorten **Projektdeltagare**.
+
+1. Klicka på **Ta bort** längst ner på detaljkorten.
+
+1. I bekräftelsedialogrutan som visas, klicka på **Ja** för att bekräfta borttagningen.
 
 <!-- Referenced links -->
-[1]: add.md
+[1]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->

@@ -1,36 +1,46 @@
 ---
 uid: help-de-project-member-edit
-title: Projektmitglieder bearbeiten
+title: Projektmitglieder bearbeiten oder entfernen
 description: Wie man ein Projektmitglied in SuperOffice bearbeitet oder löscht.
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: Projekt, Mitglied
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Projektmitglieder bearbeiten oder löschen
+# Projektmitglieder bearbeiten oder entfernen
 
-## Ein Projektmitglied bearbeiten
+Sie können die Felder **Funktion** und **Kommentare** für Projektmitglieder aktualisieren oder mehrere Mitglieder gleichzeitig entfernen.
 
-Sie können die Details zu einem Projektmitglied in den Feldern **Funktion** und **Kommentare** bearbeiten.
+## Projektmitglied-Informationen bearbeiten
 
-1. [!include[Go to project](../includes/goto-project.md)]
-2. Wählen Sie die Bereichsregisterkarte **Projektmitglieder**.
-3. Doppelklicken Sie auf ein Projektmitglied.
-4. Nehmen Sie im Dialogfeld **Projektmitglied** die gewünschten Änderungen in den Feldern **Funktion** und **Kommentare** vor. Eine Beschreibung der verschiedenen Felder finden Sie unter [Projektmitglieder erstellen/hinzufügen][1].
-5. Klicken Sie auf **Speichern**.
+1. Öffnen Sie das Projekt (siehe [Suchansicht verwenden][1]) und gehen Sie zur Bereichsregisterkarte **Projektmitglieder**.
 
-> [!TIP]
-> Sie können mehrere Personen bearbeiten, indem Sie auf **Hinzufügen** in **Projektmitglieder** klicken. Wählen Sie die Mitglieder und verschieben Sie sie vom linken zum rechten Feld. Dann halten Sie **STRG** oder **UMSCHALT** gedrückt, um die Mitglieder im rechten Feld auszuwählen. Änderungen, die Sie im Feld **Funktion** und im Textfeld **Kommentare** vornehmen, gelten für alle ausgewählten Mitglieder.
+1. Wählen Sie einen oder mehrere Projektteilnehmer aus der Liste, klicken Sie mit der rechten Maustaste und wählen Sie **Bearbeiten**. Dadurch wird der Dialog **Projektmitglieder hinzufügen/bearbeiten** geöffnet.
 
-## Projektmitglieder löschen
+1. Im Dialog **Projektmitglieder hinzufügen/bearbeiten** nehmen Sie die erforderlichen Änderungen vor:
 
-1. Wählen Sie auf der Bereichsregisterkarte **Projektmitglieder** ein oder mehrere Projektmitglieder aus.
-2. Klicken Sie unter der Bereichsregisterkarte auf **Löschen**.
-3. Klicken Sie im daraufhin angezeigten Dialogfeld auf **Ja**.
+   * **Funktion**: Aktualisieren Sie die Funktion für die ausgewählten Projektmitglieder.
+   * **Kommentare**: Bearbeiten Sie die Kommentare, um zusätzliche Details über die Funktion der Mitglieder im Projekt hinzuzufügen.
+
+   > [!TIP]
+   > Sie können mehrere Projektmitglieder auswählen (halten Sie **Strg** oder **Shift**). Alle Änderungen in den Feldern **Funktion** oder **Kommentare** gelten für alle ausgewählten Mitglieder.
+
+1. Klicken Sie auf **OK**, um Ihre Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
+
+## Projektmitglieder entfernen
+
+1. Wählen Sie die Projektmitglieder aus, die Sie aus der Liste in der Bereichsregisterkarte **Projektmitglieder** entfernen möchten.
+
+1. Klicken Sie unten auf der Bereichsregisterkarte auf **Entfernen**.
+
+1. Klicken Sie im angezeigten Bestätigungsdialog auf **Ja**, um die Entfernung zu bestätigen.
 
 <!-- Referenced links -->
-[1]: add.md
+[1]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->

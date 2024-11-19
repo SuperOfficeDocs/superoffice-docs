@@ -6,7 +6,7 @@ keywords: sale, stakeholder
 author: Bergfrid Dias
 date: 11.19.2024
 version: 10.3.12
-topic: concept
+topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -40,7 +40,7 @@ A company/contact can be added as a stakeholder multiple times, provided differe
 
       ![Add/edit stakeholders dialog, company -screenshot][img7]
 
-1. **Set roles**: Select a stakeholder and assign a role. To assign the same role to multiple stakeholders at once, use Select All or hold Ctrl/Shift while selecting.
+1. **Set roles**: Select a stakeholder and assign a role. To assign the same role to multiple stakeholders at once, use **Select All** or hold Ctrl/Shift while selecting.
 
     ![Add/edit stakeholders dialog, role -screenshot][img8]
 
