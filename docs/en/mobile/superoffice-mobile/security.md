@@ -15,7 +15,7 @@ This article describes the security and requirements in SuperOffice CRM Online f
 
 ## Client-side security
 
-SuperOffice Mobile CRM is written in C# using Xamarin and is available for iOS and Android.
+SuperOffice Mobile CRM is written in C# using .NET MAUI and is available for iOS and Android.
 
 Mobile CRM client application is signed using various certificates from various vendors (Apple iOS Developer Certificate, Google Android Developer Certificate). A signed client application provides the end-user with a trust that the application is not altered in any way. It also provides a mechanism for giving trusted access to various features and APIs on the phone.
 
@@ -47,7 +47,7 @@ It accesses the CRM Online tenants NetServer Web API (endpoint), which is based 
 
 The Mobile CRM also has:
 
-* 2-way communication to SuperOffice Central Services (Microsoft Azure) for mobile services (currently only for "business card scanner")
+* 2-way communication to SuperOffice Central Services (Microsoft Azure) for mobile services (currently used for business card scanner and push notifications functionality)
 
 * 1-way communication to Microsoft App Center: crash logs and diagnostics data (Mobile CRM -> MS App Center)
 
