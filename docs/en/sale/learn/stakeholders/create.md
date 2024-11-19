@@ -1,67 +1,83 @@
 ---
 uid: help-en-stakeholder-create
-title: Create a stakeholder
+title: Add stakeholders
 description: How to link a sale to a stakeholder (company or contact) in SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: sale
-topic: howto
+keywords: sale, stakeholder
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Add stakeholders
 
-> [!NOTE]
-> You can also [add stakeholders via the section tabs][2] containing contacts in the Company and Selection screens.
+When adding stakeholders to a sale, you can either assign roles individually as you add contacts/companies, assign roles after adding all stakeholders, or use a combination of both methods.
 
-## Link the sale to stakeholders
+A company/contact can be added as a stakeholder multiple times, provided different roles are specified each time.
 
-1. Go to the required sale in the Sale screen. (See [Use the Find screen][1].)
+## Steps
 
-2. Select the **Stakeholders** section tab.
+1. Open the sale (see [Use the Find screen][1]) and go to the **Stakeholders** section tab.
 
-    > [!NOTE]
-    > If this section tab is not displayed, it must be specified in Settings and maintenance that this sales type has stakeholders.
+1. Click **Add** below the section tab. The **Add/edit stakeholders** dialog opens.
 
-3. Click the **Add** button below the section tab. The **Add stakeholders** dialog opens.
+1. Click the **Company/Contact** list to add stakeholders. You have several options:
 
-    ![Add stakeholders dialog -screenshot][img3]
+    * Search: Type at least two characters to search for a contact or company.
 
-4. The active sale is displayed by default in the **Sale** field. You can select a different sale to add the stakeholders to, if you want. You do this by clicking the arrow and selecting the required sale in the list box that appears, or by simply entering the name of the sale.
+    * History/Favorites: Select from the history list or favorites.
 
-5. In the **Company/contact** field:
+      ![Add/edit stakeholders dialog, history -screenshot][img5]
 
-    * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the Company screen is shown.
-    * To select a contact directly: Type the name of the contact (this applies to both contacts with and without an associated company), and click the name in the results list.
+    * User group: Click ![icon][img2] to browse associates by group.
 
-6. To add the company as a stakeholder, click the upper arrow button (to the right of the company). The company appears on the rightmost side of the window.
+      ![Add/edit stakeholders dialog, group -screenshot][img6]
 
-7. To add contacts as stakeholders, select the contact(s) and click the lower ![icon][img2] arrow button. The contact(s) will then be displayed on the right of the dialog.
+    * Company: Click ![icon][img3] to browse contacts by company or add a company as a stakeholder.
 
-    > [!NOTE]
-    > If the required name is not in the list, you must first [create the contact][3].
+      ![Add/edit stakeholders dialog, company -screenshot][img7]
 
-8. In the **Sales role** field, specify the role each of the companies and/or contacts has in the sale. Select the company and/or contact and click the arrow. This brings up a list of predefined alternatives to choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)]
-    A company/contact can be added as a stakeholder multiple times if different roles are specified in each case.
+1. **Set roles**: Select a stakeholder and assign a role. To assign the same role to multiple stakeholders at once, use Select All or hold Ctrl/Shift while selecting.
 
-9. In the large text box under **Comments**, enter a more detailed description of the company's or contact's function within the sale, if required.
+    ![Add/edit stakeholders dialog, role -screenshot][img8]
 
-    > [!NOTE]
-    > If you enter anything in this text box, a ![icon][img1] paperclip symbol is displayed to the right of the **Sales role** column in the **Stakeholders** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    Optionally, add a comment to describe the stakeholder's role in more detail.
 
-10. Repeat steps 4-9 for each stakeholder you want to add.
+1. Click **Save**.
 
-11. After entering the required information, click **Save**.
+## Troubleshooting
 
-    > [!TIP]
-    > You can select multiple companies and/or contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Sales role** field and **Comments** text box will apply to all the selected companies/contacts.
+* **Missing section tab:** If the Stakeholders tab is not visible, ensure that this [sales type has stakeholders][4] enabled in Settings and Maintenance.
+
+* **Missing person:** If a stakeholder is not listed, you must [create the contact][3] first.
+
+* **Missing roles:** [Roles][5] are defined in Settings and Maintenance.
+
+## Tips
+
+* **Add Stakeholders via Company or Selection Screens**
+
+    You can also [add stakeholders via the section tabs][2] containing contacts in the Company and Selection screens.
+
+* **Add comments**
+
+    If a comment is added, a ![icon][img1] paperclip will appear next to the **Sales Role** column in the **Stakeholders** tab. Hover over the paperclip to see the comment tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
+[4]: ../../../admin/lists/learn/sale-type.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
+[img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
+[img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png
+[img8]: ../../../../media/loc/en/sale/set-stakeholder-role.png

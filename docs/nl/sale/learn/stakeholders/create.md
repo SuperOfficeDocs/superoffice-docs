@@ -2,66 +2,82 @@
 uid: help-nl-stakeholder-create
 title: Een belanghebbende maken
 description: Het koppelen in SuperOffice van een verkoop aan een belanghebbende (bedrijf of persoon).
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: verkoop
-topic: howto
+keywords: verkoop, belanghebbend, aandeelhouder, stakeholder
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Belanghebbenden toevoegen
 
-> [!NOTE]
-> U kunt ook [belanghebbenden toevoegen via de sectietabbladen][2] met personen in de schermen Bedrijf en Selectie.
+Bij het toevoegen van belanghebbenden aan een verkoop kunt u rollen individueel toewijzen terwijl u personen/bedrijven toevoegt, rollen toewijzen nadat alle belanghebbenden zijn toegevoegd, of een combinatie van beide methoden gebruiken.
 
-## De verkoop aan de aandeelhouders koppelen
+Een bedrijf/contactpersoon kan meerdere keren als belanghebbende worden toegevoegd, mits er telkens verschillende rollen worden toegewezen.
 
-1. Ga naar de gewenste verkoop in het scherm Verkoop. (Zie [Het scherm Zoeken gebruiken][1].)
+## Stappen
 
-2. Selecteer het sectietabblad **Aandeelhouders**.
+1. Open de verkoop (zie [Gebruik het Zoekenscherm][1]) en ga naar het sectietabblad **Belanghebbenden**.
 
-    > [!NOTE]
-    > Wanneer het sectietabblad niet wordt weergegeven, moet in Instellingen en onderhoud worden aangegeven dat dit verkooptype aandeelhouders heeft.
+1. Klik op **Toevoegen** onder het sectietabblad. De **Belanghebbenden toevoegen/bewerken**-dialoog wordt geopend.
 
-3. Klik op de knop **Toevoegen** onder het sectietabblad. Het dialoogvenster **Aandeelhouders toevoegen** wordt geopend.
+1. Klik op de lijst **Bedrijf/persoon** om belanghebbenden toe te voegen. U heeft verschillende opties:
 
-    ![Dialoogvenster belanghebbenden toevoegen -screenshot][img3]
+    * **Zoeken**: Typ ten minste twee tekens om te zoeken naar een persoon of bedrijf.
 
-4. De actieve verkoop wordt standaard weergegeven in het veld **Verkoop**. U kunt desgewenst een andere verkoop selecteren om de belanghebbende(n) aan toe te voegen. U doet dit door te klikken op de pijl en de gewenste verkoop te selecteren in de keuzelijst die wordt weergegeven, of door de naam van de verkoop in te voeren.
+    * **Geschiedenis/Favorieten**: Selecteer uit de geschiedenislijst of favorieten.
 
-5. In het veld **Bedrijf/persoon**:
+      ![Toevoegen/bewerken belanghebbenden dialoog, geschiedenis -screenshot][img5]
 
-    * Selecteer als volgt een persoon van een bedrijf: Klik op de pijl en selecteer het gewenste bedrijf in de weergegeven lijst of typ de naam van het bedrijf. Standaard wordt het bedrijf weergegeven dat actief is in het scherm Bedrijf.
-    * Selecteer als volgt een persoon rechtstreeks: Typ de naam van de persoon (dit is zowel op personen met en zonder gekoppeld bedrijf van toepassing) en klik op de naam in de lijst met resultaten.
+    * **Gebruikersgroep**: Klik op ![icoon][img2] om medewerkers per groep te doorzoeken.
 
-6. Om het bedrijf als een belanghebbende toe te voegen, klikt u op de bovenste pijlknop (rechts van het bedrijf). Het bedrijf verschijnt uiterst rechts op het venster.
+      ![Toevoegen/bewerken belanghebbenden dialoog, groep -screenshot][img6]
 
-7. Als u contactpersonen als aandeelhouders wilt toevoegen, selecteert u een of meer contactpersonen en klikt u op de onderste ![pictogram][img2] pijlknop. De contactpersonen worden vervolgens rechts in het dialoogvenster weergegeven.
+    * **Bedrijf**: Klik op ![icoon][img3] om personen binnen een specifiek bedrijf te doorzoeken of om een bedrijf toe te voegen als belanghebbende.
 
-    > [!NOTE]
-    > Als de gewenste naam niet in de lijst staat, moet u de [persoon eerst maken][3].
+      ![Toevoegen/bewerken belanghebbenden dialoog, bedrijf -screenshot][img7]
 
-8. Geef in het veld **Verkooprol** aan welke rol elk bedrijf en/of elke contactpersoon heeft in de verkoop. Selecteer het bedrijf en/of de contactpersoon en klik op de pijlknop. Er wordt een lijst met vooraf gedefinieerde keuzen weergegeven. [!include[SM](../../../learn/includes/are-defined-sm.md)]
-    Een bedrijf/contactpersoon kan meerdere keren als belanghebbende worden toegevoegd wanneer telkens een andere rol wordt opgegeven.
+1. **Rollen toewijzen**: Selecteer een belanghebbende en wijs een rol toe. Om dezelfde rol aan meerdere belanghebbenden tegelijk toe te wijzen, gebruikt u **Alles selecteren** of houdt u **Ctrl/Shift** ingedrukt terwijl u selecteert.
 
-9. In het grote tekstvak onder **Commentaar** kunt u zo nodig een meer gedetailleerde beschrijving van het bedrijf of de functie van de contactpersoon binnen de verkoop invoeren.
+    ![Toevoegen/bewerken belanghebbenden dialoog, rol -screenshot][img8]
 
-    > [!NOTE]
-    > Als u tekst in dit vak typt, wordt een ![pictogram][img1] paperclipsymbool weergegeven rechts van de kolom **Verkooprol** op het sectietabblad **Belanghebbenden**. Als u de muisaanwijzer op de paperclip plaatst, wordt het geregistreerde commentaar weergegeven in de knopinfo.
+    Optioneel: Voeg een opmerking toe om de rol van de belanghebbende in meer detail te beschrijven.
 
-10. Herhaal stap 4 t/m 9 voor elke aandeelhouder die u wilt toevoegen.
+1. Klik op **Opslaan**.
 
-11. Klik op **Opslaan** nadat u alle benodigde gegevens zijn ingevoerd.
+## Probleemoplossing
 
-    > [!TIP]
-    > u kunt meerdere bedrijven en/of contactpersonen selecteren aan de rechterkant van het venster door **Ctrl** of **Shift** ingedrukt te houden bij het selecteren. Wijzigingen die u doorvoert in het veld **Verkooprol** en het tekstvak **Commentaar** worden toegepast op alle geselecteerde bedrijven/contactpersonen.
+* **Ontbrekend tabblad**: Als het tabblad **Belanghebbenden** niet zichtbaar is, controleer dan of deze [verkooptype][4] belanghebbenden heeft ingeschakeld in de Instellingen en Onderhoud.
+
+* **Ontbrekend persoon**: Als een belanghebbende niet wordt vermeld, moet u eerst [de persoon aanmaken][3].
+
+* **Ontbrekende rollen**: [Rollen][5] worden gedefinieerd in Instellingen en Onderhoud.
+
+## Tips
+
+* **Belanghebbenden toevoegen via Bedrijf of Selectie**
+
+    U kunt ook [belanghebbenden toevoegen via de sectietabbladen][2] die personen bevatten in de schermen Bedrijf en Selectie.
+
+* **Opmerkingen toevoegen**
+
+    Als er een opmerking is toegevoegd, verschijnt er een ![icoon][img1] paperclip naast de kolom **Verkooprol** in het tabblad **Belanghebbenden**. Beweeg de muis over de paperclip om de tooltip met de opmerking weer te geven.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
+[4]: ../../../admin/lists/learn/sale-type.md
+[5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.png
+[img2]: ../../../../../common/icons/associate-group.png
+[img3]: ../../../../../common/icons/singlecolour/contact.png
+[img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
+[img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
+[img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png
+[img8]: ../../../../media/loc/en/sale/set-stakeholder-role.png

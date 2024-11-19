@@ -2,46 +2,46 @@
 uid: help-sv-sale-stakeholder-edit
 title: Redigera intressenter
 description: Så här redigerar eller tar du bort intressenter i en försäljning i SuperOffice.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: försäljning
-topic: howto
+keywords: försäljning, intressent
+author: Bergfrid Dias
+date: 11.19.2024
+version: 10.3.12
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Redigera eller ta bort intressenter
 
-Du kan redigera informationen i fälten **Säljroll** och **Kommentar** för intressenterna.
+Du kan uppdatera **säljroll** och **kommentar**-fälten för intressenter, eller ta bort intressenter helt.
 
-## Uppdatera information
+## Uppdatera intressentinformation
 
-1. Gå till önskad försäljning i fönstret Försäljning. (Se [Använd fönstret Sök][1].)
+1. Öppna försäljningen (se [Använd fönstret Sök][1]) och gå till detaljkortet **Intressenter**.
 
-1. Välj detaljkortet **Intressenter**.
+1. Välj en eller flera intressenter från listan och klicka på **Redigera** längst ned på detaljkortet. Detta öppnar dialogrutan **Lägg till/redigera intressenter**.
 
-1. Välj en eller flera intressenter och klicka på ![ikon][img1] **Redigera** längst ned på detaljkortet.
+1. I dialogrutan **Lägg till/redigera intressenter**, välj de intressenter du vill redigera.
 
-1. I dialogrutan **Redigera intressent** väljer du de intressenter som du vill redigera.
+1. Gör ändringar:
 
-1. Gör önskade ändringar i fälten **Säljroll** och **Kommentar**.
+    * Uppdatera **Säljroll** för de valda intressenterna.
+
+    * Redigera **Kommentar**-fältet för att lägga till eller ändra ytterligare detaljer.
 
     > [!TIP]
-    > En beskrivning av de olika fälten finns under [Skapa intressenter][2].
-    >
-    > Du kan markera flera företag/kontakter genom att hålla **CTRL**- eller **SKIFT**-tangenten nedtryckt medan du markerar dem. Ändringar du sedan gör i fältet **Säljroll** och textrutan **Kommentar** kommer då att gälla för alla de markerade företagen/kontakterna.
+    > Du kan välja flera intressenter (håll Ctrl eller Shift). Ändringar i **Säljroll** eller **Kommentar**-fälten kommer att gälla för alla valda intressenter.
 
-1. Klicka på **OK** när du är klar, så stängs fönstret och ändringarna sparas.
-
-> [!NOTE]
-> Klicka på **Avbryt** för att lämna redigeringsläget utan att spara ändringarna.
+1. Klicka på **OK** för att spara ändringarna eller **Avbryt** för att kassera dem.
 
 ## Ta bort intressent
 
-Om du vill ta bort en eller flera intressenter från försäljningen markerar du dem och klickar på knappen **Ta bort** under detaljkortet. I dialogrutan som visas klickar du på **Ja**.
+1. Välj de intressenter du vill ta bort från listan i **Intressenter**-detaljkortet.
+
+1. Klicka på **Ta bort**. I bekräftelsedialogrutan som visas, klicka **Ja** för att bekräfta.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
-[2]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/edit.png
