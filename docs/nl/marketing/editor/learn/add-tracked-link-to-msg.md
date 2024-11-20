@@ -4,12 +4,12 @@ title: Links opnemen die u wilt traceren
 description: Er zijn twee manieren om uw links in te stellen. U kunt een vooraf ingestelde bijgehouden koppeling gebruiken om klikken in verschillende mailings bij te houden of een nieuwe koppeling instellen die alleen beschikbaar is in deze mailing. Meer informatie over het toevoegen van een bijgehouden koppeling vindt u in deze handleiding.
 keywords: Marketing, mailing, gevolgde koppelingen
 author: SuperOffice RnD
-date: 02.27.2024
-version: 10
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Gevolgde koppelingen toevoegen aan een bericht
@@ -39,7 +39,7 @@ Door koppelingen in te stellen die lezers naar verschillende inhoud op uw websit
 
 U kunt gewone (niet-gevolgde) links toevoegen. Voor tekstkoppelingen klikt u op ![pictogram][img1] in de werkbalk. Voor afbeeldingskoppelingen gebruikt u het veld **Afbeeldings-URL** in het zijpaneel.
 
-Als u later besluit deze koppelingen ook te volgen, selecteert u de optie **Alle koppelingen traceren** onder **Traceren** in Stap 1: Instellingen. Deze koppelingen worden echter alleen gevolgd voor de betreffende mailing en zijn niet beschikbaar voor andere mailings.
+Als u later besluit deze koppelingen ook te volgen, selecteert u de optie **Alle koppelingen traceren** onder **Traceren** in Stap 1: Instellingen. Deze koppelingen worden echter alleen gevolgd voor de betreffende mailing en zijn niet beschikbaar voor andere mailings of in flows.
 
 ## Verwante onderwerpen
 

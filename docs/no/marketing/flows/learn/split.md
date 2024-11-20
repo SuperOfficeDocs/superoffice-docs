@@ -4,12 +4,12 @@ title: Flytkontroll - oppdeling
 description: Flytkontroll - oppdeling
 keywords: flyt, automatisering, gren, oppdeling, splitt, del opp
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Flytkontroll - oppdeling
@@ -21,7 +21,7 @@ Du kan differensiere basert på:
 * Firma/persondata
 * Skjemainnsending
 * Skjemadata
-* Lenkeklikk
+* Lenkeklikk (sporet)
 * Medlemskap i prosjekt
 * Medlemskap i statisk utvalg
 

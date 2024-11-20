@@ -4,12 +4,12 @@ title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
 keywords: flöde, flödesåtgärd, åtgärd, automatisera, skicka meddelande, skicka e-post. skicka SMSuppdatera deltagare, kör skript, e-poststeg, bilag
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Definiera flödesåtgärder
@@ -29,7 +29,7 @@ audience_tooltip: SuperOffice Marketing
 Saker att tänka på:
 
 * Hur ofta ska vi skicka ny information?
-* Ska nästa e-post vara baserad på kontakters engagemang, när en kontakt fyller i ett formulär eller klickar på en länk?
+* Ska nästa e-post vara baserad på kontakters engagemang, när en kontakt fyller i ett formulär eller klickar på en spårad länk?
 * Ska alla kontakter få samma innehåll?
 
 ### Skicka e-post (utskick)

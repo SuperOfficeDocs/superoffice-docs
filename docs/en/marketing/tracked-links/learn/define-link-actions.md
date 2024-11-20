@@ -4,12 +4,12 @@ title: Define automatic link actions
 description: In this how-to guide, you will learn how to use links in mailings to automate actions.
 keywords: Marketing, mailing, link action, tracked link, call-to-action
 author: Bergfrid Dias
-date: 04.18.2024
-version: 10.3.5
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Define automatic link actions
@@ -37,7 +37,7 @@ Based on your mailing's goal and call-to-action, you can update your database. T
 
 | Tab | Action |
 |---|---|
-| [Response](#response) | Add landing page or custom text. |
+| [Response](#response) | Add landing page or custom text, or open a form. |
 | [Set field](#set-field) | Add a value to an [extrafield][5] for customer contacts. |
 | [Interests](#interests) | Update interests. |
 | [Selection/Project](#selection) | Add/remove customer contact from a selection or project. |
@@ -54,6 +54,7 @@ Select what should happen when the recipient clicks the link.
 
 * **Redirect to new web page**: Enter the URL in the provided field.
 * Or, **Show custom text**: Enter the text to display. Click the ![icon][img4] editor button to show the rich-text toolbar.
+* Or, **Open form**: Choose the form's name. Optionally, select fields to pre-fill with known contact information.
 
 ## <a id="set-field"></a>Set field
 

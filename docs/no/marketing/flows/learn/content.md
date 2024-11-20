@@ -4,12 +4,12 @@ title: Flytinnhold
 description: Hvordan opprette og administrere flytinnhold i SuperOffice Marketing
 keywords: flyt, markedsføring, flytinnhold, innholdsopprettelse, innholdsproduksjon
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Flytinnhold
@@ -49,6 +49,9 @@ For å se det forberedte innholdet for en spesifikk flyt:
     * [Sett inn sporingslenke][6]
     * [Legg til abonnementslenker][8] for å være GDPR-kompatibel
     * [Legg til bilder i meldingen][2]
+
+    > [!NOTE]
+    > Hvis du vil handle basert på lenkeklikk (f.eks. som en trigger, splitt, eller ventekondisjon), må lenken spores.
 
 1. Lukk e-posttrinnet og klikk **Lagre**.
 

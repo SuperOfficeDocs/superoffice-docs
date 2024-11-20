@@ -4,12 +4,12 @@ title: Flödesinnehåll
 description: Flödesinnehåll
 keywords: flöde, flödesinnehåll, innehåll, skapa e-post, e-postmeddelande, e-poststeg
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Flödesinnehåll
@@ -49,6 +49,9 @@ För att visa det förberedda innehållet för ett specifikt flöde:
     * [Infoga spårningslänk][6]
     * [Lägg till prenumerationslänkar][8] för att vara GDPR-kompatibel
     * [Lägg till bilder i meddelandet][2]
+
+    > [!NOTE]
+    > Om du vill agera på länkklick (t.ex. som en trigger, uppdelning eller väntetillstånd), måste länken spåras.
 
 1. Stäng e-poststeget och klicka på **Spara**.
 

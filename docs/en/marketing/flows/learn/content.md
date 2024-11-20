@@ -4,12 +4,12 @@ title: Flow content
 description: Flow content
 keywords: Marketing, flow, flow content, flow asset, content creation
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Flow content
@@ -49,6 +49,9 @@ To view the prepared content for a specific flow:
     * [Insert tracking link][6]
     * [Add subscription links][8] to be GDPR compliant
     * [Add images to the message][2]
+
+    > [!NOTE]
+    > If you want to act based on link clicks (for example, as a trigger, split, or wait condition), the link must be tracked.
 
 1. Close the email step and click **Save**.
 

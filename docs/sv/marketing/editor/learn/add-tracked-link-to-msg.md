@@ -4,12 +4,12 @@ title: Inkludera länkar som du vill kunna spåra
 description: Det finns två sätt att konfigurera dina länkar. Du kan antingen använda en förinställd spårad länk för att spåra klick från flera utskick eller skapa en ny länk som bara är tillgänglig i detta utskick. Läs om hur du lägger till en spårad länk i den här guiden.
 keywords: Marknadsföring
 author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Lägga till spårade länkar i meddelandet
@@ -39,7 +39,7 @@ Genom att konfigurera länkar som leder läsare till olika innehåll på din web
 
 Du kan lägga till vanliga (ospårade) länkar. För textlänkar, klicka på ![ikonen][img1] i verktygsfältet. För bildlänkar, använd fältet **Bild-URL** i sidopanelen.
 
-Om du senare beslutar dig för att också spåra dessa länkar, välj alternativet **Spåra alla länkar** under **Spårning** i Steg 1: Konfiguration. Dessa länkar spåras dock endast för det aktuella utskicket och kommer inte att vara tillgängliga för andra utskick.
+Om du senare beslutar dig för att också spåra dessa länkar, välj alternativet **Spåra alla länkar** under **Spårning** i Steg 1: Konfiguration. Dessa länkar spåras dock endast för det aktuella utskicket och kommer inte att vara tillgängliga för andra utskick eller i flöden.
 
 ## Relaterade ämnen
 

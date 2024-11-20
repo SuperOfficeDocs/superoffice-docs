@@ -4,12 +4,12 @@ title: Definere automatiske koblingshandlinger
 description: I denne veiledningen lærer du hvordan du bruker koblinger i utsendelser til å automatisere handlinger.
 keywords: Markedsføring
 author: Bergfrid Dias
-date: 05.24.2024
-version: 10.3.5
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Definer automatiske koblinghandlinger
@@ -37,7 +37,7 @@ Basert på målet og oppfordringen til handling i e-posten din, kan du oppdatere
 
 | Fane | Handling |
 |---|---|
-| [Respons](#response) | Legg til landingsside eller tilpasset tekst. |
+| [Respons](#response) | Legg til landingsside eller tilpasset tekst, eller åpne et skjema. |
 | [Angi felt](#set-field) | Legg til en verdi i et [ekstrafelt][5] for kundekontakter |
 | [Interesser](#interests) | Oppdater interesser. |
 | [Utvalg/prosjekt](#selection) | Legg til/fjern kundekontakt fra et utvalg eller prosjekt. |
@@ -54,6 +54,7 @@ Velg hva som skal skje når mottakeren klikker på koblingen.
 
 * **Omdirigere til ny webside**: Skriv inn URL-en i det angitte feltet.
 * Eller, **Vis tilpasset tekst**: Skriv inn teksten som skal vises. Klikk på ![ikon][img4] redigeringsknappen for å vise verktøylinjen for rik tekst.
+* Eller, **Åpne skjema**: Velg navnet på skjemaet. Eventuelt, velg hvilke felter som skal forhåndsutfylles med kjente kontaktopplysninger.
 
 ## <a id="set-field"></a>Angi felt
 

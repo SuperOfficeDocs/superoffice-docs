@@ -4,12 +4,12 @@ title: Indsætte sporede links i en meddelelse
 description: "Du kan konfigurere dine links på to måder. Du kan enten bruge et forudindstillet sporet link til at spore klik på tværs af flere udsendelser eller du kan oprette et nyt link, der kun er tilgængeligt i denne udsendelse. I denne vejledning får du flere oplysninger om, hvordan du tilføjer et sporet link."
 keywords: Marketing, mailudsendelse
 author: SuperOffice RnD
-date: 02.26.2024
-version: 10
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Indsætte sporede links i en meddelelse
@@ -39,7 +39,7 @@ Ved at oprette links, der leder læserne til forskelligt indhold på dit websted
 
 Du kan tilføje almindelige (ikke-sporede) links. For tekstlinks skal du klikke på ![ikonet][img1] i værktøjslinjen. For billedlinks skal du bruge feltet **Billede-URL** i sidepanelet.
 
-Hvis du senere beslutter dig for også at spore disse links, skal du vælge indstillingen **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links overvåges dog kun for den pågældende udsendelse og vil ikke være tilgængelige for andre udsendelser.
+Hvis du senere beslutter dig for også at spore disse links, skal du vælge indstillingen **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links overvåges dog kun for den pågældende udsendelse og vil ikke være tilgængelige for andre udsendelser eller i flows.
 
 ## Relaterede emner
 

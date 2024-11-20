@@ -4,12 +4,12 @@ title: Geautomatiseerde linkacties definiëren
 description: In deze handleiding leert u hoe u links in mailings kunt gebruiken om acties te automatiseren.
 keywords: Marketing, koppelingen, mailing, gevolgde links
 author: Bergfrid Dias
-date: 06.17.2024
-version: 10.3.5
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Geautomatiseerde linkacties definiëren
@@ -37,7 +37,7 @@ Afhankelijk van het doel en de CTA van uw mailing kunt u uw database bijwerken. 
 
 | Tabblad | Actie |
 |---|---|
-| [Respons](#response) | voeg een openingspagina of aangepaste tekst toe. |
+| [Respons](#response) | voeg een openingspagina of aangepaste tekst toe, of een formulier openen. |
 | [Veld instellen](#set-field) | voeg een waarde toe aan een [extra veld][5] voor personen |
 | [Interesses](#interests) | werk de interesses bij. |
 | [Selectie/project](#selection) | Persoon toevoegen aan/verwijderen uit een selectie of project. |
@@ -54,6 +54,7 @@ Selecteer wat er moet gebeuren wanneer de ontvanger op de link klikt.
 
 * **Omleiden naar nieuwe webpagina**: Voer de URL in het daarvoor bestemde veld in.
 * Of, **Aangepaste tekst weergeven**: Voer de tekst in die moet worden weergegeven. Klik op bewerkingssymbool ![pictogram][img4] om de rich-text toolbar te tonen.
+* Of, **Formulier openen**: Selecteer de naam van het formulier. Kies eventueel welke velden vooraf ingevuld moeten worden met bekende contactgegevens.
 
 ## <a id="set-field"></a>Veld instellen
 

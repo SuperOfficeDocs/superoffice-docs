@@ -4,12 +4,12 @@ title: Flowindhold
 description: Flowindhold
 keywords: Marketing, flow, flowindhold, indhold, e-mail
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Flowindhold
@@ -49,6 +49,9 @@ For at se det forberedte indhold til et specifikt flow:
     * [Indsæt tracking-link][6]
     * [Tilføj abonnement-links][8] for at være GDPR-kompatibel
     * [Tilføj billeder til meddelelsen][2]
+
+    > [!NOTE]
+    > Hvis du vil handle på baggrund af linkklik (f.eks. som en trigger, split eller ventebetingelse), skal linket spores.
 
 1. Luk e-mail-trinnet og klik **Gem**.
 

@@ -4,12 +4,12 @@ title: Spårade länkar
 description: En länk som du inkluderar i ett utskick kan användas för att spåra svar från dina befintliga och potentiella kunder. När mottagarna av ditt utskick klickar på länken utförs en åtgärd. 
 keywords: Marknadsföring, sporade länker
 author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Spårade länkar

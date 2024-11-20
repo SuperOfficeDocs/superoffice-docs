@@ -4,12 +4,12 @@ title: Definer automatiserede linkhandlinger
 description: "I denne vejledning lærer du, hvordan du bruger links i udsendelser til at automatisere handlinger."
 keywords: Marketing, udsendelse, linkhandling, automatisere
 author: Bergfrid Dias
-date: 06.14.2024
-version: 10.3.5
+date: 11.19.2024
+version: 10.3.12
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Definer automatiserede linkhandlinger
@@ -37,7 +37,7 @@ Baseret på din udsendelses mål og call-to-action kan du opdatere din database.
 
 | Fane | Handling |
 |---|---|
-| [Respons](#response) | Tilføje landingsside eller standardtekst |
+| [Respons](#response) | Tilføje landingsside eller standardtekst, eller åbne en formular. |
 | [Indstille felt](#set-field) | Tilføje en værdi til et [ekstrafelt][5] for kundekontakter |
 | [Interesser](#interests) | Opdatere interesser |
 | [Udtræk/projekt](#selection) | Tilføje/fjerne person fra et udtræk eller projekt |
@@ -54,6 +54,7 @@ Vælg, hvad der skal ske, når modtageren klikker på linket.
 
 * **Omdirigere til ny webside**: Indtast webadressen i det angivne felt.
 * Eller, **Vise tilpasset tekst**: Indtast teksten, der skal vises. Klik på ![ikon][img4] redigeringsknappen for at vise værktøjslinjen til formateret tekst.
+* Eller, **Åbn formular**: Vælg navnet på formularen. Vælg eventuelt hvilke felter, der skal forudfyldes med kendte kontaktoplysninger.
 
 ## <a id="set-field"></a>Indstille felt
 

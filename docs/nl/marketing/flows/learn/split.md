@@ -4,12 +4,12 @@ title: Flow-controle - opsplitsen
 description: Flow-controle - opsplitsen
 keywords: Marketing, flow, opsplitsen, flow-controle, split-stap, tak, differentiëren, alle anderen
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Flow-controle - opsplitsen
@@ -21,7 +21,7 @@ Je kunt differentiëren op basis van:
 * Bedrijfs-/contactgegevens
 * Formulierindiening
 * Formuliergegevens
-* Geklikte link
+* Geklikte link (gevolgde)
 * Lidmaatschap in project
 * Lidmaatschap in statische selectie
 

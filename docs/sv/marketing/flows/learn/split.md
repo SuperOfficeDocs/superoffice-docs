@@ -4,12 +4,12 @@ title: Flödeskontroll - delning
 description: Flödeskontroll - delning
 keywords: flöde, flödeskontroll, dela flöde, dela, delning, delningssteg, gren, grenvillkor, segmentera, alla andra, utträdesvillkor, differentiera
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Flödeskontroll - delning
@@ -21,7 +21,7 @@ Du kan differentiera baserat på:
 * Företags/kontaktdatan
 * Formulärinskick
 * Formulärdata
-* Länkklick
+* Länkklick (spårad)
 * Medlemskap i projekt
 * Medlemskap i statisk urval
 

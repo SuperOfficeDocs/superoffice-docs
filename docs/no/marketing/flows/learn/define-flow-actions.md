@@ -4,12 +4,12 @@ title: Definer flythandlinger
 description: Definer flythandlinger
 keywords: flyt, markedsføring, flythandling, kjør skript
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Definer flythandlinger
@@ -29,7 +29,7 @@ audience_tooltip: SuperOffice Marketing
 Ting å vurdere:
 
 * Hvor ofte skal vi sende ny informasjon?
-* Skal neste e-post baseres på engasjement, når en person fyller ut et skjema eller klikker en lenke?
+* Skal neste e-post baseres på engasjement, når en person fyller ut et skjema eller klikker en sporet lenke?
 * Skal alle personer få det samme innholdet?
 
 ### Send e-post (utsendelse)

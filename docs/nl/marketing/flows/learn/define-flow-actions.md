@@ -4,12 +4,12 @@ title: Definieer flowacties
 description: Definieer flowacties
 keywords: Marketing, flow, flowactie, script uitvoeren
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Definieer flowacties
@@ -29,7 +29,7 @@ audience_tooltip: SuperOffice Marketing
 Overwegingen:
 
 * Hoe vaak moeten we nieuwe informatie verzenden?
-* Moet de volgende e-mail gebaseerd zijn op contactbetrokkenheid, wanneer een persoon een formulier invult of op een link klikt?
+* Moet de volgende e-mail gebaseerd zijn op contactbetrokkenheid, wanneer een persoon een formulier invult of op een gevolgde link klikt?
 * Moeten alle contacten dezelfde inhoud ontvangen?
 
 ### E-mail verzenden (mailing)

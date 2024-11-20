@@ -4,12 +4,12 @@ title: Flow control - split
 description: Flow control - split
 keywords: flow, automation, branch, split
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Flow control - split
@@ -21,7 +21,7 @@ You can differentiate based on:
 * Company/contact data
 * Form submission
 * Form data
-* Link click
+* Link click (tracked)
 * Membership in project
 * Membership in static selection
 

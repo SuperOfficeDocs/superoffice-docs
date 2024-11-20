@@ -4,12 +4,12 @@ title: Inhalt des Flows
 description: Inhalt des Flows
 keywords: Marketing, Flow, Flow-Inhalt, Inhalt des Flows, Inhalt, E-Mail, Verfassen
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.5
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Inhalt des Flows
@@ -49,6 +49,9 @@ Um den vorbereiteten Inhalt für einen bestimmten Flow anzuzeigen:
     * [Tracking-Link einfügen][6]
     * [Abonnementlinks][8] hinzufügen, um DSGVO-konform zu sein
     * [Bilder zur Nachricht hinzufügen][2]
+
+    > [!NOTE]
+    > Wenn Sie auf Linkklicks reagieren möchten (z.B. als Auslöser, Aufteilung oder Wartebedingung), muss der Link überwachten werden.
 
 1. Schließen Sie den E-Mail-Schritt und klicken Sie auf **Speichern**.
 

@@ -4,12 +4,12 @@ title: Definér flow-handlinger
 description: Definér flow-handlinger
 keywords: Marketing, flow, flow-handlinger
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Definér flow-handlinger
@@ -29,7 +29,7 @@ audience_tooltip: SuperOffice Marketing
 Overvejelser:
 
 * Hvor ofte skal vi sende ny information?
-* Skal den næste e-mail være baseret på personengagement, når en person udfylder en formular eller klikker på et link?
+* Skal den næste e-mail være baseret på personengagement, når en person udfylder en formular eller klikker på et sporet link?
 * Skal alle personer få det samme indhold?
 
 ### Send e-mail (udsendelse)
