@@ -4,12 +4,12 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action, run script
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Define flow actions
@@ -29,7 +29,7 @@ audience_tooltip: SuperOffice Marketing
 Things to consider:
 
 * How often should we send new information?​
-* Should the next email be based on contact engagement, when a contact is filling in a form or clicking a link?
+* Should the next email be based on contact engagement, when a contact is filling in a form or clicking a tracked link?
 * Should all contacts get the same content?
 
 ### Send email (mailing)

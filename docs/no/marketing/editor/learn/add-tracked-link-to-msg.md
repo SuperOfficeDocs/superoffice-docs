@@ -4,12 +4,12 @@ title: Inkludere koblinger du vil spore
 description: Finn ut hvordan du legger til en sporet kobling i denne veiledningen. Du kan enten bruke en forhåndsinnstilt sporet kobling til å spore klikk på tvers av flere utsendelser, eller konfigurere en ny kobling som bare er tilgjengelig i denne utsendelsen.
 keywords: Markedsføring, utsendelse, sporede koblinger, 
 author: SuperOffice RnD
-date: 02.22.2024
-version: 10
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Legge til sporede koblinger i meldinger
@@ -39,7 +39,7 @@ Ved å sette opp koblinger som leder leserne til forskjellig innhold på webside
 
 Du kan legge til vanlige (ikke-sporbare) koblinger. For tekstkoblinger, klikk på ![ikonet][img1] i verktøylinjen. For bilde-koblinger, bruk feltet **Bilde-URL** i sidepanelet.
 
-Hvis du senere bestemmer deg for å spore disse lenkene også, velg alternativet **Spor alle koblinger** under **Sporing** i Trinn 1: Oppsett. Disse lenkene spores imidlertid bare for den aktuelle utsendelsen og vil ikke være tilgjengelige for andre utsendelser.
+Hvis du senere bestemmer deg for å spore disse lenkene også, velg alternativet **Spor alle koblinger** under **Sporing** i Trinn 1: Oppsett. Disse lenkene spores imidlertid bare for den aktuelle utsendelsen og vil ikke være tilgjengelige for andre utsendelser eller i flyter.
 
 ## Aktuelle emner
 

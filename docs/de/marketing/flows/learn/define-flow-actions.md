@@ -4,12 +4,12 @@ title: Flow-Aktionen definieren
 description: Flow-Aktionen definieren
 keywords: Marketing, Flow, Flow-Aktion, Teilnehmer aktualisieren, Nachricht senden, Skript ausführen
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Flow-Aktionen definieren
@@ -29,7 +29,7 @@ audience_tooltip: SuperOffice Marketing
 Dinge, die zu beachten sind:
 
 * Wie oft sollten wir neue Informationen senden?
-* Sollte die nächste E-Mail basierend auf dem Engagement des Persons, beim Ausfüllen eines Formulars oder beim Klicken auf einen Link versendet werden?
+* Sollte die nächste E-Mail basierend auf dem Engagement des Persons, beim Ausfüllen eines Formulars oder beim Klicken auf einen überwachten Link versendet werden?
 * Sollten alle Persone denselben Inhalt erhalten?
 
 ### E-Mail senden (Kampagne)

@@ -4,12 +4,12 @@ title: Flowinhoud
 description: Flowinhoud
 keywords: Marketing, flow, flowinhoud, inhoud
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
-version: 10.3.9
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Flowinhoud
@@ -49,6 +49,9 @@ Om de voorbereide inhoud voor een specifieke flow te bekijken:
     * [Gevolgde link invoegen][6]
     * [Abonnementslinks toevoegen][8] om GDPR-compliant te zijn
     * [Afbeeldingen aan het bericht toevoegen][2]
+
+    > [!NOTE]
+    > Als u wilt handelen op basis van linkklikken (bijv. als trigger, splitsing of wachtconditie), moet de link worden gevolgd.
 
 1. Sluit de e-mailstap en klik op **Opslaan**.
 

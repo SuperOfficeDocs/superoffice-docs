@@ -4,12 +4,12 @@ title: Definiera länkningsåtgärder
 description: I den här guiden lär du dig hur du använder länkar i utskick för att automatisera åtgärder.
 keywords: Marknadsföring, utskikt, länkåtgärd, automatisera
 author: Bergfrid Dias
-date: 06.14.2024
-version: 10.3.5
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Använd länkar för att automatisera olika åtgärder
@@ -37,7 +37,7 @@ Baserat på din utskicks mål och CTAkan du uppdatera din databas. Denna informa
 
 | Flik | Åtgärd |
 |---|---|
-| [Svar](#response) | Lägg till landningssida eller återkopplingstext. |
+| [Svar](#response) | Lägg till landningssida eller återkopplingstext, eller öppna ett formulär. |
 | [Konfigurera fält](#set-field) | Lägg till ett värde till ett [extrafält][5] för kundkontakter |
 | [Intressen](#interests) | Uppdatera intressen. |
 | [Urval/projekt](#selection) | Lägga till eller ta bort kontakt från urval eller projekt. |
@@ -54,6 +54,7 @@ Välj vad som ska hända när mottagaren klickar på länken.
 
 * **Dirigera om till ny webbplatsa**: Ange URL:en i det angivna fältet.
 * Eller, **Visa återkopplingstext**: Ange texten som ska visas. Klicka på ![ikonen][img4] redigeringsknappen för att visa verktygsfältet för rik text.
+* Eller, **Öppna formulär**: Välj namnet på formuläret. Välj eventuellt vilka fält som ska förifyllas med kända kontaktuppgifter.
 
 ## <a id="set-field"></a>Konfigurera fält
 

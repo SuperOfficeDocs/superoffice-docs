@@ -4,12 +4,12 @@ title: Flowkontrol - opdeling
 description: Flowkontrol - opdeling
 keywords: Marketing, flow, flowkontrol, opdel, gren
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Flowkontrol - opdeling
@@ -21,7 +21,7 @@ Du kan differentiere baseret på:
 * Persondata
 * Formularindsendelse (ja/nej)
 * Formulardata
-* Klikket på link
+* Klikket på link (sporet)
 * Projektdeltagelse
 * Udvalgsmedlemskab
 

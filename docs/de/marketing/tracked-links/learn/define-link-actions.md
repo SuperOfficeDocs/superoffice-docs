@@ -4,12 +4,12 @@ title: Automatisierte Linkaktionen definieren
 description: In dieser Anleitung lernen Sie, wie Sie Links in Kampagnen verwenden, um Aktionen zu automatisieren.
 keywords: Marketing, Kampagne, Aussendung, Überwachte Links, Linkaktion, automatisieren
 author: Bergfrid Dias
-date: 05.31.2024
-version: 10.3.5
+date: 11.19.2024
+version: 10.3.12
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Automatisierte Linkaktionen definieren
@@ -37,7 +37,7 @@ Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank
 
 | Registerkarte | Aktion |
 |---|---|
-| [Antwort](#response) | Zielseite oder benutzerdefinierten Text hinzufügen. |
+| [Antwort](#response) | Zielseite oder benutzerdefinierten Text hinzufügen, oder ein Formular öffnen. |
 | [Feld festlegen](#set-field) | Einem [Zusatzfeld][5] einen Wert für die Personen des Kunden hinzufügen |
 | [Interessen](#interests) | Interessen aktualisieren. |
 | [Selektion/Projekt](#selection) | Ansprechpartner zu Selektion oder Projekt hinzufügen bzw. daraus entfernen. |
@@ -46,7 +46,7 @@ Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank
 | [Skript](#script) | Ein Skript ausführen. |
 
 > [!TIP]
-> Wenn Sie einen überwachte Link aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
+> Wenn Sie einen überwachten Link aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
 
 ## <a id="response"></a>Antwort
 
@@ -54,6 +54,7 @@ Wählen Sie aus, was passieren soll, wenn der Empfänger auf den Link klickt.
 
 * **Auf neue Webseite umleiten**: Geben Sie die URL im vorgesehenen Feld ein.
 * Oder, **Benutzerdefinierten Text anzeigen**: Geben Sie den anzuzeigenden Text ein. Klicken Sie auf das Bearbeitungssymbol ![Symbol][img4], um die Rich-Text-Toolbar anzuzeigen.
+* Oder, **Formular öffnen**: Wählen Sie den Namen des Formulars. Optional wählen Sie, welche Felder mit bekannten Kontaktdaten vorausgefüllt werden sollen.
 
 ## <a id="set-field"></a>Feld festlegen
 

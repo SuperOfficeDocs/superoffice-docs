@@ -4,12 +4,12 @@ title: Gevolgde links
 description: "Een koppeling die u in een mailing opneemt, kan worden gebruikt om reacties van uw klanten en prospects bij te houden. Wanneer de ontvangers van uw mailing op de koppeling klikken, wordt een actie geactiveerd." 
 keywords: Marketing, koppelingen, mailing, nieuwsbrief, gevolgde links
 author: Bergfrid Dias
-date: 02.27.2024
-version: 10
+date: 11.19.2024
+version: 10.3.12
 topic: concept
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Gevolgde links
