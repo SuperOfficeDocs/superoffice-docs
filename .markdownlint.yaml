@@ -22,7 +22,7 @@ MD012:
   maximum: 1
 MD013:
   line_length: 1200
-  heading_line_length: 80
+  heading_line_length: 100
   code_block_line_length: 180
   code_blocks: true
   tables: false
