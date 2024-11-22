@@ -1,8 +1,8 @@
 ---
 uid: help-no-selection-print
-title: Skrive ut
+title: Skriv ut utvalg
 description: Skrive ut utvalg
-keywords: utvalg
+keywords: utvalg, skriv ut utvalg
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Skriv ut
+# Skriv ut utvalg
 
 1. [!include[Start](../includes/steps-start-task.md)]
 

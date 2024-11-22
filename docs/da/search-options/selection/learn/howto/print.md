@@ -1,8 +1,8 @@
 ---
 uid: help-da-selection-print
-title: Udskrivning
+title: Udskriv udvalg
 description: Udskrivning af udvalg
-keywords: udvalg
+keywords: udvalg, udskriv udvalg
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Udskrivning
+# Udskriv udvalg
 
 1. [!include[Start](../includes/steps-start-task.md)]
 

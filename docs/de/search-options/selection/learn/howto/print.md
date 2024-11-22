@@ -2,7 +2,7 @@
 uid: help-de-selection-print
 title: Selection drucken
 description: Selection drucken
-keywords: Selektion
+keywords: Selektion, Selection drucken
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
