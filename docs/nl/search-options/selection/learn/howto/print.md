@@ -2,7 +2,7 @@
 uid: help-nl-selection-print-company-reports
 title: Selectie afdrukken
 description: Selectie afdrukken
-keywords: selectie
+keywords: selectie, selectie afdrukken
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11

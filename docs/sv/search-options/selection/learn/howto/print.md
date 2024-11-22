@@ -1,8 +1,8 @@
 ---
 uid: help-sv-selection-print
-title: Skriva ut
+title: Skriv ut urval
 description: Skriva ut urval
-keywords: urval
+keywords: urval, skriv ut urval
 author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Skriva ut
+# Skriv ut urval
 
 1. [!include[Start](../includes/steps-start-task.md)]
 
