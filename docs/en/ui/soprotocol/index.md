@@ -25,10 +25,10 @@ topic: concept
 SOProtocol URLs have multiple parts, and can be either opened directly in the browser:
 `https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?{{WHERE}}?{{WHAT}}`
 
-Or can be [invoker through a script][4]:
+Or be [invoker through a script][4]:
 `soprotocol:{{WHERE}}?{{WHAT}}`
 
-The {{WHERE}} tells SuperOffice which page to display, and what tabs to select.
+The {{WHERE}} tells SuperOffice which page to display, and what tabs to select. See the [SoProtocol targets reference][2] for a list of soprotocol targets.
 The {{WHAT}} tells SuperOffice what data to display on the page, such as a specific contact or project by id.
 
 Example:
@@ -40,32 +40,31 @@ or
 
 ## Practical examples
 
+### 1
+
 On the company page, showing the main tab above and the contacts grid below, with the company details on the right, where the contact_id equals 2, use the following SoProtocol URL:
 
 `soprotocol:contact.main.personarchive.minicontact?contact_id=2`
 
 ![08][img4]
 
-> [!TIP]
-> You can get a URL that reflects the current state of the application by selecting **Copy shortcut** either from the hamburger menu, the **Task** menu in dialogs for follow-ups and documents, or by right-clicking an item in a section tab, can get from address bar, and from developer tools: (SuperOffice.Environment.SoProtocol)
+### 2
 
-Changing the URL loads different pages, panels and cards in SuperOffice. Take the following URL for example.
+This URL opens the project page displaying the **More** (udef) tab:
 
 `http://localhost/SuperOfficeWeb/default.aspx?project.udef`
 
-This URL opens the project page displaying the **More** (udef) tab. Here, *project* is the target panel, and *udef* is the target upper tab view.
+Here, *project* is the target panel, and *udef* is the target upper tab view.
 
 ![01][img1]
 
-`http://localhost/SuperOfficeWeb/default.aspx?project.links.projectmemberarchive`
+### 3
 
 This link opens the project page displaying the links tab above and the project members grid tab below:
 
+`http://localhost/SuperOfficeWeb/default.aspx?project.links.projectmemberarchive`
+
 ![02][img2]
-
-In the same config file, if we use duplicate soprotocol values for views, it will give us a conflict error message. We can create any number of views, but the soprotocol value of each view should be unique.
-
-See the [SoProtocol targets reference][2] for a list of soprotocol targets.
 
 ## SoProtocol and SuperState
 
@@ -74,9 +73,7 @@ SoProtocol drives the [SuperState][1], meaning when you set an [entity]_id equal
 ## Find current state
 
 To get the SOProtocol link that reflects the current state of the application, use the browser address bar to view the current page information and copy the address.
-
-> [!NOTE]
-> Alternatively, use the **Copy Shortcut** option in the task button when available to get the current SoProtocol.
+Alternatively, use the **Copy Shortcut** option in the task button when available to get the current SoProtocol.
 
 ![03][img3]
 
