@@ -65,18 +65,15 @@ In the **Event** tab, you can specify settings for publishing events.
 > [!TIP]
 > If you click the button ( ![icon][img5] ) to the right of **Confirmation**, you can enter a confirmation text to display in a dialog when an Audience user signs on or off the event. The user must click **Yes** or **No** in this dialog to continue.
 
-## Add project to favorites
-
-[!include[ALT](../../learn/includes/howto-add-favorite.md)]
-
 ## Print project info
 
 1. [!include[Go to project](includes/goto-project.md)]
 2. Click the **Task** button and select **Print**.
 3. In the window which displays the contents to be printed, click **Print**.
 
-## What would you like to do now?
+## Related content
 
+* [Add project as a favorite][9]
 * [Create a project][2]
 * [Edit a project][3]
 * [Merge projects][4]
@@ -92,6 +89,7 @@ In the **Event** tab, you can specify settings for publishing events.
 [5]: delete.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
+[9]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

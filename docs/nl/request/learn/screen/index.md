@@ -28,7 +28,7 @@ Het scherm Verzoeken bevat de volgende secties:
 
 ### Koptekst van verzoek
 
-In de koptekst van het verzoek staan de eigenschappen die zijn gedefinieerd toen het [verzoek werd gemaakt][12]. De koptekst bestaat uit de verzoekstitel, persoon, deadline en verzoek-ID (in het tabblad). Daarnaast kunt u op ![pictogram][img6] klikken om het verzoek in te stellen als een favoriet ![pictogram][img4]. Het verzoek zal dan toegankelijk zijn via **Mijn favorieten** op **Verzoeken** in de Navigator en in de tegel **Mijn favorieten** op een [dashboard][17].
+In de koptekst van het verzoek staan de eigenschappen die zijn gedefinieerd toen het [verzoek werd gemaakt][12]. De koptekst bestaat uit de verzoekstitel, persoon, deadline en verzoek-ID (in het tabblad). Daarnaast kunt u op ![pictogram][img6] klikken om het verzoek in te stellen als een favoriet. Het verzoek zal dan toegankelijk zijn via **Mijn favorieten** op **Verzoeken** in de Navigator en in de tegel **Mijn favorieten** op een [dashboard][17].
 
 ### Berichttypen
 
@@ -134,7 +134,7 @@ De ![pictogram][img1] knop **Taak**: klik op deze knop om toegang te krijgen tot
 [12]: ../howto/create.md
 [13]: ../howto/assign.md
 [14]: ../howto/reply.md
-[15]: ../howto/fav.md
+[15]: ../../../learn/basics/fav.md
 [16]: ../howto/close.md
 [17]: ../../../dashboard/learn/show-requests.md
 
@@ -142,6 +142,5 @@ De ![pictogram][img1] knop **Taak**: klik op deze knop om toegang te krijgen tot
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/personal-settings-small.png
 [img3]: ../../../../media/loc/en/request/request-screen.png
-[img4]: ../../../../../common/icons/favourite-yes.png
 [img5]: ../../../../../common/icons/addcomment.png
 [img6]: ../../../../../common/icons/favourite-no.png

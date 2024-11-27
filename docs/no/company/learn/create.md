@@ -77,20 +77,21 @@ Se videoen som viser hvordan du [oppretter et firma][1].
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Legge til oppføring som favoritt
-
-[!include[How to](../../learn/includes/howto-add-favorite.md)]
-
 ## Duplikater
 
 Hvis du prøver å angi et firma som ligner på et firma som allerede er i SuperOffice CRM, vises dialogboksen **Duplikater** for å hindre at du [utilsiktet registrerer et eksisterende firma][2]. Velg om du vil fortsette å arbeide med den aktuelle oppføringen, eller gå til en av oppføringene som vises nederst i dialogboksen.
 
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
+## Aktuelle emner
+
+* [Legge til oppføring som favoritt][4]
+
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
+[4]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

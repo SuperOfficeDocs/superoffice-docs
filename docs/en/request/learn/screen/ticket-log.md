@@ -28,7 +28,6 @@ This screen shows the log for this request. All events are recorded, including w
 * [Reply][4]
 * [Split request][5]
 * [Edit message][8]
-* [Favourites][6]
 * [Close request][7]
 
 <!-- Referenced links -->
@@ -37,7 +36,6 @@ This screen shows the log for this request. All events are recorded, including w
 [3]: ../howto/forward.md
 [4]: ../howto/reply.md
 [5]: ../howto/split-request.md
-[6]: ../howto/fav.md
 [7]: ../howto/close.md
 [8]: ../howto/edit-message.md
 [9]: ../howto/assign.md

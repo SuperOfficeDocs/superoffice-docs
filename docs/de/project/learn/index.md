@@ -65,10 +65,6 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 > [!TIP]
 > Wenn Sie auf die Schaltfläche (![Symbol][img5]) rechts neben **Bestätigung** klicken, können Sie einen Bestätigungstext eingeben, der in einem Dialogfeld angezeigt wird, wenn sich ein Audience-Benutzer beim Ereignis an- oder abmeldet. Der Benutzer muss in diesem Dialogfeld auf **Ja** oder **Nein** klicken, um fortzufahren.
 
-## Projekt zu Favoriten hinzufügen
-
-[!include[ALT](../../learn/includes/howto-add-favorite.md)]
-
 ## Projekt-Info drucken
 
 1. [!include[Go to project](includes/goto-project.md)]
@@ -77,6 +73,7 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 
 ## Was möchten Sie jetzt tun?
 
+* [Projekt zu Favoriten hinzufügen][9]
 * [Projekt erstellen][2]
 * [Projekt bearbeiten][3]
 * [Projekte zusammenführen][4]
@@ -92,6 +89,7 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 [5]: delete.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
+[9]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

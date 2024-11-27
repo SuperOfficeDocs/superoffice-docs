@@ -29,10 +29,6 @@ I SuperOffice CRM finns det tre olika typer av urval:
 * [Dynamiska urval][8], som alltid uppdateras automatiskt med personer som överensstämmer med urvalskriterierna.
 * [Kombinationsurval][9], vilket är en kombination av två befintliga urval.
 
-## Lägg till en post som favorit
-
-[!include[ALT](../../../learn/includes/howto-add-favorite.md)]
-
 ## Uppgifter
 
 Från knappen **Uppgifter** (i den nedre delen av fönstret) kan du [utföra vissa uppgifter på personer i urvalet][1]. Till exempel skicka ett e-postmeddelande till kontakter kopplade till försäljningen i urvalet.
@@ -132,6 +128,7 @@ Du kan skapa ett urval som innehåller
 
 ## Vad vill du göra nu?
 
+* [Lägg till en post som favorit][11]
 * [Skapa urval][2]
 * [Utföra uppgifter för urval][1]
 * [Visa urval som diagram][4]
@@ -148,6 +145,7 @@ Du kan skapa ett urval som innehåller
 [8]: dynamic-selections.md
 [9]: combined-selections.md
 [10]: ../../../learn/section-tabs/configure-columns.md#calculate
+[11]: ../../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

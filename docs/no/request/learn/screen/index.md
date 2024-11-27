@@ -28,7 +28,7 @@ Bildet Sak har følgende deler:
 
 ### Topptekst for sak
 
-Toppteksten i saken inneholder egenskapene som ble definert da [saken ble opprettet][12]. Toppteksten består av sakstittel, person, tidsfrist og saks-ID (i fanen). I tillegg kan du klikke på ![ikon][img6] for å angi saken som en ![ikon][img4] favoritt. Saken vil deretter være tilgjengelig via **Mine favoritter** på **Saker** i navigatoren, og i figuren **Mine favoritter** på et [dashbord][17].
+Toppteksten i saken inneholder egenskapene som ble definert da [saken ble opprettet][12]. Toppteksten består av sakstittel, person, tidsfrist og saks-ID (i fanen). I tillegg kan du klikke på ![ikon][img6] for å angi saken som en favoritt. Saken vil deretter være tilgjengelig via **Mine favoritter** på **Saker** i navigatoren, og i figuren **Mine favoritter** på et [dashbord][17].
 
 ### Meldingstyper
 
@@ -134,7 +134,7 @@ Sidestolpen Egenskaper for sak inneholder følgende alternativer:
 [12]: ../howto/create.md
 [13]: ../howto/assign.md
 [14]: ../howto/reply.md
-[15]: ../howto/fav.md
+[15]: ../../../learn/basics/fav.md
 [16]: ../howto/close.md
 [17]: ../../../dashboard/learn/show-requests.md
 
@@ -142,6 +142,5 @@ Sidestolpen Egenskaper for sak inneholder følgende alternativer:
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/personal-settings-small.png
 [img3]: ../../../../media/loc/en/request/request-screen.png
-[img4]: ../../../../../common/icons/favourite-yes.png
 [img5]: ../../../../../common/icons/addcomment.png
 [img6]: ../../../../../common/icons/favourite-no.png

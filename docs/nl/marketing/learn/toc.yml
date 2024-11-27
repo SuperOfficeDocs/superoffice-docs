@@ -2,8 +2,6 @@ items:
 - name: Overzicht
   href: index.md
 
-- name: Favorieten toevoegen
-  href: add-fav.md
 - name: Map maken
   href: create-folder.md
 - name: Berichtsjablonen

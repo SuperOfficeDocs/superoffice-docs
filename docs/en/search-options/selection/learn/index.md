@@ -29,10 +29,6 @@ There are three different types of selections in SuperOffice CRM:
 * [Dynamic selection][8], which will always be updated automatically with members that match the selection criteria.
 * [Combined selection][9], which is a combination of two existing selections.
 
-## Add record as a favorite
-
-[!include[ALT](../../../learn/includes/howto-add-favorite.md)]
-
 ## Tasks
 
 From the **Tasks** button (lower part of the screen), you can [perform specific tasks on the members of a selection][1]. For example, send an email to contacts linked to the sales in the selection.
@@ -130,8 +126,9 @@ You can create a selection that contains
 * Mailings with a specific open-rate or click-rate
 * Mailings with high bounce rates
 
-## What would you like to do now?
+## Related content
 
+* [Add selection as a favorite][11]
 * [Create selections][2]
 * [Perform tasks using selections][1]
 * [Display selections as charts][4]
@@ -148,6 +145,7 @@ You can create a selection that contains
 [8]: dynamic-selections.md
 [9]: combined-selections.md
 [10]: ../../../learn/section-tabs/configure-columns.md#calculate
+[11]: ../../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

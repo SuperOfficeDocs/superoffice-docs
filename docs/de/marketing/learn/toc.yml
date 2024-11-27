@@ -1,9 +1,7 @@
 items:
 - name: Überblick
   href: index.md
-
-- name: Favoriten hinzufügen
-  href: add-fav.md
+  
 - name: Ordner erstellen
   href: create-folder.md
 - name: Nachrichtenvorlagen

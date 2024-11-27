@@ -53,10 +53,6 @@ Die Registerkarte **Verkäufe** fungiert auch wie ein [Verkaufssekretariat][8], 
 
 ![Gehen Sie zum Kalender und verschaffen Sie sich einen Überblick über alle noch nicht abgeschlossenen Verkäufe -screenshot][img1]
 
-## Verkauf zu den Favoriten hinzufügen
-
-[!include[add fav](../../learn/includes/howto-add-favorite.md)]
-
 ## Die Hauptkarte Verkauf
 
 ### Die Registerkarte Verkauf
@@ -112,6 +108,7 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 
 ## Was möchten Sie jetzt tun?
 
+* [Verkauf zu den Favoriten hinzufügen][10]
 * [Info über die Ansicht Verkauf][2]
 * [Verkauf erfassen][4]
 * [Beteiligte erstellen][5]
@@ -130,6 +127,7 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 [7]: sales-targets/index.md
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
+[10]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

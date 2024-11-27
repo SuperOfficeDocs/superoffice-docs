@@ -28,7 +28,7 @@ Fönstret Ärende har följande delar:
 
 ### Ärendehuvud
 
-Ärendets huvud innehåller de egenskaper som definierades när [ärendet skapades][12]. Huvudet består av ärendetitel, kontakt, tidsfrist och ärende-ID (i fliken). Du kan dessutom klicka på ![ikon][img6] om du vill ange ärendet som en ![ikon][img4] favorit. Ärendet blir då tillgängligt både via **Mina favoriter** på **Ärendehantering** i navigatorn och på panelen **Mina favoriter** på [dashboarden][17].
+Ärendets huvud innehåller de egenskaper som definierades när [ärendet skapades][12]. Huvudet består av ärendetitel, kontakt, tidsfrist och ärende-ID (i fliken). Du kan dessutom klicka på ![ikon][img6] om du vill ange ärendet som en favorit. Ärendet blir då tillgängligt både via **Mina favoriter** på **Ärendehantering** i navigatorn och på panelen **Mina favoriter** på [dashboarden][17].
 
 ### Meddelandetyper
 
@@ -134,7 +134,7 @@ Knappen ![ikon][img1] **Uppgift**: Du kan klicka på denna knapp för att komma 
 [12]: ../howto/create.md
 [13]: ../howto/assign.md
 [14]: ../howto/reply.md
-[15]: ../howto/fav.md
+[15]: ../../../learn/basics/fav.md
 [16]: ../howto/close.md
 [17]: ../../../dashboard/learn/show-requests.md
 
@@ -142,6 +142,5 @@ Knappen ![ikon][img1] **Uppgift**: Du kan klicka på denna knapp för att komma 
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/personal-settings-small.png
 [img3]: ../../../../media/loc/en/request/request-screen.png
-[img4]: ../../../../../common/icons/favourite-yes.png
 [img5]: ../../../../../common/icons/addcomment.png
 [img6]: ../../../../../common/icons/favourite-no.png

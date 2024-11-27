@@ -29,10 +29,6 @@ SuperOffice CRM verfügt über drei verschiedene Selektionstypen:
 * [Dynamische Selektionen][8], die ständig automatisch um Mitglieder ergänzt werden, die den Selektionskriterien entsprechen.
 * [Kombinierte Selektion][9], die eine Kombination aus zwei vorhandenen Selektionen ist.
 
-## Datensatz als Favoriten hinzufügen
-
-[!include[ALT](../../../learn/includes/howto-add-favorite.md)]
-
 ## Aufgaben
 
 Über die Schaltfläche **Aufgaben** (unten in der Ansicht) können Sie [bestimmte Aufgaben für die Mitglieder einer Selektion ausführen][1]. Senden Sie zum Beispiel eine E-Mail an Personen, die mit den Verkäufen in der Selektion verknüpft sind.
@@ -132,6 +128,7 @@ Sie können eine Selektion mit folgenden Elementen erstellen:
 
 ## Was möchten Sie jetzt tun?
 
+* [Datensatz als Favoriten hinzufügen][11]
 * [Selektionen erstellen][2]
 * [Aufgaben in der Ansicht Selektion ausführen][1]
 * [Selektionen als Diagramme anzeigen][4]
@@ -148,6 +145,7 @@ Sie können eine Selektion mit folgenden Elementen erstellen:
 [8]: dynamic-selections.md
 [9]: combined-selections.md
 [10]: ../../../learn/section-tabs/configure-columns.md#calculate
+[11]: ../../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

@@ -2,8 +2,6 @@ items:
 - name: Oversigt
   href: index.md
 
-- name: Tilføj foretrukne
-  href: add-fav.md
 - name: Opret mappe
   href: create-folder.md
 - name: Meddelelsesskabeloner

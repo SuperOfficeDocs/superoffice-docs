@@ -37,7 +37,7 @@ Ange egenskaper enligt anvisningarna i steg 2 i instruktionsguiden [Skapa urval]
 
 ## Slutför
 
-1. [!include[Add to Favorites](includes/add-to-fav.md)]
+1. Klicka eventuellt på stjärnikonen (![ikon][img1]) för att lägga till urvalet i [dina favoriter][2].
 
 1. Klicka på **Spara**.
 
@@ -45,3 +45,7 @@ När urvalet har sparats, kan du [redigera det](../update/index.md) för att än
 
 <!-- Referenced links -->
 [1]: tutorial.yml
+[2]: ../../../../learn/basics/fav.md
+
+<!-- Referenced images -->
+[img1]: ../../../../../../common/icons/favourite-no.png

@@ -46,6 +46,6 @@ items:
   durationInMinutes: 3
   stepNumber: 3
   content: |
-    1. [!include[Add to Favorites](includes/add-to-fav.md)]
+    1. Optionally, click the star icon (../../../../../../common/icons/favourite-no.png) to add the selection to [your favorites](../../../../learn/basics/fav.md).
 
     1. When you have finished defining the core data for the selection, click **Save**.

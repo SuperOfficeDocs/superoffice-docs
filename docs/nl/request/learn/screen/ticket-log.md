@@ -28,7 +28,6 @@ Dit scherm bevat het logboek voor dit verzoek. Alle gebeurtenissen worden vastge
 * [Beantwoorden][4]
 * [Verzoek opsplitsen][5]
 * [Bericht bewerken][8]
-* [Favorieten][6]
 * [Verzoek sluiten][7]
 
 <!-- Referenced links -->
@@ -37,7 +36,6 @@ Dit scherm bevat het logboek voor dit verzoek. Alle gebeurtenissen worden vastge
 [3]: ../howto/forward.md
 [4]: ../howto/reply.md
 [5]: ../howto/split-request.md
-[6]: ../howto/fav.md
 [7]: ../howto/close.md
 [8]: ../howto/edit-message.md
 [9]: ../howto/assign.md

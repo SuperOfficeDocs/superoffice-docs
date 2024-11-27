@@ -28,7 +28,7 @@ The Request screen has the following sections:
 
 ### Request header
 
-The header of the request contains the properties defined when the [request was created][12]. The header consists of the request title, contact, deadline and request ID (in the tab). In addition, you can click ![icon][img6] to set the request as a ![icon][img4] favourite. The request will then be accessible via **My favourites** on **Requests** in the Navigator, and in the **My favourites** tile on a [dashboard][17].
+The header of the request contains the properties defined when the [request was created][12]. The header consists of the request title, contact, deadline and request ID (in the tab). In addition, you can click ![icon][img6] to set the request as a favorite. The request will then be accessible via **My favorites** on **Requests** in the Navigator, and in the **My favorites** tile on a [dashboard][17].
 
 ### Message types
 
@@ -116,7 +116,7 @@ The request properties sidebar contains the following options:
 * [Reply][14]
 * [Split request][6]
 * [Edit message][8]
-* [Favourites][15]
+* [Favorites][15]
 * [Close request][16]
 
 <!-- Referenced links -->
@@ -134,7 +134,7 @@ The request properties sidebar contains the following options:
 [12]: ../howto/create.md
 [13]: ../howto/assign.md
 [14]: ../howto/reply.md
-[15]: ../howto/fav.md
+[15]: ../../../learn/basics/fav.md
 [16]: ../howto/close.md
 [17]: ../../../dashboard/learn/show-requests.md
 
@@ -142,6 +142,5 @@ The request properties sidebar contains the following options:
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/personal-settings-small.png
 [img3]: ../../../../media/loc/en/request/request-screen.png
-[img4]: ../../../../../common/icons/favourite-yes.png
 [img5]: ../../../../../common/icons/addcomment.png
 [img6]: ../../../../../common/icons/favourite-no.png

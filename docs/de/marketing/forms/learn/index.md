@@ -111,7 +111,7 @@ Durch die Double-Opt-In-Funktion wird sichergestellt, dass die richtige E-Mail-A
 [5]: view-statistics.md
 [6]: process-submissions.md
 [7]: form-templates.md
-[11]: ../../learn/add-fav.md
+[11]: ../../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-form.png

@@ -53,10 +53,6 @@ Het tabblad **Verkoop** fungeert ook als [een verkoopsecretaris][8] door al uw g
 
 ![Ga naar het Agenda voor een overzicht van alle verkopen die nog niet zijn afgerond -screenshot][img1]
 
-## Een verkoop toevoegen aan favorieten
-
-[!include[add fav](../../learn/includes/howto-add-favorite.md)]
-
 ## De hoofdkaart van Verkoop
 
 ### Het tabblad Verkoop
@@ -112,6 +108,7 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 
 ## Wat wilt u nu doen?
 
+* [Een verkoop toevoegen aan favorieten][10]
 * [Lees over het scherm Verkoop][2]
 * [Een verkoop registreren][4]
 * [Belanghebbenden registreren][5]
@@ -130,6 +127,7 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 [7]: sales-targets/index.md
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
+[10]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

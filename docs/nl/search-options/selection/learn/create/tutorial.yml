@@ -46,6 +46,6 @@ items:
   durationInMinutes: 3
   stepNumber: 5
   content: |
-    1. [!include[Toevoegen aan favorieten](includes/add-to-fav.md)]
+    1. Klik eventueel op het sterpictogram (![pictogram](../../../../../../common/icons/favourite-no.png)) om de selectie aan [je favorieten](../../../../learn/basics/fav.md) toe te voegen.
 
     1. Als u klaar bent met het definiëren van de kerngegevens voor de selectie, klikt u op **Opslaan**.

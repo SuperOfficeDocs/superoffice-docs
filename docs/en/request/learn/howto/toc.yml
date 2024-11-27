@@ -17,8 +17,6 @@ items:
     href: reply.md
   - name: Add FAQ entries to messages
     href: ../../../faq/learn/add-to-request.md
-  - name: Add request to favourites
-    href: fav.md
   - name: Tags
     href: ../tags.md
   - name: Keep track of messages

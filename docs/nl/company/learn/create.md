@@ -77,20 +77,21 @@ Bekijk de video over [een bedrijf maken][1].
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Record toevoegen als een favoriet
-
-[!include[How to](../../learn/includes/howto-add-favorite.md)]
-
 ## Duplicaten
 
 Als u een bedrijf probeert in te voeren dat lijkt op een bedrijf dat al in SuperOffice CRM staat, wordt het dialoogvenster **Duplicaten** weergegeven om te voorkomen dat u [onbedoeld een bestaand bedrijf registreert.][2] Kies of u met de huidige record wilt blijven werken of ga naar een van de records die onder aan het dialoogvenster worden weergegeven.
 
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
+## Verwante onderwerpen
+
+* [Record toevoegen als een favoriet][4]
+
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
+[4]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

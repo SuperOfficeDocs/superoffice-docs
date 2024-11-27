@@ -43,7 +43,7 @@ Als verzoekbehandelaar bent u niet altijd in staat zelf een verzoek te beantwoor
 
 <!-- Referenced links -->
 [1]: ../index.md#open
-[2]: fav.md
+[2]: ../../../learn/basics/fav.md
 [3]: ../category/index.md
 [4]: forward.md
 

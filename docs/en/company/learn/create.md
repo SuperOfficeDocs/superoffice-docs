@@ -77,20 +77,21 @@ Check out the video on how to [create a company][1].
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Add record as a favorite
-
-[!include[How to](../../learn/includes/howto-add-favorite.md)]
-
 ## Duplicates
 
 If you try to enter a company that is similar to one that is already in SuperOffice CRM, the **Duplicates** dialog appears, to prevent you from [unintentionally registering an existing company][2]. Choose if you want to continue working with the current record or go to one of the records listed at the bottom of the dialog.
 
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
+## Related content
+
+* [Add company as a favorite][4]
+
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
+[4]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

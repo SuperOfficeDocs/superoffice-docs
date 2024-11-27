@@ -77,20 +77,21 @@ Sehen Sie sich das Video an, wie Sie eine [Firma erstellen][1].
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Datensatz als Favoriten hinzufügen
-
-[!include[How to](../../learn/includes/howto-add-favorite.md)]
-
 ## Duplikate
 
 Wenn Sie versuchen, eine Firma einzugeben, die einer Firma ähnelt, die bereits in SuperOffice CRM vorhanden ist, wird das Dialogfeld **Duplikate** angezeigt, um zu verhindern, dass Sie [unbeabsichtigt eine vorhandene Firma erstellen][2]. Wählen Sie aus, ob Sie mit dem aktuellen Datensatz weiterarbeiten oder zu einem der Datensätze gehen möchten, die am unteren Rand des Dialogfelds aufgeführt sind.
 
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
+## Verwandte Themen
+
+* [Datensatz als Favoriten hinzufügen][4]
+
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
+[4]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

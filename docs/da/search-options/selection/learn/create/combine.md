@@ -37,7 +37,7 @@ Angiv egenskaber ved at følge vejledningen i trin 2 i [Opret et udvalg][1].
 
 ## Fuldfør
 
-1. [!include[Add to Favorites](includes/add-to-fav.md)]
+1. Klik på stjerneikonet (![ikon][img1]) for eventuelt at føje udvalget til [dine favoritter][2].
 
 1. Klik på **Gem**.
 
@@ -45,3 +45,7 @@ Når udvalget er gemt, kan du [redigere det](../update/index.md) for at ændre b
 
 <!-- Referenced links -->
 [1]: tutorial.yml
+[2]: ../../../../learn/basics/fav.md
+
+<!-- Referenced images -->
+[img1]: ../../../../../../common/icons/favourite-no.png

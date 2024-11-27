@@ -53,10 +53,6 @@ The **Sales** tab also acts like [a sales secretary][8] by highlighting all your
 
 ![Go to the Diary and get an overview of all the sales that are not yet completed -screenshot][img1]
 
-## Add a sale to favorites
-
-[!include[add fav](../../learn/includes/howto-add-favorite.md)]
-
 ## The Sale main card
 
 ### The Sale tab
@@ -117,8 +113,9 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 2. Click the **Task** button and select **Print**.
 3. In the window which displays the contents to be printed, click **Print**.
 
-## What would you like to do now?
+## Related content
 
+* [Add sale as a favorite][10]
 * [Read about the Sale screen][2]
 * [Register a sale][4]
 * [Create stakeholders][5]
@@ -137,6 +134,7 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 [7]: sales-targets/index.md
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
+[10]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
