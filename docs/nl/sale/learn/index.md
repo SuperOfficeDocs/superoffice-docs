@@ -100,12 +100,6 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Informatie over een verkoop afdrukken
-
-1. Selecteer de betreffende verkoop.
-2. Klik op de knop **Taak** en selecteer **Afdrukken**.
-3. Klik in het venster dat de af te drukken inhoud weergeeft op **Afdrukken**.
-
 ## Wat wilt u nu doen?
 
 * [Een verkoop toevoegen aan favorieten][10]
