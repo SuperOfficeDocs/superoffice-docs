@@ -44,7 +44,7 @@ Het onderste deel van het scherm bestaat uit de volgende [standaardsectietabblad
 * [Een bedrijf kopiëren][4]
 * [Bedrijven samenvoegen][5]
 * [Een bedrijf verwijderen][6]
-* [Een bedrijf afdrukken][7]
+* [Bedrijfsinfo afdrukken][7]
 * [Bedrijfsgegevens bulksgewijs bijwerken][9]
 * [Massaal contacten en bedrijven uit selectie verwijderen][10]
 * [De Prullenbak gebruiken om bedrijven en contactpersonen te herstellen][11]
@@ -56,7 +56,7 @@ Het onderste deel van het scherm bestaat uit de volgende [standaardsectietabblad
 [4]: copy.md
 [5]: merge-companies.md
 [6]: delete.md
-[7]: print.md
+[7]: ../../learn/basics/print.md
 [8]: screen/index.md
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
 [10]: ../../search-options/selection/learn/howto/mass-delete.md

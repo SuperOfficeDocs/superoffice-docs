@@ -42,8 +42,6 @@ items:
     href: linking-documents-to-follow-ups.md
   - name: Folgeaufgabe als E-Mail senden
     href: send-as-email.md
-  - name: Folgeaufgaben und Kalender drucken
-    href: print.md
 
 - name: Einladungen
   href: invitation/toc.yml

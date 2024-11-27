@@ -42,8 +42,6 @@ items:
     href: linking-documents-to-follow-ups.md
   - name: Skicka en händelse som ett e-postmeddelande
     href: send-as-email.md
-  - name: Fönstret Skriva ut händelser och kalender
-    href: print.md
 
 - name: Förfrågningar
   href: invitation/toc.yml

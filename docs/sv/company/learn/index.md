@@ -44,7 +44,7 @@ Längst ned i fönstret finns följande [detaljkort som standard][8]:
 * [Kopiera ett företag][4]
 * [Slå ihop företag][5]
 * [Ta bort ett företag][6]
-* [Skriva ut ett företag][7]
+* [Skriva ut företagsinformation][7]
 * [Massuppdatera företagsinformation][9]
 * [Ta bort flera kontakter och företag samtidigt från ett urval][10]
 * [Använd Papperskorgen för att återskapa företag och kontakter][11]
@@ -56,7 +56,7 @@ Längst ned i fönstret finns följande [detaljkort som standard][8]:
 [4]: copy.md
 [5]: merge-companies.md
 [6]: delete.md
-[7]: print.md
+[7]: ../../learn/basics/print.md
 [8]: screen/index.md
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
 [10]: ../../search-options/selection/learn/howto/mass-delete.md

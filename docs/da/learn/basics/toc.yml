@@ -9,6 +9,8 @@ items:
     href: history.md
   - name: Sådan tager du noter
     href: notes.md
+  - name: Udskrivning af poster
+    href: print.md
   - name: Dublerede kontroller
     href: duplicates.md
   - name: Slet og gendan

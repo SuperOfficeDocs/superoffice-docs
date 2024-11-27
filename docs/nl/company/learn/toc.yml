@@ -17,8 +17,6 @@ items:
     href: merge-companies.md
   - name: Een bedrijf verwijderen
     href: delete.md
-  - name: Bedrijfsinfo afdrukken
-    href: print.md
   - name: Een relatie toevoegen
     href: add-relation.md
   - name: Een relatie verwijderen

@@ -116,6 +116,7 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 * [Angebot erstellen][1]
 * [Mit Verkaufszielen arbeiten][7]
 * [Verkäufe mit dem Status aufgeschoben, verkauft und verloren][9]
+* [Was möchten Sie jetzt tun?][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -128,6 +129,7 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

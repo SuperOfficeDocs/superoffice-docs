@@ -9,6 +9,8 @@ items:
     href: history.md
   - name: Taking notes
     href: notes.md
+  - name: Print records
+    href: print.md
   - name: Duplicate checks
     href: duplicates.md
   - name: Delete and restore

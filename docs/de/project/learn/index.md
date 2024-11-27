@@ -65,12 +65,6 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 > [!TIP]
 > Wenn Sie auf die Schaltfläche (![Symbol][img5]) rechts neben **Bestätigung** klicken, können Sie einen Bestätigungstext eingeben, der in einem Dialogfeld angezeigt wird, wenn sich ein Audience-Benutzer beim Ereignis an- oder abmeldet. Der Benutzer muss in diesem Dialogfeld auf **Ja** oder **Nein** klicken, um fortzufahren.
 
-## Projekt-Info drucken
-
-1. [!include[Go to project](includes/goto-project.md)]
-2. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Drucken**.
-3. Klicken Sie im Fenster, in dem die zu druckenden Inhalte angezeigt werden, auf die Schaltfläche **Drucken**.
-
 ## Was möchten Sie jetzt tun?
 
 * [Projekt zu Favoriten hinzufügen][9]
@@ -80,6 +74,7 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 * [Projekt löschen][5]
 * [Ein Dokument an Projektmitglieder senden][7]
 * [Projektleitfaden][1]
+* [Projekt-Info drucken][11]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -90,6 +85,7 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

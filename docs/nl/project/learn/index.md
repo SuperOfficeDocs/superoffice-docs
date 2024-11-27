@@ -65,12 +65,6 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 > [!TIP]
 > Als u op de knop ( ![pictogram][img5] ) rechts van **Bevestiging** klikt, kunt u een bevestigingstekst invoeren die in een dialoogvenster wordt weergegeven wanneer een Audience-gebruiker zich voor de gebeurtenis aan- of afmeldt. De gebruiker moet in dit dialoogvenster op **Ja** of **Nee** klikken om verder te gaan.
 
-## Projectinformatie afdrukken
-
-1. [!include[Go to project](includes/goto-project.md)]
-2. Klik op de knop **Taak** en selecteer **Afdrukken**.
-3. Klik in het venster dat de af te drukken inhoud weergeeft op **Afdrukken**.
-
 ## Wat wilt u nu doen?
 
 * [Project toevoegen aan favorieten][9]
@@ -80,6 +74,7 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 * [Een project verwijderen][5]
 * [Een document verzenden naar projectleden][7]
 * [Projectgids][1]
+* [Projectinformatie afdrukken][11]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -90,6 +85,7 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

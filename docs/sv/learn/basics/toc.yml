@@ -9,6 +9,8 @@ items:
     href: history.md
   - name: Anteckna
     href: notes.md
+  - name: Utskrift av poster
+    href: print.md
   - name: Duplicera kontroller
     href: duplicates.md
   - name: Ta bort och återställa

@@ -44,7 +44,7 @@ Nederst i -bildet finner du følgende [standard detaljkort][8]:
 * [Kopiere et firma][4]
 * [Slå sammen firmaer][5]
 * [Slette et firma][6]
-* [Skrive ut et firma][7]
+* [Skriv ut firmainformasjon][7]
 * [Masseredigering av firmainformasjon][9]
 * [Massesletting av personer og firmaer fra utvalg][10]
 * [Bruke Papirkurv til å gjenopprette firmaer og personer][11]
@@ -56,7 +56,7 @@ Nederst i -bildet finner du følgende [standard detaljkort][8]:
 [4]: copy.md
 [5]: merge-companies.md
 [6]: delete.md
-[7]: print.md
+[7]: ../../learn/basics/print.md
 [8]: screen/index.md
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
 [10]: ../../search-options/selection/learn/howto/mass-delete.md

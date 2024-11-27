@@ -116,6 +116,7 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 * [Een offerte maken][1]
 * [Werken met verkooptargets][7]
 * [Vastgelopen, verkochte en verloren verkopen][9]
+* [Informatie over een verkoop afdrukken][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -128,6 +129,7 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

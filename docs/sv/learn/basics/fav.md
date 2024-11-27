@@ -5,7 +5,7 @@ description: Denna guide hjälper dig att förstå hur du använder favoriter ef
 keywords: favoriter
 author: Bergfrid Dias, Kirsti Aakerholt
 date: 11.29.2024
-verion: 10.3
+version: 10.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -44,7 +44,7 @@ Am unteren Rand der Ansicht befinden sich die folgenden [Standard-Bereichsregist
 * [Firma kopieren][4]
 * [Firmen zusammenführen][5]
 * [Firma löschen][6]
-* [Firma drucken][7]
+* [Firmeninformation drucken][7]
 * [Massenabgleich der Firmeninformation][9]
 * [Massenlöschung von Personen und Firmen aus der Selektion][10]
 * [Verwendung des Papierkorbs zum Wiederherstellen von Firmen und Personen][11]
@@ -56,7 +56,7 @@ Am unteren Rand der Ansicht befinden sich die folgenden [Standard-Bereichsregist
 [4]: copy.md
 [5]: merge-companies.md
 [6]: delete.md
-[7]: print.md
+[7]: ../../learn/basics/print.md
 [8]: screen/index.md
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
 [10]: ../../search-options/selection/learn/howto/mass-delete.md

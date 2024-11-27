@@ -42,8 +42,6 @@ items:
     href: linking-documents-to-follow-ups.md
   - name: Sende en oppfølging som e-post
     href: send-as-email.md
-  - name: Skrive ut oppfølginger og Dagbok-skjerm
-    href: print.md
 
 - name: Invitasjoner
   href: invitation/toc.yml

@@ -9,6 +9,8 @@ items:
     href: history.md
   - name: Notizen machen
     href: notes.md
+  - name: Drucken von Datensätzen
+    href: print.md
   - name: Duplikat-Prüfungen
     href: duplicates.md
   - name: Löschen und Wiederherstellen

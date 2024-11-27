@@ -56,7 +56,7 @@ The bottom of the screen contains the following [default section tabs][8]:
 [4]: copy.md
 [5]: merge-companies.md
 [6]: delete.md
-[7]: print.md
+[7]: ../../learn/basics/print.md
 [8]: screen/index.md
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
 [10]: ../../search-options/selection/learn/howto/mass-delete.md

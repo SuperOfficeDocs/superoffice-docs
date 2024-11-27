@@ -17,8 +17,6 @@ items:
     href: merge-companies.md
   - name: Firma löschen
     href: delete.md
-  - name: Firmeninformation drucken
-    href: print.md
   - name: Beziehung hinzufügen
     href: add-relation.md
   - name: Beziehung löschen

@@ -52,6 +52,7 @@ De agenda bestaat uit [vier tabbladen][24]: Tabblad **Dag**, tabblad **Week**, t
 * [Vervolgactiviteit naar de agenda kopiëren][21]
 * [Vervolgactiviteit verwijderen][17]
 * [Videovergaderingen][23]
+* [Vervolgactiviteiten afdrukken][14]
 
 <!-- Referenced links -->
 [2]: group-view.md
@@ -59,6 +60,7 @@ De agenda bestaat uit [vier tabbladen][24]: Tabblad **Dag**, tabblad **Week**, t
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [13]: screen/sales-tab.md
+[14]: ../../learn/basics/print.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: edit-follow-up.md#delete

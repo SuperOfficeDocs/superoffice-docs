@@ -65,12 +65,6 @@ In the **Event** tab, you can specify settings for publishing events.
 > [!TIP]
 > If you click the button ( ![icon][img5] ) to the right of **Confirmation**, you can enter a confirmation text to display in a dialog when an Audience user signs on or off the event. The user must click **Yes** or **No** in this dialog to continue.
 
-## Print project info
-
-1. [!include[Go to project](includes/goto-project.md)]
-2. Click the **Task** button and select **Print**.
-3. In the window which displays the contents to be printed, click **Print**.
-
 ## Related content
 
 * [Add project as a favorite][9]
@@ -80,6 +74,7 @@ In the **Event** tab, you can specify settings for publishing events.
 * [Delete a project][5]
 * [Send a document to project members][7]
 * [Project guide][1]
+* [Print project info][11]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -90,6 +85,7 @@ In the **Event** tab, you can specify settings for publishing events.
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

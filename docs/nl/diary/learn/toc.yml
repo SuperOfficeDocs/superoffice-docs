@@ -42,8 +42,6 @@ items:
     href: linking-documents-to-follow-ups.md
   - name: Een vervolgactiviteit per e-mail verzenden
     href: send-as-email.md
-  - name: Vervolgactiviteiten en scherm Agenda afdrukken
-    href: print.md
 
 - name: Uitnodigingen
   href: invitation/toc.yml

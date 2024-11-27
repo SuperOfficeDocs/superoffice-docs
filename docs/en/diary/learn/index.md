@@ -54,6 +54,7 @@ The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab,
 * [Delete follow-up][17]
 * [Video meetings][23]
 * [Working with follow-ups in API][50]
+* [Print follow-ups][14]
 
 <!-- Referenced links -->
 [2]: group-view.md
@@ -61,6 +62,7 @@ The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab,
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [13]: screen/sales-tab.md
+[14]: ../../learn/basics/print.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: edit-follow-up.md#delete
