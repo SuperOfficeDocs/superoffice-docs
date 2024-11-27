@@ -65,12 +65,6 @@ Under fanen **Arrangement** kan du angive indstillinger for publicering af Arran
 > [!TIP]
 > Hvis du klikker på knappen (![ikon][img5]) til højre for **Bekræftelse**, kan du indtaste en bekræftelsestekst, der skal vises i en dialogboks, når en Audience-bruger tilmelder eller afmelder sig arrangementet. Brugeren skal klikke på **Ja** eller **Nej** i denne dialogboks for at fortsætte.
 
-## Udskriv projektinformationer
-
-1. [!include[Go to project](includes/goto-project.md)]
-2. Klik på knappen **Opgave**, og vælg **Udskriv**.
-3. I vinduet, som viser indhold, der skal udskrives, klikker du på **Udskriv**.
-
 ## Hvad vil du foretage dig nu?
 
 * [Føj projekt til favoritter][9]
@@ -80,6 +74,7 @@ Under fanen **Arrangement** kan du angive indstillinger for publicering af Arran
 * [Slet et projekt][5]
 * [Send et dokument til projektdeltagere][7]
 * [Projektvejledning][1]
+* [Udskriv projektinformationer][11]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -90,6 +85,7 @@ Under fanen **Arrangement** kan du angive indstillinger for publicering af Arran
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

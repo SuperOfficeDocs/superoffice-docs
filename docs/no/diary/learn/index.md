@@ -52,6 +52,7 @@ Dagboken består av [fire faner][24]: **Dag**, **Uke**, **Måned** og **Oversikt
 * [Kopiere oppfølging til Dagbok][21]
 * [Slette oppfølging][17]
 * [Videomøter][23]
+* [Skrive ut oppfølginger][14]
 
 <!-- Referenced links -->
 [2]: group-view.md
@@ -59,6 +60,7 @@ Dagboken består av [fire faner][24]: **Dag**, **Uke**, **Måned** og **Oversikt
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [13]: screen/sales-tab.md
+[14]: ../../learn/basics/print.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: edit-follow-up.md#delete

@@ -100,12 +100,6 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Info über einen Verkauf drucken
-
-1. Rufen Sie den gewünschten Verkauf auf.
-2. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Drucken**.
-3. Klicken Sie im Fenster, in dem die zu druckenden Inhalte angezeigt werden, auf die Schaltfläche **Drucken**.
-
 ## Was möchten Sie jetzt tun?
 
 * [Verkauf zu den Favoriten hinzufügen][10]
@@ -116,6 +110,7 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 * [Angebot erstellen][1]
 * [Mit Verkaufszielen arbeiten][7]
 * [Verkäufe mit dem Status aufgeschoben, verkauft und verloren][9]
+* [Info über einen Verkauf drucken][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -128,6 +123,7 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

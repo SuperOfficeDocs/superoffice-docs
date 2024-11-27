@@ -42,8 +42,6 @@ items:
     href: linking-documents-to-follow-ups.md
   - name: Send a follow-up as an email
     href: send-as-email.md
-  - name: Print follow-ups and Diary screen
-    href: print.md
 
 - name: Invitations
   href: invitation/toc.yml

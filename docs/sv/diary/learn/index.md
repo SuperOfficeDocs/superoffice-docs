@@ -52,6 +52,7 @@ Kalendern består av [fyra flikar][24]: Flikarna **Dag**, **Vecka**, **Månad** 
 * [Kopiera en händelse till kalendern][21]
 * [Ta bort händelse][17]
 * [Videomöten][23]
+* [Skriva ut händelser][14]
 
 <!-- Referenced links -->
 [2]: group-view.md
@@ -59,6 +60,7 @@ Kalendern består av [fyra flikar][24]: Flikarna **Dag**, **Vecka**, **Månad** 
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [13]: screen/sales-tab.md
+[14]: ../../learn/basics/print.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: edit-follow-up.md#delete

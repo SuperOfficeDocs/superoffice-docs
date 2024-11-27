@@ -51,6 +51,7 @@ Dagbogen består af [fire faner][24]: **Dag**, **Uge**, **Måned** og **Oversigt
 * [Ændre sluttidspunktet for opfølgning][20]
 * [Kopiering af opfølgning til Dagbogen][21]
 * [Videomøder][23]
+* [Udskriv opfølgninger][14]
 
 <!-- Referenced links -->
 [2]: group-view.md
@@ -58,6 +59,7 @@ Dagbogen består af [fire faner][24]: **Dag**, **Uge**, **Måned** og **Oversigt
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [13]: screen/sales-tab.md
+[14]: ../../learn/basics/print.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [18]: create-follow-up.md

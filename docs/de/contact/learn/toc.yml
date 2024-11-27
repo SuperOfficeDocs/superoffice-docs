@@ -25,8 +25,6 @@ items:
     href: add-relation.md
   - name: Beziehung löschen
     href: delete-relation.md
-  - name: Drucken
-    href: print.md
 - name: Datenschutzeinstellungen und DSGVO
   href: ../../security/privacy/learn/toc.yml
   topicHref: ../../security/privacy/learn/index.md

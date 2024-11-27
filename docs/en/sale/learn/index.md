@@ -107,12 +107,6 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Print info about a sale
-
-1. Go to the required sale.
-2. Click the **Task** button and select **Print**.
-3. In the window which displays the contents to be printed, click **Print**.
-
 ## Related content
 
 * [Add sale as a favorite][10]
@@ -123,6 +117,7 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 * [Create a quote][1]
 * [Work with sales targets][7]
 * [Stalled, sold, and lost sales][9]
+* [Print info about a sale][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -135,6 +130,7 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

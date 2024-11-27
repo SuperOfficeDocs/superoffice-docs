@@ -65,12 +65,6 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 > [!TIP]
 > Om du klickar på knappen ( ![ikon][img5] ) till höger om **Bekräftelse**, kan du ange en bekräftelsetext som ska visas i en dialogruta när en Audience-användare anmäler eller avanmäler sig till arrangemanget. Användaren måste klicka på **Ja** eller **Nej** i denna dialogruta för att fortsätta.
 
-## Skriva ut projektinformation
-
-1. [!include[Go to project](includes/goto-project.md)]
-2. Klicka på **Uppgift**-knappen och välj **Skriv ut**.
-3. I fönstret som visar innehållet som ska skrivas ut klickar du på **Skriv ut**.
-
 ## Vad vill du göra nu?
 
 * [Lägg till projekt i favoriter][9]
@@ -80,6 +74,7 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 * [Ta bort ett projekt][5]
 * [Skicka ett dokument till projektdeltagare][7]
 * [Projektguide][1]
+* [Skriva ut projektinformation][11]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -90,6 +85,7 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

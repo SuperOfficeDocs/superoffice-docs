@@ -100,12 +100,6 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Skriva ut information om en försäljning
-
-1. Gå till den önskade försäljningen.
-2. Klicka på **Uppgift**-knappen och välj **Skriv ut**.
-3. I fönstret som visar innehållet som ska skrivas ut klickar du på **Skriv ut**.
-
 ## Vad vill du göra nu?
 
 * [Lägg till en försäljning i favoriter][10]
@@ -116,6 +110,7 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 * [Skapa offert][1]
 * [Arbeta med försäljningsmål][7]
 * [Uppskjutna, sålda och förlorade försäljningar][9]
+* [Skriva ut information om en försäljning][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -128,6 +123,7 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

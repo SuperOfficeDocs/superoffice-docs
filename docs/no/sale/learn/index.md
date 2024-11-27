@@ -107,12 +107,6 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Skrive ut informasjon om et salg
-
-1. Gå til det ønskede salget.
-2. Klikk på **Oppgave**-knappen og velg **Skriv ut**.
-3. I vinduet som viser innholdet som skal skrives ut, klikker du **Skriv ut**.
-
 ## Hva vil du gjøre nå?
 
 * [Legge til et salg i favoritter][10]
@@ -123,6 +117,7 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 * [Opprette tilbud][1]
 * [Arbeide med salgsmål][7]
 * [Utsatte, solgte og tapte salg][9]
+* [Skrive ut informasjon om et salg][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -135,6 +130,7 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

@@ -44,7 +44,7 @@ Nederst i skærmbilledet vises følgende [standard-detaljefaner][8]:
 * [Kopiere et firma][4]
 * [Flet kontakter][5]
 * [Slette et firma][6]
-* [Udskrive et firma][7]
+* [Udskrive oplysninger om et firma][7]
 * [Opdatere mange Virksomhedsoplysninger][9]
 * [Masseslette kontakter og firmaer fra markeringen][10]
 * [Bruge papirkurven til at gendanne firmaer og personer][11]
@@ -56,7 +56,7 @@ Nederst i skærmbilledet vises følgende [standard-detaljefaner][8]:
 [4]: copy.md
 [5]: merge-companies.md
 [6]: delete.md
-[7]: print.md
+[7]: ../../learn/basics/print.md
 [8]: screen/index.md
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
 [10]: ../../search-options/selection/learn/howto/mass-delete.md

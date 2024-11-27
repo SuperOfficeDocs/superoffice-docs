@@ -100,12 +100,6 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Informatie over een verkoop afdrukken
-
-1. Selecteer de betreffende verkoop.
-2. Klik op de knop **Taak** en selecteer **Afdrukken**.
-3. Klik in het venster dat de af te drukken inhoud weergeeft op **Afdrukken**.
-
 ## Wat wilt u nu doen?
 
 * [Een verkoop toevoegen aan favorieten][10]
@@ -116,6 +110,7 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 * [Een offerte maken][1]
 * [Werken met verkooptargets][7]
 * [Vastgelopen, verkochte en verloren verkopen][9]
+* [Informatie over een verkoop afdrukken][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -128,6 +123,7 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

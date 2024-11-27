@@ -9,6 +9,8 @@ items:
     href: history.md
   - name: Notities maken
     href: notes.md
+  - name: Records afdrukken
+    href: print.md
   - name: Controle op duplicaten
     href: duplicates.md
   - name: Verwijderen en herstellen

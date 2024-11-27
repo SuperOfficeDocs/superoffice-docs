@@ -100,12 +100,6 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Udskriv info om et salg
-
-1. Gå til det ønskede salg.
-2. Klik på knappen **Opgave**, og vælg **Udskriv**.
-3. I vinduet, som viser indhold, der skal udskrives, klikker du på **Udskriv**.
-
 ## Hvad vil du foretage dig nu?
 
 * [Føj et salg til foretrukne][10]
@@ -116,6 +110,7 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 * [Oprettelse af tilbud][1]
 * [Arbejde med salgsmål][7]
 * [Udsatte, solgte og mistede salg][9]
+* [Udskriv info om et salg][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -128,6 +123,7 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
+[11]: ../../learn/basics/print.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

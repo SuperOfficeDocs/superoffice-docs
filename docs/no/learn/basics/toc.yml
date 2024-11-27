@@ -9,6 +9,8 @@ items:
     href: history.md
   - name: Ta notater
     href: notes.md
+  - name: Utskrift av poster
+    href: print.md
   - name: Duplisere kontroller
     href: duplicates.md
   - name: Slett og gjenopprett

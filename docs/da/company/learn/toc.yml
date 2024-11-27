@@ -17,8 +17,6 @@ items:
     href: merge-companies.md
   - name: Slet et firma
     href: delete.md
-  - name: Udskriv firmainfo
-    href: print.md
   - name: Tilføje en relation
     href: add-relation.md
   - name: Slet en relation
