@@ -43,7 +43,7 @@ Som ärendehandläggare är det inte alltid du kan besvara ett ärende på egen 
 
 <!-- Referenced links -->
 [1]: ../index.md#open
-[2]: fav.md
+[2]: ../../../learn/basics/fav.md
 [3]: ../category/index.md
 [4]: forward.md
 

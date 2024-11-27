@@ -28,7 +28,7 @@ Der Ansicht Anfrage enthält folgende Abschnitte:
 
 ### Kopfzeile der Anfrage
 
-Die Kopfzeile der Anfrage enthält die Eigenschaften, die während des Vorgangs [Anfrage wurde erstellt][12] definiert wurden. Die Kopfzeile umfasst den Titel der Anfrage, die Person, die Bearbeitungsfrist und die Anfrage-ID (in der Registerkarte). Zusätzlich können Sie auf ![Symbol][img6] klicken und die Anfrage als ![Symbol][img4] Favoriten einstellen. Die Anfrage ist dann im Navigator über **Meine Favoriten** unter **Anfragen** und in der Kachel **Meine Favoriten** im [Dashboard][17] verfügbar.
+Die Kopfzeile der Anfrage enthält die Eigenschaften, die während des Vorgangs [Anfrage wurde erstellt][12] definiert wurden. Die Kopfzeile umfasst den Titel der Anfrage, die Person, die Bearbeitungsfrist und die Anfrage-ID (in der Registerkarte). Zusätzlich können Sie auf ![Symbol][img6] klicken und die Anfrage als Favoriten einstellen. Die Anfrage ist dann im Navigator über **Meine Favoriten** unter **Anfragen** und in der Kachel **Meine Favoriten** im [Dashboard][17] verfügbar.
 
 ### Mitteilungstypen
 
@@ -134,7 +134,7 @@ Die Seitenleiste Eigenschaften der Anfrage enthält folgende Optionen:
 [12]: ../howto/create.md
 [13]: ../howto/assign.md
 [14]: ../howto/reply.md
-[15]: ../howto/fav.md
+[15]: ../../../learn/basics/fav.md
 [16]: ../howto/close.md
 [17]: ../../../dashboard/learn/show-requests.md
 
@@ -142,6 +142,5 @@ Die Seitenleiste Eigenschaften der Anfrage enthält folgende Optionen:
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/personal-settings-small.png
 [img3]: ../../../../media/loc/en/request/request-screen.png
-[img4]: ../../../../../common/icons/favourite-yes.png
 [img5]: ../../../../../common/icons/addcomment.png
 [img6]: ../../../../../common/icons/favourite-no.png

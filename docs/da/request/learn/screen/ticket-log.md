@@ -28,7 +28,6 @@ Dette skærmbillede viser loggen for sagen. Den indeholder alle hændelser i sag
 * [Svar][4]
 * [Del sag][5]
 * [Rediger meddelelse][8]
-* [Foretrukne][6]
 * [Afslut sag][7]
 
 <!-- Referenced links -->
@@ -37,7 +36,6 @@ Dette skærmbillede viser loggen for sagen. Den indeholder alle hændelser i sag
 [3]: ../howto/forward.md
 [4]: ../howto/reply.md
 [5]: ../howto/split-request.md
-[6]: ../howto/fav.md
 [7]: ../howto/close.md
 [8]: ../howto/edit-message.md
 [9]: ../howto/assign.md

@@ -53,10 +53,6 @@ Fanen **Salg** fungerer også som [en salgssekretær][8] ved å fremheve alle ko
 
 ![Gå til Dagboken, og få en oversikt over alle salg som ennå ikke er utført -screenshot][img1]
 
-## Legge til et salg i favoritter
-
-[!include[add fav](../../learn/includes/howto-add-favorite.md)]
-
 ## Hovedkortet for salg
 
 ### Salg-fanen
@@ -119,6 +115,7 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 
 ## Hva vil du gjøre nå?
 
+* [Legge til et salg i favoritter][10]
 * [Les om Salg-bildet][2]
 * [Registrer et salg][4]
 * [Opprette interessenter][5]
@@ -137,6 +134,7 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 [7]: sales-targets/index.md
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
+[10]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

@@ -28,7 +28,6 @@ Dette bildet viser loggen for denne saken. Alle hendelser registreres, inkludert
 * [Svar][4]
 * [Del sak][5]
 * [Redigere melding][8]
-* [Favoritter][6]
 * [Avslutt sak][7]
 
 <!-- Referenced links -->
@@ -37,7 +36,6 @@ Dette bildet viser loggen for denne saken. Alle hendelser registreres, inkludert
 [3]: ../howto/forward.md
 [4]: ../howto/reply.md
 [5]: ../howto/split-request.md
-[6]: ../howto/fav.md
 [7]: ../howto/close.md
 [8]: ../howto/edit-message.md
 [9]: ../howto/assign.md

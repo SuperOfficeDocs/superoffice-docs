@@ -17,8 +17,6 @@ items:
     href: reply.md
   - name: Føj poster i ofte stillede spørgsmål til meddelelser
     href: ../../../faq/learn/add-to-request.md
-  - name: Føj sag til foretrukne
-    href: fav.md
   - name: Tags
     href: ../tags.md
   - name: Hold styr på meddelelser

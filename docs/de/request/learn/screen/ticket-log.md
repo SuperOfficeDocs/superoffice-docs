@@ -28,7 +28,6 @@ In dieser Ansicht werden die Protokolleinträge für die Anfrage angezeigt. Zu s
 * [Antworten][4]
 * [Anfrage aufteilen][5]
 * [Nachricht bearbeiten][8]
-* [Favoriten][6]
 * [Anfrage schließen][7]
 
 <!-- Referenced links -->
@@ -37,7 +36,6 @@ In dieser Ansicht werden die Protokolleinträge für die Anfrage angezeigt. Zu s
 [3]: ../howto/forward.md
 [4]: ../howto/reply.md
 [5]: ../howto/split-request.md
-[6]: ../howto/fav.md
 [7]: ../howto/close.md
 [8]: ../howto/edit-message.md
 [9]: ../howto/assign.md

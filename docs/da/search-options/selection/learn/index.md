@@ -29,10 +29,6 @@ Der findes tre forskellige typer af udvalg i SuperOffice CRM:
 * [Dynamisk udvalg][8], som altid opdateres automatisk med medlemmer, som passer til udvalgskriterierne.
 * Et [Kombinationsudvalg][9] er en kombination af to eksisterende udvalg.
 
-## Tilføj post som foretrukken
-
-[!include[ALT](../../../learn/includes/howto-add-favorite.md)]
-
 ## Opgaver
 
 Fra knappen **Opgaver** (nederste del af skærmbilledet) kan du [udføre bestemte opgaver på medlemmerne i et udvalg][1]. For eksempel sende en e-mail til personer, der er knyttet til salget i udvalget.
@@ -132,6 +128,7 @@ Du kan oprette et udvalg, som indeholder
 
 ## Hvad vil du foretage dig nu?
 
+* [Tilføj post som foretrukken][11]
 * [Oprettelse af udvalg][2]
 * [Udførelse af opgaver med udvalg][1]
 * [Visning af udvalg som diagrammer][4]
@@ -148,6 +145,7 @@ Du kan oprette et udvalg, som indeholder
 [8]: dynamic-selections.md
 [9]: combined-selections.md
 [10]: ../../../learn/section-tabs/configure-columns.md#calculate
+[11]: ../../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

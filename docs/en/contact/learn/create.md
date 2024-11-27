@@ -102,15 +102,16 @@ In the **Interests** tab you have the following options:
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Add record as a favorite
-
-[!include[How to add favorite](../../learn/includes/howto-add-favorite.md)]
-
 [!include[Tip](../../learn/includes/tip-open-website.md)]
+
+## Related content
+
+* [Add contact as a favorite][4]
 
 <!-- Referenced links -->
 [1]: ../../../en/mobile/superoffice-mobile/company-contact/scan-business-card.md
 [2]: ../../admin/import/learn/index.md
+[4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: add-relation.md
 

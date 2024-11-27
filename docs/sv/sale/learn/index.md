@@ -53,10 +53,6 @@ Fliken **Försäljning** fungerar också som en [försäljningssekreterare][8] g
 
 ![Gå till kalendern och få en översikt över alla försäljningar som ännu inte är slutförda -screenshot][img1]
 
-## Lägg till en försäljning i favoriter
-
-[!include[add fav](../../learn/includes/howto-add-favorite.md)]
-
 ## Huvudkortet för försäljning
 
 ### Fliken försäljning
@@ -112,6 +108,7 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 
 ## Vad vill du göra nu?
 
+* [Lägg till en försäljning i favoriter][10]
 * [Läs om fönstret Försäljning][2]
 * [Registrera en försäljning][4]
 * [Skapa intressenter][5]
@@ -130,6 +127,7 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 [7]: sales-targets/index.md
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
+[10]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

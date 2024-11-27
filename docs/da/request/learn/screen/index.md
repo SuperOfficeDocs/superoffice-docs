@@ -28,7 +28,7 @@ Skærmbilledet Sag har følgende sektioner:
 
 ### Sagsoverskrift
 
-Sagens header indeholder de egenskaber, der blev angivet, da [sagen blev oprettet][12]. Headeren består af sagstitel, person, tidsfrist og sags-id (på fanen). Desuden kan du klikke på ![ikon][img6] for at angive sagen som et foretrukkent ![ikon][img4]. Sagen vil derefter være tilgængelig via **Mine foretrukne** på **Sager** i Navigator og i ruden**Mine foretrukne** på et [dashboard][17].
+Sagens header indeholder de egenskaber, der blev angivet, da [sagen blev oprettet][12]. Headeren består af sagstitel, person, tidsfrist og sags-id (på fanen). Desuden kan du klikke på ![ikon][img6] for at angive sagen som et foretrukkent. Sagen vil derefter være tilgængelig via **Mine foretrukne** på **Sager** i Navigator og i ruden**Mine foretrukne** på et [dashboard][17].
 
 ### Meddelelsestyper
 
@@ -134,7 +134,7 @@ Sidepanelet Egenskaber for sag indeholder følgende indstillinger:
 [12]: ../howto/create.md
 [13]: ../howto/assign.md
 [14]: ../howto/reply.md
-[15]: ../howto/fav.md
+[15]: ../../../learn/basics/fav.md
 [16]: ../howto/close.md
 [17]: ../../../dashboard/learn/show-requests.md
 
@@ -142,6 +142,5 @@ Sidepanelet Egenskaber for sag indeholder følgende indstillinger:
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/personal-settings-small.png
 [img3]: ../../../../media/loc/en/request/request-screen.png
-[img4]: ../../../../../common/icons/favourite-yes.png
 [img5]: ../../../../../common/icons/addcomment.png
 [img6]: ../../../../../common/icons/favourite-no.png

@@ -28,7 +28,6 @@ På denna skärm visas loggen för ärendet. Alla händelser registreras, inkl. 
 * [Svar][4]
 * [Dela ett ärende][5]
 * [Redigera meddelande][8]
-* [Favoriter][6]
 * [Avsluta ärende][7]
 
 <!-- Referenced links -->
@@ -37,7 +36,6 @@ På denna skärm visas loggen för ärendet. Alla händelser registreras, inkl. 
 [3]: ../howto/forward.md
 [4]: ../howto/reply.md
 [5]: ../howto/split-request.md
-[6]: ../howto/fav.md
 [7]: ../howto/close.md
 [8]: ../howto/edit-message.md
 [9]: ../howto/assign.md

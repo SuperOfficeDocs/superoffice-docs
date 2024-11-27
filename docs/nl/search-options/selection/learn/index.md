@@ -29,10 +29,6 @@ SuperOffice CRM bevat drie verschillende selectietypen:
 * [Dynamische selecties][8], die altijd automatisch worden bijgewerkt wanneer leden worden toegevoegd die aan de selectiecriteria voldoen.
 * [Gecombineerde selecties][9], dit is een combinatie van twee bestaande selecties.
 
-## Record toevoegen als een favoriet
-
-[!include[ALT](../../../learn/includes/howto-add-favorite.md)]
-
 ## Taken
 
 U kunt via de button **Taken** (onderste deel van het scherm) [specifieke taken uitvoeren op de leden van een selectie][1]. Bijvoorbeeld een e-mail verzenden naar personen die aan de verkopen in de selectie zijn gelinkt.
@@ -132,6 +128,7 @@ U kunt een selectie maken met
 
 ## Wat wilt u nu doen?
 
+* [Record toevoegen als een favoriet][11]
 * [Selecties maken][2]
 * [Taken uitvoeren met selecties][1]
 * [Selecties weergeven als grafieken][4]
@@ -148,6 +145,7 @@ U kunt een selectie maken met
 [8]: dynamic-selections.md
 [9]: combined-selections.md
 [10]: ../../../learn/section-tabs/configure-columns.md#calculate
+[11]: ../../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

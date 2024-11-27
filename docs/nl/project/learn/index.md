@@ -65,10 +65,6 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 > [!TIP]
 > Als u op de knop ( ![pictogram][img5] ) rechts van **Bevestiging** klikt, kunt u een bevestigingstekst invoeren die in een dialoogvenster wordt weergegeven wanneer een Audience-gebruiker zich voor de gebeurtenis aan- of afmeldt. De gebruiker moet in dit dialoogvenster op **Ja** of **Nee** klikken om verder te gaan.
 
-## Project toevoegen aan favorieten
-
-[!include[ALT](../../learn/includes/howto-add-favorite.md)]
-
 ## Projectinformatie afdrukken
 
 1. [!include[Go to project](includes/goto-project.md)]
@@ -77,6 +73,7 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 
 ## Wat wilt u nu doen?
 
+* [Project toevoegen aan favorieten][9]
 * [Een project maken][2]
 * [Een project bewerken][3]
 * [Projecten samenvoegen][4]
@@ -92,6 +89,7 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 [5]: delete.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
+[9]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

@@ -46,6 +46,6 @@ items:
   durationInMinutes: 3
   stepNumber: 3
   content: |-
-    1. [!include[Legge til i Favoritter](includes/add-to-fav.md)]
+    1. Klikk eventuelt på stjerneikonet (![ikon](../../../../../../common/icons/favourite-no.png)) for å legge utvalget til [favorittene dine](../../../../learn/basics/fav.md).
 
     1. Når du er ferdig med å definere kjernedataene for utvalget, klikker du på **Lagre**.

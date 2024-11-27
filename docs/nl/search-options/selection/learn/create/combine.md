@@ -37,7 +37,7 @@ Stel eigenschappen in volgens de instructies van stap 2 in de zelfstudie [Select
 
 ## Voltooien
 
-1. [!include[Add to Favorites](includes/add-to-fav.md)]
+1. Klik eventueel op het sterpictogram (![pictogram][img1]) om de selectie aan [je favorieten][2] toe te voegen.
 
 1. Klik op **Opslaan**.
 
@@ -45,3 +45,7 @@ Na het opslaan van de selectie, kunt u [deze bewerken](../update/index.md) door 
 
 <!-- Referenced links -->
 [1]: tutorial.yml
+[2]: ../../../../learn/basics/fav.md
+
+<!-- Referenced images -->
+[img1]: ../../../../../../common/icons/favourite-no.png

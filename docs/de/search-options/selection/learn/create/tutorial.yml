@@ -46,6 +46,6 @@ items:
   durationInMinutes: 3
   stepNumber: 3
   content: |
-    1. [!include[Zu Favoriten hinzufügen](includes/add-to-fav.md)]
+    1. Optional können Sie auf das Sternsymbol (![Symbol](../../../../../../common/icons/favourite-no.png)) klicken, um die Selektion zu [Ihren Favoriten](../../../../learn/basics/fav.md) hinzuzufügen.
 
     1. Wenn Sie die Definition der wichtigsten Daten für die Selektion beendet haben, klicken Sie auf **Speichern**.

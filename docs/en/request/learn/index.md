@@ -105,7 +105,7 @@ Different companies have different routines for request handling and can use Sup
 * [Reply][19]
 * [Split request][21]
 * [Edit message][9]
-* [Favourites][8]
+* [Favorites][8]
 * [Close request][22]
 
 <!-- Referenced links -->
@@ -115,7 +115,7 @@ Different companies have different routines for request handling and can use Sup
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
-[8]: howto/fav.md
+[8]: ../../learn/basics/fav.md
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list

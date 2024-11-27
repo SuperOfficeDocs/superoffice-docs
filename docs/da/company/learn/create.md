@@ -77,20 +77,21 @@ Se videoen, der viser, hvordan du [opretter et firma][1].
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Tilføj post som foretrukken
-
-[!include[How to](../../learn/includes/howto-add-favorite.md)]
-
 ## Dubletter
 
 Hvis du forsøger at indtaste en virksomhed, der ligner en, der allerede er i SuperOffice CRM, vises dialogboksen **Dubletter** for at forhindre dig [i utilsigtet at registrere en eksisterende virksomhed][2]. Vælg, om du vil fortsætte med at arbejde med den aktuelle post, eller gå til en af posterne nederst i dialogboksen.
 
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
+## Relaterede emner
+
+* [Tilføj post som foretrukken][4]
+
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
+[4]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

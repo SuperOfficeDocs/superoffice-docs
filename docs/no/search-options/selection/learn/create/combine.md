@@ -37,7 +37,7 @@ Angi egenskaper ved å følge instruksjonene i trinn 2 i opplæringen [Opprett u
 
 ## Fullfør
 
-1. [!include[Add to Favorites](includes/add-to-fav.md)]
+1. Klikk eventuelt på stjerneikonet (![ikon][img1]) for å legge utvalget til [favorittene dine][2].
 
 1. Klikk på **Lagre**.
 
@@ -45,3 +45,7 @@ Når du har lagret utvalget, kan du [redigere det](../update/index.md) for å en
 
 <!-- Referenced links -->
 [1]: tutorial.yml
+[2]: ../../../../learn/basics/fav.md
+
+<!-- Referenced images -->
+[img1]: ../../../../../../common/icons/favourite-no.png

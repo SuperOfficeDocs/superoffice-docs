@@ -117,7 +117,7 @@ Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge Supe
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
-[8]: howto/fav.md
+[8]: ../../learn/basics/fav.md
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list

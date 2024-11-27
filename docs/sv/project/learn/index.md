@@ -65,10 +65,6 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 > [!TIP]
 > Om du klickar på knappen ( ![ikon][img5] ) till höger om **Bekräftelse**, kan du ange en bekräftelsetext som ska visas i en dialogruta när en Audience-användare anmäler eller avanmäler sig till arrangemanget. Användaren måste klicka på **Ja** eller **Nej** i denna dialogruta för att fortsätta.
 
-## Lägg till projekt i favoriter
-
-[!include[ALT](../../learn/includes/howto-add-favorite.md)]
-
 ## Skriva ut projektinformation
 
 1. [!include[Go to project](includes/goto-project.md)]
@@ -77,6 +73,7 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 
 ## Vad vill du göra nu?
 
+* [Lägg till projekt i favoriter][9]
 * [Skapa ett projekt][2]
 * [Redigera ett projekt][3]
 * [Slå ihop projekt][4]
@@ -92,6 +89,7 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 [5]: delete.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
+[9]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

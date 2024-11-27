@@ -2,8 +2,6 @@ items:
 - name: Översikt
   href: index.md
 
-- name: Lägga till favoriter
-  href: add-fav.md
 - name: Skapa mapp
   href: create-folder.md
 - name: Meddelandemallar

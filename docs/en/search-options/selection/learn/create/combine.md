@@ -37,7 +37,7 @@ Set properties following the instructions of step 2 in the [Create selection][1]
 
 ## Finish
 
-1. [!include[Add to Favorites](includes/add-to-fav.md)]
+1. Optionally, click the star icon (![icon][img1]) to add the selection to [your favorites][2].
 
 1. Click **Save**.
 
@@ -45,3 +45,7 @@ After saving the selection, you can [edit it](../update/index.md) to change both
 
 <!-- Referenced links -->
 [1]: tutorial.yml
+[2]: ../../../../learn/basics/fav.md
+
+<!-- Referenced images -->
+[img1]: ../../../../../../common/icons/favourite-no.png

@@ -2,8 +2,6 @@ items:
 - name: Overview
   href: index.md
 
-- name: Add favorites
-  href: add-fav.md
 - name: Create folder
   href: create-folder.md
 - name: Add images

@@ -37,7 +37,7 @@ Legen Sie die Eigenschaften gemäß den Anweisungen im Schritt 2 im Lernprogramm
 
 ## Fertig stellen
 
-1. [!include[Add to Favorites](includes/add-to-fav.md)]
+1. Optional können Sie auf das Sternsymbol (![Symbol][img1]) klicken, um die Selektion zu [Ihren Favoriten][2] hinzuzufügen.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -45,3 +45,7 @@ Nachdem Sie die Selektion gespeichert haben, können Sie diese [bearbeiten](../u
 
 <!-- Referenced links -->
 [1]: tutorial.yml
+[2]: ../../../../learn/basics/fav.md
+
+<!-- Referenced images -->
+[img1]: ../../../../../../common/icons/favourite-no.png

@@ -102,15 +102,16 @@ Auf der Registerkarte **Interessen** stehen folgende Optionen zur Verfügung:
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Datensatz als Favoriten hinzufügen
-
-[!include[How to add favorite](../../learn/includes/howto-add-favorite.md)]
-
 [!include[Tip](../../learn/includes/tip-open-website.md)]
+
+## Verwandte Themen
+
+* [Datensatz als Favoriten hinzufügen][4]
 
 <!-- Referenced links -->
 [1]: ../../../en/mobile/superoffice-mobile/company-contact/scan-business-card.md
 [2]: ../../admin/import/learn/index.md
+[4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: add-relation.md
 

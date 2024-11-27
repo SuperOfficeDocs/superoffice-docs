@@ -1,10 +1,11 @@
 ---
-uid: help-de-favourites
+uid: help-de-favorites
 title: Favoriten
 description: Favoriten
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Favoriten
+author: Bergfrid Dias, Kirsti Aakerholt
+date: 11.29.2024
+verion: 10.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -17,39 +18,55 @@ Favoriten erlauben den schnellen Zugriff auf für Sie besonders wichtige Datens�
 
 ## Datensatz als Favoriten hinzufügen
 
-[!include[Add fav](../includes/howto-add-favorite.md)]
+Wenn Sie einen Datensatz zu den Favoriten hinzufügen möchten, klicken Sie auf das Sternsymbol (![Symbol][img3]) in der jeweiligen Karte bzw. Registerkarte oder im jeweiligen Dialogfeld. Der Stern wird daraufhin in Gelb angezeigt und der Datensatz wird sofort zu den Favoriten hinzugefügt. Sie brauchen nicht auf **Speichern** zu klicken.
 
 In Listen (z. B. Bereichsregisterkarten und Suchen) können Sie mit der rechten Maustaste auf einen Datensatz klicken und im Menü **Zu Favoriten hinzufügen** wählen.
 
-Erläuterungen zum Hinzufügen von Berichten als Favoriten finden Sie unter [Favoriten][1].
+Jetzt können Sie schnell auf den Datensatz zugreifen, indem Sie im Navigatormenü auf ![Symbol][img1] klicken. Die Favoriten sind auch in der [Seitenleiste][4] verfügbar.
 
 ## Auf Favoriten zugreifen
 
-An folgenden Stellen in der Anwendung können Sie auf Ihre Favoriten zugreifen:
+### Vom Navigator
 
-* Direkt vom Navigator:
-    1. Klicken Sie im Navigator auf **Firma**, **Person**, **Verkauf**, **Projekt**, **Anfrage** oder **Selektion**.
-    2. Klicken Sie auf das ![Symbol][img1].
-    3. Wählen Sie das Element aus, das Sie anzeigen möchten.
-* Auf der Seitenleiste.
+1. Klicken Sie im Navigator auf **Firma**, **Person**, **Verkauf**, **Projekt**, **Anfrage** oder **Selektion**.
+
+1. Klicken Sie auf das ![Symbol][img1].
+
+1. Wählen Sie das Element aus, das Sie anzeigen möchten.
+
+### In der Seitenleiste
+
+1. Klicken Sie auf das Chevron-Symbol neben dem Namen der Seitenleiste, um die Liste zu öffnen.
+
+1. Wählen Sie **Meine Favoriten** aus.
+
+1. Klicken Sie optional auf das Kontrollkästchen unten in der Seitenleiste, um nur einen Favoritentyp anzuzeigen. Wenn zum Beispiel die Verkaufansicht geöffnet ist, klicken Sie auf **Nur Verkäufe**, um nur Favoriten aus dem Verkauf anzuzeigen.
 
 > [!TIP]
-> Wenn Sie mit dem Mauszeiger auf einen Datensatz in der Favoritenliste zeigen, wird eine QuickInfo mit zusätzlichen Informationen zum Datensatz eingeblendet.
+> Bewegen Sie den Mauszeiger über einen Favoriten, um mehr Details zu sehen.
 
-## Objekt aus der Favoritenliste entfernen
+## Datensatz aus der Favoritenliste entfernen
 
 1. Öffnen Sie den Datensatz.
-2. Klicken Sie auf das Favoritensymbol ![Symbol][img2] in der Kopfzeile. Das Symbol wechselt zu ![Symbol][img3].
+
+1. Klicken Sie auf das Favoritensymbol (![Symbol][img2]) in der Kopfzeile. Das Symbol wechselt zurück zur Standardeinstellung, was darauf hinweist, dass der Datensatz nicht länger ein Favorit ist.
+
+## Zusätzliche Tipps
+
+* **Mehrere Datensätze als Favoriten hinzufügen:** Sie können mehrere Elemente in einer Liste auswählen, indem Sie die Strg-Taste (Cmd auf dem Mac) gedrückt halten und auf jedes Element klicken. Anschließend klicken Sie mit der rechten Maustaste und wählen **Zu Favoriten hinzufügen**.
+
+* **Favoriten für die schnelle Navigation verwenden:** Favoriten sind besonders nützlich, um schnell auf häufig verwendete Datensätze zuzugreifen, ohne jedes Mal danach suchen zu müssen.
 
 ## Zugehörige Inhalte
 
-* [Favoritenanfragen][2]
-* [Favoritenkampagnen und Formulare][3]
+* [Navigator][2]
+* [Verlaufsliste][1]
+* [Seitenleisten][4]
 
 <!-- Referenced links -->
-[1]: ../../reports/learn/favorites/index.md
-[2]: ../../request/learn/howto/fav.md
-[3]: ../../marketing/learn/add-fav.md
+[1]: history.md
+[2]: ../getting-started/main-screen/navigator.md
+[4]: ../getting-started/main-screen/side-panel.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-fav.png

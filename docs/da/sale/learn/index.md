@@ -53,10 +53,6 @@ Fanen **Salg** fungerer også som [en salgssekretær][8] ved at fremhæve alle d
 
 ![Gå til Dagbog, og få et overblik over alle de salg, der endnu ikke er gennemført -screenshot][img1]
 
-## Føj et salg til foretrukne
-
-[!include[add fav](../../learn/includes/howto-add-favorite.md)]
-
 ## Hovedkortet beregnet til salg
 
 ### Fanen Salg
@@ -112,6 +108,7 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 
 ## Hvad vil du foretage dig nu?
 
+* [Føj et salg til foretrukne][10]
 * Skærmbilledet [Læs om salget][2]
 * [Registrer et salg][4]
 * [Oprettelse af interessenter][5]
@@ -130,6 +127,7 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 [7]: sales-targets/index.md
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
+[10]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

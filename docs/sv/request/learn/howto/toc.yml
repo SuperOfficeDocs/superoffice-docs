@@ -17,8 +17,6 @@ items:
     href: reply.md
   - name: Lägga till FAQ-poster i meddelanden
     href: ../../../faq/learn/add-to-request.md
-  - name: Lägga till ärende i favoriter
-    href: fav.md
   - name: Taggar
     href: ../tags.md
   - name: Hålla koll på meddelanden

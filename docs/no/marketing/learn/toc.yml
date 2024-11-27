@@ -2,8 +2,6 @@ items:
 - name: Oversikt
   href: index.md
 
-- name: Legge til favoritter
-  href: add-fav.md
 - name: Opprette mappe
   href: create-folder.md
 - name: Meldingsmaler

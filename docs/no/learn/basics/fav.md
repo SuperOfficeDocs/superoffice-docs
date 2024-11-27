@@ -1,10 +1,11 @@
 ---
-uid: help-no-favourites
+uid: help-no-favorites
 title: Favoritter
 description: Favoritter
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Favoritter
+author: Bergfrid Dias, Kirsti Aakerholt
+date: 11.29.2024
+verion: 10.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -17,39 +18,55 @@ Favoritter-funksjonen gir enkel tilgang til favorittoppføringene dine, for ekse
 
 ## Legge til post som en favoritt
 
-[!include[Add fav](../includes/howto-add-favorite.md)]
+For å legge til en post i favoritter, klikk på stjerneikonet (![icon][img3]) i det aktuelle kortet, fanen eller dialogboksen. Stjernen blir gul, og oppføringen blir umiddelbart lagt til favoritter. Du trenger ikke klikke på **Lagre**.
 
 I lister som (for eksempel detaljkort og Finn) kan du høyreklikke på en post og velge **Legg til i favoritter** på menyen.
 
-Hvis du vil legge til rapporter som favoritter, kan du se [Favorittrapporter][1].
+Nå kan du raskt få tilgang til oppføringen ved å klikke på ![icon][img1] fra Navigator-menyen. Favorittene er også tilgjengelige i [sidepanelet][4].
 
 ## Få tilgang til favorittene dine
 
-Du kan få tilgang til favorittene dine fra følgende steder i applikasjonen:
+### Fra navigatoren
 
-* Direkte fra navigatoren:
-    1. Klikk på ordet **Firma**, **Person**, **Salg**, **Prosjekt**, **Saker** eller **Utvalg** i navigatoren.
-    2. Klikk på ![icon][img1].
-    3. Velg elementet du vil vise.
-* I sidepanelet.
+1. Klikk på ordet **Firma**, **Person**, **Salg**, **Prosjekt**, **Saker** eller **Utvalg** i navigatoren.
+
+1. Klikk på ![icon][img1].
+
+1. Velg elementet du vil vise.
+
+### I sidepanelet
+
+1. Klikk på chevron-ikonet ved siden av navnet til sidepanelet for å åpne listen.
+
+1. Velg **Mine favoritter**.
+
+1. Klikk eventuelt på avmerkingsboksen nederst i sidepanelet for å vise bare én type favoritter. For eksempel, hvis Salg-skjermen er åpen, klikk på **Kun salg** for å vise kun favorittsalg.
 
 > [!TIP]
-> Hvis du holder musepekeren over en post i favorittlisten, vises en Infoboks med tilleggsdata om posten.
+> Hold markøren over en favoritt for å se flere detaljer.
 
-## Fjerne et element fra favorittlisten
+## Fjern oppføring fra Favoritter-listen
 
 1. Åpne oppføringen.
-2. Klikk på favorittikonet ![icon][img2] i overskriften. Ikonet endres til ![icon][img3].
+
+1. Klikk på favorittikonet (![ikon][img2]) i toppteksten. Ikonet endres tilbake til standard, noe som indikerer at oppføringen ikke lenger er en favoritt.
+
+## Ytterligere tips
+
+* **Legg til flere oppføringer som favoritter:** Du kan velge flere elementer i en liste ved å holde nede Ctrl (Cmd på Mac) og klikke på hvert element, deretter høyreklikke og velge **Legg til i mine favoritter**.
+
+* **Bruke favoritter for rask navigasjon:** Favoritter er spesielt nyttige for rask tilgang til ofte brukte oppføringer uten å måtte søke etter dem hver gang.
 
 ## Aktuelt innhold
 
-* [Favorittsaker][2]
-* [Favorittutsendelser og skjemaer][3]
+* [Navigator][2]
+* [Historikkliste][1]
+* [Sidepaneler][4]
 
 <!-- Referenced links -->
-[1]: ../../reports/learn/favorites/index.md
-[2]: ../../request/learn/howto/fav.md
-[3]: ../../marketing/learn/add-fav.md
+[1]: history.md
+[2]: ../getting-started/main-screen/navigator.md
+[4]: ../getting-started/main-screen/side-panel.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-fav.png

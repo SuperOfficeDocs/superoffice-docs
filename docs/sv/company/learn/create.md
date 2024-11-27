@@ -77,20 +77,21 @@ Titta på filmen om hur du [skapar ett företag][1].
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Lägg till en post som favorit
-
-[!include[How to](../../learn/includes/howto-add-favorite.md)]
-
 ## Dubbletter
 
 Om du försöker lägga in ett företag som liknar ett företag som redan finns i SuperOffice CRM visas dialogrutan **Dubbletter** för att förhindra att du [oavsiktligt registrerar ett redan befintligt företag][2]. Välj om du vil fortsätta att arbeta med den aktuella posten eller gå till en av posterna längst ner i dialogrutan.
 
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
+## Relaterade ämnen
+
+* [Lägg till en post som favorit][4]
+
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
+[4]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

@@ -65,10 +65,6 @@ I fanen **Arrangement** kan du angi innstillinger for publisering av arrangement
 > [!TIP]
 > Hvis du klikker på knappen ( ![ikon][img5] ) til høyre for **Bekreftelse**, kan du skrive inn en bekreftelsestekst som skal vises i en dialogboks når en Audience-bruker melder seg på eller av arrangementet. Brukeren må klikke på **Ja** eller **Nei** i denne dialogboksen for å fortsette.
 
-## Legge til prosjekt i favoritter
-
-[!include[ALT](../../learn/includes/howto-add-favorite.md)]
-
 ## Skrive ut prosjektinformasjon
 
 1. [!include[Go to project](includes/goto-project.md)]
@@ -77,6 +73,7 @@ I fanen **Arrangement** kan du angi innstillinger for publisering av arrangement
 
 ## Hva vil du gjøre nå?
 
+* [Legge til prosjekt i favoritter][9]
 * [Opprette et prosjekt][2]
 * [Redigere et prosjekt][3]
 * [Slå sammen prosjekter][4]
@@ -92,6 +89,7 @@ I fanen **Arrangement** kan du angi innstillinger for publisering av arrangement
 [5]: delete.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
+[9]: ../../learn/basics/fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
